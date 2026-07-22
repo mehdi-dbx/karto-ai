@@ -39,3 +39,18 @@ Hard-vs-soft split: "makes AI chips/rock" → Manufacturing/Mining; "writes AI s
 - Deployment = (Vertical, Horizontal) coordinate. e.g. a bank chatbot = (Financial Services, Customer Support);
   a bank fraud model = (Financial Services, Core/Domain).
 - One deployment = one cell. Never force it to choose between an industry and a function — it has both.
+
+## Open classification debt (flagged, deliberately NOT yet actioned)
+Reviewed 2026-07-22 with the user; decision was "leave it at that for now, but that's questionable."
+- **Food & Beverage / Consumer Staples has no vertical of its own.** ~68 food/bev/CPG deployments
+  (Nestlé, Danone, Pernod Ricard, Hindustan Unilever, Budweiser, Yili, Muyuan Foodstuff, Britannia,
+  United Spirits, Beiersdorf, Henkel…) are absorbed into **Retail & E-commerce** (58) and scattered
+  across Healthcare/Life-Sci etc. This cluster is larger than several standalone verticals and is a
+  strong candidate to split out under the STANDING RULE. raw_sector tags ("Consumer Staples",
+  "Consumer Defensive", "FMCG") are preserved, so a split is clean + reversible.
+  - Known strays to fix if/when split: **Budweiser Brewing** and **Mengniu Dairy** are mis-bucketed
+    into **Real Estate & Construction** (artifact of Hang Seng "Commerce & Industry (HSI)" tag).
+- **Agriculture is a near-empty vertical (1 row: Nissui, a fishery).** Index-based sampling of *listed*
+  companies structurally under-sees agriculture (much of it private/co-op/state-owned); real agri-AI is
+  scattered into Industrial (Cosan), Chemicals (Bayer/Corteva type), Automotive (Deere type). Substantive
+  coverage needs a targeted, name-seeded crawl, not general-index sampling. Flagged as a sampling gap.
