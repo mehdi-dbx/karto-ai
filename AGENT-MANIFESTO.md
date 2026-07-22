@@ -74,6 +74,6 @@ Per finding:
 
 
 <!-- SWEEP OUTPUT: Google Sheet 'AI Deployment Register — Country Sweep' -->
-<!-- SHEET_ID: 14BzbimaeY4tSXq6Ia8-gfYRZhUW6ZMlqUzprxgqaIkY -->
-<!-- URL: https://docs.google.com/spreadsheets/d/14BzbimaeY4tSXq6Ia8-gfYRZhUW6ZMlqUzprxgqaIkY/edit -->
+<!-- SHEET_ID: <KARTO_SHEET_ID — in karto.config> -->
+<!-- URL: <your Google Sheet URL — see karto.config> -->
 <!-- Tabs: Register / Findings / Noise / Progress. Agents write local register_<CC>.md; I merge → Sheet (single writer). -->

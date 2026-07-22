@@ -1,0 +1,18 @@
+# KARTO local config — copy to `karto.config` (git-ignored) and fill in YOUR values.
+# This file is ALSO your record of "where do the live docs live in my Google Drive".
+#
+# scripts/ read these via scripts/_config.py. Nothing here is secret, but the Sheet/Doc
+# are PRIVATE to their owner — only the owner's Google account can open them. A cloner
+# runs the sweep to build their OWN data, then creates their OWN Sheet (scripts/make_sheet.py)
+# and records its id below.
+
+# The Google Sheet that holds the deployment register (Register/Findings/Synthesis/Universe/Noise tabs).
+# Find it in your Drive by title: "AI Deployment Register — Country Sweep"
+KARTO_SHEET_ID=
+
+# The Google Doc that holds the graded 20-row map.
+# Find it in your Drive by title: "Where AI Is Actually Profitable — A Domain Map"
+KARTO_DOC_ID=
+
+# Your GCP quota project for Google API calls (each user sets their own; do NOT commit a real one).
+KARTO_QUOTA_PROJECT=

@@ -71,10 +71,10 @@ Worked for MIT NANDA 2025 and DORA 2025. If WebFetch saves a binary to disk, Rea
 ### B.4 Google auth (needed to write to the Doc)
 
 ```bash
-python3 /Users/mehdi.lamrani/.vibe/marketplace/plugins/fe-google-tools/skills/google-auth/resources/google_auth.py status
+python3 ~/.vibe/marketplace/plugins/fe-google-tools/skills/google-auth/resources/google_auth.py status
 # if expired:  ... google_auth.py login
 ```
-Raw Docs API calls need header: `x-goog-user-project: gcp-dev-field-eng-aiapiquota`.
+Raw Docs API calls need header: `x-goog-user-project: <KARTO_QUOTA_PROJECT — in karto.config>`.
 
 ---
 
@@ -82,8 +82,8 @@ Raw Docs API calls need header: `x-goog-user-project: gcp-dev-field-eng-aiapiquo
 
 ### C.1 The living Google Doc
 - **Title:** *"Where AI Is Actually Profitable — A Domain Map"*
-- **docId:** `1BHTiTqsXixjmFd-MovM7E2GmZjdgxSkxIQC1rxUbFag`
-- **URL:** https://docs.google.com/document/d/1BHTiTqsXixjmFd-MovM7E2GmZjdgxSkxIQC1rxUbFag/edit
+- **docId:** `<KARTO_DOC_ID — in karto.config>`
+- **URL:** <your Google Doc URL — see karto.config>
 - **Orientation:** landscape (792×612 pt) — tables are wide.
 
 ### C.2 How to append a new row/section
@@ -91,7 +91,7 @@ Raw Docs API calls need header: `x-goog-user-project: gcp-dev-field-eng-aiapiquo
 # 1. Write the section as markdown to /tmp/section.md (use pipe tables — they render).
 # 2. Append:
 python3 ~/.vibe/marketplace/plugins/fe-google-tools/skills/google-docs/resources/markdown_to_gdocs.py \
-  --input /tmp/section.md --doc-id 1BHTiTqsXixjmFd-MovM7E2GmZjdgxSkxIQC1rxUbFag
+  --input /tmp/section.md --doc-id <KARTO_DOC_ID — in karto.config>
 ```
 - Begin sections with `<!-- pagebreak -->` for clean separation.
 - **Lens-table formatting learned:** fixed column widths (Lens ~90pt / Score ~120pt /
@@ -537,6 +537,6 @@ chain · Agriculture · Telecom · Real estate & construction · Travel & hospit
 
 
 <!-- SWEEP OUTPUT: Google Sheet 'AI Deployment Register — Country Sweep' -->
-<!-- SHEET_ID: 14BzbimaeY4tSXq6Ia8-gfYRZhUW6ZMlqUzprxgqaIkY -->
-<!-- URL: https://docs.google.com/spreadsheets/d/14BzbimaeY4tSXq6Ia8-gfYRZhUW6ZMlqUzprxgqaIkY/edit -->
+<!-- SHEET_ID: <KARTO_SHEET_ID — in karto.config> -->
+<!-- URL: <your Google Sheet URL — see karto.config> -->
 <!-- Tabs: Register / Findings / Noise / Progress. Agents write local register_<CC>.md; I merge → Sheet (single writer). -->

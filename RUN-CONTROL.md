@@ -41,8 +41,8 @@ The sweep spans many sessions. This file defines how we keep it **visible, pausa
 - **Merge:** whenever (periodic or at end), single-threaded, local files → Sheet Register/Findings/Noise tabs.
 
 ## Sheet
-- ID: `14BzbimaeY4tSXq6Ia8-gfYRZhUW6ZMlqUzprxgqaIkY`
-- URL: https://docs.google.com/spreadsheets/d/14BzbimaeY4tSXq6Ia8-gfYRZhUW6ZMlqUzprxgqaIkY/edit
+- ID: `<KARTO_SHEET_ID — in karto.config>`
+- URL: <your Google Sheet URL — see karto.config>
 - Tabs: Register · Findings · Noise · Progress
 
 ## Open decisions (need user)

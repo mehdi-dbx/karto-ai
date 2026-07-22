@@ -34,11 +34,11 @@ cells read ⚪ "no credible evidence yet" — a real finding, not a failure. The
 ## 2. The two live deliverables (THESE ARE THE OUTPUT)
 
 - **Google Doc — the graded 20-row map:** *"Where AI Is Actually Profitable — A Domain Map"*
-  docId `1BHTiTqsXixjmFd-MovM7E2GmZjdgxSkxIQC1rxUbFag`
-  https://docs.google.com/document/d/1BHTiTqsXixjmFd-MovM7E2GmZjdgxSkxIQC1rxUbFag/edit
+  docId `<KARTO_DOC_ID — in karto.config>`
+  <your Google Doc URL — see karto.config>
 - **Google Sheet — the deployment register:** *"AI Deployment Register — Country Sweep"*
-  sheetId `14BzbimaeY4tSXq6Ia8-gfYRZhUW6ZMlqUzprxgqaIkY`
-  https://docs.google.com/spreadsheets/d/14BzbimaeY4tSXq6Ia8-gfYRZhUW6ZMlqUzprxgqaIkY/edit
+  sheetId `<KARTO_SHEET_ID — in karto.config>`
+  <your Google Sheet URL — see karto.config>
   Tabs: **Synthesis · Register · Findings · Noise · Progress · Universe**
 
 ---
@@ -76,7 +76,7 @@ empty, either copy `data/register/*` → `/tmp/` first, or edit the glob path to
   `tools/websearch.py` instead** (or WebFetch). Do not burn time re-diagnosing this.
 - **Google auth:** `python3 ~/.vibe/marketplace/plugins/fe-google-tools/skills/google-auth/resources/google_auth.py status`
   (login if expired). All Sheets/Docs API calls need header
-  `x-goog-user-project: gcp-dev-field-eng-aiapiquota`.
+  `x-goog-user-project: <KARTO_QUOTA_PROJECT — in karto.config>`.
 - **Big PDFs:** WebFetch caps ~10 MB → `curl -sL -o /tmp/x.pdf <url>` then Read tool (pages param).
 
 ---

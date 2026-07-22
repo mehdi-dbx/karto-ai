@@ -1,8 +1,13 @@
 import json, subprocess, urllib.request
-QUOTA="gcp-dev-field-eng-aiapiquota"
-AUTH="/Users/mehdi.lamrani/.vibe/marketplace/plugins/fe-google-tools/skills/google-auth/resources/google_auth.py"
+import os as _os, sys as _sys
+_sys.path.insert(0, _os.path.dirname(_os.path.abspath(__file__)))
+from _config import load as _load
+_CFG = _load()
+
+QUOTA=_CFG["KARTO_QUOTA_PROJECT"]
+AUTH=_os.path.expanduser("~/.vibe/marketplace/plugins/fe-google-tools/skills/google-auth/resources/google_auth.py")
 TOK=subprocess.run(["python3",AUTH,"token"],capture_output=True,text=True).stdout.strip()
-SID="14BzbimaeY4tSXq6Ia8-gfYRZhUW6ZMlqUzprxgqaIkY"
+SID=_CFG["KARTO_SHEET_ID"]
 def api(url,method="GET",body=None):
     data=json.dumps(body).encode() if body is not None else None
     r=urllib.request.Request(url,data=data,method=method,headers={"Authorization":f"Bearer {TOK}","x-goog-user-project":QUOTA,"Content-Type":"application/json"})

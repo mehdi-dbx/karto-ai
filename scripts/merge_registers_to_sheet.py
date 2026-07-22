@@ -21,10 +21,15 @@ Usage:
   python3 scripts/merge_registers_to_sheet.py --publish  # phase 2 only (CSV -> Sheet)
 """
 import json, subprocess, urllib.request, glob, csv, sys, os
+import os as _os, sys as _sys
+_sys.path.insert(0, _os.path.dirname(_os.path.abspath(__file__)))
+from _config import load as _load
+_CFG = _load()
 
-QUOTA = "gcp-dev-field-eng-aiapiquota"
-AUTH = "/Users/mehdi.lamrani/.vibe/marketplace/plugins/fe-google-tools/skills/google-auth/resources/google_auth.py"
-SID = "14BzbimaeY4tSXq6Ia8-gfYRZhUW6ZMlqUzprxgqaIkY"
+
+QUOTA = _CFG["KARTO_QUOTA_PROJECT"]
+AUTH = _os.path.expanduser("~/.vibe/marketplace/plugins/fe-google-tools/skills/google-auth/resources/google_auth.py")
+SID = _CFG["KARTO_SHEET_ID"]
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 REG_CSV = os.path.join(ROOT, "data", "register.csv")
 FND_CSV = os.path.join(ROOT, "data", "findings.csv")

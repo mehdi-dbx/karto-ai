@@ -11,10 +11,15 @@ Fully autonomous: run `python3 scripts/export_xlsx.py` and the repo produces the
 No Claude, no extra libraries — uses the Drive export endpoint (native .xlsx, all tabs, formatting).
 """
 import subprocess, urllib.request, urllib.parse, urllib.error, os, sys
+import os as _os, sys as _sys
+_sys.path.insert(0, _os.path.dirname(_os.path.abspath(__file__)))
+from _config import load as _load
+_CFG = _load()
 
-QUOTA = "gcp-dev-field-eng-aiapiquota"
-AUTH = "/Users/mehdi.lamrani/.vibe/marketplace/plugins/fe-google-tools/skills/google-auth/resources/google_auth.py"
-SID = "14BzbimaeY4tSXq6Ia8-gfYRZhUW6ZMlqUzprxgqaIkY"
+
+QUOTA = _CFG["KARTO_QUOTA_PROJECT"]
+AUTH = _os.path.expanduser("~/.vibe/marketplace/plugins/fe-google-tools/skills/google-auth/resources/google_auth.py")
+SID = _CFG["KARTO_SHEET_ID"]
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 OUT = os.path.join(ROOT, "karto-report.xlsx")
 XLSX_MIME = "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
