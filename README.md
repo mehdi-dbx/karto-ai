@@ -33,13 +33,8 @@ cells read ⚪ "no credible evidence yet" — a real finding, not a failure. The
 
 ## 2. The two live deliverables (THESE ARE THE OUTPUT)
 
-- **Google Doc — the graded 20-row map:** *"Where AI Is Actually Profitable — A Domain Map"*
-  docId `<KARTO_DOC_ID — in karto.config>`
-  <your Google Doc URL — see karto.config>
-- **Google Sheet — the deployment register:** *"AI Deployment Register — Country Sweep"*
-  sheetId `<KARTO_SHEET_ID — in karto.config>`
-  <your Google Sheet URL — see karto.config>
-  Tabs: **Synthesis · Register · Findings · Noise · Progress · Universe**
+- **📊 [Deployment Register — the live results (view-only)](https://docs.google.com/spreadsheets/d/14BzbimaeY4tSXq6Ia8-gfYRZhUW6ZMlqUzprxgqaIkY/edit)** — the Google Sheet, publicly readable. ~1,600 named AI deployments across 14 countries. Tabs: Synthesis · Register · Findings · Universe · Noise.
+- **Google Doc — the graded 20-row map** (*"Where AI Is Actually Profitable — A Domain Map"*): **private** — owner-only. (docId in local `karto.config`.)
 
 ---
 
