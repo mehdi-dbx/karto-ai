@@ -21,10 +21,10 @@ Not a hype survey — a source-gated study. It has **two layers**:
 - **VISUALIZATION (the atlas):** a self-contained, offline zoom-cartography dashboard —
   `karto-atlas.html` — with 4 altitudes (Orbit → World → decision-Grid → company Street).
   Built from the canonical data. See §9.
-- **Core finding (proven at 1,628 data points):** AI deployment is real & near-universal
-  (**83% CONFIRMED** — 1,356/1,628); **independently-audited value proof is essentially absent**
-  (only 34% attach *any* value number, virtually none audited). Adoption ≠ profit. The breadth
-  sweep empirically confirms the depth map's thesis.
+- **Core finding (proven at 2,606 data points across 37 countries):** AI deployment is real &
+  near-universal (**78% CONFIRMED** — 2,023/2,606); **independently-audited value proof is
+  essentially absent** (only ~32% attach *any* value number, virtually none audited). Adoption ≠
+  profit. The breadth sweep empirically confirms the depth map's thesis.
 
 **Hard rule that defines the whole project (never violate):** SOURCE-ADMISSIBILITY GATE.
 Only cite peer-reviewed / controlled studies / institutional reports w/ methodology /

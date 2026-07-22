@@ -13,10 +13,22 @@ OUT  = os.path.join(ROOT, "data", "atlas.json")
 
 CC_NAME = {"US":"United States","JP":"Japan","CN":"China","KR":"South Korea","UK":"United Kingdom",
  "IN":"India","FR":"France","IT":"Italy","DE":"Germany","ES":"Spain","RU":"Russia","CH":"Switzerland",
- "BR":"Brazil","MA":"Morocco"}
+ "BR":"Brazil","MA":"Morocco",
+ # Wave 1
+ "TW":"Taiwan","NL":"Netherlands","CA":"Canada","AU":"Australia","SA":"Saudi Arabia","SG":"Singapore",
+ "IL":"Israel","SE":"Sweden","DK":"Denmark","AE":"United Arab Emirates","HK":"Hong Kong","ZA":"South Africa",
+ # Wave 2
+ "MX":"Mexico","IE":"Ireland","BE":"Belgium","NO":"Norway","FI":"Finland","PL":"Poland","TR":"Turkey",
+ "ID":"Indonesia","AT":"Austria","VN":"Vietnam","PT":"Portugal"}
 # rough centroids [lon,lat] for map placement (self-contained, no geo lib)
 CC_LL = {"US":[-98,39],"JP":[138,37],"CN":[104,35],"KR":[128,36],"UK":[-2,54],"IN":[79,22],
- "FR":[2,47],"IT":[12,42],"DE":[10,51],"ES":[-4,40],"RU":[90,62],"CH":[8,47],"BR":[-51,-11],"MA":[-7,32]}
+ "FR":[2,47],"IT":[12,42],"DE":[10,51],"ES":[-4,40],"RU":[90,62],"CH":[8,47],"BR":[-51,-11],"MA":[-7,32],
+ # Wave 1
+ "TW":[121,23.7],"NL":[5.3,52.1],"CA":[-106,56],"AU":[134,-25],"SA":[45,24],"SG":[103.8,1.35],
+ "IL":[35,31.5],"SE":[15,62],"DK":[10,56],"AE":[54,24],"HK":[114.1,22.3],"ZA":[24,-29],
+ # Wave 2
+ "MX":[-102,23],"IE":[-8,53],"BE":[4.5,50.6],"NO":[8.5,61],"FI":[26,64],"PL":[19,52],"TR":[35,39],
+ "ID":[118,-2],"AT":[14.5,47.6],"VN":[106,16],"PT":[-8,39.5]}
 
 def has_num(v): return bool(re.search(r"\d", v or "")) and (v or "").strip().lower() not in ("none","n/a","")
 def exist_bucket(e):

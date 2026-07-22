@@ -1,0 +1,5 @@
+vertical | finding | source_url | date | why_it_matters
+--- | --- | --- | --- | ---
+Mining & Materials | BHP claims AI detection of oversized rocks saves US$50M/year - a rare specific self-claimed value figure | https://www.afr.com/companies/mining/ai-turns-bhp-s-oversized-rocks-into-supersized-returns-20260406-p5zlng | 2026-04 | Concrete quantified ROI from mining AI, uncommon in disclosures
+Retail & E-commerce | BAT cutting ~9,000 jobs (a fifth of workforce) in explicitly AI-driven restructuring, 3,500 roles to Accenture | https://www.theguardian.com/business/2026/jun/29/british-american-tobacco-bat-cut-jobs-ai | 2026-06 | Rare case of AI cited as direct cause of large-scale workforce reduction
+Media / Entertainment / Gaming | Naspers/Prosus report 20,000+ AI agents deployed and $100m+ annual AI spend, credited with Takealot turnaround | https://www.dailymaverick.co.za/article/2025-11-25-from-bots-to-big-bucks-naspers-ai-army-powers-a-takealot-turnaround/ | 2025-11 | One of the largest disclosed AI-agent deployments by an African-listed group

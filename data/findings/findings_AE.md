@@ -1,0 +1,4 @@
+vertical | finding | source_url | date | why_it_matters
+Financial Services | IHC reportedly first major listed company to add an AI-powered board observer at board level | https://klover.ai/ihc-ai-strategy/ | 2024 | Signals aggressive sovereign-capital-backed AI adoption at governance level, unusual globally
+Energy & Utilities | ADNOC positions ENERGYai as world-first agentic AI for energy sector; AIQ claims up to 300% operational efficiency boost on upstream processes | https://aiq.ae | 2024 | Very large self-claimed efficiency figure (300%) warrants skepticism; sovereign-backed energy AI at national scale
+Logistics & Supply Chain | AD Ports Group claims Guinness World Record for most AI agents deployed in a logistics facility | https://www.adportsgroup.com | 2025 | Notable scale claim; marketing-flavored superlative worth independent verification but backed by own disclosure
