@@ -27,9 +27,9 @@ print("URL: https://docs.google.com/spreadsheets/d/%s/edit"%sid)
 
 # 2. headers per tab
 headers={
- "Register":["company","country","company_sector","row_assigned","axis(H/V)","use_case","existence","value_claimed","tier","source_url","date"],
- "Findings":["country","row","finding","source_url","why_it_matters","date"],
- "Noise":["domain","country","row","note"],
+ "Register":["company","country","vertical","raw_sector","horizontal","use_case","existence","value_claimed","tier","source_url","date"],
+ "Findings":["country","vertical","horizontal","finding","source_url","why_it_matters","date"],
+ "Noise":["domain","country","vertical","note"],
  "Progress":["country","status","companies_done","companies_total","verticals_done","last_updated","notes"],
 }
 data=[{"range":f"{tab}!A1","values":[hdr]} for tab,hdr in headers.items()]

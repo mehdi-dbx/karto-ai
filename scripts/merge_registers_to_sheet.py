@@ -33,7 +33,7 @@ SID = _CFG["KARTO_SHEET_ID"]
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 REG_CSV = os.path.join(ROOT, "data", "register.csv")
 FND_CSV = os.path.join(ROOT, "data", "findings.csv")
-REG_HDR = ["company","country","company_sector","row_assigned","use_case","existence","value_claimed","tier","source_url"]
+REG_HDR = ["company","country","vertical","raw_sector","horizontal","use_case","existence","value_claimed","tier","source_url"]
 FND_HDR = ["country","vertical","finding","source_url","why_it_matters"]
 
 def cells(line):
