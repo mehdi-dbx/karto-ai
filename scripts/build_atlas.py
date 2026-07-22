@@ -47,6 +47,20 @@ HTML = f"""<!DOCTYPE html>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>KARTO Atlas — the current state of AI on Earth</title>
+<meta name="description" content="A source-gated census of {fmt(g['deployments'])} AI deployments at {fmt(g['companies'])} of the world's largest listed companies across {g['countries']} countries. AI is deployed almost everywhere; proof that it pays is almost nowhere.">
+<!-- Open Graph / Twitter share card -->
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="KARTO AI Atlas">
+<meta property="og:title" content="KARTO Atlas — where AI is actually profitable">
+<meta property="og:description" content="{fmt(g['deployments'])} named, source-linked AI deployments across {g['countries']} countries. Deployed almost everywhere; proof it pays is almost nowhere.">
+<meta property="og:url" content="https://mehdi-dbx.github.io/karto-ai/">
+<meta property="og:image" content="https://mehdi-dbx.github.io/karto-ai/og-card.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="KARTO Atlas — where AI is actually profitable">
+<meta name="twitter:description" content="{fmt(g['deployments'])} named, source-linked AI deployments across {g['countries']} countries. Deployed almost everywhere; proof it pays is almost nowhere.">
+<meta name="twitter:image" content="https://mehdi-dbx.github.io/karto-ai/og-card.png">
 <style>
 /* fonts: Archivo Narrow (headlines) + Source Serif 4 (body) — free, vendored, inlined.
    Closest open-license match to The Economist's condensed-grotesque + editorial-serif. */
