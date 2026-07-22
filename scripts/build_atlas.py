@@ -26,6 +26,11 @@ _serif = glob.glob(os.path.join(VENDOR,"fonts","source-serif-*.woff2"))
 FONTS = ""
 if _arch:  FONTS += font_face("Archivo Narrow","400 700",_arch[0])
 if _serif: FONTS += font_face("Source Serif 4","400 600",_serif[0])
+def img_data_uri(path):
+    if not os.path.exists(path): return ""
+    b64 = base64.b64encode(open(path,"rb").read()).decode()
+    return f"data:image/png;base64,{b64}"
+MEHDI_IMG = img_data_uri(os.path.join(VENDOR, "img", "mehdi.png"))
 WORLD_JSON = open(os.path.join(ROOT, "data", "world-110m.json")).read()
 D3 = open(os.path.join(VENDOR, "d3.v7.min.js")).read()
 TOPO = open(os.path.join(VENDOR, "topojson-client.min.js")).read()
@@ -215,6 +220,20 @@ a:hover {{ text-decoration: underline; }}
 .descend .arrow {{ display: inline-block; transition: transform .3s ease; }}
 .descend:hover .arrow {{ transform: translateY(4px); }}
 
+/* credits / colophon */
+.credits {{ margin-top: 72px; padding-top: 28px; border-top: 1px solid var(--hair);
+  display: flex; flex-wrap: wrap; align-items: center; gap: 22px 40px; }}
+.credit-card {{ display: flex; align-items: center; gap: 16px; }}
+.credit-photo {{ width: 72px; height: 72px; border-radius: 50%; object-fit: cover;
+  filter: grayscale(1) contrast(1.02); border: 1px solid var(--hair);
+  box-shadow: 0 2px 10px rgba(0,0,0,.12); }}
+.credit-eyebrow {{ font-family: var(--font-ui); font-size: 11px; letter-spacing: .14em;
+  text-transform: uppercase; color: var(--muted); margin-bottom: 4px; }}
+.credit-name {{ font-family: var(--font-head); font-size: 21px; font-weight: 560; letter-spacing: -.01em; color: var(--ink); }}
+.credit-role {{ font-family: var(--font-ui); font-size: 13px; color: var(--ink-2); margin-top: 2px; }}
+.credit-note {{ flex: 1 1 340px; min-width: 280px; font-size: 12.5px; color: var(--muted);
+  max-width: 60ch; margin: 0; line-height: 1.6; }}
+
 /* ============ A1 WORLD ============ */
 .world {{ max-width: 1240px; margin: 0 auto; padding: clamp(24px,4vh,52px) clamp(20px,5vw,64px) 80px; }}
 .world .head {{ display:flex; flex-wrap:wrap; align-items:flex-end; justify-content:space-between; gap:16px; margin-bottom:8px; }}
@@ -394,6 +413,20 @@ table.grid td .cnt {{ font-family:var(--font-ui); font-size:11px; font-variant-n
     honest about what it can and cannot see.</p>
 
     <button class="descend" id="descend">Descend to the world <span class="arrow">↓</span></button>
+
+    <div class="credits">
+      <div class="credit-card">
+        <img class="credit-photo" src="{MEHDI_IMG}" alt="Mehdi Lamrani" width="72" height="72">
+        <div class="credit-who">
+          <div class="credit-eyebrow">Research, method &amp; design</div>
+          <div class="credit-name">Mehdi Lamrani</div>
+          <div class="credit-role">AI Specialist · Databricks</div>
+        </div>
+      </div>
+      <p class="credit-note">A source-gated study of where AI is actually profitable — conceived,
+      directed and built by Mehdi Lamrani. Data gathered under a strict evidence gate across 14 countries;
+      atlas rendered from the canonical register. © 2026.</p>
+    </div>
   </div>
 </section>
 
