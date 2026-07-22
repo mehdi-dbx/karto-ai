@@ -33,8 +33,9 @@ SID = _CFG["KARTO_SHEET_ID"]
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 REG_CSV = os.path.join(ROOT, "data", "register.csv")
 FND_CSV = os.path.join(ROOT, "data", "findings.csv")
-REG_HDR = ["company","country","vertical","raw_sector","horizontal","use_case","existence","value_claimed","tier","source_url"]
+REG_HDR = ["company","country","vertical","raw_sector","horizontal","use_case","existence","value_claimed","tier","source_url","date"]
 FND_HDR = ["country","vertical","finding","source_url","why_it_matters"]
+EXIST_TOK = ("CONFIRMED","CLAIMED","SMOKE","DIRECTIONAL","NONE","UNKNOWN")
 
 def cells(line):
     p = [x.strip() for x in line.split("|")]
@@ -42,9 +43,12 @@ def cells(line):
     while p and p[-1] == "": p.pop()
     return p
 
+def _looks_date(x):
+    import re
+    return bool(re.fullmatch(r"(19|20)\d{2}(-\d{1,2})?", (x or "").strip()))
+
 # ---------------- PHASE 1: build canonical local CSVs ----------------
 def build_local():
-    VALID = {"US","CN","UK","DE","FR","JP","KR","IN","RU","MA","ES","IT","CH","BR"}
     reg, seen = [], set()
     for f in sorted(glob.glob(os.path.join(ROOT,"data","register","register_*.md"))):
         cc = os.path.basename(f).split("_")[1].split(".")[0].upper()  # country from filename (authoritative)
@@ -53,11 +57,28 @@ def build_local():
             if "|" not in line or "http" not in line: continue
             c = cells(line)
             if len(c) < 9 or c[0].lower() == "company" or set("".join(c[:1])) <= set("-: "): continue
+            # ANCHOR-PARSE on the existence token (fixes the column-drift class of bugs):
+            # locate the cell whose leading word is an existence token; columns pivot around it.
+            ei = next((i for i,x in enumerate(c) if x.split()[:1] and x.split()[0].upper() in EXIST_TOK), None)
             company = c[0]
-            url = [x for x in c if x.startswith("http")]; url = url[-1] if url else ""
-            mid = [x for x in c[1:] if x != url and x not in VALID][:6]
-            row = ([company, cc] + mid + [""]*9)[:8] + [url]
-            key = (company.lower(), (mid[-1] if mid else "")[:50].lower(), url.lower())
+            url = next((x for x in c if x.startswith("http")), "")
+            if ei is not None:
+                # left of existence: company, [country?], vertical, raw_sector, horizontal, use_case
+                left = [x for x in c[1:ei] if x.upper()!=cc]            # drop a stray country cell
+                # pad/truncate the 4 descriptive cols (vertical, raw_sector, horizontal, use_case)
+                vert, raw, horz, use = (left + [""]*4)[:4]
+                existence = c[ei].split()[0].upper()
+                after = c[ei+1:]
+                value = after[0] if len(after)>0 else ""
+                tier  = next((x for x in after if x.strip().upper() in ("P","I","S","-","—")), "")
+                # date = a cell that looks like a year / YYYY-MM (or literal 'missing'), not the url
+                date = next((x for x in after if x!=url and (x.lower()=="missing" or _looks_date(x))), "")
+                row = [company, cc, vert, raw, horz, use, existence, value, tier, url, date]
+            else:
+                # no existence token found — legacy fallback (keep, but flag by leaving existence blank)
+                mid = [x for x in c[1:] if x != url and x.upper()!=cc][:6]
+                row = ([company, cc] + mid + [""]*9)[:9] + [url, ""]
+            key = (company.lower(), (row[5] or "")[:50].lower(), url.lower())
             if key in seen: continue
             seen.add(key); reg.append(row)
     fnd, fseen = [], set()

@@ -109,6 +109,22 @@ def grid_for(subset):
 GRID_GLOBAL=grid_for(rows)
 GRID_BY_CC={cc:grid_for([r for r in rows if r[1]==cc]) for cc in {r[1] for r in rows}}
 
+# ---------- per-vertical totals (histogram: compare AI adoption across industries) ----------
+def verticals_for(subset):
+    buckets=defaultdict(list)
+    for r in subset: buckets[r[2]].append(r)
+    out=[]
+    for v in VERTS:
+        cs=buckets.get(v,[])
+        if not cs: continue
+        conf=sum(1 for r in cs if exist_bucket(r[6])=="confirmed")
+        withnum=sum(1 for r in cs if has_num(r[7]))
+        out.append({"v":v,"n":len(cs),"confirmed":conf,"withnum":withnum,
+                    "proof_pct":round(100*withnum/len(cs)),"verdict":verdict_for(cs)})
+    return sorted(out, key=lambda x:-x["n"])
+VERT_TOTALS_GLOBAL=verticals_for(rows)
+VERT_TOTALS_BY_CC={cc:verticals_for([r for r in rows if r[1]==cc]) for cc in {r[1] for r in rows}}
+
 # ---------- cell drill-down (Altitude 3): companies per (cc, vertical, horizontal) ----------
 CELLS=defaultdict(list)
 for r in rows:
@@ -117,7 +133,8 @@ for r in rows:
                        "value":r[7],"tier":r[8],"url":r[9],"raw_sector":r[3]})
 
 json.dump({"global":GLOBAL,"countries":COUNTRIES,"verticals":VERTS,"horizontals":HORZS,
-           "grid_global":GRID_GLOBAL,"grid_by_country":GRID_BY_CC,"cells":CELLS},
+           "grid_global":GRID_GLOBAL,"grid_by_country":GRID_BY_CC,"cells":CELLS,
+           "vert_totals_global":VERT_TOTALS_GLOBAL,"vert_totals_by_country":VERT_TOTALS_BY_CC},
           open(OUT,"w"), ensure_ascii=False, indent=1)
 
 print(f"cooked -> {OUT}")

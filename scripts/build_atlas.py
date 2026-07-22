@@ -191,9 +191,26 @@ a:hover {{ text-decoration: underline; }}
 .orbit-hero {{ display: flex; align-items: center; gap: clamp(24px, 5vw, 72px); flex-wrap: wrap; }}
 .orbit-copy {{ flex: 1 1 440px; min-width: 300px; }}
 .orbit-copy .sub {{ margin-bottom: 0; }}
-.globe-wrap {{ flex: 0 1 340px; display: flex; justify-content: center; align-items: center; }}
-#globe {{ width: 100%; max-width: 360px; height: auto; cursor: grab; }}
-#globe:active {{ cursor: grabbing; }}
+.globe-wrap {{ flex: 0 1 340px; position: relative; display: flex; flex-direction: column;
+  justify-content: center; align-items: center; cursor: grab; border-radius: 50%; outline: none; }}
+#globe {{ width: 100%; max-width: 360px; height: auto; display: block;
+  transition: transform .35s cubic-bezier(.2,.7,.2,1), filter .35s ease; }}
+.globe-wrap:hover #globe, .globe-wrap:focus-visible #globe {{ transform: scale(1.035); filter: drop-shadow(0 6px 22px rgba(189,122,38,.22)); }}
+.globe-wrap.dragging {{ cursor: grabbing; }}
+.globe-wrap.dragging #globe {{ transform: none; filter: none; }}
+/* the fade-in cue pill */
+.globe-cue {{
+  position: absolute; bottom: 6%; left: 50%; transform: translate(-50%, 8px);
+  font-family: var(--font-ui); font-size: 12px; letter-spacing: .06em; text-transform: uppercase;
+  color: #fff; background: var(--accent); padding: 7px 15px; border-radius: 999px; white-space: nowrap;
+  box-shadow: 0 4px 16px rgba(0,0,0,.18); opacity: 0; pointer-events: none; cursor: pointer;
+  transition: opacity .28s ease, transform .28s cubic-bezier(.2,.7,.2,1);
+}}
+.globe-wrap:hover .globe-cue, .globe-wrap:focus-visible .globe-cue {{ pointer-events: auto; }}
+.globe-wrap:hover .globe-cue, .globe-wrap:focus-visible .globe-cue {{ opacity: 1; transform: translate(-50%, 0); }}
+.globe-wrap.dragging .globe-cue {{ opacity: 0; }}
+.globe-cue .arrow {{ display: inline-block; transition: transform .3s ease; }}
+.globe-wrap:hover .globe-cue .arrow {{ transform: translateX(3px); }}
 .globe-sphere {{ fill: var(--page); stroke: var(--land-edge); stroke-width: .8; }}
 .globe-halo {{ fill: var(--accent); opacity: .06; }}
 .globe-land {{ fill: var(--land); stroke: var(--land-edge); stroke-width: .4; }}
@@ -334,6 +351,18 @@ table.grid td .cnt {{ font-family:var(--font-ui); font-size:11px; font-variant-n
 .verdict-key {{ display:flex; flex-wrap:wrap; gap:20px; margin-top:20px; font-size:12.5px; color:var(--ink-2); font-family:var(--font-ui); }}
 .verdict-key .k {{ display:inline-flex; align-items:center; gap:7px; }}
 .verdict-key .sw {{ width:15px; height:15px; border-radius:4px; display:inline-flex; align-items:center; justify-content:center; font-size:10px; }}
+/* per-vertical histogram (compare AI adoption across industries) */
+.vhist-block {{ margin-top:52px; }}
+.vhist-head {{ display:flex; flex-wrap:wrap; align-items:baseline; justify-content:space-between; gap:14px; margin-bottom:18px; }}
+.vhist-head h3 {{ font-family:var(--font-head); font-weight:360; font-size:clamp(18px,2.1vw,24px); letter-spacing:-.01em; margin:0; }}
+.vhist-scope {{ color:var(--accent); }}
+.vhist .vrow {{ display:grid; grid-template-columns:190px 1fr 96px; align-items:center; gap:14px; padding:4px 0; cursor:default; }}
+.vhist .vname {{ font-family:var(--font-ui); font-size:13px; color:var(--ink-2); text-align:right; white-space:nowrap; overflow:hidden; text-overflow:ellipsis; }}
+.vhist .vtrack {{ position:relative; height:20px; }}
+.vhist .vbar {{ height:20px; border-radius:0 4px 4px 0; transition:width .55s cubic-bezier(.2,.7,.2,1), background .3s; }}
+.vhist .vval {{ font-family:var(--font-ui); font-size:12.5px; color:var(--ink); font-variant-numeric:tabular-nums; }}
+.vhist .vval .u {{ color:var(--muted); font-size:11px; }}
+.vhist .vval .g {{ margin-left:6px; }}
 
 /* ============ A3 STREET — slide-in company panel ============ */
 #scrim {{ position:fixed; inset:0; background:rgba(20,18,16,.34); z-index:60; opacity:0; visibility:hidden; transition:opacity .26s ease; }}
@@ -394,7 +423,11 @@ table.grid td .cnt {{ font-family:var(--font-ui); font-size:11px; font-variant-n
         <p class="sub">A ground-up census of what {fmt(g['companies'])} of the world's largest listed companies
         actually do with AI — each deployment named, gated, and linked to its source.</p>
       </div>
-      <div class="globe-wrap"><svg id="globe" role="img" aria-label="Globe marking the 14 surveyed countries"></svg></div>
+      <div class="globe-wrap" id="globeWrap" role="button" tabindex="0"
+           aria-label="Explore the world map — {g['countries']} countries surveyed">
+        <svg id="globe" aria-hidden="true"></svg>
+        <span class="globe-cue" id="globeCue">Explore the map <span class="arrow">→</span></span>
+      </div>
     </div>
 
     <div class="hero-row">
@@ -510,6 +543,16 @@ table.grid td .cnt {{ font-family:var(--font-ui); font-size:11px; font-variant-n
       <span class="k"><span class="sw v-active g-active">◐</span> Active — confirmed, few numbers (≥15%)</span>
       <span class="k"><span class="sw v-talk g-talk">○</span> Talk — unconfirmed or almost no numbers</span>
       <span class="k"><span class="sw" style="background:var(--surface-2)">·</span> Empty — none found</span>
+    </div>
+    <div class="vhist-block">
+      <div class="vhist-head">
+        <h3>AI adoption by industry <span class="vhist-scope" id="vhistScope"></span></h3>
+        <div class="seg-ctrl" id="vhistMetric">
+          <button data-vm="n" class="on">Deployments</button>
+          <button data-vm="proof_pct">Proof&nbsp;%</button>
+        </div>
+      </div>
+      <div class="vhist" id="vhist"></div>
     </div>
     <details class="tabletwin">
       <summary>Table view (industry × function)</summary>
@@ -632,14 +675,30 @@ const METRIC_LABEL = {{density:'Density (confirmed / searched)', deployments:'De
   }}
   raf=requestAnimationFrame(tick);
 
-  // drag to spin manually
-  let dragging=false, last=null;
-  const node = svg.node();
-  node.addEventListener('pointerdown', e=>{{ dragging=true; spinning=false; last=[e.clientX,e.clientY]; node.setPointerCapture(e.pointerId); }});
-  node.addEventListener('pointermove', e=>{{ if(!dragging)return; const r=proj.rotate();
-    proj.rotate([r[0]+(e.clientX-last[0])*0.4, r[1]-(e.clientY-last[1])*0.4, r[2]]); last=[e.clientX,e.clientY]; draw(); }});
-  const stop = ()=>{{ dragging=false; setTimeout(()=>spinning=true, 2600); }};
-  node.addEventListener('pointerup', stop); node.addEventListener('pointerleave', stop);
+  // interaction: click = descend to world map · drag = spin (disambiguated by movement)
+  const wrap = document.getElementById('globeWrap');
+  let dragging=false, last=null, moved=0;
+  const DRAG_THRESH=6;   // px of total travel before it counts as a spin, not a click
+  wrap.addEventListener('pointerdown', e=>{{
+    dragging=true; spinning=false; moved=0; last=[e.clientX,e.clientY]; wrap.setPointerCapture(e.pointerId);
+  }});
+  wrap.addEventListener('pointermove', e=>{{
+    if(!dragging)return;
+    const dx=e.clientX-last[0], dy=e.clientY-last[1];
+    moved += Math.abs(dx)+Math.abs(dy);
+    if(moved>DRAG_THRESH) wrap.classList.add('dragging');
+    const r=proj.rotate(); proj.rotate([r[0]+dx*0.4, r[1]-dy*0.4, r[2]]); last=[e.clientX,e.clientY]; draw();
+  }});
+  function release() {{
+    if(!dragging) return;
+    const wasClick = moved<=DRAG_THRESH;
+    dragging=false; wrap.classList.remove('dragging');
+    if(wasClick) {{ toWorld(); return; }}          // barely moved -> treat as a click -> descend
+    setTimeout(()=>spinning=true, 2600);            // resume auto-spin after a real drag
+  }}
+  wrap.addEventListener('pointerup', release);
+  wrap.addEventListener('pointercancel', ()=>{{ dragging=false; wrap.classList.remove('dragging'); setTimeout(()=>spinning=true,2600); }});
+  wrap.addEventListener('keydown', e=>{{ if(e.key==='Enter'||e.key===' '){{ e.preventDefault(); toWorld(); }} }});
 }})();
 
 function densityColor(v, max) {{
@@ -857,6 +916,7 @@ function renderGrid() {{
   }});
   t.addEventListener('mouseleave', ()=>clearEmph(t));
   buildGridTwin();
+  renderVHist();
 }}
 function emphasize(table, ri, ci) {{
   table.classList.add('emph');
@@ -866,6 +926,33 @@ function emphasize(table, ri, ci) {{
   const ch=table.querySelector(`th.col[data-ci="${{ci}}"]`); if(ch)ch.classList.add('lit');
 }}
 function clearEmph(table) {{ table.classList.remove('emph'); table.querySelectorAll('.lit').forEach(el=>el.classList.remove('lit')); }}
+
+/* per-vertical histogram — compare AI adoption across industries (respects country scope) */
+let vhistMetric='n';
+function vhistData() {{
+  return gridScope ? (ATLAS.vert_totals_by_country[gridScope]||[]) : ATLAS.vert_totals_global;
+}}
+function renderVHist() {{
+  const host=document.getElementById('vhist'); if(!host) return;
+  const data=[...vhistData()].sort((a,b)=> b[vhistMetric]-a[vhistMetric] || b.n-a.n);
+  const max=Math.max(1, ...data.map(d=>d[vhistMetric]));
+  const unit = vhistMetric==='proof_pct' ? '%' : '';
+  document.getElementById('vhistScope').textContent = gridScope
+    ? '— '+((ATLAS.countries.find(c=>c.cc===gridScope)||{{}}).name||'') : '— the world';
+  host.innerHTML = data.map(d=>{{
+    const w=Math.max(2, 100*d[vhistMetric]/max);
+    return `<div class="vrow" title="${{esc(d.v)}} — ${{d.n}} deployments · ${{d.proof_pct}}% carry a number">
+      <div class="vname">${{esc(d.v)}}</div>
+      <div class="vtrack"><div class="vbar v-${{d.verdict}}" style="width:${{w}}%;background:color-mix(in srgb, var(--v-${{d.verdict}}) 55%, var(--surface))"></div></div>
+      <div class="vval">${{d[vhistMetric]}}<span class="u">${{unit}}</span><span class="g g-${{d.verdict}}">${{VERDICT_GLYPH[d.verdict]}}</span></div>
+    </div>`;
+  }}).join('');
+}}
+document.getElementById('vhistMetric').addEventListener('click', e=>{{
+  const b=e.target.closest('button'); if(!b) return;
+  document.querySelectorAll('#vhistMetric button').forEach(x=>x.classList.toggle('on',x===b));
+  vhistMetric=b.dataset.vm; renderVHist();
+}});
 
 /* A2 table twin (a11y) */
 let gtSort={{k:'n',dir:-1}};
