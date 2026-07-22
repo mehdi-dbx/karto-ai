@@ -151,13 +151,37 @@ a:hover {{ text-decoration: underline; }}
 .orbit .eyebrow {{
   font-size: 13px; letter-spacing: .18em; text-transform: uppercase;
   color: var(--muted); margin-bottom: 22px;
+  display: flex; align-items: center; justify-content: space-between; gap: 20px; flex-wrap: wrap;
 }}
+.descend-mini {{
+  font-family: var(--font-ui); background: none; border: 1px solid var(--hair); cursor: pointer;
+  color: var(--ink-2); font-size: 11px; letter-spacing: .08em; text-transform: uppercase;
+  padding: 7px 15px; border-radius: 999px; display: inline-flex; align-items: center; gap: 8px;
+  transition: color .2s ease, border-color .2s ease;
+}}
+.descend-mini:hover {{ color: var(--accent); border-color: var(--accent); }}
+.descend-mini .arrow {{ display: inline-block; transition: transform .3s ease; }}
+.descend-mini:hover .arrow {{ transform: translateY(3px); }}
 .orbit h1 {{
   font-weight: 300; font-size: clamp(30px, 5vw, 62px); line-height: 1.08;
   letter-spacing: -.02em; margin: 0 0 8px; max-width: 16ch;
 }}
 .orbit h1 b {{ font-weight: 640; }}
 .orbit .sub {{ font-size: clamp(16px,1.6vw,20px); color: var(--ink-2); max-width: 46ch; margin: 0 0 54px; font-weight: 350; }}
+/* headline + globe two-column hero */
+.orbit-hero {{ display: flex; align-items: center; gap: clamp(24px, 5vw, 72px); flex-wrap: wrap; }}
+.orbit-copy {{ flex: 1 1 440px; min-width: 300px; }}
+.orbit-copy .sub {{ margin-bottom: 0; }}
+.globe-wrap {{ flex: 0 1 340px; display: flex; justify-content: center; align-items: center; }}
+#globe {{ width: 100%; max-width: 360px; height: auto; cursor: grab; }}
+#globe:active {{ cursor: grabbing; }}
+.globe-sphere {{ fill: var(--page); stroke: var(--land-edge); stroke-width: .8; }}
+.globe-halo {{ fill: var(--accent); opacity: .06; }}
+.globe-land {{ fill: var(--land); stroke: var(--land-edge); stroke-width: .4; }}
+.globe-grat {{ fill: none; stroke: var(--grid); stroke-width: .4; opacity: .5; }}
+.globe-dot {{ fill: var(--accent); stroke: var(--surface); stroke-width: 1; }}
+.globe-dot.back {{ opacity: .18; }}
+@media (max-width: 720px) {{ .globe-wrap {{ flex-basis: 260px; }} }}
 
 /* hero + KPI row */
 .hero-row {{ display: flex; flex-wrap: wrap; align-items: flex-end; gap: clamp(28px, 5vw, 72px); margin-bottom: 56px; }}
@@ -246,6 +270,9 @@ a:hover {{ text-decoration: underline; }}
 .terr .head {{ display:flex; flex-wrap:wrap; align-items:flex-end; justify-content:space-between; gap:16px; margin-bottom:6px; }}
 .terr h2 {{ font-weight:340; font-size:clamp(24px,3.2vw,38px); letter-spacing:-.02em; margin:0; }}
 .terr h2 .scope {{ color:var(--accent); }}
+.backup {{ font-family:var(--font-ui); background:none; border:none; cursor:pointer; padding:0; margin:0 0 10px;
+  color:var(--ink-2); font-size:13px; letter-spacing:.02em; display:inline-flex; align-items:center; gap:6px; transition:color .18s ease; }}
+.backup:hover {{ color:var(--accent); }}
 .terr .lede {{ color:var(--ink-2); max-width:60ch; font-size:15px; margin:6px 0 0; }}
 .terr .controls {{ display:flex; gap:10px; align-items:center; flex-wrap:wrap; }}
 /* the grid */
@@ -324,10 +351,18 @@ table.grid td .cnt {{ font-family:var(--font-ui); font-size:11px; font-variant-n
 <!-- ============ ALTITUDE 0 — ORBIT ============ -->
 <section class="altitude active" id="a0" data-alt="Orbit">
   <div class="orbit">
-    <div class="eyebrow">The current state of AI on Earth · a source-gated atlas</div>
-    <h1>AI is deployed <b>almost everywhere</b>.<br>Proof that it pays is <b>almost nowhere</b>.</h1>
-    <p class="sub">A ground-up census of what {fmt(g['companies'])} of the world's largest listed companies
-    actually do with AI — each deployment named, gated, and linked to its source.</p>
+    <div class="eyebrow">
+      <span>The current state of AI on Earth · a source-gated atlas</span>
+      <button class="descend-mini" id="descendTop">Descend to the world <span class="arrow">↓</span></button>
+    </div>
+    <div class="orbit-hero">
+      <div class="orbit-copy">
+        <h1>AI is deployed <b>almost everywhere</b>.<br>Proof that it pays is <b>almost nowhere</b>.</h1>
+        <p class="sub">A ground-up census of what {fmt(g['companies'])} of the world's largest listed companies
+        actually do with AI — each deployment named, gated, and linked to its source.</p>
+      </div>
+      <div class="globe-wrap"><svg id="globe" role="img" aria-label="Globe marking the 14 surveyed countries"></svg></div>
+    </div>
 
     <div class="hero-row">
       <div class="hero">
@@ -410,6 +445,7 @@ table.grid td .cnt {{ font-family:var(--font-ui); font-size:11px; font-variant-n
   <div class="terr">
     <div class="head">
       <div>
+        <button class="backup" id="backWorld" hidden>← Back to the world</button>
         <h2>The decision grid — <span class="scope" id="scopeName">the world</span></h2>
         <p class="lede">Every industry (down) × what the AI does (across). Each cell judged by how much of it
         is <b>proven with numbers</b> vs merely <b>active</b> vs just <b>talk</b>. Click any cell for the companies.</p>
@@ -477,9 +513,8 @@ function applyTheme(t) {{
   if (document.getElementById('a2').classList.contains('active')) renderGrid();
 }}
 let themeReady = false;
-// respect OS on first load; the toggle then wins for the session
-const _osDark = window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches;
-applyTheme(_osDark ? 'dark' : 'light');
+// light is the default; the toggle switches to dark for the session
+applyTheme('light');
 themeReady = true;
 tBtn.addEventListener('click', () => applyTheme(root.getAttribute('data-theme') === 'dark' ? 'light' : 'dark'));
 
@@ -492,7 +527,9 @@ function goAltitude(id, label) {{
     : '<span style="cursor:pointer" onclick="goAltitude(\\'a0\\')">Orbit</span> <span class="sep">›</span> <span class="here">'+label+'</span>';
   window.scrollTo({{top:0, behavior:'smooth'}});
 }}
-document.getElementById('descend').addEventListener('click', () => {{ goAltitude('a1','World'); renderWorld(); }});
+function toWorld() {{ goAltitude('a1','World'); renderWorld(); }}
+document.getElementById('descend').addEventListener('click', toWorld);
+document.getElementById('descendTop').addEventListener('click', toWorld);
 
 /* ============ A1 WORLD (D3) ============ */
 const world = JSON.parse(document.getElementById('world-data').textContent);
@@ -501,6 +538,62 @@ const cssv = n => getComputedStyle(root).getPropertyValue(n).trim();
 let worldRendered = false, curMetric = 'density';
 
 const METRIC_LABEL = {{density:'Density (confirmed / searched)', deployments:'Deployments found', proof_pct:'Carry a hard number'}};
+
+/* ============ A0 GLOBE — stylized rotating earth (world-map palette) ============ */
+(function initGlobe() {{
+  const GW=360, GC=GW/2, R=GC-14;
+  const svg = d3.select('#globe').attr('viewBox', `0 0 ${{GW}} ${{GW}}`);
+  const proj = d3.geoOrthographic().scale(R).translate([GC,GC]).clipAngle(90).rotate([-10, -12, 0]);
+  const path = d3.geoPath(proj);
+  const land = topojson.feature(world, world.objects.land);
+  const grat = d3.geoGraticule10();
+
+  svg.append('circle').attr('class','globe-halo').attr('cx',GC).attr('cy',GC).attr('r',R+8);
+  svg.append('circle').attr('class','globe-sphere').attr('cx',GC).attr('cy',GC).attr('r',R);
+  const gGrat = svg.append('path').attr('class','globe-grat');
+  const gLand = svg.append('path').attr('class','globe-land');
+  const gDots = svg.append('g');
+
+  // one marker per surveyed country (echoes the world map — "deployed almost everywhere")
+  const pts = ATLAS.countries.map(c=>({{cc:c.cc, ll:c.ll, dep:c.deployments}}));
+  const rDot = d3.scaleSqrt().domain([0, d3.max(pts,d=>d.dep)]).range([1.6, 5]);
+
+  function draw() {{
+    gGrat.attr('d', path(grat));
+    gLand.attr('d', path(land));
+    const geoDist = d3.geoDistance;
+    const center = [-proj.rotate()[0], -proj.rotate()[1]];
+    const sel = gDots.selectAll('circle').data(pts);
+    sel.join('circle')
+      .attr('class', d=>{{ const back = geoDist(d.ll, center) > Math.PI/2; return 'globe-dot'+(back?' back':''); }})
+      .attr('r', d=>rDot(d.dep))
+      .each(function(d){{
+        const xy = proj(d.ll); const el=d3.select(this);
+        if(xy){{ el.attr('cx',xy[0]).attr('cy',xy[1]).style('display',null); }}
+        else el.style('display','none');
+      }});
+  }}
+  draw();
+  window.__redrawGlobe = draw;   // repaint on theme change (colors read via CSS classes, but dots recompute)
+
+  // slow auto-spin, pausable by drag
+  let t0=null, spinning=true, raf=null;
+  function tick(t) {{
+    if(t0===null) t0=t;
+    if(spinning) {{ const r=proj.rotate(); proj.rotate([r[0] + (t-t0)*0.006, r[1], r[2]]); draw(); }}
+    t0=t; raf=requestAnimationFrame(tick);
+  }}
+  raf=requestAnimationFrame(tick);
+
+  // drag to spin manually
+  let dragging=false, last=null;
+  const node = svg.node();
+  node.addEventListener('pointerdown', e=>{{ dragging=true; spinning=false; last=[e.clientX,e.clientY]; node.setPointerCapture(e.pointerId); }});
+  node.addEventListener('pointermove', e=>{{ if(!dragging)return; const r=proj.rotate();
+    proj.rotate([r[0]+(e.clientX-last[0])*0.4, r[1]-(e.clientY-last[1])*0.4, r[2]]); last=[e.clientX,e.clientY]; draw(); }});
+  const stop = ()=>{{ dragging=false; setTimeout(()=>spinning=true, 2600); }};
+  node.addEventListener('pointerup', stop); node.addEventListener('pointerleave', stop);
+}})();
 
 function densityColor(v, max) {{
   // sequential warm ramp, validated. map 0..max -> d2..d7
@@ -652,14 +745,17 @@ const VERDICT_CLASS = {{strong:'v-strong', active:'v-active', talk:'v-talk', emp
 function descendCountry(d) {{
   gridScope = d ? d.cc : null;
   document.getElementById('scopeName').textContent = d ? d.name : 'the world';
+  document.getElementById('backWorld').hidden = !d;   // only show when scoped to a country
   renderGrid();
   goAltitude('a2', d ? d.name : 'World grid');
   // breadcrumb: Orbit › World › [Country]
   crumbs.innerHTML = '<span style="cursor:pointer" onclick="goAltitude(\\'a0\\')">Orbit</span> <span class="sep">›</span>'
-    + '<span style="cursor:pointer" onclick="(function(){{goAltitude(\\'a1\\',\\'World\\');renderWorld();}})()">World</span> <span class="sep">›</span>'
+    + '<span style="cursor:pointer" onclick="backToWorld()">World</span> <span class="sep">›</span>'
     + '<span class="here">'+(d?d.name:'Grid')+'</span>';
 }}
 window.__descend = cc => descendCountry(ATLAS.countries.find(c=>c.cc===cc));
+function backToWorld() {{ goAltitude('a1','World'); renderWorld(); }}
+document.getElementById('backWorld').addEventListener('click', backToWorld);
 
 function gridData() {{
   return gridScope ? (ATLAS.grid_by_country[gridScope]||[]) : ATLAS.grid_global;
@@ -822,5 +918,8 @@ document.addEventListener('keydown',e=>{{ if(e.key==='Escape'&&panel.classList.c
 </html>"""
 
 open(OUT, "w").write(HTML)
+# also emit index.html at repo root so GitHub Pages serves the atlas at the site root
+open(os.path.join(ROOT, "index.html"), "w").write(HTML)
 print(f"built {OUT} ({len(HTML):,} bytes) — A0 Orbit · A1 World · A2 Grid · A3 Street")
+print("also wrote index.html (GitHub Pages entry point)")
 print("open it in a browser to review the full atlas.")
