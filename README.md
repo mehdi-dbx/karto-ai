@@ -1,4 +1,4 @@
-# KARTO AI — Where Is AI Actually Profitable? (project baton)
+# KARTO AI — Where Is AI Actually Profitable?
 
 > **New here? Read THIS file top to bottom first. It is the baton.** It tells you what
 > this project is, what's already done, where everything lives, and how to continue
@@ -112,6 +112,8 @@ python3 scripts/sweep_stats.py                          # sanity: total rows, %C
 # PHASE 2 — publish to Google Sheet (MANDATORY extra step; Sheet is a target, not the source)
 python3 scripts/merge_registers_to_sheet.py --publish   # CSV -> Sheet Register/Findings tabs
 # (no flag = do both phases)
+# PHASE 3 — export the Sheet to a local, open-anywhere file (Excel/Numbers/LibreOffice)
+python3 scripts/export_xlsx.py                          # -> karto-report.xlsx (all tabs, formatted)
 ```
 **Data model:** `data/register/register_<CC>.md` = raw per-country agent output (concurrency-safe,
 one writer per file). `data/register.csv` = the consolidated deduped CANONICAL table (in git —
