@@ -1,0 +1,11 @@
+# AI Deployment Sweep — South Korea — Qualitative Findings
+
+vertical | finding | source_url | why_it_matters
+--- | --- | --- | --- | ---
+IT | Samsung uses AI to measure how many employees' workloads a worker can replace ("토큰 가성비"), tied to differentiated performance reviews — raises workforce-reduction concerns | https://www.hani.co.kr/arti/economy/marketing/1264077.html | Rare candid signal that AI productivity claims are being operationalized into headcount pressure
+IT | Samsung SDI AI quality-prediction defect reduction (20-30%) attributed to Korea Institute for Industrial Economics & Trade — rare quasi-independent figure vs self-claims | https://html.duckduckgo.com/html/?q=삼성SDI+AI+도입 | Independent/institutional value numbers are scarce in this sweep
+Financials | Meritz first in Korean finance sector to adopt Palantir AI for fraud detection; still PoC->2026 deploy, not yet live-at-scale | https://html.duckduckgo.com/html/?q=메리츠금융+AI+보험+도입 | Palantir penetration into Korean insurance is a notable vendor signal
+Consumer Staples | LG H&H claims AI cut cosmetic-ingredient discovery from ~22 months to 1 day via EXAONE Discovery — extreme self-claimed speedup, should be read skeptically (screening step, not full product dev) | https://html.duckduckgo.com/html/?q=LG생활건강+AI+화장품+도입 | Illustrates how headline AI speedup figures compress one narrow step, not end-to-end timelines
+Communication Services | KOCCA report: gaming has highest genAI adoption of any Korean content industry at ~70% | https://html.duckduckgo.com/html/?q=넷마블+AI+게임+도입 | Sector-level adoption benchmark for KR gaming
+Energy & Chemicals | 2024 data cited: Korean manufacturing AI adoption ~25.4% vs 30.3% all-industry avg — manufacturing lags despite headline flagship deployments | https://html.duckduckgo.com/html/?q=GS칼텍스+AI+도입 | Grounds the "AI everywhere" narrative: broad adoption still modest, big-cap flagships are outliers
+Financials | Bloter analysis on NH: "strategy clear but execution still concentrated in digital divisions" — gap between AI declaration and enterprise-wide implementation | https://html.duckduckgo.com/html/?q=NH투자증권+AI+도입 | Skeptical press flag: many KR "AX" claims are still siloed pilots, not enterprise deployment

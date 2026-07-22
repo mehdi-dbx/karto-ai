@@ -1,0 +1,26 @@
+AI DEPLOYMENT SWEEP — agent rules (condensed). Full: /Users/mehdi.lamrani/code/code/karto/AGENT-MANIFESTO.md
+
+MISSION: for each company in your country's universe file, find REAL AI implementations. Sample not census. Something>Nothing>Poop.
+
+SEARCH (learned from 4 completed countries — follow exactly):
+- Query in the TARGET LANGUAGE (US=EN, FR/MA=French, DE=German, RU=Russian, JP=Japanese, KR=Korean, CN=Chinese, IN=English/Hindi, UK=EN).
+- PRIMARY PATH (proven reliable): WebFetch against  https://html.duckduckgo.com/html/?q=<url-encoded native query>  — this bypasses the throttling that hits the raw tool.
+- The raw `python3 ~/.claude/tools/websearch.py` DDG endpoint gets rate-limited/403'd under load — use it only if WebFetch path fails; it now has retry/backoff.
+- CN: also try --engine baidu.
+- PACING IS MANDATORY: strictly sequential, ~25-40s between queries, wait 60s + retry on 403/empty. Do NOT hammer, do NOT run parallel queries, do NOT spawn sub-agents/monitors, do NOT poll. Just grind + checkpoint per company.
+
+PER COMPANY (walk your universe file top to bottom):
+1. search company name + AI (native language)
+2. Classify each hit:
+   EXISTENCE: CONFIRMED (company's own disclosure/filing/press release/named deployment) | CLAIMED (3rd party, no primary) | SMOKE (vendor blog/SEO/aggregator/"book a demo") -> REJECT
+   VALUE: self-claimed number, or NONE. (independent/audited = rare; note loudly if found)
+3. row_assigned = the AI use case's function/industry (a bank's chatbot -> Customer Support; its fraud model -> Financial Services). One deployment = one row.
+4. KEEP the source URL always. No URL = don't record it.
+5. If nothing real found for a company: record it as "no confirmed deployment found" — do NOT invent.
+
+OUTPUT — append per company (checkpoint) to /tmp/register_<CC>.md as pipe-table rows:
+company | country | company_sector | row_assigned | use_case | existence | value_claimed | tier(P/I/S) | source_url
+
+ALSO append notable qualitative signals (skeptic press, regulator warnings, surprising numbers) to /tmp/findings_<CC>.md: vertical | finding | source_url | why_it_matters
+
+Work through as many companies as you can. Checkpoint after EACH company so progress survives interruption. Report how many companies you covered and how many had confirmed deployments.
