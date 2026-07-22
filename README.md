@@ -104,11 +104,19 @@ python3 tools/websearch.py --engine bing --mkt fr-FR "..."  # locale-targeted
 cp data/register/*.md data/findings/*.md /tmp/ ; cp data/universe/*.tsv /tmp/ ; cp SWEEP_RULES.txt /tmp/
 ```
 
-**B. Re-merge data → Sheet (safe, idempotent, single-writer, dedups):**
+**B. Rebuild canonical data + publish (2 phases, single-writer, dedups):**
 ```bash
-python3 scripts/merge_registers_to_sheet.py   # rebuilds Register + Findings tabs from data/
-python3 scripts/sweep_stats.py                # sanity: total rows, %CONFIRMED, by country
+# PHASE 1 — build the CANONICAL table into the repo (source of truth). Commit this.
+python3 scripts/merge_registers_to_sheet.py --local     # -> data/register.csv + data/findings.csv
+python3 scripts/sweep_stats.py                          # sanity: total rows, %CONFIRMED, by country
+# PHASE 2 — publish to Google Sheet (MANDATORY extra step; Sheet is a target, not the source)
+python3 scripts/merge_registers_to_sheet.py --publish   # CSV -> Sheet Register/Findings tabs
+# (no flag = do both phases)
 ```
+**Data model:** `data/register/register_<CC>.md` = raw per-country agent output (concurrency-safe,
+one writer per file). `data/register.csv` = the consolidated deduped CANONICAL table (in git —
+the data survives without Google). The Sheet is a **publish target**. Agents NEVER write the CSV
+or the Sheet; this script is the single consolidator/writer.
 
 **C. To ADD or COMPLETE a country** (the method that works):
 1. Build its universe: get index constituents (Wikipedia via curl+parse, NOT the WebFetch
