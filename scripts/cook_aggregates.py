@@ -273,6 +273,71 @@ for r in rows:
                        "value":r[7],"tier":r[8],"url":r[9],"raw_sector":r[3],"date":r[10],
                        "fresh":stale_bucket(r[10])})
 
+# ---------- B4 momentum (deployments over time) ----------
+def timeline(subset):
+    ys=Counter(); undated=0
+    for r in subset:
+        y=year_of(r[10])
+        if y is None: undated+=1
+        else: ys[y]+=1
+    return ys, undated
+def momentum_label(ys, first_seen, vertical_first_terciles):
+    # rising if last-2yr count > prior-2yr; gone_quiet if history but nothing in last 2yr
+    if not ys: return "none"
+    recent=sum(v for y,v in ys.items() if y>=NOW_YEAR-1)
+    prior=sum(v for y,v in ys.items() if NOW_YEAR-3<=y<NOW_YEAR-1)
+    labels=[]
+    if first_seen is not None and vertical_first_terciles and first_seen<=vertical_first_terciles[0]:
+        labels.append("early_mover")
+    elif first_seen is not None and vertical_first_terciles and first_seen>vertical_first_terciles[1]:
+        labels.append("late_entrant")
+    if recent>prior: labels.append("rising")
+    elif recent==0 and sum(ys.values())>0: labels.append("gone_quiet")
+    elif recent<prior: labels.append("cooling")
+    else: labels.append("flat")
+    return ",".join(labels) or "flat"
+
+GLOBAL_TL, GLOBAL_UNDATED = timeline(rows)
+TIMELINE_GLOBAL=[{"year":y,"n":GLOBAL_TL[y]} for y in sorted(GLOBAL_TL)]
+
+# per-vertical first_seen terciles (for early/late labels)
+vert_firsts={}
+for v in VERTS:
+    fs=[year_of(r[10]) for r in rows if r[2]==v and year_of(r[10])]
+    vert_firsts[v]=sorted(fs)
+def terciles(sorted_years):
+    if len(sorted_years)<3: return None
+    import statistics
+    q1=sorted_years[len(sorted_years)//3]; q2=sorted_years[2*len(sorted_years)//3]
+    return (q1,q2)
+VERT_TERCILES={v:terciles(fs) for v,fs in vert_firsts.items()}
+
+MOMENTUM_VERT=[]
+for v in VERTS:
+    sub=[r for r in rows if r[2]==v]
+    ys,und=timeline(sub); fs=min((year_of(r[10]) for r in sub if year_of(r[10])), default=None)
+    if not sub: continue
+    MOMENTUM_VERT.append({"v":v,"first_seen":fs,"by_year":[{"year":y,"n":ys[y]} for y in sorted(ys)],
+        "undated":und,"undated_pct":round(100*und/len(sub)),
+        "label":momentum_label(ys,fs,VERT_TERCILES.get(v))})
+MOMENTUM_CC=[]
+for cc in sorted({r[1] for r in rows}):
+    sub=[r for r in rows if r[1]==cc]
+    ys,und=timeline(sub); fs=min((year_of(r[10]) for r in sub if year_of(r[10])), default=None)
+    MOMENTUM_CC.append({"cc":cc,"name":CC_NAME.get(cc,cc),"first_seen":fs,
+        "by_year":[{"year":y,"n":ys[y]} for y in sorted(ys)],
+        "undated":und,"undated_pct":round(100*und/len(sub)) if sub else 0})
+
+# attach momentum to each company (B4 -> D1/D5)
+for c in COMPANIES:
+    if c["silent"]: continue
+    sub=comp.get((c["name"],c["cc"]),[])
+    ys,und=timeline(sub); fs=min((year_of(r[10]) for r in sub if year_of(r[10])), default=None)
+    c["first_seen"]=fs
+    c["by_year"]=[{"year":y,"n":ys[y]} for y in sorted(ys)]
+    c["undated_pct"]=round(100*und/len(sub)) if sub else 0
+    c["momentum"]=momentum_label(ys,fs,VERT_TERCILES.get(c["vertical"]))
+
 # ---------- A5 freshness aggregate + D6 hype detector ----------
 FRESH=Counter(stale_bucket(r[10]) for r in rows)
 GLOBAL_FRESH={k:FRESH.get(k,0) for k in ("fresh","aging","stale","undated")}
@@ -320,7 +385,8 @@ META["hype"]="hype_by_vertical: announced (rows) vs substantiated (rows w/ value
 json.dump({"meta":META,"global":GLOBAL,"countries":COUNTRIES,"verticals":VERTS,"horizontals":HORZS,
            "grid_global":GRID_GLOBAL,"grid_by_country":GRID_BY_CC,"cells":CELLS,
            "vert_totals_global":VERT_TOTALS_GLOBAL,"vert_totals_by_country":VERT_TOTALS_BY_CC,
-           "companies":COMPANIES,"silent":SILENT,"hype_by_vertical":HYPE_VERT},
+           "companies":COMPANIES,"silent":SILENT,"hype_by_vertical":HYPE_VERT,
+           "timeline_global":TIMELINE_GLOBAL,"momentum_vertical":MOMENTUM_VERT,"momentum_country":MOMENTUM_CC},
           open(OUT,"w"), ensure_ascii=False, indent=1)
 
 print(f"cooked -> {OUT}")

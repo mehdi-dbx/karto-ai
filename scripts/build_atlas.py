@@ -167,6 +167,7 @@ a:hover {{ text-decoration: underline; }}
 .hypekey {{ display:flex; gap:22px; margin-top:16px; font-family:var(--font-ui); font-size:12px; color:var(--muted); }}
 .hypekey i {{ display:inline-block; width:13px; height:13px; border-radius:3px; vertical-align:-2px; margin-right:6px; }}
 .hypekey .sw-ann {{ background:var(--accent-soft); }} .hypekey .sw-sub {{ background:var(--accent); }}
+.trendwrap {{ margin-top:20px; }} #trendsvg {{ width:100%; height:auto; display:block; }}
 .toggle {{
   border: 1px solid var(--hair); background: var(--surface); color: var(--ink-2);
   border-radius: 999px; padding: 6px 12px; font-size: 12px; cursor: pointer;
@@ -447,6 +448,7 @@ table.grid td .cnt {{ font-family:var(--font-ui); font-size:11px; font-variant-n
   <div class="topnav">
     <a href="#/world" class="navlink" data-route="a1">World</a>
     <a href="#/grid" class="navlink" data-route="a2">Grid</a>
+    <a href="#/trends" class="navlink" data-route="trends">Trends</a>
     <a href="#/hype" class="navlink" data-route="hype">Hype</a>
     <a href="#/silent" class="navlink" data-route="silent">Silent&nbsp;list</a>
     <button class="toggle" id="themeToggle" aria-label="Toggle light/dark">
@@ -633,6 +635,26 @@ table.grid td .cnt {{ font-family:var(--font-ui); font-size:11px; font-variant-n
   </div>
 </section>
 
+<!-- ============ TRENDS (D5 — deployments over time) ============ -->
+<section class="altitude" id="trends" data-alt="Trends">
+  <div class="terr">
+    <div class="head">
+      <div>
+        <h2>Momentum — <span class="scope">AI deployment over time</span></h2>
+        <p class="lede">When disclosed deployments were announced. Overlay any industry or country
+        to compare trajectories — who moved early, who is catching up. Undated rows
+        (<span id="undatedPct"></span>) are excluded from the curve, shown as a caveat.</p>
+      </div>
+      <div class="controls">
+        <select id="trendOverlay" class="filtersel"><option value="">World total</option></select>
+      </div>
+    </div>
+    <div class="trendwrap"><svg id="trendsvg" viewBox="0 0 900 380" role="img" aria-label="Deployments over time"></svg></div>
+    <p class="footnote">Dates from company disclosures. Forward years (2027+) are announced future plans.
+    Half the register is undated and omitted here — the curve is a lower bound on activity, not a census.</p>
+  </div>
+</section>
+
 <!-- ============ HYPE DETECTOR (D6 — talk vs substantiation) ============ -->
 <section class="altitude" id="hype" data-alt="Hype">
   <div class="terr">
@@ -737,6 +759,7 @@ const ROUTES = {{
   'a0':     {{hash:'',        label:'Orbit',  show:()=>goAltitude('a0')}},
   'a1':     {{hash:'/world',  label:'World',  show:toWorld}},
   'a2':     {{hash:'/grid',   label:'Grid',   show:()=>{{ if(!ATLAS.grid_global) return; gridScope=null; document.getElementById('scopeName')&&(document.getElementById('scopeName').textContent='the world'); const b=document.getElementById('backWorld'); if(b)b.hidden=true; renderGrid(); goAltitude('a2','World grid'); }}}},
+  'trends': {{hash:'/trends', label:'Trends', show:renderTrends}},
   'hype':   {{hash:'/hype',   label:'Hype',   show:renderHype}},
   'silent': {{hash:'/silent', label:'Silent list', show:renderSilent}},
 }};
@@ -748,6 +771,54 @@ function applyRoute() {{
   document.querySelectorAll('.navlink').forEach(a=>a.classList.toggle('on', a.dataset.route===id));
 }}
 window.addEventListener('hashchange', applyRoute);
+
+/* ============ D5 TRENDS VIEW (deployments over time, D3 line) ============ */
+let trendsInit=false;
+function renderTrends() {{
+  goAltitude('trends','Trends');
+  const sel=document.getElementById('trendOverlay');
+  if(!trendsInit) {{
+    trendsInit=true;
+    ATLAS.momentum_country.slice().sort((a,b)=>a.name.localeCompare(b.name))
+      .forEach(c=>sel.insertAdjacentHTML('beforeend',`<option value="cc:${{c.cc}}">${{c.name}}</option>`));
+    ATLAS.momentum_vertical.forEach(v=>sel.insertAdjacentHTML('beforeend',`<option value="v:${{esc(v.v)}}">${{esc(v.v)}}</option>`));
+    sel.onchange=drawTrends;
+    // global undated %
+    const tot=ATLAS.global.deployments, dated=ATLAS.timeline_global.reduce((s,t)=>s+t.n,0);
+    document.getElementById('undatedPct').textContent = Math.round(100*(tot-dated)/tot)+'% undated';
+  }}
+  drawTrends();
+}}
+function drawTrends() {{
+  const sel=document.getElementById('trendOverlay').value;
+  let series=ATLAS.timeline_global.map(t=>({{year:t.year,n:t.n}}));
+  let label='World total';
+  if(sel.startsWith('cc:')) {{ const c=ATLAS.momentum_country.find(x=>x.cc===sel.slice(3)); series=c.by_year; label=c.name; }}
+  else if(sel.startsWith('v:')) {{ const v=ATLAS.momentum_vertical.find(x=>x.v===sel.slice(2)); series=v.by_year; label=v.v; }}
+  series=series.filter(p=>p.year>=2018 && p.year<=2027);   // focus the AI era, drop long tails
+  const svg=d3.select('#trendsvg'); svg.selectAll('*').remove();
+  const W=900,H=380,m={{t:24,r:24,b:40,l:48}};
+  const xs=d3.scaleLinear().domain(d3.extent(series,d=>d.year)).range([m.l,W-m.r]);
+  const ys=d3.scaleLinear().domain([0,d3.max(series,d=>d.n)||1]).nice().range([H-m.b,m.t]);
+  // gridlines + axes (recessive)
+  const yt=ys.ticks(5);
+  svg.append('g').selectAll('line').data(yt).join('line')
+    .attr('x1',m.l).attr('x2',W-m.r).attr('y1',d=>ys(d)).attr('y2',d=>ys(d))
+    .attr('stroke',cssv('--grid')).attr('stroke-width',.5);
+  svg.append('g').selectAll('text').data(yt).join('text').attr('x',m.l-8).attr('y',d=>ys(d)+3)
+    .attr('text-anchor','end').attr('font-size',11).attr('fill',cssv('--muted')).attr('font-family','var(--font-ui)').text(d=>d);
+  svg.append('g').selectAll('text').data(series).join('text').attr('x',d=>xs(d.year)).attr('y',H-m.b+18)
+    .attr('text-anchor','middle').attr('font-size',11).attr('fill',cssv('--muted')).attr('font-family','var(--font-ui)').text(d=>("'"+String(d.year).slice(2)));
+  const line=d3.line().x(d=>xs(d.year)).y(d=>ys(d.n)).curve(d3.curveMonotoneX);
+  const area=d3.area().x(d=>xs(d.year)).y0(H-m.b).y1(d=>ys(d.n)).curve(d3.curveMonotoneX);
+  svg.append('path').datum(series).attr('d',area).attr('fill',cssv('--accent')).attr('opacity',.10);
+  svg.append('path').datum(series).attr('d',line).attr('fill','none').attr('stroke',cssv('--accent')).attr('stroke-width',2.5);
+  svg.selectAll('circle.pt').data(series).join('circle').attr('class','pt')
+    .attr('cx',d=>xs(d.year)).attr('cy',d=>ys(d.n)).attr('r',3.5).attr('fill',cssv('--accent'))
+    .append('title').text(d=>`${{d.year}}: ${{d.n}}`);
+  svg.append('text').attr('x',m.l).attr('y',m.t-6).attr('font-size',13).attr('font-family','var(--font-head)')
+    .attr('fill',cssv('--ink')).text(label+' — deployments announced per year');
+}}
 
 /* ============ D6 HYPE DETECTOR VIEW ============ */
 function renderHype() {{
