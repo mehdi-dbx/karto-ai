@@ -946,9 +946,11 @@ a.colink {{ color:var(--ink); text-decoration:none; }} a.colink:hover {{ color:v
   <div class="terr">
     <div class="head">
       <div>
-        <h2>The silent — searched, <span class="scope">nothing disclosed</span></h2>
-        <p class="lede">Companies we searched under the same evidence gate that disclose <b>no AI at all</b>.
-        Absence is a finding: each row is a documented gap sitting next to its peers' activity.
+        <h2>The silent — <span class="scope">searched, nothing found yet</span></h2>
+        <p class="lede">Companies in the searched universe with <b>no disclosed AI in our register yet</b>.
+        Read this as a <b>coverage floor, not a verdict</b>: "silent" can mean genuinely no AI (often
+        investment holdings), OR a company our sweep hasn't reached in its native-language sources.
+        We re-sweep these continuously — a name here is a lead to verify, not a proven absence.
         Peer median = typical disclosed deployments among same-industry, same-country rivals.</p>
       </div>
       <div class="controls">
