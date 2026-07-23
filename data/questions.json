@@ -1,0 +1,42 @@
+{
+  "_meta": "V3 Step 3 question registry. Home renders from this (registry-driven, no hardcoded questions). ids stable; owner may reword text. target = hash deep link. enabled=false -> greyed 'coming soon' until its step ships. teaser_metric -> key in question_stats.json.",
+  "groups": [
+    {"persona": "investor", "icon": "trending-up", "header": "I invest"},
+    {"persona": "vendor", "icon": "search", "header": "I sell or build AI solutions"},
+    {"persona": "strategist", "icon": "scale", "header": "I run strategy at a company"},
+    {"persona": "consultant", "icon": "target", "header": "I advise clients"},
+    {"persona": "exploring", "icon": "compass", "header": "Just exploring"}
+  ],
+  "questions": [
+    {"id":"all_talk_no_money","text":"Who's all talk, no money?","personas":["investor"],"target":"#/signals?type=contradiction","params_open":[],"teaser_metric":"count_contradiction","followups":["blind_sectors","unquantified_active","compare_rivals"],"enabled":true},
+    {"id":"quiet_accelerators","text":"Who's quietly accelerating?","personas":["investor"],"target":"#/signals?type=momentum_break","params_open":[],"teaser_metric":"count_momentum_break","followups":["all_talk_no_money","what_changed","proven_in_sector"],"enabled":true},
+    {"id":"blind_sectors","text":"Which sector deploys blind?","personas":["investor"],"target":"#/signals?type=blind_vertical","params_open":[],"teaser_metric":"count_blind_vertical","followups":["all_talk_no_money","unquantified_active","proven_in_sector"],"enabled":true},
+
+    {"id":"silent_giants","text":"Which big companies have zero AI yet?","personas":["vendor","consultant"],"target":"#/silent?sort=size_desc","params_open":["country","vertical"],"teaser_metric":"count_l0","followups":["unquantified_active","open_territory","proven_in_sector"],"enabled":true},
+    {"id":"unquantified_active","text":"Who runs AI but can't measure it?","personas":["vendor"],"target":"#/companies?existence=confirmed&has_value_number=false&sort=prospect_score","params_open":["country","vertical"],"teaser_metric":"count_unquantified_active","followups":["silent_giants","open_territory","all_talk_no_money"],"enabled":true},
+    {"id":"open_territory","text":"Where's open territory?","personas":["vendor","consultant"],"target":"#/hype","params_open":[],"teaser_metric":"count_whitespace","followups":["silent_giants","unquantified_active","proven_in_sector"],"enabled":true},
+
+    {"id":"compare_rivals","text":"How do we compare to rivals?","personas":["strategist"],"target":"#/compare","params_open":[],"teaser_metric":null,"followups":["proven_we_lack","all_talk_no_money","proven_in_sector"],"enabled":true},
+    {"id":"proven_we_lack","text":"What's proven in our industry that we lack?","personas":["strategist"],"target":"#/usecases?gap=1","params_open":["vertical"],"teaser_metric":null,"followups":["compare_rivals","proven_in_sector","coming_next"],"enabled":false},
+
+    {"id":"proven_in_sector","text":"What AI works in a sector, with references?","personas":["consultant"],"target":"#/usecases","params_open":["vertical","country"],"teaser_metric":"count_usecases","followups":["references_like_client","coming_next","silent_giants"],"enabled":false},
+    {"id":"references_like_client","text":"Who are the proven runners I can cite?","personas":["consultant"],"target":"#/usecases?runners=1","params_open":["vertical","country"],"teaser_metric":null,"followups":["proven_in_sector","coming_next","compare_rivals"],"enabled":false},
+    {"id":"coming_next","text":"What's coming to my client's market next?","personas":["consultant"],"target":"#/usecases?sort=diffusion","params_open":["vertical","country"],"teaser_metric":null,"followups":["proven_in_sector","what_changed","quiet_accelerators"],"enabled":false},
+
+    {"id":"what_changed","text":"What changed recently?","personas":["exploring"],"target":"#/changelog","params_open":["country","vertical"],"teaser_metric":"count_changes","followups":["quiet_accelerators","all_talk_no_money","silent_giants"],"enabled":false},
+    {"id":"show_atlas","text":"Show me the atlas","personas":["exploring"],"target":"#/world","params_open":[],"teaser_metric":"count_deployments","followups":["silent_giants","open_territory","proven_in_sector"],"enabled":true}
+  ],
+  "view_default_followups": {
+    "silent": ["unquantified_active","open_territory","proven_in_sector"],
+    "signals": ["all_talk_no_money","blind_sectors","quiet_accelerators"],
+    "companies": ["silent_giants","open_territory","compare_rivals"],
+    "company": ["compare_rivals","proven_in_sector","silent_giants"],
+    "compare": ["proven_we_lack","all_talk_no_money","silent_giants"],
+    "hype": ["blind_sectors","unquantified_active","silent_giants"],
+    "trends": ["quiet_accelerators","what_changed","all_talk_no_money"],
+    "world": ["silent_giants","open_territory","proven_in_sector"],
+    "grid": ["open_territory","proven_in_sector","silent_giants"],
+    "usecases": ["references_like_client","coming_next","compare_rivals"],
+    "changelog": ["quiet_accelerators","all_talk_no_money","silent_giants"]
+  }
+}

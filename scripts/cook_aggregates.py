@@ -506,6 +506,24 @@ json.dump({"meta":META,"global":GLOBAL,"countries":COUNTRIES,"verticals":VERTS,"
            "insights":INSIGHTS,"whitespace":WHITESPACE},
           open(OUT,"w"), ensure_ascii=False, indent=1)
 
+# ---------- N3 teaser stats for the question menu (data/question_stats.json) ----------
+BLIND_THRESHOLD=20
+_blind=sum(1 for h in HYPE_VERT if h["announced"]>=BLIND_THRESHOLD and h["substantiated"]==0)
+_ins=Counter(i["type"] for i in INSIGHTS)
+_unq=sum(1 for c in COMPANIES if not c["silent"] and c["confirmed"]>0 and c["with_value_number"]==0)
+QSTATS={
+  "count_l0": len(SILENT),
+  "count_unquantified_active": _unq,
+  "count_whitespace": len(WHITESPACE),
+  "count_contradiction": _ins.get("contradiction",0),
+  "count_momentum_break": sum(1 for m in MOMENTUM_VERT if "rising" in (m.get("label") or "")),
+  "count_blind_vertical": _blind,
+  "count_deployments": GLOBAL["deployments"],
+  "count_usecases": None,     # lit by Step 7
+  "count_changes": None,      # lit by Step 10
+}
+json.dump(QSTATS, open(os.path.join(ROOT,"data","question_stats.json"),"w"), ensure_ascii=False, indent=1)
+
 print(f"cooked -> {OUT}")
 print(f"  global: {GLOBAL['deployments']} deploys, {GLOBAL['companies']} cos, {GLOBAL['confirmed']} confirmed")
 print(f"  countries: {len(COUNTRIES)} | grid cells (global): {len(GRID_GLOBAL)} | drill cells: {len(CELLS)}")

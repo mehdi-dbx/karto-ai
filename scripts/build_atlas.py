@@ -56,6 +56,9 @@ def icon(name, size=18, cls="lic"):
     svg = svg.replace("<svg ", f'<svg class="{cls}" aria-hidden="true" focusable="false" ', 1)
     return " ".join(svg.split())
 WORLD_JSON = open(os.path.join(ROOT, "data", "world-110m.json")).read()
+QUESTIONS_JSON = open(os.path.join(ROOT, "data", "questions.json")).read()
+_qs_path = os.path.join(ROOT, "data", "question_stats.json")
+QSTATS_JSON = open(_qs_path).read() if os.path.exists(_qs_path) else "{}"
 D3 = open(os.path.join(VENDOR, "d3.v7.min.js")).read()
 TOPO = open(os.path.join(VENDOR, "topojson-client.min.js")).read()
 
@@ -227,10 +230,28 @@ a:hover {{ text-decoration: underline; }}
 #cmpTable td.cmp-best {{ color:var(--v-strong); font-weight:600; }}
 /* D3 persona tiles */
 .personas {{ display:grid; grid-template-columns:repeat(auto-fit,minmax(200px,1fr)); gap:16px; margin-top:44px; max-width:920px; }}
-.ptile {{ display:block; padding:20px; border:1px solid var(--hair); border-radius:12px; background:var(--surface); text-decoration:none; transition:border-color .2s ease, transform .2s ease; }}
-.ptile:hover {{ border-color:var(--accent); transform:translateY(-2px); text-decoration:none; }}
-.ptile .pt-ico {{ font-size:22px; }} .ptile .pt-t {{ font-family:var(--font-head); font-weight:560; font-size:17px; color:var(--ink); margin-top:8px; }}
-.ptile .pt-d {{ font-size:12.5px; color:var(--muted); margin-top:5px; line-height:1.5; }}
+/* V3 question menu (home) */
+.qmenu-intro {{ font-family:var(--font-ui); font-size:13px; color:var(--muted); margin:40px 0 18px; letter-spacing:.02em; }}
+.qmenu {{ display:grid; grid-template-columns:repeat(auto-fit,minmax(300px,1fr)); gap:22px 34px; }}
+.qgroup-h {{ display:flex; align-items:center; gap:9px; font-family:var(--font-ui); font-size:12px; font-weight:560;
+  text-transform:uppercase; letter-spacing:.08em; color:var(--ink-2); margin:0 0 12px; }}
+.qgroup-h .lic {{ color:var(--accent); }}
+.qlink {{ display:flex; align-items:baseline; gap:8px; padding:9px 0; text-decoration:none; color:var(--ink);
+  font-family:var(--font-body); font-size:15.5px; line-height:1.35; border-bottom:1px solid var(--hair); transition:color .15s ease; }}
+.qlink:last-child {{ border-bottom:none; }}
+.qlink:hover {{ color:var(--accent); text-decoration:none; }}
+.qlink .qt {{ flex:1; }}
+.qlink .qn {{ font-family:var(--font-head); font-weight:560; color:var(--accent); font-variant-numeric:tabular-nums; white-space:nowrap; }}
+.qlink.soon {{ color:var(--muted); cursor:default; pointer-events:none; }}
+.qlink.soon .qsoon {{ font-family:var(--font-ui); font-size:10px; text-transform:uppercase; letter-spacing:.06em;
+  color:var(--muted); border:1px solid var(--hair); border-radius:4px; padding:1px 6px; }}
+/* N2 Next-block */
+.nextblock {{ margin-top:44px; padding-top:22px; border-top:1px solid var(--hair); }}
+.nextblock .nb-h {{ font-family:var(--font-ui); font-size:11.5px; text-transform:uppercase; letter-spacing:.08em; color:var(--muted); margin-bottom:12px; }}
+.nextblock .nb-links {{ display:flex; flex-wrap:wrap; gap:12px; }}
+.nextblock a {{ font-family:var(--font-body); font-size:14px; color:var(--ink); text-decoration:none;
+  border:1px solid var(--hair); border-radius:999px; padding:8px 15px; transition:border-color .18s ease, color .18s ease; }}
+.nextblock a:hover {{ border-color:var(--accent); color:var(--accent); text-decoration:none; }}
 /* B7 insights feed */
 .insfeed {{ display:grid; grid-template-columns:repeat(auto-fill,minmax(340px,1fr)); gap:16px; margin-top:24px; }}
 .inscard {{ border:1px solid var(--hair); border-radius:12px; padding:18px; background:var(--surface); }}
@@ -606,12 +627,8 @@ a.colink {{ color:var(--ink); text-decoration:none; }} a.colink:hover {{ color:v
 
     <button class="descend" id="descend">Descend to the world <span class="arrow">↓</span></button>
 
-    <div class="personas">
-      <a class="ptile" href="#/silent"><div class="pt-ico">{icon('target',24)}</div><div class="pt-t">Consultant</div><div class="pt-d">White-space &amp; the silent-company prospect list — documented gaps next to peers' activity.</div></a>
-      <a class="ptile" href="#/trends"><div class="pt-ico">{icon('trending-up',24)}</div><div class="pt-t">Investor</div><div class="pt-d">Momentum over time — who moved early, who's catching up, who went quiet.</div></a>
-      <a class="ptile" href="#/compare"><div class="pt-ico">{icon('scale',24)}</div><div class="pt-t">Strategist</div><div class="pt-d">Line up rivals side by side — maturity, proof rate, peer percentiles.</div></a>
-      <a class="ptile" href="#/hype"><div class="pt-ico">{icon('search',24)}</div><div class="pt-t">Vendor</div><div class="pt-d">Talk vs proof by industry — find the confirmed-but-unmeasured buyers.</div></a>
-    </div>
+    <div class="qmenu-intro">Ask a question — one click to the answer, pre-filtered and sourced.</div>
+    <div class="qmenu" id="qmenu"></div>
 
     <div class="credits">
       <div class="credit-card">
@@ -812,6 +829,32 @@ a.colink {{ color:var(--ink); text-decoration:none; }} a.colink:hover {{ color:v
 </section>
 
 <!-- ============ SILENT COMPANIES (D4 — the prospect list) ============ -->
+<!-- ============ COMPANIES (filterable list — question targets land here) ============ -->
+<section class="altitude" id="companies" data-alt="Companies">
+  <div class="terr">
+    <div class="head">
+      <div>
+        <h2 id="companiesTitle">Companies</h2>
+        <p class="lede" id="companiesLede"></p>
+      </div>
+      <div class="controls">
+        <select id="companiesCC" class="filtersel"><option value="">All countries</option></select>
+        <select id="companiesVert" class="filtersel"><option value="">All industries</option></select>
+      </div>
+    </div>
+    <div class="tabletwin" style="margin-top:20px">
+      <table id="companiesTable">
+        <thead><tr>
+          <th data-k="name">Company</th><th data-k="cc">Country</th><th data-k="vertical">Industry</th>
+          <th data-k="deployments">Deploys</th><th data-k="confirmed">Confirmed</th>
+          <th data-k="proof_rate">Proof</th><th data-k="maturity">Maturity</th><th data-k="prospect_score">Prospect</th>
+        </tr></thead><tbody></tbody>
+      </table>
+    </div>
+    <p class="footnote" id="companiesCount"></p>
+  </div>
+</section>
+
 <section class="altitude" id="silent" data-alt="Silent">
   <div class="terr">
     <div class="head">
@@ -826,6 +869,7 @@ a.colink {{ color:var(--ink); text-decoration:none; }} a.colink:hover {{ color:v
         <select id="silentSector" class="filtersel"><option value="">All sectors</option></select>
       </div>
     </div>
+    <div id="silentSizePending"></div>
     <div class="tabletwin" style="margin-top:20px">
       <table id="silentTable">
         <thead><tr>
@@ -854,6 +898,8 @@ a.colink {{ color:var(--ink); text-decoration:none; }} a.colink:hover {{ color:v
 <div class="tip" id="tip"></div>
 
 <script id="atlas-data" type="application/json">{DATA_JSON}</script>
+<script id="questions-data" type="application/json">{QUESTIONS_JSON}</script>
+<script id="qstats-data" type="application/json">{QSTATS_JSON}</script>
 <script id="world-data" type="application/json">{WORLD_JSON}</script>
 <script>{D3}</script>
 <script>{TOPO}</script>
@@ -903,6 +949,8 @@ const ROUTES = {{
   'hype':   {{hash:'/hype',   label:'Hype',   show:renderHype}},
   'compare':{{hash:'/compare',label:'Compare',show:renderCompare}},
   'insights':{{hash:'/insights',label:'Insights',show:renderInsights}},
+  'signals':{{hash:'/signals', label:'Signals', show:renderInsights}},   // alias: insights feed w/ type/p params
+  'companies':{{hash:'/companies',label:'Companies',show:renderCompanies}},
   'silent': {{hash:'/silent', label:'Silent list', show:renderSilent}},
 }};
 function goRoute(id) {{ const r=ROUTES[id]; if(!r) return; if(location.hash!=='#'+r.hash) location.hash=r.hash; else applyRoute(); }}
@@ -915,8 +963,60 @@ function applyRoute() {{
   const id=(Object.keys(ROUTES).find(k=>ROUTES[k].hash===base)) || 'a0';
   ROUTES[id].show();
   document.querySelectorAll('.navlink').forEach(a=>a.classList.toggle('on', a.dataset.route===id));
+  // N2: every answer view ends with a Next block (home 'a0' excluded — it IS the menu)
+  if(id!=='a0') setTimeout(()=>injectNext(id), 0);
 }}
 window.addEventListener('hashchange', applyRoute);
+
+/* ============ N1/N2/N3 — question navigation engine ============ */
+const QREG = JSON.parse(document.getElementById('questions-data').textContent);
+const QSTATS = JSON.parse(document.getElementById('qstats-data').textContent);
+const QBYID = {{}}; QREG.questions.forEach(q=>QBYID[q.id]=q);
+const PERSONA_ICON = {{investor:`{icon('trending-up',15)}`, vendor:`{icon('search',15)}`, strategist:`{icon('scale',15)}`, consultant:`{icon('target',15)}`, exploring:`{icon('compass',15)}`}};
+function renderQMenu() {{
+  const host=document.getElementById('qmenu'); if(!host) return;
+  host.innerHTML = QREG.groups.map(g=>{{
+    const qs=QREG.questions.filter(q=>q.personas.includes(g.persona));
+    if(!qs.length) return '';
+    const links=qs.map(q=>{{
+      const stat = q.teaser_metric && QSTATS[q.teaser_metric]!=null ? `<span class="qn">${{QSTATS[q.teaser_metric].toLocaleString()}}</span>` : '';
+      if(q.enabled===false) return `<span class="qlink soon"><span class="qt">${{esc(q.text)}}</span><span class="qsoon">soon</span></span>`;
+      return `<a class="qlink" href="${{q.target}}"><span class="qt">${{esc(q.text)}}</span>${{stat}}</a>`;
+    }}).join('');
+    return `<div class="qgroup"><div class="qgroup-h">${{PERSONA_ICON[g.persona]||''}} ${{esc(g.header)}}</div>${{links}}</div>`;
+  }}).join('');
+}}
+// N2 — resolve the Next block for the current view/URL
+function questionForHash(h) {{
+  // match by target base path (ignore params) — first question whose target base matches
+  const base=h.split('?')[0];
+  return QREG.questions.find(q=>q.target.split('?')[0]===base);
+}}
+function currentParams() {{ const q=location.hash.split('?')[1]||''; return new URLSearchParams(q); }}
+function renderNextBlock(viewId) {{
+  // pick followups: from the matched question, else the view default
+  const q=questionForHash('#'+location.hash.replace(/^#/,''));
+  let ids = q ? q.followups : (QREG.view_default_followups[viewId]||[]);
+  ids=(ids||[]).slice(0,3);
+  if(!ids.length) return '';
+  const p=currentParams(); const ctx=[]; ['country','vertical'].forEach(k=>{{ if(p.get(k)) ctx.push([k,p.get(k)]); }});
+  const links=ids.map(id=>{{
+    const fq=QBYID[id]; if(!fq) return '';
+    // context substitution: carry country/vertical into the followup target if it accepts them
+    let tgt=fq.target;
+    ctx.forEach(([k,v])=>{{ if((fq.params_open||[]).includes(k)) tgt += (tgt.includes('?')?'&':'?')+k+'='+encodeURIComponent(v); }});
+    const soon = fq.enabled===false;
+    return soon ? `<span style="opacity:.5">${{esc(fq.text)}} (soon)</span>` : `<a href="${{tgt}}">${{esc(fq.text)}}</a>`;
+  }}).filter(Boolean).join('');
+  return `<div class="nextblock"><div class="nb-h">Next</div><div class="nb-links">${{links}}</div></div>`;
+}}
+// inject a Next block at the end of an altitude's .terr/.world container
+function injectNext(viewId) {{
+  const sec=document.querySelector('.altitude.active .terr, .altitude.active .world');
+  if(!sec) return;
+  let nb=sec.querySelector(':scope > .nextblock'); if(nb) nb.remove();
+  const html=renderNextBlock(viewId); if(html) sec.insertAdjacentHTML('beforeend', html);
+}}
 
 /* ============ D1 COMPANY PAGE ============ */
 const MLAB={{L0:'Silent',L1:'Talk',L2:'Pilot',L3:'Operating',L4:'Industrialized'}};
@@ -997,18 +1097,24 @@ function renderCompany(slug) {{
 /* ============ B7 INSIGHTS FEED + D7 export ============ */
 let insPersona='';
 const ICON={{silent_giant:`{icon('target',16)}`,contradiction:`{icon('triangle-alert',16)}`,whitespace:`{icon('map',16)}`,outlier:`{icon('chart-no-axes-column',16)}`,momentum_break:`{icon('clock',16)}`}};
+let insType='';
 function renderInsights() {{
-  goAltitude('insights','Insights');
+  goAltitude('insights','Signals');
+  // honor ?type= and ?p= from the question targets (#/signals?type=contradiction etc.)
+  const p=currentParams(); insType=p.get('type')||''; if(p.get('p')) insPersona=p.get('p');
   const ctrl=document.getElementById('insPersona');
-  if(!ctrl.dataset.wired){{ ctrl.dataset.wired='1';
+  if(ctrl && !ctrl.dataset.wired){{ ctrl.dataset.wired='1';
     ctrl.addEventListener('click',e=>{{ const b=e.target.closest('button'); if(!b)return;
-      ctrl.querySelectorAll('button').forEach(x=>x.classList.toggle('on',x===b)); insPersona=b.dataset.p; drawInsights(); }});
+      ctrl.querySelectorAll('button').forEach(x=>x.classList.toggle('on',x===b)); insPersona=b.dataset.p;
+      const np=currentParams(); if(insPersona)np.set('p',insPersona);else np.delete('p');
+      history.replaceState(null,'','#/signals'+(np.toString()?'?'+np:'')); drawInsights(); }});
   }}
+  if(ctrl) ctrl.querySelectorAll('button').forEach(x=>x.classList.toggle('on', (x.dataset.p||'')===insPersona));
   drawInsights();
 }}
 function drawInsights() {{
   const feed=document.getElementById('insFeed');
-  const cards=(ATLAS.insights||[]).filter(c=>!insPersona || (c.persona||[]).includes(insPersona));
+  const cards=(ATLAS.insights||[]).filter(c=>(!insPersona || (c.persona||[]).includes(insPersona)) && (!insType || c.type===insType));
   feed.innerHTML = cards.map(c=>{{
     const co=(c.entities||[]).map(sl=>{{const x=COMP_BY_SLUG&&COMP_BY_SLUG[sl]; return x?`<a class="colink" href="#/company/${{sl}}">${{esc(x.name)}}</a>`:'';}}).filter(Boolean).join(', ');
     return `<div class="inscard">
@@ -1180,8 +1286,60 @@ function renderHype() {{
 
 /* ============ D4 SILENT COMPANIES VIEW ============ */
 let silentSort={{k:'peer_median',dir:-1}};
+/* ============ COMPANIES filterable list (question targets) ============ */
+let compSort={{k:'prospect_score',dir:-1}}, compWired=false;
+const MLAB_SHORT={{L0:'L0',L1:'L1',L2:'L2',L3:'L3',L4:'L4'}};
+function renderCompanies() {{
+  goAltitude('companies','Companies'); indexCompanies();
+  const p=currentParams();
+  compSort.k = p.get('sort')||'prospect_score'; compSort.dir=-1;
+  document.getElementById('companiesTitle').textContent =
+    (p.get('existence')==='confirmed' && p.get('has_value_number')==='false') ? 'Confirmed AI, no value number' : 'Companies';
+  document.getElementById('companiesLede').textContent =
+    (p.get('existence')==='confirmed' && p.get('has_value_number')==='false')
+    ? 'Companies running confirmed AI that disclose no value number — active but unmeasured. Sorted by prospect score.'
+    : 'All companies with disclosed AI.';
+  const ccSel=document.getElementById('companiesCC'), vSel=document.getElementById('companiesVert');
+  if(!compWired){{ compWired=true;
+    const names={{}}; ATLAS.countries.forEach(c=>names[c.cc]=c.name);
+    [...new Set(ATLAS.companies.filter(c=>!c.silent).map(c=>c.cc))].sort().forEach(cc=>ccSel.insertAdjacentHTML('beforeend',`<option value="${{cc}}">${{names[cc]||cc}}</option>`));
+    ATLAS.verticals.forEach(v=>vSel.insertAdjacentHTML('beforeend',`<option value="${{esc(v)}}">${{esc(v)}}</option>`));
+    ccSel.onchange=vSel.onchange=()=>drawCompanies();
+    document.querySelectorAll('#companiesTable th').forEach(th=>th.addEventListener('click',()=>{{
+      const k=th.dataset.k; compSort.dir=(compSort.k===k)?-compSort.dir:-1; compSort.k=k; drawCompanies(); }}));
+  }}
+  drawCompanies();
+}}
+function drawCompanies() {{
+  const p=currentParams();
+  const wantConf=p.get('existence')==='confirmed', wantNoNum=p.get('has_value_number')==='false';
+  const cc=document.getElementById('companiesCC').value, vv2=document.getElementById('companiesVert').value;
+  const names={{}}; ATLAS.countries.forEach(c=>names[c.cc]=c.name);
+  let rows=ATLAS.companies.filter(c=>!c.silent);
+  if(wantConf) rows=rows.filter(c=>c.confirmed>0);
+  if(wantNoNum) rows=rows.filter(c=>c.with_value_number===0);
+  if(cc) rows=rows.filter(c=>c.cc===cc);
+  if(vv2) rows=rows.filter(c=>c.vertical===vv2);
+  rows.sort((a,b)=>{{ let A=a[compSort.k],B=b[compSort.k]; if(A==null)A=-1; if(B==null)B=-1;
+    return ((typeof A==='string')?A.localeCompare(B):(A>B?1:A<B?-1:0))*compSort.dir; }});
+  document.querySelector('#companiesTable tbody').innerHTML = rows.slice(0,300).map(c=>`<tr>
+    <td><a class="colink" href="#/company/${{c.slug}}">${{esc(c.name)}}</a></td>
+    <td>${{names[c.cc]||c.cc}}</td><td>${{esc(c.vertical||'—')}}</td>
+    <td>${{c.deployments}}</td><td>${{c.confirmed}}</td><td>${{Math.round((c.proof_rate||0)*100)}}%</td>
+    <td>${{MLAB_SHORT[c.maturity]||c.maturity||'—'}}</td><td>${{c.prospect_score!=null?c.prospect_score:'—'}}</td></tr>`).join('');
+  document.getElementById('companiesCount').textContent =
+    `${{rows.length}} compan${{rows.length===1?'y':'ies'}}${{rows.length>300?' (showing top 300)':''}}.`;
+}}
+
 function renderSilent() {{
   goAltitude('silent','Silent list');
+  // size sort requested but size data pending (Step 12) -> visible fallback marker.
+  // keys off data presence: any silent row carrying a size value clears it automatically.
+  const wantSize=(currentParams().get('sort')==='size_desc');
+  const hasSize=ATLAS.silent.some(s=>s.mktcap||s.revenue||s.employees);
+  const smp=document.getElementById('silentSizePending');
+  if(smp) smp.innerHTML = (wantSize && !hasSize)
+    ? `<div class="pending">{icon('info',14)} <b>Size data pending</b> — sorted by <b>peer gap</b> (median deployments of same-industry rivals) instead of company size. The Step 12 enrichment flips this to a true size sort with zero code changes.</div>` : '';
   const ccSel=document.getElementById('silentCC'), secSel=document.getElementById('silentSector');
   if(ccSel && ccSel.options.length<2) {{
     const ccs=[...new Set(ATLAS.silent.map(s=>s.cc))].sort();
@@ -1673,6 +1831,8 @@ scrim.addEventListener('click',closePanel);
 document.getElementById('pclose').addEventListener('click',closePanel);
 document.addEventListener('keydown',e=>{{ if(e.key==='Escape'&&panel.classList.contains('open'))closePanel(); }});
 
+/* render the question menu on the home screen (N1) */
+renderQMenu();
 /* honor a deep-link hash on first load (e.g. someone opens #/silent directly) */
 if (location.hash && location.hash!=='#') applyRoute();
 </script>

@@ -1,6 +1,6 @@
 # KARTO V3 — locked build decisions
 
-Plan: karto-v3-build-plan-reviewed.md (wins over companion doc on build order).
+Plan: karto-v3-build-plan-updated-2.md (authoritative; supersedes -reviewed; wins over companion doc on build order).
 Companion specs: karto-v3-implementation-instructions.md (N1-3, A7/D9, A6/D10, H1/H2, B7-r).
 Strategy: plumbing-first, null-tolerant, visible fallbacks, ONE resweep finale (Step 12).
 
@@ -27,6 +27,25 @@ Strategy: plumbing-first, null-tolerant, visible fallbacks, ONE resweep finale (
 All targets use `#/...`. Existing V2 routes: #/silent #/compare #/trends #/hype #/insights(=signals)
 #/company/{slug} #/grid #/world. New V3 routes: #/usecases #/usecase/{p} #/vendor/{slug} #/changelog
 #/companies (filterable list) #/signals (alias/rename of insights w/ type+p params).
+
+## Plan update-2 (karto-v3-build-plan-updated-2.md) — hardening for Steps 6 & 12
+STEP 6 gate — hard enforcement rules to implement:
+- Additive-by-default: each job declares read/write tables+columns upfront. UPDATE only declared
+  columns, INSERT only declared tables. Overwrite of non-null / row delete = CONFLICT (own review
+  section, never auto-applied).
+- Immutable keys: row_ids + company keys permanent (money/usecases/vendors join on them). Gate CODE
+  rejects any proposal touching a key.
+- Dry-run cook: cook staged data in temp dir, diff atlas stats vs current; out-of-scope stat change
+  fails the dry run.
+- Batched apply: chunks (per-country or <=200 rows), one git commit per batch (easy revert).
+STEP 12 resweep doctrine (encode in agent scripts, not just prompts):
+- Register is an asset not a cache — never re-derive/re-search existing data.
+- Skip-if-filled: enrichment queries only NULL cells.
+- Resumable: per-batch checkpoint; crash at 1800 resumes 1801.
+- Scope lock: each agent prompt states read/write contract, forbids drift.
+- Delta freshness: "what's new since {last_verified}", never from zero.
+- Freshness = a forever priority queue (oldest last_verified first, value/high-visibility weighted),
+  fixed budget/run (~100 rows); becomes the ongoing heartbeat engine.
 
 ## Progress
 - [x] Step 1 vertical dedup (done in prior task; alias-map record added here in V3)
