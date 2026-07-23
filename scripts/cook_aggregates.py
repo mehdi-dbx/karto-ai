@@ -208,7 +208,18 @@ for (name,cc),u in UNI.items():
     seen_slugs[slug]=1
     COMPANIES.append({"slug":slug,"name":name,"cc":cc,"vertical":u.get("raw_sector",""),
         "deployments":0,"confirmed":0,"with_value_number":0,"proof_rate":0,
-        "mktcap":None,"revenue":None,"employees":None,"silent":True,"index":u.get("index","")})
+        "mktcap":u.get("market_cap_usd") or None,"revenue":u.get("revenue_usd") or None,
+        "employees":u.get("employees") or None,"silent":True,"index":u.get("index","")})
+
+# B1 normalized metrics — compute-when-present (null-safe). Lights up post-resweep, no schema change.
+def _num(x):
+    try: return float(str(x).replace(",","")) if x not in (None,"","None") else None
+    except: return None
+for c in COMPANIES:
+    rev=_num(c.get("revenue")); emp=_num(c.get("employees")); mc=_num(c.get("mktcap"))
+    c["mktcap"]=mc; c["revenue"]=rev; c["employees"]=emp
+    c["per_bn_revenue"]=round(c["deployments"]/(rev/1e9),2) if rev and rev>0 else None
+    c["per_10k_emp"]=round(c["deployments"]/(emp/1e4),2) if emp and emp>0 else None
 
 # B2 percentile benchmarks within peer groups (deployment count / confirmed / proof rate)
 def pctile(sorted_vals, v):
@@ -250,7 +261,7 @@ peer_med={}
 for (v,cc),grp in byvc.items():
     peer_med[(v,cc)]=statistics.median([c["deployments"] for c in grp]) if grp else 0
 SILENT=[{"slug":c["slug"],"name":c["name"],"cc":c["cc"],"sector":c.get("vertical",""),
-         "index":c.get("index",""),
+         "index":c.get("index",""),"mktcap":c.get("mktcap"),"revenue":c.get("revenue"),"employees":c.get("employees"),
          "peer_median":peer_med.get((c["vertical"],c["cc"]),None)}
         for c in COMPANIES if c["silent"]]
 

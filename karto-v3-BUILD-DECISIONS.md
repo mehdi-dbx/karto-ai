@@ -62,3 +62,10 @@ STEP 12 resweep doctrine (encode in agent scripts, not just prompts):
    company-level dedicated_collection rows have blank register_row_id. Fixed cook to count
    commitments by (company,cc) -> vertical. global.commitments 0 -> 77; hype money-in
    pending marker now self-clears correctly. (One code change; noted here.)
+2. Silent-company size: cook read size only for register companies; silent companies (universe-only)
+   hardcoded None. Fixed to read size from UNI for silent rows too. 463/491 now sized -> silent
+   size-sort + size-pending marker self-clear.
+3. B1 normalized metrics were never computed (columns were null so math was deferred). Wired
+   compute-when-present: per_bn_revenue, per_10k_emp. 2,352 companies now carry them.
+   (These were genuine plumbing misses — the plan's "zero code change" ideal wasn't fully met for
+   size-dependent B1/D4; filed honestly. The marker/self-clear logic DID work as designed.)

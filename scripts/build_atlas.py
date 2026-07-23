@@ -961,7 +961,7 @@ a.colink {{ color:var(--ink); text-decoration:none; }} a.colink:hover {{ color:v
       <table id="silentTable">
         <thead><tr>
           <th data-k="name">Company</th><th data-k="cc">Country</th>
-          <th data-k="sector">Sector</th><th data-k="index">Index</th>
+          <th data-k="sector">Sector</th><th data-k="mktcap">Market cap</th>
           <th data-k="peer_median">Peer median</th>
         </tr></thead><tbody></tbody>
       </table>
@@ -1151,12 +1151,14 @@ function renderCompany(slug) {{
     host.innerHTML=html; return;
   }}
   // KPI row
+  const fmtB=v=>v?(v>=1e9?'$'+(v/1e9).toFixed(0)+'B':v>=1e6?'$'+(v/1e6).toFixed(0)+'M':'$'+v):'—';
   html+=`<div class="ckpis">
     <div class="ckpi"><div class="n">${{c.deployments}}</div><div class="l">deployments</div></div>
     <div class="ckpi"><div class="n">${{c.confirmed}}</div><div class="l">confirmed</div></div>
     <div class="ckpi"><div class="n">${{Math.round((c.proof_rate||0)*100)}}%</div><div class="l">cite a number</div></div>
     <div class="ckpi"><div class="n">${{c.first_seen||'—'}}</div><div class="l">first seen</div></div>
-    <div class="ckpi"><div class="n" style="font-size:16px">${{esc((c.momentum||'').replace(/,/g,', '))||'—'}}</div><div class="l">momentum</div></div>
+    ${{c.mktcap?`<div class="ckpi"><div class="n">${{fmtB(c.mktcap)}}</div><div class="l">market cap</div></div>`:''}}
+    ${{c.per_bn_revenue!=null?`<div class="ckpi"><div class="n">${{c.per_bn_revenue}}</div><div class="l">deploys / $B rev</div></div>`:''}}
   </div>`;
   // vendor stack (D10)
   if(c.stack&&c.stack.length){{
@@ -1587,8 +1589,12 @@ function renderSilent() {{
       const k=th.dataset.k; silentSort.dir=(silentSort.k===k)?-silentSort.dir:-1; silentSort.k=k; drawSilent();
     }}));
   }}
+  // if the question asked for size_desc and size now exists, honor it (self-flips post-resweep)
+  const hasSizeNow=ATLAS.silent.some(s=>s.mktcap);
+  if(currentParams().get('sort')==='size_desc' && hasSizeNow && silentSort.k==='peer_median'){{ silentSort.k='mktcap'; silentSort.dir=-1; }}
   drawSilent();
 }}
+function fmtUSD(v){{ if(!v) return '—'; return v>=1e9?('$'+(v/1e9).toFixed(0)+'B'):v>=1e6?('$'+(v/1e6).toFixed(0)+'M'):('$'+v); }}
 function drawSilent() {{
   const cc=document.getElementById('silentCC').value, sec=document.getElementById('silentSector').value;
   const names={{}}; ATLAS.countries.forEach(c=>names[c.cc]=c.name);
@@ -1598,7 +1604,7 @@ function drawSilent() {{
     return ((typeof A==='string')?A.localeCompare(B):(A>B?1:A<B?-1:0))*silentSort.dir; }});
   document.querySelector('#silentTable tbody').innerHTML = rows.map(s=>`<tr>
     <td><a class="colink" href="#/company/${{s.slug}}">${{esc(s.name)}}</a></td><td>${{names[s.cc]||s.cc}}</td><td>${{esc(s.sector||'—')}}</td>
-    <td>${{esc(s.index||'—')}}</td><td>${{s.peer_median!=null?s.peer_median:'—'}}</td></tr>`).join('');
+    <td>${{fmtUSD(s.mktcap)}}</td><td>${{s.peer_median!=null?s.peer_median:'—'}}</td></tr>`).join('');
   document.getElementById('silentCount').textContent =
     `${{rows.length}} silent compan${{rows.length===1?'y':'ies'}} shown · ${{ATLAS.silent.length}} total searched with zero disclosed AI.`;
 }}
