@@ -14,6 +14,14 @@ OUT   = os.path.join(ROOT, "karto-atlas.html")
 VENDOR = os.path.join(ROOT, "tools", "vendor")
 
 import base64, glob
+# V3 Step 6 path guard: warn loudly if a gate-managed table changed off-gate.
+try:
+    import subprocess as _sp
+    _g = _sp.run([__import__("sys").executable, os.path.join(ROOT,"scripts","gate_guard.py"),"check"],
+                 capture_output=True, text=True)
+    if _g.returncode != 0: print("⚠ ", _g.stdout.strip() or _g.stderr.strip())
+except Exception: pass
+
 data = json.load(open(ATLAS))
 DATA_JSON = json.dumps(data, ensure_ascii=False)
 

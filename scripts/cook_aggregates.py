@@ -7,7 +7,9 @@ Reproducible: python3 scripts/cook_aggregates.py
 import csv, json, re, os, glob
 from collections import Counter, defaultdict
 
-ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+# ROOT resolves from this file, but the gate's dry-run cook (scripts/gate.py) sets
+# KARTO_ROOT to a temp dir so it can cook STAGED data in isolation without touching real data/.
+ROOT = os.environ.get("KARTO_ROOT") or os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 REG  = os.path.join(ROOT, "data", "register.csv")
 OUT  = os.path.join(ROOT, "data", "atlas.json")
 
