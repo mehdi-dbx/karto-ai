@@ -244,6 +244,12 @@ a:hover {{ text-decoration: underline; }}
 .expbtn {{ margin-top:24px; font-family:var(--font-ui); font-size:13px; color:var(--ink); background:var(--surface-2);
   border:1px solid var(--hair); border-radius:8px; padding:10px 18px; cursor:pointer; transition:border-color .2s ease, color .2s ease; }}
 .expbtn:hover {{ border-color:var(--accent); color:var(--accent); }}
+/* visible "data pending" marker (plumbing-first fallback rule; keys off data presence) */
+.pending {{ font-family:var(--font-ui); font-size:12.5px; color:var(--ink-2); line-height:1.5;
+  background:color-mix(in srgb,var(--v-unquantified) 12%,var(--surface)); border:1px solid var(--hair);
+  border-radius:8px; padding:10px 14px; margin:14px 0; }}
+.pending b {{ color:var(--ink); font-weight:560; }}
+.pending .lic {{ color:var(--v-unquantified); vertical-align:-.16em; margin-right:4px; }}
 .toggle {{
   border: 1px solid var(--hair); background: var(--surface); color: var(--ink-2);
   border-radius: 999px; padding: 6px 12px; font-size: 12px; cursor: pointer;
@@ -798,6 +804,7 @@ a.colink {{ color:var(--ink); text-decoration:none; }} a.colink:hover {{ color:v
         A short bar under a long one = an industry deploying AI blind.</p>
       </div>
     </div>
+    <div id="hypeMoneyPending"></div>
     <div class="vhist" id="hypeChart" style="margin-top:24px"></div>
     <p class="footnote">Substantiation = share of that industry's deployments that cite any value number
     (self-reported, rarely audited). Investment figures regex-extracted from disclosure text.</p>
@@ -1146,6 +1153,12 @@ function drawTrends() {{
 /* ============ D6 HYPE DETECTOR VIEW ============ */
 function renderHype() {{
   goAltitude('hype','Hype');
+  // money-IN axis (committed capital) is pending until the Step 12 dedicated collection.
+  // Marker keys off data presence (global.commitments) so it self-clears when data lands.
+  const mp=document.getElementById('hypeMoneyPending');
+  if(mp) mp.innerHTML = (ATLAS.global.commitments||0)===0
+    ? `<div class="pending">{icon('info',14)} Money-<b>in</b> axis (committed capital: invest / acquire / partner) — <b>data pending</b>. Shown here: money-<b>out</b> claims only. The Step 12 collection lights this up with zero code changes.</div>`
+    : '';
   const host=document.getElementById('hypeChart'); if(!host||!ATLAS.hype_by_vertical) return;
   const data=[...ATLAS.hype_by_vertical].filter(h=>h.announced>0).sort((a,b)=>b.announced-a.announced);
   const max=Math.max(...data.map(h=>h.announced));

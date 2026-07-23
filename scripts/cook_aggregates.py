@@ -443,23 +443,32 @@ INSIGHTS=INSIGHTS[:60]   # cap the feed
 FRESH=Counter(stale_bucket(r[10]) for r in rows)
 GLOBAL_FRESH={k:FRESH.get(k,0) for k in ("fresh","aging","stale","undated")}
 
-# D6 hype: per vertical — announcements (rows) vs substantiation (value numbers + investment claims)
-CLAIMS_BY_ROW=defaultdict(list)
-claims_path=os.path.join(ROOT,"data","claims.csv")
-if os.path.exists(claims_path):
-    cr=list(csv.reader(open(claims_path)))[1:]
-    for c in cr:
-        try: CLAIMS_BY_ROW[int(c[0])].append({"amount":c[3],"currency":c[4],"unit":c[5],"claim_type":c[6],"phrase":c[7]})
-        except: pass
-# map row index -> vertical (rows list order == claims row_id)
+# D6 hype: per vertical — announcements (rows) vs substantiation (value numbers + money events)
+# Money now comes from the UNIFIED data/money.csv (V3 Step 2), keyed by register_row_id.
+# origin=register_extraction (regex claims) + dedicated_collection (commitments; near-empty
+# until the Step 12 FS pilot — the money-in axis renders with a "pending" marker in the UI).
+MONEY_BY_ROW=defaultdict(list)
+COMMIT_BY_ROW=defaultdict(list)   # dedicated_collection only (money-in / commitments)
+money_path=os.path.join(ROOT,"data","money.csv")
+if os.path.exists(money_path):
+    for m in csv.DictReader(open(money_path)):
+        rid=m.get("register_row_id","")
+        if rid.isdigit():
+            MONEY_BY_ROW[int(rid)].append(m)
+            if m.get("origin")=="dedicated_collection":
+                COMMIT_BY_ROW[int(rid)].append(m)
+GLOBAL["commitments"]=sum(len(v) for v in COMMIT_BY_ROW.values())   # 0 until Step 12 -> UI pending marker
+# map row index -> vertical (rows list order == register_row_id)
 HYPE_VERT=[]
 byv_rows=defaultdict(list)
 for i,r in enumerate(rows): byv_rows[r[2]].append(i)
 for v,idxs in byv_rows.items():
     announced=len(idxs)
     withnum=sum(1 for i in idxs if has_num(rows[i][7]))
-    invest=sum(1 for i in idxs if any(cl["claim_type"]=="investment" for cl in CLAIMS_BY_ROW.get(i,[])))
+    invest=sum(1 for i in idxs if any(m["kind"]=="investment" for m in MONEY_BY_ROW.get(i,[])))
+    commits=sum(1 for i in idxs if COMMIT_BY_ROW.get(i))
     HYPE_VERT.append({"v":v,"announced":announced,"substantiated":withnum,"investments":invest,
+                      "commitments":commits,   # money-in axis; 0 until dedicated collection
                       "substantiation_rate":round(withnum/announced,3) if announced else 0})
 HYPE_VERT.sort(key=lambda x:-x["announced"])
 
@@ -482,7 +491,8 @@ META["benchmarks"]={"method":"percentile rank within peer group (share of peers 
                     "groups":["global_vertical","country_vertical"],"metrics":["deployments","confirmed","proof_rate"]}
 META["silent"]="companies in data/universe.csv (searched) with zero register rows (L0 silent)."
 META["freshness"]={"anchor_year":NOW_YEAR,"buckets":{"fresh":"<=1yr","aging":"2yr","stale":">2yr","undated":"no date"}}
-META["hype"]="hype_by_vertical: announced (rows) vs substantiated (rows w/ value number) + investment claims (from claims.csv, regex-extracted, no LLM)."
+META["hype"]="hype_by_vertical: announced (rows) vs substantiated (rows w/ value number) + money events from data/money.csv (V3 Step 2 unified table). commitments (money-in axis) = dedicated_collection rows, near-empty until the Step 12 FS pilot."
+META["money"]="data/money.csv unified table: origin register_extraction (regex claims) | dedicated_collection (purpose-collected commitments). Retires claims.csv/commitments.csv."
 META["maturity"]={"levels":{"L0":"silent (in universe, no rows)","L1":"talk (rows, none confirmed)","L2":"pilot (confirmed, single footprint)","L3":"operating (confirmed + multi-horizontal OR named product OR value number)","L4":"industrialized (L3 + multi-year + value/tier-P)"}}
 META["scores"]={"prospect_score":"min(confirmed,10)/10*60 + (1-proof_rate)*40 — confirmed activity without measurement. 0-100.",
                 "whitespace_score":"100 * active_countries / max_active_countries for that vertical×function. 0-100."}
