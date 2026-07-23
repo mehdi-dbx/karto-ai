@@ -28,12 +28,12 @@
     "n": 34
    },
    {
-    "v": "Logistics & Supply Chain",
-    "n": 31
+    "v": "Industrial / Machinery",
+    "n": 34
    },
    {
-    "v": "Industrial / Machinery",
-    "n": 30
+    "v": "Logistics & Supply Chain",
+    "n": 31
    }
   ]
  },
@@ -137,8 +137,8 @@
   {
    "v": "Industrial / Machinery",
    "h": "Core / Domain",
-   "n": 26,
-   "withnum": 10,
+   "n": 28,
+   "withnum": 11,
    "verdict": "active",
    "verdict_v2": "active"
   },
@@ -153,10 +153,18 @@
   {
    "v": "Industrial / Machinery",
    "h": "Software / Code",
-   "n": 1,
-   "withnum": 1,
+   "n": 2,
+   "withnum": 2,
    "verdict": "strong",
    "verdict_v2": "proven"
+  },
+  {
+   "v": "Industrial / Machinery",
+   "h": "Sales / Marketing",
+   "n": 1,
+   "withnum": 0,
+   "verdict": "talk",
+   "verdict_v2": "unquantified"
   },
   {
    "v": "Industrial / Machinery",
@@ -469,30 +477,6 @@
    "withnum": 0,
    "verdict": "talk",
    "verdict_v2": "unquantified"
-  },
-  {
-   "v": "General Manufacturing",
-   "h": "Core / Domain",
-   "n": 2,
-   "withnum": 1,
-   "verdict": "strong",
-   "verdict_v2": "proven"
-  },
-  {
-   "v": "General Manufacturing",
-   "h": "Software / Code",
-   "n": 1,
-   "withnum": 1,
-   "verdict": "strong",
-   "verdict_v2": "proven"
-  },
-  {
-   "v": "General Manufacturing",
-   "h": "Sales / Marketing",
-   "n": 1,
-   "withnum": 0,
-   "verdict": "talk",
-   "verdict_v2": "unquantified"
   }
  ],
  "verticals": [
@@ -524,20 +508,20 @@
    "verdict_v2": "proven"
   },
   {
+   "v": "Industrial / Machinery",
+   "n": 34,
+   "confirmed": 33,
+   "withnum": 14,
+   "proof_pct": 41,
+   "verdict": "strong",
+   "verdict_v2": "proven"
+  },
+  {
    "v": "Logistics & Supply Chain",
    "n": 31,
    "confirmed": 30,
    "withnum": 18,
    "proof_pct": 58,
-   "verdict": "strong",
-   "verdict_v2": "proven"
-  },
-  {
-   "v": "Industrial / Machinery",
-   "n": 30,
-   "confirmed": 29,
-   "withnum": 12,
-   "proof_pct": 40,
    "verdict": "strong",
    "verdict_v2": "proven"
   },
@@ -619,15 +603,6 @@
    "confirmed": 4,
    "withnum": 3,
    "proof_pct": 75,
-   "verdict": "strong",
-   "verdict_v2": "proven"
-  },
-  {
-   "v": "General Manufacturing",
-   "n": 4,
-   "confirmed": 4,
-   "withnum": 2,
-   "proof_pct": 50,
    "verdict": "strong",
    "verdict_v2": "proven"
   },

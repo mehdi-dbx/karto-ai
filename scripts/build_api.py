@@ -16,6 +16,12 @@ def wr(path, obj):
     json.dump(obj, open(path,"w"), ensure_ascii=False, indent=1)
 def slug(s): return re.sub(r"[^a-z0-9]+","-",s.lower()).strip("-") or "x"
 
+def prune(subdir, valid_names):
+    # remove stale per-entity files no longer in the dataset (e.g. after a vertical dedup)
+    import glob
+    for f in glob.glob(os.path.join(API, subdir, "*.json")):
+        if os.path.basename(f) not in valid_names: os.remove(f)
+
 # rows by company (for company payloads)
 rows_by=dict()
 for key,lst in A["cells"].items():
@@ -26,6 +32,7 @@ ncomp=0
 for c in A["companies"]:
     payload=dict(c); payload["deployments_detail"]=rows_by.get(c["name"],[])
     wr(os.path.join(API,"company",c["slug"]+".json"), payload); ncomp+=1
+prune("company", {c["slug"]+".json" for c in A["companies"]})
 
 ncc=0
 for co in A["countries"]:
@@ -33,12 +40,14 @@ for co in A["countries"]:
     verts=A["vert_totals_by_country"].get(co["cc"],[])
     wr(os.path.join(API,"country",co["cc"].lower()+".json"),
        {"country":co,"grid":grid,"verticals":verts}); ncc+=1
+prune("country", {co["cc"].lower()+".json" for co in A["countries"]})
 
 nv=0
 for v in A["verticals"]:
     vg=[c for c in A["grid_global"] if c["v"]==v]
     vt=next((x for x in A["vert_totals_global"] if x["v"]==v), None)
     wr(os.path.join(API,"vertical",slug(v)+".json"), {"vertical":v,"totals":vt,"grid":vg}); nv+=1
+prune("vertical", {slug(v)+".json" for v in A["verticals"]})
 
 INDEX={"schema_version":A["meta"]["schema_version"],
   "license":"CC BY-NC 4.0",
