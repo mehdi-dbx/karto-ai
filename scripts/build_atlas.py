@@ -91,6 +91,7 @@ HTML = f"""<!DOCTYPE html>
   /* verdict status (always paired with glyph+label) */
   --v-strong:    #0ca30c;
   --v-active:    #b8820f;         /* amber, darkened for text legibility on cream */
+  --v-unquantified: #5a7d99;      /* slate-blue: real activity, no numbers (distinct from red hype) */
   --v-talk:      #d03b3b;
   --v-empty:     #cfc7b5;
   /* sequential density ramp (light) */
@@ -113,6 +114,7 @@ HTML = f"""<!DOCTYPE html>
   --accent-soft: #4a3c26;
   --v-strong:    #2fb62f;
   --v-active:    #fab219;
+  --v-unquantified: #7fa6c4;      /* slate-blue, lifted for dark surface */
   --v-talk:      #e66767;
   --v-empty:     #3a352d;
   --d1:#24211c; --d2:#9c5312; --d3:#b06a1c; --d4:#cc8a38; --d5:#e0b06a; --d6:#f0d4a0; --d7:#f0d4a0;
@@ -241,6 +243,12 @@ a:hover {{ text-decoration: underline; }}
 .gapbar .proof {{ background: var(--accent); color: #fff; font-weight: 560; }}
 .gaplabels {{ display: flex; justify-content: space-between; margin-top: 10px; font-size: 12px; color: var(--muted); }}
 .footnote {{ font-size: 12.5px; color: var(--muted); margin-top: 30px; max-width: 60ch; }}
+.methodology {{ margin-top: 16px; max-width: 68ch; font-family: var(--font-ui); }}
+.methodology summary {{ cursor: pointer; font-size: 12.5px; color: var(--ink-2); letter-spacing: .02em; }}
+.methodology summary:hover {{ color: var(--accent); }}
+.methodology ul {{ margin: 12px 0 0; padding-left: 18px; }}
+.methodology li {{ font-size: 12.5px; color: var(--muted); line-height: 1.6; margin-bottom: 6px; }}
+.methodology b {{ color: var(--ink-2); font-weight: 560; }}
 
 .descend {{
   margin-top: 60px; display: inline-flex; align-items: center; gap: 10px;
@@ -352,9 +360,12 @@ table.grid td .glyph {{ font-size:13px; line-height:1; }}
 table.grid td .cnt {{ font-family:var(--font-ui); font-size:11px; font-variant-numeric:tabular-nums; opacity:.9; }}
 /* verdict fills (light bg tints; glyph+label carry meaning, never color alone) */
 .v-strong {{ background:color-mix(in srgb, var(--v-strong) 22%, var(--surface)); color:var(--ink); }}
+.v-proven {{ background:color-mix(in srgb, var(--v-strong) 22%, var(--surface)); color:var(--ink); }}
 .v-active {{ background:color-mix(in srgb, var(--v-active) 26%, var(--surface)); color:var(--ink); }}
+.v-unquantified {{ background:color-mix(in srgb, var(--v-unquantified) 24%, var(--surface)); color:var(--ink); }}
 .v-talk   {{ background:color-mix(in srgb, var(--v-talk) 20%, var(--surface)); color:var(--ink); }}
-.g-strong {{ color:var(--v-strong); }} .g-active {{ color:var(--v-active); }} .g-talk {{ color:var(--v-talk); }}
+.g-strong, .g-proven {{ color:var(--v-strong); }} .g-active {{ color:var(--v-active); }}
+.g-unquantified {{ color:var(--v-unquantified); }} .g-talk {{ color:var(--v-talk); }}
 /* magnitude mode uses sequential ramp inline */
 .verdict-key {{ display:flex; flex-wrap:wrap; gap:20px; margin-top:20px; font-size:12.5px; color:var(--ink-2); font-family:var(--font-ui); }}
 .verdict-key .k {{ display:inline-flex; align-items:center; gap:7px; }}
@@ -466,6 +477,19 @@ table.grid td .cnt {{ font-family:var(--font-ui); font-size:11px; font-variant-n
     <p class="footnote">Read it as a map: descend from here to the world, then to any country's
     industries, down to the individual companies and their sources. A disclosed-evidence sample —
     honest about what it can and cannot see.</p>
+    <details class="methodology"><summary>Methodology &amp; how to read this</summary>
+      <ul>
+        <li><b>Source-gated.</b> Only company filings, own-disclosure, institutional reports, and credible
+            press count. SEO blogs, vendor marketing and aggregators are rejected on sight.</li>
+        <li><b>Absence is a finding.</b> Companies searched with zero disclosed AI are recorded, not dropped —
+            "no confirmed deployment" is itself a data point.</li>
+        <li><b>Existence tiers:</b> CONFIRMED (own disclosure) › CLAIMED (third-party) › SMOKE (rejected).</li>
+        <li><b>Value is almost always self-reported.</b> "Carries a value number" ≠ audited. Independent
+            verification is essentially absent — that gap is the study's central finding.</li>
+        <li><b>Density</b> = confirmed deployments per company searched; deployment-level, so &gt;1× is normal.</li>
+        <li><b>Two axes:</b> industry (vertical) × what the AI does (function). One deployment = one cell.</li>
+      </ul>
+    </details>
 
     <button class="descend" id="descend">Descend to the world <span class="arrow">↓</span></button>
 
@@ -492,7 +516,8 @@ table.grid td .cnt {{ font-family:var(--font-ui); font-size:11px; font-variant-n
       <div>
         <h2>Where AI actually lands</h2>
         <p class="lede">Each of the {g['countries']} markets we searched. Bubble size = deployments found;
-        color = <b>adoption density</b> (confirmed deployments per company searched). Big isn't dense.</p>
+        color = <b title="Confirmed deployments per company searched. Companies can carry several, so values above 1× are normal — e.g. Norway 1.48× = 148 confirmed per 100 companies searched.">adoption density</b>
+        (confirmed deployments per company searched — <span style="cursor:help" title="Companies can disclose several deployments, so density above 1× is expected, not a bug.">values above 1× are normal ⓘ</span>). Big isn't dense.</p>
       </div>
       <div class="controls">
         <div class="seg-ctrl" id="viewCtrl">
@@ -553,9 +578,10 @@ table.grid td .cnt {{ font-family:var(--font-ui); font-size:11px; font-variant-n
     </div>
     <div class="gridwrap"><table class="grid" id="gridTable"></table></div>
     <div class="verdict-key" id="verdictKey">
-      <span class="k"><span class="sw v-strong g-strong">●</span> Proven — ≥40% cite a value number</span>
-      <span class="k"><span class="sw v-active g-active">◐</span> Active — confirmed, few numbers (≥15%)</span>
-      <span class="k"><span class="sw v-talk g-talk">○</span> Talk — unconfirmed or almost no numbers</span>
+      <span class="k"><span class="sw v-proven g-proven">●</span> Proven — ≥40% cite a value number</span>
+      <span class="k"><span class="sw v-active g-active">◐</span> Active — confirmed, some numbers (≥15%)</span>
+      <span class="k"><span class="sw v-unquantified g-unquantified">◍</span> Unquantified — mostly confirmed, no numbers yet</span>
+      <span class="k"><span class="sw v-talk g-talk">○</span> Talk — unconfirmed / hype</span>
       <span class="k"><span class="sw" style="background:var(--surface-2)">·</span> Empty — none found</span>
     </div>
     <div class="vhist-block">
@@ -886,8 +912,13 @@ document.querySelectorAll('#worldTable th').forEach(th=>th.addEventListener('cli
 /* ============ A2 TERRITORY (decision grid) ============ */
 let gridScope = null;   // null = world, else cc
 let gridMode = 'verdict';
-const VERDICT_GLYPH = {{strong:'●', active:'◐', talk:'○', empty:'·'}};
-const VERDICT_CLASS = {{strong:'v-strong', active:'v-active', talk:'v-talk', empty:'empty'}};
+// 4-state verdict_v2 (B3). ◍ = confirmed-but-unquantified (real activity, no numbers).
+const VERDICT_GLYPH = {{proven:'●', active:'◐', unquantified:'◍', talk:'○', empty:'·',
+                        strong:'●'}};  // 'strong' alias for any stale refs
+const VERDICT_CLASS = {{proven:'v-proven', active:'v-active', unquantified:'v-unquantified',
+                        talk:'v-talk', empty:'empty', strong:'v-proven'}};
+const VLAB4 = {{proven:'Proven', active:'Active', unquantified:'Unquantified', talk:'Talk', strong:'Proven'}};
+const vv = c => c.verdict_v2 || c.verdict;   // prefer 4-state, fall back
 
 function descendCountry(d) {{
   gridScope = d ? d.cc : null;
@@ -924,8 +955,9 @@ function renderGrid() {{
       if(!c){{ html += '<td class="empty"></td>'; return; }}
       const attrs = `data-v="${{v}}" data-h="${{h}}" data-ri="${{ri}}" data-ci="${{ci}}"`;
       if(gridMode==='verdict'){{
-        html += `<td class="cell ${{VERDICT_CLASS[c.verdict]}}" ${{attrs}}>`
-              + `<span class="glyph g-${{c.verdict}}">${{VERDICT_GLYPH[c.verdict]}}</span>`
+        const V=vv(c);
+        html += `<td class="cell ${{VERDICT_CLASS[V]}}" ${{attrs}}>`
+              + `<span class="glyph g-${{V}}">${{VERDICT_GLYPH[V]}}</span>`
               + `<div class="cnt">${{c.n}}</div></td>`;
       }} else {{
         const t = maxN? c.n/maxN : 0;
@@ -946,7 +978,8 @@ function renderGrid() {{
     td.addEventListener('mousemove', e=>{{
       const v=td.dataset.v, h=td.dataset.h, c=cells[v+'|'+h];
       tip.innerHTML = `<h4>${{v}}</h4><div class="r"><span>${{h}}</span><b>${{c.n}}</b></div>`
-        + (gridMode==='verdict'?`<div class="r"><span>verdict</span><b class="g-${{c.verdict}}">${{c.verdict}}</b></div>`:'')
+        + `<div class="r"><span>with a number</span><b>${{c.withnum||0}} (${{c.n?Math.round(100*(c.withnum||0)/c.n):0}}%)</b></div>`
+        + (gridMode==='verdict'?`<div class="r"><span>verdict</span><b class="g-${{vv(c)}}">${{VLAB4[vv(c)]||vv(c)}}</b></div>`:'')
         + `<div class="hint">click for companies →</div>`;
       tip.style.opacity=1; let x=e.clientX+14,y=e.clientY+14;
       if(x+230>innerWidth)x=e.clientX-230; if(y+120>innerHeight)y=e.clientY-120;
@@ -981,11 +1014,11 @@ function renderVHist() {{
   document.getElementById('vhistScope').textContent = gridScope
     ? '— '+((ATLAS.countries.find(c=>c.cc===gridScope)||{{}}).name||'') : '— the world';
   host.innerHTML = data.map(d=>{{
-    const w=Math.max(2, 100*d[vhistMetric]/max);
-    return `<div class="vrow" title="${{esc(d.v)}} — ${{d.n}} deployments · ${{d.proof_pct}}% carry a number">
+    const w=Math.max(2, 100*d[vhistMetric]/max); const V=vv(d);
+    return `<div class="vrow" title="${{esc(d.v)}} — ${{d.n}} deployments · ${{d.proof_pct}}% carry a number · ${{VLAB4[V]||V}}">
       <div class="vname">${{esc(d.v)}}</div>
-      <div class="vtrack"><div class="vbar v-${{d.verdict}}" style="width:${{w}}%;background:color-mix(in srgb, var(--v-${{d.verdict}}) 55%, var(--surface))"></div></div>
-      <div class="vval">${{d[vhistMetric]}}<span class="u">${{unit}}</span><span class="g g-${{d.verdict}}">${{VERDICT_GLYPH[d.verdict]}}</span></div>
+      <div class="vtrack"><div class="vbar v-${{V}}" style="width:${{w}}%;background:color-mix(in srgb, var(--v-${{V==='proven'?'strong':V}}) 55%, var(--surface))"></div></div>
+      <div class="vval">${{d[vhistMetric]}}<span class="u">${{unit}}</span><span class="g g-${{V}}">${{VERDICT_GLYPH[V]}}</span></div>
     </div>`;
   }}).join('');
 }}
@@ -997,7 +1030,6 @@ document.getElementById('vhistMetric').addEventListener('click', e=>{{
 
 /* A2 table twin (a11y) */
 let gtSort={{k:'n',dir:-1}};
-const VLAB={{strong:'Proven',active:'Active',talk:'Talk'}};
 function buildGridTwin() {{
   const tb=document.querySelector('#gridTableTwin tbody'); if(!tb) return;
   const rows=gridData().map(c=>({{...c, pct: c.n? Math.round(100*(c.withnum||0)/c.n):0}}));
@@ -1005,7 +1037,7 @@ function buildGridTwin() {{
     return ((typeof A==='string')?A.localeCompare(B):(A>B?1:A<B?-1:0))*gtSort.dir; }});
   tb.innerHTML=rows.map(c=>`<tr onclick='openCell(${{JSON.stringify(c.v)}},${{JSON.stringify(c.h)}})'>
     <td>${{c.v}}</td><td>${{c.h}}</td><td>${{c.n}}</td><td>${{c.withnum||0}}</td>
-    <td>${{c.pct}}</td><td><span class="g-${{c.verdict}}">${{VERDICT_GLYPH[c.verdict]}}</span> ${{VLAB[c.verdict]||c.verdict}}</td></tr>`).join('');
+    <td>${{c.pct}}</td><td><span class="g-${{vv(c)}}">${{VERDICT_GLYPH[vv(c)]}}</span> ${{VLAB4[vv(c)]||vv(c)}}</td></tr>`).join('');
 }}
 document.querySelectorAll('#gridTableTwin th').forEach(th=>th.addEventListener('click',()=>{{
   const k=th.dataset.k; gtSort.dir=(gtSort.k===k)?-gtSort.dir:-1; gtSort.k=k; buildGridTwin();
@@ -1072,10 +1104,9 @@ function openCell(v,h) {{
   panelRows=cellCompanies(v,h); panelSort='evidence';
   const g=gridData().find(c=>c.v===v&&c.h===h);
   const scopeLabel=gridScope?(ATLAS.countries.find(c=>c.cc===gridScope)||{{}}).name:'the world';
-  const verdict=g?g.verdict:'';
-  const VLAB={{strong:'Proven',active:'Active',talk:'Talk'}};
+  const verdict=g?vv(g):'';
   document.getElementById('pcrumb').innerHTML=`${{esc(scopeLabel)}} <span style="opacity:.5">›</span> ${{esc(h)}}`
-    + (verdict?` <span class="verdict-tag v-${{verdict}} g-${{verdict}}">${{VERDICT_GLYPH[verdict]}} ${{VLAB[verdict]||verdict}}</span>`:'');
+    + (verdict?` <span class="verdict-tag v-${{verdict}} g-${{verdict}}">${{VERDICT_GLYPH[verdict]}} ${{VLAB4[verdict]||verdict}}</span>`:'');
   document.getElementById('ptitle').innerHTML=`${{esc(v)}} <span class="x">×</span> ${{esc(h)}}`;
   const conf=panelRows.filter(e=>e.existence==='confirmed').length;
   const withNum=panelRows.filter(e=>valueOf(e)).length;

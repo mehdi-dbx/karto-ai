@@ -108,6 +108,23 @@ def verdict_for(cells):
     if share>=0.15: return "active"
     return "talk"
 
+def verdict_v2(cells):
+    # B3: 4-state — splits old 'talk' into 'unquantified' (real confirmed activity, no numbers:
+    # a sales target) vs 'talk' (unconfirmed rumor: noise). A consultant reads these oppositely.
+    #   proven        >=40% of rows carry a value number
+    #   active        >=15% carry a value number
+    #   unquantified  <15% numbers BUT majority of rows CONFIRMED  (real program, no published ROI)
+    #   talk          <15% numbers AND majority CLAIMED/unconfirmed (hype / rumor)
+    n=len(cells)
+    if not n: return "talk"
+    conf=sum(1 for r in cells if exist_bucket(r[6])=="confirmed")
+    withnum=sum(1 for r in cells if has_num(r[7]))
+    share=withnum/n
+    if conf>0 and share>=0.40: return "proven"
+    if conf>0 and share>=0.15: return "active"
+    if conf*2>=n: return "unquantified"   # majority (>=50%) confirmed, but thin on numbers
+    return "talk"
+
 def grid_for(subset):
     buckets=defaultdict(list)
     for r in subset: buckets[(r[2],norm_h(r[4]))].append(r)
@@ -117,7 +134,9 @@ def grid_for(subset):
             cs=buckets[(v,h)]
             if not cs: continue
             withnum=sum(1 for r in cs if has_num(r[7]))
-            out.append({"v":v,"h":h,"n":len(cs),"withnum":withnum,"verdict":verdict_for(cs)})
+            out.append({"v":v,"h":h,"n":len(cs),"withnum":withnum,
+                        "verdict":verdict_for(cs),        # DEPRECATED (3-state) — remove next release
+                        "verdict_v2":verdict_v2(cs)})     # B3 4-state
     return out
 GRID_GLOBAL=grid_for(rows)
 GRID_BY_CC={cc:grid_for([r for r in rows if r[1]==cc]) for cc in {r[1] for r in rows}}
@@ -133,7 +152,8 @@ def verticals_for(subset):
         conf=sum(1 for r in cs if exist_bucket(r[6])=="confirmed")
         withnum=sum(1 for r in cs if has_num(r[7]))
         out.append({"v":v,"n":len(cs),"confirmed":conf,"withnum":withnum,
-                    "proof_pct":round(100*withnum/len(cs)),"verdict":verdict_for(cs)})
+                    "proof_pct":round(100*withnum/len(cs)),
+                    "verdict":verdict_for(cs),"verdict_v2":verdict_v2(cs)})
     return sorted(out, key=lambda x:-x["n"])
 VERT_TOTALS_GLOBAL=verticals_for(rows)
 VERT_TOTALS_BY_CC={cc:verticals_for([r for r in rows if r[1]==cc]) for cc in {r[1] for r in rows}}
@@ -145,7 +165,19 @@ for r in rows:
     CELLS[key].append({"company":r[0],"use":r[5],"existence":exist_bucket(r[6]),
                        "value":r[7],"tier":r[8],"url":r[9],"raw_sector":r[3],"date":r[10]})
 
-json.dump({"global":GLOBAL,"countries":COUNTRIES,"verticals":VERTS,"horizontals":HORZS,
+META={
+  "schema_version":"2.0",
+  "generated_from":"data/register.csv (source of truth; never hand-edit atlas.json)",
+  "verdict_v2":{
+    "field":"verdict_v2 (grid + vert_totals cells)","states":["proven","active","unquantified","talk"],
+    "rules":{"proven":">=40% of cell rows carry a value number (and >=1 confirmed)",
+             "active":">=15% carry a value number (and >=1 confirmed)",
+             "unquantified":"<15% numbers BUT majority of rows CONFIRMED (real program, no published ROI)",
+             "talk":"<15% numbers AND majority CLAIMED/unconfirmed (hype)"}},
+  "deprecated":{"verdict":"3-state (strong/active/talk). Superseded by verdict_v2; removed next release."},
+  "date_convention":{"YYYY":"treated as mid-year","YYYY-MM":"as-is","missing":"excluded from time series, counted in undated"}
+}
+json.dump({"meta":META,"global":GLOBAL,"countries":COUNTRIES,"verticals":VERTS,"horizontals":HORZS,
            "grid_global":GRID_GLOBAL,"grid_by_country":GRID_BY_CC,"cells":CELLS,
            "vert_totals_global":VERT_TOTALS_GLOBAL,"vert_totals_by_country":VERT_TOTALS_BY_CC},
           open(OUT,"w"), ensure_ascii=False, indent=1)
