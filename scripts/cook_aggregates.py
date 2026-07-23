@@ -41,8 +41,8 @@ rows=[]
 with open(REG) as f:
     r=csv.reader(f); hdr=next(r)
     for x in r:
-        if len(x)<10: x=x+[""]*(10-len(x))
-        rows.append(x)  # 0 company 1 cc 2 vertical 3 raw 4 horizontal 5 use 6 existence 7 value 8 tier 9 url
+        if len(x)<11: x=x+[""]*(11-len(x))
+        rows.append(x)  # 0 company 1 cc 2 vertical 3 raw 4 horizontal 5 use 6 existence 7 value 8 tier 9 url 10 date
 
 # universe sizes (companies searched per country) for density denominator
 uni=Counter()
@@ -57,9 +57,10 @@ countries=len({r[1] for r in rows})
 eb=Counter(exist_bucket(r[6]) for r in rows)
 with_num=sum(1 for r in rows if has_num(r[7]))
 tierP=sum(1 for r in rows if r[8].strip().upper()=="P")
+dated=sum(1 for r in rows if r[10].strip() and r[10].strip().lower()!="missing")
 GLOBAL={"deployments":tot,"companies":companies,"countries":countries,
  "confirmed":eb["confirmed"],"claimed":eb["claimed"],"none":eb["none"],
- "with_value_number":with_num,"tier_primary":tierP}
+ "with_value_number":with_num,"tier_primary":tierP,"dated":dated}
 
 # ---------- per country (Altitude 1) ----------
 COUNTRIES=[]
@@ -142,7 +143,7 @@ CELLS=defaultdict(list)
 for r in rows:
     key=f"{r[1]}|{r[2]}|{norm_h(r[4])}"
     CELLS[key].append({"company":r[0],"use":r[5],"existence":exist_bucket(r[6]),
-                       "value":r[7],"tier":r[8],"url":r[9],"raw_sector":r[3]})
+                       "value":r[7],"tier":r[8],"url":r[9],"raw_sector":r[3],"date":r[10]})
 
 json.dump({"global":GLOBAL,"countries":COUNTRIES,"verticals":VERTS,"horizontals":HORZS,
            "grid_global":GRID_GLOBAL,"grid_by_country":GRID_BY_CC,"cells":CELLS,
