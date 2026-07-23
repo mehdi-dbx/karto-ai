@@ -472,16 +472,25 @@ GLOBAL_FRESH={k:FRESH.get(k,0) for k in ("fresh","aging","stale","undated")}
 # origin=register_extraction (regex claims) + dedicated_collection (commitments; near-empty
 # until the Step 12 FS pilot — the money-in axis renders with a "pending" marker in the UI).
 MONEY_BY_ROW=defaultdict(list)
-COMMIT_BY_ROW=defaultdict(list)   # dedicated_collection only (money-in / commitments)
+COMMIT_BY_CO=defaultdict(list)    # dedicated_collection commitments, keyed by (company,cc) — company-level, no register_row_id
+ALL_COMMITS=[]
 money_path=os.path.join(ROOT,"data","money.csv")
 if os.path.exists(money_path):
     for m in csv.DictReader(open(money_path)):
         rid=m.get("register_row_id","")
         if rid.isdigit():
             MONEY_BY_ROW[int(rid)].append(m)
-            if m.get("origin")=="dedicated_collection":
-                COMMIT_BY_ROW[int(rid)].append(m)
-GLOBAL["commitments"]=sum(len(v) for v in COMMIT_BY_ROW.values())   # 0 until Step 12 -> UI pending marker
+        if m.get("origin")=="dedicated_collection":
+            COMMIT_BY_CO[(m.get("company",""),m.get("cc",""))].append(m)
+            ALL_COMMITS.append(m)
+GLOBAL["commitments"]=len(ALL_COMMITS)   # money-in events; >0 after Step 12 -> UI pending marker self-clears
+# vertical of a company (from register) -> tally commitments per vertical
+co_vert={}
+for r in rows: co_vert.setdefault((r[0],r[1]), r[2])
+COMMIT_BY_VERT=Counter()
+for (co,cc),lst in COMMIT_BY_CO.items():
+    v=co_vert.get((co,cc))
+    if v: COMMIT_BY_VERT[v]+=len(lst)
 # map row index -> vertical (rows list order == register_row_id)
 HYPE_VERT=[]
 byv_rows=defaultdict(list)
@@ -490,9 +499,8 @@ for v,idxs in byv_rows.items():
     announced=len(idxs)
     withnum=sum(1 for i in idxs if has_num(rows[i][7]))
     invest=sum(1 for i in idxs if any(m["kind"]=="investment" for m in MONEY_BY_ROW.get(i,[])))
-    commits=sum(1 for i in idxs if COMMIT_BY_ROW.get(i))
     HYPE_VERT.append({"v":v,"announced":announced,"substantiated":withnum,"investments":invest,
-                      "commitments":commits,   # money-in axis; 0 until dedicated collection
+                      "commitments":COMMIT_BY_VERT.get(v,0),   # money-in axis (dedicated_collection, company-level)
                       "substantiation_rate":round(withnum/announced,3) if announced else 0})
 HYPE_VERT.sort(key=lambda x:-x["announced"])
 

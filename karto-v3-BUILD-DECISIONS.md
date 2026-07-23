@@ -56,3 +56,9 @@ STEP 12 resweep doctrine (encode in agent scripts, not just prompts):
 - [ ] Step 9 vendor layer
 - [ ] Step 10 changelog · [ ] 11 persona templates
 - [ ] Step 12 resweep (finale)
+
+## Step 12 plumbing-bug log (per doctrine: "if a code change is needed post-resweep, file it")
+1. FS commitments counter: cook counted commitments only via register_row_id join, but
+   company-level dedicated_collection rows have blank register_row_id. Fixed cook to count
+   commitments by (company,cc) -> vertical. global.commitments 0 -> 77; hype money-in
+   pending marker now self-clears correctly. (One code change; noted here.)
