@@ -272,6 +272,11 @@ a:hover {{ text-decoration: underline; }}
 .uc-diff {{ font-family:var(--font-ui); font-size:12px; color:var(--ink-2); background:var(--surface-2); border:1px solid var(--hair); border-radius:999px; padding:4px 11px; }}
 .uc-diff b {{ color:var(--accent); font-variant-numeric:tabular-nums; }}
 .uc-runners {{ font-family:var(--font-body); font-size:14px; line-height:1.9; color:var(--ink-2); }}
+/* D10 vendor chips */
+.vchips {{ display:flex; flex-wrap:wrap; gap:8px; }}
+.vchip {{ font-family:var(--font-ui); font-size:12.5px; color:var(--ink-2); background:var(--surface-2);
+  border:1px solid var(--hair); border-radius:999px; padding:5px 12px; text-decoration:none; }}
+a.vchip:hover {{ border-color:var(--accent); color:var(--accent); text-decoration:none; }}
 /* B7 insights feed */
 .insfeed {{ display:grid; grid-template-columns:repeat(auto-fill,minmax(340px,1fr)); gap:16px; margin-top:24px; }}
 .inscard {{ border:1px solid var(--hair); border-radius:12px; padding:18px; background:var(--surface); }}
@@ -878,6 +883,11 @@ a.colink {{ color:var(--ink); text-decoration:none; }} a.colink:hover {{ color:v
   <div class="terr" id="usecaseBody"></div>
 </section>
 
+<!-- vendor detail (D10) -->
+<section class="altitude" id="vendor" data-alt="Vendor">
+  <div class="terr" id="vendorBody"></div>
+</section>
+
 <!-- ============ COMPANIES (filterable list — question targets land here) ============ -->
 <section class="altitude" id="companies" data-alt="Companies">
   <div class="terr">
@@ -1012,6 +1022,8 @@ function applyRoute() {{
   if(h.startsWith('/usecase/')) {{ renderUsecase(decodeURIComponent(h.slice('/usecase/'.length).split('?')[0]));
     document.querySelectorAll('.navlink').forEach(a=>a.classList.toggle('on', a.dataset.route==='usecases'));
     setTimeout(()=>injectNext('usecases'),0); return; }}
+  if(h.startsWith('/vendor/')) {{ renderVendor(decodeURIComponent(h.slice('/vendor/'.length).split('?')[0]));
+    document.querySelectorAll('.navlink').forEach(a=>a.classList.remove('on')); return; }}
   const base=h.split('?')[0];
   const id=(Object.keys(ROUTES).find(k=>ROUTES[k].hash===base)) || 'a0';
   ROUTES[id].show();
@@ -1116,6 +1128,14 @@ function renderCompany(slug) {{
     <div class="ckpi"><div class="n">${{c.first_seen||'—'}}</div><div class="l">first seen</div></div>
     <div class="ckpi"><div class="n" style="font-size:16px">${{esc((c.momentum||'').replace(/,/g,', '))||'—'}}</div><div class="l">momentum</div></div>
   </div>`;
+  // vendor stack (D10)
+  if(c.stack&&c.stack.length){{
+    if(!VENDOR_BY_SLUG){{ VENDOR_BY_SLUG={{}}; (ATLAS.vendors||[]).forEach(v=>VENDOR_BY_SLUG[v.slug]=v); }}
+    const slugify=s=>s.toLowerCase().replace(/[^a-z0-9]+/g,'-').replace(/^-|-$/g,'');
+    html+=`<h3 class="csub">AI stack</h3><div class="vchips">`+c.stack.map(vn=>{{
+      const sl=slugify(vn); return VENDOR_BY_SLUG[sl]?`<a class="vchip" href="#/vendor/${{sl}}">${{esc(vn)}}</a>`:`<span class="vchip">${{esc(vn)}}</span>`;
+    }}).join('')+`</div>`;
+  }}
   // benchmarks
   if(bench.global_vertical){{
     const b=bench.global_vertical;
@@ -1339,6 +1359,31 @@ function renderHype() {{
 
 /* ============ D4 SILENT COMPANIES VIEW ============ */
 let silentSort={{k:'peer_median',dir:-1}};
+/* ============ D10 VENDOR PAGE ============ */
+let VENDOR_BY_SLUG=null;
+function renderVendor(slug) {{
+  goAltitude('vendor','Vendor'); indexCompanies();
+  if(!VENDOR_BY_SLUG){{ VENDOR_BY_SLUG={{}}; (ATLAS.vendors||[]).forEach(v=>VENDOR_BY_SLUG[v.slug]=v); }}
+  const v=VENDOR_BY_SLUG[slug]; const host=document.getElementById('vendorBody');
+  if(!v){{ host.innerHTML='<h2>Vendor not found</h2><p class="lede"><a href="#/usecases">← catalog</a></p>'; return; }}
+  crumbs.innerHTML='<span style="cursor:pointer" onclick="goRoute(\\'a0\\')">Orbit</span> <span class="sep">›</span> <span class="here">'+esc(v.vendor)+'</span>';
+  const names={{}}; ATLAS.countries.forEach(c=>names[c.cc]=c.name);
+  let html=`<a class="backup" href="#/usecases">← catalog</a>
+    <h2 style="margin:0">${{esc(v.vendor)}} <span style="font-size:14px;color:var(--muted)">· ${{esc(v.type)}}</span></h2>
+    <p class="lede" style="margin-top:6px">Named on <b>${{v.deployments}}</b> deployments across <b>${{v.customers}}</b> companies,
+    ${{v.verticals.length}} industries, ${{v.countries.length}} countries. Source-linked — nobody else has this map.</p>
+    <div class="ckpis">
+      <div class="ckpi"><div class="n">${{v.customers}}</div><div class="l">customers</div></div>
+      <div class="ckpi"><div class="n">${{v.deployments}}</div><div class="l">deployments</div></div>
+      <div class="ckpi"><div class="n">${{v.verticals.length}}</div><div class="l">industries</div></div>
+    </div>
+    <h3 class="csub">Customers (from the register)</h3><div class="uc-runners">`
+    + (v.customer_list||[]).map(cn=>{{ const co=ATLAS.companies.find(c=>c.name===cn); const slug=co?co.slug:null;
+        return slug?`<a class="colink" href="#/company/${{slug}}">${{esc(cn)}}</a>`:`<span>${{esc(cn)}}</span>`; }}).join(' · ')
+    + `</div><p class="footnote">Industries: ${{v.verticals.map(esc).join(' · ')}}. Disclosure bias: vendors are named selectively — "not disclosed" is common and never inferred.</p>`;
+  host.innerHTML=html; window.scrollTo({{top:0,behavior:'smooth'}});
+}}
+
 /* ============ D9 USE-CASE CATALOG + DETAIL ============ */
 let ucWired=false;
 function renderUsecases() {{

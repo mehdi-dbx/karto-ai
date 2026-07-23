@@ -547,6 +547,40 @@ if os.path.exists(uc_path) and os.path.exists(tax_path):
 GLOBAL["usecase_patterns"]=len(USECASES)
 QSTATS_USECASES=len(USECASES)
 
+# ---------- A6/D10 vendor layer (data/vendors.csv -> vendors[] + per-company stack[]) ----------
+VENDORS_AGG=[]; STACK_BY_CO=defaultdict(set); ROW_HAS_VENDOR=set()
+vend_path=os.path.join(ROOT,"data","vendors.csv")
+if os.path.exists(vend_path):
+    vtags=defaultdict(list)   # vendor -> [row_idx]
+    vtype={}
+    for v in csv.DictReader(open(vend_path)):
+        try: ri=int(v["row_id"])
+        except: continue
+        if ri>=len(rows): continue
+        vtags[v["vendor"]].append(ri); vtype[v["vendor"]]=v["vendor_type"]
+        ROW_HAS_VENDOR.add(ri)
+        if v["vendor"]!="(in-house)": STACK_BY_CO[rows[ri][0]].add(v["vendor"])
+    for vn,idxs in vtags.items():
+        cos={rows[i][0] for i in idxs}
+        verts=Counter(rows[i][2] for i in idxs); ctys=Counter(rows[i][1] for i in idxs)
+        VENDORS_AGG.append({"vendor":vn,"slug":slugify(vn),"type":vtype.get(vn,""),
+            "deployments":len(idxs),"customers":len(cos),
+            "verticals":[v for v,_ in verts.most_common(6)],"countries":[c for c,_ in ctys.most_common(8)],
+            "customer_list":sorted(cos)[:40]})
+    VENDORS_AGG.sort(key=lambda x:-x["deployments"])
+# attach stack to each company; refine prospect_score with vendor-absence (B5 reserved term)
+co_row_idx=defaultdict(list)
+for i,r in enumerate(rows): co_row_idx[(r[0],r[1])].append(i)
+for c in COMPANIES:
+    if c["silent"]: c["stack"]=[]; continue
+    c["stack"]=sorted(STACK_BY_CO.get(c["name"],[]))
+    # vendor-absence bump: confirmed activity + no named vendor => stronger prospect (needs services)
+    has_vendor=any(i in ROW_HAS_VENDOR for i in co_row_idx.get((c["name"],c["cc"]),[]))
+    if not c["silent"] and not has_vendor and c["confirmed"]>0:
+        c["prospect_score"]=min(100, (c.get("prospect_score",0))+8)
+    c["vendor_named"]=has_vendor
+GLOBAL["vendors"]=len(VENDORS_AGG)
+
 json.dump({"meta":META,"global":GLOBAL,"countries":COUNTRIES,"verticals":VERTS,"horizontals":HORZS,
            "grid_global":GRID_GLOBAL,"grid_by_country":GRID_BY_CC,"cells":CELLS,
            "vert_totals_global":VERT_TOTALS_GLOBAL,"vert_totals_by_country":VERT_TOTALS_BY_CC,
@@ -554,7 +588,7 @@ json.dump({"meta":META,"global":GLOBAL,"countries":COUNTRIES,"verticals":VERTS,"
            "timeline_global":TIMELINE_GLOBAL,"momentum_vertical":MOMENTUM_VERT,"momentum_country":MOMENTUM_CC,
            "findings":FINDINGS,"maturity_dist":dict(MATURITY_DIST),
            "insights":INSIGHTS,"whitespace":WHITESPACE,
-           "usecases":USECASES,"transfer_opportunities":TRANSFER},
+           "usecases":USECASES,"transfer_opportunities":TRANSFER,"vendors":VENDORS_AGG},
           open(OUT,"w"), ensure_ascii=False, indent=1)
 
 # ---------- N3 teaser stats for the question menu (data/question_stats.json) ----------
