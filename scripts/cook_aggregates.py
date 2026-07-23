@@ -338,6 +338,53 @@ for c in COMPANIES:
     c["undated_pct"]=round(100*und/len(sub)) if sub else 0
     c["momentum"]=momentum_label(ys,fs,VERT_TERCILES.get(c["vertical"]))
 
+# ---------- A4 maturity classifier (L0-L4, disclosure footprint) ----------
+STOP={"AI","GenAI","LLM","ML","GPT","The","A","An","And","Of","For","In","On","New","Our","Its"}
+def named_product(use):
+    # capitalized multi-letter token not in stoplist, or quoted product name
+    q=re.findall(r'"([A-Z][\w\.\- ]{1,30})"', use or "")
+    if q: return q[0].strip()
+    for tok in re.findall(r'\b([A-Z][a-zA-Z]{2,})\b', use or ""):
+        if tok not in STOP: return tok
+    return None
+def maturity(rr):
+    conf=[r for r in rr if exist_bucket(r[6])=="confirmed"]
+    ev=[]
+    if not rr: return "L0", ev
+    if not conf: return "L1", ["rows_no_confirmed"]
+    horizons={norm_h(r[4]) for r in conf}
+    years={year_of(r[10]) for r in conf if year_of(r[10])}
+    prod=next((named_product(r[5]) for r in conf if named_product(r[5])), None)
+    hasnum=any(has_num(r[7]) for r in conf)
+    tierP=any(r[8].strip().upper()=="P" for r in conf)
+    if len(horizons)>=2: ev.append("multi_horizontal")
+    if prod: ev.append("named_product:"+prod)
+    if hasnum: ev.append("value_number")
+    if len(years)>=2: ev.append("multi_year")
+    if tierP: ev.append("tier_p")
+    l3 = (len(horizons)>=2) or bool(prod) or hasnum
+    l4 = l3 and len(years)>=2 and (hasnum or tierP)
+    if l4: return "L4", ev
+    if l3: return "L3", ev
+    return "L2", (ev or ["single_confirmed"])
+for c in COMPANIES:
+    if c["silent"]:
+        c["maturity"]="L0"; c["maturity_evidence"]=["silent"]; continue
+    lvl,ev=maturity(comp.get((c["name"],c["cc"]),[]))
+    c["maturity"]=lvl; c["maturity_evidence"]=ev
+MATURITY_DIST=Counter(c["maturity"] for c in COMPANIES)
+
+# ---------- B6 findings join (by country+vertical) ----------
+FINDINGS=[]
+fnd_path=os.path.join(ROOT,"data","findings.csv")
+if os.path.exists(fnd_path):
+    fr=list(csv.reader(open(fnd_path)))[1:]
+    for f in fr:
+        if len(f)<3: continue
+        FINDINGS.append({"cc":f[0].strip().upper(),"vertical":f[1].strip() if len(f)>1 else "",
+                         "finding":f[2] if len(f)>2 else "","url":f[3] if len(f)>3 else "",
+                         "why":f[4] if len(f)>4 else ""})
+
 # ---------- A5 freshness aggregate + D6 hype detector ----------
 FRESH=Counter(stale_bucket(r[10]) for r in rows)
 GLOBAL_FRESH={k:FRESH.get(k,0) for k in ("fresh","aging","stale","undated")}
@@ -386,7 +433,8 @@ json.dump({"meta":META,"global":GLOBAL,"countries":COUNTRIES,"verticals":VERTS,"
            "grid_global":GRID_GLOBAL,"grid_by_country":GRID_BY_CC,"cells":CELLS,
            "vert_totals_global":VERT_TOTALS_GLOBAL,"vert_totals_by_country":VERT_TOTALS_BY_CC,
            "companies":COMPANIES,"silent":SILENT,"hype_by_vertical":HYPE_VERT,
-           "timeline_global":TIMELINE_GLOBAL,"momentum_vertical":MOMENTUM_VERT,"momentum_country":MOMENTUM_CC},
+           "timeline_global":TIMELINE_GLOBAL,"momentum_vertical":MOMENTUM_VERT,"momentum_country":MOMENTUM_CC,
+           "findings":FINDINGS,"maturity_dist":dict(MATURITY_DIST)},
           open(OUT,"w"), ensure_ascii=False, indent=1)
 
 print(f"cooked -> {OUT}")

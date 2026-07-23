@@ -168,6 +168,26 @@ a:hover {{ text-decoration: underline; }}
 .hypekey i {{ display:inline-block; width:13px; height:13px; border-radius:3px; vertical-align:-2px; margin-right:6px; }}
 .hypekey .sw-ann {{ background:var(--accent-soft); }} .hypekey .sw-sub {{ background:var(--accent); }}
 .trendwrap {{ margin-top:20px; }} #trendsvg {{ width:100%; height:auto; display:block; }}
+/* D1 company page */
+.cprofile {{ display:flex; align-items:flex-start; justify-content:space-between; gap:20px; flex-wrap:wrap; margin-top:8px; }}
+.mbadge {{ font-family:var(--font-ui); font-size:13px; font-weight:560; padding:8px 14px; border-radius:999px; white-space:nowrap; }}
+.m-L0 {{ background:var(--surface-2); color:var(--muted); }}
+.m-L1 {{ background:color-mix(in srgb,var(--v-talk) 16%,var(--surface)); color:var(--v-talk); }}
+.m-L2 {{ background:color-mix(in srgb,var(--v-unquantified) 20%,var(--surface)); color:var(--v-unquantified); }}
+.m-L3 {{ background:color-mix(in srgb,var(--v-active) 22%,var(--surface)); color:var(--v-active); }}
+.m-L4 {{ background:color-mix(in srgb,var(--v-strong) 22%,var(--surface)); color:var(--v-strong); }}
+.ckpis {{ display:flex; flex-wrap:wrap; gap:clamp(20px,4vw,52px); margin:26px 0 8px; }}
+.ckpi .n {{ font-family:var(--font-head); font-size:32px; font-weight:340; letter-spacing:-.02em; }}
+.ckpi .l {{ font-size:12px; color:var(--muted); margin-top:3px; }}
+.csub {{ font-family:var(--font-head); font-weight:400; font-size:19px; margin:34px 0 14px; letter-spacing:-.01em; }}
+.benchbox {{ max-width:520px; }}
+.benchrow {{ display:grid; grid-template-columns:110px 1fr 44px; align-items:center; gap:12px; padding:5px 0; font-family:var(--font-ui); font-size:12.5px; color:var(--ink-2); }}
+.benchtrack {{ height:16px; background:var(--surface-2); border-radius:8px; overflow:hidden; }}
+.benchfill {{ height:16px; background:var(--accent); border-radius:8px; transition:width .5s cubic-bezier(.2,.7,.2,1); }}
+.benchrow b {{ font-variant-numeric:tabular-nums; color:var(--ink); }}
+.cdeps .co {{ padding:14px 0; }}
+.cflags {{ display:flex; flex-direction:column; gap:10px; }}
+.cflag {{ font-size:13px; color:var(--ink-2); line-height:1.5; padding:10px 14px; background:color-mix(in srgb,var(--v-talk) 8%,var(--surface)); border-radius:8px; border:1px solid var(--hair); }}
 .toggle {{
   border: 1px solid var(--hair); background: var(--surface); color: var(--ink-2);
   border-radius: 999px; padding: 6px 12px; font-size: 12px; cursor: pointer;
@@ -422,6 +442,7 @@ table.grid td .cnt {{ font-family:var(--font-ui); font-size:11px; font-variant-n
 .co:last-child {{ border-bottom:none; }}
 .co .top {{ display:flex; align-items:baseline; justify-content:space-between; gap:12px; }}
 .co .name {{ font-family:var(--font-head); font-weight:540; font-size:16px; letter-spacing:.01em; }}
+a.colink {{ color:var(--ink); text-decoration:none; }} a.colink:hover {{ color:var(--accent); text-decoration:underline; }}
 .co .glyph {{ font-size:13px; }}
 .co .use {{ color:var(--ink-2); font-size:13.5px; line-height:1.5; margin:6px 0 9px; font-family:var(--font-body); }}
 .co .meta {{ display:flex; flex-wrap:wrap; gap:8px 14px; align-items:center; font-family:var(--font-ui); font-size:11.5px; color:var(--muted); }}
@@ -635,6 +656,11 @@ table.grid td .cnt {{ font-family:var(--font-ui); font-size:11px; font-variant-n
   </div>
 </section>
 
+<!-- ============ COMPANY PAGE (D1) ============ -->
+<section class="altitude" id="company" data-alt="Company">
+  <div class="terr" id="companyBody"></div>
+</section>
+
 <!-- ============ TRENDS (D5 — deployments over time) ============ -->
 <section class="altitude" id="trends" data-alt="Trends">
   <div class="terr">
@@ -764,13 +790,91 @@ const ROUTES = {{
   'silent': {{hash:'/silent', label:'Silent list', show:renderSilent}},
 }};
 function goRoute(id) {{ const r=ROUTES[id]; if(!r) return; if(location.hash!=='#'+r.hash) location.hash=r.hash; else applyRoute(); }}
+function goCompany(slug) {{ location.hash='/company/'+slug; }}
 function applyRoute() {{
   const h=location.hash.replace(/^#/,'');
+  if(h.startsWith('/company/')) {{ renderCompany(h.slice('/company/'.length));
+    document.querySelectorAll('.navlink').forEach(a=>a.classList.remove('on')); return; }}
   const id=(Object.keys(ROUTES).find(k=>ROUTES[k].hash===h)) || 'a0';
   ROUTES[id].show();
   document.querySelectorAll('.navlink').forEach(a=>a.classList.toggle('on', a.dataset.route===id));
 }}
 window.addEventListener('hashchange', applyRoute);
+
+/* ============ D1 COMPANY PAGE ============ */
+const MLAB={{L0:'Silent',L1:'Talk',L2:'Pilot',L3:'Operating',L4:'Industrialized'}};
+let COMP_BY_SLUG=null, ROWS_BY_COMPANY=null, SLUG_BY_NAME=null;
+function indexCompanies() {{
+  if(COMP_BY_SLUG) return;
+  COMP_BY_SLUG={{}}; SLUG_BY_NAME={{}}; ATLAS.companies.forEach(c=>{{COMP_BY_SLUG[c.slug]=c; SLUG_BY_NAME[c.name+'|'+c.cc]=c.slug;}});
+  ROWS_BY_COMPANY={{}};
+  Object.values(ATLAS.cells).forEach(list=>list.forEach(e=>{{
+    (ROWS_BY_COMPANY[e.company]=ROWS_BY_COMPANY[e.company]||[]).push(e);
+  }}));
+}}
+function renderCompany(slug) {{
+  indexCompanies(); goAltitude('company','Company');
+  const c=COMP_BY_SLUG[slug];
+  const host=document.getElementById('companyBody');
+  if(!c){{ host.innerHTML='<h2>Company not found</h2><p class="lede">No entry for this slug. <a href="#/silent">Silent list</a> · <a href="#/grid">Grid</a></p>'; return; }}
+  const cname=ATLAS.countries.find(x=>x.cc===c.cc); const cn=cname?cname.name:c.cc;
+  const rr=(ROWS_BY_COMPANY[c.name]||[]).filter(e=>true);
+  const bench=c.benchmarks||{{}};
+  const findings=(ATLAS.findings||[]).filter(f=>f.cc===c.cc && f.vertical && c.vertical &&
+      (f.vertical.toLowerCase().includes(c.vertical.toLowerCase().split(' ')[0]) || (c.vertical||'').toLowerCase().includes((f.vertical||'').toLowerCase().split(' ')[0])));
+  crumbs.innerHTML='<span style="cursor:pointer" onclick="goRoute(\\'a0\\')">Orbit</span> <span class="sep">›</span> <span class="here">'+esc(c.name)+'</span>';
+  const mlvl=c.maturity||'L0';
+  const pctBar=(lab,val)=> val==null?'' : `<div class="benchrow"><span>${{lab}}</span><div class="benchtrack"><div class="benchfill" style="width:${{val}}%"></div></div><b>${{val}}${{val!=null?'th':''}}</b></div>`;
+  let html=`
+    <a class="backup" href="#/grid">← back to grid</a>
+    <div class="cprofile">
+      <div>
+        <h2 style="margin:0">${{esc(c.name)}}</h2>
+        <p class="lede" style="margin-top:6px">${{cn}} · ${{esc(c.vertical||'—')}}${{c.silent?' · <b>silent (no disclosed AI)</b>':''}}</p>
+      </div>
+      <div class="mbadge m-${{mlvl}}" title="${{(c.maturity_evidence||[]).join(', ')}}">${{mlvl}} · ${{MLAB[mlvl]}}</div>
+    </div>`;
+  if(c.silent){{
+    html+=`<p class="footnote">Searched under the evidence gate; no AI deployment disclosed. Its peers may be active — see the <a href="#/grid">grid</a>.</p>`;
+    host.innerHTML=html; return;
+  }}
+  // KPI row
+  html+=`<div class="ckpis">
+    <div class="ckpi"><div class="n">${{c.deployments}}</div><div class="l">deployments</div></div>
+    <div class="ckpi"><div class="n">${{c.confirmed}}</div><div class="l">confirmed</div></div>
+    <div class="ckpi"><div class="n">${{Math.round((c.proof_rate||0)*100)}}%</div><div class="l">cite a number</div></div>
+    <div class="ckpi"><div class="n">${{c.first_seen||'—'}}</div><div class="l">first seen</div></div>
+    <div class="ckpi"><div class="n" style="font-size:16px">${{esc((c.momentum||'').replace(/,/g,', '))||'—'}}</div><div class="l">momentum</div></div>
+  </div>`;
+  // benchmarks
+  if(bench.global_vertical){{
+    const b=bench.global_vertical;
+    html+=`<h3 class="csub">Percentile vs ${{b.n}} global ${{esc(c.vertical)}} peers</h3><div class="benchbox">
+      ${{pctBar('deployments',b.deployments)}}${{pctBar('confirmed',b.confirmed)}}${{pctBar('proof rate',b.proof_rate)}}</div>`;
+  }}
+  // deployments list
+  html+=`<h3 class="csub">${{rr.length}} disclosed deployment${{rr.length!==1?'s':''}}</h3><div class="cdeps">`;
+  rr.sort((a,b)=>(a.existence==='confirmed'?0:1)-(b.existence==='confirmed'?0:1));
+  html+=rr.map(e=>{{
+    const ex=e.existence||'none', tier=(e.tier||'').trim().toUpperCase();
+    const val=(e.value||'').trim(); const showVal=val && !/^(none|n\\/a|—|-)/i.test(val);
+    return `<div class="co"><div class="top"><span class="name">${{esc(e.use?e.use.split(';')[0].slice(0,70):'—')}}</span>
+      <span class="exist"><span class="glyph ${{ex==='confirmed'?'g-proven':(ex==='claimed'?'g-talk':'')}}">${{ex==='confirmed'?'●':(ex==='claimed'?'○':'·')}}</span></span></div>
+      <div class="meta">${{['P','I','S'].includes(tier)?`<span class="chip ${{tier}}">tier ${{tier}}</span>`:''}}
+        ${{showVal?`<span class="val">${{esc(val)}}</span>`:''}}
+        ${{e.date&&e.date!=='missing'?`<span>${{esc(e.date)}}</span>`:''}}
+        ${{e.fresh&&e.fresh!=='fresh'&&e.fresh!=='undated'?`<span class="freshbadge fb-${{e.fresh}}">⚠ ${{e.fresh}}</span>`:''}}
+        <span style="flex:1"></span>${{srcLinks(e.url)}}</div></div>`;
+  }}).join('')+`</div>`;
+  // findings flags
+  if(findings.length){{
+    html+=`<h3 class="csub">Context &amp; flags</h3><div class="cflags">`+findings.map(f=>
+      `<div class="cflag">⚑ ${{esc(f.finding)}} ${{f.url?`<a class="src" href="${{esc(f.url)}}" target="_blank" rel="noopener">source ↗</a>`:''}}</div>`).join('')+`</div>`;
+  }}
+  html+=`<p class="footnote">Every number above traces to a source link or a documented rule (maturity: hover the badge). Data version ${{ATLAS.meta?ATLAS.meta.schema_version:''}}.</p>`;
+  host.innerHTML=html;
+  window.scrollTo({{top:0,behavior:'smooth'}});
+}}
 
 /* ============ D5 TRENDS VIEW (deployments over time, D3 line) ============ */
 let trendsInit=false;
@@ -868,7 +972,7 @@ function drawSilent() {{
     if(A==null)A=-1; if(B==null)B=-1;
     return ((typeof A==='string')?A.localeCompare(B):(A>B?1:A<B?-1:0))*silentSort.dir; }});
   document.querySelector('#silentTable tbody').innerHTML = rows.map(s=>`<tr>
-    <td>${{esc(s.name)}}</td><td>${{names[s.cc]||s.cc}}</td><td>${{esc(s.sector||'—')}}</td>
+    <td><a class="colink" href="#/company/${{s.slug}}">${{esc(s.name)}}</a></td><td>${{names[s.cc]||s.cc}}</td><td>${{esc(s.sector||'—')}}</td>
     <td>${{esc(s.index||'—')}}</td><td>${{s.peer_median!=null?s.peer_median:'—'}}</td></tr>`).join('');
   document.getElementById('silentCount').textContent =
     `${{rows.length}} silent compan${{rows.length===1?'y':'ies'}} shown · ${{ATLAS.silent.length}} total searched with zero disclosed AI.`;
@@ -1297,9 +1401,12 @@ function renderPanelBody() {{
   let html='<div class="sortbar">sort <button data-s="evidence" class="'+(panelSort==='evidence'?'on':'')+'">by evidence</button>'
     +'<button data-s="tier" class="'+(panelSort==='tier'?'on':'')+'">by tier</button>'
     +'<button data-s="name" class="'+(panelSort==='name'?'on':'')+'">A–Z</button></div>';
+  indexCompanies();
   html += rows.map(e=>{{
     const ex=e.existence||'none', tier=tierOf(e), val=valueOf(e), scope=gridScope?'':(' · '+e.cc);
-    return `<div class="co"><div class="top"><span class="name">${{esc(e.company)}}${{scope}}</span>`
+    const slug=SLUG_BY_NAME[e.company+'|'+e.cc];
+    const nameHtml=slug?`<a class="name colink" href="#/company/${{slug}}">${{esc(e.company)}}</a>${{scope}}`:`<span class="name">${{esc(e.company)}}${{scope}}</span>`;
+    return `<div class="co"><div class="top">${{nameHtml}}`
       + `<span class="exist"><span class="glyph ${{EX_CLASS[ex]}}">${{EX_GLYPH[ex]}}</span><span style="color:var(--muted);font-size:11.5px">${{EX_LABEL[ex]}}</span></span></div>`
       + `<div class="use">${{esc(e.use||'')}}</div>`
       + `<div class="meta">`
