@@ -499,13 +499,62 @@ META["maturity"]={"levels":{"L0":"silent (in universe, no rows)","L1":"talk (row
 META["scores"]={"prospect_score":"min(confirmed,10)/10*60 + (1-proof_rate)*40 — confirmed activity without measurement. 0-100.",
                 "whitespace_score":"100 * active_countries / max_active_countries for that vertical×function. 0-100."}
 META["insights"]="cook-time rule engine; every card carries an action. types: silent_giant, contradiction, whitespace."
+# ---------- A7/D9 use-case spine (data/usecases.csv -> usecases[] + transfer + diffusion) ----------
+USECASES=[]; TRANSFER=[]
+uc_path=os.path.join(ROOT,"data","usecases.csv")
+tax_path=os.path.join(ROOT,"data","usecase_taxonomy.csv")
+if os.path.exists(uc_path) and os.path.exists(tax_path):
+    TAXN={t["pattern_id"]:t for t in csv.DictReader(open(tax_path))}
+    tags=defaultdict(list)   # pattern_id -> [row_idx,...]
+    for u in csv.DictReader(open(uc_path)):
+        try: tags[u["pattern_id"]].append(int(u["row_id"]))
+        except: pass
+    for pid,idxs in tags.items():
+        idxs=[i for i in idxs if i < len(rows)]
+        if not idxs: continue
+        cos={rows[i][0] for i in idxs}
+        verts=Counter(rows[i][2] for i in idxs)
+        ctys=Counter(rows[i][1] for i in idxs)
+        yrs=[year_of(rows[i][10]) for i in idxs if year_of(rows[i][10])]
+        wn=sum(1 for i in idxs if has_num(rows[i][7]))
+        # diffusion: first_seen year per country
+        diff={}
+        for i in idxs:
+            y=year_of(rows[i][10]); cc=rows[i][1]
+            if y and (cc not in diff or y<diff[cc]): diff[cc]=y
+        meta=TAXN.get(pid,{})
+        USECASES.append({"pattern_id":pid,"name":meta.get("name",pid),"description":meta.get("description",""),
+            "horizontal":meta.get("horizontal",""),"runners":len(cos),"deployments":len(idxs),
+            "verticals":[v for v,_ in verts.most_common()],"countries":[c for c,_ in ctys.most_common()],
+            "first_seen":min(yrs) if yrs else None,"with_value_number":wn,
+            "proof_rate":round(wn/len(idxs),3),
+            "diffusion":sorted([{"cc":c,"first_year":y} for c,y in diff.items()], key=lambda x:x["first_year"]),
+            "top_companies":[rows[i][0] for i in idxs[:8]]})
+    USECASES=[u for u in USECASES if u["runners"]>=2]   # no single-runner patterns (A7 test)
+    USECASES.sort(key=lambda x:-x["runners"])
+    # transfer_opportunities: pattern proven in vertical X (>=3 runners) but absent in vertical Y
+    proven_pat_vert=defaultdict(set)
+    for u in USECASES:
+        for i in tags[u["pattern_id"]]:
+            if i<len(rows): proven_pat_vert[u["pattern_id"]].add(rows[i][2])
+    all_big_verts={v for v,_ in Counter(r[2] for r in rows).most_common(12)}
+    for u in USECASES[:40]:
+        present=proven_pat_vert[u["pattern_id"]]
+        absent=[v for v in all_big_verts if v not in present]
+        if present and absent:
+            TRANSFER.append({"pattern_id":u["pattern_id"],"name":u["name"],
+                "proven_in":sorted(present)[:6],"absent_in":sorted(absent)[:6]})
+GLOBAL["usecase_patterns"]=len(USECASES)
+QSTATS_USECASES=len(USECASES)
+
 json.dump({"meta":META,"global":GLOBAL,"countries":COUNTRIES,"verticals":VERTS,"horizontals":HORZS,
            "grid_global":GRID_GLOBAL,"grid_by_country":GRID_BY_CC,"cells":CELLS,
            "vert_totals_global":VERT_TOTALS_GLOBAL,"vert_totals_by_country":VERT_TOTALS_BY_CC,
            "companies":COMPANIES,"silent":SILENT,"hype_by_vertical":HYPE_VERT,
            "timeline_global":TIMELINE_GLOBAL,"momentum_vertical":MOMENTUM_VERT,"momentum_country":MOMENTUM_CC,
            "findings":FINDINGS,"maturity_dist":dict(MATURITY_DIST),
-           "insights":INSIGHTS,"whitespace":WHITESPACE},
+           "insights":INSIGHTS,"whitespace":WHITESPACE,
+           "usecases":USECASES,"transfer_opportunities":TRANSFER},
           open(OUT,"w"), ensure_ascii=False, indent=1)
 
 # ---------- N3 teaser stats for the question menu (data/question_stats.json) ----------
@@ -521,7 +570,7 @@ QSTATS={
   "count_momentum_break": sum(1 for m in MOMENTUM_VERT if "rising" in (m.get("label") or "")),
   "count_blind_vertical": _blind,
   "count_deployments": GLOBAL["deployments"],
-  "count_usecases": None,     # lit by Step 7
+  "count_usecases": QSTATS_USECASES,     # Step 7
   "count_changes": None,      # lit by Step 10
 }
 json.dump(QSTATS, open(os.path.join(ROOT,"data","question_stats.json"),"w"), ensure_ascii=False, indent=1)

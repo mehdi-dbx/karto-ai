@@ -260,6 +260,18 @@ a:hover {{ text-decoration: underline; }}
 .nextblock a {{ font-family:var(--font-body); font-size:14px; color:var(--ink); text-decoration:none;
   border:1px solid var(--hair); border-radius:999px; padding:8px 15px; transition:border-color .18s ease, color .18s ease; }}
 .nextblock a:hover {{ border-color:var(--accent); color:var(--accent); text-decoration:none; }}
+/* D9 use-case catalog */
+.uc-cards {{ display:grid; grid-template-columns:repeat(auto-fill,minmax(280px,1fr)); gap:16px; margin-top:24px; }}
+.uc-card {{ display:block; padding:18px; border:1px solid var(--hair); border-radius:12px; background:var(--surface); text-decoration:none; transition:border-color .18s ease, transform .18s ease; }}
+.uc-card:hover {{ border-color:var(--accent); transform:translateY(-2px); text-decoration:none; }}
+.uc-name {{ font-family:var(--font-head); font-weight:560; font-size:16px; color:var(--ink); }}
+.uc-desc {{ font-size:12.5px; color:var(--muted); margin-top:5px; line-height:1.5; }}
+.uc-stats {{ display:flex; flex-wrap:wrap; gap:6px 14px; margin-top:12px; font-family:var(--font-ui); font-size:12px; color:var(--ink-2); }}
+.uc-stats b {{ color:var(--ink); font-variant-numeric:tabular-nums; }}
+.uc-diffusion {{ display:flex; flex-wrap:wrap; gap:8px; }}
+.uc-diff {{ font-family:var(--font-ui); font-size:12px; color:var(--ink-2); background:var(--surface-2); border:1px solid var(--hair); border-radius:999px; padding:4px 11px; }}
+.uc-diff b {{ color:var(--accent); font-variant-numeric:tabular-nums; }}
+.uc-runners {{ font-family:var(--font-body); font-size:14px; line-height:1.9; color:var(--ink-2); }}
 /* B7 insights feed */
 .insfeed {{ display:grid; grid-template-columns:repeat(auto-fill,minmax(340px,1fr)); gap:16px; margin-top:24px; }}
 .inscard {{ border:1px solid var(--hair); border-radius:12px; padding:18px; background:var(--surface); }}
@@ -560,6 +572,7 @@ a.colink {{ color:var(--ink); text-decoration:none; }} a.colink:hover {{ color:v
   <div class="topnav">
     <a href="#/world" class="navlink" data-route="a1">World</a>
     <a href="#/grid" class="navlink" data-route="a2">Grid</a>
+    <a href="#/usecases" class="navlink" data-route="usecases">Use&nbsp;cases</a>
     <a href="#/trends" class="navlink" data-route="trends">Trends</a>
     <a href="#/hype" class="navlink" data-route="hype">Hype</a>
     <a href="#/insights" class="navlink" data-route="insights">Insights</a>
@@ -837,6 +850,34 @@ a.colink {{ color:var(--ink); text-decoration:none; }} a.colink:hover {{ color:v
 </section>
 
 <!-- ============ SILENT COMPANIES (D4 — the prospect list) ============ -->
+<!-- ============ USE-CASE CATALOG (D9) ============ -->
+<section class="altitude" id="usecases" data-alt="Use cases">
+  <div class="terr">
+    <div class="head">
+      <div>
+        <h2>Use-case catalog — <span class="scope">what AI actually does, by pattern</span></h2>
+        <p class="lede">The register inverted: not "what does company X do" but "who runs claims automation,
+        where, with what proof". Each pattern shows its runners, industries, first-seen, and proof rate.
+        Click for runners, diffusion, and cross-industry transfer opportunities.</p>
+      </div>
+      <div class="controls">
+        <select id="ucVert" class="filtersel"><option value="">All industries</option></select>
+        <select id="ucSort" class="filtersel">
+          <option value="runners">Most runners</option>
+          <option value="proof_rate">Best proof rate</option>
+          <option value="first_seen">Earliest</option>
+        </select>
+      </div>
+    </div>
+    <div class="uc-cards" id="ucCards"></div>
+  </div>
+</section>
+
+<!-- use-case detail -->
+<section class="altitude" id="usecase" data-alt="Use case">
+  <div class="terr" id="usecaseBody"></div>
+</section>
+
 <!-- ============ COMPANIES (filterable list — question targets land here) ============ -->
 <section class="altitude" id="companies" data-alt="Companies">
   <div class="terr">
@@ -958,6 +999,7 @@ const ROUTES = {{
   'compare':{{hash:'/compare',label:'Compare',show:renderCompare}},
   'insights':{{hash:'/insights',label:'Insights',show:renderInsights}},
   'signals':{{hash:'/signals', label:'Signals', show:renderInsights}},   // alias: insights feed w/ type/p params
+  'usecases':{{hash:'/usecases',label:'Use cases',show:renderUsecases}},
   'companies':{{hash:'/companies',label:'Companies',show:renderCompanies}},
   'silent': {{hash:'/silent', label:'Silent list', show:renderSilent}},
 }};
@@ -967,6 +1009,9 @@ function applyRoute() {{
   const h=location.hash.replace(/^#/,'');
   if(h.startsWith('/company/')) {{ renderCompany(h.slice('/company/'.length));
     document.querySelectorAll('.navlink').forEach(a=>a.classList.remove('on')); return; }}
+  if(h.startsWith('/usecase/')) {{ renderUsecase(decodeURIComponent(h.slice('/usecase/'.length).split('?')[0]));
+    document.querySelectorAll('.navlink').forEach(a=>a.classList.toggle('on', a.dataset.route==='usecases'));
+    setTimeout(()=>injectNext('usecases'),0); return; }}
   const base=h.split('?')[0];
   const id=(Object.keys(ROUTES).find(k=>ROUTES[k].hash===base)) || 'a0';
   ROUTES[id].show();
@@ -1294,6 +1339,74 @@ function renderHype() {{
 
 /* ============ D4 SILENT COMPANIES VIEW ============ */
 let silentSort={{k:'peer_median',dir:-1}};
+/* ============ D9 USE-CASE CATALOG + DETAIL ============ */
+let ucWired=false;
+function renderUsecases() {{
+  goAltitude('usecases','Use cases'); indexCompanies();
+  const vSel=document.getElementById('ucVert'), sSel=document.getElementById('ucSort');
+  if(!ucWired){{ ucWired=true;
+    const vs=[...new Set((ATLAS.usecases||[]).flatMap(u=>u.verticals))].sort();
+    vs.forEach(v=>vSel.insertAdjacentHTML('beforeend',`<option value="${{esc(v)}}">${{esc(v)}}</option>`));
+    vSel.onchange=sSel.onchange=drawUsecases;
+    // honor ?vertical= / ?gap= from question targets
+    const p=currentParams(); if(p.get('vertical')) vSel.value=p.get('vertical');
+  }}
+  drawUsecases();
+}}
+function drawUsecases() {{
+  const v=document.getElementById('ucVert').value, sort=document.getElementById('ucSort').value||'runners';
+  let list=[...(ATLAS.usecases||[])];
+  if(v) list=list.filter(u=>u.verticals.includes(v));
+  list.sort((a,b)=> sort==='first_seen' ? ((a.first_seen||9999)-(b.first_seen||9999)) : (b[sort]-a[sort]));
+  document.getElementById('ucCards').innerHTML = list.map(u=>`
+    <a class="uc-card" href="#/usecase/${{encodeURIComponent(u.pattern_id)}}">
+      <div class="uc-name">${{esc(u.name)}}</div>
+      <div class="uc-desc">${{esc(u.description||'')}}</div>
+      <div class="uc-stats">
+        <span><b>${{u.runners}}</b> runners</span>
+        <span><b>${{u.verticals.length}}</b> industries</span>
+        <span><b>${{Math.round((u.proof_rate||0)*100)}}%</b> proof</span>
+        ${{u.first_seen?`<span>since <b>${{u.first_seen}}</b></span>`:''}}
+      </div>
+    </a>`).join('') || '<p class="lede">No patterns for this filter.</p>';
+}}
+function renderUsecase(pid) {{
+  goAltitude('usecase','Use case'); indexCompanies();
+  const u=(ATLAS.usecases||[]).find(x=>x.pattern_id===pid);
+  const host=document.getElementById('usecaseBody');
+  if(!u){{ host.innerHTML='<h2>Pattern not found</h2><p class="lede"><a href="#/usecases">← catalog</a></p>'; return; }}
+  crumbs.innerHTML='<span style="cursor:pointer" onclick="goRoute(\\'a0\\')">Orbit</span> <span class="sep">›</span> <span style="cursor:pointer" onclick="goRoute(\\'usecases\\')">Use cases</span> <span class="sep">›</span> <span class="here">'+esc(u.name)+'</span>';
+  const transfer=(ATLAS.transfer_opportunities||[]).find(t=>t.pattern_id===pid);
+  // runner rows: register rows tagged with this pattern -> company + cc
+  let html=`<a class="backup" href="#/usecases">← catalog</a>
+    <h2 style="margin:0">${{esc(u.name)}}</h2>
+    <p class="lede" style="margin-top:6px">${{esc(u.description||'')}} · <b>${{u.runners}}</b> runners across <b>${{u.verticals.length}}</b> industries, <b>${{u.countries.length}}</b> countries${{u.first_seen?`, since <b>${{u.first_seen}}</b>`:''}}.</p>
+    <div class="ckpis">
+      <div class="ckpi"><div class="n">${{u.runners}}</div><div class="l">runners</div></div>
+      <div class="ckpi"><div class="n">${{u.deployments}}</div><div class="l">deployments</div></div>
+      <div class="ckpi"><div class="n">${{Math.round((u.proof_rate||0)*100)}}%</div><div class="l">cite a number</div></div>
+      <div class="ckpi"><div class="n">${{u.first_seen||'—'}}</div><div class="l">first seen</div></div>
+    </div>`;
+  // diffusion timeline
+  if(u.diffusion&&u.diffusion.length){{
+    const names={{}}; ATLAS.countries.forEach(c=>names[c.cc]=c.name);
+    html+=`<h3 class="csub">Diffusion (first seen by country — estimates)</h3><div class="uc-diffusion">`
+      + u.diffusion.slice(0,14).map(d=>`<span class="uc-diff"><b>${{d.first_year}}</b> ${{esc(names[d.cc]||d.cc)}}</span>`).join('') + `</div>`;
+  }}
+  // top runners
+  html+=`<h3 class="csub">Runners</h3><div class="uc-runners">`
+    + (u.top_companies||[]).map(cn=>{{ const slug=SLUG_BY_NAME[cn+'|'+((ATLAS.companies.find(c=>c.name===cn)||{{}}).cc)];
+        return slug?`<a class="colink" href="#/company/${{slug}}">${{esc(cn)}}</a>`:`<span>${{esc(cn)}}</span>`; }}).join(' · ')
+    + `</div>`;
+  html+=`<p class="footnote">Industries: ${{u.verticals.map(esc).join(' · ')}}.</p>`;
+  // transfer opportunity
+  if(transfer){{
+    html+=`<h3 class="csub">Transfer opportunity</h3><div class="cflag" style="background:color-mix(in srgb,var(--v-unquantified) 10%,var(--surface))">
+      Proven in <b>${{transfer.proven_in.map(esc).join(', ')}}</b> — <b>absent</b> in ${{transfer.absent_in.map(esc).join(', ')}}. Those are greenfield targets, with the proven industries as reference cases.</div>`;
+  }}
+  host.innerHTML=html; window.scrollTo({{top:0,behavior:'smooth'}});
+}}
+
 /* ============ COMPANIES filterable list (question targets) ============ */
 let compSort={{k:'prospect_score',dir:-1}}, compWired=false;
 const MLAB_SHORT={{L0:'L0',L1:'L1',L2:'L2',L3:'L3',L4:'L4'}};
