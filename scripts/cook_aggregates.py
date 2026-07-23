@@ -178,6 +178,14 @@ if os.path.exists(uni_path):
         d=dict(zip(uhdr,u))
         UNI[(d["company"].strip(), d["cc"].strip().upper())]=d
 
+# Phase A — alias map: universe (name,cc) -> the register (name,cc) it actually corresponds to.
+# Prevents mislabeling swept companies as "silent" over spelling/suffix/cc differences.
+ALIAS={}
+alias_path=os.path.join(ROOT,"data","company_aliases.csv")
+if os.path.exists(alias_path):
+    for a in csv.DictReader(open(alias_path)):
+        ALIAS[(a["universe_name"].strip(), a["universe_cc"].strip().upper())]=(a["register_name"].strip(), a["register_cc"].strip().upper())
+
 def company_vertical(cc, name, regrows):
     if regrows: return regrows[0][2]           # from register
     return ""                                   # silent: vertical unknown (universe has no vertical)
@@ -199,10 +207,11 @@ for (name,cc),rr in comp.items():
         "mktcap":u.get("market_cap_usd") or None,"revenue":u.get("revenue_usd") or None,
         "employees":u.get("employees") or None,"silent":False})
 
-# silent companies: in universe, absent from register
+# silent companies: in universe, absent from register (honoring the alias map — Phase A)
 reg_keys={(name,cc) for (name,cc) in comp}
 for (name,cc),u in UNI.items():
     if (name,cc) in reg_keys: continue
+    if ALIAS.get((name,cc)) in reg_keys: continue   # swept under a different spelling/cc — NOT silent
     slug=slugify(name)
     if slug in seen_slugs: slug=f"{slug}-{cc.lower()}"
     seen_slugs[slug]=1
