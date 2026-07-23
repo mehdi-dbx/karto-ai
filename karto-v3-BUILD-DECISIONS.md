@@ -55,7 +55,7 @@ STEP 12 resweep doctrine (encode in agent scripts, not just prompts):
 - [ ] Step 7 usecase taxonomy · [ ] 8 usecase UI
 - [ ] Step 9 vendor layer
 - [ ] Step 10 changelog · [ ] 11 persona templates
-- [ ] Step 12 resweep (finale)
+- [x] Step 12 resweep (finale) — use-cases 94%, FS money-in (77), size (2457); freshness=heartbeat queue built
 
 ## Step 12 plumbing-bug log (per doctrine: "if a code change is needed post-resweep, file it")
 1. FS commitments counter: cook counted commitments only via register_row_id join, but
