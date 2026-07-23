@@ -145,6 +145,24 @@ a:hover { text-decoration: underline; }
 .cdeps .co { padding:14px 0; }
 .cflags { display:flex; flex-direction:column; gap:10px; }
 .cflag { font-size:13px; color:var(--ink-2); line-height:1.5; padding:10px 14px; background:color-mix(in srgb,var(--v-talk) 8%,var(--surface)); border-radius:8px; border:1px solid var(--hair); }
+/* C1/D2 compare */
+.cmp-pick { display:flex; align-items:center; gap:14px; flex-wrap:wrap; margin-top:20px; }
+.cmp-chips { display:flex; gap:8px; flex-wrap:wrap; }
+.cmp-chip { font-family:var(--font-ui); font-size:12.5px; background:var(--surface-2); border:1px solid var(--hair); border-radius:999px; padding:5px 12px; }
+.cmp-chip b { cursor:pointer; color:var(--muted); margin-left:6px; } .cmp-chip b:hover { color:var(--v-talk); }
+.cmp-suggest { position:relative; }
+.cmp-opt { font-family:var(--font-ui); font-size:13px; padding:8px 12px; cursor:pointer; border-bottom:1px solid var(--hair); }
+.cmp-opt:hover { background:var(--surface-2); color:var(--accent); }
+#cmpTable { width:100%; border-collapse:collapse; margin-top:8px; }
+#cmpTable th, #cmpTable td { text-align:left; padding:9px 14px; border-bottom:1px solid var(--hair); font-size:13.5px; font-family:var(--font-ui); }
+#cmpTable th:first-child, #cmpTable td:first-child { color:var(--muted); }
+#cmpTable td.cmp-best { color:var(--v-strong); font-weight:600; }
+/* D3 persona tiles */
+.personas { display:grid; grid-template-columns:repeat(auto-fit,minmax(200px,1fr)); gap:16px; margin-top:44px; max-width:920px; }
+.ptile { display:block; padding:20px; border:1px solid var(--hair); border-radius:12px; background:var(--surface); text-decoration:none; transition:border-color .2s ease, transform .2s ease; }
+.ptile:hover { border-color:var(--accent); transform:translateY(-2px); text-decoration:none; }
+.ptile .pt-ico { font-size:22px; } .ptile .pt-t { font-family:var(--font-head); font-weight:560; font-size:17px; color:var(--ink); margin-top:8px; }
+.ptile .pt-d { font-size:12.5px; color:var(--muted); margin-top:5px; line-height:1.5; }
 .toggle {
   border: 1px solid var(--hair); background: var(--surface); color: var(--ink-2);
   border-radius: 999px; padding: 6px 12px; font-size: 12px; cursor: pointer;
@@ -428,6 +446,7 @@ a.colink { color:var(--ink); text-decoration:none; } a.colink:hover { color:var(
     <a href="#/grid" class="navlink" data-route="a2">Grid</a>
     <a href="#/trends" class="navlink" data-route="trends">Trends</a>
     <a href="#/hype" class="navlink" data-route="hype">Hype</a>
+    <a href="#/compare" class="navlink" data-route="compare">Compare</a>
     <a href="#/silent" class="navlink" data-route="silent">Silent&nbsp;list</a>
     <button class="toggle" id="themeToggle" aria-label="Toggle light/dark">
       <span id="themeIcon">◐</span><span id="themeLabel">Dark</span>
@@ -498,6 +517,13 @@ a.colink { color:var(--ink); text-decoration:none; } a.colink:hover { color:var(
     </details>
 
     <button class="descend" id="descend">Descend to the world <span class="arrow">↓</span></button>
+
+    <div class="personas">
+      <a class="ptile" href="#/silent"><div class="pt-ico">🎯</div><div class="pt-t">Consultant</div><div class="pt-d">White-space &amp; the silent-company prospect list — documented gaps next to peers' activity.</div></a>
+      <a class="ptile" href="#/trends"><div class="pt-ico">📈</div><div class="pt-t">Investor</div><div class="pt-d">Momentum over time — who moved early, who's catching up, who went quiet.</div></a>
+      <a class="ptile" href="#/compare"><div class="pt-ico">⚖️</div><div class="pt-t">Strategist</div><div class="pt-d">Line up rivals side by side — maturity, proof rate, peer percentiles.</div></a>
+      <a class="ptile" href="#/hype"><div class="pt-ico">🔍</div><div class="pt-t">Vendor</div><div class="pt-d">Talk vs proof by industry — find the confirmed-but-unmeasured buyers.</div></a>
+    </div>
 
     <div class="credits">
       <div class="credit-card">
@@ -610,6 +636,25 @@ a.colink { color:var(--ink); text-decoration:none; } a.colink:hover { color:var(
         </tr></thead><tbody></tbody>
       </table>
     </details>
+  </div>
+</section>
+
+<!-- ============ COMPARE (C1/D2) ============ -->
+<section class="altitude" id="compare" data-alt="Compare">
+  <div class="terr">
+    <div class="head">
+      <div>
+        <h2>Compare — <span class="scope">side by side</span></h2>
+        <p class="lede">Pick 2–5 companies to line up their AI footprint: deployments, maturity,
+        proof rate, momentum, peer percentiles. Best-in-row is highlighted. The URL is shareable.</p>
+      </div>
+    </div>
+    <div class="cmp-pick">
+      <input id="cmpSearch" class="filtersel" style="min-width:260px" placeholder="type a company name…" autocomplete="off">
+      <div id="cmpChips" class="cmp-chips"></div>
+    </div>
+    <div id="cmpSuggest" class="cmp-suggest"></div>
+    <div class="tabletwin" style="margin-top:8px"><table id="cmpTable"></table></div>
   </div>
 </section>
 
@@ -749,6 +794,7 @@ const ROUTES = {
   'a2':     {hash:'/grid',   label:'Grid',   show:()=>{ if(!ATLAS.grid_global) return; gridScope=null; document.getElementById('scopeName')&&(document.getElementById('scopeName').textContent='the world'); const b=document.getElementById('backWorld'); if(b)b.hidden=true; renderGrid(); goAltitude('a2','World grid'); }},
   'trends': {hash:'/trends', label:'Trends', show:renderTrends},
   'hype':   {hash:'/hype',   label:'Hype',   show:renderHype},
+  'compare':{hash:'/compare',label:'Compare',show:renderCompare},
   'silent': {hash:'/silent', label:'Silent list', show:renderSilent},
 };
 function goRoute(id) { const r=ROUTES[id]; if(!r) return; if(location.hash!=='#'+r.hash) location.hash=r.hash; else applyRoute(); }
@@ -757,7 +803,8 @@ function applyRoute() {
   const h=location.hash.replace(/^#/,'');
   if(h.startsWith('/company/')) { renderCompany(h.slice('/company/'.length));
     document.querySelectorAll('.navlink').forEach(a=>a.classList.remove('on')); return; }
-  const id=(Object.keys(ROUTES).find(k=>ROUTES[k].hash===h)) || 'a0';
+  const base=h.split('?')[0];
+  const id=(Object.keys(ROUTES).find(k=>ROUTES[k].hash===base)) || 'a0';
   ROUTES[id].show();
   document.querySelectorAll('.navlink').forEach(a=>a.classList.toggle('on', a.dataset.route===id));
 }
@@ -836,6 +883,66 @@ function renderCompany(slug) {
   html+=`<p class="footnote">Every number above traces to a source link or a documented rule (maturity: hover the badge). Data version ${ATLAS.meta?ATLAS.meta.schema_version:''}.</p>`;
   host.innerHTML=html;
   window.scrollTo({top:0,behavior:'smooth'});
+}
+
+/* ============ C1 COMPARE (pure fn) + D2 view ============ */
+function compareCompanies(slugs) {
+  indexCompanies();
+  const cs=slugs.map(s=>COMP_BY_SLUG[s]).filter(Boolean);
+  const g=c=>c.benchmarks&&c.benchmarks.global_vertical;
+  const M={L0:0,L1:1,L2:2,L3:3,L4:4};
+  return { entities:cs, metrics:[
+    {key:'deployments', label:'Deployments', values:cs.map(c=>c.deployments), best:'max'},
+    {key:'confirmed', label:'Confirmed', values:cs.map(c=>c.confirmed), best:'max'},
+    {key:'proof_rate', label:'Proof rate', values:cs.map(c=>Math.round((c.proof_rate||0)*100)+'%'), raw:cs.map(c=>c.proof_rate||0), best:'max'},
+    {key:'maturity', label:'Maturity', values:cs.map(c=>c.maturity||'L0'), raw:cs.map(c=>M[c.maturity]||0), best:'max'},
+    {key:'momentum', label:'Momentum', values:cs.map(c=>(c.momentum||'—').replace(/,/g,', ')), best:'none'},
+    {key:'first_seen', label:'First seen', values:cs.map(c=>c.first_seen||'—'), raw:cs.map(c=>c.first_seen||9999), best:'min'},
+    {key:'pct_dep', label:'Pctile (peers)', values:cs.map(c=>g(c)?g(c).deployments+'th':'—'), raw:cs.map(c=>g(c)?g(c).deployments:-1), best:'max'},
+  ]};
+}
+let cmpSlugs=[];
+function renderCompare() {
+  goAltitude('compare','Compare'); indexCompanies();
+  const q=location.hash.split('?')[1]||'';
+  const p=new URLSearchParams(q); const c=p.get('c');
+  if(c && !cmpSlugs.length) cmpSlugs=c.split(',').filter(s=>COMP_BY_SLUG[s]).slice(0,5);
+  const search=document.getElementById('cmpSearch');
+  if(!search.dataset.wired){
+    search.dataset.wired='1';
+    search.addEventListener('input',()=>cmpSuggest(search.value));
+    search.addEventListener('blur',()=>setTimeout(()=>document.getElementById('cmpSuggest').innerHTML='',200));
+  }
+  drawCompare();
+}
+function cmpSuggest(q) {
+  const box=document.getElementById('cmpSuggest'); q=q.trim().toLowerCase();
+  if(q.length<2){ box.innerHTML=''; return; }
+  const hits=ATLAS.companies.filter(c=>!c.silent && c.name.toLowerCase().includes(q)).slice(0,8);
+  box.innerHTML=hits.map(c=>`<div class="cmp-opt" onclick="cmpAdd('${c.slug}')">${esc(c.name)} <span style="color:var(--muted)">· ${c.cc} · ${esc(c.vertical||'')}</span></div>`).join('');
+}
+function cmpAdd(slug) {
+  if(cmpSlugs.length>=5 || cmpSlugs.includes(slug)) return;
+  cmpSlugs.push(slug); document.getElementById('cmpSearch').value=''; document.getElementById('cmpSuggest').innerHTML='';
+  syncCmpUrl(); drawCompare();
+}
+function cmpRemove(slug) { cmpSlugs=cmpSlugs.filter(s=>s!==slug); syncCmpUrl(); drawCompare(); }
+function syncCmpUrl() { const h='/compare'+(cmpSlugs.length?'?c='+cmpSlugs.join(','):''); if(location.hash!=='#'+h) history.replaceState(null,'','#'+h); }
+function drawCompare() {
+  document.getElementById('cmpChips').innerHTML=cmpSlugs.map(s=>{
+    const c=COMP_BY_SLUG[s]; return `<span class="cmp-chip">${esc(c.name)} <b onclick="cmpRemove('${s}')">✕</b></span>`;
+  }).join('');
+  const tbl=document.getElementById('cmpTable');
+  if(cmpSlugs.length<2){ tbl.innerHTML='<tbody><tr><td style="color:var(--muted);padding:16px 0">Add at least two companies to compare.</td></tr></tbody>'; return; }
+  const cmp=compareCompanies(cmpSlugs);
+  let html='<thead><tr><th>Metric</th>'+cmp.entities.map(c=>`<th><a class="colink" href="#/company/${c.slug}">${esc(c.name)}</a></th>`).join('')+'</tr></thead><tbody>';
+  cmp.metrics.forEach(m=>{
+    let bestIdx=-1;
+    if(m.best!=='none'){ const arr=m.raw||m.values.map(Number); const valid=arr.map((v,i)=>[v,i]).filter(x=>typeof x[0]==='number'&&!isNaN(x[0]));
+      if(valid.length){ valid.sort((a,b)=>m.best==='max'?b[0]-a[0]:a[0]-b[0]); bestIdx=valid[0][1]; } }
+    html+=`<tr><td>${m.label}</td>`+m.values.map((v,i)=>`<td class="${i===bestIdx?'cmp-best':''}">${v}</td>`).join('')+'</tr>';
+  });
+  tbl.innerHTML=html+'</tbody>';
 }
 
 /* ============ D5 TRENDS VIEW (deployments over time, D3 line) ============ */
