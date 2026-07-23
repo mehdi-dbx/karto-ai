@@ -411,35 +411,57 @@ for v in VERTS:
 WHITESPACE=[w for w in WHITESPACE if w["active_countries"]>0]
 WHITESPACE.sort(key=lambda x:-x["score"])
 
-# ---------- B7 insight cards (push layer; every card has an action) ----------
+# ---------- B7-r insight cards + per-persona action templates (Step 11) ----------
+# Same finding, different verb per persona. Screener positioning: investor bar = "worth an
+# hour of DD", never "wire money". Every card carries a non-empty action for each listed persona.
+ACTION_TMPL={
+  "silent_giant":{
+    "vendor":"Bid window: outreach to {name} — its rivals disclose a median {pm} deployments; attach their sources.",
+    "consultant":"Client-gap brief: {name} trails {sector} peers (median {pm}) — a documented opening.",
+    "investor":"Laggard flag: check {name}'s capex/AI language next filing — behind its sector."},
+  "contradiction":{
+    "investor":"Worth an hour of DD: earnings-call question for {name} — '{n} AI initiatives announced, what measurable return?'",
+    "consultant":"Credibility benchmark: {name} announces {n}, proves 0 — position against your client's own claims.",
+    "vendor":"Measurement gap at {name}: {n} deployments, no numbers — a tooling/services pitch."},
+  "whitespace":{
+    "vendor":"Greenfield: {v} firms not yet in {h}; {ac} proven markets as reference cases.",
+    "consultant":"Transfer pitch: {v}×{h} proven in {ac} countries — bring it to the laggards.",
+    "investor":"Adoption runway: {v}×{h} still spreading across markets."},
+  "blind_vertical":{
+    "investor":"Measurement/tooling thesis: the whole {v} vertical deploys AI with near-zero disclosed value numbers.",
+    "vendor":"Whole-vertical services opportunity: {v} runs blind — nobody's measuring.",
+    "consultant":"Sector brief: {v} adopts AI but can't prove ROI — a market-wide gap."},
+}
+def mk_actions(rule, **slots):
+    return {p: t.format(**slots) for p, t in ACTION_TMPL[rule].items()}
+
 INSIGHTS=[]
-# Silent giant: L0 companies whose vertical×country peers are active (peer_median >= 2)
 for s in SILENT:
     pm=s.get("peer_median")
     if pm and pm>=2:
         INSIGHTS.append({"type":"silent_giant","entities":[s["slug"]],
           "finding":f"{s['name']} ({s['cc']}) discloses no AI, while its {s.get('sector','')} peers run a median of {int(pm)} deployments.",
           "meaning":"A documented gap next to active rivals.",
-          "action":"Cold-outreach with the peer-gap as ammo: 'your closest rivals disclose N deployments — here are the sources.'",
-          "persona":["consultant","vendor"],"surprise_score":round(pm*10)})
-# Contradiction: company high deployments, zero value numbers (pure talk-quadrant)
+          "persona":["vendor","consultant","investor"],
+          "actions":mk_actions("silent_giant",name=s['name'],sector=s.get('sector','') or 'sector',pm=int(pm)),
+          "surprise_score":round(pm*10)})
 for c in COMPANIES:
     if c["silent"]: continue
     if c["deployments"]>=4 and c["with_value_number"]==0:
         INSIGHTS.append({"type":"contradiction","entities":[c["slug"]],
           "finding":f"{c['name']} discloses {c['deployments']} AI deployments but not a single value number.",
           "meaning":"High activity, zero substantiation.",
-          "action":"Pre-written earnings-call question: 'You've announced N AI initiatives — what measurable return has any delivered?'",
-          "persona":["investor","consultant"],"surprise_score":c["deployments"]*4})
-# Whitespace: a function widely active across countries — greenfield pitch
+          "persona":["investor","consultant","vendor"],
+          "actions":mk_actions("contradiction",name=c['name'],n=c['deployments']),
+          "surprise_score":c["deployments"]*4})
 for w in WHITESPACE[:8]:
     INSIGHTS.append({"type":"whitespace","entities":[],
       "finding":f"{w['v']} × {w['h']} is active in {w['active_countries']} countries — a proven pattern.",
       "meaning":"Where the pattern is proven, laggards are prospects.",
-      "action":f"Greenfield pitch list: {w['v']} firms NOT yet in {w['h']}, with the {w['active_countries']} proven markets as reference cases.",
-      "persona":["vendor","consultant"],"surprise_score":w["score"]})
-INSIGHTS.sort(key=lambda x:-x["surprise_score"])
-INSIGHTS=INSIGHTS[:60]   # cap the feed
+      "persona":["vendor","consultant","investor"],
+      "actions":mk_actions("whitespace",v=w['v'],h=w['h'],ac=w['active_countries']),
+      "surprise_score":w["score"]})
+# NB: blind_vertical insights are appended later (after HYPE_VERT is computed), then sorted+capped.
 
 # ---------- A5 freshness aggregate + D6 hype detector ----------
 FRESH=Counter(stale_bucket(r[10]) for r in rows)
@@ -473,6 +495,20 @@ for v,idxs in byv_rows.items():
                       "commitments":commits,   # money-in axis; 0 until dedicated collection
                       "substantiation_rate":round(withnum/announced,3) if announced else 0})
 HYPE_VERT.sort(key=lambda x:-x["announced"])
+
+# B7-r blind_vertical insights (needs HYPE_VERT); then finalize the feed
+BLIND_THRESHOLD=20
+for h in HYPE_VERT:
+    if h["announced"]>=BLIND_THRESHOLD and h["substantiated"]==0:
+        INSIGHTS.append({"type":"blind_vertical","entities":[],
+          "finding":f"{h['v']}: {h['announced']} deployments, not one cites a value number — the whole vertical deploys blind.",
+          "meaning":"Adoption without measurement, industry-wide.",
+          "persona":["investor","vendor","consultant"],
+          "actions":mk_actions("blind_vertical",v=h['v']),
+          "surprise_score":h["announced"]})
+for _c in INSIGHTS: _c["action"]=next(iter(_c["actions"].values()))   # back-compat flat action
+INSIGHTS.sort(key=lambda x:-x["surprise_score"])
+INSIGHTS=INSIGHTS[:80]
 
 META={
   "schema_version":"2.0",
@@ -608,6 +644,43 @@ QSTATS={
   "count_changes": None,      # lit by Step 10
 }
 json.dump(QSTATS, open(os.path.join(ROOT,"data","question_stats.json"),"w"), ensure_ascii=False, indent=1)
+
+# ---------- H2 changelog: diff current vs prior compact state ----------
+PREV=os.path.join(ROOT,"data","atlas_prev_state.json")
+CHANGELOG=os.path.join(ROOT,"data","changelog.json")
+def compact_state():
+    st={}
+    for c in COMPANIES:
+        st[c["slug"]]={"n":c["deployments"],"conf":c["confirmed"],"wn":c["with_value_number"],
+                       "mat":c.get("maturity"),"silent":c["silent"],"mom":c.get("momentum")}
+    return st
+cur_state=compact_state()
+entries=[]
+STAMP=os.environ.get("KARTO_COOK_DATE","")   # optional stamp; else undated entry
+if os.path.exists(PREV):
+    try: prev=json.load(open(PREV))
+    except: prev={}
+    name_of={c["slug"]:c["name"] for c in COMPANIES}
+    for slug,now in cur_state.items():
+        old=prev.get(slug)
+        nm=name_of.get(slug,slug)
+        if old is None:
+            if not now["silent"]:
+                entries.append({"type":"new_deployment","slug":slug,"name":nm,"text":f"{nm}: first appearance in the register"})
+            continue
+        if old.get("mat")!=now.get("mat") and now.get("mat") and old.get("mat"):
+            entries.append({"type":"maturity_change","slug":slug,"name":nm,"text":f"{nm}: maturity {old['mat']} → {now['mat']}"})
+        if old.get("wn",0)==0 and now.get("wn",0)>0:
+            entries.append({"type":"first_value_number","slug":slug,"name":nm,"text":f"{nm}: first value number disclosed"})
+        if old.get("n",0)<now.get("n",0):
+            entries.append({"type":"new_deployment","slug":slug,"name":nm,"text":f"{nm}: +{now['n']-old['n']} deployment(s)"})
+        if not old.get("silent") and now.get("silent"):
+            entries.append({"type":"gone_quiet","slug":slug,"name":nm,"text":f"{nm}: no longer disclosing AI"})
+json.dump({"generated":STAMP,"entries":entries}, open(CHANGELOG,"w"), ensure_ascii=False, indent=1)
+QSTATS["count_changes"]=len(entries) if entries else None
+json.dump(QSTATS, open(os.path.join(ROOT,"data","question_stats.json"),"w"), ensure_ascii=False, indent=1)
+# persist current state as the next baseline
+json.dump(cur_state, open(PREV,"w"), ensure_ascii=False)
 
 print(f"cooked -> {OUT}")
 print(f"  global: {GLOBAL['deployments']} deploys, {GLOBAL['companies']} cos, {GLOBAL['confirmed']} confirmed")

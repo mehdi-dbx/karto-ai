@@ -67,6 +67,8 @@ WORLD_JSON = open(os.path.join(ROOT, "data", "world-110m.json")).read()
 QUESTIONS_JSON = open(os.path.join(ROOT, "data", "questions.json")).read()
 _qs_path = os.path.join(ROOT, "data", "question_stats.json")
 QSTATS_JSON = open(_qs_path).read() if os.path.exists(_qs_path) else "{}"
+_cl_path = os.path.join(ROOT, "data", "changelog.json")
+CHANGELOG_JSON = open(_cl_path).read() if os.path.exists(_cl_path) else '{"entries":[]}'
 D3 = open(os.path.join(VENDOR, "d3.v7.min.js")).read()
 TOPO = open(os.path.join(VENDOR, "topojson-client.min.js")).read()
 
@@ -277,6 +279,14 @@ a:hover {{ text-decoration: underline; }}
 .vchip {{ font-family:var(--font-ui); font-size:12.5px; color:var(--ink-2); background:var(--surface-2);
   border:1px solid var(--hair); border-radius:999px; padding:5px 12px; text-decoration:none; }}
 a.vchip:hover {{ border-color:var(--accent); color:var(--accent); text-decoration:none; }}
+/* H2 changelog + since-visit */
+.cl-list {{ margin-top:22px; }}
+.cl-row {{ display:flex; align-items:baseline; gap:10px; padding:10px 0; border-bottom:1px solid var(--hair); font-family:var(--font-body); font-size:14.5px; color:var(--ink-2); }}
+.cl-ico {{ color:var(--accent); flex:none; }}
+.since-visit {{ margin:24px 0 0; }}
+.since-visit a {{ font-family:var(--font-ui); font-size:13px; color:var(--ink); text-decoration:none; background:color-mix(in srgb,var(--accent) 12%,var(--surface)); border:1px solid var(--hair); border-radius:999px; padding:8px 15px; display:inline-block; }}
+.since-visit a:hover {{ border-color:var(--accent); text-decoration:none; }}
+.since-visit b {{ color:var(--accent); }}
 /* B7 insights feed */
 .insfeed {{ display:grid; grid-template-columns:repeat(auto-fill,minmax(340px,1fr)); gap:16px; margin-top:24px; }}
 .inscard {{ border:1px solid var(--hair); border-radius:12px; padding:18px; background:var(--surface); }}
@@ -582,6 +592,7 @@ a.colink {{ color:var(--ink); text-decoration:none; }} a.colink:hover {{ color:v
     <a href="#/hype" class="navlink" data-route="hype">Hype</a>
     <a href="#/insights" class="navlink" data-route="insights">Insights</a>
     <a href="#/compare" class="navlink" data-route="compare">Compare</a>
+    <a href="#/changelog" class="navlink" data-route="changelog">Changelog</a>
     <a href="#/silent" class="navlink" data-route="silent">Silent&nbsp;list</a>
     <button class="toggle" id="themeToggle" aria-label="Toggle light/dark">
       <span id="themeIcon">{icon('moon',15)}</span><span id="themeLabel">Dark</span>
@@ -653,6 +664,7 @@ a.colink {{ color:var(--ink); text-decoration:none; }} a.colink:hover {{ color:v
 
     <button class="descend" id="descend">Descend to the world <span class="arrow">↓</span></button>
 
+    <div class="since-visit" id="sinceVisit" style="display:none"></div>
     <div class="qmenu-intro">Ask a question — one click to the answer, pre-filtered and sourced.</div>
     <div class="qmenu" id="qmenu"></div>
 
@@ -888,6 +900,22 @@ a.colink {{ color:var(--ink); text-decoration:none; }} a.colink:hover {{ color:v
   <div class="terr" id="vendorBody"></div>
 </section>
 
+<!-- changelog (H2) -->
+<section class="altitude" id="changelog" data-alt="Changelog">
+  <div class="terr">
+    <div class="head">
+      <div>
+        <h2>Changelog — <span class="scope">the heartbeat</span></h2>
+        <p class="lede">What moved since the last build: new deployments, maturity changes,
+        first value numbers, companies gone quiet. The proof the dataset is alive.</p>
+      </div>
+      <div class="controls"><select id="clType" class="filtersel"><option value="">All changes</option></select></div>
+    </div>
+    <div id="clList" class="cl-list"></div>
+    <p class="footnote" id="clEmpty"></p>
+  </div>
+</section>
+
 <!-- ============ COMPANIES (filterable list — question targets land here) ============ -->
 <section class="altitude" id="companies" data-alt="Companies">
   <div class="terr">
@@ -959,6 +987,7 @@ a.colink {{ color:var(--ink); text-decoration:none; }} a.colink:hover {{ color:v
 <script id="atlas-data" type="application/json">{DATA_JSON}</script>
 <script id="questions-data" type="application/json">{QUESTIONS_JSON}</script>
 <script id="qstats-data" type="application/json">{QSTATS_JSON}</script>
+<script id="changelog-data" type="application/json">{CHANGELOG_JSON}</script>
 <script id="world-data" type="application/json">{WORLD_JSON}</script>
 <script>{D3}</script>
 <script>{TOPO}</script>
@@ -1010,6 +1039,7 @@ const ROUTES = {{
   'insights':{{hash:'/insights',label:'Insights',show:renderInsights}},
   'signals':{{hash:'/signals', label:'Signals', show:renderInsights}},   // alias: insights feed w/ type/p params
   'usecases':{{hash:'/usecases',label:'Use cases',show:renderUsecases}},
+  'changelog':{{hash:'/changelog',label:'Changelog',show:renderChangelog}},
   'companies':{{hash:'/companies',label:'Companies',show:renderCompanies}},
   'silent': {{hash:'/silent', label:'Silent list', show:renderSilent}},
 }};
@@ -1190,11 +1220,13 @@ function drawInsights() {{
   const cards=(ATLAS.insights||[]).filter(c=>(!insPersona || (c.persona||[]).includes(insPersona)) && (!insType || c.type===insType));
   feed.innerHTML = cards.map(c=>{{
     const co=(c.entities||[]).map(sl=>{{const x=COMP_BY_SLUG&&COMP_BY_SLUG[sl]; return x?`<a class="colink" href="#/company/${{sl}}">${{esc(x.name)}}</a>`:'';}}).filter(Boolean).join(', ');
+    // B7-r: persona-specific action wording when a persona is selected, else the default flat action
+    const act = (insPersona && c.actions && c.actions[insPersona]) ? c.actions[insPersona] : c.action;
     return `<div class="inscard">
       <div class="ins-h"><span class="ins-ico">${{ICON[c.type]||'•'}}</span><span class="ins-type">${{c.type.replace(/_/g,' ')}}</span>
         <span style="flex:1"></span><span class="ins-score" title="surprise score">${{c.surprise_score}}</span></div>
       <div class="ins-find">${{esc(c.finding)}}</div>
-      <div class="ins-act"><b>Action:</b> ${{esc(c.action)}}</div>
+      <div class="ins-act"><b>${{insPersona?insPersona[0].toUpperCase()+insPersona.slice(1)+' action:':'Action:'}}</b> ${{esc(act)}}</div>
       ${{co?`<div class="ins-ent">${{co}}</div>`:''}}
     </div>`;
   }}).join('') || '<p class="lede">No insights for this persona.</p>';
@@ -1382,6 +1414,43 @@ function renderVendor(slug) {{
         return slug?`<a class="colink" href="#/company/${{slug}}">${{esc(cn)}}</a>`:`<span>${{esc(cn)}}</span>`; }}).join(' · ')
     + `</div><p class="footnote">Industries: ${{v.verticals.map(esc).join(' · ')}}. Disclosure bias: vendors are named selectively — "not disclosed" is common and never inferred.</p>`;
   host.innerHTML=html; window.scrollTo({{top:0,behavior:'smooth'}});
+}}
+
+/* ============ H2 CHANGELOG + since-last-visit ============ */
+const CHANGELOG = JSON.parse(document.getElementById('changelog-data').textContent);
+const CL_ICON={{new_deployment:`{icon('plus',15)}`,maturity_change:`{icon('trending-up',15)}`,first_value_number:`{icon('badge-dollar-sign',15)}`,gone_quiet:`{icon('moon',15)}`,new_silent:`{icon('circle-slash',15)}`,verdict_change:`{icon('refresh-cw',15)}`}};
+let clTypeSel=false;
+function renderChangelog() {{
+  goAltitude('changelog','Changelog');
+  const entries=CHANGELOG.entries||[];
+  const sel=document.getElementById('clType');
+  if(!clTypeSel){{ clTypeSel=true;
+    [...new Set(entries.map(e=>e.type))].forEach(t=>sel.insertAdjacentHTML('beforeend',`<option value="${{t}}">${{t.replace(/_/g,' ')}}</option>`));
+    sel.onchange=drawChangelog;
+  }}
+  drawChangelog();
+}}
+function drawChangelog() {{
+  const entries=CHANGELOG.entries||[]; const t=document.getElementById('clType').value;
+  const list=entries.filter(e=>!t||e.type===t);
+  const host=document.getElementById('clList');
+  host.innerHTML=list.map(e=>{{
+    const co=e.slug&&COMP_BY_SLUG&&COMP_BY_SLUG[e.slug]?`<a class="colink" href="#/company/${{e.slug}}">${{esc(e.name||e.slug)}}</a>`:esc(e.name||'');
+    return `<div class="cl-row"><span class="cl-ico">${{CL_ICON[e.type]||''}}</span><span class="cl-t">${{esc(e.text)}}</span></div>`;
+  }}).join('');
+  document.getElementById('clEmpty').textContent = list.length ? `${{list.length}} change(s) this build.`
+    : 'No changes recorded yet — the first entries appear after the next data update (the resweep). This is the heartbeat, empty until it beats.';
+}}
+// since-last-visit strip on home (localStorage; no accounts/server)
+function renderSinceVisit() {{
+  const strip=document.getElementById('sinceVisit'); if(!strip) return;
+  const n=(CHANGELOG.entries||[]).length;
+  let last=null; try{{ last=localStorage.getItem('karto_last_visit'); }}catch(e){{}}
+  if(last && n>0){{
+    strip.innerHTML=`<a href="#/changelog">{icon('activity',14)} Since your last visit: <b>${{n}}</b> change(s) in the dataset →</a>`;
+    strip.style.display='block';
+  }} else strip.style.display='none';
+  try{{ localStorage.setItem('karto_last_visit', String(Date.now())); }}catch(e){{}}
 }}
 
 /* ============ D9 USE-CASE CATALOG + DETAIL ============ */
@@ -1997,8 +2066,10 @@ scrim.addEventListener('click',closePanel);
 document.getElementById('pclose').addEventListener('click',closePanel);
 document.addEventListener('keydown',e=>{{ if(e.key==='Escape'&&panel.classList.contains('open'))closePanel(); }});
 
-/* render the question menu on the home screen (N1) */
+/* render the question menu + since-last-visit strip on the home screen (N1/H2) */
 renderQMenu();
+indexCompanies();
+renderSinceVisit();
 /* honor a deep-link hash on first load (e.g. someone opens #/silent directly) */
 if (location.hash && location.hash!=='#') applyRoute();
 </script>
