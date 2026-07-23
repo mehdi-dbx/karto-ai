@@ -31,6 +31,30 @@ def img_data_uri(path):
     b64 = base64.b64encode(open(path,"rb").read()).decode()
     return f"data:image/png;base64,{b64}"
 MEHDI_IMG = img_data_uri(os.path.join(VENDOR, "img", "mehdi.png"))
+
+# ---- Lucide icons (monochrome stroke SVG, inherit currentColor -> theme-safe). No emoji. ----
+# Uses the `lucide` PyPI package if importable; otherwise falls back to a committed cache
+# (tools/vendor/lucide_cache.json) so the build is reproducible without the dep.
+_LUCIDE_CACHE_PATH = os.path.join(VENDOR, "lucide_cache.json")
+try:
+    import lucide as _lucide
+except Exception:
+    _lucide = None
+_lucide_cache = {}
+if os.path.exists(_LUCIDE_CACHE_PATH):
+    _lucide_cache = json.load(open(_LUCIDE_CACHE_PATH))
+def _raw_icon(name, size):
+    key = f"{name}:{size}"
+    if key in _lucide_cache: return _lucide_cache[key]
+    if _lucide is None:
+        raise RuntimeError(f"lucide icon '{key}' not cached and lucide not importable — run build in the venv once to populate {_LUCIDE_CACHE_PATH}")
+    svg = _lucide._render_icon(name, size)
+    _lucide_cache[key] = svg
+    return svg
+def icon(name, size=18, cls="lic"):
+    svg = _raw_icon(name, size)
+    svg = svg.replace("<svg ", f'<svg class="{cls}" aria-hidden="true" focusable="false" ', 1)
+    return " ".join(svg.split())
 WORLD_JSON = open(os.path.join(ROOT, "data", "world-110m.json")).read()
 D3 = open(os.path.join(VENDOR, "d3.v7.min.js")).read()
 TOPO = open(os.path.join(VENDOR, "topojson-client.min.js")).read()
@@ -120,6 +144,7 @@ HTML = f"""<!DOCTYPE html>
   --d1:#24211c; --d2:#9c5312; --d3:#b06a1c; --d4:#cc8a38; --d5:#e0b06a; --d6:#f0d4a0; --d7:#f0d4a0;
 }}
 
+.lic {{ display:inline-block; vertical-align:-.16em; width:1em; height:1em; stroke-width:2; flex:none; }}
 * {{ box-sizing: border-box; }}
 html, body {{ margin: 0; padding: 0; }}
 body {{
@@ -506,7 +531,7 @@ a.colink {{ color:var(--ink); text-decoration:none; }} a.colink:hover {{ color:v
     <a href="#/compare" class="navlink" data-route="compare">Compare</a>
     <a href="#/silent" class="navlink" data-route="silent">Silent&nbsp;list</a>
     <button class="toggle" id="themeToggle" aria-label="Toggle light/dark">
-      <span id="themeIcon">◐</span><span id="themeLabel">Dark</span>
+      <span id="themeIcon">{icon('moon',15)}</span><span id="themeLabel">Dark</span>
     </button>
   </div>
 </div>
@@ -576,10 +601,10 @@ a.colink {{ color:var(--ink); text-decoration:none; }} a.colink:hover {{ color:v
     <button class="descend" id="descend">Descend to the world <span class="arrow">↓</span></button>
 
     <div class="personas">
-      <a class="ptile" href="#/silent"><div class="pt-ico">🎯</div><div class="pt-t">Consultant</div><div class="pt-d">White-space &amp; the silent-company prospect list — documented gaps next to peers' activity.</div></a>
-      <a class="ptile" href="#/trends"><div class="pt-ico">📈</div><div class="pt-t">Investor</div><div class="pt-d">Momentum over time — who moved early, who's catching up, who went quiet.</div></a>
-      <a class="ptile" href="#/compare"><div class="pt-ico">⚖️</div><div class="pt-t">Strategist</div><div class="pt-d">Line up rivals side by side — maturity, proof rate, peer percentiles.</div></a>
-      <a class="ptile" href="#/hype"><div class="pt-ico">🔍</div><div class="pt-t">Vendor</div><div class="pt-d">Talk vs proof by industry — find the confirmed-but-unmeasured buyers.</div></a>
+      <a class="ptile" href="#/silent"><div class="pt-ico">{icon('target',24)}</div><div class="pt-t">Consultant</div><div class="pt-d">White-space &amp; the silent-company prospect list — documented gaps next to peers' activity.</div></a>
+      <a class="ptile" href="#/trends"><div class="pt-ico">{icon('trending-up',24)}</div><div class="pt-t">Investor</div><div class="pt-d">Momentum over time — who moved early, who's catching up, who went quiet.</div></a>
+      <a class="ptile" href="#/compare"><div class="pt-ico">{icon('scale',24)}</div><div class="pt-t">Strategist</div><div class="pt-d">Line up rivals side by side — maturity, proof rate, peer percentiles.</div></a>
+      <a class="ptile" href="#/hype"><div class="pt-ico">{icon('search',24)}</div><div class="pt-t">Vendor</div><div class="pt-d">Talk vs proof by industry — find the confirmed-but-unmeasured buyers.</div></a>
     </div>
 
     <div class="credits">
@@ -606,7 +631,7 @@ a.colink {{ color:var(--ink); text-decoration:none; }} a.colink:hover {{ color:v
         <h2>Where AI actually lands</h2>
         <p class="lede">Each of the {g['countries']} markets we searched. Bubble size = deployments found;
         color = <b title="Confirmed deployments per company searched. Companies can carry several, so values above 1× are normal — e.g. Norway 1.48× = 148 confirmed per 100 companies searched.">adoption density</b>
-        (confirmed deployments per company searched — <span style="cursor:help" title="Companies can disclose several deployments, so density above 1× is expected, not a bug.">values above 1× are normal ⓘ</span>). Big isn't dense.</p>
+        (confirmed deployments per company searched — <span style="cursor:help" title="Companies can disclose several deployments, so density above 1× is expected, not a bug.">values above 1× are normal {icon('info',14)}</span>). Big isn't dense.</p>
       </div>
       <div class="controls">
         <div class="seg-ctrl" id="viewCtrl">
@@ -832,9 +857,10 @@ const ATLAS = JSON.parse(document.getElementById('atlas-data').textContent);
 const root = document.documentElement;
 const tBtn = document.getElementById('themeToggle');
 const tIcon = document.getElementById('themeIcon'), tLab = document.getElementById('themeLabel');
+const ICON_SUN=`{icon('sun',15)}`, ICON_MOON=`{icon('moon',15)}`;
 function applyTheme(t) {{
   root.setAttribute('data-theme', t);
-  tIcon.textContent = t === 'dark' ? '☀' : '◐';
+  tIcon.innerHTML = t === 'dark' ? ICON_SUN : ICON_MOON;
   tLab.textContent  = t === 'dark' ? 'Light' : 'Dark';
   if (!themeReady) return;   // skip repaint during first-load call (marks not built yet)
   // repaint colour-bearing marks that read CSS vars at draw time
@@ -947,23 +973,23 @@ function renderCompany(slug) {{
       <div class="meta">${{['P','I','S'].includes(tier)?`<span class="chip ${{tier}}">tier ${{tier}}</span>`:''}}
         ${{showVal?`<span class="val">${{esc(val)}}</span>`:''}}
         ${{e.date&&e.date!=='missing'?`<span>${{esc(e.date)}}</span>`:''}}
-        ${{e.fresh&&e.fresh!=='fresh'&&e.fresh!=='undated'?`<span class="freshbadge fb-${{e.fresh}}">⚠ ${{e.fresh}}</span>`:''}}
+        ${{e.fresh&&e.fresh!=='fresh'&&e.fresh!=='undated'?`<span class="freshbadge fb-${{e.fresh}}">{icon('triangle-alert',12)} ${{e.fresh}}</span>`:''}}
         <span style="flex:1"></span>${{srcLinks(e.url)}}</div></div>`;
   }}).join('')+`</div>`;
   // findings flags
   if(findings.length){{
     html+=`<h3 class="csub">Context &amp; flags</h3><div class="cflags">`+findings.map(f=>
-      `<div class="cflag">⚑ ${{esc(f.finding)}} ${{f.url?`<a class="src" href="${{esc(f.url)}}" target="_blank" rel="noopener">source ↗</a>`:''}}</div>`).join('')+`</div>`;
+      `<div class="cflag">{icon('flag',14)} ${{esc(f.finding)}} ${{f.url?`<a class="src" href="${{esc(f.url)}}" target="_blank" rel="noopener">source ↗</a>`:''}}</div>`).join('')+`</div>`;
   }}
   html+=`<p class="footnote">Every number above traces to a source link or a documented rule (maturity: hover the badge). Data version ${{ATLAS.meta?ATLAS.meta.schema_version:''}}.</p>`;
-  html+=`<button class="expbtn" onclick='exportBriefing("company",COMP_BY_SLUG["${{slug}}"])'>⭳ Generate briefing (markdown)</button>`;
+  html+=`<button class="expbtn" onclick='exportBriefing("company",COMP_BY_SLUG["${{slug}}"])'>{icon('download',15)} Generate briefing (markdown)</button>`;
   host.innerHTML=html;
   window.scrollTo({{top:0,behavior:'smooth'}});
 }}
 
 /* ============ B7 INSIGHTS FEED + D7 export ============ */
 let insPersona='';
-const ICON={{silent_giant:'🎯',contradiction:'⚠️',whitespace:'🗺️',outlier:'📊',momentum_break:'⏱️'}};
+const ICON={{silent_giant:`{icon('target',16)}`,contradiction:`{icon('triangle-alert',16)}`,whitespace:`{icon('map',16)}`,outlier:`{icon('chart-no-axes-column',16)}`,momentum_break:`{icon('clock',16)}`}};
 function renderInsights() {{
   goAltitude('insights','Insights');
   const ctrl=document.getElementById('insPersona');
@@ -1065,7 +1091,7 @@ function drawCompare() {{
   }});
   tbl.innerHTML=html+'</tbody>';
   let btn=document.getElementById('cmpExport');
-  if(!btn){{ btn=document.createElement('button'); btn.id='cmpExport'; btn.className='expbtn'; btn.textContent='⭳ Generate briefing (markdown)'; tbl.after(btn); }}
+  if(!btn){{ btn=document.createElement('button'); btn.id='cmpExport'; btn.className='expbtn'; btn.innerHTML='{icon("download",15)} Generate briefing (markdown)'; tbl.after(btn); }}
   btn.onclick=()=>exportBriefing('compare',compareCompanies(cmpSlugs));
 }}
 
@@ -1606,7 +1632,7 @@ function renderPanelBody() {{
       + (tier?`<span class="chip ${{tier}}">tier ${{tier}}</span>`:'')
       + (val?`<span class="val">${{esc(val)}}</span>`:'<span class="val" style="opacity:.6">no value number</span>')
       + (e.date&&e.date!=='missing'?`<span>${{esc(e.date)}}</span>`:'')
-      + (e.fresh&&e.fresh!=='fresh'&&e.fresh!=='undated'?`<span class="freshbadge fb-${{e.fresh}}" title="verified ${{esc(e.date||'?')}} — re-check before citing">⚠ ${{e.fresh}}</span>`:'')
+      + (e.fresh&&e.fresh!=='fresh'&&e.fresh!=='undated'?`<span class="freshbadge fb-${{e.fresh}}" title="verified ${{esc(e.date||'?')}} — re-check before citing">{icon('triangle-alert',12)} ${{e.fresh}}</span>`:'')
       + `<span style="flex:1"></span>${{srcLinks(e.url)}}</div></div>`;
   }}).join('');
   document.getElementById('pbody').innerHTML=html;
@@ -1643,6 +1669,9 @@ if (location.hash && location.hash!=='#') applyRoute();
 open(OUT, "w").write(HTML)
 # also emit index.html at repo root so GitHub Pages serves the atlas at the site root
 open(os.path.join(ROOT, "index.html"), "w").write(HTML)
+# persist the lucide SVG cache so future builds don't need the lucide package
+if _lucide is not None:
+    json.dump(_lucide_cache, open(_LUCIDE_CACHE_PATH, "w"), ensure_ascii=False, indent=0)
 print(f"built {OUT} ({len(HTML):,} bytes) — A0 Orbit · A1 World · A2 Grid · A3 Street")
 print("also wrote index.html (GitHub Pages entry point)")
 print("open it in a browser to review the full atlas.")
