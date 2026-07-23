@@ -1,0 +1,85 @@
+{
+ "slug": "daikin-industries-ltd",
+ "name": "Daikin Industries, Ltd.",
+ "cc": "JP",
+ "vertical": "Industrial / Machinery",
+ "deployments": 3,
+ "confirmed": 3,
+ "with_value_number": 1,
+ "proof_rate": 0.333,
+ "mktcap": null,
+ "revenue": null,
+ "employees": null,
+ "silent": false,
+ "benchmarks": {
+  "global_vertical": {
+   "deployments": 99,
+   "confirmed": 99,
+   "proof_rate": 75,
+   "n": 171
+  },
+  "country_vertical": {
+   "deployments": 100,
+   "confirmed": 100,
+   "proof_rate": 55,
+   "n": 23
+  }
+ },
+ "first_seen": 2023,
+ "by_year": [
+  {
+   "year": 2023,
+   "n": 2
+  },
+  {
+   "year": 2025,
+   "n": 1
+  }
+ ],
+ "undated_pct": 0,
+ "momentum": "early_mover,cooling",
+ "maturity": "L4",
+ "maturity_evidence": [
+  "multi_horizontal",
+  "named_product:D-Wind",
+  "value_number",
+  "multi_year",
+  "tier_p"
+ ],
+ "prospect_score": 45,
+ "deployments_detail": [
+  {
+   "company": "Daikin Industries, Ltd.",
+   "use": "Company-wide \"D-Wind\" generative AI (Apr 2023) + factory equipment failure diagnosis AI agents (Apr 2025, skill transfer to foreign workers)",
+   "existence": "confirmed",
+   "value": "none quantified",
+   "tier": "P",
+   "url": "https://xtech.nikkei.com/atcl/nxt/column/18/03393/111800002/",
+   "raw_sector": "Machinery",
+   "date": "2023-04",
+   "fresh": "stale"
+  },
+  {
+   "company": "Daikin Industries, Ltd.",
+   "use": "AI thermal-load prediction for automatic energy-saving control of air conditioning",
+   "existence": "confirmed",
+   "value": "none quantified",
+   "tier": "P",
+   "url": "https://www.daikin.co.jp/tic/topics/feature/2025/20250507",
+   "raw_sector": "Machinery",
+   "date": "2025",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Daikin Industries, Ltd.",
+   "use": "\"CAT.AI CX-Bot\" voice bot at contact center (Jun 2023)",
+   "existence": "confirmed",
+   "value": "~30,000 peak inquiries; 96% AI completion rate",
+   "tier": "I",
+   "url": "https://cat-ai.co.jp/casestudy/daikin/",
+   "raw_sector": "Machinery",
+   "date": "2023-06",
+   "fresh": "stale"
+  }
+ ]
+}

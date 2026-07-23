@@ -206,6 +206,19 @@ a:hover {{ text-decoration: underline; }}
 .ptile:hover {{ border-color:var(--accent); transform:translateY(-2px); text-decoration:none; }}
 .ptile .pt-ico {{ font-size:22px; }} .ptile .pt-t {{ font-family:var(--font-head); font-weight:560; font-size:17px; color:var(--ink); margin-top:8px; }}
 .ptile .pt-d {{ font-size:12.5px; color:var(--muted); margin-top:5px; line-height:1.5; }}
+/* B7 insights feed */
+.insfeed {{ display:grid; grid-template-columns:repeat(auto-fill,minmax(340px,1fr)); gap:16px; margin-top:24px; }}
+.inscard {{ border:1px solid var(--hair); border-radius:12px; padding:18px; background:var(--surface); }}
+.ins-h {{ display:flex; align-items:center; gap:8px; font-family:var(--font-ui); font-size:11.5px; text-transform:uppercase; letter-spacing:.06em; color:var(--muted); }}
+.ins-ico {{ font-size:15px; }}
+.ins-score {{ font-variant-numeric:tabular-nums; color:var(--accent); font-weight:600; }}
+.ins-find {{ font-family:var(--font-body); font-size:15px; color:var(--ink); margin:10px 0; line-height:1.5; }}
+.ins-act {{ font-size:13px; color:var(--ink-2); line-height:1.5; }}
+.ins-act b {{ color:var(--accent); }}
+.ins-ent {{ margin-top:10px; font-family:var(--font-ui); font-size:12.5px; }}
+.expbtn {{ margin-top:24px; font-family:var(--font-ui); font-size:13px; color:var(--ink); background:var(--surface-2);
+  border:1px solid var(--hair); border-radius:8px; padding:10px 18px; cursor:pointer; transition:border-color .2s ease, color .2s ease; }}
+.expbtn:hover {{ border-color:var(--accent); color:var(--accent); }}
 .toggle {{
   border: 1px solid var(--hair); background: var(--surface); color: var(--ink-2);
   border-radius: 999px; padding: 6px 12px; font-size: 12px; cursor: pointer;
@@ -489,6 +502,7 @@ a.colink {{ color:var(--ink); text-decoration:none; }} a.colink:hover {{ color:v
     <a href="#/grid" class="navlink" data-route="a2">Grid</a>
     <a href="#/trends" class="navlink" data-route="trends">Trends</a>
     <a href="#/hype" class="navlink" data-route="hype">Hype</a>
+    <a href="#/insights" class="navlink" data-route="insights">Insights</a>
     <a href="#/compare" class="navlink" data-route="compare">Compare</a>
     <a href="#/silent" class="navlink" data-route="silent">Silent&nbsp;list</a>
     <button class="toggle" id="themeToggle" aria-label="Toggle light/dark">
@@ -682,6 +696,28 @@ a.colink {{ color:var(--ink); text-decoration:none; }} a.colink:hover {{ color:v
   </div>
 </section>
 
+<!-- ============ INSIGHTS FEED (B7) ============ -->
+<section class="altitude" id="insights" data-alt="Insights">
+  <div class="terr">
+    <div class="head">
+      <div>
+        <h2>Insights — <span class="scope">the data speaking first</span></h2>
+        <p class="lede">Machine-generated cards, each with a finding <b>and an action</b>.
+        Rule-based and deterministic — no black box. Filter by who it's for.</p>
+      </div>
+      <div class="controls">
+        <div class="seg-ctrl" id="insPersona">
+          <button data-p="" class="on">All</button>
+          <button data-p="consultant">Consultant</button>
+          <button data-p="investor">Investor</button>
+          <button data-p="vendor">Vendor</button>
+        </div>
+      </div>
+    </div>
+    <div id="insFeed" class="insfeed"></div>
+  </div>
+</section>
+
 <!-- ============ COMPARE (C1/D2) ============ -->
 <section class="altitude" id="compare" data-alt="Compare">
   <div class="terr">
@@ -833,6 +869,7 @@ const ROUTES = {{
   'trends': {{hash:'/trends', label:'Trends', show:renderTrends}},
   'hype':   {{hash:'/hype',   label:'Hype',   show:renderHype}},
   'compare':{{hash:'/compare',label:'Compare',show:renderCompare}},
+  'insights':{{hash:'/insights',label:'Insights',show:renderInsights}},
   'silent': {{hash:'/silent', label:'Silent list', show:renderSilent}},
 }};
 function goRoute(id) {{ const r=ROUTES[id]; if(!r) return; if(location.hash!=='#'+r.hash) location.hash=r.hash; else applyRoute(); }}
@@ -919,8 +956,54 @@ function renderCompany(slug) {{
       `<div class="cflag">⚑ ${{esc(f.finding)}} ${{f.url?`<a class="src" href="${{esc(f.url)}}" target="_blank" rel="noopener">source ↗</a>`:''}}</div>`).join('')+`</div>`;
   }}
   html+=`<p class="footnote">Every number above traces to a source link or a documented rule (maturity: hover the badge). Data version ${{ATLAS.meta?ATLAS.meta.schema_version:''}}.</p>`;
+  html+=`<button class="expbtn" onclick='exportBriefing("company",COMP_BY_SLUG["${{slug}}"])'>⭳ Generate briefing (markdown)</button>`;
   host.innerHTML=html;
   window.scrollTo({{top:0,behavior:'smooth'}});
+}}
+
+/* ============ B7 INSIGHTS FEED + D7 export ============ */
+let insPersona='';
+const ICON={{silent_giant:'🎯',contradiction:'⚠️',whitespace:'🗺️',outlier:'📊',momentum_break:'⏱️'}};
+function renderInsights() {{
+  goAltitude('insights','Insights');
+  const ctrl=document.getElementById('insPersona');
+  if(!ctrl.dataset.wired){{ ctrl.dataset.wired='1';
+    ctrl.addEventListener('click',e=>{{ const b=e.target.closest('button'); if(!b)return;
+      ctrl.querySelectorAll('button').forEach(x=>x.classList.toggle('on',x===b)); insPersona=b.dataset.p; drawInsights(); }});
+  }}
+  drawInsights();
+}}
+function drawInsights() {{
+  const feed=document.getElementById('insFeed');
+  const cards=(ATLAS.insights||[]).filter(c=>!insPersona || (c.persona||[]).includes(insPersona));
+  feed.innerHTML = cards.map(c=>{{
+    const co=(c.entities||[]).map(sl=>{{const x=COMP_BY_SLUG&&COMP_BY_SLUG[sl]; return x?`<a class="colink" href="#/company/${{sl}}">${{esc(x.name)}}</a>`:'';}}).filter(Boolean).join(', ');
+    return `<div class="inscard">
+      <div class="ins-h"><span class="ins-ico">${{ICON[c.type]||'•'}}</span><span class="ins-type">${{c.type.replace(/_/g,' ')}}</span>
+        <span style="flex:1"></span><span class="ins-score" title="surprise score">${{c.surprise_score}}</span></div>
+      <div class="ins-find">${{esc(c.finding)}}</div>
+      <div class="ins-act"><b>Action:</b> ${{esc(c.action)}}</div>
+      ${{co?`<div class="ins-ent">${{co}}</div>`:''}}
+    </div>`;
+  }}).join('') || '<p class="lede">No insights for this persona.</p>';
+}}
+/* D7 — markdown briefing export (client-side, download) */
+function exportBriefing(kind, payload) {{
+  const dv=ATLAS.meta?ATLAS.meta.schema_version:'2.0';
+  let md=`# KARTO AI Atlas — ${{kind}} briefing\\n\\n_Data version ${{dv}} · ${{ATLAS.global.deployments}} deployments · ${{ATLAS.global.countries}} countries_\\n\\n`;
+  if(kind==='company'){{
+    const c=payload; md+=`## ${{c.name}}\\n- ${{c.cc}} · ${{c.vertical||'—'}}\\n- Maturity: **${{c.maturity}}** (${{(c.maturity_evidence||[]).join(', ')}})\\n`;
+    md+=`- Deployments: ${{c.deployments}} · Confirmed: ${{c.confirmed}} · Proof rate: ${{Math.round((c.proof_rate||0)*100)}}%\\n- Momentum: ${{c.momentum||'—'}} (first seen ${{c.first_seen||'—'}})\\n\\n`;
+    const rr=(ROWS_BY_COMPANY[c.name]||[]);
+    md+=`### Deployments (${{rr.length}})\\n`+rr.map((e,i)=>`${{i+1}}. ${{(e.use||'').split(';')[0]}} — ${{e.existence}}${{e.date&&e.date!=='missing'?' ('+e.date+')':''}} [${{e.url||'no source'}}]`).join('\\n');
+  }} else if(kind==='compare'){{
+    const cmp=payload; md+=`## Comparison\\n\\n| Metric | ${{cmp.entities.map(c=>c.name).join(' | ')}} |\\n|---|${{cmp.entities.map(()=>'---').join('|')}}|\\n`;
+    cmp.metrics.forEach(m=>{{ md+=`| ${{m.label}} | ${{m.values.join(' | ')}} |\\n`; }});
+  }} else if(kind==='insights'){{
+    (ATLAS.insights||[]).forEach((c,i)=>{{ md+=`### ${{i+1}}. ${{c.type}}\\n${{c.finding}}\\n\\n**Action:** ${{c.action}}\\n\\n`; }});
+  }}
+  const blob=new Blob([md],{{type:'text/markdown'}}); const url=URL.createObjectURL(blob);
+  const a=document.createElement('a'); a.href=url; a.download=`karto-${{kind}}-briefing.md`; a.click(); URL.revokeObjectURL(url);
 }}
 
 /* ============ C1 COMPARE (pure fn) + D2 view ============ */
@@ -981,6 +1064,9 @@ function drawCompare() {{
     html+=`<tr><td>${{m.label}}</td>`+m.values.map((v,i)=>`<td class="${{i===bestIdx?'cmp-best':''}}">${{v}}</td>`).join('')+'</tr>';
   }});
   tbl.innerHTML=html+'</tbody>';
+  let btn=document.getElementById('cmpExport');
+  if(!btn){{ btn=document.createElement('button'); btn.id='cmpExport'; btn.className='expbtn'; btn.textContent='⭳ Generate briefing (markdown)'; tbl.after(btn); }}
+  btn.onclick=()=>exportBriefing('compare',compareCompanies(cmpSlugs));
 }}
 
 /* ============ D5 TRENDS VIEW (deployments over time, D3 line) ============ */

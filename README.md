@@ -195,3 +195,21 @@ python3 scripts/build_atlas.py         # data/atlas.json + vendored D3/topojson/
 
 **Open viz items:** end-to-end human QA pass pending; parked classification debt (see
 `CLASSIFICATION.md` §"Open classification debt": Food&Bev has no vertical, Agriculture near-empty).
+
+---
+
+## 10. V2 — decision instrument (built from `karto-v2-implementation-instructions.md`)
+
+V2 turns the descriptive census into a decision tool. Decisions locked in
+`karto-v2-BUILD-DECISIONS.md` (hash routing, no resweep, no LLM). All 7 phases shipped:
+- **B3** 4-state verdict (proven/active/**unquantified**/talk) · **D8** density tooltip + methodology note
+- **A1** `data/universe.csv` (2,468 searched; `build_universe.py`) · **B1** `companies[]` · **B2** peer percentiles · **D4** Silent list (`#/silent`, 491 companies)
+- **A2** `data/claims.csv` (regex value-extraction; `extract_claims.py`) · **A5** freshness badges · **D6** hype detector (`#/hype`)
+- **B4** momentum (deployments-by-year, labels) · **D5** trends view (`#/trends`)
+- **A4** maturity L0–L4 · **B6** findings join · **D1** company pages (`#/company/{slug}`)
+- **C1** compare fn · **D2** compare view (`#/compare?c=…`) · **D3** persona tiles
+- **B7** insight cards · **B5** prospect/whitespace scores · **C3** static API (`api/**.json`, `build_api.py`) · **D7** markdown briefing export
+
+**Extra build steps (run after cook):** `python3 scripts/extract_claims.py` · `python3 scripts/build_universe.py` · `python3 scripts/build_api.py`.
+**Deferred (needs the resweep):** company size data (mktcap/rev/employees → unlocks size-weighted B1/B5); A3 commitments (FS pilot — schema in `data/commitments.csv`, empty); C2 NL query bar.
+**Static API:** `https://mehdi-dbx.github.io/karto-ai/api/index.json` catalogs all entities; `api/company/{slug}.json` etc. (CC BY-NC).

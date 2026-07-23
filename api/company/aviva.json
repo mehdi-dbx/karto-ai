@@ -1,0 +1,68 @@
+{
+ "slug": "aviva",
+ "name": "Aviva",
+ "cc": "UK",
+ "vertical": "Insurance",
+ "deployments": 2,
+ "confirmed": 2,
+ "with_value_number": 2,
+ "proof_rate": 1.0,
+ "mktcap": null,
+ "revenue": null,
+ "employees": null,
+ "silent": false,
+ "benchmarks": {
+  "global_vertical": {
+   "deployments": 54,
+   "confirmed": 69,
+   "proof_rate": 76,
+   "n": 55
+  },
+  "country_vertical": {
+   "deployments": 83,
+   "confirmed": 83,
+   "proof_rate": 50,
+   "n": 7
+  }
+ },
+ "first_seen": 2026,
+ "by_year": [
+  {
+   "year": 2026,
+   "n": 1
+  }
+ ],
+ "undated_pct": 50,
+ "momentum": "late_entrant,rising",
+ "maturity": "L3",
+ "maturity_evidence": [
+  "multi_horizontal",
+  "named_product:Motor",
+  "value_number"
+ ],
+ "prospect_score": 12,
+ "deployments_detail": [
+  {
+   "company": "Aviva",
+   "use": "AI fraud detection identified over £230m in fraudulent claims",
+   "existence": "confirmed",
+   "value": "£230m fraudulent claims detected (self-claimed)",
+   "tier": "I",
+   "url": "https://www.theguardian.com/business/2026/jun/08/aviva-ai-bogus-insurance-claims-rocket",
+   "raw_sector": "Life insurance",
+   "date": "2026",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Aviva",
+   "use": "Motor-claims transformation with 80+ AI models (with McKinsey); AI-powered virtual agent for phone claims journeys",
+   "existence": "confirmed",
+   "value": "80+ AI models (self-claimed)",
+   "tier": "I",
+   "url": "https://www.mckinsey.com/capabilities/tech-and-ai/how-we-help-clients/rewired-in-action/aviva-rewiring-the-insurance-claims-journey-with-ai",
+   "raw_sector": "Life insurance",
+   "date": "missing",
+   "fresh": "undated"
+  }
+ ]
+}

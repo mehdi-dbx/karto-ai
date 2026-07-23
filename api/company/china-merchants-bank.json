@@ -1,0 +1,79 @@
+{
+ "slug": "china-merchants-bank",
+ "name": "China Merchants Bank",
+ "cc": "CN",
+ "vertical": "Financial Services",
+ "deployments": 2,
+ "confirmed": 2,
+ "with_value_number": 2,
+ "proof_rate": 1.0,
+ "mktcap": null,
+ "revenue": null,
+ "employees": null,
+ "silent": false,
+ "benchmarks": {
+  "global_vertical": {
+   "deployments": 69,
+   "confirmed": 80,
+   "proof_rate": 72,
+   "n": 360
+  },
+  "country_vertical": {
+   "deployments": 90,
+   "confirmed": 90,
+   "proof_rate": 38,
+   "n": 22
+  }
+ },
+ "first_seen": 2024,
+ "by_year": [
+  {
+   "year": 2024,
+   "n": 1
+  }
+ ],
+ "undated_pct": 50,
+ "momentum": "early_mover,gone_quiet",
+ "maturity": "L3",
+ "maturity_evidence": [
+  "multi_horizontal",
+  "named_product:AI First",
+  "value_number"
+ ],
+ "prospect_score": 12,
+ "deployments_detail": [
+  {
+   "company": "China Merchants Bank",
+   "use": "\"AI First\" strategy; AIAgent for long-tail retail wealth service; AI reimbursement processing (1.138M paperless reports/yr); self-built 10B-param financial LLM (open-sourced)",
+   "existence": "confirmed",
+   "value": "reimbursement efficiency +63% (self-claimed)",
+   "tier": "I",
+   "url": "https://www.cmbchina.com (2024 annual report)",
+   "raw_sector": "Financials",
+   "date": "2024",
+   "fresh": "aging"
+  },
+  {
+   "company": "China Merchants Bank",
+   "use": "Cross-listed (also in CSI300) — \"AI First\", AIAgent retail, 10B-param financial LLM",
+   "existence": "confirmed",
+   "value": "(see row 4)",
+   "tier": "I",
+   "url": "https://www.cmbchina.com",
+   "raw_sector": "Finance (HSI)",
+   "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "China Merchants Bank",
+   "use": "AI Agent for retail banking providing personalized service to large volumes of long-tail retail customers under the bank's \"AI First\" strategy",
+   "existence": "confirmed",
+   "value": "large-model app iteration cycle cut to 8 days",
+   "tier": "P",
+   "url": "https://www.sohu.com/a/1005263263_121924584",
+   "raw_sector": "Banks",
+   "date": "2025",
+   "fresh": "fresh"
+  }
+ ]
+}

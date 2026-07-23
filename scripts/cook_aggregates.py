@@ -385,6 +385,60 @@ if os.path.exists(fnd_path):
                          "finding":f[2] if len(f)>2 else "","url":f[3] if len(f)>3 else "",
                          "why":f[4] if len(f)>4 else ""})
 
+# ---------- B5 opportunity scores (documented, no ML) ----------
+# prospect_score per company: confirmed activity + absence of value numbers (unmeasured) + size proxy (deployments as weak proxy since no mktcap)
+# 0-100. formula published in meta.
+for c in COMPANIES:
+    if c["silent"]:
+        c["prospect_score"]=0; continue
+    conf=c["confirmed"]; unmeasured = 1 - (c["proof_rate"] or 0)
+    # more confirmed activity AND less proof = higher prospect (running AI without measuring it)
+    raw = min(conf,10)/10*60 + unmeasured*40
+    c["prospect_score"]=round(raw)
+# whitespace_score per grid cell (global): peer-country activity in same v×h vs own emptiness
+# here approximated at vertical×horizontal: how many COUNTRIES are active in this cell / total
+cell_countries=defaultdict(set)
+for r in rows: cell_countries[(r[2],norm_h(r[4]))].add(r[1])
+maxc=max((len(v) for v in cell_countries.values()), default=1)
+WHITESPACE=[]
+for v in VERTS:
+    for h in HORZS:
+        active=len(cell_countries.get((v,h),set()))
+        # whitespace = high peer-country activity in this function-industry (a proven pattern) — sort desc
+        WHITESPACE.append({"v":v,"h":h,"active_countries":active,"score":round(100*active/maxc)})
+WHITESPACE=[w for w in WHITESPACE if w["active_countries"]>0]
+WHITESPACE.sort(key=lambda x:-x["score"])
+
+# ---------- B7 insight cards (push layer; every card has an action) ----------
+INSIGHTS=[]
+# Silent giant: L0 companies whose vertical×country peers are active (peer_median >= 2)
+for s in SILENT:
+    pm=s.get("peer_median")
+    if pm and pm>=2:
+        INSIGHTS.append({"type":"silent_giant","entities":[s["slug"]],
+          "finding":f"{s['name']} ({s['cc']}) discloses no AI, while its {s.get('sector','')} peers run a median of {int(pm)} deployments.",
+          "meaning":"A documented gap next to active rivals.",
+          "action":"Cold-outreach with the peer-gap as ammo: 'your closest rivals disclose N deployments — here are the sources.'",
+          "persona":["consultant","vendor"],"surprise_score":round(pm*10)})
+# Contradiction: company high deployments, zero value numbers (pure talk-quadrant)
+for c in COMPANIES:
+    if c["silent"]: continue
+    if c["deployments"]>=4 and c["with_value_number"]==0:
+        INSIGHTS.append({"type":"contradiction","entities":[c["slug"]],
+          "finding":f"{c['name']} discloses {c['deployments']} AI deployments but not a single value number.",
+          "meaning":"High activity, zero substantiation.",
+          "action":"Pre-written earnings-call question: 'You've announced N AI initiatives — what measurable return has any delivered?'",
+          "persona":["investor","consultant"],"surprise_score":c["deployments"]*4})
+# Whitespace: a function widely active across countries — greenfield pitch
+for w in WHITESPACE[:8]:
+    INSIGHTS.append({"type":"whitespace","entities":[],
+      "finding":f"{w['v']} × {w['h']} is active in {w['active_countries']} countries — a proven pattern.",
+      "meaning":"Where the pattern is proven, laggards are prospects.",
+      "action":f"Greenfield pitch list: {w['v']} firms NOT yet in {w['h']}, with the {w['active_countries']} proven markets as reference cases.",
+      "persona":["vendor","consultant"],"surprise_score":w["score"]})
+INSIGHTS.sort(key=lambda x:-x["surprise_score"])
+INSIGHTS=INSIGHTS[:60]   # cap the feed
+
 # ---------- A5 freshness aggregate + D6 hype detector ----------
 FRESH=Counter(stale_bucket(r[10]) for r in rows)
 GLOBAL_FRESH={k:FRESH.get(k,0) for k in ("fresh","aging","stale","undated")}
@@ -429,12 +483,17 @@ META["benchmarks"]={"method":"percentile rank within peer group (share of peers 
 META["silent"]="companies in data/universe.csv (searched) with zero register rows (L0 silent)."
 META["freshness"]={"anchor_year":NOW_YEAR,"buckets":{"fresh":"<=1yr","aging":"2yr","stale":">2yr","undated":"no date"}}
 META["hype"]="hype_by_vertical: announced (rows) vs substantiated (rows w/ value number) + investment claims (from claims.csv, regex-extracted, no LLM)."
+META["maturity"]={"levels":{"L0":"silent (in universe, no rows)","L1":"talk (rows, none confirmed)","L2":"pilot (confirmed, single footprint)","L3":"operating (confirmed + multi-horizontal OR named product OR value number)","L4":"industrialized (L3 + multi-year + value/tier-P)"}}
+META["scores"]={"prospect_score":"min(confirmed,10)/10*60 + (1-proof_rate)*40 — confirmed activity without measurement. 0-100.",
+                "whitespace_score":"100 * active_countries / max_active_countries for that vertical×function. 0-100."}
+META["insights"]="cook-time rule engine; every card carries an action. types: silent_giant, contradiction, whitespace."
 json.dump({"meta":META,"global":GLOBAL,"countries":COUNTRIES,"verticals":VERTS,"horizontals":HORZS,
            "grid_global":GRID_GLOBAL,"grid_by_country":GRID_BY_CC,"cells":CELLS,
            "vert_totals_global":VERT_TOTALS_GLOBAL,"vert_totals_by_country":VERT_TOTALS_BY_CC,
            "companies":COMPANIES,"silent":SILENT,"hype_by_vertical":HYPE_VERT,
            "timeline_global":TIMELINE_GLOBAL,"momentum_vertical":MOMENTUM_VERT,"momentum_country":MOMENTUM_CC,
-           "findings":FINDINGS,"maturity_dist":dict(MATURITY_DIST)},
+           "findings":FINDINGS,"maturity_dist":dict(MATURITY_DIST),
+           "insights":INSIGHTS,"whitespace":WHITESPACE},
           open(OUT,"w"), ensure_ascii=False, indent=1)
 
 print(f"cooked -> {OUT}")

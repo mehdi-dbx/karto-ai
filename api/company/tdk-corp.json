@@ -1,0 +1,63 @@
+{
+ "slug": "tdk-corp",
+ "name": "TDK Corp.",
+ "cc": "JP",
+ "vertical": "Electric Machinery & Electronics",
+ "deployments": 2,
+ "confirmed": 2,
+ "with_value_number": 1,
+ "proof_rate": 0.5,
+ "mktcap": null,
+ "revenue": null,
+ "employees": null,
+ "silent": false,
+ "benchmarks": {
+  "global_vertical": {
+   "deployments": 56,
+   "confirmed": 56,
+   "proof_rate": 53,
+   "n": 35
+  },
+  "country_vertical": {
+   "deployments": 52,
+   "confirmed": 52,
+   "proof_rate": 48,
+   "n": 32
+  }
+ },
+ "first_seen": null,
+ "by_year": [],
+ "undated_pct": 100,
+ "momentum": "none",
+ "maturity": "L3",
+ "maturity_evidence": [
+  "named_product:Solution",
+  "value_number",
+  "tier_p"
+ ],
+ "prospect_score": 32,
+ "deployments_detail": [
+  {
+   "company": "TDK Corp.",
+   "use": "\"edgeRX Solution\" AI preventive maintenance already deployed in TDK group factories; \"i3 Micro Module\" AI vibration sensor",
+   "existence": "confirmed",
+   "value": "none quantified",
+   "tier": "P",
+   "url": "https://monoist.itmedia.co.jp/mn/articles/2510/17/news055.html",
+   "raw_sector": "Electric Machinery",
+   "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "TDK Corp.",
+   "use": "\"SensorGPT\" generative AI for synthetic sensor data",
+   "existence": "confirmed",
+   "value": "real-data dependency 80%→10%; model dev 5+ months → weeks",
+   "tier": "P",
+   "url": "https://innovatopia.jp/ai/ai-news/100935/",
+   "raw_sector": "Electric Machinery",
+   "date": "missing",
+   "fresh": "undated"
+  }
+ ]
+}

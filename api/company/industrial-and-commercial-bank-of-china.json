@@ -1,0 +1,95 @@
+{
+ "slug": "industrial-and-commercial-bank-of-china",
+ "name": "Industrial and Commercial Bank of China",
+ "cc": "CN",
+ "vertical": "Financial Services",
+ "deployments": 2,
+ "confirmed": 2,
+ "with_value_number": 2,
+ "proof_rate": 1.0,
+ "mktcap": null,
+ "revenue": null,
+ "employees": null,
+ "silent": false,
+ "benchmarks": {
+  "global_vertical": {
+   "deployments": 69,
+   "confirmed": 80,
+   "proof_rate": 72,
+   "n": 360
+  },
+  "country_vertical": {
+   "deployments": 90,
+   "confirmed": 90,
+   "proof_rate": 38,
+   "n": 22
+  }
+ },
+ "first_seen": 2024,
+ "by_year": [
+  {
+   "year": 2024,
+   "n": 1
+  },
+  {
+   "year": 2025,
+   "n": 1
+  }
+ ],
+ "undated_pct": 0,
+ "momentum": "early_mover,flat",
+ "maturity": "L4",
+ "maturity_evidence": [
+  "multi_horizontal",
+  "named_product:Self",
+  "value_number",
+  "multi_year"
+ ],
+ "prospect_score": 12,
+ "deployments_detail": [
+  {
+   "company": "Industrial and Commercial Bank of China",
+   "use": "Self-controlled billion-parameter LLM deployed across 30+ domains / 500+ scenarios; AI digital workers ≈55,000 person-years of work; \"数智工行(AI-ICBC)\"; published AI large-model whitepaper (Oct 2024)",
+   "existence": "confirmed",
+   "value": "AI digital workers ≈55,000 person-years (self-claimed)",
+   "tier": "I",
+   "url": "https://v.icbc.com.cn/userfiles/resources/icbcltd/download/2025/8.pdf",
+   "raw_sector": "Financials",
+   "date": "2024-10",
+   "fresh": "aging"
+  },
+  {
+   "company": "Industrial and Commercial Bank of China",
+   "use": "Cross-listed (also in CSI300) — self-controlled LLM 500+ scenarios, AI digital workers ≈55,000 person-years",
+   "existence": "confirmed",
+   "value": "(see row 12)",
+   "tier": "I",
+   "url": "https://v.icbc.com.cn/userfiles/resources/icbcltd/download/2025/8.pdf",
+   "raw_sector": "Finance (HSI)",
+   "date": "2025",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Industrial and Commercial Bank of China",
+   "use": "AI digital-employee workforce (AI数字员工) automating internal workload",
+   "existence": "confirmed",
+   "value": "55,000 person-years of work",
+   "tier": "P",
+   "url": "https://news.qq.com/rain/a/20250515A0557000",
+   "raw_sector": "Banks",
+   "date": "2025",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Industrial and Commercial Bank of China",
+   "use": "Gongyin Zhiyong (工银智涌) proprietary billion-parameter financial LLM deployed across 500+ AI application scenarios in 30+ business domains",
+   "existence": "confirmed",
+   "value": "AI digital workers handle 55,000 person-years of work",
+   "tier": "P",
+   "url": "https://www.toutiao.com/article/7626270032016540212/",
+   "raw_sector": "Banks",
+   "date": "2025",
+   "fresh": "fresh"
+  }
+ ]
+}

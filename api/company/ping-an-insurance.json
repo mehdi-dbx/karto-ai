@@ -1,0 +1,96 @@
+{
+ "slug": "ping-an-insurance",
+ "name": "Ping An Insurance",
+ "cc": "CN",
+ "vertical": "Financial Services",
+ "deployments": 2,
+ "confirmed": 2,
+ "with_value_number": 1,
+ "proof_rate": 0.5,
+ "mktcap": null,
+ "revenue": null,
+ "employees": null,
+ "silent": false,
+ "benchmarks": {
+  "global_vertical": {
+   "deployments": 69,
+   "confirmed": 80,
+   "proof_rate": 60,
+   "n": 360
+  },
+  "country_vertical": {
+   "deployments": 90,
+   "confirmed": 90,
+   "proof_rate": 33,
+   "n": 22
+  }
+ },
+ "first_seen": null,
+ "by_year": [],
+ "undated_pct": 100,
+ "momentum": "none",
+ "maturity": "L3",
+ "maturity_evidence": [
+  "multi_horizontal",
+  "named_product:AI in All",
+  "value_number"
+ ],
+ "prospect_score": 32,
+ "deployments_detail": [
+  {
+   "company": "Ping An Insurance",
+   "use": "\"AI in All\" strategy; self-developed vertical LLMs for underwriting, pricing, claims, operations, healthcare; AI service reps",
+   "existence": "confirmed",
+   "value": "NONE (annual report qualitative)",
+   "tier": "I",
+   "url": "https://view.inews.qq.com/a/20260326A0803K00",
+   "raw_sector": "Financials",
+   "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "Ping An Insurance",
+   "use": "Cross-listed (also in CSI300) — \"AI in All\", vertical LLMs across underwriting/claims/service",
+   "existence": "confirmed",
+   "value": "(see row 2)",
+   "tier": "I",
+   "url": "https://view.inews.qq.com/a/20260326A0803K00",
+   "raw_sector": "Finance (HSI)",
+   "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "Ping An Insurance",
+   "use": "Self-developed large models across underwriting, pricing, claims and operations; auto-insurance cost reduced by 1 percentage point via AI across underwriting/claims/marketing",
+   "existence": "confirmed",
+   "value": "1 percentage point auto-insurance cost reduction",
+   "tier": "P",
+   "url": "https://finance.sina.com.cn/jryx/insurance/2025-08-27/doc-infnkyfe0725544.shtml",
+   "raw_sector": "Insurance",
+   "date": "2025-08",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Ping An Insurance",
+   "use": "23,000 intelligent agents deployed group-wide, used by over 20% of employees for daily tasks",
+   "existence": "confirmed",
+   "value": "23,000 agents; used by 20%+ of employees",
+   "tier": "P",
+   "url": "https://www.163.com/dy/article/K7VM5OA00519DFFO.html",
+   "raw_sector": "Insurance",
+   "date": "2025",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Ping An Insurance",
+   "use": "PingAnGPT-Qwen3-32B financial LLM for compliance, risk control, fact reasoning and knowledge Q&A",
+   "existence": "confirmed",
+   "value": "top rank in CNFinBench benchmark",
+   "tier": "P",
+   "url": "https://baike.baidu.com/item/PingAnGPT-Qwen3-32B/67524265",
+   "raw_sector": "Insurance",
+   "date": "2025",
+   "fresh": "fresh"
+  }
+ ]
+}

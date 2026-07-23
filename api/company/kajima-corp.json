@@ -1,0 +1,68 @@
+{
+ "slug": "kajima-corp",
+ "name": "Kajima Corp.",
+ "cc": "JP",
+ "vertical": "Real Estate & Construction",
+ "deployments": 2,
+ "confirmed": 1,
+ "with_value_number": 2,
+ "proof_rate": 1.0,
+ "mktcap": null,
+ "revenue": null,
+ "employees": null,
+ "silent": false,
+ "benchmarks": {
+  "global_vertical": {
+   "deployments": 85,
+   "confirmed": 32,
+   "proof_rate": 68,
+   "n": 134
+  },
+  "country_vertical": {
+   "deployments": 50,
+   "confirmed": 0,
+   "proof_rate": 64,
+   "n": 15
+  }
+ },
+ "first_seen": 2023,
+ "by_year": [
+  {
+   "year": 2023,
+   "n": 1
+  }
+ ],
+ "undated_pct": 50,
+ "momentum": "early_mover,gone_quiet",
+ "maturity": "L3",
+ "maturity_evidence": [
+  "named_product:Kajima ChatAI",
+  "value_number",
+  "tier_p"
+ ],
+ "prospect_score": 6,
+ "deployments_detail": [
+  {
+   "company": "Kajima Corp.",
+   "use": "\"Kajima ChatAI\" dialog AI (Azure OpenAI) deployed to ~20,000 employees (Aug 2023)",
+   "existence": "confirmed",
+   "value": "~20,000 employees",
+   "tier": "P",
+   "url": "https://www.microsoft.com/ja-jp/customers/story/25087-kajima-corporation-azure",
+   "raw_sector": "Construction",
+   "date": "2023-08",
+   "fresh": "stale"
+  },
+  {
+   "company": "Kajima Corp.",
+   "use": "AI + drone resource/materials management system",
+   "existence": "claimed",
+   "value": "75% reduction in work hours",
+   "tier": "P",
+   "url": "https://craftai.jp/kashimakensetsu-aiinside/",
+   "raw_sector": "Construction",
+   "date": "missing",
+   "fresh": "undated"
+  }
+ ]
+}

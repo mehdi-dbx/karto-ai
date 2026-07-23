@@ -1,0 +1,63 @@
+{
+ "slug": "mitsubishi-chemical-holdings-corp",
+ "name": "Mitsubishi Chemical Holdings Corp.",
+ "cc": "JP",
+ "vertical": "Chemicals & Materials",
+ "deployments": 2,
+ "confirmed": 2,
+ "with_value_number": 1,
+ "proof_rate": 0.5,
+ "mktcap": null,
+ "revenue": null,
+ "employees": null,
+ "silent": false,
+ "benchmarks": {
+  "global_vertical": {
+   "deployments": 81,
+   "confirmed": 81,
+   "proof_rate": 66,
+   "n": 105
+  },
+  "country_vertical": {
+   "deployments": 53,
+   "confirmed": 53,
+   "proof_rate": 41,
+   "n": 35
+  }
+ },
+ "first_seen": null,
+ "by_year": [],
+ "undated_pct": 100,
+ "momentum": "none",
+ "maturity": "L3",
+ "maturity_evidence": [
+  "named_product:Tokai",
+  "value_number",
+  "tier_p"
+ ],
+ "prospect_score": 32,
+ "deployments_detail": [
+  {
+   "company": "Mitsubishi Chemical Holdings Corp.",
+   "use": "AI agent (trained on technician decisions) diagnoses plant equipment failures, tested at Tokai facility (with Hitachi)",
+   "existence": "confirmed",
+   "value": "none quantified",
+   "tier": "P",
+   "url": "https://dcross.impress.co.jp/docs/usecase/004480.html",
+   "raw_sector": "Chemicals",
+   "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "Mitsubishi Chemical Holdings Corp.",
+   "use": "\"Alli\" AI chatbot automates internal helpdesk (Mitsubishi Chemical Systems)",
+   "existence": "confirmed",
+   "value": "~5,000 helpdesk requests/month automated",
+   "tier": "I",
+   "url": "https://blog-ja.allganize.ai/casestudy2212/",
+   "raw_sector": "Chemicals",
+   "date": "missing",
+   "fresh": "undated"
+  }
+ ]
+}

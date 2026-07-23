@@ -1,0 +1,75 @@
+{
+ "slug": "akbank",
+ "name": "Akbank",
+ "cc": "TR",
+ "vertical": "Financial Services",
+ "deployments": 3,
+ "confirmed": 3,
+ "with_value_number": 1,
+ "proof_rate": 0.333,
+ "mktcap": null,
+ "revenue": null,
+ "employees": null,
+ "silent": false,
+ "benchmarks": {
+  "global_vertical": {
+   "deployments": 93,
+   "confirmed": 97,
+   "proof_rate": 58,
+   "n": 360
+  },
+  "country_vertical": {
+   "deployments": 100,
+   "confirmed": 100,
+   "proof_rate": 50,
+   "n": 5
+  }
+ },
+ "first_seen": null,
+ "by_year": [],
+ "undated_pct": 100,
+ "momentum": "none",
+ "maturity": "L3",
+ "maturity_evidence": [
+  "multi_horizontal",
+  "named_product:Akbank",
+  "value_number",
+  "tier_p"
+ ],
+ "prospect_score": 45,
+ "deployments_detail": [
+  {
+   "company": "Akbank",
+   "use": "Akbank Asistan AI-powered virtual assistant for customers to ask about daily banking operations and get instant responses",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "P",
+   "url": "https://www.akbank.com/dijital-bankacilik/akilli-cozumler/bankacilik-islemlerinde-yapay-zeka-destegi",
+   "raw_sector": "Banks",
+   "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "Akbank",
+   "use": "Internal AI chatbot (Azure OpenAI) for customer-service reps searching 10,000 knowledge articles, generating correct answers 90% of the time",
+   "existence": "confirmed",
+   "value": "90% correct-answer rate",
+   "tier": "P",
+   "url": "https://www.microsoft.com/en/customers/story/akbank-azure-open-ai-service-banking-en-turkiye",
+   "raw_sector": "Banks",
+   "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "Akbank",
+   "use": "AI Hub: centralized governance center for developing, scaling and managing AI solutions bank-wide with responsible-AI framework",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "P",
+   "url": "https://www.akbankinvestorrelations.com/en/images/pdf/akbank-yapay-zeka-manifestosu.pdf",
+   "raw_sector": "Banks",
+   "date": "missing",
+   "fresh": "undated"
+  }
+ ]
+}

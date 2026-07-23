@@ -1,0 +1,64 @@
+{
+ "slug": "sumitomo-mitsui-financial-group-inc",
+ "name": "Sumitomo Mitsui Financial Group, Inc.",
+ "cc": "JP",
+ "vertical": "Financial Services",
+ "deployments": 2,
+ "confirmed": 2,
+ "with_value_number": 1,
+ "proof_rate": 0.5,
+ "mktcap": null,
+ "revenue": null,
+ "employees": null,
+ "silent": false,
+ "benchmarks": {
+  "global_vertical": {
+   "deployments": 69,
+   "confirmed": 80,
+   "proof_rate": 60,
+   "n": 360
+  },
+  "country_vertical": {
+   "deployments": 29,
+   "confirmed": 36,
+   "proof_rate": 29,
+   "n": 15
+  }
+ },
+ "first_seen": null,
+ "by_year": [],
+ "undated_pct": 100,
+ "momentum": "none",
+ "maturity": "L3",
+ "maturity_evidence": [
+  "multi_horizontal",
+  "named_product:SMBC-GAI",
+  "value_number",
+  "tier_p"
+ ],
+ "prospect_score": 32,
+ "deployments_detail": [
+  {
+   "company": "Sumitomo Mitsui Financial Group, Inc.",
+   "use": "\"SMBC-GAI\" employee AI assistant; multi-LLM strategy (incl. Gemini); ~100 concurrent GenAI projects",
+   "existence": "confirmed",
+   "value": "JPY500bn GenAI investment frame; JPY1tn 3yr DX",
+   "tier": "P",
+   "url": "https://www.smfg.co.jp/dx_link/article/0238.html",
+   "raw_sector": "Banking",
+   "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "Sumitomo Mitsui Financial Group, Inc.",
+   "use": "Multi-agent \"proposal document auto-generation\" app for wholesale business (with Sakana AI)",
+   "existence": "confirmed",
+   "value": "none quantified",
+   "tier": "P",
+   "url": "https://sakana.ai/smbc-proposal-ai/",
+   "raw_sector": "Banking",
+   "date": "missing",
+   "fresh": "undated"
+  }
+ ]
+}

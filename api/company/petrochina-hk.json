@@ -1,0 +1,80 @@
+{
+ "slug": "petrochina-hk",
+ "name": "PetroChina",
+ "cc": "HK",
+ "vertical": "Energy & Utilities",
+ "deployments": 2,
+ "confirmed": 2,
+ "with_value_number": 1,
+ "proof_rate": 0.5,
+ "mktcap": null,
+ "revenue": null,
+ "employees": null,
+ "silent": false,
+ "benchmarks": {
+  "global_vertical": {
+   "deployments": 78,
+   "confirmed": 83,
+   "proof_rate": 66,
+   "n": 176
+  },
+  "country_vertical": {
+   "deployments": 57,
+   "confirmed": 57,
+   "proof_rate": 57,
+   "n": 8
+  }
+ },
+ "first_seen": 2025,
+ "by_year": [
+  {
+   "year": 2025,
+   "n": 2
+  }
+ ],
+ "undated_pct": 0,
+ "momentum": "rising",
+ "maturity": "L3",
+ "maturity_evidence": [
+  "multi_horizontal",
+  "named_product:Kunlun",
+  "value_number",
+  "tier_p"
+ ],
+ "prospect_score": 32,
+ "deployments_detail": [
+  {
+   "company": "PetroChina",
+   "use": "\"昆仑\"(Kunlun) 300-billion-parameter energy LLM (May 2025); \"1+4+N\" architecture across exploration/refining/sales; refining process-optimization models; AI station agents 24h; 1,950P peak compute",
+   "existence": "confirmed",
+   "value": "300B params, 1,950P compute (disclosed)",
+   "tier": "I",
+   "url": "https://www.nea.gov.cn/20250530/9431f59ac81f49c1a3839d7e066c4073/c.html",
+   "raw_sector": "Energy",
+   "date": "2025-05",
+   "fresh": "fresh"
+  },
+  {
+   "company": "PetroChina",
+   "use": "Kunlun (昆仑) large model deployed across 152 application scenarios spanning exploration, refining process optimization and the full oil-and-gas value chain",
+   "existence": "confirmed",
+   "value": "152 application scenarios; 300B-parameter model",
+   "tier": "P",
+   "url": "https://www.cnpc.com.cn",
+   "raw_sector": "Energy",
+   "date": "2025",
+   "fresh": "fresh"
+  },
+  {
+   "company": "PetroChina",
+   "use": "AI agents embedded in gas-station management systems providing 24-hour online customer response",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "P",
+   "url": "https://kunlungpt.cn",
+   "raw_sector": "Energy",
+   "date": "2025",
+   "fresh": "fresh"
+  }
+ ]
+}

@@ -1,0 +1,63 @@
+{
+ "slug": "sydbank",
+ "name": "Sydbank",
+ "cc": "DK",
+ "vertical": "Financial Services",
+ "deployments": 2,
+ "confirmed": 2,
+ "with_value_number": 1,
+ "proof_rate": 0.5,
+ "mktcap": null,
+ "revenue": null,
+ "employees": null,
+ "silent": false,
+ "benchmarks": {
+  "global_vertical": {
+   "deployments": 69,
+   "confirmed": 80,
+   "proof_rate": 60,
+   "n": 360
+  }
+ },
+ "first_seen": 2024,
+ "by_year": [
+  {
+   "year": 2024,
+   "n": 1
+  }
+ ],
+ "undated_pct": 50,
+ "momentum": "early_mover,gone_quiet",
+ "maturity": "L3",
+ "maturity_evidence": [
+  "multi_horizontal",
+  "named_product:Customer",
+  "value_number",
+  "tier_p"
+ ],
+ "prospect_score": 32,
+ "deployments_detail": [
+  {
+   "company": "Sydbank",
+   "use": "Customer-facing AI assistant providing 24/7 answers on products, services and general inquiries",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "P",
+   "url": "https://www.sydbank.dk/kundeservice/guide-til-ai-assistenten",
+   "raw_sector": "Banks",
+   "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "Sydbank",
+   "use": "Internal GPT-based AI colleague answering ~1,000 employee questions per day",
+   "existence": "confirmed",
+   "value": "~1,000 questions/day",
+   "tier": "I",
+   "url": "https://finansforbundet.dk/dk/nyheder/2024/sydbanks-nye-ai-kollega-svarer-paa-ca-1000-spoergsmaal-om-dagen/",
+   "raw_sector": "Banks",
+   "date": "2024",
+   "fresh": "aging"
+  }
+ ]
+}

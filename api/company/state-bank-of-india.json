@@ -1,0 +1,62 @@
+{
+ "slug": "state-bank-of-india",
+ "name": "State Bank of India",
+ "cc": "IN",
+ "vertical": "Financial Services",
+ "deployments": 2,
+ "confirmed": 2,
+ "with_value_number": 1,
+ "proof_rate": 0.5,
+ "mktcap": null,
+ "revenue": null,
+ "employees": null,
+ "silent": false,
+ "benchmarks": {
+  "global_vertical": {
+   "deployments": 69,
+   "confirmed": 80,
+   "proof_rate": 60,
+   "n": 360
+  },
+  "country_vertical": {
+   "deployments": 86,
+   "confirmed": 90,
+   "proof_rate": 52,
+   "n": 22
+  }
+ },
+ "first_seen": null,
+ "by_year": [],
+ "undated_pct": 100,
+ "momentum": "none",
+ "maturity": "L3",
+ "maturity_evidence": [
+  "named_product:SIA",
+  "value_number"
+ ],
+ "prospect_score": 32,
+ "deployments_detail": [
+  {
+   "company": "State Bank of India",
+   "use": "SIA (SBI Intelligent Assistant) chatbot (built with Payjo) for automated customer service; claimed capacity ~10,000 queries/sec",
+   "existence": "confirmed",
+   "value": "~10,000 queries/sec capacity (self-claimed)",
+   "tier": "I",
+   "url": "https://www.klover.ai/sbi-sia-ai",
+   "raw_sector": "Financial Services",
+   "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "State Bank of India",
+   "use": "ML-based real-time digital-payment fraud detection incl. IDPIC (Rs 20cr with Bank of Baroda)",
+   "existence": "confirmed",
+   "value": "none audited",
+   "tier": "I",
+   "url": "https://affairscloud.com/sbi-bob-idpic-fraud",
+   "raw_sector": "Financial Services",
+   "date": "missing",
+   "fresh": "undated"
+  }
+ ]
+}

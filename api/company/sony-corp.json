@@ -1,0 +1,73 @@
+{
+ "slug": "sony-corp",
+ "name": "Sony Corp.",
+ "cc": "JP",
+ "vertical": "Electric Machinery & Electronics",
+ "deployments": 2,
+ "confirmed": 2,
+ "with_value_number": 1,
+ "proof_rate": 0.5,
+ "mktcap": null,
+ "revenue": null,
+ "employees": null,
+ "silent": false,
+ "benchmarks": {
+  "global_vertical": {
+   "deployments": 56,
+   "confirmed": 56,
+   "proof_rate": 53,
+   "n": 35
+  },
+  "country_vertical": {
+   "deployments": 52,
+   "confirmed": 52,
+   "proof_rate": 48,
+   "n": 32
+  }
+ },
+ "first_seen": 2020,
+ "by_year": [
+  {
+   "year": 2020,
+   "n": 1
+  },
+  {
+   "year": 2025,
+   "n": 1
+  }
+ ],
+ "undated_pct": 0,
+ "momentum": "early_mover,rising",
+ "maturity": "L4",
+ "maturity_evidence": [
+  "named_product:Enterprise LLM",
+  "value_number",
+  "multi_year",
+  "tier_p"
+ ],
+ "prospect_score": 32,
+ "deployments_detail": [
+  {
+   "company": "Sony Corp.",
+   "use": "Internal \"Enterprise LLM\" + AWS AI agent infrastructure group-wide (since 2023); AI Acceleration division (Jul 2025)",
+   "existence": "confirmed",
+   "value": "57,000 employees; 150,000 inference req/day; ~50,000 work-hrs/month saved",
+   "tier": "P",
+   "url": "https://it.impress.co.jp/articles/-/28704",
+   "raw_sector": "Electric Machinery",
+   "date": "2025-07",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Sony Corp.",
+   "use": "Sony AI subsidiary (est. 2020) for foundational AI+robotics R&D (entertainment, gastronomy, imaging)",
+   "existence": "confirmed",
+   "value": "none quantified",
+   "tier": "P",
+   "url": "https://ai.sony/ja/about",
+   "raw_sector": "Electric Machinery",
+   "date": "2020",
+   "fresh": "stale"
+  }
+ ]
+}

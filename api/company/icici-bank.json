@@ -1,0 +1,62 @@
+{
+ "slug": "icici-bank",
+ "name": "ICICI Bank",
+ "cc": "IN",
+ "vertical": "Financial Services",
+ "deployments": 2,
+ "confirmed": 2,
+ "with_value_number": 1,
+ "proof_rate": 0.5,
+ "mktcap": null,
+ "revenue": null,
+ "employees": null,
+ "silent": false,
+ "benchmarks": {
+  "global_vertical": {
+   "deployments": 69,
+   "confirmed": 80,
+   "proof_rate": 60,
+   "n": 360
+  },
+  "country_vertical": {
+   "deployments": 86,
+   "confirmed": 90,
+   "proof_rate": 52,
+   "n": 22
+  }
+ },
+ "first_seen": null,
+ "by_year": [],
+ "undated_pct": 100,
+ "momentum": "none",
+ "maturity": "L3",
+ "maturity_evidence": [
+  "named_product:GST",
+  "value_number"
+ ],
+ "prospect_score": 32,
+ "deployments_detail": [
+  {
+   "company": "ICICI Bank",
+   "use": "iPal AI virtual assistant / chatbot — multi-channel, voice, instant query resolution; handled ~6M queries",
+   "existence": "confirmed",
+   "value": "~6M queries handled (self-claimed)",
+   "tier": "I",
+   "url": "https://cio.economictimes.indiatimes.com/icici-ipal-chatbot",
+   "raw_sector": "Financial Services",
+   "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "ICICI Bank",
+   "use": "AI models for end-to-end digital underwriting (txn data + credit bureau + GST); AI-driven fraud detection analysing transaction patterns",
+   "existence": "confirmed",
+   "value": "none audited",
+   "tier": "I",
+   "url": "https://infotechlead.com/icici-bank-ai-underwriting",
+   "raw_sector": "Financial Services",
+   "date": "missing",
+   "fresh": "undated"
+  }
+ ]
+}

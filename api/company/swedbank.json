@@ -1,0 +1,62 @@
+{
+ "slug": "swedbank",
+ "name": "Swedbank",
+ "cc": "SE",
+ "vertical": "Financial Services",
+ "deployments": 2,
+ "confirmed": 1,
+ "with_value_number": 1,
+ "proof_rate": 0.5,
+ "mktcap": null,
+ "revenue": null,
+ "employees": null,
+ "silent": false,
+ "benchmarks": {
+  "global_vertical": {
+   "deployments": 69,
+   "confirmed": 18,
+   "proof_rate": 60,
+   "n": 360
+  },
+  "country_vertical": {
+   "deployments": 100,
+   "confirmed": 25,
+   "proof_rate": 50,
+   "n": 5
+  }
+ },
+ "first_seen": null,
+ "by_year": [],
+ "undated_pct": 100,
+ "momentum": "none",
+ "maturity": "L3",
+ "maturity_evidence": [
+  "named_product:Generative",
+  "tier_p"
+ ],
+ "prospect_score": 26,
+ "deployments_detail": [
+  {
+   "company": "Swedbank",
+   "use": "Generative adversarial networks (GANs) on NVIDIA GPUs to detect financial crime and money laundering",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "P",
+   "url": "https://developer.nvidia.com/blog/detecting-financial-fraud-using-gans-at-swedbank-with-hopsworks-and-gpus/",
+   "raw_sector": "Banks",
+   "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "Swedbank",
+   "use": "ML-powered card fraud detection via ACI Worldwide partnership",
+   "existence": "claimed",
+   "value": "55% decrease in card fraud",
+   "tier": "I",
+   "url": "https://thetechgossip.com/swedbank-partners-with-ml-powered-aci-worldwide-to-combat-fraud/",
+   "raw_sector": "Banks",
+   "date": "missing",
+   "fresh": "undated"
+  }
+ ]
+}

@@ -1,0 +1,74 @@
+{
+ "slug": "raiffeisen-bank-international",
+ "name": "Raiffeisen Bank International",
+ "cc": "AT",
+ "vertical": "Financial Services",
+ "deployments": 3,
+ "confirmed": 3,
+ "with_value_number": 1,
+ "proof_rate": 0.333,
+ "mktcap": null,
+ "revenue": null,
+ "employees": null,
+ "silent": false,
+ "benchmarks": {
+  "global_vertical": {
+   "deployments": 93,
+   "confirmed": 97,
+   "proof_rate": 58,
+   "n": 360
+  }
+ },
+ "first_seen": 2017,
+ "by_year": [
+  {
+   "year": 2017,
+   "n": 1
+  }
+ ],
+ "undated_pct": 67,
+ "momentum": "early_mover,gone_quiet",
+ "maturity": "L3",
+ "maturity_evidence": [
+  "multi_horizontal",
+  "named_product:MAIA",
+  "value_number",
+  "tier_p"
+ ],
+ "prospect_score": 45,
+ "deployments_detail": [
+  {
+   "company": "Raiffeisen Bank International",
+   "use": "MAIA / RAIA multilingual conversational AI assistant (LLM-based) providing personalized customer answers; flagship output of the RBI Group AI Lab (launched 2017)",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "P",
+   "url": "https://www.rbinternational.com/de/raiffeisen/karriere/topics/ai-at-rbi.html",
+   "raw_sector": "Banks",
+   "date": "2017",
+   "fresh": "stale"
+  },
+  {
+   "company": "Raiffeisen Bank International",
+   "use": "RBI Group AI Lab operates over 100 AI use cases across business areas and CEE markets",
+   "existence": "confirmed",
+   "value": "100+ AI use cases",
+   "tier": "P",
+   "url": "https://www.rbinternational.com/de/raiffeisen/karriere/topics/ai-at-rbi.html",
+   "raw_sector": "Banks",
+   "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "Raiffeisen Bank International",
+   "use": "Own ChatGPT/Azure OpenAI implementation deployed on Microsoft Azure for enterprise use",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "P",
+   "url": "https://www.microsoft.com/en/customers/story/21406-raiffeisen-bank-international-azure",
+   "raw_sector": "Banks",
+   "date": "missing",
+   "fresh": "undated"
+  }
+ ]
+}

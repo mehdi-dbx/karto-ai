@@ -1,0 +1,56 @@
+{
+ "slug": "jpmorgan-chase",
+ "name": "JPMorgan Chase",
+ "cc": "US",
+ "vertical": "Financial Services",
+ "deployments": 1,
+ "confirmed": 1,
+ "with_value_number": 1,
+ "proof_rate": 1.0,
+ "mktcap": null,
+ "revenue": null,
+ "employees": null,
+ "silent": false,
+ "benchmarks": {
+  "global_vertical": {
+   "deployments": 0,
+   "confirmed": 18,
+   "proof_rate": 72,
+   "n": 360
+  },
+  "country_vertical": {
+   "deployments": 0,
+   "confirmed": 21,
+   "proof_rate": 72,
+   "n": 76
+  }
+ },
+ "first_seen": 2025,
+ "by_year": [
+  {
+   "year": 2025,
+   "n": 1
+  }
+ ],
+ "undated_pct": 0,
+ "momentum": "rising",
+ "maturity": "L3",
+ "maturity_evidence": [
+  "named_product:LLM Suite",
+  "value_number"
+ ],
+ "prospect_score": 6,
+ "deployments_detail": [
+  {
+   "company": "JPMorgan Chase",
+   "use": "\"LLM Suite\" GenAI to ~200K-250K employees + coding assistant (10-20% engineer productivity gain, 60K+ devs); ~$1.5B AI-attributed value; 450+ use cases",
+   "existence": "confirmed",
+   "value": "10-20% eng productivity; ~$1.5B value",
+   "tier": "S",
+   "url": "https://www.reuters.com/technology/artificial-intelligence/jpmorgan-engineers-efficiency-jumps-much-20-using-coding-assistant-2025-03-13/",
+   "raw_sector": "Financials",
+   "date": "2025",
+   "fresh": "fresh"
+  }
+ ]
+}

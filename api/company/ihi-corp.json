@@ -1,0 +1,68 @@
+{
+ "slug": "ihi-corp",
+ "name": "IHI Corp.",
+ "cc": "JP",
+ "vertical": "Industrial / Machinery",
+ "deployments": 2,
+ "confirmed": 2,
+ "with_value_number": 1,
+ "proof_rate": 0.5,
+ "mktcap": null,
+ "revenue": null,
+ "employees": null,
+ "silent": false,
+ "benchmarks": {
+  "global_vertical": {
+   "deployments": 89,
+   "confirmed": 90,
+   "proof_rate": 75,
+   "n": 171
+  },
+  "country_vertical": {
+   "deployments": 77,
+   "confirmed": 77,
+   "proof_rate": 59,
+   "n": 23
+  }
+ },
+ "first_seen": 2023,
+ "by_year": [
+  {
+   "year": 2023,
+   "n": 1
+  }
+ ],
+ "undated_pct": 50,
+ "momentum": "early_mover,gone_quiet",
+ "maturity": "L3",
+ "maturity_evidence": [
+  "named_product:Chat-IHI",
+  "value_number",
+  "tier_p"
+ ],
+ "prospect_score": 32,
+ "deployments_detail": [
+  {
+   "company": "IHI Corp.",
+   "use": "\"Chat-IHI\" internal ChatGPT (Azure OpenAI, from Jun 2023); RAG/SLM development",
+   "existence": "confirmed",
+   "value": "~60 use cases from internal contest",
+   "tier": "P",
+   "url": "https://www.ihi.co.jp/technology/techinfo/contents_no/1201486_13491.html",
+   "raw_sector": "Machinery",
+   "date": "2023-06",
+   "fresh": "stale"
+  },
+  {
+   "company": "IHI Corp.",
+   "use": "Deep-learning image recognition for aircraft engine damage assessment during disassembly",
+   "existence": "confirmed",
+   "value": "none quantified",
+   "tier": "P",
+   "url": "https://cir.nii.ac.jp/crid/1390003825189635968",
+   "raw_sector": "Machinery",
+   "date": "missing",
+   "fresh": "undated"
+  }
+ ]
+}

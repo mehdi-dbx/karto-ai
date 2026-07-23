@@ -1,0 +1,69 @@
+{
+ "slug": "asahi-group-holdings-ltd",
+ "name": "Asahi Group Holdings, Ltd.",
+ "cc": "JP",
+ "vertical": "Retail & E-commerce",
+ "deployments": 2,
+ "confirmed": 2,
+ "with_value_number": 1,
+ "proof_rate": 0.5,
+ "mktcap": null,
+ "revenue": null,
+ "employees": null,
+ "silent": false,
+ "benchmarks": {
+  "global_vertical": {
+   "deployments": 78,
+   "confirmed": 88,
+   "proof_rate": 66,
+   "n": 270
+  },
+  "country_vertical": {
+   "deployments": 67,
+   "confirmed": 79,
+   "proof_rate": 29,
+   "n": 25
+  }
+ },
+ "first_seen": 2023,
+ "by_year": [
+  {
+   "year": 2023,
+   "n": 1
+  }
+ ],
+ "undated_pct": 50,
+ "momentum": "early_mover,gone_quiet",
+ "maturity": "L3",
+ "maturity_evidence": [
+  "multi_horizontal",
+  "named_product:Asahi Chat",
+  "value_number",
+  "tier_p"
+ ],
+ "prospect_score": 32,
+ "deployments_detail": [
+  {
+   "company": "Asahi Group Holdings, Ltd.",
+   "use": "\"Asahi Chat\" (GPT-4) internal AI + generative-AI internal info search (Azure OpenAI, from Sep 2023)",
+   "existence": "confirmed",
+   "value": "none quantified",
+   "tier": "P",
+   "url": "https://www.asahigroup-holdings.com/newsroom/detail/20230904-0101.html",
+   "raw_sector": "Foods",
+   "date": "2023-09",
+   "fresh": "stale"
+  },
+  {
+   "company": "Asahi Group Holdings, Ltd.",
+   "use": "AI demand forecasting (reduce order errors/waste) + consumer insight analysis",
+   "existence": "confirmed",
+   "value": "extracted 8 consumer insights from 297 samples",
+   "tier": "P",
+   "url": "https://corporate.minedia.com/news/asahibeer-20260416",
+   "raw_sector": "Foods",
+   "date": "missing",
+   "fresh": "undated"
+  }
+ ]
+}

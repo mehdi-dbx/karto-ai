@@ -1,0 +1,78 @@
+{
+ "slug": "lvmh",
+ "name": "LVMH",
+ "cc": "FR",
+ "vertical": "Retail & E-commerce",
+ "deployments": 3,
+ "confirmed": 3,
+ "with_value_number": 1,
+ "proof_rate": 0.333,
+ "mktcap": null,
+ "revenue": null,
+ "employees": null,
+ "silent": false,
+ "benchmarks": {
+  "global_vertical": {
+   "deployments": 97,
+   "confirmed": 99,
+   "proof_rate": 64,
+   "n": 270
+  },
+  "country_vertical": {
+   "deployments": 57,
+   "confirmed": 71,
+   "proof_rate": 71,
+   "n": 8
+  }
+ },
+ "first_seen": 2023,
+ "by_year": [
+  {
+   "year": 2023,
+   "n": 1
+  }
+ ],
+ "undated_pct": 67,
+ "momentum": "early_mover,gone_quiet",
+ "maturity": "L3",
+ "maturity_evidence": [
+  "named_product:MaIA",
+  "value_number"
+ ],
+ "prospect_score": 45,
+ "deployments_detail": [
+  {
+   "company": "LVMH",
+   "use": "\"MaIA\" internal generative-AI assistant (built on Google Gemini/Imagen + OpenAI GPT, Google Cloud), deployed across 75+ Maisons; ~2M monthly queries, 40,000 employees (company press event disclosure)",
+   "existence": "confirmed",
+   "value": "~2M queries/mo; 40,000 employees (self-claimed)",
+   "tier": "S",
+   "url": "https://www.cbnews.fr/digital/maia-lvmh-met-son-ia-generative-au-service-du-luxe",
+   "raw_sector": "Consumer Cyclical",
+   "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "LVMH",
+   "use": "AI-at-scale program deploying models to generate value across Maisons; Google Cloud data/AI platform for personalization & supply chain (own interviews)",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "I",
+   "url": "https://cloud.google.com/transform/lvmh-data-ai-platform-interview-franck-le-moal-luxury-gen-ai-louis-vuitton-sephora-dom-perignon",
+   "raw_sector": "Consumer Cyclical",
+   "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "LVMH",
+   "use": "Scaling AI models \"to generate value at scale\" on Google Vertex AI; accelerating AI agents to support employees (since 2023) - group data science lead Axel de Goursac",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "I",
+   "url": "https://www.lemagit.fr/etude/Comment-LVMH-deploie-lIA-a-lechelle",
+   "raw_sector": "Consumer Cyclical",
+   "date": "2023",
+   "fresh": "stale"
+  }
+ ]
+}

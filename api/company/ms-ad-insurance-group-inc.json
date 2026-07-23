@@ -1,0 +1,69 @@
+{
+ "slug": "ms-ad-insurance-group-inc",
+ "name": "MS&AD Insurance Group, Inc.",
+ "cc": "JP",
+ "vertical": "Insurance",
+ "deployments": 2,
+ "confirmed": 2,
+ "with_value_number": 1,
+ "proof_rate": 0.5,
+ "mktcap": null,
+ "revenue": null,
+ "employees": null,
+ "silent": false,
+ "benchmarks": {
+  "global_vertical": {
+   "deployments": 54,
+   "confirmed": 69,
+   "proof_rate": 56,
+   "n": 55
+  },
+  "country_vertical": {
+   "deployments": 50,
+   "confirmed": 50,
+   "proof_rate": 25,
+   "n": 5
+  }
+ },
+ "first_seen": 2023,
+ "by_year": [
+  {
+   "year": 2023,
+   "n": 1
+  }
+ ],
+ "undated_pct": 50,
+ "momentum": "early_mover,gone_quiet",
+ "maturity": "L3",
+ "maturity_evidence": [
+  "multi_horizontal",
+  "named_product:Mitsui",
+  "value_number",
+  "tier_p"
+ ],
+ "prospect_score": 32,
+ "deployments_detail": [
+  {
+   "company": "MS&AD Insurance Group, Inc.",
+   "use": "AI-OCR for policy cancellations",
+   "existence": "confirmed",
+   "value": "~40,000 labor-hours saved/year",
+   "tier": "P",
+   "url": "https://it.impress.co.jp/articles/-/21426",
+   "raw_sector": "Insurance",
+   "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "MS&AD Insurance Group, Inc.",
+   "use": "AI fire-loss estimation (Mitsui Sumitomo from 2023, Aioi Nissay Dowa 2024) + AI building-damage diagnosis via smartphone (within 1 day)",
+   "existence": "confirmed",
+   "value": "none quantified",
+   "tier": "P",
+   "url": "https://www.ms-ins.com/news/fy2024/pdf/0716_1.pdf",
+   "raw_sector": "Insurance",
+   "date": "2023",
+   "fresh": "stale"
+  }
+ ]
+}

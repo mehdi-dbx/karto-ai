@@ -1,0 +1,68 @@
+{
+ "slug": "osaka-gas-co-ltd",
+ "name": "Osaka Gas Co., Ltd.",
+ "cc": "JP",
+ "vertical": "Energy & Utilities",
+ "deployments": 2,
+ "confirmed": 2,
+ "with_value_number": 1,
+ "proof_rate": 0.5,
+ "mktcap": null,
+ "revenue": null,
+ "employees": null,
+ "silent": false,
+ "benchmarks": {
+  "global_vertical": {
+   "deployments": 78,
+   "confirmed": 83,
+   "proof_rate": 66,
+   "n": 176
+  },
+  "country_vertical": {
+   "deployments": 50,
+   "confirmed": 50,
+   "proof_rate": 17,
+   "n": 7
+  }
+ },
+ "first_seen": 2023,
+ "by_year": [
+  {
+   "year": 2023,
+   "n": 1
+  }
+ ],
+ "undated_pct": 50,
+ "momentum": "early_mover,gone_quiet",
+ "maturity": "L3",
+ "maturity_evidence": [
+  "named_product:WAAAP",
+  "value_number",
+  "tier_p"
+ ],
+ "prospect_score": 32,
+ "deployments_detail": [
+  {
+   "company": "Osaka Gas Co., Ltd.",
+   "use": "\"WAAAP\" AI-driven development platform + company-wide generative AI",
+   "existence": "confirmed",
+   "value": "70%+ of ~6,000 employees using generative AI daily",
+   "tier": "P",
+   "url": "https://www.osakagas.co.jp/company/press/pr2026/1823649_60967.html",
+   "raw_sector": "Gas",
+   "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "Osaka Gas Co., Ltd.",
+   "use": "\"Energy Brain\" remote AI energy management (ML demand forecasting) launched Aug 2023 (Google Cloud/Vertex AI)",
+   "existence": "confirmed",
+   "value": "none quantified",
+   "tier": "P",
+   "url": "https://cloud.google.com/blog/ja/products/ai-machine-learning/osaka-gas-innovates-energy-management-with-ai",
+   "raw_sector": "Gas",
+   "date": "2023-08",
+   "fresh": "stale"
+  }
+ ]
+}

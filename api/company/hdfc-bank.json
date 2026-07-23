@@ -1,0 +1,62 @@
+{
+ "slug": "hdfc-bank",
+ "name": "HDFC Bank",
+ "cc": "IN",
+ "vertical": "Financial Services",
+ "deployments": 2,
+ "confirmed": 2,
+ "with_value_number": 1,
+ "proof_rate": 0.5,
+ "mktcap": null,
+ "revenue": null,
+ "employees": null,
+ "silent": false,
+ "benchmarks": {
+  "global_vertical": {
+   "deployments": 69,
+   "confirmed": 80,
+   "proof_rate": 60,
+   "n": 360
+  },
+  "country_vertical": {
+   "deployments": 86,
+   "confirmed": 90,
+   "proof_rate": 52,
+   "n": 22
+  }
+ },
+ "first_seen": null,
+ "by_year": [],
+ "undated_pct": 100,
+ "momentum": "none",
+ "maturity": "L3",
+ "maturity_evidence": [
+  "named_product:EVA",
+  "value_number"
+ ],
+ "prospect_score": 32,
+ "deployments_detail": [
+  {
+   "company": "HDFC Bank",
+   "use": "EVA AI chatbot (instant answers on cards/accounts/loans, sub-0.4s response)",
+   "existence": "confirmed",
+   "value": "sub-0.4s response (self-claimed)",
+   "tier": "I",
+   "url": "https://www.hdfcbank.com/eva-chatbot",
+   "raw_sector": "Financial Services",
+   "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "HDFC Bank",
+   "use": "In-house \"Neev\" generative AI platform + real-time fraud monitoring system built by internal engineering team",
+   "existence": "confirmed",
+   "value": "none quantified",
+   "tier": "I",
+   "url": "https://economictimes.indiatimes.com/hdfc-bank-neev-ai-platform",
+   "raw_sector": "Financial Services",
+   "date": "missing",
+   "fresh": "undated"
+  }
+ ]
+}

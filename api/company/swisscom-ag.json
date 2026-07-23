@@ -1,0 +1,74 @@
+{
+ "slug": "swisscom-ag",
+ "name": "Swisscom AG",
+ "cc": "CH",
+ "vertical": "Telecom",
+ "deployments": 3,
+ "confirmed": 3,
+ "with_value_number": 1,
+ "proof_rate": 0.333,
+ "mktcap": null,
+ "revenue": null,
+ "employees": null,
+ "silent": false,
+ "benchmarks": {
+  "global_vertical": {
+   "deployments": 97,
+   "confirmed": 97,
+   "proof_rate": 53,
+   "n": 89
+  }
+ },
+ "first_seen": 2024,
+ "by_year": [
+  {
+   "year": 2024,
+   "n": 1
+  }
+ ],
+ "undated_pct": 67,
+ "momentum": "early_mover,gone_quiet",
+ "maturity": "L3",
+ "maturity_evidence": [
+  "multi_horizontal",
+  "named_product:Amazon",
+  "value_number",
+  "tier_p"
+ ],
+ "prospect_score": 45,
+ "deployments_detail": [
+  {
+   "company": "Swisscom AG",
+   "use": "AI network operations assistant built on Amazon Bedrock (multi-agent, serverless) — Swisscom disclosure via AWS",
+   "existence": "confirmed",
+   "value": "none quantified",
+   "tier": "P",
+   "url": "https://aws.amazon.com/blogs/machine-learning/transforming-network-operations-with-ai-how-swisscom-built-a-network-assistant-using-amazon-bedrock/",
+   "raw_sector": "Communication services",
+   "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "Swisscom AG",
+   "use": "Swiss AI Platform — sovereign commercial AI infra (data stays in CH), launched Nov 2024",
+   "existence": "confirmed",
+   "value": "CHF 100M investment",
+   "tier": "P",
+   "url": "https://www.swisscom.ch/en/about/news/2024/11/28-ai-platform.html",
+   "raw_sector": "Communication services",
+   "date": "2024-11",
+   "fresh": "aging"
+  },
+  {
+   "company": "Swisscom AG",
+   "use": "Enterprise agentic AI for customer support & sales (Amazon Bedrock AgentCore)",
+   "existence": "confirmed",
+   "value": "none quantified",
+   "tier": "P",
+   "url": "https://aws.amazon.com/blogs/machine-learning/transforming-network-operations-with-ai-how-swisscom-built-a-network-assistant-using-amazon-bedrock/",
+   "raw_sector": "Communication services",
+   "date": "missing",
+   "fresh": "undated"
+  }
+ ]
+}

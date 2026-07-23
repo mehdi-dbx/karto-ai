@@ -1,0 +1,80 @@
+{
+ "slug": "chiba-bank-ltd",
+ "name": "Chiba Bank, Ltd.",
+ "cc": "JP",
+ "vertical": "Financial Services",
+ "deployments": 3,
+ "confirmed": 2,
+ "with_value_number": 2,
+ "proof_rate": 0.667,
+ "mktcap": null,
+ "revenue": null,
+ "employees": null,
+ "silent": false,
+ "benchmarks": {
+  "global_vertical": {
+   "deployments": 93,
+   "confirmed": 80,
+   "proof_rate": 70,
+   "n": 360
+  },
+  "country_vertical": {
+   "deployments": 93,
+   "confirmed": 36,
+   "proof_rate": 64,
+   "n": 15
+  }
+ },
+ "first_seen": 2029,
+ "by_year": [
+  {
+   "year": 2029,
+   "n": 1
+  }
+ ],
+ "undated_pct": 67,
+ "momentum": "late_entrant,rising",
+ "maturity": "L3",
+ "maturity_evidence": [
+  "multi_horizontal",
+  "named_product:Plan",
+  "value_number",
+  "tier_p"
+ ],
+ "prospect_score": 25,
+ "deployments_detail": [
+  {
+   "company": "Chiba Bank, Ltd.",
+   "use": "Plan to replace ~2,000 jobs worth of admin/sales/HR work with AI by FY2028; made Edge Technology a wholly-owned subsidiary",
+   "existence": "confirmed",
+   "value": "target JPY3bn AI value creation by 2029; 2,000 jobs",
+   "tier": "P",
+   "url": "https://www.nikkei.com/article/DGXZQOCC106VW0Q6A310C2000000/",
+   "raw_sector": "Banking",
+   "date": "2029",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Chiba Bank, Ltd.",
+   "use": "Subsidiary Chibagin CS applied AI coding agent \"Devin\" to software development",
+   "existence": "claimed",
+   "value": "dev time cut 12.5 person-months to 2.0",
+   "tier": "P",
+   "url": "https://it.impress.co.jp/articles/-/29199",
+   "raw_sector": "Banking",
+   "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "Chiba Bank, Ltd.",
+   "use": "Snowflake platform for generative-AI data analytics",
+   "existence": "confirmed",
+   "value": "none quantified",
+   "tier": "I",
+   "url": "https://www.snowflake.com/ja/customers/all-customers/case-study/chiba-bank/",
+   "raw_sector": "Banking",
+   "date": "missing",
+   "fresh": "undated"
+  }
+ ]
+}

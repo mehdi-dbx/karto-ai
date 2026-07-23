@@ -1,0 +1,69 @@
+{
+ "slug": "tokyo-gas-co-ltd",
+ "name": "Tokyo Gas Co., Ltd.",
+ "cc": "JP",
+ "vertical": "Energy & Utilities",
+ "deployments": 2,
+ "confirmed": 2,
+ "with_value_number": 2,
+ "proof_rate": 1.0,
+ "mktcap": null,
+ "revenue": null,
+ "employees": null,
+ "silent": false,
+ "benchmarks": {
+  "global_vertical": {
+   "deployments": 78,
+   "confirmed": 83,
+   "proof_rate": 71,
+   "n": 176
+  },
+  "country_vertical": {
+   "deployments": 50,
+   "confirmed": 50,
+   "proof_rate": 50,
+   "n": 7
+  }
+ },
+ "first_seen": 2023,
+ "by_year": [
+  {
+   "year": 2023,
+   "n": 1
+  }
+ ],
+ "undated_pct": 50,
+ "momentum": "early_mover,gone_quiet",
+ "maturity": "L3",
+ "maturity_evidence": [
+  "multi_horizontal",
+  "named_product:AIGNIS",
+  "value_number",
+  "tier_p"
+ ],
+ "prospect_score": 12,
+ "deployments_detail": [
+  {
+   "company": "Tokyo Gas Co., Ltd.",
+   "use": "\"Payment reconciliation AI\" (入金消込AI) with core system renewal",
+   "existence": "confirmed",
+   "value": "5 people (EOD) reduced to 3 (by morning)",
+   "tier": "P",
+   "url": "https://www.itmedia.co.jp/business/articles/2512/12/news004.html",
+   "raw_sector": "Gas",
+   "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "Tokyo Gas Co., Ltd.",
+   "use": "Proprietary app \"AIGNIS\" generative AI (from 2023, Databricks platform)",
+   "existence": "confirmed",
+   "value": "~3,500 employees using daily",
+   "tier": "P",
+   "url": "https://ai-keiei.shift-ai.co.jp/20250716-tokyogas-2/",
+   "raw_sector": "Gas",
+   "date": "2023",
+   "fresh": "stale"
+  }
+ ]
+}
