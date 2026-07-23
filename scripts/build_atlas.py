@@ -157,6 +157,16 @@ a:hover {{ text-decoration: underline; }}
 .filtersel {{ font-family: var(--font-ui); font-size: 12.5px; color: var(--ink); background: var(--surface);
   border: 1px solid var(--hair); border-radius: 8px; padding: 6px 10px; cursor: pointer; }}
 .filtersel:hover {{ border-color: var(--muted); }}
+/* D6 hype bars: announced (pale) with substantiated (accent) overlaid */
+.hyperow {{ display:grid; grid-template-columns:190px 1fr 62px; align-items:center; gap:14px; padding:5px 0; }}
+.hypetrack {{ position:relative; height:22px; }}
+.hypebar {{ position:absolute; left:0; top:0; height:22px; border-radius:0 4px 4px 0; transition:width .5s cubic-bezier(.2,.7,.2,1); }}
+.hypebar.announced {{ background:var(--accent-soft); }}
+.hypebar.substant {{ background:var(--accent); }}
+.hypebar.substant.warn {{ background:var(--v-talk); }}
+.hypekey {{ display:flex; gap:22px; margin-top:16px; font-family:var(--font-ui); font-size:12px; color:var(--muted); }}
+.hypekey i {{ display:inline-block; width:13px; height:13px; border-radius:3px; vertical-align:-2px; margin-right:6px; }}
+.hypekey .sw-ann {{ background:var(--accent-soft); }} .hypekey .sw-sub {{ background:var(--accent); }}
 .toggle {{
   border: 1px solid var(--hair); background: var(--surface); color: var(--ink-2);
   border-radius: 999px; padding: 6px 12px; font-size: 12px; cursor: pointer;
@@ -415,6 +425,9 @@ table.grid td .cnt {{ font-family:var(--font-ui); font-size:11px; font-variant-n
 .co .use {{ color:var(--ink-2); font-size:13.5px; line-height:1.5; margin:6px 0 9px; font-family:var(--font-body); }}
 .co .meta {{ display:flex; flex-wrap:wrap; gap:8px 14px; align-items:center; font-family:var(--font-ui); font-size:11.5px; color:var(--muted); }}
 .co .chip {{ padding:2px 8px; border-radius:5px; background:var(--surface-2); border:1px solid var(--hair); font-weight:560; letter-spacing:.02em; }}
+.freshbadge {{ padding:2px 7px; border-radius:5px; font-size:10.5px; font-weight:560; letter-spacing:.02em; }}
+.fb-aging {{ color:var(--v-active); background:color-mix(in srgb,var(--v-active) 15%,var(--surface)); }}
+.fb-stale {{ color:var(--v-talk); background:color-mix(in srgb,var(--v-talk) 13%,var(--surface)); }}
 .co .chip.P {{ color:var(--v-strong); }} .co .chip.I {{ color:var(--accent); }} .co .chip.S {{ color:var(--muted); }}
 .co .val {{ color:var(--ink-2); }}
 .co a.src {{ color:var(--accent); text-decoration:none; font-weight:560; }}
@@ -434,6 +447,7 @@ table.grid td .cnt {{ font-family:var(--font-ui); font-size:11px; font-variant-n
   <div class="topnav">
     <a href="#/world" class="navlink" data-route="a1">World</a>
     <a href="#/grid" class="navlink" data-route="a2">Grid</a>
+    <a href="#/hype" class="navlink" data-route="hype">Hype</a>
     <a href="#/silent" class="navlink" data-route="silent">Silent&nbsp;list</a>
     <button class="toggle" id="themeToggle" aria-label="Toggle light/dark">
       <span id="themeIcon">◐</span><span id="themeLabel">Dark</span>
@@ -619,6 +633,23 @@ table.grid td .cnt {{ font-family:var(--font-ui); font-size:11px; font-variant-n
   </div>
 </section>
 
+<!-- ============ HYPE DETECTOR (D6 — talk vs substantiation) ============ -->
+<section class="altitude" id="hype" data-alt="Hype">
+  <div class="terr">
+    <div class="head">
+      <div>
+        <h2>Talk vs proof — <span class="scope">the hype gap by industry</span></h2>
+        <p class="lede">The study's founding thesis, automated. For each industry: how much is
+        <b>announced</b> (deployments) vs <b>substantiated</b> (rows citing a value number).
+        A short bar under a long one = an industry deploying AI blind.</p>
+      </div>
+    </div>
+    <div class="vhist" id="hypeChart" style="margin-top:24px"></div>
+    <p class="footnote">Substantiation = share of that industry's deployments that cite any value number
+    (self-reported, rarely audited). Investment figures regex-extracted from disclosure text.</p>
+  </div>
+</section>
+
 <!-- ============ SILENT COMPANIES (D4 — the prospect list) ============ -->
 <section class="altitude" id="silent" data-alt="Silent">
   <div class="terr">
@@ -706,6 +737,7 @@ const ROUTES = {{
   'a0':     {{hash:'',        label:'Orbit',  show:()=>goAltitude('a0')}},
   'a1':     {{hash:'/world',  label:'World',  show:toWorld}},
   'a2':     {{hash:'/grid',   label:'Grid',   show:()=>{{ if(!ATLAS.grid_global) return; gridScope=null; document.getElementById('scopeName')&&(document.getElementById('scopeName').textContent='the world'); const b=document.getElementById('backWorld'); if(b)b.hidden=true; renderGrid(); goAltitude('a2','World grid'); }}}},
+  'hype':   {{hash:'/hype',   label:'Hype',   show:renderHype}},
   'silent': {{hash:'/silent', label:'Silent list', show:renderSilent}},
 }};
 function goRoute(id) {{ const r=ROUTES[id]; if(!r) return; if(location.hash!=='#'+r.hash) location.hash=r.hash; else applyRoute(); }}
@@ -716,6 +748,28 @@ function applyRoute() {{
   document.querySelectorAll('.navlink').forEach(a=>a.classList.toggle('on', a.dataset.route===id));
 }}
 window.addEventListener('hashchange', applyRoute);
+
+/* ============ D6 HYPE DETECTOR VIEW ============ */
+function renderHype() {{
+  goAltitude('hype','Hype');
+  const host=document.getElementById('hypeChart'); if(!host||!ATLAS.hype_by_vertical) return;
+  const data=[...ATLAS.hype_by_vertical].filter(h=>h.announced>0).sort((a,b)=>b.announced-a.announced);
+  const max=Math.max(...data.map(h=>h.announced));
+  host.innerHTML = data.map(h=>{{
+    const aw=100*h.announced/max, sw=100*h.substantiated/max;
+    const rate=Math.round(h.substantiation_rate*100);
+    const warn = rate<15;
+    return `<div class="hyperow" title="${{esc(h.v)}} — ${{h.announced}} announced, ${{h.substantiated}} with a value number (${{rate}}%)${{h.investments?', '+h.investments+' investment claims':''}}">
+      <div class="vname">${{esc(h.v)}}</div>
+      <div class="hypetrack">
+        <div class="hypebar announced" style="width:${{aw}}%"></div>
+        <div class="hypebar substant ${{warn?'warn':''}}" style="width:${{sw}}%"></div>
+      </div>
+      <div class="vval">${{rate}}<span class="u">%</span></div>
+    </div>`;
+  }}).join('')
+    + `<div class="hypekey"><span><i class="sw-ann"></i> announced (deployments)</span><span><i class="sw-sub"></i> substantiated (cite a number)</span></div>`;
+}}
 
 /* ============ D4 SILENT COMPANIES VIEW ============ */
 let silentSort={{k:'peer_median',dir:-1}};
@@ -1181,6 +1235,7 @@ function renderPanelBody() {{
       + (tier?`<span class="chip ${{tier}}">tier ${{tier}}</span>`:'')
       + (val?`<span class="val">${{esc(val)}}</span>`:'<span class="val" style="opacity:.6">no value number</span>')
       + (e.date&&e.date!=='missing'?`<span>${{esc(e.date)}}</span>`:'')
+      + (e.fresh&&e.fresh!=='fresh'&&e.fresh!=='undated'?`<span class="freshbadge fb-${{e.fresh}}" title="verified ${{esc(e.date||'?')}} — re-check before citing">⚠ ${{e.fresh}}</span>`:'')
       + `<span style="flex:1"></span>${{srcLinks(e.url)}}</div></div>`;
   }}).join('');
   document.getElementById('pbody').innerHTML=html;

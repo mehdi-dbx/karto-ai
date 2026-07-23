@@ -252,12 +252,50 @@ SILENT=[{"slug":c["slug"],"name":c["name"],"cc":c["cc"],"sector":c.get("vertical
          "peer_median":peer_med.get((c["vertical"],c["cc"]),None)}
         for c in COMPANIES if c["silent"]]
 
+# ---------- A5 freshness helpers (used by CELLS + global) ----------
+NOW_YEAR=2026   # cook anchor; date-based staleness. (No live clock dependency.)
+def year_of(d):
+    m=re.match(r"(19|20)\d{2}", (d or "").strip())
+    return int(m.group(0)) if m else None
+def stale_bucket(d):
+    y=year_of(d)
+    if y is None: return "undated"
+    age=NOW_YEAR-y
+    if age<=1: return "fresh"
+    if age<=2: return "aging"
+    return "stale"
+
 # ---------- cell drill-down (Altitude 3): companies per (cc, vertical, horizontal) ----------
 CELLS=defaultdict(list)
 for r in rows:
     key=f"{r[1]}|{r[2]}|{norm_h(r[4])}"
     CELLS[key].append({"company":r[0],"use":r[5],"existence":exist_bucket(r[6]),
-                       "value":r[7],"tier":r[8],"url":r[9],"raw_sector":r[3],"date":r[10]})
+                       "value":r[7],"tier":r[8],"url":r[9],"raw_sector":r[3],"date":r[10],
+                       "fresh":stale_bucket(r[10])})
+
+# ---------- A5 freshness aggregate + D6 hype detector ----------
+FRESH=Counter(stale_bucket(r[10]) for r in rows)
+GLOBAL_FRESH={k:FRESH.get(k,0) for k in ("fresh","aging","stale","undated")}
+
+# D6 hype: per vertical — announcements (rows) vs substantiation (value numbers + investment claims)
+CLAIMS_BY_ROW=defaultdict(list)
+claims_path=os.path.join(ROOT,"data","claims.csv")
+if os.path.exists(claims_path):
+    cr=list(csv.reader(open(claims_path)))[1:]
+    for c in cr:
+        try: CLAIMS_BY_ROW[int(c[0])].append({"amount":c[3],"currency":c[4],"unit":c[5],"claim_type":c[6],"phrase":c[7]})
+        except: pass
+# map row index -> vertical (rows list order == claims row_id)
+HYPE_VERT=[]
+byv_rows=defaultdict(list)
+for i,r in enumerate(rows): byv_rows[r[2]].append(i)
+for v,idxs in byv_rows.items():
+    announced=len(idxs)
+    withnum=sum(1 for i in idxs if has_num(rows[i][7]))
+    invest=sum(1 for i in idxs if any(cl["claim_type"]=="investment" for cl in CLAIMS_BY_ROW.get(i,[])))
+    HYPE_VERT.append({"v":v,"announced":announced,"substantiated":withnum,"investments":invest,
+                      "substantiation_rate":round(withnum/announced,3) if announced else 0})
+HYPE_VERT.sort(key=lambda x:-x["announced"])
 
 META={
   "schema_version":"2.0",
@@ -273,13 +311,16 @@ META={
 }
 GLOBAL["searched"]=len(UNI)
 GLOBAL["silent"]=len(SILENT)
+GLOBAL["freshness"]=GLOBAL_FRESH
 META["benchmarks"]={"method":"percentile rank within peer group (share of peers below; ties share rank). Peer groups <5 -> null.",
                     "groups":["global_vertical","country_vertical"],"metrics":["deployments","confirmed","proof_rate"]}
 META["silent"]="companies in data/universe.csv (searched) with zero register rows (L0 silent)."
+META["freshness"]={"anchor_year":NOW_YEAR,"buckets":{"fresh":"<=1yr","aging":"2yr","stale":">2yr","undated":"no date"}}
+META["hype"]="hype_by_vertical: announced (rows) vs substantiated (rows w/ value number) + investment claims (from claims.csv, regex-extracted, no LLM)."
 json.dump({"meta":META,"global":GLOBAL,"countries":COUNTRIES,"verticals":VERTS,"horizontals":HORZS,
            "grid_global":GRID_GLOBAL,"grid_by_country":GRID_BY_CC,"cells":CELLS,
            "vert_totals_global":VERT_TOTALS_GLOBAL,"vert_totals_by_country":VERT_TOTALS_BY_CC,
-           "companies":COMPANIES,"silent":SILENT},
+           "companies":COMPANIES,"silent":SILENT,"hype_by_vertical":HYPE_VERT},
           open(OUT,"w"), ensure_ascii=False, indent=1)
 
 print(f"cooked -> {OUT}")
