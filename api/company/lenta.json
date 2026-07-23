@@ -2,23 +2,54 @@
  "slug": "lenta",
  "name": "Lenta",
  "cc": "RU",
- "vertical": "Retail",
- "deployments": 0,
- "confirmed": 0,
- "with_value_number": 0,
- "proof_rate": 0,
+ "vertical": "Retail & E-commerce",
+ "deployments": 1,
+ "confirmed": 1,
+ "with_value_number": 1,
+ "proof_rate": 1.0,
  "mktcap": null,
  "revenue": 6570000000.0,
  "employees": 35100.0,
- "silent": true,
- "index": "MOEX",
- "per_bn_revenue": 0.0,
- "per_10k_emp": 0.0,
- "maturity": "L0",
+ "silent": false,
+ "per_bn_revenue": 0.15,
+ "per_10k_emp": 0.28,
+ "benchmarks": {
+  "global_vertical": {
+   "deployments": 0,
+   "confirmed": 26,
+   "proof_rate": 73,
+   "n": 273
+  },
+  "country_vertical": {
+   "deployments": 0,
+   "confirmed": 25,
+   "proof_rate": 100,
+   "n": 5
+  }
+ },
+ "first_seen": null,
+ "by_year": [],
+ "undated_pct": 100,
+ "momentum": "none",
+ "maturity": "L3",
  "maturity_evidence": [
-  "silent"
+  "value_number",
+  "tier_p"
  ],
- "prospect_score": 0,
+ "prospect_score": 14,
  "stack": [],
- "deployments_detail": []
+ "vendor_named": false,
+ "deployments_detail": [
+  {
+   "company": "Lenta",
+   "use": "ML demand forecasting processing ~15M time series daily across 2500 stores to cut shortages and write-offs",
+   "existence": "confirmed",
+   "value": "4% reduction in write-offs and up to 5% promo availability gain",
+   "tier": "P",
+   "url": "https://lenta.tech/expertise/proekty/ml-prognozirovanie-sprosa-v-lenta-tech",
+   "raw_sector": "Retail",
+   "date": "missing",
+   "fresh": "undated"
+  }
+ ]
 }

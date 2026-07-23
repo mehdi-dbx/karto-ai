@@ -2,23 +2,58 @@
  "slug": "detsky-mir",
  "name": "Detsky Mir",
  "cc": "RU",
- "vertical": "Retail",
- "deployments": 0,
+ "vertical": "Retail & E-commerce",
+ "deployments": 1,
  "confirmed": 0,
  "with_value_number": 0,
- "proof_rate": 0,
+ "proof_rate": 0.0,
  "mktcap": null,
  "revenue": 2230000000.0,
  "employees": null,
- "silent": true,
- "index": "MOEX",
- "per_bn_revenue": 0.0,
+ "silent": false,
+ "per_bn_revenue": 0.45,
  "per_10k_emp": null,
- "maturity": "L0",
- "maturity_evidence": [
-  "silent"
+ "benchmarks": {
+  "global_vertical": {
+   "deployments": 0,
+   "confirmed": 0,
+   "proof_rate": 0,
+   "n": 273
+  },
+  "country_vertical": {
+   "deployments": 0,
+   "confirmed": 0,
+   "proof_rate": 0,
+   "n": 5
+  }
+ },
+ "first_seen": 2023,
+ "by_year": [
+  {
+   "year": 2023,
+   "n": 1
+  }
  ],
- "prospect_score": 0,
+ "undated_pct": 0,
+ "momentum": "early_mover,gone_quiet",
+ "maturity": "L1",
+ "maturity_evidence": [
+  "rows_no_confirmed"
+ ],
+ "prospect_score": 40,
  "stack": [],
- "deployments_detail": []
+ "vendor_named": false,
+ "deployments_detail": [
+  {
+   "company": "Detsky Mir",
+   "use": "ML predictive analytics (Smart Placement Ads) monetizing marketplace ad inventory with real-time user behavior analysis",
+   "existence": "claimed",
+   "value": "threefold ROI on brand advertising",
+   "tier": "I",
+   "url": "https://up.retail.ru/rbc/pressreleases/detskiy-mir-vnedril-iskusstvennyy-intellekt-v-reklamnyy-instrumentariy-/",
+   "raw_sector": "Retail",
+   "date": "2023-07",
+   "fresh": "stale"
+  }
+ ]
 }

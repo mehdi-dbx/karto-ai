@@ -2,23 +2,70 @@
  "slug": "lukoil",
  "name": "Lukoil",
  "cc": "RU",
- "vertical": "Oil & Gas",
- "deployments": 0,
- "confirmed": 0,
+ "vertical": "Energy & Utilities",
+ "deployments": 2,
+ "confirmed": 2,
  "with_value_number": 0,
- "proof_rate": 0,
+ "proof_rate": 0.0,
  "mktcap": null,
  "revenue": 45000000000.0,
  "employees": 101000.0,
- "silent": true,
- "index": "MOEX",
- "per_bn_revenue": 0.0,
- "per_10k_emp": 0.0,
- "maturity": "L0",
- "maturity_evidence": [
-  "silent"
+ "silent": false,
+ "per_bn_revenue": 0.04,
+ "per_10k_emp": 0.2,
+ "benchmarks": {
+  "global_vertical": {
+   "deployments": 76,
+   "confirmed": 83,
+   "proof_rate": 0,
+   "n": 184
+  },
+  "country_vertical": {
+   "deployments": 44,
+   "confirmed": 67,
+   "proof_rate": 0,
+   "n": 10
+  }
+ },
+ "first_seen": 2022,
+ "by_year": [
+  {
+   "year": 2022,
+   "n": 1
+  }
  ],
- "prospect_score": 0,
+ "undated_pct": 50,
+ "momentum": "early_mover,gone_quiet",
+ "maturity": "L3",
+ "maturity_evidence": [
+  "named_product:Neural",
+  "tier_p"
+ ],
+ "prospect_score": 60,
  "stack": [],
- "deployments_detail": []
+ "vendor_named": false,
+ "deployments_detail": [
+  {
+   "company": "Lukoil",
+   "use": "ML software determines injection-production well interaction to optimize operating modes on mature reservoirs (intelligent field 45000+ wells)",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "P",
+   "url": "https://lukoil.ru/PressCenter/Pressreleases",
+   "raw_sector": "Oil & Gas",
+   "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "Lukoil",
+   "use": "Neural network well management helping select optimal injection modes (Lukoil-Perm)",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "I",
+   "url": "https://www.interfax.ru/business/976692",
+   "raw_sector": "Oil & Gas",
+   "date": "2022",
+   "fresh": "stale"
+  }
+ ]
 }

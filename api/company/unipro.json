@@ -2,23 +2,53 @@
  "slug": "unipro",
  "name": "Unipro",
  "cc": "RU",
- "vertical": "Utilities",
- "deployments": 0,
+ "vertical": "Energy & Utilities",
+ "deployments": 1,
  "confirmed": 0,
  "with_value_number": 0,
- "proof_rate": 0,
+ "proof_rate": 0.0,
  "mktcap": null,
  "revenue": 1600000000.0,
  "employees": 4300.0,
- "silent": true,
- "index": "MOEX",
- "per_bn_revenue": 0.0,
- "per_10k_emp": 0.0,
- "maturity": "L0",
+ "silent": false,
+ "per_bn_revenue": 0.62,
+ "per_10k_emp": 2.33,
+ "benchmarks": {
+  "global_vertical": {
+   "deployments": 0,
+   "confirmed": 0,
+   "proof_rate": 0,
+   "n": 184
+  },
+  "country_vertical": {
+   "deployments": 0,
+   "confirmed": 0,
+   "proof_rate": 0,
+   "n": 10
+  }
+ },
+ "first_seen": null,
+ "by_year": [],
+ "undated_pct": 100,
+ "momentum": "none",
+ "maturity": "L1",
  "maturity_evidence": [
-  "silent"
+  "rows_no_confirmed"
  ],
- "prospect_score": 0,
+ "prospect_score": 40,
  "stack": [],
- "deployments_detail": []
+ "vendor_named": false,
+ "deployments_detail": [
+  {
+   "company": "Unipro",
+   "use": "AI pilot at a power station (video analytics/access-control analysis) with plan to scale to other Unipro stations",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "I",
+   "url": "https://smartlab.news/read/106859-ir-yunipro-iskusstvennyi-intellekt-na-sluzbe-yunipro",
+   "raw_sector": "Utilities",
+   "date": "missing",
+   "fresh": "undated"
+  }
+ ]
 }

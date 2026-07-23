@@ -2,23 +2,65 @@
  "slug": "rosneft",
  "name": "Rosneft",
  "cc": "RU",
- "vertical": "Oil & Gas",
- "deployments": 0,
- "confirmed": 0,
+ "vertical": "Energy & Utilities",
+ "deployments": 2,
+ "confirmed": 2,
  "with_value_number": 0,
- "proof_rate": 0,
+ "proof_rate": 0.0,
  "mktcap": null,
  "revenue": 93570000000.0,
  "employees": 334600.0,
- "silent": true,
- "index": "MOEX",
- "per_bn_revenue": 0.0,
- "per_10k_emp": 0.0,
- "maturity": "L0",
+ "silent": false,
+ "per_bn_revenue": 0.02,
+ "per_10k_emp": 0.06,
+ "benchmarks": {
+  "global_vertical": {
+   "deployments": 76,
+   "confirmed": 83,
+   "proof_rate": 0,
+   "n": 184
+  },
+  "country_vertical": {
+   "deployments": 44,
+   "confirmed": 67,
+   "proof_rate": 0,
+   "n": 10
+  }
+ },
+ "first_seen": null,
+ "by_year": [],
+ "undated_pct": 100,
+ "momentum": "none",
+ "maturity": "L3",
  "maturity_evidence": [
-  "silent"
+  "named_product:Digital",
+  "tier_p"
  ],
- "prospect_score": 0,
+ "prospect_score": 60,
  "stack": [],
- "deployments_detail": []
+ "vendor_named": false,
+ "deployments_detail": [
+  {
+   "company": "Rosneft",
+   "use": "AI within Digital Field (Цифровое месторождение) program for oil and gas operations",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "P",
+   "url": "https://rosneft.ru",
+   "raw_sector": "Oil & Gas",
+   "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "Rosneft",
+   "use": "RN-Seysm proprietary software with ML for seismic interpretation and well-placement planning",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "I",
+   "url": "https://news.itmo.ru",
+   "raw_sector": "Oil & Gas",
+   "date": "missing",
+   "fresh": "undated"
+  }
+ ]
 }

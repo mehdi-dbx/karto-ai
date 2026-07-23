@@ -2,23 +2,47 @@
  "slug": "sovcomflot",
  "name": "Sovcomflot",
  "cc": "RU",
- "vertical": "Shipping",
- "deployments": 0,
+ "vertical": "Logistics & Supply Chain",
+ "deployments": 1,
  "confirmed": 0,
  "with_value_number": 0,
- "proof_rate": 0,
+ "proof_rate": 0.0,
  "mktcap": null,
  "revenue": 1440000000.0,
  "employees": 7700.0,
- "silent": true,
- "index": "MOEX",
- "per_bn_revenue": 0.0,
- "per_10k_emp": 0.0,
- "maturity": "L0",
+ "silent": false,
+ "per_bn_revenue": 0.69,
+ "per_10k_emp": 1.3,
+ "benchmarks": {
+  "global_vertical": {
+   "deployments": 0,
+   "confirmed": 0,
+   "proof_rate": 0,
+   "n": 59
+  }
+ },
+ "first_seen": null,
+ "by_year": [],
+ "undated_pct": 100,
+ "momentum": "none",
+ "maturity": "L1",
  "maturity_evidence": [
-  "silent"
+  "rows_no_confirmed"
  ],
- "prospect_score": 0,
+ "prospect_score": 40,
  "stack": [],
- "deployments_detail": []
+ "vendor_named": false,
+ "deployments_detail": [
+  {
+   "company": "Sovcomflot",
+   "use": "Autonomous navigation (a-Navigation) with automatic environment analysis and COLREG maneuvering trialed on tankers",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "I",
+   "url": "https://www.a-nav.org/ru/about.html",
+   "raw_sector": "Shipping",
+   "date": "missing",
+   "fresh": "undated"
+  }
+ ]
 }

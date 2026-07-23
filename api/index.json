@@ -6,7 +6,7 @@
   "companies": 2454,
   "countries": 37,
   "verticals": 20,
-  "deployments": 2606
+  "deployments": 2635
  },
  "endpoints": {
   "company": "/api/company/{slug}.json",
@@ -10135,6 +10135,101 @@
    "cc": "PT"
   },
   {
+   "slug": "bmci",
+   "name": "BMCI",
+   "cc": "MA"
+  },
+  {
+   "slug": "disty-technologies",
+   "name": "Disty Technologies",
+   "cc": "MA"
+  },
+  {
+   "slug": "cfg-bank",
+   "name": "CFG Bank",
+   "cc": "MA"
+  },
+  {
+   "slug": "bank-saint-petersburg",
+   "name": "Bank Saint Petersburg",
+   "cc": "RU"
+  },
+  {
+   "slug": "credit-bank-of-moscow",
+   "name": "Credit Bank of Moscow",
+   "cc": "RU"
+  },
+  {
+   "slug": "detsky-mir",
+   "name": "Detsky Mir",
+   "cc": "RU"
+  },
+  {
+   "slug": "en-group",
+   "name": "En+ Group",
+   "cc": "RU"
+  },
+  {
+   "slug": "inter-rao",
+   "name": "Inter RAO",
+   "cc": "RU"
+  },
+  {
+   "slug": "lenta",
+   "name": "Lenta",
+   "cc": "RU"
+  },
+  {
+   "slug": "lukoil",
+   "name": "Lukoil",
+   "cc": "RU"
+  },
+  {
+   "slug": "nlmk",
+   "name": "NLMK",
+   "cc": "RU"
+  },
+  {
+   "slug": "novatek",
+   "name": "Novatek",
+   "cc": "RU"
+  },
+  {
+   "slug": "rosneft",
+   "name": "Rosneft",
+   "cc": "RU"
+  },
+  {
+   "slug": "rusagro",
+   "name": "Rusagro",
+   "cc": "RU"
+  },
+  {
+   "slug": "sovcomflot",
+   "name": "Sovcomflot",
+   "cc": "RU"
+  },
+  {
+   "slug": "tatneft",
+   "name": "Tatneft",
+   "cc": "RU"
+  },
+  {
+   "slug": "transneft",
+   "name": "Transneft",
+   "cc": "RU"
+  },
+  {
+   "slug": "ozon",
+   "name": "Ozon",
+   "cc": "RU"
+  },
+  {
+   "slug": "unipro",
+   "name": "Unipro",
+   "cc": "RU"
+  },
+  {
    "slug": "alpha-dhabi-holding",
    "name": "Alpha Dhabi Holding",
    "cc": "AE"
@@ -11605,11 +11700,6 @@
    "cc": "MA"
   },
   {
-   "slug": "bmci",
-   "name": "BMCI",
-   "cc": "MA"
-  },
-  {
    "slug": "soci-t-des-boissons-du-maroc",
    "name": "Société des Boissons du Maroc",
    "cc": "MA"
@@ -11825,16 +11915,6 @@
    "cc": "MA"
   },
   {
-   "slug": "disty-technologies",
-   "name": "Disty Technologies",
-   "cc": "MA"
-  },
-  {
-   "slug": "cfg-bank",
-   "name": "CFG Bank",
-   "cc": "MA"
-  },
-  {
    "slug": "cmgp-group",
    "name": "CMGP Group",
    "cc": "MA"
@@ -11915,43 +11995,8 @@
    "cc": "PT"
   },
   {
-   "slug": "bank-saint-petersburg",
-   "name": "Bank Saint Petersburg",
-   "cc": "RU"
-  },
-  {
-   "slug": "credit-bank-of-moscow",
-   "name": "Credit Bank of Moscow",
-   "cc": "RU"
-  },
-  {
-   "slug": "detsky-mir",
-   "name": "Detsky Mir",
-   "cc": "RU"
-  },
-  {
-   "slug": "en-group",
-   "name": "En+ Group",
-   "cc": "RU"
-  },
-  {
    "slug": "fgc-ues",
    "name": "FGC UES",
-   "cc": "RU"
-  },
-  {
-   "slug": "inter-rao",
-   "name": "Inter RAO",
-   "cc": "RU"
-  },
-  {
-   "slug": "lenta",
-   "name": "Lenta",
-   "cc": "RU"
-  },
-  {
-   "slug": "lukoil",
-   "name": "Lukoil",
    "cc": "RU"
   },
   {
@@ -11965,53 +12010,8 @@
    "cc": "RU"
   },
   {
-   "slug": "nlmk",
-   "name": "NLMK",
-   "cc": "RU"
-  },
-  {
-   "slug": "novatek",
-   "name": "Novatek",
-   "cc": "RU"
-  },
-  {
-   "slug": "ozon",
-   "name": "Ozon",
-   "cc": "RU"
-  },
-  {
-   "slug": "rosneft",
-   "name": "Rosneft",
-   "cc": "RU"
-  },
-  {
-   "slug": "rusagro",
-   "name": "Rusagro",
-   "cc": "RU"
-  },
-  {
-   "slug": "sovcomflot",
-   "name": "Sovcomflot",
-   "cc": "RU"
-  },
-  {
    "slug": "surgutneftegas",
    "name": "Surgutneftegas",
-   "cc": "RU"
-  },
-  {
-   "slug": "tatneft",
-   "name": "Tatneft",
-   "cc": "RU"
-  },
-  {
-   "slug": "transneft",
-   "name": "Transneft",
-   "cc": "RU"
-  },
-  {
-   "slug": "unipro",
-   "name": "Unipro",
    "cc": "RU"
   },
   {
@@ -12442,8 +12442,8 @@
   "Industrial / Machinery",
   "Healthcare & Life Sciences",
   "Technology",
-  "Real Estate & Construction",
   "Manufacturing & Robotics",
+  "Real Estate & Construction",
   "Chemicals & Materials",
   "Telecom",
   "Insurance",
@@ -12453,8 +12453,8 @@
   "Travel & Hospitality",
   "Automotive",
   "Media / Entertainment / Gaming",
-  "Legal & Professional Services",
   "Agriculture",
+  "Legal & Professional Services",
   "Aerospace & Defence"
  ]
 }

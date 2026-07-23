@@ -2,23 +2,58 @@
  "slug": "tatneft",
  "name": "Tatneft",
  "cc": "RU",
- "vertical": "Oil & Gas",
- "deployments": 0,
+ "vertical": "Energy & Utilities",
+ "deployments": 1,
  "confirmed": 0,
- "with_value_number": 0,
- "proof_rate": 0,
+ "with_value_number": 1,
+ "proof_rate": 1.0,
  "mktcap": null,
  "revenue": 21700000000.0,
  "employees": 60000.0,
- "silent": true,
- "index": "MOEX",
- "per_bn_revenue": 0.0,
- "per_10k_emp": 0.0,
- "maturity": "L0",
+ "silent": false,
+ "per_bn_revenue": 0.05,
+ "per_10k_emp": 0.17,
+ "benchmarks": {
+  "global_vertical": {
+   "deployments": 0,
+   "confirmed": 0,
+   "proof_rate": 72,
+   "n": 184
+  },
+  "country_vertical": {
+   "deployments": 0,
+   "confirmed": 0,
+   "proof_rate": 89,
+   "n": 10
+  }
+ },
+ "first_seen": 2025,
+ "by_year": [
+  {
+   "year": 2025,
+   "n": 1
+  }
+ ],
+ "undated_pct": 0,
+ "momentum": "rising",
+ "maturity": "L1",
  "maturity_evidence": [
-  "silent"
+  "rows_no_confirmed"
  ],
  "prospect_score": 0,
  "stack": [],
- "deployments_detail": []
+ "vendor_named": false,
+ "deployments_detail": [
+  {
+   "company": "Tatneft",
+   "use": "AI/ML across exploration drilling reservoir pressure and production monitoring with digital twin development",
+   "existence": "claimed",
+   "value": "150+ AI application hypotheses generated",
+   "tier": "I",
+   "url": "https://oilgasinform.ru",
+   "raw_sector": "Oil & Gas",
+   "date": "2025",
+   "fresh": "fresh"
+  }
+ ]
 }

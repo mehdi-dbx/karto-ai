@@ -2,23 +2,59 @@
  "slug": "nlmk",
  "name": "NLMK",
  "cc": "RU",
- "vertical": "Steel",
- "deployments": 0,
- "confirmed": 0,
+ "vertical": "Manufacturing & Robotics",
+ "deployments": 2,
+ "confirmed": 1,
  "with_value_number": 0,
- "proof_rate": 0,
+ "proof_rate": 0.0,
  "mktcap": null,
  "revenue": 9233333333.0,
  "employees": 60200.0,
- "silent": true,
- "index": "MOEX",
- "per_bn_revenue": 0.0,
- "per_10k_emp": 0.0,
- "maturity": "L0",
+ "silent": false,
+ "per_bn_revenue": 0.22,
+ "per_10k_emp": 0.33,
+ "benchmarks": {
+  "global_vertical": {
+   "deployments": 58,
+   "confirmed": 24,
+   "proof_rate": 0,
+   "n": 109
+  }
+ },
+ "first_seen": null,
+ "by_year": [],
+ "undated_pct": 100,
+ "momentum": "none",
+ "maturity": "L3",
  "maturity_evidence": [
-  "silent"
+  "named_product:Machine",
+  "tier_p"
  ],
- "prospect_score": 0,
+ "prospect_score": 54,
  "stack": [],
- "deployments_detail": []
+ "vendor_named": false,
+ "deployments_detail": [
+  {
+   "company": "NLMK",
+   "use": "Machine learning for real-time product quality control and process forecasting in steelmaking",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "P",
+   "url": "https://it.nlmk.com/ru/",
+   "raw_sector": "Steel",
+   "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "NLMK",
+   "use": "ML models optimize energy resource consumption from historical production data",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "I",
+   "url": "https://www.tadviser.ru",
+   "raw_sector": "Steel",
+   "date": "missing",
+   "fresh": "undated"
+  }
+ ]
 }

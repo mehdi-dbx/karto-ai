@@ -36,7 +36,10 @@ GATE_CONFIG = os.path.join(ROOT, "gate.config.json")   # {"auto_apply": false}
 
 # immutable key columns per table — the gate rejects any proposal that would change these
 KEY_COLS = {
-    "register.csv": ["company", "country", "source_url"],
+    # register rows are NOT uniquely keyed by (company,country,source_url) — a company can have
+    # several deployments citing one source. Include use_case to make the key row-unique so the
+    # gate's merge never collapses distinct deployments. (Bug fix: a prior apply collapsed 50 rows.)
+    "register.csv": ["company", "country", "use_case"],
     "money.csv": ["id"],
     "usecases.csv": ["row_id", "pattern_id"],
     "vendors.csv": ["row_id", "vendor"],
