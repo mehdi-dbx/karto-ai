@@ -150,6 +150,13 @@ a:hover {{ text-decoration: underline; }}
 .crumbs {{ font-size: 13px; color: var(--muted); display: flex; gap: 8px; align-items: center; }}
 .crumbs .sep {{ opacity: .5; }}
 .crumbs .here {{ color: var(--ink); }}
+.topnav {{ display: flex; align-items: center; gap: 16px; }}
+.navlink {{ font-family: var(--font-ui); font-size: 12.5px; color: var(--ink-2); text-decoration: none; letter-spacing: .02em; white-space: nowrap; }}
+.navlink:hover {{ color: var(--accent); text-decoration: none; }}
+.navlink.on {{ color: var(--ink); font-weight: 560; }}
+.filtersel {{ font-family: var(--font-ui); font-size: 12.5px; color: var(--ink); background: var(--surface);
+  border: 1px solid var(--hair); border-radius: 8px; padding: 6px 10px; cursor: pointer; }}
+.filtersel:hover {{ border-color: var(--muted); }}
 .toggle {{
   border: 1px solid var(--hair); background: var(--surface); color: var(--ink-2);
   border-radius: 999px; padding: 6px 12px; font-size: 12px; cursor: pointer;
@@ -422,11 +429,16 @@ table.grid td .cnt {{ font-family:var(--font-ui); font-size:11px; font-variant-n
 </head>
 <body>
 <div class="topbar">
-  <div class="brand">KARTO&nbsp; <b>AI Atlas</b></div>
+  <div class="brand" style="cursor:pointer" onclick="goRoute('a0')">KARTO&nbsp; <b>AI Atlas</b></div>
   <nav class="crumbs" id="crumbs"><span class="here">Orbit</span></nav>
-  <button class="toggle" id="themeToggle" aria-label="Toggle light/dark">
-    <span id="themeIcon">◐</span><span id="themeLabel">Dark</span>
-  </button>
+  <div class="topnav">
+    <a href="#/world" class="navlink" data-route="a1">World</a>
+    <a href="#/grid" class="navlink" data-route="a2">Grid</a>
+    <a href="#/silent" class="navlink" data-route="silent">Silent&nbsp;list</a>
+    <button class="toggle" id="themeToggle" aria-label="Toggle light/dark">
+      <span id="themeIcon">◐</span><span id="themeLabel">Dark</span>
+    </button>
+  </div>
 </div>
 
 <!-- ============ ALTITUDE 0 — ORBIT ============ -->
@@ -607,6 +619,34 @@ table.grid td .cnt {{ font-family:var(--font-ui); font-size:11px; font-variant-n
   </div>
 </section>
 
+<!-- ============ SILENT COMPANIES (D4 — the prospect list) ============ -->
+<section class="altitude" id="silent" data-alt="Silent">
+  <div class="terr">
+    <div class="head">
+      <div>
+        <h2>The silent — searched, <span class="scope">nothing disclosed</span></h2>
+        <p class="lede">Companies we searched under the same evidence gate that disclose <b>no AI at all</b>.
+        Absence is a finding: each row is a documented gap sitting next to its peers' activity.
+        Peer median = typical disclosed deployments among same-industry, same-country rivals.</p>
+      </div>
+      <div class="controls">
+        <select id="silentCC" class="filtersel"><option value="">All countries</option></select>
+        <select id="silentSector" class="filtersel"><option value="">All sectors</option></select>
+      </div>
+    </div>
+    <div class="tabletwin" style="margin-top:20px">
+      <table id="silentTable">
+        <thead><tr>
+          <th data-k="name">Company</th><th data-k="cc">Country</th>
+          <th data-k="sector">Sector</th><th data-k="index">Index</th>
+          <th data-k="peer_median">Peer median</th>
+        </tr></thead><tbody></tbody>
+      </table>
+    </div>
+    <p class="footnote" id="silentCount"></p>
+  </div>
+</section>
+
 <!-- ============ ALTITUDE 3 — STREET (slide-in company panel) ============ -->
 <div id="scrim"></div>
 <aside id="panel" aria-hidden="true" role="dialog" aria-label="Companies in this cell">
@@ -660,6 +700,54 @@ function goAltitude(id, label) {{
 function toWorld() {{ goAltitude('a1','World'); renderWorld(); }}
 document.getElementById('descend').addEventListener('click', toWorld);
 document.getElementById('descendTop').addEventListener('click', toWorld);
+
+/* ============ hash routing (WAY 1 — one file, shareable #routes) ============ */
+const ROUTES = {{
+  'a0':     {{hash:'',        label:'Orbit',  show:()=>goAltitude('a0')}},
+  'a1':     {{hash:'/world',  label:'World',  show:toWorld}},
+  'a2':     {{hash:'/grid',   label:'Grid',   show:()=>{{ if(!ATLAS.grid_global) return; gridScope=null; document.getElementById('scopeName')&&(document.getElementById('scopeName').textContent='the world'); const b=document.getElementById('backWorld'); if(b)b.hidden=true; renderGrid(); goAltitude('a2','World grid'); }}}},
+  'silent': {{hash:'/silent', label:'Silent list', show:renderSilent}},
+}};
+function goRoute(id) {{ const r=ROUTES[id]; if(!r) return; if(location.hash!=='#'+r.hash) location.hash=r.hash; else applyRoute(); }}
+function applyRoute() {{
+  const h=location.hash.replace(/^#/,'');
+  const id=(Object.keys(ROUTES).find(k=>ROUTES[k].hash===h)) || 'a0';
+  ROUTES[id].show();
+  document.querySelectorAll('.navlink').forEach(a=>a.classList.toggle('on', a.dataset.route===id));
+}}
+window.addEventListener('hashchange', applyRoute);
+
+/* ============ D4 SILENT COMPANIES VIEW ============ */
+let silentSort={{k:'peer_median',dir:-1}};
+function renderSilent() {{
+  goAltitude('silent','Silent list');
+  const ccSel=document.getElementById('silentCC'), secSel=document.getElementById('silentSector');
+  if(ccSel && ccSel.options.length<2) {{
+    const ccs=[...new Set(ATLAS.silent.map(s=>s.cc))].sort();
+    const names={{}}; ATLAS.countries.forEach(c=>names[c.cc]=c.name);
+    ccs.forEach(cc=>ccSel.insertAdjacentHTML('beforeend',`<option value="${{cc}}">${{names[cc]||cc}}</option>`));
+    const secs=[...new Set(ATLAS.silent.map(s=>s.sector).filter(Boolean))].sort();
+    secs.forEach(s=>secSel.insertAdjacentHTML('beforeend',`<option value="${{esc(s)}}">${{esc(s)}}</option>`));
+    ccSel.onchange=secSel.onchange=drawSilent;
+    document.querySelectorAll('#silentTable th').forEach(th=>th.addEventListener('click',()=>{{
+      const k=th.dataset.k; silentSort.dir=(silentSort.k===k)?-silentSort.dir:-1; silentSort.k=k; drawSilent();
+    }}));
+  }}
+  drawSilent();
+}}
+function drawSilent() {{
+  const cc=document.getElementById('silentCC').value, sec=document.getElementById('silentSector').value;
+  const names={{}}; ATLAS.countries.forEach(c=>names[c.cc]=c.name);
+  let rows=ATLAS.silent.filter(s=>(!cc||s.cc===cc)&&(!sec||s.sector===sec));
+  rows.sort((a,b)=>{{ let A=a[silentSort.k],B=b[silentSort.k];
+    if(A==null)A=-1; if(B==null)B=-1;
+    return ((typeof A==='string')?A.localeCompare(B):(A>B?1:A<B?-1:0))*silentSort.dir; }});
+  document.querySelector('#silentTable tbody').innerHTML = rows.map(s=>`<tr>
+    <td>${{esc(s.name)}}</td><td>${{names[s.cc]||s.cc}}</td><td>${{esc(s.sector||'—')}}</td>
+    <td>${{esc(s.index||'—')}}</td><td>${{s.peer_median!=null?s.peer_median:'—'}}</td></tr>`).join('');
+  document.getElementById('silentCount').textContent =
+    `${{rows.length}} silent compan${{rows.length===1?'y':'ies'}} shown · ${{ATLAS.silent.length}} total searched with zero disclosed AI.`;
+}}
 
 /* ============ A1 WORLD (D3) ============ */
 const world = JSON.parse(document.getElementById('world-data').textContent);
@@ -1119,6 +1207,9 @@ function closePanel() {{ scrim.classList.remove('open'); panel.classList.remove(
 scrim.addEventListener('click',closePanel);
 document.getElementById('pclose').addEventListener('click',closePanel);
 document.addEventListener('keydown',e=>{{ if(e.key==='Escape'&&panel.classList.contains('open'))closePanel(); }});
+
+/* honor a deep-link hash on first load (e.g. someone opens #/silent directly) */
+if (location.hash && location.hash!=='#') applyRoute();
 </script>
 </body>
 </html>"""

@@ -158,6 +158,100 @@ def verticals_for(subset):
 VERT_TOTALS_GLOBAL=verticals_for(rows)
 VERT_TOTALS_BY_CC={cc:verticals_for([r for r in rows if r[1]==cc]) for cc in {r[1] for r in rows}}
 
+# ---------- companies[] + benchmarks (B1/B2) + silent set (A1/D4) ----------
+def slugify(name):
+    s=re.sub(r"[^a-z0-9]+","-", name.lower()).strip("-")
+    return s or "company"
+
+# aggregate register rows per (company, cc)
+comp=defaultdict(list)
+for r in rows: comp[(r[0], r[1])].append(r)
+
+# load universe (searched population) for silent companies + join
+UNI={}
+uni_path=os.path.join(ROOT,"data","universe.csv")
+if os.path.exists(uni_path):
+    ur=list(csv.reader(open(uni_path))); uhdr=ur[0]
+    for u in ur[1:]:
+        d=dict(zip(uhdr,u))
+        UNI[(d["company"].strip(), d["cc"].strip().upper())]=d
+
+def company_vertical(cc, name, regrows):
+    if regrows: return regrows[0][2]           # from register
+    return ""                                   # silent: vertical unknown (universe has no vertical)
+
+COMPANIES=[]
+seen_slugs={}
+for (name,cc),rr in comp.items():
+    dep=len(rr)
+    conf=sum(1 for r in rr if exist_bucket(r[6])=="confirmed")
+    wn=sum(1 for r in rr if has_num(r[7]))
+    vert=rr[0][2]
+    slug=slugify(name);
+    if slug in seen_slugs: slug=f"{slug}-{cc.lower()}"   # collision guard
+    seen_slugs[slug]=1
+    u=UNI.get((name,cc),{})
+    COMPANIES.append({"slug":slug,"name":name,"cc":cc,"vertical":vert,
+        "deployments":dep,"confirmed":conf,"with_value_number":wn,
+        "proof_rate":round(wn/dep,3) if dep else 0,
+        "mktcap":u.get("market_cap_usd") or None,"revenue":u.get("revenue_usd") or None,
+        "employees":u.get("employees") or None,"silent":False})
+
+# silent companies: in universe, absent from register
+reg_keys={(name,cc) for (name,cc) in comp}
+for (name,cc),u in UNI.items():
+    if (name,cc) in reg_keys: continue
+    slug=slugify(name)
+    if slug in seen_slugs: slug=f"{slug}-{cc.lower()}"
+    seen_slugs[slug]=1
+    COMPANIES.append({"slug":slug,"name":name,"cc":cc,"vertical":u.get("raw_sector",""),
+        "deployments":0,"confirmed":0,"with_value_number":0,"proof_rate":0,
+        "mktcap":None,"revenue":None,"employees":None,"silent":True,"index":u.get("index","")})
+
+# B2 percentile benchmarks within peer groups (deployment count / confirmed / proof rate)
+def pctile(sorted_vals, v):
+    # share of peers strictly below v, ties share rank; 0-100
+    below=sum(1 for x in sorted_vals if x < v)
+    return round(100*below/(len(sorted_vals)-1)) if len(sorted_vals)>1 else None
+
+active_comp=[c for c in COMPANIES if not c["silent"]]
+def peer_bench(group):
+    if len(group)<5: return None
+    dvals=sorted(c["deployments"] for c in group)
+    cvals=sorted(c["confirmed"] for c in group)
+    pvals=sorted(c["proof_rate"] for c in group)
+    out={}
+    for c in group:
+        c.setdefault("benchmarks",{})
+        out[c["slug"]]={"deployments":pctile(dvals,c["deployments"]),
+                        "confirmed":pctile(cvals,c["confirmed"]),
+                        "proof_rate":pctile(pvals,c["proof_rate"]),"n":len(group)}
+    return out
+# global-vertical peer groups
+byv=defaultdict(list)
+for c in active_comp: byv[c["vertical"]].append(c)
+for v,grp in byv.items():
+    b=peer_bench(grp)
+    if b:
+        for c in grp: c["benchmarks"]["global_vertical"]=b[c["slug"]]
+# country-vertical peer groups
+byvc=defaultdict(list)
+for c in active_comp: byvc[(c["vertical"],c["cc"])].append(c)
+for key,grp in byvc.items():
+    b=peer_bench(grp)
+    if b:
+        for c in grp: c["benchmarks"]["country_vertical"]=b[c["slug"]]
+
+# D4 silent view payload: silent companies + peer context (median deployments of vertical×country peers)
+import statistics
+peer_med={}
+for (v,cc),grp in byvc.items():
+    peer_med[(v,cc)]=statistics.median([c["deployments"] for c in grp]) if grp else 0
+SILENT=[{"slug":c["slug"],"name":c["name"],"cc":c["cc"],"sector":c.get("vertical",""),
+         "index":c.get("index",""),
+         "peer_median":peer_med.get((c["vertical"],c["cc"]),None)}
+        for c in COMPANIES if c["silent"]]
+
 # ---------- cell drill-down (Altitude 3): companies per (cc, vertical, horizontal) ----------
 CELLS=defaultdict(list)
 for r in rows:
@@ -177,9 +271,15 @@ META={
   "deprecated":{"verdict":"3-state (strong/active/talk). Superseded by verdict_v2; removed next release."},
   "date_convention":{"YYYY":"treated as mid-year","YYYY-MM":"as-is","missing":"excluded from time series, counted in undated"}
 }
+GLOBAL["searched"]=len(UNI)
+GLOBAL["silent"]=len(SILENT)
+META["benchmarks"]={"method":"percentile rank within peer group (share of peers below; ties share rank). Peer groups <5 -> null.",
+                    "groups":["global_vertical","country_vertical"],"metrics":["deployments","confirmed","proof_rate"]}
+META["silent"]="companies in data/universe.csv (searched) with zero register rows (L0 silent)."
 json.dump({"meta":META,"global":GLOBAL,"countries":COUNTRIES,"verticals":VERTS,"horizontals":HORZS,
            "grid_global":GRID_GLOBAL,"grid_by_country":GRID_BY_CC,"cells":CELLS,
-           "vert_totals_global":VERT_TOTALS_GLOBAL,"vert_totals_by_country":VERT_TOTALS_BY_CC},
+           "vert_totals_global":VERT_TOTALS_GLOBAL,"vert_totals_by_country":VERT_TOTALS_BY_CC,
+           "companies":COMPANIES,"silent":SILENT},
           open(OUT,"w"), ensure_ascii=False, indent=1)
 
 print(f"cooked -> {OUT}")
