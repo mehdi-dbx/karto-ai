@@ -2,23 +2,67 @@
  "slug": "shaanxi-coal-industry-company",
  "name": "Shaanxi Coal Industry Company",
  "cc": "CN",
- "vertical": "Energy",
- "deployments": 0,
- "confirmed": 0,
+ "vertical": "Mining & Materials",
+ "deployments": 2,
+ "confirmed": 1,
  "with_value_number": 0,
- "proof_rate": 0,
+ "proof_rate": 0.0,
  "mktcap": 34000000000.0,
  "revenue": 21801388889.0,
  "employees": 43455.0,
- "silent": true,
- "index": "CSI300",
- "per_bn_revenue": 0.0,
- "per_10k_emp": 0.0,
- "maturity": "L0",
- "maturity_evidence": [
-  "silent"
+ "silent": false,
+ "per_bn_revenue": 0.09,
+ "per_10k_emp": 0.46,
+ "benchmarks": {
+  "global_vertical": {
+   "deployments": 82,
+   "confirmed": 38,
+   "proof_rate": 0,
+   "n": 61
+  }
+ },
+ "first_seen": 2025,
+ "by_year": [
+  {
+   "year": 2025,
+   "n": 1
+  },
+  {
+   "year": 2026,
+   "n": 1
+  }
  ],
- "prospect_score": 0,
+ "undated_pct": 0,
+ "momentum": "rising",
+ "maturity": "L3",
+ "maturity_evidence": [
+  "named_product:Visual"
+ ],
+ "prospect_score": 54,
  "stack": [],
- "deployments_detail": []
+ "vendor_named": false,
+ "deployments_detail": [
+  {
+   "company": "Shaanxi Coal Industry Company",
+   "use": "Visual AI gas/methane safety monitoring and personnel-risk identification model in coal mines",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "I",
+   "url": "https://www.sohu.com/a/948972972_122362510",
+   "raw_sector": "Energy",
+   "date": "2025",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Shaanxi Coal Industry Company",
+   "use": "AI-assisted intelligent coal extraction at work face 431301",
+   "existence": "claimed",
+   "value": "industry-leading",
+   "tier": "I",
+   "url": "https://sxgz.shaanxi.gov.cn",
+   "raw_sector": "Energy",
+   "date": "2026",
+   "fresh": "fresh"
+  }
+ ]
 }

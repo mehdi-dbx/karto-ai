@@ -2,23 +2,59 @@
  "slug": "energisa",
  "name": "Energisa",
  "cc": "BR",
- "vertical": "Utilidade pública, energia e saneamento",
- "deployments": 0,
- "confirmed": 0,
- "with_value_number": 0,
- "proof_rate": 0,
+ "vertical": "Energy & Utilities",
+ "deployments": 1,
+ "confirmed": 1,
+ "with_value_number": 1,
+ "proof_rate": 1.0,
  "mktcap": 3559259259.0,
  "revenue": 6672222222.0,
  "employees": 18000.0,
- "silent": true,
- "index": "IBOVESPA",
- "per_bn_revenue": 0.0,
- "per_10k_emp": 0.0,
- "maturity": "L0",
- "maturity_evidence": [
-  "silent"
+ "silent": false,
+ "per_bn_revenue": 0.15,
+ "per_10k_emp": 0.56,
+ "benchmarks": {
+  "global_vertical": {
+   "deployments": 0,
+   "confirmed": 20,
+   "proof_rate": 72,
+   "n": 210
+  },
+  "country_vertical": {
+   "deployments": 0,
+   "confirmed": 0,
+   "proof_rate": 67,
+   "n": 19
+  }
+ },
+ "first_seen": 2026,
+ "by_year": [
+  {
+   "year": 2026,
+   "n": 1
+  }
  ],
- "prospect_score": 0,
+ "undated_pct": 0,
+ "momentum": "late_entrant,rising",
+ "maturity": "L3",
+ "maturity_evidence": [
+  "named_product:Conversational",
+  "value_number"
+ ],
+ "prospect_score": 14,
  "stack": [],
- "deployments_detail": []
+ "vendor_named": false,
+ "deployments_detail": [
+  {
+   "company": "Energisa",
+   "use": "Conversational AI automating the customer service journey including power outage incident handling",
+   "existence": "confirmed",
+   "value": "93.8% accuracy in power outage incidents",
+   "tier": "I",
+   "url": "https://tiinside.com.br/18/06/2026/energisa-utiliza-ia-conversacional-para-automatizar-jornada-de-atendimento/",
+   "raw_sector": "Utilidade pública, energia e saneamento",
+   "date": "2026",
+   "fresh": "fresh"
+  }
+ ]
 }

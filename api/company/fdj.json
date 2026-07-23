@@ -2,23 +2,59 @@
  "slug": "fdj",
  "name": "FDJ",
  "cc": "FR",
- "vertical": "Gaming / Lottery",
- "deployments": 0,
- "confirmed": 0,
- "with_value_number": 0,
- "proof_rate": 0,
+ "vertical": "Media / Entertainment / Gaming",
+ "deployments": 1,
+ "confirmed": 1,
+ "with_value_number": 1,
+ "proof_rate": 1.0,
  "mktcap": 4546800000.0,
  "revenue": 3974400000.0,
  "employees": 5755.0,
- "silent": true,
- "index": "SBF120",
- "per_bn_revenue": 0.0,
- "per_10k_emp": 0.0,
- "maturity": "L0",
- "maturity_evidence": [
-  "silent"
+ "silent": false,
+ "per_bn_revenue": 0.25,
+ "per_10k_emp": 1.74,
+ "benchmarks": {
+  "global_vertical": {
+   "deployments": 0,
+   "confirmed": 18,
+   "proof_rate": 59,
+   "n": 35
+  },
+  "country_vertical": {
+   "deployments": 0,
+   "confirmed": 0,
+   "proof_rate": 50,
+   "n": 7
+  }
+ },
+ "first_seen": 2025,
+ "by_year": [
+  {
+   "year": 2025,
+   "n": 1
+  }
  ],
- "prospect_score": 0,
+ "undated_pct": 0,
+ "momentum": "early_mover,rising",
+ "maturity": "L3",
+ "maturity_evidence": [
+  "named_product:WIN",
+  "value_number"
+ ],
+ "prospect_score": 14,
  "stack": [],
- "deployments_detail": []
+ "vendor_named": false,
+ "deployments_detail": [
+  {
+   "company": "FDJ",
+   "use": "AI WIN generative AI assistant for employees plus agentic AI automating 70 business processes",
+   "existence": "confirmed",
+   "value": "70 processes automated",
+   "tier": "I",
+   "url": "https://www.cio-online.com/actualites/lire-fdj-united-parie-sur-l-ia-agentique-pour-automatiser-ses-processus-16468.html",
+   "raw_sector": "Gaming / Lottery",
+   "date": "2025",
+   "fresh": "fresh"
+  }
+ ]
 }

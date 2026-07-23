@@ -2,23 +2,58 @@
  "slug": "wuliangye-yibin",
  "name": "Wuliangye Yibin",
  "cc": "CN",
- "vertical": "Consumer Staples",
- "deployments": 0,
- "confirmed": 0,
+ "vertical": "Retail & E-commerce",
+ "deployments": 1,
+ "confirmed": 1,
  "with_value_number": 0,
- "proof_rate": 0,
+ "proof_rate": 0.0,
  "mktcap": 40347222222.0,
  "revenue": 6427777778.0,
  "employees": 25216.0,
- "silent": true,
- "index": "CSI300",
- "per_bn_revenue": 0.0,
- "per_10k_emp": 0.0,
- "maturity": "L0",
- "maturity_evidence": [
-  "silent"
+ "silent": false,
+ "per_bn_revenue": 0.16,
+ "per_10k_emp": 0.4,
+ "benchmarks": {
+  "global_vertical": {
+   "deployments": 0,
+   "confirmed": 26,
+   "proof_rate": 0,
+   "n": 300
+  },
+  "country_vertical": {
+   "deployments": 0,
+   "confirmed": 16,
+   "proof_rate": 0,
+   "n": 20
+  }
+ },
+ "first_seen": 2021,
+ "by_year": [
+  {
+   "year": 2021,
+   "n": 1
+  }
  ],
- "prospect_score": 0,
+ "undated_pct": 0,
+ "momentum": "early_mover,gone_quiet",
+ "maturity": "L3",
+ "maturity_evidence": [
+  "named_product:Intelligent"
+ ],
+ "prospect_score": 54,
  "stack": [],
- "deployments_detail": []
+ "vendor_named": false,
+ "deployments_detail": [
+  {
+   "company": "Wuliangye Yibin",
+   "use": "Intelligent brewing workshop with smart fermentation and data-driven brewing standards",
+   "existence": "confirmed",
+   "value": "grain consumption reduced",
+   "tier": "I",
+   "url": "https://www.sohu.com/a/955132720_121924584",
+   "raw_sector": "Consumer Staples",
+   "date": "2021",
+   "fresh": "stale"
+  }
+ ]
 }

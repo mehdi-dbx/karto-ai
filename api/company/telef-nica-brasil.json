@@ -2,23 +2,48 @@
  "slug": "telef-nica-brasil",
  "name": "Telefônica Brasil",
  "cc": "BR",
- "vertical": "Telefonia",
- "deployments": 0,
- "confirmed": 0,
- "with_value_number": 0,
- "proof_rate": 0,
+ "vertical": "Telecom",
+ "deployments": 1,
+ "confirmed": 1,
+ "with_value_number": 1,
+ "proof_rate": 1.0,
  "mktcap": 20937037037.0,
  "revenue": 11233333333.0,
  "employees": 35010.0,
- "silent": true,
- "index": "IBOVESPA",
- "per_bn_revenue": 0.0,
- "per_10k_emp": 0.0,
- "maturity": "L0",
+ "silent": false,
+ "per_bn_revenue": 0.09,
+ "per_10k_emp": 0.29,
+ "benchmarks": {
+  "global_vertical": {
+   "deployments": 0,
+   "confirmed": 16,
+   "proof_rate": 68,
+   "n": 93
+  }
+ },
+ "first_seen": null,
+ "by_year": [],
+ "undated_pct": 100,
+ "momentum": "none",
+ "maturity": "L3",
  "maturity_evidence": [
-  "silent"
+  "named_product:Ajuda",
+  "value_number"
  ],
- "prospect_score": 0,
+ "prospect_score": 14,
  "stack": [],
- "deployments_detail": []
+ "vendor_named": false,
+ "deployments_detail": [
+  {
+   "company": "Telefônica Brasil",
+   "use": "I.Ajuda AI tool (with Microsoft) used by customer service agents; also replacing IVR press-menus with conversational voice/text AI",
+   "existence": "confirmed",
+   "value": "used by ~11000 customer service agents",
+   "tier": "I",
+   "url": "https://www.gov.br/anatel/pt-br/assuntos/noticias/conselheiro-alexandre-freire-solicita-informacoes-detalhadas-sobre-algoritmo-de-inteligencia-artificial-utilizado-pela-vivo",
+   "raw_sector": "Telefonia",
+   "date": "missing",
+   "fresh": "undated"
+  }
+ ]
 }

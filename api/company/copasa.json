@@ -2,23 +2,71 @@
  "slug": "copasa",
  "name": "Copasa",
  "cc": "BR",
- "vertical": "Utilidade pública, energia e saneamento",
- "deployments": 0,
- "confirmed": 0,
+ "vertical": "Energy & Utilities",
+ "deployments": 2,
+ "confirmed": 2,
  "with_value_number": 0,
- "proof_rate": 0,
+ "proof_rate": 0.0,
  "mktcap": 4494444444.0,
  "revenue": 1555555556.0,
  "employees": 9836.0,
- "silent": true,
- "index": "IBOVESPA",
- "per_bn_revenue": 0.0,
- "per_10k_emp": 0.0,
- "maturity": "L0",
- "maturity_evidence": [
-  "silent"
+ "silent": false,
+ "per_bn_revenue": 1.29,
+ "per_10k_emp": 2.03,
+ "benchmarks": {
+  "global_vertical": {
+   "deployments": 77,
+   "confirmed": 83,
+   "proof_rate": 0,
+   "n": 210
+  },
+  "country_vertical": {
+   "deployments": 83,
+   "confirmed": 83,
+   "proof_rate": 0,
+   "n": 19
+  }
+ },
+ "first_seen": 2023,
+ "by_year": [
+  {
+   "year": 2023,
+   "n": 1
+  }
  ],
- "prospect_score": 0,
+ "undated_pct": 50,
+ "momentum": "early_mover,gone_quiet",
+ "maturity": "L3",
+ "maturity_evidence": [
+  "multi_horizontal",
+  "named_product:WhatsApp",
+  "tier_p"
+ ],
+ "prospect_score": 60,
  "stack": [],
- "deployments_detail": []
+ "vendor_named": false,
+ "deployments_detail": [
+  {
+   "company": "Copasa",
+   "use": "AI in WhatsApp and webchat customer service replacing rigid workflows with intelligent customer journeys",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "P",
+   "url": "https://news.copasa.com.br/ia-no-atendimento-via-whatsapp-e-webchat-da-copasa-proporciona-melhorias-para-a-jornada-do-cliente/",
+   "raw_sector": "Utilidade pública, energia e saneamento",
+   "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "Copasa",
+   "use": "AI-based network monitoring to detect and reduce water leaks (4Fluid startup partnership; also Orion Alfa sensor pilot in Araxá)",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "I",
+   "url": "https://blogfca.pucminas.br/colab/ia-combate-vazamento-de-agua-no-sistema-de-saneamento-basico/",
+   "raw_sector": "Utilidade pública, energia e saneamento",
+   "date": "2023",
+   "fresh": "stale"
+  }
+ ]
 }

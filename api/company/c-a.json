@@ -2,23 +2,59 @@
  "slug": "c-a",
  "name": "C&A",
  "cc": "BR",
- "vertical": "Consumo cíclico e construção civil",
- "deployments": 0,
- "confirmed": 0,
- "with_value_number": 0,
- "proof_rate": 0,
+ "vertical": "Retail & E-commerce",
+ "deployments": 1,
+ "confirmed": 1,
+ "with_value_number": 1,
+ "proof_rate": 1.0,
  "mktcap": 538888889.0,
  "revenue": 1479629630.0,
  "employees": 14000.0,
- "silent": true,
- "index": "IBOVESPA",
- "per_bn_revenue": 0.0,
- "per_10k_emp": 0.0,
- "maturity": "L0",
- "maturity_evidence": [
-  "silent"
+ "silent": false,
+ "per_bn_revenue": 0.68,
+ "per_10k_emp": 0.71,
+ "benchmarks": {
+  "global_vertical": {
+   "deployments": 0,
+   "confirmed": 26,
+   "proof_rate": 73,
+   "n": 300
+  },
+  "country_vertical": {
+   "deployments": 0,
+   "confirmed": 0,
+   "proof_rate": 75,
+   "n": 13
+  }
+ },
+ "first_seen": 2025,
+ "by_year": [
+  {
+   "year": 2025,
+   "n": 1
+  }
  ],
- "prospect_score": 0,
+ "undated_pct": 0,
+ "momentum": "rising",
+ "maturity": "L3",
+ "maturity_evidence": [
+  "named_product:Generative",
+  "value_number"
+ ],
+ "prospect_score": 14,
  "stack": [],
- "deployments_detail": []
+ "vendor_named": false,
+ "deployments_detail": [
+  {
+   "company": "C&A",
+   "use": "Generative-AI ecosystem including Brazil's first fashion retail AI Personal Shopper for hyper-personalized shopping",
+   "existence": "confirmed",
+   "value": "R$300 million investment",
+   "tier": "I",
+   "url": "https://forbes.com.br/forbes-tech/2025/12/ca-investe-r-300-milhoes-e-lanca-seu-primeiro-ai-personal-shopper-no-brasil/",
+   "raw_sector": "Consumo cíclico e construção civil",
+   "date": "2025",
+   "fresh": "fresh"
+  }
+ ]
 }

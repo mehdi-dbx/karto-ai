@@ -2,23 +2,59 @@
  "slug": "atmos-energy",
  "name": "Atmos Energy",
  "cc": "US",
- "vertical": "Utilities",
- "deployments": 0,
- "confirmed": 0,
+ "vertical": "Energy & Utilities",
+ "deployments": 1,
+ "confirmed": 1,
  "with_value_number": 0,
- "proof_rate": 0,
+ "proof_rate": 0.0,
  "mktcap": 29830000000.0,
  "revenue": 4880000000.0,
  "employees": 5487.0,
- "silent": true,
- "index": "S&P500",
- "per_bn_revenue": 0.0,
- "per_10k_emp": 0.0,
- "maturity": "L0",
- "maturity_evidence": [
-  "silent"
+ "silent": false,
+ "per_bn_revenue": 0.2,
+ "per_10k_emp": 1.82,
+ "benchmarks": {
+  "global_vertical": {
+   "deployments": 0,
+   "confirmed": 20,
+   "proof_rate": 0,
+   "n": 210
+  },
+  "country_vertical": {
+   "deployments": 0,
+   "confirmed": 41,
+   "proof_rate": 0,
+   "n": 52
+  }
+ },
+ "first_seen": 2021,
+ "by_year": [
+  {
+   "year": 2021,
+   "n": 1
+  }
  ],
- "prospect_score": 0,
+ "undated_pct": 0,
+ "momentum": "early_mover,gone_quiet",
+ "maturity": "L3",
+ "maturity_evidence": [
+  "named_product:Deployed",
+  "tier_p"
+ ],
+ "prospect_score": 54,
  "stack": [],
- "deployments_detail": []
+ "vendor_named": false,
+ "deployments_detail": [
+  {
+   "company": "Atmos Energy",
+   "use": "Deployed gas cloud imaging cameras using machine learning analytics for continuous methane leak detection and monitoring at storage facilities",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "P",
+   "url": "https://www.atmosenergy.com/news/atmos-energy-deploys-innovative-technology-underscoring-commitment-safety-and-environment/",
+   "raw_sector": "Utilities",
+   "date": "2021",
+   "fresh": "stale"
+  }
+ ]
 }

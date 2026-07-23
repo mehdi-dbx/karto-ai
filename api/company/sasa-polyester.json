@@ -2,23 +2,59 @@
  "slug": "sasa-polyester",
  "name": "SASA Polyester",
  "cc": "TR",
- "vertical": "Chemicals",
- "deployments": 0,
- "confirmed": 0,
+ "vertical": "Manufacturing & Robotics",
+ "deployments": 1,
+ "confirmed": 1,
  "with_value_number": 0,
- "proof_rate": 0,
+ "proof_rate": 0.0,
  "mktcap": 3614687500.0,
  "revenue": 1794062500.0,
  "employees": 3608.0,
- "silent": true,
- "index": "BIST30",
- "per_bn_revenue": 0.0,
- "per_10k_emp": 0.0,
- "maturity": "L0",
- "maturity_evidence": [
-  "silent"
+ "silent": false,
+ "per_bn_revenue": 0.56,
+ "per_10k_emp": 2.77,
+ "benchmarks": {
+  "global_vertical": {
+   "deployments": 0,
+   "confirmed": 23,
+   "proof_rate": 0,
+   "n": 152
+  },
+  "country_vertical": {
+   "deployments": 0,
+   "confirmed": 67,
+   "proof_rate": 0,
+   "n": 10
+  }
+ },
+ "first_seen": 2024,
+ "by_year": [
+  {
+   "year": 2024,
+   "n": 1
+  }
  ],
- "prospect_score": 0,
+ "undated_pct": 0,
+ "momentum": "early_mover,gone_quiet",
+ "maturity": "L3",
+ "maturity_evidence": [
+  "named_product:Company",
+  "tier_p"
+ ],
+ "prospect_score": 54,
  "stack": [],
- "deployments_detail": []
+ "vendor_named": false,
+ "deployments_detail": [
+  {
+   "company": "SASA Polyester",
+   "use": "Company announced AI collaboration with ZEKI to implement AI applications for efficiency in production processes at its Adana polyester facilities (advanced process control and automation)",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "P",
+   "url": "https://www.sasa.com.tr/sasadan-yapay-zeka-adimi-zekiye-uyelik-basvurusunda-bulundu",
+   "raw_sector": "Chemicals",
+   "date": "2024",
+   "fresh": "aging"
+  }
+ ]
 }

@@ -2,23 +2,59 @@
  "slug": "medincell",
  "name": "MedinCell",
  "cc": "FR",
- "vertical": "Pharmaceuticals / Biotech",
- "deployments": 0,
- "confirmed": 0,
+ "vertical": "Healthcare & Life Sciences",
+ "deployments": 1,
+ "confirmed": 1,
  "with_value_number": 0,
- "proof_rate": 0,
+ "proof_rate": 0.0,
  "mktcap": 984916800.0,
  "revenue": 26222400.0,
  "employees": 140.0,
- "silent": true,
- "index": "SBF120",
- "per_bn_revenue": 0.0,
- "per_10k_emp": 0.0,
- "maturity": "L0",
- "maturity_evidence": [
-  "silent"
+ "silent": false,
+ "per_bn_revenue": 38.14,
+ "per_10k_emp": 71.43,
+ "benchmarks": {
+  "global_vertical": {
+   "deployments": 0,
+   "confirmed": 14,
+   "proof_rate": 0,
+   "n": 165
+  },
+  "country_vertical": {
+   "deployments": 0,
+   "confirmed": 12,
+   "proof_rate": 0,
+   "n": 9
+  }
+ },
+ "first_seen": 2025,
+ "by_year": [
+  {
+   "year": 2025,
+   "n": 1
+  }
  ],
- "prospect_score": 0,
+ "undated_pct": 0,
+ "momentum": "rising",
+ "maturity": "L3",
+ "maturity_evidence": [
+  "named_product:Phase",
+  "tier_p"
+ ],
+ "prospect_score": 54,
  "stack": [],
- "deployments_detail": []
+ "vendor_named": false,
+ "deployments_detail": [
+  {
+   "company": "MedinCell",
+   "use": "AI used to accelerate drug pipeline development from formulation through Phase 1 initiation",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "P",
+   "url": "https://www.medincell.com/wp-content/uploads/2026/02/MDC_TranscriptHYR2025_10122025_9298350538944834160.pdf",
+   "raw_sector": "Pharmaceuticals / Biotech",
+   "date": "2025",
+   "fresh": "fresh"
+  }
+ ]
 }

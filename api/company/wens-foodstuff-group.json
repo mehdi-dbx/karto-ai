@@ -2,23 +2,68 @@
  "slug": "wens-foodstuff-group",
  "name": "Wens Foodstuff Group",
  "cc": "CN",
- "vertical": "Consumer Staples",
- "deployments": 0,
- "confirmed": 0,
+ "vertical": "Agriculture",
+ "deployments": 2,
+ "confirmed": 2,
  "with_value_number": 0,
- "proof_rate": 0,
+ "proof_rate": 0.0,
  "mktcap": 12965277778.0,
  "revenue": 14431944444.0,
  "employees": 49876.0,
- "silent": true,
- "index": "CSI300",
- "per_bn_revenue": 0.0,
- "per_10k_emp": 0.0,
- "maturity": "L0",
- "maturity_evidence": [
-  "silent"
+ "silent": false,
+ "per_bn_revenue": 0.14,
+ "per_10k_emp": 0.4,
+ "benchmarks": {
+  "global_vertical": {
+   "deployments": 60,
+   "confirmed": 70,
+   "proof_rate": 0,
+   "n": 11
+  }
+ },
+ "first_seen": 2025,
+ "by_year": [
+  {
+   "year": 2025,
+   "n": 1
+  },
+  {
+   "year": 2026,
+   "n": 1
+  }
  ],
- "prospect_score": 0,
+ "undated_pct": 0,
+ "momentum": "rising",
+ "maturity": "L3",
+ "maturity_evidence": [
+  "named_product:MuShiTong",
+  "multi_year"
+ ],
+ "prospect_score": 60,
  "stack": [],
- "deployments_detail": []
+ "vendor_named": false,
+ "deployments_detail": [
+  {
+   "company": "Wens Foodstuff Group",
+   "use": "MuShiTong AI visual monitoring system for digital livestock farming",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "I",
+   "url": "https://meat360.cn",
+   "raw_sector": "Consumer Staples",
+   "date": "2026",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Wens Foodstuff Group",
+   "use": "AI diagnostic/veterinary system for livestock disease detection (with Huawei)",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "I",
+   "url": "https://www.sohu.com",
+   "raw_sector": "Consumer Staples",
+   "date": "2025",
+   "fresh": "fresh"
+  }
+ ]
 }

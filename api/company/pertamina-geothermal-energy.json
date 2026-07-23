@@ -2,23 +2,54 @@
  "slug": "pertamina-geothermal-energy",
  "name": "Pertamina Geothermal Energy",
  "cc": "ID",
- "vertical": "Utilities",
- "deployments": 0,
- "confirmed": 0,
- "with_value_number": 0,
- "proof_rate": 0,
+ "vertical": "Energy & Utilities",
+ "deployments": 1,
+ "confirmed": 1,
+ "with_value_number": 1,
+ "proof_rate": 1.0,
  "mktcap": 2731645570.0,
  "revenue": 480379747.0,
  "employees": 583.0,
- "silent": true,
- "index": "LQ45",
- "per_bn_revenue": 0.0,
- "per_10k_emp": 0.0,
- "maturity": "L0",
- "maturity_evidence": [
-  "silent"
+ "silent": false,
+ "per_bn_revenue": 2.08,
+ "per_10k_emp": 17.15,
+ "benchmarks": {
+  "global_vertical": {
+   "deployments": 0,
+   "confirmed": 20,
+   "proof_rate": 72,
+   "n": 210
+  }
+ },
+ "first_seen": 2025,
+ "by_year": [
+  {
+   "year": 2025,
+   "n": 1
+  }
  ],
- "prospect_score": 0,
+ "undated_pct": 0,
+ "momentum": "rising",
+ "maturity": "L3",
+ "maturity_evidence": [
+  "named_product:Bionic",
+  "value_number",
+  "tier_p"
+ ],
+ "prospect_score": 14,
  "stack": [],
- "deployments_detail": []
+ "vendor_named": false,
+ "deployments_detail": [
+  {
+   "company": "Pertamina Geothermal Energy",
+   "use": "G-Bionic digital transformation program (started 2023, 52 initiatives across subsurface, drilling, surface, enterprise) using machine learning and digital twins to boost geothermal production efficiency and cut drilling costs; includes GENIUS AI-based work assistant",
+   "existence": "confirmed",
+   "value": "Rp515 billion added value claimed",
+   "tier": "P",
+   "url": "https://www.pge.pertamina.com/en/press-release/pge-demonstrates-digital-transformation-boosts-national-geothermal-efficiency-and-competitiveness",
+   "raw_sector": "Utilities",
+   "date": "2025",
+   "fresh": "fresh"
+  }
+ ]
 }

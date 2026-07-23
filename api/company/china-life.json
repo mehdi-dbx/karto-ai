@@ -2,23 +2,52 @@
  "slug": "china-life",
  "name": "China Life",
  "cc": "CN",
- "vertical": "Finance",
- "deployments": 0,
- "confirmed": 0,
+ "vertical": "Insurance",
+ "deployments": 1,
+ "confirmed": 1,
  "with_value_number": 0,
- "proof_rate": 0,
+ "proof_rate": 0.0,
  "mktcap": 156410256410.0,
  "revenue": 49851282051.0,
  "employees": 97505.0,
- "silent": true,
- "index": "HSI",
- "per_bn_revenue": 0.0,
- "per_10k_emp": 0.0,
- "maturity": "L0",
- "maturity_evidence": [
-  "silent"
+ "silent": false,
+ "per_bn_revenue": 0.02,
+ "per_10k_emp": 0.1,
+ "benchmarks": {
+  "global_vertical": {
+   "deployments": 0,
+   "confirmed": 14,
+   "proof_rate": 0,
+   "n": 60
+  }
+ },
+ "first_seen": 2025,
+ "by_year": [
+  {
+   "year": 2025,
+   "n": 1
+  }
  ],
- "prospect_score": 0,
+ "undated_pct": 0,
+ "momentum": "rising",
+ "maturity": "L3",
+ "maturity_evidence": [
+  "named_product:DeepSeek"
+ ],
+ "prospect_score": 54,
  "stack": [],
- "deployments_detail": []
+ "vendor_named": false,
+ "deployments_detail": [
+  {
+   "company": "China Life",
+   "use": "AI claims processing and intelligent underwriting with DeepSeek LLM integration",
+   "existence": "confirmed",
+   "value": "second-level claims settlement",
+   "tier": "I",
+   "url": "https://finance.sina.com.cn",
+   "raw_sector": "Finance",
+   "date": "2025",
+   "fresh": "fresh"
+  }
+ ]
 }

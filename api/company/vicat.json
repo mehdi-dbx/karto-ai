@@ -2,23 +2,59 @@
  "slug": "vicat",
  "name": "Vicat",
  "cc": "FR",
- "vertical": "Building Materials / Cement",
- "deployments": 0,
- "confirmed": 0,
+ "vertical": "Manufacturing & Robotics",
+ "deployments": 1,
+ "confirmed": 1,
  "with_value_number": 0,
- "proof_rate": 0,
+ "proof_rate": 0.0,
  "mktcap": 2970000000.0,
  "revenue": 4158000000.0,
  "employees": 10194.0,
- "silent": true,
- "index": "SBF120",
- "per_bn_revenue": 0.0,
- "per_10k_emp": 0.0,
- "maturity": "L0",
- "maturity_evidence": [
-  "silent"
+ "silent": false,
+ "per_bn_revenue": 0.24,
+ "per_10k_emp": 0.98,
+ "benchmarks": {
+  "global_vertical": {
+   "deployments": 0,
+   "confirmed": 23,
+   "proof_rate": 0,
+   "n": 152
+  },
+  "country_vertical": {
+   "deployments": 0,
+   "confirmed": 23,
+   "proof_rate": 0,
+   "n": 14
+  }
+ },
+ "first_seen": 2025,
+ "by_year": [
+  {
+   "year": 2025,
+   "n": 1
+  }
  ],
- "prospect_score": 0,
+ "undated_pct": 0,
+ "momentum": "rising",
+ "maturity": "L3",
+ "maturity_evidence": [
+  "named_product:Acquired",
+  "tier_p"
+ ],
+ "prospect_score": 54,
  "stack": [],
- "deployments_detail": []
+ "vendor_named": false,
+ "deployments_detail": [
+  {
+   "company": "Vicat",
+   "use": "Acquired AI firm Araïko to build an industrial AI strategy for its cement and materials operations",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "P",
+   "url": "https://www.vicat.fr/actualites/vicat-accelere-sa-strategie-ia-industrielle-avec-lacquisition-daraiko-0",
+   "raw_sector": "Building Materials / Cement",
+   "date": "2025",
+   "fresh": "fresh"
+  }
+ ]
 }

@@ -2,23 +2,60 @@
  "slug": "suzano-papel-e-celulose",
  "name": "Suzano Papel e Celulose",
  "cc": "BR",
- "vertical": "Materiais básicos",
- "deployments": 0,
- "confirmed": 0,
- "with_value_number": 0,
- "proof_rate": 0,
+ "vertical": "Manufacturing & Robotics",
+ "deployments": 1,
+ "confirmed": 1,
+ "with_value_number": 1,
+ "proof_rate": 1.0,
  "mktcap": 9764814815.0,
  "revenue": 9172222222.0,
  "employees": 35000.0,
- "silent": true,
- "index": "IBOVESPA",
- "per_bn_revenue": 0.0,
- "per_10k_emp": 0.0,
- "maturity": "L0",
- "maturity_evidence": [
-  "silent"
+ "silent": false,
+ "per_bn_revenue": 0.11,
+ "per_10k_emp": 0.29,
+ "benchmarks": {
+  "global_vertical": {
+   "deployments": 0,
+   "confirmed": 23,
+   "proof_rate": 83,
+   "n": 152
+  },
+  "country_vertical": {
+   "deployments": 0,
+   "confirmed": 0,
+   "proof_rate": 50,
+   "n": 9
+  }
+ },
+ "first_seen": 2024,
+ "by_year": [
+  {
+   "year": 2024,
+   "n": 1
+  }
  ],
- "prospect_score": 0,
+ "undated_pct": 0,
+ "momentum": "early_mover,gone_quiet",
+ "maturity": "L3",
+ "maturity_evidence": [
+  "named_product:Ana",
+  "value_number",
+  "tier_p"
+ ],
+ "prospect_score": 14,
  "stack": [],
- "deployments_detail": []
+ "vendor_named": false,
+ "deployments_detail": [
+  {
+   "company": "Suzano Papel e Celulose",
+   "use": "Ana Maria generative AI (Microsoft) integrated into the cellulose cooking process at Três Lagoas to improve operational efficiency",
+   "existence": "confirmed",
+   "value": "reported 30% reduction in operational response time",
+   "tier": "P",
+   "url": "https://www.suzano.com.br/noticia/microsoft-e-suzano-desenvolvem-ia-generativa",
+   "raw_sector": "Materiais básicos",
+   "date": "2024",
+   "fresh": "aging"
+  }
+ ]
 }

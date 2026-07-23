@@ -2,23 +2,58 @@
  "slug": "vallourec",
  "name": "Vallourec",
  "cc": "FR",
- "vertical": "Steel Tubes / Oil Services",
- "deployments": 0,
+ "vertical": "Manufacturing & Robotics",
+ "deployments": 1,
  "confirmed": 0,
  "with_value_number": 0,
- "proof_rate": 0,
+ "proof_rate": 0.0,
  "mktcap": 5346000000.0,
  "revenue": 4050000000.0,
  "employees": 13000.0,
- "silent": true,
- "index": "SBF120",
- "per_bn_revenue": 0.0,
- "per_10k_emp": 0.0,
- "maturity": "L0",
- "maturity_evidence": [
-  "silent"
+ "silent": false,
+ "per_bn_revenue": 0.25,
+ "per_10k_emp": 0.77,
+ "benchmarks": {
+  "global_vertical": {
+   "deployments": 0,
+   "confirmed": 0,
+   "proof_rate": 0,
+   "n": 152
+  },
+  "country_vertical": {
+   "deployments": 0,
+   "confirmed": 0,
+   "proof_rate": 0,
+   "n": 14
+  }
+ },
+ "first_seen": 2023,
+ "by_year": [
+  {
+   "year": 2023,
+   "n": 1
+  }
  ],
- "prospect_score": 0,
+ "undated_pct": 0,
+ "momentum": "early_mover,gone_quiet",
+ "maturity": "L1",
+ "maturity_evidence": [
+  "rows_no_confirmed"
+ ],
+ "prospect_score": 40,
  "stack": [],
- "deployments_detail": []
+ "vendor_named": false,
+ "deployments_detail": [
+  {
+   "company": "Vallourec",
+   "use": "AI analyzing production process parameters affecting steel tube diameter in manufacturing",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "I",
+   "url": "https://www.adesso.de/en/adesso-branch-solutions/manufacturing-industry/referenzen/vallourec.jsp",
+   "raw_sector": "Steel Tubes / Oil Services",
+   "date": "2023",
+   "fresh": "stale"
+  }
+ ]
 }

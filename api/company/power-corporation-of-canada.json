@@ -2,23 +2,59 @@
  "slug": "power-corporation-of-canada",
  "name": "Power Corporation of Canada",
  "cc": "CA",
- "vertical": "Financials",
- "deployments": 0,
- "confirmed": 0,
- "with_value_number": 0,
- "proof_rate": 0,
+ "vertical": "Insurance",
+ "deployments": 1,
+ "confirmed": 1,
+ "with_value_number": 1,
+ "proof_rate": 1.0,
  "mktcap": 42485294118.0,
  "revenue": 29014705882.0,
  "employees": 30000.0,
- "silent": true,
- "index": "TSX60",
- "per_bn_revenue": 0.0,
- "per_10k_emp": 0.0,
- "maturity": "L0",
- "maturity_evidence": [
-  "silent"
+ "silent": false,
+ "per_bn_revenue": 0.03,
+ "per_10k_emp": 0.33,
+ "benchmarks": {
+  "global_vertical": {
+   "deployments": 0,
+   "confirmed": 14,
+   "proof_rate": 73,
+   "n": 60
+  },
+  "country_vertical": {
+   "deployments": 0,
+   "confirmed": 25,
+   "proof_rate": 25,
+   "n": 5
+  }
+ },
+ "first_seen": 2025,
+ "by_year": [
+  {
+   "year": 2025,
+   "n": 1
+  }
  ],
- "prospect_score": 0,
+ "undated_pct": 0,
+ "momentum": "rising",
+ "maturity": "L3",
+ "maturity_evidence": [
+  "named_product:Subsidiary",
+  "value_number"
+ ],
+ "prospect_score": 14,
  "stack": [],
- "deployments_detail": []
+ "vendor_named": false,
+ "deployments_detail": [
+  {
+   "company": "Power Corporation of Canada",
+   "use": "Subsidiary Canada Life deployed AI-powered contact center (Cali chatbot) on Amazon Connect across 21 business units",
+   "existence": "confirmed",
+   "value": "~$7.5M H1 2025 savings",
+   "tier": "I",
+   "url": "https://www.youtube.com/watch?v=IFIk6dk-8fI",
+   "raw_sector": "Financials",
+   "date": "2025",
+   "fresh": "fresh"
+  }
+ ]
 }

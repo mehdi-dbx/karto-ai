@@ -2,23 +2,52 @@
  "slug": "hammerson",
  "name": "Hammerson",
  "cc": "IE",
- "vertical": "Real Estate",
- "deployments": 0,
+ "vertical": "Real Estate & Construction",
+ "deployments": 1,
  "confirmed": 0,
  "with_value_number": 0,
- "proof_rate": 0,
+ "proof_rate": 0.0,
  "mktcap": 2489200000.0,
  "revenue": 335661000.0,
  "employees": 124.0,
- "silent": true,
- "index": "ISEQ20",
- "per_bn_revenue": 0.0,
- "per_10k_emp": 0.0,
- "maturity": "L0",
- "maturity_evidence": [
-  "silent"
+ "silent": false,
+ "per_bn_revenue": 2.98,
+ "per_10k_emp": 80.65,
+ "benchmarks": {
+  "global_vertical": {
+   "deployments": 0,
+   "confirmed": 0,
+   "proof_rate": 0,
+   "n": 156
+  }
+ },
+ "first_seen": 2020,
+ "by_year": [
+  {
+   "year": 2020,
+   "n": 1
+  }
  ],
- "prospect_score": 0,
+ "undated_pct": 0,
+ "momentum": "early_mover,gone_quiet",
+ "maturity": "L1",
+ "maturity_evidence": [
+  "rows_no_confirmed"
+ ],
+ "prospect_score": 40,
  "stack": [],
- "deployments_detail": []
+ "vendor_named": false,
+ "deployments_detail": [
+  {
+   "company": "Hammerson",
+   "use": "\"Crowd Checker\" tool using AI to track real-time store occupancy/footfall across destinations (Brent Cross, Cabot Circus, Westquay) via ShopperTrak virtual footfall analysis",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "I",
+   "url": "https://www.retail-systems.com/rs/Hammerson_Launches_Crowd_Checker_Tool.php",
+   "raw_sector": "Real Estate",
+   "date": "2020",
+   "fresh": "stale"
+  }
+ ]
 }

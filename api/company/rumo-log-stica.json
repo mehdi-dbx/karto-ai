@@ -2,23 +2,65 @@
  "slug": "rumo-log-stica",
  "name": "Rumo Logística",
  "cc": "BR",
- "vertical": "Bens industriais e transporte",
- "deployments": 0,
- "confirmed": 0,
- "with_value_number": 0,
- "proof_rate": 0,
+ "vertical": "Logistics & Supply Chain",
+ "deployments": 2,
+ "confirmed": 2,
+ "with_value_number": 2,
+ "proof_rate": 1.0,
  "mktcap": 4687037037.0,
  "revenue": 2622222222.0,
  "employees": 8255.0,
- "silent": true,
- "index": "IBOVESPA",
- "per_bn_revenue": 0.0,
- "per_10k_emp": 0.0,
- "maturity": "L0",
- "maturity_evidence": [
-  "silent"
+ "silent": false,
+ "per_bn_revenue": 0.76,
+ "per_10k_emp": 2.42,
+ "benchmarks": {
+  "global_vertical": {
+   "deployments": 71,
+   "confirmed": 80,
+   "proof_rate": 60,
+   "n": 66
+  }
+ },
+ "first_seen": 2025,
+ "by_year": [
+  {
+   "year": 2025,
+   "n": 2
+  }
  ],
- "prospect_score": 0,
+ "undated_pct": 0,
+ "momentum": "early_mover,rising",
+ "maturity": "L3",
+ "maturity_evidence": [
+  "named_product:RuTi",
+  "value_number",
+  "tier_p"
+ ],
+ "prospect_score": 20,
  "stack": [],
- "deployments_detail": []
+ "vendor_named": false,
+ "deployments_detail": [
+  {
+   "company": "Rumo Logística",
+   "use": "RuTi Maquinista AI/natural-language digital assistant (built in-house by NEXT) supporting 1700+ locomotive operators with manuals and protocols",
+   "existence": "confirmed",
+   "value": "supports over 1700 locomotive operators",
+   "tier": "P",
+   "url": "https://www.rumolog.com/sala-de-imprensa/ferramenta-utiliza-inteligencia-artificial-para-auxiliar-maquinistas-na-conducao-dos-trens/",
+   "raw_sector": "Bens industriais e transporte",
+   "date": "2025",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Rumo Logística",
+   "use": "AI-based detection of broken rails on the rail network",
+   "existence": "confirmed",
+   "value": "96 broken rails detected in Aug-Sep that would have been missed without AI",
+   "tier": "P",
+   "url": "https://rumolog.com/sala-de-imprensa/a-inteligencia-artificial-chegou-na-rumo/",
+   "raw_sector": "Bens industriais e transporte",
+   "date": "2025",
+   "fresh": "fresh"
+  }
+ ]
 }

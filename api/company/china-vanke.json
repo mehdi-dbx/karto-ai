@@ -2,23 +2,59 @@
  "slug": "china-vanke",
  "name": "China Vanke",
  "cc": "CN",
- "vertical": "Real Estate",
- "deployments": 0,
- "confirmed": 0,
- "with_value_number": 0,
- "proof_rate": 0,
+ "vertical": "Real Estate & Construction",
+ "deployments": 1,
+ "confirmed": 1,
+ "with_value_number": 1,
+ "proof_rate": 1.0,
  "mktcap": 4937500000.0,
  "revenue": 31162500000.0,
  "employees": 131429.0,
- "silent": true,
- "index": "CSI300",
- "per_bn_revenue": 0.0,
- "per_10k_emp": 0.0,
- "maturity": "L0",
- "maturity_evidence": [
-  "silent"
+ "silent": false,
+ "per_bn_revenue": 0.03,
+ "per_10k_emp": 0.08,
+ "benchmarks": {
+  "global_vertical": {
+   "deployments": 0,
+   "confirmed": 34,
+   "proof_rate": 69,
+   "n": 156
+  },
+  "country_vertical": {
+   "deployments": 0,
+   "confirmed": 6,
+   "proof_rate": 32,
+   "n": 32
+  }
+ },
+ "first_seen": 2025,
+ "by_year": [
+  {
+   "year": 2025,
+   "n": 1
+  }
  ],
- "prospect_score": 0,
+ "undated_pct": 0,
+ "momentum": "rising",
+ "maturity": "L3",
+ "maturity_evidence": [
+  "named_product:Keke",
+  "value_number"
+ ],
+ "prospect_score": 14,
  "stack": [],
- "deployments_detail": []
+ "vendor_named": false,
+ "deployments_detail": [
+  {
+   "company": "China Vanke",
+   "use": "Keke AI customer-service chatbot and AI Brain for smart community operations",
+   "existence": "confirmed",
+   "value": "covers 3800 communities and 6M households",
+   "tier": "I",
+   "url": "https://finance.sina.com.cn",
+   "raw_sector": "Real Estate",
+   "date": "2025-10",
+   "fresh": "fresh"
+  }
+ ]
 }

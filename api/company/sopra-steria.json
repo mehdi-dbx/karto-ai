@@ -2,23 +2,59 @@
  "slug": "sopra-steria",
  "name": "Sopra Steria",
  "cc": "FR",
- "vertical": "IT Services / Consulting",
- "deployments": 0,
- "confirmed": 0,
+ "vertical": "Technology",
+ "deployments": 1,
+ "confirmed": 1,
  "with_value_number": 0,
- "proof_rate": 0,
+ "proof_rate": 0.0,
  "mktcap": 2980800000.0,
  "revenue": 6102000000.0,
  "employees": 51275.0,
- "silent": true,
- "index": "SBF120",
- "per_bn_revenue": 0.0,
- "per_10k_emp": 0.0,
- "maturity": "L0",
- "maturity_evidence": [
-  "silent"
+ "silent": false,
+ "per_bn_revenue": 0.16,
+ "per_10k_emp": 0.2,
+ "benchmarks": {
+  "global_vertical": {
+   "deployments": 0,
+   "confirmed": 6,
+   "proof_rate": 0,
+   "n": 156
+  },
+  "country_vertical": {
+   "deployments": 0,
+   "confirmed": 0,
+   "proof_rate": 0,
+   "n": 8
+  }
+ },
+ "first_seen": 2024,
+ "by_year": [
+  {
+   "year": 2024,
+   "n": 1
+  }
  ],
- "prospect_score": 0,
+ "undated_pct": 0,
+ "momentum": "early_mover,gone_quiet",
+ "maturity": "L3",
+ "maturity_evidence": [
+  "named_product:Mistral",
+  "tier_p"
+ ],
+ "prospect_score": 54,
  "stack": [],
- "deployments_detail": []
+ "vendor_named": false,
+ "deployments_detail": [
+  {
+   "company": "Sopra Steria",
+   "use": "AI services offering plus generative AI in development platforms and Mistral AI strategic alliance",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "P",
+   "url": "https://www.soprasteria.com/fr/services/intelligence-artificielle",
+   "raw_sector": "IT Services / Consulting",
+   "date": "2024",
+   "fresh": "aging"
+  }
+ ]
 }

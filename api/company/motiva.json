@@ -2,23 +2,53 @@
  "slug": "motiva",
  "name": "Motiva",
  "cc": "BR",
- "vertical": "Bens industriais e transporte",
- "deployments": 0,
- "confirmed": 0,
+ "vertical": "Logistics & Supply Chain",
+ "deployments": 1,
+ "confirmed": 1,
  "with_value_number": 0,
- "proof_rate": 0,
+ "proof_rate": 0.0,
  "mktcap": 5477777778.0,
  "revenue": 3577777778.0,
  "employees": 16000.0,
- "silent": true,
- "index": "IBOVESPA",
- "per_bn_revenue": 0.0,
- "per_10k_emp": 0.0,
- "maturity": "L0",
- "maturity_evidence": [
-  "silent"
+ "silent": false,
+ "per_bn_revenue": 0.28,
+ "per_10k_emp": 0.62,
+ "benchmarks": {
+  "global_vertical": {
+   "deployments": 0,
+   "confirmed": 17,
+   "proof_rate": 0,
+   "n": 66
+  }
+ },
+ "first_seen": 2025,
+ "by_year": [
+  {
+   "year": 2025,
+   "n": 1
+  }
  ],
- "prospect_score": 0,
+ "undated_pct": 0,
+ "momentum": "early_mover,rising",
+ "maturity": "L3",
+ "maturity_evidence": [
+  "named_product:Generative",
+  "tier_p"
+ ],
+ "prospect_score": 54,
  "stack": [],
- "deployments_detail": []
+ "vendor_named": false,
+ "deployments_detail": [
+  {
+   "company": "Motiva",
+   "use": "Generative AI adoption across mobility infrastructure operations backed by a Center of Excellence in Generative AI (15 specialists) and innovation hub",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "P",
+   "url": "https://www.motiva.com.br/noticias/grupo-ccr-lanca-iniciativa-para-adotar-ia-generativa-em-suas-operacoes-ate-o-primeiro-semestre-de-2025/",
+   "raw_sector": "Bens industriais e transporte",
+   "date": "2025",
+   "fresh": "fresh"
+  }
+ ]
 }

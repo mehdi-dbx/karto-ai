@@ -2,23 +2,53 @@
  "slug": "slc-agr-cola",
  "name": "SLC Agrícola",
  "cc": "BR",
- "vertical": "Consumo não cíclico, alimentos, comércio/distribuição e agropecuária",
- "deployments": 0,
- "confirmed": 0,
- "with_value_number": 0,
- "proof_rate": 0,
+ "vertical": "Agriculture",
+ "deployments": 1,
+ "confirmed": 1,
+ "with_value_number": 1,
+ "proof_rate": 1.0,
  "mktcap": 1285185185.0,
  "revenue": 1572222222.0,
  "employees": 6729.0,
- "silent": true,
- "index": "IBOVESPA",
- "per_bn_revenue": 0.0,
- "per_10k_emp": 0.0,
- "maturity": "L0",
- "maturity_evidence": [
-  "silent"
+ "silent": false,
+ "per_bn_revenue": 0.64,
+ "per_10k_emp": 1.49,
+ "benchmarks": {
+  "global_vertical": {
+   "deployments": 0,
+   "confirmed": 20,
+   "proof_rate": 90,
+   "n": 11
+  }
+ },
+ "first_seen": 2024,
+ "by_year": [
+  {
+   "year": 2024,
+   "n": 1
+  }
  ],
- "prospect_score": 0,
+ "undated_pct": 0,
+ "momentum": "early_mover,gone_quiet",
+ "maturity": "L3",
+ "maturity_evidence": [
+  "named_product:Digital",
+  "value_number"
+ ],
+ "prospect_score": 14,
  "stack": [],
- "deployments_detail": []
+ "vendor_named": false,
+ "deployments_detail": [
+  {
+   "company": "SLC Agrícola",
+   "use": "Digital agriculture with embedded AI sensors for route planning plus a Centro de Inteligência Agrícola optimizing precision farming processes",
+   "existence": "confirmed",
+   "value": "over R$165 million saved via Centro de Inteligência Agrícola",
+   "tier": "I",
+   "url": "https://epocanegocios.globo.com/empresas/inovacao-de-resultado/noticia/2024/10/slc-otimiza-processos-e-economiza-mais-de-r-165-milhoes-com-centro-de-inteligencia-agricola.ghtml",
+   "raw_sector": "Consumo não cíclico, alimentos, comércio/distribuição e agropecuária",
+   "date": "2024",
+   "fresh": "aging"
+  }
+ ]
 }

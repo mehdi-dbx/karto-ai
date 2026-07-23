@@ -2,23 +2,58 @@
  "slug": "ambev",
  "name": "Ambev",
  "cc": "BR",
- "vertical": "Consumo não cíclico, alimentos, comércio/distribuição e agropecuária",
- "deployments": 0,
- "confirmed": 0,
+ "vertical": "Retail & E-commerce",
+ "deployments": 1,
+ "confirmed": 1,
  "with_value_number": 0,
- "proof_rate": 0,
+ "proof_rate": 0.0,
  "mktcap": 46346296296.0,
  "revenue": 16335185185.0,
  "employees": 39000.0,
- "silent": true,
- "index": "IBOVESPA",
- "per_bn_revenue": 0.0,
- "per_10k_emp": 0.0,
- "maturity": "L0",
- "maturity_evidence": [
-  "silent"
+ "silent": false,
+ "per_bn_revenue": 0.06,
+ "per_10k_emp": 0.26,
+ "benchmarks": {
+  "global_vertical": {
+   "deployments": 0,
+   "confirmed": 26,
+   "proof_rate": 0,
+   "n": 300
+  },
+  "country_vertical": {
+   "deployments": 0,
+   "confirmed": 0,
+   "proof_rate": 0,
+   "n": 13
+  }
+ },
+ "first_seen": 2023,
+ "by_year": [
+  {
+   "year": 2023,
+   "n": 1
+  }
  ],
- "prospect_score": 0,
+ "undated_pct": 0,
+ "momentum": "early_mover,gone_quiet",
+ "maturity": "L2",
+ "maturity_evidence": [
+  "single_confirmed"
+ ],
+ "prospect_score": 54,
  "stack": [],
- "deployments_detail": []
+ "vendor_named": false,
+ "deployments_detail": [
+  {
+   "company": "Ambev",
+   "use": "AI analyzing hundreds of data points per second and sending real-time commands to beverage production equipment to increase efficiency",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "I",
+   "url": "https://mercadoeconsumo.com.br/27/09/2023/economia/ambev-aumenta-eficiencia-com-a-implantacao-de-ia-em-suas-operacoes/",
+   "raw_sector": "Consumo não cíclico, alimentos, comércio/distribuição e agropecuária",
+   "date": "2023",
+   "fresh": "stale"
+  }
+ ]
 }

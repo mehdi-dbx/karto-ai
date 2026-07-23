@@ -2,23 +2,82 @@
  "slug": "catl-contemporary-amperex-technology",
  "name": "CATL (Contemporary Amperex Technology)",
  "cc": "CN",
- "vertical": "Industrials",
- "deployments": 0,
- "confirmed": 0,
- "with_value_number": 0,
- "proof_rate": 0,
+ "vertical": "Manufacturing & Robotics",
+ "deployments": 3,
+ "confirmed": 1,
+ "with_value_number": 2,
+ "proof_rate": 0.667,
  "mktcap": 251388888889.0,
  "revenue": 65018055556.0,
  "employees": 185839.0,
- "silent": true,
- "index": "CSI300",
- "per_bn_revenue": 0.0,
- "per_10k_emp": 0.0,
- "maturity": "L0",
- "maturity_evidence": [
-  "silent"
+ "silent": false,
+ "per_bn_revenue": 0.05,
+ "per_10k_emp": 0.16,
+ "benchmarks": {
+  "global_vertical": {
+   "deployments": 95,
+   "confirmed": 23,
+   "proof_rate": 82,
+   "n": 152
+  },
+  "country_vertical": {
+   "deployments": 100,
+   "confirmed": 42,
+   "proof_rate": 58,
+   "n": 13
+  }
+ },
+ "first_seen": 2025,
+ "by_year": [
+  {
+   "year": 2025,
+   "n": 1
+  }
  ],
- "prospect_score": 0,
+ "undated_pct": 67,
+ "momentum": "rising",
+ "maturity": "L3",
+ "maturity_evidence": [
+  "named_product:MINDS",
+  "value_number",
+  "tier_p"
+ ],
+ "prospect_score": 27,
  "stack": [],
- "deployments_detail": []
+ "vendor_named": false,
+ "deployments_detail": [
+  {
+   "company": "CATL (Contemporary Amperex Technology)",
+   "use": "AI-driven battery cell design and optimization (MINDS at WEF)",
+   "existence": "confirmed",
+   "value": "95% prediction accuracy",
+   "tier": "P",
+   "url": "https://www.catl.com/news/9556.html",
+   "raw_sector": "Industrials",
+   "date": "2025-01",
+   "fresh": "fresh"
+  },
+  {
+   "company": "CATL (Contemporary Amperex Technology)",
+   "use": "Cloud-edge-end AI surface defect detection in battery production",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "I",
+   "url": "https://www.intel.cn/content/www/cn/zh/artificial-intelligence/catl-cloud-edge-end-defect-detection-solution.html",
+   "raw_sector": "Industrials",
+   "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "CATL (Contemporary Amperex Technology)",
+   "use": "AI materials discovery for next-gen battery chemistries",
+   "existence": "claimed",
+   "value": "material screening time cut 100x",
+   "tier": "I",
+   "url": "https://evchuhai.com/news/catl-ai-battery-research-breakthrough",
+   "raw_sector": "Industrials",
+   "date": "missing",
+   "fresh": "undated"
+  }
+ ]
 }

@@ -2,23 +2,59 @@
  "slug": "sodexo",
  "name": "Sodexo",
  "cc": "FR",
- "vertical": "Food Services / Facilities Management",
- "deployments": 0,
- "confirmed": 0,
+ "vertical": "Travel & Hospitality",
+ "deployments": 1,
+ "confirmed": 1,
  "with_value_number": 0,
- "proof_rate": 0,
+ "proof_rate": 0.0,
  "mktcap": 8650800000.0,
  "revenue": 25509600000.0,
  "employees": 426464.0,
- "silent": true,
- "index": "SBF120",
- "per_bn_revenue": 0.0,
- "per_10k_emp": 0.0,
- "maturity": "L0",
- "maturity_evidence": [
-  "silent"
+ "silent": false,
+ "per_bn_revenue": 0.04,
+ "per_10k_emp": 0.02,
+ "benchmarks": {
+  "global_vertical": {
+   "deployments": 0,
+   "confirmed": 29,
+   "proof_rate": 0,
+   "n": 39
+  },
+  "country_vertical": {
+   "deployments": 0,
+   "confirmed": 0,
+   "proof_rate": 0,
+   "n": 6
+  }
+ },
+ "first_seen": 2026,
+ "by_year": [
+  {
+   "year": 2026,
+   "n": 1
+  }
  ],
- "prospect_score": 0,
+ "undated_pct": 0,
+ "momentum": "late_entrant,rising",
+ "maturity": "L3",
+ "maturity_evidence": [
+  "named_product:Kikleo",
+  "tier_p"
+ ],
+ "prospect_score": 54,
  "stack": [],
- "deployments_detail": []
+ "vendor_named": false,
+ "deployments_detail": [
+  {
+   "company": "Sodexo",
+   "use": "AI with Kikleo to reduce food waste and anticipate canteen attendance plus WasteWatch analytics",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "P",
+   "url": "https://www.sodexo.fr/blog/actualites/2026/la-technologie-a-l-assaut-du-gaspillage-alimentaire",
+   "raw_sector": "Food Services / Facilities Management",
+   "date": "2026",
+   "fresh": "fresh"
+  }
+ ]
 }

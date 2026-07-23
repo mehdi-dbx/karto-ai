@@ -2,23 +2,59 @@
  "slug": "veolia-environnement",
  "name": "Veolia Environnement",
  "cc": "FR",
- "vertical": "Utilities / Environmental Services",
- "deployments": 0,
- "confirmed": 0,
+ "vertical": "Energy & Utilities",
+ "deployments": 1,
+ "confirmed": 1,
  "with_value_number": 0,
- "proof_rate": 0,
+ "proof_rate": 0.0,
  "mktcap": 29462400000.0,
  "revenue": 47952000000.0,
  "employees": 203100.0,
- "silent": true,
- "index": "SBF120",
- "per_bn_revenue": 0.0,
- "per_10k_emp": 0.0,
- "maturity": "L0",
- "maturity_evidence": [
-  "silent"
+ "silent": false,
+ "per_bn_revenue": 0.02,
+ "per_10k_emp": 0.05,
+ "benchmarks": {
+  "global_vertical": {
+   "deployments": 0,
+   "confirmed": 20,
+   "proof_rate": 0,
+   "n": 210
+  },
+  "country_vertical": {
+   "deployments": 0,
+   "confirmed": 0,
+   "proof_rate": 0,
+   "n": 7
+  }
+ },
+ "first_seen": 2025,
+ "by_year": [
+  {
+   "year": 2025,
+   "n": 1
+  }
  ],
- "prospect_score": 0,
+ "undated_pct": 0,
+ "momentum": "rising",
+ "maturity": "L3",
+ "maturity_evidence": [
+  "named_product:Mistral",
+  "tier_p"
+ ],
+ "prospect_score": 54,
  "stack": [],
- "deployments_detail": []
+ "vendor_named": false,
+ "deployments_detail": [
+  {
+   "company": "Veolia Environnement",
+   "use": "AI to optimize waste sorting and water network management plus Mistral AI for industrial site management",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "P",
+   "url": "https://www.veolia.fr/nos-medias/communiques-presse/veolia-deploie-solution-avancee-dia-optimiser-tri-recyclage-dechets",
+   "raw_sector": "Utilities / Environmental Services",
+   "date": "2025",
+   "fresh": "fresh"
+  }
+ ]
 }

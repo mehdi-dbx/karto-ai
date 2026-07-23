@@ -2,23 +2,53 @@
  "slug": "ipsos",
  "name": "Ipsos",
  "cc": "FR",
- "vertical": "Market Research",
- "deployments": 0,
- "confirmed": 0,
- "with_value_number": 0,
- "proof_rate": 0,
+ "vertical": "Legal & Professional Services",
+ "deployments": 1,
+ "confirmed": 1,
+ "with_value_number": 1,
+ "proof_rate": 1.0,
  "mktcap": 1684800000.0,
  "revenue": 2743200000.0,
  "employees": 20921.0,
- "silent": true,
- "index": "SBF120",
- "per_bn_revenue": 0.0,
- "per_10k_emp": 0.0,
- "maturity": "L0",
- "maturity_evidence": [
-  "silent"
+ "silent": false,
+ "per_bn_revenue": 0.36,
+ "per_10k_emp": 0.48,
+ "benchmarks": {
+  "global_vertical": {
+   "deployments": 0,
+   "confirmed": 9,
+   "proof_rate": 55,
+   "n": 12
+  }
+ },
+ "first_seen": 2025,
+ "by_year": [
+  {
+   "year": 2025,
+   "n": 1
+  }
  ],
- "prospect_score": 0,
+ "undated_pct": 0,
+ "momentum": "early_mover,rising",
+ "maturity": "L3",
+ "maturity_evidence": [
+  "named_product:Plans",
+  "value_number"
+ ],
+ "prospect_score": 14,
  "stack": [],
- "deployments_detail": []
+ "vendor_named": false,
+ "deployments_detail": [
+  {
+   "company": "Ipsos",
+   "use": "Plans to invest 1.2 billion euros over five years in AI to reinvent its market-research business by 2030",
+   "existence": "confirmed",
+   "value": "EUR 1.2bn investment",
+   "tier": "I",
+   "url": "https://www.ipsos.com/fr-fr/topic/intelligence-artificielle",
+   "raw_sector": "Market Research",
+   "date": "2025",
+   "fresh": "fresh"
+  }
+ ]
 }

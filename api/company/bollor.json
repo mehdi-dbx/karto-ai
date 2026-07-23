@@ -2,23 +2,52 @@
  "slug": "bollor",
  "name": "Bolloré",
  "cc": "FR",
- "vertical": "Transport & Logistics / Holding",
- "deployments": 0,
+ "vertical": "Logistics & Supply Chain",
+ "deployments": 1,
  "confirmed": 0,
  "with_value_number": 0,
- "proof_rate": 0,
+ "proof_rate": 0.0,
  "mktcap": 11912400000.0,
  "revenue": 3164400000.0,
  "employees": 2940.0,
- "silent": true,
- "index": "SBF120",
- "per_bn_revenue": 0.0,
- "per_10k_emp": 0.0,
- "maturity": "L0",
- "maturity_evidence": [
-  "silent"
+ "silent": false,
+ "per_bn_revenue": 0.32,
+ "per_10k_emp": 3.4,
+ "benchmarks": {
+  "global_vertical": {
+   "deployments": 0,
+   "confirmed": 0,
+   "proof_rate": 0,
+   "n": 66
+  }
+ },
+ "first_seen": 2019,
+ "by_year": [
+  {
+   "year": 2019,
+   "n": 1
+  }
  ],
- "prospect_score": 0,
+ "undated_pct": 0,
+ "momentum": "early_mover,gone_quiet",
+ "maturity": "L1",
+ "maturity_evidence": [
+  "rows_no_confirmed"
+ ],
+ "prospect_score": 40,
  "stack": [],
- "deployments_detail": []
+ "vendor_named": false,
+ "deployments_detail": [
+  {
+   "company": "Bolloré",
+   "use": "AI plus IoT container tracking via Next4 partnership transmitting data to a machine learning platform",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "I",
+   "url": "https://www.alliancy.fr/bollore-transport-and-logistics-combine-ia-et-iot-pour-suivre-les-conteneurs-4ea2d784-809e-4445-a8b9-d7797972620d",
+   "raw_sector": "Transport & Logistics / Holding",
+   "date": "2019",
+   "fresh": "stale"
+  }
+ ]
 }

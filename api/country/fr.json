@@ -6,18 +6,18 @@
    2,
    47
   ],
-  "deployments": 91,
-  "companies": 39,
+  "deployments": 153,
+  "companies": 101,
   "searched": 120,
-  "confirmed": 83,
+  "confirmed": 139,
   "confirmed_pct": 91,
-  "density": 0.69,
-  "with_value_number": 25,
-  "proof_pct": 27,
+  "density": 1.16,
+  "with_value_number": 38,
+  "proof_pct": 25,
   "top_verticals": [
    {
     "v": "Retail & E-commerce",
-    "n": 21
+    "n": 25
    },
    {
     "v": "Industrial / Machinery",
@@ -25,15 +25,15 @@
    },
    {
     "v": "Financial Services",
-    "n": 11
+    "n": 15
    },
    {
     "v": "Healthcare & Life Sciences",
-    "n": 8
+    "n": 14
    },
    {
-    "v": "Technology",
-    "n": 7
+    "v": "Manufacturing & Robotics",
+    "n": 14
    }
   ]
  },
@@ -41,23 +41,31 @@
   {
    "v": "Financial Services",
    "h": "Core / Domain",
-   "n": 10,
-   "withnum": 7,
+   "n": 12,
+   "withnum": 8,
    "verdict": "strong",
    "verdict_v2": "proven"
   },
   {
    "v": "Financial Services",
    "h": "Customer Support",
+   "n": 2,
+   "withnum": 1,
+   "verdict": "strong",
+   "verdict_v2": "proven"
+  },
+  {
+   "v": "Financial Services",
+   "h": "Security / Risk",
    "n": 1,
    "withnum": 0,
    "verdict": "talk",
-   "verdict_v2": "unquantified"
+   "verdict_v2": "talk"
   },
   {
    "v": "Retail & E-commerce",
    "h": "Core / Domain",
-   "n": 12,
+   "n": 13,
    "withnum": 1,
    "verdict": "talk",
    "verdict_v2": "unquantified"
@@ -65,23 +73,23 @@
   {
    "v": "Retail & E-commerce",
    "h": "Customer Support",
-   "n": 3,
-   "withnum": 0,
-   "verdict": "talk",
-   "verdict_v2": "unquantified"
+   "n": 4,
+   "withnum": 1,
+   "verdict": "active",
+   "verdict_v2": "active"
   },
   {
    "v": "Retail & E-commerce",
    "h": "Sales / Marketing",
-   "n": 2,
+   "n": 3,
    "withnum": 1,
-   "verdict": "strong",
-   "verdict_v2": "proven"
+   "verdict": "active",
+   "verdict_v2": "active"
   },
   {
    "v": "Retail & E-commerce",
    "h": "Back-office / Ops",
-   "n": 4,
+   "n": 5,
    "withnum": 1,
    "verdict": "active",
    "verdict_v2": "active"
@@ -89,7 +97,7 @@
   {
    "v": "Energy & Utilities",
    "h": "Core / Domain",
-   "n": 3,
+   "n": 7,
    "withnum": 0,
    "verdict": "talk",
    "verdict_v2": "unquantified"
@@ -98,6 +106,38 @@
    "v": "Energy & Utilities",
    "h": "Back-office / Ops",
    "n": 3,
+   "withnum": 0,
+   "verdict": "talk",
+   "verdict_v2": "unquantified"
+  },
+  {
+   "v": "Manufacturing & Robotics",
+   "h": "Core / Domain",
+   "n": 11,
+   "withnum": 0,
+   "verdict": "talk",
+   "verdict_v2": "unquantified"
+  },
+  {
+   "v": "Manufacturing & Robotics",
+   "h": "Software / Code",
+   "n": 1,
+   "withnum": 1,
+   "verdict": "strong",
+   "verdict_v2": "proven"
+  },
+  {
+   "v": "Manufacturing & Robotics",
+   "h": "Sales / Marketing",
+   "n": 1,
+   "withnum": 0,
+   "verdict": "talk",
+   "verdict_v2": "talk"
+  },
+  {
+   "v": "Manufacturing & Robotics",
+   "h": "Back-office / Ops",
+   "n": 1,
    "withnum": 0,
    "verdict": "talk",
    "verdict_v2": "unquantified"
@@ -137,7 +177,7 @@
   {
    "v": "Healthcare & Life Sciences",
    "h": "Core / Domain",
-   "n": 7,
+   "n": 13,
    "withnum": 2,
    "verdict": "active",
    "verdict_v2": "active"
@@ -151,28 +191,20 @@
    "verdict_v2": "unquantified"
   },
   {
-   "v": "Technology",
+   "v": "Real Estate & Construction",
    "h": "Core / Domain",
-   "n": 4,
-   "withnum": 0,
-   "verdict": "talk",
-   "verdict_v2": "unquantified"
-  },
-  {
-   "v": "Technology",
-   "h": "Customer Support",
-   "n": 2,
-   "withnum": 1,
-   "verdict": "strong",
-   "verdict_v2": "proven"
-  },
-  {
-   "v": "Technology",
-   "h": "Back-office / Ops",
    "n": 1,
    "withnum": 1,
    "verdict": "strong",
    "verdict_v2": "proven"
+  },
+  {
+   "v": "Real Estate & Construction",
+   "h": "Customer Support",
+   "n": 1,
+   "withnum": 0,
+   "verdict": "talk",
+   "verdict_v2": "unquantified"
   },
   {
    "v": "Real Estate & Construction",
@@ -183,6 +215,46 @@
    "verdict_v2": "talk"
   },
   {
+   "v": "Real Estate & Construction",
+   "h": "Back-office / Ops",
+   "n": 3,
+   "withnum": 1,
+   "verdict": "active",
+   "verdict_v2": "active"
+  },
+  {
+   "v": "Technology",
+   "h": "Core / Domain",
+   "n": 6,
+   "withnum": 0,
+   "verdict": "talk",
+   "verdict_v2": "unquantified"
+  },
+  {
+   "v": "Technology",
+   "h": "Customer Support",
+   "n": 2,
+   "withnum": 1,
+   "verdict": "strong",
+   "verdict_v2": "proven"
+  },
+  {
+   "v": "Technology",
+   "h": "Software / Code",
+   "n": 2,
+   "withnum": 0,
+   "verdict": "talk",
+   "verdict_v2": "unquantified"
+  },
+  {
+   "v": "Technology",
+   "h": "Back-office / Ops",
+   "n": 2,
+   "withnum": 2,
+   "verdict": "strong",
+   "verdict_v2": "proven"
+  },
+  {
    "v": "Chemicals & Materials",
    "h": "Core / Domain",
    "n": 2,
@@ -209,10 +281,10 @@
   {
    "v": "Telecom",
    "h": "Core / Domain",
-   "n": 2,
+   "n": 3,
    "withnum": 1,
-   "verdict": "strong",
-   "verdict_v2": "proven"
+   "verdict": "active",
+   "verdict_v2": "active"
   },
   {
    "v": "Telecom",
@@ -225,15 +297,47 @@
   {
    "v": "Insurance",
    "h": "Core / Domain",
-   "n": 3,
-   "withnum": 1,
-   "verdict": "active",
-   "verdict_v2": "active"
+   "n": 5,
+   "withnum": 2,
+   "verdict": "strong",
+   "verdict_v2": "proven"
   },
   {
    "v": "Insurance",
    "h": "Customer Support",
    "n": 1,
+   "withnum": 0,
+   "verdict": "talk",
+   "verdict_v2": "unquantified"
+  },
+  {
+   "v": "Logistics & Supply Chain",
+   "h": "Core / Domain",
+   "n": 2,
+   "withnum": 1,
+   "verdict": "strong",
+   "verdict_v2": "proven"
+  },
+  {
+   "v": "Mining & Materials",
+   "h": "Core / Domain",
+   "n": 1,
+   "withnum": 0,
+   "verdict": "talk",
+   "verdict_v2": "unquantified"
+  },
+  {
+   "v": "Mining & Materials",
+   "h": "Back-office / Ops",
+   "n": 1,
+   "withnum": 0,
+   "verdict": "talk",
+   "verdict_v2": "unquantified"
+  },
+  {
+   "v": "Travel & Hospitality",
+   "h": "Core / Domain",
+   "n": 4,
    "withnum": 0,
    "verdict": "talk",
    "verdict_v2": "unquantified"
@@ -255,7 +359,39 @@
    "verdict_v2": "unquantified"
   },
   {
+   "v": "Travel & Hospitality",
+   "h": "Back-office / Ops",
+   "n": 1,
+   "withnum": 0,
+   "verdict": "talk",
+   "verdict_v2": "unquantified"
+  },
+  {
    "v": "Media / Entertainment / Gaming",
+   "h": "Core / Domain",
+   "n": 3,
+   "withnum": 2,
+   "verdict": "strong",
+   "verdict_v2": "proven"
+  },
+  {
+   "v": "Media / Entertainment / Gaming",
+   "h": "Sales / Marketing",
+   "n": 3,
+   "withnum": 1,
+   "verdict": "active",
+   "verdict_v2": "active"
+  },
+  {
+   "v": "Media / Entertainment / Gaming",
+   "h": "Back-office / Ops",
+   "n": 1,
+   "withnum": 1,
+   "verdict": "strong",
+   "verdict_v2": "proven"
+  },
+  {
+   "v": "Legal & Professional Services",
    "h": "Core / Domain",
    "n": 1,
    "withnum": 1,
@@ -269,17 +405,25 @@
    "withnum": 2,
    "verdict": "strong",
    "verdict_v2": "proven"
+  },
+  {
+   "v": "Media / Entertainment",
+   "h": "Core / Domain",
+   "n": 1,
+   "withnum": 0,
+   "verdict": "talk",
+   "verdict_v2": "unquantified"
   }
  ],
  "verticals": [
   {
    "v": "Retail & E-commerce",
-   "n": 21,
-   "confirmed": 18,
-   "withnum": 3,
-   "proof_pct": 14,
-   "verdict": "talk",
-   "verdict_v2": "unquantified"
+   "n": 25,
+   "confirmed": 22,
+   "withnum": 4,
+   "proof_pct": 16,
+   "verdict": "active",
+   "verdict_v2": "active"
   },
   {
    "v": "Industrial / Machinery",
@@ -292,39 +436,84 @@
   },
   {
    "v": "Financial Services",
-   "n": 11,
-   "confirmed": 11,
-   "withnum": 7,
-   "proof_pct": 64,
+   "n": 15,
+   "confirmed": 14,
+   "withnum": 9,
+   "proof_pct": 60,
    "verdict": "strong",
    "verdict_v2": "proven"
   },
   {
+   "v": "Manufacturing & Robotics",
+   "n": 14,
+   "confirmed": 11,
+   "withnum": 1,
+   "proof_pct": 7,
+   "verdict": "talk",
+   "verdict_v2": "unquantified"
+  },
+  {
    "v": "Healthcare & Life Sciences",
-   "n": 8,
-   "confirmed": 7,
+   "n": 14,
+   "confirmed": 12,
    "withnum": 2,
+   "proof_pct": 14,
+   "verdict": "talk",
+   "verdict_v2": "unquantified"
+  },
+  {
+   "v": "Technology",
+   "n": 12,
+   "confirmed": 12,
+   "withnum": 3,
    "proof_pct": 25,
    "verdict": "active",
    "verdict_v2": "active"
   },
   {
-   "v": "Technology",
-   "n": 7,
-   "confirmed": 7,
-   "withnum": 2,
-   "proof_pct": 29,
-   "verdict": "active",
-   "verdict_v2": "active"
-  },
-  {
    "v": "Energy & Utilities",
-   "n": 6,
-   "confirmed": 5,
+   "n": 10,
+   "confirmed": 9,
    "withnum": 0,
    "proof_pct": 0,
    "verdict": "talk",
    "verdict_v2": "unquantified"
+  },
+  {
+   "v": "Travel & Hospitality",
+   "n": 7,
+   "confirmed": 7,
+   "withnum": 0,
+   "proof_pct": 0,
+   "verdict": "talk",
+   "verdict_v2": "unquantified"
+  },
+  {
+   "v": "Media / Entertainment / Gaming",
+   "n": 7,
+   "confirmed": 7,
+   "withnum": 4,
+   "proof_pct": 57,
+   "verdict": "strong",
+   "verdict_v2": "proven"
+  },
+  {
+   "v": "Real Estate & Construction",
+   "n": 6,
+   "confirmed": 5,
+   "withnum": 3,
+   "proof_pct": 50,
+   "verdict": "strong",
+   "verdict_v2": "proven"
+  },
+  {
+   "v": "Insurance",
+   "n": 6,
+   "confirmed": 6,
+   "withnum": 2,
+   "proof_pct": 33,
+   "verdict": "active",
+   "verdict_v2": "active"
   },
   {
    "v": "Chemicals & Materials",
@@ -336,7 +525,7 @@
    "verdict_v2": "active"
   },
   {
-   "v": "Insurance",
+   "v": "Telecom",
    "n": 4,
    "confirmed": 4,
    "withnum": 1,
@@ -345,25 +534,25 @@
    "verdict_v2": "active"
   },
   {
-   "v": "Telecom",
-   "n": 3,
-   "confirmed": 3,
-   "withnum": 1,
-   "proof_pct": 33,
-   "verdict": "active",
-   "verdict_v2": "active"
-  },
-  {
    "v": "Legal & Professional Services",
-   "n": 3,
-   "confirmed": 3,
-   "withnum": 2,
-   "proof_pct": 67,
+   "n": 4,
+   "confirmed": 4,
+   "withnum": 3,
+   "proof_pct": 75,
    "verdict": "strong",
    "verdict_v2": "proven"
   },
   {
-   "v": "Travel & Hospitality",
+   "v": "Logistics & Supply Chain",
+   "n": 2,
+   "confirmed": 1,
+   "withnum": 1,
+   "proof_pct": 50,
+   "verdict": "strong",
+   "verdict_v2": "proven"
+  },
+  {
+   "v": "Mining & Materials",
    "n": 2,
    "confirmed": 2,
    "withnum": 0,
@@ -372,22 +561,13 @@
    "verdict_v2": "unquantified"
   },
   {
-   "v": "Real Estate & Construction",
-   "n": 1,
-   "confirmed": 0,
-   "withnum": 1,
-   "proof_pct": 100,
-   "verdict": "talk",
-   "verdict_v2": "talk"
-  },
-  {
-   "v": "Media / Entertainment / Gaming",
+   "v": "Media / Entertainment",
    "n": 1,
    "confirmed": 1,
-   "withnum": 1,
-   "proof_pct": 100,
-   "verdict": "strong",
-   "verdict_v2": "proven"
+   "withnum": 0,
+   "proof_pct": 0,
+   "verdict": "talk",
+   "verdict_v2": "unquantified"
   }
  ]
 }

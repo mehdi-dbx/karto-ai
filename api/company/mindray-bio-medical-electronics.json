@@ -2,23 +2,69 @@
  "slug": "mindray-bio-medical-electronics",
  "name": "Mindray Bio-Medical Electronics",
  "cc": "CN",
- "vertical": "Health Care",
- "deployments": 0,
- "confirmed": 0,
+ "vertical": "Healthcare & Life Sciences",
+ "deployments": 2,
+ "confirmed": 2,
  "with_value_number": 0,
- "proof_rate": 0,
+ "proof_rate": 0.0,
  "mktcap": 25330555556.0,
  "revenue": 4638888889.0,
  "employees": 21288.0,
- "silent": true,
- "index": "CSI300",
- "per_bn_revenue": 0.0,
- "per_10k_emp": 0.0,
- "maturity": "L0",
- "maturity_evidence": [
-  "silent"
+ "silent": false,
+ "per_bn_revenue": 0.43,
+ "per_10k_emp": 0.94,
+ "benchmarks": {
+  "global_vertical": {
+   "deployments": 87,
+   "confirmed": 91,
+   "proof_rate": 0,
+   "n": 165
+  },
+  "country_vertical": {
+   "deployments": 88,
+   "confirmed": 100,
+   "proof_rate": 0,
+   "n": 9
+  }
+ },
+ "first_seen": 2025,
+ "by_year": [
+  {
+   "year": 2025,
+   "n": 2
+  }
  ],
- "prospect_score": 0,
+ "undated_pct": 0,
+ "momentum": "rising",
+ "maturity": "L3",
+ "maturity_evidence": [
+  "named_product:Qiyuan"
+ ],
+ "prospect_score": 60,
  "stack": [],
- "deployments_detail": []
+ "vendor_named": false,
+ "deployments_detail": [
+  {
+   "company": "Mindray Bio-Medical Electronics",
+   "use": "Qiyuan breast/obstetric/cardiac ultrasound large models for real-time tissue feature detection and measurement",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "I",
+   "url": "https://finance.sina.com.cn",
+   "raw_sector": "Health Care",
+   "date": "2025-11",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Mindray Bio-Medical Electronics",
+   "use": "Ruiying Cloud++ AI Q&A knowledge assistant for ultrasound doctors using DeepSeek R1",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "I",
+   "url": "https://finance.sina.com.cn",
+   "raw_sector": "Health Care",
+   "date": "2025",
+   "fresh": "fresh"
+  }
+ ]
 }

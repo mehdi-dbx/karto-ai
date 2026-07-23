@@ -2,23 +2,59 @@
  "slug": "gtt",
  "name": "GTT",
  "cc": "FR",
- "vertical": "Engineering (LNG Containment)",
- "deployments": 0,
- "confirmed": 0,
+ "vertical": "Energy & Utilities",
+ "deployments": 1,
+ "confirmed": 1,
  "with_value_number": 0,
- "proof_rate": 0,
+ "proof_rate": 0.0,
  "mktcap": 7819200000.0,
  "revenue": 867348000.0,
  "employees": 732.0,
- "silent": true,
- "index": "SBF120",
- "per_bn_revenue": 0.0,
- "per_10k_emp": 0.0,
- "maturity": "L0",
- "maturity_evidence": [
-  "silent"
+ "silent": false,
+ "per_bn_revenue": 1.15,
+ "per_10k_emp": 13.66,
+ "benchmarks": {
+  "global_vertical": {
+   "deployments": 0,
+   "confirmed": 20,
+   "proof_rate": 0,
+   "n": 210
+  },
+  "country_vertical": {
+   "deployments": 0,
+   "confirmed": 0,
+   "proof_rate": 0,
+   "n": 7
+  }
+ },
+ "first_seen": 2025,
+ "by_year": [
+  {
+   "year": 2025,
+   "n": 1
+  }
  ],
- "prospect_score": 0,
+ "undated_pct": 0,
+ "momentum": "rising",
+ "maturity": "L3",
+ "maturity_evidence": [
+  "named_product:Ascenz",
+  "tier_p"
+ ],
+ "prospect_score": 54,
  "stack": [],
- "deployments_detail": []
+ "vendor_named": false,
+ "deployments_detail": [
+  {
+   "company": "GTT",
+   "use": "Ascenz Marorka smart-shipping unit uses advanced AI for vessel performance and voyage optimization",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "P",
+   "url": "https://www.gtt.fr/fr/actualites/ascenz-marorka-le-pole-smart-shipping-du-groupe-gtt-equipera-lensemble-de-la-flotte-du",
+   "raw_sector": "Engineering (LNG Containment)",
+   "date": "2025",
+   "fresh": "fresh"
+  }
+ ]
 }

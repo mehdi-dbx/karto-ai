@@ -2,23 +2,53 @@
  "slug": "minerva-foods",
  "name": "Minerva Foods",
  "cc": "BR",
- "vertical": "Consumo não cíclico, alimentos, comércio/distribuição e agropecuária",
- "deployments": 0,
- "confirmed": 0,
+ "vertical": "Retail & E-commerce",
+ "deployments": 1,
+ "confirmed": 1,
  "with_value_number": 0,
- "proof_rate": 0,
+ "proof_rate": 0.0,
  "mktcap": 659259259.0,
  "revenue": 10562962963.0,
  "employees": 30000.0,
- "silent": true,
- "index": "IBOVESPA",
- "per_bn_revenue": 0.0,
- "per_10k_emp": 0.0,
- "maturity": "L0",
+ "silent": false,
+ "per_bn_revenue": 0.09,
+ "per_10k_emp": 0.33,
+ "benchmarks": {
+  "global_vertical": {
+   "deployments": 0,
+   "confirmed": 26,
+   "proof_rate": 0,
+   "n": 300
+  },
+  "country_vertical": {
+   "deployments": 0,
+   "confirmed": 0,
+   "proof_rate": 0,
+   "n": 13
+  }
+ },
+ "first_seen": null,
+ "by_year": [],
+ "undated_pct": 100,
+ "momentum": "none",
+ "maturity": "L2",
  "maturity_evidence": [
-  "silent"
+  "tier_p"
  ],
- "prospect_score": 0,
+ "prospect_score": 54,
  "stack": [],
- "deployments_detail": []
+ "vendor_named": false,
+ "deployments_detail": [
+  {
+   "company": "Minerva Foods",
+   "use": "AI with special cameras in production units for real-time carcass classification and cutting precision",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "P",
+   "url": "https://minervafoods.com/noticias/inteligencia-artificial-chega-aos-frigorificos-com-a-minerva/",
+   "raw_sector": "Consumo não cíclico, alimentos, comércio/distribuição e agropecuária",
+   "date": "missing",
+   "fresh": "undated"
+  }
+ ]
 }

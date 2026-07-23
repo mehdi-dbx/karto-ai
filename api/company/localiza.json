@@ -2,23 +2,52 @@
  "slug": "localiza",
  "name": "Localiza",
  "cc": "BR",
- "vertical": "Bens industriais e transporte",
- "deployments": 0,
- "confirmed": 0,
+ "vertical": "Travel & Hospitality",
+ "deployments": 1,
+ "confirmed": 1,
  "with_value_number": 0,
- "proof_rate": 0,
+ "proof_rate": 0.0,
  "mktcap": 7531481481.0,
  "revenue": 8135185185.0,
  "employees": 23558.0,
- "silent": true,
- "index": "IBOVESPA",
- "per_bn_revenue": 0.0,
- "per_10k_emp": 0.0,
- "maturity": "L0",
- "maturity_evidence": [
-  "silent"
+ "silent": false,
+ "per_bn_revenue": 0.12,
+ "per_10k_emp": 0.42,
+ "benchmarks": {
+  "global_vertical": {
+   "deployments": 0,
+   "confirmed": 29,
+   "proof_rate": 0,
+   "n": 39
+  }
+ },
+ "first_seen": 2025,
+ "by_year": [
+  {
+   "year": 2025,
+   "n": 1
+  }
  ],
- "prospect_score": 0,
+ "undated_pct": 0,
+ "momentum": "rising",
+ "maturity": "L3",
+ "maturity_evidence": [
+  "named_product:Liza"
+ ],
+ "prospect_score": 54,
  "stack": [],
- "deployments_detail": []
+ "vendor_named": false,
+ "deployments_detail": [
+  {
+   "company": "Localiza",
+   "use": "Liza generative-AI virtual assistant (GPT-based) handling customer interactions, plus ChatGPT integration allowing customers to start a car rental via AI",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "I",
+   "url": "https://tiinside.com.br/en/10/09/2025/Localization-bets-on-artificial-intelligence-to-scale-digital-service-with-its-virtual-assistant-Liza/",
+   "raw_sector": "Bens industriais e transporte",
+   "date": "2025",
+   "fresh": "fresh"
+  }
+ ]
 }

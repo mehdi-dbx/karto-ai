@@ -2,23 +2,53 @@
  "slug": "charoen-pokphand-indonesia",
  "name": "Charoen Pokphand Indonesia",
  "cc": "ID",
- "vertical": "Food Products",
- "deployments": 0,
- "confirmed": 0,
- "with_value_number": 0,
- "proof_rate": 0,
+ "vertical": "Agriculture",
+ "deployments": 1,
+ "confirmed": 1,
+ "with_value_number": 1,
+ "proof_rate": 1.0,
  "mktcap": 3435443038.0,
  "revenue": 4474683544.0,
  "employees": 9624.0,
- "silent": true,
- "index": "LQ45",
- "per_bn_revenue": 0.0,
- "per_10k_emp": 0.0,
- "maturity": "L0",
- "maturity_evidence": [
-  "silent"
+ "silent": false,
+ "per_bn_revenue": 0.22,
+ "per_10k_emp": 1.04,
+ "benchmarks": {
+  "global_vertical": {
+   "deployments": 0,
+   "confirmed": 20,
+   "proof_rate": 90,
+   "n": 11
+  }
+ },
+ "first_seen": 2022,
+ "by_year": [
+  {
+   "year": 2022,
+   "n": 1
+  }
  ],
- "prospect_score": 0,
+ "undated_pct": 0,
+ "momentum": "early_mover,gone_quiet",
+ "maturity": "L3",
+ "maturity_evidence": [
+  "named_product:IoT",
+  "value_number"
+ ],
+ "prospect_score": 14,
  "stack": [],
- "deployments_detail": []
+ "vendor_named": false,
+ "deployments_detail": [
+  {
+   "company": "Charoen Pokphand Indonesia",
+   "use": "AI camera-tech and machine-learning smart-farming (IoT + Smart Scale) piloted with startup Pitik across CPI-affiliated broiler chicken farms to raise poultry production efficiency",
+   "existence": "confirmed",
+   "value": "piloted at 5 farms with 180000 chickens",
+   "tier": "I",
+   "url": "https://pressrelease.kontan.co.id/news/pitik-gandeng-charoen-pokphand-indonesia-untuk-melakukan-digitalisasi-peternakan-ayam",
+   "raw_sector": "Food Products",
+   "date": "2022",
+   "fresh": "stale"
+  }
+ ]
 }

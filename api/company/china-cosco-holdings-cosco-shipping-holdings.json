@@ -2,23 +2,53 @@
  "slug": "china-cosco-holdings-cosco-shipping-holdings",
  "name": "China Cosco Holdings (COSCO Shipping Holdings)",
  "cc": "CN",
- "vertical": "Industrials",
- "deployments": 0,
- "confirmed": 0,
+ "vertical": "Logistics & Supply Chain",
+ "deployments": 1,
+ "confirmed": 1,
  "with_value_number": 0,
- "proof_rate": 0,
+ "proof_rate": 0.0,
  "mktcap": 31334722222.0,
  "revenue": 29630555556.0,
  "employees": 32768.0,
- "silent": true,
- "index": "CSI300",
- "per_bn_revenue": 0.0,
- "per_10k_emp": 0.0,
- "maturity": "L0",
- "maturity_evidence": [
-  "silent"
+ "silent": false,
+ "per_bn_revenue": 0.03,
+ "per_10k_emp": 0.31,
+ "benchmarks": {
+  "global_vertical": {
+   "deployments": 0,
+   "confirmed": 17,
+   "proof_rate": 0,
+   "n": 66
+  }
+ },
+ "first_seen": 2025,
+ "by_year": [
+  {
+   "year": 2025,
+   "n": 1
+  }
  ],
- "prospect_score": 0,
+ "undated_pct": 0,
+ "momentum": "early_mover,rising",
+ "maturity": "L3",
+ "maturity_evidence": [
+  "named_product:Dolphin",
+  "tier_p"
+ ],
+ "prospect_score": 54,
  "stack": [],
- "deployments_detail": []
+ "vendor_named": false,
+ "deployments_detail": [
+  {
+   "company": "China Cosco Holdings (COSCO Shipping Holdings)",
+   "use": "Hi-Dolphin maritime large model and L4 autonomous driving for port operations",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "P",
+   "url": "https://hidolphin.myvessel.cn",
+   "raw_sector": "Industrials",
+   "date": "2025",
+   "fresh": "fresh"
+  }
+ ]
 }

@@ -2,23 +2,58 @@
  "slug": "herm-s",
  "name": "Hermès",
  "cc": "FR",
- "vertical": "Consumer Cyclical",
- "deployments": 0,
- "confirmed": 0,
+ "vertical": "Retail & E-commerce",
+ "deployments": 1,
+ "confirmed": 1,
  "with_value_number": 0,
- "proof_rate": 0,
+ "proof_rate": 0.0,
  "mktcap": 190155600000.0,
  "revenue": 17280000000.0,
  "employees": 26494.0,
- "silent": true,
- "index": "CAC40",
- "per_bn_revenue": 0.0,
- "per_10k_emp": 0.0,
- "maturity": "L0",
- "maturity_evidence": [
-  "silent"
+ "silent": false,
+ "per_bn_revenue": 0.06,
+ "per_10k_emp": 0.38,
+ "benchmarks": {
+  "global_vertical": {
+   "deployments": 0,
+   "confirmed": 26,
+   "proof_rate": 0,
+   "n": 300
+  },
+  "country_vertical": {
+   "deployments": 0,
+   "confirmed": 0,
+   "proof_rate": 0,
+   "n": 12
+  }
+ },
+ "first_seen": 2025,
+ "by_year": [
+  {
+   "year": 2025,
+   "n": 1
+  }
  ],
- "prospect_score": 0,
+ "undated_pct": 0,
+ "momentum": "rising",
+ "maturity": "L3",
+ "maturity_evidence": [
+  "named_product:Governance"
+ ],
+ "prospect_score": 54,
  "stack": [],
- "deployments_detail": []
+ "vendor_named": false,
+ "deployments_detail": [
+  {
+   "company": "Hermès",
+   "use": "AI Governance Committee established to oversee AI use across IT supply chain and internal reporting",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "I",
+   "url": "https://cpp-luxury.com/hermes-to-establish-an-artificial-intelligence-governance-committee/",
+   "raw_sector": "Consumer Cyclical",
+   "date": "2025",
+   "fresh": "fresh"
+  }
+ ]
 }

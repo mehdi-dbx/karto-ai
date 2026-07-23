@@ -2,23 +2,59 @@
  "slug": "valeo",
  "name": "Valeo",
  "cc": "FR",
- "vertical": "Automotive Parts",
- "deployments": 0,
- "confirmed": 0,
+ "vertical": "Manufacturing & Robotics",
+ "deployments": 1,
+ "confirmed": 1,
  "with_value_number": 0,
- "proof_rate": 0,
+ "proof_rate": 0.0,
  "mktcap": 3466800000.0,
  "revenue": 22269600000.0,
  "employees": 88003.0,
- "silent": true,
- "index": "SBF120",
- "per_bn_revenue": 0.0,
- "per_10k_emp": 0.0,
- "maturity": "L0",
- "maturity_evidence": [
-  "silent"
+ "silent": false,
+ "per_bn_revenue": 0.04,
+ "per_10k_emp": 0.11,
+ "benchmarks": {
+  "global_vertical": {
+   "deployments": 0,
+   "confirmed": 23,
+   "proof_rate": 0,
+   "n": 152
+  },
+  "country_vertical": {
+   "deployments": 0,
+   "confirmed": 23,
+   "proof_rate": 0,
+   "n": 14
+  }
+ },
+ "first_seen": 2024,
+ "by_year": [
+  {
+   "year": 2024,
+   "n": 1
+  }
  ],
- "prospect_score": 0,
+ "undated_pct": 0,
+ "momentum": "early_mover,gone_quiet",
+ "maturity": "L3",
+ "maturity_evidence": [
+  "named_product:ADAS",
+  "tier_p"
+ ],
+ "prospect_score": 54,
  "stack": [],
- "deployments_detail": []
+ "vendor_named": false,
+ "deployments_detail": [
+  {
+   "company": "Valeo",
+   "use": "valeo.ai research center developing AI for assisted and autonomous driving and ADAS",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "P",
+   "url": "https://www.valeo.com/en/valeo-ai/",
+   "raw_sector": "Automotive Parts",
+   "date": "2024",
+   "fresh": "aging"
+  }
+ ]
 }

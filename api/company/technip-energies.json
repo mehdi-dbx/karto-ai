@@ -2,23 +2,58 @@
  "slug": "technip-energies",
  "name": "Technip Energies",
  "cc": "FR",
- "vertical": "Energy Engineering / Oil Services",
- "deployments": 0,
- "confirmed": 0,
+ "vertical": "Energy & Utilities",
+ "deployments": 1,
+ "confirmed": 1,
  "with_value_number": 0,
- "proof_rate": 0,
+ "proof_rate": 0.0,
  "mktcap": 6469200000.0,
  "revenue": 7743600000.0,
  "employees": 18000.0,
- "silent": true,
- "index": "SBF120",
- "per_bn_revenue": 0.0,
- "per_10k_emp": 0.0,
- "maturity": "L0",
- "maturity_evidence": [
-  "silent"
+ "silent": false,
+ "per_bn_revenue": 0.13,
+ "per_10k_emp": 0.56,
+ "benchmarks": {
+  "global_vertical": {
+   "deployments": 0,
+   "confirmed": 20,
+   "proof_rate": 0,
+   "n": 210
+  },
+  "country_vertical": {
+   "deployments": 0,
+   "confirmed": 0,
+   "proof_rate": 0,
+   "n": 7
+  }
+ },
+ "first_seen": 2025,
+ "by_year": [
+  {
+   "year": 2025,
+   "n": 1
+  }
  ],
- "prospect_score": 0,
+ "undated_pct": 0,
+ "momentum": "rising",
+ "maturity": "L2",
+ "maturity_evidence": [
+  "single_confirmed"
+ ],
+ "prospect_score": 54,
  "stack": [],
- "deployments_detail": []
+ "vendor_named": false,
+ "deployments_detail": [
+  {
+   "company": "Technip Energies",
+   "use": "AI and machine learning models and intelligent data-prediction tools for engineering across 450 projects",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "I",
+   "url": "https://energyconnects.com/opinion/interviews/2025/september/ai-and-the-energy-transition-the-vision-of-technip-energies/",
+   "raw_sector": "Energy Engineering / Oil Services",
+   "date": "2025-09",
+   "fresh": "fresh"
+  }
+ ]
 }

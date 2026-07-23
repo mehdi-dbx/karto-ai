@@ -2,23 +2,59 @@
  "slug": "vivara",
  "name": "Vivara",
  "cc": "BR",
- "vertical": "Consumo cíclico e construção civil",
- "deployments": 0,
- "confirmed": 0,
- "with_value_number": 0,
- "proof_rate": 0,
+ "vertical": "Retail & E-commerce",
+ "deployments": 1,
+ "confirmed": 1,
+ "with_value_number": 1,
+ "proof_rate": 1.0,
  "mktcap": 938888889.0,
  "revenue": 572222222.0,
  "employees": 5602.0,
- "silent": true,
- "index": "IBOVESPA",
- "per_bn_revenue": 0.0,
- "per_10k_emp": 0.0,
- "maturity": "L0",
- "maturity_evidence": [
-  "silent"
+ "silent": false,
+ "per_bn_revenue": 1.75,
+ "per_10k_emp": 1.79,
+ "benchmarks": {
+  "global_vertical": {
+   "deployments": 0,
+   "confirmed": 26,
+   "proof_rate": 73,
+   "n": 300
+  },
+  "country_vertical": {
+   "deployments": 0,
+   "confirmed": 0,
+   "proof_rate": 75,
+   "n": 13
+  }
+ },
+ "first_seen": 2019,
+ "by_year": [
+  {
+   "year": 2019,
+   "n": 1
+  }
  ],
- "prospect_score": 0,
+ "undated_pct": 0,
+ "momentum": "early_mover,gone_quiet",
+ "maturity": "L3",
+ "maturity_evidence": [
+  "named_product:Criteo",
+  "value_number"
+ ],
+ "prospect_score": 14,
  "stack": [],
- "deployments_detail": []
+ "vendor_named": false,
+ "deployments_detail": [
+  {
+   "company": "Vivara",
+   "use": "AI and machine learning (Criteo) optimizing online marketing campaigns",
+   "existence": "confirmed",
+   "value": "online revenue increased 49%",
+   "tier": "I",
+   "url": "https://marcasmais.com.br/ultimas/noticias/negocios/vivara-aumenta-receita-com-inteligencia-artificial-e-machine-learning/",
+   "raw_sector": "Consumo cíclico e construção civil",
+   "date": "2019",
+   "fresh": "stale"
+  }
+ ]
 }

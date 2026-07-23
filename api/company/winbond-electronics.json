@@ -2,23 +2,58 @@
  "slug": "winbond-electronics",
  "name": "Winbond Electronics",
  "cc": "TW",
- "vertical": "Semiconductors",
- "deployments": 0,
- "confirmed": 0,
- "with_value_number": 0,
- "proof_rate": 0,
+ "vertical": "Manufacturing & Robotics",
+ "deployments": 1,
+ "confirmed": 1,
+ "with_value_number": 1,
+ "proof_rate": 1.0,
  "mktcap": 22640625000.0,
  "revenue": 3364687500.0,
  "employees": 4899.0,
- "silent": true,
- "index": "TWSE50",
- "per_bn_revenue": 0.0,
- "per_10k_emp": 0.0,
- "maturity": "L0",
- "maturity_evidence": [
-  "silent"
+ "silent": false,
+ "per_bn_revenue": 0.3,
+ "per_10k_emp": 2.04,
+ "benchmarks": {
+  "global_vertical": {
+   "deployments": 0,
+   "confirmed": 23,
+   "proof_rate": 83,
+   "n": 152
+  },
+  "country_vertical": {
+   "deployments": 0,
+   "confirmed": 38,
+   "proof_rate": 86,
+   "n": 22
+  }
+ },
+ "first_seen": 2025,
+ "by_year": [
+  {
+   "year": 2025,
+   "n": 1
+  }
  ],
- "prospect_score": 0,
+ "undated_pct": 0,
+ "momentum": "rising",
+ "maturity": "L3",
+ "maturity_evidence": [
+  "value_number"
+ ],
+ "prospect_score": 14,
  "stack": [],
- "deployments_detail": []
+ "vendor_named": false,
+ "deployments_detail": [
+  {
+   "company": "Winbond Electronics",
+   "use": "AI/data digital transformation in wafer fabs raising new-process yield above 90% within half a year and cutting headcount needs",
+   "existence": "confirmed",
+   "value": "avoids hiring ~160 extra staff/year; new-process yield >90% within 6 months",
+   "tier": "I",
+   "url": "https://www.moneydj.com/kmdj/news/newsviewer.aspx?a=0d5c3781-cd20-4261-8c95-e89ad3d657ba",
+   "raw_sector": "Semiconductors",
+   "date": "2025",
+   "fresh": "fresh"
+  }
+ ]
 }

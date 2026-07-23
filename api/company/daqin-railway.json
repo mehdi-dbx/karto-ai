@@ -2,23 +2,52 @@
  "slug": "daqin-railway",
  "name": "Daqin Railway",
  "cc": "CN",
- "vertical": "Industrials",
- "deployments": 0,
- "confirmed": 0,
- "with_value_number": 0,
- "proof_rate": 0,
+ "vertical": "Logistics & Supply Chain",
+ "deployments": 1,
+ "confirmed": 1,
+ "with_value_number": 1,
+ "proof_rate": 1.0,
  "mktcap": 13652777778.0,
  "revenue": 10890277778.0,
  "employees": 88026.0,
- "silent": true,
- "index": "CSI300",
- "per_bn_revenue": 0.0,
- "per_10k_emp": 0.0,
- "maturity": "L0",
- "maturity_evidence": [
-  "silent"
+ "silent": false,
+ "per_bn_revenue": 0.09,
+ "per_10k_emp": 0.11,
+ "benchmarks": {
+  "global_vertical": {
+   "deployments": 0,
+   "confirmed": 17,
+   "proof_rate": 60,
+   "n": 66
+  }
+ },
+ "first_seen": 2026,
+ "by_year": [
+  {
+   "year": 2026,
+   "n": 1
+  }
  ],
- "prospect_score": 0,
+ "undated_pct": 0,
+ "momentum": "late_entrant,rising",
+ "maturity": "L3",
+ "maturity_evidence": [
+  "value_number"
+ ],
+ "prospect_score": 14,
  "stack": [],
- "deployments_detail": []
+ "vendor_named": false,
+ "deployments_detail": [
+  {
+   "company": "Daqin Railway",
+   "use": "AI fault detection and autonomous heavy-haul convoy driving for 35000-ton coal trains",
+   "existence": "confirmed",
+   "value": "processes 5.8M+ inspection images per shift",
+   "tier": "I",
+   "url": "https://news.cctv.com/2026/01/21/ARTIZKIIu90l9BJCb6nMaLvF260121.shtml",
+   "raw_sector": "Industrials",
+   "date": "2026-01",
+   "fresh": "fresh"
+  }
+ ]
 }

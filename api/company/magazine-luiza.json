@@ -2,23 +2,58 @@
  "slug": "magazine-luiza",
  "name": "Magazine Luiza",
  "cc": "BR",
- "vertical": "Consumo cíclico e construção civil",
- "deployments": 0,
- "confirmed": 0,
+ "vertical": "Retail & E-commerce",
+ "deployments": 1,
+ "confirmed": 1,
  "with_value_number": 0,
- "proof_rate": 0,
+ "proof_rate": 0.0,
  "mktcap": 703703704.0,
  "revenue": 7133333333.0,
  "employees": 35000.0,
- "silent": true,
- "index": "IBOVESPA",
- "per_bn_revenue": 0.0,
- "per_10k_emp": 0.0,
- "maturity": "L0",
- "maturity_evidence": [
-  "silent"
+ "silent": false,
+ "per_bn_revenue": 0.14,
+ "per_10k_emp": 0.29,
+ "benchmarks": {
+  "global_vertical": {
+   "deployments": 0,
+   "confirmed": 26,
+   "proof_rate": 0,
+   "n": 300
+  },
+  "country_vertical": {
+   "deployments": 0,
+   "confirmed": 0,
+   "proof_rate": 0,
+   "n": 13
+  }
+ },
+ "first_seen": 2025,
+ "by_year": [
+  {
+   "year": 2025,
+   "n": 1
+  }
  ],
- "prospect_score": 0,
+ "undated_pct": 0,
+ "momentum": "rising",
+ "maturity": "L3",
+ "maturity_evidence": [
+  "named_product:WhatsApp"
+ ],
+ "prospect_score": 54,
  "stack": [],
- "deployments_detail": []
+ "vendor_named": false,
+ "deployments_detail": [
+  {
+   "company": "Magazine Luiza",
+   "use": "Lu virtual assistant given generative-AI brain to guide shopping and sell via WhatsApp (AI commerce) using voice and photo",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "I",
+   "url": "https://oglobo.globo.com/economia/negocios/noticia/2025/11/05/ai-commerce-magalu-comeca-a-operar-ferramenta-de-compras-com-inteligencia-artificial-veja-como-funciona.ghtml",
+   "raw_sector": "Consumo cíclico e construção civil",
+   "date": "2025",
+   "fresh": "fresh"
+  }
+ ]
 }

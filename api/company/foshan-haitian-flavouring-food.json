@@ -2,23 +2,58 @@
  "slug": "foshan-haitian-flavouring-food",
  "name": "Foshan Haitian Flavouring & Food",
  "cc": "CN",
- "vertical": "Consumer Staples",
- "deployments": 0,
- "confirmed": 0,
- "with_value_number": 0,
- "proof_rate": 0,
+ "vertical": "Retail & E-commerce",
+ "deployments": 1,
+ "confirmed": 1,
+ "with_value_number": 1,
+ "proof_rate": 1.0,
  "mktcap": 29362500000.0,
  "revenue": 4109722222.0,
  "employees": 9160.0,
- "silent": true,
- "index": "CSI300",
- "per_bn_revenue": 0.0,
- "per_10k_emp": 0.0,
- "maturity": "L0",
- "maturity_evidence": [
-  "silent"
+ "silent": false,
+ "per_bn_revenue": 0.24,
+ "per_10k_emp": 1.09,
+ "benchmarks": {
+  "global_vertical": {
+   "deployments": 0,
+   "confirmed": 26,
+   "proof_rate": 73,
+   "n": 300
+  },
+  "country_vertical": {
+   "deployments": 0,
+   "confirmed": 16,
+   "proof_rate": 58,
+   "n": 20
+  }
+ },
+ "first_seen": 2026,
+ "by_year": [
+  {
+   "year": 2026,
+   "n": 1
+  }
  ],
- "prospect_score": 0,
+ "undated_pct": 0,
+ "momentum": "late_entrant,rising",
+ "maturity": "L3",
+ "maturity_evidence": [
+  "value_number"
+ ],
+ "prospect_score": 14,
  "stack": [],
- "deployments_detail": []
+ "vendor_named": false,
+ "deployments_detail": [
+  {
+   "company": "Foshan Haitian Flavouring & Food",
+   "use": "AI image-recognition soybean selection and AI electronic-nose fermentation quality control",
+   "existence": "confirmed",
+   "value": "inspects 2.5 trillion soybeans/year",
+   "tier": "I",
+   "url": "https://www.haday.com/supply-chain/lighting-factory/",
+   "raw_sector": "Consumer Staples",
+   "date": "2026",
+   "fresh": "fresh"
+  }
+ ]
 }

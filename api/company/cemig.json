@@ -2,23 +2,59 @@
  "slug": "cemig",
  "name": "Cemig",
  "cc": "BR",
- "vertical": "Utilidade pública, energia e saneamento",
- "deployments": 0,
- "confirmed": 0,
+ "vertical": "Energy & Utilities",
+ "deployments": 1,
+ "confirmed": 1,
  "with_value_number": 0,
- "proof_rate": 0,
+ "proof_rate": 0.0,
  "mktcap": 6892592593.0,
  "revenue": 8031481481.0,
  "employees": 5320.0,
- "silent": true,
- "index": "IBOVESPA",
- "per_bn_revenue": 0.0,
- "per_10k_emp": 0.0,
- "maturity": "L0",
- "maturity_evidence": [
-  "silent"
+ "silent": false,
+ "per_bn_revenue": 0.12,
+ "per_10k_emp": 1.88,
+ "benchmarks": {
+  "global_vertical": {
+   "deployments": 0,
+   "confirmed": 20,
+   "proof_rate": 0,
+   "n": 210
+  },
+  "country_vertical": {
+   "deployments": 0,
+   "confirmed": 0,
+   "proof_rate": 0,
+   "n": 19
+  }
+ },
+ "first_seen": 2026,
+ "by_year": [
+  {
+   "year": 2026,
+   "n": 1
+  }
  ],
- "prospect_score": 0,
+ "undated_pct": 0,
+ "momentum": "late_entrant,rising",
+ "maturity": "L3",
+ "maturity_evidence": [
+  "named_product:EnergyGPT",
+  "tier_p"
+ ],
+ "prospect_score": 54,
  "stack": [],
- "deployments_detail": []
+ "vendor_named": false,
+ "deployments_detail": [
+  {
+   "company": "Cemig",
+   "use": "EnergyGPT generative AI platform for the electricity sector (developed with CEIA/UFG); described as first AI platform for the Latin American electric sector",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "P",
+   "url": "https://cemig.com.br/en/wp-content/uploads/sites/2/2026/06/Artificial-Intelligence-Report-2025-2026.pdf",
+   "raw_sector": "Utilidade pública, energia e saneamento",
+   "date": "2026",
+   "fresh": "fresh"
+  }
+ ]
 }

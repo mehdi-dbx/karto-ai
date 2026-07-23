@@ -2,23 +2,66 @@
  "slug": "sabesp",
  "name": "Sabesp",
  "cc": "BR",
- "vertical": "Utilidade pública, energia e saneamento",
- "deployments": 0,
- "confirmed": 0,
- "with_value_number": 0,
- "proof_rate": 0,
+ "vertical": "Energy & Utilities",
+ "deployments": 2,
+ "confirmed": 2,
+ "with_value_number": 1,
+ "proof_rate": 0.5,
  "mktcap": 19020370370.0,
  "revenue": 7338888889.0,
  "employees": 8927.0,
- "silent": true,
- "index": "IBOVESPA",
- "per_bn_revenue": 0.0,
- "per_10k_emp": 0.0,
- "maturity": "L0",
+ "silent": false,
+ "per_bn_revenue": 0.27,
+ "per_10k_emp": 2.24,
+ "benchmarks": {
+  "global_vertical": {
+   "deployments": 77,
+   "confirmed": 83,
+   "proof_rate": 67,
+   "n": 210
+  },
+  "country_vertical": {
+   "deployments": 83,
+   "confirmed": 83,
+   "proof_rate": 50,
+   "n": 19
+  }
+ },
+ "first_seen": null,
+ "by_year": [],
+ "undated_pct": 100,
+ "momentum": "none",
+ "maturity": "L3",
  "maturity_evidence": [
-  "silent"
+  "multi_horizontal",
+  "named_product:Intelligent",
+  "value_number"
  ],
- "prospect_score": 0,
+ "prospect_score": 40,
  "stack": [],
- "deployments_detail": []
+ "vendor_named": false,
+ "deployments_detail": [
+  {
+   "company": "Sabesp",
+   "use": "AI resolving digital customer service demands across digital platforms",
+   "existence": "confirmed",
+   "value": "resolves over 50% of digital demands; digital platforms handle 84% of monthly interactions",
+   "tier": "I",
+   "url": "https://canalabc.com/sabesp-consolida-uso-de-inteligencia-artificial-e-tecnologia-ja-resolve-mais-de-50-das-demandas-digitais/",
+   "raw_sector": "Utilidade pública, energia e saneamento",
+   "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "Sabesp",
+   "use": "Intelligent system monitoring sewage and water networks in real time to anticipate leaks and blockages",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "I",
+   "url": "https://www.metropoles.com/sao-paulo/sabesp-utiliza-ia-esgotos-tempo-real",
+   "raw_sector": "Utilidade pública, energia e saneamento",
+   "date": "missing",
+   "fresh": "undated"
+  }
+ ]
 }

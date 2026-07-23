@@ -2,23 +2,53 @@
  "slug": "scor-se",
  "name": "Scor SE",
  "cc": "FR",
- "vertical": "Reinsurance",
- "deployments": 0,
- "confirmed": 0,
- "with_value_number": 0,
- "proof_rate": 0,
+ "vertical": "Insurance",
+ "deployments": 1,
+ "confirmed": 1,
+ "with_value_number": 1,
+ "proof_rate": 1.0,
  "mktcap": 6382800000.0,
  "revenue": 16718400000.0,
  "employees": 3610.0,
- "silent": true,
- "index": "SBF120",
- "per_bn_revenue": 0.0,
- "per_10k_emp": 0.0,
- "maturity": "L0",
- "maturity_evidence": [
-  "silent"
+ "silent": false,
+ "per_bn_revenue": 0.06,
+ "per_10k_emp": 2.77,
+ "benchmarks": {
+  "global_vertical": {
+   "deployments": 0,
+   "confirmed": 14,
+   "proof_rate": 73,
+   "n": 60
+  }
+ },
+ "first_seen": 2024,
+ "by_year": [
+  {
+   "year": 2024,
+   "n": 1
+  }
  ],
- "prospect_score": 0,
+ "undated_pct": 0,
+ "momentum": "early_mover,gone_quiet",
+ "maturity": "L3",
+ "maturity_evidence": [
+  "named_product:Generative",
+  "value_number"
+ ],
+ "prospect_score": 14,
  "stack": [],
- "deployments_detail": []
+ "vendor_named": false,
+ "deployments_detail": [
+  {
+   "company": "Scor SE",
+   "use": "Generative AI for risk selection analyzing up to 1500 data dimensions and about 2M pages monthly",
+   "existence": "confirmed",
+   "value": "1500 data dimensions vs 40",
+   "tier": "I",
+   "url": "https://www.argusdelassurance.com/tech/comment-scor-met-l-ia-generative-au-service-d-une-meilleure-selection-du-risque.236522",
+   "raw_sector": "Reinsurance",
+   "date": "2024-05",
+   "fresh": "aging"
+  }
+ ]
 }

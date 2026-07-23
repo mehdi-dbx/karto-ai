@@ -2,23 +2,58 @@
  "slug": "sumber-alfaria-trijaya",
  "name": "Sumber Alfaria Trijaya",
  "cc": "ID",
- "vertical": "Retail",
- "deployments": 0,
+ "vertical": "Retail & E-commerce",
+ "deployments": 1,
  "confirmed": 0,
  "with_value_number": 0,
- "proof_rate": 0,
+ "proof_rate": 0.0,
  "mktcap": 3679746835.0,
  "revenue": 8021518987.0,
  "employees": 99053.0,
- "silent": true,
- "index": "LQ45",
- "per_bn_revenue": 0.0,
- "per_10k_emp": 0.0,
- "maturity": "L0",
- "maturity_evidence": [
-  "silent"
+ "silent": false,
+ "per_bn_revenue": 0.12,
+ "per_10k_emp": 0.1,
+ "benchmarks": {
+  "global_vertical": {
+   "deployments": 0,
+   "confirmed": 0,
+   "proof_rate": 0,
+   "n": 300
+  },
+  "country_vertical": {
+   "deployments": 0,
+   "confirmed": 0,
+   "proof_rate": 0,
+   "n": 6
+  }
+ },
+ "first_seen": 2023,
+ "by_year": [
+  {
+   "year": 2023,
+   "n": 1
+  }
  ],
- "prospect_score": 0,
+ "undated_pct": 0,
+ "momentum": "early_mover,gone_quiet",
+ "maturity": "L1",
+ "maturity_evidence": [
+  "rows_no_confirmed"
+ ],
+ "prospect_score": 40,
  "stack": [],
- "deployments_detail": []
+ "vendor_named": false,
+ "deployments_detail": [
+  {
+   "company": "Sumber Alfaria Trijaya",
+   "use": "Alfagift (Alfamart omnichannel grocery app) conversational commerce bot on WhatsApp built with Jio Haptik: product search by location, purchases with recommendations, real-time order tracking, FAQs and feedback",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "I",
+   "url": "https://www.haptik.ai/blog/alfagift-grocery-shopping-whatsapp-commerce-bot",
+   "raw_sector": "Retail",
+   "date": "2023",
+   "fresh": "stale"
+  }
+ ]
 }

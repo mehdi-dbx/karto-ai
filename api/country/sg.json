@@ -6,14 +6,14 @@
    103.8,
    1.35
   ],
-  "deployments": 34,
-  "companies": 19,
+  "deployments": 39,
+  "companies": 24,
   "searched": 30,
-  "confirmed": 24,
-  "confirmed_pct": 71,
-  "density": 0.8,
+  "confirmed": 25,
+  "confirmed_pct": 64,
+  "density": 0.83,
   "with_value_number": 9,
-  "proof_pct": 26,
+  "proof_pct": 23,
   "top_verticals": [
    {
     "v": "Financial Services",
@@ -21,18 +21,18 @@
    },
    {
     "v": "Real Estate & Construction",
-    "n": 6
+    "n": 9
    },
    {
     "v": "Travel & Hospitality",
+    "n": 5
+   },
+   {
+    "v": "Manufacturing & Robotics",
     "n": 4
    },
    {
     "v": "Retail & E-commerce",
-    "n": 3
-   },
-   {
-    "v": "Manufacturing & Robotics",
     "n": 3
    }
   ]
@@ -89,7 +89,7 @@
   {
    "v": "Manufacturing & Robotics",
    "h": "Core / Domain",
-   "n": 3,
+   "n": 4,
    "withnum": 0,
    "verdict": "talk",
    "verdict_v2": "talk"
@@ -97,10 +97,10 @@
   {
    "v": "Real Estate & Construction",
    "h": "Core / Domain",
-   "n": 3,
+   "n": 6,
    "withnum": 2,
-   "verdict": "strong",
-   "verdict_v2": "proven"
+   "verdict": "active",
+   "verdict_v2": "active"
   },
   {
    "v": "Real Estate & Construction",
@@ -153,7 +153,7 @@
   {
    "v": "Travel & Hospitality",
    "h": "Customer Support",
-   "n": 2,
+   "n": 3,
    "withnum": 0,
    "verdict": "talk",
    "verdict_v2": "unquantified"
@@ -179,21 +179,30 @@
   },
   {
    "v": "Real Estate & Construction",
-   "n": 6,
-   "confirmed": 5,
+   "n": 9,
+   "confirmed": 6,
    "withnum": 4,
-   "proof_pct": 67,
+   "proof_pct": 44,
    "verdict": "strong",
    "verdict_v2": "proven"
   },
   {
    "v": "Travel & Hospitality",
-   "n": 4,
+   "n": 5,
    "confirmed": 2,
    "withnum": 0,
    "proof_pct": 0,
    "verdict": "talk",
-   "verdict_v2": "unquantified"
+   "verdict_v2": "talk"
+  },
+  {
+   "v": "Manufacturing & Robotics",
+   "n": 4,
+   "confirmed": 0,
+   "withnum": 0,
+   "proof_pct": 0,
+   "verdict": "talk",
+   "verdict_v2": "talk"
   },
   {
    "v": "Retail & E-commerce",
@@ -203,15 +212,6 @@
    "proof_pct": 33,
    "verdict": "active",
    "verdict_v2": "active"
-  },
-  {
-   "v": "Manufacturing & Robotics",
-   "n": 3,
-   "confirmed": 0,
-   "withnum": 0,
-   "proof_pct": 0,
-   "verdict": "talk",
-   "verdict_v2": "talk"
   },
   {
    "v": "Energy & Utilities",

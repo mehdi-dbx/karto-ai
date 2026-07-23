@@ -2,23 +2,58 @@
  "slug": "opmobility",
  "name": "OPmobility",
  "cc": "FR",
- "vertical": "Automotive Parts",
- "deployments": 0,
- "confirmed": 0,
+ "vertical": "Manufacturing & Robotics",
+ "deployments": 1,
+ "confirmed": 1,
  "with_value_number": 0,
- "proof_rate": 0,
+ "proof_rate": 0.0,
  "mktcap": 2019600000.0,
  "revenue": 10897200000.0,
  "employees": 28258.0,
- "silent": true,
- "index": "SBF120",
- "per_bn_revenue": 0.0,
- "per_10k_emp": 0.0,
- "maturity": "L0",
- "maturity_evidence": [
-  "silent"
+ "silent": false,
+ "per_bn_revenue": 0.09,
+ "per_10k_emp": 0.35,
+ "benchmarks": {
+  "global_vertical": {
+   "deployments": 0,
+   "confirmed": 23,
+   "proof_rate": 0,
+   "n": 152
+  },
+  "country_vertical": {
+   "deployments": 0,
+   "confirmed": 23,
+   "proof_rate": 0,
+   "n": 14
+  }
+ },
+ "first_seen": 2024,
+ "by_year": [
+  {
+   "year": 2024,
+   "n": 1
+  }
  ],
- "prospect_score": 0,
+ "undated_pct": 0,
+ "momentum": "early_mover,gone_quiet",
+ "maturity": "L3",
+ "maturity_evidence": [
+  "named_product:Neural"
+ ],
+ "prospect_score": 54,
  "stack": [],
- "deployments_detail": []
+ "vendor_named": false,
+ "deployments_detail": [
+  {
+   "company": "OPmobility",
+   "use": "Neural Concept 3D generative AI platform to optimize vehicle body designs via multiphysics simulation",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "I",
+   "url": "https://www.centralcharts.com/fr/4671-plastic-omnium/news/4953403",
+   "raw_sector": "Automotive Parts",
+   "date": "2024",
+   "fresh": "aging"
+  }
+ ]
 }

@@ -2,23 +2,58 @@
  "slug": "engie-brasil",
  "name": "Engie Brasil",
  "cc": "BR",
- "vertical": "Utilidade pública, energia e saneamento",
- "deployments": 0,
- "confirmed": 0,
+ "vertical": "Energy & Utilities",
+ "deployments": 1,
+ "confirmed": 1,
  "with_value_number": 0,
- "proof_rate": 0,
+ "proof_rate": 0.0,
  "mktcap": 7948148148.0,
  "revenue": 2455555556.0,
  "employees": 1312.0,
- "silent": true,
- "index": "IBOVESPA",
- "per_bn_revenue": 0.0,
- "per_10k_emp": 0.0,
- "maturity": "L0",
- "maturity_evidence": [
-  "silent"
+ "silent": false,
+ "per_bn_revenue": 0.41,
+ "per_10k_emp": 7.62,
+ "benchmarks": {
+  "global_vertical": {
+   "deployments": 0,
+   "confirmed": 20,
+   "proof_rate": 0,
+   "n": 210
+  },
+  "country_vertical": {
+   "deployments": 0,
+   "confirmed": 0,
+   "proof_rate": 0,
+   "n": 19
+  }
+ },
+ "first_seen": 2025,
+ "by_year": [
+  {
+   "year": 2025,
+   "n": 1
+  }
  ],
- "prospect_score": 0,
+ "undated_pct": 0,
+ "momentum": "rising",
+ "maturity": "L3",
+ "maturity_evidence": [
+  "named_product:Proprietary"
+ ],
+ "prospect_score": 54,
  "stack": [],
- "deployments_detail": []
+ "vendor_named": false,
+ "deployments_detail": [
+  {
+   "company": "Engie Brasil",
+   "use": "Proprietary AI tools to monitor assets and predict failures in high-power transformers; plus SolarCleanAI platform optimizing solar-panel cleaning with AI and climate data",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "I",
+   "url": "https://cenarioenergia.com.br/2025/10/29/engie-aposta-em-inteligencia-artificial-para-prever-falhas-e-fortalecer-seguranca-de-transformadores-de-alta-potencia/",
+   "raw_sector": "Utilidade pública, energia e saneamento",
+   "date": "2025",
+   "fresh": "fresh"
+  }
+ ]
 }

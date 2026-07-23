@@ -2,23 +2,59 @@
  "slug": "hygon-information-technology",
  "name": "Hygon Information Technology",
  "cc": "CN",
- "vertical": "Information Technology",
- "deployments": 0,
- "confirmed": 0,
- "with_value_number": 0,
- "proof_rate": 0,
+ "vertical": "Manufacturing & Robotics",
+ "deployments": 1,
+ "confirmed": 1,
+ "with_value_number": 1,
+ "proof_rate": 1.0,
  "mktcap": 106830555556.0,
  "revenue": 2223611111.0,
  "employees": 3333.0,
- "silent": true,
- "index": "CSI300",
- "per_bn_revenue": 0.0,
- "per_10k_emp": 0.0,
- "maturity": "L0",
- "maturity_evidence": [
-  "silent"
+ "silent": false,
+ "per_bn_revenue": 0.45,
+ "per_10k_emp": 3.0,
+ "benchmarks": {
+  "global_vertical": {
+   "deployments": 0,
+   "confirmed": 23,
+   "proof_rate": 83,
+   "n": 152
+  },
+  "country_vertical": {
+   "deployments": 0,
+   "confirmed": 42,
+   "proof_rate": 67,
+   "n": 13
+  }
+ },
+ "first_seen": 2025,
+ "by_year": [
+  {
+   "year": 2025,
+   "n": 1
+  }
  ],
- "prospect_score": 0,
+ "undated_pct": 0,
+ "momentum": "rising",
+ "maturity": "L3",
+ "maturity_evidence": [
+  "named_product:DCU",
+  "value_number"
+ ],
+ "prospect_score": 14,
  "stack": [],
- "deployments_detail": []
+ "vendor_named": false,
+ "deployments_detail": [
+  {
+   "company": "Hygon Information Technology",
+   "use": "DCU (Deep Computing Unit) AI accelerator chips for large-model training and inference",
+   "existence": "confirmed",
+   "value": "operator coverage over 99%",
+   "tier": "I",
+   "url": "https://finance.sina.com.cn",
+   "raw_sector": "Information Technology",
+   "date": "2025",
+   "fresh": "fresh"
+  }
+ ]
 }

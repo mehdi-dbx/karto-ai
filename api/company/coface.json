@@ -2,23 +2,53 @@
  "slug": "coface",
  "name": "Coface",
  "cc": "FR",
- "vertical": "Credit Insurance",
- "deployments": 0,
- "confirmed": 0,
+ "vertical": "Insurance",
+ "deployments": 1,
+ "confirmed": 1,
  "with_value_number": 0,
- "proof_rate": 0,
+ "proof_rate": 0.0,
  "mktcap": 2613600000.0,
  "revenue": 1965600000.0,
  "employees": 5511.0,
- "silent": true,
- "index": "SBF120",
- "per_bn_revenue": 0.0,
- "per_10k_emp": 0.0,
- "maturity": "L0",
- "maturity_evidence": [
-  "silent"
+ "silent": false,
+ "per_bn_revenue": 0.51,
+ "per_10k_emp": 1.81,
+ "benchmarks": {
+  "global_vertical": {
+   "deployments": 0,
+   "confirmed": 14,
+   "proof_rate": 0,
+   "n": 60
+  }
+ },
+ "first_seen": 2023,
+ "by_year": [
+  {
+   "year": 2023,
+   "n": 1
+  }
  ],
- "prospect_score": 0,
+ "undated_pct": 0,
+ "momentum": "early_mover,gone_quiet",
+ "maturity": "L3",
+ "maturity_evidence": [
+  "named_product:Coface",
+  "tier_p"
+ ],
+ "prospect_score": 54,
  "stack": [],
- "deployments_detail": []
+ "vendor_named": false,
+ "deployments_detail": [
+  {
+   "company": "Coface",
+   "use": "Coface Score AI-powered solvency scoring combining machine learning with credit risk expertise",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "P",
+   "url": "https://www.coface.com/fr/actualites-economie-conseils-d-experts/data-technologie-de-la-smart-data-a-des-solutions-predictives-de-gestion-des-risques",
+   "raw_sector": "Credit Insurance",
+   "date": "2023",
+   "fresh": "stale"
+  }
+ ]
 }

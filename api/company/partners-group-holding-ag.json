@@ -2,23 +2,58 @@
  "slug": "partners-group-holding-ag",
  "name": "Partners Group Holding AG",
  "cc": "CH",
- "vertical": "Financials",
- "deployments": 0,
- "confirmed": 0,
+ "vertical": "Financial Services",
+ "deployments": 1,
+ "confirmed": 1,
  "with_value_number": 0,
- "proof_rate": 0,
+ "proof_rate": 0.0,
  "mktcap": 19582900000.0,
  "revenue": 2881500000.0,
  "employees": 2027.0,
- "silent": true,
- "index": "SMI",
- "per_bn_revenue": 0.0,
- "per_10k_emp": 0.0,
- "maturity": "L0",
- "maturity_evidence": [
-  "silent"
+ "silent": false,
+ "per_bn_revenue": 0.35,
+ "per_10k_emp": 4.93,
+ "benchmarks": {
+  "global_vertical": {
+   "deployments": 0,
+   "confirmed": 18,
+   "proof_rate": 0,
+   "n": 377
+  },
+  "country_vertical": {
+   "deployments": 0,
+   "confirmed": 25,
+   "proof_rate": 0,
+   "n": 5
+  }
+ },
+ "first_seen": 2023,
+ "by_year": [
+  {
+   "year": 2023,
+   "n": 1
+  }
  ],
- "prospect_score": 0,
+ "undated_pct": 0,
+ "momentum": "early_mover,gone_quiet",
+ "maturity": "L3",
+ "maturity_evidence": [
+  "named_product:Rolled"
+ ],
+ "prospect_score": 54,
  "stack": [],
- "deployments_detail": []
+ "vendor_named": false,
+ "deployments_detail": [
+  {
+   "company": "Partners Group Holding AG",
+   "use": "Rolled out an integrated generative AI programme (PRIMERA GPT / GPT-4) to its global employee base for RFP writing coding and cybersecurity behaviour analytics",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "I",
+   "url": "https://www.privateequityinternational.com/all-eyes-on-artificial-intelligence-story-of-the-year/",
+   "raw_sector": "Financials",
+   "date": "2023",
+   "fresh": "stale"
+  }
+ ]
 }

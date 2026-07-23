@@ -3,22 +3,58 @@
  "name": "HDFC Asset Management",
  "cc": "IN",
  "vertical": "Financial Services",
- "deployments": 0,
- "confirmed": 0,
+ "deployments": 1,
+ "confirmed": 1,
  "with_value_number": 0,
- "proof_rate": 0,
+ "proof_rate": 0.0,
  "mktcap": 13132530120.0,
  "revenue": 556867470.0,
  "employees": 1713.0,
- "silent": true,
- "index": "NiftyNext50",
- "per_bn_revenue": 0.0,
- "per_10k_emp": 0.0,
- "maturity": "L0",
- "maturity_evidence": [
-  "silent"
+ "silent": false,
+ "per_bn_revenue": 1.8,
+ "per_10k_emp": 5.84,
+ "benchmarks": {
+  "global_vertical": {
+   "deployments": 0,
+   "confirmed": 18,
+   "proof_rate": 0,
+   "n": 377
+  },
+  "country_vertical": {
+   "deployments": 0,
+   "confirmed": 23,
+   "proof_rate": 0,
+   "n": 23
+  }
+ },
+ "first_seen": 2024,
+ "by_year": [
+  {
+   "year": 2024,
+   "n": 1
+  }
  ],
- "prospect_score": 0,
+ "undated_pct": 0,
+ "momentum": "early_mover,gone_quiet",
+ "maturity": "L3",
+ "maturity_evidence": [
+  "named_product:HDFC",
+  "tier_p"
+ ],
+ "prospect_score": 54,
  "stack": [],
- "deployments_detail": []
+ "vendor_named": false,
+ "deployments_detail": [
+  {
+   "company": "HDFC Asset Management",
+   "use": "HDFC MF chatbot on website and WhatsApp enabling investors to query and transact in mutual fund schemes",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "P",
+   "url": "https://www.hdfcfund.com/statutory-disclosure/terms-and-conditions-chat-bot-and-whatsapp",
+   "raw_sector": "Financial Services",
+   "date": "2024",
+   "fresh": "aging"
+  }
+ ]
 }

@@ -2,23 +2,52 @@
  "slug": "posco-future-m",
  "name": "POSCO Future M",
  "cc": "KR",
- "vertical": "Industrials",
- "deployments": 0,
- "confirmed": 0,
+ "vertical": "Manufacturing & Robotics",
+ "deployments": 1,
+ "confirmed": 1,
  "with_value_number": 0,
- "proof_rate": 0,
+ "proof_rate": 0.0,
  "mktcap": 10029629630.0,
  "revenue": 2111111111.0,
  "employees": 2515.0,
- "silent": true,
- "index": "KOSPI",
- "per_bn_revenue": 0.0,
- "per_10k_emp": 0.0,
- "maturity": "L0",
- "maturity_evidence": [
-  "silent"
+ "silent": false,
+ "per_bn_revenue": 0.47,
+ "per_10k_emp": 3.98,
+ "benchmarks": {
+  "global_vertical": {
+   "deployments": 0,
+   "confirmed": 23,
+   "proof_rate": 0,
+   "n": 152
+  }
+ },
+ "first_seen": 2025,
+ "by_year": [
+  {
+   "year": 2025,
+   "n": 1
+  }
  ],
- "prospect_score": 0,
+ "undated_pct": 0,
+ "momentum": "rising",
+ "maturity": "L3",
+ "maturity_evidence": [
+  "named_product:Gwangyang"
+ ],
+ "prospect_score": 54,
  "stack": [],
- "deployments_detail": []
+ "vendor_named": false,
+ "deployments_detail": [
+  {
+   "company": "POSCO Future M",
+   "use": "AI-based quality and process automation combined with new process technology deployed at Gwangyang and Pohang cathode-material production sites to improve productivity and reduce variation",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "I",
+   "url": "https://www.thebell.co.kr/front/newsview.asp?key=202512100926256360105791",
+   "raw_sector": "Industrials",
+   "date": "2025-12",
+   "fresh": "fresh"
+  }
+ ]
 }

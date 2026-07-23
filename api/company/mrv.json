@@ -2,23 +2,59 @@
  "slug": "mrv",
  "name": "MRV",
  "cc": "BR",
- "vertical": "Consumo cíclico e construção civil",
- "deployments": 0,
- "confirmed": 0,
- "with_value_number": 0,
- "proof_rate": 0,
+ "vertical": "Real Estate & Construction",
+ "deployments": 1,
+ "confirmed": 1,
+ "with_value_number": 1,
+ "proof_rate": 1.0,
  "mktcap": 477777778.0,
  "revenue": 2111111111.0,
  "employees": 30000.0,
- "silent": true,
- "index": "IBOVESPA",
- "per_bn_revenue": 0.0,
- "per_10k_emp": 0.0,
- "maturity": "L0",
- "maturity_evidence": [
-  "silent"
+ "silent": false,
+ "per_bn_revenue": 0.47,
+ "per_10k_emp": 0.33,
+ "benchmarks": {
+  "global_vertical": {
+   "deployments": 0,
+   "confirmed": 34,
+   "proof_rate": 69,
+   "n": 156
+  },
+  "country_vertical": {
+   "deployments": 0,
+   "confirmed": 20,
+   "proof_rate": 100,
+   "n": 6
+  }
+ },
+ "first_seen": 2026,
+ "by_year": [
+  {
+   "year": 2026,
+   "n": 1
+  }
  ],
- "prospect_score": 0,
+ "undated_pct": 0,
+ "momentum": "late_entrant,rising",
+ "maturity": "L3",
+ "maturity_evidence": [
+  "named_product:Sofia",
+  "value_number"
+ ],
+ "prospect_score": 14,
  "stack": [],
- "deployments_detail": []
+ "vendor_named": false,
+ "deployments_detail": [
+  {
+   "company": "MRV",
+   "use": "Sofia generative-AI chatbot (Microsoft tech) qualifying and converting real estate leads",
+   "existence": "confirmed",
+   "value": "lead conversion raised from 20% to 70% serving 130k customers/month; R$100M/year AI investment",
+   "tier": "I",
+   "url": "https://tiinside.com.br/15/01/2026/ia-eleva-conversao-de-leads-da-mrv-de-20-para-70-e-atende-130-mil-clientes-por-mes/",
+   "raw_sector": "Consumo cíclico e construção civil",
+   "date": "2026",
+   "fresh": "fresh"
+  }
+ ]
 }

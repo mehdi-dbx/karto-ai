@@ -2,23 +2,77 @@
  "slug": "china-petroleum-chemical-corporation-sinopec",
  "name": "China Petroleum & Chemical Corporation (Sinopec)",
  "cc": "CN",
- "vertical": "Energy",
- "deployments": 0,
- "confirmed": 0,
- "with_value_number": 0,
- "proof_rate": 0,
+ "vertical": "Energy & Utilities",
+ "deployments": 2,
+ "confirmed": 2,
+ "with_value_number": 2,
+ "proof_rate": 1.0,
  "mktcap": 82277777778.0,
  "revenue": 381944444444.0,
  "employees": 351104.0,
- "silent": true,
- "index": "CSI300",
- "per_bn_revenue": 0.0,
- "per_10k_emp": 0.0,
- "maturity": "L0",
- "maturity_evidence": [
-  "silent"
+ "silent": false,
+ "per_bn_revenue": 0.01,
+ "per_10k_emp": 0.06,
+ "benchmarks": {
+  "global_vertical": {
+   "deployments": 77,
+   "confirmed": 83,
+   "proof_rate": 72,
+   "n": 210
+  },
+  "country_vertical": {
+   "deployments": 91,
+   "confirmed": 91,
+   "proof_rate": 45,
+   "n": 12
+  }
+ },
+ "first_seen": 2025,
+ "by_year": [
+  {
+   "year": 2025,
+   "n": 1
+  },
+  {
+   "year": 2026,
+   "n": 1
+  }
  ],
- "prospect_score": 0,
+ "undated_pct": 0,
+ "momentum": "rising",
+ "maturity": "L4",
+ "maturity_evidence": [
+  "multi_horizontal",
+  "named_product:Changcheng",
+  "value_number",
+  "multi_year",
+  "tier_p"
+ ],
+ "prospect_score": 20,
  "stack": [],
- "deployments_detail": []
+ "vendor_named": false,
+ "deployments_detail": [
+  {
+   "company": "China Petroleum & Chemical Corporation (Sinopec)",
+   "use": "Enterprise AI platform with 500+ digital employees deployed",
+   "existence": "confirmed",
+   "value": "500+ digital employees",
+   "tier": "P",
+   "url": "https://chinacpc.com.cn/info/2026-07-20/news_11752.html",
+   "raw_sector": "Energy",
+   "date": "2026",
+   "fresh": "fresh"
+  },
+  {
+   "company": "China Petroleum & Chemical Corporation (Sinopec)",
+   "use": "Changcheng (Great Wall) petrochemical large model (MoE up to 7T params) with DeepSeek integration",
+   "existence": "confirmed",
+   "value": "over 10bn tokens/day and 270000+ users",
+   "tier": "P",
+   "url": "https://www.sinopecgroup.com/group/000/000/067/67989.shtml",
+   "raw_sector": "Energy",
+   "date": "2025-02",
+   "fresh": "fresh"
+  }
+ ]
 }

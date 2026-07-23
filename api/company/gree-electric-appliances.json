@@ -2,23 +2,69 @@
  "slug": "gree-electric-appliances",
  "name": "Gree Electric Appliances",
  "cc": "CN",
- "vertical": "Consumer Discretionary",
- "deployments": 0,
+ "vertical": "Manufacturing & Robotics",
+ "deployments": 2,
  "confirmed": 0,
- "with_value_number": 0,
- "proof_rate": 0,
+ "with_value_number": 1,
+ "proof_rate": 0.5,
  "mktcap": 31470833333.0,
  "revenue": 23876388889.0,
  "employees": 71966.0,
- "silent": true,
- "index": "CSI300",
- "per_bn_revenue": 0.0,
- "per_10k_emp": 0.0,
- "maturity": "L0",
- "maturity_evidence": [
-  "silent"
+ "silent": false,
+ "per_bn_revenue": 0.08,
+ "per_10k_emp": 0.28,
+ "benchmarks": {
+  "global_vertical": {
+   "deployments": 68,
+   "confirmed": 0,
+   "proof_rate": 72,
+   "n": 152
+  },
+  "country_vertical": {
+   "deployments": 83,
+   "confirmed": 0,
+   "proof_rate": 42,
+   "n": 13
+  }
+ },
+ "first_seen": 2025,
+ "by_year": [
+  {
+   "year": 2025,
+   "n": 1
+  }
  ],
- "prospect_score": 0,
+ "undated_pct": 50,
+ "momentum": "rising",
+ "maturity": "L1",
+ "maturity_evidence": [
+  "rows_no_confirmed"
+ ],
+ "prospect_score": 20,
  "stack": [],
- "deployments_detail": []
+ "vendor_named": false,
+ "deployments_detail": [
+  {
+   "company": "Gree Electric Appliances",
+   "use": "Machine-learning optimization of air-conditioner energy efficiency",
+   "existence": "claimed",
+   "value": "~14% energy efficiency gain",
+   "tier": "I",
+   "url": "https://www.sohu.com/a/856234448_121798711",
+   "raw_sector": "Consumer Discretionary",
+   "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "Gree Electric Appliances",
+   "use": "AI voice-control air conditioners integrating DeepSeek R1 LLM",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "I",
+   "url": "https://www.toutiao.com/article/7480197108927087113/",
+   "raw_sector": "Consumer Discretionary",
+   "date": "2025",
+   "fresh": "fresh"
+  }
+ ]
 }

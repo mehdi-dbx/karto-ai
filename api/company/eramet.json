@@ -2,23 +2,53 @@
  "slug": "eramet",
  "name": "Eramet",
  "cc": "FR",
- "vertical": "Mining / Metals",
- "deployments": 0,
- "confirmed": 0,
+ "vertical": "Mining & Materials",
+ "deployments": 1,
+ "confirmed": 1,
  "with_value_number": 0,
- "proof_rate": 0,
+ "proof_rate": 0.0,
  "mktcap": 1317600000.0,
  "revenue": 3013200000.0,
  "employees": 8684.0,
- "silent": true,
- "index": "SBF120",
- "per_bn_revenue": 0.0,
- "per_10k_emp": 0.0,
- "maturity": "L0",
- "maturity_evidence": [
-  "silent"
+ "silent": false,
+ "per_bn_revenue": 0.33,
+ "per_10k_emp": 1.15,
+ "benchmarks": {
+  "global_vertical": {
+   "deployments": 0,
+   "confirmed": 38,
+   "proof_rate": 0,
+   "n": 61
+  }
+ },
+ "first_seen": 2026,
+ "by_year": [
+  {
+   "year": 2026,
+   "n": 1
+  }
  ],
- "prospect_score": 0,
+ "undated_pct": 0,
+ "momentum": "late_entrant,rising",
+ "maturity": "L3",
+ "maturity_evidence": [
+  "named_product:BRGM",
+  "tier_p"
+ ],
+ "prospect_score": 54,
  "stack": [],
- "deployments_detail": []
+ "vendor_named": false,
+ "deployments_detail": [
+  {
+   "company": "Eramet",
+   "use": "AI to accelerate critical-metal deposit discovery with BRGM and Lithosquare plus AI on metallurgical furnaces",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "P",
+   "url": "https://www.eramet.com/fr/news/eramet-lithosquare-et-le-brgm-unissent-leurs-expertises-et-sappuient-sur-lia-pour-accelerer-la-decouverte-de-metaux-critiques/",
+   "raw_sector": "Mining / Metals",
+   "date": "2026",
+   "fresh": "fresh"
+  }
+ ]
 }

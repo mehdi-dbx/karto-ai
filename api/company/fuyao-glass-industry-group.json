@@ -2,23 +2,53 @@
  "slug": "fuyao-glass-industry-group",
  "name": "Fuyao Glass Industry Group",
  "cc": "CN",
- "vertical": "Consumer Discretionary",
- "deployments": 0,
+ "vertical": "Manufacturing & Robotics",
+ "deployments": 1,
  "confirmed": 0,
- "with_value_number": 0,
- "proof_rate": 0,
+ "with_value_number": 1,
+ "proof_rate": 1.0,
  "mktcap": 19452777778.0,
  "revenue": 6429166667.0,
  "employees": 42541.0,
- "silent": true,
- "index": "CSI300",
- "per_bn_revenue": 0.0,
- "per_10k_emp": 0.0,
- "maturity": "L0",
+ "silent": false,
+ "per_bn_revenue": 0.16,
+ "per_10k_emp": 0.24,
+ "benchmarks": {
+  "global_vertical": {
+   "deployments": 0,
+   "confirmed": 0,
+   "proof_rate": 83,
+   "n": 152
+  },
+  "country_vertical": {
+   "deployments": 0,
+   "confirmed": 0,
+   "proof_rate": 67,
+   "n": 13
+  }
+ },
+ "first_seen": null,
+ "by_year": [],
+ "undated_pct": 100,
+ "momentum": "none",
+ "maturity": "L1",
  "maturity_evidence": [
-  "silent"
+  "rows_no_confirmed"
  ],
  "prospect_score": 0,
  "stack": [],
- "deployments_detail": []
+ "vendor_named": false,
+ "deployments_detail": [
+  {
+   "company": "Fuyao Glass Industry Group",
+   "use": "AI-powered defect detection and quality inspection in auto-glass manufacturing",
+   "existence": "claimed",
+   "value": "detection precision 0.05mm",
+   "tier": "I",
+   "url": "https://www.glacn.cn/news/show-19796.html",
+   "raw_sector": "Consumer Discretionary",
+   "date": "missing",
+   "fresh": "undated"
+  }
+ ]
 }

@@ -2,23 +2,59 @@
  "slug": "copel",
  "name": "Copel",
  "cc": "BR",
- "vertical": "Utilidade pública, energia e saneamento",
- "deployments": 0,
- "confirmed": 0,
- "with_value_number": 0,
- "proof_rate": 0,
+ "vertical": "Energy & Utilities",
+ "deployments": 1,
+ "confirmed": 1,
+ "with_value_number": 1,
+ "proof_rate": 1.0,
  "mktcap": 4870370370.0,
  "revenue": 4111111111.0,
  "employees": 4396.0,
- "silent": true,
- "index": "IBOVESPA",
- "per_bn_revenue": 0.0,
- "per_10k_emp": 0.0,
- "maturity": "L0",
- "maturity_evidence": [
-  "silent"
+ "silent": false,
+ "per_bn_revenue": 0.24,
+ "per_10k_emp": 2.27,
+ "benchmarks": {
+  "global_vertical": {
+   "deployments": 0,
+   "confirmed": 20,
+   "proof_rate": 72,
+   "n": 210
+  },
+  "country_vertical": {
+   "deployments": 0,
+   "confirmed": 0,
+   "proof_rate": 67,
+   "n": 19
+  }
+ },
+ "first_seen": 2026,
+ "by_year": [
+  {
+   "year": 2026,
+   "n": 1
+  }
  ],
- "prospect_score": 0,
+ "undated_pct": 0,
+ "momentum": "late_entrant,rising",
+ "maturity": "L3",
+ "maturity_evidence": [
+  "named_product:BlueShift",
+  "value_number"
+ ],
+ "prospect_score": 14,
  "stack": [],
- "deployments_detail": []
+ "vendor_named": false,
+ "deployments_detail": [
+  {
+   "company": "Copel",
+   "use": "AI predictive analytics forecasting customer payment behavior and optimizing working capital for 5.2M clients plus preventive equipment failure detection (BlueShift partnership)",
+   "existence": "confirmed",
+   "value": "R$18M projected annual revenue",
+   "tier": "I",
+   "url": "https://itsection.com.br/2026/07/15/blueshift-e-copel-geram-r-18-milhoes-com-ia/",
+   "raw_sector": "Utilidade pública, energia e saneamento",
+   "date": "2026",
+   "fresh": "fresh"
+  }
+ ]
 }
