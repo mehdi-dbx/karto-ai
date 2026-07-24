@@ -1672,9 +1672,10 @@ function drawUsecases() {{
 // diffusion timeline strip: SVG, year to scale on x, a dot per country at first_seen,
 // dots stacked vertically on year collisions, small labels. Discrete dots (no curve) =
 // honest about estimate-grade data. Shows the shape a sorted list hides.
+const DIFF_SHORT={{'United Arab Emirates':'UAE','United States':'USA','United Kingdom':'UK','South Korea':'S. Korea','South Africa':'S. Africa','Saudi Arabia':'Saudi Arabia','Netherlands':'Netherlands'}};
 function diffusionStrip(diff) {{
   const names={{}}; ATLAS.countries.forEach(c=>names[c.cc]=c.name);
-  const pts=diff.filter(d=>d.first_year).map(d=>({{cc:d.cc, y:d.first_year, name:names[d.cc]||d.cc}}));
+  const pts=diff.filter(d=>d.first_year).map(d=>{{const nm=names[d.cc]||d.cc; return {{cc:d.cc, y:d.first_year, name:DIFF_SHORT[nm]||nm}};}});
   if(!pts.length) return '';
   const yrs=pts.map(p=>p.y); let y0=Math.min(...yrs), y1=Math.max(...yrs);
   if(y1===y0) y1=y0+1;                       // avoid zero-width axis for single-year patterns
