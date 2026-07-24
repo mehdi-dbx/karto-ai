@@ -258,23 +258,23 @@ a:hover {{ text-decoration: underline; }}
 #cmpTable th, #cmpTable td {{ text-align:left; padding:9px 14px; border-bottom:1px solid var(--hair); font-size:13.5px; font-family:var(--font-ui); }}
 #cmpTable th:first-child, #cmpTable td:first-child {{ color:var(--muted); }}
 #cmpTable td.cmp-best {{ color:var(--v-strong); font-weight:600; }}
-/* D2 — visual side-by-side compare (bars per metric, one row per company) */
-.cmp-visual {{ margin-top:22px; display:flex; flex-direction:column; gap:26px; }}
-.cmp-legend {{ display:flex; gap:16px; flex-wrap:wrap; font-family:var(--font-ui); font-size:12px; color:var(--muted); }}
-.cmp-legend .k {{ display:flex; align-items:center; gap:6px; }}
-.cmp-legend .sw {{ width:20px; height:8px; border-radius:4px; }}
-.cmp-metric {{ }}
-.cmp-metric > .lbl {{ font-family:var(--font-ui); font-size:12px; letter-spacing:.04em; text-transform:uppercase; color:var(--muted); margin-bottom:9px; }}
-.cmp-grid {{ display:grid; grid-template-columns:minmax(96px,150px) 1fr auto; align-items:center; row-gap:8px; column-gap:14px; }}
-.cmp-grid .co {{ font-family:var(--font-ui); font-size:12.5px; color:var(--ink-2); white-space:nowrap; overflow:hidden; text-overflow:ellipsis; }}
-.cmp-track {{ position:relative; height:16px; background:var(--surface-2); border-radius:8px; overflow:hidden; }}
-.cmp-fill {{ position:absolute; inset:0 auto 0 0; border-radius:8px; background:color-mix(in srgb, var(--accent) 32%, var(--surface)); transition:width .4s ease; min-width:3px; }}
-.cmp-fill.best {{ background:var(--accent); }}
-.cmp-val {{ font-family:var(--font-ui); font-variant-numeric:tabular-nums; font-size:12.5px; color:var(--ink-2); text-align:right; white-space:nowrap; }}
-.cmp-val.best {{ color:var(--ink); font-weight:600; }}
+/* D2 — visual compare: overlaid radar (each company = one shape) */
+.cmp-visual {{ margin-top:22px; display:flex; flex-wrap:wrap; gap:28px; align-items:flex-start; }}
+.cmp-radar {{ flex:1 1 380px; max-width:520px; }}
+.cmp-radar svg {{ width:100%; height:auto; overflow:visible; }}
+.cmp-side {{ flex:0 1 260px; display:flex; flex-direction:column; gap:16px; }}
+.cmp-legend {{ display:flex; flex-direction:column; gap:8px; font-family:var(--font-ui); font-size:13px; }}
+.cmp-legend .k {{ display:flex; align-items:center; gap:9px; color:var(--ink-2); }}
+.cmp-legend .k a {{ color:var(--ink-2); }} .cmp-legend .k a:hover {{ color:var(--accent); }}
+.cmp-legend .sw {{ width:15px; height:15px; border-radius:4px; flex:none; }}
+.cmp-note {{ font-family:var(--font-ui); font-size:11.5px; color:var(--muted); line-height:1.5; }}
 .cmp-tags {{ display:flex; flex-wrap:wrap; gap:6px; }}
 .cmp-tag {{ font-family:var(--font-ui); font-size:11px; padding:2px 8px; border-radius:999px; border:1px solid var(--hair); color:var(--ink-2); background:var(--surface); }}
-.cmp-note {{ font-family:var(--font-ui); font-size:11.5px; color:var(--muted); }}
+.radar-axis {{ stroke:var(--hair); stroke-width:1; }}
+.radar-ring {{ fill:none; stroke:var(--hair); stroke-width:.6; }}
+.radar-alab {{ font-family:var(--font-ui); font-size:10.5px; fill:var(--muted); }}
+.radar-shape {{ stroke-width:2; fill-opacity:.12; stroke-linejoin:round; }}
+.radar-dot {{ r:3; }}
 /* D3 persona tiles */
 .personas {{ display:grid; grid-template-columns:repeat(auto-fit,minmax(200px,1fr)); gap:16px; margin-top:44px; max-width:920px; }}
 /* V3 question menu (home) */
@@ -1352,45 +1352,79 @@ function cmpAdd(slug) {{
 }}
 function cmpRemove(slug) {{ cmpSlugs=cmpSlugs.filter(s=>s!==slug); syncCmpUrl(); drawCompare(); }}
 function syncCmpUrl() {{ const h='/compare'+(cmpSlugs.length?'?c='+cmpSlugs.join(','):''); if(location.hash!=='#'+h) history.replaceState(null,'','#'+h); }}
-// metrics that render as magnitude bars; the rest (momentum, first_seen) render as tags/values
-const CMP_BAR={{deployments:1,confirmed:1,proof_rate:1,maturity:1,pct_dep:1}};
-const CMP_MATLAB={{0:'L0',1:'L1',2:'L2',3:'L3',4:'L4'}};
+// CVD-safe qualitative series colors (Okabe–Ito), fixed order — color follows the entity slot
+const CMP_SERIES=['#0072B2','#E69F00','#009E73','#CC79A7','#D55E00'];
+// the 5 numeric axes that form the radar (ordinal maturity + percentile included; both bounded)
+const RADAR_AXES=['deployments','confirmed','proof_rate','maturity','pct_dep'];
+// build the overlaid-radar SVG: one polygon per company, axes normalized to the set max
+function radarSVG(cmp, byKey) {{
+  const axes=RADAR_AXES.map(k=>byKey[k]).filter(Boolean);
+  const N=axes.length, S=340, C=S/2, R=S/2-46;
+  // per-axis max across the compared companies (min 1 to avoid /0)
+  const rawOf=m=>(m.raw||m.values.map(Number)).map(v=>(typeof v==='number'&&!isNaN(v))?v:0);
+  const maxes=axes.map(m=>Math.max(1,...rawOf(m)));
+  const ang=i=>(-Math.PI/2)+i*(2*Math.PI/N);              // start at top, clockwise
+  const pt=(i,t)=>[C+R*t*Math.cos(ang(i)), C+R*t*Math.sin(ang(i))];
+  // rings + spokes
+  let grid='';
+  [0.25,0.5,0.75,1].forEach(t=>{{
+    const pts=axes.map((_,i)=>pt(i,t).map(n=>n.toFixed(1)).join(',')).join(' ');
+    grid+=`<polygon class="radar-ring" points="${{pts}}"/>`;
+  }});
+  axes.forEach((_,i)=>{{ const[x,y]=pt(i,1); grid+=`<line class="radar-axis" x1="${{C}}" y1="${{C}}" x2="${{x.toFixed(1)}}" y2="${{y.toFixed(1)}}"/>`; }});
+  // axis labels (short) just outside the outer ring
+  const short={{deployments:'Deployments',confirmed:'Confirmed',proof_rate:'Quantified',maturity:'Maturity',pct_dep:'Peer pctile'}};
+  let labs='';
+  axes.forEach((m,i)=>{{ const[x,y]=pt(i,1.16); const a=ang(i);
+    const anchor=Math.abs(Math.cos(a))<0.3?'middle':(Math.cos(a)>0?'start':'end');
+    labs+=`<text class="radar-alab" x="${{x.toFixed(1)}}" y="${{(y+3).toFixed(1)}}" text-anchor="${{anchor}}">${{short[m.key]||esc(m.label)}}</text>`;
+  }});
+  // one shape per company
+  let shapes='';
+  cmp.entities.forEach((c,ci)=>{{
+    const col=CMP_SERIES[ci];
+    const coords=axes.map((m,i)=>{{ const t=Math.max(0,Math.min(1, rawOf(m)[ci]/maxes[i])); return pt(i,t); }});
+    const pts=coords.map(p=>p.map(n=>n.toFixed(1)).join(',')).join(' ');
+    shapes+=`<polygon class="radar-shape" points="${{pts}}" stroke="${{col}}" fill="${{col}}"/>`;
+    shapes+=coords.map(p=>`<circle class="radar-dot" cx="${{p[0].toFixed(1)}}" cy="${{p[1].toFixed(1)}}" fill="${{col}}"/>`).join('');
+  }});
+  return `<svg viewBox="0 0 ${{S}} ${{S}}" role="img" aria-label="Radar comparing ${{cmp.entities.map(c=>c.name).join(', ')}} across ${{axes.map(m=>m.label).join(', ')}}">`
+    + grid + labs + shapes + `</svg>`;
+}}
+// non-magnitude metrics beside the chart: momentum tags + first-seen year per company
+function sidePanel(cmp, byKey) {{
+  const mom=byKey['momentum'], fs=byKey['first_seen']; if(!mom&&!fs) return '';
+  return cmp.entities.map((c,i)=>{{
+    const tags=mom?String(mom.values[i]).split(', ').filter(t=>t&&t!=='—')
+      .map(t=>`<span class="cmp-tag">${{esc(t.replace(/_/g,' '))}}</span>`).join(''):'';
+    const year=fs?esc(String(fs.values[i])):'';
+    return `<div class="cmp-mom"><div class="k" style="display:flex;align-items:center;gap:9px;margin-bottom:5px">`
+      + `<span class="sw" style="width:11px;height:11px;border-radius:3px;background:${{CMP_SERIES[i]}}"></span>`
+      + `<b style="font-family:var(--font-ui);font-size:12.5px;color:var(--ink)">${{esc(c.name)}}</b>`
+      + `<span class="cmp-note" style="margin-left:auto">first seen ${{year||'—'}}</span></div>`
+      + `<div class="cmp-tags">${{tags||'<span class="cmp-note">no momentum signal</span>'}}</div></div>`;
+  }}).join('');
+}}
 function drawCompare() {{
-  document.getElementById('cmpChips').innerHTML=cmpSlugs.map(s=>{{
-    const c=COMP_BY_SLUG[s]; return `<span class="cmp-chip">${{esc(c.name)}} <b onclick="cmpRemove('${{s}}')">✕</b></span>`;
+  document.getElementById('cmpChips').innerHTML=cmpSlugs.map((s,i)=>{{
+    const c=COMP_BY_SLUG[s];
+    return `<span class="cmp-chip"><span class="sw" style="display:inline-block;width:9px;height:9px;border-radius:2px;background:${{CMP_SERIES[i]}};margin-right:6px;vertical-align:middle"></span>${{esc(c.name)}} <b onclick="cmpRemove('${{s}}')">✕</b></span>`;
   }}).join('');
   const host=document.getElementById('cmpVisual'), tbl=document.getElementById('cmpTable'), wrap=document.getElementById('cmpTableWrap');
   if(cmpSlugs.length<2){{ host.innerHTML='<p class="cmp-note" style="padding:16px 0">Add at least two companies to compare.</p>'; wrap.hidden=true; return; }}
   const cmp=compareCompanies(cmpSlugs);
-  // per-metric best index (min/max on the raw numbers)
-  const bestOf=m=>{{ if(m.best==='none') return -1;
+  const byKey={{}}; cmp.metrics.forEach(m=>byKey[m.key]=m);
+  const bestOf=m=>{{ if(!m||m.best==='none') return -1;
     const arr=m.raw||m.values.map(Number); const valid=arr.map((v,i)=>[v,i]).filter(x=>typeof x[0]==='number'&&!isNaN(x[0]));
     if(!valid.length) return -1; valid.sort((a,b)=>m.best==='max'?b[0]-a[0]:a[0]-b[0]); return valid[0][1]; }};
 
-  // ---- visual: one block per metric, a labelled bar per company ----
-  host.innerHTML = cmp.metrics.map(m=>{{
-    const best=bestOf(m);
-    const rows = cmp.entities.map((c,i)=>{{
-      const isBest = i===best, name=esc(c.name);
-      if(CMP_BAR[m.key]){{
-        const raw=(m.raw||m.values.map(Number)); const max=Math.max(...raw.filter(x=>typeof x==='number'&&!isNaN(x)),0)||1;
-        const w=Math.max(3, 100*(raw[i]||0)/max);
-        const shown = m.key==='maturity' ? CMP_MATLAB[raw[i]]||m.values[i] : m.values[i];
-        return `<div class="co" title="${{name}}">${{name}}</div>`
-          + `<div class="cmp-track"><div class="cmp-fill${{isBest?' best':''}}" style="width:${{w}}%"></div></div>`
-          + `<div class="cmp-val${{isBest?' best':''}}">${{esc(String(shown))}}</div>`;
-      }}
-      // categorical / year: no bar — a value chip on the right, tags for momentum
-      const cell = m.key==='momentum'
-        ? `<div class="cmp-tags">${{String(m.values[i]).split(', ').filter(t=>t&&t!=='—').map(t=>`<span class="cmp-tag">${{esc(t.replace(/_/g,' '))}}</span>`).join('')||'<span class="cmp-note">—</span>'}}</div>`
-        : `<div class="cmp-note">${{esc(String(m.values[i]))}}</div>`;
-      return `<div class="co" title="${{name}}">${{name}}</div>`
-        + `<div>${{cell}}</div>`
-        + `<div class="cmp-val${{isBest?' best':''}}">${{isBest && m.key==='first_seen' ? 'earliest' : ''}}</div>`;
-    }}).join('');
-    return `<div class="cmp-metric"><div class="lbl">${{esc(m.label)}}</div><div class="cmp-grid">${{rows}}</div></div>`;
-  }}).join('')
-    + `<p class="cmp-note">Bars scale to the highest value in each row; the leader is filled solid. Momentum and first-seen are shown as-is (not magnitudes).</p>`;
+  host.innerHTML = `<div class="cmp-radar">${{radarSVG(cmp,byKey)}}</div>`
+    + `<div class="cmp-side">`
+    +   `<div class="cmp-legend">` + cmp.entities.map((c,i)=>
+          `<div class="k"><span class="sw" style="background:${{CMP_SERIES[i]}}"></span><a class="colink" href="#/company/${{c.slug}}">${{esc(c.name)}}</a></div>`).join('') + `</div>`
+    +   sidePanel(cmp,byKey)
+    +   `<p class="cmp-note">Each axis is normalized to the highest value among the companies shown, so the radar compares shape and balance — read exact numbers in the table below. Maturity (L0–L4) and peer percentile are bounded scales; momentum and first-seen aren't magnitudes, so they sit beside the chart.</p>`
+    + `</div>`;
 
   // ---- exact-values table twin (a11y + precise numbers), collapsed by default ----
   let html='<thead><tr><th>Metric</th>'+cmp.entities.map(c=>`<th><a class="colink" href="#/company/${{c.slug}}">${{esc(c.name)}}</a></th>`).join('')+'</tr></thead><tbody>';
