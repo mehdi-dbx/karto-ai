@@ -1789,9 +1789,11 @@ function renderOpen() {{
   }}
   drawOpen();
 }}
-// one fixed colour per business function (CVD-safe Okabe–Ito), assigned in horizontal order
+// one fixed colour per business function — an earthy set tuned to the site's warm cream/amber
+// palette (amber · muted teal · rust · plum · olive · slate). Colour is grouping decoration;
+// every pill also carries its function name, so identity never rests on colour alone.
 const FN_COLOR={{}};
-['#0072B2','#E69F00','#009E73','#CC79A7','#D55E00','#56B4E9'].forEach((c,i)=>{{
+['#c0862b','#2f7d84','#a0472c','#7d5a86','#6f6a2c','#4a6a92'].forEach((c,i)=>{{
   const h=(ATLAS.horizontals||[])[i]; if(h) FN_COLOR[h]=c;
 }});
 function fnPill(h) {{
