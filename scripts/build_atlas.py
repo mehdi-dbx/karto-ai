@@ -289,16 +289,6 @@ a.vchip:hover {{ border-color:var(--accent); color:var(--accent); text-decoratio
 .since-visit a {{ font-family:var(--font-ui); font-size:13px; color:var(--ink); text-decoration:none; background:color-mix(in srgb,var(--accent) 12%,var(--surface)); border:1px solid var(--hair); border-radius:999px; padding:8px 15px; display:inline-block; }}
 .since-visit a:hover {{ border-color:var(--accent); text-decoration:none; }}
 .since-visit b {{ color:var(--accent); }}
-/* B7 insights feed */
-.insfeed {{ display:grid; grid-template-columns:repeat(auto-fill,minmax(340px,1fr)); gap:16px; margin-top:24px; }}
-.inscard {{ border:1px solid var(--hair); border-radius:12px; padding:18px; background:var(--surface); }}
-.ins-h {{ display:flex; align-items:center; gap:8px; font-family:var(--font-ui); font-size:11.5px; text-transform:uppercase; letter-spacing:.06em; color:var(--muted); }}
-.ins-ico {{ font-size:15px; }}
-.ins-score {{ font-variant-numeric:tabular-nums; color:var(--accent); font-weight:600; }}
-.ins-find {{ font-family:var(--font-body); font-size:15px; color:var(--ink); margin:10px 0; line-height:1.5; }}
-.ins-act {{ font-size:13px; color:var(--ink-2); line-height:1.5; }}
-.ins-act b {{ color:var(--accent); }}
-.ins-ent {{ margin-top:10px; font-family:var(--font-ui); font-size:12.5px; }}
 .expbtn {{ margin-top:24px; font-family:var(--font-ui); font-size:13px; color:var(--ink); background:var(--surface-2);
   border:1px solid var(--hair); border-radius:8px; padding:10px 18px; cursor:pointer; transition:border-color .2s ease, color .2s ease; }}
 .expbtn:hover {{ border-color:var(--accent); color:var(--accent); }}
@@ -592,7 +582,6 @@ a.colink {{ color:var(--ink); text-decoration:none; }} a.colink:hover {{ color:v
     <a href="#/usecases" class="navlink" data-route="usecases">Use&nbsp;cases</a>
     <a href="#/trends" class="navlink" data-route="trends">Trends</a>
     <a href="#/hype" class="navlink" data-route="hype">Adoption&nbsp;vs.&nbsp;evidence</a>
-    <a href="#/insights" class="navlink" data-route="insights">Insights</a>
     <a href="#/compare" class="navlink" data-route="compare">Compare</a>
     <a href="#/changelog" class="navlink" data-route="changelog">Changelog</a>
     <a href="#/silent" class="navlink" data-route="silent">Silent&nbsp;list</a>
@@ -784,28 +773,6 @@ a.colink {{ color:var(--ink); text-decoration:none; }} a.colink:hover {{ color:v
   </div>
 </section>
 
-<!-- ============ INSIGHTS FEED (B7) ============ -->
-<section class="altitude" id="insights" data-alt="Insights">
-  <div class="terr">
-    <div class="head">
-      <div>
-        <h2>Insights — <span class="scope">the data speaking first</span></h2>
-        <p class="lede">Machine-generated cards, each with a finding <b>and an action</b>.
-        Rule-based and deterministic — no black box. Filter by who it's for.</p>
-      </div>
-      <div class="controls">
-        <div class="seg-ctrl" id="insPersona">
-          <button data-p="" class="on">All</button>
-          <button data-p="consultant">Consultant</button>
-          <button data-p="investor">Investor</button>
-          <button data-p="vendor">Vendor</button>
-        </div>
-      </div>
-    </div>
-    <p id="insHint" class="coverage-note" style="margin-top:0"></p>
-    <div id="insFeed" class="insfeed"></div>
-  </div>
-</section>
 
 <!-- ============ COMPARE (C1/D2) ============ -->
 <section class="altitude" id="compare" data-alt="Compare">
@@ -1041,8 +1008,6 @@ const ROUTES = {{
   'trends': {{hash:'/trends', label:'Trends', show:renderTrends}},
   'hype':   {{hash:'/hype',   label:'Hype',   show:renderHype}},
   'compare':{{hash:'/compare',label:'Compare',show:renderCompare}},
-  'insights':{{hash:'/insights',label:'Insights',show:renderInsights}},
-  'signals':{{hash:'/signals', label:'Signals', show:renderInsights}},   // alias: insights feed w/ type/p params
   'usecases':{{hash:'/usecases',label:'Use cases',show:renderUsecases}},
   'changelog':{{hash:'/changelog',label:'Changelog',show:renderChangelog}},
   'companies':{{hash:'/companies',label:'Companies',show:renderCompanies}},
@@ -1120,7 +1085,7 @@ function injectNext(viewId) {{
 }}
 // Standing coverage disclaimer on views where an ABSENCE is shown. The tool is a lower bound:
 // "not found" never means "does not exist" — later passes may add more (the silent resweep proved it).
-const ABSENCE_VIEWS={{silent:1,companies:1,hype:1,a2:1,usecases:1,signals:1,insights:1}};
+const ABSENCE_VIEWS={{silent:1,companies:1,hype:1,a2:1,usecases:1}};
 function injectCoverageNote(viewId, sec) {{
   sec.querySelectorAll(':scope > .coverage-note').forEach(e=>e.remove());
   if(!ABSENCE_VIEWS[viewId]) return;
@@ -1214,45 +1179,7 @@ function renderCompany(slug) {{
   window.scrollTo({{top:0,behavior:'smooth'}});
 }}
 
-/* ============ B7 INSIGHTS FEED + D7 export ============ */
-let insPersona='';
-const ICON={{silent_giant:`{icon('target',16)}`,contradiction:`{icon('triangle-alert',16)}`,whitespace:`{icon('map',16)}`,outlier:`{icon('chart-no-axes-column',16)}`,momentum_break:`{icon('clock',16)}`}};
-let insType='';
-function renderInsights() {{
-  goAltitude('insights','Signals');
-  // honor ?type= and ?p= from the question targets (#/signals?type=contradiction etc.)
-  const p=currentParams(); insType=p.get('type')||''; if(p.get('p')) insPersona=p.get('p');
-  const ctrl=document.getElementById('insPersona');
-  if(ctrl && !ctrl.dataset.wired){{ ctrl.dataset.wired='1';
-    ctrl.addEventListener('click',e=>{{ const b=e.target.closest('button'); if(!b)return;
-      ctrl.querySelectorAll('button').forEach(x=>x.classList.toggle('on',x===b)); insPersona=b.dataset.p;
-      const np=currentParams(); if(insPersona)np.set('p',insPersona);else np.delete('p');
-      history.replaceState(null,'','#/signals'+(np.toString()?'?'+np:'')); drawInsights(); }});
-  }}
-  if(ctrl) ctrl.querySelectorAll('button').forEach(x=>x.classList.toggle('on', (x.dataset.p||'')===insPersona));
-  drawInsights();
-}}
-function drawInsights() {{
-  const feed=document.getElementById('insFeed');
-  const cards=(ATLAS.insights||[]).filter(c=>(!insPersona || (c.persona||[]).includes(insPersona)) && (!insType || c.type===insType));
-  // GATED (B7-r): default view = neutral finding only. The persona-specific ACTION appears
-  // only when a user explicitly selects their role — so the public face stays observational,
-  // and the tactical suggestion is opt-in, never shown about a company by default.
-  feed.innerHTML = cards.map(c=>{{
-    const co=(c.entities||[]).map(sl=>{{const x=COMP_BY_SLUG&&COMP_BY_SLUG[sl]; return x?`<a class="colink" href="#/company/${{sl}}">${{esc(x.name)}}</a>`:'';}}).filter(Boolean).join(', ');
-    const act = insPersona && c.actions && c.actions[insPersona];
-    return `<div class="inscard">
-      <div class="ins-h"><span class="ins-ico">${{ICON[c.type]||'•'}}</span><span class="ins-type">${{c.type.replace(/_/g,' ')}}</span>
-        <span style="flex:1"></span><span class="ins-score" title="how far from the norm">${{c.surprise_score}}</span></div>
-      <div class="ins-find">${{esc(c.finding)}}</div>
-      ${{act ? `<div class="ins-act"><b>${{insPersona[0].toUpperCase()+insPersona.slice(1)}} angle:</b> ${{esc(act)}}</div>` : ''}}
-      ${{co?`<div class="ins-ent">${{co}}</div>`:''}}
-    </div>`;
-  }}).join('') || '<p class="lede">No items for this filter.</p>';
-  // hint that actions are opt-in, only when none selected
-  const hint=document.getElementById('insHint');
-  if(hint) hint.textContent = insPersona ? '' : 'Pick a role above to see how each finding applies to you.';
-}}
+/* ============ D7 markdown briefing export ============ */
 /* D7 — markdown briefing export (client-side, download) */
 function exportBriefing(kind, payload) {{
   const dv=ATLAS.meta?ATLAS.meta.schema_version:'2.0';
@@ -1265,8 +1192,6 @@ function exportBriefing(kind, payload) {{
   }} else if(kind==='compare'){{
     const cmp=payload; md+=`## Comparison\\n\\n| Metric | ${{cmp.entities.map(c=>c.name).join(' | ')}} |\\n|---|${{cmp.entities.map(()=>'---').join('|')}}|\\n`;
     cmp.metrics.forEach(m=>{{ md+=`| ${{m.label}} | ${{m.values.join(' | ')}} |\\n`; }});
-  }} else if(kind==='insights'){{
-    (ATLAS.insights||[]).forEach((c,i)=>{{ md+=`### ${{i+1}}. ${{c.type}}\\n${{c.finding}}\\n\\n**Action:** ${{c.action}}\\n\\n`; }});
   }}
   const blob=new Blob([md],{{type:'text/markdown'}}); const url=URL.createObjectURL(blob);
   const a=document.createElement('a'); a.href=url; a.download=`karto-${{kind}}-briefing.md`; a.click(); URL.revokeObjectURL(url);

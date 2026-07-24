@@ -417,73 +417,6 @@ for c in COMPANIES:
     # more confirmed activity AND less proof = higher prospect (running AI without measuring it)
     raw = min(conf,10)/10*60 + unmeasured*40
     c["prospect_score"]=round(raw)
-# whitespace_score per grid cell (global): peer-country activity in same v×h vs own emptiness
-# here approximated at vertical×horizontal: how many COUNTRIES are active in this cell / total
-cell_countries=defaultdict(set)
-for r in rows: cell_countries[(r[2],norm_h(r[4]))].add(r[1])
-maxc=max((len(v) for v in cell_countries.values()), default=1)
-WHITESPACE=[]
-for v in VERTS:
-    for h in HORZS:
-        active=len(cell_countries.get((v,h),set()))
-        # whitespace = high peer-country activity in this function-industry (a proven pattern) — sort desc
-        WHITESPACE.append({"v":v,"h":h,"active_countries":active,"score":round(100*active/maxc)})
-WHITESPACE=[w for w in WHITESPACE if w["active_countries"]>0]
-WHITESPACE.sort(key=lambda x:-x["score"])
-
-# ---------- B7-r insight cards + per-persona action templates (Step 11) ----------
-# Same finding, different verb per persona. Screener positioning: investor bar = "worth an
-# hour of DD", never "wire money". Every card carries a non-empty action for each listed persona.
-# Actions describe what the DATA FOUND (a lower bound), never assert what a company does or needs.
-ACTION_TMPL={
-  "silent_giant":{
-    "vendor":"No AI found yet for {name}; {sector} peers show a median {pm}. Worth checking directly — our search may simply not have reached it.",
-    "consultant":"{name} sits below the {sector} peer median ({pm}) on AI found in our sources — a starting point to verify.",
-    "investor":"Less AI activity found for {name} than for sector peers — worth reviewing its filings directly."},
-  "contradiction":{
-    "investor":"{n} AI deployments found for {name}, none with a value metric in our sources — a possible earnings-call question.",
-    "consultant":"{name}: {n} deployments found, no value metric in our sources — a point to explore, not a conclusion.",
-    "vendor":"{n} confirmed deployments found for {name}, none with a published metric here — worth a direct look."},
-  "whitespace":{
-    "vendor":"{v} × {h} appears in {ac} markets in our data; not yet found elsewhere — reference cases available.",
-    "consultant":"{v} × {h} is evidenced in {ac} countries — a possible transfer angle for markets where none is found yet.",
-    "investor":"{v} × {h} still appears to be diffusing across markets — an adoption trend to watch."},
-  "blind_vertical":{
-    "investor":"{v} shows broad adoption but few value metrics in our sources — a measurement-gap angle worth testing.",
-    "vendor":"{v} shows wide adoption with few published metrics found — a possible sector-wide angle.",
-    "consultant":"{v}: wide adoption, little disclosed ROI found — a gap to explore with sources."},
-}
-def mk_actions(rule, **slots):
-    return {p: t.format(**slots) for p, t in ACTION_TMPL[rule].items()}
-
-INSIGHTS=[]
-for s in SILENT:
-    pm=s.get("peer_median")
-    if pm and pm>=2:
-        INSIGHTS.append({"type":"silent_giant","entities":[s["slug"]],
-          "finding":f"No AI found yet for {s['name']} ({s['cc']}); its {s.get('sector','')} peers show a median of {int(pm)} deployments in our data.",
-          "meaning":"A gap in what our sourcing has found so far — worth verifying directly.",
-          "persona":["vendor","consultant","investor"],
-          "actions":mk_actions("silent_giant",name=s['name'],sector=s.get('sector','') or 'sector',pm=int(pm)),
-          "surprise_score":round(pm*10)})
-for c in COMPANIES:
-    if c["silent"]: continue
-    if c["deployments"]>=4 and c["with_value_number"]==0:
-        INSIGHTS.append({"type":"contradiction","entities":[c["slug"]],
-          "finding":f"{c['deployments']} AI deployments found for {c['name']}; none carries a value metric in our sources.",
-          "meaning":"Confirmed activity; value not quantified in what we found.",
-          "persona":["investor","consultant","vendor"],
-          "actions":mk_actions("contradiction",name=c['name'],n=c['deployments']),
-          "surprise_score":c["deployments"]*4})
-for w in WHITESPACE[:8]:
-    INSIGHTS.append({"type":"whitespace","entities":[],
-      "finding":f"{w['v']} × {w['h']} appears in {w['active_countries']} countries in our data — a well-evidenced pattern.",
-      "meaning":"Markets where it isn't found yet may be transfer opportunities.",
-      "persona":["vendor","consultant","investor"],
-      "actions":mk_actions("whitespace",v=w['v'],h=w['h'],ac=w['active_countries']),
-      "surprise_score":w["score"]})
-# NB: blind_vertical insights are appended later (after HYPE_VERT is computed), then sorted+capped.
-
 # ---------- A5 freshness aggregate + D6 hype detector ----------
 FRESH=Counter(stale_bucket(r[10]) for r in rows)
 GLOBAL_FRESH={k:FRESH.get(k,0) for k in ("fresh","aging","stale","undated")}
@@ -525,20 +458,6 @@ for v,idxs in byv_rows.items():
                       "substantiation_rate":round(withnum/announced,3) if announced else 0})
 HYPE_VERT.sort(key=lambda x:-x["announced"])
 
-# B7-r blind_vertical insights (needs HYPE_VERT); then finalize the feed
-BLIND_THRESHOLD=20
-for h in HYPE_VERT:
-    if h["announced"]>=BLIND_THRESHOLD and h["substantiated"]==0:
-        INSIGHTS.append({"type":"blind_vertical","entities":[],
-          "finding":f"{h['v']}: {h['announced']} deployments found, none with a value metric in our sources.",
-          "meaning":"Broad adoption, little measured value found — worth testing before concluding.",
-          "persona":["investor","vendor","consultant"],
-          "actions":mk_actions("blind_vertical",v=h['v']),
-          "surprise_score":h["announced"]})
-for _c in INSIGHTS: _c["action"]=next(iter(_c["actions"].values()))   # back-compat flat action
-INSIGHTS.sort(key=lambda x:-x["surprise_score"])
-INSIGHTS=INSIGHTS[:80]
-
 META={
   "schema_version":"2.0",
   "generated_from":"data/register.csv (source of truth; never hand-edit atlas.json)",
@@ -561,9 +480,7 @@ META["freshness"]={"anchor_year":NOW_YEAR,"buckets":{"fresh":"<=1yr","aging":"2y
 META["hype"]="hype_by_vertical: announced (rows) vs substantiated (rows w/ value number) + money events from data/money.csv (V3 Step 2 unified table). commitments (money-in axis) = dedicated_collection rows, near-empty until the Step 12 FS pilot."
 META["money"]="data/money.csv unified table: origin register_extraction (regex claims) | dedicated_collection (purpose-collected commitments). Retires claims.csv/commitments.csv."
 META["maturity"]={"levels":{"L0":"silent (in universe, no rows)","L1":"talk (rows, none confirmed)","L2":"pilot (confirmed, single footprint)","L3":"operating (confirmed + multi-horizontal OR named product OR value number)","L4":"industrialized (L3 + multi-year + value/tier-P)"}}
-META["scores"]={"prospect_score":"min(confirmed,10)/10*60 + (1-proof_rate)*40 — confirmed activity without measurement. 0-100.",
-                "whitespace_score":"100 * active_countries / max_active_countries for that vertical×function. 0-100."}
-META["insights"]="cook-time rule engine; every card carries an action. types: silent_giant, contradiction, whitespace."
+META["scores"]={"prospect_score":"min(confirmed,10)/10*60 + (1-proof_rate)*40 — confirmed activity without measurement. 0-100."}
 # ---------- A7/D9 use-case spine (data/usecases.csv -> usecases[] + transfer + diffusion) ----------
 USECASES=[]; TRANSFER=[]
 uc_path=os.path.join(ROOT,"data","usecases.csv")
@@ -652,22 +569,15 @@ json.dump({"meta":META,"global":GLOBAL,"countries":COUNTRIES,"verticals":VERTS,"
            "companies":COMPANIES,"silent":SILENT,"hype_by_vertical":HYPE_VERT,
            "timeline_global":TIMELINE_GLOBAL,"momentum_vertical":MOMENTUM_VERT,"momentum_country":MOMENTUM_CC,
            "findings":FINDINGS,"maturity_dist":dict(MATURITY_DIST),
-           "insights":INSIGHTS,"whitespace":WHITESPACE,
            "usecases":USECASES,"transfer_opportunities":TRANSFER,"vendors":VENDORS_AGG},
           open(OUT,"w"), ensure_ascii=False, indent=1)
 
 # ---------- N3 teaser stats for the question menu (data/question_stats.json) ----------
-BLIND_THRESHOLD=20
-_blind=sum(1 for h in HYPE_VERT if h["announced"]>=BLIND_THRESHOLD and h["substantiated"]==0)
-_ins=Counter(i["type"] for i in INSIGHTS)
 _unq=sum(1 for c in COMPANIES if not c["silent"] and c["confirmed"]>0 and c["with_value_number"]==0)
 QSTATS={
   "count_l0": len(SILENT),
   "count_unquantified_active": _unq,
-  "count_whitespace": len(WHITESPACE),
-  "count_contradiction": _ins.get("contradiction",0),
   "count_momentum_break": sum(1 for m in MOMENTUM_VERT if "rising" in (m.get("label") or "")),
-  "count_blind_vertical": _blind,
   "count_deployments": GLOBAL["deployments"],
   "count_usecases": QSTATS_USECASES,     # Step 7
   "count_changes": None,      # lit by Step 10

@@ -34,9 +34,9 @@
    "personas": [
     "investor"
    ],
-   "target": "#/signals?type=contradiction",
+   "target": "#/hype",
    "params_open": [],
-   "teaser_metric": "count_contradiction",
+   "teaser_metric": "count_unquantified_active",
    "followups": [
     "blind_sectors",
     "unquantified_active",
@@ -50,7 +50,7 @@
    "personas": [
     "investor"
    ],
-   "target": "#/signals?type=momentum_break",
+   "target": "#/trends",
    "params_open": [],
    "teaser_metric": "count_momentum_break",
    "followups": [
@@ -66,9 +66,9 @@
    "personas": [
     "investor"
    ],
-   "target": "#/signals?type=blind_vertical",
+   "target": "#/hype",
    "params_open": [],
-   "teaser_metric": "count_blind_vertical",
+   "teaser_metric": null,
    "followups": [
     "all_talk_no_money",
     "unquantified_active",
@@ -122,9 +122,9 @@
     "vendor",
     "consultant"
    ],
-   "target": "#/signals?type=whitespace",
+   "target": "#/usecases?gap=1",
    "params_open": [],
-   "teaser_metric": "count_whitespace",
+   "teaser_metric": null,
    "followups": [
     "silent_giants",
     "unquantified_active",
@@ -264,11 +264,6 @@
    "unquantified_active",
    "open_territory",
    "proven_in_sector"
-  ],
-  "signals": [
-   "all_talk_no_money",
-   "blind_sectors",
-   "quiet_accelerators"
   ],
   "companies": [
    "silent_giants",
