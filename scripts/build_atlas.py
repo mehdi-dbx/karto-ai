@@ -1432,18 +1432,6 @@ function radarSVG(cmp, byKey) {{
   return `<svg viewBox="0 0 ${{S}} ${{S}}" role="img" aria-label="Radar comparing ${{cmp.entities.map(c=>c.name).join(', ')}} across ${{axes.map(m=>m.label).join(', ')}}">`
     + grid + labs + shapes + `</svg>`;
 }}
-// momentum sits beside the chart — it's categorical, not a magnitude, so it can't be a spoke
-function sidePanel(cmp, byKey) {{
-  const mom=byKey['momentum']; if(!mom) return '';
-  return cmp.entities.map((c,i)=>{{
-    const tags=String(mom.values[i]).split(', ').filter(t=>t&&t!=='—')
-      .map(t=>`<span class="cmp-tag">${{esc(t.replace(/_/g,' '))}}</span>`).join('');
-    return `<div class="cmp-mom"><div class="k" style="display:flex;align-items:center;gap:9px;margin-bottom:5px">`
-      + `<span class="sw" style="width:11px;height:11px;border-radius:3px;background:${{CMP_SERIES[i]}}"></span>`
-      + `<b style="font-family:var(--font-ui);font-size:12.5px;color:var(--ink)">${{esc(c.name)}}</b></div>`
-      + `<div class="cmp-tags">${{tags||'<span class="cmp-note">no momentum signal</span>'}}</div></div>`;
-  }}).join('');
-}}
 function drawCompare() {{
   document.getElementById('cmpChips').innerHTML=cmpSlugs.map((s,i)=>{{
     const c=COMP_BY_SLUG[s];
@@ -1461,8 +1449,7 @@ function drawCompare() {{
     + `<div class="cmp-side">`
     +   `<div class="cmp-legend">` + cmp.entities.map((c,i)=>
           `<div class="k"><span class="sw" style="background:${{CMP_SERIES[i]}}"></span><a class="colink" href="#/company/${{c.slug}}">${{esc(c.name)}}</a></div>`).join('') + `</div>`
-    +   sidePanel(cmp,byKey)
-    +   `<p class="cmp-note">Each axis is normalized to the companies shown, so the radar compares shape and balance — read exact numbers in the table below. First-seen is positioned relative to the set (earliest near centre, latest at the edge). Momentum is categorical, not a magnitude, so it sits beside the chart.</p>`
+    +   `<p class="cmp-note">Each axis is normalized to the companies shown, so the radar compares shape and balance — read exact numbers in the table below. First-seen is positioned relative to the set (earliest near centre, latest at the edge).</p>`
     + `</div>`;
 
   // ---- exact-values table twin (a11y + precise numbers), collapsed by default ----
