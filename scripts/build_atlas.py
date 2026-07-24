@@ -646,7 +646,7 @@ a.colink {{ color:var(--ink); text-decoration:none; }} a.colink:hover {{ color:v
   <div class="topnav">
     <a href="#/world" class="navlink" data-route="a1">World</a>
     <a href="#/grid" class="navlink" data-route="a2">Grid</a>
-    <a href="#/open" class="navlink" data-route="open">Open&nbsp;territory</a>
+    <a href="#/open" class="navlink" data-route="open">Opportunities</a>
     <a href="#/usecases" class="navlink" data-route="usecases">Use&nbsp;cases</a>
     <a href="#/trends" class="navlink" data-route="trends">Trends</a>
     <a href="#/hype" class="navlink" data-route="hype">Adoption</a>
@@ -1007,7 +1007,7 @@ a.colink {{ color:var(--ink); text-decoration:none; }} a.colink:hover {{ color:v
   <div class="terr">
     <div class="head">
       <div>
-        <h2>Open territory — <span class="scope">where nothing has been found yet</span></h2>
+        <h2>Open territory — <span class="scope">where AI hasn't landed yet</span></h2>
         <p class="lede">The study's core question: <b>where is AI not yet deployed?</b> Each tile is an
         industry × business-function pair for which our sourcing found <b>zero</b> deployments across
         every country. Read it as a <b>coverage floor, not proof of absence</b> — a blank cell is a lead
@@ -1101,7 +1101,7 @@ const ROUTES = {{
   'hype':   {{hash:'/hype',   label:'Adoption',   show:renderHype}},
   'compare':{{hash:'/compare',label:'Compare',show:renderCompare}},
   'usecases':{{hash:'/usecases',label:'Use cases',show:renderUsecases}},
-  'open':   {{hash:'/open',   label:'Open territory', show:renderOpen}},
+  'open':   {{hash:'/open',   label:'Opportunities', show:renderOpen}},
   'companies':{{hash:'/companies',label:'Companies',show:renderCompanies}},
   'silent': {{hash:'/silent', label:'Silent list', show:renderSilent}},
 }};
@@ -1781,7 +1781,7 @@ function openEmptyCells() {{
   return out;
 }}
 function renderOpen() {{
-  goAltitude('open','Open territory');
+  goAltitude('open','Opportunities');
   const fnSel=document.getElementById('openFn');
   if(!openWired){{ openWired=true;
     (ATLAS.horizontals||[]).forEach(h=>fnSel.insertAdjacentHTML('beforeend',`<option value="${{esc(h)}}">${{esc(h)}}</option>`));
