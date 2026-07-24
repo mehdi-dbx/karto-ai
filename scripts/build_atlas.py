@@ -271,6 +271,7 @@ a:hover {{ text-decoration: underline; }}
 .uc-desc {{ font-size:12.5px; color:var(--muted); margin-top:5px; line-height:1.5; }}
 .uc-stats {{ display:flex; flex-wrap:wrap; gap:6px 14px; margin-top:12px; font-family:var(--font-ui); font-size:12px; color:var(--ink-2); }}
 .uc-stats b {{ color:var(--ink); font-variant-numeric:tabular-nums; }}
+.diffsvg {{ display:block; margin-top:10px; max-width:780px; height:auto; }}
 .uc-diffusion {{ display:flex; flex-wrap:wrap; gap:8px; }}
 .uc-diff {{ font-family:var(--font-ui); font-size:12px; color:var(--ink-2); background:var(--surface-2); border:1px solid var(--hair); border-radius:999px; padding:4px 11px; }}
 .uc-diff b {{ color:var(--accent); font-variant-numeric:tabular-nums; }}
@@ -1505,6 +1506,45 @@ function drawUsecases() {{
       </div>
     </a>`).join('') || '<p class="lede">No patterns for this filter.</p>';
 }}
+// diffusion timeline strip: SVG, year to scale on x, a dot per country at first_seen,
+// dots stacked vertically on year collisions, small labels. Discrete dots (no curve) =
+// honest about estimate-grade data. Shows the shape a sorted list hides.
+function diffusionStrip(diff) {{
+  const names={{}}; ATLAS.countries.forEach(c=>names[c.cc]=c.name);
+  const pts=diff.filter(d=>d.first_year).map(d=>({{cc:d.cc, y:d.first_year, name:names[d.cc]||d.cc}}));
+  if(!pts.length) return '';
+  const yrs=pts.map(p=>p.y); let y0=Math.min(...yrs), y1=Math.max(...yrs);
+  if(y1===y0) y1=y0+1;                       // avoid zero-width axis for single-year patterns
+  const W=760, padL=40, padR=120, axisY=54, rowH=22, dotR=5;
+  const x=y=>padL+(y-y0)/(y1-y0)*(W-padL-padR);
+  // group by year, stack within a year
+  const byYear={{}}; pts.sort((a,b)=>a.y-b.y||a.name.localeCompare(b.name));
+  pts.forEach(p=>{{ (byYear[p.y]=byYear[p.y]||[]).push(p); }});
+  const maxStack=Math.max(...Object.values(byYear).map(a=>a.length));
+  const H=axisY+maxStack*rowH+16;
+  let dots='', labels='';
+  Object.entries(byYear).forEach(([yr,arr])=>{{
+    arr.forEach((p,i)=>{{
+      const cx=x(+yr), cy=axisY+8+i*rowH;
+      dots+=`<line x1="${{cx}}" y1="${{axisY}}" x2="${{cx}}" y2="${{cy}}" stroke="var(--hair)" stroke-width="1"/>`
+          + `<circle cx="${{cx}}" cy="${{cy}}" r="${{dotR}}" fill="var(--accent)"/>`;
+      labels+=`<text x="${{cx+9}}" y="${{cy+4}}" font-size="11.5" fill="var(--ink-2)" font-family="var(--font-ui)">${{esc(p.name)}}</text>`;
+    }});
+  }});
+  // year ticks (integer years across the span)
+  let ticks='';
+  for(let yy=y0; yy<=y1; yy++){{
+    const tx=x(yy);
+    ticks+=`<line x1="${{tx}}" y1="${{axisY-5}}" x2="${{tx}}" y2="${{axisY}}" stroke="var(--muted)" stroke-width="1"/>`
+         + `<text x="${{tx}}" y="${{axisY-10}}" text-anchor="middle" font-size="11" fill="var(--muted)" font-family="var(--font-ui)" font-variant-numeric="tabular-nums">${{yy}}</text>`;
+  }}
+  return `<svg class="diffsvg" viewBox="0 0 ${{W}} ${{H}}" width="100%" role="img" aria-label="Diffusion timeline: first-seen year by country">
+    <line x1="${{padL}}" y1="${{axisY}}" x2="${{W-padR+40}}" y2="${{axisY}}" stroke="var(--grid)" stroke-width="1"/>
+    ${{ticks}}${{dots}}${{labels}}
+  </svg>
+  <p class="coverage-note" style="margin-top:6px">First-seen years are estimates from disclosure dates; spacing is to scale.</p>`;
+}}
+
 function renderUsecase(pid) {{
   goAltitude('usecase','Use case'); indexCompanies();
   const u=(ATLAS.usecases||[]).find(x=>x.pattern_id===pid);
@@ -1522,11 +1562,9 @@ function renderUsecase(pid) {{
       <div class="ckpi"><div class="n">${{Math.round((u.proof_rate||0)*100)}}%</div><div class="l">cite a number</div></div>
       <div class="ckpi"><div class="n">${{u.first_seen||'—'}}</div><div class="l">first seen</div></div>
     </div>`;
-  // diffusion timeline
+  // diffusion timeline — horizontal strip, year-scaled x, one dot per country, stacked on ties
   if(u.diffusion&&u.diffusion.length){{
-    const names={{}}; ATLAS.countries.forEach(c=>names[c.cc]=c.name);
-    html+=`<h3 class="csub">Diffusion (first seen by country — estimates)</h3><div class="uc-diffusion">`
-      + u.diffusion.slice(0,14).map(d=>`<span class="uc-diff"><b>${{d.first_year}}</b> ${{esc(names[d.cc]||d.cc)}}</span>`).join('') + `</div>`;
+    html+=`<h3 class="csub">Diffusion (first seen by country — estimates)</h3>${{diffusionStrip(u.diffusion)}}`;
   }}
   // top runners
   html+=`<h3 class="csub">Runners</h3><div class="uc-runners">`
