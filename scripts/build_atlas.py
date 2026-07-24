@@ -639,7 +639,7 @@ a.colink {{ color:var(--ink); text-decoration:none; }} a.colink:hover {{ color:v
     <a href="#/grid" class="navlink" data-route="a2">Grid</a>
     <a href="#/usecases" class="navlink" data-route="usecases">Use&nbsp;cases</a>
     <a href="#/trends" class="navlink" data-route="trends">Trends</a>
-    <a href="#/hype" class="navlink" data-route="hype">Adoption&nbsp;vs.&nbsp;evidence</a>
+    <a href="#/hype" class="navlink" data-route="hype">Adoption</a>
     <a href="#/compare" class="navlink" data-route="compare">Compare</a>
     <a href="#/silent" class="navlink" data-route="silent">Silent&nbsp;list</a>
     <div class="omni-wrap">
@@ -888,7 +888,7 @@ a.colink {{ color:var(--ink); text-decoration:none; }} a.colink:hover {{ color:v
   <div class="terr">
     <div class="head">
       <div>
-        <h2>Adoption vs. evidence — <span class="scope">by industry</span></h2>
+        <h2>Adoption — <span class="scope">vs. evidence, by industry</span></h2>
         <p class="lede">The study's central question, by sector. For each industry: how much is
         <b>announced</b> (deployments found) vs <b>substantiated</b> (rows citing a value metric).
         A short bar under a long one means few value metrics were found for that sector — a gap to explore, not a verdict.</p>
@@ -1067,7 +1067,7 @@ const ROUTES = {{
   'a1':     {{hash:'/world',  label:'World',  show:toWorld}},
   'a2':     {{hash:'/grid',   label:'Grid',   show:()=>{{ if(!ATLAS.grid_global) return; gridScope=null; document.getElementById('scopeName')&&(document.getElementById('scopeName').textContent='the world'); const b=document.getElementById('backWorld'); if(b)b.hidden=true; renderGrid(); goAltitude('a2','World grid'); }}}},
   'trends': {{hash:'/trends', label:'Trends', show:renderTrends}},
-  'hype':   {{hash:'/hype',   label:'Hype',   show:renderHype}},
+  'hype':   {{hash:'/hype',   label:'Adoption',   show:renderHype}},
   'compare':{{hash:'/compare',label:'Compare',show:renderCompare}},
   'usecases':{{hash:'/usecases',label:'Use cases',show:renderUsecases}},
   'companies':{{hash:'/companies',label:'Companies',show:renderCompanies}},
@@ -1499,7 +1499,7 @@ function drawTrends() {{
 
 /* ============ D6 HYPE DETECTOR VIEW ============ */
 function renderHype() {{
-  goAltitude('hype','Hype');
+  goAltitude('hype','Adoption');
   // money-IN axis (committed capital) is pending until the Step 12 dedicated collection.
   // Marker keys off data presence (global.commitments) so it self-clears when data lands.
   const mp=document.getElementById('hypeMoneyPending');
