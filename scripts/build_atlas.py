@@ -322,6 +322,13 @@ a:hover {{ text-decoration: underline; }}
 .uc-bkey {{ display:flex; gap:16px; flex-wrap:wrap; font-family:var(--font-ui); font-size:11.5px; color:var(--muted); margin:4px 0 2px; }}
 .uc-bkey .k {{ display:flex; align-items:center; gap:6px; }}
 .uc-bkey .sw {{ width:16px; height:9px; border-radius:3px; }}
+/* open-territory tiles: industry grouped, open functions listed */
+.open-grid {{ display:grid; grid-template-columns:repeat(auto-fill,minmax(300px,1fr)); gap:16px; margin-top:24px; }}
+.open-card {{ border:1px solid var(--hair); border-radius:12px; background:var(--surface); padding:16px 18px; }}
+.open-card h4 {{ margin:0 0 10px; font-family:var(--font-head); font-weight:560; font-size:15px; color:var(--ink); }}
+.open-fns {{ display:flex; flex-wrap:wrap; gap:7px; }}
+.open-fn {{ font-family:var(--font-ui); font-size:12px; color:var(--ink-2); background:color-mix(in srgb,var(--v-unquantified) 12%,var(--surface));
+  border:1px solid var(--hair); border-radius:999px; padding:3px 11px; }}
 .uc-cards {{ display:grid; grid-template-columns:repeat(auto-fill,minmax(280px,1fr)); gap:16px; margin-top:32px; }}
 .uc-card {{ display:block; padding:18px; border:1px solid var(--hair); border-radius:12px; background:var(--surface); text-decoration:none; transition:border-color .18s ease, transform .18s ease; }}
 .uc-card:hover {{ border-color:var(--accent); transform:translateY(-2px); text-decoration:none; }}
@@ -637,6 +644,7 @@ a.colink {{ color:var(--ink); text-decoration:none; }} a.colink:hover {{ color:v
   <div class="topnav">
     <a href="#/world" class="navlink" data-route="a1">World</a>
     <a href="#/grid" class="navlink" data-route="a2">Grid</a>
+    <a href="#/open" class="navlink" data-route="open">Open&nbsp;territory</a>
     <a href="#/usecases" class="navlink" data-route="usecases">Use&nbsp;cases</a>
     <a href="#/trends" class="navlink" data-route="trends">Trends</a>
     <a href="#/hype" class="navlink" data-route="hype">Adoption</a>
@@ -992,6 +1000,26 @@ a.colink {{ color:var(--ink); text-decoration:none; }} a.colink:hover {{ color:v
   </div>
 </section>
 
+<!-- open territory — industry × function cells with zero deployments found -->
+<section class="altitude" id="open" data-alt="Open territory">
+  <div class="terr">
+    <div class="head">
+      <div>
+        <h2>Open territory — <span class="scope">where nothing has been found yet</span></h2>
+        <p class="lede">The study's core question: <b>where is AI not yet deployed?</b> Each tile is an
+        industry × business-function pair for which our sourcing found <b>zero</b> deployments across
+        every country. Read it as a <b>coverage floor, not proof of absence</b> — a blank cell is a lead
+        to check, not a guarantee nobody is doing it. The filled map lives on the <a href="#/grid">grid</a>.</p>
+      </div>
+      <div class="controls">
+        <select id="openFn" class="filtersel"><option value="">All functions</option></select>
+      </div>
+    </div>
+    <div id="openGrid" class="open-grid"></div>
+    <p class="footnote" id="openCount"></p>
+  </div>
+</section>
+
 <!-- ============ ALTITUDE 3 — STREET (slide-in company panel) ============ -->
 <div id="scrim"></div>
 <aside id="panel" aria-hidden="true" role="dialog" aria-label="Companies in this cell">
@@ -1070,6 +1098,7 @@ const ROUTES = {{
   'hype':   {{hash:'/hype',   label:'Adoption',   show:renderHype}},
   'compare':{{hash:'/compare',label:'Compare',show:renderCompare}},
   'usecases':{{hash:'/usecases',label:'Use cases',show:renderUsecases}},
+  'open':   {{hash:'/open',   label:'Open territory', show:renderOpen}},
   'companies':{{hash:'/companies',label:'Companies',show:renderCompanies}},
   'silent': {{hash:'/silent', label:'Silent list', show:renderSilent}},
 }};
@@ -1191,7 +1220,7 @@ function injectNext(viewId) {{
 }}
 // Standing coverage disclaimer on views where an ABSENCE is shown. The tool is a lower bound:
 // "not found" never means "does not exist" — later passes may add more (the silent resweep proved it).
-const ABSENCE_VIEWS={{silent:1,companies:1,hype:1,a2:1,usecases:1}};
+const ABSENCE_VIEWS={{silent:1,companies:1,hype:1,a2:1,usecases:1,open:1}};
 function injectCoverageNote(viewId, sec) {{
   sec.querySelectorAll(':scope > .coverage-note').forEach(e=>e.remove());
   if(!ABSENCE_VIEWS[viewId]) return;
@@ -1561,7 +1590,7 @@ function renderUsecases() {{
     const vs=[...new Set((ATLAS.usecases||[]).flatMap(u=>u.verticals))].sort();
     vs.forEach(v=>vSel.insertAdjacentHTML('beforeend',`<option value="${{esc(v)}}">${{esc(v)}}</option>`));
     vSel.onchange=sSel.onchange=drawUsecases;
-    // honor ?vertical= / ?gap= from question targets
+    // honor ?vertical= from question targets
     const p=currentParams(); if(p.get('vertical')) vSel.value=p.get('vertical');
   }}
   drawUsecases();
@@ -1735,6 +1764,42 @@ function drawCompanies() {{
   document.getElementById('companiesCount').textContent =
     `${{rows.length}} compan${{rows.length===1?'y':'ies'}}${{rows.length>300?' (showing top 300)':''}}.`;
   markSort('#companiesTable', compSort.k, compSort.dir);
+}}
+
+/* ============ OPEN TERRITORY — empty industry×function cells (the core question) ============ */
+let openWired=false;
+function openEmptyCells() {{
+  // every vertical×horizontal pair with NO deployment found in the global grid
+  const filled=new Set((ATLAS.grid_global||[]).map(c=>c.v+'|'+c.h));
+  const out=[];
+  (ATLAS.verticals||[]).forEach(v=>(ATLAS.horizontals||[]).forEach(h=>{{
+    if(!filled.has(v+'|'+h)) out.push({{v,h}});
+  }}));
+  return out;
+}}
+function renderOpen() {{
+  goAltitude('open','Open territory');
+  const fnSel=document.getElementById('openFn');
+  if(!openWired){{ openWired=true;
+    (ATLAS.horizontals||[]).forEach(h=>fnSel.insertAdjacentHTML('beforeend',`<option value="${{esc(h)}}">${{esc(h)}}</option>`));
+    fnSel.onchange=drawOpen;
+  }}
+  drawOpen();
+}}
+function drawOpen() {{
+  const fn=document.getElementById('openFn').value;
+  let cells=openEmptyCells();
+  if(fn) cells=cells.filter(c=>c.h===fn);
+  // group by industry (vertical), keep global vertical order
+  const byV={{}}; cells.forEach(c=>{{ (byV[c.v]=byV[c.v]||[]).push(c.h); }});
+  const order=(ATLAS.verticals||[]).filter(v=>byV[v]);
+  const host=document.getElementById('openGrid');
+  host.innerHTML = order.map(v=>`<div class="open-card"><h4>${{esc(v)}}</h4><div class="open-fns">`
+    + byV[v].map(h=>`<span class="open-fn">${{esc(h)}}</span>`).join('')
+    + `</div></div>`).join('') || '<p class="lede">No open cells for this filter — every function is covered here.</p>';
+  const nCells=cells.length, nInd=order.length;
+  document.getElementById('openCount').textContent =
+    `${{nCells}} open industry × function cell${{nCells===1?'':'s'}} across ${{nInd}} industr${{nInd===1?'y':'ies'}} — no deployment found yet (a coverage floor, not proof of absence).`;
 }}
 
 function renderSilent() {{
