@@ -286,8 +286,8 @@ a:hover {{ text-decoration: underline; }}
 .personas {{ display:grid; grid-template-columns:repeat(auto-fit,minmax(200px,1fr)); gap:16px; margin-top:44px; max-width:920px; }}
 /* V3 question menu (home) */
 .qmenu-intro {{ font-family:var(--font-ui); font-size:13px; color:var(--muted); margin:40px 0 18px; letter-spacing:.02em; }}
-.qmenu {{ display:grid; grid-template-columns:repeat(auto-fit,minmax(320px,1fr)); gap:34px 34px; align-items:start; }}
-.qgroup {{ border:1px solid var(--hair); border-radius:14px; background:var(--surface); padding:20px 22px 6px; }}
+.qmenu {{ column-width:340px; column-gap:34px; }}
+.qgroup {{ border:1px solid var(--hair); border-radius:14px; background:var(--surface); padding:20px 22px 6px; margin-bottom:34px; break-inside:avoid; }}
 .qgroup-h {{ display:flex; align-items:center; gap:9px; font-family:var(--font-ui); font-size:12px; font-weight:560;
   text-transform:uppercase; letter-spacing:.08em; color:var(--ink-2); margin:0 0 8px; padding-bottom:12px; border-bottom:2px solid var(--accent-soft); }}
 .qgroup-h .lic {{ color:var(--accent); }}
