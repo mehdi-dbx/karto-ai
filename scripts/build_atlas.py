@@ -327,8 +327,10 @@ a:hover {{ text-decoration: underline; }}
 .open-card {{ border:1px solid var(--hair); border-radius:12px; background:var(--surface); padding:16px 18px; }}
 .open-card h4 {{ margin:0 0 10px; font-family:var(--font-head); font-weight:560; font-size:15px; color:var(--ink); }}
 .open-fns {{ display:flex; flex-wrap:wrap; gap:7px; }}
-.open-fn {{ font-family:var(--font-ui); font-size:12px; color:var(--ink-2); background:color-mix(in srgb,var(--v-unquantified) 12%,var(--surface));
-  border:1px solid var(--hair); border-radius:999px; padding:3px 11px; }}
+.open-fn {{ font-family:var(--font-ui); font-size:12px; font-weight:560; border:1px solid var(--hair); border-radius:999px; padding:3px 11px; }}
+.open-legend {{ display:flex; flex-wrap:wrap; gap:8px 18px; margin-bottom:20px; font-family:var(--font-ui); font-size:12px; color:var(--ink-2); }}
+.open-legend .k {{ display:inline-flex; align-items:center; gap:7px; }}
+.open-legend .sw {{ width:14px; height:14px; border-radius:4px; flex:none; }}
 .uc-cards {{ display:grid; grid-template-columns:repeat(auto-fill,minmax(280px,1fr)); gap:16px; margin-top:32px; }}
 .uc-card {{ display:block; padding:18px; border:1px solid var(--hair); border-radius:12px; background:var(--surface); text-decoration:none; transition:border-color .18s ease, transform .18s ease; }}
 .uc-card:hover {{ border-color:var(--accent); transform:translateY(-2px); text-decoration:none; }}
@@ -1015,6 +1017,7 @@ a.colink {{ color:var(--ink); text-decoration:none; }} a.colink:hover {{ color:v
         <select id="openFn" class="filtersel"><option value="">All functions</option></select>
       </div>
     </div>
+    <div id="openLegend"></div>
     <div id="openGrid" class="open-grid"></div>
     <p class="footnote" id="openCount"></p>
   </div>
@@ -1786,6 +1789,15 @@ function renderOpen() {{
   }}
   drawOpen();
 }}
+// one fixed colour per business function (CVD-safe Okabe–Ito), assigned in horizontal order
+const FN_COLOR={{}};
+['#0072B2','#E69F00','#009E73','#CC79A7','#D55E00','#56B4E9'].forEach((c,i)=>{{
+  const h=(ATLAS.horizontals||[])[i]; if(h) FN_COLOR[h]=c;
+}});
+function fnPill(h) {{
+  const c=FN_COLOR[h]||'var(--muted)';
+  return `<span class="open-fn" style="border-color:${{c}};background:color-mix(in srgb,${{c}} 14%,var(--surface));color:${{c}}">${{esc(h)}}</span>`;
+}}
 function drawOpen() {{
   const fn=document.getElementById('openFn').value;
   let cells=openEmptyCells();
@@ -1794,8 +1806,12 @@ function drawOpen() {{
   const byV={{}}; cells.forEach(c=>{{ (byV[c.v]=byV[c.v]||[]).push(c.h); }});
   const order=(ATLAS.verticals||[]).filter(v=>byV[v]);
   const host=document.getElementById('openGrid');
+  // legend: colour per function (only those still visible under the filter)
+  const shownFns=(ATLAS.horizontals||[]).filter(h=>!fn||h===fn);
+  document.getElementById('openLegend').innerHTML=`<div class="open-legend">`+shownFns.map(h=>
+    `<span class="k"><span class="sw" style="background:${{FN_COLOR[h]||'var(--muted)'}}"></span>${{esc(h)}}</span>`).join('')+`</div>`;
   host.innerHTML = order.map(v=>`<div class="open-card"><h4>${{esc(v)}}</h4><div class="open-fns">`
-    + byV[v].map(h=>`<span class="open-fn">${{esc(h)}}</span>`).join('')
+    + byV[v].map(h=>fnPill(h)).join('')
     + `</div></div>`).join('') || '<p class="lede">No open cells for this filter — every function is covered here.</p>';
   const nCells=cells.length, nInd=order.length;
   document.getElementById('openCount').textContent =
