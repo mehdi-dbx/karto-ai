@@ -262,6 +262,7 @@ a:hover {{ text-decoration: underline; }}
 .nextblock a {{ font-family:var(--font-body); font-size:14px; color:var(--ink); text-decoration:none;
   border:1px solid var(--hair); border-radius:999px; padding:8px 15px; transition:border-color .18s ease, color .18s ease; }}
 .nextblock a:hover {{ border-color:var(--accent); color:var(--accent); text-decoration:none; }}
+.coverage-note {{ margin-top:22px; font-family:var(--font-ui); font-size:11px; color:var(--muted); line-height:1.5; max-width:70ch; opacity:.85; }}
 /* D9 use-case catalog */
 .uc-cards {{ display:grid; grid-template-columns:repeat(auto-fill,minmax(280px,1fr)); gap:16px; margin-top:24px; }}
 .uc-card {{ display:block; padding:18px; border:1px solid var(--hair); border-radius:12px; background:var(--surface); text-decoration:none; transition:border-color .18s ease, transform .18s ease; }}
@@ -589,7 +590,7 @@ a.colink {{ color:var(--ink); text-decoration:none; }} a.colink:hover {{ color:v
     <a href="#/grid" class="navlink" data-route="a2">Grid</a>
     <a href="#/usecases" class="navlink" data-route="usecases">Use&nbsp;cases</a>
     <a href="#/trends" class="navlink" data-route="trends">Trends</a>
-    <a href="#/hype" class="navlink" data-route="hype">Hype</a>
+    <a href="#/hype" class="navlink" data-route="hype">Adoption&nbsp;vs.&nbsp;evidence</a>
     <a href="#/insights" class="navlink" data-route="insights">Insights</a>
     <a href="#/compare" class="navlink" data-route="compare">Compare</a>
     <a href="#/changelog" class="navlink" data-route="changelog">Changelog</a>
@@ -609,7 +610,7 @@ a.colink {{ color:var(--ink); text-decoration:none; }} a.colink:hover {{ color:v
     </div>
     <div class="orbit-hero">
       <div class="orbit-copy">
-        <h1>AI is deployed <b>almost everywhere</b>.<br>Proof that it pays is <b>almost nowhere</b>.</h1>
+        <h1>AI adoption is <b>broad and confirmed</b>.<br>Independent proof of value stays <b>scarce</b>.</h1>
         <p class="sub">A ground-up census of what {fmt(g['companies'])} of the world's largest listed companies
         actually do with AI — each deployment named, gated, and linked to its source.</p>
       </div>
@@ -633,10 +634,10 @@ a.colink {{ color:var(--ink); text-decoration:none; }} a.colink:hover {{ color:v
     </div>
 
     <div class="gap">
-      <div class="cap">Adoption is real and near-universal — <b>{fmt(g['confirmed'])} of {fmt(g['deployments'])}</b> deployments
-      ({round(100*g['confirmed']/g['deployments'])}%) are confirmed. But value is not proven: only
-      <b>{fmt(g['with_value_number'])}</b> ({round(100*g['with_value_number']/g['deployments'])}%) attach any value number at all —
-      and virtually none is independently audited. <b>The gap is proof, not deployment.</b></div>
+      <div class="cap">Adoption is broad — <b>{fmt(g['confirmed'])} of {fmt(g['deployments'])}</b> deployments
+      ({round(100*g['confirmed']/g['deployments'])}%) are confirmed. Yet only
+      <b>{fmt(g['with_value_number'])}</b> ({round(100*g['with_value_number']/g['deployments'])}%) carry any value number, and
+      independent verification is rare. <b>On today's evidence, the gap is in proof of value, not in adoption.</b></div>
       <div class="gapbar" role="img" aria-label="{fmt(g['confirmed'])} confirmed of {fmt(g['deployments'])}; {fmt(g['with_value_number'])} carry a value number">
         <div class="seg proof" style="width:{max(6,round(100*g['with_value_number']/g['deployments']))}%">{fmt(g['with_value_number'])} carry a value number</div>
         <div class="seg confirmed" style="width:{round(100*(g['confirmed']-g['with_value_number'])/g['deployments'])}%">confirmed, no number</div>
@@ -742,7 +743,7 @@ a.colink {{ color:var(--ink); text-decoration:none; }} a.colink:hover {{ color:v
         <button class="backup" id="backWorld" hidden>← Back to the world</button>
         <h2>The decision grid — <span class="scope" id="scopeName">the world</span></h2>
         <p class="lede">Every industry (down) × what the AI does (across). Each cell judged by how much of it
-        is <b>proven with numbers</b> vs merely <b>active</b> vs just <b>talk</b>. Click any cell for the companies.</p>
+        is <b>proven with metrics</b>, <b>active</b>, confirmed-only, or <b>unverified</b> in our sources. Click any cell for the companies.</p>
       </div>
       <div class="controls">
         <div class="seg-ctrl" id="modeCtrl">
@@ -753,10 +754,10 @@ a.colink {{ color:var(--ink); text-decoration:none; }} a.colink:hover {{ color:v
     </div>
     <div class="gridwrap"><table class="grid" id="gridTable"></table></div>
     <div class="verdict-key" id="verdictKey">
-      <span class="k"><span class="sw v-proven g-proven">●</span> Proven — ≥40% cite a value number</span>
-      <span class="k"><span class="sw v-active g-active">◐</span> Active — confirmed, some numbers (≥15%)</span>
-      <span class="k"><span class="sw v-unquantified g-unquantified">◍</span> Unquantified — mostly confirmed, no numbers yet</span>
-      <span class="k"><span class="sw v-talk g-talk">○</span> Talk — unconfirmed / hype</span>
+      <span class="k"><span class="sw v-proven g-proven">●</span> Proven — ≥40% cite a value metric</span>
+      <span class="k"><span class="sw v-active g-active">◐</span> Active — confirmed, some metrics (≥15%)</span>
+      <span class="k"><span class="sw v-unquantified g-unquantified">◍</span> Unquantified — mostly confirmed, no metric found yet</span>
+      <span class="k"><span class="sw v-talk g-talk">○</span> Unverified — claimed, not yet confirmed in our sources</span>
       <span class="k"><span class="sw" style="background:var(--surface-2)">·</span> Empty — none found</span>
     </div>
     <div class="vhist-block">
@@ -853,10 +854,10 @@ a.colink {{ color:var(--ink); text-decoration:none; }} a.colink:hover {{ color:v
   <div class="terr">
     <div class="head">
       <div>
-        <h2>Talk vs proof — <span class="scope">the hype gap by industry</span></h2>
-        <p class="lede">The study's founding thesis, automated. For each industry: how much is
-        <b>announced</b> (deployments) vs <b>substantiated</b> (rows citing a value number).
-        A short bar under a long one = an industry deploying AI blind.</p>
+        <h2>Adoption vs. evidence — <span class="scope">by industry</span></h2>
+        <p class="lede">The study's central question, by sector. For each industry: how much is
+        <b>announced</b> (deployments found) vs <b>substantiated</b> (rows citing a value metric).
+        A short bar under a long one means few value metrics were found for that sector — a gap to explore, not a verdict.</p>
       </div>
     </div>
     <div id="hypeMoneyPending"></div>
@@ -1113,6 +1114,16 @@ function injectNext(viewId) {{
   if(!sec) return;
   let nb=sec.querySelector(':scope > .nextblock'); if(nb) nb.remove();
   const html=renderNextBlock(viewId); if(html) sec.insertAdjacentHTML('beforeend', html);
+  injectCoverageNote(viewId, sec);
+}}
+// Standing coverage disclaimer on views where an ABSENCE is shown. The tool is a lower bound:
+// "not found" never means "does not exist" — later passes may add more (the silent resweep proved it).
+const ABSENCE_VIEWS={{silent:1,companies:1,hype:1,a2:1,usecases:1,signals:1,insights:1}};
+function injectCoverageNote(viewId, sec) {{
+  sec.querySelectorAll(':scope > .coverage-note').forEach(e=>e.remove());
+  if(!ABSENCE_VIEWS[viewId]) return;
+  sec.insertAdjacentHTML('beforeend',
+    `<p class="coverage-note">Coverage note: figures reflect what our sourcing has found so far — a lower bound, not a census. "Not found" does not mean "does not exist"; our search can miss, and later passes may add more.</p>`);
 }}
 
 /* ============ D1 COMPANY PAGE ============ */
@@ -1372,7 +1383,7 @@ function renderHype() {{
   // Marker keys off data presence (global.commitments) so it self-clears when data lands.
   const mp=document.getElementById('hypeMoneyPending');
   if(mp) mp.innerHTML = (ATLAS.global.commitments||0)===0
-    ? `<div class="pending">{icon('info',14)} Money-<b>in</b> axis (committed capital: invest / acquire / partner) — <b>data pending</b>. Shown here: money-<b>out</b> claims only. The Step 12 collection lights this up with zero code changes.</div>`
+    ? `<div class="pending">{icon('info',14)} Committed-capital data (investments, acquisitions, partnerships) is still being collected. Shown here: disclosed value claims only.</div>`
     : '';
   const host=document.getElementById('hypeChart'); if(!host||!ATLAS.hype_by_vertical) return;
   const data=[...ATLAS.hype_by_vertical].filter(h=>h.announced>0).sort((a,b)=>b.announced-a.announced);
@@ -1867,7 +1878,7 @@ const VERDICT_GLYPH = {{proven:'●', active:'◐', unquantified:'◍', talk:'�
                         strong:'●'}};  // 'strong' alias for any stale refs
 const VERDICT_CLASS = {{proven:'v-proven', active:'v-active', unquantified:'v-unquantified',
                         talk:'v-talk', empty:'empty', strong:'v-proven'}};
-const VLAB4 = {{proven:'Proven', active:'Active', unquantified:'Unquantified', talk:'Talk', strong:'Proven'}};
+const VLAB4 = {{proven:'Proven', active:'Active', unquantified:'Unquantified', talk:'Unverified', strong:'Proven'}};
 const vv = c => c.verdict_v2 || c.verdict;   // prefer 4-state, fall back
 
 function descendCountry(d) {{

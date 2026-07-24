@@ -434,23 +434,24 @@ WHITESPACE.sort(key=lambda x:-x["score"])
 # ---------- B7-r insight cards + per-persona action templates (Step 11) ----------
 # Same finding, different verb per persona. Screener positioning: investor bar = "worth an
 # hour of DD", never "wire money". Every card carries a non-empty action for each listed persona.
+# Actions describe what the DATA FOUND (a lower bound), never assert what a company does or needs.
 ACTION_TMPL={
   "silent_giant":{
-    "vendor":"Bid window: outreach to {name} — its rivals disclose a median {pm} deployments; attach their sources.",
-    "consultant":"Client-gap brief: {name} trails {sector} peers (median {pm}) — a documented opening.",
-    "investor":"Laggard flag: check {name}'s capex/AI language next filing — behind its sector."},
+    "vendor":"No AI found yet for {name}; {sector} peers show a median {pm}. Worth checking directly — our search may simply not have reached it.",
+    "consultant":"{name} sits below the {sector} peer median ({pm}) on AI found in our sources — a starting point to verify.",
+    "investor":"Less AI activity found for {name} than for sector peers — worth reviewing its filings directly."},
   "contradiction":{
-    "investor":"Worth an hour of DD: earnings-call question for {name} — '{n} AI initiatives announced, what measurable return?'",
-    "consultant":"Credibility benchmark: {name} announces {n}, proves 0 — position against your client's own claims.",
-    "vendor":"Measurement gap at {name}: {n} deployments, no numbers — a tooling/services pitch."},
+    "investor":"{n} AI deployments found for {name}, none with a value metric in our sources — a possible earnings-call question.",
+    "consultant":"{name}: {n} deployments found, no value metric in our sources — a point to explore, not a conclusion.",
+    "vendor":"{n} confirmed deployments found for {name}, none with a published metric here — worth a direct look."},
   "whitespace":{
-    "vendor":"Greenfield: {v} firms not yet in {h}; {ac} proven markets as reference cases.",
-    "consultant":"Transfer pitch: {v}×{h} proven in {ac} countries — bring it to the laggards.",
-    "investor":"Adoption runway: {v}×{h} still spreading across markets."},
+    "vendor":"{v} × {h} appears in {ac} markets in our data; not yet found elsewhere — reference cases available.",
+    "consultant":"{v} × {h} is evidenced in {ac} countries — a possible transfer angle for markets where none is found yet.",
+    "investor":"{v} × {h} still appears to be diffusing across markets — an adoption trend to watch."},
   "blind_vertical":{
-    "investor":"Measurement/tooling thesis: the whole {v} vertical deploys AI with near-zero disclosed value numbers.",
-    "vendor":"Whole-vertical services opportunity: {v} runs blind — nobody's measuring.",
-    "consultant":"Sector brief: {v} adopts AI but can't prove ROI — a market-wide gap."},
+    "investor":"{v} shows broad adoption but few value metrics in our sources — a measurement-gap angle worth testing.",
+    "vendor":"{v} shows wide adoption with few published metrics found — a possible sector-wide angle.",
+    "consultant":"{v}: wide adoption, little disclosed ROI found — a gap to explore with sources."},
 }
 def mk_actions(rule, **slots):
     return {p: t.format(**slots) for p, t in ACTION_TMPL[rule].items()}
@@ -460,8 +461,8 @@ for s in SILENT:
     pm=s.get("peer_median")
     if pm and pm>=2:
         INSIGHTS.append({"type":"silent_giant","entities":[s["slug"]],
-          "finding":f"{s['name']} ({s['cc']}) discloses no AI, while its {s.get('sector','')} peers run a median of {int(pm)} deployments.",
-          "meaning":"A documented gap next to active rivals.",
+          "finding":f"No AI found yet for {s['name']} ({s['cc']}); its {s.get('sector','')} peers show a median of {int(pm)} deployments in our data.",
+          "meaning":"A gap in what our sourcing has found so far — worth verifying directly.",
           "persona":["vendor","consultant","investor"],
           "actions":mk_actions("silent_giant",name=s['name'],sector=s.get('sector','') or 'sector',pm=int(pm)),
           "surprise_score":round(pm*10)})
@@ -469,15 +470,15 @@ for c in COMPANIES:
     if c["silent"]: continue
     if c["deployments"]>=4 and c["with_value_number"]==0:
         INSIGHTS.append({"type":"contradiction","entities":[c["slug"]],
-          "finding":f"{c['name']} discloses {c['deployments']} AI deployments but not a single value number.",
-          "meaning":"High activity, zero substantiation.",
+          "finding":f"{c['deployments']} AI deployments found for {c['name']}; none carries a value metric in our sources.",
+          "meaning":"Confirmed activity; value not quantified in what we found.",
           "persona":["investor","consultant","vendor"],
           "actions":mk_actions("contradiction",name=c['name'],n=c['deployments']),
           "surprise_score":c["deployments"]*4})
 for w in WHITESPACE[:8]:
     INSIGHTS.append({"type":"whitespace","entities":[],
-      "finding":f"{w['v']} × {w['h']} is active in {w['active_countries']} countries — a proven pattern.",
-      "meaning":"Where the pattern is proven, laggards are prospects.",
+      "finding":f"{w['v']} × {w['h']} appears in {w['active_countries']} countries in our data — a well-evidenced pattern.",
+      "meaning":"Markets where it isn't found yet may be transfer opportunities.",
       "persona":["vendor","consultant","investor"],
       "actions":mk_actions("whitespace",v=w['v'],h=w['h'],ac=w['active_countries']),
       "surprise_score":w["score"]})
@@ -529,8 +530,8 @@ BLIND_THRESHOLD=20
 for h in HYPE_VERT:
     if h["announced"]>=BLIND_THRESHOLD and h["substantiated"]==0:
         INSIGHTS.append({"type":"blind_vertical","entities":[],
-          "finding":f"{h['v']}: {h['announced']} deployments, not one cites a value number — the whole vertical deploys blind.",
-          "meaning":"Adoption without measurement, industry-wide.",
+          "finding":f"{h['v']}: {h['announced']} deployments found, none with a value metric in our sources.",
+          "meaning":"Broad adoption, little measured value found — worth testing before concluding.",
           "persona":["investor","vendor","consultant"],
           "actions":mk_actions("blind_vertical",v=h['v']),
           "surprise_score":h["announced"]})
