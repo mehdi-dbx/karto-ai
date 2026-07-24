@@ -3,27 +3,27 @@
  "name": "Idemitsu Kosan Co., Ltd",
  "cc": "JP",
  "vertical": "Energy & Utilities",
- "deployments": 1,
- "confirmed": 1,
- "with_value_number": 1,
- "proof_rate": 1.0,
+ "deployments": 13,
+ "confirmed": 11,
+ "with_value_number": 6,
+ "proof_rate": 0.462,
  "mktcap": 10600000000.0,
  "revenue": 54066666667.0,
  "employees": 14392.0,
  "silent": false,
- "per_bn_revenue": 0.02,
- "per_10k_emp": 0.69,
+ "per_bn_revenue": 0.24,
+ "per_10k_emp": 9.03,
  "benchmarks": {
   "global_vertical": {
-   "deployments": 0,
-   "confirmed": 20,
-   "proof_rate": 72,
+   "deployments": 98,
+   "confirmed": 97,
+   "proof_rate": 68,
    "n": 210
   },
   "country_vertical": {
-   "deployments": 0,
-   "confirmed": 0,
-   "proof_rate": 50,
+   "deployments": 100,
+   "confirmed": 100,
+   "proof_rate": 17,
    "n": 7
   }
  },
@@ -33,11 +33,12 @@
  "momentum": "none",
  "maturity": "L3",
  "maturity_evidence": [
+  "multi_horizontal",
   "named_product:Accenture",
   "value_number",
   "tier_p"
  ],
- "prospect_score": 6,
+ "prospect_score": 82,
  "stack": [
   "Accenture"
  ],
@@ -51,6 +52,138 @@
    "tier": "P",
    "url": "https://www.accenture.com/jp-ja/case-studies/energy/idemitsu-kosan",
    "raw_sector": "Petroleum",
+   "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "Idemitsu Kosan Co., Ltd",
+   "use": "AI + mathematical-optimization system for tank-lorry dispatch planning of fuel oil: AI forecasts demand per service station (SS) and an optimization model builds delivery/dispatch plans, full production from Dec 2024. [Accenture]",
+   "existence": "confirmed",
+   "value": "plan creation time cut 16% (targeting ~25%)",
+   "tier": "",
+   "url": "https://www.idemitsu.com/jp/news/2024/241211.pdf",
+   "raw_sector": "",
+   "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "Idemitsu Kosan Co., Ltd",
+   "use": "Mathematical-optimization / AI system for overseas crude-oil tanker (external vessel) allocation planning, integrating expert knowledge to minimize transport cost; phased operation from April 2025. [ExaWizards]",
+   "existence": "confirmed",
+   "value": "up to 40% reduction in planning time; hundreds of millions of yen/year cost savings expected",
+   "tier": "",
+   "url": "https://exawizards.com/archives/30289/",
+   "raw_sector": "",
+   "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "Idemitsu Kosan Co., Ltd",
+   "use": "AI-based shipment forecasting for inventory management of petroleum products across domestic oil depots (yuso-sho), using shipment history, market and weather data to forecast per-product volumes; launched at 28 depots in 2020 with rollout to 46 depots. [NEC (heterogeneous mixture learning)]",
+   "existence": "confirmed",
+   "value": "28 depots at launch, expanding to 46",
+   "tier": "",
+   "url": "https://jpn.nec.com/press/202002/20200207_01.html",
+   "raw_sector": "",
+   "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "Idemitsu Kosan Co., Ltd",
+   "use": "Cognite Data Fusion industrial DataOps/knowledge-graph platform deployed across four manufacturing (refining/chemical) sites to unify plant data with AI/ML for monitoring, prediction and predictive maintenance; scoped for ~3,000 users. [Cognite (Cognite Data Fusion)]",
+   "existence": "confirmed",
+   "value": "4 sites, ~3,000 users; adopted to full deployment in ~6 months",
+   "tier": "",
+   "url": "https://www.cognite.com/en/company/newsroom/idemitsu-kosan-deploys-cognite-data-fusion-to-four-manufacturing-sites",
+   "raw_sector": "",
+   "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "Idemitsu Kosan Co., Ltd",
+   "use": "AVEVA Schedule AI Assistant (part of AVEVA Unified Supply Chain / Value Chain Optimization) deployed at the Hokkaido Refinery to improve refining margins, asset utilization and cut crude/transport costs. [AVEVA (Schedule AI Assistant)]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.aveva.com/en/about/news/press-releases/2021/aveva-empowers-petroleum-leader-idemitsu-kosan-with-ai-infused-cloud-solution/",
+   "raw_sector": "",
+   "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "Idemitsu Kosan Co., Ltd",
+   "use": "Materials Informatics (AI/ML) platform to accelerate R&D and scale development/production of innovative battery materials (all-solid-state battery electrolytes); expanded partnership announced Nov 2024. [Enthought]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.enthought.com/idemitsu-expands-partnership-with-enthought-to-accelerate-product-innovation-using-materials-informatics",
+   "raw_sector": "",
+   "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "Idemitsu Kosan Co., Ltd",
+   "use": "Proof-of-concept using auto take-off/landing drones (DJI Dock 2) for remote real-time inspection of tank yards at the Hokkaido Refinery, removing manual drone-flight tasks for remote tank-yard inspection. [Sensyn Robotics]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.sensyn-robotics.com/news/idemitsu-hokkaido-drone-inspection-test",
+   "raw_sector": "",
+   "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "Idemitsu Kosan Co., Ltd",
+   "use": "AI dialogue engine PKSHA Chatbot deployed for internal help-desk / inquiry handling, integrated with Microsoft Teams and rolled out company-wide to replace slow phone/email support. [PKSHA Technology (PKSHA Chatbot)]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.pkshatech.com/news/20221116/",
+   "raw_sector": "",
+   "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "Idemitsu Kosan Co., Ltd",
+   "use": "Company-wide generative AI and AI-powered office tool rollout: over 10,000 employees use generative AI for document summarization, meeting-minute generation and other daily tasks, plus 657 citizen-developed low-code apps as part of the DX 'STEP1 efficiency' program.",
+   "existence": "confirmed",
+   "value": "10,000+ employees using generative AI; 657 low-code apps",
+   "tier": "",
+   "url": "https://www.idemitsu.com/en/sustainability/management/dx/index.html",
+   "raw_sector": "",
+   "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "Idemitsu Kosan Co., Ltd",
+   "use": "AI-based HR platform built on NRI's Talent Market Place (TMP) for talent matching / internal job-posting and life-career development, using generative AI plus Idemitsu HR data; collaboration announced Oct 2024 with practical validation on the internal job-posting system. [Nomura Research Institute (Talent Market Place)]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.idemitsu.com/jp/news/2024/241015_2.pdf",
+   "raw_sector": "",
+   "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "Idemitsu Kosan Co., Ltd",
+   "use": "Generative AI / RAG system in the Advanced Materials division for two tasks: automated competitor-product analysis reports (searching internet sources) and product-defect inquiry support (searching CRM and cloud storage for similar cases); in use, built on Azure OpenAI Service. [ULS Systems / Azure OpenAI Service (RAG)]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://it.impress.co.jp/articles/-/27869",
+   "raw_sector": "",
+   "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "Idemitsu Kosan Co., Ltd",
+   "use": "AI/IoT industrial-safety proof-of-concept at the Hokkaido Refinery using big-data/image analysis for early detection of pipe/piping external corrosion and standardization of corrosion evaluation to support less-experienced inspectors.",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://prtimes.jp/main/html/rd/p/000000164.000023740.html",
+   "raw_sector": "",
    "date": "missing",
    "fresh": "undated"
   }

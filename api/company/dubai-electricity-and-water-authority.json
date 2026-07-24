@@ -3,46 +3,64 @@
  "name": "Dubai Electricity and Water Authority",
  "cc": "AE",
  "vertical": "Energy & Utilities",
- "deployments": 1,
- "confirmed": 1,
- "with_value_number": 1,
- "proof_rate": 1.0,
+ "deployments": 15,
+ "confirmed": 14,
+ "with_value_number": 7,
+ "proof_rate": 0.467,
  "mktcap": 36239000000.0,
  "revenue": 9082000000.0,
  "employees": 11206.0,
  "silent": false,
- "per_bn_revenue": 0.11,
- "per_10k_emp": 0.89,
+ "per_bn_revenue": 1.65,
+ "per_10k_emp": 13.39,
  "benchmarks": {
   "global_vertical": {
-   "deployments": 0,
-   "confirmed": 20,
-   "proof_rate": 72,
+   "deployments": 100,
+   "confirmed": 100,
+   "proof_rate": 68,
    "n": 210
   },
   "country_vertical": {
-   "deployments": 0,
-   "confirmed": 25,
+   "deployments": 100,
+   "confirmed": 100,
    "proof_rate": 75,
    "n": 5
   }
  },
- "first_seen": 2023,
+ "first_seen": 2022,
  "by_year": [
   {
+   "year": 2022,
+   "n": 2
+  },
+  {
    "year": 2023,
-   "n": 1
+   "n": 2
+  },
+  {
+   "year": 2024,
+   "n": 2
+  },
+  {
+   "year": 2025,
+   "n": 5
+  },
+  {
+   "year": 2026,
+   "n": 2
   }
  ],
- "undated_pct": 0,
- "momentum": "early_mover,gone_quiet",
- "maturity": "L3",
+ "undated_pct": 13,
+ "momentum": "early_mover,rising",
+ "maturity": "L4",
  "maturity_evidence": [
+  "multi_horizontal",
   "named_product:Rammas",
   "value_number",
+  "multi_year",
   "tier_p"
  ],
- "prospect_score": 6,
+ "prospect_score": 81,
  "stack": [
   "OpenAI"
  ],
@@ -58,6 +76,160 @@
    "raw_sector": "Utilities",
    "date": "2023",
    "fresh": "stale"
+  },
+  {
+   "company": "Dubai Electricity and Water Authority",
+   "use": "BRD Generator — generative-AI tool that drafts Business Requirement Documents for engineering/project teams from minimal input and flags documentation gaps. [Microsoft Azure AI Services]",
+   "existence": "confirmed",
+   "value": "Reduced BRD completion time from one week to one day including review cycles",
+   "tier": "",
+   "url": "https://dewa.gov.ae/en/about-us/media-publications/latest-news/2025/06/dewa-launches-two-new-ai-based-tools",
+   "raw_sector": "",
+   "date": "2025-06",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Dubai Electricity and Water Authority",
+   "use": "Enterprise rollout of Microsoft 365 Copilot / Power Platform across operations to automate document and productivity tasks; Copilot in Power BI planned for turbine generation data analysis. [Microsoft 365 Copilot, Power Platform]",
+   "existence": "confirmed",
+   "value": "Initial deployment of 1,000 Copilot licenses; tasks reduced from days to hours",
+   "tier": "",
+   "url": "https://mediaoffice.ae/en/news/2025/june/20-06/dewa-leverages-microsoft-solutions-to-accelerate-digital",
+   "raw_sector": "",
+   "date": "2025-06",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Dubai Electricity and Water Authority",
+   "use": "Moro Hub (Digital DEWA) OT Cyber Defense Center — AI-driven managed security service protecting OT/IoT critical infrastructure using data lake and AI for threat detection and rapid response. [EY (Moro Hub / Digital DEWA)]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://industrialcyber.co/news/moro-hub-ey-debut-ai-driven-managed-security-service-for-ot-environments-in-uae/",
+   "raw_sector": "",
+   "date": "2023-01",
+   "fresh": "stale"
+  },
+  {
+   "company": "Dubai Electricity and Water Authority",
+   "use": "DEWA Cyber Defense Centre uses IBM Watson (QRadar Advisor) cognitive AI to investigate and triage security incidents, reducing time-to-respond. [IBM Watson Advisor / QRadar]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.dewa.gov.ae/en/about-us/strategy-excellence/data-science-and-ai",
+   "raw_sector": "",
+   "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "Dubai Electricity and Water Authority",
+   "use": "AI-driven meter fraud/tamper detection and AI-based event monitoring for grid devices (utility metering integrity). [OpenText]",
+   "existence": "confirmed",
+   "value": "99% device availability via AI-based event monitoring; reduced meter fraud",
+   "tier": "",
+   "url": "https://www.opentext.com/customers/dubai-electricity-and-water-authority",
+   "raw_sector": "",
+   "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "Dubai Electricity and Water Authority",
+   "use": "Material Insights Agent — 'virtual photovoltaic expert' providing real-time, data-driven analysis to engineers during solar-project design and material selection.",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://dewa.gov.ae/en/about-us/media-publications/latest-news/2025/06/dewa-launches-two-new-ai-based-tools",
+   "raw_sector": "",
+   "date": "2025-06",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Dubai Electricity and Water Authority",
+   "use": "AI deployed across the electricity distribution network / smart grid for fault prediction, network-efficiency and service-reliability optimization tied to smart-meter data.",
+   "existence": "confirmed",
+   "value": "1,202,411 smart electricity meters deployed; part of a $1.9bn smart-grid program",
+   "tier": "",
+   "url": "https://www.dewa.gov.ae/en/about-us/media-publications/latest-news/2025/07/dewa-deploys-ai-in-energy-distribution-to-enhance-network-efficiency-and-service-reliability",
+   "raw_sector": "",
+   "date": "2025-07",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Dubai Electricity and Water Authority",
+   "use": "High-Water Usage Alert — AI/analytics on smart water meters detects abnormal consumption indicating post-meter leaks and pushes instant customer notifications.",
+   "existence": "confirmed",
+   "value": "Saved customers AED 420 million",
+   "tier": "",
+   "url": "https://www.dewa.gov.ae/en/about-us/media-publications/latest-news/2022/02/dewa-customers-save-aed-420-million-through-its-high-water-usage-alert-service",
+   "raw_sector": "",
+   "date": "2022-02",
+   "fresh": "stale"
+  },
+  {
+   "company": "Dubai Electricity and Water Authority",
+   "use": "Solar power forecasting using deep learning / neural networks on sky cameras and satellite imagery to detect clouds and fog and predict PV output at MBR Solar Park.",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.dewa.gov.ae/en/about-us/media-publications/latest-news/2022/08/dewas-r-and-d-centre-invests-in-ai-and-machine-learning",
+   "raw_sector": "",
+   "date": "2022-08",
+   "fresh": "stale"
+  },
+  {
+   "company": "Dubai Electricity and Water Authority",
+   "use": "AI Plant Intelligent Controller / thermodynamic Digital Twin Gas Turbine Intelligent Controller — closed-loop AI optimization of gas turbines at M-Station/Jebel Ali; Phase two signed 2025. [Siemens Energy]",
+   "existence": "confirmed",
+   "value": "Up to AED 17 million annual savings at M-Station",
+   "tier": "",
+   "url": "https://mediaoffice.ae/en/news/2025/october/01-10/dewa-and-siemens-energy-launch-phase-two-of-ai-plant-intelligent-controller",
+   "raw_sector": "",
+   "date": "2025-10",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Dubai Electricity and Water Authority",
+   "use": "Virtual Power Plant (VPP) pilot using AI-based forecasting and optimization to aggregate and orchestrate distributed energy resources on the smart grid.",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.dewa.gov.ae/en/about-us/media-publications/latest-news/2024/07/dewa-completes-its-pilot-virtual-power-plant-project-the-first-of-its-kind-in-the-region",
+   "raw_sector": "",
+   "date": "2024-07",
+   "fresh": "aging"
+  },
+  {
+   "company": "Dubai Electricity and Water Authority",
+   "use": "'Virtual Engineer' — AI system for the power-generation sector delivering predictive failure alerts, root-cause analysis, autonomous efficiency calculations, plant-optimization recommendations and real-time scenario simulations.",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://gulfnews.com/uae/government/dubais-dewa-to-deploy-worlds-first-ai-virtual-engineer-for-power-network-1.500433341",
+   "raw_sector": "",
+   "date": "2026-06",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Dubai Electricity and Water Authority",
+   "use": "Rammas virtual employee/assistant — 24/7 Arabic & English customer chatbot across smart app, web, WhatsApp and Instagram; upgraded with Azure OpenAI Service for generative, human-like responses. [Microsoft Azure OpenAI Service (chatbot originally on Microsoft AI, 2017)]",
+   "existence": "confirmed",
+   "value": "Responded to over 9.2 million customer inquiries autonomously; 98% satisfaction on Dubai Instant Happiness Index",
+   "tier": "",
+   "url": "https://www.microsoft.com/en/customers/story/1803548215767581643-dewa-azure-ai-services-government-en-united-arab-emirates",
+   "raw_sector": "",
+   "date": "2024",
+   "fresh": "aging"
+  },
+  {
+   "company": "Dubai Electricity and Water Authority",
+   "use": "Agentic AI deployed across DEWA's website, smart app, Smart Office employee app, dashboards and internal platforms, focused on service design, customer digital experience and quality monitoring.",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.dubaieye1038.com/news/local/dewa-deploys-agentic-ai-across-its-digital-platforms/",
+   "raw_sector": "",
+   "date": "2026-07",
+   "fresh": "fresh"
   }
  ]
 }

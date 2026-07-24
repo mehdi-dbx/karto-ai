@@ -3,40 +3,56 @@
  "name": "Home Depot (The)",
  "cc": "US",
  "vertical": "Retail & E-commerce",
- "deployments": 1,
- "confirmed": 1,
- "with_value_number": 0,
- "proof_rate": 0.0,
+ "deployments": 9,
+ "confirmed": 7,
+ "with_value_number": 2,
+ "proof_rate": 0.222,
  "mktcap": 324410000000.0,
  "revenue": 166590000000.0,
  "employees": 472400.0,
  "silent": false,
- "per_bn_revenue": 0.01,
- "per_10k_emp": 0.02,
+ "per_bn_revenue": 0.05,
+ "per_10k_emp": 0.19,
  "benchmarks": {
   "global_vertical": {
-   "deployments": 0,
-   "confirmed": 26,
-   "proof_rate": 0,
+   "deployments": 92,
+   "confirmed": 93,
+   "proof_rate": 63,
    "n": 295
   },
   "country_vertical": {
-   "deployments": 0,
-   "confirmed": 29,
-   "proof_rate": 0,
+   "deployments": 82,
+   "confirmed": 84,
+   "proof_rate": 68,
    "n": 80
   }
  },
- "first_seen": null,
- "by_year": [],
- "undated_pct": 100,
- "momentum": "none",
- "maturity": "L3",
+ "first_seen": 2023,
+ "by_year": [
+  {
+   "year": 2023,
+   "n": 1
+  },
+  {
+   "year": 2025,
+   "n": 2
+  },
+  {
+   "year": 2026,
+   "n": 5
+  }
+ ],
+ "undated_pct": 11,
+ "momentum": "early_mover,rising",
+ "maturity": "L4",
  "maturity_evidence": [
+  "multi_horizontal",
   "named_product:Magic Apron",
+  "value_number",
+  "multi_year",
   "tier_p"
  ],
- "prospect_score": 46,
+ "prospect_score": 73,
  "stack": [
   "Google Cloud"
  ],
@@ -52,6 +68,94 @@
    "raw_sector": "Consumer Discretionary",
    "date": "missing",
    "fresh": "undated"
+  },
+  {
+   "company": "Home Depot (The)",
+   "use": "Sidekick associate app: cloud-based machine-learning task-prioritization plus computer vision that flags out-of-stock shelves and locates overhead inventory, running on custom hdPhones to improve on-shelf availability across US stores. [In-house ML; hardware with Zebra Technologies, HPE, Aruba]",
+   "existence": "confirmed",
+   "value": "~100 bps on-shelf availability improvement worth several hundred million dollars in sales lift (Constellation Research); 99,000+ hdPhones deployed",
+   "tier": "",
+   "url": "https://www.ciodive.com/news/home-depot-sidekick-app/640521/",
+   "raw_sector": "",
+   "date": "2023-01",
+   "fresh": "stale"
+  },
+  {
+   "company": "Home Depot (The)",
+   "use": "Order Intelligence: delivery-logistics AI that analyzes millions of historical delivery data points to assign risk scores, account for site-access issues, and recommend the right delivery vehicle size.",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.fortune.com/2026/06/24/home-depot-ai-home-improvement-retail/",
+   "raw_sector": "",
+   "date": "2026-06",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Home Depot (The)",
+   "use": "Microsoft Copilot deployed to office/corporate workers as a productivity assistant. [Microsoft Copilot]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.fortune.com/2026/06/24/home-depot-ai-home-improvement-retail/",
+   "raw_sector": "",
+   "date": "2026-06",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Home Depot (The)",
+   "use": "Anthropic's Claude used as an AI coding assistant supporting Home Depot's software development. [Anthropic Claude]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.fortune.com/2026/06/24/home-depot-ai-home-improvement-retail/",
+   "raw_sector": "",
+   "date": "2026-06",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Home Depot (The)",
+   "use": "Generative Engine Optimization (GEO) strategy to make Home Depot products discoverable and recommended within third-party AI shopping assistants such as ChatGPT and Gemini. [OpenAI ChatGPT, Google Gemini (external platforms)]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.fortune.com/2026/06/24/home-depot-ai-home-improvement-retail/",
+   "raw_sector": "",
+   "date": "2026-06",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Home Depot (The)",
+   "use": "Magic Apron: customer-facing generative AI assistant on homedepot.com product pages and the mobile app that answers how-to/project questions, recommends tools and materials, calculates material quantities, and summarizes product reviews; expanding to Pro contractors and store/contact-center associates. [Proprietary LLM trained on Home Depot knowledge base; Google Cloud (Gemini Enterprise)]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://corporate.homedepot.com/news/company/unveiling-magic-apron-home-depots-smartest-tool-yet",
+   "raw_sector": "",
+   "date": "2025-03",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Home Depot (The)",
+   "use": "Intent Search: AI-enhanced on-site search capability rolled out as part of Home Depot's generative-AI suite to better interpret shopper intent.",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://chainstoreage.com/home-depot-rolls-out-suite-generative-ai-tools-customers",
+   "raw_sector": "",
+   "date": "2025-03",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Home Depot (The)",
+   "use": "AI customer-service voice/phone agent that lets callers skip phone-tree menus and describe their need in natural language, piloted in stores; demonstrated identifying the caller's intent within about 10 seconds. [Google Cloud (Gemini Enterprise for Customer Experience)]",
+   "existence": "confirmed",
+   "value": "understands what a customer is calling about in ~10 seconds",
+   "tier": "",
+   "url": "https://blog.google/innovation-and-ai/infrastructure-and-cloud/google-cloud/cloud-next-2026-customer-round-up/",
+   "raw_sector": "",
+   "date": "2026",
+   "fresh": "fresh"
   }
  ]
 }

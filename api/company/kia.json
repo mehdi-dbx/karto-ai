@@ -3,40 +3,58 @@
  "name": "Kia",
  "cc": "KR",
  "vertical": "Retail & E-commerce",
- "deployments": 1,
- "confirmed": 1,
- "with_value_number": 0,
- "proof_rate": 0.0,
+ "deployments": 8,
+ "confirmed": 2,
+ "with_value_number": 1,
+ "proof_rate": 0.125,
  "mktcap": 42259259259.0,
  "revenue": 84548148148.0,
  "employees": 32366.0,
  "silent": false,
- "per_bn_revenue": 0.01,
- "per_10k_emp": 0.31,
+ "per_bn_revenue": 0.09,
+ "per_10k_emp": 2.47,
  "benchmarks": {
   "global_vertical": {
-   "deployments": 0,
-   "confirmed": 26,
-   "proof_rate": 0,
+   "deployments": 91,
+   "confirmed": 80,
+   "proof_rate": 61,
    "n": 295
   },
   "country_vertical": {
-   "deployments": 0,
-   "confirmed": 19,
-   "proof_rate": 0,
+   "deployments": 95,
+   "confirmed": 100,
+   "proof_rate": 81,
    "n": 22
   }
  },
- "first_seen": null,
- "by_year": [],
- "undated_pct": 100,
- "momentum": "none",
+ "first_seen": 2024,
+ "by_year": [
+  {
+   "year": 2024,
+   "n": 4
+  },
+  {
+   "year": 2025,
+   "n": 1
+  },
+  {
+   "year": 2026,
+   "n": 1
+  },
+  {
+   "year": 2029,
+   "n": 1
+  }
+ ],
+ "undated_pct": 12,
+ "momentum": "early_mover,cooling",
  "maturity": "L3",
  "maturity_evidence": [
+  "multi_horizontal",
   "named_product:First",
   "tier_p"
  ],
- "prospect_score": 54,
+ "prospect_score": 55,
  "stack": [],
  "vendor_named": false,
  "deployments_detail": [
@@ -50,6 +68,83 @@
    "raw_sector": "Consumer Discretionary",
    "date": "missing",
    "fresh": "undated"
+  },
+  {
+   "company": "Kia",
+   "use": "In-car generative AI voice assistant ('AI Assistant') built on OpenAI ChatGPT technology, activated by 'Hey Kia'/steering-wheel button; lets drivers converse naturally, plan trips, control the vehicle, get information and entertainment via the ccNC connected-car cockpit. [OpenAI (ChatGPT, heavily customized)]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://worldwide.kia.com/en/newsroom/view/?id=161613",
+   "raw_sector": "",
+   "date": "2024-07",
+   "fresh": "aging"
+  },
+  {
+   "company": "Kia",
+   "use": "Next-generation autonomous driving: Hyundai Motor Group (incl. Kia) builds on the NVIDIA DRIVE Hyperion platform with a data-driven loop of fleet driving-data collection, AI model training and continuous improvement, targeting Level 2+ ADAS in production vehicles and Level 4 robotaxi. [NVIDIA (DRIVE Hyperion)]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://investor.nvidia.com/news/press-release-details/2026/Hyundai-Motor-Kia-and-NVIDIA-Expand-Strategic-Partnership-for-Next-Generation-Autonomous-Driving-Technology/default.aspx",
+   "raw_sector": "",
+   "date": "2026-03",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Kia",
+   "use": "Boston Dynamics Atlas humanoid robots deployed across Kia manufacturing, initially covering 16 manufacturing processes with AI-learning expansion; deployment at Kia AutoLand Georgia planned for H2 2029 (Metaplant America 2028). [Boston Dynamics (Atlas)]",
+   "existence": "claimed",
+   "value": "16 manufacturing processes; part of $14B robotics/SDV/AD spend within $33B 2026-2030 investment",
+   "tier": "",
+   "url": "https://aibusiness.com/automation/kia-use-robots-build-its-cars-also-delivery-vehicles",
+   "raw_sector": "",
+   "date": "2029",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Kia",
+   "use": "E-FOREST software-defined smart-factory brand integrating AI, robotics and big-data analytics to run production efficiently; used across Hyundai Motor Group and Kia plants and future PBV production bases.",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.hyundai.com/worldwide/en/newsroom/detail/0000000849",
+   "raw_sector": "",
+   "date": "2024-10",
+   "fresh": "aging"
+  },
+  {
+   "company": "Kia",
+   "use": "'Pleos' software brand and proprietary vehicle OS turning cars into self-learning, continuously-advancing 'learning machines' as the foundation of Kia's software-defined-vehicle strategy. [Hyundai Motor Group (Pleos)]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://worldwide.kia.com/en/newsroom/view/?id=161170",
+   "raw_sector": "",
+   "date": "2025-03",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Kia",
+   "use": "Mobile-app AI chatbot for owners (ChatGPT-powered) that answers vehicle questions, decodes fault codes, optimizes EV routes, plans travel and helps schedule service appointments on iPhone/Android. [OpenAI (ChatGPT)]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.techtimes.com/articles/297515/20231013/kia-ai-chatbot-ask-car-anything-will-answer-back.htm",
+   "raw_sector": "",
+   "date": "2024",
+   "fresh": "aging"
+  },
+  {
+   "company": "Kia",
+   "use": "Generative AI for automotive conceptual design: Kia Global Design's research collaboration with Autodesk to build a GenAI tool that helps designers ideate faster (e.g., wheel concept design). [Autodesk]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.autodesk.com/design-make/articles/kia-generative-ai-for-automotive-design",
+   "raw_sector": "",
+   "date": "2024",
+   "fresh": "aging"
   }
  ]
 }

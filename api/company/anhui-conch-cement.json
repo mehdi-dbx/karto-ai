@@ -3,45 +3,59 @@
  "name": "Anhui Conch Cement",
  "cc": "CN",
  "vertical": "Chemicals & Materials",
- "deployments": 1,
- "confirmed": 1,
- "with_value_number": 1,
- "proof_rate": 1.0,
+ "deployments": 13,
+ "confirmed": 13,
+ "with_value_number": 11,
+ "proof_rate": 0.846,
  "mktcap": 12880555556.0,
  "revenue": 11186111111.0,
  "employees": 48286.0,
  "silent": false,
- "per_bn_revenue": 0.09,
- "per_10k_emp": 0.21,
+ "per_bn_revenue": 1.16,
+ "per_10k_emp": 2.69,
  "benchmarks": {
   "global_vertical": {
-   "deployments": 0,
-   "confirmed": 20,
-   "proof_rate": 73,
+   "deployments": 98,
+   "confirmed": 99,
+   "proof_rate": 74,
    "n": 105
   },
   "country_vertical": {
-   "deployments": 0,
-   "confirmed": 0,
+   "deployments": 100,
+   "confirmed": 100,
    "proof_rate": 75,
    "n": 5
   }
  },
- "first_seen": 2025,
+ "first_seen": 2022,
  "by_year": [
   {
-   "year": 2025,
+   "year": 2022,
    "n": 1
+  },
+  {
+   "year": 2023,
+   "n": 1
+  },
+  {
+   "year": 2024,
+   "n": 2
+  },
+  {
+   "year": 2025,
+   "n": 9
   }
  ],
  "undated_pct": 0,
- "momentum": "rising",
- "maturity": "L3",
+ "momentum": "early_mover,rising",
+ "maturity": "L4",
  "maturity_evidence": [
+  "multi_horizontal",
   "named_product:Huawei",
-  "value_number"
+  "value_number",
+  "multi_year"
  ],
- "prospect_score": 14,
+ "prospect_score": 74,
  "stack": [],
  "vendor_named": false,
  "deployments_detail": [
@@ -53,6 +67,138 @@
    "tier": "I",
    "url": "https://www.conch.cn/gsyw/info_itemid_384958.html",
    "raw_sector": "Materials",
+   "date": "2025-04",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Anhui Conch Cement",
+   "use": "Industry-first 'AI + Cement Building Materials' large model (Conch Yungong model) co-built with Huawei on Huawei Cloud Stack + Pangu models, deployed across 5 categories and 40+ scenarios spanning quality control, production optimization, equipment management, safety and intelligent Q&A (from a mapped 15 categories / 200+ scenarios of the full production flow). [Huawei Cloud Stack + Pangu large models]",
+   "existence": "confirmed",
+   "value": "15 categories / 200+ AI scenarios mapped; applied in 5 categories / 40+ scenarios",
+   "tier": "",
+   "url": "https://www.huawei.com/en/news/2025/4/conch-cement-ai",
+   "raw_sector": "",
+   "date": "2025-04",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Anhui Conch Cement",
+   "use": "Clinker strength prediction for quality control: Pangu prediction model recommends key quality features in real time, predicting 3-day and 28-day clinker strength to enable real-time production adjustment instead of delayed lab results. [Huawei Cloud Pangu prediction model]",
+   "existence": "confirmed",
+   "value": "prediction accuracy >85%, deviation within 1 MPa",
+   "tier": "",
+   "url": "https://www.cemnet.com/News/story/179025/cbmf-conch-and-huawei-showcase-ai-model.html",
+   "raw_sector": "",
+   "date": "2025-04",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Anhui Conch Cement",
+   "use": "AI-driven kiln / production optimization: automatic recommendation of kiln control parameters to auto-tune the calcination process (core production 'autopilot'). [Huawei Cloud Pangu large model]",
+   "existence": "confirmed",
+   "value": "labor intensity cut 50%, standard coal consumption down 1%, ~6,318 tons/yr CO2 reduction",
+   "tier": "",
+   "url": "http://www.sasac.gov.cn/n2588025/n2588129/c33360218/content.html",
+   "raw_sector": "",
+   "date": "2025-04",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Anhui Conch Cement",
+   "use": "Autonomous (driverless) mining trucks for open-pit limestone quarries — world's first cement-industry open-pit unmanned haulage, developed by subsidiary Haibo Intelligent Technology with cloud dispatch/control platform, all-weather all-scenario operation. [Anhui Haibo Intelligent Technology (subsidiary); Yutong NEV trucks; ZTE/Telecom 5G network]",
+   "existence": "confirmed",
+   "value": "60,000+ operating hours, ~15M tons hauled; ore recovery rate raised from 70% to 81%",
+   "tier": "",
+   "url": "https://www.cbminfo.com/BMI/xgxy8/_465673/7360818/index.html",
+   "raw_sector": "",
+   "date": "2023-12",
+   "fresh": "stale"
+  },
+  {
+   "company": "Anhui Conch Cement",
+   "use": "Alibaba Cloud Industrial Brain (AICS) process optimization for the raw mill, rotary kiln and cement mill ('two mills, one burn') core production stages, using ML models on DCS/PLC data via cloud-edge collaboration. [Alibaba Cloud Industrial Brain (AICS)]",
+   "existence": "confirmed",
+   "value": "energy consumption reduced 2%-3%",
+   "tier": "",
+   "url": "https://www.tmtpost.com/7189963.html",
+   "raw_sector": "",
+   "date": "2024",
+   "fresh": "aging"
+  },
+  {
+   "company": "Anhui Conch Cement",
+   "use": "Intelligent Quality Control System (IQCS) with robotic lab 'quality inspectors' — automated cement sampling, crushing, splitting, dosing and testing plus intelligent batching algorithm models, developed by subsidiary Anhui Zhizhi Engineering Technology. [Anhui Zhizhi Engineering Technology (subsidiary)]",
+   "existence": "confirmed",
+   "value": "deployed on 60+ cement production lines",
+   "tier": "",
+   "url": "https://www.conch.cn/newscop/info_itemid_384270.html",
+   "raw_sector": "",
+   "date": "2025",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Anhui Conch Cement",
+   "use": "Digitized mine management & smart dispatch systems (card-dispatch/AMC scheduling, quality-control precise ore blending, active-defense) rolled out across quarries; latest procurement (4th batch) awarded across ~17 Conch plants. [Dimine Technology (迪迈科技) and others]",
+   "existence": "confirmed",
+   "value": "digitized-mine systems built at 21+ plants (per company); 4th-batch project across 17 plants",
+   "tier": "",
+   "url": "https://www.dimine.net/news/show-1358.html",
+   "raw_sector": "",
+   "date": "2024",
+   "fresh": "aging"
+  },
+  {
+   "company": "Anhui Conch Cement",
+   "use": "Zongyang Conch 'full-process data closed-loop optimization' smart cement factory selected as an MIIT 2025 national Excellence-level (卓越级) Smart Factory, integrating data-driven intelligent decisioning across mine, manufacturing, quality, energy and logistics. [internal (Digital Conch program)]",
+   "existence": "confirmed",
+   "value": "selected as MIIT 2025 Excellence-level Smart Factory (one of 3 cement plants)",
+   "tier": "",
+   "url": "https://www.conch.cn/zgsdt/info_itemid_386579.html",
+   "raw_sector": "",
+   "date": "2025-09",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Anhui Conch Cement",
+   "use": "Unmanned inspection of long-distance belt conveyors using Pangu computer-vision model + distributed fiber sensing, providing real-time monitoring/control of 28 scenarios such as roller abnormalities and belt tearing. [Huawei Cloud Pangu vision model + distributed fiber sensing]",
+   "existence": "confirmed",
+   "value": "28 monitored scenarios, enabling unmanned belt-conveyor inspection",
+   "tier": "",
+   "url": "https://www.huaweicloud.com/cases/conch.html",
+   "raw_sector": "",
+   "date": "2025",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Anhui Conch Cement",
+   "use": "Intelligent Q&A 'digital assistant' for employees built on Huawei's NLP large model, distilling industry knowledge and expert experience for on-demand querying. [Huawei Cloud Pangu NLP large model]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.huawei.com/cn/news/2025/4/conch-cement-ai",
+   "raw_sector": "",
+   "date": "2025-04",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Anhui Conch Cement",
+   "use": "Robotic automatic loading system for bagged cement (vision-based vehicle detection + industrial robots for palletizing/de-palletizing and truck loading), developed by subsidiary Anhui Conch Zhongnan Intelligent Robot. [Anhui Conch Zhongnan Intelligent Robot (subsidiary)]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "http://ah.people.com.cn/n2/2022/0802/c227767-40064254.html",
+   "raw_sector": "",
+   "date": "2022",
+   "fresh": "stale"
+  },
+  {
+   "company": "Anhui Conch Cement",
+   "use": "AI safety-production monitoring: 24/7 real-time recognition of personnel violations, equipment anomalies and 20+ safety scenarios via computer vision. [Huawei Cloud Pangu / Conch AI model]",
+   "existence": "confirmed",
+   "value": "20+ scenarios, recognition accuracy 95%, 7x24 monitoring",
+   "tier": "",
+   "url": "https://m.c114.com.cn/w16-1287981.html",
+   "raw_sector": "",
    "date": "2025-04",
    "fresh": "fresh"
   }

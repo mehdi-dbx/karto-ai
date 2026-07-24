@@ -3,40 +3,56 @@
  "name": "Uber",
  "cc": "US",
  "vertical": "Industrial / Machinery",
- "deployments": 1,
- "confirmed": 1,
- "with_value_number": 0,
- "proof_rate": 0.0,
+ "deployments": 11,
+ "confirmed": 11,
+ "with_value_number": 3,
+ "proof_rate": 0.273,
  "mktcap": 140200000000.0,
  "revenue": 53690000000.0,
  "employees": 34000.0,
  "silent": false,
- "per_bn_revenue": 0.02,
- "per_10k_emp": 0.29,
+ "per_bn_revenue": 0.2,
+ "per_10k_emp": 3.24,
  "benchmarks": {
   "global_vertical": {
-   "deployments": 0,
-   "confirmed": 14,
-   "proof_rate": 0,
+   "deployments": 95,
+   "confirmed": 99,
+   "proof_rate": 71,
    "n": 175
   },
   "country_vertical": {
-   "deployments": 0,
-   "confirmed": 19,
-   "proof_rate": 0,
+   "deployments": 96,
+   "confirmed": 100,
+   "proof_rate": 84,
    "n": 80
   }
  },
- "first_seen": null,
- "by_year": [],
- "undated_pct": 100,
- "momentum": "none",
- "maturity": "L3",
+ "first_seen": 2022,
+ "by_year": [
+  {
+   "year": 2022,
+   "n": 2
+  },
+  {
+   "year": 2024,
+   "n": 3
+  },
+  {
+   "year": 2025,
+   "n": 5
+  }
+ ],
+ "undated_pct": 9,
+ "momentum": "early_mover,rising",
+ "maturity": "L4",
  "maturity_evidence": [
+  "multi_horizontal",
   "named_product:Uber AI Solutions",
+  "value_number",
+  "multi_year",
   "tier_p"
  ],
- "prospect_score": 54,
+ "prospect_score": 97,
  "stack": [],
  "vendor_named": false,
  "deployments_detail": [
@@ -50,6 +66,116 @@
    "raw_sector": "Industrials",
    "date": "missing",
    "fresh": "undated"
+  },
+  {
+   "company": "Uber",
+   "use": "QueryGPT: natural-language-to-SQL tool using LLMs, a vector database, and specialized agents (Intent, Table, Column Prune) so operations and support staff generate SQL from English prompts. [OpenAI GPT-4 Turbo + vector DB]",
+   "existence": "confirmed",
+   "value": "Query authoring cut from ~10 min to ~3 min; ~300 daily active users in limited release; 78% say it reduced their time",
+   "tier": "",
+   "url": "https://www.uber.com/us/en/blog/query-gpt/",
+   "raw_sector": "",
+   "date": "2024-09",
+   "fresh": "aging"
+  },
+  {
+   "company": "Uber",
+   "use": "Genie: internal Gen AI on-call copilot Slack bot using enhanced agentic RAG over engineering/security/privacy documentation to answer on-call support questions in real time. [Uber (in-house RAG/LLM); Slack]",
+   "existence": "confirmed",
+   "value": "~13,000 engineering hours saved (per InfoQ)",
+   "tier": "",
+   "url": "https://www.uber.com/us/en/blog/genie-ubers-gen-ai-on-call-copilot/",
+   "raw_sector": "",
+   "date": "2024-10",
+   "fresh": "aging"
+  },
+  {
+   "company": "Uber",
+   "use": "AI coding/developer agents built on LangGraph (Validator for code violations/security, scaffolding agents) plus a background coding agent driving large-scale automated code migrations (millions of lines Java-to-Kotlin, 75,000+ JUnit 4-to-5 test classes). [LangChain LangGraph; Anthropic Claude / LLMs]",
+   "existence": "confirmed",
+   "value": "~21,000 developer hours saved; ~1,800 code changes/week fully AI-written; 80% of code modifications in landed CLs AI-authored; 95% of engineers use AI",
+   "tier": "",
+   "url": "https://www.zenml.io/llmops-database/building-ai-developer-tools-using-langgraph-for-large-scale-software-development",
+   "raw_sector": "",
+   "date": "2025",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Uber",
+   "use": "Uber Eats merchant AI tools: generative summaries of customer reviews, AI auto-generated menu item descriptions, and AI food-photo enhancement (lighting/resolution/plating) in Uber Eats Manager. [Uber (generative AI)]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.uber.com/us/en/newsroom/merchant-product/",
+   "raw_sector": "",
+   "date": "2025-07",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Uber",
+   "use": "Michelangelo, Uber's centralized end-to-end ML platform used to build, deploy, and operate thousands of ML models across the company (ETA, pricing, fraud, matching), now extended to serve generative AI workloads. [Uber (in-house); PyTorch, Ray]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.uber.com/us/en/blog/from-predictive-to-generative-ai/",
+   "raw_sector": "",
+   "date": "2024-05",
+   "fresh": "aging"
+  },
+  {
+   "company": "Uber",
+   "use": "DeepETA: a low-latency deep neural network architecture that predicts estimated time of arrival globally, used to calculate fares, estimate pickup times, and match riders to drivers. [Uber AI + Maps (in-house transformer model)]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.uber.com/us/en/blog/deepeta-how-uber-predicts-arrival-times/",
+   "raw_sector": "",
+   "date": "2022-02",
+   "fresh": "stale"
+  },
+  {
+   "company": "Uber",
+   "use": "Uber Eats generative/transformer-based recommendation system that personalizes the restaurant and dish feed using behavioral sequences and near-real-time signals. [Uber (in-house; transformer generative recommenders)]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.uber.com/us/en/blog/next-gen-restaurant-recommendation/",
+   "raw_sector": "",
+   "date": "2025",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Uber",
+   "use": "OpenAI GPT-4o-powered in-app AI assistant for drivers (text and voice) that answers questions about EV ownership, charging, and government incentives, personalized to the driver's city and needs. [OpenAI GPT-4o]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://techcrunch.com/2024/10/08/uber-to-launch-openai-powered-ai-assistant-to-answer-driver-ev-questions/",
+   "raw_sector": "",
+   "date": "2025",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Uber",
+   "use": "AI-driven customer support automation ('zero touch'/'one touch') providing conversational summaries, automated investigations, and empathetic next-best responses for support agents and self-service resolution. [OpenAI]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://openai.com/index/uber-enables-outstanding-experiences/",
+   "raw_sector": "",
+   "date": "2025-02",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Uber",
+   "use": "Fraud/risk detection systems including Project RADAR (early fraud detection on the payment platform) and Risk Entity Watch (anomaly detection) that generate predictive risk scores to flag fraudulent users and payments. [Uber (in-house ML / anomaly detection)]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.uber.com/us/en/blog/project-radar-intelligent-early-fraud-detection/",
+   "raw_sector": "",
+   "date": "2022-01",
+   "fresh": "stale"
   }
  ]
 }

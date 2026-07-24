@@ -3,40 +3,72 @@
  "name": "Seagate Technology",
  "cc": "US",
  "vertical": "Technology",
- "deployments": 1,
- "confirmed": 1,
- "with_value_number": 0,
- "proof_rate": 0.0,
+ "deployments": 10,
+ "confirmed": 10,
+ "with_value_number": 6,
+ "proof_rate": 0.6,
  "mktcap": 208760000000.0,
  "revenue": 11010000000.0,
  "employees": 30000.0,
  "silent": false,
- "per_bn_revenue": 0.09,
- "per_10k_emp": 0.33,
+ "per_bn_revenue": 0.91,
+ "per_10k_emp": 3.33,
  "benchmarks": {
   "global_vertical": {
-   "deployments": 0,
-   "confirmed": 6,
-   "proof_rate": 0,
+   "deployments": 89,
+   "confirmed": 95,
+   "proof_rate": 78,
    "n": 156
   },
   "country_vertical": {
-   "deployments": 0,
-   "confirmed": 4,
-   "proof_rate": 0,
+   "deployments": 85,
+   "confirmed": 93,
+   "proof_rate": 90,
    "n": 74
   }
  },
- "first_seen": null,
- "by_year": [],
- "undated_pct": 100,
- "momentum": "none",
- "maturity": "L3",
+ "first_seen": 2017,
+ "by_year": [
+  {
+   "year": 2017,
+   "n": 1
+  },
+  {
+   "year": 2018,
+   "n": 1
+  },
+  {
+   "year": 2019,
+   "n": 1
+  },
+  {
+   "year": 2021,
+   "n": 1
+  },
+  {
+   "year": 2022,
+   "n": 1
+  },
+  {
+   "year": 2023,
+   "n": 2
+  },
+  {
+   "year": 2024,
+   "n": 2
+  }
+ ],
+ "undated_pct": 10,
+ "momentum": "early_mover,gone_quiet",
+ "maturity": "L4",
  "maturity_evidence": [
+  "multi_horizontal",
   "named_product:Mozaic",
+  "value_number",
+  "multi_year",
   "tier_p"
  ],
- "prospect_score": 54,
+ "prospect_score": 84,
  "stack": [],
  "vendor_named": false,
  "deployments_detail": [
@@ -50,6 +82,105 @@
    "raw_sector": "Information Technology",
    "date": "missing",
    "fresh": "undated"
+  },
+  {
+   "company": "Seagate Technology",
+   "use": "AI-driven autonomous monitoring of Industrial IoT (IIoT) sensor data using deep learning to autonomously monitor semiconductor manufacturing equipment, detect anomalies and optimize processes for efficiency and TCO savings. [Seagate (edge AI/deep learning)]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.seagate.com/resources/seagate-factories-amplify-iiot-benefits-through-ai/",
+   "raw_sector": "",
+   "date": "2023",
+   "fresh": "stale"
+  },
+  {
+   "company": "Seagate Technology",
+   "use": "GitHub Copilot deployed to Seagate's Global Factory IT team (30 developers) to augment factory-focused software development; part of a phased rollout. [GitHub Copilot (Microsoft / OpenAI)]",
+   "existence": "confirmed",
+   "value": "~30% software development efficiency gain; 250,000+ lines of code generated in six months",
+   "tier": "",
+   "url": "https://www.seagate.com/resources/gen-ai-augments-seagates-factory-focused-software-development/",
+   "raw_sector": "",
+   "date": "2024",
+   "fresh": "aging"
+  },
+  {
+   "company": "Seagate Technology",
+   "use": "GPU-accelerated AI/simulation for hard-drive design: NVIDIA DGX systems running Ansys Fluent GPU solver for computational fluid dynamics (airflow) models used to optimize Mozaic 3+ HAMR drives, reducing physical prototyping. [NVIDIA (DGX), Ansys Fluent]",
+   "existence": "confirmed",
+   "value": "~50x faster simulation runtimes (hours to minutes)",
+   "tier": "",
+   "url": "https://www.nvidia.com/en-us/case-studies/seagate-accelerates-data-storage-innovation-with-gpu/",
+   "raw_sector": "",
+   "date": "2024",
+   "fresh": "aging"
+  },
+  {
+   "company": "Seagate Technology",
+   "use": "Project Athena: AI/deep-learning edge platform for automated visual defect detection and quality inspection across wafer fabrication and recording-head slider production; also runs the Enhanced Automated Vision System (EAVS) and NVIDIA-powered slider image anomaly detection, deployed on tens of thousands of factory inspection robots. [NVIDIA (GPU AI inference), HPE]",
+   "existence": "confirmed",
+   "value": "up to 20% reduction in new product cost; 35,000+ inspection robots",
+   "tier": "",
+   "url": "https://www.seagate.com/www-content/enterprise-storage/it-4-0/images/cs595-1-1901-seagate-athena.pdf",
+   "raw_sector": "",
+   "date": "2019",
+   "fresh": "stale"
+  },
+  {
+   "company": "Seagate Technology",
+   "use": "Machine learning system co-developed with Google Cloud to predict recurring hard-disk-drive failures (disks that fail or hit 3+ problems within 30 days) so data-center operators can plan maintenance proactively; validated against real repair logs. [Google Cloud (AutoML Tables, BigQuery, Dataflow, AI Platform, TensorFlow Transformer)]",
+   "existence": "confirmed",
+   "value": "98% precision, 35% recall (AutoML Tables model)",
+   "tier": "",
+   "url": "https://cloud.google.com/blog/products/ai-machine-learning/seagate-and-google-predict-hard-disk-drive-failures-with-ml",
+   "raw_sector": "",
+   "date": "2021-05",
+   "fresh": "stale"
+  },
+  {
+   "company": "Seagate Technology",
+   "use": "Iguazio MLOps platform (with Lyve Cloud) for wafer-manufacturing smart sampling: automated sensor-data ingestion, feature engineering, model deployment with auto-scaling, monitoring and canary rollout across millions of process configurations. [Iguazio (MLRun), Seagate Lyve Cloud, Spark]",
+   "existence": "confirmed",
+   "value": "doubled first-pass wafer yield; 40% fewer manufacturing steps; 6x cloud efficiency",
+   "tier": "",
+   "url": "https://www.iguazio.com/blog/how-seagate-runs-advanced-manufacturing-at-scale-with-iguazio/",
+   "raw_sector": "",
+   "date": "2023-02",
+   "fresh": "stale"
+  },
+  {
+   "company": "Seagate Technology",
+   "use": "SymphonyAI Industrial Digital Manufacturing Platform (low-code, real-time data ingestion, advanced analytics) deployed to improve anomaly detection and process quality in Seagate manufacturing. [SymphonyAI (Industrial)]",
+   "existence": "confirmed",
+   "value": "anomaly detection rate boosted to 90%",
+   "tier": "",
+   "url": "https://www.symphonyai.com/resources/case-study/industrial/digital-intelligence-seagate-success-story/",
+   "raw_sector": "",
+   "date": "2017",
+   "fresh": "stale"
+  },
+  {
+   "company": "Seagate Technology",
+   "use": "SkyHawk Health Management (SHM): proprietary AI algorithms embedded in surveillance-drive software that continuously analyze drive parameters for prevention/intervention, going beyond standard S.M.A.R.T. testing; paired with ImagePerfect AI firmware in SkyHawk AI drives for edge video analytics. [Seagate (proprietary AI)]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.storagenewsletter.com/2018/10/30/seagate-skyhawk-health-management-for-surveillance-hdd/",
+   "raw_sector": "",
+   "date": "2018-10",
+   "fresh": "stale"
+  },
+  {
+   "company": "Seagate Technology",
+   "use": "Lyve Cloud Analytics Platform: open data-lake architecture built to optimize machine-learning operations (MLOps) at petabyte scale, enabling enterprises (and Seagate internally) to activate stored data for analytics and ML/AI. [Seagate Lyve Cloud (with Iguazio/partners)]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://investors.seagate.com/news/news-details/2022/Seagate-Launches-Lyve-Cloud-Analytics-Platform-to-Optimize-Machine-Learning-Operations-and-Accelerate-Innovation/default.aspx",
+   "raw_sector": "",
+   "date": "2022-10",
+   "fresh": "stale"
   }
  ]
 }

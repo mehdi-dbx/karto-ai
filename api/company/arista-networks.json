@@ -3,42 +3,56 @@
  "name": "Arista Networks",
  "cc": "US",
  "vertical": "Technology",
- "deployments": 1,
- "confirmed": 1,
- "with_value_number": 0,
- "proof_rate": 0.0,
+ "deployments": 10,
+ "confirmed": 3,
+ "with_value_number": 3,
+ "proof_rate": 0.3,
  "mktcap": 222880000000.0,
  "revenue": 9710000000.0,
  "employees": 5115.0,
  "silent": false,
- "per_bn_revenue": 0.1,
- "per_10k_emp": 1.96,
+ "per_bn_revenue": 1.03,
+ "per_10k_emp": 19.55,
  "benchmarks": {
   "global_vertical": {
-   "deployments": 0,
-   "confirmed": 6,
-   "proof_rate": 0,
+   "deployments": 89,
+   "confirmed": 81,
+   "proof_rate": 66,
    "n": 156
   },
   "country_vertical": {
-   "deployments": 0,
-   "confirmed": 4,
-   "proof_rate": 0,
+   "deployments": 85,
+   "confirmed": 73,
+   "proof_rate": 79,
    "n": 74
   }
  },
- "first_seen": 2024,
+ "first_seen": 2023,
  "by_year": [
   {
-   "year": 2024,
+   "year": 2023,
    "n": 1
+  },
+  {
+   "year": 2024,
+   "n": 3
+  },
+  {
+   "year": 2025,
+   "n": 3
+  },
+  {
+   "year": 2026,
+   "n": 2
   }
  ],
- "undated_pct": 0,
- "momentum": "early_mover,gone_quiet",
- "maturity": "L3",
+ "undated_pct": 10,
+ "momentum": "early_mover,rising",
+ "maturity": "L4",
  "maturity_evidence": [
   "named_product:Etherlink",
+  "value_number",
+  "multi_year",
   "tier_p"
  ],
  "prospect_score": 54,
@@ -55,6 +69,105 @@
    "raw_sector": "Information Technology",
    "date": "2024",
    "fresh": "aging"
+  },
+  {
+   "company": "Arista Networks",
+   "use": "Meta deployed the Arista 7700R4 Distributed Etherlink Switch (DES) as the backend Ethernet fabric for its large-scale AI training clusters, co-developed with Meta to interconnect tens of thousands of 400G-attached XPUs at 800G. [Arista 7700R4 Distributed Etherlink Switch (Meta customer)]",
+   "existence": "confirmed",
+   "value": "supports tens of thousands of 400G-attached XPUs; 800G interconnects",
+   "tier": "",
+   "url": "https://blogs.arista.com/blog/meta-and-arista-build-ai-at-scale",
+   "raw_sector": "",
+   "date": "2024-10",
+   "fresh": "aging"
+  },
+  {
+   "company": "Arista Networks",
+   "use": "Oracle Cloud Infrastructure runs its growing AI infrastructure on Arista switches and adopts Arista's EOS Smart AI Suite Cluster Load Balancing (CLB), an RDMA-aware Ethernet load-balancing mechanism that spreads AI flows to keep tail latency low across the GPU cluster fabric. [Arista EOS Smart AI Suite / Cluster Load Balancing (Oracle customer)]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.arista.com/en/company/news/press-release/21271-pr-20250312",
+   "raw_sector": "",
+   "date": "2025-03",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Arista Networks",
+   "use": "Magnite deployed a dense 800G AI spine built on the modular Arista 7800R4 platform with AI-optimized linecards to support AI/compute data-center workloads. [Arista 7800R4 800GbE platform (Magnite customer)]",
+   "existence": "confirmed",
+   "value": "up to 576 ports of 800GbE per system",
+   "tier": "",
+   "url": "https://www.arista.com/en/company/news/press-release/22541-pr-10292025",
+   "raw_sector": "",
+   "date": "2025-10",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Arista Networks",
+   "use": "Arista and NVIDIA developed an EOS-based remote AI agent that extends Arista's network OS onto NVIDIA BlueField-3 SuperNICs/servers, giving a single point of control to configure, monitor and QoS-coordinate the compute and network sides of an AI cluster. Shown as a technology demonstration. [Arista EOS remote AI agent on NVIDIA BlueField-3]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.arista.com/en/company/news/press-release/19477-pr-20240529",
+   "raw_sector": "",
+   "date": "2024-05",
+   "fresh": "aging"
+  },
+  {
+   "company": "Arista Networks",
+   "use": "AI job-centric observability in CloudVision Universal Network Observability (CV UNO) correlates network data and AI job metrics to optimize AI job performance and pinpoint bottlenecks/hardware issues affecting AI workloads. NOTE: cited NetworkWorld source does NOT support the '100-microsecond interval', 'AI Analyzer' or 'Network Data Lake' specifics in the original claim. [Arista CloudVision UNO (AI job-centric observability)]",
+   "existence": "claimed",
+   "value": "100-microsecond-interval traffic telemetry (UNSUPPORTED by cited source)",
+   "tier": "",
+   "url": "https://www.networkworld.com/article/3844364/arista-delivers-intelligent-load-balancing-ai-job-centric-observability.html",
+   "raw_sector": "",
+   "date": "2025-03",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Arista Networks",
+   "use": "Autonomous Virtual Assist (AVA) added to CloudVision as an AI-based network-operations assistant that ingests EOS, NetDL and CloudVision data to detect anomalies and provide proactive operational insights, with agentic autonomous-action capabilities planned; scheduled for Q1 2026 release. [Arista AVA (CloudVision network-operations assistant)]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.futuriom.com/articles/news/arista-moves-faster-into-ai-and-campus-markets/2025/12",
+   "raw_sector": "",
+   "date": "2026",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Arista Networks",
+   "use": "Arista NDR (Network Detection and Response) uses the AVA (Autonomous Virtual Assist) engine — supervised/unsupervised ML, deep neural networks, belief propagation, clustering and outlier detection — to model entity behavior and detect/respond to network threats with reduced false positives. [Arista AVA (Autonomous Virtual Assist) NDR]",
+   "existence": "claimed",
+   "value": "deploys in a few hours",
+   "tier": "",
+   "url": "https://www.arista.com/en/products/network-detection-and-response/architecture",
+   "raw_sector": "",
+   "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "Arista Networks",
+   "use": "CloudVision AGNI (Arista Guardian for Network Identity) is a cloud-native, AI/ML-driven network access control and identity service providing automated device discovery, profiling, classification and behavioral network visibility across campus/enterprise; generally available. [Arista CloudVision AGNI (ML/AI)]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.businesswire.com/news/home/20230424005371/en/Arista-Networks-Introduces-AI-Driven-Network-Identity",
+   "raw_sector": "",
+   "date": "2023-04",
+   "fresh": "stale"
+  },
+  {
+   "company": "Arista Networks",
+   "use": "Arista Edge Threat Management for VeloCloud SD-WAN adds AI-driven zero-trust security to the WAN edge, using AVA for AI-powered policy intelligence including a 'Policy Explainer' and 'Traffic Simulation' to simplify and predict security-policy impact. [Arista AVA / Edge Threat Management for VeloCloud SD-WAN]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.helpnetsecurity.com/2026/07/22/arista-networks-edge-threat-management/",
+   "raw_sector": "",
+   "date": "2026-07",
+   "fresh": "fresh"
   }
  ]
 }

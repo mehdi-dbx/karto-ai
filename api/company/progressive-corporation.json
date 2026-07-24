@@ -3,40 +3,63 @@
  "name": "Progressive Corporation",
  "cc": "US",
  "vertical": "Financial Services",
- "deployments": 1,
- "confirmed": 1,
- "with_value_number": 1,
- "proof_rate": 1.0,
+ "deployments": 11,
+ "confirmed": 9,
+ "with_value_number": 4,
+ "proof_rate": 0.364,
  "mktcap": 119730000000.0,
  "revenue": 91020000000.0,
  "employees": 70000.0,
  "silent": false,
- "per_bn_revenue": 0.01,
- "per_10k_emp": 0.14,
+ "per_bn_revenue": 0.12,
+ "per_10k_emp": 1.57,
  "benchmarks": {
   "global_vertical": {
-   "deployments": 0,
-   "confirmed": 18,
-   "proof_rate": 72,
+   "deployments": 94,
+   "confirmed": 94,
+   "proof_rate": 60,
    "n": 377
   },
   "country_vertical": {
-   "deployments": 0,
-   "confirmed": 21,
-   "proof_rate": 72,
+   "deployments": 91,
+   "confirmed": 92,
+   "proof_rate": 71,
    "n": 76
   }
  },
- "first_seen": null,
- "by_year": [],
- "undated_pct": 100,
- "momentum": "none",
- "maturity": "L3",
- "maturity_evidence": [
-  "named_product:Snapshot",
-  "value_number"
+ "first_seen": 2011,
+ "by_year": [
+  {
+   "year": 2011,
+   "n": 1
+  },
+  {
+   "year": 2021,
+   "n": 1
+  },
+  {
+   "year": 2024,
+   "n": 2
+  },
+  {
+   "year": 2025,
+   "n": 1
+  },
+  {
+   "year": 2026,
+   "n": 3
+  }
  ],
- "prospect_score": 14,
+ "undated_pct": 27,
+ "momentum": "early_mover,rising",
+ "maturity": "L4",
+ "maturity_evidence": [
+  "multi_horizontal",
+  "named_product:Snapshot",
+  "value_number",
+  "multi_year"
+ ],
+ "prospect_score": 87,
  "stack": [],
  "vendor_named": false,
  "deployments_detail": [
@@ -48,6 +71,116 @@
    "tier": "S",
    "url": "https://www.insurebench.com/insurers/progressive",
    "raw_sector": "Financials",
+   "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "Progressive Corporation",
+   "use": "Proactive customer retention program: analytics-driven outreach identifies at-risk customers for policy reviews, yielding premium adjustments; 4 million customers received average premium decreases of 21%. [internal analytics/AI]",
+   "existence": "confirmed",
+   "value": "4 million customers, average premium decrease of 21%",
+   "tier": "",
+   "url": "https://www.repairerdrivennews.com/2026/03/10/progressive-investors-hear-about-ai-strategies-successes/",
+   "raw_sector": "",
+   "date": "2026-03",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Progressive Corporation",
+   "use": "Generative AI personalized audio advertising: with Claritas, Progressive used gen AI to write scripts and synthetic voice-overs producing 96 audio ad variants in two weeks for targeted broadcast/streaming campaigns. [Claritas (with MMA Global); generative AI + synthetic voice]",
+   "existence": "confirmed",
+   "value": "197% lift in campaign performance; 52% increase in total conversions; 3x ad exposure",
+   "tier": "",
+   "url": "https://www.thedrum.com/news/progressive-insurance-tests-limits-ai-generated-ads-and-learns-when-pull-back",
+   "raw_sector": "",
+   "date": "2024",
+   "fresh": "aging"
+  },
+  {
+   "company": "Progressive Corporation",
+   "use": "'Drive Like an Animal' TV commercial produced using generative AI as a creative tool (AI-generated animals driving) to promote Snapshot, cutting production time and budget. [Generative AI (creative production)]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://progressive.mediaroom.com/news-releases/?item=122548",
+   "raw_sector": "",
+   "date": "2025-11",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Progressive Corporation",
+   "use": "Snapshot usage-based insurance: telematics app/device collects driving behavior (miles, hard braking, time of day) and ML models personalize/price auto premiums. Over 14 billion miles of driving data used to train pricing models. [Progressive Snapshot (internal telematics + ML)]",
+   "existence": "confirmed",
+   "value": "avg $328 annual savings for drivers who save with Snapshot; 14 billion+ miles of driving data",
+   "tier": "",
+   "url": "https://emerj.com/artificial-intelligence-at-progressive-insurance/",
+   "raw_sector": "",
+   "date": "2011",
+   "fresh": "stale"
+  },
+  {
+   "company": "Progressive Corporation",
+   "use": "H2O.ai machine learning platform used across the organization to build predictive models (customer churn, billing, personalization, advanced analytics) at scale, accelerating time-to-production for data science teams. [H2O.ai]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://h2o.ai/case-studies/delivering-insight-across-the-organization-with-fast-data-science/",
+   "raw_sector": "",
+   "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "Progressive Corporation",
+   "use": "Predictive AI modeling using unstructured and voice data to trigger models and improve underwriting/risk pricing and frequency forecasting, disclosed by CEO to investors as an ongoing, expanding effort. [internal (predictive AI, unstructured/voice data)]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.repairerdrivennews.com/2026/03/10/progressive-investors-hear-about-ai-strategies-successes/",
+   "raw_sector": "",
+   "date": "2026-03",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Progressive Corporation",
+   "use": "Flo chatbot: conversational virtual assistant on Facebook Messenger and Google Assistant for insurance education, policy servicing, and quotes, using NLU, QnA, and neural text-to-speech (Flo's voice). Routes complex queries to live agents. [Microsoft Azure Bot Service, Bot Framework, Cognitive Services (LUIS, QnA Maker), Custom Neural Voice]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://news.microsoft.com/source/features/digital-transformation/progressive-gives-voice-to-flos-chatbot-and-its-as-no-nonsense-and-reassuring-as-she-is/",
+   "raw_sector": "",
+   "date": "2021-02",
+   "fresh": "stale"
+  },
+  {
+   "company": "Progressive Corporation",
+   "use": "Generative AI customer-service agent training tool: fine-tuned LLM roleplays realistic customer interactions (with varying emotional states and speech recognition) to train Progressive's customer service agents, trained on historical transcripts and training materials. [Case Western Reserve xLab; fine-tuned LLM using Anthropic and OpenAI models]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://case.edu/weatherhead/xlab/about/news/customer-service-training-using-generative-ai",
+   "raw_sector": "",
+   "date": "2024",
+   "fresh": "aging"
+  },
+  {
+   "company": "Progressive Corporation",
+   "use": "Agentic AI for direct-channel policy transactions: planned vendor partnerships and testing of AI agents to simplify customer-facing policy transactions over the next year. [unnamed vendor partners (agentic AI)]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.repairerdrivennews.com/2026/03/10/progressive-investors-hear-about-ai-strategies-successes/",
+   "raw_sector": "",
+   "date": "2026-03",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Progressive Corporation",
+   "use": "Machine learning models for fraud detection: analyze thousands of claims daily to flag suspicious patterns/anomalies for SIU investigation; Progressive publicly states it uses AI to help fight fraud. [internal ML]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.progressive.com/support/legal/ai-policy/",
+   "raw_sector": "",
    "date": "missing",
    "fresh": "undated"
   }

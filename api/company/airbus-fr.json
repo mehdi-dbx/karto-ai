@@ -3,39 +3,63 @@
  "name": "Airbus",
  "cc": "FR",
  "vertical": "Industrial / Machinery",
- "deployments": 2,
- "confirmed": 1,
- "with_value_number": 1,
- "proof_rate": 0.5,
+ "deployments": 10,
+ "confirmed": 6,
+ "with_value_number": 3,
+ "proof_rate": 0.3,
  "mktcap": 177098400000.0,
  "revenue": 78332400000.0,
  "employees": 166876.0,
  "silent": false,
- "per_bn_revenue": 0.03,
- "per_10k_emp": 0.12,
+ "per_bn_revenue": 0.13,
+ "per_10k_emp": 0.6,
  "benchmarks": {
   "global_vertical": {
-   "deployments": 89,
-   "confirmed": 14,
-   "proof_rate": 75,
+   "deployments": 91,
+   "confirmed": 91,
+   "proof_rate": 72,
    "n": 175
   },
   "country_vertical": {
-   "deployments": 12,
-   "confirmed": 0,
+   "deployments": 88,
+   "confirmed": 88,
    "proof_rate": 75,
    "n": 9
   }
  },
- "first_seen": null,
- "by_year": [],
- "undated_pct": 100,
- "momentum": "none",
- "maturity": "L3",
- "maturity_evidence": [
-  "named_product:Generative"
+ "first_seen": 2018,
+ "by_year": [
+  {
+   "year": 2018,
+   "n": 2
+  },
+  {
+   "year": 2020,
+   "n": 1
+  },
+  {
+   "year": 2023,
+   "n": 1
+  },
+  {
+   "year": 2024,
+   "n": 1
+  },
+  {
+   "year": 2026,
+   "n": 2
+  }
  ],
- "prospect_score": 34,
+ "undated_pct": 30,
+ "momentum": "early_mover,flat",
+ "maturity": "L4",
+ "maturity_evidence": [
+  "multi_horizontal",
+  "named_product:Generative",
+  "value_number",
+  "multi_year"
+ ],
+ "prospect_score": 72,
  "stack": [
   "Mistral AI"
  ],
@@ -73,6 +97,94 @@
    "raw_sector": "Industrials",
    "date": "missing",
    "fresh": "undated"
+  },
+  {
+   "company": "Airbus",
+   "use": "Skywise open aviation data platform runs predictive/preventive maintenance ('Skywise Predictive Maintenance+') and fleet health analytics for airlines, using AI/ML on aircraft sensor data to anticipate component failures. Built on Palantir Foundry; Airbus renewed its multi-year Palantir contract in Feb 2026. [Palantir (Foundry)]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.lefigaro.fr/flash-eco/analyse-des-donnees-le-groupe-americain-palantir-renouvelle-son-contrat-avec-airbus-20260210",
+   "raw_sector": "",
+   "date": "2026-02",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Airbus",
+   "use": "Multi-year partnership with Mistral AI to deploy 'sovereign' generative AI across all four Airbus divisions (commercial aircraft, helicopters, defence, space), including engineering applications such as crash simulation and defence/space systems, keeping AI infrastructure under European control. [Mistral AI]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.msn.com/en-gb/technology/artificial-intelligence/airbus-and-bmw-strike-deals-with-france-s-mistral-to-bring-ai-to-defence-and-safety-systems/ar-AA24hvG1",
+   "raw_sector": "",
+   "date": "2026-05",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Airbus",
+   "use": "CIMON (Crew Interactive Mobile companion) is a free-flying AI robotic astronaut assistant built by Airbus that has flown on the International Space Station, using natural-language processing to help astronauts with procedures and information retrieval. Deployed via CIMON-1 (2018) and improved CIMON-2 (2019). [IBM Watson (NLP)]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://en.wikipedia.org/wiki/CIMON",
+   "raw_sector": "",
+   "date": "2018",
+   "fresh": "stale"
+  },
+  {
+   "company": "Airbus",
+   "use": "Vision-based autonomous flight: the ATTOL (Autonomous Taxi, Take-Off and Landing) program, developed with Airbus's Acubed/Wayfinder team, achieved a 2020 world-first fully automatic vision-based taxi, takeoff and landing of an A350 using onboard image-recognition/ML; Wayfinder continues developing certifiable ML autonomy models across aircraft from 0.8t eVTOL to 315t A350. [Airbus Acubed (in-house ML)]",
+   "existence": "confirmed",
+   "value": "world-first autonomous vision-based takeoff/taxi/landing (2020); tested across 400x aircraft weight range",
+   "tier": "",
+   "url": "https://acubed.airbus.com/projects/wayfinder/",
+   "raw_sector": "",
+   "date": "2020",
+   "fresh": "stale"
+  },
+  {
+   "company": "Airbus",
+   "use": "Airbus 'Wingman' unmanned collaborative combat aircraft concept: an AI-driven autonomous drone designed to fly alongside crewed Eurofighter jets, performing reconnaissance, jamming and engagement of air/ground targets under human command (loyal-wingman / manned-unmanned teaming). [Airbus Defence and Space]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.bfmtv.com/economie/entreprises/defense/airbus-devoile-le-wingman-un-drone-de-combat-qui-accompagnera-les-pilotes-de-l-avion-du-futur_AN-202406040130.html",
+   "raw_sector": "",
+   "date": "2024-06",
+   "fresh": "aging"
+  },
+  {
+   "company": "Airbus",
+   "use": "Enterprise AI program across manufacturing and operations spanning six focus areas: knowledge extraction from unstructured documents, computer vision for image/video analysis (inspection), anomaly detection in datasets, natural-language interaction, complex constrained optimization, and autonomous flight — described by Airbus as active implementations integrated across manufacturing, operations and customer-facing platforms.",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.airbus.com/en/innovation/digital-transformation/artificial-intelligence",
+   "raw_sector": "",
+   "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "Airbus",
+   "use": "Airbus used Palantir Foundry data analytics to manage and accelerate the industrial ramp-up of A350 production, integrating disparate production/supply data to detect bottlenecks and optimize the assembly line. [Palantir (Foundry)]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.usinenouvelle.com/article/comment-airbus-a-utilise-palantir-pour-assurer-la-montee-en-cadence-de-l-a350.N1817007",
+   "raw_sector": "",
+   "date": "2018",
+   "fresh": "stale"
+  },
+  {
+   "company": "Airbus",
+   "use": "GenAIR (Airbus's cross-functional generative-AI unit) built a RAG-based generative-AI chatbot on its AWS platform to query technical documentation, draft technical requirements and summarize technical exchanges for engineering/operational teams. Uses AWS Kendra semantic search, OpenSearch, Comprehend for anonymization, LangChain orchestration and open LLMs (Falcon 40B, Llama 2, Mistral). POC built in 5 weeks, presented at AWS Summit Paris. [AWS (Kendra, OpenSearch, Comprehend), LangChain, Falcon 40B / Llama 2 / Mistral]",
+   "existence": "claimed",
+   "value": "POC delivered in 5 weeks",
+   "tier": "",
+   "url": "https://www.cio-online.com/actualites/lire-airbus-s-essaie-a-l-ia-generative-en-mode-rag-15589.html",
+   "raw_sector": "",
+   "date": "2023-06",
+   "fresh": "stale"
   }
  ]
 }

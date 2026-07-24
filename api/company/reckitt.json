@@ -3,40 +3,63 @@
  "name": "Reckitt",
  "cc": "UK",
  "vertical": "Retail & E-commerce",
- "deployments": 1,
- "confirmed": 1,
- "with_value_number": 1,
- "proof_rate": 1.0,
+ "deployments": 13,
+ "confirmed": 12,
+ "with_value_number": 11,
+ "proof_rate": 0.846,
  "mktcap": 39827200000.0,
  "revenue": 18046700000.0,
  "employees": 36200.0,
  "silent": false,
- "per_bn_revenue": 0.06,
- "per_10k_emp": 0.28,
+ "per_bn_revenue": 0.72,
+ "per_10k_emp": 3.59,
  "benchmarks": {
   "global_vertical": {
-   "deployments": 0,
-   "confirmed": 26,
-   "proof_rate": 73,
+   "deployments": 98,
+   "confirmed": 99,
+   "proof_rate": 77,
    "n": 295
   },
   "country_vertical": {
-   "deployments": 0,
-   "confirmed": 15,
-   "proof_rate": 69,
+   "deployments": 100,
+   "confirmed": 100,
+   "proof_rate": 77,
    "n": 14
   }
  },
- "first_seen": null,
- "by_year": [],
- "undated_pct": 100,
- "momentum": "none",
- "maturity": "L3",
- "maturity_evidence": [
-  "named_product:Azure",
-  "value_number"
+ "first_seen": 2020,
+ "by_year": [
+  {
+   "year": 2020,
+   "n": 1
+  },
+  {
+   "year": 2023,
+   "n": 1
+  },
+  {
+   "year": 2024,
+   "n": 1
+  },
+  {
+   "year": 2025,
+   "n": 4
+  },
+  {
+   "year": 2026,
+   "n": 3
+  }
  ],
- "prospect_score": 6,
+ "undated_pct": 23,
+ "momentum": "early_mover,rising",
+ "maturity": "L4",
+ "maturity_evidence": [
+  "multi_horizontal",
+  "named_product:Azure",
+  "value_number",
+  "multi_year"
+ ],
+ "prospect_score": 66,
  "stack": [
   "Microsoft",
   "Microsoft Azure",
@@ -52,6 +75,138 @@
    "tier": "I",
    "url": "https://reckitt.com/news/digital-science-enabling-reckitt-to-drive-growth/",
    "raw_sector": "Household goods & home construction",
+   "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "Reckitt",
+   "use": "AI chatbots / virtual assistants in consumer customer service to handle routine inbound queries and reduce servicing cost.",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.linkedin.com/posts/thedrum_agentic-ai-sponsored-activity-7357029313927335936-gMeO",
+   "raw_sector": "",
+   "date": "2025",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Reckitt",
+   "use": "Scope 3 carbon-footprint measurement and decarbonization platform using generative AI to automate emission-factor matching and build product-level footprints across ~25,000 products, with Quantis. [CO2 AI, Quantis]",
+   "existence": "confirmed",
+   "value": "Precise emissions data for 25,000 products in under 4 months; ~75x footprint accuracy improvement; 300,000 data points in 2023",
+   "tier": "",
+   "url": "https://co2ai.com/customers-success-stories/reckitt",
+   "raw_sector": "",
+   "date": "2024",
+   "fresh": "aging"
+  },
+  {
+   "company": "Reckitt",
+   "use": "Robotic process automation across IT operations (service desk, end-user computing) automating routine, rule-based IT tasks with UiPath bots. [UiPath]",
+   "existence": "confirmed",
+   "value": "~20% of IT operations processes fully automated; automation rates up to 92%",
+   "tier": "",
+   "url": "https://www.uipath.com/resources/automation-case-studies/reckitt-trailblazing-automation-within-its-it-operations",
+   "raw_sector": "",
+   "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "Reckitt",
+   "use": "RGMx, a modular AI-enabled Revenue Growth Management tool suite embedding AI into pricing, promotion and commercial-planning workflows for predictive pricing and profit optimization, co-developed with McKinsey/Periscope. [McKinsey / Periscope (RGMx)]",
+   "existence": "confirmed",
+   "value": "~$500M revenue gains claimed",
+   "tier": "",
+   "url": "https://www.mckinsey.com/industries/consumer-packaged-goods/how-we-help-clients/reckitts-bold-ambition-harnessing-ai-to-redefine-revenue-growth-management",
+   "raw_sector": "",
+   "date": "2026-01",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Reckitt",
+   "use": "AI-driven retail-execution / automated compliance engine (US) predicting out-of-stocks, prioritizing store visits and optimizing display selling for field reps by consolidating customer, Nielsen, demographic, seasonality and promo data.",
+   "existence": "confirmed",
+   "value": "Out-of-stock prediction accuracy improved from 20% to ~75%; field-rep checklists cut from 30-50 to 10 priority actions",
+   "tier": "",
+   "url": "https://consumergoods.com/how-reckitt-keeps-retail-execution-timely-and-cost-efficient-ai",
+   "raw_sector": "",
+   "date": "2026-04",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Reckitt",
+   "use": "AI image/shelf recognition for retail field teams — photo recognition of store shelves to speed merchandising audits and improve on-shelf availability, using SoftServe Business Systems' AI Shelf Recognition. [SoftServe Business Systems (SSBS)]",
+   "existence": "confirmed",
+   "value": "30% acceleration of shelf work",
+   "tier": "",
+   "url": "https://softservebs.com/en/resources/reckitt-benckiser-30-acceleration-of-shelf-work-due-to-ai-shelf-recognition/",
+   "raw_sector": "",
+   "date": "2020-12",
+   "fresh": "stale"
+  },
+  {
+   "company": "Reckitt",
+   "use": "GenAI and digital-science tools embedded across R&D to accelerate product development — automating report creation, augmenting formulation/innovation decisions and speeding innovation-to-launch.",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.reckitt.com/news/digital-science-enabling-reckitt-to-drive-growth/",
+   "raw_sector": "",
+   "date": "2026-05",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Reckitt",
+   "use": "Enterprise GenAI marketing platform ('Insights Engine') on Databricks that unifies consumer research, product reviews and social-listening signals and generates campaign insights, brand-performance analysis, media monitoring and reporting; uses multiple LLMs (OpenAI GPT-4 and Google Gemini) via Databricks Model Serving and AI Search. [Databricks (Model Serving, AI Gateway), OpenAI GPT-4, Google Gemini]",
+   "existence": "confirmed",
+   "value": "40% less time on critical marketing tasks; 40-60% faster campaign concept development; 30% faster ad localization",
+   "tier": "",
+   "url": "https://www.databricks.com/customers/reckitt",
+   "raw_sector": "",
+   "date": "2025",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Reckitt",
+   "use": "AI-powered Marketing Insights Generator built on Azure OpenAI plus Copilot for Power BI that detects consumer-behaviour patterns and turns unstructured data into marketing insights and self-serve analytics. [Microsoft Azure OpenAI, Copilot for Power BI]",
+   "existence": "confirmed",
+   "value": "60% marketing efficiency boost; 90% reduction in time on post-campaign analysis",
+   "tier": "",
+   "url": "https://www.microsoft.com/en/customers/story/23761-reckitt-power-bi",
+   "raw_sector": "",
+   "date": "2025-06",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Reckitt",
+   "use": "Agentic AI marketing operating system: a suite of ~10 integrated AI marketing tools (content creation, adaptation, brief generation, orchestration) rolled into production for marketers across multiple markets, built with Empathy Lab by EPAM. [Empathy Lab by EPAM (agentic AI platform)]",
+   "existence": "confirmed",
+   "value": "10 AI tools deployed to 500+ (now 700+) marketers across four markets",
+   "tier": "",
+   "url": "https://www.empathylab.com/en/news-and-insights/reckitt-global-rollout-of-agentic-ai",
+   "raw_sector": "",
+   "date": "2025",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Reckitt",
+   "use": "Consumer data backbone and 'Audience Engine' on Google Cloud using Vertex AI/ML to model in-market audiences and optimize media targeting and campaign ROI across brands. [Google Cloud Vertex AI, BigQuery (built with Artefact)]",
+   "existence": "confirmed",
+   "value": "20-40% average incremental ROI increase; ~30% ROI uplift on media spend",
+   "tier": "",
+   "url": "https://cloud.google.com/blog/topics/consumer-packaged-goods/reckitt-transforming-consumer-insights-with-google-cloud",
+   "raw_sector": "",
+   "date": "2023-10",
+   "fresh": "stale"
+  },
+  {
+   "company": "Reckitt",
+   "use": "AI-led automated media buying for the majority of e-commerce search advertising spend on Amazon, using machine learning to optimize bids and maximize reach.",
+   "existence": "confirmed",
+   "value": "AI-led media buying for more than 97% of search spend on Amazon",
+   "tier": "",
+   "url": "https://www.reckitt.com/media/10023/strategic-transformation-in-the-digital-arena.pdf",
+   "raw_sector": "",
    "date": "missing",
    "fresh": "undated"
   }

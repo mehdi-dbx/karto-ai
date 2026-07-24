@@ -3,44 +3,63 @@
  "name": "Philip Morris International",
  "cc": "US",
  "vertical": "Retail & E-commerce",
- "deployments": 1,
- "confirmed": 0,
- "with_value_number": 0,
- "proof_rate": 0.0,
+ "deployments": 12,
+ "confirmed": 10,
+ "with_value_number": 5,
+ "proof_rate": 0.417,
  "mktcap": 298290000000.0,
  "revenue": 42550000000.0,
  "employees": 84900.0,
  "silent": false,
- "per_bn_revenue": 0.02,
- "per_10k_emp": 0.12,
+ "per_bn_revenue": 0.28,
+ "per_10k_emp": 1.41,
  "benchmarks": {
   "global_vertical": {
-   "deployments": 0,
-   "confirmed": 0,
-   "proof_rate": 0,
+   "deployments": 96,
+   "confirmed": 95,
+   "proof_rate": 69,
    "n": 295
   },
   "country_vertical": {
-   "deployments": 0,
-   "confirmed": 0,
-   "proof_rate": 0,
+   "deployments": 91,
+   "confirmed": 89,
+   "proof_rate": 77,
    "n": 80
   }
  },
- "first_seen": 2025,
+ "first_seen": 2022,
  "by_year": [
   {
+   "year": 2022,
+   "n": 1
+  },
+  {
+   "year": 2023,
+   "n": 1
+  },
+  {
+   "year": 2024,
+   "n": 4
+  },
+  {
    "year": 2025,
+   "n": 2
+  },
+  {
+   "year": 2026,
    "n": 1
   }
  ],
- "undated_pct": 0,
- "momentum": "rising",
- "maturity": "L1",
+ "undated_pct": 25,
+ "momentum": "early_mover,cooling",
+ "maturity": "L4",
  "maturity_evidence": [
-  "rows_no_confirmed"
+  "multi_horizontal",
+  "named_product:Rolled",
+  "value_number",
+  "multi_year"
  ],
- "prospect_score": 40,
+ "prospect_score": 91,
  "stack": [],
  "vendor_named": false,
  "deployments_detail": [
@@ -54,6 +73,127 @@
    "raw_sector": "Consumer Staples",
    "date": "2025",
    "fresh": "fresh"
+  },
+  {
+   "company": "Philip Morris International",
+   "use": "Rolled out Microsoft Copilot (in Edge) to all office employees reaching ~20,000 active users, plus a more advanced Microsoft 365 Copilot rollout to an initial cohort of ~3,800 employees for daily productivity (drafting, summarization, knowledge work). [Microsoft Copilot / Microsoft 365 Copilot]",
+   "existence": "confirmed",
+   "value": "~20,000 active Copilot users; 3,800-employee M365 Copilot cohort",
+   "tier": "",
+   "url": "https://www.pmi.com/sustainability/case-studies-and-market-stories/the-state-of-ai-at-pmi",
+   "raw_sector": "",
+   "date": "2024-04",
+   "fresh": "aging"
+  },
+  {
+   "company": "Philip Morris International",
+   "use": "Embedded Coachello AI Avatar Roleplays inside Microsoft Teams so managers can practice difficult feedback conversations with lifelike AI avatars, with optional live AI meeting coaching in real 1:1s. [Coachello (AI Avatar Roleplays)]",
+   "existence": "confirmed",
+   "value": "79% voluntary engagement; 15% improvement in feedback skills vs traditional training; 4.6/5 satisfaction",
+   "tier": "",
+   "url": "https://coachello.ai/case-study/philip-morris-international/",
+   "raw_sector": "",
+   "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "Philip Morris International",
+   "use": "Set up a GenAI Hyperscaler platform in mid-2024 as the central enterprise hub for building and deploying AI solutions across 95 markets with built-in cybersecurity, compliance and responsible-AI controls.",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.pmi.com/sustainability/case-studies-and-market-stories/the-state-of-ai-at-pmi",
+   "raw_sector": "",
+   "date": "2024",
+   "fresh": "aging"
+  },
+  {
+   "company": "Philip Morris International",
+   "use": "Opened a Generative AI Factory at the Tabaqueira site in Albarraque, Portugal — an engineering hub building and deploying generative-AI tools for industrial process optimization, data analytics and operational automation across PMI's global operations.",
+   "existence": "confirmed",
+   "value": "PMI Tech Hub Portugal >250 specialists across AI, software, cybersecurity, data",
+   "tier": "",
+   "url": "https://portugalglobal.pt/en/news/2026/julho/philip-morris-chooses-portugal-for-generative-ai-factory/",
+   "raw_sector": "",
+   "date": "2026-07",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Philip Morris International",
+   "use": "Deployed Aera Technology's Decision Cloud (agentic decision intelligence) to digitize and optimize its global supply chain — demand/inventory sensing, scenario simulation and automated planning decisions to reduce waste and improve agility. [Aera Technology (Decision Cloud)]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://meet.aeratechnology.com/philip-morris-international-scaling-decision-intelligence-to-improve-supply-chain-agility-and-efficiency",
+   "raw_sector": "",
+   "date": "2025",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Philip Morris International",
+   "use": "Deployed Aleph's Speed Management Controller (SMC), an edge-AI system on Raspberry Pi-class devices, across global manufacturing sites (Italy to Indonesia) to standardize multi-OEM production lines (OPC UA / Tobacco Machine Communication) and dynamically adjust machine speeds to prevent production stalls. [Aleph (Speed Management Controller / FlexServer)]",
+   "existence": "confirmed",
+   "value": "6% uptime increase",
+   "tier": "",
+   "url": "https://www.aleph.solutions/post/philip-morris-international-success-story",
+   "raw_sector": "",
+   "date": "2024",
+   "fresh": "aging"
+  },
+  {
+   "company": "Philip Morris International",
+   "use": "Applies AI in R&D scientific assessment — integrating AI with systems toxicology to predict biological impacts of compounds, and partnering with IBM Research on the sbv IMPROVER in-silico platform that uses crowdsourcing and machine learning to validate toxicological models. [IBM Research (sbv IMPROVER)]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.pmiscience.com/en/news-events/scientific-update-magazine/a-smoke-free-future-and-beyond/",
+   "raw_sector": "",
+   "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "Philip Morris International",
+   "use": "Deployed LivePerson Conversational Cloud for consumer care — web/WhatsApp/SMS messaging with a virtual assistant handling ~38% of chats, AI-guided intent routing (AI Studio), and an agent-facing generative-AI Copilot for response suggestions and conversation summaries. [LivePerson (Conversational Cloud, AI Studio, Copilot)]",
+   "existence": "confirmed",
+   "value": "88% of conversations shifted to messaging; virtual assistant handled >1.5M interactions; AI grew from 4% of support (2021) to 28.5% (2024)",
+   "tier": "",
+   "url": "https://www.liveperson.com/resources/success-stories/pmi-customer-support-ai/",
+   "raw_sector": "",
+   "date": "2024",
+   "fresh": "aging"
+  },
+  {
+   "company": "Philip Morris International",
+   "use": "Built a retail voice/chatbot with Tovie AI for the Philip Morris call center to automate customer communications and reduce phone-agent involvement while improving service levels. [Tovie AI]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://tovie.ai/success-stories/philip-morris",
+   "raw_sector": "",
+   "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "Philip Morris International",
+   "use": "Went live with ArisGlobal's LifeSphere Safety platform to modernize global safety surveillance/pharmacovigilance of smoke-free products, using AI, machine learning and RPA for adverse-event case management, intake and risk/signal detection. [ArisGlobal (LifeSphere Safety)]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.arisglobal.com/media/press-release/pmi-life-sciences-goes-live-with-lifesphere-safety-to-modernize-global-safety-surveillance/",
+   "raw_sector": "",
+   "date": "2022-06",
+   "fresh": "stale"
+  },
+  {
+   "company": "Philip Morris International",
+   "use": "Uses AI and machine-learning algorithms in online monitoring tools to detect unauthorized resellers, identify the largest illegal marketplaces, and disrupt illicit trade / counterfeiting of its products online.",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.pmi.com/our-business/illicit-trade-prevention/blog/what-is-pmi-doing-to-address-counterfeiting-and-ensure-supply-chain-integrity",
+   "raw_sector": "",
+   "date": "2023",
+   "fresh": "stale"
   }
  ]
 }

@@ -3,45 +3,63 @@
  "name": "Nvidia",
  "cc": "US",
  "vertical": "Technology",
- "deployments": 1,
- "confirmed": 1,
- "with_value_number": 1,
- "proof_rate": 1.0,
+ "deployments": 9,
+ "confirmed": 9,
+ "with_value_number": 5,
+ "proof_rate": 0.556,
  "mktcap": 5070000000000.0,
  "revenue": 253490000000.0,
  "employees": 42000.0,
  "silent": false,
- "per_bn_revenue": 0.0,
- "per_10k_emp": 0.24,
+ "per_bn_revenue": 0.04,
+ "per_10k_emp": 2.14,
  "benchmarks": {
   "global_vertical": {
-   "deployments": 0,
-   "confirmed": 6,
-   "proof_rate": 72,
+   "deployments": 83,
+   "confirmed": 91,
+   "proof_rate": 77,
    "n": 156
   },
   "country_vertical": {
-   "deployments": 0,
-   "confirmed": 4,
-   "proof_rate": 82,
+   "deployments": 74,
+   "confirmed": 88,
+   "proof_rate": 88,
    "n": 74
   }
  },
- "first_seen": 2025,
+ "first_seen": 2020,
  "by_year": [
   {
-   "year": 2025,
+   "year": 2020,
    "n": 1
+  },
+  {
+   "year": 2023,
+   "n": 2
+  },
+  {
+   "year": 2024,
+   "n": 1
+  },
+  {
+   "year": 2025,
+   "n": 2
+  },
+  {
+   "year": 2026,
+   "n": 3
   }
  ],
  "undated_pct": 0,
  "momentum": "early_mover,rising",
- "maturity": "L3",
+ "maturity": "L4",
  "maturity_evidence": [
+  "multi_horizontal",
   "named_product:Blackwell",
-  "value_number"
+  "value_number",
+  "multi_year"
  ],
- "prospect_score": 6,
+ "prospect_score": 72,
  "stack": [
   "NVIDIA"
  ],
@@ -57,6 +75,94 @@
    "raw_sector": "Information Technology",
    "date": "2025",
    "fresh": "fresh"
+  },
+  {
+   "company": "Nvidia",
+   "use": "NVIDIA's internal supply-chain demand forecasting and planning, integrating SAP IBP with the NVIDIA AI platform to improve forecast accuracy and inventory/planning decisions. [SAP IBP + NVIDIA AI platform]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://diginomica.com/supply-chain-agility-achievable-goal-how-nvidia-uses-sap-business-network-and-ai-enabled-planning",
+   "raw_sector": "",
+   "date": "2023",
+   "fresh": "stale"
+  },
+  {
+   "company": "Nvidia",
+   "use": "Company-wide rollout of the Cursor AI coding assistant to over 30,000 NVIDIA engineers, embedded across the SDLC for code generation, testing, debugging and deployment. [Cursor (Anysphere)]",
+   "existence": "confirmed",
+   "value": "3x increase in committed code across 30,000+ developers",
+   "tier": "",
+   "url": "https://cursor.com/blog/nvidia",
+   "raw_sector": "",
+   "date": "2026-02",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Nvidia",
+   "use": "Internal AI sales assistant built with LLMs and retrieval-augmented generation (RAG) to help NVIDIA's sales team quickly surface product and account information. [NVIDIA (NeMo, LLM + RAG)]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://developer.nvidia.com/blog/lessons-learned-from-building-an-ai-sales-assistant/",
+   "raw_sector": "",
+   "date": "2025-01",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Nvidia",
+   "use": "NVIDIA uses AI (with Adobe) for digital marketing efficiency, segmenting customers to deliver tailored content and campaigns and improve B2B campaign targeting. [Adobe (Experience Cloud / Sensei), NVIDIA GPUs]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://blog.adobe.com/en/publish/2020/05/14/how-nvidia-uses-ai-to-boost-digital-marketing-efficiency",
+   "raw_sector": "",
+   "date": "2020-05",
+   "fresh": "stale"
+  },
+  {
+   "company": "Nvidia",
+   "use": "ChipNeMo, a custom 43B-parameter domain-adapted LLM trained on NVIDIA's internal data, deployed as an engineering assistant chatbot for GPU/ASIC design engineers, plus EDA script generation and bug-report summarization. [NVIDIA (ChipNeMo, built on NeMo / Llama 2 base)]",
+   "existence": "confirmed",
+   "value": "43 billion parameters; performs as well as or better than general LLMs on internal chip-design tasks",
+   "tier": "",
+   "url": "https://blogs.nvidia.com/blog/llm-semiconductors-chip-nemo/",
+   "raw_sector": "",
+   "date": "2023-10",
+   "fresh": "stale"
+  },
+  {
+   "company": "Nvidia",
+   "use": "AI/ML introduced across chip-design stages including floorplanning and verification, reducing a large GPU design task from roughly 10 months of eight-engineer work to an overnight job. [NVIDIA]",
+   "existence": "confirmed",
+   "value": "10-month, eight-engineer (~80 person-month) GPU design task reduced to an overnight run",
+   "tier": "",
+   "url": "https://www.tomshardware.com/tech-industry/artificial-intelligence/nvidia-says-ai-cuts-10-month-eight-engineer-gpu-design-task-to-overnight-job-company-is-still-a-long-way-from-ai-designing-chips-without-human-input",
+   "raw_sector": "",
+   "date": "2026-04",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Nvidia",
+   "use": "NVIDIA is the first customer using Cadence's ChipStack AI Super Agent (running on NVIDIA infrastructure) to autonomously verify its own chip designs via dynamic simulation and formal verification. [Cadence ChipStack AI Super Agent + Jasper Formal Verification, on NVIDIA]",
+   "existence": "confirmed",
+   "value": "Over 40x faster RTL validation cycles; five-week verification cycle compressed to under a day",
+   "tier": "",
+   "url": "https://nvidianews.nvidia.com/news/enterprise-software-leaders-build-ai-agents-with-nvidia",
+   "raw_sector": "",
+   "date": "2026-05",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Nvidia",
+   "use": "'James', an interactive digital-human avatar knowledgeable about NVIDIA and its products, deployed as a customer-service/engagement assistant built on NVIDIA ACE (speech AI, avatar animation, generative AI). [NVIDIA ACE (NIM), ElevenLabs voice]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://blogs.nvidia.com/blog/digital-humans-siggraph-2024/",
+   "raw_sector": "",
+   "date": "2024-07",
+   "fresh": "aging"
   }
  ]
 }

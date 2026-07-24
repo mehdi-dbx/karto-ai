@@ -3,44 +3,59 @@
  "name": "CITIC Securities",
  "cc": "CN",
  "vertical": "Financial Services",
- "deployments": 1,
- "confirmed": 1,
- "with_value_number": 0,
- "proof_rate": 0.0,
+ "deployments": 13,
+ "confirmed": 13,
+ "with_value_number": 7,
+ "proof_rate": 0.538,
  "mktcap": 57473611111.0,
  "revenue": 11463888889.0,
  "employees": 26823.0,
  "silent": false,
- "per_bn_revenue": 0.09,
- "per_10k_emp": 0.37,
+ "per_bn_revenue": 1.13,
+ "per_10k_emp": 4.85,
  "benchmarks": {
   "global_vertical": {
-   "deployments": 0,
-   "confirmed": 18,
-   "proof_rate": 0,
+   "deployments": 98,
+   "confirmed": 99,
+   "proof_rate": 71,
    "n": 377
   },
   "country_vertical": {
-   "deployments": 0,
-   "confirmed": 0,
-   "proof_rate": 0,
+   "deployments": 100,
+   "confirmed": 100,
+   "proof_rate": 36,
    "n": 26
   }
  },
- "first_seen": 2024,
+ "first_seen": 2023,
  "by_year": [
   {
+   "year": 2023,
+   "n": 2
+  },
+  {
    "year": 2024,
+   "n": 6
+  },
+  {
+   "year": 2025,
+   "n": 4
+  },
+  {
+   "year": 2026,
    "n": 1
   }
  ],
  "undated_pct": 0,
- "momentum": "early_mover,gone_quiet",
- "maturity": "L3",
+ "momentum": "early_mover,cooling",
+ "maturity": "L4",
  "maturity_evidence": [
-  "named_product:Deep"
+  "multi_horizontal",
+  "named_product:Deep",
+  "value_number",
+  "multi_year"
  ],
- "prospect_score": 54,
+ "prospect_score": 86,
  "stack": [],
  "vendor_named": false,
  "deployments_detail": [
@@ -54,6 +69,138 @@
    "raw_sector": "Financials",
    "date": "2024",
    "fresh": "aging"
+  },
+  {
+   "company": "CITIC Securities",
+   "use": "Bond Copilot, the securities industry's first proprietary bond/fixed-income large model application on the CAP platform, supporting the full bond investment-banking chain (origination, execution, underwriting) with business-opportunity mining, risk management, smart office and project operations. [Self-developed (CAP platform)]",
+   "existence": "confirmed",
+   "value": ">95% bondholder identification accuracy; processes >20,000 news items daily; >92% risk-alert precision; generates bond market reports in ~1 minute; 30%+ operational efficiency gain",
+   "tier": "",
+   "url": "https://www.cs.ecitic.com/newsite/news/202408/t20240809_1190404.html",
+   "raw_sector": "",
+   "date": "2024-01",
+   "fresh": "aging"
+  },
+  {
+   "company": "CITIC Securities",
+   "use": "Wealth Copilot, a large-model wealth-management assistant that retrieves and summarizes knowledge, service experience and historical decisions to give investment advisors high-level support for complex client wealth-management needs. [Self-developed (CAP platform)]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.cs.ecitic.com/newsite/news/202408/t20240809_1190404.html",
+   "raw_sector": "",
+   "date": "2024",
+   "fresh": "aging"
+  },
+  {
+   "company": "CITIC Securities",
+   "use": "Equity-incentive large model, described as the industry's first enterprise equity-incentive large model, integrating thousands of equity-incentive cases to auto-generate incentive plans and help client enterprises improve operational efficiency. [Self-developed (CAP platform)]",
+   "existence": "confirmed",
+   "value": "Integrated ~7,000 equity-incentive cases; auto-generated ~1,500 incentive plans",
+   "tier": "",
+   "url": "https://www.cs.ecitic.com/newsite/news/202408/t20240809_1190404.html",
+   "raw_sector": "",
+   "date": "2024",
+   "fresh": "aging"
+  },
+  {
+   "company": "CITIC Securities",
+   "use": "'Super Researcher' (超级研究员) AI digital employee for intelligent investment research: fuses large models and agent technology to aggregate 10,000+ internal/external research reports and generate rigorous, chart-rich multi-thousand-word deep research reports. [Volcano Engine (Volcengine/ByteDance) partnership]",
+   "existence": "confirmed",
+   "value": "Draws on 10,000+ research papers; serves 10,000+ employees and 100+ institutions; ~40,000 monthly invocations; produces 80,000-90,000 character reports in minutes",
+   "tier": "",
+   "url": "https://finance.cnr.cn/ycbd/20251113/t20251113_527428525.shtml",
+   "raw_sector": "",
+   "date": "2025-11",
+   "fresh": "fresh"
+  },
+  {
+   "company": "CITIC Securities",
+   "use": "Integration of the DeepSeek large model into CITIC Securities' self-developed 'AI+' (CAP) platform, applied across intelligent advisory, compliance risk control and wealth management scenarios (company confirmed on investor interaction platform). [DeepSeek]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://finance.sina.com.cn/stock/relnews/cn/2025-04-03/doc-inerwwiq8219225.shtml",
+   "raw_sector": "",
+   "date": "2025-04",
+   "fresh": "fresh"
+  },
+  {
+   "company": "CITIC Securities",
+   "use": "Fleet of 18+ (later 24) high-value AI 'digital employees' spanning investment banking, research, risk control, operations and wealth management, built in partnership with Volcano Engine; CITIC also released the industry's first five-level AI digital-employee standard. [Volcano Engine (Volcengine/ByteDance)]",
+   "existence": "confirmed",
+   "value": "18 digital employees live handling ~50 million requests, ~1 trillion tokens consumed, 13B+ daily tokens (Q4 2025: 24 employees, ~70M requests, 2T+ tokens); 10 national invention patents, 4 software copyrights",
+   "tier": "",
+   "url": "https://www.pingwest.com/a/310093",
+   "raw_sector": "",
+   "date": "2025-11",
+   "fresh": "fresh"
+  },
+  {
+   "company": "CITIC Securities",
+   "use": "Digital-certificate / bank confirmation-letter generation system automating bank confirmation letters for IPO and refinancing investment-banking projects (auto-validating critical fields). [Self-developed (CAP platform)]",
+   "existence": "confirmed",
+   "value": "Processes 100+ accounts in 10 minutes vs. ~2 days manual; per-project production cut from 2.5 days to 3 hours (~95% efficiency gain); auto-validates 12 critical fields",
+   "tier": "",
+   "url": "https://finance.sina.com.cn/wm/2026-07-21/doc-iniiptrn4983259.shtml",
+   "raw_sector": "",
+   "date": "2025",
+   "fresh": "fresh"
+  },
+  {
+   "company": "CITIC Securities",
+   "use": "CITIC Securities International (CSI, formerly CLSA) deployment of Microsoft 365 Copilot for email/document summarization feeding town-hall presentations, cross-channel synthesis of email/docs/Teams, using the Researcher agent for financial research and Chinese document translation, and role-playing manager appraisal/KPI reviews. In active production with regular Microsoft-led training. [Microsoft 365 Copilot]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://news.microsoft.com/source/asia/features/from-town-halls-to-appraisals-citic-securities-internationals-cio-keeps-microsoft-365-copilot-busy/",
+   "raw_sector": "",
+   "date": "2026-02",
+   "fresh": "fresh"
+  },
+  {
+   "company": "CITIC Securities",
+   "use": "'RPA+AI' hyper-automation practice: OCR recognition of asset-management product names embedded into RPA workflows to rename/route single-page PDFs and analyze fund reconciliation/trade statements for clearing operations staff. [Self-developed (RPA+AI)]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.shaqiu.cn/article/BGRyVEyJVMJl",
+   "raw_sector": "",
+   "date": "2023-05",
+   "fresh": "stale"
+  },
+  {
+   "company": "CITIC Securities",
+   "use": "Large-model intelligent advisory (智能投顾) platform built with vendor Zhongguancun Kejin: auto-matches optimal product portfolios from large catalogs and generates context-tailored sales dialogue/marketing scripts for advisors; deployed in production with an open-API proprietary financial-domain model layer. [Zhongguancun Kejin (中关村科金)]",
+   "existence": "confirmed",
+   "value": "10% improvement in conversion rate (成单率)",
+   "tier": "",
+   "url": "https://www.zkj.com/industry_news/8024.html",
+   "raw_sector": "",
+   "date": "2024-04",
+   "fresh": "aging"
+  },
+  {
+   "company": "CITIC Securities",
+   "use": "iCare (Intelligent Compliance and Risk Ecosystem), a large-model compliance and risk-control assistant covering public-sentiment identification/analysis, internal & external regulatory knowledge-base Q&A, and compliant-operations support across risk, compliance, investment banking and wealth management lines. [Self-developed (CAP platform)]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.cs.ecitic.com/newsite/news/202408/t20240809_1190404.html",
+   "raw_sector": "",
+   "date": "2024",
+   "fresh": "aging"
+  },
+  {
+   "company": "CITIC Securities",
+   "use": "Knowledge-graph platform for off-market financing anomaly / risk detection, applying graph computing to identify abnormal off-exchange financing and related-party risk transmission for the risk department. Won 2023 Shenzhen Financial Technology Development Award (first prize). [Self-developed (CAP platform)]",
+   "existence": "confirmed",
+   "value": "85% detection accuracy; ~30% reduction in risk-department costs",
+   "tier": "",
+   "url": "https://finance.sina.com.cn/wm/2026-07-21/doc-iniiptrn4983259.shtml",
+   "raw_sector": "",
+   "date": "2023",
+   "fresh": "stale"
   }
  ]
 }

@@ -3,39 +3,53 @@
  "name": "Archer Daniels Midland",
  "cc": "US",
  "vertical": "Retail & E-commerce",
- "deployments": 1,
- "confirmed": 0,
- "with_value_number": 0,
- "proof_rate": 0.0,
+ "deployments": 8,
+ "confirmed": 3,
+ "with_value_number": 1,
+ "proof_rate": 0.125,
  "mktcap": 41880000000.0,
  "revenue": 80580000000.0,
  "employees": 41496.0,
  "silent": false,
- "per_bn_revenue": 0.01,
- "per_10k_emp": 0.24,
+ "per_bn_revenue": 0.1,
+ "per_10k_emp": 1.93,
  "benchmarks": {
   "global_vertical": {
-   "deployments": 0,
-   "confirmed": 0,
-   "proof_rate": 0,
+   "deployments": 91,
+   "confirmed": 89,
+   "proof_rate": 61,
    "n": 295
   },
   "country_vertical": {
-   "deployments": 0,
-   "confirmed": 0,
-   "proof_rate": 0,
+   "deployments": 81,
+   "confirmed": 80,
+   "proof_rate": 65,
    "n": 80
   }
  },
- "first_seen": null,
- "by_year": [],
- "undated_pct": 100,
- "momentum": "none",
- "maturity": "L1",
- "maturity_evidence": [
-  "rows_no_confirmed"
+ "first_seen": 2023,
+ "by_year": [
+  {
+   "year": 2023,
+   "n": 1
+  },
+  {
+   "year": 2025,
+   "n": 4
+  },
+  {
+   "year": 2026,
+   "n": 2
+  }
  ],
- "prospect_score": 40,
+ "undated_pct": 12,
+ "momentum": "early_mover,rising",
+ "maturity": "L3",
+ "maturity_evidence": [
+  "multi_horizontal",
+  "named_product:Machine"
+ ],
+ "prospect_score": 61,
  "stack": [],
  "vendor_named": false,
  "deployments_detail": [
@@ -49,6 +63,83 @@
    "raw_sector": "Consumer Staples",
    "date": "missing",
    "fresh": "undated"
+  },
+  {
+   "company": "Archer Daniels Midland",
+   "use": "Audio-based knowledge-capture system: frontline workers record spoken incident reports on an iPad/phone describing how an issue presented and was resolved, which AI consolidates into enterprise tribal knowledge.",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.forbes.com/sites/peterhigh/2025/01/07/how-adm-is-innovating-with-ai-under-kristy-folkweins-leadership/",
+   "raw_sector": "",
+   "date": "2025-01",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Archer Daniels Midland",
+   "use": "AI applied to workflow and transaction processing across global operations to reduce manual touchpoints, errors, and cycle times, as part of a broader cost-savings program (per Q1 2026 earnings call).",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://wiresift.com/ai-adoption/adm",
+   "raw_sector": "",
+   "date": "2026",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Archer Daniels Midland",
+   "use": "ChatADM, an internal secure generative AI platform used to prototype 35+ applications, from automating routine tasks to interpreting video for equipment monitoring; built by pairing junior staff with domain experts to iterate daily.",
+   "existence": "claimed",
+   "value": "35+ applications prototyped",
+   "tier": "",
+   "url": "https://www.forbes.com/sites/peterhigh/2025/01/07/how-adm-is-innovating-with-ai-under-kristy-folkweins-leadership/",
+   "raw_sector": "",
+   "date": "2025-01",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Archer Daniels Midland",
+   "use": "Machine learning / predictive analytics to identify new customers, prioritize cross-selling opportunities, and predict customer attrition. CIO says results were 'extraordinary' with demand growing across the corporation.",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.forbes.com/sites/peterhigh/2025/01/07/how-adm-is-innovating-with-ai-under-kristy-folkweins-leadership/",
+   "raw_sector": "",
+   "date": "2025-01",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Archer Daniels Midland",
+   "use": "Generative AI for flavor and ingredient R&D — consolidates recipes/ingredient data and suggests novel combinations human experts hadn't considered, accelerating new flavor development at lower cost.",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.forbes.com/sites/peterhigh/2025/01/07/how-adm-is-innovating-with-ai-under-kristy-folkweins-leadership/",
+   "raw_sector": "",
+   "date": "2025-01",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Archer Daniels Midland",
+   "use": "Partnership with Brightseed using its Forager AI platform to map molecular interactions between plant bioactives and the gut microbiome, discovering new functional ingredients for gut/immune health. [Brightseed Forager]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.fooddive.com/news/adm-brightseed-gut-health-ai-artificial-intelligence-tech-plant-based-microbiome-immunity/647378/",
+   "raw_sector": "",
+   "date": "2023-04",
+   "fresh": "stale"
+  },
+  {
+   "company": "Archer Daniels Midland",
+   "use": "AI applied to supply chain management and freight/logistics networks to optimize operations (referenced on the Q1 2026 earnings call).",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://wiresift.com/ai-adoption/adm",
+   "raw_sector": "",
+   "date": "2026",
+   "fresh": "fresh"
   }
  ]
 }

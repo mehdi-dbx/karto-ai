@@ -3,45 +3,55 @@
  "name": "Advanced Micro Devices",
  "cc": "US",
  "vertical": "Technology",
- "deployments": 1,
- "confirmed": 1,
- "with_value_number": 1,
- "proof_rate": 1.0,
+ "deployments": 9,
+ "confirmed": 6,
+ "with_value_number": 4,
+ "proof_rate": 0.444,
  "mktcap": 877150000000.0,
  "revenue": 37450000000.0,
  "employees": 31000.0,
  "silent": false,
- "per_bn_revenue": 0.03,
- "per_10k_emp": 0.32,
+ "per_bn_revenue": 0.24,
+ "per_10k_emp": 2.9,
  "benchmarks": {
   "global_vertical": {
-   "deployments": 0,
-   "confirmed": 6,
-   "proof_rate": 72,
+   "deployments": 83,
+   "confirmed": 84,
+   "proof_rate": 69,
    "n": 156
   },
   "country_vertical": {
-   "deployments": 0,
-   "confirmed": 4,
+   "deployments": 74,
+   "confirmed": 75,
    "proof_rate": 82,
    "n": 74
   }
  },
- "first_seen": 2025,
+ "first_seen": 2023,
  "by_year": [
   {
-   "year": 2025,
+   "year": 2023,
    "n": 1
+  },
+  {
+   "year": 2024,
+   "n": 3
+  },
+  {
+   "year": 2025,
+   "n": 5
   }
  ],
  "undated_pct": 0,
  "momentum": "early_mover,rising",
- "maturity": "L3",
+ "maturity": "L4",
  "maturity_evidence": [
+  "multi_horizontal",
   "named_product:Instinct",
-  "value_number"
+  "value_number",
+  "multi_year"
  ],
- "prospect_score": 14,
+ "prospect_score": 66,
  "stack": [],
  "vendor_named": false,
  "deployments_detail": [
@@ -53,6 +63,94 @@
    "tier": "S",
    "url": "https://ir.amd.com/news-events/press-releases/detail/1276/amd-reports-fourth-quarter-and-full-year-2025-financial-results",
    "raw_sector": "Information Technology",
+   "date": "2025",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Advanced Micro Devices",
+   "use": "GitHub Copilot rolled out to 20,000+ hardware, firmware and software engineers on GitHub Enterprise as an AI pair-programmer; AMD reports 50%+ acceptance of AI-generated code (vs ~30% with prior completion tools) and feature cycles compressed from weeks to days. [GitHub Copilot (Microsoft)]",
+   "existence": "confirmed",
+   "value": "50%+ code-suggestion acceptance; feature cycles cut from weeks to days; 20,000+ engineers",
+   "tier": "",
+   "url": "https://github.com/customer-stories/amd",
+   "raw_sector": "",
+   "date": "2023-09",
+   "fresh": "stale"
+  },
+  {
+   "company": "Advanced Micro Devices",
+   "use": "AMD is training an in-house coding assistant on proprietary AMD codebases and use cases (graphics software, low-level firmware) to cover the full SDLC (code review, debugging, optimization, testing) where public-data copilots fall short. [in-house (AMD)]",
+   "existence": "claimed",
+   "value": "targeting 25% developer productivity boost once all AI tools integrated",
+   "tier": "",
+   "url": "https://spectrum.ieee.org/beyond-code-autocomplete",
+   "raw_sector": "",
+   "date": "2025",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Advanced Micro Devices",
+   "use": "GAIA: AMD's open-source framework/SDK for building and running local LLM agents on Ryzen AI PCs, executing models on the integrated NPU/iGPU without cloud dependency. [AMD (Ryzen AI NPU; open-source)]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.amd.com/en/developer/resources/technical-articles/gaia-an-open-source-project-from-amd-for-running-local-llms-on-ryzen-ai.html",
+   "raw_sector": "",
+   "date": "2025-03",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Advanced Micro Devices",
+   "use": "AMD's marketing organization deploys large language models internally for copywriting, copyediting, generating video summaries, and developing training/enablement materials. [LLMs (unspecified)]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://deloitte.wsj.com/cmo/amd-cmo-on-opportunities-challenges-of-using-ai-in-marketing-8845225f",
+   "raw_sector": "",
+   "date": "2024",
+   "fresh": "aging"
+  },
+  {
+   "company": "Advanced Micro Devices",
+   "use": "Internal use of AI to accelerate silicon/chip design: CEO Lisa Su states AMD is using AI to design chips faster and more reliably, with the goal of increasing the number of products shipped per year.",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.pcworld.com/article/2262634/amds-lisa-su-gets-candid-in-ai-go-slow-is-not-the-answer.html",
+   "raw_sector": "",
+   "date": "2024",
+   "fresh": "aging"
+  },
+  {
+   "company": "Advanced Micro Devices",
+   "use": "Via its Silo AI acquisition, AMD develops and releases open multilingual foundation models (Poro and Viking families covering European/Nordic languages) trained on AMD Instinct GPUs, published openly on Hugging Face. [Silo AI / LumiOpen (AMD); trained on AMD Instinct MI250]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.amd.com/en/blogs/2024/viking-7b-13b-33b-sailing-the-nordic-seas-of-multilinguality.html",
+   "raw_sector": "",
+   "date": "2024",
+   "fresh": "aging"
+  },
+  {
+   "company": "Advanced Micro Devices",
+   "use": "AMD Chat: a GPU-accelerated, local/offline AI assistant built into AMD Software: Adrenalin Edition (RX 9070 series) that answers questions about the user's AMD hardware, toggles Adrenalin features, and does text/image generation on-device. [AMD (local LLM on Adrenalin, RDNA GPU-accelerated)]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.pcguide.com/news/amd-just-added-an-ai-chatbot-to-its-gpu-software-and-we-tested-to-see-if-its-any-good/",
+   "raw_sector": "",
+   "date": "2025-03",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Advanced Micro Devices",
+   "use": "GitHub Advanced Security with Copilot Autofix used to auto-triage 1M+ nightly build/simulation results and automatically patch legacy-code vulnerabilities, reducing morning manual triage to near zero. [GitHub Advanced Security / Copilot Autofix (Microsoft)]",
+   "existence": "confirmed",
+   "value": "70% of vulnerability classes resolved automatically; 1M+ nightly simulations auto-triaged",
+   "tier": "",
+   "url": "https://github.com/customer-stories/amd",
+   "raw_sector": "",
    "date": "2025",
    "fresh": "fresh"
   }

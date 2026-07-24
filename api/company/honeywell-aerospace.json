@@ -3,40 +3,64 @@
  "name": "Honeywell Aerospace",
  "cc": "US",
  "vertical": "Industrial / Machinery",
- "deployments": 1,
- "confirmed": 1,
- "with_value_number": 0,
- "proof_rate": 0.0,
+ "deployments": 12,
+ "confirmed": 9,
+ "with_value_number": 5,
+ "proof_rate": 0.417,
  "mktcap": 62760000000.0,
  "revenue": 17680000000.0,
  "employees": 30000.0,
  "silent": false,
- "per_bn_revenue": 0.06,
- "per_10k_emp": 0.33,
+ "per_bn_revenue": 0.68,
+ "per_10k_emp": 4.0,
  "benchmarks": {
   "global_vertical": {
-   "deployments": 0,
-   "confirmed": 14,
-   "proof_rate": 0,
+   "deployments": 98,
+   "confirmed": 97,
+   "proof_rate": 75,
    "n": 175
   },
   "country_vertical": {
-   "deployments": 0,
-   "confirmed": 19,
-   "proof_rate": 0,
+   "deployments": 99,
+   "confirmed": 99,
+   "proof_rate": 86,
    "n": 80
   }
  },
- "first_seen": null,
- "by_year": [],
- "undated_pct": 100,
- "momentum": "none",
- "maturity": "L3",
+ "first_seen": 2021,
+ "by_year": [
+  {
+   "year": 2021,
+   "n": 1
+  },
+  {
+   "year": 2022,
+   "n": 1
+  },
+  {
+   "year": 2024,
+   "n": 3
+  },
+  {
+   "year": 2025,
+   "n": 4
+  },
+  {
+   "year": 2026,
+   "n": 2
+  }
+ ],
+ "undated_pct": 8,
+ "momentum": "early_mover,rising",
+ "maturity": "L4",
  "maturity_evidence": [
+  "multi_horizontal",
   "named_product:Honeywell",
+  "value_number",
+  "multi_year",
   "tier_p"
  ],
- "prospect_score": 54,
+ "prospect_score": 85,
  "stack": [],
  "vendor_named": false,
  "deployments_detail": [
@@ -50,6 +74,127 @@
    "raw_sector": "Industrials",
    "date": "missing",
    "fresh": "undated"
+  },
+  {
+   "company": "Honeywell Aerospace",
+   "use": "Microsoft 365 Copilot deployed across Honeywell to aggregate and summarize content; part of a portfolio of more than 16 generative-AI use cases in production available to all employees, with Salesforce/SAP integrations being tested for sales and finance. [Microsoft 365 Copilot]",
+   "existence": "confirmed",
+   "value": "16+ gen AI use cases in production, available to ~95,000 employees",
+   "tier": "",
+   "url": "https://www.cio.com/article/3816457/honeywell-transforms-with-gen-ai.html",
+   "raw_sector": "",
+   "date": "2025-02",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Honeywell Aerospace",
+   "use": "Moveworks AI copilot deployed for IT help-desk / employee service automation, resolving employee tickets automatically. [Moveworks]",
+   "existence": "confirmed",
+   "value": "Reduced tickets humans must address by 80%",
+   "tier": "",
+   "url": "https://www.cio.com/article/3816457/honeywell-transforms-with-gen-ai.html",
+   "raw_sector": "",
+   "date": "2025-02",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Honeywell Aerospace",
+   "use": "Honeywell developing an AI-enabled Multi-Modal Intelligent Agent (mobile assistant) for its handheld/mobile devices, powered by Qualcomm on-device AI, to let workers and customers interact via voice/vision and access product information in distribution-center and retail settings. [Qualcomm Technologies]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.honeywell.com/us/en/news/press-releases/2024/09/honeywell-to-develop-artificial-intelligence-enabled-agent-powered-by-qualcomm",
+   "raw_sector": "",
+   "date": "2024-09",
+   "fresh": "aging"
+  },
+  {
+   "company": "Honeywell Aerospace",
+   "use": "GitHub Copilot and other AI coding assistants used by Honeywell software engineers (over 4,500 engineers, ~22,000 total across the company) to write and modernize software code, increasing developer productivity and code quality. [GitHub Copilot (Microsoft)]",
+   "existence": "confirmed",
+   "value": "~20% of company software code written by GitHub Copilot / AI coding tools; over 4,500 engineers using it",
+   "tier": "",
+   "url": "https://fortune.com/2024/08/28/why-honeywell-betting-on-generative-ai/",
+   "raw_sector": "",
+   "date": "2025-09",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Honeywell Aerospace",
+   "use": "Honeywell Ensemble digital maintenance service uses an AI algorithm (EngineCompressorAI) to predict aircraft engine health/failures from near-real-time flight data (vibration, inter-turbine temperature, pressures, fuel burn) so operators can act before disruptions. Data flows via an aircraft data gateway into the Honeywell Forge analytics platform. [Honeywell Forge (EngineCompressorAI)]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.honeywellaerospace.com/us/en/insights/articles/how-honeywell-ensemble-uses-ai-to-predict-engine-health",
+   "raw_sector": "",
+   "date": "2024-10",
+   "fresh": "aging"
+  },
+  {
+   "company": "Honeywell Aerospace",
+   "use": "Honeywell Forge Flight Efficiency uses ML analytics on flight/fuel data to optimize airline fuel burn and flight operations; multiple airlines have adopted it to reduce fuel costs. [Honeywell Forge]",
+   "existence": "confirmed",
+   "value": "More than 2% fuel savings demonstrated, up to ~$8M annual savings (per Honeywell Flight Efficiency brochure)",
+   "tier": "",
+   "url": "https://www.prnewswire.com/news-releases/multiple-airlines-select-honeywell-forge-flight-data-analytics-platform-to-save-on-fuel-301216131.html",
+   "raw_sector": "",
+   "date": "2021-01",
+   "fresh": "stale"
+  },
+  {
+   "company": "Honeywell Aerospace",
+   "use": "AI-powered Alternative/Vision-Aided Navigation for GPS-denied environments (including the N200 VIO visual-inertial module) using AI algorithms to recognize the environment and deliver GPS-like positioning; flight-demonstrated on Embraer E170 and AW139 platforms. [Honeywell (in-house)]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://aerospaceglobalnews.com/news/honeywell-successfully-demonstrates-alternative-navigation-capabilities/",
+   "raw_sector": "",
+   "date": "2022-05",
+   "fresh": "stale"
+  },
+  {
+   "company": "Honeywell Aerospace",
+   "use": "Honeywell Aerospace is developing a trusted-autonomy software stack on Shield AI's Hivemind autonomy SDK, integrating Honeywell Anthem avionics, navigation and sensing with Hivemind AI pilot software to accelerate deployment of autonomous aircraft for defense operators (MoU signed). [Shield AI Hivemind]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://shield.ai/honeywell-aerospace-shield-ai-collaborate-to-advance-development-of-autonomous-aircraft/",
+   "raw_sector": "",
+   "date": "2026-07",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Honeywell Aerospace",
+   "use": "Honeywell Aerospace uses AI to perform rapid iterative designs on next-generation aerospace systems, speeding product design and engineering (per Aerospace CEO Jim Currier).",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.wsj.com/business/honeywell-aerospace-ceo-says-ai-works-for-blueprints-but-isnt-ready-for-the-cockpit-bab9eb0e",
+   "raw_sector": "",
+   "date": "2026-06",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Honeywell Aerospace",
+   "use": "Honeywell + Google Cloud partnership to build AI agents ('workplace coaches') on Vertex AI and Gemini that use Honeywell Forge industrial data to troubleshoot equipment, suggest design improvements and provide predictive maintenance insights, plus Gemini Nano on edge devices for offline multimodal processing. [Google Cloud (Vertex AI, Gemini, Gemini Nano, BigQuery)]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://blog.google/innovation-and-ai/infrastructure-and-cloud/google-cloud/honeywell-ai/",
+   "raw_sector": "",
+   "date": "2024-10",
+   "fresh": "aging"
+  },
+  {
+   "company": "Honeywell Aerospace",
+   "use": "'Red' generative-AI virtual assistant for product documentation and internal knowledge retrieval, answering questions using Honeywell's archive of 350,000 pages of product manuals and 50,000+ internal articles. [Honeywell (gen AI assistant)]",
+   "existence": "confirmed",
+   "value": "Draws on 350,000 pages of manuals + 50,000+ internal articles",
+   "tier": "",
+   "url": "https://www.cio.com/article/3816457/honeywell-transforms-with-gen-ai.html",
+   "raw_sector": "",
+   "date": "2025-02",
+   "fresh": "fresh"
   }
  ]
 }

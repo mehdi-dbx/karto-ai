@@ -3,40 +3,60 @@
  "name": "Coca-Cola Company (The)",
  "cc": "US",
  "vertical": "Retail & E-commerce",
- "deployments": 1,
- "confirmed": 1,
- "with_value_number": 0,
- "proof_rate": 0.0,
+ "deployments": 11,
+ "confirmed": 9,
+ "with_value_number": 2,
+ "proof_rate": 0.182,
  "mktcap": 348500000000.0,
  "revenue": 49280000000.0,
  "employees": 65900.0,
  "silent": false,
- "per_bn_revenue": 0.02,
- "per_10k_emp": 0.15,
+ "per_bn_revenue": 0.22,
+ "per_10k_emp": 1.67,
  "benchmarks": {
   "global_vertical": {
-   "deployments": 0,
-   "confirmed": 26,
-   "proof_rate": 0,
+   "deployments": 95,
+   "confirmed": 94,
+   "proof_rate": 62,
    "n": 295
   },
   "country_vertical": {
-   "deployments": 0,
-   "confirmed": 29,
-   "proof_rate": 0,
+   "deployments": 87,
+   "confirmed": 85,
+   "proof_rate": 67,
    "n": 80
   }
  },
- "first_seen": null,
- "by_year": [],
- "undated_pct": 100,
- "momentum": "none",
- "maturity": "L3",
+ "first_seen": 2023,
+ "by_year": [
+  {
+   "year": 2023,
+   "n": 3
+  },
+  {
+   "year": 2024,
+   "n": 2
+  },
+  {
+   "year": 2025,
+   "n": 4
+  },
+  {
+   "year": 2026,
+   "n": 1
+  }
+ ],
+ "undated_pct": 9,
+ "momentum": "early_mover,flat",
+ "maturity": "L4",
  "maturity_evidence": [
+  "multi_horizontal",
   "named_product:Zero",
+  "value_number",
+  "multi_year",
   "tier_p"
  ],
- "prospect_score": 46,
+ "prospect_score": 87,
  "stack": [
   "OpenAI"
  ],
@@ -52,6 +72,116 @@
    "raw_sector": "Consumer Staples",
    "date": "missing",
    "fresh": "undated"
+  },
+  {
+   "company": "Coca-Cola Company (The)",
+   "use": "Five-year strategic partnership with Microsoft: testing Azure OpenAI Service and Copilot for Microsoft 365 use cases across business functions (customer experience, employee productivity, operations), backed by a $1.1B cloud commitment. [Microsoft (Azure OpenAI Service, Copilot for Microsoft 365)]",
+   "existence": "claimed",
+   "value": "$1.1 billion committed to Microsoft Cloud/generative AI",
+   "tier": "",
+   "url": "https://www.coca-colacompany.com/media-center/the-coca-cola-company-and-microsoft-announce-five-year-strategic-partnership-to-accelerate-cloud-and-generative-ai-initiatives",
+   "raw_sector": "",
+   "date": "2024-04",
+   "fresh": "aging"
+  },
+  {
+   "company": "Coca-Cola Company (The)",
+   "use": "Coca-Cola Andina built an HR-service AI agent with Microsoft Copilot Studio that authenticates employees and streamlines HR queries/requests, modernizing HR operations. [Microsoft Copilot Studio]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.microsoft.com/en/customers/story/26256-coca-cola-andina-microsoft-copilot-studio",
+   "raw_sector": "",
+   "date": "2026-03",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Coca-Cola Company (The)",
+   "use": "AI-generated ad creative ('Masterpiece' campaign and ongoing brand content) produced by Coca-Cola's marketing team using GPT-4 and DALL-E, via the Bain & Company–OpenAI services alliance (Coca-Cola was the first client). [OpenAI (GPT-4, DALL-E) via Bain & Company]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.marketingdive.com/news/coca-cola-OpenAI-Bain-ChatGPT-AI-marketing/643381/",
+   "raw_sector": "",
+   "date": "2023-02",
+   "fresh": "stale"
+  },
+  {
+   "company": "Coca-Cola Company (The)",
+   "use": "'Create Real Magic' consumer-facing generative AI platform letting fans generate original artwork from Coca-Cola's brand archive; later extended to personalized digital greeting cards. [OpenAI (GPT-4, DALL-E)]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.coca-colacompany.com/media-center/coca-cola-invites-digital-artists-to-create-real-magic-using-new-ai-platform",
+   "raw_sector": "",
+   "date": "2023-03",
+   "fresh": "stale"
+  },
+  {
+   "company": "Coca-Cola Company (The)",
+   "use": "Scaling global marketing content production with a generative AI content engine built on WPP Open X and NVIDIA Omniverse/OpenUSD, personalizing Coke and meal imagery across 100+ markets while maintaining brand authenticity. [NVIDIA Omniverse / OpenUSD via WPP Open X]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://blogs.nvidia.com/blog/coca-cola-wpp-omniverse-generative-ai/",
+   "raw_sector": "",
+   "date": "2024-07",
+   "fresh": "aging"
+  },
+  {
+   "company": "Coca-Cola Company (The)",
+   "use": "AI-powered content generation and real-time hyper-personalization of marketing at scale using Adobe Experience Cloud (incl. Firefly/GenStudio), for global omni-channel campaigns. [Adobe Experience Cloud]",
+   "existence": "confirmed",
+   "value": "4x engagement lift, 65% reduction in copywriting time, up to 40x more personalized assets",
+   "tier": "",
+   "url": "https://business.adobe.com/blog/coca-colas-digital-revolution-in-personalization",
+   "raw_sector": "",
+   "date": "2025-10",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Coca-Cola Company (The)",
+   "use": "Coca-Cola Y3000 Zero Sugar, a limited-edition beverage flavor co-created using AI by analyzing global fan inputs/emotions about the future to inform the recipe and branding.",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.coca-colacompany.com/media-center/coca-cola-creations-imagines-year-3000-futuristic-flavor-ai-powered-experience",
+   "raw_sector": "",
+   "date": "2023-09",
+   "fresh": "stale"
+  },
+  {
+   "company": "Coca-Cola Company (The)",
+   "use": "Coca-Cola Bottlers Japan (CCBJI) selected the o9 Digital Brain platform for AI-driven supply planning optimization—demand forecasting, inventory precision, delivery-route optimization and waste reduction. [o9 Solutions (Digital Brain)]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://o9solutions.com/news/o9-selected-by-coca-cola-bottlers-japan-digital-brain-for-supply-planning-optimization",
+   "raw_sector": "",
+   "date": "2025-04",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Coca-Cola Company (The)",
+   "use": "'Share a Coke on Freestyle' uses proprietary AI-powered recipe technology in Freestyle fountain dispensers to pour a bespoke personalized drink in real time.",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.bevindustry.com/articles/97399-share-a-coke-on-freestyle-turns-to-artificial-intelligence",
+   "raw_sector": "",
+   "date": "2025-04",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Coca-Cola Company (The)",
+   "use": "Enterprise Risk Management (ERM) team uses AI to monitor external signals, detect emerging risks earlier, and provide real-time insights for strategic decision-making.",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://erm.ncsu.edu/resource-center/ai-in-erm-coca-cola-john-berry/",
+   "raw_sector": "",
+   "date": "2025-07",
+   "fresh": "fresh"
   }
  ]
 }

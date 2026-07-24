@@ -3,20 +3,20 @@
  "name": "Ipsos",
  "cc": "FR",
  "vertical": "Legal & Professional Services",
- "deployments": 1,
- "confirmed": 1,
- "with_value_number": 1,
- "proof_rate": 1.0,
+ "deployments": 10,
+ "confirmed": 10,
+ "with_value_number": 5,
+ "proof_rate": 0.5,
  "mktcap": 1684800000.0,
  "revenue": 2743200000.0,
  "employees": 20921.0,
  "silent": false,
- "per_bn_revenue": 0.36,
- "per_10k_emp": 0.48,
+ "per_bn_revenue": 3.65,
+ "per_10k_emp": 4.78,
  "benchmarks": {
   "global_vertical": {
-   "deployments": 0,
-   "confirmed": 9,
+   "deployments": 100,
+   "confirmed": 100,
    "proof_rate": 55,
    "n": 12
   }
@@ -28,14 +28,15 @@
    "n": 1
   }
  ],
- "undated_pct": 0,
+ "undated_pct": 90,
  "momentum": "early_mover,rising",
  "maturity": "L3",
  "maturity_evidence": [
+  "multi_horizontal",
   "named_product:Plans",
   "value_number"
  ],
- "prospect_score": 14,
+ "prospect_score": 88,
  "stack": [],
  "vendor_named": false,
  "deployments_detail": [
@@ -49,6 +50,105 @@
    "raw_sector": "Market Research",
    "date": "2025",
    "fresh": "fresh"
+  },
+  {
+   "company": "Ipsos",
+   "use": "Ipsos Facto, the company's proprietary generative AI platform / co-pilot for researchers, used to collect, manage, analyze and interpret research data. Built as a multi-model layer routing to third-party LLMs; by 2024 ~51% of the Ipsos workforce had used it and it was opened to clients. [Ipsos Facto (proprietary), routing to models from Google, OpenAI and Anthropic]",
+   "existence": "confirmed",
+   "value": "51% of the Ipsos workforce had already used Ipsos Facto",
+   "tier": "",
+   "url": "https://www.ipsos.com/en/almanac-2024/gen-ai-need-human-intelligence-hi-artificial-intelligence-ai",
+   "raw_sector": "",
+   "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "Ipsos",
+   "use": "Ipsos Synthesio Signals GenAI, a generative-AI application on the Synthesio social-listening platform that transforms millions of real-time consumer signals into actionable insights in about 60 seconds. [Ipsos Synthesio (generative AI)]",
+   "existence": "confirmed",
+   "value": "insights within 60 seconds",
+   "tier": "",
+   "url": "https://www.ipsos.com/en-us/ipsos-synthesio-unveils-signals-genai-providing-instant-consumer-insights",
+   "raw_sector": "",
+   "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "Ipsos",
+   "use": "Ipsos PersonaBot, an AI-powered segmentation tool that turns research segments into conversational personas users can chat with, powered by Ipsos Facto. [Powered by Ipsos Facto (generative AI)]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.ipsos.com/en-us/launch-ipsos-personabot-groundbreaking-ai-powered-solution-enhance-segmentation-research",
+   "raw_sector": "",
+   "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "Ipsos",
+   "use": "InnoExplorer AI, an end-to-end innovation-exploration solution using generative and analytical AI plus consumer data to generate product/service ideas and concepts and predict their market potential. [Ipsos (generative + analytical AI)]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.ipsos.com/en-us/innoexplorer",
+   "raw_sector": "",
+   "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "Ipsos",
+   "use": "Product Studio, Ipsos' AI-native product-testing platform (launched across 11 markets) combining synthetic data, multi-modal AI, AI agents, smart labelling and generative-AI summaries to accelerate product testing. [Ipsos (multi-modal AI, AI agents)]",
+   "existence": "confirmed",
+   "value": "product testing timelines cut by ~35%",
+   "tier": "",
+   "url": "https://www.ipsos.com/en-us/ipsos-launches-product-studio-new-era-product-testing",
+   "raw_sector": "",
+   "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "Ipsos",
+   "use": "Synthetic respondents / AI digital-twin panels for market research — generating synthetic participants and 'digital twin' consumer panels for instant concept and product screening, developed via a research partnership with Stanford's PASCL. [Ipsos with Stanford PASCL]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.ipsos.com/en/ipsos-partners-stanford-university-pioneer-future-market-research-synthetic-data",
+   "raw_sector": "",
+   "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "Ipsos",
+   "use": "Product View AI, an Ipsos HI+AI solution that reimagines product testing using AI to interpret consumer product feedback (part of the newer AI-native testing suite). [Ipsos (HI+AI)]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.ipsos.com/en-uk/see-unseen-product-view-ai",
+   "raw_sector": "",
+   "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "Ipsos",
+   "use": "Creative|Spark AI, an AI-powered ad-testing / creative assessment solution that predicts human reactions to linear TV and social video (TikTok, Instagram, Facebook, YouTube) and returns actionable insights within minutes. [Ipsos (HI+AI)]",
+   "existence": "confirmed",
+   "value": "results in as little as 15 minutes",
+   "tier": "",
+   "url": "https://www.ipsos.com/en-us/ipsos-launches-creativespark-ai-ad-testing-solution-generating-actionable-insights-within-minutes",
+   "raw_sector": "",
+   "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "Ipsos",
+   "use": "Ipsos Synthesio AI Visibility / GEO — a generative-engine-optimization solution that monitors and reports how brands appear in AI search / LLM answers (ChatGPT, etc.), built in collaboration with MentionLab. [Ipsos Synthesio with MentionLab]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.ipsos.com/en/unlock-your-brand-visibility-ai-era-ipsos-synthesio-geo",
+   "raw_sector": "",
+   "date": "missing",
+   "fresh": "undated"
   }
  ]
 }

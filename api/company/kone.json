@@ -3,41 +3,60 @@
  "name": "KONE",
  "cc": "FI",
  "vertical": "Manufacturing & Robotics",
- "deployments": 1,
- "confirmed": 1,
- "with_value_number": 1,
- "proof_rate": 1.0,
+ "deployments": 10,
+ "confirmed": 10,
+ "with_value_number": 7,
+ "proof_rate": 0.7,
  "mktcap": 26146800000.0,
  "revenue": 12279600000.0,
  "employees": 64884.0,
  "silent": false,
- "per_bn_revenue": 0.08,
- "per_10k_emp": 0.15,
+ "per_bn_revenue": 0.81,
+ "per_10k_emp": 1.54,
  "benchmarks": {
   "global_vertical": {
-   "deployments": 0,
-   "confirmed": 24,
+   "deployments": 97,
+   "confirmed": 98,
    "proof_rate": 84,
    "n": 147
   },
   "country_vertical": {
-   "deployments": 0,
-   "confirmed": 10,
+   "deployments": 100,
+   "confirmed": 100,
    "proof_rate": 90,
    "n": 11
   }
  },
- "first_seen": null,
- "by_year": [],
- "undated_pct": 100,
- "momentum": "none",
- "maturity": "L3",
+ "first_seen": 2017,
+ "by_year": [
+  {
+   "year": 2017,
+   "n": 1
+  },
+  {
+   "year": 2024,
+   "n": 4
+  },
+  {
+   "year": 2025,
+   "n": 1
+  },
+  {
+   "year": 2026,
+   "n": 2
+  }
+ ],
+ "undated_pct": 20,
+ "momentum": "early_mover,cooling",
+ "maturity": "L4",
  "maturity_evidence": [
+  "multi_horizontal",
   "named_product:KONE",
   "value_number",
+  "multi_year",
   "tier_p"
  ],
- "prospect_score": 14,
+ "prospect_score": 80,
  "stack": [],
  "vendor_named": false,
  "deployments_detail": [
@@ -51,6 +70,105 @@
    "raw_sector": "Industrials",
    "date": "missing",
    "fresh": "undated"
+  },
+  {
+   "company": "KONE",
+   "use": "KONE 24/7 Connected Services: AI-based analytics on IoT sensor data from elevators/escalators to predict faults and schedule proactive maintenance before breakdowns. [IBM Watson IoT / IBM Cloud]",
+   "existence": "confirmed",
+   "value": "80% of equipment faults identified proactively; 55% fewer entrapments; 25% of issues resolved remotely within 2 minutes; ~30% downtime reduction",
+   "tier": "",
+   "url": "https://www.kone.com/global/en/service/kone-predictive-maintenance.html",
+   "raw_sector": "",
+   "date": "2017",
+   "fresh": "stale"
+  },
+  {
+   "company": "KONE",
+   "use": "KONE Destination control system with built-in AI that groups passengers by destination and detects light/normal traffic intensity to adjust operating mode and optimize people flow.",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.kone.sg/Images/brochure-kone-destination_tcm95-43024.pdf",
+   "raw_sector": "",
+   "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "KONE",
+   "use": "Technician Assistant ('Pedro'): generative AI field-service assistant that lets technicians chat to troubleshoot elevator/escalator faults using manuals, past resolved cases and IoT data before escalating to call centers. [Amazon Bedrock + Anthropic Claude + Bedrock Guardrails (AWS)]",
+   "existence": "confirmed",
+   "value": "Live in 11 countries with ~1,500 active technicians, scaling toward 40,000",
+   "tier": "",
+   "url": "https://aws.amazon.com/solutions/case-studies/aws-ai-security-kone-case-study/",
+   "raw_sector": "",
+   "date": "2024",
+   "fresh": "aging"
+  },
+  {
+   "company": "KONE",
+   "use": "GenAI chatbot for technical/smart information delivery to customer service teams, giving fast access to trusted product knowledge from content managed in Adobe Experience Manager and Fluid Topics. [Fluid Topics + Adobe Experience Manager]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.fluidtopics.com/resources/webinars/kone-fluid-topics-smart-information-smart-cities/",
+   "raw_sector": "",
+   "date": "2024",
+   "fresh": "aging"
+  },
+  {
+   "company": "KONE",
+   "use": "TenderLens: generative-AI sales tool that reads complex tender documents, extracts technical specs via NLP/OCR, matches KONE solutions and feeds Salesforce CRM and CPQ to speed up tendering. [OpenAI GPT-4 on Microsoft Azure (co-developed with Futurice)]",
+   "existence": "confirmed",
+   "value": ">90% extraction accuracy; several hours saved per document; operating costs down ~80% over 12 months; ease-of-use 4.3/5",
+   "tier": "",
+   "url": "https://www.futurice.com/case-studies/kone-tenderlens-gen-ai",
+   "raw_sector": "",
+   "date": "2024",
+   "fresh": "aging"
+  },
+  {
+   "company": "KONE",
+   "use": "GenAI solution-finder tool for salespeople that rapidly identifies tailored KONE offerings for each new construction project, part of KONE's GenAI push announced alongside the technician assistant.",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://origin-www.kone.com/en/news-and-insights/stories/harnessing-GenAI-for-elevating-human-potential.aspx",
+   "raw_sector": "",
+   "date": "2024-06",
+   "fresh": "aging"
+  },
+  {
+   "company": "KONE",
+   "use": "AI video monitoring for escalators and autowalks: real-time computer vision detects risky passenger behavior (leaning, luggage/trolley caught in steps) and alerts users/building personnel, with automatic face blurring for privacy.",
+   "existence": "confirmed",
+   "value": "Deployed at Amsterdam Airport Schiphol, Shanghai Children's Hospital and Shenzhen Metro; reduced unplanned escalator stops (97% of incidents are behavior-related)",
+   "tier": "",
+   "url": "https://www.kone.com/global/en/newsroom/stories/how-ai-makes-escalators-safer-with-video-monitoring.html",
+   "raw_sector": "",
+   "date": "2025-06",
+   "fresh": "fresh"
+  },
+  {
+   "company": "KONE",
+   "use": "AI-driven contract management: Power Automate + AI Builder extract and validate contract data (including handwriting) against SAP, flagging deviations for human review before updating SAP. [Microsoft Power Automate / AI Builder / Azure]",
+   "existence": "confirmed",
+   "value": "Processes 54,000+ contracts/year; handling time cut from 30 min to under 10 min per contract",
+   "tier": "",
+   "url": "https://www.microsoft.com/en/customers/story/26034-kone-power-apps",
+   "raw_sector": "",
+   "date": "2026-01",
+   "fresh": "fresh"
+  },
+  {
+   "company": "KONE",
+   "use": "AI-powered internal Developer Agent that guides 3,000+ citizen developers ('makers') through building Power Platform apps and generates prompts for Power Apps/Power Automate, with retrieval grounding. [Microsoft Copilot Studio + Azure AI Foundry]",
+   "existence": "confirmed",
+   "value": "32,000+ apps built across Power Platform; supports 3,000+ makers",
+   "tier": "",
+   "url": "https://www.microsoft.com/en/customers/story/26034-kone-power-apps",
+   "raw_sector": "",
+   "date": "2026-01",
+   "fresh": "fresh"
   }
  ]
 }

@@ -3,40 +3,64 @@
  "name": "Micron Technology",
  "cc": "US",
  "vertical": "Technology",
- "deployments": 1,
- "confirmed": 1,
- "with_value_number": 0,
- "proof_rate": 0.0,
+ "deployments": 9,
+ "confirmed": 7,
+ "with_value_number": 3,
+ "proof_rate": 0.333,
  "mktcap": 1120000000000.0,
  "revenue": 90270000000.0,
  "employees": 53000.0,
  "silent": false,
- "per_bn_revenue": 0.01,
- "per_10k_emp": 0.19,
+ "per_bn_revenue": 0.1,
+ "per_10k_emp": 1.7,
  "benchmarks": {
   "global_vertical": {
-   "deployments": 0,
-   "confirmed": 6,
-   "proof_rate": 0,
+   "deployments": 83,
+   "confirmed": 86,
+   "proof_rate": 66,
    "n": 156
   },
   "country_vertical": {
-   "deployments": 0,
-   "confirmed": 4,
-   "proof_rate": 0,
+   "deployments": 74,
+   "confirmed": 79,
+   "proof_rate": 81,
    "n": 74
   }
  },
- "first_seen": null,
- "by_year": [],
- "undated_pct": 100,
- "momentum": "none",
- "maturity": "L3",
+ "first_seen": 2018,
+ "by_year": [
+  {
+   "year": 2018,
+   "n": 2
+  },
+  {
+   "year": 2020,
+   "n": 1
+  },
+  {
+   "year": 2023,
+   "n": 2
+  },
+  {
+   "year": 2025,
+   "n": 2
+  },
+  {
+   "year": 2026,
+   "n": 1
+  }
+ ],
+ "undated_pct": 11,
+ "momentum": "early_mover,rising",
+ "maturity": "L4",
  "maturity_evidence": [
+  "multi_horizontal",
   "named_product:NVIDIA",
+  "value_number",
+  "multi_year",
   "tier_p"
  ],
- "prospect_score": 46,
+ "prospect_score": 69,
  "stack": [
   "NVIDIA"
  ],
@@ -52,6 +76,94 @@
    "raw_sector": "Information Technology",
    "date": "missing",
    "fresh": "undated"
+  },
+  {
+   "company": "Micron Technology",
+   "use": "Acoustic listening AI: microphones near robotic actuators and pumps record machinery sound, establish baseline frequency patterns, and use ML anomaly detection to flag equipment wear and imminent breakdowns before failure (predictive maintenance). [Internally developed (Apache Hadoop + GPU compute)]",
+   "existence": "confirmed",
+   "value": "25% faster yield maturity; 10% increased manufacturing output; 35% fewer quality events",
+   "tier": "",
+   "url": "https://www.micron.com/about/blog/company/partners/micron-uses-data-and-artificial-intelligence-to-see-hear-feel",
+   "raw_sector": "",
+   "date": "2018-11",
+   "fresh": "stale"
+  },
+  {
+   "company": "Micron Technology",
+   "use": "Eightfold AI talent intelligence platform used for recruiting/hiring: Micron's Workday application flow explicitly uses Eightfold AI recruiting software to assist candidate screening/matching, and Micron adopted the platform for workforce transformation and internal mobility. [Eightfold AI]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://micron.wd1.myworkdayjobs.com/en-US/External/job/Finance-Process-Intelligence-Manager_JR102439/apply/autofillWithResume",
+   "raw_sector": "",
+   "date": "2020-09",
+   "fresh": "stale"
+  },
+  {
+   "company": "Micron Technology",
+   "use": "Microsoft 365 Copilot enterprise rollout, with Viva Engage communities used to drive employee adoption and best-practice sharing (generative AI assistant for office/knowledge work). [Microsoft (Microsoft 365 Copilot, Azure OpenAI, Viva Engage)]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://techcommunity.microsoft.com/blog/viva_engage_blog/customer-spotlight-copilot-adoption-in-viva-engage-with-micron/4475230",
+   "raw_sector": "",
+   "date": "2025-12",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Micron Technology",
+   "use": "Internal generative AI 'smart searches': ChatGPT-style summarization applied to internal information retrieval, plus generative AI to deliver prioritized, prescriptive information/actions to manufacturing and business teams. Described as scaling across the company from early stages.",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.micron.com/about/blog/applications/ai/generative-ai-wave-of-innovation",
+   "raw_sector": "",
+   "date": "2023-08",
+   "fresh": "stale"
+  },
+  {
+   "company": "Micron Technology",
+   "use": "Automatic Defect Classification (ADC): deep-learning computer vision that inspects wafer images across the fab, detecting microscopic flaws (holes, scratches, bubbles, film imperfections) and auto-classifying defects into clusters so engineers no longer classify manually. Processes ~2.3M+ wafer images weekly against a reference image database. [Internally developed (neural networks / deep learning)]",
+   "existence": "confirmed",
+   "value": "50% reduction in time to market; 22% reduction in product scrap; 50% faster quality issue resolution; 18% labor productivity improvement (2016-2020)",
+   "tier": "",
+   "url": "https://www.micron.com/about/blog/applications/ai/smart-sight-how-micron-uses-ai-to-enhance-yield-quality",
+   "raw_sector": "",
+   "date": "2023-08",
+   "fresh": "stale"
+  },
+  {
+   "company": "Micron Technology",
+   "use": "Thermal imaging AI: infrared cameras generate heat maps overlaid on virtual plant digital twins to detect temperature deviations in components (e.g., transformers), giving early warning of cooling/overheating issues before shutdowns or safety hazards. [Internally developed]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.micron.com/about/blog/company/partners/micron-uses-data-and-artificial-intelligence-to-see-hear-feel",
+   "raw_sector": "",
+   "date": "2018-11",
+   "fresh": "stale"
+  },
+  {
+   "company": "Micron Technology",
+   "use": "AI video analytics in assembly and testing: computer vision captures critical moments of the process and uses AI to start/stop video streams to manage data volume while surfacing quality-relevant events. [Internally developed]",
+   "existence": "confirmed",
+   "value": "Enterprise smart-manufacturing program overall: ~1M work hours/yr productivity gains; 4% improvement in tool availability; 50% product scrap reduction",
+   "tier": "",
+   "url": "https://www.micron.com/about/blog/applications/ai/smart-manufacturing-at-micron-ai-at-enterprise-scale",
+   "raw_sector": "",
+   "date": "2025-12",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Micron Technology",
+   "use": "Simulation-ready (SimReady) fab digital twins built with MetAI's MetGen platform on NVIDIA Omniverse/OpenUSD, converting CAD and facility data into parametric cleanroom/fab environments as a foundation for AI-driven automation and robotics (Isaac Sim). [MetAI + NVIDIA (Omniverse, OpenUSD, Isaac Sim)]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.prnewswire.com/news-releases/micron-and-metai-advance-fab-twin-development-on-nvidia-omniverse-to-enable-physical-ai-302790229.html",
+   "raw_sector": "",
+   "date": "2026-06",
+   "fresh": "fresh"
   }
  ]
 }

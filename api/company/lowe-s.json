@@ -3,40 +3,59 @@
  "name": "Lowe's",
  "cc": "US",
  "vertical": "Retail & E-commerce",
- "deployments": 1,
- "confirmed": 1,
- "with_value_number": 1,
- "proof_rate": 1.0,
+ "deployments": 12,
+ "confirmed": 11,
+ "with_value_number": 7,
+ "proof_rate": 0.583,
  "mktcap": 112870000000.0,
  "revenue": 88430000000.0,
  "employees": 276000.0,
  "silent": false,
- "per_bn_revenue": 0.01,
- "per_10k_emp": 0.04,
+ "per_bn_revenue": 0.14,
+ "per_10k_emp": 0.43,
  "benchmarks": {
   "global_vertical": {
-   "deployments": 0,
-   "confirmed": 26,
-   "proof_rate": 73,
+   "deployments": 96,
+   "confirmed": 97,
+   "proof_rate": 76,
    "n": 295
   },
   "country_vertical": {
-   "deployments": 0,
-   "confirmed": 29,
-   "proof_rate": 77,
+   "deployments": 91,
+   "confirmed": 91,
+   "proof_rate": 82,
    "n": 80
   }
  },
- "first_seen": null,
- "by_year": [],
- "undated_pct": 100,
- "momentum": "none",
- "maturity": "L3",
- "maturity_evidence": [
-  "named_product:Mylow",
-  "value_number"
+ "first_seen": 2022,
+ "by_year": [
+  {
+   "year": 2022,
+   "n": 1
+  },
+  {
+   "year": 2024,
+   "n": 1
+  },
+  {
+   "year": 2025,
+   "n": 8
+  },
+  {
+   "year": 2026,
+   "n": 1
+  }
  ],
- "prospect_score": 6,
+ "undated_pct": 8,
+ "momentum": "early_mover,rising",
+ "maturity": "L4",
+ "maturity_evidence": [
+  "multi_horizontal",
+  "named_product:Mylow",
+  "value_number",
+  "multi_year"
+ ],
+ "prospect_score": 77,
  "stack": [
   "OpenAI"
  ],
@@ -52,6 +71,127 @@
    "raw_sector": "Consumer Discretionary",
    "date": "missing",
    "fresh": "undated"
+  },
+  {
+   "company": "Lowe's",
+   "use": "Store digital twin: a fully interactive, photorealistic virtual replica of a physical store fusing spatial and product-location data, giving associates 'X-ray vision' to locate products and optimize operations. [NVIDIA Omniverse Enterprise]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://blogs.nvidia.com/blog/lowes-retail-digital-twins-omniverse/",
+   "raw_sector": "",
+   "date": "2022-09",
+   "fresh": "stale"
+  },
+  {
+   "company": "Lowe's",
+   "use": "AI-driven unified inventory planning, demand forecasting, replenishment and allocation platform to improve in-stock rates and reduce inventory across the store network. [RELEX Solutions (with Accenture)]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.relexsolutions.com/news/relex-solutions-announces-expanded-partnership-with-lowes-to-strengthen-their-supply-chain-agility/",
+   "raw_sector": "",
+   "date": "2026-03",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Lowe's",
+   "use": "Digital twin of the global supply chain (7,500 vendors, 130 distribution centers, 1,700+ stores) that continuously re-optimizes shipping routes and reallocates capacity when disruptions (e.g. weather) occur. [Palantir (Ontology) + NVIDIA]",
+   "existence": "claimed",
+   "value": "covers 7,500 vendors, 130 DCs, 1,700+ stores",
+   "tier": "",
+   "url": "https://www.youtube.com/watch?v=AsnE98temZo",
+   "raw_sector": "",
+   "date": "2025-10",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Lowe's",
+   "use": "Intelligent Bay Optimizer: an AI tool that virtually optimizes store bay/shelf layouts using predictive forecasting and generates thousands of localized, constrained planograms via digital twins. [NVIDIA (Omniverse / generative AI)]",
+   "existence": "confirmed",
+   "value": "3D model creation costs under $1 per model",
+   "tier": "",
+   "url": "https://www.nvidia.com/en-us/case-studies/lowes/",
+   "raw_sector": "",
+   "date": "2025",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Lowe's",
+   "use": "Visual Scout, a gamified product-recommendation engine on the e-commerce site that dynamically updates a panel of products as shoppers like/dislike items to help them discover products. [Google Cloud Vertex AI Vector Search]",
+   "existence": "confirmed",
+   "value": "p99 response times ~180 ms",
+   "tier": "",
+   "url": "https://cloud.google.com/blog/topics/topics/retail/how-vertex-ai-vector-search-helps-create-interactive-shopping-experiences",
+   "raw_sector": "",
+   "date": "2025-05",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Lowe's",
+   "use": "AI-powered 'channel-less' e-commerce search built on Vertex AI that answers complex, long-tail natural-language queries across the product catalog. [Google Cloud Vertex AI Search / BigQuery]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://cloud.google.com/blog/topics/retail/how-vertex-ai-vector-search-helps-create-interactive-shopping-experiences",
+   "raw_sector": "",
+   "date": "2025",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Lowe's",
+   "use": "Lowe's Style Studio for Apple Vision Pro: an immersive spatial-computing kitchen/room design app that generates life-sized 3D visualizations of design combinations for customers, in-store and at home. [Apple Vision Pro (spatial computing)]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://corporate.lowes.com/newsroom/press-releases/lowes-unveils-lowes-style-studio-apple-vision-pro-02-01-24",
+   "raw_sector": "",
+   "date": "2024-02",
+   "fresh": "aging"
+  },
+  {
+   "company": "Lowe's",
+   "use": "Portfolio of production machine-learning models powering core merchandising functions including pricing, demand forecasting, product recommendations and sourcing.",
+   "existence": "confirmed",
+   "value": "roughly 50 AI/ML models in production",
+   "tier": "",
+   "url": "https://www.constellationr.com/insights/news/lowes-betting-ai-drive-customer-experience-optimize-multiple-processes",
+   "raw_sector": "",
+   "date": "2025-01",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Lowe's",
+   "use": "Mylow, a conversational AI virtual advisor embedded on Lowes.com that answers open-ended home-improvement questions and gives step-by-step guidance and product recommendations to customers. [OpenAI (GPT)]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://openai.com/index/lowes/",
+   "raw_sector": "",
+   "date": "2025-03",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Lowe's",
+   "use": "Mylow Companion, a generative-AI app rolled out to store associates that surfaces expert product and project knowledge in the aisles and speeds new-associate onboarding. [OpenAI (GPT)]",
+   "existence": "confirmed",
+   "value": "deployed to ~300,000 in-store associates",
+   "tier": "",
+   "url": "https://corporate.lowes.com/newsroom/press-releases/lowes-deploys-first-scale-ai-assistant-retail-associates-05-05-25",
+   "raw_sector": "",
+   "date": "2025-05",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Lowe's",
+   "use": "AI-powered automated license plate reader (ALPR) cameras deployed in store parking areas for asset protection / loss prevention, with data shared with law enforcement. [Flock Safety]",
+   "existence": "confirmed",
+   "value": "Flock ALPR cameras at 173 Lowe's locations",
+   "tier": "",
+   "url": "https://www.404media.co/home-depot-and-lowes-share-data-from-hundreds-of-ai-cameras-with-cops/",
+   "raw_sector": "",
+   "date": "2025-08",
+   "fresh": "fresh"
   }
  ]
 }

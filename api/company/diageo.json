@@ -3,40 +3,67 @@
  "name": "Diageo",
  "cc": "UK",
  "vertical": "Retail & E-commerce",
- "deployments": 1,
- "confirmed": 1,
- "with_value_number": 1,
- "proof_rate": 1.0,
+ "deployments": 12,
+ "confirmed": 11,
+ "with_value_number": 3,
+ "proof_rate": 0.25,
  "mktcap": 44475400000.0,
  "revenue": 18681700000.0,
  "employees": 29632.0,
  "silent": false,
- "per_bn_revenue": 0.05,
- "per_10k_emp": 0.34,
+ "per_bn_revenue": 0.64,
+ "per_10k_emp": 4.05,
  "benchmarks": {
   "global_vertical": {
-   "deployments": 0,
-   "confirmed": 26,
-   "proof_rate": 73,
+   "deployments": 96,
+   "confirmed": 97,
+   "proof_rate": 63,
    "n": 295
   },
   "country_vertical": {
-   "deployments": 0,
-   "confirmed": 15,
+   "deployments": 92,
+   "confirmed": 92,
    "proof_rate": 69,
    "n": 14
   }
  },
- "first_seen": null,
- "by_year": [],
- "undated_pct": 100,
- "momentum": "none",
- "maturity": "L3",
- "maturity_evidence": [
-  "named_product:DANI",
-  "value_number"
+ "first_seen": 2019,
+ "by_year": [
+  {
+   "year": 2019,
+   "n": 1
+  },
+  {
+   "year": 2022,
+   "n": 1
+  },
+  {
+   "year": 2023,
+   "n": 1
+  },
+  {
+   "year": 2024,
+   "n": 4
+  },
+  {
+   "year": 2025,
+   "n": 2
+  },
+  {
+   "year": 2026,
+   "n": 1
+  }
  ],
- "prospect_score": 14,
+ "undated_pct": 17,
+ "momentum": "early_mover,cooling",
+ "maturity": "L4",
+ "maturity_evidence": [
+  "multi_horizontal",
+  "named_product:DANI",
+  "value_number",
+  "multi_year"
+ ],
+ "prospect_score": 98,
  "stack": [],
  "vendor_named": false,
  "deployments_detail": [
@@ -50,6 +77,127 @@
    "raw_sector": "Beverages",
    "date": "missing",
    "fresh": "undated"
+  },
+  {
+   "company": "Diageo",
+   "use": "'Elli', a generative-AI virtual concierge for the Seedlip non-alcoholic brand offering 24/7 support, personalized product/cocktail recommendations and brand content. [Voxly Digital (generative AI)]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.voxlydigital.com/post/launching-diageo-s-first-generative-ai-consumer-service-globally",
+   "raw_sector": "",
+   "date": "2025-02",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Diageo",
+   "use": "AI-powered demand forecasting, automated supply planning and real-time scenario simulation across the global supply chain using OMP's advanced planning platform. [OMP]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.scmr.com/article/diageos_digital_supply_chain_transformation",
+   "raw_sector": "",
+   "date": "2022",
+   "fresh": "stale"
+  },
+  {
+   "company": "Diageo",
+   "use": "AI-powered analytics with a universal semantic/context layer and AI agents plus auto-generated dashboards to deliver near real-time self-service manufacturing and performance insights. [Strategy (MicroStrategy)]",
+   "existence": "confirmed",
+   "value": "Data delivery reduced from weeks to hours",
+   "tier": "",
+   "url": "https://www.businesswire.com/news/home/20260609120850/en/Strategy-and-Diageo-Show-How-a-Universal-Context-Layer-Can-Simplify-Data-Complexity-and-Accelerate-AI-Readiness-at-Gartner-Data-Analytics-Summit-London-2026",
+   "raw_sector": "",
+   "date": "2026-06",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Diageo",
+   "use": "AI-powered autonomous sourcing tool for procurement, alongside enhanced e-auction capabilities, to reduce non-value-adding activities and drive cost savings.",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.linkedin.com/posts/jane-liang-a4ba0a8_diageo-digitalsupplychain-transformation-activity-7385431513250623488-CZYG",
+   "raw_sector": "",
+   "date": "2025-10",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Diageo",
+   "use": "'What's Your Whisky' AI/ML flavour-profile selector that analyzes consumer taste preferences (sweet, fruity, spicy, smoky) to recommend whiskies.",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.whatsyourwhisky.com/en-row/intro",
+   "raw_sector": "",
+   "date": "2019-12",
+   "fresh": "stale"
+  },
+  {
+   "company": "Diageo",
+   "use": "Proprietary FlavorPrint AI platform (FlavorPrintConnect) that identifies and matches flavour profiles to personalize whisky recommendations, paired with tasting kits and an AI-enhanced digital masterclass via Malts.com. [FlavorPrint (proprietary)]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.diageo.com/en/news-and-media/press-releases/2024/diageo-brings-consumers-industry-first-experience-with-flavorprintconnect-technology",
+   "raw_sector": "",
+   "date": "2024-11",
+   "fresh": "aging"
+  },
+  {
+   "company": "Diageo",
+   "use": "SmokeDNAi ('Digital Neoteric Algorithmic Image') algorithm used by distillery/blending teams to decode and analyze whisky smoke composition, flavour and mouthfeel across casks (e.g. Port Ellen limited editions). [SmokeDNAi (proprietary)]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.foxnews.com/tech/distillery-scotland-using-ai-create-limited-edition-whisky.amp",
+   "raw_sector": "",
+   "date": "2024-03",
+   "fresh": "aging"
+  },
+  {
+   "company": "Diageo",
+   "use": "Virtual Studio: AI content operation that automates creation and adaptation (translation, cultural localization) of marketing assets across 34+ brands, using a stack of Pencil, CreativeX, Grip and Vizit. [Pencil, CreativeX, Grip, Vizit]",
+   "existence": "confirmed",
+   "value": "Content development cost cut to 14% of the £2.7bn/$3.7bn marketing budget in FY2025, down from 21% in 2024 (target 10%)",
+   "tier": "",
+   "url": "https://www.campaignlive.com/article/diageo-steps-use-ai-drive-efficiency-27bn-marketing-budget/1928955",
+   "raw_sector": "",
+   "date": "2024",
+   "fresh": "aging"
+  },
+  {
+   "company": "Diageo",
+   "use": "AI/ML programmatic media budget and bid optimization ('dayparting') via Skai's Budget Navigator, run with agency iProspect to improve return on ad spend. [Skai (Budget Navigator)]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://skai.io/case-studies/diageo-iprospect-dayparting-strategy/",
+   "raw_sector": "",
+   "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "Diageo",
+   "use": "AI-driven precision marketing / programmatic media buying to target audiences within alcohol-advertising regulatory constraints, expanded across markets.",
+   "existence": "confirmed",
+   "value": "50% reduction in cost per 1,000 ad impressions (CPM)",
+   "tier": "",
+   "url": "https://www.thedrum.com/news/how-diageo-using-ai-halve-the-price-1000-ad-impression",
+   "raw_sector": "",
+   "date": "2023-03",
+   "fresh": "stale"
+  },
+  {
+   "company": "Diageo",
+   "use": "Generative-AI bottle personalization experience letting guests co-design a bespoke Johnnie Walker Blue Label bottle (Edinburgh Prince Street venue), later extended with artist collaborations. [Phantom (Phantom.land) generative AI]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.diageo.com/en/news-and-media/press-releases/2024/diageo-unveils-its-first-bottle-personalisation-experience-fuelled-by-generative-ai",
+   "raw_sector": "",
+   "date": "2024-07",
+   "fresh": "aging"
   }
  ]
 }

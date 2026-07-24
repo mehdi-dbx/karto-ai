@@ -3,39 +3,50 @@
  "name": "Sun Pharma",
  "cc": "IN",
  "vertical": "Healthcare & Life Sciences",
- "deployments": 1,
- "confirmed": 0,
- "with_value_number": 0,
- "proof_rate": 0.0,
+ "deployments": 9,
+ "confirmed": 5,
+ "with_value_number": 2,
+ "proof_rate": 0.222,
  "mktcap": 56144578313.0,
  "revenue": 7043614458.0,
  "employees": 47000.0,
  "silent": false,
- "per_bn_revenue": 0.14,
- "per_10k_emp": 0.21,
+ "per_bn_revenue": 1.28,
+ "per_10k_emp": 1.91,
  "benchmarks": {
   "global_vertical": {
-   "deployments": 0,
-   "confirmed": 0,
-   "proof_rate": 0,
+   "deployments": 91,
+   "confirmed": 90,
+   "proof_rate": 70,
    "n": 165
   },
   "country_vertical": {
-   "deployments": 0,
-   "confirmed": 0,
-   "proof_rate": 0,
+   "deployments": 100,
+   "confirmed": 100,
+   "proof_rate": 100,
    "n": 6
   }
  },
- "first_seen": null,
- "by_year": [],
- "undated_pct": 100,
- "momentum": "none",
- "maturity": "L1",
- "maturity_evidence": [
-  "rows_no_confirmed"
+ "first_seen": 2025,
+ "by_year": [
+  {
+   "year": 2025,
+   "n": 4
+  },
+  {
+   "year": 2026,
+   "n": 2
+  }
  ],
- "prospect_score": 40,
+ "undated_pct": 33,
+ "momentum": "rising",
+ "maturity": "L3",
+ "maturity_evidence": [
+  "multi_horizontal",
+  "named_product:GoML",
+  "value_number"
+ ],
+ "prospect_score": 69,
  "stack": [],
  "vendor_named": false,
  "deployments_detail": [
@@ -49,6 +60,94 @@
    "raw_sector": "Healthcare",
    "date": "missing",
    "fresh": "undated"
+  },
+  {
+   "company": "Sun Pharma",
+   "use": "AI sales analytics assistant built with GoML that lets sales/business teams query sales data, inventory and field-rep performance in natural language instead of manual SQL, with automated charts and insights. [GoML (OpenAI GPT-4, Microsoft Autogen, AWS Bedrock/SageMaker/Glue, PostgreSQL, Streamlit)]",
+   "existence": "confirmed",
+   "value": "85% faster data retrieval; 70% reduction in manual effort; 80% simplified data consumption",
+   "tier": "",
+   "url": "https://www.goml.io/case-study/ai-sales-analytics-agents-autogen-openai",
+   "raw_sector": "",
+   "date": "2025-06",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Sun Pharma",
+   "use": "Enterprise Data Lake Platform to democratize data access and support AI/ML use cases and data-driven decisions across the organization, built with PwC on Microsoft Azure. [PwC, Microsoft Azure]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.linkedin.com/posts/jigar-gohil-11438a133_datalake-digitaltransformation-datadriven-activity-7367976635268075520-Dgvw",
+   "raw_sector": "",
+   "date": "2025",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Sun Pharma",
+   "use": "Management Information System (MIS) aggregating and visualizing operational data from manufacturing, quality and supply-chain systems in real time (batch yields, deviation trends, equipment utilization dashboards) for 360-degree operational visibility. [AmpleLogic (AI-driven no-code aPaaS)]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.amplelogic.com/case-studies/sun-pharma-mis",
+   "raw_sector": "",
+   "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "Sun Pharma",
+   "use": "Electronic Logbook (eLogs) solution digitizing production, calibration, maintenance and alarm-activity logs at the Halol plant, replacing paper logbooks with 21 CFR Part 11 / EU Annex 11 compliant audit trails. [AmpleLogic]",
+   "existence": "confirmed",
+   "value": "100% reduction of paper/manual entries; deployed in 35 days",
+   "tier": "",
+   "url": "https://www.amplelogic.com/blog/case-study-of-sun-pharma-digital-logbook-solution",
+   "raw_sector": "",
+   "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "Sun Pharma",
+   "use": "Predictive procurement / AI-first sourcing for enhanced multi-tier supplier visibility and predictive risk mitigation, discussed by Sun Pharma's Head of Supply Chain with vendor Arkestro's predictive orchestration platform. [Arkestro]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://emerj.com/digitalization-of-procurement-and-supply-chain-functions-in-life-sciences-vickram-srivastava-sun-pharma-william-seagrave-arkestro/",
+   "raw_sector": "",
+   "date": "2025-01",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Sun Pharma",
+   "use": "AI-enabled diabetic retinopathy screening using Remidio's Fundus on Phone handheld camera with offline Medios DR AI, deployed across nationwide eye-screening camps under the #SeeBeyondSugar initiative. [Remidio (Medios DR AI)]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.seebeyondsugar.com/screening",
+   "raw_sector": "",
+   "date": "2025-11",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Sun Pharma",
+   "use": "Evaluating AI across the drug R&D and clinical-trial spectrum to speed Phase 3 patient recruitment, conclude studies faster and accelerate regulatory filings (stated goal ~1.5 years timeline reduction).",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://pharmprom.net/an-ai-pill-for-indian-pharma-sun-pharma-and-glenmark-change-the-rules-of-the-game/",
+   "raw_sector": "",
+   "date": "2026-02",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Sun Pharma",
+   "use": "AI-based Regulatory Information Management (RIM) system for regulatory document management and validation, aimed at improving internal efficiency in eCTD/dossier processes.",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.ijsrtjournal.com/article/ai-driven-automation-in-ectd-submissions-opportunities-and-implementation-for-indian-pharmaceutical-industry",
+   "raw_sector": "",
+   "date": "2026",
+   "fresh": "fresh"
   }
  ]
 }

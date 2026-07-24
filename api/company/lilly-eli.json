@@ -3,40 +3,60 @@
  "name": "Lilly (Eli)",
  "cc": "US",
  "vertical": "Healthcare & Life Sciences",
- "deployments": 1,
- "confirmed": 1,
- "with_value_number": 0,
- "proof_rate": 0.0,
+ "deployments": 12,
+ "confirmed": 8,
+ "with_value_number": 6,
+ "proof_rate": 0.5,
  "mktcap": 1050000000000.0,
  "revenue": 72250000000.0,
  "employees": 50000.0,
  "silent": false,
- "per_bn_revenue": 0.01,
- "per_10k_emp": 0.2,
+ "per_bn_revenue": 0.17,
+ "per_10k_emp": 2.4,
  "benchmarks": {
   "global_vertical": {
-   "deployments": 0,
-   "confirmed": 14,
-   "proof_rate": 0,
+   "deployments": 98,
+   "confirmed": 93,
+   "proof_rate": 75,
    "n": 165
   },
   "country_vertical": {
-   "deployments": 0,
-   "confirmed": 7,
-   "proof_rate": 0,
+   "deployments": 95,
+   "confirmed": 84,
+   "proof_rate": 81,
    "n": 59
   }
  },
- "first_seen": null,
- "by_year": [],
- "undated_pct": 100,
- "momentum": "none",
- "maturity": "L3",
+ "first_seen": 2023,
+ "by_year": [
+  {
+   "year": 2023,
+   "n": 1
+  },
+  {
+   "year": 2024,
+   "n": 3
+  },
+  {
+   "year": 2025,
+   "n": 2
+  },
+  {
+   "year": 2026,
+   "n": 4
+  }
+ ],
+ "undated_pct": 17,
+ "momentum": "early_mover,rising",
+ "maturity": "L4",
  "maturity_evidence": [
+  "multi_horizontal",
   "named_product:TuneLab",
+  "value_number",
+  "multi_year",
   "tier_p"
  ],
- "prospect_score": 46,
+ "prospect_score": 68,
  "stack": [
   "NVIDIA"
  ],
@@ -52,6 +72,127 @@
    "raw_sector": "Health Care",
    "date": "missing",
    "fresh": "undated"
+  },
+  {
+   "company": "Lilly (Eli)",
+   "use": "Generative AI / natural-language-generation automation of medical writing: patient narratives, clinical study reports and regulatory submission documents. [Yseop]",
+   "existence": "confirmed",
+   "value": "10,000 hours of writing/review eliminated; 2,300 patient narratives; medical review 200% faster; third-party spend down 53%",
+   "tier": "",
+   "url": "https://emerj.com/artificial-intelligence-at-lilly/",
+   "raw_sector": "",
+   "date": "2024",
+   "fresh": "aging"
+  },
+  {
+   "company": "Lilly (Eli)",
+   "use": "Global Manufacturing Data Fabric (GMDF) built on the Databricks Lakehouse, unifying MES, lab and ERP data to power predictive maintenance, real-time anomaly detection and batch-release-by-exception automation across manufacturing sites. [Databricks Lakehouse]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.klover.ai/eli-lilly-uses-ai-agents-10-ways-to-use-ai-in-depth-analysis-2025/",
+   "raw_sector": "",
+   "date": "2025",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Lilly (Eli)",
+   "use": "AI and digital-twin technology applied to pharmaceutical manufacturing to boost production capacity, with generative and agentic AI automating complex tasks and predictive capabilities optimizing operations.",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.pharmamanufacturing.com/production/automation-control/article/55383478/eli-lilly-taps-ai-digital-twin-technology-to-boost-manufacturing-capacity",
+   "raw_sector": "",
+   "date": "2026-06",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Lilly (Eli)",
+   "use": "Use of GitHub (Actions/Copilot developer environment) to build a secure, faster cloud deployment and delivery pipeline for Lilly's software engineering teams. [GitHub (Actions, Copilot)]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://github.com/readme/guides/github-actions-eli-lilly",
+   "raw_sector": "",
+   "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "Lilly (Eli)",
+   "use": "LillyPod AI factory: an NVIDIA DGX SuperPOD (1,016 Blackwell Ultra GPUs, 9,000+ petaflops) deployed in Indianapolis to train protein diffusion models, small-molecule GNNs and genomics foundation models, and run genome analysis for drug discovery. Inaugurated live Feb 2026. [NVIDIA (DGX SuperPOD, Blackwell Ultra GPUs, BioNeMo)]",
+   "existence": "confirmed",
+   "value": "9,000+ petaflops; test billions of molecule ideas vs ~2,000 wet-lab candidates/year per target",
+   "tier": "",
+   "url": "https://blogs.nvidia.com/blog/lilly-ai-factory-live/",
+   "raw_sector": "",
+   "date": "2026-02",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Lilly (Eli)",
+   "use": "Lilly TuneLab: a federated-learning AI platform giving biotech companies access to Lilly's proprietary AI/ML drug-discovery models (built on $1B+ of research investment) plus NVIDIA BioNeMo open models, while preserving data privacy. [Lilly proprietary models; NVIDIA BioNeMo (federated learning)]",
+   "existence": "confirmed",
+   "value": "built through over $1 billion in research investment",
+   "tier": "",
+   "url": "https://investor.lilly.com/news-releases/news-release-details/lilly-launches-tunelab-platform-give-biotechnology-companies",
+   "raw_sector": "",
+   "date": "2025-09",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Lilly (Eli)",
+   "use": "Collaboration with OpenAI to use generative AI to invent novel antimicrobials targeting drug-resistant pathogens (antimicrobial resistance). [OpenAI (generative AI)]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://investor.lilly.com/news-releases/news-release-details/lilly-collaborates-openai-discover-novel-medicines-treat-drug",
+   "raw_sector": "",
+   "date": "2024-06",
+   "fresh": "aging"
+  },
+  {
+   "company": "Lilly (Eli)",
+   "use": "Multi-target small-molecule drug discovery collaboration with Alphabet's Isomorphic Labs using its AI drug-design platform (AlphaFold-derived). [Isomorphic Labs (Alphabet)]",
+   "existence": "claimed",
+   "value": "$45M upfront, up to $1.7B in milestones",
+   "tier": "",
+   "url": "https://www.prnewswire.com/news-releases/isomorphic-labs-announces-strategic-multi-target-research-collaboration-with-lilly-302027392.html",
+   "raw_sector": "",
+   "date": "2024-01",
+   "fresh": "aging"
+  },
+  {
+   "company": "Lilly (Eli)",
+   "use": "Strategic investment in and use of Abridge's ambient AI clinical documentation platform, extended into clinical-trial patient recruitment/identification and evidence-based care workflows. [Abridge]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.statnews.com/2026/06/11/abridge-inks-deals-with-nvidia-and-lilly/",
+   "raw_sector": "",
+   "date": "2026-06",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Lilly (Eli)",
+   "use": "Drug-discovery/development collaboration with Insilico Medicine using its generative-AI platform to accelerate development of new medicines. [Insilico Medicine]",
+   "existence": "claimed",
+   "value": "deal worth up to $2.75B",
+   "tier": "",
+   "url": "https://www.linkedin.com/news/story/eli-lilly-strikes-275b-deal-for-ai-drug-development-8576042/",
+   "raw_sector": "",
+   "date": "2026-03",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Lilly (Eli)",
+   "use": "Enterprise conversational AI assistant built on Kore.ai to handle internal/employee support tickets and routine queries, deflecting work from human agents. [Kore.ai]",
+   "existence": "confirmed",
+   "value": "CSAT rose 2.98 to 4.03; 45,000+ tickets resolved automatically; ~70% of queries resolved",
+   "tier": "",
+   "url": "https://www.linkedin.com/posts/kore-inc_customerexperience-enterpriseai-aiinaction-activity-7381697922473639936-qkcv",
+   "raw_sector": "",
+   "date": "2023-12",
+   "fresh": "stale"
   }
  ]
 }

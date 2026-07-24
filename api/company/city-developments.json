@@ -3,39 +3,55 @@
  "name": "City Developments",
  "cc": "SG",
  "vertical": "Real Estate & Construction",
- "deployments": 1,
- "confirmed": 0,
- "with_value_number": 1,
- "proof_rate": 1.0,
+ "deployments": 9,
+ "confirmed": 7,
+ "with_value_number": 3,
+ "proof_rate": 0.333,
  "mktcap": 5171641791.0,
  "revenue": 2679104478.0,
  "employees": 9546.0,
  "silent": false,
- "per_bn_revenue": 0.37,
- "per_10k_emp": 1.05,
+ "per_bn_revenue": 3.36,
+ "per_10k_emp": 9.43,
  "benchmarks": {
   "global_vertical": {
-   "deployments": 0,
-   "confirmed": 0,
-   "proof_rate": 69,
+   "deployments": 97,
+   "confirmed": 97,
+   "proof_rate": 63,
    "n": 154
   },
   "country_vertical": {
-   "deployments": 0,
-   "confirmed": 0,
-   "proof_rate": 80,
+   "deployments": 100,
+   "confirmed": 100,
+   "proof_rate": 60,
    "n": 6
   }
  },
- "first_seen": null,
- "by_year": [],
- "undated_pct": 100,
- "momentum": "none",
- "maturity": "L1",
- "maturity_evidence": [
-  "rows_no_confirmed"
+ "first_seen": 2024,
+ "by_year": [
+  {
+   "year": 2024,
+   "n": 1
+  },
+  {
+   "year": 2025,
+   "n": 2
+  },
+  {
+   "year": 2026,
+   "n": 2
+  }
  ],
- "prospect_score": 0,
+ "undated_pct": 44,
+ "momentum": "early_mover,rising",
+ "maturity": "L4",
+ "maturity_evidence": [
+  "multi_horizontal",
+  "named_product:Aiello",
+  "value_number",
+  "multi_year"
+ ],
+ "prospect_score": 77,
  "stack": [],
  "vendor_named": false,
  "deployments_detail": [
@@ -49,6 +65,94 @@
    "raw_sector": "Real Estate",
    "date": "missing",
    "fresh": "undated"
+  },
+  {
+   "company": "City Developments",
+   "use": "Model Predictive Control (MPC) system at City House using machine-learning algorithms and predictive analytics to dynamically optimize chiller plant and airside HVAC operations, reducing energy use and Scope 2 emissions.",
+   "existence": "confirmed",
+   "value": "est. 80,000 kWh energy savings annually",
+   "tier": "",
+   "url": "https://cdlsustainability.com/cdl-six-capitals/manufactured-capital/innovation-and-smart-technologies/",
+   "raw_sector": "",
+   "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "City Developments",
+   "use": "IoT-based energy monitoring and optimization platform at Jungceylon Shopping Center (Phuket) providing real-time visibility and proactive fault detection for building systems.",
+   "existence": "confirmed",
+   "value": "~10% expected annual energy savings",
+   "tier": "",
+   "url": "https://cdlsustainability.com/cdl-six-capitals/manufactured-capital/innovation-and-smart-technologies/",
+   "raw_sector": "",
+   "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "City Developments",
+   "use": "Premium ChatGPT subscriptions provided to Millennium Hotels & Resorts senior leadership to assist with drafting emails, event planning, and brainstorming — an internal generative-AI productivity rollout. [OpenAI (ChatGPT)]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.thecaterer.com/indepth/inside-the-singaporean-hotel-group-obsessed-with-chatgpt",
+   "raw_sector": "",
+   "date": "2025-06",
+   "fresh": "fresh"
+  },
+  {
+   "company": "City Developments",
+   "use": "Microsoft 365 Copilot adopted for employee productivity; anchored the CDL AI Learning Symposium (22 May 2026, 200+ employees) with hands-on workshops on Copilot Pages, image creation, and routine-task automation under a 'People-Led, AI-Enabled' program. [Microsoft 365 Copilot]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.linkedin.com/posts/citydevelopments_citydevelopments-ai-learningsymposium-activity-7472951184287260672-bGxq",
+   "raw_sector": "",
+   "date": "2026-05",
+   "fresh": "fresh"
+  },
+  {
+   "company": "City Developments",
+   "use": "LinkedIn Learning AI Career Coaching and AI Role Play features used to customize employee learning pathways as part of CDL's AI upskilling program. [LinkedIn Learning (Microsoft)]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.linkedin.com/posts/citydevelopments_citydevelopments-ai-learningsymposium-activity-7472951184287260672-bGxq",
+   "raw_sector": "",
+   "date": "2026-05",
+   "fresh": "fresh"
+  },
+  {
+   "company": "City Developments",
+   "use": "Group-wide digital transformation program applying AI, IoT and Robotic Process Automation (RPA) to enable smarter building/asset management across CDL's portfolio.",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.linkedin.com/pulse/transforming-spaces-increasing-role-technology-bridging-n4b8c",
+   "raw_sector": "",
+   "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "City Developments",
+   "use": "AI-powered voice concierge (Aiello Voice Assistant / AVA) deployed in guest rooms across six Millennium Hotels & Resorts properties in Singapore and Thailand (Grand Copthorne Waterfront, Orchard Hotel, M Social Singapore, Studio M, M Hotel Singapore City Centre, M Social Phuket). Handles voice-activated in-room dining, task management, smart room controls, and guest-behavior insights. M Social Phuket reported significant reduction in call volumes. [Aiello (AVA)]",
+   "existence": "confirmed",
+   "value": "significant reduction in call volumes (M Social Phuket); no CDL-specific figure",
+   "tier": "",
+   "url": "https://www.prnewswire.com/apac/news-releases/millennium-hotels-and-resorts-partners-with-aiello-to-revolutionize-hospitality-with-ai-voice-technology-302301956.html",
+   "raw_sector": "",
+   "date": "2024-11",
+   "fresh": "aging"
+  },
+  {
+   "company": "City Developments",
+   "use": "ChatGPT-powered chatbot on the Millennium Hotels & Resorts website that converses with guests and makes reservations on their behalf; available at six Millennium hotels in Singapore and Thailand. [OpenAI (ChatGPT)]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.thecaterer.com/indepth/inside-the-singaporean-hotel-group-obsessed-with-chatgpt",
+   "raw_sector": "",
+   "date": "2025-06",
+   "fresh": "fresh"
   }
  ]
 }

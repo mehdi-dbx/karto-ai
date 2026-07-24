@@ -3,45 +3,55 @@
  "name": "L'Oréal",
  "cc": "FR",
  "vertical": "Retail & E-commerce",
- "deployments": 5,
- "confirmed": 5,
- "with_value_number": 0,
- "proof_rate": 0.0,
+ "deployments": 14,
+ "confirmed": 10,
+ "with_value_number": 5,
+ "proof_rate": 0.357,
  "mktcap": 219434400000.0,
  "revenue": 47574000000.0,
  "employees": 79033.0,
  "silent": false,
- "per_bn_revenue": 0.11,
- "per_10k_emp": 0.63,
+ "per_bn_revenue": 0.29,
+ "per_10k_emp": 1.77,
  "benchmarks": {
   "global_vertical": {
-   "deployments": 100,
-   "confirmed": 100,
-   "proof_rate": 0,
+   "deployments": 99,
+   "confirmed": 95,
+   "proof_rate": 69,
    "n": 295
   },
   "country_vertical": {
    "deployments": 100,
    "confirmed": 100,
-   "proof_rate": 0,
+   "proof_rate": 89,
    "n": 10
   }
  },
- "first_seen": 2026,
+ "first_seen": 2019,
  "by_year": [
   {
+   "year": 2019,
+   "n": 3
+  },
+  {
+   "year": 2025,
+   "n": 3
+  },
+  {
    "year": 2026,
-   "n": 2
+   "n": 5
   }
  ],
- "undated_pct": 60,
- "momentum": "late_entrant,rising",
- "maturity": "L3",
+ "undated_pct": 21,
+ "momentum": "early_mover,rising",
+ "maturity": "L4",
  "maturity_evidence": [
   "multi_horizontal",
-  "named_product:Beauty Genius"
+  "named_product:Beauty Genius",
+  "value_number",
+  "multi_year"
  ],
- "prospect_score": 70,
+ "prospect_score": 86,
  "stack": [
   "IBM",
   "Microsoft",
@@ -104,6 +114,105 @@
    "url": "https://www.loreal.com/fr/press-release/research-and-innovation/l-oreal-et-openai-unissent-leurs-forces-pour-transformer-la-beaute-grace-a-l-ia/",
    "raw_sector": "Consumer Defensive",
    "date": "2026",
+   "fresh": "fresh"
+  },
+  {
+   "company": "L'Oréal",
+   "use": "ModiFace AR virtual makeup try-on — AI + augmented reality lets consumers try lipstick/makeup via selfie or video, deployed on brand sites and rolled out to Amazon (US, Japan) and previously Facebook. [ModiFace (L'Oréal-owned, acquired 2018) — AR + AI]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://fr.finance.yahoo.com/actualites/modiface-lor%C3%A9al-va-fournir-%C3%A0-134114498.html",
+   "raw_sector": "",
+   "date": "2019",
+   "fresh": "stale"
+  },
+  {
+   "company": "L'Oréal",
+   "use": "SkinConsult AI — deep-learning skin-aging diagnosis from a selfie detecting seven signs of aging (spots, wrinkles, pores) with personalized routine recommendations, launched via Vichy and L'Oréal Paris. [ModiFace / L'Oréal R&I (deep learning, neural networks)]",
+   "existence": "confirmed",
+   "value": "Trained on 6,000 clinical images and 4,000 participants aged 20-80",
+   "tier": "",
+   "url": "https://lareclame.fr/loreal-modiface-skinconsultai-215173",
+   "raw_sector": "",
+   "date": "2019-01",
+   "fresh": "stale"
+  },
+  {
+   "company": "L'Oréal",
+   "use": "NVIDIA partnership — predictive AI to accelerate beauty/product discovery and R&D, plus NVIDIA AI Enterprise powering CREAITECH's 3D content scaling and more efficient GPU usage. [NVIDIA (AI Enterprise platform)]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.e-marketing.fr/Thematique/marques-1296/strategie-marque-2250/Breves/vivatech-oreal-presente-innovations-collab-nvidia-482387.htm",
+   "raw_sector": "",
+   "date": "2025-06",
+   "fresh": "fresh"
+  },
+  {
+   "company": "L'Oréal",
+   "use": "GPT-Rosalind for skin microbiome research — using OpenAI's life-sciences model to map the skin microbiome at scale to support La Roche-Posay skincare R&D. [OpenAI GPT-Rosalind]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://viuz.com/annonce/loreal-et-openai-annoncent-une-collaboration/",
+   "raw_sector": "",
+   "date": "2026-06",
+   "fresh": "fresh"
+  },
+  {
+   "company": "L'Oréal",
+   "use": "Mya recruitment chatbot — conversational AI pre-screens high-volume candidates (internships, in-store beauty advisors), handling availability, salary and eligibility questions and answering candidate queries. [Mya Systems]",
+   "existence": "confirmed",
+   "value": "Deployed across 15 countries; ~25,000 internship applications/year in France; recruiters 'gain considerable time'",
+   "tier": "",
+   "url": "https://www.journaldunet.com/e-rh/1423760-avec-notre-chatbot-les-recruteurs-gagnent-beaucoup-de-temps/",
+   "raw_sector": "",
+   "date": "2019",
+   "fresh": "stale"
+  },
+  {
+   "company": "L'Oréal",
+   "use": "CreAItech (CREAITECH) — internal generative-AI content engine producing brand-compliant marketing images, text and video across social, e-commerce and paid channels for ~10,000 marketers worldwide. [Multi-model: Google (Gemini, Veo3, Imagen), OpenAI image gen, Adobe, Stable Diffusion, Seedance; NVIDIA GPUs]",
+   "existence": "confirmed",
+   "value": "50,000 marketing assets produced; 40% reduction in production costs; 70,000 staff trained in AI",
+   "tier": "",
+   "url": "https://digiday.com/marketing/loreal-accelerates-generative-ai-content-engine-with-fresh-openai-deal/",
+   "raw_sector": "",
+   "date": "2025",
+   "fresh": "fresh"
+  },
+  {
+   "company": "L'Oréal",
+   "use": "OpenAI / ChatGPT commerce integration — Maybelline virtual makeup try-on embedded in ChatGPT via ModiFace, product discovery for Lancôme/Kérastase, and a ChatGPT ad pilot (SkinCeuticals, CeraVe, Garnier). [OpenAI (ChatGPT) + L'Oréal ModiFace]",
+   "existence": "claimed",
+   "value": "Targets ChatGPT's 900M+ weekly active users; 73,000 employees trained in generative AI",
+   "tier": "",
+   "url": "https://viuz.com/annonce/loreal-et-openai-annoncent-une-collaboration/",
+   "raw_sector": "",
+   "date": "2026-06",
+   "fresh": "fresh"
+  },
+  {
+   "company": "L'Oréal",
+   "use": "Knowledge graph for GenAI discoverability — building a knowledge graph of 116 years of brand/scientific knowledge and restructuring content so L'Oréal products surface accurately in AI/LLM search results.",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://diginomica.com/beautiful-thing-ai-impacting-beauty-industry-loreal-paris-applies-foundation",
+   "raw_sector": "",
+   "date": "2026",
+   "fresh": "fresh"
+  },
+  {
+   "company": "L'Oréal",
+   "use": "Beauty Genius — a consumer-facing generative-AI beauty advisor (skin/hair diagnosis, product recommendations, tutorials) on the L'Oréal Paris site and WhatsApp, giving 24/7 personalized expert advice. [Microsoft Azure OpenAI Service (GPT-4o for chat, Ada for RAG), hybrid PTU + PAYG]",
+   "existence": "confirmed",
+   "value": "Sub-5s latency and 100% response rate while scaling to 2,000+ simultaneous users in load tests",
+   "tier": "",
+   "url": "https://www.microsoft.com/fr-fr/customers/story/25548-loreal-azure-openai",
+   "raw_sector": "",
+   "date": "2025",
    "fresh": "fresh"
   }
  ]

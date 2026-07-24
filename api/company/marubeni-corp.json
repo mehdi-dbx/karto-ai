@@ -3,46 +3,52 @@
  "name": "Marubeni Corp.",
  "cc": "JP",
  "vertical": "Logistics & Supply Chain",
- "deployments": 1,
- "confirmed": 1,
- "with_value_number": 1,
- "proof_rate": 1.0,
+ "deployments": 10,
+ "confirmed": 7,
+ "with_value_number": 4,
+ "proof_rate": 0.4,
  "mktcap": 58533333333.0,
  "revenue": 55133333333.0,
  "employees": 42882.0,
  "silent": false,
- "per_bn_revenue": 0.02,
- "per_10k_emp": 0.23,
+ "per_bn_revenue": 0.18,
+ "per_10k_emp": 2.33,
  "benchmarks": {
   "global_vertical": {
-   "deployments": 0,
-   "confirmed": 17,
-   "proof_rate": 60,
+   "deployments": 95,
+   "confirmed": 97,
+   "proof_rate": 49,
    "n": 66
   },
   "country_vertical": {
-   "deployments": 0,
-   "confirmed": 0,
-   "proof_rate": 55,
+   "deployments": 95,
+   "confirmed": 95,
+   "proof_rate": 36,
    "n": 23
   }
  },
- "first_seen": 2026,
+ "first_seen": 2024,
  "by_year": [
   {
+   "year": 2024,
+   "n": 5
+  },
+  {
    "year": 2026,
-   "n": 1
+   "n": 5
   }
  ],
  "undated_pct": 0,
- "momentum": "late_entrant,rising",
- "maturity": "L3",
+ "momentum": "early_mover,flat",
+ "maturity": "L4",
  "maturity_evidence": [
+  "multi_horizontal",
   "named_product:Marucha",
   "value_number",
+  "multi_year",
   "tier_p"
  ],
- "prospect_score": 14,
+ "prospect_score": 74,
  "stack": [],
  "vendor_named": false,
  "deployments_detail": [
@@ -56,6 +62,105 @@
    "raw_sector": "Trading Companies",
    "date": "2026",
    "fresh": "fresh"
+  },
+  {
+   "company": "Marubeni Corp.",
+   "use": "AI facial-recognition boarding system for the Keisei Skyliner airport express: passengers pre-register their face after online ticket purchase and board via face scan at the gate. Marubeni provides the facial-recognition platform, launched at 4 stations (Narita T1, Narita T2·3, Nippori, Keisei-Ueno). [Marubeni (platform) + Melon Technologies (recognition) + Keisei Electric Railway + Hitachi]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.marubeni.com/en/news/2024/info/00060.html",
+   "raw_sector": "",
+   "date": "2024-12",
+   "fresh": "aging"
+  },
+  {
+   "company": "Marubeni Corp.",
+   "use": "\"Mo9\" digital supply-chain-management solution jointly developed with o9 Solutions, bringing o9's AI-equipped \"Digital Brain\" supply/demand and integrated business planning to Japanese companies at lower cost; visualizes quantity and monetary value on a unified planning platform. [Marubeni + o9 Solutions (o9 Digital Brain AI)]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.marubeni.com/en/news/2024/info/00035.html",
+   "raw_sector": "",
+   "date": "2024-07",
+   "fresh": "aging"
+  },
+  {
+   "company": "Marubeni Corp.",
+   "use": "Strategic partnership with Google Cloud on Agentic AI for industrial transformation: \"Agentic Workplace\" automation, data-driven management, and agent services converting tacit commercial knowledge (negotiation, supply-chain management) into autonomous digital assets, using Gemini Enterprise, Google Workspace and Looker; Marubeni I-DIGIO acts as \"client zero.\" [Marubeni I-DIGIO + Google Cloud (Gemini Enterprise, Looker, Workspace)]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://prtimes.jp/main/html/rd/p/000000056.000145332.html",
+   "raw_sector": "",
+   "date": "2026-05",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Marubeni Corp.",
+   "use": "Investment in and deployment of AiDash's satellite-imagery + AI platform for critical-infrastructure/vegetation management (risk assessment, inspection tracking, grid resilience); Marubeni backs APAC expansion and grid-technology deployment alongside its LineVision stake. [AiDash (satellite + AI vegetation management)]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.marubeni.com/en/news/2024/release/00028.html",
+   "raw_sector": "",
+   "date": "2024-04",
+   "fresh": "aging"
+  },
+  {
+   "company": "Marubeni Corp.",
+   "use": "AI call-center quality evaluation: Marubeni Information Systems' contact-center platform \"Omnis\" integrated via API with Stadium's \"Dr.Tel\" AI solution, which automatically evaluates calls (verbal and non-verbal), auto-detects call reasons/results and selects relevant recordings for coaching feedback. [Marubeni Information Systems (Omnis) + Stadium Inc. (Dr.Tel)]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://prtimes.jp/main/html/rd/p/000000123.000015527.html",
+   "raw_sector": "",
+   "date": "2026-06",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Marubeni Corp.",
+   "use": "\"Marucha\" (まるちゃ) enterprise generative-AI platform deployed group-wide for document drafting, summarization, translation, file analysis (PDF/Excel/Word), Agentic RAG over internal documents, meeting transcription and PowerPoint generation, with custom agents for legal, HR and sales support. Later offered externally by Marubeni I-DIGIO. [Marubeni Information Systems / Marubeni I-DIGIO; multi-model (OpenAI GPT, Anthropic Claude, Google Gemini, Perplexity)]",
+   "existence": "confirmed",
+   "value": "10,000+ monthly active users within Marubeni Group",
+   "tier": "",
+   "url": "https://prtimes.jp/main/html/rd/p/000000064.000145332.html",
+   "raw_sector": "",
+   "date": "2026-06",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Marubeni Corp.",
+   "use": "\"I-DIGIO next-AI series Chatbot Service\" — secure closed-environment generative-AI assistant used internally for translation, dialogue, FAQ creation and article writing; deployable on-prem or on Microsoft Azure in 3 days. Rolled out internally from 2023, later offered to external customers. [Marubeni I-DIGIO / DOLBIX; generative AI on Microsoft Azure]",
+   "existence": "confirmed",
+   "value": "100,000 annualized work hours reduced across Marubeni Group",
+   "tier": "",
+   "url": "https://www.marubeni.com/en/news/2024/release/00024.html",
+   "raw_sector": "",
+   "date": "2024-04",
+   "fresh": "aging"
+  },
+  {
+   "company": "Marubeni Corp.",
+   "use": "MOU with Multiverse Computing to roll out \"CompactifAI\" quantum-inspired (tensor-network) AI model-compression technology in Japan, reducing model size for edge/on-prem deployment; Marubeni to run a market study before full rollout. [Multiverse Computing (CompactifAI)]",
+   "existence": "claimed",
+   "value": "~90% model size reduction with 2-3% accuracy degradation",
+   "tier": "",
+   "url": "https://www.marubeni.com/en/news/2026/info/00009.html",
+   "raw_sector": "",
+   "date": "2026-04",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Marubeni Corp.",
+   "use": "AI-driven quotation, manufacturing-design and procurement support for SME manufacturers via REVOX's patented \"SellBOT\" cloud platform; Marubeni took a capital stake to jointly develop and market the AI software to accelerate DX in small/medium manufacturers. [Marubeni + REVOX Corporation (SellBOT AI)]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.marubeni.com/en/news/2024/release/00031.html",
+   "raw_sector": "",
+   "date": "2024-05",
+   "fresh": "aging"
   }
  ]
 }

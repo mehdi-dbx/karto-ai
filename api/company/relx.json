@@ -3,34 +3,54 @@
  "name": "RELX",
  "cc": "UK",
  "vertical": "Media / Entertainment / Gaming",
- "deployments": 1,
- "confirmed": 1,
- "with_value_number": 0,
- "proof_rate": 0.0,
+ "deployments": 15,
+ "confirmed": 15,
+ "with_value_number": 5,
+ "proof_rate": 0.333,
  "mktcap": 54432200000.0,
  "revenue": 12179300000.0,
  "employees": 37600.0,
  "silent": false,
- "per_bn_revenue": 0.08,
- "per_10k_emp": 0.27,
+ "per_bn_revenue": 1.23,
+ "per_10k_emp": 3.99,
  "benchmarks": {
   "global_vertical": {
-   "deployments": 0,
-   "confirmed": 18,
-   "proof_rate": 0,
+   "deployments": 100,
+   "confirmed": 100,
+   "proof_rate": 56,
    "n": 35
   }
  },
- "first_seen": null,
- "by_year": [],
- "undated_pct": 100,
- "momentum": "none",
- "maturity": "L3",
+ "first_seen": 2023,
+ "by_year": [
+  {
+   "year": 2023,
+   "n": 2
+  },
+  {
+   "year": 2024,
+   "n": 2
+  },
+  {
+   "year": 2025,
+   "n": 5
+  },
+  {
+   "year": 2026,
+   "n": 3
+  }
+ ],
+ "undated_pct": 20,
+ "momentum": "early_mover,rising",
+ "maturity": "L4",
  "maturity_evidence": [
+  "multi_horizontal",
   "named_product:LexisNexis",
+  "value_number",
+  "multi_year",
   "tier_p"
  ],
- "prospect_score": 54,
+ "prospect_score": 95,
  "stack": [],
  "vendor_named": false,
  "deployments_detail": [
@@ -54,6 +74,160 @@
    "url": "https://stories.relx.com/generative-ai/index.html",
    "raw_sector": "Media",
    "date": "2025",
+   "fresh": "fresh"
+  },
+  {
+   "company": "RELX",
+   "use": "LexisNexis Fraud Intelligence / Risk Solutions: AI-driven risk scoring using 300+ attributes to detect fraud, synthetic identities and blocked stolen credentials in near real time",
+   "existence": "confirmed",
+   "value": "300+ attributes; cross-org collaboration raises fraud detection 43%",
+   "tier": "",
+   "url": "https://risk.lexisnexis.com/products/lexisnexis-fraud-intelligence",
+   "raw_sector": "",
+   "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "RELX",
+   "use": "LexisNexis IDVerse: AI-powered document authentication and identity verification to defend against AI-generated fakes, deepfakes and synthetic identity fraud in insurance",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.prnewswire.com/news-releases/lexisnexis-risk-solutions-launches-ai-driven-location-intelligence-for-us-home-insurance-carriers-to-improve-property-risk-assessment-302772318.html",
+   "raw_sector": "",
+   "date": "2026-05",
+   "fresh": "fresh"
+  },
+  {
+   "company": "RELX",
+   "use": "CounselLink+ AI (LexisNexis): enterprise legal management AI that automates invoice review (SmartReview), detects billing anomalies, extracts contract clauses, and 'Ask Legal' self-serve GenAI assistant [LexisNexis Protégé]",
+   "existence": "confirmed",
+   "value": "~$70B legal spend and 1.8M matters tracked on platform",
+   "tier": "",
+   "url": "https://www.lexisnexis.com/community/amp-insights/177/counsellink-leverages-power-of-ai-in-contract-lifecycle-management",
+   "raw_sector": "",
+   "date": "2025-02",
+   "fresh": "fresh"
+  },
+  {
+   "company": "RELX",
+   "use": "Lexis+ AI: generative AI legal research, drafting, and summarization tool with linked hallucination-free citations, in general availability across LexisNexis platforms [Azure OpenAI (GPT-4o), fine-tuned Mistral 7B on AWS]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.lexisnexis.com/community/amp-pressroom/lexisnexis-launches-lexis-ai-a-generative-ai-solution-with-hallucination-free-linked-legal-citations",
+   "raw_sector": "",
+   "date": "2023-10",
+   "fresh": "stale"
+  },
+  {
+   "company": "RELX",
+   "use": "LexisNexis Protégé: personalized agentic legal AI assistant with document Vaults for summarizing, drafting, and completing complex legal tasks; multi-model selection (Claude Sonnet, GPT-5.1) [Anthropic Claude, OpenAI GPT]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.lawnext.com/2025/01/lexisnexis-launches-protege-ai-assistant-to-general-availability-promising-autonomous-completion-of-legal-tasks.html",
+   "raw_sector": "",
+   "date": "2025-01",
+   "fresh": "fresh"
+  },
+  {
+   "company": "RELX",
+   "use": "Scopus AI (Elsevier): generative AI research assistant that summarizes and produces insights and concept maps grounded in Scopus abstract/citation content for researchers",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.elsevier.com/about/press-releases/launch-of-scopus-ai-to-help-researchers-navigate-the-world-of-research",
+   "raw_sector": "",
+   "date": "2024-01",
+   "fresh": "aging"
+  },
+  {
+   "company": "RELX",
+   "use": "ScienceDirect AI (Elsevier): generative AI tool enabling researchers to extract, summarize and compare insights from millions of full-text peer-reviewed articles",
+   "existence": "confirmed",
+   "value": "halve literature research time (per Elsevier)",
+   "tier": "",
+   "url": "https://www.elsevier.com/about/press-releases/elsevier-launches-sciencedirect-ai-to-transform-research-with-rapid-mission",
+   "raw_sector": "",
+   "date": "2025-03",
+   "fresh": "fresh"
+  },
+  {
+   "company": "RELX",
+   "use": "ClinicalKey AI (Elsevier Health): clinical decision support tool with conversational generative AI search over evidence-based clinical content at the point of care, plus mobile app",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://sciencebusiness.net/network-updates/elsevier-health-launches-clinicalkey-ai-powered-clinical-decision-support-tool",
+   "raw_sector": "",
+   "date": "2024-02",
+   "fresh": "aging"
+  },
+  {
+   "company": "RELX",
+   "use": "Reaxys AI Search (Elsevier): natural-language AI search over 121M+ chemistry documents to accelerate small-molecule and drug discovery research",
+   "existence": "confirmed",
+   "value": "121 million documents searchable",
+   "tier": "",
+   "url": "https://www.elsevier.com/about/press-releases/elsevier-introduces-reaxys-ai-search-enabling-faster-and-more-accessible",
+   "raw_sector": "",
+   "date": "2025-07",
+   "fresh": "fresh"
+  },
+  {
+   "company": "RELX",
+   "use": "Embase AI (Elsevier): generative AI solution for biomedical literature search over 47M records, returning fully cited transparent answers to natural-language research questions",
+   "existence": "confirmed",
+   "value": "47 million biomedical records",
+   "tier": "",
+   "url": "https://www.elsevier.com/about/press-releases/elsevier-introduces-embase-ai-to-transform-how-users-discover-analyze-and",
+   "raw_sector": "",
+   "date": "2025-06",
+   "fresh": "fresh"
+  },
+  {
+   "company": "RELX",
+   "use": "Flyreel (LexisNexis Risk Solutions): AI-powered home insurance property inspection/underwriting solution that expedites and improves the home underwriting process",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://risk.lexisnexis.com/about-us/press-room/press-release/20230309-flyreel-configurable-insights",
+   "raw_sector": "",
+   "date": "2023-03",
+   "fresh": "stale"
+  },
+  {
+   "company": "RELX",
+   "use": "Anthropic Claude legal plugin suite integration into Lexis+ with Protégé, embedding Claude's legal skills/agentic workflows to produce verifiable finished legal work product [Anthropic (Claude Cowork legal plugin)]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.lexisnexis.com/community/amp-pressroom/lexisnexis-enhances-lexis-with-protege-platform-by-integrating-anthropic-cowork-legal-plugin",
+   "raw_sector": "",
+   "date": "2026-02",
+   "fresh": "fresh"
+  },
+  {
+   "company": "RELX",
+   "use": "Cirium (RELX aviation analytics): AI models tracking 99% of global flights (~25,000 aircraft / 100,000 flights daily) for real-time flight prediction, CO2 emissions forecasting and asset analytics",
+   "existence": "confirmed",
+   "value": "tracks 99% of flights globally in real time",
+   "tier": "",
+   "url": "https://stories.relx.com/cirium/index.html",
+   "raw_sector": "",
+   "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "RELX",
+   "use": "RX (Reed Exhibitions) AI-powered matchmaking and RX Now event app: recommends and matches exhibitor/visitor product interests across trade shows and delivers AI-powered recommendations",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://rxglobal.com/rx-advances-digital-leadership-events-launch-rx-now",
+   "raw_sector": "",
+   "date": "2026-04",
    "fresh": "fresh"
   }
  ]

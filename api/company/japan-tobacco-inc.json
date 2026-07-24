@@ -3,40 +3,60 @@
  "name": "Japan Tobacco Inc.",
  "cc": "JP",
  "vertical": "Retail & E-commerce",
- "deployments": 2,
- "confirmed": 1,
- "with_value_number": 1,
- "proof_rate": 0.5,
+ "deployments": 10,
+ "confirmed": 6,
+ "with_value_number": 2,
+ "proof_rate": 0.2,
  "mktcap": 75400000000.0,
  "revenue": 23933333333.0,
  "employees": 52867.0,
  "silent": false,
- "per_bn_revenue": 0.08,
- "per_10k_emp": 0.38,
+ "per_bn_revenue": 0.42,
+ "per_10k_emp": 1.89,
  "benchmarks": {
   "global_vertical": {
-   "deployments": 79,
-   "confirmed": 26,
-   "proof_rate": 68,
+   "deployments": 93,
+   "confirmed": 92,
+   "proof_rate": 63,
    "n": 295
   },
   "country_vertical": {
-   "deployments": 67,
-   "confirmed": 4,
+   "deployments": 100,
+   "confirmed": 92,
    "proof_rate": 29,
    "n": 25
   }
  },
- "first_seen": null,
- "by_year": [],
- "undated_pct": 100,
- "momentum": "none",
- "maturity": "L3",
+ "first_seen": 2019,
+ "by_year": [
+  {
+   "year": 2019,
+   "n": 1
+  },
+  {
+   "year": 2021,
+   "n": 1
+  },
+  {
+   "year": 2025,
+   "n": 2
+  },
+  {
+   "year": 2026,
+   "n": 4
+  }
+ ],
+ "undated_pct": 20,
+ "momentum": "early_mover,rising",
+ "maturity": "L4",
  "maturity_evidence": [
+  "multi_horizontal",
   "named_product:JAC",
+  "value_number",
+  "multi_year",
   "tier_p"
  ],
- "prospect_score": 34,
+ "prospect_score": 76,
  "stack": [],
  "vendor_named": false,
  "deployments_detail": [
@@ -61,6 +81,94 @@
    "raw_sector": "Foods",
    "date": "missing",
    "fresh": "undated"
+  },
+  {
+   "company": "Japan Tobacco Inc.",
+   "use": "Quantum + generative AI (LLM/transformer) workflow for de novo drug discovery, jointly validated with D-Wave; quantum-annealing-assisted LLM training produced molecules with higher drug-likeness (QED) than the classical training dataset. [D-Wave (quantum annealing) + transformer LLM]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://thequantuminsider.com/2025/03/31/d-wave-and-japan-tobacco-validate-quantum-and-ai-workflow-towards-generative-drug-discovery/",
+   "raw_sector": "",
+   "date": "2025-03",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Japan Tobacco Inc.",
+   "use": "Company-wide internal generative AI assistant (\"JT version of ChatGPT\", branded JTG AI Concierge) rolled out to employees for document drafting, summarization and knowledge search, with adoption support from PwC Consulting. Reported as heavily used across the organization. [OpenAI / Azure OpenAI (via PwC Consulting)]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFBfZmF6Mkg2a2hlNGphby1Sd3c0UTlsYnNvejh3TllqVFpjc2lJSExFUUNEZzJmOHFVc3dNbTlxQkQ1amNkTldIV204Wl9DVUA?oc=5",
+   "raw_sector": "",
+   "date": "2025-09",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Japan Tobacco Inc.",
+   "use": "AI-assisted legal contract drafting/review adopted by JT's legal department as part of its legal DX, using the BoostDraft document-drafting assistant. [BoostDraft]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTFB3ckw5VEtiSnBNSnV4LUhYTkVBWmtDNV83bHlmNWpPOExZak1CZUhCN3lIN1B0bXFzSTdwRnF4alI0Z2ZHTjlaVFRhNl9ETFQ0a1FBd0dSRQ?oc=5",
+   "raw_sector": "",
+   "date": "2026-02",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Japan Tobacco Inc.",
+   "use": "Use of AI in the talent/HR function (recruiting and workforce management) at JTI, presented as a case study of AI reshaping the nicotine industry's talent playbook.",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQQUFjTVVTSnpNVXcxbDNQNHM5X1BsTHJsMF9QWXRGM3g1Y1oyS1B1SFljY2w3R3JsRkxEa2tlbWZyVW1paWctdVVSY1B0OC1Lb09fS1ZBcWc0QkZJSGx1ZGhaU2NGal9XbVdpeXBobTNTR000b3FQS0ViMjFnWFJ3MzhwdXhXN0RVVXpSMUxuXzBFUk9RZWM1cXkwN2VVeVlKRlJUT2o4dw?oc=5",
+   "raw_sector": "",
+   "date": "2026-06",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Japan Tobacco Inc.",
+   "use": "Machine-learning model predicting which cigarette brands customers will purchase in future, used to target marketing campaigns.",
+   "existence": "confirmed",
+   "value": "20% improvement in campaign cost-effectiveness",
+   "tier": "",
+   "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE14RjZrc0M5OTFZejVuVFFoeUhEemZiVFVOQWJfaHZ1ZndPVkdzejB1VHQ0akR6Rm9ocU90c2U3X3BMUEszeDNCVUxWVld5aXYyYkpn?oc=5",
+   "raw_sector": "",
+   "date": "2019-01",
+   "fresh": "stale"
+  },
+  {
+   "company": "Japan Tobacco Inc.",
+   "use": "KAORIUM AI system that verbalizes/articulates scent and flavor, applied to the Ploom Tech heated-tobacco brand via a consumer-facing web experience (\"sensory diagnosis\" content). [SCENTMATIC (KAORIUM)]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE91ckl4dWRwak5icGlmRThGM3NqTUpyNDg4RnBFa3hzUFpxYW5aNkFkVEd6Q1N2N0JBZkN5bkFZamhNdGItYVgybGJmY3BIZ1FNWTJVTlMzRGRLMjItY0VxVlJFUEdUbV83dHc?oc=5",
+   "raw_sector": "",
+   "date": "2021-11",
+   "fresh": "stale"
+  },
+  {
+   "company": "Japan Tobacco Inc.",
+   "use": "Joint generative-AI initiative with Hakuhodo DY Group to \"expand human creativity\" in brand marketing and creative development. [Hakuhodo DY Group]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE1zMk5wTXFsS1lBQVBUSUNmRFJPSE9faVV3OHFwMjdtTWJtYkRXZzZCaklfdE9XbEF4VEs2a1c3dmhPSmNZSmRwNmZ3YkxjN3FLeTlj?oc=5",
+   "raw_sector": "",
+   "date": "2026-05",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Japan Tobacco Inc.",
+   "use": "Use of AI to detect and fight illicit/smuggled tobacco trade; JTI (JT's international arm) is applying and advocating for wider AI adoption in anti-smuggling enforcement (e.g., Philippines).",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPc3VoMzVHWW95MjBLVHp6dUtGLWdTRVB1WHFhM3g4UlVOWmdSZGMwSURsX0pkRkpNQk43QWJXV19xMUxHaXVrUjFNVWpCUlBOVUV5NHZyNWdUVjBabWN2ZGo2MTRWbWczVmNZcTNwLWZQYk5rajRjYTlta1hLNTFwRkswTzFFeDhEOU5fVjNZUjZUOFNz?oc=5",
+   "raw_sector": "",
+   "date": "2026-06",
+   "fresh": "fresh"
   }
  ]
 }

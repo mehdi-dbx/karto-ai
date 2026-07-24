@@ -3,40 +3,51 @@
  "name": "Bank of China Ltd",
  "cc": "CN",
  "vertical": "Financial Services",
- "deployments": 1,
- "confirmed": 1,
- "with_value_number": 1,
- "proof_rate": 1.0,
+ "deployments": 9,
+ "confirmed": 6,
+ "with_value_number": 3,
+ "proof_rate": 0.333,
  "mktcap": 265384615385.0,
  "revenue": 82623076923.0,
  "employees": 313746.0,
  "silent": false,
- "per_bn_revenue": 0.01,
- "per_10k_emp": 0.03,
+ "per_bn_revenue": 0.11,
+ "per_10k_emp": 0.29,
  "benchmarks": {
   "global_vertical": {
-   "deployments": 0,
-   "confirmed": 18,
-   "proof_rate": 72,
+   "deployments": 92,
+   "confirmed": 92,
+   "proof_rate": 57,
    "n": 377
   },
   "country_vertical": {
-   "deployments": 0,
-   "confirmed": 0,
-   "proof_rate": 36,
+   "deployments": 92,
+   "confirmed": 88,
+   "proof_rate": 28,
    "n": 26
   }
  },
- "first_seen": null,
- "by_year": [],
- "undated_pct": 100,
- "momentum": "none",
- "maturity": "L3",
- "maturity_evidence": [
-  "named_product:BOCAI",
-  "value_number"
+ "first_seen": 2024,
+ "by_year": [
+  {
+   "year": 2024,
+   "n": 1
+  },
+  {
+   "year": 2025,
+   "n": 5
+  }
  ],
- "prospect_score": 6,
+ "undated_pct": 33,
+ "momentum": "early_mover,rising",
+ "maturity": "L4",
+ "maturity_evidence": [
+  "multi_horizontal",
+  "named_product:BOCAI",
+  "value_number",
+  "multi_year"
+ ],
+ "prospect_score": 63,
  "stack": [
   "DeepSeek"
  ],
@@ -50,6 +61,94 @@
    "tier": "I",
    "url": "https://www.boc.cn",
    "raw_sector": "Finance (HSI)",
+   "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "Bank of China Ltd",
+   "use": "BOCHK GenAI Assistant: a generative-AI conversational tool for corporate banking staff that analyzes complex financial documents to deliver instant contextual insights, speeding relationship management and risk assessment. Moved from proof-of-concept to full production at scale.",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://thedigitalbanker.com/generative-ai-powers-a-new-era-of-efficiency-for-bank-of-china-hong-kong/",
+   "raw_sector": "",
+   "date": "2025",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Bank of China Ltd",
+   "use": "DeepSeek-R1 internal deployment applied to automated credit report generation (授信报告生成), using proprietary bank data for inference to assist credit/lending workflows. [DeepSeek-R1]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.cebnet.com.cn/20250406/102985261.html",
+   "raw_sector": "",
+   "date": "2025-04",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Bank of China Ltd",
+   "use": "Lingxi (灵犀) intelligent employee assistant providing internal knowledge query, intelligent customer-service Q&A, document/content generation, code development and testing assistance, and workflow/office automation for bank staff.",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.53ai.com/news/LargeLanguageModel/2024082780924.html",
+   "raw_sector": "",
+   "date": "2024",
+   "fresh": "aging"
+  },
+  {
+   "company": "Bank of China Ltd",
+   "use": "Large-model technology deployed across 10+ head-office and branch scenarios including employee Q&A, report generation and research-content generation (internal memos and business intelligence), part of 3,000+ total AI application scenarios.",
+   "existence": "confirmed",
+   "value": "10+ large-model scenarios; 3,600+ intelligent-R&D users; 3,000+ total AI application scenarios (the '8.7 million words' figure is NOT in this sina source; it appears in the ciw.news source instead)",
+   "tier": "",
+   "url": "https://finance.sina.com.cn/jryx/bank/2025-03-26/doc-ineqyvpe5865029.shtml",
+   "raw_sector": "",
+   "date": "2025-03",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Bank of China Ltd",
+   "use": "DeepSeek-R1 model deployed internally to power automated coding and intelligent R&D (code generation), producing large volumes of code monthly for the bank's software development. [DeepSeek-R1]",
+   "existence": "confirmed",
+   "value": "3,600+ internal users; ~1.33 million lines of code/month per primary Chinese sources (ciw.news states 13.37 million — likely a 10x mistranslation of 133万行)",
+   "tier": "",
+   "url": "https://ciw.news/p/chinese-banks-llms",
+   "raw_sector": "",
+   "date": "2025",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Bank of China Ltd",
+   "use": "DeepSeek-R1 privately deployed on internal infrastructure and opened to employees to build a marketing assistant application (marketing content/support), leveraging the bank's own data for inference and optimization. [DeepSeek-R1]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.cebnet.com.cn/20250406/102985261.html",
+   "raw_sector": "",
+   "date": "2025-04",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Bank of China Ltd",
+   "use": "Cantonese/Putonghua/English conversational AI voice robot (ASR, TTS, NLP/NLU, IVR) supplied by InfoTalk for Bank of China customer service telephony and voice interactions in the Hong Kong market. [InfoTalk (RSVP suite - Cantonese ASR/STT/TTS/NLP)]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.infotalkcorp.com/customer/finance-banking-boc-bank-of-china/",
+   "raw_sector": "",
+   "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "Bank of China Ltd",
+   "use": "Bank of China (Hong Kong) Online Chat customer service supported by an AI intelligent assistant (with handoff to human staff) for customer inquiries via the bank's digital channels.",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.bochk.com/s/TnC/ai.en",
+   "raw_sector": "",
    "date": "missing",
    "fresh": "undated"
   }

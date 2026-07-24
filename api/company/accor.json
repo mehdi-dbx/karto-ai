@@ -3,40 +3,55 @@
  "name": "Accor",
  "cc": "FR",
  "vertical": "Travel & Hospitality",
- "deployments": 2,
- "confirmed": 2,
- "with_value_number": 0,
- "proof_rate": 0.0,
+ "deployments": 13,
+ "confirmed": 12,
+ "with_value_number": 7,
+ "proof_rate": 0.538,
  "mktcap": 11242800000.0,
  "revenue": 6091200000.0,
  "employees": 19943.0,
  "silent": false,
- "per_bn_revenue": 0.33,
- "per_10k_emp": 1.0,
+ "per_bn_revenue": 2.13,
+ "per_10k_emp": 6.52,
  "benchmarks": {
   "global_vertical": {
-   "deployments": 74,
-   "confirmed": 92,
-   "proof_rate": 0,
+   "deployments": 100,
+   "confirmed": 100,
+   "proof_rate": 74,
    "n": 39
   },
   "country_vertical": {
    "deployments": 100,
    "confirmed": 100,
-   "proof_rate": 0,
+   "proof_rate": 100,
    "n": 6
   }
  },
- "first_seen": null,
- "by_year": [],
- "undated_pct": 100,
- "momentum": "none",
- "maturity": "L3",
+ "first_seen": 2023,
+ "by_year": [
+  {
+   "year": 2023,
+   "n": 1
+  },
+  {
+   "year": 2024,
+   "n": 2
+  },
+  {
+   "year": 2026,
+   "n": 7
+  }
+ ],
+ "undated_pct": 23,
+ "momentum": "early_mover,rising",
+ "maturity": "L4",
  "maturity_evidence": [
   "multi_horizontal",
-  "named_product:AWS"
+  "named_product:AWS",
+  "value_number",
+  "multi_year"
  ],
- "prospect_score": 52,
+ "prospect_score": 78,
  "stack": [
   "Amazon AWS",
   "Deloitte"
@@ -62,6 +77,127 @@
    "tier": "I",
    "url": "https://www.lesechos.fr/thema/articles/accor-deploie-lia-a-tous-les-etages-2028970",
    "raw_sector": "Consumer Services",
+   "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "Accor",
+   "use": "Global revenue management platform providing AI/data-driven dynamic pricing, total revenue and profit optimization across Accor's portfolio; being rolled out with early RevPAR and RGI gains in onboarded hotels. [IDeaS]",
+   "existence": "confirmed",
+   "value": "growth in RevPAR and RGI in already-onboarded hotels (unquantified); portfolio of 5,600+ hotels",
+   "tier": "",
+   "url": "https://ideas.com/news/accor-ideas-announce-global-revenue-management-partnership/",
+   "raw_sector": "",
+   "date": "2024-02",
+   "fresh": "aging"
+  },
+  {
+   "company": "Accor",
+   "use": "AI assistant embedded in Oracle OPERA Cloud PMS giving hotel staff natural-language access to PMS information and workflow execution; piloted at Fairmont and MEAPAC hotels. [Oracle OPERA Cloud]",
+   "existence": "confirmed",
+   "value": "76% satisfaction; expected 25% fewer support requests, 30% faster onboarding, 30-60 min saved daily per employee",
+   "tier": "",
+   "url": "https://group.accor.com/en/news-stories/accor-leading-hospitality-ai",
+   "raw_sector": "",
+   "date": "2026",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Accor",
+   "use": "AI-powered food waste management using predictive demand forecasting to reduce kitchen waste and carbon footprint, via partnership with startup Fullsoon. [Fullsoon]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://group.accor.com/en/news-stories/accor-leading-hospitality-ai",
+   "raw_sector": "",
+   "date": "2026",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Accor",
+   "use": "AccorGPT, a secure internal generative AI engine for employees used for programming/debugging assistance, content generation and marketing tasks.",
+   "existence": "confirmed",
+   "value": "~7,000 users saving an average of 2.5 hours a week",
+   "tier": "",
+   "url": "https://group.accor.com/en/news-stories/accor-leading-hospitality-ai",
+   "raw_sector": "",
+   "date": "2026",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Accor",
+   "use": "ALL Accor app launched inside ChatGPT, letting travelers search Accor's global hotel portfolio, view availability, rates and loyalty benefits, and plan trips via natural-language conversation before being routed to ALL.com to book. First hotel-group booking app in ChatGPT. [OpenAI / ChatGPT]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://press.accor.com/accor-leads-hospitality-innovation-with-the-launch-of-its-all-accor-app-in-chatgpt/",
+   "raw_sector": "",
+   "date": "2026-01",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Accor",
+   "use": "Generative-AI 'Travel Assistant' conversational tool that crafts personalized travel proposals (activities, dining, wellness, local attractions) beyond room bookings, to be integrated into the ALL.com booking platform. [AWS (Amazon Bedrock, Amazon SageMaker)]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.hotelmanagement.net/tech/accor-collaborates-aws",
+   "raw_sector": "",
+   "date": "2023-11",
+   "fresh": "stale"
+  },
+  {
+   "company": "Accor",
+   "use": "Customer Data Platform built on Snowflake (with Hightouch composable CDP) powering marketing segmentation and campaign execution, with AI used to define new indicators such as brand affinity and commercial pressure scores. [Snowflake, Hightouch]",
+   "existence": "confirmed",
+   "value": "85% faster data pulls; campaign segmentation cut from 3 weeks to a few days; 200+ people trained",
+   "tier": "",
+   "url": "https://www.snowflake.com/en/customers/all-customers/case-study/accor/",
+   "raw_sector": "",
+   "date": "2024",
+   "fresh": "aging"
+  },
+  {
+   "company": "Accor",
+   "use": "Guest-facing AI travel concierge/assistant that resolves guest queries in real time 24/7, covering everything from hotel search to loyalty status.",
+   "existence": "confirmed",
+   "value": "resolves 40% of guest queries in real-time",
+   "tier": "",
+   "url": "https://group.accor.com/en/news-stories/accor-leading-hospitality-ai",
+   "raw_sector": "",
+   "date": "2026",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Accor",
+   "use": "'Allison' agentic AI agent handling pre-booking guest inquiries across web chat and WhatsApp using LLM reasoning and Process Guides, pulling real-time property data via Accor's Properties API and qualifying conversations before human handoff. Deployed across Rixos/four properties. [Quiq]",
+   "existence": "confirmed",
+   "value": "CSAT up from 67% to 89%; AI accuracy up from 46% to 80%; 2x increase in booking intent",
+   "tier": "",
+   "url": "https://quiq.com/customers/accor/",
+   "raw_sector": "",
+   "date": "2026",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Accor",
+   "use": "AI 'butler' assistant for hotel teams supporting technical, commercial and loyalty queries, staff onboarding and workflow automation, and personalized guest welcomes.",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://group.accor.com/en/news-stories/accor-leading-hospitality-ai",
+   "raw_sector": "",
+   "date": "2026",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Accor",
+   "use": "AI/ML-based conversational bot deployed across seven contact centres to give automated answers to guest requests, combining AI with human agents, supporting reservation agents worldwide. [Deloitte (cloud AI)]",
+   "existence": "confirmed",
+   "value": "deployed over 7 contact centres, 2,000 telephony lines, 600 reservation agents",
+   "tier": "",
+   "url": "https://www.deloitte.com/be/en/services/consulting/case-studies/transforming-customer-service-in-hospitality.html",
+   "raw_sector": "",
    "date": "missing",
    "fresh": "undated"
   }

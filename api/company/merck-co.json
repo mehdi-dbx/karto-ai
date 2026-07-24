@@ -3,40 +3,60 @@
  "name": "Merck & Co.",
  "cc": "US",
  "vertical": "Healthcare & Life Sciences",
- "deployments": 1,
- "confirmed": 1,
- "with_value_number": 0,
- "proof_rate": 0.0,
+ "deployments": 12,
+ "confirmed": 9,
+ "with_value_number": 5,
+ "proof_rate": 0.417,
  "mktcap": 321300000000.0,
  "revenue": 65770000000.0,
  "employees": 75000.0,
  "silent": false,
- "per_bn_revenue": 0.02,
- "per_10k_emp": 0.13,
+ "per_bn_revenue": 0.18,
+ "per_10k_emp": 1.6,
  "benchmarks": {
   "global_vertical": {
-   "deployments": 0,
-   "confirmed": 14,
-   "proof_rate": 0,
+   "deployments": 98,
+   "confirmed": 95,
+   "proof_rate": 73,
    "n": 165
   },
   "country_vertical": {
-   "deployments": 0,
-   "confirmed": 7,
-   "proof_rate": 0,
+   "deployments": 95,
+   "confirmed": 88,
+   "proof_rate": 74,
    "n": 59
   }
  },
- "first_seen": null,
- "by_year": [],
- "undated_pct": 100,
- "momentum": "none",
- "maturity": "L3",
+ "first_seen": 2022,
+ "by_year": [
+  {
+   "year": 2022,
+   "n": 1
+  },
+  {
+   "year": 2024,
+   "n": 1
+  },
+  {
+   "year": 2025,
+   "n": 4
+  },
+  {
+   "year": 2026,
+   "n": 5
+  }
+ ],
+ "undated_pct": 8,
+ "momentum": "early_mover,rising",
+ "maturity": "L4",
  "maturity_evidence": [
+  "multi_horizontal",
   "named_product:Mayo",
+  "value_number",
+  "multi_year",
   "tier_p"
  ],
- "prospect_score": 54,
+ "prospect_score": 85,
  "stack": [],
  "vendor_named": false,
  "deployments_detail": [
@@ -50,6 +70,127 @@
    "raw_sector": "Health Care",
    "date": "missing",
    "fresh": "undated"
+  },
+  {
+   "company": "Merck & Co.",
+   "use": "GPTeal — proprietary internal self-service generative-AI gateway giving ~50,000 employees secure access to multiple external LLMs (OpenAI ChatGPT, Anthropic Claude, Meta Llama) for drafting, summarizing and everyday knowledge work while keeping confidential data inside Merck's environment [OpenAI (ChatGPT), Anthropic (Claude), Meta (Llama)]",
+   "existence": "confirmed",
+   "value": "~50,000 employees using it (about two-thirds of workforce)",
+   "tier": "",
+   "url": "https://intuitionlabs.ai/articles/merck-gpteal-ai-pharma-rd",
+   "raw_sector": "",
+   "date": "2025",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Merck & Co.",
+   "use": "Text-to-SQL generative-AI solution that translates natural-language questions into SQL to extract data from complex healthcare/clinical databases, built with the AWS Generative AI Innovation Center on Amazon Bedrock using Anthropic's Claude [AWS Bedrock, Anthropic Claude]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://aws.amazon.com/blogs/machine-learning/how-merck-uses-amazon-bedrock-to-translate-natural-language-into-sql-for-complex-healthcare-databases/",
+   "raw_sector": "",
+   "date": "2024-11",
+   "fresh": "aging"
+  },
+  {
+   "company": "Merck & Co.",
+   "use": "Generative AI used to protect and de-risk the supply chain — systems that anticipate and respond to potentially disruptive events (natural disasters, port delays) and optimize logistics",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.merck.com/stories/5-ways-were-transforming-artificial-intelligence-into-impact/",
+   "raw_sector": "",
+   "date": "2026-01",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Merck & Co.",
+   "use": "Multi-year, up-to-$1B partnership with Google Cloud to deploy an enterprise agentic AI platform (Gemini Enterprise) across R&D, manufacturing, commercial and corporate functions [Google Cloud (Gemini Enterprise, Vertex AI)]",
+   "existence": "claimed",
+   "value": "deal valued up to $1 billion",
+   "tier": "",
+   "url": "https://www.merck.com/news/merck-and-google-cloud-partner-to-accelerate-agentic-ai-enterprise-transformation/",
+   "raw_sector": "",
+   "date": "2026-04",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Merck & Co.",
+   "use": "Agentic AI for commercial/brand analytics — Merck deploying domain-aware data agents on governed data products using Databricks AI/BI Genie and Agent Bricks, delivered with partner ZS [Databricks (AI/BI Genie, Agent Bricks), ZS]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.databricks.com/dataaisummit/session/insights-scale-agentic-ai-how-ai-ready-data-transforming-commercial-life",
+   "raw_sector": "",
+   "date": "2026",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Merck & Co.",
+   "use": "Internal generative-AI platform (Intelligent Research Authoring Portal / iRAP CSR tool) that uses LLMs and data engineering to draft critical-path clinical study reports, cutting drafting time from ~2-3 weeks to ~3-4 days; built with McKinsey/QuantumBlack [McKinsey / QuantumBlack (LLM-based)]",
+   "existence": "confirmed",
+   "value": "CSR drafts in 3-4 days vs 2-3 weeks",
+   "tier": "",
+   "url": "https://www.merck.com/news/merck-expands-innovative-internal-generative-ai-solutions-helping-to-deliver-medicines-to-patients-faster/",
+   "raw_sector": "",
+   "date": "2025-06",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Merck & Co.",
+   "use": "HawkAVI automated visual inspection platform using deep-learning computer vision (and GANs) to detect product defects and reduce false rejects in pharmaceutical manufacturing lines, built on AWS with Amazon SageMaker [AWS (Amazon SageMaker, DataSync)]",
+   "existence": "confirmed",
+   "value": "false reject rates reduced 50% across various product lines",
+   "tier": "",
+   "url": "https://aws.amazon.com/blogs/industries/merck-builds-hawkavi-platform-on-aws-to-reduce-product-reject-rates/",
+   "raw_sector": "",
+   "date": "2022-11",
+   "fresh": "stale"
+  },
+  {
+   "company": "Merck & Co.",
+   "use": "KERMT — open-source small-molecule chemistry foundation model (pretrained on 11M+ molecules) to predict molecular behavior/ADMET endpoints and accelerate drug discovery, co-developed with NVIDIA [NVIDIA]",
+   "existence": "confirmed",
+   "value": "cuts discovery timelines by ~30%",
+   "tier": "",
+   "url": "https://www.merck.com/stories/our-ai-model-kermt-is-helping-to-advance-drug-discovery/",
+   "raw_sector": "",
+   "date": "2025-12",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Merck & Co.",
+   "use": "AI-assisted clinical trial operations: predictive models for site selection, patient matching, recruitment and retention, plus summarizing trial team meetings to build a central data truth",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.merck.com/stories/5-ways-were-transforming-artificial-intelligence-into-impact/",
+   "raw_sector": "",
+   "date": "2026-01",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Merck & Co.",
+   "use": "R&D collaboration with Mayo Clinic integrating de-identified multimodal clinical, imaging and genomic data with Merck's AI/ML discovery tools (including virtual cell modeling) to accelerate drug discovery and precision medicine in high-need therapeutic areas [Mayo Clinic Platform]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://newsnetwork.mayoclinic.org/discussion/merck-and-mayo-clinic-announce-new-research-and-development-collaboration-to-support-ai-enabled-drug-discovery-and-precision-medicine/",
+   "raw_sector": "",
+   "date": "2026-02",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Merck & Co.",
+   "use": "AI applied to manufacturing process optimization — accelerating root-cause identification, anomaly detection and process optimization across production",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.linkedin.com/posts/merck_with-the-assistance-of-ai-our-teams-are-activity-7385009534735663104-gII8",
+   "raw_sector": "",
+   "date": "2025",
+   "fresh": "fresh"
   }
  ]
 }

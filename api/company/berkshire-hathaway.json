@@ -3,39 +3,63 @@
  "name": "Berkshire Hathaway",
  "cc": "US",
  "vertical": "Financial Services",
- "deployments": 1,
- "confirmed": 0,
- "with_value_number": 0,
- "proof_rate": 0.0,
+ "deployments": 14,
+ "confirmed": 7,
+ "with_value_number": 3,
+ "proof_rate": 0.214,
  "mktcap": 1050000000000.0,
  "revenue": 375390000000.0,
  "employees": 387800.0,
  "silent": false,
- "per_bn_revenue": 0.0,
- "per_10k_emp": 0.03,
+ "per_bn_revenue": 0.04,
+ "per_10k_emp": 0.36,
  "benchmarks": {
   "global_vertical": {
-   "deployments": 0,
-   "confirmed": 0,
-   "proof_rate": 0,
+   "deployments": 99,
+   "confirmed": 92,
+   "proof_rate": 56,
    "n": 377
   },
   "country_vertical": {
-   "deployments": 0,
-   "confirmed": 0,
-   "proof_rate": 0,
+   "deployments": 100,
+   "confirmed": 84,
+   "proof_rate": 64,
    "n": 76
   }
  },
- "first_seen": null,
- "by_year": [],
- "undated_pct": 100,
- "momentum": "none",
- "maturity": "L1",
- "maturity_evidence": [
-  "rows_no_confirmed"
+ "first_seen": 2021,
+ "by_year": [
+  {
+   "year": 2021,
+   "n": 1
+  },
+  {
+   "year": 2023,
+   "n": 1
+  },
+  {
+   "year": 2024,
+   "n": 4
+  },
+  {
+   "year": 2025,
+   "n": 3
+  },
+  {
+   "year": 2026,
+   "n": 4
+  }
  ],
- "prospect_score": 40,
+ "undated_pct": 7,
+ "momentum": "early_mover,rising",
+ "maturity": "L4",
+ "maturity_evidence": [
+  "multi_horizontal",
+  "named_product:GEICO",
+  "value_number",
+  "multi_year"
+ ],
+ "prospect_score": 81,
  "stack": [],
  "vendor_named": false,
  "deployments_detail": [
@@ -49,6 +73,149 @@
    "raw_sector": "Financials",
    "date": "missing",
    "fresh": "undated"
+  },
+  {
+   "company": "Berkshire Hathaway",
+   "use": "BNSF deployed Predictive Vegetation Management (PVM) combining LiDAR scanning with machine learning, soil composition and historical weather data to forecast vegetation growth and optimize crew dispatch across its network.",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.bnsf.com/news-media/railtalk/innovation/preventive-vegetation-management.html",
+   "raw_sector": "",
+   "date": "2023",
+   "fresh": "stale"
+  },
+  {
+   "company": "Berkshire Hathaway",
+   "use": "McLane Company opened an AI/technology hub in Austin, Texas to develop AI and data capabilities for its foodservice and grocery supply-chain distribution business, appointing a Chief Information and Digital Officer.",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.01net.it/mclane-company-expands-it-presence-with-new-austin-tech-hub/",
+   "raw_sector": "",
+   "date": "2025-08",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Berkshire Hathaway",
+   "use": "Pilot Flying J (Pilot Company) deployed Infor Coleman AI for daily finance anomaly detection across hundreds of thousands of accounting line items, plus fuel-margin optimization, with workforce management and sales forecasting in development. [Infor Coleman AI]",
+   "existence": "confirmed",
+   "value": "~3 hours saved per accountant daily; projected $750,000/yr from penny-level fuel pricing precision",
+   "tier": "",
+   "url": "https://diginomica.com/fuel-margin-analysis-workforce-management-analyzing-twinkie-sales-how-pilot-flying-j-plans-turn",
+   "raw_sector": "",
+   "date": "2021",
+   "fresh": "stale"
+  },
+  {
+   "company": "Berkshire Hathaway",
+   "use": "GEICO opened a Palo Alto office dedicated to driving AI and technology innovation as part of its broader tech/infrastructure transformation.",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPTUt3WXZHdFNSdXFoUkpxVGNMZHEydVA1dy03NTFmWWpLYU1Cb2xzWTJIMHRSV25CaG12QTBsd09nUlRQcE4zU284T2pQbjFBSmFQRVQtVHlxWXljRVA3U2JSc0hJWVk5Rm5lYjgyV3JURl9IMFBZbW1NMEVmcS0yeVI4YUdIY09hLWs3VHFGaGthUEpSNU41NEcyZ251VnhyeFpTUXkxSDJjVTB4UFdoLUhSVVJEWWZTOTZlNzVOaWJuRjBoMkg0",
+   "raw_sector": "",
+   "date": "2025-10",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Berkshire Hathaway",
+   "use": "GEICO brought its Gecko mascot into live, unscripted conversation for the first time using a real-time generative AI voice system for marketing/brand engagement (including an AI-generated podcast appearance).",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxPaE0yN1JSXzVNbW9pVDEteEFCbHZGX0FQZEp5ZE9HbTNKMWRuMUp4RXNXQmMzY25JN1h1bk5GTW0xZ3ViX1RaamNmWUZCZ3RsZFc5QVZpakV2YWUzTU92TTMza1g5dkI5MUYtaHlvUjlWVHNaakZYd0taek9uVVkyajllbTZWOVdKVUs0S1VRdWZkc0xGUnBnRWF5eFhtMS1DaU1WV0JqTnJSa2dzNGs5RDZPMmtDM0k2TWt0QkFDWDRMMnJ1R0F4eU9VZHpVVU56ZGJwYjdSZnE1YmUyd1E",
+   "raw_sector": "",
+   "date": "2026-06",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Berkshire Hathaway",
+   "use": "Berkshire Hathaway HomeServices franchises (The Preferred/Stouffer Realty) launched 'AI BOSS' and an AI-powered home search tool to assist agents and buyers in property discovery and brokerage operations.",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://menafn.com/1110968022/Berkshire-Hathaway-Homeservices-The-Preferred-Stouffer-Realty-Launch-AI-BOSS",
+   "raw_sector": "",
+   "date": "2026-04",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Berkshire Hathaway",
+   "use": "GEICO uses Tractable's AI Review computer-vision system to assess vehicle damage from claim photos, identifying damage and evaluating repair estimates in seconds versus ~30-minute manual reviews, flagging exceptions for human adjusters. [Tractable]",
+   "existence": "confirmed",
+   "value": "estimates assessed within seconds vs ~30-minute manual review",
+   "tier": "",
+   "url": "https://emerj.com/artificial-intelligence-at-geico/",
+   "raw_sector": "",
+   "date": "2024",
+   "fresh": "aging"
+  },
+  {
+   "company": "Berkshire Hathaway",
+   "use": "GEICO used an AI-driven system in its auto-insurance policy underwriting/cancellation review process; after a Pennsylvania Attorney General probe found it caused an improper cancellation, GEICO agreed to modify the process. Confirms the AI review was in production.",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.yahoo.com/news/us/articles/pennsylvania-reaches-agreement-geico-unfair-133500671.html",
+   "raw_sector": "",
+   "date": "2026-05",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Berkshire Hathaway",
+   "use": "BNSF Railway operates ODIN (onboard laser/sensor track-geometry measurement) and THOR (high-speed optical cameras with machine-vision algorithms) for automated track inspection and defect detection at up to 70 mph, supporting predictive maintenance.",
+   "existence": "confirmed",
+   "value": "THOR imaged 165,000 miles and found 1,900 defects in 2025; track-caused equipment incidents down 33%",
+   "tier": "",
+   "url": "https://www.bnsf.com/news-media/railtalk/safety/odin-thor.html",
+   "raw_sector": "",
+   "date": "2025",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Berkshire Hathaway",
+   "use": "BNSF combined AI, algorithmic optimization and machine learning to automate rail-car switching decisions in classification yards, improving safety and efficiency of the switching process.",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxNalhCcW5LUlVEd3V2VEUwWUlMY0VIemVEVmp0bHRTcmRMMWpjRm44UTNudTVyT3pPU0h0QWgwSTNma1JiVWpTeGoxOC15TVRiNzRTdjBkOEhBX2YzX21UZFM5VVBqLTlCZUR1NVJ6OF8xNFVYb1c0T3BTaVFlel9nV3liczg0b0F3NnVyeXM5RnNJYzdDOHhKdXVWRmJHQ09WNHhxMjZwYUVseGxtUVVYVEI3aWdxNFVzTjlqQndRbzJXLS1feDhjNXlocWdkWUduZWdWTmh6V1hIUQ",
+   "raw_sector": "",
+   "date": "2024-02",
+   "fresh": "aging"
+  },
+  {
+   "company": "Berkshire Hathaway",
+   "use": "BNSF uses AI/machine-learning demand forecasting to predict shipment volumes and match capacity to customer demand ('just right' service) across its intermodal and container network.",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9ablZpSERsMlpNRjdVM3Zja2JUaGNQN2ZnZ0lxTzBNT3FXM1I4WEVTZ2pCdktNbGZJRFJYNFB1dkVZYS0yRGFGUGc0OUxFYkRGNU5UMC15aTRZQkFQTXpsQ3JoWkJ3dUlCTHpCZE5QckJNRGVsbkxkdTU3eV9rRFU",
+   "raw_sector": "",
+   "date": "2024-02",
+   "fresh": "aging"
+  },
+  {
+   "company": "Berkshire Hathaway",
+   "use": "McLane Company (Berkshire subsidiary) launched driverless commercial freight hauls with Aurora, running fully autonomous trucks between Dallas and Houston distribution terminals seven days a week, expanding across the Sun Belt. [Aurora Innovation]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://techcrunch.com/2026/05/06/aurora-lands-mclane-deal-to-run-driverless-truck-routes-in-texas/",
+   "raw_sector": "",
+   "date": "2026-05",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Berkshire Hathaway",
+   "use": "GEICO deployed CCC Intelligent Solutions' Smart Red Flag Detection with Cross-Carrier Analysis, using deep learning to scan claims data and photos for suspicious patterns and compare claims across carriers to detect potential fraud. [CCC Intelligent Solutions]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://emerj.com/artificial-intelligence-at-geico/",
+   "raw_sector": "",
+   "date": "2024",
+   "fresh": "aging"
   }
  ]
 }

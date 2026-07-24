@@ -3,40 +3,54 @@
  "name": "Geberit AG",
  "cc": "CH",
  "vertical": "Industrial / Machinery",
- "deployments": 2,
- "confirmed": 2,
- "with_value_number": 0,
- "proof_rate": 0.0,
+ "deployments": 11,
+ "confirmed": 8,
+ "with_value_number": 4,
+ "proof_rate": 0.364,
  "mktcap": 19289100000.0,
  "revenue": 3570800000.0,
  "employees": 9925.0,
  "silent": false,
- "per_bn_revenue": 0.56,
- "per_10k_emp": 2.02,
+ "per_bn_revenue": 3.08,
+ "per_10k_emp": 11.08,
  "benchmarks": {
   "global_vertical": {
-   "deployments": 89,
-   "confirmed": 90,
-   "proof_rate": 0,
+   "deployments": 95,
+   "confirmed": 94,
+   "proof_rate": 74,
    "n": 175
   }
  },
- "first_seen": 2025,
+ "first_seen": 2021,
  "by_year": [
   {
-   "year": 2025,
+   "year": 2021,
+   "n": 2
+  },
+  {
+   "year": 2023,
    "n": 1
+  },
+  {
+   "year": 2024,
+   "n": 2
+  },
+  {
+   "year": 2025,
+   "n": 4
   }
  ],
- "undated_pct": 50,
+ "undated_pct": 18,
  "momentum": "early_mover,rising",
- "maturity": "L3",
+ "maturity": "L4",
  "maturity_evidence": [
   "multi_horizontal",
   "named_product:Statworx",
+  "value_number",
+  "multi_year",
   "tier_p"
  ],
- "prospect_score": 60,
+ "prospect_score": 81,
  "stack": [],
  "vendor_named": false,
  "deployments_detail": [
@@ -61,6 +75,105 @@
    "raw_sector": "Industrials",
    "date": "2025",
    "fresh": "fresh"
+  },
+  {
+   "company": "Geberit AG",
+   "use": "Microsoft Copilot deployed as an AI assistant for employees to analyze large volumes of data quickly and recognize patterns as part of everyday work. [Microsoft Copilot]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://reports.geberit.com/annual-report/2025/highlights/competencies/ai-combs-through-mountains-of-data.html",
+   "raw_sector": "",
+   "date": "2025",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Geberit AG",
+   "use": "Interdisciplinary teams in Geberit's AI Competence Centre develop AI agents that automate internal workflows to make everyday work more efficient; capability built via internal training and hackathons. [In-house (AI Competence Centre)]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://reports.geberit.com/annual-report/2025/highlights/competencies/ai-combs-through-mountains-of-data.html",
+   "raw_sector": "",
+   "date": "2025",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Geberit AG",
+   "use": "AI agent to automate responses to external sustainability inquiries and rating-platform questionnaires (up to ~500 precise answers), drawing on Geberit's full body of environmental/social/economic sustainability knowledge. [In-house (AI Competence Centre)]",
+   "existence": "claimed",
+   "value": "handles up to 500 required answers per rating questionnaire",
+   "tier": "",
+   "url": "https://reports.geberit.com/annual-report/2025/highlights/competencies/ai-combs-through-mountains-of-data.html",
+   "raw_sector": "",
+   "date": "2025",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Geberit AG",
+   "use": "Group-wide AI Competence Centre established in 2024 to identify AI business opportunities, build the digital/data foundation for AI processing, and run internal training and hackathons to expand AI expertise across the organization. [In-house]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://reports.geberit.com/annual-report/2024/business-report/business-and-financial-review/financial-year-2024/information-technology.html",
+   "raw_sector": "",
+   "date": "2024",
+   "fresh": "aging"
+  },
+  {
+   "company": "Geberit AG",
+   "use": "Planned AI-based optimization of warehousing and manufacturing execution systems (logistics and production) and of customer-relationship solutions, cited as target areas for the AI competence centre. [unnamed]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://reports.geberit.com/annual-report/2024/business-report/business-and-financial-review/financial-year-2024/information-technology.html",
+   "raw_sector": "",
+   "date": "2024",
+   "fresh": "aging"
+  },
+  {
+   "company": "Geberit AG",
+   "use": "Generative-AI customer-support system that classifies and routes over one million inbound customer emails per year and drafts automated response suggestions for agents, reducing misrouting and manual handling. [statworx; OpenAI GPT-3.5 / ChatGPT, BERT, Hugging Face, Azure ML, Azure Logic Apps, Microsoft Dynamics 365, Office 365]",
+   "existence": "confirmed",
+   "value": "70% reduction in misrouted emails; time savings equivalent to ~3 working months per year; >1M inquiries/year processed",
+   "tier": "",
+   "url": "https://www.statworx.com/en/case-studies/geberit-customer-support-case-study",
+   "raw_sector": "",
+   "date": "2023",
+   "fresh": "stale"
+  },
+  {
+   "company": "Geberit AG",
+   "use": "AI-driven dimensioning of Pluvia siphonic roof drainage inside the Geberit ProPlanner specification tool: a three-stage engine (rule-based heuristics ~75%, machine learning to 93.4% accuracy, reinforcement learning for the remaining cases) automatically calculates roof drainage layouts. Deployed in production across 31 markets and 20 languages. [In-house (machine learning + reinforcement learning)]",
+   "existence": "confirmed",
+   "value": "93.4% of calculations solved by ML (up from ~75% with heuristics); live in 31 markets, 20 languages",
+   "tier": "",
+   "url": "https://www.geberit.com/en/insights/learning-like-children",
+   "raw_sector": "",
+   "date": "2021",
+   "fresh": "stale"
+  },
+  {
+   "company": "Geberit AG",
+   "use": "Classic AI applications in image and voice recognition used at Geberit (trained on human-labelled data), described as one of the company's two core AI areas alongside reinforcement learning. [In-house]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.geberit.com/en/insights/learning-like-children",
+   "raw_sector": "",
+   "date": "2021",
+   "fresh": "stale"
+  },
+  {
+   "company": "Geberit AG",
+   "use": "AI chatbot on Geberit's AquaClean (shower toilet) websites automating B2C/B2B marketing and support inquiries across multiple European markets and languages, distinguishing consumers from specialist partners and handing off to human agents, with lead generation. [moinAI (chatbot platform) integrated with LiveChat]",
+   "existence": "confirmed",
+   "value": "47% automation rate; 25% fewer manually handled requests; 10% of conversations converted to leads; 24,000+ interactions/year",
+   "tier": "",
+   "url": "https://www.moin.ai/en/case-studies/geberit-chatbot",
+   "raw_sector": "",
+   "date": "missing",
+   "fresh": "undated"
   }
  ]
 }

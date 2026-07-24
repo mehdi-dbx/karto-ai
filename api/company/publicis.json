@@ -3,40 +3,59 @@
  "name": "Publicis",
  "cc": "FR",
  "vertical": "Media / Entertainment / Gaming",
- "deployments": 1,
- "confirmed": 1,
- "with_value_number": 1,
- "proof_rate": 1.0,
+ "deployments": 11,
+ "confirmed": 8,
+ "with_value_number": 6,
+ "proof_rate": 0.545,
  "mktcap": 23360400000.0,
  "revenue": 19062000000.0,
  "employees": 114079.0,
  "silent": false,
- "per_bn_revenue": 0.05,
- "per_10k_emp": 0.09,
+ "per_bn_revenue": 0.58,
+ "per_10k_emp": 0.96,
  "benchmarks": {
   "global_vertical": {
-   "deployments": 0,
-   "confirmed": 18,
+   "deployments": 94,
+   "confirmed": 94,
    "proof_rate": 59,
    "n": 35
   },
   "country_vertical": {
-   "deployments": 0,
-   "confirmed": 0,
+   "deployments": 83,
+   "confirmed": 83,
    "proof_rate": 50,
    "n": 7
   }
  },
- "first_seen": null,
- "by_year": [],
- "undated_pct": 100,
- "momentum": "none",
- "maturity": "L3",
- "maturity_evidence": [
-  "named_product:CoreAI",
-  "value_number"
+ "first_seen": 2018,
+ "by_year": [
+  {
+   "year": 2018,
+   "n": 1
+  },
+  {
+   "year": 2024,
+   "n": 2
+  },
+  {
+   "year": 2025,
+   "n": 1
+  },
+  {
+   "year": 2026,
+   "n": 6
+  }
  ],
- "prospect_score": 14,
+ "undated_pct": 9,
+ "momentum": "early_mover,rising",
+ "maturity": "L4",
+ "maturity_evidence": [
+  "multi_horizontal",
+  "named_product:CoreAI",
+  "value_number",
+  "multi_year"
+ ],
+ "prospect_score": 74,
  "stack": [],
  "vendor_named": false,
  "deployments_detail": [
@@ -50,6 +69,116 @@
    "raw_sector": "Media",
    "date": "missing",
    "fresh": "undated"
+  },
+  {
+   "company": "Publicis",
+   "use": "CoreAI — group-wide AI platform (launched Jan 2024) unifying 2.3bn consumer profiles, ~1PB of Marcel content and Publicis Sapient's code/data to power insight, media, creation/production, software and operations for 100,000+ employees. Backed by a €300M/3-year investment; uses Microsoft cloud and Nvidia chips. [Microsoft, Nvidia]",
+   "existence": "confirmed",
+   "value": "€300M invested over 3 years; 2.3bn consumer profiles; ~1PB data; 100,000+ employees",
+   "tier": "",
+   "url": "https://www.strategies.fr/actualites/agences/LQ2823156C/publicis-met-lia-au-coeur-de-son-modele-avec-coreai.html",
+   "raw_sector": "",
+   "date": "2024-01",
+   "fresh": "aging"
+  },
+  {
+   "company": "Publicis",
+   "use": "Sapient Bodhi — platform to deploy and scale secure, enterprise-grade AI agents across operations, commerce, marketing and customer engagement (incl. ML Ops), used to connect agents to e-commerce/CRM/ERP/inventory and secure data exchange in client engagements.",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.cbnews.fr/conseil/performics-publicis-sapient-devoilent-offre-agentic-ready",
+   "raw_sector": "",
+   "date": "2026",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Publicis",
+   "use": "Publicis Sapient + AWS five-year strategic collaboration to build and scale generative-AI-driven digital business transformation solutions for enterprise clients. [AWS]",
+   "existence": "confirmed",
+   "value": "five-year agreement",
+   "tier": "",
+   "url": "https://gulfbusiness.com/en/2025/artificial-intelligence/publicis-sapient-aws-announce-key-collaboration/",
+   "raw_sector": "",
+   "date": "2025",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Publicis",
+   "use": "G42 + Publicis Sapient AI-first services joint venture (MoU) to deliver enterprise AI adoption via sovereign infrastructure and industry expertise for the UAE and Global South. [G42]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.zawya.com/en/press-release/companies-news/g42-and-publicis-sapient-to-explore-ai-first-services-joint-venture-for-the-uae-and-global-south-i84k1dae",
+   "raw_sector": "",
+   "date": "2026",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Publicis",
+   "use": "Marcel — AI-powered internal productivity/collaboration platform (Daily Six, Expert Match, Open Brief) connecting the global workforce for knowledge-sharing, staffing and content, using Cortana-powered voice/video analysis and predictive analytics. [Microsoft (Azure, Cortana)]",
+   "existence": "confirmed",
+   "value": "rolled out to ~80,000 employees",
+   "tier": "",
+   "url": "https://techcrunch.com/2018/05/24/microsoft-and-publicis-unveil-marcel-an-ai-based-productivity-platform-for-the-ad-giant/",
+   "raw_sector": "",
+   "date": "2018-05",
+   "fresh": "stale"
+  },
+  {
+   "company": "Publicis",
+   "use": "Microsoft 365 Copilot enterprise rollout — Publicis deployed M365 Copilot to all 114,000+ employees worldwide for workforce productivity, with Azure as preferred cloud, as part of the expanded Microsoft partnership. [Microsoft (M365 Copilot, Azure)]",
+   "existence": "confirmed",
+   "value": "deployed to 114,000+ employees",
+   "tier": "",
+   "url": "https://bestmediainfo.com/mediainfo/mediainfo-marketing/microsoft-and-publicis-groupe-expand-partnership-to-build-ai-powered-full-stack-marketing-platform-11704054",
+   "raw_sector": "",
+   "date": "2026-04",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Publicis",
+   "use": "Sapient Slingshot — AI software-engineering platform that connects the full SDLC (strategy, design, build, deploy) via a real-time context graph, with intelligent assistants for developers/PMs/designers, automated coding, docs and testing, and AI agents that modernize legacy code (e.g. COBOL conversion). Deployed for global banks, healthcare providers and government agencies in Saudi Arabia and Dubai.",
+   "existence": "confirmed",
+   "value": "part of $100M/3-year self-disruption investment",
+   "tier": "",
+   "url": "https://analyticsindiamag.com/global-tech/how-publicis-sapient-is-rebuilding-software-development-around-ai-context/",
+   "raw_sector": "",
+   "date": "2024",
+   "fresh": "aging"
+  },
+  {
+   "company": "Publicis",
+   "use": "Sapient Sustain — agentic AI platform for enterprise IT operations built on an enterprise context graph (tickets, logs, systems); uses multi-agent orchestration, self-healing workflows and predictive models to detect and resolve incidents. Live with Nissan.",
+   "existence": "confirmed",
+   "value": "Nissan: 40% lower operational costs, 62% same-day issue resolution (+72%), 80% shift to proactive ops, 99.99% uptime",
+   "tier": "",
+   "url": "https://siliconangle.com/2026/06/11/publicis-sapient-launches-sustain-transform-operations-ai-enabled-support/",
+   "raw_sector": "",
+   "date": "2026-06",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Publicis",
+   "use": "Agentic marketing full-stack platform with Microsoft — unifying legacy systems, AI agents and identity data; integrates Microsoft Copilot Studio, Agent 365 and Epsilon identity data on Microsoft Fabric so AI agents can act on proprietary data across marketing, commerce and customer engagement. [Microsoft (Copilot Studio, Agent 365, Fabric, Azure), Epsilon]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://finance.yahoo.com/sectors/technology/articles/microsoft-publicis-groupe-expand-strategic-130000265.html",
+   "raw_sector": "",
+   "date": "2026-04",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Publicis",
+   "use": "'Agentic Ready' offer (Performics + Publicis Sapient) — helps brands adapt to conversational/transactional AI agents via GEO Ready (visibility to AI), Feed Ready (AI-consumable product feeds) and Infra Ready (connecting AI agents to commerce/CRM/ERP via Bodhi) so AI agents can search, recommend and buy products.",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.cbnews.fr/conseil/performics-publicis-sapient-devoilent-offre-agentic-ready",
+   "raw_sector": "",
+   "date": "2026-05",
+   "fresh": "fresh"
   }
  ]
 }

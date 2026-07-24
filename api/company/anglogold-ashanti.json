@@ -3,44 +3,67 @@
  "name": "AngloGold Ashanti",
  "cc": "ZA",
  "vertical": "Mining & Materials",
- "deployments": 1,
- "confirmed": 0,
- "with_value_number": 1,
- "proof_rate": 1.0,
+ "deployments": 10,
+ "confirmed": 6,
+ "with_value_number": 3,
+ "proof_rate": 0.3,
  "mktcap": 36398918919.0,
  "revenue": 10301081081.0,
  "employees": 38000.0,
  "silent": false,
- "per_bn_revenue": 0.1,
- "per_10k_emp": 0.26,
+ "per_bn_revenue": 0.97,
+ "per_10k_emp": 2.63,
  "benchmarks": {
   "global_vertical": {
-   "deployments": 0,
-   "confirmed": 0,
-   "proof_rate": 78,
+   "deployments": 97,
+   "confirmed": 97,
+   "proof_rate": 72,
    "n": 61
   },
   "country_vertical": {
-   "deployments": 0,
-   "confirmed": 0,
+   "deployments": 100,
+   "confirmed": 100,
    "proof_rate": 86,
    "n": 8
   }
  },
- "first_seen": 2026,
+ "first_seen": 2018,
  "by_year": [
+  {
+   "year": 2018,
+   "n": 1
+  },
+  {
+   "year": 2021,
+   "n": 1
+  },
+  {
+   "year": 2023,
+   "n": 1
+  },
+  {
+   "year": 2024,
+   "n": 4
+  },
+  {
+   "year": 2025,
+   "n": 2
+  },
   {
    "year": 2026,
    "n": 1
   }
  ],
  "undated_pct": 0,
- "momentum": "late_entrant,rising",
- "maturity": "L1",
+ "momentum": "early_mover,cooling",
+ "maturity": "L4",
  "maturity_evidence": [
-  "rows_no_confirmed"
+  "multi_horizontal",
+  "named_product:EEG",
+  "value_number",
+  "multi_year"
  ],
- "prospect_score": 0,
+ "prospect_score": 72,
  "stack": [],
  "vendor_named": false,
  "deployments_detail": [
@@ -54,6 +77,105 @@
    "raw_sector": "Mining",
    "date": "2026",
    "fresh": "fresh"
+  },
+  {
+   "company": "AngloGold Ashanti",
+   "use": "Enterprise governance and controlled internal use of generative-AI tools: AngloGold Ashanti has a formal AI risk-management/ethical-use framework governing employee use of AI-based tools (prohibiting input of corporate data, requiring disclosure and accountability), indicating GenAI tools are in use across business functions as a digital productivity enabler.",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.anglogoldashanti.com/sustainability/governance/risk-management/",
+   "raw_sector": "",
+   "date": "2024",
+   "fresh": "aging"
+  },
+  {
+   "company": "AngloGold Ashanti",
+   "use": "AI and digital-skills training program run by the Obuasi Mine (Ghana) that introduces key community groups and local participants to leading AI/GenAI platforms including ChatGPT, Grok and Gemini, alongside a commissioned Robotics Centre for STEM/coding education, as part of AngloGold Ashanti's local digital-capability building. [OpenAI (ChatGPT), Google (Gemini), xAI (Grok)]",
+   "existence": "confirmed",
+   "value": "GHS 8.4 million Robotics Centre",
+   "tier": "",
+   "url": "https://ghanaiantimes.com.gh/anglogold-ashanti-unveils-robotics-centre-for-obuasi-shts/",
+   "raw_sector": "",
+   "date": "2025",
+   "fresh": "fresh"
+  },
+  {
+   "company": "AngloGold Ashanti",
+   "use": "EEG-based wearable AI fatigue monitoring ('Life by SmartCap') deployed on heavy-vehicle operators at the Iduapriem gold mine in Ghana; a LifeBand headband reads brainwave data and predicts microsleeps, issuing real-time alerts to prevent fatigue-related incidents. Deployed on 30 vehicles with 90 operators, expanding to 72 vehicles/216 operators, with planned rollout across all African operations. [SmartCap Technologies (Life by SmartCap), implemented by RAMJACK Technology Solutions]",
+   "existence": "confirmed",
+   "value": "Zero fatigue-related injuries/property damage recorded since implementation",
+   "tier": "",
+   "url": "https://ramjacktech.com/case-studies/how-implementing-life-by-smartcap-eliminated-driver-fatigue-related-incidents-at-anglogold-ashantis-iduapriem-gold-mine-in-ghana/",
+   "raw_sector": "",
+   "date": "2021",
+   "fresh": "stale"
+  },
+  {
+   "company": "AngloGold Ashanti",
+   "use": "AI-powered mineral exploration using Fleet Space's ExoSphere ambient-noise tomography, which builds real-time 3D subsurface models to identify copper-gold drill targets. After ExoSphere flagged high-priority targets at the Duck Creek project (Macquarie Arc, Australia), AngloGold Ashanti (as operator under its agreement with Inflection Resources) upgraded the project from Phase I to Phase II and drilled the AI-identified targets. [Fleet Space Technologies (ExoSphere)]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.mining-technology.com/news/inflection-fleet-ai-copper/",
+   "raw_sector": "",
+   "date": "2024",
+   "fresh": "aging"
+  },
+  {
+   "company": "AngloGold Ashanti",
+   "use": "Scientific/Industrial AI real-time process-optimization and 'Industry 4.0' capabilities deployed at AngloGold Ashanti Australia via MinLog's MineSuite platform, developed and implemented in partnership with IntelliSense.io to schedule, track, monitor and optimize underground production operations. [MinLog (MineSuite) with IntelliSense.io]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.mining.com/web/anglogold-ashanti-selects-minesuite-underground-tracking-control/",
+   "raw_sector": "",
+   "date": "2018",
+   "fresh": "stale"
+  },
+  {
+   "company": "AngloGold Ashanti",
+   "use": "Machine-learning ore sorting to distinguish gold-bearing rock from waste using RGB camera images and hyperspectral data at the Sunrise Dam gold mine (Western Australia). Researchers from AngloGold Ashanti and the University of Western Australia trained SVM, naive Bayes and decision-table classifiers with cost-sensitive learning to make sensor-based sorting economically viable. [University of Western Australia (research collaboration)]",
+   "existence": "claimed",
+   "value": "Cost-sensitive ML cut nominal profit loss from $0.98/tonne to $0.34/tonne; SVM reached 84% ore acceptance / 87% waste rejection",
+   "tier": "",
+   "url": "https://bestpractice.ai/ai-use-cases/case-studies/manufacturing-industrials/researchers-investigate-a-cost-effective-machine-learning-method-for-identifying-gold-from-waste-during-ore-sorting-at-an-anglogold-ashanti-mine",
+   "raw_sector": "",
+   "date": "2024",
+   "fresh": "aging"
+  },
+  {
+   "company": "AngloGold Ashanti",
+   "use": "AI + LiDAR portable imaging system for underground ground-support (rock-support) condition monitoring, co-developed with Geobotica. Cameras, LiDAR and lighting capture georeferenced 360-degree imagery and 3D maps of underground excavations without a surveyor on site, letting engineers visualize and monitor deterioration in ground support over time. [Geobotica]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.linkedin.com/posts/olgaverezub_a-very-interesting-talk-by-emrich-hamman-activity-7334080393207324672-I9tS",
+   "raw_sector": "",
+   "date": "2025",
+   "fresh": "fresh"
+  },
+  {
+   "company": "AngloGold Ashanti",
+   "use": "Evaluation/study of AI-driven autonomous haulage (self-driving ultra-class haul trucks) for open-pit operations at the Expanded Silicon / Arthur Gold project in Nevada, USA, to optimize efficiency and reduce risk. CTO Marcelo Godoy confirmed the company is studying autonomous haulage as part of a prefeasibility study; autonomous loading is explicitly not being pursued yet.",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://im-mining.com/2023/06/30/anglogold-eyes-autonomous-haulage-advantages-at-nevada-project/",
+   "raw_sector": "",
+   "date": "2023",
+   "fresh": "stale"
+  },
+  {
+   "company": "AngloGold Ashanti",
+   "use": "Generative-AI marketing campaign in Brazil in which AngloGold Ashanti used AI, collaboratively with employees and the community, to create a commemorative stamp/seal marking the company's 190th anniversary of operations, via a cultural competition where entrants chose words that fed the AI-generated design.",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://ibram.org.br/en/noticia/anglogold-ashanti-utiliza-inteligencia-artificial-para-criar-colaborativamente-selo-comemorativo-de-190-anos-da-empresa/",
+   "raw_sector": "",
+   "date": "2024",
+   "fresh": "aging"
   }
  ]
 }

@@ -17,7 +17,7 @@
   "global_vertical": {
    "deployments": 0,
    "confirmed": 16,
-   "proof_rate": 68,
+   "proof_rate": 78,
    "n": 93
   }
  },
@@ -60,6 +60,105 @@
    "url": "http://www.sasac.gov.cn/n2588025/n2641611/c32651788/content.html",
    "raw_sector": "Telecom",
    "date": "2025-07",
+   "fresh": "fresh"
+  },
+  {
+   "company": "China Mobile",
+   "use": "Jiutian foundation large model — China Mobile's self-developed, fully domestically-controllable LLM family (Jiutian 3.0 with Zhongqing language MoE model, Shanzhi multimodal model, and code/math specialist models). Serves as the base platform powering 100+ AI products and 29+ industry agents across the group. [China Mobile Jiutian (self-developed)]",
+   "existence": "confirmed",
+   "value": "35% improvement in complex reasoning; GPQA-Diamond 77.67 (2nd globally); 15T tokens pre-training",
+   "tier": "",
+   "url": "https://news.aibase.com/news/20053",
+   "raw_sector": "",
+   "date": "2025-07",
+   "fresh": "fresh"
+  },
+  {
+   "company": "China Mobile",
+   "use": "Jiutian industry-specific large models — 20+ vertical large models built on the Jiutian platform for sectors including healthcare/medical diagnosis, governance, and networks; the Jiutian Medical model is embedded in clinical diagnosis-and-treatment workflows (Guangzhou). [China Mobile Jiutian]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "http://en.sasac.gov.cn/2024/04/15/c_16963.htm",
+   "raw_sector": "",
+   "date": "2024",
+   "fresh": "aging"
+  },
+  {
+   "company": "China Mobile",
+   "use": "Automated network operation and maintenance — large AI models across business, wireless and core network domains monitor indicators in real time, use NLP to alert O&M staff on alarms, diagnose quality issues and recommend remedies. Deployed in Shandong province. [ZTE]",
+   "existence": "confirmed",
+   "value": "30% projected increase in overall O&M efficiency",
+   "tier": "",
+   "url": "https://www.gsma.com/get-involved/gsma-foundry/gsma_resources/automating-network-operation-and-maintenance-china-mobile-zte/",
+   "raw_sector": "",
+   "date": "2024",
+   "fresh": "aging"
+  },
+  {
+   "company": "China Mobile",
+   "use": "Intelligent RAN Parks — 5G-Advanced + AI wireless network operations targeting L4 autonomy with self-configuration, self-healing and self-optimization, using Huawei digital-avatar agents (Optim Spirit, Bit Mentor, FME Mate, Watt Spirit) and chat-like operations. Operational parks in Anhui and Fujian (also Henan). [Huawei]",
+   "existence": "confirmed",
+   "value": "20% faster fault resolution; 10% energy reduction; CNY50M annual electricity savings; 21.6% of poor-quality work orders auto-resolved",
+   "tier": "",
+   "url": "https://www.mobileworldlive.com/china-mobile-and-huawei-launch-worlds-first-intelligent-ran-parks-ushering-in-a-new-era-of-intelligent-communications/",
+   "raw_sector": "",
+   "date": "2025-03",
+   "fresh": "fresh"
+  },
+  {
+   "company": "China Mobile",
+   "use": "Green 5G AI energy-saving program — AI-driven autonomous network optimization for end-to-end energy saving across wireless base stations, transport networks and data centers, combined with MetaAAU antennas. Deployed in Shanghai and Shenzhen.",
+   "existence": "confirmed",
+   "value": "30-35% energy reduction (Shanghai); 47% energy savings per building (Shenzhen)",
+   "tier": "",
+   "url": "https://www.gsma.com/get-involved/gsma-foundry/wp-content/uploads/2024/11/Green-networks-in-action-China-Mobile.pdf",
+   "raw_sector": "",
+   "date": "2024",
+   "fresh": "aging"
+  },
+  {
+   "company": "China Mobile",
+   "use": "Lingxi Intelligent Agent — consumer-facing AI assistant built on Jiutian, providing human-like scheduling, life/office/home services and communication features across five high-frequency scenarios (mobility, daily life, home, office, communications). Version 2.0 released at WAIC 2025. [China Mobile Jiutian]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://en.youth.cn/RightNow/202507/t20250728_16143015.htm",
+   "raw_sector": "",
+   "date": "2025-07",
+   "fresh": "fresh"
+  },
+  {
+   "company": "China Mobile",
+   "use": "Customer Service Large Model — LLM for smart customer service that reduces irrelevant responses and slow resolution, trained via pre-training + instruction fine-tuning + RLHF, built by China Mobile's online marketing service center and Jiutian Innovation Research Institute. [China Mobile Jiutian]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.gsma.com/get-involved/gsma-foundry/gsma_resources/china-mobile-customer-service-large-model/",
+   "raw_sector": "",
+   "date": "2024",
+   "fresh": "aging"
+  },
+  {
+   "company": "China Mobile",
+   "use": "Multimodal LLM message anti-fraud — 'Smart Safeguard' system analyzing text, audio, video and image content/intent to detect fraudulent messages and warn recipients, integrated into SMS and rich-media message centers. Deployed by China Mobile Shanghai (GPUs serving ~10M subscribers). [ZTE]",
+   "existence": "confirmed",
+   "value": "60% reduction in reported fraud cases; 99% accuracy; 80% reduction in manual review",
+   "tier": "",
+   "url": "https://www.gsma.com/get-involved/gsma-foundry/gsma_resources/cmcc-and-zte-multimodal-llm-enhanced-anti-fraud-solution/",
+   "raw_sector": "",
+   "date": "2023-10",
+   "fresh": "stale"
+  },
+  {
+   "company": "China Mobile",
+   "use": "AI anti-fraud calling service — real-time analysis of voice content and media streams during live calls to detect voice/telecom fraud, triggering call interruption, alerts and guardian notification, processed locally on the 5G network. Deployed in Henan province; won PT/ICT 2025 top prize. [ZTE]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.mobileworldlive.com/china-mobile-henan-and-zte-ai-anti-fraud-calling-wins-pt-ict2025-top-prize/",
+   "raw_sector": "",
+   "date": "2025",
    "fresh": "fresh"
   }
  ]

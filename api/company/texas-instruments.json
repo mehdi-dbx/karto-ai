@@ -3,40 +3,51 @@
  "name": "Texas Instruments",
  "cc": "US",
  "vertical": "Technology",
- "deployments": 1,
- "confirmed": 1,
+ "deployments": 7,
+ "confirmed": 4,
  "with_value_number": 0,
  "proof_rate": 0.0,
  "mktcap": 256780000000.0,
  "revenue": 19450000000.0,
  "employees": 33000.0,
  "silent": false,
- "per_bn_revenue": 0.05,
- "per_10k_emp": 0.3,
+ "per_bn_revenue": 0.36,
+ "per_10k_emp": 2.12,
  "benchmarks": {
   "global_vertical": {
-   "deployments": 0,
-   "confirmed": 6,
+   "deployments": 82,
+   "confirmed": 83,
    "proof_rate": 0,
    "n": 156
   },
   "country_vertical": {
-   "deployments": 0,
-   "confirmed": 4,
+   "deployments": 71,
+   "confirmed": 74,
    "proof_rate": 0,
    "n": 74
   }
  },
- "first_seen": null,
- "by_year": [],
- "undated_pct": 100,
- "momentum": "none",
- "maturity": "L3",
+ "first_seen": 2025,
+ "by_year": [
+  {
+   "year": 2025,
+   "n": 1
+  },
+  {
+   "year": 2026,
+   "n": 5
+  }
+ ],
+ "undated_pct": 14,
+ "momentum": "early_mover,rising",
+ "maturity": "L4",
  "maturity_evidence": [
+  "multi_horizontal",
   "named_product:TinyEngine",
+  "multi_year",
   "tier_p"
  ],
- "prospect_score": 54,
+ "prospect_score": 72,
  "stack": [],
  "vendor_named": false,
  "deployments_detail": [
@@ -50,6 +61,72 @@
    "raw_sector": "Information Technology",
    "date": "missing",
    "fresh": "undated"
+  },
+  {
+   "company": "Texas Instruments",
+   "use": "TI Virtual Recruiter Chatbot on the careers site: an AI-powered conversational assistant that lets candidates ask questions in their preferred language and get matched to job opportunities. TI publishes a formal 'Important AI Notice' governing candidate use of the tool, and it is live in production on careers.ti.com.",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://careers.ti.com/recruitment-process/",
+   "raw_sector": "",
+   "date": "2025",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Texas Instruments",
+   "use": "AI-driven predictive maintenance and robotic material handling in TI's new 300mm wafer fabs (part of the $60B U.S. fab expansion / SM1 mega-site) to maximize yield, reduce waste, and cut downtime in its Smart Manufacturing & Automation strategy.",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://businessmodelcanvastemplate.com/blogs/growth-strategy/texas-instruments-growth-strategy",
+   "raw_sector": "",
+   "date": "2026",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Texas Instruments",
+   "use": "Internal AI-assisted software development for TI's Smart Manufacturing & Automation team: engineers use Claude Code (Anthropic), GitHub Copilot, and Cursor plus emerging agentic frameworks to accelerate building the software that runs manufacturing/test operations. TI is explicitly hiring engineers experienced with these tools to scale development across the organization. [Anthropic Claude Code, GitHub Copilot, Cursor]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://builtin.com/job/ai-ml-engineer/10255132",
+   "raw_sector": "",
+   "date": "2026",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Texas Instruments",
+   "use": "Computer-vision models for semiconductor manufacturing quality and test — image classification, defect detection, and anomaly detection on inline and end-of-line data — developed and deployed at scale by TI's Smart Manufacturing & Automation team, including model monitoring and retraining pipelines.",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://builtin.com/job/ai-ml-engineer/10255132",
+   "raw_sector": "",
+   "date": "2026",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Texas Instruments",
+   "use": "LLM-based systems for manufacturing — RAG (retrieval-augmented generation) pipelines, prompt engineering, and agentic workflows built on OpenAI/Anthropic APIs and LangChain-style frameworks — to address challenges faced by TI's manufacturing and engineering teams (e.g., correlating manufacturing data). [OpenAI, Anthropic, LangChain]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.dice.com/job-detail/28dbab42-9878-45a9-a584-9fb9aa245193",
+   "raw_sector": "",
+   "date": "2026",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Texas Instruments",
+   "use": "Data-science machine-learning models and analytical solutions that accelerate semiconductor manufacturing — developed and deployed by a dedicated Senior Data Scientist function to solve manufacturing/engineering problems (yield and test/quality correlation across inline and end-of-line data).",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://careers.ti.com/en/sites/CX/job/25010679/",
+   "raw_sector": "",
+   "date": "2026",
+   "fresh": "fresh"
   }
  ]
 }

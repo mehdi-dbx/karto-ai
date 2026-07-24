@@ -3,45 +3,56 @@
  "name": "Eaton Corporation",
  "cc": "US",
  "vertical": "Industrial / Machinery",
- "deployments": 1,
- "confirmed": 1,
- "with_value_number": 0,
- "proof_rate": 0.0,
+ "deployments": 11,
+ "confirmed": 8,
+ "with_value_number": 5,
+ "proof_rate": 0.455,
  "mktcap": 160500000000.0,
  "revenue": 28520000000.0,
  "employees": 97000.0,
  "silent": false,
- "per_bn_revenue": 0.04,
- "per_10k_emp": 0.1,
+ "per_bn_revenue": 0.39,
+ "per_10k_emp": 1.13,
  "benchmarks": {
   "global_vertical": {
-   "deployments": 0,
-   "confirmed": 14,
-   "proof_rate": 0,
+   "deployments": 95,
+   "confirmed": 94,
+   "proof_rate": 75,
    "n": 175
   },
   "country_vertical": {
-   "deployments": 0,
-   "confirmed": 19,
-   "proof_rate": 0,
+   "deployments": 96,
+   "confirmed": 96,
+   "proof_rate": 87,
    "n": 80
   }
  },
- "first_seen": 2025,
+ "first_seen": 2024,
  "by_year": [
   {
+   "year": 2024,
+   "n": 3
+  },
+  {
    "year": 2025,
-   "n": 1
+   "n": 6
+  },
+  {
+   "year": 2026,
+   "n": 2
   }
  ],
  "undated_pct": 0,
  "momentum": "early_mover,rising",
- "maturity": "L3",
+ "maturity": "L4",
  "maturity_evidence": [
+  "multi_horizontal",
   "named_product:HVDC",
+  "value_number",
+  "multi_year",
   "tier_p"
  ],
- "prospect_score": 46,
+ "prospect_score": 70,
  "stack": [
   "NVIDIA"
  ],
@@ -57,6 +68,116 @@
    "raw_sector": "Industrials",
    "date": "2025",
    "fresh": "fresh"
+  },
+  {
+   "company": "Eaton Corporation",
+   "use": "Adopted Microsoft 365 Copilot to automate creation of 1,000 standard operating procedures (SOPs) and improve enterprise data access/reporting as part of its finance accounting-centralization program; cut SOP creation time from ~1 hour to ~10 minutes. [Microsoft 365 Copilot]",
+   "existence": "confirmed",
+   "value": "83% reduction in SOP creation time; 650+ hours saved",
+   "tier": "",
+   "url": "https://www.microsoft.com/en/customers/story/19830-eaton-microsoft-365-copilot",
+   "raw_sector": "",
+   "date": "2024-11",
+   "fresh": "aging"
+  },
+  {
+   "company": "Eaton Corporation",
+   "use": "Deployed Eightfold AI talent intelligence/skills-intelligence platform across its ~15,000-hire-per-year global recruiting operation to automate resume screening and give recruiters AI-powered candidate matching. [Eightfold AI]",
+   "existence": "confirmed",
+   "value": "Time-to-offer cut by 9 days; $2.4M saved",
+   "tier": "",
+   "url": "https://eightfold.ai/learn/eaton-fuels-a-competitive-talent-strategy-with-ai-powered-skills-intelligence/",
+   "raw_sector": "",
+   "date": "2025-10",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Eaton Corporation",
+   "use": "Collaborating with NVIDIA to build AI-native 3D applications on NVIDIA Omniverse to create operational digital twins for designing and simulating AI data centers (electrical, IT and cooling as one system). [NVIDIA Omniverse]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.eaton.com/us/en-us/company/news-insights/electrical-insights-/energizing-nvidia-omniverse.html",
+   "raw_sector": "",
+   "date": "2025",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Eaton Corporation",
+   "use": "Uses generative AI to accelerate new product development, generating optimized design options that meet cost/performance targets, built on aPriori manufacturing/cost data. [aPriori (generative AI)]",
+   "existence": "confirmed",
+   "value": "Up to 87% reduction in new product design time; ~90% model fidelity",
+   "tier": "",
+   "url": "https://www.apriori.com/resources/case-study/eatons-generative-ai-cuts-product-design-time-by-87/",
+   "raw_sector": "",
+   "date": "2024",
+   "fresh": "aging"
+  },
+  {
+   "company": "Eaton Corporation",
+   "use": "HiZ Protect technology (embedded in Form 7 recloser control) uses machine learning to automatically detect and isolate high-impedance faults for utility wildfire prevention.",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.eaton.com/us/en-us/company/news-insights/news-releases/2025/eaton-announces-breakthrough-ai-powered-innovation.html",
+   "raw_sector": "",
+   "date": "2025-03",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Eaton Corporation",
+   "use": "Brightlayer Motor Analytics predictive-maintenance software uses motor current signature analysis (MCSA) and machine learning to predict motor and pump failure modes months in advance. [Eaton Brightlayer]",
+   "existence": "confirmed",
+   "value": "Predicts issues up to 30% earlier and 25% more accurately",
+   "tier": "",
+   "url": "https://www.eaton.com/us/en-us/digital/brightlayer/brightlayer-industrial-suite/motor-analytics.html",
+   "raw_sector": "",
+   "date": "2026-04",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Eaton Corporation",
+   "use": "Brightlayer Energy, an AI-powered energy management and optimization system (EMOS), uses advanced algorithms to turn real-time building/DER data into energy-use forecasting and optimization. [Eaton Brightlayer]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.eaton.com/us/en-us/company/news-insights/news-releases/2026/eaton-unveils-brightlayer-energy-an-ai-powered-energy-management.html",
+   "raw_sector": "",
+   "date": "2026-03",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Eaton Corporation",
+   "use": "Edge-based firmware innovation that detects AI-driven load spikes / subsynchronous oscillations in real time to protect data center and grid infrastructure from AI power bursts.",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.eaton.com/us/en-us/company/news-insights/news-releases/2025/eaton-delivers-edge-based-innovation.html",
+   "raw_sector": "",
+   "date": "2025-09",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Eaton Corporation",
+   "use": "Collaborating with Autodesk on an AI-powered Digital Energy Twin, combining Eaton energy-management with Autodesk design tools to create real-time virtual replicas of building energy systems for optimization. [Autodesk]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.eaton.com/us/en-us/company/news-insights/news-releases/2025/eaton-collaborates-with-autodesk-to-accelerate-building-digitalization.html",
+   "raw_sector": "",
+   "date": "2025-09",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Eaton Corporation",
+   "use": "Deployed Microsoft 365 Copilot for Service in customer service operations, using CRM insights to speed agent responses and improve support. [Microsoft 365 Copilot for Service]",
+   "existence": "claimed",
+   "value": "20% expected reduction in customer response times",
+   "tier": "",
+   "url": "https://www.microsoft.com/en/customers/story/19830-eaton-microsoft-365-copilot",
+   "raw_sector": "",
+   "date": "2024-11",
+   "fresh": "aging"
   }
  ]
 }

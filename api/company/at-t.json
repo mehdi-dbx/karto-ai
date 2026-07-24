@@ -3,45 +3,59 @@
  "name": "AT&T",
  "cc": "US",
  "vertical": "Telecom",
- "deployments": 1,
- "confirmed": 1,
- "with_value_number": 1,
- "proof_rate": 1.0,
+ "deployments": 10,
+ "confirmed": 7,
+ "with_value_number": 8,
+ "proof_rate": 0.8,
  "mktcap": 157600000000.0,
  "revenue": 127240000000.0,
  "employees": 133030.0,
  "silent": false,
- "per_bn_revenue": 0.01,
- "per_10k_emp": 0.08,
+ "per_bn_revenue": 0.08,
+ "per_10k_emp": 0.75,
  "benchmarks": {
   "global_vertical": {
-   "deployments": 0,
-   "confirmed": 16,
-   "proof_rate": 68,
+   "deployments": 85,
+   "confirmed": 86,
+   "proof_rate": 74,
    "n": 93
   },
   "country_vertical": {
-   "deployments": 0,
-   "confirmed": 32,
-   "proof_rate": 73,
+   "deployments": 68,
+   "confirmed": 68,
+   "proof_rate": 91,
    "n": 23
   }
  },
- "first_seen": 2025,
+ "first_seen": 2022,
  "by_year": [
   {
-   "year": 2025,
+   "year": 2022,
    "n": 1
+  },
+  {
+   "year": 2023,
+   "n": 4
+  },
+  {
+   "year": 2024,
+   "n": 2
+  },
+  {
+   "year": 2025,
+   "n": 3
   }
  ],
  "undated_pct": 0,
- "momentum": "rising",
- "maturity": "L3",
+ "momentum": "early_mover,cooling",
+ "maturity": "L4",
  "maturity_evidence": [
+  "multi_horizontal",
   "named_product:Ask",
-  "value_number"
+  "value_number",
+  "multi_year"
  ],
- "prospect_score": 6,
+ "prospect_score": 50,
  "stack": [
   "NVIDIA"
  ],
@@ -57,6 +71,105 @@
    "raw_sector": "Communication Services",
    "date": "2025",
    "fresh": "fresh"
+  },
+  {
+   "company": "AT&T",
+   "use": "GPU-accelerated data processing for AI/ML pipelines (model training, network optimization, fraud detection) using NVIDIA RAPIDS Accelerator for Apache Spark to move Spark workloads onto energy-efficient GPUs. [NVIDIA RAPIDS Accelerator for Apache Spark]",
+   "existence": "confirmed",
+   "value": "~40% reduction in cloud costs (NVIDIA press release cites ~50% for RAPIDS)",
+   "tier": "",
+   "url": "https://www.fibre-systems.com/news/att-improves-operational-efficiency-sustainability-ai",
+   "raw_sector": "",
+   "date": "2023-03",
+   "fresh": "stale"
+  },
+  {
+   "company": "AT&T",
+   "use": "Field-technician dispatch and route optimization tested with NVIDIA cuOpt so technicians complete more service calls per day with less fuel. [NVIDIA cuOpt]",
+   "existence": "claimed",
+   "value": "cuOpt returned results in 10 seconds vs 1,000 seconds on x86 CPUs (early trial)",
+   "tier": "",
+   "url": "https://nvidianews.nvidia.com/news/at-t-supercharges-operations-with-nvidia-ai",
+   "raw_sector": "",
+   "date": "2023-03",
+   "fresh": "stale"
+  },
+  {
+   "company": "AT&T",
+   "use": "Ask AT&T — internal generative AI platform used by developers to write, refine, test and integrate code; originally built on OpenAI ChatGPT, productionized with Microsoft Azure OpenAI. >100,000 employees have access. [Microsoft Azure OpenAI (originally OpenAI ChatGPT/GPT-4)]",
+   "existence": "confirmed",
+   "value": "Reduced software development time by ~10-30% depending on task",
+   "tier": "",
+   "url": "https://www.businessinsider.com/att-gen-ai-llm-tech-automate-software-code-customer-service-2024-11",
+   "raw_sector": "",
+   "date": "2023-06",
+   "fresh": "stale"
+  },
+  {
+   "company": "AT&T",
+   "use": "AT&T Geo Modeler — a generative AI system using synthetic data, a Network Foundation Model and ray tracing to simulate/predict RF coverage and automatically reconfigure the network (e.g. antenna angles) to heal coverage gaps during storms/outages and optimize everyday performance. Live nationwide. [AT&T (Network Foundation Model)]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://about.att.com/blogs/2025/geo-modeler.html",
+   "raw_sector": "",
+   "date": "2025",
+   "fresh": "fresh"
+  },
+  {
+   "company": "AT&T",
+   "use": "Ask AT&T used by customer-service teams to auto-summarize inbound customer calls and documents and surface relevant product/service suggestions to agents. Platform generates ~1 billion tokens/words per day. [Microsoft Azure OpenAI]",
+   "existence": "confirmed",
+   "value": "Saves between 30 seconds and several minutes per call",
+   "tier": "",
+   "url": "https://about.att.com/blogs/2024/ask-att-drives-business-value.html",
+   "raw_sector": "",
+   "date": "2024",
+   "fresh": "aging"
+  },
+  {
+   "company": "AT&T",
+   "use": "Call-center analytics: distilling large models (e.g. GPT-4) into three fine-tuned open-source small language models to categorize, transcribe and extract insights from ~15 million annual customer calls (80-label classification system) in production. [H2O.ai (Danube 1.8B, H2O LLM Studio)]",
+   "existence": "confirmed",
+   "value": "90% cost savings via fine-tuned small language models (case study: costs cut to 35% of prior, 91% accuracy, 3x faster)",
+   "tier": "",
+   "url": "https://h2o.ai/case-studies/att-call-center/",
+   "raw_sector": "",
+   "date": "2024",
+   "fresh": "aging"
+  },
+  {
+   "company": "AT&T",
+   "use": "Customer-care AI agents whose accuracy and safety are improved using NVIDIA NeMo (guardrails/model customization) to raise AI agent performance in customer service interactions. [NVIDIA NeMo]",
+   "existence": "confirmed",
+   "value": "84% decrease in call-center analytics cost; up to 40% accuracy improvement after fine-tuning",
+   "tier": "",
+   "url": "https://www.nvidia.com/en-us/case-studies/att-drives-ai-agents-with-nemo/",
+   "raw_sector": "",
+   "date": "2025",
+   "fresh": "fresh"
+  },
+  {
+   "company": "AT&T",
+   "use": "Real-time fraud detection and prevention (robocalls, robotexts, illegal device unlocks, identity theft) using 100+ production ML models on the Databricks Lakehouse / Delta Lake, delivering alerts to call centers, retail and online. [Databricks (Azure Databricks)]",
+   "existence": "confirmed",
+   "value": "Up to 80% reduction in fraud attacks; 100+ ML models in production; millions saved",
+   "tier": "",
+   "url": "https://www.databricks.com/customers/att",
+   "raw_sector": "",
+   "date": "2022",
+   "fresh": "stale"
+  },
+  {
+   "company": "AT&T",
+   "use": "GenAI-powered software vulnerability remediation tool that detects issues in AT&T's code and automatically writes and applies patches/fixes, with humans in the loop. [Ask AT&T (Azure OpenAI-based)]",
+   "existence": "claimed",
+   "value": "Reduces response times from days or weeks to seconds",
+   "tier": "",
+   "url": "https://about.att.com/blogs/2023/expanding-ai-across-company.html",
+   "raw_sector": "",
+   "date": "2023",
+   "fresh": "stale"
   }
  ]
 }

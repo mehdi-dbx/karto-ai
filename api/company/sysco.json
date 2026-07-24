@@ -3,45 +3,63 @@
  "name": "Sysco",
  "cc": "US",
  "vertical": "Retail & E-commerce",
- "deployments": 1,
- "confirmed": 1,
- "with_value_number": 1,
- "proof_rate": 1.0,
+ "deployments": 10,
+ "confirmed": 9,
+ "with_value_number": 3,
+ "proof_rate": 0.3,
  "mktcap": 38780000000.0,
  "revenue": 83570000000.0,
  "employees": 75000.0,
  "silent": false,
- "per_bn_revenue": 0.01,
- "per_10k_emp": 0.13,
+ "per_bn_revenue": 0.12,
+ "per_10k_emp": 1.33,
  "benchmarks": {
   "global_vertical": {
-   "deployments": 0,
-   "confirmed": 26,
-   "proof_rate": 73,
+   "deployments": 93,
+   "confirmed": 94,
+   "proof_rate": 65,
    "n": 295
   },
   "country_vertical": {
-   "deployments": 0,
-   "confirmed": 29,
-   "proof_rate": 77,
+   "deployments": 84,
+   "confirmed": 85,
+   "proof_rate": 73,
    "n": 80
   }
  },
- "first_seen": 2025,
+ "first_seen": 2021,
  "by_year": [
   {
-   "year": 2025,
+   "year": 2021,
    "n": 1
+  },
+  {
+   "year": 2023,
+   "n": 2
+  },
+  {
+   "year": 2024,
+   "n": 1
+  },
+  {
+   "year": 2025,
+   "n": 4
+  },
+  {
+   "year": 2026,
+   "n": 2
   }
  ],
  "undated_pct": 0,
- "momentum": "rising",
- "maturity": "L3",
+ "momentum": "early_mover,rising",
+ "maturity": "L4",
  "maturity_evidence": [
+  "multi_horizontal",
   "named_product:AI360",
-  "value_number"
+  "value_number",
+  "multi_year"
  ],
- "prospect_score": 14,
+ "prospect_score": 90,
  "stack": [],
  "vendor_named": false,
  "deployments_detail": [
@@ -54,6 +72,105 @@
    "url": "https://www.digitalcommerce360.com/2025/10/31/sysco-puts-ai-at-the-center-of-its-sales-rebound-in-q1/",
    "raw_sector": "Consumer Staples",
    "date": "2025",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Sysco",
+   "use": "Robotic process automation via Blue Prism digital workers running on AWS, including a bot ('Jackpot') that automates inbound customer order/fax processing using AWS Textract OCR; 60 digital workers running 150+ processes. [SS&C Blue Prism, AWS (Textract)]",
+   "existence": "confirmed",
+   "value": "6.2 million transactions processed; 250,000 work hours returned to the business; 60 digital workers across 150+ processes",
+   "tier": "",
+   "url": "https://www.blueprism.com/resources/case-studies/sysco-maintains-team-excellence-while-rapidly-scaling-a-digital-workforce/",
+   "raw_sector": "",
+   "date": "2021",
+   "fresh": "stale"
+  },
+  {
+   "company": "Sysco",
+   "use": "AI-powered route optimization / delivery scheduling and warehouse logistics optimization to route customer deliveries more efficiently.",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://mitsloan.mit.edu/ideas-made-to-matter/incorporating-generative-ai-your-companys-technology-strategy",
+   "raw_sector": "",
+   "date": "2024",
+   "fresh": "aging"
+  },
+  {
+   "company": "Sysco",
+   "use": "AI360, a CRM-style generative-AI sales platform that gives sales consultants data-driven selling prompts, answers customer questions, surfaces new selling opportunities and reduces admin work; ~90% of sales consultants use it.",
+   "existence": "confirmed",
+   "value": "~90% of sales consultants use AI360; CEO cites strong correlation between tool engagement and improved volume/selling performance (no hard figure)",
+   "tier": "",
+   "url": "https://www.digitalcommerce360.com/2025/10/31/sysco-puts-ai-at-the-center-of-its-sales-rebound-in-q1/",
+   "raw_sector": "",
+   "date": "2025",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Sysco",
+   "use": "Generative AI embedded in the customer digital ecosystem for menu-planning assistance, recommending cost-saving product substitutions and anticipating customer needs from order history and seasonality.",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.digitalcommerce360.com/2025/10/31/sysco-puts-ai-at-the-center-of-its-sales-rebound-in-q1/",
+   "raw_sector": "",
+   "date": "2025",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Sysco",
+   "use": "SAGE (Sysco Agentic Ecosystem), a company-wide, model-agnostic AI-agent platform that standardizes development, governance and deployment of AI agents across sales, supply chain, e-commerce and back-office functions; millions of business interactions run through it in production. [ZS (implementation partner); model-agnostic]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://enterprisedna.co/resources/news/sysco-sage-agentic-ai-enterprise-production-2026/",
+   "raw_sector": "",
+   "date": "2026",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Sysco",
+   "use": "Google Vertex AI Search for Retail powering product discovery/search on Sysco's e-commerce (Sysco Shop) catalog; showcased by Sysco at Google's AI Search Summit in Paris. [Google Cloud (Vertex AI Search for Retail), Grid Dynamics]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.linkedin.com/posts/aaron-rouse_aisearchsummit-vertexai-retailinnovation-activity-7291936259487215616-DGkA",
+   "raw_sector": "",
+   "date": "2025",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Sysco",
+   "use": "Machine-learning demand forecasting and inventory optimization to smooth inventory forecasts by predicting customer behavior, inventory levels and pricing, reducing food waste on perishables.",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.cio.com/article/641578/syscos-recipe-for-growth-centers-on-it.html",
+   "raw_sector": "",
+   "date": "2023",
+   "fresh": "stale"
+  },
+  {
+   "company": "Sysco",
+   "use": "AI anomaly detection in customer purchasing habits and models determining customers' propensity to buy new products, driving custom product-mix recommendations. [Amperity (CDP), Salesforce, Tableau, Tealium]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.cio.com/article/641578/syscos-recipe-for-growth-centers-on-it.html",
+   "raw_sector": "",
+   "date": "2023",
+   "fresh": "stale"
+  },
+  {
+   "company": "Sysco",
+   "use": "AI/advanced analytics for food safety and quality assurance: supplier monitoring, predictive analytics and environmental testing to improve risk detection and decision-making across the supply chain.",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://sysco.com/en-us/how-ai-is-shaping-the-future-of-food-safety",
+   "raw_sector": "",
+   "date": "2026",
    "fresh": "fresh"
   }
  ]

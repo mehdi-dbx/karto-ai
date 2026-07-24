@@ -3,40 +3,56 @@
  "name": "Howdens Joinery",
  "cc": "UK",
  "vertical": "Real Estate & Construction",
- "deployments": 1,
- "confirmed": 1,
- "with_value_number": 0,
- "proof_rate": 0.0,
+ "deployments": 8,
+ "confirmed": 4,
+ "with_value_number": 1,
+ "proof_rate": 0.125,
  "mktcap": 5397500000.0,
  "revenue": 3111500000.0,
  "employees": 12000.0,
  "silent": false,
- "per_bn_revenue": 0.32,
- "per_10k_emp": 0.83,
+ "per_bn_revenue": 2.57,
+ "per_10k_emp": 6.67,
  "benchmarks": {
   "global_vertical": {
-   "deployments": 0,
-   "confirmed": 34,
-   "proof_rate": 0,
+   "deployments": 96,
+   "confirmed": 95,
+   "proof_rate": 61,
    "n": 154
   },
   "country_vertical": {
-   "deployments": 0,
-   "confirmed": 67,
-   "proof_rate": 0,
+   "deployments": 100,
+   "confirmed": 100,
+   "proof_rate": 83,
    "n": 7
   }
  },
- "first_seen": null,
- "by_year": [],
- "undated_pct": 100,
- "momentum": "none",
- "maturity": "L3",
+ "first_seen": 2023,
+ "by_year": [
+  {
+   "year": 2023,
+   "n": 1
+  },
+  {
+   "year": 2024,
+   "n": 2
+  },
+  {
+   "year": 2025,
+   "n": 2
+  }
+ ],
+ "undated_pct": 38,
+ "momentum": "early_mover,cooling",
+ "maturity": "L4",
  "maturity_evidence": [
+  "multi_horizontal",
   "named_product:Chip",
+  "value_number",
+  "multi_year",
   "tier_p"
  ],
- "prospect_score": 46,
+ "prospect_score": 59,
  "stack": [
   "Microsoft Azure",
   "OpenAI"
@@ -53,6 +69,83 @@
    "raw_sector": "Homebuilding & construction supplies",
    "date": "missing",
    "fresh": "undated"
+  },
+  {
+   "company": "Howdens Joinery",
+   "use": "\"Chip\", a generative-AI digital assistant in the Howdens Trade App that gives trade customers step-by-step installation guides, product specs and fitting support via natural-language chat, 24/7. [Microsoft Azure OpenAI Service, Azure Cosmos DB, Azure AI Search, Azure AI Services]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://news.microsoft.com/source/emea/features/kitchen-supplier-howdens-launches-innovative-ai-help-tool/",
+   "raw_sector": "",
+   "date": "2024-07",
+   "fresh": "aging"
+  },
+  {
+   "company": "Howdens Joinery",
+   "use": "Microsoft 365 Copilot adoption across employee productivity / back-office functions; Howdens was one of ~600 firms with early access and engaged PPT Group to manage its broader AI strategy and Copilot execution/integration. [Microsoft 365 Copilot; PPT Group (integration partner)]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.engineerit.co.za/article/ppt-group-harnesses-ai-potential-with-microsoft-copilot",
+   "raw_sector": "",
+   "date": "2023-08",
+   "fresh": "stale"
+  },
+  {
+   "company": "Howdens Joinery",
+   "use": "Machine-learning production optimisation on SAP Business Technology Platform: predictive stoppage analysis (identifying BoM components / TPM causes of unplanned line outages) and changeover/sequencing optimisation on kitchen assembly lines. [NTT DATA Business Solutions, SAP Business Technology Platform]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://nttdata-solutions.com/se/success-stories/howdens/",
+   "raw_sector": "",
+   "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "Howdens Joinery",
+   "use": "Machine-learning customer-behaviour models: loyalty prediction from first-four-weeks purchase behaviour, customer segmentation/clustering, and sales-order cancellation prediction before invoicing (proof-of-concept work; not among the two prioritised for production). [NTT DATA Business Solutions, SAP Business Technology Platform]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://nttdata-solutions.com/se/success-stories/howdens/",
+   "raw_sector": "",
+   "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "Howdens Joinery",
+   "use": "Generative-AI kitchen-design feasibility study with Microsoft, exploring GenAI to generate initial kitchen design proposals that designers then refine, streamlining the design process. [Microsoft (Azure / generative AI)]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.computerweekly.com/news/366592645/How-Howdens-used-GenAI-to-power-app-user-experience",
+   "raw_sector": "",
+   "date": "2024-07",
+   "fresh": "aging"
+  },
+  {
+   "company": "Howdens Joinery",
+   "use": "Planned integration of AI into SAP Digital Manufacturing production processes (announced as the next step after digital-manufacturing rollout that cut lead time from 21 to 14 days and reached 99.98% service level). [SAP Digital Manufacturing]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://news.sap.com/2025/12/howdens-joinery-revolutionizing-production-digital-manufacturing/",
+   "raw_sector": "",
+   "date": "2025-12",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Howdens Joinery",
+   "use": "Creatio AI-native no-code platform consolidating five legacy systems into a single CRM for depot teams across the UK, France and Ireland, automating sales/CRM workflows (the depot account-management tool referenced in results). [Creatio]",
+   "existence": "confirmed",
+   "value": "First depot live in 12 weeks (sixfold faster); sales strike rate up from 32% to 38%; 1,200+ qualified leads in six months",
+   "tier": "",
+   "url": "https://www.creatio.com/company/news/23622",
+   "raw_sector": "",
+   "date": "2025-01",
+   "fresh": "fresh"
   }
  ]
 }

@@ -3,39 +3,50 @@
  "name": "Ryanair Holdings",
  "cc": "IE",
  "vertical": "Travel & Hospitality",
- "deployments": 2,
- "confirmed": 1,
- "with_value_number": 1,
- "proof_rate": 0.5,
+ "deployments": 11,
+ "confirmed": 9,
+ "with_value_number": 3,
+ "proof_rate": 0.273,
  "mktcap": 27583200000.0,
  "revenue": 16837200000.0,
  "employees": 27081.0,
  "silent": false,
- "per_bn_revenue": 0.12,
- "per_10k_emp": 0.74,
+ "per_bn_revenue": 0.65,
+ "per_10k_emp": 4.06,
  "benchmarks": {
   "global_vertical": {
-   "deployments": 74,
-   "confirmed": 29,
-   "proof_rate": 68,
+   "deployments": 97,
+   "confirmed": 95,
+   "proof_rate": 66,
    "n": 39
   }
  },
- "first_seen": 2025,
+ "first_seen": 2022,
  "by_year": [
   {
+   "year": 2022,
+   "n": 3
+  },
+  {
+   "year": 2024,
+   "n": 2
+  },
+  {
    "year": 2025,
-   "n": 1
+   "n": 5
   }
  ],
- "undated_pct": 50,
- "momentum": "rising",
- "maturity": "L3",
+ "undated_pct": 9,
+ "momentum": "early_mover,rising",
+ "maturity": "L4",
  "maturity_evidence": [
+  "multi_horizontal",
   "named_product:Machine",
+  "value_number",
+  "multi_year",
   "tier_p"
  ],
- "prospect_score": 26,
+ "prospect_score": 83,
  "stack": [
   "Amazon AWS"
  ],
@@ -61,6 +72,105 @@
    "url": "https://www.futuretravelexperience.com/2025/06/inside-ryanairs-innovation-engine",
    "raw_sector": "Airlines",
    "date": "2025-06",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Ryanair Holdings",
+   "use": "Ryanair Connect employee/cabin-crew app built on generative AI to boost workforce productivity — rostering, policy guidance and an AI chat assistant that reduces reliance on support desks for 15,000+ staff [AWS (Amazon Bedrock)]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://aws.amazon.com/solutions/case-studies/innovators/ryanair/",
+   "raw_sector": "",
+   "date": "2024",
+   "fresh": "aging"
+  },
+  {
+   "company": "Ryanair Holdings",
+   "use": "Machine-learning onboard food & beverage demand forecasting ('Panini Predictor') that forecasts item demand per route across the fleet to optimize inventory and cut waste [AWS]",
+   "existence": "confirmed",
+   "value": "cut food waste by half",
+   "tier": "",
+   "url": "https://www.aboutamazon.com/news/aws/how-a-ham-and-cheese-sandwich-got-its-own-algorithm",
+   "raw_sector": "",
+   "date": "2022",
+   "fresh": "stale"
+  },
+  {
+   "company": "Ryanair Holdings",
+   "use": "Customer service contact-center automation using Amazon Connect to streamline support workflows and free human agents for complex interactions [AWS (Amazon Connect)]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://aws.amazon.com/solutions/case-studies/ryanair-video-testimonial/",
+   "raw_sector": "",
+   "date": "2024",
+   "fresh": "aging"
+  },
+  {
+   "company": "Ryanair Holdings",
+   "use": "'Let's Chat' AI customer-service chatbot providing 24/7 automated support with escalation to human agents; a newer in-app AI assistant answers booking questions",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://help.ryanair.com/hc/en-gb/articles/16116483455505-Let-s-Chat",
+   "raw_sector": "",
+   "date": "2025",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Ryanair Holdings",
+   "use": "Predictive aircraft maintenance ML model that recognizes patterns in aircraft sensor data (5-60M data points/hour) to forecast component issues before failure [AWS]",
+   "existence": "confirmed",
+   "value": "predicts issues up to 4 days in advance",
+   "tier": "",
+   "url": "https://www.aboutamazon.com/news/aws/how-a-ham-and-cheese-sandwich-got-its-own-algorithm",
+   "raw_sector": "",
+   "date": "2022",
+   "fresh": "stale"
+  },
+  {
+   "company": "Ryanair Holdings",
+   "use": "ML-driven fuel-efficient aircraft allocation per route to reduce CO2 emissions and fuel cost by matching the right Boeing 737 variant to each route [AWS]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.aboutamazon.com/news/aws/how-a-ham-and-cheese-sandwich-got-its-own-algorithm",
+   "raw_sector": "",
+   "date": "2022",
+   "fresh": "stale"
+  },
+  {
+   "company": "Ryanair Holdings",
+   "use": "'Brainer' machine-learning dynamic fare pricing engine used for revenue management to optimize ticket prices in real time",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.futuretravelexperience.com/2025/06/inside-ryanairs-innovation-engine-how-europes-largest-airline-group-is-transforming-the-travel-experience/",
+   "raw_sector": "",
+   "date": "2025",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Ryanair Holdings",
+   "use": "AI-driven dynamic ancillary pricing engine using up to 20 parameters to price add-ons such as carry-on bags and seats",
+   "existence": "confirmed",
+   "value": "carry-on bag revenue grew from 24% to 34% of ancillary income",
+   "tier": "",
+   "url": "https://www.futuretravelexperience.com/2025/06/inside-ryanairs-innovation-engine-how-europes-largest-airline-group-is-transforming-the-travel-experience/",
+   "raw_sector": "",
+   "date": "2025",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Ryanair Holdings",
+   "use": "Ryanair app inside ChatGPT — flight and lodging information surfaced directly in ChatGPT as one of the first travel-partner apps in OpenAI's ChatGPT app ecosystem [OpenAI (ChatGPT)]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.linkedin.com/posts/andrew-gaule-aimava_ryanairs-pivot-and-the-ai-travel-agent-activity-7373743738247979008-7guB",
+   "raw_sector": "",
+   "date": "2025",
    "fresh": "fresh"
   }
  ]

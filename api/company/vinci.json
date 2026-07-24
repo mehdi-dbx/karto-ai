@@ -3,46 +3,59 @@
  "name": "Vinci",
  "cc": "FR",
  "vertical": "Industrial / Machinery",
- "deployments": 2,
- "confirmed": 2,
- "with_value_number": 1,
+ "deployments": 10,
+ "confirmed": 8,
+ "with_value_number": 5,
  "proof_rate": 0.5,
  "mktcap": 68040000000.0,
  "revenue": 81756000000.0,
  "employees": 292101.0,
  "silent": false,
- "per_bn_revenue": 0.02,
- "per_10k_emp": 0.07,
+ "per_bn_revenue": 0.12,
+ "per_10k_emp": 0.34,
  "benchmarks": {
   "global_vertical": {
-   "deployments": 89,
-   "confirmed": 90,
-   "proof_rate": 75,
+   "deployments": 91,
+   "confirmed": 94,
+   "proof_rate": 76,
    "n": 175
   },
   "country_vertical": {
-   "deployments": 12,
-   "confirmed": 25,
-   "proof_rate": 75,
+   "deployments": 88,
+   "confirmed": 100,
+   "proof_rate": 88,
    "n": 9
   }
  },
- "first_seen": 2025,
+ "first_seen": 2023,
  "by_year": [
   {
+   "year": 2023,
+   "n": 2
+  },
+  {
+   "year": 2024,
+   "n": 2
+  },
+  {
    "year": 2025,
+   "n": 4
+  },
+  {
+   "year": 2026,
    "n": 1
   }
  ],
- "undated_pct": 50,
+ "undated_pct": 10,
  "momentum": "early_mover,rising",
- "maturity": "L3",
+ "maturity": "L4",
  "maturity_evidence": [
   "multi_horizontal",
   "named_product:VINCI",
-  "value_number"
+  "value_number",
+  "multi_year"
  ],
- "prospect_score": 40,
+ "prospect_score": 76,
  "stack": [],
  "vendor_named": false,
  "deployments_detail": [
@@ -66,6 +79,94 @@
    "url": "https://vinci-construction.com/fr/initiatives/comment-vinci-construction-met-lintelligence-artificielle-au-service-de-la-performance/",
    "raw_sector": "Industrials",
    "date": "2025",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Vinci",
+   "use": "Automatic AI-based road-incident detection on VINCI Highways' Lima Expresa concession (Linea Amarilla / Via de Evitamiento) that spots incidents, stopped vehicles and pedestrians in hazardous zones from CCTV to speed up emergency response.",
+   "existence": "confirmed",
+   "value": "detects >95% of incidents in under 5 minutes; 70% reduction in accidents",
+   "tier": "",
+   "url": "https://www.vinci.com/newsroom/actualites/au-perou-lintelligence-artificielle-ameliore-la-securite-routiere",
+   "raw_sector": "",
+   "date": "2023-11",
+   "fresh": "stale"
+  },
+  {
+   "company": "Vinci",
+   "use": "VINCI Construction (with GRDF) trial of Exodigo's AI-driven non-intrusive subsurface imaging (fusing GPR radar, magnetic and electromagnetic sensor data via AI) to map buried utility networks before excavation, with AR field visualization via VINCI's Avus. [Exodigo (AI subsurface intelligence startup)]",
+   "existence": "confirmed",
+   "value": "detected 30 buried structures vs 19 in existing records (+57%), plus 35 extra networks in unmapped zones",
+   "tier": "",
+   "url": "https://www.cio-online.com/actualites/lire-vinci-construction-et-grdf-testent-une-technologie-pour-affiner-la-cartographie-des-reseaux-15033.html",
+   "raw_sector": "",
+   "date": "2023-06",
+   "fresh": "stale"
+  },
+  {
+   "company": "Vinci",
+   "use": "VINCI Autoroutes using AI-equipped cameras on the A10 north of Bordeaux to measure vehicle occupancy rates in detail, preparing the ground for a future reserved carpooling lane.",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.sudouest.fr/economie/transports/circulation-en-gironde/autoroute-a10-au-nord-de-bordeaux-l-intelligence-artificielle-pour-preparer-le-terrain-au-covoiturage-19931246.php",
+   "raw_sector": "",
+   "date": "2024",
+   "fresh": "aging"
+  },
+  {
+   "company": "Vinci",
+   "use": "Group-wide adoption of generative AI across VINCI's business lines to transform internal processes (per CEO Pierre Anjolras), coordinated by a Group DSI AI-projects function - deployment of generative AI assistants/tools for employees.",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://investir.lesechos.fr/marches-indices/opinions/pierre-anjolras-directeur-general-de-vinci-lia-ne-transforme-pas-uniquement-nos-processus-internes-elle-genere-egalement-une-demande-accrue-pour-nos-metiers-2242738",
+   "raw_sector": "",
+   "date": "2026-07",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Vinci",
+   "use": "\"Select\" AI web app that automatically reads incoming construction tender documents (extracting ~24 fields such as client, location, deadline, payment terms) and preselects/prioritizes which calls-for-tender the agencies should bid on, cutting analysis from ~30 minutes to ~35 seconds. [OpenAI / ChatGPT (LLM + NLP), Microsoft Azure cloud + vector database]",
+   "existence": "confirmed",
+   "value": "800 users across 124 of 133 agencies; 5,400+ tenders processed; analysis time cut from ~30 min to ~35 sec; satisfaction 7.34/10",
+   "tier": "",
+   "url": "https://www.cio-online.com/actualites/lire-l-ia-preselectionne-les-appels-d-offres-de-vinci-construction-15939.html",
+   "raw_sector": "",
+   "date": "2024-10",
+   "fresh": "aging"
+  },
+  {
+   "company": "Vinci",
+   "use": "\"Lisa\": a 3D conversational AI avatar deployed on interactive kiosks in Terminal 1 of Lyon Saint-Exupery airport (VINCI Airports' customer-innovation center) giving multilingual real-time flight/traffic info, wayfinding and info on 130 destinations - billed as Europe's first airport 3D AI avatar. [Jumbo Mana (agentic AI), Mistral AI, OVHcloud, 2CRSI]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.lejournaldesentreprises.com/article/jumbo-mana-deploie-un-agent-virtuel-laeroport-de-lyon-saint-exupery-2117060",
+   "raw_sector": "",
+   "date": "2025-04",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Vinci",
+   "use": "Southampton Airport (VINCI Airports UK) launched an AI-powered digital assistant accessible via QR codes acting as a personal concierge - live flight info, terminal navigation and tailored passenger support. [Hello Lamp Post]",
+   "existence": "confirmed",
+   "value": "prior Glasgow trial: 50% fewer customer-service queries, +12,300 passengers/yr supported, 86% satisfaction",
+   "tier": "",
+   "url": "https://www.futuretravelexperience.com/2025/04/southampton-airport-launches-ai-powered-digital-assistant-to-provide-real-time-information-and-enhance-terminal-navigation/",
+   "raw_sector": "",
+   "date": "2025-04",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Vinci",
+   "use": "PatrolCare: AI camera system installed in VINCI Autoroutes patrol vans that analyzes the rear road scene in real time and triggers a loud alarm to warn patrollers of an imminent collision from approaching traffic while they are stopped on the hard shoulder.",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.europe1.fr/societe/lintelligence-artificielle-plebiscitee-par-vinci-autoroutes-pour-prevenir-les-accidents-de-ses-fourgons-766258",
+   "raw_sector": "",
+   "date": "2025-08",
    "fresh": "fresh"
   }
  ]

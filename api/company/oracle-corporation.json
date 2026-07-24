@@ -3,40 +3,59 @@
  "name": "Oracle Corporation",
  "cc": "US",
  "vertical": "Technology",
- "deployments": 1,
- "confirmed": 1,
- "with_value_number": 1,
- "proof_rate": 1.0,
+ "deployments": 13,
+ "confirmed": 13,
+ "with_value_number": 2,
+ "proof_rate": 0.154,
  "mktcap": 349030000000.0,
  "revenue": 67360000000.0,
  "employees": 141000.0,
  "silent": false,
- "per_bn_revenue": 0.01,
- "per_10k_emp": 0.07,
+ "per_bn_revenue": 0.19,
+ "per_10k_emp": 0.92,
  "benchmarks": {
   "global_vertical": {
-   "deployments": 0,
-   "confirmed": 6,
-   "proof_rate": 72,
+   "deployments": 99,
+   "confirmed": 100,
+   "proof_rate": 60,
    "n": 156
   },
   "country_vertical": {
-   "deployments": 0,
-   "confirmed": 4,
-   "proof_rate": 82,
+   "deployments": 99,
+   "confirmed": 100,
+   "proof_rate": 70,
    "n": 74
   }
  },
- "first_seen": null,
- "by_year": [],
- "undated_pct": 100,
- "momentum": "none",
- "maturity": "L3",
- "maturity_evidence": [
-  "named_product:OCI",
-  "value_number"
+ "first_seen": 2023,
+ "by_year": [
+  {
+   "year": 2023,
+   "n": 1
+  },
+  {
+   "year": 2024,
+   "n": 5
+  },
+  {
+   "year": 2025,
+   "n": 2
+  },
+  {
+   "year": 2026,
+   "n": 3
+  }
  ],
- "prospect_score": 6,
+ "undated_pct": 15,
+ "momentum": "early_mover,cooling",
+ "maturity": "L4",
+ "maturity_evidence": [
+  "multi_horizontal",
+  "named_product:OCI",
+  "value_number",
+  "multi_year"
+ ],
+ "prospect_score": 94,
  "stack": [
   "OpenAI"
  ],
@@ -50,6 +69,138 @@
    "tier": "S",
    "url": "https://www.ainvest.com/news/oracle-rpo-surges-359-year-year-driven-ai-cloud-contracts-2509/",
    "raw_sector": "Information Technology",
+   "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "Oracle Corporation",
+   "use": "Payables Agent / Document IO in Oracle Fusion Cloud ERP: GenAI-powered invoice ingestion agent that extracts, labels, and maps invoice fields from image/text across supplier formats for touchless accounts-payable / procure-to-pay processing (superseding legacy IDR). [Oracle Fusion AI (Document IO)]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://blogs.oracle.com/fusioninsider/this-agent-takes-the-hassle-out-of-electronic-invoicing",
+   "raw_sector": "",
+   "date": "2026-01",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Oracle Corporation",
+   "use": "Generative AI in Oracle Fusion Cloud HCM Recruiting: AI Assist generates candidate work summaries from resumes, matches candidates to job openings, and powers a conversational HCM career coach on recruiting career sites. [Oracle Fusion HCM generative AI]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://docs.oracle.com/en/cloud/saas/readiness/hcm/24a/recr-24a/24A-recruiting-wn-f31957.htm",
+   "raw_sector": "",
+   "date": "2024",
+   "fresh": "aging"
+  },
+  {
+   "company": "Oracle Corporation",
+   "use": "NetSuite AI: generative-AI features embedded across the ERP suite including SuiteAnalytics Assistant (natural-language reporting), Text Enhance (email/description generation), Narrative Insights (auto record/report summaries) and anomaly detection. [Oracle NetSuite generative AI]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.netsuite.com/portal/products/artificial-intelligence-ai.shtml",
+   "raw_sector": "",
+   "date": "2024-09",
+   "fresh": "aging"
+  },
+  {
+   "company": "Oracle Corporation",
+   "use": "Oracle Code Assist: AI code companion running on OCI, fine-tuned/optimized for Java, SuiteScript, PL/SQL and Oracle Cloud; provides code generation, real-time bug flags and suggested fixes to boost developer velocity. [Oracle Code Assist (OCI)]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.oracle.com/application-development/code-assist/",
+   "raw_sector": "",
+   "date": "2024-05",
+   "fresh": "aging"
+  },
+  {
+   "company": "Oracle Corporation",
+   "use": "Autonomous Database Select AI: natural-language-to-SQL feature that lets users query the Oracle Autonomous Database in plain language, with LLM integration and retrieval-augmented generation over enterprise data. [Oracle Autonomous Database + LLMs (OCI GenAI, OpenAI, Cohere)]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.oracle.com/autonomous-database/select-ai/",
+   "raw_sector": "",
+   "date": "2023-09",
+   "fresh": "stale"
+  },
+  {
+   "company": "Oracle Corporation",
+   "use": "Oracle AI Agents for Customer Experience (CX): agentic and generative AI embedded across Fusion Cloud Marketing, Sales and Service to draft content, generate assisted answers, guide sellers and surface revenue opportunities. [Oracle Fusion CX AI]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.prnewswire.com/news-releases/oracle-ai-agents-help-marketing-sales-and-service-leaders-unlock-new-revenue-opportunities-302574560.html",
+   "raw_sector": "",
+   "date": "2025-10",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Oracle Corporation",
+   "use": "Oracle Health Clinical AI Agent: a multimodal voice/generative-AI assistant that captures patient conversations, drafts clinical notes, generates coding suggestions, and (as of 2026) creates orders inside the EHR. Built on the Oracle Digital Assistant platform. [Oracle Digital Assistant / Oracle generative AI]",
+   "existence": "confirmed",
+   "value": "Saved doctors more than 200,000 hours of documentation time; ~30% reduction in daily documentation time per physician",
+   "tier": "",
+   "url": "https://www.oracle.com/news/announcement/oracle-health-adds-order-creation-capabilities-to-clinical-ai-agent-2026-02-02/",
+   "raw_sector": "",
+   "date": "2026-02",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Oracle Corporation",
+   "use": "Fusion Agentic Applications and AI Agent Studio: embedded, configurable AI agents across Oracle Fusion Cloud ERP/HCM/SCM/CX that reason and take action on business workflows, with a partner agent marketplace and support for multiple LLMs. [Oracle AI Agent Studio (multi-LLM)]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.oracle.com/news/announcement/oracle-introduces-fusion-agentic-applications-2026-03-24/",
+   "raw_sector": "",
+   "date": "2026-03",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Oracle Corporation",
+   "use": "OCI Generative AI service: managed platform serving pretrained foundation models (Cohere Command, Meta Llama 3/4, and hosted xAI Grok) for enterprise generative AI, with tool/function calling and fine-tuning. [Cohere, Meta Llama, xAI Grok on OCI]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://docs.oracle.com/en-us/iaas/Content/generative-ai/pretrained-models.htm",
+   "raw_sector": "",
+   "date": "2024-03",
+   "fresh": "aging"
+  },
+  {
+   "company": "Oracle Corporation",
+   "use": "xAI Grok models on OCI Generative AI: xAI selected Oracle to host and serve Grok 3 / Grok 3 Mini models via OCI in a dedicated xAI tenancy for enterprise use cases. [xAI Grok]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.oracle.com/news/announcement/xais-grok-models-are-now-on-oracle-cloud-infrastructure-2025-06-17/",
+   "raw_sector": "",
+   "date": "2025-06",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Oracle Corporation",
+   "use": "Oracle AI Vector Search in Oracle Database 23ai: generate, store, index and query vector embeddings alongside business data for semantic similarity search and grounded RAG generation over enterprise data. [Oracle Database 23ai]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://blogs.oracle.com/database/oracle-announces-general-availability-of-ai-vector-search-in-oracle-database-23ai",
+   "raw_sector": "",
+   "date": "2024-05",
+   "fresh": "aging"
+  },
+  {
+   "company": "Oracle Corporation",
+   "use": "Oracle Digital Assistant: conversational AI platform (text/chat/voice) that unifies purpose-built chatbots for enterprise application interactions and customer/employee self-service across Oracle apps. [Oracle Digital Assistant]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.oracle.com/chatbots/",
+   "raw_sector": "",
    "date": "missing",
    "fresh": "undated"
   }

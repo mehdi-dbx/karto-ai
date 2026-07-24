@@ -3,45 +3,67 @@
  "name": "JPMorgan Chase",
  "cc": "US",
  "vertical": "Financial Services",
- "deployments": 1,
- "confirmed": 1,
- "with_value_number": 1,
- "proof_rate": 1.0,
+ "deployments": 13,
+ "confirmed": 12,
+ "with_value_number": 9,
+ "proof_rate": 0.692,
  "mktcap": 925720000000.0,
  "revenue": 186330000000.0,
  "employees": 318512.0,
  "silent": false,
- "per_bn_revenue": 0.01,
- "per_10k_emp": 0.03,
+ "per_bn_revenue": 0.07,
+ "per_10k_emp": 0.41,
  "benchmarks": {
   "global_vertical": {
-   "deployments": 0,
-   "confirmed": 18,
-   "proof_rate": 72,
+   "deployments": 98,
+   "confirmed": 98,
+   "proof_rate": 74,
    "n": 377
   },
   "country_vertical": {
-   "deployments": 0,
-   "confirmed": 21,
-   "proof_rate": 72,
+   "deployments": 97,
+   "confirmed": 99,
+   "proof_rate": 77,
    "n": 76
   }
  },
- "first_seen": 2025,
+ "first_seen": 2017,
  "by_year": [
   {
+   "year": 2017,
+   "n": 1
+  },
+  {
+   "year": 2019,
+   "n": 1
+  },
+  {
+   "year": 2023,
+   "n": 3
+  },
+  {
+   "year": 2024,
+   "n": 3
+  },
+  {
    "year": 2025,
+   "n": 4
+  },
+  {
+   "year": 2026,
    "n": 1
   }
  ],
  "undated_pct": 0,
- "momentum": "rising",
- "maturity": "L3",
+ "momentum": "early_mover,cooling",
+ "maturity": "L4",
  "maturity_evidence": [
+  "multi_horizontal",
   "named_product:LLM Suite",
-  "value_number"
+  "value_number",
+  "multi_year"
  ],
- "prospect_score": 14,
+ "prospect_score": 80,
  "stack": [],
  "vendor_named": false,
  "deployments_detail": [
@@ -53,6 +75,138 @@
    "tier": "S",
    "url": "https://www.reuters.com/technology/artificial-intelligence/jpmorgan-engineers-efficiency-jumps-much-20-using-coding-assistant-2025-03-13/",
    "raw_sector": "Financials",
+   "date": "2025",
+   "fresh": "fresh"
+  },
+  {
+   "company": "JPMorgan Chase",
+   "use": "LLM Suite: proprietary internal generative-AI portal giving employees a secure ChatGPT-style assistant (summarize, draft, analyze) built on external frontier models. Rolled out from summer 2024; now 230,000+ users. Named American Banker 2025 'Innovation of the Year'. [OpenAI (GPT) and Anthropic (Claude) models via internal portal]",
+   "existence": "confirmed",
+   "value": "230,000+ employee users",
+   "tier": "",
+   "url": "https://www.jpmorganchase.com/about/technology/blog/llmsuite-ab-award",
+   "raw_sector": "",
+   "date": "2024",
+   "fresh": "aging"
+  },
+  {
+   "company": "JPMorgan Chase",
+   "use": "AI coding assistant for software engineers: internally developed/adopted code-generation and completion tooling used by tens of thousands of engineers to boost productivity; use of approved AI coding tools now built into developer performance expectations.",
+   "existence": "confirmed",
+   "value": "10-20% engineer productivity gain",
+   "tier": "",
+   "url": "https://www.reuters.com/technology/artificial-intelligence/jpmorgan-engineers-efficiency-jumps-much-20-using-coding-assistant-2025-03-13/",
+   "raw_sector": "",
+   "date": "2025",
+   "fresh": "fresh"
+  },
+  {
+   "company": "JPMorgan Chase",
+   "use": "Coach AI (Connect Coach): real-time advisory tool for wealth/private-client advisers that surfaces research, market content and tailored recommendations via NLP so advisers respond faster during market volatility.",
+   "existence": "confirmed",
+   "value": "deployed to 10,000+ advisers; ~95% faster content retrieval per JPM",
+   "tier": "",
+   "url": "https://www.youtube.com/watch?v=xgTb0XnQD74",
+   "raw_sector": "",
+   "date": "2025",
+   "fresh": "fresh"
+  },
+  {
+   "company": "JPMorgan Chase",
+   "use": "Persado AI-generated marketing copy: enterprise-wide deal using Persado's generative AI to write and optimize marketing/ad language for campaigns across the firm. [Persado]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.persado.com/company/press-releases/jpmorgan-chase-announces-five-year-deal-with-persado-for-ai-powered-marketing-capabilities/",
+   "raw_sector": "",
+   "date": "2019",
+   "fresh": "stale"
+  },
+  {
+   "company": "JPMorgan Chase",
+   "use": "COiN (Contract Intelligence): NLP/ML platform that reads commercial-loan agreements and legal documents to extract key clauses and data points, automating manual document review.",
+   "existence": "confirmed",
+   "value": "~360,000 legal review hours saved per year (widely reported)",
+   "tier": "",
+   "url": "https://aiinstitute.hbs.edu/platform-rctom/submission/jp-morgan-coin-a-banks-side-project-spells-disruption-for-the-legal-industry/",
+   "raw_sector": "",
+   "date": "2017",
+   "fresh": "stale"
+  },
+  {
+   "company": "JPMorgan Chase",
+   "use": "IndexGPT: AI-generated thematic investment baskets; the tool uses GPT-4 to generate keywords for a theme which are then matched to stocks to build indices for clients. [OpenAI GPT-4]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.pymnts.com/news/artificial-intelligence/2024/jpmorgan-chase-unveils-ai-powered-tool-thematic-investing/",
+   "raw_sector": "",
+   "date": "2024-05",
+   "fresh": "aging"
+  },
+  {
+   "company": "JPMorgan Chase",
+   "use": "Cash Flow Intelligence: AI-driven treasury tool for corporate clients that analyzes and forecasts cash flows, automating manual treasury work.",
+   "existence": "confirmed",
+   "value": "up to ~90% reduction in manual work for some corporate clients",
+   "tier": "",
+   "url": "https://www.jpmorgan.com/insights/payments/data-intelligence/prysmian-ai-cash-flow-optimization",
+   "raw_sector": "",
+   "date": "2023",
+   "fresh": "stale"
+  },
+  {
+   "company": "JPMorgan Chase",
+   "use": "Anthropic Claude financial-services agents placed into production for workflows such as pitchbook/earnings analysis, credit memos and KYC (part of the broader Claude/LLM Suite rollout; Jamie Dimon publicly demoed Claude Code building research dashboards). [Anthropic Claude]",
+   "existence": "claimed",
+   "value": "vendor claim of pitchbooks in ~20 minutes vs 20-40 hours",
+   "tier": "",
+   "url": "https://fortune.com/2026/05/05/anthropic-wall-street-financial-services-agents-jamie-dimon/",
+   "raw_sector": "",
+   "date": "2026-05",
+   "fresh": "fresh"
+  },
+  {
+   "company": "JPMorgan Chase",
+   "use": "Chase Digital Assistant: AI virtual assistant in the Chase Mobile app / online banking that answers customer questions and completes common servicing tasks for personal banking, cards, auto and home loans.",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.chase.com/digital/customer-service/digital-assistant",
+   "raw_sector": "",
+   "date": "2023",
+   "fresh": "stale"
+  },
+  {
+   "company": "JPMorgan Chase",
+   "use": "JPM Access Virtual Assistant: AI assistant embedded in the J.P. Morgan Access corporate/treasury banking portal to help commercial-banking clients complete common tasks by typing natural-language questions.",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.jpmorgan.com/payments/solutions/access/jpm-virtual-assistant",
+   "raw_sector": "",
+   "date": "2024",
+   "fresh": "aging"
+  },
+  {
+   "company": "JPMorgan Chase",
+   "use": "AI/LLM payment validation screening: large language models screen payment messages to validate accounts and detect business-email-compromise fraud, reducing false positives and rejection rates in payment processing.",
+   "existence": "confirmed",
+   "value": "account validation rejection rates cut by 15-20%",
+   "tier": "",
+   "url": "https://www.jpmorgan.com/insights/payments/security-trust/ai-payments-efficiency-fraud-reduction",
+   "raw_sector": "",
+   "date": "2023",
+   "fresh": "stale"
+  },
+  {
+   "company": "JPMorgan Chase",
+   "use": "AI-powered anti-money-laundering (AML) transaction monitoring and name screening to flag suspicious patterns across millions of daily transactions and cut false-positive alert volumes.",
+   "existence": "confirmed",
+   "value": "reported up to ~95% reduction in AML false positives",
+   "tier": "",
+   "url": "https://www.silenteight.com/blog/jpmorgan-citi-and-wells-fargo-are-transforming-aml-thanks-to-ai-tools",
+   "raw_sector": "",
    "date": "2025",
    "fresh": "fresh"
   }

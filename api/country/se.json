@@ -6,18 +6,22 @@
    15,
    62
   ],
-  "deployments": 38,
+  "deployments": 49,
   "companies": 26,
   "searched": 30,
-  "confirmed": 30,
-  "confirmed_pct": 79,
-  "density": 1.0,
-  "with_value_number": 11,
-  "proof_pct": 29,
+  "confirmed": 36,
+  "confirmed_pct": 73,
+  "density": 1.2,
+  "with_value_number": 12,
+  "proof_pct": 24,
   "top_verticals": [
    {
     "v": "Manufacturing & Robotics",
     "n": 13
+   },
+   {
+    "v": "",
+    "n": 11
    },
    {
     "v": "Financial Services",
@@ -30,14 +34,34 @@
    {
     "v": "Telecom",
     "n": 3
-   },
-   {
-    "v": "Retail & E-commerce",
-    "n": 3
    }
   ]
  },
  "grid": [
+  {
+   "v": "",
+   "h": "Core / Domain",
+   "n": 5,
+   "withnum": 0,
+   "verdict": "talk",
+   "verdict_v2": "unquantified"
+  },
+  {
+   "v": "",
+   "h": "Back-office / Ops",
+   "n": 2,
+   "withnum": 1,
+   "verdict": "talk",
+   "verdict_v2": "talk"
+  },
+  {
+   "v": "",
+   "h": "Security / Risk",
+   "n": 4,
+   "withnum": 0,
+   "verdict": "talk",
+   "verdict_v2": "unquantified"
+  },
   {
    "v": "Financial Services",
    "h": "Core / Domain",
@@ -184,6 +208,15 @@
    "proof_pct": 15,
    "verdict": "active",
    "verdict_v2": "active"
+  },
+  {
+   "v": "",
+   "n": 11,
+   "confirmed": 6,
+   "withnum": 1,
+   "proof_pct": 9,
+   "verdict": "talk",
+   "verdict_v2": "unquantified"
   },
   {
    "v": "Financial Services",

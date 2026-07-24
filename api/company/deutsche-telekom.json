@@ -3,21 +3,21 @@
  "name": "Deutsche Telekom",
  "cc": "DE",
  "vertical": "Telecom",
- "deployments": 1,
- "confirmed": 1,
- "with_value_number": 0,
- "proof_rate": 0.0,
+ "deployments": 12,
+ "confirmed": 6,
+ "with_value_number": 5,
+ "proof_rate": 0.417,
  "mktcap": 141177600000.0,
  "revenue": 131706000000.0,
  "employees": 196586.0,
  "silent": false,
- "per_bn_revenue": 0.01,
- "per_10k_emp": 0.05,
+ "per_bn_revenue": 0.09,
+ "per_10k_emp": 0.61,
  "benchmarks": {
   "global_vertical": {
-   "deployments": 0,
-   "confirmed": 16,
-   "proof_rate": 0,
+   "deployments": 97,
+   "confirmed": 84,
+   "proof_rate": 54,
    "n": 93
   }
  },
@@ -25,17 +25,28 @@
  "by_year": [
   {
    "year": 2016,
-   "n": 1
+   "n": 2
+  },
+  {
+   "year": 2025,
+   "n": 6
+  },
+  {
+   "year": 2026,
+   "n": 4
   }
  ],
  "undated_pct": 0,
- "momentum": "early_mover,gone_quiet",
- "maturity": "L3",
+ "momentum": "early_mover,rising",
+ "maturity": "L4",
  "maturity_evidence": [
+  "multi_horizontal",
   "named_product:Frag Magenta",
+  "value_number",
+  "multi_year",
   "tier_p"
  ],
- "prospect_score": 46,
+ "prospect_score": 59,
  "stack": [
   "IBM"
  ],
@@ -51,6 +62,127 @@
    "raw_sector": "Telecommunication",
    "date": "2016",
    "fresh": "stale"
+  },
+  {
+   "company": "Deutsche Telekom",
+   "use": "AI Phone (T Phone 3) and AI Tablet with a dedicated 'magenta button' launching Perplexity's AI assistant as a personal secretary (calendar, email drafting, summarization, translation, travel/shopping), plus Picsart AI image editing. [Perplexity (assistant), Picsart (imaging)]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.telekom.com/en/media/media-information/archive/our-ai-phone-brings-ai-for-everyone-1095198",
+   "raw_sector": "",
+   "date": "2025-08",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Deutsche Telekom",
+   "use": "RAN Guardian agentic-AI agent that monitors and optimizes Radio Access Network operations in real time, identifies/prioritizes network issues and recommends or autonomously implements corrective actions (resource reallocation, config changes) for self-healing networks. [Google Cloud - Gemini 2.0 on Vertex AI (CloudRun, BigQuery, Firestore)]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.telekom.com/en/media/media-information/archive/deutsche-telekom-and-google-cloud-partner-on-agentic-ai-for-autonomous-networks-1088504",
+   "raw_sector": "",
+   "date": "2025-02",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Deutsche Telekom",
+   "use": "Sovereign AI platform for the German federal government (Germany Stack), with initial KIPITZ application supporting public-sector employees with intelligent document processing, knowledge management, translation, text summarization and faster planning/approval procedures. [Deutsche Telekom + SAP]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.telekom.com/en/media/media-information/archive/telekom-to-build-sovereign-ai-platform-for-the-german-federal-government-1105278",
+   "raw_sector": "",
+   "date": "2026-05",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Deutsche Telekom",
+   "use": "Frag Magenta AI customer-service assistant: chatbot and voicebot handling 380+ customer concerns 24/7 across web, app and phone hotline, with seamless handover to human agents. Voice version (Frag Magenta Voice) added natural-language understanding on the hotline. [Rasa NLU + in-house T-Duplex (originally IBM Watson)]",
+   "existence": "confirmed",
+   "value": "Over 4 million customer dialogues in 2022; resolves more than a third of concerns immediately",
+   "tier": "",
+   "url": "https://www.telekom.com/en/company/details/frag-magenta-one-genai-1055154",
+   "raw_sector": "",
+   "date": "2016",
+   "fresh": "stale"
+  },
+  {
+   "company": "Deutsche Telekom",
+   "use": "IBM Concert AI-powered automation for IT security: automates patch management and vulnerability remediation across hybrid-cloud/customer systems (Windows Server, Linux distros). Piloted then moved toward full deployment. [IBM (IBM Concert)]",
+   "existence": "confirmed",
+   "value": "10x reduction in median time-to-patch for critical vulnerabilities (80 hours to 8 hours); per-instance patching cut from 90 to max 20 minutes",
+   "tier": "",
+   "url": "https://newsroom.ibm.com/2025-07-02-deutsche-telekom-selects-ibm-concert-to-accelerate-it-processes-with-ai-powered-automation",
+   "raw_sector": "",
+   "date": "2025-07",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Deutsche Telekom",
+   "use": "Palo Alto Networks Cortex AI-driven SecOps (Sovereign Cortex) delivered as a sovereign security service (with T Security) for European regulated sectors (healthcare, financial services, public sector, critical infrastructure), with sovereignty and compliance controls (GDPR, NIS2, DORA). [Palo Alto Networks (Cortex AI-driven SecOps)]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.paloaltonetworks.com/company/press/2026/palo-alto-networks-and-deutsche-telekom-bring-ai-driven-security-with-advanced-sovereignty-controls-for-european-regulated-industries",
+   "raw_sector": "",
+   "date": "2026-06",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Deutsche Telekom",
+   "use": "HR process transformation via Pega hyperautomation for Deutsche Telekom Services Europe: over 800 HR processes modernized with AI-driven automation of data input and calculations, replacing a 15-year-old legacy system. [Pegasystems (Pega hyperautomation), implemented by T-Systems]",
+   "existence": "confirmed",
+   "value": "HR efficiency up 80%; process times reduced over 50%; 80% automation of data input/calculations; satisfaction 8.4/10",
+   "tier": "",
+   "url": "https://www.t-systems.com/de/en/success-stories/digital/hr-transformation-with-hyperautomation-for-dtse",
+   "raw_sector": "",
+   "date": "2025",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Deutsche Telekom",
+   "use": "Multi-year OpenAI partnership deploying ChatGPT Enterprise to employees for productivity/workflows and co-developing AI products across customer care, communication and network operations. Employees get secure access to OpenAI's most capable tools. [OpenAI (ChatGPT Enterprise)]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.telekom.com/en/media/media-information/archive/openai-and-telekom-collaborate-1100164",
+   "raw_sector": "",
+   "date": "2025-09",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Deutsche Telekom",
+   "use": "T-Systems + SupplyOn 'AI-native Sourcing': agentic AI on the sovereign Industrial AI Cloud assisting supplier selection, bid evaluation and purchasing decisions across the SupplyOn industrial supply-chain network, with planned expansion to quality, invoicing and risk. [T-Systems Industrial AI Cloud (NVIDIA Blackwell GPUs) + SupplyOn]",
+   "existence": "claimed",
+   "value": "140,000 connected companies; 10,000 NVIDIA Blackwell GPUs; ~0.5 exaflops",
+   "tier": "",
+   "url": "https://www.telekom.com/en/media/media-information/archive/t-systems-brings-ai-into-the-supply-chain-1105624",
+   "raw_sector": "",
+   "date": "2026-06",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Deutsche Telekom",
+   "use": "Google Veo AI video generation to create personalized YouTube ads at scale, producing many tailored video assets for different audience segments (e.g. 150 variants in the Unlimited campaign) using a human-machine creative loop. [Google Veo (Veo 3)]",
+   "existence": "confirmed",
+   "value": "View rate reached 56% (vs 37% industry average); ad recall +3.8pp",
+   "tier": "",
+   "url": "https://business.google.com/en-all/think/search-and-video/telekom-veo-campaign/",
+   "raw_sector": "",
+   "date": "2025",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Deutsche Telekom",
+   "use": "Bundled n8n AI-agent automation offering (licenses, implementation, training) for mid-sized business customers, targeting invoice processing/classification/compliance, logistics document automation and marketing campaign optimization. [n8n]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.telekom.com/en/media/media-information/archive/n8n-and-deutsche-telekom-the-fast-track-to-ai-agents-1105534",
+   "raw_sector": "",
+   "date": "2026-06",
+   "fresh": "fresh"
   }
  ]
 }

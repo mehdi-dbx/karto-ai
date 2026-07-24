@@ -3,40 +3,60 @@
  "name": "Procter & Gamble",
  "cc": "US",
  "vertical": "Retail & E-commerce",
- "deployments": 1,
- "confirmed": 1,
- "with_value_number": 0,
- "proof_rate": 0.0,
+ "deployments": 11,
+ "confirmed": 11,
+ "with_value_number": 6,
+ "proof_rate": 0.545,
  "mktcap": 340440000000.0,
  "revenue": 86720000000.0,
  "employees": 109000.0,
  "silent": false,
- "per_bn_revenue": 0.01,
- "per_10k_emp": 0.09,
+ "per_bn_revenue": 0.13,
+ "per_10k_emp": 1.01,
  "benchmarks": {
   "global_vertical": {
-   "deployments": 0,
-   "confirmed": 26,
-   "proof_rate": 0,
+   "deployments": 95,
+   "confirmed": 97,
+   "proof_rate": 75,
    "n": 295
   },
   "country_vertical": {
-   "deployments": 0,
-   "confirmed": 29,
-   "proof_rate": 0,
+   "deployments": 87,
+   "confirmed": 91,
+   "proof_rate": 81,
    "n": 80
   }
  },
- "first_seen": null,
- "by_year": [],
- "undated_pct": 100,
- "momentum": "none",
- "maturity": "L3",
+ "first_seen": 2020,
+ "by_year": [
+  {
+   "year": 2020,
+   "n": 1
+  },
+  {
+   "year": 2023,
+   "n": 2
+  },
+  {
+   "year": 2024,
+   "n": 1
+  },
+  {
+   "year": 2025,
+   "n": 6
+  }
+ ],
+ "undated_pct": 9,
+ "momentum": "early_mover,rising",
+ "maturity": "L4",
  "maturity_evidence": [
+  "multi_horizontal",
   "named_product:AI factory",
+  "value_number",
+  "multi_year",
   "tier_p"
  ],
- "prospect_score": 54,
+ "prospect_score": 86,
  "stack": [],
  "vendor_named": false,
  "deployments_detail": [
@@ -50,6 +70,116 @@
    "raw_sector": "Consumer Staples",
    "date": "missing",
    "fresh": "undated"
+  },
+  {
+   "company": "Procter & Gamble",
+   "use": "chatPG — internal, secure generative AI platform giving ~30,000 employees access to multiple LLMs (built on OpenAI's API in a walled garden, model-agnostic) for document drafting, summarization and analysis, with mandatory governance training [OpenAI (multi-model, Azure OpenAI)]",
+   "existence": "confirmed",
+   "value": "30,000 users; 8,000 requests in first two hours",
+   "tier": "",
+   "url": "https://consumergoods.com/pgs-chatpg-generative-ai-tool-scaling-across-business",
+   "raw_sector": "",
+   "date": "2023",
+   "fresh": "stale"
+  },
+  {
+   "company": "Procter & Gamble",
+   "use": "Azure IoT Operations + Azure Arc predictive maintenance and predictive quality: edge sensors on production lines feed AI models that monitor equipment, detect quality issues (e.g. paper towel sheet length, diaper glue) and predict failures across plants in 35+ countries [Microsoft Azure (IoT Operations, Azure Arc)]",
+   "existence": "confirmed",
+   "value": "model deployment time cut up to 90%; unplanned equipment halts dramatically reduced",
+   "tier": "",
+   "url": "https://www.microsoft.com/en/customers/story/25077-procter-and-gamble-iot-operations",
+   "raw_sector": "",
+   "date": "2025",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Procter & Gamble",
+   "use": "insightsPG / askPG — generative AI front ends that let employees query curated internal unstructured data and structured business data in natural language",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://sloanreview.mit.edu/article/how-procter-gamble-uses-ai-to-unlock-new-insights-from-data/",
+   "raw_sector": "",
+   "date": "2025",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Procter & Gamble",
+   "use": "Analytical AI order-optimization system (Brazil) that splits and schedules customer orders into truck-sized loads to improve availability and reduce out-of-stock rates",
+   "existence": "confirmed",
+   "value": "15% reduction in out-of-stock rates",
+   "tier": "",
+   "url": "https://sloanreview.mit.edu/article/how-procter-gamble-uses-ai-to-unlock-new-insights-from-data/",
+   "raw_sector": "",
+   "date": "2025",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Procter & Gamble",
+   "use": "imagePG — generative AI tool that creates and analyzes images and video for advertising and marketing content development",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://sloanreview.mit.edu/article/how-procter-gamble-uses-ai-to-unlock-new-insights-from-data/",
+   "raw_sector": "",
+   "date": "2025",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Procter & Gamble",
+   "use": "Great Idea Generator — generative AI that creates product and advertising concepts from consumer trend data to accelerate the concept-to-shelf timeline",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://sloanreview.mit.edu/article/how-procter-gamble-uses-ai-to-unlock-new-insights-from-data/",
+   "raw_sector": "",
+   "date": "2025",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Procter & Gamble",
+   "use": "Google Cloud data-and-AI platform (BigQuery, TensorFlow/Vertex AI) unifying first- and third-party consumer data for personalization and ML-driven product experiences (e.g. Lumi by Pampers sleep-tracking, Oral-B iO connected intelligence) [Google Cloud (BigQuery, TensorFlow/Vertex AI)]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.prnewswire.com/news-releases/google-cloud-helps-power-more-personalized-experience-for-procter--gamble-consumers-301092670.html",
+   "raw_sector": "",
+   "date": "2020",
+   "fresh": "stale"
+  },
+  {
+   "company": "Procter & Gamble",
+   "use": "Perfume Development Digital Suite using Moodify White AI fragrance-design software to model and formulate new scents (including malodor control) in R&D, designing fragrances ~5x faster [Moodify]",
+   "existence": "confirmed",
+   "value": "fragrances developed 5x faster",
+   "tier": "",
+   "url": "https://www.prnewswire.com/il/news-releases/procter--gamble-fragrance-development-group-partners-with-moodify-ai--based-software-solution-for-enhanced-fragrance-design-301945492.html",
+   "raw_sector": "",
+   "date": "2023",
+   "fresh": "stale"
+  },
+  {
+   "company": "Procter & Gamble",
+   "use": "Pampers 'My Perfect Fit' — AI-driven questionnaire that recommends the optimal diaper size/fit to prevent leaks",
+   "existence": "confirmed",
+   "value": "90% accuracy for leak prevention",
+   "tier": "",
+   "url": "https://sloanreview.mit.edu/article/how-procter-gamble-uses-ai-to-unlock-new-insights-from-data/",
+   "raw_sector": "",
+   "date": "2025",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Procter & Gamble",
+   "use": "Project Genie — generative AI agent-assist that synthesizes information from articles and help documents to help 800+ customer service representatives answer consumer questions faster",
+   "existence": "confirmed",
+   "value": "800+ customer service reps supported; reduced question processing time",
+   "tier": "",
+   "url": "https://sloanreview.mit.edu/article/how-procter-gamble-uses-ai-to-unlock-new-insights-from-data/",
+   "raw_sector": "",
+   "date": "2024",
+   "fresh": "aging"
   }
  ]
 }

@@ -3,40 +3,60 @@
  "name": "Verizon",
  "cc": "US",
  "vertical": "Telecom",
- "deployments": 1,
- "confirmed": 1,
- "with_value_number": 0,
- "proof_rate": 0.0,
+ "deployments": 11,
+ "confirmed": 10,
+ "with_value_number": 4,
+ "proof_rate": 0.364,
  "mktcap": 184020000000.0,
  "revenue": 139150000000.0,
  "employees": 89900.0,
  "silent": false,
- "per_bn_revenue": 0.01,
- "per_10k_emp": 0.11,
+ "per_bn_revenue": 0.08,
+ "per_10k_emp": 1.22,
  "benchmarks": {
   "global_vertical": {
-   "deployments": 0,
-   "confirmed": 16,
-   "proof_rate": 0,
+   "deployments": 91,
+   "confirmed": 96,
+   "proof_rate": 52,
    "n": 93
   },
   "country_vertical": {
-   "deployments": 0,
-   "confirmed": 32,
-   "proof_rate": 0,
+   "deployments": 82,
+   "confirmed": 86,
+   "proof_rate": 68,
    "n": 23
   }
  },
- "first_seen": null,
- "by_year": [],
- "undated_pct": 100,
- "momentum": "none",
- "maturity": "L3",
+ "first_seen": 2019,
+ "by_year": [
+  {
+   "year": 2019,
+   "n": 1
+  },
+  {
+   "year": 2024,
+   "n": 5
+  },
+  {
+   "year": 2025,
+   "n": 3
+  },
+  {
+   "year": 2026,
+   "n": 1
+  }
+ ],
+ "undated_pct": 9,
+ "momentum": "early_mover,cooling",
+ "maturity": "L4",
  "maturity_evidence": [
+  "multi_horizontal",
   "named_product:Google",
+  "value_number",
+  "multi_year",
   "tier_p"
  ],
- "prospect_score": 46,
+ "prospect_score": 85,
  "stack": [
   "Google"
  ],
@@ -52,6 +72,116 @@
    "raw_sector": "Communication Services",
    "date": "missing",
    "fresh": "undated"
+  },
+  {
+   "company": "Verizon",
+   "use": "AI-driven skills intelligence for the workforce: AI enriches employee skills profiles to create dynamic upskilling pathways, increase internal mobility and reduce hiring friction across Verizon's HR/talent operations. [Censia]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.linkedin.com/posts/censia_were-loving-this-interview-with-christina-activity-7384699979841507329-8A6m",
+   "raw_sector": "",
+   "date": "2025",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Verizon",
+   "use": "'Segment of Me' personalization engine: generative-AI-driven system that delivers individually tailored offers and products to each customer across all shopping channels, powering the myPlan personalization strategy.",
+   "existence": "confirmed",
+   "value": "Increased customer engagement and lowered churn (no figure)",
+   "tier": "",
+   "url": "https://www.globenewswire.com/news-release/2024/05/14/2881713/0/en/verizon-unveils-new-ai-tools-to-transform-customer-experience.html",
+   "raw_sector": "",
+   "date": "2024-05",
+   "fresh": "aging"
+  },
+  {
+   "company": "Verizon",
+   "use": "Autonomous network operations: hierarchical AI agents running 24/7 with closed-loop automation that detect anomalies, spin up specialized sub-agents to find root causes, and self-heal the network, targeting Level 4 network autonomy. Engineers use frontier LLMs for complex modeling and traffic management. [Anthropic Claude (frontier LLMs)]",
+   "existence": "confirmed",
+   "value": "Over 70 million autonomous network configuration changes executed in 2025; root-cause diagnosis cut from hours to under 2 minutes",
+   "tier": "",
+   "url": "https://www.verizon.com/about/news/verizon-architecting-network-autonomy",
+   "raw_sector": "",
+   "date": "2026-06",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Verizon",
+   "use": "AI-powered private 5G with NVIDIA enterprise AI for live media: portable private 5G platform running real-time AI inference on video streams to dynamically prioritize camera feeds and auto-generate broadcast graphics (e.g., identifying jockeys by jersey color), piloted with FanDuel TV live race production. [NVIDIA (AI Enterprise, Holoscan for Media, NIM, L40S GPUs); Mistral 12B model]",
+   "existence": "claimed",
+   "value": "Over 50% lower latency versus traditional cloud workflows",
+   "tier": "",
+   "url": "https://www.nvidia.com/en-us/case-studies/verizon-private-5g-network-with-enterprise-ai-for-live-media/",
+   "raw_sector": "",
+   "date": "2024-12",
+   "fresh": "aging"
+  },
+  {
+   "company": "Verizon",
+   "use": "Personal Research Assistant: a conversational agent-assist tool that reviews thousands of internal resources to give ~28,000 frontline customer-care and retail reps instant, contextual answers to customer inquiries. Deployed at full scale after a July 2024 rollout. [Google Cloud (Vertex AI, Gemini, Agent Assist Panel)]",
+   "existence": "confirmed",
+   "value": "95% comprehensive answerability of customer inquiries; deployed across 28,000 reps",
+   "tier": "",
+   "url": "https://www.googlecloudpresscorner.com/2025-04-09-Google-Cloud-and-Verizon-Drive-Customer-Experience-Improvements-for-Verizon-Customers-with-Gemini-Integration",
+   "raw_sector": "",
+   "date": "2024-05",
+   "fresh": "aging"
+  },
+  {
+   "company": "Verizon",
+   "use": "Fast Pass to Resolution: AI that intelligently matches an incoming customer to the best-fit available representative based on their specific need (e.g., pairing international-service questions with international travel experts).",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.globenewswire.com/news-release/2024/05/14/2881713/0/en/verizon-unveils-new-ai-tools-to-transform-customer-experience.html",
+   "raw_sector": "",
+   "date": "2024-05",
+   "fresh": "aging"
+  },
+  {
+   "company": "Verizon",
+   "use": "Problem Solver / Personal Shopper: real-time AI analysis of customer profiles that helps employees understand customer needs and deliver tailored answers, offers and products, and accelerates troubleshooting of complex issues. [Google Cloud (Customer Engagement Suite, Agent Assist Panel)]",
+   "existence": "confirmed",
+   "value": "Transaction time reduced by 2-4 minutes",
+   "tier": "",
+   "url": "https://www.globenewswire.com/news-release/2024/05/14/2881713/0/en/verizon-unveils-new-ai-tools-to-transform-customer-experience.html",
+   "raw_sector": "",
+   "date": "2024-05",
+   "fresh": "aging"
+  },
+  {
+   "company": "Verizon",
+   "use": "AI-powered Verizon Assistant in the relaunched My Verizon consumer app: a customer-facing GenAI assistant that helps consumers manage upgrades, add lines, ask billing questions and troubleshoot complex issues, escalating to a human 'Customer Champion' when needed. [Google Cloud (Gemini models)]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.verizon.com/about/news/verizon-launches-industry-leading-ai-powered-customer-experience",
+   "raw_sector": "",
+   "date": "2025-06",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Verizon",
+   "use": "Verizon Business Assistant: an industry-first GenAI-powered text-messaging solution for small businesses that automates responses to frequently asked customer questions and provides 24/7 automated engagement.",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.verizon.com/about/news/verizon-business-launches-industry-first-genai-assistant-small-businesses",
+   "raw_sector": "",
+   "date": "2025-03",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Verizon",
+   "use": "Call Filter spam/fraud detection: uses a spam-detection algorithm updated in real time via STIR/SHAKEN caller-ID authentication to screen incoming calls and automatically block high-risk spam, robocalls and fraud calls for wireless customers.",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.verizon.com/support/call-filter-faqs/",
+   "raw_sector": "",
+   "date": "2019",
+   "fresh": "stale"
   }
  ]
 }

@@ -3,45 +3,68 @@
  "name": "Brookfield Corporation",
  "cc": "CA",
  "vertical": "Financial Services",
- "deployments": 1,
- "confirmed": 1,
- "with_value_number": 0,
- "proof_rate": 0.0,
+ "deployments": 12,
+ "confirmed": 10,
+ "with_value_number": 6,
+ "proof_rate": 0.5,
  "mktcap": 98919117647.0,
  "revenue": 81198529412.0,
  "employees": 250000.0,
  "silent": false,
- "per_bn_revenue": 0.01,
- "per_10k_emp": 0.04,
+ "per_bn_revenue": 0.15,
+ "per_10k_emp": 0.48,
  "benchmarks": {
   "global_vertical": {
-   "deployments": 0,
-   "confirmed": 18,
-   "proof_rate": 0,
+   "deployments": 95,
+   "confirmed": 95,
+   "proof_rate": 61,
    "n": 377
   },
   "country_vertical": {
-   "deployments": 0,
-   "confirmed": 14,
-   "proof_rate": 0,
+   "deployments": 71,
+   "confirmed": 71,
+   "proof_rate": 57,
    "n": 8
   }
  },
- "first_seen": 2025,
+ "first_seen": 2018,
  "by_year": [
   {
+   "year": 2018,
+   "n": 1
+  },
+  {
+   "year": 2020,
+   "n": 1
+  },
+  {
+   "year": 2023,
+   "n": 1
+  },
+  {
+   "year": 2024,
+   "n": 2
+  },
+  {
    "year": 2025,
+   "n": 6
+  },
+  {
+   "year": 2026,
    "n": 1
   }
  ],
  "undated_pct": 0,
- "momentum": "rising",
- "maturity": "L3",
+ "momentum": "early_mover,rising",
+ "maturity": "L4",
  "maturity_evidence": [
+  "multi_horizontal",
   "named_product:Launching",
+  "value_number",
+  "multi_year",
   "tier_p"
  ],
- "prospect_score": 46,
+ "prospect_score": 80,
  "stack": [
   "NVIDIA"
  ],
@@ -57,6 +80,127 @@
    "raw_sector": "Financials",
    "date": "2025-11",
    "fresh": "fresh"
+  },
+  {
+   "company": "Brookfield Corporation",
+   "use": "Brookfield Properties deployed EliseAI conversational AI across its multifamily residential portfolio to automate rent-collection communications and reduce delinquencies. [EliseAI]",
+   "existence": "confirmed",
+   "value": "one property's collection rate rose from 97.6% to 99.6%, 14 days faster",
+   "tier": "",
+   "url": "https://www.credaily.com/briefs/multifamily-using-ai-for-rent-collections-as-delinquencies-rise/",
+   "raw_sector": "",
+   "date": "2024-12",
+   "fresh": "aging"
+  },
+  {
+   "company": "Brookfield Corporation",
+   "use": "AI voice/chat bots automate routine repair-service calls at Brookfield Infrastructure's residential services businesses (HomeServe/Enercare), deflecting simple calls so human agents handle higher-value interactions.",
+   "existence": "confirmed",
+   "value": "~15% of repair calls automated; 15-20% reduction in call times; ~25% increase in sales & retention",
+   "tier": "",
+   "url": "https://www.klover.ai/brookfield-ai-strategy-analysis-of-dominance-in-investement-management-ai/",
+   "raw_sector": "",
+   "date": "2025",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Brookfield Corporation",
+   "use": "AI decision models at portfolio company Clarios (battery manufacturer) process millions of data points daily to optimize order sequencing/fulfillment across its facility network, factoring historical trends, projected demand and cost tradeoffs.",
+   "existence": "confirmed",
+   "value": "improved U.S. on-time quantity fulfillment by 5%",
+   "tier": "",
+   "url": "https://www.brookfield.com/views-news/insights/next-industrials-ai-transformation",
+   "raw_sector": "",
+   "date": "2025",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Brookfield Corporation",
+   "use": "Clarios Connected Services: AI, machine learning and cloud computing combined with IoT sensors on trucks/batteries to deliver predictive battery intelligence for fleet maintenance and performance.",
+   "existence": "confirmed",
+   "value": "pilot participants: ~$1,500 fuel savings and 2,500 kg CO2 reduction annually per vehicle",
+   "tier": "",
+   "url": "https://www.clarios.com/insights/news/news-details/clarios-announces-connected-service-offerings-using-real-time-battery-insights",
+   "raw_sector": "",
+   "date": "2024-09",
+   "fresh": "aging"
+  },
+  {
+   "company": "Brookfield Corporation",
+   "use": "AI-enabled manufacturing at portfolio company Chemelex (heat-trace cable): machine-learning sensors optimize polymer blending to reduce yield loss/variability, plus robotics and AI cameras (computer vision) for automated cable handling and defect inspection.",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.brookfield.com/views-news/insights/next-industrials-ai-transformation",
+   "raw_sector": "",
+   "date": "2025",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Brookfield Corporation",
+   "use": "Computer-vision AI (indus.ai camera network feeding a neural network) to monitor construction progress, safety and logistics during the build of Brookfield's Manhattan West development. [indus.ai]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://commercialobserver.com/2018/10/how-brookfield-is-building-manhattan-west-using-ai/",
+   "raw_sector": "",
+   "date": "2018",
+   "fresh": "stale"
+  },
+  {
+   "company": "Brookfield Corporation",
+   "use": "Enterprise-wide AI deployment: Brookfield invested $500M in The OpenAI Deployment Company and plans to draw on its capabilities across its operating companies and investment platform to accelerate productivity, improve decision-making and drive efficiency gains, moving from pilot AI use cases to scaled enterprise-wide deployment. [OpenAI]",
+   "existence": "claimed",
+   "value": "$500M investment",
+   "tier": "",
+   "url": "https://bam.brookfield.com/press-releases/brookfield-invest-500-million-strategic-partnership-openai",
+   "raw_sector": "",
+   "date": "2026-05",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Brookfield Corporation",
+   "use": "Digital twin of Brookfield Properties' One Manhattan West tower integrating real-time data from 30+ building systems (HVAC, elevators, security, energy) for predictive maintenance and energy optimization. [Microsoft Azure Digital Twins / Willow (WillowTwin)]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.mannpublications.com/mannreport/2020/12/03/willow-to-use-digital-twin-tech-at-one-manhattan-west/",
+   "raw_sector": "",
+   "date": "2020",
+   "fresh": "stale"
+  },
+  {
+   "company": "Brookfield Corporation",
+   "use": "Brookfield is implementing AI at the portfolio-company level to automate aspects of financial reporting and numerous HR and finance processes.",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.perenews.com/brookfield-the-edge-in-ai-investing-is-operational-know-how/",
+   "raw_sector": "",
+   "date": "2025-11",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Brookfield Corporation",
+   "use": "Brookfield is piloting AI tools for its own core investment processes to enhance deal screening and accelerate due diligence, including summarizing voluminous legal and financial documents.",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.klover.ai/brookfield-ai-strategy-analysis-of-dominance-in-investement-management-ai/",
+   "raw_sector": "",
+   "date": "2025",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Brookfield Corporation",
+   "use": "AI-powered digital advertising and leasing marketing via RealtyAds at Brookfield Properties' Two Manhattan West to combat vacancy through hyper-targeted tenant marketing. [RealtyAds]",
+   "existence": "confirmed",
+   "value": "600,000+ sq ft in leases closed",
+   "tier": "",
+   "url": "https://www.realtyads.com/realtyads-champion-brookfield-properties-successfully-combats-vacancy/",
+   "raw_sector": "",
+   "date": "2023",
+   "fresh": "stale"
   }
  ]
 }

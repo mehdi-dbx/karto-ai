@@ -3,40 +3,55 @@
  "name": "Cisco",
  "cc": "US",
  "vertical": "Technology",
- "deployments": 1,
- "confirmed": 1,
+ "deployments": 14,
+ "confirmed": 7,
  "with_value_number": 0,
  "proof_rate": 0.0,
  "mktcap": 445660000000.0,
  "revenue": 60750000000.0,
  "employees": 86200.0,
  "silent": false,
- "per_bn_revenue": 0.02,
- "per_10k_emp": 0.12,
+ "per_bn_revenue": 0.23,
+ "per_10k_emp": 1.62,
  "benchmarks": {
   "global_vertical": {
-   "deployments": 0,
-   "confirmed": 6,
+   "deployments": 100,
+   "confirmed": 86,
    "proof_rate": 0,
    "n": 156
   },
   "country_vertical": {
-   "deployments": 0,
-   "confirmed": 4,
+   "deployments": 100,
+   "confirmed": 79,
    "proof_rate": 0,
    "n": 74
   }
  },
- "first_seen": null,
- "by_year": [],
- "undated_pct": 100,
- "momentum": "none",
- "maturity": "L3",
+ "first_seen": 2024,
+ "by_year": [
+  {
+   "year": 2024,
+   "n": 3
+  },
+  {
+   "year": 2025,
+   "n": 2
+  },
+  {
+   "year": 2026,
+   "n": 7
+  }
+ ],
+ "undated_pct": 14,
+ "momentum": "early_mover,rising",
+ "maturity": "L4",
  "maturity_evidence": [
+  "multi_horizontal",
   "named_product:Silicon",
+  "multi_year",
   "tier_p"
  ],
- "prospect_score": 54,
+ "prospect_score": 90,
  "stack": [],
  "vendor_named": false,
  "deployments_detail": [
@@ -50,6 +65,149 @@
    "raw_sector": "Information Technology",
    "date": "missing",
    "fresh": "undated"
+  },
+  {
+   "company": "Cisco",
+   "use": "Cisco AgenticOps / Cloud Control: agentic AIOps operating model where AI agents act as digital teammates that sense, diagnose root cause via AI reasoning, remediate and validate network/IT issues, with digital-twin testing before production; delivered on the Cisco Cloud Control platform in controlled availability.",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://biztechmagazine.com/article/2026/06/cisco-live-2026-cisco-pushes-agenticops-vision-help-it-teams-manage-ai-era-networks",
+   "raw_sector": "",
+   "date": "2026-06",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Cisco",
+   "use": "Cisco AI Canvas: generative-UI collaborative workspace where IT/network operators and AI agents jointly investigate incidents, preserving context across shifts and escalations; part of Cloud Control.",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://siliconangle.com/2026/06/02/ciscos-new-cloud-platform-aimed-securing-ai-infrastructure/",
+   "raw_sector": "",
+   "date": "2026-06",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Cisco",
+   "use": "Cloud Control Studio App Builder / Agent Builder: create custom AI agents and applications from natural-language prompts, integrating OpenAI's Codex and connecting to 40+ platforms (ServiceNow, PagerDuty, Wiz, hyperscalers). [OpenAI Codex]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://siliconangle.com/2026/06/02/ciscos-new-cloud-platform-aimed-securing-ai-infrastructure/",
+   "raw_sector": "",
+   "date": "2026-06",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Cisco",
+   "use": "Cisco Motific (from Outshift by Cisco): SaaS to accelerate and govern enterprise generative-AI application deployment, adding security, policy and cost controls over GenAI resources.",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://venturebeat.com/business/cisco-launches-motific-a-saas-offering-to-accelerate-generative-ai-deployments/",
+   "raw_sector": "",
+   "date": "2024",
+   "fresh": "aging"
+  },
+  {
+   "company": "Cisco",
+   "use": "Webex AI Assistant for Meetings: AI-powered, voice-activated assistant delivering real-time transcription, closed captioning, meeting highlights and post-meeting summaries across Webex Meetings and devices.",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://help.webex.com/en-us/article/zpszvdb/Webex-App-%7C-Enable-Cisco-AI-Assistant-in-meetings",
+   "raw_sector": "",
+   "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "Cisco",
+   "use": "Cisco AI Assistant for Webex Calling: generative-AI assistant generating live call summaries and action-item lists, contextual call-transfer summaries, and searchable post-call transcripts in the Webex app.",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.linkedin.com/pulse/cisco-launches-ai-assistant-webex-calling-automate-office-tim-banting-thewe",
+   "raw_sector": "",
+   "date": "2026-03",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Cisco",
+   "use": "Webex AI agents for collaboration: purpose-built agents including Note Taker, Voice AI Receptionist, Meeting Scheduler, Task Agent (auto-creates Jira tickets), Polling Agent and Director Agent (auto camera selection in RoomOS 26); plus Nvidia-built Workspace Advisor 3D room digital twins. [NVIDIA (Workspace Advisor)]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.computerworld.com/article/4065664/cisco-unveils-ai-agents-for-webex-meetings.html",
+   "raw_sector": "",
+   "date": "2026",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Cisco",
+   "use": "Cisco Deep Network Model: domain-specific large language model trained on unified network data that powers AgenticOps reasoning and troubleshooting across the networking portfolio.",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.manilatimes.net/2026/02/10/tmt-newswire/pr-newswire/cisco-expands-agenticops-innovations-across-portfolio/2274963",
+   "raw_sector": "",
+   "date": "2026-02",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Cisco",
+   "use": "Cisco Webex Contact Center AI: autonomous Webex AI Agent handling complex customer requests end-to-end (e.g. rebooking flights), plus AI Assistant/Agent Assist providing real-time transcription, context and next-best-action recommendations to human agents and topic analytics.",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.lemondeinformatique.fr/actualites/lire-pour-les-centres-d-appel-cisco-integre-des-agents-ia-dans-webex-96360.html",
+   "raw_sector": "",
+   "date": "2025-03",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Cisco",
+   "use": "Cisco AI Defense: end-to-end security platform to discover, validate (algorithmic red-teaming) and protect enterprise AI applications and agents against prompt injection, data leakage and model safety risks; expanded with AI BOM, MCP Catalog and real-time agentic guardrails. [Cisco Talos; NVIDIA NeMo Guardrails]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.prnewswire.com/news-releases/cisco-unveils-ai-defense-to-secure-the-ai-transformation-of-enterprises-302351307.html",
+   "raw_sector": "",
+   "date": "2025-03",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Cisco",
+   "use": "Cisco Hypershield: AI-native, distributed security fabric with ML embedded at each enforcement point (agents, DPUs, smart switches) that continuously learns traffic/workload behavior to autonomously segment networks and deliver graduated (alert vs block) responses.",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://blogs.cisco.com/security/cisco-hypershield-reimagining-security",
+   "raw_sector": "",
+   "date": "2024-04",
+   "fresh": "aging"
+  },
+  {
+   "company": "Cisco",
+   "use": "Splunk AI Assistant for SPL (Splunk, a Cisco company): generative-AI assistant that translates natural language into Splunk Processing Language queries, explains SPL step-by-step, and answers how-to questions from product docs, available from Splunkbase for Splunk Cloud.",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.splunk.com/en_us/products/splunk-ai-assistant-for-spl.html",
+   "raw_sector": "",
+   "date": "2024",
+   "fresh": "aging"
+  },
+  {
+   "company": "Cisco",
+   "use": "Cisco Agentic SOC (Security Cloud Control) with DefenseClaw: AI agents automate security-operations-center workflows and govern local coding agents (OpenAI Codex, Claude Code, OpenClaw), scanning vulnerabilities and enforcing access controls. [OpenAI Codex; Claude Code]",
+   "existence": "claimed",
+   "value": "reduces incident response from hours/days to minutes",
+   "tier": "",
+   "url": "https://siliconangle.com/2026/06/02/ciscos-new-cloud-platform-aimed-securing-ai-infrastructure/",
+   "raw_sector": "",
+   "date": "2026-06",
+   "fresh": "fresh"
   }
  ]
 }

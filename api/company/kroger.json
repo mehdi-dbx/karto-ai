@@ -3,45 +3,68 @@
  "name": "Kroger",
  "cc": "US",
  "vertical": "Retail & E-commerce",
- "deployments": 1,
- "confirmed": 1,
- "with_value_number": 0,
- "proof_rate": 0.0,
+ "deployments": 15,
+ "confirmed": 11,
+ "with_value_number": 2,
+ "proof_rate": 0.133,
  "mktcap": 34070000000.0,
  "revenue": 148650000000.0,
  "employees": 403000.0,
  "silent": false,
- "per_bn_revenue": 0.01,
- "per_10k_emp": 0.02,
+ "per_bn_revenue": 0.1,
+ "per_10k_emp": 0.37,
  "benchmarks": {
   "global_vertical": {
-   "deployments": 0,
-   "confirmed": 26,
-   "proof_rate": 0,
+   "deployments": 100,
+   "confirmed": 97,
+   "proof_rate": 62,
    "n": 295
   },
   "country_vertical": {
-   "deployments": 0,
-   "confirmed": 29,
-   "proof_rate": 0,
+   "deployments": 100,
+   "confirmed": 91,
+   "proof_rate": 66,
    "n": 80
   }
  },
- "first_seen": 2026,
+ "first_seen": 2020,
  "by_year": [
   {
-   "year": 2026,
+   "year": 2020,
    "n": 1
+  },
+  {
+   "year": 2021,
+   "n": 1
+  },
+  {
+   "year": 2022,
+   "n": 2
+  },
+  {
+   "year": 2024,
+   "n": 2
+  },
+  {
+   "year": 2025,
+   "n": 3
+  },
+  {
+   "year": 2026,
+   "n": 5
   }
  ],
- "undated_pct": 0,
- "momentum": "late_entrant,rising",
- "maturity": "L3",
+ "undated_pct": 7,
+ "momentum": "early_mover,rising",
+ "maturity": "L4",
  "maturity_evidence": [
+  "multi_horizontal",
   "named_product:Google",
+  "value_number",
+  "multi_year",
   "tier_p"
  ],
- "prospect_score": 46,
+ "prospect_score": 95,
  "stack": [
   "Google"
  ],
@@ -57,6 +80,160 @@
    "raw_sector": "Consumer Staples",
    "date": "2026",
    "fresh": "fresh"
+  },
+  {
+   "company": "Kroger",
+   "use": "Sage: an AI virtual assistant for store associates providing a single point of access to check shift schedules, request time off, set shift availability and manage store tasks. Being expanded across the workforce.",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.grocerydive.com/news/kroger-ai-google-gemini-shopping-assistant-technology-associate-platform-sage-nrf-2026/809435/",
+   "raw_sector": "",
+   "date": "2026-01",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Kroger",
+   "use": "AI-enabled dynamic batching for online order fulfillment: machine learning batches pickup/delivery orders to reduce pickup lead time and improve the store associate picking experience.",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.forbes.com/sites/randybean/2024/08/26/how-kroger-is-using-data--ai-to-drive-innovation-in-the-grocery-industry/",
+   "raw_sector": "",
+   "date": "2024-08",
+   "fresh": "aging"
+  },
+  {
+   "company": "Kroger",
+   "use": "Machine-learning delivery route optimization at Ocado-powered Customer Fulfillment Centers: algorithms dynamically optimize delivery routes considering road conditions and fuel efficiency. [Ocado Smart Platform]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://ir.kroger.com/news/news-details/2021/Kroger-Delivery-Introduces-Americas-First-Customer-Fulfillment-Center/default.aspx",
+   "raw_sector": "",
+   "date": "2021-04",
+   "fresh": "stale"
+  },
+  {
+   "company": "Kroger",
+   "use": "Intelligence Node generative-AI retail analytics on Kroger Marketplace: AI improves and enriches third-party seller product listings (content, pricing, market analytics) to boost clarity and customer experience. [Intelligence Node]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.grocerydive.com/news/kroger-partners-ai-retail-analytics-firm-intelligence-node/707091/",
+   "raw_sector": "",
+   "date": "2024-02",
+   "fresh": "aging"
+  },
+  {
+   "company": "Kroger",
+   "use": "84.51 AI-generated supplier email digest: uses AI to pull retail data from 84.51's Stratum customer-behavior insights tool and auto-generate customizable insight emails for brands/suppliers. [84.51 (Stratum)]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.8451.com/knowledge-hub/news/modern-retail-kroger-launches-ai-generated-email-digest-for-suppliers/",
+   "raw_sector": "",
+   "date": "2025-12",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Kroger",
+   "use": "Chefbot: AI tool (originally launched via Twitter) that recognizes ingredient/food photos and delivers personalized recipe recommendations based on items users already have, aimed at reducing food waste.",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://ir.kroger.com/news/news-details/2020/Kroger-Launches-Chefbot-a-First-of-Its-Kind-AI-Twitter-Tool-that-Delivers-Personalized-Recipe-Recommendations-Based-on-Ingredients-Already-in-Users-Kitchens/default.aspx",
+   "raw_sector": "",
+   "date": "2020-10",
+   "fresh": "stale"
+  },
+  {
+   "company": "Kroger",
+   "use": "Gemini Enterprise for Customer Experience powering an integrated Shopping Assistant and Meal Assistant in the Kroger app: agentic assistant that plans meals, converts recipe requests into carts, surfaces personalized offers and compares products. Nationwide rollout announced. [Google Cloud / Gemini Enterprise]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://ir.kroger.com/news/news-details/2026/Kroger-Scales-Generative-AI-Strategy-with-Google-Cloud-to-Drive-Digital-Growth-and-Personalization/default.aspx",
+   "raw_sector": "",
+   "date": "2026-01",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Kroger",
+   "use": "AI-driven demand forecasting and inventory optimization: Kroger generates a new demand plan for every SKU in every store nightly to optimize replenishment, reduce waste and improve on-shelf availability of fresh products.",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://nationalcioreview.com/articles-insights/cio-field-notes/krogers-fresh-focus-and-ai-driven-operations/",
+   "raw_sector": "",
+   "date": "2025-06",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Kroger",
+   "use": "Nvidia strategic collaboration: AI lab and demonstration center at Kroger HQ using Nvidia AI Enterprise and Omniverse to build digital-twin simulations of stores to optimize layouts, logistics and freshness initiatives. [Nvidia (AI Enterprise, Omniverse)]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://nvidianews.nvidia.com/news/kroger-and-nvidia-to-reinvent-the-shopping-experience-through-state-of-the-art-ai-enabled-applications-and-services",
+   "raw_sector": "",
+   "date": "2022-03",
+   "fresh": "stale"
+  },
+  {
+   "company": "Kroger",
+   "use": "84.51 data-science AI/ML model factory using DataRobot to accelerate production, deployment and interpretation of the machine-learning models powering Kroger shopper personalization and targeted offers. [DataRobot]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.datarobot.com/resources/empowering-kroger-84-51s-data-scientists-with-datarobot/",
+   "raw_sector": "",
+   "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "Kroger",
+   "use": "Instacart Cart Assistant: Kroger among first retailers to offer Instacart's AI-powered conversational shopping assistant to help customers build baskets and plan meals via natural-language interaction. [Instacart (Cart Assistant)]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://ir.kroger.com/news/news-details/2025/Kroger-and-Instacart-Announce-Expanded-Relationship-Investing-in-AI-to-Simplify-Customer-Experience-Improve-Efficiency/default.aspx",
+   "raw_sector": "",
+   "date": "2025-11",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Kroger",
+   "use": "Flashfood data-driven shrink/waste management: AI-supported markdown and diversion of perishable food nearing best-by dates, expanded divisionwide across the Mid-Atlantic to cut food waste. [Flashfood]",
+   "existence": "confirmed",
+   "value": "Targeting diversion of 95% of ~166,000 tons of expected annual food waste",
+   "tier": "",
+   "url": "https://www.thepacker.com/news/sustainability/kroger-and-flashfood-take-waste-reduction-partnership-divisionwide-across-mid",
+   "raw_sector": "",
+   "date": "2026-04",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Kroger",
+   "use": "Customer Experience Agent Studio (Google Cloud): AI analyzes customer calls to stores to proactively identify and resolve issues and enhance associate productivity in service interactions. [Google Cloud / Gemini Enterprise]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://ir.kroger.com/news/news-details/2026/Kroger-Scales-Generative-AI-Strategy-with-Google-Cloud-to-Drive-Digital-Growth-and-Personalization/default.aspx",
+   "raw_sector": "",
+   "date": "2026-01",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Kroger",
+   "use": "Everseen Visual AI at self-checkout: high-resolution cameras and computer vision detect un-scanned items and scan errors in real time, prompting customers or alerting associates to reduce shrink and accidental loss. Deployed across ~1,700 stores and expanding chainwide. [Everseen (Visual AI), Nvidia Accelerated Computing, Lenovo Edge AI servers]",
+   "existence": "confirmed",
+   "value": "Over 75% of self-checkout errors corrected without employee intervention",
+   "tier": "",
+   "url": "https://chainstoreage.com/kroger-rolls-out-visual-ai-based-self-checkout",
+   "raw_sector": "",
+   "date": "2022-09",
+   "fresh": "stale"
   }
  ]
 }

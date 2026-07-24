@@ -3,39 +3,54 @@
  "name": "BCE",
  "cc": "CA",
  "vertical": "Telecom",
- "deployments": 1,
- "confirmed": 1,
- "with_value_number": 0,
- "proof_rate": 0.0,
+ "deployments": 10,
+ "confirmed": 8,
+ "with_value_number": 5,
+ "proof_rate": 0.5,
  "mktcap": 20705882353.0,
  "revenue": 18169117647.0,
  "employees": 38683.0,
  "silent": false,
- "per_bn_revenue": 0.06,
- "per_10k_emp": 0.26,
+ "per_bn_revenue": 0.55,
+ "per_10k_emp": 2.59,
  "benchmarks": {
   "global_vertical": {
-   "deployments": 0,
-   "confirmed": 16,
-   "proof_rate": 0,
+   "deployments": 85,
+   "confirmed": 88,
+   "proof_rate": 58,
    "n": 93
   }
  },
- "first_seen": 2025,
+ "first_seen": 2021,
  "by_year": [
   {
+   "year": 2021,
+   "n": 2
+  },
+  {
+   "year": 2024,
+   "n": 2
+  },
+  {
    "year": 2025,
+   "n": 5
+  },
+  {
+   "year": 2026,
    "n": 1
   }
  ],
  "undated_pct": 0,
- "momentum": "rising",
- "maturity": "L3",
+ "momentum": "early_mover,rising",
+ "maturity": "L4",
  "maturity_evidence": [
+  "multi_horizontal",
   "named_product:Bell",
+  "value_number",
+  "multi_year",
   "tier_p"
  ],
- "prospect_score": 46,
+ "prospect_score": 68,
  "stack": [
   "Cohere"
  ],
@@ -51,6 +66,105 @@
    "raw_sector": "Telecom",
    "date": "2025",
    "fresh": "fresh"
+  },
+  {
+   "company": "BCE",
+   "use": "Generative-AI virtual assistant in Bell's own contact centres, answering customer queries via chat with multi-language support; has handled over three million inquiries and tripled contact-centre satisfaction rates [Google Cloud Contact Center AI (CCAI / CCAIP)]",
+   "existence": "confirmed",
+   "value": "over 3 million inquiries handled; satisfaction rates tripled",
+   "tier": "",
+   "url": "https://explore.business.bell.ca/blog/how-ai-and-speech-analytics-transformed-bell-s-contact-centre-operations",
+   "raw_sector": "",
+   "date": "2024-04",
+   "fresh": "aging"
+  },
+  {
+   "company": "BCE",
+   "use": "Contract to modernize three Canadian federal government contact centres using an AI-enabled cloud experience-orchestration platform [Genesys Cloud]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.newswire.ca/news-releases/bell-announces-federal-contact-centres-contract-powered-by-genesys-887425578.html",
+   "raw_sector": "",
+   "date": "2026-03",
+   "fresh": "fresh"
+  },
+  {
+   "company": "BCE",
+   "use": "Network AI Ops solution that uses ML to monitor and manage the telecom network in real time, identifying and prioritizing issues before they escalate to reduce service disruptions [Google Cloud (Vertex AI / AI-ML)]",
+   "existence": "confirmed",
+   "value": "25% reduction in customer-generated reports; 75% increase in software delivery productivity",
+   "tier": "",
+   "url": "https://www.prnewswire.com/news-releases/bell-canada-launches-ai-powered-network-operations-solution-built-on-google-cloud-302385987.html",
+   "raw_sector": "",
+   "date": "2025-02",
+   "fresh": "fresh"
+  },
+  {
+   "company": "BCE",
+   "use": "Bell AI Fabric: build-out of Canada's largest sovereign AI compute infrastructure (network of high-performance AI data centres) to host and serve LLM inference workloads; first facility online in Kamloops, BC [Groq (AI inference)]",
+   "existence": "confirmed",
+   "value": "up to 500 MW national capacity",
+   "tier": "",
+   "url": "https://explore.business.bell.ca/news-and-events/increasing-sovereign-ai-capacity-introducing-bell-ai-fabric",
+   "raw_sector": "",
+   "date": "2025-05",
+   "fresh": "fresh"
+  },
+  {
+   "company": "BCE",
+   "use": "Strategic partnership with Cohere to deliver full-stack sovereign AI solutions for Canadian government and enterprise, with Cohere operating its models on Bell AI Fabric infrastructure [Cohere]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://cohere.com/blog/bell-partnership",
+   "raw_sector": "",
+   "date": "2025-07",
+   "fresh": "fresh"
+  },
+  {
+   "company": "BCE",
+   "use": "Machine-learning fraud management platform to detect fraud and reduce fraud exposure across Bell's customer and revenue operations [Amdocs]",
+   "existence": "confirmed",
+   "value": "10% increase in fraud detection; 150% faster loss detection; 200% faster new-pattern identification",
+   "tier": "",
+   "url": "https://www.amdocs.com/insights/article/bell-canada-harnesses-machine-learning-reduce-fraud-exposure-amdocs-business",
+   "raw_sector": "",
+   "date": "2021-10",
+   "fresh": "stale"
+  },
+  {
+   "company": "BCE",
+   "use": "Suspicious Call Detection: consumer-facing mobile feature using AI analytics to monitor incoming calls in real time and warn users of potential spam or fraud calls",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://mobileidworld.com/bell-canada-launches-ai-powered-scam-call-detection-system/",
+   "raw_sector": "",
+   "date": "2025-04",
+   "fresh": "fresh"
+  },
+  {
+   "company": "BCE",
+   "use": "Network-level AI call-blocking system that analyzes telecom traffic to flag anomalies and block fraudulent/nuisance calls (deployed under CRTC authorization)",
+   "existence": "confirmed",
+   "value": "potential to block ~120 million additional fraudulent calls",
+   "tier": "",
+   "url": "https://crtc.gc.ca/eng/archive/2021/2021-403.htm",
+   "raw_sector": "",
+   "date": "2021-12",
+   "fresh": "stale"
+  },
+  {
+   "company": "BCE",
+   "use": "AI-powered ServiceNow field service management to automate dispatch, scheduling and work-order workflows for Bell's ~12,000 field technicians handling 10,000+ tasks/day [ServiceNow (GenAI)]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.servicenow.com/customers/bell.html",
+   "raw_sector": "",
+   "date": "2024-07",
+   "fresh": "aging"
   }
  ]
 }

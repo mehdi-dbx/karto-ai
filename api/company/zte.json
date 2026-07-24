@@ -3,45 +3,55 @@
  "name": "ZTE",
  "cc": "CN",
  "vertical": "Technology",
- "deployments": 1,
- "confirmed": 1,
- "with_value_number": 1,
- "proof_rate": 1.0,
+ "deployments": 11,
+ "confirmed": 9,
+ "with_value_number": 5,
+ "proof_rate": 0.455,
  "mktcap": 23172222222.0,
  "revenue": 18877777778.0,
  "employees": 65095.0,
  "silent": false,
- "per_bn_revenue": 0.05,
- "per_10k_emp": 0.15,
+ "per_bn_revenue": 0.58,
+ "per_10k_emp": 1.69,
  "benchmarks": {
   "global_vertical": {
-   "deployments": 0,
-   "confirmed": 6,
-   "proof_rate": 72,
+   "deployments": 92,
+   "confirmed": 91,
+   "proof_rate": 70,
    "n": 156
   },
   "country_vertical": {
-   "deployments": 0,
-   "confirmed": 0,
+   "deployments": 100,
+   "confirmed": 100,
    "proof_rate": 50,
    "n": 13
   }
  },
- "first_seen": 2025,
+ "first_seen": 2024,
  "by_year": [
   {
+   "year": 2024,
+   "n": 2
+  },
+  {
    "year": 2025,
+   "n": 8
+  },
+  {
+   "year": 2026,
    "n": 1
   }
  ],
  "undated_pct": 0,
  "momentum": "early_mover,rising",
- "maturity": "L3",
+ "maturity": "L4",
  "maturity_evidence": [
+  "multi_horizontal",
   "named_product:Xingyun",
-  "value_number"
+  "value_number",
+  "multi_year"
  ],
- "prospect_score": 14,
+ "prospect_score": 84,
  "stack": [],
  "vendor_named": false,
  "deployments_detail": [
@@ -54,6 +64,116 @@
    "url": "https://www.zte.com.cn/china/about/magazine/zte-technologies/2025/6/1/1.html",
    "raw_sector": "Information Technology",
    "date": "2025",
+   "fresh": "fresh"
+  },
+  {
+   "company": "ZTE",
+   "use": "Nebula Telecom Large Model — ZTE's self-developed domain-specific telecom foundation model (7B/14B up to 100B parameters) for network operation, planning, and O&M, with an accompanying 'agent factory' platform to build telecom AI agents. [ZTE (self-developed Nebula)]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.zte.com.cn/global/about/news/zte-launches-the-nebula-telecom-large-model-opening-a-new-paradigm-for-highly-autonomous-networks.html",
+   "raw_sector": "",
+   "date": "2024-07",
+   "fresh": "aging"
+  },
+  {
+   "company": "ZTE",
+   "use": "AIR RAN (AI-Reshaped RAN) — native-AI base station solution with an AIREngine card plus network agents (agentic AI) delivering service identification, deep learning and autonomous RAN operations. Commercially deployed with AIS at Big Mountain Music Festival 2025 and China Mobile. [ZTE (AIR RAN / AIREngine)]",
+   "existence": "confirmed",
+   "value": "China Mobile deployed AI boards across hundreds of thousands of sites by end of 2025",
+   "tier": "",
+   "url": "https://www.zte.com.cn/global/solutions_latest/5g-advanced/AIRRAN.html",
+   "raw_sector": "",
+   "date": "2025",
+   "fresh": "fresh"
+  },
+  {
+   "company": "ZTE",
+   "use": "Nebula AI FWA Solution — industry-first AI-powered full-stack fixed wireless access CPE with six AI features (multi-scenario application, AI QoS management, AI voice control, AI application recognition, AI antenna, AI diagnostics). [ZTE Nebula]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.zte.com.cn/global/about/news/zte-unveils-industrys-first-ai-fwa-solution-under-its-upgraded-product-philosophy-gis-20.html",
+   "raw_sector": "",
+   "date": "2024-11",
+   "fresh": "aging"
+  },
+  {
+   "company": "ZTE",
+   "use": "nubia M153 AI-native smartphone — OS-level agentic AI phone powered by ByteDance's Doubao Mobile Assistant, able to read the screen, launch apps, edit photos/video, book tasks and operate the phone autonomously ('autopilot'). [ByteDance Doubao (ZTE / nubia)]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.scmp.com/tech/article/3334743/bytedance-teams-zte-china-races-take-apple-agentic-ai-smartphones",
+   "raw_sector": "",
+   "date": "2025-12",
+   "fresh": "fresh"
+  },
+  {
+   "company": "ZTE",
+   "use": "RAN AI-powered energy-saving solution — AI-driven traffic prediction and dynamic carrier/cell shutdown to cut RAN power consumption. Full commercial deployment across Ucell's network in Uzbekistan. [ZTE (RAN AI energy-saving / PowerPilot lineage)]",
+   "existence": "confirmed",
+   "value": "10.6% increase in network energy efficiency ratio (GB/kWh)",
+   "tier": "",
+   "url": "https://www.zte.com.cn/global/about/news/Ucell-and-ZTE-Complete-Large-Scale-Deployment-of-AI-Powered-Green-Network-Solution-in-Uzbekistan.html",
+   "raw_sector": "",
+   "date": "2026-05",
+   "fresh": "fresh"
+  },
+  {
+   "company": "ZTE",
+   "use": "Nebula Communication Intelligent-Digital Employee for fault management — an LLM/agent-based 'digital employee' that monitors the network 24/7, identifies faults within one minute and drives autonomous closed-loop remediation in the NOC. Deployed with China Mobile toward L4 autonomous networks. [ZTE Nebula (with China Mobile)]",
+   "existence": "confirmed",
+   "value": "91% fault identification accuracy; faults identified within one minute; 100+ maintenance engineers using it daily, 8,000+ faults closed",
+   "tier": "",
+   "url": "https://www.zte.com.cn/content/zte-site/www-zte-com-cn/global/about/magazine/zte-technologies/2025/special-topic---nebula-telecom-large-model-/special-topic---nebula-telecom-large-model/intelligent-agent-factory--agile-way-to-industrial-grade-agents.html",
+   "raw_sector": "",
+   "date": "2025-09",
+   "fresh": "fresh"
+  },
+  {
+   "company": "ZTE",
+   "use": "Binjiang (Nanjing) 5G smart factory — ZTE's own base-station manufacturing plant integrating 5G, AI machine vision, and robotics for automated quality inspection and production, with 60-120+ 5G+AI industrial applications across the production process. [ZTE (5G + AI machine vision)]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.gsma.com/get-involved/gsma-foundry/gsma_study/5g-factory-embraces-advanced-automation/",
+   "raw_sector": "",
+   "date": "2025",
+   "fresh": "fresh"
+  },
+  {
+   "company": "ZTE",
+   "use": "uSmartInsight / AIVO AI-driven network intelligence platform — big-data + AI analytics for autonomous network planning, optimization and O&M, providing predictive analytics and self-healing for operators. [ZTE (uSmartInsight / AIVO)]",
+   "existence": "confirmed",
+   "value": "23% more efficient network, 30% faster fault repairs",
+   "tier": "",
+   "url": "https://www.linkedin.com/posts/zte_zte-ai-activity-7348530831293829120-vRRq",
+   "raw_sector": "",
+   "date": "2025-07",
+   "fresh": "fresh"
+  },
+  {
+   "company": "ZTE",
+   "use": "DeepSeek AiCube — a training-and-inference all-in-one appliance for one-click, private-domain deployment of large models (DeepSeek) for enterprises and SMEs, tackling the 'last mile' of AI commercialization. [ZTE + DeepSeek]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.zte.com.cn/global/about/news/zte-releases-deepseek-aicube-to-accelerate-the-commercial-implementation-of-large-models.html",
+   "raw_sector": "",
+   "date": "2025-03",
+   "fresh": "fresh"
+  },
+  {
+   "company": "ZTE",
+   "use": "AI+5G New Calling — DeepSeek-based real-time communication agent embedded in the 5G core network that recognizes user intent during calls and acts as a calling assistant, generating images/video and handling tasks. Prototype released with China Mobile Research Institute in Nanjing. [ZTE + DeepSeek (with CMRI / China Mobile)]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.telecomtv.com/content/telcos-and-ai-channel/cmri-and-zte-release-deepseek-based-core-network-real-time-communication-agent-prototype-52603/amp/",
+   "raw_sector": "",
+   "date": "2025-03",
    "fresh": "fresh"
   }
  ]

@@ -3,46 +3,64 @@
  "name": "Equinor",
  "cc": "NO",
  "vertical": "Energy & Utilities",
- "deployments": 2,
- "confirmed": 2,
- "with_value_number": 2,
- "proof_rate": 1.0,
+ "deployments": 12,
+ "confirmed": 12,
+ "with_value_number": 9,
+ "proof_rate": 0.75,
  "mktcap": 88371028037.0,
  "revenue": 105607476636.0,
  "employees": 24140.0,
  "silent": false,
- "per_bn_revenue": 0.02,
- "per_10k_emp": 0.83,
+ "per_bn_revenue": 0.11,
+ "per_10k_emp": 4.97,
  "benchmarks": {
   "global_vertical": {
-   "deployments": 77,
-   "confirmed": 83,
-   "proof_rate": 72,
+   "deployments": 97,
+   "confirmed": 98,
+   "proof_rate": 75,
    "n": 210
   },
   "country_vertical": {
-   "deployments": 25,
-   "confirmed": 50,
+   "deployments": 100,
+   "confirmed": 100,
    "proof_rate": 100,
    "n": 5
   }
  },
- "first_seen": 2026,
+ "first_seen": 2020,
  "by_year": [
+  {
+   "year": 2020,
+   "n": 2
+  },
+  {
+   "year": 2022,
+   "n": 1
+  },
+  {
+   "year": 2024,
+   "n": 3
+  },
+  {
+   "year": 2025,
+   "n": 4
+  },
   {
    "year": 2026,
    "n": 2
   }
  ],
  "undated_pct": 0,
- "momentum": "late_entrant,rising",
- "maturity": "L3",
+ "momentum": "early_mover,rising",
+ "maturity": "L4",
  "maturity_evidence": [
+  "multi_horizontal",
   "named_product:Machine",
   "value_number",
+  "multi_year",
   "tier_p"
  ],
- "prospect_score": 20,
+ "prospect_score": 78,
  "stack": [],
  "vendor_named": false,
  "deployments_detail": [
@@ -67,6 +85,116 @@
    "raw_sector": "Energy",
    "date": "2026-01",
    "fresh": "fresh"
+  },
+  {
+   "company": "Equinor",
+   "use": "Predictive maintenance (Omnia.Prevent) using machine learning on ~24,000 sensors monitoring over 700 rotating machines across facilities to predict failures and maintenance needs, moving from reactive to condition-based maintenance. [Equinor Omnia.Prevent (in-house ML platform)]",
+   "existence": "confirmed",
+   "value": "USD 120 million cumulative value since 2020",
+   "tier": "",
+   "url": "https://www.equinor.com/news/20260107-artificial-intelligence-saved-equinor-usd-130-million",
+   "raw_sector": "",
+   "date": "2020",
+   "fresh": "stale"
+  },
+  {
+   "company": "Equinor",
+   "use": "AI/ML-assisted seismic data interpretation using image-recognition machine learning to interpret subsurface seismic data roughly ten times faster than manual workflows; ~2 million square kilometers interpreted in 2025.",
+   "existence": "confirmed",
+   "value": "10x faster interpretation; 2 million km2 interpreted in 2025",
+   "tier": "",
+   "url": "https://www.equinor.com/news/20260107-artificial-intelligence-saved-equinor-usd-130-million",
+   "raw_sector": "",
+   "date": "2025",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Equinor",
+   "use": "AI-driven well and field development planning that generates thousands of alternative development scenarios for experts to review; produced an unanticipated optimal solution on Johan Sverdrup Phase 3.",
+   "existence": "confirmed",
+   "value": "USD 12 million saved on Johan Sverdrup Phase 3",
+   "tier": "",
+   "url": "https://jpt.spe.org/equinor-says-ai-saved-it-130m-in-2025",
+   "raw_sector": "",
+   "date": "2025",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Equinor",
+   "use": "Distributed 4D seismic data processing pipeline (difference cubes and maps to detect/classify reservoir changes over time) re-architected on Databricks using Ray and Apache Spark governed by Unity Catalog, to improve drilling target identification and reduce dry wells. [Databricks (Ray, Apache Spark, Unity Catalog)]",
+   "existence": "confirmed",
+   "value": "96% cost reduction on the map-generation calculation step",
+   "tier": "",
+   "url": "https://www.databricks.com/blog/how-equinor-optimized-seismic-data-pipeline-databricks",
+   "raw_sector": "",
+   "date": "2025-05",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Equinor",
+   "use": "AI/automation-driven autonomous drilling: drilled 99% of a 2,695.5 m 12.25-inch offshore well section in autonomous control mode offshore Brazil, integrating full rig automation and autonomous on-bottom directional drilling. [SLB (Neuro autonomous drilling / DrillOps)]",
+   "existence": "confirmed",
+   "value": "99% of section drilled autonomously; 60% increase in rate of penetration over a five-well program",
+   "tier": "",
+   "url": "https://www.slb.com/newsroom/press-release/2024/slb-and-equinor-drill-most-autonomous-well-section-to-date",
+   "raw_sector": "",
+   "date": "2024-01",
+   "fresh": "aging"
+  },
+  {
+   "company": "Equinor",
+   "use": "AI-powered robotics field operations: autonomous inspection robots (e.g., at the Mongstad facility) integrated with Cognite Data Fusion and InRobot to detect anomalies, support predictive maintenance and enable condition-based field operations. [Cognite (Data Fusion, InRobot, Atlas AI); ANYbotics]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.cognite.com/en/resources/customer-stories/cognite-and-equinor-leverage-robotics-and-ai-to-reinvent-safer-smarter-field-operations",
+   "raw_sector": "",
+   "date": "2024-06",
+   "fresh": "aging"
+  },
+  {
+   "company": "Equinor",
+   "use": "Generative-AI employee productivity tools: copilots, chatbots and early agentic-AI systems used by employees to complete tasks and support new working methods across the company. [Microsoft Copilot]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://energywatch.com/EnergyNews/Oil___Gas/article18899504.ece",
+   "raw_sector": "",
+   "date": "2025",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Equinor",
+   "use": "Enterprise-wide industrial analytics and AI SaaS platform (Seeq) selected to accelerate digital transformation, enabling engineers to analyze operational/time-series data at scale. [Seeq Corporation]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.seeq.com/resources/press-releases/seeq-selected-by-equinor/",
+   "raw_sector": "",
+   "date": "2024-05",
+   "fresh": "aging"
+  },
+  {
+   "company": "Equinor",
+   "use": "Enterprise low-code automation program (DigiTEAM) built on Microsoft Power Platform (Power Apps/Automate with Copilot) to automate business processes and improve process efficiency across the organization. [Microsoft Power Platform / Copilot]",
+   "existence": "confirmed",
+   "value": "Forecast annual savings of more than 500 million NOK (~USD 49 million)",
+   "tier": "",
+   "url": "https://www.microsoft.com/en-us/power-platform/blog/power-apps/equinor-forecasts-an-annual-savings-of-more-than-500-million-nok-on-their-power-platform-solution/",
+   "raw_sector": "",
+   "date": "2022-11",
+   "fresh": "stale"
+  },
+  {
+   "company": "Equinor",
+   "use": "Machine-learning inventory/materials optimization tool (co-developed with Shell) to optimize warehouse inventory and reduce inventory inflow across the supply chain. [Shell (joint digital development)]",
+   "existence": "confirmed",
+   "value": "Up to 13% reduction in inventory inflow",
+   "tier": "",
+   "url": "https://www.equinor.com/news/archive/20201216-digital-inventory",
+   "raw_sector": "",
+   "date": "2020-12",
+   "fresh": "stale"
   }
  ]
 }

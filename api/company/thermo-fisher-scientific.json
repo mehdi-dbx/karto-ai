@@ -3,40 +3,60 @@
  "name": "Thermo Fisher Scientific",
  "cc": "US",
  "vertical": "Healthcare & Life Sciences",
- "deployments": 1,
- "confirmed": 1,
- "with_value_number": 0,
- "proof_rate": 0.0,
+ "deployments": 12,
+ "confirmed": 9,
+ "with_value_number": 2,
+ "proof_rate": 0.167,
  "mktcap": 211640000000.0,
  "revenue": 46340000000.0,
  "employees": 125000.0,
  "silent": false,
- "per_bn_revenue": 0.02,
- "per_10k_emp": 0.08,
+ "per_bn_revenue": 0.26,
+ "per_10k_emp": 0.96,
  "benchmarks": {
   "global_vertical": {
-   "deployments": 0,
-   "confirmed": 14,
-   "proof_rate": 0,
+   "deployments": 98,
+   "confirmed": 95,
+   "proof_rate": 67,
    "n": 165
   },
   "country_vertical": {
-   "deployments": 0,
-   "confirmed": 7,
-   "proof_rate": 0,
+   "deployments": 95,
+   "confirmed": 88,
+   "proof_rate": 67,
    "n": 59
   }
  },
- "first_seen": null,
- "by_year": [],
- "undated_pct": 100,
- "momentum": "none",
- "maturity": "L3",
+ "first_seen": 2021,
+ "by_year": [
+  {
+   "year": 2021,
+   "n": 1
+  },
+  {
+   "year": 2022,
+   "n": 2
+  },
+  {
+   "year": 2025,
+   "n": 3
+  },
+  {
+   "year": 2026,
+   "n": 2
+  }
+ ],
+ "undated_pct": 33,
+ "momentum": "early_mover,rising",
+ "maturity": "L4",
  "maturity_evidence": [
+  "multi_horizontal",
   "named_product:OpenAI",
+  "value_number",
+  "multi_year",
   "tier_p"
  ],
- "prospect_score": 46,
+ "prospect_score": 87,
  "stack": [
   "NVIDIA",
   "OpenAI"
@@ -53,6 +73,127 @@
    "raw_sector": "Health Care",
    "date": "missing",
    "fresh": "undated"
+  },
+  {
+   "company": "Thermo Fisher Scientific",
+   "use": "Rollout of ChatGPT Enterprise plus an internal secure generative-AI platform to colleagues for everyday knowledge work, drafting, and analysis; part of an AI-literacy program with AI trainers and change agents [OpenAI (ChatGPT Enterprise)]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://corporate.thermofisher.com/content/tfcorpsite/us/en/index/artificial-intelligence/driving-literacy-in-ai.html",
+   "raw_sector": "",
+   "date": "2025",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Thermo Fisher Scientific",
+   "use": "Collaboration with TetraScience to integrate Thermo Fisher instrumentation and informatics with the Tetra scientific-data/AI platform (Tetra AI) to prepare and organize lab data for AI across biopharma R&D [TetraScience (Tetra AI)]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.tetrascience.com/news/tetrascience-announces-collaboration-with-thermo-fisher-scientific-to-accelerate-scientific-data-and-ai-enablement-across-the-laboratory",
+   "raw_sector": "",
+   "date": "2026-01",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Thermo Fisher Scientific",
+   "use": "Company-wide collaboration with OpenAI to integrate GPT models/APIs into the PPD clinical research business and the Accelerator Drug Development platform (early development through Phase I-III, manufacturing, supply, commercialization) to reduce trial cycle times and identify therapies unlikely to succeed [OpenAI]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://ir.thermofisher.com/investors/news-events/news/news-details/2025/Thermo-Fisher-Scientific-to-Accelerate-Life-Science-Breakthroughs-with-OpenAI/default.aspx",
+   "raw_sector": "",
+   "date": "2025-10",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Thermo Fisher Scientific",
+   "use": "Amira Software AI tools for life-science microscopy: AI-powered image segmentation, object identification, and deep-learning denoising (pretrained models, Noise2Void) for 2D-5D bioimaging analysis",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.thermofisher.com/us/en/home/electron-microscopy/products/software-em-3d-vis/amira-software/features/ai-tools-life-sciences.html",
+   "raw_sector": "",
+   "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "Thermo Fisher Scientific",
+   "use": "Proteome Discoverer software with the CHIMERYS AI-powered search algorithm (by MSAID) that uses deep learning to deconvolute chimeric tandem mass spectra, increasing peptide/protein identification rates in proteomics [MSAID (CHIMERYS)]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://documents.thermofisher.com/TFS-Assets/CMD/Flyers/fl000322-lsms-proteome-discoverer-fl000322-na-en.pdf",
+   "raw_sector": "",
+   "date": "2021-11",
+   "fresh": "stale"
+  },
+  {
+   "company": "Thermo Fisher Scientific",
+   "use": "Strategic collaboration with NVIDIA to build autonomous laboratory infrastructure: integrating scientific instruments and lab software with NVIDIA DGX Spark, BioNeMo, and AI agents built on NVIDIA Nemotron and the NeMo Agent Toolkit to plan and run experiments [NVIDIA (DGX Spark, BioNeMo, Nemotron, NeMo Agent Toolkit)]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://ir.thermofisher.com/investors/news-events/news/news-details/2026/Thermo-Fisher-Scientific-Announces-Strategic-Collaboration-With-NVIDIA-Leveraging-AI-to-Advance-Scientific-Instrumentation-and-Accelerate-Laboratory-Performance/default.aspx",
+   "raw_sector": "",
+   "date": "2026-01",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Thermo Fisher Scientific",
+   "use": "PPD Clinical Trial Forecasting Suite: AI/deep-learning platform using proprietary data to forecast trial milestones, patient enrollment, site selection, and delays (originated in Saama AI partnership) [Saama]",
+   "existence": "confirmed",
+   "value": "30% increase in accuracy of forecasting trial milestones (per 2022 partnership announcement)",
+   "tier": "",
+   "url": "https://www.ppd.com/our-solutions/digital-drug-development-solutions/clinical-trial-forecasting-suite/",
+   "raw_sector": "",
+   "date": "2022-02",
+   "fresh": "stale"
+  },
+  {
+   "company": "Thermo Fisher Scientific",
+   "use": "Techcyte AI-powered digital pathology platform distributed via Fisher Healthcare for anatomic and clinical pathology workflows (AI-assisted slide analysis/diagnosis support) [Techcyte]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.fishersci.com/us/en/healthcare-products/selection-guides/anatomical-pathology/techcyte-digital-pathology-ai-product-selection-guide.html",
+   "raw_sector": "",
+   "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "Thermo Fisher Scientific",
+   "use": "Smart EPU cryo-EM data-collection software with embedded CryoSPARC Live for real-time AI-assisted single-particle analysis during microscope acquisition [Structura Biotechnology (CryoSPARC)]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.thermofisher.com/us/en/home/electron-microscopy/products/software-em-3d-vis/epu-software.html",
+   "raw_sector": "",
+   "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "Thermo Fisher Scientific",
+   "use": "AI assistant on thermofisher.com that answers customer product questions in real time like a product expert, replacing wait times for support",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.thermofisher.com/blog/new-thermo-fisher/2025/08/14/quick-answers-with-our-ai-assistant/",
+   "raw_sector": "",
+   "date": "2025-08",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Thermo Fisher Scientific",
+   "use": "Customer-experience transformation using machine learning and robotic process automation (RPA) to automate service processes, anticipate customer needs, and improve sales/support (delivered with Genpact) [Genpact]",
+   "existence": "confirmed",
+   "value": "10-20% increase in customer experience; 0.5-1% revenue boost; 30% end-user productivity improvement",
+   "tier": "",
+   "url": "https://www.genpact.com/case-studies/breathing-new-life-into-customer-experience-at-thermo-fisher-scientific",
+   "raw_sector": "",
+   "date": "2022",
+   "fresh": "stale"
   }
  ]
 }

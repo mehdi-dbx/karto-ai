@@ -3,38 +3,61 @@
  "name": "Beijing-Shanghai High Speed Railway",
  "cc": "CN",
  "vertical": "Logistics & Supply Chain",
- "deployments": 1,
- "confirmed": 0,
- "with_value_number": 0,
- "proof_rate": 0.0,
+ "deployments": 10,
+ "confirmed": 8,
+ "with_value_number": 5,
+ "proof_rate": 0.5,
  "mktcap": 34248611111.0,
  "revenue": 6027777778.0,
  "employees": 89.0,
  "silent": false,
- "per_bn_revenue": 0.17,
- "per_10k_emp": 112.36,
+ "per_bn_revenue": 1.66,
+ "per_10k_emp": 1123.6,
  "benchmarks": {
   "global_vertical": {
-   "deployments": 0,
-   "confirmed": 0,
-   "proof_rate": 0,
+   "deployments": 95,
+   "confirmed": 98,
+   "proof_rate": 52,
    "n": 66
   }
  },
- "first_seen": 2024,
+ "first_seen": 2019,
  "by_year": [
+  {
+   "year": 2019,
+   "n": 1
+  },
+  {
+   "year": 2021,
+   "n": 3
+  },
+  {
+   "year": 2023,
+   "n": 1
+  },
   {
    "year": 2024,
    "n": 1
+  },
+  {
+   "year": 2025,
+   "n": 2
+  },
+  {
+   "year": 2026,
+   "n": 1
   }
  ],
- "undated_pct": 0,
- "momentum": "early_mover,gone_quiet",
- "maturity": "L1",
+ "undated_pct": 10,
+ "momentum": "early_mover,rising",
+ "maturity": "L4",
  "maturity_evidence": [
-  "rows_no_confirmed"
+  "multi_horizontal",
+  "named_product:SenseTime",
+  "value_number",
+  "multi_year"
  ],
- "prospect_score": 40,
+ "prospect_score": 76,
  "stack": [],
  "vendor_named": false,
  "deployments_detail": [
@@ -48,6 +71,105 @@
    "raw_sector": "Industrials",
    "date": "2024",
    "fresh": "aging"
+  },
+  {
+   "company": "Beijing-Shanghai High Speed Railway",
+   "use": "SenseTime 'Xingkong' (星空) AI analysis system for 4C catenary (contact-line) inspection: deep-learning image analysis of millions of catenary photos auto-detects and classifies defects across the full line, cutting a routine full-line inspection from 3 years to ~4 days. [SenseTime (商汤) Industrial Engine]",
+   "existence": "confirmed",
+   "value": "efficiency up 20x; 3M images analyzed by 2 staff in 10 days vs. much longer manually",
+   "tier": "",
+   "url": "https://www.sensetime.com/cn/news-detail/41164703?categoryId=72",
+   "raw_sector": "",
+   "date": "2019",
+   "fresh": "stale"
+  },
+  {
+   "company": "Beijing-Shanghai High Speed Railway",
+   "use": "Fuxing (复兴号) intelligent EMU running on the Beijing-Shanghai line with ATO automatic-driving at 350 km/h — auto departure, auto inter-station running, AI-assisted schedule adjustment and precise auto-stop; upgraded intelligent EMU version entered service June 2024. [CRRC / China Railway (CTCS-3 + ATO)]",
+   "existence": "confirmed",
+   "value": "world-first 350 km/h automatic driving",
+   "tier": "",
+   "url": "http://finance.people.com.cn/n1/2024/0614/c1004-40256466.html",
+   "raw_sector": "",
+   "date": "2021",
+   "fresh": "stale"
+  },
+  {
+   "company": "Beijing-Shanghai High Speed Railway",
+   "use": "BeiDou+5G fully-automatic UAV (drone) intelligent inspection system — China's first — with automated flight planning, multi-drone formation flying, AI defect recognition and risk early-warning for track, bridges, slopes and catenary; first deployed on the Jinan section. [Beijing Jiaotong University (BJTU) + Beijing-Shanghai HSR Co.]",
+   "existence": "confirmed",
+   "value": "304 test flights, 3060 min total flight time; millimeter-level precision",
+   "tier": "",
+   "url": "http://www.beidou.gov.cn/yw/xydt/202106/t20210628_22784.html",
+   "raw_sector": "",
+   "date": "2021-06",
+   "fresh": "stale"
+  },
+  {
+   "company": "Beijing-Shanghai High Speed Railway",
+   "use": "Intelligent EMU onboard safety monitoring system (车载安全监测/PHM): sensor + ML-based condition monitoring of bogies — axle temperature, instability, ride-stability, axle-box/gearbox/motor vibration — enabling predictive 'condition-based' maintenance instead of scheduled maintenance. [CRRC / China Academy of Railway Sciences]",
+   "existence": "confirmed",
+   "value": "reduces O&M cost by 20%+",
+   "tier": "",
+   "url": "https://www.stdaily.com/web/gdxw/2025-06/09/content_352156.html",
+   "raw_sector": "",
+   "date": "2025-06",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Beijing-Shanghai High Speed Railway",
+   "use": "Smart Integrated O&M Management System (智能综合运维管理系统 V1.0) combining GIS+BIM, big data and machine learning to unify track/electrical/power (工电供) infrastructure predictive maintenance across the line; passed technical review Aug 2023 and being rolled out full-line. [Beijing-Shanghai HSR Co. + China Academy of Railway Sciences (CARS)]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.tielujianli.com/jianlibaike/2406.html",
+   "raw_sector": "",
+   "date": "2023-08",
+   "fresh": "stale"
+  },
+  {
+   "company": "Beijing-Shanghai High Speed Railway",
+   "use": "5G-A x AI network 'high-speed-rail portrait' (高铁画像): China Mobile added a real-time AI inference model in the core-network NWDAF element to identify fast-moving HSR users vs. public users, steering them onto the dedicated HSR network; deployed across the full line (3000+ upgraded base stations). [China Mobile + Huawei (5G-A NWDAF AI)]",
+   "existence": "confirmed",
+   "value": ">95% user-identification accuracy; typical base station migrates out 60% of public users",
+   "tier": "",
+   "url": "https://m.c114.com.cn/w5459-1312469.html",
+   "raw_sector": "",
+   "date": "2026-06",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Beijing-Shanghai High Speed Railway",
+   "use": "Station-level AI services on the intelligent Fuxing line (incl. Beijing-Shanghai): AI virtual smart customer service (AI虚拟智慧客服), face-recognition/no-sense boarding (刷脸进站) and new 3D depth-vision passage detection.",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "http://www.sznews.com/content/mb/2021-11/24/content_24763868.htm",
+   "raw_sector": "",
+   "date": "2021-11",
+   "fresh": "stale"
+  },
+  {
+   "company": "Beijing-Shanghai High Speed Railway",
+   "use": "Surrounding-environment safety-hazard intelligent monitoring system (周边环境安全隐患智能监测体系): AI + satellite remote sensing building a 'space-air-ground' integrated hazard prevention/control network along the line, sharing hazard information across stations and depots.",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "http://tljsjyy.xml-journal.net/article/id/4466?viewType=citedby-info",
+   "raw_sector": "",
+   "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "Beijing-Shanghai High Speed Railway",
+   "use": "AI high-speed-rail earthquake early-warning algorithm to enhance the Beijing-Shanghai disaster-safety monitoring system's seismic sub-system; the Institute of Engineering Mechanics (China Earthquake Administration) issued a sole-source procurement for testing an AI HSR earthquake early-warning algorithm. [Institute of Engineering Mechanics, China Earthquake Administration]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.iem.ac.cn/zxgl/info?id=4182",
+   "raw_sector": "",
+   "date": "2025-11",
+   "fresh": "fresh"
   }
  ]
 }

@@ -3,39 +3,62 @@
  "name": "Eramet",
  "cc": "FR",
  "vertical": "Mining & Materials",
- "deployments": 1,
- "confirmed": 1,
- "with_value_number": 0,
- "proof_rate": 0.0,
+ "deployments": 11,
+ "confirmed": 8,
+ "with_value_number": 1,
+ "proof_rate": 0.091,
  "mktcap": 1317600000.0,
  "revenue": 3013200000.0,
  "employees": 8684.0,
  "silent": false,
- "per_bn_revenue": 0.33,
- "per_10k_emp": 1.15,
+ "per_bn_revenue": 3.65,
+ "per_10k_emp": 12.67,
  "benchmarks": {
   "global_vertical": {
-   "deployments": 0,
-   "confirmed": 38,
-   "proof_rate": 0,
+   "deployments": 98,
+   "confirmed": 98,
+   "proof_rate": 68,
    "n": 61
   }
  },
- "first_seen": 2026,
+ "first_seen": 2017,
  "by_year": [
   {
-   "year": 2026,
+   "year": 2017,
    "n": 1
+  },
+  {
+   "year": 2020,
+   "n": 2
+  },
+  {
+   "year": 2021,
+   "n": 1
+  },
+  {
+   "year": 2022,
+   "n": 1
+  },
+  {
+   "year": 2025,
+   "n": 3
+  },
+  {
+   "year": 2026,
+   "n": 2
   }
  ],
- "undated_pct": 0,
- "momentum": "late_entrant,rising",
- "maturity": "L3",
+ "undated_pct": 9,
+ "momentum": "early_mover,rising",
+ "maturity": "L4",
  "maturity_evidence": [
+  "multi_horizontal",
   "named_product:BRGM",
+  "value_number",
+  "multi_year",
   "tier_p"
  ],
- "prospect_score": 54,
+ "prospect_score": 92,
  "stack": [],
  "vendor_named": false,
  "deployments_detail": [
@@ -49,6 +72,116 @@
    "raw_sector": "Mining / Metals",
    "date": "2026",
    "fresh": "fresh"
+  },
+  {
+   "company": "Eramet",
+   "use": "Visual/vision AI on the Tiebaghi nickel mine (SLN, New Caledonia) correlating truck telematics, LiDAR 3D digital twins and haul-road surface analysis to optimize tire wear and fuel use [Alteia]",
+   "existence": "confirmed",
+   "value": "30% reduction in haul-truck tire maintenance cost, 15% reduction in fuel consumption, 10x faster data processing",
+   "tier": "",
+   "url": "https://alteia.com/resources/blog/how-the-eramet-group-uses-visual-ai-to-enable-its-digital-transformation/",
+   "raw_sector": "",
+   "date": "2021",
+   "fresh": "stale"
+  },
+  {
+   "company": "Eramet",
+   "use": "Integrated Remote Operations Center (IROC) using AI/ML for real-time monitoring and decision support across the group's global mining operations",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.eramet.com/en/innovation/digital-transformation/",
+   "raw_sector": "",
+   "date": "2017",
+   "fresh": "stale"
+  },
+  {
+   "company": "Eramet",
+   "use": "Predictive maintenance for the 650 km Transgabonais railway (Setrag, Gabon): a sensor-equipped maintenance locomotive collects rail-gap and track-shape data to forecast track degradation kilometer by kilometer",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.eramet.com/en/news/data-and-artificial-intelligence-at-the-service-of-our-sites-performance/",
+   "raw_sector": "",
+   "date": "2025",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Eramet",
+   "use": "AI algorithms optimizing high-temperature pyrometallurgical furnaces in Norway and New Caledonia, giving metallurgists predictive recommendations on production quality, energy efficiency and economic performance for manganese/nickel alloys [Capgemini Invent]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.capgemini.com/news/press-releases/capgemini-invent-supports-mining-and-metallurgical-key-player-eramet-in-its-data-and-artificial-intelligence-driven-transformation/",
+   "raw_sector": "",
+   "date": "2020",
+   "fresh": "stale"
+  },
+  {
+   "company": "Eramet",
+   "use": "Picterra GeoAI platform for mineral exploration target evaluation, geotechnical stability/risk analysis, and water-body detection around mining sites; integrates with ESRI ArcGIS and satellite imagery [Picterra]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://picterra.ai/customer-stories/eramet/",
+   "raw_sector": "",
+   "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "Eramet",
+   "use": "Framework partnership applying Lithosquare's proprietary geological/foundational AI to combine historical and recent geological data with BRGM archives to rank and accelerate discovery of critical-metal deposits, initially in Africa [Lithosquare, BRGM]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.eramet.com/en/news/eramet-lithosquare-and-brgm-combine-their-expertise-and-leverage-ai-to-accelerate-the-discovery-of-critical-metals/",
+   "raw_sector": "",
+   "date": "2026-06",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Eramet",
+   "use": "Computer-vision system on Setrag (Gabon) surveillance cameras detecting train arrival, wagon count and ore-loading levels to automate arrival-time evaluation and operational planning",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.eramet.com/en/news/data-and-artificial-intelligence-at-the-service-of-our-sites-performance/",
+   "raw_sector": "",
+   "date": "2025",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Eramet",
+   "use": "Sensor + AI analysis on mining equipment/vehicles at Comilog (Gabon) monitoring fuel consumption, maintenance-schedule compliance and speed-limit adherence",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.eramet.com/en/news/data-and-artificial-intelligence-at-the-service-of-our-sites-performance/",
+   "raw_sector": "",
+   "date": "2025",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Eramet",
+   "use": "AI/data-science models at Erasteel (Sweden) to optimize and shorten the lead time required to deliver high-performance steels to customers [Capgemini Invent]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.capgemini.com/news/press-releases/capgemini-invent-supports-mining-and-metallurgical-key-player-eramet-in-its-data-and-artificial-intelligence-driven-transformation/",
+   "raw_sector": "",
+   "date": "2020",
+   "fresh": "stale"
+  },
+  {
+   "company": "Eramet",
+   "use": "'Connected Concession' application at GCO Senegal using drone imagery and geospatial AI to automatically detect buildings, trees, shafts and fields to accelerate and monitor land rehabilitation and environmental impact [Capgemini]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.eramet.com/en/news/ai-for-responsible-transformation-eramets-connected-concession-application-wins-2022-change-netexplo-award/",
+   "raw_sector": "",
+   "date": "2022",
+   "fresh": "stale"
   }
  ]
 }

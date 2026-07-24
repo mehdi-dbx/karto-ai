@@ -3,43 +3,62 @@
  "name": "Qantas Airways",
  "cc": "AU",
  "vertical": "Travel & Hospitality",
- "deployments": 2,
- "confirmed": 1,
- "with_value_number": 1,
- "proof_rate": 0.5,
+ "deployments": 10,
+ "confirmed": 7,
+ "with_value_number": 3,
+ "proof_rate": 0.3,
  "mktcap": 10040000000.0,
  "revenue": 15880000000.0,
  "employees": 20000.0,
  "silent": false,
- "per_bn_revenue": 0.13,
- "per_10k_emp": 1.0,
+ "per_bn_revenue": 0.63,
+ "per_10k_emp": 5.0,
  "benchmarks": {
   "global_vertical": {
-   "deployments": 74,
-   "confirmed": 29,
+   "deployments": 92,
+   "confirmed": 92,
    "proof_rate": 68,
    "n": 39
   }
  },
- "first_seen": 2024,
+ "first_seen": 2017,
  "by_year": [
   {
+   "year": 2017,
+   "n": 1
+  },
+  {
+   "year": 2018,
+   "n": 1
+  },
+  {
+   "year": 2019,
+   "n": 1
+  },
+  {
    "year": 2024,
+   "n": 2
+  },
+  {
+   "year": 2025,
    "n": 1
   },
   {
    "year": 2026,
-   "n": 1
+   "n": 4
   }
  ],
  "undated_pct": 0,
- "momentum": "early_mover,flat",
- "maturity": "L3",
+ "momentum": "early_mover,rising",
+ "maturity": "L4",
  "maturity_evidence": [
+  "multi_horizontal",
   "named_product:Constellation",
+  "value_number",
+  "multi_year",
   "tier_p"
  ],
- "prospect_score": 34,
+ "prospect_score": 78,
  "stack": [],
  "vendor_named": false,
  "deployments_detail": [
@@ -64,6 +83,94 @@
    "raw_sector": "Airlines",
    "date": "2024-01",
    "fresh": "aging"
+  },
+  {
+   "company": "Qantas Airways",
+   "use": "Constellation: cloud-based 4D flight-planning system that simulates thousands of possible flight paths using millions of weather/wind data points to select the most fuel-efficient, time-saving route for each flight; rolled out across the Qantas fleet. [AWS; University of Sydney (Australian Centre for Field Robotics)]",
+   "existence": "confirmed",
+   "value": "1-2% fuel efficiency gain; ~$40m projected annual savings (later reported ~$92m / 2%); ~50m kg emissions reduction/yr",
+   "tier": "",
+   "url": "https://www.cio.com/article/213940/qantas-cloud-based-flight-sim-saving-millions-in-fuel.html",
+   "raw_sector": "",
+   "date": "2019",
+   "fresh": "stale"
+  },
+  {
+   "company": "Qantas Airways",
+   "use": "AI-plus-camera system that builds a real-time digital record of aircraft turnarounds (the ~50-task 'turn' between landing and takeoff), identifying patterns and delay causes to improve on-time performance; trialled with Brisbane Airport and used across domestic operations. [Qantas (internally developed)]",
+   "existence": "confirmed",
+   "value": "~$30m saved; 86% on-time rate in April 2026 (best domestic result in years)",
+   "tier": "",
+   "url": "https://www.eplaneai.com/news/qantas-uses-ai-to-improve-on-time-performance-and-save-30-million",
+   "raw_sector": "",
+   "date": "2026",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Qantas Airways",
+   "use": "Airbus Skywise Predictive Maintenance (S.PM+) analysing aircraft sensor data to anticipate component failures and shift from reactive to planned maintenance, reducing Aircraft-on-Ground events; applied to Qantas A330 and Jetstar A320 fleets. [Airbus (Skywise / S.PM+)]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.aircraft.airbus.com/en/newsroom/press-releases/2024-02-qantas-and-jetstar-airways-to-optimise-operations-with-skywise",
+   "raw_sector": "",
+   "date": "2024",
+   "fresh": "aging"
+  },
+  {
+   "company": "Qantas Airways",
+   "use": "Qantas Freight migration to an AWS-native data platform (Amazon Redshift) with a revenue-management module, planned to expand analytics and forecasting using AWS AI/ML services to improve decision-making and revenue management. [AWS (Redshift, AI/ML services); Altis Consulting]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.altisconsulting.com/what-we-think/qantas-freight-migrates-to-aws-native-data-platform-to-enhance-decision-making-improve-revenue-management-and-modernise-architecture",
+   "raw_sector": "",
+   "date": "2025",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Qantas Airways",
+   "use": "Plan to scale AI 'across the business' in 2026 including predictive maintenance, flight planning and HR, plus an Adelaide Product Innovation Centre developing AI tools to help customers when travel doesn't go to plan; overseen by a newly appointed Chief Technology, AI and Transformation Officer.",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://australianaviation.com.au/2026/01/qantas-to-embrace-ai-in-2026-says-hudson/",
+   "raw_sector": "",
+   "date": "2026",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Qantas Airways",
+   "use": "In-app AI Assistant in the Help section of the Qantas app for Frequent Flyer members, using adaptive cards showing upcoming/past bookings as context to handle conversational customer-service intents; live to all Frequent Flyer members.",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.linkedin.com/posts/brandonblanc_weve-been-quietly-working-on-something-new-activity-7457238423163293696-nbu6",
+   "raw_sector": "",
+   "date": "2026",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Qantas Airways",
+   "use": "Qantas Concierge chatbot on Facebook Messenger giving customers personalised travel inspiration and destination recommendations; launched in Australia then extended to UK and North America. [Facebook Messenger platform]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.qantasnewsroom.com.au/media-releases/qantas-launches-chat-bot-concierge-to-give-customers-travel-inspiration",
+   "raw_sector": "",
+   "date": "2017",
+   "fresh": "stale"
+  },
+  {
+   "company": "Qantas Airways",
+   "use": "Biometric facial-recognition trial with Sydney Airport enabling 'couch-to-gate' automated check-in, bag drop, lounge access and boarding for international passengers via face matching. [SITA (Sydney Airport program)]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.futuretravelexperience.com/2018/07/sydney-airport-qantas-couch-to-gate-biometrics-trial/",
+   "raw_sector": "",
+   "date": "2018",
+   "fresh": "stale"
   }
  ]
 }

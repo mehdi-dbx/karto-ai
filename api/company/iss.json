@@ -3,33 +3,49 @@
  "name": "ISS",
  "cc": "DK",
  "vertical": "Real Estate & Construction",
- "deployments": 1,
- "confirmed": 0,
- "with_value_number": 0,
- "proof_rate": 0.0,
+ "deployments": 10,
+ "confirmed": 4,
+ "with_value_number": 2,
+ "proof_rate": 0.2,
  "mktcap": 6550724638.0,
  "revenue": 12272463768.0,
  "employees": 326528.0,
  "silent": false,
- "per_bn_revenue": 0.08,
- "per_10k_emp": 0.03,
+ "per_bn_revenue": 0.81,
+ "per_10k_emp": 0.31,
  "benchmarks": {
   "global_vertical": {
-   "deployments": 0,
-   "confirmed": 0,
-   "proof_rate": 0,
+   "deployments": 97,
+   "confirmed": 95,
+   "proof_rate": 61,
    "n": 154
   }
  },
- "first_seen": null,
- "by_year": [],
- "undated_pct": 100,
- "momentum": "none",
- "maturity": "L1",
- "maturity_evidence": [
-  "rows_no_confirmed"
+ "first_seen": 2020,
+ "by_year": [
+  {
+   "year": 2020,
+   "n": 1
+  },
+  {
+   "year": 2024,
+   "n": 4
+  },
+  {
+   "year": 2025,
+   "n": 1
+  }
  ],
- "prospect_score": 40,
+ "undated_pct": 40,
+ "momentum": "early_mover,cooling",
+ "maturity": "L4",
+ "maturity_evidence": [
+  "multi_horizontal",
+  "named_product:Winnow",
+  "value_number",
+  "multi_year"
+ ],
+ "prospect_score": 64,
  "stack": [],
  "vendor_named": false,
  "deployments_detail": [
@@ -43,6 +59,105 @@
    "raw_sector": "Services",
    "date": "missing",
    "fresh": "undated"
+  },
+  {
+   "company": "ISS",
+   "use": "AI food-waste tracking in commercial/catering kitchens: Winnow Vision uses computer vision above the bin to auto-identify and weigh discarded food, giving chefs data to cut waste. ISS Belgium led the global rollout across its catering sites. [Winnow (Winnow Vision)]",
+   "existence": "confirmed",
+   "value": "At one ISS Belgium site: food-waste cost down 57% as % of sales, ~13.5 tonnes food waste avoided, 58 tonnes CO2e prevented, ~$30,000 saved in one year",
+   "tier": "",
+   "url": "https://blog.winnowsolutions.com/global-catering-company-iss-is-pioneering-ai-in-the-fight-against-food-waste",
+   "raw_sector": "",
+   "date": "2020",
+   "fresh": "stale"
+  },
+  {
+   "company": "ISS",
+   "use": "Autonomous AI-powered floor-scrubbing cleaning robots (Avidbots Neo) deployed in ISS-managed facilities; the robots self-navigate and use AI to learn/remap pathways and avoid obstacles without staff re-teaching. [Avidbots (Neo, Avidbots Autonomy AI)]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://avidbots.com/platform/platform-overview/",
+   "raw_sector": "",
+   "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "ISS",
+   "use": "IoT + analytics data platform (real-time temperature, humidity, CO2, noise, occupancy, waste) built to deliver comfort predictability, occupancy tracking and workplace-experience insights to ISS and its clients. [Context& and Microsoft]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://contextand.com/customer-success-stories/iss",
+   "raw_sector": "",
+   "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "ISS",
+   "use": "Partnership integrating Microsoft Places (AI-powered connected workplace app) with the ISS Workplace App to coordinate hybrid work, analyze how physical spaces are used, and optimize resources across ISS's ~350,000 employees and client sites. [Microsoft (Microsoft Places, Microsoft 365)]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.fmj.co.uk/iss-partners-with-microsoft-to-reimagine-flexible-work-powered-by-ai-solutions/",
+   "raw_sector": "",
+   "date": "2024-05",
+   "fresh": "aging"
+  },
+  {
+   "company": "ISS",
+   "use": "'Building on a Page' data-management tool gaining a generative-AI feature that provides automated answers to building managers' natural-language questions about building data and operations.",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://manager-wissen.com/how-iss-is-transforming-facility-services-with-the-cloud-iot-and-ai/",
+   "raw_sector": "",
+   "date": "2024",
+   "fresh": "aging"
+  },
+  {
+   "company": "ISS",
+   "use": "AI features in the ISS Workplace Experience App: AI-assisted office-visit forecasts plus chatbots supporting employee onboarding and productivity for daily workplace tasks (booking, navigation, event info). [Microsoft]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://manager-wissen.com/how-iss-is-transforming-facility-services-with-the-cloud-iot-and-ai/",
+   "raw_sector": "",
+   "date": "2024",
+   "fresh": "aging"
+  },
+  {
+   "company": "ISS",
+   "use": "AI recruiting/hiring: conversational assistant (Paradox 'Olivia') runs a mobile-first, text-based candidate application, screening and scheduling to automate recruiter admin work at ISS Americas. [Paradox (Olivia)]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.paradox.ai/blog/the-conversation-with-isss-cio-choosing-the-right-tech-partner-measuring-roi-and-building-a-modern-tech-stack",
+   "raw_sector": "",
+   "date": "2025",
+   "fresh": "fresh"
+  },
+  {
+   "company": "ISS",
+   "use": "GenAI-assisted software development: 'GenAI Twin' project with Solita and the resulting CollabAI framework using on-demand AI assistants to generate test cases, data models and UI prototypes; ISS integrated the learnings into its AI strategy. [Solita (CollabAI)]",
+   "existence": "claimed",
+   "value": "Up to 40 validated prototypes in one hour; ~90% fewer meetings; non-technical members contributing within 1 day (project results, not production KPIs)",
+   "tier": "",
+   "url": "https://www.solita.fi/work/breaking-new-ground-in-software-development-with-ai-powered-collaboration/",
+   "raw_sector": "",
+   "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "ISS",
+   "use": "Generative-AI chatbots for contract analysis (answering questions like which services a contract includes) and AI assistance for drafting quotation and tender text, within ISS's global AI programme.",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://manager-wissen.com/how-iss-is-transforming-facility-services-with-the-cloud-iot-and-ai/",
+   "raw_sector": "",
+   "date": "2024",
+   "fresh": "aging"
   }
  ]
 }

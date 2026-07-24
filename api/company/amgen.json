@@ -3,45 +3,63 @@
  "name": "Amgen",
  "cc": "US",
  "vertical": "Healthcare & Life Sciences",
- "deployments": 1,
- "confirmed": 1,
- "with_value_number": 1,
- "proof_rate": 1.0,
+ "deployments": 11,
+ "confirmed": 11,
+ "with_value_number": 5,
+ "proof_rate": 0.455,
  "mktcap": 198260000000.0,
  "revenue": 37220000000.0,
  "employees": 31500.0,
  "silent": false,
- "per_bn_revenue": 0.03,
- "per_10k_emp": 0.32,
+ "per_bn_revenue": 0.3,
+ "per_10k_emp": 3.49,
  "benchmarks": {
   "global_vertical": {
-   "deployments": 0,
-   "confirmed": 14,
-   "proof_rate": 79,
+   "deployments": 97,
+   "confirmed": 99,
+   "proof_rate": 74,
    "n": 165
   },
   "country_vertical": {
-   "deployments": 0,
-   "confirmed": 7,
-   "proof_rate": 81,
+   "deployments": 91,
+   "confirmed": 98,
+   "proof_rate": 78,
    "n": 59
   }
  },
- "first_seen": 2025,
+ "first_seen": 2019,
  "by_year": [
   {
-   "year": 2025,
+   "year": 2019,
    "n": 1
+  },
+  {
+   "year": 2021,
+   "n": 1
+  },
+  {
+   "year": 2023,
+   "n": 1
+  },
+  {
+   "year": 2024,
+   "n": 2
+  },
+  {
+   "year": 2025,
+   "n": 6
   }
  ],
  "undated_pct": 0,
- "momentum": "rising",
- "maturity": "L3",
+ "momentum": "early_mover,rising",
+ "maturity": "L4",
  "maturity_evidence": [
+  "multi_horizontal",
   "named_product:Named",
-  "value_number"
+  "value_number",
+  "multi_year"
  ],
- "prospect_score": 6,
+ "prospect_score": 82,
  "stack": [
   "NVIDIA"
  ],
@@ -57,6 +75,116 @@
    "raw_sector": "Health Care",
    "date": "2025",
    "fresh": "fresh"
+  },
+  {
+   "company": "Amgen",
+   "use": "Enterprise-wide deployment of OpenAI ChatGPT Enterprise for employees across R&D, operations and other functions; Amgen was an early adopter and scaled access company-wide, later evaluating GPT-5 for accuracy/reliability gains. [OpenAI (ChatGPT Enterprise, GPT-5)]",
+   "existence": "confirmed",
+   "value": "~20,000 users (per third-party case study)",
+   "tier": "",
+   "url": "https://openai.com/index/gpt-5-amgen/",
+   "raw_sector": "",
+   "date": "2025-08",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Amgen",
+   "use": "Expanded AWS collaboration to build generative AI and ML models on Amazon SageMaker for manufacturing (new Ohio biomanufacturing plant) to reduce human operator intervention, collect real-time metrics and predict equipment failures, plus R&D and regulatory workflows. [AWS (Amazon SageMaker)]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.fiercepharma.com/pharma/amgen-expands-pact-amazon-web-services-usher-manufacturing-ai-era",
+   "raw_sector": "",
+   "date": "2023-11",
+   "fresh": "stale"
+  },
+  {
+   "company": "Amgen",
+   "use": "AI-assisted automated packaging/visual inspection system validated to distinguish harmless bubbles from genuine particulate defects in packaged product, reducing false rejects.",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.packagingdigest.com/pharmaceutical-packaging/amgen-invests-in-ai-assisted-packaging-inspection",
+   "raw_sector": "",
+   "date": "2021-02",
+   "fresh": "stale"
+  },
+  {
+   "company": "Amgen",
+   "use": "AI at the Amgen Breda (Netherlands) packaging/distribution site: smart cameras with self-trained algorithms for visual inspection, a data-analytics platform, maintenance-knowledge chatbots, and ML models predicting production-line disruptions.",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.amgen.nl/en/stories/2025/11/artificial-intelligence-enhances-efficiency-at-amgen-breda",
+   "raw_sector": "",
+   "date": "2025-11",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Amgen",
+   "use": "Generative biology / protein design: Amgen uses generative AI models to propose candidate biologic molecule designs and predictive models to evaluate them, building proteins with desired therapeutic properties from the start ('search and discover' to 'generate and design'). [NVIDIA]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.nvidia.com/en-us/case-studies/amgen-biologics-discovery-and-development/",
+   "raw_sector": "",
+   "date": "2025-12",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Amgen",
+   "use": "NVIDIA DGX SuperPOD supercomputer 'Freyja' installed at deCODE genetics (Amgen subsidiary) to train generative AI models on one of the world's largest human genomic datasets for drug target and biomarker discovery. [NVIDIA (DGX SuperPOD, 31 DGX H100 nodes / 248 H100 GPUs)]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.amgen.com/stories/2024/05/from-the-office-to-the-lab-amgen-uses-ai-tools-to-unlock-innovation",
+   "raw_sector": "",
+   "date": "2024-05",
+   "fresh": "aging"
+  },
+  {
+   "company": "Amgen",
+   "use": "'Catalyst Copilot' agent built in Copilot Studio and embedded in Amgen's Catalyst knowledge-management platform, giving drug developers a natural-language Q&A interface over reports, presentations and resources to accelerate R&D; Amgen is also an early adopter of Microsoft 365 Copilot. [Microsoft (Copilot Studio, Microsoft 365 Copilot)]",
+   "existence": "confirmed",
+   "value": "built in ~6 weeks",
+   "tier": "",
+   "url": "https://www.microsoft.com/en/customers/story/23550-amgen-microsoft-copilot-studio",
+   "raw_sector": "",
+   "date": "2025-04",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Amgen",
+   "use": "ATOMIC machine-learning model predicts which clinical trial sites are likely to enroll patients fastest, optimizing site selection and trial recruitment across local and global patterns.",
+   "existence": "confirmed",
+   "value": "over 2x increase in enrollment speed at identified sites",
+   "tier": "",
+   "url": "https://www.amgen.com/stories/2025/04/follow-the-data",
+   "raw_sector": "",
+   "date": "2024-01",
+   "fresh": "aging"
+  },
+  {
+   "company": "Amgen",
+   "use": "'Eva' AI voice agent (from Infinitus Systems) automates patient benefit verification phone calls with payers, cutting turnaround for patient access and reimbursement. [Infinitus Systems]",
+   "existence": "confirmed",
+   "value": "benefit verification cut from up to 5 days to 48 hours or less (avg 8.5 hours per Infinitus case study)",
+   "tier": "",
+   "url": "https://www.amgen.com/stories/2025/11/how-amgen-uses-ai-to-support-patient-access-and-reimbursement",
+   "raw_sector": "",
+   "date": "2025-11",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Amgen",
+   "use": "AI tools applied to manufacturing deviation investigations, using pattern recognition to predict and prevent GMP manufacturing problems and speed root-cause investigations.",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.redica.com/resources/post/part-1-how-amgen-uses-ai-tools-to-improve-manufacturing-deviation-investigations",
+   "raw_sector": "",
+   "date": "2019-09",
+   "fresh": "stale"
   }
  ]
 }

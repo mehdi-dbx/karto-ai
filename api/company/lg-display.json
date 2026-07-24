@@ -3,41 +3,56 @@
  "name": "LG Display",
  "cc": "KR",
  "vertical": "Technology",
- "deployments": 1,
- "confirmed": 1,
- "with_value_number": 1,
- "proof_rate": 1.0,
+ "deployments": 9,
+ "confirmed": 7,
+ "with_value_number": 7,
+ "proof_rate": 0.778,
  "mktcap": 3748148148.0,
  "revenue": 18740740741.0,
  "employees": 29931.0,
  "silent": false,
- "per_bn_revenue": 0.05,
- "per_10k_emp": 0.33,
+ "per_bn_revenue": 0.48,
+ "per_10k_emp": 3.01,
  "benchmarks": {
   "global_vertical": {
-   "deployments": 0,
-   "confirmed": 6,
-   "proof_rate": 72,
+   "deployments": 83,
+   "confirmed": 86,
+   "proof_rate": 79,
    "n": 156
   },
   "country_vertical": {
-   "deployments": 0,
-   "confirmed": 22,
-   "proof_rate": 22,
+   "deployments": 78,
+   "confirmed": 78,
+   "proof_rate": 33,
    "n": 10
   }
  },
- "first_seen": null,
- "by_year": [],
- "undated_pct": 100,
- "momentum": "none",
- "maturity": "L3",
+ "first_seen": 2024,
+ "by_year": [
+  {
+   "year": 2024,
+   "n": 1
+  },
+  {
+   "year": 2025,
+   "n": 4
+  },
+  {
+   "year": 2026,
+   "n": 3
+  }
+ ],
+ "undated_pct": 11,
+ "momentum": "early_mover,rising",
+ "maturity": "L4",
  "maturity_evidence": [
+  "multi_horizontal",
   "named_product:OLED",
   "value_number",
+  "multi_year",
   "tier_p"
  ],
- "prospect_score": 6,
+ "prospect_score": 51,
  "stack": [],
  "vendor_named": true,
  "deployments_detail": [
@@ -51,6 +66,94 @@
    "raw_sector": "IT",
    "date": "missing",
    "fresh": "undated"
+  },
+  {
+   "company": "LG Display",
+   "use": "Proprietary 'AI Production System' for OLED manufacturing that ingests and analyzes real-time process/quality data, automatically diagnoses causes of production anomalies, sends alerts to relevant engineers, and recommends corrective actions - cutting process/quality improvement time from ~3 weeks to 2 days. [LG Display (proprietary, in-house developed)]",
+   "existence": "confirmed",
+   "value": "Process improvement time cut from 3 weeks to 2 days; contributes to >200 billion won (~$137-144M) in annual cost savings via higher yields",
+   "tier": "",
+   "url": "https://news.lgdisplay.com/en/2024/12/revolutionizing-oled-manufacturing-processes-with-an-ai-production-system/",
+   "raw_sector": "",
+   "date": "2024-12",
+   "fresh": "aging"
+  },
+  {
+   "company": "LG Display",
+   "use": "AI-powered design algorithm that automates the compensation-pattern design for irregularly shaped OLED panels (curved edges, slim bezels), previously done manually by skilled engineers. [LG Display (proprietary)]",
+   "existence": "confirmed",
+   "value": "Design finalization time reduced from ~1 month to about 8 hours",
+   "tier": "",
+   "url": "https://www.koreaherald.com/article/10547363",
+   "raw_sector": "",
+   "date": "2025-08",
+   "fresh": "fresh"
+  },
+  {
+   "company": "LG Display",
+   "use": "Optical design AI that optimizes OLED panel color consistency across wide viewing angles, replacing lengthy manual optical simulation cycles. [LG Display (proprietary)]",
+   "existence": "confirmed",
+   "value": "Optical simulation time reduced from about 5 days to under 1 day",
+   "tier": "",
+   "url": "https://www.koreaherald.com/article/10547363",
+   "raw_sector": "",
+   "date": "2025-08",
+   "fresh": "fresh"
+  },
+  {
+   "company": "LG Display",
+   "use": "AI-based digital-twin panel solution 'DPS' (Display Panel Simulator) built on NVIDIA's physics-AI platform PhysicsNeMo, training AI models directly on simulation results and real OLED process data to accelerate R&D and manufacturing development. LG Display is the only Korean company to apply PhysicsNeMo in actual manufacturing; showcased at NVIDIA GTC 2026. [NVIDIA PhysicsNeMo (implemented with Korean startup AIsemy)]",
+   "existence": "confirmed",
+   "value": "NVIDIA software optimization accelerates foundation-model training/fine-tuning up to 2x",
+   "tier": "",
+   "url": "https://koreatechtoday.com/lg-display-adopts-nvidia-physicsnemo-to-build-digital-twin-for-panel-manufacturing/",
+   "raw_sector": "",
+   "date": "2026-02",
+   "fresh": "fresh"
+  },
+  {
+   "company": "LG Display",
+   "use": "AI Virtual Lab / Virtual Design & Evaluation (VDE): a simulation-and-AI virtual environment that reproduces display panels digitally to optimize designs and detect defects before physical prototyping, targeting elimination of repeated pilot production/testing cycles for next-gen displays (optics, materials, devices, substrates). [LG Display (proprietary)]",
+   "existence": "claimed",
+   "value": "Aims to cut experimental/development testing costs by more than 50% by 2030; pilot production savings of 'several billion won'",
+   "tier": "",
+   "url": "https://www.thelec.net/news/articleView.html?idxno=11959",
+   "raw_sector": "",
+   "date": "2026-07",
+   "fresh": "fresh"
+  },
+  {
+   "company": "LG Display",
+   "use": "Participation in the NVIDIA-LG Group 'AI Factory' strategic partnership providing accelerated GPU computing infrastructure to train, simulate, validate and deploy AI applications; LG Display's DPS/digital-twin manufacturing work is cited as aligning with NVIDIA's AI Factory strategy for display design and manufacturing. [NVIDIA (Vera CPUs / Rubin GPUs, Omniverse, Cosmos)]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://blogs.nvidia.com/blog/nvidia-and-lg-group-ai-factory/",
+   "raw_sector": "",
+   "date": "2026-06",
+   "fresh": "fresh"
+  },
+  {
+   "company": "LG Display",
+   "use": "In-house AI office assistant 'Hi-D' (Heidi) for all employees, providing internal/external knowledge search, real-time meeting interpretation (Korean, English, Chinese, Vietnamese), auto-generated meeting minutes, document drafting and summarization. Built on LG AI Research's EXAONE LLM. [LG AI Research EXAONE (4.0)]",
+   "existence": "confirmed",
+   "value": "~10% average daily productivity improvement; >10 billion won saved annually by eliminating external subscription costs",
+   "tier": "",
+   "url": "https://news.lgdisplay.com/en/2025/08/ai-experience-how-lg-displays-ai-assistant-hi-d-is-transforming-communication/",
+   "raw_sector": "",
+   "date": "2025-04",
+   "fresh": "fresh"
+  },
+  {
+   "company": "LG Display",
+   "use": "Autonomous outdoor delivery robots deployed at the Paju production campus to deliver coffee/beverages and items to employees at office buildings, integrated with a mobile ordering app and supporting batch/multi-order delivery. [Neubility (Neubie robot), operated via Hyundai Vendis]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.neubility.ai/en/discover/detail?id=145",
+   "raw_sector": "",
+   "date": "2025-06",
+   "fresh": "fresh"
   }
  ]
 }

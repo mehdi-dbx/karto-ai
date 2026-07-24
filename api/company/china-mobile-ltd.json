@@ -3,34 +3,53 @@
  "name": "China Mobile Ltd",
  "cc": "CN",
  "vertical": "Telecom",
- "deployments": 1,
- "confirmed": 1,
- "with_value_number": 1,
- "proof_rate": 1.0,
+ "deployments": 12,
+ "confirmed": 8,
+ "with_value_number": 11,
+ "proof_rate": 0.917,
  "mktcap": 229487179487.0,
  "revenue": 153846153846.0,
  "employees": 461345.0,
  "silent": false,
- "per_bn_revenue": 0.01,
- "per_10k_emp": 0.02,
+ "per_bn_revenue": 0.08,
+ "per_10k_emp": 0.26,
  "benchmarks": {
   "global_vertical": {
-   "deployments": 0,
-   "confirmed": 16,
-   "proof_rate": 68,
+   "deployments": 97,
+   "confirmed": 88,
+   "proof_rate": 77,
    "n": 93
   }
  },
- "first_seen": null,
- "by_year": [],
- "undated_pct": 100,
- "momentum": "none",
- "maturity": "L3",
- "maturity_evidence": [
-  "named_product:Cross",
-  "value_number"
+ "first_seen": 2023,
+ "by_year": [
+  {
+   "year": 2023,
+   "n": 1
+  },
+  {
+   "year": 2024,
+   "n": 2
+  },
+  {
+   "year": 2025,
+   "n": 7
+  },
+  {
+   "year": 2026,
+   "n": 1
+  }
  ],
- "prospect_score": 14,
+ "undated_pct": 8,
+ "momentum": "early_mover,rising",
+ "maturity": "L4",
+ "maturity_evidence": [
+  "multi_horizontal",
+  "named_product:Cross",
+  "value_number",
+  "multi_year"
+ ],
+ "prospect_score": 59,
  "stack": [],
  "vendor_named": false,
  "deployments_detail": [
@@ -44,6 +63,127 @@
    "raw_sector": "Commerce & Industry (HSI)",
    "date": "missing",
    "fresh": "undated"
+  },
+  {
+   "company": "China Mobile Ltd",
+   "use": "Jiutian (Nine Days) generative AI foundation large model, self-developed by a central SOE; trained on 2+ trillion tokens with embedded professional knowledge across telecom, energy, steel, transport and other industries; offered as inclusive Model-as-a-Service. Early enterprise adopters include China Ocean Shipping (COSCO) and China Railway Construction. [China Mobile Jiutian (self-developed)]",
+   "existence": "confirmed",
+   "value": "trained over 2 trillion tokens; knowledge across 8 industries",
+   "tier": "",
+   "url": "https://www.globaltimes.cn/page/202310/1299716.shtml",
+   "raw_sector": "",
+   "date": "2023-10",
+   "fresh": "stale"
+  },
+  {
+   "company": "China Mobile Ltd",
+   "use": "Jiutian 35B general-purpose LLM deployed on a fully domestic GPU stack (Moore Threads MTT S5000), with dual generative-AI regulatory filings and A-level security certification; validated for high-concurrency, low-latency inference for industry digital-transformation workloads. [China Mobile Jiutian 35B + Moore Threads MTT S5000 GPU (SGLang-MUSA)]",
+   "existence": "confirmed",
+   "value": "35B parameters; MTT S5000 delivers up to 1,000 TFLOPS",
+   "tier": "",
+   "url": "https://finance.biggo.com/news/Y0CM0J0B-PfaobXf3c2X",
+   "raw_sector": "",
+   "date": "2026",
+   "fresh": "fresh"
+  },
+  {
+   "company": "China Mobile Ltd",
+   "use": "Cloud intelligence in personal cloud storage — AI-powered fuzzy search over personal cloud drive with 90%+ accuracy plus knowledge-base 'personal secretary' functionality, including tailored solutions for elderly and K-12 users. [China Mobile Lingxi / Jiutian]",
+   "existence": "confirmed",
+   "value": "20 million AI cloud users; 90%+ fuzzy-search accuracy",
+   "tier": "",
+   "url": "https://prcwt.com/releases/story/20076.html",
+   "raw_sector": "",
+   "date": "2025-10",
+   "fresh": "fresh"
+  },
+  {
+   "company": "China Mobile Ltd",
+   "use": "Lingxi electronic guide dog — AI assistive robot for visually impaired users built on the Jiutian model; provides autonomous navigation, LiDAR/monocular-3D obstacle avoidance, object/text visual recognition and natural-language dialogue via bone-conduction audio. [China Mobile (Body Intelligent Industry Innovation Center) / Jiutian]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://en.taibo.cn/p/26176774",
+   "raw_sector": "",
+   "date": "2025-09",
+   "fresh": "fresh"
+  },
+  {
+   "company": "China Mobile Ltd",
+   "use": "Quadruped home service robots powered by Jiutian edge/terminal models — companionship, education and assistance robots deployed in service halls, nursing homes and children's science-education centers as part of the AI smart-terminal '1+4' product system. [China Mobile (Jiutian edge models)]",
+   "existence": "claimed",
+   "value": "AI+ product family exceeds 210 million users",
+   "tier": "",
+   "url": "https://www.sohu.com/a/943164250_122328931",
+   "raw_sector": "",
+   "date": "2025",
+   "fresh": "fresh"
+  },
+  {
+   "company": "China Mobile Ltd",
+   "use": "Jiutian co-construction platform for 20+ industry-specific large models — spanning networks, customer service, households, government affairs, tourism, healthcare, industry, comprehensive governance and enterprise communication. [China Mobile Jiutian]",
+   "existence": "claimed",
+   "value": "more than 20 industry large models",
+   "tier": "",
+   "url": "http://en.sasac.gov.cn/2024/04/15/c_16963.htm",
+   "raw_sector": "",
+   "date": "2024-04",
+   "fresh": "aging"
+  },
+  {
+   "company": "China Mobile Ltd",
+   "use": "Large-scale AI computing infrastructure buildout — commitment to deploy a 100,000-card computing cluster, double AI investment, surpass 100 EFLOPS domestic compute, and drive 3,000+ AI+DICT projects across government, agriculture and new industrialization; autonomous-network progression from Level 3 to Level 4. [China Mobile Jiutian]",
+   "existence": "claimed",
+   "value": "100,000-card cluster; 100+ EFLOPS; 3,000+ AI+DICT projects (by 2028)",
+   "tier": "",
+   "url": "https://en.tmtpost.com/post/7719344",
+   "raw_sector": "",
+   "date": "2025",
+   "fresh": "fresh"
+  },
+  {
+   "company": "China Mobile Ltd",
+   "use": "AI Huanxin national open innovation platform — spearheaded by China Mobile, aggregating 2,000+ domestic AI accelerator cards from the three telecom operators, hosting 274 open-source and 10 proprietary models, general + 13 industry datasets, and 40 high-value AI scenarios across 16 industries; China Mobile Jiutian AI Technology Co Ltd inaugurated alongside. [China Mobile (Jiutian AI Research Institute)]",
+   "existence": "confirmed",
+   "value": "2,000+ AI cards; 274 open-source + 10 proprietary models; 40 scenarios across 16 industries",
+   "tier": "",
+   "url": "https://regional.chinadaily.com.cn/wic/2025-08/07/c_1114043.htm",
+   "raw_sector": "",
+   "date": "2025-08",
+   "fresh": "fresh"
+  },
+  {
+   "company": "China Mobile Ltd",
+   "use": "Lingxi Intelligent Agent — consumer-facing AI assistant built on the Jiutian model, offering schedule planning, life services, AI note-taking and chat; accessible via China Mobile App, 5G Message, WeChat, DingTalk, Feishu and Mobile Cloud Computer. Upgraded to Lingxi 2.0 (July 2025) across mobility, daily life, home, office and communications scenarios. [China Mobile Lingxi (on Jiutian)]",
+   "existence": "confirmed",
+   "value": "70M+ monthly active users (Oct 2025)",
+   "tier": "",
+   "url": "https://baike.baidu.com/en/item/Lingxi%20Intelligent%20Agent/3438021",
+   "raw_sector": "",
+   "date": "2024-10",
+   "fresh": "aging"
+  },
+  {
+   "company": "China Mobile Ltd",
+   "use": "AI Call assistant on 5G New Call — provides online medical consultation, emotional companionship, child-protection and accessibility voice services within the calling experience. [China Mobile Lingxi / Jiutian]",
+   "existence": "confirmed",
+   "value": "over 60 million AI call users",
+   "tier": "",
+   "url": "https://prcwt.com/releases/story/20076.html",
+   "raw_sector": "",
+   "date": "2025-10",
+   "fresh": "fresh"
+  },
+  {
+   "company": "China Mobile Ltd",
+   "use": "Intelligent Message Agent — transforms SMS into an AI agent with intent recognition and 70+ life-scenario functions (weather, food recommendations, hotel/navigation via Alipay and Autonavi integrations). [China Mobile Lingxi / Jiutian]",
+   "existence": "confirmed",
+   "value": "over 10 million AI message users; 70+ scenario functions",
+   "tier": "",
+   "url": "https://prcwt.com/releases/story/20076.html",
+   "raw_sector": "",
+   "date": "2025-10",
+   "fresh": "fresh"
   }
  ]
 }

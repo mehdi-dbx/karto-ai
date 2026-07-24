@@ -3,39 +3,51 @@
  "name": "IG Group",
  "cc": "UK",
  "vertical": "Financial Services",
- "deployments": 1,
- "confirmed": 1,
- "with_value_number": 0,
- "proof_rate": 0.0,
+ "deployments": 10,
+ "confirmed": 10,
+ "with_value_number": 3,
+ "proof_rate": 0.3,
  "mktcap": 7239000000.0,
  "revenue": 1371600000.0,
  "employees": 2354.0,
  "silent": false,
- "per_bn_revenue": 0.73,
- "per_10k_emp": 4.25,
+ "per_bn_revenue": 7.29,
+ "per_10k_emp": 42.48,
  "benchmarks": {
   "global_vertical": {
-   "deployments": 0,
-   "confirmed": 18,
-   "proof_rate": 0,
+   "deployments": 93,
+   "confirmed": 95,
+   "proof_rate": 57,
    "n": 377
   },
   "country_vertical": {
-   "deployments": 0,
-   "confirmed": 36,
-   "proof_rate": 0,
+   "deployments": 95,
+   "confirmed": 100,
+   "proof_rate": 73,
    "n": 23
   }
  },
- "first_seen": null,
- "by_year": [],
- "undated_pct": 100,
- "momentum": "none",
- "maturity": "L3",
- "maturity_evidence": [
-  "named_product:Deployed"
+ "first_seen": 2025,
+ "by_year": [
+  {
+   "year": 2025,
+   "n": 1
+  },
+  {
+   "year": 2026,
+   "n": 5
+  }
  ],
- "prospect_score": 54,
+ "undated_pct": 40,
+ "momentum": "rising",
+ "maturity": "L4",
+ "maturity_evidence": [
+  "multi_horizontal",
+  "named_product:Deployed",
+  "value_number",
+  "multi_year"
+ ],
+ "prospect_score": 96,
  "stack": [],
  "vendor_named": false,
  "deployments_detail": [
@@ -47,6 +59,105 @@
    "tier": "I",
    "url": "https://financefeeds.com/ig-turns-to-ai-to-streamline-marketing-compliance-amid-tougher-uk-rules/",
    "raw_sector": "Financial services",
+   "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "IG Group",
+   "use": "Adclear AI-powered marketing/financial-promotions compliance platform automating auditing and approval of digital advertising campaigns (incl. crypto promos) for UK&I marketing and compliance teams. [Adclear]",
+   "existence": "confirmed",
+   "value": "87% on-time asset approvals within weeks of rollout",
+   "tier": "",
+   "url": "https://www.finextra.com/pressarticle/108744/ig-turns-to-ai-to-transform-marketing-compliance",
+   "raw_sector": "",
+   "date": "2026-02",
+   "fresh": "fresh"
+  },
+  {
+   "company": "IG Group",
+   "use": "AI-powered compliance verification of content/promotional materials, part of IG Group's early generative-AI program in a regulated financial organization.",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://fewtokens.online/en/case-studies/ig-group-genai/",
+   "raw_sector": "",
+   "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "IG Group",
+   "use": "Intercom Fin AI Agent deployed across client support (email, live chat, WhatsApp) in multiple languages, deflecting routine high-volume trading queries so human specialists focus on complex cases. [Intercom Fin (GPT-4 based AI Agent)]",
+   "existence": "confirmed",
+   "value": "Up to 70% deflection on chat; CSAT in the 90s across channels",
+   "tier": "",
+   "url": "https://community.intercom.com/ai-transformation-stories-104/the-future-of-financial-support-how-ig-group-is-transforming-with-ai-13495",
+   "raw_sector": "",
+   "date": "2026-01",
+   "fresh": "fresh"
+  },
+  {
+   "company": "IG Group",
+   "use": "IG Securities Japan launched an AI chatbot ('Gio') for 24/7 client support, answering questions about account opening and products/services based on the company's website content, replacing the legacy feedback function.",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://fxnewsgroup.com/forex-news/retail-forex/ig-japan-launches-ai-chatbot/",
+   "raw_sector": "",
+   "date": "2026-06",
+   "fresh": "fresh"
+  },
+  {
+   "company": "IG Group",
+   "use": "Internal generative-AI knowledge-base chatbot giving employees grounded answers from internal documentation, reducing repetitive inquiries (pioneering genAI deployment inside the trading broker).",
+   "existence": "confirmed",
+   "value": "$100k+ annual savings (across the genAI program)",
+   "tier": "",
+   "url": "https://fewtokens.online/en/case-studies/ig-group-genai/",
+   "raw_sector": "",
+   "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "IG Group",
+   "use": "DiscoverAI, an AI-powered investment discovery layer built with Telescope that helps traders uncover relevant stocks, themes and ideas with personalised insights, embedded in IG's trading platform (Australia). [Telescope AI]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://telescope.co/solutions/brokers",
+   "raw_sector": "",
+   "date": "2025-05",
+   "fresh": "fresh"
+  },
+  {
+   "company": "IG Group",
+   "use": "IG Australia AI Assistant delivered as a Model Context Protocol (MCP) server, letting clients query their trading account (live bid/ask prices, open positions, client sentiment, history, portfolio metrics) via ChatGPT in read-only mode; Claude support announced as coming. [OpenAI ChatGPT (MCP integration); Anthropic Claude coming soon]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.tradingview.com/news/financemagnates:b900029e5094b:0-ig-australia-launches-mcp-server-opens-its-trading-platform-to-chatgpt/",
+   "raw_sector": "",
+   "date": "2026-05",
+   "fresh": "fresh"
+  },
+  {
+   "company": "IG Group",
+   "use": "Telescope 'Ripple' AI Search deployed on tastytrade (IG Group's US retail brokerage subsidiary), giving traders natural-language discovery of stocks and ideas. [Telescope AI (Ripple)]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://telescope.co/blog/telescope-partners-with-tastytrade",
+   "raw_sector": "",
+   "date": "2026-01",
+   "fresh": "fresh"
+  },
+  {
+   "company": "IG Group",
+   "use": "Machine translation for SEO/localisation of marketing content, using generative AI to scale multilingual content production.",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://fewtokens.online/en/case-studies/ig-group-genai/",
+   "raw_sector": "",
    "date": "missing",
    "fresh": "undated"
   }

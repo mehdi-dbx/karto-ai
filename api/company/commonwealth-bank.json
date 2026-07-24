@@ -3,46 +3,64 @@
  "name": "Commonwealth Bank",
  "cc": "AU",
  "vertical": "Financial Services",
- "deployments": 1,
- "confirmed": 1,
- "with_value_number": 1,
- "proof_rate": 1.0,
+ "deployments": 13,
+ "confirmed": 11,
+ "with_value_number": 7,
+ "proof_rate": 0.538,
  "mktcap": 191393333333.0,
  "revenue": 18980000000.0,
  "employees": 51617.0,
  "silent": false,
- "per_bn_revenue": 0.05,
- "per_10k_emp": 0.19,
+ "per_bn_revenue": 0.68,
+ "per_10k_emp": 2.52,
  "benchmarks": {
   "global_vertical": {
-   "deployments": 0,
-   "confirmed": 18,
-   "proof_rate": 72,
+   "deployments": 98,
+   "confirmed": 97,
+   "proof_rate": 71,
    "n": 377
   },
   "country_vertical": {
-   "deployments": 0,
-   "confirmed": 20,
+   "deployments": 100,
+   "confirmed": 100,
    "proof_rate": 100,
    "n": 6
   }
  },
- "first_seen": 2026,
+ "first_seen": 2019,
  "by_year": [
   {
-   "year": 2026,
+   "year": 2019,
    "n": 1
+  },
+  {
+   "year": 2023,
+   "n": 1
+  },
+  {
+   "year": 2024,
+   "n": 2
+  },
+  {
+   "year": 2025,
+   "n": 6
+  },
+  {
+   "year": 2026,
+   "n": 3
   }
  ],
  "undated_pct": 0,
- "momentum": "late_entrant,rising",
- "maturity": "L3",
+ "momentum": "early_mover,rising",
+ "maturity": "L4",
  "maturity_evidence": [
+  "multi_horizontal",
   "named_product:Customer",
   "value_number",
+  "multi_year",
   "tier_p"
  ],
- "prospect_score": 14,
+ "prospect_score": 86,
  "stack": [],
  "vendor_named": false,
  "deployments_detail": [
@@ -56,6 +74,138 @@
    "raw_sector": "Banks",
    "date": "2026-02",
    "fresh": "fresh"
+  },
+  {
+   "company": "Commonwealth Bank",
+   "use": "Strategic partnership with Anthropic using Claude (Claude Enterprise) to accelerate AI adoption across customer service, fraud prevention and personalised experiences; Anthropic opening Sydney office to deepen the relationship [Anthropic (Claude Enterprise)]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.commbank.com.au/articles/newsroom/2025/03/anthropic.html",
+   "raw_sector": "",
+   "date": "2025-03",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Commonwealth Bank",
+   "use": "Multi-year strategic partnership with OpenAI to build generative-AI solutions for scam/fraud detection and customer personalisation, with OpenAI tools progressively rolled out to CBA employees [OpenAI]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.commbank.com.au/articles/newsroom/2025/08/tech-ai-partnership.html",
+   "raw_sector": "",
+   "date": "2025-08",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Commonwealth Bank",
+   "use": "CommBank Companion — agentic AI assistant being tested inside the mobile banking app to give customers proactive, personalised money-management help",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://michaelwest.com.au/aussie-bank-quietly-testing-customer-ai-companion/",
+   "raw_sector": "",
+   "date": "2026-05",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Commonwealth Bank",
+   "use": "AI Factory — dedicated generative-AI development environment/infrastructure built with AWS to accelerate GenAI innovation and, per re:Invent 2025, legacy core modernization using Bedrock agentic architecture [AWS (Amazon SageMaker, EC2 P5, Bedrock)]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.commbank.com.au/articles/newsroom/2024/09/cba-activates-ai-factory.html",
+   "raw_sector": "",
+   "date": "2024-09",
+   "fresh": "aging"
+  },
+  {
+   "company": "Commonwealth Bank",
+   "use": "AI-powered omni-channel customer service platform ('Hey CommBank' gen AI chatbot plus voice/messaging routing) handling 2M+ conversations monthly with 84.6% messaging self-service resolution; migrated ~700 chatbot topics into the new architecture [Microsoft (Copilot Studio, Dynamics 365, Microsoft Foundry)]",
+   "existence": "confirmed",
+   "value": "84.6% messaging self-service resolution (May 2026); 2M+ conversations/month; 50,000 phone calls/day",
+   "tier": "",
+   "url": "https://news.microsoft.com/source/asia/features/how-commonwealth-bank-and-microsoft-are-reimagining-the-future-of-customer-service/",
+   "raw_sector": "",
+   "date": "2024-11",
+   "fresh": "aging"
+  },
+  {
+   "company": "Commonwealth Bank",
+   "use": "CommBiz Gen AI — generative-AI powered messaging/assistant service for business banking customers that answers queries and speeds payments by extracting info from 80+ CommBiz user guides [AWS]",
+   "existence": "confirmed",
+   "value": "Draws on 80+ CommBiz user guides; serves tens of thousands of business banking customers",
+   "tier": "",
+   "url": "https://www.commbank.com.au/articles/newsroom/2025/02/amazon-web-services-collaboration.html",
+   "raw_sector": "",
+   "date": "2025-02",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Commonwealth Bank",
+   "use": "AI coding assistance and internal productivity — GitHub Copilot rolled out to engineers and Microsoft 365 Copilot to staff to accelerate software development and internal operations [Microsoft / GitHub (GitHub Copilot, Microsoft 365 Copilot)]",
+   "existence": "confirmed",
+   "value": "~30% of GitHub Copilot AI code suggestions adopted by engineers",
+   "tier": "",
+   "url": "https://www.microsoft.com/en/customers/story/24299-commonwealth-bank-of-australia-microsoft-365-copilot",
+   "raw_sector": "",
+   "date": "2025-06",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Commonwealth Bank",
+   "use": "Customer Engagement Engine (CEE) — ML/AI personalisation platform delivering next-best-conversation decisions across channels in real time using thousands of models",
+   "existence": "confirmed",
+   "value": "~55 million AI-driven decisions per day; 2,000+ models (per later reporting)",
+   "tier": "",
+   "url": "https://www.commbank.com.au/articles/newsroom/2022/06/CBA-artificial-intelligence-usages.html",
+   "raw_sector": "",
+   "date": "2019",
+   "fresh": "stale"
+  },
+  {
+   "company": "Commonwealth Bank",
+   "use": "Agentic AI fraud/scam detection agent that spots emerging patterns in transaction and payment data, assesses severity, and generates/updates detection rules with human-in-the-loop analyst approval [Snowflake (data cloud); built in-house]",
+   "existence": "confirmed",
+   "value": "Contributed to ~75% of card fraud rule development/updates; fraud losses down 20%+ in H1 2026 vs 2025; monitors 80M+ signals and 20M+ payments daily",
+   "tier": "",
+   "url": "https://www.commbank.com.au/articles/newsroom/2026/04/ai-agent-spots-fraud-in-real-time.html",
+   "raw_sector": "",
+   "date": "2026-04",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Commonwealth Bank",
+   "use": "Scam-disruption 'bot army' — thousands of AI-generated conversational bot profiles with Australian accents that engage scammers via honeypot phone numbers to gather near real-time scam intelligence [Apate.ai (Macquarie University spin-out)]",
+   "existence": "confirmed",
+   "value": "Hundreds of thousands of scam calls diverted to bots since pilot",
+   "tier": "",
+   "url": "https://www.commbank.com.au/articles/newsroom/2025/06/apate-ai.html",
+   "raw_sector": "",
+   "date": "2025-06",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Commonwealth Bank",
+   "use": "Generative-AI Scam Checker in the CommBank app — customers upload a screenshot of a suspicious text/message and the tool assesses whether it is a scam (Australian-first)",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.nine.com.au/australia-news/commonwealth-bank-new-ai-tool-to-prevent-scams-reveals-major-decrease-in-scam-losses-20250811-p5zg06.html",
+   "raw_sector": "",
+   "date": "2025-08",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Commonwealth Bank",
+   "use": "NameCheck — AI/name-matching security tool that checks payee account details on first-time payments to reduce mistaken payments and false-billing scams (underpins Confirmation of Payee)",
+   "existence": "confirmed",
+   "value": "$370 million in mistaken payments addressed (per CBA)",
+   "tier": "",
+   "url": "https://www.commbank.com.au/articles/newsroom/2023/05/namecheck.html",
+   "raw_sector": "",
+   "date": "2023-05",
+   "fresh": "stale"
   }
  ]
 }

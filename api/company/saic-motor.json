@@ -3,40 +3,57 @@
  "name": "SAIC Motor",
  "cc": "CN",
  "vertical": "Automotive",
- "deployments": 2,
- "confirmed": 2,
- "with_value_number": 1,
- "proof_rate": 0.5,
+ "deployments": 11,
+ "confirmed": 7,
+ "with_value_number": 3,
+ "proof_rate": 0.273,
  "mktcap": 16836111111.0,
  "revenue": 91083333333.0,
  "employees": 179797.0,
  "silent": false,
- "per_bn_revenue": 0.02,
- "per_10k_emp": 0.11,
+ "per_bn_revenue": 0.12,
+ "per_10k_emp": 0.61,
  "benchmarks": {
   "global_vertical": {
-   "deployments": 67,
-   "confirmed": 79,
-   "proof_rate": 64,
+   "deployments": 90,
+   "confirmed": 92,
+   "proof_rate": 62,
    "n": 40
   }
  },
- "first_seen": 2024,
+ "first_seen": 2021,
  "by_year": [
+  {
+   "year": 2021,
+   "n": 2
+  },
+  {
+   "year": 2023,
+   "n": 2
+  },
   {
    "year": 2024,
    "n": 2
+  },
+  {
+   "year": 2025,
+   "n": 4
+  },
+  {
+   "year": 2026,
+   "n": 1
   }
  ],
  "undated_pct": 0,
- "momentum": "early_mover,gone_quiet",
- "maturity": "L3",
+ "momentum": "early_mover,rising",
+ "maturity": "L4",
  "maturity_evidence": [
   "named_product:Ultra",
   "value_number",
+  "multi_year",
   "tier_p"
  ],
- "prospect_score": 40,
+ "prospect_score": 79,
  "stack": [],
  "vendor_named": false,
  "deployments_detail": [
@@ -61,6 +78,105 @@
    "raw_sector": "Consumer Discretionary",
    "date": "2024-12",
    "fresh": "aging"
+  },
+  {
+   "company": "SAIC Motor",
+   "use": "IM Motors (SAIC premium EV brand) end-to-end intelligent driving powered by Momenta's D.L.P. AI model, launched as IM AD NOA (mapless urban/highway navigate-on-autopilot). Deployed on production models such as the IM L6, with Momenta reporting coverage across hundreds of cities. [Momenta (one-stage end-to-end 'Flywheel' large model)]",
+   "existence": "confirmed",
+   "value": "333 cities, 389,000 kilometers (Momenta HNP coverage claim)",
+   "tier": "",
+   "url": "https://www.momenta.cn/en/article/154.html",
+   "raw_sector": "",
+   "date": "2023",
+   "fresh": "stale"
+  },
+  {
+   "company": "SAIC Motor",
+   "use": "SAIC AI Lab L4 self-driving Robotaxi fleet in Shanghai (and Suzhou/Shenzhen), built with Momenta, including an intelligent-driving data-monitoring platform creating a vehicle-to-cloud closed data loop on SAIC's Fin-Shine cloud. [Momenta; SAIC Fin-Shine cloud platform]",
+   "existence": "confirmed",
+   "value": "600 trillion operations per second compute; 40 vehicles in Shanghai + 20 in Suzhou (2021), scaling to 200 nationwide",
+   "tier": "",
+   "url": "https://www.saicmotor.com/english/latest_news/saic_motor/56570.shtml",
+   "raw_sector": "",
+   "date": "2021-12",
+   "fresh": "stale"
+  },
+  {
+   "company": "SAIC Motor",
+   "use": "SAIC Volkswagen mass-production advanced driver-assistance (L2 to L2++) jointly developed with Momenta, based on Momenta's one-stage end-to-end 'Flywheel' large model, with L3/L4 planned. [Momenta (one-stage end-to-end Flywheel large model)]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.momenta.cn/en/article/200.html",
+   "raw_sector": "",
+   "date": "2025-04",
+   "fresh": "fresh"
+  },
+  {
+   "company": "SAIC Motor",
+   "use": "SAIC-GM integrated DeepSeek-R1 reasoning model alongside Baidu's ERNIE LLM into a 'cloud-edge integrated AI model hub' powering the smart cockpit voice/generative assistant across Cadillac, Buick and Chevrolet models. [DeepSeek (R1); Baidu ERNIE]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.globalchinaev.com/post/saic-general-motors-becomes-first-joint-venture-to-integrate-deepseek-r1-to-cars",
+   "raw_sector": "",
+   "date": "2025-02",
+   "fresh": "fresh"
+  },
+  {
+   "company": "SAIC Motor",
+   "use": "IM Motors integrated DeepSeek's large language model into its multi-modal AI-powered smart cockpit to boost cloud-based decision-making and upgrade perception/interaction. [DeepSeek]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://autonews.gasgoo.com/articles/news/im-motors-integrates-deepseek-ai-large-model-into-smart-cockpit-70035932",
+   "raw_sector": "",
+   "date": "2025-02",
+   "fresh": "fresh"
+  },
+  {
+   "company": "SAIC Motor",
+   "use": "IM AIOS smart cockpit operating system, jointly developed by IM Motors and Alibaba-backed Banma, featuring an on-device open-source speech large model and an AI interactive agent; built on the Yuanshen AI full-stack system and shipping on the IM LS9 SUV. [Banma Intelligence (Yuanshen AI); Alibaba Qwen/Tongyi LLMs]",
+   "existence": "confirmed",
+   "value": "\"industry's largest on-device open speech large model\" (vendor claim)",
+   "tier": "",
+   "url": "https://www.marklines.com/en/news/335411",
+   "raw_sector": "",
+   "date": "2025-03",
+   "fresh": "fresh"
+  },
+  {
+   "company": "SAIC Motor",
+   "use": "IM (Zhiji) premium EV brand built AI-defined vehicles on NVIDIA DRIVE Orin compute for autonomous-driving/perception, the AI hardware platform behind the brand's intelligent driving features. [NVIDIA (DRIVE Orin)]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://blogs.nvidia.com/blog/saic-im-ev-nvidia-drive-orin/",
+   "raw_sector": "",
+   "date": "2021-01",
+   "fresh": "stale"
+  },
+  {
+   "company": "SAIC Motor",
+   "use": "SAIC Mobility launched a purpose-built, production-ready Robotaxi program (with IM Motors), using Momenta's L4 autonomous-driving stack and EnjoyGo for product/operations, targeting a 2027 debut and initial service in Shanghai. [Momenta (L4 autonomy); EnjoyGo]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://chinaevhome.com/2026/07/20/saic-launches-robotaxi-production-vehicle-program-eyes-2027-debut/",
+   "raw_sector": "",
+   "date": "2026-07",
+   "fresh": "fresh"
+  },
+  {
+   "company": "SAIC Motor",
+   "use": "SAIC Motor Overseas Intelligent Mobility selected AWS as strategic cloud provider and plans to use Amazon Bedrock generative AI to power in-vehicle virtual assistants (tailored routing, virtual tours) and to auto-diagnose vehicle issues from the owner's manual. [AWS (Amazon Bedrock)]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://press.aboutamazon.com/2023/11/saic-motor-overseas-intelligent-mobility-selects-aws-as-its-strategic-cloud-provider",
+   "raw_sector": "",
+   "date": "2023-11",
+   "fresh": "stale"
   }
  ]
 }

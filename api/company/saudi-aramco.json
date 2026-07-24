@@ -3,27 +3,27 @@
  "name": "Saudi Aramco",
  "cc": "SA",
  "vertical": "Energy & Utilities",
- "deployments": 2,
- "confirmed": 2,
- "with_value_number": 0,
- "proof_rate": 0.0,
+ "deployments": 14,
+ "confirmed": 13,
+ "with_value_number": 4,
+ "proof_rate": 0.286,
  "mktcap": 1729000000000.0,
  "revenue": 480446000000.0,
  "employees": 75000.0,
  "silent": false,
- "per_bn_revenue": 0.0,
- "per_10k_emp": 0.27,
+ "per_bn_revenue": 0.03,
+ "per_10k_emp": 1.87,
  "benchmarks": {
   "global_vertical": {
-   "deployments": 77,
-   "confirmed": 83,
-   "proof_rate": 0,
+   "deployments": 99,
+   "confirmed": 99,
+   "proof_rate": 64,
    "n": 210
   },
   "country_vertical": {
-   "deployments": 40,
+   "deployments": 100,
    "confirmed": 100,
-   "proof_rate": 0,
+   "proof_rate": 100,
    "n": 6
   }
  },
@@ -31,17 +31,28 @@
  "by_year": [
   {
    "year": 2024,
+   "n": 5
+  },
+  {
+   "year": 2025,
+   "n": 5
+  },
+  {
+   "year": 2026,
    "n": 2
   }
  ],
- "undated_pct": 0,
- "momentum": "early_mover,gone_quiet",
- "maturity": "L3",
+ "undated_pct": 14,
+ "momentum": "early_mover,rising",
+ "maturity": "L4",
  "maturity_evidence": [
+  "multi_horizontal",
   "named_product:Aramco Meta-Brain",
+  "value_number",
+  "multi_year",
   "tier_p"
  ],
- "prospect_score": 60,
+ "prospect_score": 97,
  "stack": [],
  "vendor_named": false,
  "deployments_detail": [
@@ -66,6 +77,138 @@
    "raw_sector": "Energy",
    "date": "2024",
    "fresh": "aging"
+  },
+  {
+   "company": "Saudi Aramco",
+   "use": "Aramco METABRAIN, a proprietary 250-billion-parameter industrial LLM trained on ~7 trillion tokens of 90 years of internal/public data, used to analyze drilling plans and geological data to recommend well options (upstream) and to forecast refined-product pricing and market dynamics (downstream). [In-house (Aramco); Groq LPUs for inference, Cognite JV]",
+   "existence": "confirmed",
+   "value": "250B parameters, trained on 7 trillion tokens / 90 years of data",
+   "tier": "",
+   "url": "https://www.middleeastainews.com/p/aramco-launches-largest-industrial-llm",
+   "raw_sector": "",
+   "date": "2024-03",
+   "fresh": "aging"
+  },
+  {
+   "company": "Saudi Aramco",
+   "use": "AI assistant/agent for seismic data processing that uses natural-language guidance to select tools and process subsurface seismic data, cutting processing from weeks/months to minutes to accelerate exploration decisions. [NVIDIA (presented at GTC24 S62714)]",
+   "existence": "confirmed",
+   "value": "Seismic data processed in minutes vs weeks/months",
+   "tier": "",
+   "url": "https://europe.aramco.com/en/news-media/news/2025/aramco-deploys-ai",
+   "raw_sector": "",
+   "date": "2025-03",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Saudi Aramco",
+   "use": "Machine-learning predictive maintenance across oil-field assets (e.g. Khurais with 40,000 sensors on 500 wells), predicting equipment issues and facility downtime before failure. [In-house (Aramco)]",
+   "existence": "confirmed",
+   "value": "40% decrease in unplanned downtime; 30% reduction in maintenance costs",
+   "tier": "",
+   "url": "https://www.vastdata.com/blog/the-new-nervous-system-inside-saudi-aramco",
+   "raw_sector": "",
+   "date": "2025-08",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Saudi Aramco",
+   "use": "ML models to predict pipeline corrosion and asset-integrity issues, shifting corrosion management from reactive to predictive maintenance. [In-house (Aramco)]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://europe.aramco.com/en/news-media/news/2025/aramco-deploys-ai",
+   "raw_sector": "",
+   "date": "2025-03",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Saudi Aramco",
+   "use": "Smart algorithms that forecast renewable (solar) energy supply and optimize battery/storage management to stabilize the grid as renewables are integrated into operations. [In-house (Aramco)]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://europe.aramco.com/en/news-media/news/2025/aramco-deploys-ai",
+   "raw_sector": "",
+   "date": "2025-03",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Saudi Aramco",
+   "use": "On-device/edge generative-AI industrial IoT solutions: gen-AI video surveillance for factory monitoring, autonomous gen-AI-controlled drones for incident rapid response, and multimodal gen-AI worker-assist for equipment-failure prediction. [Qualcomm Technologies (edge AI hardware)]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.qualcomm.com/news/releases/2024/09/qualcomm-and-aramco-lead-industrial-innovation-with-transformati",
+   "raw_sector": "",
+   "date": "2024-09",
+   "fresh": "aging"
+  },
+  {
+   "company": "Saudi Aramco",
+   "use": "Aspen Hybrid Models (industrial AI + engineering models) deployed on Continuous Catalyst Regeneration and Platformer units globally to optimize refinery planning, feedstock blending, and margin forecasting. [Emerson / AspenTech (Aspen Hybrid Models)]",
+   "existence": "confirmed",
+   "value": "Up to 98.5% prediction accuracy in critical refinery units",
+   "tier": "",
+   "url": "https://energydigital.com/news/emerson-aramco-ai-to-boost-efficiency",
+   "raw_sector": "",
+   "date": "2026-05",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Saudi Aramco",
+   "use": "AI/ML for flare monitoring and gas-leak detection, predicting when a facility will exceed flaring targets so remedial action can be taken in advance. [In-house (Aramco)]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.aramco.com/en/what-we-do/energy-innovation/digitalization/ai-and-big-data",
+   "raw_sector": "",
+   "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "Saudi Aramco",
+   "use": "Satellite-based methane emissions monitoring across key upstream facilities using GHGSat's high-resolution constellation and AI-enhanced plume detection, scaled up after a successful pilot. [GHGSat]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.ghgsat.com/en/newsroom/advancing-methane-monitoring-in-aramco-operations-with-satellite-technology/",
+   "raw_sector": "",
+   "date": "2025-03",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Saudi Aramco",
+   "use": "Strategic MoU to deploy the CrowdStrike Falcon platform as the foundation for unified AI-powered cybersecurity protection across Aramco's critical infrastructure and operational technology. [CrowdStrike (Falcon platform)]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.crowdstrike.com/en-us/press-releases/aramco-partners-with-crowdstrike-advance-cybersecurity-saudi-arabia/",
+   "raw_sector": "",
+   "date": "2026-02",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Saudi Aramco",
+   "use": "AI-enabled caged drones for non-destructive-testing inspection of internal assets (storage tanks, stacks, FCC units), eliminating scaffolding and confined-space entries. [Flyability (Elios drones)]",
+   "existence": "confirmed",
+   "value": "50-60% reduction in inspection costs vs conventional methods",
+   "tier": "",
+   "url": "https://www.flyability.com/news/saudi-aramco-award-the-use-of-caged-drones-for-oil-and-gas-inspections",
+   "raw_sector": "",
+   "date": "2024",
+   "fresh": "aging"
+  },
+  {
+   "company": "Saudi Aramco",
+   "use": "AI-powered supply-chain and logistics monitoring providing real-time alerts to prevent business disruption and live tracking of Aramco's worldwide shipments end-to-end. [In-house (Aramco)]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.aramco.com/en/what-we-do/energy-innovation/digitalization/ai-and-big-data",
+   "raw_sector": "",
+   "date": "missing",
+   "fresh": "undated"
   }
  ]
 }

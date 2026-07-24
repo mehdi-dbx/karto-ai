@@ -3,39 +3,50 @@
  "name": "Vulcan Materials Company",
  "cc": "US",
  "vertical": "Chemicals & Materials",
- "deployments": 1,
- "confirmed": 0,
- "with_value_number": 0,
- "proof_rate": 0.0,
+ "deployments": 8,
+ "confirmed": 5,
+ "with_value_number": 3,
+ "proof_rate": 0.375,
  "mktcap": 35850000000.0,
  "revenue": 8060000000.0,
  "employees": 11548.0,
  "silent": false,
- "per_bn_revenue": 0.12,
- "per_10k_emp": 0.87,
+ "per_bn_revenue": 0.99,
+ "per_10k_emp": 6.93,
  "benchmarks": {
   "global_vertical": {
-   "deployments": 0,
-   "confirmed": 0,
-   "proof_rate": 0,
+   "deployments": 91,
+   "confirmed": 91,
+   "proof_rate": 63,
    "n": 105
   },
   "country_vertical": {
-   "deployments": 0,
-   "confirmed": 0,
-   "proof_rate": 0,
+   "deployments": 100,
+   "confirmed": 100,
+   "proof_rate": 88,
    "n": 26
   }
  },
- "first_seen": null,
- "by_year": [],
- "undated_pct": 100,
- "momentum": "none",
- "maturity": "L1",
- "maturity_evidence": [
-  "rows_no_confirmed"
+ "first_seen": 2025,
+ "by_year": [
+  {
+   "year": 2025,
+   "n": 2
+  },
+  {
+   "year": 2026,
+   "n": 1
+  }
  ],
- "prospect_score": 40,
+ "undated_pct": 62,
+ "momentum": "rising",
+ "maturity": "L3",
+ "maturity_evidence": [
+  "multi_horizontal",
+  "named_product:Vulcan",
+  "value_number"
+ ],
+ "prospect_score": 63,
  "stack": [],
  "vendor_named": false,
  "deployments_detail": [
@@ -47,6 +58,83 @@
    "tier": "—",
    "url": "https://www.cio.com/article/2144169/how-vulcan-materials-paved-its-way-to-digital-success.html",
    "raw_sector": "Materials",
+   "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "Vulcan Materials Company",
+   "use": "Order-to-cash / accounts-receivable automation: digitized invoicing, payments and collections through Billtrust's AR platform. [Billtrust]",
+   "existence": "confirmed",
+   "value": "90% of clients adopted digital invoices",
+   "tier": "",
+   "url": "https://www.billtrust.com/resources/case-studies/vulcan-materials",
+   "raw_sector": "",
+   "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "Vulcan Materials Company",
+   "use": "Predictive maintenance enabled by IT/OT convergence and modernized plant networks that capture equipment/sensor data to anticipate failures.",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.metisstrategy.com/how-vulcan-materials-paved-its-way-to-digital-success/",
+   "raw_sector": "",
+   "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "Vulcan Materials Company",
+   "use": "Proprietary pricing tool used by the sales force to set and optimize freight-adjusted regional aggregate pricing, fully implemented as part of the Vulcan Way of Selling.",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://seekingalpha.com/article/4881739-vulcan-materials-company-vmc-analyst-investor-day-transcript",
+   "raw_sector": "",
+   "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "Vulcan Materials Company",
+   "use": "New CRM platform (Vulcan Way of Selling) with project-lead tracking and digital quoting that follows up on construction jobs and converts quotes to orders. [Salesforce]",
+   "existence": "confirmed",
+   "value": "Followed up on 14,000+ jobs, converted 38,000 quotes to orders, and processed $2B+ in customer portal payments in 2025",
+   "tier": "",
+   "url": "https://www.tikr.com/blog/from-11-to-20-per-ton-what-vulcan-materials-investor-day-revealed-for-2026",
+   "raw_sector": "",
+   "date": "2025",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Vulcan Materials Company",
+   "use": "Vulcan Way of Operating 'process intelligence' (PI) system: data/analytics-driven optimization of aggregate production (critical-size production, yield, and daily labor scheduling) across its top plants to lower unit cash costs.",
+   "existence": "confirmed",
+   "value": "Deployed across ~75% of aggregate production / top 127 plants (>70% of production); PI-enabled plants had <1% YoY production cost growth in 2025 vs 2.6% at non-PI plants; contributed to ~2% YoY reduction in freight-adjusted unit cash costs in Q3 2025",
+   "tier": "",
+   "url": "https://www.fool.com/earnings/call-transcripts/2025/10/30/vulcan-materials-vmc-q3-2025-earnings-transcript/",
+   "raw_sector": "",
+   "date": "2025",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Vulcan Materials Company",
+   "use": "Autonomous / semi-autonomous haul truck pilots at U.S. quarry facilities (AI-based navigation of moving stone from pit to crusher).",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://dirtmatch.com/blog/autonomous-semi-autonomous-haul-trucks-guide-2026",
+   "raw_sector": "",
+   "date": "2026",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Vulcan Materials Company",
+   "use": "Real-time location tracking of material shipments giving customers delivery visibility for labor planning, plus paperless/digital pickup at quarries.",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.cio.com/article/2144169/how-vulcan-materials-paved-its-way-to-digital-success.html",
+   "raw_sector": "",
    "date": "missing",
    "fresh": "undated"
   }

@@ -3,39 +3,62 @@
  "name": "Weir Group",
  "cc": "UK",
  "vertical": "Industrial / Machinery",
- "deployments": 1,
- "confirmed": 1,
- "with_value_number": 0,
- "proof_rate": 0.0,
+ "deployments": 10,
+ "confirmed": 9,
+ "with_value_number": 1,
+ "proof_rate": 0.1,
  "mktcap": 8267700000.0,
  "revenue": 3251200000.0,
  "employees": 12069.0,
  "silent": false,
- "per_bn_revenue": 0.31,
- "per_10k_emp": 0.83,
+ "per_bn_revenue": 3.08,
+ "per_10k_emp": 8.29,
  "benchmarks": {
   "global_vertical": {
-   "deployments": 0,
-   "confirmed": 14,
-   "proof_rate": 0,
+   "deployments": 91,
+   "confirmed": 97,
+   "proof_rate": 68,
    "n": 175
   }
  },
- "first_seen": 2023,
+ "first_seen": 2018,
  "by_year": [
   {
-   "year": 2023,
+   "year": 2018,
    "n": 1
+  },
+  {
+   "year": 2021,
+   "n": 1
+  },
+  {
+   "year": 2022,
+   "n": 1
+  },
+  {
+   "year": 2023,
+   "n": 3
+  },
+  {
+   "year": 2024,
+   "n": 1
+  },
+  {
+   "year": 2025,
+   "n": 3
   }
  ],
  "undated_pct": 0,
- "momentum": "early_mover,gone_quiet",
- "maturity": "L3",
+ "momentum": "early_mover,cooling",
+ "maturity": "L4",
  "maturity_evidence": [
+  "multi_horizontal",
   "named_product:Acquired",
+  "value_number",
+  "multi_year",
   "tier_p"
  ],
- "prospect_score": 54,
+ "prospect_score": 98,
  "stack": [],
  "vendor_named": false,
  "deployments_detail": [
@@ -49,6 +72,105 @@
    "raw_sector": "Industrial goods and services",
    "date": "2023",
    "fresh": "stale"
+  },
+  {
+   "company": "Weir Group",
+   "use": "Responsible-AI governance programme: AI compliance tools deployed and responsible-AI principles embedded, alongside defences against AI-powered cyber threats (voice cloning, deepfakes) flagged as an enterprise risk.",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.global.weir/globalassets/investors/reporting-centre/2026/annual-report/weir-2025-annual-report.pdf",
+   "raw_sector": "",
+   "date": "2025",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Weir Group",
+   "use": "Generative AI tools deployed to support teams across the business for internal productivity (minimising mundane tasks), with a stated roadmap toward supervised AI agents under human oversight.",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.global.weir/newsroom/global-news/2026/ai-in-mining/",
+   "raw_sector": "",
+   "date": "2023",
+   "fresh": "stale"
+  },
+  {
+   "company": "Weir Group",
+   "use": "Weir Motion Metrics AI + machine-vision systems (ShovelMetrics, TruckMetrics, PortaMetrics) on shovels, loaders and trucks for missing-tooth/lip-shroud detection, boulder/foreign-object detection, payload measurement and rock fragmentation analysis, reducing crusher downtime and improving safety. [Weir Motion Metrics (proprietary AI/computer vision)]",
+   "existence": "confirmed",
+   "value": "deployed at 80+ mine sites globally",
+   "tier": "",
+   "url": "https://im-mining.com/2021/11/05/mineral-processing-mining-wear-parts-major-weir-group-adding-motion-metrics-esco-division/",
+   "raw_sector": "",
+   "date": "2021",
+   "fresh": "stale"
+  },
+  {
+   "company": "Weir Group",
+   "use": "SentianAI-derived AI algorithms for minerals-processing optimisation: continuously learning/adapting models that optimise plant performance, address declining ore grades and reduce energy/CO2, deployed into live mining operations. [SentianAI (acquired by Weir, 2023)]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.at-minerals.com/en/news/weir-acquires-innovative-developer-of-ai-process-optimisation-solutions-4042309.html",
+   "raw_sector": "",
+   "date": "2023",
+   "fresh": "stale"
+  },
+  {
+   "company": "Weir Group",
+   "use": "NEXT Intelligent Solutions - Production package: AI-powered Intelligent Assistant plus reinforcement-learning process automation that adjusts set-points in real time (ore feed, machine drift, cost, targets) to maximise mineral-processing efficiency. [Weir NEXT (proprietary AI)]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://im-mining.com/2025/08/04/weirs-next-paves-intelligent-path-to-optimised-mining/",
+   "raw_sector": "",
+   "date": "2024",
+   "fresh": "aging"
+  },
+  {
+   "company": "Weir Group",
+   "use": "NEXT Intelligent Solutions - Uptime package: AI predictive maintenance with wear detection giving remaining-useful-life in real time and failure prediction models, plus automated parameter adjustment (e.g. slurry-pump throat-bush gaps) to reduce wear. [Weir NEXT (proprietary AI)]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.globalminingreview.com/special-reports/03032025/weir-launches-new-digital-offering/",
+   "raw_sector": "",
+   "date": "2025",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Weir Group",
+   "use": "Synertrex IIoT platform: cloud-connected smart sensors and AI-backed soft sensors on Weir equipment delivering predictive analytics and performance/condition monitoring for mining customers. [Weir Synertrex]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.global.weir/newsroom/global-news/weir-announces-its-innovative-iiot-platform-synertrex/",
+   "raw_sector": "",
+   "date": "2018",
+   "fresh": "stale"
+  },
+  {
+   "company": "Weir Group",
+   "use": "XMPro digital-twin partnership integrated into the Synertrex ecosystem to deliver event intelligence, predictive analytics and real-time decision support for mining equipment. [XMPro (digital twin / agentic AI)]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://xmpro.com/xmpro-partners-with-weir-minerals-synertrex/",
+   "raw_sector": "",
+   "date": "2022",
+   "fresh": "stale"
+  },
+  {
+   "company": "Weir Group",
+   "use": "Strategic collaboration with Viking Analytics to add AI/ML condition-monitoring and predictive-maintenance diagnostics to Weir's NEXT intelligent solutions for mineral-processing plants. [Viking Analytics]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.global.weir/newsroom/global-news/2025/weir-partners-with-viking-analytics-to-enhance-digital-offering-for-mineral-processing-plants/",
+   "raw_sector": "",
+   "date": "2025-09",
+   "fresh": "fresh"
   }
  ]
 }

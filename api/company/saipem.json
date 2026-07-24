@@ -3,47 +3,60 @@
  "name": "Saipem",
  "cc": "IT",
  "vertical": "Energy & Utilities",
- "deployments": 2,
- "confirmed": 2,
- "with_value_number": 1,
- "proof_rate": 0.5,
+ "deployments": 10,
+ "confirmed": 8,
+ "with_value_number": 3,
+ "proof_rate": 0.3,
  "mktcap": 9201600000.0,
  "revenue": 16750800000.0,
  "employees": 30000.0,
  "silent": false,
- "per_bn_revenue": 0.12,
- "per_10k_emp": 0.67,
+ "per_bn_revenue": 0.6,
+ "per_10k_emp": 3.33,
  "benchmarks": {
   "global_vertical": {
-   "deployments": 77,
-   "confirmed": 83,
-   "proof_rate": 67,
+   "deployments": 94,
+   "confirmed": 94,
+   "proof_rate": 64,
    "n": 210
   },
   "country_vertical": {
-   "deployments": 62,
-   "confirmed": 62,
-   "proof_rate": 38,
+   "deployments": 100,
+   "confirmed": 100,
+   "proof_rate": 25,
    "n": 9
   }
  },
- "first_seen": 2024,
+ "first_seen": 2023,
  "by_year": [
   {
-   "year": 2024,
+   "year": 2023,
    "n": 1
+  },
+  {
+   "year": 2024,
+   "n": 3
+  },
+  {
+   "year": 2025,
+   "n": 2
+  },
+  {
+   "year": 2026,
+   "n": 3
   }
  ],
- "undated_pct": 50,
- "momentum": "early_mover,gone_quiet",
- "maturity": "L3",
+ "undated_pct": 10,
+ "momentum": "early_mover,rising",
+ "maturity": "L4",
  "maturity_evidence": [
   "multi_horizontal",
   "named_product:AVEVA",
   "value_number",
+  "multi_year",
   "tier_p"
  ],
- "prospect_score": 40,
+ "prospect_score": 84,
  "stack": [],
  "vendor_named": false,
  "deployments_detail": [
@@ -68,6 +81,94 @@
    "raw_sector": "Energy",
    "date": "2024",
    "fresh": "aging"
+  },
+  {
+   "company": "Saipem",
+   "use": "AI-based predictive maintenance system on the Saipem 12000 ultra-deepwater drillship, using IoT sensors and machine learning to monitor drilling equipment, predict failures and schedule maintenance (extended to Saipem 7000 diesel generators). [ADC Energy (Saipem 12000); BIP (Saipem 7000)]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.saipem.com/en/media/news/Saipem-introduces-an-AI-based-predictive-maintenance-system-onboard-the-Saipem-12000",
+   "raw_sector": "",
+   "date": "2026-02",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Saipem",
+   "use": "Hydrone-R resident underwater intervention drone performing AI-driven autonomous subsea inspections and interventions without surface vessel support, under a 10-year Equinor contract (Njord field, Norway).",
+   "existence": "confirmed",
+   "value": "over 500 days of subsea residency; world record 240 days continuous on seabed",
+   "tier": "",
+   "url": "https://www.saipem.com/en/media/news/Saipem-s-underwater-drone-Hydrone-R-performs-autonomous-mission-in-the%20Arctic-coral-area-in-Norway",
+   "raw_sector": "",
+   "date": "2026-02",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Saipem",
+   "use": "FlatFish hybrid fully-autonomous underwater inspection drone with AI-based control and navigation, completing a test campaign with Petrobras ahead of offshore deployment (Hydrone program).",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.saipem.com/en/media/press-releases/2026-03-19/saipems-flatfish-underwater-drone-successfully-completes-test",
+   "raw_sector": "",
+   "date": "2026-03",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Saipem",
+   "use": "Adoption of Microsoft Copilot365, a generative-AI productivity tool, to automate routine daily-operations tasks for employees across the organization. [Microsoft (Copilot 365)]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.saipem.com/sites/default/files/2025-04/2024%20Sustainability%20Report_0.pdf",
+   "raw_sector": "",
+   "date": "2024",
+   "fresh": "aging"
+  },
+  {
+   "company": "Saipem",
+   "use": "Generative and predictive AI to support engineering design in complex EPC projects, optimizing 1D/2D/3D plant modelling, project planning and material procurement (developed on AVEVA Unified Engineering in the cloud). [AVEVA]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.saipem.com/en/media/press-releases/2024-12-23/saipem-and-aveva-sign-mou-develop-ai-solutions-engineering-energy",
+   "raw_sector": "",
+   "date": "2024-12",
+   "fresh": "aging"
+  },
+  {
+   "company": "Saipem",
+   "use": "Video Analytics for Workplace Safety (VAWS): AI-powered cameras that detect HSE violations (unsafe acts/conditions, work-at-height, PPE) on worksites and send real-time notifications to HSE operators via mobile.",
+   "existence": "confirmed",
+   "value": "273 notifications accepted since October 2023 (239 unsafe acts, 19 unsafe conditions, 15 positive)",
+   "tier": "",
+   "url": "https://ipma.it/ipma_/images/Convegno_IPMA_Italy_20240314_Saipem_Corallo.pdf",
+   "raw_sector": "",
+   "date": "2023-10",
+   "fresh": "stale"
+  },
+  {
+   "company": "Saipem",
+   "use": "LiSa Hyper Harness: smart safety harness with sensors and AI that monitors whether workers correctly connect to fall-protection systems during work at height, emitting an alert and notifying a supervisor; data platform analyzes usage over time. [R13 Technology; Confezioni Mario De Cecco]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.saipem.com/en/media/news/Saipem-launches-LiSa-Hyper-Harness-the-smart-harness-for-greater-safety-of-workers-at-height",
+   "raw_sector": "",
+   "date": "2025-11",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Saipem",
+   "use": "AI 'Safety AI' drones developed at the Karimun yard (Indonesia) that monitor dropped/falling objects at offshore platforms and process safety data for proactive hazard detection.",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.saipem.com/en/sustainability/our-health-and-safety-vision",
+   "raw_sector": "",
+   "date": "2025",
+   "fresh": "fresh"
   }
  ]
 }

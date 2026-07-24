@@ -3,39 +3,63 @@
  "name": "China National Nuclear Power",
  "cc": "CN",
  "vertical": "Energy & Utilities",
- "deployments": 1,
- "confirmed": 1,
- "with_value_number": 0,
- "proof_rate": 0.0,
+ "deployments": 11,
+ "confirmed": 8,
+ "with_value_number": 1,
+ "proof_rate": 0.091,
  "mktcap": 25966666667.0,
  "revenue": 11212500000.0,
  "employees": 22306.0,
  "silent": false,
- "per_bn_revenue": 0.09,
- "per_10k_emp": 0.45,
+ "per_bn_revenue": 0.98,
+ "per_10k_emp": 4.93,
  "benchmarks": {
   "global_vertical": {
-   "deployments": 0,
-   "confirmed": 20,
-   "proof_rate": 0,
+   "deployments": 96,
+   "confirmed": 94,
+   "proof_rate": 60,
    "n": 210
   },
   "country_vertical": {
-   "deployments": 0,
-   "confirmed": 0,
-   "proof_rate": 0,
+   "deployments": 100,
+   "confirmed": 100,
+   "proof_rate": 36,
    "n": 12
   }
  },
- "first_seen": null,
- "by_year": [],
- "undated_pct": 100,
- "momentum": "none",
- "maturity": "L3",
- "maturity_evidence": [
-  "named_product:Longling"
+ "first_seen": 2021,
+ "by_year": [
+  {
+   "year": 2021,
+   "n": 1
+  },
+  {
+   "year": 2022,
+   "n": 1
+  },
+  {
+   "year": 2024,
+   "n": 3
+  },
+  {
+   "year": 2025,
+   "n": 2
+  },
+  {
+   "year": 2026,
+   "n": 3
+  }
  ],
- "prospect_score": 46,
+ "undated_pct": 9,
+ "momentum": "early_mover,rising",
+ "maturity": "L4",
+ "maturity_evidence": [
+  "multi_horizontal",
+  "named_product:Longling",
+  "value_number",
+  "multi_year"
+ ],
+ "prospect_score": 84,
  "stack": [
   "DeepSeek"
  ],
@@ -51,6 +75,116 @@
    "raw_sector": "Utilities",
    "date": "missing",
    "fresh": "undated"
+  },
+  {
+   "company": "China National Nuclear Power",
+   "use": "Qinshan Nuclear Power's 'i-知识' (i-Knowledge) management platform — CNNP's first LLM-based knowledge system, combining large language models, intelligent retrieval, knowledge graphs and semantic analysis over nuclear-industry knowledge, delivering domain-specific Q&A and knowledge-element-level standards retrieval. Passed expert appraisal Aug 2024. [Large language model (nuclear-domain LLM)]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.china-nea.cn/site/content/46811.html",
+   "raw_sector": "",
+   "date": "2024-08",
+   "fresh": "aging"
+  },
+  {
+   "company": "China National Nuclear Power",
+   "use": "'核智·龙灵' (HeZhi Longling) nuclear-operations large model and '核智 AI 门户' (HeZhi AI portal) built by CNNP's Nuclear Power Operation Research Institute, integrated with DeepSeek. Deployed scenarios include automatic work-dispatch order generation (派遣单生成), regulation/policy intelligent Q&A, and O&M knowledge Q&A; later upgraded to integrate DeepSeek-V4 with doubled parameter count. [DeepSeek (V3/R1, later V4); self-developed Longling model]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.china-nea.cn/site/content/48541.html",
+   "raw_sector": "",
+   "date": "2025-02",
+   "fresh": "fresh"
+  },
+  {
+   "company": "China National Nuclear Power",
+   "use": "Digital-twin-driven pressurized-water-reactor core operation support system by CNNP's Nuclear Power Operation Research Institute — uses 3D multi-physics high-precision core computation combined with machine-learning calibration to align digital models with actual reactor data. Selected as the only nuclear-sector case in MIIT's 2025 AI typical application cases list. [Machine learning; in-house 3D core computation]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.cinie.net/article/56217.html",
+   "raw_sector": "",
+   "date": "2026-07",
+   "fresh": "fresh"
+  },
+  {
+   "company": "China National Nuclear Power",
+   "use": "'核电人工智能数智协同赋能平台' (nuclear-power AI digital-intelligence collaborative enablement platform) developed by CNNP subsidiary CNNC Wuhan (中核武汉), selected into MIIT's 2025 AI industry / new industrialization 'unveiling & leading' (揭榜挂帅) shortlist.",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://finance.sina.com.cn/jjxw/2026-07-19/doc-iniiimti0257570.shtml",
+   "raw_sector": "",
+   "date": "2026-07",
+   "fresh": "fresh"
+  },
+  {
+   "company": "China National Nuclear Power",
+   "use": "Sanmen Nuclear Power (三门核电, controlled ~56% by CNNP) named the world's first nuclear-power 'Lighthouse Factory' by the World Economic Forum, recognized for high automation, data-driven decision-making and rapid adoption of Fourth Industrial Revolution / AI technologies across plant operations.",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://nnsa.mee.gov.cn/ywdt/hyzx/202410/t20241011_1087916.html",
+   "raw_sector": "",
+   "date": "2024-10",
+   "fresh": "aging"
+  },
+  {
+   "company": "China National Nuclear Power",
+   "use": "Qinshan Nuclear Power's 5G private network (largest electricity 5G private network in China, covering all 9 units) supporting AI-enabled digital applications including intelligent video surveillance (视频智能监控), digital operating procedures, radiation-source supervision and smart metering. [China Mobile Zhejiang (5G network)]",
+   "existence": "confirmed",
+   "value": "10+ 5G-based digital applications deployed",
+   "tier": "",
+   "url": "https://nnsa.mee.gov.cn/ywdt/hyzx/202412/t20241213_1098600.html",
+   "raw_sector": "",
+   "date": "2024-12",
+   "fresh": "aging"
+  },
+  {
+   "company": "China National Nuclear Power",
+   "use": "Qinshan Nuclear Power smart water project (智慧水务) — China's first smart-water project in the nuclear sector, at the Qin-2 Chengjing intake, applying intelligent modeling/algorithms for automated intake operation. Commissioned Dec 2021.",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.cnnpn.cn/article/27047.html",
+   "raw_sector": "",
+   "date": "2021-12",
+   "fresh": "stale"
+  },
+  {
+   "company": "China National Nuclear Power",
+   "use": "Qinshan Nuclear Power AI intelligent inspection robots in plant buildings — over the 5G private network, robots link AI HD cameras and explosion-proof pan-tilt devices, using image recognition for automatic meter reading, leak/anomaly detection, infrared temperature measurement and gas monitoring, replacing manual inspection in the secondary loop and other areas.",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.stdaily.com/web/gdxw/2025-03/27/content_315633.html",
+   "raw_sector": "",
+   "date": "2025-03",
+   "fresh": "fresh"
+  },
+  {
+   "company": "China National Nuclear Power",
+   "use": "Sanmen Nuclear Power 'AI digital employee' (数字员工) software project — AI-based automation of email processing, archive checking, document cataloguing, business-ledger management and financial-data processing to replace manual back-office tasks (procured via tender).",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.163.com/dy/article/HB6JO011055240KW.html",
+   "raw_sector": "",
+   "date": "2022",
+   "fresh": "stale"
+  },
+  {
+   "company": "China National Nuclear Power",
+   "use": "'基于大模型的核电网络安全风险监测诊断平台' (large-model-based nuclear-power cybersecurity risk monitoring & diagnosis platform), a CNNP project selected into MIIT's 2025 AI 'unveiling & leading' (揭榜挂帅) shortlist — applies LLMs to network-security risk monitoring and diagnosis for nuclear plants. [Large language model]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://finance.sina.com.cn/jjxw/2026-07-19/doc-iniiimti0257570.shtml",
+   "raw_sector": "",
+   "date": "2026-07",
+   "fresh": "fresh"
   }
  ]
 }

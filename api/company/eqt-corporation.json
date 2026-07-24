@@ -3,39 +3,60 @@
  "name": "EQT Corporation",
  "cc": "US",
  "vertical": "Energy & Utilities",
- "deployments": 1,
- "confirmed": 1,
- "with_value_number": 0,
- "proof_rate": 0.0,
+ "deployments": 9,
+ "confirmed": 8,
+ "with_value_number": 2,
+ "proof_rate": 0.222,
  "mktcap": 33500000000.0,
  "revenue": 9310000000.0,
  "employees": 1523.0,
  "silent": false,
- "per_bn_revenue": 0.11,
- "per_10k_emp": 6.57,
+ "per_bn_revenue": 0.97,
+ "per_10k_emp": 59.09,
  "benchmarks": {
   "global_vertical": {
-   "deployments": 0,
-   "confirmed": 20,
-   "proof_rate": 0,
+   "deployments": 92,
+   "confirmed": 94,
+   "proof_rate": 62,
    "n": 210
   },
   "country_vertical": {
-   "deployments": 0,
-   "confirmed": 41,
-   "proof_rate": 0,
+   "deployments": 98,
+   "confirmed": 100,
+   "proof_rate": 90,
    "n": 52
   }
  },
- "first_seen": null,
- "by_year": [],
- "undated_pct": 100,
- "momentum": "none",
- "maturity": "L2",
+ "first_seen": 2018,
+ "by_year": [
+  {
+   "year": 2018,
+   "n": 1
+  },
+  {
+   "year": 2021,
+   "n": 1
+  },
+  {
+   "year": 2023,
+   "n": 1
+  },
+  {
+   "year": 2025,
+   "n": 5
+  }
+ ],
+ "undated_pct": 11,
+ "momentum": "early_mover,rising",
+ "maturity": "L4",
  "maturity_evidence": [
+  "multi_horizontal",
+  "named_product:Enterprise",
+  "value_number",
+  "multi_year",
   "tier_p"
  ],
- "prospect_score": 54,
+ "prospect_score": 87,
  "stack": [],
  "vendor_named": false,
  "deployments_detail": [
@@ -49,6 +70,94 @@
    "raw_sector": "Energy",
    "date": "missing",
    "fresh": "undated"
+  },
+  {
+   "company": "EQT Corporation",
+   "use": "Predictive maintenance across field equipment to improve performance, safety and emissions reduction, part of EQT's embedded real-time analytics and automation strategy.",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.poweredbyeqt.com/why-eqt",
+   "raw_sector": "",
+   "date": "2025",
+   "fresh": "fresh"
+  },
+  {
+   "company": "EQT Corporation",
+   "use": "Enterprise governance/enablement of internal AI tool usage: EQT launched a new Artificial Intelligence Usage Corporate Policy as a dedicated compliance program, indicating adoption of AI tools by employees across the business.",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://ir.eqt.com/newsroom/news-releases/news-release-details/2026/-EQT-Releases-2025-Sustainability-Report-Built-for-Whats-Next-2026-8Z1uWdZ6uk/default.aspx",
+   "raw_sector": "",
+   "date": "2025",
+   "fresh": "fresh"
+  },
+  {
+   "company": "EQT Corporation",
+   "use": "Well-pad and field automation via SCADA control systems using the Ignition, eACM, and Autosol platforms for real-time monitoring, data acquisition and remote operations of production sites. [Inductive Automation Ignition, eACM, Autosol]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://bebee.com/us/jobs/scada-engineer-i-remote-options-data-automation-eqt-corporation-canonsburg--lensa-7428_da51f56bf2da343eb1a18646b2bea490443b3eeb053483fadd29838517e9b985",
+   "raw_sector": "",
+   "date": "2025",
+   "fresh": "fresh"
+  },
+  {
+   "company": "EQT Corporation",
+   "use": "Enterprise-wide AI-enabled carbon/emissions management via Context Labs' Immutably Enterprise Data Fabric and Decarbonization-as-a-Service (DaaS) platform, using machine learning and AI to quantify, certify and verify carbon intensity of EQT's operating assets; credited as the digital backbone that enabled EQT to reach Net Zero Scope 1 & 2 emissions. [Context Labs (Immutably / DaaS, CLEAR Path Repository)]",
+   "existence": "confirmed",
+   "value": "Achieved Net Zero Scope 1 & 2 emissions across Appalachian operations (>6.5 Bcfe/day producer)",
+   "tier": "",
+   "url": "https://contextlabs.com/eqt-net-zero/",
+   "raw_sector": "",
+   "date": "2023",
+   "fresh": "stale"
+  },
+  {
+   "company": "EQT Corporation",
+   "use": "Machine-learning-enhanced drilling efficiency and AI-driven operational optimization embedded across EQT's upstream operations (real-time analytics, ML-optimized drilling) as part of its digital operating model.",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.poweredbyeqt.com/why-eqt",
+   "raw_sector": "",
+   "date": "2025",
+   "fresh": "fresh"
+  },
+  {
+   "company": "EQT Corporation",
+   "use": "OSIsoft/AVEVA PI System deployed as EQT's real-time operations data infrastructure supporting predictive analytics, preventive maintenance/work management, and production optimization (PI Analytics & Notifications to identify and act on operating anomalies). [OSIsoft / AVEVA PI System]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://cdn.osisoft.com/osi/presentations/2018-uc-san-francisco/UC18NA-D2OG07-EQT-OSmithBMorel-The-Evolution-of-PI-System-at-EQT.pdf",
+   "raw_sector": "",
+   "date": "2018",
+   "fresh": "stale"
+  },
+  {
+   "company": "EQT Corporation",
+   "use": "Electric hydraulic fracturing operations run with real-time data, advanced analytics and frac automation/optimization through the Evolution Well Services partnership, setting Appalachian Basin pumping records. [Evolution Well Services]",
+   "existence": "confirmed",
+   "value": "677.54 pump hours in a calendar month; 3,241 ft lateral footage in a single day (records)",
+   "tier": "",
+   "url": "https://evolutionws.com/eqt-corporation-and-evolution-well-services-break-new-performance-records-the-partnership-is-setting-new-standards-of-og-excellence-in-the-appalachian-basin/",
+   "raw_sector": "",
+   "date": "2025",
+   "fresh": "fresh"
+  },
+  {
+   "company": "EQT Corporation",
+   "use": "Continuous methane emissions monitoring and responsibly-sourced-gas certification using Project Canary CanaryX sensors feeding a cloud analytics platform (measurements every second, reported every minute) plus TrustWell certification scoring 300+ operational points on well pads. [Project Canary (CanaryX, TrustWell)]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://ir.eqt.com/investor-relations/news/news-release-details/2021/EQT-and-Project-Canary-Partner-on-Certified-Responsibly-Sourced-Natural-Gas-Pilot/default.aspx",
+   "raw_sector": "",
+   "date": "2021",
+   "fresh": "stale"
   }
  ]
 }

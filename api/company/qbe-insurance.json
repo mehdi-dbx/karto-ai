@@ -3,40 +3,58 @@
  "name": "QBE Insurance",
  "cc": "AU",
  "vertical": "Insurance",
- "deployments": 1,
- "confirmed": 1,
- "with_value_number": 1,
- "proof_rate": 1.0,
+ "deployments": 9,
+ "confirmed": 9,
+ "with_value_number": 6,
+ "proof_rate": 0.667,
  "mktcap": 24393333333.0,
  "revenue": 18710000000.0,
  "employees": 13196.0,
  "silent": false,
- "per_bn_revenue": 0.05,
- "per_10k_emp": 0.76,
+ "per_bn_revenue": 0.48,
+ "per_10k_emp": 6.82,
  "benchmarks": {
   "global_vertical": {
-   "deployments": 0,
-   "confirmed": 14,
-   "proof_rate": 73,
+   "deployments": 98,
+   "confirmed": 100,
+   "proof_rate": 69,
    "n": 60
   }
  },
- "first_seen": 2024,
+ "first_seen": 2018,
  "by_year": [
   {
-   "year": 2024,
+   "year": 2018,
    "n": 1
+  },
+  {
+   "year": 2019,
+   "n": 1
+  },
+  {
+   "year": 2023,
+   "n": 1
+  },
+  {
+   "year": 2024,
+   "n": 3
+  },
+  {
+   "year": 2025,
+   "n": 2
   }
  ],
- "undated_pct": 0,
- "momentum": "early_mover,gone_quiet",
- "maturity": "L3",
+ "undated_pct": 11,
+ "momentum": "early_mover,cooling",
+ "maturity": "L4",
  "maturity_evidence": [
+  "multi_horizontal",
   "named_product:Cyber",
   "value_number",
+  "multi_year",
   "tier_p"
  ],
- "prospect_score": 14,
+ "prospect_score": 75,
  "stack": [],
  "vendor_named": false,
  "deployments_detail": [
@@ -50,6 +68,94 @@
    "raw_sector": "Insurance",
    "date": "2024",
    "fresh": "aging"
+  },
+  {
+   "company": "QBE Insurance",
+   "use": "Cyber Underwriting AI Assistant: a generative-AI tool that performs an initial review of broker cyber-insurance submissions, checking completeness, appetite and risk-control effectiveness so underwriters can process more submissions and improve risk selection. QBE's first Gen AI solution, launched Dec 2023 in North America and later scaled to Europe/other regions.",
+   "existence": "confirmed",
+   "value": "65% reduction in time taken to review submissions",
+   "tier": "",
+   "url": "https://www.qbe.com/newsroom/news/qbe-scales-gen-ai-solutions-across-operations",
+   "raw_sector": "",
+   "date": "2023-12",
+   "fresh": "stale"
+  },
+  {
+   "company": "QBE Insurance",
+   "use": "Generative-AI underwriting assistant for Workers' Compensation underwriters that streamlines submission reviews. Introduced in Hong Kong and Singapore, extending the Gen AI approach pioneered by the North America cyber assistant to the Asia-Pacific workers' comp line.",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.insurancebusinessmag.com/us/news/breaking-news/qbe-expands-ai-to-boost-underwriting-efficiency-499803.aspx",
+   "raw_sector": "",
+   "date": "2024-06",
+   "fresh": "aging"
+  },
+  {
+   "company": "QBE Insurance",
+   "use": "Geospatial + AI claims-response platform combining aerial/satellite imagery and AI so claims teams can visually assess severe-weather damage to residential and commercial property in near real-time, and understand individual property risk, to accelerate the claims response for impacted customers. [Nearmap (aerial imagery); QBE Ventures geospatial/AI platform]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.insurancebusinessmag.com/au/news/technology/qbe-turns-to-ai-for-weather-claims-response-494674.aspx",
+   "raw_sector": "",
+   "date": "2024-06",
+   "fresh": "aging"
+  },
+  {
+   "company": "QBE Insurance",
+   "use": "AI-based casualty/workers' compensation claims management suite that applies machine learning to identify problematic claims early, prevent escalation and close simple claims faster; deployed across QBE's Australian statutory claims including workers' compensation. [CLARA Analytics]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://claraanalytics.com/news/clara-analytics-announces-expanded-relationship-with-qbe-insurance/",
+   "raw_sector": "",
+   "date": "2018-12",
+   "fresh": "stale"
+  },
+  {
+   "company": "QBE Insurance",
+   "use": "MyRecovery digital claims app for injured workers' compensation claimants, using behavioral-science-driven personalization and gamification to improve treatment adherence and handle admin tasks (document uploads, reimbursement, appointment booking). Rolled out across QBE Australia Pacific people-risk claims. [Perx Health]",
+   "existence": "confirmed",
+   "value": "Average recovery ~23 days shorter for app users; 90% user satisfaction; 83% treatment adherence (across 6,692 claims, Aug 2024)",
+   "tier": "",
+   "url": "https://www.insurancebusinessmag.com/au/news/professional-liability/qbe-boosts-recovery-with-new-healthfocused-claims-app-542141.aspx",
+   "raw_sector": "",
+   "date": "2025-07",
+   "fresh": "fresh"
+  },
+  {
+   "company": "QBE Insurance",
+   "use": "AI-based intelligent document processing that automatically extracts and validates key information from claim forms and invoices, combining machine learning with human judgement to speed claims handling. [Hyperscience]",
+   "existence": "confirmed",
+   "value": "80% reduction in claim processing time; documents processed in 20% of the manual time",
+   "tier": "",
+   "url": "https://www.hyperscience.ai/resource/qbe-insurance-increases-claim-processing-speeds-by-80/",
+   "raw_sector": "",
+   "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "QBE Insurance",
+   "use": "In-house generative-AI tool that produces fast, consistent automated summaries of customer service/claims calls, cutting post-call admin so claims officers can focus on the conversation. Piloted in workers' comp / CTP claims with plans to expand across CTP and vulnerable-claimant services. [QBE internal data science unit]",
+   "existence": "confirmed",
+   "value": "Post-call processing time cut from ~7 minutes to ~2-3 minutes per call",
+   "tier": "",
+   "url": "https://www.insurancebusinessmag.com/au/news/professional-liability/qbe-boosts-recovery-with-new-healthfocused-claims-app-542141.aspx",
+   "raw_sector": "",
+   "date": "2025-07",
+   "fresh": "fresh"
+  },
+  {
+   "company": "QBE Insurance",
+   "use": "TextQBE: an AI virtual assistant enabling two-way text communication with customers during claims (handling questions on deductibles, document/photo receipt, and status updates via SMS). QBE North America was the first carrier to integrate the platform with its core insurance system. [Hi Marley]",
+   "existence": "confirmed",
+   "value": "Customer satisfaction averaging 4.6 out of 5",
+   "tier": "",
+   "url": "https://www.insurancebusinessmag.com/us/news/technology/qbe-launches-aibased-customercommunication-service-164464.aspx",
+   "raw_sector": "",
+   "date": "2019-04",
+   "fresh": "stale"
   }
  ]
 }

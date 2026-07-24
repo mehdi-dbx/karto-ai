@@ -3,41 +3,66 @@
  "name": "Energias de Portugal",
  "cc": "PT",
  "vertical": "Energy & Utilities",
- "deployments": 2,
- "confirmed": 2,
- "with_value_number": 1,
- "proof_rate": 0.5,
+ "deployments": 14,
+ "confirmed": 12,
+ "with_value_number": 6,
+ "proof_rate": 0.429,
  "mktcap": 20585376391.0,
  "revenue": 16816070850.0,
  "employees": 11865.0,
  "silent": false,
- "per_bn_revenue": 0.12,
- "per_10k_emp": 1.69,
+ "per_bn_revenue": 0.83,
+ "per_10k_emp": 11.8,
  "benchmarks": {
   "global_vertical": {
-   "deployments": 77,
-   "confirmed": 83,
+   "deployments": 99,
+   "confirmed": 98,
    "proof_rate": 67,
    "n": 210
   }
  },
- "first_seen": 2025,
+ "first_seen": 2018,
  "by_year": [
   {
-   "year": 2025,
+   "year": 2018,
    "n": 1
+  },
+  {
+   "year": 2019,
+   "n": 1
+  },
+  {
+   "year": 2020,
+   "n": 1
+  },
+  {
+   "year": 2022,
+   "n": 1
+  },
+  {
+   "year": 2023,
+   "n": 2
+  },
+  {
+   "year": 2024,
+   "n": 2
+  },
+  {
+   "year": 2025,
+   "n": 4
   }
  ],
- "undated_pct": 50,
- "momentum": "rising",
- "maturity": "L3",
+ "undated_pct": 14,
+ "momentum": "early_mover,flat",
+ "maturity": "L4",
  "maturity_evidence": [
   "multi_horizontal",
   "named_product:EDP",
   "value_number",
+  "multi_year",
   "tier_p"
  ],
- "prospect_score": 40,
+ "prospect_score": 91,
  "stack": [],
  "vendor_named": false,
  "deployments_detail": [
@@ -62,6 +87,138 @@
    "raw_sector": "Utilities",
    "date": "2025",
    "fresh": "fresh"
+  },
+  {
+   "company": "Energias de Portugal",
+   "use": "Mind4EDP, an internal generative AI assistant deployed to improve project management and workforce productivity across the company.",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://edp.com/en/north-america/na/media/promise-and-perils-artificial-intelligence-energy-transition",
+   "raw_sector": "",
+   "date": "2025-01",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Energias de Portugal",
+   "use": "EDP Renewables uses Appian's low-code + AI automation platform (e.g. EnHanS EHS incident management) to unify siloed data and automate ESG/operations reporting workflows, with 150+ applications built. [Appian]",
+   "existence": "confirmed",
+   "value": "~10x ROI; one reporting tool saves 50-75% of an FTE; used by 80%+ of company; 150+ apps",
+   "tier": "",
+   "url": "https://appian.com/about/explore/customers/all-customers/edp-renewables",
+   "raw_sector": "",
+   "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "Energias de Portugal",
+   "use": "Analytics4Vegetation: E-REDES machine-learning tool that predicts vegetation growth by species near overhead power lines to generate risk alerts, covering 68,000 km of high/medium voltage lines in Portugal.",
+   "existence": "confirmed",
+   "value": "68,000 km of lines monitored",
+   "tier": "",
+   "url": "https://edp.com/en/innovation/innovation-projects/analytics4vegetation-analysis-vegetation-near-power-grids",
+   "raw_sector": "",
+   "date": "2022",
+   "fresh": "stale"
+  },
+  {
+   "company": "Energias de Portugal",
+   "use": "AI-based inspection of overhead transmission/distribution lines: ML classification of helicopter/drone aerial data plus cognitive image processing to detect defects (rust, broken protections) on poles and components. [Labelec, DefinedCrowd]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://edp.com/en/innovation/innovation-projects/artificial-intelligence-inspection-overhead-power-lines",
+   "raw_sector": "",
+   "date": "2019-11",
+   "fresh": "stale"
+  },
+  {
+   "company": "Energias de Portugal",
+   "use": "PREDIS: AI system for forecasting electricity demand with high accuracy to improve supply-demand balancing.",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://edp.com/en/north-america/na/media/promise-and-perils-artificial-intelligence-energy-transition",
+   "raw_sector": "",
+   "date": "2025-01",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Energias de Portugal",
+   "use": "ElectricDots / EV-charger placement: machine learning and geospatial analytics combining geographical data, customer demand and road information to predict EV charging demand and identify optimal public charger locations. [Microsoft Azure Machine Learning]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.microsoft.com/en/customers/story/1651196286774740054-edp-energy-azure-en-portugal",
+   "raw_sector": "",
+   "date": "2023-06",
+   "fresh": "stale"
+  },
+  {
+   "company": "Energias de Portugal",
+   "use": "Distributed Solar Simulator: AI tool that identifies optimal rooftops for solar expansion and distributed generation.",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://edp.com/en/north-america/na/media/promise-and-perils-artificial-intelligence-energy-transition",
+   "raw_sector": "",
+   "date": "2025-01",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Energias de Portugal",
+   "use": "Power transformer predictions: Azure Machine Learning models predicting power curves for over 100,000 power transformers in Portugal to improve operational preparedness. [Microsoft Azure Machine Learning]",
+   "existence": "confirmed",
+   "value": "100,000+ transformers modelled",
+   "tier": "",
+   "url": "https://www.microsoft.com/en/customers/story/1651196286774740054-edp-energy-azure-en-portugal",
+   "raw_sector": "",
+   "date": "2023-06",
+   "fresh": "stale"
+  },
+  {
+   "company": "Energias de Portugal",
+   "use": "EDP Brazil AI for climate resilience: applying AI to field-operations management and weather forecasting to anticipate extreme weather events and dispatch field teams proactively, plus predictive maintenance/IoT for distributed solar assets.",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.forbes.com/sites/angelicamarideoliveira/2024/04/29/brazilian-utilities-firm-edp-uses-ai-to-respond-to-climate-change/",
+   "raw_sector": "",
+   "date": "2024-04",
+   "fresh": "aging"
+  },
+  {
+   "company": "Energias de Portugal",
+   "use": "EDP Ventures $2M (EUR1.8M) investment in a Chilean AI startup developing artificial intelligence technologies applied to renewable energy systems; first EDP Ventures investment in a Latin American startup outside Brazil.",
+   "existence": "claimed",
+   "value": "USD 2M / EUR 1.8M investment",
+   "tier": "",
+   "url": "https://www.bnamericas.com/en/news/edp-invests-us2mn-in-chilean-startup-of-ai-applied-to-renewable-energy-systems",
+   "raw_sector": "",
+   "date": "2024-02",
+   "fresh": "aging"
+  },
+  {
+   "company": "Energias de Portugal",
+   "use": "Sentimer chatbot: NLP/ML customer-service assistant for EDP-Carrefour energy contracts in Spain, guiding customers through inquiries and contracting before handoff to human agents.",
+   "existence": "confirmed",
+   "value": "10,000+ conversations, 70% customer satisfaction in testing",
+   "tier": "",
+   "url": "https://edp.com/en/europe/spain/projects/innovation/sentimer-chatbot",
+   "raw_sector": "",
+   "date": "2018-08",
+   "fresh": "stale"
+  },
+  {
+   "company": "Energias de Portugal",
+   "use": "WhatsApp virtual assistant for retail customer service (EDP Comercial Portugal / EDP Brazil): automated conversational channel for consulting payment data, invoices, e-billing and paying bills (incl. Pix payments in Brazil).",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.edp.pt/particulares/apoio-cliente/whatsapp/",
+   "raw_sector": "",
+   "date": "2020-06",
+   "fresh": "stale"
   }
  ]
 }

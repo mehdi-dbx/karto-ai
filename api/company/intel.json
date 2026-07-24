@@ -3,40 +3,68 @@
  "name": "Intel",
  "cc": "US",
  "vertical": "Technology",
- "deployments": 1,
- "confirmed": 1,
- "with_value_number": 0,
- "proof_rate": 0.0,
+ "deployments": 10,
+ "confirmed": 8,
+ "with_value_number": 1,
+ "proof_rate": 0.1,
  "mktcap": 509640000000.0,
  "revenue": 53760000000.0,
  "employees": 85100.0,
  "silent": false,
- "per_bn_revenue": 0.02,
- "per_10k_emp": 0.12,
+ "per_bn_revenue": 0.19,
+ "per_10k_emp": 1.18,
  "benchmarks": {
   "global_vertical": {
-   "deployments": 0,
-   "confirmed": 6,
-   "proof_rate": 0,
+   "deployments": 89,
+   "confirmed": 89,
+   "proof_rate": 59,
    "n": 156
   },
   "country_vertical": {
-   "deployments": 0,
-   "confirmed": 4,
-   "proof_rate": 0,
+   "deployments": 85,
+   "confirmed": 84,
+   "proof_rate": 68,
    "n": 74
   }
  },
- "first_seen": null,
- "by_year": [],
- "undated_pct": 100,
- "momentum": "none",
- "maturity": "L3",
+ "first_seen": 2020,
+ "by_year": [
+  {
+   "year": 2020,
+   "n": 1
+  },
+  {
+   "year": 2022,
+   "n": 1
+  },
+  {
+   "year": 2023,
+   "n": 1
+  },
+  {
+   "year": 2024,
+   "n": 2
+  },
+  {
+   "year": 2025,
+   "n": 1
+  },
+  {
+   "year": 2026,
+   "n": 1
+  }
+ ],
+ "undated_pct": 30,
+ "momentum": "early_mover,cooling",
+ "maturity": "L4",
  "maturity_evidence": [
+  "multi_horizontal",
   "named_product:Gaudi",
+  "value_number",
+  "multi_year",
   "tier_p"
  ],
- "prospect_score": 54,
+ "prospect_score": 92,
  "stack": [],
  "vendor_named": false,
  "deployments_detail": [
@@ -50,6 +78,105 @@
    "raw_sector": "Information Technology",
    "date": "missing",
    "fresh": "undated"
+  },
+  {
+   "company": "Intel",
+   "use": "Internal enterprise generative-AI employee platform. Intel IT built a company-wide GenAI platform (evolving into the agentic 'One AI'/1AI platform that consolidates siloed chatbots into a unified agentic system) to boost employee productivity across the workforce. [Intel IT (open-source tooling; 'One AI'/1AI agentic platform)]",
+   "existence": "confirmed",
+   "value": "~75% of Intel employees expected to eventually use the GenAI platform",
+   "tier": "",
+   "url": "https://www.intel.com/content/www/us/en/it-management/intel-it-best-practices/democratizing-use-development-gen-ai-paper.html",
+   "raw_sector": "",
+   "date": "2024",
+   "fresh": "aging"
+  },
+  {
+   "company": "Intel",
+   "use": "Generative AI for chip design/verification — Intel testing GenAI tools that read written chip specifications to automatically create the tests that verify a design.",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.cnet.com/tech/computing/ai-helps-chipmakers-design-the-very-processors-that-speed-up-ai/",
+   "raw_sector": "",
+   "date": "2023-12",
+   "fresh": "stale"
+  },
+  {
+   "company": "Intel",
+   "use": "'Sales AI' platform — an internal AI system that mines millions of public business web pages per day plus Intel's own sales data for hundreds of thousands of accounts to build actionable segmentation and scale sales account coverage. [Intel IT Advanced Analytics]",
+   "existence": "confirmed",
+   "value": "mines millions of web pages/day across hundreds of thousands of accounts",
+   "tier": "",
+   "url": "https://www.intel.com/content/www/us/en/it-management/intel-it-best-practices/improving-sales-account-coverage-with-ai-paper.html",
+   "raw_sector": "",
+   "date": "2020",
+   "fresh": "stale"
+  },
+  {
+   "company": "Intel",
+   "use": "Outsourcing marketing functions to Accenture leveraging Accenture's AI for information processing, task automation, and personalized/AI-driven marketing content. [Accenture (AI marketing services)]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.tomshardware.com/pc-components/cpus/intel-to-outsource-marketing-to-accenture-and-ai-resulting-in-more-layoffs",
+   "raw_sector": "",
+   "date": "2025-06",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Intel",
+   "use": "Inline defect detection and automated defect classification in semiconductor fabs using computer vision and deep learning on wafer/probe-card images to separate real yield-killing defects from nuisance signals. [Intel (internal ML/DL + computer vision)]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://community.intel.com/t5/Blogs/Tech-Innovation/Artificial-Intelligence-AI/AI-in-Semiconductor-Manufacturing-Solving-the-n-i-n-Problem/post/1355654",
+   "raw_sector": "",
+   "date": "2022-02",
+   "fresh": "stale"
+  },
+  {
+   "company": "Intel",
+   "use": "AI-driven manufacturing yield analysis — a dedicated ML/deep-learning/image-processing workflow for automated pattern recognition to accelerate yield analysis and root-cause of production issues in the fabs. [Intel IT (internal ML/DL)]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.intel.com/content/www/us/en/it-management/intel-it-best-practices/transforming-manufacturing-yield-analysis.html",
+   "raw_sector": "",
+   "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "Intel",
+   "use": "Mobileye (Intel-owned) advanced driver-assistance and autonomous-driving systems built on a compound AI system combining machine vision, sensing, and driving-policy models deployed in production vehicles. [Mobileye (Intel)]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.mobileye.com/technology/physical-ai/",
+   "raw_sector": "",
+   "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "Intel",
+   "use": "'Ask Intel' AI virtual assistant for customer support and warranty/service handling — guides users through diagnostics, opens/updates service tickets, checks warranty coverage, and escalates complex cases, replacing scaled-back phone support. [Microsoft Copilot Studio]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.tomshardware.com/tech-industry/intel-shifts-customer-support-to-microsoft-copilot-studio",
+   "raw_sector": "",
+   "date": "2026-02",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Intel",
+   "use": "Intel Threat Detection Technology (TDT) — hardware/CPU-level AI-based security that analyzes runtime CPU telemetry with ML to detect ransomware, cryptojacking, and evasive malware, integrated into partner endpoint security products (Trend Micro, ESET, Xcitium). [Intel TDT (with Xcitium, Trend Micro, ESET)]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.intel.com/content/www/us/en/content-details/816942/ai-in-cybersecurity-with-xcitium-and-intel-threat-detection-technology.html",
+   "raw_sector": "",
+   "date": "2024-02",
+   "fresh": "aging"
   }
  ]
 }

@@ -3,40 +3,55 @@
  "name": "Ciena",
  "cc": "US",
  "vertical": "Technology",
- "deployments": 1,
- "confirmed": 1,
- "with_value_number": 0,
- "proof_rate": 0.0,
+ "deployments": 8,
+ "confirmed": 6,
+ "with_value_number": 2,
+ "proof_rate": 0.25,
  "mktcap": 57850000000.0,
  "revenue": 5570000000.0,
  "employees": 9080.0,
  "silent": false,
- "per_bn_revenue": 0.18,
- "per_10k_emp": 1.1,
+ "per_bn_revenue": 1.44,
+ "per_10k_emp": 8.81,
  "benchmarks": {
   "global_vertical": {
-   "deployments": 0,
-   "confirmed": 6,
-   "proof_rate": 0,
+   "deployments": 83,
+   "confirmed": 84,
+   "proof_rate": 64,
    "n": 156
   },
   "country_vertical": {
-   "deployments": 0,
-   "confirmed": 4,
-   "proof_rate": 0,
+   "deployments": 73,
+   "confirmed": 75,
+   "proof_rate": 78,
    "n": 74
   }
  },
- "first_seen": null,
- "by_year": [],
- "undated_pct": 100,
- "momentum": "none",
- "maturity": "L3",
+ "first_seen": 2017,
+ "by_year": [
+  {
+   "year": 2017,
+   "n": 1
+  },
+  {
+   "year": 2025,
+   "n": 2
+  },
+  {
+   "year": 2026,
+   "n": 3
+  }
+ ],
+ "undated_pct": 25,
+ "momentum": "early_mover,rising",
+ "maturity": "L4",
  "maturity_evidence": [
   "named_product:WaveLogic",
+  "value_number",
+  "multi_year",
   "tier_p"
  ],
- "prospect_score": 46,
+ "prospect_score": 66,
  "stack": [
   "Cohere"
  ],
@@ -52,6 +67,83 @@
    "raw_sector": "Information Technology",
    "date": "missing",
    "fresh": "undated"
+  },
+  {
+   "company": "Ciena",
+   "use": "Blue Planet AI Studio agentic-AI agents automate 5G network-slicing service design and fulfillment (intent-based design, catalog creation, standards-compliant payloads) integrated into Telefonica Deutschland's Multi-Domain Service Orchestration (MDSO). Completed proof of concept announced June 23, 2026. [Ciena Blue Planet AI Studio]",
+   "existence": "claimed",
+   "value": "Tasks that previously took weeks of specialist effort completed in minutes",
+   "tier": "",
+   "url": "https://www.computerweekly.com/news/366644946/Blue-Planet-Telefonica-unveil-AI-powered-5G-slicing-design-proof-of-concept",
+   "raw_sector": "",
+   "date": "2026-06",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Ciena",
+   "use": "Lumen Technologies deployed Blue Planet AI Studio and AI agents to consolidate 15+ legacy inventory systems onto a unified data model / digital twin and to power the NetPal workflow tool that automates equipment decommissioning and network operations across previously siloed systems. [Ciena Blue Planet AI Studio]",
+   "existence": "confirmed",
+   "value": "Planning team output more than 8x higher; outage mean-time-to-resolution cut from several hours to 15 minutes",
+   "tier": "",
+   "url": "https://www.networkworld.com/article/4151954/how-lumen-is-dismantling-decades-of-network-complexity.html",
+   "raw_sector": "",
+   "date": "2026-02",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Ciena",
+   "use": "Swisscom replaced legacy service-assurance systems with Blue Planet Unified Assurance and Analytics (UAA), which provides AI-enabled automated root-cause analysis correlating performance, faults and events to applications, services and customers across access, transport, mobile backhaul and B2B services (following an earlier UAA deployment for its data-center networks). [Ciena Blue Planet Unified Assurance and Analytics (UAA)]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.finanznachrichten.de/nachrichten-2025-05/65330129-ciena-corporation-swisscom-replaces-legacy-assurance-systems-with-blue-planet-004.htm",
+   "raw_sector": "",
+   "date": "2025-05",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Ciena",
+   "use": "Blue Planet Configuration and Change Management (CCM) uses AI Studio AI agents to detect configuration drift, monitor compliance against baselines, compare network states and automate remediation to bring trust to autonomous network operations for telcos. [Ciena Blue Planet AI Studio]",
+   "existence": "claimed",
+   "value": "Targets up to 30% operational savings via OSS modernization (industry target)",
+   "tier": "",
+   "url": "https://www.rcrwireless.com/20260721/bssoss/blue-planet-ai-agents-oss-drift-telco-trust",
+   "raw_sector": "",
+   "date": "2026-06",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Ciena",
+   "use": "WaveLogic Ai fully programmable coherent optical modem with real-time instrumentation/telemetry that monitors, controls and adapts capacity in real time as a foundational enabling technology for self-driving/adaptive networks. [Ciena WaveLogic Ai]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://itwire.com/business-it-news/networking/ciena-unveils-wavelogic-ai-next-generation-network-platform",
+   "raw_sector": "",
+   "date": "2017",
+   "fresh": "stale"
+  },
+  {
+   "company": "Ciena",
+   "use": "Blue Planet software platform includes a service using machine-learning algorithms that analyze network anomalies to predict issues and recommend actions for operators to prevent outages and disruptions. [Ciena Blue Planet Analytics]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://en.wikipedia.org/wiki/Ciena",
+   "raw_sector": "",
+   "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "Ciena",
+   "use": "Telefonica Germany deployed a Blue Planet cloud-native network automation platform (inventory, orchestration and 5G network-slicing applications) to build one of Europe's first public-cloud-based platforms for network automation and 5G monetization, driving cloudification and autonomous network transformation. [Ciena Blue Planet]",
+   "existence": "confirmed",
+   "value": "First deliveries with measurable positive impact on processes within months; faster feature implementation",
+   "tier": "",
+   "url": "https://www.telecomtv.com/content/vodafone/what-s-up-with-ciena-s-blue-planet-vodafone-52961/",
+   "raw_sector": "",
+   "date": "2025",
+   "fresh": "fresh"
   }
  ]
 }

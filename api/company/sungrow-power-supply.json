@@ -3,46 +3,60 @@
  "name": "Sungrow Power Supply",
  "cc": "CN",
  "vertical": "Energy & Utilities",
- "deployments": 1,
- "confirmed": 1,
- "with_value_number": 1,
- "proof_rate": 1.0,
+ "deployments": 9,
+ "confirmed": 7,
+ "with_value_number": 4,
+ "proof_rate": 0.444,
  "mktcap": 33583333333.0,
  "revenue": 11904166667.0,
  "employees": 19006.0,
  "silent": false,
- "per_bn_revenue": 0.08,
- "per_10k_emp": 0.53,
+ "per_bn_revenue": 0.76,
+ "per_10k_emp": 4.74,
  "benchmarks": {
   "global_vertical": {
-   "deployments": 0,
-   "confirmed": 20,
-   "proof_rate": 72,
+   "deployments": 92,
+   "confirmed": 92,
+   "proof_rate": 67,
    "n": 210
   },
   "country_vertical": {
-   "deployments": 0,
-   "confirmed": 0,
+   "deployments": 91,
+   "confirmed": 91,
    "proof_rate": 45,
    "n": 12
   }
  },
- "first_seen": 2024,
+ "first_seen": 2023,
  "by_year": [
   {
+   "year": 2023,
+   "n": 2
+  },
+  {
    "year": 2024,
-   "n": 1
+   "n": 2
+  },
+  {
+   "year": 2025,
+   "n": 2
+  },
+  {
+   "year": 2026,
+   "n": 2
   }
  ],
- "undated_pct": 0,
- "momentum": "early_mover,gone_quiet",
- "maturity": "L3",
+ "undated_pct": 11,
+ "momentum": "early_mover,flat",
+ "maturity": "L4",
  "maturity_evidence": [
+  "multi_horizontal",
   "named_product:PowerTitan",
   "value_number",
+  "multi_year",
   "tier_p"
  ],
- "prospect_score": 14,
+ "prospect_score": 72,
  "stack": [],
  "vendor_named": false,
  "deployments_detail": [
@@ -56,6 +70,94 @@
    "raw_sector": "Industrials",
    "date": "2024",
    "fresh": "aging"
+  },
+  {
+   "company": "Sungrow Power Supply",
+   "use": "iSolarCloud / iHomeManager AI-powered Dynamic Tariff energy management: self-developed deep-learning algorithms predict solar generation and household demand 24 hours ahead and autonomously execute the most cost-effective consumption and energy-trading strategies against Nord Pool and other European power exchanges. [Sungrow (self-developed deep-learning)]",
+   "existence": "confirmed",
+   "value": "24-hour ahead forecasting; response in seconds",
+   "tier": "",
+   "url": "https://en.sungrowpower.com/newsDetail/6349/sungrow-unveils-dynamic-tariff-feature-on-isolarcloud-empowering-european-homes-to-reduce-energy-bills",
+   "raw_sector": "",
+   "date": "2025-04",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Sungrow Power Supply",
+   "use": "iSolarCloud AI-powered fault analysis and O&M diagnostics: applies diagnosis algorithms to automatically locate faulty modules/abnormalities in advance, generate diagnosis reports and O&M suggestions, and issue predictive intelligent fault warnings across PV and ESS plants. [Sungrow (iSolarCloud)]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.sungrowpower.com/us/en/newsdetail/sungrow-launches-new-version-of-its-management-and-monitoring-system-isolarcloud",
+   "raw_sector": "",
+   "date": "2023-08",
+   "fresh": "stale"
+  },
+  {
+   "company": "Sungrow Power Supply",
+   "use": "EMS AI-enabled energy forecasting and optimization: diversified AI forecasting models (power, load, scheduling, production planning) trained on iSolarCloud data to produce optimal storage dispatch/scheduling that maximizes energy-storage revenue for C&I and utility customers. [Sungrow (self-developed EMS)]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.sungrowpower.com/us/en/efficient-energy-management-with-sungrow-s-ems-system",
+   "raw_sector": "",
+   "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "Sungrow Power Supply",
+   "use": "Pulson AI-enabled smart PV module: embedded control-box chips collect per-module voltage/current/temperature data and AI-based analysis performs module-level fault detection and localization, plus self-diagnosis (5S intelligent architecture). To be deployed first in Sungrow Renewables' own PV plants. [Sungrow Renewables (self-developed)]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.pv-magazine.com/2026/06/02/sungrow-launches-solar-module-integrating-ai-power-electronics/",
+   "raw_sector": "",
+   "date": "2026-06",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Sungrow Power Supply",
+   "use": "Bubbly AI voice/energy assistant in the iSolarCloud app: conversational assistant (via Siri voice commands) that answers user queries about real-time generation data, weather alerts, and system status, acting as an O&M co-pilot for solar plant owners. [Sungrow (iSolarCloud)]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.sungrowpower.com/au/en/leadstool",
+   "raw_sector": "",
+   "date": "2026-05",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Sungrow Power Supply",
+   "use": "iSolarCloud AI online customer service: intelligent automated customer-support agent for technical support and solutions, announced as an in-app feature ('AI online customer service is coming soon') in the iSolarCloud app user manual. [Sungrow (iSolarCloud)]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://support.sungrowpower.com/productDetail?directoryId=1633673577546375170",
+   "raw_sector": "",
+   "date": "2024",
+   "fresh": "aging"
+  },
+  {
+   "company": "Sungrow Power Supply",
+   "use": "iSolarBPS AI-driven battery safety management platform: performs cell-level pre-diagnosis with 50+ health indicators, 5D diagnostics and 3-tier early warnings (7-day voltage/aging alerts) to prevent energy storage system failures and thermal events. [Sungrow (self-developed)]",
+   "existence": "confirmed",
+   "value": "50+ health indicators; 7-day voltage/aging warning window",
+   "tier": "",
+   "url": "https://www.prnewswire.com/news-releases/the-ai-future-of-energy-storage-system-safety-sungrow-presents-isolarbps-302461575.html",
+   "raw_sector": "",
+   "date": "2025-05",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Sungrow Power Supply",
+   "use": "EMS3000 energy management system AI battery cell diagnosis function: provides 24-hour early warning of battery cell thermal runaway for commercial, industrial and utility energy storage systems. [Sungrow (self-developed EMS3000)]",
+   "existence": "confirmed",
+   "value": "24-hour thermal runaway early warning",
+   "tier": "",
+   "url": "https://www.prnewswire.com/apac/news-releases/sungrow-unveils-ems3000-energy-management-system-solution-during-all-energy-australia-2023-301970104.html",
+   "raw_sector": "",
+   "date": "2023-10",
+   "fresh": "stale"
   }
  ]
 }

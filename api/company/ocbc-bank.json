@@ -3,27 +3,27 @@
  "name": "OCBC Bank",
  "cc": "SG",
  "vertical": "Financial Services",
- "deployments": 3,
- "confirmed": 2,
- "with_value_number": 2,
- "proof_rate": 0.667,
+ "deployments": 16,
+ "confirmed": 15,
+ "with_value_number": 12,
+ "proof_rate": 0.75,
  "mktcap": 96835820896.0,
  "revenue": 10410447761.0,
  "employees": 33311.0,
  "silent": false,
- "per_bn_revenue": 0.29,
- "per_10k_emp": 0.9,
+ "per_bn_revenue": 1.54,
+ "per_10k_emp": 4.8,
  "benchmarks": {
   "global_vertical": {
-   "deployments": 94,
-   "confirmed": 80,
-   "proof_rate": 70,
+   "deployments": 100,
+   "confirmed": 100,
+   "proof_rate": 74,
    "n": 377
   },
   "country_vertical": {
-   "deployments": 75,
-   "confirmed": 50,
-   "proof_rate": 75,
+   "deployments": 100,
+   "confirmed": 100,
+   "proof_rate": 100,
    "n": 5
   }
  },
@@ -31,19 +31,27 @@
  "by_year": [
   {
    "year": 2017,
-   "n": 1
+   "n": 3
   },
   {
    "year": 2023,
-   "n": 1
+   "n": 3
+  },
+  {
+   "year": 2024,
+   "n": 4
   },
   {
    "year": 2025,
-   "n": 1
+   "n": 4
+  },
+  {
+   "year": 2026,
+   "n": 2
   }
  ],
  "undated_pct": 0,
- "momentum": "early_mover,flat",
+ "momentum": "early_mover,cooling",
  "maturity": "L4",
  "maturity_evidence": [
   "multi_horizontal",
@@ -52,7 +60,7 @@
   "multi_year",
   "tier_p"
  ],
- "prospect_score": 25,
+ "prospect_score": 70,
  "stack": [
   "Microsoft Azure",
   "OpenAI"
@@ -91,6 +99,149 @@
    "raw_sector": "Banks",
    "date": "2017-11",
    "fresh": "stale"
+  },
+  {
+   "company": "OCBC Bank",
+   "use": "A.I. Oscar — AI-powered stock-picking engine that predicts price movements and delivers individualised stock/investment recommendations to retail customers in the mobile app.",
+   "existence": "confirmed",
+   "value": "95% increase in trading accounts opened within three months of launch",
+   "tier": "",
+   "url": "https://www.ocbc.com/group/investors/annual-reports/2024-annual-report/creating-value-through-ai.page",
+   "raw_sector": "",
+   "date": "2024",
+   "fresh": "aging"
+  },
+  {
+   "company": "OCBC Bank",
+   "use": "OCBC WoW — AI-native mobile banking app with two conversational AI avatars (Wendy and Wayne) providing 24/7 hyper-personalised wealth-management advice and real-time portfolio risk analysis via voice or text.",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.ocbc.com/group/media/release/2026/ocbc-unveils-avatar-banking",
+   "raw_sector": "",
+   "date": "2026-07",
+   "fresh": "fresh"
+  },
+  {
+   "company": "OCBC Bank",
+   "use": "OCBC GPT — enterprise generative AI assistant rolled out to all ~30,000 employees globally for writing, research, ideation, document summarisation and call transcription (first Singapore bank to do so, after a six-month pilot). [Microsoft Azure OpenAI (ChatGPT / GPT LLMs)]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.ocbc.com/group/media/release/2023/ocbc-is-first-singapore-bank-to-roll-out-generative-ai-chatbot-to-all-employees-globally",
+   "raw_sector": "",
+   "date": "2023-11",
+   "fresh": "stale"
+  },
+  {
+   "company": "OCBC Bank",
+   "use": "OCBC Buddy — internal GenAI knowledge bot that trawls hundreds of thousands of internal documents/policies to answer employee questions. [Microsoft Azure OpenAI]",
+   "existence": "confirmed",
+   "value": "Up to 50% employee productivity boost",
+   "tier": "",
+   "url": "https://www.ocbc.com/group/investors/annual-reports/2024-annual-report/creating-value-through-ai.page",
+   "raw_sector": "",
+   "date": "2024",
+   "fresh": "aging"
+  },
+  {
+   "company": "OCBC Bank",
+   "use": "Generative-AI skills-training tool ('Customer AI') that role-plays realistic adaptive client scenarios to coach ~900 wealth advisors, analysing speech to flag delivery and compliance gaps.",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.ocbc.com/group/media/release/2026/ocbc-launches-generative-ai-powered-skills-training-for-all-wealth-advisors",
+   "raw_sector": "",
+   "date": "2026-04",
+   "fresh": "fresh"
+  },
+  {
+   "company": "OCBC Bank",
+   "use": "Emma — AI-powered conversational chatbot on the OCBC website answering home and renovation loan queries with a built-in TDSR calculator, handling customer enquiries and facilitating loan applications.",
+   "existence": "confirmed",
+   "value": "Handled 34,000 enquiries and facilitated ~S$28m of loan approvals in first months",
+   "tier": "",
+   "url": "https://www.ocbc.com/group/media/release/2017/home-and-renovation-loan-specialist-ai-emma.page",
+   "raw_sector": "",
+   "date": "2017-04",
+   "fresh": "stale"
+  },
+  {
+   "company": "OCBC Bank",
+   "use": "AI tools embedded in the customer-service contact centre that detect issues in real time and channel customer feedback, cutting manual work for service officers.",
+   "existence": "confirmed",
+   "value": "Saves around 20 working hours per month per officer",
+   "tier": "",
+   "url": "https://www.straitstimes.com/singapore/ai-simplifies-ocbc-employees-customer-service-tasks-increases-productivity",
+   "raw_sector": "",
+   "date": "2024",
+   "fresh": "aging"
+  },
+  {
+   "company": "OCBC Bank",
+   "use": "OCBC Wingman — coding assistant used by developers to auto-generate, debug and improve code; evolving into a next-generation agentic code-assistance tool for engineering teams. [Microsoft Azure OpenAI]",
+   "existence": "confirmed",
+   "value": "Up to 30% engineering productivity gains",
+   "tier": "",
+   "url": "https://www.ocbc.com/group/media/release/2023/ocbc-is-first-singapore-bank-to-roll-out-generative-ai-chatbot-to-all-employees-globally",
+   "raw_sector": "",
+   "date": "2023",
+   "fresh": "stale"
+  },
+  {
+   "company": "OCBC Bank",
+   "use": "AI/ML transaction-monitoring and surveillance for anti-money-laundering and financial crime — detects previously unknown suspicious patterns and blocks suspicious transactions (first Singapore bank to apply AI/ML to financial crime, originally with ThetaRay). [ThetaRay (later expanded with in-house AI)]",
+   "existence": "confirmed",
+   "value": "30% increase in suspicious transactions detected (2024 annual report)",
+   "tier": "",
+   "url": "https://www.ocbc.com/group/media/release/2017/ocbc-bank-ai-and-machine-learning-to-combat-financial-crime.page",
+   "raw_sector": "",
+   "date": "2017",
+   "fresh": "stale"
+  },
+  {
+   "company": "OCBC Bank",
+   "use": "Source of Wealth Assistant — agentic AI automating Know-Your-Customer / source-of-wealth verification tasks in compliance workflows.",
+   "existence": "confirmed",
+   "value": "Tasks that once took up to 10 days can now be completed in about an hour",
+   "tier": "",
+   "url": "https://www.ocbc.com/group/investors/annual-reports/2025-annual-report/driving-customer-centricity-through-ai-digital-and-data.page",
+   "raw_sector": "",
+   "date": "2025",
+   "fresh": "fresh"
+  },
+  {
+   "company": "OCBC Bank",
+   "use": "HOLMES AI — assistant for Bank of Singapore relationship managers providing tailored investment insights and multi-asset strategies to support client engagement.",
+   "existence": "confirmed",
+   "value": "Up to 20% RM productivity boost",
+   "tier": "",
+   "url": "https://www.ocbc.com/group/investors/annual-reports/2024-annual-report/creating-value-through-ai.page",
+   "raw_sector": "",
+   "date": "2024",
+   "fresh": "aging"
+  },
+  {
+   "company": "OCBC Bank",
+   "use": "AI-powered personalisation engine delivering one tailored financial offer per customer daily via the mobile banking app (recognised as Best AI for Customer Personalisation initiative in APAC 2025). [Cloudera (data platform)]",
+   "existence": "confirmed",
+   "value": "Over 30% of customers engaged with personalised offers; 40% of sales driven by personalised engagement",
+   "tier": "",
+   "url": "https://www.theasianbanker.com/updates-and-articles/best-ai-for-customer-personalisation-technology-initiative-goes-to-ocbc-2025",
+   "raw_sector": "",
+   "date": "2025-02",
+   "fresh": "fresh"
+  },
+  {
+   "company": "OCBC Bank",
+   "use": "AI Copilot for corporate relationship managers that generates ESG, financial and industry analysis to prepare for client engagements.",
+   "existence": "confirmed",
+   "value": "Reduces preparation time by up to 30%",
+   "tier": "",
+   "url": "https://www.ocbc.com/group/investors/annual-reports/2025-annual-report/driving-customer-centricity-through-ai-digital-and-data.page",
+   "raw_sector": "",
+   "date": "2025",
+   "fresh": "fresh"
   }
  ]
 }

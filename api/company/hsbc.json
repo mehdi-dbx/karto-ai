@@ -3,40 +3,55 @@
  "name": "HSBC",
  "cc": "UK",
  "vertical": "Financial Services",
- "deployments": 1,
- "confirmed": 1,
- "with_value_number": 1,
- "proof_rate": 1.0,
+ "deployments": 11,
+ "confirmed": 8,
+ "with_value_number": 5,
+ "proof_rate": 0.455,
  "mktcap": 335597500000.0,
  "revenue": 61341000000.0,
  "employees": 208844.0,
  "silent": false,
- "per_bn_revenue": 0.02,
- "per_10k_emp": 0.05,
+ "per_bn_revenue": 0.18,
+ "per_10k_emp": 0.53,
  "benchmarks": {
   "global_vertical": {
-   "deployments": 0,
-   "confirmed": 18,
-   "proof_rate": 72,
+   "deployments": 94,
+   "confirmed": 93,
+   "proof_rate": 61,
    "n": 377
   },
   "country_vertical": {
-   "deployments": 0,
-   "confirmed": 36,
-   "proof_rate": 82,
+   "deployments": 100,
+   "confirmed": 95,
+   "proof_rate": 77,
    "n": 23
   }
  },
- "first_seen": null,
- "by_year": [],
- "undated_pct": 100,
- "momentum": "none",
- "maturity": "L3",
- "maturity_evidence": [
-  "named_product:Google",
-  "value_number"
+ "first_seen": 2023,
+ "by_year": [
+  {
+   "year": 2023,
+   "n": 1
+  },
+  {
+   "year": 2025,
+   "n": 6
+  },
+  {
+   "year": 2026,
+   "n": 2
+  }
  ],
- "prospect_score": 6,
+ "undated_pct": 18,
+ "momentum": "early_mover,rising",
+ "maturity": "L4",
+ "maturity_evidence": [
+  "multi_horizontal",
+  "named_product:Google",
+  "value_number",
+  "multi_year"
+ ],
+ "prospect_score": 70,
  "stack": [
   "Google",
   "Google Cloud"
@@ -53,6 +68,116 @@
    "raw_sector": "Banks",
    "date": "missing",
    "fresh": "undated"
+  },
+  {
+   "company": "HSBC",
+   "use": "Anti-Money Laundering AI (Dynamic Risk Assessment): custom ML models trained on customer data to detect suspicious activity and financial crime networks without predefined rules, replacing legacy rules-based transaction monitoring. In production in UK and Hong Kong, expanding globally. [Google Cloud (Anti Money Laundering AI)]",
+   "existence": "confirmed",
+   "value": "2-4x more suspicious activity identified (2x commercial, 4x retail); 60% reduction in alert volume/false positives",
+   "tier": "",
+   "url": "https://cloud.google.com/blog/topics/financial-services/how-hsbc-fights-money-launderers-with-artificial-intelligence",
+   "raw_sector": "",
+   "date": "2023",
+   "fresh": "stale"
+  },
+  {
+   "company": "HSBC",
+   "use": "AI coding assistants for software developers to speed up and improve safety of releases across HSBC Technology engineering teams. [GitHub Copilot]",
+   "existence": "confirmed",
+   "value": "20,000+ developers using coding assistants; 15% efficiency in time spent coding",
+   "tier": "",
+   "url": "https://www.hsbc.com/who-we-are/hsbc-and-digital/hsbc-and-ai/transforming-hsbc-with-ai",
+   "raw_sector": "",
+   "date": "2025",
+   "fresh": "fresh"
+  },
+  {
+   "company": "HSBC",
+   "use": "Generative AI assistant supporting client servicing in Corporate & Institutional Banking, helping staff handle client interactions and reduce turnaround times.",
+   "existence": "confirmed",
+   "value": "Supports ~3 million client interactions annually; 88% of clients rating HSBC easy to deal with",
+   "tier": "",
+   "url": "https://www.hsbc.com/who-we-are/hsbc-and-digital/hsbc-and-ai/transforming-hsbc-with-ai",
+   "raw_sector": "",
+   "date": "2025",
+   "fresh": "fresh"
+  },
+  {
+   "company": "HSBC",
+   "use": "AI chat/conversation summarization in Wealth & Personal Banking UK contact centres, giving agents automatic summaries of prior interactions to improve service quality and cut waiting times.",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.hsbc.com/who-we-are/hsbc-and-digital/hsbc-and-ai/transforming-hsbc-with-ai",
+   "raw_sector": "",
+   "date": "2025",
+   "fresh": "fresh"
+  },
+  {
+   "company": "HSBC",
+   "use": "Group-wide LLM-based employee productivity platform for translation, document analysis and text assistance, available to colleagues across the organisation.",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.hsbc.com/who-we-are/hsbc-and-digital/hsbc-and-ai/transforming-hsbc-with-ai",
+   "raw_sector": "",
+   "date": "2025",
+   "fresh": "fresh"
+  },
+  {
+   "company": "HSBC",
+   "use": "Harvey AI legal platform piloted in HSBC's Global Legal function for contract analysis, due diligence and compliance review to increase efficiency and speed response times. [Harvey AI]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.hsbc.com/news-and-views/news/media-releases/2026/hsbc-announces-harvey-ai-for-their-legal-platform",
+   "raw_sector": "",
+   "date": "2026-01",
+   "fresh": "fresh"
+  },
+  {
+   "company": "HSBC",
+   "use": "Strategic partnership to deploy self-hosted Mistral AI foundation models on HSBC internal systems for employee productivity, marketing personalization, financial analysis, multilingual reasoning/translation, with planned use in credit/lending, onboarding and fraud/AML checks. [Mistral AI]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.hsbc.com/news-and-views/news/media-releases/2025/hsbc-and-mistral-ai-join-forces-to-accelerate-ai-adoption-across-global-bank",
+   "raw_sector": "",
+   "date": "2025-12",
+   "fresh": "fresh"
+  },
+  {
+   "company": "HSBC",
+   "use": "AI credit analysis tool that accelerates credit application processing by drawing on trusted internal and external data sources to speed up credit write-ups.",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.hsbc.com/who-we-are/hsbc-and-digital/hsbc-and-ai/transforming-hsbc-with-ai",
+   "raw_sector": "",
+   "date": "2025",
+   "fresh": "fresh"
+  },
+  {
+   "company": "HSBC",
+   "use": "HSBC AI Markets: client-facing digital trading platform using machine learning and NLP to deliver market insights, trading strategies and analytics conversationally via the Evolve platform. Live for clients (explicitly non-generative ML/NLP).",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.business.hsbc.com/en-gb/products/hsbc-ai-markets",
+   "raw_sector": "",
+   "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "HSBC",
+   "use": "Multi-year Google Cloud partnership to deploy Gemini models and the Gemini Enterprise agent platform for generative/agentic AI across wealth management advice, financial crime detection (agentic AI on ~1bn monthly transactions), and an internal decision assistant reducing meeting prep time. [Google Cloud (Gemini, Gemini Enterprise, DeepMind)]",
+   "existence": "claimed",
+   "value": "200+ new AI use cases targeted over two years; each highest-value initiative projected to return more than US$100m; financial crime intervention targeted twice as fast",
+   "tier": "",
+   "url": "https://www.hsbc.com/news-and-views/news/media-releases/2026/hsbc-and-google-cloud-announce-transformative-ai-banking-partnership",
+   "raw_sector": "",
+   "date": "2026-06",
+   "fresh": "fresh"
   }
  ]
 }

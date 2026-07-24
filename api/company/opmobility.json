@@ -3,27 +3,27 @@
  "name": "OPmobility",
  "cc": "FR",
  "vertical": "Manufacturing & Robotics",
- "deployments": 1,
- "confirmed": 1,
- "with_value_number": 0,
- "proof_rate": 0.0,
+ "deployments": 9,
+ "confirmed": 6,
+ "with_value_number": 2,
+ "proof_rate": 0.222,
  "mktcap": 2019600000.0,
  "revenue": 10897200000.0,
  "employees": 28258.0,
  "silent": false,
- "per_bn_revenue": 0.09,
- "per_10k_emp": 0.35,
+ "per_bn_revenue": 0.83,
+ "per_10k_emp": 3.18,
  "benchmarks": {
   "global_vertical": {
-   "deployments": 0,
-   "confirmed": 24,
-   "proof_rate": 0,
+   "deployments": 95,
+   "confirmed": 95,
+   "proof_rate": 68,
    "n": 147
   },
   "country_vertical": {
-   "deployments": 0,
-   "confirmed": 23,
-   "proof_rate": 0,
+   "deployments": 92,
+   "confirmed": 92,
+   "proof_rate": 85,
    "n": 14
   }
  },
@@ -32,15 +32,22 @@
   {
    "year": 2024,
    "n": 1
+  },
+  {
+   "year": 2025,
+   "n": 8
   }
  ],
  "undated_pct": 0,
- "momentum": "early_mover,gone_quiet",
- "maturity": "L3",
+ "momentum": "early_mover,rising",
+ "maturity": "L4",
  "maturity_evidence": [
-  "named_product:Neural"
+  "multi_horizontal",
+  "named_product:Neural",
+  "value_number",
+  "multi_year"
  ],
- "prospect_score": 54,
+ "prospect_score": 75,
  "stack": [],
  "vendor_named": false,
  "deployments_detail": [
@@ -54,6 +61,94 @@
    "raw_sector": "Automotive Parts",
    "date": "2024",
    "fresh": "aging"
+  },
+  {
+   "company": "OPmobility",
+   "use": "3D generative AI design/simulation platform (Neural Concept) used by engineering teams across multiple business units to simulate 3D acoustics, fluid dynamics and aerodynamics for parts like PHEV fuel tanks, cutting a simulation that took ~12 hours to seconds. [Neural Concept]",
+   "existence": "confirmed",
+   "value": "Simulation time reduced from ~12 hours to seconds",
+   "tier": "",
+   "url": "https://www.neuralconcept.com/post/neural-concept-and-opmobility-announce-partnership-and-demonstrate-new-ai-driven-designs-for-hybrid-hydrogen-and-complete-vehicles-bodies-at-ces-2025",
+   "raw_sector": "",
+   "date": "2025-01",
+   "fresh": "fresh"
+  },
+  {
+   "company": "OPmobility",
+   "use": "Custom AI-App built on Dessia's generative-engineering libraries to automate hydrogen storage architecture design, generating and evaluating feasible storage layouts (cost/space/capacity trade-offs) in minutes instead of days during RFQ/early development. [Dessia]",
+   "existence": "confirmed",
+   "value": "Concept generation reduced from days to minutes",
+   "tier": "",
+   "url": "https://www.dessia.io/success-stories/opmobility",
+   "raw_sector": "",
+   "date": "2025",
+   "fresh": "fresh"
+  },
+  {
+   "company": "OPmobility",
+   "use": "AI-based quality-control system using computer vision and custom AI models on production test benches, developed with startup Innodura TB to inspect parts and detect defects. [Innodura TB]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.opmobility.com/wp-content/uploads/2025/01/opmobility-presskit-at-the-ces-2025-embracing-the-future-of-mobility-thanks-to-artificial-iIntelligence-and-high-technology-20250107.pdf",
+   "raw_sector": "",
+   "date": "2025-01",
+   "fresh": "fresh"
+  },
+  {
+   "company": "OPmobility",
+   "use": "OPmobility Digital Twin software service (via OP'nSoft) that uses AI on large datasets to virtually simulate, monitor and predict the lifecycle of EV battery packs and hydrogen fuel-cell systems, improving sustainability and cost-effectiveness for OEMs. [OP'nSoft]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.opmobility.com/en/solutions/software/opmobility-digital-twin/",
+   "raw_sector": "",
+   "date": "2025-01",
+   "fresh": "fresh"
+  },
+  {
+   "company": "OPmobility",
+   "use": "Digital Front & Rear System / Smart Front System (part of the One4you offer): AI-powered perception combining cameras, microphone, mini-LED display and a zonal controller so the vehicle front can perceive the environment and communicate with pedestrians.",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.opmobility.com/en/opmobility-at-vivatech-2025/",
+   "raw_sector": "",
+   "date": "2025-06",
+   "fresh": "fresh"
+  },
+  {
+   "company": "OPmobility",
+   "use": "Partnership with startup AIRY Automotive on a lightweight EV battery casing produced with AI-driven continuous-composite-material 3D printing (additive mass manufacturing); won a Plug and Play Global Innovation Award 2025. [AIRY Automotive]",
+   "existence": "claimed",
+   "value": "Production targeted around 2030",
+   "tier": "",
+   "url": "https://www.opmobility.com/en/opmobility-and-the-startup-airy-automotive-win-a-plug-and-play-global-innovation-award-2025/",
+   "raw_sector": "",
+   "date": "2025-06",
+   "fresh": "fresh"
+  },
+  {
+   "company": "OPmobility",
+   "use": "Adoption of Siemens Teamcenter X cloud PLM (on AWS) with embedded AI across OPmobility's global R&D centers to automate routine engineering workflows, reduce repetitive tasks and provide data-driven insights. [Siemens Teamcenter X (AWS)]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://news.siemens.com/en-us/opmobility-teamcenter/",
+   "raw_sector": "",
+   "date": "2025-03",
+   "fresh": "fresh"
+  },
+  {
+   "company": "OPmobility",
+   "use": "AI upskilling program: hands-on AI bootcamp and exchange forum in Pune, India (with Neural Concept) to train OPmobility engineering managers and engineers on AI-driven design use cases and identify internal AI builders. [Neural Concept]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.neuralconcept.com/post/empowering-the-builders-of-tomorrows-engineering-in-india-with-opmobility",
+   "raw_sector": "",
+   "date": "2025-07",
+   "fresh": "fresh"
   }
  ]
 }

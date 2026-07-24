@@ -3,43 +3,55 @@
  "name": "Honda Motor Co., Ltd.",
  "cc": "JP",
  "vertical": "Automotive",
- "deployments": 2,
- "confirmed": 2,
- "with_value_number": 1,
- "proof_rate": 0.5,
+ "deployments": 15,
+ "confirmed": 11,
+ "with_value_number": 2,
+ "proof_rate": 0.133,
  "mktcap": 40466666667.0,
  "revenue": 145333333333.0,
  "employees": 195109.0,
  "silent": false,
- "per_bn_revenue": 0.01,
- "per_10k_emp": 0.1,
+ "per_bn_revenue": 0.1,
+ "per_10k_emp": 0.77,
  "benchmarks": {
   "global_vertical": {
-   "deployments": 67,
-   "confirmed": 79,
-   "proof_rate": 64,
+   "deployments": 100,
+   "confirmed": 97,
+   "proof_rate": 54,
    "n": 40
   },
   "country_vertical": {
-   "deployments": 33,
-   "confirmed": 56,
-   "proof_rate": 56,
+   "deployments": 100,
+   "confirmed": 100,
+   "proof_rate": 44,
    "n": 10
   }
  },
- "first_seen": 2025,
+ "first_seen": 2020,
  "by_year": [
   {
-   "year": 2025,
+   "year": 2020,
    "n": 1
   },
   {
-   "year": 2026,
+   "year": 2023,
    "n": 1
+  },
+  {
+   "year": 2024,
+   "n": 1
+  },
+  {
+   "year": 2025,
+   "n": 7
+  },
+  {
+   "year": 2026,
+   "n": 3
   }
  ],
- "undated_pct": 0,
- "momentum": "rising",
+ "undated_pct": 13,
+ "momentum": "early_mover,rising",
  "maturity": "L4",
  "maturity_evidence": [
   "multi_horizontal",
@@ -48,7 +60,7 @@
   "multi_year",
   "tier_p"
  ],
- "prospect_score": 40,
+ "prospect_score": 100,
  "stack": [],
  "vendor_named": false,
  "deployments_detail": [
@@ -72,6 +84,149 @@
    "url": "https://global.honda/",
    "raw_sector": "Automotive",
    "date": "2025-04",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Honda Motor Co., Ltd.",
+   "use": "Honda uses IBM watsonx generative AI to model its technical documentation as sentences, cutting documentation modeling time from three years to one year. [IBM watsonx]",
+   "existence": "confirmed",
+   "value": "modeling time reduced from three years to one year",
+   "tier": "",
+   "url": "https://www.ibm.com/case-studies/honda-watsonx",
+   "raw_sector": "",
+   "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "Honda Motor Co., Ltd.",
+   "use": "SoundHound/Houndify voice AI powers the 'Honda Personal Assistant', a conversational in-car assistant for navigation, media, local search and vehicle controls, shipping in production Honda e and select Jazz models in Europe and Japan. [SoundHound / Houndify]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.soundhound.com/resources/houndify-voice-ai-powers-the-in-car-assistant-in-hondas-newest-cars-in-europe-and-japan/",
+   "raw_sector": "",
+   "date": "2020-10",
+   "fresh": "stale"
+  },
+  {
+   "company": "Honda Motor Co., Ltd.",
+   "use": "Google Gemini AI assistant is being deployed to Honda and Acura vehicles with Google built-in (Civic, Accord, CR-V, Pilot, Passport, Prologue, Prelude; Acura ZDX/MDX/ADX), replacing Google Assistant for hands-free natural-language navigation, search and vehicle control. [Google Gemini]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.cars.com/articles/honda-acura-add-google-gemini-ai-to-cars-what-does-it-do-527152/",
+   "raw_sector": "",
+   "date": "2026",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Honda Motor Co., Ltd.",
+   "use": "Honda's Digital Proving Ground, a cloud vehicle-development platform on AWS, applies ML/analytics to vehicle and EV battery telemetry to visualize energy consumption and performance and schedule preventative maintenance, and is being used to build software-defined vehicles. [AWS]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://press.aboutamazon.com/aws/2025/1/aws-collaborates-with-honda-to-realize-hondas-next-generation-of-software-defined-vehicles-and-improve-ev-charging-experiences-with-generative-ai",
+   "raw_sector": "",
+   "date": "2025-01",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Honda Motor Co., Ltd.",
+   "use": "Honda is developing an EV charging experience using Amazon Bedrock generative AI to recommend the optimal charging station from a driver's behavior patterns, battery level, charging speed, fees and nearby amenities, for its 0 Series EVs. [Amazon Bedrock]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://press.aboutamazon.com/aws/2025/1/aws-collaborates-with-honda-to-realize-hondas-next-generation-of-software-defined-vehicles-and-improve-ev-charging-experiences-with-generative-ai",
+   "raw_sector": "",
+   "date": "2025-01",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Honda Motor Co., Ltd.",
+   "use": "Honda signed a multi-year joint-development partnership with Helm.ai (and made an additional investment) to co-develop and validate AI-powered ADAS and autonomous driving software for mass-production EV/HEV models launching around 2027. [Helm.ai]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://helm.ai/post/helm-ai-and-honda-motor-co-agree-to-multi-year-adas-joint-development-for-mass-production-consumer-vehicles",
+   "raw_sector": "",
+   "date": "2025-08",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Honda Motor Co., Ltd.",
+   "use": "Honda works with Monolith AI, applying deep-learning/self-learning models to CAD-based parts design and engineering to predict design performance and reduce physical testing. [Monolith AI]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.monolithai.com/blog/honda-ai-almost-gives-us-superpowers-to-build-cars",
+   "raw_sector": "",
+   "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "Honda Motor Co., Ltd.",
+   "use": "Honda R&D uses AI-driven materials exploration to search ternary and quaternary material combinations to accelerate next-generation EV battery development.",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.batterytechonline.com/ev-batteries/ai-transforms-honda-r-d-s-approach-to-ev-battery-development",
+   "raw_sector": "",
+   "date": "2026-04",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Honda Motor Co., Ltd.",
+   "use": "American Honda rolled out Microsoft 365 Copilot (formerly Bing Chat Enterprise) broadly to Office 365 employees for drafting, summarization and productivity, following a soft release and a phased ChatGPT Enterprise/Azure OpenAI pilot. [Microsoft Copilot / Azure OpenAI]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.ciodive.com/news/Honda-generative-AI-strategy-Copilot-implementation/701582/",
+   "raw_sector": "",
+   "date": "2023-11",
+   "fresh": "stale"
+  },
+  {
+   "company": "Honda Motor Co., Ltd.",
+   "use": "Honda's new GAC joint-venture EV plant in Guangzhou, China uses AI-driven welding and automation in production of the all-electric Ye P7, cutting costs and reducing human workforce needs.",
+   "existence": "confirmed",
+   "value": "~30% reduction in human workforce (reported)",
+   "tier": "",
+   "url": "https://www.facebook.com/fossbytes/posts/honda-is-integrating-ai-and-automation-into-its-chinese-ev-production-aiming-to-/1087389623429081/",
+   "raw_sector": "",
+   "date": "2025",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Honda Motor Co., Ltd.",
+   "use": "Honda established a 'Gen-AI Expert' certification program and internal enablement system, and reports LLM tools such as ChatGPT are used daily across business operations; it is also researching a multi-agent generative-AI system inspired by its Waigaya culture (accepted at an AI conference). [OpenAI ChatGPT / LLMs]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://global.honda/en/stories/171-2507-honda-generative-ai.html",
+   "raw_sector": "",
+   "date": "2025-07",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Honda Motor Co., Ltd.",
+   "use": "Honda and Amazon Ads launched the 'Dream Generator', an interactive generative-AI marketing experience that combines user inputs with AI-generated visuals to create personalized animated films for the 2024 Prologue EV launch. [Amazon Ads (generative AI)]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://advertising.amazon.com/library/case-studies/honda-dream-generator",
+   "raw_sector": "",
+   "date": "2024-03",
+   "fresh": "aging"
+  },
+  {
+   "company": "Honda Motor Co., Ltd.",
+   "use": "Honda is developing an in-vehicle safety solution using Amazon Kinesis Video Streams and machine learning to analyze car camera footage and detect abnormal movement outside the vehicle to alert drivers. [AWS (Amazon Kinesis Video Streams)]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://press.aboutamazon.com/aws/2025/1/aws-collaborates-with-honda-to-realize-hondas-next-generation-of-software-defined-vehicles-and-improve-ev-charging-experiences-with-generative-ai",
+   "raw_sector": "",
+   "date": "2025-01",
    "fresh": "fresh"
   }
  ]

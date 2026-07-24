@@ -3,40 +3,63 @@
  "name": "Lam Research",
  "cc": "US",
  "vertical": "Technology",
- "deployments": 1,
- "confirmed": 1,
- "with_value_number": 0,
- "proof_rate": 0.0,
+ "deployments": 10,
+ "confirmed": 8,
+ "with_value_number": 2,
+ "proof_rate": 0.2,
  "mktcap": 401150000000.0,
  "revenue": 21680000000.0,
  "employees": 17200.0,
  "silent": false,
- "per_bn_revenue": 0.05,
- "per_10k_emp": 0.58,
+ "per_bn_revenue": 0.46,
+ "per_10k_emp": 5.81,
  "benchmarks": {
   "global_vertical": {
-   "deployments": 0,
-   "confirmed": 6,
-   "proof_rate": 0,
+   "deployments": 89,
+   "confirmed": 89,
+   "proof_rate": 62,
    "n": 156
   },
   "country_vertical": {
-   "deployments": 0,
-   "confirmed": 4,
-   "proof_rate": 0,
+   "deployments": 85,
+   "confirmed": 84,
+   "proof_rate": 74,
    "n": 74
   }
  },
- "first_seen": null,
- "by_year": [],
- "undated_pct": 100,
- "momentum": "none",
- "maturity": "L3",
+ "first_seen": 2020,
+ "by_year": [
+  {
+   "year": 2020,
+   "n": 1
+  },
+  {
+   "year": 2023,
+   "n": 1
+  },
+  {
+   "year": 2024,
+   "n": 2
+  },
+  {
+   "year": 2025,
+   "n": 3
+  },
+  {
+   "year": 2026,
+   "n": 2
+  }
+ ],
+ "undated_pct": 10,
+ "momentum": "early_mover,rising",
+ "maturity": "L4",
  "maturity_evidence": [
   "named_product:Equipment Intelligence",
+  "value_number",
+  "multi_year",
   "tier_p"
  ],
- "prospect_score": 54,
+ "prospect_score": 88,
  "stack": [],
  "vendor_named": false,
  "deployments_detail": [
@@ -50,6 +73,105 @@
    "raw_sector": "Information Technology",
    "date": "missing",
    "fresh": "undated"
+  },
+  {
+   "company": "Lam Research",
+   "use": "Enterprise AI program: dedicated Enterprise AI team and a new AI Lab in Fremont scaling responsible, secure AI across the company for internal teams spanning product, engineering and operations (governance/ops and hands-on innovation roles being staffed).",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://careers.lamresearch.com/careers/job/1099552875686",
+   "raw_sector": "",
+   "date": "2026",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Lam Research",
+   "use": "Equipment Intelligence: on-tool/off-tool AI, sensors and automation delivering predictive maintenance (surfacing issues before tool downtime), autonomous operations (under-vacuum ring exchange, in-situ robot calibration via APS, Dextro cobots) and virtual chamber/fleet matching to accelerate fab ramps. [Lam Equipment Intelligence]",
+   "existence": "confirmed",
+   "value": "1.7x faster fleet installation; 2x faster process transfer/production ramp; 23% machine availability gain in a customer case; APS calibration cut from hours to 20 min (±100µm to ±50µm)",
+   "tier": "",
+   "url": "https://newsroom.lamresearch.com/what-is-equipment-intelligence-semi-101?blog=true",
+   "raw_sector": "",
+   "date": "2026-05",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Lam Research",
+   "use": "Fabtex Yield Optimizer: Semiverse Solutions software that combines virtual silicon twins, real fab metrology data and AI-driven optimization to accelerate yield ramp and cut process variability in high-volume manufacturing, minimizing wafer testing and scrap. [Lam Semiverse Solutions (Fabtex)]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://newsroom.lamresearch.com/fabtex-yield-optimizer-improves-processes-for-high-volume-manufacturing?blog=true",
+   "raw_sector": "",
+   "date": "2025-10",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Lam Research",
+   "use": "Sense.i self-aware etch platform: integrates Equipment Intelligence and machine-learning algorithms for self-adaptation, real-time data analysis, autonomous calibration and predictive maintenance on production etch tools. [Lam Sense.i platform]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://newsroom.lamresearch.com/2020-03-03-Lam-Research-Breaks-New-Ground-in-Etch-Technology-and-Productivity-for-Chipmaking-Processes",
+   "raw_sector": "",
+   "date": "2020-03",
+   "fresh": "stale"
+  },
+  {
+   "company": "Lam Research",
+   "use": "Akara conductor etch tool: leverages Equipment Intelligence solutions for automated maintenance and automated consumable replacement enabling lights-out fabrication, integrated with the Sense.i platform. [Lam Akara / Sense.i]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://investor.lamresearch.com/2025-02-19-Lam-Research-Unveils-Industrys-Most-Advanced-Conductor-Etch-Technology-to-Date",
+   "raw_sector": "",
+   "date": "2025-02",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Lam Research",
+   "use": "Equipment Intelligence Data Analyzer (EI-DA): proprietary big-data analytics tool that creates and deploys predictive control charts and classification models delivering fleet-level analytics across etch, deposition and spin-clean tools for predictive equipment health. [Lam EI-DA]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://newsroom.lamresearch.com/equipment-intelligence-sensors-award?blog=true",
+   "raw_sector": "",
+   "date": "2024-08",
+   "fresh": "aging"
+  },
+  {
+   "company": "Lam Research",
+   "use": "SEMulator3D virtual fabrication with machine-learning-based Process Window Optimization: models and optimizes advanced nano-fabrication process windows before physical fab, used across R&D and, via Semiverse, university training. [Lam/Coventor SEMulator3D]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://ieeexplore.ieee.org/document/10532076/",
+   "raw_sector": "",
+   "date": "2024",
+   "fresh": "aging"
+  },
+  {
+   "company": "Lam Research",
+   "use": "Human-machine collaboration for process recipe development: Bayesian optimization / Gaussian-process ML framework (published in Nature) that halves the cost of developing complex semiconductor process recipes when paired with expert engineers. [Bayesian/Gaussian-process ML]",
+   "existence": "confirmed",
+   "value": "process development cost cut by 50%",
+   "tier": "",
+   "url": "https://newsroom.lamresearch.com/2023-04-10-Lam-Research-AI-Study-Identifies-Game-Changing-Development-Approach-for-Speeding-Up,-Slashing-Cost-of-Chip-Innovation",
+   "raw_sector": "",
+   "date": "2023-04",
+   "fresh": "stale"
+  },
+  {
+   "company": "Lam Research",
+   "use": "Collaboration with NVIDIA to accelerate plasma-reactor simulation (critical for etch and deposition) using NVIDIA Apollo open AI physics models, targeting real-time simulation workflows. [NVIDIA Apollo AI physics models]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://blogs.nvidia.com/blog/apollo-open-models/",
+   "raw_sector": "",
+   "date": "2025-11",
+   "fresh": "fresh"
   }
  ]
 }

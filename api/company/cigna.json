@@ -3,45 +3,55 @@
  "name": "Cigna",
  "cc": "US",
  "vertical": "Healthcare & Life Sciences",
- "deployments": 1,
- "confirmed": 1,
- "with_value_number": 1,
- "proof_rate": 1.0,
+ "deployments": 6,
+ "confirmed": 5,
+ "with_value_number": 4,
+ "proof_rate": 0.667,
  "mktcap": 75890000000.0,
  "revenue": 277890000000.0,
  "employees": 67700.0,
  "silent": false,
- "per_bn_revenue": 0.0,
- "per_10k_emp": 0.15,
+ "per_bn_revenue": 0.02,
+ "per_10k_emp": 0.89,
  "benchmarks": {
   "global_vertical": {
-   "deployments": 0,
-   "confirmed": 14,
-   "proof_rate": 79,
+   "deployments": 89,
+   "confirmed": 90,
+   "proof_rate": 81,
    "n": 165
   },
   "country_vertical": {
-   "deployments": 0,
-   "confirmed": 7,
-   "proof_rate": 81,
+   "deployments": 76,
+   "confirmed": 78,
+   "proof_rate": 84,
    "n": 59
   }
  },
- "first_seen": 2026,
+ "first_seen": 2023,
  "by_year": [
   {
-   "year": 2026,
+   "year": 2023,
    "n": 1
+  },
+  {
+   "year": 2024,
+   "n": 1
+  },
+  {
+   "year": 2026,
+   "n": 3
   }
  ],
- "undated_pct": 0,
- "momentum": "late_entrant,rising",
- "maturity": "L3",
+ "undated_pct": 17,
+ "momentum": "early_mover,rising",
+ "maturity": "L4",
  "maturity_evidence": [
+  "multi_horizontal",
   "named_product:Pharmacy Forward",
-  "value_number"
+  "value_number",
+  "multi_year"
  ],
- "prospect_score": 14,
+ "prospect_score": 51,
  "stack": [],
  "vendor_named": false,
  "deployments_detail": [
@@ -55,6 +65,61 @@
    "raw_sector": "Health Care",
    "date": "2026",
    "fresh": "fresh"
+  },
+  {
+   "company": "Cigna",
+   "use": "PxDx (procedure-to-diagnosis) automated claims-review system: an algorithm matches submitted procedure codes against approved diagnoses and flags mismatches for bulk denial, letting medical directors sign off on large batches of claims without opening individual files. ProPublica documented Cigna doctors denying over 300,000 claims in two months at ~1.2 seconds per case.",
+   "existence": "confirmed",
+   "value": "300,000+ claims denied over two months in 2022; ~1.2 seconds per case",
+   "tier": "",
+   "url": "https://www.propublica.org/article/cigna-pxdx-medical-health-insurance-rejection-claims",
+   "raw_sector": "",
+   "date": "2023-03",
+   "fresh": "stale"
+  },
+  {
+   "company": "Cigna",
+   "use": "eviCore by Evernorth (Cigna-owned utilization-management subsidiary) uses a proprietary machine-learning model, internally called 'the dial,' that scores prior-authorization requests by likelihood of approval; requests below an adjustable threshold are routed to physicians for potential denial. Former staff described tuning the threshold to control denial rates. [eviCore by Evernorth (proprietary)]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.propublica.org/article/evicore-health-insurance-denials-cigna-unitedhealthcare-aetna-prior-authorizations",
+   "raw_sector": "",
+   "date": "2024-10",
+   "fresh": "aging"
+  },
+  {
+   "company": "Cigna",
+   "use": "Pharmacy Forward: Evernorth's AI-powered specialty-pharmacy initiative launching first through Accredo. AI generates clinical summaries and predictive analytics to flag non-adherence/adverse-event risk, makes prior-authorization requests more complete, identifies copay assistance, and optimizes fulfillment/routing to cut prescription turnaround time.",
+   "existence": "confirmed",
+   "value": "$100M investment through 2028; ~$400M projected value by end of 2028; ~40% less clinical documentation; prescription time cut in half",
+   "tier": "",
+   "url": "https://www.fiercehealthcare.com/payers/evernorth-unveils-new-ai-powered-specialty-pharmacy-program-pharmacy-forward",
+   "raw_sector": "",
+   "date": "2026-07",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Cigna",
+   "use": "AI-enabled personalized care management: Cigna Healthcare uses advanced predictive models and AI-enabled insights to identify members with emerging, complex or chronic needs (cancer, heart, kidney disease, high-risk pregnancy, behavioral health) earlier and to prioritize which cases its 1,250+ clinicians engage, expanding an existing deployed program to 20% more members.",
+   "existence": "confirmed",
+   "value": "$200M projected savings over 3 years; ~$2,000/yr per engaged member; 42% fewer avoidable inpatient stays; 95% satisfaction",
+   "tier": "",
+   "url": "https://www.fiercehealthcare.com/payers/cigna-expands-ai-powered-care-management-programs-members",
+   "raw_sector": "",
+   "date": "2026-07",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Cigna",
+   "use": "MDLIVE by Evernorth (Cigna's telehealth arm) deployed 'Sophie,' an AI/natural-language chatbot that guides patients through registration/intake for virtual visits, with planned expansion to broader clinical support functions.",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.mobihealthnews.com/news/mdlive-launches-sophie-chatbot-registration-and-eventually-more",
+   "raw_sector": "",
+   "date": "missing",
+   "fresh": "undated"
   }
  ]
 }

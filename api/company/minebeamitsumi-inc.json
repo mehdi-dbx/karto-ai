@@ -3,39 +3,63 @@
  "name": "MinebeaMitsumi, Inc.",
  "cc": "JP",
  "vertical": "Electric Machinery & Electronics",
- "deployments": 1,
- "confirmed": 0,
- "with_value_number": 0,
- "proof_rate": 0.0,
+ "deployments": 12,
+ "confirmed": 4,
+ "with_value_number": 2,
+ "proof_rate": 0.167,
  "mktcap": 10600000000.0,
  "revenue": 11066666667.0,
  "employees": 81383.0,
  "silent": false,
- "per_bn_revenue": 0.09,
- "per_10k_emp": 0.12,
+ "per_bn_revenue": 1.08,
+ "per_10k_emp": 1.47,
  "benchmarks": {
   "global_vertical": {
-   "deployments": 0,
-   "confirmed": 0,
-   "proof_rate": 0,
+   "deployments": 94,
+   "confirmed": 88,
+   "proof_rate": 47,
    "n": 35
   },
   "country_vertical": {
-   "deployments": 0,
-   "confirmed": 0,
-   "proof_rate": 0,
+   "deployments": 94,
+   "confirmed": 87,
+   "proof_rate": 42,
    "n": 32
   }
  },
- "first_seen": null,
- "by_year": [],
- "undated_pct": 100,
- "momentum": "none",
- "maturity": "L1",
- "maturity_evidence": [
-  "rows_no_confirmed"
+ "first_seen": 2022,
+ "by_year": [
+  {
+   "year": 2022,
+   "n": 2
+  },
+  {
+   "year": 2023,
+   "n": 1
+  },
+  {
+   "year": 2024,
+   "n": 6
+  },
+  {
+   "year": 2025,
+   "n": 1
+  },
+  {
+   "year": 2026,
+   "n": 1
+  }
  ],
- "prospect_score": 40,
+ "undated_pct": 8,
+ "momentum": "early_mover,cooling",
+ "maturity": "L4",
+ "maturity_evidence": [
+  "multi_horizontal",
+  "named_product:Takumi",
+  "value_number",
+  "multi_year"
+ ],
+ "prospect_score": 57,
  "stack": [
   "IBM"
  ],
@@ -51,6 +75,127 @@
    "raw_sector": "Electric Machinery",
    "date": "missing",
    "fresh": "undated"
+  },
+  {
+   "company": "MinebeaMitsumi, Inc.",
+   "use": "AI visual inspection ('Takumi AI') using proprietary image-recognition/deep-learning to automate appearance inspection of precision bearings and machined parts, replacing manual visual/tactile inspection [Minebea Software Solutions (in-house image-recognition AI)]",
+   "existence": "confirmed",
+   "value": "60% to 70% reduction in inspection time vs. human inspection",
+   "tier": "",
+   "url": "https://www.minebea-ss.com/solution/takumi_ai/",
+   "raw_sector": "",
+   "date": "2024",
+   "fresh": "aging"
+  },
+  {
+   "company": "MinebeaMitsumi, Inc.",
+   "use": "AI-based demand forecasting: automatic generation of demand forecasts to drive production/inventory decisions on the manufacturing floor",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.minebeamitsumi.com/corp/investors/disclosure/integrated_report/a2024/__icsFiles/afieldfile/2024/09/30/2024_04_12_dtl.pdf",
+   "raw_sector": "",
+   "date": "2025",
+   "fresh": "fresh"
+  },
+  {
+   "company": "MinebeaMitsumi, Inc.",
+   "use": "AI-based automated production planning (auto-drafting of production plans) integrated with warehouse/inventory management on the manufacturing floor",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.minebeamitsumi.com/corp/investors/disclosure/integrated_report/a2024/__icsFiles/afieldfile/2024/09/30/2024_04_12_dtl.pdf",
+   "raw_sector": "",
+   "date": "2024",
+   "fresh": "aging"
+  },
+  {
+   "company": "MinebeaMitsumi, Inc.",
+   "use": "AI equipment failure prediction / predictive maintenance ('故障予知') using machine learning on manufacturing machine sensor data to improve production-line efficiency",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.minebeamitsumi.com/corp/investors/disclosure/integrated_report/a2024/__icsFiles/afieldfile/2024/09/30/2024_04_12_dtl.pdf",
+   "raw_sector": "",
+   "date": "2024",
+   "fresh": "aging"
+  },
+  {
+   "company": "MinebeaMitsumi, Inc.",
+   "use": "MinebeaMitsumi Healthcare Platform / bed sensor system using AI modeling to judge a person's physical condition from non-contact load-sensor data for elderly-care monitoring",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.minebeamitsumi.com/corp/investors/disclosure/integrated_report/a2022/__icsFiles/afieldfile/2022/09/27/2022_05_10_dtl.pdf",
+   "raw_sector": "",
+   "date": "2022",
+   "fresh": "stale"
+  },
+  {
+   "company": "MinebeaMitsumi, Inc.",
+   "use": "Internal AI chatbot on the corporate digital platform for employee information retrieval / query handling, alongside AI-OCR and voice recognition to cut handwritten/manual data entry (IEB indirect-efficiency project)",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.minebeamitsumi.com/corp/investors/disclosure/integrated_report/a2024/__icsFiles/afieldfile/2024/09/30/2024_04_12_dtl.pdf",
+   "raw_sector": "",
+   "date": "2024",
+   "fresh": "aging"
+  },
+  {
+   "company": "MinebeaMitsumi, Inc.",
+   "use": "Enterprise generative AI for knowledge/back-office work: recruiting job-posting drafting, survey creation, ad copy, email templates, document summarization, idea generation and program code generation; also applied in information security",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.minebeamitsumi.com/corp/investors/disclosure/integrated_report/a2024/__icsFiles/afieldfile/2024/09/30/2024_04_12_dtl.pdf",
+   "raw_sector": "",
+   "date": "2024",
+   "fresh": "aging"
+  },
+  {
+   "company": "MinebeaMitsumi, Inc.",
+   "use": "Google Workspace deployment (~9,000+ users globally) including Gemini generative AI, replacing prior collaboration tooling; roadmap for Google Cloud AI/ML in resource creation and factory equipment anomaly detection [Google Workspace / Gemini]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://workspace.google.com/intl/ja/customers/minebeamitsumi/",
+   "raw_sector": "",
+   "date": "2023",
+   "fresh": "stale"
+  },
+  {
+   "company": "MinebeaMitsumi, Inc.",
+   "use": "AI-based bus operation management at factories: automated dispatch/vehicle-allocation planning, right-sizing of bus numbers and vehicle sizes, and bus route optimization for employee transport",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.minebeamitsumi.com/corp/investors/disclosure/integrated_report/a2024/__icsFiles/afieldfile/2024/09/30/2024_04_12_dtl.pdf",
+   "raw_sector": "",
+   "date": "2024",
+   "fresh": "aging"
+  },
+  {
+   "company": "MinebeaMitsumi, Inc.",
+   "use": "IBM Bob AI-driven (agentic) development PoC to modernize legacy IBM i / RPG systems into APIs and web UI (Request/Shipping Destination Master reference system), generating 30 backend API programs from 80 source files [IBM Bob (IBM Japan)]",
+   "existence": "claimed",
+   "value": "~8x reduction in development effort (master development from ~3 hours to ~20 minutes)",
+   "tier": "",
+   "url": "https://www.imagazine.co.jp/ibm-i-world2026-jirei/",
+   "raw_sector": "",
+   "date": "2026",
+   "fresh": "fresh"
+  },
+  {
+   "company": "MinebeaMitsumi, Inc.",
+   "use": "AI-based sales forecast ('sales forecast' / demand-and-sales prediction) to improve sales operations under the MinebeaMitsumi customer-success sales platform",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.minebeamitsumi.com/corp/investors/disclosure/integrated_report/a2022/__icsFiles/afieldfile/2022/09/27/2022_05_10_dtl.pdf",
+   "raw_sector": "",
+   "date": "2022",
+   "fresh": "stale"
   }
  ]
 }

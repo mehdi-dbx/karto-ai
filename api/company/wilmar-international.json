@@ -3,39 +3,54 @@
  "name": "Wilmar International",
  "cc": "SG",
  "vertical": "Agriculture",
- "deployments": 2,
- "confirmed": 1,
- "with_value_number": 0,
- "proof_rate": 0.0,
+ "deployments": 12,
+ "confirmed": 8,
+ "with_value_number": 1,
+ "proof_rate": 0.083,
  "mktcap": 18171641791.0,
  "revenue": 70420000000.0,
  "employees": 100000.0,
  "silent": false,
- "per_bn_revenue": 0.03,
- "per_10k_emp": 0.2,
+ "per_bn_revenue": 0.17,
+ "per_10k_emp": 1.2,
  "benchmarks": {
   "global_vertical": {
-   "deployments": 60,
-   "confirmed": 20,
-   "proof_rate": 0,
+   "deployments": 100,
+   "confirmed": 100,
+   "proof_rate": 70,
    "n": 11
   }
  },
- "first_seen": 2025,
+ "first_seen": 2019,
  "by_year": [
   {
+   "year": 2019,
+   "n": 1
+  },
+  {
+   "year": 2023,
+   "n": 4
+  },
+  {
+   "year": 2024,
+   "n": 1
+  },
+  {
    "year": 2025,
-   "n": 2
+   "n": 5
   }
  ],
- "undated_pct": 0,
- "momentum": "rising",
- "maturity": "L3",
+ "undated_pct": 8,
+ "momentum": "early_mover,flat",
+ "maturity": "L4",
  "maturity_evidence": [
+  "multi_horizontal",
   "named_product:Annual",
+  "value_number",
+  "multi_year",
   "tier_p"
  ],
- "prospect_score": 54,
+ "prospect_score": 93,
  "stack": [],
  "vendor_named": false,
  "deployments_detail": [
@@ -58,6 +73,116 @@
    "tier": "I",
    "url": "https://www.aventragroup.com/case-studies/ai-based-forecasting-20250722063942",
    "raw_sector": "Agribusiness",
+   "date": "2025",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Wilmar International",
+   "use": "Round-the-clock satellite fire and deforestation monitoring system ('Eye in the Sky') using anomaly-detection algorithms on optical/infrared satellite imagery to flag tree removal and unusual heat patterns across plantations and supplier areas, with automated hotspot alerts relayed to field managers and a dashboard. [Sentinel, Landsat, Planet imagery; Esri ArcGIS Pro/ArcMap; NASA fire data]",
+   "existence": "confirmed",
+   "value": ">23.4 million hectares monitored; fire detection up to 5 km beyond concession boundaries",
+   "tier": "",
+   "url": "https://www.wilmar-international.com/about-us/stories/categories/technology---innovation/eye-in-the-sky",
+   "raw_sector": "",
+   "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "Wilmar International",
+   "use": "Machine-learning 'Devegetation' method built by Wilmar's geospatial team to determine the planting year of oil palm plantations from Sentinel-2 satellite imagery, visualized in an ArcGIS dashboard as an alternative to the Hansen forest-loss method. [Sentinel-2; Esri ArcGIS]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://storymaps.arcgis.com/stories/899f9bcb6eb9419e9a37ac2c10e3b950",
+   "raw_sector": "",
+   "date": "2023-12",
+   "fresh": "stale"
+  },
+  {
+   "company": "Wilmar International",
+   "use": "Co-funding and development of the RADD (Radar Alerts for Detecting Deforestation) system — radar-based near-real-time forest disturbance detection that sees through cloud cover — used to monitor palm oil supplier compliance with NDPE policy, published on Global Forest Watch. [Wageningen University / Global Forest Watch (RADD)]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.cargill.com/2019/palm-oil-industry-to-jointly-develop-radar-monitoring-technology",
+   "raw_sector": "",
+   "date": "2019",
+   "fresh": "stale"
+  },
+  {
+   "company": "Wilmar International",
+   "use": "Partnership with Geowatch to launch satellite monitoring detecting deforestation linked to sugar production in Brazil and Thailand, reinforcing oversight under Wilmar's NDPE Sugar Policy. [Geowatch]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.wilmar-international.com/docs/default-source/default-document-library/sustainability/resource/wilmar-sustainability-reports/24_0151_wilmar_2024_sr-v7-27-may.pdf?sfvrsn=f6d89876_8",
+   "raw_sector": "",
+   "date": "2024",
+   "fresh": "aging"
+  },
+  {
+   "company": "Wilmar International",
+   "use": "AI computer vision combined with IoT sensors to monitor Food Park facilities, equipment and on-site security, detecting anomalies and safety risks.",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.wilmar-international.com/annualreport2023/documents/Information-Technology.pdf",
+   "raw_sector": "",
+   "date": "2023",
+   "fresh": "stale"
+  },
+  {
+   "company": "Wilmar International",
+   "use": "AI predictive analytics and machine learning to proactively detect patterns, predict equipment failures and optimise maintenance schedules across operations (predictive maintenance).",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.wilmar-international.com/annualreport2023/documents/Information-Technology.pdf",
+   "raw_sector": "",
+   "date": "2023",
+   "fresh": "stale"
+  },
+  {
+   "company": "Wilmar International",
+   "use": "Group-wide Business Process Automation programme deploying AI-powered digital assistants / Copilots and moving toward customised AI solutions to simplify operations and free teams for higher-value work. [Copilots / digital assistants (unnamed)]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.wilmar-international.com/annualreport2025/documents/Information-Technology.pdf",
+   "raw_sector": "",
+   "date": "2025",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Wilmar International",
+   "use": "Adoption of Generative AI and Large Language Model solutions at internal customer service centres to more accurately define customer issues and offer effective resolutions. [Generative AI / LLM (unnamed)]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.wilmar-international.com/annualreport2023/documents/Information-Technology.pdf",
+   "raw_sector": "",
+   "date": "2023",
+   "fresh": "stale"
+  },
+  {
+   "company": "Wilmar International",
+   "use": "Generative AI-powered tools embedded across the software development lifecycle for code creation, automated testing and intelligent documentation, aimed at faster delivery, consistent quality and cost optimisation. [Generative AI (unnamed)]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.wilmar-international.com/annualreport2025/documents/Information-Technology.pdf",
+   "raw_sector": "",
+   "date": "2025",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Wilmar International",
+   "use": "Investment in a next-generation, AI-powered security event management (SIEM) platform to complement a Zero Trust model, using AI to defend against evolving sophisticated cyber threats.",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.wilmar-international.com/annualreport2025/documents/Information-Technology.pdf",
+   "raw_sector": "",
    "date": "2025",
    "fresh": "fresh"
   }

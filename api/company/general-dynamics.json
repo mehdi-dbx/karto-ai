@@ -3,40 +3,60 @@
  "name": "General Dynamics",
  "cc": "US",
  "vertical": "Industrial / Machinery",
- "deployments": 1,
- "confirmed": 1,
- "with_value_number": 0,
- "proof_rate": 0.0,
+ "deployments": 14,
+ "confirmed": 8,
+ "with_value_number": 5,
+ "proof_rate": 0.357,
  "mktcap": 102560000000.0,
  "revenue": 53810000000.0,
  "employees": 117000.0,
  "silent": false,
- "per_bn_revenue": 0.02,
- "per_10k_emp": 0.09,
+ "per_bn_revenue": 0.26,
+ "per_10k_emp": 1.2,
  "benchmarks": {
   "global_vertical": {
-   "deployments": 0,
-   "confirmed": 14,
-   "proof_rate": 0,
+   "deployments": 100,
+   "confirmed": 94,
+   "proof_rate": 74,
    "n": 175
   },
   "country_vertical": {
-   "deployments": 0,
-   "confirmed": 19,
-   "proof_rate": 0,
+   "deployments": 100,
+   "confirmed": 96,
+   "proof_rate": 85,
    "n": 80
   }
  },
- "first_seen": null,
- "by_year": [],
- "undated_pct": 100,
- "momentum": "none",
- "maturity": "L3",
+ "first_seen": 2020,
+ "by_year": [
+  {
+   "year": 2020,
+   "n": 2
+  },
+  {
+   "year": 2022,
+   "n": 1
+  },
+  {
+   "year": 2025,
+   "n": 4
+  },
+  {
+   "year": 2026,
+   "n": 5
+  }
+ ],
+ "undated_pct": 14,
+ "momentum": "early_mover,rising",
+ "maturity": "L4",
  "maturity_evidence": [
+  "multi_horizontal",
   "named_product:DOGMA",
+  "value_number",
+  "multi_year",
   "tier_p"
  ],
- "prospect_score": 54,
+ "prospect_score": 82,
  "stack": [],
  "vendor_named": false,
  "deployments_detail": [
@@ -50,6 +70,149 @@
    "raw_sector": "Industrials",
    "date": "missing",
    "fresh": "undated"
+  },
+  {
+   "company": "General Dynamics",
+   "use": "Cove AI Ops: AIOps Digital Accelerator using AI/ML and RPA (with ServiceNow) to analyze IT environments, predict and prevent incidents, and automatically take corrective action to modernize government IT operations. [ServiceNow]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.gdit.com/capabilities/mission-solutions/digital-accelerators/cove-ai-ops/",
+   "raw_sector": "",
+   "date": "2025-03",
+   "fresh": "fresh"
+  },
+  {
+   "company": "General Dynamics",
+   "use": "VA benefits claims processing modernization: uses AI and automation to digitally convert historical veteran military records and automate data extraction to accelerate benefits claims processing (VCIP program).",
+   "existence": "confirmed",
+   "value": "$306M task order",
+   "tier": "",
+   "url": "https://www.gdit.com/about-gdit/press-releases/department-of-veterans-affairs-awards-general-dynamics-information/",
+   "raw_sector": "",
+   "date": "2020-10",
+   "fresh": "stale"
+  },
+  {
+   "company": "General Dynamics",
+   "use": "AI-assisted software development: GDIT uses generative AI internally across customer missions (border security, weather forecasting) for code generation and validation to speed and improve software delivery.",
+   "existence": "confirmed",
+   "value": "up to 50% faster new code generation and validation",
+   "tier": "",
+   "url": "https://www.gdit.com/capabilities/mission-expertise/smart-government/",
+   "raw_sector": "",
+   "date": "2026-02",
+   "fresh": "fresh"
+  },
+  {
+   "company": "General Dynamics",
+   "use": "DOGMA (Defense Operations Grid-Mesh Accelerator): edge-to-cloud AI system for air defense that fuses multi-sensor data for real-time threat detection and targeting at the tactical edge; deployable from a laptop to a low-earth-orbit device. Demonstrated with AWS in 2025 and launched as a Mission AI product. [AWS (Amazon Web Services)]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.gdit.com/about-gdit/press-releases/gdit-successfully-demonstrates-artificial-intelligence-at-the-tactical-edge/",
+   "raw_sector": "",
+   "date": "2025-09",
+   "fresh": "fresh"
+  },
+  {
+   "company": "General Dynamics",
+   "use": "Autonomous Surveillance Towers for U.S. border security: AI-driven, edge-processing towers integrating 5G and satellite comms that automatically detect, categorize and track movement across remote terrain. CBP-certified and physically deployed along northern and southern borders.",
+   "existence": "confirmed",
+   "value": "203 towers deployed surveilling 566 miles of border",
+   "tier": "",
+   "url": "https://www.govtech.com/artificial-intelligence/authorities-deploy-ai-surveillance-towers-near-san-diego",
+   "raw_sector": "",
+   "date": "2026-04",
+   "fresh": "fresh"
+  },
+  {
+   "company": "General Dynamics",
+   "use": "Luna AI: open-source, cloud-based Digital Accelerator platform that integrates machine learning, NLP and computer vision to turn raw data into actionable insights for government mission analytics.",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.gdit.com/capabilities/mission-solutions/digital-accelerators/luna-ai/",
+   "raw_sector": "",
+   "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "General Dynamics",
+   "use": "AI skin-cancer detection tool for the VA: cloud-based, containerized deep-learning image classifier (transfer learning across 7 open-source models, trained on 30,000 lesion images across 7 disease categories) that lets physicians upload lesion images for instant benign/malignant classification. In VA soft-testing toward clinical trials. [AWS (hosting)]",
+   "existence": "claimed",
+   "value": "trained on 30,000 lesion images across 7 categories",
+   "tier": "",
+   "url": "https://www.gdit.com/perspectives/case-studies/ai-tools-accelerates-skin-cancer-detection-in-veterans/",
+   "raw_sector": "",
+   "date": "2022-04",
+   "fresh": "stale"
+  },
+  {
+   "company": "General Dynamics",
+   "use": "Expanded collaboration with Google Public Sector to integrate GDIT's Digital Accelerators onto Google Cloud and deliver Gemini-based secure AI/cloud solutions to defense and federal civilian agencies at the tactical edge. [Google (Gemini / Google Cloud)]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.gdit.com/about-gdit/press-releases/gdit-expands-collaboration-with-google-public-sector-to-drive-mission-ai/",
+   "raw_sector": "",
+   "date": "2025-11",
+   "fresh": "fresh"
+  },
+  {
+   "company": "General Dynamics",
+   "use": "Kodiak AI collaboration with General Dynamics Land Systems to integrate Kodiak's AI-powered autonomous 'virtual driver' into ruggedized military ground vehicles (e.g., the Leonidas AGV for counter-UAS/point defense). [Kodiak AI]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.gdls.com/kodiak-ai-and-general-dynamics-land-systems-form-strategic-collaboration-for-autonomous-ground-vehicles/",
+   "raw_sector": "",
+   "date": "2026-05",
+   "fresh": "fresh"
+  },
+  {
+   "company": "General Dynamics",
+   "use": "NOAA weather forecasting support: GDIT applies machine learning/AI (and operates the WCOSS 2 supercomputers) to support the National Weather Service, including predicting where system outages may occur to keep forecasting infrastructure reliable.",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.gdit.com/perspectives/latest/making-predictions-so-that-noaa-can/",
+   "raw_sector": "",
+   "date": "2020-05",
+   "fresh": "stale"
+  },
+  {
+   "company": "General Dynamics",
+   "use": "Agentic AI for Customer Experience: conversational, generative and agentic AI digital agents embedded in modernized government contact-center/service experiences to resolve citizen requests automatically. [Google Cloud]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.gdit.com/capabilities/mission-solutions/smart-government/agentic-ai-for-customer-experience/",
+   "raw_sector": "",
+   "date": "2025-11",
+   "fresh": "fresh"
+  },
+  {
+   "company": "General Dynamics",
+   "use": "Everest Zero Trust Digital Accelerator: AI-enabled, data-centric zero-trust cybersecurity architecture with AI-driven advanced threat detection, being rolled out to ~1 million users across 187 U.S. Air Force bases worldwide under the Next Generation Gateway program.",
+   "existence": "claimed",
+   "value": "$120M task order; 1 million users across 187 bases",
+   "tier": "",
+   "url": "https://www.gdit.com/about-gdit/press-releases/gdit-awarded-usd120-million-task-order-to-deliver-zero-trust-for-u-s-air/",
+   "raw_sector": "",
+   "date": "2026-01",
+   "fresh": "fresh"
+  },
+  {
+   "company": "General Dynamics",
+   "use": "Security Operations Center of the future built with Splunk that leverages agentic AI to autonomously detect, isolate and remediate cyber threats for federal agencies. [Splunk (Cisco)]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.gdit.com/about-gdit/press-releases/gdit-announces-expanded-partnership-with-splunk-to-counter-cyber-threats-with-ai/",
+   "raw_sector": "",
+   "date": "2026-06",
+   "fresh": "fresh"
   }
  ]
 }

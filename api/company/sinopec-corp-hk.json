@@ -3,46 +3,56 @@
  "name": "Sinopec Corp",
  "cc": "HK",
  "vertical": "Energy & Utilities",
- "deployments": 2,
- "confirmed": 2,
- "with_value_number": 0,
- "proof_rate": 0.0,
+ "deployments": 10,
+ "confirmed": 10,
+ "with_value_number": 5,
+ "proof_rate": 0.5,
  "mktcap": 87930769231.0,
  "revenue": 401282051282.0,
  "employees": 351104.0,
  "silent": false,
- "per_bn_revenue": 0.0,
- "per_10k_emp": 0.06,
+ "per_bn_revenue": 0.02,
+ "per_10k_emp": 0.28,
  "benchmarks": {
   "global_vertical": {
-   "deployments": 77,
-   "confirmed": 83,
-   "proof_rate": 0,
+   "deployments": 94,
+   "confirmed": 96,
+   "proof_rate": 69,
    "n": 210
   },
   "country_vertical": {
-   "deployments": 57,
-   "confirmed": 57,
-   "proof_rate": 0,
+   "deployments": 86,
+   "confirmed": 100,
+   "proof_rate": 43,
    "n": 8
   }
  },
- "first_seen": 2025,
+ "first_seen": 2020,
  "by_year": [
   {
+   "year": 2020,
+   "n": 1
+  },
+  {
    "year": 2025,
-   "n": 2
+   "n": 5
+  },
+  {
+   "year": 2026,
+   "n": 1
   }
  ],
- "undated_pct": 0,
- "momentum": "rising",
- "maturity": "L3",
+ "undated_pct": 30,
+ "momentum": "early_mover,rising",
+ "maturity": "L4",
  "maturity_evidence": [
   "multi_horizontal",
   "named_product:Great Wall AI",
+  "value_number",
+  "multi_year",
   "tier_p"
  ],
- "prospect_score": 52,
+ "prospect_score": 80,
  "stack": [
   "DeepSeek"
  ],
@@ -79,6 +89,94 @@
    "url": "https://www.sinopecnews.com.cn/xnews/content/2025-05/28/content_7126179.html",
    "raw_sector": "Energy",
    "date": "2025-05",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Sinopec Corp",
+   "use": "'Fenghuo' industrial AI agent — first digital expert for the petrochemical sector, deployed in four roles (Scientist, Engineer, Programmer, Assistant) that analyze production data, interact with industrial software, and perform oilfield development analysis and refining process optimization. Built on Sinopec's self-developed 'Great Wall' large model incorporating over 1 billion petrochemical expert insights. [Sinopec 'Great Wall' large model (proprietary)]",
+   "existence": "confirmed",
+   "value": "over 1 billion expert insights integrated",
+   "tier": "",
+   "url": "https://www.prnewswire.com/news-releases/sinopec-launches-fenghuo-industrial-ai-agent-an-industry-first-that-turns-ai-into-digital-employees-and-domain-experts-302764033.html",
+   "raw_sector": "",
+   "date": "2026-05",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Sinopec Corp",
+   "use": "Deep-learning 'frequency-phase intelligent inversion' method for seismic reservoir characterization — combines seismic frequency-phase features with deep neural networks to produce high-resolution impedance inversion results for petroleum exploration, developed with MATLAB toolchain. [MathWorks MATLAB (Deep Learning, Signal Processing, Optimization, Statistics & ML toolboxes)]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.mathworks.com/company/user_stories/sinopec-develops-high-accuracy-intelligent-seismic-inversion-with-deep-learning.html",
+   "raw_sector": "",
+   "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "Sinopec Corp",
+   "use": "ProMACE smart-refinery platform ('virtual chemical industrial internet') at the Zhongke (Guangdong) Refinery in Zhanjiang — a highly automated production/control system operating a 2,000 m2 central control room monitoring 30+ major product units, auto-updating lab quality results to packaging/warehouse systems. [Sinopec ProMACE]",
+   "existence": "confirmed",
+   "value": "~1,500 on-site staff vs 6,000-8,000 at conventional plants of similar size",
+   "tier": "",
+   "url": "https://www.chinadaily.com.cn/a/202009/16/WS5f616aaaa31024ad0ba79cb0.html",
+   "raw_sector": "",
+   "date": "2020-09",
+   "fresh": "stale"
+  },
+  {
+   "company": "Sinopec Corp",
+   "use": "Intelligent R&D platform for molecular-sieve (zeolite) materials — an AI platform to accelerate discovery and development of catalytic materials, unveiled at the 2025 World Artificial Intelligence Conference (WAIC) China AI Innovation Achievements Exhibition. [Sinopec (proprietary)]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "http://www.sinopecgroup.com/group/en/000/000/067/67960.shtml",
+   "raw_sector": "",
+   "date": "2025-07",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Sinopec Corp",
+   "use": "AI-assisted R&D framework for high-end lubricating materials — an end-to-end AI R&D framework combining modeling and intelligent platforms to accelerate commercialization of high-end lubricants, showcased as one of Sinopec's two AI achievements at WAIC 2025. [Sinopec (proprietary)]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://x.com/SinopecNews/status/1950049163758239882",
+   "raw_sector": "",
+   "date": "2025-07",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Sinopec Corp",
+   "use": "Edge-plus-center industrial AI vision system for safety and inspection at scale: PPE/helmet compliance detection, personnel and hazard monitoring, confined-space and gas-detector compliance, and automated meter reading across drilling platforms, transport lines, and LNG terminals with 24/7 near-real-time video analysis. [Awakedata (VisionFlow / VisionCore)]",
+   "existence": "confirmed",
+   "value": "30-50% reduction in manual patrols; 40% less daily inspection time per zone; 15-25% overall efficiency gain; 50% improvement in hidden-risk handling",
+   "tier": "",
+   "url": "https://www.awakedata.com/sinopec-success-story.html",
+   "raw_sector": "",
+   "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "Sinopec Corp",
+   "use": "AI 'Digital Employee' fueling assistant piloted at 40+ gas stations nationwide — an LLM-powered virtual assistant on pump touchscreens (and via QR web interface) that answers refueling questions, recommends fuel grades, guides pump operation, handles transaction/top-up queries, and suggests nearby attractions. First AI digital employee in China's oil & petrochemical sector. [iFlytek Spark large language model]",
+   "existence": "confirmed",
+   "value": "piloted at over 40 gas stations",
+   "tier": "",
+   "url": "https://news.aibase.com/news/14862",
+   "raw_sector": "",
+   "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "Sinopec Corp",
+   "use": "National 'Excellence-level' intelligent factories using AI, system integration and optimization/collaborative control: Zhongyuan Oilfield (smart high-sulfur gas field), Jinling Petrochemical (collaborative-control refining intelligent factory), and Qingdao Refining (optimization-control hydrogen dual-efficiency factory), recognized in China's 2025 national exemplary intelligent factory list. [Sinopec (proprietary)]",
+   "existence": "confirmed",
+   "value": "3 subsidiaries recognized as National Excellence-level Smart Factories",
+   "tier": "",
+   "url": "https://chemxplore.com/news/three-petrochemical-enterprises-projects-selected-for-national-exemplary-intelligent-factory-projects",
+   "raw_sector": "",
+   "date": "2025-11",
    "fresh": "fresh"
   }
  ]

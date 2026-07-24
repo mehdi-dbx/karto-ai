@@ -3,33 +3,45 @@
  "name": "ACS",
  "cc": "ES",
  "vertical": "Real Estate & Construction",
- "deployments": 1,
- "confirmed": 0,
- "with_value_number": 1,
- "proof_rate": 1.0,
+ "deployments": 11,
+ "confirmed": 8,
+ "with_value_number": 4,
+ "proof_rate": 0.364,
  "mktcap": 33534000000.0,
  "revenue": 54442800000.0,
  "employees": 167803.0,
  "silent": false,
- "per_bn_revenue": 0.02,
- "per_10k_emp": 0.06,
+ "per_bn_revenue": 0.2,
+ "per_10k_emp": 0.66,
  "benchmarks": {
   "global_vertical": {
-   "deployments": 0,
-   "confirmed": 0,
-   "proof_rate": 69,
+   "deployments": 99,
+   "confirmed": 98,
+   "proof_rate": 63,
    "n": 154
   }
  },
- "first_seen": null,
- "by_year": [],
- "undated_pct": 100,
- "momentum": "none",
- "maturity": "L1",
- "maturity_evidence": [
-  "rows_no_confirmed"
+ "first_seen": 2025,
+ "by_year": [
+  {
+   "year": 2025,
+   "n": 1
+  },
+  {
+   "year": 2026,
+   "n": 7
+  }
  ],
- "prospect_score": 0,
+ "undated_pct": 27,
+ "momentum": "rising",
+ "maturity": "L4",
+ "maturity_evidence": [
+  "multi_horizontal",
+  "named_product:Group",
+  "value_number",
+  "multi_year"
+ ],
+ "prospect_score": 81,
  "stack": [],
  "vendor_named": false,
  "deployments_detail": [
@@ -43,6 +55,116 @@
    "raw_sector": "Construction",
    "date": "missing",
    "fresh": "undated"
+  },
+  {
+   "company": "ACS",
+   "use": "Group-wide deployment of ~150 AI agents on a proprietary technology platform to automate engineering, worker safety, procurement and project-control processes, built on Microsoft Copilot to anticipate cost overruns and optimize project execution. [Microsoft Copilot]",
+   "existence": "confirmed",
+   "value": "~150 AI agents deployed",
+   "tier": "",
+   "url": "https://www.economiadigital.es/empresas/florentino-perez-acs-ia.html",
+   "raw_sector": "",
+   "date": "2026-07",
+   "fresh": "fresh"
+  },
+  {
+   "company": "ACS",
+   "use": "Turner Construction (ACS/Hochtief subsidiary) 'wall-to-wall' rollout giving every employee ChatGPT Enterprise access; 400+ custom AI applications built for contract review, safety protocols and design/constructability evaluation. [OpenAI ChatGPT Enterprise]",
+   "existence": "confirmed",
+   "value": "400+ custom AI apps; 70,000 hours/year productivity gains",
+   "tier": "",
+   "url": "https://www.globalconstructionreview.com/turner-gives-every-employee-chatgpt-enterprise/",
+   "raw_sector": "",
+   "date": "2025-11",
+   "fresh": "fresh"
+  },
+  {
+   "company": "ACS",
+   "use": "CraneView (Versatile) AI + IoT system on Turner projects: sensor and camera on the crane hook uses AI to classify each lifted item, capture weight and cycle time, optimizing crane utilization, scheduling and safety. [Versatile (CraneView)]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.turnerconstruction.com/insights/turning-cranes-into-smart-devices-with-ai-and-iot",
+   "raw_sector": "",
+   "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "ACS",
+   "use": "FlatironDragados RFI Agent, deployed live enterprise-wide to automate handling of construction Requests for Information.",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.fdcorp.com/en/news/innovation/2026/driving-project-excellence-with-construction-technology",
+   "raw_sector": "",
+   "date": "2026-01",
+   "fresh": "fresh"
+  },
+  {
+   "company": "ACS",
+   "use": "FlatironDragados deployment of ALICE Technologies AI scheduling to generate resource-loaded, optimized construction schedules on the SR400 project. [ALICE Technologies]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.fdcorp.com/en/news/innovation/2026/driving-project-excellence-with-construction-technology",
+   "raw_sector": "",
+   "date": "2026-01",
+   "fresh": "fresh"
+  },
+  {
+   "company": "ACS",
+   "use": "FlatironDragados Daily Log Agent, an AI agent piloting on four projects (SR400, Ballard Pump Station, DEN 2940 Tanks & Valves, IH-35 Ellis County) to automate daily construction logs.",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.fdcorp.com/en/news/innovation/2026/driving-project-excellence-with-construction-technology",
+   "raw_sector": "",
+   "date": "2026-01",
+   "fresh": "fresh"
+  },
+  {
+   "company": "ACS",
+   "use": "Nexplore (Hochtief/ACS innovation platform) research cooperation with TU Darmstadt to apply artificial intelligence, computer vision and NLP/LLMs to construction workflows such as progress monitoring and estimating. [Nexplore; TU Darmstadt]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.hochtief.com/investor-relations/innovation-platform-nexplore-forms-research-cooperation-with-tu-darmstadt",
+   "raw_sector": "",
+   "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "ACS",
+   "use": "SafeT Coach, Turner's AI-powered field safety assistant that answers plain-language safety questions grounded in Turner's EH&S standards and analyzes uploaded jobsite photos for hazard identification.",
+   "existence": "confirmed",
+   "value": "25,000+ interactions since pilot",
+   "tier": "",
+   "url": "https://www.turnerconstruction.com/insights/turner-provides-ai-powered-safety-tool-to-the-construction-industry",
+   "raw_sector": "",
+   "date": "2026-05",
+   "fresh": "fresh"
+  },
+  {
+   "company": "ACS",
+   "use": "FlatironDragados 'Safety Mike' AI agent that analyzes incident reports, identifies safety trends, supports root-cause analysis and drafts corrective actions, alongside a Safety Regulation Monitor agent tracking federal/state/local regulatory changes.",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.fdcorp.com/en/news/innovation/2026/driving-project-excellence-with-construction-technology",
+   "raw_sector": "",
+   "date": "2026-01",
+   "fresh": "fresh"
+  },
+  {
+   "company": "ACS",
+   "use": "FlatironDragados (Dragados/ACS) enterprise-wide Microsoft Copilot for routine drafting, analysis and summarization, plus Copilot Assist integrated into Procore document management across all projects. [Microsoft Copilot; Procore]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.fdcorp.com/en/news/innovation/2026/driving-project-excellence-with-construction-technology",
+   "raw_sector": "",
+   "date": "2026-01",
+   "fresh": "fresh"
   }
  ]
 }

@@ -3,40 +3,59 @@
  "name": "Meta Platforms",
  "cc": "US",
  "vertical": "Telecom",
- "deployments": 1,
- "confirmed": 1,
- "with_value_number": 1,
- "proof_rate": 1.0,
+ "deployments": 11,
+ "confirmed": 11,
+ "with_value_number": 4,
+ "proof_rate": 0.364,
  "mktcap": 1540000000000.0,
  "revenue": 214960000000.0,
  "employees": 78865.0,
  "silent": false,
- "per_bn_revenue": 0.0,
- "per_10k_emp": 0.13,
+ "per_bn_revenue": 0.05,
+ "per_10k_emp": 1.39,
  "benchmarks": {
   "global_vertical": {
-   "deployments": 0,
-   "confirmed": 16,
-   "proof_rate": 68,
+   "deployments": 91,
+   "confirmed": 98,
+   "proof_rate": 52,
    "n": 93
   },
   "country_vertical": {
-   "deployments": 0,
-   "confirmed": 32,
-   "proof_rate": 73,
+   "deployments": 82,
+   "confirmed": 95,
+   "proof_rate": 68,
    "n": 23
   }
  },
- "first_seen": null,
- "by_year": [],
- "undated_pct": 100,
- "momentum": "none",
- "maturity": "L3",
- "maturity_evidence": [
-  "named_product:Llama",
-  "value_number"
+ "first_seen": 2018,
+ "by_year": [
+  {
+   "year": 2018,
+   "n": 1
+  },
+  {
+   "year": 2023,
+   "n": 3
+  },
+  {
+   "year": 2025,
+   "n": 4
+  },
+  {
+   "year": 2026,
+   "n": 2
+  }
  ],
- "prospect_score": 6,
+ "undated_pct": 9,
+ "momentum": "early_mover,rising",
+ "maturity": "L4",
+ "maturity_evidence": [
+  "multi_horizontal",
+  "named_product:Llama",
+  "value_number",
+  "multi_year"
+ ],
+ "prospect_score": 85,
  "stack": [
   "Meta"
  ],
@@ -52,6 +71,116 @@
    "raw_sector": "Communication Services",
    "date": "missing",
    "fresh": "undated"
+  },
+  {
+   "company": "Meta Platforms",
+   "use": "DevMate internal AI coding assistant for Meta engineers, using multiple models (Anthropic Claude, Llama, GPT, Gemini) for code generation, review and productivity. [Anthropic Claude, Meta Llama, OpenAI GPT, Google Gemini]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.businessinsider.com/meta-anthropic-ai-llama-coding-efficiency-2025-6",
+   "raw_sector": "",
+   "date": "2025-06",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Meta Platforms",
+   "use": "SapFix and Sapienz automated software testing and bug-fixing tools that detect crashes and auto-generate code fixes for Meta's apps at scale. [Meta (SapFix / Sapienz)]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://engineering.fb.com/2018/09/13/developer-tools/finding-and-fixing-software-bugs-automatically-with-sapfix-and-sapienz/",
+   "raw_sector": "",
+   "date": "2018-09",
+   "fresh": "stale"
+  },
+  {
+   "company": "Meta Platforms",
+   "use": "Generative Ads Recommendation Model (GEM) plus Andromeda and Lattice AI systems powering ad ranking, retrieval and delivery across Facebook/Instagram advertising. [Meta (GEM / Andromeda / Lattice, Nvidia GPU infra)]",
+   "existence": "confirmed",
+   "value": "Lattice increased ad quality ~12% and conversions up to 6%; Andromeda +8% ad quality; GEM ~5% conversion lift",
+   "tier": "",
+   "url": "https://engineering.fb.com/2025/11/10/ml-applications/metas-generative-ads-model-gem-the-central-brain-accelerating-ads-recommendation-ai-innovation/",
+   "raw_sector": "",
+   "date": "2025-11",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Meta Platforms",
+   "use": "Advantage+ generative AI ad creative tools: automated image/text/video variation generation, background generation, and campaign targeting/budget optimization for advertisers. [Meta (Advantage+ generative AI)]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.facebook.com/business/ads/meta-advantage-plus",
+   "raw_sector": "",
+   "date": "2025",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Meta Platforms",
+   "use": "Meta AI assistant (Llama-powered conversational AI) built into WhatsApp, Messenger, Instagram Direct, Facebook and the web, and Ray-Ban Meta glasses, for chat, search, coding help and Q&A. [Meta Llama (Llama 3 / Llama 4)]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://ai.meta.com/blog/llama-4-multimodal-intelligence/",
+   "raw_sector": "",
+   "date": "2025-04",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Meta Platforms",
+   "use": "Deep-learning recommendation systems ranking Facebook/Instagram Feed, Reels, and Explore content (including unconnected content recommendations). [Meta (ML recommendation stack)]",
+   "existence": "confirmed",
+   "value": "over 20% of Feed content recommended by AI from accounts users don't follow",
+   "tier": "",
+   "url": "https://engineering.fb.com/2023/08/09/ml-applications/scaling-instagram-explore-recommendations-system/",
+   "raw_sector": "",
+   "date": "2023-08",
+   "fresh": "stale"
+  },
+  {
+   "company": "Meta Platforms",
+   "use": "SeamlessM4T / No Language Left Behind (NLLB) multimodal speech and text translation models deployed to translate content across up to 200 languages in Meta's apps. [Meta AI (SeamlessM4T, NLLB)]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://about.fb.com/news/2023/08/seamlessm4t-ai-translation-model/",
+   "raw_sector": "",
+   "date": "2023-08",
+   "fresh": "stale"
+  },
+  {
+   "company": "Meta Platforms",
+   "use": "Emu-based generative image creation and editing (Imagine with Meta AI, AI stickers, photo restyling/animation) inside Instagram, WhatsApp, Messenger and Facebook. [Meta AI (Emu model)]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://ai.meta.com/meta-ai/media-generation/",
+   "raw_sector": "",
+   "date": "2023-12",
+   "fresh": "stale"
+  },
+  {
+   "company": "Meta Platforms",
+   "use": "Meta Business Agent: AI customer-service and sales agent for businesses on WhatsApp/Messenger/Instagram providing 24/7 automated chat, product recommendations and support. [Meta (Business Agent, Llama-powered)]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://techcrunch.com/2026/06/03/metas-ai-agent-for-whatsapp-business-is-now-available-globally/",
+   "raw_sector": "",
+   "date": "2026-06",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Meta Platforms",
+   "use": "AI-first content moderation and integrity enforcement detecting scams, fraud, fake accounts, impersonation and policy violations, reducing reliance on human/third-party reviewers. [Meta (internal AI models)]",
+   "existence": "confirmed",
+   "value": "reportedly replacing ~50% of human content reviews",
+   "tier": "",
+   "url": "https://cryptobriefing.com/meta-ai-content-moderation-replaces-human-reviews/",
+   "raw_sector": "",
+   "date": "2026-06",
+   "fresh": "fresh"
   }
  ]
 }

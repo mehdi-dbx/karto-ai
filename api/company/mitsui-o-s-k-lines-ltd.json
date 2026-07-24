@@ -3,46 +3,80 @@
  "name": "Mitsui O.S.K. Lines, Ltd.",
  "cc": "JP",
  "vertical": "Logistics & Supply Chain",
- "deployments": 1,
- "confirmed": 1,
- "with_value_number": 1,
- "proof_rate": 1.0,
+ "deployments": 12,
+ "confirmed": 10,
+ "with_value_number": 2,
+ "proof_rate": 0.167,
  "mktcap": 13266666667.0,
  "revenue": 12200000000.0,
  "employees": 11567.0,
  "silent": false,
- "per_bn_revenue": 0.08,
- "per_10k_emp": 0.86,
+ "per_bn_revenue": 0.98,
+ "per_10k_emp": 10.37,
  "benchmarks": {
   "global_vertical": {
-   "deployments": 0,
-   "confirmed": 17,
-   "proof_rate": 60,
+   "deployments": 100,
+   "confirmed": 100,
+   "proof_rate": 46,
    "n": 66
   },
   "country_vertical": {
-   "deployments": 0,
-   "confirmed": 0,
-   "proof_rate": 55,
+   "deployments": 100,
+   "confirmed": 100,
+   "proof_rate": 27,
    "n": 23
   }
  },
- "first_seen": 2026,
+ "first_seen": 2016,
  "by_year": [
   {
-   "year": 2026,
+   "year": 2016,
    "n": 1
+  },
+  {
+   "year": 2019,
+   "n": 1
+  },
+  {
+   "year": 2020,
+   "n": 1
+  },
+  {
+   "year": 2021,
+   "n": 2
+  },
+  {
+   "year": 2022,
+   "n": 1
+  },
+  {
+   "year": 2023,
+   "n": 1
+  },
+  {
+   "year": 2024,
+   "n": 1
+  },
+  {
+   "year": 2025,
+   "n": 1
+  },
+  {
+   "year": 2026,
+   "n": 2
   }
  ],
- "undated_pct": 0,
- "momentum": "late_entrant,rising",
- "maturity": "L3",
+ "undated_pct": 8,
+ "momentum": "early_mover,rising",
+ "maturity": "L4",
  "maturity_evidence": [
+  "multi_horizontal",
   "named_product:IBM",
   "value_number",
+  "multi_year",
   "tier_p"
  ],
- "prospect_score": 6,
+ "prospect_score": 93,
  "stack": [
   "IBM"
  ],
@@ -58,6 +92,127 @@
    "raw_sector": "Marine Transport",
    "date": "2026-07",
    "fresh": "fresh"
+  },
+  {
+   "company": "Mitsui O.S.K. Lines, Ltd.",
+   "use": "Autonomous collision avoidance and navigation support system; MOL conducted the world's first successful sea trial of an autonomous sailing vessel that integrated sensor data to navigate a safe route formulated by an autonomous collision-avoidance routing system.",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.mol.co.jp/en/pr/2022/22007.html",
+   "raw_sector": "",
+   "date": "2022-01",
+   "fresh": "stale"
+  },
+  {
+   "company": "Mitsui O.S.K. Lines, Ltd.",
+   "use": "AI-powered vessel allocation and cargo-loading optimization system for car carriers, using mathematical optimization to plan allocation of car carrier vessels across MOL's global network.",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.automotivelogistics.media/digitalisation/mol-uses-ai-to-more-efficiently-allocate-car-carriers/217580",
+   "raw_sector": "",
+   "date": "2021-06",
+   "fresh": "stale"
+  },
+  {
+   "company": "Mitsui O.S.K. Lines, Ltd.",
+   "use": "Deployed Sofar Ocean's Wayfinder dynamic voyage optimization platform across MOL Group fleet, providing daily optimal engine speed and route recommendations using high-precision weather forecasts to cut fuel and GHG emissions. [Sofar Ocean (Wayfinder)]",
+   "existence": "confirmed",
+   "value": "average ~6% fuel/GHG emission reduction per voyage (trial with 40 vessels)",
+   "tier": "",
+   "url": "https://www.sofarocean.com/posts/mol-group-deploys-wayfinder",
+   "raw_sector": "",
+   "date": "2024-07",
+   "fresh": "aging"
+  },
+  {
+   "company": "Mitsui O.S.K. Lines, Ltd.",
+   "use": "FOCUS Project fleet performance management system: an integrated platform collecting up to 10,000 sensor data points per vessel across ~270 vessels, using AI/data analytics for vessel performance estimation and fuel-consumption reduction.",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.mol.co.jp/en/pr/2020/20011.html",
+   "raw_sector": "",
+   "date": "2020-02",
+   "fresh": "stale"
+  },
+  {
+   "company": "Mitsui O.S.K. Lines, Ltd.",
+   "use": "AI-powered vessel image recognition and recording system to support automated ship monitoring; uses a GPU-equipped terminal and high-resolution imaging to recognize and automatically record nearby vessels with high accuracy. Demonstration test on training ship Nippon Maru. [SenseTime Japan]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.mol.co.jp/en/pr/2019/19057.html",
+   "raw_sector": "",
+   "date": "2019-09",
+   "fresh": "stale"
+  },
+  {
+   "company": "Mitsui O.S.K. Lines, Ltd.",
+   "use": "AI-powered vessel operations platform jointly developed with IBM Japan, integrating vessel operational data for 24/7 decision support; includes a generative AI assistant that identifies and extracts operational risks in real time by analyzing historical vessel records alongside current data. [IBM Japan]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.marinelink.com/news/mol-ibm-japan-launch-ai-platform-vessel-540811",
+   "raw_sector": "",
+   "date": "2026-07",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Mitsui O.S.K. Lines, Ltd.",
+   "use": "AI routing engine developed with Bearing that automatically analyzes multiple potential routes for a given voyage and recommends prudent, efficient routing to reduce fuel consumption and emissions. [Bearing (AI)]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.mol.co.jp/en/pr/2021/21009.html",
+   "raw_sector": "",
+   "date": "2021-02",
+   "fresh": "stale"
+  },
+  {
+   "company": "Mitsui O.S.K. Lines, Ltd.",
+   "use": "AI-powered optimization system for seafarer crew replacement planning, developed with Fujitsu; optimizes crew rotation planning to shorten consecutive onboard periods and improve seafarers' work-life balance. Full-scale trial operation began in Japan in May 2025. [Fujitsu]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.mol.co.jp/en/pr/2025/25032.html",
+   "raw_sector": "",
+   "date": "2025-03",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Mitsui O.S.K. Lines, Ltd.",
+   "use": "AI initiative to forecast marine bunker (fuel) prices, developed via a joint study with Yokohama National University to analyze economic and maritime data and forecast ocean shipping/bunker market conditions. [Yokohama National University (joint study)]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://shipandbunker.com/news/world/862460-mol-aims-to-use-artificial-intelligence-to-forecast-bunker-prices",
+   "raw_sector": "",
+   "date": "2016-09",
+   "fresh": "stale"
+  },
+  {
+   "company": "Mitsui O.S.K. Lines, Ltd.",
+   "use": "MOL PEARL company-wide integrated data platform, the core of MOL's AI-driven DX initiative, designed to integrate and visualize data across the MOL Group to improve operational efficiency and support decision-making, enabling people and AI to collaboratively analyze data.",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.mol.co.jp/en/sustainability/dx/ai/",
+   "raw_sector": "",
+   "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "Mitsui O.S.K. Lines, Ltd.",
+   "use": "AI-based early fire/smoke detection system installed in car carrier cargo holds; cameras + AI analyze images to detect smoke faster than conventional alarms and alert onboard crew and onshore management. Deployed on LNG-fueled car carriers including CERULEAN ACE, which earned the world's first ClassNK notation for safe EV transport. [Captain's Eye (Israel)]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.mol.co.jp/en/pr/2024/24100.html",
+   "raw_sector": "",
+   "date": "2023-11",
+   "fresh": "stale"
   }
  ]
 }

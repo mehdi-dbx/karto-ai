@@ -3,40 +3,60 @@
  "name": "Visa Inc.",
  "cc": "US",
  "vertical": "Financial Services",
- "deployments": 1,
- "confirmed": 1,
- "with_value_number": 0,
- "proof_rate": 0.0,
+ "deployments": 12,
+ "confirmed": 10,
+ "with_value_number": 4,
+ "proof_rate": 0.333,
  "mktcap": 660800000000.0,
  "revenue": 43030000000.0,
  "employees": 34100.0,
  "silent": false,
- "per_bn_revenue": 0.02,
- "per_10k_emp": 0.29,
+ "per_bn_revenue": 0.28,
+ "per_10k_emp": 3.52,
  "benchmarks": {
   "global_vertical": {
-   "deployments": 0,
-   "confirmed": 18,
-   "proof_rate": 0,
+   "deployments": 95,
+   "confirmed": 95,
+   "proof_rate": 57,
    "n": 377
   },
   "country_vertical": {
-   "deployments": 0,
-   "confirmed": 21,
-   "proof_rate": 0,
+   "deployments": 95,
+   "confirmed": 95,
+   "proof_rate": 67,
    "n": 76
   }
  },
- "first_seen": null,
- "by_year": [],
- "undated_pct": 100,
- "momentum": "none",
- "maturity": "L3",
+ "first_seen": 2023,
+ "by_year": [
+  {
+   "year": 2023,
+   "n": 1
+  },
+  {
+   "year": 2024,
+   "n": 2
+  },
+  {
+   "year": 2025,
+   "n": 5
+  },
+  {
+   "year": 2026,
+   "n": 3
+  }
+ ],
+ "undated_pct": 8,
+ "momentum": "early_mover,rising",
+ "maturity": "L4",
  "maturity_evidence": [
+  "multi_horizontal",
   "named_product:Visa Intelligent Commerce",
+  "value_number",
+  "multi_year",
   "tier_p"
  ],
- "prospect_score": 54,
+ "prospect_score": 95,
  "stack": [],
  "vendor_named": false,
  "deployments_detail": [
@@ -50,6 +70,127 @@
    "raw_sector": "Financials",
    "date": "missing",
    "fresh": "undated"
+  },
+  {
+   "company": "Visa Inc.",
+   "use": "Internal generative-AI productivity stack: Visa's ~32,000 employees have access to an internal version of ChatGPT, Microsoft Copilot and GitHub Copilot for everyday work and software development. [OpenAI (ChatGPT), Microsoft Copilot, GitHub Copilot]",
+   "existence": "confirmed",
+   "value": "Available to ~32,000 employees",
+   "tier": "",
+   "url": "https://www.unleash.ai/artificial-intelligence/interview/visa-head-of-talent-lets-stop-trying-to-teach-people-stuff-and-instead-give-the-megaphone-to-employees-on-ai",
+   "raw_sector": "",
+   "date": "2025-07",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Visa Inc.",
+   "use": "Autonomous AI agents built in Microsoft Copilot Studio to automate internal employee workflows such as wellness-reimbursement processing, eliminating manual steps. [Microsoft Copilot Studio]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.youtube.com/watch?v=0RfRWbZKJqU",
+   "raw_sector": "",
+   "date": "2026-06",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Visa Inc.",
+   "use": "Visa 'ai' developer toolkit (github.com/visa/ai): reusable packages, client examples, an AI agent demo, Claude Code skills and a Gemini CLI extension for connecting AI agents to Visa Intelligent Commerce. [Anthropic (Claude Code skills), Google (Gemini CLI)]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://github.com/visa/ai",
+   "raw_sector": "",
+   "date": "2025",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Visa Inc.",
+   "use": "Visa Advanced Authorization (VAA): AI/deep-learning engine embedded in VisaNet that scores every transaction for fraud risk in real time (0-99) at the point of authorization, across Visa and non-Visa payments. [Visa in-house deep learning models]",
+   "existence": "confirmed",
+   "value": "Helped combat ~$40 billion in fraud in a year; analyzes 500+ risk attributes per transaction",
+   "tier": "",
+   "url": "https://www.cnbc.com/2024/07/26/ai-and-machine-learning-helped-visa-combat-40-billion-in-fraud-activity.html",
+   "raw_sector": "",
+   "date": "2024",
+   "fresh": "aging"
+  },
+  {
+   "company": "Visa Inc.",
+   "use": "Visa Intelligent Commerce with OpenAI: platform embedding Visa payment credentials, controls and protections so AI agents (including within ChatGPT) can initiate and complete purchases securely on users' behalf. [OpenAI (ChatGPT agents)]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://corporate.visa.com/en/sites/visa-perspectives/innovation/visa-openai-partnership.html",
+   "raw_sector": "",
+   "date": "2026-06",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Visa Inc.",
+   "use": "Six new AI-powered dispute-resolution tools that use generative AI to manage credit-card charge disputes, including generative-AI responses and 'win-prediction scoring' to maximize recovery for merchants and issuers. [Visa generative AI]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.cnbc.com/2026/04/01/visa-ai-tools-dispute-management.html",
+   "raw_sector": "",
+   "date": "2026-04",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Visa Inc.",
+   "use": "Visa Account Attack Intelligence (VAAI) Score: generative-AI solution that scores card-not-present transactions for likelihood of enumeration/account-attack, enabling issuers to block fraudulent activity in real time. [Visa generative AI]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://usa.visa.com/about-visa/newsroom/press-releases.releaseId.20661.html",
+   "raw_sector": "",
+   "date": "2024-05",
+   "fresh": "aging"
+  },
+  {
+   "company": "Visa Inc.",
+   "use": "Visa Provisioning Intelligence (VPI): ML-based product that rates the likelihood of fraud for token provisioning requests, helping issuers distinguish genuine from fraudulent token requests and reduce false positives. [Visa machine learning]",
+   "existence": "confirmed",
+   "value": "Targets ~$450 million in global token fraud losses (2022)",
+   "tier": "",
+   "url": "https://usa.visa.com/about-visa/newsroom/press-releases.releaseId.20251.html",
+   "raw_sector": "",
+   "date": "2023-12",
+   "fresh": "stale"
+  },
+  {
+   "company": "Visa Inc.",
+   "use": "Visa A2A Protect: real-time AI risk-scoring solution for account-to-account (real-time) payments that detects scams and fraud and assigns risk scores to help banks intercept suspicious transactions. [Visa AI]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://corporate.visa.com/en/products/visa-protect-a2a-payments.html",
+   "raw_sector": "",
+   "date": "2025",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Visa Inc.",
+   "use": "Visa Scam Disruption (VSD): a dedicated practice using generative-AI modeling on network-level data to detect complex scam behaviors, uncover hidden criminal relationships, and dismantle scam networks proactively. [Visa generative AI]",
+   "existence": "confirmed",
+   "value": "Prevented more than $350 million in attempted fraud in 2024; later disclosed uncovering $2.6bn in fraudulent activity",
+   "tier": "",
+   "url": "https://usa.visa.com/about-visa/newsroom/press-releases.releaseId.21286.html",
+   "raw_sector": "",
+   "date": "2025-03",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Visa Inc.",
+   "use": "Trusted Agent Protocol: an ecosystem framework for agentic commerce that authenticates AI shopping agents and enables secure communication between AI agents and merchants to prevent fraud (adopted with partners such as Akamai). [Visa (ecosystem: Akamai, Cloudflare and others)]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://investor.visa.com/news/news-details/2025/Visa-Introduces-Trusted-Agent-Protocol-An-Ecosystem-Led-Framework-for-AI-Commerce/default.aspx",
+   "raw_sector": "",
+   "date": "2025-10",
+   "fresh": "fresh"
   }
  ]
 }

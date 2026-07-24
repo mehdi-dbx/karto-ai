@@ -3,45 +3,55 @@
  "name": "Amazon",
  "cc": "US",
  "vertical": "Retail & E-commerce",
- "deployments": 1,
- "confirmed": 1,
- "with_value_number": 1,
- "proof_rate": 1.0,
+ "deployments": 13,
+ "confirmed": 12,
+ "with_value_number": 4,
+ "proof_rate": 0.308,
  "mktcap": 2520000000000.0,
  "revenue": 742780000000.0,
  "employees": 1576000.0,
  "silent": false,
- "per_bn_revenue": 0.0,
- "per_10k_emp": 0.01,
+ "per_bn_revenue": 0.02,
+ "per_10k_emp": 0.08,
  "benchmarks": {
   "global_vertical": {
-   "deployments": 0,
-   "confirmed": 26,
-   "proof_rate": 73,
+   "deployments": 98,
+   "confirmed": 99,
+   "proof_rate": 66,
    "n": 295
   },
   "country_vertical": {
-   "deployments": 0,
-   "confirmed": 29,
-   "proof_rate": 77,
+   "deployments": 96,
+   "confirmed": 97,
+   "proof_rate": 76,
    "n": 80
   }
  },
- "first_seen": 2025,
+ "first_seen": 2023,
  "by_year": [
   {
+   "year": 2023,
+   "n": 2
+  },
+  {
+   "year": 2024,
+   "n": 3
+  },
+  {
    "year": 2025,
-   "n": 1
+   "n": 8
   }
  ],
  "undated_pct": 0,
- "momentum": "rising",
- "maturity": "L3",
+ "momentum": "early_mover,rising",
+ "maturity": "L4",
  "maturity_evidence": [
+  "multi_horizontal",
   "named_product:Rufus",
-  "value_number"
+  "value_number",
+  "multi_year"
  ],
- "prospect_score": 6,
+ "prospect_score": 88,
  "stack": [
   "Amazon AWS"
  ],
@@ -57,6 +67,138 @@
    "raw_sector": "Consumer Discretionary",
    "date": "2025",
    "fresh": "fresh"
+  },
+  {
+   "company": "Amazon",
+   "use": "Sequoia integrated robotic fulfillment system (mobile robots, gantries, robotic arms including Sparrow) that identifies, stores and processes inventory in fulfillment centers, first deployed at a Houston, TX facility. [Amazon Robotics]",
+   "existence": "confirmed",
+   "value": "up to 75% faster inventory storage; up to 25% faster order processing",
+   "tier": "",
+   "url": "https://www.aboutamazon.com/news/operations/amazon-introduces-new-robotics-solutions",
+   "raw_sector": "",
+   "date": "2023",
+   "fresh": "stale"
+  },
+  {
+   "company": "Amazon",
+   "use": "Vulcan, Amazon's first warehouse robot with a sense of touch, using force-feedback sensors and 'physical AI' to pick and stow items in hard-to-reach pod compartments; operational at fulfillment centers in Spokane WA (GEG1) and Hamburg, Germany. [Amazon Robotics (physical AI, force-feedback)]",
+   "existence": "confirmed",
+   "value": "handles ~75% of stored item varieties",
+   "tier": "",
+   "url": "https://www.aboutamazon.com/news/operations/amazon-vulcan-robot-pick-stow-touch",
+   "raw_sector": "",
+   "date": "2025",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Amazon",
+   "use": "Project Eluna, an agentic AI operations tool that processes real-time and historical fulfillment-center data and returns natural-language insights to help operators anticipate bottlenecks and make faster decisions; deployed at a Tennessee fulfillment center. [Amazon (agentic AI)]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.aboutamazon.com/news/operations/amazon-delivering-future-2025-online-shopping-speed-delivery",
+   "raw_sector": "",
+   "date": "2025",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Amazon",
+   "use": "Blue Jay, a robotics system that coordinates multiple robotic arms to pick, stow and consolidate items simultaneously (combining three assembly lines into one); in testing at a South Carolina facility. [Amazon Robotics]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.aboutamazon.com/news/operations/amazon-delivering-future-2025-online-shopping-speed-delivery",
+   "raw_sector": "",
+   "date": "2025",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Amazon",
+   "use": "Amazon Q Developer, generative-AI software-development assistant across IDEs, CLI, AWS Console and Slack/Teams, offering code suggestions, security scanning, agentic testing/docs/review and application transformation (Java upgrades, .NET porting). [Amazon Q (built on Amazon Bedrock)]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://aws.amazon.com/q/developer/",
+   "raw_sector": "",
+   "date": "2024",
+   "fresh": "aging"
+  },
+  {
+   "company": "Amazon",
+   "use": "Seller Assistant (evolution of Project Amelia), an agentic AI partner in Seller Central that reasons, plans and takes actions to manage inventory/FBA, account health, compliance and advertising; available to all U.S. sellers at no extra cost. [Amazon Bedrock; Amazon Nova + Anthropic Claude]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.aboutamazon.com/news/innovation-at-amazon/seller-assistant-agentic-ai",
+   "raw_sector": "",
+   "date": "2025",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Amazon",
+   "use": "AI-powered seller product-launch tools including Opportunity Explorer, which analyzes billions of customer interactions (searches, clicks, purchases) to surface demand signals, trending features and pricing expectations, plus Unmet Demand Insights generating AI product proposals and forecasts. [Amazon (generative AI)]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.aboutamazon.com/news/innovation-at-amazon/amazon-ai-tools-sellers-product-launch",
+   "raw_sector": "",
+   "date": "2025",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Amazon",
+   "use": "Rufus, a generative-AI shopping assistant in the Amazon Shopping app and desktop that answers product questions, compares options and gives recommendations, trained on Amazon's catalog, reviews, Q&As and web data. Rolled out to all U.S. customers (later renamed Alexa for Shopping). [Amazon in-house LLMs on AWS (Bedrock/Trainium)]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.aboutamazon.com/news/retail/amazon-rufus",
+   "raw_sector": "",
+   "date": "2024",
+   "fresh": "aging"
+  },
+  {
+   "company": "Amazon",
+   "use": "Alexa+, the next-generation conversational generative-AI assistant across Echo devices, Fire TV, the Alexa app and Alexa.com, using an 'experts' orchestration layer over tens of thousands of services/devices for agentic tasks (smart home, food delivery, scheduling, travel). [Amazon Bedrock; Amazon Nova + Anthropic Claude]",
+   "existence": "confirmed",
+   "value": "$19.99/month, free with Prime",
+   "tier": "",
+   "url": "https://www.aboutamazon.com/news/devices/new-alexa-generative-artificial-intelligence",
+   "raw_sector": "",
+   "date": "2025",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Amazon",
+   "use": "Kindle Translate, an AI-powered eBook translation service for Kindle Direct Publishing authors, with automatic quality/accuracy evaluation before publication; supports English paired with Spanish, German, French, Italian and Portuguese. [Amazon (AI translation)]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.aboutamazon.com/news/books-and-authors/amazon-kindle-translate-books-authors",
+   "raw_sector": "",
+   "date": "2025-11",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Amazon",
+   "use": "AI-generated review highlights on product detail pages: a generative-AI paragraph summarizing shared positive, neutral and negative customer opinions from verified-purchase text reviews. Live in the U.S., UK, Australia, India, Singapore and UAE. [Amazon (generative AI)]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.aboutamazon.com/news/retail/amazon-ai-generated-review-highlights",
+   "raw_sector": "",
+   "date": "2023",
+   "fresh": "stale"
+  },
+  {
+   "company": "Amazon",
+   "use": "Amazon Nova family of foundation models (Micro/Lite/Pro, plus Nova Act for agents and creative-generation models), deployed and available to customers via Amazon Bedrock and nova.amazon.com; used by customers including Hertz, 1Password and Amazon Leo. [Amazon Nova on AWS Bedrock]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.aboutamazon.com/news/aws/amazon-nova-foundation-models-guide",
+   "raw_sector": "",
+   "date": "2024",
+   "fresh": "aging"
   }
  ]
 }

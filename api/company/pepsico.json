@@ -3,45 +3,64 @@
  "name": "PepsiCo",
  "cc": "US",
  "vertical": "Retail & E-commerce",
- "deployments": 1,
- "confirmed": 1,
- "with_value_number": 0,
- "proof_rate": 0.0,
+ "deployments": 12,
+ "confirmed": 11,
+ "with_value_number": 5,
+ "proof_rate": 0.417,
  "mktcap": 184230000000.0,
  "revenue": 96900000000.0,
  "employees": 306000.0,
  "silent": false,
- "per_bn_revenue": 0.01,
- "per_10k_emp": 0.03,
+ "per_bn_revenue": 0.12,
+ "per_10k_emp": 0.39,
  "benchmarks": {
   "global_vertical": {
-   "deployments": 0,
-   "confirmed": 26,
-   "proof_rate": 0,
+   "deployments": 96,
+   "confirmed": 97,
+   "proof_rate": 69,
    "n": 295
   },
   "country_vertical": {
-   "deployments": 0,
-   "confirmed": 29,
-   "proof_rate": 0,
+   "deployments": 91,
+   "confirmed": 91,
+   "proof_rate": 77,
    "n": 80
   }
  },
- "first_seen": 2025,
+ "first_seen": 2019,
  "by_year": [
   {
-   "year": 2025,
+   "year": 2019,
+   "n": 2
+  },
+  {
+   "year": 2021,
    "n": 1
+  },
+  {
+   "year": 2023,
+   "n": 1
+  },
+  {
+   "year": 2025,
+   "n": 4
+  },
+  {
+   "year": 2026,
+   "n": 3
   }
  ],
- "undated_pct": 0,
- "momentum": "rising",
- "maturity": "L3",
+ "undated_pct": 8,
+ "momentum": "early_mover,rising",
+ "maturity": "L4",
  "maturity_evidence": [
+  "multi_horizontal",
   "named_product:Siemens",
+  "value_number",
+  "multi_year",
   "tier_p"
  ],
- "prospect_score": 46,
+ "prospect_score": 83,
  "stack": [
   "Google Cloud",
   "NVIDIA"
@@ -57,6 +76,127 @@
    "url": "https://www.pepsico.com/newsroom/press-releases/2025/pepsico-announces-industry-first-ai-and-digital-twin-collaboration-with-siemens-and-nvidia",
    "raw_sector": "Consumer Staples",
    "date": "2025",
+   "fresh": "fresh"
+  },
+  {
+   "company": "PepsiCo",
+   "use": "Enterprise-wide rollout of Microsoft 365 Copilot as the generative AI foundation for the workforce, integrated across Teams, meetings, email, files and chats for over 250,000 employees in 200 countries. [Microsoft 365 Copilot]",
+   "existence": "confirmed",
+   "value": "90-95% daily active use rate; 250,000+ employees",
+   "tier": "",
+   "url": "https://www.microsoft.com/en/customers/story/26141-pepsico-microsoft-teams",
+   "raw_sector": "",
+   "date": "2026-02",
+   "fresh": "fresh"
+  },
+  {
+   "company": "PepsiCo",
+   "use": "AI-powered frontline hiring platform automating resume screening, candidate scheduling, interviews and answering candidate questions to support high-volume frontline recruiting. [Paradox]",
+   "existence": "confirmed",
+   "value": "Supports ~60,000 hires a year",
+   "tier": "",
+   "url": "https://www.paradox.ai/podcast/hr-leaders-pepsico-blair-bennett-60000-hires",
+   "raw_sector": "",
+   "date": "2026",
+   "fresh": "fresh"
+  },
+  {
+   "company": "PepsiCo",
+   "use": "AI-powered creative production platform generating e-commerce ad/visual media assets, deployed globally to accelerate campaign creative throughput across US and international markets. [IT'SRAPID]",
+   "existence": "confirmed",
+   "value": "Asset creation cut from 2-3 hours to 2-3 minutes; design time from 4-5 weeks to 15 minutes; CTR up to 5X higher",
+   "tier": "",
+   "url": "https://itsrapid.ai/how-pepsico-designs-visual-media-10x-faster-and-boosts-ctrs-by-up-to-82-using-itsrapid/",
+   "raw_sector": "",
+   "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "PepsiCo",
+   "use": "Azure Machine Learning models identifying consumer shopping trends and producing store-level actionable insights for sales/merchandising teams. [Microsoft Azure Machine Learning]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.microsoft.com/en/customers/story/754571-pepsico-consumer-goods-azure-machine-learning",
+   "raw_sector": "",
+   "date": "2021-01",
+   "fresh": "stale"
+  },
+  {
+   "company": "PepsiCo",
+   "use": "Physics-based digital twins and AI agents to simulate and optimize plant operations, warehouses and end-to-end supply chain, validating facility configurations virtually before physical construction. Pilots running in US facilities, scaling globally. [Siemens Digital Twin Composer, NVIDIA Omniverse]",
+   "existence": "confirmed",
+   "value": "20% throughput increase; up to 90% of issues identified before physical modification; 10-15% capex reduction on initial deployment",
+   "tier": "",
+   "url": "https://www.pepsico.com/en/newsroom/press-releases/2025/pepsico-announces-industry-first-ai-and-digital-twin-collaboration-with-siemens-and-nvidia",
+   "raw_sector": "",
+   "date": "2025",
+   "fresh": "fresh"
+  },
+  {
+   "company": "PepsiCo",
+   "use": "AI-driven demand forecasting predicting daily store-level snack demand from weather, social media, local events, seasonality, pricing and historical sales, optimizing truck stock and orders across thousands of distribution routes and sales reps. [TAZI AI (on AWS)]",
+   "existence": "confirmed",
+   "value": "98% accuracy for 86% of products; truck stock-out rates reduced 4%; average order size +3.1%; SKUs per order +16%",
+   "tier": "",
+   "url": "https://chiefaiofficer.com/how-pepsicos-ai-demand-forecasting-achieved-98-accuracy-and-reduced-stock-outs-by-4/",
+   "raw_sector": "",
+   "date": "2025",
+   "fresh": "fresh"
+  },
+  {
+   "company": "PepsiCo",
+   "use": "Multi-year strategic collaboration using Google Cloud's Gemini Enterprise Agent Platform to build AI agents for supply chain management, go-to-market/in-store execution, data analytics and workforce automation. [Google Cloud Gemini Enterprise Agent Platform (Vertex AI)]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.pepsico.com/en/newsroom/press-releases/2026/pepsico-deepens-ai-capabilties-with-google-cloud",
+   "raw_sector": "",
+   "date": "2026-04",
+   "fresh": "fresh"
+  },
+  {
+   "company": "PepsiCo",
+   "use": "Computer vision and acoustic AI on Frito-Lay production lines: algorithms analyze the sound and images of chips to automate texture/quality checks, plus predictive maintenance detecting equipment faults like conveyor wear.",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.forbes.com/sites/bernardmarr/2019/04/05/the-fascinating-ways-pepsico-uses-artificial-intelligence-and-machine-learning-to-deliver-success/",
+   "raw_sector": "",
+   "date": "2019",
+   "fresh": "stale"
+  },
+  {
+   "company": "PepsiCo",
+   "use": "Snackbot autonomous self-driving snack-delivery robots using facial and voice recognition and self-navigation to deliver snacks to designated campus drop points via an ordering app. [Robby Technologies]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.forbes.com/sites/douglasyu/2019/01/22/pepsico-sees-future-in-artificial-intelligence-after-launching-snack-delivery-robot/",
+   "raw_sector": "",
+   "date": "2019-01",
+   "fresh": "stale"
+  },
+  {
+   "company": "PepsiCo",
+   "use": "Generative AI for consumer insights and product/flavor innovation — analyzing social media, recipes and consumer feedback on taste, texture and packaging to identify emerging trends and guide new product development (e.g., zero-sugar soda formulation). [Tastewise]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://tastewise.io/",
+   "raw_sector": "",
+   "date": "2023",
+   "fresh": "stale"
+  },
+  {
+   "company": "PepsiCo",
+   "use": "Deploying Salesforce Agentforce AI agents across sales, customer service and IT — including autonomous service agents in internal call centers, field/retail engagement, and trade promotion management, built on Data Cloud, Consumer Goods Cloud and Service Cloud. [Salesforce Agentforce]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.salesforce.com/customer-stories/pepsico/",
+   "raw_sector": "",
+   "date": "2025-06",
    "fresh": "fresh"
   }
  ]

@@ -3,40 +3,50 @@
  "name": "Nippon Telegraph & Telephone Corp.",
  "cc": "JP",
  "vertical": "Telecom",
- "deployments": 1,
- "confirmed": 1,
- "with_value_number": 1,
- "proof_rate": 1.0,
+ "deployments": 12,
+ "confirmed": 9,
+ "with_value_number": 10,
+ "proof_rate": 0.833,
  "mktcap": 82533333333.0,
  "revenue": 96066666667.0,
  "employees": 344196.0,
  "silent": false,
- "per_bn_revenue": 0.01,
- "per_10k_emp": 0.03,
+ "per_bn_revenue": 0.12,
+ "per_10k_emp": 0.35,
  "benchmarks": {
   "global_vertical": {
-   "deployments": 0,
-   "confirmed": 16,
-   "proof_rate": 68,
+   "deployments": 97,
+   "confirmed": 92,
+   "proof_rate": 75,
    "n": 93
   }
  },
- "first_seen": 2026,
+ "first_seen": 2024,
  "by_year": [
   {
+   "year": 2024,
+   "n": 2
+  },
+  {
+   "year": 2025,
+   "n": 5
+  },
+  {
    "year": 2026,
-   "n": 1
+   "n": 5
   }
  ],
  "undated_pct": 0,
- "momentum": "late_entrant,rising",
- "maturity": "L3",
+ "momentum": "early_mover,rising",
+ "maturity": "L4",
  "maturity_evidence": [
+  "multi_horizontal",
   "named_product:Own",
   "value_number",
+  "multi_year",
   "tier_p"
  ],
- "prospect_score": 6,
+ "prospect_score": 61,
  "stack": [
   "Microsoft Azure"
  ],
@@ -51,6 +61,127 @@
    "url": "https://group.ntt/jp/newsrelease/2025/10/20/251020a.html",
    "raw_sector": "Communications",
    "date": "2026-05",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Nippon Telegraph & Telephone Corp.",
+   "use": "tsuzumi 2, NTT's next-generation lightweight Japanese enterprise LLM that runs on a single GPU on-premises/private cloud, with enhanced financial, medical and public-sector domain knowledge and RAG/fine-tuning support. Adopted by Tokyo Online University for course Q&A, teaching-material and exam creation. [NTT (tsuzumi 2, proprietary)]",
+   "existence": "confirmed",
+   "value": "world-top results among comparable-size models in Japanese; internal financial-inquiry evaluation matched or exceeded leading external models",
+   "tier": "",
+   "url": "https://group.ntt/en/newsrelease/2025/10/20/251020a.html",
+   "raw_sector": "",
+   "date": "2025-10",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Nippon Telegraph & Telephone Corp.",
+   "use": "DOCOMO commercial agentic AI system for mobile-network maintenance that analyzes real-time traffic and alarm data from over one million network devices, detects anomalies, identifies suspected failure points and recommends remediation to maintenance engineers. [AWS (Amazon Bedrock AgentCore)]",
+   "existence": "confirmed",
+   "value": "reduces response time for complex network failures by more than 50%",
+   "tier": "",
+   "url": "https://en.acnnewswire.com/press-release/english/105304/docomo-begins-commercial-deployment-of-agentic-ai-system-for-network-maintenance-using-one-of-the-world's-largest-datasets",
+   "raw_sector": "",
+   "date": "2026-02",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Nippon Telegraph & Telephone Corp.",
+   "use": "NTT DATA expanded partnership with Google Cloud to build a dedicated global Gemini Enterprise practice and co-develop reusable AI agents for banking, insurance, manufacturing and retail, using a forward-deployed-engineer model. [Google Cloud (Gemini Enterprise)]",
+   "existence": "claimed",
+   "value": "targets 5,000 certified experts and up to 500 co-developed AI agents",
+   "tier": "",
+   "url": "https://www.nttdata.com/global/en/news/press-release/2026/june/060900",
+   "raw_sector": "",
+   "date": "2026-06",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Nippon Telegraph & Telephone Corp.",
+   "use": "NTT DOCOMO generative-AI apps built on Allganize's Alli LLM App Market: an app that auto-generates Q&A pairs from Docomo Shop staff/Support Center chat logs and manuals, plus a RAG app for internal administrative-department inquiries in regional offices. [Allganize (Alli LLM App Market)]",
+   "existence": "confirmed",
+   "value": "Q&A creation time reduced ~10 hours per month; 30% improvement in answer accuracy via retriever optimization",
+   "tier": "",
+   "url": "https://www.allganize.ai/en/blog/case-study-ntt-docomo-leveraging-the-alli-llm-app-market-to-enhance-operational-efficiency-with-generative-ai",
+   "raw_sector": "",
+   "date": "2024",
+   "fresh": "aging"
+  },
+  {
+   "company": "Nippon Telegraph & Telephone Corp.",
+   "use": "NTT DOCOMO Communication AI for automated customer service that matches customer speech rate, tailors recommendations from behavioral/attribute data, and uses question-in-return technology to clarify ambiguous inquiries; tested at chat support desk. [NTT DOCOMO (Speech DX Platform, docomo Sense)]",
+   "existence": "claimed",
+   "value": "purpose-identification accuracy improved from 66.80% to 82.18% on 247 real inquiries (PoC)",
+   "tier": "",
+   "url": "https://www.docomo.ne.jp/english/corporate/technology/rd/technical_journal/bn/vol26_4/002.html",
+   "raw_sector": "",
+   "date": "2024",
+   "fresh": "aging"
+  },
+  {
+   "company": "Nippon Telegraph & Telephone Corp.",
+   "use": "NTT DATA internal enterprise AI agents letting employees query real-time data in natural language: HR workforce/chargeability analysis, back-office KPI monitoring, and a sales coach that preps reps, drafts proposals and generates client insights. [Microsoft (Fabric data agents, Azure AI Agent Service)]",
+   "existence": "confirmed",
+   "value": "50% faster time to market for solution development",
+   "tier": "",
+   "url": "https://www.microsoft.com/en/customers/story/23654-ntt-data-azure-ai-agent-service",
+   "raw_sector": "",
+   "date": "2025",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Nippon Telegraph & Telephone Corp.",
+   "use": "NTT DATA AI-powered incident/change-management solution that ingests thousands of daily change-log entries via a ReactJS UI, performs risk prediction and generates remediation guidance using vector similarity search and an LLM. [Lyzr AI agents; GPT-4o-mini; Qdrant; Okta; Azure Cosmos DB]",
+   "existence": "confirmed",
+   "value": "70,000+ hours saved",
+   "tier": "",
+   "url": "https://www.lyzr.ai/case-studies/ntt-data/",
+   "raw_sector": "",
+   "date": "2025",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Nippon Telegraph & Telephone Corp.",
+   "use": "NTT DATA enterprise-wide rollout of OpenAI Codex for coding and non-technical tasks, including system fault analysis; supported by an internal OpenAI Excellence Center and security guidelines. [OpenAI (Codex, ChatGPT Enterprise)]",
+   "existence": "confirmed",
+   "value": "cut a 5-engineer/3-day fault analysis to 30 minutes; ~9,000 employees using it; 95% reported productivity improvement; 1.4x weekly active users after training",
+   "tier": "",
+   "url": "https://news.aibase.com/news/29832",
+   "raw_sector": "",
+   "date": "2026",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Nippon Telegraph & Telephone Corp.",
+   "use": "NTT and NTT DOCOMO's jointly developed Large Action Model (LAM), a Transformer specialized for time-series behavioral data, deployed in DOCOMO telemarketing to predict customer intent (4W1H) for personalized 1-to-1 marketing of mobile and smart-life services. [NTT / NTT DOCOMO (proprietary LAM)]",
+   "existence": "confirmed",
+   "value": "telemarketing order rates improved up to 2x; model trained in 145 GPU hours (~1/568th cost of Llama-1 7B)",
+   "tier": "",
+   "url": "https://group.ntt/en/newsrelease/2025/11/12/251112a.html",
+   "raw_sector": "",
+   "date": "2025-11",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Nippon Telegraph & Telephone Corp.",
+   "use": "NTT DATA AI-powered Cyber Defense Centers providing 24x7 unified threat monitoring with agentic AI that autonomously triages, analyzes and hunts incidents; four centers operational in India (Bengaluru, Hyderabad, Noida, Mumbai) with more planned. [NTT DATA (agentic AI SOC; unnamed platform partners)]",
+   "existence": "confirmed",
+   "value": "up to 90% alert reduction; up to 60% faster mean time to detect/respond; supports 800+ analysts and 1,200+ clients",
+   "tier": "",
+   "url": "https://uk.nttdata.com/news/2025/ntt-data-ai-cyber-defense-centers-launch",
+   "raw_sector": "",
+   "date": "2025",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Nippon Telegraph & Telephone Corp.",
+   "use": "NTT DATA and NTT DOCOMO Business Cyber Risk Response Service using frontier AI for end-to-end vulnerability management: threat/vulnerability detection, AI impact assessment, risk prioritization by asset criticality, and remediation strategy/execution. [NTT DATA / NTT DOCOMO Business (multiple frontier AI providers)]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://finance.biggo.com/news/ir_9613.T_20260707_d3af06e82923",
+   "raw_sector": "",
+   "date": "2026-07",
    "fresh": "fresh"
   }
  ]

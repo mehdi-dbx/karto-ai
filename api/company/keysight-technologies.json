@@ -3,40 +3,60 @@
  "name": "Keysight Technologies",
  "cc": "US",
  "vertical": "Technology",
- "deployments": 1,
- "confirmed": 1,
- "with_value_number": 0,
- "proof_rate": 0.0,
+ "deployments": 11,
+ "confirmed": 9,
+ "with_value_number": 2,
+ "proof_rate": 0.182,
  "mktcap": 56180000000.0,
  "revenue": 6090000000.0,
  "employees": 16800.0,
  "silent": false,
- "per_bn_revenue": 0.16,
- "per_10k_emp": 0.6,
+ "per_bn_revenue": 1.81,
+ "per_10k_emp": 6.55,
  "benchmarks": {
   "global_vertical": {
-   "deployments": 0,
-   "confirmed": 6,
-   "proof_rate": 0,
+   "deployments": 92,
+   "confirmed": 91,
+   "proof_rate": 61,
    "n": 156
   },
   "country_vertical": {
-   "deployments": 0,
-   "confirmed": 4,
-   "proof_rate": 0,
+   "deployments": 92,
+   "confirmed": 88,
+   "proof_rate": 73,
    "n": 74
   }
  },
- "first_seen": null,
- "by_year": [],
- "undated_pct": 100,
- "momentum": "none",
- "maturity": "L3",
+ "first_seen": 2023,
+ "by_year": [
+  {
+   "year": 2023,
+   "n": 1
+  },
+  {
+   "year": 2024,
+   "n": 1
+  },
+  {
+   "year": 2025,
+   "n": 4
+  },
+  {
+   "year": 2026,
+   "n": 4
+  }
+ ],
+ "undated_pct": 9,
+ "momentum": "early_mover,rising",
+ "maturity": "L4",
  "maturity_evidence": [
+  "multi_horizontal",
   "named_product:Keysight",
+  "value_number",
+  "multi_year",
   "tier_p"
  ],
- "prospect_score": 54,
+ "prospect_score": 95,
  "stack": [],
  "vendor_named": false,
  "deployments_detail": [
@@ -50,6 +70,116 @@
    "raw_sector": "Information Technology",
    "date": "missing",
    "fresh": "undated"
+  },
+  {
+   "company": "Keysight Technologies",
+   "use": "SOS Enterprise: engineering data-management platform that automates data governance, tagging, versioning and traceability to make semiconductor design data 'AI-ready' for enterprise-scale AI adoption and regulatory compliance.",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.keysight.com/fr/en/about/newsroom/news-releases/2026/0210-pr26-034-keysight-enables-enterprise-scale-ai-adoption-in-semiconductor-design-with-sos-enterprise.html",
+   "raw_sector": "",
+   "date": "2026-02",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Keysight Technologies",
+   "use": "Eggplant Test / Keysight Generator: generative-AI and model-based test-case generation that automatically creates and maintains executable software test assets, expanding coverage and detecting defects earlier. Keysight was named a Leader in the 2025 Gartner MQ for AI-Augmented Software Testing Tools.",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.keysight.com/us/en/products/software/software-testing/eggplant-test.html",
+   "raw_sector": "",
+   "date": "2025",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Keysight Technologies",
+   "use": "Internal software-development use of AI coding assistance: Keysight states it uses AI for internal product development/productivity and describes using GitHub Copilot to automate repetitive coding tasks like debugging and testing. [GitHub Copilot (Microsoft/GitHub)]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.keysight.com/blogs/en/inds/ai/innovating-with-ai-for-customer-success",
+   "raw_sector": "",
+   "date": "2023-10",
+   "fresh": "stale"
+  },
+  {
+   "company": "Keysight Technologies",
+   "use": "AI-powered Chat (Learning Assistant) and Copilot (Tool Assistant) virtual assistants embedded in Advanced Design System (ADS) software; the on-prem Copilot executes commands in SIPro/RFPro EM simulation to automate repetitive design tasks. Learning Assistant shipped in ADS 2026 Update 1; Copilot in early-access. [On-prem language models fine-tuned on Keysight design expertise (vendor unnamed)]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.keysight.com/us/en/about/newsroom/news-releases/2025/1216_pr26-017-keysight-accelerates-electronic-design-productivity-with-secure-ai-powered-assistants.html",
+   "raw_sector": "",
+   "date": "2025-12",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Keysight Technologies",
+   "use": "AI Software Integrity Builder (AX1000A): a launched software solution for validating and maintaining AI-enabled systems in safety-critical (e.g. automotive) environments, spanning dataset analysis, model-based validation, inference-based testing and continuous monitoring for data drift.",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.keysight.com/us/en/about/newsroom/news-releases/2026/0106_pr26-012-keysight-launches-software-solution-to-ensure-trustworthy-ai-deployment-in-safety-critical-environments.html",
+   "raw_sector": "",
+   "date": "2026-01",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Keysight Technologies",
+   "use": "Keysight AI (KAI) Data Center Test Platform / KAI architecture: tunable AI-workload emulation, pre-packaged benchmarking apps and dataset-analysis tools to identify performance inhibitors in large GPU deployments and validate AI/ML network fabrics at scale.",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.keysight.com/us/en/about/newsroom/news-releases/2025/0401-pr25-052-keysight-unveils-architecture-for-scaling-ai-data-centers.html",
+   "raw_sector": "",
+   "date": "2025-04",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Keysight Technologies",
+   "use": "AI-for-RAN: Keysight, Samsung and NVIDIA trained and integrated an AI channel-estimation model into Samsung's vRAN software, validated with Keysight channel emulation on the NVIDIA AI Aerial platform (GH200), demonstrated end-to-end at MWC 2025. [NVIDIA (AI Aerial, GH200 Grace Hopper); Samsung]",
+   "existence": "confirmed",
+   "value": "30% better cell-edge throughput vs static rules-based approach",
+   "tier": "",
+   "url": "https://www.keysight.com/us/en/about/newsroom/news-releases/2025/0304-pr25-054-keysight-and-samsung-advance-ai-for-ran-based-on-the-nvidia-ai-aerial-platform.html",
+   "raw_sector": "",
+   "date": "2025-03",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Keysight Technologies",
+   "use": "Machine Learning Toolkit for device modeling and PDK development: ML-driven modeling that shortens design-technology co-optimization (DTCO) feedback loops between device and circuit design.",
+   "existence": "confirmed",
+   "value": "Reduces PDK development cycles from weeks to days",
+   "tier": "",
+   "url": "https://www.keysight.com/us/en/about/newsroom/news-releases/2026/0115_pr26-024-keysight-unveils-machine-learning-toolkit-to-accelerate-device-modeling-and-pdk-development.html",
+   "raw_sector": "",
+   "date": "2026-01",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Keysight Technologies",
+   "use": "KAI Inference Builder: AI inference emulation platform (with NVIDIA Air AI-factory simulation) to validate and optimize AI inference infrastructure performance. [NVIDIA (Air AI factory simulation)]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.keysight.com/us/en/about/newsroom/news-releases/2026/0317_pr26-040-keysight-launches-ai-inference-emulation-platform-to-validate-and-optimize-ai-infrastructure.html",
+   "raw_sector": "",
+   "date": "2026-03",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Keysight Technologies",
+   "use": "Keysight Global Services (KTAS) deployed generative AI in its customer Support Portal / Knowledge Center for self-serve answers, plus LLM-assisted technician diagnostics and an AI classification system that routes/categorizes support cases in the right language across >100K cases/year.",
+   "existence": "confirmed",
+   "value": "90% of cases reach the right person the first time; KTAS customer satisfaction 90%+",
+   "tier": "",
+   "url": "https://www.keysight.com/blogs/en/inds/ai/how-ai-is-helping-keysight-transform-customer-service",
+   "raw_sector": "",
+   "date": "2024-09",
+   "fresh": "aging"
   }
  ]
 }

@@ -3,39 +3,59 @@
  "name": "Bunge Global",
  "cc": "US",
  "vertical": "Retail & E-commerce",
- "deployments": 1,
- "confirmed": 1,
- "with_value_number": 1,
- "proof_rate": 1.0,
+ "deployments": 7,
+ "confirmed": 5,
+ "with_value_number": 3,
+ "proof_rate": 0.429,
  "mktcap": 23860000000.0,
  "revenue": 80550000000.0,
  "employees": 22000.0,
  "silent": false,
- "per_bn_revenue": 0.01,
- "per_10k_emp": 0.45,
+ "per_bn_revenue": 0.09,
+ "per_10k_emp": 3.18,
  "benchmarks": {
   "global_vertical": {
-   "deployments": 0,
-   "confirmed": 26,
-   "proof_rate": 73,
+   "deployments": 90,
+   "confirmed": 92,
+   "proof_rate": 70,
    "n": 295
   },
   "country_vertical": {
-   "deployments": 0,
-   "confirmed": 29,
-   "proof_rate": 77,
+   "deployments": 80,
+   "confirmed": 82,
+   "proof_rate": 80,
    "n": 80
   }
  },
- "first_seen": null,
- "by_year": [],
- "undated_pct": 100,
- "momentum": "none",
- "maturity": "L3",
- "maturity_evidence": [
-  "value_number"
+ "first_seen": 2021,
+ "by_year": [
+  {
+   "year": 2021,
+   "n": 1
+  },
+  {
+   "year": 2023,
+   "n": 1
+  },
+  {
+   "year": 2024,
+   "n": 2
+  },
+  {
+   "year": 2025,
+   "n": 1
+  }
  ],
- "prospect_score": 14,
+ "undated_pct": 29,
+ "momentum": "early_mover,cooling",
+ "maturity": "L4",
+ "maturity_evidence": [
+  "multi_horizontal",
+  "named_product:Machine",
+  "value_number",
+  "multi_year"
+ ],
+ "prospect_score": 61,
  "stack": [],
  "vendor_named": false,
  "deployments_detail": [
@@ -49,6 +69,72 @@
    "raw_sector": "Consumer Staples",
    "date": "missing",
    "fresh": "undated"
+  },
+  {
+   "company": "Bunge Global",
+   "use": "Machine-learning freight cost forecasting for grain transportation: route-specific biweekly cost predictions with 'what-if' scenario simulation, replacing simplistic legacy models. Built as a fully automated ML pipeline from data ingestion to model deployment. [Zallpy Digital; Google Cloud (BigQuery, Cloud Run, Cloud Functions), Terraform, MLFlow]",
+   "existence": "confirmed",
+   "value": "enhanced forecast accuracy vs legacy models; reduced manual work",
+   "tier": "",
+   "url": "https://www.zallpy.com/en/cases/bunge",
+   "raw_sector": "",
+   "date": "2023",
+   "fresh": "stale"
+  },
+  {
+   "company": "Bunge Global",
+   "use": "Bunge Food Solutions Data Center of Excellence: data-science team designing, developing and deploying predictive models and machine-learning algorithms to optimize commercial processes over large datasets. (Note: source is a job posting; the computer-vision/deep-learning element is not supported by the source and should be treated as embellishment.)",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://appliedeconjobs.substack.com/p/data-scientist-at-bunge",
+   "raw_sector": "",
+   "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "Bunge Global",
+   "use": "Machine-learning tool ('magic button') that forecasts commodity market prices and customer demand to optimize vegetable-oil sourcing and hedge FX risk across dozens of global markets; uses three algorithms on global pricing and historical European sales data. Reported operational and actively used to manage a worldwide customer account. [Boeing Center for Supply Chain Innovation, Washington University in St. Louis (Olin Business School)]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://olin.washu.edu/about/news-and-media/news/2025/10/boeing-center-tool-helps-bunge-manage-commodities.php",
+   "raw_sector": "",
+   "date": "2025-10",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Bunge Global",
+   "use": "Satellite/farm-scale imagery, remote sensing and artificial intelligence with structured data to monitor land-use change and trace deforestation across direct and indirect soy suppliers in Brazil/Argentina/Paraguay (socio-environmental diagnosis at farm level).",
+   "existence": "confirmed",
+   "value": "100% traceability/monitoring of direct and indirect soy in priority Cerrado regions (Oct 2024); satellite monitoring of 16,000+ farms across up to 20 million hectares",
+   "tier": "",
+   "url": "https://bunge.com/Press-Releases/Supporting-Farmers-and-Customers-through-Responsible-Leadership",
+   "raw_sector": "",
+   "date": "2024",
+   "fresh": "aging"
+  },
+  {
+   "company": "Bunge Global",
+   "use": "Precision-agriculture partnership deploying AI-powered decision-support systems that combine field sensors/weather stations and satellite imagery to guide farmers on low-carbon/regenerative practices; digitizes farm data across Brazilian soy, corn and wheat operations. [xFarm Technologies]",
+   "existence": "confirmed",
+   "value": "~50,000 hectares digitized (goal 600,000 hectares by 2026)",
+   "tier": "",
+   "url": "https://www.xfarm.ag/en/blog-posts/bunge-rafforza-il-suo-ecosistema-di-agricoltura-rigenerativa-attraverso-una-partnership-strategica-con-xfarm-technologies",
+   "raw_sector": "",
+   "date": "2024-05",
+   "fresh": "aging"
+  },
+  {
+   "company": "Bunge Global",
+   "use": "Web-embedded conversational AI / live-chat widget on Bunge's public website for customer engagement, with synchronous messaging, agent escalation, transcript capture and reporting. [Ruby (Ruby Live Chat)]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.appsruntheworld.com/customers-database/customers/view/bunge-united-states",
+   "raw_sector": "",
+   "date": "2021",
+   "fresh": "stale"
   }
  ]
 }

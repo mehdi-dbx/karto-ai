@@ -3,46 +3,59 @@
  "name": "Kikkoman Corp.",
  "cc": "JP",
  "vertical": "Retail & E-commerce",
- "deployments": 2,
- "confirmed": 2,
+ "deployments": 9,
+ "confirmed": 7,
  "with_value_number": 0,
  "proof_rate": 0.0,
  "mktcap": 9933333333.0,
  "revenue": 4970266667.0,
  "employees": 7911.0,
  "silent": false,
- "per_bn_revenue": 0.4,
- "per_10k_emp": 2.53,
+ "per_bn_revenue": 1.81,
+ "per_10k_emp": 11.38,
  "benchmarks": {
   "global_vertical": {
-   "deployments": 79,
-   "confirmed": 88,
+   "deployments": 92,
+   "confirmed": 93,
    "proof_rate": 0,
    "n": 295
   },
   "country_vertical": {
-   "deployments": 67,
-   "confirmed": 79,
+   "deployments": 92,
+   "confirmed": 96,
    "proof_rate": 0,
    "n": 25
   }
  },
- "first_seen": 2025,
+ "first_seen": 2002,
  "by_year": [
   {
-   "year": 2025,
+   "year": 2002,
    "n": 1
+  },
+  {
+   "year": 2018,
+   "n": 1
+  },
+  {
+   "year": 2025,
+   "n": 4
+  },
+  {
+   "year": 2026,
+   "n": 2
   }
  ],
- "undated_pct": 50,
- "momentum": "rising",
- "maturity": "L3",
+ "undated_pct": 11,
+ "momentum": "early_mover,rising",
+ "maturity": "L4",
  "maturity_evidence": [
   "multi_horizontal",
   "named_product:Naries",
+  "multi_year",
   "tier_p"
  ],
- "prospect_score": 60,
+ "prospect_score": 90,
  "stack": [],
  "vendor_named": false,
  "deployments_detail": [
@@ -67,6 +80,83 @@
    "raw_sector": "Foods",
    "date": "missing",
    "fresh": "undated"
+  },
+  {
+   "company": "Kikkoman Corp.",
+   "use": "\"Naries\" demand-supply adjustment system: a time-series AI model forecasts future shipment volumes from historical shipment data and automatically drafts replenishment/production plans, monitoring plan-vs-actual variance to flag stockout/overstock risk. Replaces person-dependent manual demand-supply planning. [Mt.SQUARE (time-series AI model)]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.kikkoman.com/jp/news/2025/25016.html",
+   "raw_sector": "",
+   "date": "2025-04",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Kikkoman Corp.",
+   "use": "Joint R&D AI model predicting optimal ingredient-and-soy-sauce flavor pairings (\"deliciousness\" / compatibility prediction) to guide entry into emerging markets such as India, combining Kikkoman's fermentation/brewing knowledge with machine learning. [Athena Technologies]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://athenatech.jp/case/kikkoman-taste-prediction",
+   "raw_sector": "",
+   "date": "2025-10",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Kikkoman Corp.",
+   "use": "\"LiveTalk\" AI speech/translation system deployed at KIKKOMAN LIVE KITCHEN TOKYO (Yurakucho/Ginza) to explain chefs' live cooking demonstrations to guests in 20+ languages in real time. [LiveTalk]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://j.people.com.cn/n3/2018/1116/c94476-9519008.html",
+   "raw_sector": "",
+   "date": "2018-11",
+   "fresh": "stale"
+  },
+  {
+   "company": "Kikkoman Corp.",
+   "use": "Generative-AI-assisted employee engagement / management transformation: AI structures qualitative survey feedback, extracts discussion points and generates hypotheses on organizational issues so managers focus on decision-making and dialogue. Rolled out across the management layer with standardized prompts/templates. [ABeam Consulting (generative AI)]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.abeam.com/jp/ja/case_study/scs086/",
+   "raw_sector": "",
+   "date": "2026-04",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Kikkoman Corp.",
+   "use": "Dataiku analytics/ML platform adopted by the International Business Division's Digital Promotion Group to move from data visualization to predictive modeling and to build an AI-enabled analytics organization across overseas operations. [Dataiku (via Keywalker)]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.keywalker.co.jp/dataiku/case_study_18.html",
+   "raw_sector": "",
+   "date": "2025",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Kikkoman Corp.",
+   "use": "Forecast Pro statistical/ML demand-forecasting system that auto-selects optimal forecasting algorithms across ~2,000 SKUs, integrated into the host system; automates routine forecasts (~150 of 500 Noda items) so planners focus on hard-to-predict items. [Forecast Pro (Hitachi Solutions East)]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.hitachi-solutions-east.co.jp/products/forecastpro/case/case1/",
+   "raw_sector": "",
+   "date": "2002",
+   "fresh": "stale"
+  },
+  {
+   "company": "Kikkoman Corp.",
+   "use": "\"Mitsukaru Kyou no Gohan\" conversational AI recipe agent on Kikkoman's official LINE account. Users chat about fridge ingredients, cooking time and family preferences; the AI recommends dishes from a 9,000+ recipe database via the mascot \"Naanai-chan\". [Ligla / TimeTechnologies Inc.]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.kikkoman.com/jp/news/2026/26016.html",
+   "raw_sector": "",
+   "date": "2026-01",
+   "fresh": "fresh"
   }
  ]
 }

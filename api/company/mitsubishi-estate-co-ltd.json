@@ -3,45 +3,68 @@
  "name": "Mitsubishi Estate Co., Ltd.",
  "cc": "JP",
  "vertical": "Real Estate & Construction",
- "deployments": 1,
- "confirmed": 1,
- "with_value_number": 0,
- "proof_rate": 0.0,
+ "deployments": 11,
+ "confirmed": 8,
+ "with_value_number": 5,
+ "proof_rate": 0.455,
  "mktcap": 32600000000.0,
  "revenue": 11666666667.0,
  "employees": 11659.0,
  "silent": false,
- "per_bn_revenue": 0.09,
- "per_10k_emp": 0.86,
+ "per_bn_revenue": 0.94,
+ "per_10k_emp": 9.43,
  "benchmarks": {
   "global_vertical": {
-   "deployments": 0,
-   "confirmed": 34,
-   "proof_rate": 0,
+   "deployments": 99,
+   "confirmed": 98,
+   "proof_rate": 64,
    "n": 154
   },
   "country_vertical": {
-   "deployments": 0,
-   "confirmed": 0,
-   "proof_rate": 0,
+   "deployments": 100,
+   "confirmed": 100,
+   "proof_rate": 29,
    "n": 15
   }
  },
- "first_seen": 2022,
+ "first_seen": 2021,
  "by_year": [
   {
-   "year": 2022,
+   "year": 2021,
    "n": 1
+  },
+  {
+   "year": 2022,
+   "n": 3
+  },
+  {
+   "year": 2023,
+   "n": 1
+  },
+  {
+   "year": 2024,
+   "n": 2
+  },
+  {
+   "year": 2025,
+   "n": 2
+  },
+  {
+   "year": 2026,
+   "n": 2
   }
  ],
  "undated_pct": 0,
- "momentum": "early_mover,gone_quiet",
- "maturity": "L3",
+ "momentum": "early_mover,rising",
+ "maturity": "L4",
  "maturity_evidence": [
+  "multi_horizontal",
   "named_product:AI Security asilla",
+  "value_number",
+  "multi_year",
   "tier_p"
  ],
- "prospect_score": 54,
+ "prospect_score": 78,
  "stack": [],
  "vendor_named": false,
  "deployments_detail": [
@@ -54,6 +77,116 @@
    "url": "https://jp.asilla.com/post/casestudies-mitsubishiestate-20250804",
    "raw_sector": "Real Estate",
    "date": "2022-10",
+   "fresh": "stale"
+  },
+  {
+   "company": "Mitsubishi Estate Co., Ltd.",
+   "use": "ChatGPT-based 'Resikuma AI appraisal' service for the Residence Club member site, letting homeowners get instant property valuation, area market status and comparable listings; rental-valuation function added Mar 2025. [OpenAI ChatGPT]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.mec.co.jp/news/detail/2024/02/22_240222_resiclub",
+   "raw_sector": "",
+   "date": "2024-02",
+   "fresh": "aging"
+  },
+  {
+   "company": "Mitsubishi Estate Co., Ltd.",
+   "use": "Real-time generative-AI property consultant that answers homeowner questions conversationally with price valuation, location rating, area price heatmap and price trends of surrounding properties. [PriceHubble]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://proptech-x.com/proptech-x-proptech-property-news-pricehubble-powers-mitsubishi-ai-property-consultant-yopa-is-being-mediocre-is-something-to-shout-about/",
+   "raw_sector": "",
+   "date": "2024-05",
+   "fresh": "aging"
+  },
+  {
+   "company": "Mitsubishi Estate Co., Ltd.",
+   "use": "Next-generation facility operations at Marubiru/Shin-Marubiru: AI image analysis of CCTV (person/fall/violence/loitering/intrusion/congestion detection) plus foot-traffic and demographic analytics combined with sales and weather data for merchandising; paired with autonomous robot food delivery at Otemachi Park Building.",
+   "existence": "confirmed",
+   "value": "100+ robots operated across properties; delivery to 100+ office locations",
+   "tier": "",
+   "url": "https://www.ryutsuu.biz/it/p041175.html",
+   "raw_sector": "",
+   "date": "2023-01",
+   "fresh": "stale"
+  },
+  {
+   "company": "Mitsubishi Estate Co., Ltd.",
+   "use": "AI concierge chatbot for the Marunouchi/Otemachi/Yurakucho district, embedded in the 'Oh MY Map!' app, giving real-time area info (events, restaurants, attractions) by drawing on the district's Urban OS via Advanced RAG. [NTT Data; Anthropic Claude 3.5 Sonnet; Advanced RAG]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.nttdata.com/global/ja/news/topics/2025/010800/",
+   "raw_sector": "",
+   "date": "2025-01",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Mitsubishi Estate Co., Ltd.",
+   "use": "AI control system for the Marunouchi district heating/cooling (district energy) plant that automates optimal setpoints to improve energy-conversion efficiency of chilled water/steam production. [Shinryo Corporation]",
+   "existence": "confirmed",
+   "value": "energy conversion efficiency improved by 10%+",
+   "tier": "",
+   "url": "https://www.shinryo.com/news/20220302.html",
+   "raw_sector": "",
+   "date": "2022-03",
+   "fresh": "stale"
+  },
+  {
+   "company": "Mitsubishi Estate Co., Ltd.",
+   "use": "Strategic partnership/investment in UptimeAI's 'AI Expert' platform (generative AI + reliability/process modules) for asset reliability, equipment health monitoring and root-cause analysis in industrial/infrastructure operations. [UptimeAI]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.uptimeai.com/resources/mitsubishi-estate-partners-with-uptimeai/",
+   "raw_sector": "",
+   "date": "2025-03",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Mitsubishi Estate Co., Ltd.",
+   "use": "Generative-AI-driven coding support added to Mitsubishi Estate's company-wide data analysis platform 'SoDA', letting employees build data-analysis apps from natural-language intent without needing programming skills; data stays on the platform (no local extraction). [Nowcast; Google Gemini CLI and Anthropic Claude Code via Google Vertex AI]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://nowcast.co.jp/news/20260218",
+   "raw_sector": "",
+   "date": "2026-02",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Mitsubishi Estate Co., Ltd.",
+   "use": "'GRAND AI' suite of cross-departmental AI tools for the GRAND office-building advertising media platform: structures/reconciles tenant-company data and visualizes which enterprises and decision-maker levels an ad campaign will reach, and streamlines competitive-exclusion/approval workflows.",
+   "existence": "claimed",
+   "value": "6,200 screens across 1,700 buildings; 28,000 reachable tenant companies; 1,620 listed firms (41.3%)",
+   "tier": "",
+   "url": "https://prtimes.jp/main/html/rd/p/000000060.000047349.html",
+   "raw_sector": "",
+   "date": "2026-06",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Mitsubishi Estate Co., Ltd.",
+   "use": "'AI Security asilla' video analytics on existing CCTV, running 24/7 to detect abnormal behavior (violence, falls, intrusion) at Marunouchi buildings; expanded to a PoC at the Tokyo Building in Jun 2026. [Asilla]",
+   "existence": "confirmed",
+   "value": "~100 patrol-hours/month saved (reported at SHIBUYA SCRAMBLE SQUARE reference site)",
+   "tier": "",
+   "url": "https://en.asilla.com/post/introduction-mitsubishi-tokyobldg-20260625",
+   "raw_sector": "",
+   "date": "2022-10",
+   "fresh": "stale"
+  },
+  {
+   "company": "Mitsubishi Estate Co., Ltd.",
+   "use": "icetana AI anomaly-detection surveillance deployed across the Marunouchi Building and Shin-Marunouchi Building (75+ above-ground floors, 100+ camera feeds) after a seven-month 2021 pilot; used to flag abnormal activity such as illegal bicycle parking. [icetana]",
+   "existence": "confirmed",
+   "value": "100+ camera feeds monitored across 75+ floors",
+   "tier": "",
+   "url": "https://www.icetana.ai/blog/icetana-ai-mitsubishi-estate-case-study",
+   "raw_sector": "",
+   "date": "2021",
    "fresh": "stale"
   }
  ]

@@ -3,21 +3,21 @@
  "name": "Capitec Bank",
  "cc": "ZA",
  "vertical": "Financial Services",
- "deployments": 3,
- "confirmed": 2,
- "with_value_number": 2,
+ "deployments": 12,
+ "confirmed": 11,
+ "with_value_number": 8,
  "proof_rate": 0.667,
  "mktcap": 29241621622.0,
  "revenue": 2292972973.0,
  "employees": 17672.0,
  "silent": false,
- "per_bn_revenue": 1.31,
- "per_10k_emp": 1.7,
+ "per_bn_revenue": 5.23,
+ "per_10k_emp": 6.79,
  "benchmarks": {
   "global_vertical": {
-   "deployments": 94,
-   "confirmed": 80,
-   "proof_rate": 70,
+   "deployments": 95,
+   "confirmed": 97,
+   "proof_rate": 73,
    "n": 377
   },
   "country_vertical": {
@@ -27,19 +27,27 @@
    "n": 7
   }
  },
- "first_seen": 2025,
+ "first_seen": 2022,
  "by_year": [
   {
-   "year": 2025,
+   "year": 2022,
    "n": 1
   },
   {
-   "year": 2026,
+   "year": 2024,
    "n": 2
+  },
+  {
+   "year": 2025,
+   "n": 3
+  },
+  {
+   "year": 2026,
+   "n": 6
   }
  ],
  "undated_pct": 0,
- "momentum": "rising",
+ "momentum": "early_mover,rising",
  "maturity": "L4",
  "maturity_evidence": [
   "multi_horizontal",
@@ -48,7 +56,7 @@
   "multi_year",
   "tier_p"
  ],
- "prospect_score": 25,
+ "prospect_score": 73,
  "stack": [
   "Microsoft",
   "Microsoft Azure",
@@ -87,6 +95,105 @@
    "url": "https://www.microsoft.com/en/customers/story/19093-capitec-bank-azure-open-ai-service",
    "raw_sector": "Banks",
    "date": "2026",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Capitec Bank",
+   "use": "AI-driven fraud prevention that combines a Memgraph graph-ML scoring pipeline (graph features computed in-memory, scored via AWS SageMaker) with real-time blocking of payments to high-risk/mule beneficiary accounts. Grew from 1 to 7 live anti-fraud graphs, processing 3.5M+ records/day. [Memgraph, AWS SageMaker]",
+   "existence": "confirmed",
+   "value": "R673m in client losses prevented and ~394,000 scam payments stopped in FY2026; 131,000 fraudulent beneficiaries blocked; 2.1% monthly false-positive rate; 3.5M+ records scored daily",
+   "tier": "",
+   "url": "https://memgraph.com/customer-stories/capitec-graph-machine-learning-fraud-detection",
+   "raw_sector": "",
+   "date": "2026",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Capitec Bank",
+   "use": "Generative AI moved into production within the compliance function to automate compliance processes.",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://the-banking-brief.beehiiv.com/p/capitec-scales-ai-and-headcount-in-parallel",
+   "raw_sector": "",
+   "date": "2026-04",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Capitec Bank",
+   "use": "Amazon Connect AI-powered conversational analytics with Amazon Bedrock analyzing 100% of customer contact-centre calls for sentiment, transcription and automated grading against business-unit rules (up from ~1% manual review). [AWS (Amazon Connect, Amazon Bedrock)]",
+   "existence": "confirmed",
+   "value": "Insights generated within 7 minutes of a call; coverage of 100% of conversations vs 1% previously",
+   "tier": "",
+   "url": "https://aws.amazon.com/blogs/contact-center/capitec-elevates-experiences-with-amazon-connect/",
+   "raw_sector": "",
+   "date": "2025-02",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Capitec Bank",
+   "use": "LivePerson conversational AI on WhatsApp and social channels enabling clients to transact and get support without the banking app; includes AI Agent Assist and Generative Insights on conversational intent data. [LivePerson]",
+   "existence": "confirmed",
+   "value": "78% CSAT; 71% first-contact resolution; 2x agent efficiency; 15M client conversations (7M via WhatsApp) in 2023",
+   "tier": "",
+   "url": "https://www.liveperson.com/resources/success-stories/capitec-conversational-banking/",
+   "raw_sector": "",
+   "date": "2022-09",
+   "fresh": "stale"
+  },
+  {
+   "company": "Capitec Bank",
+   "use": "Pulse, an internally built real-time AI tool triggered when a client contacts support via the Capitec app; pulls live signals across bank systems to give contact-centre agents contextualised information about the client's issue before the call begins.",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.bizcommunity.com/article/capitec-unveils-ai-system-to-speed-up-client-support-400089a",
+   "raw_sector": "",
+   "date": "2026-03",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Capitec Bank",
+   "use": "Microsoft 365 Copilot deployed to employees for productivity across marketing, HR, finance, risk and legal (email/reporting/reconciliation assistance). [Microsoft 365 Copilot]",
+   "existence": "confirmed",
+   "value": "80% of staff with access save 1 hour/week (some up to 5 hours); one finance reconciliation cut from 6 hours to 1 minute; ~5,000 employees hold active AI licences using tools ~4x/day",
+   "tier": "",
+   "url": "https://www.microsoft.com/en/customers/story/19093-capitec-bank-azure-open-ai-service",
+   "raw_sector": "",
+   "date": "2024-10",
+   "fresh": "aging"
+  },
+  {
+   "company": "Capitec Bank",
+   "use": "Custom generative-AI applications built on Azure OpenAI Service: product-knowledge chatbot for branch staff, contract-analysis tool, sustainability-reporting analysis agent, copy-writing standardisation agent, DALL-E 3 image generation, and Power BI Smart Narrative auto-report summaries for 850 branches. [Microsoft Azure OpenAI Service (incl. DALL-E 3), Copilot Studio]",
+   "existence": "confirmed",
+   "value": "New Azure OpenAI chatbots built in a day (down from ~1 month); rollout across 850+ branches",
+   "tier": "",
+   "url": "https://www.capitecbank.co.za/blog/technology/2024/empowering-people-with-generative-ai/",
+   "raw_sector": "",
+   "date": "2024-03",
+   "fresh": "aging"
+  },
+  {
+   "company": "Capitec Bank",
+   "use": "Internal IT service-desk chatbot on Amazon Connect that lets employees self-resolve common IT problems (e.g. printer malfunctions), with live chat escalation to service-desk agents, as part of a contact-centre modernization delivered with NTT. [AWS (Amazon Connect), NTT]",
+   "existence": "confirmed",
+   "value": "95% SLA achieved on day two",
+   "tier": "",
+   "url": "https://www.nttdata.com/en-ca/insights/case-studies/capitec-contact-center-boosts-customer-experience-with-amazon-connect",
+   "raw_sector": "",
+   "date": "2025",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Capitec Bank",
+   "use": "Agentic AI embedded in the business-banking credit-processing workflow, with a stated strategy to scale the capability across the division.",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://techcentral.co.za/capitec-bets-big-on-ai-and-keeps-hiring/280534/",
+   "raw_sector": "",
+   "date": "2026-04",
    "fresh": "fresh"
   }
  ]

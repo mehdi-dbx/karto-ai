@@ -6,18 +6,22 @@
    45,
    24
   ],
-  "deployments": 63,
+  "deployments": 75,
   "companies": 40,
   "searched": 40,
-  "confirmed": 26,
-  "confirmed_pct": 41,
-  "density": 0.65,
-  "with_value_number": 4,
-  "proof_pct": 6,
+  "confirmed": 37,
+  "confirmed_pct": 49,
+  "density": 0.93,
+  "with_value_number": 8,
+  "proof_pct": 11,
   "top_verticals": [
    {
     "v": "Financial Services",
     "n": 19
+   },
+   {
+    "v": "",
+    "n": 12
    },
    {
     "v": "Energy & Utilities",
@@ -30,14 +34,34 @@
    {
     "v": "Healthcare & Life Sciences",
     "n": 4
-   },
-   {
-    "v": "Technology",
-    "n": 4
    }
   ]
  },
  "grid": [
+  {
+   "v": "",
+   "h": "Core / Domain",
+   "n": 7,
+   "withnum": 3,
+   "verdict": "strong",
+   "verdict_v2": "proven"
+  },
+  {
+   "v": "",
+   "h": "Back-office / Ops",
+   "n": 2,
+   "withnum": 1,
+   "verdict": "strong",
+   "verdict_v2": "proven"
+  },
+  {
+   "v": "",
+   "h": "Security / Risk",
+   "n": 3,
+   "withnum": 0,
+   "verdict": "talk",
+   "verdict_v2": "unquantified"
+  },
   {
    "v": "Financial Services",
    "h": "Core / Domain",
@@ -192,6 +216,15 @@
    "proof_pct": 11,
    "verdict": "talk",
    "verdict_v2": "talk"
+  },
+  {
+   "v": "",
+   "n": 12,
+   "confirmed": 11,
+   "withnum": 4,
+   "proof_pct": 33,
+   "verdict": "active",
+   "verdict_v2": "active"
   },
   {
    "v": "Energy & Utilities",

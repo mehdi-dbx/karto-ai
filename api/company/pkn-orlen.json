@@ -3,21 +3,21 @@
  "name": "PKN Orlen",
  "cc": "PL",
  "vertical": "Energy & Utilities",
- "deployments": 2,
- "confirmed": 2,
- "with_value_number": 0,
- "proof_rate": 0.0,
+ "deployments": 11,
+ "confirmed": 8,
+ "with_value_number": 3,
+ "proof_rate": 0.273,
  "mktcap": 44080000000.0,
  "revenue": 67487500000.0,
  "employees": 66563.0,
  "silent": false,
- "per_bn_revenue": 0.03,
- "per_10k_emp": 0.3,
+ "per_bn_revenue": 0.16,
+ "per_10k_emp": 1.65,
  "benchmarks": {
   "global_vertical": {
-   "deployments": 77,
-   "confirmed": 83,
-   "proof_rate": 0,
+   "deployments": 96,
+   "confirmed": 94,
+   "proof_rate": 63,
    "n": 210
   }
  },
@@ -25,18 +25,23 @@
  "by_year": [
   {
    "year": 2025,
-   "n": 2
+   "n": 6
+  },
+  {
+   "year": 2026,
+   "n": 1
   }
  ],
- "undated_pct": 0,
+ "undated_pct": 36,
  "momentum": "rising",
  "maturity": "L3",
  "maturity_evidence": [
   "multi_horizontal",
   "named_product:Microsoft",
+  "value_number",
   "tier_p"
  ],
- "prospect_score": 52,
+ "prospect_score": 77,
  "stack": [
   "Google Cloud",
   "Microsoft"
@@ -64,6 +69,105 @@
    "raw_sector": "Energy",
    "date": "2025-09",
    "fresh": "fresh"
+  },
+  {
+   "company": "PKN Orlen",
+   "use": "Group-wide generative AI productivity rollout using Microsoft Copilot and agentic AI (intelligent assistants) to automate routine tasks, analyze regulatory changes, support the controlling function and optimize workforce efficiency - billed as the largest AI deployment in Central and Eastern Europe. [Microsoft (Copilot, Agentic AI, Azure)]",
+   "existence": "confirmed",
+   "value": "rollout across 60,000+ employees and 200+ Group companies",
+   "tier": "",
+   "url": "https://www.orlen.pl/en/about-the-company/media/press-releases/current/2025/july-2025/orlens-transformation-to-gain-momentum-with-cees-largest-ai-deployment",
+   "raw_sector": "",
+   "date": "2025-07",
+   "fresh": "fresh"
+  },
+  {
+   "company": "PKN Orlen",
+   "use": "Partnership with AWS to deploy advanced cloud technologies including artificial intelligence, machine learning and data analytics across ORLEN's upstream, downstream, energy and consumer/product operations. [Amazon Web Services]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.orlen.pl/en/about-the-company/media/press-releases/current/2026/May-2026/orlen-moves-to-the-next-level-of-digitalisation-with-amazon-web-services",
+   "raw_sector": "",
+   "date": "2026-05",
+   "fresh": "fresh"
+  },
+  {
+   "company": "PKN Orlen",
+   "use": "AI multi-agents and Copilot applied to cybersecurity - optimizing and strengthening cyber security operations across the entire ORLEN Group as part of the Microsoft partnership. [Microsoft (Copilot, AI multi-agents)]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://news.microsoft.com/source/emea/2025/07/orlens-transformation-to-accelerate-further-the-largest-ai-implementation-in-central-europe/?lang=pl",
+   "raw_sector": "",
+   "date": "2025-07",
+   "fresh": "fresh"
+  },
+  {
+   "company": "PKN Orlen",
+   "use": "Automated security surveillance system that uses AI algorithms to analyze camera imagery of infrastructure and automatically send alerts when security incidents/events are detected.",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.orlen.pl/en/about-the-company/innovations/our-implementations",
+   "raw_sector": "",
+   "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "PKN Orlen",
+   "use": "Computer-vision AI on refinery CCTV (asphalt loading operations) detecting PPE non-compliance (face shields, helmets, hi-vis vests), unsafe behaviors and restricted-area access, sending real-time safety alerts to the HSE team. [Surveily AI]",
+   "existence": "confirmed",
+   "value": "75% fewer incidents in 16 weeks; 95% PPE compliance after 6 months; 35% fewer unsafe behaviors; 50% faster incident response",
+   "tier": "",
+   "url": "https://surveily.com/case-studies/gas-oil",
+   "raw_sector": "",
+   "date": "2025",
+   "fresh": "fresh"
+  },
+  {
+   "company": "PKN Orlen",
+   "use": "Autonomous drone inspection of refinery assets using the Sentinel AI anomaly-detection stack - detecting thermal hotspots, tank-seam/pipe corrosion, flare-stack degradation, vapor-cloud signatures, pipeline leakage and perimeter intrusion, with location-pinned severity-scored findings. [Dronehub (Sentinel AI, Nvidia Jetson edge)]",
+   "existence": "confirmed",
+   "value": "inspection cadence an order of magnitude higher than helicopter services; findings delivered ~15 min after landing",
+   "tier": "",
+   "url": "https://dronehub.ai/blog/pkn-orlen-using-drones-to-extend-oil-and-gas-industry",
+   "raw_sector": "",
+   "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "PKN Orlen",
+   "use": "AI-based predictive analytics data panel forecasting the operating time of a pyrolytic (steam-cracker) furnace between decoking cycles to optimize petrochemical production scheduling.",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.orlen.pl/en/about-the-company/innovations/our-implementations",
+   "raw_sector": "",
+   "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "PKN Orlen",
+   "use": "Partnership with Google Cloud to deploy AI-driven solutions, advanced data analytics and data science across retail and energy operations, plus building a modern data platform and integrated digital customer tools. [Google Cloud]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.orlen.pl/en/about-the-company/media/press-releases/current/2025/september-2025/orlen-partners-with-google-cloud-to-step-up-ai-adoption",
+   "raw_sector": "",
+   "date": "2025-09",
+   "fresh": "fresh"
+  },
+  {
+   "company": "PKN Orlen",
+   "use": "Generative AI tool that turns videos and photos into one-page comic strips used for marketing, promotion and internal communication.",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.orlen.pl/en/about-the-company/innovations/our-implementations",
+   "raw_sector": "",
+   "date": "missing",
+   "fresh": "undated"
   }
  ]
 }

@@ -15,8 +15,8 @@
  "per_10k_emp": 0.06,
  "benchmarks": {
   "global_vertical": {
-   "deployments": 70,
-   "confirmed": 80,
+   "deployments": 62,
+   "confirmed": 73,
    "proof_rate": 61,
    "n": 377
   },
@@ -85,6 +85,127 @@
    "raw_sector": "Banks",
    "date": "2024",
    "fresh": "aging"
+  },
+  {
+   "company": "Bank of China",
+   "use": "BOCAI enterprise large-model capability platform: a model matrix deploying 10+ mainstream LLMs (including DeepSeek and Qwen3) that serves the whole bank via APIs, agents and application paradigms, underpinning 400+ intelligent assistants across credit, marketing, operations, office, customer service and technology. [DeepSeek, Alibaba Qwen3 (plus 10+ models on internal platform)]",
+   "existence": "confirmed",
+   "value": "400+ intelligent assistants; 10+ deployed models; 180+ innovation outputs",
+   "tier": "",
+   "url": "https://www.mpaypass.com.cn/news/202604/16121417.html",
+   "raw_sector": "",
+   "date": "2026",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Bank of China",
+   "use": "'BOC Smart Investment' (中银慧投) robo-advisor: AI-driven intelligent investment-advisory service combining a self-learning machine-learning algorithm model with the bank's human investment-advisor team, offering personalized multi-currency, multi-market portfolio allocation online and offline. [In-house AI/ML model]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.bankofchina.com/aboutboc/ab8/201804/t20180423_12060016.html",
+   "raw_sector": "",
+   "date": "2018-04",
+   "fresh": "stale"
+  },
+  {
+   "company": "Bank of China",
+   "use": "DeepSeek R1 internal (on-premise) deployment powering employee Q&A, intelligent R&D, market analysis and automated report/credit-report generation across 10+ head-office and branch business scenarios. [DeepSeek (R1)]",
+   "existence": "claimed",
+   "value": "3,600+ users in the intelligent-research scenario; 10+ scenarios live",
+   "tier": "",
+   "url": "https://www.cnstock.com/commonDetail/382399",
+   "raw_sector": "",
+   "date": "2025-03",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Bank of China",
+   "use": "AI-based document/voucher (OCR) recognition and auto-verification for back-office operations, replacing manual ticket/certificate checking.",
+   "existence": "confirmed",
+   "value": "Supports 270+ voucher/certificate types; ~1.5 million calls per day",
+   "tier": "",
+   "url": "https://www.mpaypass.com.cn/news/202604/16121417.html",
+   "raw_sector": "",
+   "date": "2026",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Bank of China",
+   "use": "Robotic Process Automation (RPA) with AI, automating repetitive operational workflows across the bank.",
+   "existence": "confirmed",
+   "value": "Covers 3,600+ scenario applications; nearly 300,000 tasks executed per month",
+   "tier": "",
+   "url": "https://www.mpaypass.com.cn/news/202604/16121417.html",
+   "raw_sector": "",
+   "date": "2026",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Bank of China",
+   "use": "Intelligent R&D / coding assistant for software engineering, rolled out bank-wide to development teams. [BOCAI platform (DeepSeek/Qwen3)]",
+   "existence": "confirmed",
+   "value": "10,000+ users; code adoption rate over 30%",
+   "tier": "",
+   "url": "https://www.mpaypass.com.cn/news/202604/16121417.html",
+   "raw_sector": "",
+   "date": "2026",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Bank of China",
+   "use": "Intelligent marketing assistant supporting relationship managers at all levels with AI-generated marketing content and client guidance. [BOCAI platform]",
+   "existence": "confirmed",
+   "value": "Deployed to relationship managers at all levels",
+   "tier": "",
+   "url": "https://www.mpaypass.com.cn/news/202604/16121417.html",
+   "raw_sector": "",
+   "date": "2026",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Bank of China",
+   "use": "Intelligent Q&A assistant deployed across all branches, and a remote customer-service assistant covering the majority of remote-banking service scenarios. [BOCAI platform]",
+   "existence": "confirmed",
+   "value": "Q&A assistant covers all branches; remote CS assistant covers 90% of scenarios",
+   "tier": "",
+   "url": "https://www.mpaypass.com.cn/news/202604/16121417.html",
+   "raw_sector": "",
+   "date": "2026",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Bank of China",
+   "use": "Comprehensive/enterprise-wide risk management portal using AI for risk monitoring and early warning, integrating internal credit, accounting, balance-sheet and audit data.",
+   "existence": "confirmed",
+   "value": "~200,000+ calls per day",
+   "tier": "",
+   "url": "https://www.mpaypass.com.cn/news/202604/10085326.html",
+   "raw_sector": "",
+   "date": "2026",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Bank of China",
+   "use": "Real-time anti-fraud machine-learning model for mobile banking, using high-dimensional transaction behaviour profiling (RFM features, hundreds of thousands of dimensions) and XGBoost with streaming + batch computation to score every transaction into risk tiers combined with expert rules. [XGBoost, Spark (in-house model)]",
+   "existence": "confirmed",
+   "value": "Validation AUC 0.997, test AUC 0.972, KS up to 0.83; intercepts more fraud while lowering monthly challenge/false-positive volume",
+   "tier": "",
+   "url": "https://ishare.ifeng.com/c/s/v0025IeIKFbHQn7Dvh3SAPMviIUR377LtjSl5aMF-_7Dqkho__",
+   "raw_sector": "",
+   "date": "2021",
+   "fresh": "stale"
+  },
+  {
+   "company": "Bank of China",
+   "use": "AI governance and safe-deployment framework ('three lines of defense') for high-risk domains (risk control, credit approval, investment), enforcing model-not-online, data-not-leaving-bank principles and mandatory human review, with preference for high-precision explainable AI in high-risk areas.",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.cs.com.cn/xwzx/hg/202504/t20250411_6484941.html",
+   "raw_sector": "",
+   "date": "2025-04",
+   "fresh": "fresh"
   }
  ]
 }

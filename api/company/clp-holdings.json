@@ -3,45 +3,64 @@
  "name": "CLP Holdings",
  "cc": "HK",
  "vertical": "Energy & Utilities",
- "deployments": 1,
- "confirmed": 1,
- "with_value_number": 0,
- "proof_rate": 0.0,
+ "deployments": 10,
+ "confirmed": 8,
+ "with_value_number": 2,
+ "proof_rate": 0.2,
  "mktcap": 25102564103.0,
  "revenue": 11284615385.0,
  "employees": 8539.0,
  "silent": false,
- "per_bn_revenue": 0.09,
- "per_10k_emp": 1.17,
+ "per_bn_revenue": 0.89,
+ "per_10k_emp": 11.71,
  "benchmarks": {
   "global_vertical": {
-   "deployments": 0,
-   "confirmed": 20,
-   "proof_rate": 0,
+   "deployments": 94,
+   "confirmed": 94,
+   "proof_rate": 61,
    "n": 210
   },
   "country_vertical": {
-   "deployments": 0,
-   "confirmed": 0,
-   "proof_rate": 0,
+   "deployments": 86,
+   "confirmed": 86,
+   "proof_rate": 29,
    "n": 8
   }
  },
- "first_seen": 2025,
+ "first_seen": 2018,
  "by_year": [
   {
+   "year": 2018,
+   "n": 1
+  },
+  {
+   "year": 2019,
+   "n": 1
+  },
+  {
+   "year": 2024,
+   "n": 1
+  },
+  {
    "year": 2025,
+   "n": 4
+  },
+  {
+   "year": 2026,
    "n": 1
   }
  ],
- "undated_pct": 0,
- "momentum": "rising",
- "maturity": "L3",
+ "undated_pct": 20,
+ "momentum": "early_mover,rising",
+ "maturity": "L4",
  "maturity_evidence": [
+  "multi_horizontal",
   "named_product:Grid",
+  "value_number",
+  "multi_year",
   "tier_p"
  ],
- "prospect_score": 54,
+ "prospect_score": 88,
  "stack": [],
  "vendor_named": false,
  "deployments_detail": [
@@ -54,6 +73,105 @@
    "url": "https://www.scmp.com/news/hong-kong/health-environment/article/3298283/ai-powered-platform-helps-hong-kongs-clp-detect-electricity-supply-threats",
    "raw_sector": "Utilities",
    "date": "2025",
+   "fresh": "fresh"
+  },
+  {
+   "company": "CLP Holdings",
+   "use": "Grid-V (Grid Visualisation): AI-powered platform integrating ~3,000 sensor points and cameras for 24/7 real-time monitoring of substations, switchgear, overhead cables and transmission lines. AI detects environmental risks and abnormalities (fire, smoke, foreign objects like drones/kites/cranes) and monitors worker safety PPE compliance, issuing severity-graded alerts to engineers.",
+   "existence": "confirmed",
+   "value": "~3,000 data points and cameras integrated",
+   "tier": "",
+   "url": "https://www.chinadailyhk.com/hk/article/604292",
+   "raw_sector": "",
+   "date": "2024-09",
+   "fresh": "aging"
+  },
+  {
+   "company": "CLP Holdings",
+   "use": "AI-based network load forecasting: AI algorithms analyse climate and load-consumption data every 30 minutes to generate precise forecasts for network loads across multiple areas, supporting real-time smart-grid operation rather than relying on historical data.",
+   "existence": "confirmed",
+   "value": "forecasts refreshed every 30 minutes",
+   "tier": "",
+   "url": "https://www.clpgroup.com/en/about/insight/ceo-blog/reshaping-our-energy-future-with-ai.html",
+   "raw_sector": "",
+   "date": "2025",
+   "fresh": "fresh"
+  },
+  {
+   "company": "CLP Holdings",
+   "use": "Smart-meter in-house AI analytics: CLP uses proprietary AI analytics to monitor residential smart-meter data (hourly usage), delivering personalised consumption alerts and estimated bills via the CLP One App.",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.clp.com.hk/en/residential/smart-meters",
+   "raw_sector": "",
+   "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "CLP Holdings",
+   "use": "AutoGrid Flex flexibility management platform: multi-year deal to deploy ML/AI for real-time optimisation of distributed energy resources (DER management, solar/battery, load forecasting, peak shaving, demand-side management), including microgrid optimisation at Hong Kong Science and Technology Park and demand-response via EnergyAustralia. [AutoGrid (Flex platform)]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.prnewswire.com/news-releases/clp-holdings-signs-multi-year-strategic-commercial-agreement-with-autogrid-to-deploy-new-energy-solutions-across-asia-pacific-region-300764000.html",
+   "raw_sector": "",
+   "date": "2018-12",
+   "fresh": "stale"
+  },
+  {
+   "company": "CLP Holdings",
+   "use": "Machine-learning algorithms to enhance the efficiency of power generation assets and to forecast power generation, enabling energy supply to be balanced as renewable sources are integrated.",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://sustainability.clpgroup.com/en/2019/material-topics/harnessing-the-power-of-technology",
+   "raw_sector": "",
+   "date": "2019",
+   "fresh": "stale"
+  },
+  {
+   "company": "CLP Holdings",
+   "use": "Customer-service AI agent-assist bots (MasterChat platform): Trainer Bot (AI-driven service training/consistency), Communicator Bot (drafts clear consistent customer communications), and Knowledge Bot (surfaces trusted answers/guidance in seconds) supporting frontline customer-service agents.",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.clp.com.hk/en/community/all-for-you",
+   "raw_sector": "",
+   "date": "2025",
+   "fresh": "fresh"
+  },
+  {
+   "company": "CLP Holdings",
+   "use": "Power Kid: customer-facing AI chatbot on CLP Hong Kong's website providing 24/7 support for general enquiries, service information and energy-saving tips.",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.clp.com.hk/en/chatbot-power-kid",
+   "raw_sector": "",
+   "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "CLP Holdings",
+   "use": "VoltAI: CLP's in-house generative-AI platform / concierge for employees, letting staff explore and deploy AI safely to work smarter, faster and more securely as part of CLP's Digital strategy.",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://sustainability.clpgroup.com/en/2025/case-studies/case-study/case-study-voltai-%E2%80%93-clp%E2%80%99s-own-genai-platform",
+   "raw_sector": "",
+   "date": "2025",
+   "fresh": "fresh"
+  },
+  {
+   "company": "CLP Holdings",
+   "use": "Product Configurator Bot: AI assistant to deliver needs-based product recommendations helping customers choose energy-saving appliances; pilot planned for 2026.",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.linkedin.com/posts/lenalow_clp-digitaltransformation-ai-activity-7431963919952457728-Y_-_",
+   "raw_sector": "",
+   "date": "2026",
    "fresh": "fresh"
   }
  ]

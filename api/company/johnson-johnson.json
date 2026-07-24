@@ -3,40 +3,55 @@
  "name": "Johnson & Johnson",
  "cc": "US",
  "vertical": "Healthcare & Life Sciences",
- "deployments": 1,
- "confirmed": 1,
- "with_value_number": 1,
- "proof_rate": 1.0,
+ "deployments": 12,
+ "confirmed": 12,
+ "with_value_number": 2,
+ "proof_rate": 0.167,
  "mktcap": 621350000000.0,
  "revenue": 97930000000.0,
  "employees": 138200.0,
  "silent": false,
- "per_bn_revenue": 0.01,
- "per_10k_emp": 0.07,
+ "per_bn_revenue": 0.12,
+ "per_10k_emp": 0.87,
  "benchmarks": {
   "global_vertical": {
-   "deployments": 0,
-   "confirmed": 14,
-   "proof_rate": 79,
+   "deployments": 98,
+   "confirmed": 100,
+   "proof_rate": 67,
    "n": 165
   },
   "country_vertical": {
-   "deployments": 0,
-   "confirmed": 7,
-   "proof_rate": 81,
+   "deployments": 95,
+   "confirmed": 100,
+   "proof_rate": 67,
    "n": 59
   }
  },
- "first_seen": null,
- "by_year": [],
- "undated_pct": 100,
- "momentum": "none",
- "maturity": "L3",
- "maturity_evidence": [
-  "named_product:Polyphonic",
-  "value_number"
+ "first_seen": 2024,
+ "by_year": [
+  {
+   "year": 2024,
+   "n": 1
+  },
+  {
+   "year": 2025,
+   "n": 7
+  },
+  {
+   "year": 2026,
+   "n": 2
+  }
  ],
- "prospect_score": 6,
+ "undated_pct": 17,
+ "momentum": "early_mover,rising",
+ "maturity": "L4",
+ "maturity_evidence": [
+  "multi_horizontal",
+  "named_product:Polyphonic",
+  "value_number",
+  "multi_year"
+ ],
+ "prospect_score": 93,
  "stack": [
   "NVIDIA"
  ],
@@ -52,6 +67,127 @@
    "raw_sector": "Health Care",
    "date": "missing",
    "fresh": "undated"
+  },
+  {
+   "company": "Johnson & Johnson",
+   "use": "Enterprise generative-AI internal chatbot that answers employee HR, benefits and policy questions, automating millions of annual employee service queries and reducing burden on support staff.",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.lorikeetcx.ai/news/johnson-johnson-narrows-genai-projects-for-tangible-value-cio-jim-swanson",
+   "raw_sector": "",
+   "date": "2025-04",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Johnson & Johnson",
+   "use": "Intelligent Supply Chain Risk Management system using predictive analytics and AI to detect, anticipate and mitigate supply chain disruptions and optimize inventory; retained as a high-value use case after the AI strategy pivot.",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.centific.com/blog/johnson-johnson-pivots-on-genai-to-deliver-business-value",
+   "raw_sector": "",
+   "date": "2025-04",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Johnson & Johnson",
+   "use": "AI/ML-powered employee skills inference platform that infers workforce skills from internal data to drive personalized career development, mentoring recommendations and strategic workforce planning across J&J's global workforce (documented in an MIT CISR case study).",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://cisr.mit.edu/publication/deployment-ai-infer-employee-skills-insights-johnson-johnsons-digital-first-workforce",
+   "raw_sector": "",
+   "date": "2025-04",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Johnson & Johnson",
+   "use": "Use of Google Cloud machine learning (Cloud Talent Solution) to transform J&J's recruitment process by improving job search relevance and candidate-to-role matching. [Google Cloud]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://cloud.google.com/customers/johnson-and-johnson",
+   "raw_sector": "",
+   "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "Johnson & Johnson",
+   "use": "Rep Copilot: a generative-AI copilot that coaches pharmaceutical sales representatives in real time on how to engage healthcare professionals about products, surfacing validated product and customer information. Cited by J&J CIO as one of the highest-value GenAI use cases retained after the strategy pivot.",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.pymnts.com/news/artificial-intelligence/2025/johnson-15percent-ai-use-cases-deliver-80percent-value/",
+   "raw_sector": "",
+   "date": "2025-04",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Johnson & Johnson",
+   "use": "AI-based drug design and generative molecular modeling used to identify starting points and optimize molecules into drug candidates; J&J says AI is halving the time it takes to generate new leads for developing drugs.",
+   "existence": "confirmed",
+   "value": "AI halves time to generate new drug-development leads",
+   "tier": "",
+   "url": "https://www.jnj.com/innovativemedicine/data-science-digital-health/ai-based-drug-design-and-generative-modeling",
+   "raw_sector": "",
+   "date": "2026-04",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Johnson & Johnson",
+   "use": "MONARCH Platform for robotic-assisted bronchoscopy uses AI-powered algorithms for airway navigation and image processing; MONARCH Quest received FDA clearance in March 2025 and is commercially deployed.",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.jnj.com/media-center/press-releases/johnson-johnson-medtech-announces-clearance-of-monarchtm-quest-for-enhanced-robotic-assisted-bronchoscopy",
+   "raw_sector": "",
+   "date": "2025-03",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Johnson & Johnson",
+   "use": "VELYS Robotic-Assisted Solution for total knee arthroplasty uses AI-driven software, an infrared camera and optical trackers to calculate implant placement and balance the knee, guiding precise total and partial knee replacement. Commercially deployed via DePuy Synthes.",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.jnjmedtech.com/en-US/product/velys-robotic-assisted-solution",
+   "raw_sector": "",
+   "date": "2025-03",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Johnson & Johnson",
+   "use": "VELYS Hip Navigation with AI Assistance for total hip arthroplasty, providing AI-based landmark identification to support intraoperative consistency and efficiency; launched by DePuy Synthes.",
+   "existence": "confirmed",
+   "value": "reduced workflow time by 57%",
+   "tier": "",
+   "url": "https://www.jnj.com/media-center/press-releases/depuy-synthes-launches-velys-hip-navigation-with-ai-to-support-intraoperative-consistency-and-efficiency-in-total-hip-arthroplasty",
+   "raw_sector": "",
+   "date": "2026-06",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Johnson & Johnson",
+   "use": "Collaboration with NVIDIA to scale AI for surgery, using NVIDIA technology to accelerate secure, real-time analysis of surgical data at the edge within J&J MedTech's connected digital ecosystem for surgery (Polyphonic). [NVIDIA]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://blogs.nvidia.com/blog/johnson-and-johnson-medtech-ai-surgery/",
+   "raw_sector": "",
+   "date": "2024-03",
+   "fresh": "aging"
+  },
+  {
+   "company": "Johnson & Johnson",
+   "use": "Privacy-preserving federated learning collaboration (with AbbVie via Apheris/AISB) contributing proprietary molecular data to train the OpenFold3 model for predicting biomolecular structures relevant to drug discovery, such as small molecule-protein and antibody-antigen interactions. [Apheris / OpenFold3]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.statnews.com/2025/03/27/abbvie-johnson-and-johnson-pharma-data-sharing-openfold3-ai-drug-discovery/",
+   "raw_sector": "",
+   "date": "2025-03",
+   "fresh": "fresh"
   }
  ]
 }

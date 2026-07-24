@@ -3,45 +3,64 @@
  "name": "Asahi Kasei Corp.",
  "cc": "JP",
  "vertical": "Chemicals & Materials",
- "deployments": 1,
- "confirmed": 1,
- "with_value_number": 0,
- "proof_rate": 0.0,
+ "deployments": 11,
+ "confirmed": 8,
+ "with_value_number": 3,
+ "proof_rate": 0.273,
  "mktcap": 16666666667.0,
  "revenue": 20466666667.0,
  "employees": 47895.0,
  "silent": false,
- "per_bn_revenue": 0.05,
- "per_10k_emp": 0.21,
+ "per_bn_revenue": 0.54,
+ "per_10k_emp": 2.3,
  "benchmarks": {
   "global_vertical": {
-   "deployments": 0,
-   "confirmed": 20,
-   "proof_rate": 0,
+   "deployments": 94,
+   "confirmed": 94,
+   "proof_rate": 62,
    "n": 105
   },
   "country_vertical": {
-   "deployments": 0,
-   "confirmed": 15,
-   "proof_rate": 0,
+   "deployments": 91,
+   "confirmed": 88,
+   "proof_rate": 32,
    "n": 35
   }
  },
- "first_seen": 2024,
+ "first_seen": 2021,
  "by_year": [
   {
+   "year": 2021,
+   "n": 1
+  },
+  {
+   "year": 2023,
+   "n": 3
+  },
+  {
    "year": 2024,
+   "n": 4
+  },
+  {
+   "year": 2025,
+   "n": 2
+  },
+  {
+   "year": 2026,
    "n": 1
   }
  ],
  "undated_pct": 0,
- "momentum": "early_mover,gone_quiet",
- "maturity": "L3",
+ "momentum": "early_mover,cooling",
+ "maturity": "L4",
  "maturity_evidence": [
+  "multi_horizontal",
   "named_product:Materials",
+  "value_number",
+  "multi_year",
   "tier_p"
  ],
- "prospect_score": 54,
+ "prospect_score": 85,
  "stack": [],
  "vendor_named": false,
  "deployments_detail": [
@@ -55,6 +74,116 @@
    "raw_sector": "Chemicals",
    "date": "2024-01",
    "fresh": "aging"
+  },
+  {
+   "company": "Asahi Kasei Corp.",
+   "use": "Self-developed generative AI that automatically extracts and ranks new application/use-case candidates for Asahi Kasei's materials from patent and literature data; a second AI improves input data quality (NLP pre-processing) ahead of the generative step. Generated 6,000+ candidate uses and cut candidate-screening time to ~40% of the prior effort. [Asahi Kasei in-house (RAG + NLP)]",
+   "existence": "confirmed",
+   "value": "6,000+ use-case candidates identified; screening time cut to ~40% (60% reduction)",
+   "tier": "",
+   "url": "https://xtech.nikkei.com/atcl/nxt/column/18/00001/10223/",
+   "raw_sector": "",
+   "date": "2025-02",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Asahi Kasei Corp.",
+   "use": "Joint analysis platform with NEC using secure computation (encrypted/TEE-based) so Asahi Kasei can run materials-informatics ML simulations combining raw-material, process and evaluation data across companies without exposing confidential data; deployed for energy-storage (battery) R&D collaboration. [NEC (secure computation) + Asahi Kasei MI]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.asahi-kasei.com/news/2023/e230328",
+   "raw_sector": "",
+   "date": "2023-03",
+   "fresh": "stale"
+  },
+  {
+   "company": "Asahi Kasei Corp.",
+   "use": "Asahi Kasei Microdevices (AKM) + Aizip edge-AI sensing solutions: mmWave-radar-based real-time swallowing/aspiration detection for elderly care, and EMG-based (AK05611 AFE IC) wristband gesture recognition; Aizip's lightweight models run locally on-device. Showcased at CES 2026. [Aizip (edge AI models) + AKM sensors]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.asahi-kasei.com/news/2025/e251217",
+   "raw_sector": "",
+   "date": "2025-12",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Asahi Kasei Corp.",
+   "use": "AKM + Algorized edge-AI 'people sensing' foundation model integrated with AKM AK5816AIM/AK5818AIM mmWave radar: single model detecting presence, posture (standing/sitting/walking/lying), and vital signs (breathing, heart rate) for elderly-care monitoring and industrial safety (AMRs/forklifts), fully on-device with sub-100ms latency and no cloud. [Algorized (edge-AI foundation model) + AKM radar]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.prnewswire.com/news-releases/algorized-and-asahi-kasei-microdevices-redefine-people-sensing-one-foundation-model-powered-by-the-ak581xaim-mmwave-radar-302775640.html",
+   "raw_sector": "",
+   "date": "2026-05",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Asahi Kasei Corp.",
+   "use": "AI-based compound design for drug discovery at the Asahi Kasei Pharma research center, promoted as part of open-innovation drug discovery toward becoming a global healthcare company.",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.asahi-kasei.com/content/dam/asahi-kasei/us/en/ir/library/presentation/pdf/211005.pdf",
+   "raw_sector": "",
+   "date": "2021-10",
+   "fresh": "stale"
+  },
+  {
+   "company": "Asahi Kasei Corp.",
+   "use": "Generative AI for manufacturing skill transfer and hazard prediction (KY/危険予知): past incident and safety-case data loaded into a generative AI so less-experienced workers can identify risks and countermeasures before work, preserving retiring veterans' tacit knowledge; planned extension to analyze image/audio sensor data for real-time risk avoidance. [Asahi Kasei in-house]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.asahi-kasei.com/jp/news/2024/ze241209",
+   "raw_sector": "",
+   "date": "2024-12",
+   "fresh": "aging"
+  },
+  {
+   "company": "Asahi Kasei Corp.",
+   "use": "Company-wide rollout of Microsoft 365 Copilot for individual employee productivity (document drafting, internal information search), supported by a 'Asahi Kasei DX Open Badge' generative-AI training course to drive adoption. [Microsoft 365 Copilot]",
+   "existence": "confirmed",
+   "value": "~2,157 hours/month time saved across the organization",
+   "tier": "",
+   "url": "https://www.asahi-kasei.com/jp/news/2024/ze241209",
+   "raw_sector": "",
+   "date": "2024-12",
+   "fresh": "aging"
+  },
+  {
+   "company": "Asahi Kasei Corp.",
+   "use": "Custom-built generative AI to streamline written customer-audit response work at a manufacturing division, reducing per-case handling time and standardizing responses. [Asahi Kasei in-house]",
+   "existence": "confirmed",
+   "value": "Per-case audit response cut from 25 to 12 hours; ~1,820 hours/year saved",
+   "tier": "",
+   "url": "https://www.itmedia.co.jp/business/spv/2404/11/news018.html",
+   "raw_sector": "",
+   "date": "2024-04",
+   "fresh": "aging"
+  },
+  {
+   "company": "Asahi Kasei Corp.",
+   "use": "AI in the intellectual-property department: AI patent-search/screening tools used for first-stage patent clearance and screening, plus IP Landscape analysis that identifies inventors at customer/competitor companies by matching patent classifications; generative AI later applied to patent-drafting support (fine-tuned on internal data) under a 'human-led, AI-assisted' governance policy. [Asahi Kasei in-house (AI patent search / generative AI)]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.asahi-kasei.com/content/dam/asahi-kasei/jp/ja/innovation/intellectual-asset/pdf/ip-report2023.pdf",
+   "raw_sector": "",
+   "date": "2023",
+   "fresh": "stale"
+  },
+  {
+   "company": "Asahi Kasei Corp.",
+   "use": "Internal secure generative-AI platform ('generative AI system available for all employees', Phase 1) launched company-wide with a dedicated specialized unit; provides a governed LLM environment on top of which system developers build custom applications (e.g., the material-exploration and audit-response AIs). [Asahi Kasei in-house platform]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.asahi-kasei.com/content/dam/asahi-kasei/us/en/ir/library/presentation/pdf/231207.pdf",
+   "raw_sector": "",
+   "date": "2023-05",
+   "fresh": "stale"
   }
  ]
 }

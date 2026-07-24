@@ -3,41 +3,68 @@
  "name": "LG Electronics",
  "cc": "KR",
  "vertical": "Technology",
- "deployments": 1,
- "confirmed": 1,
- "with_value_number": 1,
- "proof_rate": 1.0,
+ "deployments": 12,
+ "confirmed": 9,
+ "with_value_number": 5,
+ "proof_rate": 0.417,
  "mktcap": 22866666667.0,
  "revenue": 66074074074.0,
  "employees": 34884.0,
  "silent": false,
- "per_bn_revenue": 0.02,
- "per_10k_emp": 0.29,
+ "per_bn_revenue": 0.18,
+ "per_10k_emp": 3.44,
  "benchmarks": {
   "global_vertical": {
-   "deployments": 0,
-   "confirmed": 6,
-   "proof_rate": 72,
+   "deployments": 95,
+   "confirmed": 91,
+   "proof_rate": 68,
    "n": 156
   },
   "country_vertical": {
-   "deployments": 0,
-   "confirmed": 22,
+   "deployments": 100,
+   "confirmed": 100,
    "proof_rate": 22,
    "n": 10
   }
  },
- "first_seen": null,
- "by_year": [],
- "undated_pct": 100,
- "momentum": "none",
- "maturity": "L3",
+ "first_seen": 2019,
+ "by_year": [
+  {
+   "year": 2019,
+   "n": 1
+  },
+  {
+   "year": 2020,
+   "n": 2
+  },
+  {
+   "year": 2021,
+   "n": 1
+  },
+  {
+   "year": 2024,
+   "n": 4
+  },
+  {
+   "year": 2025,
+   "n": 2
+  },
+  {
+   "year": 2026,
+   "n": 1
+  }
+ ],
+ "undated_pct": 8,
+ "momentum": "early_mover,cooling",
+ "maturity": "L4",
  "maturity_evidence": [
+  "multi_horizontal",
   "named_product:AIR",
   "value_number",
+  "multi_year",
   "tier_p"
  ],
- "prospect_score": 14,
+ "prospect_score": 85,
  "stack": [],
  "vendor_named": false,
  "deployments_detail": [
@@ -51,6 +78,127 @@
    "raw_sector": "IT",
    "date": "missing",
    "fresh": "undated"
+  },
+  {
+   "company": "LG Electronics",
+   "use": "ThinQ ON / ChatThinQ generative AI chatbot for the smart home, letting users converse naturally to control appliances, classify intent, adjust settings and troubleshoot; core of the 'Affectionate Intelligence' AI Home platform. [LG (Affectionate Intelligence / ThinQ)]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.prnewswire.com/news-releases/lg-to-introduce-exciting-vision-for-future-living-with-lg-ai-home-innovations-at-ifa-2024-302241002.html",
+   "raw_sector": "",
+   "date": "2024-09",
+   "fresh": "aging"
+  },
+  {
+   "company": "LG Electronics",
+   "use": "DQ-C self-developed on-device AI chip embedded in home appliances (robot vacuums, washing machines, refrigerators, air conditioners) for local image/voice recognition without internet, with a hardware security zone. [LG (DQ-C on-device AI chip)]",
+   "existence": "confirmed",
+   "value": "expanding to 46 appliance models across 8 product families",
+   "tier": "",
+   "url": "https://evertiq.com/design/55543",
+   "raw_sector": "",
+   "date": "2024-04",
+   "fresh": "aging"
+  },
+  {
+   "company": "LG Electronics",
+   "use": "Q9 SmartHome AI Agent / CLOi home robot: multimodal AI agent that moves, learns, understands and holds complex conversations to orchestrate the home; positioned as foundation for LG's humanoid robotics. [LG (Q9 / CLOi)]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.kedglobal.com/korean-innovators-at-ces-2025/newsView/ked202501090006",
+   "raw_sector": "",
+   "date": "2025-01",
+   "fresh": "fresh"
+  },
+  {
+   "company": "LG Electronics",
+   "use": "Multi-AI assistants integrated into LG AI TVs: Microsoft Copilot and Google Gemini for voice queries and tailored responses on webOS TVs. [Microsoft Copilot, Google Gemini]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.prnewswire.com/news-releases/lg-electronics-unveils-its-approach-to-ai-in-action-302652338.html",
+   "raw_sector": "",
+   "date": "2026-01",
+   "fresh": "fresh"
+  },
+  {
+   "company": "LG Electronics",
+   "use": "Application of Microsoft Azure AI to LG's automotive systems: Advanced Driver Assistance Systems (ADAS), Driver-Status Monitoring camera and Multi-Purpose Front Camera / infotainment. [Microsoft Azure AI]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.lg.com/global/newsroom/news/corporate/lg-partners-with-microsoft-to-accelerate-automotive-revolution/",
+   "raw_sector": "",
+   "date": "2019-01",
+   "fresh": "stale"
+  },
+  {
+   "company": "LG Electronics",
+   "use": "Vision AI real-time defect detection and anomaly monitoring in LG smart factories: the system learns normal operating conditions and flags deviations, part of LG's Smart Factory Solutions business. [LG Smart Factory (Vision AI)]",
+   "existence": "confirmed",
+   "value": "avg 50% productivity improvement, 22% lower energy use, 55% defect-rate reduction",
+   "tier": "",
+   "url": "https://www.lg.com/global/business/smart-factory/",
+   "raw_sector": "",
+   "date": "2024-07",
+   "fresh": "aging"
+  },
+  {
+   "company": "LG Electronics",
+   "use": "Enterprise employee productivity using generative AI on Amazon Bedrock, applied to product-line competitiveness and internal business workflows (presented at AWS re:Invent 2024). [AWS Amazon Bedrock]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.youtube.com/watch?v=sj_C58AYaR4",
+   "raw_sector": "",
+   "date": "2024-12",
+   "fresh": "aging"
+  },
+  {
+   "company": "LG Electronics",
+   "use": "Robotic Process Automation (RPA) applied across office/back-office tasks (finance, HR, general administration) to automate repetitive processes. [LG RPA]",
+   "existence": "confirmed",
+   "value": "expanded to 400 additional office tasks",
+   "tier": "",
+   "url": "https://koreatechtoday.com/lg-electronics-enhances-robotic-process-automation-in-its-offices/",
+   "raw_sector": "",
+   "date": "2020-04",
+   "fresh": "stale"
+  },
+  {
+   "company": "LG Electronics",
+   "use": "Proactive Customer Care: AI-powered predictive monitoring of Wi-Fi enabled smart appliances that detects potential faults before they occur and alerts owners / expedites service, reducing avoidable service calls. [LG ThinQ]",
+   "existence": "confirmed",
+   "value": "available for 70+ Wi-Fi enabled LG smart appliance models",
+   "tier": "",
+   "url": "https://www.prnewswire.com/news-releases/lg-announces-us-roll-out-of-proactive-customer-care-for-smart-appliances-at-ces-2020-300981772.html",
+   "raw_sector": "",
+   "date": "2020-01",
+   "fresh": "stale"
+  },
+  {
+   "company": "LG Electronics",
+   "use": "Cloud Call Center with AI-powered agents and voice/chat automation for customer service, built on cloud contact-center platforms. [Amazon Connect / Genesys Cloud]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.lg.com/global/newsroom/news/corporate/lg-elevates-its-digital-transformation-with-opening-of-new-cloud-call-center/",
+   "raw_sector": "",
+   "date": "2021-07",
+   "fresh": "stale"
+  },
+  {
+   "company": "LG Electronics",
+   "use": "webOS Hub 3.0 AI ad platform for smart TVs: AI-driven data capture and emotion/belief analysis to more precisely target integrated advertising on LG connected-TV inventory (LG Ad Solutions). [LG Ad Solutions (webOS Hub 3.0)]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.channelnews.com.au/new-ai-data-capture-advertising-coming-to-lg-tvs-with-upgraded-webos-hub-3-0/",
+   "raw_sector": "",
+   "date": "2025-06",
+   "fresh": "fresh"
   }
  ]
 }

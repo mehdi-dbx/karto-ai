@@ -3,39 +3,54 @@
  "name": "Xero",
  "cc": "AU",
  "vertical": "Technology",
- "deployments": 1,
- "confirmed": 1,
- "with_value_number": 0,
- "proof_rate": 0.0,
+ "deployments": 13,
+ "confirmed": 12,
+ "with_value_number": 1,
+ "proof_rate": 0.077,
  "mktcap": 7333333333.0,
  "revenue": 1647000000.0,
  "employees": 5114.0,
  "silent": false,
- "per_bn_revenue": 0.61,
- "per_10k_emp": 1.96,
+ "per_bn_revenue": 7.89,
+ "per_10k_emp": 25.42,
  "benchmarks": {
   "global_vertical": {
-   "deployments": 0,
-   "confirmed": 6,
-   "proof_rate": 0,
+   "deployments": 99,
+   "confirmed": 98,
+   "proof_rate": 57,
    "n": 156
   }
  },
- "first_seen": 2025,
+ "first_seen": 2021,
  "by_year": [
   {
-   "year": 2025,
+   "year": 2021,
    "n": 1
+  },
+  {
+   "year": 2023,
+   "n": 2
+  },
+  {
+   "year": 2025,
+   "n": 7
+  },
+  {
+   "year": 2026,
+   "n": 2
   }
  ],
- "undated_pct": 0,
+ "undated_pct": 8,
  "momentum": "early_mover,rising",
- "maturity": "L3",
+ "maturity": "L4",
  "maturity_evidence": [
+  "multi_horizontal",
   "named_product:Just",
+  "value_number",
+  "multi_year",
   "tier_p"
  ],
- "prospect_score": 46,
+ "prospect_score": 97,
  "stack": [
   "OpenAI"
  ],
@@ -50,6 +65,138 @@
    "url": "https://www.xero.com/au/ai-in-accounting/jax/",
    "raw_sector": "Software",
    "date": "2025",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Xero",
+   "use": "JAX (Just Ask Xero), an agentic generative-AI 'financial superagent' that automates accounting tasks, answers business/financial questions, and executes actions/workflows across desktop, mobile, WhatsApp and email. [OpenAI (LLMs served via AWS, Microsoft Azure, GCP)]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.xero.com/us/ai-in-accounting/jax/",
+   "raw_sector": "",
+   "date": "2025-09",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Xero",
+   "use": "JAX partnership with OpenAI upgrades JAX into an agentic system able to scan the web and perform deep research to deliver insights to customers. [OpenAI]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://fintechmagazine.com/news/just-ask-xero-pairs-with-openai-in-agentic-shift-forward",
+   "raw_sector": "",
+   "date": "2025-09",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Xero",
+   "use": "Automatic bank reconciliation powered by JAX, using machine-learning algorithms (Rule, Match, Memory, Prediction) to auto-match and reconcile bank statement lines when confidence is high. [Xero (proprietary ML)]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://central.xero.com/s/article/About-auto-bank-reconciliation-powered-by-JAX",
+   "raw_sector": "",
+   "date": "2025",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Xero",
+   "use": "ML-powered bank reconciliation predictions that predict the contact and account code for transactions that cannot be matched to invoices or bills - Xero's first major ML production milestone. [Xero (proprietary ML)]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.xero.com/us/media-releases/xero-reaches-milestone-in-ai-strategy-with-ml-predictions/",
+   "raw_sector": "",
+   "date": "2021-11",
+   "fresh": "stale"
+  },
+  {
+   "company": "Xero",
+   "use": "AI-powered contact predictions using Xero's business register to identify business names in statement lines, based on millions of past data points. [Xero (proprietary ML)]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://blog.xero.com/product-updates/new-ai-powered-contact-predictions/",
+   "raw_sector": "",
+   "date": "2023-10",
+   "fresh": "stale"
+  },
+  {
+   "company": "Xero",
+   "use": "Xero Analytics AI-driven cash-flow forecasting based on customer payment behaviour, plus AI insights and non-financial operations metrics.",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://cfotech.com.au/story/xero-analytics-adds-ai-cash-forecasts-ops-metrics",
+   "raw_sector": "",
+   "date": "2026-02",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Xero",
+   "use": "Hubdoc AI/OCR document and data capture - reads key information (supplier names, amounts, invoice numbers, due dates) from bills, receipts and bank statements and turns it into usable accounting data in Xero. [Hubdoc (Xero-owned)]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.hubdoc.com/",
+   "raw_sector": "",
+   "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "Xero",
+   "use": "Generative Answering in Xero Central customer support portal - GenAI surfaces conversational answers to customer support queries for self-service resolution. [Coveo (Relevance Generative Answering)]",
+   "existence": "confirmed",
+   "value": "96% of questions answered by Coveo-surfaced content; 40% reduction in average search time; 20% decrease in sessions needing additional support",
+   "tier": "",
+   "url": "https://www.coveo.com/en/resources/case-studies/xero-generative-answering",
+   "raw_sector": "",
+   "date": "2023-10",
+   "fresh": "stale"
+  },
+  {
+   "company": "Xero",
+   "use": "AI assistant in the Xero support chat (Help menu) that attempts to resolve customer queries immediately before escalating to human support.",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://central.xero.com/s/article/Get-help-from-Xero-Support",
+   "raw_sector": "",
+   "date": "2025",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Xero",
+   "use": "Xero MCP Server and AI Toolkit for developers - lets AI agents (Claude, ChatGPT, Cursor) interact with Xero accounting data via Model Context Protocol, OpenAI Agents SDK and LangChain to create invoices, reconcile transactions, and fetch data. [Anthropic Claude / OpenAI / LangChain (MCP)]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://developer.xero.com/ai",
+   "raw_sector": "",
+   "date": "2025-03",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Xero",
+   "use": "Internal engineering use of GitHub Copilot in code editors for technical reviews and executing coding plans, powered by Xero's internal AI platform. [GitHub Copilot]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://careers.xero.com/humans-of-xero-blog/blogs/using-ai-for-engineering-technical-reviews/",
+   "raw_sector": "",
+   "date": "2025-10",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Xero",
+   "use": "Integration with Microsoft 365 so JAX can take actions and surface financial answers within Microsoft 365 Copilot, bringing live Xero financial data into M365 apps. [Microsoft 365 Copilot]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.xero.com/us/media-releases/xero-launches-integration-with-microsoft-365/",
+   "raw_sector": "",
+   "date": "2026-07",
    "fresh": "fresh"
   }
  ]

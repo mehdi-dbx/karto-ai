@@ -3,38 +3,61 @@
  "name": "Evergreen Marine",
  "cc": "TW",
  "vertical": "Logistics & Supply Chain",
- "deployments": 1,
- "confirmed": 0,
- "with_value_number": 1,
- "proof_rate": 1.0,
+ "deployments": 10,
+ "confirmed": 6,
+ "with_value_number": 4,
+ "proof_rate": 0.4,
  "mktcap": 13768437500.0,
  "revenue": 11112812500.0,
  "employees": 200.0,
  "silent": false,
- "per_bn_revenue": 0.09,
- "per_10k_emp": 50.0,
+ "per_bn_revenue": 0.9,
+ "per_10k_emp": 500.0,
  "benchmarks": {
   "global_vertical": {
-   "deployments": 0,
-   "confirmed": 0,
-   "proof_rate": 60,
+   "deployments": 95,
+   "confirmed": 95,
+   "proof_rate": 49,
    "n": 66
   }
  },
- "first_seen": 2025,
+ "first_seen": 2015,
  "by_year": [
   {
-   "year": 2025,
+   "year": 2015,
    "n": 1
+  },
+  {
+   "year": 2020,
+   "n": 1
+  },
+  {
+   "year": 2022,
+   "n": 1
+  },
+  {
+   "year": 2023,
+   "n": 1
+  },
+  {
+   "year": 2025,
+   "n": 3
+  },
+  {
+   "year": 2026,
+   "n": 2
   }
  ],
- "undated_pct": 0,
+ "undated_pct": 10,
  "momentum": "early_mover,rising",
- "maturity": "L1",
+ "maturity": "L4",
  "maturity_evidence": [
-  "rows_no_confirmed"
+  "multi_horizontal",
+  "named_product:Trans",
+  "value_number",
+  "multi_year"
  ],
- "prospect_score": 0,
+ "prospect_score": 68,
  "stack": [],
  "vendor_named": false,
  "deployments_detail": [
@@ -47,6 +70,105 @@
    "url": "https://autos.yahoo.com.tw/高雄港第七貨櫃中心啟用-050716328.html",
    "raw_sector": "Shipping",
    "date": "2025",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Evergreen Marine",
+   "use": "Trans-Pacific autonomous navigation: Samsung Autonomous Ship (SAS) system fused radar, GPS, AIS and camera data with AI to run a 15,000-TEU Evergreen boxship from Oakland to Kaohsiung (~10,000 km), performing 104 guidance operations and 224 automated control actions without crew intervention, analyzing weather/route every 3 hours and optimizing economical speed. [Samsung Heavy Industries (SAS)]",
+   "existence": "confirmed",
+   "value": "10,000 km voyage; 104 guidance operations and 224 automated control actions without crew intervention",
+   "tier": "",
+   "url": "https://smartmaritimenetwork.com/2025/09/26/evergreen-completes-pacific-crossing-with-ai-autonomous-navigation-system/",
+   "raw_sector": "",
+   "date": "2025-09",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Evergreen Marine",
+   "use": "Terminal 7 at Kaohsiung Port, Taiwan's first fully automated container terminal: 60 automated rail-mounted gantry cranes, remote-controlled quay cranes, unmanned vehicles, IoT/5G network and an AI-coordinated terminal operating system (TOS) plus real-time power monitoring to run yard operations.",
+   "existence": "confirmed",
+   "value": "60 automated rail-mounted cranes operating without workers",
+   "tier": "",
+   "url": "https://www.evergreen-marine.com/emc/latestnews/jsp/EMC_NewsDetail.jsp?lang=en&newsId=NEWS2023081400016397",
+   "raw_sector": "",
+   "date": "2023-08",
+   "fresh": "stale"
+  },
+  {
+   "company": "Evergreen Marine",
+   "use": "ClassNK-NAPA GREEN eco-efficiency software deployed on chartered container vessels for real-time performance monitoring, voyage routing, speed and trim optimization to cut fuel consumption, using a Dynamic Performance Model (99.6% accuracy). [NAPA / ClassNK (NAPA GREEN)]",
+   "existence": "confirmed",
+   "value": "expected 4-6% fuel consumption reduction in trials; performance model 99.6% accuracy",
+   "tier": "",
+   "url": "https://www.napa.fi/news/evergreen-line-installing-classnk-napa-green-on-chartered-container-vessels/",
+   "raw_sector": "",
+   "date": "2015",
+   "fresh": "stale"
+  },
+  {
+   "company": "Evergreen Marine",
+   "use": "Navis StowMan Control Center, Distributed Services and loading computers for vessel stowage planning across the fleet, using stability/stress calculations, slot definitions and advanced lashing/optimization to improve cargo capacity utilization and sailing safety (adopted after the EVER SMART incident review). [Navis / Kaleris (StowMan)]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://kaleris.com/news/evergreen-and-navis-enter-into-a-new-partnership-to-lift-stowage-operations-to-a-new-level/",
+   "raw_sector": "",
+   "date": "2022-01",
+   "fresh": "stale"
+  },
+  {
+   "company": "Evergreen Marine",
+   "use": "Signed agreement to deploy a new AI-powered vessel and fleet/fuel management digital platform to optimize fleet operations and fuel consumption.",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://rynda.io/news/69aff837-aec1-4554-8773-7110af652fa5",
+   "raw_sector": "",
+   "date": "2026-07",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Evergreen Marine",
+   "use": "In-house ship fuel efficiency management system that uses AI-based intelligent scheduling to optimize routes and reduce fuel consumption across the owned fleet, part of Evergreen's energy and emissions management (reported in its sustainability/CSR reporting).",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://csr.evergreen-marine.com/pdf/csr-policy-report/Evergreen_CSR_Report_CH4.pdf",
+   "raw_sector": "",
+   "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "Evergreen Marine",
+   "use": "Strategic AI-integration mandate under new leadership targeting predictive maintenance for vessels, optimized route planning for fuel efficiency, and AI-enhanced cargo management to improve port turnaround.",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://ports.marinelink.com/ports/port/belfast-city/news/evergreen-marine-announces-leadership-transition-focus-on-ai-integration",
+   "raw_sector": "",
+   "date": "2026-05",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Evergreen Marine",
+   "use": "GreenX digital booking platform uses AI to calculate container slot (space) prices in real time based on demand/competition, with guardrails preventing illogical (zero/negative) quotes, letting customers get instant quotes and book capacity immediately, replacing email/phone processes. [BlueX Trade]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.twtcca.org.tw/newsdetail_tw.php?id=5434",
+   "raw_sector": "",
+   "date": "2020",
+   "fresh": "stale"
+  },
+  {
+   "company": "Evergreen Marine",
+   "use": "QUAXAR cyber threat intelligence (CTI) platform supplied to Evergreen Marine to monitor emerging threats, analyze attacker behavior across the shipping sector, and enable early detection/proactive response to cyberattacks on vessels and port infrastructure. [S2W (QUAXAR)]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://s2w.inc/en/news/detail/978",
+   "raw_sector": "",
+   "date": "2025-12",
    "fresh": "fresh"
   }
  ]

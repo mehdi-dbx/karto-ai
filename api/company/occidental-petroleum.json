@@ -3,44 +3,55 @@
  "name": "Occidental Petroleum",
  "cc": "US",
  "vertical": "Energy & Utilities",
- "deployments": 1,
- "confirmed": 0,
- "with_value_number": 0,
- "proof_rate": 0.0,
+ "deployments": 9,
+ "confirmed": 7,
+ "with_value_number": 1,
+ "proof_rate": 0.111,
  "mktcap": 57520000000.0,
  "revenue": 21120000000.0,
  "employees": 10412.0,
  "silent": false,
- "per_bn_revenue": 0.05,
- "per_10k_emp": 0.96,
+ "per_bn_revenue": 0.43,
+ "per_10k_emp": 8.64,
  "benchmarks": {
   "global_vertical": {
-   "deployments": 0,
-   "confirmed": 0,
-   "proof_rate": 0,
+   "deployments": 92,
+   "confirmed": 92,
+   "proof_rate": 60,
    "n": 210
   },
   "country_vertical": {
-   "deployments": 0,
-   "confirmed": 0,
-   "proof_rate": 0,
+   "deployments": 98,
+   "confirmed": 98,
+   "proof_rate": 88,
    "n": 52
   }
  },
- "first_seen": 2025,
+ "first_seen": 2023,
  "by_year": [
   {
+   "year": 2023,
+   "n": 2
+  },
+  {
+   "year": 2024,
+   "n": 3
+  },
+  {
    "year": 2025,
-   "n": 1
+   "n": 3
   }
  ],
- "undated_pct": 0,
- "momentum": "rising",
- "maturity": "L1",
+ "undated_pct": 11,
+ "momentum": "early_mover,cooling",
+ "maturity": "L4",
  "maturity_evidence": [
-  "rows_no_confirmed"
+  "multi_horizontal",
+  "named_product:Automated",
+  "value_number",
+  "multi_year"
  ],
- "prospect_score": 40,
+ "prospect_score": 86,
  "stack": [],
  "vendor_named": false,
  "deployments_detail": [
@@ -54,6 +65,94 @@
    "raw_sector": "Energy",
    "date": "2025",
    "fresh": "fresh"
+  },
+  {
+   "company": "Occidental Petroleum",
+   "use": "Automated review and classification of ~1.5 million land-lease/mineral-rights agreements: PDFs are OCR'd and an LLM classifies each document into one of 140 categories and extracts key metadata (dates, legal terms), replacing a planned 30-contractor manual effort. [MongoDB Atlas + Microsoft Azure AI Document Intelligence (OCR) + off-the-shelf LLM + AWS Lambda/S3]",
+   "existence": "confirmed",
+   "value": "$4 million and 12 months saved vs. manual plan; 1.5M documents processed; ~$3M additional anticipated savings",
+   "tier": "",
+   "url": "https://www.mongodb.com/solutions/customer-case-studies/occidental-petroleum",
+   "raw_sector": "",
+   "date": "2024",
+   "fresh": "aging"
+  },
+  {
+   "company": "Occidental Petroleum",
+   "use": "Enterprise cloud + analytics/ML platform: Occidental selected AWS as preferred cloud provider, using AWS Lake Formation and machine learning to break down data silos, improve exploration decision-making times and optimize equipment performance; subsidiary 1PointFive analyzes real-time direct-air-capture performance data to optimize equipment efficiency. [Amazon Web Services (Lake Formation, EC2, EBS)]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://press.aboutamazon.com/2023/7/occidental-selects-aws-as-its-preferred-cloud-provider",
+   "raw_sector": "",
+   "date": "2023-07",
+   "fresh": "stale"
+  },
+  {
+   "company": "Occidental Petroleum",
+   "use": "In-house AI-built digital twins of oilfields that ingest millions of datapoints from thousands of sensors to design and simulate more effective CO2 injection / enhanced oil recovery strategies in the Permian Basin. [In-house (unnamed)]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.forbes.com/sites/christopherhelman/2025/04/29/oxy-taps-ai-to-help-inject-old-oilfields-with-carbon-dioxide/",
+   "raw_sector": "",
+   "date": "2025-04",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Occidental Petroleum",
+   "use": "AI/ML-based predictive maintenance across oilfield operations: real-time sensor data feeds self-learning predictive models to forecast and mitigate unplanned equipment failures/events, with robots and drones performing inspection tasks. [In-house / IoT + ML (unnamed)]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://jpt.spe.org/ai-is-here-and-its-helping-with-predictive-maintenance-in-the-oil-field",
+   "raw_sector": "",
+   "date": "2023-05",
+   "fresh": "stale"
+  },
+  {
+   "company": "Occidental Petroleum",
+   "use": "Oxy Drilling Dynamics: proprietary physics-based drilling optimization combined with machine learning and advanced optimization algorithms to reduce inefficient rig energy, improve drilling rates and lower well costs in conventional and unconventional operations. [In-house (Oxy Drilling Dynamics)]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.oxy.com/operations/performance-production/",
+   "raw_sector": "",
+   "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "Occidental Petroleum",
+   "use": "Enterprise-wide deployment of agentic AI in an asset-heavy business, spanning safety monitoring, predictive maintenance and automated machine control, described by Oxy's Chief of AI as disciplined production rollout rather than model hype. [Not specified]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.hartenergy.com/technology-and-innovation/he-occidental-petroleum-ai-adoption-oil-and-gas/",
+   "raw_sector": "",
+   "date": "2025",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Occidental Petroleum",
+   "use": "Explainable machine learning for hydrocarbon prospect risk assessment: Oxy geophysical experts apply ML models with model-agnostic explanation (LIME) to seismic and geometry data to risk drilled prospects in exploration. [In-house (Oxy geophysics team); LIME explainability]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://pubs.geoscienceworld.org/seg/geophysics/article/89/1/WA13/628557/Explainable-machine-learning-for-hydrocarbon",
+   "raw_sector": "",
+   "date": "2024",
+   "fresh": "aging"
+  },
+  {
+   "company": "Occidental Petroleum",
+   "use": "SensorUp Gas Emissions Management Solution (GEMS): AI aggregates and analyzes methane emission data from satellites, aerial imagery, IoT sensors, optical gas imaging and drones to establish the source, cause, time and rate of real-time emissions, accelerating leak detection and repair. [SensorUp (GEMS) on AWS (IoT Core, Lambda, S3, DynamoDB, AppSync, ECS)]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://aws.amazon.com/blogs/industries/how-oxy-uses-sensorup-gas-emission-management-solution-for-informed-decision-making-and-strategic-operations/",
+   "raw_sector": "",
+   "date": "2024-03",
+   "fresh": "aging"
   }
  ]
 }

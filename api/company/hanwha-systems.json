@@ -3,39 +3,54 @@
  "name": "Hanwha Systems",
  "cc": "KR",
  "vertical": "Industrial / Machinery",
- "deployments": 1,
- "confirmed": 0,
- "with_value_number": 0,
- "proof_rate": 0.0,
+ "deployments": 11,
+ "confirmed": 5,
+ "with_value_number": 1,
+ "proof_rate": 0.091,
  "mktcap": 8570370370.0,
  "revenue": 2800000000.0,
  "employees": 4620.0,
  "silent": false,
- "per_bn_revenue": 0.36,
- "per_10k_emp": 2.16,
+ "per_bn_revenue": 3.93,
+ "per_10k_emp": 23.81,
  "benchmarks": {
   "global_vertical": {
-   "deployments": 0,
-   "confirmed": 0,
-   "proof_rate": 0,
+   "deployments": 95,
+   "confirmed": 91,
+   "proof_rate": 67,
    "n": 175
   },
   "country_vertical": {
-   "deployments": 0,
-   "confirmed": 0,
-   "proof_rate": 0,
+   "deployments": 100,
+   "confirmed": 100,
+   "proof_rate": 57,
    "n": 22
   }
  },
- "first_seen": null,
- "by_year": [],
- "undated_pct": 100,
- "momentum": "none",
- "maturity": "L1",
- "maturity_evidence": [
-  "rows_no_confirmed"
+ "first_seen": 2024,
+ "by_year": [
+  {
+   "year": 2024,
+   "n": 1
+  },
+  {
+   "year": 2025,
+   "n": 4
+  },
+  {
+   "year": 2026,
+   "n": 3
+  }
  ],
- "prospect_score": 40,
+ "undated_pct": 27,
+ "momentum": "early_mover,rising",
+ "maturity": "L3",
+ "maturity_evidence": [
+  "multi_horizontal",
+  "named_product:Combat",
+  "multi_year"
+ ],
+ "prospect_score": 74,
  "stack": [],
  "vendor_named": false,
  "deployments_detail": [
@@ -49,6 +64,116 @@
    "raw_sector": "Industrials",
    "date": "missing",
    "fresh": "undated"
+  },
+  {
+   "company": "Hanwha Systems",
+   "use": "Sovereign defense AI foundation model for next-generation battlefield situational awareness — real-time threat analysis/identification, AI-assisted command decisions, and optimal weapon-system selection for air defense operations. Built to reduce reliance on foreign AI and prevent confidential data leaks. [Naver Cloud; Seoul National University; POSTECH; Northrop Grumman (partners)]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.businesskorea.co.kr/news/articleView.html?idxno=246907",
+   "raw_sector": "",
+   "date": "2025-07",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Hanwha Systems",
+   "use": "AI-based redevelopment of the Allied Korea Joint Command and Control System (AKJCCS) for Korea-US combined operations — AI situational analysis and automated decision-making support on cloud infrastructure. Described as Korea's first application of AI to a command-and-control system.",
+   "existence": "claimed",
+   "value": "93.7 billion won ($69M) contract",
+   "tier": "",
+   "url": "https://en.sedaily.com/finance/2025/12/26/hanwha-systems-wins-937-billion-won-contract-for-ai-based",
+   "raw_sector": "",
+   "date": "2025-12",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Hanwha Systems",
+   "use": "AI-powered naval Combat Management System (Naval Shield CMS) unveiled at MADEX 2025 — AI automation for threat evaluation and weapon assignment aboard ROK Navy warships, including a next-gen reduced-manning 'Smart Battleship' concept.",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.navalnews.com/event-news/madex-2025/2025/06/hanwha-systems-showcase-ai-powered-cms-and-advanced-ibs/",
+   "raw_sector": "",
+   "date": "2025-06",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Hanwha Systems",
+   "use": "AI/big-data-based automatic naval mine detection and mine-warfare mission planning combat system for South Korean Navy minesweepers — real-time identification of underwater objects.",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.janes.com/defence-intelligence-insights/defence-news/c4isr/update-hanwha-systems-to-build-cms-for-south-korean-navy-minesweeper",
+   "raw_sector": "",
+   "date": "2025-01",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Hanwha Systems",
+   "use": "30-ton AI-powered unmanned surface vessel (USV) launched for sea trials to validate AI-based autonomous navigation, target recognition, and open (US Navy UMAA-aligned) software architecture; testbed running through end of 2027.",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.koreaherald.com/article/10803251",
+   "raw_sector": "",
+   "date": "2026-07",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Hanwha Systems",
+   "use": "AI integration into SAR satellite platform — high-resolution satellite imagery analyzed in near real time by the company's AI systems for rapid detection of ground features/changes; part of a plan to operate 64 SAR satellites by 2031.",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.koreaherald.com/article/10724754",
+   "raw_sector": "",
+   "date": "2026-04",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Hanwha Systems",
+   "use": "Next-generation Active Protection System (NG-APS) for main battle tanks/combat vehicles integrating an expanded sensor array with AI processing and analysis to detect, track, and intercept incoming anti-tank threats.",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.asianmilitaryreview.com/2026/02/hanwha-systems-works-on-next-generation-active-protection-system-foc/",
+   "raw_sector": "",
+   "date": "2026-02",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Hanwha Systems",
+   "use": "AgentOne enterprise AI agent platform (ICT Division) — commercial platform with pre-built agents, AI governance, custom agent-creation tools, and a Vision-to-Agentic pipeline (vision recognition to LLM reasoning to autonomous action) tailored for manufacturing, defense, and service-industry office/back-office automation.",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.hanwhasystems.com/ict/en/business/solution/ai_agent.do",
+   "raw_sector": "",
+   "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "Hanwha Systems",
+   "use": "Special-purpose drone surveillance radar using composite sensors and big-data-driven AI to detect small unmanned aircraft and both metal and non-metal mines — described as Korea's first AI-applied radar of this type.",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.hanwhasystems.com/en/business/defense/isr/radar03.do",
+   "raw_sector": "",
+   "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "Hanwha Systems",
+   "use": "Counter-UAS (anti-drone) defense system combining radar detection with high-powered laser interception; domestic contracts including ~33 mobile counter-drone systems mounted on military vehicles.",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.unmannedairspace.info/counter-uas-systems-and-policies/hanwha-systems-clinches-deals-for-domestic-counter-uas-systems-and-seeks-export-markets/",
+   "raw_sector": "",
+   "date": "2024-01",
+   "fresh": "aging"
   }
  ]
 }

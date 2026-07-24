@@ -3,40 +3,57 @@
  "name": "Skanska",
  "cc": "SE",
  "vertical": "Real Estate & Construction",
- "deployments": 2,
- "confirmed": 2,
- "with_value_number": 0,
- "proof_rate": 0.0,
+ "deployments": 13,
+ "confirmed": 8,
+ "with_value_number": 1,
+ "proof_rate": 0.077,
  "mktcap": 10399047619.0,
  "revenue": 16584761905.0,
  "employees": 26043.0,
  "silent": false,
- "per_bn_revenue": 0.12,
- "per_10k_emp": 0.77,
+ "per_bn_revenue": 0.78,
+ "per_10k_emp": 4.99,
  "benchmarks": {
   "global_vertical": {
-   "deployments": 87,
-   "confirmed": 92,
-   "proof_rate": 0,
+   "deployments": 100,
+   "confirmed": 98,
+   "proof_rate": 59,
    "n": 154
   }
  },
- "first_seen": 2024,
+ "first_seen": 2016,
  "by_year": [
   {
+   "year": 2016,
+   "n": 1
+  },
+  {
+   "year": 2020,
+   "n": 1
+  },
+  {
+   "year": 2022,
+   "n": 1
+  },
+  {
    "year": 2024,
-   "n": 2
+   "n": 5
+  },
+  {
+   "year": 2025,
+   "n": 4
   }
  ],
- "undated_pct": 0,
- "momentum": "early_mover,gone_quiet",
- "maturity": "L3",
+ "undated_pct": 8,
+ "momentum": "early_mover,cooling",
+ "maturity": "L4",
  "maturity_evidence": [
   "multi_horizontal",
   "named_product:Skanska",
+  "multi_year",
   "tier_p"
  ],
- "prospect_score": 60,
+ "prospect_score": 93,
  "stack": [],
  "vendor_named": false,
  "deployments_detail": [
@@ -59,6 +76,127 @@
    "tier": "P",
    "url": "https://www.skanska.com/group/en/media/foresight/articles/accelerating-ai-to-transform-construction",
    "raw_sector": "Construction",
+   "date": "2024",
+   "fresh": "aging"
+  },
+  {
+   "company": "Skanska",
+   "use": "Skanska Sidekick, an internal generative-AI chatbot that lets employees securely query the company's collective knowledge (documents, standards, project data) via a ChatGPT-like interface. Rolled out across Skanska USA. [Microsoft Azure OpenAI / GPT-4]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.constructiondive.com/news/sidekick-skanskas-ai-construction-chatbot/709350/",
+   "raw_sector": "",
+   "date": "2024-02",
+   "fresh": "aging"
+  },
+  {
+   "company": "Skanska",
+   "use": "AI-enabled Automated Cost and Carbon Estimating (AACE): a BIM-driven tool that simulates design/material options to estimate carbon and cost during preconstruction, trialled on HS2 sites managed by the Skanska Costain STRABAG joint venture. [Nomitech / Mott MacDonald / MTC]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.skanska.com/uk/en-gb/news-insights/press-releases/2020/ai-solution-trialled-on-hs2-project",
+   "raw_sector": "",
+   "date": "2020-12",
+   "fresh": "stale"
+  },
+  {
+   "company": "Skanska",
+   "use": "OpenSpace reality-capture and Visual Intelligence platform: automated 360 jobsite image capture pinned to plans, with AI Voice Notes that log and assign snags/tasks on the spot. Used by Skanska teams (highlighted at Waypoint 2025). [OpenSpace]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.openspace.ai/news/skanska-buoyed-by-insights-from-openspace-reality-capture-data/",
+   "raw_sector": "",
+   "date": "2025-09",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Skanska",
+   "use": "Slate Technologies AI-powered digital assistant for construction: connects project data across tools to surface predictive insights and support earlier decision-making; deployed in partnership with Skanska. [Slate Technologies]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://aecmag.com/ai/slate-applies-ai-in-construction-with-skanska/",
+   "raw_sector": "",
+   "date": "2022-04",
+   "fresh": "stale"
+  },
+  {
+   "company": "Skanska",
+   "use": "AI decision-support tool for bridge design that uses machine learning and synthetic data to simulate thousands of bridge alternatives in seconds, evaluating climate impact, cost, build time and buildability in early project phases. Industrial-PhD research project with Chalmers University. [Skanska / Chalmers University]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.skanska.com/group/en/media/foresight/articles/building-better-bridges-with-artificial-intelligence",
+   "raw_sector": "",
+   "date": "2025",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Skanska",
+   "use": "Safety Sidekick, an AI safety assistant trained on Skanska-specific safety data that generates customized toolbox talks, answers jobsite safety questions on mobile/desktop, and analyzes site-condition photos for contextual guidance. Piloted with early users across US jobsites. [OpenAI GPT-4o]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.usa.skanska.com/who-we-are/media/press-releases/298531/Skanska-launches-Safety-Sidekick-AI-tool-to-advance-job-site-safety-across-the-U.S",
+   "raw_sector": "",
+   "date": "2025-04",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Skanska",
+   "use": "Computer-vision safety analytics on jobsite photos and video: Skanska USA deployed Smartvid.io (later Newmetrix) machine learning to auto-tag PPE violations and other hazards, turning field imagery into risk-scored safety observations. Presented as an Autodesk BIM 360 case study. [Smartvid.io / Newmetrix]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.constructiondive.com/news/skanska-usa-smartvidio-partner-to-bring-machine-learning-to-field-data-an/430080/",
+   "raw_sector": "",
+   "date": "2016-11",
+   "fresh": "stale"
+  },
+  {
+   "company": "Skanska",
+   "use": "AI-powered perimeter security using Hakimo autonomous monitoring cameras with AI threat detection, automated supervisor alerts and remote talk-down, deployed at the I-405 Brickyard-to-SR 527 highway expansion project in Bothell, WA. [Hakimo]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://action-cs.com/architectural-heritage-2-2/",
+   "raw_sector": "",
+   "date": "2025-06",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Skanska",
+   "use": "Trial of AI analysis of helmet-camera imagery from jobsites to identify unsafe worker behavior, part of Skanska's computer-vision safety and human-detection initiatives.",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.skanska.com/group/en/media/foresight/articles/accelerating-ai-to-transform-construction",
+   "raw_sector": "",
+   "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "Skanska",
+   "use": "Procore Copilot AI integrated with Microsoft Teams, letting Skanska staff ask natural-language questions about Procore project data and receive summaries; plus Procore AI Locations and Procore Maps for automated drawing/location and photo handling. [Procore]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.skanska.com/us/en/media/news--foresight/innovation/how-ai-is-revolutionizing-productivity-efficiency-and-knowledge-sharing",
+   "raw_sector": "",
+   "date": "2024-07",
+   "fresh": "aging"
+  },
+  {
+   "company": "Skanska",
+   "use": "AI recruiting: Skanska adopted HireVue's structured video/voice interview platform to automate early-stage screening, skills assessment, certification verification and candidate ranking. [HireVue]",
+   "existence": "claimed",
+   "value": "time-to-hire cut from 24 to 10 days; manual screening time reduced 60%+; recruiter workload cut 65%",
+   "tier": "",
+   "url": "https://blancai.beehiiv.com/p/how-skanska-solved-its-hiring-bottlenecks-with-ai-recruiting",
+   "raw_sector": "",
    "date": "2024",
    "fresh": "aging"
   }

@@ -3,39 +3,51 @@
  "name": "Costco",
  "cc": "US",
  "vertical": "Retail & E-commerce",
- "deployments": 1,
- "confirmed": 0,
- "with_value_number": 1,
- "proof_rate": 1.0,
+ "deployments": 10,
+ "confirmed": 4,
+ "with_value_number": 3,
+ "proof_rate": 0.3,
  "mktcap": 408080000000.0,
  "revenue": 293590000000.0,
  "employees": 341000.0,
  "silent": false,
- "per_bn_revenue": 0.0,
- "per_10k_emp": 0.03,
+ "per_bn_revenue": 0.03,
+ "per_10k_emp": 0.29,
  "benchmarks": {
   "global_vertical": {
-   "deployments": 0,
-   "confirmed": 0,
-   "proof_rate": 73,
+   "deployments": 93,
+   "confirmed": 91,
+   "proof_rate": 65,
    "n": 295
   },
   "country_vertical": {
-   "deployments": 0,
-   "confirmed": 0,
-   "proof_rate": 77,
+   "deployments": 84,
+   "confirmed": 81,
+   "proof_rate": 73,
    "n": 80
   }
  },
- "first_seen": null,
- "by_year": [],
- "undated_pct": 100,
- "momentum": "none",
- "maturity": "L1",
- "maturity_evidence": [
-  "rows_no_confirmed"
+ "first_seen": 2025,
+ "by_year": [
+  {
+   "year": 2025,
+   "n": 6
+  },
+  {
+   "year": 2026,
+   "n": 3
+  }
  ],
- "prospect_score": 0,
+ "undated_pct": 10,
+ "momentum": "rising",
+ "maturity": "L4",
+ "maturity_evidence": [
+  "multi_horizontal",
+  "named_product:CEO",
+  "value_number",
+  "multi_year"
+ ],
+ "prospect_score": 60,
  "stack": [],
  "vendor_named": false,
  "deployments_detail": [
@@ -49,6 +61,105 @@
    "raw_sector": "Consumer Staples",
    "date": "missing",
    "fresh": "undated"
+  },
+  {
+   "company": "Costco",
+   "use": "AI tools being deployed in Costco's gas station business to improve fuel inventory management and drive incremental sales; described by the CEO as in the process of being rolled out.",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.constellationr.com/blog-news/insights/costco-approaching-ai-very-costco-way",
+   "raw_sector": "",
+   "date": "2025-12",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Costco",
+   "use": "Personalized product recommendations across Costco's website and app, using machine learning to surface more relevant products to members and drive basket size and warehouse visits. CEO cited a resulting sales lift. [Microsoft Azure, Google Cloud Vertex AI]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.constellationr.com/blog-news/insights/costco-approaching-ai-very-costco-way",
+   "raw_sector": "",
+   "date": "2025-12",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Costco",
+   "use": "AI search discoverability: Costco optimized its product pages so they surface in generative AI assistants (ChatGPT, Gemini, etc.); the company reported a triple-digit increase in AI-generated traffic, which had the highest conversion rate of any traffic source in fiscal Q3 2026.",
+   "existence": "confirmed",
+   "value": "triple-digit increase in AI-generated traffic; highest conversion rate of any source",
+   "tier": "",
+   "url": "https://www.aol.com/costco-quietly-embraces-ai-not-100000000.html",
+   "raw_sector": "",
+   "date": "2026",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Costco",
+   "use": "'Reserved Display' AI-powered onsite retail-media ad format on the Costco Velocity network, delivering personalized 'digital endcaps' on Costco.com homepage and search using deep neural networks trained on member purchase behavior; beta launching Q2 2026. [Moloco]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://progressivegrocer.com/costcos-retail-media-network-adds-ai-onsite-ads",
+   "raw_sector": "",
+   "date": "2026-03",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Costco",
+   "use": "AI-personalized online display advertising delivered at the moment of product selection ('digital end caps'), matching products to members via machine learning trained on purchase behavior, integrated with Costco's identity resolution and audience building. [Moloco]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.chainstoreage.com/costco-personalize-online-display-ads-moment-product-selection",
+   "raw_sector": "",
+   "date": "2026-03",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Costco",
+   "use": "AI-powered pharmacy inventory system that autonomously and predictively reorders prescription drug inventory, comparing pricing across vendors; CEO Ron Vachris stated it raised pharmacy in-stocks to more than 98% and contributed to mid-teens script growth. [proprietary]",
+   "existence": "confirmed",
+   "value": "in-stocks improved to more than 98%",
+   "tier": "",
+   "url": "https://www.constellationr.com/blog-news/insights/costco-approaching-ai-very-costco-way",
+   "raw_sector": "",
+   "date": "2025-12",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Costco",
+   "use": "Pre-scan / membership-scan checkout technology that lets items be scanned before reaching the register; CEO reported checkout speed improvements of up to 20% in the warehouses that adopted it first.",
+   "existence": "confirmed",
+   "value": "checkout speed up to 20% faster",
+   "tier": "",
+   "url": "https://www.constellationr.com/blog-news/insights/costco-approaching-ai-very-costco-way",
+   "raw_sector": "",
+   "date": "2025-12",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Costco",
+   "use": "Machine-learning demand forecasting for fresh/bakery departments delivered to staff via a tablet application to reduce food waste and optimize production quantities. [SAP]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.klover.ai/costco-uses-ai-agents-10-ways-to-use-ai-in-depth-analysis-2025/",
+   "raw_sector": "",
+   "date": "2025",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Costco",
+   "use": "AI-based loss prevention and asset protection using transaction anomaly detection and computer-vision surveillance to identify theft and shrink across warehouses.",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.klover.ai/costco-uses-ai-agents-10-ways-to-use-ai-in-depth-analysis-2025/",
+   "raw_sector": "",
+   "date": "2025",
+   "fresh": "fresh"
   }
  ]
 }

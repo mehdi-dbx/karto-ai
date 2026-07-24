@@ -3,44 +3,64 @@
  "name": "Alstom",
  "cc": "FR",
  "vertical": "Manufacturing & Robotics",
- "deployments": 1,
- "confirmed": 1,
- "with_value_number": 0,
- "proof_rate": 0.0,
+ "deployments": 12,
+ "confirmed": 11,
+ "with_value_number": 3,
+ "proof_rate": 0.25,
  "mktcap": 8056800000.0,
  "revenue": 20703600000.0,
  "employees": 87832.0,
  "silent": false,
- "per_bn_revenue": 0.05,
- "per_10k_emp": 0.11,
+ "per_bn_revenue": 0.58,
+ "per_10k_emp": 1.37,
  "benchmarks": {
   "global_vertical": {
-   "deployments": 0,
-   "confirmed": 24,
-   "proof_rate": 0,
+   "deployments": 99,
+   "confirmed": 99,
+   "proof_rate": 69,
    "n": 147
   },
   "country_vertical": {
-   "deployments": 0,
-   "confirmed": 23,
-   "proof_rate": 0,
+   "deployments": 100,
+   "confirmed": 100,
+   "proof_rate": 92,
    "n": 14
   }
  },
- "first_seen": 2025,
+ "first_seen": 2020,
  "by_year": [
   {
-   "year": 2025,
+   "year": 2020,
+   "n": 2
+  },
+  {
+   "year": 2023,
    "n": 1
+  },
+  {
+   "year": 2024,
+   "n": 4
+  },
+  {
+   "year": 2025,
+   "n": 2
+  },
+  {
+   "year": 2026,
+   "n": 2
   }
  ],
- "undated_pct": 0,
- "momentum": "rising",
- "maturity": "L2",
+ "undated_pct": 8,
+ "momentum": "early_mover,cooling",
+ "maturity": "L4",
  "maturity_evidence": [
+  "multi_horizontal",
+  "named_product:Internal",
+  "value_number",
+  "multi_year",
   "tier_p"
  ],
- "prospect_score": 54,
+ "prospect_score": 98,
  "stack": [],
  "vendor_named": false,
  "deployments_detail": [
@@ -54,6 +74,127 @@
    "raw_sector": "Rail Transport Equipment",
    "date": "2025",
    "fresh": "fresh"
+  },
+  {
+   "company": "Alstom",
+   "use": "HealthHub cloud predictive-maintenance platform that ingests sensor data from trains, signalling and infrastructure and uses AI-based algorithms to monitor asset health and predict failures before they occur, enabling condition-based/predictive maintenance.",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.alstom.com/press-releases-news/2023/2/healthhub-intelligent-way-improve-maintenance",
+   "raw_sector": "",
+   "date": "2023-04",
+   "fresh": "stale"
+  },
+  {
+   "company": "Alstom",
+   "use": "HealthHub TrainScanner: wayside portal with 3D cameras, lasers and AI algorithms that automatically scans passing trains (wheels, brake pads, pantographs, undersides) to detect defects and overheating for predictive maintenance. In service (e.g. Warsaw depot).",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.alstom.com/press-releases-news/2020/11/alstoms-healthhubtm-trainscanner-enters-service-warsaw",
+   "raw_sector": "",
+   "date": "2020-11",
+   "fresh": "stale"
+  },
+  {
+   "company": "Alstom",
+   "use": "Mastria multimodal supervision and mobility-orchestration solution that uses AI and predictive data analysis for traffic management, coordination of operations and predictive analysis across urban transport modes (deployed with Panama Metro).",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.alstom.com/press-releases-news/2020/8/mastria-mobility-orchestration-digital-age",
+   "raw_sector": "",
+   "date": "2020-08",
+   "fresh": "stale"
+  },
+  {
+   "company": "Alstom",
+   "use": "Radio failure prediction system: AI model that predicts train radio/communication failures in signalling so issues are resolved before they interrupt rail operations. Selected among 111 projects in France's Ministry of Economy 'AI for Efficiency' call for projects.",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.alstom.com/press-releases-news/2025/2/building-safer-future-trustworthy-ai",
+   "raw_sector": "",
+   "date": "2025-02",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Alstom",
+   "use": "AI-powered wildlife detection and deterrence system trialled with startup Flox Intelligence on Swedish railways: onboard/edge AI, bioacoustics and behavioural science detect animals near tracks in real time and deter them to reduce collisions and improve reliability and safety. [Flox Intelligence]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.globalrailwayreview.com/alstom-trials-ai-wildlife-detection-system-on-swedish-railways/2135457.article",
+   "raw_sector": "",
+   "date": "2026-05",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Alstom",
+   "use": "Cloud-based predictive maintenance solution built on AWS with Devoteam that automates train data analysis to enable proactive maintenance and improve uptime. [AWS, Devoteam]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.devoteam.com/success-story/alstom-predictive-maintenance-on-cloud/",
+   "raw_sector": "",
+   "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "Alstom",
+   "use": "Internal generative AI platform (\"mAI\" multimodal chatbot) built on Azure OpenAI Service, used company-wide for content generation, translation, document/form intelligence, engineering specification writing and quality-checking, and support to HR, finance, learning and project management. Runs at over 1,000 users and 15,000+ operations per month. [Microsoft Azure OpenAI Service (GPT), Azure AI Studio]",
+   "existence": "confirmed",
+   "value": "25% improvement in specification quality checking; 1,000+ users, 15,000+ operations/month",
+   "tier": "",
+   "url": "https://www.microsoft.com/en/customers/story/1779144753409953376-alstom-azure-openai-service-travel-and-transportation-en-france",
+   "raw_sector": "",
+   "date": "2024-06",
+   "fresh": "aging"
+  },
+  {
+   "company": "Alstom",
+   "use": "Copilot for Microsoft 365 rolled out to improve the productivity of frontline and office workers across business functions. [Microsoft Copilot for Microsoft 365]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.railwayage.com/news/supply-side-alstom-hitachi-ltd/",
+   "raw_sector": "",
+   "date": "2024-06",
+   "fresh": "aging"
+  },
+  {
+   "company": "Alstom",
+   "use": "Global skills-intelligence platform built on 365Talents' AI skills engine to detect employees' declared and hidden skills and match them to internal opportunities, training and career paths (rolled out after the Bombardier merger). [365Talents]",
+   "existence": "confirmed",
+   "value": "55,000 employees deployed within 9 months; 65% of managers and employees engaged (80,000+ employees total)",
+   "tier": "",
+   "url": "https://365talents.com/en/resources/ebooks/alstom-builds-a-global-skills-intelligence-platform-with-365talents/",
+   "raw_sector": "",
+   "date": "2024",
+   "fresh": "aging"
+  },
+  {
+   "company": "Alstom",
+   "use": "AI role-play / conversational avatar training used to scale feedback and communication-skills practice for managers, letting them rehearse feedback conversations with adaptive AI avatars. [CrossKnowledge]",
+   "existence": "confirmed",
+   "value": "scaled feedback practice across 15,000 managers",
+   "tier": "",
+   "url": "https://www.crossknowledge.com/blog/ai-role-play-feedback-training-managers-alstom/",
+   "raw_sector": "",
+   "date": "2026-07",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Alstom",
+   "use": "GitHub Copilot deployed for software developers/engineers to generate and refactor code, part of Alstom's push to improve frontline and developer productivity with generative AI. [GitHub Copilot (Microsoft)]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.railwayage.com/news/supply-side-alstom-hitachi-ltd/",
+   "raw_sector": "",
+   "date": "2024-06",
+   "fresh": "aging"
   }
  ]
 }

@@ -3,45 +3,64 @@
  "name": "GN Store Nord",
  "cc": "DK",
  "vertical": "Healthcare & Life Sciences",
- "deployments": 1,
- "confirmed": 1,
- "with_value_number": 0,
- "proof_rate": 0.0,
+ "deployments": 10,
+ "confirmed": 9,
+ "with_value_number": 2,
+ "proof_rate": 0.2,
  "mktcap": 1936231884.0,
  "revenue": 2405797101.0,
  "employees": 7736.0,
  "silent": false,
- "per_bn_revenue": 0.42,
- "per_10k_emp": 1.29,
+ "per_bn_revenue": 4.16,
+ "per_10k_emp": 12.93,
  "benchmarks": {
   "global_vertical": {
-   "deployments": 0,
-   "confirmed": 14,
-   "proof_rate": 0,
+   "deployments": 94,
+   "confirmed": 95,
+   "proof_rate": 69,
    "n": 165
   },
   "country_vertical": {
-   "deployments": 0,
-   "confirmed": 29,
-   "proof_rate": 0,
+   "deployments": 100,
+   "confirmed": 100,
+   "proof_rate": 86,
    "n": 8
   }
  },
- "first_seen": 2025,
+ "first_seen": 2021,
  "by_year": [
   {
+   "year": 2021,
+   "n": 1
+  },
+  {
+   "year": 2023,
+   "n": 1
+  },
+  {
+   "year": 2024,
+   "n": 1
+  },
+  {
    "year": 2025,
+   "n": 3
+  },
+  {
+   "year": 2026,
    "n": 1
   }
  ],
- "undated_pct": 0,
- "momentum": "rising",
- "maturity": "L3",
+ "undated_pct": 30,
+ "momentum": "early_mover,rising",
+ "maturity": "L4",
  "maturity_evidence": [
+  "multi_horizontal",
   "named_product:Intelligent Focus",
+  "value_number",
+  "multi_year",
   "tier_p"
  ],
- "prospect_score": 54,
+ "prospect_score": 94,
  "stack": [],
  "vendor_named": false,
  "deployments_detail": [
@@ -55,6 +74,105 @@
    "raw_sector": "Healthcare",
    "date": "2025-02",
    "fresh": "fresh"
+  },
+  {
+   "company": "GN Store Nord",
+   "use": "ReSound Vivia prescription hearing aid with a dedicated Deep Neural Network (DNN) chip trained on 13.5 million spoken sentences (equivalent to ~25 years of conversation) to spotlight speech and suppress noise in real time; marketed as the world's smallest AI-powered hearing aid. [GN in-house DNN / dedicated DNN chip]",
+   "existence": "confirmed",
+   "value": "DNN chip up to 17x more powerful; trained on 13.5 million spoken sentences",
+   "tier": "",
+   "url": "https://www.resound.com/en-us/press/gn-introduces-its-most-intelligent-hearing-portfolio-yet-including-resound-vivia",
+   "raw_sector": "",
+   "date": "2025-02",
+   "fresh": "fresh"
+  },
+  {
+   "company": "GN Store Nord",
+   "use": "Jabra PanaCast 50 intelligent video bar with Virtual Director AI that auto-frames active speakers in real time, plus certified Microsoft IntelliFrame multi-stream and Intelligent Speaker (face/voice recognition) support for Teams intelligent recap. [Jabra (GN Audio) proprietary AI + Microsoft Teams IntelliFrame/Intelligent Speaker]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.gn.com/newsroom/news/2023/june/ai-powered-updates-to-jabra-panacast-50-revolutionizes--hybrid-video-conferencing",
+   "raw_sector": "",
+   "date": "2023-06",
+   "fresh": "stale"
+  },
+  {
+   "company": "GN Store Nord",
+   "use": "Jabra ClearVoice AI-driven voice isolation in the boomless Evolve3 headset series, using deep neural network (DNN) deep-learning trained on more than 60 million real-world sentences to separate the user's speech from background noise. [Jabra (GN Audio) ClearVoice / DNN]",
+   "existence": "confirmed",
+   "value": "DNN trained on 60 million+ sentences",
+   "tier": "",
+   "url": "https://www.jabra.com/about/news-and-press-releases/2026-jabra-reinforces-headset-leadership-with-new-evolve3-series",
+   "raw_sector": "",
+   "date": "2026-01",
+   "fresh": "fresh"
+  },
+  {
+   "company": "GN Store Nord",
+   "use": "SteelSeries GG Sonar audio software with AI-powered noise cancellation (ClearCast) that isolates the gamer's/streamer's voice and suppresses background noise for gaming and live streaming. [SteelSeries (GN)]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://steelseries.com/gg/sonar-for-streamers",
+   "raw_sector": "",
+   "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "GN Store Nord",
+   "use": "Jabra Enhance Select direct-to-consumer / OTC hearing aids with SoundScape AI-powered noise reduction and an app enabling self-fitting, remote adjustments and virtual access to an audiology team. [Jabra Enhance (GN)]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.jabraenhance.com/product",
+   "raw_sector": "",
+   "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "GN Store Nord",
+   "use": "Jabra Enhance Plus miniature true-wireless earbuds delivering AI-based hearing enhancement (clearer conversations in noise) for people with mild-to-moderate hearing loss, blending hearing help with music and calls. [Jabra (GN)]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.jabra.com/about/news-and-press-releases/2021-jabra-earbuds-engineered-for-discreet-hearing-enhancement",
+   "raw_sector": "",
+   "date": "2021-08",
+   "fresh": "stale"
+  },
+  {
+   "company": "GN Store Nord",
+   "use": "Jabra Engage AI / Engage AI Complete for contact centers: real-time tone-of-voice and sentiment analysis on both agent and caller, live speech-to-text transcription, generative-AI call summaries and agent coaching/guidance. [Jabra (GN Audio) with audEERING (voice emotion AI)]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://audioxpress.com/news/jabra-launches-ai-enhanced-real-time-assistance-software-for-call-centers",
+   "raw_sector": "",
+   "date": "2025-05",
+   "fresh": "fresh"
+  },
+  {
+   "company": "GN Store Nord",
+   "use": "ReSound Smart 3D / ReSound Assist remote-care platform: cloud/ML-assisted remote fine-tuning where users send requests from the app and clinicians push adjusted hearing-aid settings, plus Live Assistance video appointments, reducing in-clinic visits. [GN Hearing (ReSound)]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.resound.com/en-us/hearing-aids/assist",
+   "raw_sector": "",
+   "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "GN Store Nord",
+   "use": "Internal enterprise use of Artificial Intelligence and machine learning across product innovation and business management, cited by GN as its combined AI capability applied in various areas of the business.",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.gn.com/-/media/Files/Document-Download-Center/Corporate-governance/AR2024/GN-Annual-Report-2024.pdf",
+   "raw_sector": "",
+   "date": "2024",
+   "fresh": "aging"
   }
  ]
 }

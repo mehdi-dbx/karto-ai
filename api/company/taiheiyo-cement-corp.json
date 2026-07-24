@@ -3,40 +3,60 @@
  "name": "Taiheiyo Cement Corp.",
  "cc": "JP",
  "vertical": "Chemicals & Materials",
- "deployments": 2,
- "confirmed": 2,
- "with_value_number": 0,
- "proof_rate": 0.0,
+ "deployments": 11,
+ "confirmed": 8,
+ "with_value_number": 2,
+ "proof_rate": 0.182,
  "mktcap": 3060066667.0,
  "revenue": 5989600000.0,
  "employees": 12626.0,
  "silent": false,
- "per_bn_revenue": 0.33,
- "per_10k_emp": 1.58,
+ "per_bn_revenue": 1.84,
+ "per_10k_emp": 8.71,
  "benchmarks": {
   "global_vertical": {
-   "deployments": 81,
-   "confirmed": 81,
-   "proof_rate": 0,
+   "deployments": 94,
+   "confirmed": 94,
+   "proof_rate": 60,
    "n": 105
   },
   "country_vertical": {
-   "deployments": 53,
-   "confirmed": 53,
-   "proof_rate": 0,
+   "deployments": 91,
+   "confirmed": 88,
+   "proof_rate": 29,
    "n": 35
   }
  },
- "first_seen": null,
- "by_year": [],
- "undated_pct": 100,
- "momentum": "none",
- "maturity": "L3",
+ "first_seen": 2022,
+ "by_year": [
+  {
+   "year": 2022,
+   "n": 1
+  },
+  {
+   "year": 2023,
+   "n": 2
+  },
+  {
+   "year": 2025,
+   "n": 4
+  },
+  {
+   "year": 2026,
+   "n": 1
+  }
+ ],
+ "undated_pct": 27,
+ "momentum": "early_mover,rising",
+ "maturity": "L4",
  "maturity_evidence": [
+  "multi_horizontal",
   "named_product:PreSLump",
+  "value_number",
+  "multi_year",
   "tier_p"
  ],
- "prospect_score": 60,
+ "prospect_score": 89,
  "stack": [],
  "vendor_named": false,
  "deployments_detail": [
@@ -61,6 +81,105 @@
    "raw_sector": "Glass & Ceramics",
    "date": "missing",
    "fresh": "undated"
+  },
+  {
+   "company": "Taiheiyo Cement Corp.",
+   "use": "AI-powered ship allocation optimization system for coastal cement transport; analyzes large volumes of transportation data to generate optimal multi-month vessel scheduling plans considering fuel, route efficiency and loading capacity. First such system in Japan's cement industry, in operation since May 2025. [GRID Inc.]",
+   "existence": "confirmed",
+   "value": "expected ~10% reduction in fuel consumption at planning stage; planning time cut by more than 50% vs manual",
+   "tier": "",
+   "url": "https://www.globalcement.com/news/19720-taiheiyo-cement-starts-using-ship-allocation-optimisation-system",
+   "raw_sector": "",
+   "date": "2025-05",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Taiheiyo Cement Corp.",
+   "use": "PreSLump AI: real-time concrete slump prediction using deep-learning image recognition of concrete in the mixer, automating quality measurement. Commercialized/sold for ready-mix concrete plants (built on the AI slump-prediction technology first developed in 2019). [Taiheiyo Cement / Pacific Systems]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.taiheiyo-cement.co.jp/english/summary/pdf/230327.pdf",
+   "raw_sector": "",
+   "date": "2023-03",
+   "fresh": "stale"
+  },
+  {
+   "company": "Taiheiyo Cement Corp.",
+   "use": "TQPS (Taiheiyo Cement Quality Predictive System): neural-network models that predict cement strength and quality characteristics from analytical values and production operating conditions, without waiting for materials to age; used to support production/quality management at factories. [Taiheiyo Cement (in-house neural network)]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.taiheiyo-cement.co.jp/english/rd/tqps/outline/index.html",
+   "raw_sector": "",
+   "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "Taiheiyo Cement Corp.",
+   "use": "AI-based automatic operation/control of rotary cement kilns (firing furnaces) at domestic plants; AI trained on temperature, pressure and other in-kiln data plus a 3D digital map of plant equipment to learn and replace skilled operator control amid workforce aging. Full rollout planned from fiscal year 2026.",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://asia.nikkei.com/business/companies/ai-gives-japan-s-aging-cement-industry-chance-for-renewal",
+   "raw_sector": "",
+   "date": "2026",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Taiheiyo Cement Corp.",
+   "use": "AI + drone predictive maintenance / failure-prediction system at Kumagaya plant: drones with cameras inspect kiln steel-ring surfaces (detecting ~1mm anomalies) while vibration/temperature/flow sensors on 30+ machines feed AI time-series analysis to predict equipment failures 1-2 weeks in advance. In full operation since fiscal 2022.",
+   "existence": "confirmed",
+   "value": "detects anomalies as small as ~1mm; failure detection 1-2 weeks before occurrence",
+   "tier": "",
+   "url": "https://xtech.nikkei.com/atcl/nxt/column/18/01969/041800011/",
+   "raw_sector": "",
+   "date": "2022",
+   "fresh": "stale"
+  },
+  {
+   "company": "Taiheiyo Cement Corp.",
+   "use": "Autonomous indoor inspection drones for plant equipment: drones self-estimate position from camera imagery of surrounding objects to fly autonomously in GPS-denied indoor areas of cement plants, extending equipment inspection/monitoring beyond outdoor drone use.",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.nikkei.com/article/DGXZQOUC24AX30U3A121C2000000/",
+   "raw_sector": "",
+   "date": "2023-12",
+   "fresh": "stale"
+  },
+  {
+   "company": "Taiheiyo Cement Corp.",
+   "use": "Group company Taiheiyo Material adopted the User Local ChatAI enterprise generative-AI platform to search/summarize large volumes of technical documents, retrieve past construction cases, support sales proposal drafting and proofread product manuals; deployed across technical development, sales and management departments. [User Local ChatAI (ChatGPT / Gemini)]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.userlocal.jp/press/20251007tt/",
+   "raw_sector": "",
+   "date": "2025-10",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Taiheiyo Cement Corp.",
+   "use": "Corporate use of generative AI for preparing materials/documents and creating meeting minutes at HQ/back-office; run as a pilot/proof-of-concept to verify practical applicability for broader business use.",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.taiheiyo-cement.co.jp/english/csr/pdf/data/2025/Taiheiyo-Cement-rep2025en_a4.pdf",
+   "raw_sector": "",
+   "date": "2025",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Taiheiyo Cement Corp.",
+   "use": "Sales DX program using digital technologies including RPA and generative AI to improve sales/business-process efficiency and strengthen customer-response capability. [RPA / generative AI (unnamed)]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.taiheiyo-cement.co.jp/csr/mmp_promotion_fr.html",
+   "raw_sector": "",
+   "date": "2025",
+   "fresh": "fresh"
   }
  ]
 }

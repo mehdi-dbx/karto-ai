@@ -3,45 +3,56 @@
  "name": "B3",
  "cc": "BR",
  "vertical": "Financial Services",
- "deployments": 2,
- "confirmed": 2,
- "with_value_number": 0,
- "proof_rate": 0.0,
+ "deployments": 11,
+ "confirmed": 10,
+ "with_value_number": 7,
+ "proof_rate": 0.636,
  "mktcap": 14753703704.0,
  "revenue": 1953703704.0,
  "employees": 2889.0,
  "silent": false,
- "per_bn_revenue": 1.02,
- "per_10k_emp": 6.92,
+ "per_bn_revenue": 5.63,
+ "per_10k_emp": 38.08,
  "benchmarks": {
   "global_vertical": {
-   "deployments": 70,
-   "confirmed": 80,
-   "proof_rate": 0,
+   "deployments": 94,
+   "confirmed": 95,
+   "proof_rate": 72,
    "n": 377
   },
   "country_vertical": {
-   "deployments": 50,
-   "confirmed": 50,
-   "proof_rate": 0,
+   "deployments": 100,
+   "confirmed": 100,
+   "proof_rate": 50,
    "n": 7
   }
  },
- "first_seen": 2025,
+ "first_seen": 2022,
  "by_year": [
   {
-   "year": 2025,
+   "year": 2022,
    "n": 1
+  },
+  {
+   "year": 2024,
+   "n": 2
+  },
+  {
+   "year": 2025,
+   "n": 7
   }
  ],
- "undated_pct": 50,
- "momentum": "rising",
- "maturity": "L3",
+ "undated_pct": 9,
+ "momentum": "early_mover,rising",
+ "maturity": "L4",
  "maturity_evidence": [
+  "multi_horizontal",
   "named_product:BridgeWise",
+  "value_number",
+  "multi_year",
   "tier_p"
  ],
- "prospect_score": 60,
+ "prospect_score": 83,
  "stack": [],
  "vendor_named": false,
  "deployments_detail": [
@@ -65,6 +76,105 @@
    "url": "https://www.b3.com.br / https://investidor10.com.br",
    "raw_sector": "Financial exchange",
    "date": "2025",
+   "fresh": "fresh"
+  },
+  {
+   "company": "B3",
+   "use": "Public generative-AI financial-education assistant on the 'Bora Investir' portal that answers retail investors' questions about investing terms, stocks, bonds and brokers (trained on B3 educational content plus CVM regulator material, reviewed by specialists). First generative-AI product for financial education in the Brazilian market. [Microsoft Azure OpenAI Service + Azure AI Search]",
+   "existence": "confirmed",
+   "value": "~10,000 users assisted daily",
+   "tier": "",
+   "url": "https://news.microsoft.com/source/latam/features/ai/brazil-b3-investment-copilot/?lang=en",
+   "raw_sector": "",
+   "date": "2024-02",
+   "fresh": "aging"
+  },
+  {
+   "company": "B3",
+   "use": "'Digital Coach' autonomous AI agent that monitors and analyzes customer-service call-center interactions, checking whether agents gave correct information and whether the customer's problem was resolved, generating a call score and improvement insights.",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.infomoney.com.br/business/b3-anuncia-expansao-do-uso-de-inteligencia-artificial-com-foco-em-sistemas-autonomos/",
+   "raw_sector": "",
+   "date": "2025-04",
+   "fresh": "fresh"
+  },
+  {
+   "company": "B3",
+   "use": "AI stock/company analysis platform in the B3 Investor Area (Área do Investidor) that evaluates intrinsic value and financial health of national and international listed companies, giving retail investors institutional-grade analysis on their portfolio holdings. [BridgeWise (generative AI + machine learning)]",
+   "existence": "confirmed",
+   "value": "280+ fundamental indicators per asset; ~36,000 stocks across 110+ exchanges (~90% of world listed companies)",
+   "tier": "",
+   "url": "https://www.b3.com.br/pt_br/noticias/b3-disponibiliza-plataforma-de-inteligencia-artificial-ia-que-avalia-empresas-nacionais-e-internacionais.htm",
+   "raw_sector": "",
+   "date": "2025-08",
+   "fresh": "fresh"
+  },
+  {
+   "company": "B3",
+   "use": "Enterprise-wide plan to build 50+ proprietary autonomous AI agents in 2025, mainly for products and services, to automate complex internal tasks and scale AI across the business.",
+   "existence": "claimed",
+   "value": "50+ new AI agents planned; ~R$10 million investment",
+   "tier": "",
+   "url": "https://valor.globo.com/financas/noticia/2025/04/24/b3-vai-criar-50-novos-agentes-de-ia-em-2025-em-investimento-de-r-10-milhoes.ghtml",
+   "raw_sector": "",
+   "date": "2025-04",
+   "fresh": "fresh"
+  },
+  {
+   "company": "B3",
+   "use": "Data-intelligence/AI-driven digitization of 'duplicatas' (trade receivables) via B3's scriptural duplicate registry to reduce fraud and expand credit access in the receivables market.",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://neofeed.com.br/brand-stories/apresentado-por-b3/b3-usa-tecnologia-e-inteligencia-de-dados-para-transformar-a-duplicata-em-motor-do-credito/",
+   "raw_sector": "",
+   "date": "2025-09",
+   "fresh": "fresh"
+  },
+  {
+   "company": "B3",
+   "use": "Microsoft 365 Copilot rollout to employees for productivity: meeting summaries, document/data processing and accessibility support across multiple business areas. [Microsoft 365 Copilot]",
+   "existence": "confirmed",
+   "value": "170 people across 17 areas (100 completed adoption); reported 2,600%-4,000% task productivity gains and ~33 hours/month saved in project meetings",
+   "tier": "",
+   "url": "https://www.microsoft.com/pt-br/customers/story/24301-b3-microsoft-365-copilot",
+   "raw_sector": "",
+   "date": "2025-06",
+   "fresh": "fresh"
+  },
+  {
+   "company": "B3",
+   "use": "'Minuto B3' daily market bulletin fully produced with generative AI and human-like avatars, automating scripting, narration and video editing of the daily market recap.",
+   "existence": "confirmed",
+   "value": "production time cut from 8 hours to ~40 minutes (91% optimization)",
+   "tier": "",
+   "url": "https://oglobo.globo.com/google/amp/economia/negocios/noticia/2024/08/13/b3-vai-usar-inteligencia-artificial-e-avatares-em-boletim-sobre-o-mercado-financeiro.ghtml",
+   "raw_sector": "",
+   "date": "2024-08",
+   "fresh": "aging"
+  },
+  {
+   "company": "B3",
+   "use": "Neurotech (AI/ML/big-data subsidiary acquired by B3) provides AI credit-decisioning, risk assessment and insurance/fraud-prevention systems used by most large Brazilian banks and financial institutions. [Neurotech (B3 company)]",
+   "existence": "confirmed",
+   "value": "acquisition ~R$620M (up to R$1.14bn with earn-outs)",
+   "tier": "",
+   "url": "https://www.b3.com.br/pt_br/noticias/b3-anuncia-aquisicao-da-neurotech.htm",
+   "raw_sector": "",
+   "date": "2022-11",
+   "fresh": "stale"
+  },
+  {
+   "company": "B3",
+   "use": "AI-based health-insurance reimbursement fraud detection (Neurotech deep-learning models) that analyzes reimbursement claims for insurers to flag suspicious/abusive requests. [Neurotech (B3 company)]",
+   "existence": "confirmed",
+   "value": "flagged fraud/abuse indications in 8% of health reimbursement claims since 2022; earlier ~R$30M in losses avoided at one insurer",
+   "tier": "",
+   "url": "https://oglobo.globo.com/google/amp/blogs/capital/post/2025/07/neurotech-a-empresa-da-b3-que-ja-detectou-milhoes-de-fraudes-em-reembolsos-na-saude.ghtml",
+   "raw_sector": "",
+   "date": "2025-07",
    "fresh": "fresh"
   }
  ]

@@ -3,45 +3,56 @@
  "name": "GTT",
  "cc": "FR",
  "vertical": "Energy & Utilities",
- "deployments": 1,
- "confirmed": 1,
- "with_value_number": 0,
- "proof_rate": 0.0,
+ "deployments": 10,
+ "confirmed": 7,
+ "with_value_number": 4,
+ "proof_rate": 0.4,
  "mktcap": 7819200000.0,
  "revenue": 867348000.0,
  "employees": 732.0,
  "silent": false,
- "per_bn_revenue": 1.15,
- "per_10k_emp": 13.66,
+ "per_bn_revenue": 11.53,
+ "per_10k_emp": 136.61,
  "benchmarks": {
   "global_vertical": {
-   "deployments": 0,
-   "confirmed": 20,
-   "proof_rate": 0,
+   "deployments": 94,
+   "confirmed": 92,
+   "proof_rate": 66,
    "n": 210
   },
   "country_vertical": {
-   "deployments": 0,
-   "confirmed": 0,
-   "proof_rate": 0,
+   "deployments": 100,
+   "confirmed": 100,
+   "proof_rate": 100,
    "n": 7
   }
  },
- "first_seen": 2025,
+ "first_seen": 2023,
  "by_year": [
   {
-   "year": 2025,
+   "year": 2023,
+   "n": 2
+  },
+  {
+   "year": 2024,
    "n": 1
+  },
+  {
+   "year": 2025,
+   "n": 7
   }
  ],
  "undated_pct": 0,
- "momentum": "rising",
- "maturity": "L3",
+ "momentum": "early_mover,rising",
+ "maturity": "L4",
  "maturity_evidence": [
+  "multi_horizontal",
   "named_product:Ascenz",
+  "value_number",
+  "multi_year",
   "tier_p"
  ],
- "prospect_score": 54,
+ "prospect_score": 74,
  "stack": [],
  "vendor_named": false,
  "deployments_detail": [
@@ -54,6 +65,105 @@
    "url": "https://www.gtt.fr/fr/actualites/ascenz-marorka-le-pole-smart-shipping-du-groupe-gtt-equipera-lensemble-de-la-flotte-du",
    "raw_sector": "Engineering (LNG Containment)",
    "date": "2025",
+   "fresh": "fresh"
+  },
+  {
+   "company": "GTT",
+   "use": "AI/machine-learning algorithm (physics-informed 'grey models') developed by subsidiary Ascenz Marorka with GTT to predict LNG sloshing effects - near real-time assessment of pressure loads on tank walls, structural vibrations and boil-off rates, using one of the world's largest hydrodynamic databases. [Ascenz Marorka (GTT Group)]",
+   "existence": "confirmed",
+   "value": "Navigator Gas reported 15% reduction in consumption and emissions with Ascenz Marorka Smart Shipping tools",
+   "tier": "",
+   "url": "https://ascenzmarorka.com/artificial-intelligence-alternative-energy/",
+   "raw_sector": "",
+   "date": "2025-03",
+   "fresh": "fresh"
+  },
+  {
+   "company": "GTT",
+   "use": "Joint study by GTT, Lloyd's Register and Shell using the AI-based Sloshing Virtual Sensor / digital twin to demonstrate predictive technology can safely extend LNG-carrier tank inspection intervals beyond the mandatory 5-year cycle. [GTT / Ascenz Marorka, Lloyd's Register, Shell]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.gtt.fr/news/new-study-gtt-lloyds-register-and-shell-concludes-predictive-technology-could-extend-tank",
+   "raw_sector": "",
+   "date": "2024-03",
+   "fresh": "aging"
+  },
+  {
+   "company": "GTT",
+   "use": "Voyage Insights / Route Optimisation: AI-driven ship models and intelligent navigation algorithms combined with high-resolution weather forecasts and digital twins to give vessel-specific route, speed and shaft-RPM recommendations that cut fuel and emissions. [Ascenz Marorka (GTT Marine)]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.gttmarine.fr/solutions/voyage-insights-by-ascenz-marorka-software",
+   "raw_sector": "",
+   "date": "2025",
+   "fresh": "fresh"
+  },
+  {
+   "company": "GTT",
+   "use": "Fleet Insights by Kyma: machine-learning digital-twin models grounded in naval architecture and hydrodynamic theory that produce predictive performance benchmarks and predictive alerts when vessels underperform, to reduce emissions. [Danelec / Kyma (GTT Marine)]",
+   "existence": "confirmed",
+   "value": "98% benchmark accuracy; ~6,000-vessel install base (Kyma)",
+   "tier": "",
+   "url": "https://www.gttmarine.fr/solutions/fleet-insights-by-kyma",
+   "raw_sector": "",
+   "date": "2025",
+   "fresh": "fresh"
+  },
+  {
+   "company": "GTT",
+   "use": "Nautilus Labs AI technology platform (acquired via Danelec, now GTT Group): machine-learning plus naval-architecture models delivering real-time voyage-outcome predictions and decarbonisation/efficiency recommendations from millions of data points. [Nautilus Labs (via Danelec / GTT Group)]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.danelec.com/newsroom/danelec-acquires-nautilus-labs-ai-technology-platform-to-gain-deeper-insights-within-sustainability-and-safety",
+   "raw_sector": "",
+   "date": "2023-11",
+   "fresh": "stale"
+  },
+  {
+   "company": "GTT",
+   "use": "TMS Group selected Ascenz Marorka's Smart Shipping platform (advanced AI + naval architecture, VESPER module, LNG Optim, Heel Management, high-frequency sensors) to equip its entire 130+ vessel fleet for performance optimisation and predictive maintenance. [Ascenz Marorka (GTT Group)]",
+   "existence": "confirmed",
+   "value": "over 130 ships",
+   "tier": "",
+   "url": "https://www.gtt.fr/news/ascenz-marorka-gtts-smart-shipping-arm-equip-tms-groups-entire-fleet-its-smart-shipping",
+   "raw_sector": "",
+   "date": "2025-04",
+   "fresh": "fresh"
+  },
+  {
+   "company": "GTT",
+   "use": "Sloshield real-time sloshing monitoring with predictive analysis contracted to equip 24 LNG carriers at Hudong-Zhonghua Shipbuilding, detecting and reducing sloshing risk in LNG cargo tanks. [Ascenz Marorka (GTT Group)]",
+   "existence": "claimed",
+   "value": "24 LNG carriers",
+   "tier": "",
+   "url": "https://www.gtt.fr/news/ascenz-marorka-signs-contract-hudong-zhonghua-shipbuilding-equip-24-lng-carriers-sloshieldtm",
+   "raw_sector": "",
+   "date": "2025-08",
+   "fresh": "fresh"
+  },
+  {
+   "company": "GTT",
+   "use": "Sloshing Virtual Sensor: AI combined with a GTT-designed tank digital twin and real-time operational data to monitor LNG membrane-tank integrity and enable extended, condition-based inspection intervals (predictive maintenance). [GTT / Ascenz Marorka, Approval-in-Principle by Lloyd's Register]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.rivieramm.com/news-content-hub/news-content-hub/using-ai-new-digital-tool-monitors-lng-membrane-tanks-to-increase-uptime-74671",
+   "raw_sector": "",
+   "date": "2023-01",
+   "fresh": "stale"
+  },
+  {
+   "company": "GTT",
+   "use": "Real-Time Fleet Performance Monitoring Service using AI-driven ship models and intelligent navigation algorithms, operated 24/7 across France, Singapore and (from 2025) the Americas to optimise routes and cut fuel/emissions. [Ascenz Marorka (GTT Group)]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.gtt.fr/news/ascenz-marorka-gtts-smart-shipping-arm-expands-its-real-time-fleet-performance-monitoring",
+   "raw_sector": "",
+   "date": "2025-03",
    "fresh": "fresh"
   }
  ]

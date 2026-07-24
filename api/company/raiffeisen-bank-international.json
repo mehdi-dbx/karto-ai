@@ -3,21 +3,21 @@
  "name": "Raiffeisen Bank International",
  "cc": "AT",
  "vertical": "Financial Services",
- "deployments": 3,
- "confirmed": 3,
- "with_value_number": 1,
- "proof_rate": 0.333,
+ "deployments": 16,
+ "confirmed": 15,
+ "with_value_number": 8,
+ "proof_rate": 0.5,
  "mktcap": 19839600000.0,
  "revenue": 9698400000.0,
  "employees": 42154.0,
  "silent": false,
- "per_bn_revenue": 0.31,
- "per_10k_emp": 0.71,
+ "per_bn_revenue": 1.65,
+ "per_10k_emp": 3.8,
  "benchmarks": {
   "global_vertical": {
-   "deployments": 94,
-   "confirmed": 97,
-   "proof_rate": 59,
+   "deployments": 100,
+   "confirmed": 100,
+   "proof_rate": 61,
    "n": 377
   }
  },
@@ -26,18 +26,31 @@
   {
    "year": 2017,
    "n": 1
+  },
+  {
+   "year": 2019,
+   "n": 1
+  },
+  {
+   "year": 2025,
+   "n": 4
+  },
+  {
+   "year": 2026,
+   "n": 2
   }
  ],
- "undated_pct": 67,
- "momentum": "early_mover,gone_quiet",
- "maturity": "L3",
+ "undated_pct": 50,
+ "momentum": "early_mover,rising",
+ "maturity": "L4",
  "maturity_evidence": [
   "multi_horizontal",
   "named_product:MAIA",
   "value_number",
+  "multi_year",
   "tier_p"
  ],
- "prospect_score": 45,
+ "prospect_score": 80,
  "stack": [
   "Microsoft",
   "Microsoft Azure",
@@ -75,6 +88,149 @@
    "tier": "P",
    "url": "https://www.microsoft.com/en/customers/story/21406-raiffeisen-bank-international-azure",
    "raw_sector": "Banks",
+   "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "Raiffeisen Bank International",
+   "use": "RBI GPT — internal ChatGPT-style assistant for document analysis, summarization of news/financial reports, email drafting, regulatory Q&A and reconciliation reporting; grew from 2,000 to 20,000+ employees [Microsoft Azure OpenAI Service, Azure AI Search, Azure AI Foundry]",
+   "existence": "confirmed",
+   "value": "20,000+ users (from 2,000 at launch)",
+   "tier": "",
+   "url": "https://www.microsoft.com/en/customers/story/21406-raiffeisen-bank-international-azure",
+   "raw_sector": "",
+   "date": "2025-01",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Raiffeisen Bank International",
+   "use": "Microsoft 365 Copilot rolled out to employees to simplify daily productivity tasks across the group [Microsoft 365 Copilot]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.rbinternational.com/en/raiffeisen/blog/market-trends/the-convergence-of-digital-assets-and-ai-a-cee-perspective.html",
+   "raw_sector": "",
+   "date": "2026-01",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Raiffeisen Bank International",
+   "use": "AI-powered contract lifecycle management for global contract compliance [Sirion]",
+   "existence": "confirmed",
+   "value": "60% increase in contract volume",
+   "tier": "",
+   "url": "https://www.sirion.ai/library/case-study/raiffeisen-bank-international/",
+   "raw_sector": "",
+   "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "Raiffeisen Bank International",
+   "use": "AI-driven models for platform/system performance monitoring — analyzing daily system parameters (CPU usage, growth trends) for IT operations optimization [Teradata]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.teradata.com/events/possible/sessions/raiffeisen-bank-international",
+   "raw_sector": "",
+   "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "Raiffeisen Bank International",
+   "use": "GitHub Copilot for software development — code generation and routine coding tasks across engineering teams [GitHub Copilot]",
+   "existence": "confirmed",
+   "value": "220 licenses, 62% developer adoption; ~10x faster on routine tasks",
+   "tier": "",
+   "url": "https://dev.ua/en/news/tatsyi-1765365975",
+   "raw_sector": "",
+   "date": "2025",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Raiffeisen Bank International",
+   "use": "Claude Code used for complex reasoning-based development tasks (e.g. an intern built a KYB service in one week) [Anthropic Claude Code]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://dev.ua/en/news/tatsyi-1765365975",
+   "raw_sector": "",
+   "date": "2025",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Raiffeisen Bank International",
+   "use": "Feedzai Digital Trust — real-time transaction fraud detection using behavioral biometrics, device and network data (hybrid AI/ML), live across subsidiary banks [Feedzai]",
+   "existence": "confirmed",
+   "value": "37% improvement in fraud detection rates",
+   "tier": "",
+   "url": "https://www.feedzai.com/resource/how-rbi-improved-fraud-detection-rates-by-37-with-digital-trust/",
+   "raw_sector": "",
+   "date": "2019",
+   "fresh": "stale"
+  },
+  {
+   "company": "Raiffeisen Bank International",
+   "use": "RAIA — GPT/LLM-based virtual assistant on website and mobile banking app answering product/service questions in multiple languages (deployed in Kosovo, Bosnia and other network banks) [GPT-based LLM]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.raiffeisen-kosovo.com/en/personal/ways-to-bank/raia.html",
+   "raw_sector": "",
+   "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "Raiffeisen Bank International",
+   "use": "Google Gemini 2.5 for customer call transcription/analytics, replacing Whisper and AWS Transcribe [Google Gemini 2.5]",
+   "existence": "confirmed",
+   "value": "93% transcription accuracy; $178,000 saved on call analytics project",
+   "tier": "",
+   "url": "https://dev.ua/en/news/tatsyi-1765365975",
+   "raw_sector": "",
+   "date": "2025",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Raiffeisen Bank International",
+   "use": "Conversational AI chatbots and multi-channel messaging (SMS, Viber, app) blending AI with human advisers, rolling out to ~10,000 agents across 7 markets [Infobip]",
+   "existence": "claimed",
+   "value": "~10,000 agents/advisers planned across 7 markets",
+   "tier": "",
+   "url": "https://www.infobip.com/blog/raiffeisen-bank-international",
+   "raw_sector": "",
+   "date": "2026-02",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Raiffeisen Bank International",
+   "use": "Mobrix AI Hub (MAIA) — centralized platform for building, running and sharing agentic AI pipelines without code, integrated with Jira, Confluence, Adobe and Figma [Mobrix AI]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.rbinternational.com/en/raiffeisen/career/topics/ai-at-rbi.html",
+   "raw_sector": "",
+   "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "Raiffeisen Bank International",
+   "use": "ESG Criticality Checks — automated AI document analysis to support corporate lending decisions",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.rbinternational.com/en/raiffeisen/career/topics/ai-at-rbi.html",
+   "raw_sector": "",
+   "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "Raiffeisen Bank International",
+   "use": "AI Media Monitoring (AIMM) — monitors 10,000+ clients across 100+ media sources in 5+ languages for reputational/market intelligence",
+   "existence": "confirmed",
+   "value": "300+ daily users, 10,000+ clients monitored",
+   "tier": "",
+   "url": "https://www.rbinternational.com/en/raiffeisen/career/topics/ai-at-rbi.html",
+   "raw_sector": "",
    "date": "missing",
    "fresh": "undated"
   }

@@ -3,45 +3,55 @@
  "name": "Broadcom",
  "cc": "US",
  "vertical": "Technology",
- "deployments": 1,
- "confirmed": 1,
- "with_value_number": 1,
- "proof_rate": 1.0,
+ "deployments": 9,
+ "confirmed": 6,
+ "with_value_number": 4,
+ "proof_rate": 0.444,
  "mktcap": 1860000000000.0,
  "revenue": 75470000000.0,
  "employees": 33000.0,
  "silent": false,
- "per_bn_revenue": 0.01,
- "per_10k_emp": 0.3,
+ "per_bn_revenue": 0.12,
+ "per_10k_emp": 2.73,
  "benchmarks": {
   "global_vertical": {
-   "deployments": 0,
-   "confirmed": 6,
-   "proof_rate": 72,
+   "deployments": 83,
+   "confirmed": 84,
+   "proof_rate": 69,
    "n": 156
   },
   "country_vertical": {
-   "deployments": 0,
-   "confirmed": 4,
+   "deployments": 74,
+   "confirmed": 75,
    "proof_rate": 82,
    "n": 74
   }
  },
- "first_seen": 2027,
+ "first_seen": 2025,
  "by_year": [
+  {
+   "year": 2025,
+   "n": 6
+  },
+  {
+   "year": 2026,
+   "n": 2
+  },
   {
    "year": 2027,
    "n": 1
   }
  ],
  "undated_pct": 0,
- "momentum": "late_entrant,rising",
- "maturity": "L3",
+ "momentum": "early_mover,rising",
+ "maturity": "L4",
  "maturity_evidence": [
+  "multi_horizontal",
   "named_product:Custom",
-  "value_number"
+  "value_number",
+  "multi_year"
  ],
- "prospect_score": 14,
+ "prospect_score": 66,
  "stack": [],
  "vendor_named": false,
  "deployments_detail": [
@@ -54,6 +64,94 @@
    "url": "https://www.cnbc.com/2026/03/04/broadcom-sees-ai-chip-sales-significantly-over-100-billion-in-2027.html",
    "raw_sector": "Information Technology",
    "date": "2027",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Broadcom",
+   "use": "Intelligent Assist for VMware Cloud Foundation — a GenAI operations assistant for VCF administrators, built by Broadcom on VMware Private AI Services (Model Gallery + Agent Builder + retrieval) as a reference implementation of its own agentic AI stack. [VMware by Broadcom (Private AI Services)]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://blogs.vmware.com/cloud-foundation/2025/08/26/vmware-private-ai-services-demo/",
+   "raw_sector": "",
+   "date": "2025",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Broadcom",
+   "use": "VMware Private AI Services — a GenAI platform layer on VCF providing a Model Gallery/governance, ML API gateway (Models-as-a-Service), data indexing/retrieval with pgvector vector DB, and an Agent Builder UI for composing enterprise AI agents from models and knowledge bases. [VMware by Broadcom; NVIDIA]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://blogs.vmware.com/cloud-foundation/2025/08/26/vmware-private-ai-services-demo/",
+   "raw_sector": "",
+   "date": "2025-08",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Broadcom",
+   "use": "Broadcom internal AI coding assistant — developers get AI-powered code suggestions integrated in their editors, served via Codeium and Tabnine models deployed on GPU-backed Kubernetes clusters on VMware Private AI Foundation. Stated as implemented internally at Broadcom today. [Codeium; Tabnine (on VMware Private AI Foundation)]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://blogs.vmware.com/cloud-foundation/2025/01/10/use-cases-for-implementing-private-ai-foundation-with-nvidia-part-1/",
+   "raw_sector": "",
+   "date": "2025",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Broadcom",
+   "use": "Custom AI accelerator (XPU/ASIC) co-design for Google's Tensor Processing Units (TPUs) — Broadcom is Google's primary partner designing the TPUs that power Google Search, Google Cloud AI, and Google's own models in production. Analysts estimate Broadcom holds ~80% of Google TPU design share. [Google (TPU); Broadcom custom silicon]",
+   "existence": "confirmed",
+   "value": "Broadcom Q1 FY2026 AI revenue $8.4B (+106% YoY); FY2026 AI semiconductor guidance ~$56B",
+   "tier": "",
+   "url": "https://www.ibtimes.com/what-broadcom-unknown-company-building-ai-chips-powering-google-anthropic-openai-meta-3802922",
+   "raw_sector": "",
+   "date": "2025",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Broadcom",
+   "use": "Multi-year, multi-generation co-development of Meta's MTIA custom AI accelerators, with a multi-gigawatt strategic partnership extension supporting Meta's AI compute infrastructure. [Meta (MTIA); Broadcom custom silicon]",
+   "existence": "claimed",
+   "value": "3 GW for Meta committed through end of 2028",
+   "tier": "",
+   "url": "https://247wallst.com/investing/2026/07/08/broadcoms-200-billion-ai-opportunity-is-drawing-new-interest-from-investors/",
+   "raw_sector": "",
+   "date": "2026",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Broadcom",
+   "use": "Custom AI accelerators (TPU-based compute) supplied to Anthropic; Broadcom is backstopping payments on a $35B financing package tied to Anthropic's custom chip orders and infrastructure build-out. [Anthropic; Broadcom custom silicon]",
+   "existence": "claimed",
+   "value": "$35B financing package; 5 additional GW of TPU-based compute for Anthropic beginning 2027",
+   "tier": "",
+   "url": "https://finance.yahoo.com/technology/ai/articles/broadcom-avgo-lands-center-35-071631748.html",
+   "raw_sector": "",
+   "date": "2026",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Broadcom",
+   "use": "VMware Private AI Foundation with NVIDIA — a productized private-cloud AI platform (on VMware Cloud Foundation) for enterprises to deploy and run LLMs/GenAI on their own infrastructure, integrating NVIDIA AI Enterprise, GPU operators, and vSphere Kubernetes Service. Generally available and used by customers. [VMware by Broadcom; NVIDIA AI Enterprise]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://blogs.vmware.com/cloud-foundation/2025/01/10/use-cases-for-implementing-private-ai-foundation-with-nvidia-part-1/",
+   "raw_sector": "",
+   "date": "2025",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Broadcom",
+   "use": "Broadcom internal RAG chatbot 'vAQA' (VMware Automated Question Answering Service) — a back-office/contact-center assistant helping employees and customer-facing reps work with sensitive company data, built on LLMs + vector DB with Retrieval-Augmented Generation on VMware Private AI Foundation. Described as deployed internally and proven valuable to the business. [Internal (VMware Private AI Foundation, LLM + RAG)]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://blogs.vmware.com/cloud-foundation/2025/01/10/use-cases-for-implementing-private-ai-foundation-with-nvidia-part-1/",
+   "raw_sector": "",
+   "date": "2025",
    "fresh": "fresh"
   }
  ]

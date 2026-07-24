@@ -3,40 +3,64 @@
  "name": "Givaudan SA",
  "cc": "CH",
  "vertical": "Chemicals & Materials",
- "deployments": 1,
- "confirmed": 1,
- "with_value_number": 0,
- "proof_rate": 0.0,
+ "deployments": 12,
+ "confirmed": 11,
+ "with_value_number": 1,
+ "proof_rate": 0.083,
  "mktcap": 35278600000.0,
  "revenue": 8373300000.0,
  "employees": 17580.0,
  "silent": false,
- "per_bn_revenue": 0.12,
- "per_10k_emp": 0.57,
+ "per_bn_revenue": 1.43,
+ "per_10k_emp": 6.83,
  "benchmarks": {
   "global_vertical": {
-   "deployments": 0,
-   "confirmed": 20,
-   "proof_rate": 0,
+   "deployments": 97,
+   "confirmed": 98,
+   "proof_rate": 59,
    "n": 105
   },
   "country_vertical": {
-   "deployments": 0,
-   "confirmed": 0,
-   "proof_rate": 0,
+   "deployments": 100,
+   "confirmed": 100,
+   "proof_rate": 50,
    "n": 5
   }
  },
- "first_seen": null,
- "by_year": [],
- "undated_pct": 100,
- "momentum": "none",
- "maturity": "L3",
+ "first_seen": 2019,
+ "by_year": [
+  {
+   "year": 2019,
+   "n": 1
+  },
+  {
+   "year": 2021,
+   "n": 3
+  },
+  {
+   "year": 2022,
+   "n": 1
+  },
+  {
+   "year": 2023,
+   "n": 2
+  },
+  {
+   "year": 2026,
+   "n": 1
+  }
+ ],
+ "undated_pct": 33,
+ "momentum": "early_mover,cooling",
+ "maturity": "L4",
  "maturity_evidence": [
+  "multi_horizontal",
   "named_product:Carto",
+  "value_number",
+  "multi_year",
   "tier_p"
  ],
- "prospect_score": 54,
+ "prospect_score": 100,
  "stack": [],
  "vendor_named": false,
  "deployments_detail": [
@@ -50,6 +74,127 @@
    "raw_sector": "Materials",
    "date": "missing",
    "fresh": "undated"
+  },
+  {
+   "company": "Givaudan SA",
+   "use": "Use of Datapeople's AI/NLP platform to analyze and improve job-ad language for inclusive, effective recruiting across Givaudan's talent-acquisition process. [Datapeople]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://datapeople.io/case-study/how-givaudan-uses-digital-innovation-to-build-inclusion-into-recruiting/",
+   "raw_sector": "",
+   "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "Givaudan SA",
+   "use": "Carto, an AI-powered tool for perfumers that intelligently uses Givaudan's ingredient 'Odour Value Map' to suggest ingredient combinations and optimize fragrance formulations in real time; deployed across creation centres and the Digital Factory.",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.givaudan.com/media/media-releases/2019/givaudan-fragrances-launches-carto-its-artificial-intelligence-powered-tool",
+   "raw_sector": "",
+   "date": "2019-04",
+   "fresh": "stale"
+  },
+  {
+   "company": "Givaudan SA",
+   "use": "ATOM (Advanced Tools for Modelling), a proprietary AI system in Taste & Wellbeing that optimizes food and flavour formulation, identifies positive/negative flavour drivers, and facilitates co-creation with customers.",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.givaudan.com/media/trade-media/2021/givaudan-launches-ground-breaking-ai-tools-next-generation-product",
+   "raw_sector": "",
+   "date": "2021-02",
+   "fresh": "stale"
+  },
+  {
+   "company": "Givaudan SA",
+   "use": "Vanilla AI, an AI-powered flavour-design tool that pinpoints optimal flavour combinations for consumer-preferred vanilla experiences faster than a traditional design-of-experiment approach.",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.givaudan.com/specials/vanilla-ai",
+   "raw_sector": "",
+   "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "Givaudan SA",
+   "use": "Application of cheminformatics, machine learning and AI in R&D to develop novel aroma and taste molecules and build data-driven computational discovery pipelines (dedicated Cheminformatics Scientist roles and R&D program).",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://careers.givaudan.com/global/en/job/GIVGIVGB117823EXTERNALENGLOBAL/Cheminformatics-Scientist",
+   "raw_sector": "",
+   "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "Givaudan SA",
+   "use": "Myrissi, a patented AI technology (acquired 2021, launched as a service in 2023) that decodes fragrances into colour patterns and emotional resonance to guide branding and product development for customers. [Myrissi (Givaudan acquisition)]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.givaudan.com/media/media-releases/2023/translating-scents-with-myrissi",
+   "raw_sector": "",
+   "date": "2023-01",
+   "fresh": "stale"
+  },
+  {
+   "company": "Givaudan SA",
+   "use": "Customer Foresight, a proprietary 'futurescaping' platform combining big data and AI with human futurescapers to identify early signals of future shifts in the food & beverage industry.",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.givaudan.com/media/media-releases/2023/givaudan-launches-customer-foresight-futurescaping-platform",
+   "raw_sector": "",
+   "date": "2023-05",
+   "fresh": "stale"
+  },
+  {
+   "company": "Givaudan SA",
+   "use": "Creatogether, the fragrance industry's first AI-powered human-machine co-creation service, launched with Alibaba's Tmall Innovation Centre (TMIC) in China, enabling customers to co-create perfumes with AI-assisted creation and rapid sampling. [Tmall Innovation Centre (Alibaba)]",
+   "existence": "confirmed",
+   "value": "perfumes developed in ~4 weeks",
+   "tier": "",
+   "url": "https://www.givaudan.com/media/media-releases/2022/givaudan-collaborates-with-tmic",
+   "raw_sector": "",
+   "date": "2022-10",
+   "fresh": "stale"
+  },
+  {
+   "company": "Givaudan SA",
+   "use": "DigiPulse, a proprietary olfactive social-listening tool that uses AI to collect and decode consumers' spontaneous online comments about fine fragrances.",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.givaudan.com/media/trade-media/2021/givaudan-launches-digipulse",
+   "raw_sector": "",
+   "date": "2021-10",
+   "fresh": "stale"
+  },
+  {
+   "company": "Givaudan SA",
+   "use": "Aroma Kiosk / digital sensory insights tool that captures consumer data and personalized preferences in real time in dynamic environments (stores, malls) via an AI algorithm.",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.perfumerflavorist.com/fragrance/ingredients/news/21868304/givaudan-international-sa-givaudan-debuts-digital-sensory-insights-tool",
+   "raw_sector": "",
+   "date": "2021-03",
+   "fresh": "stale"
+  },
+  {
+   "company": "Givaudan SA",
+   "use": "Givaudan Active Beauty partnered with Haut.AI to deploy AI skin analysis and SkinGPT generative simulation, unveiling a new active ingredient via personalized, photorealistic skin simulations at in-cosmetics Global 2026. [Haut.AI (SkinGPT)]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.prnewswire.com/news-releases/givaudan-active-beauty-showcases-ai-powered-ingredient-innovations-with-hautai-at-in-cosmetics-global-2026-302735263.html",
+   "raw_sector": "",
+   "date": "2026-04",
+   "fresh": "fresh"
   }
  ]
 }

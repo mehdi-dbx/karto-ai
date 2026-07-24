@@ -3,27 +3,27 @@
  "name": "Citigroup",
  "cc": "US",
  "vertical": "Financial Services",
- "deployments": 1,
- "confirmed": 1,
- "with_value_number": 1,
+ "deployments": 9,
+ "confirmed": 6,
+ "with_value_number": 9,
  "proof_rate": 1.0,
  "mktcap": 220900000000.0,
  "revenue": 81710000000.0,
  "employees": 226000.0,
  "silent": false,
- "per_bn_revenue": 0.01,
- "per_10k_emp": 0.04,
+ "per_bn_revenue": 0.11,
+ "per_10k_emp": 0.4,
  "benchmarks": {
   "global_vertical": {
-   "deployments": 0,
-   "confirmed": 18,
-   "proof_rate": 72,
+   "deployments": 92,
+   "confirmed": 92,
+   "proof_rate": 76,
    "n": 377
   },
   "country_vertical": {
-   "deployments": 0,
-   "confirmed": 21,
-   "proof_rate": 72,
+   "deployments": 83,
+   "confirmed": 83,
+   "proof_rate": 81,
    "n": 76
   }
  },
@@ -31,17 +31,23 @@
  "by_year": [
   {
    "year": 2025,
-   "n": 1
+   "n": 3
+  },
+  {
+   "year": 2026,
+   "n": 6
   }
  ],
  "undated_pct": 0,
  "momentum": "rising",
- "maturity": "L3",
+ "maturity": "L4",
  "maturity_evidence": [
+  "multi_horizontal",
   "named_product:Citi Assist",
-  "value_number"
+  "value_number",
+  "multi_year"
  ],
- "prospect_score": 14,
+ "prospect_score": 44,
  "stack": [],
  "vendor_named": false,
  "deployments_detail": [
@@ -54,6 +60,94 @@
    "url": "https://www.citigroup.com/global/news/press-release/2025/citi-unveils-citi-stylus-workspaces-agentic-ai-turbocharging-productivity",
    "raw_sector": "Financials",
    "date": "2025",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Citigroup",
+   "use": "Citi Assist — an internal generative-AI assistant providing document intelligence and contextual search (summarize, compare, translate documents) rolled out to more than 175,000 colleagues across ~80 countries.",
+   "existence": "confirmed",
+   "value": "175,000+ colleagues across 80 countries",
+   "tier": "",
+   "url": "https://www.finextra.com/pressarticle/107188/citi-aims-for-productivity-boost-with-agentic-ai",
+   "raw_sector": "",
+   "date": "2025",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Citigroup",
+   "use": "Citi Stylus Workspaces — proprietary agentic-AI platform that executes complex multi-stage workflows across internal systems, data, project tools, employee directory and web search from a single prompt.",
+   "existence": "claimed",
+   "value": "thousands of employees in early access from Sept 2025",
+   "tier": "",
+   "url": "https://www.finextra.com/pressarticle/107188/citi-aims-for-productivity-boost-with-agentic-ai",
+   "raw_sector": "",
+   "date": "2025-09",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Citigroup",
+   "use": "AI in the Markets division to process documents and create capacity for oversight/control functions.",
+   "existence": "confirmed",
+   "value": "4,400+ documents processed monthly; 1,700+ hours of monthly oversight capacity",
+   "tier": "",
+   "url": "https://finance.yahoo.com/technology/ai/articles/citigroup-bets-big-ai-drive-132900606.html",
+   "raw_sector": "",
+   "date": "2026",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Citigroup",
+   "use": "Arc — internal platform letting Citi developers build and deploy AI agents on top models within a unified, secure infrastructure, for defined business/function use cases.",
+   "existence": "claimed",
+   "value": "80%+ of 180,000 employees have AI-tool access",
+   "tier": "",
+   "url": "https://www.finextra.com/newsarticle/47692/citi-introduces-platform-for-ai-agent-rollout",
+   "raw_sector": "",
+   "date": "2026",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Citigroup",
+   "use": "AI coding and automated code review for software engineers, including agentic AI — used to review code, generate developer capacity, and accelerate legacy application migrations.",
+   "existence": "confirmed",
+   "value": "10,000+ engineers; 1.5M+ automated code reviews; ~100,000 developer hours/week; app migration cut from ~12 months to 4 weeks",
+   "tier": "",
+   "url": "https://finance.yahoo.com/technology/ai/articles/citigroup-bets-big-ai-drive-132900606.html",
+   "raw_sector": "",
+   "date": "2026",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Citigroup",
+   "use": "AI and machine learning applied to credit card underwriting/approval decisioning to improve approval rates.",
+   "existence": "confirmed",
+   "value": "approval rates increased by ~100 basis points",
+   "tier": "",
+   "url": "https://finance.yahoo.com/technology/ai/articles/citigroup-bets-big-ai-drive-132900606.html",
+   "raw_sector": "",
+   "date": "2026",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Citigroup",
+   "use": "Citi Sky — customer-facing AI avatar for Citigold wealth clients delivering real-time voice/video conversations, personalized market insights from the Chief Investment Office, and routine query handling. [Google Cloud / Google DeepMind avatar tech + Gemini Live API]",
+   "existence": "claimed",
+   "value": "phased US rollout to Citigold clients beginning summer 2026",
+   "tier": "",
+   "url": "https://diginomica.com/citi-wealths-ai-avatar-built-google-cloud-and-its-playing-offence-not-defence",
+   "raw_sector": "",
+   "date": "2026",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Citigroup",
+   "use": "Generative AI in customer service / call centers, including CitiDirect institutional support agents — assists agents to shorten calls and resolve queries without escalation.",
+   "existence": "confirmed",
+   "value": "average call times cut ~60 seconds; CitiDirect query containment up ~50%",
+   "tier": "",
+   "url": "https://finance.yahoo.com/technology/ai/articles/citigroup-bets-big-ai-drive-132900606.html",
+   "raw_sector": "",
+   "date": "2026",
    "fresh": "fresh"
   }
  ]

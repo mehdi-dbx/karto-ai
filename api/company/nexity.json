@@ -3,27 +3,27 @@
  "name": "Nexity",
  "cc": "FR",
  "vertical": "Real Estate & Construction",
- "deployments": 1,
- "confirmed": 1,
- "with_value_number": 0,
- "proof_rate": 0.0,
+ "deployments": 7,
+ "confirmed": 4,
+ "with_value_number": 2,
+ "proof_rate": 0.286,
  "mktcap": 445078800.0,
  "revenue": 3045600000.0,
  "employees": 3006.0,
  "silent": false,
- "per_bn_revenue": 0.33,
- "per_10k_emp": 3.33,
+ "per_bn_revenue": 2.3,
+ "per_10k_emp": 23.29,
  "benchmarks": {
   "global_vertical": {
-   "deployments": 0,
-   "confirmed": 34,
-   "proof_rate": 0,
+   "deployments": 95,
+   "confirmed": 95,
+   "proof_rate": 62,
    "n": 154
   },
   "country_vertical": {
-   "deployments": 0,
-   "confirmed": 20,
-   "proof_rate": 0,
+   "deployments": 100,
+   "confirmed": 100,
+   "proof_rate": 40,
    "n": 6
   }
  },
@@ -31,16 +31,23 @@
  "by_year": [
   {
    "year": 2024,
-   "n": 1
+   "n": 4
+  },
+  {
+   "year": 2026,
+   "n": 3
   }
  ],
  "undated_pct": 0,
- "momentum": "early_mover,gone_quiet",
- "maturity": "L3",
+ "momentum": "early_mover,cooling",
+ "maturity": "L4",
  "maturity_evidence": [
-  "named_product:Generative"
+  "multi_horizontal",
+  "named_product:Generative",
+  "value_number",
+  "multi_year"
  ],
- "prospect_score": 54,
+ "prospect_score": 61,
  "stack": [],
  "vendor_named": false,
  "deployments_detail": [
@@ -52,6 +59,72 @@
    "tier": "I",
    "url": "https://www.cio-online.com/actualites/lire-nexity-construit-sa-strategie-ia-sur-des-services-manages-16990.html",
    "raw_sector": "Real Estate Development",
+   "date": "2024",
+   "fresh": "aging"
+  },
+  {
+   "company": "Nexity",
+   "use": "\"Vendeur Augmenté\" (Augmented Seller): a natural-language / voice property-search assistant that lets Nexity clients and sales teams search real-estate inventory by combining structured, unstructured and predictive data. Presented as flagship GenAI project at AWS Summit 2026. [AWS (Amazon Bedrock, Bedrock AgentCore), Anthropic]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.cio-online.com/actualites/lire-nexity-construit-sa-strategie-ia-sur-des-services-manages-16990.html",
+   "raw_sector": "",
+   "date": "2026-04",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Nexity",
+   "use": "Automated analysis of urban-planning documents (PLU): loading local urban-plan regulations into a database and using AI to screen/understand content in order to automate building-permit compliance and generation.",
+   "existence": "claimed",
+   "value": "targeting ~90% permit-compliance automation",
+   "tier": "",
+   "url": "https://www.lemondeinformatique.fr/actualites/lireamp-nexity-construit-petit-a-petit-sa-strategie-ia-generative-93122.html",
+   "raw_sector": "",
+   "date": "2024",
+   "fresh": "aging"
+  },
+  {
+   "company": "Nexity",
+   "use": "Automated construction quote (devis) analysis: a GenAI system that scans thousands of quote lines across hundreds of construction quotes and flags anomalies against project specifications, supporting cost control on development projects. [AWS (Amazon Bedrock, AgentCore)]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.iatechauquotidien.com/immobilier-nexity-revolutionne-ses-methodes-avec-lia-generative/",
+   "raw_sector": "",
+   "date": "2026-04",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Nexity",
+   "use": "Managed-services GenAI platform with a 'badge' governance system: internal generative-AI tools are made available only to trained employees, gated by an access-badge scheme, on a 100% serverless AWS managed-services architecture. Nexity ran 14 workshops with 80 employees to identify use cases. [AWS (Amazon Bedrock, AgentCore)]",
+   "existence": "confirmed",
+   "value": "80 use cases identified, ~40 genuine GenAI, ~10 targeted for production by end 2025",
+   "tier": "",
+   "url": "https://www.cio-online.com/actualites/lire-nexity-construit-sa-strategie-ia-sur-des-services-manages-16990.html",
+   "raw_sector": "",
+   "date": "2026-04",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Nexity",
+   "use": "Generative-AI content and image generation for marketing/communications, aimed at reducing agency/creative Opex; rolled out with employee training (partnership with Web School Factory).",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.lemondeinformatique.fr/actualites/lireamp-nexity-construit-petit-a-petit-sa-strategie-ia-generative-93122.html",
+   "raw_sector": "",
+   "date": "2024",
+   "fresh": "aging"
+  },
+  {
+   "company": "Nexity",
+   "use": "Construction-safety / regulatory-norms compliance decision-support tool: semantic analysis linking supplier commitments to legal obligations and internal processes, to help program directors and site managers check compliance and keep audit trails. Presented to the legal department as a proof of concept.",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.lemondeinformatique.fr/actualites/lireamp-nexity-construit-petit-a-petit-sa-strategie-ia-generative-93122.html",
+   "raw_sector": "",
    "date": "2024",
    "fresh": "aging"
   }

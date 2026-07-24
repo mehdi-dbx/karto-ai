@@ -3,27 +3,27 @@
  "name": "Sony Corp.",
  "cc": "JP",
  "vertical": "Electric Machinery & Electronics",
- "deployments": 2,
- "confirmed": 2,
- "with_value_number": 1,
- "proof_rate": 0.5,
+ "deployments": 15,
+ "confirmed": 12,
+ "with_value_number": 5,
+ "proof_rate": 0.333,
  "mktcap": 134866666667.0,
  "revenue": 83200000000.0,
  "employees": 94900.0,
  "silent": false,
- "per_bn_revenue": 0.02,
- "per_10k_emp": 0.21,
+ "per_bn_revenue": 0.18,
+ "per_10k_emp": 1.58,
  "benchmarks": {
   "global_vertical": {
-   "deployments": 56,
-   "confirmed": 56,
-   "proof_rate": 53,
+   "deployments": 100,
+   "confirmed": 97,
+   "proof_rate": 59,
    "n": 35
   },
   "country_vertical": {
-   "deployments": 52,
-   "confirmed": 52,
-   "proof_rate": 48,
+   "deployments": 100,
+   "confirmed": 97,
+   "proof_rate": 55,
    "n": 32
   }
  },
@@ -31,23 +31,36 @@
  "by_year": [
   {
    "year": 2020,
-   "n": 1
+   "n": 2
+  },
+  {
+   "year": 2023,
+   "n": 2
+  },
+  {
+   "year": 2024,
+   "n": 3
   },
   {
    "year": 2025,
-   "n": 1
+   "n": 5
+  },
+  {
+   "year": 2026,
+   "n": 2
   }
  ],
- "undated_pct": 0,
+ "undated_pct": 7,
  "momentum": "early_mover,rising",
  "maturity": "L4",
  "maturity_evidence": [
+  "multi_horizontal",
   "named_product:Enterprise LLM",
   "value_number",
   "multi_year",
   "tier_p"
  ],
- "prospect_score": 32,
+ "prospect_score": 87,
  "stack": [
   "Amazon AWS"
  ],
@@ -74,6 +87,149 @@
    "raw_sector": "Electric Machinery",
    "date": "2020",
    "fresh": "stale"
+  },
+  {
+   "company": "Sony Corp.",
+   "use": "GT Sophy: a superhuman reinforcement-learning racing AI agent deployed as an in-game opponent in Gran Turismo 7 (v2.1 supporting custom races across 19+ tracks and 340+ cars). [Sony AI + Polyphony Digital (deep reinforcement learning)]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.gran-turismo.com/us/gran-turismo-sophy/",
+   "raw_sector": "",
+   "date": "2023-11",
+   "fresh": "stale"
+  },
+  {
+   "company": "Sony Corp.",
+   "use": "IMX500 Intelligent Vision Sensor and AITRIOS edge-AI platform: a CMOS image sensor with on-chip AI inference for real-time object detection, sold as a shipping product (e.g. the Raspberry Pi AI Camera) and edge-AI developer platform. [Sony Semiconductor Solutions (AITRIOS)]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.aitrios.sony-semicon.com/edge-ai-devices/imx500",
+   "raw_sector": "",
+   "date": "2024",
+   "fresh": "aging"
+  },
+  {
+   "company": "Sony Corp.",
+   "use": "AI-based Real-time Recognition subject-recognition autofocus in Alpha mirrorless cameras via a dedicated AI processing unit that recognizes humans, animals, birds, insects, cars, trains and planes (a7R V, a7 V, etc.). [Sony in-house AI processing unit]",
+   "existence": "confirmed",
+   "value": "up to 30% improvement in Real-time Recognition AF (a7 V)",
+   "tier": "",
+   "url": "https://briansmith.com/sony-announces-a7-v-camera/",
+   "raw_sector": "",
+   "date": "2025-12",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Sony Corp.",
+   "use": "Music training-data attribution engine developed by Sony AI to identify which copyrighted recordings most likely influenced AI-generated songs, enabling rights holders to pursue royalties. [Sony AI (unlearning-based TDA)]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.musicbusinessworldwide.com/sonys-blueprint-for-ai-music-detection-tech-is-promising-heres-what-its-working-on/",
+   "raw_sector": "",
+   "date": "2026-02",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Sony Corp.",
+   "use": "AFEELA Personal Agent: an in-vehicle conversational personal assistant for Sony Honda Mobility's AFEELA EV, powered by Microsoft Azure OpenAI Service. [Microsoft Azure OpenAI Service]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.shm-afeela.com/en/news/2024-01-08_4/",
+   "raw_sector": "",
+   "date": "2024-01",
+   "fresh": "aging"
+  },
+  {
+   "company": "Sony Corp.",
+   "use": "Sony Pictures generative-AI adoption to produce films and TV more efficiently and cut production costs across visual effects and post-production workflows.",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.hollywoodreporter.com/business/business-news/sony-pictures-adopt-ai-streamline-production-says-ceo-tony-vinciquerra-1235912109/",
+   "raw_sector": "",
+   "date": "2024-05",
+   "fresh": "aging"
+  },
+  {
+   "company": "Sony Corp.",
+   "use": "Customer-support virtual agent across voice, chat and SMS at the top of the contact funnel for Sony Electronics, deflecting and handling inbound customer contacts. [NICE Enlighten Autopilot (CXone)]",
+   "existence": "confirmed",
+   "value": "highest-ever response rate (no exact figure disclosed)",
+   "tier": "",
+   "url": "https://www.nice.com/resources/sony-electronics-achieves-highest-ever-response-rate-with-nice",
+   "raw_sector": "",
+   "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "Sony Corp.",
+   "use": "Enterprise LLM: an internal chat-style generative-AI web application letting Group employees pick and use their preferred LLM for drafting, summarizing and everyday tasks; rolled out from 2023 across 210 group companies/teams. [Sony in-house platform (multi-LLM)]",
+   "existence": "confirmed",
+   "value": "50,000+ employees across 210 group companies",
+   "tier": "",
+   "url": "https://www.sony.com/en/SonyInfo/technology/stories/entries/interview_oba/",
+   "raw_sector": "",
+   "date": "2023",
+   "fresh": "stale"
+  },
+  {
+   "company": "Sony Corp.",
+   "use": "Enterprise AI agent platform built on Amazon Bedrock and Bedrock AgentCore, giving employees AI agents to draft content, respond to inquiries, forecast, detect fraud and brainstorm; scaled from zero to ~60,000 users in two years. [AWS (Amazon Bedrock, Bedrock AgentCore, Nova Forge)]",
+   "existence": "confirmed",
+   "value": "~57,000 employees; 150,000 inference requests daily",
+   "tier": "",
+   "url": "https://press.aboutamazon.com/2025/12/aws-powers-sonys-enterprise-ai-and-engagement-platforms",
+   "raw_sector": "",
+   "date": "2025-12",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Sony Corp.",
+   "use": "AI tools in PlayStation game production: automated multilingual subtitle generation and lip-sync (Marvel's Spider-Man 2), AI audio remastering of older films, and refined PS5 upscaling to improve visual quality.",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://mezha.ua/en/news/sony-ai-plan-304899/amp/",
+   "raw_sector": "",
+   "date": "2025-09",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Sony Corp.",
+   "use": "Sony Data Ocean / Engagement Platform: a data and AI platform on Amazon SageMaker that generates AI-enhanced insights to connect fans with similar interests and give creators audience-trend analytics across Sony Group divisions. [AWS (Amazon SageMaker)]",
+   "existence": "confirmed",
+   "value": "up to 760 TB of data from 500+ dataset types",
+   "tier": "",
+   "url": "https://press.aboutamazon.com/2025/12/aws-powers-sonys-enterprise-ai-and-engagement-platforms",
+   "raw_sector": "",
+   "date": "2025-12",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Sony Corp.",
+   "use": "Prediction One: a no-code predictive-analytics / machine-learning tool sold by Sony Network Communications for business forecasting and marketing data analysis. [Sony Network Communications (Prediction One)]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.sony.com/en/SonyInfo/technology/stories/entries/PredictionOne/",
+   "raw_sector": "",
+   "date": "2020",
+   "fresh": "stale"
+  },
+  {
+   "company": "Sony Corp.",
+   "use": "AI-based fraud detection on the PlayStation Store, analyzing transaction reliability at scale to reduce fraudulent purchases and financial losses.",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.msn.com/en-gb/news/insight/playstation-calls-ai-a-core-pillar-of-its-long-term-strategy/gm-GMAB6997AA",
+   "raw_sector": "",
+   "date": "2026",
+   "fresh": "fresh"
   }
  ]
 }

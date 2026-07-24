@@ -3,39 +3,55 @@
  "name": "Bajaj Finserv",
  "cc": "IN",
  "vertical": "Financial Services",
- "deployments": 1,
- "confirmed": 0,
- "with_value_number": 1,
- "proof_rate": 1.0,
+ "deployments": 13,
+ "confirmed": 10,
+ "with_value_number": 11,
+ "proof_rate": 0.846,
  "mktcap": 36144578313.0,
  "revenue": 18072289157.0,
  "employees": 113732.0,
  "silent": false,
- "per_bn_revenue": 0.06,
- "per_10k_emp": 0.09,
+ "per_bn_revenue": 0.72,
+ "per_10k_emp": 1.14,
  "benchmarks": {
   "global_vertical": {
-   "deployments": 0,
-   "confirmed": 0,
-   "proof_rate": 72,
+   "deployments": 98,
+   "confirmed": 95,
+   "proof_rate": 75,
    "n": 377
   },
   "country_vertical": {
-   "deployments": 0,
-   "confirmed": 0,
+   "deployments": 100,
+   "confirmed": 100,
    "proof_rate": 68,
    "n": 23
   }
  },
- "first_seen": null,
- "by_year": [],
- "undated_pct": 100,
- "momentum": "none",
- "maturity": "L1",
- "maturity_evidence": [
-  "rows_no_confirmed"
+ "first_seen": 2020,
+ "by_year": [
+  {
+   "year": 2020,
+   "n": 1
+  },
+  {
+   "year": 2025,
+   "n": 4
+  },
+  {
+   "year": 2026,
+   "n": 7
+  }
  ],
- "prospect_score": 0,
+ "undated_pct": 8,
+ "momentum": "early_mover,rising",
+ "maturity": "L4",
+ "maturity_evidence": [
+  "multi_horizontal",
+  "named_product:BLU",
+  "value_number",
+  "multi_year"
+ ],
+ "prospect_score": 74,
  "stack": [],
  "vendor_named": false,
  "deployments_detail": [
@@ -49,6 +65,138 @@
    "raw_sector": "Financial Services",
    "date": "missing",
    "fresh": "undated"
+  },
+  {
+   "company": "Bajaj Finserv",
+   "use": "Fleet of AI voice bots (442 voice bots) that call customers to pitch and close personal loans, driving loan disbursals",
+   "existence": "confirmed",
+   "value": "442 voice bots generated Rs 1,980 crore in personal loan disbursals in Q2; Rs 1,568 crore via voice+text bots in a quarter",
+   "tier": "",
+   "url": "https://www.medianama.com/2026/02/223-bajaj-finance-800-ai-agents-lending-operations/",
+   "raw_sector": "",
+   "date": "2026-02",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Bajaj Finserv",
+   "use": "Generative AI mass production of marketing creative — 100% of video content and digital banners now AI-generated",
+   "existence": "confirmed",
+   "value": "2.7 lakh videos and 1.2 lakh banners generated in a single quarter; 100% of video/banner content AI-generated",
+   "tier": "",
+   "url": "https://www.linkedin.com/pulse/how-bajaj-finance-generating-roi-ai-investments-hareesh-tibrewala-nu7ue",
+   "raw_sector": "",
+   "date": "2026-02",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Bajaj Finserv",
+   "use": "Unified data estate migrated to Microsoft Fabric (OneLake, Fabric Data Warehouse, Real-Time Intelligence, Power BI Direct Lake) as governed foundation for AI use cases including credit decision support, fraud pattern detection and next-best-action [Microsoft Fabric]",
+   "existence": "confirmed",
+   "value": "40% faster data prep; 30% lower storage cost; 25% fewer audit exceptions; 50% faster delivery of insights",
+   "tier": "",
+   "url": "https://www.microsoft.com/en/customers/story/26211-bajaj-finserv-microsoft-fabric",
+   "raw_sector": "",
+   "date": "2026-03",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Bajaj Finserv",
+   "use": "AI document processing / intelligent extraction across loan and KYC document types to automate quality checks and back-office operations",
+   "existence": "confirmed",
+   "value": "43 document types mapped at 95-96% extraction accuracy; 41% of quality checks automated (targeting 85-90%)",
+   "tier": "",
+   "url": "https://www.medianama.com/2026/02/223-bajaj-finance-800-ai-agents-lending-operations/",
+   "raw_sector": "",
+   "date": "2026-02",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Bajaj Finserv",
+   "use": "Strategic Azure OpenAI partnership to become a 'FinAI company', embedding generative AI across cloud/data infra for conversion, back-office productivity and front-line performance [Microsoft Azure OpenAI]",
+   "existence": "claimed",
+   "value": "Expected annual cost saving of INR 150 crore in FY26",
+   "tier": "",
+   "url": "https://news.microsoft.com/en-in/microsoft-inks-strategic-partnerships-to-make-indias-core-sectors-ai-first/",
+   "raw_sector": "",
+   "date": "2025-01",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Bajaj Finserv",
+   "use": "Rollout of 800+ (later revised to 600) autonomous AI agents across sales, operations, HR, IT, risk and Debt Management Services / collections",
+   "existence": "claimed",
+   "value": "800+ agents targeted (revised to 600 for FY27); 25 agents live by Q4 FY26",
+   "tier": "",
+   "url": "https://www.medianama.com/2026/05/223-q4fy26-bajaj-finance-autonomous-agent-target-800-600-fy27/",
+   "raw_sector": "",
+   "date": "2026-05",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Bajaj Finserv",
+   "use": "AI speech-to-text and analytics pipeline that transcribes and mines millions of recorded customer calls to generate loan offers and structured sales data",
+   "existence": "confirmed",
+   "value": "20 million calls processed (targeting 100M); 5.2 lakh customers converted to data generating 100,000 new offers; Rs 325 crore from voice-log processing",
+   "tier": "",
+   "url": "https://www.medianama.com/2026/02/223-bajaj-finance-800-ai-agents-lending-operations/",
+   "raw_sector": "",
+   "date": "2026-02",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Bajaj Finserv",
+   "use": "AI for Credit — GenAI assists underwriters by creating applicant summaries, screening, validation and generating recommendation reports (human-in-the-loop, not fully automated)",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.bajajfinserv.in/finance-digital-annual-report-fy25/bajaj-finance-ltd-ar-2024-25-assets/pdf/management-discussion-and-analysis.pdf",
+   "raw_sector": "",
+   "date": "2025",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Bajaj Finserv",
+   "use": "AI facial-recognition biometric verification for customer identity checks at branches and points of sale",
+   "existence": "confirmed",
+   "value": "45.9 million face matches conducted",
+   "tier": "",
+   "url": "https://www.medianama.com/2026/02/223-bajaj-finance-800-ai-agents-lending-operations/",
+   "raw_sector": "",
+   "date": "2026-02",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Bajaj Finserv",
+   "use": "BLU multilingual conversational AI virtual assistant handling customer support, engagement and commerce across website, PWA, WhatsApp, Alexa and Google; sells financial products and manages renewals [Yellow.ai]",
+   "existence": "confirmed",
+   "value": "Over $100M in sales in 2020; ~$16M saved via chatbot deployment",
+   "tier": "",
+   "url": "https://yellow.ai/case-study/how-bajaj-finserv-boosts-cx/",
+   "raw_sector": "",
+   "date": "2020",
+   "fresh": "stale"
+  },
+  {
+   "company": "Bajaj Finserv",
+   "use": "Multi-agent AI call/customer-support system at Bajaj Finserv Health using Elasticsearch with GPT for context preservation and real-time data analytics [Elasticsearch + GPT]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.youtube.com/watch?v=QkYfTalxouA",
+   "raw_sector": "",
+   "date": "2025",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Bajaj Finserv",
+   "use": "CodeAnt AI for AI-powered code review, quality scanning and security/SAST analysis across the engineering org (Bajaj Finserv Health), integrated with Azure DevOps; replaced SonarQube [CodeAnt AI (on Azure DevOps)]",
+   "existence": "confirmed",
+   "value": "300+ developers, 100+ repos, 8,000+ PRs reviewed; review time cut from hours to seconds",
+   "tier": "",
+   "url": "https://www.codeant.ai/customer-story/bajaj-finserv",
+   "raw_sector": "",
+   "date": "2025",
+   "fresh": "fresh"
   }
  ]
 }

@@ -3,45 +3,60 @@
  "name": "Umicore",
  "cc": "BE",
  "vertical": "Manufacturing & Robotics",
- "deployments": 1,
- "confirmed": 1,
- "with_value_number": 0,
- "proof_rate": 0.0,
+ "deployments": 9,
+ "confirmed": 4,
+ "with_value_number": 3,
+ "proof_rate": 0.333,
  "mktcap": 5270400000.0,
  "revenue": 20941200000.0,
  "employees": 10963.0,
  "silent": false,
- "per_bn_revenue": 0.05,
- "per_10k_emp": 0.91,
+ "per_bn_revenue": 0.43,
+ "per_10k_emp": 8.21,
  "benchmarks": {
   "global_vertical": {
-   "deployments": 0,
-   "confirmed": 24,
-   "proof_rate": 0,
+   "deployments": 95,
+   "confirmed": 94,
+   "proof_rate": 71,
    "n": 147
   },
   "country_vertical": {
-   "deployments": 0,
-   "confirmed": 25,
-   "proof_rate": 0,
+   "deployments": 75,
+   "confirmed": 75,
+   "proof_rate": 100,
    "n": 5
   }
  },
- "first_seen": 2024,
+ "first_seen": 2023,
  "by_year": [
   {
-   "year": 2024,
+   "year": 2023,
    "n": 1
+  },
+  {
+   "year": 2024,
+   "n": 2
+  },
+  {
+   "year": 2025,
+   "n": 2
+  },
+  {
+   "year": 2026,
+   "n": 4
   }
  ],
  "undated_pct": 0,
- "momentum": "early_mover,gone_quiet",
- "maturity": "L3",
+ "momentum": "early_mover,rising",
+ "maturity": "L4",
  "maturity_evidence": [
+  "multi_horizontal",
   "named_product:Microsoft",
+  "value_number",
+  "multi_year",
   "tier_p"
  ],
- "prospect_score": 46,
+ "prospect_score": 51,
  "stack": [
   "Microsoft",
   "Microsoft Azure",
@@ -59,6 +74,94 @@
    "raw_sector": "Materials",
    "date": "2024",
    "fresh": "aging"
+  },
+  {
+   "company": "Umicore",
+   "use": "Battery materials R&D acceleration platform: a proprietary, IP-secured AI environment built on Microsoft Azure OpenAI that ingests decades of Umicore's research data plus simulations, experiments and images to help scientists design new cathode/battery materials faster. Umicore says it has filed AI-enabled patents for battery materials. [Microsoft Azure OpenAI Service]",
+   "existence": "confirmed",
+   "value": "CEO projects battery-materials research cycle cut from ~6 years to ~2 years (projection, per The Chemical Engineer)",
+   "tier": "",
+   "url": "https://www.umicore.com/en/media/newsroom/umicore-enters-ai-platform-agreement-with-microsoft-to-accelerate-and-scale-its-battery-materials-technologies-development/",
+   "raw_sector": "",
+   "date": "2024-01",
+   "fresh": "aging"
+  },
+  {
+   "company": "Umicore",
+   "use": "AI algorithms to model metal-to-air emission behavior by combining emission-monitoring, weather (wind speed/direction) and production data, so operations can be adjusted more quickly/accurately to reduce diffuse emissions (complements CFD modeling and X-ray fluorescence monitoring).",
+   "existence": "claimed",
+   "value": "none (broader 45% diffuse-emission reduction by 2022 attributed mainly to operational excellence, not the AI specifically)",
+   "tier": "",
+   "url": "https://www.umicore.com/en/media/newsroom/deploying-cutting-edge-technology-to-reduce-metal-to-air-emissions-is-paying-off/",
+   "raw_sector": "",
+   "date": "2023-02",
+   "fresh": "stale"
+  },
+  {
+   "company": "Umicore",
+   "use": "Generative-AI and Agentic-AI industrial solutions program (based in Hanau, precious-metals/catalysis site) developing and deploying next-generation GenAI and agentic systems for industrial use cases, using frameworks such as LangChain/Strands. [LangChain / Strands (frameworks cited)]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.umicore.com/en/careers/job-finder/27316-data-scientist-genai-f-m-d-en/",
+   "raw_sector": "",
+   "date": "2026",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Umicore",
+   "use": "'AI for Science' R&D initiative applying machine learning and generative AI to accelerate scientific knowledge discovery and materials/catalysis development across established ML, deep learning and modern generative-AI methods.",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.umicore.com/en/careers/job-finder/27338-research-development-innovation-sr-professional-en/",
+   "raw_sector": "",
+   "date": "2026",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Umicore",
+   "use": "Microsoft 365 Copilot enterprise generative-AI assistant rolled out via a structured 8-month pilot (300 licenses across every business unit and geographies incl. Brussels, Shanghai, Kobe), with community-management program (Copilot Cafés, webinars) driving adoption; moving to broader rollout. [Microsoft 365 Copilot]",
+   "existence": "confirmed",
+   "value": "~90% of testers reported increased productivity; >90% did not want to give up their license (300 licenses, 8-month pilot)",
+   "tier": "",
+   "url": "https://www.umicore.com/en/media/newsroom/successful-ai-adoption-at-umicore-through-community-management/",
+   "raw_sector": "",
+   "date": "2025-03",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Umicore",
+   "use": "Internal AI agents proof-of-concept: Umicore built and compared three PoC autonomous AI agents on real enterprise data, spanning meeting preparation, project status reporting and resourcing decisions, to explore reshaping internal knowledge-work workflows.",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.linkedin.com/posts/umicore_ai-activity-7305580177525227521-kY3P",
+   "raw_sector": "",
+   "date": "2025",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Umicore",
+   "use": "AI-powered chat assistant embedded in the 2025 Annual Report, letting readers query the report conversationally to find information (deployed reader-facing feature on investor-relations publications).",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.umicore.com/en/investor-relations/publications-reports/annual-report/",
+   "raw_sector": "",
+   "date": "2026",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Umicore",
+   "use": "Corporate data-science team (Umicore Corporate Research, Olen) develops and deploys machine-learning models for customer segmentation, recommendation systems, anomaly detection and predictive analytics against enterprise/business data.",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.umicore.com/en/careers/job-finder/26892-machine-learning-en/",
+   "raw_sector": "",
+   "date": "2026",
+   "fresh": "fresh"
   }
  ]
 }

@@ -3,50 +3,60 @@
  "name": "ANZ Group",
  "cc": "AU",
  "vertical": "Financial Services",
- "deployments": 2,
- "confirmed": 1,
- "with_value_number": 1,
- "proof_rate": 0.5,
+ "deployments": 12,
+ "confirmed": 9,
+ "with_value_number": 2,
+ "proof_rate": 0.167,
  "mktcap": 72226666667.0,
  "revenue": 14500000000.0,
  "employees": 40072.0,
  "silent": false,
- "per_bn_revenue": 0.14,
- "per_10k_emp": 0.5,
+ "per_bn_revenue": 0.83,
+ "per_10k_emp": 2.99,
  "benchmarks": {
   "global_vertical": {
-   "deployments": 70,
-   "confirmed": 18,
-   "proof_rate": 61,
+   "deployments": 95,
+   "confirmed": 94,
+   "proof_rate": 55,
    "n": 377
   },
   "country_vertical": {
-   "deployments": 60,
-   "confirmed": 20,
+   "deployments": 80,
+   "confirmed": 80,
    "proof_rate": 80,
    "n": 6
   }
  },
- "first_seen": 2024,
+ "first_seen": 2023,
  "by_year": [
   {
-   "year": 2024,
+   "year": 2023,
    "n": 1
   },
   {
+   "year": 2024,
+   "n": 5
+  },
+  {
    "year": 2025,
+   "n": 5
+  },
+  {
+   "year": 2026,
    "n": 1
   }
  ],
  "undated_pct": 0,
  "momentum": "early_mover,flat",
- "maturity": "L3",
+ "maturity": "L4",
  "maturity_evidence": [
+  "multi_horizontal",
   "named_product:Launched",
   "value_number",
+  "multi_year",
   "tier_p"
  ],
- "prospect_score": 26,
+ "prospect_score": 87,
  "stack": [
   "Microsoft"
  ],
@@ -73,6 +83,116 @@
    "raw_sector": "Banks",
    "date": "2024-08",
    "fresh": "aging"
+  },
+  {
+   "company": "ANZ Group",
+   "use": "Z-GPT, ANZ's own internal generative-AI chatbot built by its engineers (using OpenAI and Google models) to answer staff questions on topics like interest rates and simple language queries [OpenAI / Google models (in-house build)]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.anz.com.au/bluenotes/2023/08/anz-news-tim-hogarth-zgpt-chatbot-australia/",
+   "raw_sector": "",
+   "date": "2023",
+   "fresh": "stale"
+  },
+  {
+   "company": "ANZ Group",
+   "use": "Automated digital home loan origination using machine learning to analyse credit history and applicant data for faster credit decisioning and document verification/file summarisation",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.anz.com.au/bluenotes/2024/october/home-loans-automation-technology-mcmahon/",
+   "raw_sector": "",
+   "date": "2024",
+   "fresh": "aging"
+  },
+  {
+   "company": "ANZ Group",
+   "use": "'Economic Pulse Plus' — Gemini-backed upgrade of the institutional Economic Pulse data service that answers client queries with insight summaries and visualisation charts for institutional bankers/clients [Google Gemini / Vertex AI]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.itnews.com.au/news/anz-redefines-institutional-data-service-with-gemini-ai-619279",
+   "raw_sector": "",
+   "date": "2025-08",
+   "fresh": "fresh"
+  },
+  {
+   "company": "ANZ Group",
+   "use": "Microsoft 365 Copilot rolled out to employees (scaled to ~45,000 staff) for drafting, summarisation and productivity, supported by a dedicated AI Immersion Centre built with Microsoft [Microsoft 365 Copilot / Microsoft Copilot]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.anz.com.au/newsroom/media/2024/august/anz-launches-first-of-its-kind-ai-immersion-centre-in-partnershi/",
+   "raw_sector": "",
+   "date": "2024",
+   "fresh": "aging"
+  },
+  {
+   "company": "ANZ Group",
+   "use": "Generative AI applied to the internal IT service desk environment to deliver incremental efficiency gains in service management and support",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.linkedin.com/posts/itnews_anz-eyes-compound-gains-from-genai-activity-7365578116024463362-V3w1",
+   "raw_sector": "",
+   "date": "2025",
+   "fresh": "fresh"
+  },
+  {
+   "company": "ANZ Group",
+   "use": "GitHub Copilot deployed to 3,000 software developers and engineers to assist with generating code, following a 6-week internal productivity trial [GitHub Copilot (OpenAI Codex/GPT)]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.anz.com.au/bluenotes/2024/august/anz-news-microsoft-ai-gerard-florian/",
+   "raw_sector": "",
+   "date": "2024",
+   "fresh": "aging"
+  },
+  {
+   "company": "ANZ Group",
+   "use": "'amie' multi-agent AI chatbot/sales assistant giving commercial and institutional bankers real-time market and customer insights, built on AWS with Amazon Bedrock and Anthropic Claude 3.5 Sonnet [AWS Amazon Bedrock + Anthropic Claude 3.5 Sonnet]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.anz.com.au/bluenotes/2025/june/maloney-anz-gen-ai-chatbot-amie-technology/",
+   "raw_sector": "",
+   "date": "2025",
+   "fresh": "fresh"
+  },
+  {
+   "company": "ANZ Group",
+   "use": "Agentic AI-powered CRM rolled out across the business bank, using Salesforce Agentforce 360 AI agents to automate routine tasks (e.g. meeting prep, sector/company reports) and surface customer data for business bankers [Salesforce Agentforce 360]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.anz.com.au/newsroom/media/2026/february/anz-launches-agentic-ai-powered-crm-to-transform-business-banking/",
+   "raw_sector": "",
+   "date": "2026-02",
+   "fresh": "fresh"
+  },
+  {
+   "company": "ANZ Group",
+   "use": "AI 'scam scoring' model plus 170+ machine-learning algorithms and behavioural biometrics (via BioCatch/Trust consortium) to detect and prevent scams and fraud in real time across payment channels [BioCatch (behavioural biometrics)]",
+   "existence": "confirmed",
+   "value": "prevented over $20 million in customer losses",
+   "tier": "",
+   "url": "https://www.itnews.com.au/news/anz-to-implement-new-ai-scam-scoring-model-606636",
+   "raw_sector": "",
+   "date": "2024",
+   "fresh": "aging"
+  },
+  {
+   "company": "ANZ Group",
+   "use": "Participation in Swift-led AI and secure data-sharing trials that doubled real-time fraud detection in cross-border payments across 10 million test transactions [Swift (collaborative AI model)]",
+   "existence": "claimed",
+   "value": "doubled real-time fraud detection rate",
+   "tier": "",
+   "url": "https://www.swift.com/news-events/press-releases/swift-ai-innovation-creates-blueprint-banks-stop-fraud-faster-through-cross-border-collaboration",
+   "raw_sector": "",
+   "date": "2025-09",
+   "fresh": "fresh"
   }
  ]
 }

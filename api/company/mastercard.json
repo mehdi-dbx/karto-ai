@@ -3,40 +3,63 @@
  "name": "Mastercard",
  "cc": "US",
  "vertical": "Financial Services",
- "deployments": 1,
- "confirmed": 1,
- "with_value_number": 1,
- "proof_rate": 1.0,
+ "deployments": 13,
+ "confirmed": 13,
+ "with_value_number": 7,
+ "proof_rate": 0.538,
  "mktcap": 466180000000.0,
  "revenue": 33940000000.0,
  "employees": 39800.0,
  "silent": false,
- "per_bn_revenue": 0.03,
- "per_10k_emp": 0.25,
+ "per_bn_revenue": 0.38,
+ "per_10k_emp": 3.27,
  "benchmarks": {
   "global_vertical": {
-   "deployments": 0,
-   "confirmed": 18,
-   "proof_rate": 72,
+   "deployments": 98,
+   "confirmed": 99,
+   "proof_rate": 71,
    "n": 377
   },
   "country_vertical": {
-   "deployments": 0,
-   "confirmed": 21,
-   "proof_rate": 72,
+   "deployments": 97,
+   "confirmed": 100,
+   "proof_rate": 73,
    "n": 76
   }
  },
- "first_seen": null,
- "by_year": [],
- "undated_pct": 100,
- "momentum": "none",
- "maturity": "L3",
- "maturity_evidence": [
-  "named_product:Decision Intelligence Pro",
-  "value_number"
+ "first_seen": 2016,
+ "by_year": [
+  {
+   "year": 2016,
+   "n": 1
+  },
+  {
+   "year": 2021,
+   "n": 1
+  },
+  {
+   "year": 2023,
+   "n": 3
+  },
+  {
+   "year": 2024,
+   "n": 5
+  },
+  {
+   "year": 2025,
+   "n": 2
+  }
  ],
- "prospect_score": 6,
+ "undated_pct": 8,
+ "momentum": "early_mover,cooling",
+ "maturity": "L4",
+ "maturity_evidence": [
+  "multi_horizontal",
+  "named_product:Decision Intelligence Pro",
+  "value_number",
+  "multi_year"
+ ],
+ "prospect_score": 78,
  "stack": [
   "Microsoft"
  ],
@@ -52,6 +75,138 @@
    "raw_sector": "Financials",
    "date": "missing",
    "fresh": "undated"
+  },
+  {
+   "company": "Mastercard",
+   "use": "Internal rollout of Microsoft 365 Copilot to ~16,000 employees for productivity, plus AI coding assistants for developers; company reports millions of AI-driven actions and hundreds of thousands of hours saved. [Microsoft 365 Copilot]",
+   "existence": "confirmed",
+   "value": "16,000 employees enabled; 8M+ AI-driven actions and 800K+ hours saved (per Mastercard CDAO Greg Ulrich)",
+   "tier": "",
+   "url": "https://www.runtime.news/how-mastercard-encouraged-ai-adoption-with-training-and-data/",
+   "raw_sector": "",
+   "date": "2025",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Mastercard",
+   "use": "Unlocked: AI-powered internal talent marketplace that matches employees to internal jobs, short-term projects, mentoring, learning and volunteering opportunities based on skills. [Gloat (talent marketplace AI)]",
+   "existence": "confirmed",
+   "value": "62% of employees registered; 1M+ project hours",
+   "tier": "",
+   "url": "https://www.mastercard.com/us/en/news-and-trends/stories/2025/ai-culture-adoption-experimentation.html",
+   "raw_sector": "",
+   "date": "2024",
+   "fresh": "aging"
+  },
+  {
+   "company": "Mastercard",
+   "use": "Shopping Muse: generative-AI conversational retail assistant from Dynamic Yield by Mastercard that translates shoppers' colloquial language into personalized product recommendations; first deployed by Michael Kors. [Dynamic Yield by Mastercard (generative AI)]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.mastercard.com/us/en/news-and-trends/press/2023/november/dynamic-yield-by-mastercard-unveils-shopping-muse-the-next-generation-personal-retail-assistant.html",
+   "raw_sector": "",
+   "date": "2023-11",
+   "fresh": "stale"
+  },
+  {
+   "company": "Mastercard",
+   "use": "Mastercard Agent Pay: agentic-AI payments program enabling AI agents to discover, plan and execute secure autonomous transactions, using Agentic Tokens; partners include OpenAI, Microsoft, Stripe, Google. [Mastercard (Agentic Tokens); Microsoft, OpenAI, Stripe, Google]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.mastercard.com/europe/en/news-and-trends/press/2025/april/mastercard-unveils-agent-pay-pioneering-agentic-payments-technology-to-power-commerce-in-the-age-of-ai.html",
+   "raw_sector": "",
+   "date": "2025-04",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Mastercard",
+   "use": "Mastercard Small Business AI / Virtual C-Suite: generative-AI virtual assistant (Small Business AI, piloted 2024) evolved into Virtual C-Suite (2026), a set of AI agents giving SMEs executive-level insight and decision support. [Mastercard (generative AI)]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://investor.mastercard.com/investor-news/investor-news-details/2024/Mastercard-Announces-Development-of-Inclusive-AI-Tool-to-Provide-Personalized-Real-Time-Assistance-to-Small-Business-Community/default.aspx",
+   "raw_sector": "",
+   "date": "2024-01",
+   "fresh": "aging"
+  },
+  {
+   "company": "Mastercard",
+   "use": "Open Banking / Open Finance analytics (Finicity, a Mastercard company): AI-driven cash-flow and income insights and credit-scoring models used by lenders for inclusive lending decisions. [Mastercard Finicity (AI analytics)]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.finextra.com/pressarticle/95782/mastercard-adds-advanced-analytics-to-open-banking-platform",
+   "raw_sector": "",
+   "date": "2023-02",
+   "fresh": "stale"
+  },
+  {
+   "company": "Mastercard",
+   "use": "Generative-AI digital assistant built on Mastercard's in-house gen-AI capability that simplifies customer/product onboarding so bank customers can extend new ways to pay faster. [Mastercard (in-house generative AI)]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.mastercard.com/us/en/news-and-trends/press/2024/october/mastercard-launches-new-gen-ai-digital-assistant-capabilities-to-enhance-customer-value.html",
+   "raw_sector": "",
+   "date": "2024-10",
+   "fresh": "aging"
+  },
+  {
+   "company": "Mastercard",
+   "use": "Decision Intelligence: real-time AI transaction risk-scoring platform that analyzes each transaction against ~160 billion transactions/year to score fraud risk and reduce false declines. Built on Brighterion ML technology (acquired 2017). [Mastercard Brighterion (in-house ML)]",
+   "existence": "confirmed",
+   "value": "scans nearly 160 billion transactions/year",
+   "tier": "",
+   "url": "https://www.mastercard.com/global/en/business/cybersecurity-fraud-prevention/risk-decisioning/decision-intelligence.html",
+   "raw_sector": "",
+   "date": "2016",
+   "fresh": "stale"
+  },
+  {
+   "company": "Mastercard",
+   "use": "Decision Intelligence Pro: proprietary generative-AI/recurrent-neural-network model that scans up to 1 trillion data points to assess whether a transaction is genuine, improving issuer fraud detection. [Mastercard (proprietary generative AI / RNN)]",
+   "existence": "confirmed",
+   "value": "up to 300% improvement in fraud detection rates in some cases; scans 1 trillion data points",
+   "tier": "",
+   "url": "https://www.mastercard.com/us/en/news-and-trends/press/2024/february/mastercard-supercharges-consumer-protection-with-gen-ai.html",
+   "raw_sector": "",
+   "date": "2024-02",
+   "fresh": "aging"
+  },
+  {
+   "company": "Mastercard",
+   "use": "Generative-AI predictive technology that identifies compromised payment cards faster by predicting full card details of cards likely exposed in breaches, alerting banks to block/reissue. [Mastercard (generative AI)]",
+   "existence": "confirmed",
+   "value": "doubled speed of detecting compromised cards; up to 300% faster identification of at-risk merchants",
+   "tier": "",
+   "url": "https://www.mastercard.com/global/en/news-and-trends/press/2024/may/mastercard-accelerates-card-fraud-detection-with-generative-ai-technology.html",
+   "raw_sector": "",
+   "date": "2024-05",
+   "fresh": "aging"
+  },
+  {
+   "company": "Mastercard",
+   "use": "Consumer Fraud Risk (CFR): AI that scores real-time account-to-account payments to predict Authorised Push Payment (APP) scams before money leaves the victim's account; deployed with UK banks (Lloyds, NatWest, Monzo, TSB, etc.). [Mastercard (AI, built on Brighterion / network intelligence)]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.mastercard.com/us/en/news-and-trends/press/2024/september/mastercard-expands-first-of-its-kind-ai-technology-to-help-banks-protect-more-consumers-from-scams-in-real-time.html",
+   "raw_sector": "",
+   "date": "2023-07",
+   "fresh": "stale"
+  },
+  {
+   "company": "Mastercard",
+   "use": "Fraud detection and prevention running on AWS AI/ML services (Brighterion applications), delivering higher fraud catch rates and fewer false positives for merchants and acquirers. [AWS (AI/ML services); Mastercard Brighterion]",
+   "existence": "confirmed",
+   "value": "3x more fraudulent transactions detected; false positives reduced tenfold; billions in merchant savings",
+   "tier": "",
+   "url": "https://aws.amazon.com/solutions/case-studies/mastercard-ai-ml-testimonial/",
+   "raw_sector": "",
+   "date": "2021",
+   "fresh": "stale"
   }
  ]
 }

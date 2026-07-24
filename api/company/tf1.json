@@ -3,44 +3,59 @@
  "name": "TF1",
  "cc": "FR",
  "vertical": "Media / Entertainment / Gaming",
- "deployments": 1,
- "confirmed": 1,
- "with_value_number": 0,
- "proof_rate": 0.0,
+ "deployments": 12,
+ "confirmed": 11,
+ "with_value_number": 3,
+ "proof_rate": 0.25,
  "mktcap": 1544400000.0,
  "revenue": 2430000000.0,
  "employees": 3036.0,
  "silent": false,
- "per_bn_revenue": 0.41,
- "per_10k_emp": 3.29,
+ "per_bn_revenue": 4.94,
+ "per_10k_emp": 39.53,
  "benchmarks": {
   "global_vertical": {
-   "deployments": 0,
-   "confirmed": 18,
-   "proof_rate": 0,
+   "deployments": 97,
+   "confirmed": 97,
+   "proof_rate": 53,
    "n": 35
   },
   "country_vertical": {
-   "deployments": 0,
-   "confirmed": 0,
-   "proof_rate": 0,
+   "deployments": 100,
+   "confirmed": 100,
+   "proof_rate": 33,
    "n": 7
   }
  },
- "first_seen": 2025,
+ "first_seen": 2023,
  "by_year": [
   {
-   "year": 2025,
+   "year": 2023,
    "n": 1
+  },
+  {
+   "year": 2024,
+   "n": 6
+  },
+  {
+   "year": 2025,
+   "n": 3
+  },
+  {
+   "year": 2026,
+   "n": 2
   }
  ],
  "undated_pct": 0,
- "momentum": "early_mover,rising",
- "maturity": "L3",
+ "momentum": "early_mover,cooling",
+ "maturity": "L4",
  "maturity_evidence": [
-  "named_product:Pub"
+  "multi_horizontal",
+  "named_product:Pub",
+  "value_number",
+  "multi_year"
  ],
- "prospect_score": 54,
+ "prospect_score": 98,
  "stack": [],
  "vendor_named": false,
  "deployments_detail": [
@@ -53,6 +68,127 @@
    "url": "https://www.ozap.com/actu/tf1-noue-un-partenariat-dans-lintelligence-artificielle-pour-revolutionner-les-spots-de-pub/650501",
    "raw_sector": "Media / Broadcasting",
    "date": "2025",
+   "fresh": "fresh"
+  },
+  {
+   "company": "TF1",
+   "use": "Content recommendation algorithm on the TF1+ streaming platform, developed in-house by TF1's AI and data-science team to personalize content surfacing for viewers.",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.tvbeurope.com/features/how-tf1-is-exploring-an-ai-driven-future-with-moments-lab",
+   "raw_sector": "",
+   "date": "2024",
+   "fresh": "aging"
+  },
+  {
+   "company": "TF1",
+   "use": "Automatic thumbnail identification on the TF1+ streaming platform: AI selects representative preview images/thumbnails for content automatically.",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.tvbeurope.com/features/how-tf1-is-exploring-an-ai-driven-future-with-moments-lab",
+   "raw_sector": "",
+   "date": "2024",
+   "fresh": "aging"
+  },
+  {
+   "company": "TF1",
+   "use": "Multimodal AI video indexing, automatic tagging and content summarization of TF1's video library using Moments Lab's MXT models, to make archives searchable and speed content discovery. [Moments Lab (MXT)]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.momentslab.com/blog/how-multimodal-ai-opens-new-media-workflow-possibilities",
+   "raw_sector": "",
+   "date": "2024",
+   "fresh": "aging"
+  },
+  {
+   "company": "TF1",
+   "use": "Top Chrono: AI-generated on-demand sports match summaries (viewer chooses 5, 10 or 15-minute cuts) using AI highlight/key-moment identification. Launched for Rugby World Cup 2023 and extended to further sports events on TF1+.",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.tf1.fr/top-chrono",
+   "raw_sector": "",
+   "date": "2023",
+   "fresh": "stale"
+  },
+  {
+   "company": "TF1",
+   "use": "Generative AI embedded in TF1 Info's editorial CMS to assist journalists with technical article-qualification tasks: automatic tagging, geolocation, and SEO optimization of written news content.",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.zdnet.fr/actualites/tf1-info-injecte-de-lia-generative-dans-son-cms-pour-le-doper-gentiment-390601.htm",
+   "raw_sector": "",
+   "date": "2024-05",
+   "fresh": "aging"
+  },
+  {
+   "company": "TF1",
+   "use": "Centralized data and AI platform on Snowflake replacing fragmented team-by-team tools, giving TF1 a 360-degree view of user behavior across 26 million logged-in profiles to power personalization and audience analytics. [Snowflake]",
+   "existence": "confirmed",
+   "value": "360-degree view across 26 million logged-in users",
+   "tier": "",
+   "url": "https://www.snowflake.com/en/customers/all-customers/video/tf1/",
+   "raw_sector": "",
+   "date": "2024",
+   "fresh": "aging"
+  },
+  {
+   "company": "TF1",
+   "use": "Internal secure ChatGPT-style generative-AI assistant for TF1 employees, deployed with data-security controls so that no data is shared with the underlying model provider.",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.tvbeurope.com/features/how-tf1-is-exploring-an-ai-driven-future-with-moments-lab",
+   "raw_sector": "",
+   "date": "2024",
+   "fresh": "aging"
+  },
+  {
+   "company": "TF1",
+   "use": "AI-augmented software development: TF1 engineering teams use AI coding copilots (GitHub Copilot and Claude Code) to boost developer productivity, per TF1 Group's own developer job postings which require advanced use of these tools. [GitHub Copilot, Anthropic Claude (Claude Code)]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.welcometothejungle.com/en/companies/groupe-tf1/jobs/developpeur-full-stack-net-angular-iaaugmente-h-f_boulogne-billancourt_GT_aQV5jl8",
+   "raw_sector": "",
+   "date": "2026",
+   "fresh": "fresh"
+  },
+  {
+   "company": "TF1",
+   "use": "Autopilot Agentic: conversational AI agent for TF1 Pub that generates advertising-campaign reports and audience recommendations, cutting report creation from ~4 days to under 5 minutes. Built on Snowflake Intelligence with consultancy Artefact, leveraging TF1's proprietary Graph:ID customer-data system. [Snowflake (Snowflake Intelligence / Cortex), Artefact]",
+   "existence": "confirmed",
+   "value": "report creation reduced from 4 days to under 5 minutes",
+   "tier": "",
+   "url": "https://www.artefact.com/news/tf1-continues-its-ai-revolution-with-autopilot-agentic/",
+   "raw_sector": "",
+   "date": "2025",
+   "fresh": "fresh"
+  },
+  {
+   "company": "TF1",
+   "use": "TF1 Pub partnership with Aive to automate advertising-spot post-production: a creative AI copilot generates all optimized variations/declinations of a video ad from a single original spot for digital and CTV. [Aive]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://fr.themedialeader.com/tf1-pub-mise-sur-lia-avec-aive-pour-optimiser-ses-spots-publicitaires/",
+   "raw_sector": "",
+   "date": "2025-06",
+   "fresh": "fresh"
+  },
+  {
+   "company": "TF1",
+   "use": "TF1 AdManager self-serve ad platform for SMEs: generative-AI creative tool automatically produces a video ad spot in seconds from an advertiser's website URL (no prompt needed), plus AI campaign simulation, enabling TV/streaming campaigns from EUR 1,000.",
+   "existence": "confirmed",
+   "value": "campaign entry ticket EUR 1,000; ad spot generated in seconds",
+   "tier": "",
+   "url": "https://fr.themedialeader.com/tf1-pub-sattaque-au-marche-des-pme-campagnes-des-1-000-euros-spot-genere-par-ia/",
+   "raw_sector": "",
+   "date": "2026-04",
    "fresh": "fresh"
   }
  ]

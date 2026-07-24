@@ -3,40 +3,60 @@
  "name": "McKesson Corporation",
  "cc": "US",
  "vertical": "Healthcare & Life Sciences",
- "deployments": 1,
- "confirmed": 1,
- "with_value_number": 0,
- "proof_rate": 0.0,
+ "deployments": 9,
+ "confirmed": 9,
+ "with_value_number": 4,
+ "proof_rate": 0.444,
  "mktcap": 95690000000.0,
  "revenue": 403430000000.0,
  "employees": 43000.0,
  "silent": false,
- "per_bn_revenue": 0.0,
- "per_10k_emp": 0.23,
+ "per_bn_revenue": 0.02,
+ "per_10k_emp": 2.09,
  "benchmarks": {
   "global_vertical": {
-   "deployments": 0,
-   "confirmed": 14,
-   "proof_rate": 0,
+   "deployments": 91,
+   "confirmed": 95,
+   "proof_rate": 73,
    "n": 165
   },
   "country_vertical": {
-   "deployments": 0,
-   "confirmed": 7,
-   "proof_rate": 0,
+   "deployments": 81,
+   "confirmed": 88,
+   "proof_rate": 76,
    "n": 59
   }
  },
- "first_seen": null,
- "by_year": [],
- "undated_pct": 100,
- "momentum": "none",
- "maturity": "L3",
+ "first_seen": 2023,
+ "by_year": [
+  {
+   "year": 2023,
+   "n": 1
+  },
+  {
+   "year": 2024,
+   "n": 3
+  },
+  {
+   "year": 2025,
+   "n": 1
+  },
+  {
+   "year": 2026,
+   "n": 2
+  }
+ ],
+ "undated_pct": 22,
+ "momentum": "early_mover,cooling",
+ "maturity": "L4",
  "maturity_evidence": [
+  "multi_horizontal",
   "named_product:Impact",
+  "value_number",
+  "multi_year",
   "tier_p"
  ],
- "prospect_score": 54,
+ "prospect_score": 84,
  "stack": [],
  "vendor_named": false,
  "deployments_detail": [
@@ -50,6 +70,94 @@
    "raw_sector": "Health Care",
    "date": "missing",
    "fresh": "undated"
+  },
+  {
+   "company": "McKesson Corporation",
+   "use": "AI-driven advanced planning system that connects and orchestrates end-to-end planning across demand, supply, inventory and operations for real-time decision-making in McKesson's pharmaceutical distribution business.",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://wiresift.com/ai-adoption/mck",
+   "raw_sector": "",
+   "date": "2026",
+   "fresh": "fresh"
+  },
+  {
+   "company": "McKesson Corporation",
+   "use": "AI- and robotics-powered automated storage and retrieval system (Ocado OSRS: 3D grid with mobile/collaborative robots) deployed at McKesson Canada's Montreal distribution center to pick and pack customer orders with improved precision. [Ocado (Ocado Storage and Retrieval System)]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.automatedwarehouseonline.com/ocado-provides-automated-fulfillment-mckesson-canada/",
+   "raw_sector": "",
+   "date": "2023-11",
+   "fresh": "stale"
+  },
+  {
+   "company": "McKesson Corporation",
+   "use": "McKesson modernized supply chain operations using MongoDB Atlas plus Azure OpenAI and cloud-native architecture to drive automation and visibility across thousands of supply chain operations, including scaling electronic drug tracing (DSCSA serialization). [MongoDB Atlas, Microsoft Azure OpenAI]",
+   "existence": "confirmed",
+   "value": "scaled electronic drug tracing by 300x",
+   "tier": "",
+   "url": "https://www.mongodb.com/solutions/customer-case-studies/mckesson",
+   "raw_sector": "",
+   "date": "2024",
+   "fresh": "aging"
+  },
+  {
+   "company": "McKesson Corporation",
+   "use": "Ontada (McKesson oncology business) uses Azure OpenAI large language models on its ON.Genuity platform to extract structured insights from ~150 million unstructured oncology documents, targeting nearly 100 critical data elements across 39 cancer types for real-world evidence generation. [Microsoft Azure OpenAI Service, Azure AI Foundry, Azure Databricks, Azure Document Intelligence]",
+   "existence": "confirmed",
+   "value": "150M documents processed; 75% faster processing (3 weeks via Batch API); ~70% of previously unanalyzed data now accessible; time-to-market cut from months to one week",
+   "tier": "",
+   "url": "https://www.microsoft.com/en/customers/story/19761-mckesson-azure-open-ai-service",
+   "raw_sector": "",
+   "date": "2024-10",
+   "fresh": "aging"
+  },
+  {
+   "company": "McKesson Corporation",
+   "use": "AI ambient scribe technology deployed to physician practices to automatically document patient visits and reduce clinician administrative/documentation burden.",
+   "existence": "confirmed",
+   "value": "used by more than 1,900 providers",
+   "tier": "",
+   "url": "https://wiresift.com/ai-adoption/mck",
+   "raw_sector": "",
+   "date": "2026",
+   "fresh": "fresh"
+  },
+  {
+   "company": "McKesson Corporation",
+   "use": "Glide Health, a revenue intelligence solution using predictive machine learning to improve revenue-cycle management and claims acceptance rates for specialty/oncology practices, flagging claim issues before submission.",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.mckesson.com/specialty/technology-solutions-specialty-practices/glide-health/",
+   "raw_sector": "",
+   "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "McKesson Corporation",
+   "use": "CoverMyMeds (McKesson business) uses AI-driven automation for prior authorization workflows, auto-completing and submitting PA requests via FHIR-based APIs and AI, in partnership with Latent Health. [Latent Health (FHIR-based AI automation)]",
+   "existence": "confirmed",
+   "value": "10 hours faster submission times; observed 26% increase in prior authorization request approvals",
+   "tier": "",
+   "url": "https://www.covermymeds.health/articles/healthcare-technology/latent-health-intelligent-automation-fhir",
+   "raw_sector": "",
+   "date": "2025-11",
+   "fresh": "fresh"
+  },
+  {
+   "company": "McKesson Corporation",
+   "use": "AI algorithms in the pharmaceutical supply chain that predict when products will go out of stock before shortages occur, and use extensive transaction data to maintain inventory levels and allocate products during supply shortages.",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://hda.org/perspectives/2024/06/technological-innovations-reshaping-the-healthcare-supply-chain/",
+   "raw_sector": "",
+   "date": "2024-06",
+   "fresh": "aging"
   }
  ]
 }

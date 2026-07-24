@@ -3,33 +3,49 @@
  "name": "IMI",
  "cc": "UK",
  "vertical": "Industrial / Machinery",
- "deployments": 1,
- "confirmed": 1,
- "with_value_number": 0,
- "proof_rate": 0.0,
+ "deployments": 10,
+ "confirmed": 7,
+ "with_value_number": 1,
+ "proof_rate": 0.1,
  "mktcap": 9093200000.0,
  "revenue": 2921000000.0,
  "employees": 10358.0,
  "silent": false,
- "per_bn_revenue": 0.34,
- "per_10k_emp": 0.97,
+ "per_bn_revenue": 3.42,
+ "per_10k_emp": 9.65,
  "benchmarks": {
   "global_vertical": {
-   "deployments": 0,
-   "confirmed": 14,
-   "proof_rate": 0,
+   "deployments": 91,
+   "confirmed": 93,
+   "proof_rate": 68,
    "n": 175
   }
  },
- "first_seen": null,
- "by_year": [],
- "undated_pct": 100,
- "momentum": "none",
- "maturity": "L3",
- "maturity_evidence": [
-  "named_product:Engineering Intelligence"
+ "first_seen": 2024,
+ "by_year": [
+  {
+   "year": 2024,
+   "n": 1
+  },
+  {
+   "year": 2025,
+   "n": 1
+  },
+  {
+   "year": 2026,
+   "n": 7
+  }
  ],
- "prospect_score": 54,
+ "undated_pct": 10,
+ "momentum": "early_mover,rising",
+ "maturity": "L4",
+ "maturity_evidence": [
+  "multi_horizontal",
+  "named_product:Engineering Intelligence",
+  "value_number",
+  "multi_year"
+ ],
+ "prospect_score": 86,
  "stack": [],
  "vendor_named": false,
  "deployments_detail": [
@@ -43,6 +59,105 @@
    "raw_sector": "Industrial engineering",
    "date": "missing",
    "fresh": "undated"
+  },
+  {
+   "company": "IMI",
+   "use": "AI-based data sheet / document analysis system under development to speed up review of technical documents for customer support",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.imiplc.com/en/news-insights/engineering-intelligence-ai-at-imi/",
+   "raw_sector": "",
+   "date": "2026",
+   "fresh": "fresh"
+  },
+  {
+   "company": "IMI",
+   "use": "Microsoft Copilot rolled out across the entire workforce for productivity, with every employee given access plus AI training to assist daily work [Microsoft Copilot]",
+   "existence": "confirmed",
+   "value": "Every employee has access to Copilot",
+   "tier": "",
+   "url": "https://www.imiplc.com/en/news-insights/engineering-intelligence-ai-at-imi/",
+   "raw_sector": "",
+   "date": "2026",
+   "fresh": "fresh"
+  },
+  {
+   "company": "IMI",
+   "use": "Deployed a secure, private generative AI tool / internal AI chatbot for company-wide use, built in IMI's secure environment to enhance productivity while protecting data",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.investegate.co.uk/announcement/rns/imi--imi/imi-plc-preliminary-results/8756729",
+   "raw_sector": "",
+   "date": "2024",
+   "fresh": "aging"
+  },
+  {
+   "company": "IMI",
+   "use": "Growth Hub AI coaching agents being explored to guide employees through IMI's innovation/idea-development process",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.imiplc.com/en/news-insights/engineering-intelligence-ai-at-imi/",
+   "raw_sector": "",
+   "date": "2026",
+   "fresh": "fresh"
+  },
+  {
+   "company": "IMI",
+   "use": "Graduate/early-career workforce trained on generative AI and prompt design at the 2025 Early Careers Conference, using IMI's own secure AI chatbot as part of upskilling",
+   "existence": "confirmed",
+   "value": "40+ graduates trained",
+   "tier": "",
+   "url": "https://www.imiplc.com/en/news-insights/early-careers-conference-2025-making-ai-your-superpower/",
+   "raw_sector": "",
+   "date": "2025-05",
+   "fresh": "fresh"
+  },
+  {
+   "company": "IMI",
+   "use": "AI-powered visual inspection tools used in manufacturing to ensure product quality and consistency",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.imiplc.com/en/news-insights/engineering-intelligence-ai-at-imi/",
+   "raw_sector": "",
+   "date": "2026",
+   "fresh": "fresh"
+  },
+  {
+   "company": "IMI",
+   "use": "Sensor technology plus data analysis on hundreds of thousands of installed valves globally for real-time performance monitoring and predictive maintenance",
+   "existence": "confirmed",
+   "value": "Hundreds of thousands of valves globally monitored",
+   "tier": "",
+   "url": "https://www.imiplc.com/en/news-insights/engineering-intelligence-ai-at-imi/",
+   "raw_sector": "",
+   "date": "2026",
+   "fresh": "fresh"
+  },
+  {
+   "company": "IMI",
+   "use": "Machine learning and data analysis to map the installed base and identify/target aftermarket service opportunities",
+   "existence": "confirmed",
+   "value": "Aftermarket is nearly half of Group revenues",
+   "tier": "",
+   "url": "https://www.imiplc.com/en/news-insights/engineering-intelligence-ai-at-imi/",
+   "raw_sector": "",
+   "date": "2026",
+   "fresh": "fresh"
+  },
+  {
+   "company": "IMI",
+   "use": "AI-enabled tools in development to accelerate customer quote generation, a critical touchpoint in the customer journey",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.imiplc.com/en/news-insights/engineering-intelligence-ai-at-imi/",
+   "raw_sector": "",
+   "date": "2026",
+   "fresh": "fresh"
   }
  ]
 }

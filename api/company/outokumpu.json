@@ -3,40 +3,54 @@
  "name": "Outokumpu",
  "cc": "FI",
  "vertical": "Mining & Materials",
- "deployments": 2,
- "confirmed": 2,
- "with_value_number": 0,
- "proof_rate": 0.0,
+ "deployments": 12,
+ "confirmed": 10,
+ "with_value_number": 2,
+ "proof_rate": 0.167,
  "mktcap": 2840400000.0,
  "revenue": 5832000000.0,
  "employees": 8172.0,
  "silent": false,
- "per_bn_revenue": 0.34,
- "per_10k_emp": 2.45,
+ "per_bn_revenue": 2.06,
+ "per_10k_emp": 14.68,
  "benchmarks": {
   "global_vertical": {
-   "deployments": 82,
-   "confirmed": 88,
-   "proof_rate": 0,
+   "deployments": 100,
+   "confirmed": 100,
+   "proof_rate": 70,
    "n": 61
   }
  },
- "first_seen": 2024,
+ "first_seen": 2023,
  "by_year": [
   {
+   "year": 2023,
+   "n": 4
+  },
+  {
    "year": 2024,
+   "n": 4
+  },
+  {
+   "year": 2025,
+   "n": 2
+  },
+  {
+   "year": 2026,
    "n": 1
   }
  ],
- "undated_pct": 50,
- "momentum": "early_mover,gone_quiet",
- "maturity": "L3",
+ "undated_pct": 8,
+ "momentum": "early_mover,cooling",
+ "maturity": "L4",
  "maturity_evidence": [
   "multi_horizontal",
   "named_product:ASIS",
+  "value_number",
+  "multi_year",
   "tier_p"
  ],
- "prospect_score": 60,
+ "prospect_score": 100,
  "stack": [],
  "vendor_named": false,
  "deployments_detail": [
@@ -61,6 +75,116 @@
    "raw_sector": "Materials",
    "date": "missing",
    "fresh": "undated"
+  },
+  {
+   "company": "Outokumpu",
+   "use": "Machine learning optimization of electric arc furnace (EAF) melting: ML models optimize melting/furnace treatment time in Outokumpu's electric arc furnaces to boost throughput and cut energy/emissions.",
+   "existence": "confirmed",
+   "value": "4% shorter furnace treatment melting time, 17% higher furnace capacity, 1,736 tons CO2 reduction",
+   "tier": "",
+   "url": "https://www.outokumpu.com/en/expertise/industrial-evolution-insights/2023/innovation-intersection-ais-growing-role-in-stainless-steel",
+   "raw_sector": "",
+   "date": "2023",
+   "fresh": "stale"
+  },
+  {
+   "company": "Outokumpu",
+   "use": "AI/ML advanced surface inspection system (ASIS) for automated stainless-steel coil surface defect detection and classification, replacing/augmenting manual visual inspection; multisite platform scalable across European sites. [Nortal]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://nortal.com/insights/ai-in-action-surface-defect-detection-in-outokumpu-stainless-steel",
+   "raw_sector": "",
+   "date": "2024-10",
+   "fresh": "aging"
+  },
+  {
+   "company": "Outokumpu",
+   "use": "AI-based predictive maintenance: sensor and ML monitoring of equipment to predict failures before they happen and prevent unplanned downtime across production.",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.outokumpu.com/en/expertise/industrial-evolution-insights/2023/innovation-intersection-ais-growing-role-in-stainless-steel",
+   "raw_sector": "",
+   "date": "2023",
+   "fresh": "stale"
+  },
+  {
+   "company": "Outokumpu",
+   "use": "Machine learning applications for time-series forecasting and streaming analytics on production data to predict trends and anomalies and optimize operations.",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.outokumpu.com/en/expertise/industrial-evolution-insights/2023/innovation-intersection-ais-growing-role-in-stainless-steel",
+   "raw_sector": "",
+   "date": "2023",
+   "fresh": "stale"
+  },
+  {
+   "company": "Outokumpu",
+   "use": "Autonomous AI-powered ANYmal quadruped inspection robots patrol hazardous areas (acid regeneration, pickling lines, crushing zones) using cameras, thermographic cameras and ultrasonic microphones to detect gas leaks, gauge readings and equipment anomalies, removing workers from danger zones. Robots 'Rosie' (Krefeld), 'Jokkeri' (Tornio); sites in Finland, Germany, Sweden. [ANYbotics (ANYmal)]",
+   "existence": "confirmed",
+   "value": "80% reduction in employee exposure to hazardous incidents; recordable incident frequency down from 8.7 to 1.5 per million working hours since 2016",
+   "tier": "",
+   "url": "https://www.anybotics.com/news/exploring-safety-and-innovation-outokumpus-robotics-journey/",
+   "raw_sector": "",
+   "date": "2023",
+   "fresh": "stale"
+  },
+  {
+   "company": "Outokumpu",
+   "use": "Microsoft Intelligent Data Platform (Microsoft Fabric + Sustainability Manager) unifies operational, financial and sustainability data and automates environmental/ESG (CSRD) reporting, replacing manual data extraction steps; foundation for advanced analytics and AI on green value creation. [Microsoft (Fabric, Sustainability Manager)]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.microsoft.com/en/customers/story/24140-outokumpu-intelligent-data-platform",
+   "raw_sector": "",
+   "date": "2025",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Outokumpu",
+   "use": "Merlin agentic AI Source-to-Pay procurement suite for Outokumpu Stainless USA: Merlin Intake Agent, Autonomous Negotiation Agent, Contract Agent and AP (invoice processing) Agent to unify and automate procurement across North America. [Zycus (Merlin Agentic AI Platform)]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.zycus.com/press-releases/zycus-to-drive-procurement-transformation-for-outokumpu-stainless-usa-with-merlin-ai-powered-source-to-pay-solution",
+   "raw_sector": "",
+   "date": "2026-01",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Outokumpu",
+   "use": "Blue Yonder Transportation Management System with AI-enabled logistics planning/decisioning to optimize freight and run an environmentally friendly transportation program across a complex stainless-steel supply chain. [Blue Yonder]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://blueyonder.com/customers/outokumpu",
+   "raw_sector": "",
+   "date": "2025",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Outokumpu",
+   "use": "Enterprise machine learning development platform with MLOps framework/playbook and a Digital Innovation Hub process to systematically identify, prove, build and scale AI/ML use cases (raw material optimization, maintenance, pricing/sales, supply chain). [Solita]",
+   "existence": "confirmed",
+   "value": "raw material AI optimization estimated to save millions of euros; lead initiative potential tens of millions of euros",
+   "tier": "",
+   "url": "https://www.solita.fi/work/outokumpu-digital-innovation-hub-drives-ai-solutions-in-sustainable-stainless-steel/",
+   "raw_sector": "",
+   "date": "2024",
+   "fresh": "aging"
+  },
+  {
+   "company": "Outokumpu",
+   "use": "Generative AI proof-of-concepts for R&D documentation and plant maintenance knowledge access, developed through the Digital Innovation Hub. [Solita]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.solita.fi/work/outokumpu-digital-innovation-hub-drives-ai-solutions-in-sustainable-stainless-steel/",
+   "raw_sector": "",
+   "date": "2024",
+   "fresh": "aging"
   }
  ]
 }

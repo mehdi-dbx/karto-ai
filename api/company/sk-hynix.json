@@ -3,45 +3,60 @@
  "name": "SK Hynix",
  "cc": "KR",
  "vertical": "Technology",
- "deployments": 1,
- "confirmed": 1,
- "with_value_number": 0,
- "proof_rate": 0.0,
+ "deployments": 11,
+ "confirmed": 7,
+ "with_value_number": 3,
+ "proof_rate": 0.273,
  "mktcap": 1036066666667.0,
  "revenue": 97837037037.0,
  "employees": 47639.0,
  "silent": false,
- "per_bn_revenue": 0.01,
- "per_10k_emp": 0.21,
+ "per_bn_revenue": 0.11,
+ "per_10k_emp": 2.31,
  "benchmarks": {
   "global_vertical": {
-   "deployments": 0,
-   "confirmed": 6,
-   "proof_rate": 0,
+   "deployments": 92,
+   "confirmed": 86,
+   "proof_rate": 65,
    "n": 156
   },
   "country_vertical": {
-   "deployments": 0,
-   "confirmed": 22,
-   "proof_rate": 0,
+   "deployments": 89,
+   "confirmed": 78,
+   "proof_rate": 11,
    "n": 10
   }
  },
- "first_seen": 2027,
+ "first_seen": 2020,
  "by_year": [
+  {
+   "year": 2020,
+   "n": 6
+  },
+  {
+   "year": 2024,
+   "n": 2
+  },
+  {
+   "year": 2026,
+   "n": 2
+  },
   {
    "year": 2027,
    "n": 1
   }
  ],
  "undated_pct": 0,
- "momentum": "late_entrant,rising",
- "maturity": "L3",
+ "momentum": "early_mover,rising",
+ "maturity": "L4",
  "maturity_evidence": [
+  "multi_horizontal",
   "named_product:AI floor manager",
+  "value_number",
+  "multi_year",
   "tier_p"
  ],
- "prospect_score": 54,
+ "prospect_score": 79,
  "stack": [],
  "vendor_named": false,
  "deployments_detail": [
@@ -55,6 +70,116 @@
    "raw_sector": "IT",
    "date": "2027",
    "fresh": "fresh"
+  },
+  {
+   "company": "SK Hynix",
+   "use": "IVIA (Intelligent Visual Inspection Analytics) — deep-learning system that automatically detects and classifies wafer/chip defects, replacing manual visual inspection in DRAM/NAND production. [In-house (SK Hynix Data Science org)]",
+   "existence": "confirmed",
+   "value": "Reduced repetitive manual inspection work by more than 90% (source article); ~75% of quality inspectors' work automated (per SK hynix DX article)",
+   "tier": "",
+   "url": "https://news.skhynix.com/en/the-past-present-and-future-of-data-science-organization-at-sk-hynix/",
+   "raw_sector": "",
+   "date": "2020",
+   "fresh": "stale"
+  },
+  {
+   "company": "SK Hynix",
+   "use": "Sherlock — ML model that predicts memory-chip quality scores at the module-assembly stage using individual wafer test results, guiding binning/quality decisions. [In-house (SK Hynix Data Science org)]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://news.skhynix.com/en/the-past-present-and-future-of-data-science-organization-at-sk-hynix/",
+   "raw_sector": "",
+   "date": "2020",
+   "fresh": "stale"
+  },
+  {
+   "company": "SK Hynix",
+   "use": "AI-based equipment abnormality detection and control across fab tools — monitors sensor/process data in real time to detect equipment anomalies and enable root-cause analysis (~3x faster than manual methods). [In-house]",
+   "existence": "confirmed",
+   "value": "Anomaly detection and cause analysis sped up ~3x vs prior methods (source: 'sped up the time for anomaly detection and cause analysis by three times')",
+   "tier": "",
+   "url": "https://news.skhynix.com/en/sk-hynix-fueling-innovation-through-digital-transformation/",
+   "raw_sector": "",
+   "date": "2020",
+   "fresh": "stale"
+  },
+  {
+   "company": "SK Hynix",
+   "use": "Gauss Labs Panoptes Virtual Metrology — AI predicts wafer process outcomes from process- and wafer-state data to enable virtual metrology, process control and yield optimization; deployed in SK Hynix fabs (SK Hynix listed as customer). [Gauss Labs (SK Hynix / SK Group industrial-AI subsidiary)]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.gausslabs.ai/",
+   "raw_sector": "",
+   "date": "2024",
+   "fresh": "aging"
+  },
+  {
+   "company": "SK Hynix",
+   "use": "Gauss Labs Panoptes Image Metrology — AI pipeline that analyzes metrology images to measure process outcomes with consistency/repeatability, reducing manual measurement work; deployed with SK Hynix (co-presented at SPIE AL 2024). [Gauss Labs (SK Hynix subsidiary)]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.asiae.co.kr/en/article/2024022910322485771",
+   "raw_sector": "",
+   "date": "2024",
+   "fresh": "aging"
+  },
+  {
+   "company": "SK Hynix",
+   "use": "Multi-year Nvidia partnership to use digital twins and 'autonomous fab' AI/physics tools (GPU-accelerated simulation) for semiconductor manufacturing operations. [Nvidia (autonomous fab tools)]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://finance.yahoo.com/technology/ai/articles/sk-hynix-kose-a000660-partners-020941397.html",
+   "raw_sector": "",
+   "date": "2026-06",
+   "fresh": "fresh"
+  },
+  {
+   "company": "SK Hynix",
+   "use": "AI-driven facility/utility operation optimization to reduce energy costs across fab infrastructure operations. [In-house]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://news.skhynix.com/en/the-past-present-and-future-of-data-science-organization-at-sk-hynix/",
+   "raw_sector": "",
+   "date": "2020",
+   "fresh": "stale"
+  },
+  {
+   "company": "SK Hynix",
+   "use": "Robotic Process Automation (RPA) / AI bots running continuously across manufacturing, R&D and purchasing divisions to eliminate repetitive manual back-office tasks. [In-house]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://news.skhynix.com/en/sk-hynix-fueling-innovation-through-digital-transformation/",
+   "raw_sector": "",
+   "date": "2020",
+   "fresh": "stale"
+  },
+  {
+   "company": "SK Hynix",
+   "use": "Adoption of external generative AI (including ChatGPT) as internal work/productivity tools for employees, framed as accelerating AI use for competitiveness (following Samsung Electronics). [OpenAI (ChatGPT) and other external AI models]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.asiae.co.kr/en/article/2026061207362777087",
+   "raw_sector": "",
+   "date": "2026-06",
+   "fresh": "fresh"
+  },
+  {
+   "company": "SK Hynix",
+   "use": "Internal AI/analytics platforms: DAY (Design Analytics Yourself) common analytics/model-development environment and AIP (AI Service Platform) for operating and managing deployed AI models at fab scale. Supports 300+ active AI projects. [In-house]",
+   "existence": "confirmed",
+   "value": "More than 300 projects underway across company-wide and seven Domain DS Teams (source-confirmed)",
+   "tier": "",
+   "url": "https://news.skhynix.com/en/the-past-present-and-future-of-data-science-organization-at-sk-hynix/",
+   "raw_sector": "",
+   "date": "2020",
+   "fresh": "stale"
   }
  ]
 }

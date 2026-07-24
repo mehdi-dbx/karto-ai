@@ -3,45 +3,60 @@
  "name": "Walmart",
  "cc": "US",
  "vertical": "Retail & E-commerce",
- "deployments": 1,
- "confirmed": 1,
- "with_value_number": 0,
- "proof_rate": 0.0,
+ "deployments": 14,
+ "confirmed": 14,
+ "with_value_number": 4,
+ "proof_rate": 0.286,
  "mktcap": 860270000000.0,
  "revenue": 725310000000.0,
  "employees": 2100000.0,
  "silent": false,
- "per_bn_revenue": 0.0,
- "per_10k_emp": 0.0,
+ "per_bn_revenue": 0.02,
+ "per_10k_emp": 0.07,
  "benchmarks": {
   "global_vertical": {
-   "deployments": 0,
-   "confirmed": 26,
-   "proof_rate": 0,
+   "deployments": 99,
+   "confirmed": 100,
+   "proof_rate": 65,
    "n": 295
   },
   "country_vertical": {
-   "deployments": 0,
-   "confirmed": 29,
-   "proof_rate": 0,
+   "deployments": 99,
+   "confirmed": 100,
+   "proof_rate": 72,
    "n": 80
   }
  },
- "first_seen": 2025,
+ "first_seen": 2020,
  "by_year": [
   {
-   "year": 2025,
+   "year": 2020,
    "n": 1
+  },
+  {
+   "year": 2023,
+   "n": 1
+  },
+  {
+   "year": 2024,
+   "n": 2
+  },
+  {
+   "year": 2025,
+   "n": 10
   }
  ],
  "undated_pct": 0,
- "momentum": "rising",
- "maturity": "L3",
+ "momentum": "early_mover,rising",
+ "maturity": "L4",
  "maturity_evidence": [
+  "multi_horizontal",
   "named_product:Sparky",
+  "value_number",
+  "multi_year",
   "tier_p"
  ],
- "prospect_score": 54,
+ "prospect_score": 97,
  "stack": [],
  "vendor_named": false,
  "deployments_detail": [
@@ -54,6 +69,149 @@
    "url": "https://corporate.walmart.com/news/2025/06/06/walmart-the-future-of-shopping-is-agentic-meet-sparky",
    "raw_sector": "Consumer Staples",
    "date": "2025",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Walmart",
+   "use": "My Assistant (MyAssistant), a generative AI creative/productivity partner for corporate (non-store) associates for tasks like drafting, summarizing documents and speeding up everyday work; rolled out to U.S. campus employees and expanded to 11 countries. [Microsoft Azure OpenAI + Walmart proprietary data]",
+   "existence": "confirmed",
+   "value": "rolled out to ~50,000 non-store U.S. employees",
+   "tier": "",
+   "url": "https://www.ciodive.com/news/Walmart-generative-AI-tool-My-Assistant/692385/",
+   "raw_sector": "",
+   "date": "2023-08",
+   "fresh": "stale"
+  },
+  {
+   "company": "Walmart",
+   "use": "Automated Defect Detection — a high-speed, AI-powered computer-vision inspection system used in Walmart distribution centers to inspect packaging and product quality, flagging issues like loose tape and crushed boxes.",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://corporate.walmart.com/news/2025/07/24/retail-rewired",
+   "raw_sector": "",
+   "date": "2025-07",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Walmart",
+   "use": "Route Optimization, an AI-driven logistics SaaS product from Walmart Commerce Technologies that optimizes driving routes, packs trailers efficiently and minimizes miles driven, offered to external businesses.",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://corporate.walmart.com/news/2024/03/14/walmart-commerce-technologies-launches-ai-powered-logistics-product",
+   "raw_sector": "",
+   "date": "2024-03",
+   "fresh": "aging"
+  },
+  {
+   "company": "Walmart",
+   "use": "Element, Walmart's cloud-agnostic, model-agnostic internal machine learning / generative AI development platform that lets teams build, deploy and scale AI apps and auto-select open models for cost/speed across Azure, Google Cloud and Walmart data centers. [Multi-cloud: Microsoft Azure OpenAI, Google Cloud, Walmart data centers]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://tech.walmart.com/content/walmart-global-tech/en_us/blog/post/walmarts-element-a-machine-learning-platform-like-no-other.html",
+   "raw_sector": "",
+   "date": "2024",
+   "fresh": "aging"
+  },
+  {
+   "company": "Walmart",
+   "use": "AI-powered coding assistants for software engineers, with broad rollout of tools like GitHub Copilot, JetBrains AI and Replit Ghostwriter, plus internal AI agents to automate developer tasks. [GitHub Copilot (Microsoft), JetBrains, Replit Ghostwriter]",
+   "existence": "confirmed",
+   "value": "more than 95% of Walmart engineers using AI coding assistant tools",
+   "tier": "",
+   "url": "https://www.wsj.com/articles/walmart-wants-more-developers-and-more-ai-agents-to-automate-their-work-e4afaa22",
+   "raw_sector": "",
+   "date": "2025-10",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Walmart",
+   "use": "Partnership with OpenAI to enable customers/members to shop Walmart inside ChatGPT via agentic commerce (Instant Checkout), later shifting to plugging the Sparky agent into ChatGPT. [OpenAI (ChatGPT, Instant Checkout / Agentic Commerce Protocol)]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://corporate.walmart.com/news/2025/10/14/walmart-partners-with-openai-to-create-ai-first-shopping-experiences",
+   "raw_sector": "",
+   "date": "2025-10",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Walmart",
+   "use": "Sparky, a customer-facing generative AI shopping assistant in the Walmart app that finds products, synthesizes/summarizes reviews, gives occasion-based recommendations, and helps plan and compare purchases; being extended into an agentic commerce agent. [Walmart Element platform; LLMs incl. Microsoft Azure OpenAI]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://corporate.walmart.com/news/2025/06/06/walmart-the-future-of-shopping-is-agentic-meet-sparky",
+   "raw_sector": "",
+   "date": "2025-06",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Walmart",
+   "use": "Wally, a generative AI assistant for Walmart merchants that performs data entry and analysis, diagnoses why products under- or over-perform, answers operational questions, and helps source products for shelves and the marketplace. [Built on Walmart proprietary data (Element platform)]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://corporate.walmart.com/news/2025/03/18/walmart-develops-genai-powered-assistant-for-walmart-merchants",
+   "raw_sector": "",
+   "date": "2025-03",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Walmart",
+   "use": "Generative AI (incl. the 'Ghotok' predictive+generative framework) to enrich and manage its massive product catalog — extracting attributes from text/images, filling missing attributes, and improving product titles/descriptions/categorization. [Large language models on Walmart Element]",
+   "existence": "confirmed",
+   "value": "improved/enriched over 850 million catalog data points; reported ~100x efficiency vs. manual",
+   "tier": "",
+   "url": "https://tech.walmart.com/content/walmart-global-tech/en_us/blog/post/using-llms-to-manage-product-catalogs.html",
+   "raw_sector": "",
+   "date": "2025-05",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Walmart",
+   "use": "Real-time AI across the global supply chain for demand forecasting/sensing, inventory placement and autonomous rerouting of stock and truck routes to reduce waste and out-of-stocks.",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://corporate.walmart.com/news/2025/07/17/walmarts-us-supply-chain-playbook-goes-global-and-its-reinventing-retail-at-scale",
+   "raw_sector": "",
+   "date": "2025-07",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Walmart",
+   "use": "Ask Sam, an in-store voice assistant in the Me@Walmart associate app that lets store associates look up prices, find products, access store maps, view sales information and check email hands-free.",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://corporate.walmart.com/news/2020/07/29/helping-associates-succeed-at-work-while-elevating-customer-service-safety",
+   "raw_sector": "",
+   "date": "2020-07",
+   "fresh": "stale"
+  },
+  {
+   "company": "Walmart",
+   "use": "Converse, Walmart's in-house conversational AI platform powering customer care chatbots/assistants that resolve queries for customers, associates and sellers.",
+   "existence": "confirmed",
+   "value": "AI cut customer support resolution times up to 40% (reported at super-agent launch)",
+   "tier": "",
+   "url": "https://medium.com/walmartglobaltech/ai-for-customer-care-building-smart-conversational-assistants-f0f527169bbb",
+   "raw_sector": "",
+   "date": "2025",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Walmart",
+   "use": "AI-driven, real-time monitoring of marketplace product listings to detect fraudulent/counterfeit sellers and IP-infringing or non-compliant listings before a sale occurs.",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.retaildive.com/news/walmart-marketplace-ai-fraudulent-seller-counterfeit-detection/753936/",
+   "raw_sector": "",
+   "date": "2025-07",
    "fresh": "fresh"
   }
  ]

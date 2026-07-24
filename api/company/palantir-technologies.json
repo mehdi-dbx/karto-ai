@@ -3,45 +3,59 @@
  "name": "Palantir Technologies",
  "cc": "US",
  "vertical": "Technology",
- "deployments": 1,
- "confirmed": 1,
- "with_value_number": 1,
- "proof_rate": 1.0,
+ "deployments": 11,
+ "confirmed": 10,
+ "with_value_number": 5,
+ "proof_rate": 0.455,
  "mktcap": 292950000000.0,
  "revenue": 5220000000.0,
  "employees": 4429.0,
  "silent": false,
- "per_bn_revenue": 0.19,
- "per_10k_emp": 2.26,
+ "per_bn_revenue": 2.11,
+ "per_10k_emp": 24.84,
  "benchmarks": {
   "global_vertical": {
-   "deployments": 0,
-   "confirmed": 6,
-   "proof_rate": 72,
+   "deployments": 92,
+   "confirmed": 95,
+   "proof_rate": 70,
    "n": 156
   },
   "country_vertical": {
-   "deployments": 0,
-   "confirmed": 4,
-   "proof_rate": 82,
+   "deployments": 92,
+   "confirmed": 93,
+   "proof_rate": 85,
    "n": 74
   }
  },
- "first_seen": 2025,
+ "first_seen": 2023,
  "by_year": [
   {
+   "year": 2023,
+   "n": 2
+  },
+  {
+   "year": 2024,
+   "n": 4
+  },
+  {
    "year": 2025,
+   "n": 4
+  },
+  {
+   "year": 2026,
    "n": 1
   }
  ],
  "undated_pct": 0,
- "momentum": "early_mover,rising",
- "maturity": "L3",
+ "momentum": "early_mover,cooling",
+ "maturity": "L4",
  "maturity_evidence": [
+  "multi_horizontal",
   "named_product:AIP",
-  "value_number"
+  "value_number",
+  "multi_year"
  ],
- "prospect_score": 14,
+ "prospect_score": 90,
  "stack": [],
  "vendor_named": false,
  "deployments_detail": [
@@ -54,6 +68,116 @@
    "url": "https://investors.palantir.com/files/2025%20FY%20PLTR%2010-K.pdf",
    "raw_sector": "Information Technology",
    "date": "2025",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Palantir Technologies",
+   "use": "Option Care Health selected Palantir AIP to automate nurse scheduling, patient onboarding, purchasing optimization and supply-chain management across its home/alternate-site infusion operations. [Palantir AIP]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://investors.optioncarehealth.com/news-releases/news-release-details/option-care-health-selects-palantirs-artificial-intelligence",
+   "raw_sector": "",
+   "date": "2024-01",
+   "fresh": "aging"
+  },
+  {
+   "company": "Palantir Technologies",
+   "use": "AIG rebuilt its Excess & Surplus (E&S) commercial underwriting on Palantir Foundry/AIP with generative-AI 'logic agents' (using Anthropic Claude for data extraction), enabling underwriters to review 100% of incoming private/non-profit financial-lines submissions without adding staff and cutting parts of the underwriting cycle from about one month to one day. [Palantir AIP / Foundry + Anthropic Claude]",
+   "existence": "confirmed",
+   "value": "Reviews 100% of private/non-profit financial-lines submissions without adding underwriters; parts of underwriting cut from ~1 month to 1 day; targeting 500,000+ E&S submissions and $4B new premium by 2030",
+   "tier": "",
+   "url": "https://www.carriermanagement.com/features/2025/04/28/274588.htm",
+   "raw_sector": "",
+   "date": "2025-04",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Palantir Technologies",
+   "use": "Maven Smart System: AI/ML-powered battlespace-awareness platform integrated with Palantir AIP that analyzes drone footage, satellite imagery and intelligence to detect threats, track targets and support joint fires and targeting for the U.S. military; expanded across military services and slated to become an official program of record. [Palantir AIP / Maven Smart System]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://investors.palantir.com/news-details/2024/Palantir-Expands-Maven-Smart-System-AIML-Capabilities-to-Military-Services/",
+   "raw_sector": "",
+   "date": "2024-09",
+   "fresh": "aging"
+  },
+  {
+   "company": "Palantir Technologies",
+   "use": "NHS Federated Data Platform: Palantir Foundry/AIP-based platform connecting disparate NHS hospital-trust data, with AI tools being deployed for theatre/operating-room scheduling, patient triage and discharge planning across NHS England. [Palantir Foundry / AIP]",
+   "existence": "confirmed",
+   "value": "£330m contract",
+   "tier": "",
+   "url": "https://www.digitalhealth.net/2026/04/fdp-to-ramp-up-ai-use-with-scheduling-triage-and-discharge-tools/",
+   "raw_sector": "",
+   "date": "2023-11",
+   "fresh": "stale"
+  },
+  {
+   "company": "Palantir Technologies",
+   "use": "Cleveland Clinic Virtual Command Center: Palantir Foundry-based system using machine learning and AI to forecast patient admissions/discharges/transfers, predict patient supply and demand, and drive proactive, capacity-informed nurse staffing and scheduling across hospitals. [Palantir Foundry]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.prnewswire.com/news-releases/cleveland-clinic-and-palantir-technologies-partner-to-improve-hospital-performance-through-virtual-command-center-301725481.html",
+   "raw_sector": "",
+   "date": "2023-01",
+   "fresh": "stale"
+  },
+  {
+   "company": "Palantir Technologies",
+   "use": "Tampa General Hospital selected Palantir AIP as the core analytics/AI platform to power connected care-coordination workflows (patient flow, staffing, discharge and transfer management) across the health system. [Palantir AIP]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.palantir.com/offerings/palantir-for-hospitals/",
+   "raw_sector": "",
+   "date": "2024-06",
+   "fresh": "aging"
+  },
+  {
+   "company": "Palantir Technologies",
+   "use": "Warp Speed manufacturing OS: AI-native, Ontology-based manufacturing operating system deployed by industrial customers (e.g., Ursa Major for rocket propulsion production, L3Harris for defense factory production) to unify PLM/ERP/MES/CRM data and automate production planning and MRP. [Palantir Warp Speed / AIP]",
+   "existence": "confirmed",
+   "value": "Ursa Major projects 10,000-15,000 engineering hours saved annually",
+   "tier": "",
+   "url": "https://ursamajor.com/media/blog/how-ursa-major-and-palantir-are-solving-manufacturing-challenges-at-hypersonic-speeds/",
+   "raw_sector": "",
+   "date": "2025-03",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Palantir Technologies",
+   "use": "Anthropic Claude models made available inside Palantir AIP on AWS (via Bedrock) in accredited/classified environments for U.S. government intelligence and defense operations, enabling secure LLM-powered data analysis and decision-making. [Palantir AIP + Anthropic Claude + AWS Bedrock]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://investors.palantir.com/news-details/2024/Anthropic-and-Palantir-Partner-to-Bring-Claude-AI-Models-to-AWS-for-U.S.-Government-Intelligence-and-Defense-Operations/",
+   "raw_sector": "",
+   "date": "2024-11",
+   "fresh": "aging"
+  },
+  {
+   "company": "Palantir Technologies",
+   "use": "ImmigrationOS: AI-enabled platform built for U.S. Immigration and Customs Enforcement (ICE) to track immigrants' records and movements and prioritize enforcement, under a $30M contract; also used to triage and sort incoming tips (documented in the 2025 DHS AI Use Case Inventory). [Palantir (ImmigrationOS)]",
+   "existence": "confirmed",
+   "value": "$30M contract value",
+   "tier": "",
+   "url": "https://www.wired.com/story/ice-is-using-palantirs-ai-tools-to-sort-through-tips/",
+   "raw_sector": "",
+   "date": "2025",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Palantir Technologies",
+   "use": "U.S. Small Business Administration (SBA) expanded use of Palantir software to accelerate its pandemic-fraud crackdown, strengthening SBA's AI-driven fraud analysis and enforcement on COVID-relief programs. [Palantir Foundry]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.sba.gov/article/2026/07/14/sba-expands-use-palantir-software-accelerate-pandemic-fraud-crackdown",
+   "raw_sector": "",
+   "date": "2026-07",
    "fresh": "fresh"
   }
  ]

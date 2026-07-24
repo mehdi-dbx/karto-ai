@@ -3,45 +3,55 @@
  "name": "Microsoft",
  "cc": "US",
  "vertical": "Technology",
- "deployments": 1,
- "confirmed": 1,
- "with_value_number": 1,
- "proof_rate": 1.0,
+ "deployments": 9,
+ "confirmed": 9,
+ "with_value_number": 5,
+ "proof_rate": 0.556,
  "mktcap": 2840000000000.0,
  "revenue": 318270000000.0,
  "employees": 228000.0,
  "silent": false,
- "per_bn_revenue": 0.0,
- "per_10k_emp": 0.04,
+ "per_bn_revenue": 0.03,
+ "per_10k_emp": 0.39,
  "benchmarks": {
   "global_vertical": {
-   "deployments": 0,
-   "confirmed": 6,
-   "proof_rate": 72,
+   "deployments": 83,
+   "confirmed": 91,
+   "proof_rate": 77,
    "n": 156
   },
   "country_vertical": {
-   "deployments": 0,
-   "confirmed": 4,
-   "proof_rate": 82,
+   "deployments": 74,
+   "confirmed": 88,
+   "proof_rate": 88,
    "n": 74
   }
  },
- "first_seen": 2026,
+ "first_seen": 2024,
  "by_year": [
   {
+   "year": 2024,
+   "n": 2
+  },
+  {
+   "year": 2025,
+   "n": 3
+  },
+  {
    "year": 2026,
-   "n": 1
+   "n": 4
   }
  ],
  "undated_pct": 0,
- "momentum": "late_entrant,rising",
- "maturity": "L3",
+ "momentum": "early_mover,rising",
+ "maturity": "L4",
  "maturity_evidence": [
+  "multi_horizontal",
   "named_product:Microsoft",
-  "value_number"
+  "value_number",
+  "multi_year"
  ],
- "prospect_score": 6,
+ "prospect_score": 72,
  "stack": [
   "Microsoft",
   "Microsoft Azure",
@@ -58,6 +68,94 @@
    "url": "https://news.microsoft.com/source/2026/01/28/microsoft-cloud-and-ai-strength-drives-second-quarter-results-3/",
    "raw_sector": "Information Technology",
    "date": "2026",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Microsoft",
+   "use": "Microsoft 365 Copilot deployed to its entire global workforce (employees and vendors) for drafting, summarization, meeting recap and cross-app reasoning in Outlook, Teams, Word and Excel — Microsoft describes itself as the first enterprise to deploy Copilot at global scale. [Microsoft 365 Copilot (Azure OpenAI / GPT)]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.microsoft.com/insidetrack/blog/the-future-of-work-is-here-transforming-our-employee-experience-with-ai/",
+   "raw_sector": "",
+   "date": "2024-03",
+   "fresh": "aging"
+  },
+  {
+   "company": "Microsoft",
+   "use": "AI-agent-assisted cash collection system for Microsoft's Global Collection / Treasury team — payment prediction, dispute flagging, case summarization, email routing and automatic payment-to-invoice matching, built on SAP + Dynamics 365 with Copilot Studio. [Microsoft Copilot Studio; Dynamics 365; SAP]",
+   "existence": "confirmed",
+   "value": "40% reduction in call prep time; 90% payment matching accuracy (up from 40%); 60% reduction in inquiry handling time; hundreds of thousands of hours saved annually",
+   "tier": "",
+   "url": "https://www.microsoft.com/insidetrack/blog/streamlining-finance-cash-collection-at-microsoft-with-ai/",
+   "raw_sector": "",
+   "date": "2026-06",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Microsoft",
+   "use": "AI coding tools adopted as standard engineering practice internally — GitHub Copilot plus Anthropic's Claude Code used across teams for drafting functions, early design exploration and routine coding, with engineers shifting time from writing to reviewing code. [GitHub Copilot (OpenAI); Anthropic Claude Code]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.developer-tech.com/news/microsoft-engineers-treat-ai-coding-tools-as-standard-practice/",
+   "raw_sector": "",
+   "date": "2026-01",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Microsoft",
+   "use": "Microsoft 365 Copilot for Sales rolled out to Microsoft's own seller teams (piloted in SMC, then enterprise-wide) to draft emails, summarize CRM records and prep meetings within the seller workflow. [Microsoft 365 Copilot for Sales; Dynamics 365]",
+   "existence": "confirmed",
+   "value": "Revenue per seller up 9.4%; opportunities per seller up 5%; individual win rates up 20%",
+   "tier": "",
+   "url": "https://www.microsoft.com/insidetrack/blog/closing-the-deal-with-microsoft-365-copilot-for-sales-at-microsoft/",
+   "raw_sector": "",
+   "date": "2025-08",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Microsoft",
+   "use": "Copilot deployed inside Microsoft's own Customer Service & Support (CSS) organization to help agents summarize cases, draft responses and resolve issues faster. [Microsoft Copilot for Service / Dynamics 365]",
+   "existence": "confirmed",
+   "value": "31% increase in first call resolution",
+   "tier": "",
+   "url": "https://news.microsoft.com/wp-content/uploads/prod/sites/658/2024/05/How-Microsoft-is-reinventing-Customer-Service-and-Support-with-Microsoft-Copilot.pdf",
+   "raw_sector": "",
+   "date": "2024-05",
+   "fresh": "aging"
+  },
+  {
+   "company": "Microsoft",
+   "use": "Employee Self-Service Agent deployed internally to give employees a single conversational front door for HR, IT and facilities tasks (leave management, device replacement, benefits, visitor registration), built on Copilot Studio. [Microsoft Copilot Studio / Microsoft 365 Copilot]",
+   "existence": "confirmed",
+   "value": "Employees 36% more likely to self-solve IT issues and 42% more likely to self-answer HR questions",
+   "tier": "",
+   "url": "https://www.microsoft.com/insidetrack/blog/accelerating-employee-services-at-microsoft-with-the-employee-self-service-agent/",
+   "raw_sector": "",
+   "date": "2025-11",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Microsoft",
+   "use": "Microsoft Security Copilot with AI agents deployed across Microsoft Defender, Entra, Intune and Purview to triage alerts, investigate threats and accelerate incident response. [Microsoft Security Copilot (Azure OpenAI)]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://learn.microsoft.com/en-us/defender-xdr/security-copilot-agents-defender",
+   "raw_sector": "",
+   "date": "2025-03",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Microsoft",
+   "use": "Internal governance and management of AI agents using Agent 365 and the Copilot Control System to register, secure and monitor Copilot and autonomous agents deployed across Microsoft. [Microsoft Agent 365 / Copilot Control System]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.microsoft.com/insidetrack/blog/shaping-ai-management-at-microsoft-with-agent-365-and-copilot-controls/",
+   "raw_sector": "",
+   "date": "2026-03",
    "fresh": "fresh"
   }
  ]

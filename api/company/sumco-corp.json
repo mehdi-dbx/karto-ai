@@ -3,27 +3,27 @@
  "name": "SUMCO Corp.",
  "cc": "JP",
  "vertical": "Chemicals & Materials",
- "deployments": 1,
- "confirmed": 1,
- "with_value_number": 0,
- "proof_rate": 0.0,
+ "deployments": 9,
+ "confirmed": 7,
+ "with_value_number": 4,
+ "proof_rate": 0.444,
  "mktcap": 8800000000.0,
  "revenue": 2724000000.0,
  "employees": 9714.0,
  "silent": false,
- "per_bn_revenue": 0.37,
- "per_10k_emp": 1.03,
+ "per_bn_revenue": 3.3,
+ "per_10k_emp": 9.26,
  "benchmarks": {
   "global_vertical": {
-   "deployments": 0,
-   "confirmed": 20,
-   "proof_rate": 0,
+   "deployments": 92,
+   "confirmed": 92,
+   "proof_rate": 66,
    "n": 105
   },
   "country_vertical": {
-   "deployments": 0,
-   "confirmed": 15,
-   "proof_rate": 0,
+   "deployments": 85,
+   "confirmed": 85,
+   "proof_rate": 41,
    "n": 35
   }
  },
@@ -31,17 +31,36 @@
  "by_year": [
   {
    "year": 2018,
+   "n": 2
+  },
+  {
+   "year": 2022,
+   "n": 1
+  },
+  {
+   "year": 2023,
+   "n": 2
+  },
+  {
+   "year": 2024,
+   "n": 3
+  },
+  {
+   "year": 2025,
    "n": 1
   }
  ],
  "undated_pct": 0,
- "momentum": "early_mover,gone_quiet",
- "maturity": "L3",
+ "momentum": "early_mover,cooling",
+ "maturity": "L4",
  "maturity_evidence": [
+  "multi_horizontal",
   "named_product:Promotion",
+  "value_number",
+  "multi_year",
   "tier_p"
  ],
- "prospect_score": 54,
+ "prospect_score": 72,
  "stack": [],
  "vendor_named": false,
  "deployments_detail": [
@@ -55,6 +74,94 @@
    "raw_sector": "Nonferrous Metals",
    "date": "2018",
    "fresh": "stale"
+  },
+  {
+   "company": "SUMCO Corp.",
+   "use": "RTM (Real-Time Monitoring) AI judgment system that automates good/defective quality classification of high-precision wafers, replacing manual visual inspection by skilled engineers. Managed by SUMCO's AI Promotion Division (AI推進本部, set up 2018, ~300 staff). [In-house (AI推進本部)]",
+   "existence": "confirmed",
+   "value": "Engineer work-time reduction of 2,500+ hours/year",
+   "tier": "",
+   "url": "https://www.sumcosi.com/csr/governance/dx.html",
+   "raw_sector": "",
+   "date": "2018",
+   "fresh": "stale"
+  },
+  {
+   "company": "SUMCO Corp.",
+   "use": "AI-driven wafer defect root-cause analysis and yield improvement: AI not only automates good/bad judgment but analyzes causes of defects from factory operating data to speed up quality improvement and production ramp. Part of a major multi-year AI/technology investment.",
+   "existence": "claimed",
+   "value": "Several hundred billion yen invested over 4-5 years (AI and related tech)",
+   "tier": "",
+   "url": "https://www.nikkei.com/article/DGXZQOUC091B00Z00C24A3000000/",
+   "raw_sector": "",
+   "date": "2024",
+   "fresh": "aging"
+  },
+  {
+   "company": "SUMCO Corp.",
+   "use": "Big-data analytics platform aggregating quality and process information for stage-by-stage production monitoring, real-time analysis and forecasting to strengthen commodity-segment competitiveness and accelerate advanced product development. [In-house]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.sumcosi.com/english/pdf/csr/csr_rep25en.pdf",
+   "raw_sector": "",
+   "date": "2025",
+   "fresh": "fresh"
+  },
+  {
+   "company": "SUMCO Corp.",
+   "use": "DX Tools suite (BI tools, RPA robotic process automation, workflow systems) deployed across factories and indirect/back-office departments for business-process efficiency.",
+   "existence": "confirmed",
+   "value": "Approximately 163,000+ hours/year of business efficiency",
+   "tier": "",
+   "url": "https://www.sumcosi.com/csr/governance/dx.html",
+   "raw_sector": "",
+   "date": "2024",
+   "fresh": "aging"
+  },
+  {
+   "company": "SUMCO Corp.",
+   "use": "In-house 'factory dashboard' with real-time equipment monitoring/visualization, quantitative bottleneck identification and second-level timing analysis to reduce equipment variance and boost throughput on the flagship 300mm line (integrated with AGVs/cobots). [In-house (AI推進本部)]",
+   "existence": "confirmed",
+   "value": "10%+ productivity improvement, ~3 billion yen investment-suppression effect, ~4 billion yen/year profit creation on 300mm facility",
+   "tier": "",
+   "url": "https://news.careerconnection.jp/dx/het3skvm0ei/",
+   "raw_sector": "",
+   "date": "2022",
+   "fresh": "stale"
+  },
+  {
+   "company": "SUMCO Corp.",
+   "use": "Autonomous mobile transport robots plus an integrated management system (stocker-to-stocker transport) introduced at SUMCO's Kyushu plant for factory logistics automation, integrated with production equipment. [CI Robotics]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.cirobotics.jp/202311091500571616/",
+   "raw_sector": "",
+   "date": "2023-11",
+   "fresh": "stale"
+  },
+  {
+   "company": "SUMCO Corp.",
+   "use": "Partnership with Shiga University's Data Science faculty on AI/data-science application: joint data analysis of real manufacturing-site data, monthly academic guidance using SUMCO's accumulated data, and data-science human-resource development. [Shiga University (Data Science)]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.shiga-u.ac.jp/14813/",
+   "raw_sector": "",
+   "date": "2023-06",
+   "fresh": "stale"
+  },
+  {
+   "company": "SUMCO Corp.",
+   "use": "Comprehensive industry-academia-government collaboration with Saga University and AIST (産総研) applying AI to silicon-wafer manufacturing, notably anomaly detection of wafer manufacturing equipment and measurement-technology consulting, plus big/open data utilization. [Saga University; AIST (産総研)]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.saga-u.ac.jp/koho/press/2024091034398",
+   "raw_sector": "",
+   "date": "2024-09",
+   "fresh": "aging"
   }
  ]
 }

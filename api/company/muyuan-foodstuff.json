@@ -3,40 +3,55 @@
  "name": "Muyuan Foodstuff",
  "cc": "CN",
  "vertical": "Retail & E-commerce",
- "deployments": 1,
- "confirmed": 1,
- "with_value_number": 1,
- "proof_rate": 1.0,
+ "deployments": 9,
+ "confirmed": 8,
+ "with_value_number": 5,
+ "proof_rate": 0.556,
  "mktcap": 30979166667.0,
  "revenue": 19163888889.0,
  "employees": 127550.0,
  "silent": false,
- "per_bn_revenue": 0.05,
- "per_10k_emp": 0.08,
+ "per_bn_revenue": 0.47,
+ "per_10k_emp": 0.71,
  "benchmarks": {
   "global_vertical": {
-   "deployments": 0,
-   "confirmed": 26,
-   "proof_rate": 73,
+   "deployments": 92,
+   "confirmed": 93,
+   "proof_rate": 75,
    "n": 295
   },
   "country_vertical": {
-   "deployments": 0,
-   "confirmed": 17,
+   "deployments": 100,
+   "confirmed": 100,
    "proof_rate": 61,
    "n": 19
   }
  },
- "first_seen": null,
- "by_year": [],
- "undated_pct": 100,
- "momentum": "none",
- "maturity": "L3",
- "maturity_evidence": [
-  "named_product:IoT",
-  "value_number"
+ "first_seen": 2024,
+ "by_year": [
+  {
+   "year": 2024,
+   "n": 2
+  },
+  {
+   "year": 2025,
+   "n": 1
+  },
+  {
+   "year": 2026,
+   "n": 3
+  }
  ],
- "prospect_score": 14,
+ "undated_pct": 33,
+ "momentum": "early_mover,rising",
+ "maturity": "L4",
+ "maturity_evidence": [
+  "multi_horizontal",
+  "named_product:IoT",
+  "value_number",
+  "multi_year"
+ ],
+ "prospect_score": 74,
  "stack": [],
  "vendor_named": false,
  "deployments_detail": [
@@ -50,6 +65,94 @@
    "raw_sector": "Consumer Staples",
    "date": "missing",
    "fresh": "undated"
+  },
+  {
+   "company": "Muyuan Foodstuff",
+   "use": "Muyuan AI Xiaomu (牧原AI小牧), an AI agent built on Alibaba Cloud's Qianwen (Tongyi Qianwen) large language model. Farm workers upload a short video or a recording of a pig coughing and the agent returns a disease diagnosis and medication recommendation in ~1 second (vs. a prior half-day wait for a vet). It also produces farm/batch operational-performance reports and answers internal knowledge questions. Trained by five senior veterinarians correcting its outputs over months. [Alibaba Cloud (Qianwen / Tongyi large model)]",
+   "existence": "confirmed",
+   "value": "Deployed across 1,000+ farms with ~23,000 daily calls; raised pig survival rate by 1.5%; +19.6 yuan additional profit per pig; extended one vet's coverage from 100,000 to 300,000 pigs",
+   "tier": "",
+   "url": "https://finance.biggo.com/news/mhxxh54BoicNoOgCWIJ8",
+   "raw_sector": "",
+   "date": "2026-06",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Muyuan Foodstuff",
+   "use": "Strategic partnership with Alibaba Cloud (signed 1 June 2026) to jointly co-develop a full-scale 'pig farming industry large model' (养猪大模型) — a data-driven 'digital brain' spanning breeding, disease control and environmental management, intended to eventually be opened/shared with the wider industry as a universal farming assistant. [Alibaba Cloud (Qianwen large model)]",
+   "existence": "claimed",
+   "value": "Muyuan plans ~10 billion yuan over a decade in AI R&D, targeting ~600 yuan per-head cost reduction",
+   "tier": "",
+   "url": "https://www.inewsweek.cn/observe/2026-06-02/30439.shtml",
+   "raw_sector": "",
+   "date": "2026-06",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Muyuan Foodstuff",
+   "use": "Self-developed intelligent environmental-control system with four-layer air-inlet filtration maintaining ICU-grade air quality in the multi-story Neixiang complex barns to prevent disease transmission, automatically regulating ventilation and climate for each pen. [Muyuan (self-developed)]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.chinadaily.com.cn/a/202412/31/WS6773a67aa310f1265a1d8544_2.html",
+   "raw_sector": "",
+   "date": "2024-12",
+   "fresh": "aging"
+  },
+  {
+   "company": "Muyuan Foodstuff",
+   "use": "Self-developed intelligent/precision feeding systems that automatically adjust feed formula and quantity by pig age and weight along the feed lines, part of the fully automated production chain at the Neixiang smart-farm complex. [Muyuan (self-developed)]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.chinadaily.com.cn/a/202412/31/WS6773a67aa310f1265a1d8544_2.html",
+   "raw_sector": "",
+   "date": "2024-12",
+   "fresh": "aging"
+  },
+  {
+   "company": "Muyuan Foodstuff",
+   "use": "Self-developed intelligent inspection/patrol robots that autonomously navigate the multi-story pig houses 24/7 to monitor pig health and farm conditions, replacing manual inspection rounds and enabling very high worker-to-pig ratios. [Muyuan (self-developed)]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.agripost.cn/2026/03/28/muyuan-chairman-pig-farming-may-be-traditional-but-remains-a-sector-worth-long-term-commitment/",
+   "raw_sector": "",
+   "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "Muyuan Foodstuff",
+   "use": "Large-scale IoT / big-data platform (a farming 'digital brain') connecting the full supply chain of intelligent devices — environmental control, feeding, inspection and cleaning equipment — feeding data analytics that underpin Muyuan's AI systems. [Alibaba Cloud IoT]",
+   "existence": "confirmed",
+   "value": "3.33 million intelligent equipment units across the supply chain generating ~2 billion data points per day",
+   "tier": "",
+   "url": "https://www.inewsweek.cn/observe/2026-06-02/30439.shtml",
+   "raw_sector": "",
+   "date": "2026-06",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Muyuan Foodstuff",
+   "use": "'Smart Muyuan' (智慧牧原) digital employee/collaboration platform built on Alibaba DingTalk, unifying communication, ERP integration and multi-device workflow for the company's large workforce across all farm sites. [Alibaba DingTalk]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.ding.cn/technology/36082.html",
+   "raw_sector": "",
+   "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "Muyuan Foodstuff",
+   "use": "AI 'pig doctor' cough/voiceprint disease-detection system: microphones and sensors installed in pig houses collect cough sounds (and images) to perform preliminary automated diagnosis of respiratory diseases such as pneumonia and blue-ear disease, flagging sick pigs early.",
+   "existence": "confirmed",
+   "value": "Diagnostic accuracy reported at 93%+",
+   "tier": "",
+   "url": "http://epaper.nfncb.cn/nfnc/content/20250821/Articel07004JQ.htm",
+   "raw_sector": "",
+   "date": "2025-08",
+   "fresh": "fresh"
   }
  ]
 }

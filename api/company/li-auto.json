@@ -3,21 +3,21 @@
  "name": "Li Auto",
  "cc": "HK",
  "vertical": "Automotive",
- "deployments": 2,
- "confirmed": 2,
- "with_value_number": 1,
- "proof_rate": 0.5,
+ "deployments": 11,
+ "confirmed": 10,
+ "with_value_number": 5,
+ "proof_rate": 0.455,
  "mktcap": 12028205128.0,
  "revenue": 15938461538.0,
  "employees": 30728.0,
  "silent": false,
- "per_bn_revenue": 0.13,
- "per_10k_emp": 0.65,
+ "per_bn_revenue": 0.69,
+ "per_10k_emp": 3.58,
  "benchmarks": {
   "global_vertical": {
-   "deployments": 67,
-   "confirmed": 79,
-   "proof_rate": 64,
+   "deployments": 90,
+   "confirmed": 95,
+   "proof_rate": 69,
    "n": 40
   }
  },
@@ -25,23 +25,28 @@
  "by_year": [
   {
    "year": 2024,
-   "n": 1
+   "n": 4
   },
   {
    "year": 2025,
+   "n": 6
+  },
+  {
+   "year": 2026,
    "n": 1
   }
  ],
  "undated_pct": 0,
- "momentum": "early_mover,flat",
+ "momentum": "early_mover,rising",
  "maturity": "L4",
  "maturity_evidence": [
+  "multi_horizontal",
   "named_product:MindGPT",
   "value_number",
   "multi_year",
   "tier_p"
  ],
- "prospect_score": 32,
+ "prospect_score": 82,
  "stack": [],
  "vendor_named": true,
  "deployments_detail": [
@@ -66,6 +71,105 @@
    "raw_sector": "Automotive",
    "date": "2025",
    "fresh": "fresh"
+  },
+  {
+   "company": "Li Auto",
+   "use": "Mind GPT (MindGPT-3o), Li Auto's self-developed multimodal cognitive foundation model, trained on ~3 trillion tokens and shipped via OTA 7.0 to power in-vehicle intelligence; later iterated to MindGPT 3.1 agent model. [Li Auto (self-developed Mind GPT)]",
+   "existence": "confirmed",
+   "value": "500,000+ vehicles equipped, 120 million daily interaction requests, 98.7% task accuracy",
+   "tier": "",
+   "url": "https://finance.yahoo.com/news/li-auto-layout-electrification-connectivity-094900472.html",
+   "raw_sector": "",
+   "date": "2025-01",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Li Auto",
+   "use": "Assisted/autonomous driving system using an end-to-end + Vision-Language-Model (VLM) dual-system architecture (AD Max, 'OneModel'), evolving to the MindVLA Vision-Language-Action architecture for urban/highway NOA and spot-to-spot driving. [Li Auto (self-developed); early DriveVLM work on Alibaba Qwen-VL]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://autonews.gasgoo.com/articles/news/li-auto-unveils-next-gen-autonomous-driving-architecture-mindvla-70036319",
+   "raw_sector": "",
+   "date": "2025",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Li Auto",
+   "use": "Autonomous-driving compute platform running Li Auto's AD models on dual NVIDIA DRIVE Orin SoCs (508 TOPS combined), upgrading to NVIDIA DRIVE Thor for next-generation VLA-capable driving. [NVIDIA DRIVE Orin / DRIVE Thor]",
+   "existence": "confirmed",
+   "value": "508 TOPS combined (dual Orin); Thor-U up to 730 TOPS single-chip",
+   "tier": "",
+   "url": "https://www.nvidia.com/en-us/solutions/autonomous-vehicles/partners/li-auto/",
+   "raw_sector": "",
+   "date": "2024",
+   "fresh": "aging"
+  },
+  {
+   "company": "Li Auto",
+   "use": "AI supercomputing infrastructure for training and serving Li Auto's foundation and driving models: a large GPU cluster split across training and inference workloads. [NVIDIA GPUs]",
+   "existence": "confirmed",
+   "value": "13 EFLOPS total (10 EFLOPS training, 3 EFLOPS inference), ~50,000 GPUs",
+   "tier": "",
+   "url": "https://x.com/jiqizhixin/status/1950178397839380529",
+   "raw_sector": "",
+   "date": "2025",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Li Auto",
+   "use": "Embodied-intelligence / humanoid robotics program under the Livis system, developing wheeled and bipedal humanoid robots that reuse Li Auto's autonomous-driving and world-model AI stack. [Li Auto (Livis embodied AI)]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://autonews.gasgoo.com/articles/news/li-xiang-ai-and-embodied-intelligence-are-not-a-diversion-for-li-auto-2065696772075405313",
+   "raw_sector": "",
+   "date": "2026",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Li Auto",
+   "use": "Li Xiang Tongxue in-cabin AI voice assistant/agent that answers natural-language questions and autonomously plans and executes tasks (navigation, reservations, parking, tool use), powered by MindGPT. [Li Auto (MindGPT multimodal model)]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://omdia.tech.informa.com/om139292/ai-copilots-voice-assistants-redefine-the-automotive-experience",
+   "raw_sector": "",
+   "date": "2025",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Li Auto",
+   "use": "Integration of DeepSeek R1 & V3 (671B full-power version) into the Li Xiang Tong Xue assistant app to enhance reasoning and Q&A capabilities. [DeepSeek (R1 & V3 671B)]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://news.metal.com/newscontent/103185753-li-auto-integrates-deepseek-r1-model-into-li-xiang-tong-xue-smart-assistant",
+   "raw_sector": "",
+   "date": "2025-02",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Li Auto",
+   "use": "o9 Solutions 'Digital Brain' platform with Enterprise Knowledge Graph and AI for sales & operations planning (S&OP) and supply-chain master planning to run scenario simulations for its direct-to-consumer EV model. [o9 Solutions]",
+   "existence": "confirmed",
+   "value": "S&OP capability went live 3 months after project kickoff",
+   "tier": "",
+   "url": "https://o9solutions.com/news/o9-partners-with-li-auto-to-enhance-its-end-to-end-planning-capabilities",
+   "raw_sector": "",
+   "date": "2024-09",
+   "fresh": "aging"
+  },
+  {
+   "company": "Li Auto",
+   "use": "Li-MOS (Li Auto smart Manufacturing Operating System), a self-developed system that controls and coordinates the smart factory production line at the Beijing manufacturing base. [Li Auto (self-developed Li-MOS)]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.youtube.com/watch?v=aUD6A223-AA",
+   "raw_sector": "",
+   "date": "2024",
+   "fresh": "aging"
   }
  ]
 }

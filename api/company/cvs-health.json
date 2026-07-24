@@ -3,40 +3,52 @@
  "name": "CVS Health",
  "cc": "US",
  "vertical": "Healthcare & Life Sciences",
- "deployments": 1,
- "confirmed": 1,
- "with_value_number": 0,
- "proof_rate": 0.0,
+ "deployments": 6,
+ "confirmed": 4,
+ "with_value_number": 1,
+ "proof_rate": 0.167,
  "mktcap": 135890000000.0,
  "revenue": 405620000000.0,
  "employees": 300000.0,
  "silent": false,
- "per_bn_revenue": 0.0,
- "per_10k_emp": 0.03,
+ "per_bn_revenue": 0.01,
+ "per_10k_emp": 0.2,
  "benchmarks": {
   "global_vertical": {
-   "deployments": 0,
-   "confirmed": 14,
-   "proof_rate": 0,
+   "deployments": 89,
+   "confirmed": 89,
+   "proof_rate": 67,
    "n": 165
   },
   "country_vertical": {
-   "deployments": 0,
-   "confirmed": 7,
-   "proof_rate": 0,
+   "deployments": 76,
+   "confirmed": 76,
+   "proof_rate": 67,
    "n": 59
   }
  },
- "first_seen": null,
- "by_year": [],
- "undated_pct": 100,
- "momentum": "none",
- "maturity": "L3",
+ "first_seen": 2025,
+ "by_year": [
+  {
+   "year": 2025,
+   "n": 1
+  },
+  {
+   "year": 2026,
+   "n": 4
+  }
+ ],
+ "undated_pct": 17,
+ "momentum": "rising",
+ "maturity": "L4",
  "maturity_evidence": [
+  "multi_horizontal",
   "named_product:Aetna",
+  "value_number",
+  "multi_year",
   "tier_p"
  ],
- "prospect_score": 46,
+ "prospect_score": 57,
  "stack": [
   "Google"
  ],
@@ -52,6 +64,61 @@
    "raw_sector": "Health Care",
    "date": "missing",
    "fresh": "undated"
+  },
+  {
+   "company": "CVS Health",
+   "use": "Aetna Claims Assist Manager (CAM), a second-generation AI-powered agentic claims advisor platform with 'adjuster AI agents' that automate claim resolution, integrate eligibility/coverage/member/provider data, and recommend next-best actions for complex claims requiring manual review.",
+   "existence": "confirmed",
+   "value": "More than 20% reduction in claims processing time for complex claims",
+   "tier": "",
+   "url": "https://drugstorenews.com/aetna-uses-ai-reduce-claims-processing-time-more-20",
+   "raw_sector": "",
+   "date": "2026-05",
+   "fresh": "fresh"
+  },
+  {
+   "company": "CVS Health",
+   "use": "AI-driven prescription interpretation and instruction standardization: trained open-source large language models interpret prescriber directions and calculate dosage supply (frequency, quantity, duration), automating manual transcription in retail and specialty pharmacy dispensing, with pharmacists retaining final clinical authority (human-in-the-loop). Recognized with the 2026 Newsweek AI Impact Award for Best Outcomes - Patient Care. [Open-source LLMs (no commercial vendor named)]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://drugstorenews.com/cvs-health-leveraging-ai-pharmacy-dispensing",
+   "raw_sector": "",
+   "date": "2026-06",
+   "fresh": "fresh"
+  },
+  {
+   "company": "CVS Health",
+   "use": "Health100 - an AI-powered consumer engagement platform (a new CVS-owned business unit built with Google Cloud) using agentic AI to help consumers track health goals, access care faster, understand costs and reduce administrative burden across providers, insurers and pharmacies. [Google Cloud (Gemini models, Cloud Healthcare API, BigQuery)]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.forbes.com/sites/brucejapsen/2026/03/05/cvs-health-and-google-launch-ai-business-to-personalize-healthcare/",
+   "raw_sector": "",
+   "date": "2026-03",
+   "fresh": "fresh"
+  },
+  {
+   "company": "CVS Health",
+   "use": "Salesforce Agentforce Health deployed in member call centers: agentic AI connects data across Aetna, Caremark and pharmacy services, surfacing insights to agents in advance to resolve member needs in a single interaction and reduce transfers/handoffs between coverage areas. [Salesforce (Agentforce Health)]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.fiercehealthcare.com/payers/cvs-expands-partnership-salesforce-greater-call-center-personalization",
+   "raw_sector": "",
+   "date": "2026-05",
+   "fresh": "fresh"
+  },
+  {
+   "company": "CVS Health",
+   "use": "Generative/conversational AI embedded throughout the Aetna Health mobile app to help members navigate healthcare processes end-to-end (not confined to a separate chat window), initially rolled out to an initial member population with broader expansion planned.",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://drugstorenews.com/cvs-healths-aetna-expands-initiatives-simplify-experiences-healthcare-professionals-patients",
+   "raw_sector": "",
+   "date": "2025-12",
+   "fresh": "fresh"
   }
  ]
 }

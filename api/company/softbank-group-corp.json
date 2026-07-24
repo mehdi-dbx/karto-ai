@@ -3,35 +3,50 @@
  "name": "SoftBank Group Corp.",
  "cc": "JP",
  "vertical": "Telecom",
- "deployments": 1,
- "confirmed": 1,
- "with_value_number": 1,
- "proof_rate": 1.0,
+ "deployments": 10,
+ "confirmed": 7,
+ "with_value_number": 9,
+ "proof_rate": 0.9,
  "mktcap": 216666666667.0,
  "revenue": 52000000000.0,
  "employees": 73677.0,
  "silent": false,
- "per_bn_revenue": 0.02,
- "per_10k_emp": 0.14,
+ "per_bn_revenue": 0.19,
+ "per_10k_emp": 1.36,
  "benchmarks": {
   "global_vertical": {
-   "deployments": 0,
-   "confirmed": 16,
-   "proof_rate": 68,
+   "deployments": 85,
+   "confirmed": 86,
+   "proof_rate": 76,
    "n": 93
   }
  },
- "first_seen": null,
- "by_year": [],
- "undated_pct": 100,
- "momentum": "none",
- "maturity": "L3",
+ "first_seen": 2024,
+ "by_year": [
+  {
+   "year": 2024,
+   "n": 2
+  },
+  {
+   "year": 2025,
+   "n": 5
+  },
+  {
+   "year": 2026,
+   "n": 2
+  }
+ ],
+ "undated_pct": 10,
+ "momentum": "early_mover,rising",
+ "maturity": "L4",
  "maturity_evidence": [
+  "multi_horizontal",
   "named_product:Sarashina",
   "value_number",
+  "multi_year",
   "tier_p"
  ],
- "prospect_score": 6,
+ "prospect_score": 46,
  "stack": [],
  "vendor_named": true,
  "deployments_detail": [
@@ -45,6 +60,105 @@
    "raw_sector": "Communications",
    "date": "missing",
    "fresh": "undated"
+  },
+  {
+   "company": "SoftBank Group Corp.",
+   "use": "SB OpenAI Japan joint venture developing and deploying 'Cristal Intelligence' enterprise AI, with SoftBank Group committing to deploy OpenAI models across 2,500+ subsidiary systems (Arm, PayPay, etc.) to automate 100M+ workflows [OpenAI]",
+   "existence": "claimed",
+   "value": "SoftBank Group to spend $3 billion (450 billion yen) annually on OpenAI technology",
+   "tier": "",
+   "url": "https://www.lightreading.com/ai-machine-learning/softbank-and-openai-join-forces-to-advance-ai-for-business-in-japan",
+   "raw_sector": "",
+   "date": "2025-02",
+   "fresh": "fresh"
+  },
+  {
+   "company": "SoftBank Group Corp.",
+   "use": "Large Telecom Model (LTM) evolved into a domestic AI model integrating the Sarashina LLM, deployed internally for cellular network operations such as predicting communication quality at large events [SB Intuitions (Sarashina LLM)]",
+   "existence": "confirmed",
+   "value": "over 90% accuracy predicting communication quality at large-scale events",
+   "tier": "",
+   "url": "https://www.softbank.jp/en/corp/news/press/sbkk/2025/20251029_01/",
+   "raw_sector": "",
+   "date": "2025-10",
+   "fresh": "fresh"
+  },
+  {
+   "company": "SoftBank Group Corp.",
+   "use": "SoftVoice: AI voice-conversion system for call centers that softens aggressive customer voices into calmer tones in real time to protect operators from customer harassment; commercialized product [SoftBank (in-house)]",
+   "existence": "confirmed",
+   "value": "greater than 30% reduction in perceived-anger evaluation index",
+   "tier": "",
+   "url": "https://www.softbank.jp/en/sbnews/entry/20260219_01",
+   "raw_sector": "",
+   "date": "2026-02",
+   "fresh": "fresh"
+  },
+  {
+   "company": "SoftBank Group Corp.",
+   "use": "Gen-AX subsidiary's 'X-Ghost' autonomous AI voice operator for contact centers, handling customer calls 24/7 with LLM-driven natural voice, knowledge analysis and workflow automation; piloted/being considered by Sumitomo Mitsui Card [Gen-AX (SoftBank subsidiary), LLM-based]",
+   "existence": "claimed",
+   "value": "targets contact-center turnover of ~30% vs 8.7% national average",
+   "tier": "",
+   "url": "https://www.softbank.jp/en/sbnews/entry/20250728_01",
+   "raw_sector": "",
+   "date": "2025-07",
+   "fresh": "fresh"
+  },
+  {
+   "company": "SoftBank Group Corp.",
+   "use": "Company-wide internal generative-AI adoption program where employees each built AI agents; 2.5 million agents created in 10 weeks to automate internal tasks and build AI fluency across the workforce [OpenAI]",
+   "existence": "confirmed",
+   "value": "2.5 million AI agents created in 10 weeks; 90% of surveyed employees viewed it positively; 2,000+ obtained AI certifications",
+   "tier": "",
+   "url": "https://www.softbank.jp/en/sbnews/entry/20251217_01",
+   "raw_sector": "",
+   "date": "2025-12",
+   "fresh": "fresh"
+  },
+  {
+   "company": "SoftBank Group Corp.",
+   "use": "Construction of a large-scale AI data center at the former Sharp Sakai LCD plant in Osaka to provide compute for generative-AI development and AI-related business [Nvidia (GPU infrastructure), Sharp]",
+   "existence": "claimed",
+   "value": "440,000 sq m facility, initial 150MW power capacity expandable to 400MW+",
+   "tier": "",
+   "url": "https://www.softbank.jp/en/corp/news/press/sbkk/2024/20240607_01/",
+   "raw_sector": "",
+   "date": "2024-06",
+   "fresh": "aging"
+  },
+  {
+   "company": "SoftBank Group Corp.",
+   "use": "SB Intuitions builds the Sarashina Japanese large language model on a 4,000+ Nvidia B200 DGX SuperPod cluster; Sarashina released as an enterprise API and used internally, with a 70B-parameter commercial model [Nvidia (B200 DGX SuperPod), SB Intuitions]",
+   "existence": "confirmed",
+   "value": "4,000+ Nvidia Blackwell GPUs; 13.7 exaflops of AI compute",
+   "tier": "",
+   "url": "https://www.datacenterdynamics.com/en/news/softbank-deploys-4000-strong-nvidia-b200-dgx-superpod-cluster-for-japanese-llm-development/",
+   "raw_sector": "",
+   "date": "2025-07",
+   "fresh": "fresh"
+  },
+  {
+   "company": "SoftBank Group Corp.",
+   "use": "SB OAI Japan team used OpenAI Codex to build an enterprise incident-response system with no human-written code, winning OpenAI's global Codex hackathon — demonstrating AI-driven internal software development [OpenAI Codex]",
+   "existence": "confirmed",
+   "value": "system built without humans writing a single line of code",
+   "tier": "",
+   "url": "https://www.softbank.jp/en/sbnews/entry/20260529_01",
+   "raw_sector": "",
+   "date": "2026-05",
+   "fresh": "fresh"
+  },
+  {
+   "company": "SoftBank Group Corp.",
+   "use": "Strategic partnership with Perplexity to give SoftBank, Y!mobile and LINEMO mobile subscribers a one-year free trial of the Perplexity Pro AI answer engine (consumer-facing AI product) [Perplexity]",
+   "existence": "confirmed",
+   "value": "one-year free Perplexity Pro trial (normally 29,500 yen/year)",
+   "tier": "",
+   "url": "https://www.softbank.jp/en/corp/news/press/sbkk/2024/20240617_01/",
+   "raw_sector": "",
+   "date": "2024-06",
+   "fresh": "aging"
   }
  ]
 }

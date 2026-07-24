@@ -3,45 +3,59 @@
  "name": "Target Corporation",
  "cc": "US",
  "vertical": "Retail & E-commerce",
- "deployments": 1,
- "confirmed": 1,
+ "deployments": 13,
+ "confirmed": 11,
  "with_value_number": 1,
- "proof_rate": 1.0,
+ "proof_rate": 0.077,
  "mktcap": 61190000000.0,
  "revenue": 106380000000.0,
  "employees": 415000.0,
  "silent": false,
- "per_bn_revenue": 0.01,
- "per_10k_emp": 0.02,
+ "per_bn_revenue": 0.12,
+ "per_10k_emp": 0.31,
  "benchmarks": {
   "global_vertical": {
-   "deployments": 0,
-   "confirmed": 26,
-   "proof_rate": 73,
+   "deployments": 98,
+   "confirmed": 97,
+   "proof_rate": 61,
    "n": 295
   },
   "country_vertical": {
-   "deployments": 0,
-   "confirmed": 29,
-   "proof_rate": 77,
+   "deployments": 96,
+   "confirmed": 91,
+   "proof_rate": 63,
    "n": 80
   }
  },
- "first_seen": 2024,
+ "first_seen": 2023,
  "by_year": [
   {
+   "year": 2023,
+   "n": 1
+  },
+  {
    "year": 2024,
+   "n": 4
+  },
+  {
+   "year": 2025,
+   "n": 6
+  },
+  {
+   "year": 2026,
    "n": 1
   }
  ],
- "undated_pct": 0,
- "momentum": "early_mover,gone_quiet",
- "maturity": "L3",
+ "undated_pct": 8,
+ "momentum": "early_mover,rising",
+ "maturity": "L4",
  "maturity_evidence": [
+  "multi_horizontal",
   "named_product:Store Companion",
-  "value_number"
+  "value_number",
+  "multi_year"
  ],
- "prospect_score": 14,
+ "prospect_score": 100,
  "stack": [],
  "vendor_named": false,
  "deployments_detail": [
@@ -55,6 +69,138 @@
    "raw_sector": "Consumer Staples",
    "date": "2024",
    "fresh": "aging"
+  },
+  {
+   "company": "Target Corporation",
+   "use": "Store Companion, a proprietary GenAI-powered chatbot rolled out chainwide to store team members at ~2,000 stores. It answers on-the-job process questions, coaches new employees, and supports store operations via handheld devices. Target's CFO later said the tool is boosting worker efficiency. [Target proprietary GenAI]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://corporate.target.com/press/release/2024/06/target-to-roll-out-transformative-genai-technology-to-its-store-team-members-chainwide",
+   "raw_sector": "",
+   "date": "2024-06",
+   "fresh": "aging"
+  },
+  {
+   "company": "Target Corporation",
+   "use": "Exploration of generative AI on frontline store devices via a joint showcase with Zebra Technologies, Google Cloud, and Qualcomm, aiming to automate core store processes and enhance associate/shopper experiences with on-device GenAI. [Zebra / Google Cloud / Qualcomm]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.zebra.com/us/en/resource-library/success-stories/target-explores-the-future-of-retail-with-generative-ai.html",
+   "raw_sector": "",
+   "date": "2025-01",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Target Corporation",
+   "use": "MLOps modernization on Google Cloud Vertex AI with Ray, enabling Target data science teams to experiment, iterate, and deliver ML models faster (the platform underpinning many of Target's ML deployments). [Google Cloud Vertex AI / Ray]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://cloud.google.com/customers/featured/target",
+   "raw_sector": "",
+   "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "Target Corporation",
+   "use": "Bullseye Gift Finder, a GenAI-powered product recommendation tool on Target.com/app that gives shoppers personalized gift recommendations filtered by age, hobby, and brand. Later expanded into the conversational AI Target Gift Finder for the 2025 holiday season.",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://corporate.target.com/news-features/article/2024/12/bullseye-gift-finder",
+   "raw_sector": "",
+   "date": "2024-12",
+   "fresh": "aging"
+  },
+  {
+   "company": "Target Corporation",
+   "use": "Target app inside ChatGPT via partnership with OpenAI, offering personalized conversational shopping and faster checkout. By mid-2026 Target confirmed a complete shopping experience through its app in ChatGPT, including multi-item purchase in a single transaction. [OpenAI / ChatGPT]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://openai.com/index/target-partnership/",
+   "raw_sector": "",
+   "date": "2025-11",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Target Corporation",
+   "use": "Conversational commerce integration with Google: shoppers can browse Target product listings and buy items directly from Target in Google Search (including AI Mode) and the Gemini app. Target updated its terms of service ahead of the Gemini integration. [Google / Gemini]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://corporate.target.com/press/fact-sheet/2026/06/conversational-ai",
+   "raw_sector": "",
+   "date": "2026-06",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Target Corporation",
+   "use": "Roundel (Target's retail media business) launched an AI-powered feature for offsite campaigns that leverages Target's first-party data and real-time signals to auto-generate campaign recommendations across audience targeting, creative formats, and performance forecasting for advertisers.",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.marketingdive.com/news/targets-roundel-powers-up-offsite-campaigns-with-ai-driven-analysis/752875/",
+   "raw_sector": "",
+   "date": "2025-07",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Target Corporation",
+   "use": "Contextual Offer Recommendation Engine (CORE), a system Target built to recommend personalized offers to each Target Circle loyalty guest, generating tailored promotions at scale.",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://tech.target.com/blog/contextual-offer-recommendation-engine",
+   "raw_sector": "",
+   "date": "2024-07",
+   "fresh": "aging"
+  },
+  {
+   "company": "Target Corporation",
+   "use": "Target Trend Brain, a proprietary GenAI-powered trend intelligence platform that processes visual and written trend data (social media, runway images, purchasing trends) to help apparel/merchant teams identify emerging trends and speed product development cycles from months to weeks. [Target proprietary GenAI]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://corporate.target.com/news-features/article/2025/12/speed-to-trend",
+   "raw_sector": "",
+   "date": "2025-12",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Target Corporation",
+   "use": "AI-driven demand forecasting and inventory availability: Target uses AI/ML to forecast product demand and infer/correct inventory inaccuracies by analyzing underlying data patterns, keeping items in stock across ~200,000 items.",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://tech.target.com/blog/solving-product-availability-with-ai",
+   "raw_sector": "",
+   "date": "2023-10",
+   "fresh": "stale"
+  },
+  {
+   "company": "Target Corporation",
+   "use": "Using LLMs to improve accessory (complementary product) recommendations: LLMs automatically analyze product data to identify and weight the most important attributes, improving the relevance of accessory recommendations shown to guests. [LLMs]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://tech.target.com/blog/accessory-recommendations-with-llms",
+   "raw_sector": "",
+   "date": "2025-06",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Target Corporation",
+   "use": "Inventory and delivery optimization using ML: Target forecasts demand at multiple time granularities (daily/weekly/monthly) across ~200,000 items to optimize inventory placement and delivery routing/fulfillment decisions.",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://tech.target.com/blog/math-behind-inventory-delivery-optimization",
+   "raw_sector": "",
+   "date": "2025-11",
+   "fresh": "fresh"
   }
  ]
 }

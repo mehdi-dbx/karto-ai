@@ -3,51 +3,72 @@
  "name": "Mitsui Chemicals, Inc.",
  "cc": "JP",
  "vertical": "Chemicals & Materials",
- "deployments": 3,
- "confirmed": 3,
- "with_value_number": 3,
- "proof_rate": 1.0,
+ "deployments": 13,
+ "confirmed": 9,
+ "with_value_number": 7,
+ "proof_rate": 0.538,
  "mktcap": 5323733333.0,
  "revenue": 11133333333.0,
  "employees": 17320.0,
  "silent": false,
- "per_bn_revenue": 0.27,
- "per_10k_emp": 1.73,
+ "per_bn_revenue": 1.17,
+ "per_10k_emp": 7.51,
  "benchmarks": {
   "global_vertical": {
    "deployments": 98,
-   "confirmed": 98,
+   "confirmed": 96,
    "proof_rate": 73,
    "n": 105
   },
   "country_vertical": {
    "deployments": 97,
-   "confirmed": 97,
+   "confirmed": 94,
    "proof_rate": 56,
    "n": 35
   }
  },
- "first_seen": 2023,
+ "first_seen": 2016,
  "by_year": [
   {
-   "year": 2023,
+   "year": 2016,
    "n": 1
   },
   {
-   "year": 2026,
+   "year": 2020,
    "n": 1
+  },
+  {
+   "year": 2021,
+   "n": 1
+  },
+  {
+   "year": 2023,
+   "n": 2
+  },
+  {
+   "year": 2024,
+   "n": 1
+  },
+  {
+   "year": 2025,
+   "n": 2
+  },
+  {
+   "year": 2026,
+   "n": 2
   }
  ],
- "undated_pct": 33,
- "momentum": "early_mover,flat",
+ "undated_pct": 23,
+ "momentum": "early_mover,rising",
  "maturity": "L4",
  "maturity_evidence": [
+  "multi_horizontal",
   "named_product:Generative",
   "value_number",
   "multi_year",
   "tier_p"
  ],
- "prospect_score": 18,
+ "prospect_score": 72,
  "stack": [
   "IBM",
   "OpenAI"
@@ -84,6 +105,116 @@
    "tier": "P",
    "url": "https://kaguyapress.com/article/20260513-05-mitsui-chemicals-ai-workplace-safety-system",
    "raw_sector": "Chemicals",
+   "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "Mitsui Chemicals, Inc.",
+   "use": "New application discovery for existing products: combines IBM Watson (custom chemical dictionary/big-data analysis) with GPT (via Microsoft Azure OpenAI) to generate and screen new product applications from patents, news and social data, accelerating market-to-product development. [IBM Watson + Microsoft Azure OpenAI (GPT)]",
+   "existence": "confirmed",
+   "value": "Doubled the number of new application discoveries",
+   "tier": "",
+   "url": "https://jp.mitsuichemicals.com/en/release/2023/2023_0913/index.htm",
+   "raw_sector": "",
+   "date": "2023-09",
+   "fresh": "stale"
+  },
+  {
+   "company": "Mitsui Chemicals, Inc.",
+   "use": "Proprietary generative-AI patent chat platform tuned for chemical-industry needs (reading experiment data tables, understanding chemical structures) to speed in-house patent search and R&D product development. [Proprietary generative AI (chemical-domain LLM chat)]",
+   "existence": "confirmed",
+   "value": "Cuts in-house patent search time by ~80%; full internal operation from FY2025",
+   "tier": "",
+   "url": "https://jp.mitsuichemicals.com/en/release/2024/2024_1225/index.htm",
+   "raw_sector": "",
+   "date": "2024-12",
+   "fresh": "aging"
+  },
+  {
+   "company": "Mitsui Chemicals, Inc.",
+   "use": "In-house AI agent that autonomously reads chemical structural formulas in scientific literature and extracts/organizes compound information, automating R&D literature reviews. [Proprietary generative AI agent (extends chemical gen-AI chat)]",
+   "existence": "confirmed",
+   "value": "Reduces literature review time by 80% or more (one month of work to about one day)",
+   "tier": "",
+   "url": "https://jp.mitsuichemicals.com/en/release/2026/2026_0302/index.htm",
+   "raw_sector": "",
+   "date": "2026-03",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Mitsui Chemicals, Inc.",
+   "use": "AI-based quality prediction of chemical products during the production process, using production/sensor data to predict product quality and support smart plant maintenance and more stable operations. [NTT Communications]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://jp.mitsuichemicals.com/en/release/2016/160915/index.htm",
+   "raw_sector": "",
+   "date": "2016-09",
+   "fresh": "stale"
+  },
+  {
+   "company": "Mitsui Chemicals, Inc.",
+   "use": "AI system to support/optimize plant operation changes (adjusting production volumes) at a chemical plant, reducing the operational time versus manual operator control. [AI plant-operation model (academic/industry collaboration)]",
+   "existence": "confirmed",
+   "value": "40% more efficient operation than manual operator control",
+   "tier": "",
+   "url": "https://www.ai-japan.go.jp/applications/other-applications/ai-40/en/",
+   "raw_sector": "",
+   "date": "2020-11",
+   "fresh": "stale"
+  },
+  {
+   "company": "Mitsui Chemicals, Inc.",
+   "use": "Materials informatics (MI) using AI to design/predict new materials and reduce the number of experiments needed in materials development, tested for practical R&D use. [Hitachi (materials informatics)]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://rd.hitachi.com/_ct/17701683",
+   "raw_sector": "",
+   "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "Mitsui Chemicals, Inc.",
+   "use": "Materials informatics collaboration applying AI to stabilize the quality of recycled plastics and streamline material development for recycled resin. [NEC (materials informatics), with Hagihara Industries and Maruki Sangyo]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.nec.com/en/press/202510/global_20251007_05.html",
+   "raw_sector": "",
+   "date": "2025-10",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Mitsui Chemicals, Inc.",
+   "use": "AI-driven demand and price forecasting system for chemical products to avoid losses from price fluctuations and improve demand planning. [NEC + dotData]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://jp.mitsuichemicals.com/en/release/2021/2021_0924/index.htm",
+   "raw_sector": "",
+   "date": "2021-09",
+   "fresh": "stale"
+  },
+  {
+   "company": "Mitsui Chemicals, Inc.",
+   "use": "AI-based supply chain optimization for resin production and inventory management (demand-responsive production scheduling, adjusting monthly production volumes to supply/demand). [NS Solutions (NSSOL)]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://jp.mitsuichemicals.com/en/release/2025/2025_0821_1/index.htm",
+   "raw_sector": "",
+   "date": "2025-08",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Mitsui Chemicals, Inc.",
+   "use": "AI-based sales/demand forecasting engine integrated into sales planning to generate sales predictions and simplify/accelerate planning across product groups. [HICO Group + Jedox]",
+   "existence": "confirmed",
+   "value": "Forecast accuracy up to 95% for several product groups",
+   "tier": "",
+   "url": "https://www.jedox.com/en/customers/mitsui-chemicals/",
+   "raw_sector": "",
    "date": "missing",
    "fresh": "undated"
   }

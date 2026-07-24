@@ -3,44 +3,63 @@
  "name": "Walt Disney Company (The)",
  "cc": "US",
  "vertical": "Telecom",
- "deployments": 1,
- "confirmed": 1,
- "with_value_number": 0,
- "proof_rate": 0.0,
+ "deployments": 10,
+ "confirmed": 6,
+ "with_value_number": 1,
+ "proof_rate": 0.1,
  "mktcap": 161440000000.0,
  "revenue": 97260000000.0,
  "employees": 231000.0,
  "silent": false,
- "per_bn_revenue": 0.01,
- "per_10k_emp": 0.04,
+ "per_bn_revenue": 0.1,
+ "per_10k_emp": 0.43,
  "benchmarks": {
   "global_vertical": {
-   "deployments": 0,
-   "confirmed": 16,
-   "proof_rate": 0,
+   "deployments": 85,
+   "confirmed": 84,
+   "proof_rate": 47,
    "n": 93
   },
   "country_vertical": {
-   "deployments": 0,
-   "confirmed": 32,
-   "proof_rate": 0,
+   "deployments": 68,
+   "confirmed": 64,
+   "proof_rate": 55,
    "n": 23
   }
  },
- "first_seen": 2025,
+ "first_seen": 2019,
  "by_year": [
   {
-   "year": 2025,
+   "year": 2019,
    "n": 1
+  },
+  {
+   "year": 2020,
+   "n": 1
+  },
+  {
+   "year": 2024,
+   "n": 1
+  },
+  {
+   "year": 2025,
+   "n": 4
+  },
+  {
+   "year": 2026,
+   "n": 3
   }
  ],
  "undated_pct": 0,
- "momentum": "rising",
- "maturity": "L2",
+ "momentum": "early_mover,rising",
+ "maturity": "L4",
  "maturity_evidence": [
+  "multi_horizontal",
+  "named_product:Deep",
+  "multi_year",
   "tier_p"
  ],
- "prospect_score": 54,
+ "prospect_score": 80,
  "stack": [],
  "vendor_named": false,
  "deployments_detail": [
@@ -53,6 +72,105 @@
    "url": "https://impact.disney.com/app/uploads/2025/05/Artificial-Intelligence-Topic-Brief.pdf",
    "raw_sector": "Communication Services",
    "date": "2025",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Walt Disney Company (The)",
+   "use": "Internal enterprise generative-AI tooling: ChatGPT and Microsoft Copilot rolled out to employees for productivity tasks such as IT requests, internal data lookups and knowledge work; custom internal tools built on OpenAI APIs [OpenAI (ChatGPT), Microsoft Copilot]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.artificialintelligence-news.com/news/why-disney-is-embedding-generative-ai-into-its-operating-model/",
+   "raw_sector": "",
+   "date": "2025",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Walt Disney Company (The)",
+   "use": "Disney Ad Creative Studio: AI tool inside Disney Campaign Manager that transforms advertiser brand materials into connected-TV video ads, generating multiple creative variations by audience/geography/goal (closed beta)",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://thewaltdisneycompany.com/news/ad-creative-studio-beta/",
+   "raw_sector": "",
+   "date": "2026",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Walt Disney Company (The)",
+   "use": "Disney Ads Agent: agentic AI chatbot for advertisers that automates media-planning prep work including inventory search, audience identification and campaign success tracking (announced at CES 2026)",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.thecurrent.com/media/culture-streaming-disney-ai-driven-ad-planning-creative-tools-ces",
+   "raw_sector": "",
+   "date": "2026-01",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Walt Disney Company (The)",
+   "use": "Disney Advertising AI-powered internal planning tool that captures campaign objectives, audience intent, timing and constraints to accelerate the media-planning process (unveiled at Disney's Tech & Data Showcase)",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://press.disneyadvertising.com/disney-unveils-new-solutions-powering-its-advertising-ecosystem-at-sixth-annual-global-tech-&-data-showcase",
+   "raw_sector": "",
+   "date": "2026-01",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Walt Disney Company (The)",
+   "use": "Deep-learning content-tagging system that automatically identifies characters, scenes and objects in Disney's animated film/TV archive to generate standardized metadata (built on AWS EC2 + PyTorch), later extended to ESPN sports content recommendations [AWS (EC2, PyTorch)]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://aws.amazon.com/machine-learning/customers/innovators/disney/",
+   "raw_sector": "",
+   "date": "2019",
+   "fresh": "stale"
+  },
+  {
+   "company": "Walt Disney Company (The)",
+   "use": "Disney+ personalization and recommendation engine using ML plus NLP over closed-caption files to reorder content rows, drive Post Play autoplay and tailor recommendations by subscriber segment",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.forbes.com/sites/insights-teradata/2020/04/21/how-disney-plus-personalizes-your-viewing-experience/",
+   "raw_sector": "",
+   "date": "2020",
+   "fresh": "stale"
+  },
+  {
+   "company": "Walt Disney Company (The)",
+   "use": "ESPN generative-AI game recaps producing text recap stories for underserved sports (NWSL, Premier Lacrosse League), human-edited and bylined 'ESPN Generative AI Services' [Microsoft AI, Accenture]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://espnpressroom.com/feature/enhancing-espns-game-recaps-for-underserved-sports-using-ai/",
+   "raw_sector": "",
+   "date": "2024-09",
+   "fresh": "aging"
+  },
+  {
+   "company": "Walt Disney Company (The)",
+   "use": "BDX autonomous free-roaming character robots (droids) trained with reinforcement learning in simulation; deployed as roaming characters at Disneyland Resort and on the Disney Wish cruise ship; built with the open-source Newton physics engine [NVIDIA, Google DeepMind, Disney Research (Newton engine)]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://thewaltdisneycompany.com/news/behind-the-bdx-droids/",
+   "raw_sector": "",
+   "date": "2025",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Walt Disney Company (The)",
+   "use": "Licensing deal bringing 200+ Disney, Marvel, Pixar and Star Wars characters to OpenAI's Sora video generator, plus surfacing user-prompted AI-generated content inside Disney+; backed by a $1B Disney equity investment in OpenAI [OpenAI (Sora)]",
+   "existence": "claimed",
+   "value": "$1 billion equity investment in OpenAI",
+   "tier": "",
+   "url": "https://openai.com/index/disney-sora-agreement/",
+   "raw_sector": "",
+   "date": "2025-12",
    "fresh": "fresh"
   }
  ]

@@ -3,44 +3,67 @@
  "name": "Loews Corporation",
  "cc": "US",
  "vertical": "Financial Services",
- "deployments": 1,
- "confirmed": 0,
- "with_value_number": 0,
- "proof_rate": 0.0,
+ "deployments": 9,
+ "confirmed": 7,
+ "with_value_number": 2,
+ "proof_rate": 0.222,
  "mktcap": 23680000000.0,
  "revenue": 18520000000.0,
  "employees": 13100.0,
  "silent": false,
- "per_bn_revenue": 0.05,
- "per_10k_emp": 0.76,
+ "per_bn_revenue": 0.49,
+ "per_10k_emp": 6.87,
  "benchmarks": {
   "global_vertical": {
-   "deployments": 0,
-   "confirmed": 0,
-   "proof_rate": 0,
+   "deployments": 92,
+   "confirmed": 92,
+   "proof_rate": 56,
    "n": 377
   },
   "country_vertical": {
-   "deployments": 0,
-   "confirmed": 0,
-   "proof_rate": 0,
+   "deployments": 83,
+   "confirmed": 84,
+   "proof_rate": 65,
    "n": 76
   }
  },
- "first_seen": 2024,
+ "first_seen": 2019,
  "by_year": [
   {
+   "year": 2019,
+   "n": 1
+  },
+  {
+   "year": 2022,
+   "n": 1
+  },
+  {
+   "year": 2023,
+   "n": 2
+  },
+  {
    "year": 2024,
+   "n": 1
+  },
+  {
+   "year": 2025,
+   "n": 3
+  },
+  {
+   "year": 2026,
    "n": 1
   }
  ],
  "undated_pct": 0,
- "momentum": "early_mover,gone_quiet",
- "maturity": "L1",
+ "momentum": "early_mover,rising",
+ "maturity": "L4",
  "maturity_evidence": [
-  "rows_no_confirmed"
+  "multi_horizontal",
+  "named_product:CNA",
+  "value_number",
+  "multi_year"
  ],
- "prospect_score": 40,
+ "prospect_score": 81,
  "stack": [],
  "vendor_named": false,
  "deployments_detail": [
@@ -54,6 +77,94 @@
    "raw_sector": "Financials",
    "date": "2024",
    "fresh": "aging"
+  },
+  {
+   "company": "Loews Corporation",
+   "use": "CNA partnered with SLK Software and AI firm V-Labs to deploy an enterprise-wide AI-led intelligent automation solution automating new business submission intake, claims and other document-heavy insurance business processes. [SLK Software + V-Labs]",
+   "existence": "confirmed",
+   "value": "reduced average processing time in targeted areas from several hours or days to a few minutes",
+   "tier": "",
+   "url": "https://www.businesswire.com/news/home/20230130005227/en/SLK-Software-and-V-Labs-join-With-CNA-to-Deploy-AI-Technologies-for-Intelligent-Automation-of-Insurance-Business-Processes",
+   "raw_sector": "",
+   "date": "2023-01",
+   "fresh": "stale"
+  },
+  {
+   "company": "Loews Corporation",
+   "use": "CNA is driving enterprise adoption of Microsoft 365 Copilot and Copilot Studio, evaluating and piloting the tools via its AI & Digital Enablement and AI Governance teams (evidenced by dedicated M365 Copilot administrator roles and an AI Governance internship piloting Microsoft 365 Copilot). [Microsoft 365 Copilot]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.linkedin.com/jobs/view/m365-administrator-at-cna-insurance-4381797232",
+   "raw_sector": "",
+   "date": "2025",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Loews Corporation",
+   "use": "Loews Hotels uses Oracle Hospitality OPERA Cloud's AI-powered Guest Engagement and Merchandising, which automates routine tasks and drives personalized guest recognition, upsell/merchandising and rate optimization across its US property portfolio; use expanded in July 2026 with OPERA Cloud Central distribution and loyalty. [Oracle (OPERA Cloud Guest Engagement & Merchandising)]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.oracle.com/news/announcement/oracle-opera-cloud-central-implements-additional-systems-to-further-loews-hotels-delivery-of-exceptional-guest-experiences-2026-07-14/",
+   "raw_sector": "",
+   "date": "2026-07",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Loews Corporation",
+   "use": "CNA Insurance runs Appian's Connected Underwriting P&C Workbench, an AI-automation platform that lets underwriters and agents track policy status, issues, claims and payment status and accelerates time-to-quote across a global underwriting operation. [Appian (Connected Underwriting)]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://appian.com/about/explore/customers/all-customers/cna-insurance",
+   "raw_sector": "",
+   "date": "2022",
+   "fresh": "stale"
+  },
+  {
+   "company": "Loews Corporation",
+   "use": "CNA built a geospatial flood-risk assessment capability on Google Cloud (BigQuery, Dataflow/geobeam, GKE) that scores property-level flood exposure (coastal, fluvial and pluvial) and feeds risk scores into underwriters' workflow, being integrated into CNA's underwriting system. [Google Cloud (BigQuery, Dataflow, geobeam)]",
+   "existence": "confirmed",
+   "value": "~25% increase in ability to provide a comprehensive flood risk view",
+   "tier": "",
+   "url": "https://cloud.google.com/blog/products/data-analytics/how-cna-uses-bigquery-for-geospatial-analytics",
+   "raw_sector": "",
+   "date": "2023-09",
+   "fresh": "stale"
+  },
+  {
+   "company": "Loews Corporation",
+   "use": "CNA Canada deployed mea Platform's agentic AI Intelligent Underwriting solution for automated submission data extraction and submission logging across select lines of business, with rollout continuing across wider operations. [mea Platform (agentic AI)]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.meaplatform.com/cna-canada-partners-with-mea-platform-to-innovate-insurance-submission-processing/",
+   "raw_sector": "",
+   "date": "2025-11",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Loews Corporation",
+   "use": "Loews Hotels & Co deployed BluIP's AIVA AI-powered conversational virtual assistant across voice, chat and messaging for its guest engagement/reservation centers, integrated with Oracle OPERA Cloud so guest context (profiles, reservations, past interactions) carries through to live agents. [BluIP AIVA + Oracle OPERA Cloud]",
+   "existence": "confirmed",
+   "value": "over 1.1 million interactions per month; deployment began Jan 1 2025, live May 2025",
+   "tier": "",
+   "url": "https://www.prnewswire.com/news-releases/bluip-and-oracle-hospitality-implement-new-platform-for-loews-hotels--co-302802025.html",
+   "raw_sector": "",
+   "date": "2025-05",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Loews Corporation",
+   "use": "CNA Financial deployed Shift Technology's FORCE, an AI-native SaaS fraud detection solution that generates dynamic fraud scores for each claim (replacing static rules) and provides contextual guidance to special investigators. CNA was the first US-based commercial insurer to partner with Shift. [Shift Technology (FORCE)]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.prnewswire.com/news-releases/cna-selects-shift-technology-for-ai-driven-fraud-detection-300805334.html",
+   "raw_sector": "",
+   "date": "2019-03",
+   "fresh": "stale"
   }
  ]
 }

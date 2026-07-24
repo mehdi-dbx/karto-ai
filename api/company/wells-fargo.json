@@ -3,45 +3,59 @@
  "name": "Wells Fargo",
  "cc": "US",
  "vertical": "Financial Services",
- "deployments": 1,
- "confirmed": 1,
- "with_value_number": 1,
- "proof_rate": 1.0,
+ "deployments": 9,
+ "confirmed": 7,
+ "with_value_number": 5,
+ "proof_rate": 0.556,
  "mktcap": 260940000000.0,
  "revenue": 83030000000.0,
  "employees": 205000.0,
  "silent": false,
- "per_bn_revenue": 0.01,
- "per_10k_emp": 0.05,
+ "per_bn_revenue": 0.11,
+ "per_10k_emp": 0.44,
  "benchmarks": {
   "global_vertical": {
-   "deployments": 0,
-   "confirmed": 18,
+   "deployments": 92,
+   "confirmed": 92,
    "proof_rate": 72,
    "n": 377
   },
   "country_vertical": {
-   "deployments": 0,
-   "confirmed": 21,
-   "proof_rate": 72,
+   "deployments": 83,
+   "confirmed": 84,
+   "proof_rate": 75,
    "n": 76
   }
  },
- "first_seen": 2026,
+ "first_seen": 2021,
  "by_year": [
   {
-   "year": 2026,
+   "year": 2021,
    "n": 1
+  },
+  {
+   "year": 2022,
+   "n": 2
+  },
+  {
+   "year": 2025,
+   "n": 3
+  },
+  {
+   "year": 2026,
+   "n": 2
   }
  ],
- "undated_pct": 0,
- "momentum": "late_entrant,rising",
- "maturity": "L3",
+ "undated_pct": 11,
+ "momentum": "early_mover,rising",
+ "maturity": "L4",
  "maturity_evidence": [
+  "multi_horizontal",
   "named_product:Fargo",
-  "value_number"
+  "value_number",
+  "multi_year"
  ],
- "prospect_score": 6,
+ "prospect_score": 60,
  "stack": [
   "Google"
  ],
@@ -57,6 +71,94 @@
    "raw_sector": "Financials",
    "date": "2026",
    "fresh": "fresh"
+  },
+  {
+   "company": "Wells Fargo",
+   "use": "Bank-wide agentic AI rollout on Google Agentspace, plus Gemini Deep Research and NotebookLM Enterprise, to all ~215,000 employees for research, document Q&A, multimodal search and task automation. Began with ~2,000 employees in Aug 2025 before broader expansion. [Google Cloud (Agentspace, Gemini, NotebookLM)]",
+   "existence": "confirmed",
+   "value": "rollout to ~215,000 employees; started with 2,000",
+   "tier": "",
+   "url": "https://cloud.google.com/blog/topics/financial-services/wells-fargo-agentic-ai-agentspace-empowering-workers",
+   "raw_sector": "",
+   "date": "2025-08",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Wells Fargo",
+   "use": "Generative AI coding tools deployed to the bank's engineering workforce to assist writing and reviewing software code, which CEO Charlie Scharf said made engineers 30%-35% more efficient at writing code.",
+   "existence": "confirmed",
+   "value": "30%-35% more efficient at writing code",
+   "tier": "",
+   "url": "https://www.reuters.com/business/finance/wells-fargo-sees-more-job-cuts-going-into-2026-2025-12-09/",
+   "raw_sector": "",
+   "date": "2025-12",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Wells Fargo",
+   "use": "Pega Customer Decision Hub used as a real-time AI decisioning engine with adaptive machine learning to unify customer data and calculate each customer's 'next best action' across digital, branch and contact-center touchpoints for personalized offers and conversations. [Pegasystems (Customer Decision Hub)]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.pega.com/customers/wells-fargo-customer-decision-hub",
+   "raw_sector": "",
+   "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "Wells Fargo",
+   "use": "AI Teammate, a conversational AI assistant embedded in the Advisor Gateway platform for financial advisors, streamlines research, client communication and everyday workflow tasks with plain-language queries and faster information retrieval.",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://newsroom.wf.com/news-releases/news-details/2026/Wells-Fargo-introduces-AI-Teammate-bringing--AI-powered-support-to-the-advisor-experience/default.aspx",
+   "raw_sector": "",
+   "date": "2026-07",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Wells Fargo",
+   "use": "AI agents built on Google Agentspace for Corporate & Investment Banking and operations, including foreign-exchange post-trade inquiry agents and a contract-management agent that queries roughly 250,000 vendor agreement documents to surface clauses, payment terms and contract types. [Google Cloud (Agentspace, Gemini)]",
+   "existence": "claimed",
+   "value": "~250,000 vendor agreement documents queried",
+   "tier": "",
+   "url": "https://cloud.google.com/blog/topics/financial-services/wells-fargo-agentic-ai-agentspace-empowering-workers",
+   "raw_sector": "",
+   "date": "2025-08",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Wells Fargo",
+   "use": "Fargo virtual assistant in the Wells Fargo Mobile app handles customer banking tasks (balances, transaction search, bill pay, card management) via conversational AI. Built on Google Cloud Dialogflow with a model-agnostic/Gemini Flash orchestration that keeps PII out of the LLM. Handled 245.4M interactions in 2024 and surpassed 1 billion total interactions by March 2026. [Google Cloud (Dialogflow, Gemini Flash)]",
+   "existence": "confirmed",
+   "value": "245.4M interactions in 2024; over 1 billion cumulative interactions by 2026",
+   "tier": "",
+   "url": "https://newsroom.wf.com/English/news-releases/news-release-details/2022/Wells-Fargos-New-Virtual-Assistant-Fargo-to-Be-Powered-by-Google-Cloud-AI/default.aspx",
+   "raw_sector": "",
+   "date": "2022-10",
+   "fresh": "stale"
+  },
+  {
+   "company": "Wells Fargo",
+   "use": "Machine-learning fraud detection using FICO Falcon / FICO analytics to identify fraudulent card and payment activity; Wells Fargo was named FICO's Industry Vanguard for its use of ML and analytics to detect fraud attacks. [FICO (Falcon Fraud Manager)]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.fico.com/en/newsroom/wells-fargo-enhances-fraud-protection-and-customer-experience-using-fico-solutions",
+   "raw_sector": "",
+   "date": "2022-03",
+   "fresh": "stale"
+  },
+  {
+   "company": "Wells Fargo",
+   "use": "Explainable AI (XAI) research and modeling to make lending/credit risk models interpretable for regulators and to explain lending decisions, developed on GPU-accelerated infrastructure with NVIDIA. [NVIDIA]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://blogs.nvidia.com/blog/wells-fargo-examines-explainable-ai-for-modeling-lending-risk/",
+   "raw_sector": "",
+   "date": "2021-04",
+   "fresh": "stale"
   }
  ]
 }

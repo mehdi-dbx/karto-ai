@@ -3,39 +3,58 @@
  "name": "KLA Corporation",
  "cc": "US",
  "vertical": "Technology",
- "deployments": 1,
- "confirmed": 1,
+ "deployments": 9,
+ "confirmed": 7,
  "with_value_number": 0,
  "proof_rate": 0.0,
  "mktcap": 282420000000.0,
  "revenue": 13100000000.0,
  "employees": 15200.0,
  "silent": false,
- "per_bn_revenue": 0.08,
- "per_10k_emp": 0.66,
+ "per_bn_revenue": 0.69,
+ "per_10k_emp": 5.92,
  "benchmarks": {
   "global_vertical": {
-   "deployments": 0,
-   "confirmed": 6,
+   "deployments": 83,
+   "confirmed": 86,
    "proof_rate": 0,
    "n": 156
   },
   "country_vertical": {
-   "deployments": 0,
-   "confirmed": 4,
+   "deployments": 74,
+   "confirmed": 79,
    "proof_rate": 0,
    "n": 74
   }
  },
- "first_seen": null,
- "by_year": [],
- "undated_pct": 100,
- "momentum": "none",
- "maturity": "L2",
+ "first_seen": 2020,
+ "by_year": [
+  {
+   "year": 2020,
+   "n": 2
+  },
+  {
+   "year": 2021,
+   "n": 1
+  },
+  {
+   "year": 2025,
+   "n": 4
+  },
+  {
+   "year": 2026,
+   "n": 1
+  }
+ ],
+ "undated_pct": 11,
+ "momentum": "early_mover,rising",
+ "maturity": "L4",
  "maturity_evidence": [
+  "named_product:SEM",
+  "multi_year",
   "tier_p"
  ],
- "prospect_score": 54,
+ "prospect_score": 90,
  "stack": [],
  "vendor_named": false,
  "deployments_detail": [
@@ -49,6 +68,94 @@
    "raw_sector": "Information Technology",
    "date": "missing",
    "fresh": "undated"
+  },
+  {
+   "company": "KLA Corporation",
+   "use": "Agentic AI and AI-assisted workflows developed at KLA's AI and Modeling Center of Excellence (Ann Arbor) for alarm audit, root-cause analysis, procedure creation, and engineering task automation using engineering telemetry, metrology and operational data.",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://kla.wd1.myworkdayjobs.com/en-US/Search/job/AI-Engineering-Architect---Agentic-AI---Digital-Engineering_2635124",
+   "raw_sector": "",
+   "date": "2026",
+   "fresh": "fresh"
+  },
+  {
+   "company": "KLA Corporation",
+   "use": "Internal generative AI used by KLA employees to automate and optimize processes 'from writing software code to everyday work tasks,' increasing efficiency and productivity across the global workforce.",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.kla.com/solutions/ai",
+   "raw_sector": "",
+   "date": "2025",
+   "fresh": "fresh"
+  },
+  {
+   "company": "KLA Corporation",
+   "use": "aiSIGHT software solution uses machine learning models to automatically detect and classify defects (breaks, bridges, pullbacks, voids) from SEM/eDR images plus design data, and perform large-scale pattern metrology measurements in chip manufacturing. [KLA aiSIGHT]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.klover.ai/kla-ai-strategy-analysis-of-dominance-in-process-control-in-semiconductors-nanoelectronics/",
+   "raw_sector": "",
+   "date": "2020",
+   "fresh": "stale"
+  },
+  {
+   "company": "KLA Corporation",
+   "use": "eSL10 e-beam patterned wafer defect inspection system employs SMARTs deep learning algorithms (built on TensorFlow) that adapt to evolving inspection requirements, isolating the defects most critical to device performance from pattern/process noise. [KLA SMARTs (TensorFlow)]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.prnewswire.com/news-releases/kla-introduces-breakthrough-electron-beam-defect-inspection-system-301095527.html",
+   "raw_sector": "",
+   "date": "2020-07",
+   "fresh": "stale"
+  },
+  {
+   "company": "KLA Corporation",
+   "use": "Voyager 1035 patterned wafer inspection system with DefectWise deep learning technology provides fast, inline separation of defects of interest from pattern noise, improving detection of key defects during production. [KLA DefectWise]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.asminternational.org/smst/results/-/journal_content/56/10192/46220876/NEWS/",
+   "raw_sector": "",
+   "date": "2021-11",
+   "fresh": "stale"
+  },
+  {
+   "company": "KLA Corporation",
+   "use": "AI-driven metrology systems leverage machine learning to enhance profile modeling and improve measurement accuracy and robustness, identifying nanoscale variations for tighter process control. [KLA]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.linkedin.com/posts/klacorp_metrologyday-activity-7330642591299919873-REly",
+   "raw_sector": "",
+   "date": "2025",
+   "fresh": "fresh"
+  },
+  {
+   "company": "KLA Corporation",
+   "use": "Klarity Defect automated defect analysis and data management system uses analytics/ML over petabytes of fab data for real-time excursion identification, enabling faster yield learning cycles. [KLA Klarity]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.klover.ai/kla-ai-strategy-analysis-of-dominance-in-process-control-in-semiconductors-nanoelectronics/",
+   "raw_sector": "",
+   "date": "2025",
+   "fresh": "fresh"
+  },
+  {
+   "company": "KLA Corporation",
+   "use": "5D Analyzer run-time process control solution provides AI-driven analytics and visualization for advanced-node process optimization and monitoring, feeding results back to the scanner to improve on-product overlay and yield. [KLA 5D Analyzer]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.klover.ai/kla-ai-strategy-analysis-of-dominance-in-process-control-in-semiconductors-nanoelectronics/",
+   "raw_sector": "",
+   "date": "2025",
+   "fresh": "fresh"
   }
  ]
 }

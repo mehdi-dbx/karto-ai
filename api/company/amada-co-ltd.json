@@ -3,41 +3,60 @@
  "name": "Amada Co. Ltd.",
  "cc": "JP",
  "vertical": "Industrial / Machinery",
- "deployments": 1,
- "confirmed": 1,
- "with_value_number": 1,
- "proof_rate": 1.0,
+ "deployments": 11,
+ "confirmed": 10,
+ "with_value_number": 3,
+ "proof_rate": 0.273,
  "mktcap": 6023266667.0,
  "revenue": 2915800000.0,
  "employees": 9872.0,
  "silent": false,
- "per_bn_revenue": 0.34,
- "per_10k_emp": 1.01,
+ "per_bn_revenue": 3.77,
+ "per_10k_emp": 11.14,
  "benchmarks": {
   "global_vertical": {
-   "deployments": 0,
-   "confirmed": 14,
-   "proof_rate": 78,
+   "deployments": 95,
+   "confirmed": 98,
+   "proof_rate": 71,
    "n": 175
   },
   "country_vertical": {
-   "deployments": 0,
-   "confirmed": 4,
-   "proof_rate": 65,
+   "deployments": 100,
+   "confirmed": 100,
+   "proof_rate": 54,
    "n": 27
   }
  },
- "first_seen": null,
- "by_year": [],
- "undated_pct": 100,
- "momentum": "none",
- "maturity": "L3",
+ "first_seen": 2018,
+ "by_year": [
+  {
+   "year": 2018,
+   "n": 1
+  },
+  {
+   "year": 2020,
+   "n": 1
+  },
+  {
+   "year": 2023,
+   "n": 1
+  },
+  {
+   "year": 2024,
+   "n": 2
+  }
+ ],
+ "undated_pct": 55,
+ "momentum": "early_mover,gone_quiet",
+ "maturity": "L4",
  "maturity_evidence": [
+  "multi_horizontal",
   "named_product:AI-TAS",
   "value_number",
+  "multi_year",
   "tier_p"
  ],
- "prospect_score": 14,
+ "prospect_score": 97,
  "stack": [],
  "vendor_named": false,
  "deployments_detail": [
@@ -49,6 +68,116 @@
    "tier": "P",
    "url": "https://monoist.itmedia.co.jp/mn/articles/2302/13/news066_2.html",
    "raw_sector": "Machinery",
+   "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "Amada Co. Ltd.",
+   "use": "AI-TAS auto weld-point correction on FLW-ENSISe fiber-laser welding robots: ML trained on weld-joint data detects real image vs 3D/CAD weld lines via camera and automatically corrects for setup misalignment and part variation, removing manual TAS teaching.",
+   "existence": "confirmed",
+   "value": "~46% production lead-time reduction and 74% processing-cost reduction vs conventional TIG welding",
+   "tier": "",
+   "url": "https://www.sheetmetal.amada.co.jp/column/issue/solution40_2/",
+   "raw_sector": "",
+   "date": "2023-02",
+   "fresh": "stale"
+  },
+  {
+   "company": "Amada Co. Ltd.",
+   "use": "AI-driven cutting-path optimization on next-gen fiber laser cutting machines (REGIUS-3015AJe) unveiled at JIMTOF 2024: AI determines the most efficient cutting path to reduce cutting time and maximize productivity.",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://emag.directindustry.com/2024/11/15/jimtof-2024-amada-unveiled-next-gen-laser-cutting-and-welding-machines-with-ai-and-automation/",
+   "raw_sector": "",
+   "date": "2024-11",
+   "fresh": "aging"
+  },
+  {
+   "company": "Amada Co. Ltd.",
+   "use": "i-Camera Assisted System (i-CAS): a centrally positioned camera images the whole laser-cutting bed and the system recognizes free areas/remnants to automatically nest parts onto the leftover material.",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.amada.eu/uk-en/products/sheet-metal-machines-and-automation/laser-cutting-machines/features/laser-integration-system/i-camera-assisted-system/",
+   "raw_sector": "",
+   "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "Amada Co. Ltd.",
+   "use": "Establishment of AMADA AI Innovation Laboratory, a dedicated R&D subsidiary to acquire AI/advanced technologies for whole-production-process optimization, transfer of skilled-worker techniques, and machining support in sheet-metal fabrication.",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://monoist.itmedia.co.jp/mn/spv/2002/14/news024.html",
+   "raw_sector": "",
+   "date": "2020-01",
+   "fresh": "stale"
+  },
+  {
+   "company": "Amada Co. Ltd.",
+   "use": "V-factory IoT platform aggregating machine operation/production and consumable-degradation data to the cloud for analysis, enabling remote diagnostics and predictive maintenance (fault forecasting) of Amada machines at customer factories.",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.amada.eu/it-en/more/news/predictive-maintenance/",
+   "raw_sector": "",
+   "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "Amada Co. Ltd.",
+   "use": "Benefitter generative-AI chatbot automating internal IT help desk inquiries (business systems, PC, network); indexes ~650 internal documents so employees self-resolve issues. Being extended to CAD software support and HR/admin inquiries. [CTC (Itochu Techno-Solutions) - Benefitter]",
+   "existence": "confirmed",
+   "value": "Help desk operating hours cut by 3 hrs/day from July 2025; unanswered calls dropped from 50-100/month to under 50; 739 accesses in June 2025",
+   "tier": "",
+   "url": "https://www.ctc-g.co.jp/report/case-study/amada2/",
+   "raw_sector": "",
+   "date": "2024-08",
+   "fresh": "aging"
+  },
+  {
+   "company": "Amada Co. Ltd.",
+   "use": "Enterprise generative-AI usage platform supporting two modes (public internet data with confidentiality/copyright safeguards, and internal-data-only) applied to IT/CAD helpdesk, HR inquiries, and quality-data retrieval across internal operations.",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.amada.co.jp/ja/innovation/dx/",
+   "raw_sector": "",
+   "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "Amada Co. Ltd.",
+   "use": "AI-based analysis of new-graduate recruiting entry sheets to evaluate candidates more objectively and multifaceted, surfacing challenging mindset/aptitude that human screeners might miss.",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.japanmetal.com/news-t2018082183345.html",
+   "raw_sector": "",
+   "date": "2018",
+   "fresh": "stale"
+  },
+  {
+   "company": "Amada Co. Ltd.",
+   "use": "VPSS 4ie sheet-metal CAD/CAM software with AI drawing-assist function (AI作図支援機能) that automatically extracts and generates faces/unfolded drawings, letting inexperienced operators produce expert-level bending programs and shortening drawing-creation time.",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://pr.mono.ipros.com/amada/product/detail/2000860986/",
+   "raw_sector": "",
+   "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "Amada Co. Ltd.",
+   "use": "AiBEND function in VPSS 3i BEND that captures veteran operators' bending know-how to automatically generate faster, higher-quality bending programs (skill transfer / de-skilling of bending programming).",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.sheetmetal.amada.co.jp/column/issue/solution25_2/",
+   "raw_sector": "",
    "date": "missing",
    "fresh": "undated"
   }

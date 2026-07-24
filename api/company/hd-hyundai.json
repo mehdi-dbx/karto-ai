@@ -3,40 +3,56 @@
  "name": "HD Hyundai",
  "cc": "KR",
  "vertical": "Chemicals & Materials",
- "deployments": 1,
- "confirmed": 1,
- "with_value_number": 0,
- "proof_rate": 0.0,
+ "deployments": 11,
+ "confirmed": 7,
+ "with_value_number": 3,
+ "proof_rate": 0.273,
  "mktcap": 12118518519.0,
  "revenue": 52785185185.0,
  "employees": 42.0,
  "silent": false,
- "per_bn_revenue": 0.02,
- "per_10k_emp": 238.1,
+ "per_bn_revenue": 0.21,
+ "per_10k_emp": 2619.05,
  "benchmarks": {
   "global_vertical": {
-   "deployments": 0,
-   "confirmed": 20,
-   "proof_rate": 0,
+   "deployments": 94,
+   "confirmed": 92,
+   "proof_rate": 62,
    "n": 105
   },
   "country_vertical": {
-   "deployments": 0,
-   "confirmed": 27,
-   "proof_rate": 0,
+   "deployments": 100,
+   "confirmed": 100,
+   "proof_rate": 64,
    "n": 12
   }
  },
- "first_seen": null,
- "by_year": [],
- "undated_pct": 100,
- "momentum": "none",
- "maturity": "L3",
+ "first_seen": 2024,
+ "by_year": [
+  {
+   "year": 2024,
+   "n": 2
+  },
+  {
+   "year": 2025,
+   "n": 2
+  },
+  {
+   "year": 2026,
+   "n": 6
+  }
+ ],
+ "undated_pct": 9,
+ "momentum": "early_mover,rising",
+ "maturity": "L4",
  "maturity_evidence": [
+  "multi_horizontal",
   "named_product:Industry",
+  "value_number",
+  "multi_year",
   "tier_p"
  ],
- "prospect_score": 54,
+ "prospect_score": 79,
  "stack": [],
  "vendor_named": false,
  "deployments_detail": [
@@ -50,6 +66,116 @@
    "raw_sector": "Energy & Chemicals",
    "date": "missing",
    "fresh": "undated"
+  },
+  {
+   "company": "HD Hyundai",
+   "use": "Avikus AI-based autonomous navigation systems (HiNAS) for commercial vessels; over 700 units in total orders including 300+ HD Hyundai newbuilds and 100+ retrofits, plus a landmark deal to equip 40 HMM vessels. [Avikus (HD Hyundai subsidiary), HiNAS Control]",
+   "existence": "confirmed",
+   "value": "700+ units in total orders; 40 HMM vessels",
+   "tier": "",
+   "url": "https://www.avikus.ai/news/40-hmm",
+   "raw_sector": "",
+   "date": "2026-01",
+   "fresh": "fresh"
+  },
+  {
+   "company": "HD Hyundai",
+   "use": "Real-X powered unmanned autonomous excavator deployed by HD Hyundai XiteSolution/Site Solution; first autonomous excavator delivered, performs preset tasks without operator fatigue. [HD Hyundai XiteSolution, Real-X platform]",
+   "existence": "confirmed",
+   "value": "average 120% productivity",
+   "tier": "",
+   "url": "https://biz.chosun.com/en/en-industry/2026/04/29/WBM4HDBXJ5DVLNGG5INIF6R5D4/",
+   "raw_sector": "",
+   "date": "2026-04",
+   "fresh": "fresh"
+  },
+  {
+   "company": "HD Hyundai",
+   "use": "Integrated Smartship Solution (ISS) / AI-based ship management system that monitors condition of onboard equipment from engine to fuel supply, enabling one-click analysis and predictive maintenance of marine systems. [HD Hyundai Marine Solution]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.hd.com/en/newsroom/media-hub/press/view?&&detailsKey=3293",
+   "raw_sector": "",
+   "date": "2024-10",
+   "fresh": "aging"
+  },
+  {
+   "company": "HD Hyundai",
+   "use": "AI-powered digital shipyard / Industrial Metaverse using Siemens Xcelerator and Digital Twin Composer, connecting ship design through production across HD Hyundai's global shipyards (targeted completion 2030), with Nvidia collaboration on digital twin. [Siemens Xcelerator, Nvidia Omniverse]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://news.siemens.com/en-us/hd-hyundai-selects-siemens-xcelerator/",
+   "raw_sector": "",
+   "date": "2026-02",
+   "fresh": "fresh"
+  },
+  {
+   "company": "HD Hyundai",
+   "use": "Joint development with Naver Cloud of a shipbuilding-specific AI ecosystem: cloud infrastructure, AI factory with GPU infrastructure and private cloud, training AI on 200M+ shipbuilding/offshore documents to optimize ship design and modeling. [Naver Cloud (HyperCLOVA)]",
+   "existence": "claimed",
+   "value": "200M+ documents",
+   "tier": "",
+   "url": "https://splash247.com/hd-hyundai-and-naver-cloud-team-up-on-shipbuilding-ai-ecosystem/",
+   "raw_sector": "",
+   "date": "2026-07",
+   "fresh": "fresh"
+  },
+  {
+   "company": "HD Hyundai",
+   "use": "Humanoid welding robots for shipbuilding automation, jointly developed with Persona AI and HD Hyundai Robotics; bipedal robot to perform welding in shipyards, currently in verification phase targeting commercialization by 2027. [Persona AI, HD Hyundai Robotics]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.prnewswire.com/news-releases/hd-hyundai-and-persona-ai-sign-agreement-to-deploy-humanoid-welding-robots-for-shipbuilding-automation-302449258.html",
+   "raw_sector": "",
+   "date": "2025-05",
+   "fresh": "fresh"
+  },
+  {
+   "company": "HD Hyundai",
+   "use": "AI-based structural analysis and ship design optimization solution jointly developed by HD Hyundai Samho and Korean Register (KR): determines number/position of hull supports and automates structural assessment; year-long joint project completed. [Korean Register (KR), HD Hyundai Samho]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.rivieramm.com/news-content-hub/news-content-hub/hd-hyundai-korean-register-develop-ai-for-shipbuilding-applications-88974",
+   "raw_sector": "",
+   "date": "2026-06",
+   "fresh": "fresh"
+  },
+  {
+   "company": "HD Hyundai",
+   "use": "Partnership with Altair to apply AI to optimize the performance of eco-friendly marine engines and explore AI potential in marine technology. [Altair]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.offshore-energy.biz/hd-hyundai-seeks-ai-edge-in-marine-technology-via-new-partnership/",
+   "raw_sector": "",
+   "date": "2025-05",
+   "fresh": "fresh"
+  },
+  {
+   "company": "HD Hyundai",
+   "use": "Group-wide deployment of Palantir Foundry and Artificial Intelligence Platform (AIP) across HD Hyundai business units, including establishing a Center of Excellence for Foundry and AIP for shipbuilding and marine operations. [Palantir (Foundry, AIP)]",
+   "existence": "confirmed",
+   "value": "hundreds-of-millions software deal",
+   "tier": "",
+   "url": "https://investors.palantir.com/news-details/2026/HD-Hyundai-and-Palantir-Expand-Group-Wide-Strategic-Partnership/",
+   "raw_sector": "",
+   "date": "2026-01",
+   "fresh": "fresh"
+  },
+  {
+   "company": "HD Hyundai",
+   "use": "HiCAMS (HD Hyundai intelligent Camera based Alarm Monitoring System) uses onboard CCTV and AI algorithms to detect and analyze safety-related events (fire, personnel hazards) in real time at shipyards and on vessels; officially launched. [HD Hyundai (in-house)]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.hd.com/en/newsroom/media-hub/press/view?detailsKey=3171",
+   "raw_sector": "",
+   "date": "2024-07",
+   "fresh": "aging"
   }
  ]
 }

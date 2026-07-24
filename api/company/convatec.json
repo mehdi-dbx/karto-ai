@@ -3,39 +3,54 @@
  "name": "Convatec",
  "cc": "UK",
  "vertical": "Healthcare & Life Sciences",
- "deployments": 1,
- "confirmed": 1,
+ "deployments": 7,
+ "confirmed": 5,
  "with_value_number": 0,
  "proof_rate": 0.0,
  "mktcap": 5321300000.0,
  "revenue": 2298700000.0,
  "employees": 10910.0,
  "silent": false,
- "per_bn_revenue": 0.44,
- "per_10k_emp": 0.92,
+ "per_bn_revenue": 3.05,
+ "per_10k_emp": 6.42,
  "benchmarks": {
   "global_vertical": {
-   "deployments": 0,
-   "confirmed": 14,
+   "deployments": 90,
+   "confirmed": 90,
    "proof_rate": 0,
    "n": 165
   },
   "country_vertical": {
-   "deployments": 0,
-   "confirmed": 0,
+   "deployments": 88,
+   "confirmed": 88,
    "proof_rate": 0,
    "n": 9
   }
  },
- "first_seen": null,
- "by_year": [],
- "undated_pct": 100,
- "momentum": "none",
+ "first_seen": 2020,
+ "by_year": [
+  {
+   "year": 2020,
+   "n": 1
+  },
+  {
+   "year": 2025,
+   "n": 1
+  },
+  {
+   "year": 2026,
+   "n": 2
+  }
+ ],
+ "undated_pct": 43,
+ "momentum": "early_mover,rising",
  "maturity": "L3",
  "maturity_evidence": [
-  "named_product:SAP"
+  "multi_horizontal",
+  "named_product:SAP",
+  "multi_year"
  ],
- "prospect_score": 46,
+ "prospect_score": 70,
  "stack": [
   "SAP"
  ],
@@ -51,6 +66,72 @@
    "raw_sector": "Health care equipment & supplies",
    "date": "missing",
    "fresh": "undated"
+  },
+  {
+   "company": "Convatec",
+   "use": "Machine-learning models used in customer/clinical support: assisting customer care agents to give faster tailored guidance to patients/HCPs and helping clinicians select the best wound-care dressing for a patient (trained on de-identified patient/HCP data).",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.convatec.com/privacy-policy/",
+   "raw_sector": "",
+   "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "Convatec",
+   "use": "Enterprise 'Forward Deployed AI Engineer' program building and deploying AI-enabled business workflows across teams (HR, Finance, operations), embedded directly with business units, using a Microsoft/SAP agentic stack with production CI/CD, model versioning and AIOps monitoring. [Microsoft Azure AI Foundry, Copilot Studio, Microsoft Fabric, SAP Joule, Salesforce]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://builtin.com/job/forward-deployed-ai-engineer/10133577",
+   "raw_sector": "",
+   "date": "2026",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Convatec",
+   "use": "AI-powered SAP S/4HANA transformation: refresh of Convatec's global SAP landscape and deployment of an SAP digital core to enable intelligent, AI-powered digital operations and process harmonization, delivered via an 'AI-first' implementation approach. [LTIMindtree, SAP S/4HANA]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.businesswire.com/news/home/20251114580133/en/Convatec-Selects-LTIMindtree-for-Strategic-AI-Powered-SAP-S4HANA-Transformation",
+   "raw_sector": "",
+   "date": "2025-11",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Convatec",
+   "use": "Smart ostomy monitoring system (Alfred SmartBag / 11 Health) with a trained neural network that reads a thermal/capacitive sensor heat map to distinguish solid/liquid/gas effluent phases and detect leaks, bag fill and skin issues, alerting patients via a connected app. [Convatec Technologies / 11 Health (proprietary neural network)]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://patents.google.com/patent/US10874541B2/en",
+   "raw_sector": "",
+   "date": "2020",
+   "fresh": "stale"
+  },
+  {
+   "company": "Convatec",
+   "use": "Computer-vision / machine-learning model trained to recognize different types of stomas and skin colours, explicitly to minimize bias and improve algorithm performance across diverse patients.",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.convatec.com/privacy-policy/",
+   "raw_sector": "",
+   "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "Convatec",
+   "use": "Prospective multicentre validation of a previously developed predictive model for multidrug-resistant gram-negative bacteria (MDRGNB) infection in wounds, used as clinical decision support in advanced wound care.",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.linkedin.com/posts/convatec_at-convatec-we-have-continued-to-make-significant-activity-7472231977459384324-AzL6",
+   "raw_sector": "",
+   "date": "2026",
+   "fresh": "fresh"
   }
  ]
 }
