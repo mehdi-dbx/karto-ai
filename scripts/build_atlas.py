@@ -310,7 +310,20 @@ a:hover {{ text-decoration: underline; }}
 .nextblock a:hover {{ border-color:var(--accent); color:var(--accent); text-decoration:none; }}
 .coverage-note {{ margin-top:22px; font-family:var(--font-ui); font-size:11px; color:var(--muted); line-height:1.5; max-width:70ch; opacity:.85; }}
 /* D9 use-case catalog */
-.uc-cards {{ display:grid; grid-template-columns:repeat(auto-fill,minmax(280px,1fr)); gap:16px; margin-top:24px; }}
+/* D9b — use-case bar chart: companies found running each pattern (plain counts) */
+.uc-bars {{ margin-top:22px; display:flex; flex-direction:column; gap:7px; }}
+.uc-bars .uc-brow {{ display:grid; grid-template-columns:minmax(140px,220px) 1fr auto; align-items:center; gap:14px; cursor:pointer; text-decoration:none; }}
+.uc-bars .uc-brow:hover .uc-bname {{ color:var(--accent); }}
+.uc-bname {{ font-family:var(--font-ui); font-size:12.5px; color:var(--ink-2); white-space:nowrap; overflow:hidden; text-overflow:ellipsis; transition:color .15s; }}
+.uc-btrack {{ position:relative; height:18px; background:var(--surface-2); border-radius:5px; overflow:hidden; }}
+.uc-bfill {{ position:absolute; inset:0 auto 0 0; height:100%; background:color-mix(in srgb, var(--accent) 26%, var(--surface)); border-radius:5px; }}
+.uc-bnum {{ position:absolute; inset:0 auto 0 0; height:100%; background:var(--accent); border-radius:5px; }}
+.uc-bval {{ font-family:var(--font-ui); font-variant-numeric:tabular-nums; font-size:12px; color:var(--ink-2); white-space:nowrap; }}
+.uc-bval b {{ color:var(--ink); }}
+.uc-bkey {{ display:flex; gap:16px; flex-wrap:wrap; font-family:var(--font-ui); font-size:11.5px; color:var(--muted); margin:4px 0 2px; }}
+.uc-bkey .k {{ display:flex; align-items:center; gap:6px; }}
+.uc-bkey .sw {{ width:16px; height:9px; border-radius:3px; }}
+.uc-cards {{ display:grid; grid-template-columns:repeat(auto-fill,minmax(280px,1fr)); gap:16px; margin-top:32px; }}
 .uc-card {{ display:block; padding:18px; border:1px solid var(--hair); border-radius:12px; background:var(--surface); text-decoration:none; transition:border-color .18s ease, transform .18s ease; }}
 .uc-card:hover {{ border-color:var(--accent); transform:translateY(-2px); text-decoration:none; }}
 .uc-name {{ font-family:var(--font-head); font-weight:560; font-size:16px; color:var(--ink); }}
@@ -919,6 +932,7 @@ a.colink {{ color:var(--ink); text-decoration:none; }} a.colink:hover {{ color:v
         </select>
       </div>
     </div>
+    <div id="ucBars" class="uc-bars"></div>
     <div class="uc-cards" id="ucCards"></div>
   </div>
 </section>
@@ -1618,10 +1632,30 @@ function renderUsecases() {{
   }}
   drawUsecases();
 }}
+// ranked bars: how many companies we FOUND running each pattern (a lower bound, not a census).
+// light bar = companies (runners); dark inset = how many of those cite a value number. Both plain counts.
+function drawUcBars(list) {{
+  const host=document.getElementById('ucBars'); if(!host) return;
+  const rows=[...list].sort((a,b)=>b.runners-a.runners);
+  if(!rows.length){{ host.innerHTML=''; return; }}
+  const max=Math.max(...rows.map(u=>u.runners),1);
+  host.innerHTML =
+    `<div class="uc-bkey"><span class="k"><span class="sw" style="background:color-mix(in srgb,var(--accent) 26%,var(--surface))"></span>companies found running it</span>`
+    + `<span class="k"><span class="sw" style="background:var(--accent)"></span>of those, cite a value number</span></div>`
+    + rows.map(u=>{{
+      const w=Math.max(2,100*u.runners/max), wn=100*(u.with_value_number||0)/max;
+      return `<a class="uc-brow" href="#/usecase/${{encodeURIComponent(u.pattern_id)}}" title="${{esc(u.name)}} — ${{u.runners}} companies found; ${{u.with_value_number||0}} cite a value number">`
+        + `<span class="uc-bname">${{esc(u.name)}}</span>`
+        + `<span class="uc-btrack"><span class="uc-bfill" style="width:${{w}}%"></span><span class="uc-bnum" style="width:${{wn}}%"></span></span>`
+        + `<span class="uc-bval"><b>${{u.runners}}</b> · ${{u.with_value_number||0}} w/#</span></a>`;
+    }}).join('')
+    + `<p class="cmp-note" style="margin-top:10px">Counts are companies our sourcing <b>found</b> running each pattern — a lower bound, not a census. "w/#" = how many cite a value number.</p>`;
+}}
 function drawUsecases() {{
   const v=document.getElementById('ucVert').value, sort=document.getElementById('ucSort').value||'runners';
   let list=[...(ATLAS.usecases||[])];
   if(v) list=list.filter(u=>u.verticals.includes(v));
+  drawUcBars(list);
   list.sort((a,b)=> sort==='first_seen' ? ((a.first_seen||9999)-(b.first_seen||9999)) : (b[sort]-a[sort]));
   document.getElementById('ucCards').innerHTML = list.map(u=>`
     <a class="uc-card" href="#/usecase/${{encodeURIComponent(u.pattern_id)}}">
