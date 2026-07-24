@@ -585,46 +585,10 @@ QSTATS={
   "count_momentum_break": sum(1 for m in MOMENTUM_VERT if "rising" in (m.get("label") or "")),
   "count_deployments": GLOBAL["deployments"],
   "count_usecases": QSTATS_USECASES,     # Step 7
-  "count_changes": None,      # lit by Step 10
 }
 json.dump(QSTATS, open(os.path.join(ROOT,"data","question_stats.json"),"w"), ensure_ascii=False, indent=1)
 
-# ---------- H2 changelog: diff current vs prior compact state ----------
-PREV=os.path.join(ROOT,"data","atlas_prev_state.json")
-CHANGELOG=os.path.join(ROOT,"data","changelog.json")
-def compact_state():
-    st={}
-    for c in COMPANIES:
-        st[c["slug"]]={"n":c["deployments"],"conf":c["confirmed"],"wn":c["with_value_number"],
-                       "mat":c.get("maturity"),"silent":c["silent"],"mom":c.get("momentum")}
-    return st
-cur_state=compact_state()
-entries=[]
-STAMP=os.environ.get("KARTO_COOK_DATE","")   # optional stamp; else undated entry
-if os.path.exists(PREV):
-    try: prev=json.load(open(PREV))
-    except: prev={}
-    name_of={c["slug"]:c["name"] for c in COMPANIES}
-    for slug,now in cur_state.items():
-        old=prev.get(slug)
-        nm=name_of.get(slug,slug)
-        if old is None:
-            if not now["silent"]:
-                entries.append({"type":"new_deployment","slug":slug,"name":nm,"text":f"{nm}: first appearance in the register"})
-            continue
-        if old.get("mat")!=now.get("mat") and now.get("mat") and old.get("mat"):
-            entries.append({"type":"maturity_change","slug":slug,"name":nm,"text":f"{nm}: maturity {old['mat']} → {now['mat']}"})
-        if old.get("wn",0)==0 and now.get("wn",0)>0:
-            entries.append({"type":"first_value_number","slug":slug,"name":nm,"text":f"{nm}: first value number disclosed"})
-        if old.get("n",0)<now.get("n",0):
-            entries.append({"type":"new_deployment","slug":slug,"name":nm,"text":f"{nm}: +{now['n']-old['n']} deployment(s)"})
-        if not old.get("silent") and now.get("silent"):
-            entries.append({"type":"gone_quiet","slug":slug,"name":nm,"text":f"{nm}: no longer disclosing AI"})
-json.dump({"generated":STAMP,"entries":entries}, open(CHANGELOG,"w"), ensure_ascii=False, indent=1)
-QSTATS["count_changes"]=len(entries) if entries else None
 json.dump(QSTATS, open(os.path.join(ROOT,"data","question_stats.json"),"w"), ensure_ascii=False, indent=1)
-# persist current state as the next baseline
-json.dump(cur_state, open(PREV,"w"), ensure_ascii=False)
 
 print(f"cooked -> {OUT}")
 print(f"  global: {GLOBAL['deployments']} deploys, {GLOBAL['companies']} cos, {GLOBAL['confirmed']} confirmed")

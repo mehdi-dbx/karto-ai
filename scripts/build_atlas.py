@@ -67,8 +67,6 @@ WORLD_JSON = open(os.path.join(ROOT, "data", "world-110m.json")).read()
 QUESTIONS_JSON = open(os.path.join(ROOT, "data", "questions.json")).read()
 _qs_path = os.path.join(ROOT, "data", "question_stats.json")
 QSTATS_JSON = open(_qs_path).read() if os.path.exists(_qs_path) else "{}"
-_cl_path = os.path.join(ROOT, "data", "changelog.json")
-CHANGELOG_JSON = open(_cl_path).read() if os.path.exists(_cl_path) else '{"entries":[]}'
 D3 = open(os.path.join(VENDOR, "d3.v7.min.js")).read()
 TOPO = open(os.path.join(VENDOR, "topojson-client.min.js")).read()
 
@@ -341,14 +339,6 @@ a:hover {{ text-decoration: underline; }}
 .vchip {{ font-family:var(--font-ui); font-size:12.5px; color:var(--ink-2); background:var(--surface-2);
   border:1px solid var(--hair); border-radius:999px; padding:5px 12px; text-decoration:none; }}
 a.vchip:hover {{ border-color:var(--accent); color:var(--accent); text-decoration:none; }}
-/* H2 changelog + since-visit */
-.cl-list {{ margin-top:22px; }}
-.cl-row {{ display:flex; align-items:baseline; gap:10px; padding:10px 0; border-bottom:1px solid var(--hair); font-family:var(--font-body); font-size:14.5px; color:var(--ink-2); }}
-.cl-ico {{ color:var(--accent); flex:none; }}
-.since-visit {{ margin:24px 0 0; }}
-.since-visit a {{ font-family:var(--font-ui); font-size:13px; color:var(--ink); text-decoration:none; background:color-mix(in srgb,var(--accent) 12%,var(--surface)); border:1px solid var(--hair); border-radius:999px; padding:8px 15px; display:inline-block; }}
-.since-visit a:hover {{ border-color:var(--accent); text-decoration:none; }}
-.since-visit b {{ color:var(--accent); }}
 .expbtn {{ margin-top:24px; font-family:var(--font-ui); font-size:13px; color:var(--ink); background:var(--surface-2);
   border:1px solid var(--hair); border-radius:8px; padding:10px 18px; cursor:pointer; transition:border-color .2s ease, color .2s ease; }}
 .expbtn:hover {{ border-color:var(--accent); color:var(--accent); }}
@@ -651,7 +641,6 @@ a.colink {{ color:var(--ink); text-decoration:none; }} a.colink:hover {{ color:v
     <a href="#/trends" class="navlink" data-route="trends">Trends</a>
     <a href="#/hype" class="navlink" data-route="hype">Adoption&nbsp;vs.&nbsp;evidence</a>
     <a href="#/compare" class="navlink" data-route="compare">Compare</a>
-    <a href="#/changelog" class="navlink" data-route="changelog">Changelog</a>
     <a href="#/silent" class="navlink" data-route="silent">Silent&nbsp;list</a>
     <div class="omni-wrap">
       <label class="omni-box" for="omni">{icon('search',14)}<input id="omni" type="search" autocomplete="off"
@@ -728,7 +717,6 @@ a.colink {{ color:var(--ink); text-decoration:none; }} a.colink:hover {{ color:v
 
     <button class="descend" id="descend">Descend to the world <span class="arrow">↓</span></button>
 
-    <div class="since-visit" id="sinceVisit" style="display:none"></div>
     <div class="qmenu-intro">Ask a question — one click to the answer, pre-filtered and sourced.</div>
     <div class="qmenu" id="qmenu"></div>
 
@@ -948,22 +936,6 @@ a.colink {{ color:var(--ink); text-decoration:none; }} a.colink:hover {{ color:v
   <div class="terr" id="vendorBody"></div>
 </section>
 
-<!-- changelog (H2) -->
-<section class="altitude" id="changelog" data-alt="Changelog">
-  <div class="terr">
-    <div class="head">
-      <div>
-        <h2>Changelog — <span class="scope">what changed in the data</span></h2>
-        <p class="lede">Each time the register is updated, this logs what moved: new deployments,
-        maturity changes, first value numbers, companies that went quiet.</p>
-      </div>
-      <div class="controls"><select id="clType" class="filtersel"><option value="">All changes</option></select></div>
-    </div>
-    <div id="clList" class="cl-list"></div>
-    <p class="footnote" id="clEmpty"></p>
-  </div>
-</section>
-
 <!-- ============ COMPANIES (filterable list — question targets land here) ============ -->
 <section class="altitude" id="companies" data-alt="Companies">
   <div class="terr">
@@ -1037,7 +1009,6 @@ a.colink {{ color:var(--ink); text-decoration:none; }} a.colink:hover {{ color:v
 <script id="atlas-data" type="application/json">{DATA_JSON}</script>
 <script id="questions-data" type="application/json">{QUESTIONS_JSON}</script>
 <script id="qstats-data" type="application/json">{QSTATS_JSON}</script>
-<script id="changelog-data" type="application/json">{CHANGELOG_JSON}</script>
 <script id="world-data" type="application/json">{WORLD_JSON}</script>
 <script>{D3}</script>
 <script>{TOPO}</script>
@@ -1099,7 +1070,6 @@ const ROUTES = {{
   'hype':   {{hash:'/hype',   label:'Hype',   show:renderHype}},
   'compare':{{hash:'/compare',label:'Compare',show:renderCompare}},
   'usecases':{{hash:'/usecases',label:'Use cases',show:renderUsecases}},
-  'changelog':{{hash:'/changelog',label:'Changelog',show:renderChangelog}},
   'companies':{{hash:'/companies',label:'Companies',show:renderCompanies}},
   'silent': {{hash:'/silent', label:'Silent list', show:renderSilent}},
 }};
@@ -1580,43 +1550,6 @@ function renderVendor(slug) {{
         return slug?`<a class="colink" href="#/company/${{slug}}">${{esc(cn)}}</a>`:`<span>${{esc(cn)}}</span>`; }}).join(' · ')
     + `</div><p class="footnote">Industries: ${{v.verticals.map(esc).join(' · ')}}. Disclosure bias: vendors are named selectively — "not disclosed" is common and never inferred.</p>`;
   host.innerHTML=html; window.scrollTo({{top:0,behavior:'smooth'}});
-}}
-
-/* ============ H2 CHANGELOG + since-last-visit ============ */
-const CHANGELOG = JSON.parse(document.getElementById('changelog-data').textContent);
-const CL_ICON={{new_deployment:`{icon('plus',15)}`,maturity_change:`{icon('trending-up',15)}`,first_value_number:`{icon('badge-dollar-sign',15)}`,gone_quiet:`{icon('moon',15)}`,new_silent:`{icon('circle-slash',15)}`,verdict_change:`{icon('refresh-cw',15)}`}};
-let clTypeSel=false;
-function renderChangelog() {{
-  goAltitude('changelog','Changelog');
-  const entries=CHANGELOG.entries||[];
-  const sel=document.getElementById('clType');
-  if(!clTypeSel){{ clTypeSel=true;
-    [...new Set(entries.map(e=>e.type))].forEach(t=>sel.insertAdjacentHTML('beforeend',`<option value="${{t}}">${{t.replace(/_/g,' ')}}</option>`));
-    sel.onchange=drawChangelog;
-  }}
-  drawChangelog();
-}}
-function drawChangelog() {{
-  const entries=CHANGELOG.entries||[]; const t=document.getElementById('clType').value;
-  const list=entries.filter(e=>!t||e.type===t);
-  const host=document.getElementById('clList');
-  host.innerHTML=list.map(e=>{{
-    const co=e.slug&&COMP_BY_SLUG&&COMP_BY_SLUG[e.slug]?`<a class="colink" href="#/company/${{e.slug}}">${{esc(e.name||e.slug)}}</a>`:esc(e.name||'');
-    return `<div class="cl-row"><span class="cl-ico">${{CL_ICON[e.type]||''}}</span><span class="cl-t">${{esc(e.text)}}</span></div>`;
-  }}).join('');
-  document.getElementById('clEmpty').textContent = list.length ? `${{list.length}} change(s) since the last data update.`
-    : 'Nothing has changed since the last data update. Entries appear here the next time a company gains a deployment, discloses a value number, shifts maturity, or goes quiet.';
-}}
-// since-last-visit strip on home (localStorage; no accounts/server)
-function renderSinceVisit() {{
-  const strip=document.getElementById('sinceVisit'); if(!strip) return;
-  const n=(CHANGELOG.entries||[]).length;
-  let last=null; try{{ last=localStorage.getItem('karto_last_visit'); }}catch(e){{}}
-  if(last && n>0){{
-    strip.innerHTML=`<a href="#/changelog">{icon('activity',14)} Since your last visit: <b>${{n}}</b> change(s) in the dataset →</a>`;
-    strip.style.display='block';
-  }} else strip.style.display='none';
-  try{{ localStorage.setItem('karto_last_visit', String(Date.now())); }}catch(e){{}}
 }}
 
 /* ============ D9 USE-CASE CATALOG + DETAIL ============ */
@@ -2311,10 +2244,9 @@ scrim.addEventListener('click',closePanel);
 document.getElementById('pclose').addEventListener('click',closePanel);
 document.addEventListener('keydown',e=>{{ if(e.key==='Escape'&&panel.classList.contains('open'))closePanel(); }});
 
-/* render the question menu + since-last-visit strip on the home screen (N1/H2) */
+/* render the question menu on the home screen (N1) */
 renderQMenu();
 indexCompanies();
-renderSinceVisit();
 /* honor a deep-link hash on first load (e.g. someone opens #/silent directly) */
 if (location.hash && location.hash!=='#') applyRoute();
 </script>

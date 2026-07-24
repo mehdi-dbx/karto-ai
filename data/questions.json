@@ -55,7 +55,6 @@
    "teaser_metric": "count_momentum_break",
    "followups": [
     "all_talk_no_money",
-    "what_changed",
     "proven_in_sector"
    ],
    "enabled": true
@@ -218,27 +217,7 @@
    "teaser_metric": null,
    "followups": [
     "proven_in_sector",
-    "what_changed",
     "quiet_accelerators"
-   ],
-   "enabled": true
-  },
-  {
-   "id": "what_changed",
-   "text": "What changed recently?",
-   "personas": [
-    "exploring"
-   ],
-   "target": "#/changelog",
-   "params_open": [
-    "country",
-    "vertical"
-   ],
-   "teaser_metric": "count_changes",
-   "followups": [
-    "quiet_accelerators",
-    "all_talk_no_money",
-    "silent_giants"
    ],
    "enabled": true
   },
@@ -287,7 +266,6 @@
   ],
   "trends": [
    "quiet_accelerators",
-   "what_changed",
    "all_talk_no_money"
   ],
   "world": [
@@ -304,11 +282,6 @@
    "references_like_client",
    "coming_next",
    "compare_rivals"
-  ],
-  "changelog": [
-   "quiet_accelerators",
-   "all_talk_no_money",
-   "silent_giants"
   ]
  }
 }
