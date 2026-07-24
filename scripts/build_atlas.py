@@ -801,6 +801,7 @@ a.colink {{ color:var(--ink); text-decoration:none; }} a.colink:hover {{ color:v
         </div>
       </div>
     </div>
+    <p id="insHint" class="coverage-note" style="margin-top:0"></p>
     <div id="insFeed" class="insfeed"></div>
   </div>
 </section>
@@ -1233,18 +1234,23 @@ function renderInsights() {{
 function drawInsights() {{
   const feed=document.getElementById('insFeed');
   const cards=(ATLAS.insights||[]).filter(c=>(!insPersona || (c.persona||[]).includes(insPersona)) && (!insType || c.type===insType));
+  // GATED (B7-r): default view = neutral finding only. The persona-specific ACTION appears
+  // only when a user explicitly selects their role — so the public face stays observational,
+  // and the tactical suggestion is opt-in, never shown about a company by default.
   feed.innerHTML = cards.map(c=>{{
     const co=(c.entities||[]).map(sl=>{{const x=COMP_BY_SLUG&&COMP_BY_SLUG[sl]; return x?`<a class="colink" href="#/company/${{sl}}">${{esc(x.name)}}</a>`:'';}}).filter(Boolean).join(', ');
-    // B7-r: persona-specific action wording when a persona is selected, else the default flat action
-    const act = (insPersona && c.actions && c.actions[insPersona]) ? c.actions[insPersona] : c.action;
+    const act = insPersona && c.actions && c.actions[insPersona];
     return `<div class="inscard">
       <div class="ins-h"><span class="ins-ico">${{ICON[c.type]||'•'}}</span><span class="ins-type">${{c.type.replace(/_/g,' ')}}</span>
-        <span style="flex:1"></span><span class="ins-score" title="surprise score">${{c.surprise_score}}</span></div>
+        <span style="flex:1"></span><span class="ins-score" title="how far from the norm">${{c.surprise_score}}</span></div>
       <div class="ins-find">${{esc(c.finding)}}</div>
-      <div class="ins-act"><b>${{insPersona?insPersona[0].toUpperCase()+insPersona.slice(1)+' action:':'Action:'}}</b> ${{esc(act)}}</div>
+      ${{act ? `<div class="ins-act"><b>${{insPersona[0].toUpperCase()+insPersona.slice(1)}} angle:</b> ${{esc(act)}}</div>` : ''}}
       ${{co?`<div class="ins-ent">${{co}}</div>`:''}}
     </div>`;
-  }}).join('') || '<p class="lede">No insights for this persona.</p>';
+  }}).join('') || '<p class="lede">No items for this filter.</p>';
+  // hint that actions are opt-in, only when none selected
+  const hint=document.getElementById('insHint');
+  if(hint) hint.textContent = insPersona ? '' : 'Pick a role above to see how each finding applies to you.';
 }}
 /* D7 — markdown briefing export (client-side, download) */
 function exportBriefing(kind, payload) {{
