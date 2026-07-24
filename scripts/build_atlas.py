@@ -953,9 +953,9 @@ a.colink {{ color:var(--ink); text-decoration:none; }} a.colink:hover {{ color:v
   <div class="terr">
     <div class="head">
       <div>
-        <h2>Changelog — <span class="scope">the heartbeat</span></h2>
-        <p class="lede">What moved since the last build: new deployments, maturity changes,
-        first value numbers, companies gone quiet. The sign the dataset is alive.</p>
+        <h2>Changelog — <span class="scope">what changed in the data</span></h2>
+        <p class="lede">Each time the register is updated, this logs what moved: new deployments,
+        maturity changes, first value numbers, companies that went quiet.</p>
       </div>
       <div class="controls"><select id="clType" class="filtersel"><option value="">All changes</option></select></div>
     </div>
@@ -1604,8 +1604,8 @@ function drawChangelog() {{
     const co=e.slug&&COMP_BY_SLUG&&COMP_BY_SLUG[e.slug]?`<a class="colink" href="#/company/${{e.slug}}">${{esc(e.name||e.slug)}}</a>`:esc(e.name||'');
     return `<div class="cl-row"><span class="cl-ico">${{CL_ICON[e.type]||''}}</span><span class="cl-t">${{esc(e.text)}}</span></div>`;
   }}).join('');
-  document.getElementById('clEmpty').textContent = list.length ? `${{list.length}} change(s) this build.`
-    : 'No changes recorded yet — the first entries appear after the next data update (the resweep). This is the heartbeat, empty until it beats.';
+  document.getElementById('clEmpty').textContent = list.length ? `${{list.length}} change(s) since the last data update.`
+    : 'Nothing has changed since the last data update. Entries appear here the next time a company gains a deployment, discloses a value number, shifts maturity, or goes quiet.';
 }}
 // since-last-visit strip on home (localStorage; no accounts/server)
 function renderSinceVisit() {{
