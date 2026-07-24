@@ -1730,12 +1730,25 @@ function renderUsecase(pid) {{
   if(u.diffusion&&u.diffusion.length){{
     html+=`<h3 class="csub">Diffusion (first seen by country — estimates)</h3>${{diffusionStrip(u.diffusion)}}`;
   }}
-  // top runners
-  html+=`<h3 class="csub">Runners</h3><div class="uc-runners">`
-    + (u.top_companies||[]).map(cn=>{{ const slug=SLUG_BY_NAME[cn+'|'+((ATLAS.companies.find(c=>c.name===cn)||{{}}).cc)];
-        return slug?`<a class="colink" href="#/company/${{slug}}">${{esc(cn)}}</a>`:`<span>${{esc(cn)}}</span>`; }}).join(' · ')
-    + `</div>`;
-  html+=`<p class="footnote">Industries: ${{u.verticals.map(esc).join(' · ')}}.</p>`;
+  // full deployment entries (same data as the register, entered by pattern instead of by company)
+  const ents=(u.entries||[]).slice().sort((a,b)=>(a.existence==='confirmed'?0:1)-(b.existence==='confirmed'?0:1) || a.company.localeCompare(b.company));
+  if(ents.length){{
+    html+=`<h3 class="csub">${{ents.length}} deployment${{ents.length!==1?'s':''}}</h3><div class="cdeps">`
+      + ents.map(e=>{{
+        const ex=e.existence||'none', tier=(e.tier||'').trim().toUpperCase();
+        const val=(e.value||'').trim(); const showVal=val && !/^(none|n\\/a|—|-)/i.test(val);
+        const slug=SLUG_BY_NAME[e.company+'|'+e.cc];
+        const nm=slug?`<a class="name colink" href="#/company/${{slug}}">${{esc(e.company)}}</a>`:`<span class="name">${{esc(e.company)}}</span>`;
+        return `<div class="co"><div class="top">${{nm}} <span style="color:var(--muted);font-size:11.5px">· ${{esc(e.cc)}} · ${{esc(e.vertical||'')}}</span>`
+          + `<span style="flex:1"></span><span class="exist"><span class="glyph ${{ex==='confirmed'?'g-proven':(ex==='claimed'?'g-talk':'')}}">${{ex==='confirmed'?'●':(ex==='claimed'?'○':'·')}}</span></span></div>`
+          + `<div class="use">${{esc(e.use?e.use.split(';')[0]:'—')}}</div>`
+          + `<div class="meta">${{['P','I','S'].includes(tier)?`<span class="chip ${{tier}}">tier ${{tier}}</span>`:''}}`
+          + `${{showVal?`<span class="val">${{esc(val)}}</span>`:'<span class="val" style="opacity:.6">no value number</span>'}}`
+          + `${{e.date&&e.date!=='missing'?`<span>${{esc(e.date)}}</span>`:''}}`
+          + `<span style="flex:1"></span>${{srcLinks(e.url)}}</div></div>`;
+      }}).join('')+`</div>`;
+  }}
+  html+=`<p class="footnote">Industries: ${{u.verticals.map(esc).join(' · ')}}. Entries are the same register rows, entered by pattern rather than by company — a lower bound on what our sourcing found.</p>`;
   // transfer opportunity
   if(transfer){{
     html+=`<h3 class="csub">Transfer opportunity</h3><div class="cflag" style="background:color-mix(in srgb,var(--v-unquantified) 10%,var(--surface))">

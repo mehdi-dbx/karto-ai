@@ -505,13 +505,18 @@ if os.path.exists(uc_path) and os.path.exists(tax_path):
             y=year_of(rows[i][10]); cc=rows[i][1]
             if y and (cc not in diff or y<diff[cc]): diff[cc]=y
         meta=TAXN.get(pid,{})
+        # full deployment entries tagged to this pattern (same data as the A3 panel, indexed by pattern)
+        entries=[{"company":rows[i][0],"cc":rows[i][1],"vertical":rows[i][2],"use":rows[i][5],
+                  "existence":rows[i][6],"value":rows[i][7],"tier":rows[i][8],"url":rows[i][9],"date":rows[i][10]}
+                 for i in idxs]
         USECASES.append({"pattern_id":pid,"name":meta.get("name",pid),"description":meta.get("description",""),
             "horizontal":meta.get("horizontal",""),"runners":len(cos),"deployments":len(idxs),
             "verticals":[v for v,_ in verts.most_common()],"countries":[c for c,_ in ctys.most_common()],
             "first_seen":min(yrs) if yrs else None,"with_value_number":wn,
             "proof_rate":round(wn/len(idxs),3),
             "diffusion":sorted([{"cc":c,"first_year":y} for c,y in diff.items()], key=lambda x:x["first_year"]),
-            "top_companies":[rows[i][0] for i in idxs[:8]]})
+            "top_companies":[rows[i][0] for i in idxs[:8]],
+            "entries":entries})
     USECASES=[u for u in USECASES if u["runners"]>=2]   # no single-runner patterns (A7 test)
     USECASES.sort(key=lambda x:-x["runners"])
     # transfer_opportunities: pattern proven in vertical X (>=3 runners) but absent in vertical Y
