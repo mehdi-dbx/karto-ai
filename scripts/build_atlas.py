@@ -192,6 +192,26 @@ a:hover {{ text-decoration: underline; }}
 .navlink {{ font-family: var(--font-ui); font-size: 12.5px; color: var(--ink-2); text-decoration: none; letter-spacing: .02em; white-space: nowrap; }}
 .navlink:hover {{ color: var(--accent); text-decoration: none; }}
 .navlink.on {{ color: var(--ink); font-weight: 560; }}
+/* global company omnibox (jump-to-company from anywhere) */
+.omni-wrap {{ position: relative; }}
+.omni-box {{ display: flex; align-items: center; gap: 6px; padding: 5px 9px; border: 1px solid var(--hair);
+  border-radius: 8px; background: var(--surface); color: var(--muted); transition: border-color .15s; }}
+.omni-box:focus-within {{ border-color: var(--accent); color: var(--ink-2); }}
+.omni-box input {{ border: 0; outline: 0; background: transparent; font-family: var(--font-ui); font-size: 12.5px;
+  color: var(--ink); width: 150px; }}
+.omni-box input::placeholder {{ color: var(--muted); }}
+.omni-results {{ position: absolute; top: calc(100% + 6px); right: 0; width: 340px; max-height: 60vh; overflow-y: auto;
+  background: var(--surface); border: 1px solid var(--hair); border-radius: 10px; box-shadow: 0 12px 32px rgba(0,0,0,.18);
+  z-index: 40; display: none; }}
+.omni-results.open {{ display: block; }}
+.omni-opt {{ display: flex; align-items: baseline; gap: 8px; padding: 9px 12px; cursor: pointer; border-bottom: 1px solid var(--hair); }}
+.omni-opt:last-child {{ border-bottom: 0; }}
+.omni-opt:hover, .omni-opt.active {{ background: color-mix(in srgb, var(--accent) 9%, var(--surface)); }}
+.omni-opt .on {{ font-family: var(--font-body); font-size: 13.5px; color: var(--ink); }}
+.omni-opt .om {{ font-family: var(--font-ui); font-size: 11.5px; color: var(--muted); margin-left: auto; white-space: nowrap; }}
+.omni-opt .osilent {{ font-family: var(--font-ui); font-size: 10.5px; color: var(--muted); border: 1px solid var(--hair);
+  border-radius: 5px; padding: 1px 5px; }}
+.omni-empty {{ padding: 12px; font-family: var(--font-ui); font-size: 12.5px; color: var(--muted); }}
 .filtersel {{ font-family: var(--font-ui); font-size: 12.5px; color: var(--ink); background: var(--surface);
   border: 1px solid var(--hair); border-radius: 8px; padding: 6px 10px; cursor: pointer; }}
 .filtersel:hover {{ border-color: var(--muted); }}
@@ -585,6 +605,11 @@ a.colink {{ color:var(--ink); text-decoration:none; }} a.colink:hover {{ color:v
     <a href="#/compare" class="navlink" data-route="compare">Compare</a>
     <a href="#/changelog" class="navlink" data-route="changelog">Changelog</a>
     <a href="#/silent" class="navlink" data-route="silent">Silent&nbsp;list</a>
+    <div class="omni-wrap">
+      <label class="omni-box" for="omni">{icon('search',14)}<input id="omni" type="search" autocomplete="off"
+        spellcheck="false" placeholder="Find a company…" aria-label="Search companies"></label>
+      <div class="omni-results" id="omniResults" role="listbox"></div>
+    </div>
     <button class="toggle" id="themeToggle" aria-label="Toggle light/dark">
       <span id="themeIcon">{icon('moon',15)}</span><span id="themeLabel">Dark</span>
     </button>
@@ -1015,6 +1040,52 @@ const ROUTES = {{
 }};
 function goRoute(id) {{ const r=ROUTES[id]; if(!r) return; if(location.hash!=='#'+r.hash) location.hash=r.hash; else applyRoute(); }}
 function goCompany(slug) {{ location.hash='/company/'+slug; }}
+
+/* ============ global company omnibox (jump-to-company from anywhere) ============ */
+(function initOmni() {{
+  const inp=document.getElementById('omni'), box=document.getElementById('omniResults');
+  if(!inp||!box) return;
+  const CCNAME={{}}; ATLAS.countries.forEach(c=>CCNAME[c.cc]=c.name);
+  // search the WHOLE register — silent companies included (they have detail pages too)
+  let hits=[], active=-1;
+  function score(c,q) {{
+    const n=c.name.toLowerCase(), i=n.indexOf(q);
+    if(i<0) return -1;
+    return (i===0?0:(/\\s/.test(n[i-1])?1:2));   // prefix < word-start < mid-word
+  }}
+  function search(raw) {{
+    const q=raw.trim().toLowerCase();
+    if(q.length<2) {{ hits=[]; box.classList.remove('open'); box.innerHTML=''; return; }}
+    hits=ATLAS.companies.map(c=>({{c,s:score(c,q)}})).filter(x=>x.s>=0)
+      .sort((a,b)=> a.s-b.s || a.c.name.length-b.c.name.length || a.c.name.localeCompare(b.c.name))
+      .slice(0,12).map(x=>x.c);
+    active = hits.length?0:-1;
+    render();
+  }}
+  function render() {{
+    if(!hits.length) {{ box.innerHTML='<div class="omni-empty">No company matches — search covers the full register, so a miss means it is not in our universe yet.</div>'; box.classList.add('open'); return; }}
+    box.innerHTML=hits.map((c,i)=>`<div class="omni-opt${{i===active?' active':''}}" role="option" data-slug="${{c.slug}}">`
+      + `<span class="on">${{esc(c.name)}}</span>`
+      + (c.silent?'<span class="osilent">no AI found yet</span>':'')
+      + `<span class="om">${{esc(CCNAME[c.cc]||c.cc)}}${{c.vertical?' · '+esc(c.vertical):''}}</span></div>`).join('');
+    box.classList.add('open');
+  }}
+  function go(i) {{ const c=hits[i]; if(!c) return; close(); inp.value=''; goCompany(c.slug); }}
+  function close() {{ box.classList.remove('open'); box.innerHTML=''; hits=[]; active=-1; }}
+  inp.addEventListener('input',()=>search(inp.value));
+  inp.addEventListener('focus',()=>{{ if(inp.value.trim().length>=2) search(inp.value); }});
+  inp.addEventListener('keydown',e=>{{
+    if(!hits.length && e.key!=='Escape') return;
+    if(e.key==='ArrowDown'){{ e.preventDefault(); active=(active+1)%hits.length; render(); }}
+    else if(e.key==='ArrowUp'){{ e.preventDefault(); active=(active-1+hits.length)%hits.length; render(); }}
+    else if(e.key==='Enter'){{ e.preventDefault(); go(active<0?0:active); }}
+    else if(e.key==='Escape'){{ close(); inp.blur(); }}
+  }});
+  box.addEventListener('mousedown',e=>{{ const o=e.target.closest('.omni-opt'); if(!o) return; e.preventDefault();
+    close(); inp.value=''; goCompany(o.dataset.slug); }});
+  inp.addEventListener('blur',()=>setTimeout(close,150));
+}})();
+
 function applyRoute() {{
   const h=location.hash.replace(/^#/,'');
   if(h.startsWith('/company/')) {{ renderCompany(h.slice('/company/'.length));
