@@ -991,6 +991,9 @@ a.colink {{ color:var(--ink); text-decoration:none; }} a.colink:hover {{ color:v
 <script>
 const ATLAS = JSON.parse(document.getElementById('atlas-data').textContent);
 
+/* accent-blind normaliser for all search boxes: "loreal" matches "L'Oréal" */
+const deaccent = s => (s||'').normalize('NFD').replace(/[\\u0300-\\u036f]/g,'').toLowerCase();
+
 /* theme toggle — persists, respects prior choice */
 const root = document.documentElement;
 const tBtn = document.getElementById('themeToggle');
@@ -1049,12 +1052,12 @@ function goCompany(slug) {{ location.hash='/company/'+slug; }}
   // search the WHOLE register — silent companies included (they have detail pages too)
   let hits=[], active=-1;
   function score(c,q) {{
-    const n=c.name.toLowerCase(), i=n.indexOf(q);
+    const n=deaccent(c.name), i=n.indexOf(q);
     if(i<0) return -1;
     return (i===0?0:(/\\s/.test(n[i-1])?1:2));   // prefix < word-start < mid-word
   }}
   function search(raw) {{
-    const q=raw.trim().toLowerCase();
+    const q=deaccent(raw.trim());
     if(q.length<2) {{ hits=[]; box.classList.remove('open'); box.innerHTML=''; return; }}
     hits=ATLAS.companies.map(c=>({{c,s:score(c,q)}})).filter(x=>x.s>=0)
       .sort((a,b)=> a.s-b.s || a.c.name.length-b.c.name.length || a.c.name.localeCompare(b.c.name))
@@ -1299,9 +1302,9 @@ function renderCompare() {{
   drawCompare();
 }}
 function cmpSuggest(q) {{
-  const box=document.getElementById('cmpSuggest'); q=q.trim().toLowerCase();
+  const box=document.getElementById('cmpSuggest'); q=deaccent(q.trim());
   if(q.length<2){{ box.innerHTML=''; return; }}
-  const hits=ATLAS.companies.filter(c=>!c.silent && c.name.toLowerCase().includes(q)).slice(0,8);
+  const hits=ATLAS.companies.filter(c=>!c.silent && deaccent(c.name).includes(q)).slice(0,8);
   box.innerHTML=hits.map(c=>`<div class="cmp-opt" onclick="cmpAdd('${{c.slug}}')">${{esc(c.name)}} <span style="color:var(--muted)">· ${{c.cc}} · ${{esc(c.vertical||'')}}</span></div>`).join('');
 }}
 function cmpAdd(slug) {{
