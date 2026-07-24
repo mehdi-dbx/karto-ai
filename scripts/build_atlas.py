@@ -258,6 +258,23 @@ a:hover {{ text-decoration: underline; }}
 #cmpTable th, #cmpTable td {{ text-align:left; padding:9px 14px; border-bottom:1px solid var(--hair); font-size:13.5px; font-family:var(--font-ui); }}
 #cmpTable th:first-child, #cmpTable td:first-child {{ color:var(--muted); }}
 #cmpTable td.cmp-best {{ color:var(--v-strong); font-weight:600; }}
+/* D2 — visual side-by-side compare (bars per metric, one row per company) */
+.cmp-visual {{ margin-top:22px; display:flex; flex-direction:column; gap:26px; }}
+.cmp-legend {{ display:flex; gap:16px; flex-wrap:wrap; font-family:var(--font-ui); font-size:12px; color:var(--muted); }}
+.cmp-legend .k {{ display:flex; align-items:center; gap:6px; }}
+.cmp-legend .sw {{ width:20px; height:8px; border-radius:4px; }}
+.cmp-metric {{ }}
+.cmp-metric > .lbl {{ font-family:var(--font-ui); font-size:12px; letter-spacing:.04em; text-transform:uppercase; color:var(--muted); margin-bottom:9px; }}
+.cmp-grid {{ display:grid; grid-template-columns:minmax(96px,150px) 1fr auto; align-items:center; row-gap:8px; column-gap:14px; }}
+.cmp-grid .co {{ font-family:var(--font-ui); font-size:12.5px; color:var(--ink-2); white-space:nowrap; overflow:hidden; text-overflow:ellipsis; }}
+.cmp-track {{ position:relative; height:16px; background:var(--surface-2); border-radius:8px; overflow:hidden; }}
+.cmp-fill {{ position:absolute; inset:0 auto 0 0; border-radius:8px; background:color-mix(in srgb, var(--accent) 32%, var(--surface)); transition:width .4s ease; min-width:3px; }}
+.cmp-fill.best {{ background:var(--accent); }}
+.cmp-val {{ font-family:var(--font-ui); font-variant-numeric:tabular-nums; font-size:12.5px; color:var(--ink-2); text-align:right; white-space:nowrap; }}
+.cmp-val.best {{ color:var(--ink); font-weight:600; }}
+.cmp-tags {{ display:flex; flex-wrap:wrap; gap:6px; }}
+.cmp-tag {{ font-family:var(--font-ui); font-size:11px; padding:2px 8px; border-radius:999px; border:1px solid var(--hair); color:var(--ink-2); background:var(--surface); }}
+.cmp-note {{ font-family:var(--font-ui); font-size:11.5px; color:var(--muted); }}
 /* D3 persona tiles */
 .personas {{ display:grid; grid-template-columns:repeat(auto-fit,minmax(200px,1fr)); gap:16px; margin-top:44px; max-width:920px; }}
 /* V3 question menu (home) */
@@ -822,7 +839,11 @@ a.colink {{ color:var(--ink); text-decoration:none; }} a.colink:hover {{ color:v
       <div id="cmpChips" class="cmp-chips"></div>
     </div>
     <div id="cmpSuggest" class="cmp-suggest"></div>
-    <div class="tabletwin" style="margin-top:8px"><table id="cmpTable"></table></div>
+    <div id="cmpVisual" class="cmp-visual"></div>
+    <details class="tabletwin" id="cmpTableWrap" style="margin-top:26px" hidden>
+      <summary>Exact values (table)</summary>
+      <table id="cmpTable"></table>
+    </details>
   </div>
 </section>
 
@@ -1331,23 +1352,55 @@ function cmpAdd(slug) {{
 }}
 function cmpRemove(slug) {{ cmpSlugs=cmpSlugs.filter(s=>s!==slug); syncCmpUrl(); drawCompare(); }}
 function syncCmpUrl() {{ const h='/compare'+(cmpSlugs.length?'?c='+cmpSlugs.join(','):''); if(location.hash!=='#'+h) history.replaceState(null,'','#'+h); }}
+// metrics that render as magnitude bars; the rest (momentum, first_seen) render as tags/values
+const CMP_BAR={{deployments:1,confirmed:1,proof_rate:1,maturity:1,pct_dep:1}};
+const CMP_MATLAB={{0:'L0',1:'L1',2:'L2',3:'L3',4:'L4'}};
 function drawCompare() {{
   document.getElementById('cmpChips').innerHTML=cmpSlugs.map(s=>{{
     const c=COMP_BY_SLUG[s]; return `<span class="cmp-chip">${{esc(c.name)}} <b onclick="cmpRemove('${{s}}')">✕</b></span>`;
   }}).join('');
-  const tbl=document.getElementById('cmpTable');
-  if(cmpSlugs.length<2){{ tbl.innerHTML='<tbody><tr><td style="color:var(--muted);padding:16px 0">Add at least two companies to compare.</td></tr></tbody>'; return; }}
+  const host=document.getElementById('cmpVisual'), tbl=document.getElementById('cmpTable'), wrap=document.getElementById('cmpTableWrap');
+  if(cmpSlugs.length<2){{ host.innerHTML='<p class="cmp-note" style="padding:16px 0">Add at least two companies to compare.</p>'; wrap.hidden=true; return; }}
   const cmp=compareCompanies(cmpSlugs);
+  // per-metric best index (min/max on the raw numbers)
+  const bestOf=m=>{{ if(m.best==='none') return -1;
+    const arr=m.raw||m.values.map(Number); const valid=arr.map((v,i)=>[v,i]).filter(x=>typeof x[0]==='number'&&!isNaN(x[0]));
+    if(!valid.length) return -1; valid.sort((a,b)=>m.best==='max'?b[0]-a[0]:a[0]-b[0]); return valid[0][1]; }};
+
+  // ---- visual: one block per metric, a labelled bar per company ----
+  host.innerHTML = cmp.metrics.map(m=>{{
+    const best=bestOf(m);
+    const rows = cmp.entities.map((c,i)=>{{
+      const isBest = i===best, name=esc(c.name);
+      if(CMP_BAR[m.key]){{
+        const raw=(m.raw||m.values.map(Number)); const max=Math.max(...raw.filter(x=>typeof x==='number'&&!isNaN(x)),0)||1;
+        const w=Math.max(3, 100*(raw[i]||0)/max);
+        const shown = m.key==='maturity' ? CMP_MATLAB[raw[i]]||m.values[i] : m.values[i];
+        return `<div class="co" title="${{name}}">${{name}}</div>`
+          + `<div class="cmp-track"><div class="cmp-fill${{isBest?' best':''}}" style="width:${{w}}%"></div></div>`
+          + `<div class="cmp-val${{isBest?' best':''}}">${{esc(String(shown))}}</div>`;
+      }}
+      // categorical / year: no bar — a value chip on the right, tags for momentum
+      const cell = m.key==='momentum'
+        ? `<div class="cmp-tags">${{String(m.values[i]).split(', ').filter(t=>t&&t!=='—').map(t=>`<span class="cmp-tag">${{esc(t.replace(/_/g,' '))}}</span>`).join('')||'<span class="cmp-note">—</span>'}}</div>`
+        : `<div class="cmp-note">${{esc(String(m.values[i]))}}</div>`;
+      return `<div class="co" title="${{name}}">${{name}}</div>`
+        + `<div>${{cell}}</div>`
+        + `<div class="cmp-val${{isBest?' best':''}}">${{isBest && m.key==='first_seen' ? 'earliest' : ''}}</div>`;
+    }}).join('');
+    return `<div class="cmp-metric"><div class="lbl">${{esc(m.label)}}</div><div class="cmp-grid">${{rows}}</div></div>`;
+  }}).join('')
+    + `<p class="cmp-note">Bars scale to the highest value in each row; the leader is filled solid. Momentum and first-seen are shown as-is (not magnitudes).</p>`;
+
+  // ---- exact-values table twin (a11y + precise numbers), collapsed by default ----
   let html='<thead><tr><th>Metric</th>'+cmp.entities.map(c=>`<th><a class="colink" href="#/company/${{c.slug}}">${{esc(c.name)}}</a></th>`).join('')+'</tr></thead><tbody>';
-  cmp.metrics.forEach(m=>{{
-    let bestIdx=-1;
-    if(m.best!=='none'){{ const arr=m.raw||m.values.map(Number); const valid=arr.map((v,i)=>[v,i]).filter(x=>typeof x[0]==='number'&&!isNaN(x[0]));
-      if(valid.length){{ valid.sort((a,b)=>m.best==='max'?b[0]-a[0]:a[0]-b[0]); bestIdx=valid[0][1]; }} }}
-    html+=`<tr><td>${{m.label}}</td>`+m.values.map((v,i)=>`<td class="${{i===bestIdx?'cmp-best':''}}">${{v}}</td>`).join('')+'</tr>';
+  cmp.metrics.forEach(m=>{{ const best=bestOf(m);
+    html+=`<tr><td>${{m.label}}</td>`+m.values.map((v,i)=>`<td class="${{i===best?'cmp-best':''}}">${{v}}</td>`).join('')+'</tr>';
   }});
-  tbl.innerHTML=html+'</tbody>';
+  tbl.innerHTML=html+'</tbody>'; wrap.hidden=false;
+
   let btn=document.getElementById('cmpExport');
-  if(!btn){{ btn=document.createElement('button'); btn.id='cmpExport'; btn.className='expbtn'; btn.innerHTML='{icon("download",15)} Generate briefing (markdown)'; tbl.after(btn); }}
+  if(!btn){{ btn=document.createElement('button'); btn.id='cmpExport'; btn.className='expbtn'; btn.innerHTML='{icon("download",15)} Generate briefing (markdown)'; wrap.after(btn); }}
   btn.onclick=()=>exportBriefing('compare',compareCompanies(cmpSlugs));
 }}
 
