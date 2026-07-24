@@ -272,6 +272,9 @@ a:hover {{ text-decoration: underline; }}
 .cmp-tag {{ font-family:var(--font-ui); font-size:11px; padding:2px 8px; border-radius:999px; border:1px solid var(--hair); color:var(--ink-2); background:var(--surface); }}
 .radar-axis {{ stroke:var(--hair); stroke-width:1; }}
 .radar-ring {{ fill:none; stroke:var(--hair); stroke-width:.6; }}
+.radar-cat {{ cursor:help; }}
+.radar-cat:hover .radar-alab, .radar-cat:focus .radar-alab {{ fill:var(--accent); }}
+.radar-cat:focus {{ outline:none; }}
 .radar-alab {{ font-family:var(--font-ui); font-size:10.5px; fill:var(--ink-2); font-weight:560; }}
 .radar-max {{ font-family:var(--font-ui); font-size:9px; fill:var(--muted); }}
 .radar-vlab {{ font-family:var(--font-ui); font-size:10px; font-weight:600; font-variant-numeric:tabular-nums; paint-order:stroke; stroke:var(--surface); stroke-width:2.5px; }}
@@ -1376,12 +1379,21 @@ function radarSVG(cmp, byKey) {{
   axes.forEach((_,i)=>{{ const[x,y]=pt(i,1); grid+=`<line class="radar-axis" x1="${{C}}" y1="${{C}}" x2="${{x.toFixed(1)}}" y2="${{y.toFixed(1)}}"/>`; }});
   // axis labels (short) + the axis MAX (the scale endpoint) just outside the outer ring
   const short={{deployments:'Deployments',confirmed:'Confirmed',proof_rate:'Quantified',maturity:'Maturity',pct_dep:'Peer pctile'}};
+  // plain-language definition per axis — shown on hover of the category label
+  const AXDEF={{
+    deployments:'Distinct AI deployments found for the company in our register (a lower bound — our sourcing can miss).',
+    confirmed:'Deployments with confirmed existence (independently evidenced), as opposed to only claimed.',
+    proof_rate:'Share of the company’s deployments that cite a value number (revenue, cost, %). Higher = more measured.',
+    maturity:'Maturity level L0–L4: L0 silent · L1 talk · L2 pilot · L3 operating · L4 industrialized.',
+    pct_dep:'Percentile rank on deployment count vs global peers in the same industry. 99th = top 1%.'
+  }};
   const fmtV=(k,v)=> k==='proof_rate' ? Math.round(v*100)+'%' : k==='maturity' ? ('L'+v) : k==='pct_dep' ? (v+'th') : String(v);
   let labs='';
   axes.forEach((m,i)=>{{ const[x,y]=pt(i,1.18); const a=ang(i);
     const anchor=Math.abs(Math.cos(a))<0.3?'middle':(Math.cos(a)>0?'start':'end');
-    labs+=`<text class="radar-alab" x="${{x.toFixed(1)}}" y="${{(y).toFixed(1)}}" text-anchor="${{anchor}}">${{short[m.key]||esc(m.label)}}</text>`
-       +  `<text class="radar-max" x="${{x.toFixed(1)}}" y="${{(y+12).toFixed(1)}}" text-anchor="${{anchor}}">max ${{esc(fmtV(m.key,maxes[i]))}}</text>`;
+    labs+=`<g class="radar-cat" tabindex="0"><title>${{esc(short[m.key]||m.label)}} — ${{esc(AXDEF[m.key]||'')}}</title>`
+       +  `<text class="radar-alab" x="${{x.toFixed(1)}}" y="${{(y).toFixed(1)}}" text-anchor="${{anchor}}">${{short[m.key]||esc(m.label)}}</text>`
+       +  `<text class="radar-max" x="${{x.toFixed(1)}}" y="${{(y+12).toFixed(1)}}" text-anchor="${{anchor}}">max ${{esc(fmtV(m.key,maxes[i]))}}</text></g>`;
   }});
   // one shape per company, with the actual value printed at each vertex
   let shapes='', vlabs='';
