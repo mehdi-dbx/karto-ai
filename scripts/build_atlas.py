@@ -1581,9 +1581,9 @@ function drawUcBars(list) {{
       return `<a class="uc-brow" href="#/usecase/${{encodeURIComponent(u.pattern_id)}}" title="${{esc(u.name)}} — ${{u.runners}} companies found; ${{u.with_value_number||0}} cite a value number">`
         + `<span class="uc-bname">${{esc(u.name)}}</span>`
         + `<span class="uc-btrack"><span class="uc-bfill" style="width:${{w}}%"></span><span class="uc-bnum" style="width:${{wn}}%"></span></span>`
-        + `<span class="uc-bval"><b>${{u.runners}}</b> · ${{u.with_value_number||0}} w/#</span></a>`;
+        + `<span class="uc-bval"><b>${{u.runners}}</b> · ${{u.with_value_number||0}}</span></a>`;
     }}).join('')
-    + `<p class="cmp-note" style="margin-top:10px">Counts are companies our sourcing <b>found</b> running each pattern — a lower bound, not a census. "w/#" = how many cite a value number.</p>`;
+    + `<p class="cmp-note" style="margin-top:10px">Each row: companies our sourcing <b>found</b> running the pattern · how many of those cite a value number. A lower bound, not a census.</p>`;
 }}
 function drawUsecases() {{
   const v=document.getElementById('ucVert').value, sort=document.getElementById('ucSort').value||'runners';
