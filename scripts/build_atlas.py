@@ -277,9 +277,13 @@ a:hover {{ text-decoration: underline; }}
 .radar-cat:focus {{ outline:none; }}
 .radar-alab {{ font-family:var(--font-ui); font-size:10.5px; fill:var(--ink-2); font-weight:560; }}
 .radar-max {{ font-family:var(--font-ui); font-size:9px; fill:var(--muted); }}
-.radar-vlab {{ font-family:var(--font-ui); font-size:10px; font-weight:600; font-variant-numeric:tabular-nums; paint-order:stroke; stroke:var(--surface); stroke-width:2.5px; }}
-.radar-shape {{ stroke-width:2; fill-opacity:.12; stroke-linejoin:round; }}
-.radar-dot {{ r:3; }}
+.radar-vlab {{ font-family:var(--font-ui); font-size:10.5px; font-weight:600; font-variant-numeric:tabular-nums; paint-order:stroke; stroke:var(--surface); stroke-width:3px; opacity:0; transition:opacity .12s; pointer-events:none; }}
+.radar-shape {{ stroke-width:2; fill-opacity:.12; stroke-linejoin:round; pointer-events:none; }}
+.radar-dot {{ r:3; pointer-events:none; }}
+.radar-hit {{ fill:transparent; cursor:pointer; }}
+.radar-pt:hover .radar-vlab, .radar-pt:focus .radar-vlab {{ opacity:1; }}
+.radar-pt:hover .radar-dot, .radar-pt:focus .radar-dot {{ r:4.5; }}
+.radar-pt:focus {{ outline:none; }}
 /* D3 persona tiles */
 .personas {{ display:grid; grid-template-columns:repeat(auto-fit,minmax(200px,1fr)); gap:16px; margin-top:44px; max-width:920px; }}
 /* V3 question menu (home) */
@@ -1406,20 +1410,24 @@ function radarSVG(cmp, byKey) {{
        +  `<text class="radar-alab" x="${{x.toFixed(1)}}" y="${{(y).toFixed(1)}}" text-anchor="${{anchor}}">${{short[m.key]||esc(m.label)}}</text>`
        +  `<text class="radar-max" x="${{x.toFixed(1)}}" y="${{(y+12).toFixed(1)}}" text-anchor="${{anchor}}">${{esc(tipLab(m))}}</text></g>`;
   }});
-  // one shape per company, with the actual value printed at each vertex
-  let shapes='', vlabs='';
+  // one shape per company; the value at each vertex appears only on hover of that point
+  let shapes='', pts_g='';
   cmp.entities.forEach((c,ci)=>{{
     const col=CMP_SERIES[ci];
     const coords=axes.map((m,i)=>{{ const t=Math.max(0,Math.min(1, normVal(m, rawOf(m)[ci]))); return {{p:pt(i,t),t}}; }});
     const pts=coords.map(o=>o.p.map(n=>n.toFixed(1)).join(',')).join(' ');
     shapes+=`<polygon class="radar-shape" points="${{pts}}" stroke="${{col}}" fill="${{col}}"/>`;
-    shapes+=coords.map(o=>`<circle class="radar-dot" cx="${{o.p[0].toFixed(1)}}" cy="${{o.p[1].toFixed(1)}}" fill="${{col}}"/>`).join('');
-    // value at each vertex, nudged radially outward so overlapping shapes don't stack labels
-    vlabs+=coords.map((o,i)=>{{ const a=ang(i); const lx=o.p[0]+9*Math.cos(a), ly=o.p[1]+9*Math.sin(a);
+    // per-vertex hover group: transparent hit target + dot + value label (hidden until hover)
+    pts_g+=coords.map((o,i)=>{{ const a=ang(i); const lx=o.p[0]+9*Math.cos(a), ly=o.p[1]+9*Math.sin(a);
       const anchor=Math.abs(Math.cos(a))<0.3?'middle':(Math.cos(a)>0?'start':'end');
-      return `<text class="radar-vlab" x="${{lx.toFixed(1)}}" y="${{(ly+3).toFixed(1)}}" text-anchor="${{anchor}}" fill="${{col}}">${{esc(fmtV(axes[i].key, rawOf(axes[i])[ci]))}}</text>`;
+      const val=esc(fmtV(axes[i].key, rawOf(axes[i])[ci]));
+      return `<g class="radar-pt" tabindex="0"><title>${{esc(c.name)}} · ${{esc(short[axes[i].key]||axes[i].label)}}: ${{val}}</title>`
+        + `<circle class="radar-hit" cx="${{o.p[0].toFixed(1)}}" cy="${{o.p[1].toFixed(1)}}" r="12"/>`
+        + `<circle class="radar-dot" cx="${{o.p[0].toFixed(1)}}" cy="${{o.p[1].toFixed(1)}}" fill="${{col}}"/>`
+        + `<text class="radar-vlab" x="${{lx.toFixed(1)}}" y="${{(ly+3).toFixed(1)}}" text-anchor="${{anchor}}" fill="${{col}}">${{val}}</text></g>`;
     }}).join('');
   }});
+  const vlabs=pts_g;
   shapes+=vlabs;   // draw value labels last so they sit above the fills
   return `<svg viewBox="0 0 ${{S}} ${{S}}" role="img" aria-label="Radar comparing ${{cmp.entities.map(c=>c.name).join(', ')}} across ${{axes.map(m=>m.label).join(', ')}}">`
     + grid + labs + shapes + `</svg>`;
