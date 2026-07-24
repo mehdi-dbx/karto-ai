@@ -84,19 +84,19 @@ HTML = f"""<!DOCTYPE html>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>KARTO Atlas — the current state of AI on Earth</title>
-<meta name="description" content="A source-gated census of {fmt(g['deployments'])} AI deployments at {fmt(g['companies'])} of the world's largest listed companies across {g['countries']} countries. AI is deployed almost everywhere; proof that it pays is almost nowhere.">
+<meta name="description" content="A source-gated census of {fmt(g['deployments'])} AI deployments at {fmt(g['companies'])} of the world's largest listed companies across {g['countries']} countries. AI is deployed almost everywhere; evidence that it pays is scarce.">
 <!-- Open Graph / Twitter share card -->
 <meta property="og:type" content="website">
 <meta property="og:site_name" content="KARTO AI Atlas">
 <meta property="og:title" content="KARTO Atlas — where AI is actually profitable">
-<meta property="og:description" content="{fmt(g['deployments'])} named, source-linked AI deployments across {g['countries']} countries. Deployed almost everywhere; proof it pays is almost nowhere.">
+<meta property="og:description" content="{fmt(g['deployments'])} named, source-linked AI deployments across {g['countries']} countries. Deployed almost everywhere; evidence it pays is scarce.">
 <meta property="og:url" content="https://mehdi-dbx.github.io/karto-ai/">
 <meta property="og:image" content="https://mehdi-dbx.github.io/karto-ai/og-card.png">
 <meta property="og:image:width" content="1200">
 <meta property="og:image:height" content="630">
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:title" content="KARTO Atlas — where AI is actually profitable">
-<meta name="twitter:description" content="{fmt(g['deployments'])} named, source-linked AI deployments across {g['countries']} countries. Deployed almost everywhere; proof it pays is almost nowhere.">
+<meta name="twitter:description" content="{fmt(g['deployments'])} named, source-linked AI deployments across {g['countries']} countries. Deployed almost everywhere; evidence it pays is scarce.">
 <meta name="twitter:image" content="https://mehdi-dbx.github.io/karto-ai/og-card.png">
 <style>
 /* fonts: Archivo Narrow (headlines) + Source Serif 4 (body) — free, vendored, inlined.
@@ -633,7 +633,7 @@ a.colink {{ color:var(--ink); text-decoration:none; }} a.colink:hover {{ color:v
     </div>
     <div class="orbit-hero">
       <div class="orbit-copy">
-        <h1>AI adoption is <b>broad and confirmed</b>.<br>Independent proof of value stays <b>scarce</b>.</h1>
+        <h1>AI adoption is <b>broad and confirmed</b>.<br>Independent evidence of value stays <b>scarce</b>.</h1>
         <p class="sub">A ground-up census of what {fmt(g['companies'])} of the world's largest listed companies
         actually do with AI — each deployment named, gated, and linked to its source.</p>
       </div>
@@ -660,7 +660,7 @@ a.colink {{ color:var(--ink); text-decoration:none; }} a.colink:hover {{ color:v
       <div class="cap">Adoption is broad — <b>{fmt(g['confirmed'])} of {fmt(g['deployments'])}</b> deployments
       ({round(100*g['confirmed']/g['deployments'])}%) are confirmed. Yet only
       <b>{fmt(g['with_value_number'])}</b> ({round(100*g['with_value_number']/g['deployments'])}%) carry any value number, and
-      independent verification is rare. <b>On today's evidence, the gap is in proof of value, not in adoption.</b></div>
+      independent verification is rare. <b>On today's data, the gap is in evidence of value, not in adoption.</b></div>
       <div class="gapbar" role="img" aria-label="{fmt(g['confirmed'])} confirmed of {fmt(g['deployments'])}; {fmt(g['with_value_number'])} carry a value number">
         <div class="seg proof" style="width:{max(6,round(100*g['with_value_number']/g['deployments']))}%">{fmt(g['with_value_number'])} carry a value number</div>
         <div class="seg confirmed" style="width:{round(100*(g['confirmed']-g['with_value_number'])/g['deployments'])}%">confirmed, no number</div>
@@ -726,7 +726,7 @@ a.colink {{ color:var(--ink); text-decoration:none; }} a.colink:hover {{ color:v
         <div class="seg-ctrl" id="metricCtrl">
           <button data-m="density" class="on">Density</button>
           <button data-m="deployments">Volume</button>
-          <button data-m="proof_pct">Proof&nbsp;%</button>
+          <button data-m="proof_pct">Quantified&nbsp;%</button>
         </div>
       </div>
     </div>
@@ -751,7 +751,7 @@ a.colink {{ color:var(--ink); text-decoration:none; }} a.colink:hover {{ color:v
         <thead><tr>
           <th data-k="name">Country</th><th data-k="deployments">Deployments</th>
           <th data-k="companies">Companies</th><th data-k="confirmed">Confirmed</th>
-          <th data-k="density">Density&nbsp;×</th><th data-k="proof_pct">Proof&nbsp;%</th>
+          <th data-k="density">Density&nbsp;×</th><th data-k="proof_pct">Quantified&nbsp;%</th>
         </tr></thead><tbody></tbody>
       </table>
     </details>
@@ -788,7 +788,7 @@ a.colink {{ color:var(--ink); text-decoration:none; }} a.colink:hover {{ color:v
         <h3>AI adoption by industry <span class="vhist-scope" id="vhistScope"></span></h3>
         <div class="seg-ctrl" id="vhistMetric">
           <button data-vm="n" class="on">Deployments</button>
-          <button data-vm="proof_pct">Proof&nbsp;%</button>
+          <button data-vm="proof_pct">Quantified&nbsp;%</button>
         </div>
       </div>
       <div class="vhist" id="vhist"></div>
@@ -814,7 +814,7 @@ a.colink {{ color:var(--ink); text-decoration:none; }} a.colink:hover {{ color:v
       <div>
         <h2>Compare — <span class="scope">side by side</span></h2>
         <p class="lede">Pick 2–5 companies to line up their AI footprint: deployments, maturity,
-        proof rate, momentum, peer percentiles. Best-in-row is highlighted. The URL is shareable.</p>
+        quantified rate, momentum, peer percentiles. Best-in-row is highlighted. The URL is shareable.</p>
       </div>
     </div>
     <div class="cmp-pick">
@@ -877,14 +877,14 @@ a.colink {{ color:var(--ink); text-decoration:none; }} a.colink:hover {{ color:v
       <div>
         <h2>Use-case catalog — <span class="scope">what AI actually does, by pattern</span></h2>
         <p class="lede">The register inverted: not "what does company X do" but "who runs claims automation,
-        where, with what proof". Each pattern shows its runners, industries, first-seen, and proof rate.
+        where, with what evidence". Each pattern shows its runners, industries, first-seen, and quantified rate.
         Click for runners, diffusion, and cross-industry transfer opportunities.</p>
       </div>
       <div class="controls">
         <select id="ucVert" class="filtersel"><option value="">All industries</option></select>
         <select id="ucSort" class="filtersel">
           <option value="runners">Most runners</option>
-          <option value="proof_rate">Best proof rate</option>
+          <option value="proof_rate">Best quantified rate</option>
           <option value="first_seen">Earliest</option>
         </select>
       </div>
@@ -910,7 +910,7 @@ a.colink {{ color:var(--ink); text-decoration:none; }} a.colink:hover {{ color:v
       <div>
         <h2>Changelog — <span class="scope">the heartbeat</span></h2>
         <p class="lede">What moved since the last build: new deployments, maturity changes,
-        first value numbers, companies gone quiet. The proof the dataset is alive.</p>
+        first value numbers, companies gone quiet. The sign the dataset is alive.</p>
       </div>
       <div class="controls"><select id="clType" class="filtersel"><option value="">All changes</option></select></div>
     </div>
@@ -937,7 +937,7 @@ a.colink {{ color:var(--ink); text-decoration:none; }} a.colink:hover {{ color:v
         <thead><tr>
           <th data-k="name">Company</th><th data-k="cc">Country</th><th data-k="vertical">Industry</th>
           <th data-k="deployments">Deploys</th><th data-k="confirmed">Confirmed</th>
-          <th data-k="proof_rate">Proof</th><th data-k="maturity">Maturity</th><th data-k="prospect_score">Prospect</th>
+          <th data-k="proof_rate">Quantified</th><th data-k="maturity">Maturity</th><th data-k="prospect_score">Prospect</th>
         </tr></thead><tbody></tbody>
       </table>
     </div>
@@ -1243,7 +1243,7 @@ function renderCompany(slug) {{
   if(bench.global_vertical){{
     const b=bench.global_vertical;
     html+=`<h3 class="csub">Percentile vs ${{b.n}} global ${{esc(c.vertical)}} peers</h3><div class="benchbox">
-      ${{pctBar('deployments',b.deployments)}}${{pctBar('confirmed',b.confirmed)}}${{pctBar('proof rate',b.proof_rate)}}</div>`;
+      ${{pctBar('deployments',b.deployments)}}${{pctBar('confirmed',b.confirmed)}}${{pctBar('quantified rate',b.proof_rate)}}</div>`;
   }}
   // deployments list
   html+=`<h3 class="csub">${{rr.length}} disclosed deployment${{rr.length!==1?'s':''}}</h3><div class="cdeps">`;
@@ -1277,7 +1277,7 @@ function exportBriefing(kind, payload) {{
   let md=`# KARTO AI Atlas — ${{kind}} briefing\\n\\n_Data version ${{dv}} · ${{ATLAS.global.deployments}} deployments · ${{ATLAS.global.countries}} countries_\\n\\n`;
   if(kind==='company'){{
     const c=payload; md+=`## ${{c.name}}\\n- ${{c.cc}} · ${{c.vertical||'—'}}\\n- Maturity: **${{c.maturity}}** (${{(c.maturity_evidence||[]).join(', ')}})\\n`;
-    md+=`- Deployments: ${{c.deployments}} · Confirmed: ${{c.confirmed}} · Proof rate: ${{Math.round((c.proof_rate||0)*100)}}%\\n- Momentum: ${{c.momentum||'—'}} (first seen ${{c.first_seen||'—'}})\\n\\n`;
+    md+=`- Deployments: ${{c.deployments}} · Confirmed: ${{c.confirmed}} · Quantified rate: ${{Math.round((c.proof_rate||0)*100)}}%\\n- Momentum: ${{c.momentum||'—'}} (first seen ${{c.first_seen||'—'}})\\n\\n`;
     const rr=(ROWS_BY_COMPANY[c.name]||[]);
     md+=`### Deployments (${{rr.length}})\\n`+rr.map((e,i)=>`${{i+1}}. ${{(e.use||'').split(';')[0]}} — ${{e.existence}}${{e.date&&e.date!=='missing'?' ('+e.date+')':''}} [${{e.url||'no source'}}]`).join('\\n');
   }} else if(kind==='compare'){{
@@ -1297,7 +1297,7 @@ function compareCompanies(slugs) {{
   return {{ entities:cs, metrics:[
     {{key:'deployments', label:'Deployments', values:cs.map(c=>c.deployments), best:'max'}},
     {{key:'confirmed', label:'Confirmed', values:cs.map(c=>c.confirmed), best:'max'}},
-    {{key:'proof_rate', label:'Proof rate', values:cs.map(c=>Math.round((c.proof_rate||0)*100)+'%'), raw:cs.map(c=>c.proof_rate||0), best:'max'}},
+    {{key:'proof_rate', label:'Quantified rate', values:cs.map(c=>Math.round((c.proof_rate||0)*100)+'%'), raw:cs.map(c=>c.proof_rate||0), best:'max'}},
     {{key:'maturity', label:'Maturity', values:cs.map(c=>c.maturity||'L0'), raw:cs.map(c=>M[c.maturity]||0), best:'max'}},
     {{key:'momentum', label:'Momentum', values:cs.map(c=>(c.momentum||'—').replace(/,/g,', ')), best:'none'}},
     {{key:'first_seen', label:'First seen', values:cs.map(c=>c.first_seen||'—'), raw:cs.map(c=>c.first_seen||9999), best:'min'}},
@@ -1517,7 +1517,7 @@ function drawUsecases() {{
       <div class="uc-stats">
         <span><b>${{u.runners}}</b> runners</span>
         <span><b>${{u.verticals.length}}</b> industries</span>
-        <span><b>${{Math.round((u.proof_rate||0)*100)}}%</b> proof</span>
+        <span><b>${{Math.round((u.proof_rate||0)*100)}}%</b> quantified</span>
         ${{u.first_seen?`<span>since <b>${{u.first_seen}}</b></span>`:''}}
       </div>
     </a>`).join('') || '<p class="lede">No patterns for this filter.</p>';
@@ -1690,7 +1690,7 @@ const tip = document.getElementById('tip');
 const cssv = n => getComputedStyle(root).getPropertyValue(n).trim();
 let worldRendered = false, curMetric = 'density';
 
-const METRIC_LABEL = {{density:'Density (confirmed / searched)', deployments:'Deployments found', proof_pct:'Carry a hard number'}};
+const METRIC_LABEL = {{density:'Density (confirmed / searched)', deployments:'Deployments found', proof_pct:'Cite a value number'}};
 
 /* ============ A0 GLOBE — stylized rotating earth (world-map palette) ============ */
 (function initGlobe() {{
