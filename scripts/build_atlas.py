@@ -127,7 +127,7 @@ HTML = f"""<!DOCTYPE html>
   --v-strong:    #0ca30c;
   --v-active:    #b8820f;         /* amber, darkened for text legibility on cream */
   --v-unquantified: #5a7d99;      /* slate-blue: real activity, no numbers (distinct from red hype) */
-  --v-talk:      #d03b3b;
+  --v-talk:      #cf6b2f;          /* coral-orange: claimed, not confirmed — caution, not alarm */
   --v-empty:     #cfc7b5;
   /* sequential density ramp (light) */
   --d1:#f2ecdf; --d2:#dba85f; --d3:#cc9040; --d4:#bd7a26; --d5:#a4641b; --d6:#854c12; --d7:#6d3c09;
@@ -150,7 +150,7 @@ HTML = f"""<!DOCTYPE html>
   --v-strong:    #2fb62f;
   --v-active:    #fab219;
   --v-unquantified: #7fa6c4;      /* slate-blue, lifted for dark surface */
-  --v-talk:      #e66767;
+  --v-talk:      #e6934f;          /* coral-orange, lifted for dark surface */
   --v-empty:     #3a352d;
   --d1:#24211c; --d2:#9c5312; --d3:#b06a1c; --d4:#cc8a38; --d5:#e0b06a; --d6:#f0d4a0; --d7:#f0d4a0;
 }}
@@ -1200,7 +1200,7 @@ function injectCoverageNote(viewId, sec) {{
 }}
 
 /* ============ D1 COMPANY PAGE ============ */
-const MLAB={{L0:'Silent',L1:'Talk',L2:'Pilot',L3:'Operating',L4:'Industrialized'}};
+const MLAB={{L0:'Silent',L1:'Claimed',L2:'Pilot',L3:'Operating',L4:'Industrialized'}};
 let COMP_BY_SLUG=null, ROWS_BY_COMPANY=null, SLUG_BY_NAME=null;
 function indexCompanies() {{
   if(COMP_BY_SLUG) return;
@@ -1381,7 +1381,7 @@ function radarSVG(cmp, byKey) {{
     deployments:'Distinct AI deployments found for the company in our register (a lower bound — our sourcing can miss).',
     confirmed:'Deployments with confirmed existence (independently evidenced), as opposed to only claimed.',
     proof_rate:'Share of the company’s deployments that cite a value number (revenue, cost, %). Higher = more measured.',
-    maturity:'Maturity level L0–L4: L0 silent · L1 talk · L2 pilot · L3 operating · L4 industrialized.',
+    maturity:'Maturity level L0–L4: L0 silent · L1 claimed · L2 pilot · L3 operating · L4 industrialized.',
     pct_dep:'Percentile rank on deployment count vs global peers in the same industry. 99th = top 1%.',
     first_seen:'Year the company’s first AI deployment appears in our sources. Position is relative to the set (earliest near centre, latest at the edge).'
   }};

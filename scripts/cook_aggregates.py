@@ -479,7 +479,7 @@ META["silent"]="companies in data/universe.csv (searched) with zero register row
 META["freshness"]={"anchor_year":NOW_YEAR,"buckets":{"fresh":"<=1yr","aging":"2yr","stale":">2yr","undated":"no date"}}
 META["hype"]="hype_by_vertical: announced (rows) vs substantiated (rows w/ value number) + money events from data/money.csv (V3 Step 2 unified table). commitments (money-in axis) = dedicated_collection rows, near-empty until the Step 12 FS pilot."
 META["money"]="data/money.csv unified table: origin register_extraction (regex claims) | dedicated_collection (purpose-collected commitments). Retires claims.csv/commitments.csv."
-META["maturity"]={"levels":{"L0":"silent (in universe, no rows)","L1":"talk (rows, none confirmed)","L2":"pilot (confirmed, single footprint)","L3":"operating (confirmed + multi-horizontal OR named product OR value number)","L4":"industrialized (L3 + multi-year + value/tier-P)"}}
+META["maturity"]={"levels":{"L0":"silent (in universe, no rows)","L1":"claimed (rows, none confirmed)","L2":"pilot (confirmed, single footprint)","L3":"operating (confirmed + multi-horizontal OR named product OR value number)","L4":"industrialized (L3 + multi-year + value/tier-P)"}}
 META["scores"]={"prospect_score":"min(confirmed,10)/10*60 + (1-proof_rate)*40 — confirmed activity without measurement. 0-100."}
 # ---------- A7/D9 use-case spine (data/usecases.csv -> usecases[] + transfer + diffusion) ----------
 USECASES=[]; TRANSFER=[]
