@@ -1200,7 +1200,7 @@ function injectCoverageNote(viewId, sec) {{
 }}
 
 /* ============ D1 COMPANY PAGE ============ */
-const MLAB={{L0:'Silent',L1:'Claimed',L2:'Pilot',L3:'Operating',L4:'Industrialized'}};
+const MLAB={{L0:'Silent',L1:'Claim',L2:'Pilot',L3:'Operating',L4:'Industrialized'}};
 let COMP_BY_SLUG=null, ROWS_BY_COMPANY=null, SLUG_BY_NAME=null;
 function indexCompanies() {{
   if(COMP_BY_SLUG) return;
