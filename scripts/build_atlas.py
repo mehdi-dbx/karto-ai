@@ -1359,8 +1359,8 @@ function cmpRemove(slug) {{ cmpSlugs=cmpSlugs.filter(s=>s!==slug); syncCmpUrl();
 function syncCmpUrl() {{ const h='/compare'+(cmpSlugs.length?'?c='+cmpSlugs.join(','):''); if(location.hash!=='#'+h) history.replaceState(null,'','#'+h); }}
 // CVD-safe qualitative series colors (Okabe–Ito), fixed order — color follows the entity slot
 const CMP_SERIES=['#0072B2','#E69F00','#009E73','#CC79A7','#D55E00'];
-// the 5 numeric axes that form the radar (ordinal maturity + percentile included; both bounded)
-const RADAR_AXES=['deployments','confirmed','proof_rate','maturity','pct_dep'];
+// the 6 numeric axes that form the radar (ordinal maturity + percentile + first-seen year)
+const RADAR_AXES=['deployments','confirmed','proof_rate','maturity','pct_dep','first_seen'];
 // build the overlaid-radar SVG: one polygon per company, axes normalized to the set max
 function radarSVG(cmp, byKey) {{
   const axes=RADAR_AXES.map(k=>byKey[k]).filter(Boolean);
@@ -1368,6 +1368,14 @@ function radarSVG(cmp, byKey) {{
   // per-axis max across the compared companies (min 1 to avoid /0)
   const rawOf=m=>(m.raw||m.values.map(Number)).map(v=>(typeof v==='number'&&!isNaN(v))?v:0);
   const maxes=axes.map(m=>Math.max(1,...rawOf(m)));
+  // first-seen is a year: range-normalize across the set so the spread is visible (year/max would flatten to ~1)
+  const yr=byKey['first_seen']?rawOf(byKey['first_seen']).filter(v=>v>0&&v<9999):[];
+  const yMin=yr.length?Math.min(...yr):0, yMax=yr.length?Math.max(...yr):1;
+  const normVal=(m,v)=>{{
+    if(m.key==='first_seen'){{ if(!(v>0&&v<9999)) return 0;   // undated -> at centre
+      return (yMax===yMin)?0.6:0.15+0.85*(v-yMin)/(yMax-yMin); }}   // earliest near centre, latest at edge
+    return v/maxes[axes.indexOf(m)];
+  }};
   const ang=i=>(-Math.PI/2)+i*(2*Math.PI/N);              // start at top, clockwise
   const pt=(i,t)=>[C+R*t*Math.cos(ang(i)), C+R*t*Math.sin(ang(i))];
   // rings + spokes
@@ -1378,28 +1386,31 @@ function radarSVG(cmp, byKey) {{
   }});
   axes.forEach((_,i)=>{{ const[x,y]=pt(i,1); grid+=`<line class="radar-axis" x1="${{C}}" y1="${{C}}" x2="${{x.toFixed(1)}}" y2="${{y.toFixed(1)}}"/>`; }});
   // axis labels (short) + the axis MAX (the scale endpoint) just outside the outer ring
-  const short={{deployments:'Deployments',confirmed:'Confirmed',proof_rate:'Quantified',maturity:'Maturity',pct_dep:'Peer pctile'}};
+  const short={{deployments:'Deployments',confirmed:'Confirmed',proof_rate:'Quantified',maturity:'Maturity',pct_dep:'Peer pctile',first_seen:'First seen'}};
   // plain-language definition per axis — shown on hover of the category label
   const AXDEF={{
     deployments:'Distinct AI deployments found for the company in our register (a lower bound — our sourcing can miss).',
     confirmed:'Deployments with confirmed existence (independently evidenced), as opposed to only claimed.',
     proof_rate:'Share of the company’s deployments that cite a value number (revenue, cost, %). Higher = more measured.',
     maturity:'Maturity level L0–L4: L0 silent · L1 talk · L2 pilot · L3 operating · L4 industrialized.',
-    pct_dep:'Percentile rank on deployment count vs global peers in the same industry. 99th = top 1%.'
+    pct_dep:'Percentile rank on deployment count vs global peers in the same industry. 99th = top 1%.',
+    first_seen:'Year the company’s first AI deployment appears in our sources. Position is relative to the set (earliest near centre, latest at the edge).'
   }};
-  const fmtV=(k,v)=> k==='proof_rate' ? Math.round(v*100)+'%' : k==='maturity' ? ('L'+v) : k==='pct_dep' ? (v+'th') : String(v);
+  const fmtV=(k,v)=> k==='proof_rate' ? Math.round(v*100)+'%' : k==='maturity' ? ('L'+v) : k==='pct_dep' ? (v+'th') : k==='first_seen' ? ((v>0&&v<9999)?String(v):'—') : String(v);
+  // scale-endpoint caption per axis (a year axis shows its span, not a "max")
+  const tipLab=(m)=> m.key==='first_seen' ? (yr.length?(yMin===yMax?String(yMin):yMin+'–'+yMax):'—') : ('max '+fmtV(m.key,maxes[axes.indexOf(m)]));
   let labs='';
   axes.forEach((m,i)=>{{ const[x,y]=pt(i,1.18); const a=ang(i);
     const anchor=Math.abs(Math.cos(a))<0.3?'middle':(Math.cos(a)>0?'start':'end');
     labs+=`<g class="radar-cat" tabindex="0"><title>${{esc(short[m.key]||m.label)}} — ${{esc(AXDEF[m.key]||'')}}</title>`
        +  `<text class="radar-alab" x="${{x.toFixed(1)}}" y="${{(y).toFixed(1)}}" text-anchor="${{anchor}}">${{short[m.key]||esc(m.label)}}</text>`
-       +  `<text class="radar-max" x="${{x.toFixed(1)}}" y="${{(y+12).toFixed(1)}}" text-anchor="${{anchor}}">max ${{esc(fmtV(m.key,maxes[i]))}}</text></g>`;
+       +  `<text class="radar-max" x="${{x.toFixed(1)}}" y="${{(y+12).toFixed(1)}}" text-anchor="${{anchor}}">${{esc(tipLab(m))}}</text></g>`;
   }});
   // one shape per company, with the actual value printed at each vertex
   let shapes='', vlabs='';
   cmp.entities.forEach((c,ci)=>{{
     const col=CMP_SERIES[ci];
-    const coords=axes.map((m,i)=>{{ const t=Math.max(0,Math.min(1, rawOf(m)[ci]/maxes[i])); return {{p:pt(i,t),t}}; }});
+    const coords=axes.map((m,i)=>{{ const t=Math.max(0,Math.min(1, normVal(m, rawOf(m)[ci]))); return {{p:pt(i,t),t}}; }});
     const pts=coords.map(o=>o.p.map(n=>n.toFixed(1)).join(',')).join(' ');
     shapes+=`<polygon class="radar-shape" points="${{pts}}" stroke="${{col}}" fill="${{col}}"/>`;
     shapes+=coords.map(o=>`<circle class="radar-dot" cx="${{o.p[0].toFixed(1)}}" cy="${{o.p[1].toFixed(1)}}" fill="${{col}}"/>`).join('');
@@ -1413,17 +1424,15 @@ function radarSVG(cmp, byKey) {{
   return `<svg viewBox="0 0 ${{S}} ${{S}}" role="img" aria-label="Radar comparing ${{cmp.entities.map(c=>c.name).join(', ')}} across ${{axes.map(m=>m.label).join(', ')}}">`
     + grid + labs + shapes + `</svg>`;
 }}
-// non-magnitude metrics beside the chart: momentum tags + first-seen year per company
+// momentum sits beside the chart — it's categorical, not a magnitude, so it can't be a spoke
 function sidePanel(cmp, byKey) {{
-  const mom=byKey['momentum'], fs=byKey['first_seen']; if(!mom&&!fs) return '';
+  const mom=byKey['momentum']; if(!mom) return '';
   return cmp.entities.map((c,i)=>{{
-    const tags=mom?String(mom.values[i]).split(', ').filter(t=>t&&t!=='—')
-      .map(t=>`<span class="cmp-tag">${{esc(t.replace(/_/g,' '))}}</span>`).join(''):'';
-    const year=fs?esc(String(fs.values[i])):'';
+    const tags=String(mom.values[i]).split(', ').filter(t=>t&&t!=='—')
+      .map(t=>`<span class="cmp-tag">${{esc(t.replace(/_/g,' '))}}</span>`).join('');
     return `<div class="cmp-mom"><div class="k" style="display:flex;align-items:center;gap:9px;margin-bottom:5px">`
       + `<span class="sw" style="width:11px;height:11px;border-radius:3px;background:${{CMP_SERIES[i]}}"></span>`
-      + `<b style="font-family:var(--font-ui);font-size:12.5px;color:var(--ink)">${{esc(c.name)}}</b>`
-      + `<span class="cmp-note" style="margin-left:auto">first seen ${{year||'—'}}</span></div>`
+      + `<b style="font-family:var(--font-ui);font-size:12.5px;color:var(--ink)">${{esc(c.name)}}</b></div>`
       + `<div class="cmp-tags">${{tags||'<span class="cmp-note">no momentum signal</span>'}}</div></div>`;
   }}).join('');
 }}
@@ -1445,7 +1454,7 @@ function drawCompare() {{
     +   `<div class="cmp-legend">` + cmp.entities.map((c,i)=>
           `<div class="k"><span class="sw" style="background:${{CMP_SERIES[i]}}"></span><a class="colink" href="#/company/${{c.slug}}">${{esc(c.name)}}</a></div>`).join('') + `</div>`
     +   sidePanel(cmp,byKey)
-    +   `<p class="cmp-note">Each axis is normalized to the highest value among the companies shown, so the radar compares shape and balance — read exact numbers in the table below. Maturity (L0–L4) and peer percentile are bounded scales; momentum and first-seen aren't magnitudes, so they sit beside the chart.</p>`
+    +   `<p class="cmp-note">Each axis is normalized to the companies shown, so the radar compares shape and balance — read exact numbers in the table below. First-seen is positioned relative to the set (earliest near centre, latest at the edge). Momentum is categorical, not a magnitude, so it sits beside the chart.</p>`
     + `</div>`;
 
   // ---- exact-values table twin (a11y + precise numbers), collapsed by default ----
