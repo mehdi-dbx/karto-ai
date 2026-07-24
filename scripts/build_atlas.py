@@ -495,7 +495,15 @@ a.vchip:hover {{ border-color:var(--accent); color:var(--accent); text-decoratio
 .tabletwin table {{ width:100%; border-collapse:collapse; margin-top:14px; font-size:13.5px; }}
 .tabletwin th, .tabletwin td {{ text-align:right; padding:8px 12px; border-bottom:1px solid var(--hair); font-variant-numeric:tabular-nums; }}
 .tabletwin th:first-child, .tabletwin td:first-child {{ text-align:left; font-variant-numeric:normal; }}
-.tabletwin th {{ color:var(--muted); font-weight:560; font-size:12px; letter-spacing:.03em; cursor:pointer; }}
+.tabletwin th {{ color:var(--muted); font-weight:560; font-size:12px; letter-spacing:.03em; cursor:pointer;
+  white-space:nowrap; user-select:none; transition:color .15s; }}
+.tabletwin th:hover {{ color:var(--ink-2); }}
+/* sort affordance: a faint idle chevron on every sortable header, solid + directional on the active one */
+.tabletwin th[data-k]::after {{ content:"↕"; margin-left:5px; font-size:10px; opacity:.32; }}
+.tabletwin th[data-k].sort-asc {{ color:var(--ink); }}
+.tabletwin th[data-k].sort-desc {{ color:var(--ink); }}
+.tabletwin th[data-k].sort-asc::after {{ content:"↑"; opacity:1; color:var(--accent); }}
+.tabletwin th[data-k].sort-desc::after {{ content:"↓"; opacity:1; color:var(--accent); }}
 .tabletwin tbody tr {{ cursor:pointer; }}
 .tabletwin tbody tr:hover {{ background:var(--surface-2); }}
 
@@ -993,6 +1001,15 @@ const ATLAS = JSON.parse(document.getElementById('atlas-data').textContent);
 
 /* accent-blind normaliser for all search boxes: "loreal" matches "L'Oréal" */
 const deaccent = s => (s||'').normalize('NFD').replace(/[\\u0300-\\u036f]/g,'').toLowerCase();
+
+/* reflect current sort on a sortable table's headers (arrow + active state) */
+function markSort(tableSel, key, dir) {{
+  const t=document.querySelector(tableSel); if(!t) return;
+  t.querySelectorAll('th[data-k]').forEach(th=>{{
+    th.classList.toggle('sort-asc',  th.dataset.k===key && dir>0);
+    th.classList.toggle('sort-desc', th.dataset.k===key && dir<0);
+  }});
+}}
 
 /* theme toggle — persists, respects prior choice */
 const root = document.documentElement;
@@ -1622,6 +1639,7 @@ function drawCompanies() {{
     <td>${{MLAB_SHORT[c.maturity]||c.maturity||'—'}}</td><td>${{c.prospect_score!=null?c.prospect_score:'—'}}</td></tr>`).join('');
   document.getElementById('companiesCount').textContent =
     `${{rows.length}} compan${{rows.length===1?'y':'ies'}}${{rows.length>300?' (showing top 300)':''}}.`;
+  markSort('#companiesTable', compSort.k, compSort.dir);
 }}
 
 function renderSilent() {{
@@ -1663,6 +1681,7 @@ function drawSilent() {{
     <td>${{fmtUSD(s.mktcap)}}</td><td>${{s.peer_median!=null?s.peer_median:'—'}}</td></tr>`).join('');
   document.getElementById('silentCount').textContent =
     `${{rows.length}} silent compan${{rows.length===1?'y':'ies'}} shown · ${{ATLAS.silent.length}} total searched with zero disclosed AI.`;
+  markSort('#silentTable', silentSort.k, silentSort.dir);
 }}
 
 /* ============ A1 WORLD (D3) ============ */
@@ -1908,6 +1927,7 @@ function buildWorldTable() {{
   tb.innerHTML=rows.map(d=>`<tr onclick='__descend("${{d.cc}}")'>
     <td>${{d.name}}</td><td>${{d.deployments}}</td><td>${{d.companies}}</td>
     <td>${{d.confirmed}}</td><td>${{d.density}}</td><td>${{d.proof_pct}}</td></tr>`).join('');
+  markSort('#worldTable', tSort.k, tSort.dir);
 }}
 document.querySelectorAll('#worldTable th').forEach(th=>th.addEventListener('click',()=>{{
   const k=th.dataset.k; tSort.dir = (tSort.k===k)? -tSort.dir : -1; tSort.k=k; buildWorldTable();
@@ -2042,6 +2062,7 @@ function buildGridTwin() {{
   tb.innerHTML=rows.map(c=>`<tr onclick='openCell(${{JSON.stringify(c.v)}},${{JSON.stringify(c.h)}})'>
     <td>${{c.v}}</td><td>${{c.h}}</td><td>${{c.n}}</td><td>${{c.withnum||0}}</td>
     <td>${{c.pct}}</td><td><span class="g-${{vv(c)}}">${{VERDICT_GLYPH[vv(c)]}}</span> ${{VLAB4[vv(c)]||vv(c)}}</td></tr>`).join('');
+  markSort('#gridTableTwin', gtSort.k, gtSort.dir);
 }}
 document.querySelectorAll('#gridTableTwin th').forEach(th=>th.addEventListener('click',()=>{{
   const k=th.dataset.k; gtSort.dir=(gtSort.k===k)?-gtSort.dir:-1; gtSort.k=k; buildGridTwin();
