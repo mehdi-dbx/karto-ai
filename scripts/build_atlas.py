@@ -569,7 +569,7 @@ a.colink {{ color:var(--ink); text-decoration:none; }} a.colink:hover {{ color:v
 .co .chip {{ padding:2px 8px; border-radius:5px; background:var(--surface-2); border:1px solid var(--hair); font-weight:560; letter-spacing:.02em; }}
 .freshbadge {{ padding:2px 7px; border-radius:5px; font-size:10.5px; font-weight:560; letter-spacing:.02em; }}
 .fb-aging {{ color:var(--v-active); background:color-mix(in srgb,var(--v-active) 15%,var(--surface)); }}
-.fb-stale {{ color:var(--v-talk); background:color-mix(in srgb,var(--v-talk) 13%,var(--surface)); }}
+.fb-stale {{ color:var(--v-active); background:color-mix(in srgb,var(--v-active) 18%,var(--surface)); }}
 .co .chip.P {{ color:var(--v-strong); }} .co .chip.I {{ color:var(--accent); }} .co .chip.S {{ color:var(--muted); }}
 .co .val {{ color:var(--ink-2); }}
 .co a.src {{ color:var(--accent); text-decoration:none; font-weight:560; }}
@@ -1200,7 +1200,7 @@ function renderCompany(slug) {{
       <div class="meta">${{['P','I','S'].includes(tier)?`<span class="chip ${{tier}}">tier ${{tier}}</span>`:''}}
         ${{showVal?`<span class="val">${{esc(val)}}</span>`:''}}
         ${{e.date&&e.date!=='missing'?`<span>${{esc(e.date)}}</span>`:''}}
-        ${{e.fresh&&e.fresh!=='fresh'&&e.fresh!=='undated'?`<span class="freshbadge fb-${{e.fresh}}">{icon('triangle-alert',12)} ${{e.fresh}}</span>`:''}}
+        ${{e.fresh&&e.fresh!=='fresh'&&e.fresh!=='undated'?`<span class="freshbadge fb-${{e.fresh}}" title="verified ${{esc(e.date||'?')}} — ${{e.fresh}}, re-check before citing">{icon('triangle-alert',12)}</span>`:''}}
         <span style="flex:1"></span>${{srcLinks(e.url)}}</div></div>`;
   }}).join('')+`</div>`;
   // findings flags
@@ -2101,7 +2101,7 @@ function renderPanelBody() {{
       + (tier?`<span class="chip ${{tier}}">tier ${{tier}}</span>`:'')
       + (val?`<span class="val">${{esc(val)}}</span>`:'<span class="val" style="opacity:.6">no value number</span>')
       + (e.date&&e.date!=='missing'?`<span>${{esc(e.date)}}</span>`:'')
-      + (e.fresh&&e.fresh!=='fresh'&&e.fresh!=='undated'?`<span class="freshbadge fb-${{e.fresh}}" title="verified ${{esc(e.date||'?')}} — re-check before citing">{icon('triangle-alert',12)} ${{e.fresh}}</span>`:'')
+      + (e.fresh&&e.fresh!=='fresh'&&e.fresh!=='undated'?`<span class="freshbadge fb-${{e.fresh}}" title="verified ${{esc(e.date||'?')}} — ${{e.fresh}}, re-check before citing">{icon('triangle-alert',12)}</span>`:'')
       + `<span style="flex:1"></span>${{srcLinks(e.url)}}</div></div>`;
   }}).join('');
   document.getElementById('pbody').innerHTML=html;
