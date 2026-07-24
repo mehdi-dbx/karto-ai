@@ -1533,10 +1533,10 @@ function renderVendor(slug) {{
   goAltitude('vendor','Vendor'); indexCompanies();
   if(!VENDOR_BY_SLUG){{ VENDOR_BY_SLUG={{}}; (ATLAS.vendors||[]).forEach(v=>VENDOR_BY_SLUG[v.slug]=v); }}
   const v=VENDOR_BY_SLUG[slug]; const host=document.getElementById('vendorBody');
-  if(!v){{ host.innerHTML='<h2>Vendor not found</h2><p class="lede"><a href="#/usecases">← catalog</a></p>'; return; }}
+  if(!v){{ host.innerHTML='<h2>Vendor not found</h2><p class="lede"><a href="#/usecases">← use case catalog</a></p>'; return; }}
   crumbs.innerHTML='<span style="cursor:pointer" onclick="goRoute(\\'a0\\')">Orbit</span> <span class="sep">›</span> <span class="here">'+esc(v.vendor)+'</span>';
   const names={{}}; ATLAS.countries.forEach(c=>names[c.cc]=c.name);
-  let html=`<a class="backup" href="#/usecases">← catalog</a>
+  let html=`<a class="backup" href="#/usecases">← use case catalog</a>
     <h2 style="margin:0">${{esc(v.vendor)}} <span style="font-size:14px;color:var(--muted)">· ${{esc(v.type)}}</span></h2>
     <p class="lede" style="margin-top:6px">Named on <b>${{v.deployments}}</b> deployments across <b>${{v.customers}}</b> companies,
     ${{v.verticals.length}} industries, ${{v.countries.length}} countries. Source-linked — nobody else has this map.</p>
@@ -1647,11 +1647,11 @@ function renderUsecase(pid) {{
   goAltitude('usecase','Use case'); indexCompanies();
   const u=(ATLAS.usecases||[]).find(x=>x.pattern_id===pid);
   const host=document.getElementById('usecaseBody');
-  if(!u){{ host.innerHTML='<h2>Pattern not found</h2><p class="lede"><a href="#/usecases">← catalog</a></p>'; return; }}
+  if(!u){{ host.innerHTML='<h2>Pattern not found</h2><p class="lede"><a href="#/usecases">← use case catalog</a></p>'; return; }}
   crumbs.innerHTML='<span style="cursor:pointer" onclick="goRoute(\\'a0\\')">Orbit</span> <span class="sep">›</span> <span style="cursor:pointer" onclick="goRoute(\\'usecases\\')">Use cases</span> <span class="sep">›</span> <span class="here">'+esc(u.name)+'</span>';
   const transfer=(ATLAS.transfer_opportunities||[]).find(t=>t.pattern_id===pid);
   // runner rows: register rows tagged with this pattern -> company + cc
-  let html=`<a class="backup" href="#/usecases">← catalog</a>
+  let html=`<a class="backup" href="#/usecases">← use case catalog</a>
     <h2 style="margin:0">${{esc(u.name)}}</h2>
     <p class="lede" style="margin-top:6px">${{esc(u.description||'')}} · <b>${{u.runners}}</b> runners across <b>${{u.verticals.length}}</b> industries, <b>${{u.countries.length}}</b> countries${{u.first_seen?`, since <b>${{u.first_seen}}</b>`:''}}.</p>
     <div class="ckpis">
