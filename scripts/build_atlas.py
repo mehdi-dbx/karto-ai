@@ -327,7 +327,7 @@ a:hover {{ text-decoration: underline; }}
 .open-card {{ border:1px solid var(--hair); border-radius:12px; background:var(--surface); padding:16px 18px; }}
 .open-card h4 {{ margin:0 0 10px; font-family:var(--font-head); font-weight:560; font-size:15px; color:var(--ink); }}
 .open-fns {{ display:flex; flex-wrap:wrap; gap:7px; }}
-.open-fn {{ font-family:var(--font-ui); font-size:12px; font-weight:560; border:1px solid var(--hair); border-radius:999px; padding:3px 11px; }}
+.open-fn {{ font-family:var(--font-ui); font-size:12px; border:1px solid var(--hair); border-radius:999px; padding:3px 11px; }}
 .open-legend {{ display:flex; flex-wrap:wrap; gap:8px 18px; margin-bottom:20px; font-family:var(--font-ui); font-size:12px; color:var(--ink-2); }}
 .open-legend .k {{ display:inline-flex; align-items:center; gap:7px; }}
 .open-legend .sw {{ width:14px; height:14px; border-radius:4px; flex:none; }}
