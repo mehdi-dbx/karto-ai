@@ -326,6 +326,8 @@ a:hover {{ text-decoration: underline; }}
 .open-grid {{ display:grid; grid-template-columns:repeat(auto-fill,minmax(300px,1fr)); gap:16px; margin-top:24px; }}
 .open-card {{ border:1px solid var(--hair); border-radius:12px; background:var(--surface); padding:16px 18px; }}
 .open-card h4 {{ margin:0 0 10px; font-family:var(--font-head); font-weight:560; font-size:15px; color:var(--ink); }}
+.open-card h4 .vlink {{ color:inherit; text-decoration:none; border-bottom:1px solid transparent; transition:border-color .18s, color .18s; }}
+.open-card h4 .vlink:hover {{ color:var(--accent); border-bottom-color:var(--accent); }}
 .open-fns {{ display:grid; grid-template-columns:1fr 1fr; gap:7px; }}
 .open-fn {{ font-family:var(--font-ui); font-size:12px; border:1px solid var(--hair); border-radius:999px; padding:3px 11px;
   display:flex; align-items:center; justify-content:space-between; min-width:0; }}
@@ -1615,9 +1617,10 @@ function renderUsecases() {{
     const vs=[...new Set((ATLAS.usecases||[]).flatMap(u=>u.verticals))].sort();
     vs.forEach(v=>vSel.insertAdjacentHTML('beforeend',`<option value="${{esc(v)}}">${{esc(v)}}</option>`));
     vSel.onchange=sSel.onchange=drawUsecases;
-    // honor ?vertical= from question targets
-    const p=currentParams(); if(p.get('vertical')) vSel.value=p.get('vertical');
   }}
+  // honor ?vertical= on every entry (e.g. clicking a vertical on Opportunities), not just first wire
+  const p=currentParams(); const wantV=p.get('vertical');
+  if(wantV && [...vSel.options].some(o=>o.value===wantV)) vSel.value=wantV;
   drawUsecases();
 }}
 // ranked bars: how many companies we FOUND running each pattern (a lower bound, not a census).
@@ -1843,7 +1846,8 @@ function drawOpen() {{
         return `<span class="open-fn" data-n="${{n}}" data-fnc="${{c}}" data-h="${{esc(h)}}">`
              + `<span class="lbl">${{esc(h)}}</span><span class="cnt" data-role="cnt"></span></span>`;
       }}).join('');
-      return `<div class="open-card" data-v="${{esc(v)}}"><h4>${{esc(v)}}</h4><div class="open-fns">${{pills}}</div></div>`;
+      // vertical heading links to that industry's use-cases view (its de-facto vertical page)
+      return `<div class="open-card" data-v="${{esc(v)}}"><h4><a class="vlink" href="#/usecases?vertical=${{encodeURIComponent(v)}}">${{esc(v)}}</a></h4><div class="open-fns">${{pills}}</div></div>`;
     }}).join('');
     // legend (function colours) — only meaningful on the Open side; kept stable
     document.getElementById('openLegend').innerHTML=`<div class="open-legend">`+fns.map(h=>
