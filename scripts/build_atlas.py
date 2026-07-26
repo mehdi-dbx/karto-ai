@@ -63,6 +63,30 @@ def icon(name, size=18, cls="lic"):
     svg = _raw_icon(name, size)
     svg = svg.replace("<svg ", f'<svg class="{cls}" aria-hidden="true" focusable="false" ', 1)
     return " ".join(svg.split())
+
+# --- card icons (baked at build time) ------------------------------------------------
+# one lucide icon per industry (vertical) and per business function (use-case horizontal)
+_VERT_ICON_NAME = {
+    "Financial Services":"landmark", "Retail & E-commerce":"shopping-cart", "Technology":"cpu",
+    "Energy & Utilities":"zap", "Healthcare & Life Sciences":"heart-pulse",
+    "Industrial / Machinery":"cog", "Manufacturing & Robotics":"bot", "Telecom":"radio-tower",
+    "Real Estate & Construction":"building-2", "Chemicals & Materials":"flask-conical",
+    "Insurance":"shield", "Logistics & Supply Chain":"truck", "Automotive":"car",
+    "Mining & Materials":"pickaxe", "Electric Machinery & Electronics":"circuit-board",
+    "Media / Entertainment / Gaming":"clapperboard", "Travel & Hospitality":"plane",
+    "Legal & Professional Services":"scale", "Agriculture":"wheat",
+    "Aerospace & Defence":"rocket", "Education":"graduation-cap",
+}
+_FUNC_ICON_NAME = {
+    "Core / Domain":"target", "Customer Support":"headset", "Software / Code":"code",
+    "Sales / Marketing":"megaphone", "Back-office / Ops":"briefcase", "Security / Risk":"shield-alert",
+}
+def _icon_map_js(name_map, size=16):
+    import json as _json
+    return _json.dumps({k: icon(v, size, "cardic") for k, v in name_map.items()})
+VERT_ICON_JSON = _icon_map_js(_VERT_ICON_NAME)
+FUNC_ICON_JSON = _icon_map_js(_FUNC_ICON_NAME)
+
 WORLD_JSON = open(os.path.join(ROOT, "data", "world-110m.json")).read()
 QUESTIONS_JSON = open(os.path.join(ROOT, "data", "questions.json")).read()
 _qs_path = os.path.join(ROOT, "data", "question_stats.json")
@@ -242,7 +266,9 @@ a:hover {{ text-decoration: underline; }}
 .ind-grid {{ display:grid; grid-template-columns:repeat(auto-fill,minmax(260px,1fr)); gap:14px; margin-top:24px; }}
 .ind-card {{ border:1px solid var(--hair); border-radius:12px; background:var(--surface); padding:16px 18px; text-decoration:none; color:inherit; transition:border-color .15s, transform .15s; }}
 .ind-card:hover {{ border-color:var(--accent); transform:translateY(-2px); }}
-.ind-card h4 {{ margin:0 0 8px; font-family:var(--font-head); font-weight:560; font-size:15px; color:var(--ink); }}
+.ind-card h4 {{ margin:0 0 8px; font-family:var(--font-head); font-weight:560; font-size:15px; color:var(--ink); display:flex; align-items:center; gap:9px; }}
+.cardic {{ flex:none; width:16px; height:16px; stroke:var(--accent); vertical-align:-.15em; }}
+.uc-name .cardic {{ vertical-align:-.15em; margin-right:8px; }}
 .ind-stats {{ display:flex; flex-wrap:wrap; gap:4px 14px; font-family:var(--font-ui); font-size:12px; color:var(--ink-2); }}
 .ind-stats b {{ color:var(--ink); font-variant-numeric:tabular-nums; }}
 .ind-open {{ margin-top:8px; font-family:var(--font-ui); font-size:11.5px; color:var(--accent); }}
@@ -1101,6 +1127,8 @@ a.colink {{ color:var(--ink); text-decoration:none; }} a.colink:hover {{ color:v
 <script>{TOPO}</script>
 <script>
 const ATLAS = JSON.parse(document.getElementById('atlas-data').textContent);
+const VERT_ICON = {VERT_ICON_JSON};   // industry -> lucide svg (baked at build)
+const FUNC_ICON = {FUNC_ICON_JSON};   // business function -> lucide svg
 
 /* accent-blind normaliser for all search boxes: "loreal" matches "L'Oréal" */
 const deaccent = s => (s||'').normalize('NFD').replace(/[\\u0300-\\u036f]/g,'').toLowerCase();
@@ -1656,7 +1684,7 @@ function renderVerticals() {{
   const cards=list.map(v=>{{
     const t=tot[v]||{{n:0,confirmed:0,withnum:0}}; const open=openByV[v]||0;
     return `<a class="ind-card" href="#/vertical/${{vslug(v)}}">
-      <h4>${{esc(v)}}</h4>
+      <h4>${{VERT_ICON[v]||''}}${{esc(v)}}</h4>
       <div class="ind-stats"><span><b>${{(t.n||0).toLocaleString()}}</b> deployments</span>
         <span><b>${{(cocount[v]||0).toLocaleString()}}</b> companies</span>
         <span><b>${{t.n?Math.round(100*(t.withnum||0)/t.n):0}}%</b> quantified</span></div>
@@ -1754,7 +1782,7 @@ function drawUsecases() {{
   list.sort((a,b)=> sort==='first_seen' ? ((a.first_seen||9999)-(b.first_seen||9999)) : (b[sort]-a[sort]));
   document.getElementById('ucCards').innerHTML = list.map(u=>`
     <a class="uc-card" href="#/usecase/${{encodeURIComponent(u.pattern_id)}}">
-      <div class="uc-name">${{esc(u.name)}}</div>
+      <div class="uc-name">${{FUNC_ICON[u.horizontal]||''}}${{esc(u.name)}}</div>
       <div class="uc-desc">${{esc(u.description||'')}}</div>
       <div class="uc-stats">
         <span><b>${{u.runners}}</b> runners</span>
