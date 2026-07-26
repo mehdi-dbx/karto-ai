@@ -560,14 +560,15 @@ a.vchip:hover {{ border-color:var(--accent); color:var(--accent); text-decoratio
 
 /* ============ A2 TERRITORY (decision grid) ============ */
 .terr {{ max-width:1240px; margin:0 auto; padding:clamp(24px,4vh,52px) clamp(20px,5vw,64px) 90px; }}
-.terr .head {{ display:flex; flex-wrap:wrap; align-items:flex-end; justify-content:space-between; gap:16px; margin-bottom:6px; }}
+.terr .head {{ display:flex; flex-wrap:wrap; align-items:flex-start; justify-content:space-between; gap:16px; margin-bottom:6px; }}
+.terr .head > div:first-child {{ flex:1 1 420px; min-width:0; }}   /* text block flexes; controls keep their spot */
 .terr h2 {{ font-weight:340; font-size:clamp(24px,3.2vw,38px); letter-spacing:-.02em; margin:0; }}
 .terr h2 .scope {{ color:var(--accent); }}
 .backup {{ font-family:var(--font-ui); background:none; border:none; cursor:pointer; padding:0; margin:0 0 10px;
   color:var(--ink-2); font-size:13px; letter-spacing:.02em; display:inline-flex; align-items:center; gap:6px; transition:color .18s ease; }}
 .backup:hover {{ color:var(--accent); }}
 .terr .lede {{ color:var(--ink-2); max-width:60ch; font-size:15px; margin:6px 0 0; }}
-.terr .controls {{ display:flex; gap:10px; align-items:center; flex-wrap:wrap; }}
+.terr .controls {{ display:flex; gap:10px; align-items:center; flex:none; }}   /* fixed reference frame: never reflows with lede length */
 /* the grid */
 .gridwrap {{ margin-top:26px; overflow-x:auto; }}
 table.grid {{ border-collapse:separate; border-spacing:3px; }}
