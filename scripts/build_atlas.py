@@ -264,8 +264,8 @@ a:hover {{ text-decoration: underline; }}
 .metkey {{ font-family:var(--font-ui); font-size:11.5px; color:var(--muted); margin:-6px 0 14px; }}
 /* industries index */
 .ind-grid {{ display:grid; grid-template-columns:repeat(auto-fill,minmax(260px,1fr)); gap:14px; margin-top:24px; }}
-.ind-card {{ border:1px solid var(--hair); border-radius:12px; background:var(--surface); overflow:hidden; text-decoration:none; color:inherit; transition:border-color .15s, transform .15s; }}
-.ind-card:hover {{ border-color:var(--accent); transform:translateY(-2px); }}
+.ind-card {{ border:1px solid color-mix(in srgb,var(--accent) 32%,var(--hair)); border-radius:12px; background:var(--surface); overflow:hidden; text-decoration:none; color:inherit; transition:border-color .15s, transform .15s, box-shadow .15s; }}
+.ind-card:hover {{ border-color:var(--accent); transform:translateY(-2px); box-shadow:0 4px 14px color-mix(in srgb,var(--accent) 14%,transparent); }}
 /* amber title band, echoing the grid column headers, to set the title off from the body */
 .ind-card h4 {{ margin:0; padding:11px 16px; background:color-mix(in srgb,var(--accent) 11%,var(--surface));
   border-bottom:1px solid color-mix(in srgb,var(--accent) 22%,var(--surface));
@@ -397,8 +397,8 @@ a:hover {{ text-decoration: underline; }}
 .open-fn {{ transition:background .45s ease, border-color .45s ease, color .45s ease, font-weight .45s ease; }}
 .open-fn .cnt {{ font-variant-numeric:tabular-nums; opacity:.7; margin-left:6px; font-size:11px; }}
 .uc-cards {{ display:grid; grid-template-columns:repeat(auto-fill,minmax(280px,1fr)); gap:16px; margin-top:32px; }}
-.uc-card {{ display:block; overflow:hidden; border:1px solid var(--hair); border-radius:12px; background:var(--surface); text-decoration:none; transition:border-color .18s ease, transform .18s ease; }}
-.uc-card:hover {{ border-color:var(--accent); transform:translateY(-2px); text-decoration:none; }}
+.uc-card {{ display:block; overflow:hidden; border:1px solid color-mix(in srgb,var(--accent) 32%,var(--hair)); border-radius:12px; background:var(--surface); text-decoration:none; transition:border-color .18s ease, transform .18s ease, box-shadow .18s ease; }}
+.uc-card:hover {{ border-color:var(--accent); transform:translateY(-2px); text-decoration:none; box-shadow:0 4px 14px color-mix(in srgb,var(--accent) 14%,transparent); }}
 /* amber title band, matching the industry cards */
 .uc-name {{ margin:0; padding:12px 16px; background:color-mix(in srgb,var(--accent) 11%,var(--surface));
   border-bottom:1px solid color-mix(in srgb,var(--accent) 22%,var(--surface));
