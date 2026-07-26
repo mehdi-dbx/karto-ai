@@ -237,6 +237,7 @@ a:hover {{ text-decoration: underline; }}
 .ckpi .l {{ font-size:12px; color:var(--muted); margin-top:3px; }}
 .csub {{ font-family:var(--font-head); font-weight:400; font-size:19px; margin:34px 0 14px; letter-spacing:-.01em; }}
 /* vertical page: per-function breakdown bars */
+.metkey {{ font-family:var(--font-ui); font-size:11.5px; color:var(--muted); margin:-6px 0 14px; }}
 .vbars {{ display:flex; flex-direction:column; gap:10px; max-width:760px; }}
 .vrow {{ display:grid; grid-template-columns:150px 1fr; align-items:center; gap:14px; }}
 .vrow-h {{ font-family:var(--font-ui); font-size:12.5px; text-align:right; }}
@@ -1646,7 +1647,7 @@ function renderVertical(slug) {{
     const w=(100*n/maxN).toFixed(1);
     const bar=n? `<a class="vbar" href="#/grid" onclick="setTimeout(()=>openCell('${{esc(v)}}','${{esc(h)}}'),60)" title="${{n}} deployments — click for companies">`
         + `<span class="vbar-fill" style="width:${{w}}%;background:color-mix(in srgb,${{col}} 55%,var(--surface));border-color:${{col}}"></span>`
-        + `<span class="vbar-n">${{n.toLocaleString()}}${{wn?` <span class="vbar-wn">· ${{wn}} with a number</span>`:''}}</span></a>`
+        + `<span class="vbar-n">${{n.toLocaleString()}}${{wn?` <span class="vbar-wn">· ${{wn.toLocaleString()}}</span>`:''}}</span></a>`
       : `<span class="vbar vbar-empty">— open territory (no deployment found yet)</span>`;
     return `<div class="vrow"><span class="vrow-h" style="color:${{col}}">${{esc(h)}}</span>${{bar}}</div>`;
   }}).join('');
@@ -1662,7 +1663,9 @@ function renderVertical(slug) {{
       <div class="ckpi"><div class="n">${{nCos.toLocaleString()}}</div><div class="l">companies</div></div>
       <div class="ckpi"><div class="n">${{tot.n?Math.round(100*(tot.withnum||0)/tot.n):0}}%</div><div class="l">cite a number</div></div>
     </div>
-    <h3 class="csub">By business function</h3><div class="vbars">${{fnRows}}</div>
+    <h3 class="csub">By business function</h3>
+    <div class="metkey">each bar: <b>total</b> · <b>quantified</b> (deployments citing a value number)</div>
+    <div class="vbars">${{fnRows}}</div>
     <h3 class="csub">Companies in ${{esc(v)}} (${{nCos}})</h3><div class="uc-runners">${{coChips||'<span class="footnote">No companies found in scope.</span>'}}</div>
     <p class="footnote">Counts are deployments we sourced — a coverage floor, not a census. Click a function bar to see the companies behind it.</p>`;
   window.scrollTo({{top:0,behavior:'smooth'}});
