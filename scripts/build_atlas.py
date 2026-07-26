@@ -1723,7 +1723,7 @@ function renderVertical(slug) {{
     const t=(ATLAS.vert_totals_by_country[cc]||[]).find(x=>x.v===v);
     if(t&&t.n) ccWith.push([cc,t.n]);
   }});
-  ccWith.sort((a,b)=>b[1]-a[1]);
+  ccWith.sort((a,b)=>(ccName[a[0]]||a[0]).localeCompare(ccName[b[0]]||b[0]));
   const ccOpts=`<option value="">All countries</option>`+ccWith.map(([cc,n])=>`<option value="${{cc}}">${{esc(ccName[cc]||cc)}} (${{n}})</option>`).join('');
   const want=currentParams().get('cc')||'';
   const cc=ccWith.some(([c])=>c===want)?want:'';
