@@ -66,6 +66,28 @@
  "deployments_detail": [
   {
    "company": "Wells Fargo",
+   "use": "AI Teammate, a conversational AI assistant embedded in the Advisor Gateway platform for financial advisors, streamlines research, client communication and everyday workflow tasks with plain-language queries and faster information retrieval.",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://newsroom.wf.com/news-releases/news-details/2026/Wells-Fargo-introduces-AI-Teammate-bringing--AI-powered-support-to-the-advisor-experience/default.aspx",
+   "raw_sector": "",
+   "date": "2026-07",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Wells Fargo",
+   "use": "AI agents built on Google Agentspace for Corporate & Investment Banking and operations, including foreign-exchange post-trade inquiry agents and a contract-management agent that queries roughly 250,000 vendor agreement documents to surface clauses, payment terms and contract types. [Google Cloud (Agentspace, Gemini)]",
+   "existence": "claimed",
+   "value": "~250,000 vendor agreement documents queried",
+   "tier": "",
+   "url": "https://cloud.google.com/blog/topics/financial-services/wells-fargo-agentic-ai-agentspace-empowering-workers",
+   "raw_sector": "",
+   "date": "2025-08",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Wells Fargo",
    "use": "AI in payments processing",
    "existence": "confirmed",
    "value": "none",
@@ -99,6 +121,17 @@
   },
   {
    "company": "Wells Fargo",
+   "use": "Fargo virtual assistant in the Wells Fargo Mobile app handles customer banking tasks (balances, transaction search, bill pay, card management) via conversational AI. Built on Google Cloud Dialogflow with a model-agnostic/Gemini Flash orchestration that keeps PII out of the LLM. Handled 245.4M interactions in 2024 and surpassed 1 billion total interactions by March 2026. [Google Cloud (Dialogflow, Gemini Flash)]",
+   "existence": "confirmed",
+   "value": "245.4M interactions in 2024; over 1 billion cumulative interactions by 2026",
+   "tier": "",
+   "url": "https://newsroom.wf.com/English/news-releases/news-release-details/2022/Wells-Fargos-New-Virtual-Assistant-Fargo-to-Be-Powered-by-Google-Cloud-AI/default.aspx",
+   "raw_sector": "",
+   "date": "2022-10",
+   "fresh": "stale"
+  },
+  {
+   "company": "Wells Fargo",
    "use": "AI agents for customer experience improvement and task automation [Google Agentspace]",
    "existence": "confirmed",
    "value": "none",
@@ -121,61 +154,6 @@
   },
   {
    "company": "Wells Fargo",
-   "use": "Generative AI coding tools deployed to the bank's engineering workforce to assist writing and reviewing software code, which CEO Charlie Scharf said made engineers 30%-35% more efficient at writing code.",
-   "existence": "confirmed",
-   "value": "30%-35% more efficient at writing code",
-   "tier": "",
-   "url": "https://www.reuters.com/business/finance/wells-fargo-sees-more-job-cuts-going-into-2026-2025-12-09/",
-   "raw_sector": "",
-   "date": "2025-12",
-   "fresh": "fresh"
-  },
-  {
-   "company": "Wells Fargo",
-   "use": "Pega Customer Decision Hub used as a real-time AI decisioning engine with adaptive machine learning to unify customer data and calculate each customer's 'next best action' across digital, branch and contact-center touchpoints for personalized offers and conversations. [Pegasystems (Customer Decision Hub)]",
-   "existence": "confirmed",
-   "value": "none",
-   "tier": "",
-   "url": "https://www.pega.com/customers/wells-fargo-customer-decision-hub",
-   "raw_sector": "",
-   "date": "missing",
-   "fresh": "undated"
-  },
-  {
-   "company": "Wells Fargo",
-   "use": "AI Teammate, a conversational AI assistant embedded in the Advisor Gateway platform for financial advisors, streamlines research, client communication and everyday workflow tasks with plain-language queries and faster information retrieval.",
-   "existence": "confirmed",
-   "value": "none",
-   "tier": "",
-   "url": "https://newsroom.wf.com/news-releases/news-details/2026/Wells-Fargo-introduces-AI-Teammate-bringing--AI-powered-support-to-the-advisor-experience/default.aspx",
-   "raw_sector": "",
-   "date": "2026-07",
-   "fresh": "fresh"
-  },
-  {
-   "company": "Wells Fargo",
-   "use": "AI agents built on Google Agentspace for Corporate & Investment Banking and operations, including foreign-exchange post-trade inquiry agents and a contract-management agent that queries roughly 250,000 vendor agreement documents to surface clauses, payment terms and contract types. [Google Cloud (Agentspace, Gemini)]",
-   "existence": "claimed",
-   "value": "~250,000 vendor agreement documents queried",
-   "tier": "",
-   "url": "https://cloud.google.com/blog/topics/financial-services/wells-fargo-agentic-ai-agentspace-empowering-workers",
-   "raw_sector": "",
-   "date": "2025-08",
-   "fresh": "fresh"
-  },
-  {
-   "company": "Wells Fargo",
-   "use": "Fargo virtual assistant in the Wells Fargo Mobile app handles customer banking tasks (balances, transaction search, bill pay, card management) via conversational AI. Built on Google Cloud Dialogflow with a model-agnostic/Gemini Flash orchestration that keeps PII out of the LLM. Handled 245.4M interactions in 2024 and surpassed 1 billion total interactions by March 2026. [Google Cloud (Dialogflow, Gemini Flash)]",
-   "existence": "confirmed",
-   "value": "245.4M interactions in 2024; over 1 billion cumulative interactions by 2026",
-   "tier": "",
-   "url": "https://newsroom.wf.com/English/news-releases/news-release-details/2022/Wells-Fargos-New-Virtual-Assistant-Fargo-to-Be-Powered-by-Google-Cloud-AI/default.aspx",
-   "raw_sector": "",
-   "date": "2022-10",
-   "fresh": "stale"
-  },
-  {
-   "company": "Wells Fargo",
    "use": "Machine-learning fraud detection using FICO Falcon / FICO analytics to identify fraudulent card and payment activity; Wells Fargo was named FICO's Industry Vanguard for its use of ML and analytics to detect fraud attacks. [FICO (Falcon Fraud Manager)]",
    "existence": "confirmed",
    "value": "none",
@@ -195,6 +173,28 @@
    "raw_sector": "",
    "date": "2021-04",
    "fresh": "stale"
+  },
+  {
+   "company": "Wells Fargo",
+   "use": "Generative AI coding tools deployed to the bank's engineering workforce to assist writing and reviewing software code, which CEO Charlie Scharf said made engineers 30%-35% more efficient at writing code.",
+   "existence": "confirmed",
+   "value": "30%-35% more efficient at writing code",
+   "tier": "",
+   "url": "https://www.reuters.com/business/finance/wells-fargo-sees-more-job-cuts-going-into-2026-2025-12-09/",
+   "raw_sector": "",
+   "date": "2025-12",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Wells Fargo",
+   "use": "Pega Customer Decision Hub used as a real-time AI decisioning engine with adaptive machine learning to unify customer data and calculate each customer's 'next best action' across digital, branch and contact-center touchpoints for personalized offers and conversations. [Pegasystems (Customer Decision Hub)]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.pega.com/customers/wells-fargo-customer-decision-hub",
+   "raw_sector": "",
+   "date": "missing",
+   "fresh": "undated"
   }
  ]
 }

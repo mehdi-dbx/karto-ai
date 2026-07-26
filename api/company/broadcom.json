@@ -43,7 +43,7 @@
   }
  ],
  "undated_pct": 0,
- "momentum": "early_mover,rising",
+ "momentum": "rising",
  "maturity": "L4",
  "maturity_evidence": [
   "multi_horizontal",
@@ -61,22 +61,11 @@
  "deployments_detail": [
   {
    "company": "Broadcom",
-   "use": "Custom AI accelerators (XPU/ASIC) + AI networking for hyperscalers; AI revenue $8.4B Q1 FY26 (+106% YoY); CEO guides AI chip sales >$100B in 2027",
+   "use": "Broadcom internal RAG chatbot 'vAQA' (VMware Automated Question Answering Service) — a back-office/contact-center assistant helping employees and customer-facing reps work with sensitive company data, built on LLMs + vector DB with Retrieval-Augmented Generation on VMware Private AI Foundation. Described as deployed internally and proven valuable to the business. [Internal (VMware Private AI Foundation, LLM + RAG)]",
    "existence": "confirmed",
-   "value": "$8.4B AI revenue Q1 FY26",
-   "tier": "S",
-   "url": "https://www.cnbc.com/2026/03/04/broadcom-sees-ai-chip-sales-significantly-over-100-billion-in-2027.html",
-   "raw_sector": "Information Technology",
-   "date": "2027",
-   "fresh": "fresh"
-  },
-  {
-   "company": "Broadcom",
-   "use": "Intelligent Assist for VMware Cloud Foundation — a GenAI operations assistant for VCF administrators, built by Broadcom on VMware Private AI Services (Model Gallery + Agent Builder + retrieval) as a reference implementation of its own agentic AI stack. [VMware by Broadcom (Private AI Services)]",
-   "existence": "claimed",
    "value": "none",
    "tier": "",
-   "url": "https://blogs.vmware.com/cloud-foundation/2025/08/26/vmware-private-ai-services-demo/",
+   "url": "https://blogs.vmware.com/cloud-foundation/2025/01/10/use-cases-for-implementing-private-ai-foundation-with-nvidia-part-1/",
    "raw_sector": "",
    "date": "2025",
    "fresh": "fresh"
@@ -101,6 +90,17 @@
    "url": "https://blogs.vmware.com/cloud-foundation/2025/01/10/use-cases-for-implementing-private-ai-foundation-with-nvidia-part-1/",
    "raw_sector": "",
    "date": "2025",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Broadcom",
+   "use": "Custom AI accelerators (XPU/ASIC) + AI networking for hyperscalers; AI revenue $8.4B Q1 FY26 (+106% YoY); CEO guides AI chip sales >$100B in 2027",
+   "existence": "confirmed",
+   "value": "$8.4B AI revenue Q1 FY26",
+   "tier": "S",
+   "url": "https://www.cnbc.com/2026/03/04/broadcom-sees-ai-chip-sales-significantly-over-100-billion-in-2027.html",
+   "raw_sector": "Information Technology",
+   "date": "2027",
    "fresh": "fresh"
   },
   {
@@ -149,11 +149,11 @@
   },
   {
    "company": "Broadcom",
-   "use": "Broadcom internal RAG chatbot 'vAQA' (VMware Automated Question Answering Service) — a back-office/contact-center assistant helping employees and customer-facing reps work with sensitive company data, built on LLMs + vector DB with Retrieval-Augmented Generation on VMware Private AI Foundation. Described as deployed internally and proven valuable to the business. [Internal (VMware Private AI Foundation, LLM + RAG)]",
-   "existence": "confirmed",
+   "use": "Intelligent Assist for VMware Cloud Foundation — a GenAI operations assistant for VCF administrators, built by Broadcom on VMware Private AI Services (Model Gallery + Agent Builder + retrieval) as a reference implementation of its own agentic AI stack. [VMware by Broadcom (Private AI Services)]",
+   "existence": "claimed",
    "value": "none",
    "tier": "",
-   "url": "https://blogs.vmware.com/cloud-foundation/2025/01/10/use-cases-for-implementing-private-ai-foundation-with-nvidia-part-1/",
+   "url": "https://blogs.vmware.com/cloud-foundation/2025/08/26/vmware-private-ai-services-demo/",
    "raw_sector": "",
    "date": "2025",
    "fresh": "fresh"

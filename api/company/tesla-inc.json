@@ -64,6 +64,28 @@
  "deployments_detail": [
   {
    "company": "Tesla, Inc.",
+   "use": "Tesla Assist — AI-powered website chatbot providing instant answers to product/service questions, scheduling service, explaining leases, and booking demo/test drives; live on Tesla's site.",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://driveteslacanada.ca/news/tesla-launches-tesla-assist-chatbot/",
+   "raw_sector": "",
+   "date": "2025-02",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Tesla, Inc.",
+   "use": "Tesla Service AI Agent — AI system that monitors service-communication delays, tracks customer sentiment, and auto-escalates issues to leadership; launched as a pilot at 10 service locations.",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.notateslaapp.com/news/2695/tesla-launches-ai-agent-to-improve-tesla-service-communications",
+   "raw_sector": "",
+   "date": "2025-05",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Tesla, Inc.",
    "use": "Full Self-Driving (FSD) neural nets + custom AI inference chips + Optimus humanoid robot + robotaxi",
    "existence": "confirmed",
    "value": "none",
@@ -72,72 +94,6 @@
    "raw_sector": "Consumer Discretionary",
    "date": "missing",
    "fresh": "undated"
-  },
-  {
-   "company": "Tesla, Inc.",
-   "use": "Autonomous driving and vehicle autonomy using computer vision and AI planning",
-   "existence": "confirmed",
-   "value": "none",
-   "tier": "",
-   "url": "https://www.tesla.com/AI",
-   "raw_sector": "",
-   "date": "missing",
-   "fresh": "undated"
-  },
-  {
-   "company": "Tesla, Inc.",
-   "use": "Optimus humanoid robot production and deployment",
-   "existence": "claimed",
-   "value": "5000 units planned for 2025 at $20,000-$30,000 each",
-   "tier": "",
-   "url": "https://carboncredits.com/tesla-shifts-from-evs-to-ai-musk-says-robots-will-be-80-of-company-value/",
-   "raw_sector": "",
-   "date": "Sep 3, 2025",
-   "fresh": "undated"
-  },
-  {
-   "company": "Tesla, Inc.",
-   "use": "Computer vision for Autopilot autonomous driving [PyTorch]",
-   "existence": "confirmed",
-   "value": "none",
-   "tier": "",
-   "url": "https://emerj.com/ai-at-telsa/",
-   "raw_sector": "",
-   "date": "Aug 16, 2021",
-   "fresh": "undated"
-  },
-  {
-   "company": "Tesla, Inc.",
-   "use": "Machine learning for assembly line automation, quality control, and predictive maintenance",
-   "existence": "confirmed",
-   "value": "none",
-   "tier": "",
-   "url": "https://digitaldefynd.com/IQ/tesla-using-ai-case-study/",
-   "raw_sector": "",
-   "date": "missing",
-   "fresh": "undated"
-  },
-  {
-   "company": "Tesla, Inc.",
-   "use": "Factory computer-vision AI for quality control — production-grade ML models power visual inspection and defect detection across body panels, welds, and painted surfaces at production stages in Tesla factories. [Tesla in-house (Factory Vision Systems)]",
-   "existence": "confirmed",
-   "value": "none",
-   "tier": "",
-   "url": "https://www.tesla.com/careers/search/job/machine-learning-engineer-factory-vision-systems-265269",
-   "raw_sector": "",
-   "date": "2024",
-   "fresh": "aging"
-  },
-  {
-   "company": "Tesla, Inc.",
-   "use": "Cortex AI training supercluster at Giga Texas — ~50,000 Nvidia H100 GPUs live in Q4 2024 (expanding toward ~100k H100/H200), used to train FSD and Optimus neural networks. [Nvidia (H100/H200)]",
-   "existence": "confirmed",
-   "value": "~50,000 Nvidia H100 GPUs live Q4 2024",
-   "tier": "",
-   "url": "https://www.datacenterdynamics.com/en/news/teslas-50000-gpu-cortex-supercomputer-went-live-in-q4-2024/",
-   "raw_sector": "",
-   "date": "2024",
-   "fresh": "aging"
   },
   {
    "company": "Tesla, Inc.",
@@ -196,25 +152,69 @@
   },
   {
    "company": "Tesla, Inc.",
-   "use": "Tesla Assist — AI-powered website chatbot providing instant answers to product/service questions, scheduling service, explaining leases, and booking demo/test drives; live on Tesla's site.",
+   "use": "Autonomous driving and vehicle autonomy using computer vision and AI planning",
    "existence": "confirmed",
    "value": "none",
    "tier": "",
-   "url": "https://driveteslacanada.ca/news/tesla-launches-tesla-assist-chatbot/",
+   "url": "https://www.tesla.com/AI",
    "raw_sector": "",
-   "date": "2025-02",
-   "fresh": "fresh"
+   "date": "missing",
+   "fresh": "undated"
   },
   {
    "company": "Tesla, Inc.",
-   "use": "Tesla Service AI Agent — AI system that monitors service-communication delays, tracks customer sentiment, and auto-escalates issues to leadership; launched as a pilot at 10 service locations.",
+   "use": "Optimus humanoid robot production and deployment",
+   "existence": "claimed",
+   "value": "5000 units planned for 2025 at $20,000-$30,000 each",
+   "tier": "",
+   "url": "https://carboncredits.com/tesla-shifts-from-evs-to-ai-musk-says-robots-will-be-80-of-company-value/",
+   "raw_sector": "",
+   "date": "Sep 3, 2025",
+   "fresh": "undated"
+  },
+  {
+   "company": "Tesla, Inc.",
+   "use": "Computer vision for Autopilot autonomous driving [PyTorch]",
    "existence": "confirmed",
    "value": "none",
    "tier": "",
-   "url": "https://www.notateslaapp.com/news/2695/tesla-launches-ai-agent-to-improve-tesla-service-communications",
+   "url": "https://emerj.com/ai-at-telsa/",
    "raw_sector": "",
-   "date": "2025-05",
-   "fresh": "fresh"
+   "date": "Aug 16, 2021",
+   "fresh": "undated"
+  },
+  {
+   "company": "Tesla, Inc.",
+   "use": "Factory computer-vision AI for quality control — production-grade ML models power visual inspection and defect detection across body panels, welds, and painted surfaces at production stages in Tesla factories. [Tesla in-house (Factory Vision Systems)]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.tesla.com/careers/search/job/machine-learning-engineer-factory-vision-systems-265269",
+   "raw_sector": "",
+   "date": "2024",
+   "fresh": "aging"
+  },
+  {
+   "company": "Tesla, Inc.",
+   "use": "Machine learning for assembly line automation, quality control, and predictive maintenance",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://digitaldefynd.com/IQ/tesla-using-ai-case-study/",
+   "raw_sector": "",
+   "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "Tesla, Inc.",
+   "use": "Cortex AI training supercluster at Giga Texas — ~50,000 Nvidia H100 GPUs live in Q4 2024 (expanding toward ~100k H100/H200), used to train FSD and Optimus neural networks. [Nvidia (H100/H200)]",
+   "existence": "confirmed",
+   "value": "~50,000 Nvidia H100 GPUs live Q4 2024",
+   "tier": "",
+   "url": "https://www.datacenterdynamics.com/en/news/teslas-50000-gpu-cortex-supercomputer-went-live-in-q4-2024/",
+   "raw_sector": "",
+   "date": "2024",
+   "fresh": "aging"
   },
   {
    "company": "Tesla, Inc.",

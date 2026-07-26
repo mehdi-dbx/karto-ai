@@ -70,6 +70,61 @@
  "deployments_detail": [
   {
    "company": "HCA Healthcare",
+   "use": "SPOT (Sepsis Prediction and Optimization of Therapy): real-time algorithm ingesting vital signs, labs and nursing reports to flag sepsis roughly 6-18 hours earlier than clinicians; deployed at scale across the hospital network and credited with saving lives. [HCA Healthcare proprietary (in-house)]",
+   "existence": "confirmed",
+   "value": "Used with ~2.5M patients; estimated ~8,000 lives saved over five years; deployed across 173 hospitals; sepsis mortality reduction cited at 22.9%",
+   "tier": "",
+   "url": "https://investor.hcahealthcare.com/news/news-details/2019/HCA-Healthcare-Using-Algorithm-Driven-Technology-to-Detect-Sepsis-Early-and-Help-Save-8000-Lives/default.aspx",
+   "raw_sector": "",
+   "date": "2018",
+   "fresh": "stale"
+  },
+  {
+   "company": "HCA Healthcare",
+   "use": "Nurse Handoff app: generative-AI tool that pulls EHR data and auto-drafts nurse shift-change handoff summaries, cutting the manual information-assembly that typically takes over an hour per shift. [Google Cloud (LLM / Vertex AI)]",
+   "existence": "confirmed",
+   "value": "In beta at 8 hospitals; 97% accuracy and 95% helpfulness ratings from nurse testers; designed with input from 21 nurses across 4 hospitals",
+   "tier": "",
+   "url": "https://cloud.google.com/transform/nurse-handoff-ai-chart-app-hca-healthcare-better-patient-outcomes",
+   "raw_sector": "",
+   "date": "2024",
+   "fresh": "aging"
+  },
+  {
+   "company": "HCA Healthcare",
+   "use": "Ambient clinical documentation for emergency-department physicians: hands-free device app that turns clinician-patient conversations into draft clinical notes using NLP and generative AI, reducing documentation burden. [Augmedix + Google Cloud (MedLM / Med-PaLM 2)]",
+   "existence": "confirmed",
+   "value": "Pilot with ~75 ER physicians across 4 HCA hospitals; reported strong physician satisfaction",
+   "tier": "",
+   "url": "https://www.healthcareitnews.com/news/hca-working-google-cloud-clinical-generative-ai",
+   "raw_sector": "",
+   "date": "2023",
+   "fresh": "stale"
+  },
+  {
+   "company": "HCA Healthcare",
+   "use": "Enterprise ambient AI scribe and clinician copilots: multi-specialty, EHR-agnostic platform to auto-document encounters and support ED, hospitalist and ambulatory workflows; being rolled out from a Texas pilot toward network-wide deployment. [Commure (with Augmedix technology)]",
+   "existence": "confirmed",
+   "value": "Planned across 188 hospitals and ~2,400 ambulatory sites / ~99,000 nurses; billed as one of the largest AI deployments in healthcare (enterprise agreement being finalized; Texas pilot underway)",
+   "tier": "",
+   "url": "https://www.commure.com/press-releases/hca-and-commure-announce-largest-ai-deployment-in-healthcare",
+   "raw_sector": "",
+   "date": "2024-10",
+   "fresh": "aging"
+  },
+  {
+   "company": "HCA Healthcare",
+   "use": "Maternal-fetal care clinical decision support platform to standardize subjective manual patient assessments, improve risk identification and reduce documentation inefficiencies in maternal care. [GE HealthCare]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.beckershospitalreview.com/healthcare-information-technology/ai/how-hca-healthcare-built-its-enterprise-ai-strategy/",
+   "raw_sector": "",
+   "date": "2025-10",
+   "fresh": "fresh"
+  },
+  {
+   "company": "HCA Healthcare",
    "use": "Ambient-listening AI for capturing clinician-patient conversations to improve patient safety",
    "existence": "claimed",
    "value": "none",
@@ -136,17 +191,6 @@
   },
   {
    "company": "HCA Healthcare",
-   "use": "Generative AI to improve workflows and reduce administrative burden for physicians and nurses [Google Cloud]",
-   "existence": "claimed",
-   "value": "none",
-   "tier": "",
-   "url": "https://investor.hcahealthcare.com/news/news-details/2023/HCA-Healthcare-Collaborates-With-Google-Cloud-to-Bring-Generative-AI-to-Hospitals/default.aspx",
-   "raw_sector": "",
-   "date": "Aug 29, 2023",
-   "fresh": "undated"
-  },
-  {
-   "company": "HCA Healthcare",
    "use": "Timpani: AI-enabled nurse staffing and shift-scheduling application that automates schedule generation across nursing departments. [Palantir (with HCA Healthcare)]",
    "existence": "confirmed",
    "value": "Live across 130+ hospitals and ~1,200 nursing departments; scheduling time cut from 8-15 hours/month to 2-3 hours/cycle; associated with a 6% decline in nurse turnover",
@@ -180,58 +224,14 @@
   },
   {
    "company": "HCA Healthcare",
-   "use": "SPOT (Sepsis Prediction and Optimization of Therapy): real-time algorithm ingesting vital signs, labs and nursing reports to flag sepsis roughly 6-18 hours earlier than clinicians; deployed at scale across the hospital network and credited with saving lives. [HCA Healthcare proprietary (in-house)]",
-   "existence": "confirmed",
-   "value": "Used with ~2.5M patients; estimated ~8,000 lives saved over five years; deployed across 173 hospitals; sepsis mortality reduction cited at 22.9%",
-   "tier": "",
-   "url": "https://investor.hcahealthcare.com/news/news-details/2019/HCA-Healthcare-Using-Algorithm-Driven-Technology-to-Detect-Sepsis-Early-and-Help-Save-8000-Lives/default.aspx",
-   "raw_sector": "",
-   "date": "2018",
-   "fresh": "stale"
-  },
-  {
-   "company": "HCA Healthcare",
-   "use": "Nurse Handoff app: generative-AI tool that pulls EHR data and auto-drafts nurse shift-change handoff summaries, cutting the manual information-assembly that typically takes over an hour per shift. [Google Cloud (LLM / Vertex AI)]",
-   "existence": "confirmed",
-   "value": "In beta at 8 hospitals; 97% accuracy and 95% helpfulness ratings from nurse testers; designed with input from 21 nurses across 4 hospitals",
-   "tier": "",
-   "url": "https://cloud.google.com/transform/nurse-handoff-ai-chart-app-hca-healthcare-better-patient-outcomes",
-   "raw_sector": "",
-   "date": "2024",
-   "fresh": "aging"
-  },
-  {
-   "company": "HCA Healthcare",
-   "use": "Ambient clinical documentation for emergency-department physicians: hands-free device app that turns clinician-patient conversations into draft clinical notes using NLP and generative AI, reducing documentation burden. [Augmedix + Google Cloud (MedLM / Med-PaLM 2)]",
-   "existence": "confirmed",
-   "value": "Pilot with ~75 ER physicians across 4 HCA hospitals; reported strong physician satisfaction",
-   "tier": "",
-   "url": "https://www.healthcareitnews.com/news/hca-working-google-cloud-clinical-generative-ai",
-   "raw_sector": "",
-   "date": "2023",
-   "fresh": "stale"
-  },
-  {
-   "company": "HCA Healthcare",
-   "use": "Enterprise ambient AI scribe and clinician copilots: multi-specialty, EHR-agnostic platform to auto-document encounters and support ED, hospitalist and ambulatory workflows; being rolled out from a Texas pilot toward network-wide deployment. [Commure (with Augmedix technology)]",
-   "existence": "confirmed",
-   "value": "Planned across 188 hospitals and ~2,400 ambulatory sites / ~99,000 nurses; billed as one of the largest AI deployments in healthcare (enterprise agreement being finalized; Texas pilot underway)",
-   "tier": "",
-   "url": "https://www.commure.com/press-releases/hca-and-commure-announce-largest-ai-deployment-in-healthcare",
-   "raw_sector": "",
-   "date": "2024-10",
-   "fresh": "aging"
-  },
-  {
-   "company": "HCA Healthcare",
-   "use": "Maternal-fetal care clinical decision support platform to standardize subjective manual patient assessments, improve risk identification and reduce documentation inefficiencies in maternal care. [GE HealthCare]",
+   "use": "Generative AI to improve workflows and reduce administrative burden for physicians and nurses [Google Cloud]",
    "existence": "claimed",
    "value": "none",
    "tier": "",
-   "url": "https://www.beckershospitalreview.com/healthcare-information-technology/ai/how-hca-healthcare-built-its-enterprise-ai-strategy/",
+   "url": "https://investor.hcahealthcare.com/news/news-details/2023/HCA-Healthcare-Collaborates-With-Google-Cloud-to-Bring-Generative-AI-to-Hospitals/default.aspx",
    "raw_sector": "",
-   "date": "2025-10",
-   "fresh": "fresh"
+   "date": "Aug 29, 2023",
+   "fresh": "undated"
   }
  ]
 }

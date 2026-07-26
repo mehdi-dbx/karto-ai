@@ -69,6 +69,39 @@
  "deployments_detail": [
   {
    "company": "Goldman Sachs",
+   "use": "Banker Copilot — a generative AI assistant for the Investment Banking Division that helps bankers answer client questions, generate documents/pitch materials and automate high-effort tasks traditionally done by junior bankers. [In-house GS AI Platform]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.businessinsider.com/goldman-sachs-ai-uses-5-tools-employees-2025-5",
+   "raw_sector": "",
+   "date": "2025",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Goldman Sachs",
+   "use": "Translate AI — an internal generative AI tool used by Global Investment Research teams to translate research reports and content into local languages for client distribution in global markets. [In-house GS AI Platform]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.businessinsider.com/goldman-sachs-employees-ai-tools-workplace-david-solomon-2025-4",
+   "raw_sector": "",
+   "date": "2025",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Goldman Sachs",
+   "use": "Generative AI drafting of investment-banking documents — CEO David Solomon stated AI can now draft ~95% of an S-1 IPO prospectus in minutes (a task that previously required a 6-person team several weeks), reflecting Goldman's use of gen AI in the IPO/document-drafting workflow. [In-house GS AI Platform]",
+   "existence": "claimed",
+   "value": "95% of an S-1 IPO prospectus draftable in minutes",
+   "tier": "",
+   "url": "https://finance.yahoo.com/news/goldman-sachs-ceo-says-ai-192852635.html",
+   "raw_sector": "",
+   "date": "2025-01",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Goldman Sachs",
    "use": "Generative AI platform for enterprise-wide deployment across bankers, traders, and asset managers",
    "existence": "confirmed",
    "value": "none",
@@ -113,17 +146,6 @@
   },
   {
    "company": "Goldman Sachs",
-   "use": "\"GS AI Assistant\" to entire ~46,000-person workforce + Devin AI software engineer + GitHub Copilot to 12,000 devs; ~1M GenAI prompts/month",
-   "existence": "confirmed",
-   "value": "46,000 employees; ~1M prompts/month",
-   "tier": "S",
-   "url": "https://www.cnbc.com/2025/01/21/goldman-sachs-launches-ai-assistant.html",
-   "raw_sector": "Financials",
-   "date": "2025",
-   "fresh": "fresh"
-  },
-  {
-   "company": "Goldman Sachs",
    "use": "GS AI Assistant — a firmwide generative AI assistant hosted on the internal GS AI Platform, used by all ~46,000 employees for summarizing documents, drafting/proofreading emails and content, data analysis, and code translation. Rolled out to ~10,000 staff in Jan 2025 and firmwide in June 2025; staff write ~1 million gen AI prompts a month. [In-house GS AI Platform (multi-LLM: OpenAI GPT-4o/GPT-4o-mini, Google Gemini, Anthropic Claude, Meta Llama; on Azure and GCP Vertex)]",
    "existence": "confirmed",
    "value": "Deployed to all ~46,000 employees; ~1 million gen AI prompts written per month",
@@ -143,6 +165,28 @@
    "raw_sector": "",
    "date": "missing",
    "fresh": "undated"
+  },
+  {
+   "company": "Goldman Sachs",
+   "use": "Building autonomous AI agents on Anthropic's Claude to automate trade accounting, transaction processing, client onboarding and compliance (including KYC/AML) workflows — reviewing documents, validating information and applying compliance rules consistently. [Anthropic (Claude)]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.cnbc.com/amp/2026/02/06/anthropic-goldman-sachs-ai-model-accounting.html",
+   "raw_sector": "",
+   "date": "2026-02",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Goldman Sachs",
+   "use": "\"GS AI Assistant\" to entire ~46,000-person workforce + Devin AI software engineer + GitHub Copilot to 12,000 devs; ~1M GenAI prompts/month",
+   "existence": "confirmed",
+   "value": "46,000 employees; ~1M prompts/month",
+   "tier": "S",
+   "url": "https://www.cnbc.com/2025/01/21/goldman-sachs-launches-ai-assistant.html",
+   "raw_sector": "Financials",
+   "date": "2025",
+   "fresh": "fresh"
   },
   {
    "company": "Goldman Sachs",
@@ -176,50 +220,6 @@
    "raw_sector": "",
    "date": "2023-05",
    "fresh": "stale"
-  },
-  {
-   "company": "Goldman Sachs",
-   "use": "Banker Copilot — a generative AI assistant for the Investment Banking Division that helps bankers answer client questions, generate documents/pitch materials and automate high-effort tasks traditionally done by junior bankers. [In-house GS AI Platform]",
-   "existence": "confirmed",
-   "value": "none",
-   "tier": "",
-   "url": "https://www.businessinsider.com/goldman-sachs-ai-uses-5-tools-employees-2025-5",
-   "raw_sector": "",
-   "date": "2025",
-   "fresh": "fresh"
-  },
-  {
-   "company": "Goldman Sachs",
-   "use": "Translate AI — an internal generative AI tool used by Global Investment Research teams to translate research reports and content into local languages for client distribution in global markets. [In-house GS AI Platform]",
-   "existence": "confirmed",
-   "value": "none",
-   "tier": "",
-   "url": "https://www.businessinsider.com/goldman-sachs-employees-ai-tools-workplace-david-solomon-2025-4",
-   "raw_sector": "",
-   "date": "2025",
-   "fresh": "fresh"
-  },
-  {
-   "company": "Goldman Sachs",
-   "use": "Generative AI drafting of investment-banking documents — CEO David Solomon stated AI can now draft ~95% of an S-1 IPO prospectus in minutes (a task that previously required a 6-person team several weeks), reflecting Goldman's use of gen AI in the IPO/document-drafting workflow. [In-house GS AI Platform]",
-   "existence": "claimed",
-   "value": "95% of an S-1 IPO prospectus draftable in minutes",
-   "tier": "",
-   "url": "https://finance.yahoo.com/news/goldman-sachs-ceo-says-ai-192852635.html",
-   "raw_sector": "",
-   "date": "2025-01",
-   "fresh": "fresh"
-  },
-  {
-   "company": "Goldman Sachs",
-   "use": "Building autonomous AI agents on Anthropic's Claude to automate trade accounting, transaction processing, client onboarding and compliance (including KYC/AML) workflows — reviewing documents, validating information and applying compliance rules consistently. [Anthropic (Claude)]",
-   "existence": "claimed",
-   "value": "none",
-   "tier": "",
-   "url": "https://www.cnbc.com/amp/2026/02/06/anthropic-goldman-sachs-ai-model-accounting.html",
-   "raw_sector": "",
-   "date": "2026-02",
-   "fresh": "fresh"
   }
  ]
 }

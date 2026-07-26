@@ -70,6 +70,28 @@
  "deployments_detail": [
   {
    "company": "Nvidia",
+   "use": "'James', an interactive digital-human avatar knowledgeable about NVIDIA and its products, deployed as a customer-service/engagement assistant built on NVIDIA ACE (speech AI, avatar animation, generative AI). [NVIDIA ACE (NIM), ElevenLabs voice]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://blogs.nvidia.com/blog/digital-humans-siggraph-2024/",
+   "raw_sector": "",
+   "date": "2024-07",
+   "fresh": "aging"
+  },
+  {
+   "company": "Nvidia",
+   "use": "Company-wide rollout of the Cursor AI coding assistant to over 30,000 NVIDIA engineers, embedded across the SDLC for code generation, testing, debugging and deployment. [Cursor (Anysphere)]",
+   "existence": "confirmed",
+   "value": "3x increase in committed code across 30,000+ developers",
+   "tier": "",
+   "url": "https://cursor.com/blog/nvidia",
+   "raw_sector": "",
+   "date": "2026-02",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Nvidia",
    "use": "Blackwell AI GPUs + CUDA + AI platforms; data-center revenue ~$41.1B in a single quarter (Q2 FY26); ~80% AI accelerator market share",
    "existence": "confirmed",
    "value": "~$41.1B data center rev/qtr",
@@ -77,6 +99,39 @@
    "url": "https://investor.nvidia.com/news/press-release-details/2025/NVIDIA-Announces-Financial-Results",
    "raw_sector": "Information Technology",
    "date": "2025",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Nvidia",
+   "use": "ChipNeMo, a custom 43B-parameter domain-adapted LLM trained on NVIDIA's internal data, deployed as an engineering assistant chatbot for GPU/ASIC design engineers, plus EDA script generation and bug-report summarization. [NVIDIA (ChipNeMo, built on NeMo / Llama 2 base)]",
+   "existence": "confirmed",
+   "value": "43 billion parameters; performs as well as or better than general LLMs on internal chip-design tasks",
+   "tier": "",
+   "url": "https://blogs.nvidia.com/blog/llm-semiconductors-chip-nemo/",
+   "raw_sector": "",
+   "date": "2023-10",
+   "fresh": "stale"
+  },
+  {
+   "company": "Nvidia",
+   "use": "AI/ML introduced across chip-design stages including floorplanning and verification, reducing a large GPU design task from roughly 10 months of eight-engineer work to an overnight job. [NVIDIA]",
+   "existence": "confirmed",
+   "value": "10-month, eight-engineer (~80 person-month) GPU design task reduced to an overnight run",
+   "tier": "",
+   "url": "https://www.tomshardware.com/tech-industry/artificial-intelligence/nvidia-says-ai-cuts-10-month-eight-engineer-gpu-design-task-to-overnight-job-company-is-still-a-long-way-from-ai-designing-chips-without-human-input",
+   "raw_sector": "",
+   "date": "2026-04",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Nvidia",
+   "use": "NVIDIA is the first customer using Cadence's ChipStack AI Super Agent (running on NVIDIA infrastructure) to autonomously verify its own chip designs via dynamic simulation and formal verification. [Cadence ChipStack AI Super Agent + Jasper Formal Verification, on NVIDIA]",
+   "existence": "confirmed",
+   "value": "Over 40x faster RTL validation cycles; five-week verification cycle compressed to under a day",
+   "tier": "",
+   "url": "https://nvidianews.nvidia.com/news/enterprise-software-leaders-build-ai-agents-with-nvidia",
+   "raw_sector": "",
+   "date": "2026-05",
    "fresh": "fresh"
   },
   {
@@ -114,17 +169,6 @@
   },
   {
    "company": "Nvidia",
-   "use": "Company-wide rollout of the Cursor AI coding assistant to over 30,000 NVIDIA engineers, embedded across the SDLC for code generation, testing, debugging and deployment. [Cursor (Anysphere)]",
-   "existence": "confirmed",
-   "value": "3x increase in committed code across 30,000+ developers",
-   "tier": "",
-   "url": "https://cursor.com/blog/nvidia",
-   "raw_sector": "",
-   "date": "2026-02",
-   "fresh": "fresh"
-  },
-  {
-   "company": "Nvidia",
    "use": "Internal AI sales assistant built with LLMs and retrieval-augmented generation (RAG) to help NVIDIA's sales team quickly surface product and account information. [NVIDIA (NeMo, LLM + RAG)]",
    "existence": "confirmed",
    "value": "none",
@@ -144,50 +188,6 @@
    "raw_sector": "",
    "date": "2020-05",
    "fresh": "stale"
-  },
-  {
-   "company": "Nvidia",
-   "use": "ChipNeMo, a custom 43B-parameter domain-adapted LLM trained on NVIDIA's internal data, deployed as an engineering assistant chatbot for GPU/ASIC design engineers, plus EDA script generation and bug-report summarization. [NVIDIA (ChipNeMo, built on NeMo / Llama 2 base)]",
-   "existence": "confirmed",
-   "value": "43 billion parameters; performs as well as or better than general LLMs on internal chip-design tasks",
-   "tier": "",
-   "url": "https://blogs.nvidia.com/blog/llm-semiconductors-chip-nemo/",
-   "raw_sector": "",
-   "date": "2023-10",
-   "fresh": "stale"
-  },
-  {
-   "company": "Nvidia",
-   "use": "AI/ML introduced across chip-design stages including floorplanning and verification, reducing a large GPU design task from roughly 10 months of eight-engineer work to an overnight job. [NVIDIA]",
-   "existence": "confirmed",
-   "value": "10-month, eight-engineer (~80 person-month) GPU design task reduced to an overnight run",
-   "tier": "",
-   "url": "https://www.tomshardware.com/tech-industry/artificial-intelligence/nvidia-says-ai-cuts-10-month-eight-engineer-gpu-design-task-to-overnight-job-company-is-still-a-long-way-from-ai-designing-chips-without-human-input",
-   "raw_sector": "",
-   "date": "2026-04",
-   "fresh": "fresh"
-  },
-  {
-   "company": "Nvidia",
-   "use": "NVIDIA is the first customer using Cadence's ChipStack AI Super Agent (running on NVIDIA infrastructure) to autonomously verify its own chip designs via dynamic simulation and formal verification. [Cadence ChipStack AI Super Agent + Jasper Formal Verification, on NVIDIA]",
-   "existence": "confirmed",
-   "value": "Over 40x faster RTL validation cycles; five-week verification cycle compressed to under a day",
-   "tier": "",
-   "url": "https://nvidianews.nvidia.com/news/enterprise-software-leaders-build-ai-agents-with-nvidia",
-   "raw_sector": "",
-   "date": "2026-05",
-   "fresh": "fresh"
-  },
-  {
-   "company": "Nvidia",
-   "use": "'James', an interactive digital-human avatar knowledgeable about NVIDIA and its products, deployed as a customer-service/engagement assistant built on NVIDIA ACE (speech AI, avatar animation, generative AI). [NVIDIA ACE (NIM), ElevenLabs voice]",
-   "existence": "confirmed",
-   "value": "none",
-   "tier": "",
-   "url": "https://blogs.nvidia.com/blog/digital-humans-siggraph-2024/",
-   "raw_sector": "",
-   "date": "2024-07",
-   "fresh": "aging"
   }
  ]
 }

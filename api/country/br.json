@@ -20,16 +20,16 @@
     "n": 84
    },
    {
+    "v": "Financial Services",
+    "n": 61
+   },
+   {
     "v": "Retail & E-commerce",
     "n": 58
    },
    {
-    "v": "Financial Services",
-    "n": 52
-   },
-   {
     "v": "Manufacturing & Robotics",
-    "n": 27
+    "n": 38
    },
    {
     "v": "Healthcare & Life Sciences",
@@ -41,16 +41,16 @@
   {
    "v": "Financial Services",
    "h": "Core / Domain",
-   "n": 10,
-   "withnum": 4,
+   "n": 13,
+   "withnum": 6,
    "verdict": "strong",
    "verdict_v2": "proven"
   },
   {
    "v": "Financial Services",
    "h": "Customer Support",
-   "n": 21,
-   "withnum": 7,
+   "n": 23,
+   "withnum": 8,
    "verdict": "active",
    "verdict_v2": "active"
   },
@@ -65,64 +65,24 @@
   {
    "v": "Financial Services",
    "h": "Sales / Marketing",
-   "n": 1,
-   "withnum": 1,
+   "n": 2,
+   "withnum": 2,
    "verdict": "strong",
    "verdict_v2": "proven"
   },
   {
    "v": "Financial Services",
    "h": "Back-office / Ops",
-   "n": 10,
-   "withnum": 2,
-   "verdict": "active",
-   "verdict_v2": "active"
-  },
-  {
-   "v": "Financial Services",
-   "h": "Security / Risk",
-   "n": 6,
+   "n": 11,
    "withnum": 3,
-   "verdict": "strong",
-   "verdict_v2": "proven"
-  },
-  {
-   "v": "",
-   "h": "Core / Domain",
-   "n": 12,
-   "withnum": 2,
    "verdict": "active",
    "verdict_v2": "active"
   },
   {
-   "v": "",
-   "h": "Customer Support",
-   "n": 2,
-   "withnum": 1,
-   "verdict": "strong",
-   "verdict_v2": "proven"
-  },
-  {
-   "v": "",
-   "h": "Sales / Marketing",
-   "n": 1,
-   "withnum": 1,
-   "verdict": "strong",
-   "verdict_v2": "proven"
-  },
-  {
-   "v": "",
-   "h": "Back-office / Ops",
-   "n": 3,
-   "withnum": 2,
-   "verdict": "strong",
-   "verdict_v2": "proven"
-  },
-  {
-   "v": "",
+   "v": "Financial Services",
    "h": "Security / Risk",
-   "n": 2,
-   "withnum": 2,
+   "n": 8,
+   "withnum": 5,
    "verdict": "strong",
    "verdict_v2": "proven"
   },
@@ -273,18 +233,18 @@
   {
    "v": "Manufacturing & Robotics",
    "h": "Core / Domain",
-   "n": 17,
+   "n": 26,
    "withnum": 8,
-   "verdict": "strong",
-   "verdict_v2": "proven"
+   "verdict": "active",
+   "verdict_v2": "active"
   },
   {
    "v": "Manufacturing & Robotics",
    "h": "Back-office / Ops",
-   "n": 9,
-   "withnum": 1,
-   "verdict": "talk",
-   "verdict_v2": "unquantified"
+   "n": 11,
+   "withnum": 2,
+   "verdict": "active",
+   "verdict_v2": "active"
   },
   {
    "v": "Manufacturing & Robotics",
@@ -293,38 +253,6 @@
    "withnum": 0,
    "verdict": "talk",
    "verdict_v2": "unquantified"
-  },
-  {
-   "v": "Real Estate & Construction",
-   "h": "Core / Domain",
-   "n": 6,
-   "withnum": 2,
-   "verdict": "active",
-   "verdict_v2": "active"
-  },
-  {
-   "v": "Real Estate & Construction",
-   "h": "Customer Support",
-   "n": 4,
-   "withnum": 1,
-   "verdict": "active",
-   "verdict_v2": "active"
-  },
-  {
-   "v": "Real Estate & Construction",
-   "h": "Sales / Marketing",
-   "n": 5,
-   "withnum": 2,
-   "verdict": "strong",
-   "verdict_v2": "proven"
-  },
-  {
-   "v": "Real Estate & Construction",
-   "h": "Back-office / Ops",
-   "n": 2,
-   "withnum": 1,
-   "verdict": "strong",
-   "verdict_v2": "proven"
   },
   {
    "v": "Telecom",
@@ -354,6 +282,38 @@
    "v": "Telecom",
    "h": "Security / Risk",
    "n": 1,
+   "withnum": 1,
+   "verdict": "strong",
+   "verdict_v2": "proven"
+  },
+  {
+   "v": "Real Estate & Construction",
+   "h": "Core / Domain",
+   "n": 6,
+   "withnum": 2,
+   "verdict": "active",
+   "verdict_v2": "active"
+  },
+  {
+   "v": "Real Estate & Construction",
+   "h": "Customer Support",
+   "n": 4,
+   "withnum": 1,
+   "verdict": "active",
+   "verdict_v2": "active"
+  },
+  {
+   "v": "Real Estate & Construction",
+   "h": "Sales / Marketing",
+   "n": 5,
+   "withnum": 2,
+   "verdict": "strong",
+   "verdict_v2": "proven"
+  },
+  {
+   "v": "Real Estate & Construction",
+   "h": "Back-office / Ops",
+   "n": 2,
    "withnum": 1,
    "verdict": "strong",
    "verdict_v2": "proven"
@@ -498,6 +458,15 @@
    "verdict_v2": "proven"
   },
   {
+   "v": "Financial Services",
+   "n": 61,
+   "confirmed": 54,
+   "withnum": 26,
+   "proof_pct": 43,
+   "verdict": "strong",
+   "verdict_v2": "proven"
+  },
+  {
    "v": "Retail & E-commerce",
    "n": 58,
    "confirmed": 50,
@@ -507,20 +476,11 @@
    "verdict_v2": "active"
   },
   {
-   "v": "Financial Services",
-   "n": 52,
-   "confirmed": 46,
-   "withnum": 19,
-   "proof_pct": 37,
-   "verdict": "active",
-   "verdict_v2": "active"
-  },
-  {
    "v": "Manufacturing & Robotics",
-   "n": 27,
-   "confirmed": 19,
-   "withnum": 9,
-   "proof_pct": 33,
+   "n": 38,
+   "confirmed": 30,
+   "withnum": 10,
+   "proof_pct": 26,
    "verdict": "active",
    "verdict_v2": "active"
   },
@@ -530,15 +490,6 @@
    "confirmed": 21,
    "withnum": 15,
    "proof_pct": 65,
-   "verdict": "strong",
-   "verdict_v2": "proven"
-  },
-  {
-   "v": "",
-   "n": 20,
-   "confirmed": 19,
-   "withnum": 8,
-   "proof_pct": 40,
    "verdict": "strong",
    "verdict_v2": "proven"
   },

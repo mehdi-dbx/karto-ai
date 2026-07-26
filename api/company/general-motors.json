@@ -66,6 +66,28 @@
  "deployments_detail": [
   {
    "company": "General Motors",
+   "use": "Google Gemini conversational AI assistant deployed into millions of GM vehicles (model-year 2022 and newer, Chevrolet/GMC/Buick/Cadillac with Google built-in) via over-the-air software update, replacing Google Assistant. Enables natural multi-turn voice interaction: summarize/translate messages, multi-stop navigation, mood-based playlists, contextual Q&A, riding on GM's OnStar connected-vehicle foundation. [Google Gemini (Google Cloud)]",
+   "existence": "confirmed",
+   "value": "millions of vehicles / all MY2022+ vehicles with Google built-in",
+   "tier": "",
+   "url": "https://gmauthority.com/blog/2026/04/these-gm-vehicles-are-getting-google-gemini-conversational-ai-through-software-update/",
+   "raw_sector": "",
+   "date": "2026-04",
+   "fresh": "fresh"
+  },
+  {
+   "company": "General Motors",
+   "use": "OnStar Interactive Virtual Assistant (IVA) — conversational AI handling non-emergency OnStar 'blue button' calls: turn-by-turn navigation, vehicle-feature and EV product questions, and detecting emergency verbal cues to route callers to human advisors. Live on 2015-MY-and-newer GM vehicles in North America. [Google Cloud Dialogflow]",
+   "existence": "confirmed",
+   "value": "answers over 1 million owner questions per month in North America",
+   "tier": "",
+   "url": "https://gmauthority.com/blog/2023/08/gm-and-google-cloud-collaborate-on-ai-technology-for-onstar-interactive-virtual-assistant/",
+   "raw_sector": "",
+   "date": "2023-08",
+   "fresh": "stale"
+  },
+  {
+   "company": "General Motors",
    "use": "Super Cruise hands-free driving + OnStar AI; AI in manufacturing, advancing to L3 autonomy",
    "existence": "confirmed",
    "value": "none",
@@ -74,6 +96,28 @@
    "raw_sector": "Consumer Discretionary",
    "date": "missing",
    "fresh": "undated"
+  },
+  {
+   "company": "General Motors",
+   "use": "Generative-design and physics-based simulation AI used across GM product engineering and design — generative geometry optimization (e.g., Corvette hatch support brackets), driver-in-the-loop and virtual calibration simulations, and design of specialized products like the NASA Artemis lunar rover. Compresses structural analysis and shortens the vehicle development cycle.",
+   "existence": "confirmed",
+   "value": "structural design assessment cut from ~15 hours to under 1 minute; vehicle development cycle targeted from 4-5 years to ~2 years; ~2 million simulation runs weekly",
+   "tier": "",
+   "url": "https://spectrum.ieee.org/gm-ai-design",
+   "raw_sector": "",
+   "date": "2025",
+   "fresh": "fresh"
+  },
+  {
+   "company": "General Motors",
+   "use": "AI and robotics in manufacturing/quality: proprietary AI vision tools inspect welds and paint finishes in real time, AI detects voltage/manufacturing anomalies in battery-pack assembly, digital twins of production lines simulate setups before implementation, and collaborative robots (cobots) handle repetitive/ergonomic tasks in assembly plants.",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://gmauthority.com/blog/2025/10/here-are-ways-gm-uses-ai-and-robotics-to-improve-quality-and-efficiency/",
+   "raw_sector": "",
+   "date": "2025-10",
+   "fresh": "fresh"
   },
   {
    "company": "General Motors",
@@ -132,6 +176,17 @@
   },
   {
    "company": "General Motors",
+   "use": "Extended GM-NVIDIA collaboration to bring NVIDIA Omniverse/Cosmos factory digital twins into production planning and NVIDIA DRIVE AGX (1,000+ TOPS) compute into next-generation vehicles for advanced driver assistance and in-cabin experience, plus AI-powered robotics for material handling and precision welding in GM factories. [NVIDIA (Omniverse, Cosmos, DRIVE AGX, Isaac)]",
+   "existence": "claimed",
+   "value": "DRIVE AGX provides over 1,000 trillion operations per second (1,000+ TOPS)",
+   "tier": "",
+   "url": "https://gmauthority.com/blog/2025/03/gm-extends-collaboration-with-nvidia-for-ai-next-gen-vehicle-factory-and-robotics-development/",
+   "raw_sector": "",
+   "date": "2025-03",
+   "fresh": "fresh"
+  },
+  {
+   "company": "General Motors",
    "use": "Geospatial AI for EV charging station location optimization",
    "existence": "confirmed",
    "value": "none",
@@ -165,28 +220,6 @@
   },
   {
    "company": "General Motors",
-   "use": "Extended GM-NVIDIA collaboration to bring NVIDIA Omniverse/Cosmos factory digital twins into production planning and NVIDIA DRIVE AGX (1,000+ TOPS) compute into next-generation vehicles for advanced driver assistance and in-cabin experience, plus AI-powered robotics for material handling and precision welding in GM factories. [NVIDIA (Omniverse, Cosmos, DRIVE AGX, Isaac)]",
-   "existence": "claimed",
-   "value": "DRIVE AGX provides over 1,000 trillion operations per second (1,000+ TOPS)",
-   "tier": "",
-   "url": "https://gmauthority.com/blog/2025/03/gm-extends-collaboration-with-nvidia-for-ai-next-gen-vehicle-factory-and-robotics-development/",
-   "raw_sector": "",
-   "date": "2025-03",
-   "fresh": "fresh"
-  },
-  {
-   "company": "General Motors",
-   "use": "AI-generated code for GM's next-generation autonomous / Super Cruise driving software. GM's autonomy team now has the overwhelming majority of its code written by AI, with the software stress-tested in simulation environments modeling roughly 100 years of human driving per day.",
-   "existence": "confirmed",
-   "value": "nearly 90% of autonomy-team code is AI-generated (stated by CEO Mary Barra, Q1 2026 earnings)",
-   "tier": "",
-   "url": "https://gmauthority.com/blog/2026/05/gm-autonomous-vehicle-software-code-almost-entirely-written-by-ai/",
-   "raw_sector": "",
-   "date": "2026-05",
-   "fresh": "fresh"
-  },
-  {
-   "company": "General Motors",
    "use": "AI-driven marketing transformation: GM is rebuilding its marketing operation around generative AI for content creation and media, partnering with S4 Capital's Monks to build AI-first creative and production workflows across brands. [Monks (S4 Capital)]",
    "existence": "confirmed",
    "value": "none",
@@ -209,47 +242,14 @@
   },
   {
    "company": "General Motors",
-   "use": "Generative-design and physics-based simulation AI used across GM product engineering and design — generative geometry optimization (e.g., Corvette hatch support brackets), driver-in-the-loop and virtual calibration simulations, and design of specialized products like the NASA Artemis lunar rover. Compresses structural analysis and shortens the vehicle development cycle.",
+   "use": "AI-generated code for GM's next-generation autonomous / Super Cruise driving software. GM's autonomy team now has the overwhelming majority of its code written by AI, with the software stress-tested in simulation environments modeling roughly 100 years of human driving per day.",
    "existence": "confirmed",
-   "value": "structural design assessment cut from ~15 hours to under 1 minute; vehicle development cycle targeted from 4-5 years to ~2 years; ~2 million simulation runs weekly",
+   "value": "nearly 90% of autonomy-team code is AI-generated (stated by CEO Mary Barra, Q1 2026 earnings)",
    "tier": "",
-   "url": "https://spectrum.ieee.org/gm-ai-design",
+   "url": "https://gmauthority.com/blog/2026/05/gm-autonomous-vehicle-software-code-almost-entirely-written-by-ai/",
    "raw_sector": "",
-   "date": "2025",
+   "date": "2026-05",
    "fresh": "fresh"
-  },
-  {
-   "company": "General Motors",
-   "use": "AI and robotics in manufacturing/quality: proprietary AI vision tools inspect welds and paint finishes in real time, AI detects voltage/manufacturing anomalies in battery-pack assembly, digital twins of production lines simulate setups before implementation, and collaborative robots (cobots) handle repetitive/ergonomic tasks in assembly plants.",
-   "existence": "confirmed",
-   "value": "none",
-   "tier": "",
-   "url": "https://gmauthority.com/blog/2025/10/here-are-ways-gm-uses-ai-and-robotics-to-improve-quality-and-efficiency/",
-   "raw_sector": "",
-   "date": "2025-10",
-   "fresh": "fresh"
-  },
-  {
-   "company": "General Motors",
-   "use": "Google Gemini conversational AI assistant deployed into millions of GM vehicles (model-year 2022 and newer, Chevrolet/GMC/Buick/Cadillac with Google built-in) via over-the-air software update, replacing Google Assistant. Enables natural multi-turn voice interaction: summarize/translate messages, multi-stop navigation, mood-based playlists, contextual Q&A, riding on GM's OnStar connected-vehicle foundation. [Google Gemini (Google Cloud)]",
-   "existence": "confirmed",
-   "value": "millions of vehicles / all MY2022+ vehicles with Google built-in",
-   "tier": "",
-   "url": "https://gmauthority.com/blog/2026/04/these-gm-vehicles-are-getting-google-gemini-conversational-ai-through-software-update/",
-   "raw_sector": "",
-   "date": "2026-04",
-   "fresh": "fresh"
-  },
-  {
-   "company": "General Motors",
-   "use": "OnStar Interactive Virtual Assistant (IVA) — conversational AI handling non-emergency OnStar 'blue button' calls: turn-by-turn navigation, vehicle-feature and EV product questions, and detecting emergency verbal cues to route callers to human advisors. Live on 2015-MY-and-newer GM vehicles in North America. [Google Cloud Dialogflow]",
-   "existence": "confirmed",
-   "value": "answers over 1 million owner questions per month in North America",
-   "tier": "",
-   "url": "https://gmauthority.com/blog/2023/08/gm-and-google-cloud-collaborate-on-ai-technology-for-onstar-interactive-virtual-assistant/",
-   "raw_sector": "",
-   "date": "2023-08",
-   "fresh": "stale"
   },
   {
    "company": "General Motors",

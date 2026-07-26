@@ -71,6 +71,61 @@
  "deployments_detail": [
   {
    "company": "Continental",
+   "use": "AI-Based Requirements Engineering (ReqNet): analyzes automotive specification sheets (up to 30,000 requirements per document), automatically extracting and assigning requirements to development centers. In production across automotive division development departments; won 2025 Microsoft Intelligent Manufacturing Award. [Microsoft Azure AI Services; NTT DATA]",
+   "existence": "confirmed",
+   "value": "up to 80% less effort for specification analysis (previously ~37,500 hours/project)",
+   "tier": "",
+   "url": "https://www.continental.com/en/press/press-releases/20250317-reqnet/",
+   "raw_sector": "",
+   "date": "2025-03",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Continental",
+   "use": "First predictive ML model in Continental Tires R&D: forecasts tire performance from manufacturing variables, test results, and historical data, delivering overnight predictions to 100+ tire developers instead of waiting ~2 months for physical test results. Deployed and operational. [Valohai (orchestration); R/Python on AWS, Aurora, S3]",
+   "existence": "confirmed",
+   "value": "R&D cycle cut from ~2 months (physical test) to overnight predictions for 100+ developers",
+   "tier": "",
+   "url": "https://valohai.com/blog/continental-predictive-ml-production/",
+   "raw_sector": "",
+   "date": "2025-12",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Continental",
+   "use": "In-vehicle generative-AI voice assistant integrated into Continental's Smart Cockpit High-Performance Computer, letting drivers/passengers converse naturally with the car (e.g., tire pressure specs, route landmarks, manual lookups). Announced production-ready within 18 months at IAA Mobility 2023. [Google Cloud (Conversational AI)]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.continental.com/en/press/press-releases/20230904-iaa-mobility-press-conference/",
+   "raw_sector": "",
+   "date": "2023-09",
+   "fresh": "stale"
+  },
+  {
+   "company": "Continental",
+   "use": "AI-based automated and continuous tire tread depth measurement: new-generation tire sensors plus AI algorithms determine tread depth by measuring changes in the tire's radial acceleration, feeding the ContiConnect fleet digital solution.",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.continental.com/en/press/press-releases/20240829-tread-depth-measure/",
+   "raw_sector": "",
+   "date": "2024-08",
+   "fresh": "aging"
+  },
+  {
+   "company": "Continental",
+   "use": "Aurora Driver: co-developed SAE Level 4 autonomous driving system (AI perception/planning stack) for Class 8 trucks. Design finalized; Continental plans scale production of the fallback-capable hardware/software system in 2027. [Aurora Innovation; NVIDIA]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.continental.com/en/press/press-releases/20240105-aurora-milestone/",
+   "raw_sector": "",
+   "date": "2024-01",
+   "fresh": "aging"
+  },
+  {
+   "company": "Continental",
    "use": "AI-based requirements management system for product development [Microsoft Azure AI Services]",
    "existence": "confirmed",
    "value": "none",
@@ -148,57 +203,24 @@
   },
   {
    "company": "Continental",
-   "use": "AI-Based Requirements Engineering (ReqNet): analyzes automotive specification sheets (up to 30,000 requirements per document), automatically extracting and assigning requirements to development centers. In production across automotive division development departments; won 2025 Microsoft Intelligent Manufacturing Award. [Microsoft Azure AI Services; NTT DATA]",
+   "use": "Virtual ECU (vECU) Creator: cloud-based digital-twin platform letting automotive developers configure Electronic Control Units and test/debug embedded software before physical hardware exists, supporting Classic and Adaptive AUTOSAR. Launched product within Continental Automotive Edge. [AWS; Elektrobit (Continental)]",
    "existence": "confirmed",
-   "value": "up to 80% less effort for specification analysis (previously ~37,500 hours/project)",
+   "value": "shortens development time by up to 12 months",
    "tier": "",
-   "url": "https://www.continental.com/en/press/press-releases/20250317-reqnet/",
+   "url": "https://www.wardsauto.com/news/archive-auto-Continental-amazon-web-services-automotive-vehicle-software-virtual-ECU/691296/",
    "raw_sector": "",
-   "date": "2025-03",
-   "fresh": "fresh"
-  },
-  {
-   "company": "Continental",
-   "use": "First predictive ML model in Continental Tires R&D: forecasts tire performance from manufacturing variables, test results, and historical data, delivering overnight predictions to 100+ tire developers instead of waiting ~2 months for physical test results. Deployed and operational. [Valohai (orchestration); R/Python on AWS, Aurora, S3]",
-   "existence": "confirmed",
-   "value": "R&D cycle cut from ~2 months (physical test) to overnight predictions for 100+ developers",
-   "tier": "",
-   "url": "https://valohai.com/blog/continental-predictive-ml-production/",
-   "raw_sector": "",
-   "date": "2025-12",
-   "fresh": "fresh"
-  },
-  {
-   "company": "Continental",
-   "use": "In-vehicle generative-AI voice assistant integrated into Continental's Smart Cockpit High-Performance Computer, letting drivers/passengers converse naturally with the car (e.g., tire pressure specs, route landmarks, manual lookups). Announced production-ready within 18 months at IAA Mobility 2023. [Google Cloud (Conversational AI)]",
-   "existence": "claimed",
-   "value": "none",
-   "tier": "",
-   "url": "https://www.continental.com/en/press/press-releases/20230904-iaa-mobility-press-conference/",
-   "raw_sector": "",
-   "date": "2023-09",
+   "date": "2023-08",
    "fresh": "stale"
   },
   {
    "company": "Continental",
-   "use": "AI-based automated and continuous tire tread depth measurement: new-generation tire sensors plus AI algorithms determine tread depth by measuring changes in the tire's radial acceleration, feeding the ContiConnect fleet digital solution.",
-   "existence": "confirmed",
-   "value": "none",
-   "tier": "",
-   "url": "https://www.continental.com/en/press/press-releases/20240829-tread-depth-measure/",
-   "raw_sector": "",
-   "date": "2024-08",
-   "fresh": "aging"
-  },
-  {
-   "company": "Continental",
-   "use": "Aurora Driver: co-developed SAE Level 4 autonomous driving system (AI perception/planning stack) for Class 8 trucks. Design finalized; Continental plans scale production of the fallback-capable hardware/software system in 2027. [Aurora Innovation; NVIDIA]",
+   "use": "Automotive coding assistant for embedded software: an AI solution built with AWS that helps automotive developers create, review, and test embedded software, accelerating embedded software development. [AWS]",
    "existence": "claimed",
    "value": "none",
    "tier": "",
-   "url": "https://www.continental.com/en/press/press-releases/20240105-aurora-milestone/",
+   "url": "https://www.youtube.com/watch?v=AQDe3IgOHfs",
    "raw_sector": "",
-   "date": "2024-01",
+   "date": "2024",
    "fresh": "aging"
   },
   {
@@ -222,28 +244,6 @@
    "raw_sector": "",
    "date": "2026",
    "fresh": "fresh"
-  },
-  {
-   "company": "Continental",
-   "use": "Virtual ECU (vECU) Creator: cloud-based digital-twin platform letting automotive developers configure Electronic Control Units and test/debug embedded software before physical hardware exists, supporting Classic and Adaptive AUTOSAR. Launched product within Continental Automotive Edge. [AWS; Elektrobit (Continental)]",
-   "existence": "confirmed",
-   "value": "shortens development time by up to 12 months",
-   "tier": "",
-   "url": "https://www.wardsauto.com/news/archive-auto-Continental-amazon-web-services-automotive-vehicle-software-virtual-ECU/691296/",
-   "raw_sector": "",
-   "date": "2023-08",
-   "fresh": "stale"
-  },
-  {
-   "company": "Continental",
-   "use": "Automotive coding assistant for embedded software: an AI solution built with AWS that helps automotive developers create, review, and test embedded software, accelerating embedded software development. [AWS]",
-   "existence": "claimed",
-   "value": "none",
-   "tier": "",
-   "url": "https://www.youtube.com/watch?v=AQDe3IgOHfs",
-   "raw_sector": "",
-   "date": "2024",
-   "fresh": "aging"
   },
   {
    "company": "Continental",

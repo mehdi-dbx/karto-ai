@@ -84,6 +84,50 @@
   },
   {
    "company": "Morgan Stanley",
+   "use": "AI @ Morgan Stanley Assistant: a GPT-4-powered internal chatbot for Wealth Management financial advisors that surfaces answers from the firm's ~100,000 internal research reports and documents. Reached ~98% adoption among FA teams. [OpenAI GPT-4]",
+   "existence": "confirmed",
+   "value": "98% adoption among financial advisor teams",
+   "tier": "",
+   "url": "https://www.morganstanley.com/press-releases/key-milestone-in-innovation-journey-with-openai",
+   "raw_sector": "",
+   "date": "2023-09",
+   "fresh": "stale"
+  },
+  {
+   "company": "Morgan Stanley",
+   "use": "AI @ Morgan Stanley Debrief: OpenAI-powered meeting notetaker that, with client consent, records/transcribes client meetings, generates notes, action items and draft follow-up emails for financial advisors. Rolled out to roughly 15,000 advisors. [OpenAI Whisper + GPT-4]",
+   "existence": "confirmed",
+   "value": "rolled out to ~15,000 financial advisors",
+   "tier": "",
+   "url": "https://www.morganstanley.com/press-releases/ai-at-morgan-stanley-debrief-launch",
+   "raw_sector": "",
+   "date": "2024-06",
+   "fresh": "aging"
+  },
+  {
+   "company": "Morgan Stanley",
+   "use": "AskResearchGPT: generative-AI assistant for Institutional Securities (Investment Banking, Sales & Trading, Research) that surfaces and distills insights from Morgan Stanley's research library of tens of thousands of reports. [OpenAI (ChatGPT/GPT-4)]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.morganstanley.com/press-releases/morgan-stanley-research-announces-askresearchgpt",
+   "raw_sector": "",
+   "date": "2024-10",
+   "fresh": "aging"
+  },
+  {
+   "company": "Morgan Stanley",
+   "use": "Aladdin Wealth 'Auto Commentary': generative-AI feature on Morgan Stanley's Portfolio Risk Platform that turns portfolio analytics and client-level preferences into tailored narrative insights and talking points for advisors. Morgan Stanley was the first client to implement it. [BlackRock Aladdin Wealth]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.blackrock.com/aladdin/discover/press-release/aladdin-wealth-launches-ai-enabled-commentary-tool-at-morgan-stanley",
+   "raw_sector": "",
+   "date": "2025-10",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Morgan Stanley",
    "use": "AI-powered tool that helps predict monetary policy actions by analyzing Federal Reserve communications",
    "existence": "confirmed",
    "value": "none",
@@ -150,72 +194,6 @@
   },
   {
    "company": "Morgan Stanley",
-   "use": "DevGen.AI: in-house AI tool built on OpenAI GPT models that translates legacy code (e.g. COBOL, Perl) into plain-English specifications to accelerate modernization. Reviewed ~9 million lines of code and saved an estimated 280,000 developer hours in 2025. [OpenAI GPT (in-house tool)]",
-   "existence": "confirmed",
-   "value": "9 million lines of code reviewed; 280,000 developer hours saved",
-   "tier": "",
-   "url": "https://www.wsj.com/articles/how-morgan-stanley-tackled-one-of-codings-toughest-problems-4f465959",
-   "raw_sector": "",
-   "date": "2025-06",
-   "fresh": "fresh"
-  },
-  {
-   "company": "Morgan Stanley",
-   "use": "Next Best Action (NBA): internally built machine-learning recommendation engine that delivers timely, personalized investment ideas and outreach messages to clients and prospects, guiding advisor communications. [in-house machine learning]",
-   "existence": "confirmed",
-   "value": "none",
-   "tier": "",
-   "url": "https://emerj.com/artificial-intelligence-at-morgan-stanley-three-use-cases/",
-   "raw_sector": "",
-   "date": "2018",
-   "fresh": "stale"
-  },
-  {
-   "company": "Morgan Stanley",
-   "use": "AI @ Morgan Stanley Assistant: a GPT-4-powered internal chatbot for Wealth Management financial advisors that surfaces answers from the firm's ~100,000 internal research reports and documents. Reached ~98% adoption among FA teams. [OpenAI GPT-4]",
-   "existence": "confirmed",
-   "value": "98% adoption among financial advisor teams",
-   "tier": "",
-   "url": "https://www.morganstanley.com/press-releases/key-milestone-in-innovation-journey-with-openai",
-   "raw_sector": "",
-   "date": "2023-09",
-   "fresh": "stale"
-  },
-  {
-   "company": "Morgan Stanley",
-   "use": "AI @ Morgan Stanley Debrief: OpenAI-powered meeting notetaker that, with client consent, records/transcribes client meetings, generates notes, action items and draft follow-up emails for financial advisors. Rolled out to roughly 15,000 advisors. [OpenAI Whisper + GPT-4]",
-   "existence": "confirmed",
-   "value": "rolled out to ~15,000 financial advisors",
-   "tier": "",
-   "url": "https://www.morganstanley.com/press-releases/ai-at-morgan-stanley-debrief-launch",
-   "raw_sector": "",
-   "date": "2024-06",
-   "fresh": "aging"
-  },
-  {
-   "company": "Morgan Stanley",
-   "use": "AskResearchGPT: generative-AI assistant for Institutional Securities (Investment Banking, Sales & Trading, Research) that surfaces and distills insights from Morgan Stanley's research library of tens of thousands of reports. [OpenAI (ChatGPT/GPT-4)]",
-   "existence": "confirmed",
-   "value": "none",
-   "tier": "",
-   "url": "https://www.morganstanley.com/press-releases/morgan-stanley-research-announces-askresearchgpt",
-   "raw_sector": "",
-   "date": "2024-10",
-   "fresh": "aging"
-  },
-  {
-   "company": "Morgan Stanley",
-   "use": "Aladdin Wealth 'Auto Commentary': generative-AI feature on Morgan Stanley's Portfolio Risk Platform that turns portfolio analytics and client-level preferences into tailored narrative insights and talking points for advisors. Morgan Stanley was the first client to implement it. [BlackRock Aladdin Wealth]",
-   "existence": "confirmed",
-   "value": "none",
-   "tier": "",
-   "url": "https://www.blackrock.com/aladdin/discover/press-release/aladdin-wealth-launches-ai-enabled-commentary-tool-at-morgan-stanley",
-   "raw_sector": "",
-   "date": "2025-10",
-   "fresh": "fresh"
-  },
-  {
-   "company": "Morgan Stanley",
    "use": "Opening wealth-management/stock-plan platforms (Shareworks and Equate) to external autonomous AI agents via Model Context Protocol (MCP), letting clients' AI agents pull data and insights directly from Morgan Stanley platforms to scale the workplace stock-plan wealth funnel. [Model Context Protocol (MCP)]",
    "existence": "claimed",
    "value": "none",
@@ -234,6 +212,28 @@
    "url": "https://www.forbes.com/sites/tomgroenfeldt/2017/11/20/brighterion-anti-fraud-software-wins-morgan-stanley-first-fintech-award/",
    "raw_sector": "",
    "date": "2017-11",
+   "fresh": "stale"
+  },
+  {
+   "company": "Morgan Stanley",
+   "use": "DevGen.AI: in-house AI tool built on OpenAI GPT models that translates legacy code (e.g. COBOL, Perl) into plain-English specifications to accelerate modernization. Reviewed ~9 million lines of code and saved an estimated 280,000 developer hours in 2025. [OpenAI GPT (in-house tool)]",
+   "existence": "confirmed",
+   "value": "9 million lines of code reviewed; 280,000 developer hours saved",
+   "tier": "",
+   "url": "https://www.wsj.com/articles/how-morgan-stanley-tackled-one-of-codings-toughest-problems-4f465959",
+   "raw_sector": "",
+   "date": "2025-06",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Morgan Stanley",
+   "use": "Next Best Action (NBA): internally built machine-learning recommendation engine that delivers timely, personalized investment ideas and outreach messages to clients and prospects, guiding advisor communications. [in-house machine learning]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://emerj.com/artificial-intelligence-at-morgan-stanley-three-use-cases/",
+   "raw_sector": "",
+   "date": "2018",
    "fresh": "stale"
   }
  ]

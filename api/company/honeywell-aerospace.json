@@ -72,6 +72,17 @@
  "deployments_detail": [
   {
    "company": "Honeywell Aerospace",
+   "use": "'Red' generative-AI virtual assistant for product documentation and internal knowledge retrieval, answering questions using Honeywell's archive of 350,000 pages of product manuals and 50,000+ internal articles. [Honeywell (gen AI assistant)]",
+   "existence": "confirmed",
+   "value": "Draws on 350,000 pages of manuals + 50,000+ internal articles",
+   "tier": "",
+   "url": "https://www.cio.com/article/3816457/honeywell-transforms-with-gen-ai.html",
+   "raw_sector": "",
+   "date": "2025-02",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Honeywell Aerospace",
    "use": "Honeywell Anthem cloud-connected cockpit (AI/ML safety innovations); NXP AI-driven autonomous aviation partnership",
    "existence": "confirmed",
    "value": "none",
@@ -80,6 +91,72 @@
    "raw_sector": "Industrials",
    "date": "missing",
    "fresh": "undated"
+  },
+  {
+   "company": "Honeywell Aerospace",
+   "use": "Honeywell Ensemble digital maintenance service uses an AI algorithm (EngineCompressorAI) to predict aircraft engine health/failures from near-real-time flight data (vibration, inter-turbine temperature, pressures, fuel burn) so operators can act before disruptions. Data flows via an aircraft data gateway into the Honeywell Forge analytics platform. [Honeywell Forge (EngineCompressorAI)]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.honeywellaerospace.com/us/en/insights/articles/how-honeywell-ensemble-uses-ai-to-predict-engine-health",
+   "raw_sector": "",
+   "date": "2024-10",
+   "fresh": "aging"
+  },
+  {
+   "company": "Honeywell Aerospace",
+   "use": "Honeywell Forge Flight Efficiency uses ML analytics on flight/fuel data to optimize airline fuel burn and flight operations; multiple airlines have adopted it to reduce fuel costs. [Honeywell Forge]",
+   "existence": "confirmed",
+   "value": "More than 2% fuel savings demonstrated, up to ~$8M annual savings (per Honeywell Flight Efficiency brochure)",
+   "tier": "",
+   "url": "https://www.prnewswire.com/news-releases/multiple-airlines-select-honeywell-forge-flight-data-analytics-platform-to-save-on-fuel-301216131.html",
+   "raw_sector": "",
+   "date": "2021-01",
+   "fresh": "stale"
+  },
+  {
+   "company": "Honeywell Aerospace",
+   "use": "AI-powered Alternative/Vision-Aided Navigation for GPS-denied environments (including the N200 VIO visual-inertial module) using AI algorithms to recognize the environment and deliver GPS-like positioning; flight-demonstrated on Embraer E170 and AW139 platforms. [Honeywell (in-house)]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://aerospaceglobalnews.com/news/honeywell-successfully-demonstrates-alternative-navigation-capabilities/",
+   "raw_sector": "",
+   "date": "2022-05",
+   "fresh": "stale"
+  },
+  {
+   "company": "Honeywell Aerospace",
+   "use": "Honeywell Aerospace is developing a trusted-autonomy software stack on Shield AI's Hivemind autonomy SDK, integrating Honeywell Anthem avionics, navigation and sensing with Hivemind AI pilot software to accelerate deployment of autonomous aircraft for defense operators (MoU signed). [Shield AI Hivemind]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://shield.ai/honeywell-aerospace-shield-ai-collaborate-to-advance-development-of-autonomous-aircraft/",
+   "raw_sector": "",
+   "date": "2026-07",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Honeywell Aerospace",
+   "use": "Honeywell Aerospace uses AI to perform rapid iterative designs on next-generation aerospace systems, speeding product design and engineering (per Aerospace CEO Jim Currier).",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.wsj.com/business/honeywell-aerospace-ceo-says-ai-works-for-blueprints-but-isnt-ready-for-the-cockpit-bab9eb0e",
+   "raw_sector": "",
+   "date": "2026-06",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Honeywell Aerospace",
+   "use": "Honeywell + Google Cloud partnership to build AI agents ('workplace coaches') on Vertex AI and Gemini that use Honeywell Forge industrial data to troubleshoot equipment, suggest design improvements and provide predictive maintenance insights, plus Gemini Nano on edge devices for offline multimodal processing. [Google Cloud (Vertex AI, Gemini, Gemini Nano, BigQuery)]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://blog.google/innovation-and-ai/infrastructure-and-cloud/google-cloud/honeywell-ai/",
+   "raw_sector": "",
+   "date": "2024-10",
+   "fresh": "aging"
   },
   {
    "company": "Honeywell Aerospace",
@@ -178,83 +255,6 @@
    "url": "https://fortune.com/2024/08/28/why-honeywell-betting-on-generative-ai/",
    "raw_sector": "",
    "date": "2025-09",
-   "fresh": "fresh"
-  },
-  {
-   "company": "Honeywell Aerospace",
-   "use": "Honeywell Ensemble digital maintenance service uses an AI algorithm (EngineCompressorAI) to predict aircraft engine health/failures from near-real-time flight data (vibration, inter-turbine temperature, pressures, fuel burn) so operators can act before disruptions. Data flows via an aircraft data gateway into the Honeywell Forge analytics platform. [Honeywell Forge (EngineCompressorAI)]",
-   "existence": "confirmed",
-   "value": "none",
-   "tier": "",
-   "url": "https://www.honeywellaerospace.com/us/en/insights/articles/how-honeywell-ensemble-uses-ai-to-predict-engine-health",
-   "raw_sector": "",
-   "date": "2024-10",
-   "fresh": "aging"
-  },
-  {
-   "company": "Honeywell Aerospace",
-   "use": "Honeywell Forge Flight Efficiency uses ML analytics on flight/fuel data to optimize airline fuel burn and flight operations; multiple airlines have adopted it to reduce fuel costs. [Honeywell Forge]",
-   "existence": "confirmed",
-   "value": "More than 2% fuel savings demonstrated, up to ~$8M annual savings (per Honeywell Flight Efficiency brochure)",
-   "tier": "",
-   "url": "https://www.prnewswire.com/news-releases/multiple-airlines-select-honeywell-forge-flight-data-analytics-platform-to-save-on-fuel-301216131.html",
-   "raw_sector": "",
-   "date": "2021-01",
-   "fresh": "stale"
-  },
-  {
-   "company": "Honeywell Aerospace",
-   "use": "AI-powered Alternative/Vision-Aided Navigation for GPS-denied environments (including the N200 VIO visual-inertial module) using AI algorithms to recognize the environment and deliver GPS-like positioning; flight-demonstrated on Embraer E170 and AW139 platforms. [Honeywell (in-house)]",
-   "existence": "confirmed",
-   "value": "none",
-   "tier": "",
-   "url": "https://aerospaceglobalnews.com/news/honeywell-successfully-demonstrates-alternative-navigation-capabilities/",
-   "raw_sector": "",
-   "date": "2022-05",
-   "fresh": "stale"
-  },
-  {
-   "company": "Honeywell Aerospace",
-   "use": "Honeywell Aerospace is developing a trusted-autonomy software stack on Shield AI's Hivemind autonomy SDK, integrating Honeywell Anthem avionics, navigation and sensing with Hivemind AI pilot software to accelerate deployment of autonomous aircraft for defense operators (MoU signed). [Shield AI Hivemind]",
-   "existence": "claimed",
-   "value": "none",
-   "tier": "",
-   "url": "https://shield.ai/honeywell-aerospace-shield-ai-collaborate-to-advance-development-of-autonomous-aircraft/",
-   "raw_sector": "",
-   "date": "2026-07",
-   "fresh": "fresh"
-  },
-  {
-   "company": "Honeywell Aerospace",
-   "use": "Honeywell Aerospace uses AI to perform rapid iterative designs on next-generation aerospace systems, speeding product design and engineering (per Aerospace CEO Jim Currier).",
-   "existence": "confirmed",
-   "value": "none",
-   "tier": "",
-   "url": "https://www.wsj.com/business/honeywell-aerospace-ceo-says-ai-works-for-blueprints-but-isnt-ready-for-the-cockpit-bab9eb0e",
-   "raw_sector": "",
-   "date": "2026-06",
-   "fresh": "fresh"
-  },
-  {
-   "company": "Honeywell Aerospace",
-   "use": "Honeywell + Google Cloud partnership to build AI agents ('workplace coaches') on Vertex AI and Gemini that use Honeywell Forge industrial data to troubleshoot equipment, suggest design improvements and provide predictive maintenance insights, plus Gemini Nano on edge devices for offline multimodal processing. [Google Cloud (Vertex AI, Gemini, Gemini Nano, BigQuery)]",
-   "existence": "claimed",
-   "value": "none",
-   "tier": "",
-   "url": "https://blog.google/innovation-and-ai/infrastructure-and-cloud/google-cloud/honeywell-ai/",
-   "raw_sector": "",
-   "date": "2024-10",
-   "fresh": "aging"
-  },
-  {
-   "company": "Honeywell Aerospace",
-   "use": "'Red' generative-AI virtual assistant for product documentation and internal knowledge retrieval, answering questions using Honeywell's archive of 350,000 pages of product manuals and 50,000+ internal articles. [Honeywell (gen AI assistant)]",
-   "existence": "confirmed",
-   "value": "Draws on 350,000 pages of manuals + 50,000+ internal articles",
-   "tier": "",
-   "url": "https://www.cio.com/article/3816457/honeywell-transforms-with-gen-ai.html",
-   "raw_sector": "",
-   "date": "2025-02",
    "fresh": "fresh"
   }
  ]

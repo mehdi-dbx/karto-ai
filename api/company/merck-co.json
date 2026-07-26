@@ -71,6 +71,72 @@
  "deployments_detail": [
   {
    "company": "Merck & Co.",
+   "use": "Internal generative-AI platform (Intelligent Research Authoring Portal / iRAP CSR tool) that uses LLMs and data engineering to draft critical-path clinical study reports, cutting drafting time from ~2-3 weeks to ~3-4 days; built with McKinsey/QuantumBlack [McKinsey / QuantumBlack (LLM-based)]",
+   "existence": "confirmed",
+   "value": "CSR drafts in 3-4 days vs 2-3 weeks",
+   "tier": "",
+   "url": "https://www.merck.com/news/merck-expands-innovative-internal-generative-ai-solutions-helping-to-deliver-medicines-to-patients-faster/",
+   "raw_sector": "",
+   "date": "2025-06",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Merck & Co.",
+   "use": "HawkAVI automated visual inspection platform using deep-learning computer vision (and GANs) to detect product defects and reduce false rejects in pharmaceutical manufacturing lines, built on AWS with Amazon SageMaker [AWS (Amazon SageMaker, DataSync)]",
+   "existence": "confirmed",
+   "value": "false reject rates reduced 50% across various product lines",
+   "tier": "",
+   "url": "https://aws.amazon.com/blogs/industries/merck-builds-hawkavi-platform-on-aws-to-reduce-product-reject-rates/",
+   "raw_sector": "",
+   "date": "2022-11",
+   "fresh": "stale"
+  },
+  {
+   "company": "Merck & Co.",
+   "use": "KERMT — open-source small-molecule chemistry foundation model (pretrained on 11M+ molecules) to predict molecular behavior/ADMET endpoints and accelerate drug discovery, co-developed with NVIDIA [NVIDIA]",
+   "existence": "confirmed",
+   "value": "cuts discovery timelines by ~30%",
+   "tier": "",
+   "url": "https://www.merck.com/stories/our-ai-model-kermt-is-helping-to-advance-drug-discovery/",
+   "raw_sector": "",
+   "date": "2025-12",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Merck & Co.",
+   "use": "AI-assisted clinical trial operations: predictive models for site selection, patient matching, recruitment and retention, plus summarizing trial team meetings to build a central data truth",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.merck.com/stories/5-ways-were-transforming-artificial-intelligence-into-impact/",
+   "raw_sector": "",
+   "date": "2026-01",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Merck & Co.",
+   "use": "R&D collaboration with Mayo Clinic integrating de-identified multimodal clinical, imaging and genomic data with Merck's AI/ML discovery tools (including virtual cell modeling) to accelerate drug discovery and precision medicine in high-need therapeutic areas [Mayo Clinic Platform]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://newsnetwork.mayoclinic.org/discussion/merck-and-mayo-clinic-announce-new-research-and-development-collaboration-to-support-ai-enabled-drug-discovery-and-precision-medicine/",
+   "raw_sector": "",
+   "date": "2026-02",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Merck & Co.",
+   "use": "AI applied to manufacturing process optimization — accelerating root-cause identification, anomaly detection and process optimization across production",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.linkedin.com/posts/merck_with-the-assistance-of-ai-our-teams-are-activity-7385009534735663104-gII8",
+   "raw_sector": "",
+   "date": "2025",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Merck & Co.",
    "use": "Agentic AI platform for R&D, clinical, and enterprise operations [Google Cloud Gemini Enterprise]",
    "existence": "claimed",
    "value": "$1 billion",
@@ -188,72 +254,6 @@
    "url": "https://www.databricks.com/dataaisummit/session/insights-scale-agentic-ai-how-ai-ready-data-transforming-commercial-life",
    "raw_sector": "",
    "date": "2026",
-   "fresh": "fresh"
-  },
-  {
-   "company": "Merck & Co.",
-   "use": "Internal generative-AI platform (Intelligent Research Authoring Portal / iRAP CSR tool) that uses LLMs and data engineering to draft critical-path clinical study reports, cutting drafting time from ~2-3 weeks to ~3-4 days; built with McKinsey/QuantumBlack [McKinsey / QuantumBlack (LLM-based)]",
-   "existence": "confirmed",
-   "value": "CSR drafts in 3-4 days vs 2-3 weeks",
-   "tier": "",
-   "url": "https://www.merck.com/news/merck-expands-innovative-internal-generative-ai-solutions-helping-to-deliver-medicines-to-patients-faster/",
-   "raw_sector": "",
-   "date": "2025-06",
-   "fresh": "fresh"
-  },
-  {
-   "company": "Merck & Co.",
-   "use": "HawkAVI automated visual inspection platform using deep-learning computer vision (and GANs) to detect product defects and reduce false rejects in pharmaceutical manufacturing lines, built on AWS with Amazon SageMaker [AWS (Amazon SageMaker, DataSync)]",
-   "existence": "confirmed",
-   "value": "false reject rates reduced 50% across various product lines",
-   "tier": "",
-   "url": "https://aws.amazon.com/blogs/industries/merck-builds-hawkavi-platform-on-aws-to-reduce-product-reject-rates/",
-   "raw_sector": "",
-   "date": "2022-11",
-   "fresh": "stale"
-  },
-  {
-   "company": "Merck & Co.",
-   "use": "KERMT — open-source small-molecule chemistry foundation model (pretrained on 11M+ molecules) to predict molecular behavior/ADMET endpoints and accelerate drug discovery, co-developed with NVIDIA [NVIDIA]",
-   "existence": "confirmed",
-   "value": "cuts discovery timelines by ~30%",
-   "tier": "",
-   "url": "https://www.merck.com/stories/our-ai-model-kermt-is-helping-to-advance-drug-discovery/",
-   "raw_sector": "",
-   "date": "2025-12",
-   "fresh": "fresh"
-  },
-  {
-   "company": "Merck & Co.",
-   "use": "AI-assisted clinical trial operations: predictive models for site selection, patient matching, recruitment and retention, plus summarizing trial team meetings to build a central data truth",
-   "existence": "confirmed",
-   "value": "none",
-   "tier": "",
-   "url": "https://www.merck.com/stories/5-ways-were-transforming-artificial-intelligence-into-impact/",
-   "raw_sector": "",
-   "date": "2026-01",
-   "fresh": "fresh"
-  },
-  {
-   "company": "Merck & Co.",
-   "use": "R&D collaboration with Mayo Clinic integrating de-identified multimodal clinical, imaging and genomic data with Merck's AI/ML discovery tools (including virtual cell modeling) to accelerate drug discovery and precision medicine in high-need therapeutic areas [Mayo Clinic Platform]",
-   "existence": "claimed",
-   "value": "none",
-   "tier": "",
-   "url": "https://newsnetwork.mayoclinic.org/discussion/merck-and-mayo-clinic-announce-new-research-and-development-collaboration-to-support-ai-enabled-drug-discovery-and-precision-medicine/",
-   "raw_sector": "",
-   "date": "2026-02",
-   "fresh": "fresh"
-  },
-  {
-   "company": "Merck & Co.",
-   "use": "AI applied to manufacturing process optimization — accelerating root-cause identification, anomaly detection and process optimization across production",
-   "existence": "confirmed",
-   "value": "none",
-   "tier": "",
-   "url": "https://www.linkedin.com/posts/merck_with-the-assistance-of-ai-our-teams-are-activity-7385009534735663104-gII8",
-   "raw_sector": "",
-   "date": "2025",
    "fresh": "fresh"
   }
  ]
