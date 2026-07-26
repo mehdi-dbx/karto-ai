@@ -3,22 +3,22 @@
  "name": "LY Corporation",
  "cc": "JP",
  "vertical": "Technology",
- "deployments": 1,
- "confirmed": 1,
- "with_value_number": 1,
- "proof_rate": 1.0,
+ "deployments": 13,
+ "confirmed": 12,
+ "with_value_number": 6,
+ "proof_rate": 0.462,
  "mktcap": 20000000000.0,
  "revenue": 13600000000.0,
  "employees": 29863.0,
  "silent": false,
- "per_bn_revenue": 0.07,
- "per_10k_emp": 0.33,
+ "per_bn_revenue": 0.96,
+ "per_10k_emp": 4.35,
  "benchmarks": {
   "global_vertical": {
-   "deployments": 0,
-   "confirmed": 6,
-   "proof_rate": 80,
-   "n": 156
+   "deployments": 82,
+   "confirmed": 89,
+   "proof_rate": 82,
+   "n": 159
   }
  },
  "first_seen": 2024,
@@ -26,18 +26,30 @@
   {
    "year": 2024,
    "n": 1
+  },
+  {
+   "year": 2025,
+   "n": 8
+  },
+  {
+   "year": 2026,
+   "n": 4
   }
  ],
  "undated_pct": 0,
- "momentum": "early_mover,gone_quiet",
- "maturity": "L3",
+ "momentum": "early_mover,rising",
+ "maturity": "L4",
  "maturity_evidence": [
+  "multi_horizontal",
   "named_product:Chat AI",
   "value_number",
+  "multi_year",
   "tier_p"
  ],
- "prospect_score": 6,
+ "prospect_score": 82,
  "stack": [
+  "Google",
+  "Google Cloud",
   "OpenAI"
  ],
  "vendor_named": true,
@@ -52,6 +64,138 @@
    "raw_sector": "Services",
    "date": "2024",
    "fresh": "aging"
+  },
+  {
+   "company": "LY Corporation",
+   "use": "AI-generated summaries of user reviews on Yahoo! JAPAN Search (restaurant and product reviews) to combat information overload [OpenAI (GPT-4 / GPT-4o)]",
+   "existence": "confirmed",
+   "value": "review summaries deployed across ~47,000 facilities",
+   "tier": "",
+   "url": "https://openai.com/index/ly-corporation/",
+   "raw_sector": "",
+   "date": "2025-03-07",
+   "fresh": "fresh"
+  },
+  {
+   "company": "LY Corporation",
+   "use": "LINE PLANET voice-based AI agent (speech-to-text -> LLM -> text-to-speech pipeline with turn detection and echo cancellation) [LY Corporation (in-house)]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://techblog.lycorp.co.jp/en/tech-verse-2025-recap-current-state-of-ly-ai-tech",
+   "raw_sector": "",
+   "date": "2025-08-19",
+   "fresh": "fresh"
+  },
+  {
+   "company": "LY Corporation",
+   "use": "Agent i - unified consumer AI agent brand offering domain agents (shopping, outings, weather, etc.) accessible with one tap from both LINE and Yahoo! JAPAN, leveraging 100+ LY services [LY Corporation (in-house)]",
+   "existence": "confirmed",
+   "value": "7 domain agents at launch",
+   "tier": "",
+   "url": "https://www.lycorp.co.jp/en/news/release/020398/",
+   "raw_sector": "",
+   "date": "2026-04-20",
+   "fresh": "fresh"
+  },
+  {
+   "company": "LY Corporation",
+   "use": "Yahoo! JAPAN AI Assistant - conversational/chat-based search on Yahoo! JAPAN mobile app and desktop homepage [Google Cloud (Vertex AI)]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.thepickool.com/yahoo-japan-expands-ai-chat-to-desktop-after-mobile-launch/",
+   "raw_sector": "",
+   "date": "2025-09-22",
+   "fresh": "fresh"
+  },
+  {
+   "company": "LY Corporation",
+   "use": "Company-wide mandatory generative AI usage for employee productivity (ChatGPT Enterprise from June 2025, Google Workspace AI from January 2026), targeting doubling of operational productivity [OpenAI (ChatGPT Enterprise), Google (Workspace)]",
+   "existence": "confirmed",
+   "value": "~11,000 employees; 96% training completion (May 2026); ~700,000-800,000 annual working hours estimated saved via OpenAI tools",
+   "tier": "",
+   "url": "https://www.lycorp.co.jp/en/sustainability/esg/social/responsible-ai/",
+   "raw_sector": "",
+   "date": "2025-07-01",
+   "fresh": "fresh"
+  },
+  {
+   "company": "LY Corporation",
+   "use": "SeekAI - internal tool using prompt templates to manage expense claims and internal data searches [LY Corporation (in-house)]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://finance.yahoo.com/news/ai-now-mandatory-yahoo-japan-194700288.html",
+   "raw_sector": "",
+   "date": "2025-07-20",
+   "fresh": "fresh"
+  },
+  {
+   "company": "LY Corporation",
+   "use": "Yahoo Japan ad-screening system - ML models automatically detect and block fraudulent/policy-violating advertisements across tens of millions of daily ad requests [Google Cloud (AutoML Tables, Vertex AI, BigQuery, Cloud Run)]",
+   "existence": "confirmed",
+   "value": "~9.5 million fraudulent ads blocked in one month; model dev time cut from 6+ months to 5 days",
+   "tier": "",
+   "url": "https://cloud.google.com/customers/yahoo-japan",
+   "raw_sector": "",
+   "date": "2025-01-01",
+   "fresh": "fresh"
+  },
+  {
+   "company": "LY Corporation",
+   "use": "AI violation-detection / content moderation for user-generated text, images and video in LINE OpenChat and LINE VOOM [LY Corporation (in-house ML)]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.lycorp.co.jp/en/sustainability/esg/social/responsible-ai/",
+   "raw_sector": "",
+   "date": "2026-02-01",
+   "fresh": "fresh"
+  },
+  {
+   "company": "LY Corporation",
+   "use": "AI-driven fraud detection integrated with manual review in Yahoo! JAPAN Flea Market and Auction services [LY Corporation (in-house ML)]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.lycorp.co.jp/en/sustainability/esg/social/responsible-ai/",
+   "raw_sector": "",
+   "date": "2026-02-01",
+   "fresh": "fresh"
+  },
+  {
+   "company": "LY Corporation",
+   "use": "Yahoo! JAPAN Shopping Safety AI patrols - autonomous detection of policy-violating listings [LY Corporation (in-house ML)]",
+   "existence": "confirmed",
+   "value": "violation detection more than 3x higher than conventional methods (launched April 2025)",
+   "tier": "",
+   "url": "https://www.lycorp.co.jp/en/sustainability/esg/social/responsible-ai/",
+   "raw_sector": "",
+   "date": "2025-04-01",
+   "fresh": "fresh"
+  },
+  {
+   "company": "LY Corporation",
+   "use": "Yahoo! JAPAN Shopping AI Assistant - chat-based product recommendations and discovery (also 'Easy AI Estimator' for AI-generated price estimates) [Google Cloud (Vertex AI)]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.lycorp.co.jp/en/sustainability/esg/social/responsible-ai/",
+   "raw_sector": "",
+   "date": "2026-02-01",
+   "fresh": "fresh"
+  },
+  {
+   "company": "LY Corporation",
+   "use": "Ark Developer - internal AI coding assistant for engineers (RAG/graph-based code context, autocompletion, security checks, doc/test generation, GitHub PR generation) [LY Corporation (in-house, multi-vendor LLM stack)]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://techblog.lycorp.co.jp/en/tech-verse-2025-recap-current-state-of-ly-ai-tech",
+   "raw_sector": "",
+   "date": "2025-08-19",
+   "fresh": "fresh"
   }
  ]
 }

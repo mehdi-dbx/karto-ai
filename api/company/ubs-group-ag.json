@@ -3,22 +3,22 @@
  "name": "UBS Group AG",
  "cc": "CH",
  "vertical": "Financial Services",
- "deployments": 2,
- "confirmed": 2,
- "with_value_number": 1,
- "proof_rate": 0.5,
+ "deployments": 12,
+ "confirmed": 11,
+ "with_value_number": 8,
+ "proof_rate": 0.667,
  "mktcap": 133110000000.0,
  "revenue": 49600000000.0,
  "employees": 101594.0,
  "silent": false,
- "per_bn_revenue": 0.04,
- "per_10k_emp": 0.2,
+ "per_bn_revenue": 0.24,
+ "per_10k_emp": 1.18,
  "benchmarks": {
   "global_vertical": {
-   "deployments": 62,
-   "confirmed": 73,
-   "proof_rate": 61,
-   "n": 377
+   "deployments": 81,
+   "confirmed": 84,
+   "proof_rate": 93,
+   "n": 388
   },
   "country_vertical": {
    "deployments": 75,
@@ -27,24 +27,39 @@
    "n": 5
   }
  },
- "first_seen": 2025,
+ "first_seen": 2017,
  "by_year": [
   {
+   "year": 2017,
+   "n": 1
+  },
+  {
+   "year": 2024,
+   "n": 1
+  },
+  {
    "year": 2025,
+   "n": 8
+  },
+  {
+   "year": 2026,
    "n": 1
   }
  ],
- "undated_pct": 50,
- "momentum": "rising",
- "maturity": "L3",
+ "undated_pct": 8,
+ "momentum": "early_mover,rising",
+ "maturity": "L4",
  "maturity_evidence": [
   "multi_horizontal",
   "named_product:OpenAI",
   "value_number",
+  "multi_year",
   "tier_p"
  ],
- "prospect_score": 32,
+ "prospect_score": 73,
  "stack": [
+  "Microsoft",
+  "Microsoft Azure",
   "OpenAI"
  ],
  "vendor_named": true,
@@ -62,6 +77,28 @@
   },
   {
    "company": "UBS Group AG",
+   "use": "AI-generated video avatars of research analysts — analysts' likeness and voice cloned to turn written research notes into short-form client video, scaling video output beyond studio capacity. [OpenAI + Synthesia]",
+   "existence": "confirmed",
+   "value": "36 of ~720 analysts opted in; aims to close gap between ~1,000 videos and ~50,000 documents produced annually; 30-40% faster production",
+   "tier": "",
+   "url": "https://fortune.com/europe/2025/05/20/ubs-bank-ai-generated-video-avatars-analysts/",
+   "raw_sector": "",
+   "date": "2025-05",
+   "fresh": "fresh"
+  },
+  {
+   "company": "UBS Group AG",
+   "use": "STAAT Insights — proprietary AI-driven engine delivering pre-meeting insights and opportunity identification for US financial advisors to prepare for client meetings. [UBS proprietary]",
+   "existence": "confirmed",
+   "value": "~80% of US advisors actively using; contributes to ~10,000 advisor hours saved per month",
+   "tier": "",
+   "url": "https://www.financial-planning.com/news/ubs-turns-to-ai-to-gain-wallet-share-find-new-clients",
+   "raw_sector": "",
+   "date": "2025-12",
+   "fresh": "fresh"
+  },
+  {
+   "company": "UBS Group AG",
    "use": "AI wealth platform for personalized investment insights & portfolio recommendations (Zurich tech centre)",
    "existence": "confirmed",
    "value": "none quantified",
@@ -70,6 +107,94 @@
    "raw_sector": "Financials",
    "date": "missing",
    "fresh": "undated"
+  },
+  {
+   "company": "UBS Group AG",
+   "use": "Amelia conversational AI agent piloted for back-office / IT and customer-service support, answering employee and client support queries in natural language. [IPsoft / SoundHound (Amelia)]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.cxotalk.com/episode/ubs-bank-amelia-ai-customer-service",
+   "raw_sector": "",
+   "date": "2017-01",
+   "fresh": "stale"
+  },
+  {
+   "company": "UBS Group AG",
+   "use": "UBS Red — in-house AI assistant giving client advisors instant access to investment insights, product information and market intelligence during client interactions; multi-language. [Microsoft Azure (Azure OpenAI Service + Azure AI Search)]",
+   "existence": "confirmed",
+   "value": "Deployed to ~30,000 employees across 4-5 divisions; booking centres in Switzerland, Hong Kong, Singapore",
+   "tier": "",
+   "url": "https://news.microsoft.com/de-ch/2025/02/10/ubs-and-microsoft-partner-to-advance-ai-in-banking/",
+   "raw_sector": "",
+   "date": "2025-02",
+   "fresh": "fresh"
+  },
+  {
+   "company": "UBS Group AG",
+   "use": "UBS Global Research 'AI Powered Analyst' — generative AI embedded across the research value chain for new product creation, client engagement and internal collaboration; won 2026 Model Sell Side Award for GenAI Automation. [Microsoft + Jupyter + Synthesia]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.celent.com/en/insights/ubs-global-research-ai-powered-analyst",
+   "raw_sector": "",
+   "date": "2026-01",
+   "fresh": "fresh"
+  },
+  {
+   "company": "UBS Group AG",
+   "use": "Microsoft 365 Copilot rolled out firm-wide (50,000 licenses) for employee productivity — described as the largest M365 Copilot deployment in financial services; subsequently expanded to all employees in cloud-enabled locations. [Microsoft (M365 Copilot)]",
+   "existence": "confirmed",
+   "value": "50,000 licenses; largest financial-services Copilot deployment",
+   "tier": "",
+   "url": "https://www.linkedin.com/posts/bryangoode_microsoft365copilot-genai-ubs-activity-7367224779277287424-L_Di",
+   "raw_sector": "",
+   "date": "2024-11",
+   "fresh": "aging"
+  },
+  {
+   "company": "UBS Group AG",
+   "use": "Legal AI Assistant (LAIA) — natural-language / semantic search across the bank's legal document corpus, letting employees locate clauses, phrases and paragraphs by meaning rather than keywords, with document-level access controls. [Microsoft Azure (Azure OpenAI Service + Azure AI Search)]",
+   "existence": "confirmed",
+   "value": "Search across ~26 million legal documents; multi-language",
+   "tier": "",
+   "url": "https://www.microsoft.com/en/customers/story/22961-ubs-ag-azure-ai-search",
+   "raw_sector": "",
+   "date": "2025-03",
+   "fresh": "fresh"
+  },
+  {
+   "company": "UBS Group AG",
+   "use": "Automated meeting summaries and CRM updates plus advisor-specific chatbots answering questions on branch guidelines and procedures; automated meeting-scheduling agent for US wealth advisors. [UBS proprietary / Microsoft Copilot]",
+   "existence": "confirmed",
+   "value": "~10,000 advisor hours saved per month; 20-30 min saved per meeting; ~24,000 monthly research prompts; 95% of advisors using some AI",
+   "tier": "",
+   "url": "https://www.financial-planning.com/news/ubs-turns-to-ai-to-gain-wallet-share-find-new-clients",
+   "raw_sector": "",
+   "date": "2025-12",
+   "fresh": "fresh"
+  },
+  {
+   "company": "UBS Group AG",
+   "use": "Digitization of the advisory knowledge base — ~60,000 investment-advice and product documents converted into semantically searchable content to cut advisor research and meeting-prep time. [Microsoft Azure (Azure AI Search)]",
+   "existence": "confirmed",
+   "value": "~60,000 documents digitized",
+   "tier": "",
+   "url": "https://fintechmagazine.com/articles/how-ubs-deploys-microsoft-ai-platform-in-global-operations",
+   "raw_sector": "",
+   "date": "2025-02",
+   "fresh": "fresh"
+  },
+  {
+   "company": "UBS Group AG",
+   "use": "GitHub Copilot for AI-augmented software development, being rolled out across Group Operations and Technology Office; experimental 'multi-player mode' letting multiple developers code together with Copilot as a contributor. [GitHub Copilot (Microsoft/OpenAI)]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.ubs.com/global/en/careers/about-us/stories/2025/tech-blog-story.html",
+   "raw_sector": "",
+   "date": "2025-07",
+   "fresh": "fresh"
   }
  ]
 }

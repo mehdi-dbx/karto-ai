@@ -3,42 +3,60 @@
  "name": "Carrier Global",
  "cc": "US",
  "vertical": "Industrial / Machinery",
- "deployments": 1,
- "confirmed": 1,
+ "deployments": 6,
+ "confirmed": 6,
  "with_value_number": 0,
  "proof_rate": 0.0,
  "mktcap": 57130000000.0,
  "revenue": 21870000000.0,
  "employees": 47000.0,
  "silent": false,
- "per_bn_revenue": 0.05,
- "per_10k_emp": 0.21,
+ "per_bn_revenue": 0.27,
+ "per_10k_emp": 1.28,
  "benchmarks": {
   "global_vertical": {
-   "deployments": 0,
-   "confirmed": 14,
+   "deployments": 53,
+   "confirmed": 72,
    "proof_rate": 0,
-   "n": 175
+   "n": 176
   },
   "country_vertical": {
-   "deployments": 0,
-   "confirmed": 19,
+   "deployments": 54,
+   "confirmed": 70,
    "proof_rate": 0,
-   "n": 80
+   "n": 81
   }
  },
- "first_seen": null,
- "by_year": [],
- "undated_pct": 100,
- "momentum": "none",
- "maturity": "L3",
+ "first_seen": 2024,
+ "by_year": [
+  {
+   "year": 2024,
+   "n": 1
+  },
+  {
+   "year": 2025,
+   "n": 2
+  },
+  {
+   "year": 2026,
+   "n": 1
+  }
+ ],
+ "undated_pct": 33,
+ "momentum": "early_mover,rising",
+ "maturity": "L4",
  "maturity_evidence": [
+  "multi_horizontal",
   "named_product:Tell Me More",
+  "multi_year",
   "tier_p"
  ],
- "prospect_score": 54,
- "stack": [],
- "vendor_named": false,
+ "prospect_score": 76,
+ "stack": [
+  "Amazon AWS",
+  "Google Cloud"
+ ],
+ "vendor_named": true,
  "deployments_detail": [
   {
    "company": "Carrier Global",
@@ -50,6 +68,61 @@
    "raw_sector": "Industrials",
    "date": "missing",
    "fresh": "undated"
+  },
+  {
+   "company": "Carrier Global",
+   "use": "AI-Powered Home Energy Management System for grid resilience [Google Cloud, WeatherNext AI]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://ir.carrier.com/news/news-details/2025/Carrier-and-Google-Cloud-Join-Forces-to-Strengthen-Grid-Resilience-with-AI-Powered-Home-Energy-Management-Systems-03-05-2025/default.aspx",
+   "raw_sector": "",
+   "date": "2025-03-05",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Carrier Global",
+   "use": "Generative AI feature in Abound for building operations insights",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.carrier.com/commercial/en/us/news/news-article/carrier-introduces-generative-ai-feature-in-abound-to-elevate-building-operations-insights.html",
+   "raw_sector": "",
+   "date": "2026-02-02",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Carrier Global",
+   "use": "Generative AI for Abound Net Zero Management product scaling [Amazon Bedrock]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://aws.amazon.com/solutions/case-studies/carrier-bedrock-sustainability-testimonial/",
+   "raw_sector": "",
+   "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "Carrier Global",
+   "use": "Abound Net Zero Management: ingesting multilingual utility bills via Amazon Textract and processing through LLMs on Amazon Bedrock for energy-saving insights [AWS] [AWS]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://aws.amazon.com/solutions/case-studies/carrier-bedrock-sustainability-testimonial/",
+   "raw_sector": "",
+   "date": "2024",
+   "fresh": "aging"
+  },
+  {
+   "company": "Carrier Global",
+   "use": "AI-driven demand, inventory, and replenishment planning for global parts operations [ketteQ]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.ketteq.com/blog/carrier-global-transforms-its-global-parts-operations-with-ketteqs-ai-powered-platform",
+   "raw_sector": "",
+   "date": "2025-05-14",
+   "fresh": "fresh"
   }
  ]
 }

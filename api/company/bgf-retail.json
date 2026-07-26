@@ -3,47 +3,132 @@
  "name": "BGF Retail",
  "cc": "KR",
  "vertical": "Retail & E-commerce",
- "deployments": 1,
- "confirmed": 0,
- "with_value_number": 0,
- "proof_rate": 0.0,
+ "deployments": 12,
+ "confirmed": 8,
+ "with_value_number": 5,
+ "proof_rate": 0.417,
  "mktcap": 282518519.0,
  "revenue": 347755556.0,
  "employees": 49.0,
  "silent": false,
- "per_bn_revenue": 2.88,
- "per_10k_emp": 204.08,
+ "per_bn_revenue": 34.51,
+ "per_10k_emp": 2448.98,
  "benchmarks": {
   "global_vertical": {
-   "deployments": 0,
-   "confirmed": 0,
-   "proof_rate": 0,
-   "n": 295
+   "deployments": 86,
+   "confirmed": 75,
+   "proof_rate": 75,
+   "n": 301
   },
   "country_vertical": {
-   "deployments": 0,
-   "confirmed": 0,
-   "proof_rate": 0,
-   "n": 22
+   "deployments": 100,
+   "confirmed": 91,
+   "proof_rate": 82,
+   "n": 23
   }
  },
- "first_seen": 2026,
+ "first_seen": 2021,
  "by_year": [
   {
-   "year": 2026,
+   "year": 2021,
    "n": 1
+  },
+  {
+   "year": 2023,
+   "n": 1
+  },
+  {
+   "year": 2024,
+   "n": 2
+  },
+  {
+   "year": 2025,
+   "n": 3
+  },
+  {
+   "year": 2026,
+   "n": 5
   }
  ],
  "undated_pct": 0,
- "momentum": "late_entrant,rising",
- "maturity": "L1",
+ "momentum": "early_mover,rising",
+ "maturity": "L4",
  "maturity_evidence": [
-  "rows_no_confirmed"
+  "multi_horizontal",
+  "named_product:Smart",
+  "value_number",
+  "multi_year"
  ],
- "prospect_score": 40,
+ "prospect_score": 71,
  "stack": [],
- "vendor_named": false,
+ "vendor_named": true,
  "deployments_detail": [
+  {
+   "company": "BGF Retail",
+   "use": "AI real-time interpretation/translation service supporting 38 languages for foreign customers, using STT + machine translation + TTS. Staff use PDAs, customers use their phones. Industry-first for a Korean convenience store; deployed in 5 directly-operated stores. [Flitto]",
+   "existence": "confirmed",
+   "value": "38 languages supported; deployed in 5 stores",
+   "tier": "",
+   "url": "https://platum.kr/archives/256399",
+   "raw_sector": "",
+   "date": "2025-04-03",
+   "fresh": "fresh"
+  },
+  {
+   "company": "BGF Retail",
+   "use": "CU Mode: in-store voice-guidance accessibility feature for visually impaired shoppers, giving real-time spoken product names, prices, shelf locations and promotions. Built into the Sullivan Plus AI visual-assistance app. [Two Art (Tuat) / Sullivan Plus]",
+   "existence": "confirmed",
+   "value": "Available across 18,600+ CU stores",
+   "tier": "",
+   "url": "https://insideretail.asia/2025/08/08/koreas-cu-stores-debut-tech-to-help-visually-impaired-shoppers/",
+   "raw_sector": "",
+   "date": "2025-08-08",
+   "fresh": "fresh"
+  },
+  {
+   "company": "BGF Retail",
+   "use": "CU Customer Center chatbot: AI customer-service chatbot answering 200+ FAQ (membership, events, store locations) for quick self-service handling. [BGF Retail (chatbot)]",
+   "existence": "confirmed",
+   "value": "200+ FAQ handled",
+   "tier": "",
+   "url": "https://www.asiae.co.kr/en/article/2021081808001731865",
+   "raw_sector": "",
+   "date": "2021-08-18",
+   "fresh": "stale"
+  },
+  {
+   "company": "BGF Retail",
+   "use": "ASK (AI Shared Knowledge): in-house RAG-based enterprise knowledge search platform on internal groupware, letting employees query company bulletin boards, documents, HR rules and attachments (Hangul, PPT, Excel) in natural language. Built with Hancom, on-premise. [Hancom]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://en.sedaily.com/finance/2026/06/11/bgf-retail-partners-with-hancom-to-launch-in-house-ai",
+   "raw_sector": "",
+   "date": "2026-06-11",
+   "fresh": "fresh"
+  },
+  {
+   "company": "BGF Retail",
+   "use": "UiPath RPA plus AI Document Understanding (DU) for automating back-office document processing. UiPath first deployed in 2022, DU added in 2024. [UiPath]",
+   "existence": "confirmed",
+   "value": "~9,500 hours saved per year",
+   "tier": "",
+   "url": "https://www.itdaily.kr/news/articleView.html?idxno=225181",
+   "raw_sector": "",
+   "date": "2024-07-15",
+   "fresh": "aging"
+  },
+  {
+   "company": "BGF Retail",
+   "use": "Physical-AI logistics humanoid robot ('AI Worker') for distribution-center work: BGF Logis (CU's logistics subsidiary) partners with robotics firm Robotis to jointly develop and pilot humanoids for non-standard logistics tasks in CU distribution centers. [Robotis (BGF Logis)]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://zdnet.co.kr/view/?no=20251126093456",
+   "raw_sector": "",
+   "date": "2025-11-26",
+   "fresh": "fresh"
+  },
   {
    "company": "BGF Retail",
    "use": "AI synthetic-consumer prediction + digital-twin store simulation \"ParaStore\" (Intellisia MOU, Jul 2026) for product/pricing/promo testing",
@@ -53,6 +138,61 @@
    "url": "https://html.duckduckgo.com/html/?q=BGF리테일+CU+AI+도입",
    "raw_sector": "Consumer Staples",
    "date": "2026-07",
+   "fresh": "fresh"
+  },
+  {
+   "company": "BGF Retail",
+   "use": "CU Smart Ordering 2.0: AI deep-learning auto-replenishment system that computes optimal order quantities per store SKU using variables like day-of-week, season, and promotions. Rolled out to franchise stores from April 2023. [BGF Retail in-house (AI deep learning)]",
+   "existence": "confirmed",
+   "value": "Stockouts reduced 20.8%, sales up 4.8% in pilot",
+   "tier": "",
+   "url": "https://www.etnews.com/20230611000027",
+   "raw_sector": "",
+   "date": "2023-06-11",
+   "fresh": "stale"
+  },
+  {
+   "company": "BGF Retail",
+   "use": "Deeping Source 'Plus Insight' AI video analytics in CU smart stores to track customer movement and interest in products, and detect operational issues (e.g. dirty tasting tables). MOU/introduction announced. [Deeping Source]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.kedglobal.com/retail/newsView/ked202408290003",
+   "raw_sector": "",
+   "date": "2024-08-29",
+   "fresh": "aging"
+  },
+  {
+   "company": "BGF Retail",
+   "use": "AI Makeup Palette Maker: in-store kiosk where a customer's face is photographed and AI diagnoses personal color / skin tone, recommends matching colors, and produces a custom makeup palette. First cosmetics-manufacturing service in Korean convenience stores. [Prinker Korea]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.hankyung.com/article/202603267058P",
+   "raw_sector": "",
+   "date": "2026-03-26",
+   "fresh": "fresh"
+  },
+  {
+   "company": "BGF Retail",
+   "use": "'Today's CU Pick' (오늘의 CU픽): convenience-store-industry-first AI chatbot recommending products, trained on CU new-product/category data plus real customer-reaction data (blog reviews, SNS photos) to give personalized food/product recommendations. [BGF Retail (AI chatbot)]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.bgflive.com/view/?id=1853&categoryId=3",
+   "raw_sector": "",
+   "date": "2026-03-13",
+   "fresh": "fresh"
+  },
+  {
+   "company": "BGF Retail",
+   "use": "AI synthetic consumers / digital twins for product planning: partnership with startup Intellisia to generate large-scale virtual consumers to predict new-product reactions and simulate store merchandising/display. MOU signed; PoC on lunchboxes ran from May 2026. [Intellisia]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.koreaherald.com/article/10809884",
+   "raw_sector": "",
+   "date": "2026-07-15",
    "fresh": "fresh"
   }
  ]

@@ -3,36 +3,69 @@
  "name": "Uniqa Insurance Group",
  "cc": "AT",
  "vertical": "Insurance",
- "deployments": 2,
- "confirmed": 1,
- "with_value_number": 1,
- "proof_rate": 0.5,
+ "deployments": 12,
+ "confirmed": 9,
+ "with_value_number": 7,
+ "proof_rate": 0.583,
  "mktcap": 5767200000.0,
  "revenue": 8305200000.0,
  "employees": 15035.0,
  "silent": false,
- "per_bn_revenue": 0.24,
- "per_10k_emp": 1.33,
+ "per_bn_revenue": 1.44,
+ "per_10k_emp": 7.98,
  "benchmarks": {
   "global_vertical": {
-   "deployments": 54,
-   "confirmed": 14,
-   "proof_rate": 54,
-   "n": 60
+   "deployments": 85,
+   "confirmed": 79,
+   "proof_rate": 89,
+   "n": 63
   }
  },
- "first_seen": null,
- "by_year": [],
- "undated_pct": 100,
- "momentum": "none",
- "maturity": "L3",
+ "first_seen": 2020,
+ "by_year": [
+  {
+   "year": 2020,
+   "n": 1
+  },
+  {
+   "year": 2022,
+   "n": 1
+  },
+  {
+   "year": 2023,
+   "n": 2
+  },
+  {
+   "year": 2024,
+   "n": 1
+  },
+  {
+   "year": 2025,
+   "n": 1
+  },
+  {
+   "year": 2026,
+   "n": 4
+  }
+ ],
+ "undated_pct": 17,
+ "momentum": "early_mover,rising",
+ "maturity": "L4",
  "maturity_evidence": [
+  "multi_horizontal",
   "named_product:Claims",
+  "value_number",
+  "multi_year",
   "tier_p"
  ],
- "prospect_score": 34,
- "stack": [],
- "vendor_named": false,
+ "prospect_score": 71,
+ "stack": [
+  "Microsoft",
+  "Microsoft Azure",
+  "OpenAI",
+  "Palantir"
+ ],
+ "vendor_named": true,
  "deployments_detail": [
   {
    "company": "Uniqa Insurance Group",
@@ -47,6 +80,61 @@
   },
   {
    "company": "Uniqa Insurance Group",
+   "use": "AI-driven medical referral / health insurance claims processing: automated document extraction, validation and integration of medical invoices and referral letters, plus self-service customer app (UNIQA SEE) [Microsoft Azure AI, Azure AI Foundry, Azure Document Intelligence, Azure OpenAI]",
+   "existence": "confirmed",
+   "value": "Claims processing time cut from 15-30 min to 2-3 min (up to 90% reduction)",
+   "tier": "",
+   "url": "https://www.microsoft.com/en/customers/story/26467-uniqa-insurance-group-azure",
+   "raw_sector": "",
+   "date": "2026",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Uniqa Insurance Group",
+   "use": "NiQA digital assistant for claims reporting (burst pipes, water, glass): identifies damage from customer descriptions, auto-fills claim forms, analyzes uploaded photos and validates documents (Hungary) [none]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.uniqa.hu/niqa-digital-assistant",
+   "raw_sector": "",
+   "date": "2025",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Uniqa Insurance Group",
+   "use": "Intelligent automation / digital workers for transaction processing across the group, using Process Intelligence for data-driven decisions [SS&C Blue Prism]",
+   "existence": "confirmed",
+   "value": "200,000 transactions/month across 36 processes in 12 departments",
+   "tier": "",
+   "url": "https://www.blueprism.com/resources/videos/uniqa-insurance-group-relies-on-ss-c-blue-prism/",
+   "raw_sector": "",
+   "date": "2023",
+   "fresh": "stale"
+  },
+  {
+   "company": "Uniqa Insurance Group",
+   "use": "Automated back-office workflows for insurance policy changes across Czech Republic and Slovakia, completing changes in under 2 minutes [Adastra (on Microsoft Azure)]",
+   "existence": "confirmed",
+   "value": "Policy changes in under 2 minutes; ~15,000 monthly requests automated",
+   "tier": "",
+   "url": "https://adastracorp.com/success-stories/uniqa-insurance-policy-changes-in-two-minutes-across-the-czech-republic-and-slovakia/",
+   "raw_sector": "",
+   "date": "2026-02-24",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Uniqa Insurance Group",
+   "use": "AI-powered talent intelligence platform to unify HR processes, identify skills gaps from CVs/LinkedIn, recommend training, and automate job descriptions, interview scheduling and candidate screening [none]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://blog.mdi-training.com/advancing-ai-integration-at-uniqa-a-future-focus/",
+   "raw_sector": "",
+   "date": "2023-12-04",
+   "fresh": "stale"
+  },
+  {
+   "company": "Uniqa Insurance Group",
    "use": "AI chatbot for insurance sales support (Zuehlke) achieving 50% reduced effort at 95% answer accuracy",
    "existence": "claimed",
    "value": "50% reduced effort, 95% answer accuracy",
@@ -55,6 +143,61 @@
    "raw_sector": "Insurance",
    "date": "missing",
    "fresh": "undated"
+  },
+  {
+   "company": "Uniqa Insurance Group",
+   "use": "AI knowledge assistant (RAG + LLM) for contact-center agents in Poland: real-time suggestions and plain-language summaries of insurance documentation (GIC/OWU, tariffs, regulations) [RITS (using PLLuM Polish language model, RAG, private-cloud/on-prem)]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://rits.center/case-studies/implementing-ai-knowledge-assistant-for-uniqa",
+   "raw_sector": "",
+   "date": "2026",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Uniqa Insurance Group",
+   "use": "Customer-service chatbot on Viber, Facebook Messenger and website for product info, quotes, policy purchase and claims reporting (UNIQA Croatia) [NTH / ClickAttack]",
+   "existence": "confirmed",
+   "value": "Handles 50-60% of routine support queries; 54,000 Viber subscribers acquired, 70% one-hour open rate",
+   "tier": "",
+   "url": "https://nth.hr/en/uniqa-customer-service-chatbot/",
+   "raw_sector": "",
+   "date": "2022",
+   "fresh": "stale"
+  },
+  {
+   "company": "Uniqa Insurance Group",
+   "use": "Group-wide customer risk intelligence / customer due diligence and financial crime compliance unified across 14 European markets (~17M customers) [SymphonyAI (Financial Crime Compliance / Sensa platform)]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.symphonyai.com/news/financial-services/uniqa-unifies-customer-risk-intelligence-across-14-countries-with-symphonyai-financial-crime-compliance-platform/",
+   "raw_sector": "",
+   "date": "2026-06-23",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Uniqa Insurance Group",
+   "use": "Automated claims fraud detection: expert-rules + AI models with network analytics, deployed across 15 countries for the group's Strategic P&C Anti-Fraud Initiative [FRISS (Claims Analytics / Trust Automation)]",
+   "existence": "confirmed",
+   "value": "$21M total fraud savings within 2 years; per-investigator savings rose from $550K to $2M",
+   "tier": "",
+   "url": "https://www.friss.com/customer-stories/uniqa",
+   "raw_sector": "",
+   "date": "2020",
+   "fresh": "stale"
+  },
+  {
+   "company": "Uniqa Insurance Group",
+   "use": "AI-powered chatbot giving sales agents instant answers and 24/7 sales support / access to critical information [Zühlke]",
+   "existence": "confirmed",
+   "value": "95% response accuracy; NPS of 80%",
+   "tier": "",
+   "url": "https://www.zuehlke.com/en/case-studies/uniqa-ai-chatbot-increases-efficency",
+   "raw_sector": "",
+   "date": "2024",
+   "fresh": "aging"
   }
  ]
 }

@@ -3,48 +3,116 @@
  "name": "Chipotle Mexican Grill",
  "cc": "US",
  "vertical": "Retail & E-commerce",
- "deployments": 1,
- "confirmed": 1,
- "with_value_number": 1,
- "proof_rate": 1.0,
+ "deployments": 10,
+ "confirmed": 5,
+ "with_value_number": 4,
+ "proof_rate": 0.4,
  "mktcap": 40820000000.0,
  "revenue": 12140000000.0,
  "employees": 130301.0,
  "silent": false,
- "per_bn_revenue": 0.08,
- "per_10k_emp": 0.08,
+ "per_bn_revenue": 0.82,
+ "per_10k_emp": 0.77,
  "benchmarks": {
   "global_vertical": {
-   "deployments": 0,
-   "confirmed": 24,
-   "proof_rate": 77,
-   "n": 295
+   "deployments": 72,
+   "confirmed": 53,
+   "proof_rate": 70,
+   "n": 301
   },
   "country_vertical": {
-   "deployments": 0,
-   "confirmed": 25,
-   "proof_rate": 85,
+   "deployments": 59,
+   "confirmed": 38,
+   "proof_rate": 78,
    "n": 80
   }
  },
- "first_seen": 2024,
+ "first_seen": 2020,
  "by_year": [
   {
+   "year": 2020,
+   "n": 1
+  },
+  {
+   "year": 2021,
+   "n": 1
+  },
+  {
+   "year": 2022,
+   "n": 2
+  },
+  {
+   "year": 2023,
+   "n": 1
+  },
+  {
    "year": 2024,
+   "n": 4
+  },
+  {
+   "year": 2026,
    "n": 1
   }
  ],
  "undated_pct": 0,
- "momentum": "early_mover,gone_quiet",
- "maturity": "L3",
+ "momentum": "early_mover,cooling",
+ "maturity": "L4",
  "maturity_evidence": [
+  "multi_horizontal",
   "named_product:Ava Cado",
-  "value_number"
+  "value_number",
+  "multi_year"
  ],
- "prospect_score": 14,
- "stack": [],
- "vendor_named": false,
+ "prospect_score": 54,
+ "stack": [
+  "Microsoft"
+ ],
+ "vendor_named": true,
  "deployments_detail": [
+  {
+   "company": "Chipotle Mexican Grill",
+   "use": "Pepper concierge chatbot on app/website and Facebook Messenger handling ordering, menu questions, delivery issues and customer FAQs via natural language [none]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://newsroom.chipotle.com/2022-03-16-CHIPOTLE-TESTS-AI-KITCHEN-ASSISTANT,-CHIPPY",
+   "raw_sector": "",
+   "date": "2020-06-17",
+   "fresh": "stale"
+  },
+  {
+   "company": "Chipotle Mexican Grill",
+   "use": "Autocado cobotic avocado processor that cuts, cores and peels avocados for guacamole prep in restaurants (pilot) [Vebu]",
+   "existence": "claimed",
+   "value": "~26 seconds per avocado on average; aims to halve guacamole prep time",
+   "tier": "",
+   "url": "https://newsroom.chipotle.com/2024-09-16-CHIPOTLE-DEBUTS-AUTOCADO-AND-THE-AUGMENTED-MAKELINE-BY-HYPHEN-IN-RESTAURANTS",
+   "raw_sector": "",
+   "date": "2024-09-16",
+   "fresh": "aging"
+  },
+  {
+   "company": "Chipotle Mexican Grill",
+   "use": "Augmented Makeline, a collaborative robotic assembly line that automatically builds digital-order bowls and salads while crew handle other items [Hyphen]",
+   "existence": "claimed",
+   "value": "~65% of digital orders are bowls or salads (targeted by the system)",
+   "tier": "",
+   "url": "https://newsroom.chipotle.com/2024-09-16-CHIPOTLE-DEBUTS-AUTOCADO-AND-THE-AUGMENTED-MAKELINE-BY-HYPHEN-IN-RESTAURANTS",
+   "raw_sector": "",
+   "date": "2024-09-16",
+   "fresh": "aging"
+  },
+  {
+   "company": "Chipotle Mexican Grill",
+   "use": "Chippy autonomous AI kitchen assistant that cooks and seasons tortilla chips replicating Chipotle's recipe (pilot at Cultivate Center / SoCal restaurant) [Miso Robotics]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://newsroom.chipotle.com/2022-03-16-CHIPOTLE-TESTS-AI-KITCHEN-ASSISTANT,-CHIPPY",
+   "raw_sector": "",
+   "date": "2022-03-16",
+   "fresh": "stale"
+  },
   {
    "company": "Chipotle Mexican Grill",
    "use": "\"Ava Cado\" conversational AI hiring platform (Paradox) — CEO says cut hiring time ~75%",
@@ -55,6 +123,61 @@
    "raw_sector": "Consumer Discretionary",
    "date": "2024",
    "fresh": "aging"
+  },
+  {
+   "company": "Chipotle Mexican Grill",
+   "use": "Ava Cado conversational AI hiring assistant that automates job applications, screening and interview scheduling for restaurant crew across US and Europe [Paradox (Workday)]",
+   "existence": "confirmed",
+   "value": "Time-to-hire cut ~75% (12 days to 4 days); application completion up from 50% to 85%; 100% increase in applications",
+   "tier": "",
+   "url": "https://www.paradox.ai/case-studies/chipotle",
+   "raw_sector": "",
+   "date": "2024-10-22",
+   "fresh": "aging"
+  },
+  {
+   "company": "Chipotle Mexican Grill",
+   "use": "Computer-vision demand forecasting and ingredient/order monitoring: cameras estimate foot/vehicle traffic, track ingredient freshness, verify orders and flag drive-thru congestion (tested at 8 California locations) [PreciTaste]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.deeplearning.ai/the-batch/chipotle-tests-ai-for-predicting-customer-demand",
+   "raw_sector": "",
+   "date": "2022-10-12",
+   "fresh": "stale"
+  },
+  {
+   "company": "Chipotle Mexican Grill",
+   "use": "Enterprise Analytics team uses H2O Driverless AI (AutoML) for demand forecasting, advanced analytics and segmenting ~30M rewards members by purchase patterns [H2O.ai]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://h2o.ai/resources/video/h2o-world-dallas-driverless-ai-at-chipotle/",
+   "raw_sector": "",
+   "date": "2023-06-01",
+   "fresh": "stale"
+  },
+  {
+   "company": "Chipotle Mexican Grill",
+   "use": "AI/ML-driven personalized marketing for the rewards loyalty program using Dynamics 365 Customer Insights out-of-the-box AI models and connectors [Microsoft (Dynamics 365 Customer Insights)]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.microsoft.com/en/customers/story/849868-chipotle-retailers-dynamics-365",
+   "raw_sector": "",
+   "date": "2021-01-11",
+   "fresh": "stale"
+  },
+  {
+   "company": "Chipotle Mexican Grill",
+   "use": "AI-driven personalization to re-engage lapsed rewards customers via targeted communication and personalized offers to lift loyalty activity and digital sales [none]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://finance.yahoo.com/news/chipotle-leveraging-ai-reengage-lapsed-173600684.html",
+   "raw_sector": "",
+   "date": "2026-02-18",
+   "fresh": "fresh"
   }
  ]
 }

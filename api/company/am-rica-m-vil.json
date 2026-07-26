@@ -3,40 +3,58 @@
  "name": "América Móvil",
  "cc": "MX",
  "vertical": "Telecom",
- "deployments": 2,
- "confirmed": 0,
- "with_value_number": 0,
- "proof_rate": 0.0,
+ "deployments": 10,
+ "confirmed": 6,
+ "with_value_number": 4,
+ "proof_rate": 0.4,
  "mktcap": 78290000000.0,
  "revenue": 54700000000.0,
  "employees": 177711.0,
  "silent": false,
- "per_bn_revenue": 0.04,
- "per_10k_emp": 0.11,
+ "per_bn_revenue": 0.18,
+ "per_10k_emp": 0.56,
  "benchmarks": {
   "global_vertical": {
-   "deployments": 57,
-   "confirmed": 0,
-   "proof_rate": 0,
-   "n": 93
+   "deployments": 54,
+   "confirmed": 51,
+   "proof_rate": 62,
+   "n": 94
   }
  },
- "first_seen": 2024,
+ "first_seen": 2021,
  "by_year": [
+  {
+   "year": 2021,
+   "n": 1
+  },
   {
    "year": 2024,
    "n": 2
+  },
+  {
+   "year": 2025,
+   "n": 6
+  },
+  {
+   "year": 2026,
+   "n": 1
   }
  ],
  "undated_pct": 0,
- "momentum": "early_mover,gone_quiet",
- "maturity": "L1",
+ "momentum": "early_mover,rising",
+ "maturity": "L4",
  "maturity_evidence": [
-  "rows_no_confirmed"
+  "multi_horizontal",
+  "named_product:Claro",
+  "value_number",
+  "multi_year"
  ],
- "prospect_score": 40,
+ "prospect_score": 60,
  "stack": [
+  "Google",
+  "Microsoft",
   "NVIDIA",
+  "OpenAI",
   "Oracle"
  ],
  "vendor_named": true,
@@ -54,6 +72,28 @@
   },
   {
    "company": "América Móvil",
+   "use": "Claro Empresas (Brasil) is building complex agentic AI agents that communicate with each other to handle day-to-day operational tasks; trained on Claro's own workflows and being taken to market as B2B services (per B2B innovation director Rodrigo Assad). [none]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://convergenciadigital.com.br/telecom/agentes-ia-se-tornam-estrategicos-nos-servicos-da-claro-empresas/",
+   "raw_sector": "",
+   "date": "2025-10",
+   "fresh": "fresh"
+  },
+  {
+   "company": "América Móvil",
+   "use": "At Futurecom 2025 Claro Empresas showcased generative-AI platforms to automate business processes and improve real-time decision-making, plus predictive analytics tools for enterprise clients. [none]",
+   "existence": "claimed",
+   "value": "predictive analytics reducing costs by up to 30%",
+   "tier": "",
+   "url": "https://www.linkedin.com/posts/enigma-security_ai-5g-digitaltransformation-activity-7378589365683302400-6V-5",
+   "raw_sector": "",
+   "date": "2025-10",
+   "fresh": "fresh"
+  },
+  {
+   "company": "América Móvil",
    "use": "Partnership with Nvidia (and Oracle infrastructure) to run AI in Brazil via Claro and commercially offer GPU capacity and models to corporate clients",
    "existence": "claimed",
    "value": "none",
@@ -62,6 +102,72 @@
    "raw_sector": "Telecom",
    "date": "2024",
    "fresh": "aging"
+  },
+  {
+   "company": "América Móvil",
+   "use": "Claro Brasil (beOn Claro) launched GPU-as-a-Service in partnership with NVIDIA, becoming NVIDIA's first authorized NVIDIA Cloud Partner (NCP) in Latin America; sells fractional GPU capacity in reals for AI/LLM training and inference to startups, SMEs and government. [NVIDIA]",
+   "existence": "confirmed",
+   "value": "R$1 billion invested in Claro Cloud platform (prior year); first NVIDIA NCP in Latin America",
+   "tier": "",
+   "url": "https://telesintese.com.br/claro-lanca-oferta-de-gpus-sob-demanda-para-projetos-de-ia/",
+   "raw_sector": "",
+   "date": "2026-06",
+   "fresh": "fresh"
+  },
+  {
+   "company": "América Móvil",
+   "use": "Claro Brasil deployed LLM-based copilots to support call-center agents (reducing handle time, letting junior agents resolve complex cases) and integrated generative AI into its IVR to interpret customer speech and route to specialists. In gradual production rollout. [Large Language Models (vendor unnamed)]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://telesintese.com.br/claro-amplia-uso-de-ia-generativa-para-otimizar-atendimento-e-criar-novos-servicos/",
+   "raw_sector": "",
+   "date": "2025-08",
+   "fresh": "fresh"
+  },
+  {
+   "company": "América Móvil",
+   "use": "TelcelBot, an AI-powered intelligent virtual assistant/chatbot for customer self-service (balance checks, bill payment, recharges, plan queries), available 24/7 on Telcel.com, the Mi Telcel app, and WhatsApp. [none]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://holatelcel.com/tecnologia/conoce-a-telcelbot-tu-asesor-inteligente-personal/",
+   "raw_sector": "",
+   "date": "2021-01",
+   "fresh": "stale"
+  },
+  {
+   "company": "América Móvil",
+   "use": "Claro Empresas (Brasil) sells 'atendimento inteligente' — an intelligent customer-service solution using chatbots and virtual assistants that answer queries 24/7 across text, voice and image, marketed as a B2B professional service. [none]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.claro.com.br/empresas/servicos-profissionais/inteligencia-artificial",
+   "raw_sector": "",
+   "date": "2025",
+   "fresh": "fresh"
+  },
+  {
+   "company": "América Móvil",
+   "use": "Claro Brasil signed an exclusive distribution partnership with OpenAI to offer premium ChatGPT Plus to its customers (4 free months for bundle subscribers; dedicated ChatGPT data allowances on prepaid/control plans), making it Brazil's first such operator deal. [OpenAI (ChatGPT Plus)]",
+   "existence": "confirmed",
+   "value": "4 free months of ChatGPT Plus for combo subscribers; 3GB dedicated ChatGPT data on R$30 top-ups",
+   "tier": "",
+   "url": "https://www.bnamericas.com/en/news/claro-signs-contract-with-openai-for-chatgpt-evaluates-data-center-opportunities",
+   "raw_sector": "",
+   "date": "2025-09",
+   "fresh": "fresh"
+  },
+  {
+   "company": "América Móvil",
+   "use": "Telcel bundles Google AI Pro (Gemini app, Veo 3 video generation, 2TB storage) free for a promotional period into consumer mobile plans (e.g. 3 months on Plan Telcel Libre; up to 6 months of Gemini Pro on qualifying plans), distributing generative AI to subscribers. [Google (Gemini / Google AI Pro, Veo 3)]",
+   "existence": "confirmed",
+   "value": "3-6 free months of Google AI Pro / Gemini Pro depending on plan",
+   "tier": "",
+   "url": "https://holatelcel.com/promocionesinterior/esta-temporada-tu-plan-telcel-libre-por-599-al-mes-te-da-mucho-mas/",
+   "raw_sector": "",
+   "date": "2025-12",
+   "fresh": "fresh"
   }
  ]
 }

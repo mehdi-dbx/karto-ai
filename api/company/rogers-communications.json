@@ -3,22 +3,22 @@
  "name": "Rogers Communications",
  "cc": "CA",
  "vertical": "Telecom",
- "deployments": 1,
- "confirmed": 0,
- "with_value_number": 1,
- "proof_rate": 1.0,
+ "deployments": 5,
+ "confirmed": 3,
+ "with_value_number": 3,
+ "proof_rate": 0.6,
  "mktcap": 18551470588.0,
  "revenue": 16632352941.0,
  "employees": 25000.0,
  "silent": false,
- "per_bn_revenue": 0.06,
- "per_10k_emp": 0.4,
+ "per_bn_revenue": 0.3,
+ "per_10k_emp": 2.0,
  "benchmarks": {
   "global_vertical": {
-   "deployments": 0,
-   "confirmed": 0,
-   "proof_rate": 78,
-   "n": 93
+   "deployments": 19,
+   "confirmed": 24,
+   "proof_rate": 88,
+   "n": 94
   }
  },
  "first_seen": 2025,
@@ -28,16 +28,29 @@
    "n": 1
   }
  ],
- "undated_pct": 0,
- "momentum": "rising",
- "maturity": "L1",
+ "undated_pct": 80,
+ "momentum": "early_mover,rising",
+ "maturity": "L3",
  "maturity_evidence": [
-  "rows_no_confirmed"
+  "multi_horizontal",
+  "named_product:Customer",
+  "value_number"
  ],
- "prospect_score": 0,
+ "prospect_score": 42,
  "stack": [],
  "vendor_named": false,
  "deployments_detail": [
+  {
+   "company": "Rogers Communications",
+   "use": "AI and Testing Investment - C$10 billion investment in AI over three years",
+   "existence": "claimed",
+   "value": "10000000000",
+   "tier": "",
+   "url": "https://www.reuters.com/business/media-telecom/rogers-invest-c10-billion-ai-testing-after-massive-outage-2022-07-24/",
+   "raw_sector": "",
+   "date": "Jul 24, 2022",
+   "fresh": "undated"
+  },
   {
    "company": "Rogers Communications",
    "use": "AI chatbot \"Anna\" handling a portion of customer service operations",
@@ -48,6 +61,39 @@
    "raw_sector": "Telecom",
    "date": "2025-07",
    "fresh": "fresh"
+  },
+  {
+   "company": "Rogers Communications",
+   "use": "Customer Support - AI chatbots replacing human customer service agents",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.linkedin.com/posts/pullara_will-ai-help-rogers-deliver-greater-customer-activity-7350608174728499202-Athu",
+   "raw_sector": "",
+   "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "Rogers Communications",
+   "use": "Content Management - AI-powered content development reducing costs",
+   "existence": "confirmed",
+   "value": "53%",
+   "tier": "",
+   "url": "https://www.madcapsoftware.com/case-study/rogers-communications/",
+   "raw_sector": "",
+   "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "Rogers Communications",
+   "use": "Sales Forecasting - Predictive and prescriptive AI for sales insights [SalesChoice]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.saleschoice.com/casestudies/rogers/",
+   "raw_sector": "",
+   "date": "missing",
+   "fresh": "undated"
   }
  ]
 }

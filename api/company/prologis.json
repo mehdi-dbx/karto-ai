@@ -3,41 +3,55 @@
  "name": "Prologis",
  "cc": "US",
  "vertical": "Real Estate & Construction",
- "deployments": 1,
- "confirmed": 0,
- "with_value_number": 0,
- "proof_rate": 0.0,
+ "deployments": 10,
+ "confirmed": 9,
+ "with_value_number": 6,
+ "proof_rate": 0.6,
  "mktcap": 138340000000.0,
  "revenue": 9660000000.0,
  "employees": 2802.0,
  "silent": false,
- "per_bn_revenue": 0.1,
- "per_10k_emp": 3.57,
+ "per_bn_revenue": 1.04,
+ "per_10k_emp": 35.69,
  "benchmarks": {
   "global_vertical": {
-   "deployments": 0,
-   "confirmed": 0,
-   "proof_rate": 0,
+   "deployments": 86,
+   "confirmed": 93,
+   "proof_rate": 93,
    "n": 154
   },
   "country_vertical": {
-   "deployments": 0,
-   "confirmed": 0,
-   "proof_rate": 0,
+   "deployments": 80,
+   "confirmed": 97,
+   "proof_rate": 97,
    "n": 31
   }
  },
- "first_seen": null,
- "by_year": [],
- "undated_pct": 100,
- "momentum": "none",
- "maturity": "L1",
- "maturity_evidence": [
-  "rows_no_confirmed"
+ "first_seen": 2023,
+ "by_year": [
+  {
+   "year": 2023,
+   "n": 1
+  },
+  {
+   "year": 2025,
+   "n": 8
+  }
  ],
- "prospect_score": 40,
- "stack": [],
- "vendor_named": false,
+ "undated_pct": 10,
+ "momentum": "early_mover,rising",
+ "maturity": "L4",
+ "maturity_evidence": [
+  "multi_horizontal",
+  "named_product:Enterprise",
+  "value_number",
+  "multi_year"
+ ],
+ "prospect_score": 70,
+ "stack": [
+  "OpenAI"
+ ],
+ "vendor_named": true,
  "deployments_detail": [
   {
    "company": "Prologis",
@@ -49,6 +63,105 @@
    "raw_sector": "Real Estate",
    "date": "missing",
    "fresh": "undated"
+  },
+  {
+   "company": "Prologis",
+   "use": "Enterprise AI/ML platform (Dataiku) running 60+ machine-learning models in production for revenue management, operational/demand forecasting, geospatial analysis and predictive modeling; a 12x increase from 5 prior projects, with 30 APIs deployed and 85 active contributors. [Dataiku]",
+   "existence": "confirmed",
+   "value": "60+ AI/ML projects in production; 30 APIs; 85 active contributors",
+   "tier": "",
+   "url": "https://www.dataiku.com/blog/prologis",
+   "raw_sector": "",
+   "date": "2025-09-16",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Prologis",
+   "use": "AI site-feasibility and site-plan generation tool (TestFit) adopted to evaluate new warehouse sites — assessing design, constructability, and costs in early-stage site planning, generating realistic site plans rapidly. [TestFit (Prologis Ventures portfolio company)]",
+   "existence": "confirmed",
+   "value": "up to 10x faster site planning (vendor claim)",
+   "tier": "",
+   "url": "https://www.testfit.io/news/prologis-invests-in-testfit-deploys-ai-software",
+   "raw_sector": "",
+   "date": "2023-09-26",
+   "fresh": "stale"
+  },
+  {
+   "company": "Prologis",
+   "use": "Prologis Energy uses advanced analytics, automation and AI for intelligent solar-and-storage design, predictive energy management (demand/supply forecasting), and grid-interactive infrastructure across thousands of buildings. [none]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.linkedin.com/posts/susanuthayakumar_ai-is-becoming-a-powerful-accelerator-of-activity-7355948460883238912-yU-0",
+   "raw_sector": "",
+   "date": "2025-07-29",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Prologis",
+   "use": "Enterprise ChatGPT / 'PLD GPT' — a proprietary company-data-integrated generative AI assistant deployed company-wide for personal productivity (email drafting, memo summarization, enterprise search), reaching 95% adoption with 2,000+ users and 10 generative-AI products launched. [OpenAI (ChatGPT Enterprise)]",
+   "existence": "confirmed",
+   "value": "95% company-wide GenAI adoption; 2,000+ users; 1,000+ custom GPTs",
+   "tier": "",
+   "url": "https://enterprisesoftware.blog/podcasts/ep-53-the-future-of-ai-powered-supply-chains-with-prologis-cto-sineesh-keshav",
+   "raw_sector": "",
+   "date": "2025-06-25",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Prologis",
+   "use": "AI lease-review agent embedded in DocuSign that reviews lease contracts, checks critical clauses, and routes edge cases back to humans for judgment, operating in real-time with traceability for legal teams. [Dataiku, DocuSign]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.linkedin.com/posts/markabramowitz_great-example-of-how-the-prologis-team-is-activity-7420217129657921536-n-ws",
+   "raw_sector": "",
+   "date": "2025-10-01",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Prologis",
+   "use": "Batch GenAI lease-scanning agent — the same lease-review logic run in batch mode to scan all 13,000 active leases and flag clauses that may need updating within minutes. [Dataiku]",
+   "existence": "confirmed",
+   "value": "13,000 leases scanned",
+   "tier": "",
+   "url": "https://www.linkedin.com/posts/dataiku_dataikusummit-aiagents-activity-7416412712760635392-ineK",
+   "raw_sector": "",
+   "date": "2025-09-24",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Prologis",
+   "use": "Employee-built custom GPTs — 1,000+ personal AI agents/GPTs created by roughly half the ~2,500-person workforce for individual and team workflows via the enterprise GenAI platform. [OpenAI (ChatGPT Enterprise)]",
+   "existence": "confirmed",
+   "value": "1,000+ custom GPTs built by employees",
+   "tier": "",
+   "url": "https://enterprisesoftware.blog/podcasts/ep-53-the-future-of-ai-powered-supply-chains-with-prologis-cto-sineesh-keshav",
+   "raw_sector": "",
+   "date": "2025-06-25",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Prologis",
+   "use": "Industrial space pricing engine — 100+ machine-learning models built in Dataiku that assess fair-market rent per square foot and surface pricing to field sales teams in real time via API calls. [Dataiku]",
+   "existence": "confirmed",
+   "value": "100+ pricing models",
+   "tier": "",
+   "url": "https://www.linkedin.com/posts/markabramowitz_great-example-of-how-the-prologis-team-is-activity-7420217129657921536-n-ws",
+   "raw_sector": "",
+   "date": "2025-10-01",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Prologis",
+   "use": "AI-enabled property search / leasing tool that translates complex natural-language customer requirements (e.g., square footage, parking, rooftop solar, location) into a single-prompt query returning matching Prologis properties. [OpenAI (ChatGPT Enterprise)]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://enterprisesoftware.blog/podcasts/ep-53-the-future-of-ai-powered-supply-chains-with-prologis-cto-sineesh-keshav",
+   "raw_sector": "",
+   "date": "2025-06-25",
+   "fresh": "fresh"
   }
  ]
 }

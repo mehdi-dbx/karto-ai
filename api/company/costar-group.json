@@ -3,26 +3,26 @@
  "name": "CoStar Group",
  "cc": "US",
  "vertical": "Real Estate & Construction",
- "deployments": 1,
- "confirmed": 1,
+ "deployments": 5,
+ "confirmed": 5,
  "with_value_number": 0,
  "proof_rate": 0.0,
  "mktcap": 10970000000.0,
  "revenue": 3410000000.0,
  "employees": 8441.0,
  "silent": false,
- "per_bn_revenue": 0.29,
- "per_10k_emp": 1.18,
+ "per_bn_revenue": 1.47,
+ "per_10k_emp": 5.92,
  "benchmarks": {
   "global_vertical": {
-   "deployments": 0,
-   "confirmed": 31,
+   "deployments": 60,
+   "confirmed": 75,
    "proof_rate": 0,
    "n": 154
   },
   "country_vertical": {
-   "deployments": 0,
-   "confirmed": 50,
+   "deployments": 57,
+   "confirmed": 73,
    "proof_rate": 0,
    "n": 31
   }
@@ -34,17 +34,18 @@
    "n": 1
   }
  ],
- "undated_pct": 0,
+ "undated_pct": 80,
  "momentum": "late_entrant,rising",
  "maturity": "L3",
  "maturity_evidence": [
   "named_product:Homes AI",
   "tier_p"
  ],
- "prospect_score": 46,
+ "prospect_score": 70,
  "stack": [
   "Microsoft",
   "Microsoft Azure",
+  "Mistral AI",
   "OpenAI",
   "Palantir"
  ],
@@ -60,6 +61,50 @@
    "raw_sector": "Real Estate",
    "date": "2026",
    "fresh": "fresh"
+  },
+  {
+   "company": "CoStar Group",
+   "use": "AI-powered conversational search for residential real estate on Homes.com [Microsoft Azure OpenAI, Mistral]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.costargroup.com/press-room/2025/homescom-launches-smart-search-feature-enabling-users-search-way-you-speak",
+   "raw_sector": "",
+   "date": "Oct 14, 2025",
+   "fresh": "undated"
+  },
+  {
+   "company": "CoStar Group",
+   "use": "Homes AI - conversational AI experience for home shopping on Homes.com [Microsoft Azure OpenAI]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.costargroup.com/press-room/2026/costar-group-launches-transformative-ai-experience-homescom-redefining-future-home",
+   "raw_sector": "",
+   "date": "Feb 16, 2026",
+   "fresh": "undated"
+  },
+  {
+   "company": "CoStar Group",
+   "use": "Apartments.com AI - conversational AI rental advisor for apartment discovery and comparison",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://investors.costargroup.com/fr-fr/node/16926/pdf",
+   "raw_sector": "",
+   "date": "Jun 16, 2026",
+   "fresh": "undated"
+  },
+  {
+   "company": "CoStar Group",
+   "use": "Azure AI Foundry implementation for conversational AI search experience [Microsoft Azure AI Foundry, Azure OpenAI, Mistral]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.microsoft.com/en/customers/story/24028-costar-group-inc-azure-ai-foundry",
+   "raw_sector": "",
+   "date": "May 27, 2025",
+   "fresh": "undated"
   }
  ]
 }

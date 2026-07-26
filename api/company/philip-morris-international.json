@@ -3,27 +3,27 @@
  "name": "Philip Morris International",
  "cc": "US",
  "vertical": "Retail & E-commerce",
- "deployments": 12,
- "confirmed": 10,
- "with_value_number": 5,
- "proof_rate": 0.417,
+ "deployments": 15,
+ "confirmed": 13,
+ "with_value_number": 6,
+ "proof_rate": 0.4,
  "mktcap": 298290000000.0,
  "revenue": 42550000000.0,
  "employees": 84900.0,
  "silent": false,
- "per_bn_revenue": 0.28,
- "per_10k_emp": 1.41,
+ "per_bn_revenue": 0.35,
+ "per_10k_emp": 1.77,
  "benchmarks": {
   "global_vertical": {
-   "deployments": 96,
-   "confirmed": 95,
-   "proof_rate": 69,
-   "n": 295
+   "deployments": 93,
+   "confirmed": 94,
+   "proof_rate": 70,
+   "n": 301
   },
   "country_vertical": {
-   "deployments": 91,
-   "confirmed": 89,
-   "proof_rate": 77,
+   "deployments": 82,
+   "confirmed": 87,
+   "proof_rate": 78,
    "n": 80
   }
  },
@@ -50,7 +50,7 @@
    "n": 1
   }
  ],
- "undated_pct": 25,
+ "undated_pct": 40,
  "momentum": "early_mover,cooling",
  "maturity": "L4",
  "maturity_evidence": [
@@ -59,9 +59,12 @@
   "value_number",
   "multi_year"
  ],
- "prospect_score": 91,
- "stack": [],
- "vendor_named": false,
+ "prospect_score": 84,
+ "stack": [
+  "IBM",
+  "Microsoft"
+ ],
+ "vendor_named": true,
  "deployments_detail": [
   {
    "company": "Philip Morris International",
@@ -73,6 +76,28 @@
    "raw_sector": "Consumer Staples",
    "date": "2025",
    "fresh": "fresh"
+  },
+  {
+   "company": "Philip Morris International",
+   "use": "Safety surveillance of smoke-free products using AI-based technologies [ArisGlobal LifeSphere Safety]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.pmiscience.com/en/news-events/scientific-update-magazine/a-smoke-free-future-and-beyond/",
+   "raw_sector": "",
+   "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "Philip Morris International",
+   "use": "MSP (Market Systematic Program) deployed across 34 markets for direct retail and online orders",
+   "existence": "confirmed",
+   "value": "34",
+   "tier": "",
+   "url": "https://www.pmi.com/content/dam/pmicom/global/docs/pmi-sustainability/pmi-value-report-2025.pdf",
+   "raw_sector": "",
+   "date": "Mar 31, 2026",
+   "fresh": "undated"
   },
   {
    "company": "Philip Morris International",
@@ -194,6 +219,17 @@
    "raw_sector": "",
    "date": "2023",
    "fresh": "stale"
+  },
+  {
+   "company": "Philip Morris International",
+   "use": "Trustworthy AI Framework for transparency and continuous monitoring of AI systems",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.forrester.com/blogs/how-pmis-outcome-driven-ea-practice-won-the-2025-forrester-ea-award-in-emea/",
+   "raw_sector": "",
+   "date": "Mar 3, 2026",
+   "fresh": "undated"
   }
  ]
 }

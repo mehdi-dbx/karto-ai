@@ -3,36 +3,62 @@
  "name": "Pearson",
  "cc": "UK",
  "vertical": "Media / Entertainment / Gaming",
- "deployments": 1,
- "confirmed": 1,
- "with_value_number": 0,
- "proof_rate": 0.0,
+ "deployments": 12,
+ "confirmed": 10,
+ "with_value_number": 3,
+ "proof_rate": 0.25,
  "mktcap": 9220200000.0,
  "revenue": 4546600000.0,
  "employees": 16665.0,
  "silent": false,
- "per_bn_revenue": 0.22,
- "per_10k_emp": 0.6,
+ "per_bn_revenue": 2.64,
+ "per_10k_emp": 7.2,
  "benchmarks": {
   "global_vertical": {
-   "deployments": 0,
-   "confirmed": 18,
-   "proof_rate": 0,
+   "deployments": 82,
+   "confirmed": 82,
+   "proof_rate": 53,
    "n": 35
   }
  },
- "first_seen": null,
- "by_year": [],
- "undated_pct": 100,
- "momentum": "none",
- "maturity": "L3",
+ "first_seen": 2021,
+ "by_year": [
+  {
+   "year": 2021,
+   "n": 1
+  },
+  {
+   "year": 2022,
+   "n": 1
+  },
+  {
+   "year": 2024,
+   "n": 2
+  },
+  {
+   "year": 2025,
+   "n": 7
+  }
+ ],
+ "undated_pct": 8,
+ "momentum": "early_mover,rising",
+ "maturity": "L4",
  "maturity_evidence": [
+  "multi_horizontal",
   "named_product:Generative",
+  "value_number",
+  "multi_year",
   "tier_p"
  ],
- "prospect_score": 54,
- "stack": [],
- "vendor_named": false,
+ "prospect_score": 90,
+ "stack": [
+  "Amazon AWS",
+  "Google",
+  "Google Cloud",
+  "Microsoft",
+  "Microsoft Azure"
+ ],
+ "vendor_named": true,
  "deployments_detail": [
   {
    "company": "Pearson",
@@ -44,6 +70,127 @@
    "raw_sector": "Media",
    "date": "missing",
    "fresh": "undated"
+  },
+  {
+   "company": "Pearson",
+   "use": "AI Study Tool embedded in Pearson+ eTextbooks, MyLab and Mastering: GenAI generates on-demand summaries, step-by-step explanations, and personalized practice tied to Pearson's own vetted content for higher-ed students. [Pearson (proprietary; GenAI)]",
+   "existence": "confirmed",
+   "value": "Students using the tool were 23x more likely to become active readers; ~80 million student interactions analyzed",
+   "tier": "",
+   "url": "https://www.pearson.com/en-us/higher-education/products-services/aistudytool.html",
+   "raw_sector": "",
+   "date": "2024-09",
+   "fresh": "aging"
+  },
+  {
+   "company": "Pearson",
+   "use": "Connections Academy virtual high school AI study tools (GenAI embedded in course materials) delivering measured learning-outcome gains for students. [Pearson (proprietary GenAI)]",
+   "existence": "confirmed",
+   "value": "Biology students saw an 11% increase in end-of-semester passing rates and a 5% boost in final course scores",
+   "tier": "",
+   "url": "https://www.prnewswire.com/news-releases/new-pearson-data-shows-connections-academy-high-school-students-using-ai-study-tools-achieve-higher-grades-and-pass-rates-302534580.html",
+   "raw_sector": "",
+   "date": "2025-08",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Pearson",
+   "use": "Smart Lesson Generator: AI-powered tool that creates curriculum-aligned English language learning lesson activities (quizzes, comprehension activities, practice questions) in seconds, connected to Pearson courses, to cut teacher planning workload. [Pearson (built on AWS/Amazon Bedrock)]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://plc.pearson.com/en-GB/news-and-insights/news/pearson-launches-smart-lesson-generator-ai-powered-innovation-transform",
+   "raw_sector": "",
+   "date": "2025-04",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Pearson",
+   "use": "Mondly by Pearson language-learning app uses AI-powered speech recognition and an AI Digital Language Tutor to give immersive conversation practice (500+ minutes) across 40+ languages. [Mondly by Pearson (proprietary AI speech recognition)]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.pearson.com/languages/educators/mondly-by-pearson.html",
+   "raw_sector": "",
+   "date": "2022-09",
+   "fresh": "stale"
+  },
+  {
+   "company": "Pearson",
+   "use": "Faethm by Pearson: AI analytics platform for strategic workforce planning that models the impact of automating/augmenting technologies on jobs and forecasts future skill requirements and gaps for enterprise customers. [Faethm by Pearson (proprietary AI analytics)]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://plc.pearson.com/en-GB/news-and-insights/news/pearson-acquires-leading-ai-analytics-company-faethm",
+   "raw_sector": "",
+   "date": "2021-09",
+   "fresh": "stale"
+  },
+  {
+   "company": "Pearson",
+   "use": "Pearson Revise exam-practice tool: AI provides guided study, instant feedback and personalized flashcards for young learners; part of Pearson's generative AI capabilities built on Amazon Bedrock. [AWS (Amazon Bedrock)]",
+   "existence": "confirmed",
+   "value": "AI-powered courseware used by 2 million+ users; users 4x more likely to be engaged learners",
+   "tier": "",
+   "url": "https://aws.amazon.com/blogs/publicsector/pearson-at-aws-dc-summit-2025-transforming-education-through-ai-powered-learning-solutions/",
+   "raw_sector": "",
+   "date": "2025-07",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Pearson",
+   "use": "Pearson-AWS collaboration to use Amazon Bedrock with Pearson's content and datasets to build AI-powered personalized learning that enhances and expands Pearson courseware and content. [AWS (Amazon Bedrock)]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://plc.pearson.com/en-GB/news-and-insights/news/pearson-and-aws-announce-collaboration-unlock-ai-powered-personalized",
+   "raw_sector": "",
+   "date": "2025-02",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Pearson",
+   "use": "Pearson-Google Cloud strategic partnership building agentic AI-powered K-12 study tools using Vertex AI, Gemini, LearnLM and Veo/Imagen for personalized learning, plus BigQuery teacher dashboards; targets Connections Academy virtual schools. [Google Cloud (Vertex AI, Gemini, LearnLM)]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://plc.pearson.com/en-GB/news-and-insights/news/pearson-and-google-announce-strategic-partnership-accelerate-development",
+   "raw_sector": "",
+   "date": "2025-06",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Pearson",
+   "use": "Pearson-Microsoft joint development of a series of copilots, agents and AI tools for skills development (including English language learning applications) and new AI credentials/certifications. [Microsoft (Azure AI, Copilot)]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://plc.pearson.com/en-GB/news-and-insights/news/pearson-and-microsoft-announce-multi-year-partnership-transform-future",
+   "raw_sector": "",
+   "date": "2025-01",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Pearson",
+   "use": "Microsoft 365 Copilot deployed and expanded across Pearson's global workforce (after pilot/testing) to boost employee efficiency, creativity and productivity; part of a multi-year Microsoft partnership including Azure cloud/AI infrastructure. [Microsoft (365 Copilot, Azure)]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://news.microsoft.com/source/2025/01/14/pearson-and-microsoft-announce-multiyear-partnership-to-transform-the-future-of-learning-and-work-with-ai/",
+   "raw_sector": "",
+   "date": "2025-01",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Pearson",
+   "use": "Pearson VUE ISAAC (Intelligent Sensor Architecture for Anomaly & Cheat detection): AI sensors monitor online proctored exams, flag anomalies (unusual eye movement, background noise) and analyze signals collectively to support human proctors in exam-security decisions. [Pearson VUE (proprietary AI)]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.pearsonvue.com/us/en/about/news/highlights/five-ways-ai-online-testing.html",
+   "raw_sector": "",
+   "date": "2024-01",
+   "fresh": "aging"
   }
  ]
 }

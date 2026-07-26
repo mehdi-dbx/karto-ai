@@ -3,27 +3,27 @@
  "name": "Eiffage",
  "cc": "FR",
  "vertical": "Real Estate & Construction",
- "deployments": 1,
- "confirmed": 1,
- "with_value_number": 0,
- "proof_rate": 0.0,
+ "deployments": 11,
+ "confirmed": 7,
+ "with_value_number": 4,
+ "proof_rate": 0.364,
  "mktcap": 12603600000.0,
  "revenue": 28209600000.0,
  "employees": 87000.0,
  "silent": false,
- "per_bn_revenue": 0.04,
- "per_10k_emp": 0.11,
+ "per_bn_revenue": 0.39,
+ "per_10k_emp": 1.26,
  "benchmarks": {
   "global_vertical": {
-   "deployments": 0,
-   "confirmed": 31,
-   "proof_rate": 0,
+   "deployments": 93,
+   "confirmed": 84,
+   "proof_rate": 74,
    "n": 154
   },
   "country_vertical": {
-   "deployments": 0,
-   "confirmed": 20,
-   "proof_rate": 0,
+   "deployments": 100,
+   "confirmed": 100,
+   "proof_rate": 60,
    "n": 6
   }
  },
@@ -31,19 +31,53 @@
  "by_year": [
   {
    "year": 2024,
-   "n": 1
+   "n": 3
+  },
+  {
+   "year": 2025,
+   "n": 7
   }
  ],
- "undated_pct": 0,
- "momentum": "early_mover,gone_quiet",
- "maturity": "L3",
+ "undated_pct": 9,
+ "momentum": "early_mover,rising",
+ "maturity": "L4",
  "maturity_evidence": [
-  "named_product:Generative"
+  "multi_horizontal",
+  "named_product:Generative",
+  "value_number",
+  "multi_year"
  ],
- "prospect_score": 54,
- "stack": [],
- "vendor_named": false,
+ "prospect_score": 67,
+ "stack": [
+  "Anthropic",
+  "Google",
+  "Google Cloud",
+  "Mistral AI"
+ ],
+ "vendor_named": true,
  "deployments_detail": [
+  {
+   "company": "Eiffage",
+   "use": "Automated analysis of tender/consultation dossiers (DCE - Dossier de Consultation des Entreprises) using generative AI on Vertex AI, extracting and summarizing tender documents to speed bid preparation. [Google Cloud Vertex AI (Gemini)]",
+   "existence": "confirmed",
+   "value": "Processing time reduced from 2 days to 20 minutes",
+   "tier": "",
+   "url": "https://cloud.google.com/blog/fr/topics/clients/la-revolution-silencieuse-deiffage-quand-le-btp-sempare-de-lia-generative",
+   "raw_sector": "",
+   "date": "2025-04-09",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Eiffage",
+   "use": "Tender/bid prioritization: AI predicts the likelihood of success of calls for proposals to help teams prioritize which bids to pursue. [Google Cloud Vertex AI]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://cloud.google.com/blog/fr/topics/clients/la-revolution-silencieuse-deiffage-quand-le-btp-sempare-de-lia-generative",
+   "raw_sector": "",
+   "date": "2025-04-09",
+   "fresh": "fresh"
+  },
   {
    "company": "Eiffage",
    "use": "Generative AI deployed with Google Cloud across 52000 workforce with 15 use cases for BIM planning and site safety",
@@ -54,6 +88,94 @@
    "raw_sector": "Construction & Concessions",
    "date": "2024",
    "fresh": "aging"
+  },
+  {
+   "company": "Eiffage",
+   "use": "Group-wide private generative-AI platform ('Chat Eiffage') built on Google Cloud Vertex AI, giving employees a secure internal assistant over the group's unstructured data (technical memos, documents); ~1,600 active users of ~2,500 trained as of early 2025, usage grew from 200 to 3,000 users. 15 business use cases selected and industrialized starting May 2024. [Google Cloud (Vertex AI, Gemini, Imagen, BigQuery, Apigee); third-party models Anthropic Claude and Mistral AI]",
+   "existence": "confirmed",
+   "value": "~1,600 active users; ~2,500 trained; usage grew from 200 to 3,000 users; 15 use cases",
+   "tier": "",
+   "url": "https://cloud.google.com/blog/fr/topics/clients/la-revolution-silencieuse-deiffage-quand-le-btp-sempare-de-lia-generative",
+   "raw_sector": "",
+   "date": "2025-04-09",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Eiffage",
+   "use": "Automated meeting-report / minutes generation from meetings via generative AI on the internal platform. [Google Cloud Vertex AI]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://cloud.google.com/blog/fr/topics/clients/la-revolution-silencieuse-deiffage-quand-le-btp-sempare-de-lia-generative",
+   "raw_sector": "",
+   "date": "2025-04-09",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Eiffage",
+   "use": "Automatic multilingual translation of presentations and documents to support cross-border operations, via the internal generative-AI platform. [Google Cloud Vertex AI (Gemini)]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://cloud.google.com/blog/fr/topics/clients/la-revolution-silencieuse-deiffage-quand-le-btp-sempare-de-lia-generative",
+   "raw_sector": "",
+   "date": "2025-04-09",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Eiffage",
+   "use": "Generative-AI assistant for the procurement department to augment buyers: understanding contract clauses, regulatory monitoring, supplier sourcing by criteria, document summarization and supplier relationship support (using Ivalua's IVA assistant). [Ivalua (IVA AI assistant); generative AI]",
+   "existence": "claimed",
+   "value": "Scope: 500 buyers, 100,000+ suppliers, ~EUR 10bn external spend, 15,000+ employees purchasing monthly",
+   "tier": "",
+   "url": "https://www.decision-achats.fr/Thematique/familles-achats-1300/it-digital-2287/Breves/La-direction-des-achats-d-Eiffage-mise-sur-l-IA-461165.htm/amp",
+   "raw_sector": "",
+   "date": "2024-06-24",
+   "fresh": "aging"
+  },
+  {
+   "company": "Eiffage",
+   "use": "AI connected to the finance ERP to analyze the group's scope 1 and 2 CO2 emissions (carbon footprint analysis for sustainability reporting). [Google Cloud (Vertex AI); connected to finance ERP]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.lemoniteur.fr/article/numerique-l-ia-fait-son-entree-chez-eiffage.2326212",
+   "raw_sector": "",
+   "date": "2024-03-21",
+   "fresh": "aging"
+  },
+  {
+   "company": "Eiffage",
+   "use": "Predictive maintenance AI for railway infrastructure, developed by Eiffage Énergie Systèmes / Eiffage AI Center of Expertise for Ferlioz (Eiffage Concessions) on the LGV Bretagne-Pays de la Loire high-speed line; hybrid machine-learning/deep-learning using IRIS sensor data, CMMS records and traffic data to anticipate failures and optimize maintenance. [In-house (Eiffage AI Center of Expertise); ML/deep learning (clustering, mixed-effects models, KNN)]",
+   "existence": "claimed",
+   "value": "Mean error 4% at 1-month, 13% at 12-month predictions; LGV-BPL is 182 km, ~30,000 trains/year (system still in testing, not full production)",
+   "tier": "",
+   "url": "https://www.eiffage.com/medias/actualites/eiffage-energie-systemes-a-cree-une-ia-pour-la-maintenance-predictive-des-infrastructures-ferroviaires",
+   "raw_sector": "",
+   "date": "2025-10-20",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Eiffage",
+   "use": "Named as a Google Gemini / Vertex AI customer/case study [Google Gemini / Vertex AI] [Google Gemini / Vertex AI]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://blog.google/innovation-and-ai/infrastructure-and-cloud/google-cloud/gemini-at-work-ai-agents/",
+   "raw_sector": "",
+   "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "Eiffage",
+   "use": "Construction-site safety risk detection: AI analyzes site photos against internal and regulatory safety standards to detect hazards and support site managers' prevention decisions. [Google Cloud Vertex AI (Imagen)]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://cloud.google.com/blog/fr/topics/clients/la-revolution-silencieuse-deiffage-quand-le-btp-sempare-de-lia-generative",
+   "raw_sector": "",
+   "date": "2025-04-09",
+   "fresh": "fresh"
   }
  ]
 }

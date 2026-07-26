@@ -3,22 +3,22 @@
  "name": "Wesfarmers",
  "cc": "AU",
  "vertical": "Retail & E-commerce",
- "deployments": 1,
- "confirmed": 1,
- "with_value_number": 0,
- "proof_rate": 0.0,
+ "deployments": 11,
+ "confirmed": 7,
+ "with_value_number": 2,
+ "proof_rate": 0.182,
  "mktcap": 66686666667.0,
  "revenue": 30466666667.0,
  "employees": 120000.0,
  "silent": false,
- "per_bn_revenue": 0.03,
- "per_10k_emp": 0.08,
+ "per_bn_revenue": 0.36,
+ "per_10k_emp": 0.92,
  "benchmarks": {
   "global_vertical": {
-   "deployments": 0,
-   "confirmed": 24,
-   "proof_rate": 0,
-   "n": 295
+   "deployments": 80,
+   "confirmed": 69,
+   "proof_rate": 44,
+   "n": 301
   }
  },
  "first_seen": 2024,
@@ -26,18 +26,33 @@
   {
    "year": 2024,
    "n": 1
+  },
+  {
+   "year": 2025,
+   "n": 3
+  },
+  {
+   "year": 2026,
+   "n": 7
   }
  ],
  "undated_pct": 0,
- "momentum": "early_mover,gone_quiet",
- "maturity": "L3",
+ "momentum": "early_mover,rising",
+ "maturity": "L4",
  "maturity_evidence": [
+  "multi_horizontal",
   "named_product:Microsoft",
+  "value_number",
+  "multi_year",
   "tier_p"
  ],
- "prospect_score": 46,
+ "prospect_score": 75,
  "stack": [
-  "Microsoft"
+  "Google",
+  "Google Cloud",
+  "Microsoft",
+  "Microsoft Azure",
+  "OpenAI"
  ],
  "vendor_named": true,
  "deployments_detail": [
@@ -51,6 +66,116 @@
    "raw_sector": "Retail",
    "date": "2024-12",
    "fresh": "aging"
+  },
+  {
+   "company": "Wesfarmers",
+   "use": "Bunnings 'Buddy' AI shopping assistant on the Bunnings website: customers ask questions in natural language, upload photos of handwritten lists or broken parts, get project plans, product recommendations, warehouse locations and how-to videos. Built in ~6 weeks, replaced the prior chatbot, progressively rolled out on the Australian site. [Google Cloud (Gemini Enterprise for Customer Experience)]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.computerweekly.com/news/366642113/Bunnings-shows-off-AI-shopping-agent-at-Google-showcase",
+   "raw_sector": "",
+   "date": "2026-04-23",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Wesfarmers",
+   "use": "Officeworks launched its first generative-AI customer service assistant ('Ollie') on the Officeworks website to give customers instant answers on order tracking, returns, product finding and comparisons. [none]",
+   "existence": "confirmed",
+   "value": "more than 11,000 interactions reported",
+   "tier": "",
+   "url": "https://www.linkedin.com/posts/officeworks_officeworks-ai-activity-7403960218893623296-Lba_",
+   "raw_sector": "",
+   "date": "2025-12-01",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Wesfarmers",
+   "use": "Kmart 'Joy' AI shopping assistant in the Kmart app: natural-language product search, photo upload for recommendations, virtual try-on for clothing via AR, and 'See it in my space' furniture/home preview. Set to launch inside the Kmart app in June 2026. [Google Cloud (Gemini Enterprise for Customer Experience)]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.smartcompany.com.au/artificial-intelligence/kmart-google-gemini-ai-shopping-assistant-joy/",
+   "raw_sector": "",
+   "date": "2026-05-28",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Wesfarmers",
+   "use": "AI-powered team member assistant capability for Bunnings' store teams, giving staff access to organizational knowledge, product information and operational updates (part of the Microsoft partnership). [Microsoft (Azure OpenAI, Copilot Studio)]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://news.microsoft.com/source/asia/features/wesfarmers-and-microsoft-announce-multi-year-strategic-partnership-to-accelerate-ai-powered-innovation/",
+   "raw_sector": "",
+   "date": "2026-02-13",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Wesfarmers",
+   "use": "Kmart Group AI chat-based hiring/interview tool that replaces CV screening for frontline retail roles across 450 stores in Australia and New Zealand; five-question structured chat interview scores candidates on traits and screens ~600,000 applications a year. [Sapia.ai]",
+   "existence": "confirmed",
+   "value": "Time-to-hire cut 73% (44 days to 11.8 days); ~$6m cost savings; 2.5x higher retention for AI-matched hires; ~12,000 hires/year across 450 stores",
+   "tier": "",
+   "url": "https://sapia.ai/resources/blog/how-kmart-group-used-ai-interviews-to-fix-high-volume-hiring/",
+   "raw_sector": "",
+   "date": "2025-12-11",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Wesfarmers",
+   "use": "Wesfarmers group-wide Microsoft partnership: Microsoft 365 Copilot licences and training delivered across multiple teams (Bunnings, Kmart Group, Blackwoods, Priceline), with tangible time savings reported in 2025 and plans to more than double usage. [Microsoft (M365 Copilot, Azure OpenAI, Copilot Studio)]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://news.microsoft.com/source/asia/features/wesfarmers-and-microsoft-announce-multi-year-strategic-partnership-to-accelerate-ai-powered-innovation/",
+   "raw_sector": "",
+   "date": "2026-02-13",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Wesfarmers",
+   "use": "Bunnings pilots AI to understand and develop its 55,000-strong workforce: Workday Skills Cloud (Illuminate AI) maps employee skills and aspirations, Talent Optimization matches staff to open roles, HiredScore surfaces internal candidates, and an AI chatbot handles operational HR queries (leave, policies). [Workday (Skills Cloud / Illuminate, HiredScore)]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.itnews.com.au/news/bunnings-pilots-ai-for-its-55000-strong-workforce-618825",
+   "raw_sector": "",
+   "date": "2025-07-29",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Wesfarmers",
+   "use": "Bunnings uses AI-powered facial recognition technology (FRT) in stores to capture biometric data of shoppers and match against a watch list of aggressive or banned individuals, to combat retail crime and protect staff. Australia's Administrative Review Tribunal ruled Bunnings was entitled to use it; company confirmed plans to roll it out. [none]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.abc.net.au/news/2026-02-05/bunnings-wins-ai-facial-recognition-tech-fight/106309308",
+   "raw_sector": "",
+   "date": "2026-02-05",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Wesfarmers",
+   "use": "Wesfarmers multi-year Google Cloud partnership to deploy agentic AI group-wide, including a OnePass pilot enabling conversational shopping across multiple retail brands, product-discovery and recommendation tools, and customer-support AI assistants, plus data analysis across operations, marketing and finance. [Google Cloud (Gemini Enterprise for Customer Experience)]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.itnews.com.au/news/wesfarmers-to-deploy-agentic-ai-groupwide-623590",
+   "raw_sector": "",
+   "date": "2026-02-13",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Wesfarmers",
+   "use": "Wesfarmers working with Microsoft to develop AI agents that improve demand forecasting and inventory management across its retail supply chain, strengthening supply-chain decision-making. [Microsoft (Azure OpenAI, Copilot Studio)]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.bca.com.au/our-insights/business-stories/wesfarmers-ai-to-strengthen-supply-chain-decision-making/",
+   "raw_sector": "",
+   "date": "2026-05-29",
+   "fresh": "fresh"
   }
  ]
 }

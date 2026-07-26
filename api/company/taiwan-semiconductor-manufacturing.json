@@ -3,51 +3,61 @@
  "name": "Taiwan Semiconductor Manufacturing",
  "cc": "TW",
  "vertical": "Manufacturing & Robotics",
- "deployments": 3,
- "confirmed": 1,
- "with_value_number": 1,
- "proof_rate": 0.333,
+ "deployments": 13,
+ "confirmed": 9,
+ "with_value_number": 3,
+ "proof_rate": 0.231,
  "mktcap": 1949062500000.0,
  "revenue": 138750000000.0,
  "employees": 76907.0,
  "silent": false,
- "per_bn_revenue": 0.02,
- "per_10k_emp": 0.39,
+ "per_bn_revenue": 0.09,
+ "per_10k_emp": 1.69,
  "benchmarks": {
   "global_vertical": {
-   "deployments": 88,
-   "confirmed": 24,
-   "proof_rate": 71,
-   "n": 147
+   "deployments": 93,
+   "confirmed": 85,
+   "proof_rate": 66,
+   "n": 150
   },
   "country_vertical": {
-   "deployments": 86,
-   "confirmed": 38,
-   "proof_rate": 43,
-   "n": 22
+   "deployments": 91,
+   "confirmed": 91,
+   "proof_rate": 45,
+   "n": 23
   }
  },
  "first_seen": 2024,
  "by_year": [
   {
    "year": 2024,
-   "n": 1
+   "n": 2
   },
   {
    "year": 2025,
-   "n": 2
+   "n": 5
+  },
+  {
+   "year": 2026,
+   "n": 6
   }
  ],
  "undated_pct": 0,
  "momentum": "early_mover,rising",
- "maturity": "L3",
+ "maturity": "L4",
  "maturity_evidence": [
+  "multi_horizontal",
   "named_product:Deployed",
+  "value_number",
+  "multi_year",
   "tier_p"
  ],
- "prospect_score": 33,
+ "prospect_score": 85,
  "stack": [
-  "NVIDIA"
+  "Anthropic",
+  "Microsoft",
+  "NVIDIA",
+  "OpenAI"
  ],
  "vendor_named": true,
  "deployments_detail": [
@@ -75,6 +85,83 @@
   },
   {
    "company": "Taiwan Semiconductor Manufacturing",
+   "use": "cuLitho computational lithography in production: TSMC moved NVIDIA's GPU-accelerated cuLitho platform into production for mask synthesis, where generative-AI-enhanced workflows add a further 2x speedup; 350 H100 systems replace 40,000 CPU systems for a task requiring 30M+ CPU compute hours per mask set. [NVIDIA (cuLitho)]",
+   "existence": "confirmed",
+   "value": "350 H100 systems replace 40,000 CPU systems; additional 2x speedup from generative AI; 20-50% improvement in cost efficiency or cycle time",
+   "tier": "",
+   "url": "https://blogs.nvidia.com/blog/tsmc-culitho-computational-lithography/",
+   "raw_sector": "",
+   "date": "2024-10-08",
+   "fresh": "aging"
+  },
+  {
+   "company": "Taiwan Semiconductor Manufacturing",
+   "use": "cuML machine-learning library integrated into TSMC's advanced process control (APC) systems to analyze hundreds of thousands of manufacturing parameters across thousands of production stages, improving process consistency and efficiency. [NVIDIA (cuML / CUDA-X)]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://finance.yahoo.com/sectors/technology/articles/tsmc-expands-nvidia-ai-technologies-094131097.html",
+   "raw_sector": "",
+   "date": "2026-06-01",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Taiwan Semiconductor Manufacturing",
+   "use": "NVIDIA Metropolis platform + TAO Toolkit used for vision-AI automated defect classification, improving nanometer-scale defect detection accuracy while reducing labeling and retraining needs as manufacturing conditions change. [NVIDIA (Metropolis, TAO Toolkit)]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://nvidianews.nvidia.com/news/nvidia-and-tsmc-bring-ai-into-fabs-to-advance-semiconductor-design-and-manufacturing",
+   "raw_sector": "",
+   "date": "2026-05-31",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Taiwan Semiconductor Manufacturing",
+   "use": "cuEST library used to accelerate electronic-structure / chemistry simulations for advanced semiconductor materials research up to 50x faster than conventional methods. [NVIDIA (cuEST / CUDA-X)]",
+   "existence": "confirmed",
+   "value": "up to 50x faster chemistry simulations",
+   "tier": "",
+   "url": "https://finance.yahoo.com/sectors/technology/articles/tsmc-expands-nvidia-ai-technologies-094131097.html",
+   "raw_sector": "",
+   "date": "2026-06-01",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Taiwan Semiconductor Manufacturing",
+   "use": "AI integrated into TSMC's fab dispatching system to expand scheduling processing and computational performance and maximize equipment production efficiency; part of TSMC's 'Agile and Intelligent Operations'. [none]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.tsmc.com/english/dedicatedFoundry/manufacturing/intelligent_operations",
+   "raw_sector": "",
+   "date": "2025-01-01",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Taiwan Semiconductor Manufacturing",
+   "use": "Machine-learning-based Auto/Advanced Defect Classification (ADC) in the packaging fab using a human-in-the-loop model; deployed as inline edge computing ('Eagle's View') inside manufacturing tools plus an offline cloud approach to intercept and classify defects. [none]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.tsmc.com/english/dedicatedFoundry/services/apm_intelligent_packaging_fab/intelligentFab_ai",
+   "raw_sector": "",
+   "date": "2025-01-01",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Taiwan Semiconductor Manufacturing",
+   "use": "NVIDIA Omniverse libraries being evaluated to build 'FabTwin', a virtual fab digital-twin environment for evaluating process tool layouts and facility optimization. [NVIDIA (Omniverse)]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://finance.yahoo.com/sectors/technology/articles/tsmc-expands-nvidia-ai-technologies-094131097.html",
+   "raw_sector": "",
+   "date": "2026-06-01",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Taiwan Semiconductor Manufacturing",
    "use": "Built global manufacturing platform in \"1Fab\" operations mode integrating AI into production and management systems",
    "existence": "claimed",
    "value": "none",
@@ -82,6 +169,39 @@
    "url": "https://technews.tw/2025/01/25/ai-business-tsmc-umc/",
    "raw_sector": "Semiconductors",
    "date": "2025-01",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Taiwan Semiconductor Manufacturing",
+   "use": "NVIDIA H200 GPUs deployed for AI-driven production scheduling and factory management, optimizing manufacturing constraints across fabs. [NVIDIA (H200 GPUs)]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://finance.yahoo.com/sectors/technology/articles/tsmc-expands-nvidia-ai-technologies-094131097.html",
+   "raw_sector": "",
+   "date": "2026-06-01",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Taiwan Semiconductor Manufacturing",
+   "use": "Automated Material Handling System (AMHS) with MES-based dispatching optimization that directs pre-staging and balances equipment/carrier/labor loading to increase tool utilization; expanded to connect multiple mega fabs. [none]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.tsmc.com/english/dedicatedFoundry/services/apm_intelligent_packaging_fab/intelligentFab_automation",
+   "raw_sector": "",
+   "date": "2025-01-01",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Taiwan Semiconductor Manufacturing",
+   "use": "AI coding assistants for software engineering: TSMC job postings require engineers to utilize and evaluate advanced AI coding assistants and platforms such as Claude Code, Cursor, GitHub Copilot, and OpenAI tools, indicating internal adoption of generative-AI dev tooling. [Anthropic (Claude Code), Cursor, GitHub Copilot, OpenAI]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://careers.tsmc.com/en_US/careers/JobDetail/Senior-AI-Software-Engineer/21610",
+   "raw_sector": "",
+   "date": "2026-05-26",
    "fresh": "fresh"
   }
  ]

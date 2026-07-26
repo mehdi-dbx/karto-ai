@@ -3,43 +3,123 @@
  "name": "Dollarama",
  "cc": "CA",
  "vertical": "Retail & E-commerce",
- "deployments": 1,
- "confirmed": 1,
- "with_value_number": 0,
- "proof_rate": 0.0,
+ "deployments": 9,
+ "confirmed": 5,
+ "with_value_number": 1,
+ "proof_rate": 0.111,
  "mktcap": 36691176471.0,
  "revenue": 5573529412.0,
  "employees": 20020.0,
  "silent": false,
- "per_bn_revenue": 0.18,
- "per_10k_emp": 0.5,
+ "per_bn_revenue": 1.61,
+ "per_10k_emp": 4.5,
  "benchmarks": {
   "global_vertical": {
-   "deployments": 0,
-   "confirmed": 24,
-   "proof_rate": 0,
-   "n": 295
+   "deployments": 64,
+   "confirmed": 53,
+   "proof_rate": 36,
+   "n": 301
   },
   "country_vertical": {
-   "deployments": 0,
-   "confirmed": 57,
-   "proof_rate": 0,
+   "deployments": 43,
+   "confirmed": 43,
+   "proof_rate": 14,
    "n": 8
   }
  },
- "first_seen": null,
- "by_year": [],
- "undated_pct": 100,
- "momentum": "none",
+ "first_seen": 2025,
+ "by_year": [
+  {
+   "year": 2025,
+   "n": 4
+  },
+  {
+   "year": 2026,
+   "n": 1
+  }
+ ],
+ "undated_pct": 44,
+ "momentum": "rising",
  "maturity": "L3",
  "maturity_evidence": [
+  "multi_horizontal",
   "named_product:Website",
+  "value_number",
   "tier_p"
  ],
- "prospect_score": 54,
- "stack": [],
- "vendor_named": false,
+ "prospect_score": 66,
+ "stack": [
+  "Google Cloud",
+  "Microsoft"
+ ],
+ "vendor_named": true,
  "deployments_detail": [
+  {
+   "company": "Dollarama",
+   "use": "Production AI solutions deployed on Google Cloud Platform (GCP), primarily based on large language models (LLMs). Job postings describe maintaining, evolving and optimizing these deployed AI/LLM solutions and monitoring AI pipeline performance. [Google Cloud (GCP), LLMs]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://jobs.dollarama.com/job/Mont-Royal-Specialist%2C-AI-QC/600916317/",
+   "raw_sector": "",
+   "date": "2025-2026 job postings",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Dollarama",
+   "use": "Enterprise AI Center of Excellence to set AI strategy, standards and reusable assets and deliver flagship generative-AI/LLM/RAG use cases into production across retail operations, back office, supply chain, merchandising and corporate functions. [not disclosed (GenAI, LLMs, RAG)]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://ca.linkedin.com/jobs/view/lead-ai-at-dollarama-4423958122",
+   "raw_sector": "",
+   "date": "2026 hiring",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Dollarama",
+   "use": "AI/analytics applied to demand forecasting, inventory optimization, pricing strategies, workforce management and supply chain efficiency to improve profitability. [not disclosed]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://kalkine.ca/news/retail/dollarama-tsxdol-in-focus-can-canadas-discount-retail-leader-continue-delivering-record-growth",
+   "raw_sector": "",
+   "date": "2025-2026 analyst coverage",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Dollarama",
+   "use": "AI-powered virtual assistant for store employees that facilitates access to information from internal documentation, reinforces standards/procedures, and supports onboarding of new employees. Launched in FY26 (fiscal year ended Feb 2026). [not disclosed (LLM-based, likely Google Cloud per AI job postings)]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.dollarama.com/en-CA/corp/wp-content/uploads/2026/06/DOL_ESG2026_EN.pdf",
+   "raw_sector": "",
+   "date": "FY26 (2025-2026)",
+   "fresh": "undated"
+  },
+  {
+   "company": "Dollarama",
+   "use": "AppyHere AI Virtual Recruiter used for end-to-end hourly hiring (sourcing, screening, scheduling) of store associates, Assistant Team Leads and Team Leads. Dollarama's store recruitment process runs through the AppyHere mobile application. [AppyHere]",
+   "existence": "confirmed",
+   "value": "none (vendor markets up to 28% turnover reduction / 1.55 days time-to-fill generally, not Dollarama-specific)",
+   "tier": "",
+   "url": "https://technologymagazine.com/company-reports/the-future-of-hiring-through-digital-transformation",
+   "raw_sector": "",
+   "date": "partnership reported Jan 2024; ongoing",
+   "fresh": "undated"
+  },
+  {
+   "company": "Dollarama",
+   "use": "Microsoft Power Platform AI / automation program ('Agent Factory'): building Copilot Studio agents, Power Automate workflows with AI Builder, and AI-enabled Power Apps to streamline business processes and modernize how operations leaders access and act on information across 1,700+ stores. [Microsoft (Copilot Studio, Power Automate/AI Builder, Power Apps, Power BI)]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://ca.linkedin.com/jobs/view/business-analyst-ai-and-business-transformation-at-dollarama-4405032999",
+   "raw_sector": "",
+   "date": "2025-2026 job posting",
+   "fresh": "fresh"
+  },
   {
    "company": "Dollarama",
    "use": "Website Virtual Agent generating responses via AI based on published website content",
@@ -50,6 +130,28 @@
    "raw_sector": "Retail",
    "date": "missing",
    "fresh": "undated"
+  },
+  {
+   "company": "Dollarama",
+   "use": "Customer-facing AI Virtual Agent (chatbot) on dollarama.com that answers customer questions. Site states: 'Hello, I am Dollarama's Virtual Agent. My responses are generated by artificial intelligence based on the content published on our website.' [not disclosed]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.dollarama.com/en-ca/dollarama-gift-card/",
+   "raw_sector": "",
+   "date": "live as of 2025-2026",
+   "fresh": "undated"
+  },
+  {
+   "company": "Dollarama",
+   "use": "AI monitoring cameras on self-checkout stations for loss prevention (AI analyzing footage to detect missed scans / suspicious behavior). User-reported on Dollarama's self-checkout units; Dollarama confirmed to use self-checkout selectively across its network. [not disclosed]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.reddit.com/r/dollarama/comments/1qve4wm/new_cameras_on_self_checkout/",
+   "raw_sector": "",
+   "date": "2025-2026 (user-reported)",
+   "fresh": "fresh"
   }
  ]
 }

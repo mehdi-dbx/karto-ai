@@ -3,35 +3,46 @@
  "name": "Aspen Pharmacare",
  "cc": "ZA",
  "vertical": "Healthcare & Life Sciences",
- "deployments": 1,
- "confirmed": 0,
+ "deployments": 3,
+ "confirmed": 1,
  "with_value_number": 0,
  "proof_rate": 0.0,
  "mktcap": 3590810811.0,
  "revenue": 2302162162.0,
  "employees": 9557.0,
  "silent": false,
- "per_bn_revenue": 0.43,
- "per_10k_emp": 1.05,
+ "per_bn_revenue": 1.3,
+ "per_10k_emp": 3.14,
  "benchmarks": {
   "global_vertical": {
-   "deployments": 0,
-   "confirmed": 0,
+   "deployments": 14,
+   "confirmed": 5,
    "proof_rate": 0,
-   "n": 165
+   "n": 168
   }
  },
- "first_seen": null,
- "by_year": [],
- "undated_pct": 100,
- "momentum": "none",
- "maturity": "L1",
- "maturity_evidence": [
-  "rows_no_confirmed"
+ "first_seen": 2021,
+ "by_year": [
+  {
+   "year": 2021,
+   "n": 1
+  },
+  {
+   "year": 2025,
+   "n": 1
+  }
  ],
- "prospect_score": 40,
- "stack": [],
- "vendor_named": false,
+ "undated_pct": 33,
+ "momentum": "early_mover,rising",
+ "maturity": "L3",
+ "maturity_evidence": [
+  "named_product:Cloud"
+ ],
+ "prospect_score": 46,
+ "stack": [
+  "Amazon AWS"
+ ],
+ "vendor_named": true,
  "deployments_detail": [
   {
    "company": "Aspen Pharmacare",
@@ -43,6 +54,28 @@
    "raw_sector": "Pharma",
    "date": "missing",
    "fresh": "undated"
+  },
+  {
+   "company": "Aspen Pharmacare",
+   "use": "AI tool in fatty liver disease studies",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.raps.org/resource/recon-fda-warns-aspen-pharmacare-for-sterility-iss.html",
+   "raw_sector": "",
+   "date": "2025-03-20",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Aspen Pharmacare",
+   "use": "Cloud infrastructure and automation with generative AI [AWS]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://lemongrasscloud.com/case-studies/aspen-pharmacare/",
+   "raw_sector": "",
+   "date": "2021-11-03",
+   "fresh": "stale"
   }
  ]
 }

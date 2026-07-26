@@ -3,28 +3,28 @@
  "name": "Godrej Consumer Products",
  "cc": "IN",
  "vertical": "Retail & E-commerce",
- "deployments": 1,
- "confirmed": 1,
+ "deployments": 7,
+ "confirmed": 6,
  "with_value_number": 1,
- "proof_rate": 1.0,
+ "proof_rate": 0.143,
  "mktcap": 13132530120.0,
  "revenue": 1828674699.0,
  "employees": 2962.0,
  "silent": false,
- "per_bn_revenue": 0.55,
- "per_10k_emp": 3.38,
+ "per_bn_revenue": 3.83,
+ "per_10k_emp": 23.63,
  "benchmarks": {
   "global_vertical": {
-   "deployments": 0,
-   "confirmed": 24,
-   "proof_rate": 77,
-   "n": 295
+   "deployments": 56,
+   "confirmed": 63,
+   "proof_rate": 39,
+   "n": 301
   },
   "country_vertical": {
-   "deployments": 0,
-   "confirmed": 25,
-   "proof_rate": 83,
-   "n": 13
+   "deployments": 77,
+   "confirmed": 77,
+   "proof_rate": 62,
+   "n": 14
   }
  },
  "first_seen": 2025,
@@ -34,16 +34,19 @@
    "n": 1
   }
  ],
- "undated_pct": 0,
+ "undated_pct": 86,
  "momentum": "rising",
  "maturity": "L3",
  "maturity_evidence": [
+  "multi_horizontal",
   "named_product:Amethyst",
   "value_number"
  ],
- "prospect_score": 14,
- "stack": [],
- "vendor_named": false,
+ "prospect_score": 70,
+ "stack": [
+  "Microsoft Azure"
+ ],
+ "vendor_named": true,
  "deployments_detail": [
   {
    "company": "Godrej Consumer Products",
@@ -55,6 +58,72 @@
    "raw_sector": "Fast Moving Consumer Goods",
    "date": "2025",
    "fresh": "fresh"
+  },
+  {
+   "company": "Godrej Consumer Products",
+   "use": "Generative AI for demand forecasting, pricing and market optimization",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.expresscomputer.in/artificial-intelligence-ai/across-1-million-outlets-and-6-lakh-villages-how-ai-is-making-godrej-consumer-products-faster-and-smarter/132544/",
+   "raw_sector": "",
+   "date": "Feb 13, 2026",
+   "fresh": "undated"
+  },
+  {
+   "company": "Godrej Consumer Products",
+   "use": "Generative AI for internal operations and product development [Azure]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.microsoft.com/en/customers/story/1780319625450618637-godrejcp-azure-discrete-manufacturing-en-india",
+   "raw_sector": "",
+   "date": "Jul 5, 2024",
+   "fresh": "undated"
+  },
+  {
+   "company": "Godrej Consumer Products",
+   "use": "Retail Opportunity Radar for outlet-level demand insights",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.expresscomputer.in/artificial-intelligence-ai/across-1-million-outlets-and-6-lakh-villages-how-ai-is-making-godrej-consumer-products-faster-and-smarter/132544/",
+   "raw_sector": "",
+   "date": "Feb 13, 2026",
+   "fresh": "undated"
+  },
+  {
+   "company": "Godrej Consumer Products",
+   "use": "Promotion ROI Simulation",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.expresscomputer.in/artificial-intelligence-ai/across-1-million-outlets-and-6-lakh-villages-how-ai-is-making-godrej-consumer-products-faster-and-smarter/132544/",
+   "raw_sector": "",
+   "date": "Feb 13, 2026",
+   "fresh": "undated"
+  },
+  {
+   "company": "Godrej Consumer Products",
+   "use": "Availability Risk Prediction",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.expresscomputer.in/artificial-intelligence-ai/across-1-million-outlets-and-6-lakh-villages-how-ai-is-making-godrej-consumer-products-faster-and-smarter/132544/",
+   "raw_sector": "",
+   "date": "Feb 13, 2026",
+   "fresh": "undated"
+  },
+  {
+   "company": "Godrej Consumer Products",
+   "use": "AI-driven logistics digitization and freight cost optimization [Pando]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://pando.ai/resources/customer-stories/godrej-consumer-products",
+   "raw_sector": "",
+   "date": "missing",
+   "fresh": "undated"
   }
  ]
 }

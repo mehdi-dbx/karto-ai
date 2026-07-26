@@ -3,47 +3,92 @@
  "name": "Ares Management",
  "cc": "US",
  "vertical": "Financial Services",
- "deployments": 1,
- "confirmed": 0,
- "with_value_number": 1,
- "proof_rate": 1.0,
+ "deployments": 9,
+ "confirmed": 6,
+ "with_value_number": 2,
+ "proof_rate": 0.222,
  "mktcap": 39880000000.0,
  "revenue": 5910000000.0,
  "employees": 4250.0,
  "silent": false,
- "per_bn_revenue": 0.17,
- "per_10k_emp": 2.35,
+ "per_bn_revenue": 1.52,
+ "per_10k_emp": 21.18,
  "benchmarks": {
   "global_vertical": {
-   "deployments": 0,
-   "confirmed": 0,
-   "proof_rate": 76,
-   "n": 377
+   "deployments": 58,
+   "confirmed": 55,
+   "proof_rate": 44,
+   "n": 388
   },
   "country_vertical": {
-   "deployments": 0,
-   "confirmed": 0,
-   "proof_rate": 81,
-   "n": 76
+   "deployments": 55,
+   "confirmed": 51,
+   "proof_rate": 51,
+   "n": 77
   }
  },
- "first_seen": 2026,
+ "first_seen": 2025,
  "by_year": [
   {
-   "year": 2026,
+   "year": 2025,
    "n": 1
+  },
+  {
+   "year": 2026,
+   "n": 8
   }
  ],
  "undated_pct": 0,
- "momentum": "late_entrant,rising",
- "maturity": "L1",
+ "momentum": "rising",
+ "maturity": "L3",
  "maturity_evidence": [
-  "rows_no_confirmed"
+  "multi_horizontal",
+  "named_product:NDA",
+  "value_number"
  ],
- "prospect_score": 0,
- "stack": [],
- "vendor_named": false,
+ "prospect_score": 67,
+ "stack": [
+  "Amazon AWS",
+  "Anthropic",
+  "Databricks",
+  "Microsoft",
+  "Salesforce"
+ ],
+ "vendor_named": true,
  "deployments_detail": [
+  {
+   "company": "Ares Management",
+   "use": "AI investment-team support for drafting investment memos and financial modeling, cited by the CEO as a deployed use case. [none]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://finance.yahoo.com/news/ares-management-ceo-sees-strong-180605006.html",
+   "raw_sector": "",
+   "date": "2026-02-16",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Ares Management",
+   "use": "AI tools including Claude (Anthropic) and Microsoft Copilot used to monitor news and improve investment analysis across the firm, per CEO Michael Arougheti's CNBC 'Squawk on the Street' interview on how Ares implements AI. [Anthropic (Claude), Microsoft (Copilot)]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.facebook.com/cnbc/posts/michael-arougheti-ceo-of-ares-management-joins-cnbcs-squawk-on-the-street-to-dis/1362836045717785/",
+   "raw_sector": "",
+   "date": "2026-02",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Ares Management",
+   "use": "SESAMm AI-driven NLP screening applied to secondaries portfolios (e.g., ~300-company portfolios) for ESG/reputational risk. Ares' Private Equity & Secondaries ESG lead Jessica Huang co-presented with SESAMm on how such AI screening is applied; presented as collaboration, not confirmed as in-production Ares tooling. [SESAMm]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.sesamm.com/blog/secondaries-screening-brief",
+   "raw_sector": "",
+   "date": "2025",
+   "fresh": "fresh"
+  },
   {
    "company": "Ares Management",
    "use": "~160 identified AI use cases across operations (underwriting to compliance) per earnings commentary — 3rd-party sourced, no primary press release located",
@@ -53,6 +98,61 @@
    "url": "https://www.ainvest.com/news/ares-management-2026-strategic-pivot-ai-dry-powder-path-realized-income-growth-2602/",
    "raw_sector": "Financials",
    "date": "2026",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Ares Management",
+   "use": "NDA review and negotiation automated with AI. Per CEO Michael Arougheti, this is one of ~25 AI use cases (out of ~160 reviewed) that Ares selected to deploy across front-, middle-, and back-office functions. [none]",
+   "existence": "confirmed",
+   "value": "~25 of 160 reviewed use cases deployed",
+   "tier": "",
+   "url": "https://finance.yahoo.com/news/ares-management-ceo-sees-strong-180605006.html",
+   "raw_sector": "",
+   "date": "2026-02-16",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Ares Management",
+   "use": "Alteryx used to automate analytics and operationalize AI across teams / data workflows, defragmenting teams that owned their data. Neil Soni, VP of Technology at Ares, is featured as an Alteryx customer. [Alteryx]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.alteryx.com/resources/use-case/simplify-data-architecture-management",
+   "raw_sector": "",
+   "date": "2026-02",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Ares Management",
+   "use": "AML (anti-money-laundering) and KYC (know-your-customer) compliance processes automated with AI, cited by the CEO as one of the deployed AI use cases. [none]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://finance.yahoo.com/news/ares-management-ceo-sees-strong-180605006.html",
+   "raw_sector": "",
+   "date": "2026-02-16",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Ares Management",
+   "use": "Enterprise Data & AI architecture/platform built on Databricks and AWS to support investment data, analytics and ML, per Ares' Data & AI architecture leader; role/team evidence rather than a firm announcement. [Databricks, AWS]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://in.linkedin.com/in/abhijeet-srivastav-1685761b1",
+   "raw_sector": "",
+   "date": "2026",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Ares Management",
+   "use": "AI-driven Salesforce optimization for the wealth-management sales team, named by the CEO as a deployed use case. [Salesforce]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://finance.yahoo.com/news/ares-management-ceo-sees-strong-180605006.html",
+   "raw_sector": "",
+   "date": "2026-02-16",
    "fresh": "fresh"
   }
  ]

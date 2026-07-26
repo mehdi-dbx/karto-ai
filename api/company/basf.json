@@ -3,22 +3,22 @@
  "name": "BASF",
  "cc": "DE",
  "vertical": "Chemicals & Materials",
- "deployments": 1,
- "confirmed": 1,
- "with_value_number": 0,
- "proof_rate": 0.0,
+ "deployments": 4,
+ "confirmed": 4,
+ "with_value_number": 1,
+ "proof_rate": 0.25,
  "mktcap": 45543600000.0,
  "revenue": 63903600000.0,
  "employees": 106428.0,
  "silent": false,
- "per_bn_revenue": 0.02,
- "per_10k_emp": 0.09,
+ "per_bn_revenue": 0.06,
+ "per_10k_emp": 0.38,
  "benchmarks": {
   "global_vertical": {
-   "deployments": 0,
-   "confirmed": 19,
-   "proof_rate": 0,
-   "n": 105
+   "deployments": 29,
+   "confirmed": 51,
+   "proof_rate": 58,
+   "n": 107
   }
  },
  "first_seen": null,
@@ -27,12 +27,17 @@
  "momentum": "none",
  "maturity": "L3",
  "maturity_evidence": [
+  "multi_horizontal",
   "named_product:Fritz",
+  "value_number",
   "tier_p"
  ],
  "prospect_score": 54,
- "stack": [],
- "vendor_named": false,
+ "stack": [
+  "Google",
+  "Google Cloud"
+ ],
+ "vendor_named": true,
  "deployments_detail": [
   {
    "company": "BASF",
@@ -43,6 +48,39 @@
    "url": "https://www.basf.com/global/de/who-we-are/digitalization/artificial-intelligence",
    "raw_sector": "Chemicals",
    "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "BASF",
+   "use": "Chemical research acceleration using AI system with 150 years of chemical knowledge to reduce research timelines",
+   "existence": "confirmed",
+   "value": "18 months to 3 weeks",
+   "tier": "",
+   "url": "https://chiefaiofficer.com/how-basf-cut-chemical-research-from-18-months-to-3-weeks-using-150-years-of-ai-data/",
+   "raw_sector": "",
+   "date": "Sep 21, 2025",
+   "fresh": "undated"
+  },
+  {
+   "company": "BASF",
+   "use": "AI tool for predicting groundwater contamination risk for chemical compounds at early research stage",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://chemanager-online.com/en/news/innovations-for-sustainable-chemistry-and-agriculture",
+   "raw_sector": "",
+   "date": "Dec 11, 2025",
+   "fresh": "undated"
+  },
+  {
+   "company": "BASF",
+   "use": "Generative AI chatbot for customer support providing 24/7 product question answering with text, images, and video [Google Cloud, Gemini]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.basf.com/jp/en/media/news-releases/jp/2024/04/xarvio_gemini",
+   "raw_sector": "",
+   "date": "Apr 24, 2024",
    "fresh": "undated"
   }
  ]

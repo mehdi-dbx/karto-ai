@@ -3,40 +3,52 @@
  "name": "China Life Insurance",
  "cc": "HK",
  "vertical": "Insurance",
- "deployments": 1,
- "confirmed": 1,
- "with_value_number": 0,
- "proof_rate": 0.0,
+ "deployments": 13,
+ "confirmed": 13,
+ "with_value_number": 8,
+ "proof_rate": 0.615,
  "mktcap": 156410256410.0,
  "revenue": 49851282051.0,
  "employees": 97505.0,
  "silent": false,
- "per_bn_revenue": 0.02,
- "per_10k_emp": 0.1,
+ "per_bn_revenue": 0.26,
+ "per_10k_emp": 1.33,
  "benchmarks": {
   "global_vertical": {
-   "deployments": 0,
-   "confirmed": 14,
-   "proof_rate": 0,
-   "n": 60
+   "deployments": 89,
+   "confirmed": 95,
+   "proof_rate": 90,
+   "n": 63
   }
  },
- "first_seen": 2025,
+ "first_seen": 2020,
  "by_year": [
   {
-   "year": 2025,
+   "year": 2020,
    "n": 1
+  },
+  {
+   "year": 2025,
+   "n": 6
+  },
+  {
+   "year": 2026,
+   "n": 6
   }
  ],
  "undated_pct": 0,
- "momentum": "rising",
- "maturity": "L3",
+ "momentum": "early_mover,rising",
+ "maturity": "L4",
  "maturity_evidence": [
+  "multi_horizontal",
   "named_product:Small Finance",
+  "value_number",
+  "multi_year",
   "tier_p"
  ],
- "prospect_score": 46,
+ "prospect_score": 75,
  "stack": [
+  "Baidu",
   "DeepSeek"
  ],
  "vendor_named": true,
@@ -50,6 +62,138 @@
    "url": "https://www.cnr.cn/jrpd/mxhq/20250221/t20250221_527077644.shtml",
    "raw_sector": "Insurance",
    "date": "2025-02",
+   "fresh": "fresh"
+  },
+  {
+   "company": "China Life Insurance",
+   "use": "AI claims assistant ('AI理赔助手') delivering a full-process, no-human claims mode with intelligent recognition and liability matching, settling qualifying cases end-to-end without human intervention. [AI large model (vendor not disclosed)]",
+   "existence": "confirmed",
+   "value": ">90% faster than traditional process; fastest cases settled in 3 minutes; solved 100+ industry challenges",
+   "tier": "",
+   "url": "https://cn.chinadaily.com.cn/a/202602/09/WS69899367a310942cc499eeb6.html",
+   "raw_sector": "",
+   "date": "2026-02-09",
+   "fresh": "fresh"
+  },
+  {
+   "company": "China Life Insurance",
+   "use": "Digital underwriter ('数字核保员') built on a dedicated large model plus OCR/NLP/knowledge graphs, conducting multi-turn dialogue with customers, emotion recognition, and structured recognition of medical documents (records, CT/ultrasound reports) with second-level response. [Dedicated LLM + OCR/NLP/knowledge graph]",
+   "existence": "confirmed",
+   "value": "96% document recognition accuracy; 98.5% analysis accuracy; +28.5% underwriting efficiency; 96.2% customer satisfaction (Anhui branch)",
+   "tier": "",
+   "url": "https://www.ahcaijing.com/html/2026/baoxian_0212/615630.html",
+   "raw_sector": "",
+   "date": "2026-02-12",
+   "fresh": "fresh"
+  },
+  {
+   "company": "China Life Insurance",
+   "use": "AI large-model-powered intelligent underwriting and policy-preservation (保全) automation across the life book, raising automated review rates and operational efficiency. [AI large model (vendor not disclosed)]",
+   "existence": "confirmed",
+   "value": "Underwriting 95.2% automated review rate; policy preservation 99% automated review rate; 26%+ efficiency improvement",
+   "tier": "",
+   "url": "https://static.weeklyonstock.com/25/0328/wbf130740.html",
+   "raw_sector": "",
+   "date": "2025-03-28",
+   "fresh": "fresh"
+  },
+  {
+   "company": "China Life Insurance",
+   "use": "Proactive/no-application claims via real-time integration with national electronic-invoice and medical-insurance data, auto-identifying diagnosis and payment records to trigger claim reminders before the customer files ('five exemptions' model). [AI recognition (vendor not disclosed)]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://cn.chinadaily.com.cn/a/202602/09/WS69899367a310942cc499eeb6.html",
+   "raw_sector": "",
+   "date": "2026-02-09",
+   "fresh": "fresh"
+  },
+  {
+   "company": "China Life Insurance",
+   "use": "Intelligent claims anti-fraud model suite for life/health lines — critical-illness claims anti-fraud model, health-insurance anti-fraud model, and claims-prepayment model — used to improve claims efficiency and detect fraud. [AI large model (vendor not disclosed)]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.e-chinalife.com/c/2025-09-26/a27d12bf-a1d1-46d8-8ade-cded60634278.shtml",
+   "raw_sector": "",
+   "date": "2025-09-26",
+   "fresh": "fresh"
+  },
+  {
+   "company": "China Life Insurance",
+   "use": "Auto-insurance claims intelligent anti-fraud platform (China Life P&C / 中国人寿财险) using big data + AI with association-graph analysis to score fraud risk in real time across reporting, inspection, damage assessment and settlement, alerting the core claims system. [Baidu AI Cloud (百度智能云)]",
+   "existence": "confirmed",
+   "value": "Recovered >100 million yuan in fraudulent claims; won first prize in 2020 Insurance Industry Online Technology Application Case Awards",
+   "tier": "",
+   "url": "http://ex.chinadaily.com.cn/exchange/partners/82/rss/channel/cn/columns/sz8srm/stories/WS5fe9810ca3101e7ce9737d49.html",
+   "raw_sector": "",
+   "date": "2020-12-28",
+   "fresh": "stale"
+  },
+  {
+   "company": "China Life Insurance",
+   "use": "AI-assisted anti-money-laundering compliance, consolidating and automating AML screening across the business. [AI large model (vendor not disclosed)]",
+   "existence": "confirmed",
+   "value": "3x efficiency improvement",
+   "tier": "",
+   "url": "https://static.weeklyonstock.com/25/0328/wbf130740.html",
+   "raw_sector": "",
+   "date": "2025-03-28",
+   "fresh": "fresh"
+  },
+  {
+   "company": "China Life Insurance",
+   "use": "24/7 customer-facing AI assistant ('AI小助手') on the OneService app that understands natural-language queries about policy status, policy value, maturity details and service/premium-payment procedures for individual policyholders, escalating complex cases to human agents. [DeepSeek V3 (via NetEase cloud)]",
+   "existence": "confirmed",
+   "value": ">90% answer accuracy in policy-maturity and surrender inquiry scenarios; 7x24 availability",
+   "tier": "",
+   "url": "https://chinalife.com.hk/zh-hk/about-us/news-center/ai-tools-to-services",
+   "raw_sector": "",
+   "date": "2026-02-02",
+   "fresh": "fresh"
+  },
+  {
+   "company": "China Life Insurance",
+   "use": "AI Agent handling high-frequency, sensitive Hong Kong/Macau customer inquiries (policy status/value, maturity benefit and surrender-value calculations, premium-payment history), adapted to local regulatory requirements. [DeepSeek V3 (NetEase cloud)]",
+   "existence": "confirmed",
+   "value": ">90% accuracy in maturity/surrender scenarios",
+   "tier": "",
+   "url": "https://wallstreetcn.com/articles/3766316",
+   "raw_sector": "",
+   "date": "2026-02-27",
+   "fresh": "fresh"
+  },
+  {
+   "company": "China Life Insurance",
+   "use": "Smart customer-service matrix on the life-insurance APP with an agent smart-assistant ('坐席智能助手') and AI chatbot/omnichannel support reducing wait times and handling routine service. [AI large model (vendor not disclosed)]",
+   "existence": "confirmed",
+   "value": "+49.4% omnichannel service; wait time reduced 18.9%; 95519 hotline human-agent connection rate maintained at 98.0%",
+   "tier": "",
+   "url": "https://static.weeklyonstock.com/25/0328/wbf130740.html",
+   "raw_sector": "",
+   "date": "2025-03-28",
+   "fresh": "fresh"
+  },
+  {
+   "company": "China Life Insurance",
+   "use": "Elder-care ('尊老模式') accessibility mode on the life-insurance APP with voice wake-up, voice navigation and voice-based claim reporting, plus speech-activated/video customer service for seniors. [Speech/AI (vendor not disclosed)]",
+   "existence": "confirmed",
+   "value": "First mobile app to receive MIIT accessibility/aging-friendly certification",
+   "tier": "",
+   "url": "http://www.cnjjwb.com/news-show-171695.html",
+   "raw_sector": "",
+   "date": "2025-11-06",
+   "fresh": "fresh"
+  },
+  {
+   "company": "China Life Insurance",
+   "use": "AI knowledge-retrieval tool ('AI智能知識檢索工具') on the OnePartner system giving financial advisors/sales reps real-time access to official product info, underwriting rules, policy services and claims processes to speed client interactions. [DeepSeek V3]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://chinalife.com.hk/zh-hk/about-us/news-center/ai-tools-to-services",
+   "raw_sector": "",
+   "date": "2026-02-02",
    "fresh": "fresh"
   }
  ]

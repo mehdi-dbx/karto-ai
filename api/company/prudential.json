@@ -3,50 +3,131 @@
  "name": "Prudential",
  "cc": "UK",
  "vertical": "Insurance",
- "deployments": 1,
- "confirmed": 1,
- "with_value_number": 1,
- "proof_rate": 1.0,
+ "deployments": 10,
+ "confirmed": 9,
+ "with_value_number": 4,
+ "proof_rate": 0.4,
  "mktcap": 34290000000.0,
  "revenue": 13614400000.0,
  "employees": 15338.0,
  "silent": false,
- "per_bn_revenue": 0.07,
- "per_10k_emp": 0.65,
+ "per_bn_revenue": 0.73,
+ "per_10k_emp": 6.52,
  "benchmarks": {
   "global_vertical": {
-   "deployments": 0,
-   "confirmed": 14,
-   "proof_rate": 75,
-   "n": 60
+   "deployments": 74,
+   "confirmed": 79,
+   "proof_rate": 68,
+   "n": 63
   },
   "country_vertical": {
-   "deployments": 0,
-   "confirmed": 14,
-   "proof_rate": 43,
+   "deployments": 100,
+   "confirmed": 100,
+   "proof_rate": 71,
    "n": 8
   }
  },
- "first_seen": 2024,
+ "first_seen": 2017,
  "by_year": [
   {
-   "year": 2024,
+   "year": 2017,
+   "n": 2
+  },
+  {
+   "year": 2019,
+   "n": 2
+  },
+  {
+   "year": 2020,
    "n": 1
+  },
+  {
+   "year": 2024,
+   "n": 5
   }
  ],
  "undated_pct": 0,
  "momentum": "early_mover,gone_quiet",
- "maturity": "L3",
+ "maturity": "L4",
  "maturity_evidence": [
+  "multi_horizontal",
   "named_product:Prudential",
-  "value_number"
+  "value_number",
+  "multi_year"
  ],
- "prospect_score": 6,
+ "prospect_score": 78,
  "stack": [
-  "Google Cloud"
+  "Google Cloud",
+  "IBM"
  ],
  "vendor_named": true,
  "deployments_detail": [
+  {
+   "company": "Prudential",
+   "use": "Pulse by Prudential health app — AI-powered symptom checker (chat-based triage) and AI Healthcheck health assessment, provided via Babylon, embedded in a consumer health app. [Babylon Health]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.prudentialplc.com/en/newsroom/company-news/2019/revolutionising-the-future-of-healthcare-with-pulse-by-prudential-an-all-in-one-ai-powered-mobile-app/",
+   "raw_sector": "",
+   "date": "2019-08-08",
+   "fresh": "stale"
+  },
+  {
+   "company": "Prudential",
+   "use": "'Ask Prudence' — AI/NLP customer-facing chatbot on the myPrudential portal answering policy change, claims submission and payment queries 24/7; initially in Chinese. [none]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.finextra.com/pressarticle/72042/dear-prudence-prudential-launches-ai-powered-chatbot",
+   "raw_sector": "",
+   "date": "2017-12-15",
+   "fresh": "stale"
+  },
+  {
+   "company": "Prudential",
+   "use": "Medical insurance claims processing using Google's MedLM foundation models to read diagnostic reports, prescriptions and invoices, extract data and auto-code claims; rolled out in Singapore and Malaysia with human-in-the-loop. Described as a global-first for an insurer using MedLM. [Google Cloud (MedLM)]",
+   "existence": "confirmed",
+   "value": "Doubled the automation rate of claim reviews in proof-of-concept testing",
+   "tier": "",
+   "url": "https://www.prudentialplc.com/en/newsroom/company-news/2024/prudential-pioneers-use-of-generative-ai-for-faster-and-more-frictionless-medical-claims-in-global-first-partnership-with-google-cloud/",
+   "raw_sector": "",
+   "date": "2024-10-24",
+   "fresh": "aging"
+  },
+  {
+   "company": "Prudential",
+   "use": "Prudential AI Lab in Singapore — a company-wide innovation hub/sandbox to co-develop AI, ML and generative AI solutions (predictive analytics, hyper-personalised customer engagement, real-time agent guidance) across 24 markets; 15,000 employees given access. [Google Cloud]",
+   "existence": "confirmed",
+   "value": "Over 100 AI use cases submitted since August 2024 soft launch (live or in development)",
+   "tier": "",
+   "url": "https://www.prudentialplc.com/en/newsroom/company-news/2024/prudential-officially-launches-global-ai-lab-in-singapore/",
+   "raw_sector": "",
+   "date": "2024-11-19",
+   "fresh": "aging"
+  },
+  {
+   "company": "Prudential",
+   "use": "Instant Underwriting — smart underwriting engine giving on-the-spot policy application decisions at point of sale (initially for PRUTriple Protect critical illness plans). [none]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.prudential.com.sg/wedo/wedoinnovation/revisiting-our-digital-tools",
+   "raw_sector": "",
+   "date": "2020-01-01",
+   "fresh": "stale"
+  },
+  {
+   "company": "Prudential",
+   "use": "AIME dengue outbreak prediction — big-data/AI model integrated into the Pulse app that predicts whether a location will experience a dengue outbreak. [AIME]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.prudentialplc.com/en/newsroom/company-news/2019/revolutionising-the-future-of-healthcare-with-pulse-by-prudential-an-all-in-one-ai-powered-mobile-app/",
+   "raw_sector": "",
+   "date": "2019-08-08",
+   "fresh": "stale"
+  },
   {
    "company": "Prudential",
    "use": "Prudential AI Lab (Singapore) + Google Cloud strategic partnership; 260+ active AI use cases, 2,300+ employees using agentic AI",
@@ -57,6 +138,39 @@
    "raw_sector": "Life insurance",
    "date": "2024",
    "fresh": "aging"
+  },
+  {
+   "company": "Prudential",
+   "use": "Enterprise AI strategy across underwriting and claims, agentic AI pilot for concierge services (e.g. appointment scheduling), AI for financial-representative training and customer communication, and AI for actuarial back-office data discovery and analysis. [none]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.computerweekly.com/news/366616839/Inside-Prudentials-AI-strategy",
+   "raw_sector": "",
+   "date": "2024-12-09",
+   "fresh": "aging"
+  },
+  {
+   "company": "Prudential",
+   "use": "PruForce — AI-powered agent 'super app' / e-briefcase providing AI-powered recruitment, talent development at scale, workflow optimisation, and intelligent lead generation and nurturing for the agency force. [none]",
+   "existence": "confirmed",
+   "value": "Supports around half a million agents ('bionic men and women') serving 10 million customers",
+   "tier": "",
+   "url": "https://www.prudentialplc.com/en/newsroom/insights/prudential-s-bionic-man-and-woman/",
+   "raw_sector": "",
+   "date": "2024-01-01",
+   "fresh": "aging"
+  },
+  {
+   "company": "Prudential",
+   "use": "askPRU — AI-powered chatbot for financial consultants delivering real-time policy information (cash value, premium due dates, claim status) via mobile app, understanding non-scripted natural-language questions. [IBM Watson]",
+   "existence": "confirmed",
+   "value": "Used by over 90% of Prudential's financial consultants",
+   "tier": "",
+   "url": "https://www.prudential.com.sg/wedo/wedoinnovation/revisiting-our-digital-tools",
+   "raw_sector": "",
+   "date": "2017-01-01",
+   "fresh": "stale"
   }
  ]
 }

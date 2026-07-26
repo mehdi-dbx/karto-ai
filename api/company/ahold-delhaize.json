@@ -3,35 +3,60 @@
  "name": "Ahold Delhaize",
  "cc": "NL",
  "vertical": "Retail & E-commerce",
- "deployments": 2,
- "confirmed": 0,
- "with_value_number": 0,
- "proof_rate": 0.0,
+ "deployments": 17,
+ "confirmed": 7,
+ "with_value_number": 4,
+ "proof_rate": 0.235,
  "mktcap": 33998400000.0,
  "revenue": 98658000000.0,
  "employees": 384000.0,
  "silent": false,
- "per_bn_revenue": 0.02,
- "per_10k_emp": 0.05,
+ "per_bn_revenue": 0.17,
+ "per_10k_emp": 0.44,
  "benchmarks": {
   "global_vertical": {
-   "deployments": 71,
-   "confirmed": 0,
-   "proof_rate": 0,
-   "n": 295
+   "deployments": 95,
+   "confirmed": 69,
+   "proof_rate": 50,
+   "n": 301
   }
  },
- "first_seen": null,
- "by_year": [],
- "undated_pct": 100,
- "momentum": "none",
- "maturity": "L1",
- "maturity_evidence": [
-  "rows_no_confirmed"
+ "first_seen": 2019,
+ "by_year": [
+  {
+   "year": 2019,
+   "n": 2
+  },
+  {
+   "year": 2025,
+   "n": 6
+  },
+  {
+   "year": 2026,
+   "n": 1
+  }
  ],
- "prospect_score": 40,
- "stack": [],
- "vendor_named": false,
+ "undated_pct": 47,
+ "momentum": "early_mover,rising",
+ "maturity": "L4",
+ "maturity_evidence": [
+  "multi_horizontal",
+  "named_product:Steijn",
+  "value_number",
+  "multi_year"
+ ],
+ "prospect_score": 73,
+ "stack": [
+  "Amazon AWS",
+  "Cohere",
+  "Databricks",
+  "Google",
+  "Microsoft",
+  "Microsoft Azure",
+  "OpenAI",
+  "Palantir"
+ ],
+ "vendor_named": true,
  "deployments_detail": [
   {
    "company": "Ahold Delhaize",
@@ -46,6 +71,94 @@
   },
   {
    "company": "Ahold Delhaize",
+   "use": "Ahold Delhaize USA (ADUSA / Retail Business Services) uses RELEX AI-driven end-to-end forecasting and replenishment to optimize fresh and center-store product availability and freshness across distribution centers serving Food Lion, Hannaford and other brands (1,200+ stores). [RELEX Solutions]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.relexsolutions.com/customers/adusa-supply-chain/",
+   "raw_sector": "",
+   "date": "2019-03-27",
+   "fresh": "stale"
+  },
+  {
+   "company": "Ahold Delhaize",
+   "use": "AI-powered dynamic discounting to reduce food waste: an algorithm sets markdowns on perishable items based on expiration date, location, promotions, weather, historical sales and in-store stock, displayed on electronic shelf labels. Launched as a pilot at Albert Heijn. [Wasteless (AI pricing) / Pricer (electronic shelf labels)]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.pricer.com/news/albert-heijn-combats-food-waste-with-pricer-and-wasteless-through-ai-powered-dynamic-pricing",
+   "raw_sector": "",
+   "date": "2019-05-27",
+   "fresh": "stale"
+  },
+  {
+   "company": "Ahold Delhaize",
+   "use": "Named as a Microsoft Copilot customer/case study [Microsoft Copilot] [Microsoft Copilot]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.appsruntheworld.com/customers-database/products/view/microsoft-365-copilot",
+   "raw_sector": "",
+   "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "Ahold Delhaize",
+   "use": "Named as a Amazon Bedrock customer/case study [Amazon Bedrock] [Amazon Bedrock]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.appsruntheworld.com/customers-database/products/view/amazon-bedrock",
+   "raw_sector": "",
+   "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "Ahold Delhaize",
+   "use": "Named as a Google Gemini / Vertex AI customer/case study [Google Gemini / Vertex AI] [Google Gemini / Vertex AI]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.appsruntheworld.com/customers-database/products/view/google-cloud-vertex-ai",
+   "raw_sector": "",
+   "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "Ahold Delhaize",
+   "use": "Named as a Databricks customer/case study [Databricks] [Databricks]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.appsruntheworld.com/customers-database/products/view/microsoft-azure-databricks-ai",
+   "raw_sector": "",
+   "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "Ahold Delhaize",
+   "use": "Named as a Palantir customer/case study [Palantir] [Palantir]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.appsruntheworld.com/customers-database/products/view/palantir-aip-platform",
+   "raw_sector": "",
+   "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "Ahold Delhaize",
+   "use": "Named as a Cohere customer/case study [Cohere] [Cohere]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.appsruntheworld.com/customers-database/products/view/cohere-ai",
+   "raw_sector": "",
+   "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "Ahold Delhaize",
    "use": "Automated fulfillment centers processing thousands of online grocery orders daily, improving delivery speed and cutting costs",
    "existence": "claimed",
    "value": "none",
@@ -54,6 +167,83 @@
    "raw_sector": "Retail",
    "date": "missing",
    "fresh": "undated"
+  },
+  {
+   "company": "Ahold Delhaize",
+   "use": "Conversational AI assistant in the @AH Employee App for store staff, answering questions on restocking, product locations and customer inquiries, with barcode scanning and store floorplans. Piloted in 8 stores, expanding to 25 by summer 2025 and rollout planned to all ~700 owned stores. [Microsoft Azure OpenAI (Azure Kubernetes Service, Azure Database for PostgreSQL)]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.microsoft.com/en/customers/story/24372-koninklijke-ahold-delhaize-azure-openai",
+   "raw_sector": "",
+   "date": "2025-06-27",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Ahold Delhaize",
+   "use": "Steijn, a generative-AI customer assistant in the Albert Heijn app that suggests recipes from 20,000+ Allerhande recipes, recognizes fridge contents from a photo, and learns dietary preferences to drive shopping and reduce food waste. Live in the AH app (5M users), built by 8 developers in ~3 months. [Microsoft Azure OpenAI / Azure AI Foundry (Foundry Models, Azure AI Search, Azure AI Content Safety)]",
+   "existence": "confirmed",
+   "value": "5 million app users; 20,000+ recipes",
+   "tier": "",
+   "url": "https://news.microsoft.com/source/emea/features/steijn-the-ai-assistant-transforming-meal-planning-for-millions-in-the-netherlands/",
+   "raw_sector": "",
+   "date": "2025-06-16",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Ahold Delhaize",
+   "use": "Ahold Delhaize invested via W23 Global in Harmonya, whose AI enriches fragmented product data into contextual insights; the retailer uses the platform to improve product discovery and deliver more personalized/relevant shopping experiences across physical and digital channels. [Harmonya (W23 Global venture fund)]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://newsroom.aholddelhaize.com/ahold-delhaize-invests-in-ai-powered-start-ups-through-w23-global-to-advance-customer-focused-innovation/",
+   "raw_sector": "",
+   "date": "2025-08-12",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Ahold Delhaize",
+   "use": "AI-driven personalization at scale: Ahold Delhaize's U.S. brands delivered over 14.2 billion personalized offers in 2025 (up 18% YoY), using AI to help customers shop, cook and save, including targeted notifications on expiring coupons and tailored deals through local-brand loyalty apps. [Inmar Intelligence (offer management/promotion engine)]",
+   "existence": "confirmed",
+   "value": "14.2 billion personalized offers in 2025, +18% YoY",
+   "tier": "",
+   "url": "https://aholddelhaize.com/digitalannualreport/2025/",
+   "raw_sector": "",
+   "date": "2026-02-01",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Ahold Delhaize",
+   "use": "Albert Heijn's Rasa-powered conversational AI customer-service agent handling inquiries across web, mobile and WhatsApp (subscription cancellations, order changes, loyalty issues, auto-crediting missing digital stamps), working alongside human agents. Fully operational at scale serving ~1.2B annual customers across ~1,200 stores. [Rasa (Rasa CALM)]",
+   "existence": "confirmed",
+   "value": "50% contact deflection rate; 42% quality score; +0.5 pt CSAT (5-pt scale); missing-stamp contacts reduced 80%",
+   "tier": "",
+   "url": "https://rasa.com/customers/albert-heijn",
+   "raw_sector": "",
+   "date": "2025-01-01",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Ahold Delhaize",
+   "use": "Ahold Delhaize USA deploys GitHub Copilot and Azure AI services across its engineering org (800+ repositories) to automate testing, accelerate delivery and improve code quality, as part of a cloud-native e-commerce modernization supporting 1B+ annual customer interactions. [GitHub Copilot / Microsoft Azure AI]",
+   "existence": "confirmed",
+   "value": "up to 40% improvement in engineering delivery speed; features shipped in hours vs weeks",
+   "tier": "",
+   "url": "https://www.microsoft.com/en/customers/story/25672-ahold-delhaize-usa-azure",
+   "raw_sector": "",
+   "date": "2025-11-18",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Ahold Delhaize",
+   "use": "Ahold Delhaize invested via W23 Global in Protex AI, a computer-vision solution that integrates with existing CCTV to proactively identify and reduce workplace/customer safety hazards across retail operations, shifting from reactive to preventive safety. [Protex AI (W23 Global venture fund)]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://newsroom.aholddelhaize.com/ahold-delhaize-invests-in-ai-powered-start-ups-through-w23-global-to-advance-customer-focused-innovation/",
+   "raw_sector": "",
+   "date": "2025-08-12",
+   "fresh": "fresh"
   }
  ]
 }

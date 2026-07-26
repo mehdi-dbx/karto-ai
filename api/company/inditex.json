@@ -3,40 +3,51 @@
  "name": "Inditex",
  "cc": "ES",
  "vertical": "Retail & E-commerce",
- "deployments": 1,
- "confirmed": 1,
- "with_value_number": 0,
- "proof_rate": 0.0,
+ "deployments": 10,
+ "confirmed": 6,
+ "with_value_number": 3,
+ "proof_rate": 0.3,
  "mktcap": 183675600000.0,
  "revenue": 43048800000.0,
  "employees": 163047.0,
  "silent": false,
- "per_bn_revenue": 0.02,
- "per_10k_emp": 0.06,
+ "per_bn_revenue": 0.23,
+ "per_10k_emp": 0.61,
  "benchmarks": {
   "global_vertical": {
-   "deployments": 0,
-   "confirmed": 24,
-   "proof_rate": 0,
-   "n": 295
+   "deployments": 72,
+   "confirmed": 63,
+   "proof_rate": 59,
+   "n": 301
   }
  },
- "first_seen": 2025,
+ "first_seen": 2011,
  "by_year": [
   {
-   "year": 2025,
+   "year": 2011,
    "n": 1
+  },
+  {
+   "year": 2018,
+   "n": 2
+  },
+  {
+   "year": 2025,
+   "n": 7
   }
  ],
  "undated_pct": 0,
- "momentum": "rising",
- "maturity": "L3",
+ "momentum": "early_mover,rising",
+ "maturity": "L4",
  "maturity_evidence": [
-  "named_product:Zara Try-On"
+  "multi_horizontal",
+  "named_product:Zara Try-On",
+  "value_number",
+  "multi_year"
  ],
- "prospect_score": 54,
+ "prospect_score": 64,
  "stack": [],
- "vendor_named": false,
+ "vendor_named": true,
  "deployments_detail": [
   {
    "company": "Inditex",
@@ -47,6 +58,105 @@
    "url": "https://www.inditex.com/itxcomweb/es/es/prensa/detalle-noticias/b870d5ec-6b7e-491d-b38e-340cd69036df/resultados-consolidados-ejercicio-2025",
    "raw_sector": "Textile/Retail",
    "date": "2025-12",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Inditex",
+   "use": "Zara Try-on: generative-AI virtual fitting room in the Zara app/website that builds a synthetic avatar from a customer's own photos and generates images of that avatar wearing real products, to reduce returns and improve online conversion. [not disclosed]",
+   "existence": "confirmed",
+   "value": "Deployed in 43 markets; 7M+ sessions since mid-December launch; rolling out to other Inditex brands",
+   "tier": "",
+   "url": "https://www.inditex.com/itxcomweb/gp/en/press/news-detail/b870d5ec-6b7e-491d-b38e-340cd69036df/fy2025-results",
+   "raw_sector": "",
+   "date": "2025-12",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Inditex",
+   "use": "Generative-AI fashion photography that digitally dresses real human models in different garments for e-commerce product imagery, cutting studio/shoot production time. [not disclosed]",
+   "existence": "confirmed",
+   "value": "E-commerce photo production cut from ~11 days to under 48 hours; ~35% reduction in shoot-related expenses",
+   "tier": "",
+   "url": "https://www.unite.ai/zaras-ai-fashion-photography-signals-a-seismic-shift-for-creative-industries/",
+   "raw_sector": "",
+   "date": "2025-12",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Inditex",
+   "use": "Jetlore AI-powered consumer-behavior prediction platform used to map shopper behavior into predictive attributes (size, color, fit, style) for personalization and size/fit recommendations. [Jetlore]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.retaildive.com/news/zara-betting-on-ai-big-data-to-outflank-competitors/525920/",
+   "raw_sector": "",
+   "date": "2018-06",
+   "fresh": "stale"
+  },
+  {
+   "company": "Inditex",
+   "use": "\"What's My Size?\" / Find Your Size online tool that recommends the best size from a shopper's body measurements and fit preferences plus data from similar-sized customers, to reduce fit-related returns. [not disclosed]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.womanandhome.com/fashion/fashion-news/the-viral-zara-sizing-hack-that-will-help-you-find-the-perfect-fit/",
+   "raw_sector": "",
+   "date": "2025-10",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Inditex",
+   "use": "SINT integrated stock-management system paired with machine-learning models that determine the optimum stock each point of sale should hold, enabling hyper-local demand-driven allocation and fulfilling online orders from store and online stockrooms. [in-house (location-based AI/ML)]",
+   "existence": "confirmed",
+   "value": "Reported ~20% reduction in overstock vs 2023 levels (per industry analysis)",
+   "tier": "",
+   "url": "https://geospatialworld.net/prime/case-study/location-and-business-intelligence/next-gen-retail/",
+   "raw_sector": "",
+   "date": "2025",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Inditex",
+   "use": "AI-driven trend detection / social listening analyzing hashtags, search patterns and social signals to spot emerging fashion trends and feed design and merchandising decisions. [not disclosed]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.omind.ai/blog/social-listening/how-zara-uses-social-listening-to-predict-fashion-trends-and-develop-bestsellers/",
+   "raw_sector": "",
+   "date": "2025",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Inditex",
+   "use": "Machine-learning new-product demand forecasting and distribution optimization developed via research collaboration with MIT, predicting demand for newly launched items using data from similar products and store clusters. [MIT (research collaboration)]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://dspace.mit.edu/entities/publication/bdfbc648-9680-4178-9643-ad75876ee938",
+   "raw_sector": "",
+   "date": "2011",
+   "fresh": "stale"
+  },
+  {
+   "company": "Inditex",
+   "use": "Warehouse/logistics automation with Fetch Robotics autonomous robots for stock inventory handling and Intel devices to measure clothing volume in boxes, developed through Inditex's innovation unit. [Fetch Robotics; Intel]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.ciodive.com/news/zara-stocks-up-on-ai-big-data-analytics-partnerships-and-investments/525841/",
+   "raw_sector": "",
+   "date": "2018-06",
+   "fresh": "stale"
+  },
+  {
+   "company": "Inditex",
+   "use": "\"Anomalies with Context\" project that uses algorithms to analyze transaction data and flag suspicious/anomalous activity for fraud prevention and loss control. [in-house]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.klover.ai/inditex-ai-strategy-analysis-of-dominance-in-new-era-fashion/",
+   "raw_sector": "",
+   "date": "2025-07",
    "fresh": "fresh"
   }
  ]

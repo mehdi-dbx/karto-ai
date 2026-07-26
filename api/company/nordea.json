@@ -3,43 +3,50 @@
  "name": "Nordea",
  "cc": "FI",
  "vertical": "Financial Services",
- "deployments": 2,
- "confirmed": 2,
- "with_value_number": 2,
- "proof_rate": 1.0,
+ "deployments": 7,
+ "confirmed": 7,
+ "with_value_number": 4,
+ "proof_rate": 0.571,
  "mktcap": 39744000000.0,
  "revenue": 12682440000.0,
  "employees": 29153.0,
  "silent": false,
- "per_bn_revenue": 0.16,
- "per_10k_emp": 0.69,
+ "per_bn_revenue": 0.55,
+ "per_10k_emp": 2.4,
  "benchmarks": {
   "global_vertical": {
-   "deployments": 62,
-   "confirmed": 73,
-   "proof_rate": 76,
-   "n": 377
+   "deployments": 51,
+   "confirmed": 62,
+   "proof_rate": 86,
+   "n": 388
   }
  },
- "first_seen": 2026,
+ "first_seen": 2025,
  "by_year": [
   {
+   "year": 2025,
+   "n": 2
+  },
+  {
    "year": 2026,
-   "n": 1
+   "n": 3
   }
  ],
- "undated_pct": 50,
- "momentum": "late_entrant,rising",
- "maturity": "L3",
+ "undated_pct": 29,
+ "momentum": "rising",
+ "maturity": "L4",
  "maturity_evidence": [
   "multi_horizontal",
   "named_product:Nova",
   "value_number",
+  "multi_year",
   "tier_p"
  ],
- "prospect_score": 20,
- "stack": [],
- "vendor_named": false,
+ "prospect_score": 59,
+ "stack": [
+  "OpenAI"
+ ],
+ "vendor_named": true,
  "deployments_detail": [
   {
    "company": "Nordea",
@@ -54,6 +61,28 @@
   },
   {
    "company": "Nordea",
+   "use": "AI-generated personalized investment updates for customers",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.nordea.com/en/news/new-feature-gives-you-tailormade-investment-updates-all-created-by-ai",
+   "raw_sector": "",
+   "date": "2026-01-26",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Nordea",
+   "use": "Conversational AI for customer service across multiple markets and languages",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://boost.ai/case-studies/nordea-employs-comprehensive-conversational-ai-strategy-to-scale-customer-service/",
+   "raw_sector": "",
+   "date": "2026-03-20",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Nordea",
    "use": "AI expected to make processes more efficient, driving cost savings and up to 5% (1,500) staff reduction",
    "existence": "confirmed",
    "value": "up to 5% / 1500 jobs at risk from AI-driven efficiency",
@@ -61,6 +90,39 @@
    "url": "https://www.bloomberg.com/news/articles/2026-03-17/nordea-to-cut-up-to-5-of-staff-as-ai-seen-bringing-cost-savings",
    "raw_sector": "Banks",
    "date": "2026-03",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Nordea",
+   "use": "Internal generative AI platform for employee productivity [ChatGPT-like]",
+   "existence": "confirmed",
+   "value": "10000",
+   "tier": "",
+   "url": "https://www.nordea.com/en/news/three-ways-we-use-ai-to-accelerate-efficiency-and-growth",
+   "raw_sector": "",
+   "date": "2025-08-14",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Nordea",
+   "use": "AI platform for safe and scalable development with crime prevention and KYC automation",
+   "existence": "confirmed",
+   "value": "18000",
+   "tier": "",
+   "url": "https://www.nordea.com/en/doc/cio-presentation-cmd25-nordea.pdf",
+   "raw_sector": "",
+   "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "Nordea",
+   "use": "AI-powered fraud detection",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.siili.com/newsandinsights/ai-powered-fraud-detection-sara-helin-nordea",
+   "raw_sector": "",
+   "date": "2025-02-07",
    "fresh": "fresh"
   }
  ]

@@ -3,40 +3,49 @@
  "name": "Sany Heavy Industry",
  "cc": "CN",
  "vertical": "Industrial / Machinery",
- "deployments": 1,
+ "deployments": 4,
  "confirmed": 1,
  "with_value_number": 1,
- "proof_rate": 1.0,
+ "proof_rate": 0.25,
  "mktcap": 25137500000.0,
  "revenue": 12870833333.0,
  "employees": 28469.0,
  "silent": false,
- "per_bn_revenue": 0.08,
- "per_10k_emp": 0.35,
+ "per_bn_revenue": 0.31,
+ "per_10k_emp": 1.41,
  "benchmarks": {
   "global_vertical": {
-   "deployments": 0,
-   "confirmed": 14,
-   "proof_rate": 79,
-   "n": 175
+   "deployments": 23,
+   "confirmed": 6,
+   "proof_rate": 66,
+   "n": 176
   },
   "country_vertical": {
-   "deployments": 0,
-   "confirmed": 8,
-   "proof_rate": 46,
+   "deployments": 54,
+   "confirmed": 0,
+   "proof_rate": 54,
    "n": 14
   }
  },
- "first_seen": null,
- "by_year": [],
- "undated_pct": 100,
- "momentum": "none",
+ "first_seen": 2025,
+ "by_year": [
+  {
+   "year": 2025,
+   "n": 1
+  },
+  {
+   "year": 2026,
+   "n": 1
+  }
+ ],
+ "undated_pct": 50,
+ "momentum": "early_mover,rising",
  "maturity": "L3",
  "maturity_evidence": [
   "named_product:Beijing",
   "value_number"
  ],
- "prospect_score": 6,
+ "prospect_score": 36,
  "stack": [
   "DeepSeek"
  ],
@@ -50,6 +59,39 @@
    "tier": "I",
    "url": "https://www.sanygroup.com/news/13839.html",
    "raw_sector": "Industrials",
+   "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "Sany Heavy Industry",
+   "use": "Fourth-generation autonomous heavy-duty truck co-developed with Pony.ai for mass production [Pony.ai]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.prnewswire.com/news-releases/sany-and-ponyai-announce-mass-production-readiness-of-fourth-generation-autonomous-heavy-duty-truck-302635190.html",
+   "raw_sector": "",
+   "date": "2025-12-08",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Sany Heavy Industry",
+   "use": "5G and AI algorithms for equipment control achieving 120-140 ms latency",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.newswire.ca/news-releases/sany-expands-global-intelligent-equipment-portfolio-with-electric-autonomous-and-ai-enabled-solutions-805884378.html",
+   "raw_sector": "",
+   "date": "2026-05-07",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Sany Heavy Industry",
+   "use": "AI-driven systems to improve machine performance and reduce downtime",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.facebook.com/XinhuaNewsAgency/posts/chinese-industry-leaders-including-zoomlion-xcmg-and-sany-are-deploying-ai-drive/1361223332706864/",
+   "raw_sector": "",
    "date": "missing",
    "fresh": "undated"
   }

@@ -3,28 +3,28 @@
  "name": "Huntington Bancshares",
  "cc": "US",
  "vertical": "Financial Services",
- "deployments": 1,
- "confirmed": 1,
+ "deployments": 7,
+ "confirmed": 6,
  "with_value_number": 1,
- "proof_rate": 1.0,
+ "proof_rate": 0.143,
  "mktcap": 35260000000.0,
  "revenue": 9170000000.0,
  "employees": 20424.0,
  "silent": false,
- "per_bn_revenue": 0.11,
- "per_10k_emp": 0.49,
+ "per_bn_revenue": 0.76,
+ "per_10k_emp": 3.43,
  "benchmarks": {
   "global_vertical": {
-   "deployments": 0,
-   "confirmed": 17,
-   "proof_rate": 76,
-   "n": 377
+   "deployments": 51,
+   "confirmed": 55,
+   "proof_rate": 33,
+   "n": 388
   },
   "country_vertical": {
-   "deployments": 0,
-   "confirmed": 19,
-   "proof_rate": 81,
-   "n": 76
+   "deployments": 49,
+   "confirmed": 51,
+   "proof_rate": 37,
+   "n": 77
   }
  },
  "first_seen": null,
@@ -33,13 +33,49 @@
  "momentum": "none",
  "maturity": "L3",
  "maturity_evidence": [
+  "multi_horizontal",
   "named_product:BEC",
   "value_number"
  ],
- "prospect_score": 14,
- "stack": [],
- "vendor_named": false,
+ "prospect_score": 70,
+ "stack": [
+  "Amazon AWS"
+ ],
+ "vendor_named": true,
  "deployments_detail": [
+  {
+   "company": "Huntington Bancshares",
+   "use": "AI-enabled transactional data and predictive forecasting for treasury management",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://ir.huntington.com/news-presentations/press-releases/detail/949/huntington-bank-announces-treasury-management-connectivity-ecosystem-to-empower-businesses-with-more-sophisticated-personalized-financial-intelligence",
+   "raw_sector": "",
+   "date": "Oct 23, 2025",
+   "fresh": "undated"
+  },
+  {
+   "company": "Huntington Bancshares",
+   "use": "Generative AI deployment across 28 use cases including software development, document creation, regulatory reporting, and customer service",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.americanbanker.com/news/huntington-banks-plan-to-obtain-a-return-on-generative-ai",
+   "raw_sector": "",
+   "date": "Sep 11, 2025",
+   "fresh": "undated"
+  },
+  {
+   "company": "Huntington Bancshares",
+   "use": "Generative AI-based lending tools for small business SBA 7(a) loans [Casca]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.cascading.ai/news/huntington-live-oak-gen-ai-lending",
+   "raw_sector": "",
+   "date": "Aug 19, 2025",
+   "fresh": "undated"
+  },
   {
    "company": "Huntington Bancshares",
    "use": "AI fraud detection (BEC, account takeover, synthetic ID) + GenAI across operations (reported 10-15% ROI)",
@@ -49,6 +85,39 @@
    "url": "https://www.huntington.com/Commercial/insights/cybersecurity/ai-enabled-threats",
    "raw_sector": "Financials",
    "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "Huntington Bancshares",
+   "use": "Huntington Heads Up with AI for digital banking experience optimization",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://ir.huntington.com/news-presentations/press-releases/detail/172/huntington-launches-huntington-heads-up-with-ai-to-improve-customers-digital-banking-experience",
+   "raw_sector": "",
+   "date": "Feb 13, 2019",
+   "fresh": "undated"
+  },
+  {
+   "company": "Huntington Bancshares",
+   "use": "Generative AI for employee productivity in software development, document creation, and servicing interactions",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://deloitte.wsj.com/cfo/banking-on-ai-huntingtons-cfo-on-innovation-and-risk-oversight-80b35afb",
+   "raw_sector": "",
+   "date": "Sep 15, 2025",
+   "fresh": "undated"
+  },
+  {
+   "company": "Huntington Bancshares",
+   "use": "Redacting sensitive data from 400M+ documents [AWS]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://aws.amazon.com/blogs/machine-learning/huntington-bank-redacting-sensitive-data-from-400m-documents-with-aws/",
+   "raw_sector": "",
+   "date": "Jun 24, 2026",
    "fresh": "undated"
   }
  ]

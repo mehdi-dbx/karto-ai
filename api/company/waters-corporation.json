@@ -3,26 +3,26 @@
  "name": "Waters Corporation",
  "cc": "US",
  "vertical": "Healthcare & Life Sciences",
- "deployments": 1,
- "confirmed": 1,
+ "deployments": 4,
+ "confirmed": 2,
  "with_value_number": 0,
  "proof_rate": 0.0,
  "mktcap": 37240000000.0,
  "revenue": 3770000000.0,
  "employees": 7900.0,
  "silent": false,
- "per_bn_revenue": 0.27,
- "per_10k_emp": 1.27,
+ "per_bn_revenue": 1.06,
+ "per_10k_emp": 5.06,
  "benchmarks": {
   "global_vertical": {
-   "deployments": 0,
-   "confirmed": 13,
+   "deployments": 26,
+   "confirmed": 20,
    "proof_rate": 0,
-   "n": 165
+   "n": 168
   },
   "country_vertical": {
-   "deployments": 0,
-   "confirmed": 7,
+   "deployments": 14,
+   "confirmed": 10,
    "proof_rate": 0,
    "n": 59
   }
@@ -33,10 +33,11 @@
  "momentum": "none",
  "maturity": "L3",
  "maturity_evidence": [
+  "multi_horizontal",
   "named_product:Waters AI Advisor",
   "tier_p"
  ],
- "prospect_score": 46,
+ "prospect_score": 52,
  "stack": [
   "Amazon AWS"
  ],
@@ -51,6 +52,39 @@
    "url": "https://aws.amazon.com/blogs/industries/waters-corporation-increases-lab-efficiency-with-aws/",
    "raw_sector": "Health Care",
    "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "Waters Corporation",
+   "use": "AI-driven automation of routine laboratory workflows",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.waters.com/blog/ai-maturity-in-gmp-accelerating-your-digital-journey-at-warp-speed-safely/?srsltid=AfmBOooiDJiuIj1-mdNVKpFEzkswJNyhef7OVlmUgnxSZ5PpBJLJVO7V",
+   "raw_sector": "",
+   "date": "Jul 14, 2026",
+   "fresh": "undated"
+  },
+  {
+   "company": "Waters Corporation",
+   "use": "AI-driven predictive and prescriptive analytics for laboratory operations",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.waters.com/content/dam/waters/en/library/white-papers/2025/720008765.pdf?srsltid=AfmBOorhiDTDUtlQM1o5S6evG1N-XGVeFhM9c0nWEDfF33",
+   "raw_sector": "",
+   "date": "Apr 7, 2025",
+   "fresh": "undated"
+  },
+  {
+   "company": "Waters Corporation",
+   "use": "Lab efficiency optimization using cloud and AI technologies [AWS]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://aws.amazon.com/blogs/industries/waters-corporation-increases-lab-efficiency-with-aws/",
+   "raw_sector": "",
+   "date": "Sep 16, 2024",
    "fresh": "undated"
   }
  ]

@@ -3,21 +3,21 @@
  "name": "Airbus",
  "cc": "DE",
  "vertical": "Aerospace & Defence",
- "deployments": 1,
- "confirmed": 1,
- "with_value_number": 0,
- "proof_rate": 0.0,
+ "deployments": 9,
+ "confirmed": 5,
+ "with_value_number": 1,
+ "proof_rate": 0.111,
  "mktcap": 177098400000.0,
  "revenue": 79293600000.0,
  "employees": 166876.0,
  "silent": false,
- "per_bn_revenue": 0.01,
- "per_10k_emp": 0.06,
+ "per_bn_revenue": 0.11,
+ "per_10k_emp": 0.54,
  "benchmarks": {
   "global_vertical": {
-   "deployments": 0,
-   "confirmed": 29,
-   "proof_rate": 0,
+   "deployments": 71,
+   "confirmed": 100,
+   "proof_rate": 43,
    "n": 8
   }
  },
@@ -28,16 +28,23 @@
    "n": 1
   }
  ],
- "undated_pct": 0,
+ "undated_pct": 89,
  "momentum": "early_mover,gone_quiet",
  "maturity": "L3",
  "maturity_evidence": [
+  "multi_horizontal",
   "named_product:Mistral",
+  "value_number",
   "tier_p"
  ],
- "prospect_score": 46,
+ "prospect_score": 66,
  "stack": [
-  "Mistral AI"
+  "Amazon AWS",
+  "Google",
+  "IBM",
+  "Meta",
+  "Mistral AI",
+  "Palantir"
  ],
  "vendor_named": true,
  "deployments_detail": [
@@ -51,6 +58,83 @@
    "raw_sector": "Aerospace & Defence",
    "date": "2024",
    "fresh": "aging"
+  },
+  {
+   "company": "Airbus",
+   "use": "AI tools co-development for aerospace and defence [Mistral]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://finance.yahoo.com/technology/ai/articles/airbus-picks-iliads-scaleway-ai-050137000.html",
+   "raw_sector": "",
+   "date": "Jul 15, 2026",
+   "fresh": "undated"
+  },
+  {
+   "company": "Airbus",
+   "use": "Generative AI for engineering, contracts, recruitment, cyber threat analysis, and procurement",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.airbus.com/en/newsroom/stories/2024-05-how-airbus-uses-generative-artificial-intelligence-to-reinvent-itself",
+   "raw_sector": "",
+   "date": "May 28, 2024",
+   "fresh": "undated"
+  },
+  {
+   "company": "Airbus",
+   "use": "AI-powered satellite imagery analysis for land use issues",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.airbus.com/en/newsroom/stories/2025-04-improving-the-world-we-live-in-with-ai-powered-products",
+   "raw_sector": "",
+   "date": "Apr 9, 2025",
+   "fresh": "undated"
+  },
+  {
+   "company": "Airbus",
+   "use": "Generative design for aircraft structural components [Autodesk]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://adsknews.autodesk.com/en/news/autodesk-airbus-generative-design-aerospace-factory/",
+   "raw_sector": "",
+   "date": "Nov 19, 2019",
+   "fresh": "undated"
+  },
+  {
+   "company": "Airbus",
+   "use": "AI system for cockpit information discovery",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.deepset.ai/case-studies/airbus",
+   "raw_sector": "",
+   "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "Airbus",
+   "use": "Named as a Google Gemini / Vertex AI customer/case study [Google Gemini / Vertex AI] [Google Gemini / Vertex AI]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://workspace.google.com/customers/",
+   "raw_sector": "",
+   "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "Airbus",
+   "use": "Named as a Palantir customer/case study [Palantir] [Palantir]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://en.wikipedia.org/wiki/Palantir",
+   "raw_sector": "",
+   "date": "missing",
+   "fresh": "undated"
   },
   {
    "company": "Airbus",
@@ -71,6 +155,83 @@
    "tier": "I",
    "url": "https://www.videns.ai/realisations/optimisation-de-la-planification-de-la330-et-a350-grace-a-lia",
    "raw_sector": "Industrials",
+   "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "Airbus",
+   "use": "Generative AI for engineering assistants, contract analytics, recruitment, cyber threat analysis, and procurement optimization",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.airbus.com/en/newsroom/stories/2024-05-how-airbus-uses-generative-artificial-intelligence-to-reinvent-itself",
+   "raw_sector": "",
+   "date": "2024-05-28",
+   "fresh": "aging"
+  },
+  {
+   "company": "Airbus",
+   "use": "Expense audit and procurement optimization [AppZen]",
+   "existence": "confirmed",
+   "value": "$200000",
+   "tier": "",
+   "url": "https://www.appzen.com/inside-the-airbus-ai-transformation",
+   "raw_sector": "",
+   "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "Airbus",
+   "use": "Satellite imagery analysis for land use issues",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.airbus.com/en/newsroom/stories/2025-04-improving-the-world-we-live-in-with-ai-powered-products",
+   "raw_sector": "",
+   "date": "2025-04-09",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Airbus",
+   "use": "Autonomous flight with DT25 target drone [Shield AI]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://shield.ai/shield-ai-and-airbus-complete-successful-autonomous-flight-with-dt25-target-drone/",
+   "raw_sector": "",
+   "date": "2025-09-23",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Airbus",
+   "use": "Autonomous aerial logistics connector helicopter flight [Shield AI]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://airbusus.com/2025/08/19/airbus-and-shield-ai-accomplish-first-autonomous-aerial-logistics-connector-helicopter-flight/",
+   "raw_sector": "",
+   "date": "2025-08-19",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Airbus",
+   "use": "Cockpit information discovery system",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.deepset.ai/case-studies/airbus",
+   "raw_sector": "",
+   "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "Airbus",
+   "use": "Skywise open aviation data platform: integrating manufacturing and fleet data to boost aircraft production and connect the global fleet for predictive maintenance and operations analytics [Palantir] [Palantir]",
+   "existence": "confirmed",
+   "value": "+33% increase in A350 production; 10,500+ aircraft connected to Skywise; 49% of Airbus fleet connected",
+   "tier": "",
+   "url": "https://www.palantir.com/impact/airbus/",
+   "raw_sector": "",
    "date": "missing",
    "fresh": "undated"
   },
@@ -161,6 +322,17 @@
    "raw_sector": "",
    "date": "2023-06",
    "fresh": "stale"
+  },
+  {
+   "company": "Airbus",
+   "use": "AI integration in French armed forces information systems",
+   "existence": "confirmed",
+   "value": "50000000",
+   "tier": "",
+   "url": "https://www.airbus.com/en/newsroom/press-releases/2025-12-airbus-to-onboard-artificial-intelligence-in-french-armed-forces-information-systems",
+   "raw_sector": "",
+   "date": "Dec 10, 2025",
+   "fresh": "undated"
   }
  ]
 }

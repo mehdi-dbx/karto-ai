@@ -3,26 +3,26 @@
  "name": "Siemens Energy",
  "cc": "IN",
  "vertical": "Industrial / Machinery",
- "deployments": 1,
- "confirmed": 1,
+ "deployments": 5,
+ "confirmed": 3,
  "with_value_number": 0,
  "proof_rate": 0.0,
  "mktcap": 14216867470.0,
  "revenue": 1052409639.0,
  "employees": 4351.0,
  "silent": false,
- "per_bn_revenue": 0.95,
- "per_10k_emp": 2.3,
+ "per_bn_revenue": 4.75,
+ "per_10k_emp": 11.49,
  "benchmarks": {
   "global_vertical": {
-   "deployments": 0,
-   "confirmed": 14,
+   "deployments": 38,
+   "confirmed": 39,
    "proof_rate": 0,
-   "n": 175
+   "n": 176
   },
   "country_vertical": {
-   "deployments": 0,
-   "confirmed": 17,
+   "deployments": 17,
+   "confirmed": 50,
    "proof_rate": 0,
    "n": 7
   }
@@ -33,14 +33,41 @@
  "momentum": "none",
  "maturity": "L3",
  "maturity_evidence": [
+  "multi_horizontal",
   "named_product:TCS"
  ],
- "prospect_score": 46,
+ "prospect_score": 58,
  "stack": [
+  "Amazon AWS",
+  "NVIDIA",
+  "ServiceNow",
+  "Snowflake",
   "TCS"
  ],
  "vendor_named": true,
  "deployments_detail": [
+  {
+   "company": "Siemens Energy",
+   "use": "IoT Connected Factory / IIoT platform: connects global manufacturing assets (robots, CNC machines, autonomous vehicles) to AWS for condition monitoring, energy tracking, and predictive maintenance across smart factories. In production. [AWS (IoT SiteWise, IoT managed services)]",
+   "existence": "confirmed",
+   "value": "Up to 50% less manual data-collection time; up to 25% lower OT maintenance effort/cost; up to 15% higher asset availability",
+   "tier": "",
+   "url": "https://aws.amazon.com/blogs/iot/how-siemens-energy-uses-aws-for-its-iiot-platform-and-smart-manufacturing/",
+   "raw_sector": "",
+   "date": "2024-11-11",
+   "fresh": "aging"
+  },
+  {
+   "company": "Siemens Energy",
+   "use": "Procurement analytics automation: an Alteryx workflow scaled into an enterprise solution delivering insights across the procurement chain (demand to goods receipt) using analytics and AI to drive efficiency and smarter decisions. [Alteryx]",
+   "existence": "confirmed",
+   "value": "Saves thousands of hours of manual work",
+   "tier": "",
+   "url": "https://www.alteryx.com/resources/webinar/siemens-energy-transforms-procurement-at-scale-with-analytics-automation",
+   "raw_sector": "",
+   "date": "2025",
+   "fresh": "fresh"
+  },
   {
    "company": "Siemens Energy",
    "use": "Omnivise predictive-maintenance solutions using AI, advanced analytics & digital twins; Senseye Predictive Maintenance enhanced with generative AI for conversational diagnostics",
@@ -54,6 +81,116 @@
   },
   {
    "company": "Siemens Energy",
+   "use": "AI-enhanced simulation for gas turbine design: transformer-based models and neural operators integrated into Simcenter (HEEDS + 3D) simulation workflows to accelerate design cycles and predict component behavior. Field-tested; ran continuous simulation chains for 65+ days and completed 2,000 runs in minutes vs. months, cutting per-run compute from 1-7 days to minutes. [Siemens Digital Industries Software (Simcenter HEEDS, Simcenter 3D)]",
+   "existence": "confirmed",
+   "value": "2,000 simulation runs in minutes vs. months; per-run time cut from 1-7 days to minutes; ~25% data-load reduction",
+   "tier": "",
+   "url": "https://resources.sw.siemens.com/en-US/case-study-siemens-energy-simcenter-ai/",
+   "raw_sector": "",
+   "date": "2023",
+   "fresh": "stale"
+  },
+  {
+   "company": "Siemens Energy",
+   "use": "Industrial digital twin for predictive maintenance of power-plant Heat Recovery Steam Generators (HRSGs) using physics-informed ML to model steam/water flow and estimate corrosion, aiming to cut CFD modeling from weeks to hours across a fleet of 600+ units. [NVIDIA (Omniverse, PhysicsNeMo/Modulus, A100 GPUs)]",
+   "existence": "claimed",
+   "value": "Potential $1.7B/year customer savings from a 10% reduction in the industry's average 5.5-day planned downtime; corrosion estimation from weeks to hours",
+   "tier": "",
+   "url": "https://blogs.nvidia.com/blog/siemens-energy-nvidia-industrial-digital-twin-power-plant-omniverse/",
+   "raw_sector": "",
+   "date": "2023",
+   "fresh": "stale"
+  },
+  {
+   "company": "Siemens Energy",
+   "use": "Strategic AWS partnership to apply generative AI and agentic workflows (Amazon Bedrock), ML (SageMaker), and IoT SiteWise to smart manufacturing and project delivery, supply-chain/resource optimization, and autonomous plant operations. [AWS (Amazon Bedrock, SageMaker, IoT SiteWise)]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://press.aboutamazon.com/aws/2026/4/aws-and-siemens-energy-team-up-to-advance-energy-sector-digital-transformation",
+   "raw_sector": "",
+   "date": "2026-04-02",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Siemens Energy",
+   "use": "Engineering transformation via a private-cloud HPC/AI environment (HPE + NVIDIA stack) combining high-throughput simulation with AI-driven design to model aerodynamic, thermal, and structural behavior of turbines; GPU-native STAR-CCM+ CFD. [HPE + NVIDIA (GPU-accelerated private cloud, STAR-CCM+)]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.hpe.com/us/en/newsroom/press-release/2026/06/siemens-energy-chooses-hpe-to-transform-engineering-with-ai-as-global-power-demand-surges.html",
+   "raw_sector": "",
+   "date": "2026-06",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Siemens Energy",
+   "use": "Omnivise digital solutions predictive maintenance and performance monitoring for power plants: data-analytics and AI-based condition monitoring, performance analytics, and asset management delivered as subscription services to plant operators. [Siemens Energy (Omnivise)]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.siemens-energy.com/us/en/home/products-services/product-offerings/omnivise-digital-solutions/predictive-solutions.html",
+   "raw_sector": "",
+   "date": "2024",
+   "fresh": "aging"
+  },
+  {
+   "company": "Siemens Energy",
+   "use": "Cortex AI digitizes 800,000+ pages of paper documents into searchable, chatbot-accessible technical resources [Snowflake] [Snowflake]",
+   "existence": "confirmed",
+   "value": "800,000+ pages made AI-accessible; chatbot built in a couple of weeks",
+   "tier": "",
+   "url": "https://www.snowflake.com/en/customers/all-customers/video/siemens-energy/",
+   "raw_sector": "",
+   "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "Siemens Energy",
+   "use": "Named as a Amazon Bedrock customer/case study [Amazon Bedrock] [Amazon Bedrock]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://tgaleev.com/how-aws-ai-and-bedrock-transformed-businesses-in-2025",
+   "raw_sector": "",
+   "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "Siemens Energy",
+   "use": "AI-ready scientific infrastructure and digital twin technology for research acceleration",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://news.siemens.com/en-us/siemens-ai-ready-scientific-infrastructure-us-doe-genesis-mission/",
+   "raw_sector": "",
+   "date": "Mar 11, 2026",
+   "fresh": "undated"
+  },
+  {
+   "company": "Siemens Energy",
+   "use": "AI deployment at power plants for power generation optimization",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.siemens-energy.com/us/en/home/stories/ai-power-generation.html",
+   "raw_sector": "",
+   "date": "Jan 21, 2026",
+   "fresh": "undated"
+  },
+  {
+   "company": "Siemens Energy",
+   "use": "Industrial AI for product lifecycle management, design optimization, and manufacturing engineering",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.siemens-energy.com/us/en/home/products-services/solutions-usecase/industrial-AI.html",
+   "raw_sector": "",
+   "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "Siemens Energy",
    "use": "AI-driven solutions across energy operations, grid technologies & industrial systems (TCS partnership; supports HyperVault AI data-centre infra); grid stability for renewables",
    "existence": "confirmed",
    "value": "none quantified",
@@ -61,6 +198,39 @@
    "url": "https://www.worldoil.com/siemens-energy-tcs-ai-energy",
    "raw_sector": "Capital Goods",
    "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "Siemens Energy",
+   "use": "Eos.ii-powered Managed Detection and Response (MDR): AI/ML-driven cybersecurity monitoring platform that unifies IT/OT data and uses digital-twin baselining to detect anomalies and cyberattacks on energy/critical infrastructure. Commercially offered service (also on AWS Marketplace). [Siemens Energy (Eos.ii platform)]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.siemens-energy.com/us/en/home/press-releases/siemens-energy-announces-new-ai-driven-cybersecurity-monitor-and-detection-service.html",
+   "raw_sector": "",
+   "date": "2020-10-01",
+   "fresh": "stale"
+  },
+  {
+   "company": "Siemens Energy",
+   "use": "Integration of Siemens Energy's AI-based Eos.ii MDR software with ServiceNow to deliver precision defense and automated response against cyber threats targeting the energy industry. [ServiceNow + Siemens Energy (Eos.ii)]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.darkreading.com/cloud-security/siemens-energy-collaborates-with-servicenow-for-precision-defense-against-cyber-threats-targeting-energy-industry",
+   "raw_sector": "",
+   "date": "2023",
+   "fresh": "stale"
+  },
+  {
+   "company": "Siemens Energy",
+   "use": "AI-driven cybersecurity monitoring and threat detection service (Managed Detection and Response) [Eos]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.siemens-energy.com/us/en/home/press-releases/siemens-energy-announces-new-ai-driven-cybersecurity-monitor-and-detection-service.html",
+   "raw_sector": "",
+   "date": "Oct 1, 2020",
    "fresh": "undated"
   }
  ]

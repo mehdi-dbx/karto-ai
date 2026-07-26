@@ -3,48 +3,84 @@
  "name": "Tokyu Corp.",
  "cc": "JP",
  "vertical": "Logistics & Supply Chain",
- "deployments": 1,
- "confirmed": 1,
- "with_value_number": 0,
- "proof_rate": 0.0,
+ "deployments": 10,
+ "confirmed": 4,
+ "with_value_number": 3,
+ "proof_rate": 0.3,
  "mktcap": 6573000000.0,
  "revenue": 7266666667.0,
  "employees": 24262.0,
  "silent": false,
- "per_bn_revenue": 0.14,
- "per_10k_emp": 0.41,
+ "per_bn_revenue": 1.38,
+ "per_10k_emp": 4.12,
  "benchmarks": {
   "global_vertical": {
-   "deployments": 0,
-   "confirmed": 14,
-   "proof_rate": 0,
-   "n": 66
+   "deployments": 82,
+   "confirmed": 52,
+   "proof_rate": 58,
+   "n": 67
   },
   "country_vertical": {
-   "deployments": 0,
-   "confirmed": 0,
-   "proof_rate": 0,
+   "deployments": 82,
+   "confirmed": 50,
+   "proof_rate": 73,
    "n": 23
   }
  },
- "first_seen": 2025,
+ "first_seen": 2023,
  "by_year": [
   {
+   "year": 2023,
+   "n": 3
+  },
+  {
+   "year": 2024,
+   "n": 2
+  },
+  {
    "year": 2025,
-   "n": 1
+   "n": 3
+  },
+  {
+   "year": 2026,
+   "n": 2
   }
  ],
  "undated_pct": 0,
- "momentum": "early_mover,rising",
- "maturity": "L3",
+ "momentum": "early_mover,flat",
+ "maturity": "L4",
  "maturity_evidence": [
+  "multi_horizontal",
   "named_product:Spot",
+  "multi_year",
   "tier_p"
  ],
- "prospect_score": 54,
+ "prospect_score": 60,
  "stack": [],
  "vendor_named": false,
  "deployments_detail": [
+  {
+   "company": "Tokyu Corp.",
+   "use": "IR generative-AI assistant: Tokyu Corporation adopted ExaWizards' 'exaBase IR Assistant' to auto-generate anticipated Q&A for earnings briefings, shareholder meetings and press conferences, and to create IR reference materials and meeting records for its Finance Strategy Division. [ExaWizards (exaBase IR Assistant / Exa Enterprise AI)]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://exawizards.com/archives/27718/",
+   "raw_sector": "",
+   "date": "2024-07-05",
+   "fresh": "aging"
+  },
+  {
+   "company": "Tokyu Corp.",
+   "use": "Generative-AI automation of accounting voucher (journal) entry: Tokyu links NTT Data's Biz-integral ERP with WingArc1st's 'dejiren AI' so AI reads invoices, drafts vouchers referencing past entries, and validates accounting classifications, with staff review via chat. Verified in a FY2025 pilot; considering expansion across Tokyu Group. [NTT Data Biz Integral (Biz∫ ERP), WingArc1st (dejiren AI)]",
+   "existence": "claimed",
+   "value": "up to 38% work reduction in voucher entry; target ~5,000 work-hours/year saved",
+   "tier": "",
+   "url": "https://it.impress.co.jp/articles/-/29387",
+   "raw_sector": "",
+   "date": "2026-05-27",
+   "fresh": "fresh"
+  },
   {
    "company": "Tokyu Corp.",
    "use": "AI image analysis for crossing/station danger detection; \"Spot\" robot inspection (claimed Japan rail-industry first permanent deployment, Apr 2025); AI+LiDAR track intrusion detection",
@@ -54,6 +90,83 @@
    "url": "https://www.tokyu.co.jp/company/information/detail/56556.html",
    "raw_sector": "Railway/Bus",
    "date": "2025-04",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Tokyu Corp.",
+   "use": "Onboard forward-monitoring obstacle/person detection: cameras and LiDAR mounted on a 1000-series train feed video and 3D point-cloud data to AI image analysis to detect obstacles and people on the track. Trial on the Ikegami and Tamagawa lines. [none]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.tokyu.co.jp/company/information/detail/61211.html",
+   "raw_sector": "",
+   "date": "2026-06-18",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Tokyu Corp.",
+   "use": "AI image-analysis on existing station and level-crossing cameras to detect hazardous behavior (e.g., prolonged loitering at crossings) and support driver/station-staff operations, with alerts to the rail operations center. Trial along the Toyoko Line (Todoroki area crossing and all Toyoko Line stations). [none]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.tokyu.co.jp/company/information/detail/56556.html",
+   "raw_sector": "",
+   "date": "2025-05-29",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Tokyu Corp.",
+   "use": "Local 5G + AI track-inspection experiment: high-definition front-of-train cameras transmit footage over Local 5G to AI servers that analyze rail equipment for abnormalities, aiming to replace hours-long manual patrols with minutes of targeted checks. Tokyu Railway participates on the Toyoko Line (Shibuya-Yokohama, ~24.2km). [Sumitomo Corporation (lead); multi-operator consortium]",
+   "existence": "claimed",
+   "value": "target ~90%+ abnormality detection per run; 100% across multiple daily runs",
+   "tier": "",
+   "url": "https://www.sumitomocorp.com/ja/jp/news/topics/2023/group/20230927",
+   "raw_sector": "",
+   "date": "2023-09-27",
+   "fresh": "stale"
+  },
+  {
+   "company": "Tokyu Corp.",
+   "use": "WANDER COMPASS Shibuya remote-service point: AI guidance signage with a voice-interactive chatbot (Nextremer) answers common questions (station directions, transfers) and a travel-diagnosis feature (Huber.) proposes personalized itineraries, alongside remote video staff assistance, in Japanese and English at Shibuya Station. [Nextremer (AI guidance chatbot), Huber. (travel diagnosis)]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://aismiley.co.jp/ai_news/tokyu-provides-remote-concierge-guidance-through-remote-customer-service-and-ai-chat/",
+   "raw_sector": "",
+   "date": "2023-12-11",
+   "fresh": "stale"
+  },
+  {
+   "company": "Tokyu Corp.",
+   "use": "Chuo-Rinkan station remote guidance/settlement trial: avatar-style AI guidance terminal ('TAZUNE') provides a chatbot interface for station inquiries plus remote video staff support and remote IC-card processing, testing non-contact station operations at the Den-en-toshi Line ticket window. [Panasonic Connect (TAZUNE)]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.tokyu.co.jp/company/information/detail/730.html",
+   "raw_sector": "",
+   "date": "2023-01-26",
+   "fresh": "stale"
+  },
+  {
+   "company": "Tokyu Corp.",
+   "use": "AI security at railway stations: Asilla behavior-recognition AI ('AI Security asilla' / TS-Zero) analyzes existing station CCTV to detect abnormal behavior (falls, fights, intrusion) and alert security operators. Launched in commercial service at Tana and Tsukimino stations on the Den-en-toshi Line; Tokyu took a capital/business stake in Asilla. [Asilla (AI Security asilla), Tokyu Security (TS-Zero)]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://prtimes.jp/main/html/rd/p/000000243.000043312.html",
+   "raw_sector": "",
+   "date": "2024-03-15",
+   "fresh": "aging"
+  },
+  {
+   "company": "Tokyu Corp.",
+   "use": "Expansion of Asilla behavior-recognition AI security to major Shibuya commercial facilities (Shibuya Stream, Shibuya Hikarie, Shibuya Axsh): 'AI Security asilla' analyzes existing camera footage 24/7 to detect suspicious/abnormal behavior, following the deepened Tokyu-Asilla capital and business alliance. [Asilla (AI Security asilla)]",
+   "existence": "claimed",
+   "value": "~100 patrol-hours/month reduction cited at a related Shibuya property using the same tech",
+   "tier": "",
+   "url": "https://jp.asilla.com/post/tokyu-20250916",
+   "raw_sector": "",
+   "date": "2025-09-16",
    "fresh": "fresh"
   }
  ]

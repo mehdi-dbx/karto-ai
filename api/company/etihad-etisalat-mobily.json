@@ -3,40 +3,54 @@
  "name": "Etihad Etisalat (Mobily)",
  "cc": "SA",
  "vertical": "Telecom",
- "deployments": 1,
- "confirmed": 0,
- "with_value_number": 0,
- "proof_rate": 0.0,
+ "deployments": 10,
+ "confirmed": 4,
+ "with_value_number": 3,
+ "proof_rate": 0.3,
  "mktcap": 13058666667.0,
  "revenue": 5376000000.0,
  "employees": 3000.0,
  "silent": false,
- "per_bn_revenue": 0.19,
- "per_10k_emp": 3.33,
+ "per_bn_revenue": 1.86,
+ "per_10k_emp": 33.33,
  "benchmarks": {
   "global_vertical": {
-   "deployments": 0,
-   "confirmed": 0,
-   "proof_rate": 0,
-   "n": 93
+   "deployments": 54,
+   "confirmed": 33,
+   "proof_rate": 45,
+   "n": 94
   }
  },
- "first_seen": 2024,
+ "first_seen": 2023,
  "by_year": [
   {
+   "year": 2023,
+   "n": 2
+  },
+  {
    "year": 2024,
-   "n": 1
+   "n": 4
+  },
+  {
+   "year": 2025,
+   "n": 2
   }
  ],
- "undated_pct": 0,
- "momentum": "early_mover,gone_quiet",
- "maturity": "L1",
+ "undated_pct": 20,
+ "momentum": "early_mover,cooling",
+ "maturity": "L4",
  "maturity_evidence": [
-  "rows_no_confirmed"
+  "multi_horizontal",
+  "named_product:Customer",
+  "value_number",
+  "multi_year"
  ],
- "prospect_score": 40,
- "stack": [],
- "vendor_named": false,
+ "prospect_score": 52,
+ "stack": [
+  "Microsoft",
+  "Tencent Cloud"
+ ],
+ "vendor_named": true,
  "deployments_detail": [
   {
    "company": "Etihad Etisalat (Mobily)",
@@ -48,6 +62,105 @@
    "raw_sector": "Telecom",
    "date": "2024",
    "fresh": "aging"
+  },
+  {
+   "company": "Etihad Etisalat (Mobily)",
+   "use": "AI/ML-based network management deployment for predictive and automated 5G network diagnostics, root cause analysis and optimization recommendations across Mobily's network in KSA. [Ericsson (Cognitive Software / AI network solution)]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.ericsson.com/en/press-releases/5/2023/ericsson-mobily-successfully-enhance-network-performance-through-artificial-intelligence",
+   "raw_sector": "",
+   "date": "2023-02-06",
+   "fresh": "stale"
+  },
+  {
+   "company": "Etihad Etisalat (Mobily)",
+   "use": "Level 4 autonomous network operations during Hajj 2025 in Makkah using centralized + distributed AI (Ericsson Cognitive Network Solutions Uplink Interference Optimization) for zero-touch, closed-loop uplink/RAN optimization managing pilgrim traffic. [Ericsson (Cognitive Network Solutions)]",
+   "existence": "confirmed",
+   "value": "~23,000 AI-driven decisions/hour; 598 automated corrective actions across 116 sites; 15% SINR, 10% 5G throughput, 7% spectral efficiency gains; ~280% YoY increase in cognitive network actions",
+   "tier": "",
+   "url": "https://www.ericsson.com/en/cases/2026/mobily-and-ericsson-achieve-l4-autonomy",
+   "raw_sector": "",
+   "date": "2025-07-10",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Etihad Etisalat (Mobily)",
+   "use": "AI-driven 5G uplink interference optimization trial using Ericsson's Cognitive Software Uplink Interference Optimizer module to improve uplink performance and spectral efficiency. [Ericsson (Cognitive Software)]",
+   "existence": "claimed",
+   "value": "80% increase in transmissions conducted under high-quality conditions",
+   "tier": "",
+   "url": "https://www.ericsson.com/en/press-releases/5/2024/ericsson-and-mobily-unlock-ai-driven-network-performance-with-5g-uplink-interference-trial",
+   "raw_sector": "",
+   "date": "2024-12-10",
+   "fresh": "aging"
+  },
+  {
+   "company": "Etihad Etisalat (Mobily)",
+   "use": "Extended managed-services agreement integrating AI and machine learning across Mobily's network for autonomous operations, service-quality and efficiency optimization. [Ericsson]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://techafricanews.com/2024/03/11/ericsson-and-mobily-extend-partnership-introduce-ai-for-autonomous-operations/",
+   "raw_sector": "",
+   "date": "2024-03-11",
+   "fresh": "aging"
+  },
+  {
+   "company": "Etihad Etisalat (Mobily)",
+   "use": "MoU at LEAP 2025 to develop AI-powered, intent-driven autonomous networks enhancing network speed, scalability and capacity. [Ericsson]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.ericsson.com/en/press-releases/5/2025/ericsson-and-mobily-sign-mou-at-leap-2025-to-explore-intent-driven-autonomous-networks",
+   "raw_sector": "",
+   "date": "2025-02-10",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Etihad Etisalat (Mobily)",
+   "use": "Cloud/media platform partnership under which Mobily will build next-gen media and AI services (AI media processing, real-time communication, hosting) on Tencent Cloud infrastructure in Saudi Arabia. [Tencent Cloud]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.tencent.com/en-us/articles/2201792.html",
+   "raw_sector": "",
+   "date": "2024-03-05",
+   "fresh": "aging"
+  },
+  {
+   "company": "Etihad Etisalat (Mobily)",
+   "use": "Customer-facing agentic/conversational AI agents (built on Cognigy.AI) that autonomously resolve billing inquiries, subscription changes, payments, balance and data-usage checks across 8 channels (Twitter/X, WhatsApp, Apple Business Chat, etc.) for its ~1.2M-subscriber base, with warm handover to human agents. [Cognigy (Cognigy.AI)]",
+   "existence": "confirmed",
+   "value": "Response time cut to 6 seconds from ~20 minutes (99.5% improvement); 8 channels; 1.2M subscribers",
+   "tier": "",
+   "url": "https://www.cognigy.com/en/case-study/mobily",
+   "raw_sector": "",
+   "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "Etihad Etisalat (Mobily)",
+   "use": "Employee-facing AI agents deployed on Microsoft Teams, integrated into Mobily's internal IT service desk and HR systems to automate employee support workflows. [Cognigy (Cognigy.AI), Microsoft Teams]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.cognigy.com/en/case-study/mobily",
+   "raw_sector": "",
+   "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "Etihad Etisalat (Mobily)",
+   "use": "Strategic partnership to bring CyberArrow's AI-powered Governance, Risk & Compliance (GRC) platform to Saudi organizations, automating compliance and risk workflows. [CyberArrow]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.cyberarrow.io/blog/cyberarrow-and-mobily-announced-a-strategic-partnership-for-cyberarrows-ai-powered-grc-at-black-hat-2023/",
+   "raw_sector": "",
+   "date": "2023-08-01",
+   "fresh": "stale"
   }
  ]
 }

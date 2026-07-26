@@ -3,10 +3,10 @@
  "name": "Sovcombank",
  "cc": "RU",
  "vertical": "Financial Services",
- "deployments": 1,
- "confirmed": 1,
+ "deployments": 3,
+ "confirmed": 3,
  "with_value_number": 1,
- "proof_rate": 1.0,
+ "proof_rate": 0.333,
  "mktcap": null,
  "revenue": null,
  "employees": null,
@@ -15,34 +15,44 @@
  "per_10k_emp": null,
  "benchmarks": {
   "global_vertical": {
-   "deployments": 0,
-   "confirmed": 17,
-   "proof_rate": 76,
-   "n": 377
+   "deployments": 13,
+   "confirmed": 27,
+   "proof_rate": 58,
+   "n": 388
   },
   "country_vertical": {
-   "deployments": 0,
+   "deployments": 29,
    "confirmed": 29,
-   "proof_rate": 100,
+   "proof_rate": 57,
    "n": 8
   }
  },
- "first_seen": 2026,
+ "first_seen": 2019,
  "by_year": [
+  {
+   "year": 2019,
+   "n": 1
+  },
+  {
+   "year": 2025,
+   "n": 1
+  },
   {
    "year": 2026,
    "n": 1
   }
  ],
  "undated_pct": 0,
- "momentum": "late_entrant,rising",
- "maturity": "L3",
+ "momentum": "early_mover,rising",
+ "maturity": "L4",
  "maturity_evidence": [
+  "multi_horizontal",
   "named_product:Bank",
   "value_number",
+  "multi_year",
   "tier_p"
  ],
- "prospect_score": 14,
+ "prospect_score": 53,
  "stack": [],
  "vendor_named": false,
  "deployments_detail": [
@@ -56,6 +66,28 @@
    "raw_sector": "Banking",
    "date": "2026",
    "fresh": "fresh"
+  },
+  {
+   "company": "Sovcombank",
+   "use": "Large language models scaled for employee productivity across daily work tasks",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.akm.ru/eng/news/at-sovcombank-8-out-of-10-employees-began-using-ai-in-their-daily-work/",
+   "raw_sector": "",
+   "date": "2025",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Sovcombank",
+   "use": "AI for non-performing liabilities collection, staff recruitment automation, sales, and service quality surveys",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.prnewswire.com/news-releases/sovcombank-invests-in-artificial-intelligence-300838303.html",
+   "raw_sector": "",
+   "date": "2019",
+   "fresh": "stale"
   }
  ]
 }

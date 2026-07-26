@@ -3,46 +3,57 @@
  "name": "Ambu",
  "cc": "DK",
  "vertical": "Healthcare & Life Sciences",
- "deployments": 1,
- "confirmed": 0,
- "with_value_number": 0,
- "proof_rate": 0.0,
+ "deployments": 8,
+ "confirmed": 4,
+ "with_value_number": 1,
+ "proof_rate": 0.125,
  "mktcap": 2647826087.0,
  "revenue": 884057971.0,
  "employees": 5200.0,
  "silent": false,
- "per_bn_revenue": 1.13,
- "per_10k_emp": 1.92,
+ "per_bn_revenue": 9.05,
+ "per_10k_emp": 15.38,
  "benchmarks": {
   "global_vertical": {
-   "deployments": 0,
-   "confirmed": 0,
-   "proof_rate": 0,
-   "n": 165
+   "deployments": 60,
+   "confirmed": 48,
+   "proof_rate": 44,
+   "n": 168
   },
   "country_vertical": {
-   "deployments": 0,
-   "confirmed": 0,
-   "proof_rate": 0,
+   "deployments": 71,
+   "confirmed": 71,
+   "proof_rate": 43,
    "n": 8
   }
  },
- "first_seen": 2025,
+ "first_seen": 2024,
  "by_year": [
   {
-   "year": 2025,
+   "year": 2024,
    "n": 1
+  },
+  {
+   "year": 2025,
+   "n": 3
+  },
+  {
+   "year": 2026,
+   "n": 4
   }
  ],
  "undated_pct": 0,
- "momentum": "rising",
- "maturity": "L1",
+ "momentum": "early_mover,rising",
+ "maturity": "L4",
  "maturity_evidence": [
-  "rows_no_confirmed"
+  "multi_horizontal",
+  "named_product:EndoIntelligence",
+  "value_number",
+  "multi_year"
  ],
- "prospect_score": 40,
+ "prospect_score": 59,
  "stack": [],
- "vendor_named": false,
+ "vendor_named": true,
  "deployments_detail": [
   {
    "company": "Ambu",
@@ -53,6 +64,83 @@
    "url": "https://www.ambu.co.uk/Admin/Public/Download.aspx?file=Files/Files/Downloads/Ambu+com/Frost-Sullivan-Ambu-recognition-2025.pdf",
    "raw_sector": "Healthcare",
    "date": "2025",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Ambu",
+   "use": "EndoIntelligence — Ambu's proprietary digital/AI platform (formerly 'Digital Solutions & Systems') that powers its endoscopy portfolio across GI, pulmonology, ENT and urology, integrating software on the aBox 2 / aView 2 Advance units and adding AI for navigation, detection and documentation. Described by management as an increasingly significant differentiator and a core investment area. [Ambu (proprietary)]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://ng.investing.com/news/company-news/ambu-q1-202526-slides-endoscopy-growth-offsets-fx-headwinds-93CH-2485018",
+   "raw_sector": "",
+   "date": "2026-05-06",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Ambu",
+   "use": "Ambu Broncho Simulator — AI + augmented-reality bronchoscopy training system that uses a neural network to recognize anatomical locations in real time, overlays anatomical labels and a lung-tree diagram, and scores systematic navigation. Publicly launched/demonstrated (e.g., ATS 2026 booth) and validated in multiple published trials. [Ambu (proprietary neural network, using aScope 5 Broncho HD)]",
+   "existence": "confirmed",
+   "value": "Trainees using the AI outperformed expert-tutor-trained peers: ~77s faster procedure time, ~7.9s faster intersegmental time, 7 fewer segment revisits (Agbontaen 2025)",
+   "tier": "",
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12047642/",
+   "raw_sector": "",
+   "date": "2025-05",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Ambu",
+   "use": "AI real-time guidance during clinical bronchoscopy — automatic bronchial segment identification neural network that ensures full, systematic inspection of the bronchial tree and documents completeness; positioned by researchers for clinical implementation beyond training. [Ambu (proprietary neural network)]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://publications.ersnet.org/content/erjor/11/1/00395-2024",
+   "raw_sector": "",
+   "date": "2025-01",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Ambu",
+   "use": "Next-generation AI-powered EndoIntelligence solutions — algorithm development and clinical validation for AI-driven detection/analysis in endoscopy (e.g. GI lesion detection); Ambu stood up a dedicated Clinical Data Acquisition function to generate the high-quality clinical data needed to train and validate these AI algorithms. [Ambu (proprietary)]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.linkedin.com/jobs/view/clinical-data-manager-at-ambu-4436814710",
+   "raw_sector": "",
+   "date": "2026-07",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Ambu",
+   "use": "ARC (Advanced Red Contrast) — proprietary image-enhancement algorithm deployed in the aBox 2 / aView 2 Advance processing units (and scopes such as aScope 5 Cysto HD) that optimizes red wavelengths to heighten contrast between vascularized and non-vascularized tissue, aiding lesion/vascularity detection in real time during procedures. [Ambu (proprietary algorithm)]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.ambuusa.com/endoscopy/monitors/product/abox-2",
+   "raw_sector": "",
+   "date": "2024",
+   "fresh": "aging"
+  },
+  {
+   "company": "Ambu",
+   "use": "AI-powered automated documentation within EndoIntelligence — advanced automated procedure documentation to reduce clinician administrative burden, announced as an expanded platform capability alongside AI navigation and detection. [Ambu (proprietary)]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://ng.investing.com/news/company-news/ambu-q1-202526-slides-endoscopy-growth-offsets-fx-headwinds-93CH-2485018",
+   "raw_sector": "",
+   "date": "2026-05-06",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Ambu",
+   "use": "Clinical Data Acquisition function — a newly established internal function running medical-device clinical studies specifically to acquire and manage high-quality clinical data for AI product innovation, algorithm development and clinical validation (distinct from traditional pharma trials). [Ambu (internal)]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://jobs.ambu.com/job/Columbia-Clinical-Trial-Manager-MD-21044/10220-en_GB/",
+   "raw_sector": "",
+   "date": "2026-07",
    "fresh": "fresh"
   }
  ]

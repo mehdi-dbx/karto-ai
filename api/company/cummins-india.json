@@ -3,27 +3,27 @@
  "name": "Cummins India",
  "cc": "IN",
  "vertical": "Industrial / Machinery",
- "deployments": 1,
- "confirmed": 1,
- "with_value_number": 0,
- "proof_rate": 0.0,
+ "deployments": 4,
+ "confirmed": 2,
+ "with_value_number": 1,
+ "proof_rate": 0.25,
  "mktcap": 18674698795.0,
  "revenue": 1463012048.0,
  "employees": 3088.0,
  "silent": false,
- "per_bn_revenue": 0.68,
- "per_10k_emp": 3.24,
+ "per_bn_revenue": 2.73,
+ "per_10k_emp": 12.95,
  "benchmarks": {
   "global_vertical": {
-   "deployments": 0,
-   "confirmed": 14,
-   "proof_rate": 0,
-   "n": 175
+   "deployments": 23,
+   "confirmed": 26,
+   "proof_rate": 66,
+   "n": 176
   },
   "country_vertical": {
    "deployments": 0,
-   "confirmed": 17,
-   "proof_rate": 0,
+   "confirmed": 33,
+   "proof_rate": 83,
    "n": 7
   }
  },
@@ -33,12 +33,36 @@
  "momentum": "none",
  "maturity": "L3",
  "maturity_evidence": [
-  "named_product:IoT"
+  "multi_horizontal",
+  "named_product:IoT",
+  "value_number"
  ],
- "prospect_score": 54,
+ "prospect_score": 50,
  "stack": [],
  "vendor_named": false,
  "deployments_detail": [
+  {
+   "company": "Cummins India",
+   "use": "AI-driven modelling systems for generator sets calibrated against live AI workloads",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.cummins.com/en-na/news/2025/11/24/how-ai-shaping-future-data-center-power-infrastructure-design",
+   "raw_sector": "",
+   "date": "Nov 24, 2025",
+   "fresh": "undated"
+  },
+  {
+   "company": "Cummins India",
+   "use": "AI-based analysis of engine data from 50 trucks with QSK60 engine (80 million data points analyzed)",
+   "existence": "confirmed",
+   "value": "80000000",
+   "tier": "",
+   "url": "https://www.cummins.com/en-na/news/2025/06/11/evolving-technologies-how-advanced-digital-solutions-are-powering-safety-and",
+   "raw_sector": "",
+   "date": "Jun 11, 2025",
+   "fresh": "undated"
+  },
   {
    "company": "Cummins India",
    "use": "AI/ML for operational excellence & smart manufacturing (IoT); deep learning + reduced-order models to predict engine performance & emissions; Global Competency Center building AI/ML/RPA",
@@ -48,6 +72,17 @@
    "url": "https://www.expresscomputer.in/cummins-india-ai-ml",
    "raw_sector": "Capital Goods",
    "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "Cummins India",
+   "use": "AI/ML for supply chain optimization",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.linkedin.com/posts/cummins-india_cummins-indias-annapurna-vishwanathan-talks-activity-7142734209969807361-NGUP",
+   "raw_sector": "",
+   "date": "2 years ago",
    "fresh": "undated"
   }
  ]

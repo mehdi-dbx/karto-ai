@@ -3,28 +3,28 @@
  "name": "Marsh McLennan",
  "cc": "US",
  "vertical": "Financial Services",
- "deployments": 1,
- "confirmed": 1,
- "with_value_number": 1,
- "proof_rate": 1.0,
+ "deployments": 7,
+ "confirmed": 6,
+ "with_value_number": 3,
+ "proof_rate": 0.429,
  "mktcap": 83820000000.0,
  "revenue": 27950000000.0,
  "employees": 95000.0,
  "silent": false,
- "per_bn_revenue": 0.04,
- "per_10k_emp": 0.11,
+ "per_bn_revenue": 0.25,
+ "per_10k_emp": 0.74,
  "benchmarks": {
   "global_vertical": {
-   "deployments": 0,
-   "confirmed": 17,
-   "proof_rate": 76,
-   "n": 377
+   "deployments": 51,
+   "confirmed": 55,
+   "proof_rate": 73,
+   "n": 388
   },
   "country_vertical": {
-   "deployments": 0,
-   "confirmed": 19,
-   "proof_rate": 81,
-   "n": 76
+   "deployments": 49,
+   "confirmed": 51,
+   "proof_rate": 78,
+   "n": 77
   }
  },
  "first_seen": 2023,
@@ -34,14 +34,15 @@
    "n": 1
   }
  ],
- "undated_pct": 0,
+ "undated_pct": 86,
  "momentum": "early_mover,gone_quiet",
  "maturity": "L3",
  "maturity_evidence": [
+  "multi_horizontal",
   "named_product:LenAI",
   "value_number"
  ],
- "prospect_score": 14,
+ "prospect_score": 67,
  "stack": [],
  "vendor_named": false,
  "deployments_detail": [
@@ -55,6 +56,72 @@
    "raw_sector": "Financials",
    "date": "2023",
    "fresh": "stale"
+  },
+  {
+   "company": "Marsh McLennan",
+   "use": "Internal AI tools to support colleague work and client advisory",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.corporate.marsh.com/insights/generative-ai.html",
+   "raw_sector": "",
+   "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "Marsh McLennan",
+   "use": "AI in insurance including claims automation and customer experiences",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.marshmma.com/us/mma/ai-in-insurance.html",
+   "raw_sector": "",
+   "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "Marsh McLennan",
+   "use": "LenAI generative AI tool for problem solving and experimentation [Predibase]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.oliverwyman.com/our-expertise/insights/2023/sep/approaching-generative-ai-lenai.html",
+   "raw_sector": "",
+   "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "Marsh McLennan",
+   "use": "LenAI agentic AI assistant for enterprise knowledge [Predibase]",
+   "existence": "confirmed",
+   "value": "1000000",
+   "tier": "",
+   "url": "https://www.rubrik.com/blog/ai/25/how-marsh-mclennan-saved-over-1-million-hours-of-team-time-with-agentic-ai",
+   "raw_sector": "",
+   "date": "Mar 12, 2025",
+   "fresh": "undated"
+  },
+  {
+   "company": "Marsh McLennan",
+   "use": "Sentrisk AI-powered supply chain risk management platform",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.corporate.marsh.com/sentrisk.html",
+   "raw_sector": "",
+   "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "Marsh McLennan",
+   "use": "Generative AI production use cases including document drafting, emailing, translation, and summarization",
+   "existence": "confirmed",
+   "value": "40",
+   "tier": "",
+   "url": "https://www.cio.com/article/3596453/marsh-mclenlan-it-reorg-lays-foundation-for-gen-ai.html",
+   "raw_sector": "",
+   "date": "Nov 1, 2024",
+   "fresh": "undated"
   }
  ]
 }

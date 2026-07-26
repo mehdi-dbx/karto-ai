@@ -3,46 +3,71 @@
  "name": "Wuliangye Yibin",
  "cc": "CN",
  "vertical": "Retail & E-commerce",
- "deployments": 1,
- "confirmed": 1,
- "with_value_number": 0,
- "proof_rate": 0.0,
+ "deployments": 10,
+ "confirmed": 7,
+ "with_value_number": 4,
+ "proof_rate": 0.4,
  "mktcap": 40347222222.0,
  "revenue": 6427777778.0,
  "employees": 25216.0,
  "silent": false,
- "per_bn_revenue": 0.16,
- "per_10k_emp": 0.4,
+ "per_bn_revenue": 1.56,
+ "per_10k_emp": 3.97,
  "benchmarks": {
   "global_vertical": {
-   "deployments": 0,
-   "confirmed": 24,
-   "proof_rate": 0,
-   "n": 295
+   "deployments": 72,
+   "confirmed": 69,
+   "proof_rate": 70,
+   "n": 301
   },
   "country_vertical": {
-   "deployments": 0,
-   "confirmed": 17,
-   "proof_rate": 0,
+   "deployments": 83,
+   "confirmed": 83,
+   "proof_rate": 67,
    "n": 19
   }
  },
- "first_seen": 2021,
+ "first_seen": 2019,
  "by_year": [
   {
+   "year": 2019,
+   "n": 1
+  },
+  {
    "year": 2021,
+   "n": 1
+  },
+  {
+   "year": 2023,
+   "n": 1
+  },
+  {
+   "year": 2024,
+   "n": 3
+  },
+  {
+   "year": 2025,
+   "n": 3
+  },
+  {
+   "year": 2026,
    "n": 1
   }
  ],
  "undated_pct": 0,
- "momentum": "early_mover,gone_quiet",
- "maturity": "L3",
+ "momentum": "early_mover,flat",
+ "maturity": "L4",
  "maturity_evidence": [
-  "named_product:Intelligent"
+  "multi_horizontal",
+  "named_product:Intelligent",
+  "value_number",
+  "multi_year"
  ],
- "prospect_score": 54,
- "stack": [],
- "vendor_named": false,
+ "prospect_score": 66,
+ "stack": [
+  "Alibaba Cloud"
+ ],
+ "vendor_named": true,
  "deployments_detail": [
   {
    "company": "Wuliangye Yibin",
@@ -54,6 +79,105 @@
    "raw_sector": "Consumer Staples",
    "date": "2021",
    "fresh": "stale"
+  },
+  {
+   "company": "Wuliangye Yibin",
+   "use": "China's first 5G smart baijiu factory / industrial-internet platform using real-time parameter sensing and mathematical modeling for process monitoring, online quality prediction (在线质量预判) and equipment health management across brewing operations. [none]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.stcn.com/article/detail/1249374.html",
+   "raw_sector": "",
+   "date": "2024-07-04",
+   "fresh": "aging"
+  },
+  {
+   "company": "Wuliangye Yibin",
+   "use": "AI action plan for high-quality industry development, introducing four near-term AI projects: qu-making (制曲) application, brewing (酿造) application, production-robot application, and smart park (智慧园区), positioning AI as the engine fusing traditional brewing with advanced tech. [none]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "http://www.cnwinenews.com/html/2025/qiye_0706/130573.html",
+   "raw_sector": "",
+   "date": "2025-07-06",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Wuliangye Yibin",
+   "use": "Establishment of Sichuan Puxi Intelligent Equipment Co. (四川普西智能装备有限公司), a Wuliangye-Group-linked JV whose business scope covers intelligent robot R&D and sales, AI hardware sales, AI application-software development and AI system integration for smart manufacturing. [none]",
+   "existence": "confirmed",
+   "value": "registered capital 25 million yuan",
+   "tier": "",
+   "url": "https://finance.sina.com.cn/roll/2025-11-17/doc-infxtkqa3532168.shtml",
+   "raw_sector": "",
+   "date": "2025-11-17",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Wuliangye Yibin",
+   "use": "AI 'training camp' applying large-model AI to dynamically optimize crop-planting strategy in the raw-material sourcing phase, plus stated commitment to developing fermentation large models, intelligent sensory evaluation and AI blending (勾调) systems. [none]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://caifuhao.eastmoney.com/news/20260715160131504178080",
+   "raw_sector": "",
+   "date": "2026-07-15",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Wuliangye Yibin",
+   "use": "Huawei Cloud 'smart store' retail solution using AI, cloud and edge computing for customer-flow analysis, shelf-display recognition, automated store inspection and inventory (进销存) management; rolled out from a Phase-1 pilot toward the national network of ~1,600 branded specialty stores. [Huawei Cloud (华海智汇 ISV integrator)]",
+   "existence": "confirmed",
+   "value": "~1,600 stores; store sales exceeded 10 billion yuan",
+   "tier": "",
+   "url": "https://www.huaweicloud.com/cloudplus/fourteenthphase/detail05.html",
+   "raw_sector": "",
+   "date": "2023-04-11",
+   "fresh": "stale"
+  },
+  {
+   "company": "Wuliangye Yibin",
+   "use": "Strategic partnership with Alibaba: Alibaba Cloud supporting Wuliangye in building digital retail stores and production/quality inspection, with Tmall/LST for channels and Ant/Cainiao for finance and logistics as part of marketing digital transformation. [Alibaba Cloud / Alibaba Group]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://jiu.ifeng.com/c/7pSCCTMKukP",
+   "raw_sector": "",
+   "date": "2019-08-26",
+   "fresh": "stale"
+  },
+  {
+   "company": "Wuliangye Yibin",
+   "use": "'95195' intelligent customer-service hotline built with China Unicom, using data analytics and intelligent matching plus a product/channel knowledge base to handle consultations, complaints, anti-counterfeiting reports and customer surveys via one-number entry. [China Unicom]",
+   "existence": "confirmed",
+   "value": "~10,000 calls handled; 92.03% first-contact resolution; 99.6% satisfaction",
+   "tier": "",
+   "url": "https://i.ifeng.com/c/8ZvltI2c9bd",
+   "raw_sector": "",
+   "date": "2024-05-27",
+   "fresh": "aging"
+  },
+  {
+   "company": "Wuliangye Yibin",
+   "use": "Globally-coordinated digital supply-chain platform deploying AI forecasting models and intelligent scheduling systems to optimize complex raw-material procurement, production scheduling and logistics delivery (recognized in the 2025 China Brand Digital Technology report). [none]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://brand.icxo.com/?news_30/2121.html",
+   "raw_sector": "",
+   "date": "2025-06-26",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Wuliangye Yibin",
+   "use": "AI-driven managed security service (MSS) combining on-site security appliances with cloud-based AI for intelligent alert analysis, event correlation and human-machine collaborative threat handling, defending against generative-AI-era attacks. [Sangfor / Deepsitech (深信服)]",
+   "existence": "confirmed",
+   "value": "100% incident closure rate; dozens of security events resolved over the year",
+   "tier": "",
+   "url": "https://app.xinhuanet.com/news/article.html?articleId=6ce00ef51881c4d45c5bb21f67710dc7",
+   "raw_sector": "",
+   "date": "2024-10-14",
+   "fresh": "aging"
   }
  ]
 }

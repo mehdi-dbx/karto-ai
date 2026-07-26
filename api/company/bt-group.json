@@ -3,22 +3,22 @@
  "name": "BT Group",
  "cc": "UK",
  "vertical": "Telecom",
- "deployments": 1,
- "confirmed": 1,
- "with_value_number": 1,
- "proof_rate": 1.0,
+ "deployments": 6,
+ "confirmed": 6,
+ "with_value_number": 2,
+ "proof_rate": 0.333,
  "mktcap": 24498300000.0,
  "revenue": 24955500000.0,
  "employees": 77200.0,
  "silent": false,
- "per_bn_revenue": 0.04,
- "per_10k_emp": 0.13,
+ "per_bn_revenue": 0.24,
+ "per_10k_emp": 0.78,
  "benchmarks": {
   "global_vertical": {
-   "deployments": 0,
-   "confirmed": 16,
-   "proof_rate": 78,
-   "n": 93
+   "deployments": 30,
+   "confirmed": 51,
+   "proof_rate": 48,
+   "n": 94
   }
  },
  "first_seen": null,
@@ -27,14 +27,51 @@
  "momentum": "none",
  "maturity": "L3",
  "maturity_evidence": [
+  "multi_horizontal",
   "named_product:Aimee",
   "value_number",
   "tier_p"
  ],
- "prospect_score": 14,
- "stack": [],
- "vendor_named": false,
+ "prospect_score": 63,
+ "stack": [
+  "Amazon AWS",
+  "SAP"
+ ],
+ "vendor_named": true,
  "deployments_detail": [
+  {
+   "company": "BT Group",
+   "use": "AI-assisted skills matching for recruitment [SAP SuccessFactors]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.sap.com/documents/2025/03/9e3de447-fb7e-0010-bca6-c68f7e60039b.html",
+   "raw_sector": "",
+   "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "BT Group",
+   "use": "Intelligent document processing with generative AI for key attribute extraction [AWS]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://aws.amazon.com/partners/success/bt-group-wipro/",
+   "raw_sector": "",
+   "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "BT Group",
+   "use": "GenAI Gateway platform with contract analysis use cases [AWS]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://press.aboutamazon.com/aws/2024/9/bt-groups-digital-unit-launches-genai-gateway-platform-powered-by-aws-accelerating-the-companys-safe-adoption-of-generative-ai-at-scale",
+   "raw_sector": "",
+   "date": "Sep 23, 2024",
+   "fresh": "undated"
+  },
   {
    "company": "BT Group",
    "use": "EE virtual assistant \"Aimee\" handles up to 60,000 customer conversations/week; Sprinklr generative-AI partnership; automation success approaching 50%",
@@ -43,6 +80,28 @@
    "tier": "P",
    "url": "https://newsroom.bt.com/bt-group-leans-on-ai-to-transform-customer-service-experience/",
    "raw_sector": "Telecommunications services",
+   "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "BT Group",
+   "use": "Generative AI platform for customer service, sales and support (EE and BT customers)",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://newsroom.bt.com/bt-group-leans-on-ai-to-transform-customer-service-experience/",
+   "raw_sector": "",
+   "date": "Dec 12, 2024",
+   "fresh": "undated"
+  },
+  {
+   "company": "BT Group",
+   "use": "Scam Guard - AI-powered scam and spam blocking",
+   "existence": "confirmed",
+   "value": "169000000",
+   "tier": "",
+   "url": "https://www.linkedin.com/posts/ee-uk_did-you-know-that-since-launching-scam-guard-activity-7455170267179413504-oiSt",
+   "raw_sector": "",
    "date": "missing",
    "fresh": "undated"
   }

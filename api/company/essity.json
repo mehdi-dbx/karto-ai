@@ -3,41 +3,57 @@
  "name": "Essity",
  "cc": "SE",
  "vertical": "Retail & E-commerce",
- "deployments": 1,
- "confirmed": 1,
- "with_value_number": 0,
- "proof_rate": 0.0,
+ "deployments": 9,
+ "confirmed": 8,
+ "with_value_number": 3,
+ "proof_rate": 0.333,
  "mktcap": 18110476190.0,
  "revenue": 13101904762.0,
  "employees": 36000.0,
  "silent": false,
- "per_bn_revenue": 0.08,
- "per_10k_emp": 0.28,
+ "per_bn_revenue": 0.69,
+ "per_10k_emp": 2.5,
  "benchmarks": {
   "global_vertical": {
-   "deployments": 0,
-   "confirmed": 24,
-   "proof_rate": 0,
-   "n": 295
+   "deployments": 64,
+   "confirmed": 75,
+   "proof_rate": 62,
+   "n": 301
   }
  },
- "first_seen": 2025,
+ "first_seen": 2020,
  "by_year": [
   {
-   "year": 2025,
+   "year": 2020,
+   "n": 2
+  },
+  {
+   "year": 2021,
+   "n": 3
+  },
+  {
+   "year": 2022,
    "n": 1
+  },
+  {
+   "year": 2025,
+   "n": 3
   }
  ],
  "undated_pct": 0,
- "momentum": "rising",
- "maturity": "L3",
+ "momentum": "early_mover,rising",
+ "maturity": "L4",
  "maturity_evidence": [
-  "named_product:Multi"
+  "multi_horizontal",
+  "named_product:Multi",
+  "value_number",
+  "multi_year"
  ],
- "prospect_score": 46,
+ "prospect_score": 75,
  "stack": [
   "Accenture",
-  "Microsoft"
+  "Microsoft",
+  "Microsoft Azure"
  ],
  "vendor_named": true,
  "deployments_detail": [
@@ -50,6 +66,94 @@
    "url": "https://newsroom.accenture.com/news/2025/essity-collaborates-with-accenture-and-microsoft-to-accelerate-adoption-of-ai-agents-to-drive-productivity-and-growth",
    "raw_sector": "Consumer Staples",
    "date": "2025-11",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Essity",
+   "use": "Multi-year program with Accenture and Microsoft to embed enterprise AI/agentic agents across procurement and finance (procure-to-pay, three-way invoice matching, chasing missing invoices), run via Essity's AI Centre of Excellence, with plans to scale across the value chain. [Accenture, Microsoft (Azure, Copilot Studio, Power Platform)]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://newsroom.accenture.com/news/2025/essity-collaborates-with-accenture-and-microsoft-to-accelerate-adoption-of-ai-agents-to-drive-productivity-and-growth",
+   "raw_sector": "",
+   "date": "2025-11-11",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Essity",
+   "use": "AI-based machine health / predictive maintenance across Essity's global production operations, using wireless vibration/ultrasonic sensors and AI diagnostics to predict and prevent machine failures. [Augury]",
+   "existence": "confirmed",
+   "value": "Monitoring production operations spanning 14 countries",
+   "tier": "",
+   "url": "https://www.businesswire.com/news/home/20200514005484/en/Essity-Leans-on-Digital-Tools-to-Fortify-Their-Manufacturing-Supply-Chain-While-Improving-Machine-Health-and-Productivity",
+   "raw_sector": "",
+   "date": "2020-05-14",
+   "fresh": "stale"
+  },
+  {
+   "company": "Essity",
+   "use": "Semi-automated centerlining in tissue manufacturing: determining optimal machine settings for a production process using fuzzy logic and predictive models. [none]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://manufacturing-today.com/news/top-priority/",
+   "raw_sector": "",
+   "date": "2021-10-12",
+   "fresh": "stale"
+  },
+  {
+   "company": "Essity",
+   "use": "Automated computer-vision systems for quality monitoring and intelligent process control in tissue production lines (part of multiple AI-based systems in use). [none]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://manufacturing-today.com/news/top-priority/",
+   "raw_sector": "",
+   "date": "2021-10-12",
+   "fresh": "stale"
+  },
+  {
+   "company": "Essity",
+   "use": "Tork Vision Cleaning (formerly EasyCube): connected washroom dispensers and people-counting sensors feed algorithms that predict dispenser refill needs and prioritize data-driven cleaning routes for facility managers. [none]",
+   "existence": "confirmed",
+   "value": "Up to 20% cleaning hours saved; dispensers full ~99% of the time (vendor claim)",
+   "tier": "",
+   "url": "https://www.torkglobal.com/us/en/products-and-services/our-services/tork-vision/vision-cleaning",
+   "raw_sector": "",
+   "date": "2022-02-16",
+   "fresh": "stale"
+  },
+  {
+   "company": "Essity",
+   "use": "TENA SmartCare Change Indicator: FDA-cleared digital health sensor that tracks and estimates urine saturation levels in incontinence products and notifies caregivers when a change is needed, reducing manual checks. [none]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.tena.us/professionals/products/product-innovation/tena-smartcare/",
+   "raw_sector": "",
+   "date": "2020-10-20",
+   "fresh": "stale"
+  },
+  {
+   "company": "Essity",
+   "use": "TENA SmartCare Identifi: a digital continence-assessment solution where a wearable logger records voiding patterns over 72 hours and generates an automated voiding report to individualize care. [none]",
+   "existence": "confirmed",
+   "value": "44% reduction in leakages (ARCTICC study, vendor site)",
+   "tier": "",
+   "url": "https://www.tena.us/professionals/products/product-innovation/smartcare-identifi/",
+   "raw_sector": "",
+   "date": "2021-09-01",
+   "fresh": "stale"
+  },
+  {
+   "company": "Essity",
+   "use": "TENA SmartCare wearable bladder-monitoring solution: a discreet wearable ultrasound sensor paired with an app that continuously tracks bladder fullness in real time to help predict and prevent incontinence. [Framna]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://framna.com/cases/essity",
+   "raw_sector": "",
+   "date": "2025-01-01",
    "fresh": "fresh"
   }
  ]

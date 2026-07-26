@@ -3,48 +3,77 @@
  "name": "Komatsu Ltd.",
  "cc": "JP",
  "vertical": "Industrial / Machinery",
- "deployments": 1,
- "confirmed": 1,
- "with_value_number": 1,
- "proof_rate": 1.0,
+ "deployments": 13,
+ "confirmed": 12,
+ "with_value_number": 4,
+ "proof_rate": 0.308,
  "mktcap": 38333333333.0,
  "revenue": 27533333333.0,
  "employees": 67279.0,
  "silent": false,
- "per_bn_revenue": 0.04,
- "per_10k_emp": 0.15,
+ "per_bn_revenue": 0.47,
+ "per_10k_emp": 1.93,
  "benchmarks": {
   "global_vertical": {
-   "deployments": 0,
-   "confirmed": 14,
-   "proof_rate": 79,
-   "n": 175
+   "deployments": 89,
+   "confirmed": 97,
+   "proof_rate": 81,
+   "n": 176
   },
   "country_vertical": {
-   "deployments": 0,
-   "confirmed": 4,
-   "proof_rate": 73,
+   "deployments": 85,
+   "confirmed": 100,
+   "proof_rate": 62,
    "n": 27
   }
  },
- "first_seen": 2027,
+ "first_seen": 2017,
  "by_year": [
+  {
+   "year": 2017,
+   "n": 1
+  },
+  {
+   "year": 2019,
+   "n": 1
+  },
+  {
+   "year": 2024,
+   "n": 1
+  },
+  {
+   "year": 2025,
+   "n": 2
+  },
+  {
+   "year": 2026,
+   "n": 4
+  },
   {
    "year": 2027,
    "n": 1
   }
  ],
- "undated_pct": 0,
- "momentum": "late_entrant,rising",
- "maturity": "L3",
+ "undated_pct": 23,
+ "momentum": "early_mover,rising",
+ "maturity": "L4",
  "maturity_evidence": [
+  "multi_horizontal",
   "named_product:Autonomous",
   "value_number",
+  "multi_year",
   "tier_p"
  ],
- "prospect_score": 14,
- "stack": [],
- "vendor_named": false,
+ "prospect_score": 88,
+ "stack": [
+  "Microsoft",
+  "Microsoft Azure",
+  "NVIDIA",
+  "Palantir",
+  "SAP",
+  "ServiceNow"
+ ],
+ "vendor_named": true,
  "deployments_detail": [
   {
    "company": "Komatsu Ltd.",
@@ -56,6 +85,138 @@
    "raw_sector": "Machinery",
    "date": "2027-01",
    "fresh": "fresh"
+  },
+  {
+   "company": "Komatsu Ltd.",
+   "use": "FrontRunner Autonomous Haulage System (AHS): driverless large mining trucks that navigate mine sites autonomously using GPS, sensors and AI, improving safety and lowering maintenance (avg 40% improvement in tire/brake life, 13% reduction in overall maintenance). [Komatsu (in-house)]",
+   "existence": "confirmed",
+   "value": "40% improvement in tire and brake life; 13% reduction in overall maintenance",
+   "tier": "",
+   "url": "https://www.komatsu.com/en-us/technology/smart-mining/loading-and-haulage/autonomous-haulage-system",
+   "raw_sector": "",
+   "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "Komatsu Ltd.",
+   "use": "Smart Quarry Autonomous, powered by Pronto: AI vision-only autonomous haulage retrofit for Komatsu HD605-8/HD605-10 quarry trucks; used cameras and AI (no lidar/radar) to haul over 2 million tons of limestone in under 8 months at Lake Bridgeport quarry, Texas; rollout to 100+ trucks proceeding. [Pronto.ai]",
+   "existence": "confirmed",
+   "value": "Over 2 million tons hauled in under 8 months; rollout to 100+ trucks",
+   "tier": "",
+   "url": "https://pronto.ai/pronto-announces-industry-milestone-north-americas-first-fully-autonomous-mixed-fleet-quarry-surpasses-two-million-tons-hauled/",
+   "raw_sector": "",
+   "date": "2025-08",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Komatsu Ltd.",
+   "use": "Smart Construction Edge / Dashboard AI object removal: AI automatically strips obstacles (machines, buildings, trees) from drone survey imagery and 3D point clouds to produce clean terrain models for jobsite mapping. [Komatsu (in-house)]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.komatsu.eu/en/news/komatsu-smart-construction-integrates-artificial-intelligence-in-latest-product",
+   "raw_sector": "",
+   "date": "2024-10",
+   "fresh": "aging"
+  },
+  {
+   "company": "Komatsu Ltd.",
+   "use": "Palantir AIP/Foundry used to optimize mining equipment service, aftermarket and customer machine uptime through AI-driven real-time alerting and analytics on equipment operation data. [Palantir Technologies]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.youtube.com/watch?v=Z7wduNTriRU",
+   "raw_sector": "",
+   "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "Komatsu Ltd.",
+   "use": "Predictive maintenance: machine learning models on Komtrax telematics data predict component life, detect anomalies/potential failures, and estimate optimal overhaul timing to improve uptime and reduce maintenance costs. [Komatsu (Komtrax)]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.komatsu.jp/en/newsroom/2026/20260619",
+   "raw_sector": "",
+   "date": "2026-06",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Komatsu Ltd.",
+   "use": "Applied Intuition partnership: software-defined vehicle (SDV) and autonomy platform for mining equipment with embedded machine learning/AI for continuous learning, spanning advanced operator assist to full autonomy, plus AI-powered tooling for haulage and collision avoidance. [Applied Intuition (Vehicle OS)]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.appliedintuition.com/press-releases/applied-intuition-komatsu-partnership",
+   "raw_sector": "",
+   "date": "2025-09",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Komatsu Ltd.",
+   "use": "KView Assistant: AI-powered IT support chatbot integrated into SAP BTP and ServiceNow, providing real-time AI-driven answers to IT inquiries and surfacing knowledge base articles to deflect tickets; supports 2,000+ users across the KView Portal. [Protera, SAP BTP, ServiceNow]",
+   "existence": "confirmed",
+   "value": "Supports over 2,000 users",
+   "tier": "",
+   "url": "https://info.protera.com/komatsu-case-study",
+   "raw_sector": "",
+   "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "Komatsu Ltd.",
+   "use": "AI-powered service bot enabling natural-language search across technical documentation for field service; deployed in Japan, North America, Europe, Australia and Latin America, improving service efficiency and response quality. [Komatsu (in-house AI framework)]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.komatsu.jp/en/newsroom/2026/20260619",
+   "raw_sector": "",
+   "date": "2026-06",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Komatsu Ltd.",
+   "use": "Manufacturing optimization: anomaly-detection AI for quality control/predictive maintenance and computer vision digitizing real-time production floor information (equipment, people, materials), integrated with KOM-MICS for advanced production planning. [Komatsu (KOM-MICS)]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.komatsu.jp/en/newsroom/2026/20260619",
+   "raw_sector": "",
+   "date": "2026-06",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Komatsu Ltd.",
+   "use": "Smart manufacturing on Microsoft Azure: cloud + IoT + AI to gather and analyze factory/equipment data, enabling predictive maintenance and freeing skilled workers' time. [Microsoft Azure]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://news.microsoft.com/apac/2019/07/24/making-smart-manufacturing-even-smarter-with-the-cloud/",
+   "raw_sector": "",
+   "date": "2019-07",
+   "fresh": "stale"
+  },
+  {
+   "company": "Komatsu Ltd.",
+   "use": "Generative AI applied across the software development lifecycle: code comprehension, code generation, code review and test creation to improve developer productivity and software quality. [Komatsu (in-house AI framework)]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.komatsu.jp/en/newsroom/2026/20260619",
+   "raw_sector": "",
+   "date": "2026-06",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Komatsu Ltd.",
+   "use": "NVIDIA-powered intelligent cameras (Jetson AI platform) mounted on Komatsu heavy machinery to create real-time 360-degree jobsite views detecting people and equipment for construction site safety; part of SMARTCONSTRUCTION. [NVIDIA (Jetson), Skycatch]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://nvidianews.nvidia.com/news/japans-komatsu-selects-nvidia-as-partner-for-deploying-ai-to-create-safer-more-efficient-construction-sites",
+   "raw_sector": "",
+   "date": "2017-12",
+   "fresh": "stale"
   }
  ]
 }

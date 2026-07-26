@@ -3,28 +3,28 @@
  "name": "Winbond Electronics",
  "cc": "TW",
  "vertical": "Manufacturing & Robotics",
- "deployments": 1,
- "confirmed": 1,
+ "deployments": 3,
+ "confirmed": 3,
  "with_value_number": 1,
- "proof_rate": 1.0,
+ "proof_rate": 0.333,
  "mktcap": 22640625000.0,
  "revenue": 3364687500.0,
  "employees": 4899.0,
  "silent": false,
- "per_bn_revenue": 0.3,
- "per_10k_emp": 2.04,
+ "per_bn_revenue": 0.89,
+ "per_10k_emp": 6.12,
  "benchmarks": {
   "global_vertical": {
-   "deployments": 0,
-   "confirmed": 24,
-   "proof_rate": 85,
-   "n": 147
+   "deployments": 25,
+   "confirmed": 50,
+   "proof_rate": 74,
+   "n": 150
   },
   "country_vertical": {
-   "deployments": 0,
-   "confirmed": 38,
-   "proof_rate": 86,
-   "n": 22
+   "deployments": 5,
+   "confirmed": 50,
+   "proof_rate": 55,
+   "n": 23
   }
  },
  "first_seen": 2025,
@@ -34,13 +34,14 @@
    "n": 1
   }
  ],
- "undated_pct": 0,
+ "undated_pct": 67,
  "momentum": "rising",
  "maturity": "L3",
  "maturity_evidence": [
+  "named_product:Edge",
   "value_number"
  ],
- "prospect_score": 14,
+ "prospect_score": 53,
  "stack": [],
  "vendor_named": false,
  "deployments_detail": [
@@ -54,6 +55,28 @@
    "raw_sector": "Semiconductors",
    "date": "2025",
    "fresh": "fresh"
+  },
+  {
+   "company": "Winbond Electronics",
+   "use": "Edge AI model deployment across platforms and edge devices",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.winbond.com/hq/product/customized-memory-solution/cube/?__locale=en",
+   "raw_sector": "",
+   "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "Winbond Electronics",
+   "use": "CUBE architecture for generative AI on hybrid platforms",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.prnewswire.com/news-releases/winbond-introduces-innovative-cube-architecture-for-powerful-edge-ai-devices-301939928.html",
+   "raw_sector": "",
+   "date": "Sep 27, 2023",
+   "fresh": "undated"
   }
  ]
 }

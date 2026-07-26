@@ -3,27 +3,27 @@
  "name": "Open Text",
  "cc": "CA",
  "vertical": "Technology",
- "deployments": 1,
- "confirmed": 1,
- "with_value_number": 0,
- "proof_rate": 0.0,
+ "deployments": 13,
+ "confirmed": 12,
+ "with_value_number": 2,
+ "proof_rate": 0.154,
  "mktcap": 5580882353.0,
  "revenue": 5345588235.0,
  "employees": 20500.0,
  "silent": false,
- "per_bn_revenue": 0.19,
- "per_10k_emp": 0.49,
+ "per_bn_revenue": 2.43,
+ "per_10k_emp": 6.34,
  "benchmarks": {
   "global_vertical": {
-   "deployments": 0,
-   "confirmed": 6,
-   "proof_rate": 0,
-   "n": 156
+   "deployments": 82,
+   "confirmed": 89,
+   "proof_rate": 44,
+   "n": 159
   },
   "country_vertical": {
-   "deployments": 0,
-   "confirmed": 0,
-   "proof_rate": 0,
+   "deployments": 75,
+   "confirmed": 100,
+   "proof_rate": 50,
    "n": 5
   }
  },
@@ -31,19 +31,42 @@
  "by_year": [
   {
    "year": 2023,
+   "n": 5
+  },
+  {
+   "year": 2024,
+   "n": 2
+  },
+  {
+   "year": 2025,
+   "n": 5
+  },
+  {
+   "year": 2026,
    "n": 1
   }
  ],
  "undated_pct": 0,
- "momentum": "early_mover,gone_quiet",
- "maturity": "L3",
+ "momentum": "early_mover,cooling",
+ "maturity": "L4",
  "maturity_evidence": [
+  "multi_horizontal",
   "named_product:OpenText",
+  "value_number",
+  "multi_year",
   "tier_p"
  ],
- "prospect_score": 54,
- "stack": [],
- "vendor_named": false,
+ "prospect_score": 94,
+ "stack": [
+  "Amazon AWS",
+  "Google",
+  "Google Cloud",
+  "Meta",
+  "Microsoft",
+  "Microsoft Azure",
+  "OpenAI"
+ ],
+ "vendor_named": true,
  "deployments_detail": [
   {
    "company": "Open Text",
@@ -55,6 +78,138 @@
    "raw_sector": "Software",
    "date": "2023",
    "fresh": "stale"
+  },
+  {
+   "company": "Open Text",
+   "use": "OpenText Content Aviator — agentic generative-AI content assistant embedded in Core Content Management/Documentum for conversational search, summarization and content discovery; runs on private LLMs (Google Cloud Vertex AI, and GPT-5 when deployed on Microsoft Azure). [Google Cloud Vertex AI; Microsoft Azure OpenAI (GPT-5)]",
+   "existence": "confirmed",
+   "value": "up to 70% of teams' time freed",
+   "tier": "",
+   "url": "https://futurumgroup.com/insights/opentext-aviator-delivers-generative-ai-use-cases-beyond-cx/",
+   "raw_sector": "",
+   "date": "2023-08-18",
+   "fresh": "stale"
+  },
+  {
+   "company": "Open Text",
+   "use": "OpenText Business Network Aviator — conversational generative-AI virtual advisor for B2B supply-chain integrations; 'first ChatGPT-like solution for B2B integrations' for order/PO tracking and exception handling. [none]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://blogs.opentext.com/supercharge-your-supply-chain-management-with-genai/",
+   "raw_sector": "",
+   "date": "2024-06-25",
+   "fresh": "aging"
+  },
+  {
+   "company": "Open Text",
+   "use": "OpenText Axcelerate eDiscovery with Aviator — generative-AI assistance for legal document review/eDiscovery running on a private LLM via Amazon Bedrock (Llama 3), with support for multiple models (Vertex, PaLM2, T5). [AWS Bedrock; Meta Llama 3]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.reddit.com/r/ediscovery/comments/1jqriyg/opentext_axcelerate_ediscovery_with_aviator_gen_ai/",
+   "raw_sector": "",
+   "date": "2025-04-01",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Open Text",
+   "use": "OpenText Aviator Studio — no-code 'AI control plane' launched at OpenText World 2025 for designing, orchestrating and governing multi-agent enterprise AI agents across OpenText products, with guardrails and a prompt library. [Microsoft]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.crn.com/news/security/2025/5-big-ai-announcements-at-opentext-world-2025",
+   "raw_sector": "",
+   "date": "2025-11-18",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Open Text",
+   "use": "opentext.ai / Aviator platform built on Google Cloud Vertex AI and the PaLM 2 large language model — OpenText's foundational use of Google Cloud generative AI to power its Aviator information-management assistants. [Google Cloud Vertex AI; PaLM 2]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.opentext.com/about/press-releases/opentext-expands-partnership-with-google-cloud-to-deliver-next-generation-information-management",
+   "raw_sector": "",
+   "date": "2023-08-24",
+   "fresh": "stale"
+  },
+  {
+   "company": "Open Text",
+   "use": "Aviator for Legal / Claims Management / Research — vertical AI assistants: automated legal document and precedent retrieval; claims fraud detection and policy validation; and data analysis for mining/biotech research. [none]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.prnewswire.com/news-releases/ai-in-action-opentext-empowers-knowledge-workers-across-industries-with-personalized-ai-productivity-tools-302499709.html",
+   "raw_sector": "",
+   "date": "2025-07-08",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Open Text",
+   "use": "OpenText Experience Aviator — generative-AI foundation for marketing and customer-success teams to generate contextual, personalized customer communications and content. [none]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://blogs.opentext.com/ai-powered-customer-experiences-experience-aviator/",
+   "raw_sector": "",
+   "date": "2026-02-02",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Open Text",
+   "use": "OpenText Fortify Remediation Aviator — AI code-security assistant embedded in Fortify SAST/on-Demand that triages true vs. false-positive vulnerabilities and auto-generates contextual code fixes for developers. [AWS (Fortify on Demand public cloud)]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://siliconangle.com/2024/07/16/opentext-launches-ai-powered-fortify-aviator-enhance-code-security-vulnerability-remediation/",
+   "raw_sector": "",
+   "date": "2024-07-16",
+   "fresh": "aging"
+  },
+  {
+   "company": "Open Text",
+   "use": "OpenText Cybersecurity Aviator / Threat Detection and Response — machine-learning threat-detection models that continuously learn to uncover insider threats and reduce SOC alert fatigue, with rapid model deployment (new models in place within hours). [none]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://blogs.opentext.com/opentext-cybersecurity-aviator-enables-a-new-threat-detection-approach/",
+   "raw_sector": "",
+   "date": "2023-10-10",
+   "fresh": "stale"
+  },
+  {
+   "company": "Open Text",
+   "use": "OpenText DevOps Aviator — AI that auto-generates test scripts and codeless tests from user stories, specs and video recordings, and converts manual scripts; raises test coverage. [none]",
+   "existence": "confirmed",
+   "value": "test coverage raised from ~65% to 95%; automates 95% of test scripts, saving up to three days of manual testing",
+   "tier": "",
+   "url": "https://www.prnewswire.com/news-releases/ai-in-action-opentext-empowers-knowledge-workers-across-industries-with-personalized-ai-productivity-tools-302499709.html",
+   "raw_sector": "",
+   "date": "2025-07-08",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Open Text",
+   "use": "OpenText Service Management Aviator (IT Operations Aviator) — private generative-AI virtual agent for SMAX/ITSM providing multilingual self-service IT support to employees and end users. [none]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://futurumgroup.com/insights/evaluating-opentext-aviator-part-2-leading-ai-use-cases/",
+   "raw_sector": "",
+   "date": "2023-10-16",
+   "fresh": "stale"
+  },
+  {
+   "company": "Open Text",
+   "use": "MyAviator — secure personal 'digital worker' launched for individual employees to interact with documents, extract insights and generate content within the OpenText ecosystem; generates onboarding kits in hours instead of weeks. [none]",
+   "existence": "confirmed",
+   "value": "onboarding kits generated in hours instead of weeks",
+   "tier": "",
+   "url": "https://www.prnewswire.com/news-releases/ai-in-action-opentext-empowers-knowledge-workers-across-industries-with-personalized-ai-productivity-tools-302499709.html",
+   "raw_sector": "",
+   "date": "2025-07-08",
+   "fresh": "fresh"
   }
  ]
 }

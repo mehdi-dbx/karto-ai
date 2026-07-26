@@ -3,45 +3,122 @@
  "name": "Hewlett Packard Enterprise",
  "cc": "US",
  "vertical": "Technology",
- "deployments": 1,
- "confirmed": 1,
- "with_value_number": 0,
- "proof_rate": 0.0,
+ "deployments": 10,
+ "confirmed": 10,
+ "with_value_number": 2,
+ "proof_rate": 0.2,
  "mktcap": 64000000000.0,
  "revenue": 38790000000.0,
  "employees": 67000.0,
  "silent": false,
- "per_bn_revenue": 0.03,
- "per_10k_emp": 0.15,
+ "per_bn_revenue": 0.26,
+ "per_10k_emp": 1.49,
  "benchmarks": {
   "global_vertical": {
-   "deployments": 0,
-   "confirmed": 6,
-   "proof_rate": 0,
-   "n": 156
+   "deployments": 58,
+   "confirmed": 76,
+   "proof_rate": 53,
+   "n": 159
   },
   "country_vertical": {
-   "deployments": 0,
-   "confirmed": 4,
-   "proof_rate": 0,
+   "deployments": 51,
+   "confirmed": 73,
+   "proof_rate": 62,
    "n": 74
   }
  },
- "first_seen": null,
- "by_year": [],
- "undated_pct": 100,
- "momentum": "none",
- "maturity": "L3",
+ "first_seen": 2019,
+ "by_year": [
+  {
+   "year": 2019,
+   "n": 1
+  },
+  {
+   "year": 2024,
+   "n": 2
+  },
+  {
+   "year": 2025,
+   "n": 5
+  },
+  {
+   "year": 2026,
+   "n": 1
+  }
+ ],
+ "undated_pct": 10,
+ "momentum": "early_mover,rising",
+ "maturity": "L4",
  "maturity_evidence": [
+  "multi_horizontal",
   "named_product:GreenLake",
+  "value_number",
+  "multi_year",
   "tier_p"
  ],
- "prospect_score": 46,
+ "prospect_score": 92,
  "stack": [
-  "Microsoft"
+  "Deloitte",
+  "Microsoft",
+  "NVIDIA"
  ],
  "vendor_named": true,
  "deployments_detail": [
+  {
+   "company": "Hewlett Packard Enterprise",
+   "use": "HPE Aruba Networking Central GenAI-based AI Search: LLM-powered natural-language search engine embedded in the AIOps network management platform, letting network operators query documentation and telemetry conversationally. Included across all license tiers, launched FY24 Q2. [Multiple LLMs (undisclosed)]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.hpe.com/us/en/newsroom/press-release/2024/03/hewlett-packard-enterprise-leverages-genai-to-enhance-aiops-capabilities-of-hpe-aruba-networking-central-platform.html",
+   "raw_sector": "",
+   "date": "2024-03-26",
+   "fresh": "aging"
+  },
+  {
+   "company": "Hewlett Packard Enterprise",
+   "use": "HPE Aruba Networking Central with agentic mesh + Networking Copilot: network of interconnected AI agents for autonomous, self-driving network operations (provisioning, monitoring, troubleshooting, root-cause analysis). Available starting Q3 2025. [HPE GreenLake Intelligence]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.hpe.com/us/en/newsroom/press-release/2025/06/hpe-reimagines-hybrid-it-operations-with-greenlake-intelligence.html",
+   "raw_sector": "",
+   "date": "2025-06-24",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Hewlett Packard Enterprise",
+   "use": "HPE GreenLake Intelligence / GreenLake Copilot: agentic AI framework infused across HPE's hybrid cloud stack (compute, storage, networking, virtualization) for autonomous hybrid-cloud operations, cost/security optimization, and natural-language operator assistance. GreenLake Copilot beta from Q3 2025. [HPE GreenLake Intelligence, NVIDIA]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.techzine.eu/news/infrastructure/132483/hpe-infuses-stack-with-greenlake-intelligences-agentic-ai/",
+   "raw_sector": "",
+   "date": "2025-06-24",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Hewlett Packard Enterprise",
+   "use": "HPE OpsRamp agentic command center: AI agents embedded in the hybrid observability/AIOps platform for autonomous alert handling, incident processing, and root-cause analysis, including agentic monitoring for AI factories (GPUs, models, storage, networking). [HPE OpsRamp / GreenLake Intelligence]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.techzine.eu/news/infrastructure/132483/hpe-infuses-stack-with-greenlake-intelligences-agentic-ai/",
+   "raw_sector": "",
+   "date": "2025-06-24",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Hewlett Packard Enterprise",
+   "use": "HPE InfoSight: AIOps platform using machine learning to deliver predictive analytics that predict, prevent and auto-resolve infrastructure problems (storage, servers, VMs) from cross-fleet telemetry gathered from HPE systems worldwide. Long-deployed in production across customer fleets. [HPE InfoSight (proprietary ML)]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.hpe.com/us/en/storage/aiops.html",
+   "raw_sector": "",
+   "date": "2019-04-11",
+   "fresh": "stale"
+  },
   {
    "company": "Hewlett Packard Enterprise",
    "use": "GreenLake for AI + Cray/ProLiant AI servers + GreenLake Intelligence agentic AI framework/Copilot",
@@ -52,6 +129,50 @@
    "raw_sector": "Information Technology",
    "date": "missing",
    "fresh": "undated"
+  },
+  {
+   "company": "Hewlett Packard Enterprise",
+   "use": "ChatHPE GenAI Hub: HPE's internal, secure generative AI platform/assistant built on HPE Private Cloud AI, enabling employees across teams to safely use GenAI/LLMs for productivity (including an internal HR assistant chatbot). Part of 250+ internal AI use cases HPE runs across finance, operations and marketing. [HPE Private Cloud AI]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.youtube.com/watch?v=cAXwX3Yb62c",
+   "raw_sector": "",
+   "date": "2024-01-01",
+   "fresh": "aging"
+  },
+  {
+   "company": "Hewlett Packard Enterprise",
+   "use": "SASE Copilot for HPE Aruba Networking EdgeConnect: AI-driven security copilot providing natural-language insights on network activity and threats, unveiled at Black Hat USA 2025 as part of HPE's AI-driven security innovations. [HPE Aruba Networking]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.hpe.com/us/en/newsroom/press-release/2025/08/hpe-unveils-new-ai-driven-security-and-advanced-data-protection-innovations-at-black-hat-usa-2025.html",
+   "raw_sector": "",
+   "date": "2025-08-05",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Hewlett Packard Enterprise",
+   "use": "Alfred / CFO Insights: internal agentic + generative AI platform for HPE's finance organization (~3,600 people). Powers weekly operational performance reviews (replacing ~100 manually-built PowerPoint pages), and automates transactional finance across accounts payable, accounts receivable, credit & collections, payroll, procurement and internal audit. Processes 300M+ financial line items in near real-time; reengineered NVIDIA NIMs for deterministic outputs. Runs on HPE Private Cloud AI with Deloitte's Zora AI platform. [Deloitte (Zora AI), NVIDIA (NIM microservices), HPE Private Cloud AI]",
+   "existence": "confirmed",
+   "value": "~40% reduction in financial reporting cycle; at least 25% reduction in processing costs",
+   "tier": "",
+   "url": "https://www.cfodive.com/news/hpe-cfo-puts-agentic-ai-center-2026-finance-priorities/812097/",
+   "raw_sector": "",
+   "date": "2026-02-12",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Hewlett Packard Enterprise",
+   "use": "Deloitte + HPE co-developed CFO Insights (agentic AI for finance) confirming credit & collections, accounts payable, payroll, internal audit and procurement automation on HPE Private Cloud AI with deterministic reengineered NVIDIA NIMs. [Deloitte (Zora AI), NVIDIA, HPE Private Cloud AI]",
+   "existence": "confirmed",
+   "value": "~40% reduction in financial reporting cycle; 25%+ processing cost reduction",
+   "tier": "",
+   "url": "https://www.deloitte.com/us/en/services/consulting/articles/hpe-agentic-ai-collaboration.html",
+   "raw_sector": "",
+   "date": "2025-03-19",
+   "fresh": "fresh"
   }
  ]
 }

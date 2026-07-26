@@ -3,47 +3,64 @@
  "name": "CITIC Limited",
  "cc": "HK",
  "vertical": "Financial Services",
- "deployments": 2,
- "confirmed": 2,
- "with_value_number": 0,
- "proof_rate": 0.0,
+ "deployments": 12,
+ "confirmed": 8,
+ "with_value_number": 4,
+ "proof_rate": 0.333,
  "mktcap": 44978205128.0,
  "revenue": 134615384615.0,
  "employees": 193011.0,
  "silent": false,
- "per_bn_revenue": 0.01,
- "per_10k_emp": 0.1,
+ "per_bn_revenue": 0.09,
+ "per_10k_emp": 0.62,
  "benchmarks": {
   "global_vertical": {
-   "deployments": 62,
-   "confirmed": 73,
-   "proof_rate": 0,
-   "n": 377
+   "deployments": 81,
+   "confirmed": 67,
+   "proof_rate": 58,
+   "n": 388
   },
   "country_vertical": {
-   "deployments": 29,
+   "deployments": 43,
    "confirmed": 29,
-   "proof_rate": 0,
+   "proof_rate": 29,
    "n": 8
   }
  },
- "first_seen": 2024,
+ "first_seen": 2019,
  "by_year": [
   {
+   "year": 2019,
+   "n": 1
+  },
+  {
    "year": 2024,
+   "n": 6
+  },
+  {
+   "year": 2025,
+   "n": 3
+  },
+  {
+   "year": 2026,
    "n": 2
   }
  ],
  "undated_pct": 0,
- "momentum": "early_mover,gone_quiet",
- "maturity": "L3",
+ "momentum": "early_mover,cooling",
+ "maturity": "L4",
  "maturity_evidence": [
+  "multi_horizontal",
   "named_product:CITICS AI PLUS",
+  "value_number",
+  "multi_year",
   "tier_p"
  ],
- "prospect_score": 52,
+ "prospect_score": 75,
  "stack": [
-  "DeepSeek"
+  "DeepSeek",
+  "Microsoft",
+  "Tencent Cloud"
  ],
  "vendor_named": true,
  "deployments_detail": [
@@ -57,6 +74,17 @@
    "raw_sector": "Commerce & Industry (HSI)",
    "date": "2025",
    "fresh": "fresh"
+  },
+  {
+   "company": "CITIC Limited",
+   "use": "Bond analysis and risk assessment assistant",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.citic.com/uploadfile/2025/0417/20250417792176.pdf",
+   "raw_sector": "",
+   "date": "Apr 30, 2025",
+   "fresh": "undated"
   },
   {
    "company": "CITIC Limited",
@@ -79,6 +107,127 @@
    "raw_sector": "Conglomerate",
    "date": "2024",
    "fresh": "aging"
+  },
+  {
+   "company": "CITIC Limited",
+   "use": "\"CITIC Brain\" enterprise AI platform at China CITIC Bank — 300+ (later 600+) \"AI + data\" precision/small models providing real-time intelligent services (wealth management recommendations, digital marketing, customer service) to over 10 million clients; wealth-management AI facilitated over RMB230 billion in online sales. [In-house (CITIC Bank)]",
+   "existence": "confirmed",
+   "value": "300+ AI models; 10M+ clients served; RMB230bn online wealth sales",
+   "tier": "",
+   "url": "https://www.citicbank.com/about/investor_1011/Investment/lzzc_yw/",
+   "raw_sector": "",
+   "date": "2025",
+   "fresh": "fresh"
+  },
+  {
+   "company": "CITIC Limited",
+   "use": "\"SME financing solution AI Approver Assistant\" — GenAI tool at China CITIC Bank International that automates SME credit approval by handling unstructured data, developed and demonstrated within the HKMA GenA.I. Sandbox programme. [China CITIC Bank International (HKMA GenA.I. Sandbox)]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.cncbinternational.com/_document/about-us/media-center/2025-10-31/en/p251031.pdf",
+   "raw_sector": "",
+   "date": "2025-10-31",
+   "fresh": "fresh"
+  },
+  {
+   "company": "CITIC Limited",
+   "use": "\"Bond Copilot\" — foundation-model application by CITIC Securities integrating business-opportunity mining, risk management, smart office services and project operation for the bond business. [CITIC Securities (in-house)]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.chinadaily.com.cn/a/202407/06/WS66890c0aa31095c51c50cc23.html",
+   "raw_sector": "",
+   "date": "2024-07-06",
+   "fresh": "aging"
+  },
+  {
+   "company": "CITIC Limited",
+   "use": "AIGC digital publishing platform at CITIC Press / CITIC Publishing (300788.SZ) assisting key stages of the book-publishing process, improving publishing efficiency and optimizing marketing. [CITIC Press Group (in-house)]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://news.futunn.com/en/post/38200356/citic-publishing-300788-sz-the-company-s-aigc-digital-publishing",
+   "raw_sector": "",
+   "date": "2024",
+   "fresh": "aging"
+  },
+  {
+   "company": "CITIC Limited",
+   "use": "Strategic partnership with Tencent Cloud to deploy AI across China CITIC Bank International operations — intelligent risk control, internal-operations efficiency, and customer-facing services, plus exploring a new core banking architecture. [Tencent Cloud]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://finance.yahoo.com/technology/ai/articles/tencent-cloud-china-citic-bank-040800776.html",
+   "raw_sector": "",
+   "date": "2026-06-17",
+   "fresh": "fresh"
+  },
+  {
+   "company": "CITIC Limited",
+   "use": "Microsoft 365 Copilot deployed at CITIC Securities International for document/email summarization, town-hall presentation prep, financial research (Researcher agent, translating Chinese company docs), and performance-appraisal drafting; expanding org-wide with regular Microsoft training. [Microsoft (365 Copilot)]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://news.microsoft.com/source/asia/features/from-town-halls-to-appraisals-citic-securities-internationals-cio-keeps-microsoft-365-copilot-busy/",
+   "raw_sector": "",
+   "date": "2026-02-09",
+   "fresh": "fresh"
+  },
+  {
+   "company": "CITIC Limited",
+   "use": "AI outbound credit-card / marketing calls powered by \"CITIC Brain\" at China CITIC Bank, recording a success rate reportedly 16x higher than traditional outbound calls. [In-house (CITIC Brain)]",
+   "existence": "confirmed",
+   "value": "16x higher success rate vs traditional outbound calls",
+   "tier": "",
+   "url": "https://www.theasianbanker.com/updates-and-articles/china-citic-bank-awarded-best-innovation-centre-by-financial-institution-in-china-at-the-asian-banker-financial-technology-and-platform-awards-2019",
+   "raw_sector": "",
+   "date": "2019",
+   "fresh": "stale"
+  },
+  {
+   "company": "CITIC Limited",
+   "use": "Real-time intelligent anti-fraud and anti-money-laundering system at China CITIC Bank for transaction monitoring and interception, cited at ~90% accuracy. [In-house (CITIC Bank)]",
+   "existence": "confirmed",
+   "value": "~90% accuracy in real-time transaction monitoring/interception",
+   "tier": "",
+   "url": "https://www.citicbank.com/about/investor_1011/Investment/lzzc_yw/",
+   "raw_sector": "",
+   "date": "2025",
+   "fresh": "fresh"
+  },
+  {
+   "company": "CITIC Limited",
+   "use": "\"AI Databank\" — CITIC Telecom CPC's unified enterprise data platform integrating big data, LLMs and generative AI to enable dialogue-based data queries and automated report/insight generation; commercially offered ICT solution. [CITIC Telecom CPC (in-house)]",
+   "existence": "confirmed",
+   "value": "Report generation from ~1 hour to <10 seconds; 91.4% accuracy; ~HKD1.4M annual savings for typical enterprise",
+   "tier": "",
+   "url": "https://www.citictel-cpc.com/en-eu/blog/ai-databank-powering-big-data",
+   "raw_sector": "",
+   "date": "2024-09-13",
+   "fresh": "aging"
+  },
+  {
+   "company": "CITIC Limited",
+   "use": "Generative-AI \"Corporate AI Solution\" — one-stop generative-AI service for corporate clients unveiled by China CITIC Bank. [CITIC Bank (in-house)]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.chinadaily.com.cn/a/202407/06/WS66890c0aa31095c51c50cc23.html",
+   "raw_sector": "",
+   "date": "2024-07-06",
+   "fresh": "aging"
+  },
+  {
+   "company": "CITIC Limited",
+   "use": "Phone fraud detection",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.citictel-cpc.com/en-eu/blog/citic-telecom-stop-phone-frauds",
+   "raw_sector": "",
+   "date": "Dec 18, 2024",
+   "fresh": "undated"
   }
  ]
 }

@@ -3,49 +3,71 @@
  "name": "MS&AD Insurance Group, Inc.",
  "cc": "JP",
  "vertical": "Insurance",
- "deployments": 2,
- "confirmed": 2,
- "with_value_number": 1,
+ "deployments": 16,
+ "confirmed": 12,
+ "with_value_number": 8,
  "proof_rate": 0.5,
  "mktcap": 47000000000.0,
  "revenue": 45466666667.0,
  "employees": 46856.0,
  "silent": false,
- "per_bn_revenue": 0.04,
- "per_10k_emp": 0.43,
+ "per_bn_revenue": 0.35,
+ "per_10k_emp": 3.41,
  "benchmarks": {
   "global_vertical": {
-   "deployments": 54,
-   "confirmed": 68,
-   "proof_rate": 54,
-   "n": 60
+   "deployments": 100,
+   "confirmed": 90,
+   "proof_rate": 77,
+   "n": 63
   },
   "country_vertical": {
-   "deployments": 50,
-   "confirmed": 50,
-   "proof_rate": 25,
+   "deployments": 100,
+   "confirmed": 75,
+   "proof_rate": 75,
    "n": 5
   }
  },
- "first_seen": 2023,
+ "first_seen": 2020,
  "by_year": [
   {
+   "year": 2020,
+   "n": 2
+  },
+  {
    "year": 2023,
-   "n": 1
+   "n": 2
+  },
+  {
+   "year": 2024,
+   "n": 2
+  },
+  {
+   "year": 2025,
+   "n": 5
+  },
+  {
+   "year": 2026,
+   "n": 4
   }
  ],
- "undated_pct": 50,
- "momentum": "early_mover,gone_quiet",
- "maturity": "L3",
+ "undated_pct": 6,
+ "momentum": "early_mover,rising",
+ "maturity": "L4",
  "maturity_evidence": [
   "multi_horizontal",
   "named_product:Mitsui",
   "value_number",
+  "multi_year",
   "tier_p"
  ],
- "prospect_score": 40,
- "stack": [],
- "vendor_named": false,
+ "prospect_score": 80,
+ "stack": [
+  "Anthropic",
+  "Microsoft",
+  "Microsoft Azure",
+  "OpenAI"
+ ],
+ "vendor_named": true,
  "deployments_detail": [
   {
    "company": "MS&AD Insurance Group, Inc.",
@@ -60,6 +82,39 @@
   },
   {
    "company": "MS&AD Insurance Group, Inc.",
+   "use": "MS-Assistant: internal generative-AI chat platform for all employees (document drafting, proofreading, translation, brainstorming, coding) plus insurance inquiry/response on product and procedure manuals [Microsoft Azure OpenAI Service (GPT-4), NEC Generative AI Framework]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://it.impress.co.jp/articles/-/25734",
+   "raw_sector": "",
+   "date": "2023-05",
+   "fresh": "stale"
+  },
+  {
+   "company": "MS&AD Insurance Group, Inc.",
+   "use": "AI system co-developed with hokan that analyzes insurance agencies' self-inspection documents to auto-evaluate regulatory compliance and generate improvement recommendations [hokan]",
+   "existence": "claimed",
+   "value": "~80% reduction in document-review workload",
+   "tier": "",
+   "url": "https://www.47news.jp/14499428.html",
+   "raw_sector": "",
+   "date": "2026-06",
+   "fresh": "fresh"
+  },
+  {
+   "company": "MS&AD Insurance Group, Inc.",
+   "use": "Techtouch AI Hub generative-AI platform at Aioi Nissay Dowa to streamline internal inquiry-response operations (branch-to-HQ policy questions) [Techtouch]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://xtech.nikkei.com/atcl/nxt/column/18/00001/10177/",
+   "raw_sector": "",
+   "date": "2024-12",
+   "fresh": "aging"
+  },
+  {
+   "company": "MS&AD Insurance Group, Inc.",
    "use": "AI fire-loss estimation (Mitsui Sumitomo from 2023, Aioi Nissay Dowa 2024) + AI building-damage diagnosis via smartphone (within 1 day)",
    "existence": "confirmed",
    "value": "none quantified",
@@ -68,6 +123,127 @@
    "raw_sector": "Insurance",
    "date": "2023",
    "fresh": "stale"
+  },
+  {
+   "company": "MS&AD Insurance Group, Inc.",
+   "use": "Computer-vision AI that appraises auto/vehicle damage from photos to accelerate motor claims processing (up to 2 weeks faster per claim) across MSI and Aioi Nissay Dowa [Tractable]",
+   "existence": "confirmed",
+   "value": "hundreds of thousands of auto claims/year; up to 2 weeks faster per claim",
+   "tier": "",
+   "url": "https://www.reinsurancene.ws/msad-to-deploy-tractables-ai-in-japan/",
+   "raw_sector": "",
+   "date": "2020-11",
+   "fresh": "stale"
+  },
+  {
+   "company": "MS&AD Insurance Group, Inc.",
+   "use": "Business-specialized LLM (based on NEC 'cotomi') co-developed with NEC to improve accuracy of MS-Assistant's insurance inquiry/response function, deployed on the internal generative-AI base [NEC (cotomi LLM)]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://japan.zdnet.com/article/35232201/",
+   "raw_sector": "",
+   "date": "2025-04",
+   "fresh": "fresh"
+  },
+  {
+   "company": "MS&AD Insurance Group, Inc.",
+   "use": "AI that automatically calculates claim payment amounts for imported-cargo marine insurance (claims of ¥1M or less), cutting assessment time to ~5 minutes [none]",
+   "existence": "confirmed",
+   "value": "up to 80% assessment-time reduction (~5 min); ~7,000 contracts/year",
+   "tier": "",
+   "url": "https://www.nikkei.com/article/DGXZQOUB052B10V00C26A4000000/",
+   "raw_sector": "",
+   "date": "2026-04",
+   "fresh": "fresh"
+  },
+  {
+   "company": "MS&AD Insurance Group, Inc.",
+   "use": "Generative-AI 'Driving Advice Platform' at Aioi Nissay Dowa that turns vehicle telematics/driving data into personalized safe-driving advice for each driver [Archaic, Aioi R&D Lab]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://prtimes.jp/main/html/rd/p/000000053.000048761.html",
+   "raw_sector": "",
+   "date": "2025-11",
+   "fresh": "fresh"
+  },
+  {
+   "company": "MS&AD Insurance Group, Inc.",
+   "use": "MSIG USA Enterprise Data Platform using AI/ML to enhance underwriting precision and process efficiency, consolidating 15+ legacy systems (2025 Celent Model Insurer Award) [Percipience (Data Magnifier)]",
+   "existence": "confirmed",
+   "value": "consolidated 15+ legacy systems",
+   "tier": "",
+   "url": "https://www.msigusa.com/msig-usa-wins-celent-model-insurer-award-legacy-ecosystem-transformation/",
+   "raw_sector": "",
+   "date": "2025-06",
+   "fresh": "fresh"
+  },
+  {
+   "company": "MS&AD Insurance Group, Inc.",
+   "use": "Participation in NEC-Anthropic co-creation program applying Anthropic's Claude (via NEC BluStellar Scenario) to improve financial-services quality, UX, and back-office process reform [Anthropic (Claude), NEC]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://jp.ibtimes.com/nec-anthropic-launch-japan-finance-ai-initiative-eight-firms-101623",
+   "raw_sector": "",
+   "date": "2026-06",
+   "fresh": "fresh"
+  },
+  {
+   "company": "MS&AD Insurance Group, Inc.",
+   "use": "MS&AD AX: joint venture (¥999M, MS&AD 90% / ExaWizards) to develop and deploy AI and generative-AI solutions across MS&AD's insurance operations (AI Transformation) [ExaWizards]",
+   "existence": "claimed",
+   "value": "¥999 million JV capital; MS&AD 90% stake",
+   "tier": "",
+   "url": "https://www.tipranks.com/news/company-announcements/exawizards-and-msad-form-ai-joint-venture-to-drive-insurance-transformation",
+   "raw_sector": "",
+   "date": "2026-06",
+   "fresh": "fresh"
+  },
+  {
+   "company": "MS&AD Insurance Group, Inc.",
+   "use": "MS1 Brain: AI sales-support platform that analyzes ~7 years of contract and customer data to give ~38,000 agents personalized cross-sell/up-sell product recommendations and timing at Mitsui Sumitomo Insurance [dotData]",
+   "existence": "confirmed",
+   "value": "Cross-sell/up-sell success 2-3x; rider contract rate +250%; ~38,000 agencies",
+   "tier": "",
+   "url": "https://jp.dotdata.com/resources/case-study/how-msi-utilizes-ai/",
+   "raw_sector": "",
+   "date": "2020-02",
+   "fresh": "stale"
+  },
+  {
+   "company": "MS&AD Insurance Group, Inc.",
+   "use": "Generative-AI text-summarization system that auto-transcribes and summarizes customer call recordings in accident/claims handling, rolled out to claims payment centers nationwide [NEC]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://group.nec/jp/ja/solutions/ai/llm/",
+   "raw_sector": "",
+   "date": "2024-05",
+   "fresh": "aging"
+  },
+  {
+   "company": "MS&AD Insurance Group, Inc.",
+   "use": "PKSHA Voicebot voice-AI handling inbound customer phone inquiries at Mitsui Sumitomo Insurance [PKSHA Technology]",
+   "existence": "confirmed",
+   "value": "150,000 of 1.1M annual calls handled; 60% completion rate",
+   "tier": "",
+   "url": "https://aisaas.pkshatech.com/success/ms-ins/?hs_amp=true",
+   "raw_sector": "",
+   "date": "2025-12",
+   "fresh": "fresh"
+  },
+  {
+   "company": "MS&AD Insurance Group, Inc.",
+   "use": "Industry-first generative-AI FAQ chatbot for insurance agencies that auto-generates answers, provided to all agencies using Aioi Nissay Dowa's dedicated agency system [Dai Nippon Printing (DNP)]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.dnp.co.jp/news/detail/20176420_1587.html",
+   "raw_sector": "",
+   "date": "2025-02",
+   "fresh": "fresh"
   }
  ]
 }

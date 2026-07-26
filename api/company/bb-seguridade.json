@@ -3,36 +3,58 @@
  "name": "BB Seguridade",
  "cc": "BR",
  "vertical": "Insurance",
- "deployments": 1,
- "confirmed": 1,
- "with_value_number": 0,
- "proof_rate": 0.0,
+ "deployments": 9,
+ "confirmed": 8,
+ "with_value_number": 5,
+ "proof_rate": 0.556,
  "mktcap": 15307407407.0,
  "revenue": 1940740741.0,
  "employees": 222.0,
  "silent": false,
- "per_bn_revenue": 0.52,
- "per_10k_emp": 45.05,
+ "per_bn_revenue": 4.64,
+ "per_10k_emp": 405.41,
  "benchmarks": {
   "global_vertical": {
-   "deployments": 0,
-   "confirmed": 14,
-   "proof_rate": 0,
-   "n": 60
+   "deployments": 63,
+   "confirmed": 74,
+   "proof_rate": 87,
+   "n": 63
   }
  },
- "first_seen": null,
- "by_year": [],
- "undated_pct": 100,
- "momentum": "none",
- "maturity": "L3",
+ "first_seen": 2021,
+ "by_year": [
+  {
+   "year": 2021,
+   "n": 1
+  },
+  {
+   "year": 2023,
+   "n": 1
+  },
+  {
+   "year": 2024,
+   "n": 1
+  },
+  {
+   "year": 2026,
+   "n": 5
+  }
+ ],
+ "undated_pct": 11,
+ "momentum": "early_mover,rising",
+ "maturity": "L4",
  "maturity_evidence": [
+  "multi_horizontal",
   "named_product:Voz do Cliente",
+  "value_number",
+  "multi_year",
   "tier_p"
  ],
- "prospect_score": 54,
- "stack": [],
- "vendor_named": false,
+ "prospect_score": 66,
+ "stack": [
+  "OpenAI"
+ ],
+ "vendor_named": true,
  "deployments_detail": [
   {
    "company": "BB Seguridade",
@@ -44,6 +66,94 @@
    "raw_sector": "Insurance",
    "date": "missing",
    "fresh": "undated"
+  },
+  {
+   "company": "BB Seguridade",
+   "use": "Brasilprev machine-learning / predictive-analytics models used for customer retention ('proteção da base') and prospecting new business opportunities, identifying clients likely to reallocate portfolios and personalizing consultant recommendations. [In-house machine learning]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://legismap.com.br/conteudos/artigos-e-noticias/brasilprev-amplia-negocios-pelo-ambiente-digital-em-quase-14-em-2025",
+   "raw_sector": "",
+   "date": "2026-03",
+   "fresh": "fresh"
+  },
+  {
+   "company": "BB Seguridade",
+   "use": "Brasilseg (BB Seguros) remote-sensing + machine-learning ensemble (ensemble smoother data assimilation of satellite LAI/Landsat data with agronomic modeling) to estimate crop yields and reduce uncertainty in large-scale productivity estimates for rural/agricultural insurance risk assessment and parametric-insurance development. Authored by a Brasilseg product analyst; peer-reviewed in Elsevier's Remote Sensing Applications journal. Presented as a Brasilseg capability but full production deployment not explicitly confirmed. [In-house (satellite remote sensing + ML ensemble)]",
+   "existence": "claimed",
+   "value": "4.2M hectares of sugarcane analyzed",
+   "tier": "",
+   "url": "https://pt.linkedin.com/posts/brasilseg_brasilseg-bbseguros-activity-7445462119598309377-hvqs",
+   "raw_sector": "",
+   "date": "2026-04",
+   "fresh": "fresh"
+  },
+  {
+   "company": "BB Seguridade",
+   "use": "Brasilprev intelligent WhatsApp + app customer-service chatbot (with human handoff via Blip Desk) automating income-statement delivery, balance/statement/fee inquiries and 50+ FAQs, reducing call-center load during tax season. Reported 92% retention, NPS 63 overall (82 for income statements), ~80% satisfaction, and ~60,000 unique monthly users at peak. [Blip (Take Blip)]",
+   "existence": "confirmed",
+   "value": "92% retention; NPS 63; ~60,000 monthly users",
+   "tier": "",
+   "url": "https://www.blip.ai/case/brasilprev/",
+   "raw_sector": "",
+   "date": "2021",
+   "fresh": "stale"
+  },
+  {
+   "company": "BB Seguridade",
+   "use": "Brasilprev AI-driven efficiency in its Customer Relationship Center (Central de Relacionamento com Clientes), including AI-generated interaction handling to improve operational efficiency. [none]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://legismap.com.br/conteudos/artigos-e-noticias/brasilprev-amplia-negocios-pelo-ambiente-digital-em-quase-14-em-2025",
+   "raw_sector": "",
+   "date": "2026-03",
+   "fresh": "fresh"
+  },
+  {
+   "company": "BB Seguridade",
+   "use": "Brasilprev GPT: a proprietary generative-AI assistant built into the Hub Brasilprev platform that answers product/service questions for pension sales consultants and Banco do Brasil managers on a closed, company-controlled knowledge base (says 'I don't know' rather than hallucinate). Reported 28% customer conversion with the data tools vs 3% without, and helped recover R$700 million in pension reserves that had moved to competitors. [Generative AI (GPT-based; provider not disclosed)]",
+   "existence": "confirmed",
+   "value": "28% conversion vs 3% baseline; R$700M reserves recovered",
+   "tier": "",
+   "url": "https://contec.org.br/brasilprev-cria-chatgpt-proprio-para-ajudar-na-venda-de-previdencia/",
+   "raw_sector": "",
+   "date": "2023-11",
+   "fresh": "stale"
+  },
+  {
+   "company": "BB Seguridade",
+   "use": "Brasilprev WhatsApp pension-sales journey where generative AI (the GPT tool) assists commercial consultants during client conversations, enabling full pension-plan enrollment via WhatsApp. Combined with predictive analytics/AI to identify clients with high propensity for portfolio reallocation, reportedly generating over R$12 billion in business; 50,000+ customers served through the capability. [Generative AI (GPT)]",
+   "existence": "confirmed",
+   "value": "50,000+ customers; R$12B+ business generated",
+   "tier": "",
+   "url": "https://tiinside.com.br/11/12/2024/brasilprev-inicia-jornada-de-venda-de-planos-de-previdencia-via-whatsapp/",
+   "raw_sector": "",
+   "date": "2024-12",
+   "fresh": "aging"
+  },
+  {
+   "company": "BB Seguridade",
+   "use": "Brasilprev use of generative AI in HR hiring/recruitment processes. [Generative AI (not disclosed)]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://legismap.com.br/conteudos/artigos-e-noticias/brasilprev-amplia-negocios-pelo-ambiente-digital-em-quase-14-em-2025",
+   "raw_sector": "",
+   "date": "2026-03",
+   "fresh": "fresh"
+  },
+  {
+   "company": "BB Seguridade",
+   "use": "Brasilseg 'Multiplicadores de IA' internal AI-enablement program: trained a first cohort of 39 employees across departments in generative-AI fundamentals (2-day immersion + knowledge-sharing) to disseminate responsible AI use across the organization. [none]",
+   "existence": "confirmed",
+   "value": "39 employees in first cohort",
+   "tier": "",
+   "url": "https://pt.linkedin.com/posts/brasilseg_multiplicadoresdeia-treinamento-intelig%C3%AAnciaartificial-activity-7478545403529908224--dvA",
+   "raw_sector": "",
+   "date": "2026-06",
+   "fresh": "fresh"
   }
  ]
 }

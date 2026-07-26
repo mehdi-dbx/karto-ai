@@ -3,40 +3,49 @@
  "name": "China Life",
  "cc": "CN",
  "vertical": "Insurance",
- "deployments": 1,
- "confirmed": 1,
- "with_value_number": 0,
- "proof_rate": 0.0,
+ "deployments": 9,
+ "confirmed": 9,
+ "with_value_number": 1,
+ "proof_rate": 0.111,
  "mktcap": 156410256410.0,
  "revenue": 49851282051.0,
  "employees": 97505.0,
  "silent": false,
- "per_bn_revenue": 0.02,
- "per_10k_emp": 0.1,
+ "per_bn_revenue": 0.18,
+ "per_10k_emp": 0.92,
  "benchmarks": {
   "global_vertical": {
-   "deployments": 0,
-   "confirmed": 14,
-   "proof_rate": 0,
-   "n": 60
+   "deployments": 63,
+   "confirmed": 79,
+   "proof_rate": 26,
+   "n": 63
   }
  },
  "first_seen": 2025,
  "by_year": [
   {
    "year": 2025,
-   "n": 1
+   "n": 7
+  },
+  {
+   "year": 2026,
+   "n": 2
   }
  ],
  "undated_pct": 0,
  "momentum": "rising",
- "maturity": "L3",
+ "maturity": "L4",
  "maturity_evidence": [
-  "named_product:DeepSeek"
+  "multi_horizontal",
+  "named_product:DeepSeek",
+  "value_number",
+  "multi_year"
  ],
- "prospect_score": 54,
- "stack": [],
- "vendor_named": false,
+ "prospect_score": 90,
+ "stack": [
+  "DeepSeek"
+ ],
+ "vendor_named": true,
  "deployments_detail": [
   {
    "company": "China Life",
@@ -47,6 +56,94 @@
    "url": "https://finance.sina.com.cn",
    "raw_sector": "Finance",
    "date": "2025",
+   "fresh": "fresh"
+  },
+  {
+   "company": "China Life",
+   "use": "China Life P&C (中国人寿财险) built the vertical insurance large model '小财大模型' (Xiaocai) on an open-source foundation and integrated DeepSeek. Deployed across 10+ scenarios including auto-insurance intelligent quotation (车险智能报价) and intelligent analysis of business documents (claims, billing, public-opinion monitoring). [DeepSeek + in-house 小财大模型]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.cnr.cn/jrpd/mxhq/20250221/t20250221_527077644.shtml",
+   "raw_sector": "",
+   "date": "2025-02-21",
+   "fresh": "fresh"
+  },
+  {
+   "company": "China Life",
+   "use": "China Life Asset Management completed local deployment of DeepSeek-R1 (Feb 2025) on its 'AI+' application platform (large model + OCR + speech recognition + vector database) and launched digital employees '牛大力', '牛小治' and '另富冲' plus a roadshow/meeting robot to accelerate investment research and workflows; '牛小治' also serves corporate-governance and risk internal-control functions. [DeepSeek (DeepSeek-R1)]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.163.com/dy/article/JQ5STR21053875FA.html",
+   "raw_sector": "",
+   "date": "2025-03-09",
+   "fresh": "fresh"
+  },
+  {
+   "company": "China Life",
+   "use": "China Life deployed AI large-model-based intelligent claims and underwriting systems: end-to-end unmanned 'second-level' claims settlement (秒级理赔) rolled out across 27 provinces, intelligent underwriting, and intelligent policy-maintenance (保全) auditing. Underwriting/claims approval efficiency improved over 26%, automated underwriting review reached 95.2%, and intelligent policy-maintenance audit reached 99%. [in-house AI large models]",
+   "existence": "confirmed",
+   "value": "underwriting/claims approval efficiency +>26%; automated underwriting review 95.2%; intelligent policy-maintenance audit 99%; deployed across 27 provinces; ~2.5M claims/year",
+   "tier": "",
+   "url": "https://static.weeklyonstock.com/25/0328/wbf130740.html",
+   "raw_sector": "",
+   "date": "2025-03-28",
+   "fresh": "fresh"
+  },
+  {
+   "company": "China Life",
+   "use": "China Life (Overseas) 'AI Assistant' (AI小助手) in the China Life OneService app: a 24/7 conversational AI for individual insurance customers handling policy inquiries, account status, renewal payments and service procedures, escalating complex cases to human agents. Launched simultaneously in Hong Kong and Macau on Feb 2, 2026, built on the DeepSeek V3 large language model. [DeepSeek (DeepSeek V3)]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://chinalife.com.hk/zh-cn/about-us/news-center/ai-tools-to-services",
+   "raw_sector": "",
+   "date": "2026-02-02",
+   "fresh": "fresh"
+  },
+  {
+   "company": "China Life",
+   "use": "China Life (Overseas) AI knowledge-retrieval tool for financial advisors in the OnePartner sales system: natural-language search across product information, underwriting rules, policy services, claims processes and customer-service guidelines to boost advisor productivity. Built on DeepSeek V3. [DeepSeek (DeepSeek V3)]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://chinalife.com.hk/zh-cn/about-us/news-center/ai-tools-to-services",
+   "raw_sector": "",
+   "date": "2026-02-02",
+   "fresh": "fresh"
+  },
+  {
+   "company": "China Life",
+   "use": "China Life Group privately deployed the DeepSeek 70B model and opened it to all employees for trial, applying it to smart-office scenarios (data analysis, auxiliary operations, coordinated office work) to raise productivity and reshape workflows. [DeepSeek (DeepSeek 70B, private/on-prem deployment)]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.163.com/dy/article/JQ5STR21053875FA.html",
+   "raw_sector": "",
+   "date": "2025-03-09",
+   "fresh": "fresh"
+  },
+  {
+   "company": "China Life",
+   "use": "China Life's life-insurance company conducted private/on-prem deployment and integration of the DeepSeek series into its self-built AI large-model service platform, powering headquarters front-end applications '国寿AI助手' (Guoshou AI Assistant) and '国寿知聊' (Guoshou Zhiliao) for data analysis, auxiliary operations and collaborative office work, rolled out across regional branches (Fujian, Anhui, Jiangsu, Guangdong, Shandong). [DeepSeek (self-built AI large-model service platform)]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://finance.sina.com.cn/roll/2025-03-09/doc-inepaksm4469941.shtml",
+   "raw_sector": "",
+   "date": "2025-03-09",
+   "fresh": "fresh"
+  },
+  {
+   "company": "China Life",
+   "use": "China Life's pension-insurance company (中国人寿养老险) was first in the pension-insurance sector to adopt DeepSeek, completing local model deployment into its AI mid-platform and using the model's deep reasoning to power an AI assistant for intelligent credit-risk early-warning and related risk-control scenarios. [DeepSeek]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.163.com/dy/article/JQ5STR21053875FA.html",
+   "raw_sector": "",
+   "date": "2025-03-09",
    "fresh": "fresh"
   }
  ]

@@ -3,27 +3,27 @@
  "name": "Smith & Nephew",
  "cc": "UK",
  "vertical": "Healthcare & Life Sciences",
- "deployments": 1,
- "confirmed": 1,
- "with_value_number": 0,
- "proof_rate": 0.0,
+ "deployments": 11,
+ "confirmed": 9,
+ "with_value_number": 1,
+ "proof_rate": 0.091,
  "mktcap": 11950700000.0,
  "revenue": 4580000000.0,
  "employees": 16988.0,
  "silent": false,
- "per_bn_revenue": 0.22,
- "per_10k_emp": 0.59,
+ "per_bn_revenue": 2.4,
+ "per_10k_emp": 6.48,
  "benchmarks": {
   "global_vertical": {
-   "deployments": 0,
-   "confirmed": 13,
-   "proof_rate": 0,
-   "n": 165
+   "deployments": 76,
+   "confirmed": 80,
+   "proof_rate": 41,
+   "n": 168
   },
   "country_vertical": {
-   "deployments": 0,
-   "confirmed": 0,
-   "proof_rate": 0,
+   "deployments": 62,
+   "confirmed": 62,
+   "proof_rate": 25,
    "n": 9
   }
  },
@@ -31,19 +31,33 @@
  "by_year": [
   {
    "year": 2023,
-   "n": 1
+   "n": 4
+  },
+  {
+   "year": 2024,
+   "n": 5
+  },
+  {
+   "year": 2025,
+   "n": 2
   }
  ],
  "undated_pct": 0,
- "momentum": "early_mover,gone_quiet",
- "maturity": "L3",
+ "momentum": "early_mover,cooling",
+ "maturity": "L4",
  "maturity_evidence": [
+  "multi_horizontal",
   "named_product:KNEE",
+  "value_number",
+  "multi_year",
   "tier_p"
  ],
- "prospect_score": 54,
- "stack": [],
- "vendor_named": false,
+ "prospect_score": 90,
+ "stack": [
+  "NVIDIA",
+  "ServiceNow"
+ ],
+ "vendor_named": true,
  "deployments_detail": [
   {
    "company": "Smith & Nephew",
@@ -54,6 +68,116 @@
    "url": "https://www.smith-nephew.com/en/news/2023/05/16/20230516-smith-nephew-helps-personalize-robotically-enabled-surgery-with-ai-powered-planning",
    "raw_sector": "Health care equipment & supplies",
    "date": "2023",
+   "fresh": "stale"
+  },
+  {
+   "company": "Smith & Nephew",
+   "use": "CORI Surgical System — next-generation handheld robotics platform for knee (and hip) arthroplasty that uses AI-driven software across the procedure suite (image-agnostic smart mapping, real-time planning) to deliver robotics-assisted surgery. [Smith+Nephew (Real Intelligence platform)]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.smith-nephew.com/en/news/2024/02/12/20240212-smithnephew-to-showcase-leading-innovative-ai-driven-robotic-assisted-solutions",
+   "raw_sector": "",
+   "date": "2024-02-12",
+   "fresh": "aging"
+  },
+  {
+   "company": "Smith & Nephew",
+   "use": "Personalized Planning powered by AI on CORI — AI-guided reference values (RI.INSIGHTS) let surgeons set initial implant starting positions personalized to the patient's deformity/anatomy during total knee arthroplasty. [Smith+Nephew]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.smith-nephew.com/en/news/2023/05/16/20230516-smith-nephew-helps-personalize-robotically-enabled-surgery-with-ai-powered-planning",
+   "raw_sector": "",
+   "date": "2023-05-16",
+   "fresh": "stale"
+  },
+  {
+   "company": "Smith & Nephew",
+   "use": "RI.KNEE ROBOTICS software — uses AI for personalized planning and implant placement; the only robotic-assisted solution indicated for revision total knee arthroplasty in the US. [Smith+Nephew]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.massdevice.com/smithnephew-new-ai-features-cori-aaos/",
+   "raw_sector": "",
+   "date": "2024-02-12",
+   "fresh": "aging"
+  },
+  {
+   "company": "Smith & Nephew",
+   "use": "RI.HIP NAVIGATION / RI.HIP Modeler — software-only, computer-guided approach to total hip arthroplasty; Modeler performs impingement analysis based on an individual patient profile and assesses pelvic tilt for patient-specific component alignment. [Smith+Nephew]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.smith-nephew.com/en-us/health-care-professionals/products/orthopaedics/ri-hip-navigation",
+   "raw_sector": "",
+   "date": "2024-02-12",
+   "fresh": "aging"
+  },
+  {
+   "company": "Smith & Nephew",
+   "use": "CORIOGRAPH Pre-Op Planning and Modeling Services — AI/advanced 2D- and 3D-based preoperative planning and personalized modeling; FDA-cleared for total hip arthroplasty (Jan 2025) and launched for total shoulder arthroplasty (Oct 2025). [Smith+Nephew]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.healio.com/news/orthopedics/20250104/smith-nephew-receives-fda-clearance-of-preoperative-planning-modeling-solution-for-tha",
+   "raw_sector": "",
+   "date": "2025-01-04",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Smith & Nephew",
+   "use": "TESSA (Tracking Enabled Spatial Surgery Assistant) — spatial surgery system using video processing and augmented-reality guidance, powered by an NVIDIA GPU, to assist surgeons in ACL reconstruction femoral tunnel placement. Submitted to FDA for 510(k) clearance; not yet cleared/deployed. [Smith+Nephew / NVIDIA (GPU)]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.smith-nephew.com/en/news/2025/03/04/20250304-smith-nephew-is-pioneering-spatial-surgery--a-defining-new-sports-medicine",
+   "raw_sector": "",
+   "date": "2025-03-04",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Smith & Nephew",
+   "use": "Partnership with HOPCo to provide AI-powered analytics and digital-health solutions (HOPCo's Vitals platform: tools, analytics, dashboards, RTM, PROMs) to Smith+Nephew's Ambulatory Surgery Center (ASC) customers and physicians. [HOPCo (Healthcare Outcomes Performance Company)]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://hopco.com/smithnephew-partners-with-hopco-to-provide-ai-powered-analytics-and-solutions-to-asc-customers/",
+   "raw_sector": "",
+   "date": "2024-07-30",
+   "fresh": "aging"
+  },
+  {
+   "company": "Smith & Nephew",
+   "use": "Smartcat AI translation platform used to translate highly regulated medical content and training courses, cutting translation turnaround time and workload for the global content/localization function. [Smartcat]",
+   "existence": "confirmed",
+   "value": "400% faster translation turnaround; 70% workload reduction",
+   "tier": "",
+   "url": "https://www.smartcat.com/cases/smith-nephew/",
+   "raw_sector": "",
+   "date": "2023-10",
+   "fresh": "stale"
+  },
+  {
+   "company": "Smith & Nephew",
+   "use": "Deployment of Applaud's AI-led Employee Experience Solution embedding generative AI in HR Service Delivery — a unified personalized knowledge hub aggregating Workday and ServiceNow to help ~18,000 employees find HR information. [Applaud (with Workday, ServiceNow)]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://employernews.co.uk/news/smithnephew-to-deploy-ai-led-employee-experience-solution-from-applaud/",
+   "raw_sector": "",
+   "date": "2024-05-29",
+   "fresh": "aging"
+  },
+  {
+   "company": "Smith & Nephew",
+   "use": "Partnership/pilot with Proximie's AI-powered digital surgery platform to deliver advanced robotics surgery training and remotely connect operating rooms (UK, Ireland, Nordics), improving surgical training and support. [Proximie]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.proximie.com/press/smith-nephew-leading-healthtech-proximie-partner-to-deliver-advanced-robotics-surgery-training",
+   "raw_sector": "",
+   "date": "2023-03-23",
    "fresh": "stale"
   }
  ]

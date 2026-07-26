@@ -3,47 +3,61 @@
  "name": "Constellation Software",
  "cc": "CA",
  "vertical": "Technology",
- "deployments": 1,
- "confirmed": 1,
- "with_value_number": 0,
- "proof_rate": 0.0,
+ "deployments": 10,
+ "confirmed": 7,
+ "with_value_number": 1,
+ "proof_rate": 0.1,
  "mktcap": 40558823529.0,
  "revenue": 12470588235.0,
  "employees": 45000.0,
  "silent": false,
- "per_bn_revenue": 0.08,
- "per_10k_emp": 0.22,
+ "per_bn_revenue": 0.8,
+ "per_10k_emp": 2.22,
  "benchmarks": {
   "global_vertical": {
-   "deployments": 0,
-   "confirmed": 6,
-   "proof_rate": 0,
-   "n": 156
+   "deployments": 58,
+   "confirmed": 56,
+   "proof_rate": 39,
+   "n": 159
   },
   "country_vertical": {
-   "deployments": 0,
-   "confirmed": 0,
-   "proof_rate": 0,
+   "deployments": 25,
+   "confirmed": 25,
+   "proof_rate": 25,
    "n": 5
   }
  },
- "first_seen": 2026,
+ "first_seen": 2024,
  "by_year": [
   {
-   "year": 2026,
+   "year": 2024,
    "n": 1
+  },
+  {
+   "year": 2025,
+   "n": 2
+  },
+  {
+   "year": 2026,
+   "n": 7
   }
  ],
  "undated_pct": 0,
- "momentum": "late_entrant,rising",
- "maturity": "L3",
+ "momentum": "early_mover,rising",
+ "maturity": "L4",
  "maturity_evidence": [
+  "multi_horizontal",
   "named_product:Stella",
+  "value_number",
+  "multi_year",
   "tier_p"
  ],
- "prospect_score": 54,
- "stack": [],
- "vendor_named": false,
+ "prospect_score": 78,
+ "stack": [
+  "Amazon AWS",
+  "Anthropic"
+ ],
+ "vendor_named": true,
  "deployments_detail": [
   {
    "company": "Constellation Software",
@@ -54,6 +68,105 @@
    "url": "https://www.constellationhb.com/our-news/constellation-homebuilder-systems-announces-stella-ai-the-purpose-built-ai-agent-delivering-instant-decision-ready-insights-for-homebuilders/",
    "raw_sector": "Software",
    "date": "2026-02",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Constellation Software",
+   "use": "Gladstone AI forecasting in reporting dashboards and AI-driven identification of booking and attendance trends within Gladstone leisure-management software (Jonas Software operating group). [none]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.linkedin.com/posts/jonas-software_gladstone-software-is-doing-ai-differently-activity-7486042564983296002-IXxG",
+   "raw_sector": "",
+   "date": "2026-01-01",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Constellation Software",
+   "use": "HARRIS CareTracker Amplify: an ambient-listening AI clinical scribe integrated with the CareTracker EHR that records provider-patient conversations, performs medical-grade transcription with speaker separation, and auto-generates structured draft clinical notes for review/sign-off. [none]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://harriscaretracker.com/ambient-listening-ai-improve-clinical-documentation-claims/",
+   "raw_sector": "",
+   "date": "2026-07-22",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Constellation Software",
+   "use": "Trapeze EAM predictive maintenance: AI/ML + IoT-sensor vehicle prognostics (via partner Preteckt) that monitors major bus components in real time and issues predictive fault alerts and repair plans to transit-agency technicians through Trapeze Enterprise Asset Management. [Preteckt]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://trapezegroup.com/enterpriseassetmanagement/harnessing-predictive-maintenance-to-keep-us-moving-smoothly-and-safely/",
+   "raw_sector": "",
+   "date": "2025-01-01",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Constellation Software",
+   "use": "Harris SmartWorks Compass: a unified utility data-intelligence platform that uses AI to detect meter anomalies, forecast usage patterns, and optimize grid performance from smart-meter (meter-to-cash) data for electric, water and gas utilities. [none]",
+   "existence": "confirmed",
+   "value": "More than 300 utilities rely on SmartWorks Compass",
+   "tier": "",
+   "url": "https://harrissmartworks.com/faq-mdm-utility-analytics/",
+   "raw_sector": "",
+   "date": "2025-10-01",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Constellation Software",
+   "use": "Advanced Utility Systems (a Harris division) markets built-in / AI-driven capabilities within its cloud customer information system (CIS) and utility billing software. [none]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://advancedutility.com/",
+   "raw_sector": "",
+   "date": "2024-08-12",
+   "fresh": "aging"
+  },
+  {
+   "company": "Constellation Software",
+   "use": "equivant Intelligence: an internal AI platform built on Anthropic Claude, integrated with Zendesk and Jira, used to answer team questions and support product managers across the equivant (justice/court software) business unit. [Anthropic Claude]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.volarisgroup.com/acquired-knowledge/how-ai-is-opening-new-possibilities-for-equivant/",
+   "raw_sector": "",
+   "date": "2026-06-04",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Constellation Software",
+   "use": "Jonas Software AWS AI-DLC (AI-Driven Development Life Cycle) workshops: cross-business-unit hands-on programs, run with AWS, to move Jonas units from AI experimentation to building real applications/prototypes (e.g., Vertus Group workshop outputs). [AWS]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://jonassoftware.com/aws-ai-dlc-in-action",
+   "raw_sector": "",
+   "date": "2026-05-28",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Constellation Software",
+   "use": "Gladstone Assist / Gladstone AI Support: an AI virtual assistant chatbot on the Gladstone (leisure/sports facility software, a Jonas Software company) support portal that provides self-service answers to common queries and escalates to humans when unsure. [none]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.gladstonesoftware.com/en-gb/support",
+   "raw_sector": "",
+   "date": "2026-02-17",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Constellation Software",
+   "use": "Volaris Group AI Center of Excellence and AI Accelerator program: a group-wide capability established in 2025 to guide portfolio businesses in embedding AI, redesigning workflows, and upskilling teams across its vertical-market software companies. [none]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.volarisgroup.com/acquired-knowledge/volaris-groups-2025-ma-year-in-review/",
+   "raw_sector": "",
+   "date": "2026-01-06",
    "fresh": "fresh"
   }
  ]

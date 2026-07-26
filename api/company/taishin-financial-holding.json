@@ -3,26 +3,26 @@
  "name": "Taishin Financial Holding",
  "cc": "TW",
  "vertical": "Financial Services",
- "deployments": 2,
- "confirmed": 2,
- "with_value_number": 2,
- "proof_rate": 1.0,
+ "deployments": 12,
+ "confirmed": 12,
+ "with_value_number": 6,
+ "proof_rate": 0.5,
  "mktcap": 27155625000.0,
  "revenue": 4052187500.0,
  "employees": 19298.0,
  "silent": false,
- "per_bn_revenue": 0.49,
- "per_10k_emp": 1.04,
+ "per_bn_revenue": 2.96,
+ "per_10k_emp": 6.22,
  "benchmarks": {
   "global_vertical": {
-   "deployments": 62,
-   "confirmed": 73,
-   "proof_rate": 76,
-   "n": 377
+   "deployments": 81,
+   "confirmed": 90,
+   "proof_rate": 78,
+   "n": 388
   },
   "country_vertical": {
-   "deployments": 36,
-   "confirmed": 45,
+   "deployments": 82,
+   "confirmed": 91,
    "proof_rate": 73,
    "n": 12
   }
@@ -31,24 +31,102 @@
  "by_year": [
   {
    "year": 2024,
+   "n": 6
+  },
+  {
+   "year": 2025,
+   "n": 4
+  },
+  {
+   "year": 2026,
    "n": 2
   }
  ],
  "undated_pct": 0,
- "momentum": "early_mover,gone_quiet",
- "maturity": "L3",
+ "momentum": "early_mover,flat",
+ "maturity": "L4",
  "maturity_evidence": [
   "multi_horizontal",
   "named_product:Taishin Brain",
   "value_number",
+  "multi_year",
   "tier_p"
  ],
- "prospect_score": 12,
+ "prospect_score": 80,
  "stack": [
-  "NVIDIA"
+  "Microsoft",
+  "Microsoft Azure",
+  "NVIDIA",
+  "OpenAI"
  ],
  "vendor_named": true,
  "deployments_detail": [
+  {
+   "company": "Taishin Financial Holding",
+   "use": "'Taishin War God' (台新戰神) AI fraud/anti-scam model that monitors transactions in real time to flag suspicious activity and high-risk accounts; paired with an ATM monitoring system that alerts law enforcement. Part of the 'War God Project' MOU with the Taipei District Prosecutors Office. [Self-built (Taishin)]",
+   "existence": "confirmed",
+   "value": "Blocked 612 high-risk accounts and prevented ~NT$70 million in fraud losses in 2024; stated accuracy over 50%",
+   "tier": "",
+   "url": "https://www.taishinbank.com.tw/TSB/personal/common/news/TSBankNews-006732/",
+   "raw_sector": "",
+   "date": "2025-03-25",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Taishin Financial Holding",
+   "use": "Responsible-AI validation collaboration: Taishin Bank partnered with OneDegree Global to validate and stress-test its 'Taishin Brain' AI system for compliance with Taiwan's Guidelines for the Use of AI in the Financial Industry (AI governance, security and privacy). [OneDegree Global]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.finextra.com/pressarticle/101841/taishin-bank-collaborates-with-onedegree-global-on-responsible-ai",
+   "raw_sector": "",
+   "date": "2024-08-08",
+   "fresh": "aging"
+  },
+  {
+   "company": "Taishin Financial Holding",
+   "use": "'Rose' intelligent customer-service chatbot: 24/7 conversational AI across web, mobile app, LINE and Facebook for account/credit-card inquiries, bill payment, FX rates, loan/card applications, with hand-off to human agents; originally built on Intumit SmartRobot (Microsoft Azure AI), now re-architected on the self-built Taishin Brain LLM for omnichannel service. [Intumit SmartRobot (Microsoft Azure AI); migrated to self-built Taishin Brain LLM]",
+   "existence": "confirmed",
+   "value": "Reported ability to fully answer up to 98% of customer questions",
+   "tier": "",
+   "url": "https://www.intumit.com/customer-success/finance-industry/",
+   "raw_sector": "",
+   "date": "2026-04-24",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Taishin Financial Holding",
+   "use": "'Taishin Corporate AI Smart Assistant' (台新法金AI智慧通): generative-AI customer-service assistant embedded in the corporate/GB2B internet banking (法人金流) platform, giving business clients real-time text and voice explanations of cash-management services and product solutions. [Self-built (Taishin Brain)]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.taishinbank.com.tw/TSB/personal/common/news/TSBankNews-006851/",
+   "raw_sector": "",
+   "date": "2025-04-25",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Taishin Financial Holding",
+   "use": "Generative-AI virtual customer-service agents: photorealistic avatar agents combining LLM with voice-to-text, text-to-voice and face recognition to deliver wealth-management and credit-card product recommendations, launched publicly at the 2024 Taipei FinTech expo / went live end of 2024. [Self-built (Taishin Brain, multimodal)]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.tsholdings.com.tw/tsh/news/latest/1730449509678/",
+   "raw_sector": "",
+   "date": "2024-11-01",
+   "fresh": "aging"
+  },
+  {
+   "company": "Taishin Financial Holding",
+   "use": "AI robotic form-filling assistant at Taishin Life (life insurance) that lets customers complete forms via conversation, plus a consumer-facing GPT-4o + MBTI credit-card recommendation experience at Taishin Bank shown at the 2024 FinTech expo. [OpenAI GPT-4o (for the MBTI card experience); Taishin AI robot]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://tw.news.yahoo.com/%E6%8B%9A%E5%89%B5%E6%96%B0-%E5%8F%B0%E6%96%B0%E9%87%91%E7%94%9F%E6%88%90%E5%BC%8Fai%E6%99%BA%E8%83%BD%E5%AE%A2%E6%9C%8D%E5%B9%B4%E5%BA%95%E4%B8%8A%E7%B7%9A-062830765.html",
+   "raw_sector": "",
+   "date": "2024-10-31",
+   "fresh": "aging"
+  },
   {
    "company": "Taishin Financial Holding",
    "use": "AI-generated corporate credit reports cutting preparation time from 21 hours to 4 hours (partnership with Moody's)",
@@ -62,6 +140,17 @@
   },
   {
    "company": "Taishin Financial Holding",
+   "use": "Internal generative-AI knowledge-management platform and employee AI test/enablement environment ('AI Concept Hall' / 人工智慧概念館): lets staff query internal documents via GenAI to speed up back-office work, plus 'tool brain' models handling single tasks such as image processing; supported by AI/data literacy programs as Taishin scales AI internally. [Self-built (Taishin Brain / tool-brain models)]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://techorange.com/2025/06/27/taishinholdings-ai/",
+   "raw_sector": "",
+   "date": "2025-06-27",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Taishin Financial Holding",
    "use": "Built proprietary LLM \"Taishin Brain\" powering smart customer service and productivity tools; deployed 16 NVIDIA H100 GPUs (~NT$30M)",
    "existence": "confirmed",
    "value": "16 H100 GPUs, ~NT$30M",
@@ -70,6 +159,39 @@
    "raw_sector": "Banks",
    "date": "2024-11",
    "fresh": "aging"
+  },
+  {
+   "company": "Taishin Financial Holding",
+   "use": "Self-built financial-domain large language model 'Taishin Brain' (台新腦, later 台新新光腦), a ~37-billion-parameter Traditional Chinese LLM plus smaller 'tool brain' models, trained on Taishin's own data and run on-premise with NVIDIA GPUs (cloud used for training). Serves as the core platform underpinning chatbots, credit analysis, marketing and internal apps across bank, life-insurance and securities units. [Self-built (NVIDIA GPUs for compute)]",
+   "existence": "confirmed",
+   "value": "~37 billion parameters (台新腦 model)",
+   "tier": "",
+   "url": "https://www.ithome.com.tw/news/163800",
+   "raw_sector": "",
+   "date": "2024-2025",
+   "fresh": "aging"
+  },
+  {
+   "company": "Taishin Financial Holding",
+   "use": "AI-assisted corporate credit-investigation / credit-memo platform: Taishin adopted Moody's Credit Memo with GenAI to automate data consolidation from dozens of sources and draft credit analysis reports, augmenting relationship managers. [Moody's (Credit Memo / Lending Suite) + Taishin Brain]",
+   "existence": "confirmed",
+   "value": "Credit report production cut from 20 hours to 4 hours (5x faster); up to 50% time savings in parts of credit analysis; corporate-lending manpower cost reduced 3.4%",
+   "tier": "",
+   "url": "https://www.moodys.com/web/en/us/insights/lending/Taishin-International-Bank-modernizes-credit-assessment-workflow-with-Moodys-Credit-Memo.html",
+   "raw_sector": "",
+   "date": "2026-05-12",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Taishin Financial Holding",
+   "use": "AI-driven personalized digital marketing ('People Centric Model'): a three-stage pipeline that integrates multi-source data, builds a customer-preference recommendation system, and uses generative AI to produce customized marketing content, with PowerBI tracking effectiveness. [Self-built (Taishin Brain) + Microsoft PowerBI]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.taishinbank.com.tw/TSB/personal/common/news/TSBankNews-007098/",
+   "raw_sector": "",
+   "date": "2025-07-15",
+   "fresh": "fresh"
   }
  ]
 }

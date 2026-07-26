@@ -3,26 +3,26 @@
  "name": "Beiersdorf",
  "cc": "DE",
  "vertical": "Retail & E-commerce",
- "deployments": 1,
- "confirmed": 1,
+ "deployments": 6,
+ "confirmed": 5,
  "with_value_number": 0,
  "proof_rate": 0.0,
  "mktcap": 18576000000.0,
  "revenue": 10638000000.0,
  "employees": 22399.0,
  "silent": false,
- "per_bn_revenue": 0.09,
- "per_10k_emp": 0.45,
+ "per_bn_revenue": 0.56,
+ "per_10k_emp": 2.68,
  "benchmarks": {
   "global_vertical": {
-   "deployments": 0,
-   "confirmed": 24,
+   "deployments": 48,
+   "confirmed": 53,
    "proof_rate": 0,
-   "n": 295
+   "n": 301
   },
   "country_vertical": {
-   "deployments": 0,
-   "confirmed": 0,
+   "deployments": 40,
+   "confirmed": 40,
    "proof_rate": 0,
    "n": 6
   }
@@ -34,15 +34,19 @@
    "n": 1
   }
  ],
- "undated_pct": 0,
+ "undated_pct": 83,
  "momentum": "rising",
- "maturity": "L2",
+ "maturity": "L3",
  "maturity_evidence": [
+  "multi_horizontal",
+  "named_product:ChatGPT",
   "tier_p"
  ],
- "prospect_score": 54,
- "stack": [],
- "vendor_named": false,
+ "prospect_score": 70,
+ "stack": [
+  "OpenAI"
+ ],
+ "vendor_named": true,
  "deployments_detail": [
   {
    "company": "Beiersdorf",
@@ -54,6 +58,61 @@
    "raw_sector": "Consumer Goods",
    "date": "2025",
    "fresh": "fresh"
+  },
+  {
+   "company": "Beiersdorf",
+   "use": "AI-based platform for research and development",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://reports.beiersdorf.com/annual-report/2025/combined-management-report/foundation-of-the-group/research-and-development.html",
+   "raw_sector": "",
+   "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "Beiersdorf",
+   "use": "ChatGPT application for Marketing, R&D, and multiple departments [ChatGPT]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://reports.beiersdorf.com/annual-report/2024/combined-management-report/risk-and-opportunities-report/material-risks-and-opportunities.html",
+   "raw_sector": "",
+   "date": "Feb 27, 2025",
+   "fresh": "undated"
+  },
+  {
+   "company": "Beiersdorf",
+   "use": "Generative AI for ad content localization and adjustment [Grip]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.grip.tools/resources/beiersdorf-scales-global-ad-content-with-grip",
+   "raw_sector": "",
+   "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "Beiersdorf",
+   "use": "AI-driven driver analysis for customer review insights [Caplena]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://caplena.com/en/customer-stories/beiersdorf-hansaplast",
+   "raw_sector": "",
+   "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "Beiersdorf",
+   "use": "Ai.Me strategic framework for AI integration in marketing",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.linkedin.com/posts/beiersdorf_ai-marketing-beiersdorf-activity-7280885608229523456-Y1I5",
+   "raw_sector": "",
+   "date": "1 year ago",
+   "fresh": "undated"
   }
  ]
 }

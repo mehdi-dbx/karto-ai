@@ -3,27 +3,27 @@
  "name": "Shimizu Corp.",
  "cc": "JP",
  "vertical": "Real Estate & Construction",
- "deployments": 2,
- "confirmed": 2,
+ "deployments": 6,
+ "confirmed": 5,
  "with_value_number": 1,
- "proof_rate": 0.5,
+ "proof_rate": 0.167,
  "mktcap": 11200000000.0,
  "revenue": 13733333333.0,
  "employees": 22278.0,
  "silent": false,
- "per_bn_revenue": 0.15,
- "per_10k_emp": 0.9,
+ "per_bn_revenue": 0.44,
+ "per_10k_emp": 2.69,
  "benchmarks": {
   "global_vertical": {
-   "deployments": 82,
-   "confirmed": 88,
-   "proof_rate": 65,
+   "deployments": 69,
+   "confirmed": 75,
+   "proof_rate": 46,
    "n": 154
   },
   "country_vertical": {
-   "deployments": 43,
-   "confirmed": 57,
-   "proof_rate": 36,
+   "deployments": 71,
+   "confirmed": 71,
+   "proof_rate": 21,
    "n": 15
   }
  },
@@ -38,16 +38,17 @@
    "n": 1
   }
  ],
- "undated_pct": 0,
+ "undated_pct": 67,
  "momentum": "rising",
  "maturity": "L4",
  "maturity_evidence": [
+  "multi_horizontal",
   "named_product:Lightblue Assistant",
   "value_number",
   "multi_year",
   "tier_p"
  ],
- "prospect_score": 40,
+ "prospect_score": 71,
  "stack": [],
  "vendor_named": false,
  "deployments_detail": [
@@ -72,6 +73,50 @@
    "raw_sector": "Construction",
    "date": "2026",
    "fresh": "fresh"
+  },
+  {
+   "company": "Shimizu Corp.",
+   "use": "AI-powered humanoid robots for construction site tasks including painting, plastering, and site inspections",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.shimz.co.jp/en/company/about/news-release/2026/2026027.html",
+   "raw_sector": "",
+   "date": "Jul 8, 2026",
+   "fresh": "undated"
+  },
+  {
+   "company": "Shimizu Corp.",
+   "use": "360° photo documentation and analytics platform for construction [OpenSpace]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.openspace.ai/news/shimizu-announces-enterprise-partnership-with-openspace/",
+   "raw_sector": "",
+   "date": "Feb 11, 2021",
+   "fresh": "undated"
+  },
+  {
+   "company": "Shimizu Corp.",
+   "use": "Construction planning and scheduling optimization [ALICE Technologies]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://blog.alicetechnologies.com/news/shimizu-partners-with-alice-to-boost-efficiency-reduce-risk?hs_amp=true",
+   "raw_sector": "",
+   "date": "Sep 20, 2022",
+   "fresh": "undated"
+  },
+  {
+   "company": "Shimizu Corp.",
+   "use": "AI-powered video analytics for security and monitoring [Avigilon]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.avigilon.com/fs/documents/Shimizu-Corp-Case-Study-ALT-1.pdf",
+   "raw_sector": "",
+   "date": "missing",
+   "fresh": "undated"
   }
  ]
 }

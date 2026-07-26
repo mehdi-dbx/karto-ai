@@ -3,28 +3,28 @@
  "name": "Indian Oil Corporation",
  "cc": "IN",
  "vertical": "Energy & Utilities",
- "deployments": 1,
- "confirmed": 1,
- "with_value_number": 0,
- "proof_rate": 0.0,
+ "deployments": 5,
+ "confirmed": 5,
+ "with_value_number": 1,
+ "proof_rate": 0.2,
  "mktcap": 23253012048.0,
  "revenue": 94457831325.0,
  "employees": 29941.0,
  "silent": false,
- "per_bn_revenue": 0.01,
- "per_10k_emp": 0.33,
+ "per_bn_revenue": 0.05,
+ "per_10k_emp": 1.67,
  "benchmarks": {
   "global_vertical": {
-   "deployments": 0,
-   "confirmed": 20,
-   "proof_rate": 0,
-   "n": 210
+   "deployments": 53,
+   "confirmed": 70,
+   "proof_rate": 50,
+   "n": 213
   },
   "country_vertical": {
-   "deployments": 0,
-   "confirmed": 9,
-   "proof_rate": 0,
-   "n": 12
+   "deployments": 50,
+   "confirmed": 83,
+   "proof_rate": 33,
+   "n": 13
   }
  },
  "first_seen": null,
@@ -33,9 +33,11 @@
  "momentum": "none",
  "maturity": "L3",
  "maturity_evidence": [
-  "named_product:IndMax"
+  "multi_horizontal",
+  "named_product:IndMax",
+  "value_number"
  ],
- "prospect_score": 54,
+ "prospect_score": 70,
  "stack": [],
  "vendor_named": false,
  "deployments_detail": [
@@ -47,6 +49,50 @@
    "tier": "I",
    "url": "https://www.indianchemicalnews.com/iocl-algo8-ai-digital-twin",
    "raw_sector": "Oil, Gas & Consumable Fuels",
+   "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "Indian Oil Corporation",
+   "use": "AI and machine learning for predictive maintenance in refineries and operating locations",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://iocl.com/uploads/Annual_Report-2024-25/intellectual-cap.html",
+   "raw_sector": "",
+   "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "Indian Oil Corporation",
+   "use": "80+ AI use cases for energy transition and digital transformation",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.bwmarketingworld.com/article/indian-oil-leverages-ai-to-drive-energy-transition-digital-transformation-594058",
+   "raw_sector": "",
+   "date": "Feb 18, 2026",
+   "fresh": "undated"
+  },
+  {
+   "company": "Indian Oil Corporation",
+   "use": "RPA automation across Finance, HR, Inventory processes [Automation Anywhere]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.automationanywhere.com/company/press-room/indianoil-corporation-collaborates-with-automation-anywhere-to-accelerateautomation",
+   "raw_sector": "",
+   "date": "Sep 22, 2021",
+   "fresh": "undated"
+  },
+  {
+   "company": "Indian Oil Corporation",
+   "use": "AI/ML capabilities combined with Qlik Sense for data analytics across 10,000 users tracking 3,000 KPIs [Qlik]",
+   "existence": "confirmed",
+   "value": "25% time savings for IS staff",
+   "tier": "",
+   "url": "https://www.qlik.com/us/solutions/customers/customer-stories/indianoil",
+   "raw_sector": "",
    "date": "missing",
    "fresh": "undated"
   }

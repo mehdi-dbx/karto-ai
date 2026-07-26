@@ -3,42 +3,68 @@
  "name": "Altria",
  "cc": "US",
  "vertical": "Retail & E-commerce",
- "deployments": 1,
- "confirmed": 1,
- "with_value_number": 0,
- "proof_rate": 0.0,
+ "deployments": 9,
+ "confirmed": 4,
+ "with_value_number": 2,
+ "proof_rate": 0.222,
  "mktcap": 120070000000.0,
  "revenue": 20380000000.0,
  "employees": 5900.0,
  "silent": false,
- "per_bn_revenue": 0.05,
- "per_10k_emp": 1.69,
+ "per_bn_revenue": 0.44,
+ "per_10k_emp": 15.25,
  "benchmarks": {
   "global_vertical": {
-   "deployments": 0,
-   "confirmed": 24,
-   "proof_rate": 0,
-   "n": 295
+   "deployments": 64,
+   "confirmed": 44,
+   "proof_rate": 49,
+   "n": 301
   },
   "country_vertical": {
-   "deployments": 0,
-   "confirmed": 25,
-   "proof_rate": 0,
+   "deployments": 49,
+   "confirmed": 33,
+   "proof_rate": 48,
    "n": 80
   }
  },
- "first_seen": null,
- "by_year": [],
- "undated_pct": 100,
- "momentum": "none",
- "maturity": "L3",
+ "first_seen": 2019,
+ "by_year": [
+  {
+   "year": 2019,
+   "n": 1
+  },
+  {
+   "year": 2024,
+   "n": 2
+  },
+  {
+   "year": 2025,
+   "n": 3
+  },
+  {
+   "year": 2026,
+   "n": 2
+  }
+ ],
+ "undated_pct": 11,
+ "momentum": "early_mover,rising",
+ "maturity": "L4",
  "maturity_evidence": [
+  "multi_horizontal",
   "named_product:AltriaGPT",
+  "value_number",
+  "multi_year",
   "tier_p"
  ],
- "prospect_score": 54,
- "stack": [],
- "vendor_named": false,
+ "prospect_score": 55,
+ "stack": [
+  "Capgemini",
+  "Databricks",
+  "Microsoft",
+  "Microsoft Azure",
+  "OpenAI"
+ ],
+ "vendor_named": true,
  "deployments_detail": [
   {
    "company": "Altria",
@@ -50,6 +76,94 @@
    "raw_sector": "Consumer Staples",
    "date": "missing",
    "fresh": "undated"
+  },
+  {
+   "company": "Altria",
+   "use": "Modeling & Simulation team uses computational and predictive methods to model user/non-user exposure to product ingredients and support regulatory science and reduced-risk product decision-making (harm-reduction R&D). [none]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://sciences.altria.com/science-and-data/modeling-and-simulation",
+   "raw_sector": "",
+   "date": "2025",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Altria",
+   "use": "\"Ask Ai\" AI-powered Legal Front Door built with Checkbox: an AI agent that captures/triages legal requests via email and Microsoft Teams, collects missing info, searches a document repository, and routes intake into a centralized dashboard. Deployed as Phase 2 of Altria's legal intake modernization. [Checkbox]",
+   "existence": "confirmed",
+   "value": "~90% adoption across the legal department (vs 60% target); launched in 52 days",
+   "tier": "",
+   "url": "https://www.checkbox.ai/customers/altria",
+   "raw_sector": "",
+   "date": "2026",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Altria",
+   "use": "\"Altria GPT\" — proprietary generative AI platform for product development/innovation, accompanied by broad employee GenAI training, described by CPO Olivier Houpert as part of Altria's Gen AI investment to boost productivity in consumer research and formulation. [none]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://productsthatcount.com/cpo-rising-series-altria-cpo-on-driving-customer-centric-transformations/",
+   "raw_sector": "",
+   "date": "2024",
+   "fresh": "aging"
+  },
+  {
+   "company": "Altria",
+   "use": "Enterprise-wide use of AI and automation (plus outsourcing of transactional tasks) within the $600M five-year Optimize & Accelerate / Accelerated Business Solutions cost-savings program to improve organizational speed and efficiency. [none]",
+   "existence": "claimed",
+   "value": "At least $600M in savings over five years (program-level, not AI-specific)",
+   "tier": "",
+   "url": "https://consumergoods.com/altria-centralizing-operations-600m-cost-savings-initiative",
+   "raw_sector": "",
+   "date": "2024",
+   "fresh": "aging"
+  },
+  {
+   "company": "Altria",
+   "use": "Retail photo-analysis AI deployed across Altria Group Distribution Company (AGDC): sales managers capture store photos and AI converts them into structured insights on product assortment, pricing, and backbar signage. Announced at CAGNY 2026 as part of the Optimize & Accelerate initiative. [none]",
+   "existence": "confirmed",
+   "value": "Analysis that once took days happens almost instantly",
+   "tier": "",
+   "url": "https://www.linkedin.com/posts/altria_altria-cagny2026-operationalexcellence-activity-7440404729588895744-UlNx",
+   "raw_sector": "",
+   "date": "2026",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Altria",
+   "use": "Customer 360 data lake and machine learning platform on Azure Databricks (migrated off legacy Teradata) to power more personalized customer engagement. Presented with Capgemini at Spark + AI Summit 2019 as a production journey. [Databricks; Microsoft Azure; Capgemini]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.databricks.com/blog/2019/04/17/a-guide-to-innovative-retail-talks-at-spark-ai-summit-2019.html",
+   "raw_sector": "",
+   "date": "2019",
+   "fresh": "stale"
+  },
+  {
+   "company": "Altria",
+   "use": "Machine learning models applied to consumer behavior and purchasing-pattern data to enable more personalized and targeted marketing to adult tobacco consumers (Consumer & Marketing Analytics / Data & Analytics team). [none]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.sciencedirect.com/science/article/pii/S1386505625002047",
+   "raw_sector": "",
+   "date": "2025",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Altria",
+   "use": "Adoption of machine learning and AI capabilities to drive personalization at scale and outcome-driven customer experiences on the Adobe stack (role: Adobe Product Owner), indicating ML-driven consumer personalization within Altria's digital marketing platform. [Adobe]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://careers.altria.com/job/Adobe-Product-Owner/2944-en_US/",
+   "raw_sector": "",
+   "date": "2025",
+   "fresh": "fresh"
   }
  ]
 }

@@ -3,43 +3,74 @@
  "name": "Mitsubishi Heavy Industries, Ltd.",
  "cc": "JP",
  "vertical": "Industrial / Machinery",
- "deployments": 2,
- "confirmed": 2,
- "with_value_number": 1,
- "proof_rate": 0.5,
+ "deployments": 13,
+ "confirmed": 8,
+ "with_value_number": 5,
+ "proof_rate": 0.385,
  "mktcap": 88066666667.0,
  "revenue": 33133333333.0,
  "employees": 78793.0,
  "silent": false,
- "per_bn_revenue": 0.06,
- "per_10k_emp": 0.25,
+ "per_bn_revenue": 0.39,
+ "per_10k_emp": 1.65,
  "benchmarks": {
   "global_vertical": {
-   "deployments": 82,
-   "confirmed": 82,
-   "proof_rate": 76,
-   "n": 175
+   "deployments": 89,
+   "confirmed": 81,
+   "proof_rate": 89,
+   "n": 176
   },
   "country_vertical": {
-   "deployments": 69,
-   "confirmed": 69,
-   "proof_rate": 62,
+   "deployments": 85,
+   "confirmed": 73,
+   "proof_rate": 77,
    "n": 27
   }
  },
- "first_seen": null,
- "by_year": [],
- "undated_pct": 100,
- "momentum": "none",
- "maturity": "L3",
+ "first_seen": 2021,
+ "by_year": [
+  {
+   "year": 2021,
+   "n": 1
+  },
+  {
+   "year": 2022,
+   "n": 1
+  },
+  {
+   "year": 2023,
+   "n": 1
+  },
+  {
+   "year": 2024,
+   "n": 2
+  },
+  {
+   "year": 2025,
+   "n": 2
+  },
+  {
+   "year": 2026,
+   "n": 4
+  }
+ ],
+ "undated_pct": 15,
+ "momentum": "early_mover,rising",
+ "maturity": "L4",
  "maturity_evidence": [
+  "multi_horizontal",
   "named_product:Vertex",
   "value_number",
+  "multi_year",
   "tier_p"
  ],
- "prospect_score": 32,
+ "prospect_score": 73,
  "stack": [
-  "Google"
+  "Amazon AWS",
+  "Google",
+  "Microsoft",
+  "Microsoft Azure",
+  "OpenAI"
  ],
  "vendor_named": true,
  "deployments_detail": [
@@ -64,6 +95,127 @@
    "raw_sector": "Machinery",
    "date": "missing",
    "fresh": "undated"
+  },
+  {
+   "company": "Mitsubishi Heavy Industries, Ltd.",
+   "use": "TOMONI intelligent-solutions suite for power plants: uses AI/machine learning for predictive and prescriptive analytics, automated optimization of operating parameters, and condition-based/remote O&M. Deployed at existing and new power plants worldwide, validated at the T-Point 2 demonstration plant. [Mitsubishi Power (MHI)]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://power.mhi.com/service/tomoni",
+   "raw_sector": "",
+   "date": "2021-08-03",
+   "fresh": "stale"
+  },
+  {
+   "company": "Mitsubishi Heavy Industries, Ltd.",
+   "use": "AIRIS onboard AI-based object detector for satellites: performs in-orbit object (e.g., vessel) detection on Earth-observation imagery using a space-grade AI processor (SOISOC4), with selective downlink and in-orbit model retraining. Scheduled to launch aboard the RAISE-4 demonstration satellite in FY2025. [MHI (with Tokyo University of Science; JAXA demonstration)]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.mhi.com/news/240306.html",
+   "raw_sector": "",
+   "date": "2024-03-06",
+   "fresh": "aging"
+  },
+  {
+   "company": "Mitsubishi Heavy Industries, Ltd.",
+   "use": "MaiDAS: next-generation AI-based remote monitoring and highly-automated operation support system for waste-to-energy (incineration) plants, optimizing evaporation rate and exhaust-gas concentration while protecting critical equipment. In joint research/verification with the City of Yokohama (four-day automated-operation test). [Mitsubishi Heavy Industries Environmental & Chemical Engineering (MHIEC)]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.mhi.com/technology/review/abstract-60-4-40",
+   "raw_sector": "",
+   "date": "2023-01-01",
+   "fresh": "stale"
+  },
+  {
+   "company": "Mitsubishi Heavy Industries, Ltd.",
+   "use": "Business alliance with Preferred Networks to jointly develop Japan-made AI for mission-critical machinery in social infrastructure and national security, embedding PFN's PLaMo generative-AI foundation model, MN-Core AI processors and PFCP cloud platform into MHI products for autonomous operation, predictive maintenance and crisis management. Alliance/capital agreement targeted within FY2026. [Preferred Networks (PLaMo, MN-Core, PFCP)]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.mhi.com/news/260602.html",
+   "raw_sector": "",
+   "date": "2026-06-02",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Mitsubishi Heavy Industries, Ltd.",
+   "use": "Autonomous-flight AI testing under MHI's ARMD (Affordable Rapid-prototyping Mitsubishi-Drone) initiative using Shield AI's Hivemind autonomy software; two live flight demonstrations in Gunma, Japan, where the aircraft autonomously demonstrated reinforcement learning and trained behaviors while tracking a virtual air vehicle. Integration-to-flight in under 60 days (proof of concept). [Shield AI (Hivemind)]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://shield.ai/shield-ai-and-mitsubishi-heavy-industries-ltd-complete-autonomous-flight-tests-in-under-60-days/",
+   "raw_sector": "",
+   "date": "2026-03-17",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Mitsubishi Heavy Industries, Ltd.",
+   "use": "Joint development with Yokogawa of an AI-enabled automatic inspection system for offshore facilities, using the EX ROVR explosion-proof inspection robot plus an AI application that converts robot-acquired image and sound data to identify and predict hazards. In proof-of-concept testing (project started June 2022). [Yokogawa (joint); MHI EX ROVR robot]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://reliabilityweb.com/amp/inspection-robot-2657464602",
+   "raw_sector": "",
+   "date": "2022-06-01",
+   "fresh": "stale"
+  },
+  {
+   "company": "Mitsubishi Heavy Industries, Ltd.",
+   "use": "Generative AI plus voice recognition automating 24-hour on-call after-sales customer support for machinery products in the US market (Mitsubishi Heavy Industries Machinery Systems), suggesting responses and automating transcription/call registration under the ΣSynX brand. [none]",
+   "existence": "confirmed",
+   "value": "Recorded calls more than tripled from 150 to 500 per month",
+   "tier": "",
+   "url": "https://www.mhi.com/news/25121802.html",
+   "raw_sector": "",
+   "date": "2025-12-18",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Mitsubishi Heavy Industries, Ltd.",
+   "use": "exaBase IR Assistant: a task-specialized generative-AI service adopted by MHI's Investor Relations department (and related divisions such as general affairs, legal, corporate planning, accounting) to streamline IR work and enable higher-value disclosure activities. [Exa Enterprise AI (ExaWizards)]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://exawizards.com/archives/29003/",
+   "raw_sector": "",
+   "date": "2025-01-16",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Mitsubishi Heavy Industries, Ltd.",
+   "use": "Internal 'AI Workspace' for employees built on Amazon Bedrock and Bedrock Knowledge Bases, providing RAG-based internal knowledge search and document summarization. Launched April 2026; exceeded 2,000 active users within two weeks and logged 15,000 chat interactions. [AWS (Amazon Bedrock, Bedrock Knowledge Bases); implementation partner Serverworks]",
+   "existence": "confirmed",
+   "value": "2,000+ active users in two weeks; 15,000 chat interactions",
+   "tier": "",
+   "url": "https://casehub.news/category/news/awsai_1.html",
+   "raw_sector": "",
+   "date": "2026-07-01",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Mitsubishi Heavy Industries, Ltd.",
+   "use": "TOMONI TALK (internally 'MHI-GPT'): an internal generative-AI chat assistant for the power-plant business, using RAG over proprietary plant data for document summarization/translation, code generation, troubleshooting and internal information retrieval. Deployed July 2023, ~200-300 active users per day. [Microsoft (Azure OpenAI Service, Azure AI Search)]",
+   "existence": "confirmed",
+   "value": "200-300 active users per day",
+   "tier": "",
+   "url": "https://www.microsoft.com/en/customers/story/1779541850037077027-mhi-azure-discrete-manufacturing-en-japan",
+   "raw_sector": "",
+   "date": "2024-07-05",
+   "fresh": "aging"
+  },
+  {
+   "company": "Mitsubishi Heavy Industries, Ltd.",
+   "use": "In-house-developed ticket/inquiry management system consolidating customer inquiries, built with AWS (Next.js frontend, Amazon RDS, AWS Lambda) as part of MHI's in-sourcing of internal systems; in production handling up to nearly 50 inquiries daily. [AWS (Lambda, RDS); partner Serverworks]",
+   "existence": "confirmed",
+   "value": "Up to nearly 50 inquiries handled daily",
+   "tier": "",
+   "url": "https://casehub.news/category/news/awsai_1.html",
+   "raw_sector": "",
+   "date": "2026-07-01",
+   "fresh": "fresh"
   }
  ]
 }

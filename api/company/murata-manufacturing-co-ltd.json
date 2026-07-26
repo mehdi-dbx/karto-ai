@@ -3,27 +3,27 @@
  "name": "Murata Manufacturing Co., Ltd.",
  "cc": "JP",
  "vertical": "Electric Machinery & Electronics",
- "deployments": 2,
- "confirmed": 2,
- "with_value_number": 1,
- "proof_rate": 0.5,
+ "deployments": 13,
+ "confirmed": 11,
+ "with_value_number": 3,
+ "proof_rate": 0.231,
  "mktcap": 103600000000.0,
  "revenue": 12200000000.0,
  "employees": 74302.0,
  "silent": false,
- "per_bn_revenue": 0.16,
- "per_10k_emp": 0.27,
+ "per_bn_revenue": 1.07,
+ "per_10k_emp": 1.75,
  "benchmarks": {
   "global_vertical": {
-   "deployments": 53,
-   "confirmed": 53,
-   "proof_rate": 62,
+   "deployments": 82,
+   "confirmed": 88,
+   "proof_rate": 65,
    "n": 35
   },
   "country_vertical": {
-   "deployments": 48,
-   "confirmed": 48,
-   "proof_rate": 58,
+   "deployments": 81,
+   "confirmed": 87,
+   "proof_rate": 61,
    "n": 32
   }
  },
@@ -31,20 +31,24 @@
  "by_year": [
   {
    "year": 2024,
-   "n": 1
+   "n": 2
   }
  ],
- "undated_pct": 50,
+ "undated_pct": 85,
  "momentum": "early_mover,gone_quiet",
  "maturity": "L3",
  "maturity_evidence": [
+  "multi_horizontal",
   "named_product:Murata Coworker",
   "value_number",
   "tier_p"
  ],
- "prospect_score": 40,
- "stack": [],
- "vendor_named": false,
+ "prospect_score": 91,
+ "stack": [
+  "Meta",
+  "Microsoft"
+ ],
+ "vendor_named": true,
  "deployments_detail": [
   {
    "company": "Murata Manufacturing Co., Ltd.",
@@ -65,6 +69,127 @@
    "tier": "I",
    "url": "https://article.murata.com/ja-jp/categories/ai",
    "raw_sector": "Electric Machinery",
+   "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "Murata Manufacturing Co., Ltd.",
+   "use": "Generative AI specialized for equipment maintenance, trained on factory-floor maintenance records. It preprocesses inconsistently formatted maintenance logs so that less-experienced personnel can work at veteran-level efficiency, reducing maintenance time. Continuously improved with field feedback (response time cut to one-fifth, voice input added). [Murata in-house]",
+   "existence": "confirmed",
+   "value": "Response time reduced to one-fifth of previous levels",
+   "tier": "",
+   "url": "https://corporate.murata.com/en-us/technology/technology-platform/production-technology/smart",
+   "raw_sector": "",
+   "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "Murata Manufacturing Co., Ltd.",
+   "use": "Sensor-based AI/IoT predictive maintenance implemented at Fukui Murata Manufacturing. Sensors on machinery collect performance data; a dedicated team sets alert thresholds and detects impending failures. Started as a single-line pilot, then expanded across lines. [Murata (sensors/IoT + AI analytics)]",
+   "existence": "confirmed",
+   "value": "3 years after project start, corrective maintenance time reduced by half; improved operating ratio and output on trial line",
+   "tier": "",
+   "url": "https://article.murata.com/en-us/article/what-you-need-to-introduce-iot-in-manufacturing-2",
+   "raw_sector": "",
+   "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "Murata Manufacturing Co., Ltd.",
+   "use": "AI-based automation of skilled/tacit manufacturing techniques: analyzing and visualizing expert insights so robotic systems can reproduce precise expert movements, achieving consistent high-quality manufacturing independent of human expertise across global facilities. [Murata in-house]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://corporate.murata.com/en-us/technology/technology-platform/production-technology/smart",
+   "raw_sector": "",
+   "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "Murata Manufacturing Co., Ltd.",
+   "use": "AI + IoT data-analysis and optimization technology that sends optimal real-time instructions to AGVs and robots on the factory floor based on work progress and on-site changes, improving efficiency and safety. [Murata in-house]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://corporate.murata.com/en-us/technology/technology-platform/production-technology/smart",
+   "raw_sector": "",
+   "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "Murata Manufacturing Co., Ltd.",
+   "use": "AI-based quality inspection: automated detection of product characteristic anomalies to address inconsistencies in human inspection results, leveraging the vast data from hundreds of millions of products produced daily. [Murata data-science teams (in-house models)]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://article.murata.com/en-us/article/artificial-intelligence-2024-1",
+   "raw_sector": "",
+   "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "Murata Manufacturing Co., Ltd.",
+   "use": "Generative AI to automatically generate development-language code (Verilog HDL, VHDL, C/C++, Python), 3D models, illustrations, robot operation-control programs, and circuit designs from natural-language instructions for device/system development. Described in cautious/forward-looking terms — emerging attempts rather than an established production system. [not disclosed]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://article.murata.com/en-us/article/generative-ai-that-manipulates-development-languages",
+   "raw_sector": "",
+   "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "Murata Manufacturing Co., Ltd.",
+   "use": "AI customer-service routing system that analyzes inquiry content and directs customer inquiries to the most appropriate department, reducing response times. [Murata data-science teams (in-house models)]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://article.murata.com/en-us/article/artificial-intelligence-2024-1",
+   "raw_sector": "",
+   "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "Murata Manufacturing Co., Ltd.",
+   "use": "\"Murata Coworker\" — internally developed generative AI assistant rolled out to all employees in Oct 2024 (following the \"Murata Copilot\" beta ~1 year earlier). Multimodal (text, Word, PDF, images, audio) with RAG over internal knowledge; used by ~27,000 employees as of July 31, 2025. A Generative AI Center of Excellence was established March 2024 to build it. [Murata in-house (LLM provider not disclosed)]",
+   "existence": "confirmed",
+   "value": "Improved work efficiency of more than 3 hours/month per user; several billion yen per year in company-wide economic benefit; ~27,000 users",
+   "tier": "",
+   "url": "https://article.murata.com/en-us/article/artificial-intelligence-2025-2",
+   "raw_sector": "",
+   "date": "2024-10",
+   "fresh": "aging"
+  },
+  {
+   "company": "Murata Manufacturing Co., Ltd.",
+   "use": "AI-driven production planning automation: using accumulated big data to automatically propose optimal production plans. [Murata data-science teams (in-house models)]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://article.murata.com/en-us/article/artificial-intelligence-2024-1",
+   "raw_sector": "",
+   "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "Murata Manufacturing Co., Ltd.",
+   "use": "Internal web-analytics tool that uses AI to extract latent customer needs from web access data and recommend optimal products to customers. [Murata data-science teams (in-house models)]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://article.murata.com/en-us/article/artificial-intelligence-2024-1",
+   "raw_sector": "",
+   "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "Murata Manufacturing Co., Ltd.",
+   "use": "Small Language Model (SLM) developed to automatically extract and mask personally identifiable information (individual names, company names, department names) before feeding internal documents to LLM services — enabling secure enterprise LLM use. Built with open-source Llama-series SLMs, PEFT fine-tuning, and a 1,000-document internal dataset (515 EN / 485 JP). Presented at the 2025 JSAI conference; described as exploratory research, not yet a deployed product. [Murata (open-source Llama models + PEFT)]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://article.murata.com/en-us/article/artificial-intelligence-2025-1",
+   "raw_sector": "",
    "date": "missing",
    "fresh": "undated"
   }

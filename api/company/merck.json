@@ -3,27 +3,27 @@
  "name": "Merck",
  "cc": "DE",
  "vertical": "Healthcare & Life Sciences",
- "deployments": 1,
- "confirmed": 1,
- "with_value_number": 0,
- "proof_rate": 0.0,
+ "deployments": 5,
+ "confirmed": 4,
+ "with_value_number": 1,
+ "proof_rate": 0.2,
  "mktcap": 64281600000.0,
  "revenue": 22636800000.0,
  "employees": 59077.0,
  "silent": false,
- "per_bn_revenue": 0.04,
- "per_10k_emp": 0.17,
+ "per_bn_revenue": 0.22,
+ "per_10k_emp": 0.85,
  "benchmarks": {
   "global_vertical": {
-   "deployments": 0,
-   "confirmed": 13,
-   "proof_rate": 0,
-   "n": 165
+   "deployments": 40,
+   "confirmed": 48,
+   "proof_rate": 52,
+   "n": 168
   },
   "country_vertical": {
-   "deployments": 0,
-   "confirmed": 0,
-   "proof_rate": 0,
+   "deployments": 20,
+   "confirmed": 40,
+   "proof_rate": 40,
    "n": 6
   }
  },
@@ -31,19 +31,27 @@
  "by_year": [
   {
    "year": 2025,
+   "n": 2
+  },
+  {
+   "year": 2026,
    "n": 1
   }
  ],
- "undated_pct": 0,
+ "undated_pct": 40,
  "momentum": "rising",
  "maturity": "L3",
  "maturity_evidence": [
+  "multi_horizontal",
   "named_product:Group",
   "tier_p"
  ],
- "prospect_score": 54,
- "stack": [],
- "vendor_named": false,
+ "prospect_score": 56,
+ "stack": [
+  "Amazon AWS",
+  "Google Cloud"
+ ],
+ "vendor_named": true,
  "deployments_detail": [
   {
    "company": "Merck",
@@ -55,6 +63,50 @@
    "raw_sector": "Pharmaceuticals",
    "date": "2025",
    "fresh": "fresh"
+  },
+  {
+   "company": "Merck",
+   "use": "Clinical study report development using generative AI and LLMs [LLMs]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.merck.com/news/merck-expands-innovative-internal-generative-ai-solutions-helping-to-deliver-medicines-to-patients-faster/",
+   "raw_sector": "",
+   "date": "2025-06-25",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Merck",
+   "use": "Agentic AI platform deployment across R&D [Google Cloud]",
+   "existence": "claimed",
+   "value": "$1 billion",
+   "tier": "",
+   "url": "https://www.merck.com/news/merck-and-google-cloud-partner-to-accelerate-agentic-ai-enterprise-transformation/",
+   "raw_sector": "",
+   "date": "2026-04-22",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Merck",
+   "use": "AI integration across clinical trials for data analysis and participant selection",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.merck.com/research/areas-of-innovation/data-science-and-artificial-intelligence/",
+   "raw_sector": "",
+   "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "Merck",
+   "use": "Generative AI for manufacturing quality inspection [AWS]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://aws.amazon.com/solutions/case-studies/innovators/merck/",
+   "raw_sector": "",
+   "date": "missing",
+   "fresh": "undated"
   }
  ]
 }

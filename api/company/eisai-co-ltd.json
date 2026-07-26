@@ -3,42 +3,70 @@
  "name": "Eisai Co., Ltd.",
  "cc": "JP",
  "vertical": "Healthcare & Life Sciences",
- "deployments": 1,
- "confirmed": 1,
- "with_value_number": 0,
- "proof_rate": 0.0,
+ "deployments": 10,
+ "confirmed": 7,
+ "with_value_number": 3,
+ "proof_rate": 0.3,
  "mktcap": 8533333333.0,
  "revenue": 5502533333.0,
  "employees": 10543.0,
  "silent": false,
- "per_bn_revenue": 0.18,
- "per_10k_emp": 0.95,
+ "per_bn_revenue": 1.82,
+ "per_10k_emp": 9.48,
  "benchmarks": {
   "global_vertical": {
-   "deployments": 0,
-   "confirmed": 13,
-   "proof_rate": 0,
-   "n": 165
+   "deployments": 69,
+   "confirmed": 68,
+   "proof_rate": 64,
+   "n": 168
   },
   "country_vertical": {
-   "deployments": 0,
-   "confirmed": 0,
-   "proof_rate": 0,
+   "deployments": 89,
+   "confirmed": 67,
+   "proof_rate": 78,
    "n": 10
   }
  },
- "first_seen": null,
- "by_year": [],
- "undated_pct": 100,
- "momentum": "none",
- "maturity": "L3",
+ "first_seen": 2020,
+ "by_year": [
+  {
+   "year": 2020,
+   "n": 1
+  },
+  {
+   "year": 2022,
+   "n": 1
+  },
+  {
+   "year": 2023,
+   "n": 2
+  },
+  {
+   "year": 2024,
+   "n": 3
+  },
+  {
+   "year": 2025,
+   "n": 1
+  },
+  {
+   "year": 2026,
+   "n": 1
+  }
+ ],
+ "undated_pct": 10,
+ "momentum": "early_mover,cooling",
+ "maturity": "L4",
  "maturity_evidence": [
+  "multi_horizontal",
   "named_product:Elix Discovery",
+  "value_number",
+  "multi_year",
   "tier_p"
  ],
- "prospect_score": 54,
+ "prospect_score": 70,
  "stack": [],
- "vendor_named": false,
+ "vendor_named": true,
  "deployments_detail": [
   {
    "company": "Eisai Co., Ltd.",
@@ -50,6 +78,105 @@
    "raw_sector": "Pharmaceuticals",
    "date": "missing",
    "fresh": "undated"
+  },
+  {
+   "company": "Eisai Co., Ltd.",
+   "use": "Adopted Elix Discovery, an all-in-one AI drug discovery platform (multiple AI models trained via federated learning on data from 16 pharma companies), to accelerate design of novel small-molecule drug candidates, supporting both ligand-based (LBDD) and structure-based (SBDD) drug design. [Elix, Inc.]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.elix-inc.com/news/newsrelease/2170/",
+   "raw_sector": "",
+   "date": "2025-07-17",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Eisai Co., Ltd.",
+   "use": "YosAI, an in-house AI genotoxicity prediction system combining commercial in silico software, text mining, an Ames-test database, and machine learning, deployed across early discovery (screening thousands of compounds), development (impurities/intermediates) and formulation packaging hazard assessment. [SBX Corporation; MultiCASE Inc.]",
+   "existence": "confirmed",
+   "value": "~20% improvement in prediction accuracy for Eisai compounds vs. commercial in silico software",
+   "tier": "",
+   "url": "https://www.eisai.com/innovation/research/digital/genotoxicity/index.html",
+   "raw_sector": "",
+   "date": "2024-01-01",
+   "fresh": "aging"
+  },
+  {
+   "company": "Eisai Co., Ltd.",
+   "use": "AI-driven small molecule design using machine learning, deep learning and deep generative models to predict compound efficacy, chemical properties, pharmacokinetics and safety from structures and to propose novel compounds; used in several active drug discovery projects. [in-house]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.eisai.com/innovation/research/digital/drug_design/index.html",
+   "raw_sector": "",
+   "date": "2024-01-01",
+   "fresh": "aging"
+  },
+  {
+   "company": "Eisai Co., Ltd.",
+   "use": "World-first AI/machine learning model (with Oita University) using wristband wearable sensor data (activity, sleep, heart rate, conversation), lifestyle and background data to predict brain amyloid-beta positivity for early Alzheimer's screening. [Oita University]",
+   "existence": "confirmed",
+   "value": "AUC 0.79 (all data combined); AUC 0.70 wristband data only; 122 participants",
+   "tier": "",
+   "url": "https://www.eisai.com/news/2023/news202377.html",
+   "raw_sector": "",
+   "date": "2023-12-26",
+   "fresh": "stale"
+  },
+  {
+   "company": "Eisai Co., Ltd.",
+   "use": "Collaboration with Geisinger to evaluate a Passive Digital Marker (machine-learning algorithm) on de-identified EHR data for early detection and staging of cognitive impairment and dementia including Alzheimer's disease. [Geisinger (algorithm from Purdue University / Indiana University)]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://media-us.eisai.com/2022-04-04-Geisinger,-Eisai-team-up-to-study-use-of-artificial-intelligence-for-early-detection-and-identification-of-cognitive-impairment-that-could-indicate-dementias,-including-Alzheimers-disease",
+   "raw_sector": "",
+   "date": "2022-04-04",
+   "fresh": "stale"
+  },
+  {
+   "company": "Eisai Co., Ltd.",
+   "use": "Established Theoria Technologies subsidiary to build a digital dementia ecosystem, including risk-prediction algorithms for early detection of mild cognitive impairment/dementia (using clinical, cohort and PHR data) and the Sasaeru ADL-tracking app; algorithm service targeted for fiscal 2024. [in-house (Theoria Technologies Co., Ltd.)]",
+   "existence": "claimed",
+   "value": "capitalized at 350 million JPY",
+   "tier": "",
+   "url": "https://www.eisai.com/news/2023/news202356.html",
+   "raw_sector": "",
+   "date": "2023-09-12",
+   "fresh": "stale"
+  },
+  {
+   "company": "Eisai Co., Ltd.",
+   "use": "Easiit smartphone app, co-developed with DeNA, records footsteps, sleep, diet and nutrient data and provides brain-health/lifestyle self-management as part of Eisai's dementia ecosystem business. [DeNA Co., Ltd.]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.eisai.com/news/2020/news202047.html",
+   "raw_sector": "",
+   "date": "2020-07-28",
+   "fresh": "stale"
+  },
+  {
+   "company": "Eisai Co., Ltd.",
+   "use": "Machine learning for drug formulation and manufacturing: models analyze reflected light from tablets/granules to non-destructively predict moisture content and active-ingredient concentration on continuous manufacturing lines, plus Bayesian optimization for formulation design. [in-house]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.eisai.com/innovation/research/digital/formulation_dx/index.html",
+   "raw_sector": "",
+   "date": "2024-01-01",
+   "fresh": "aging"
+  },
+  {
+   "company": "Eisai Co., Ltd.",
+   "use": "Eisai Korea partnership (MOU) with Neurophet to supply and operate Neurophet AQUA, AI-powered brain neurodegeneration imaging analysis software, for dementia screening/diagnosis across Korean medical institutions and screening centers. [Neurophet]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.koreabiomed.com/news/articleView.html?idxno=30270",
+   "raw_sector": "",
+   "date": "2026-01-13",
+   "fresh": "fresh"
   }
  ]
 }

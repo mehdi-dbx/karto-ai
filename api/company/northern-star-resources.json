@@ -3,44 +3,62 @@
  "name": "Northern Star Resources",
  "cc": "AU",
  "vertical": "Mining & Materials",
- "deployments": 1,
- "confirmed": 0,
- "with_value_number": 0,
- "proof_rate": 0.0,
+ "deployments": 9,
+ "confirmed": 4,
+ "with_value_number": 2,
+ "proof_rate": 0.222,
  "mktcap": 19686666667.0,
  "revenue": 4640000000.0,
  "employees": 3383.0,
  "silent": false,
- "per_bn_revenue": 0.22,
- "per_10k_emp": 2.96,
+ "per_bn_revenue": 1.94,
+ "per_10k_emp": 26.6,
  "benchmarks": {
   "global_vertical": {
-   "deployments": 0,
-   "confirmed": 0,
-   "proof_rate": 0,
-   "n": 61
+   "deployments": 84,
+   "confirmed": 56,
+   "proof_rate": 56,
+   "n": 62
   },
   "country_vertical": {
-   "deployments": 0,
-   "confirmed": 0,
-   "proof_rate": 0,
+   "deployments": 100,
+   "confirmed": 60,
+   "proof_rate": 20,
    "n": 6
   }
  },
- "first_seen": 2025,
+ "first_seen": 2018,
  "by_year": [
   {
-   "year": 2025,
+   "year": 2018,
    "n": 1
+  },
+  {
+   "year": 2019,
+   "n": 1
+  },
+  {
+   "year": 2021,
+   "n": 2
+  },
+  {
+   "year": 2023,
+   "n": 1
+  },
+  {
+   "year": 2025,
+   "n": 4
   }
  ],
  "undated_pct": 0,
- "momentum": "rising",
- "maturity": "L1",
+ "momentum": "early_mover,rising",
+ "maturity": "L4",
  "maturity_evidence": [
-  "rows_no_confirmed"
+  "named_product:Autonomous",
+  "value_number",
+  "multi_year"
  ],
- "prospect_score": 40,
+ "prospect_score": 63,
  "stack": [],
  "vendor_named": false,
  "deployments_detail": [
@@ -53,6 +71,94 @@
    "url": "https://miningtechnologyinsights.com/2025/12/16/northern-star-upgrades-fleet-with-sandviks-intelligent-mining-equipment/",
    "raw_sector": "Mining",
    "date": "2025-12",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Northern Star Resources",
+   "use": "Autonomous underground loader (LHD) fleet at the Ramone gold mine (WA), using RCT's ControlMaster Automation Centre to remotely supervise two Sandvik LH517i loaders, enabling fast hot-seating and continued production through shift changes and firing. [RCT (Remote Control Technologies) / Northern Star Mining Services; Sandvik loaders]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://rct-global.com/2023/04/northern-star-mining-services-goes-digital-to-introduce-automation-at-ramone/",
+   "raw_sector": "",
+   "date": "2023-04",
+   "fresh": "stale"
+  },
+  {
+   "company": "Northern Star Resources",
+   "use": "ControlMaster Guidance Automation on the underground loader fleet at the East Kundana Joint Venture (EKJV), operated from an onsite Surface Control System / Goldfields Remote Operating Centre — remote/autonomous LHD operation from surface. [RCT (Remote Control Technologies)]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.miningmagazine.com/technology/news/1374678/successful-autonomous-trial-rct-northern-star",
+   "raw_sector": "",
+   "date": "2019-10",
+   "fresh": "stale"
+  },
+  {
+   "company": "Northern Star Resources",
+   "use": "Emesent Hovermap autonomous drone (SLAM/LiDAR, GPS-denied autonomous flight with collision avoidance) for autonomous underground mapping of stopes and voids at Northern Star's WA gold operations. [Emesent (Hovermap)]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.miningmonthly.com/technology/news/1419550/northern-star-sends-drones",
+   "raw_sector": "",
+   "date": "2021-10",
+   "fresh": "stale"
+  },
+  {
+   "company": "Northern Star Resources",
+   "use": "Minnovare Production Optimiser autonomous drill-rig alignment / drill-and-blast optimisation technology installed on long-hole production rigs at underground operations (WA and Pogo), improving rig accuracy and hole placement. [Minnovare (Production Optimiser)]",
+   "existence": "confirmed",
+   "value": "+17% drilled metres; blast-hole deviation at collar reduced 75%",
+   "tier": "",
+   "url": "https://www.e-mj.com/breaking-news/minnovare-northern-star-announce-new-technology-collaboration/",
+   "raw_sector": "",
+   "date": "2018-08",
+   "fresh": "stale"
+  },
+  {
+   "company": "Northern Star Resources",
+   "use": "New Sandvik i-series intelligent underground fleet (Toro TH663i trucks, LH621i/LH517i loaders) with automation-readiness, real-time analytics and advanced connectivity, contracted for underground operations; deliveries from Q1 2026. [Sandvik Mining (i-series / AutoMine-ready)]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.mining.sandvik/en/news-and-media/news-archive/2025/12/sandvik-partners-with-northern-star-for-underground-fleet-investment/",
+   "raw_sector": "",
+   "date": "2025-12",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Northern Star Resources",
+   "use": "Partnership with CSIRO (and Elemission ECORE/SAM AI-enabled software) deploying Laser-Induced Breakdown Spectroscopy (LIBS) for rapid, automated mineral/elemental mapping of drill core to accelerate gold exploration and processing decisions. [CSIRO / Elemission (ECORE, SAM Smart Automated Mineralogy)]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.csiro.au/en/news/all/articles/2025/october/sustainable-resources",
+   "raw_sector": "",
+   "date": "2021-04",
+   "fresh": "stale"
+  },
+  {
+   "company": "Northern Star Resources",
+   "use": "AUD $28M investment in advanced automation-ready underground equipment with real-time analytics, predictive maintenance and expansion of autonomous drilling across operations. [none]",
+   "existence": "claimed",
+   "value": "A$28M equipment investment; autonomous drilling deployment up 30-40% by 2028; 20-30% unplanned downtime reduction targeted",
+   "tier": "",
+   "url": "https://www.linkedin.com/posts/discovery-alert-australia_mining-technology-investment-activity-7406379814900813824-ow-m",
+   "raw_sector": "",
+   "date": "2025-12",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Northern Star Resources",
+   "use": "Predictive maintenance program for critical mobile and fixed plant assets, using sensor/IoT data and machine-learning-based algorithms to forecast equipment service requirements and reduce unplanned downtime. [none]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.nsrltd.com/media/vemd3ef5/2-2025-annual-report-double-page-21-08-2025.pdf",
+   "raw_sector": "",
+   "date": "2025-08",
    "fresh": "fresh"
   }
  ]

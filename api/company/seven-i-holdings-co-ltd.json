@@ -3,49 +3,65 @@
  "name": "Seven & I Holdings Co., Ltd.",
  "cc": "JP",
  "vertical": "Retail & E-commerce",
- "deployments": 2,
- "confirmed": 2,
- "with_value_number": 1,
- "proof_rate": 0.5,
+ "deployments": 12,
+ "confirmed": 11,
+ "with_value_number": 8,
+ "proof_rate": 0.667,
  "mktcap": 32066666667.0,
  "revenue": 56933333333.0,
  "employees": 35967.0,
  "silent": false,
- "per_bn_revenue": 0.04,
- "per_10k_emp": 0.56,
+ "per_bn_revenue": 0.21,
+ "per_10k_emp": 3.34,
  "benchmarks": {
   "global_vertical": {
-   "deployments": 71,
-   "confirmed": 80,
-   "proof_rate": 70,
-   "n": 295
+   "deployments": 86,
+   "confirmed": 89,
+   "proof_rate": 91,
+   "n": 301
   },
   "country_vertical": {
-   "deployments": 62,
-   "confirmed": 71,
-   "proof_rate": 33,
-   "n": 25
+   "deployments": 100,
+   "confirmed": 100,
+   "proof_rate": 92,
+   "n": 26
   }
  },
- "first_seen": 2025,
+ "first_seen": 2019,
  "by_year": [
   {
+   "year": 2019,
+   "n": 1
+  },
+  {
+   "year": 2024,
+   "n": 4
+  },
+  {
    "year": 2025,
-   "n": 2
+   "n": 6
+  },
+  {
+   "year": 2026,
+   "n": 1
   }
  ],
  "undated_pct": 0,
- "momentum": "rising",
- "maturity": "L3",
+ "momentum": "early_mover,rising",
+ "maturity": "L4",
  "maturity_evidence": [
   "multi_horizontal",
   "named_product:AI Library",
   "value_number",
+  "multi_year",
   "tier_p"
  ],
- "prospect_score": 32,
+ "prospect_score": 73,
  "stack": [
-  "Google Cloud"
+  "Databricks",
+  "Google Cloud",
+  "Microsoft",
+  "Microsoft Azure"
  ],
  "vendor_named": true,
  "deployments_detail": [
@@ -58,6 +74,116 @@
    "url": "https://www.sej.co.jp/company/news_release/news/2025/202509301100.html",
    "raw_sector": "Retail",
    "date": "2025",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Seven & I Holdings Co., Ltd.",
+   "use": "Conversational AI recruiting assistant 'Rita' automates candidate application, screening and interview scheduling for high-volume store hiring (7-Eleven Inc., US). [Paradox]",
+   "existence": "confirmed",
+   "value": "40,000 hours/week saved; 85% of applicants scheduled within an hour; time-to-hire cut from 10 days to under 5",
+   "tier": "",
+   "url": "https://www.paradox.ai/case-studies/7-eleven",
+   "raw_sector": "",
+   "date": "2024",
+   "fresh": "aging"
+  },
+  {
+   "company": "Seven & I Holdings Co., Ltd.",
+   "use": "AI-powered Technician's Maintenance Assistant (RAG + vector search + vision models on Databricks Agent Bricks, surfaced in Microsoft Teams) that gives store maintenance technicians instant access to manuals, diagrams and part identification. [Databricks (Agent Bricks) / Microsoft Teams]",
+   "existence": "confirmed",
+   "value": "up to 60% reduction in documentation search time; 25% improvement in first-time-fix rate; 40%+ lower latency",
+   "tier": "",
+   "url": "https://community.databricks.com/t5/announcements/with-databricks-agent-bricks-7-eleven-cuts-search-time-by-60-and/td-p/145689",
+   "raw_sector": "",
+   "date": "2026-01-29",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Seven & I Holdings Co., Ltd.",
+   "use": "Seven-Eleven Japan's AI ordering/demand-forecasting system that calculates optimal order quantities from past sales, weather forecasts and day-of-week data to reduce stockouts and speed up store ordering. [in-house]",
+   "existence": "confirmed",
+   "value": "~2,000 yen higher sales per store per day; order time reduced ~30 minutes daily",
+   "tier": "",
+   "url": "https://www.7andi.com/en/company/cr/bloomberg002/index.html",
+   "raw_sector": "",
+   "date": "2024",
+   "fresh": "aging"
+  },
+  {
+   "company": "Seven & I Holdings Co., Ltd.",
+   "use": "Partnership with Telexistence to develop 'Astra' generative-AI humanoid robots (Vision-Language-Action foundation model) to handle routine in-store tasks across SEJ's store network. [Telexistence (with AIRoA)]",
+   "existence": "claimed",
+   "value": "targeted for 20,000+ stores",
+   "tier": "",
+   "url": "https://retailtechinnovationhub.com/home/2025/9/30/seven-eleven-japan-and-telexistence-prep-roll-out-of-genai-powered-humanoid-robots-in-stores",
+   "raw_sector": "",
+   "date": "2025-09-30",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Seven & I Holdings Co., Ltd.",
+   "use": "Telexistence 'Ghost' AI-powered beverage-restocking robot already in use in Seven-Eleven Japan stores, with a connected data-collection platform. [Telexistence]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://retailtechinnovationhub.com/home/2025/9/30/seven-eleven-japan-and-telexistence-prep-roll-out-of-genai-powered-humanoid-robots-in-stores",
+   "raw_sector": "",
+   "date": "2025-09-30",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Seven & I Holdings Co., Ltd.",
+   "use": "Generative AI used in product planning to auto-generate texts and images for new products based on store sales data, speeding up the development of new merchandise. [in-house / undisclosed]",
+   "existence": "confirmed",
+   "value": "expected ~10% reduction in planning time",
+   "tier": "",
+   "url": "https://asia.nikkei.com/business/retail/7-eleven-japan-to-use-generative-ai-to-speed-production-planning",
+   "raw_sector": "",
+   "date": "2024",
+   "fresh": "aging"
+  },
+  {
+   "company": "Seven & I Holdings Co., Ltd.",
+   "use": "Sony edge-AI (IMX500 intelligent vision sensor, AITRIOS platform) deployed to measure digital-signage advertising effectiveness in stores - counting viewers and view duration without capturing identifiable images. [Sony Semiconductor Solutions (AITRIOS / IMX500)]",
+   "existence": "confirmed",
+   "value": "500 stores",
+   "tier": "",
+   "url": "https://www.sony-semicon.com/en/news/2024/2024042401.html",
+   "raw_sector": "",
+   "date": "2024-04-24",
+   "fresh": "aging"
+  },
+  {
+   "company": "Seven & I Holdings Co., Ltd.",
+   "use": "Multi-agent GenAI creative assistant for marketing (campaign creative generator, copywriter bot, supervisor agent) built on LangGraph + Databricks Mosaic AI, in production across marketing teams (7-Eleven Inc., US). [Databricks (Mosaic AI) / LangGraph]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.databricks.com/blog/how-7-eleven-inc-built-game-changing-genai-creative-assistant-marketing-mosaic-ai",
+   "raw_sector": "",
+   "date": "2025-10-16",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Seven & I Holdings Co., Ltd.",
+   "use": "Microsoft Azure AI services integrated into the 7NOW delivery app to provide personalized product recommendations to customers (7-Eleven Inc., US). [Microsoft Azure AI]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.retaildive.com/news/7-eleven-taps-microsoft-tech-for-business-insights/562492/",
+   "raw_sector": "",
+   "date": "2019-09-09",
+   "fresh": "stale"
+  },
+  {
+   "company": "Seven & I Holdings Co., Ltd.",
+   "use": "AI avatars (remote operators appearing on register screens) assist customers in multiple languages, with one operator covering multiple stores, trialed to address labor shortages. [undisclosed]",
+   "existence": "confirmed",
+   "value": "combined measures expected to cut daily labor needs ~30%",
+   "tier": "",
+   "url": "https://www.tokyoscope.blog/p/7-eleven-japan-bets-on-ai-avatars",
+   "raw_sector": "",
+   "date": "2025-09-09",
    "fresh": "fresh"
   },
   {

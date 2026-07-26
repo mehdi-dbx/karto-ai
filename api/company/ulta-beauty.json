@@ -3,45 +3,105 @@
  "name": "Ulta Beauty",
  "cc": "US",
  "vertical": "Retail & E-commerce",
- "deployments": 1,
- "confirmed": 1,
- "with_value_number": 0,
- "proof_rate": 0.0,
+ "deployments": 12,
+ "confirmed": 12,
+ "with_value_number": 5,
+ "proof_rate": 0.417,
  "mktcap": 20670000000.0,
  "revenue": 12710000000.0,
  "employees": 66820.0,
  "silent": false,
- "per_bn_revenue": 0.08,
- "per_10k_emp": 0.15,
+ "per_bn_revenue": 0.94,
+ "per_10k_emp": 1.8,
  "benchmarks": {
   "global_vertical": {
-   "deployments": 0,
-   "confirmed": 24,
-   "proof_rate": 0,
-   "n": 295
+   "deployments": 86,
+   "confirmed": 91,
+   "proof_rate": 75,
+   "n": 301
   },
   "country_vertical": {
-   "deployments": 0,
-   "confirmed": 25,
-   "proof_rate": 0,
+   "deployments": 73,
+   "confirmed": 81,
+   "proof_rate": 87,
    "n": 80
   }
  },
- "first_seen": null,
- "by_year": [],
- "undated_pct": 100,
- "momentum": "none",
- "maturity": "L3",
+ "first_seen": 2016,
+ "by_year": [
+  {
+   "year": 2016,
+   "n": 1
+  },
+  {
+   "year": 2018,
+   "n": 1
+  },
+  {
+   "year": 2020,
+   "n": 1
+  },
+  {
+   "year": 2022,
+   "n": 1
+  },
+  {
+   "year": 2023,
+   "n": 2
+  },
+  {
+   "year": 2024,
+   "n": 1
+  },
+  {
+   "year": 2025,
+   "n": 3
+  },
+  {
+   "year": 2026,
+   "n": 1
+  }
+ ],
+ "undated_pct": 8,
+ "momentum": "early_mover,rising",
+ "maturity": "L4",
  "maturity_evidence": [
+  "multi_horizontal",
   "named_product:GLAMlab",
+  "value_number",
+  "multi_year",
   "tier_p"
  ],
- "prospect_score": 46,
+ "prospect_score": 83,
  "stack": [
+  "Google",
+  "Google Cloud",
   "NVIDIA"
  ],
  "vendor_named": true,
  "deployments_detail": [
+  {
+   "company": "Ulta Beauty",
+   "use": "Ulta Beauty Advisor Chat: generative-AI virtual beauty assistant launched for customer service / shopping guidance. [not named]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.glossy.co/beauty/how-ulta-beauty-is-using-ai-to-advance-its-tools-and-services/",
+   "raw_sector": "",
+   "date": "2023-10",
+   "fresh": "stale"
+  },
+  {
+   "company": "Ulta Beauty",
+   "use": "Interplay low-code AI platform powering a guest-services chatbot (order tracking, service inquiries, recommendations) and an AI virtual beauty advisor for personalized skincare suggestions. [Iterate.ai (Interplay)]",
+   "existence": "confirmed",
+   "value": "innovation ~10x faster than hardcoding (vendor claim)",
+   "tier": "",
+   "url": "https://www.retail-insight-network.com/news/ulta-beauty-iterate-ai/",
+   "raw_sector": "",
+   "date": "2022-09-06",
+   "fresh": "stale"
+  },
   {
    "company": "Ulta Beauty",
    "use": "\"GLAMlab\" AI/AR virtual try-on (GenAI hair try-on w/ NVIDIA StyleGAN2) + AI personalization (QM Scientific)",
@@ -52,6 +112,105 @@
    "raw_sector": "Consumer Discretionary",
    "date": "missing",
    "fresh": "undated"
+  },
+  {
+   "company": "Ulta Beauty",
+   "use": "GLAMlab virtual makeup try-on: AR/AI tool letting shoppers virtually try thousands of makeup, lash and brow products on the Ulta.com site and mobile app before buying. [In-house (GlamST acquisition)]",
+   "existence": "confirmed",
+   "value": "11.5 million visits; 82 million shades trialed",
+   "tier": "",
+   "url": "https://www.glossy.co/beauty/how-ulta-beauty-is-using-ai-to-advance-its-tools-and-services/",
+   "raw_sector": "",
+   "date": "2016",
+   "fresh": "stale"
+  },
+  {
+   "company": "Ulta Beauty",
+   "use": "GLAMlab Hair Try-On: generative-AI tool that shows near-instant, hyper-realistic previews of new hair colors and styles from a user photo, on web and app. [Nvidia (StyleGAN2 on Tensor Core GPUs)]",
+   "existence": "confirmed",
+   "value": "~5s for first style, ~1s per subsequent style",
+   "tier": "",
+   "url": "https://blogs.nvidia.com/blog/ulta-beauty-stylegan2/",
+   "raw_sector": "",
+   "date": "2024-12-19",
+   "fresh": "aging"
+  },
+  {
+   "company": "Ulta Beauty",
+   "use": "AI-driven skin analysis in the Ulta Beauty app: facial-recognition/AI scan that assesses skin and returns a customized skincare product selection. [Haut.AI (strategic partnership)]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.allure.com/story/ulta-beauty-app-skin-analysis-review",
+   "raw_sector": "",
+   "date": "2020-07-23",
+   "fresh": "stale"
+  },
+  {
+   "company": "Ulta Beauty",
+   "use": "Personalized product recommendation engine: custom ML framework for personalization built on capabilities from acquired AI company QM Scientific. [QM Scientific (acquired 2018)]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.ulta.com/investor/sec-filings/annual-reports/xbrl_doc_only/890",
+   "raw_sector": "",
+   "date": "2018-09-10",
+   "fresh": "stale"
+  },
+  {
+   "company": "Ulta Beauty",
+   "use": "Ulta AI shopping assistant plus agentic commerce across Google Search AI Mode and the Gemini app (product recommendations, comparisons, checkout) via the Universal Commerce Protocol. [Google Cloud (Gemini Enterprise for Customer Experience)]",
+   "existence": "confirmed",
+   "value": "46+ million loyalty members served",
+   "tier": "",
+   "url": "https://www.ulta.com/investor/news-events/press-releases/detail/226/ulta-beauty-and-google-introduce-gemini-enabled-shopping",
+   "raw_sector": "",
+   "date": "2026-04-22",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Ulta Beauty",
+   "use": "AI/ML capabilities used to drive supply chain efficiencies (reported on Q1 FY2025 results). [not named]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.digitalcommerce360.com/2025/09/11/how-ulta-beauty-is-using-ai/",
+   "raw_sector": "",
+   "date": "2025",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Ulta Beauty",
+   "use": "AI-enabled scheduling and enhanced payroll management tools launched to optimize store labor operations. [not named]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.digitalcommerce360.com/2025/09/11/how-ulta-beauty-is-using-ai/",
+   "raw_sector": "",
+   "date": "2025",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Ulta Beauty",
+   "use": "AI-driven email/marketing personalization: automating and personalizing loyalty data (e.g. animated points/bar-chart content) in email campaigns at scale. [Movable Ink]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.mediapost.com/publications/article/369571/oh-so-ulta-how-national-beauty-brand-toned-up-its.html",
+   "raw_sector": "",
+   "date": "2023-08",
+   "fresh": "stale"
+  },
+  {
+   "company": "Ulta Beauty",
+   "use": "Real-time personalization and AI recommendations powered by a connected customer data platform bringing first-party loyalty data together across channels. [Adobe (Adobe CDP / Experience Platform)]",
+   "existence": "confirmed",
+   "value": "loyalty members ~95% of sales; 46M+ members",
+   "tier": "",
+   "url": "https://www.adweek.com/brand-marketing/intelligent-beauty-how-ulta-beauty-uses-ai-personalization-to-power-loyalty-and-relevance-at-scale/",
+   "raw_sector": "",
+   "date": "2025-01-14",
+   "fresh": "fresh"
   }
  ]
 }

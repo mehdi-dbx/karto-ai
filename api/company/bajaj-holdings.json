@@ -3,42 +3,85 @@
  "name": "Bajaj Holdings",
  "cc": "IN",
  "vertical": "Financial Services",
- "deployments": 1,
- "confirmed": 0,
- "with_value_number": 0,
- "proof_rate": 0.0,
+ "deployments": 13,
+ "confirmed": 11,
+ "with_value_number": 8,
+ "proof_rate": 0.615,
  "mktcap": 13975903614.0,
  "revenue": 135421687.0,
  "employees": 14.0,
  "silent": false,
- "per_bn_revenue": 7.38,
- "per_10k_emp": 714.29,
+ "per_bn_revenue": 96.0,
+ "per_10k_emp": 9285.71,
  "benchmarks": {
   "global_vertical": {
-   "deployments": 0,
-   "confirmed": 0,
-   "proof_rate": 0,
-   "n": 377
+   "deployments": 87,
+   "confirmed": 84,
+   "proof_rate": 89,
+   "n": 388
   },
   "country_vertical": {
-   "deployments": 0,
-   "confirmed": 0,
-   "proof_rate": 0,
-   "n": 23
+   "deployments": 92,
+   "confirmed": 88,
+   "proof_rate": 83,
+   "n": 25
   }
  },
- "first_seen": null,
- "by_year": [],
- "undated_pct": 100,
- "momentum": "none",
- "maturity": "L1",
- "maturity_evidence": [
-  "rows_no_confirmed"
+ "first_seen": 2020,
+ "by_year": [
+  {
+   "year": 2020,
+   "n": 1
+  },
+  {
+   "year": 2025,
+   "n": 4
+  },
+  {
+   "year": 2026,
+   "n": 7
+  }
  ],
- "prospect_score": 40,
- "stack": [],
- "vendor_named": false,
+ "undated_pct": 8,
+ "momentum": "early_mover,rising",
+ "maturity": "L4",
+ "maturity_evidence": [
+  "multi_horizontal",
+  "named_product:FINAI",
+  "value_number",
+  "multi_year"
+ ],
+ "prospect_score": 75,
+ "stack": [
+  "Microsoft",
+  "Microsoft Azure",
+  "OpenAI",
+  "Palantir"
+ ],
+ "vendor_named": true,
  "deployments_detail": [
+  {
+   "company": "Bajaj Holdings",
+   "use": "Conversational AI virtual assistant (BLU) — multilingual voice and text bots deployed across website, PWA, WhatsApp, Alexa and Google to handle customer support, product sales and engagement across the customer lifecycle. [Yellow.ai]",
+   "existence": "confirmed",
+   "value": "Over $100M in sales attributed in 2020; $10M+ saved in one year; millions of conversations handled",
+   "tier": "",
+   "url": "https://yellow.ai/case-study/how-bajaj-finserv-boosts-cx/",
+   "raw_sector": "",
+   "date": "2026-02",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Bajaj Holdings",
+   "use": "Multi-agent AI customer call system powered by Elasticsearch + GPT to preserve context and run data analytics over customer interactions for support and servicing. [Elasticsearch, GPT]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.youtube.com/watch?v=QkYfTalxouA",
+   "raw_sector": "",
+   "date": "2025",
+   "fresh": "fresh"
+  },
   {
    "company": "Bajaj Holdings",
    "use": "no confirmed deployment found (pure investment holding company; AI activity belongs to operating subsidiaries Bajaj Finance/Finserv)",
@@ -49,6 +92,116 @@
    "raw_sector": "Financial Services",
    "date": "missing",
    "fresh": "undated"
+  },
+  {
+   "company": "Bajaj Holdings",
+   "use": "FINAI voice analytics: AI transcribed and analyzed ~20 million (2 crore) recorded customer calls (voice-to-text), converting them into structured data and loan offers; disbursed Rs 1,600 crore of loans via AI-assisted calls in a single quarter (Q3 FY26). [Bajaj Finance FINAI (in-house programme)]",
+   "existence": "confirmed",
+   "value": "Rs 1,600 crore loan disbursements in one quarter; additional Rs 325 crore from data conversion; 20.7M interactions processed, 100,000 new offers",
+   "tier": "",
+   "url": "https://www.medianama.com/2026/02/223-bajaj-finance-800-ai-agents-lending-operations/",
+   "raw_sector": "",
+   "date": "2026-02",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Bajaj Holdings",
+   "use": "Strategic partnership to embed Microsoft Azure OpenAI services across Bajaj Finance for higher conversion rates, back-office productivity and front-line performance as part of becoming a 'FinAI company'. [Microsoft Azure OpenAI]",
+   "existence": "confirmed",
+   "value": "Expected annual cost saving of INR 150 crore in FY26",
+   "tier": "",
+   "url": "https://news.microsoft.com/en-in/microsoft-inks-strategic-partnerships-to-make-indias-core-sectors-ai-first/",
+   "raw_sector": "",
+   "date": "2025-01",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Bajaj Holdings",
+   "use": "Project Niriksha — multi-agent AI framework on Azure automating health-insurance claims adjudication and fraud detection via specialized agents (document/OCR, medical abuse detection, pharmacy pricing validation, tariff verification, policy compliance). [Microsoft Azure OpenAI, Azure AI Foundry, GitHub Copilot, Power Platform]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.microsoft.com/en-in/aifirstmovers/FY26BajajGeneralInsurance",
+   "raw_sector": "",
+   "date": "2026",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Bajaj Holdings",
+   "use": "Motor OTS (On-The-Spot) claims settlement using an AI-based photogrammetry tool that detects vehicle damage from photos and settles motor claims within ~30 minutes up to certain amounts. [none]",
+   "existence": "confirmed",
+   "value": "Claims settled within 30 minutes",
+   "tier": "",
+   "url": "https://www.expresscomputer.in/news/bajaj-allianz-general-insurance-leverages-artificial-intelligence-in-operations/69958/",
+   "raw_sector": "",
+   "date": "2020-12",
+   "fresh": "stale"
+  },
+  {
+   "company": "Bajaj Holdings",
+   "use": "Plan to deploy 800+ autonomous (agentic) AI agents across sales, operations, HR, IT, risk management and Dealer Management System (DMS) by FY27 under the FINAI programme; ~25 agents targeted for Q4 FY26 scaling up. [Bajaj Finance FINAI]",
+   "existence": "claimed",
+   "value": "800+ autonomous agents targeted by FY27; 1.15x-2x productivity boost target",
+   "tier": "",
+   "url": "https://www.medianama.com/2026/02/223-bajaj-finance-800-ai-agents-lending-operations/",
+   "raw_sector": "",
+   "date": "2026-02",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Bajaj Holdings",
+   "use": "AI-driven document processing / quality-check automation: 41% of quality checks automated with a target of 85-90% automation within 15 months. [none]",
+   "existence": "confirmed",
+   "value": "41% of quality checks automated; target 85-90%",
+   "tier": "",
+   "url": "https://www.medianama.com/2026/02/223-bajaj-finance-800-ai-agents-lending-operations/",
+   "raw_sector": "",
+   "date": "2026-02",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Bajaj Holdings",
+   "use": "Predictive fraud analytics and GenAI for claims fraud control: ML models score new claims against fraud-indicator parameters in real time; GenAI summarizes case files and flags inconsistencies for investigators. [none]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.linkedin.com/posts/kvdipu_aiininsurance-dataanalytics-frauddetection-activity-7358370815882461184-8s8K",
+   "raw_sector": "",
+   "date": "2025",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Bajaj Holdings",
+   "use": "Centenary brand film 'Kathni Karni Ek Si' created entirely with generative AI (photorealistic AI clones/avatars of Bajaj family members), directed by Rajkumar Hirani for Bajaj Group's 100-year celebration. [Wondrlab India, Studio Blo]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://campaignbriefasia.com/2026/05/20/wondrlab-indias-new-film-brings-bajaj-groups-100-year-story-to-life-through-ai/",
+   "raw_sector": "",
+   "date": "2026-05",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Bajaj Holdings",
+   "use": "AI-assisted software development: AI coding/dev tools applied across engineering, delivering 25-45% development efficiency gains depending on legacy vs. new platforms. [none]",
+   "existence": "confirmed",
+   "value": "25-45% development efficiency improvement",
+   "tier": "",
+   "url": "https://www.medianama.com/2026/02/223-bajaj-finance-800-ai-agents-lending-operations/",
+   "raw_sector": "",
+   "date": "2026-02",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Bajaj Holdings",
+   "use": "AI-powered code review and application security: CodeAnt AI deployed inside Azure DevOps for AI code review, SAST scanning, secret detection and IaC misconfiguration checks on every pull request, replacing SonarQube and manual review. [CodeAnt AI (on Azure DevOps)]",
+   "existence": "confirmed",
+   "value": "8,000+ pull requests reviewed; 300+ developers; review time reduced from hours to seconds",
+   "tier": "",
+   "url": "https://www.codeant.ai/customer-story/bajaj-finserv",
+   "raw_sector": "",
+   "date": "2025",
+   "fresh": "fresh"
   }
  ]
 }

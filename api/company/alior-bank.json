@@ -3,27 +3,27 @@
  "name": "Alior Bank",
  "cc": "PL",
  "vertical": "Financial Services",
- "deployments": 1,
- "confirmed": 1,
- "with_value_number": 1,
- "proof_rate": 1.0,
+ "deployments": 6,
+ "confirmed": 4,
+ "with_value_number": 2,
+ "proof_rate": 0.333,
  "mktcap": 4455000000.0,
  "revenue": 1432500000.0,
  "employees": 6740.0,
  "silent": false,
- "per_bn_revenue": 0.7,
- "per_10k_emp": 1.48,
+ "per_bn_revenue": 4.19,
+ "per_10k_emp": 8.9,
  "benchmarks": {
   "global_vertical": {
-   "deployments": 0,
-   "confirmed": 17,
-   "proof_rate": 76,
-   "n": 377
+   "deployments": 44,
+   "confirmed": 39,
+   "proof_rate": 58,
+   "n": 388
   },
   "country_vertical": {
-   "deployments": 0,
-   "confirmed": 20,
-   "proof_rate": 100,
+   "deployments": 40,
+   "confirmed": 60,
+   "proof_rate": 40,
    "n": 6
   }
  },
@@ -34,18 +34,30 @@
    "n": 1
   }
  ],
- "undated_pct": 0,
+ "undated_pct": 83,
  "momentum": "early_mover,gone_quiet",
  "maturity": "L3",
  "maturity_evidence": [
+  "multi_horizontal",
   "named_product:InfoNINA",
   "value_number",
   "tier_p"
  ],
- "prospect_score": 14,
+ "prospect_score": 59,
  "stack": [],
  "vendor_named": false,
  "deployments_detail": [
+  {
+   "company": "Alior Bank",
+   "use": "AI tools in software development and system monitoring",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.aliorbank.pl/dam/jcr:722b8261-c62e-4ec7-b70c-1769f419deee/Alior%20Bank%20Strategy%202025-2027.pdf",
+   "raw_sector": "",
+   "date": "missing",
+   "fresh": "undated"
+  },
   {
    "company": "Alior Bank",
    "use": "InfoNINA AI voice assistant on the customer hotline (with Alfavox, SentiOne, Techmo), replacing tone-based IVR and later extended to chat",
@@ -56,6 +68,50 @@
    "raw_sector": "Banks",
    "date": "2021",
    "fresh": "stale"
+  },
+  {
+   "company": "Alior Bank",
+   "use": "AI-powered voice bot for contact center",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://sentione.com/resources/case-studies/alior-bank-voicebot-handles-call-centre-traffic",
+   "raw_sector": "",
+   "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "Alior Bank",
+   "use": "AI-driven contact center experience and insights",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.celent.com/en/insights/236118572",
+   "raw_sector": "",
+   "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "Alior Bank",
+   "use": "AI-driven analytics for loan decision automation",
+   "existence": "claimed",
+   "value": "40%",
+   "tier": "",
+   "url": "https://matrixbcg.com/products/aliorbank-business-model-canvas",
+   "raw_sector": "",
+   "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "Alior Bank",
+   "use": "Data integration and AI/ML for financial analytics [Teradata]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.teradata.com/customers/alior-bank",
+   "raw_sector": "",
+   "date": "missing",
+   "fresh": "undated"
   }
  ]
 }

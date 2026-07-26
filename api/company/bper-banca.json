@@ -3,43 +3,55 @@
  "name": "BPER Banca",
  "cc": "IT",
  "vertical": "Financial Services",
- "deployments": 4,
- "confirmed": 3,
- "with_value_number": 0,
- "proof_rate": 0.0,
+ "deployments": 8,
+ "confirmed": 5,
+ "with_value_number": 1,
+ "proof_rate": 0.125,
  "mktcap": 31082400000.0,
  "revenue": 6415200000.0,
  "employees": 22964.0,
  "silent": false,
- "per_bn_revenue": 0.62,
- "per_10k_emp": 1.74,
+ "per_bn_revenue": 1.25,
+ "per_10k_emp": 3.48,
  "benchmarks": {
   "global_vertical": {
-   "deployments": 91,
-   "confirmed": 89,
-   "proof_rate": 0,
-   "n": 377
+   "deployments": 55,
+   "confirmed": 46,
+   "proof_rate": 31,
+   "n": 388
   },
   "country_vertical": {
-   "deployments": 100,
-   "confirmed": 100,
+   "deployments": 56,
+   "confirmed": 56,
    "proof_rate": 0,
    "n": 10
   }
  },
- "first_seen": null,
- "by_year": [],
- "undated_pct": 100,
- "momentum": "none",
+ "first_seen": 2022,
+ "by_year": [
+  {
+   "year": 2022,
+   "n": 1
+  },
+  {
+   "year": 2024,
+   "n": 2
+  }
+ ],
+ "undated_pct": 62,
+ "momentum": "early_mover,gone_quiet",
  "maturity": "L3",
  "maturity_evidence": [
+  "multi_horizontal",
   "named_product:Dotti",
+  "value_number",
   "tier_p"
  ],
- "prospect_score": 58,
+ "prospect_score": 65,
  "stack": [
   "Google",
-  "Google Cloud"
+  "Google Cloud",
+  "IBM"
  ],
  "vendor_named": true,
  "deployments_detail": [
@@ -84,6 +96,50 @@
    "tier": "I",
    "url": "https://www.bluerating.com",
    "raw_sector": "Banks",
+   "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "BPER Banca",
+   "use": "Workforce optimization and process automation through AI",
+   "existence": "confirmed",
+   "value": "2000 jobs",
+   "tier": "",
+   "url": "https://www.bloomberg.com/news/articles/2024-10-10/italian-bank-bper-says-ai-will-help-it-cut-10-of-its-jobs",
+   "raw_sector": "",
+   "date": "2024-10-10",
+   "fresh": "aging"
+  },
+  {
+   "company": "BPER Banca",
+   "use": "AI/GenAI enabled process optimization and automation",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://group.bper.it/en/bper-group/business-plan",
+   "raw_sector": "",
+   "date": "2024-10-10",
+   "fresh": "aging"
+  },
+  {
+   "company": "BPER Banca",
+   "use": "Core banking system modernization with AI-powered capabilities [IBM]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://newsroom.ibm.com/2022-10-27-BPER-Banca-Group-Collaborates-with-IBM-to-Modernize-Core-Banking-Systems-and-Accelerate-Digital-Transformation-Plan",
+   "raw_sector": "",
+   "date": "2022-10-27",
+   "fresh": "stale"
+  },
+  {
+   "company": "BPER Banca",
+   "use": "Fraud detection using AI models",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.linkedin.com/posts/unblu_how-do-you-combine-ai-with-human-expertise-activity-7462744123918438400-wM3w",
+   "raw_sector": "",
    "date": "missing",
    "fresh": "undated"
   }

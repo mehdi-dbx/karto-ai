@@ -3,43 +3,144 @@
  "name": "CBRE Group",
  "cc": "US",
  "vertical": "Real Estate & Construction",
- "deployments": 1,
- "confirmed": 1,
- "with_value_number": 0,
- "proof_rate": 0.0,
+ "deployments": 11,
+ "confirmed": 10,
+ "with_value_number": 5,
+ "proof_rate": 0.455,
  "mktcap": 39920000000.0,
  "revenue": 42200000000.0,
  "employees": 155000.0,
  "silent": false,
- "per_bn_revenue": 0.02,
- "per_10k_emp": 0.06,
+ "per_bn_revenue": 0.26,
+ "per_10k_emp": 0.71,
  "benchmarks": {
   "global_vertical": {
-   "deployments": 0,
-   "confirmed": 31,
-   "proof_rate": 0,
+   "deployments": 93,
+   "confirmed": 96,
+   "proof_rate": 80,
    "n": 154
   },
   "country_vertical": {
-   "deployments": 0,
-   "confirmed": 50,
-   "proof_rate": 0,
+   "deployments": 97,
+   "confirmed": 100,
+   "proof_rate": 90,
    "n": 31
   }
  },
- "first_seen": null,
- "by_year": [],
- "undated_pct": 100,
- "momentum": "none",
- "maturity": "L3",
+ "first_seen": 2023,
+ "by_year": [
+  {
+   "year": 2023,
+   "n": 3
+  },
+  {
+   "year": 2024,
+   "n": 2
+  },
+  {
+   "year": 2025,
+   "n": 3
+  },
+  {
+   "year": 2026,
+   "n": 2
+  }
+ ],
+ "undated_pct": 9,
+ "momentum": "early_mover,flat",
+ "maturity": "L4",
  "maturity_evidence": [
+  "multi_horizontal",
   "named_product:Ellis AI",
+  "value_number",
+  "multi_year",
   "tier_p"
  ],
- "prospect_score": 54,
- "stack": [],
- "vendor_named": false,
+ "prospect_score": 82,
+ "stack": [
+  "Google Cloud",
+  "Microsoft",
+  "OpenAI"
+ ],
+ "vendor_named": true,
  "deployments_detail": [
+  {
+   "company": "CBRE Group",
+   "use": "Ellis AI — CBRE's enterprise multi-model generative AI platform providing conversational digital assistants that scan/analyze datasets, automate tasks, generate research reports, analyze supply chain contracts, and support lead generation across the firm. Agentic AI assistants perform multi-step workflows. [CBRE proprietary (multi-model GenAI platform)]",
+   "existence": "confirmed",
+   "value": "reduces time to complete complex tasks from weeks to minutes (no hard number)",
+   "tier": "",
+   "url": "https://www.cbre.com/insights/articles/everyone-can-have-a-digital-assistant-with-ellis-ai",
+   "raw_sector": "",
+   "date": "2025-02-13",
+   "fresh": "fresh"
+  },
+  {
+   "company": "CBRE Group",
+   "use": "Smart FM Solutions — AI-based facilities management (predictive/virtual maintenance, alarm triage, automated maintenance, space utilization) built on CBRE's Nexus AI platform, deployed across client portfolios. [CBRE Nexus (proprietary AI platform)]",
+   "existence": "confirmed",
+   "value": "1 billion sq ft across 20,000+ client sites; up to 20% reduction in maintenance costs and energy; ~25% reduction in technician dispatches",
+   "tier": "",
+   "url": "https://www.cbre.com/press-releases/cbres-ai-powered-facilities-management-solutions-reaches-1-billion-sf-of-deployment",
+   "raw_sector": "",
+   "date": "2023-08-21",
+   "fresh": "stale"
+  },
+  {
+   "company": "CBRE Group",
+   "use": "Capital AI — AI platform analyzing billions of proprietary data points to identify capital sources/investors for real estate investment sales; deployed in Retail Capital Markets with planned expansion to industrial, office, multifamily. [CBRE proprietary technology stack]",
+   "existence": "confirmed",
+   "value": "can expand bidder pools by up to 20%",
+   "tier": "",
+   "url": "https://www.cbre.com/press-releases/cbre-unveils-capital-ai-unlocking-the-power-of-real-estate-investment-property-data",
+   "raw_sector": "",
+   "date": "2024-08-05",
+   "fresh": "aging"
+  },
+  {
+   "company": "CBRE Group",
+   "use": "Occupancy Optimizer — proprietary AI-enabled tool to model space scenarios and stacking plans in real time for return-to-office / workplace planning; used with Ellis AI on client engagements. [CBRE proprietary (integrated with Ellis AI)]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.cbre.com/insights/articles/smarter-space-not-more-space-how-ai-is-reshaping-return-to-office-planning",
+   "raw_sector": "",
+   "date": "2025-01-01",
+   "fresh": "fresh"
+  },
+  {
+   "company": "CBRE Group",
+   "use": "CBRE Investment Management AI-enhanced data collection — proprietary methodology combining a GPT-based AI model with CBRE IM's deal log to gather and analyze global real estate secondaries transaction volume. [GPT-based AI model (per Secondaries Investor); CBRE IM proprietary method]",
+   "existence": "confirmed",
+   "value": "identified $23.4bn (2023), $24.3bn (2024), and $25.1bn (2025) in secondaries volume",
+   "tier": "",
+   "url": "https://www.cbreim.com/press-releases/cbreim-ai-enhanced-data-collection-global-real-estate-secondaries-excess-us23-billion-annually",
+   "raw_sector": "",
+   "date": "2024-12-12",
+   "fresh": "aging"
+  },
+  {
+   "company": "CBRE Group",
+   "use": "TOPS2 Agentic — next-generation valuation & advisory platform embedding specialized AI agents directly into the appraisal/valuation workflow to automate analytics and reporting. [CBRE proprietary (agentic AI on TOPS2 platform)]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.cbre.com/services/invest-finance-and-value/valuation-and-advisory",
+   "raw_sector": "",
+   "date": "2026-06-01",
+   "fresh": "fresh"
+  },
+  {
+   "company": "CBRE Group",
+   "use": "Agentic AI platform initiative — CBRE joined the McKinsey–Google Cloud Transformation Group to build and scale a firm-wide agentic AI platform on Google Cloud for real-world real estate environments. [Google Cloud + McKinsey (McKinsey Google Transformation Group)]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.mckinsey.com/about-us/new-at-mckinsey-blog/mckinsey-and-google-cloud-launch-the-mckinsey-google-transformation-group-to-scale-enterprise-impact-for-the-ai-era",
+   "raw_sector": "",
+   "date": "2026-04-22",
+   "fresh": "fresh"
+  },
   {
    "company": "CBRE Group",
    "use": "\"Ellis AI\" GenAI digital-assistant platform for CRE (data analysis, document processing, workflow automation)",
@@ -50,6 +151,39 @@
    "raw_sector": "Real Estate",
    "date": "missing",
    "fresh": "undated"
+  },
+  {
+   "company": "CBRE Group",
+   "use": "Self-service GenAI 'AI playground' — a sandboxed internal platform letting employees query real estate data, summarize/translate documents, and use LLMs safely without exposing proprietary data. [CBRE proprietary platform (LLMs; vendor undisclosed)]",
+   "existence": "confirmed",
+   "value": "~3,000 unique monthly users; ~150 new users added weekly",
+   "tier": "",
+   "url": "https://www.ciodive.com/news/CBRE-generative-AI-coding-assistance-self-service-platform/699503/",
+   "raw_sector": "",
+   "date": "2023-11-13",
+   "fresh": "stale"
+  },
+  {
+   "company": "CBRE Group",
+   "use": "AI lease abstraction — using AI to abstract/extract contract data from lease documents, streamlining CRE due diligence workflows. [CBRE (AI; vendor undisclosed)]",
+   "existence": "confirmed",
+   "value": "25% time savings on contract data abstraction annually",
+   "tier": "",
+   "url": "https://www.linkedin.com/posts/cbre_ai-at-cbre-lease-abstraction-activity-7298340669624860674-b87c",
+   "raw_sector": "",
+   "date": "2025-02-01",
+   "fresh": "fresh"
+  },
+  {
+   "company": "CBRE Group",
+   "use": "GitHub Copilot deployed to software engineers for code writing and test script generation. [GitHub Copilot (Microsoft/OpenAI)]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.ciodive.com/news/CBRE-generative-AI-coding-assistance-self-service-platform/699503/",
+   "raw_sector": "",
+   "date": "2023-11-13",
+   "fresh": "stale"
   }
  ]
 }

@@ -3,40 +3,51 @@
  "name": "Mizrahi-Tefahot Bank",
  "cc": "IL",
  "vertical": "Financial Services",
- "deployments": 1,
- "confirmed": 1,
+ "deployments": 7,
+ "confirmed": 5,
  "with_value_number": 0,
  "proof_rate": 0.0,
  "mktcap": 15913513514.0,
  "revenue": 3883783784.0,
  "employees": 7230.0,
  "silent": false,
- "per_bn_revenue": 0.26,
- "per_10k_emp": 1.38,
+ "per_bn_revenue": 1.8,
+ "per_10k_emp": 9.68,
  "benchmarks": {
   "global_vertical": {
-   "deployments": 0,
-   "confirmed": 17,
+   "deployments": 51,
+   "confirmed": 46,
    "proof_rate": 0,
-   "n": 377
+   "n": 388
   },
   "country_vertical": {
-   "deployments": 0,
-   "confirmed": 25,
+   "deployments": 50,
+   "confirmed": 50,
    "proof_rate": 0,
    "n": 5
   }
  },
- "first_seen": null,
- "by_year": [],
- "undated_pct": 100,
- "momentum": "none",
- "maturity": "L3",
+ "first_seen": 2025,
+ "by_year": [
+  {
+   "year": 2025,
+   "n": 3
+  },
+  {
+   "year": 2026,
+   "n": 3
+  }
+ ],
+ "undated_pct": 14,
+ "momentum": "rising",
+ "maturity": "L4",
  "maturity_evidence": [
+  "multi_horizontal",
   "named_product:Launched",
+  "multi_year",
   "tier_p"
  ],
- "prospect_score": 54,
+ "prospect_score": 78,
  "stack": [],
  "vendor_named": false,
  "deployments_detail": [
@@ -50,6 +61,72 @@
    "raw_sector": "Banks",
    "date": "missing",
    "fresh": "undated"
+  },
+  {
+   "company": "Mizrahi-Tefahot Bank",
+   "use": "BridgeWise AI stock-analysis platform launched for the bank's brokerage/investment customers: analyzes stocks worldwide, translates 280+ fundamental data points into plain-language ratings, strengths/weaknesses and recommendations, available free in the bank's investments area (and planned for the app), in Hebrew/Arabic/Russian. [BridgeWise (BridgeWise Analytics Ltd.)]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.mizrahi-tefahot.co.il/brokerage/bridgewise/",
+   "raw_sector": "",
+   "date": "2025",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Mizrahi-Tefahot Bank",
+   "use": "On-premises AI infrastructure built with Dell to enable the bank to develop and run AI-based banking applications: local AI compute on advanced Dell PowerEdge servers plus five Dell PowerMax storage arrays in Active-Active configuration, with a custom Python/Ansible management layer and isolated signed backups. [Dell Technologies (PowerEdge, PowerMax)]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.t-experts.co.il/mizrahi-tfahot-ai-case-study-active-active-powermax",
+   "raw_sector": "",
+   "date": "2025",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Mizrahi-Tefahot Bank",
+   "use": "AI agents/voice bots for Hebrew customer service in the bank's app and website (reported alongside Bank Hapoalim in an Israeli banking-AI industry review; not separately quantified for Mizrahi-Tefahot). [none]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://stsiconic.com/ai-%D7%9C%D7%91%D7%A0%D7%A7%D7%90%D7%95%D7%AA-%D7%99%D7%A9%D7%A8%D7%90%D7%9C%D7%99%D7%AA-2026-5-%D7%A9%D7%99%D7%9E%D7%95%D7%A9%D7%99%D7%9D-%D7%A9%D7%A2%D7%95%D7%91%D7%93%D7%99%D7%9D-%D7%91%D7%94/",
+   "raw_sector": "",
+   "date": "2026",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Mizrahi-Tefahot Bank",
+   "use": "Use of AI tools for customer and market research: the bank's ESG/corporate-responsibility report states it conducts customer-experience research including 'surveys via AI tools', with findings distributed to relevant units across the bank. [none]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.mizrahi-tefahot.co.il/media/yhcbtsm3/117926-taagidit-2025-web_book_biz1.pdf",
+   "raw_sector": "",
+   "date": "2025",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Mizrahi-Tefahot Bank",
+   "use": "AI adoption / model-risk governance program: the Q1 2026 Risks Report lists 'Artificial Intelligence (AI) risks' as an emerging risk and states the bank 'takes action to implement AI solutions in its technological and business domains in order to improve customer services and support faster and more accurate decision-making by employees and managers', managed via responsible, gradual rollout with model-risk and cyber controls and a dedicated technology-innovation committee. [none]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.mizrahi-tefahot.co.il/media/taqpdz03/risk_report_q1_2026.pdf",
+   "raw_sector": "",
+   "date": "2026",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Mizrahi-Tefahot Bank",
+   "use": "ESG/climate risk-rating assessment model for the bank's real (equity/fund) investment portfolio, scheduled for implementation in H1 2026; the bank frames its model program as covering models 'including AI models'. (Model methodology; AI component not individually confirmed.) [none]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.mizrahi-tefahot.co.il/media/yhcbtsm3/117926-taagidit-2025-web_book_biz1.pdf",
+   "raw_sector": "",
+   "date": "2026",
+   "fresh": "fresh"
   }
  ]
 }

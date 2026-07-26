@@ -3,42 +3,62 @@
  "name": "MTR Corporation",
  "cc": "CN",
  "vertical": "Real Estate & Construction",
- "deployments": 1,
- "confirmed": 1,
- "with_value_number": 0,
- "proof_rate": 0.0,
+ "deployments": 5,
+ "confirmed": 4,
+ "with_value_number": 1,
+ "proof_rate": 0.2,
  "mktcap": 26080769231.0,
  "revenue": 7111538462.0,
  "employees": 29866.0,
  "silent": false,
- "per_bn_revenue": 0.14,
- "per_10k_emp": 0.33,
+ "per_bn_revenue": 0.7,
+ "per_10k_emp": 1.67,
  "benchmarks": {
   "global_vertical": {
-   "deployments": 0,
-   "confirmed": 31,
-   "proof_rate": 0,
+   "deployments": 60,
+   "confirmed": 64,
+   "proof_rate": 50,
    "n": 154
   },
   "country_vertical": {
-   "deployments": 0,
-   "confirmed": 7,
-   "proof_rate": 0,
+   "deployments": 55,
+   "confirmed": 66,
+   "proof_rate": 41,
    "n": 30
   }
  },
- "first_seen": null,
- "by_year": [],
- "undated_pct": 100,
- "momentum": "none",
+ "first_seen": 2025,
+ "by_year": [
+  {
+   "year": 2025,
+   "n": 4
+  }
+ ],
+ "undated_pct": 20,
+ "momentum": "rising",
  "maturity": "L3",
  "maturity_evidence": [
-  "named_product:HKUST"
+  "multi_horizontal",
+  "named_product:HKUST",
+  "value_number"
  ],
- "prospect_score": 54,
- "stack": [],
- "vendor_named": false,
+ "prospect_score": 56,
+ "stack": [
+  "Microsoft"
+ ],
+ "vendor_named": true,
  "deployments_detail": [
+  {
+   "company": "MTR Corporation",
+   "use": "AI telephone virtual service ambassador for customer inquiries [Set Sail AI]",
+   "existence": "confirmed",
+   "value": "12000",
+   "tier": "",
+   "url": "https://setsail.ai/%E6%B8%AF%E9%90%B5AI%E9%9B%BB%E8%A9%B1%E8%99%9B%E6%93%AC%E6%9C%8D%E5%8B%99%E5%A4%A7%E4%BD%BF%E7%8D%B2%E3%80%8CAI%2B%E5%B9%B4%E5%BA%A6%E5%8D%93%E8%B6%8A%E9%A0%85%E7%9B%AE%E7%8D%8E%E3%80%8D.html",
+   "raw_sector": "",
+   "date": "2025-06-11",
+   "fresh": "fresh"
+  },
   {
    "company": "MTR Corporation",
    "use": "AI acoustic-monitoring system (voiceprint analysis of running-train undercarriage for early wear); AI passenger-flow prediction + smart-diversion; HKUST AI research (HK ICT Awards)",
@@ -49,6 +69,39 @@
    "raw_sector": "Commerce & Industry (HSI)",
    "date": "missing",
    "fresh": "undated"
+  },
+  {
+   "company": "MTR Corporation",
+   "use": "Ridership prediction and crowd diversion for major events",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://amp.scmp.com/news/hong-kong/transport/article/3320496/hong-kongs-mtr-adopts-ai-powered-systems-deploying-trains-crowd-control",
+   "raw_sector": "",
+   "date": "2025-08-02",
+   "fresh": "fresh"
+  },
+  {
+   "company": "MTR Corporation",
+   "use": "AI for property management and energy saving efficiency",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.mtr.com.hk/archive/corporate/en/press_release/PR-25-058-E.pdf",
+   "raw_sector": "",
+   "date": "2025-08-13",
+   "fresh": "fresh"
+  },
+  {
+   "company": "MTR Corporation",
+   "use": "Microsoft 365 Copilot and Power Platform for customer experience and operations [Microsoft]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.linkedin.com/posts/microsoft_keeping-cities-moving-how-mtr-corporation-activity-7455438342818672641-Jfxd",
+   "raw_sector": "",
+   "date": "2025",
+   "fresh": "fresh"
   },
   {
    "company": "MTR Corporation",
@@ -63,6 +116,28 @@
   },
   {
    "company": "MTR Corporation",
+   "use": "Ridership prediction model for train deployment and passenger distribution forecasting",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://amp.scmp.com/news/hong-kong/transport/article/3320496/hong-kongs-mtr-adopts-ai-powered-systems-deploying-trains-crowd-control",
+   "raw_sector": "",
+   "date": "2025-08-02",
+   "fresh": "fresh"
+  },
+  {
+   "company": "MTR Corporation",
+   "use": "Intelligent crowd diversion system (ICDS) for passenger crowd control at events",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://amp.scmp.com/news/hong-kong/transport/article/3320496/hong-kongs-mtr-adopts-ai-powered-systems-deploying-trains-crowd-control",
+   "raw_sector": "",
+   "date": "2025-08-02",
+   "fresh": "fresh"
+  },
+  {
+   "company": "MTR Corporation",
    "use": "Virtual service assistant \"Tracy\" AI helping customers plan journeys and handle queries in the MTR Mobile app",
    "existence": "confirmed",
    "value": "none",
@@ -71,6 +146,39 @@
    "raw_sector": "Transport",
    "date": "2025-10",
    "fresh": "fresh"
+  },
+  {
+   "company": "MTR Corporation",
+   "use": "Gen AI-powered virtual service ambassador",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://asianbusinessreview.com/co-written-partner/event-news/mtr-corporation-earns-2-wins-asian-experience-awards-2025",
+   "raw_sector": "",
+   "date": "2025-09-26",
+   "fresh": "fresh"
+  },
+  {
+   "company": "MTR Corporation",
+   "use": "Microsoft 365 Copilot for operational efficiency and manual effort reduction [Microsoft 365 Copilot]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.microsoft.com/en/customers/story/26104-mtr-corporation-microsoft-365-copilot",
+   "raw_sector": "",
+   "date": "2026-03-03",
+   "fresh": "fresh"
+  },
+  {
+   "company": "MTR Corporation",
+   "use": "AI-powered energy management system at Two IFC and Elements Mall",
+   "existence": "confirmed",
+   "value": "10% drop in energy consumption, 2.3 million kWh saved",
+   "tier": "",
+   "url": "https://aiopportunity.publicfirst.co/handouts/Seizing_Hong_Kongs_AI_Opportunity.pdf",
+   "raw_sector": "",
+   "date": "missing",
+   "fresh": "undated"
   }
  ]
 }

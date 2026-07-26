@@ -3,39 +3,45 @@
  "name": "Cooper Companies (The)",
  "cc": "US",
  "vertical": "Healthcare & Life Sciences",
- "deployments": 1,
- "confirmed": 0,
+ "deployments": 3,
+ "confirmed": 2,
  "with_value_number": 0,
  "proof_rate": 0.0,
  "mktcap": 13680000000.0,
  "revenue": 4230000000.0,
  "employees": 15000.0,
  "silent": false,
- "per_bn_revenue": 0.24,
- "per_10k_emp": 0.67,
+ "per_bn_revenue": 0.71,
+ "per_10k_emp": 2.0,
  "benchmarks": {
   "global_vertical": {
-   "deployments": 0,
-   "confirmed": 0,
+   "deployments": 14,
+   "confirmed": 20,
    "proof_rate": 0,
-   "n": 165
+   "n": 168
   },
   "country_vertical": {
-   "deployments": 0,
-   "confirmed": 0,
+   "deployments": 5,
+   "confirmed": 10,
    "proof_rate": 0,
    "n": 59
   }
  },
- "first_seen": null,
- "by_year": [],
- "undated_pct": 100,
- "momentum": "none",
- "maturity": "L1",
- "maturity_evidence": [
-  "rows_no_confirmed"
+ "first_seen": 2025,
+ "by_year": [
+  {
+   "year": 2025,
+   "n": 1
+  }
  ],
- "prospect_score": 40,
+ "undated_pct": 67,
+ "momentum": "rising",
+ "maturity": "L3",
+ "maturity_evidence": [
+  "multi_horizontal",
+  "named_product:Support"
+ ],
+ "prospect_score": 60,
  "stack": [],
  "vendor_named": false,
  "deployments_detail": [
@@ -49,6 +55,28 @@
    "raw_sector": "Health Care",
    "date": "missing",
    "fresh": "undated"
+  },
+  {
+   "company": "Cooper Companies (The)",
+   "use": "PGTai technology platform for preimplantation genetic testing using AI and machine learning",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://investor.coopercos.com/news-releases/news-release-details/coopersurgical-inc-launches-pgtai-technology-platform-and-erpeak",
+   "raw_sector": "",
+   "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "Cooper Companies (The)",
+   "use": "Support functions integration for productivity gains leveraging AI capabilities",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://investor.coopercos.com/news-releases/news-release-details/coopercompanies-announces-fourth-quarter-and-full-year-2025",
+   "raw_sector": "",
+   "date": "2025-12-04",
+   "fresh": "fresh"
   }
  ]
 }

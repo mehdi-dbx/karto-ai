@@ -3,42 +3,50 @@
  "name": "Dr. Reddy's Laboratories",
  "cc": "IN",
  "vertical": "Healthcare & Life Sciences",
- "deployments": 1,
- "confirmed": 1,
- "with_value_number": 0,
- "proof_rate": 0.0,
+ "deployments": 6,
+ "confirmed": 4,
+ "with_value_number": 1,
+ "proof_rate": 0.167,
  "mktcap": 11868674699.0,
  "revenue": 4047349398.0,
  "employees": 27527.0,
  "silent": false,
- "per_bn_revenue": 0.25,
- "per_10k_emp": 0.36,
+ "per_bn_revenue": 1.48,
+ "per_10k_emp": 2.18,
  "benchmarks": {
   "global_vertical": {
-   "deployments": 0,
-   "confirmed": 13,
-   "proof_rate": 0,
-   "n": 165
+   "deployments": 47,
+   "confirmed": 48,
+   "proof_rate": 47,
+   "n": 168
   },
   "country_vertical": {
-   "deployments": 0,
+   "deployments": 40,
    "confirmed": 40,
-   "proof_rate": 0,
+   "proof_rate": 40,
    "n": 6
   }
  },
- "first_seen": null,
- "by_year": [],
- "undated_pct": 100,
- "momentum": "none",
+ "first_seen": 2025,
+ "by_year": [
+  {
+   "year": 2025,
+   "n": 1
+  }
+ ],
+ "undated_pct": 83,
+ "momentum": "rising",
  "maturity": "L3",
  "maturity_evidence": [
+  "multi_horizontal",
   "named_product:Aurigene",
+  "value_number",
   "tier_p"
  ],
- "prospect_score": 46,
+ "prospect_score": 57,
  "stack": [
-  "Kyndryl"
+  "Kyndryl",
+  "Salesforce"
  ],
  "vendor_named": true,
  "deployments_detail": [
@@ -50,6 +58,61 @@
    "tier": "P",
    "url": "https://www.biotecnika.org/dr-reddys-ai-ml-drug-discovery",
    "raw_sector": "Healthcare",
+   "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "Dr. Reddy's Laboratories",
+   "use": "AI-powered drug discovery platform",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.linkedin.com/posts/ctier.org_it-is-exciting-to-see-dr-reddys-laboratories-activity-7363497544947060736-EKcX",
+   "raw_sector": "",
+   "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "Dr. Reddy's Laboratories",
+   "use": "Aurigene.AI platform with predictive and generative AI models",
+   "existence": "confirmed",
+   "value": "11",
+   "tier": "",
+   "url": "https://api.drreddys.com/aurigene-ai",
+   "raw_sector": "",
+   "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "Dr. Reddy's Laboratories",
+   "use": "IT operations automation using AI [Kyndryl]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.kyndryl.com/us/en/about-us/news/2025/04/dr-reddys-laboratories-partnership",
+   "raw_sector": "",
+   "date": "2025-04-07",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Dr. Reddy's Laboratories",
+   "use": "AI cloud data strategy including data governance, quality, integration and engineering [Informatica]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.informatica.com/customer-success-stories/dr-reddys-success-story.html",
+   "raw_sector": "",
+   "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "Dr. Reddy's Laboratories",
+   "use": "HCP engagement optimization with AI for pricing and contract creation [Salesforce]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.salesforce.com/in/customer-stories/dr-reddys-laboratories/",
+   "raw_sector": "",
    "date": "missing",
    "fresh": "undated"
   }

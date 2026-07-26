@@ -3,27 +3,27 @@
  "name": "Braskem",
  "cc": "BR",
  "vertical": "Manufacturing & Robotics",
- "deployments": 1,
+ "deployments": 3,
  "confirmed": 1,
  "with_value_number": 1,
- "proof_rate": 1.0,
+ "proof_rate": 0.333,
  "mktcap": 816666667.0,
  "revenue": 12361111111.0,
  "employees": 8233.0,
  "silent": false,
- "per_bn_revenue": 0.08,
- "per_10k_emp": 1.21,
+ "per_bn_revenue": 0.24,
+ "per_10k_emp": 3.64,
  "benchmarks": {
   "global_vertical": {
-   "deployments": 0,
-   "confirmed": 24,
-   "proof_rate": 85,
-   "n": 147
+   "deployments": 25,
+   "confirmed": 14,
+   "proof_rate": 74,
+   "n": 150
   },
   "country_vertical": {
-   "deployments": 0,
+   "deployments": 50,
    "confirmed": 0,
-   "proof_rate": 50,
+   "proof_rate": 62,
    "n": 9
   }
  },
@@ -34,17 +34,28 @@
    "n": 1
   }
  ],
- "undated_pct": 0,
+ "undated_pct": 67,
  "momentum": "rising",
  "maturity": "L3",
  "maturity_evidence": [
   "named_product:Developed",
   "value_number"
  ],
- "prospect_score": 14,
+ "prospect_score": 33,
  "stack": [],
- "vendor_named": false,
+ "vendor_named": true,
  "deployments_detail": [
+  {
+   "company": "Braskem",
+   "use": "Advanced algorithms for demand forecasting and supply optimization to identify patterns in client orders",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.braskem.com.br/digital-transformation",
+   "raw_sector": "",
+   "date": "missing",
+   "fresh": "undated"
+  },
   {
    "company": "Braskem",
    "use": "Developed its own LLM and applies generative AI to product distribution, plus advanced analytics and ML in petrochemical operations",
@@ -55,6 +66,17 @@
    "raw_sector": "Materiais básicos",
    "date": "2025",
    "fresh": "fresh"
+  },
+  {
+   "company": "Braskem",
+   "use": "Large Language Model (LLM) deployment for product development and efficiency",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.linkedin.com/posts/astratechflorida_braskem-generativeai-llm-activity-7405184766364340224-Whpe",
+   "raw_sector": "",
+   "date": "missing",
+   "fresh": "undated"
   }
  ]
 }

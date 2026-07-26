@@ -3,50 +3,94 @@
  "name": "Enel",
  "cc": "IT",
  "vertical": "Energy & Utilities",
- "deployments": 3,
- "confirmed": 3,
- "with_value_number": 1,
- "proof_rate": 0.333,
+ "deployments": 11,
+ "confirmed": 11,
+ "with_value_number": 3,
+ "proof_rate": 0.273,
  "mktcap": 108745200000.0,
  "revenue": 85741200000.0,
  "employees": 61544.0,
  "silent": false,
- "per_bn_revenue": 0.03,
- "per_10k_emp": 0.49,
+ "per_bn_revenue": 0.13,
+ "per_10k_emp": 1.79,
  "benchmarks": {
   "global_vertical": {
-   "deployments": 88,
-   "confirmed": 90,
+   "deployments": 86,
+   "confirmed": 93,
    "proof_rate": 65,
-   "n": 210
+   "n": 213
   },
   "country_vertical": {
-   "deployments": 75,
-   "confirmed": 75,
-   "proof_rate": 38,
+   "deployments": 88,
+   "confirmed": 100,
+   "proof_rate": 75,
    "n": 9
   }
  },
- "first_seen": 2024,
+ "first_seen": 2019,
  "by_year": [
   {
-   "year": 2024,
+   "year": 2019,
    "n": 1
+  },
+  {
+   "year": 2020,
+   "n": 2
+  },
+  {
+   "year": 2022,
+   "n": 1
+  },
+  {
+   "year": 2023,
+   "n": 3
+  },
+  {
+   "year": 2024,
+   "n": 2
   }
  ],
- "undated_pct": 67,
+ "undated_pct": 18,
  "momentum": "early_mover,gone_quiet",
- "maturity": "L3",
+ "maturity": "L4",
  "maturity_evidence": [
   "multi_horizontal",
   "named_product:Distribuzione",
   "value_number",
+  "multi_year",
   "tier_p"
  ],
- "prospect_score": 53,
- "stack": [],
- "vendor_named": false,
+ "prospect_score": 89,
+ "stack": [
+  "Amazon AWS",
+  "C3.ai",
+  "Microsoft",
+  "Snowflake"
+ ],
+ "vendor_named": true,
  "deployments_detail": [
+  {
+   "company": "Enel",
+   "use": "Microsoft Copilot deployed internally as an AI assistant to help employees synthesize emails, documents and video-conference content, perform numerical analysis and improve productivity (described by Head of ICT Stefano Ciurli). [Microsoft (Copilot)]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.enel.com/media/explore/search-news/news/2024/07/ai-future-on-the-road-to-innovation",
+   "raw_sector": "",
+   "date": "2024-07-11",
+   "fresh": "aging"
+  },
+  {
+   "company": "Enel",
+   "use": "Partnership with Italian startup indigo.ai to deploy conversational-AI chatbots for optimizing internal business processes and accelerating internal employee training across the Enel Group. [indigo.ai]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://openinnovability.enel.com/stories/articles/2023/06/ai-business-processes-optimization",
+   "raw_sector": "",
+   "date": "2023-06-19",
+   "fresh": "stale"
+  },
   {
    "company": "Enel",
    "use": "ML-based predictive maintenance for grid digitalization (E-Distribuzione)",
@@ -71,6 +115,50 @@
   },
   {
    "company": "Enel",
+   "use": "ML factory on Amazon SageMaker automates power-grid asset management and anomaly detection: computer-vision models (EfficientNet/EfficientDet, KPConv) process aerial LiDAR/photos and satellite imagery to detect poles, transformers, insulators, oil leaks, structural damage and vegetation encroachment across the distribution network. [AWS (Amazon SageMaker), PyTorch]",
+   "existence": "confirmed",
+   "value": "2.3 million km of distribution lines monitored; over 40 million images analyzed annually in Italy; serves 60M+ customers",
+   "tier": "",
+   "url": "https://aws.amazon.com/blogs/machine-learning/enel-automates-large-scale-power-grid-asset-management-and-anomaly-detection-using-amazon-sagemaker/",
+   "raw_sector": "",
+   "date": "2023-07-20",
+   "fresh": "stale"
+  },
+  {
+   "company": "Enel",
+   "use": "C3 AI Suite deployed as strategic big-data/AI platform, powering Enel's Unified Virtual Data Lake integrating Retail, Distribution, Trading, Renewables and Conventional Generation, supporting predictive maintenance and network reliability applications. [C3 AI]",
+   "existence": "confirmed",
+   "value": "thousands of algorithms; millions of predictions daily (platform capability)",
+   "tier": "",
+   "url": "https://c3.ai/news/c3-provides-enel-with-ai-suite-for-digital-transformation",
+   "raw_sector": "",
+   "date": "2019-01-22",
+   "fresh": "stale"
+  },
+  {
+   "company": "Enel",
+   "use": "Myst AI machine-learning time-series forecasting used by Enel Global Commodity Management Italy for accurate renewable energy production forecasts in the bidding process for wholesale/balancing markets, reducing imbalance costs. [Myst AI (later acquired by Snowflake)]",
+   "existence": "confirmed",
+   "value": "reduced imbalance costs by 5% per year",
+   "tier": "",
+   "url": "https://openinnovability.enel.com/stories/articles/2022/04/mystai-powering-sustainable-ai",
+   "raw_sector": "",
+   "date": "2022-04-13",
+   "fresh": "stale"
+  },
+  {
+   "company": "Enel",
+   "use": "AI in Control Room project at Enel Green Power: a digital/virtual assistant that supports control-room operators in the monitoring and management of wind farms. [none]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.enelgreenpower.com/stories/articles/2023/09/monitoring-wind-farm-ia",
+   "raw_sector": "",
+   "date": "2023-09-06",
+   "fresh": "stale"
+  },
+  {
+   "company": "Enel",
    "use": "Big-data/AI for energy trading operations",
    "existence": "confirmed",
    "value": "NONE",
@@ -79,6 +167,28 @@
    "raw_sector": "Utilities",
    "date": "2024",
    "fresh": "aging"
+  },
+  {
+   "company": "Enel",
+   "use": "Elena, Enel Energia's AI virtual assistant (Italy): NLP-based chatbot handling customer service tasks (Web Bill activation, meter self-readings, supply status, FAQs) 24/7 across website, WhatsApp, Telegram, Facebook Messenger and telephone. [none]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.enel.it/en-us/blog/guide/elena-nuovo-chatbot-enelenergia",
+   "raw_sector": "",
+   "date": "2020-01-01",
+   "fresh": "stale"
+  },
+  {
+   "company": "Enel",
+   "use": "Elena virtual assistant on WhatsApp Business (Enel Colombia): 24/7 customer service to report service/public-lighting failures, request duplicate invoices, follow up on connection/reconnection cases, and get outage information. [none]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.enel.com.co/en/stories/a202005-elena-and-her-whatsapp-business-odyssey.html",
+   "raw_sector": "",
+   "date": "2020-05-29",
+   "fresh": "stale"
   }
  ]
 }

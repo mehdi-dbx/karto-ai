@@ -3,26 +3,26 @@
  "name": "SK",
  "cc": "KR",
  "vertical": "Chemicals & Materials",
- "deployments": 1,
- "confirmed": 1,
+ "deployments": 5,
+ "confirmed": 4,
  "with_value_number": 0,
  "proof_rate": 0.0,
  "mktcap": 26451851852.0,
  "revenue": 95222222222.0,
  "employees": 4222.0,
  "silent": false,
- "per_bn_revenue": 0.01,
- "per_10k_emp": 2.37,
+ "per_bn_revenue": 0.05,
+ "per_10k_emp": 11.84,
  "benchmarks": {
   "global_vertical": {
-   "deployments": 0,
-   "confirmed": 19,
+   "deployments": 50,
+   "confirmed": 51,
    "proof_rate": 0,
-   "n": 105
+   "n": 107
   },
   "country_vertical": {
-   "deployments": 0,
-   "confirmed": 27,
+   "deployments": 64,
+   "confirmed": 55,
    "proof_rate": 0,
    "n": 12
   }
@@ -33,12 +33,15 @@
  "momentum": "none",
  "maturity": "L3",
  "maturity_evidence": [
+  "multi_horizontal",
   "named_product:Solur",
   "tier_p"
  ],
- "prospect_score": 54,
- "stack": [],
- "vendor_named": false,
+ "prospect_score": 64,
+ "stack": [
+  "NVIDIA"
+ ],
+ "vendor_named": true,
  "deployments_detail": [
   {
    "company": "SK",
@@ -49,6 +52,50 @@
    "url": "https://html.duckduckgo.com/html/?q=SK+C&C+AI+솔루어+도입",
    "raw_sector": "Energy & Chemicals",
    "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "SK",
+   "use": "AI Factory with 50,000+ NVIDIA GPUs for manufacturing and digital transformation [NVIDIA]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://investor.nvidia.com/news/press-release-details/2025/NVIDIA-and-SK-Group-Build-AI-Factories-to-Drive-Koreas-Manufacturing-and-Digital-Transformation/default.aspx",
+   "raw_sector": "",
+   "date": "Oct 31, 2025",
+   "fresh": "undated"
+  },
+  {
+   "company": "SK",
+   "use": "AI Cluster infrastructure deployment [Penguin Solutions]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.penguinsolutions.com/en-us/resources/blog/ai-clusters-powered-by-penguin-solutions-and-sk-telecom",
+   "raw_sector": "",
+   "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "SK",
+   "use": "A-dot Biz AI agent deployment across SK group companies",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.mobileworldlive.com/ai-cloud/skt-begins-group-ai-agent-deployment/",
+   "raw_sector": "",
+   "date": "Sep 29, 2025",
+   "fresh": "undated"
+  },
+  {
+   "company": "SK",
+   "use": "Telco LLM for customer service and internal process optimization",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://tecknexus.com/sktelecom-generative-ai-transforms-operations/",
+   "raw_sector": "",
+   "date": "Apr 5, 2025",
    "fresh": "undated"
   }
  ]

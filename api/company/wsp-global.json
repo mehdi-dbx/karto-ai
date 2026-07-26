@@ -3,21 +3,21 @@
  "name": "WSP Global",
  "cc": "CA",
  "vertical": "Legal & Professional Services",
- "deployments": 1,
- "confirmed": 1,
+ "deployments": 5,
+ "confirmed": 2,
  "with_value_number": 1,
- "proof_rate": 1.0,
+ "proof_rate": 0.2,
  "mktcap": 17360294118.0,
  "revenue": 13566176471.0,
  "employees": 82500.0,
  "silent": false,
- "per_bn_revenue": 0.07,
- "per_10k_emp": 0.12,
+ "per_bn_revenue": 0.37,
+ "per_10k_emp": 0.61,
  "benchmarks": {
   "global_vertical": {
-   "deployments": 0,
-   "confirmed": 9,
-   "proof_rate": 64,
+   "deployments": 36,
+   "confirmed": 36,
+   "proof_rate": 36,
    "n": 12
   }
  },
@@ -28,15 +28,16 @@
    "n": 1
   }
  ],
- "undated_pct": 0,
- "momentum": "early_mover,rising",
+ "undated_pct": 80,
+ "momentum": "rising",
  "maturity": "L3",
  "maturity_evidence": [
+  "multi_horizontal",
   "named_product:Microsoft",
   "value_number",
   "tier_p"
  ],
- "prospect_score": 6,
+ "prospect_score": 44,
  "stack": [
   "Microsoft"
  ],
@@ -52,6 +53,50 @@
    "raw_sector": "Industrials",
    "date": "2025",
    "fresh": "fresh"
+  },
+  {
+   "company": "WSP Global",
+   "use": "Generative AI for building and infrastructure design using past project data",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.wsp.com/en-us/insights/2025-artificial-intelligence-and-building-design",
+   "raw_sector": "",
+   "date": "Jan 21, 2025",
+   "fresh": "undated"
+  },
+  {
+   "company": "WSP Global",
+   "use": "Microsoft AI technology for productivity and design expertise [Microsoft]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.youtube.com/watch?v=M7kmQBt7uQw",
+   "raw_sector": "",
+   "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "WSP Global",
+   "use": "AI for predictive maintenance and building management decision-making",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.wsp.com/-/media/insights/middle-east/documents/wsp-reportai-in-the-built-environmentsmart--digital.pdf",
+   "raw_sector": "",
+   "date": "Nov 12, 2025",
+   "fresh": "undated"
+  },
+  {
+   "company": "WSP Global",
+   "use": "QorusDocs AI-powered proposal management for pursuits process [QorusDocs]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.qorusdocs.com/success-stories/wsp",
+   "raw_sector": "",
+   "date": "missing",
+   "fresh": "undated"
   }
  ]
 }

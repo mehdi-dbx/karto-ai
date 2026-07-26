@@ -3,7 +3,7 @@
  "name": "NLMK",
  "cc": "RU",
  "vertical": "Manufacturing & Robotics",
- "deployments": 2,
+ "deployments": 3,
  "confirmed": 1,
  "with_value_number": 0,
  "proof_rate": 0.0,
@@ -11,20 +11,25 @@
  "revenue": 9233333333.0,
  "employees": 60200.0,
  "silent": false,
- "per_bn_revenue": 0.22,
- "per_10k_emp": 0.33,
+ "per_bn_revenue": 0.32,
+ "per_10k_emp": 0.5,
  "benchmarks": {
   "global_vertical": {
-   "deployments": 64,
-   "confirmed": 24,
+   "deployments": 25,
+   "confirmed": 14,
    "proof_rate": 0,
-   "n": 147
+   "n": 150
   }
  },
- "first_seen": null,
- "by_year": [],
- "undated_pct": 100,
- "momentum": "none",
+ "first_seen": 2024,
+ "by_year": [
+  {
+   "year": 2024,
+   "n": 1
+  }
+ ],
+ "undated_pct": 67,
+ "momentum": "early_mover,gone_quiet",
  "maturity": "L3",
  "maturity_evidence": [
   "named_product:Machine",
@@ -55,6 +60,17 @@
    "raw_sector": "Steel",
    "date": "missing",
    "fresh": "undated"
+  },
+  {
+   "company": "NLMK",
+   "use": "Generative AI for accelerating software product development",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.nlmk.com/en/media-center/press-releases/nlmk-group-pilots-ai-for-faster-software-development/?from=ru?from=ru",
+   "raw_sector": "",
+   "date": "2024-04-02",
+   "fresh": "aging"
   }
  ]
 }

@@ -3,10 +3,10 @@
  "name": "Cosumar",
  "cc": "MA",
  "vertical": "Retail & E-commerce",
- "deployments": 1,
- "confirmed": 1,
- "with_value_number": 1,
- "proof_rate": 1.0,
+ "deployments": 10,
+ "confirmed": 9,
+ "with_value_number": 6,
+ "proof_rate": 0.6,
  "mktcap": 1748000000.0,
  "revenue": null,
  "employees": null,
@@ -15,29 +15,45 @@
  "per_10k_emp": null,
  "benchmarks": {
   "global_vertical": {
-   "deployments": 0,
-   "confirmed": 24,
-   "proof_rate": 77,
-   "n": 295
+   "deployments": 72,
+   "confirmed": 81,
+   "proof_rate": 88,
+   "n": 301
   }
  },
- "first_seen": 2025,
+ "first_seen": 2018,
  "by_year": [
   {
-   "year": 2025,
+   "year": 2018,
    "n": 1
+  },
+  {
+   "year": 2023,
+   "n": 1
+  },
+  {
+   "year": 2025,
+   "n": 5
+  },
+  {
+   "year": 2026,
+   "n": 3
   }
  ],
  "undated_pct": 0,
- "momentum": "rising",
- "maturity": "L3",
+ "momentum": "early_mover,rising",
+ "maturity": "L4",
  "maturity_evidence": [
+  "multi_horizontal",
   "named_product:Big",
-  "value_number"
+  "value_number",
+  "multi_year"
  ],
- "prospect_score": 14,
- "stack": [],
- "vendor_named": false,
+ "prospect_score": 70,
+ "stack": [
+  "SAP"
+ ],
+ "vendor_named": true,
  "deployments_detail": [
   {
    "company": "Cosumar",
@@ -47,6 +63,105 @@
    "tier": "I",
    "url": "https://industries.ma/cosumar-2025-une-strategie-sucree-pour-un-maroc-plus-resilient/",
    "raw_sector": "Consumer Goods / Agroalimentaire (sucre)",
+   "date": "2025",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Cosumar",
+   "use": "AI + drone imagery platform for sugar beet crop protection: detects and geolocates weeds (Mallow, Mustard, Thistle, Dill), diseases, insects and pest damage, and calculates stand density per plot, so herbicide/treatment choice is targeted per parcel. Raises diagnostic coverage from 20 ha/day to 100 ha/day. [Internal (Digital Factory); vendor not disclosed]",
+   "existence": "confirmed",
+   "value": "20 ha/day to 100 ha/day diagnostic coverage; 80% process water saved",
+   "tier": "",
+   "url": "https://www.cosumar.co.ma/en/the-group/innovation-and-rd/",
+   "raw_sector": "",
+   "date": "2025",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Cosumar",
+   "use": "Precision agriculture with drones and AI-driven treatment dosing reduced fertilizer and pesticide use by 30% by adjusting applications to each crop's specific needs. [Internal (Digital Factory)]",
+   "existence": "confirmed",
+   "value": "30% reduction in fertilizer and pesticide use",
+   "tier": "",
+   "url": "https://ecoactu.ma/siam-cosumar-technologie-ia-dziri/",
+   "raw_sector": "",
+   "date": "2025-04",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Cosumar",
+   "use": "AI + Big Data crop-maturity monitoring: continuously fuses planting dates, weather data, satellite imagery and field observations to track sugar-content maturity and trigger optimal timing of the sugar campaign and harvest scheduling (farm-to-factory planning). [Internal]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://medias24.com/2026/02/19/cosumar-mise-sur-lia-et-le-big-data-pour-un-pilotage-agro-industriel-decarbone-et-performant-1630900/",
+   "raw_sector": "",
+   "date": "2026-02",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Cosumar",
+   "use": "Real-time industrial process monitoring / analytics tracking extraction rates, energy consumption, water usage and finished-product quality across sugar plants to improve process stability and resource optimization. [Internal]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://medias24.com/2026/02/19/cosumar-mise-sur-lia-et-le-big-data-pour-un-pilotage-agro-industriel-decarbone-et-performant-1630900/",
+   "raw_sector": "",
+   "date": "2026-02",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Cosumar",
+   "use": "Smart blenders (intelligent fertilizer mixers) producing customized fertilizer formulas per parcel, fed by a central soil-analysis laboratory (Tadla, 200 samples/day) for data-driven, rationalized fertilization. [Internal]",
+   "existence": "confirmed",
+   "value": "24 machines added in 2021-2022; 200 soil samples/day",
+   "tier": "",
+   "url": "https://medias24.com/2023/05/10/agriculture-4-0-comment-cosumar-deploie-son-arsenal-technologique-sur-le-terrain/",
+   "raw_sector": "",
+   "date": "2023-05",
+   "fresh": "stale"
+  },
+  {
+   "company": "Cosumar",
+   "use": "Digital Factory tools powered by AI and Agriculture 4.0 technologies showcased for irrigation optimization, yield improvement and personalized farmer support. [Internal (Digital Factory)]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.cosumar.co.ma/en/actualites/cosumar-at-the-17th-edition-of-siam-a-renewed-commitment-to-sustainable-and-innovative-agriculture/",
+   "raw_sector": "",
+   "date": "2025-05",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Cosumar",
+   "use": "ATTAISSIR digital platform digitalizing the entire upstream agricultural value chain for ~80,000 partner farmers: seeding programming, input distribution, mechanical services, real-time delivery tracking, and harvest planning via electronic smart cards and geolocation sensors on farm machines. FAO-recognized (2020) as best regional farmer initiative. [Internal + Moroccan startup]",
+   "existence": "confirmed",
+   "value": "80,000 farmers; 103 input centers; 262 mechanical service firms; 2,000+ connected machines",
+   "tier": "",
+   "url": "https://www.cosumar.co.ma/en/the-group/innovation-and-rd/",
+   "raw_sector": "",
+   "date": "2018",
+   "fresh": "stale"
+  },
+  {
+   "company": "Cosumar",
+   "use": "SAP Integrated Business Planning (IBP) deployed for supply-chain planning transformation, implemented in under 4 months with partner Logiq Technology. [SAP (SAP IBP); implementation partner Logiq Technology]",
+   "existence": "confirmed",
+   "value": "implemented in under 4 months",
+   "tier": "",
+   "url": "https://fr.linkedin.com/posts/logiq-technology_sapibprocks-cosumar-activity-7394895740008869888-l07L",
+   "raw_sector": "",
+   "date": "2026",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Cosumar",
+   "use": "Information Systems security modernization: disaster-recovery remote backup site and creation of a dedicated CISO (RSSI) role, part of digital transformation and cybersecurity of information systems. [Internal]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.cosumar.co.ma/en/the-group/innovation-and-rd/",
+   "raw_sector": "",
    "date": "2025",
    "fresh": "fresh"
   }

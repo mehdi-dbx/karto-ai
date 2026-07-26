@@ -3,8 +3,8 @@
  "name": "AFMA",
  "cc": "MA",
  "vertical": "Financial Services",
- "deployments": 1,
- "confirmed": 0,
+ "deployments": 2,
+ "confirmed": 1,
  "with_value_number": 0,
  "proof_rate": 0.0,
  "mktcap": 110000000.0,
@@ -15,27 +15,32 @@
  "per_10k_emp": null,
  "benchmarks": {
   "global_vertical": {
-   "deployments": 0,
-   "confirmed": 0,
+   "deployments": 5,
+   "confirmed": 5,
    "proof_rate": 0,
-   "n": 377
+   "n": 388
   },
   "country_vertical": {
-   "deployments": 0,
-   "confirmed": 0,
+   "deployments": 20,
+   "confirmed": 10,
    "proof_rate": 0,
    "n": 11
   }
  },
- "first_seen": null,
- "by_year": [],
- "undated_pct": 100,
- "momentum": "none",
- "maturity": "L1",
- "maturity_evidence": [
-  "rows_no_confirmed"
+ "first_seen": 2026,
+ "by_year": [
+  {
+   "year": 2026,
+   "n": 1
+  }
  ],
- "prospect_score": 40,
+ "undated_pct": 50,
+ "momentum": "late_entrant,rising",
+ "maturity": "L3",
+ "maturity_evidence": [
+  "named_product:Workplace"
+ ],
+ "prospect_score": 54,
  "stack": [],
  "vendor_named": false,
  "deployments_detail": [
@@ -49,6 +54,17 @@
    "raw_sector": "Financials / Assurances (courtage)",
    "date": "missing",
    "fresh": "undated"
+  },
+  {
+   "company": "AFMA",
+   "use": "Workplace productivity enhancement and corporate/enabling functions support",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.afma.gov.au/reporting-and-accountability/artificial-intelligence-transparency-statement",
+   "raw_sector": "",
+   "date": "2026-03-13",
+   "fresh": "fresh"
   }
  ]
 }

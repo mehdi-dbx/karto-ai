@@ -3,28 +3,28 @@
  "name": "KeyCorp",
  "cc": "US",
  "vertical": "Financial Services",
- "deployments": 1,
- "confirmed": 1,
+ "deployments": 3,
+ "confirmed": 2,
  "with_value_number": 0,
  "proof_rate": 0.0,
  "mktcap": 24360000000.0,
  "revenue": 7370000000.0,
  "employees": 17883.0,
  "silent": false,
- "per_bn_revenue": 0.14,
- "per_10k_emp": 0.56,
+ "per_bn_revenue": 0.41,
+ "per_10k_emp": 1.68,
  "benchmarks": {
   "global_vertical": {
-   "deployments": 0,
+   "deployments": 13,
    "confirmed": 17,
    "proof_rate": 0,
-   "n": 377
+   "n": 388
   },
   "country_vertical": {
-   "deployments": 0,
-   "confirmed": 19,
+   "deployments": 4,
+   "confirmed": 11,
    "proof_rate": 0,
-   "n": 76
+   "n": 77
   }
  },
  "first_seen": 2026,
@@ -34,14 +34,15 @@
    "n": 1
   }
  ],
- "undated_pct": 0,
+ "undated_pct": 67,
  "momentum": "late_entrant,rising",
  "maturity": "L3",
  "maturity_evidence": [
+  "multi_horizontal",
   "named_product:Conversational",
   "tier_p"
  ],
- "prospect_score": 54,
+ "prospect_score": 60,
  "stack": [],
  "vendor_named": false,
  "deployments_detail": [
@@ -55,6 +56,28 @@
    "raw_sector": "Financials",
    "date": "2026",
    "fresh": "fresh"
+  },
+  {
+   "company": "KeyCorp",
+   "use": "Loan processing automation",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.bizjournals.com/cleveland/news/2026/01/21/keycorp-ai-hiring-technology-capital-rebalancing.html",
+   "raw_sector": "",
+   "date": "Jan 21, 2026",
+   "fresh": "undated"
+  },
+  {
+   "company": "KeyCorp",
+   "use": "Regulatory change monitoring and compliance tracking",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.linkedin.com/pulse/financial-services-firms-see-genai-use-cases-leading-c34cc",
+   "raw_sector": "",
+   "date": "missing",
+   "fresh": "undated"
   }
  ]
 }

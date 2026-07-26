@@ -3,44 +3,85 @@
  "name": "DB Insurance",
  "cc": "KR",
  "vertical": "Financial Services",
- "deployments": 1,
- "confirmed": 1,
- "with_value_number": 1,
- "proof_rate": 1.0,
+ "deployments": 9,
+ "confirmed": 9,
+ "with_value_number": 4,
+ "proof_rate": 0.444,
  "mktcap": 6955555556.0,
  "revenue": 15466666667.0,
  "employees": 4479.0,
  "silent": false,
- "per_bn_revenue": 0.06,
- "per_10k_emp": 2.23,
+ "per_bn_revenue": 0.58,
+ "per_10k_emp": 20.09,
  "benchmarks": {
   "global_vertical": {
-   "deployments": 0,
-   "confirmed": 17,
-   "proof_rate": 76,
-   "n": 377
+   "deployments": 58,
+   "confirmed": 73,
+   "proof_rate": 74,
+   "n": 388
   },
   "country_vertical": {
-   "deployments": 0,
-   "confirmed": 0,
-   "proof_rate": 56,
-   "n": 17
+   "deployments": 72,
+   "confirmed": 83,
+   "proof_rate": 89,
+   "n": 19
   }
  },
- "first_seen": null,
- "by_year": [],
- "undated_pct": 100,
- "momentum": "none",
- "maturity": "L3",
+ "first_seen": 2020,
+ "by_year": [
+  {
+   "year": 2020,
+   "n": 1
+  },
+  {
+   "year": 2024,
+   "n": 2
+  },
+  {
+   "year": 2025,
+   "n": 3
+  },
+  {
+   "year": 2026,
+   "n": 2
+  }
+ ],
+ "undated_pct": 11,
+ "momentum": "early_mover,rising",
+ "maturity": "L4",
  "maturity_evidence": [
+  "multi_horizontal",
   "named_product:Samsung",
   "value_number",
+  "multi_year",
   "tier_p"
  ],
- "prospect_score": 14,
+ "prospect_score": 84,
  "stack": [],
  "vendor_named": false,
  "deployments_detail": [
+  {
+   "company": "DB Insurance",
+   "use": "Multilingual interpreter AI agent for complete-sale monitoring (happy call) of foreign customers, real-time interpreting the sales verification process across English, Chinese, Japanese and Russian [Ubase (global AI BPO)]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.etnews.com/20251223000058",
+   "raw_sector": "",
+   "date": "2025-12-18",
+   "fresh": "fresh"
+  },
+  {
+   "company": "DB Insurance",
+   "use": "Smart contact center that replaced manual QA listening with STT (Speech-To-Text) to automatically transcribe and evaluate all customer-consultation calls [none]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://m.mk.co.kr/amp/11425226",
+   "raw_sector": "",
+   "date": "2025-09-22",
+   "fresh": "fresh"
+  },
   {
    "company": "DB Insurance",
    "use": "AI claims agent (voice-guided, w/ Samsung SDS Brity); AI fault-determination from dashcam video (<5s); AI Secretary underwriting; automated medical review",
@@ -51,6 +92,72 @@
    "raw_sector": "Financials",
    "date": "missing",
    "fresh": "undated"
+  },
+  {
+   "company": "DB Insurance",
+   "use": "Customer-participation claims system 'AI Agent' (AI robotealer) that guides auto/long-term insurance claims from accident reception through payout via conversational AI, providing initial guidance within 30 minutes [none]",
+   "existence": "confirmed",
+   "value": "initial guidance within 30 minutes of claim filing",
+   "tier": "",
+   "url": "https://www.businesspost.co.kr/BP?command=article_view&num=430508",
+   "raw_sector": "",
+   "date": "2026-02-19",
+   "fresh": "fresh"
+  },
+  {
+   "company": "DB Insurance",
+   "use": "Industry-first dashcam/black-box video AI fault-determination system that auto-analyzes uploaded accident footage and returns a fault-ratio result within ~5 seconds [none]",
+   "existence": "confirmed",
+   "value": "avg fault-analysis accuracy 92.4%; result within 5 seconds; trained on ~70,000 accident cases over 20 months",
+   "tier": "",
+   "url": "https://www.newspim.com/news/view/20260616000690",
+   "raw_sector": "",
+   "date": "2026-06-16",
+   "fresh": "fresh"
+  },
+  {
+   "company": "DB Insurance",
+   "use": "Patented big-data 'AI assistant' (pre-underwriting / AI비서) that simultaneously performs per-customer coverage analysis, custom plan design and pre-screening underwriting to support long-term insurance sales agents [none]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.hankyung.com/amp/2024051619241",
+   "raw_sector": "",
+   "date": "2024-02",
+   "fresh": "aging"
+  },
+  {
+   "company": "DB Insurance",
+   "use": "Disease automatic-underwriting system (질병 자동심사) using AI to pre-screen high-frequency disease disclosures and automatically classify insurance eligibility at point of application [none]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.sisaon.co.kr/news/articleView.html?idxno=176445",
+   "raw_sector": "",
+   "date": "2020",
+   "fresh": "stale"
+  },
+  {
+   "company": "DB Insurance",
+   "use": "AI-powered insurance fraud detection using network analytics ('DB T-System') to uncover hidden fraud rings across millions of claims by linking accident participants, hospitals, repair shops and customers [SAS (SAS Viya, SAS Fraud Decisioning for Claims)]",
+   "existence": "confirmed",
+   "value": "99% improvement in detection accuracy; analysis time cut from hours to 2 minutes; 30x increase in case volume",
+   "tier": "",
+   "url": "https://www.sas.com/en_be/customers/db-insurance-en.html",
+   "raw_sector": "",
+   "date": "2025",
+   "fresh": "fresh"
+  },
+  {
+   "company": "DB Insurance",
+   "use": "Anti-phishing / malicious-app detection security solution ('FakeFinder') using whitelist-based AI to block known and newly-created malicious apps targeting customers [Everspin (FakeFinder)]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.hellot.net/news/article.html?no=93406",
+   "raw_sector": "",
+   "date": "2024-09-09",
+   "fresh": "aging"
   }
  ]
 }

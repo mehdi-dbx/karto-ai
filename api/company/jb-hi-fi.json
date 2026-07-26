@@ -3,22 +3,22 @@
  "name": "JB Hi-Fi",
  "cc": "AU",
  "vertical": "Retail & E-commerce",
- "deployments": 1,
- "confirmed": 0,
+ "deployments": 4,
+ "confirmed": 3,
  "with_value_number": 0,
  "proof_rate": 0.0,
  "mktcap": 5693333333.0,
  "revenue": 7313333333.0,
  "employees": 16000.0,
  "silent": false,
- "per_bn_revenue": 0.14,
- "per_10k_emp": 0.62,
+ "per_bn_revenue": 0.55,
+ "per_10k_emp": 2.5,
  "benchmarks": {
   "global_vertical": {
-   "deployments": 0,
-   "confirmed": 0,
+   "deployments": 28,
+   "confirmed": 32,
    "proof_rate": 0,
-   "n": 295
+   "n": 301
   }
  },
  "first_seen": 2024,
@@ -28,15 +28,18 @@
    "n": 1
   }
  ],
- "undated_pct": 0,
+ "undated_pct": 75,
  "momentum": "early_mover,gone_quiet",
- "maturity": "L1",
+ "maturity": "L3",
  "maturity_evidence": [
-  "rows_no_confirmed"
+  "multi_horizontal",
+  "named_product:Broadsign"
  ],
- "prospect_score": 40,
- "stack": [],
- "vendor_named": false,
+ "prospect_score": 58,
+ "stack": [
+  "Google Cloud"
+ ],
+ "vendor_named": true,
  "deployments_detail": [
   {
    "company": "JB Hi-Fi",
@@ -48,6 +51,39 @@
    "raw_sector": "Retail",
    "date": "2024",
    "fresh": "aging"
+  },
+  {
+   "company": "JB Hi-Fi",
+   "use": "In-store retail media network deployment across 200+ locations with AI-powered creative approval and optimization [Broadsign]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://ppc.land/jb-hi-fi-picks-broadsign-to-power-its-200-store-retail-media-network/",
+   "raw_sector": "",
+   "date": "Apr 26, 2026",
+   "fresh": "undated"
+  },
+  {
+   "company": "JB Hi-Fi",
+   "use": "Product recommendations AI for online e-commerce experience [Google Cloud Recommendations AI]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://cloud.google.com/customers/jb-hi-fi",
+   "raw_sector": "",
+   "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "JB Hi-Fi",
+   "use": "AI-driven inventory management platform for stock availability and vendor fulfillment optimization [Algo]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.algo.com/case-studies/jb-hi-fi/",
+   "raw_sector": "",
+   "date": "missing",
+   "fresh": "undated"
   }
  ]
 }

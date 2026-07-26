@@ -3,27 +3,27 @@
  "name": "Standard Chartered",
  "cc": "UK",
  "vertical": "Financial Services",
- "deployments": 1,
- "confirmed": 1,
- "with_value_number": 1,
- "proof_rate": 1.0,
+ "deployments": 6,
+ "confirmed": 5,
+ "with_value_number": 2,
+ "proof_rate": 0.333,
  "mktcap": 59512200000.0,
  "revenue": 15680000000.0,
  "employees": 81892.0,
  "silent": false,
- "per_bn_revenue": 0.06,
- "per_10k_emp": 0.12,
+ "per_bn_revenue": 0.38,
+ "per_10k_emp": 0.73,
  "benchmarks": {
   "global_vertical": {
-   "deployments": 0,
-   "confirmed": 17,
-   "proof_rate": 76,
-   "n": 377
+   "deployments": 44,
+   "confirmed": 46,
+   "proof_rate": 58,
+   "n": 388
   },
   "country_vertical": {
-   "deployments": 0,
-   "confirmed": 36,
-   "proof_rate": 86,
+   "deployments": 64,
+   "confirmed": 59,
+   "proof_rate": 82,
    "n": 23
   }
  },
@@ -33,10 +33,11 @@
  "momentum": "none",
  "maturity": "L3",
  "maturity_evidence": [
+  "multi_horizontal",
   "named_product:AI Factory",
   "value_number"
  ],
- "prospect_score": 6,
+ "prospect_score": 57,
  "stack": [
   "OpenAI"
  ],
@@ -51,6 +52,61 @@
    "url": "https://www.sc.com/en/press-release/standard-chartered-rolls-out-sc-gpt-advancing-ai-driven-innovation-in-banking/",
    "raw_sector": "Banks",
    "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "Standard Chartered",
+   "use": "Trade document generation and authenticity verification",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.sc.com/en/overlay/the-disruptive-potential-of-generative-ai/",
+   "raw_sector": "",
+   "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "Standard Chartered",
+   "use": "AI Factory - unified platform for building and deploying AI solutions",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.sc.com/en/about/innovation/artificial-intelligence/",
+   "raw_sector": "",
+   "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "Standard Chartered",
+   "use": "SC GPT - Generative AI tool for enterprise use",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.sc.com/en/press-release/standard-chartered-rolls-out-sc-gpt-advancing-ai-driven-innovation-in-banking/",
+   "raw_sector": "",
+   "date": "Mar 27, 2025",
+   "fresh": "undated"
+  },
+  {
+   "company": "Standard Chartered",
+   "use": "Name and Transaction Screening using AI and Machine Learning",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.sc.com/en/news/corporate-investment-banking/balancing-risk-and-reward-deploying-ai-in-the-fight-against-financial-crime/",
+   "raw_sector": "",
+   "date": "Oct 15, 2024",
+   "fresh": "undated"
+  },
+  {
+   "company": "Standard Chartered",
+   "use": "Compliance breach reduction and risk reporting automation",
+   "existence": "confirmed",
+   "value": "40%",
+   "tier": "",
+   "url": "https://chiefaiofficer.com/how-standard-chartered-cut-compliance-breaches-by-40-using-ai/",
+   "raw_sector": "",
+   "date": "Sep 21, 2025",
    "fresh": "undated"
   }
  ]

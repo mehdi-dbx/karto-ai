@@ -3,42 +3,55 @@
  "name": "Qiagen",
  "cc": "DE",
  "vertical": "Healthcare & Life Sciences",
- "deployments": 1,
- "confirmed": 1,
- "with_value_number": 0,
- "proof_rate": 0.0,
+ "deployments": 4,
+ "confirmed": 2,
+ "with_value_number": 1,
+ "proof_rate": 0.25,
  "mktcap": 7938000000.0,
  "revenue": 2090000000.0,
  "employees": 5500.0,
  "silent": false,
- "per_bn_revenue": 0.48,
- "per_10k_emp": 1.82,
+ "per_bn_revenue": 1.91,
+ "per_10k_emp": 7.27,
  "benchmarks": {
   "global_vertical": {
-   "deployments": 0,
-   "confirmed": 13,
-   "proof_rate": 0,
-   "n": 165
+   "deployments": 26,
+   "confirmed": 20,
+   "proof_rate": 57,
+   "n": 168
   },
   "country_vertical": {
    "deployments": 0,
    "confirmed": 0,
-   "proof_rate": 0,
+   "proof_rate": 80,
    "n": 6
   }
  },
- "first_seen": null,
- "by_year": [],
- "undated_pct": 100,
- "momentum": "none",
+ "first_seen": 2024,
+ "by_year": [
+  {
+   "year": 2024,
+   "n": 1
+  },
+  {
+   "year": 2026,
+   "n": 1
+  }
+ ],
+ "undated_pct": 50,
+ "momentum": "early_mover,flat",
  "maturity": "L3",
  "maturity_evidence": [
+  "multi_horizontal",
   "named_product:Franklin by QIAGEN",
+  "value_number",
   "tier_p"
  ],
- "prospect_score": 54,
- "stack": [],
- "vendor_named": false,
+ "prospect_score": 42,
+ "stack": [
+  "Microsoft"
+ ],
+ "vendor_named": true,
  "deployments_detail": [
   {
    "company": "Qiagen",
@@ -48,6 +61,39 @@
    "tier": "P",
    "url": "https://digitalinsights.qiagen.com/products-overview/clinical-insights-portfolio/",
    "raw_sector": "Biotech",
+   "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "Qiagen",
+   "use": "AI-driven scientific guidance platform for experiment planning, product discovery and workflow support",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://corporate.qiagen.com/English/newsroom/press-releases/press-release-details/2026/QIAGEN-launches-QIA-Agent-connecting-AI-driven-scientific-guidance-across-Sample-to-Insight-workflows/default.aspx",
+   "raw_sector": "",
+   "date": "2026-05-20",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Qiagen",
+   "use": "AI-derived biomedical knowledge base for drug discovery",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://corporate.qiagen.com/English/newsroom/press-releases/press-release-details/2024/QIAGEN-launches-AI-derived-biomedical-knowledge-base-to-accelerate-data-driven-drug-discovery/default.aspx",
+   "raw_sector": "",
+   "date": "2024-02-27",
+   "fresh": "aging"
+  },
+  {
+   "company": "Qiagen",
+   "use": "Microsoft 365 Copilot deployment for workforce productivity and data governance [Microsoft 365 Copilot]",
+   "existence": "confirmed",
+   "value": "25%",
+   "tier": "",
+   "url": "https://www.tcs.com/what-we-do/industries/life-sciences/case-study/qiagen-accelerates-transformation-with-microsoft-365-copilot",
+   "raw_sector": "",
    "date": "missing",
    "fresh": "undated"
   }

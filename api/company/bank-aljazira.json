@@ -3,44 +3,53 @@
  "name": "Bank AlJazira",
  "cc": "SA",
  "vertical": "Financial Services",
- "deployments": 1,
- "confirmed": 0,
+ "deployments": 3,
+ "confirmed": 2,
  "with_value_number": 1,
- "proof_rate": 1.0,
+ "proof_rate": 0.333,
  "mktcap": 4157333333.0,
  "revenue": 1122666667.0,
  "employees": 2770.0,
  "silent": false,
- "per_bn_revenue": 0.89,
- "per_10k_emp": 3.61,
+ "per_bn_revenue": 2.67,
+ "per_10k_emp": 10.83,
  "benchmarks": {
   "global_vertical": {
-   "deployments": 0,
-   "confirmed": 0,
-   "proof_rate": 76,
-   "n": 377
+   "deployments": 13,
+   "confirmed": 17,
+   "proof_rate": 58,
+   "n": 388
   },
   "country_vertical": {
-   "deployments": 0,
-   "confirmed": 0,
-   "proof_rate": 100,
+   "deployments": 36,
+   "confirmed": 36,
+   "proof_rate": 91,
    "n": 12
   }
  },
- "first_seen": 2024,
+ "first_seen": 2023,
  "by_year": [
   {
+   "year": 2023,
+   "n": 1
+  },
+  {
    "year": 2024,
+   "n": 1
+  },
+  {
+   "year": 2025,
    "n": 1
   }
  ],
  "undated_pct": 0,
- "momentum": "early_mover,gone_quiet",
- "maturity": "L1",
+ "momentum": "early_mover,cooling",
+ "maturity": "L3",
  "maturity_evidence": [
-  "rows_no_confirmed"
+  "named_product:Self",
+  "multi_year"
  ],
- "prospect_score": 0,
+ "prospect_score": 47,
  "stack": [],
  "vendor_named": false,
  "deployments_detail": [
@@ -54,6 +63,28 @@
    "raw_sector": "Banks",
    "date": "2024",
    "fresh": "aging"
+  },
+  {
+   "company": "Bank AlJazira",
+   "use": "Self-service banking software on Windows 11 with VCP-Lite 7 [Diebold Nixdorf]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://investors.dieboldnixdorf.com/news-and-events/press-releases/news-details/2025/Bank-AlJazira-First-in-the-Middle-East-to-Implement-Diebold-Nixdorfs-Latest-Generation-Self-Service-Software-Operating-on-Windows-11/default.aspx",
+   "raw_sector": "",
+   "date": "2025-10-27",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Bank AlJazira",
+   "use": "AI-driven robotic process automation for security, cost efficiency, customer experience and quality [Automation Anywhere]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.financedirectoreurope.com/news/bank-aljazira-taps-automation-anywhere-to-boost-security-customer-experience/",
+   "raw_sector": "",
+   "date": "2023-06-15",
+   "fresh": "stale"
   }
  ]
 }

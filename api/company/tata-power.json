@@ -3,28 +3,28 @@
  "name": "Tata Power",
  "cc": "IN",
  "vertical": "Energy & Utilities",
- "deployments": 1,
- "confirmed": 1,
- "with_value_number": 0,
- "proof_rate": 0.0,
+ "deployments": 8,
+ "confirmed": 3,
+ "with_value_number": 1,
+ "proof_rate": 0.125,
  "mktcap": 14457831325.0,
  "revenue": 7521566265.0,
  "employees": 22501.0,
  "silent": false,
- "per_bn_revenue": 0.13,
- "per_10k_emp": 0.44,
+ "per_bn_revenue": 1.06,
+ "per_10k_emp": 3.56,
  "benchmarks": {
   "global_vertical": {
-   "deployments": 0,
-   "confirmed": 20,
-   "proof_rate": 0,
-   "n": 210
+   "deployments": 75,
+   "confirmed": 48,
+   "proof_rate": 44,
+   "n": 213
   },
   "country_vertical": {
-   "deployments": 0,
-   "confirmed": 9,
-   "proof_rate": 0,
-   "n": 12
+   "deployments": 83,
+   "confirmed": 50,
+   "proof_rate": 25,
+   "n": 13
   }
  },
  "first_seen": null,
@@ -35,7 +35,7 @@
  "maturity_evidence": [
   "named_product:Genie"
  ],
- "prospect_score": 46,
+ "prospect_score": 53,
  "stack": [
   "Amazon AWS",
   "Databricks"
@@ -51,6 +51,83 @@
    "url": "https://aws.amazon.com/blogs/machine-learning/tata-power-solar-inspection",
    "raw_sector": "Power",
    "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "Tata Power",
+   "use": "Data and AI platform for energy operations including grid management, power planning, renewable forecasting [Databricks]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.tatapower.com/news-and-media/media-releases/tata-power-collaborates-with-databricks-to-build-future-ready-data-and-ai-platform-to-accelerate-energy-transition",
+   "raw_sector": "",
+   "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "Tata Power",
+   "use": "AI-enabled smart energy management and demand response program [AutoGrid]",
+   "existence": "claimed",
+   "value": "200 MW",
+   "tier": "",
+   "url": "https://www.prnewswire.com/news-releases/tata-power-and-autogrid-expand-ai-enabled-smart-energy-management-in-mumbai-supporting-indias-net-zero-goals-301735759.html",
+   "raw_sector": "",
+   "date": "Feb 1, 2023",
+   "fresh": "undated"
+  },
+  {
+   "company": "Tata Power",
+   "use": "AI-enabled energy optimization and power scheduling operations [BluWave-ai]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.bluwave-ai.com/blog/press-release-bluwave-ai-and-tata-power-sign-multi-year-contract-for-ai-enabled-energy-optimizatio",
+   "raw_sector": "",
+   "date": "Jul 27, 2021",
+   "fresh": "undated"
+  },
+  {
+   "company": "Tata Power",
+   "use": "Solar generation forecasting, tender evaluation using generative AI, advanced weather portal for grid",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.tatapower.com/blogs/sustainable-ai-and-its-potential-for-net-zero-sustainability",
+   "raw_sector": "",
+   "date": "Apr 28, 2025",
+   "fresh": "undated"
+  },
+  {
+   "company": "Tata Power",
+   "use": "AI-powered solar panel inspection using computer vision and generative AI [Amazon Sagemaker, Amazon Bedrock]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://aws.amazon.com/blogs/machine-learning/how-tata-power-coe-built-a-scalable-ai-powered-solar-panel-inspection-solution-with-amazon-sagemaker-ai-and-amazon-bedrock/",
+   "raw_sector": "",
+   "date": "Dec 16, 2025",
+   "fresh": "undated"
+  },
+  {
+   "company": "Tata Power",
+   "use": "Intelligent AI-powered grid management to reduce energy losses",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.linkedin.com/posts/tata-power_powerforaiaiforpower-energyleakage-bills-activity-7438184651480915968-Ws-6",
+   "raw_sector": "",
+   "date": "4 months ago",
+   "fresh": "undated"
+  },
+  {
+   "company": "Tata Power",
+   "use": "Unified data and AI platform for intelligent grid management, power planning, renewable energy forecasting [Databricks]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.crnasia.com/india/news/2026/tata-power-adopts-databricks-to-build-unified-data-and-ai-platform-across-energy-operations",
+   "raw_sector": "",
+   "date": "Apr 9, 2026",
    "fresh": "undated"
   }
  ]

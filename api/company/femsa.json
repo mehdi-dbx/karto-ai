@@ -3,46 +3,69 @@
  "name": "FEMSA",
  "cc": "MX",
  "vertical": "Retail & E-commerce",
- "deployments": 2,
- "confirmed": 0,
- "with_value_number": 0,
- "proof_rate": 0.0,
+ "deployments": 10,
+ "confirmed": 7,
+ "with_value_number": 4,
+ "proof_rate": 0.4,
  "mktcap": 40200000000.0,
  "revenue": 47310000000.0,
  "employees": 368776.0,
  "silent": false,
- "per_bn_revenue": 0.04,
- "per_10k_emp": 0.05,
+ "per_bn_revenue": 0.21,
+ "per_10k_emp": 0.27,
  "benchmarks": {
   "global_vertical": {
-   "deployments": 71,
-   "confirmed": 0,
-   "proof_rate": 0,
-   "n": 295
+   "deployments": 72,
+   "confirmed": 69,
+   "proof_rate": 70,
+   "n": 301
   },
   "country_vertical": {
-   "deployments": 25,
-   "confirmed": 0,
-   "proof_rate": 0,
+   "deployments": 62,
+   "confirmed": 50,
+   "proof_rate": 75,
    "n": 9
   }
  },
- "first_seen": 2024,
+ "first_seen": 2022,
  "by_year": [
   {
-   "year": 2024,
+   "year": 2022,
+   "n": 1
+  },
+  {
+   "year": 2023,
    "n": 2
+  },
+  {
+   "year": 2024,
+   "n": 3
+  },
+  {
+   "year": 2025,
+   "n": 3
+  },
+  {
+   "year": 2026,
+   "n": 1
   }
  ],
  "undated_pct": 0,
- "momentum": "early_mover,gone_quiet",
- "maturity": "L1",
+ "momentum": "early_mover,cooling",
+ "maturity": "L4",
  "maturity_evidence": [
-  "rows_no_confirmed"
+  "multi_horizontal",
+  "named_product:OXXO",
+  "value_number",
+  "multi_year"
  ],
- "prospect_score": 40,
- "stack": [],
- "vendor_named": false,
+ "prospect_score": 66,
+ "stack": [
+  "Microsoft",
+  "Microsoft Azure",
+  "Snowflake"
+ ],
+ "vendor_named": true,
  "deployments_detail": [
   {
    "company": "FEMSA",
@@ -57,6 +80,39 @@
   },
   {
    "company": "FEMSA",
+   "use": "Coca-Cola FEMSA Juntos+ B2B omnichannel platform uses AI to analyze local consumption trends and socioeconomic dynamics to give small merchants ('tienditas') personalized product/purchase recommendations and promotions; 'Juntos+ Advisor' embeds AI into sales-force visits. [Coca-Cola FEMSA (in-house)]",
+   "existence": "confirmed",
+   "value": "40.4 million digital orders in 2024 (34% of total orders); US$3.1 billion digital sales; ~1.3 million merchants",
+   "tier": "",
+   "url": "https://www.femsa.com/es/sala-de-prensa/comunicado/coca-cola-femsa-consolida-su-ecosistema-digital-omnicanal-con-juntos/",
+   "raw_sector": "",
+   "date": "2025-11-07",
+   "fresh": "fresh"
+  },
+  {
+   "company": "FEMSA",
+   "use": "Coca-Cola FEMSA hyper-personalized retailer engagement: an ML engine generates weekly personalized product recommendations per retailer, and generative AI turns them into customized in-app messages, measured on Amplitude across the Juntos+ base. [Amplitude (analytics) + in-house ML/genAI]",
+   "existence": "confirmed",
+   "value": "~100K personalized AI messages weekly; scaled from 2,500-retailer pilot (Dec 2024) to 690,000 retailers; 11% click-through rate (~8 pts higher than non-AI)",
+   "tier": "",
+   "url": "https://amplitude.com/case-studies/coca-cola-femsa",
+   "raw_sector": "",
+   "date": "2025-01-01",
+   "fresh": "fresh"
+  },
+  {
+   "company": "FEMSA",
+   "use": "OXXO in-store retail media network with AI-driven targeting: two 43-inch screens per store deliver dynamic advertising targeted by location, consumer profile and weather, giving CPG brands point-of-purchase ad placement and OXXO purchase-behavior insights. [Intouch.com (Grupo Salinas)]",
+   "existence": "confirmed",
+   "value": "Rollout began 2023 across 1,000+ stores; plan to expand to 7,000+ stores",
+   "tier": "",
+   "url": "https://blog.intouch.com/posts/oxxo-and-intouch-partner-to-build-the-worlds-largest-in-store-retail-media-network-for-c-stores",
+   "raw_sector": "",
+   "date": "2022-11-28",
+   "fresh": "stale"
+  },
+  {
+   "company": "FEMSA",
    "use": "Oxxo Smart cashierless stores operating automatically with AI technology, deployed on university campuses",
    "existence": "claimed",
    "value": "none",
@@ -65,6 +121,61 @@
    "raw_sector": "Beverages",
    "date": "2024",
    "fresh": "aging"
+  },
+  {
+   "company": "FEMSA",
+   "use": "OXXO Grab & Go autonomous checkout-free store: computer-vision cameras identify customers and products for frictionless purchases via app + QR code. First cashierless store in Latin America (Tec de Monterrey campus), powered by AiFi's spatial-intelligence/computer-vision platform. [AiFi]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.femsa.com/es/sala-de-prensa/comunicado/oxxo-abre-la-primera-tienda-grab-go-con-un-sistema-totalmente-digital-y-sin-fricciones/",
+   "raw_sector": "",
+   "date": "2023-02-10",
+   "fresh": "stale"
+  },
+  {
+   "company": "FEMSA",
+   "use": "OXXO AI/ML-driven demand forecasting and replenishment across its supply chain, including weather-based forecasting to improve product availability and inventory planning. Adopted for both Mexico and international (OXXO LATAM) operations. [RELEX Solutions]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.relexsolutions.com/news/oxxo-latam-enhances-retail-operations-with-relex-solutions-for-forecasting-and-replenishment/",
+   "raw_sector": "",
+   "date": "2024-04-15",
+   "fresh": "aging"
+  },
+  {
+   "company": "FEMSA",
+   "use": "OXXO uses Kuona's AI/machine-learning SaaS to optimize promotions, pricing and product mix from retail data; the OXXO-Kuona collaboration won AMEXCAP's 2023 Alebrije Award (Corporate Venture Capital category) via FEMSA Ventures. [Kuona (Kuona.ai)]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.linkedin.com/posts/femsaventures_congratulations-to-oxxo-and-kuona-for-winning-activity-7140460454174203906-J0c0",
+   "raw_sector": "",
+   "date": "2023-12-15",
+   "fresh": "stale"
+  },
+  {
+   "company": "FEMSA",
+   "use": "Coca-Cola FEMSA deployed Microsoft 365 Copilot as a daily work assistant and built custom Copilot Studio agents (HR query bots, field-sales advisory agents) across ~90,000 employees to accelerate workflows in legal, HR, communications and field sales. [Microsoft (365 Copilot, Copilot Studio)]",
+   "existence": "confirmed",
+   "value": "35% less time on legal analysis; 25% less briefing time; 30% fewer HR tickets; 60-70% less time on repetitive tasks; ~90,000 employees",
+   "tier": "",
+   "url": "https://www.microsoft.com/es/customers/story/26406-coca-cola-femsa-microsoft-365-copilot",
+   "raw_sector": "",
+   "date": "2026-04-20",
+   "fresh": "fresh"
+  },
+  {
+   "company": "FEMSA",
+   "use": "OXXO adopting Snowflake AI Data Cloud on Microsoft Azure Mexico as its data & analytics foundation for building generative-AI use cases with regional data residency, security and interoperability (quoted by OXXO's Global Data & Analytics Head). [Snowflake + Microsoft Azure]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.snowflake.com/en/news/press-releases/snowflake-expands-global-reach-of-ai-data-cloud-with-support-for-microsoft-azure-mexico/",
+   "raw_sector": "",
+   "date": "2025-02-11",
+   "fresh": "fresh"
   }
  ]
 }

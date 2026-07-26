@@ -3,41 +3,110 @@
  "name": "Sarana Menara Nusantara",
  "cc": "ID",
  "vertical": "Telecom",
- "deployments": 1,
- "confirmed": 0,
- "with_value_number": 0,
- "proof_rate": 0.0,
+ "deployments": 11,
+ "confirmed": 8,
+ "with_value_number": 4,
+ "proof_rate": 0.364,
  "mktcap": 1522784810.0,
  "revenue": 843670886.0,
  "employees": 2148.0,
  "silent": false,
- "per_bn_revenue": 1.19,
- "per_10k_emp": 4.66,
+ "per_bn_revenue": 13.04,
+ "per_10k_emp": 51.21,
  "benchmarks": {
   "global_vertical": {
-   "deployments": 0,
-   "confirmed": 0,
-   "proof_rate": 0,
-   "n": 93
+   "deployments": 66,
+   "confirmed": 63,
+   "proof_rate": 59,
+   "n": 94
+  },
+  "country_vertical": {
+   "deployments": 25,
+   "confirmed": 75,
+   "proof_rate": 75,
+   "n": 5
   }
  },
- "first_seen": 2025,
+ "first_seen": 2020,
  "by_year": [
   {
-   "year": 2025,
+   "year": 2020,
    "n": 1
+  },
+  {
+   "year": 2021,
+   "n": 1
+  },
+  {
+   "year": 2024,
+   "n": 3
+  },
+  {
+   "year": 2025,
+   "n": 6
   }
  ],
  "undated_pct": 0,
- "momentum": "rising",
- "maturity": "L1",
+ "momentum": "early_mover,rising",
+ "maturity": "L4",
  "maturity_evidence": [
-  "rows_no_confirmed"
+  "multi_horizontal",
+  "named_product:RPA",
+  "value_number",
+  "multi_year"
  ],
- "prospect_score": 40,
- "stack": [],
- "vendor_named": false,
+ "prospect_score": 73,
+ "stack": [
+  "Amazon AWS",
+  "Microsoft",
+  "SAP"
+ ],
+ "vendor_named": true,
  "deployments_detail": [
+  {
+   "company": "Sarana Menara Nusantara",
+   "use": "IoT-based infrastructure monitoring system tracking tower, fiber network and supporting-equipment condition in real time, enabling early detection of disruptions and asset-performance optimization. [none]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://media.ptsmn.co.id/content/general/Annual%20Report%20SMN%202025comp.pdf",
+   "raw_sector": "",
+   "date": "2025",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Sarana Menara Nusantara",
+   "use": "Selective implementation of artificial intelligence to support business-process automation and 'high-impact use cases', and for more precise data analytics feeding managerial decision-making. [none]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://media.ptsmn.co.id/content/general/Annual%20Report%20SMN%202025comp.pdf",
+   "raw_sector": "",
+   "date": "2025",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Sarana Menara Nusantara",
+   "use": "Establishment of PT Iforte Artificial Intelligence Solutions (IAI, iForte 30%) as a new AI/IoT business line - computer & information-security consulting, digital identity, and IoT consulting/design as value-added digital solutions. [none]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://media.ptsmn.co.id/content/general/Annual%20Report%20SMN%202025comp.pdf",
+   "raw_sector": "",
+   "date": "2025-10-20",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Sarana Menara Nusantara",
+   "use": "New 'AI, Cloud Solutions & Edge Data Center' service offering (via PT Iforte Gilang Pertiwi Utama / IGPU hosting entity) providing GPU Servers, AI Solutions and cloud (Google Workspace) - supported internally by a Head of AI & GPU Development. [Google Workspace]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://media.ptsmn.co.id/content/general/Annual%20Report%20SMN%202025comp.pdf",
+   "raw_sector": "",
+   "date": "2024-2025",
+   "fresh": "aging"
+  },
   {
    "company": "Sarana Menara Nusantara",
    "use": "Subsidiary Protelindo uses UiPath AI/automation for billing operations, completing the billing process in one week without adding staff",
@@ -48,6 +117,72 @@
    "raw_sector": "Telecom Infrastructure",
    "date": "2025-05",
    "fresh": "fresh"
+  },
+  {
+   "company": "Sarana Menara Nusantara",
+   "use": "RPA robots (UiPath) automate invoice/billing processing across 54,000+ tower tenancies and ~56,000 fiber segments, cutting invoice processing from one month to one week and eliminating reliance on ~30 temporary workers. [UiPath]",
+   "existence": "confirmed",
+   "value": "Invoice processing cut from 1 month to 1 week; ~75% billing time savings; ~30 temp workers eliminated",
+   "tier": "",
+   "url": "https://www.uipath.com/resources/automation-case-studies/automation-at-protelindo",
+   "raw_sector": "",
+   "date": "2020-2025",
+   "fresh": "stale"
+  },
+  {
+   "company": "Sarana Menara Nusantara",
+   "use": "ProAction citizen-developer program trained non-IT employees on Microsoft Power Automate and UiPath StudioX to build their own automations (administrative automation, data validation, reconciliation). [UiPath / Microsoft Power Automate]",
+   "existence": "confirmed",
+   "value": "200 non-IT employees trained; 29 automation projects submitted",
+   "tier": "",
+   "url": "https://www.uipath.com/resources/automation-case-studies/automation-at-protelindo",
+   "raw_sector": "",
+   "date": "2024",
+   "fresh": "aging"
+  },
+  {
+   "company": "Sarana Menara Nusantara",
+   "use": "iForte (Protelindo subsidiary) deployed a Cloudera-on-AWS big-data/analytics platform (Talend, Apache Spark, Impala, Power BI) for order-to-cash, a 360-degree business view and performance monitoring, with stated plans to expand into machine-learning-driven insights. [Cloudera / AWS / Talend / Apache Spark / Microsoft Power BI]",
+   "existence": "confirmed",
+   "value": "Reporting tasks cut from 1-2 days to 1 hour; near real-time dashboards",
+   "tier": "",
+   "url": "https://www.cloudera.com/customers/iforte.html",
+   "raw_sector": "",
+   "date": "2021",
+   "fresh": "stale"
+  },
+  {
+   "company": "Sarana Menara Nusantara",
+   "use": "Data platform transformation enabling automated and self-service data analytics to enhance operational visibility and management decision-making. [none]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.ptsmn.co.id/about-us/company-profile/ceo-message",
+   "raw_sector": "",
+   "date": "2025",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Sarana Menara Nusantara",
+   "use": "Employee learning & development moved to LinkedIn Learning, using its AI and automation features to improve the effectiveness of the learning process (Pro Action AI upskilling on AI/automation for staff). [LinkedIn Learning (Microsoft)]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://media.ptsmn.co.id/content/general/Annual%20Report%20SMN%202025comp.pdf",
+   "raw_sector": "",
+   "date": "2025",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Sarana Menara Nusantara",
+   "use": "UiPath Test Suite used for automated testing of the SAP S/4HANA migration, covering ~400 transactions and reports and halving the migration timeline. [UiPath / SAP S/4HANA]",
+   "existence": "confirmed",
+   "value": "50% reduction in SAP migration timeline; ~400 transactions/reports automated-tested",
+   "tier": "",
+   "url": "https://www.itnews.asia/news/indonesias-protelindo-automates-invoicing-process-with-uipath-617214",
+   "raw_sector": "",
+   "date": "2024",
+   "fresh": "aging"
   }
  ]
 }

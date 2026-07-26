@@ -3,48 +3,54 @@
  "name": "KT",
  "cc": "KR",
  "vertical": "Telecom",
- "deployments": 1,
- "confirmed": 1,
+ "deployments": 5,
+ "confirmed": 2,
  "with_value_number": 1,
- "proof_rate": 1.0,
+ "proof_rate": 0.2,
  "mktcap": 9414814815.0,
  "revenue": 20918518519.0,
  "employees": 14020.0,
  "silent": false,
- "per_bn_revenue": 0.05,
- "per_10k_emp": 0.71,
+ "per_bn_revenue": 0.24,
+ "per_10k_emp": 3.57,
  "benchmarks": {
   "global_vertical": {
-   "deployments": 0,
-   "confirmed": 16,
-   "proof_rate": 78,
-   "n": 93
+   "deployments": 19,
+   "confirmed": 9,
+   "proof_rate": 29,
+   "n": 94
   },
   "country_vertical": {
-   "deployments": 0,
-   "confirmed": 0,
-   "proof_rate": 56,
+   "deployments": 33,
+   "confirmed": 11,
+   "proof_rate": 33,
    "n": 10
   }
  },
- "first_seen": 2025,
+ "first_seen": 2024,
  "by_year": [
   {
-   "year": 2025,
+   "year": 2024,
    "n": 1
+  },
+  {
+   "year": 2025,
+   "n": 3
   }
  ],
- "undated_pct": 0,
- "momentum": "rising",
+ "undated_pct": 20,
+ "momentum": "early_mover,rising",
  "maturity": "L3",
  "maturity_evidence": [
+  "multi_horizontal",
   "named_product:Midm",
   "value_number",
   "tier_p"
  ],
- "prospect_score": 6,
+ "prospect_score": 44,
  "stack": [
-  "Microsoft"
+  "Microsoft",
+  "OpenAI"
  ],
  "vendor_named": true,
  "deployments_detail": [
@@ -57,6 +63,50 @@
    "url": "https://html.duckduckgo.com/html/?q=KT+믿음+AI+도입",
    "raw_sector": "Communication Services",
    "date": "2025-07",
+   "fresh": "fresh"
+  },
+  {
+   "company": "KT",
+   "use": "Next-generation AI data centers infrastructure development",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.digitalbridge.com/news/2025-11-26-digitalbridge-signs-strategic-mou-with-kt-corporation-to-develop-next-generation-ai-data-centers-in-korea",
+   "raw_sector": "",
+   "date": "2025-11-26",
+   "fresh": "fresh"
+  },
+  {
+   "company": "KT",
+   "use": "Custom AI agents development for consumer use cases in education and healthcare",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://news.microsoft.com/source/2024/09/29/kt-corporation-and-microsoft-take-giant-step-to-accelerate-ai-innovation-in-korea/",
+   "raw_sector": "",
+   "date": "2024-09-29",
+   "fresh": "aging"
+  },
+  {
+   "company": "KT",
+   "use": "Custom AI agents development using GPT-4o and small language models [GPT-4o]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.aiusecasehub.com/case/kt-corporation-accelerates-korean-digital-transformation-with-custom",
+   "raw_sector": "",
+   "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "KT",
+   "use": "Microsoft 365 Copilot company-wide deployment for operations and workplace efficiency [Microsoft 365 Copilot]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.microsoft.com/en-us/microsoft-cloud/blog/2025/04/24/how-south-korea-is-building-an-ai-powered-future-for-everyone/",
+   "raw_sector": "",
+   "date": "2025-04-24",
    "fresh": "fresh"
   }
  ]

@@ -3,41 +3,63 @@
  "name": "Tata Capital",
  "cc": "IN",
  "vertical": "Financial Services",
- "deployments": 1,
- "confirmed": 1,
- "with_value_number": 0,
- "proof_rate": 0.0,
+ "deployments": 10,
+ "confirmed": 10,
+ "with_value_number": 6,
+ "proof_rate": 0.6,
  "mktcap": 17590361446.0,
  "revenue": 1509879518.0,
  "employees": 22366.0,
  "silent": false,
- "per_bn_revenue": 0.66,
- "per_10k_emp": 0.45,
+ "per_bn_revenue": 6.62,
+ "per_10k_emp": 4.47,
  "benchmarks": {
   "global_vertical": {
-   "deployments": 0,
-   "confirmed": 17,
-   "proof_rate": 0,
-   "n": 377
+   "deployments": 65,
+   "confirmed": 78,
+   "proof_rate": 88,
+   "n": 388
   },
   "country_vertical": {
-   "deployments": 0,
-   "confirmed": 18,
-   "proof_rate": 0,
-   "n": 23
+   "deployments": 50,
+   "confirmed": 79,
+   "proof_rate": 67,
+   "n": 25
   }
  },
- "first_seen": null,
- "by_year": [],
- "undated_pct": 100,
- "momentum": "none",
- "maturity": "L3",
- "maturity_evidence": [
-  "named_product:TIA"
+ "first_seen": 2020,
+ "by_year": [
+  {
+   "year": 2020,
+   "n": 1
+  },
+  {
+   "year": 2023,
+   "n": 1
+  },
+  {
+   "year": 2025,
+   "n": 4
+  },
+  {
+   "year": 2026,
+   "n": 3
+  }
  ],
- "prospect_score": 46,
+ "undated_pct": 10,
+ "momentum": "early_mover,rising",
+ "maturity": "L4",
+ "maturity_evidence": [
+  "multi_horizontal",
+  "named_product:TIA",
+  "value_number",
+  "multi_year"
+ ],
+ "prospect_score": 76,
  "stack": [
-  "Microsoft"
+  "Microsoft",
+  "Microsoft Azure",
+  "OpenAI"
  ],
  "vendor_named": true,
  "deployments_detail": [
@@ -51,6 +73,105 @@
    "raw_sector": "Financial Services",
    "date": "missing",
    "fresh": "undated"
+  },
+  {
+   "company": "Tata Capital",
+   "use": "Multilingual voice AI agents (Sarvam Samvaad) that handle high-volume, conversational customer interactions across the loan value chain in English + 10 Indian languages, with escalation to human agents. In production and now generating 15% of personal loan business. [Sarvam AI (Sarvam Samvaad)]",
+   "existence": "confirmed",
+   "value": "15% of personal loan business generated via voice AI agents; ~20 lakh+ (2 million+) monthly interactions",
+   "tier": "",
+   "url": "https://www.sarvam.ai/stories/tata-capital-ai-voice-transformation",
+   "raw_sector": "",
+   "date": "2026-02-04",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Tata Capital",
+   "use": "TIA conversational chatbot upgraded with generative AI / ChatGPT to answer customer servicing and loan queries with contextual, personalized responses in English, Hindi and Hinglish, live on the mobile app and website. [OpenAI (ChatGPT)]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.qorusglobal.com/content/18924-tata-capital-unveils-a-generative-ai-powered-chatbot-to-enhance-customer-experience",
+   "raw_sector": "",
+   "date": "2023-08-04",
+   "fresh": "stale"
+  },
+  {
+   "company": "Tata Capital",
+   "use": "Generative-AI customer-service automation that classifies and responds to inbound emails, extracts data from internal systems and drafts personalized replies within customer engagement workflows. [Microsoft (generative AI)]",
+   "existence": "confirmed",
+   "value": "20% reduction in operational costs",
+   "tier": "",
+   "url": "https://www.microsoft.com/en-in/aifirstmovers/FY26TataCapital",
+   "raw_sector": "",
+   "date": "2025-01-01",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Tata Capital",
+   "use": "TIA AI-powered voicebot deployed on Google Assistant, letting customers get loan/servicing information via voice through the Google Assistant channel. [Google (Google Assistant)]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.expresscomputer.in/industries/bfsi/tata-capital-launches-voicebot-tia-on-google-assistant/60105/",
+   "raw_sector": "",
+   "date": "2020-07-08",
+   "fresh": "stale"
+  },
+  {
+   "company": "Tata Capital",
+   "use": "AI-powered Credit Appraisal Memorandum (CAM) generation for SME and corporate lending. Uses OCR/NLP + generative AI to extract financials, summarize CIBIL, flag policy deviations, run real-time risk checks and auto-draft 20+ page structured credit notes. In production across SME/corporate underwriting since Sept 2024. [Microsoft (Azure OpenAI, Azure Document Intelligence)]",
+   "existence": "confirmed",
+   "value": "Turnaround time reduced from ~2 days to 20 minutes; 30-35% increase in credit team productivity",
+   "tier": "",
+   "url": "https://www.tata.com/newsroom/business/tata-capital-credit-advantage",
+   "raw_sector": "",
+   "date": "2025-01-01",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Tata Capital",
+   "use": "AI-powered underwriting assist for SME/small-business lending that aggregates financial and behavioral data to support credit decisioning. In production and supporting 80% of SME loan approvals per FY26 results. [none]",
+   "existence": "confirmed",
+   "value": "Supports 80% of SME loan approvals; ~30% increase in underwriting productivity",
+   "tier": "",
+   "url": "https://www.angelone.in/news/stocks/tata-capital-q4fy26-results-net-profit-jumps-43-percent-to-rs-1502-crore-aum-crosses-rs-2-77-lakh-crore",
+   "raw_sector": "",
+   "date": "2026-04-23",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Tata Capital",
+   "use": "Internal generative-AI knowledge assistant for employees that answers queries, retrieves information from internal systems and guides staff through organizational processes to enable self-service. In production across the enterprise. [Microsoft (generative AI)]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.microsoft.com/en-in/aifirstmovers/FY26TataCapital",
+   "raw_sector": "",
+   "date": "2025-01-01",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Tata Capital",
+   "use": "Qsure proprietary document-intelligence platform that uses generative AI to classify documents, verify content and extract contextual data across formats, automating document processing across enterprise workflows (intelligent document processing across lending operations). [Microsoft (generative AI); proprietary Qsure platform]",
+   "existence": "confirmed",
+   "value": "Over 2 crore (20 million+) documents processed",
+   "tier": "",
+   "url": "https://www.microsoft.com/en-in/aifirstmovers/FY26TataCapital",
+   "raw_sector": "",
+   "date": "2025-01-01",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Tata Capital",
+   "use": "AI-driven automated workflows and AI-powered underwriting assist disclosed in the Q4FY26 investor presentation as part of the company's 'AI-first' operating model, contributing to a 335 bps cost-to-income improvement and ~14 bps credit-cost reduction in FY26. [none]",
+   "existence": "confirmed",
+   "value": "30% increase in underwriting; ~335 bps cost-to-income improvement and ~14 bps credit-cost reduction in FY26",
+   "tier": "",
+   "url": "https://www.tatacapital.com/content/dam/tata-capital/pdf/investors-and-financial-reports/stock-exchange/Investor-Presentation-Q4-FY-26.pdf",
+   "raw_sector": "",
+   "date": "2026-04-23",
+   "fresh": "fresh"
   }
  ]
 }

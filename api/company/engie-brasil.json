@@ -3,26 +3,26 @@
  "name": "Engie Brasil",
  "cc": "BR",
  "vertical": "Energy & Utilities",
- "deployments": 1,
- "confirmed": 1,
+ "deployments": 4,
+ "confirmed": 4,
  "with_value_number": 0,
  "proof_rate": 0.0,
  "mktcap": 7948148148.0,
  "revenue": 2455555556.0,
  "employees": 1312.0,
  "silent": false,
- "per_bn_revenue": 0.41,
- "per_10k_emp": 7.62,
+ "per_bn_revenue": 1.63,
+ "per_10k_emp": 30.49,
  "benchmarks": {
   "global_vertical": {
-   "deployments": 0,
-   "confirmed": 20,
+   "deployments": 40,
+   "confirmed": 58,
    "proof_rate": 0,
-   "n": 210
+   "n": 213
   },
   "country_vertical": {
-   "deployments": 0,
-   "confirmed": 0,
+   "deployments": 67,
+   "confirmed": 78,
    "proof_rate": 0,
    "n": 19
   }
@@ -31,19 +31,45 @@
  "by_year": [
   {
    "year": 2025,
-   "n": 1
+   "n": 3
   }
  ],
- "undated_pct": 0,
+ "undated_pct": 25,
  "momentum": "rising",
  "maturity": "L3",
  "maturity_evidence": [
+  "multi_horizontal",
   "named_product:Proprietary"
  ],
- "prospect_score": 54,
- "stack": [],
- "vendor_named": false,
+ "prospect_score": 64,
+ "stack": [
+  "Microsoft",
+  "Microsoft Azure"
+ ],
+ "vendor_named": true,
  "deployments_detail": [
+  {
+   "company": "Engie Brasil",
+   "use": "Azure Analytics for risk identification and customer billing process optimization [Microsoft Azure AI]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.microsoft.com/en/customers/story/25242-engie-impact-azure-ai-foundry",
+   "raw_sector": "",
+   "date": "2025-10-09",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Engie Brasil",
+   "use": "Virtual Assistant (EVA) for customer and stakeholder engagement",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.engie.com/en/explore/news/engie-at-vivatech-2025-driving-energy-transition-with-ai-and-data/",
+   "raw_sector": "",
+   "date": "2025-06-11",
+   "fresh": "fresh"
+  },
   {
    "company": "Engie Brasil",
    "use": "Proprietary AI tools to monitor assets and predict failures in high-power transformers; plus SolarCleanAI platform optimizing solar-panel cleaning with AI and climate data",
@@ -54,6 +80,17 @@
    "raw_sector": "Utilidade pública, energia e saneamento",
    "date": "2025",
    "fresh": "fresh"
+  },
+  {
+   "company": "Engie Brasil",
+   "use": "Maestro system for control and coordination in urban/private areas",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.engie.com.br/en/institutional/about-engie/",
+   "raw_sector": "",
+   "date": "missing",
+   "fresh": "undated"
   }
  ]
 }

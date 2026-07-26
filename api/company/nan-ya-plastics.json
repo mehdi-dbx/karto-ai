@@ -3,28 +3,28 @@
  "name": "Nan Ya Plastics",
  "cc": "TW",
  "vertical": "Manufacturing & Robotics",
- "deployments": 2,
- "confirmed": 1,
+ "deployments": 4,
+ "confirmed": 3,
  "with_value_number": 1,
- "proof_rate": 0.5,
+ "proof_rate": 0.25,
  "mktcap": 48750000000.0,
  "revenue": 8217500000.0,
  "employees": 32271.0,
  "silent": false,
- "per_bn_revenue": 0.24,
- "per_10k_emp": 0.62,
+ "per_bn_revenue": 0.49,
+ "per_10k_emp": 1.24,
  "benchmarks": {
   "global_vertical": {
-   "deployments": 64,
-   "confirmed": 24,
-   "proof_rate": 74,
-   "n": 147
+   "deployments": 42,
+   "confirmed": 50,
+   "proof_rate": 67,
+   "n": 150
   },
   "country_vertical": {
-   "deployments": 52,
-   "confirmed": 38,
-   "proof_rate": 57,
-   "n": 22
+   "deployments": 41,
+   "confirmed": 50,
+   "proof_rate": 50,
+   "n": 23
   }
  },
  "first_seen": 2024,
@@ -36,17 +36,22 @@
   {
    "year": 2025,
    "n": 1
+  },
+  {
+   "year": 2026,
+   "n": 1
   }
  ],
- "undated_pct": 0,
- "momentum": "early_mover,flat",
- "maturity": "L3",
+ "undated_pct": 25,
+ "momentum": "early_mover,rising",
+ "maturity": "L4",
  "maturity_evidence": [
   "named_product:Deployed",
   "value_number",
+  "multi_year",
   "tier_p"
  ],
- "prospect_score": 34,
+ "prospect_score": 56,
  "stack": [],
  "vendor_named": false,
  "deployments_detail": [
@@ -71,6 +76,28 @@
    "raw_sector": "Plastics",
    "date": "2024",
    "fresh": "aging"
+  },
+  {
+   "company": "Nan Ya Plastics",
+   "use": "AI server and high-end networking equipment supply chain participation",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.npc.com.tw/npcfile/public/report/premat/20260313145500724.pdf",
+   "raw_sector": "",
+   "date": "2026-03-13",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Nan Ya Plastics",
+   "use": "Large-size, multi-layer IC carrier boards for cloud AI server processors",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "http://www.npc.com.tw/j2npc/enus/company_highlights.jsp",
+   "raw_sector": "",
+   "date": "missing",
+   "fresh": "undated"
   }
  ]
 }

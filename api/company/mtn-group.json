@@ -3,22 +3,22 @@
  "name": "MTN Group",
  "cc": "ZA",
  "vertical": "Telecom",
- "deployments": 2,
- "confirmed": 1,
+ "deployments": 6,
+ "confirmed": 3,
  "with_value_number": 0,
  "proof_rate": 0.0,
  "mktcap": 22657297297.0,
  "revenue": 12257297297.0,
  "employees": 21975.0,
  "silent": false,
- "per_bn_revenue": 0.16,
- "per_10k_emp": 0.91,
+ "per_bn_revenue": 0.49,
+ "per_10k_emp": 2.73,
  "benchmarks": {
   "global_vertical": {
-   "deployments": 57,
-   "confirmed": 16,
+   "deployments": 30,
+   "confirmed": 24,
    "proof_rate": 0,
-   "n": 93
+   "n": 94
   }
  },
  "first_seen": 2025,
@@ -32,16 +32,19 @@
    "n": 1
   }
  ],
- "undated_pct": 0,
- "momentum": "rising",
+ "undated_pct": 67,
+ "momentum": "early_mover,rising",
  "maturity": "L3",
  "maturity_evidence": [
+  "multi_horizontal",
   "named_product:MTN",
   "tier_p"
  ],
- "prospect_score": 54,
- "stack": [],
- "vendor_named": false,
+ "prospect_score": 58,
+ "stack": [
+  "Oracle"
+ ],
+ "vendor_named": true,
  "deployments_detail": [
   {
    "company": "MTN Group",
@@ -64,6 +67,50 @@
    "raw_sector": "Telecom",
    "date": "2026",
    "fresh": "fresh"
+  },
+  {
+   "company": "MTN Group",
+   "use": "Network optimization and traffic management",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://nairametrics.com/2025/07/11/mtn-group-deploys-ai-for-network-optimisation-in-nigeria-sets-stage-for-africa-wide-rollout/",
+   "raw_sector": "",
+   "date": "Jul 11, 2025",
+   "fresh": "undated"
+  },
+  {
+   "company": "MTN Group",
+   "use": "AI-driven intelligent networks [Huawei]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://techafricanews.com/2026/03/12/huawei-and-mtn-sign-strategic-mou-to-accelerate-ai-driven-intelligent-networks-in-africa/",
+   "raw_sector": "",
+   "date": "Mar 12, 2026",
+   "fresh": "undated"
+  },
+  {
+   "company": "MTN Group",
+   "use": "Supply chain optimization with analytics and AI [Oracle Analytics]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://blogs.oracle.com/analytics/mtn-supply-chain-excellence-with-oracle-analytics-and-ai",
+   "raw_sector": "",
+   "date": "Mar 25, 2026",
+   "fresh": "undated"
+  },
+  {
+   "company": "MTN Group",
+   "use": "Generative AI platform deployment for building and monitoring AI systems [SeekrFlow]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://telcomagazine.com/news/mtn-digital-infrastructure-partners-with-seekr-on-ai-across",
+   "raw_sector": "",
+   "date": "Oct 28, 2025",
+   "fresh": "undated"
   }
  ]
 }

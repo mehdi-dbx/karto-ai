@@ -3,27 +3,27 @@
  "name": "Merck & Co.",
  "cc": "US",
  "vertical": "Healthcare & Life Sciences",
- "deployments": 12,
- "confirmed": 9,
- "with_value_number": 5,
- "proof_rate": 0.417,
+ "deployments": 17,
+ "confirmed": 13,
+ "with_value_number": 6,
+ "proof_rate": 0.353,
  "mktcap": 321300000000.0,
  "revenue": 65770000000.0,
  "employees": 75000.0,
  "silent": false,
- "per_bn_revenue": 0.18,
- "per_10k_emp": 1.6,
+ "per_bn_revenue": 0.26,
+ "per_10k_emp": 2.27,
  "benchmarks": {
   "global_vertical": {
-   "deployments": 98,
-   "confirmed": 95,
-   "proof_rate": 73,
-   "n": 165
+   "deployments": 99,
+   "confirmed": 98,
+   "proof_rate": 71,
+   "n": 168
   },
   "country_vertical": {
-   "deployments": 95,
-   "confirmed": 88,
-   "proof_rate": 74,
+   "deployments": 97,
+   "confirmed": 95,
+   "proof_rate": 71,
    "n": 59
   }
  },
@@ -46,7 +46,7 @@
    "n": 5
   }
  ],
- "undated_pct": 8,
+ "undated_pct": 35,
  "momentum": "early_mover,rising",
  "maturity": "L4",
  "maturity_evidence": [
@@ -56,10 +56,74 @@
   "multi_year",
   "tier_p"
  ],
- "prospect_score": 85,
- "stack": [],
- "vendor_named": false,
+ "prospect_score": 86,
+ "stack": [
+  "Amazon AWS",
+  "Anthropic",
+  "Databricks",
+  "Google",
+  "Google Cloud",
+  "Meta",
+  "NVIDIA",
+  "OpenAI"
+ ],
+ "vendor_named": true,
  "deployments_detail": [
+  {
+   "company": "Merck & Co.",
+   "use": "Agentic AI platform for R&D, clinical, and enterprise operations [Google Cloud Gemini Enterprise]",
+   "existence": "claimed",
+   "value": "$1 billion",
+   "tier": "",
+   "url": "https://www.merck.com/news/merck-and-google-cloud-partner-to-accelerate-agentic-ai-enterprise-transformation/",
+   "raw_sector": "",
+   "date": "Apr 22, 2026",
+   "fresh": "undated"
+  },
+  {
+   "company": "Merck & Co.",
+   "use": "Generative AI for clinical study report development [LLMs]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.merck.com/news/merck-expands-innovative-internal-generative-ai-solutions-helping-to-deliver-medicines-to-patients-faster/",
+   "raw_sector": "",
+   "date": "Jun 25, 2025",
+   "fresh": "undated"
+  },
+  {
+   "company": "Merck & Co.",
+   "use": "Generative AI for clinical study document authoring [McKinsey]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.mckinsey.com/about-us/new-at-mckinsey-blog/with-gen-ai-merck-and-mckinsey-transform-clinical-authoring",
+   "raw_sector": "",
+   "date": "Jun 27, 2025",
+   "fresh": "undated"
+  },
+  {
+   "company": "Merck & Co.",
+   "use": "Generative AI for synthetic data generation in drug development [GANs, Variational Autoencoders]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://aws.amazon.com/solutions/case-studies/merck-customer-video/",
+   "raw_sector": "",
+   "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "Merck & Co.",
+   "use": "AI integration across clinical trials for data analysis and participant selection",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.merck.com/research/areas-of-innovation/data-science-and-artificial-intelligence/",
+   "raw_sector": "",
+   "date": "missing",
+   "fresh": "undated"
+  },
   {
    "company": "Merck & Co.",
    "use": "AI/ML drug discovery collaboration w/ Mayo Clinic (genomic data + precision medicine); AI-driven analytics in $1B Keytruda biologics manufacturing center",

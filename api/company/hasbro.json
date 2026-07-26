@@ -3,43 +3,105 @@
  "name": "Hasbro",
  "cc": "US",
  "vertical": "Retail & E-commerce",
- "deployments": 1,
- "confirmed": 1,
- "with_value_number": 0,
- "proof_rate": 0.0,
+ "deployments": 10,
+ "confirmed": 8,
+ "with_value_number": 4,
+ "proof_rate": 0.4,
  "mktcap": 12330000000.0,
  "revenue": 4970000000.0,
  "employees": 4520.0,
  "silent": false,
- "per_bn_revenue": 0.2,
- "per_10k_emp": 2.21,
+ "per_bn_revenue": 2.01,
+ "per_10k_emp": 22.12,
  "benchmarks": {
   "global_vertical": {
-   "deployments": 0,
-   "confirmed": 24,
-   "proof_rate": 0,
-   "n": 295
+   "deployments": 72,
+   "confirmed": 75,
+   "proof_rate": 70,
+   "n": 301
   },
   "country_vertical": {
-   "deployments": 0,
-   "confirmed": 25,
-   "proof_rate": 0,
+   "deployments": 59,
+   "confirmed": 65,
+   "proof_rate": 78,
    "n": 80
   }
  },
- "first_seen": null,
- "by_year": [],
- "undated_pct": 100,
- "momentum": "none",
+ "first_seen": 2023,
+ "by_year": [
+  {
+   "year": 2023,
+   "n": 1
+  },
+  {
+   "year": 2025,
+   "n": 1
+  },
+  {
+   "year": 2026,
+   "n": 7
+  }
+ ],
+ "undated_pct": 10,
+ "momentum": "early_mover,rising",
  "maturity": "L3",
  "maturity_evidence": [
+  "multi_horizontal",
   "named_product:Sixth Wall",
+  "value_number",
   "tier_p"
  ],
- "prospect_score": 54,
- "stack": [],
- "vendor_named": false,
+ "prospect_score": 72,
+ "stack": [
+  "Google",
+  "OpenAI"
+ ],
+ "vendor_named": true,
  "deployments_detail": [
+  {
+   "company": "Hasbro",
+   "use": "AI-assisted toy and product design paired with 3D printing, cutting time from concept to physical prototype by roughly 80% and letting teams develop ~10 toy concepts in the time previously needed for one [Google Gemini]",
+   "existence": "confirmed",
+   "value": "~80% reduction in concept-to-prototype time; ~10x more concepts per cycle",
+   "tier": "",
+   "url": "https://www.retaildive.com/news/hasbro-ceo-ai-toys/812500/",
+   "raw_sector": "",
+   "date": "2026-02",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Hasbro",
+   "use": "Sixth Wall, a Hasbro AI studio subsidiary, with proprietary CharacterOS technology and a 'Behavioral Licensing' model to license how iconic characters think, speak, and interact in AI experiences with IP guardrails [Sixth Wall (Hasbro subsidiary) / CharacterOS]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://newsroom.hasbro.com/news-releases/news-release-details/hasbro-launches-sixth-wall-new-ai-studio-building-next",
+   "raw_sector": "",
+   "date": "2026-06-03",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Hasbro",
+   "use": "Interactive, voice-enabled AI versions of ~11-12 Hasbro characters (Optimus Prime, Megatron, Mr. Potato Head, Cobra Commander, Clue cast) launched via ElevenLabs' Iconic Marketplace for licensed conversational experiences [ElevenLabs]",
+   "existence": "confirmed",
+   "value": "close to a dozen (11-12) characters at launch",
+   "tier": "",
+   "url": "https://www.screendaily.com/news/hasbro-launches-subsidiary-ai-studio-sixth-wall-to-exploit-ip/5217380.article",
+   "raw_sector": "",
+   "date": "2026-06-03",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Hasbro",
+   "use": "Partnership with Xplored to build digitally enhanced board games on the Teburu platform, using embedded smart sensors and AI to track pieces and drive dynamic, reactive gameplay [Xplored (Teburu)]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.polygon.com/tabletop-games/23809858/hasbro-digital-board-games-ai-teburu/",
+   "raw_sector": "",
+   "date": "2023-07-27",
+   "fresh": "stale"
+  },
   {
    "company": "Hasbro",
    "use": "\"Sixth Wall\" AI studio (interactive AI versions of characters, licensing); AI across financial planning/supply chain/ops (CEO Cocks: \"beyond experimentation\")",
@@ -50,6 +112,61 @@
    "raw_sector": "Consumer Discretionary",
    "date": "missing",
    "fresh": "undated"
+  },
+  {
+   "company": "Hasbro",
+   "use": "AI applied to financial planning and forecasting to predict product demand and plan resources [none]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.retaildive.com/news/hasbro-ceo-ai-toys/812500/",
+   "raw_sector": "",
+   "date": "2026-02",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Hasbro",
+   "use": "AI used in order management to streamline order processing and fulfillment operations [none]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.retaildive.com/news/hasbro-ceo-ai-toys/812500/",
+   "raw_sector": "",
+   "date": "2026-02",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Hasbro",
+   "use": "AI deployed across supply chain operations for planning and inventory optimization (owned inventory reduced to a record-low ~75 days) [none]",
+   "existence": "confirmed",
+   "value": "owned inventory at record-low ~75 days",
+   "tier": "",
+   "url": "https://www.enworld.org/threads/hasbro-ceo-says-ai-integration-has-been-a-clear-success.717852/",
+   "raw_sector": "",
+   "date": "2026-02",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Hasbro",
+   "use": "Enterprise-wide employee productivity / everyday work assistants built on partner LLM platforms, expected to free up more than 1 million hours of lower-value work over the next year [Google Gemini, OpenAI]",
+   "existence": "confirmed",
+   "value": "over 1 million work hours expected to be freed over 12 months",
+   "tier": "",
+   "url": "https://www.retaildive.com/news/hasbro-ceo-ai-toys/812500/",
+   "raw_sector": "",
+   "date": "2026-02",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Hasbro",
+   "use": "Generative AI to produce diverse marketing/creative assets before production and bridge concept art to commercial applications, accelerating creative and marketing workflows [none]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.linkedin.com/posts/alexkantrowitz_can-ai-act-as-a-personal-strategist-hasbro-activity-7375997838096375808-BwPm",
+   "raw_sector": "",
+   "date": "2025-09",
+   "fresh": "fresh"
   }
  ]
 }

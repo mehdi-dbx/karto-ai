@@ -3,49 +3,64 @@
  "name": "Kingfisher",
  "cc": "UK",
  "vertical": "Retail & E-commerce",
- "deployments": 1,
- "confirmed": 1,
+ "deployments": 7,
+ "confirmed": 6,
  "with_value_number": 1,
- "proof_rate": 1.0,
+ "proof_rate": 0.143,
  "mktcap": 6286500000.0,
  "revenue": 16446500000.0,
  "employees": 69720.0,
  "silent": false,
- "per_bn_revenue": 0.06,
- "per_10k_emp": 0.14,
+ "per_bn_revenue": 0.43,
+ "per_10k_emp": 1.0,
  "benchmarks": {
   "global_vertical": {
-   "deployments": 0,
-   "confirmed": 24,
-   "proof_rate": 77,
-   "n": 295
+   "deployments": 56,
+   "confirmed": 63,
+   "proof_rate": 39,
+   "n": 301
   },
   "country_vertical": {
-   "deployments": 0,
-   "confirmed": 15,
-   "proof_rate": 85,
+   "deployments": 54,
+   "confirmed": 54,
+   "proof_rate": 62,
    "n": 14
   }
  },
- "first_seen": 2025,
+ "first_seen": 2023,
  "by_year": [
+  {
+   "year": 2023,
+   "n": 1
+  },
+  {
+   "year": 2024,
+   "n": 1
+  },
   {
    "year": 2025,
    "n": 1
+  },
+  {
+   "year": 2026,
+   "n": 2
   }
  ],
- "undated_pct": 0,
- "momentum": "rising",
- "maturity": "L3",
+ "undated_pct": 29,
+ "momentum": "early_mover,rising",
+ "maturity": "L4",
  "maturity_evidence": [
+  "multi_horizontal",
   "named_product:Hello Casto",
   "value_number",
+  "multi_year",
   "tier_p"
  ],
- "prospect_score": 6,
+ "prospect_score": 70,
  "stack": [
   "Google",
-  "Google Cloud"
+  "Google Cloud",
+  "ServiceNow"
  ],
  "vendor_named": true,
  "deployments_detail": [
@@ -59,6 +74,72 @@
    "raw_sector": "Retailers",
    "date": "2025",
    "fresh": "fresh"
+  },
+  {
+   "company": "Kingfisher",
+   "use": "Athena platform for orchestrating AI microservices to speed up and secure development of digital products",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://cloud.google.com/transform/kingfisher-generative-ai-retail-solutions",
+   "raw_sector": "",
+   "date": "2024-06-18",
+   "fresh": "aging"
+  },
+  {
+   "company": "Kingfisher",
+   "use": "Named as a Google Gemini / Vertex AI customer/case study [Google Gemini / Vertex AI] [Google Gemini / Vertex AI]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.onixnet.com/blog/transforming-the-healthcare-sector-using-google-cloud-ai/",
+   "raw_sector": "",
+   "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "Kingfisher",
+   "use": "People analytics transformation with generative AI [Alteryx]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.alteryx.com/resources/customer-story/kingfisher-transforms-people-analytics-with-alteryx",
+   "raw_sector": "",
+   "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "Kingfisher",
+   "use": "Generative AI and agentic automation on ServiceNow for employee support [ServiceNow]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://diginomica.com/call-trees-agentic-ai-how-kingfisher-winning-back-employee-time-customers",
+   "raw_sector": "",
+   "date": "2026-03-12",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Kingfisher",
+   "use": "AI-powered e-commerce shopping experience across B&Q, Castorama France and Poland platforms [Google Cloud Vertex AI]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.kingfisher.com/media/news/2026/kingfisher-and-google-cloud-partner",
+   "raw_sector": "",
+   "date": "2026-03-18",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Kingfisher",
+   "use": "AI-powered DIY virtual assistant providing customer support and product recommendations",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.kingfisher.com/media/news/2023/kingfisher-launches-ai-powered-diy-assistant",
+   "raw_sector": "",
+   "date": "2023-11-14",
+   "fresh": "stale"
   }
  ]
 }

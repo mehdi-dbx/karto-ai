@@ -3,45 +3,112 @@
  "name": "Booking Holdings",
  "cc": "US",
  "vertical": "Retail & E-commerce",
- "deployments": 1,
- "confirmed": 1,
- "with_value_number": 0,
- "proof_rate": 0.0,
+ "deployments": 14,
+ "confirmed": 14,
+ "with_value_number": 3,
+ "proof_rate": 0.214,
  "mktcap": 133630000000.0,
  "revenue": 27690000000.0,
  "employees": 24300.0,
  "silent": false,
- "per_bn_revenue": 0.04,
- "per_10k_emp": 0.41,
+ "per_bn_revenue": 0.51,
+ "per_10k_emp": 5.76,
  "benchmarks": {
   "global_vertical": {
-   "deployments": 0,
-   "confirmed": 24,
-   "proof_rate": 0,
-   "n": 295
+   "deployments": 92,
+   "confirmed": 96,
+   "proof_rate": 48,
+   "n": 301
   },
   "country_vertical": {
-   "deployments": 0,
-   "confirmed": 25,
-   "proof_rate": 0,
+   "deployments": 80,
+   "confirmed": 91,
+   "proof_rate": 46,
    "n": 80
   }
  },
- "first_seen": null,
- "by_year": [],
- "undated_pct": 100,
- "momentum": "none",
- "maturity": "L3",
+ "first_seen": 2023,
+ "by_year": [
+  {
+   "year": 2023,
+   "n": 3
+  },
+  {
+   "year": 2024,
+   "n": 4
+  },
+  {
+   "year": 2025,
+   "n": 4
+  },
+  {
+   "year": 2026,
+   "n": 2
+  }
+ ],
+ "undated_pct": 7,
+ "momentum": "early_mover,cooling",
+ "maturity": "L4",
  "maturity_evidence": [
+  "multi_horizontal",
   "named_product:Trip",
+  "value_number",
+  "multi_year",
   "tier_p"
  ],
- "prospect_score": 46,
+ "prospect_score": 91,
  "stack": [
+  "Anthropic",
+  "Google",
+  "Google Cloud",
   "OpenAI"
  ],
  "vendor_named": true,
  "deployments_detail": [
+  {
+   "company": "Booking Holdings",
+   "use": "Booking.com Property Q&A: generative-AI that instantly retrieves relevant property information to auto-answer traveler questions and auto-generate partner replies, reducing customer-support contact volume. [OpenAI (GPT models)]",
+   "existence": "confirmed",
+   "value": "Property Q&A has lowered support volumes (per OpenAI case study); no percentage disclosed",
+   "tier": "",
+   "url": "https://openai.com/index/booking-com/",
+   "raw_sector": "",
+   "date": "2024-10-30",
+   "fresh": "aging"
+  },
+  {
+   "company": "Booking Holdings",
+   "use": "Booking.com Smart Messenger: agentic-AI feature in the partner Extranet that autonomously gathers partner, property and reservation data to suggest actions and support partner-to-guest communication. [Booking.com (vendor not named in announcement)]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://news.booking.com/bookingcom-debuts-agentic-ai-innovations-adding-to-its-robust-suite-of-genai-tools-for-customers/",
+   "raw_sector": "",
+   "date": "2025-10-09",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Booking Holdings",
+   "use": "Booking.com Auto-Reply: agentic-AI in the Extranet that lets accommodation partners define custom reply topics for instant automated responses to guest inquiries; continuously learns from past interactions. Live globally. [Booking.com (vendor not named in announcement)]",
+   "existence": "confirmed",
+   "value": "73% increase in partner satisfaction vs previous messaging tools (early testing)",
+   "tier": "",
+   "url": "https://news.booking.com/bookingcom-debuts-agentic-ai-innovations-adding-to-its-robust-suite-of-genai-tools-for-customers/",
+   "raw_sector": "",
+   "date": "2025-10-09",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Booking Holdings",
+   "use": "Agoda customer-support generative AI: uses genAI to reduce administrative work for support agents, provide translation/tone-matching and speed case resolution, improving agent efficiency and customer experience. [Agoda (generative AI)]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.frontier-enterprise.com/agodas-ai-strategy-fail-fast-innovate-faster/",
+   "raw_sector": "",
+   "date": "2026-06-03",
+   "fresh": "fresh"
+  },
   {
    "company": "Booking Holdings",
    "use": "AI Trip Planner (GenAI, OpenAI-powered), Smart Filter, Property Q&A, Review Summaries, AI Trip Support",
@@ -52,6 +119,105 @@
    "raw_sector": "Consumer Discretionary",
    "date": "missing",
    "fresh": "undated"
+  },
+  {
+   "company": "Booking Holdings",
+   "use": "Booking.com AI Trip Planner: conversational trip-planning tool that blends Booking.com's own ML models with OpenAI's ChatGPT API to let travelers search destinations, accommodations and itineraries in natural language and book in-flow. Launched in beta to US Genius members June 2023 and since expanded. [OpenAI (ChatGPT API / GPT models) + Booking.com in-house ML]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://news.booking.com/bookingcom-launches-new-ai-trip-planner-to-enhance-travel-planning-experience/",
+   "raw_sector": "",
+   "date": "2023-06-27",
+   "fresh": "stale"
+  },
+  {
+   "company": "Booking Holdings",
+   "use": "Booking.com Smart Filter: generative-AI feature that translates natural-language wish-list phrases into structured search filters to help travelers narrow accommodation options. [OpenAI (GPT models) + Booking.com genAI]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://news.booking.com/bookingcom-enhances-travel-planning-with-new-ai-powered-features--for-easier-smarter-decisions/",
+   "raw_sector": "",
+   "date": "2024-10-30",
+   "fresh": "aging"
+  },
+  {
+   "company": "Booking Holdings",
+   "use": "Booking.com Review Summaries: generative-AI that condenses large volumes of guest reviews into concise property insight summaries so travelers don't have to read through all reviews. [Booking.com generative AI (OpenAI stack)]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://news.booking.com/bookingcom-enhances-travel-planning-with-new-ai-powered-features--for-easier-smarter-decisions/",
+   "raw_sector": "",
+   "date": "2024-10-30",
+   "fresh": "aging"
+  },
+  {
+   "company": "Booking Holdings",
+   "use": "Priceline Penny: fully agentic AI travel assistant (coordinated system of 10+ specialized agents) that takes users from trip idea to booking in one conversation, with interactive map, Penny's Pick and Penny's Take recommendations. In production. [Anthropic (Claude, core reasoning/planning) + Google Cloud (search) + OpenAI (voice), on Priceline's stack]",
+   "existence": "confirmed",
+   "value": "Travelers who used Penny saved an average of nearly 10 minutes per trip; higher conversion and reduced support contacts",
+   "tier": "",
+   "url": "https://press.priceline.com/pricelines-penny-goes-fully-agentic/",
+   "raw_sector": "",
+   "date": "2026-06-03",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Booking Holdings",
+   "use": "Priceline generative-AI travel concierge chatbot built on Google Cloud Vertex AI, providing points-of-interest recommendations and personalized travel suggestions; Vertex AI also powers sort algorithms, pricing personalization and rewards management. [Google Cloud (Vertex AI, BigQuery)]",
+   "existence": "confirmed",
+   "value": "Data pipeline reporting cut from 2 days to under 1 hour; deployment speed doubled (infrastructure metrics)",
+   "tier": "",
+   "url": "https://cloud.google.com/customers/priceline",
+   "raw_sector": "",
+   "date": "2023-06-08",
+   "fresh": "stale"
+  },
+  {
+   "company": "Booking Holdings",
+   "use": "KAYAK AI Mode / Ask AI: natural-language travel search powered by ChatGPT that combines KAYAK's data with OpenAI to return contextual flight, hotel and car-rental results. Launched Oct 2025, evolved into globally available 'Ask AI' by April 2026. [OpenAI (ChatGPT)]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.kayak.com/news/ai-mode/",
+   "raw_sector": "",
+   "date": "2025-10-15",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Booking Holdings",
+   "use": "KAYAK Price Check: AI feature that lets users upload a screenshot of a flight/travel deal and uses AI to check whether it is a good price against live pricing across hundreds of providers. [KAYAK AI]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.kayak.com/news/introducing-kayak-ai/",
+   "raw_sector": "",
+   "date": "2025-04-10",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Booking Holdings",
+   "use": "Agoda AI Vacation Planner: generative-AI trip planner built on Google Cloud that creates personalized destination and itinerary suggestions to make travel planning easier. [Google Cloud (generative AI / Vertex AI)]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://cloud.google.com/customers/agoda",
+   "raw_sector": "",
+   "date": "2024-01-01",
+   "fresh": "aging"
+  },
+  {
+   "company": "Booking Holdings",
+   "use": "KAYAK ChatGPT integration: KAYAK became one of the first travel search engines integrated into ChatGPT as a plugin, letting ChatGPT act as a virtual travel assistant querying KAYAK's flight/hotel/car search engine. [OpenAI (ChatGPT plugin)]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.kayak.com/news/kayak-chatgpt/",
+   "raw_sector": "",
+   "date": "2023-03-23",
+   "fresh": "stale"
   }
  ]
 }

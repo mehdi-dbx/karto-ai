@@ -3,42 +3,58 @@
  "name": "W. R. Berkley Corporation",
  "cc": "US",
  "vertical": "Financial Services",
- "deployments": 1,
- "confirmed": 1,
- "with_value_number": 1,
- "proof_rate": 1.0,
+ "deployments": 9,
+ "confirmed": 5,
+ "with_value_number": 2,
+ "proof_rate": 0.222,
  "mktcap": 28350000000.0,
  "revenue": 14900000000.0,
  "employees": 8804.0,
  "silent": false,
- "per_bn_revenue": 0.07,
- "per_10k_emp": 1.14,
+ "per_bn_revenue": 0.6,
+ "per_10k_emp": 10.22,
  "benchmarks": {
   "global_vertical": {
-   "deployments": 0,
-   "confirmed": 17,
-   "proof_rate": 76,
-   "n": 377
+   "deployments": 58,
+   "confirmed": 46,
+   "proof_rate": 44,
+   "n": 388
   },
   "country_vertical": {
-   "deployments": 0,
-   "confirmed": 19,
-   "proof_rate": 81,
-   "n": 76
+   "deployments": 55,
+   "confirmed": 41,
+   "proof_rate": 51,
+   "n": 77
   }
  },
- "first_seen": null,
- "by_year": [],
- "undated_pct": 100,
- "momentum": "none",
- "maturity": "L3",
+ "first_seen": 2025,
+ "by_year": [
+  {
+   "year": 2025,
+   "n": 1
+  },
+  {
+   "year": 2026,
+   "n": 4
+  }
+ ],
+ "undated_pct": 44,
+ "momentum": "rising",
+ "maturity": "L4",
  "maturity_evidence": [
   "named_product:Kalepa",
-  "value_number"
+  "value_number",
+  "multi_year"
  ],
- "prospect_score": 14,
- "stack": [],
- "vendor_named": false,
+ "prospect_score": 61,
+ "stack": [
+  "Amazon AWS",
+  "Databricks",
+  "Microsoft",
+  "Microsoft Azure",
+  "Snowflake"
+ ],
+ "vendor_named": true,
  "deployments_detail": [
   {
    "company": "W. R. Berkley Corporation",
@@ -50,6 +66,94 @@
    "raw_sector": "Financials",
    "date": "missing",
    "fresh": "undated"
+  },
+  {
+   "company": "W. R. Berkley Corporation",
+   "use": "Kalepa AI-powered underwriting platform: ingests and analyzes submissions and surfaces risk insights so underwriters can evaluate and select risks faster. Piloted at Admiral Insurance Group (a Berkley company), then expanded across W. R. Berkley's operating companies under an enterprise agreement. [Kalepa]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://kalepa.com/news-posts/w-r-berkley-corporation-expands-use-of-kalepas-underwriting-platform",
+   "raw_sector": "",
+   "date": "2025-08-14",
+   "fresh": "fresh"
+  },
+  {
+   "company": "W. R. Berkley Corporation",
+   "use": "AI-powered underwriting workbenches that digitize the underwriting process from intake through quote generation, described by CEO Rob Berkley on the Q2 2026 earnings call. [none]",
+   "existence": "confirmed",
+   "value": "20%+ underwriting efficiency gains",
+   "tier": "",
+   "url": "https://www.reinsurancene.ws/w-r-berkley-sees-20-underwriting-efficiency-gains-from-ai-ceo/",
+   "raw_sector": "",
+   "date": "2026-07-22",
+   "fresh": "fresh"
+  },
+  {
+   "company": "W. R. Berkley Corporation",
+   "use": "AI-enabled straight-through processing / claims triage for low-complexity claims (roughly 50% of claims settle for $5,000 or less), enabling faster resolution and reallocating staff to higher-value work. Described by CEO on Q2 2026 earnings call. [none]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.investing.com/news/transcripts/earnings-call-transcript-w-r-berkley-tops-q2-2026-estimates-shares-slip-93CH-4801769",
+   "raw_sector": "",
+   "date": "2026-07-22",
+   "fresh": "fresh"
+  },
+  {
+   "company": "W. R. Berkley Corporation",
+   "use": "Predictive analytics models deployed across pricing, growth, reserving, and claims workflows at Continental Western Group (a Berkley Company), per a data/AI practitioner who developed and deployed them. [none]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.linkedin.com/in/jude-eneigho-87377220",
+   "raw_sector": "",
+   "date": "none",
+   "fresh": "undated"
+  },
+  {
+   "company": "W. R. Berkley Corporation",
+   "use": "Actuarial/data science teams designing and applying machine learning tools including accessing large language models (LLMs) and building task-specific agents, per an Actuary/Data Scientist role at W. R. Berkley (Greenwich). [none]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.linkedin.com/jobs/view/actuary-data-scientist-at-w-r-berkley-corporation-4400636902",
+   "raw_sector": "",
+   "date": "none",
+   "fresh": "undated"
+  },
+  {
+   "company": "W. R. Berkley Corporation",
+   "use": "Enterprise data & analytics function led by a VP / Chief Data & Analytics Officer building predictive models used for underwriting/pricing and to identify potentially complex claims across the insurance business. [none]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.udig.com/insights/videos/leveraging-data-analytics-ai-insurance",
+   "raw_sector": "",
+   "date": "none",
+   "fresh": "undated"
+  },
+  {
+   "company": "W. R. Berkley Corporation",
+   "use": "Enterprise AI/ML platform built and operated by Berkley Technology Services (BTS) to design, build, and maintain infrastructure for deploying machine learning and deep learning models in production; uses AWS/Azure cloud, Spark/Databricks/Snowflake data stack, and ML frameworks (TensorFlow, PyTorch, scikit-learn), with preferred experience in generative AI. [AWS, Microsoft Azure, Databricks, Snowflake]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.greatinsurancejobs.com/job/principal-engineer-ai-platform-581689",
+   "raw_sector": "",
+   "date": "2026-07-01",
+   "fresh": "fresh"
+  },
+  {
+   "company": "W. R. Berkley Corporation",
+   "use": "AI-assisted software development: Berkley Technology Services uses/expects familiarity with GitHub Copilot and Microsoft Copilot Studio for developers building internal applications. [GitHub/Microsoft (GitHub Copilot, Copilot Studio)]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.linkedin.com/jobs/view/software-developer-at-berkley-technology-services-4444487301",
+   "raw_sector": "",
+   "date": "2026-07-23",
+   "fresh": "fresh"
   }
  ]
 }

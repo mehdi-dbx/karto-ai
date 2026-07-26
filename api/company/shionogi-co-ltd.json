@@ -3,42 +3,75 @@
  "name": "Shionogi & Co., Ltd.",
  "cc": "JP",
  "vertical": "Healthcare & Life Sciences",
- "deployments": 1,
- "confirmed": 1,
- "with_value_number": 0,
- "proof_rate": 0.0,
+ "deployments": 11,
+ "confirmed": 7,
+ "with_value_number": 2,
+ "proof_rate": 0.182,
  "mktcap": 16133333333.0,
  "revenue": 3331200000.0,
  "employees": 6223.0,
  "silent": false,
- "per_bn_revenue": 0.3,
- "per_10k_emp": 1.61,
+ "per_bn_revenue": 3.3,
+ "per_10k_emp": 17.68,
  "benchmarks": {
   "global_vertical": {
-   "deployments": 0,
-   "confirmed": 13,
-   "proof_rate": 0,
-   "n": 165
+   "deployments": 76,
+   "confirmed": 68,
+   "proof_rate": 51,
+   "n": 168
   },
   "country_vertical": {
-   "deployments": 0,
-   "confirmed": 0,
-   "proof_rate": 0,
+   "deployments": 100,
+   "confirmed": 67,
+   "proof_rate": 44,
    "n": 10
   }
  },
- "first_seen": null,
- "by_year": [],
- "undated_pct": 100,
- "momentum": "none",
- "maturity": "L3",
+ "first_seen": 2021,
+ "by_year": [
+  {
+   "year": 2021,
+   "n": 1
+  },
+  {
+   "year": 2022,
+   "n": 1
+  },
+  {
+   "year": 2023,
+   "n": 1
+  },
+  {
+   "year": 2024,
+   "n": 3
+  },
+  {
+   "year": 2025,
+   "n": 2
+  },
+  {
+   "year": 2026,
+   "n": 2
+  }
+ ],
+ "undated_pct": 9,
+ "momentum": "early_mover,flat",
+ "maturity": "L4",
  "maturity_evidence": [
+  "multi_horizontal",
   "named_product:Generative",
+  "value_number",
+  "multi_year",
   "tier_p"
  ],
- "prospect_score": 54,
- "stack": [],
- "vendor_named": false,
+ "prospect_score": 75,
+ "stack": [
+  "Amazon AWS",
+  "Anthropic",
+  "Microsoft",
+  "Microsoft Azure"
+ ],
+ "vendor_named": true,
  "deployments_detail": [
   {
    "company": "Shionogi & Co., Ltd.",
@@ -50,6 +83,116 @@
    "raw_sector": "Pharmaceuticals",
    "date": "missing",
    "fresh": "undated"
+  },
+  {
+   "company": "Shionogi & Co., Ltd.",
+   "use": "AI Statistical Programming System (AI-SAS): AI that semi-automatically generates the SAS statistical analysis programs required for clinical trials, built on SAS Viya with machine/deep learning (CNNs). Deployed Sept 2023; also being adopted by other Japanese pharma companies and CROs. [SAS (SAS Viya)]",
+   "existence": "confirmed",
+   "value": "Analysis time per trial cut ~100 hours (30% reduction, from ~350 hours); 30% reduction in standard work hours",
+   "tier": "",
+   "url": "https://www.sas.com/en_us/customers/shionogi.html",
+   "raw_sector": "",
+   "date": "2023-09",
+   "fresh": "stale"
+  },
+  {
+   "company": "Shionogi & Co., Ltd.",
+   "use": "Generative AI application to draft clinical-trial regulatory documents (study protocol and Clinical Study Report/CSR), built on Amazon Bedrock with Claude 3.5 Sonnet in an isolated AWS environment; presented at AWS Summit as a validated PoC moving toward production. [AWS (Amazon Bedrock), Anthropic (Claude 3.5 Sonnet)]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://dev.classmethod.jp/articles/aws-summit-healthcare-shionogi-genai-interview/",
+   "raw_sector": "",
+   "date": "2025-06",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Shionogi & Co., Ltd.",
+   "use": "Generative AI solution for drug-development regulatory document creation (extracts key info from JP/EN trial data to draft documents). Technology developed by Shionogi, licensed to and launched by Hitachi for pharma/healthcare firms in Japan. [Hitachi]",
+   "existence": "confirmed",
+   "value": "~50% reduction in clinical study report creation time; ~20% reduction for trial protocol creation",
+   "tier": "",
+   "url": "https://www.shionogi.com/jp/ja/news/2026/02/20260224.html",
+   "raw_sector": "",
+   "date": "2026-02",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Shionogi & Co., Ltd.",
+   "use": "Drug target discovery collaboration using InveniAI's AlphaMeld machine-learning platform to identify drug targets and target combinations for psycho-neurological disorders; a compound selected via the platform reached Phase III. [InveniAI (AlphaMeld)]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.shionogi.com/global/en/news/2021/04/e-210428.html",
+   "raw_sector": "",
+   "date": "2021-04",
+   "fresh": "stale"
+  },
+  {
+   "company": "Shionogi & Co., Ltd.",
+   "use": "Strategic research collaboration applying NEC OncoImmunity's machine-learning software to predict/identify optimal neoantigen targets for developing a novel hepatitis B therapeutic vaccine. [NEC (NEC OncoImmunity)]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.shionogi.com/global/en/news/2022/04/e-220418.html",
+   "raw_sector": "",
+   "date": "2022-04",
+   "fresh": "stale"
+  },
+  {
+   "company": "Shionogi & Co., Ltd.",
+   "use": "Company-wide enterprise AI chat application ('base' generative AI app) rolled out internally with model updates, RAG functionality and an API release for staff productivity. [none]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.shionogi.com/global/en/innovation/digital/case-studies/ai.html",
+   "raw_sector": "",
+   "date": "2024",
+   "fresh": "aging"
+  },
+  {
+   "company": "Shionogi & Co., Ltd.",
+   "use": "Microsoft 365 Copilot implemented as an external service to enhance productivity across the Microsoft 365 suite for employees. [Microsoft (365 Copilot)]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.shionogi.com/global/en/innovation/digital/case-studies/ai.html",
+   "raw_sector": "",
+   "date": "2024",
+   "fresh": "aging"
+  },
+  {
+   "company": "Shionogi & Co., Ltd.",
+   "use": "Business partnership with Hitachi to build data + generative AI DX services for pharma/healthcare: master data management (MDM) systems, generative AI for streamlining drug-development business processes, and a PHR platform for employee health management. [Hitachi]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.shionogi.com/jp/ja/news/2025/01/20250122-3.html",
+   "raw_sector": "",
+   "date": "2025-01",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Shionogi & Co., Ltd.",
+   "use": "Decision-making support generative AI tools from the Generative AI Group: an 'Executive Persona' application for project evaluation and a deliberation/approval support application that surfaces risks, plus a cross-department intelligent document search system. [none]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.shionogi.com/global/en/innovation/digital/case-studies/ai.html",
+   "raw_sector": "",
+   "date": "2024-10",
+   "fresh": "aging"
+  },
+  {
+   "company": "Shionogi & Co., Ltd.",
+   "use": "Enterprise generative AI platform with strict governance deployed in Shionogi's private AWS environment: department/organization-level RAG access controls via Azure AD, thousands of isolated knowledge bases for research-document translation and natural-language retrieval of past experimental records in drug discovery. [TIS (on AWS, Azure AD)]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.tisi.jp/casestudy/casestudy_186.html",
+   "raw_sector": "",
+   "date": "2026",
+   "fresh": "fresh"
   }
  ]
 }

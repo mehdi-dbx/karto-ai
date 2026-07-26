@@ -3,51 +3,142 @@
  "name": "Loblaw Companies",
  "cc": "CA",
  "vertical": "Retail & E-commerce",
- "deployments": 1,
- "confirmed": 1,
- "with_value_number": 0,
- "proof_rate": 0.0,
+ "deployments": 12,
+ "confirmed": 11,
+ "with_value_number": 3,
+ "proof_rate": 0.25,
  "mktcap": 54882352941.0,
  "revenue": 47411764706.0,
  "employees": 220000.0,
  "silent": false,
- "per_bn_revenue": 0.02,
- "per_10k_emp": 0.05,
+ "per_bn_revenue": 0.25,
+ "per_10k_emp": 0.55,
  "benchmarks": {
   "global_vertical": {
-   "deployments": 0,
-   "confirmed": 24,
-   "proof_rate": 0,
-   "n": 295
+   "deployments": 86,
+   "confirmed": 89,
+   "proof_rate": 50,
+   "n": 301
   },
   "country_vertical": {
-   "deployments": 0,
-   "confirmed": 57,
-   "proof_rate": 0,
+   "deployments": 100,
+   "confirmed": 100,
+   "proof_rate": 43,
    "n": 8
   }
  },
- "first_seen": 2026,
+ "first_seen": 2019,
  "by_year": [
   {
-   "year": 2026,
+   "year": 2019,
    "n": 1
+  },
+  {
+   "year": 2025,
+   "n": 1
+  },
+  {
+   "year": 2026,
+   "n": 10
   }
  ],
  "undated_pct": 0,
- "momentum": "late_entrant,rising",
- "maturity": "L3",
+ "momentum": "early_mover,rising",
+ "maturity": "L4",
  "maturity_evidence": [
+  "multi_horizontal",
   "named_product:Express",
+  "value_number",
+  "multi_year",
   "tier_p"
  ],
- "prospect_score": 46,
+ "prospect_score": 90,
  "stack": [
   "Google",
+  "Google Cloud",
+  "Microsoft",
+  "Microsoft Azure",
   "OpenAI"
  ],
  "vendor_named": true,
  "deployments_detail": [
+  {
+   "company": "Loblaw Companies",
+   "use": "Robin — a proprietary, hyper-personalized AI co-pilot for store owners and managers, using tens of AI agents working in tandem to turn real-time store data into on-the-spot actions (manage inventory, anticipate stock-outs, streamline operations). Has its own production login portal at robin.loblaw.ca. [Loblaw (proprietary)]",
+   "existence": "confirmed",
+   "value": "2000+ insights delivered every day",
+   "tier": "",
+   "url": "https://retail-insider.com/retail-insider/2026/02/loblaw-expands-ai-commerce-with-google-gemini/",
+   "raw_sector": "",
+   "date": "2026-02-12",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Loblaw Companies",
+   "use": "Google Cloud Vertex AI platform scaled across retail functions — merchandising, supply chain and store operations — as part of Loblaw's transformation into an AI-native enterprise. [Google Cloud (Vertex AI)]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.globenewswire.com/news-release/2026/02/19/3240959/0/en/loblaw-accelerates-the-adoption-of-ai-driven-digital-commerce-in-canada-with-google-collaboration.html",
+   "raw_sector": "",
+   "date": "2026-02-19",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Loblaw Companies",
+   "use": "Blue Yonder machine-learning demand planning / forecasting deployed to improve forecast accuracy and product availability across the supply chain, building on 10+ years of Loblaw's demand forecasting process. [Blue Yonder]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://blueyonder.com/resources/loblaw-supercharges-forecasting-with-blue-yonder-demand-planning",
+   "raw_sector": "",
+   "date": "2025-05-15",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Loblaw Companies",
+   "use": "AI-powered demand forecasting and inventory optimization across 2,400+ stores with models accounting for regional preferences, seasonal patterns and real-time supply chain signals; plus AI-enhanced personalization within the PC Optimum loyalty ecosystem and workflow automation / intelligent assistants for Shoppers Drug Mart pharmacy operations. [Loblaw (on Shakudo platform)]",
+   "existence": "confirmed",
+   "value": "2,400+ stores",
+   "tier": "",
+   "url": "https://www.shakudo.io/customers/loblaw-digital",
+   "raw_sector": "",
+   "date": "2026-05-04",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Loblaw Companies",
+   "use": "ChatGPT Enterprise deployed to Loblaw corporate colleagues to boost productivity and innovation (analyzing data, video and image content). Builds on existing use of OpenAI models to build proprietary AI solutions. [OpenAI (ChatGPT Enterprise)]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://canadiangrocer.com/loblaw-and-openai-partner-integrate-pc-express-chatgpt",
+   "raw_sector": "",
+   "date": "2026-02-12",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Loblaw Companies",
+   "use": "Agentic AI solutions in supply chain management to improve inventory accuracy and optimize logistics — autonomous agents handling complex workflows with human oversight at critical decision points. [Loblaw (proprietary, on OpenAI/Google models)]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://geekspeakcommerce.com/loblaws-ai-commerce-push-what-it-means-for-cpg-product-discoverability/",
+   "raw_sector": "",
+   "date": "2026-02-12",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Loblaw Companies",
+   "use": "Loblaw Data Insights & Analytics (LDIA) platform evolution adding AI-driven capabilities, including an AI assistant that lets users ask natural-language questions for smarter, faster merchandising/supplier decisions (offered to suppliers/vendors). [Loblaw (LDIA)]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.linkedin.com/posts/loblawadvance_the-new-loblaw-data-insights-analytics-activity-7467636479050088449-6ELm",
+   "raw_sector": "",
+   "date": "2026-01-01",
+   "fresh": "fresh"
+  },
   {
    "company": "Loblaw Companies",
    "use": "PC Express shopping app inside ChatGPT and Google Gemini AI commerce integration for grocery discovery/checkout",
@@ -57,6 +148,50 @@
    "url": "https://www.loblaw.ca/en/loblaw-advances-ai-in-canadian-retail-with-first-of-its-kind-shopping-app-in-chatgpt/",
    "raw_sector": "Retail",
    "date": "2026",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Loblaw Companies",
+   "use": "PC Express grocery shopping app inside ChatGPT — customers shop for groceries from Loblaw stores conversationally, exploring meal ideas, curating ingredients and selecting products from local stores. Billed as a first-of-its-kind app in ChatGPT for a North American retailer. [OpenAI (ChatGPT)]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.globenewswire.com/news-release/2026/02/12/3237057/0/en/loblaw-advances-ai-in-canadian-retail-with-first-of-its-kind-shopping-app-in-chatgpt.html",
+   "raw_sector": "",
+   "date": "2026-02-12",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Loblaw Companies",
+   "use": "Shopping via Google AI Mode in Search and the Gemini app — Canadians can buy health, beauty and apparel products (incl. Shoppers Drug Mart) directly through conversational agentic AI. Loblaw described as Canada's first large retailer to offer this. [Google (Gemini / AI Mode)]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.globenewswire.com/news-release/2026/02/19/3240959/0/en/loblaw-accelerates-the-adoption-of-ai-driven-digital-commerce-in-canada-with-google-collaboration.html",
+   "raw_sector": "",
+   "date": "2026-02-19",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Loblaw Companies",
+   "use": "Microsoft Azure AI integrated into the PC Optimum loyalty program to break down customer-data silos and match members with personalized deals and offers based on preferences; established a machine-learning practice within Loblaw's digital teams on Azure cloud. [Microsoft (Azure AI)]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://news.microsoft.com/en-ca/2019/06/11/loblaw-uses-microsoft-ai-to-break-down-silos-and-unlock-new-insights-in-the-digital-age/",
+   "raw_sector": "",
+   "date": "2019-06-11",
+   "fresh": "stale"
+  },
+  {
+   "company": "Loblaw Companies",
+   "use": "Shakudo unified AI operating platform — centralized runtime for Loblaw to build and run first-party AI/ML applications with full data sovereignty, unified governance, audit trails and data lineage. Serves as the foundation for AI development across the company (demand forecasting, personalization, pharmacy workflow automation, agentic AI). [Shakudo]",
+   "existence": "confirmed",
+   "value": "AI built in-house serving 220,000+ employees; AI-powered operations across 2,400+ stores",
+   "tier": "",
+   "url": "https://www.shakudo.io/customers/loblaw-digital",
+   "raw_sector": "",
+   "date": "2026-05-04",
    "fresh": "fresh"
   }
  ]

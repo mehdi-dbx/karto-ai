@@ -3,28 +3,28 @@
  "name": "JPMorgan Chase",
  "cc": "US",
  "vertical": "Financial Services",
- "deployments": 13,
- "confirmed": 12,
- "with_value_number": 9,
- "proof_rate": 0.692,
+ "deployments": 21,
+ "confirmed": 19,
+ "with_value_number": 10,
+ "proof_rate": 0.476,
  "mktcap": 925720000000.0,
  "revenue": 186330000000.0,
  "employees": 318512.0,
  "silent": false,
- "per_bn_revenue": 0.07,
- "per_10k_emp": 0.41,
+ "per_bn_revenue": 0.11,
+ "per_10k_emp": 0.66,
  "benchmarks": {
   "global_vertical": {
-   "deployments": 98,
-   "confirmed": 98,
-   "proof_rate": 74,
-   "n": 377
-  },
-  "country_vertical": {
-   "deployments": 97,
+   "deployments": 99,
    "confirmed": 99,
    "proof_rate": 77,
-   "n": 76
+   "n": 388
+  },
+  "country_vertical": {
+   "deployments": 99,
+   "confirmed": 100,
+   "proof_rate": 83,
+   "n": 77
   }
  },
  "first_seen": 2017,
@@ -47,15 +47,15 @@
   },
   {
    "year": 2025,
-   "n": 4
+   "n": 7
   },
   {
    "year": 2026,
-   "n": 1
+   "n": 3
   }
  ],
- "undated_pct": 0,
- "momentum": "early_mover,cooling",
+ "undated_pct": 14,
+ "momentum": "early_mover,rising",
  "maturity": "L4",
  "maturity_evidence": [
   "multi_horizontal",
@@ -63,10 +63,101 @@
   "value_number",
   "multi_year"
  ],
- "prospect_score": 80,
- "stack": [],
- "vendor_named": false,
+ "prospect_score": 81,
+ "stack": [
+  "Anthropic",
+  "OpenAI"
+ ],
+ "vendor_named": true,
  "deployments_detail": [
+  {
+   "company": "JPMorgan Chase",
+   "use": "LLM Suite platform for large language models [OpenAI, Anthropic]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.cnbc.com/amp/2025/09/30/jpmorgan-chase-fully-ai-connected-megabank.html",
+   "raw_sector": "",
+   "date": "2025-09-30",
+   "fresh": "fresh"
+  },
+  {
+   "company": "JPMorgan Chase",
+   "use": "AI agents for finance",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.jpmorganchase.com/about/technology/research/ai",
+   "raw_sector": "",
+   "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "JPMorgan Chase",
+   "use": "Named as a OpenAI customer/case study [OpenAI] [OpenAI]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://masterofcode.com/blog/chatgpt-statistics",
+   "raw_sector": "",
+   "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "JPMorgan Chase",
+   "use": "Agentic AI for complex multistep employee tasks [OpenAI, Anthropic]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.cnbc.com/amp/2025/09/30/jpmorgan-chase-fully-ai-connected-megabank.html",
+   "raw_sector": "",
+   "date": "2025-09-30",
+   "fresh": "fresh"
+  },
+  {
+   "company": "JPMorgan Chase",
+   "use": "Investment banking deck generation [OpenAI, Anthropic]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.cnbc.com/amp/2025/09/30/jpmorgan-chase-fully-ai-connected-megabank.html",
+   "raw_sector": "",
+   "date": "2025-09-30",
+   "fresh": "fresh"
+  },
+  {
+   "company": "JPMorgan Chase",
+   "use": "450+ AI use cases in production",
+   "existence": "confirmed",
+   "value": "450",
+   "tier": "",
+   "url": "https://www.artificialintelligence-news.com/news/jpmorgan-chase-ai-strategy-2025/",
+   "raw_sector": "",
+   "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "JPMorgan Chase",
+   "use": "Employee productivity and efficiency with generative AI",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://emerj.com/artificial-intelligence-at-jpmorgan-chase/",
+   "raw_sector": "",
+   "date": "2026-03-30",
+   "fresh": "fresh"
+  },
+  {
+   "company": "JPMorgan Chase",
+   "use": "AI systems for fraud detection and document verification",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://ctomagazine.com/fintech-ai-fraud-detection-jpmorgan-chase-fraud-alerts/",
+   "raw_sector": "",
+   "date": "2026-05-22",
+   "fresh": "fresh"
+  },
   {
    "company": "JPMorgan Chase",
    "use": "\"LLM Suite\" GenAI to ~200K-250K employees + coding assistant (10-20% engineer productivity gain, 60K+ devs); ~$1.5B AI-attributed value; 450+ use cases",

@@ -3,47 +3,121 @@
  "name": "MBRF",
  "cc": "BR",
  "vertical": "Retail & E-commerce",
- "deployments": 1,
- "confirmed": 1,
- "with_value_number": 0,
- "proof_rate": 0.0,
+ "deployments": 9,
+ "confirmed": 8,
+ "with_value_number": 8,
+ "proof_rate": 0.889,
  "mktcap": 4159259259.0,
  "revenue": 30359259259.0,
  "employees": 130000.0,
  "silent": false,
- "per_bn_revenue": 0.03,
- "per_10k_emp": 0.08,
+ "per_bn_revenue": 0.3,
+ "per_10k_emp": 0.69,
  "benchmarks": {
   "global_vertical": {
-   "deployments": 0,
-   "confirmed": 24,
-   "proof_rate": 0,
-   "n": 295
+   "deployments": 64,
+   "confirmed": 75,
+   "proof_rate": 97,
+   "n": 301
   },
   "country_vertical": {
-   "deployments": 0,
-   "confirmed": 0,
-   "proof_rate": 0,
-   "n": 13
+   "deployments": 100,
+   "confirmed": 100,
+   "proof_rate": 85,
+   "n": 14
   }
  },
- "first_seen": 2026,
+ "first_seen": 2020,
  "by_year": [
   {
-   "year": 2026,
+   "year": 2020,
    "n": 1
+  },
+  {
+   "year": 2021,
+   "n": 1
+  },
+  {
+   "year": 2022,
+   "n": 2
+  },
+  {
+   "year": 2023,
+   "n": 1
+  },
+  {
+   "year": 2024,
+   "n": 1
+  },
+  {
+   "year": 2025,
+   "n": 1
+  },
+  {
+   "year": 2026,
+   "n": 2
   }
  ],
  "undated_pct": 0,
- "momentum": "late_entrant,rising",
- "maturity": "L2",
+ "momentum": "early_mover,rising",
+ "maturity": "L4",
  "maturity_evidence": [
-  "single_confirmed"
+  "multi_horizontal",
+  "named_product:Azure",
+  "value_number",
+  "multi_year"
  ],
- "prospect_score": 54,
- "stack": [],
- "vendor_named": false,
+ "prospect_score": 52,
+ "stack": [
+  "Microsoft",
+  "Microsoft Azure"
+ ],
+ "vendor_named": true,
  "deployments_detail": [
+  {
+   "company": "MBRF",
+   "use": "AI/ML recruitment tool that reads resumes and ranks candidates against job requirements to speed hiring and reduce unconscious bias; deployed for commercial-department roles with plans to expand. [none]",
+   "existence": "confirmed",
+   "value": "Up to 25% reduction in recruitment time; reads up to 2,400 documents per hour",
+   "tier": "",
+   "url": "https://tiinside.com.br/05/11/2024/com-ia-brf-reduz-em-ate-25-o-tempo-para-preenchimento-de-vaga/",
+   "raw_sector": "",
+   "date": "2024-11-05",
+   "fresh": "aging"
+  },
+  {
+   "company": "MBRF",
+   "use": "AI-based dynamic route resequencing for secondary/last-mile delivery logistics, incorporating real-time traffic, weather, road speed, driver hours and customer receiving windows across the light-truck fleet. [none]",
+   "existence": "confirmed",
+   "value": "Pilot: 16,000 deliveries, 5% fewer route delays, 7% faster completion; rolled out to ~2,500 drivers; up to 20% operational time gains targeted across 35,000+ monthly routes",
+   "tier": "",
+   "url": "https://www.mbrf.com/noticia/mbrf-faz-uso-de-ia-para-resequenciamento-de-rotas-e-otimiza-a-logistica-de-entregas/",
+   "raw_sector": "",
+   "date": "2026-03-04",
+   "fresh": "fresh"
+  },
+  {
+   "company": "MBRF",
+   "use": "Kinebot AI + computer-vision software assessing workers' body movements to evaluate ergonomic/ergometric risk and recommend corrections to prevent repetitive-strain injuries in beef-processing plants; scaled from a pilot to six facilities. [Kinebot]",
+   "existence": "confirmed",
+   "value": "~500 ergonomic improvements implemented since Oct 2022; expanded to 5 additional facilities in Jul 2023",
+   "tier": "",
+   "url": "https://www.baguete.com.br/noticias/marfrig-adota-kinebot",
+   "raw_sector": "",
+   "date": "2023-08-16",
+   "fresh": "stale"
+  },
+  {
+   "company": "MBRF",
+   "use": "UniSoma AI analytics suite for Marfrig's Sales & Operations Planning (S&OP): analyzes 2,500+ variables to generate demand forecasts, integrated supply-chain plans (production, procurement, distribution, logistics) and scenario simulations. [UniSoma]",
+   "existence": "confirmed",
+   "value": "Analyzes 2,500+ variables; in production since 2015; cited in 2019 record R$50bn revenue / R$4.8bn EBITDA",
+   "tier": "",
+   "url": "https://unisoma.com.br/solucao-de-inteligencia-artificial-traz-melhores-resultados-ao-sop-da-marfrig/",
+   "raw_sector": "",
+   "date": "2020-09-30",
+   "fresh": "stale"
+  },
   {
    "company": "MBRF",
    "use": "AI applied across multiple fronts from product development to proofs of concept plus hyper-personalization post-merger",
@@ -54,6 +128,50 @@
    "raw_sector": "Consumo não cíclico, alimentos, comércio/distribuição e agropecuária",
    "date": "2026",
    "fresh": "fresh"
+  },
+  {
+   "company": "MBRF",
+   "use": "Azure Machine Learning platform (AutoML/MLOps) powering a customer sales recommendation engine, manufacturing efficiency prediction, and supply-chain/product demand forecasting; cut insight generation from 10 days to near real-time and drove statistically significant sales lift when customers followed >=70% of recommendations. [Microsoft Azure Machine Learning]",
+   "existence": "confirmed",
+   "value": "Insight generation reduced from 10 days to near real-time; recommendation engine piloted across 7 sales orgs (~70% of annual revenue) then scaled company-wide",
+   "tier": "",
+   "url": "https://www.microsoft.com/en/customers/story/1338924265808999371-brf-consumer-goods-azure-machine-learning",
+   "raw_sector": "",
+   "date": "2022-03-21",
+   "fresh": "stale"
+  },
+  {
+   "company": "MBRF",
+   "use": "Satellite geospatial monitoring combined with big data and AI to map and run predictive models over the grain (corn/soy) supply chain ('Jornada Commodities 4.0'), forecasting climate, commodity prices and crop yields up to 24 months ahead; run by a Curitiba analytics center of excellence. [none]",
+   "existence": "confirmed",
+   "value": "R$10 million invested; 2,500 grain suppliers tracked; predictive models run 24 months in advance; 22 data scientists",
+   "tier": "",
+   "url": "https://convergenciadigital.com.br/inovacao/brf-prioriza-inteligncia-artificial-para-mapear-a-cadeia-produtiva/",
+   "raw_sector": "",
+   "date": "2022-04-18",
+   "fresh": "stale"
+  },
+  {
+   "company": "MBRF",
+   "use": "Pilot with green-fintech Agrorobótica using AI plus LIBS (laser-induced breakdown spectroscopy) to measure and monitor soil carbon and 22 soil fertility/carbon parameters on cattle-supplier farms, enabling carbon-credit generation under the Verde+ program. [Agrorobótica]",
+   "existence": "claimed",
+   "value": "Evaluates 22 soil fertility/carbon parameters; soil analysis reduced from 20 days to ultra-fast; targets thousands of producers",
+   "tier": "",
+   "url": "https://pecuariasustentavel.org.br/noticias/marfrig-implanta-projeto-piloto-com-ia-para-medicao-de-carbono-nas-propriedades-rurais/",
+   "raw_sector": "",
+   "date": "2025-01-07",
+   "fresh": "fresh"
+  },
+  {
+   "company": "MBRF",
+   "use": "'Sophia' AI virtual assistant for Sadia-brand customer service, handling FAQs and personalized suggestions via voice, website contact form and WhatsApp, available 24/7. [none]",
+   "existence": "confirmed",
+   "value": "76% customer satisfaction; ~12,000 average monthly interactions; 1,200+ interactions via WhatsApp/form",
+   "tier": "",
+   "url": "https://portalerp.com/br/noticia/brf-aprimora-atendimento-ao-cliente-com-ia",
+   "raw_sector": "",
+   "date": "2021-04-06",
+   "fresh": "stale"
   }
  ]
 }

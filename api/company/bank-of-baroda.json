@@ -3,28 +3,28 @@
  "name": "Bank of Baroda",
  "cc": "IN",
  "vertical": "Financial Services",
- "deployments": 1,
- "confirmed": 1,
- "with_value_number": 0,
- "proof_rate": 0.0,
+ "deployments": 5,
+ "confirmed": 4,
+ "with_value_number": 3,
+ "proof_rate": 0.6,
  "mktcap": 15301204819.0,
  "revenue": 7670120482.0,
  "employees": 76693.0,
  "silent": false,
- "per_bn_revenue": 0.13,
- "per_10k_emp": 0.13,
+ "per_bn_revenue": 0.65,
+ "per_10k_emp": 0.65,
  "benchmarks": {
   "global_vertical": {
-   "deployments": 0,
-   "confirmed": 17,
-   "proof_rate": 0,
-   "n": 377
+   "deployments": 31,
+   "confirmed": 39,
+   "proof_rate": 88,
+   "n": 388
   },
   "country_vertical": {
-   "deployments": 0,
-   "confirmed": 18,
-   "proof_rate": 0,
-   "n": 23
+   "deployments": 25,
+   "confirmed": 29,
+   "proof_rate": 67,
+   "n": 25
   }
  },
  "first_seen": null,
@@ -33,11 +33,15 @@
  "momentum": "none",
  "maturity": "L3",
  "maturity_evidence": [
-  "named_product:Aditi"
+  "multi_horizontal",
+  "named_product:Aditi",
+  "value_number"
  ],
- "prospect_score": 54,
- "stack": [],
- "vendor_named": false,
+ "prospect_score": 40,
+ "stack": [
+  "Microsoft"
+ ],
+ "vendor_named": true,
  "deployments_detail": [
   {
    "company": "Bank of Baroda",
@@ -47,6 +51,50 @@
    "tier": "I",
    "url": "https://www.expresscomputer.in/bank-of-baroda-aditi-genai",
    "raw_sector": "Financial Services",
+   "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "Bank of Baroda",
+   "use": "AI-powered multilingual platform for in-branch customer service",
+   "existence": "confirmed",
+   "value": "22",
+   "tier": "",
+   "url": "https://m.economictimes.com/industry/banking/finance/banking/bob-launches-ai-powered-multilingual-platform-for-in-branch-customer-service/articleshow/130091442.cms",
+   "raw_sector": "",
+   "date": "Apr 7, 2026",
+   "fresh": "undated"
+  },
+  {
+   "company": "Bank of Baroda",
+   "use": "bob SAMVAD conversational AI",
+   "existence": "confirmed",
+   "value": "430",
+   "tier": "",
+   "url": "https://www.instagram.com/p/DYEccDhj32b/",
+   "raw_sector": "",
+   "date": "2 months ago",
+   "fresh": "undated"
+  },
+  {
+   "company": "Bank of Baroda",
+   "use": "AI/ML-based fraud controls",
+   "existence": "confirmed",
+   "value": "900",
+   "tier": "",
+   "url": "https://www.linkedin.com/pulse/indias-ai-revolution-from-infrastructure-intelligence-saumil-purani-5c5jf",
+   "raw_sector": "",
+   "date": "3 months ago",
+   "fresh": "undated"
+  },
+  {
+   "company": "Bank of Baroda",
+   "use": "Generative AI Hackathon [Microsoft]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://bankofbaroda.bank.in/media/press-releases/bank-of-baroda-launches-hackathon-on-generative-ai-in-collaboration-with-microsoft",
+   "raw_sector": "",
    "date": "missing",
    "fresh": "undated"
   }

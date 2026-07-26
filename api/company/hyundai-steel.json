@@ -3,45 +3,56 @@
  "name": "Hyundai Steel",
  "cc": "KR",
  "vertical": "Chemicals & Materials",
- "deployments": 1,
- "confirmed": 1,
- "with_value_number": 0,
- "proof_rate": 0.0,
+ "deployments": 15,
+ "confirmed": 13,
+ "with_value_number": 5,
+ "proof_rate": 0.333,
  "mktcap": 2740740741.0,
  "revenue": 16970370370.0,
  "employees": 11167.0,
  "silent": false,
- "per_bn_revenue": 0.06,
- "per_10k_emp": 0.9,
+ "per_bn_revenue": 0.88,
+ "per_10k_emp": 13.43,
  "benchmarks": {
   "global_vertical": {
-   "deployments": 0,
-   "confirmed": 19,
-   "proof_rate": 0,
-   "n": 105
+   "deployments": 95,
+   "confirmed": 97,
+   "proof_rate": 75,
+   "n": 107
   },
   "country_vertical": {
-   "deployments": 0,
-   "confirmed": 27,
-   "proof_rate": 0,
+   "deployments": 100,
+   "confirmed": 100,
+   "proof_rate": 91,
    "n": 12
   }
  },
- "first_seen": 2024,
+ "first_seen": 2017,
  "by_year": [
   {
+   "year": 2017,
+   "n": 2
+  },
+  {
    "year": 2024,
-   "n": 1
+   "n": 5
+  },
+  {
+   "year": 2025,
+   "n": 8
   }
  ],
  "undated_pct": 0,
- "momentum": "early_mover,gone_quiet",
- "maturity": "L3",
+ "momentum": "early_mover,rising",
+ "maturity": "L4",
  "maturity_evidence": [
+  "multi_horizontal",
   "named_product:HIP",
+  "value_number",
+  "multi_year",
   "tier_p"
  ],
- "prospect_score": 46,
+ "prospect_score": 87,
  "stack": [
   "Amazon AWS"
  ],
@@ -57,6 +68,160 @@
    "raw_sector": "Steels & Materials",
    "date": "2024-04",
    "fresh": "aging"
+  },
+  {
+   "company": "Hyundai Steel",
+   "use": "AlphaGo-style deep-learning 'Next-Generation Unique Steel Type Component Design System' that searches over ~1.5 billion possible alloy/metal composition combinations to design high-strength automotive steel plates, optimizing metal mixing ratios. [In-house (AlphaGo-style deep learning)]",
+   "existence": "confirmed",
+   "value": "~40% improvement in strength/workability with no cost increase; R&D time cut from months to 10 days; R&D cost halved",
+   "tier": "",
+   "url": "https://plus.hankyung.com/apps/newsinside.view?aid=2017061454671&category=NEWSPAPER",
+   "raw_sector": "",
+   "date": "2017-06-15",
+   "fresh": "stale"
+  },
+  {
+   "company": "Hyundai Steel",
+   "use": "Deep-learning automatic reading/inspection system to identify defective steel plates, trained on the work patterns of experienced inspectors; distinguishes normal vs. defective product. [In-house (deep learning)]",
+   "existence": "confirmed",
+   "value": "99% accuracy, surpassing inspectors with 10+ years experience",
+   "tier": "",
+   "url": "https://plus.hankyung.com/apps/newsinside.view?aid=2017061454671&category=NEWSPAPER",
+   "raw_sector": "",
+   "date": "2017-06-15",
+   "fresh": "stale"
+  },
+  {
+   "company": "Hyundai Steel",
+   "use": "AI/ML predictive maintenance that forecasts equipment lifespan and detects/predicts failures in manufacturing operations, built on decades of accumulated equipment data. [none named]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.hankyung.com/article/202510299904i",
+   "raw_sector": "",
+   "date": "2025-10-29",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Hyundai Steel",
+   "use": "AI-based quality prediction and control using component and equipment data to forecast quality outcomes and respond to defects proactively, as part of the Software-Defined Factory (SDF) decision-automation program. [none named]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.etnews.com/20251210000348",
+   "raw_sector": "",
+   "date": "2025-12-10",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Hyundai Steel",
+   "use": "Natural-language / generative-AI standardization of quality classification: automating previously-manual quality messaging and classification into a data-driven workflow. [none named]",
+   "existence": "confirmed",
+   "value": "Task time reduced from ~1 hour to ~10 minutes",
+   "tier": "",
+   "url": "https://www.etnews.com/20251210000348",
+   "raw_sector": "",
+   "date": "2025-12-10",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Hyundai Steel",
+   "use": "Big-data simulation 'nitrogen behavior prediction model' for the steelmaking converter (BOF) process, controlling nitrogen factors to raise nitrogen-content accuracy and optimize molten-steel production (awarded project at the 3rd AI-Big Data Festival). [none named]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.hyundaimotorgroup.com/ko/news/CONT0000000000155183",
+   "raw_sector": "",
+   "date": "2024-06-20",
+   "fresh": "aging"
+  },
+  {
+   "company": "Hyundai Steel",
+   "use": "Design-simulation model for thick-plate production that derives optimized casting width combinations from actual customer orders and factory operations, replacing manual specification of casting thickness/width (awarded project at the 3rd AI-Big Data Festival). [none named]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.hyundaimotorgroup.com/ko/news/CONT0000000000155183",
+   "raw_sector": "",
+   "date": "2024-06-20",
+   "fresh": "aging"
+  },
+  {
+   "company": "Hyundai Steel",
+   "use": "Strategic partnership with AWS to migrate domestic production-management systems and data-analysis workloads to AWS cloud and build an AI-based real-time data integration/analysis environment; from July 2025 Hyundai Steel began applying AI to decision automation across major production processes (SDF), targeting full rollout by 2030. [Amazon Web Services (AWS)]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.hyundaimotorgroup.com/ko/news/CONT0000000000180003",
+   "raw_sector": "",
+   "date": "2025-07-03",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Hyundai Steel",
+   "use": "Collaboration with Singapore's ARTC (Advanced Remanufacturing and Technology Centre) to jointly develop Vision AI models for steel manufacturing, focused on product surface-defect identification (NDA signed July 2024). [ARTC Singapore (Vision AI)]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://moment.hyundai-steel.com/moment-detail/12732",
+   "raw_sector": "",
+   "date": "2024-07-04",
+   "fresh": "aging"
+  },
+  {
+   "company": "Hyundai Steel",
+   "use": "HIP (Hyundai-steel Intelligence Platform): a generative-AI, RAG-based internal knowledge platform providing enterprise document search and a management-support chatbot across ~9 domains (facilities, engineering, quality, management, marketing, HR/benefits). Built on ~130,000 documents from 71 years of accumulated data; ~1 second average response, 91% search accuracy; replaced 6 legacy search systems. First generative-AI case in the Korean steel/steelmaking sector. [S2W (SAIP platform, RAG + security); LLM/RAG stack]",
+   "existence": "confirmed",
+   "value": "91% search accuracy; ~1s response; replaced 6 systems; ~130,000 documents",
+   "tier": "",
+   "url": "https://www.snmnews.com/news/articleView.html?idxno=537486",
+   "raw_sector": "",
+   "date": "2024-04-30",
+   "fresh": "aging"
+  },
+  {
+   "company": "Hyundai Steel",
+   "use": "Generative-AI automation of overseas-subsidiary analysis reports: real-time data analysis of overseas operations with automated report generation (top-tier project at the 4th AI-Big Data Festival). [Generative AI (not named)]",
+   "existence": "confirmed",
+   "value": "Related work time reduced by over 90%",
+   "tier": "",
+   "url": "https://www.greenpostkorea.co.kr/news/articleViewAmp.html?idxno=304613",
+   "raw_sector": "",
+   "date": "2025-10-28",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Hyundai Steel",
+   "use": "AI/big-data optimization of raw-material berth (dock) planning: analyzes ship positions and docking times to recommend optimal berthing arrangements and cargo-handling/transport plans, reducing demurrage charges and port operating costs and stabilizing raw-material supply (top award at the 4th AI-Big Data Festival). [none named]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.hankyung.com/article/202510299904i",
+   "raw_sector": "",
+   "date": "2025-10-29",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Hyundai Steel",
+   "use": "AI-equipped Boston Dynamics 'SPOT' quadruped patrol robot deployed at the No.2 cold-rolling plant for unmanned safety inspection of high-risk sites: autonomous navigation, gas/hazard-zone patrols, fire and chemical-leak early detection, replacing personnel in high-temperature/high-altitude danger zones. Won World Steel Association process-safety top award (2022). [Boston Dynamics (SPOT)]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://moment.hyundai-steel.com/moment-detail/50081",
+   "raw_sector": "",
+   "date": "2025-08-26",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Hyundai Steel",
+   "use": "Vision AI system for worker safety protection on the production floor (real-time hazard/safety monitoring), part of the company-wide DX rollout across manufacturing, management support and safety management. [none named]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.hankyung.com/article/202510299904i",
+   "raw_sector": "",
+   "date": "2025-10-29",
+   "fresh": "fresh"
   }
  ]
 }

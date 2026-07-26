@@ -3,27 +3,27 @@
  "name": "CVS Health",
  "cc": "US",
  "vertical": "Healthcare & Life Sciences",
- "deployments": 6,
- "confirmed": 4,
+ "deployments": 14,
+ "confirmed": 10,
  "with_value_number": 1,
- "proof_rate": 0.167,
+ "proof_rate": 0.071,
  "mktcap": 135890000000.0,
  "revenue": 405620000000.0,
  "employees": 300000.0,
  "silent": false,
- "per_bn_revenue": 0.01,
- "per_10k_emp": 0.2,
+ "per_bn_revenue": 0.03,
+ "per_10k_emp": 0.47,
  "benchmarks": {
   "global_vertical": {
-   "deployments": 89,
-   "confirmed": 89,
-   "proof_rate": 67,
-   "n": 165
+   "deployments": 93,
+   "confirmed": 87,
+   "proof_rate": 40,
+   "n": 168
   },
   "country_vertical": {
-   "deployments": 76,
-   "confirmed": 76,
-   "proof_rate": 67,
+   "deployments": 84,
+   "confirmed": 78,
+   "proof_rate": 34,
    "n": 59
   }
  },
@@ -38,7 +38,7 @@
    "n": 4
   }
  ],
- "undated_pct": 17,
+ "undated_pct": 64,
  "momentum": "rising",
  "maturity": "L4",
  "maturity_evidence": [
@@ -48,12 +48,93 @@
   "multi_year",
   "tier_p"
  ],
- "prospect_score": 57,
+ "prospect_score": 97,
  "stack": [
-  "Google"
+  "Databricks",
+  "Google",
+  "Google Cloud",
+  "Palantir",
+  "Salesforce"
  ],
  "vendor_named": true,
  "deployments_detail": [
+  {
+   "company": "CVS Health",
+   "use": "AI in pharmacy workflows to improve medication safety and prescription accuracy",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.cvshealth.com/news/company-news/cvs-health-recognized-for-technology-that-improves-medication-safety-and-patient-care.html",
+   "raw_sector": "",
+   "date": "May 29, 2026",
+   "fresh": "undated"
+  },
+  {
+   "company": "CVS Health",
+   "use": "AI-powered case note summarization for health plan members with safety monitoring",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.cvshealth.com/news/innovation/improving-health-plan-member-experiences-with-ai.html",
+   "raw_sector": "",
+   "date": "Oct 17, 2025",
+   "fresh": "undated"
+  },
+  {
+   "company": "CVS Health",
+   "use": "Large-scale RAG for knowledge management; real-time AI/ML bot-detection system [Databricks] [Databricks]",
+   "existence": "confirmed",
+   "value": "near real-time attack mitigation",
+   "tier": "",
+   "url": "https://www.databricks.com/customers/cvs-health",
+   "raw_sector": "",
+   "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "CVS Health",
+   "use": "Named as a Databricks customer/case study [Databricks] [Databricks]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.zoominfo.com/tech/23711/databricks-tech-by-revenue",
+   "raw_sector": "",
+   "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "CVS Health",
+   "use": "Named as a Palantir customer/case study [Palantir] [Palantir]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://data.landbase.com/technology/palantir/",
+   "raw_sector": "",
+   "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "CVS Health",
+   "use": "Enterprise AI systems using Agentic AI architecture [Agentic AI]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.cvshealth.com/news/company-news/cvs-health-wins-gold-in-enterprise-ai-and-silver-in-customer-experience-ai.html",
+   "raw_sector": "",
+   "date": "Apr 27, 2026",
+   "fresh": "undated"
+  },
+  {
+   "company": "CVS Health",
+   "use": "AI automation for prior authorization (PA) processing",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://business.caremark.com/insights/2025/balancing-act-ai-innovation.html",
+   "raw_sector": "",
+   "date": "missing",
+   "fresh": "undated"
+  },
   {
    "company": "CVS Health",
    "use": "Aetna Care Paths AI (individualized care recs) + conversational AI navigation; consolidating brands into AI-native engagement platform (Google Gemini)",
@@ -63,6 +144,17 @@
    "url": "https://www.cvshealth.com/news/innovation/aetna-launches-new-ai-and-digital-tools-to-improve-access-and-care.html",
    "raw_sector": "Health Care",
    "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "CVS Health",
+   "use": "Generative agent simulations to test customer experiences and design care journeys",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.cvshealth.com/news/innovation/how-cvs-health-test-drives-better-care-experiences-using-generative-agents.html",
+   "raw_sector": "",
+   "date": "Feb 20, 2026",
    "fresh": "undated"
   },
   {

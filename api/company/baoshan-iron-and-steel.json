@@ -3,47 +3,67 @@
  "name": "Baoshan Iron and Steel",
  "cc": "CN",
  "vertical": "Chemicals & Materials",
- "deployments": 1,
- "confirmed": 1,
- "with_value_number": 1,
- "proof_rate": 1.0,
+ "deployments": 11,
+ "confirmed": 11,
+ "with_value_number": 8,
+ "proof_rate": 0.727,
  "mktcap": 17725000000.0,
  "revenue": 44679166667.0,
  "employees": 46135.0,
  "silent": false,
- "per_bn_revenue": 0.02,
- "per_10k_emp": 0.22,
+ "per_bn_revenue": 0.25,
+ "per_10k_emp": 2.38,
  "benchmarks": {
   "global_vertical": {
-   "deployments": 0,
-   "confirmed": 19,
-   "proof_rate": 75,
-   "n": 105
+   "deployments": 89,
+   "confirmed": 95,
+   "proof_rate": 97,
+   "n": 107
   },
   "country_vertical": {
-   "deployments": 0,
-   "confirmed": 0,
+   "deployments": 50,
+   "confirmed": 75,
    "proof_rate": 100,
    "n": 5
   }
  },
- "first_seen": 2025,
+ "first_seen": 2019,
  "by_year": [
   {
+   "year": 2019,
+   "n": 1
+  },
+  {
+   "year": 2023,
+   "n": 3
+  },
+  {
+   "year": 2024,
+   "n": 3
+  },
+  {
    "year": 2025,
+   "n": 3
+  },
+  {
+   "year": 2026,
    "n": 1
   }
  ],
  "undated_pct": 0,
- "momentum": "rising",
- "maturity": "L3",
+ "momentum": "early_mover,cooling",
+ "maturity": "L4",
  "maturity_evidence": [
+  "multi_horizontal",
   "named_product:Blast",
-  "value_number"
+  "value_number",
+  "multi_year"
  ],
- "prospect_score": 14,
- "stack": [],
- "vendor_named": false,
+ "prospect_score": 71,
+ "stack": [
+  "DeepSeek"
+ ],
+ "vendor_named": true,
  "deployments_detail": [
   {
    "company": "Baoshan Iron and Steel",
@@ -55,6 +75,116 @@
    "raw_sector": "Materials",
    "date": "2025",
    "fresh": "fresh"
+  },
+  {
+   "company": "Baoshan Iron and Steel",
+   "use": "Smart blast furnace: AI large model predicts furnace temperature and internal ('black box') conditions in real time to stabilize ironmaking, reduce fuel use and cut abnormal furnace conditions. Built on Huawei's Pangu foundation model, customized for ironmaking with Baosight Software. [Huawei (Pangu model), Shanghai Baosight Software]",
+   "existence": "confirmed",
+   "value": "90% prediction accuracy for core indicators like furnace temperature; annual benefits exceeding tens of millions of CNY per blast furnace",
+   "tier": "",
+   "url": "https://www.huawei.com/en/media-center/transform/23/15-baowu",
+   "raw_sector": "",
+   "date": "2023",
+   "fresh": "stale"
+  },
+  {
+   "company": "Baoshan Iron and Steel",
+   "use": "AI cloud surface inspection system for detecting critical surface defects/flaws on steel products, replacing/augmenting manual visual quality inspection. [none]",
+   "existence": "confirmed",
+   "value": "Detects 96% of critical material flaws; reduces missed inspections by 35%",
+   "tier": "",
+   "url": "https://en.people.cn/n3/2026/0429/c90000-20451825.html",
+   "raw_sector": "",
+   "date": "2026",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Baoshan Iron and Steel",
+   "use": "Cold-rolled steel 'dark factory' (lights-out manufacturing) in Shanghai: fully automated production line with autonomous bridge cranes that self-locate and move coils, AI, industrial robots and IoT running with minimal human oversight. [none]",
+   "existence": "confirmed",
+   "value": "Human intervention reduced from every 3 minutes to once every 30 minutes; 30% emissions reduction per ton, 30% productivity increase, 15% energy reduction per ton, 10% processing cost reduction",
+   "tier": "",
+   "url": "https://gmk.center/en/posts/robots-near-the-blast-furnace-artificial-intelligence-in-steel-industry/amp/",
+   "raw_sector": "",
+   "date": "2019",
+   "fresh": "stale"
+  },
+  {
+   "company": "Baoshan Iron and Steel",
+   "use": "Hot-rolling production line prediction using the Pangu prediction model to improve process/quality prediction accuracy. [Huawei (Pangu prediction model)]",
+   "existence": "confirmed",
+   "value": "Prediction accuracy increased by 5%; total annualized benefits increase by more than 10 million yuan",
+   "tier": "",
+   "url": "https://dbmsteel.com/special-issue-on-smart-steel-in-china-when-traditional-steel-industry-meets-ai/",
+   "raw_sector": "",
+   "date": "2024",
+   "fresh": "aging"
+  },
+  {
+   "company": "Baoshan Iron and Steel",
+   "use": "5G + AI scrap steel grading and surface-quality inspection combining machine vision with AI to automatically grade/inspect steel, over a Huawei 5G deterministic network. [Huawei (5G deterministic network)]",
+   "existence": "confirmed",
+   "value": "Steel defect detection rate over 90%; inspector headcount reduced 50%; 4ms end-to-end latency at 99.999% reliability",
+   "tier": "",
+   "url": "https://www.gsma.com/get-involved/gsma-foundry/5g-network-in-smart-manufacturing/",
+   "raw_sector": "",
+   "date": "2023",
+   "fresh": "stale"
+  },
+  {
+   "company": "Baoshan Iron and Steel",
+   "use": "Baoliandeng Steel Industry Large Model (first industry large model in the steel sector), developed for full-process AI applications across operations. [Baosight Software]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://dbmsteel.com/special-issue-on-smart-steel-in-china-when-traditional-steel-industry-meets-ai/",
+   "raw_sector": "",
+   "date": "2024",
+   "fresh": "aging"
+  },
+  {
+   "company": "Baoshan Iron and Steel",
+   "use": "Industrial robots deployed across operations, including the first industrial robot for blast-furnace production (mud-gun/tap-hole 'cannon filling' task), reflecting company-wide robotic automation. [none]",
+   "existence": "confirmed",
+   "value": "994 industrial robots deployed by end of 2025; robot density of 216 per 10,000 employees",
+   "tier": "",
+   "url": "https://www.chinadaily.com.cn/a/202606/29/WS6a41b4b3a310986e2b46255d_5.html",
+   "raw_sector": "",
+   "date": "2025",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Baoshan Iron and Steel",
+   "use": "Baowu/Baosteel steel large model integrated with locally-deployed DeepSeek R1 plus a generative-AI assistant, applied to production scheduling, inventory management and 100+ application scenarios. [DeepSeek (DeepSeek R1), Baowu/Baosight steel big model]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.sinosteel-pipe.com/en/blog-5580468001461748.html",
+   "raw_sector": "",
+   "date": "2025",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Baoshan Iron and Steel",
+   "use": "Unmanned crane operations in the thin-plate factory using AI algorithms, IoT sensors and automatic control for whole-process material handling and data management. [none]",
+   "existence": "confirmed",
+   "value": "Crane operation efficiency increased 40%; labour cost decreased more than 95%",
+   "tier": "",
+   "url": "https://dbmsteel.com/special-issue-on-smart-steel-in-china-when-traditional-steel-industry-meets-ai/",
+   "raw_sector": "",
+   "date": "2024",
+   "fresh": "aging"
+  },
+  {
+   "company": "Baoshan Iron and Steel",
+   "use": "Remote control of overhead cranes and stacker-reclaimers plus autonomous heavy-load AGVs and 5G-enabled slag-adding robots for intelligent steel production over Huawei's 5G deterministic network. [Huawei (5G deterministic network)]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.gsma.com/get-involved/gsma-foundry/5g-network-in-smart-manufacturing/",
+   "raw_sector": "",
+   "date": "2023",
+   "fresh": "stale"
   }
  ]
 }

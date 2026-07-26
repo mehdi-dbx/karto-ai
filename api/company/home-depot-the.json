@@ -3,27 +3,27 @@
  "name": "Home Depot (The)",
  "cc": "US",
  "vertical": "Retail & E-commerce",
- "deployments": 9,
- "confirmed": 7,
+ "deployments": 13,
+ "confirmed": 11,
  "with_value_number": 2,
- "proof_rate": 0.222,
+ "proof_rate": 0.154,
  "mktcap": 324410000000.0,
  "revenue": 166590000000.0,
  "employees": 472400.0,
  "silent": false,
- "per_bn_revenue": 0.05,
- "per_10k_emp": 0.19,
+ "per_bn_revenue": 0.08,
+ "per_10k_emp": 0.28,
  "benchmarks": {
   "global_vertical": {
-   "deployments": 92,
-   "confirmed": 93,
-   "proof_rate": 63,
-   "n": 295
+   "deployments": 89,
+   "confirmed": 89,
+   "proof_rate": 40,
+   "n": 301
   },
   "country_vertical": {
-   "deployments": 82,
-   "confirmed": 84,
-   "proof_rate": 68,
+   "deployments": 77,
+   "confirmed": 78,
+   "proof_rate": 34,
    "n": 80
   }
  },
@@ -42,7 +42,7 @@
    "n": 5
   }
  ],
- "undated_pct": 11,
+ "undated_pct": 38,
  "momentum": "early_mover,rising",
  "maturity": "L4",
  "maturity_evidence": [
@@ -52,9 +52,13 @@
   "multi_year",
   "tier_p"
  ],
- "prospect_score": 73,
+ "prospect_score": 94,
  "stack": [
-  "Google Cloud"
+  "Anthropic",
+  "Google",
+  "Google Cloud",
+  "Microsoft",
+  "OpenAI"
  ],
  "vendor_named": true,
  "deployments_detail": [
@@ -67,6 +71,50 @@
    "url": "https://corporate.homedepot.com/news/company/unveiling-magic-apron-home-depots-smartest-tool-yet",
    "raw_sector": "Consumer Discretionary",
    "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "Home Depot (The)",
+   "use": "Customer service AI voice agent phone system [Google Cloud]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://corporate.homedepot.com/news/company/home-depot-delivers-customer-store-phone-support-four-times-faster-using-google-clouds",
+   "raw_sector": "",
+   "date": "Apr 22, 2026",
+   "fresh": "undated"
+  },
+  {
+   "company": "Home Depot (The)",
+   "use": "Agentic AI tools for customers and associates [Google Cloud]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://corporate.homedepot.com/news/partnerships/home-depot-and-google-cloud-launch-agentic-ai-tools-help-customers-and-associates",
+   "raw_sector": "",
+   "date": "Jan 11, 2026",
+   "fresh": "undated"
+  },
+  {
+   "company": "Home Depot (The)",
+   "use": "Magic Apron - generative AI tools for how-to questions and home improvement projects",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://ir.homedepot.com/news-releases/2025/03-06-2025-130241718",
+   "raw_sector": "",
+   "date": "Mar 6, 2025",
+   "fresh": "undated"
+  },
+  {
+   "company": "Home Depot (The)",
+   "use": "AI-powered capabilities across multiple domains",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://corporate.homedepot.com/news/company/ai-home-depot-look-future-home-improvement",
+   "raw_sector": "",
+   "date": "Mar 30, 2026",
    "fresh": "undated"
   },
   {

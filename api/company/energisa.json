@@ -3,48 +3,80 @@
  "name": "Energisa",
  "cc": "BR",
  "vertical": "Energy & Utilities",
- "deployments": 1,
- "confirmed": 1,
- "with_value_number": 1,
- "proof_rate": 1.0,
+ "deployments": 11,
+ "confirmed": 7,
+ "with_value_number": 6,
+ "proof_rate": 0.545,
  "mktcap": 3559259259.0,
  "revenue": 6672222222.0,
  "employees": 18000.0,
  "silent": false,
- "per_bn_revenue": 0.15,
- "per_10k_emp": 0.56,
+ "per_bn_revenue": 1.65,
+ "per_10k_emp": 6.11,
  "benchmarks": {
   "global_vertical": {
-   "deployments": 0,
-   "confirmed": 20,
-   "proof_rate": 75,
-   "n": 210
+   "deployments": 86,
+   "confirmed": 81,
+   "proof_rate": 91,
+   "n": 213
   },
   "country_vertical": {
-   "deployments": 0,
-   "confirmed": 0,
-   "proof_rate": 67,
+   "deployments": 94,
+   "confirmed": 83,
+   "proof_rate": 72,
    "n": 19
   }
  },
- "first_seen": 2026,
+ "first_seen": 2023,
  "by_year": [
   {
+   "year": 2023,
+   "n": 2
+  },
+  {
+   "year": 2025,
+   "n": 3
+  },
+  {
    "year": 2026,
-   "n": 1
+   "n": 2
   }
  ],
- "undated_pct": 0,
- "momentum": "late_entrant,rising",
- "maturity": "L3",
+ "undated_pct": 36,
+ "momentum": "early_mover,rising",
+ "maturity": "L4",
  "maturity_evidence": [
+  "multi_horizontal",
   "named_product:Conversational",
-  "value_number"
+  "value_number",
+  "multi_year"
  ],
- "prospect_score": 14,
+ "prospect_score": 60,
  "stack": [],
- "vendor_named": false,
+ "vendor_named": true,
  "deployments_detail": [
+  {
+   "company": "Energisa",
+   "use": "Advanced analytics and AI applied to field-service management - team allocation/dimensioning and demand forecasting for service orders based on historical data, to optimize field operations planning. [Energisa Digital Labs (in-house)]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.energisa.com.br/categorias/inovacao?page=3",
+   "raw_sector": "",
+   "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "Energisa",
+   "use": "Grupo Energisa redesigned its internal intrapreneurship/innovation program (E-Nova) on the AEVO platform, reportedly incorporating AEVO's Generative AI capabilities for its innovation app case. [AEVO]",
+   "existence": "claimed",
+   "value": "10,000 employees enrolled; 2,300+ ideas submitted in 2023; ~16x ROI (platform, GenAI portion not separately quantified)",
+   "tier": "",
+   "url": "https://aevo.com.br/cases-de-sucesso/energisa/",
+   "raw_sector": "",
+   "date": "missing",
+   "fresh": "undated"
+  },
   {
    "company": "Energisa",
    "use": "Conversational AI automating the customer service journey including power outage incident handling",
@@ -54,6 +86,94 @@
    "url": "https://tiinside.com.br/18/06/2026/energisa-utiliza-ia-conversacional-para-automatizar-jornada-de-atendimento/",
    "raw_sector": "Utilidade pública, energia e saneamento",
    "date": "2026",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Energisa",
+   "use": "Conversational AI on WhatsApp (Gisa virtual assistant) that interprets customer messages during power-outage journeys, classifying incidents from free-text like 'no power' including sensitive cases (medical equipment, vulnerable elderly). Deployed on the Blip platform. [Blip]",
+   "existence": "confirmed",
+   "value": "93.8% assertiveness in classifying power-outage reports; 96% avg confidence; 68% promoter sentiment; 136k+ requests processed Nov 2025-Jan 2026",
+   "tier": "",
+   "url": "https://tiinside.com.br/18/06/2026/energisa-utiliza-ia-conversacional-para-automatizar-jornada-de-atendimento-e-alcanca-938-de-assertividade-em-ocorrencias-de-falta-de-energia/",
+   "raw_sector": "",
+   "date": "2026-06-18",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Energisa",
+   "use": "AI-powered drone imagery analysis platform for grid inspection: automated defect detection and component detection across transmission and distribution networks, prioritizing issues by severity. Arkion is the sole provider for Energisa's digital inspection program. [Arkion]",
+   "existence": "confirmed",
+   "value": "2.2 million structures covered; 95 drones supported simultaneously; 850,000 structures inspected annually; millions of images processed daily",
+   "tier": "",
+   "url": "https://www.arkion.co/pt/customer-case/energisa",
+   "raw_sector": "",
+   "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "Energisa",
+   "use": "VERA - neural-network AI that predicts tree/vegetation growth near distribution lines to schedule preventive pruning. Identifies individual trees, classifies species, and measures distance to the grid using technician images, drone/satellite imagery, and weather data. [Energisa Digital Labs (in-house)]",
+   "existence": "confirmed",
+   "value": "Projected 10-20% cost reduction for pruning operations",
+   "tier": "",
+   "url": "https://telesintese.com.br/vera-ia-da-energisa-faz-predicao-de-poda-de-arvores/",
+   "raw_sector": "",
+   "date": "2023-10-02",
+   "fresh": "stale"
+  },
+  {
+   "company": "Energisa",
+   "use": "Computer-vision models combined with drones that analyze grid imagery to identify damaged equipment and flag risks; part of Energisa's AI+drone anomaly-detection program run through Digital Labs. [Energisa Digital Labs (in-house)]",
+   "existence": "confirmed",
+   "value": "Tripled critical anomaly detection; 30,000+ structures inspected rapidly",
+   "tier": "",
+   "url": "https://ri.energisa.com.br/noticias_cpt/energisa-e-reconhecida-como-uma-das-empresas-mais-inovadoras-do-setor-eletrico/",
+   "raw_sector": "",
+   "date": "2023-08-02",
+   "fresh": "stale"
+  },
+  {
+   "company": "Energisa",
+   "use": "AI system in Mato Grosso that continuously analyzes meter/consumption data 24/7 to detect meter fraud and manipulation (energy theft), generating real-time alerts for suspicious meters, replacing manual data cross-referencing. [none disclosed]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.olhardireto.com.br/noticias/energisa-inicia-mapeamento-de-fraudes-em-medidores-de-energia-com-inteligencia-artificial",
+   "raw_sector": "",
+   "date": "2025-01-20",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Energisa",
+   "use": "AI-based detection and blocking of fake-boleto (counterfeit invoice) fraud, allowing the team to detect and block fraudulent boletos quickly. [none disclosed]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.energisa.com.br/tags/fraude",
+   "raw_sector": "",
+   "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "Energisa",
+   "use": "(re)energisa launched 'Renato', an AI-generated digital influencer/avatar that produces audiovisual social-media content translating technical energy topics (solar sharing, open energy market, energy efficiency) into accessible language. [none disclosed]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://canalsolar.com.br/reenergisa-influenciador-digital-ia/",
+   "raw_sector": "",
+   "date": "2025-12-09",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Energisa",
+   "use": "Generative-AI automated production of audio content: articles from the 'Juntos' publication converted into podcasts using AI-based tools. [none disclosed]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.energisa.com.br/noticias/inovacao/inteligencia-artificial-impulsiona-inovacao-no-grupo-energisa",
+   "raw_sector": "",
+   "date": "2025-06-24",
    "fresh": "fresh"
   }
  ]

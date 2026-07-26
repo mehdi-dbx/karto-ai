@@ -3,7 +3,7 @@
  "name": "Grifols",
  "cc": "ES",
  "vertical": "Healthcare & Life Sciences",
- "deployments": 1,
+ "deployments": 2,
  "confirmed": 1,
  "with_value_number": 0,
  "proof_rate": 0.0,
@@ -11,20 +11,25 @@
  "revenue": 8121600000.0,
  "employees": 25000.0,
  "silent": false,
- "per_bn_revenue": 0.12,
- "per_10k_emp": 0.4,
+ "per_bn_revenue": 0.25,
+ "per_10k_emp": 0.8,
  "benchmarks": {
   "global_vertical": {
-   "deployments": 0,
-   "confirmed": 13,
+   "deployments": 5,
+   "confirmed": 5,
    "proof_rate": 0,
-   "n": 165
+   "n": 168
   }
  },
- "first_seen": null,
- "by_year": [],
- "undated_pct": 100,
- "momentum": "none",
+ "first_seen": 2023,
+ "by_year": [
+  {
+   "year": 2023,
+   "n": 1
+  }
+ ],
+ "undated_pct": 50,
+ "momentum": "early_mover,gone_quiet",
  "maturity": "L3",
  "maturity_evidence": [
   "named_product:Google",
@@ -46,6 +51,17 @@
    "raw_sector": "Pharmaceuticals",
    "date": "missing",
    "fresh": "undated"
+  },
+  {
+   "company": "Grifols",
+   "use": "AI and large language models to speed up development of new biopharma treatments [Google Cloud]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.grifols.com/en/view-news/-/news/grifols-accelerates-healthcare-innovation-with-google-cloud-s-ai-and-analytics",
+   "raw_sector": "",
+   "date": "2023-08-01",
+   "fresh": "stale"
   }
  ]
 }

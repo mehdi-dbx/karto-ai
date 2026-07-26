@@ -3,41 +3,62 @@
  "name": "Zhongji Innolight",
  "cc": "CN",
  "vertical": "Technology",
- "deployments": 1,
- "confirmed": 1,
- "with_value_number": 1,
- "proof_rate": 1.0,
+ "deployments": 6,
+ "confirmed": 5,
+ "with_value_number": 5,
+ "proof_rate": 0.833,
  "mktcap": 173611111111.0,
  "revenue": 7091666667.0,
  "employees": 11625.0,
  "silent": false,
- "per_bn_revenue": 0.14,
- "per_10k_emp": 0.86,
+ "per_bn_revenue": 0.85,
+ "per_10k_emp": 5.16,
  "benchmarks": {
   "global_vertical": {
-   "deployments": 0,
-   "confirmed": 6,
-   "proof_rate": 80,
-   "n": 156
+   "deployments": 35,
+   "confirmed": 46,
+   "proof_rate": 99,
+   "n": 159
   },
   "country_vertical": {
-   "deployments": 0,
-   "confirmed": 0,
-   "proof_rate": 58,
+   "deployments": 42,
+   "confirmed": 67,
+   "proof_rate": 100,
    "n": 13
   }
  },
- "first_seen": null,
- "by_year": [],
- "undated_pct": 100,
- "momentum": "none",
- "maturity": "L3",
+ "first_seen": 2023,
+ "by_year": [
+  {
+   "year": 2023,
+   "n": 1
+  },
+  {
+   "year": 2024,
+   "n": 1
+  },
+  {
+   "year": 2025,
+   "n": 1
+  },
+  {
+   "year": 2026,
+   "n": 2
+  }
+ ],
+ "undated_pct": 17,
+ "momentum": "early_mover,rising",
+ "maturity": "L4",
  "maturity_evidence": [
   "named_product:Self",
-  "value_number"
+  "value_number",
+  "multi_year"
  ],
- "prospect_score": 6,
- "stack": [],
+ "prospect_score": 37,
+ "stack": [
+  "NVIDIA",
+  "Palantir"
+ ],
  "vendor_named": true,
  "deployments_detail": [
   {
@@ -50,6 +71,61 @@
    "raw_sector": "Information Technology",
    "date": "missing",
    "fresh": "undated"
+  },
+  {
+   "company": "Zhongji Innolight",
+   "use": "Silicon-photonics-based high-speed optical transceivers (400G/800G in mass production, 1.6T ramping) that are the core interconnect powering AI/hyperscaler data centers; developed on Tower Semiconductor's PH18M SiPho platform. This is the company's core AI-infrastructure product line. [Tower Semiconductor (PH18M silicon photonics foundry platform)]",
+   "existence": "confirmed",
+   "value": "35-40% global 800G optical module share; 50-70% of the 1.6T segment; supplies >half of Nvidia's 800G modules",
+   "tier": "",
+   "url": "https://ir.towersemi.com/news-releases/news-release-details/tower-semiconductor-and-innolight-partner-develop-multi",
+   "raw_sector": "",
+   "date": "2023-09-07",
+   "fresh": "stale"
+  },
+  {
+   "company": "Zhongji Innolight",
+   "use": "In-house silicon photonics integrated circuit (PIC) development across 400G/800G/1.6T transceiver generations, presented at OIF/ECOC industry demos - the company's own optical-engine design capability for AI-cluster interconnect. [InnoLight (self-developed silicon photonics PICs)]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.oiforum.com/wp-content/uploads/OIF_PLL_Demo_Innolight_ECOC24.pdf",
+   "raw_sector": "",
+   "date": "2024-01-01",
+   "fresh": "aging"
+  },
+  {
+   "company": "Zhongji Innolight",
+   "use": "1.6T OSFP optical module built on a self-developed silicon photonics chip; secured an order for Nvidia's GB300 AI computing platform and began small-volume delivery. [Nvidia (GB300 AI platform customer); self-developed silicon photonics chip]",
+   "existence": "confirmed",
+   "value": "1.6T silicon-photonics module claimed to cut bill-of-materials cost 15-20% and power ~30% vs traditional approach",
+   "tier": "",
+   "url": "https://zhuanlan.zhihu.com/p/1954678927684509809",
+   "raw_sector": "",
+   "date": "2025-09-27",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Zhongji Innolight",
+   "use": "Led (with Qianggang Capital) the several-hundred-million-yuan Series C of embodied-AI robotics firm Shihe Robotics, whose special-purpose high-altitude industrial robots use AI-based predictive capabilities; funds directed at deepening embodied-intelligence/AI fusion - a strategic AI investment adjacent to Innolight's core business. [Shihe Robotics (embodied AI / robotics)]",
+   "existence": "confirmed",
+   "value": "several hundred million yuan Series C (co-led); robots reported 5-6x more efficient than manual labor",
+   "tier": "",
+   "url": "https://finance.sina.com.cn/tech/roll/2026-07-21/doc-iniippik9406420.shtml",
+   "raw_sector": "",
+   "date": "2026-07-21",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Zhongji Innolight",
+   "use": "Vertically integrated silicon-photonics manufacturing with a self-developed wafer process, reported to push silicon photonics chip yield to ~95%, underpinning ~38% share of the global 800G SiPh module market. [InnoLight (self-developed process)]",
+   "existence": "claimed",
+   "value": "~95% silicon photonics chip yield; ~38% global 800G SiPh module share",
+   "tier": "",
+   "url": "https://www.eet-china.com/mp/a506716.html",
+   "raw_sector": "",
+   "date": "2026-07-01",
+   "fresh": "fresh"
   }
  ]
 }

@@ -3,27 +3,27 @@
  "name": "Pepco Group",
  "cc": "PL",
  "vertical": "Retail & E-commerce",
- "deployments": 1,
- "confirmed": 0,
- "with_value_number": 0,
- "proof_rate": 0.0,
+ "deployments": 9,
+ "confirmed": 6,
+ "with_value_number": 3,
+ "proof_rate": 0.333,
  "mktcap": 6032500000.0,
  "revenue": 4982500000.0,
  "employees": 31582.0,
  "silent": false,
- "per_bn_revenue": 0.2,
- "per_10k_emp": 0.32,
+ "per_bn_revenue": 1.81,
+ "per_10k_emp": 2.85,
  "benchmarks": {
   "global_vertical": {
-   "deployments": 0,
-   "confirmed": 0,
-   "proof_rate": 0,
-   "n": 295
+   "deployments": 64,
+   "confirmed": 63,
+   "proof_rate": 62,
+   "n": 301
   },
   "country_vertical": {
-   "deployments": 0,
-   "confirmed": 0,
-   "proof_rate": 0,
+   "deployments": 100,
+   "confirmed": 100,
+   "proof_rate": 40,
    "n": 6
   }
  },
@@ -31,13 +31,17 @@
  "by_year": [],
  "undated_pct": 100,
  "momentum": "none",
- "maturity": "L1",
+ "maturity": "L3",
  "maturity_evidence": [
-  "rows_no_confirmed"
+  "multi_horizontal",
+  "named_product:Supply",
+  "value_number"
  ],
- "prospect_score": 40,
- "stack": [],
- "vendor_named": false,
+ "prospect_score": 63,
+ "stack": [
+  "Microsoft"
+ ],
+ "vendor_named": true,
  "deployments_detail": [
   {
    "company": "Pepco Group",
@@ -47,6 +51,94 @@
    "tier": "I",
    "url": "https://www.fakt.pl",
    "raw_sector": "Retail",
+   "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "Pepco Group",
+   "use": "Behavioral AI Infrastructure powering the Pepco mobile app: Synerise deployed as the Customer Data Platform (CDP), automation and personalization layer, enabling real-time behavioral analytics, user segmentation and personalized discount vouchers. [Synerise (behavioral AI); implemented by Future Mind (Solita Group)]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.futuremind.com/case-studies/pepco-mobile-app/",
+   "raw_sector": "",
+   "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "Pepco Group",
+   "use": "AI recommendation engine delivering personalized product recommendations across mobile, loyalty and in-store experiences, unifying them into a single customer ecosystem; recognized by Synerise for fastest go-live (~3 months). [Synerise (Cleora.ai behavioral embeddings / AI Hub recommendations)]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://x.com/Synerise/status/2077386761127223512",
+   "raw_sector": "",
+   "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "Pepco Group",
+   "use": "Pepco mobile app (launched in Poland) built on a composable/headless architecture with 20+ technologies, using data and AI to power the Pepco Club loyalty programme: personalized rewards, digital vouchers and gamification, plus behavioral/transactional insights feeding marketing and inventory planning. [Pepco (with Future Mind / Solita); Synerise data & AI layer]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.pepcogroup.eu/media-news/pepco-group-launches-mobile-app-as-foundational-milestone-in-digital-data-strategy/",
+   "raw_sector": "",
+   "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "Pepco Group",
+   "use": "New Pepco consumer website in Poland drawing on advanced data and AI capabilities to enable deeper behavioral and transactional insights, promote the app/loyalty programme, and support customer conversion, retention and lifetime value. [Pepco (with Future Mind / Solita)]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://retail-systems.com/rs/Pepco_Group_Launches_App_In_Poland.php%20.php",
+   "raw_sector": "",
+   "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "Pepco Group",
+   "use": "Supply chain planning across Pepco stores: AI/machine-learning-based demand forecasting, inventory optimization, allocation and automated replenishment using ToolsGroup SO99+ (probabilistic/ML forecasting engine), managing ~49M active SKUs across ~1,000 stores. [ToolsGroup (SO99+ / Decion)]",
+   "existence": "confirmed",
+   "value": "15% stock reduction for fashion during pilot; product availability up from 96% to 98%; 15-person team handled 200 new store openings/year without added headcount",
+   "tier": "",
+   "url": "https://www.toolsgroup.com/customer-stories/pepco-supply-chain-planning-software/",
+   "raw_sector": "",
+   "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "Pepco Group",
+   "use": "Porto Tech Hub established to build new digital capabilities, accelerating use of cloud, data and AI across 18 markets to modernize core platforms and enable more personalized, intelligent customer interactions (~60 tech/AI roles). [Pepco Group (internal)]",
+   "existence": "claimed",
+   "value": "~60 new tech jobs",
+   "tier": "",
+   "url": "https://cxmtoday.com/news/pepco-unveils-tech-hub-in-porto-to-drive-digital-innovation/",
+   "raw_sector": "",
+   "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "Pepco Group",
+   "use": "Group-level strategic AI adoption where CIO Pablo de Ayala describes deploying AI where it drives real business value across retail operations and supply chain, as part of the FY25 strategic framework's technology & data pillar. [Pepco Group (internal); Microsoft referenced in CIO background]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.linkedin.com/posts/xalution-group_pablo-de-ayala-global-cio-at-pepco-group-activity-7450453417807908864-lQp_",
+   "raw_sector": "",
+   "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "Pepco Group",
+   "use": "AI-powered e-learning course authoring and personalized learning for Pepco Iberia store staff using isEazy Author (AI authoring) and isEazy LMS, incl. automated content translation and central AI-generated content locally adapted. [isEazy (Author + LMS)]",
+   "existence": "confirmed",
+   "value": "Course completion rose from 27% to ~84%; training-project management efficiency +70%; 2,500+ employees across Spain and Portugal",
+   "tier": "",
+   "url": "https://www.iseazy.com/case-studies/pepco/",
+   "raw_sector": "",
    "date": "missing",
    "fresh": "undated"
   }

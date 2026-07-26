@@ -3,27 +3,27 @@
  "name": "Newmont",
  "cc": "US",
  "vertical": "Chemicals & Materials",
- "deployments": 1,
- "confirmed": 1,
- "with_value_number": 0,
- "proof_rate": 0.0,
+ "deployments": 5,
+ "confirmed": 3,
+ "with_value_number": 1,
+ "proof_rate": 0.2,
  "mktcap": 100270000000.0,
  "revenue": 24970000000.0,
  "employees": 17500.0,
  "silent": false,
- "per_bn_revenue": 0.04,
- "per_10k_emp": 0.57,
+ "per_bn_revenue": 0.2,
+ "per_10k_emp": 2.86,
  "benchmarks": {
   "global_vertical": {
-   "deployments": 0,
-   "confirmed": 19,
-   "proof_rate": 0,
-   "n": 105
+   "deployments": 50,
+   "confirmed": 42,
+   "proof_rate": 46,
+   "n": 107
   },
   "country_vertical": {
-   "deployments": 0,
-   "confirmed": 32,
-   "proof_rate": 0,
+   "deployments": 44,
+   "confirmed": 40,
+   "proof_rate": 60,
    "n": 26
   }
  },
@@ -34,16 +34,19 @@
    "n": 1
   }
  ],
- "undated_pct": 0,
+ "undated_pct": 80,
  "momentum": "late_entrant,rising",
  "maturity": "L3",
  "maturity_evidence": [
+  "multi_horizontal",
   "named_product:Caterpillar",
   "tier_p"
  ],
- "prospect_score": 54,
- "stack": [],
- "vendor_named": false,
+ "prospect_score": 50,
+ "stack": [
+  "SAP"
+ ],
+ "vendor_named": true,
  "deployments_detail": [
   {
    "company": "Newmont",
@@ -58,6 +61,50 @@
   },
   {
    "company": "Newmont",
+   "use": "Procurement transformation [SAP Ariba]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.linkedin.com/pulse/ai-transformation-us-mining-sector-leading-companies-2025-omdena-bygvf",
+   "raw_sector": "",
+   "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "Newmont",
+   "use": "Data management and organization [ER/Studio]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://erstudio.com/resource-center/case-studies/data-management-at-newmont-corporation-with-er-studio/",
+   "raw_sector": "",
+   "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "Newmont",
+   "use": "Underground mining safety and automation via 5G wireless networks",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://blog.privatenetworks.technology/2025/05/newmont-pushes-mining-innovation.html",
+   "raw_sector": "",
+   "date": "May 21, 2025",
+   "fresh": "undated"
+  },
+  {
+   "company": "Newmont",
+   "use": "AI-powered drilling systems",
+   "existence": "claimed",
+   "value": "25%",
+   "tier": "",
+   "url": "https://thesiliconreview.com/2025/03/newmont-ai-drilling-nevada",
+   "raw_sector": "",
+   "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "Newmont",
    "use": "Rolling out global autonomous fleet (haul trucks, drill rigs, graders) with 5G networks and AI-driven drilling in Nevada operations",
    "existence": "claimed",
    "value": "25% operational cost reduction claimed at Nevada",
@@ -66,6 +113,39 @@
    "raw_sector": "Mining",
    "date": "2025",
    "fresh": "fresh"
+  },
+  {
+   "company": "Newmont",
+   "use": "AI-powered drilling systems for operational optimization",
+   "existence": "confirmed",
+   "value": "25% operational cost reduction, 15% workforce reduction",
+   "tier": "",
+   "url": "https://thesiliconreview.com/2025/03/newmont-ai-drilling-nevada",
+   "raw_sector": "",
+   "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "Newmont",
+   "use": "5G wireless networks for underground mining safety and automation",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://blog.privatenetworks.technology/2025/05/newmont-pushes-mining-innovation.html",
+   "raw_sector": "",
+   "date": "May 21, 2025",
+   "fresh": "undated"
+  },
+  {
+   "company": "Newmont",
+   "use": "Business Integrity and Compliance analysis and reporting with AI",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://sustainability.newmont.com/",
+   "raw_sector": "",
+   "date": "missing",
+   "fresh": "undated"
   }
  ]
 }

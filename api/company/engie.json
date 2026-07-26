@@ -3,46 +3,82 @@
  "name": "Engie",
  "cc": "FR",
  "vertical": "Energy & Utilities",
- "deployments": 3,
- "confirmed": 2,
- "with_value_number": 0,
- "proof_rate": 0.0,
+ "deployments": 13,
+ "confirmed": 10,
+ "with_value_number": 7,
+ "proof_rate": 0.538,
  "mktcap": 72381600000.0,
  "revenue": 77695200000.0,
  "employees": 84831.0,
  "silent": false,
- "per_bn_revenue": 0.04,
- "per_10k_emp": 0.35,
+ "per_bn_revenue": 0.17,
+ "per_10k_emp": 1.53,
  "benchmarks": {
   "global_vertical": {
-   "deployments": 88,
-   "confirmed": 78,
-   "proof_rate": 0,
-   "n": 210
+   "deployments": 91,
+   "confirmed": 90,
+   "proof_rate": 90,
+   "n": 213
   },
   "country_vertical": {
    "deployments": 83,
-   "confirmed": 67,
-   "proof_rate": 0,
+   "confirmed": 100,
+   "proof_rate": 100,
    "n": 7
   }
  },
- "first_seen": 2026,
+ "first_seen": 2019,
  "by_year": [
+  {
+   "year": 2019,
+   "n": 1
+  },
+  {
+   "year": 2020,
+   "n": 1
+  },
+  {
+   "year": 2022,
+   "n": 2
+  },
+  {
+   "year": 2023,
+   "n": 2
+  },
+  {
+   "year": 2024,
+   "n": 2
+  },
+  {
+   "year": 2025,
+   "n": 2
+  },
   {
    "year": 2026,
    "n": 1
   }
  ],
- "undated_pct": 67,
- "momentum": "late_entrant,rising",
- "maturity": "L3",
+ "undated_pct": 15,
+ "momentum": "early_mover,cooling",
+ "maturity": "L4",
  "maturity_evidence": [
-  "named_product:Raptor"
+  "multi_horizontal",
+  "named_product:Raptor",
+  "value_number",
+  "multi_year"
  ],
- "prospect_score": 60,
- "stack": [],
- "vendor_named": false,
+ "prospect_score": 78,
+ "stack": [
+  "Amazon AWS",
+  "C3.ai",
+  "Databricks",
+  "Google Cloud",
+  "Microsoft",
+  "Microsoft Azure",
+  "Palantir",
+  "Salesforce"
+ ],
+ "vendor_named": true,
  "deployments_detail": [
   {
    "company": "Engie",
@@ -68,6 +104,39 @@
   },
   {
    "company": "Engie",
+   "use": "O-Bot, a generative-AI employee agent in Microsoft Teams that helps staff master Microsoft 365 tools (Teams, SharePoint, OneDrive, OneNote, Power BI) and answers cybersecurity/IT questions in French and English [Witivio / Microsoft (Teams, M365)]",
+   "existence": "confirmed",
+   "value": "10,000+ interactions; 300+ monthly active users; 440+ questions covered; deployed in 3 months",
+   "tier": "",
+   "url": "https://www.witivio.com/en/customers/engie/",
+   "raw_sector": "",
+   "date": "2020",
+   "fresh": "stale"
+  },
+  {
+   "company": "Engie",
+   "use": "ENGIE Impact account-risk prediction using ML models on invoices from 31,000 vendors across 600,000+ sites, plus M365 Copilot agents for HR/employee inquiries [Microsoft (Azure AI Foundry, Azure Databricks, Microsoft 365 Copilot)]",
+   "existence": "confirmed",
+   "value": "13x improvement in account-risk identification; daily predictions",
+   "tier": "",
+   "url": "https://www.microsoft.com/en/customers/story/25242-engie-impact-azure-ai-foundry",
+   "raw_sector": "",
+   "date": "2025",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Engie",
+   "use": "HR Helper, a generative-AI chatbot letting employees ask HR-process questions in natural language, with answers generated from internal HR documentation [none disclosed]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.unleash.ai/unleash-world/interview/engie-evp-of-hr-ai-is-not-only-an-it-topic",
+   "raw_sector": "",
+   "date": "2024",
+   "fresh": "aging"
+  },
+  {
+   "company": "Engie",
    "use": "Generative AI used to accelerate electricity-storage project development",
    "existence": "claimed",
    "value": "none",
@@ -76,6 +145,83 @@
    "raw_sector": "Utilities",
    "date": "missing",
    "fresh": "undated"
+  },
+  {
+   "company": "Engie",
+   "use": "Predictive-maintenance ML models for thermal power-plant and B2B equipment (valves, pumps, ventilation, HVAC), forecasting useful life and detecting anomalies; deployed via Robin Analytics and Agathe platforms [AWS (Amazon SageMaker, EC2)]",
+   "existence": "confirmed",
+   "value": "€800,000 estimated savings per year per business unit; 1,000+ prediction models; up to 90% compute cost savings",
+   "tier": "",
+   "url": "https://aws.amazon.com/solutions/case-studies/engie-digital-sagemaker/",
+   "raw_sector": "",
+   "date": "2022",
+   "fresh": "stale"
+  },
+  {
+   "company": "Engie",
+   "use": "Smart Institutions Energy-as-a-Service AI platform for optimizing building energy consumption, capital planning and campus engagement; first deployed on Ohio State University's 485-building campus [C3.ai]",
+   "existence": "confirmed",
+   "value": "Target 25% improvement in energy efficiency over 10 years across 485 buildings",
+   "tier": "",
+   "url": "https://c3.ai/news/c3-ai-and-engie-launch-ai-powered-energy-management-solution",
+   "raw_sector": "",
+   "date": "2019",
+   "fresh": "stale"
+  },
+  {
+   "company": "Engie",
+   "use": "Common Data Hub enterprise data lake running ML models for automated energy-production prediction and wind-farm output optimization across 1,000+ global projects [AWS (Amazon SageMaker, S3, Redshift, Glue)]",
+   "existence": "confirmed",
+   "value": "200 TB of data across 1,000+ projects",
+   "tier": "",
+   "url": "https://aws.amazon.com/solutions/case-studies/engie-aws-analytics-case-study/",
+   "raw_sector": "",
+   "date": "2023",
+   "fresh": "stale"
+  },
+  {
+   "company": "Engie",
+   "use": "AI-based wind-energy forecasting solution to predict the price and quantity of wind power to be sold on power markets, using ML algorithms on a scalable data system [Google Cloud]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://reglobal.org/engie-google-cloud-to-set-up-ai-solution-for-wind-energy/",
+   "raw_sector": "",
+   "date": "2022",
+   "fresh": "stale"
+  },
+  {
+   "company": "Engie",
+   "use": "Agentforce autonomous customer service agent in the ENGIE mobile app, answering billing, clean energy, smart meter and EV-charging questions and streamlining onboarding via in-app contract activation [Salesforce (Agentforce)]",
+   "existence": "confirmed",
+   "value": "83% of customers assisted through self-service; ~71% of cases resolved autonomously",
+   "tier": "",
+   "url": "https://techwize.com/blog/salesforce-agentforce-contact-center-guide",
+   "raw_sector": "",
+   "date": "2025",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Engie",
+   "use": "EVA (ENGIE Virtual Assistant), a generative-AI conversational assistant on engie.com that answers questions on the group's strategy, activities and energy-transition commitments and offers page translation/summarization [none disclosed (generative AI)]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.engie.com/en/eva-engie-virtual-assistant/",
+   "raw_sector": "",
+   "date": "2024",
+   "fresh": "aging"
+  },
+  {
+   "company": "Engie",
+   "use": "ENGIE Energy Access used Atlas AI's Aperture demand-intelligence platform (geospatial + predictive ML) to target optimal off-grid solar expansion markets in Kenya/Africa [Google Cloud (BigQuery, Earth Engine) / Atlas AI]",
+   "existence": "confirmed",
+   "value": "48% increase in monthly sales in a pilot region",
+   "tier": "",
+   "url": "https://cloud.google.com/customers/engie",
+   "raw_sector": "",
+   "date": "2023",
+   "fresh": "stale"
   }
  ]
 }

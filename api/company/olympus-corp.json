@@ -3,47 +3,66 @@
  "name": "Olympus Corp.",
  "cc": "JP",
  "vertical": "Industrial / Machinery",
- "deployments": 1,
- "confirmed": 1,
- "with_value_number": 0,
- "proof_rate": 0.0,
+ "deployments": 11,
+ "confirmed": 10,
+ "with_value_number": 1,
+ "proof_rate": 0.091,
  "mktcap": 12200000000.0,
  "revenue": 6733333333.0,
  "employees": 28138.0,
  "silent": false,
- "per_bn_revenue": 0.15,
- "per_10k_emp": 0.36,
+ "per_bn_revenue": 1.63,
+ "per_10k_emp": 3.91,
  "benchmarks": {
   "global_vertical": {
-   "deployments": 0,
-   "confirmed": 14,
-   "proof_rate": 0,
-   "n": 175
+   "deployments": 82,
+   "confirmed": 92,
+   "proof_rate": 46,
+   "n": 176
   },
   "country_vertical": {
-   "deployments": 0,
-   "confirmed": 4,
-   "proof_rate": 0,
+   "deployments": 77,
+   "confirmed": 88,
+   "proof_rate": 31,
    "n": 27
   }
  },
- "first_seen": 2025,
+ "first_seen": 2020,
  "by_year": [
   {
-   "year": 2025,
+   "year": 2020,
+   "n": 2
+  },
+  {
+   "year": 2021,
    "n": 1
+  },
+  {
+   "year": 2022,
+   "n": 1
+  },
+  {
+   "year": 2024,
+   "n": 2
+  },
+  {
+   "year": 2025,
+   "n": 5
   }
  ],
  "undated_pct": 0,
  "momentum": "early_mover,rising",
- "maturity": "L3",
+ "maturity": "L4",
  "maturity_evidence": [
+  "multi_horizontal",
   "named_product:EndoBRAIN",
+  "value_number",
+  "multi_year",
   "tier_p"
  ],
- "prospect_score": 54,
+ "prospect_score": 96,
  "stack": [],
- "vendor_named": false,
+ "vendor_named": true,
  "deployments_detail": [
   {
    "company": "Olympus Corp.",
@@ -55,6 +74,116 @@
    "raw_sector": "Precision Instruments",
    "date": "2025",
    "fresh": "fresh"
+  },
+  {
+   "company": "Olympus Corp.",
+   "use": "ENDO-AID CADe: real-time AI computer-aided detection application running on the ENDO-AID platform (OIP-1) with the EVIS X1 endoscopy system, using a neural-network algorithm to flag suspected colorectal polyps/lesions during colonoscopy and increase adenoma detection rate. [Olympus (in-house)]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.olympus-global.com/news/2020/nr01857.html",
+   "raw_sector": "",
+   "date": "2020-10-09",
+   "fresh": "stale"
+  },
+  {
+   "company": "Olympus Corp.",
+   "use": "CADDIE (OLYSENSE platform): cloud-based AI device for colonoscopy that detects and characterizes colorectal polyps; FDA 510(k) cleared (July 2024) for detection in the US and CE-marked in Europe, commercially launched in US and Europe. [Olympus / Odin Vision (cloud-AI)]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.olympus-global.com/news/2025/nr02907.html",
+   "raw_sector": "",
+   "date": "2025-09-30",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Olympus Corp.",
+   "use": "CADU (OLYSENSE platform): cloud-based AI application that analyzes dysplasia in Barrett's Esophagus patients during upper-GI endoscopy; CE-marked and launched in Europe. [Olympus / Odin Vision (cloud-AI)]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.olympus-global.com/news/2024/nr02759.html",
+   "raw_sector": "",
+   "date": "2024-10-15",
+   "fresh": "aging"
+  },
+  {
+   "company": "Olympus Corp.",
+   "use": "SMARTIBD (OLYSENSE platform): cloud-based AI application that analyzes ulcerative colitis severity using the MAYO endoscopic scoring system; CE-marked and launched in Europe as part of the OLYSENSE CAD/AI intelligent endoscopy ecosystem. [Olympus / Odin Vision (cloud-AI)]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.olympus-europa.com/medical/en/Products-and-Solutions/Products/Product/OLYSENSE.html",
+   "raw_sector": "",
+   "date": "2025-09-30",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Olympus Corp.",
+   "use": "Acquisition of Odin Vision, a London/UCL cloud-AI endoscopy company, to build Olympus' cloud-AI endoscopy capability and Digital Excellence Centers; Odin's CADDIE/CADU/SMARTIBD apps became the core of Olympus' intelligent endoscopy ecosystem. [Odin Vision (acquired by Olympus)]",
+   "existence": "confirmed",
+   "value": "up to GBP 66M / ~USD 80M acquisition value",
+   "tier": "",
+   "url": "https://medical.olympusamerica.com/articles/olympus-acquire-pioneering-cloud-ai-endoscopy-startup-odin-vision-signifying-strategic-next",
+   "raw_sector": "",
+   "date": "2022-12-20",
+   "fresh": "stale"
+  },
+  {
+   "company": "Olympus Corp.",
+   "use": "AI-powered surgical planning / clinical decision tool via strategic partnership with Ziosoft (Ziosoft Revoras platform): translates CT/MRI images into dynamic real-time 3D models using AI for pre-operative planning in thoracic, liver, and urologic surgery. [Ziosoft (Revoras platform)]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.prnewswire.com/news-releases/olympus-announces-launch-of-ai-powered-surgical-planning-tool-through-strategic-partnership-with-ziosoft-302400208.html",
+   "raw_sector": "",
+   "date": "2025-03-12",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Olympus Corp.",
+   "use": "cellSens imaging software TruAI deep-learning technology for life-science microscopy: trained neural networks perform label-free nucleus detection and improved segmentation/analysis on low signal-to-noise microscopy images. [Olympus (in-house TruAI)]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.olympus-global.com/news/2020/nr01614.html",
+   "raw_sector": "",
+   "date": "2020-04-06",
+   "fresh": "stale"
+  },
+  {
+   "company": "Olympus Corp.",
+   "use": "OLYMPUS Stream industrial microscope image-analysis software (v2.5) TruAI deep-learning module: lets users train neural networks to automatically segment and classify features for industrial material inspection, metallography, semiconductor QC and mineralogy. [Olympus / Evident (in-house TruAI)]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.olympus-global.com/news/2021/nr02185.html",
+   "raw_sector": "",
+   "date": "2021-07-27",
+   "fresh": "stale"
+  },
+  {
+   "company": "Olympus Corp.",
+   "use": "Partnership with DIGESTAID to co-develop and deploy AI-powered Software-as-a-Medical-Device (SaMD) solutions for the hepato-pancreato-biliary (HPB) field, extending the OLYSENSE intelligent endoscopy ecosystem. [DIGESTAID]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.linkedin.com/posts/olympus-corp_olysense-activity-7379797124307341312-T-rp",
+   "raw_sector": "",
+   "date": "2025-10-01",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Olympus Corp.",
+   "use": "AI research & development infrastructure: Olympus runs its AI/ML image-data development environment on Everpure AIRI with Red Hat OpenShift containers and Pure Storage FlashBlade, enabling faster provisioning and go-to-market for new AI endoscopy solutions. [Everpure (AIRI), Red Hat OpenShift, Pure Storage FlashBlade]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.purestorage.com/content/dam/pdf/en/case-studies/cs-olympus.pdf",
+   "raw_sector": "",
+   "date": "2024-01-01",
+   "fresh": "aging"
   }
  ]
 }

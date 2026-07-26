@@ -3,48 +3,73 @@
  "name": "Unilever",
  "cc": "UK",
  "vertical": "Retail & E-commerce",
- "deployments": 1,
- "confirmed": 1,
- "with_value_number": 0,
- "proof_rate": 0.0,
+ "deployments": 13,
+ "confirmed": 12,
+ "with_value_number": 7,
+ "proof_rate": 0.538,
  "mktcap": 126161800000.0,
  "revenue": 55956200000.0,
  "employees": 93733.0,
  "silent": false,
- "per_bn_revenue": 0.02,
- "per_10k_emp": 0.11,
+ "per_bn_revenue": 0.23,
+ "per_10k_emp": 1.39,
  "benchmarks": {
   "global_vertical": {
-   "deployments": 0,
-   "confirmed": 24,
-   "proof_rate": 0,
-   "n": 295
+   "deployments": 89,
+   "confirmed": 91,
+   "proof_rate": 86,
+   "n": 301
   },
   "country_vertical": {
-   "deployments": 0,
-   "confirmed": 15,
-   "proof_rate": 0,
+   "deployments": 85,
+   "confirmed": 85,
+   "proof_rate": 77,
    "n": 14
   }
  },
- "first_seen": 2026,
+ "first_seen": 2019,
  "by_year": [
   {
-   "year": 2026,
+   "year": 2019,
+   "n": 2
+  },
+  {
+   "year": 2023,
    "n": 1
+  },
+  {
+   "year": 2024,
+   "n": 2
+  },
+  {
+   "year": 2025,
+   "n": 4
+  },
+  {
+   "year": 2026,
+   "n": 2
   }
  ],
- "undated_pct": 0,
- "momentum": "late_entrant,rising",
- "maturity": "L3",
+ "undated_pct": 15,
+ "momentum": "early_mover,rising",
+ "maturity": "L4",
  "maturity_evidence": [
-  "named_product:AI-first enterprise"
+  "multi_horizontal",
+  "named_product:AI-first enterprise",
+  "value_number",
+  "multi_year"
  ],
- "prospect_score": 54,
+ "prospect_score": 78,
  "stack": [
+  "Capgemini",
+  "Databricks",
+  "Google",
+  "Google Cloud",
+  "Microsoft",
+  "Microsoft Azure",
   "NVIDIA"
  ],
- "vendor_named": false,
+ "vendor_named": true,
  "deployments_detail": [
   {
    "company": "Unilever",
@@ -59,6 +84,83 @@
   },
   {
    "company": "Unilever",
+   "use": "R&D materials discovery: Azure Quantum Elements plus HPC and Copilot run thousands of computational simulations and screen tens of thousands of molecules for hair-care products (Dove, TRESemmé) and sustainability research. [Microsoft Azure Quantum Elements, Azure HPC, Copilot in Azure]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.microsoft.com/en/customers/story/1805371430718336282-unilever-azure-consumer-goods-en-united-kingdom",
+   "raw_sector": "",
+   "date": "2024-08-23",
+   "fresh": "aging"
+  },
+  {
+   "company": "Unilever",
+   "use": "Ice cream supply chain: AI analyzes weather data to adjust demand forecasts, plus AI-enabled freezer cabinets that capture shelf imagery for real-time inventory/availability insights. [none]",
+   "existence": "confirmed",
+   "value": "100,000 of ~3M freezers AI-enabled; 10% forecast accuracy improvement (Sweden); freezer-driven sales up 8% Turkey, 12% US, 30% Denmark; 10% raw-material savings",
+   "tier": "",
+   "url": "https://blog.foodshippers.org/how-unilever-is-leveraging-ai-to-transform-its-ice-creams-supply-chain?hs_amp=true",
+   "raw_sector": "",
+   "date": "2025-01-22",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Unilever",
+   "use": "Five-year Google Cloud partnership: migrating data estate to Google Cloud and deploying Vertex AI plus Gemini for agentic commerce, marketing intelligence, and multi-agent procurement solutions. [Google Cloud (Vertex AI, Gemini)]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.prnewswire.com/news-releases/unilever-and-google-cloud-partner-to-pioneer-next-generation-of-consumer-goods-technologies-302688857.html",
+   "raw_sector": "",
+   "date": "2026-02-17",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Unilever",
+   "use": "Metadata framework and ML forecasting on Unity Catalog, serving 3,000+ users [Databricks] [Databricks]",
+   "existence": "confirmed",
+   "value": "10x development speed increase; 3,000+ users",
+   "tier": "",
+   "url": "https://www.databricks.com/customers/unilever",
+   "raw_sector": "",
+   "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "Unilever",
+   "use": "Named as a Databricks customer/case study [Databricks] [Databricks]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://newsroom.accenture.com/news/2026/accenture-and-databricks-accelerate-enterprise-adoption-of-ai-applications-and-agents-at-scale",
+   "raw_sector": "",
+   "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "Unilever",
+   "use": "AI-powered recruitment: HireVue video-interview analysis and gamified assessments screen ~1.8 million annual job applicants using NLP and machine learning to rank candidates before human interview. [HireVue (+ Pymetrics games)]",
+   "existence": "confirmed",
+   "value": "Recruitment time reduced ~75%; hundreds of thousands of hours of candidate time saved",
+   "tier": "",
+   "url": "https://www.pumpedu.cz/en/news/the-practical-application-of-ai-unilever-reduced-recruitment-time-by-75-112n",
+   "raw_sector": "",
+   "date": "2019-10-25",
+   "fresh": "stale"
+  },
+  {
+   "company": "Unilever",
+   "use": "AI-driven internal talent marketplace matching employees to projects, gigs and roles to boost internal mobility and reskilling. [Gloat]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://resources.gloat.com/unilever-gloat-case-study-download/",
+   "raw_sector": "",
+   "date": "2023-01-01",
+   "fresh": "stale"
+  },
+  {
+   "company": "Unilever",
    "use": "Digital twin of global supply chain using satellite imagery and AI to simulate disruptions, assess risk and inform logistics decisions",
    "existence": "claimed",
    "value": "none",
@@ -70,6 +172,72 @@
   },
   {
    "company": "Unilever",
+   "use": "AI-driven demand forecasting for the ice cream supply chain: analysing weather data, historical sales and logistics to adjust sales forecasts, cut waste and optimise inventory; fed by data from 100,000 AI-enabled connected freezers across 60 countries. [Unilever (internal AI/digital tools)]",
+   "existence": "confirmed",
+   "value": "~10% increase in forecast accuracy; data from 100,000 AI-enabled freezers",
+   "tier": "",
+   "url": "https://www.unilever.com/news/news-search/2025/how-ai-is-transforming-unilever-ice-creams-end-to-end-supply-chain/",
+   "raw_sector": "",
+   "date": "2025-01-22",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Unilever",
+   "use": "AI-augmented R&D / scientific discovery in the 'DataLab': scientists use Copilot to query scientific data in natural language and run thousands of computational simulations to screen materials and explore novel molecules (e.g. for hair care and sustainability). [Microsoft (Azure Quantum Elements, Copilot in Azure, Azure HPC)]",
+   "existence": "confirmed",
+   "value": "thousands of simulations in the time of tens of lab experiments",
+   "tier": "",
+   "url": "https://www.microsoft.com/en/customers/story/1805371430718336282-unilever-azure-consumer-goods-en-united-kingdom",
+   "raw_sector": "",
+   "date": "2024-06-18",
+   "fresh": "aging"
+  },
+  {
+   "company": "Unilever",
+   "use": "AI in Foods R&D: modelling and testing thousands of recipes/formulations to assess shelf life, texture, taste and factory-line performance, accelerating product and pack innovation (e.g. Knorr pastes). [Unilever (internal AI models)]",
+   "existence": "confirmed",
+   "value": "~50% reduction in R&D time for new Knorr pastes",
+   "tier": "",
+   "url": "https://www.fooddive.com/news/artificial-intelligence-AI-unilever-innovation-hellmanns/713122/",
+   "raw_sector": "",
+   "date": "2024-05-28",
+   "fresh": "aging"
+  },
+  {
+   "company": "Unilever",
+   "use": "Enterprise 'AI-first' transformation: five-year partnership migrating Unilever's data and cloud platforms to Google Cloud and deploying Gemini and Vertex AI for agentic commerce, brand discovery, measurement and marketing across the CPG value chain. [Google Cloud (Gemini, Vertex AI)]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.prnewswire.com/news-releases/unilever-and-google-cloud-partner-to-pioneer-next-generation-of-consumer-goods-technologies-302688857.html",
+   "raw_sector": "",
+   "date": "2026-02-17",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Unilever",
+   "use": "AI-powered recruitment for entry-level/graduate hiring: gamified cognitive assessments plus AI-analysed recorded video interviews to screen and select candidates at scale. [Pymetrics and HireVue (also Amberjack)]",
+   "existence": "confirmed",
+   "value": "claimed savings of hundreds of thousands of pounds per year; time-to-hire cut from ~4 months to ~4 weeks",
+   "tier": "",
+   "url": "https://www.businessinsider.com/unilever-artificial-intelligence-hiring-process-2017-6",
+   "raw_sector": "",
+   "date": "2019-10-25",
+   "fresh": "stale"
+  },
+  {
+   "company": "Unilever",
+   "use": "FLEX Experiences: AI-powered internal talent marketplace matching employees to projects and gigs based on skills, to develop/retain talent and unlock internal mobility. [Gloat]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://gloat.com/blog/unilever-ai-retain-develop-engage-talent-innermobility-gloat/",
+   "raw_sector": "",
+   "date": "2019-06-28",
+   "fresh": "stale"
+  },
+  {
+   "company": "Unilever",
    "use": "AI-powered 3D digital twins of products (NVIDIA Omniverse) for marketing content, replacing physical product shoots",
    "existence": "confirmed",
    "value": "halves production costs, doubles content-creation speed",
@@ -78,6 +246,127 @@
    "raw_sector": "Consumer Goods",
    "date": "2025",
    "fresh": "fresh"
+  },
+  {
+   "company": "Unilever",
+   "use": "Digital-twin product imagery generation: photorealistic product 'digital twins' rendered in real time to create marketing/product imagery for brands like Dove, Knorr, Vaseline, Nexxus and TRESemme, replacing physical product photoshoots. [NVIDIA (Omniverse, OpenUSD) with Collective World]",
+   "existence": "confirmed",
+   "value": "2x faster imagery creation, 50% cheaper, 100% brand consistency, 5:1 reduction in content duplication",
+   "tier": "",
+   "url": "https://www.nvidia.com/en-us/case-studies/unilever/",
+   "raw_sector": "",
+   "date": "2025-03-18",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Unilever",
+   "use": "Beauty AI Studio: enterprise generative-AI content assembly line producing paid-social, programmatic display and e-commerce creative for Beauty & Wellbeing brands (Dove, TRESemme, Vaseline), using per-brand 'BrandDNAi' RAG tooling and digital-twin product renders; ~25,000 staff given AI-fluency training. [The Brandtech Group (Pencil Pro)]",
+   "existence": "confirmed",
+   "value": "~400 creative assets per product vs 20 previously; 30% faster production; video completion and click-through rates doubled; deployed in 18 markets",
+   "tier": "",
+   "url": "https://digiday.com/marketing/inside-unilevers-ai-beauty-marketing-assembly-line-and-its-implications-for-agencies/",
+   "raw_sector": "",
+   "date": "2025-07-30",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Unilever",
+   "use": "Sketch Pro: in-house AI-powered graphic design studios turning concepts into consumer-testable social-first content, for Home Care brands (Persil/Omo, Comfort, Cif, Domestos, Rinso, Sunlight); operational in London, Sao Paulo, Mumbai and Jakarta. [IPG Studios; AI tools incl. Google Veo 3 and Adobe Firefly]",
+   "existence": "confirmed",
+   "value": "content ~3x faster (concept to test in 2 hours); 22.5% TikTok visibility uplift for Rinso/Sunlight in Jakarta",
+   "tier": "",
+   "url": "https://www.marketingdive.com/news/unilever-debuts-ai-design-unit-wean-brands-off-tv-first-model/752298/",
+   "raw_sector": "",
+   "date": "2025-07-07",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Unilever",
+   "use": "Hellmann's 'Meal Reveal': consumer-facing generative-AI experience where shoppers photograph/video their fridge; AI identifies ingredients and recommends recipes to reduce food waste ('fridge blindness'). [Google Cloud]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://consumergoods.com/unilevers-brand-hellmanns-cuts-waste-and-personalizes-meal-time-ai-tool",
+   "raw_sector": "",
+   "date": "2024-04-01",
+   "fresh": "aging"
+  },
+  {
+   "company": "Unilever",
+   "use": "Microsoft 365 Copilot rolled out to marketing teams to automate tasks, enhance content creation and improve analytics within marketing processes. [Microsoft (Microsoft 365 Copilot)]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://blogs.microsoft.com/blog/2024/10/29/how-copilots-are-helping-customers-and-partners-drive-pragmatic-innovation-to-achieve-business-results-that-matter/",
+   "raw_sector": "",
+   "date": "2024-10-29",
+   "fresh": "aging"
+  },
+  {
+   "company": "Unilever",
+   "use": "People Data Centre (PDC): AI-powered social-listening and consumer-insight hubs that analyse social, search and retailer data (up to ~1,000 sources per month for Beauty & Wellbeing) to drive real-time, social-first marketing and product decisions. [Unilever CMI (built with Capgemini)]",
+   "existence": "confirmed",
+   "value": "up to 1,000 data sources analysed per month",
+   "tier": "",
+   "url": "https://www.unilever.com/news/news-search/2025/leveraging-social-insights-and-technology-to-meet-changing-consumer-behaviours/",
+   "raw_sector": "",
+   "date": "2025-07-02",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Unilever",
+   "use": "Digital twins for product imagery: photorealistic 3D product models built on NVIDIA Omniverse generate marketing/e-commerce imagery, replacing physical product photoshoots. [NVIDIA Omniverse (OpenUSD)]",
+   "existence": "confirmed",
+   "value": "Content 2x faster, 50% lower production cost, 100% brand consistency, 5:1 reduction in content duplication",
+   "tier": "",
+   "url": "https://www.nvidia.com/en-au/customer-stories/unilever/",
+   "raw_sector": "",
+   "date": "2025-03-18",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Unilever",
+   "use": "Beauty AI Studio: in-house generative-AI content assembly line producing paid social, programmatic display and e-commerce assets for Dove, Vaseline and other beauty brands, deployed across 18 markets. [Pencil Pro (The Brandtech Group); multiple LLMs]",
+   "existence": "confirmed",
+   "value": "~400 assets per product vs 20 before; 30% faster; video completion and click-through rates doubled; 25,000 staff trained",
+   "tier": "",
+   "url": "https://digiday.com/marketing/inside-unilevers-ai-beauty-marketing-assembly-line-and-its-implications-for-agencies/",
+   "raw_sector": "",
+   "date": "2025-07-30",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Unilever",
+   "use": "BeautyHub PRO: consumer-facing AI selfie/skin-and-hair diagnostic tool providing personalized product recommendations across Dove, Vaseline, Sunsilk and TRESemmé (launched Philippines, Thailand, and beyond). [none]",
+   "existence": "confirmed",
+   "value": "3M+ users; recommendation recipients 43% more likely to purchase; 39% higher basket value",
+   "tier": "",
+   "url": "https://www.glossy.co/beauty/unilevers-investments-in-consumer-facing-ai-tools-are-paying-off/",
+   "raw_sector": "",
+   "date": "2024-08-07",
+   "fresh": "aging"
+  },
+  {
+   "company": "Unilever",
+   "use": "AI social listening: analyzing social signals and conversations at scale in multiple languages to forecast trends and inform brand/marketing decisions (e.g. #VaselineHacks). [none]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://consumergoods.com/unilever-bolsters-social-listening-strategy-ai",
+   "raw_sector": "",
+   "date": "2025-07-03",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Unilever",
+   "use": "Conversational WhatsApp AI chatbot 'MadameBot' for the Comfort fabric-softener brand in Brazil, giving clothing-care advice and promoting products/discounts. [Infobip (Answers platform)]",
+   "existence": "confirmed",
+   "value": "6,335 unique users in first 12 hours; 290,000 messages in 7 days from 12,000 customers; 14x higher sales during campaign",
+   "tier": "",
+   "url": "https://www.infobip.com/customer/unilever",
+   "raw_sector": "",
+   "date": "2019-08-01",
+   "fresh": "stale"
   }
  ]
 }

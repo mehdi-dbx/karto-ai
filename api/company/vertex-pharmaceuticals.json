@@ -3,43 +3,116 @@
  "name": "Vertex Pharmaceuticals",
  "cc": "US",
  "vertical": "Healthcare & Life Sciences",
- "deployments": 1,
- "confirmed": 1,
- "with_value_number": 0,
- "proof_rate": 0.0,
+ "deployments": 8,
+ "confirmed": 5,
+ "with_value_number": 3,
+ "proof_rate": 0.375,
  "mktcap": 120690000000.0,
  "revenue": 12220000000.0,
  "employees": 6400.0,
  "silent": false,
- "per_bn_revenue": 0.08,
- "per_10k_emp": 1.56,
+ "per_bn_revenue": 0.65,
+ "per_10k_emp": 12.5,
  "benchmarks": {
   "global_vertical": {
-   "deployments": 0,
-   "confirmed": 13,
-   "proof_rate": 0,
-   "n": 165
+   "deployments": 60,
+   "confirmed": 57,
+   "proof_rate": 74,
+   "n": 168
   },
   "country_vertical": {
-   "deployments": 0,
-   "confirmed": 7,
-   "proof_rate": 0,
+   "deployments": 50,
+   "confirmed": 43,
+   "proof_rate": 74,
    "n": 59
   }
  },
- "first_seen": null,
- "by_year": [],
- "undated_pct": 100,
- "momentum": "none",
- "maturity": "L3",
+ "first_seen": 2021,
+ "by_year": [
+  {
+   "year": 2021,
+   "n": 1
+  },
+  {
+   "year": 2024,
+   "n": 4
+  },
+  {
+   "year": 2025,
+   "n": 2
+  }
+ ],
+ "undated_pct": 12,
+ "momentum": "early_mover,cooling",
+ "maturity": "L4",
  "maturity_evidence": [
+  "multi_horizontal",
   "named_product:CEO",
+  "value_number",
+  "multi_year",
   "tier_p"
  ],
- "prospect_score": 54,
- "stack": [],
- "vendor_named": false,
+ "prospect_score": 55,
+ "stack": [
+  "Amazon AWS"
+ ],
+ "vendor_named": true,
  "deployments_detail": [
+  {
+   "company": "Vertex Pharmaceuticals",
+   "use": "Serverless image segmentation ML pipeline that analyzes high-content microscope imagery from biological experiments in drug discovery; uses custom (fine-tuned pre-trained) ML segmentation models orchestrated via AWS Step Functions Distributed Map, Lambda and S3, running up to 10,000 concurrent workflows. In production since April 2023. [AWS (Step Functions, Lambda, S3, Fargate); custom Vertex ML models]",
+   "existence": "confirmed",
+   "value": "11x faster processing; 90% cost reduction",
+   "tier": "",
+   "url": "https://aws.amazon.com/solutions/case-studies/vertex-pharmaceuticals-distributed-map/",
+   "raw_sector": "",
+   "date": "2024-01-18",
+   "fresh": "aging"
+  },
+  {
+   "company": "Vertex Pharmaceuticals",
+   "use": "Small-molecule virtual screening system using Thompson Sampling (a machine-learning bandit heuristic) to prioritize chemical compounds from large virtual libraries for experimental testing, built on AWS Fargate Spot, Lambda, and API Gateway. Used on active scientific projects. [AWS (Fargate, Lambda, API Gateway, Amazon MQ); Thompson Sampling ML]",
+   "existence": "confirmed",
+   "value": "18-20x speedup vs serial approach; examined only 0.07% of library; a few hundred dollars per search",
+   "tier": "",
+   "url": "https://aws.amazon.com/blogs/industries/how-vertex-pharmaceuticals-reduced-time-and-cost-of-small-molecule-drug-discovery-using-thompson-sampling-on-aws/",
+   "raw_sector": "",
+   "date": "2021-11-10",
+   "fresh": "stale"
+  },
+  {
+   "company": "Vertex Pharmaceuticals",
+   "use": "ICF Autodrafter: a custom, fine-tuned LLM application that ingests clinical trial protocols and automatically drafts Informed Consent Forms, with human-in-the-loop review. Built by Vertex Global Clinical Trial Operations and internal AI teams; used across 10+ trials. Won 2025 DataIQ Award for Best Use of Data and AI for Healthcare. [Vertex internal AI team (custom fine-tuned LLM; provider not disclosed)]",
+   "existence": "confirmed",
+   "value": "90% reduction in document preparation time; 97% consistency with human-generated content; used on 10+ trials",
+   "tier": "",
+   "url": "https://www.dataiq.global/award-winner/best-use-of-data-and-ai-for-healthcare-award-vertex-pharmaceuticals/",
+   "raw_sector": "",
+   "date": "2025-05-01",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Vertex Pharmaceuticals",
+   "use": "Multi-year drug-discovery collaboration using human genetics and machine learning to identify and validate novel therapeutic targets, and to select biomarkers / identify patient populations. Began 2018, extended 2021, and expanded again through 2026. [Genomics plc (proprietary ML algorithms and genomic databases)]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.prnewswire.com/news-releases/genomics-plc-announces-new-extension-and-expansion-of-drug-discovery-collaboration-with-vertex-302195072.html",
+   "raw_sector": "",
+   "date": "2024-07-16",
+   "fresh": "aging"
+  },
+  {
+   "company": "Vertex Pharmaceuticals",
+   "use": "Structure-based drug design using computational modeling and AI — a foundational discovery approach Vertex says it has used since its founding, applied to designing small-molecule therapeutics. [not disclosed]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.forbes.com/sites/chasefeiger/2024/05/14/vertex-is-writing-a-new-playbook-for-pharma-rd-and-its-working/",
+   "raw_sector": "",
+   "date": "2024-05-14",
+   "fresh": "aging"
+  },
   {
    "company": "Vertex Pharmaceuticals",
    "use": "AI embedded as infrastructure in drug discovery process (own stories + CEO); no single named public system",
@@ -50,6 +123,28 @@
    "raw_sector": "Health Care",
    "date": "missing",
    "fresh": "undated"
+  },
+  {
+   "company": "Vertex Pharmaceuticals",
+   "use": "Specialty Pharmacy analytics using AI to monitor shipments of cystic fibrosis medications and proactively identify issues that could cause shipping/delivery delays. [not disclosed]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.forbes.com/sites/chasefeiger/2024/05/14/vertex-is-writing-a-new-playbook-for-pharma-rd-and-its-working/",
+   "raw_sector": "",
+   "date": "2024-05-14",
+   "fresh": "aging"
+  },
+  {
+   "company": "Vertex Pharmaceuticals",
+   "use": "Use of AI to accelerate preparation of regulatory filings/submissions, reducing administrative effort so scientists can focus on discovery (CEO Reshma Kewalramani described AI compressing typical 6-9 month filing-prep timelines). [not disclosed]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.newenglandcouncil.com/news-article/vertex-pharmaceuticals-ceo-talks-ai/",
+   "raw_sector": "",
+   "date": "2025-11-18",
+   "fresh": "fresh"
   }
  ]
 }

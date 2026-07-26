@@ -3,48 +3,121 @@
  "name": "Gilead Sciences",
  "cc": "US",
  "vertical": "Healthcare & Life Sciences",
- "deployments": 1,
- "confirmed": 1,
- "with_value_number": 0,
- "proof_rate": 0.0,
+ "deployments": 9,
+ "confirmed": 6,
+ "with_value_number": 6,
+ "proof_rate": 0.667,
  "mktcap": 161090000000.0,
  "revenue": 29740000000.0,
  "employees": 17000.0,
  "silent": false,
- "per_bn_revenue": 0.03,
- "per_10k_emp": 0.59,
+ "per_bn_revenue": 0.3,
+ "per_10k_emp": 5.29,
  "benchmarks": {
   "global_vertical": {
-   "deployments": 0,
-   "confirmed": 13,
-   "proof_rate": 0,
-   "n": 165
+   "deployments": 62,
+   "confirmed": 62,
+   "proof_rate": 95,
+   "n": 168
   },
   "country_vertical": {
-   "deployments": 0,
-   "confirmed": 7,
-   "proof_rate": 0,
+   "deployments": 52,
+   "confirmed": 52,
+   "proof_rate": 98,
    "n": 59
   }
  },
- "first_seen": 2024,
+ "first_seen": 2019,
  "by_year": [
   {
+   "year": 2019,
+   "n": 1
+  },
+  {
    "year": 2024,
+   "n": 5
+  },
+  {
+   "year": 2025,
+   "n": 2
+  },
+  {
+   "year": 2026,
    "n": 1
   }
  ],
  "undated_pct": 0,
- "momentum": "early_mover,gone_quiet",
- "maturity": "L3",
+ "momentum": "early_mover,cooling",
+ "maturity": "L4",
  "maturity_evidence": [
+  "multi_horizontal",
   "named_product:Strategic",
+  "value_number",
+  "multi_year",
   "tier_p"
  ],
- "prospect_score": 54,
- "stack": [],
- "vendor_named": false,
+ "prospect_score": 49,
+ "stack": [
+  "Amazon AWS",
+  "Cognizant"
+ ],
+ "vendor_named": true,
  "deployments_detail": [
+  {
+   "company": "Gilead Sciences",
+   "use": "Strategic collaboration deploying Genesis Therapeutics' generative AI platform GEMS (Genesis Exploration of Molecular Space) to generate and optimize small-molecule therapies against selected complex targets. [Genesis Therapeutics (GEMS platform)]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.gilead.com/news/news-details/2024/gilead-and-genesis-therapeutics-announce-strategic-collaboration-to-discover-and-develop-novel-therapies",
+   "raw_sector": "",
+   "date": "2024-10-28",
+   "fresh": "aging"
+  },
+  {
+   "company": "Gilead Sciences",
+   "use": "Strategic collaboration using insitro's machine-learning-driven platform (integrating in vitro cellular data with human clinical data) to discover and develop novel therapies, initially for nonalcoholic steatohepatitis (NASH). [insitro]",
+   "existence": "confirmed",
+   "value": "$15M upfront; deal worth up to $1.05B in milestones",
+   "tier": "",
+   "url": "https://www.gilead.com/news/news-details/2019/gilead-and-insitro-announce-strategic-collaboration-to-discover-and-develop-novel-therapies-for-nonalcoholic-steatohepatitis",
+   "raw_sector": "",
+   "date": "2019-04-16",
+   "fresh": "stale"
+  },
+  {
+   "company": "Gilead Sciences",
+   "use": "Multi-target research collaboration leveraging Terray Therapeutics' AI-driven Tnova platform (high-throughput chemical experimentation and generative AI) to discover and develop novel small-molecule therapies across multiple Gilead-selected targets. [Terray Therapeutics (Tnova platform)]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.gilead.com/news/news-details/2024/gilead-and-terray-therapeutics-announce-multi-target-research-collaboration-to-discover-and-develop-novel-small-molecule-therapies",
+   "raw_sector": "",
+   "date": "2024-12-17",
+   "fresh": "aging"
+  },
+  {
+   "company": "Gilead Sciences",
+   "use": "Expanded multi-year collaboration providing Gilead enterprise-wide access to Tempus' AI-driven Lens platform and multimodal real-world data (~3M genomic sequences, ~1.9B radiology images) to support oncology trial design, indication selection, biomarker strategy, and real-world evidence generation. [Tempus AI (Lens platform)]",
+   "existence": "confirmed",
+   "value": "financial terms undisclosed; ~3M genomic sequences and ~1.9B radiology images available",
+   "tier": "",
+   "url": "https://www.tempus.com/news/pr/tempus-announces-strategic-collaboration-with-gilead-to-advance-oncology-rd-through-rwe/",
+   "raw_sector": "",
+   "date": "2026-04-09",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Gilead Sciences",
+   "use": "Generative AI / specialized LLMs on AWS to accelerate the target-assessment phase of drug discovery: querying scientific literature and databases via natural language, summarizing research, simulating molecular interactions, and generating synthesized reports with references; built on an AWS data-mesh platform (80% of compute/storage on AWS, 300+ data products). [AWS (generative AI / LLMs, data mesh)]",
+   "existence": "claimed",
+   "value": "expected to cut target-assessment timelines by several months; 80% of workloads on AWS, 300+ data products",
+   "tier": "",
+   "url": "https://aws.amazon.com/blogs/industries/key-takeaways-from-gileads-innovation-talk-at-reinvent-2023/",
+   "raw_sector": "",
+   "date": "2024-03-06",
+   "fresh": "aging"
+  },
   {
    "company": "Gilead Sciences",
    "use": "Strategic collaboration w/ Genesis Therapeutics (GEMS AI platform for small-molecule discovery, $35M+)",
@@ -55,6 +128,39 @@
    "raw_sector": "Health Care",
    "date": "2024",
    "fresh": "aging"
+  },
+  {
+   "company": "Gilead Sciences",
+   "use": "Expanded IT/business services partnership in which Cognizant applies its Neuro AI generative-AI platform (plus machine learning) to accelerate value creation and enhance Gilead's IT and business processes. [Cognizant (Neuro AI platform)]",
+   "existence": "claimed",
+   "value": "none (prior 2023 services agreement valued ~$800M over five years)",
+   "tier": "",
+   "url": "https://investors.cognizant.com/news-and-events/news/news-details/2025/Cognizant-and-Gilead-Expand-Partnership-to-Drive-Greater-Value-Through-Advanced-Technology-Applications/default.aspx",
+   "raw_sector": "",
+   "date": "2025-01-30",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Gilead Sciences",
+   "use": "AWS Amazon Kendra ML/NLP-powered enterprise search in the Pharmaceutical Development & Manufacturing (PDM) unit, indexing ~250,000 documents and ~1TB of unstructured data from nine enterprise systems via an S3 data lake; cut search times by roughly 50%. [AWS (Amazon Kendra, Amazon S3)]",
+   "existence": "confirmed",
+   "value": "~50% reduction in search time; ~250,000 documents and ~1TB indexed across 9 systems",
+   "tier": "",
+   "url": "https://emerj.com/artificial-intelligence-at-gilead-sciences-two-use-cases/",
+   "raw_sector": "",
+   "date": "2024-12-02",
+   "fresh": "aging"
+  },
+  {
+   "company": "Gilead Sciences",
+   "use": "New Foster City biologics development and manufacturing hub designed as one of biopharma's most AI-enabled centers, featuring digitally enabled systems, autonomous robotics, and real-time digital monitoring (part of a $32B US investment). [none named]",
+   "existence": "claimed",
+   "value": "$32B US investment; facility projected to generate >$43B in economic value",
+   "tier": "",
+   "url": "https://www.gilead.com/news/news-details/2025/gilead-sciences-breaks-ground-on-new-manufacturing-hub-a-cornerstone-of-its-u-s--growth-and-innovation-strategy",
+   "raw_sector": "",
+   "date": "2025-09-03",
+   "fresh": "fresh"
   }
  ]
 }

@@ -3,27 +3,27 @@
  "name": "Emera",
  "cc": "CA",
  "vertical": "Energy & Utilities",
- "deployments": 1,
- "confirmed": 0,
- "with_value_number": 0,
- "proof_rate": 0.0,
+ "deployments": 9,
+ "confirmed": 5,
+ "with_value_number": 2,
+ "proof_rate": 0.222,
  "mktcap": 17205882353.0,
  "revenue": 6551470588.0,
  "employees": 7812.0,
  "silent": false,
- "per_bn_revenue": 0.15,
- "per_10k_emp": 1.28,
+ "per_bn_revenue": 1.37,
+ "per_10k_emp": 11.52,
  "benchmarks": {
   "global_vertical": {
-   "deployments": 0,
-   "confirmed": 0,
-   "proof_rate": 0,
-   "n": 210
+   "deployments": 78,
+   "confirmed": 70,
+   "proof_rate": 57,
+   "n": 213
   },
   "country_vertical": {
-   "deployments": 0,
-   "confirmed": 0,
-   "proof_rate": 0,
+   "deployments": 100,
+   "confirmed": 100,
+   "proof_rate": 57,
    "n": 8
   }
  },
@@ -31,19 +31,83 @@
  "by_year": [
   {
    "year": 2024,
-   "n": 1
+   "n": 4
+  },
+  {
+   "year": 2025,
+   "n": 5
   }
  ],
  "undated_pct": 0,
- "momentum": "early_mover,gone_quiet",
- "maturity": "L1",
+ "momentum": "early_mover,rising",
+ "maturity": "L4",
  "maturity_evidence": [
-  "rows_no_confirmed"
+  "multi_horizontal",
+  "named_product:Nova",
+  "value_number",
+  "multi_year"
  ],
- "prospect_score": 40,
- "stack": [],
- "vendor_named": false,
+ "prospect_score": 61,
+ "stack": [
+  "Snowflake"
+ ],
+ "vendor_named": true,
  "deployments_detail": [
+  {
+   "company": "Emera",
+   "use": "Nova Scotia Power uses AiDASH Intelligent Vegetation Management System (IVMS), which applies AI to high-resolution satellite imagery to detect and prioritize tree/branch encroachment on power lines and predict where branches may fall during storms, across ~28,000 km of lines. Started as a pilot, now used operationally. [AiDASH]",
+   "existence": "confirmed",
+   "value": "80% of AiDASH assessments matched ground-truth evaluations; ~28,000 km of lines monitored; freed ~1 day/week per vegetation coordinator",
+   "tier": "",
+   "url": "https://www.aidash.com/resource/how-nova-scotia-power-assesses-more-lines-in-difficult-locations-with-satellites-and-ai/",
+   "raw_sector": "",
+   "date": "2024-04",
+   "fresh": "aging"
+  },
+  {
+   "company": "Emera",
+   "use": "Nova Scotia Power's data science team uses Bidgely UtilityAI / Analytics Workbench to apply machine learning to behind-the-meter AMI (smart meter) data, modeling load and comparing rate structures to design time-varying / time-of-use pricing. [Bidgely]",
+   "existence": "confirmed",
+   "value": "over 80% alignment when validating internal models against third-party benchmarks",
+   "tier": "",
+   "url": "https://www.bidgely.com/resource/nova-scotia-power-analytics/",
+   "raw_sector": "",
+   "date": "2024",
+   "fresh": "aging"
+  },
+  {
+   "company": "Emera",
+   "use": "Nova Scotia Power uses Bidgely AI-powered analytics on AMI data to detect EV and heat pump adoption behind the meter, giving visibility into EV charging patterns to prevent local grid overloads and inform electrification planning. [Bidgely]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.bidgely.com/resources/bidgely-nova-scotia-power-unlocking-grid-load-insights-asset",
+   "raw_sector": "",
+   "date": "2025-08",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Emera",
+   "use": "Nova Scotia Power (NSPI) is developing an AI/ML-based decision support tool for storm damage prediction, using Artificial Neural Networks, Random Forests, and Reinforcement Learning on weather and infrastructure data, in partnership with Dalhousie University via a Mitacs research award (replacing a legacy Excel-based tool). [Dalhousie University / Mitacs]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.mitacs.ca/our-projects/ai-based-decision-support-tool-for-storm-damage-prediction-in-nova-scotia/",
+   "raw_sector": "",
+   "date": "2024",
+   "fresh": "aging"
+  },
+  {
+   "company": "Emera",
+   "use": "Emera Inc. has an enterprise-level Digital Strategy with an explicit focus on artificial intelligence, investing in AI models and tools across the company as noted in its 2025 Annual Report and Management Information Circular (board-overseen strategic priority). [none]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://s205.q4cdn.com/781121964/files/doc_financials/2025/ar/Emera-2025-Annual-Report-English.pdf",
+   "raw_sector": "",
+   "date": "2025",
+   "fresh": "fresh"
+  },
   {
    "company": "Emera",
    "use": "Tampa Electric (TECO) used AI to monitor social media and speed customer responses during 2024 hurricane season",
@@ -54,6 +118,39 @@
    "raw_sector": "Utilities",
    "date": "2024",
    "fresh": "aging"
+  },
+  {
+   "company": "Emera",
+   "use": "Nova Scotia Power's MyEnergy Insights customer tool uses AI-based load disaggregation on smart meter data to estimate and break down household energy use by appliance, delivered to customers via the MyAccount portal. [Bidgely]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.nspower.ca/about-us/articles/details/articles/2025/03/11/saving-energy-and-money-with-myenergy-insights",
+   "raw_sector": "",
+   "date": "2025-03",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Emera",
+   "use": "Tampa Electric used AI to analyze social media sentiment in real time during the 2024 hurricane season to improve outage communications; the initiative won a Bronze Outage Communications Award from Chartwell. [none]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://chartwellinc.com/blog/enhancing-outage-communications-with-artificial-intelligence/",
+   "raw_sector": "",
+   "date": "2025-11",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Emera",
+   "use": "Tampa Electric (TECO) used Snowflake Cortex AI, including LLMs and chat, to orchestrate hurricane storm response, extracting text at scale from frontline reports and keeping leadership and operations aligned during restoration (presented at Snowflake Summit 2025 based on 2024 hurricane season). [Snowflake (Cortex AI)]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.linkedin.com/posts/doneyli_from-chaos-to-coordination-ai-that-works-activity-7330641661997314048-eHVb",
+   "raw_sector": "",
+   "date": "2025-06",
+   "fresh": "fresh"
   }
  ]
 }

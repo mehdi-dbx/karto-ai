@@ -3,27 +3,27 @@
  "name": "Jardine Matheson Holdings",
  "cc": "SG",
  "vertical": "Financial Services",
- "deployments": 1,
- "confirmed": 1,
- "with_value_number": 0,
- "proof_rate": 0.0,
+ "deployments": 9,
+ "confirmed": 5,
+ "with_value_number": 5,
+ "proof_rate": 0.556,
  "mktcap": 18500000000.0,
  "revenue": 44010000000.0,
  "employees": 443000.0,
  "silent": false,
- "per_bn_revenue": 0.02,
- "per_10k_emp": 0.02,
+ "per_bn_revenue": 0.2,
+ "per_10k_emp": 0.2,
  "benchmarks": {
   "global_vertical": {
-   "deployments": 0,
-   "confirmed": 17,
-   "proof_rate": 0,
-   "n": 377
+   "deployments": 58,
+   "confirmed": 46,
+   "proof_rate": 85,
+   "n": 388
   },
   "country_vertical": {
-   "deployments": 0,
-   "confirmed": 0,
-   "proof_rate": 0,
+   "deployments": 25,
+   "confirmed": 25,
+   "proof_rate": 75,
    "n": 5
   }
  },
@@ -31,19 +31,34 @@
  "by_year": [
   {
    "year": 2024,
-   "n": 1
+   "n": 4
+  },
+  {
+   "year": 2025,
+   "n": 3
+  },
+  {
+   "year": 2026,
+   "n": 2
   }
  ],
  "undated_pct": 0,
- "momentum": "early_mover,gone_quiet",
- "maturity": "L3",
+ "momentum": "early_mover,rising",
+ "maturity": "L4",
  "maturity_evidence": [
+  "multi_horizontal",
   "named_product:Generative",
+  "value_number",
+  "multi_year",
   "tier_p"
  ],
- "prospect_score": 54,
- "stack": [],
- "vendor_named": false,
+ "prospect_score": 48,
+ "stack": [
+  "Microsoft",
+  "Microsoft Azure",
+  "OpenAI"
+ ],
+ "vendor_named": true,
  "deployments_detail": [
   {
    "company": "Jardine Matheson Holdings",
@@ -54,6 +69,94 @@
    "url": "https://www.jardines.com/newsroom/latest-news/other-business-updates/2024/tau-intelligence-collaborates-jardine-matheson-and-intel-pioneer-resource-efficient",
    "raw_sector": "Conglomerate",
    "date": "2024-07",
+   "fresh": "aging"
+  },
+  {
+   "company": "Jardine Matheson Holdings",
+   "use": "AI legal contract review PoC: a moderately sized LLM fine-tuned on-premises to analyze and evaluate legal contract provisions, keeping data within Jardines' environment. Built with TAU Intelligence and tested on Intel Xeon processors. [TAU Intelligence, Intel (Xeon); on-premises fine-tuned LLM]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.ceoinsightsasia.com/news/tau-intelligence-teams-up-with-jardine-matheson-and-intel-on-ecofriendly-ai--nwid-12317.html",
+   "raw_sector": "",
+   "date": "2024-07-18",
+   "fresh": "aging"
+  },
+  {
+   "company": "Jardine Matheson Holdings",
+   "use": "Winnow AI-driven food waste technology deployed across Mandarin Oriental hotels: computer-vision system tracks kitchen waste and gives chefs data to cut waste and design zero-waste menus. Rollout to all 40 hotels worldwide by end of 2025 after a four-hotel pilot. [Winnow]",
+   "existence": "confirmed",
+   "value": "Pilot: 36% food waste reduction, $207,000 annualized net savings, 66 tonnes waste avoided",
+   "tier": "",
+   "url": "https://blog.winnowsolutions.com/mandarin-oriental-embraces-ai-for-food-waste-reduction",
+   "raw_sector": "",
+   "date": "2024-06-05",
+   "fresh": "aging"
+  },
+  {
+   "company": "Jardine Matheson Holdings",
+   "use": "AI-powered Dealer Management System to improve operational efficiency across Astra International's automotive dealership network, built on Azure OpenAI and Microsoft 365 Copilot. [Microsoft (Azure OpenAI, Microsoft 365 Copilot)]",
+   "existence": "confirmed",
+   "value": "Serving network of 300+ subsidiaries and 190,000+ employees",
+   "tier": "",
+   "url": "https://www.technologyrecord.com/article/microsoft-invests-billions-in-southeast-asias-ai-infrastructure-with-projects-in-malaysia-and-indonesia",
+   "raw_sector": "",
+   "date": "2025-05-28",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Jardine Matheson Holdings",
+   "use": "AI-powered skin and scalp assessment (scanners with UV-A imaging + sensors measuring 12 skin and 12 hair/scalp parameters in ~5 min) rolled out across Guardian and Mannings pharmacy stores, plus mobile-app lite versions. Partnership with Becon; PoC completed 2025, phased rollout from 2026. [Becon]",
+   "existence": "claimed",
+   "value": "400+ stores across HK, Indonesia, Macau, Malaysia, Singapore; PoC purchase conversion/basket/revisit scores >6.5/7",
+   "tier": "",
+   "url": "https://www.dfiretailgroup.com/en/newsroom/dfi-news/dfi-retail-group-and-becon-announce-strategic-partnership-to-launch-ai-skin-scalp-assessment-in-over-400-stores-across-asia/",
+   "raw_sector": "",
+   "date": "2026-01-30",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Jardine Matheson Holdings",
+   "use": "IFMCT (Integrated Facility Management Control Tower): AI-driven facility management platform unifying 20+ building systems with AI HVAC optimization, 4D digital twin, and predictive maintenance. Piloted at Alexandra House, scaled to Chater House and Exchange Square, full Central Portfolio rollout by 2026. [Hongkong Land proprietary (with Jardine Engineering / JEDI)]",
+   "existence": "confirmed",
+   "value": "66% of work orders automated; 16% AHU maintenance reduction; 80% faster asset-doc retrieval",
+   "tier": "",
+   "url": "https://www.media-outreach.com/news/hong-kong/2025/08/21/403573/hongkong-land-launches-hong-kongs-first-ai-powered-intelligent-facility-management-platform/",
+   "raw_sector": "",
+   "date": "2025-08-21",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Jardine Matheson Holdings",
+   "use": "OneViu AI-driven, no-code retail analytics platform deployed across DFI's Hong Kong brands (Wellcome, Mannings, Jason's Marketplace) for assortment optimization and customer-behavior insight; rolled out to all commercial teams and extended to Singapore. Built with Tecsa (DFI is a strategic investor). [Tecsa (OneViu)]",
+   "existence": "confirmed",
+   "value": "293 commercial team members trained across 32 onboarding sessions",
+   "tier": "",
+   "url": "https://www.thetecsagroup.com/case-studies/dfi-retail-group",
+   "raw_sector": "",
+   "date": "2025-04-07",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Jardine Matheson Holdings",
+   "use": "Pilot of SymphonyAI's Vertical AI merchandising platform for enterprise merchandise planning (promotions, assortment, customer clustering, space planning) across DFI's Asia retail operations. [SymphonyAI]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.symphonyai.com/news/dfi-retail-vertical-ai-merchandising-symphonyai",
+   "raw_sector": "",
+   "date": "2026-03-23",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Jardine Matheson Holdings",
+   "use": "AI customer service PoC: on-prem fine-tuned small LLM to process and respond to common customer inquiries. Part of the TAU Intelligence + Intel resource-efficient GenAI collaboration; Jardines reported it was moving to deploy the AI tool. [TAU Intelligence, Intel; on-premises fine-tuned LLM]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.ceoinsightsasia.com/news/tau-intelligence-teams-up-with-jardine-matheson-and-intel-on-ecofriendly-ai--nwid-12317.html",
+   "raw_sector": "",
+   "date": "2024-07-18",
    "fresh": "aging"
   }
  ]

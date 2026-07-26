@@ -3,27 +3,27 @@
  "name": "Alstom",
  "cc": "FR",
  "vertical": "Manufacturing & Robotics",
- "deployments": 12,
- "confirmed": 11,
- "with_value_number": 3,
- "proof_rate": 0.25,
+ "deployments": 18,
+ "confirmed": 15,
+ "with_value_number": 4,
+ "proof_rate": 0.222,
  "mktcap": 8056800000.0,
  "revenue": 20703600000.0,
  "employees": 87832.0,
  "silent": false,
- "per_bn_revenue": 0.58,
- "per_10k_emp": 1.37,
+ "per_bn_revenue": 0.87,
+ "per_10k_emp": 2.05,
  "benchmarks": {
   "global_vertical": {
    "deployments": 99,
    "confirmed": 99,
-   "proof_rate": 69,
-   "n": 147
+   "proof_rate": 65,
+   "n": 150
   },
   "country_vertical": {
    "deployments": 100,
    "confirmed": 100,
-   "proof_rate": 92,
+   "proof_rate": 85,
    "n": 14
   }
  },
@@ -39,18 +39,18 @@
   },
   {
    "year": 2024,
-   "n": 4
+   "n": 6
   },
   {
    "year": 2025,
-   "n": 2
+   "n": 3
   },
   {
    "year": 2026,
    "n": 2
   }
  ],
- "undated_pct": 8,
+ "undated_pct": 22,
  "momentum": "early_mover,cooling",
  "maturity": "L4",
  "maturity_evidence": [
@@ -60,9 +60,14 @@
   "multi_year",
   "tier_p"
  ],
- "prospect_score": 98,
- "stack": [],
- "vendor_named": false,
+ "prospect_score": 91,
+ "stack": [
+  "Amazon AWS",
+  "Microsoft",
+  "Microsoft Azure",
+  "OpenAI"
+ ],
+ "vendor_named": true,
  "deployments_detail": [
   {
    "company": "Alstom",
@@ -74,6 +79,72 @@
    "raw_sector": "Rail Transport Equipment",
    "date": "2025",
    "fresh": "fresh"
+  },
+  {
+   "company": "Alstom",
+   "use": "Trustworthy AI for rail safety and operations",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.alstom.com/press-releases-news/2025/2/building-safer-future-trustworthy-ai",
+   "raw_sector": "",
+   "date": "2025-02-11",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Alstom",
+   "use": "Generative AI in engineering and supply chain for specification quality improvement",
+   "existence": "claimed",
+   "value": "25%",
+   "tier": "",
+   "url": "https://www.aiusecasehub.com/company/Alstom",
+   "raw_sector": "",
+   "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "Alstom",
+   "use": "AI for train scheduling, speed management, and predictive maintenance",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.alstom.com/press-releases-news/2024/12/high-performance-solutions-how-artificial-intelligence-transforming-rail",
+   "raw_sector": "",
+   "date": "2024-12-05",
+   "fresh": "aging"
+  },
+  {
+   "company": "Alstom",
+   "use": "AI-powered smart robot with computer vision for maintenance inspections",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.linkedin.com/posts/alstom_alstomservices-predictivemaintenance-ai-activity-7097580366286176256-lKnc",
+   "raw_sector": "",
+   "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "Alstom",
+   "use": "Generative AI for content generation and translation in business processes [Microsoft Azure OpenAI Service]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.microsoft.com/en/customers/story/1779144753409953376-alstom-azure-openai-service-travel-and-transportation-en-france",
+   "raw_sector": "",
+   "date": "2024-06-13",
+   "fresh": "aging"
+  },
+  {
+   "company": "Alstom",
+   "use": "AI skills intelligence platform for employee skills detection and matching [365Talents]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://365talents.com/en/resources/ebooks/alstom-builds-a-global-skills-intelligence-platform-with-365talents/",
+   "raw_sector": "",
+   "date": "missing",
+   "fresh": "undated"
   },
   {
    "company": "Alstom",

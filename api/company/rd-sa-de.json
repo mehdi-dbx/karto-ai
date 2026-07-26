@@ -3,26 +3,26 @@
  "name": "RD Saúde",
  "cc": "BR",
  "vertical": "Healthcare & Life Sciences",
- "deployments": 1,
- "confirmed": 1,
+ "deployments": 3,
+ "confirmed": 3,
  "with_value_number": 1,
- "proof_rate": 1.0,
+ "proof_rate": 0.333,
  "mktcap": 5922222222.0,
  "revenue": 8435185185.0,
  "employees": 75190.0,
  "silent": false,
- "per_bn_revenue": 0.12,
- "per_10k_emp": 0.13,
+ "per_bn_revenue": 0.36,
+ "per_10k_emp": 0.4,
  "benchmarks": {
   "global_vertical": {
-   "deployments": 0,
-   "confirmed": 13,
-   "proof_rate": 83,
-   "n": 165
+   "deployments": 14,
+   "confirmed": 33,
+   "proof_rate": 65,
+   "n": 168
   },
   "country_vertical": {
-   "deployments": 0,
-   "confirmed": 0,
+   "deployments": 50,
+   "confirmed": 75,
    "proof_rate": 25,
    "n": 5
   }
@@ -34,13 +34,15 @@
    "n": 1
   }
  ],
- "undated_pct": 0,
+ "undated_pct": 67,
  "momentum": "early_mover,gone_quiet",
  "maturity": "L3",
  "maturity_evidence": [
+  "multi_horizontal",
+  "named_product:Generative",
   "value_number"
  ],
- "prospect_score": 14,
+ "prospect_score": 53,
  "stack": [],
  "vendor_named": false,
  "deployments_detail": [
@@ -54,6 +56,28 @@
    "raw_sector": "Saúde",
    "date": "2024",
    "fresh": "aging"
+  },
+  {
+   "company": "RD Saúde",
+   "use": "Endpoint Detection and Response (EDR) agents deployment across workstations, servers, and containers",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://rdsaude.com.br/wp-content/uploads/2025/07/250702_BOOK_RDSAUDE_RS24_V2_ENG-1.pdf",
+   "raw_sector": "",
+   "date": "Jul 17, 2025",
+   "fresh": "undated"
+  },
+  {
+   "company": "RD Saúde",
+   "use": "Generative AI for advertising content creation - accelerating campaign delivery from 3 days to 5 minutes for pharmaceutical retail ads",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.brasil247.com/brazilstockguide/insights/impulso-generative-ai-retail-media/",
+   "raw_sector": "",
+   "date": "Oct 29, 2025",
+   "fresh": "undated"
   }
  ]
 }

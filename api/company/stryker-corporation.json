@@ -3,42 +3,60 @@
  "name": "Stryker Corporation",
  "cc": "US",
  "vertical": "Healthcare & Life Sciences",
- "deployments": 1,
- "confirmed": 1,
- "with_value_number": 0,
- "proof_rate": 0.0,
+ "deployments": 11,
+ "confirmed": 11,
+ "with_value_number": 2,
+ "proof_rate": 0.182,
  "mktcap": 120240000000.0,
  "revenue": 25270000000.0,
  "employees": 56000.0,
  "silent": false,
- "per_bn_revenue": 0.04,
- "per_10k_emp": 0.18,
+ "per_bn_revenue": 0.44,
+ "per_10k_emp": 1.96,
  "benchmarks": {
   "global_vertical": {
-   "deployments": 0,
-   "confirmed": 13,
-   "proof_rate": 0,
-   "n": 165
+   "deployments": 76,
+   "confirmed": 95,
+   "proof_rate": 51,
+   "n": 168
   },
   "country_vertical": {
-   "deployments": 0,
-   "confirmed": 7,
-   "proof_rate": 0,
+   "deployments": 69,
+   "confirmed": 88,
+   "proof_rate": 50,
    "n": 59
   }
  },
- "first_seen": null,
- "by_year": [],
- "undated_pct": 100,
- "momentum": "none",
- "maturity": "L3",
+ "first_seen": 2023,
+ "by_year": [
+  {
+   "year": 2023,
+   "n": 1
+  },
+  {
+   "year": 2024,
+   "n": 2
+  },
+  {
+   "year": 2025,
+   "n": 7
+  }
+ ],
+ "undated_pct": 9,
+ "momentum": "early_mover,rising",
+ "maturity": "L4",
  "maturity_evidence": [
+  "multi_horizontal",
   "named_product:Mako",
+  "value_number",
+  "multi_year",
   "tier_p"
  ],
- "prospect_score": 54,
- "stack": [],
- "vendor_named": false,
+ "prospect_score": 93,
+ "stack": [
+  "Microsoft"
+ ],
+ "vendor_named": true,
  "deployments_detail": [
   {
    "company": "Stryker Corporation",
@@ -50,6 +68,116 @@
    "raw_sector": "Health Care",
    "date": "missing",
    "fresh": "undated"
+  },
+  {
+   "company": "Stryker Corporation",
+   "use": "Mako SmartRobotics robotic-assisted joint replacement platform using CT-based 3D preoperative planning and AccuStop haptic control for hip, knee and partial knee surgery; over 1.5M procedures performed globally. [Stryker (in-house)]",
+   "existence": "confirmed",
+   "value": "1.5 million+ Mako procedures across 45 countries",
+   "tier": "",
+   "url": "https://www.stryker.com/us/en/about/news/2025/stryker-showcases-next-generation-of-mako-smartrobotics--at-aaos.html",
+   "raw_sector": "",
+   "date": "2025-03-11",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Stryker Corporation",
+   "use": "care.ai SmartCare Platform: AI-driven, always-aware ambient sensors and an AI-powered Command Center enabling virtual nursing/virtual monitoring and automated clinical workflows in hospitals. [care.ai (Stryker acquisition)]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.stryker.com/us/en/smart-care/news/enabling-smart-connected-care-with-careai.html",
+   "raw_sector": "",
+   "date": "2025-05-13",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Stryker Corporation",
+   "use": "Q Guidance System with Spine Guidance 5 Software featuring Copilot: FDA 510(k)-cleared image-based surgical planning and intraoperative navigation using software algorithms to assist bone resection, pedicle preparation and screw delivery in spine surgery. [Stryker (Stryker Leibinger GmbH)]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.stryker.com/us/en/about/news/2024/stryker-s-spine-guidance-5-software-featuring-copilot-receives-5.html",
+   "raw_sector": "",
+   "date": "2024-07-30",
+   "fresh": "aging"
+  },
+  {
+   "company": "Stryker Corporation",
+   "use": "Blueprint 3D preoperative planning software for shoulder arthroplasty using a proprietary algorithm to automate 3D reconstruction and measurement from CT scans. [Stryker (in-house)]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.stryker.com/us/en/trauma-and-extremities/products/blueprint.html",
+   "raw_sector": "",
+   "date": "2024-01-01",
+   "fresh": "aging"
+  },
+  {
+   "company": "Stryker Corporation",
+   "use": "Mako Spine: robotic-assisted spine surgery application integrating imaging, planning and execution; entered limited market release with first cases in October 2024 and phased U.S. commercial launch. [Stryker (in-house)]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.prnewswire.com/news-releases/stryker-showcases-next-generation-of-mako-smartrobotics-at-aaos-2025-annual-meeting-302397425.html",
+   "raw_sector": "",
+   "date": "2025-03-11",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Stryker Corporation",
+   "use": "Mako Shoulder: robotic-assisted shoulder arthroplasty application, first cases completed late 2024, in limited market release through 2025. [Stryker (in-house)]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.prnewswire.com/news-releases/stryker-showcases-next-generation-of-mako-smartrobotics-at-aaos-2025-annual-meeting-302397425.html",
+   "raw_sector": "",
+   "date": "2025-03-11",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Stryker Corporation",
+   "use": "Mako 4 next-generation single robotics system integrating the fourth-generation Q Guidance System across hip, knee and spine applications; commercially available. [Stryker (in-house)]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.massdevice.com/stryker-launches-next-gen-mako-suite/",
+   "raw_sector": "",
+   "date": "2025-03-11",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Stryker Corporation",
+   "use": "Cranial Guidance Software on the Q Guidance System providing AI-assisted surgical planning modules and navigation for image-based cranial procedures. [Stryker (in-house)]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.stryker.com/us/en/spine/products/cranial-guidance-software.html",
+   "raw_sector": "",
+   "date": "2023-02-16",
+   "fresh": "stale"
+  },
+  {
+   "company": "Stryker Corporation",
+   "use": "New 140,000+ sq-ft R&D innovation center in Bengaluru, India dedicated to robotics, artificial intelligence, digital health and product security, expanding Stryker's AI development capacity. [Stryker (in-house)]",
+   "existence": "confirmed",
+   "value": "140,000 square-foot facility",
+   "tier": "",
+   "url": "https://www.stryker.com/in/en/about/news/2025/stryker-expands-its-r-and-d-footprint-in-india.html",
+   "raw_sector": "",
+   "date": "2025-09-17",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Stryker Corporation",
+   "use": "Talent Scout AI recruiting assistant/agent embedded on Stryker's careers site that chats with candidates to help them find and apply for roles. [Stryker (careers platform)]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://careers.stryker.com/",
+   "raw_sector": "",
+   "date": "2025-01-01",
+   "fresh": "fresh"
   }
  ]
 }

@@ -3,27 +3,27 @@
  "name": "Tokyo Gas Co., Ltd.",
  "cc": "JP",
  "vertical": "Energy & Utilities",
- "deployments": 2,
- "confirmed": 2,
+ "deployments": 6,
+ "confirmed": 4,
  "with_value_number": 2,
- "proof_rate": 1.0,
+ "proof_rate": 0.333,
  "mktcap": 13600000000.0,
  "revenue": 18866666667.0,
  "employees": 16001.0,
  "silent": false,
- "per_bn_revenue": 0.11,
- "per_10k_emp": 1.25,
+ "per_bn_revenue": 0.32,
+ "per_10k_emp": 3.75,
  "benchmarks": {
   "global_vertical": {
-   "deployments": 72,
-   "confirmed": 78,
-   "proof_rate": 75,
-   "n": 210
+   "deployments": 68,
+   "confirmed": 58,
+   "proof_rate": 68,
+   "n": 213
   },
   "country_vertical": {
    "deployments": 33,
-   "confirmed": 33,
-   "proof_rate": 67,
+   "confirmed": 0,
+   "proof_rate": 33,
    "n": 7
   }
  },
@@ -34,7 +34,7 @@
    "n": 1
   }
  ],
- "undated_pct": 50,
+ "undated_pct": 83,
  "momentum": "early_mover,gone_quiet",
  "maturity": "L3",
  "maturity_evidence": [
@@ -43,9 +43,10 @@
   "value_number",
   "tier_p"
  ],
- "prospect_score": 12,
+ "prospect_score": 51,
  "stack": [
-  "Databricks"
+  "Databricks",
+  "OpenAI"
  ],
  "vendor_named": true,
  "deployments_detail": [
@@ -62,6 +63,28 @@
   },
   {
    "company": "Tokyo Gas Co., Ltd.",
+   "use": "AI integration across business processes for productivity improvement",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.tokyo-gas.co.jp/en/IR/library/pdf/anual/25english.pdf",
+   "raw_sector": "",
+   "date": "Jun 27, 2025",
+   "fresh": "undated"
+  },
+  {
+   "company": "Tokyo Gas Co., Ltd.",
+   "use": "exaBase Generative AI powered by GPT-4 adoption [ExaWizards exaBase GPT-4]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://exawizards.com/en/archives/25033/",
+   "raw_sector": "",
+   "date": "Jul 18, 2023",
+   "fresh": "undated"
+  },
+  {
+   "company": "Tokyo Gas Co., Ltd.",
    "use": "Proprietary app \"AIGNIS\" generative AI (from 2023, Databricks platform)",
    "existence": "confirmed",
    "value": "~3,500 employees using daily",
@@ -70,6 +93,28 @@
    "raw_sector": "Gas",
    "date": "2023",
    "fresh": "stale"
+  },
+  {
+   "company": "Tokyo Gas Co., Ltd.",
+   "use": "Vind AI digital platform for wind power project evaluation and design [Vind AI]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.vind.ai/blog-post/accelerating-offshore-wind-farm-development-with-tokyo-gas",
+   "raw_sector": "",
+   "date": "Oct 9, 2025",
+   "fresh": "undated"
+  },
+  {
+   "company": "Tokyo Gas Co., Ltd.",
+   "use": "AI incorporation in front-line operations for customer experience enhancement and process streamlining",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.tokyo-gas.co.jp/en/IR/support/pdf/20251029-02e.pdf",
+   "raw_sector": "",
+   "date": "missing",
+   "fresh": "undated"
   }
  ]
 }

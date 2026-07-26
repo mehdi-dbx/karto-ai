@@ -3,28 +3,28 @@
  "name": "Asian Paints",
  "cc": "IN",
  "vertical": "Retail & E-commerce",
- "deployments": 1,
- "confirmed": 1,
+ "deployments": 5,
+ "confirmed": 3,
  "with_value_number": 0,
  "proof_rate": 0.0,
  "mktcap": 30843373494.0,
  "revenue": 4287228916.0,
  "employees": 11162.0,
  "silent": false,
- "per_bn_revenue": 0.23,
- "per_10k_emp": 0.9,
+ "per_bn_revenue": 1.17,
+ "per_10k_emp": 4.48,
  "benchmarks": {
   "global_vertical": {
-   "deployments": 0,
-   "confirmed": 24,
+   "deployments": 39,
+   "confirmed": 32,
    "proof_rate": 0,
-   "n": 295
+   "n": 301
   },
   "country_vertical": {
-   "deployments": 0,
-   "confirmed": 25,
+   "deployments": 69,
+   "confirmed": 54,
    "proof_rate": 0,
-   "n": 13
+   "n": 14
   }
  },
  "first_seen": null,
@@ -35,9 +35,13 @@
  "maturity_evidence": [
   "named_product:Solutions"
  ],
- "prospect_score": 54,
- "stack": [],
- "vendor_named": false,
+ "prospect_score": 58,
+ "stack": [
+  "Google Cloud",
+  "Microsoft",
+  "Salesforce"
+ ],
+ "vendor_named": true,
  "deployments_detail": [
   {
    "company": "Asian Paints",
@@ -47,6 +51,50 @@
    "tier": "I",
    "url": "https://www.asianpaints.com/annualreport",
    "raw_sector": "Consumer Durables",
+   "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "Asian Paints",
+   "use": "AI vision for defect detection and quality control in manufacturing [NTT DATA, GCP]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://services.global.ntt/en-us/about-us/case-studies/asian-paints",
+   "raw_sector": "",
+   "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "Asian Paints",
+   "use": "AI-driven quality control systems in manufacturing",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.coatingsworld.com/from-formulation-to-deployment-ai-in-coatings-rd/",
+   "raw_sector": "",
+   "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "Asian Paints",
+   "use": "Predictive AI for personalized home décor experiences and customer project status updates [Salesforce]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.salesforce.com/in/customer-stories/asian-paints/",
+   "raw_sector": "",
+   "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "Asian Paints",
+   "use": "Generative AI and key use case piloting for business goal alignment and ROI measurement [Microsoft]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.microsoft.com/en-in/aifirstmovers/FY26Asianpaints",
+   "raw_sector": "",
    "date": "missing",
    "fresh": "undated"
   }

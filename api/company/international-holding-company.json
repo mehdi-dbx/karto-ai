@@ -3,28 +3,28 @@
  "name": "International Holding Company",
  "cc": "AE",
  "vertical": "Financial Services",
- "deployments": 2,
- "confirmed": 1,
- "with_value_number": 1,
+ "deployments": 4,
+ "confirmed": 3,
+ "with_value_number": 2,
  "proof_rate": 0.5,
  "mktcap": 225839000000.0,
  "revenue": 32490000000.0,
  "employees": null,
  "silent": false,
- "per_bn_revenue": 0.06,
+ "per_bn_revenue": 0.12,
  "per_10k_emp": null,
  "benchmarks": {
   "global_vertical": {
-   "deployments": 62,
-   "confirmed": 17,
-   "proof_rate": 61,
-   "n": 377
+   "deployments": 24,
+   "confirmed": 27,
+   "proof_rate": 78,
+   "n": 388
   },
   "country_vertical": {
-   "deployments": 92,
-   "confirmed": 8,
-   "proof_rate": 92,
-   "n": 14
+   "deployments": 29,
+   "confirmed": 36,
+   "proof_rate": 93,
+   "n": 15
   }
  },
  "first_seen": 2024,
@@ -38,15 +38,16 @@
    "n": 1
   }
  ],
- "undated_pct": 0,
+ "undated_pct": 50,
  "momentum": "early_mover,flat",
  "maturity": "L3",
  "maturity_evidence": [
+  "multi_horizontal",
   "named_product:Judan",
   "value_number",
   "tier_p"
  ],
- "prospect_score": 26,
+ "prospect_score": 38,
  "stack": [
   "Microsoft"
  ],
@@ -73,6 +74,28 @@
    "raw_sector": "Investment",
    "date": "2025",
    "fresh": "fresh"
+  },
+  {
+   "company": "International Holding Company",
+   "use": "Judan Financial Holding - AI-enabled platform for global financial services",
+   "existence": "confirmed",
+   "value": "AED 870 billion",
+   "tier": "",
+   "url": "https://www.ihcuae.com/newsroom",
+   "raw_sector": "",
+   "date": "Feb 13, 2026",
+   "fresh": "undated"
+  },
+  {
+   "company": "International Holding Company",
+   "use": "Aiden Insight 2.0 - AI-powered strategic governance and recommendations platform [Aleria]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://aleria.com/company/newsroom/ihc-unveils-aiden-insight-20-powered-by-aleria-reinforcing-strategic-governance",
+   "raw_sector": "",
+   "date": "May 8, 2025",
+   "fresh": "undated"
   }
  ]
 }

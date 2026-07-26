@@ -3,27 +3,27 @@
  "name": "Barclays",
  "cc": "UK",
  "vertical": "Financial Services",
- "deployments": 2,
- "confirmed": 1,
- "with_value_number": 0,
- "proof_rate": 0.0,
+ "deployments": 9,
+ "confirmed": 6,
+ "with_value_number": 1,
+ "proof_rate": 0.111,
  "mktcap": 90297000000.0,
  "revenue": 34404300000.0,
  "employees": 93000.0,
  "silent": false,
- "per_bn_revenue": 0.06,
- "per_10k_emp": 0.22,
+ "per_bn_revenue": 0.26,
+ "per_10k_emp": 0.97,
  "benchmarks": {
   "global_vertical": {
-   "deployments": 62,
-   "confirmed": 17,
-   "proof_rate": 0,
-   "n": 377
+   "deployments": 58,
+   "confirmed": 55,
+   "proof_rate": 30,
+   "n": 388
   },
   "country_vertical": {
-   "deployments": 86,
-   "confirmed": 36,
-   "proof_rate": 0,
+   "deployments": 82,
+   "confirmed": 73,
+   "proof_rate": 64,
    "n": 23
   }
  },
@@ -31,18 +31,22 @@
  "by_year": [
   {
    "year": 2025,
-   "n": 1
+   "n": 2
   }
  ],
- "undated_pct": 50,
+ "undated_pct": 78,
  "momentum": "rising",
  "maturity": "L3",
  "maturity_evidence": [
-  "named_product:Impact Series"
+  "multi_horizontal",
+  "named_product:Impact Series",
+  "value_number"
  ],
- "prospect_score": 54,
- "stack": [],
- "vendor_named": false,
+ "prospect_score": 72,
+ "stack": [
+  "Microsoft"
+ ],
+ "vendor_named": true,
  "deployments_detail": [
   {
    "company": "Barclays",
@@ -64,6 +68,83 @@
    "url": "https://www.businesswire.com/news/home/20250116673538/en/AI",
    "raw_sector": "Banks",
    "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "Barclays",
+   "use": "Intelligent agents deployment",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://home.barclays/insights/2025/07/scaling-AI-at-Barclays/",
+   "raw_sector": "",
+   "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "Barclays",
+   "use": "Microsoft 365 Copilot single agent for 100,000 employees to access broad ecosystem, compliance and HR questions [Microsoft] [Microsoft]",
+   "existence": "confirmed",
+   "value": "Deployed to 100,000 employees",
+   "tier": "",
+   "url": "https://www.microsoft.com/en-us/microsoft-cloud/blog/2025/07/24/ai-powered-success-with-1000-stories-of-customer-transformation-and-innovation/",
+   "raw_sector": "",
+   "date": "2025-07-24",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Barclays",
+   "use": "Named as a Microsoft Copilot customer/case study [Microsoft Copilot] [Microsoft Copilot]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.lighthouseglobal.com/blog/microsoft-365-copilot-adoption",
+   "raw_sector": "",
+   "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "Barclays",
+   "use": "Customer service AI-powered chatbots and virtual assistants",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.linkedin.com/posts/hilarydjackson_from-intelligence-to-ability-how-barclays-activity-7275540386071171074-drMZ",
+   "raw_sector": "",
+   "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "Barclays",
+   "use": "AI analysis of customer interactions for sentiment and needs understanding",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://cards.barclaycardus.com/banking/about-us/news-and-views/insights/top-five-ai-innovations-shaping-consumer-banking-in-2026/",
+   "raw_sector": "",
+   "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "Barclays",
+   "use": "AI summarization of customer service calls for agent decision-making",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.linkedin.com/posts/ai-finance-banking_ai-artificialintelligence-ainews-activity-7426978384687325184-__lh",
+   "raw_sector": "",
+   "date": "5 months ago",
+   "fresh": "undated"
+  },
+  {
+   "company": "Barclays",
+   "use": "GenAI risk framework and governance system",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.risk.net/risk-management/7963399/barclays-built-a-risk-framework-for-genai-from-scratch",
+   "raw_sector": "",
+   "date": "May 6, 2026",
    "fresh": "undated"
   }
  ]

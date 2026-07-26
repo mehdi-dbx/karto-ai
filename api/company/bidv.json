@@ -3,27 +3,27 @@
  "name": "BIDV",
  "cc": "VN",
  "vertical": "Financial Services",
- "deployments": 1,
- "confirmed": 1,
- "with_value_number": 0,
- "proof_rate": 0.0,
+ "deployments": 4,
+ "confirmed": 4,
+ "with_value_number": 1,
+ "proof_rate": 0.25,
  "mktcap": 10483200000.0,
  "revenue": 2728800000.0,
  "employees": 29048.0,
  "silent": false,
- "per_bn_revenue": 0.37,
- "per_10k_emp": 0.34,
+ "per_bn_revenue": 1.47,
+ "per_10k_emp": 1.38,
  "benchmarks": {
   "global_vertical": {
-   "deployments": 0,
-   "confirmed": 17,
-   "proof_rate": 0,
-   "n": 377
+   "deployments": 24,
+   "confirmed": 39,
+   "proof_rate": 47,
+   "n": 388
   },
   "country_vertical": {
-   "deployments": 0,
-   "confirmed": 18,
-   "proof_rate": 0,
+   "deployments": 36,
+   "confirmed": 73,
+   "proof_rate": 64,
    "n": 12
   }
  },
@@ -34,14 +34,16 @@
    "n": 1
   }
  ],
- "undated_pct": 0,
+ "undated_pct": 75,
  "momentum": "early_mover,gone_quiet",
  "maturity": "L3",
  "maturity_evidence": [
+  "multi_horizontal",
   "named_product:Chatbot",
+  "value_number",
   "tier_p"
  ],
- "prospect_score": 54,
+ "prospect_score": 62,
  "stack": [],
  "vendor_named": false,
  "deployments_detail": [
@@ -55,6 +57,39 @@
    "raw_sector": "Banks",
    "date": "2024-03",
    "fresh": "aging"
+  },
+  {
+   "company": "BIDV",
+   "use": "AI-powered Contact Center tool with natural language processing for query resolution",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://bidv.com.vn/bidv_en/tin-tuc/thong-tin-bao-chi/bidv-ghi-dau-an-sao-khue-2025-voi-bay-san-pham-cong-nghe-duoc-vinh-danh",
+   "raw_sector": "",
+   "date": "Apr 20, 2025",
+   "fresh": "undated"
+  },
+  {
+   "company": "BIDV",
+   "use": "AI-powered signature extraction and customer signature update system",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://bidv.com.vn/wps/wcm/connect/eb2390ef-10a5-4378-ae43-83344cfc6f35/BIDV+Investor+Presentation+Q3.2025.pdf?MOD=AJPERES&CACHEID=ROOTWORKSPACE-eb2390ef-10a5-4378-ae43-83344cfc6f35-pFHZlMX",
+   "raw_sector": "",
+   "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "BIDV",
+   "use": "B.ONE Digital Workplace Platform for internal process digitization",
+   "existence": "confirmed",
+   "value": "90%",
+   "tier": "",
+   "url": "https://bidv.com.vn/bidv_en/tin-tuc/thong-tin-bao-chi/bidv-ghi-dau-an-sao-khue-2025-voi-bay-san-pham-cong-nghe-duoc-vinh-danh",
+   "raw_sector": "",
+   "date": "Apr 20, 2025",
+   "fresh": "undated"
   }
  ]
 }

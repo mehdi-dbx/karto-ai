@@ -3,27 +3,27 @@
  "name": "Clorox",
  "cc": "US",
  "vertical": "Retail & E-commerce",
- "deployments": 1,
- "confirmed": 1,
- "with_value_number": 0,
- "proof_rate": 0.0,
+ "deployments": 6,
+ "confirmed": 6,
+ "with_value_number": 1,
+ "proof_rate": 0.167,
  "mktcap": 11380000000.0,
  "revenue": 6760000000.0,
  "employees": 7600.0,
  "silent": false,
- "per_bn_revenue": 0.15,
- "per_10k_emp": 1.32,
+ "per_bn_revenue": 0.89,
+ "per_10k_emp": 7.89,
  "benchmarks": {
   "global_vertical": {
-   "deployments": 0,
-   "confirmed": 24,
-   "proof_rate": 0,
-   "n": 295
+   "deployments": 48,
+   "confirmed": 63,
+   "proof_rate": 40,
+   "n": 301
   },
   "country_vertical": {
-   "deployments": 0,
-   "confirmed": 25,
-   "proof_rate": 0,
+   "deployments": 30,
+   "confirmed": 52,
+   "proof_rate": 35,
    "n": 80
   }
  },
@@ -33,13 +33,48 @@
  "momentum": "none",
  "maturity": "L3",
  "maturity_evidence": [
+  "multi_horizontal",
   "named_product:Predictive",
+  "value_number",
   "tier_p"
  ],
- "prospect_score": 54,
+ "prospect_score": 77,
  "stack": [],
  "vendor_named": false,
  "deployments_detail": [
+  {
+   "company": "Clorox",
+   "use": "Product development and innovation acceleration using AI-driven agile processes to reduce development time and increase output",
+   "existence": "confirmed",
+   "value": "3x reduction in development time; 2x increase in innovation output",
+   "tier": "",
+   "url": "https://www.thecloroxcompany.com/blog/innovating-to-win-with-consumers-and-kantar/",
+   "raw_sector": "",
+   "date": "Nov 11, 2025",
+   "fresh": "undated"
+  },
+  {
+   "company": "Clorox",
+   "use": "Generative AI for product development with creation of digital prototypes",
+   "existence": "confirmed",
+   "value": "hundreds of digital prototypes",
+   "tier": "",
+   "url": "https://consumergoods.com/clorox-accelerating-innovation-generative-ai-investment",
+   "raw_sector": "",
+   "date": "Jun 9, 2024",
+   "fresh": "undated"
+  },
+  {
+   "company": "Clorox",
+   "use": "Predictive analytics for supply chain planning, forecasting, and demand management",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.thecloroxcompany.com/blog/how-clorox-is-sharpening-procurement-operations-with-ai/",
+   "raw_sector": "",
+   "date": "Jun 13, 2026",
+   "fresh": "undated"
+  },
   {
    "company": "Clorox",
    "use": "Predictive-analytics AI in procurement/supply chain; GenAI across advertising, R&D, consumer insights (part of $580M digital transformation)",
@@ -49,6 +84,28 @@
    "url": "https://www.thecloroxcompany.com/blog/how-clorox-is-sharpening-procurement-operations-with-ai/",
    "raw_sector": "Consumer Staples",
    "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "Clorox",
+   "use": "Generative AI for campaign personalization, packaging design simulation, and consumer sentiment analysis",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.linkedin.com/pulse/cloroxs-ai-powered-digital-transformation-dawogomo-jalal-i-maher-cbzwf",
+   "raw_sector": "",
+   "date": "Aug 30, 2025",
+   "fresh": "undated"
+  },
+  {
+   "company": "Clorox",
+   "use": "Generative AI for ad creation and food pairing recommendations for Hidden Valley Ranch",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.wsj.com/tech/ai/clorox-ai-hidden-valley-ranch-e997d3dc",
+   "raw_sector": "",
+   "date": "Jul 4, 2025",
    "fresh": "undated"
   }
  ]

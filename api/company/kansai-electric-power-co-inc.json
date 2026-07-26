@@ -3,51 +3,88 @@
  "name": "Kansai Electric Power Co., Inc.",
  "cc": "JP",
  "vertical": "Energy & Utilities",
- "deployments": 1,
- "confirmed": 1,
- "with_value_number": 1,
- "proof_rate": 1.0,
+ "deployments": 13,
+ "confirmed": 10,
+ "with_value_number": 4,
+ "proof_rate": 0.308,
  "mktcap": 17466666667.0,
  "revenue": 27066666667.0,
  "employees": 32482.0,
  "silent": false,
- "per_bn_revenue": 0.04,
- "per_10k_emp": 0.31,
+ "per_bn_revenue": 0.48,
+ "per_10k_emp": 4.0,
  "benchmarks": {
   "global_vertical": {
-   "deployments": 0,
-   "confirmed": 20,
-   "proof_rate": 75,
-   "n": 210
+   "deployments": 91,
+   "confirmed": 90,
+   "proof_rate": 67,
+   "n": 213
   },
   "country_vertical": {
-   "deployments": 0,
-   "confirmed": 0,
-   "proof_rate": 67,
+   "deployments": 83,
+   "confirmed": 83,
+   "proof_rate": 17,
    "n": 7
   }
  },
- "first_seen": 2024,
+ "first_seen": 2018,
  "by_year": [
   {
+   "year": 2018,
+   "n": 2
+  },
+  {
+   "year": 2019,
+   "n": 2
+  },
+  {
+   "year": 2020,
+   "n": 3
+  },
+  {
+   "year": 2022,
+   "n": 1
+  },
+  {
    "year": 2024,
+   "n": 1
+  },
+  {
+   "year": 2025,
+   "n": 3
+  },
+  {
+   "year": 2026,
    "n": 1
   }
  ],
  "undated_pct": 0,
- "momentum": "early_mover,gone_quiet",
- "maturity": "L3",
+ "momentum": "early_mover,rising",
+ "maturity": "L4",
  "maturity_evidence": [
+  "multi_horizontal",
   "named_product:ChatGPT Enterprise",
   "value_number",
+  "multi_year",
   "tier_p"
  ],
- "prospect_score": 6,
+ "prospect_score": 88,
  "stack": [
   "OpenAI"
  ],
  "vendor_named": true,
  "deployments_detail": [
+  {
+   "company": "Kansai Electric Power Co., Inc.",
+   "use": "Company-wide rollout of OpenAI's ChatGPT Enterprise as part of a strategic collaboration to become an 'AI-first company'; initial large-scale deployment to DX-driving staff (thousands of IDs planned within 2025) for tasks such as document/report creation, internal manual summarization, and daily/specialized work support. [OpenAI (ChatGPT Enterprise)]",
+   "existence": "confirmed",
+   "value": "several thousand IDs planned in 2025",
+   "tier": "",
+   "url": "https://www.kepco.co.jp/english/corporate/pr/2025/pdf/jun17_1.pdf",
+   "raw_sector": "",
+   "date": "2025-06-17",
+   "fresh": "fresh"
+  },
   {
    "company": "Kansai Electric Power Co., Inc.",
    "use": "\"ChatGPT Enterprise\" deployed (from Oct 2024, OpenAI CoE partnership) + AI agents for new-business ideation",
@@ -58,6 +95,127 @@
    "raw_sector": "Electric Power",
    "date": "2024-10",
    "fresh": "aging"
+  },
+  {
+   "company": "Kansai Electric Power Co., Inc.",
+   "use": "Applying OpenAI generative AI to thermal power plant operations, including checking for equipment anomalies and verifying legal/regulatory compliance for construction work, plus AI-based work-plan proposals, legal checks and system isolation support. [OpenAI]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.nikkei.com/article/DGXZQOUF1791D0X10C25A6000000/",
+   "raw_sector": "",
+   "date": "2025-06-17",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Kansai Electric Power Co., Inc.",
+   "use": "Game-AI-based fuel operation optimization system for coal-fired power plants, jointly developed with DeNA; uses game-AI search algorithms to optimize coal procurement, berth and silo operations, letting less-experienced technicians auto-generate optimal schedules (later commercialized with ALGO ARTIS). [DeNA / ALGO ARTIS]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.kepco.co.jp/corporate/pr/2019/0205_1j.html",
+   "raw_sector": "",
+   "date": "2019-02-05",
+   "fresh": "stale"
+  },
+  {
+   "company": "Kansai Electric Power Co., Inc.",
+   "use": "SenaSon (Smart energy aggregate Solution), Kansai's own AI-based cloud control system that optimizes operation of distributed energy resources (storage batteries, solar) based on electricity-demand and solar-generation forecasts for peak shaving and demand response; being integrated with PowerX BESS for corporate customers. [Kansai Electric Power (in-house), PowerX (BESS integration)]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.kepco.co.jp/english/corporate/list/report/pdf/e2025_a4.pdf",
+   "raw_sector": "",
+   "date": "2025-09-29",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Kansai Electric Power Co., Inc.",
+   "use": "Autonomous self-driving inspection robot combined with AI to automate patrol inspection of thermal power plants; the robot collects equipment/sensor data and AI diagnoses whether each equipment's operating condition is normal, detecting gas/oil leaks and abnormal high temperatures. Developed with K4 Digital and Kanden Systems. [K4 Digital / Kanden Systems (Seiko Denki robot)]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.kepco.co.jp/corporate/pr/2020/0825_1j.html",
+   "raw_sector": "",
+   "date": "2020-08-25",
+   "fresh": "stale"
+  },
+  {
+   "company": "Kansai Electric Power Co., Inc.",
+   "use": "AI program that automatically image-analyzes and detects drifting ice and snow (ryuhyosetsu) at hydroelectric power plant intakes, to warn of intake blockage; jointly developed with K4 Digital. [K4 Digital]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.kepco.co.jp/corporate/pr/2019/0926_4j.html",
+   "raw_sector": "",
+   "date": "2019-09-26",
+   "fresh": "stale"
+  },
+  {
+   "company": "Kansai Electric Power Co., Inc.",
+   "use": "AI-enabled digital twin of coal-fired power plant operations built on the AVEVA PI System; combines the model with real-time sensor data to optimize combustion/operations and predict issues across all nine of the company's power plants. [AVEVA (PI System)]",
+   "existence": "confirmed",
+   "value": "asset savings of ~$3 million a year at one plant",
+   "tier": "",
+   "url": "https://www.aveva.com/content/dam/aveva/documents/perspectives/success-stories/SuccessStory_Kansai.pdf.coredownload.inline.pdf",
+   "raw_sector": "",
+   "date": "2018-01-01",
+   "fresh": "stale"
+  },
+  {
+   "company": "Kansai Electric Power Co., Inc.",
+   "use": "AI analysis tool to shorten inspection-related shutdown periods of hydroelectric plants by selecting only the necessary inspections, reducing the months-long downtime required for full teardown inspections; trial deployment planned from FY2023. [none]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.nikkei.com/article/DGXZQOUF081H60Y2A300C2000000/",
+   "raw_sector": "",
+   "date": "2022-03-29",
+   "fresh": "stale"
+  },
+  {
+   "company": "Kansai Electric Power Co., Inc.",
+   "use": "Drone plus AI image-analysis technology for operation and maintenance of offshore wind power facilities, used for emergency and periodic inspections of wind turbine generation equipment to speed up and streamline O&M, cut inspection costs and increase power output. [none]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.kepco.co.jp/corporate/pr/2020/1020_1j.html",
+   "raw_sector": "",
+   "date": "2020-10-20",
+   "fresh": "stale"
+  },
+  {
+   "company": "Kansai Electric Power Co., Inc.",
+   "use": "AI-based equipment anomaly-detection systems offered through Kansai's K-VaCS engineering service, where most AI models are built automatically to enable wide-area monitoring and detection of previously unrecognized signs of abnormality in power plant equipment. [Kansai Electric Power (K-VaCS)]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.kepco.co.jp/english/corporate/info/international/consulting/kvacs/new-initiatives/ai_provision.html",
+   "raw_sector": "",
+   "date": "2020-01-01",
+   "fresh": "stale"
+  },
+  {
+   "company": "Kansai Electric Power Co., Inc.",
+   "use": "Cyber threat intelligence using CYFIRMA's DeCYFIR platform for dark-web monitoring, attack surface management (ASM), threat-actor tracking and IoC analysis; also adopted the 'Ask DeCYFIR' generative-AI feature for querying threat intelligence in Japanese. [CYFIRMA (DeCYFIR)]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.cyfirma.com/casestudy/the-kansai-electric-power-company-incorporated/",
+   "raw_sector": "",
+   "date": "2026-06-02",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Kansai Electric Power Co., Inc.",
+   "use": "Enudge / Enudge 2.0, an AI-based cloud energy-saving support service for multi-site corporate customers combining AI electricity-demand prediction with behavioral 'nudge' theory to encourage energy-saving actions and centrally manage store energy use; won Japan's Energy Conservation Grand Prize. [Kansai Electric Power / iGrid Solutions]",
+   "existence": "confirmed",
+   "value": "annual electricity use reduced 3-5% at some facilities",
+   "tier": "",
+   "url": "https://www.kepco.co.jp/corporate/pr/2018/1018_1j.html",
+   "raw_sector": "",
+   "date": "2018-10-18",
+   "fresh": "stale"
   }
  ]
 }

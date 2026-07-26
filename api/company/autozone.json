@@ -3,7 +3,7 @@
  "name": "AutoZone",
  "cc": "US",
  "vertical": "Retail & E-commerce",
- "deployments": 1,
+ "deployments": 6,
  "confirmed": 0,
  "with_value_number": 0,
  "proof_rate": 0.0,
@@ -11,41 +11,57 @@
  "revenue": 19990000000.0,
  "employees": 130000.0,
  "silent": false,
- "per_bn_revenue": 0.05,
- "per_10k_emp": 0.08,
+ "per_bn_revenue": 0.3,
+ "per_10k_emp": 0.46,
  "benchmarks": {
   "global_vertical": {
-   "deployments": 0,
+   "deployments": 48,
    "confirmed": 0,
    "proof_rate": 0,
-   "n": 295
+   "n": 301
   },
   "country_vertical": {
-   "deployments": 0,
+   "deployments": 30,
    "confirmed": 0,
    "proof_rate": 0,
    "n": 80
   }
  },
- "first_seen": 2026,
+ "first_seen": 2025,
  "by_year": [
   {
+   "year": 2025,
+   "n": 2
+  },
+  {
    "year": 2026,
-   "n": 1
+   "n": 4
   }
  ],
  "undated_pct": 0,
- "momentum": "late_entrant,rising",
+ "momentum": "rising",
  "maturity": "L1",
  "maturity_evidence": [
   "rows_no_confirmed"
  ],
  "prospect_score": 40,
  "stack": [
+  "Google",
   "Google Cloud"
  ],
  "vendor_named": true,
  "deployments_detail": [
+  {
+   "company": "AutoZone",
+   "use": "Generative AI for operational backbone and customer service automation with Gemini Enterprise [Google Gemini Enterprise]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://cloud.google.com/transform/101-real-world-generative-ai-use-cases-from-industry-leaders",
+   "raw_sector": "",
+   "date": "2026-04-22",
+   "fresh": "fresh"
+  },
   {
    "company": "AutoZone",
    "use": "AI-driven forecasting/replenishment + Google Cloud AI for store ops (3rd-party reported; no primary AutoZone press release located)",
@@ -55,6 +71,50 @@
    "url": "https://distributionstrategy.com/2026/04/autozone-completes-cloud-migration-turns-to-google-ai-to-power-next-phase/",
    "raw_sector": "Consumer Discretionary",
    "date": "2026",
+   "fresh": "fresh"
+  },
+  {
+   "company": "AutoZone",
+   "use": "AI-driven supply chain optimization and inventory forecasting",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.cleverence.com/articles/business-blogs/how-auto-parts-wholesalers-like-autozone-and-napa-optimize-distribution-with-ai/?srsltid=AfmBOopFk_8MOHP8dcD0lOxdbMTBRtVrkhipZhJr0zw2_gWuepOTBie8",
+   "raw_sector": "",
+   "date": "2025-03-09",
+   "fresh": "fresh"
+  },
+  {
+   "company": "AutoZone",
+   "use": "Gemini Enterprise deployment for automation of high-volume tasks and employee productivity [Google Gemini Enterprise]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://distributionstrategy.com/2026/04/autozone-completes-cloud-migration-turns-to-google-ai-to-power-next-phase/",
+   "raw_sector": "",
+   "date": "2026-04-22",
+   "fresh": "fresh"
+  },
+  {
+   "company": "AutoZone",
+   "use": "Google AI Cloud for system monitoring, development acceleration, and decision making [Google Cloud AI]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.googlecloudpresscorner.com/2026-04-22-AutoZone-Completes-Three-Year-Cloud-Migration-with-Google-Cloud",
+   "raw_sector": "",
+   "date": "2026-04-22",
+   "fresh": "fresh"
+  },
+  {
+   "company": "AutoZone",
+   "use": "AI for route optimization and order fulfillment",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.cleverence.com/articles/business-blogs/how-auto-parts-wholesalers-like-autozone-and-napa-optimize-distribution-with-ai/?srsltid=AfmBOopTiuM8q_ZLfI-7VNSaFFerFb8U9E9pH6V0eI0uihEvQpqqDjob",
+   "raw_sector": "",
+   "date": "2025-03-09",
    "fresh": "fresh"
   }
  ]

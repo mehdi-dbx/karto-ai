@@ -3,41 +3,58 @@
  "name": "Babcock International",
  "cc": "UK",
  "vertical": "Aerospace & Defence",
- "deployments": 1,
- "confirmed": 1,
- "with_value_number": 0,
- "proof_rate": 0.0,
+ "deployments": 9,
+ "confirmed": 4,
+ "with_value_number": 1,
+ "proof_rate": 0.111,
  "mktcap": 6921500000.0,
  "revenue": 6578600000.0,
  "employees": 30481.0,
  "silent": false,
- "per_bn_revenue": 0.15,
- "per_10k_emp": 0.33,
+ "per_bn_revenue": 1.37,
+ "per_10k_emp": 2.95,
  "benchmarks": {
   "global_vertical": {
-   "deployments": 0,
-   "confirmed": 29,
-   "proof_rate": 0,
+   "deployments": 71,
+   "confirmed": 71,
+   "proof_rate": 43,
    "n": 8
   }
  },
- "first_seen": 2025,
+ "first_seen": 2023,
  "by_year": [
   {
+   "year": 2023,
+   "n": 1
+  },
+  {
+   "year": 2024,
+   "n": 1
+  },
+  {
    "year": 2025,
+   "n": 6
+  },
+  {
+   "year": 2026,
    "n": 1
   }
  ],
  "undated_pct": 0,
- "momentum": "rising",
- "maturity": "L3",
+ "momentum": "early_mover,rising",
+ "maturity": "L4",
  "maturity_evidence": [
+  "multi_horizontal",
   "named_product:Nomad",
+  "value_number",
+  "multi_year",
   "tier_p"
  ],
- "prospect_score": 54,
- "stack": [],
- "vendor_named": false,
+ "prospect_score": 60,
+ "stack": [
+  "Palantir"
+ ],
+ "vendor_named": true,
  "deployments_detail": [
   {
    "company": "Babcock International",
@@ -48,6 +65,94 @@
    "url": "https://www.babcockinternational.com/news/babcock-launches-cutting-edge-ai-communications-intelligence-device-for-military-and-security-services-at-dsei/",
    "raw_sector": "Aerospace & defence",
    "date": "2025",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Babcock International",
+   "use": "Nomad - an AI-powered communications intelligence device that cleans, transcribes, translates and analyses voice and text data in real time at the tactical edge (operates offline in communications-denied environments), for military/security services [Babcock in-house (Mission Systems)]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.babcockinternational.com/news/babcock-launches-cutting-edge-ai-communications-intelligence-device-for-military-and-security-services-at-dsei/",
+   "raw_sector": "",
+   "date": "2025-09-09",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Babcock International",
+   "use": "Metis digital asset management and intelligence platform - uses AI to give a connected view of asset reliability, availability and readiness across the lifecycle; deployed with the British Army under the Service Provision and Transformation Contract managing 30,000+ vehicles [Babcock in-house]",
+   "existence": "confirmed",
+   "value": "manages more than 30,000 vehicles for the British Army",
+   "tier": "",
+   "url": "https://www.babcockinternational.com/news/babcocks-new-asset-intelligence-platform-boosts-readiness/",
+   "raw_sector": "",
+   "date": "2025-09-11",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Babcock International",
+   "use": "Babcock-developed machine-learning algorithm that localises and quantifies corrosion and paint blistering (using Aruco markers on ROV surveys of flooded/underwater spaces) and produces an automated digital survey report [Babcock in-house]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.babcockinternational.com/investors/capital-markets-day/capital-markets-day-virtual-exhibition/",
+   "raw_sector": "",
+   "date": "2024-01-01",
+   "fresh": "aging"
+  },
+  {
+   "company": "Babcock International",
+   "use": "Palantir Warp Speed manufacturing operating system integrated into warship build/through-life support (starting with the Arrowhead 140 frigate at Rosyth) - predictive support, real-time production visibility, bottleneck/risk prediction across schedules, workflows and supplier data [Palantir Technologies (Warp Speed)]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.navalnews.com/event-news/dsei-uk-2025/2025/09/babcock-and-palantir-enter-partnership-to-revolutionize-warship-production/",
+   "raw_sector": "",
+   "date": "2025-09-12",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Babcock International",
+   "use": "Machine-learning driven predictive support simulation and optimization tool for complex fleets (Babcock Canada) - optimizes aircraft, resource and inventory allocation while minimizing cost and maintaining compliance [Larus (AI/ML solutions provider)]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://babcockcanada.com/babcock-canada-partners-with-larus-to-develop-a-machine-learning-predictive-simulation-and-optimization-tool-for-complex-fleets/",
+   "raw_sector": "",
+   "date": "2025-05-22",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Babcock International",
+   "use": "Supply Chain Planning Tool using digital-twin and agent-based simulation for the British Army's Equipment Support - 'what-if' scenario analysis and stress-testing of readiness, sustainment and regeneration (modelling supply loss, combat attrition); integrated with Babcock's Metis [Skyral]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.skyral.com/2025/09/10/babcock-international-group-babcock-the-defence-company-and-skyral-announce-strategic-partnership-to-transform-equipment-support-and-sustainment-for-the-british-army/",
+   "raw_sector": "",
+   "date": "2025-09-10",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Babcock International",
+   "use": "Enterprise-wide Palantir Foundry data platform for defence - transforming, capturing, integrating, modelling and building data-driven solutions; Palantir usage growing across Babcock's data application estate and used in graduate/data analytics programmes [Palantir Technologies UK (Foundry)]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.babcockinternational.com/news/babcock-strengthens-its-data-capabilities-in-defence-with-palantir-partnership/",
+   "raw_sector": "",
+   "date": "2023-09-13",
+   "fresh": "stale"
+  },
+  {
+   "company": "Babcock International",
+   "use": "Digital engineering transformation on Dassault Systemes 3DEXPERIENCE platform - AI-powered science-based virtual/digital twins to simulate and validate systems across shipbuilding, submarine support, nuclear and aviation programmes [Dassault Systemes (3DEXPERIENCE)]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.3ds.com/newsroom/press-releases/euronorth/babcock-collaborates-dassault-systemes-accelerate-digital-engineering",
+   "raw_sector": "",
+   "date": "2026-07-01",
    "fresh": "fresh"
   }
  ]

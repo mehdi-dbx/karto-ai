@@ -3,22 +3,22 @@
  "name": "Norsk Hydro",
  "cc": "NO",
  "vertical": "Mining & Materials",
- "deployments": 3,
- "confirmed": 3,
+ "deployments": 5,
+ "confirmed": 4,
  "with_value_number": 0,
  "proof_rate": 0.0,
  "mktcap": 15747663551.0,
  "revenue": 19125233645.0,
  "employees": 33400.0,
  "silent": false,
- "per_bn_revenue": 0.16,
- "per_10k_emp": 0.9,
+ "per_bn_revenue": 0.26,
+ "per_10k_emp": 1.5,
  "benchmarks": {
   "global_vertical": {
-   "deployments": 90,
-   "confirmed": 92,
+   "deployments": 57,
+   "confirmed": 56,
    "proof_rate": 0,
-   "n": 61
+   "n": 62
   }
  },
  "first_seen": 2024,
@@ -28,16 +28,18 @@
    "n": 1
   }
  ],
- "undated_pct": 67,
+ "undated_pct": 80,
  "momentum": "early_mover,gone_quiet",
  "maturity": "L3",
  "maturity_evidence": [
   "multi_horizontal",
   "named_product:Predictive"
  ],
- "prospect_score": 66,
- "stack": [],
- "vendor_named": false,
+ "prospect_score": 64,
+ "stack": [
+  "SAP"
+ ],
+ "vendor_named": true,
  "deployments_detail": [
   {
    "company": "Norsk Hydro",
@@ -71,6 +73,28 @@
    "raw_sector": "Materials",
    "date": "2024",
    "fresh": "aging"
+  },
+  {
+   "company": "Norsk Hydro",
+   "use": "AI-driven skills management and learning recommendations for workforce professional development [SAP]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://news.sap.com/2024/09/norsk-hydro-empowers-talent-ai-skills/?amp=1",
+   "raw_sector": "",
+   "date": "Sep 3, 2024",
+   "fresh": "undated"
+  },
+  {
+   "company": "Norsk Hydro",
+   "use": "Automated and intelligent content strategy with personalized content by region and persona [Optimizely]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.optimizely.com/field-notes/customer-stories/norsk-hydro",
+   "raw_sector": "",
+   "date": "missing",
+   "fresh": "undated"
   }
  ]
 }

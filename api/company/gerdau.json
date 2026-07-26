@@ -3,27 +3,27 @@
  "name": "Gerdau",
  "cc": "BR",
  "vertical": "Manufacturing & Robotics",
- "deployments": 1,
- "confirmed": 1,
- "with_value_number": 1,
- "proof_rate": 1.0,
+ "deployments": 5,
+ "confirmed": 4,
+ "with_value_number": 4,
+ "proof_rate": 0.8,
  "mktcap": 8275925926.0,
  "revenue": 12814814815.0,
  "employees": 30000.0,
  "silent": false,
- "per_bn_revenue": 0.08,
- "per_10k_emp": 0.33,
+ "per_bn_revenue": 0.39,
+ "per_10k_emp": 1.67,
  "benchmarks": {
   "global_vertical": {
-   "deployments": 0,
-   "confirmed": 24,
-   "proof_rate": 85,
-   "n": 147
+   "deployments": 58,
+   "confirmed": 66,
+   "proof_rate": 98,
+   "n": 150
   },
   "country_vertical": {
-   "deployments": 0,
-   "confirmed": 0,
-   "proof_rate": 50,
+   "deployments": 75,
+   "confirmed": 62,
+   "proof_rate": 75,
    "n": 9
   }
  },
@@ -34,17 +34,33 @@
    "n": 1
   }
  ],
- "undated_pct": 0,
+ "undated_pct": 80,
  "momentum": "early_mover,gone_quiet",
  "maturity": "L3",
  "maturity_evidence": [
   "named_product:Azure",
   "value_number"
  ],
- "prospect_score": 14,
- "stack": [],
- "vendor_named": false,
+ "prospect_score": 32,
+ "stack": [
+  "Databricks",
+  "Microsoft",
+  "Microsoft Azure",
+  "OpenAI"
+ ],
+ "vendor_named": true,
  "deployments_detail": [
+  {
+   "company": "Gerdau",
+   "use": "LLM-Powered Upskilling Assistant for steel manufacturing [LLM/Generative AI]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.zenml.io/llmops-database/llm-powered-upskilling-assistant-in-steel-manufacturing",
+   "raw_sector": "",
+   "date": "missing",
+   "fresh": "undated"
+  },
   {
    "company": "Gerdau",
    "use": "AI system (Azure OpenAI) reading technical standards and analyzing products/quotations for customers - launched AI Innovation Center in 2024",
@@ -55,6 +71,39 @@
    "raw_sector": "Materiais básicos",
    "date": "2024",
    "fresh": "aging"
+  },
+  {
+   "company": "Gerdau",
+   "use": "ML-based workflow for steel production cost reduction and alloy conservation [Fero Labs]",
+   "existence": "confirmed",
+   "value": "$3/ton",
+   "tier": "",
+   "url": "https://www.ferolabs.com/insights/post/how-gerdau-saved-3-ton-of-steel-with-white-box-machine-learning",
+   "raw_sector": "",
+   "date": "March 2023",
+   "fresh": "undated"
+  },
+  {
+   "company": "Gerdau",
+   "use": "Azure AI Services for quotation accuracy and standards/product analysis [Microsoft Azure AI]",
+   "existence": "confirmed",
+   "value": "95% accuracy, 65% cost reduction",
+   "tier": "",
+   "url": "https://www.microsoft.com/en/customers/story/23515-gerdau-azure-ai-services",
+   "raw_sector": "",
+   "date": "Apr 22, 2025",
+   "fresh": "undated"
+  },
+  {
+   "company": "Gerdau",
+   "use": "Databricks-based data infrastructure for manufacturing workflow optimization and data processing cost reduction [Databricks]",
+   "existence": "confirmed",
+   "value": "40% data processing costs reduction, 80% savings in new developments",
+   "tier": "",
+   "url": "https://www.databricks.com/customers/gerdau",
+   "raw_sector": "",
+   "date": "missing",
+   "fresh": "undated"
   }
  ]
 }

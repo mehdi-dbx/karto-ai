@@ -3,46 +3,63 @@
  "name": "Mindray Bio-Medical Electronics",
  "cc": "CN",
  "vertical": "Healthcare & Life Sciences",
- "deployments": 2,
- "confirmed": 2,
- "with_value_number": 0,
- "proof_rate": 0.0,
+ "deployments": 12,
+ "confirmed": 10,
+ "with_value_number": 3,
+ "proof_rate": 0.25,
  "mktcap": 25330555556.0,
  "revenue": 4638888889.0,
  "employees": 21288.0,
  "silent": false,
- "per_bn_revenue": 0.43,
- "per_10k_emp": 0.94,
+ "per_bn_revenue": 2.59,
+ "per_10k_emp": 5.64,
  "benchmarks": {
   "global_vertical": {
-   "deployments": 75,
-   "confirmed": 79,
-   "proof_rate": 0,
-   "n": 165
+   "deployments": 84,
+   "confirmed": 87,
+   "proof_rate": 57,
+   "n": 168
   },
   "country_vertical": {
-   "deployments": 88,
+   "deployments": 100,
    "confirmed": 100,
-   "proof_rate": 0,
-   "n": 9
+   "proof_rate": 44,
+   "n": 10
   }
  },
- "first_seen": 2025,
+ "first_seen": 2021,
  "by_year": [
   {
+   "year": 2021,
+   "n": 2
+  },
+  {
+   "year": 2024,
+   "n": 4
+  },
+  {
    "year": 2025,
+   "n": 4
+  },
+  {
+   "year": 2026,
    "n": 2
   }
  ],
  "undated_pct": 0,
- "momentum": "rising",
- "maturity": "L3",
+ "momentum": "early_mover,rising",
+ "maturity": "L4",
  "maturity_evidence": [
-  "named_product:Qiyuan"
+  "multi_horizontal",
+  "named_product:Qiyuan",
+  "value_number",
+  "multi_year"
  ],
- "prospect_score": 60,
- "stack": [],
- "vendor_named": false,
+ "prospect_score": 90,
+ "stack": [
+  "DeepSeek"
+ ],
+ "vendor_named": true,
  "deployments_detail": [
   {
    "company": "Mindray Bio-Medical Electronics",
@@ -63,6 +80,116 @@
    "tier": "I",
    "url": "https://finance.sina.com.cn",
    "raw_sector": "Health Care",
+   "date": "2025",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Mindray Bio-Medical Electronics",
+   "use": "Qiyuan (Qi Yuan) Critical Care Large Model, the world's first clinically-implemented critical care LLM, co-developed with Tencent. Handles disease Q&A, treatment suggestions, medical record writing and critical-illness knowledge query; integrates patient conditions in ~5 seconds, generates a medical record in ~1 minute, and answers knowledge queries with 95% accuracy. [Tencent (co-developed); Mindray proprietary Qiyuan LLM]",
+   "existence": "confirmed",
+   "value": "95% accuracy on critical knowledge queries; ~1-minute medical record generation; 5-second patient condition integration",
+   "tier": "",
+   "url": "https://www.eyeshenzhen.com/content/2024-12/17/content_31396123.htm",
+   "raw_sector": "",
+   "date": "2024-12",
+   "fresh": "aging"
+  },
+  {
+   "company": "Mindray Bio-Medical Electronics",
+   "use": "Qiyuan Intelli-Digital AI deployed at Shanghai Renji Hospital for critical care and perioperative decision support (creates digital patient twins, 24/7 real-time monitoring, automated clinical documentation) as part of a Device+IT+AI ecosystem across digital ORs and ICU beds. [Mindray Qiyuan LLM]",
+   "existence": "confirmed",
+   "value": "Reduced liver transplant surgery time by ~50%",
+   "tier": "",
+   "url": "https://biopharmaapac.com/news/21/7485/mindray-medical-sets-decade-long-growth-agenda-at-j-p-morgan-healthcare-conference-built-on-globalisation-recurring-revenue-and-intelli-digitalisation.html",
+   "raw_sector": "",
+   "date": "2026-01",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Mindray Bio-Medical Electronics",
+   "use": "Resona A20 premium ultrasound system built on the Acoustic Intelligence Technology (AIT) platform, with AI tools including Smart Breast, Smart Thyroid, Automated Liver STE and AI-powered personalized workflow settings for image optimization and automated measurement. [Mindray (proprietary AIT / Acoustic Intelligence Technology)]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.mindray.com/na/products/ultrasound/general-imaging/resona-a20/",
+   "raw_sector": "",
+   "date": "2024-11",
+   "fresh": "aging"
+  },
+  {
+   "company": "Mindray Bio-Medical Electronics",
+   "use": "MiCo+ Medical Imaging IT platform plus M9 portable ultrasound with iWorks Automated Workflow (auto-identifies and measures key diagnostic parameters) deployed for AI-assisted remote ultrasound and teleconsultation at Saudi Arabia's SEHA Virtual Hospital, running across 10 Primary Healthcare Clinics. [Mindray (MiCo+, M9 iWorks)]",
+   "existence": "confirmed",
+   "value": "Deployed across 10 Primary Healthcare Clinics; SVH network connects 224+ hospitals, 58,000 beneficiaries, capacity 480,000+ patients/year",
+   "tier": "",
+   "url": "https://www.mindray.com/en/innovation/customer-stories/mico-plus-breakthrough-saudi-arabia-virtual-hospital",
+   "raw_sector": "",
+   "date": "2026-02",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Mindray Bio-Medical Electronics",
+   "use": "QiYuan Laboratory Medicine LLM launched at Southern Medical University (SMU) Shenzhen Hospital, extending the Qiyuan model family to laboratory medicine for sample/report interpretation and lab data analysis. [Mindray Qiyuan LLM]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.mindray.com/en/innovation/customer-stories/qiyuan-ai-lab-smsh",
+   "raw_sector": "",
+   "date": "2025",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Mindray Bio-Medical Electronics",
+   "use": "Nuewa women's-health / OB-GYN ultrasound systems (Nuewa R9 / I9) with AI automation tools: Smart FLC (auto follicle detection and volume from 3D ovarian images), Smart-VTrace, Smart Pelvic and Smart Hip for automated obstetric and gynecologic measurement. [Mindray (proprietary Smart AI tools)]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.mindray.com/en/products/ultrasound/women-health/nuewa-r9",
+   "raw_sector": "",
+   "date": "2021-06",
+   "fresh": "stale"
+  },
+  {
+   "company": "Mindray Bio-Medical Electronics",
+   "use": "M9 point-of-care / cardiac portable ultrasound with AI-powered tools including Auto DFR and Smart IVC that automate complex cardiac calculations and repetitive measurement processes. [Mindray (Auto DFR, Smart IVC)]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://store.mavenimaging.com/products/m9-premium-ultrasound-system",
+   "raw_sector": "",
+   "date": "2024",
+   "fresh": "aging"
+  },
+  {
+   "company": "Mindray Bio-Medical Electronics",
+   "use": "Collaboration with Tencent AI Lab to jointly develop AI-assisted blood cell morphology analyzers for the complete blood count (CBC) test, using Tencent machine-learning/computer-vision algorithms plus Mindray slide-processing and clinical data to reduce microscopist workload and false negatives in leukemia screening; framework agreement, IVD product development. [Tencent AI Lab]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.mindray.com/en/media-center/news/mindray-and-tencent-ai-lab-collaborates-on-intelligent-morphology-solution",
+   "raw_sector": "",
+   "date": "2021-02",
+   "fresh": "stale"
+  },
+  {
+   "company": "Mindray Bio-Medical Electronics",
+   "use": "SAFEMIND smart-ICU project: Mindray supported (as data-connectivity provider and research collaborator) an ESICM machine-learning research effort led by Charite Universitatsmedizin Berlin to build a smart alarm-management/monitoring system reducing alarm fatigue and improving ICU patient safety. [ESICM / Charite (research); Mindray data integration]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.mindray.com/en/media-center/news/smart-icus-ai-enabled-critical-care-trend-esicm-lives-2024",
+   "raw_sector": "",
+   "date": "2024-10",
+   "fresh": "aging"
+  },
+  {
+   "company": "Mindray Bio-Medical Electronics",
+   "use": "Mindray received ISO/IEC 42001 certification for its AI management system, formalizing governance, risk management and responsible-AI practices for its clinical AI products (Responsible AI program). [Mindray (ISO/IEC 42001 AI Management System)]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.mindray.com/en/solutions/responsible-ai",
+   "raw_sector": "",
    "date": "2025",
    "fresh": "fresh"
   }

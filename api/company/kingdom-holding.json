@@ -3,27 +3,27 @@
  "name": "Kingdom Holding",
  "cc": "SA",
  "vertical": "Financial Services",
- "deployments": 1,
- "confirmed": 0,
- "with_value_number": 0,
- "proof_rate": 0.0,
+ "deployments": 2,
+ "confirmed": 1,
+ "with_value_number": 1,
+ "proof_rate": 0.5,
  "mktcap": 11938666667.0,
  "revenue": 672000000.0,
  "employees": null,
  "silent": false,
- "per_bn_revenue": 1.49,
+ "per_bn_revenue": 2.98,
  "per_10k_emp": null,
  "benchmarks": {
   "global_vertical": {
-   "deployments": 0,
-   "confirmed": 0,
-   "proof_rate": 0,
-   "n": 377
+   "deployments": 5,
+   "confirmed": 5,
+   "proof_rate": 78,
+   "n": 388
   },
   "country_vertical": {
-   "deployments": 0,
-   "confirmed": 0,
-   "proof_rate": 0,
+   "deployments": 9,
+   "confirmed": 9,
+   "proof_rate": 100,
    "n": 12
   }
  },
@@ -34,13 +34,14 @@
    "n": 1
   }
  ],
- "undated_pct": 0,
+ "undated_pct": 50,
  "momentum": "rising",
- "maturity": "L1",
+ "maturity": "L3",
  "maturity_evidence": [
-  "rows_no_confirmed"
+  "named_product:Strategic",
+  "value_number"
  ],
- "prospect_score": 40,
+ "prospect_score": 34,
  "stack": [],
  "vendor_named": false,
  "deployments_detail": [
@@ -54,6 +55,17 @@
    "raw_sector": "Investment",
    "date": "2025",
    "fresh": "fresh"
+  },
+  {
+   "company": "Kingdom Holding",
+   "use": "Strategic investment in xAI for AI model development and data center infrastructure [xAI]",
+   "existence": "confirmed",
+   "value": "$800 million",
+   "tier": "",
+   "url": "https://kingdom.com.sa/news/kingdom-holding-company-increases-investment-in-xai-to-usd-800-million-in-series-c-financing-round",
+   "raw_sector": "",
+   "date": "missing",
+   "fresh": "undated"
   }
  ]
 }

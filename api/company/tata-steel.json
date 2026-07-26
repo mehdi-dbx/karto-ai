@@ -3,41 +3,59 @@
  "name": "Tata Steel",
  "cc": "IN",
  "vertical": "Mining & Materials",
- "deployments": 1,
- "confirmed": 1,
- "with_value_number": 1,
- "proof_rate": 1.0,
+ "deployments": 12,
+ "confirmed": 11,
+ "with_value_number": 7,
+ "proof_rate": 0.583,
  "mktcap": 28072289157.0,
  "revenue": 27951807229.0,
  "employees": 112262.0,
  "silent": false,
- "per_bn_revenue": 0.04,
- "per_10k_emp": 0.09,
+ "per_bn_revenue": 0.43,
+ "per_10k_emp": 1.07,
  "benchmarks": {
   "global_vertical": {
-   "deployments": 0,
-   "confirmed": 37,
-   "proof_rate": 80,
-   "n": 61
+   "deployments": 92,
+   "confirmed": 97,
+   "proof_rate": 98,
+   "n": 62
   },
   "country_vertical": {
-   "deployments": 0,
-   "confirmed": 17,
-   "proof_rate": 67,
-   "n": 7
+   "deployments": 100,
+   "confirmed": 100,
+   "proof_rate": 100,
+   "n": 8
   }
  },
- "first_seen": null,
- "by_year": [],
- "undated_pct": 100,
- "momentum": "none",
- "maturity": "L3",
- "maturity_evidence": [
-  "value_number"
+ "first_seen": 2024,
+ "by_year": [
+  {
+   "year": 2024,
+   "n": 1
+  },
+  {
+   "year": 2025,
+   "n": 2
+  },
+  {
+   "year": 2026,
+   "n": 8
+  }
  ],
- "prospect_score": 14,
- "stack": [],
- "vendor_named": false,
+ "undated_pct": 8,
+ "momentum": "early_mover,rising",
+ "maturity": "L4",
+ "maturity_evidence": [
+  "multi_horizontal",
+  "named_product:Safety",
+  "value_number",
+  "multi_year"
+ ],
+ "prospect_score": 77,
+ "stack": [
+  "Google Cloud"
+ ],
+ "vendor_named": true,
  "deployments_detail": [
   {
    "company": "Tata Steel",
@@ -49,6 +67,127 @@
    "raw_sector": "Metals & Mining",
    "date": "missing",
    "fresh": "undated"
+  },
+  {
+   "company": "Tata Steel",
+   "use": "Asset Sphere agents: evaluate equipment health to provide proactive/predictive maintenance plans and prevent unplanned downtime [Google Cloud]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.crnasia.com/india/news/2026/tata-steel-deploys-over-300-ai-agents-in-nine-months-with-google-cloud",
+   "raw_sector": "",
+   "date": "2026-04-23",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Tata Steel",
+   "use": "Predictive maintenance at the Hot Strip Mill: anomaly-detection + classification ML models on drive/roll sensor data to predict roll failures and prevent unplanned downtime [Xomnia]",
+   "existence": "claimed",
+   "value": "potential to detect up to 80% of production-line issues; target preventing 10% of unplanned downtime",
+   "tier": "",
+   "url": "https://xomnia.com/tata-steel-predicts-manufacturing-problems-with-machine-learning/",
+   "raw_sector": "",
+   "date": "2024-07-01",
+   "fresh": "aging"
+  },
+  {
+   "company": "Tata Steel",
+   "use": "Enterprise AI model portfolio (YETQP): 588+ AI/ML models across yield, energy efficiency, throughput, quality and productivity, plus operations & machine digital twins for remote intelligent operations and maintenance [none]",
+   "existence": "confirmed",
+   "value": "over 588 AI models built; ~75% focused on manufacturing excellence",
+   "tier": "",
+   "url": "https://www.tatasteel.com/investors/integrated-report-2024-25/intellectual-capital.html",
+   "raw_sector": "",
+   "date": "2025-09-17",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Tata Steel",
+   "use": "Safety EyeQ: agentic AI analyzing live video feeds from CCTV in high-risk manufacturing zones to detect SOP violations and hazards (e.g. equipment moving near hot materials) and alert teams in real time [Google Cloud (Agent Development Kit, Cloud Run)]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.tatasteel.com/newsroom/press-releases/india/2026/tata-steel-partners-with-google-cloud-to-deploy-a-unified-agentic-ai-across-its-global-value-chain/",
+   "raw_sector": "",
+   "date": "2026-04-22",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Tata Steel",
+   "use": "HR helpdesk agent autonomously resolving routine employee HR tickets via the Tata Steel Digital Assistant (TDA) [Google Cloud]",
+   "existence": "confirmed",
+   "value": "70% of routine HR helpdesk tickets resolved autonomously",
+   "tier": "",
+   "url": "https://www.crnasia.com/india/news/2026/tata-steel-deploys-over-300-ai-agents-in-nine-months-with-google-cloud",
+   "raw_sector": "",
+   "date": "2026-04-23",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Tata Steel",
+   "use": "Finance agents: automated invoice processing and GST classification (creditable/non-creditable) [Google Cloud]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.crnasia.com/india/news/2026/tata-steel-deploys-over-300-ai-agents-in-nine-months-with-google-cloud",
+   "raw_sector": "",
+   "date": "2026-04-23",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Tata Steel",
+   "use": "Contract analysis agent reviewing and extracting insights from contracts [Google Cloud]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.crnasia.com/india/news/2026/tata-steel-deploys-over-300-ai-agents-in-nine-months-with-google-cloud",
+   "raw_sector": "",
+   "date": "2026-04-23",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Tata Steel",
+   "use": "Customer complaint analysis agent: analyses complaint data including images to detect intent, route to relevant teams and speed resolution [Google Cloud]",
+   "existence": "confirmed",
+   "value": "50% reduction in average customer complaint turnaround time",
+   "tier": "",
+   "url": "https://www.tatasteel.com/newsroom/press-releases/india/2026/tata-steel-partners-with-google-cloud-to-deploy-a-unified-agentic-ai-across-its-global-value-chain/",
+   "raw_sector": "",
+   "date": "2026-04-22",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Tata Steel",
+   "use": "Zen AI: internal low-code platform letting non-data-scientists (developers, frontline managers) build, test and deploy specialized AI agents using Google Cloud ADK, BigQuery and Cloud Storage [Google Cloud (Agent Development Kit, BigQuery)]",
+   "existence": "confirmed",
+   "value": "300+ agents deployed in 9 months",
+   "tier": "",
+   "url": "https://www.tatasteel.com/newsroom/press-releases/india/2026/tata-steel-partners-with-google-cloud-to-deploy-a-unified-agentic-ai-across-its-global-value-chain/",
+   "raw_sector": "",
+   "date": "2026-04-22",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Tata Steel",
+   "use": "AI-supported online retail sales platform (Aashiyana) for individual home builders, with AI-driven customer experience/complaint resolution [none]",
+   "existence": "confirmed",
+   "value": "~Rs 500 crore monthly online sales revenue",
+   "tier": "",
+   "url": "https://www.tatasteel.com/investors/integrated-report-2024-25/intellectual-capital.html",
+   "raw_sector": "",
+   "date": "2025-09-17",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Tata Steel",
+   "use": "Geopolitical sentiment analysis agent generating market intelligence for procurement/commercial decisions [Google Cloud]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.tatasteel.com/newsroom/press-releases/india/2026/tata-steel-partners-with-google-cloud-to-deploy-a-unified-agentic-ai-across-its-global-value-chain/",
+   "raw_sector": "",
+   "date": "2026-04-22",
+   "fresh": "fresh"
   }
  ]
 }

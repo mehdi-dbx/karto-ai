@@ -3,47 +3,176 @@
  "name": "TJX Companies",
  "cc": "US",
  "vertical": "Retail & E-commerce",
- "deployments": 1,
- "confirmed": 0,
- "with_value_number": 0,
- "proof_rate": 0.0,
+ "deployments": 17,
+ "confirmed": 6,
+ "with_value_number": 3,
+ "proof_rate": 0.176,
  "mktcap": 169300000000.0,
  "revenue": 61580000000.0,
  "employees": 377000.0,
  "silent": false,
- "per_bn_revenue": 0.02,
- "per_10k_emp": 0.03,
+ "per_bn_revenue": 0.28,
+ "per_10k_emp": 0.45,
  "benchmarks": {
   "global_vertical": {
-   "deployments": 0,
-   "confirmed": 0,
-   "proof_rate": 0,
-   "n": 295
+   "deployments": 95,
+   "confirmed": 63,
+   "proof_rate": 43,
+   "n": 301
   },
   "country_vertical": {
-   "deployments": 0,
-   "confirmed": 0,
-   "proof_rate": 0,
+   "deployments": 87,
+   "confirmed": 52,
+   "proof_rate": 39,
    "n": 80
   }
  },
- "first_seen": 2025,
+ "first_seen": 2024,
  "by_year": [
   {
-   "year": 2025,
+   "year": 2024,
    "n": 1
+  },
+  {
+   "year": 2025,
+   "n": 8
+  },
+  {
+   "year": 2026,
+   "n": 2
   }
  ],
- "undated_pct": 0,
- "momentum": "rising",
- "maturity": "L1",
+ "undated_pct": 35,
+ "momentum": "early_mover,rising",
+ "maturity": "L4",
  "maturity_evidence": [
-  "rows_no_confirmed"
+  "multi_horizontal",
+  "named_product:CEO",
+  "value_number",
+  "multi_year"
  ],
- "prospect_score": 40,
- "stack": [],
- "vendor_named": false,
+ "prospect_score": 69,
+ "stack": [
+  "Amazon AWS",
+  "Baidu",
+  "Cohere",
+  "Databricks",
+  "Google",
+  "Microsoft",
+  "Palantir"
+ ],
+ "vendor_named": true,
  "deployments_detail": [
+  {
+   "company": "TJX Companies",
+   "use": "AI to enhance customer service, cited by the CEO as one of the targeted areas where AI could dovetail into TJX operations. [not disclosed]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.investing.com/news/transcripts/earnings-call-transcript-tjx-companies-q3-2025-beats-expectations-stock-rises-93CH-4368389",
+   "raw_sector": "",
+   "date": "2025-11-19",
+   "fresh": "fresh"
+  },
+  {
+   "company": "TJX Companies",
+   "use": "AI-driven in-store analytics: analyzing physical-store data such as customer traffic patterns and product performance to run stores more efficiently and augment associates' work. CEO Ernie Herrman named in-store analytics as an active AI focus area on the Q3 FY2026 earnings call. [not disclosed]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.aitrace.org/company/tjx-companies",
+   "raw_sector": "",
+   "date": "2025-11-19",
+   "fresh": "fresh"
+  },
+  {
+   "company": "TJX Companies",
+   "use": "AI/ML supporting buying and planning and inventory/pricing optimization across the store network, while preserving merchants' judgment ('secret sauce'). Described as inventory & pricing optimization routing ~11,000 items/week to stores. [not disclosed]",
+   "existence": "confirmed",
+   "value": "~11,000 items per week routed per store (business figure, not an AI-specific metric)",
+   "tier": "",
+   "url": "https://www.aitrace.org/company/tjx-companies",
+   "raw_sector": "",
+   "date": "2026-03-23",
+   "fresh": "fresh"
+  },
+  {
+   "company": "TJX Companies",
+   "use": "Machine learning to monitor TJX's 21,000+ global vendor network, flagging excess inventory / scoring deals so buying teams can quickly secure off-price merchandise (vendor intelligence). [not disclosed]",
+   "existence": "claimed",
+   "value": "21,000+ vendors (network size, not an AI metric)",
+   "tier": "",
+   "url": "https://brandsensitize.com/treasure-hunt-2-0-how-tjx-turns-ai-into-retail-gold/",
+   "raw_sector": "",
+   "date": "2025-09-01",
+   "fresh": "fresh"
+  },
+  {
+   "company": "TJX Companies",
+   "use": "Named as a Microsoft Copilot customer/case study [Microsoft Copilot] [Microsoft Copilot]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.appsruntheworld.com/customers-database/products/view/microsoft-365-copilot",
+   "raw_sector": "",
+   "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "TJX Companies",
+   "use": "Named as a Amazon Bedrock customer/case study [Amazon Bedrock] [Amazon Bedrock]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.appsruntheworld.com/customers-database/products/view/amazon-bedrock",
+   "raw_sector": "",
+   "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "TJX Companies",
+   "use": "Named as a Google Gemini / Vertex AI customer/case study [Google Gemini / Vertex AI] [Google Gemini / Vertex AI]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.appsruntheworld.com/customers-database/products/view/google-cloud-vertex-ai",
+   "raw_sector": "",
+   "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "TJX Companies",
+   "use": "Named as a Databricks customer/case study [Databricks] [Databricks]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.appsruntheworld.com/customers-database/products/view/microsoft-azure-databricks-ai",
+   "raw_sector": "",
+   "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "TJX Companies",
+   "use": "Named as a Palantir customer/case study [Palantir] [Palantir]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.appsruntheworld.com/customers-database/products/view/palantir-aip-platform",
+   "raw_sector": "",
+   "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "TJX Companies",
+   "use": "Named as a Cohere customer/case study [Cohere] [Cohere]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.appsruntheworld.com/customers-database/products/view/cohere-ai",
+   "raw_sector": "",
+   "date": "missing",
+   "fresh": "undated"
+  },
   {
    "company": "TJX Companies",
    "use": "10-K: \"planning to take a TJX approach\" deploying AI (in-store analytics, augmenting associates) — measured/early stage, no named production system",
@@ -53,6 +182,72 @@
    "url": "https://www.tjx.com/docs/default-source/investor-docs/annual-reports/tjx-2025-annual-report-and-10-k.pdf",
    "raw_sector": "Consumer Discretionary",
    "date": "2025",
+   "fresh": "fresh"
+  },
+  {
+   "company": "TJX Companies",
+   "use": "Energy Management Information System (EMIS) / smart-building platform centralizing store building systems, with automated fault detection & diagnostics and automated maintenance task prioritization across U.S. stores. [KODE Labs (KODE OS)]",
+   "existence": "confirmed",
+   "value": "platform claims up to 30% energy/carbon reduction (vendor general claim, not TJX-verified)",
+   "tier": "",
+   "url": "https://kodelabs.com/resources/kode-labs-selected-by-the-tjx-companies-inc-as-provider-of-emis-platform/",
+   "raw_sector": "",
+   "date": "2024-06-17",
+   "fresh": "aging"
+  },
+  {
+   "company": "TJX Companies",
+   "use": "Artificial intelligence used to assist in screening and assessing job applicants for TJX Canada roles (recruiting/HR), as disclosed in standard applicant notices on TJX Canada job postings. [not disclosed]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://jobs.tjx.com/global/en/job/REQ138217/Loss-Prevention-Store-Investigations-Supervisor",
+   "raw_sector": "",
+   "date": "2026-07-14",
+   "fresh": "fresh"
+  },
+  {
+   "company": "TJX Companies",
+   "use": "AI applied to HR processes to handle large volumes of cumbersome information more efficiently. CEO Herrman flagged HR as an area 'where I think we're going to get some really big benefit.' [not disclosed]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.investing.com/news/transcripts/earnings-call-transcript-tjx-companies-q3-2025-beats-expectations-stock-rises-93CH-4368389",
+   "raw_sector": "",
+   "date": "2025-11-19",
+   "fresh": "fresh"
+  },
+  {
+   "company": "TJX Companies",
+   "use": "AI for marketing optimization; CEO said it is 'really at the beginning' of evaluating which marketing processes would benefit from implementing AI. [not disclosed]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.investing.com/news/transcripts/earnings-call-transcript-tjx-companies-q3-2025-beats-expectations-stock-rises-93CH-4368389",
+   "raw_sector": "",
+   "date": "2025-11-19",
+   "fresh": "fresh"
+  },
+  {
+   "company": "TJX Companies",
+   "use": "AI to help IT teams deliver and operate more efficiently, named by the CEO as one of the areas TJX teams are pursuing. [not disclosed]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.investing.com/news/transcripts/earnings-call-transcript-tjx-companies-q3-2025-beats-expectations-stock-rises-93CH-4368389",
+   "raw_sector": "",
+   "date": "2025-11-19",
+   "fresh": "fresh"
+  },
+  {
+   "company": "TJX Companies",
+   "use": "AI for fraud detection and cybersecurity/payment-system security, working alongside the existing security team. Named by CEO Ernie Herrman as an AI area 'that could work out well' on the earnings call. [not disclosed]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.investing.com/news/transcripts/earnings-call-transcript-tjx-companies-q3-2025-beats-expectations-stock-rises-93CH-4368389",
+   "raw_sector": "",
+   "date": "2025-11-19",
    "fresh": "fresh"
   }
  ]

@@ -3,26 +3,26 @@
  "name": "Chevron Corporation",
  "cc": "US",
  "vertical": "Energy & Utilities",
- "deployments": 1,
- "confirmed": 1,
+ "deployments": 4,
+ "confirmed": 3,
  "with_value_number": 0,
  "proof_rate": 0.0,
  "mktcap": 387690000000.0,
  "revenue": 185740000000.0,
  "employees": 43039.0,
  "silent": false,
- "per_bn_revenue": 0.01,
- "per_10k_emp": 0.23,
+ "per_bn_revenue": 0.02,
+ "per_10k_emp": 0.93,
  "benchmarks": {
   "global_vertical": {
-   "deployments": 0,
-   "confirmed": 20,
+   "deployments": 40,
+   "confirmed": 48,
    "proof_rate": 0,
-   "n": 210
+   "n": 213
   },
   "country_vertical": {
-   "deployments": 0,
-   "confirmed": 39,
+   "deployments": 47,
+   "confirmed": 55,
    "proof_rate": 0,
    "n": 52
   }
@@ -34,15 +34,18 @@
    "n": 1
   }
  ],
- "undated_pct": 0,
+ "undated_pct": 75,
  "momentum": "rising",
  "maturity": "L3",
  "maturity_evidence": [
+  "multi_horizontal",
   "named_product:ApEX",
   "tier_p"
  ],
- "prospect_score": 46,
- "stack": [],
+ "prospect_score": 58,
+ "stack": [
+  "Microsoft"
+ ],
  "vendor_named": true,
  "deployments_detail": [
   {
@@ -55,6 +58,39 @@
    "raw_sector": "Energy",
    "date": "2025",
    "fresh": "fresh"
+  },
+  {
+   "company": "Chevron Corporation",
+   "use": "Energy production and efficiency optimization for AI data center power supply",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.chevron.com/newsroom/2025/q1/chevron-uses-ai-to-bring-reliable-energy-to-data-centers",
+   "raw_sector": "",
+   "date": "Mar 14, 2025",
+   "fresh": "undated"
+  },
+  {
+   "company": "Chevron Corporation",
+   "use": "ApEX generative AI platform for subsurface exploration and oil/gas prospecting",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.chevron.com/newsroom/2025/q4/a-smarter-way-to-prospect-for-oil-and-gas",
+   "raw_sector": "",
+   "date": "Nov 12, 2025",
+   "fresh": "undated"
+  },
+  {
+   "company": "Chevron Corporation",
+   "use": "Named as a Microsoft Copilot customer/case study [Microsoft Copilot] [Microsoft Copilot]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.microsoft.com/en-us/power-platform/blog/power-apps/power-platform-stories/",
+   "raw_sector": "",
+   "date": "missing",
+   "fresh": "undated"
   }
  ]
 }

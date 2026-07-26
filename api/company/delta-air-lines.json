@@ -3,28 +3,28 @@
  "name": "Delta Air Lines",
  "cc": "US",
  "vertical": "Industrial / Machinery",
- "deployments": 1,
- "confirmed": 1,
- "with_value_number": 1,
- "proof_rate": 1.0,
+ "deployments": 7,
+ "confirmed": 5,
+ "with_value_number": 2,
+ "proof_rate": 0.286,
  "mktcap": 53260000000.0,
  "revenue": 68290000000.0,
  "employees": 103000.0,
  "silent": false,
- "per_bn_revenue": 0.01,
- "per_10k_emp": 0.1,
+ "per_bn_revenue": 0.1,
+ "per_10k_emp": 0.68,
  "benchmarks": {
   "global_vertical": {
-   "deployments": 0,
-   "confirmed": 14,
-   "proof_rate": 79,
-   "n": 175
+   "deployments": 61,
+   "confirmed": 63,
+   "proof_rate": 75,
+   "n": 176
   },
   "country_vertical": {
-   "deployments": 0,
-   "confirmed": 19,
-   "proof_rate": 89,
-   "n": 80
+   "deployments": 61,
+   "confirmed": 58,
+   "proof_rate": 81,
+   "n": 81
   }
  },
  "first_seen": 2025,
@@ -34,17 +34,42 @@
    "n": 1
   }
  ],
- "undated_pct": 0,
+ "undated_pct": 86,
  "momentum": "early_mover,rising",
  "maturity": "L3",
  "maturity_evidence": [
+  "multi_horizontal",
   "named_product:Fetcherr",
   "value_number"
  ],
- "prospect_score": 14,
- "stack": [],
- "vendor_named": false,
+ "prospect_score": 59,
+ "stack": [
+  "Amazon AWS"
+ ],
+ "vendor_named": true,
  "deployments_detail": [
+  {
+   "company": "Delta Air Lines",
+   "use": "Generative AI-powered virtual assistant (Delta Concierge) for digital travel assistance",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.customerexperiencedive.com/news/delta-begins-roll-out-generative-ai-virtual-assistant-concierge/803899/",
+   "raw_sector": "",
+   "date": "Oct 28, 2025",
+   "fresh": "undated"
+  },
+  {
+   "company": "Delta Air Lines",
+   "use": "Multi-modal transportation AI for personalized travel journey",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://news.delta.com/delta-unveils-ai-powered-travel-journey-new-multi-modal-transportation-options",
+   "raw_sector": "",
+   "date": "Jan 7, 2025",
+   "fresh": "undated"
+  },
   {
    "company": "Delta Air Lines",
    "use": "AI-enabled dynamic ticket pricing (Fetcherr) — scaling from 3% to ~20% of fares by end-2025",
@@ -55,6 +80,50 @@
    "raw_sector": "Industrials",
    "date": "2025",
    "fresh": "fresh"
+  },
+  {
+   "company": "Delta Air Lines",
+   "use": "AI-based revenue management technology for dynamic pricing",
+   "existence": "claimed",
+   "value": "20%",
+   "tier": "",
+   "url": "https://www.cnbc.com/amp/2025/07/22/delta-plans-to-use-ai-in-ticket-pricing-draws-fire-from-us-lawmakers.html",
+   "raw_sector": "",
+   "date": "Jul 22, 2025",
+   "fresh": "undated"
+  },
+  {
+   "company": "Delta Air Lines",
+   "use": "Named as a Amazon Bedrock customer/case study [Amazon Bedrock] [Amazon Bedrock]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://aimagazine.com/articles/why-businesses-are-building-ai-strategy-on-amazon-bedrock",
+   "raw_sector": "",
+   "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "Delta Air Lines",
+   "use": "AI for baggage transfer system optimization",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.phocuswire.com/delta-air-lines-ai-throughout-business",
+   "raw_sector": "",
+   "date": "Sep 28, 2023",
+   "fresh": "undated"
+  },
+  {
+   "company": "Delta Air Lines",
+   "use": "Generative AI proof of concept for automated employee skill description transformation",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://news.sap.com/2023/09/generative-ai-employee-experience-delta/?amp=1",
+   "raw_sector": "",
+   "date": "Sep 6, 2023",
+   "fresh": "undated"
   }
  ]
 }

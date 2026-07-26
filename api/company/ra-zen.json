@@ -3,42 +3,68 @@
  "name": "Raízen",
  "cc": "BR",
  "vertical": "Energy & Utilities",
- "deployments": 1,
- "confirmed": 1,
- "with_value_number": 1,
- "proof_rate": 1.0,
+ "deployments": 9,
+ "confirmed": 9,
+ "with_value_number": 7,
+ "proof_rate": 0.778,
  "mktcap": 3616666667.0,
  "revenue": 44972222222.0,
  "employees": 40000.0,
  "silent": false,
- "per_bn_revenue": 0.02,
- "per_10k_emp": 0.25,
+ "per_bn_revenue": 0.2,
+ "per_10k_emp": 2.25,
  "benchmarks": {
   "global_vertical": {
-   "deployments": 0,
-   "confirmed": 20,
-   "proof_rate": 75,
-   "n": 210
+   "deployments": 78,
+   "confirmed": 88,
+   "proof_rate": 95,
+   "n": 213
   },
   "country_vertical": {
-   "deployments": 0,
-   "confirmed": 0,
-   "proof_rate": 67,
+   "deployments": 83,
+   "confirmed": 89,
+   "proof_rate": 94,
    "n": 19
   }
  },
- "first_seen": null,
- "by_year": [],
- "undated_pct": 100,
- "momentum": "none",
- "maturity": "L3",
+ "first_seen": 2021,
+ "by_year": [
+  {
+   "year": 2021,
+   "n": 1
+  },
+  {
+   "year": 2022,
+   "n": 1
+  },
+  {
+   "year": 2023,
+   "n": 2
+  },
+  {
+   "year": 2024,
+   "n": 2
+  },
+  {
+   "year": 2025,
+   "n": 2
+  }
+ ],
+ "undated_pct": 11,
+ "momentum": "early_mover,cooling",
+ "maturity": "L4",
  "maturity_evidence": [
+  "multi_horizontal",
+  "named_product:BIA",
   "value_number",
+  "multi_year",
   "tier_p"
  ],
- "prospect_score": 14,
- "stack": [],
- "vendor_named": false,
+ "prospect_score": 63,
+ "stack": [
+  "Microsoft"
+ ],
+ "vendor_named": true,
  "deployments_detail": [
   {
    "company": "Raízen",
@@ -50,6 +76,94 @@
    "raw_sector": "Oil & gas / bioenergy",
    "date": "missing",
    "fresh": "undated"
+  },
+  {
+   "company": "Raízen",
+   "use": "BIA, a generative-AI virtual assistant embedded in Microsoft Teams for ~20,000 employees, handling internal HR/IT/legal/procurement queries (vacation, policies, culture) with intent understanding despite typos. Live since Jan 2024. [Microsoft Teams (front-end); underlying gen-AI model not disclosed]",
+   "existence": "confirmed",
+   "value": "18,000+ interactions, 4,654 active users, 71% satisfaction; response time cut from ~4 hours to instant for simple requests",
+   "tier": "",
+   "url": "https://beneficios.ifood.com.br/acrescenta/artigos/ia-generativa-raizen",
+   "raw_sector": "",
+   "date": "2025-12-03",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Raízen",
+   "use": "Omnichannel customer-service operation for Shell Box end-consumers and resellers built on Zendesk, using Sunshine Conversations for contextual data-driven interactions across chat, WhatsApp, email and phone, with Zendesk Explore analytics driving automation. [Zendesk (Support, Sunshine Conversations, Explore)]",
+   "existence": "confirmed",
+   "value": "120 agents, 25,000+ monthly tickets, 80%+ efficiency gain in resolution, 50%+ increase in retention",
+   "tier": "",
+   "url": "https://www.zendesk.com.br/customer/raizen/",
+   "raw_sector": "",
+   "date": "2023-01-01",
+   "fresh": "stale"
+  },
+  {
+   "company": "Raízen",
+   "use": "Integra program 'Orquestrador' – proprietary AI that automatically prioritizes and schedules ~3,600 daily fuel-truck movements by analyzing 12+ factors (driver availability, product criticality), plus an intelligent fleet-management system optimizing diesel consumption and routing across 70+ distribution terminals. [Built in-house with Boston Consulting Group (BCG) consulting support]",
+   "existence": "confirmed",
+   "value": "R$60M invested; targeting R$250M supply-chain savings by 2025; R$230M in costs already cut since 2021; 5-hour reduction in truck load/unload time",
+   "tier": "",
+   "url": "https://www.raizen.com.br/sala-de-imprensa/com-r-60-milhoes-investidos-em-jornada-de-digitalizacao-raizen-supera-expectativas-em-supply-chain",
+   "raw_sector": "",
+   "date": "2024-04-08",
+   "fresh": "aging"
+  },
+  {
+   "company": "Raízen",
+   "use": "Machine-learning model to optimize predictive maintenance of sugarcane-harvester injector units – uses unsupervised clustering/failure classification, supervised component-lifespan prediction, and neural networks for image classification. Deployed on ~60 machines across three São Paulo mills (Bonfim, Serra, Araraquara) and being replicated company-wide. [Initial data-science consulting from Lean 4.0 (2021); ML operations run in-house]",
+   "existence": "confirmed",
+   "value": "R$58M in cumulative gains since 2021; 77% predictability of injector end-of-life",
+   "tier": "",
+   "url": "https://telesintese.com.br/raizen-economiza-r-58-milhoes-com-ia-em-colheitadeiras/",
+   "raw_sector": "",
+   "date": "2023-06-14",
+   "fresh": "stale"
+  },
+  {
+   "company": "Raízen",
+   "use": "AI applied across agricultural operations for real-time crop/plantation health monitoring, pest identification and control, agrochemical optimization, and irrigation modeling – processing 20,000+ operational variables and 3,500+ pieces of equipment in real time. [In-house (Central de Integração Agroindustrial); 100+ dedicated data/AI staff]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.raizen.com.br/blog/inteligencia-artificial-no-agronegocio",
+   "raw_sector": "",
+   "date": "2024-06-28",
+   "fresh": "aging"
+  },
+  {
+   "company": "Raízen",
+   "use": "Fire-prevention system in the Central de Inteligência Agrícola (CIA): integrates satellite data, IoT sensors, agrometeorology, drones and fixed AI-enabled cameras to monitor ~700,000 hectares of sugarcane 24/7 and identify critical fire-risk areas in real time. [In-house; 350 meteorological stations, drones, satellite monitoring]",
+   "existence": "confirmed",
+   "value": "700,000 hectares monitored; 350 weather stations; 732 firefighters, 300+ firefighting vehicles",
+   "tier": "",
+   "url": "https://visaoagro.com.br/raizen-reforca-atuacao-contra-incendios-com-tecnologias-e-mobilizacao-social/",
+   "raw_sector": "",
+   "date": "2025-10-13",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Raízen",
+   "use": "AI-driven enterprise Wi-Fi at Raízen's São Paulo HQ and Piracicaba offices using Juniper Mist AI (AIOps) and the Marvis conversational virtual network assistant for real-time troubleshooting and IT helpdesk automation. Now Raízen's standard Wi-Fi platform, fully replacing the incumbent. [Juniper Networks (Mist AI, Marvis), deployed with NEC]",
+   "existence": "confirmed",
+   "value": "~75% reduction in Mean Time to Repair (MTTR) anticipated",
+   "tier": "",
+   "url": "https://cioinfluence.com/itechnology-series-news/juniper-networks-and-nec-selected-to-revolutionize-wi-fi-experience-for-raizens-headquarters-in-brazil/",
+   "raw_sector": "",
+   "date": "2022-03-17",
+   "fresh": "stale"
+  },
+  {
+   "company": "Raízen",
+   "use": "IoT + AI solution to monitor truck-driver fatigue in real time, cross-referencing vehicle telemetry with driver health monitoring to predict fatigue and issue safety alerts for the fuel-transport fleet. [not disclosed in source snippet]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://mundologistica.com.br/noticias/raizen-usa-solucao-de-iot-para-analisar-fadiga-de-caminhoneiros",
+   "raw_sector": "",
+   "date": "2021-09-13",
+   "fresh": "stale"
   }
  ]
 }

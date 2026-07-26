@@ -3,28 +3,28 @@
  "name": "Southwest Airlines",
  "cc": "US",
  "vertical": "Industrial / Machinery",
- "deployments": 1,
- "confirmed": 1,
- "with_value_number": 0,
- "proof_rate": 0.0,
+ "deployments": 8,
+ "confirmed": 5,
+ "with_value_number": 2,
+ "proof_rate": 0.25,
  "mktcap": 22260000000.0,
  "revenue": 30070000000.0,
  "employees": 72790.0,
  "silent": false,
- "per_bn_revenue": 0.03,
- "per_10k_emp": 0.14,
+ "per_bn_revenue": 0.27,
+ "per_10k_emp": 1.1,
  "benchmarks": {
   "global_vertical": {
-   "deployments": 0,
-   "confirmed": 14,
-   "proof_rate": 0,
-   "n": 175
+   "deployments": 71,
+   "confirmed": 63,
+   "proof_rate": 66,
+   "n": 176
   },
   "country_vertical": {
-   "deployments": 0,
-   "confirmed": 19,
-   "proof_rate": 0,
-   "n": 80
+   "deployments": 71,
+   "confirmed": 58,
+   "proof_rate": 72,
+   "n": 81
   }
  },
  "first_seen": 2026,
@@ -34,19 +34,54 @@
    "n": 1
   }
  ],
- "undated_pct": 0,
- "momentum": "rising",
+ "undated_pct": 88,
+ "momentum": "late_entrant,rising",
  "maturity": "L3",
  "maturity_evidence": [
+  "multi_horizontal",
   "named_product:Knowledge",
+  "value_number",
   "tier_p"
  ],
- "prospect_score": 46,
+ "prospect_score": 60,
  "stack": [
   "Amazon AWS"
  ],
  "vendor_named": true,
  "deployments_detail": [
+  {
+   "company": "Southwest Airlines",
+   "use": "Chatbot technology for customer interactions",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://aiinstitute.hbs.edu/platform-digit/submission/leveraging-ai-machine-learning-at-southwest/",
+   "raw_sector": "",
+   "date": "Nov 29, 2022",
+   "fresh": "undated"
+  },
+  {
+   "company": "Southwest Airlines",
+   "use": "AI assistant co-pilot for customer service representatives",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.linkedin.com/pulse/how-southwest-using-agentic-ai-tame-operational-chaos-marc-jouve-zhgde",
+   "raw_sector": "",
+   "date": "8 months ago",
+   "fresh": "undated"
+  },
+  {
+   "company": "Southwest Airlines",
+   "use": "Dynamic pricing",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://aiinstitute.hbs.edu/platform-digit/submission/leveraging-ai-machine-learning-at-southwest/",
+   "raw_sector": "",
+   "date": "Nov 29, 2022",
+   "fresh": "undated"
+  },
   {
    "company": "Southwest Airlines",
    "use": "ML + GenAI/agentic AI for operations, disruption recovery + \"Knowledge & Policy Guru\" AI assistant (AWS partnership)",
@@ -57,6 +92,50 @@
    "raw_sector": "Industrials",
    "date": "2026",
    "fresh": "fresh"
+  },
+  {
+   "company": "Southwest Airlines",
+   "use": "Crew management software modernization using GenAI [PwC GenAI]",
+   "existence": "confirmed",
+   "value": "50% reduction in planning time",
+   "tier": "",
+   "url": "https://www.pwc.com/us/en/library/case-studies/southwest-ai-software-update.html",
+   "raw_sector": "",
+   "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "Southwest Airlines",
+   "use": "AI and automation for recruitment and hiring",
+   "existence": "confirmed",
+   "value": "10,000+ people hired since January 2022",
+   "tier": "",
+   "url": "https://www.phenom.com/resource/Southwest-Airlines-and-the-Human-Element-of-AI",
+   "raw_sector": "",
+   "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "Southwest Airlines",
+   "use": "Predictive AI for operational disruption analysis",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.chaione.com/blog/southwest-airlines-ai-travel",
+   "raw_sector": "",
+   "date": "Sep 3, 2025",
+   "fresh": "undated"
+  },
+  {
+   "company": "Southwest Airlines",
+   "use": "Customer segmentation",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://aiinstitute.hbs.edu/platform-digit/submission/leveraging-ai-machine-learning-at-southwest/",
+   "raw_sector": "",
+   "date": "Nov 29, 2022",
+   "fresh": "undated"
   }
  ]
 }

@@ -3,27 +3,27 @@
  "name": "Copel",
  "cc": "BR",
  "vertical": "Energy & Utilities",
- "deployments": 1,
- "confirmed": 1,
+ "deployments": 3,
+ "confirmed": 3,
  "with_value_number": 1,
- "proof_rate": 1.0,
+ "proof_rate": 0.333,
  "mktcap": 4870370370.0,
  "revenue": 4111111111.0,
  "employees": 4396.0,
  "silent": false,
- "per_bn_revenue": 0.24,
- "per_10k_emp": 2.27,
+ "per_bn_revenue": 0.73,
+ "per_10k_emp": 6.82,
  "benchmarks": {
   "global_vertical": {
-   "deployments": 0,
-   "confirmed": 20,
-   "proof_rate": 75,
-   "n": 210
+   "deployments": 25,
+   "confirmed": 48,
+   "proof_rate": 68,
+   "n": 213
   },
   "country_vertical": {
-   "deployments": 0,
-   "confirmed": 0,
-   "proof_rate": 67,
+   "deployments": 33,
+   "confirmed": 67,
+   "proof_rate": 39,
    "n": 19
   }
  },
@@ -34,16 +34,20 @@
    "n": 1
   }
  ],
- "undated_pct": 0,
+ "undated_pct": 67,
  "momentum": "late_entrant,rising",
  "maturity": "L3",
  "maturity_evidence": [
   "named_product:BlueShift",
   "value_number"
  ],
- "prospect_score": 14,
- "stack": [],
- "vendor_named": false,
+ "prospect_score": 45,
+ "stack": [
+  "Google",
+  "Google Cloud",
+  "SAP"
+ ],
+ "vendor_named": true,
  "deployments_detail": [
   {
    "company": "Copel",
@@ -55,6 +59,28 @@
    "raw_sector": "Utilidade pública, energia e saneamento",
    "date": "2026",
    "fresh": "fresh"
+  },
+  {
+   "company": "Copel",
+   "use": "AI agent for data access and real-time insights from SAP ERP [Google Cloud AI, Cortex Framework]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://cloud.google.com/customers/copel",
+   "raw_sector": "",
+   "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "Copel",
+   "use": "AI agent for on-premises system interaction [Gemini Pro 1.5]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://cloud.google.com/transform/101-real-world-generative-ai-use-cases-from-industry-leaders",
+   "raw_sector": "",
+   "date": "Apr 22, 2026",
+   "fresh": "undated"
   }
  ]
 }

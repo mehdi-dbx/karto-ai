@@ -3,40 +3,58 @@
  "name": "JD Logistics",
  "cc": "HK",
  "vertical": "Logistics & Supply Chain",
- "deployments": 2,
- "confirmed": 2,
- "with_value_number": 2,
- "proof_rate": 1.0,
+ "deployments": 12,
+ "confirmed": 11,
+ "with_value_number": 8,
+ "proof_rate": 0.667,
  "mktcap": 11114102564.0,
  "revenue": 33628205128.0,
  "employees": 682705.0,
  "silent": false,
- "per_bn_revenue": 0.06,
- "per_10k_emp": 0.03,
+ "per_bn_revenue": 0.36,
+ "per_10k_emp": 0.18,
  "benchmarks": {
   "global_vertical": {
-   "deployments": 65,
-   "confirmed": 74,
-   "proof_rate": 65,
-   "n": 66
+   "deployments": 88,
+   "confirmed": 97,
+   "proof_rate": 88,
+   "n": 67
   }
  },
- "first_seen": 2025,
+ "first_seen": 2020,
  "by_year": [
   {
-   "year": 2025,
+   "year": 2020,
+   "n": 1
+  },
+  {
+   "year": 2022,
    "n": 2
+  },
+  {
+   "year": 2024,
+   "n": 2
+  },
+  {
+   "year": 2025,
+   "n": 6
+  },
+  {
+   "year": 2026,
+   "n": 1
   }
  ],
  "undated_pct": 0,
  "momentum": "early_mover,rising",
- "maturity": "L3",
+ "maturity": "L4",
  "maturity_evidence": [
+  "multi_horizontal",
   "named_product:Self",
   "value_number",
+  "multi_year",
   "tier_p"
  ],
- "prospect_score": 12,
+ "prospect_score": 73,
  "stack": [],
  "vendor_named": true,
  "deployments_detail": [
@@ -61,6 +79,116 @@
    "raw_sector": "Logistics",
    "date": "2025-09",
    "fresh": "fresh"
+  },
+  {
+   "company": "JD Logistics",
+   "use": "Super Brain Large Model 2.0 — logistics decision-making LLM that autonomously analyzes complex supply-chain data and solves tens of millions of variables within 2 hours to optimize full-link operations (perceivable/predictable/executable), launched at JDD [JD Logistics (in-house)]",
+   "existence": "confirmed",
+   "value": "solves tens of millions of variables within 2 hours",
+   "tier": "",
+   "url": "https://news.aibase.com/news/21590",
+   "raw_sector": "",
+   "date": "2025-09-26",
+   "fresh": "fresh"
+  },
+  {
+   "company": "JD Logistics",
+   "use": "Yilang Robotic Arm System launched alongside Super Brain 2.0 to move warehouse robotics from decision support toward autonomous embodied execution [JD Logistics (in-house)]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://news.aibase.com/news/21590",
+   "raw_sector": "",
+   "date": "2025-09-26",
+   "fresh": "fresh"
+  },
+  {
+   "company": "JD Logistics",
+   "use": "ChatRhino (Yanxi) supply-chain LLM deployed in-house across logistics operations to support brands and improve warehouse/idle-time optimization [JD Cloud / JD.com (in-house ChatRhino LLM)]",
+   "existence": "confirmed",
+   "value": "supported over 5,000 brands; idle time conversion rates increased over 30%",
+   "tier": "",
+   "url": "https://www.jingdonglogistics.com/news/93",
+   "raw_sector": "",
+   "date": "2024-09-25",
+   "fresh": "aging"
+  },
+  {
+   "company": "JD Logistics",
+   "use": "Level-4 autonomous last-mile delivery robots operated in production during Singles' Day, serving Sam's Club and SEVEN FRESH stores and public-road routes across 10+ cities [JD Logistics (in-house L4 autonomous driving)]",
+   "existence": "confirmed",
+   "value": "700 robots deployed (600 outdoor, 100 indoor); robot-fulfilled orders up 300% YoY",
+   "tier": "",
+   "url": "https://jdcorporateblog.com/jd-logistics-operates-700-delivery-robots-to-serve-this-singles-day/",
+   "raw_sector": "",
+   "date": "2022-11-11",
+   "fresh": "stale"
+  },
+  {
+   "company": "JD Logistics",
+   "use": "Dulang intelligent autonomous delivery vehicles running regular cross-district nighttime routes in Shenzhen (Pingshan–Longgang), scaled from 2 to 331 routes with 100+ vehicles [JD Logistics (Dulang autonomous vehicles)]",
+   "existence": "confirmed",
+   "value": "331 routes and 100+ vehicles within three months; routes over 50 km",
+   "tier": "",
+   "url": "https://www.szpsq.gov.cn/english/News/LocalNews/content/post_12896322.html",
+   "raw_sector": "",
+   "date": "2026-07-15",
+   "fresh": "fresh"
+  },
+  {
+   "company": "JD Logistics",
+   "use": "Autonomous delivery drones for last-mile rural/village delivery, taking off automatically from regional delivery stations and following predetermined routes to remote areas [JD Logistics (in-house drone program)]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "http://global.chinadaily.com.cn/a/202504/08/WS67f49114a3104d9fd381e1a6.html",
+   "raw_sector": "",
+   "date": "2025-04-08",
+   "fresh": "fresh"
+  },
+  {
+   "company": "JD Logistics",
+   "use": "Zhilang intelligent goods-to-person (GTP) warehouse automation solution combining handling AGVs, lifting robots, shelving systems and automated inbound/picking [JD Logistics (Zhilang GTP)]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.jingdonglogistics.com/news/146",
+   "raw_sector": "",
+   "date": "2024-11-06",
+   "fresh": "aging"
+  },
+  {
+   "company": "JD Logistics",
+   "use": "Asia No.1 fully automated smart warehouse using ~200 warehouse robots and the Dilang AGV system that reads floor QR codes for autonomous goods handling [JD Logistics (Dilang AGV / in-house)]",
+   "existence": "confirmed",
+   "value": "~200 robots operating between 12-meter-high racks",
+   "tier": "",
+   "url": "https://jdcorporateblog.com/top-international-media-visit-jds-asia-no-1-warehouse/",
+   "raw_sector": "",
+   "date": "2020-09-05",
+   "fresh": "stale"
+  },
+  {
+   "company": "JD Logistics",
+   "use": "Five-year procurement plan to deploy AI robots, autonomous delivery vehicles and drones at scale across the logistics network (announced expansion of already-in-production automation) [JD Logistics]",
+   "existence": "claimed",
+   "value": "3 million robots, 1 million autonomous vehicles, 100,000 drones over five years",
+   "tier": "",
+   "url": "https://technode.com/2025/10/27/jd-logistics-unveils-five-year-plan-to-deploy-millions-of-robots-autonomous-vehicles-and-drones/",
+   "raw_sector": "",
+   "date": "2025-10-27",
+   "fresh": "fresh"
+  },
+  {
+   "company": "JD Logistics",
+   "use": "Yanxi smart customer service platform fully integrated into JD Logistics' service system, providing 24/7 online consultation robot, voice calling and voice-navigation for consumers and merchants [JD Cloud (Yanxi AI platform)]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://pandaily.com/jd-com-upgrades-smart-customer-services-product-yanxi",
+   "raw_sector": "",
+   "date": "2022-05-12",
+   "fresh": "stale"
   }
  ]
 }

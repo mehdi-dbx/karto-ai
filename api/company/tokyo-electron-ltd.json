@@ -3,49 +3,77 @@
  "name": "Tokyo Electron Ltd.",
  "cc": "JP",
  "vertical": "Electric Machinery & Electronics",
- "deployments": 1,
- "confirmed": 1,
+ "deployments": 4,
+ "confirmed": 4,
  "with_value_number": 1,
- "proof_rate": 1.0,
+ "proof_rate": 0.25,
  "mktcap": 199866666667.0,
  "revenue": 16266666667.0,
  "employees": 20236.0,
  "silent": false,
- "per_bn_revenue": 0.06,
- "per_10k_emp": 0.49,
+ "per_bn_revenue": 0.25,
+ "per_10k_emp": 1.98,
  "benchmarks": {
   "global_vertical": {
-   "deployments": 0,
-   "confirmed": 9,
-   "proof_rate": 79,
+   "deployments": 15,
+   "confirmed": 38,
+   "proof_rate": 68,
    "n": 35
   },
   "country_vertical": {
-   "deployments": 0,
-   "confirmed": 6,
-   "proof_rate": 77,
+   "deployments": 10,
+   "confirmed": 35,
+   "proof_rate": 65,
    "n": 32
   }
  },
- "first_seen": 2027,
+ "first_seen": 2026,
  "by_year": [
+  {
+   "year": 2026,
+   "n": 2
+  },
   {
    "year": 2027,
    "n": 1
   }
  ],
- "undated_pct": 0,
+ "undated_pct": 25,
  "momentum": "late_entrant,rising",
- "maturity": "L3",
+ "maturity": "L4",
  "maturity_evidence": [
+  "multi_horizontal",
   "named_product:Miyagi",
   "value_number",
+  "multi_year",
   "tier_p"
  ],
- "prospect_score": 14,
+ "prospect_score": 62,
  "stack": [],
  "vendor_named": false,
  "deployments_detail": [
+  {
+   "company": "Tokyo Electron Ltd.",
+   "use": "AI for semiconductor manufacturing tool design and 3D Integration technology for AI chip production",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.tel.com/news/topics/2026/20260626_001.html",
+   "raw_sector": "",
+   "date": "2026-06-26",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Tokyo Electron Ltd.",
+   "use": "Epsira field production efficiency optimization for enhanced productivity and yields",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.tel.com/news/topics/2026/20260716_001.html",
+   "raw_sector": "",
+   "date": "2026-07-16",
+   "fresh": "fresh"
+  },
   {
    "company": "Tokyo Electron Ltd.",
    "use": "AI + robotics to shorten semiconductor-equipment development period & halve customer installation time (Miyagi pilot 2027)",
@@ -56,6 +84,17 @@
    "raw_sector": "Electric Machinery",
    "date": "2027",
    "fresh": "fresh"
+  },
+  {
+   "company": "Tokyo Electron Ltd.",
+   "use": "Generative AI system deployed across the company",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.tel.com/sustainability/competitiveness/technological-innovation/index.html",
+   "raw_sector": "",
+   "date": "missing",
+   "fresh": "undated"
   }
  ]
 }

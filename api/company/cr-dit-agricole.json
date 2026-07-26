@@ -3,45 +3,55 @@
  "name": "Crédit Agricole",
  "cc": "FR",
  "vertical": "Financial Services",
- "deployments": 3,
- "confirmed": 3,
- "with_value_number": 3,
- "proof_rate": 1.0,
+ "deployments": 8,
+ "confirmed": 6,
+ "with_value_number": 5,
+ "proof_rate": 0.625,
  "mktcap": 59583600000.0,
  "revenue": 28598400000.0,
  "employees": 79848.0,
  "silent": false,
- "per_bn_revenue": 0.1,
- "per_10k_emp": 0.38,
+ "per_bn_revenue": 0.28,
+ "per_10k_emp": 1.0,
  "benchmarks": {
   "global_vertical": {
-   "deployments": 86,
-   "confirmed": 89,
-   "proof_rate": 76,
-   "n": 377
+   "deployments": 55,
+   "confirmed": 55,
+   "proof_rate": 90,
+   "n": 388
   },
   "country_vertical": {
-   "deployments": 86,
-   "confirmed": 86,
-   "proof_rate": 71,
+   "deployments": 57,
+   "confirmed": 57,
+   "proof_rate": 100,
    "n": 8
   }
  },
- "first_seen": 2026,
+ "first_seen": 2024,
  "by_year": [
   {
+   "year": 2024,
+   "n": 1
+  },
+  {
+   "year": 2025,
+   "n": 1
+  },
+  {
    "year": 2026,
-   "n": 2
+   "n": 3
   }
  ],
- "undated_pct": 33,
- "momentum": "late_entrant,rising",
- "maturity": "L3",
+ "undated_pct": 38,
+ "momentum": "early_mover,rising",
+ "maturity": "L4",
  "maturity_evidence": [
+  "multi_horizontal",
   "named_product:Accelerating",
-  "value_number"
+  "value_number",
+  "multi_year"
  ],
- "prospect_score": 26,
+ "prospect_score": 59,
  "stack": [],
  "vendor_named": false,
  "deployments_detail": [
@@ -75,6 +85,61 @@
    "tier": "I",
    "url": "https://www.lemagit.fr/etude/Le-Credit-Agricole-cultive-son-IA-Generative",
    "raw_sector": "Financial Services",
+   "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "Crédit Agricole",
+   "use": "AI industrial platforms development and operation across the Group",
+   "existence": "claimed",
+   "value": "€500 million",
+   "tier": "",
+   "url": "https://presse.credit-agricole.com/?p=63103",
+   "raw_sector": "",
+   "date": "2026-06-10",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Crédit Agricole",
+   "use": "30+ generative AI use cases for operational efficiency and developer assistance",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.artefact.com/blog/ibm-credit-agricole-bnp-paribas-at-ai-for-finance-by-artefact-generative-ai-a-new-lever-for-operational-performance/",
+   "raw_sector": "",
+   "date": "2024-09-17",
+   "fresh": "aging"
+  },
+  {
+   "company": "Crédit Agricole",
+   "use": "AI-based system for market research combining data from ~100 external sources",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.ca-cib.com/en/news/market-research-credit-agricole-cib-combines-ai-and-data",
+   "raw_sector": "",
+   "date": "2025-06-09",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Crédit Agricole",
+   "use": "AI Agent for customer service document handling",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://deviniti.com/software-development-case-studies/case-study-ai-agent-at-credit-agricole/",
+   "raw_sector": "",
+   "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "Crédit Agricole",
+   "use": "AI tool for anti-money laundering transaction analysis",
+   "existence": "confirmed",
+   "value": "750 million",
+   "tier": "",
+   "url": "https://www.acams.org/en/news/france-fines-credit-agricole-after-analyzing-750-million-transactions-using-ai",
+   "raw_sector": "",
    "date": "missing",
    "fresh": "undated"
   }

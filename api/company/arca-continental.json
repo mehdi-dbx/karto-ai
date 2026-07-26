@@ -3,47 +3,69 @@
  "name": "Arca Continental",
  "cc": "MX",
  "vertical": "Retail & E-commerce",
- "deployments": 3,
- "confirmed": 1,
- "with_value_number": 1,
- "proof_rate": 0.333,
+ "deployments": 11,
+ "confirmed": 7,
+ "with_value_number": 7,
+ "proof_rate": 0.636,
  "mktcap": 19348888889.0,
  "revenue": 13908333333.0,
  "employees": 70837.0,
  "silent": false,
- "per_bn_revenue": 0.22,
- "per_10k_emp": 0.42,
+ "per_bn_revenue": 0.79,
+ "per_10k_emp": 1.55,
  "benchmarks": {
   "global_vertical": {
-   "deployments": 87,
-   "confirmed": 24,
-   "proof_rate": 67,
-   "n": 295
+   "deployments": 80,
+   "confirmed": 69,
+   "proof_rate": 91,
+   "n": 301
   },
   "country_vertical": {
-   "deployments": 88,
-   "confirmed": 75,
-   "proof_rate": 62,
+   "deployments": 75,
+   "confirmed": 50,
+   "proof_rate": 100,
    "n": 9
   }
  },
- "first_seen": 2024,
+ "first_seen": 2016,
  "by_year": [
   {
+   "year": 2016,
+   "n": 1
+  },
+  {
+   "year": 2018,
+   "n": 1
+  },
+  {
    "year": 2024,
+   "n": 3
+  },
+  {
+   "year": 2025,
    "n": 2
+  },
+  {
+   "year": 2026,
+   "n": 3
   }
  ],
- "undated_pct": 33,
- "momentum": "early_mover,gone_quiet",
- "maturity": "L3",
+ "undated_pct": 9,
+ "momentum": "early_mover,rising",
+ "maturity": "L4",
  "maturity_evidence": [
+  "multi_horizontal",
   "named_product:Investment",
+  "value_number",
+  "multi_year",
   "tier_p"
  ],
- "prospect_score": 33,
+ "prospect_score": 57,
  "stack": [
-  "OpenAI"
+  "Microsoft",
+  "Microsoft Azure",
+  "OpenAI",
+  "SAP"
  ],
  "vendor_named": true,
  "deployments_detail": [
@@ -71,6 +93,39 @@
   },
   {
    "company": "Arca Continental",
+   "use": "WhatsApp-native conversational B2B order-taking that lets traditional-channel retailers place orders through an AI agent chat flow. [Jelou]",
+   "existence": "confirmed",
+   "value": "USD 2.5M in conversational B2B orders via WhatsApp",
+   "tier": "",
+   "url": "https://jelou.ai/en/case-studies",
+   "raw_sector": "",
+   "date": "2026",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Arca Continental",
+   "use": "TUALI B2B commerce platform for ~1 million small shopkeepers across Mexico, Peru, Ecuador and Argentina, featuring AI-powered predictive ordering, personalized promotions and loyalty; built by Arca Continental's Digital Nest. [Arca Continental Digital Nest (in-house)]",
+   "existence": "confirmed",
+   "value": "predecessor AC Digital generated USD 2.4B in sales in 2023 (60% of traditional-channel volume); TUALI targets ~1M shopkeepers",
+   "tier": "",
+   "url": "https://www.arcacontal.com/en/node/912",
+   "raw_sector": "",
+   "date": "2024-10",
+   "fresh": "aging"
+  },
+  {
+   "company": "Arca Continental",
+   "use": "Sales-driver causal analytics ('Project Why') built on Azure Machine Learning: 200+ regression models with ~20,000 coefficients combining 3 years of SAP sales data with weather, demographic, economic and local-event data to explain sales fluctuations via Sales Waterfall charts. [Microsoft Azure Machine Learning]",
+   "existence": "confirmed",
+   "value": "200+ regression models, ~20,000 coefficients, 3 years of historical sales data",
+   "tier": "",
+   "url": "https://www.linkedin.com/pulse/look-back-sparks-retail-revolution-ai-shish-shridhar-e9f9c",
+   "raw_sector": "",
+   "date": "2016",
+   "fresh": "stale"
+  },
+  {
+   "company": "Arca Continental",
    "use": "Investment in startup Sensify deploying computer vision AI to monitor refrigeration equipment and product availability",
    "existence": "confirmed",
    "value": "none",
@@ -79,6 +134,61 @@
    "raw_sector": "Beverages",
    "date": "missing",
    "fresh": "undated"
+  },
+  {
+   "company": "Arca Continental",
+   "use": "Computer-vision cooler intelligence: Sensify's 'Cooler Eye' smart camera monitors refrigerator interiors in real time to detect product-availability and distribution/execution improvement opportunities in the traditional channel; adopted via investment through AC Ventures with integration into AC operations. [Sensify (Cooler Eye, computer vision)]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.arcacontal.com/es/noticia/corporativa/invierte-arca-continental-en-emprendimiento-para-tecnificar-con-ia-equipos-de",
+   "raw_sector": "",
+   "date": "2025-04",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Arca Continental",
+   "use": "Conversational AI agents on WhatsApp (Jelou) that manage the full cooler-loan (comodato) flow for points of sale: guided request capture, automatic eligibility/stock verification, contract generation and delivery-team notifications, cutting approval from >2 days to minutes. [Jelou (Brain OS / WhatsApp AI agents)]",
+   "existence": "confirmed",
+   "value": "USD 7.3M in assets placed under comodato; 23,000 coolers deployed; approval time cut from >2 days to minutes; 85% implementation rate; 30% sales uplift at locations receiving coolers",
+   "tier": "",
+   "url": "https://jelou.ai/en/case-studies/arca-continental",
+   "raw_sector": "",
+   "date": "2026",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Arca Continental",
+   "use": "Predictive maintenance and predictive quality across manufacturing, using Siemens Insights Hub plus Senseye Predictive Maintenance (AI-driven analysis of machine sensor data) to predict machine failures and prevent downtime across 45 production sites in five countries. [Siemens (Insights Hub / Senseye Predictive Maintenance), IndX (integrator)]",
+   "existence": "confirmed",
+   "value": "prevented hours of downtime on a filler-labeler within 6 days of deployment; OEE up 3 percentage points; 45 sites across 5 countries",
+   "tier": "",
+   "url": "https://blogs.sw.siemens.com/insights-hub/2026/04/27/arca-continentals-data-driven-manufacturing-journey-from-transparency-to-predictive-action/",
+   "raw_sector": "",
+   "date": "2026-04",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Arca Continental",
+   "use": "Inventory optimization through SKU assortment using machine learning on Microsoft Azure, cited by Microsoft as an Arca Continental use case for reducing stockouts/overstock via ML-driven assortment. [Microsoft Azure (machine learning services)]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://download.microsoft.com/download/0/1/5/0150425C-14C7-41F4-97EA-3DE57B678C51/IndUC_InvOpt.pdf",
+   "raw_sector": "",
+   "date": "2018",
+   "fresh": "stale"
+  },
+  {
+   "company": "Arca Continental",
+   "use": "Digital Nest data-science unit (~200 experts) builds and runs machine-learning models and AI-applied-to-operations solutions to modernize the traditional channel serving ~1M clients across 5 countries (order-taking, commercial automation). [Arca Continental Digital Nest (in-house)]",
+   "existence": "confirmed",
+   "value": "~200 digital/data-science experts; serves ~1M clients across 5 countries",
+   "tier": "",
+   "url": "https://www.arcacontal.com/es/noticia/corporativa/impulsan-arca-continental-y-el-itesm-al-talento-universitario-con-hack4her",
+   "raw_sector": "",
+   "date": "2025-06",
+   "fresh": "fresh"
   }
  ]
 }

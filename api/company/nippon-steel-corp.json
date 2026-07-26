@@ -3,27 +3,27 @@
  "name": "Nippon Steel Corp.",
  "cc": "JP",
  "vertical": "Chemicals & Materials",
- "deployments": 10,
- "confirmed": 10,
+ "deployments": 13,
+ "confirmed": 11,
  "with_value_number": 4,
- "proof_rate": 0.4,
+ "proof_rate": 0.308,
  "mktcap": 21200000000.0,
  "revenue": 67066666667.0,
  "employees": 138453.0,
  "silent": false,
- "per_bn_revenue": 0.15,
- "per_10k_emp": 0.72,
+ "per_bn_revenue": 0.19,
+ "per_10k_emp": 0.94,
  "benchmarks": {
   "global_vertical": {
-   "deployments": 93,
-   "confirmed": 97,
-   "proof_rate": 64,
-   "n": 105
+   "deployments": 92,
+   "confirmed": 95,
+   "proof_rate": 73,
+   "n": 107
   },
   "country_vertical": {
    "deployments": 88,
    "confirmed": 97,
-   "proof_rate": 35,
+   "proof_rate": 62,
    "n": 35
   }
  },
@@ -35,7 +35,7 @@
   },
   {
    "year": 2019,
-   "n": 1
+   "n": 2
   },
   {
    "year": 2020,
@@ -54,7 +54,7 @@
    "n": 1
   }
  ],
- "undated_pct": 40,
+ "undated_pct": 46,
  "momentum": "early_mover,rising",
  "maturity": "L4",
  "maturity_evidence": [
@@ -64,9 +64,11 @@
   "multi_year",
   "tier_p"
  ],
- "prospect_score": 84,
+ "prospect_score": 88,
  "stack": [
-  "Microsoft"
+  "Microsoft",
+  "Microsoft Azure",
+  "OpenAI"
  ],
  "vendor_named": true,
  "deployments_detail": [
@@ -89,6 +91,39 @@
    "tier": "P",
    "url": "https://www.microsoft.com/ja-jp/customers/story/",
    "raw_sector": "Steel",
+   "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "Nippon Steel Corp.",
+   "use": "AI development system with data scientists supporting steel works operations",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.nipponsteel.com/en/news/20190425_200.html",
+   "raw_sector": "",
+   "date": "2019-04-25",
+   "fresh": "stale"
+  },
+  {
+   "company": "Nippon Steel Corp.",
+   "use": "Generative AI Prompt Contest to promote generative AI use within the company",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.nipponsteel.com/en/ir/library/pdf/nsc_en_ir_2025_all.pdf",
+   "raw_sector": "",
+   "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "Nippon Steel Corp.",
+   "use": "Remote management, prediction monitoring and automation of operation and equipment maintenance through IoT and AI",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.nipponsteel.com/en/company/dx/specific.html",
+   "raw_sector": "",
    "date": "missing",
    "fresh": "undated"
   },

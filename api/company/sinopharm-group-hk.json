@@ -3,50 +3,64 @@
  "name": "Sinopharm Group",
  "cc": "HK",
  "vertical": "Healthcare & Life Sciences",
- "deployments": 2,
- "confirmed": 2,
- "with_value_number": 0,
- "proof_rate": 0.0,
+ "deployments": 11,
+ "confirmed": 10,
+ "with_value_number": 5,
+ "proof_rate": 0.455,
  "mktcap": 6773076923.0,
  "revenue": 83687179487.0,
  "employees": 94910.0,
  "silent": false,
- "per_bn_revenue": 0.02,
- "per_10k_emp": 0.21,
+ "per_bn_revenue": 0.13,
+ "per_10k_emp": 1.16,
  "benchmarks": {
   "global_vertical": {
-   "deployments": 75,
-   "confirmed": 79,
-   "proof_rate": 0,
-   "n": 165
+   "deployments": 76,
+   "confirmed": 87,
+   "proof_rate": 79,
+   "n": 168
   },
   "country_vertical": {
-   "deployments": 71,
+   "deployments": 86,
    "confirmed": 86,
-   "proof_rate": 0,
+   "proof_rate": 71,
    "n": 8
   }
  },
- "first_seen": 2024,
+ "first_seen": 2021,
  "by_year": [
   {
-   "year": 2024,
+   "year": 2021,
    "n": 1
+  },
+  {
+   "year": 2023,
+   "n": 1
+  },
+  {
+   "year": 2024,
+   "n": 5
   },
   {
    "year": 2025,
    "n": 1
+  },
+  {
+   "year": 2026,
+   "n": 3
   }
  ],
  "undated_pct": 0,
- "momentum": "early_mover,flat",
+ "momentum": "early_mover,cooling",
  "maturity": "L4",
  "maturity_evidence": [
+  "multi_horizontal",
   "named_product:MES",
+  "value_number",
   "multi_year",
   "tier_p"
  ],
- "prospect_score": 60,
+ "prospect_score": 90,
  "stack": [],
  "vendor_named": false,
  "deployments_detail": [
@@ -81,6 +95,105 @@
    "url": "https://www.sinopharm.com/2025-07/31/c_20213.htm",
    "raw_sector": "Pharma",
    "date": "2025-07",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Sinopharm Group",
+   "use": "Multimodal chest/abdomen disease diagnostic imaging dataset ('imaging + text') for AI medical model training, 100,000+ precisely annotated cases and 40TB+ storage; registered at Beijing International Big Data Exchange as Beijing's first medical data transaction. Selected as a national SOE (SASAC) high-quality industry dataset. [Sinopharm Healthcare (国药医疗)]",
+   "existence": "confirmed",
+   "value": "100,000+ annotated cases; 40TB+ storage",
+   "tier": "",
+   "url": "https://www.sinopharm.com/2026-07/21/c_20666.htm",
+   "raw_sector": "",
+   "date": "2026-07-21",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Sinopharm Group",
+   "use": "AI-powered smart manufacturing at Sinopharm China Biologic: AI algorithms combined with the MES system's graphical/visual tools automatically audit and analyze electronic batch records for vaccine/biologics production, enabling 'visible, controllable, intelligent' quality control; part of a 5G+biopharma smart factory (recognized in the 2023 national 5G factory directory). [none]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.sinopharm.com/2024-08/15/c_19696.htm",
+   "raw_sector": "",
+   "date": "2024-08-15",
+   "fresh": "aging"
+  },
+  {
+   "company": "Sinopharm Group",
+   "use": "Sinopharm China Biologic supercomputing / data center high-performance scientific computing platform combining AI, big-data and molecular-simulation methods for bioinformatics, computational structural vaccinology, and computer-aided drug/vaccine screening to accelerate early-stage new-drug and vaccine R&D. [none]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.sinopharm.com/2024-08/15/c_19696.htm",
+   "raw_sector": "",
+   "date": "2024-08-15",
+   "fresh": "aging"
+  },
+  {
+   "company": "Sinopharm Group",
+   "use": "AI-assisted intelligent prescription review system for DTP/retail pharmacies safeguarding medical insurance fund safety; combines OCR, ultra-lightweight multimodal models and an LLM in three-stage coordination, cutting review time by 70%+ and intercepting 'problem prescriptions' with 90%+ accuracy. Selected as a national SOE (SASAC) AI high-value scenario case. [Sinopharm Digital Technology (国药数字科技) with National Control Sichuan]",
+   "existence": "confirmed",
+   "value": "review time efficiency +70%; problem-prescription interception accuracy >90%",
+   "tier": "",
+   "url": "https://www.sinopharm.com/2026-07/21/c_20666.htm",
+   "raw_sector": "",
+   "date": "2026-07-21",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Sinopharm Group",
+   "use": "AI-enabled intelligent pharmaceutical logistics center at Sinopharm Holding Guangzhou using Megvii's '3A' solution (AS/RS + AMR autonomous mobile robots + AI) orchestrated by the Hetu (河图) software OS, with AI robotic arms for depalletization and five-face vision scanning; upgraded live without halting operations. [Megvii (旷视科技) Hetu / 3A logistics OS]",
+   "existence": "confirmed",
+   "value": "warehouse efficiency +25%; storage density +15%; AI-arm depalletization efficiency +106%; annual labor savings >1M yuan",
+   "tier": "",
+   "url": "https://robotics.megvii.com/news1-254.html",
+   "raw_sector": "",
+   "date": "2021-10-20",
+   "fresh": "stale"
+  },
+  {
+   "company": "Sinopharm Group",
+   "use": "AI visual recheck / OCR recognition system for drug and medical-device receiving at Sinopharm Holding Guangdong logistics (Foshan) — text detection, image correction and OCR across tens of thousands of SKUs (manufacturer, name, spec, batch, production/expiry dates), reducing per-unit processing from ~2.5 minutes to 57 seconds at 99.9% accuracy. [Megvii (旷视科技) OCR / vision recognition]",
+   "existence": "confirmed",
+   "value": "processing time 2.5 min -> 57s; accuracy 99.9%; efficiency +50%+",
+   "tier": "",
+   "url": "https://robotics.megvii.com/news1-894.html",
+   "raw_sector": "",
+   "date": "2023-03-08",
+   "fresh": "stale"
+  },
+  {
+   "company": "Sinopharm Group",
+   "use": "AI visual recognition robotic arm with intelligent control for automated box picking at Sinopharm Logistics Chongqing Airport smart logistics center (disclosed in the 2024 annual report), reducing manual labor intensity in AS/RS picking. [none]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://en.sinopharm.com/pdf/SinopharmGroupCoLtd2024.pdf",
+   "raw_sector": "",
+   "date": "2024-12-31",
+   "fresh": "aging"
+  },
+  {
+   "company": "Sinopharm Group",
+   "use": "AI ticket/prescription OCR recognition at Sinopharm Holding Guoda Drugstore (国大药房): electronic prescriptions from the prescription-circulation platform are automatically read and key fields extracted for entry into the ERP, handling ~800,000 prescriptions per month with substantially reduced processing time and improved accuracy. [none]",
+   "existence": "confirmed",
+   "value": "~800,000 prescriptions processed per month",
+   "tier": "",
+   "url": "https://www.sinopharm.com/2024-08/26/c_19701.htm",
+   "raw_sector": "",
+   "date": "2024-08-26",
+   "fresh": "aging"
+  },
+  {
+   "company": "Sinopharm Group",
+   "use": "Group-wide HR digitalization upgrade building an AI-infused HR platform (Yonyou BIP Digital HR) with intelligent talent discovery (talent/organization profiles, HR analytics) and intelligent decision analysis across recruitment, compensation, performance and employee services. [Yonyou (用友) BIP Digital HR]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.yonyou.com/news/4719",
+   "raw_sector": "",
+   "date": "2026-02-06",
    "fresh": "fresh"
   }
  ]

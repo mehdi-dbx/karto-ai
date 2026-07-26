@@ -3,47 +3,61 @@
  "name": "Omron Corp.",
  "cc": "JP",
  "vertical": "Electric Machinery & Electronics",
- "deployments": 2,
- "confirmed": 2,
- "with_value_number": 0,
- "proof_rate": 0.0,
+ "deployments": 9,
+ "confirmed": 4,
+ "with_value_number": 1,
+ "proof_rate": 0.111,
  "mktcap": 7266666667.0,
  "revenue": 5115666667.0,
  "employees": 26050.0,
  "silent": false,
- "per_bn_revenue": 0.39,
- "per_10k_emp": 0.77,
+ "per_bn_revenue": 1.76,
+ "per_10k_emp": 3.45,
  "benchmarks": {
   "global_vertical": {
    "deployments": 53,
-   "confirmed": 53,
-   "proof_rate": 0,
+   "confirmed": 38,
+   "proof_rate": 35,
    "n": 35
   },
   "country_vertical": {
    "deployments": 48,
-   "confirmed": 48,
-   "proof_rate": 0,
+   "confirmed": 35,
+   "proof_rate": 29,
    "n": 32
   }
  },
- "first_seen": 2026,
+ "first_seen": 2024,
  "by_year": [
   {
-   "year": 2026,
+   "year": 2024,
    "n": 1
+  },
+  {
+   "year": 2025,
+   "n": 4
+  },
+  {
+   "year": 2026,
+   "n": 2
   }
  ],
- "undated_pct": 50,
- "momentum": "late_entrant,rising",
- "maturity": "L3",
+ "undated_pct": 22,
+ "momentum": "early_mover,rising",
+ "maturity": "L4",
  "maturity_evidence": [
+  "multi_horizontal",
   "named_product:AIZAQ",
+  "value_number",
+  "multi_year",
   "tier_p"
  ],
  "prospect_score": 60,
- "stack": [],
- "vendor_named": false,
+ "stack": [
+  "Amazon AWS",
+  "NVIDIA"
+ ],
+ "vendor_named": true,
  "deployments_detail": [
   {
    "company": "Omron Corp.",
@@ -66,6 +80,83 @@
    "raw_sector": "Electric Machinery",
    "date": "2026",
    "fresh": "fresh"
+  },
+  {
+   "company": "Omron Corp.",
+   "use": "AI-driven Automated Optical Inspection (AOI) technology for manufacturing",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://automation.omron.com/en/us/news/omron-at-ipc-apex-2025",
+   "raw_sector": "",
+   "date": "2025-02-13",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Omron Corp.",
+   "use": "AI-driven control systems integrating real-time data to adjust machine parameters",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://industrial.omron.eu/en/news-discover/blog/from-optimization-to-autonomy-top-five-manufacturing-automation-trends-for-2025-from-omron",
+   "raw_sector": "",
+   "date": "2025-01-04",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Omron Corp.",
+   "use": "LLM-powered AI assistants integrated with Sysmac Studio and NVIDIA Omniverse for digital twin manufacturing [Aww Inc., NVIDIA Omniverse]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.roboticstomorrow.com/news/2025/03/20/omron-automation-software-sysmac-studio-and-nvidia-omniverse-collaborate-to-innovate-digital-twin-manufacturing-solutions/24485",
+   "raw_sector": "",
+   "date": "2025-03-20",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Omron Corp.",
+   "use": "AIZAQ companywide generative AI project for voluntary employee use",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.omron.com/global/en/edge-link/news/1478.html",
+   "raw_sector": "",
+   "date": "2024-11-19",
+   "fresh": "aging"
+  },
+  {
+   "company": "Omron Corp.",
+   "use": "Generative AI for analytics and business operations [AWS]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://aws.amazon.com/blogs/machine-learning/shaping-the-future-omrons-data-driven-journey-with-aws/",
+   "raw_sector": "",
+   "date": "2025-04-03",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Omron Corp.",
+   "use": "AI automation of payment voucher approvals",
+   "existence": "confirmed",
+   "value": "50%",
+   "tier": "",
+   "url": "https://fastaccounting.ai/case/omron/",
+   "raw_sector": "",
+   "date": "2026-04-08",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Omron Corp.",
+   "use": "Generative AI to simplify customs processes in global operations",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.linkedin.com/posts/omron-corporation_aizaq-generativeai-customsprocedures-activity-7358738672134840320-eIs2",
+   "raw_sector": "",
+   "date": "missing",
+   "fresh": "undated"
   }
  ]
 }

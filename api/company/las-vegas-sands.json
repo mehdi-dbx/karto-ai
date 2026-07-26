@@ -3,42 +3,68 @@
  "name": "Las Vegas Sands",
  "cc": "US",
  "vertical": "Retail & E-commerce",
- "deployments": 1,
- "confirmed": 0,
- "with_value_number": 0,
- "proof_rate": 0.0,
+ "deployments": 9,
+ "confirmed": 5,
+ "with_value_number": 3,
+ "proof_rate": 0.333,
  "mktcap": 30370000000.0,
  "revenue": 13720000000.0,
  "employees": 41500.0,
  "silent": false,
- "per_bn_revenue": 0.07,
- "per_10k_emp": 0.24,
+ "per_bn_revenue": 0.66,
+ "per_10k_emp": 2.17,
  "benchmarks": {
   "global_vertical": {
-   "deployments": 0,
-   "confirmed": 0,
-   "proof_rate": 0,
-   "n": 295
+   "deployments": 64,
+   "confirmed": 53,
+   "proof_rate": 62,
+   "n": 301
   },
   "country_vertical": {
-   "deployments": 0,
-   "confirmed": 0,
-   "proof_rate": 0,
+   "deployments": 49,
+   "confirmed": 38,
+   "proof_rate": 66,
    "n": 80
   }
  },
- "first_seen": null,
- "by_year": [],
- "undated_pct": 100,
- "momentum": "none",
- "maturity": "L1",
- "maturity_evidence": [
-  "rows_no_confirmed"
+ "first_seen": 2025,
+ "by_year": [
+  {
+   "year": 2025,
+   "n": 4
+  },
+  {
+   "year": 2026,
+   "n": 4
+  }
  ],
- "prospect_score": 40,
- "stack": [],
- "vendor_named": false,
+ "undated_pct": 11,
+ "momentum": "rising",
+ "maturity": "L4",
+ "maturity_evidence": [
+  "multi_horizontal",
+  "named_product:Fleet",
+  "value_number",
+  "multi_year"
+ ],
+ "prospect_score": 57,
+ "stack": [
+  "Anthropic",
+  "Microsoft"
+ ],
+ "vendor_named": true,
  "deployments_detail": [
+  {
+   "company": "Las Vegas Sands",
+   "use": "Sands China team members use LinkedIn Learning's AI Role Play tool to rehearse workplace and guest-service conversations with a generative-AI simulated guest/colleague as part of corporate training. [LinkedIn Learning (Microsoft)]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.linkedin.com/posts/sandschina_sandschina-linkedinlearning-recognition-activity-7401521065153531905-78Eg",
+   "raw_sector": "",
+   "date": "2025-12-01",
+   "fresh": "fresh"
+  },
   {
    "company": "Las Vegas Sands",
    "use": "no confirmed named AI deployment (only 3rd-party/general innovation statements)",
@@ -49,6 +75,83 @@
    "raw_sector": "Consumer Discretionary",
    "date": "missing",
    "fresh": "undated"
+  },
+  {
+   "company": "Las Vegas Sands",
+   "use": "Angel Smart Table System deployed across all mass-market baccarat tables (1,100+) at Sands China's Macau properties (Venetian Macao, Londoner Macao, Parisian Macao, Plaza Macao/Four Seasons, Sands Macao), using AI plus RFID to capture chip quantity, type and exact table location for automatic chip recognition and real-time bet statistics. [Angel Group]",
+   "existence": "confirmed",
+   "value": "1,100+ baccarat tables; rollout completed Feb 2025",
+   "tier": "",
+   "url": "https://asgam.com/2025/02/13/angel-confirms-roll-out-of-smart-table-system-across-all-mass-baccarat-tables-at-sands-chinas-macau-properties-now-complete/",
+   "raw_sector": "",
+   "date": "2025-02-13",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Las Vegas Sands",
+   "use": "Fleet of 12 autonomous mobile robots (AMRs) at Marina Bay Sands handling back-of-house deliveries across the hotel and Sands Expo & Convention Centre; robots use AI mapping, laser scanners and sensors to navigate ~20 pre-programmed routes, carry up to 300kg, and cut labour dependency by up to 30%. Five more AMRs planned for H2 2025. [not disclosed]",
+   "existence": "confirmed",
+   "value": "12 AMRs; up to 30% reduction in labour dependency; replaced 200+ manual deliveries/day across 80 routes",
+   "tier": "",
+   "url": "https://www.techgoondu.com/2025/06/18/robots-at-singapores-marina-bay-sands-cut-labour-dependency-by-30-per-cent/",
+   "raw_sector": "",
+   "date": "2025-06-18",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Las Vegas Sands",
+   "use": "Robotic Process Automation (software bots) at Marina Bay Sands automating over 200 work processes across business functions (finance, HR, uniform/wardrobe management with RFID 'U-Door' counting), redirecting staff to higher-value work. [not disclosed]",
+   "existence": "confirmed",
+   "value": "200+ processes automated; ~162,000 manhours redirected annually (est. 37,000 personnel hours in 2025 cited on MBS innovation page)",
+   "tier": "",
+   "url": "https://www.marinabaysands.com/company-information/innovation/robotic-process-automation.html",
+   "raw_sector": "",
+   "date": "2025-06-18",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Las Vegas Sands",
+   "use": "Sands China 'AI Up-Skilling Programme' — a workforce development program training team members and management in practical, hands-on application of AI tools and integration of AI technologies into their daily work; first cohort completed the program. [not disclosed]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://asgam.com/2026/06/18/sands-china-to-launch-program-teaching-management-to-apply-ai-in-the-workplace/",
+   "raw_sector": "",
+   "date": "2026-06-18",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Las Vegas Sands",
+   "use": "Sands China digital-payment partnership with Alipay and Macau Pass introducing an AI Payment Assistant — a natural-language tool letting businesses integrate payment functions via a single prompt — as part of upgrading local/cross-border payment capabilities at Sands Resorts Macao. [Macau Pass / Alipay]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.eqs-news.com/news/corporate/sands-china-alipay-and-macau-pass-deepen-partnership-to-drive-digital-upgrade/114faf0c-c567-4860-a64d-d86176df4e83_en",
+   "raw_sector": "",
+   "date": "2026-02-12",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Las Vegas Sands",
+   "use": "AI-First Software Development Lifecycle: Las Vegas Sands engineering runs an 'AI-First Development' program where AI agents are the primary producers of code, config and test artifacts, using tools including Claude Code, Cursor, GitHub Copilot and Windsurf, plus RAG pipelines, CLAUDE.md/AGENTS.md project-memory files and MCP servers, with humans doing context engineering and final review. [Anthropic (Claude Code), Cursor, GitHub Copilot, Windsurf]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.linkedin.com/jobs/view/principal-software-engineer-ai-first-development-at-las-vegas-sands-corp-4430194319",
+   "raw_sector": "",
+   "date": "2026-07-01",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Las Vegas Sands",
+   "use": "AI-First offensive security engineering: Las Vegas Sands application-security roles design and maintain AI agent workflows that produce offensive security tooling, exploit proof-of-concept code, attack automation and adversary-emulation artifacts within an AI-First SDLC, with humans reviewing/approving AI-generated tooling. [not disclosed (AI agents / LLMs)]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.linkedin.com/jobs/view/sr-application-security-engineer-ai-first-development-at-las-vegas-sands-corp-4430198243",
+   "raw_sector": "",
+   "date": "2026-06-19",
+   "fresh": "fresh"
   }
  ]
 }

@@ -3,42 +3,85 @@
  "name": "CaixaBank",
  "cc": "ES",
  "vertical": "Financial Services",
- "deployments": 1,
- "confirmed": 1,
- "with_value_number": 0,
- "proof_rate": 0.0,
+ "deployments": 13,
+ "confirmed": 12,
+ "with_value_number": 5,
+ "proof_rate": 0.385,
  "mktcap": 98550000000.0,
  "revenue": 16696800000.0,
  "employees": 47257.0,
  "silent": false,
- "per_bn_revenue": 0.06,
- "per_10k_emp": 0.21,
+ "per_bn_revenue": 0.78,
+ "per_10k_emp": 2.75,
  "benchmarks": {
   "global_vertical": {
-   "deployments": 0,
-   "confirmed": 17,
-   "proof_rate": 0,
-   "n": 377
+   "deployments": 87,
+   "confirmed": 90,
+   "proof_rate": 68,
+   "n": 388
   },
   "country_vertical": {
-   "deployments": 0,
-   "confirmed": 0,
-   "proof_rate": 0,
+   "deployments": 60,
+   "confirmed": 60,
+   "proof_rate": 60,
    "n": 6
   }
  },
- "first_seen": null,
- "by_year": [],
- "undated_pct": 100,
- "momentum": "none",
- "maturity": "L3",
- "maturity_evidence": [
-  "named_product:Group"
+ "first_seen": 2019,
+ "by_year": [
+  {
+   "year": 2019,
+   "n": 2
+  },
+  {
+   "year": 2021,
+   "n": 1
+  },
+  {
+   "year": 2022,
+   "n": 1
+  },
+  {
+   "year": 2024,
+   "n": 5
+  },
+  {
+   "year": 2025,
+   "n": 1
+  },
+  {
+   "year": 2026,
+   "n": 2
+  }
  ],
- "prospect_score": 54,
- "stack": [],
- "vendor_named": false,
+ "undated_pct": 8,
+ "momentum": "early_mover,cooling",
+ "maturity": "L4",
+ "maturity_evidence": [
+  "multi_horizontal",
+  "named_product:Group",
+  "value_number",
+  "multi_year"
+ ],
+ "prospect_score": 85,
+ "stack": [
+  "Google Cloud",
+  "Microsoft",
+  "Salesforce"
+ ],
+ "vendor_named": true,
  "deployments_detail": [
+  {
+   "company": "CaixaBank",
+   "use": "AI innovation laboratory with Microsoft (Barcelona) to develop AI solutions and metaverse use cases for financial services, including an employee 'cyberassistant' to reduce administrative tasks [Microsoft]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.caixabank.com/en/headlines/news/caixabank-and-microsoft-establish-innovation-laboratory-for-artificial-intelligence-solutions-and-the-metaverse",
+   "raw_sector": "",
+   "date": "2022-06-09",
+   "fresh": "stale"
+  },
   {
    "company": "CaixaBank",
    "use": "Group-wide generative AI deployment (phase 2); AI applied across customer conversations & digital contracting",
@@ -49,6 +92,127 @@
    "raw_sector": "Financial Services",
    "date": "missing",
    "fresh": "undated"
+  },
+  {
+   "company": "CaixaBank",
+   "use": "Generative AI agent in the mobile banking app that answers questions about products, compares options and recommends the best fit (initially card products); rolled out to 200,000 customers, built on Google Cloud AI [Google Cloud]",
+   "existence": "confirmed",
+   "value": "rolled out to 200,000 customers",
+   "tier": "",
+   "url": "https://www.caixabank.com/en/headlines/news/caixabank-develops-an-ai-agent-to-help-customers-explore-products-in-the-app",
+   "raw_sector": "",
+   "date": "2025-07-09",
+   "fresh": "fresh"
+  },
+  {
+   "company": "CaixaBank",
+   "use": "GalaxIA generative-AI Contact Centre Assistant that provides context-aware customer information to call-centre agents [none]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.caixabank.com/en/headlines/news/caixabank-starts-its-second-roll-out-of-generative-ai-across-the-entire-group",
+   "raw_sector": "",
+   "date": "2024-08-14",
+   "fresh": "aging"
+  },
+  {
+   "company": "CaixaBank",
+   "use": "GalaxIA generative-AI customer-service claims management that identifies, classifies and processes complaint cases [none]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.caixabank.com/en/headlines/news/caixabank-starts-its-second-roll-out-of-generative-ai-across-the-entire-group",
+   "raw_sector": "",
+   "date": "2024-08-14",
+   "fresh": "aging"
+  },
+  {
+   "company": "CaixaBank",
+   "use": "GalaxIA generative-AI Employee Assistant that improves internal search with natural, direct responses to boost employee productivity [none]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.caixabank.com/en/headlines/news/caixabank-starts-its-second-roll-out-of-generative-ai-across-the-entire-group",
+   "raw_sector": "",
+   "date": "2024-08-14",
+   "fresh": "aging"
+  },
+  {
+   "company": "CaixaBank",
+   "use": "AI system that automates management of returned direct-debit payments, deciding whether to permit, reject or postpone based on bill type, payment regularity and customer history [none]",
+   "existence": "confirmed",
+   "value": "99% accuracy; piloted in 600 branches; est. ~82,000 work hours saved if bank-wide; 450M direct debits/year",
+   "tier": "",
+   "url": "https://financialit.net/news/artificial-intelligence/caixabank-uses-artificial-intelligence-simplify-management-direct-debit",
+   "raw_sector": "",
+   "date": "2019-10-10",
+   "fresh": "stale"
+  },
+  {
+   "company": "CaixaBank",
+   "use": "GalaxIA generative-AI program: code-generation assistant to streamline programming, documentation and testing for developers (in production across the group) [none]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.caixabank.com/en/headlines/news/caixabank-starts-its-second-roll-out-of-generative-ai-across-the-entire-group",
+   "raw_sector": "",
+   "date": "2024-08-14",
+   "fresh": "aging"
+  },
+  {
+   "company": "CaixaBank",
+   "use": "AI behavioral-biometrics fraud prevention integrated into CaixaBankNow online banking, detecting anomalies in customers' habitual online-transaction behavior patterns (developed with Revelock) [Revelock]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.caixabank.com/en/headlines/news/caixabank-together-with-fraud-prevention-start-up-revelock-is-developing-an-artificial-intelligence-solution-to-reinforce-digital-security",
+   "raw_sector": "",
+   "date": "2021-09-20",
+   "fresh": "stale"
+  },
+  {
+   "company": "CaixaBank",
+   "use": "AI agent (Salesforce Agentforce) that assists customers when contracting the bank's full product range via website and app, guiding them up to the penultimate step of applying for a product; first Spanish bank to deploy across all digital customer conversations [Salesforce Agentforce]",
+   "existence": "confirmed",
+   "value": "~40 financial products; avg 6,000 conversations per month",
+   "tier": "",
+   "url": "https://www.caixabank.com/en/headlines/news/caixabank-extends-its-ai-agent-as-an-assistant-when-contracting-its-full-range-of-products-via-its-website-and-app",
+   "raw_sector": "",
+   "date": "2026-04-27",
+   "fresh": "fresh"
+  },
+  {
+   "company": "CaixaBank",
+   "use": "AI agent for digital onboarding / in-app product purchasing, first launched for pre-approved consumer loans (built on Salesforce Agentforce); app has 12M+ users [Salesforce Agentforce]",
+   "existence": "confirmed",
+   "value": "12 million+ app users",
+   "tier": "",
+   "url": "https://www.caixabank.com/en/headlines/news/caixabank-launches-the-first-ai-agent-that-assists-customers-in-purchasing-products-from-its-app",
+   "raw_sector": "",
+   "date": "2026-02-23",
+   "fresh": "fresh"
+  },
+  {
+   "company": "CaixaBank",
+   "use": "GalaxIA generative-AI 'Wall Conversations' feature that enhances the quality and volume of manager-to-customer messaging [none]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.caixabank.com/en/headlines/news/caixabank-starts-its-second-roll-out-of-generative-ai-across-the-entire-group",
+   "raw_sector": "",
+   "date": "2024-08-14",
+   "fresh": "aging"
+  },
+  {
+   "company": "CaixaBank",
+   "use": "Machine-learning / predictive models across the entire branch network, inTouch remote advising and CaixaBankNow that produce an 'intelligent list' identifying customers needing priority advice and the three most relevant products for each customer [none]",
+   "existence": "confirmed",
+   "value": "in full operation for 600+ inTouch advisers; piloted in 300+ branches; 900+ TB of data",
+   "tier": "",
+   "url": "https://www.caixabank.com/en/headlines/news/caixabank-extends-the-use-of-artificial-intelligence-to-its-entire-network-to-identify-customer-needs-and-tailor-commercial-services",
+   "raw_sector": "",
+   "date": "2019-10-25",
+   "fresh": "stale"
   }
  ]
 }

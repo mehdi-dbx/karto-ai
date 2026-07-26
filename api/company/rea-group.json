@@ -3,40 +3,53 @@
  "name": "REA Group",
  "cc": "AU",
  "vertical": "Media / Entertainment / Gaming",
- "deployments": 1,
- "confirmed": 1,
- "with_value_number": 0,
- "proof_rate": 0.0,
+ "deployments": 12,
+ "confirmed": 12,
+ "with_value_number": 4,
+ "proof_rate": 0.333,
  "mktcap": 13740000000.0,
  "revenue": 1266666667.0,
  "employees": 3418.0,
  "silent": false,
- "per_bn_revenue": 0.79,
- "per_10k_emp": 2.93,
+ "per_bn_revenue": 9.47,
+ "per_10k_emp": 35.11,
  "benchmarks": {
   "global_vertical": {
-   "deployments": 0,
-   "confirmed": 18,
-   "proof_rate": 0,
+   "deployments": 82,
+   "confirmed": 91,
+   "proof_rate": 62,
    "n": 35
   }
  },
- "first_seen": 2025,
+ "first_seen": 2023,
  "by_year": [
   {
+   "year": 2023,
+   "n": 5
+  },
+  {
    "year": 2025,
-   "n": 1
+   "n": 4
+  },
+  {
+   "year": 2026,
+   "n": 3
   }
  ],
  "undated_pct": 0,
  "momentum": "early_mover,rising",
- "maturity": "L3",
+ "maturity": "L4",
  "maturity_evidence": [
+  "multi_horizontal",
   "named_product:Conversational",
+  "value_number",
+  "multi_year",
   "tier_p"
  ],
- "prospect_score": 46,
+ "prospect_score": 87,
  "stack": [
+  "Amazon AWS",
+  "Google",
   "OpenAI"
  ],
  "vendor_named": true,
@@ -50,6 +63,127 @@
    "url": "https://help.realestate.com.au/hc/en-us/articles/52943808050201-How-does-AI-search-work-on-realestate-com-au",
    "raw_sector": "Media",
    "date": "2025",
+   "fresh": "fresh"
+  },
+  {
+   "company": "REA Group",
+   "use": "realAssist - an AI-powered conversational companion (powered by OpenAI) for logged-in homeowners tracking their property, letting them ask why their realEstimate valuation changed and get tailored explanations and next-step recommendations. Launched Dec 2025 on realestate.com.au. [OpenAI]",
+   "existence": "confirmed",
+   "value": "drove property attribute updates on 140,000+ homes in the past year; one in three Australian homes tracked",
+   "tier": "",
+   "url": "https://www.mediaweek.com.au/rea-group-unveils-openai-powered-realassist",
+   "raw_sector": "",
+   "date": "2025-12-03",
+   "fresh": "fresh"
+  },
+  {
+   "company": "REA Group",
+   "use": "Natural language / conversational AI search on realestate.com.au, letting users phrase intuitive queries (e.g. 'homes with a pool and double garage in Kew') and, in a conversational-search beta, engage a multi-turn AI agent. Expanded to 50% of site visitors after a year-long pilot. [OpenAI; Google (Gemini)]",
+   "existence": "confirmed",
+   "value": "natural language search expanded to 50% of visitors; conversational search beta to 10% of visitors",
+   "tier": "",
+   "url": "https://www.itnews.com.au/news/rea-group-brings-conversational-ai-search-to-realestatecomau-623439",
+   "raw_sector": "",
+   "date": "2026-02-06",
+   "fresh": "fresh"
+  },
+  {
+   "company": "REA Group",
+   "use": "First real estate app for ChatGPT, letting logged-in ChatGPT users search for and view realestate.com.au property listings (photos, features, descriptions, pricing) via conversational language and link back to full listings and agent contact. [OpenAI]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.linkedin.com/posts/rea-group_realestatecomau-has-developed-its-first-activity-7427169261078446080-XSmr",
+   "raw_sector": "",
+   "date": "2026-02",
+   "fresh": "fresh"
+  },
+  {
+   "company": "REA Group",
+   "use": "PropTrack Automated Valuation Model (AVM), the ML engine behind realEstimate, rebuilt with Thoughtworks on AWS using CD4ML and Metaflow to deliver instant property value estimates at scale. [Thoughtworks; AWS; Metaflow]",
+   "existence": "confirmed",
+   "value": "12% accuracy improvement (AVM values within 10% of sale price); model training cut from 3-4 days to 5 hours; prediction explanations from 1-2 days to 15 minutes",
+   "tier": "",
+   "url": "https://www.thoughtworks.com/en-us/clients/rea-group-partnership",
+   "raw_sector": "",
+   "date": "2023",
+   "fresh": "stale"
+  },
+  {
+   "company": "REA Group",
+   "use": "PropTrack Buyer Impact Model - an AI model analysing 25 buyer behavioural signals (saves, shares, time on listing, image engagement, agent contact, inspections) across 1.3M sales to predict which listings sell; live on realestate.com.au and property.com.au. [none]",
+   "existence": "confirmed",
+   "value": "analysed 1.3 million sales (Aug 2023-Nov 2025); buyers view 28x more images than non-buyers; independently validated by Deloitte",
+   "tier": "",
+   "url": "https://aiproptechnews.com/article/rea-launches-ai-powered-proptrack-buyer-impact-model/",
+   "raw_sector": "",
+   "date": "2026-04",
+   "fresh": "fresh"
+  },
+  {
+   "company": "REA Group",
+   "use": "Generative AI 'Top Feature' summaries for Suggested Properties on the realestate.com.au home-screen carousel, sending listing descriptions to the ChatGPT API to surface key attributes for each recommended property. [OpenAI (ChatGPT API)]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://eliteagent.com/rea-group-launches-suite-of-ai-powered-features/",
+   "raw_sector": "",
+   "date": "2023-06-30",
+   "fresh": "stale"
+  },
+  {
+   "company": "REA Group",
+   "use": "AI-powered image tagging/scoring that analyses listing photos to identify property attributes, aesthetic appeal and renovation status, feeding the AVM and improving valuation accuracy (PropTrack image scoring). [PropTrack (in-house)]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://eliteagent.com/rea-group-launches-suite-of-ai-powered-features/",
+   "raw_sector": "",
+   "date": "2023-06-30",
+   "fresh": "stale"
+  },
+  {
+   "company": "REA Group",
+   "use": "AI-generated property highlights that automatically surface key features and amenities of a listing for quick comparison, enabling faster shortlisting and filtering on realestate.com.au. [none]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.onlinemarketplaces.com/articles/rea-group-launches-suite-of-new-features/",
+   "raw_sector": "",
+   "date": "2025-08-04",
+   "fresh": "fresh"
+  },
+  {
+   "company": "REA Group",
+   "use": "Listing optimisation (Premiere Plus) that uses AI to dynamically reorder listing photos, prioritising the most engaging visuals to increase buyer/tenant engagement - an advertising product feature for agent customers. [REA Group (in-house)]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://eliteagent.com/rea-group-launches-suite-of-ai-powered-features/",
+   "raw_sector": "",
+   "date": "2023-06-30",
+   "fresh": "stale"
+  },
+  {
+   "company": "REA Group",
+   "use": "Machine-learning matching/recommendation algorithms that match prospective vendors (sellers) with the REA agent customer that best fits their profile, and predict consumer property interests and lifecycle stage to improve recommendations. [REA Group (in-house)]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.onlinemarketplaces.com/articles/rea-group-announces-string-of-ai-product-integrations/",
+   "raw_sector": "",
+   "date": "2023-06-30",
+   "fresh": "stale"
+  },
+  {
+   "company": "REA Group",
+   "use": "'The Chaser' - an internal AI agent used by the Customer Experience team to synthesise outstanding information requests across cross-functional teams and coordinate follow-ups at scale, with user-set guardrails on time frame and sources. [REA Group (in-house)]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.linkedin.com/posts/rea-group_experiencerea-activity-7406905905956642816-NIEm",
+   "raw_sector": "",
+   "date": "2025-12",
    "fresh": "fresh"
   }
  ]

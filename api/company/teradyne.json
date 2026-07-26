@@ -3,42 +3,54 @@
  "name": "Teradyne",
  "cc": "US",
  "vertical": "Technology",
- "deployments": 1,
- "confirmed": 1,
- "with_value_number": 0,
- "proof_rate": 0.0,
+ "deployments": 4,
+ "confirmed": 2,
+ "with_value_number": 1,
+ "proof_rate": 0.25,
  "mktcap": 58530000000.0,
  "revenue": 3790000000.0,
  "employees": 6600.0,
  "silent": false,
- "per_bn_revenue": 0.26,
- "per_10k_emp": 1.52,
+ "per_bn_revenue": 1.06,
+ "per_10k_emp": 6.06,
  "benchmarks": {
   "global_vertical": {
-   "deployments": 0,
-   "confirmed": 6,
-   "proof_rate": 0,
-   "n": 156
+   "deployments": 15,
+   "confirmed": 11,
+   "proof_rate": 58,
+   "n": 159
   },
   "country_vertical": {
-   "deployments": 0,
-   "confirmed": 4,
-   "proof_rate": 0,
+   "deployments": 14,
+   "confirmed": 7,
+   "proof_rate": 67,
    "n": 74
   }
  },
- "first_seen": null,
- "by_year": [],
- "undated_pct": 100,
- "momentum": "none",
+ "first_seen": 2025,
+ "by_year": [
+  {
+   "year": 2025,
+   "n": 2
+  },
+  {
+   "year": 2026,
+   "n": 1
+  }
+ ],
+ "undated_pct": 25,
+ "momentum": "early_mover,rising",
  "maturity": "L3",
  "maturity_evidence": [
   "named_product:Automated",
+  "value_number",
   "tier_p"
  ],
- "prospect_score": 54,
- "stack": [],
- "vendor_named": false,
+ "prospect_score": 42,
+ "stack": [
+  "NVIDIA"
+ ],
+ "vendor_named": true,
  "deployments_detail": [
   {
    "company": "Teradyne",
@@ -50,6 +62,39 @@
    "raw_sector": "Information Technology",
    "date": "missing",
    "fresh": "undated"
+  },
+  {
+   "company": "Teradyne",
+   "use": "Edge-based AI deployment in collaborative robotics and manufacturing automation [Analog Devices]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://investors.teradyne.com/news-events/press-releases/detail/17/teradyne-robotics-and-analog-devices-enter-strategic-partnership-to-accelerate-the-adoption-of-ai-and-advanced-robotics-driven-collaborative-automation-in-manufacturing",
+   "raw_sector": "",
+   "date": "2025-01-22",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Teradyne",
+   "use": "AI-driven testing for semiconductor and AI device validation",
+   "existence": "confirmed",
+   "value": "60%",
+   "tier": "",
+   "url": "https://futurumgroup.com/insights/teradyne-q4-fy-2025-shifts-the-narrative-to-data-center-and-physical-ai/",
+   "raw_sector": "",
+   "date": "2026-02-04",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Teradyne",
+   "use": "AI-accelerator powered robotics solutions [NVIDIA]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.advancedmanufacturing.org/news-desk/teradyne-robotics-to-debut-ai-accelerator-powered-solutions-at-nvidia-gtc/article_e806644a-03fe-11f0-bf67-5b42c2ba5e99.html",
+   "raw_sector": "",
+   "date": "2025-03-18",
+   "fresh": "fresh"
   }
  ]
 }

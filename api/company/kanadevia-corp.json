@@ -3,27 +3,27 @@
  "name": "Kanadevia Corp.",
  "cc": "JP",
  "vertical": "Industrial / Machinery",
- "deployments": 1,
- "confirmed": 1,
- "with_value_number": 1,
- "proof_rate": 1.0,
+ "deployments": 4,
+ "confirmed": 4,
+ "with_value_number": 2,
+ "proof_rate": 0.5,
  "mktcap": 1380600000.0,
  "revenue": 4301466667.0,
  "employees": 12666.0,
  "silent": false,
- "per_bn_revenue": 0.23,
- "per_10k_emp": 0.79,
+ "per_bn_revenue": 0.93,
+ "per_10k_emp": 3.16,
  "benchmarks": {
   "global_vertical": {
-   "deployments": 0,
-   "confirmed": 14,
-   "proof_rate": 79,
-   "n": 175
+   "deployments": 23,
+   "confirmed": 53,
+   "proof_rate": 94,
+   "n": 176
   },
   "country_vertical": {
-   "deployments": 0,
-   "confirmed": 4,
-   "proof_rate": 73,
+   "deployments": 27,
+   "confirmed": 46,
+   "proof_rate": 85,
    "n": 27
   }
  },
@@ -33,13 +33,16 @@
  "momentum": "none",
  "maturity": "L3",
  "maturity_evidence": [
+  "multi_horizontal",
   "named_product:Inspection",
   "value_number",
   "tier_p"
  ],
- "prospect_score": 14,
- "stack": [],
- "vendor_named": false,
+ "prospect_score": 44,
+ "stack": [
+  "SAP"
+ ],
+ "vendor_named": true,
  "deployments_detail": [
   {
    "company": "Kanadevia Corp.",
@@ -50,6 +53,39 @@
    "url": "https://dcross.impress.co.jp/docs/usecase/004141.html",
    "raw_sector": "Machinery",
    "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "Kanadevia Corp.",
+   "use": "Pulse Patrol Autonomous Robot Inspection Services for Waste to Energy plants with early fault detection",
+   "existence": "confirmed",
+   "value": "-1.5%",
+   "tier": "",
+   "url": "https://kanadevia-inova.com/waste-to-x/products-services/pulse-patrol?etcc_cmp=Spark2&etcc_med=LinkedIn",
+   "raw_sector": "",
+   "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "Kanadevia Corp.",
+   "use": "AI/TEC hub for ICT utilization including remote monitoring, IoT big data, and AI",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.kanadevia.com/english/aitec/",
+   "raw_sector": "",
+   "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "Kanadevia Corp.",
+   "use": "Core business system implementation (SAP) and AI/TEC establishment for IoT and big data analytics [SAP]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.kanadevia.com/english/ir/data/pdf/kanadevia_integrated_report_2025_E.pdf",
+   "raw_sector": "",
+   "date": "Oct 1, 2025",
    "fresh": "undated"
   }
  ]

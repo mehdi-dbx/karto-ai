@@ -3,36 +3,59 @@
  "name": "Mapfre",
  "cc": "ES",
  "vertical": "Insurance",
- "deployments": 1,
- "confirmed": 1,
- "with_value_number": 1,
- "proof_rate": 1.0,
+ "deployments": 14,
+ "confirmed": 13,
+ "with_value_number": 5,
+ "proof_rate": 0.357,
  "mktcap": 15109200000.0,
  "revenue": 32421600000.0,
  "employees": 30846.0,
  "silent": false,
- "per_bn_revenue": 0.03,
- "per_10k_emp": 0.32,
+ "per_bn_revenue": 0.43,
+ "per_10k_emp": 4.54,
  "benchmarks": {
   "global_vertical": {
-   "deployments": 0,
-   "confirmed": 14,
-   "proof_rate": 75,
-   "n": 60
+   "deployments": 94,
+   "confirmed": 95,
+   "proof_rate": 63,
+   "n": 63
   }
  },
- "first_seen": null,
- "by_year": [],
- "undated_pct": 100,
- "momentum": "none",
- "maturity": "L3",
- "maturity_evidence": [
-  "named_product:WhatsApp",
-  "value_number"
+ "first_seen": 2021,
+ "by_year": [
+  {
+   "year": 2021,
+   "n": 1
+  },
+  {
+   "year": 2022,
+   "n": 1
+  },
+  {
+   "year": 2024,
+   "n": 8
+  },
+  {
+   "year": 2026,
+   "n": 3
+  }
  ],
- "prospect_score": 14,
- "stack": [],
- "vendor_named": false,
+ "undated_pct": 7,
+ "momentum": "early_mover,cooling",
+ "maturity": "L4",
+ "maturity_evidence": [
+  "multi_horizontal",
+  "named_product:WhatsApp",
+  "value_number",
+  "multi_year"
+ ],
+ "prospect_score": 86,
+ "stack": [
+  "Amazon AWS",
+  "Anthropic",
+  "OpenAI"
+ ],
+ "vendor_named": true,
  "deployments_detail": [
   {
    "company": "Mapfre",
@@ -44,6 +67,149 @@
    "raw_sector": "Insurance",
    "date": "missing",
    "fresh": "undated"
+  },
+  {
+   "company": "Mapfre",
+   "use": "Emma virtual agent for MAPFRE (Middlesea) customer service across web and Facebook Messenger, handling claims filing, parts procurement status, policy purchase/renewal [EBO.ai (NLP conversational AI)]",
+   "existence": "confirmed",
+   "value": "83% of conversations fully resolved by the agent; 85% intent recognition; 1000+ customer-service hours saved",
+   "tier": "",
+   "url": "https://www.ebo.ai/success_stories/ai-for-insurance-company-mapfre/",
+   "raw_sector": "",
+   "date": "2021-08-13",
+   "fresh": "stale"
+  },
+  {
+   "company": "Mapfre",
+   "use": "MIA GPT generative-AI virtual assistant for the agency network, answering queries on underwriting conditioning factors, product information and operations in daily use [none]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.mapfre.com/en/insights/innovation/artificial-intelligence-mapfre/",
+   "raw_sector": "",
+   "date": "2024-05-08",
+   "fresh": "aging"
+  },
+  {
+   "company": "Mapfre",
+   "use": "MAPFRE USA fraud claims detection: ML models generating 54 graph-based features via Neo4j to detect fraud rings, with predictions integrated into Guidewire Claims and explainable alerts served to adjusters [AWS (EMR Serverless, S3/Iceberg, Glue, Lake Formation, MWAA, Lambda), Neo4j, Guidewire]",
+   "existence": "confirmed",
+   "value": "Projected 2025 savings $6.81M; NPV $4.7M; detection accuracy improved 50-135%",
+   "tier": "",
+   "url": "https://aws-news.com/article/2026-07-13-how-mapfre-usa-modernized-fraud-claims-with-amazon-emr-serverless",
+   "raw_sector": "",
+   "date": "2026-07-13",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Mapfre",
+   "use": "Fraud detection using AI models trained on synthetic data (moderate bumper-damage detection), part of MAPFRE's multi-country AI fraud program [DataCebo (synthetic data)]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.mapfre.com/en/insights/innovation/fraud-insurance-sector/",
+   "raw_sector": "",
+   "date": "2024-11-21",
+   "fresh": "aging"
+  },
+  {
+   "company": "Mapfre",
+   "use": "Graph-technology fraud detection to add context and relationship analysis to fraud investigations [Linkurious]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.linkedin.com/posts/linkurious_detecting-fraud-at-mapfre-with-graph-technology-activity-7419754441404350465-hvII",
+   "raw_sector": "",
+   "date": "2026",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Mapfre",
+   "use": "SME cyber-risk assessment pilot helping customers identify cybersecurity vulnerabilities (MAPFRE España) [Cyberwrite]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.mapfre.com/en/insights/innovation/artificial-intelligence-mapfre/",
+   "raw_sector": "",
+   "date": "2024-05-08",
+   "fresh": "aging"
+  },
+  {
+   "company": "Mapfre",
+   "use": "Conversational GenAI assistant for ~2,000 developers across 25 countries to search 60,000+ APIs and 10,000+ technical docs in MAPFRE's internal marketplace [GFT, AWS Bedrock (Claude 3 and Titan), Amazon ECS Fargate, LangChain]",
+   "existence": "confirmed",
+   "value": "50% reduction in content search time",
+   "tier": "",
+   "url": "https://www.gft.com/mx/es/insights/success-stories/mapfre-harnesses-ai",
+   "raw_sector": "",
+   "date": "2024",
+   "fresh": "aging"
+  },
+  {
+   "company": "Mapfre",
+   "use": "MAPFRE Brazil claims transformation using Qapter Visual Intelligence: AI vehicle-part identification (incl. ADAS), touchless estimating for minor/medium claims, and claims analytics [Solera (Qapter Visual Intelligence)]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.solera.com/blog/mapfre-brazil-becomes-the-first-insurer-in-latin-america-to-adopt-soleras-qapter-with-visual-intelligence-technology/",
+   "raw_sector": "",
+   "date": "2026-01-26",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Mapfre",
+   "use": "IRIS automatic vehicle damage verification: deep-learning image analysis of car damage for claims/underwriting without needing an in-person appraiser, complementing human loss adjusters [ControlExpert]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.mapfre.com/en/communicate/innovation-communicate/mapfre-wins-at-the-cionet-vocento-awards-for-its-ai-driven-automatic-vehicle-damage-verification-solution/",
+   "raw_sector": "",
+   "date": "2022-11-18",
+   "fresh": "stale"
+  },
+  {
+   "company": "Mapfre",
+   "use": "End-to-end automation of home insurance claims with AI, including direct customer payment (MAPFRE Brazil) [Shift Technology]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.mapfre.com/en/insights/innovation/artificial-intelligence-mapfre/",
+   "raw_sector": "",
+   "date": "2024-05-08",
+   "fresh": "aging"
+  },
+  {
+   "company": "Mapfre",
+   "use": "AI-driven digital physiotherapy (MAPFRE España): prescribing rehabilitation exercises and remotely monitoring patient recovery [Trak]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.mapfre.com/en/insights/innovation/artificial-intelligence-mapfre/",
+   "raw_sector": "",
+   "date": "2024-05-08",
+   "fresh": "aging"
+  },
+  {
+   "company": "Mapfre",
+   "use": "Climate-risk prediction for MAPFRE RE: forecasting climate-change impacts on insured portfolios [Lobelia]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.mapfre.com/en/insights/innovation/artificial-intelligence-mapfre/",
+   "raw_sector": "",
+   "date": "2024-05-08",
+   "fresh": "aging"
+  },
+  {
+   "company": "Mapfre",
+   "use": "Generative AI content creation for digital platforms (nine GenAI use cases operational daily), producing SEO/network content [none]",
+   "existence": "confirmed",
+   "value": "More than 40% increase in access rates to networks and search engines",
+   "tier": "",
+   "url": "https://www.mapfre.com/en/insights/innovation/artificial-intelligence-mapfre/",
+   "raw_sector": "",
+   "date": "2024-05-08",
+   "fresh": "aging"
   }
  ]
 }

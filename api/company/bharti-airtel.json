@@ -3,36 +3,61 @@
  "name": "Bharti Airtel",
  "cc": "IN",
  "vertical": "Telecom",
- "deployments": 1,
- "confirmed": 1,
- "with_value_number": 1,
- "proof_rate": 1.0,
+ "deployments": 11,
+ "confirmed": 8,
+ "with_value_number": 7,
+ "proof_rate": 0.636,
  "mktcap": 141686746988.0,
  "revenue": 25421686747.0,
  "employees": 13336.0,
  "silent": false,
- "per_bn_revenue": 0.04,
- "per_10k_emp": 0.75,
+ "per_bn_revenue": 0.43,
+ "per_10k_emp": 8.25,
  "benchmarks": {
   "global_vertical": {
-   "deployments": 0,
-   "confirmed": 16,
-   "proof_rate": 78,
-   "n": 93
+   "deployments": 66,
+   "confirmed": 63,
+   "proof_rate": 91,
+   "n": 94
   }
  },
- "first_seen": null,
- "by_year": [],
- "undated_pct": 100,
- "momentum": "none",
- "maturity": "L3",
- "maturity_evidence": [
-  "named_product:India",
-  "value_number"
+ "first_seen": 2023,
+ "by_year": [
+  {
+   "year": 2023,
+   "n": 1
+  },
+  {
+   "year": 2024,
+   "n": 4
+  },
+  {
+   "year": 2025,
+   "n": 4
+  },
+  {
+   "year": 2026,
+   "n": 1
+  }
  ],
- "prospect_score": 14,
- "stack": [],
- "vendor_named": false,
+ "undated_pct": 9,
+ "momentum": "early_mover,flat",
+ "maturity": "L4",
+ "maturity_evidence": [
+  "multi_horizontal",
+  "named_product:India",
+  "value_number",
+  "multi_year"
+ ],
+ "prospect_score": 63,
+ "stack": [
+  "Anthropic",
+  "Google Cloud",
+  "IBM",
+  "NVIDIA",
+  "OpenAI"
+ ],
+ "vendor_named": true,
  "deployments_detail": [
   {
    "company": "Bharti Airtel",
@@ -44,6 +69,116 @@
    "raw_sector": "Telecommunication",
    "date": "missing",
    "fresh": "undated"
+  },
+  {
+   "company": "Bharti Airtel",
+   "use": "India's first network-based AI-powered spam detection system that flags suspected spam calls and SMS in real time and auto-activates for all customers. Uses a proprietary in-house algorithm with dual-layer filtering at network and IT layers, processing ~1 trillion records/day in 2 milliseconds. By June 2025 it had identified 48.3 billion spam calls and blocked ~320,000 malicious links. [In-house (Airtel data scientists)]",
+   "existence": "confirmed",
+   "value": "1 trillion records/day processed; 100M spam calls + 3M spam SMS flagged daily; 48.3B spam calls identified and 320,000 links blocked by June 2025",
+   "tier": "",
+   "url": "https://www.airtel.in/press-release/09-2024/airtel-cracks-down-on-spam-launches-indias-first-ai-powered-network-solution-for-spam-detection/",
+   "raw_sector": "",
+   "date": "2024-09-25",
+   "fresh": "aging"
+  },
+  {
+   "company": "Bharti Airtel",
+   "use": "AI-powered multi-tiered Fraud Detection Solution that detects and blocks malicious websites/links in real time across OTT apps, browsers, email and SMS, redirecting users away from flagged sites. Auto-enabled free for all customers; initially deployed in Haryana circle with nationwide rollout after six months of trials. [In-house (real-time AI threat detection, global threat repositories + internal database)]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.airtel.in/press-release/05-2025/airtel-launches-fraud-detection-solution-a-first-in-the-world/",
+   "raw_sector": "",
+   "date": "2025-05-15",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Bharti Airtel",
+   "use": "AI-powered 'Fraud Alert' protection against OTP-leakage bank frauds: detects when a bank OTP arrives during a risky incoming call and warns the customer in real time to verify before consenting. Combines AI-driven intelligence with human judgment. In production in Haryana with rollout to 100% of customers. [In-house]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.airtel.in/press-release/02-2026/airtel-launches-new-ai-powered-protection-from-frauds-caused-by-otp-leakages/",
+   "raw_sector": "",
+   "date": "2026-02-01",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Bharti Airtel",
+   "use": "AI-powered speech analytics for contact-center customer service using deep-learning automatic speech recognition. Runs ASR on 84% of inbound contact-center calls to analyze agent performance and improve customer experience. [NVIDIA (NeMo, Triton Inference Server, AI Enterprise); Airtel-built ASR models]",
+   "existence": "confirmed",
+   "value": "ASR run on 84% of inbound calls; ~30% of typical computing cost; contact centers handle 100M+ calls annually",
+   "tier": "",
+   "url": "https://www.airtel.in/press-release/02-2023/airtel-deploys-ai-powered-speech-analytics-solutions-for-customer-service-transformation-with-nvidia/",
+   "raw_sector": "",
+   "date": "2023-02-23",
+   "fresh": "stale"
+  },
+  {
+   "company": "Bharti Airtel",
+   "use": "AI/ML-based RAN energy-saving engine that predicts cell-level traffic patterns and dynamically extends cell sleep windows during low-traffic periods to cut radio network energy consumption. Vendor-agnostic, supporting 4G and 5G; rolled out across India. Confirmed as deployed in Q2 FY26 earnings call. [Airtel with solution providers incl. Nokia]",
+   "existence": "confirmed",
+   "value": "Energy costs ~29% of network OPEX, ~80% attributed to RAN (context); no specific savings % disclosed",
+   "tier": "",
+   "url": "https://www.gsma.com/solutions-and-impact/connectivity-for-good/external-affairs/gsma_study/bharti-airtel-ran-energy-saving-with-ai-and-ml/",
+   "raw_sector": "",
+   "date": "2024-01-01",
+   "fresh": "aging"
+  },
+  {
+   "company": "Bharti Airtel",
+   "use": "Strategic partnership with IBM to augment Airtel Cloud with AI inferencing across hybrid cloud, built on IBM watsonx and Red Hat OpenShift AI, plus IBM Power11 AI-ready servers as-a-Service for regulated industries needing data residency. Active rollout expanding availability zones and adding Mumbai/Chennai regions. [IBM (watsonx, Red Hat OpenShift AI, IBM Power11)]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://newsroom.ibm.com/2025-10-15-bharti-airtel-announces-a-strategic-partnership-with-ibm-to-augment-airtel-cloud",
+   "raw_sector": "",
+   "date": "2025-10-15",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Bharti Airtel",
+   "use": "Airtel's digital arm Xtelify launched an AI-powered software platform for telcos/enterprises with three layers: a Converged Data Engine (AI-led insights at scale), a Workforce Platform (real-time task streamlining), and an Experience Platform (customer-journey management). Positioned with a gen-AI-based sovereign cloud claiming up to 40% cloud-spend optimization; partners include Singtel, Globe and Airtel Africa. [Xtelify (Airtel)]",
+   "existence": "claimed",
+   "value": "Up to 40% cloud spend optimization (platform claim)",
+   "tier": "",
+   "url": "https://www.reuters.com/business/media-telecom/indias-bharti-airtel-launches-cloud-ai-services-businesses-telcos-2025-08-04/",
+   "raw_sector": "",
+   "date": "2025-08-04",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Bharti Airtel",
+   "use": "Complimentary 12-month Perplexity Pro subscription offered to all 360 million Airtel customers via the Airtel Thanks app, bringing generative AI search (with access to GPT-4.1 and Claude models) to the consumer base. First Perplexity partnership with an Indian telco; live at launch. [Perplexity]",
+   "existence": "confirmed",
+   "value": "INR 17,000 subscription value offered free to 360M customers",
+   "tier": "",
+   "url": "https://www.airtel.in/press-release/07-2025/airtel-partners-with-perplexity-powers-every-single-of-its-360mn-customers-with-perplexity-pro/",
+   "raw_sector": "",
+   "date": "2025-07-17",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Bharti Airtel",
+   "use": "Long-term strategic collaboration with Google Cloud to build and deliver generative-AI and cloud solutions to Indian enterprises, including industry-specific offerings in geospatial analytics, voice analytics (conversational apps across multiple languages), and marketing technology, plus an IoT solution for the utility sector. Presented as solutions in development with a 300+ expert managed-services center in Pune. [Google Cloud]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.airtel.in/press-release/05-2024/airtel-and-google-cloud-enter-into-a-long-term-strategic-collaboration-to-accelerate-cloud-adoption-and-deploy-generative-ai-solutions/",
+   "raw_sector": "",
+   "date": "2024-05-13",
+   "fresh": "aging"
+  },
+  {
+   "company": "Bharti Airtel",
+   "use": "AI-driven optimization of Nxtra by Airtel data centers to enhance operational efficiency and optimize capex/energy utilization, targeting a 25% boost in operational productivity and 10% reduction in non-IT energy consumption. Referenced as being applied in the Q2 FY26 earnings call. [Nxtra by Airtel (in-house)]",
+   "existence": "confirmed",
+   "value": "Target 25% boost in operational productivity; 10% reduction in non-IT energy consumption",
+   "tier": "",
+   "url": "https://www.alphaspread.com/security/nse/bhartiartl/investor-relations/earnings-call/q2-2026",
+   "raw_sector": "",
+   "date": "2024-11-06",
+   "fresh": "aging"
   }
  ]
 }

@@ -3,27 +3,27 @@
  "name": "Osaka Gas Co., Ltd.",
  "cc": "JP",
  "vertical": "Energy & Utilities",
- "deployments": 2,
- "confirmed": 2,
- "with_value_number": 1,
- "proof_rate": 0.5,
+ "deployments": 5,
+ "confirmed": 5,
+ "with_value_number": 2,
+ "proof_rate": 0.4,
  "mktcap": 13733333333.0,
  "revenue": 13533333333.0,
  "employees": 21835.0,
  "silent": false,
- "per_bn_revenue": 0.15,
- "per_10k_emp": 0.92,
+ "per_bn_revenue": 0.37,
+ "per_10k_emp": 2.29,
  "benchmarks": {
   "global_vertical": {
-   "deployments": 72,
-   "confirmed": 78,
-   "proof_rate": 69,
-   "n": 210
+   "deployments": 53,
+   "confirmed": 70,
+   "proof_rate": 77,
+   "n": 213
   },
   "country_vertical": {
-   "deployments": 33,
-   "confirmed": 33,
-   "proof_rate": 33,
+   "deployments": 0,
+   "confirmed": 50,
+   "proof_rate": 67,
    "n": 7
   }
  },
@@ -32,23 +32,56 @@
   {
    "year": 2023,
    "n": 1
+  },
+  {
+   "year": 2024,
+   "n": 1
+  },
+  {
+   "year": 2025,
+   "n": 2
   }
  ],
- "undated_pct": 50,
- "momentum": "early_mover,gone_quiet",
- "maturity": "L3",
+ "undated_pct": 20,
+ "momentum": "early_mover,flat",
+ "maturity": "L4",
  "maturity_evidence": [
+  "multi_horizontal",
   "named_product:WAAAP",
   "value_number",
+  "multi_year",
   "tier_p"
  ],
- "prospect_score": 32,
+ "prospect_score": 54,
  "stack": [
+  "Amazon AWS",
   "Google",
   "Google Cloud"
  ],
  "vendor_named": true,
  "deployments_detail": [
+  {
+   "company": "Osaka Gas Co., Ltd.",
+   "use": "Carbon credit evaluation system using generative AI [AWS generative AI]",
+   "existence": "confirmed",
+   "value": "97.5% Accuracy, 96.4% Recall",
+   "tier": "",
+   "url": "https://aws.amazon.com/jp/blogs/news/osaka-gas-carbon-credit-rating-system-with-generative-ai-introduction-1-en/",
+   "raw_sector": "",
+   "date": "2024-11-20",
+   "fresh": "aging"
+  },
+  {
+   "company": "Osaka Gas Co., Ltd.",
+   "use": "Generative AI environment for employee use",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.daigasgroup.com/en/files/data/sustainability/reportpolicy/sustainability_report/report2025_70-76.pdf",
+   "raw_sector": "",
+   "date": "2025-10-29",
+   "fresh": "fresh"
+  },
   {
    "company": "Osaka Gas Co., Ltd.",
    "use": "\"WAAAP\" AI-driven development platform + company-wide generative AI",
@@ -70,6 +103,17 @@
    "raw_sector": "Gas",
    "date": "2023-08",
    "fresh": "stale"
+  },
+  {
+   "company": "Osaka Gas Co., Ltd.",
+   "use": "AI-based composition estimation system for gas analysis",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.osakagas.co.jp/en/whatsnew/__icsFiles/afieldfile/2026/01/13/251127.pdf",
+   "raw_sector": "",
+   "date": "2025-11-27",
+   "fresh": "fresh"
   }
  ]
 }

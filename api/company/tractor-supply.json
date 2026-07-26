@@ -3,43 +3,80 @@
  "name": "Tractor Supply",
  "cc": "US",
  "vertical": "Retail & E-commerce",
- "deployments": 1,
- "confirmed": 1,
+ "deployments": 7,
+ "confirmed": 7,
  "with_value_number": 0,
  "proof_rate": 0.0,
  "mktcap": 15530000000.0,
  "revenue": 15750000000.0,
  "employees": 52000.0,
  "silent": false,
- "per_bn_revenue": 0.06,
- "per_10k_emp": 0.19,
+ "per_bn_revenue": 0.44,
+ "per_10k_emp": 1.35,
  "benchmarks": {
   "global_vertical": {
-   "deployments": 0,
-   "confirmed": 24,
+   "deployments": 56,
+   "confirmed": 69,
    "proof_rate": 0,
-   "n": 295
+   "n": 301
   },
   "country_vertical": {
-   "deployments": 0,
-   "confirmed": 25,
+   "deployments": 39,
+   "confirmed": 59,
    "proof_rate": 0,
    "n": 80
   }
  },
- "first_seen": null,
- "by_year": [],
- "undated_pct": 100,
- "momentum": "none",
- "maturity": "L3",
+ "first_seen": 2024,
+ "by_year": [
+  {
+   "year": 2024,
+   "n": 2
+  },
+  {
+   "year": 2025,
+   "n": 2
+  },
+  {
+   "year": 2026,
+   "n": 1
+  }
+ ],
+ "undated_pct": 29,
+ "momentum": "early_mover,rising",
+ "maturity": "L4",
  "maturity_evidence": [
+  "multi_horizontal",
   "named_product:Hey GURA",
+  "multi_year",
   "tier_p"
  ],
- "prospect_score": 46,
+ "prospect_score": 82,
  "stack": [],
  "vendor_named": true,
  "deployments_detail": [
+  {
+   "company": "Tractor Supply",
+   "use": "Computer vision for customer service and in-store operations",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://siliconangle.com/2025/06/19/ai-customer-service-tractor-supply-nextconf/",
+   "raw_sector": "",
+   "date": "2025-06-19",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Tractor Supply",
+   "use": "Generative AI for enhanced customer service",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://corporate.tractorsupply.com/newsroom/news-releases/news-releases-details/2024/Tractor-Supply-Wins-2024-CIO-100-Award/default.aspx",
+   "raw_sector": "",
+   "date": "2024-03-20",
+   "fresh": "aging"
+  },
   {
    "company": "Tractor Supply",
    "use": "\"Hey GURA\" custom in-house GenAI app for associates (product guidance, wearable AI) + customer service AI",
@@ -50,6 +87,50 @@
    "raw_sector": "Consumer Discretionary",
    "date": "missing",
    "fresh": "undated"
+  },
+  {
+   "company": "Tractor Supply",
+   "use": "AI communicators and mobile apps for employee support",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.ibm.com/think/podcasts/ai-in-action/tractor-supply-company-shows-the-power-of-ai-in-retail",
+   "raw_sector": "",
+   "date": "2025-08-26",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Tractor Supply",
+   "use": "Real-time inventory monitoring and AI-driven inventory checks",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://consumergoods.com/how-ai-enabled-tractor-supply-preparing-its-it-infrastructure-future",
+   "raw_sector": "",
+   "date": "2024-04-03",
+   "fresh": "aging"
+  },
+  {
+   "company": "Tractor Supply",
+   "use": "Wearable AI devices for employee product information and inventory access",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.ttec.com/articles/wearable-ai-tech-gives-tractor-supply-employees-instant-answers",
+   "raw_sector": "",
+   "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "Tractor Supply",
+   "use": "AI-powered last-mile delivery network routing optimization",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.supplychaindive.com/news/tractor-supply-taps-ai-to-help-scale-last-mile-delivery-network/822349/",
+   "raw_sector": "",
+   "date": "2026-06-10",
+   "fresh": "fresh"
   }
  ]
 }

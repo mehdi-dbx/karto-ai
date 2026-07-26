@@ -3,47 +3,72 @@
  "name": "National Grid",
  "cc": "UK",
  "vertical": "Energy & Utilities",
- "deployments": 1,
- "confirmed": 1,
- "with_value_number": 1,
- "proof_rate": 1.0,
+ "deployments": 12,
+ "confirmed": 8,
+ "with_value_number": 6,
+ "proof_rate": 0.5,
  "mktcap": 78955900000.0,
  "revenue": 22466300000.0,
  "employees": 33026.0,
  "silent": false,
- "per_bn_revenue": 0.04,
- "per_10k_emp": 0.3,
+ "per_bn_revenue": 0.53,
+ "per_10k_emp": 3.63,
  "benchmarks": {
   "global_vertical": {
-   "deployments": 0,
-   "confirmed": 20,
-   "proof_rate": 75,
-   "n": 210
+   "deployments": 89,
+   "confirmed": 85,
+   "proof_rate": 81,
+   "n": 213
   },
   "country_vertical": {
-   "deployments": 0,
-   "confirmed": 0,
-   "proof_rate": 62,
+   "deployments": 100,
+   "confirmed": 88,
+   "proof_rate": 100,
    "n": 9
   }
  },
- "first_seen": 2025,
+ "first_seen": 2016,
  "by_year": [
   {
+   "year": 2016,
+   "n": 1
+  },
+  {
+   "year": 2019,
+   "n": 1
+  },
+  {
+   "year": 2021,
+   "n": 1
+  },
+  {
+   "year": 2024,
+   "n": 1
+  },
+  {
    "year": 2025,
+   "n": 4
+  },
+  {
+   "year": 2026,
    "n": 1
   }
  ],
- "undated_pct": 0,
- "momentum": "rising",
- "maturity": "L3",
+ "undated_pct": 25,
+ "momentum": "early_mover,rising",
+ "maturity": "L4",
  "maturity_evidence": [
+  "multi_horizontal",
   "named_product:National",
-  "value_number"
+  "value_number",
+  "multi_year"
  ],
- "prospect_score": 14,
- "stack": [],
- "vendor_named": false,
+ "prospect_score": 68,
+ "stack": [
+  "Microsoft",
+  "NVIDIA"
+ ],
+ "vendor_named": true,
  "deployments_detail": [
   {
    "company": "National Grid",
@@ -55,6 +80,127 @@
    "raw_sector": "Multiline utilities",
    "date": "2025",
    "fresh": "fresh"
+  },
+  {
+   "company": "National Grid",
+   "use": "Microsoft Copilot (M365) rolled out for report generation in regulatory/finance/legal ops, email assistance, knowledge mining, document management and call-center support [Microsoft]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.microsoft.com/en/customers/story/18782-national-grid-azure",
+   "raw_sector": "",
+   "date": "2024-09-25",
+   "fresh": "aging"
+  },
+  {
+   "company": "National Grid",
+   "use": "Autonomous BVLOS drone inspection of high-voltage pylons and transmission cables, piloted from a central control room, with AI/ML analyzing imagery to inform maintenance and investment decisions across the England & Wales transmission network [sees.ai]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.sees.ai/2025/09/04/national-grid-rolls-out-centralised-autonomous-drone-inspections-across-its-network/",
+   "raw_sector": "",
+   "date": "2025-09-04",
+   "fresh": "fresh"
+  },
+  {
+   "company": "National Grid",
+   "use": "Intelligent vegetation management (AiDASH IVMS): satellite imagery + AI to predict vegetation growth up to 5 years out and prioritize hazard-tree removal near transmission/distribution lines (Massachusetts) [AiDASH]",
+   "existence": "confirmed",
+   "value": "Trim cycle optimized from 5 to ~6 years; identified hotspots responsible for up to 70% of outages",
+   "tier": "",
+   "url": "https://www.aidash.com/resource/aidash-transforming-vegetation-management-for-national-grid-using-satellite-analytics-and-ai/",
+   "raw_sector": "",
+   "date": "none",
+   "fresh": "undated"
+  },
+  {
+   "company": "National Grid",
+   "use": "UK-first trial with Emerald AI Conductor to make AI data-centre power demand flexible (flexing GPU load up/down in real time) to support the transmission grid and unlock capacity [Emerald AI (NVIDIA GPUs)]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.prnewswire.com/news-releases/national-grid-and-emerald-ai-announce-strategic-partnership-to-demonstrate-ai-power-flexibility-in-the-uk-302555539.html",
+   "raw_sector": "",
+   "date": "2025-09-15",
+   "fresh": "fresh"
+  },
+  {
+   "company": "National Grid",
+   "use": "Operational AI decision-support (ASI PRESCIENCE 4D predictive world model) for electric grid planning and operations: DER siting/interconnection optimization, resilience scenario planning, outage mapping [Air Space Intelligence]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.prnewswire.com/news-releases/air-space-intelligence-and-national-grid-collaborate-to-deploy-operational-ai-to-the-electric-grid-302763810.html",
+   "raw_sector": "",
+   "date": "2026-05-06",
+   "fresh": "fresh"
+  },
+  {
+   "company": "National Grid",
+   "use": "Machine-learning (random forest + multi-model ensemble) solar generation forecasting to help balance the GB electricity grid, developed with The Alan Turing Institute (National Grid ESO) [The Alan Turing Institute]",
+   "existence": "claimed",
+   "value": "33% improvement in solar forecasting accuracy",
+   "tier": "",
+   "url": "https://www.neso.energy/news/eso-and-alan-turing-institute-use-machine-learning-help-balance-gb-electricity-grid",
+   "raw_sector": "",
+   "date": "2019-07-01",
+   "fresh": "stale"
+  },
+  {
+   "company": "National Grid",
+   "use": "AI-powered damage prevention: risk-scoring 811 dig tickets and predicting non-ticketed excavations to target proactive interventions and reduce third-party damage to underground infrastructure [Urbint]",
+   "existence": "confirmed",
+   "value": "37% reduction in damage rate (1.6 to 1.01 per thousand, 2016-2020); 22% reduction in total damages (2019-2020)",
+   "tier": "",
+   "url": "https://www.urbint.com/case-studies/damage-prevention-national-grid",
+   "raw_sector": "",
+   "date": "2016",
+   "fresh": "stale"
+  },
+  {
+   "company": "National Grid",
+   "use": "AI worker-safety platform (Urbint for Worker Safety) that identifies highest-risk safety threats to field workers days in advance on gas construction projects in New York and Massachusetts [Urbint]",
+   "existence": "confirmed",
+   "value": "35% more hazards identified; 44% more direct controls implemented; 4.8/5 supervisor rating",
+   "tier": "",
+   "url": "https://www.urbint.com/case-studies/national-grid-worker-safety",
+   "raw_sector": "",
+   "date": "2021-02-04",
+   "fresh": "stale"
+  },
+  {
+   "company": "National Grid",
+   "use": "Contact-center interaction analytics with NICE Enlighten AI (CSAT) to auto-identify customer intents/actions/outcomes, plus AI-driven workforce management/intraday automation [NICE]",
+   "existence": "confirmed",
+   "value": "40%+ increase in analytical efficiency; 25% improvement in operational efficiency; 10+ reduction in overstaffing",
+   "tier": "",
+   "url": "https://www.nice.com/resources/national-grid-builds-its-cloud-transformation-strategy-with-nice-increasing-analytical-efficiency-by-40-and-operational-efficiency-by-25",
+   "raw_sector": "",
+   "date": "none",
+   "fresh": "undated"
+  },
+  {
+   "company": "National Grid",
+   "use": "AI-powered customer-support chatbot for National Grid Electricity Distribution, trained on verified website content with confidence scoring, handling power cuts and meter connection queries across South West, South Wales, East & West Midlands [Enigma Interactive / Chatbase]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.enigma-interactive.co.uk/news/ai-powered-customer-support-for-national-grid-electricity-distribution",
+   "raw_sector": "",
+   "date": "2025-10-01",
+   "fresh": "fresh"
+  },
+  {
+   "company": "National Grid",
+   "use": "Conversational AI / call analytics platform (Uniphore) used to aggregate and analyze customer call data and automate the customer-support process [Uniphore]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.ngpartners.com/stories/uniphore",
+   "raw_sector": "",
+   "date": "none",
+   "fresh": "undated"
   }
  ]
 }

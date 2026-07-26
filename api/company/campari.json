@@ -3,38 +3,61 @@
  "name": "Campari",
  "cc": "IT",
  "vertical": "Retail & E-commerce",
- "deployments": 1,
- "confirmed": 0,
+ "deployments": 6,
+ "confirmed": 5,
  "with_value_number": 0,
  "proof_rate": 0.0,
  "mktcap": 7387200000.0,
  "revenue": 3294000000.0,
  "employees": 4837.0,
  "silent": false,
- "per_bn_revenue": 0.3,
- "per_10k_emp": 2.07,
+ "per_bn_revenue": 1.82,
+ "per_10k_emp": 12.4,
  "benchmarks": {
   "global_vertical": {
-   "deployments": 0,
-   "confirmed": 0,
+   "deployments": 48,
+   "confirmed": 53,
    "proof_rate": 0,
-   "n": 295
+   "n": 301
   }
  },
- "first_seen": null,
- "by_year": [],
- "undated_pct": 100,
- "momentum": "none",
- "maturity": "L1",
- "maturity_evidence": [
-  "rows_no_confirmed"
+ "first_seen": 2024,
+ "by_year": [
+  {
+   "year": 2024,
+   "n": 1
+  },
+  {
+   "year": 2026,
+   "n": 1
+  }
  ],
- "prospect_score": 40,
+ "undated_pct": 67,
+ "momentum": "early_mover,flat",
+ "maturity": "L3",
+ "maturity_evidence": [
+  "multi_horizontal",
+  "named_product:SAP",
+  "multi_year"
+ ],
+ "prospect_score": 70,
  "stack": [
-  "Microsoft"
+  "Microsoft",
+  "SAP"
  ],
  "vendor_named": true,
  "deployments_detail": [
+  {
+   "company": "Campari",
+   "use": "Workplace collaboration and productivity enhancement with generative AI [Microsoft 365 Copilot and Viva]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.microsoft.com/en/customers/story/19797-campari-microsoft-viva",
+   "raw_sector": "",
+   "date": "2024-11-19",
+   "fresh": "aging"
+  },
   {
    "company": "Campari",
    "use": "AI-driven recommendations + real-time journey orchestration (Microsoft Dynamics 365)",
@@ -43,6 +66,50 @@
    "tier": "I",
    "url": "https://www.microsoft.com/en/customers/story/843532-campari-consumer-goods-dynamics-365",
    "raw_sector": "Food, Beverage and Tobacco",
+   "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "Campari",
+   "use": "AI-assisted order and payment posting with improved decision-making and operational cost optimization [SAP]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://news.sap.com/2026/03/cocktail-of-sap-solutions-live-at-campari-group/",
+   "raw_sector": "",
+   "date": "2026-03-30",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Campari",
+   "use": "AI-powered credit block resolution in Order-to-Cash process [Celonis]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.rollio.ai/case-studies/campari",
+   "raw_sector": "",
+   "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "Campari",
+   "use": "AI-powered Digital Asset Management for campaign acceleration and content management [Bynder]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.bynder.com/en/customers/campari-group/",
+   "raw_sector": "",
+   "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "Campari",
+   "use": "Location intelligence and AI models for on-premise sales opportunity identification",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://datappeal.io/campari-boosting-on-premise-sales-through-big-data-location-intelligence/",
+   "raw_sector": "",
    "date": "missing",
    "fresh": "undated"
   }

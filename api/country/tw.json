@@ -6,38 +6,86 @@
    121,
    23.7
   ],
-  "deployments": 90,
-  "companies": 40,
+  "deployments": 275,
+  "companies": 41,
   "searched": 50,
-  "confirmed": 70,
-  "confirmed_pct": 78,
-  "density": 1.4,
-  "with_value_number": 38,
-  "proof_pct": 42,
+  "confirmed": 186,
+  "confirmed_pct": 68,
+  "density": 3.72,
+  "with_value_number": 93,
+  "proof_pct": 34,
   "top_verticals": [
    {
     "v": "Manufacturing & Robotics",
-    "n": 36
+    "n": 135
    },
    {
     "v": "Financial Services",
-    "n": 22
+    "n": 83
+   },
+   {
+    "v": "Telecom",
+    "n": 28
    },
    {
     "v": "",
     "n": 19
    },
    {
-    "v": "Telecom",
-    "n": 7
-   },
-   {
-    "v": "Retail & E-commerce",
-    "n": 2
+    "v": "Logistics & Supply Chain",
+    "n": 4
    }
   ]
  },
  "grid": [
+  {
+   "v": "Financial Services",
+   "h": "Core / Domain",
+   "n": 22,
+   "withnum": 7,
+   "verdict": "active",
+   "verdict_v2": "active"
+  },
+  {
+   "v": "Financial Services",
+   "h": "Customer Support",
+   "n": 14,
+   "withnum": 4,
+   "verdict": "active",
+   "verdict_v2": "active"
+  },
+  {
+   "v": "Financial Services",
+   "h": "Software / Code",
+   "n": 4,
+   "withnum": 2,
+   "verdict": "strong",
+   "verdict_v2": "proven"
+  },
+  {
+   "v": "Financial Services",
+   "h": "Sales / Marketing",
+   "n": 6,
+   "withnum": 1,
+   "verdict": "active",
+   "verdict_v2": "active"
+  },
+  {
+   "v": "Financial Services",
+   "h": "Back-office / Ops",
+   "n": 25,
+   "withnum": 12,
+   "verdict": "strong",
+   "verdict_v2": "proven"
+  },
+  {
+   "v": "Financial Services",
+   "h": "Security / Risk",
+   "n": 12,
+   "withnum": 7,
+   "verdict": "strong",
+   "verdict_v2": "proven"
+  },
   {
    "v": "",
    "h": "Core / Domain",
@@ -79,46 +127,6 @@
    "verdict_v2": "talk"
   },
   {
-   "v": "Financial Services",
-   "h": "Core / Domain",
-   "n": 2,
-   "withnum": 0,
-   "verdict": "talk",
-   "verdict_v2": "unquantified"
-  },
-  {
-   "v": "Financial Services",
-   "h": "Customer Support",
-   "n": 5,
-   "withnum": 1,
-   "verdict": "active",
-   "verdict_v2": "active"
-  },
-  {
-   "v": "Financial Services",
-   "h": "Software / Code",
-   "n": 2,
-   "withnum": 1,
-   "verdict": "strong",
-   "verdict_v2": "proven"
-  },
-  {
-   "v": "Financial Services",
-   "h": "Back-office / Ops",
-   "n": 12,
-   "withnum": 8,
-   "verdict": "strong",
-   "verdict_v2": "proven"
-  },
-  {
-   "v": "Financial Services",
-   "h": "Security / Risk",
-   "n": 1,
-   "withnum": 0,
-   "verdict": "talk",
-   "verdict_v2": "unquantified"
-  },
-  {
    "v": "Retail & E-commerce",
    "h": "Core / Domain",
    "n": 1,
@@ -137,7 +145,7 @@
   {
    "v": "Energy & Utilities",
    "h": "Core / Domain",
-   "n": 1,
+   "n": 2,
    "withnum": 1,
    "verdict": "strong",
    "verdict_v2": "proven"
@@ -153,71 +161,79 @@
   {
    "v": "Manufacturing & Robotics",
    "h": "Core / Domain",
-   "n": 27,
-   "withnum": 12,
-   "verdict": "strong",
-   "verdict_v2": "proven"
+   "n": 112,
+   "withnum": 36,
+   "verdict": "active",
+   "verdict_v2": "active"
   },
   {
    "v": "Manufacturing & Robotics",
    "h": "Customer Support",
-   "n": 1,
+   "n": 2,
    "withnum": 0,
    "verdict": "talk",
    "verdict_v2": "unquantified"
   },
   {
    "v": "Manufacturing & Robotics",
+   "h": "Software / Code",
+   "n": 5,
+   "withnum": 0,
+   "verdict": "talk",
+   "verdict_v2": "unquantified"
+  },
+  {
+   "v": "Manufacturing & Robotics",
+   "h": "Back-office / Ops",
+   "n": 16,
+   "withnum": 2,
+   "verdict": "talk",
+   "verdict_v2": "unquantified"
+  },
+  {
+   "v": "Telecom",
+   "h": "Core / Domain",
+   "n": 8,
+   "withnum": 3,
+   "verdict": "active",
+   "verdict_v2": "active"
+  },
+  {
+   "v": "Telecom",
+   "h": "Customer Support",
+   "n": 6,
+   "withnum": 2,
+   "verdict": "active",
+   "verdict_v2": "active"
+  },
+  {
+   "v": "Telecom",
    "h": "Software / Code",
    "n": 3,
-   "withnum": 0,
-   "verdict": "talk",
-   "verdict_v2": "unquantified"
-  },
-  {
-   "v": "Manufacturing & Robotics",
-   "h": "Back-office / Ops",
-   "n": 5,
-   "withnum": 1,
-   "verdict": "active",
-   "verdict_v2": "active"
-  },
-  {
-   "v": "Telecom",
-   "h": "Core / Domain",
-   "n": 2,
-   "withnum": 1,
-   "verdict": "strong",
-   "verdict_v2": "proven"
-  },
-  {
-   "v": "Telecom",
-   "h": "Customer Support",
-   "n": 2,
-   "withnum": 1,
-   "verdict": "strong",
-   "verdict_v2": "proven"
-  },
-  {
-   "v": "Telecom",
-   "h": "Software / Code",
-   "n": 1,
-   "withnum": 1,
+   "withnum": 2,
    "verdict": "strong",
    "verdict_v2": "proven"
   },
   {
    "v": "Telecom",
    "h": "Sales / Marketing",
-   "n": 1,
-   "withnum": 1,
+   "n": 3,
+   "withnum": 2,
    "verdict": "strong",
    "verdict_v2": "proven"
   },
   {
    "v": "Telecom",
    "h": "Back-office / Ops",
-   "n": 1,
+   "n": 6,
+   "withnum": 2,
+   "verdict": "active",
+   "verdict_v2": "active"
+  },
+  {
+   "v": "Telecom",
+   "h": "Security / Risk",
+   "n": 2,
    "withnum": 1,
    "verdict": "strong",
    "verdict_v2": "proven"
@@ -233,8 +249,16 @@
   {
    "v": "Logistics & Supply Chain",
    "h": "Core / Domain",
-   "n": 1,
+   "n": 2,
    "withnum": 1,
+   "verdict": "strong",
+   "verdict_v2": "proven"
+  },
+  {
+   "v": "Logistics & Supply Chain",
+   "h": "Back-office / Ops",
+   "n": 2,
+   "withnum": 0,
    "verdict": "talk",
    "verdict_v2": "talk"
   }
@@ -242,19 +266,28 @@
  "verticals": [
   {
    "v": "Manufacturing & Robotics",
-   "n": 36,
-   "confirmed": 23,
-   "withnum": 13,
-   "proof_pct": 36,
+   "n": 135,
+   "confirmed": 70,
+   "withnum": 38,
+   "proof_pct": 28,
    "verdict": "active",
    "verdict_v2": "active"
   },
   {
    "v": "Financial Services",
-   "n": 22,
-   "confirmed": 20,
-   "withnum": 10,
-   "proof_pct": 45,
+   "n": 83,
+   "confirmed": 69,
+   "withnum": 33,
+   "proof_pct": 40,
+   "verdict": "active",
+   "verdict_v2": "active"
+  },
+  {
+   "v": "Telecom",
+   "n": 28,
+   "confirmed": 26,
+   "withnum": 12,
+   "proof_pct": 43,
    "verdict": "strong",
    "verdict_v2": "proven"
   },
@@ -268,11 +301,20 @@
    "verdict_v2": "active"
   },
   {
-   "v": "Telecom",
-   "n": 7,
-   "confirmed": 7,
-   "withnum": 5,
-   "proof_pct": 71,
+   "v": "Logistics & Supply Chain",
+   "n": 4,
+   "confirmed": 1,
+   "withnum": 1,
+   "proof_pct": 25,
+   "verdict": "active",
+   "verdict_v2": "active"
+  },
+  {
+   "v": "Energy & Utilities",
+   "n": 3,
+   "confirmed": 2,
+   "withnum": 2,
+   "proof_pct": 67,
    "verdict": "strong",
    "verdict_v2": "proven"
   },
@@ -286,15 +328,6 @@
    "verdict_v2": "unquantified"
   },
   {
-   "v": "Energy & Utilities",
-   "n": 2,
-   "confirmed": 2,
-   "withnum": 2,
-   "proof_pct": 100,
-   "verdict": "strong",
-   "verdict_v2": "proven"
-  },
-  {
    "v": "Insurance",
    "n": 1,
    "confirmed": 1,
@@ -302,15 +335,6 @@
    "proof_pct": 0,
    "verdict": "talk",
    "verdict_v2": "unquantified"
-  },
-  {
-   "v": "Logistics & Supply Chain",
-   "n": 1,
-   "confirmed": 0,
-   "withnum": 1,
-   "proof_pct": 100,
-   "verdict": "talk",
-   "verdict_v2": "talk"
   }
  ]
 }

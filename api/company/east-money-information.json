@@ -3,42 +3,71 @@
  "name": "East Money Information",
  "cc": "CN",
  "vertical": "Financial Services",
- "deployments": 1,
- "confirmed": 1,
- "with_value_number": 0,
- "proof_rate": 0.0,
+ "deployments": 11,
+ "confirmed": 10,
+ "with_value_number": 2,
+ "proof_rate": 0.182,
  "mktcap": 44565277778.0,
  "revenue": 2430555556.0,
  "employees": 6403.0,
  "silent": false,
- "per_bn_revenue": 0.41,
- "per_10k_emp": 1.56,
+ "per_bn_revenue": 4.53,
+ "per_10k_emp": 17.18,
  "benchmarks": {
   "global_vertical": {
-   "deployments": 0,
-   "confirmed": 17,
-   "proof_rate": 0,
-   "n": 377
+   "deployments": 72,
+   "confirmed": 78,
+   "proof_rate": 38,
+   "n": 388
   },
   "country_vertical": {
-   "deployments": 0,
-   "confirmed": 0,
-   "proof_rate": 0,
-   "n": 26
+   "deployments": 56,
+   "confirmed": 56,
+   "proof_rate": 19,
+   "n": 28
   }
  },
- "first_seen": null,
- "by_year": [],
- "undated_pct": 100,
- "momentum": "none",
- "maturity": "L3",
- "maturity_evidence": [
-  "named_product:Self"
+ "first_seen": 2024,
+ "by_year": [
+  {
+   "year": 2024,
+   "n": 2
+  },
+  {
+   "year": 2025,
+   "n": 7
+  },
+  {
+   "year": 2026,
+   "n": 1
+  }
  ],
- "prospect_score": 46,
- "stack": [],
+ "undated_pct": 9,
+ "momentum": "early_mover,rising",
+ "maturity": "L4",
+ "maturity_evidence": [
+  "multi_horizontal",
+  "named_product:Self",
+  "value_number",
+  "multi_year"
+ ],
+ "prospect_score": 93,
+ "stack": [
+  "DeepSeek"
+ ],
  "vendor_named": true,
  "deployments_detail": [
+  {
+   "company": "East Money Information",
+   "use": "AI-powered intelligent customer service, moving from standardized responses to personalized interactions — cited by the chairman as one of the deployed 'basic, universal, error-tolerant' AI scenarios. [East Money (Miaoxiang-based)]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://stcn.com/article/detail/1567786.html",
+   "raw_sector": "",
+   "date": "2025-03-06",
+   "fresh": "fresh"
+  },
   {
    "company": "East Money Information",
    "use": "Self-developed \"妙想\" (Miaoxiang) financial LLM; AI investment assistant; \"首个基于金融大模型的智能应用\"; AI integrated across all product/business lines",
@@ -49,6 +78,105 @@
    "raw_sector": "Financials",
    "date": "missing",
    "fresh": "undated"
+  },
+  {
+   "company": "East Money Information",
+   "use": "Miaoxiang (妙想) self-developed financial large language model, opened to all users and fully deployed on the East Money APP as a consumer AI investment assistant (real-time quote/K-line analysis, news interpretation, source-traceable Q&A). One of the first financial LLMs to pass China CAC (网信办) filing in 2023. [East Money (self-developed / 自研)]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://news.dayoo.com/finance/202503/27/171090_54804436.htm",
+   "raw_sector": "",
+   "date": "2025-03-21",
+   "fresh": "fresh"
+  },
+  {
+   "company": "East Money Information",
+   "use": "Miaoxiang Investment Research Assistant (妙想投研助理) — next-generation intelligent financial terminal for institutions, with multi-agent collaboration and reasoning. Widely adapted to brokerage, fund and bank research workflows. [East Money (self-developed)]",
+   "existence": "confirmed",
+   "value": "served nearly 10,000 financial institutions",
+   "tier": "",
+   "url": "https://www.gdte.org.cn/content/content_9079717.html",
+   "raw_sector": "",
+   "date": "2025-09-10",
+   "fresh": "fresh"
+  },
+  {
+   "company": "East Money Information",
+   "use": "Choice intelligent financial terminal (v8.0) seven AI scenarios: AI search, AI Q&A, AI research-report summary, AI document assistant, AI news summary, AI bond news, and AI bond trading assistant — DATA+AI across PC/APP for investment research professionals. [East Money (self-developed)]",
+   "existence": "confirmed",
+   "value": "AI search efficiency boosted ~100x",
+   "tier": "",
+   "url": "https://www.stcn.com/article/detail/1223958.html",
+   "raw_sector": "",
+   "date": "2024-06-05",
+   "fresh": "aging"
+  },
+  {
+   "company": "East Money Information",
+   "use": "Localized on-premise deployment and testing of the DeepSeek large model, with Miaoxiang financial LLM upgraded to a 'deep thinking' (深度思考) reasoning mode. [DeepSeek]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://finance.sina.com.cn/stock/relnews/cn/2025-03-17/doc-inepymna0405151.shtml",
+   "raw_sector": "",
+   "date": "2025-03-17",
+   "fresh": "fresh"
+  },
+  {
+   "company": "East Money Information",
+   "use": "Intelligent research report generation (智能研报 / AI研究员 'AI researcher') within Miaoxiang: summarizes multiple research reports, generates core-view briefs, and one-click drafts various reports for analysts. [East Money (self-developed)]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://finance.eastmoney.com/a/202412033257548514.html",
+   "raw_sector": "",
+   "date": "2024-12-03",
+   "fresh": "aging"
+  },
+  {
+   "company": "East Money Information",
+   "use": "Intelligent meeting (智能会议) module within Miaoxiang: automatic transcription of roadshow/meeting content, multilingual translation, and auto-summarization of key metrics — a back-office productivity function. [East Money (self-developed)]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.gdte.org.cn/content/content_9079717.html",
+   "raw_sector": "",
+   "date": "2025-09-10",
+   "fresh": "fresh"
+  },
+  {
+   "company": "East Money Information",
+   "use": "Miaoxiang Skills (妙想Skills) — financial AI skill packages exposing six institutional research scenarios (intelligent stock screening, macro data insights, financial data queries, financial news penetration, quantitative API, Miaoxiang Q&A) via a built-in institutional-grade MCP financial database, callable by external/general LLM agents. [East Money (self-developed); MCP]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://finance.sina.com.cn/jjxw/2026-03-13/doc-inhqvxrm4060871.shtml",
+   "raw_sector": "",
+   "date": "2026-03-13",
+   "fresh": "fresh"
+  },
+  {
+   "company": "East Money Information",
+   "use": "AI applied to marketing and office/back-office scenarios — described by the chairman as relatively basic, universal, error-tolerant scenarios where large models are already deployed. [East Money (Miaoxiang-based)]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://stcn.com/article/detail/1567786.html",
+   "raw_sector": "",
+   "date": "2025-03-06",
+   "fresh": "fresh"
+  },
+  {
+   "company": "East Money Information",
+   "use": "AI risk management: sentiment monitoring and real-time surveillance able to identify abnormal trading patterns and compliance risks in advance, shifting risk control from post-event analysis to early warning. [East Money (Miaoxiang-based)]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://stcn.com/article/detail/1567786.html",
+   "raw_sector": "",
+   "date": "2025-03-06",
+   "fresh": "fresh"
   }
  ]
 }

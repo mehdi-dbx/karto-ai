@@ -3,27 +3,27 @@
  "name": "Mitsubishi Estate Co., Ltd.",
  "cc": "JP",
  "vertical": "Real Estate & Construction",
- "deployments": 11,
- "confirmed": 8,
+ "deployments": 14,
+ "confirmed": 11,
  "with_value_number": 5,
- "proof_rate": 0.455,
+ "proof_rate": 0.357,
  "mktcap": 32600000000.0,
  "revenue": 11666666667.0,
  "employees": 11659.0,
  "silent": false,
- "per_bn_revenue": 0.94,
- "per_10k_emp": 9.43,
+ "per_bn_revenue": 1.2,
+ "per_10k_emp": 12.01,
  "benchmarks": {
   "global_vertical": {
    "deployments": 99,
-   "confirmed": 98,
-   "proof_rate": 64,
+   "confirmed": 97,
+   "proof_rate": 73,
    "n": 154
   },
   "country_vertical": {
    "deployments": 100,
-   "confirmed": 100,
-   "proof_rate": 29,
+   "confirmed": 93,
+   "proof_rate": 71,
    "n": 15
   }
  },
@@ -47,14 +47,14 @@
   },
   {
    "year": 2025,
-   "n": 2
+   "n": 3
   },
   {
    "year": 2026,
-   "n": 2
+   "n": 3
   }
  ],
- "undated_pct": 0,
+ "undated_pct": 7,
  "momentum": "early_mover,rising",
  "maturity": "L4",
  "maturity_evidence": [
@@ -64,10 +64,36 @@
   "multi_year",
   "tier_p"
  ],
- "prospect_score": 78,
- "stack": [],
- "vendor_named": false,
+ "prospect_score": 86,
+ "stack": [
+  "Anthropic",
+  "Google",
+  "OpenAI"
+ ],
+ "vendor_named": true,
  "deployments_detail": [
+  {
+   "company": "Mitsubishi Estate Co., Ltd.",
+   "use": "Real-time generative AI property consultant [PriceHubble]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.linkedin.com/posts/pricehubble-ag_pricehubble-powers-mitsubishi-estates-newly-activity-7196766526237036544-FE2Y",
+   "raw_sector": "",
+   "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "Mitsubishi Estate Co., Ltd.",
+   "use": "AI-powered asset reliability and operational performance monitoring [UptimeAI]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.uptimeai.com/resources/mitsubishi-estate-partners-with-uptimeai/",
+   "raw_sector": "",
+   "date": "2025-03-25",
+   "fresh": "fresh"
+  },
   {
    "company": "Mitsubishi Estate Co., Ltd.",
    "use": "\"AI Security asilla\" behavior-detection at Marunouchi buildings (from Oct 2022); \"Front Agent\" AI sales analytics (Mitsubishi Estate Residence)",
@@ -78,6 +104,17 @@
    "raw_sector": "Real Estate",
    "date": "2022-10",
    "fresh": "stale"
+  },
+  {
+   "company": "Mitsubishi Estate Co., Ltd.",
+   "use": "AI-based real-time surveillance for abnormal behavior detection [icetana]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.icetana.ai/blog/icetana-ai-mitsubishi-estate-case-study",
+   "raw_sector": "",
+   "date": "2026-02-25",
+   "fresh": "fresh"
   },
   {
    "company": "Mitsubishi Estate Co., Ltd.",

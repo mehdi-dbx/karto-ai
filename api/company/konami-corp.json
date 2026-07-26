@@ -3,46 +3,80 @@
  "name": "Konami Corp.",
  "cc": "JP",
  "vertical": "Media / Entertainment / Gaming",
- "deployments": 1,
- "confirmed": 1,
- "with_value_number": 1,
- "proof_rate": 1.0,
+ "deployments": 9,
+ "confirmed": 7,
+ "with_value_number": 2,
+ "proof_rate": 0.222,
  "mktcap": 16466666667.0,
  "revenue": 3291200000.0,
  "employees": 5186.0,
  "silent": false,
- "per_bn_revenue": 0.3,
- "per_10k_emp": 1.93,
+ "per_bn_revenue": 2.73,
+ "per_10k_emp": 17.35,
  "benchmarks": {
   "global_vertical": {
-   "deployments": 0,
-   "confirmed": 18,
-   "proof_rate": 62,
+   "deployments": 74,
+   "confirmed": 76,
+   "proof_rate": 50,
    "n": 35
   },
   "country_vertical": {
-   "deployments": 0,
-   "confirmed": 0,
-   "proof_rate": 0,
+   "deployments": 100,
+   "confirmed": 100,
+   "proof_rate": 25,
    "n": 5
   }
  },
- "first_seen": null,
- "by_year": [],
- "undated_pct": 100,
- "momentum": "none",
- "maturity": "L3",
+ "first_seen": 2019,
+ "by_year": [
+  {
+   "year": 2019,
+   "n": 1
+  },
+  {
+   "year": 2020,
+   "n": 1
+  },
+  {
+   "year": 2021,
+   "n": 2
+  },
+  {
+   "year": 2023,
+   "n": 1
+  },
+  {
+   "year": 2025,
+   "n": 3
+  }
+ ],
+ "undated_pct": 11,
+ "momentum": "early_mover,rising",
+ "maturity": "L4",
  "maturity_evidence": [
+  "multi_horizontal",
   "named_product:Yu-Gi-Oh Neuron",
   "value_number",
+  "multi_year",
   "tier_p"
  ],
- "prospect_score": 6,
+ "prospect_score": 73,
  "stack": [
   "Amazon AWS"
  ],
  "vendor_named": true,
  "deployments_detail": [
+  {
+   "company": "Konami Corp.",
+   "use": "MD-AI Live Commentary project for Yu-Gi-Oh! Master Duel / World Championship 2025: AI generates automated live match commentary based on understanding of 12,000+ cards learned from simulations, deck frequency and win rates, delivered in 10 languages. (AI-synthesized voice component later drew controversy over unauthorized voice-model training.) [none]",
+   "existence": "confirmed",
+   "value": "over 12,000 cards; 10 languages",
+   "tier": "",
+   "url": "https://www.siliconera.com/yu-gi-oh-world-championship-2025-will-have-ai-commentary/",
+   "raw_sector": "",
+   "date": "2025-08-29",
+   "fresh": "fresh"
+  },
   {
    "company": "Konami Corp.",
    "use": "\"Yu-Gi-Oh Neuron\" image recognition AI (10,000+ card types); reinforcement learning for game balancing (Momotaro Dentetsu etc.); AWS-automated card recognition",
@@ -53,6 +87,83 @@
    "raw_sector": "Services",
    "date": "missing",
    "fresh": "undated"
+  },
+  {
+   "company": "Konami Corp.",
+   "use": "eFootball: per-player in-game AI where each footballer has its own AI behavior derived from seasonal statistics to increase gameplay authenticity (core game-domain AI shipping in the live title). [none]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.konami.com/corporate/en/business/digitalentertainment.html",
+   "raw_sector": "",
+   "date": "2021-08-11",
+   "fresh": "stale"
+  },
+  {
+   "company": "Konami Corp.",
+   "use": "eFootball version 4.4.0 added AI opponents to eFootball League mode (Divisions 7-9 / 2-3), letting players compete against AI to lower the barrier before PvP; ships in the live game. [none]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.videogameschronicle.com/news/efootball-is-adding-crossplay-and-ai-opponents-in-a-major-update-this-week/",
+   "raw_sector": "",
+   "date": "2025-04-17",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Konami Corp.",
+   "use": "Professional Baseball Spirits series: per-player AI based on each real player's seasonal statistics driving in-game behavior for authenticity (core game-domain AI in shipped titles). [none]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.konami.com/corporate/en/business/digitalentertainment.html",
+   "raw_sector": "",
+   "date": "2021-08-11",
+   "fresh": "stale"
+  },
+  {
+   "company": "Konami Corp.",
+   "use": "Wai Wai World Craft (UGC 'Social Game Creation Network'): built-in generative AI assistant 'MagicPod' that lets users create game content instead of manually editing assets, using classic Konami IP as a base. [none]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://gamerant.com/wai-wai-world-craft-konami-game-announced/",
+   "raw_sector": "",
+   "date": "2025-09-25",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Konami Corp.",
+   "use": "SYNK Vision: AI facial-recognition player identification at slot machines and table games (cardless login, anonymous player tracking, harm-minimization alerts, AML compliance) integrated with the SYNKROS casino management system. Uses privacy-safe Edge AI processed on smart cameras. [Xailient (Edge AI computer vision)]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.konamigaming.com/home/2024/09/26/konami-gaming-and-xailient-demonstrate-major-expansions-to-synk-vision-at-las-vegas-global-gaming-expo",
+   "raw_sector": "",
+   "date": "2023-11-01",
+   "fresh": "stale"
+  },
+  {
+   "company": "Konami Corp.",
+   "use": "SYNKROS casino management system integrated with GamingAnalytics.AI: natural-language/voice search-driven analytics using machine learning for slot-machine recommendations, player-behavior prediction and profitability optimization for casino operators. [GamingAnalytics.AI (NLP + ML cognitive computing)]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://gaminganalytics.ai/konami-and-gaminganalytics-ai-partner-to-provide-intuitive-insight-driven-data-analytics/",
+   "raw_sector": "",
+   "date": "2019-04-02",
+   "fresh": "stale"
+  },
+  {
+   "company": "Konami Corp.",
+   "use": "SYNKROS Analytics / Business Intelligence: AI-supported visual analytics suite for casino operators (thermal graphing, demographic maps, custom KPI queries, patron segmentation) delivered as part of the deployed SYNKROS casino management platform. [none]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.konamigaming.com/systems/synkros-analytics",
+   "raw_sector": "",
+   "date": "2020-01-14",
+   "fresh": "stale"
   }
  ]
 }

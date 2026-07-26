@@ -3,27 +3,27 @@
  "name": "Kraft Heinz",
  "cc": "US",
  "vertical": "Retail & E-commerce",
- "deployments": 1,
- "confirmed": 1,
- "with_value_number": 1,
- "proof_rate": 1.0,
+ "deployments": 8,
+ "confirmed": 5,
+ "with_value_number": 5,
+ "proof_rate": 0.625,
  "mktcap": 30100000000.0,
  "revenue": 24990000000.0,
  "employees": 35000.0,
  "silent": false,
- "per_bn_revenue": 0.04,
- "per_10k_emp": 0.29,
+ "per_bn_revenue": 0.32,
+ "per_10k_emp": 2.29,
  "benchmarks": {
   "global_vertical": {
-   "deployments": 0,
-   "confirmed": 24,
-   "proof_rate": 77,
-   "n": 295
+   "deployments": 60,
+   "confirmed": 53,
+   "proof_rate": 90,
+   "n": 301
   },
   "country_vertical": {
-   "deployments": 0,
-   "confirmed": 25,
-   "proof_rate": 85,
+   "deployments": 46,
+   "confirmed": 38,
+   "proof_rate": 96,
    "n": 80
   }
  },
@@ -33,12 +33,15 @@
  "momentum": "none",
  "maturity": "L3",
  "maturity_evidence": [
+  "multi_horizontal",
   "named_product:KraftGPT",
   "value_number"
  ],
- "prospect_score": 14,
- "stack": [],
- "vendor_named": false,
+ "prospect_score": 45,
+ "stack": [
+  "Google"
+ ],
+ "vendor_named": true,
  "deployments_detail": [
   {
    "company": "Kraft Heinz",
@@ -49,6 +52,83 @@
    "url": "https://consumergoods.com/kraft-heinz-building-kraftgpt-ai-assistant-it-moves-toward-self-driving-supply-chain",
    "raw_sector": "Consumer Staples",
    "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "Kraft Heinz",
+   "use": "Product development time reduction (50%) and creative design acceleration (8x)",
+   "existence": "claimed",
+   "value": "50%",
+   "tier": "",
+   "url": "https://chiefaiofficer.com/kraft-heinzs-ai-cuts-product-development-time-by-50/",
+   "raw_sector": "",
+   "date": "Sep 21, 2025",
+   "fresh": "undated"
+  },
+  {
+   "company": "Kraft Heinz",
+   "use": "AI-powered product content development acceleration (8 hours instead of 8 weeks, 75% faster)",
+   "existence": "confirmed",
+   "value": "75%",
+   "tier": "",
+   "url": "https://cloud.google.com/customers/kraftheinz",
+   "raw_sector": "",
+   "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "Kraft Heinz",
+   "use": "Named as a Google Gemini / Vertex AI customer/case study [Google Gemini / Vertex AI] [Google Gemini / Vertex AI]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://cloud.google.com/transform/25-of-my-favorite-roi-customer-stories-gen-ai",
+   "raw_sector": "",
+   "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "Kraft Heinz",
+   "use": "Self-driving supply chain with production efficiency boost (12%)",
+   "existence": "claimed",
+   "value": "12%",
+   "tier": "",
+   "url": "https://chiefaiofficer.com/kraft-heinzs-ai-cuts-product-development-time-by-50/",
+   "raw_sector": "",
+   "date": "Sep 21, 2025",
+   "fresh": "undated"
+  },
+  {
+   "company": "Kraft Heinz",
+   "use": "AI and machine learning for supply chain efficiency, quality and visibility",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.supplychaindive.com/news/kraft-heinz-ai-automation-supply-chain/742476/",
+   "raw_sector": "",
+   "date": "Mar 17, 2025",
+   "fresh": "undated"
+  },
+  {
+   "company": "Kraft Heinz",
+   "use": "Autonomous forecasting and demand planning (48.2% adoption)",
+   "existence": "confirmed",
+   "value": "48.2%",
+   "tier": "",
+   "url": "https://o9solutions.com/articles/how-is-kraft-heinz-using-ai-to-transform-demand-planning",
+   "raw_sector": "",
+   "date": "May 7, 2025",
+   "fresh": "undated"
+  },
+  {
+   "company": "Kraft Heinz",
+   "use": "Generative AI for creative content generation (8 hours vs 8 weeks)",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.forrester.com/blogs/how-kraft-heinz-is-using-genai-to-re-imagine-the-future-of-creative-content/",
+   "raw_sector": "",
+   "date": "May 4, 2025",
    "fresh": "undated"
   }
  ]

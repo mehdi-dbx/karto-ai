@@ -3,35 +3,61 @@
  "name": "Bureau Veritas",
  "cc": "FR",
  "vertical": "Legal & Professional Services",
- "deployments": 1,
- "confirmed": 1,
- "with_value_number": 0,
- "proof_rate": 0.0,
+ "deployments": 9,
+ "confirmed": 8,
+ "with_value_number": 3,
+ "proof_rate": 0.333,
  "mktcap": 13046400000.0,
  "revenue": 7214400000.0,
  "employees": 82049.0,
  "silent": false,
- "per_bn_revenue": 0.14,
- "per_10k_emp": 0.12,
+ "per_bn_revenue": 1.25,
+ "per_10k_emp": 1.1,
  "benchmarks": {
   "global_vertical": {
-   "deployments": 0,
-   "confirmed": 9,
-   "proof_rate": 0,
+   "deployments": 73,
+   "confirmed": 82,
+   "proof_rate": 55,
    "n": 12
   }
  },
- "first_seen": null,
- "by_year": [],
- "undated_pct": 100,
- "momentum": "none",
- "maturity": "L3",
- "maturity_evidence": [
-  "named_product:AIRI"
+ "first_seen": 2017,
+ "by_year": [
+  {
+   "year": 2017,
+   "n": 1
+  },
+  {
+   "year": 2019,
+   "n": 2
+  },
+  {
+   "year": 2022,
+   "n": 1
+  },
+  {
+   "year": 2025,
+   "n": 2
+  },
+  {
+   "year": 2026,
+   "n": 2
+  }
  ],
- "prospect_score": 46,
+ "undated_pct": 11,
+ "momentum": "early_mover,rising",
+ "maturity": "L4",
+ "maturity_evidence": [
+  "multi_horizontal",
+  "named_product:AIRI",
+  "value_number",
+  "multi_year"
+ ],
+ "prospect_score": 75,
  "stack": [
-  "Amazon AWS"
+  "Amazon AWS",
+  "Microsoft",
+  "Microsoft Azure"
  ],
  "vendor_named": true,
  "deployments_detail": [
@@ -45,6 +71,94 @@
    "raw_sector": "Professional Services",
    "date": "missing",
    "fresh": "undated"
+  },
+  {
+   "company": "Bureau Veritas",
+   "use": "CHARLES AI 'Augmented Labs' digital assistant helping lab technicians analyze samples and predict mineralogical/chemical/physical properties via infrared spectroscopy across the global testing lab network [Microsoft (Azure)]",
+   "existence": "confirmed",
+   "value": "Atlanta lab processes upwards of 400,000 samples per year; 400+ labs worldwide targeted",
+   "tier": "",
+   "url": "https://group.bureauveritas.com/artificial-intelligence-enhances-laboratory-testing-launch-bureau-veritass-augmented-labs",
+   "raw_sector": "",
+   "date": "2019-02-27",
+   "fresh": "stale"
+  },
+  {
+   "company": "Bureau Veritas",
+   "use": "CHARLES oil-analysis AI for oil condition monitoring / predictive maintenance — machine-learning platform detecting equipment wear precursors and fluid-condition changes before failure [Bureau Veritas (CHARLES), ML-based]",
+   "existence": "confirmed",
+   "value": "Trained on an aggregate of millions of samples and results from more than a decade of analysis",
+   "tier": "",
+   "url": "https://commodities.bureauveritas.com/insight/charles-oil-analysis-ai",
+   "raw_sector": "",
+   "date": "2019-07-31",
+   "fresh": "stale"
+  },
+  {
+   "company": "Bureau Veritas",
+   "use": "Augmented Surveyor 3D (AGS 3D): AI/ML remote-inspection tool that auto-detects anomalies, corrosion, cracks and thickness loss in drone/LiDAR imagery of ships and offshore assets (FPSOs, FSOs, floating offshore wind), mapping defects onto a 3D digital model [Bureau Veritas Marine & Offshore (proprietary AI, drones/LiDAR)]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://marine-offshore.bureauveritas.com/newsroom/bureau-veritas-launches-ai-powered-augmented-surveyor-3d-next-generation-remote-inspection",
+   "raw_sector": "",
+   "date": "2025-06-12",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Bureau Veritas",
+   "use": "Independent AI-systems audit offering for EU AI Act compliance — auditors use an adapted automated governance tool to identify vulnerabilities across 8 pillars (security, robustness, data privacy, governance, fairness, explainability, controllability, transparency) [AWS (AI Risk Intelligence / AIRI, AWS Generative AI Innovation Center)]",
+   "existence": "claimed",
+   "value": "Reduces audit cycles from weeks to days (vendor claim); rollout Q2 2026 in FR, UK, ES, IT, NL, Nordics",
+   "tier": "",
+   "url": "https://group.bureauveritas.com/newsroom/bureau-veritas-launches-independent-ai-assessment-offering-european-enterprises-developed",
+   "raw_sector": "",
+   "date": "2026-04-01",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Bureau Veritas",
+   "use": "Analytics-driven inspection services combining automated data collection, drones/robotics and deep-learning defect recognition to bring continuous industrial risk management to power/utility and renewable-energy assets [Avitas Systems (a GE Venture)]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://group.bureauveritas.com/bureau-veritas-partners-avitas-systems-ge-venture-create-next-generation-inspection-services-driven",
+   "raw_sector": "",
+   "date": "2017-12-05",
+   "fresh": "stale"
+  },
+  {
+   "company": "Bureau Veritas",
+   "use": "ISO/IEC 42001 Artificial Intelligence Management Systems (AIMS) certification service — Bureau Veritas accredited to audit and certify organizations' AI governance/management systems [Bureau Veritas Certification (ISO/IEC 42001, Accredia-accredited)]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.bureauveritas.africa/newsroom/isoiec-42001-certification-building-trust-artificial-intelligence",
+   "raw_sector": "",
+   "date": "2026-07-14",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Bureau Veritas",
+   "use": "Intelligent Document Processing (IDP) to automatically extract asset details (model/serial numbers, dates) from photos of equipment nameplates, feeding directly into asset-management systems [super.AI (Intelligent Document Processing)]",
+   "existence": "confirmed",
+   "value": "75% reduction in processing time per project; 80% cost savings on data entry; 3x faster processing; USD 9M saved annually (per vendor case study)",
+   "tier": "",
+   "url": "https://super.ai/case-studies/bureau-veritas",
+   "raw_sector": "",
+   "date": "2022-10-13",
+   "fresh": "stale"
+  },
+  {
+   "company": "Bureau Veritas",
+   "use": "AI pentesting / AI security testing service — methodology to test AI models, APIs and infrastructure for prompt injection, model extraction and other real-world weaknesses (Bureau Veritas Cybersecurity / Secura) [Bureau Veritas Cybersecurity (Secura)]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://cybersecurity.bureauveritas.com/services/integrated-approach/ai-security-services",
+   "raw_sector": "",
+   "date": "2025-09-18",
+   "fresh": "fresh"
   }
  ]
 }

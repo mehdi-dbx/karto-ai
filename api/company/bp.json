@@ -3,27 +3,27 @@
  "name": "BP",
  "cc": "UK",
  "vertical": "Energy & Utilities",
- "deployments": 1,
- "confirmed": 1,
+ "deployments": 4,
+ "confirmed": 4,
  "with_value_number": 1,
- "proof_rate": 1.0,
+ "proof_rate": 0.25,
  "mktcap": 105829100000.0,
  "revenue": 146160000000.0,
  "employees": 93700.0,
  "silent": false,
- "per_bn_revenue": 0.01,
- "per_10k_emp": 0.11,
+ "per_bn_revenue": 0.03,
+ "per_10k_emp": 0.43,
  "benchmarks": {
   "global_vertical": {
-   "deployments": 0,
-   "confirmed": 20,
-   "proof_rate": 75,
-   "n": 210
+   "deployments": 40,
+   "confirmed": 58,
+   "proof_rate": 59,
+   "n": 213
   },
   "country_vertical": {
-   "deployments": 0,
-   "confirmed": 0,
-   "proof_rate": 62,
+   "deployments": 25,
+   "confirmed": 50,
+   "proof_rate": 88,
    "n": 9
   }
  },
@@ -34,14 +34,15 @@
    "n": 1
   }
  ],
- "undated_pct": 0,
+ "undated_pct": 75,
  "momentum": "early_mover,gone_quiet",
  "maturity": "L3",
  "maturity_evidence": [
+  "multi_horizontal",
   "named_product:Optimization",
   "value_number"
  ],
- "prospect_score": 6,
+ "prospect_score": 54,
  "stack": [
   "Palantir"
  ],
@@ -57,6 +58,39 @@
    "raw_sector": "Oil & gas producers",
    "date": "2024",
    "fresh": "aging"
+  },
+  {
+   "company": "BP",
+   "use": "Oil and gas drilling optimization",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.bp.com/en_us/united-states/home/news/features-and-highlights/5-ways-bp-uses-ai-and-other-tech-to-drive-performance.html",
+   "raw_sector": "",
+   "date": "Oct 6, 2025",
+   "fresh": "undated"
+  },
+  {
+   "company": "BP",
+   "use": "Digital modeling",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.bp.com/en_us/united-states/home/news/features-and-highlights/5-ways-bp-uses-ai-and-other-tech-to-drive-performance.html",
+   "raw_sector": "",
+   "date": "Oct 6, 2025",
+   "fresh": "undated"
+  },
+  {
+   "company": "BP",
+   "use": "Onshore efficiency improvement",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.bp.com/en_us/united-states/home/news/features-and-highlights/5-ways-bp-uses-ai-and-other-tech-to-drive-performance.html",
+   "raw_sector": "",
+   "date": "Oct 6, 2025",
+   "fresh": "undated"
   }
  ]
 }

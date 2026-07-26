@@ -3,41 +3,51 @@
  "name": "Adani Energy Solutions",
  "cc": "IN",
  "vertical": "Energy & Utilities",
- "deployments": 1,
- "confirmed": 1,
- "with_value_number": 0,
- "proof_rate": 0.0,
+ "deployments": 5,
+ "confirmed": 4,
+ "with_value_number": 1,
+ "proof_rate": 0.2,
  "mktcap": 24337349398.0,
  "revenue": 3323855422.0,
  "employees": 3514.0,
  "silent": false,
- "per_bn_revenue": 0.3,
- "per_10k_emp": 2.85,
+ "per_bn_revenue": 1.5,
+ "per_10k_emp": 14.23,
  "benchmarks": {
   "global_vertical": {
-   "deployments": 0,
-   "confirmed": 20,
-   "proof_rate": 0,
-   "n": 210
+   "deployments": 53,
+   "confirmed": 58,
+   "proof_rate": 50,
+   "n": 213
   },
   "country_vertical": {
-   "deployments": 0,
-   "confirmed": 9,
-   "proof_rate": 0,
-   "n": 12
+   "deployments": 50,
+   "confirmed": 58,
+   "proof_rate": 33,
+   "n": 13
   }
  },
- "first_seen": null,
- "by_year": [],
- "undated_pct": 100,
- "momentum": "none",
+ "first_seen": 2026,
+ "by_year": [
+  {
+   "year": 2026,
+   "n": 1
+  }
+ ],
+ "undated_pct": 80,
+ "momentum": "late_entrant,rising",
  "maturity": "L3",
  "maturity_evidence": [
+  "multi_horizontal",
   "named_product:Quality"
  ],
- "prospect_score": 54,
- "stack": [],
- "vendor_named": false,
+ "prospect_score": 56,
+ "stack": [
+  "Google",
+  "Google Cloud",
+  "Microsoft"
+ ],
+ "vendor_named": true,
  "deployments_detail": [
   {
    "company": "Adani Energy Solutions",
@@ -47,6 +57,50 @@
    "tier": "I",
    "url": "https://www.linkedin.com/adani-energy-solutions-ai-ml-quality-check",
    "raw_sector": "Power",
+   "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "Adani Energy Solutions",
+   "use": "AI-ready data center infrastructure development",
+   "existence": "claimed",
+   "value": "100000000000",
+   "tier": "",
+   "url": "https://www.adani.com/newsroom/media-releases/adani-commits-usd-100-bn-to-sovereign-ai-infrastructure",
+   "raw_sector": "",
+   "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "Adani Energy Solutions",
+   "use": "Generative AI search experience [Google Cloud Vertex AI]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://cloud.google.com/customers/adani",
+   "raw_sector": "",
+   "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "Adani Energy Solutions",
+   "use": "AI-powered project governance platform [Microsoft Power Platform]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.microsoft.com/en/customers/story/26789-adani-green-energy-power-apps",
+   "raw_sector": "",
+   "date": "2026-07-08",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Adani Energy Solutions",
+   "use": "Digital transformation and asset management with AI [AVEVA PI System]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.aveva.com/en/perspectives/presentations/2025/adani-energy-solutions-limited--aesl---driving-digital-transformation-and-sustainability-in-electrical-utilities--our-innovative-approach-to-asset-management-/",
+   "raw_sector": "",
    "date": "missing",
    "fresh": "undated"
   }

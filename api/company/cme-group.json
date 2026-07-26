@@ -3,45 +3,51 @@
  "name": "CME Group",
  "cc": "US",
  "vertical": "Financial Services",
- "deployments": 1,
- "confirmed": 0,
- "with_value_number": 0,
- "proof_rate": 0.0,
+ "deployments": 5,
+ "confirmed": 2,
+ "with_value_number": 1,
+ "proof_rate": 0.2,
  "mktcap": 91560000000.0,
  "revenue": 6760000000.0,
  "employees": 3875.0,
  "silent": false,
- "per_bn_revenue": 0.15,
- "per_10k_emp": 2.58,
+ "per_bn_revenue": 0.74,
+ "per_10k_emp": 12.9,
  "benchmarks": {
   "global_vertical": {
-   "deployments": 0,
-   "confirmed": 0,
-   "proof_rate": 0,
-   "n": 377
+   "deployments": 31,
+   "confirmed": 17,
+   "proof_rate": 39,
+   "n": 388
   },
   "country_vertical": {
-   "deployments": 0,
-   "confirmed": 0,
-   "proof_rate": 0,
-   "n": 76
+   "deployments": 26,
+   "confirmed": 11,
+   "proof_rate": 42,
+   "n": 77
   }
  },
  "first_seen": 2024,
  "by_year": [
   {
    "year": 2024,
+   "n": 2
+  },
+  {
+   "year": 2026,
    "n": 1
   }
  ],
- "undated_pct": 0,
- "momentum": "early_mover,gone_quiet",
- "maturity": "L1",
+ "undated_pct": 40,
+ "momentum": "early_mover,cooling",
+ "maturity": "L3",
  "maturity_evidence": [
-  "rows_no_confirmed"
+  "multi_horizontal",
+  "named_product:DataMine"
  ],
- "prospect_score": 40,
+ "prospect_score": 44,
  "stack": [
+  "Google",
   "Google Cloud"
  ],
  "vendor_named": true,
@@ -55,6 +61,50 @@
    "url": "https://www.cmegroup.com/media-room/press-releases/2024/6/26/cme_group_and_googlecloudannouncenewchicagoareaprivatecloudregio.html",
    "raw_sector": "Financials",
    "date": "2024",
+   "fresh": "aging"
+  },
+  {
+   "company": "CME Group",
+   "use": "AI compute futures contracts for pricing and risk management of AI infrastructure [Silicon Data]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.cmegroup.com/media-room/press-releases/2026/5/12/cme_group_and_silicondatapartnertolaunchfirstcomputefutures.html",
+   "raw_sector": "",
+   "date": "2026-05-12",
+   "fresh": "fresh"
+  },
+  {
+   "company": "CME Group",
+   "use": "DataMine Machine Learning Service for trading strategies, data visualization, and risk mitigation",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.cmegroup.com/market-data/datamine-machine-learning-service.html",
+   "raw_sector": "",
+   "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "CME Group",
+   "use": "Gemini-powered automated test case generation reducing testing time by 80% [Google Gemini]",
+   "existence": "claimed",
+   "value": "80%",
+   "tier": "",
+   "url": "https://www.linkedin.com/posts/bradlittle_googlecloud-agenticai-digitaltransformation-activity-7351345044626300929-V8db",
+   "raw_sector": "",
+   "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "CME Group",
+   "use": "Virtual assistant for internal marketing and sales operations",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://emerj.com/driving-partnerships-prioritization-strategies-ai-financial-services-julie-winkler-cme-group/",
+   "raw_sector": "",
+   "date": "2024-05-02",
    "fresh": "aging"
   }
  ]

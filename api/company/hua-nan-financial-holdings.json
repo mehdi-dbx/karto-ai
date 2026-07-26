@@ -3,27 +3,27 @@
  "name": "Hua Nan Financial Holdings",
  "cc": "TW",
  "vertical": "Financial Services",
- "deployments": 2,
- "confirmed": 2,
- "with_value_number": 0,
- "proof_rate": 0.0,
+ "deployments": 5,
+ "confirmed": 5,
+ "with_value_number": 2,
+ "proof_rate": 0.4,
  "mktcap": 17939687500.0,
  "revenue": 2255625000.0,
  "employees": 11317.0,
  "silent": false,
- "per_bn_revenue": 0.89,
- "per_10k_emp": 1.77,
+ "per_bn_revenue": 2.22,
+ "per_10k_emp": 4.42,
  "benchmarks": {
   "global_vertical": {
-   "deployments": 62,
-   "confirmed": 73,
-   "proof_rate": 0,
-   "n": 377
+   "deployments": 31,
+   "confirmed": 46,
+   "proof_rate": 68,
+   "n": 388
   },
   "country_vertical": {
    "deployments": 36,
-   "confirmed": 45,
-   "proof_rate": 0,
+   "confirmed": 36,
+   "proof_rate": 64,
    "n": 12
   }
  },
@@ -34,15 +34,16 @@
    "n": 2
   }
  ],
- "undated_pct": 0,
+ "undated_pct": 60,
  "momentum": "rising",
  "maturity": "L3",
  "maturity_evidence": [
   "multi_horizontal",
   "named_product:Huabao",
+  "value_number",
   "tier_p"
  ],
- "prospect_score": 60,
+ "prospect_score": 62,
  "stack": [],
  "vendor_named": false,
  "deployments_detail": [
@@ -67,6 +68,39 @@
    "raw_sector": "Banks",
    "date": "2025-06",
    "fresh": "fresh"
+  },
+  {
+   "company": "Hua Nan Financial Holdings",
+   "use": "Trading system performance optimization [Azul Platform Prime]",
+   "existence": "confirmed",
+   "value": "35%",
+   "tier": "",
+   "url": "https://www.azul.com/newsroom/azul-platform-prime-enables-hua-nan-securities-increase-revenue-and-customer-satisfaction-by-improving-trading-system-performance-by-35-percent/",
+   "raw_sector": "",
+   "date": "Sep 30, 2025",
+   "fresh": "undated"
+  },
+  {
+   "company": "Hua Nan Financial Holdings",
+   "use": "AI Application Platform with overseas translation and speech-to-text",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.hnfhc.com.tw/uploads/file/20260529131719533962.pdf",
+   "raw_sector": "",
+   "date": "May 28, 2026",
+   "fresh": "undated"
+  },
+  {
+   "company": "Hua Nan Financial Holdings",
+   "use": "Multiple AI use cases across operations and business functions",
+   "existence": "confirmed",
+   "value": "100+",
+   "tier": "",
+   "url": "https://www.linkedin.com/posts/thedigitalbanker_gaii26-ai-digitaltransformation-activity-7437746963196043264-PHIW",
+   "raw_sector": "",
+   "date": "missing",
+   "fresh": "undated"
   }
  ]
 }

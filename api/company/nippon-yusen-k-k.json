@@ -3,27 +3,27 @@
  "name": "Nippon Yusen K.K.",
  "cc": "JP",
  "vertical": "Logistics & Supply Chain",
- "deployments": 1,
- "confirmed": 1,
+ "deployments": 4,
+ "confirmed": 2,
  "with_value_number": 1,
- "proof_rate": 1.0,
+ "proof_rate": 0.25,
  "mktcap": 15666666667.0,
  "revenue": 16133333333.0,
  "employees": 39830.0,
  "silent": false,
- "per_bn_revenue": 0.06,
- "per_10k_emp": 0.25,
+ "per_bn_revenue": 0.25,
+ "per_10k_emp": 1.0,
  "benchmarks": {
   "global_vertical": {
-   "deployments": 0,
-   "confirmed": 14,
-   "proof_rate": 65,
-   "n": 66
+   "deployments": 35,
+   "confirmed": 24,
+   "proof_rate": 48,
+   "n": 67
   },
   "country_vertical": {
-   "deployments": 0,
-   "confirmed": 0,
-   "proof_rate": 64,
+   "deployments": 27,
+   "confirmed": 9,
+   "proof_rate": 55,
    "n": 23
   }
  },
@@ -31,18 +31,23 @@
  "by_year": [
   {
    "year": 2025,
+   "n": 3
+  },
+  {
+   "year": 2026,
    "n": 1
   }
  ],
  "undated_pct": 0,
- "momentum": "early_mover,rising",
+ "momentum": "rising",
  "maturity": "L3",
  "maturity_evidence": [
+  "multi_horizontal",
   "named_product:SAIL with AI Compass",
   "value_number",
   "tier_p"
  ],
- "prospect_score": 14,
+ "prospect_score": 50,
  "stack": [],
  "vendor_named": false,
  "deployments_detail": [
@@ -55,6 +60,39 @@
    "url": "https://www.nyk.com/news/2025/20250922_01.html",
    "raw_sector": "Marine Transport",
    "date": "2025-07",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Nippon Yusen K.K.",
+   "use": "AI training initiative to enhance employee AI literacy and operational streamlining",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.rivieramm.com/news-content-hub/nyk-deploys-ai-training-initiative-under-three-year-roadmap-88887",
+   "raw_sector": "",
+   "date": "2026-05-29",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Nippon Yusen K.K.",
+   "use": "AI-based car carrier allocation system for shipping route optimization",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.nyk.com/english/news/2025/20250922_01.html",
+   "raw_sector": "",
+   "date": "2025-09-22",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Nippon Yusen K.K.",
+   "use": "Generative AI system foundation development and maximized utilization",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.nyk.com/english/ir/library/nyk/__icsFiles/afieldfile/2025/11/20/2025_nykreport_all_en.pdf",
+   "raw_sector": "",
+   "date": "2025-11-19",
    "fresh": "fresh"
   }
  ]

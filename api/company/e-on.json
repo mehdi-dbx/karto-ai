@@ -3,22 +3,22 @@
  "name": "E.ON",
  "cc": "DE",
  "vertical": "Energy & Utilities",
- "deployments": 1,
- "confirmed": 1,
+ "deployments": 5,
+ "confirmed": 3,
  "with_value_number": 0,
  "proof_rate": 0.0,
  "mktcap": 55339200000.0,
  "revenue": 86875200000.0,
  "employees": 78996.0,
  "silent": false,
- "per_bn_revenue": 0.01,
- "per_10k_emp": 0.13,
+ "per_bn_revenue": 0.06,
+ "per_10k_emp": 0.63,
  "benchmarks": {
   "global_vertical": {
-   "deployments": 0,
-   "confirmed": 20,
+   "deployments": 53,
+   "confirmed": 48,
    "proof_rate": 0,
-   "n": 210
+   "n": 213
   }
  },
  "first_seen": null,
@@ -27,12 +27,15 @@
  "momentum": "none",
  "maturity": "L3",
  "maturity_evidence": [
+  "multi_horizontal",
   "named_product:Long",
   "tier_p"
  ],
- "prospect_score": 54,
- "stack": [],
- "vendor_named": false,
+ "prospect_score": 58,
+ "stack": [
+  "Infosys"
+ ],
+ "vendor_named": true,
  "deployments_detail": [
   {
    "company": "E.ON",
@@ -42,6 +45,50 @@
    "tier": "P",
    "url": "https://www.cio.de/article/3822100/ki-mit-kopfchen-wie-eon-mehrwert-mit-ki-erzeugt.html",
    "raw_sector": "Utilities",
+   "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "E.ON",
+   "use": "AI-driven business transformation and operations modernization [Infosys]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.processexcellencenetwork.com/business-transformation/news/eon-modernizes-operations-with-ai-driven-transformation/amp",
+   "raw_sector": "",
+   "date": "May 27, 2025",
+   "fresh": "undated"
+  },
+  {
+   "company": "E.ON",
+   "use": "Grid optimization and data center power management",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://enkikai.com/eon-energy/e-ons-ai-strategy-2025-powering-the-future-grid/",
+   "raw_sector": "",
+   "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "E.ON",
+   "use": "AI-powered energy forecasting and data management on Optimum platform [FPT]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://fptsoftware.com/newsroom/news-and-press-releases/press-release/fpt-and-eon-extend-partnership-to-drive-ai-powered-energy-management-innovation",
+   "raw_sector": "",
+   "date": "Nov 11, 2025",
+   "fresh": "undated"
+  },
+  {
+   "company": "E.ON",
+   "use": "Renewable energy efficiency and AI innovation in energy sector",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.eon.com/en/about-us/digitalization/artificial-intelligence-ai.html",
+   "raw_sector": "",
    "date": "missing",
    "fresh": "undated"
   }

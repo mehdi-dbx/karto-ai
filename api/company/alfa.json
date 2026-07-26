@@ -3,8 +3,8 @@
  "name": "ALFA",
  "cc": "MX",
  "vertical": "Manufacturing & Robotics",
- "deployments": 2,
- "confirmed": 1,
+ "deployments": 10,
+ "confirmed": 5,
  "with_value_number": 0,
  "proof_rate": 0.0,
  "mktcap": null,
@@ -15,29 +15,44 @@
  "per_10k_emp": null,
  "benchmarks": {
   "global_vertical": {
-   "deployments": 64,
-   "confirmed": 24,
+   "deployments": 79,
+   "confirmed": 72,
    "proof_rate": 0,
-   "n": 147
+   "n": 150
   }
  },
- "first_seen": 2025,
+ "first_seen": 2024,
  "by_year": [
   {
+   "year": 2024,
+   "n": 2
+  },
+  {
    "year": 2025,
+   "n": 6
+  },
+  {
+   "year": 2026,
    "n": 1
   }
  ],
- "undated_pct": 50,
- "momentum": "rising",
- "maturity": "L3",
+ "undated_pct": 10,
+ "momentum": "early_mover,rising",
+ "maturity": "L4",
  "maturity_evidence": [
+  "multi_horizontal",
   "named_product:Sigma",
+  "multi_year",
   "tier_p"
  ],
- "prospect_score": 54,
- "stack": [],
- "vendor_named": false,
+ "prospect_score": 70,
+ "stack": [
+  "Microsoft",
+  "Microsoft Azure",
+  "OpenAI",
+  "Palantir"
+ ],
+ "vendor_named": true,
  "deployments_detail": [
   {
    "company": "ALFA",
@@ -60,6 +75,94 @@
    "raw_sector": "Industrials",
    "date": "missing",
    "fresh": "undated"
+  },
+  {
+   "company": "ALFA",
+   "use": "Nemak (ALFA auto-parts unit) 'Knowledge Center' AI agent lets metallurgical engineers query ~8,000 accumulated technical reports spanning 30 years of operations in natural language, cutting problem-solving from weeks to minutes. [Microsoft Azure, Azure AI Foundry, GPT-4o, Copilot Studio]",
+   "existence": "confirmed",
+   "value": "Problem resolution reduced from weeks to minutes",
+   "tier": "",
+   "url": "https://news.microsoft.com/source/latam/features/ia/de-los-datos-al-conocimiento-nemak-impulsa-la-eficiencia-global-con-agentes-de-ia/",
+   "raw_sector": "",
+   "date": "2025-11-26",
+   "fresh": "fresh"
+  },
+  {
+   "company": "ALFA",
+   "use": "Nemak 'NORIS GPT' (Nemak Operations Real-time Information System) lets production-line leaders chat with machines to get real-time data on oil levels, vibration and shift efficiency, detecting anomalies to prevent failures. Deployed in production across global operations. [Microsoft Azure, GPT-4o, Copilot Studio]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://news.microsoft.com/source/latam/features/ia/de-los-datos-al-conocimiento-nemak-impulsa-la-eficiencia-global-con-agentes-de-ia/",
+   "raw_sector": "",
+   "date": "2025-11-26",
+   "fresh": "fresh"
+  },
+  {
+   "company": "ALFA",
+   "use": "Sigma (ALFA food unit) selected Novolyze's cloud-based, AI-enabled Food Safety & Quality (FSQ) platform to digitalize environmental monitoring, sanitation, process control and data analysis; rollout across the US, Europe and Mexico in 2024 spanning global operations. [Novolyze]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://novolyze.com/novolyze-selected-by-sigma-for-strategic-food-safety-quality-initiative/",
+   "raw_sector": "",
+   "date": "2024-03-20",
+   "fresh": "aging"
+  },
+  {
+   "company": "ALFA",
+   "use": "Campofrio (Sigma/ALFA European meats unit) implemented an AI-based demand-forecasting solution to anticipate demand and mitigate supply-chain risk (early detection of supplier delays and transport bottlenecks). Presented as a live success story. [PredictLand AI]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.linkedin.com/posts/sigma-alimentos_campofrio-artificialintelligence-innovation-activity-7467621085346291712-wwBK",
+   "raw_sector": "",
+   "date": "2026-02-01",
+   "fresh": "fresh"
+  },
+  {
+   "company": "ALFA",
+   "use": "Sigma Alimentos adopted RELEX's AI-driven supply-chain planning suite (demand forecasting, promotional forecasting, inventory optimization, production scheduling, distribution planning) to support 19 distribution centers in Central America, replacing manual spreadsheet processes. [RELEX Solutions]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.relexsolutions.com/news/latin-america-food-manufacturer-sigma-alimentos-taps-relex-solutions-for-supply-chain-transformation/",
+   "raw_sector": "",
+   "date": "2025-04-16",
+   "fresh": "fresh"
+  },
+  {
+   "company": "ALFA",
+   "use": "Sigma integrated Artificial Intelligence into its regulatory-compliance and intellectual-property processes to accelerate scientific capabilities, technical precision and product development. [none]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.linkedin.com/posts/sigma-alimentos_digitalinnovation-ai-sigma-activity-7482955434815807490-3Eny",
+   "raw_sector": "",
+   "date": "2025-01-01",
+   "fresh": "fresh"
+  },
+  {
+   "company": "ALFA",
+   "use": "Axtel with Alestra launched enterprise AI capabilities including digital assistants for document reading, OCR, biometric identity validation (facial recognition, fingerprint) and video analytics for consumer-behavior insights, to automate daily activities and identity verification. [none]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://reseller.com.mx/axtel-alestra-inteligencia-artificial/",
+   "raw_sector": "",
+   "date": "2024-11-01",
+   "fresh": "aging"
+  },
+  {
+   "company": "ALFA",
+   "use": "Axtel/Alestra (ALFA telecom unit) is deploying 'Symphona,' a no-code AI platform to build conversational agents and automate workflows/operational tasks, targeting finance, manufacturing, retail and logistics clients; launched via Alestra by year-end 2025. [SimplyAsk.ai (Symphona)]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://amp.milenio.com/negocios/axtel-lanzara-plataforma-ia-crear-agentes-conversacionales",
+   "raw_sector": "",
+   "date": "2025-11-18",
+   "fresh": "fresh"
   }
  ]
 }

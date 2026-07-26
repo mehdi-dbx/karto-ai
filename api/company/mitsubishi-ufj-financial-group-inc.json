@@ -3,51 +3,106 @@
  "name": "Mitsubishi UFJ Financial Group, Inc.",
  "cc": "JP",
  "vertical": "Financial Services",
- "deployments": 2,
- "confirmed": 2,
- "with_value_number": 2,
- "proof_rate": 1.0,
+ "deployments": 12,
+ "confirmed": 8,
+ "with_value_number": 8,
+ "proof_rate": 0.667,
  "mktcap": 275266666667.0,
  "revenue": 44733333333.0,
  "employees": 184200.0,
  "silent": false,
- "per_bn_revenue": 0.04,
- "per_10k_emp": 0.11,
+ "per_bn_revenue": 0.27,
+ "per_10k_emp": 0.65,
  "benchmarks": {
   "global_vertical": {
-   "deployments": 62,
-   "confirmed": 73,
-   "proof_rate": 76,
-   "n": 377
+   "deployments": 81,
+   "confirmed": 67,
+   "proof_rate": 93,
+   "n": 388
   },
   "country_vertical": {
-   "deployments": 29,
-   "confirmed": 36,
-   "proof_rate": 71,
+   "deployments": 93,
+   "confirmed": 71,
+   "proof_rate": 93,
    "n": 15
   }
  },
- "first_seen": 2026,
+ "first_seen": 2021,
  "by_year": [
   {
-   "year": 2026,
+   "year": 2021,
    "n": 1
+  },
+  {
+   "year": 2025,
+   "n": 5
+  },
+  {
+   "year": 2026,
+   "n": 5
   }
  ],
- "undated_pct": 50,
- "momentum": "late_entrant,rising",
- "maturity": "L3",
+ "undated_pct": 8,
+ "momentum": "early_mover,rising",
+ "maturity": "L4",
  "maturity_evidence": [
+  "multi_horizontal",
   "named_product:AI-bow",
   "value_number",
+  "multi_year",
   "tier_p"
  ],
- "prospect_score": 12,
+ "prospect_score": 61,
  "stack": [
+  "Databricks",
   "OpenAI"
  ],
  "vendor_named": true,
  "deployments_detail": [
+  {
+   "company": "Mitsubishi UFJ Financial Group, Inc.",
+   "use": "ChatGPT Enterprise deployed to ~35,000 Mitsubishi UFJ Bank employees for document preparation, research/analysis and customer-service support, as part of becoming an 'AI-native' organization. [OpenAI (ChatGPT Enterprise)]",
+   "existence": "confirmed",
+   "value": "~35,000 employees",
+   "tier": "",
+   "url": "https://www.youtube.com/watch?v=pE1ljLVY1Rg",
+   "raw_sector": "",
+   "date": "2026-01",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Mitsubishi UFJ Financial Group, Inc.",
+   "use": "Investment in and adoption of LayerX AI (Bakuraku / Ai Workforce) to automate back-office operations such as RFPs, sales pitches and customer document cross-checking. [LayerX (Bakuraku / Ai Workforce)]",
+   "existence": "claimed",
+   "value": "~200,000 work hours saved annually (projected)",
+   "tier": "",
+   "url": "https://www.bk.mufg.jp/global/newsroom/news2025/pdf/newse0902.pdf",
+   "raw_sector": "",
+   "date": "2025-09-02",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Mitsubishi UFJ Financial Group, Inc.",
+   "use": "MUFG Investor Services uses NLP to automatically extract data from capital statements, capital calls and distribution notices, replacing manual keying and enabling document summarization/sentiment analysis. [none]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.mufg-investorservices.com/ai-and-nlp/",
+   "raw_sector": "",
+   "date": "2021-07-19",
+   "fresh": "stale"
+  },
+  {
+   "company": "Mitsubishi UFJ Financial Group, Inc.",
+   "use": "Adoption of the Databricks Data Intelligence Platform as MUFG Bank's next-generation data & AI foundation (supporting ~30,000 employees) for fraud detection, risk management, marketing and generative-AI-based data analytics/AI agents. [Databricks]",
+   "existence": "claimed",
+   "value": "~30,000 employees",
+   "tier": "",
+   "url": "https://www.databricks.com/company/newsroom/press-releases/mufg-bank-adopts-databricks-its-next-generation-data-and-ai",
+   "raw_sector": "",
+   "date": "2025-04-25",
+   "fresh": "fresh"
+  },
   {
    "company": "Mitsubishi UFJ Financial Group, Inc.",
    "use": "Internal generative AI platform \"AI-bow\" (アイボウ), used across 110+ operations",
@@ -68,6 +123,72 @@
    "url": "https://www.mufg.jp/dam/pressrelease/2025/pdf/news-20251112-001_ja.pdf",
    "raw_sector": "Banking",
    "date": "2026-01",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Mitsubishi UFJ Financial Group, Inc.",
+   "use": "Three-year partnership deploying Sakana AI reasoning models for internal decision-support workflows and automated creation of banking documents. [Sakana AI]",
+   "existence": "confirmed",
+   "value": "3-year contract (~$34M / ¥5B reported)",
+   "tier": "",
+   "url": "https://sakana.ai/mufg-bank/",
+   "raw_sector": "",
+   "date": "2025-05-19",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Mitsubishi UFJ Financial Group, Inc.",
+   "use": "Sakana AI 'AI Loan Expert' for corporate credit approvals — data analysis, financial simulations and drafting of approval documents; PoC completed and real-world branch testing underway. [Sakana AI]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.fintechobserver.com/beyond-document-generation-mufg-integrates-sakana-ai-for-corporate-credit-approvals/",
+   "raw_sector": "",
+   "date": "2026-03-10",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Mitsubishi UFJ Financial Group, Inc.",
+   "use": "System combining satellite imagery and AI to inspect real estate used as loan collateral for small-business loans, replacing on-site property inspections. [none]",
+   "existence": "claimed",
+   "value": "~10,000 staff hours saved annually (projected); launch planned FY2027",
+   "tier": "",
+   "url": "https://asia.nikkei.com/business/companies/japan-s-mufg-bank-to-tap-ai-satellite-images-for-collateral-appraisals",
+   "raw_sector": "",
+   "date": "2026-07-08",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Mitsubishi UFJ Financial Group, Inc.",
+   "use": "Integration of MUFG banking apps with OpenAI's 'Apps in ChatGPT' so retail customers can consult ChatGPT about household budgeting and asset management; first Japanese company to use the service. [OpenAI (ChatGPT / Apps in ChatGPT)]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://asia.nikkei.com/business/technology/artificial-intelligence/mufg-to-link-apps-to-chatgpt-offer-ai-suggestions-for-household-finances",
+   "raw_sector": "",
+   "date": "2025-11-13",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Mitsubishi UFJ Financial Group, Inc.",
+   "use": "Alteryx analytics workflows in MUFG's Global Financial Crimes Division for AML/CFT transaction monitoring across NY, London, Singapore and Tokyo; automated data cleansing for suspicious-activity detection. [Alteryx]",
+   "existence": "confirmed",
+   "value": "Data cleansing cut from ~130 hours to ~5 hours per quarterly session (96% reduction)",
+   "tier": "",
+   "url": "https://www.alteryx.com/resources/customer-story/mufg-bank-leverages-alteryx-for-global-financial-crimes-compliance",
+   "raw_sector": "",
+   "date": "2025-01-01",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Mitsubishi UFJ Financial Group, Inc.",
+   "use": "Private AI adopted on MUFG's 'OCEAN' big-data platform for on-premises automatic detection and anonymization of PII/confidential information in emails, call-center logs, PDFs and chats before generative-AI analysis. [Private AI]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.prnewswire.com/news-releases/mufj-bank-adopts-private-ai-302655290.html",
+   "raw_sector": "",
+   "date": "2026-01-07",
    "fresh": "fresh"
   }
  ]

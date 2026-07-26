@@ -3,27 +3,27 @@
  "name": "PetroChina",
  "cc": "CN",
  "vertical": "Energy & Utilities",
- "deployments": 1,
- "confirmed": 1,
- "with_value_number": 1,
+ "deployments": 2,
+ "confirmed": 2,
+ "with_value_number": 2,
  "proof_rate": 1.0,
  "mktcap": 270833333333.0,
  "revenue": 395833333333.0,
  "employees": 367173.0,
  "silent": false,
- "per_bn_revenue": 0.0,
- "per_10k_emp": 0.03,
+ "per_bn_revenue": 0.01,
+ "per_10k_emp": 0.05,
  "benchmarks": {
   "global_vertical": {
-   "deployments": 0,
-   "confirmed": 20,
-   "proof_rate": 75,
-   "n": 210
+   "deployments": 10,
+   "confirmed": 30,
+   "proof_rate": 95,
+   "n": 213
   },
   "country_vertical": {
-   "deployments": 0,
-   "confirmed": 0,
-   "proof_rate": 55,
+   "deployments": 27,
+   "confirmed": 36,
+   "proof_rate": 82,
    "n": 12
   }
  },
@@ -34,17 +34,29 @@
    "n": 1
   }
  ],
- "undated_pct": 0,
+ "undated_pct": 50,
  "momentum": "rising",
  "maturity": "L3",
  "maturity_evidence": [
+  "multi_horizontal",
   "named_product:Kunlun",
   "value_number"
  ],
- "prospect_score": 14,
+ "prospect_score": 20,
  "stack": [],
  "vendor_named": false,
  "deployments_detail": [
+  {
+   "company": "PetroChina",
+   "use": "Emissions reductions through AI",
+   "existence": "confirmed",
+   "value": "$500 million",
+   "tier": "",
+   "url": "https://enkiai.com/petrochina-ai-initiatives-for-2025-key-projects-strategies-and-partnerships/",
+   "raw_sector": "",
+   "date": "missing",
+   "fresh": "undated"
+  },
   {
    "company": "PetroChina",
    "use": "\"昆仑\"(Kunlun) 300-billion-parameter energy LLM (May 2025); \"1+4+N\" architecture across exploration/refining/sales; refining process-optimization models; AI station agents 24h; 1,950P peak compute",
@@ -66,6 +78,39 @@
    "raw_sector": "Energy",
    "date": "2025",
    "fresh": "fresh"
+  },
+  {
+   "company": "PetroChina",
+   "use": "Kunlun large language model (300 billion-parameter LLM) deployment [Kunlun]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://enkiai.com/petrochina-ai-initiatives-for-2025-key-projects-strategies-and-partnerships/",
+   "raw_sector": "",
+   "date": "May 2025",
+   "fresh": "undated"
+  },
+  {
+   "company": "PetroChina",
+   "use": "Basin-wide AI deployment across Tarim Basin, Bohai Bay, and South China Sea operations",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://ifactoryapp.com/industries/oil-and-gas/top-10-countries-leading-ai-adoption-in-oil-and-gas",
+   "raw_sector": "",
+   "date": "May 26, 2026",
+   "fresh": "undated"
+  },
+  {
+   "company": "PetroChina",
+   "use": "Cognitive computing platform using knowledge graphs, natural language processing, and machine learning [Huawei E8]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://e.huawei.com/en/case-studies/industries/oil-gas/e8-petrochina-2023",
+   "raw_sector": "",
+   "date": "missing",
+   "fresh": "undated"
   },
   {
    "company": "PetroChina",

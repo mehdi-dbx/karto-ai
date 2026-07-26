@@ -3,41 +3,63 @@
  "name": "Muthoot Finance",
  "cc": "IN",
  "vertical": "Financial Services",
- "deployments": 1,
- "confirmed": 1,
- "with_value_number": 0,
- "proof_rate": 0.0,
+ "deployments": 11,
+ "confirmed": 6,
+ "with_value_number": 3,
+ "proof_rate": 0.273,
  "mktcap": 14698795181.0,
  "revenue": 2311204819.0,
  "employees": 31613.0,
  "silent": false,
- "per_bn_revenue": 0.43,
- "per_10k_emp": 0.32,
+ "per_bn_revenue": 4.76,
+ "per_10k_emp": 3.48,
  "benchmarks": {
   "global_vertical": {
-   "deployments": 0,
-   "confirmed": 17,
-   "proof_rate": 0,
-   "n": 377
+   "deployments": 72,
+   "confirmed": 55,
+   "proof_rate": 52,
+   "n": 388
   },
   "country_vertical": {
-   "deployments": 0,
-   "confirmed": 18,
-   "proof_rate": 0,
-   "n": 23
+   "deployments": 67,
+   "confirmed": 46,
+   "proof_rate": 38,
+   "n": 25
   }
  },
- "first_seen": null,
- "by_year": [],
- "undated_pct": 100,
- "momentum": "none",
- "maturity": "L3",
- "maturity_evidence": [
-  "named_product:Mattu"
+ "first_seen": 2020,
+ "by_year": [
+  {
+   "year": 2020,
+   "n": 1
+  },
+  {
+   "year": 2024,
+   "n": 2
+  },
+  {
+   "year": 2025,
+   "n": 6
+  },
+  {
+   "year": 2026,
+   "n": 1
+  }
  ],
- "prospect_score": 54,
- "stack": [],
- "vendor_named": false,
+ "undated_pct": 9,
+ "momentum": "early_mover,rising",
+ "maturity": "L4",
+ "maturity_evidence": [
+  "multi_horizontal",
+  "named_product:Mattu",
+  "value_number",
+  "multi_year"
+ ],
+ "prospect_score": 65,
+ "stack": [
+  "Google Cloud"
+ ],
+ "vendor_named": true,
  "deployments_detail": [
   {
    "company": "Muthoot Finance",
@@ -49,6 +71,116 @@
    "raw_sector": "Financial Services",
    "date": "missing",
    "fresh": "undated"
+  },
+  {
+   "company": "Muthoot Finance",
+   "use": "Mattu & Mittu — AI-powered virtual assistant / chatbot offering 24/7 multilingual customer assistance (loan applications, balance checks, branch locator, payments) across web, app and WhatsApp; upgraded 'Mattu' avatar in 2021 added voice search and supervised-learning-driven query resolution. One of the first NBFCs to launch an AI chatbot. [none disclosed]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.muthootfinance.com/news-board/the-muthoot-group-becomes-one-of-the-first-in-the-nbfc-sector-to-launch-an-ai-based-chatbot-mattu-mittu",
+   "raw_sector": "",
+   "date": "2020 (launched); 2021 upgrade",
+   "fresh": "stale"
+  },
+  {
+   "company": "Muthoot Finance",
+   "use": "AI, analytics and real-time speech intelligence for large-scale customer engagement — AI-driven assistants and NLP integrated with CRM to enable faster resolutions and personalized service in a phygital contact-centre model staffed by an all-women care team. [FE-Futech (Financial Express B2B feature); vendor stack not named]",
+   "existence": "claimed",
+   "value": "48 lakh (4.8M) customer interactions/month; 1.5-2 lakh daily engagements; 4,000+ care executives",
+   "tier": "",
+   "url": "https://www.linkedin.com/posts/fe-futech_ai-analytics-power-muthoot-finance-to-serve-activity-7459580754717556736-ODsO",
+   "raw_sector": "",
+   "date": "2025",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Muthoot Finance",
+   "use": "Agentic voice AI / conversational AI for customer support built on a proprietary LLM speech stack across 10 Indian languages. Muthoot Finance listed among Gnani.ai's clients. [Gnani.ai]",
+   "existence": "claimed",
+   "value": "none (Muthoot-specific)",
+   "tier": "",
+   "url": "https://inc42.com/startups/indian-ai-startup-tracker/",
+   "raw_sector": "",
+   "date": "2026",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Muthoot Finance",
+   "use": "AI + OCR + intelligent risk analysis for digital lending / loan underwriting at group housing-finance arm, on the FinnOne Neo lending platform — automating loan assessments and risk scoring to cut decision times. [Nucleus Software (FinnOne Neo)]",
+   "existence": "confirmed",
+   "value": "decision times reduced from days (per vendor post; exact figure not disclosed)",
+   "tier": "",
+   "url": "https://www.linkedin.com/posts/nucleus-software-exports-limited_customersuccess-aiinlending-digitallending-activity-7316663876568109056--ZVa",
+   "raw_sector": "",
+   "date": "2025",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Muthoot Finance",
+   "use": "AI-driven credit scoring and paperless digital onboarding with real-time loan-servicing dashboards at group housing-finance arm (Muthoot Homefin / Muthoot Housing Finance), per FY2024-25 annual report. [none disclosed]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://muthoothousing.com/wp-content/uploads/2025/08/Annual-Report-2024-25-1.pdf",
+   "raw_sector": "",
+   "date": "2025",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Muthoot Finance",
+   "use": "AI-powered voicebot for debt collections / payment reminders — automates repetitive collection calls so human agents handle complex cases. [Ozonetel]",
+   "existence": "confirmed",
+   "value": "5-8% improvement in installment collections; 43,500+ calls handled in five months; ~Rs 2L business savings",
+   "tier": "",
+   "url": "https://ozonetel.com/ai-voicebots-for-customer-service/",
+   "raw_sector": "",
+   "date": "2024",
+   "fresh": "aging"
+  },
+  {
+   "company": "Muthoot Finance",
+   "use": "Loan-application processing automation — unattended bots perform rule-based validation of 5,000-7,000 daily loan applications integrated with the Core Banking System, with human-in-the-loop MIS review for RBI compliance. [RPATech]",
+   "existence": "confirmed",
+   "value": "546,000+ hours saved annually; processing time cut from 10-15 min to 1-2 min; replaced manual review by 15-20 employees",
+   "tier": "",
+   "url": "https://www.rpatech.ai/case-studies/muthoot-finance-loan-process-automation/",
+   "raw_sector": "",
+   "date": "2025",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Muthoot Finance",
+   "use": "Cloud data platform for automated real-time reporting and analytics (BigQuery, Looker Studio, Firebase), replacing Excel-based reporting; described as an ongoing journey extending into GenAI and AI agents. [Google Cloud]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://cloud.google.com/customers/muthootgroup",
+   "raw_sector": "",
+   "date": "2024",
+   "fresh": "aging"
+  },
+  {
+   "company": "Muthoot Finance",
+   "use": "AI-powered speech analytics on call-centre conversations (speech-to-text + LLM insights) for compliance monitoring, agent performance and customer intelligence in BFSI. Muthoot Finance named in GreyLabs' client base. [GreyLabs AI]",
+   "existence": "claimed",
+   "value": "none (Muthoot-specific)",
+   "tier": "",
+   "url": "https://www.z47.com/news/greylabs-ai-raises-85-crores-series-a-to-redefine-voice-ai-in-indias-bfsi-sector",
+   "raw_sector": "",
+   "date": "2025",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Muthoot Finance",
+   "use": "AI + OCR-based eKYC / identity document verification and face biometrics for customer onboarding; Muthoot Finance (and Muthoot Capital Services) listed as clients of the AI-OCR KYC platform. [PixDynamics (Pixl)]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://pixdynamics.com/",
+   "raw_sector": "",
+   "date": "2025",
+   "fresh": "fresh"
   }
  ]
 }

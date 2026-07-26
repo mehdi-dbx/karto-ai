@@ -3,42 +3,55 @@
  "name": "Azimut",
  "cc": "IT",
  "vertical": "Financial Services",
- "deployments": 1,
- "confirmed": 1,
- "with_value_number": 0,
- "proof_rate": 0.0,
+ "deployments": 5,
+ "confirmed": 4,
+ "with_value_number": 1,
+ "proof_rate": 0.2,
  "mktcap": 5454000000.0,
  "revenue": 1587600000.0,
  "employees": 1260.0,
  "silent": false,
- "per_bn_revenue": 0.63,
- "per_10k_emp": 7.94,
+ "per_bn_revenue": 3.15,
+ "per_10k_emp": 39.68,
  "benchmarks": {
   "global_vertical": {
-   "deployments": 0,
-   "confirmed": 17,
-   "proof_rate": 0,
-   "n": 377
+   "deployments": 31,
+   "confirmed": 39,
+   "proof_rate": 39,
+   "n": 388
   },
   "country_vertical": {
-   "deployments": 0,
-   "confirmed": 11,
-   "proof_rate": 0,
+   "deployments": 22,
+   "confirmed": 44,
+   "proof_rate": 11,
    "n": 10
   }
  },
- "first_seen": null,
- "by_year": [],
- "undated_pct": 100,
- "momentum": "none",
+ "first_seen": 2023,
+ "by_year": [
+  {
+   "year": 2023,
+   "n": 1
+  },
+  {
+   "year": 2025,
+   "n": 2
+  }
+ ],
+ "undated_pct": 40,
+ "momentum": "early_mover,rising",
  "maturity": "L3",
  "maturity_evidence": [
+  "multi_horizontal",
   "named_product:Goal Based Plan",
+  "value_number",
   "tier_p"
  ],
- "prospect_score": 54,
- "stack": [],
- "vendor_named": false,
+ "prospect_score": 56,
+ "stack": [
+  "Google Cloud"
+ ],
+ "vendor_named": true,
  "deployments_detail": [
   {
    "company": "Azimut",
@@ -48,6 +61,50 @@
    "tier": "P",
    "url": "https://azimut.it/blog/articolo/benessere-finanziario-intelligenza-artificiale",
    "raw_sector": "Financial Services",
+   "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "Azimut",
+   "use": "Onboard home automation and smart boat management system [Google Cloud, Reply]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.boatinternational.com/showcase/azimut-yachts/azimut-onboard-home-automation-ai-system",
+   "raw_sector": "",
+   "date": "2023-10-31",
+   "fresh": "stale"
+  },
+  {
+   "company": "Azimut",
+   "use": "AI-powered maritime vessel detection, tracking, and anomaly alerts for ports",
+   "existence": "confirmed",
+   "value": "650000",
+   "tier": "",
+   "url": "https://www.jpost.com/defense-and-tech/article-873773",
+   "raw_sector": "",
+   "date": "2025-11-13",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Azimut",
+   "use": "Albatross AI system for maritime situational awareness",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.ynetnews.com/tech-and-digital/article/rj7scwze11x",
+   "raw_sector": "",
+   "date": "2025-11-12",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Azimut",
+   "use": "AI digital identity layer for vessel tracking and monitoring across maritime infrastructure",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.accessnewswire.com/newsroom/en/government/the-face-id-of-the-sea-1167722",
+   "raw_sector": "",
    "date": "missing",
    "fresh": "undated"
   }

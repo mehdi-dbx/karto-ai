@@ -3,48 +3,73 @@
  "name": "Ebara Corp.",
  "cc": "JP",
  "vertical": "Industrial / Machinery",
- "deployments": 1,
- "confirmed": 1,
- "with_value_number": 1,
- "proof_rate": 1.0,
+ "deployments": 9,
+ "confirmed": 7,
+ "with_value_number": 7,
+ "proof_rate": 0.778,
  "mktcap": 17466666667.0,
  "revenue": 6613000000.0,
  "employees": 21148.0,
  "silent": false,
- "per_bn_revenue": 0.15,
- "per_10k_emp": 0.47,
+ "per_bn_revenue": 1.36,
+ "per_10k_emp": 4.26,
  "benchmarks": {
   "global_vertical": {
-   "deployments": 0,
-   "confirmed": 14,
-   "proof_rate": 79,
-   "n": 175
+   "deployments": 73,
+   "confirmed": 78,
+   "proof_rate": 99,
+   "n": 176
   },
   "country_vertical": {
-   "deployments": 0,
-   "confirmed": 4,
-   "proof_rate": 73,
+   "deployments": 65,
+   "confirmed": 69,
+   "proof_rate": 100,
    "n": 27
   }
  },
- "first_seen": 2024,
+ "first_seen": 2019,
  "by_year": [
   {
+   "year": 2019,
+   "n": 2
+  },
+  {
+   "year": 2022,
+   "n": 1
+  },
+  {
+   "year": 2023,
+   "n": 1
+  },
+  {
    "year": 2024,
+   "n": 2
+  },
+  {
+   "year": 2025,
+   "n": 2
+  },
+  {
+   "year": 2026,
    "n": 1
   }
  ],
  "undated_pct": 0,
- "momentum": "early_mover,gone_quiet",
- "maturity": "L3",
+ "momentum": "early_mover,flat",
+ "maturity": "L4",
  "maturity_evidence": [
+  "multi_horizontal",
   "named_product:EBARA AI Chat",
   "value_number",
+  "multi_year",
   "tier_p"
  ],
- "prospect_score": 14,
- "stack": [],
- "vendor_named": false,
+ "prospect_score": 51,
+ "stack": [
+  "Google",
+  "Google Cloud"
+ ],
+ "vendor_named": true,
  "deployments_detail": [
   {
    "company": "Ebara Corp.",
@@ -56,6 +81,94 @@
    "raw_sector": "Machinery",
    "date": "2024-11",
    "fresh": "aging"
+  },
+  {
+   "company": "Ebara Corp.",
+   "use": "Waste-identification AI automatic crane system at waste-to-energy / incineration plants (Ebara Environmental Plant): camera + AI recognizes the state of refuse in the bunker and autonomously directs crane operation, automating ~90% of crane operating time. Jointly developed with Ridge-i; in operation since 2019. [Ridge-i]",
+   "existence": "confirmed",
+   "value": "~90% operatorless operation rate for the crane",
+   "tier": "",
+   "url": "https://www.ebara.com/global-en/eep/activity/case_02/",
+   "raw_sector": "",
+   "date": "2019-02-12",
+   "fresh": "stale"
+  },
+  {
+   "company": "Ebara Corp.",
+   "use": "Advanced automated combustion-control system for municipal waste incinerators (Ebara Environmental Plant), working alongside the waste-identification AI crane to run the furnace autonomously without human intervention. Demonstration achieved 122 consecutive days of intervention-free continuous furnace operation. [Ebara Environmental Plant (in-house)]",
+   "existence": "confirmed",
+   "value": "122 consecutive days of intervention-free continuous furnace operation",
+   "tier": "",
+   "url": "https://www.ebara.com/eep/jp-ja/news/2025/20250131/",
+   "raw_sector": "",
+   "date": "2025-01-31",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Ebara Corp.",
+   "use": "Knowledge-driven DX project: 'Ebara Brain' autonomous decentralized AI-agent platform (formalization, interview, expert and personal agents) plus 'EBARA Development Navigator', built on a Digital Triplet framework and running on-premises internal GPU clusters, to convert manufacturing tacit knowledge into formal knowledge. PoC on water-supply units: formalization agent reproduced 85% of manually-developed design processes with 83% relationship-prediction accuracy. Launched March 2026. [Ebara (in-house); collaboration with Showakai industry body]",
+   "existence": "confirmed",
+   "value": "PoC: 85% of design processes reproduced; 83% relationship-prediction accuracy",
+   "tier": "",
+   "url": "https://prtimes.jp/main/html/rd/p/000000028.000115340.html",
+   "raw_sector": "",
+   "date": "2026-03-16",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Ebara Corp.",
+   "use": "AI/IoT alliance with Ridge-i (100 million yen investment) targeting AI image-analysis to replace human visual inspection of product appearance, motion tracking of people/objects for production safety, and machine-operating-schedule optimization from environmental data. [Ridge-i]",
+   "existence": "claimed",
+   "value": "100 million yen investment",
+   "tier": "",
+   "url": "https://fluidhandlingmag.com/news/pump-manufacturer-ebara-to-pursue-artificial-intelligence-technologies-with-ridge-i/",
+   "raw_sector": "",
+   "date": "2019-04-16",
+   "fresh": "stale"
+  },
+  {
+   "company": "Ebara Corp.",
+   "use": "EBARA Maintenance Cloud: IoT-sensor + cloud condition-monitoring service (wireless 'QiDe' vibration/temperature sensors) that remotely monitors pumps, blowers and motors 24/7/365, with data analysis for anomaly alerts and predictive maintenance, reducing on-site inspection labor and preventing sudden failures. [Ebara with JSOL (system integration)]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.ebara.com/jp-ja/newsroom/2022/1206353_1673/",
+   "raw_sector": "",
+   "date": "2022-11-01",
+   "fresh": "stale"
+  },
+  {
+   "company": "Ebara Corp.",
+   "use": "EBARA AI Chat: in-house generative-AI assistant deployed company-wide to domestic employees, combining EBARA technical/internal information with LLMs for document search, drafting and workflow support. Built on Google Cloud (Gemini API, Vertex AI, Cloud Run, Firestore, Document AI, BigQuery). Reached ~750,000 total uses by 2025. [Google Cloud (Gemini, Vertex AI, Document AI, Cloud Run, Firestore, BigQuery)]",
+   "existence": "confirmed",
+   "value": "~750,000 total uses by 2025; company-wide rollout to domestic employees",
+   "tier": "",
+   "url": "https://www.ebara.com/jp-ja/newsroom/2024/1221953_1673/",
+   "raw_sector": "",
+   "date": "2024-11-11",
+   "fresh": "aging"
+  },
+  {
+   "company": "Ebara Corp.",
+   "use": "AI-based condition-based maintenance (CBM) for the Fujisawa semiconductor-equipment facility, using Azbil's AI predictive-maintenance/CBM platform to support cleanroom operations and enable predictive maintenance of equipment such as dry vacuum pumps and chillers. [Azbil]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.azbil.com/ir/library/annual/__icsFiles/afieldfile/2025/11/08/report2025_e.pdf",
+   "raw_sector": "",
+   "date": "2025-11-08",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Ebara Corp.",
+   "use": "People-analytics pilot using InnerEye 'Sense Plus' EEG brain-wave measurement (via Macnica) to obtain objective biological data (concentration, attention, fatigue) for personnel planning and human-resource allocation decisions. Pilot involved 20 employees in planning/management departments. [InnerEye (via Macnica)]",
+   "existence": "claimed",
+   "value": "pilot with 20 employees",
+   "tier": "",
+   "url": "https://www.macnica.co.jp/en/business/ai/manufacturers/innereye/142655/",
+   "raw_sector": "",
+   "date": "2023-01-01",
+   "fresh": "stale"
   }
  ]
 }

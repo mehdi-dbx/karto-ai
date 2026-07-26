@@ -3,43 +3,108 @@
  "name": "GoDaddy",
  "cc": "US",
  "vertical": "Technology",
- "deployments": 1,
- "confirmed": 1,
- "with_value_number": 0,
- "proof_rate": 0.0,
+ "deployments": 10,
+ "confirmed": 10,
+ "with_value_number": 5,
+ "proof_rate": 0.5,
  "mktcap": 11580000000.0,
  "revenue": 5020000000.0,
  "employees": 5845.0,
  "silent": false,
- "per_bn_revenue": 0.2,
- "per_10k_emp": 1.71,
+ "per_bn_revenue": 1.99,
+ "per_10k_emp": 17.11,
  "benchmarks": {
   "global_vertical": {
-   "deployments": 0,
-   "confirmed": 6,
-   "proof_rate": 0,
-   "n": 156
+   "deployments": 58,
+   "confirmed": 76,
+   "proof_rate": 84,
+   "n": 159
   },
   "country_vertical": {
-   "deployments": 0,
-   "confirmed": 4,
-   "proof_rate": 0,
+   "deployments": 51,
+   "confirmed": 73,
+   "proof_rate": 85,
    "n": 74
   }
  },
- "first_seen": null,
- "by_year": [],
- "undated_pct": 100,
- "momentum": "none",
- "maturity": "L3",
+ "first_seen": 2024,
+ "by_year": [
+  {
+   "year": 2024,
+   "n": 2
+  },
+  {
+   "year": 2025,
+   "n": 6
+  },
+  {
+   "year": 2026,
+   "n": 1
+  }
+ ],
+ "undated_pct": 10,
+ "momentum": "early_mover,rising",
+ "maturity": "L4",
  "maturity_evidence": [
+  "multi_horizontal",
   "named_product:Airo",
+  "value_number",
+  "multi_year",
   "tier_p"
  ],
- "prospect_score": 54,
- "stack": [],
- "vendor_named": false,
+ "prospect_score": 80,
+ "stack": [
+  "Amazon AWS",
+  "Anthropic",
+  "Meta",
+  "OpenAI"
+ ],
+ "vendor_named": true,
  "deployments_detail": [
+  {
+   "company": "GoDaddy",
+   "use": "GoCaaS + 'Lighthouse' pipeline: internal LLM-gateway that mines 100k+ daily customer-service transcripts for sentiment, topic and issue extraction to surface insights across the support org [Anthropic Claude v2 (via GoCaaS multi-provider wrapper), OpenSearch]",
+   "existence": "confirmed",
+   "value": "100,000+ English transcripts processed daily in ~80 minutes; sub-second lexical search",
+   "tier": "",
+   "url": "https://www.godaddy.com/resources/news/harnessing-ai-to-navigate-millions-of-customer-conversations-at-godaddy",
+   "raw_sector": "",
+   "date": "2025-09-11",
+   "fresh": "fresh"
+  },
+  {
+   "company": "GoDaddy",
+   "use": "Digital Care AI Assistant: LLM-powered support bot that classifies conversations into 20 support topics and guides self-help resolution across SMS, WhatsApp and web chat [OpenAI ChatGPT 3.5 Turbo and GPT-4]",
+   "existence": "confirmed",
+   "value": "60,000+ customer contacts/day across channels; 0.25% invalid-output rate for GPT-4 vs 1% for 3.5 Turbo",
+   "tier": "",
+   "url": "https://www.godaddy.com/resources/news/llm-from-the-trenches-10-lessons-learned-operationalizing-models-at-godaddy",
+   "raw_sector": "",
+   "date": "2024-02-01",
+   "fresh": "aging"
+  },
+  {
+   "company": "GoDaddy",
+   "use": "AI-assisted software development: Claude Code rolled out to engineers via Amazon Bedrock for coding, security updates and software maintenance [Anthropic Claude Code via Amazon Bedrock; Amazon Comprehend (PII detection)]",
+   "existence": "confirmed",
+   "value": "2,000 developers empowered; 50% decrease in sprint duration (2-week sprints in under 1 week)",
+   "tier": "",
+   "url": "https://aws.amazon.com/partners/success/godaddy-agenticai/",
+   "raw_sector": "",
+   "date": "2025-11-01",
+   "fresh": "fresh"
+  },
+  {
+   "company": "GoDaddy",
+   "use": "LLM Workbench: internal GenAI evaluation methodology and tooling that scores candidate LLMs across extraction, chat, reasoning, guardrails, cost and latency to standardize model selection before production [Amazon SageMaker Ground Truth; internal human + automated scoring]",
+   "existence": "confirmed",
+   "value": "objective function scorecard, max 30 points",
+   "tier": "",
+   "url": "https://www.godaddy.com/resources/news/crafting-the-llm-workbench-a-blueprint-for-genai-evaluation",
+   "raw_sector": "",
+   "date": "2025-02-19",
+   "fresh": "fresh"
+  },
   {
    "company": "GoDaddy",
    "use": "\"Airo\" / Airo.ai agentic GenAI builder (websites, business setup from natural language)",
@@ -50,6 +115,61 @@
    "raw_sector": "Information Technology",
    "date": "missing",
    "fresh": "undated"
+  },
+  {
+   "company": "GoDaddy",
+   "use": "Airo: AI experience for small businesses that auto-generates domains, websites, logos, email and social/marketing content from a prompt (original launch) [AWS (Amazon Bedrock, 50+ AI models)]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.computerworld.com/article/2119288/godaddy-has-50-large-language-models-its-cto-explains-why.html",
+   "raw_sector": "",
+   "date": "2024-02-26",
+   "fresh": "aging"
+  },
+  {
+   "company": "GoDaddy",
+   "use": "Airo.ai: agentic AI platform launching six specialized agents (orchestrator Airo Agent, App Builder, Compliance, Domain Search & Registration, Website Builder, Logo) that turn conversation into completed business tasks [GoDaddy proprietary extensible agent framework]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://aboutus.godaddy.net/newsroom/news-releases/press-release-details/2025/GoDaddy-Brings-Agentic-AI-to-Small-Businesses-with-Launch-of-Airo-ai/default.aspx",
+   "raw_sector": "",
+   "date": "2025-11-13",
+   "fresh": "fresh"
+  },
+  {
+   "company": "GoDaddy",
+   "use": "Product category generation system: batch inference to auto-assign category, subcategory, color, material and price metadata to the product catalog (built with AWS GenAI Innovation Center) [Amazon Bedrock batch inference; Meta Llama 2 (13b/70b) and Anthropic Claude (Instant/v2)]",
+   "existence": "confirmed",
+   "value": "97% category coverage on 100k hold-out set; 5,000 products in ~12 min; Claude-Instant 8% cheaper than Llama2-13b for 6M products",
+   "tier": "",
+   "url": "https://aws.amazon.com/blogs/machine-learning/how-godaddy-built-a-category-generation-system-at-scale-with-batch-inference-for-amazon-bedrock/",
+   "raw_sector": "",
+   "date": "2025-03-13",
+   "fresh": "fresh"
+  },
+  {
+   "company": "GoDaddy",
+   "use": "GoDaddy Domains MCP Server: live domain search, availability and pricing exposed to AI assistants via Anthropic Model Context Protocol (first registrar in Claude's MCP directory) [Anthropic Model Context Protocol (Claude); OAuth-based]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.godaddy.com/resources/ca/news/godaddy-brings-domain-search-to-ai",
+   "raw_sector": "",
+   "date": "2026-02-26",
+   "fresh": "fresh"
+  },
+  {
+   "company": "GoDaddy",
+   "use": "Airo Digital Ads: AI-powered digital advertising tool that helps small businesses create and run ad campaigns, expanded to nine new global markets [none]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://techafricanews.com/2025/10/09/godaddy-expands-ai-powered-digital-ads-with-airo-to-nine-new-global-markets/",
+   "raw_sector": "",
+   "date": "2025-10-09",
+   "fresh": "fresh"
   }
  ]
 }

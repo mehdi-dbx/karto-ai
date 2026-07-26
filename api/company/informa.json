@@ -3,38 +3,111 @@
  "name": "Informa",
  "cc": "UK",
  "vertical": "Media / Entertainment / Gaming",
- "deployments": 1,
- "confirmed": 1,
- "with_value_number": 0,
- "proof_rate": 0.0,
+ "deployments": 10,
+ "confirmed": 10,
+ "with_value_number": 7,
+ "proof_rate": 0.7,
  "mktcap": 13792200000.0,
  "revenue": 5130800000.0,
  "employees": 14052.0,
  "silent": false,
- "per_bn_revenue": 0.19,
- "per_10k_emp": 0.71,
+ "per_bn_revenue": 1.95,
+ "per_10k_emp": 7.12,
  "benchmarks": {
   "global_vertical": {
-   "deployments": 0,
-   "confirmed": 18,
-   "proof_rate": 0,
+   "deployments": 76,
+   "confirmed": 82,
+   "proof_rate": 97,
    "n": 35
   }
  },
- "first_seen": null,
- "by_year": [],
- "undated_pct": 100,
- "momentum": "none",
- "maturity": "L3",
- "maturity_evidence": [
-  "named_product:Microsoft"
+ "first_seen": 2024,
+ "by_year": [
+  {
+   "year": 2024,
+   "n": 2
+  },
+  {
+   "year": 2025,
+   "n": 4
+  },
+  {
+   "year": 2026,
+   "n": 3
+  }
  ],
- "prospect_score": 46,
+ "undated_pct": 10,
+ "momentum": "early_mover,rising",
+ "maturity": "L4",
+ "maturity_evidence": [
+  "multi_horizontal",
+  "named_product:Microsoft",
+  "value_number",
+  "multi_year"
+ ],
+ "prospect_score": 72,
  "stack": [
-  "Microsoft"
+  "Anthropic",
+  "Microsoft",
+  "OpenAI"
  ],
  "vendor_named": true,
  "deployments_detail": [
+  {
+   "company": "Informa",
+   "use": "Data Access and Partnership Agreement with Microsoft (2024-2027) licensing Taylor & Francis / Routledge academic books and journals to train and improve AI systems (e.g. Copilot), plus collaboration on automated citation referencing and AI research-assistant tooling [Microsoft]",
+   "existence": "confirmed",
+   "value": "$10m+ (£8m) initial fee, first year; deal runs 2024-2027",
+   "tier": "",
+   "url": "https://www.informa.com/globalassets/documents/investor-relations/2024/informa-plc---market-update.pdf",
+   "raw_sector": "",
+   "date": "2024-05",
+   "fresh": "aging"
+  },
+  {
+   "company": "Informa",
+   "use": "Second AI data-licensing partnership (partner undisclosed) alongside the Microsoft deal, together expected to generate ~£58m/$75m in non-recurring AI data-access revenue in 2024 for Taylor & Francis content [Undisclosed second AI partner]",
+   "existence": "confirmed",
+   "value": "£58m / $75m expected AI revenue in 2024 (combined partnerships)",
+   "tier": "",
+   "url": "https://www.thebookseller.com/news/taylor-francis-set-to-make-58m-from-ai-in-2024-as-it-reveals-second-partnership",
+   "raw_sector": "",
+   "date": "2024-07",
+   "fresh": "aging"
+  },
+  {
+   "company": "Informa",
+   "use": "Taylor & Francis uses AI tools across its publishing workflow: Clarivate Reviewer Locator to recommend peer reviewers from Web of Science (up to 30 reviewers from 28M+ authors), Cactus Paperpal for language editing, Crossref Similarity Check for plagiarism, Imagetwin for image manipulation detection, and AI content tagging [Clarivate (Reviewer Locator), Cactus (Paperpal), Crossref, Imagetwin]",
+   "existence": "confirmed",
+   "value": "recommends up to 30 reviewers from 28M+ authors",
+   "tier": "",
+   "url": "https://taylorandfrancis.com/about/ai/",
+   "raw_sector": "",
+   "date": "2026",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Informa",
+   "use": "Master agreement with Conference AI to deploy AI-powered post-event content across Informa's global events portfolio, starting with a pilot at SupplySide Global 2025 (auto transcription, highlights, role-based takeaways, clips, sponsor insights) to create year-round/long-tail content revenue [Conference AI]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.einpresswire.com/article/862066315/informa-s-partnership-with-conference-ai-signals-industry-shift-in-post-event-content-revenue",
+   "raw_sector": "",
+   "date": "2025-10",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Informa",
+   "use": "Group-wide AI investment: in 2025 Informa reported investing in AI development and deployment across the Group with board-level oversight of associated risks (Annual Report 2025) [Informa]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.informa.com/globalassets/documents/investor-relations/2026/2025-informa-annual-report.pdf",
+   "raw_sector": "",
+   "date": "2026-03",
+   "fresh": "fresh"
+  },
   {
    "company": "Informa",
    "use": "Microsoft AI deal to deepen AI use; CEO betting on AI for growth; Conference AI partnership to monetise event content year-round",
@@ -45,6 +118,50 @@
    "raw_sector": "Media",
    "date": "missing",
    "fresh": "undated"
+  },
+  {
+   "company": "Informa",
+   "use": "Elysia, Informa's homegrown internal AI chat assistant, launched globally to ~16,000 colleagues in April 2025 as an AI productivity/thinking partner (dedicated app and web) to aid daily tasks, prompt engineering and decision-making [Informa (homegrown); technology partner unnamed]",
+   "existence": "confirmed",
+   "value": "16,000 colleagues",
+   "tier": "",
+   "url": "https://www.linkedin.com/posts/donna-lovitt-edwards_informainnovation-aitransformation-futureofwork-activity-7326632417245499393-eciA",
+   "raw_sector": "",
+   "date": "2025-04",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Informa",
+   "use": "Elysia AI assistant embedded into Informa's Annual Review Hub for corporate reporting, trained on 20+ years of annual/sustainability reports, letting readers get tailored AI-powered summaries and insights at chosen depth (quick/regular/in-depth) [Informa (homegrown Elysia)]",
+   "existence": "confirmed",
+   "value": "trained on 20+ years of reports",
+   "tier": "",
+   "url": "https://www.linkedin.com/posts/informa_informaannualreport-activity-7331322797803134976-G6XN",
+   "raw_sector": "",
+   "date": "2025",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Informa",
+   "use": "Informa TechTarget launched AI Visibility Audit and GEO (Generative Engine Optimization) Topic Planner content solutions to help B2B marketers measure and improve brand discoverability across AI answer engines (ChatGPT, Perplexity, Claude) for the zero-click buyer journey [Informa TechTarget]",
+   "existence": "confirmed",
+   "value": "AI-driven traffic to own sites up 235% in 2025; AI-referral membership sign-ups quadrupled",
+   "tier": "",
+   "url": "https://www.informatechtarget.com/press-release/informa-techtarget-launches-ai-visibility-geo-content-solutions-for-zero-click-b2b-buyer-journey/",
+   "raw_sector": "",
+   "date": "2026-03",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Informa",
+   "use": "BrightTALK (Informa TechTarget) AI-driven promotional engine that automatically places webinar/video content in front of relevant professionals across its 50M+ permissioned B2B audience for demand generation [Informa TechTarget (BrightTALK)]",
+   "existence": "confirmed",
+   "value": "50M+ permissioned B2B users",
+   "tier": "",
+   "url": "https://www.informatechtarget.com/products/brighttalk/",
+   "raw_sector": "",
+   "date": "2025",
+   "fresh": "fresh"
   }
  ]
 }

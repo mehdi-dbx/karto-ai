@@ -3,7 +3,7 @@
  "name": "UCB",
  "cc": "BE",
  "vertical": "Healthcare & Life Sciences",
- "deployments": 3,
+ "deployments": 4,
  "confirmed": 3,
  "with_value_number": 0,
  "proof_rate": 0.0,
@@ -11,14 +11,14 @@
  "revenue": 8359200000.0,
  "employees": 9765.0,
  "silent": false,
- "per_bn_revenue": 0.36,
- "per_10k_emp": 3.07,
+ "per_bn_revenue": 0.48,
+ "per_10k_emp": 4.1,
  "benchmarks": {
   "global_vertical": {
-   "deployments": 87,
-   "confirmed": 87,
+   "deployments": 26,
+   "confirmed": 33,
    "proof_rate": 0,
-   "n": 165
+   "n": 168
   }
  },
  "first_seen": 2024,
@@ -29,11 +29,11 @@
   },
   {
    "year": 2025,
-   "n": 1
+   "n": 2
   }
  ],
  "undated_pct": 0,
- "momentum": "early_mover,cooling",
+ "momentum": "early_mover,flat",
  "maturity": "L4",
  "maturity_evidence": [
   "named_product:Computer",
@@ -42,7 +42,10 @@
  ],
  "prospect_score": 58,
  "stack": [
-  "Microsoft"
+  "Anthropic",
+  "Google",
+  "Microsoft",
+  "OpenAI"
  ],
  "vendor_named": true,
  "deployments_detail": [
@@ -77,6 +80,17 @@
    "url": "https://www.pharmanow.live/latest-news/ucb-xtalpi-transform-biologics",
    "raw_sector": "Healthcare",
    "date": "2025",
+   "fresh": "fresh"
+  },
+  {
+   "company": "UCB",
+   "use": "Campus-wide AI access platform for faculty, staff, and select students [ChatGPT, Claude, Gemini]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://ai.berkeley.edu/resources/campus-ai-sandbox",
+   "raw_sector": "",
+   "date": "2025-03-20",
    "fresh": "fresh"
   }
  ]

@@ -3,43 +3,97 @@
  "name": "Zurich Insurance Group AG",
  "cc": "CH",
  "vertical": "Financial Services",
- "deployments": 2,
- "confirmed": 2,
- "with_value_number": 0,
- "proof_rate": 0.0,
+ "deployments": 19,
+ "confirmed": 12,
+ "with_value_number": 8,
+ "proof_rate": 0.421,
  "mktcap": 104378100000.0,
  "revenue": 73080000000.0,
  "employees": 63000.0,
  "silent": false,
- "per_bn_revenue": 0.03,
- "per_10k_emp": 0.32,
+ "per_bn_revenue": 0.26,
+ "per_10k_emp": 3.02,
  "benchmarks": {
   "global_vertical": {
-   "deployments": 62,
-   "confirmed": 73,
-   "proof_rate": 0,
-   "n": 377
+   "deployments": 98,
+   "confirmed": 90,
+   "proof_rate": 72,
+   "n": 388
   },
   "country_vertical": {
-   "deployments": 75,
-   "confirmed": 75,
-   "proof_rate": 0,
+   "deployments": 100,
+   "confirmed": 100,
+   "proof_rate": 50,
    "n": 5
   }
  },
- "first_seen": null,
- "by_year": [],
- "undated_pct": 100,
- "momentum": "none",
- "maturity": "L3",
+ "first_seen": 2024,
+ "by_year": [
+  {
+   "year": 2024,
+   "n": 1
+  },
+  {
+   "year": 2025,
+   "n": 10
+  }
+ ],
+ "undated_pct": 42,
+ "momentum": "early_mover,rising",
+ "maturity": "L4",
  "maturity_evidence": [
+  "multi_horizontal",
   "named_product:AI at Zurich",
+  "value_number",
+  "multi_year",
   "tier_p"
  ],
- "prospect_score": 60,
- "stack": [],
- "vendor_named": false,
+ "prospect_score": 83,
+ "stack": [
+  "Amazon AWS",
+  "Cohere",
+  "Databricks",
+  "Google",
+  "Microsoft",
+  "Microsoft Azure",
+  "OpenAI",
+  "Palantir"
+ ],
+ "vendor_named": true,
  "deployments_detail": [
+  {
+   "company": "Zurich Insurance Group AG",
+   "use": "Microsoft 365 Copilot for Sales integrated into Outlook and Teams to keep CRM data current, summarize email threads, draft customer responses and surface account views for commercial insurance sales teams. Deployed with ~300 active Copilot users. [Microsoft (365 Copilot for Sales / Dynamics 365)]",
+   "existence": "confirmed",
+   "value": "~14,000 hours projected saved over the next year; ~300 active users; improved sales and retention ratios",
+   "tier": "",
+   "url": "https://www.microsoft.com/en/customers/story/23452-zurich-schweiz-microsoft-365-copilot-for-sales",
+   "raw_sector": "",
+   "date": "2025-04-25",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Zurich Insurance Group AG",
+   "use": "Zurich Hong Kong uses Microsoft Dynamics 365 Contact Center (deployed) to unify WhatsApp, call, SMS and email channels, plus Copilot Studio AI agents for initial customer-service triage and motor-claim preliminary capture; Copilot in Customer Service being piloted to help staff search the knowledge base during live chats. [Microsoft (Dynamics 365 Contact Center / Copilot Studio)]",
+   "existence": "confirmed",
+   "value": "Live chat now 10-20% of incoming call volume; agents handle up to two chats simultaneously",
+   "tier": "",
+   "url": "https://www.microsoft.com/en/customers/story/24082-zurich-dynamics-365-contact-center",
+   "raw_sector": "",
+   "date": "2025-06-17",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Zurich Insurance Group AG",
+   "use": "ZARA claims chatbot (built with Spixii) provides 24/7 first-notification-of-loss for motor and property claims, guiding customers through reporting; expanded from personal lines to SME/commercial insurance customers. [Spixii]",
+   "existence": "confirmed",
+   "value": "Reports a claim in under 3 minutes on average; over 3,000 claims reported since 2018 launch",
+   "tier": "",
+   "url": "https://www.zurich.co.uk/broker/articles/zara-the-zurich-claims-chatbot-comes-to-sme-commercial-insurance",
+   "raw_sector": "",
+   "date": "2025-05-09",
+   "fresh": "fresh"
+  },
   {
    "company": "Zurich Insurance Group AG",
    "use": "GenAI for claims summarization, medical doc summaries, key-term & PII/PHI redaction (Zurich \"AI at Zurich\" disclosure)",
@@ -61,6 +115,160 @@
    "raw_sector": "Financials",
    "date": "missing",
    "fresh": "undated"
+  },
+  {
+   "company": "Zurich Insurance Group AG",
+   "use": "Sixfold generative-AI underwriting assistant creates full underwriting narratives in minutes, distilling thousands of pages of exposure data, loss runs and risk reports for US Middle Market underwriters. Launched in 4 USMM offices in Jan 2025 and expanding to dozens more countrywide. [Sixfold]",
+   "existence": "confirmed",
+   "value": "~60 minutes saved per submission; 80% of submissions by 16 underwriters used Sixfold in initial rollout",
+   "tier": "",
+   "url": "https://www.zurichna.com/media/news-releases/2025/ai-tool-brings-real-world-value-to-zurich-usmm-underwriters",
+   "raw_sector": "",
+   "date": "2025-07-09",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Zurich Insurance Group AG",
+   "use": "Microsoft Azure OpenAI Service powers language-AI, multimodal (image/email/report) processing, multilingual support and text-to-speech to accelerate underwriting and risk assessment across global operations. Part of a portfolio of 200+ AI tools deployed. [Microsoft (Azure OpenAI Service)]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.microsoft.com/en/customers/story/19760-zurich-insurance-azure-open-ai-service",
+   "raw_sector": "",
+   "date": "2024-11-15",
+   "fresh": "aging"
+  },
+  {
+   "company": "Zurich Insurance Group AG",
+   "use": "Amazon SageMaker AI used to build a proactive flood-claim prediction model that continuously monitors UK customer properties for flood risk and provides early warning, matching addresses to property reference numbers with weather/geographic data. Standardized MLOps on SageMaker with AI Assurance Framework integration. [AWS (Amazon SageMaker AI)]",
+   "existence": "claimed",
+   "value": "Deployment speed cut from ~26 weeks to ~8 weeks with reusable patterns",
+   "tier": "",
+   "url": "https://aws.amazon.com/blogs/industries/how-zurich-insurance-is-becoming-an-ai-led-insurer-using-amazon-sagemaker-ai/",
+   "raw_sector": "",
+   "date": "2025-06-09",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Zurich Insurance Group AG",
+   "use": "Zurich Program IQ, an in-house AI tool, analyzes policy documents to detect inconsistencies between local and master policies across regions, languages and currencies (initially property nat-cat sublimits) to strengthen contract certainty in multinational insurance programs. In use by underwriting experts. [Zurich (in-house)]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.insurancejournal.com/news/international/2025/12/31/852798.htm",
+   "raw_sector": "",
+   "date": "2025-12-31",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Zurich Insurance Group AG",
+   "use": "Convr AI underwriting workbench (Intake AI) uses machine learning and computer vision to extract submission data from ACORD forms, loss runs and other documents, then cleanse and enrich it, applied to automobile underwriting for Zurich North America. In production across North America. [Convr]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.prnewswire.com/news-releases/convr-ai-automates-underwriting-process-for-zurich-north-america-302647814.html",
+   "raw_sector": "",
+   "date": "2025-12-23",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Zurich Insurance Group AG",
+   "use": "CLARA multi-agent AI system (with AgentricAI) reads PDFs, photos and handwriting, verifies coverage, decides approval/denial and drafts customer communications under human supervision, piloted for travel claims via Zurich Cover-More with planned production rollout in Australia and the US. [AgentricAI]",
+   "existence": "claimed",
+   "value": "47 seconds average processing time (down from hours)",
+   "tier": "",
+   "url": "https://www.thebrokernews.ch/en/damage-claims-in-47-sec-zurichs-ai-action/",
+   "raw_sector": "",
+   "date": "2025-10-24",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Zurich Insurance Group AG",
+   "use": "LISA partnership automates healthcare claims processing in Chile, automating roughly two-thirds of health claims with payout in under ten minutes; part of Zurich's proactive/automated claims initiatives. [LISA (Zurich Chile partnership)]",
+   "existence": "confirmed",
+   "value": "~2/3 of health claims automated; payout under 10 minutes; ~1/3 cost reduction (~USD 1 million/year)",
+   "tier": "",
+   "url": "https://www.thebrokernews.ch/en/damage-claims-in-47-sec-zurichs-ai-action/",
+   "raw_sector": "",
+   "date": "2025-10-24",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Zurich Insurance Group AG",
+   "use": "Named as a Microsoft Copilot customer/case study [Microsoft Copilot] [Microsoft Copilot]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.appsruntheworld.com/customers-database/products/view/microsoft-365-copilot",
+   "raw_sector": "",
+   "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "Zurich Insurance Group AG",
+   "use": "Named as a Amazon Bedrock customer/case study [Amazon Bedrock] [Amazon Bedrock]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.appsruntheworld.com/customers-database/products/view/amazon-bedrock",
+   "raw_sector": "",
+   "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "Zurich Insurance Group AG",
+   "use": "Named as a Google Gemini / Vertex AI customer/case study [Google Gemini / Vertex AI] [Google Gemini / Vertex AI]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.appsruntheworld.com/customers-database/products/view/google-cloud-vertex-ai",
+   "raw_sector": "",
+   "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "Zurich Insurance Group AG",
+   "use": "Named as a Databricks customer/case study [Databricks] [Databricks]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.appsruntheworld.com/customers-database/products/view/microsoft-azure-databricks-ai",
+   "raw_sector": "",
+   "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "Zurich Insurance Group AG",
+   "use": "Named as a Palantir customer/case study [Palantir] [Palantir]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.appsruntheworld.com/customers-database/products/view/palantir-aip-platform",
+   "raw_sector": "",
+   "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "Zurich Insurance Group AG",
+   "use": "Named as a Cohere customer/case study [Cohere] [Cohere]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.appsruntheworld.com/customers-database/products/view/cohere-ai",
+   "raw_sector": "",
+   "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "Zurich Insurance Group AG",
+   "use": "Quantexa AI-enabled platform for real-time claims fraud detection; claims handlers input claim details normally and the system alerts them to suspicious activity using expanded data sources. Operating in production for three years (UK). [Quantexa]",
+   "existence": "confirmed",
+   "value": "Detected the equivalent of GBP 260,000 of bogus claims per day in 2024",
+   "tier": "",
+   "url": "https://www.insuranceage.co.uk/insight/7957488/zurich-strengthens-fraud-defences-with-ai",
+   "raw_sector": "",
+   "date": "2025-10-15",
+   "fresh": "fresh"
   }
  ]
 }

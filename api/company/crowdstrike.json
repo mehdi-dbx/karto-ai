@@ -3,43 +3,216 @@
  "name": "CrowdStrike",
  "cc": "US",
  "vertical": "Technology",
- "deployments": 1,
- "confirmed": 1,
- "with_value_number": 0,
- "proof_rate": 0.0,
+ "deployments": 15,
+ "confirmed": 12,
+ "with_value_number": 4,
+ "proof_rate": 0.267,
  "mktcap": 186950000000.0,
  "revenue": 5090000000.0,
  "employees": 10698.0,
  "silent": false,
- "per_bn_revenue": 0.2,
- "per_10k_emp": 0.93,
+ "per_bn_revenue": 2.95,
+ "per_10k_emp": 14.02,
  "benchmarks": {
   "global_vertical": {
-   "deployments": 0,
-   "confirmed": 6,
-   "proof_rate": 0,
-   "n": 156
+   "deployments": 92,
+   "confirmed": 89,
+   "proof_rate": 63,
+   "n": 159
   },
   "country_vertical": {
-   "deployments": 0,
-   "confirmed": 4,
-   "proof_rate": 0,
+   "deployments": 92,
+   "confirmed": 90,
+   "proof_rate": 70,
    "n": 74
   }
  },
- "first_seen": null,
- "by_year": [],
- "undated_pct": 100,
- "momentum": "none",
- "maturity": "L3",
+ "first_seen": 2017,
+ "by_year": [
+  {
+   "year": 2017,
+   "n": 1
+  },
+  {
+   "year": 2023,
+   "n": 1
+  },
+  {
+   "year": 2024,
+   "n": 3
+  },
+  {
+   "year": 2025,
+   "n": 6
+  },
+  {
+   "year": 2026,
+   "n": 1
+  }
+ ],
+ "undated_pct": 20,
+ "momentum": "early_mover,rising",
+ "maturity": "L4",
  "maturity_evidence": [
+  "multi_horizontal",
   "named_product:Charlotte AI",
+  "value_number",
+  "multi_year",
   "tier_p"
  ],
- "prospect_score": 54,
- "stack": [],
- "vendor_named": false,
+ "prospect_score": 89,
+ "stack": [
+  "Amazon AWS",
+  "Anthropic",
+  "Databricks",
+  "Mistral AI",
+  "NVIDIA"
+ ],
+ "vendor_named": true,
  "deployments_detail": [
+  {
+   "company": "CrowdStrike",
+   "use": "Charlotte AI, a generative-AI security analyst embedded in the Falcon platform that lets users ask plain-language questions to surface threats, summarize incidents, and accelerate investigations [In-house (multi-AI architecture using foundation models from Anthropic, Meta, Mistral)]",
+   "existence": "confirmed",
+   "value": "Early-access users obtained threat answers 75% faster than manual methods; query writing expedited 57%",
+   "tier": "",
+   "url": "https://www.crowdstrike.com/en-us/press-releases/crowdstrike-introduces-charlotte-ai-to-deliver-generative-ai-powered-cybersecurity/",
+   "raw_sector": "",
+   "date": "2023-05-30",
+   "fresh": "stale"
+  },
+  {
+   "company": "CrowdStrike",
+   "use": "Charlotte AI Detection Triage: agentic AI that autonomously triages endpoint, identity and cloud detections within bounded autonomy, trained on Falcon Complete MDR analyst decisions [In-house Charlotte AI]",
+   "existence": "confirmed",
+   "value": "Over 98% triage accuracy; eliminates more than 40 hours of manual work per week on average",
+   "tier": "",
+   "url": "https://www.crowdstrike.com/en-us/press-releases/crowdstrike-delivers-next-breakthrough-in-ai-powered-agentic-cybersecurity-with-charlotte-ai-detection-triage/",
+   "raw_sector": "",
+   "date": "2025-02-13",
+   "fresh": "fresh"
+  },
+  {
+   "company": "CrowdStrike",
+   "use": "Charlotte AI on AWS: uses Amazon Bedrock with Anthropic's Claude family of LLMs and Amazon SageMaker to deploy custom fine-tuned models, plus SageMaker LMI containers for embeddings and Amazon OpenSearch as vector store for RAG [AWS (Amazon Bedrock, SageMaker, OpenSearch), Anthropic Claude]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.crowdstrike.com/en-us/press-releases/crowdstrike-and-aws-extend-strategic-partnership-to-accelerate-cloud-security-and-ai-innovation/",
+   "raw_sector": "",
+   "date": "2024-05-02",
+   "fresh": "aging"
+  },
+  {
+   "company": "CrowdStrike",
+   "use": "Charlotte AI Agentic Response: automatically asks and answers the investigative questions a seasoned analyst would, performing root-cause analysis to boost SOC analyst productivity [In-house Charlotte AI]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.crowdstrike.com/en-us/press-releases/crowdstrike-unleashes-agentic-outcome-driven-ai-innovations/",
+   "raw_sector": "",
+   "date": "2025-04-28",
+   "fresh": "fresh"
+  },
+  {
+   "company": "CrowdStrike",
+   "use": "Charlotte AI AgentWorks: no-code platform within the Falcon platform for security teams to build, test, deploy and manage custom AI security agents without writing code [In-house Charlotte AI]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://ir.crowdstrike.com/news-releases/news-release-details/crowdstrike-unleashes-agentic-security-workforce-transform",
+   "raw_sector": "",
+   "date": "2025-09-16",
+   "fresh": "fresh"
+  },
+  {
+   "company": "CrowdStrike",
+   "use": "Agentic Security Workforce: seven mission-ready AI agents for key security workflows, including the Exposure Prioritization Agent (Falcon Exposure Management) that automates vulnerability triage and validates exploitability using ExPRT.AI and platform telemetry [In-house Charlotte AI]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.crowdstrike.com/en-us/blog/crowdstrike-delivers-seven-agents-to-build-agentic-security-workforce/",
+   "raw_sector": "",
+   "date": "2025-09-16",
+   "fresh": "fresh"
+  },
+  {
+   "company": "CrowdStrike",
+   "use": "Falcon signature-less machine-learning malware detection engine (endpoint prevention that identifies unknown malware without prior signatures); the ML engine was integrated into VirusTotal as the first signature-less engine [In-house ML]",
+   "existence": "confirmed",
+   "value": "Achieved 100% efficacy and 0% false positive score on independent antivirus testing (AV-Comparatives)",
+   "tier": "",
+   "url": "https://www.crowdstrike.com/en-us/press-releases/crowdstrikes-machine-learning-engine-becomes-first-signature-less-engine-integrated-virustotal/",
+   "raw_sector": "",
+   "date": "2017-04-28",
+   "fresh": "stale"
+  },
+  {
+   "company": "CrowdStrike",
+   "use": "Falcon Cloud Security AI Security Posture Management (AI-SPM): monitors AI services and LLMs deployed in the cloud, detects misconfigurations, exposes shadow AI, and identifies AI package and model risks [In-house (Falcon Cloud Security)]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.crowdstrike.com/en-us/press-releases/crowdstrike-unveils-falcon-cloud-security-innovations/",
+   "raw_sector": "",
+   "date": "2024-09-09",
+   "fresh": "aging"
+  },
+  {
+   "company": "CrowdStrike",
+   "use": "Falcon Next-Gen SIEM with AI-powered data pipelines and AI-generated parsing for real-time detection, correlation and threat analytics across all data sources [In-house (Falcon Next-Gen SIEM / LogScale)]",
+   "existence": "confirmed",
+   "value": "5x faster streaming and 50% lower storage costs (product claims)",
+   "tier": "",
+   "url": "https://www.crowdstrike.com/en-us/platform/next-gen-siem/",
+   "raw_sector": "",
+   "date": "2025-01-23",
+   "fresh": "fresh"
+  },
+  {
+   "company": "CrowdStrike",
+   "use": "Charlotte Agentic SOAR: orchestration layer that unites intelligent AI agents and automation to coordinate the agentic security workforce and drive machine-speed incident response [In-house Charlotte AI]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.crowdstrike.com/en-us/press-releases/crowdstrike-unveils-charlotte-agentic-soar/",
+   "raw_sector": "",
+   "date": "2025-11-05",
+   "fresh": "fresh"
+  },
+  {
+   "company": "CrowdStrike",
+   "use": "Collaboration with NVIDIA to build custom LLM-powered enterprise security applications using NVIDIA accelerated computing, Morpheus, and NIM microservices for threat hunting across petabytes of logs, supply-chain attack detection, and anomaly detection [NVIDIA (Morpheus, NIM microservices, accelerated computing)]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.crowdstrike.com/en-us/press-releases/crowdstrike-nvidia-generative-ai-collaboration/",
+   "raw_sector": "",
+   "date": "2024-03-18",
+   "fresh": "aging"
+  },
+  {
+   "company": "CrowdStrike",
+   "use": "Named as a Anthropic Claude customer/case study [Anthropic Claude] [Anthropic Claude]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://sacra.com/c/anthropic/",
+   "raw_sector": "",
+   "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "CrowdStrike",
+   "use": "Named as a Databricks customer/case study [Databricks] [Databricks]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.carahsoft.com/databricks/customer-stories",
+   "raw_sector": "",
+   "date": "missing",
+   "fresh": "undated"
+  },
   {
    "company": "CrowdStrike",
    "use": "\"Charlotte AI\" agentic security analyst on Falcon platform (detection triage, agentic workflows, AgentWorks no-code)",
@@ -50,6 +223,17 @@
    "raw_sector": "Information Technology",
    "date": "missing",
    "fresh": "undated"
+  },
+  {
+   "company": "CrowdStrike",
+   "use": "Integration bringing Anthropic Claude activity into the Falcon platform for unified detection, response and governance of enterprise AI usage [Anthropic (Claude), Falcon platform]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://ir.crowdstrike.com/news-releases/news-release-details/crowdstrike-delivers-visibility-and-monitoring-claude-activity",
+   "raw_sector": "",
+   "date": "2026-05-21",
+   "fresh": "fresh"
   }
  ]
 }

@@ -3,42 +3,51 @@
  "name": "Abu Dhabi Ports",
  "cc": "AE",
  "vertical": "Logistics & Supply Chain",
- "deployments": 1,
- "confirmed": 1,
- "with_value_number": 1,
- "proof_rate": 1.0,
+ "deployments": 6,
+ "confirmed": 5,
+ "with_value_number": 3,
+ "proof_rate": 0.5,
  "mktcap": 6918000000.0,
  "revenue": 5972000000.0,
  "employees": 2944.0,
  "silent": false,
- "per_bn_revenue": 0.17,
- "per_10k_emp": 3.4,
+ "per_bn_revenue": 1.0,
+ "per_10k_emp": 20.38,
  "benchmarks": {
   "global_vertical": {
-   "deployments": 0,
-   "confirmed": 14,
-   "proof_rate": 65,
-   "n": 66
+   "deployments": 61,
+   "confirmed": 64,
+   "proof_rate": 73,
+   "n": 67
   }
  },
  "first_seen": 2025,
  "by_year": [
   {
    "year": 2025,
-   "n": 1
+   "n": 3
+  },
+  {
+   "year": 2026,
+   "n": 2
   }
  ],
- "undated_pct": 0,
- "momentum": "early_mover,rising",
- "maturity": "L3",
+ "undated_pct": 17,
+ "momentum": "rising",
+ "maturity": "L4",
  "maturity_evidence": [
   "named_product:Intelligence",
   "value_number",
+  "multi_year",
   "tier_p"
  ],
- "prospect_score": 14,
- "stack": [],
- "vendor_named": false,
+ "prospect_score": 50,
+ "stack": [
+  "Microsoft",
+  "Microsoft Azure",
+  "Palantir"
+ ],
+ "vendor_named": true,
  "deployments_detail": [
   {
    "company": "Abu Dhabi Ports",
@@ -49,6 +58,61 @@
    "url": "https://www.adportsgroup.com",
    "raw_sector": "Ports",
    "date": "2025",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Abu Dhabi Ports",
+   "use": "205 AI agents deployed for real-time decision-making, automation, and resource optimization in logistics facilities",
+   "existence": "confirmed",
+   "value": "205",
+   "tier": "",
+   "url": "https://www.guinnessworldrecords.com/world-records/780095-most-ai-agents-deployed-in-a-logistics-facility",
+   "raw_sector": "",
+   "date": "2025-11-11",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Abu Dhabi Ports",
+   "use": "Autonomous truck system deployed at CSP Abu Dhabi Terminal in Khalifa Port",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.adportsgroup.com/en/innovation",
+   "raw_sector": "",
+   "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "Abu Dhabi Ports",
+   "use": "100+ AI agents built to optimize vessel speed for fuel reduction and emissions, and predict container utilization [Microsoft Azure AI Foundry]",
+   "existence": "confirmed",
+   "value": "100",
+   "tier": "",
+   "url": "https://www.microsoft.com/en/customers/story/25589-ad-ports-group-azure-ai-foundry",
+   "raw_sector": "",
+   "date": "2025-04-11",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Abu Dhabi Ports",
+   "use": "AI-powered Intelligence Headquarters (IHQ) embedding AI across 20 global workstreams",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.adportsgroup.com/en/news-and-media/2026/06/23/ad-ports-group-launches-ai-powered-intelligence-headquarters-ihq",
+   "raw_sector": "",
+   "date": "2026-06-23",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Abu Dhabi Ports",
+   "use": "Next-generation AI customs management systems for ports and borders with facial recognition, computer vision, and threat detection [BigBear.ai]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://bigbear.ai/newsroom/bigbear-ai-and-ad-ports-group-announce-strategic-partnership-exploring-development-of-next-generation-ai-customs-management-systems-for-ports-and-borders/",
+   "raw_sector": "",
+   "date": "2026-01-28",
    "fresh": "fresh"
   }
  ]

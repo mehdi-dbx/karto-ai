@@ -3,28 +3,28 @@
  "name": "Hana Financial",
  "cc": "KR",
  "vertical": "Financial Services",
- "deployments": 1,
- "confirmed": 1,
+ "deployments": 2,
+ "confirmed": 2,
  "with_value_number": 1,
- "proof_rate": 1.0,
+ "proof_rate": 0.5,
  "mktcap": 26281481481.0,
  "revenue": 9177777778.0,
  "employees": 103.0,
  "silent": false,
- "per_bn_revenue": 0.11,
- "per_10k_emp": 97.09,
+ "per_bn_revenue": 0.22,
+ "per_10k_emp": 194.17,
  "benchmarks": {
   "global_vertical": {
-   "deployments": 0,
+   "deployments": 5,
    "confirmed": 17,
-   "proof_rate": 76,
-   "n": 377
+   "proof_rate": 78,
+   "n": 388
   },
   "country_vertical": {
    "deployments": 0,
-   "confirmed": 0,
-   "proof_rate": 56,
-   "n": 17
+   "confirmed": 11,
+   "proof_rate": 100,
+   "n": 19
   }
  },
  "first_seen": null,
@@ -33,15 +33,28 @@
  "momentum": "none",
  "maturity": "L3",
  "maturity_evidence": [
+  "multi_horizontal",
+  "named_product:Investment",
   "value_number",
   "tier_p"
  ],
- "prospect_score": 6,
+ "prospect_score": 32,
  "stack": [
   "OpenAI"
  ],
  "vendor_named": true,
  "deployments_detail": [
+  {
+   "company": "Hana Financial",
+   "use": "Investment workflow AI adoption - Agentic AI for investment professionals [Terminal X]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.linkedin.com/posts/terminalx-ai_userstory-activity-7465690346421747713-txrS",
+   "raw_sector": "",
+   "date": "missing",
+   "fresh": "undated"
+  },
   {
    "company": "Hana Financial",
    "use": "H-GPT (self-developed genAI); AI corporate credit-assessment opinions (~10s, all branches); internal knowledge chatbot",

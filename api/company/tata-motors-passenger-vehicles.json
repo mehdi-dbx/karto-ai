@@ -3,42 +3,63 @@
  "name": "Tata Motors Passenger Vehicles",
  "cc": "IN",
  "vertical": "Automotive",
- "deployments": 1,
- "confirmed": 1,
- "with_value_number": 1,
- "proof_rate": 1.0,
+ "deployments": 12,
+ "confirmed": 10,
+ "with_value_number": 6,
+ "proof_rate": 0.5,
  "mktcap": 14578313253.0,
  "revenue": 40843373494.0,
  "employees": 60332.0,
  "silent": false,
- "per_bn_revenue": 0.02,
- "per_10k_emp": 0.17,
+ "per_bn_revenue": 0.29,
+ "per_10k_emp": 1.99,
  "benchmarks": {
   "global_vertical": {
-   "deployments": 0,
-   "confirmed": 10,
-   "proof_rate": 82,
+   "deployments": 74,
+   "confirmed": 82,
+   "proof_rate": 90,
    "n": 40
   },
   "country_vertical": {
-   "deployments": 0,
-   "confirmed": 44,
-   "proof_rate": 89,
+   "deployments": 100,
+   "confirmed": 100,
+   "proof_rate": 100,
    "n": 10
   }
  },
- "first_seen": null,
- "by_year": [],
- "undated_pct": 100,
- "momentum": "none",
- "maturity": "L3",
- "maturity_evidence": [
-  "named_product:Enterprise",
-  "value_number"
+ "first_seen": 2023,
+ "by_year": [
+  {
+   "year": 2023,
+   "n": 1
+  },
+  {
+   "year": 2024,
+   "n": 1
+  },
+  {
+   "year": 2025,
+   "n": 2
+  },
+  {
+   "year": 2026,
+   "n": 7
+  }
  ],
- "prospect_score": 14,
- "stack": [],
- "vendor_named": false,
+ "undated_pct": 8,
+ "momentum": "early_mover,rising",
+ "maturity": "L4",
+ "maturity_evidence": [
+  "multi_horizontal",
+  "named_product:Enterprise",
+  "value_number",
+  "multi_year"
+ ],
+ "prospect_score": 80,
+ "stack": [
+  "NVIDIA"
+ ],
+ "vendor_named": true,
  "deployments_detail": [
   {
    "company": "Tata Motors Passenger Vehicles",
@@ -50,6 +71,127 @@
    "raw_sector": "Automobile and Auto Components",
    "date": "missing",
    "fresh": "undated"
+  },
+  {
+   "company": "Tata Motors Passenger Vehicles",
+   "use": "AI-powered computer-vision inspection systems on manufacturing lines to detect defects earlier and improve production consistency [none]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.angelone.in/news/stocks/tata-motors-leverages-ai-to-build-vehicles-improve-quality-and-analyse-customer-demand",
+   "raw_sector": "",
+   "date": "2026-06",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Tata Motors Passenger Vehicles",
+   "use": "Condition-based monitoring / predictive maintenance of connected machines, sensors and robotics to predict equipment failures and reduce downtime in factories [none]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://yourstory.com/ai-story/tata-motors-ai-manufacturing-defects-demand-forecasting",
+   "raw_sector": "",
+   "date": "2026-06",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Tata Motors Passenger Vehicles",
+   "use": "Digital quality-control and traceability platforms using AI to identify defect origins and reduce warranty costs [none]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://yourstory.com/ai-story/tata-motors-ai-manufacturing-defects-demand-forecasting",
+   "raw_sector": "",
+   "date": "2026-06",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Tata Motors Passenger Vehicles",
+   "use": "TETHER connected-vehicle platform (AI/IoT) providing OTA updates, remote diagnostics and predictive maintenance across the Tata Motors connected fleet [Tata Elxsi]",
+   "existence": "confirmed",
+   "value": "500,000+ connected vehicles on the platform",
+   "tier": "",
+   "url": "https://www.tataelxsi.com/news-and-events/press-releases/tata-elxsis-tether-paves-the-way-for-tata-motors-connected-vehicle-platform-to-scale-new-heights",
+   "raw_sector": "",
+   "date": "2023-01",
+   "fresh": "stale"
+  },
+  {
+   "company": "Tata Motors Passenger Vehicles",
+   "use": "'t.idal' software-defined-vehicle platform with AI-based ADAS (automated driving/parking) and occupant monitoring, built on NVIDIA compute; first to debut on the Sierra SUV [NVIDIA]",
+   "existence": "claimed",
+   "value": "Rs 2,836 crore R&D investment in FY2025-26",
+   "tier": "",
+   "url": "https://www.telugutimes.net/en/bnews/tata-motors-bets-big-on-software-defined-vehicles-with-nvidia-partnership-349219.html",
+   "raw_sector": "",
+   "date": "2026-06",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Tata Motors Passenger Vehicles",
+   "use": "AI for after-sales operations: spare-parts forecasting, service advisory functions, image-based damage assessment and dealer-service quality monitoring [none]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.angelone.in/news/stocks/tata-motors-leverages-ai-to-build-vehicles-improve-quality-and-analyse-customer-demand",
+   "raw_sector": "",
+   "date": "2026-06",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Tata Motors Passenger Vehicles",
+   "use": "'Power of 8' omnichannel GenAI aftermarket/dealership platform enhancing customer interactions and digital lead conversion [Tata Technologies]",
+   "existence": "confirmed",
+   "value": "Up to 95% improvement in customer-interaction efficiency; 30% boost in digital lead conversions",
+   "tier": "",
+   "url": "https://www.tata.com/newsroom/business/tata-technologies-artificial-intelligence-automotive-value-chain",
+   "raw_sector": "",
+   "date": "2025-09",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Tata Motors Passenger Vehicles",
+   "use": "TATA ServiceSage - a GenAI/RAG-based root-cause-analysis chat assistant that queries vehicle service manuals to give technicians context-aware diagnostics [MathWorks (MATLAB, Text Analytics Toolbox); local LLMs]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.mathworks.com/company/user_stories/enhancing-vehicle-troubleshooting-with-ai-at-tata-motors.html",
+   "raw_sector": "",
+   "date": "2024-12",
+   "fresh": "aging"
+  },
+  {
+   "company": "Tata Motors Passenger Vehicles",
+   "use": "In-house network of AI agents analysing 1.6+ billion customer data points across social media, videos and online conversations to track brand sentiment, benchmark competitors and inform product planning [In-house (Tata Motors)]",
+   "existence": "confirmed",
+   "value": "1.6 billion customer data points analysed",
+   "tier": "",
+   "url": "https://www.angelone.in/news/stocks/tata-motors-leverages-ai-to-build-vehicles-improve-quality-and-analyse-customer-demand",
+   "raw_sector": "",
+   "date": "2026-06",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Tata Motors Passenger Vehicles",
+   "use": "GenAI-powered virtual sales assistants providing personalised sales guidance for dealerships (co-developed with Tata Technologies) [Tata Technologies]",
+   "existence": "confirmed",
+   "value": "Rs 1,967 crore additional revenue in HCV and Rs 194 crore in light/medium vehicles within one year",
+   "tier": "",
+   "url": "https://www.tata.com/newsroom/business/tata-technologies-artificial-intelligence-automotive-value-chain",
+   "raw_sector": "",
+   "date": "2025-09",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Tata Motors Passenger Vehicles",
+   "use": "AI-driven demand forecasting / sales-and-inventory planning to predict customer demand and improve inventory accuracy [none]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://yourstory.com/ai-story/tata-motors-ai-manufacturing-defects-demand-forecasting",
+   "raw_sector": "",
+   "date": "2026-06",
+   "fresh": "fresh"
   }
  ]
 }

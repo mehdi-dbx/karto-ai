@@ -3,39 +3,46 @@
  "name": "Bank of Ireland",
  "cc": "IE",
  "vertical": "Financial Services",
- "deployments": 1,
- "confirmed": 1,
- "with_value_number": 0,
- "proof_rate": 0.0,
+ "deployments": 3,
+ "confirmed": 3,
+ "with_value_number": 2,
+ "proof_rate": 0.667,
  "mktcap": 18727200000.0,
  "revenue": 4266000000.0,
  "employees": 11287.0,
  "silent": false,
- "per_bn_revenue": 0.23,
- "per_10k_emp": 0.89,
+ "per_bn_revenue": 0.7,
+ "per_10k_emp": 2.66,
  "benchmarks": {
   "global_vertical": {
-   "deployments": 0,
-   "confirmed": 17,
-   "proof_rate": 0,
-   "n": 377
+   "deployments": 13,
+   "confirmed": 27,
+   "proof_rate": 93,
+   "n": 388
   }
  },
- "first_seen": 2026,
+ "first_seen": 2025,
  "by_year": [
   {
-   "year": 2026,
+   "year": 2025,
    "n": 1
+  },
+  {
+   "year": 2026,
+   "n": 2
   }
  ],
  "undated_pct": 0,
- "momentum": "late_entrant,rising",
- "maturity": "L3",
+ "momentum": "rising",
+ "maturity": "L4",
  "maturity_evidence": [
+  "multi_horizontal",
   "named_product:Working",
+  "value_number",
+  "multi_year",
   "tier_p"
  ],
- "prospect_score": 54,
+ "prospect_score": 39,
  "stack": [],
  "vendor_named": false,
  "deployments_detail": [
@@ -47,6 +54,28 @@
    "tier": "P",
    "url": "https://www.bankofireland.com/about-bank-of-ireland/press-releases/2026/bank-of-ireland-appoints-prag-sharma-as-chief-artificial-intelligence-officer/",
    "raw_sector": "Banks",
+   "date": "2026",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Bank of Ireland",
+   "use": "AI-powered spending insights for customers",
+   "existence": "confirmed",
+   "value": "127 million spending insights delivered in 2025",
+   "tier": "",
+   "url": "https://www.bankofireland.com/about-bank-of-ireland/artificial-intelligence/",
+   "raw_sector": "",
+   "date": "2025",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Bank of Ireland",
+   "use": "Fraud detection and prevention on card transactions",
+   "existence": "confirmed",
+   "value": "€9.7 million in fraud prevented; 1 billion card transactions assessed",
+   "tier": "",
+   "url": "https://www.bankofireland.com/about-bank-of-ireland/press-releases/2026/bank-of-ireland-uses-ai-to-assess-1-billion-card-transactions-for-fraud-in-2025/",
+   "raw_sector": "",
    "date": "2026",
    "fresh": "fresh"
   }

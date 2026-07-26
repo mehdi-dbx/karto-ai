@@ -3,27 +3,27 @@
  "name": "HCA Healthcare",
  "cc": "US",
  "vertical": "Healthcare & Life Sciences",
- "deployments": 9,
- "confirmed": 7,
+ "deployments": 15,
+ "confirmed": 10,
  "with_value_number": 7,
- "proof_rate": 0.778,
+ "proof_rate": 0.467,
  "mktcap": 82950000000.0,
  "revenue": 76390000000.0,
  "employees": 320000.0,
  "silent": false,
- "per_bn_revenue": 0.12,
- "per_10k_emp": 0.28,
+ "per_bn_revenue": 0.2,
+ "per_10k_emp": 0.47,
  "benchmarks": {
   "global_vertical": {
-   "deployments": 91,
-   "confirmed": 93,
-   "proof_rate": 82,
-   "n": 165
+   "deployments": 95,
+   "confirmed": 87,
+   "proof_rate": 81,
+   "n": 168
   },
   "country_vertical": {
-   "deployments": 81,
-   "confirmed": 83,
-   "proof_rate": 88,
+   "deployments": 90,
+   "confirmed": 78,
+   "proof_rate": 84,
    "n": 59
   }
  },
@@ -50,7 +50,7 @@
    "n": 3
   }
  ],
- "undated_pct": 11,
+ "undated_pct": 47,
  "momentum": "early_mover,flat",
  "maturity": "L4",
  "maturity_evidence": [
@@ -59,10 +59,70 @@
   "value_number",
   "multi_year"
  ],
- "prospect_score": 59,
- "stack": [],
- "vendor_named": false,
+ "prospect_score": 81,
+ "stack": [
+  "Google",
+  "Google Cloud",
+  "Microsoft",
+  "Palantir"
+ ],
+ "vendor_named": true,
  "deployments_detail": [
+  {
+   "company": "HCA Healthcare",
+   "use": "Ambient-listening AI for capturing clinician-patient conversations to improve patient safety",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.aha.org/news/blog/2025-10-16-smarter-safer-hospitals-how-hca-healthcare-using-ai-redefine-patient-safety",
+   "raw_sector": "",
+   "date": "Oct 16, 2025",
+   "fresh": "undated"
+  },
+  {
+   "company": "HCA Healthcare",
+   "use": "CareIntellect for Perinatal platform [GE HealthCare]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://emerj.com/artificial-intelligence-at-hca-healthcare-two-use-cases/",
+   "raw_sector": "",
+   "date": "Dec 8, 2025",
+   "fresh": "undated"
+  },
+  {
+   "company": "HCA Healthcare",
+   "use": "Generative AI for improving nurse handoffs and patient care workflows [Google Cloud]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://cloud.google.com/transform/nurse-handoff-ai-chart-app-hca-healthcare-better-patient-outcomes",
+   "raw_sector": "",
+   "date": "Jul 29, 2025",
+   "fresh": "undated"
+  },
+  {
+   "company": "HCA Healthcare",
+   "use": "Named as a Google Gemini / Vertex AI customer/case study [Google Gemini / Vertex AI] [Google Gemini / Vertex AI]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://aimagazine.com/news/what-can-googles-gemini-enterprise-suite-offer-businesses",
+   "raw_sector": "",
+   "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "HCA Healthcare",
+   "use": "Named as a Palantir customer/case study [Palantir] [Palantir]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.appsruntheworld.com/customers-database/products/view/palantir-aip-platform",
+   "raw_sector": "",
+   "date": "missing",
+   "fresh": "undated"
+  },
   {
    "company": "HCA Healthcare",
    "use": "\"SPOT\" AI sepsis prediction (detects ~18h earlier; credited w/ ~8,000 lives saved) + Augmedix GenAI ED documentation",
@@ -73,6 +133,17 @@
    "raw_sector": "Health Care",
    "date": "2019",
    "fresh": "stale"
+  },
+  {
+   "company": "HCA Healthcare",
+   "use": "Generative AI to improve workflows and reduce administrative burden for physicians and nurses [Google Cloud]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://investor.hcahealthcare.com/news/news-details/2023/HCA-Healthcare-Collaborates-With-Google-Cloud-to-Bring-Generative-AI-to-Hospitals/default.aspx",
+   "raw_sector": "",
+   "date": "Aug 29, 2023",
+   "fresh": "undated"
   },
   {
    "company": "HCA Healthcare",

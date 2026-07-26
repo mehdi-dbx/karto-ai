@@ -3,21 +3,21 @@
  "name": "Nissui Corporation",
  "cc": "JP",
  "vertical": "Agriculture",
- "deployments": 1,
- "confirmed": 1,
- "with_value_number": 0,
- "proof_rate": 0.0,
+ "deployments": 4,
+ "confirmed": 2,
+ "with_value_number": 1,
+ "proof_rate": 0.25,
  "mktcap": 2531733333.0,
  "revenue": 6208466667.0,
  "employees": 11526.0,
  "silent": false,
- "per_bn_revenue": 0.16,
- "per_10k_emp": 0.87,
+ "per_bn_revenue": 0.64,
+ "per_10k_emp": 3.47,
  "benchmarks": {
   "global_vertical": {
-   "deployments": 0,
-   "confirmed": 20,
-   "proof_rate": 0,
+   "deployments": 40,
+   "confirmed": 10,
+   "proof_rate": 60,
    "n": 11
   }
  },
@@ -27,10 +27,12 @@
  "momentum": "none",
  "maturity": "L3",
  "maturity_evidence": [
+  "multi_horizontal",
   "named_product:Fish Capture Pro ai",
+  "value_number",
   "tier_p"
  ],
- "prospect_score": 54,
+ "prospect_score": 50,
  "stack": [],
  "vendor_named": false,
  "deployments_detail": [
@@ -42,6 +44,39 @@
    "tier": "P",
    "url": "https://bizgate.nikkei.com/article/DGXZQOLM262AA026052025000000",
    "raw_sector": "Fishery",
+   "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "Nissui Corporation",
+   "use": "Aquaculture sophistication and smart factory transition using AI and IoT",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.nissui.co.jp/english/ir/ir_library/pdf/2025_integrated_report_en_a4all.pdf",
+   "raw_sector": "",
+   "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "Nissui Corporation",
+   "use": "IoT and AI for next-generation plant operations in competitive food categories",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.nissui.co.jp/english/ir/download/integrated_report/2025_integrated_report_digest.pdf",
+   "raw_sector": "",
+   "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "Nissui Corporation",
+   "use": "Generative AI trial and training for employee capability building",
+   "existence": "confirmed",
+   "value": "69",
+   "tier": "",
+   "url": "https://www.nissui.co.jp/english/ir/ir_library/pdf/2024_integrated_report_en_a4all.pdf",
+   "raw_sector": "",
    "date": "missing",
    "fresh": "undated"
   }

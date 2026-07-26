@@ -3,26 +3,26 @@
  "name": "Korean Air",
  "cc": "KR",
  "vertical": "Industrial / Machinery",
- "deployments": 1,
- "confirmed": 1,
+ "deployments": 7,
+ "confirmed": 3,
  "with_value_number": 0,
  "proof_rate": 0.0,
  "mktcap": 7044444444.0,
  "revenue": 18807407407.0,
  "employees": 18000.0,
  "silent": false,
- "per_bn_revenue": 0.05,
- "per_10k_emp": 0.56,
+ "per_bn_revenue": 0.37,
+ "per_10k_emp": 3.89,
  "benchmarks": {
   "global_vertical": {
-   "deployments": 0,
-   "confirmed": 14,
+   "deployments": 61,
+   "confirmed": 39,
    "proof_rate": 0,
-   "n": 175
+   "n": 176
   },
   "country_vertical": {
-   "deployments": 0,
-   "confirmed": 24,
+   "deployments": 52,
+   "confirmed": 71,
    "proof_rate": 0,
    "n": 22
   }
@@ -33,15 +33,60 @@
  "momentum": "none",
  "maturity": "L3",
  "maturity_evidence": [
+  "multi_horizontal",
   "named_product:Contact",
   "tier_p"
  ],
- "prospect_score": 46,
+ "prospect_score": 58,
  "stack": [
   "Amazon AWS"
  ],
  "vendor_named": true,
  "deployments_detail": [
+  {
+   "company": "Korean Air",
+   "use": "AI Pilot technology for autonomous flight and urban air mobility",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.eplaneai.com/news/korean-air-introduces-ai-pilot-technology-at-south-korea-expo",
+   "raw_sector": "",
+   "date": "Jul 15, 2026",
+   "fresh": "undated"
+  },
+  {
+   "company": "Korean Air",
+   "use": "AI-powered high-speed drone program",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.koreaherald.com/article/10703481",
+   "raw_sector": "",
+   "date": "Mar 26, 2026",
+   "fresh": "undated"
+  },
+  {
+   "company": "Korean Air",
+   "use": "AI-powered chatbot for maintenance procedure recommendations",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.koreanair.com/contents/footer/about-us/newsroom/list/250715-2025-World-Smart-City-Expo?hc=kr&hl=en&insEmail=1&insNltCmpId=8461&insNltSldt=10080&insPnName=koreanairkr&insUuid=Mjc0Mjc1OTAtNDY4NS00Y2IwLTkwNjEtNjQ0ZjdiZTNmYzQ3&isIns=1&isInsNltCmp=1",
+   "raw_sector": "",
+   "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "Korean Air",
+   "use": "iFlight Platform for flight operations and crew management with advanced analytics and AI [IBS Software]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.prnewswire.com/news-releases/korean-air-deploys-ibs-softwares-iflight-platform-to-transform-flight-operations-and-crew-management-302714417.html",
+   "raw_sector": "",
+   "date": "Mar 17, 2026",
+   "fresh": "undated"
+  },
   {
    "company": "Korean Air",
    "use": "AI Contact Center (AWS); genAI chatbot (13 languages); AI next-gen integrated flight-operations platform (post-Asiana merger); AI aircraft maintenance",
@@ -51,6 +96,28 @@
    "url": "https://html.duckduckgo.com/html/?q=대한항공+AI+항공+도입",
    "raw_sector": "Industrials",
    "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "Korean Air",
+   "use": "Generative AI chatbot for customer support",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.aviationbusinessnews.com/cabin/korean-air-launches-generative-ai-chatbot/",
+   "raw_sector": "",
+   "date": "Feb 10, 2026",
+   "fresh": "undated"
+  },
+  {
+   "company": "Korean Air",
+   "use": "AI Contact Center with Amazon Web Services [Amazon Web Services (AWS)]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.linkedin.com/posts/nievesgarciadiez_korean-air-to-build-ai-contact-center-activity-7204283893871435776-sn4G",
+   "raw_sector": "",
+   "date": "2 years ago",
    "fresh": "undated"
   }
  ]

@@ -3,55 +3,81 @@
  "name": "Tokio Marine Holdings, Inc.",
  "cc": "JP",
  "vertical": "Insurance",
- "deployments": 2,
- "confirmed": 2,
- "with_value_number": 0,
- "proof_rate": 0.0,
+ "deployments": 10,
+ "confirmed": 7,
+ "with_value_number": 3,
+ "proof_rate": 0.3,
  "mktcap": 98200000000.0,
  "revenue": 54066666667.0,
  "employees": 67526.0,
  "silent": false,
- "per_bn_revenue": 0.04,
- "per_10k_emp": 0.3,
+ "per_bn_revenue": 0.18,
+ "per_10k_emp": 1.48,
  "benchmarks": {
   "global_vertical": {
-   "deployments": 54,
-   "confirmed": 68,
-   "proof_rate": 0,
-   "n": 60
+   "deployments": 74,
+   "confirmed": 60,
+   "proof_rate": 55,
+   "n": 63
   },
   "country_vertical": {
-   "deployments": 50,
-   "confirmed": 50,
-   "proof_rate": 0,
+   "deployments": 25,
+   "confirmed": 25,
+   "proof_rate": 25,
    "n": 5
   }
  },
- "first_seen": 2023,
+ "first_seen": 2020,
  "by_year": [
+  {
+   "year": 2020,
+   "n": 1
+  },
+  {
+   "year": 2021,
+   "n": 1
+  },
   {
    "year": 2023,
    "n": 1
   },
   {
-   "year": 2025,
+   "year": 2024,
    "n": 1
+  },
+  {
+   "year": 2025,
+   "n": 6
   }
  ],
  "undated_pct": 0,
- "momentum": "early_mover,flat",
+ "momentum": "early_mover,rising",
  "maturity": "L4",
  "maturity_evidence": [
+  "multi_horizontal",
   "named_product:One-AI for Tokio Marine",
+  "value_number",
   "multi_year",
   "tier_p"
  ],
- "prospect_score": 52,
+ "prospect_score": 70,
  "stack": [
-  "OpenAI"
+  "OpenAI",
+  "Salesforce"
  ],
  "vendor_named": true,
  "deployments_detail": [
+  {
+   "company": "Tokio Marine Holdings, Inc.",
+   "use": "Shift Technology generative-AI 'visual intelligence' added to deployed Shift Claims Fraud Detection and Shift Claims Intake, extracting data from structured/unstructured documents and images to improve fraud detection and claims processing accuracy. [Shift Technology]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.prnewswire.com/news-releases/shift-provides-tokio-marine--nichido-fire-insurance-with-new-generative-ai-capabilities-for-fraud-detection-and-claims-processing-optimization-initiatives-302541742.html",
+   "raw_sector": "",
+   "date": "2025-09-02",
+   "fresh": "fresh"
+  },
   {
    "company": "Tokio Marine Holdings, Inc.",
    "use": "\"One-AI for Tokio Marine\" company-wide generative AI (ChatGPT, from 2023); OpenAI strategic partnership (ChatGPT Enterprise/GPT-5, 2025)",
@@ -73,6 +99,83 @@
    "raw_sector": "Insurance",
    "date": "2025-04",
    "fresh": "fresh"
+  },
+  {
+   "company": "Tokio Marine Holdings, Inc.",
+   "use": "Strategic collaboration with OpenAI to embed generative AI (ChatGPT Enterprise, GPT-5) across contracts, inquiries and document processing, with AI agents for high-value customer experiences. First step: ChatGPT Deep Research automatically collects local demographics for Tokio Marine & Nichido Fire sales strategy formulation. [OpenAI (ChatGPT Enterprise, GPT-5)]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.tokiomarinehd.com/en/newsroom/release/ikr22500000008w0-att/20250925_OpenAI_e.pdf",
+   "raw_sector": "",
+   "date": "2025-09-25",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Tokio Marine Holdings, Inc.",
+   "use": "Tractable computer-vision AI (Loss Adjuster Application) analyzes vehicle damage photos to recommend repair methods, paint operations and labor hours in auto claims - the first major Japanese insurer to deploy AI auto damage assessment into the claims process. Deployed at a claim service center from April 2020. [Tractable]",
+   "existence": "confirmed",
+   "value": "Claims processing cut from 2-3 weeks toward minutes",
+   "tier": "",
+   "url": "https://www.insurancejournal.com/news/international/2020/05/11/568090.htm",
+   "raw_sector": "",
+   "date": "2020-05-11",
+   "fresh": "stale"
+  },
+  {
+   "company": "Tokio Marine Holdings, Inc.",
+   "use": "Uses ICEYE synthetic aperture radar (SAR) satellite imagery plus AI analysis to rapidly assess natural-disaster damage extent (e.g., flood depth, building damage) and accelerate insurance payouts; used on real events including the 2021 Atami landslide. [ICEYE]",
+   "existence": "confirmed",
+   "value": "Damage assessed within a few days vs. traditional ~two weeks",
+   "tier": "",
+   "url": "https://www.tokiomarinehd.com/en/news_insights/ni30.html",
+   "raw_sector": "",
+   "date": "2025-01-14",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Tokio Marine Holdings, Inc.",
+   "use": "Tokio Marine partnered with Voxel to pilot computer-vision AI that uses existing security cameras to detect real-time workplace safety hazards and prevent injuries before they happen; piloted inside a Michaels distribution center in California (loss-prevention / risk mitigation for policyholders). [Voxel]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.youtube.com/watch?v=0xu9xxiUq8I",
+   "raw_sector": "",
+   "date": "2025-12-01",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Tokio Marine Holdings, Inc.",
+   "use": "Tokio Marine Kiln, with Convex and broker McGill and Partners, launched an AI-powered trade disruption insurance facility that uses AI to model and cover supply-chain / trade disruption risks. [Tokio Marine Kiln / Convex / McGill and Partners]",
+   "existence": "confirmed",
+   "value": "Facility limits of $95M",
+   "tier": "",
+   "url": "https://mcgillpartners.com/insights/mcgill-and-partners-tokio-marine-kiln-and-convex-launch-groundbreaking-ai-powered-trade-disruption-facility",
+   "raw_sector": "",
+   "date": "2024-11-25",
+   "fresh": "aging"
+  },
+  {
+   "company": "Tokio Marine Holdings, Inc.",
+   "use": "Strategic partnership with Salesforce Japan to build AI-enabled contact centers using Agentforce autonomous AI agents (seamless enrollment to after-sales service) and combine customer data platforms with AI to recommend tailored insurance solutions; redesign of sales branch, agency and contact-center processes. [Salesforce (Agentforce)]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.tokiomarinehd.com/en/newsroom/release/o1ckc9000001ymth-att/20250808_Salesforce_e.pdf",
+   "raw_sector": "",
+   "date": "2025-08-08",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Tokio Marine Holdings, Inc.",
+   "use": "Tokio Marine Indonesia (PT Asuransi Tokio Marine Indonesia) deployed WIZ.AI conversational voice AI 'Talkbot' to automate customer-service calls, handling initial interactions and routing complex cases to human agents. [WIZ.AI]",
+   "existence": "confirmed",
+   "value": "Over 95% of callers unable to distinguish the AI from a human agent",
+   "tier": "",
+   "url": "https://www.tokiomarine.com/id/en/non-life/about-us/general-insurance/media-centre/tokiomarine-bermitra-dengan-wiz-ai.html",
+   "raw_sector": "",
+   "date": "2021-11-18",
+   "fresh": "stale"
   }
  ]
 }

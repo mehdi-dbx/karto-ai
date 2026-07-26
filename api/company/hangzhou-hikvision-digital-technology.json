@@ -3,47 +3,70 @@
  "name": "Hangzhou Hikvision Digital Technology",
  "cc": "CN",
  "vertical": "Technology",
- "deployments": 1,
- "confirmed": 1,
- "with_value_number": 0,
- "proof_rate": 0.0,
+ "deployments": 11,
+ "confirmed": 11,
+ "with_value_number": 4,
+ "proof_rate": 0.364,
  "mktcap": 45531944444.0,
  "revenue": 13151388889.0,
  "employees": 57202.0,
  "silent": false,
- "per_bn_revenue": 0.08,
- "per_10k_emp": 0.17,
+ "per_bn_revenue": 0.84,
+ "per_10k_emp": 1.92,
  "benchmarks": {
   "global_vertical": {
-   "deployments": 0,
-   "confirmed": 6,
-   "proof_rate": 0,
-   "n": 156
+   "deployments": 67,
+   "confirmed": 82,
+   "proof_rate": 77,
+   "n": 159
   },
   "country_vertical": {
-   "deployments": 0,
-   "confirmed": 0,
-   "proof_rate": 0,
+   "deployments": 83,
+   "confirmed": 83,
+   "proof_rate": 75,
    "n": 13
   }
  },
- "first_seen": 2025,
+ "first_seen": 2020,
  "by_year": [
   {
+   "year": 2020,
+   "n": 1
+  },
+  {
+   "year": 2021,
+   "n": 1
+  },
+  {
+   "year": 2022,
+   "n": 1
+  },
+  {
+   "year": 2023,
+   "n": 1
+  },
+  {
    "year": 2025,
+   "n": 6
+  },
+  {
+   "year": 2026,
    "n": 1
   }
  ],
  "undated_pct": 0,
  "momentum": "early_mover,rising",
- "maturity": "L3",
+ "maturity": "L4",
  "maturity_evidence": [
+  "multi_horizontal",
   "named_product:Guanlan",
+  "value_number",
+  "multi_year",
   "tier_p"
  ],
- "prospect_score": 54,
+ "prospect_score": 85,
  "stack": [],
- "vendor_named": false,
+ "vendor_named": true,
  "deployments_detail": [
   {
    "company": "Hangzhou Hikvision Digital Technology",
@@ -54,6 +77,116 @@
    "url": "https://ai.hikvision.com",
    "raw_sector": "Information Technology",
    "date": "2025-04",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Hangzhou Hikvision Digital Technology",
+   "use": "Guanlan Large-Scale AI Models: Hikvision's proprietary suite of large multimodal/vision AI models pre-trained on deep industry knowledge, embedded at the edge to power AIoT products for perception, inference and natural-language analysis of image, video, voice and environmental data. [Hikvision (proprietary Guanlan models)]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.hikvision.com/en/newsroom/latest-news/2025/hikvision-unveils-guanlan-large-scale-ai-models-to-power-next-gen-aiot-products-and-applications/",
+   "raw_sector": "",
+   "date": "2025-04-29",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Hangzhou Hikvision Digital Technology",
+   "use": "AcuSeek NVR: network video recorder built on a large multimodal AI model that lets users search recorded footage for specific people or objects using natural-language text/voice queries (open-vocabulary object detection), returning results within seconds. [Hikvision (Guanlan multimodal model)]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.hikvision.com/en/newsroom/latest-news/2025/hikvision-launches-groundbreaking-acuseek-nvr-redefining-video-retrieval-with-large-multimodal-ai-models/",
+   "raw_sector": "",
+   "date": "2025-06-09",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Hangzhou Hikvision Digital Technology",
+   "use": "DeepinViewX cameras: network cameras equipped with Guanlan large vision models for advanced video content analysis, vehicle feature recognition, PPE-violation and smoking detection, doubling VCA range and cutting perimeter false alarms. [Hikvision (Guanlan vision models)]",
+   "existence": "confirmed",
+   "value": "perimeter false alarms cut by over 90%; double VCA range; repeated alarms halved",
+   "tier": "",
+   "url": "https://www.prnewswire.com/in/news-releases/hikvision-unveils-guanlan-large-scale-ai-models-to-power-next-gen-aiot-products-and-applications-302441128.html",
+   "raw_sector": "",
+   "date": "2025-04-29",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Hangzhou Hikvision Digital Technology",
+   "use": "AcuSense technology: deep-learning algorithms embedded in select security cameras and video recorders to automatically classify and detect humans and vehicles, reducing false alarms and improving perimeter monitoring efficiency. [Hikvision (proprietary deep learning)]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.hikvision.com/us-en/core-technologies/ai-analytics/acusense/",
+   "raw_sector": "",
+   "date": "2020-12-08",
+   "fresh": "stale"
+  },
+  {
+   "company": "Hangzhou Hikvision Digital Technology",
+   "use": "ANPR (Automatic Number Plate Recognition): DeepinView-series LPR cameras use deep-learning algorithms to automatically read and recognize vehicle license plates across 120+ regions for traffic, parking and access control. [Hikvision (proprietary deep learning)]",
+   "existence": "confirmed",
+   "value": "recognition accuracy >= 98%",
+   "tier": "",
+   "url": "https://www.hikvision.com/en/core-technologies/see-smarter-technology/anpr-automatic-number-plate-recognition/",
+   "raw_sector": "",
+   "date": "2022-02-11",
+   "fresh": "stale"
+  },
+  {
+   "company": "Hangzhou Hikvision Digital Technology",
+   "use": "Smart-city surveillance deployment in Shanghe County, Shandong Province, China: ~1,900 Hikvision cameras with integrated facial recognition connected to the regional 'Sharp Eyes' platform under a 12-year public-private partnership. [Hikvision (facial recognition)]",
+   "existence": "confirmed",
+   "value": "~1,900 cameras; contract estimated at $33 million",
+   "tier": "",
+   "url": "https://www.biometricupdate.com/202102/hikvision-to-deploy-1900-cameras-with-face-biometrics-for-33m-smart-city-contract",
+   "raw_sector": "",
+   "date": "2021-02-02",
+   "fresh": "stale"
+  },
+  {
+   "company": "Hangzhou Hikvision Digital Technology",
+   "use": "WonderOS 4: operating system for Hikvision interactive education/collaboration displays that embeds Wonder AI tools (AI Identify, AI Notes, omi) with cloud-integrated architecture to assist teaching and meetings in smart classrooms. [Hikvision (Wonder AI)]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.hikvision.com/en/newsroom/latest-news/2025/hikvision-debuts-wonderos-4--empowering-smart-education-through-/",
+   "raw_sector": "",
+   "date": "2025-11-20",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Hangzhou Hikvision Digital Technology",
+   "use": "Neural Labs vehicle-analytics AI (Neural Edge) embedded in-camera on Hikvision DeepinView-Series 7-Line cameras to deliver advanced vehicle analytics for road safety and traffic efficiency. [Neural Labs (on Hikvision DeepinView cameras)]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.hikvision.com/en/newsroom/latest-news/2026/hikvision-and-neural-labs-join-forces-to-use-ai-to-improve-road-0/",
+   "raw_sector": "",
+   "date": "2026-03-20",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Hangzhou Hikvision Digital Technology",
+   "use": "Hikrobot machine-vision systems: deep-learning visual inspection deployed in electronics and semiconductor manufacturing to detect surface defects (scratches, damage, spots, missing/overlapping printed characters) at ~100ms inspection speed for quality control. [Hikrobot (Hikvision subsidiary)]",
+   "existence": "confirmed",
+   "value": "inspection speed of 100ms",
+   "tier": "",
+   "url": "https://www.hikrobotics.com/en/news/newsdetail/?id=33",
+   "raw_sector": "",
+   "date": "2023-07-13",
+   "fresh": "stale"
+  },
+  {
+   "company": "Hangzhou Hikvision Digital Technology",
+   "use": "HikCentral Lite v1.1.1 video management software enhanced with the AI-powered AcuSeek platform, adding AI-driven natural-language video search and unified management (video, access control, alarms) for facilities of any size. [Hikvision (AcuSeek / Guanlan)]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.asadria.com/en/hikvision-enhances-hikcentral-lite-v1-1-1-with-ai-powered-acuseek-platform/",
+   "raw_sector": "",
+   "date": "2025-08-16",
    "fresh": "fresh"
   }
  ]

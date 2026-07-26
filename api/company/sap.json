@@ -3,40 +3,117 @@
  "name": "SAP",
  "cc": "DE",
  "vertical": "Technology",
- "deployments": 1,
- "confirmed": 1,
- "with_value_number": 0,
- "proof_rate": 0.0,
+ "deployments": 14,
+ "confirmed": 11,
+ "with_value_number": 9,
+ "proof_rate": 0.643,
  "mktcap": 175950000000.0,
  "revenue": 43060000000.0,
  "employees": 111397.0,
  "silent": false,
- "per_bn_revenue": 0.02,
- "per_10k_emp": 0.09,
+ "per_bn_revenue": 0.33,
+ "per_10k_emp": 1.26,
  "benchmarks": {
   "global_vertical": {
-   "deployments": 0,
-   "confirmed": 6,
-   "proof_rate": 0,
-   "n": 156
+   "deployments": 88,
+   "confirmed": 82,
+   "proof_rate": 94,
+   "n": 159
   }
  },
- "first_seen": null,
- "by_year": [],
- "undated_pct": 100,
- "momentum": "none",
- "maturity": "L3",
+ "first_seen": 2024,
+ "by_year": [
+  {
+   "year": 2024,
+   "n": 1
+  },
+  {
+   "year": 2025,
+   "n": 9
+  },
+  {
+   "year": 2026,
+   "n": 3
+  }
+ ],
+ "undated_pct": 7,
+ "momentum": "early_mover,rising",
+ "maturity": "L4",
  "maturity_evidence": [
+  "multi_horizontal",
   "named_product:Joule",
+  "value_number",
+  "multi_year",
   "tier_p"
  ],
- "prospect_score": 46,
+ "prospect_score": 74,
  "stack": [
+  "Anthropic",
+  "Google",
   "Microsoft",
-  "SAP"
+  "Microsoft Azure",
+  "NVIDIA",
+  "OpenAI",
+  "SAP",
+  "Salesforce"
  ],
  "vendor_named": true,
  "deployments_detail": [
+  {
+   "company": "SAP",
+   "use": "Joule, SAP's generative-AI copilot, embedded across 35 SAP solutions (S/4HANA, SuccessFactors, Ariba, CX) with 30+ specialized agents and 2,500+ Joule Skills in production for enterprise business tasks [SAP (Joule); multi-model incl. OpenAI GPT-5.2, Gemini 3.0 Pro, Anthropic Claude Opus 4.6]",
+   "existence": "confirmed",
+   "value": "live across 35 solutions, 30+ agents, 2,500+ skills",
+   "tier": "",
+   "url": "https://news.sap.com/2026/04/sap-business-ai-release-highlights-q1-2026/",
+   "raw_sector": "",
+   "date": "2026-04-14",
+   "fresh": "fresh"
+  },
+  {
+   "company": "SAP",
+   "use": "AMD GenAI Supply Chain Troubleshooter built on SAP BTP to diagnose and resolve supply chain issues [SAP Business Technology Platform (generative AI)]",
+   "existence": "confirmed",
+   "value": "90% reduction in issue resolution time/cost; ~3,120 staff hours saved annually",
+   "tier": "",
+   "url": "https://www.sap.com/resources/sap-business-ai-customers-in-action",
+   "raw_sector": "",
+   "date": "2025-05-15",
+   "fresh": "fresh"
+  },
+  {
+   "company": "SAP",
+   "use": "Coca-Cola Europacific Partners demand forecasting using SAP Integrated Business Planning (IBP) AI/ML [SAP IBP (machine learning)]",
+   "existence": "confirmed",
+   "value": "6% increase in forecast accuracy",
+   "tier": "",
+   "url": "https://www.sap.com/resources/sap-business-ai-customers-in-action",
+   "raw_sector": "",
+   "date": "2025-05-15",
+   "fresh": "fresh"
+  },
+  {
+   "company": "SAP",
+   "use": "'OpenAI for Germany' — sovereign AI for the German public sector delivered on SAP's Delos Cloud subsidiary using OpenAI models on Microsoft Azure infrastructure [OpenAI + SAP (Delos Cloud) + Microsoft Azure]",
+   "existence": "claimed",
+   "value": "none (planned launch 2026)",
+   "tier": "",
+   "url": "https://news.sap.com/2025/09/sap-openai-partner-launch-sovereign-openai-germany/",
+   "raw_sector": "",
+   "date": "2025-09-24",
+   "fresh": "fresh"
+  },
+  {
+   "company": "SAP",
+   "use": "SAP + Anthropic collaboration to embed Claude as a primary reasoning/agentic model across SAP Business AI Platform powering Joule agents (via MCP); Claude Opus 4.6 also made available as a selectable LLM in Q1 2026 [Anthropic Claude]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://news.sap.com/2026/05/sap-anthropic-to-bring-claude-sap-business-ai-platform/",
+   "raw_sector": "",
+   "date": "2026-05-12",
+   "fresh": "fresh"
+  },
   {
    "company": "SAP",
    "use": "Generative AI (\"Joule\" copilot) embedded across SAP business software and S/4HANA to optimize enterprise processes",
@@ -47,6 +124,94 @@
    "raw_sector": "Technology",
    "date": "missing",
    "fresh": "undated"
+  },
+  {
+   "company": "SAP",
+   "use": "Joule for Developers ABAP AI capabilities — generative code completion, ABAP business object generation, code explanation and unit-test creation in ABAP Development Tools / SAP Build Code; expanded to S/4HANA Private Cloud 2025 [SAP Joule]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://community.sap.com/t5/technology-blog-posts-by-sap/sap-joule-for-developers-expands-to-private-cloud-accelerating-abap/ba-p/14237958",
+   "raw_sector": "",
+   "date": "2025-10-08",
+   "fresh": "fresh"
+  },
+  {
+   "company": "SAP",
+   "use": "SAP Concur support portal generative-answering search reducing support case submissions and searches for customers [Coveo Relevance Generative Answering (on Salesforce Service Cloud/Knowledge)]",
+   "existence": "confirmed",
+   "value": "30% decline in case submissions; 91% fewer searches before finding answers",
+   "tier": "",
+   "url": "https://www.coveo.com/blog/sap-concur-generative-ai/",
+   "raw_sector": "",
+   "date": "2024-10-10",
+   "fresh": "aging"
+  },
+  {
+   "company": "SAP",
+   "use": "SAP Document AI / Document Information Extraction — ML-based automated extraction of structured fields (invoice number, date, supplier) from PDFs and images to automate document workflows [SAP Business AI (Document AI)]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://developers.sap.com/tutorials/cp-aibus-dox-ui..html",
+   "raw_sector": "",
+   "date": "2025-07-28",
+   "fresh": "fresh"
+  },
+  {
+   "company": "SAP",
+   "use": "SAP Ariba Category Management generative-AI-assisted category strategy — auto-generating sourcing strategies, playbooks and content recommendations for procurement category managers [SAP Business AI (generative AI in Ariba)]",
+   "existence": "confirmed",
+   "value": "up to 90% category management efficiency improvement",
+   "tier": "",
+   "url": "https://www.sap.com/use-cases/improve-category-managemenet-efficiency-by-90-percent",
+   "raw_sector": "",
+   "date": "2025-10-13",
+   "fresh": "fresh"
+  },
+  {
+   "company": "SAP",
+   "use": "Generative AI in SAP SuccessFactors Recruiting — creating job descriptions, interview questions, resume screening and candidate scoring; used by Mahindra & Mahindra, Darussalam Assets, Delta Air Lines, FC Bayern [SAP Business AI / Joule in SuccessFactors]",
+   "existence": "confirmed",
+   "value": "Darussalam Assets: 75% reduction in recruitment time",
+   "tier": "",
+   "url": "https://www.sap.com/resources/sap-business-ai-customers-in-action",
+   "raw_sector": "",
+   "date": "2025-05-15",
+   "fresh": "fresh"
+  },
+  {
+   "company": "SAP",
+   "use": "De Agostini Publishing automated invoice processing using SAP BTP AI Business Services [SAP BTP AI Business Services]",
+   "existence": "confirmed",
+   "value": "91% of PO-based invoices and 80% of non-PO invoices automated; 680+ hours saved monthly",
+   "tier": "",
+   "url": "https://www.sap.com/resources/sap-business-ai-customers-in-action",
+   "raw_sector": "",
+   "date": "2025-05-15",
+   "fresh": "fresh"
+  },
+  {
+   "company": "SAP",
+   "use": "Salling Group AI-powered marketing personalization/automation with SAP Emarsys Customer Engagement [SAP Emarsys (AI)]",
+   "existence": "confirmed",
+   "value": "25% revenue increase in five weeks",
+   "tier": "",
+   "url": "https://www.sap.com/resources/sap-business-ai-customers-in-action",
+   "raw_sector": "",
+   "date": "2025-05-15",
+   "fresh": "fresh"
+  },
+  {
+   "company": "SAP",
+   "use": "SAP + NVIDIA embedding NVIDIA OpenShell secure runtime (isolated execution, policy enforcement, containment) into SAP Business AI Platform for trusted enterprise AI-agent execution and governance [NVIDIA (OpenShell runtime)]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://news.sap.com/2026/05/secure-ai-agents-how-sap-and-nvidia-co-define-enterprise-grade-agent-execution/",
+   "raw_sector": "",
+   "date": "2026-05-12",
+   "fresh": "fresh"
   }
  ]
 }

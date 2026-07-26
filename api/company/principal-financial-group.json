@@ -3,42 +3,95 @@
  "name": "Principal Financial Group",
  "cc": "US",
  "vertical": "Financial Services",
- "deployments": 1,
- "confirmed": 0,
- "with_value_number": 0,
- "proof_rate": 0.0,
+ "deployments": 10,
+ "confirmed": 9,
+ "with_value_number": 5,
+ "proof_rate": 0.5,
  "mktcap": 23060000000.0,
  "revenue": 15460000000.0,
  "employees": 19700.0,
  "silent": false,
- "per_bn_revenue": 0.06,
- "per_10k_emp": 0.51,
+ "per_bn_revenue": 0.65,
+ "per_10k_emp": 5.08,
  "benchmarks": {
   "global_vertical": {
-   "deployments": 0,
-   "confirmed": 0,
-   "proof_rate": 0,
-   "n": 377
+   "deployments": 65,
+   "confirmed": 73,
+   "proof_rate": 78,
+   "n": 388
   },
   "country_vertical": {
-   "deployments": 0,
-   "confirmed": 0,
-   "proof_rate": 0,
-   "n": 76
+   "deployments": 62,
+   "confirmed": 68,
+   "proof_rate": 84,
+   "n": 77
   }
  },
- "first_seen": null,
- "by_year": [],
- "undated_pct": 100,
- "momentum": "none",
- "maturity": "L1",
- "maturity_evidence": [
-  "rows_no_confirmed"
+ "first_seen": 2023,
+ "by_year": [
+  {
+   "year": 2023,
+   "n": 1
+  },
+  {
+   "year": 2024,
+   "n": 2
+  },
+  {
+   "year": 2025,
+   "n": 6
+  }
  ],
- "prospect_score": 40,
- "stack": [],
- "vendor_named": false,
+ "undated_pct": 10,
+ "momentum": "early_mover,rising",
+ "maturity": "L4",
+ "maturity_evidence": [
+  "multi_horizontal",
+  "named_product:Principal",
+  "value_number",
+  "multi_year"
+ ],
+ "prospect_score": 74,
+ "stack": [
+  "Amazon AWS",
+  "Anthropic",
+  "OpenAI"
+ ],
+ "vendor_named": true,
  "deployments_detail": [
+  {
+   "company": "Principal Financial Group",
+   "use": "Principal AI Generative Experience: an enterprise generative-AI knowledge assistant built on QnABot on AWS + Amazon Q Business + Amazon Bedrock (with Anthropic Claude for summarization). Helps employees answer client inquiries over 8,000+ indexed SharePoint pages and draft RFP responses. [AWS (Amazon Q Business, Amazon Bedrock, QnABot), Anthropic Claude]",
+   "existence": "confirmed",
+   "value": "~50% reduction in time responding to client inquiries; >95% of queries received accepted answers; 4% negative feedback; scaled from 10 pilot users to 300+ users",
+   "tier": "",
+   "url": "https://aws.amazon.com/blogs/machine-learning/principal-financial-group-uses-qnabot-on-aws-and-amazon-q-business-to-enhance-workforce-productivity-with-generative-ai/",
+   "raw_sector": "",
+   "date": "2024-11-15",
+   "fresh": "aging"
+  },
+  {
+   "company": "Principal Financial Group",
+   "use": "Post-Call Analytics (PCA) solution to transcribe and analyze contact-center voice calls, extracting call drivers, topics, sentiment, and average handle time; enhanced with generative AI via Amazon Bedrock and Genesys CTR integration. [AWS (Transcribe Call Analytics, Amazon Bedrock, Step Functions, QuickSight), Genesys]",
+   "existence": "confirmed",
+   "value": "Over 1 million customer calls processed; 63 million+ speech segments generated; deployed in ~3 months",
+   "tier": "",
+   "url": "https://aws.amazon.com/blogs/machine-learning/principal-financial-group-uses-aws-post-call-analytics-solution-to-extract-omnichannel-customer-insights/",
+   "raw_sector": "",
+   "date": "2023-11-15",
+   "fresh": "stale"
+  },
+  {
+   "company": "Principal Financial Group",
+   "use": "Voice Virtual Assistant (VA) using an Amazon Lex bot to recognize customer intents through natural language, perform self-service transactions, and intelligently route calls; reporting/analytics built with QuickSight and Genesys Cloud. [AWS (Amazon Lex V2, QuickSight), Genesys Cloud]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://aws.amazon.com/blogs/machine-learning/principal-financial-group-increases-voice-virtual-assistant-performance-using-genesys-amazon-lex-and-amazon-quicksight/",
+   "raw_sector": "",
+   "date": "2025-05-23",
+   "fresh": "fresh"
+  },
   {
    "company": "Principal Financial Group",
    "use": "AI bot automation (CI/CD, deployment weeks->hours) + GenAI; CDAO four-pillar AI strategy — 3rd-party/exec sourced",
@@ -49,6 +102,72 @@
    "raw_sector": "Financials",
    "date": "missing",
    "fresh": "undated"
+  },
+  {
+   "company": "Principal Financial Group",
+   "use": "Enterprise ChatGPT made available to employees for general generative-AI productivity as part of an enterprise-wide AI adoption program. [OpenAI (ChatGPT Enterprise)]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://fortune.com/2025/11/21/principal-financial-upskilling-ai-literacy/",
+   "raw_sector": "",
+   "date": "2025-11-21",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Principal Financial Group",
+   "use": "Internal generative-AI assistant used by employees for summarization and drafting emails; part of broad workforce rollout with an AI-literacy program and 700 AI 'ambassadors'. [none]",
+   "existence": "confirmed",
+   "value": "Grew from 800 active users (early 2025) to 14,000 with access; 8,000+ using regularly",
+   "tier": "",
+   "url": "https://fortune.com/2025/11/21/principal-financial-upskilling-ai-literacy/",
+   "raw_sector": "",
+   "date": "2025-11-21",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Principal Financial Group",
+   "use": "AI agent deployed to answer employee HR questions. [none]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://fortune.com/2025/11/21/principal-financial-upskilling-ai-literacy/",
+   "raw_sector": "",
+   "date": "2025-11-21",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Principal Financial Group",
+   "use": "Enterprise-wide RAG knowledge assistant for a 300+ person operations team processing customer cases over 9,000+ pages of work instructions, using QnABot, Amazon Q Business, and Anthropic Claude on Amazon Bedrock for summarization. [AWS (Amazon Q Business, Amazon Bedrock), Anthropic Claude]",
+   "existence": "confirmed",
+   "value": "84% document-retrieval accuracy (up from 67%); 97% of queries positive feedback; 50% reduction in some workloads; ~800 users, 600 active in 90 days",
+   "tier": "",
+   "url": "https://www.zenml.io/llmops-database/enterprise-wide-rag-implementation-with-amazon-q-business",
+   "raw_sector": "",
+   "date": "2024-11-15",
+   "fresh": "aging"
+  },
+  {
+   "company": "Principal Financial Group",
+   "use": "Automated CI/CD pipeline to build, test, and deploy Amazon Lex V2 conversational bots using GitHub, AWS Step Functions, Lambda, and Lex Test Workbench APIs (Infrastructure/Configuration as Code). [AWS (Amazon Lex V2, Step Functions, Lambda), GitHub]",
+   "existence": "confirmed",
+   "value": "Accelerated development efforts by 50% across all environments (as of September 2024)",
+   "tier": "",
+   "url": "https://aws.amazon.com/blogs/machine-learning/principal-financial-group-accelerates-build-test-and-deployment-of-amazon-lex-v2-bots-through-automation/",
+   "raw_sector": "",
+   "date": "2025-10-17",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Principal Financial Group",
+   "use": "AI coding assistant tools used by Principal's IT/software development department to accelerate code development. [none]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://fortune.com/2025/11/21/principal-financial-upskilling-ai-literacy/",
+   "raw_sector": "",
+   "date": "2025-11-21",
+   "fresh": "fresh"
   }
  ]
 }

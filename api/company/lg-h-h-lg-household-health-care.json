@@ -1,0 +1,152 @@
+{
+ "slug": "lg-h-h-lg-household-health-care",
+ "name": "LG H&H (LG Household & Health Care)",
+ "cc": "KR",
+ "vertical": "Retail & E-commerce",
+ "deployments": 9,
+ "confirmed": 6,
+ "with_value_number": 5,
+ "proof_rate": 0.556,
+ "mktcap": null,
+ "revenue": null,
+ "employees": null,
+ "silent": false,
+ "per_bn_revenue": null,
+ "per_10k_emp": null,
+ "benchmarks": {
+  "global_vertical": {
+   "deployments": 64,
+   "confirmed": 63,
+   "proof_rate": 87,
+   "n": 301
+  },
+  "country_vertical": {
+   "deployments": 77,
+   "confirmed": 77,
+   "proof_rate": 91,
+   "n": 23
+  }
+ },
+ "first_seen": 2025,
+ "by_year": [
+  {
+   "year": 2025,
+   "n": 9
+  }
+ ],
+ "undated_pct": 0,
+ "momentum": "rising",
+ "maturity": "L3",
+ "maturity_evidence": [
+  "multi_horizontal",
+  "named_product:Research",
+  "value_number"
+ ],
+ "prospect_score": 54,
+ "stack": [
+  "Amazon AWS",
+  "OpenAI"
+ ],
+ "vendor_named": true,
+ "deployments_detail": [
+  {
+   "company": "LG H&H (LG Household & Health Care)",
+   "use": "AI Contact Center (AICC): intelligent customer-response service that transcribes voice consultations to text, summarizes calls and analyzes customer sentiment to raise consultation quality. Originally built with LG AI Research's EXAONE. [LG AI Research (EXAONE)]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.newspost.kr/news/articleView.html?idxno=212779",
+   "raw_sector": "",
+   "date": "2025-04-05",
+   "fresh": "fresh"
+  },
+  {
+   "company": "LG H&H (LG Household & Health Care)",
+   "use": "Enterprise generative-AI upskilling and work-automation program (with Elice LXP): employees built GPT-based chatbots for information extraction/report generation, data-analysis automation, and Google Apps Script email/document automation; role-based tracks for marketing (SNS content/hashtags), data analysis and planning. Marketing job-role training reached ~110 employees. [Elice; OpenAI (GPT)]",
+   "existence": "confirmed",
+   "value": "~110 marketing employees trained",
+   "tier": "",
+   "url": "https://elice.io/ko/resources/case-study/lghnh-ai-training-case",
+   "raw_sector": "",
+   "date": "2025-03-30",
+   "fresh": "fresh"
+  },
+  {
+   "company": "LG H&H (LG Household & Health Care)",
+   "use": "AI-driven cosmetic active-ingredient discovery: LG H&H, with LG AI Research, uses the EXAONE Discovery materials-discovery model to analyze molecular structures, predict properties and design high-efficacy cosmetic ingredients (e.g., improved solubility/safety), collapsing multi-year research cycles. Applied first to premium brand The Whoo / Skin Longevity ingredients. [LG AI Research (EXAONE Discovery)]",
+   "existence": "confirmed",
+   "value": "Research period cut from ~1 year 10 months to ~1 day (per Korean press headlines)",
+   "tier": "",
+   "url": "https://www.lghnh.com/m/news/press/view.jsp?seq=4030&title=",
+   "raw_sector": "",
+   "date": "2025-02-16",
+   "fresh": "fresh"
+  },
+  {
+   "company": "LG H&H (LG Household & Health Care)",
+   "use": "Hyper Rejuvenating Eye Patch, a wearable beauty device using AI-driven personalized skin analysis: a multi-modal model analyzes facial images, segments the eye area into micro-zones and evaluates aging indicators (fine lines, wrinkles, dark circles) against a 60,000-person skin database to personalize periocular care. Won a CES 2026 Innovation Award. [none]",
+   "existence": "claimed",
+   "value": "Draws on 60,000-person skin database",
+   "tier": "",
+   "url": "https://www.lghnh.com/m/news/press/view.jsp?seq=4133&title=",
+   "raw_sector": "",
+   "date": "2025-11-18",
+   "fresh": "fresh"
+  },
+  {
+   "company": "LG H&H (LG Household & Health Care)",
+   "use": "IMPRINTU mini tattoo/body-art printer uses generative AI to create body-art design options for users, generating a large catalog of AI designs users select from. [none]",
+   "existence": "confirmed",
+   "value": "~10,000 AI-generated designs; 100,000+ cumulative user selections",
+   "tier": "",
+   "url": "https://www.newspost.kr/news/articleView.html?idxno=212779",
+   "raw_sector": "",
+   "date": "2025-04-05",
+   "fresh": "fresh"
+  },
+  {
+   "company": "LG H&H (LG Household & Health Care)",
+   "use": "Visual AI for 'true personalization' skin research: LG H&H analyzed ~16,000 subjects with visual AI to reveal how different facial regions age at different rates and to surface inherent and health-related aging biomarkers, feeding personalized skincare recommendations. [none]",
+   "existence": "claimed",
+   "value": "~16,000 subjects analyzed",
+   "tier": "",
+   "url": "https://www.cosmeticsandtoiletries.com/research/literature-data/news/22954400/how-lg-hh-will-achieve-true-personalization-visual-ai-to-reveal-inherent-and-healthrelated-aging-and-biomarkers",
+   "raw_sector": "",
+   "date": "2025-11-07",
+   "fresh": "fresh"
+  },
+  {
+   "company": "LG H&H (LG Household & Health Care)",
+   "use": "Generative-AI skin diagnosis solution: customer photographs their face, AI detects/segments the skin region and classifies it into one of 16 skin types, then recommends products. Built on AWS (Amazon Rekognition for face/skin detection + Amazon Bedrock foundation models), demonstrated at AWS Summit Seoul 2025. [AWS (Amazon Bedrock, Amazon Rekognition)]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.lghnh.com/m/news/press/view.jsp?seq=4067&title=",
+   "raw_sector": "",
+   "date": "2025-05-15",
+   "fresh": "fresh"
+  },
+  {
+   "company": "LG H&H (LG Household & Health Care)",
+   "use": "100% generative-AI TV/video advertisement for the laundry-detergent brand FiJi, recreating brand-model table-tennis player Shin Yubin entirely with generative AI (no live shoot) in a spot where she 'competes' against Moraxella odor bacteria. [none]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.redian.org/news/articleView.html?idxno=253370",
+   "raw_sector": "",
+   "date": "2025-06-25",
+   "fresh": "fresh"
+  },
+  {
+   "company": "LG H&H (LG Household & Health Care)",
+   "use": "AI-assisted product/package design workflow using generative AI tools (Midjourney + Adobe Creative Suite); the fabric-deodorizer brand Framon design produced via this process won a 2024 Good Design Award. [Midjourney; Adobe]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.newspost.kr/news/articleView.html?idxno=212779",
+   "raw_sector": "",
+   "date": "2025-04-05",
+   "fresh": "fresh"
+  }
+ ]
+}

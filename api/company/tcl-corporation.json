@@ -3,47 +3,62 @@
  "name": "TCL Corporation",
  "cc": "CN",
  "vertical": "Manufacturing & Robotics",
- "deployments": 1,
- "confirmed": 1,
- "with_value_number": 1,
- "proof_rate": 1.0,
+ "deployments": 13,
+ "confirmed": 9,
+ "with_value_number": 5,
+ "proof_rate": 0.385,
  "mktcap": 14563888889.0,
  "revenue": 26051388889.0,
  "employees": 71419.0,
  "silent": false,
- "per_bn_revenue": 0.04,
- "per_10k_emp": 0.14,
+ "per_bn_revenue": 0.5,
+ "per_10k_emp": 1.82,
  "benchmarks": {
   "global_vertical": {
-   "deployments": 0,
-   "confirmed": 24,
-   "proof_rate": 85,
-   "n": 147
+   "deployments": 93,
+   "confirmed": 85,
+   "proof_rate": 81,
+   "n": 150
   },
   "country_vertical": {
-   "deployments": 0,
-   "confirmed": 45,
-   "proof_rate": 64,
+   "deployments": 100,
+   "confirmed": 82,
+   "proof_rate": 55,
    "n": 12
   }
  },
- "first_seen": 2025,
+ "first_seen": 2024,
  "by_year": [
   {
-   "year": 2025,
+   "year": 2024,
    "n": 1
+  },
+  {
+   "year": 2025,
+   "n": 6
+  },
+  {
+   "year": 2026,
+   "n": 6
   }
  ],
  "undated_pct": 0,
- "momentum": "rising",
- "maturity": "L3",
+ "momentum": "early_mover,rising",
+ "maturity": "L4",
  "maturity_evidence": [
   "named_product:Intelligence",
-  "value_number"
+  "value_number",
+  "multi_year"
  ],
- "prospect_score": 14,
- "stack": [],
- "vendor_named": false,
+ "prospect_score": 79,
+ "stack": [
+  "Google",
+  "Microsoft",
+  "Microsoft Azure",
+  "OpenAI",
+  "Palantir"
+ ],
+ "vendor_named": true,
  "deployments_detail": [
   {
    "company": "TCL Corporation",
@@ -54,6 +69,138 @@
    "url": "https://news.qq.com/rain/a/20250115A063UT00",
    "raw_sector": "Information Technology",
    "date": "2025-12",
+   "fresh": "fresh"
+  },
+  {
+   "company": "TCL Corporation",
+   "use": "AI-powered machine-vision visual inspection on TCL CSOT display fabrication lines, cutting the rate of missed defects by 85% [TCL CSOT (in-house)]",
+   "existence": "confirmed",
+   "value": "85% reduction in missed defects",
+   "tier": "",
+   "url": "https://techcrunch.com/sponsor/tcl/seeing-smarter-tcl-csot-brings-together-ai-driven-thinking-and-apex-pixel-innovation/",
+   "raw_sector": "",
+   "date": "2026-07-11",
+   "fresh": "fresh"
+  },
+  {
+   "company": "TCL Corporation",
+   "use": "X-Intelligence 3.0, TCL CSOT's domain-specific reasoning LLM for the semiconductor-display industry, used to accelerate product issue analysis and materials development [TCL CSOT (in-house model)]",
+   "existence": "confirmed",
+   "value": "20% improvement in product issue analysis efficiency; 30% boost in materials development efficiency",
+   "tier": "",
+   "url": "https://www.prnewswire.com/news-releases/tcl-csot-shapes-a-limitless-future-of-displays-at-ces-2026-302654980.html",
+   "raw_sector": "",
+   "date": "2026-01-07",
+   "fresh": "fresh"
+  },
+  {
+   "company": "TCL Corporation",
+   "use": "AI digital-twin simulation in TCL CSOT display R&D to reduce physical prototyping and shorten development cycles [TCL CSOT (in-house)]",
+   "existence": "confirmed",
+   "value": "R&D cycles shortened by up to two months",
+   "tier": "",
+   "url": "https://techcrunch.com/sponsor/tcl/seeing-smarter-tcl-csot-brings-together-ai-driven-thinking-and-apex-pixel-innovation/",
+   "raw_sector": "",
+   "date": "2026-07-11",
+   "fresh": "fresh"
+  },
+  {
+   "company": "TCL Corporation",
+   "use": "Auto Defect Classification (ADC) and Auto Defect Repair (ADR) end-to-end automation in CSOT display manufacturing [TCL CSOT (in-house)]",
+   "existence": "confirmed",
+   "value": "over US$7 million in annual revenue",
+   "tier": "",
+   "url": "https://techcrunch.com/sponsor/tcl/ai-for-real-how-tcl-is-pioneering-the-next-era-of-smarter-greener-displays/",
+   "raw_sector": "",
+   "date": "2025-12-15",
+   "fresh": "fresh"
+  },
+  {
+   "company": "TCL Corporation",
+   "use": "AI-driven lights-out air-conditioner smart factory in Guangzhou/Nansha: 2,000+ AI agents orchestrated by an on-site AI data center manage material flow, inspection and packaging; machine vision captures 100,000 images/day [TCL (in-house)]",
+   "existence": "confirmed",
+   "value": "41.7% efficiency boost on the heat-exchanger line; one AC unit every 7 seconds; 8 million units annual capacity",
+   "tier": "",
+   "url": "https://www.aicerts.ai/news/tcls-guangzhou-ai-plant-redefines-smart-manufacturing/",
+   "raw_sector": "",
+   "date": "2026-04-08",
+   "fresh": "fresh"
+  },
+  {
+   "company": "TCL Corporation",
+   "use": "Google Gemini AI assistant built into Google TV on TCL QM9K flagship TVs, enabling natural conversational voice interaction and settings control [Google (Gemini)]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.androidpolice.com/gemini-google-tv-tcl-launch/",
+   "raw_sector": "",
+   "date": "2025-09-22",
+   "fresh": "fresh"
+  },
+  {
+   "company": "TCL Corporation",
+   "use": "TCL AiPQ Engine, a self-developed AI picture-quality processor in shipping TCL TVs performing AI upscaling, AI Color, AI Contrast, AI Clarity and AI Motion enhancement [TCL (in-house AiPQ)]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.tcl.com/global/en/about-tcl/technology",
+   "raw_sector": "",
+   "date": "2024-05-13",
+   "fresh": "aging"
+  },
+  {
+   "company": "TCL Corporation",
+   "use": "AI-enabled washing machines using TCL's Fuxi language model to identify fabrics, detect stains and customize wash cycles [TCL (Fuxi language model)]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://techcrunch.com/sponsor/tcl/ai-for-real-how-tcl-is-pioneering-the-next-era-of-smarter-greener-displays/",
+   "raw_sector": "",
+   "date": "2025-12-15",
+   "fresh": "fresh"
+  },
+  {
+   "company": "TCL Corporation",
+   "use": "Integration of Microsoft Azure cloud, Copilot, Azure Speech and Azure OpenAI (Foundry Models) into TCL smart terminals; TCL Note A1 NXTPAPER ships Microsoft AI speech recognition, real-time translation and content generation [Microsoft (Azure, Copilot, Azure OpenAI/Foundry)]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.prnewswire.com/news-releases/ai-driven-future-innovation-experience--tcl-showcases-microsoft-ai-powered-smart-terminals-at-ces-2026-302656989.html",
+   "raw_sector": "",
+   "date": "2026-01-08",
+   "fresh": "fresh"
+  },
+  {
+   "company": "TCL Corporation",
+   "use": "RayNeo X3 Pro AR glasses providing on-device real-time translation and image recognition [TCL RayNeo (in-house)]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://techcrunch.com/sponsor/tcl/ai-for-real-how-tcl-is-pioneering-the-next-era-of-smarter-greener-displays/",
+   "raw_sector": "",
+   "date": "2025-12-15",
+   "fresh": "fresh"
+  },
+  {
+   "company": "TCL Corporation",
+   "use": "TCL AiMe modular AI companion robot with voice, expression and emotion recognition for personalized interaction, built on Eagle Lab's Turing Platform [TCL Eagle Lab (Turing Platform)]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.tcl.com/global/en/blog/google-assistant-artificial-intelligence",
+   "raw_sector": "",
+   "date": "2026-01-08",
+   "fresh": "fresh"
+  },
+  {
+   "company": "TCL Corporation",
+   "use": "Partnership embedding F-Secure's AI-powered cybersecurity and global threat intelligence into TCL broadband/connectivity products (routers, gateways) [F-Secure]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.tcl.com/global/en/news/tcl-and-f-secure-announce-strategic-partnership-to-set-a-new-standard-for-secure-and-seamless-connectivity",
+   "raw_sector": "",
+   "date": "2025-10-14",
    "fresh": "fresh"
   }
  ]

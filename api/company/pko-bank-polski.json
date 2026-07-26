@@ -3,43 +3,70 @@
  "name": "PKO Bank Polski",
  "cc": "PL",
  "vertical": "Financial Services",
- "deployments": 5,
- "confirmed": 5,
- "with_value_number": 1,
- "proof_rate": 0.2,
+ "deployments": 17,
+ "confirmed": 15,
+ "with_value_number": 10,
+ "proof_rate": 0.588,
  "mktcap": 33912500000.0,
  "revenue": 7292500000.0,
  "employees": 26326.0,
  "silent": false,
- "per_bn_revenue": 0.69,
- "per_10k_emp": 1.9,
+ "per_bn_revenue": 2.33,
+ "per_10k_emp": 6.46,
  "benchmarks": {
   "global_vertical": {
-   "deployments": 91,
-   "confirmed": 91,
-   "proof_rate": 56,
-   "n": 377
+   "deployments": 97,
+   "confirmed": 97,
+   "proof_rate": 88,
+   "n": 388
   },
   "country_vertical": {
    "deployments": 100,
    "confirmed": 100,
-   "proof_rate": 40,
+   "proof_rate": 100,
    "n": 6
   }
  },
- "first_seen": null,
- "by_year": [],
- "undated_pct": 100,
- "momentum": "none",
- "maturity": "L3",
+ "first_seen": 2016,
+ "by_year": [
+  {
+   "year": 2016,
+   "n": 1
+  },
+  {
+   "year": 2020,
+   "n": 1
+  },
+  {
+   "year": 2023,
+   "n": 1
+  },
+  {
+   "year": 2024,
+   "n": 2
+  },
+  {
+   "year": 2025,
+   "n": 7
+  }
+ ],
+ "undated_pct": 29,
+ "momentum": "early_mover,rising",
+ "maturity": "L4",
  "maturity_evidence": [
   "multi_horizontal",
   "named_product:IKO",
   "value_number",
+  "multi_year",
   "tier_p"
  ],
- "prospect_score": 62,
- "stack": [],
+ "prospect_score": 76,
+ "stack": [
+  "Google Cloud",
+  "Microsoft",
+  "Microsoft Azure",
+  "OpenAI"
+ ],
  "vendor_named": true,
  "deployments_detail": [
   {
@@ -52,6 +79,17 @@
    "raw_sector": "Banks",
    "date": "missing",
    "fresh": "undated"
+  },
+  {
+   "company": "PKO Bank Polski",
+   "use": "AI coding assistant for developers to write code, fix errors and generate test scenarios [none]",
+   "existence": "confirmed",
+   "value": "~1,400 programmers using it",
+   "tier": "",
+   "url": "https://www.pkobp.pl/media/aktualnosci/informacje-o-banku/tysiace-pracownikow-pko-banku-polskiego-korzysta-ze-sztucznej-inteligencji-technologie-w-banku-rozwija-centrum-kompetencji-ai",
+   "raw_sector": "",
+   "date": "2025-11-19",
+   "fresh": "fresh"
   },
   {
    "company": "PKO Bank Polski",
@@ -77,6 +115,39 @@
   },
   {
    "company": "PKO Bank Polski",
+   "use": "IKO mobile app AI voice assistant (voicebot) that lets customers do banking by voice/text commands, understanding 320+ conversation topics; in-house ML/NLP models [In-house (PKO ML/NLP models)]",
+   "existence": "confirmed",
+   "value": "1 million+ customers used it; 320+ conversation topics; 2.5M+ bot calls in 2023 (+70% y/y)",
+   "tier": "",
+   "url": "https://wbj.pl/pkos-ai-voice-assistant-services-1-million-clients/post/137746",
+   "raw_sector": "",
+   "date": "2023-03-27",
+   "fresh": "stale"
+  },
+  {
+   "company": "PKO Bank Polski",
+   "use": "PKO Leasing (group company) contact center automation: AI call summarization via Copilot, Azure AI voice bots, automated surveys and IVR self-service [Microsoft (Dynamics 365 Contact Center, Copilot, Azure Communication Services)]",
+   "existence": "confirmed",
+   "value": "550+ hours saved per month; serves 150,000 businesses; NPS +5, first-call resolution 71% to 74%",
+   "tier": "",
+   "url": "https://www.microsoft.com/en/customers/story/22793-pko-leasing-azure-communication-services",
+   "raw_sector": "",
+   "date": "2025-03-06",
+   "fresh": "fresh"
+  },
+  {
+   "company": "PKO Bank Polski",
+   "use": "Domain-specific Polish neural language models for customer intent recognition/prediction across helpline, voicebots, chatbots, IKO app and iPKO (joint R&D with OPI PIB) [OPI PIB (National Information Processing Institute) AI Lab]",
+   "existence": "claimed",
+   "value": "~PLN 17M project (PLN 9.2M EU-funded); completion Nov 2027",
+   "tier": "",
+   "url": "https://opi.org.pl/en/ai-is-revolutionising-customer-service-at-pko-bp/",
+   "raw_sector": "",
+   "date": "2024-01-01",
+   "fresh": "aging"
+  },
+  {
+   "company": "PKO Bank Polski",
    "use": "Proprietary Polish-language large language model optimised for long Polish documents, publicly released on Hugging Face",
    "existence": "confirmed",
    "value": "none",
@@ -88,6 +159,50 @@
   },
   {
    "company": "PKO Bank Polski",
+   "use": "Machine-learning models for credit risk scoring and automated lending decisions across consumer, SME, mortgage and corporate portfolios [In-house (MLOps Advanced Data Analytics Platform)]",
+   "existence": "confirmed",
+   "value": "80%+ of credit decisions use ML (target 90%); loan acceptance up ~2 percentage points",
+   "tier": "",
+   "url": "https://smebanking.club/pko-bank-polski-uses-artificial-intelligence-to-manage-credit-risk/",
+   "raw_sector": "",
+   "date": "2024-07-24",
+   "fresh": "aging"
+  },
+  {
+   "company": "PKO Bank Polski",
+   "use": "MLOps/LLMOps platform deploying hundreds of machine-learning models into production across business units ('model factory') [In-house (Advanced Data Analytics Platform)]",
+   "existence": "confirmed",
+   "value": "hundreds of ML models in production",
+   "tier": "",
+   "url": "https://www.pkobp.pl/media/aktualnosci/informacje-o-banku/tysiace-pracownikow-pko-banku-polskiego-korzysta-ze-sztucznej-inteligencji-technologie-w-banku-rozwija-centrum-kompetencji-ai",
+   "raw_sector": "",
+   "date": "2025-11-19",
+   "fresh": "fresh"
+  },
+  {
+   "company": "PKO Bank Polski",
+   "use": "Proprietary Polish RoBERTa 8k language model (processes documents up to 15 pages) developed and published for classification, data extraction and semantic search; first Polish bank on Hugging Face [In-house PKO AI Lab with OPI PIB (RoBERTa; PLLuM family related)]",
+   "existence": "confirmed",
+   "value": "model downloaded 10,000+ times (later 750,000+)",
+   "tier": "",
+   "url": "https://itwiz.pl/pko-bank-polski-na-hugging-face-pierwszy-w-polsce-i-z-wlasnym-modelem-ai/",
+   "raw_sector": "",
+   "date": "2025-09-01",
+   "fresh": "fresh"
+  },
+  {
+   "company": "PKO Bank Polski",
+   "use": "Google Cloud AI Platform to industrialize ML model scoring/retraining (CRM, credit risk, fraud, customer experience), moving from monthly to daily/real-time scoring and cutting deployment time [Google Cloud (AI Platform / Vertex)]",
+   "existence": "claimed",
+   "value": "scoring frequency monthly to daily/real-time; deployment cycle ~6 months to 1 month (targets)",
+   "tier": "",
+   "url": "https://cloud.google.com/customers/pko-bank-polski",
+   "raw_sector": "",
+   "date": "2020-01-01",
+   "fresh": "stale"
+  },
+  {
+   "company": "PKO Bank Polski",
    "use": "AI and data analytics to better recognise client preferences and expectations for personalised offers",
    "existence": "confirmed",
    "value": "none",
@@ -96,6 +211,50 @@
    "raw_sector": "Banks",
    "date": "missing",
    "fresh": "undated"
+  },
+  {
+   "company": "PKO Bank Polski",
+   "use": "Real-time transaction fraud detection and anti-fraud monitoring across products/channels using predictive models plus network/link analysis to detect identity theft, card fraud and organized crime rings [SAS (SAS Enterprise Fraud Management)]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.sas.com/pl_pl/customers/pko-bank-polski-fraud-management.html",
+   "raw_sector": "",
+   "date": "2016-10-01",
+   "fresh": "stale"
+  },
+  {
+   "company": "PKO Bank Polski",
+   "use": "'szukAI' internal GenAI document/knowledge search tool for employees to quickly find procedures and information via natural language [In-house (built on PKO RoBERTa 8k model)]",
+   "existence": "confirmed",
+   "value": "11,000+ employees using it",
+   "tier": "",
+   "url": "https://www.pkobp.pl/media/aktualnosci/informacje-o-banku/tysiace-pracownikow-pko-banku-polskiego-korzysta-ze-sztucznej-inteligencji-technologie-w-banku-rozwija-centrum-kompetencji-ai",
+   "raw_sector": "",
+   "date": "2025-11-19",
+   "fresh": "fresh"
+  },
+  {
+   "company": "PKO Bank Polski",
+   "use": "Microsoft Copilot (GPT-4 based) deployed for employee productivity with rollout planned bank-wide [Microsoft / OpenAI (Copilot, GPT-4)]",
+   "existence": "confirmed",
+   "value": "1,500 employees currently using it",
+   "tier": "",
+   "url": "https://www.pkobp.pl/media/aktualnosci/informacje-o-banku/tysiace-pracownikow-pko-banku-polskiego-korzysta-ze-sztucznej-inteligencji-technologie-w-banku-rozwija-centrum-kompetencji-ai",
+   "raw_sector": "",
+   "date": "2025-11-19",
+   "fresh": "fresh"
+  },
+  {
+   "company": "PKO Bank Polski",
+   "use": "OCR + LLM tool that converts document scans into editable text and enables content-based natural-language queries over documents [none]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.pkobp.pl/media/aktualnosci/informacje-o-banku/tysiace-pracownikow-pko-banku-polskiego-korzysta-ze-sztucznej-inteligencji-technologie-w-banku-rozwija-centrum-kompetencji-ai",
+   "raw_sector": "",
+   "date": "2025-11-19",
+   "fresh": "fresh"
   }
  ]
 }

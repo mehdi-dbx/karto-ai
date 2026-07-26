@@ -3,28 +3,28 @@
  "name": "LTM",
  "cc": "IN",
  "vertical": "Technology",
- "deployments": 1,
- "confirmed": 1,
+ "deployments": 3,
+ "confirmed": 2,
  "with_value_number": 1,
- "proof_rate": 1.0,
+ "proof_rate": 0.333,
  "mktcap": 14216867470.0,
  "revenue": 5097349398.0,
  "employees": 87886.0,
  "silent": false,
- "per_bn_revenue": 0.2,
- "per_10k_emp": 0.11,
+ "per_bn_revenue": 0.59,
+ "per_10k_emp": 0.34,
  "benchmarks": {
   "global_vertical": {
-   "deployments": 0,
-   "confirmed": 6,
-   "proof_rate": 80,
-   "n": 156
+   "deployments": 5,
+   "confirmed": 11,
+   "proof_rate": 71,
+   "n": 159
   },
   "country_vertical": {
    "deployments": 0,
    "confirmed": 0,
-   "proof_rate": 80,
-   "n": 6
+   "proof_rate": 67,
+   "n": 7
   }
  },
  "first_seen": null,
@@ -33,13 +33,16 @@
  "momentum": "none",
  "maturity": "L3",
  "maturity_evidence": [
+  "multi_horizontal",
   "named_product:BlueVerse",
   "value_number",
   "tier_p"
  ],
- "prospect_score": 14,
- "stack": [],
- "vendor_named": false,
+ "prospect_score": 39,
+ "stack": [
+  "Google Cloud"
+ ],
+ "vendor_named": true,
  "deployments_detail": [
   {
    "company": "LTM",
@@ -50,6 +53,28 @@
    "url": "https://www.ltm.com/services/blueverse",
    "raw_sector": "Information Technology",
    "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "LTM",
+   "use": "Voice AI, edge inferencing, and industry-specific agentic AI solutions",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.businesswire.com/news/home/20260311019000/en/LTM-Recognized-as-Innovator-in-Avasants-GenAI-Services-2025-RadarView",
+   "raw_sector": "",
+   "date": "Mar 11, 2026",
+   "fresh": "undated"
+  },
+  {
+   "company": "LTM",
+   "use": "Video Intelligence Agent - converts recorded videos into BDD test cases [Google Cloud AI]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://cloud.google.com/transform/101-real-world-generative-ai-use-cases-from-industry-leaders",
+   "raw_sector": "",
+   "date": "Apr 22, 2026",
    "fresh": "undated"
   }
  ]

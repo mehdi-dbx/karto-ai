@@ -3,27 +3,27 @@
  "name": "DTE Energy",
  "cc": "US",
  "vertical": "Energy & Utilities",
- "deployments": 1,
- "confirmed": 0,
- "with_value_number": 0,
- "proof_rate": 0.0,
+ "deployments": 3,
+ "confirmed": 2,
+ "with_value_number": 1,
+ "proof_rate": 0.333,
  "mktcap": 30840000000.0,
  "revenue": 16520000000.0,
  "employees": 9650.0,
  "silent": false,
- "per_bn_revenue": 0.06,
- "per_10k_emp": 1.04,
+ "per_bn_revenue": 0.18,
+ "per_10k_emp": 3.11,
  "benchmarks": {
   "global_vertical": {
-   "deployments": 0,
-   "confirmed": 0,
-   "proof_rate": 0,
-   "n": 210
+   "deployments": 25,
+   "confirmed": 30,
+   "proof_rate": 68,
+   "n": 213
   },
   "country_vertical": {
-   "deployments": 0,
-   "confirmed": 0,
-   "proof_rate": 0,
+   "deployments": 24,
+   "confirmed": 37,
+   "proof_rate": 88,
    "n": 52
   }
  },
@@ -31,11 +31,13 @@
  "by_year": [],
  "undated_pct": 100,
  "momentum": "none",
- "maturity": "L1",
+ "maturity": "L3",
  "maturity_evidence": [
-  "rows_no_confirmed"
+  "multi_horizontal",
+  "named_product:Customer",
+  "value_number"
  ],
- "prospect_score": 40,
+ "prospect_score": 39,
  "stack": [
   "OpenAI",
   "Oracle"
@@ -51,6 +53,28 @@
    "url": "https://www.utilitydive.com/news/dte-data-center-deal",
    "raw_sector": "Utilities",
    "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "DTE Energy",
+   "use": "Grid system performance analysis and portfolio decision-making using visual data analytics [Energi.AI]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://energi.ai/how-dte-energy-uses-data-to-prove-system-performance/",
+   "raw_sector": "",
+   "date": "Apr 21, 2026",
+   "fresh": "undated"
+  },
+  {
+   "company": "DTE Energy",
+   "use": "Customer bill management and forecasting with AI-driven alerts and explanations [BillWise AI]",
+   "existence": "confirmed",
+   "value": "95% call deflection rate",
+   "tier": "",
+   "url": "https://www.tdworld.com/utility-business/article/55373176/how-dte-energy-is-using-ai-for-high-bill-calls-and-building-customer-trust",
+   "raw_sector": "",
+   "date": "Apr 27, 2026",
    "fresh": "undated"
   }
  ]

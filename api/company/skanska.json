@@ -3,21 +3,21 @@
  "name": "Skanska",
  "cc": "SE",
  "vertical": "Real Estate & Construction",
- "deployments": 13,
- "confirmed": 8,
- "with_value_number": 1,
- "proof_rate": 0.077,
+ "deployments": 15,
+ "confirmed": 9,
+ "with_value_number": 2,
+ "proof_rate": 0.133,
  "mktcap": 10399047619.0,
  "revenue": 16584761905.0,
  "employees": 26043.0,
  "silent": false,
- "per_bn_revenue": 0.78,
- "per_10k_emp": 4.99,
+ "per_bn_revenue": 0.9,
+ "per_10k_emp": 5.76,
  "benchmarks": {
   "global_vertical": {
    "deployments": 100,
-   "confirmed": 98,
-   "proof_rate": 59,
+   "confirmed": 93,
+   "proof_rate": 44,
    "n": 154
   }
  },
@@ -44,7 +44,7 @@
    "n": 4
   }
  ],
- "undated_pct": 8,
+ "undated_pct": 20,
  "momentum": "early_mover,cooling",
  "maturity": "L4",
  "maturity_evidence": [
@@ -53,9 +53,13 @@
   "multi_year",
   "tier_p"
  ],
- "prospect_score": 93,
- "stack": [],
- "vendor_named": false,
+ "prospect_score": 89,
+ "stack": [
+  "Microsoft",
+  "Microsoft Azure",
+  "OpenAI"
+ ],
+ "vendor_named": true,
  "deployments_detail": [
   {
    "company": "Skanska",
@@ -78,6 +82,17 @@
    "raw_sector": "Construction",
    "date": "2024",
    "fresh": "aging"
+  },
+  {
+   "company": "Skanska",
+   "use": "AI-driven generative design for sustainable building optimization [Autodesk]",
+   "existence": "claimed",
+   "value": "30%",
+   "tier": "",
+   "url": "https://aiexpert.network/ai-at-skanska/",
+   "raw_sector": "",
+   "date": "Nov 7, 2024",
+   "fresh": "undated"
   },
   {
    "company": "Skanska",
@@ -199,6 +214,17 @@
    "raw_sector": "",
    "date": "2024",
    "fresh": "aging"
+  },
+  {
+   "company": "Skanska",
+   "use": "Safety guidance and compliance assistance using consolidated EHS manual, OSHA standards, and safety documentation",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.usa.skanska.com/who-we-are/media/press-releases/298531/Skanska-launches-Safety-Sidekick-AI-tool-to-advance-job-site-safety-across-the-U.S",
+   "raw_sector": "",
+   "date": "Apr 30, 2025",
+   "fresh": "undated"
   }
  ]
 }

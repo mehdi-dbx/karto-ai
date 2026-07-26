@@ -3,28 +3,28 @@
  "name": "Ametek",
  "cc": "US",
  "vertical": "Industrial / Machinery",
- "deployments": 1,
- "confirmed": 1,
- "with_value_number": 1,
- "proof_rate": 1.0,
+ "deployments": 9,
+ "confirmed": 6,
+ "with_value_number": 2,
+ "proof_rate": 0.222,
  "mktcap": 55130000000.0,
  "revenue": 7600000000.0,
  "employees": 22500.0,
  "silent": false,
- "per_bn_revenue": 0.13,
- "per_10k_emp": 0.44,
+ "per_bn_revenue": 1.18,
+ "per_10k_emp": 4.0,
  "benchmarks": {
   "global_vertical": {
-   "deployments": 0,
-   "confirmed": 14,
-   "proof_rate": 79,
-   "n": 175
+   "deployments": 73,
+   "confirmed": 72,
+   "proof_rate": 64,
+   "n": 176
   },
   "country_vertical": {
-   "deployments": 0,
-   "confirmed": 19,
-   "proof_rate": 89,
-   "n": 80
+   "deployments": 72,
+   "confirmed": 70,
+   "proof_rate": 70,
+   "n": 81
   }
  },
  "first_seen": 2025,
@@ -34,15 +34,19 @@
    "n": 1
   }
  ],
- "undated_pct": 0,
+ "undated_pct": 89,
  "momentum": "early_mover,rising",
  "maturity": "L3",
  "maturity_evidence": [
+  "named_product:Spectro",
   "value_number"
  ],
- "prospect_score": 14,
- "stack": [],
- "vendor_named": false,
+ "prospect_score": 67,
+ "stack": [
+  "Microsoft",
+  "NVIDIA"
+ ],
+ "vendor_named": true,
  "deployments_detail": [
   {
    "company": "Ametek",
@@ -54,6 +58,94 @@
    "raw_sector": "Industrials",
    "date": "2025",
    "fresh": "fresh"
+  },
+  {
+   "company": "Ametek",
+   "use": "Spectro Scientific MicroLab on-site oil analyzer embeds an AI 'Expert System' (built from 20+ years of knowledge and 10,000+ software scripts) that translates raw oil-analysis data into actionable, equipment-specific maintenance recommendations for fleets. [AMETEK Spectro Scientific (in-house)]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.spectrosci.com/product/microlab-series",
+   "raw_sector": "",
+   "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "Ametek",
+   "use": "TruVu 360 Fluid IQ, an AI-powered upgrade to the TruVu 360 Cloud oil-analysis platform, provides AI-enhanced predictive guidance that forecasts remaining oil life, recommends sampling/oil-change timing, and flags over/under-sampling using statistical (Monte Carlo / ASTM D7720) methods. [AMETEK Spectro Scientific]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.spectrosci.com/product/truvu-360",
+   "raw_sector": "",
+   "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "Ametek",
+   "use": "Abaco Systems SBC3901 rugged 3U VPX single-board computer for AI edge computing, built on NVIDIA Jetson AGX Orin (2048 CUDA cores, 64 Tensor cores, dual NVDLA v2 deep-learning accelerators) delivering up to 248 TOPS for real-time deep-learning inference and sensor fusion in defense/aerospace. [AMETEK Abaco Systems / NVIDIA Jetson AGX Orin]",
+   "existence": "confirmed",
+   "value": "up to 248 TOPS AI performance",
+   "tier": "",
+   "url": "https://abaco.com/news/abaco-systems-introduces-sbc3901-high-performance-ai-edge-computing-rugged-3u-vpx-form-factor",
+   "raw_sector": "",
+   "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "Ametek",
+   "use": "Abaco Systems HPC2812 high-performance embedded computing system handles large data volumes and deep-learning acceleration to support AI capabilities including image recognition, signal analysis, and autonomous decision-making for mission-critical embedded/edge deployments. [AMETEK Abaco Systems]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.ametek.com/our-stories/stories/innovation/2023/august/ametek-enabling-ai",
+   "raw_sector": "",
+   "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "Ametek",
+   "use": "Creaform (AMETEK) partnered with software developer Hyperganic to use AI-optimized generative-design software together with Creaform 3D scanning to design and 3D-print custom-fit helmets optimized for protection and aerodynamics. [AMETEK Creaform + Hyperganic]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.creaform3d.com/en/resources/blog/leveraging-3d-scanning-3d-printing-and-artificial-intelligence-in-product-development",
+   "raw_sector": "",
+   "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "Ametek",
+   "use": "AMETEK is hiring a Director of Artificial Intelligence to lead deployment of AI-enabled workflow automation and process redesign across operations and SG&A to reduce cycle time, scrap, rework, and inventory, and to embed AI into customer-facing workflows and digital service offerings. [AMETEK (internal)]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://jobs.ametek.com/job/Peabody-Director%2C-Artificial-Intelligence-%28AI%29-MA-01960/1377021600/",
+   "raw_sector": "",
+   "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "Ametek",
+   "use": "AMETEK is running internal AI-automation projects to implement AI best practices across the company, with job requirements citing familiarity with AI tools/platforms such as Microsoft Copilot for research, data analysis, and process mapping. [Microsoft Copilot (referenced)]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://jobs.ametek.com/job/Suwanee-AI-Automation-Co-Op-GA-30024/1401613800/",
+   "raw_sector": "",
+   "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "Ametek",
+   "use": "Crank Software (AMETEK) Storyboard embedded-GUI development tooling is positioned to build sophisticated user experiences that enable AI, helping customers bring AI-powered embedded applications to market faster with customizable interfaces. [AMETEK Crank Software]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.ametek.com/our-stories/stories/innovation/2023/august/ametek-enabling-ai",
+   "raw_sector": "",
+   "date": "missing",
+   "fresh": "undated"
   }
  ]
 }

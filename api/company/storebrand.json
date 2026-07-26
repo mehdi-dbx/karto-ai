@@ -3,35 +3,41 @@
  "name": "Storebrand",
  "cc": "NO",
  "vertical": "Insurance",
- "deployments": 3,
- "confirmed": 2,
- "with_value_number": 1,
+ "deployments": 6,
+ "confirmed": 5,
+ "with_value_number": 2,
  "proof_rate": 0.333,
  "mktcap": 7841121495.0,
  "revenue": 10120560748.0,
  "employees": 2490.0,
  "silent": false,
- "per_bn_revenue": 0.3,
- "per_10k_emp": 12.05,
+ "per_bn_revenue": 0.59,
+ "per_10k_emp": 24.1,
  "benchmarks": {
   "global_vertical": {
-   "deployments": 86,
-   "confirmed": 68,
-   "proof_rate": 49,
-   "n": 60
+   "deployments": 39,
+   "confirmed": 45,
+   "proof_rate": 58,
+   "n": 63
   }
  },
- "first_seen": null,
- "by_year": [],
- "undated_pct": 100,
- "momentum": "none",
+ "first_seen": 2026,
+ "by_year": [
+  {
+   "year": 2026,
+   "n": 1
+  }
+ ],
+ "undated_pct": 83,
+ "momentum": "late_entrant,rising",
  "maturity": "L3",
  "maturity_evidence": [
   "multi_horizontal",
   "named_product:Authorized",
+  "value_number",
   "tier_p"
  ],
- "prospect_score": 47,
+ "prospect_score": 65,
  "stack": [],
  "vendor_named": false,
  "deployments_detail": [
@@ -48,12 +54,34 @@
   },
   {
    "company": "Storebrand",
+   "use": "AI competence strengthening through training and support from 90 AI Champions",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.storebrand.no/en/investor-relations/annual-reports/_/attachment/inline/6947ea76-a40f-4f96-9b81-c8123113b776%3Aa0593e55eee8e532bd013ef537a3c17c09b8bed5/2025-annual-report-storebrand-asa.pdf",
+   "raw_sector": "",
+   "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "Storebrand",
    "use": "Simplifai agentic AI automating back-office tasks like bonus requests, invoice paybacks and policy terminations",
    "existence": "claimed",
    "value": "25x ROI",
    "tier": "I",
    "url": "https://www.simplifai.ai/case-studies/storebrand",
    "raw_sector": "Insurance",
+   "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "Storebrand",
+   "use": "Automated insurance and back-office workflows with Agentic AI, cutting inquiry response time by 95% [Agentic AI]",
+   "existence": "confirmed",
+   "value": "25x ROI",
+   "tier": "",
+   "url": "https://www.simplifai.ai/case-studies/storebrand",
+   "raw_sector": "",
    "date": "missing",
    "fresh": "undated"
   },
@@ -67,6 +95,17 @@
    "raw_sector": "Insurance",
    "date": "missing",
    "fresh": "undated"
+  },
+  {
+   "company": "Storebrand",
+   "use": "100% automated SMB pension sales process and >75% digital EPKS sales",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.storebrand.no/en/investor-relations/quarterly-reporting/storebrand-asa/2025/_/attachment/inline/78f495a5-3013-4dbf-ae91-0d6cd0d12b7b:11dda84a4ce66ca880ea1b651f77b7e2609d92fb/2025-q4-analyst-presentation-storebrand-asa.pdf",
+   "raw_sector": "",
+   "date": "2026-02-11",
+   "fresh": "fresh"
   }
  ]
 }

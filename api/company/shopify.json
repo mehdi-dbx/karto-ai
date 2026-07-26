@@ -3,27 +3,27 @@
  "name": "Shopify",
  "cc": "CA",
  "vertical": "Technology",
- "deployments": 1,
- "confirmed": 1,
- "with_value_number": 0,
- "proof_rate": 0.0,
+ "deployments": 14,
+ "confirmed": 11,
+ "with_value_number": 3,
+ "proof_rate": 0.214,
  "mktcap": 159551470588.0,
  "revenue": 12691176471.0,
  "employees": 7600.0,
  "silent": false,
- "per_bn_revenue": 0.08,
- "per_10k_emp": 1.32,
+ "per_bn_revenue": 1.1,
+ "per_10k_emp": 18.42,
  "benchmarks": {
   "global_vertical": {
-   "deployments": 0,
-   "confirmed": 6,
-   "proof_rate": 0,
-   "n": 156
+   "deployments": 88,
+   "confirmed": 82,
+   "proof_rate": 56,
+   "n": 159
   },
   "country_vertical": {
-   "deployments": 0,
-   "confirmed": 0,
-   "proof_rate": 0,
+   "deployments": 100,
+   "confirmed": 75,
+   "proof_rate": 75,
    "n": 5
   }
  },
@@ -31,19 +31,41 @@
  "by_year": [
   {
    "year": 2023,
+   "n": 3
+  },
+  {
+   "year": 2024,
+   "n": 2
+  },
+  {
+   "year": 2025,
+   "n": 5
+  },
+  {
+   "year": 2026,
    "n": 1
   }
  ],
- "undated_pct": 0,
- "momentum": "early_mover,gone_quiet",
- "maturity": "L3",
+ "undated_pct": 21,
+ "momentum": "early_mover,rising",
+ "maturity": "L4",
  "maturity_evidence": [
+  "multi_horizontal",
   "named_product:Shopify",
+  "value_number",
+  "multi_year",
   "tier_p"
  ],
- "prospect_score": 54,
- "stack": [],
- "vendor_named": false,
+ "prospect_score": 91,
+ "stack": [
+  "Anthropic",
+  "Cohere",
+  "Google",
+  "Google Cloud",
+  "Microsoft",
+  "OpenAI"
+ ],
+ "vendor_named": true,
  "deployments_detail": [
   {
    "company": "Shopify",
@@ -55,6 +77,149 @@
    "raw_sector": "Software",
    "date": "2023",
    "fresh": "stale"
+  },
+  {
+   "company": "Shopify",
+   "use": "Sidekick, Shopify's AI commerce assistant in the merchant admin, powered by Anthropic Claude (Sonnet 4.5) running on Google Cloud. Converts natural language into ShopifyQL analytics queries, orchestrates 50+ tools, and helps merchants set up and run stores. In production serving millions of merchants. [Anthropic (Claude Sonnet 4.5), Google Cloud]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://claude.com/customers/shopify",
+   "raw_sector": "",
+   "date": "2025",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Shopify",
+   "use": "Engineering agentic-systems detail on Sidekick's production build: agentic loop, LLM-as-judge evaluation, tool scaling from 0-20 to 50+ tools. Documents Sidekick as a deployed production system with evaluation metrics. [Anthropic (agentic loop)]",
+   "existence": "confirmed",
+   "value": "LLM judge Cohen's Kappa improved 0.02 to 0.61 (human baseline 0.69); ShopifyQL syntax validation ~93% to ~99%",
+   "tier": "",
+   "url": "https://shopify.engineering/building-production-ready-agentic-systems",
+   "raw_sector": "",
+   "date": "2025-08-26",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Shopify",
+   "use": "Semantic Search: AI-powered storefront search in the Search & Discovery app that understands buyer intent beyond keyword matching (e.g. 'something to wear in the summer'). Live to merchants on Shopify and Advanced plans. [none]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://changelog.shopify.com/posts/semantic-search-is-now-available-on-more-plans",
+   "raw_sector": "",
+   "date": "2024-06-24",
+   "fresh": "aging"
+  },
+  {
+   "company": "Shopify",
+   "use": "Universal Commerce Protocol (UCP) / agentic commerce platform: open standard co-developed with Google enabling AI agents to search Shopify's Catalog, build carts and check out. Powers native shopping in Google AI Mode/Gemini and Microsoft Copilot Checkout; supports REST and MCP. [Google (UCP), Microsoft (Copilot Checkout), MCP]",
+   "existence": "confirmed",
+   "value": "Endorsed by 20+ retailers/platforms",
+   "tier": "",
+   "url": "https://www.shopify.com/news/ai-commerce-at-scale",
+   "raw_sector": "",
+   "date": "2026-01-11",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Shopify",
+   "use": "Named as a OpenAI customer/case study [OpenAI] [OpenAI]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://masterofcode.com/blog/chatgpt-statistics",
+   "raw_sector": "",
+   "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "Shopify",
+   "use": "Named as a Google Gemini / Vertex AI customer/case study [Google Gemini / Vertex AI] [Google Gemini / Vertex AI]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://codelabs.developers.google.com/vertexai-gws-agents",
+   "raw_sector": "",
+   "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "Shopify",
+   "use": "Named as a Cohere customer/case study [Cohere] [Cohere]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.eesel.ai/blog/cohere-ai",
+   "raw_sector": "",
+   "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "Shopify",
+   "use": "Shopify Magic AI text generation: generates product descriptions, email subject lines, blog posts and headings from merchant inputs using generative AI. Built into the Shopify admin and available to merchants. [none]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://help.shopify.com/en/manual/ai-powered-tools/shopify-magic",
+   "raw_sector": "",
+   "date": "2023-04-20",
+   "fresh": "stale"
+  },
+  {
+   "company": "Shopify",
+   "use": "Shopify Magic AI media/image generation in the file editor: background replacement, generative background/scene creation from text prompts, and image extension (outpainting) for product photos. Deployed across Basic, Grow, Advanced and Plus plans. [none]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://help.shopify.com/en/manual/ai-powered-tools/shopify-magic/media-generation",
+   "raw_sector": "",
+   "date": "2024-01-31",
+   "fresh": "aging"
+  },
+  {
+   "company": "Shopify",
+   "use": "Shopify + OpenAI ChatGPT commerce: Shopify merchants sell directly inside ChatGPT conversations via Instant Checkout / Agentic Commerce Protocol, with products auto-formatted for AI discovery and orders flowing into Shopify admin. Early brands include Glossier, Spanx, Vuori, Away, Stanley 1913, Steve Madden. [OpenAI (ChatGPT, Agentic Commerce Protocol)]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.shopify.com/news/shopify-open-ai-commerce",
+   "raw_sector": "",
+   "date": "2025-09-29",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Shopify",
+   "use": "Fraud analysis: machine learning models trained on historical transactions across all Shopify stores flag orders as low/medium/high chargeback risk in the merchant admin. Deployed to stores on Grow plan or higher and Shopify Payments merchants. [none]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://help.shopify.com/en/manual/fulfillment/managing-orders/protecting-orders/fraud-analysis",
+   "raw_sector": "",
+   "date": "2023-04-26",
+   "fresh": "stale"
+  },
+  {
+   "company": "Shopify",
+   "use": "Shopify Payments machine learning model that assesses transaction risk across the customer journey to intelligently route high-risk transactions through 3D Secure authentication, boosting payment success and cutting fraud chargebacks. Rolled out to all Shopify Payments merchants. [none]",
+   "existence": "confirmed",
+   "value": "+26 bps payment success (~$471M additional annual GPV); 20% reduction in fraud chargebacks (~$62M annual merchant savings)",
+   "tier": "",
+   "url": "https://www.shopify.com/enterprise/blog/shopify-payments-pre-authorization",
+   "raw_sector": "",
+   "date": "2025-05-21",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Shopify",
+   "use": "Internal engineering adoption of Anthropic's Claude Code: Shopify engineers use Claude Code across the organization to build internal tools, described by Shopify's Director of Applied AI as transforming how they build internal tools. [Anthropic (Claude Code)]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://claude.com/customers/shopify",
+   "raw_sector": "",
+   "date": "2025",
+   "fresh": "fresh"
   }
  ]
 }

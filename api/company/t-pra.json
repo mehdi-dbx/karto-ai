@@ -3,22 +3,22 @@
  "name": "Tüpraş",
  "cc": "TR",
  "vertical": "Energy & Utilities",
- "deployments": 2,
- "confirmed": 1,
- "with_value_number": 1,
- "proof_rate": 0.5,
+ "deployments": 6,
+ "confirmed": 3,
+ "with_value_number": 2,
+ "proof_rate": 0.333,
  "mktcap": 18891562500.0,
  "revenue": 27532187500.0,
  "employees": 6374.0,
  "silent": false,
- "per_bn_revenue": 0.07,
- "per_10k_emp": 3.14,
+ "per_bn_revenue": 0.22,
+ "per_10k_emp": 9.41,
  "benchmarks": {
   "global_vertical": {
-   "deployments": 72,
-   "confirmed": 20,
-   "proof_rate": 69,
-   "n": 210
+   "deployments": 68,
+   "confirmed": 48,
+   "proof_rate": 68,
+   "n": 213
   }
  },
  "first_seen": 2024,
@@ -28,15 +28,20 @@
    "n": 1
   }
  ],
- "undated_pct": 50,
+ "undated_pct": 83,
  "momentum": "early_mover,gone_quiet",
- "maturity": "L2",
+ "maturity": "L3",
  "maturity_evidence": [
+  "multi_horizontal",
+  "named_product:Microsoft",
+  "value_number",
   "tier_p"
  ],
- "prospect_score": 34,
- "stack": [],
- "vendor_named": false,
+ "prospect_score": 45,
+ "stack": [
+  "Microsoft"
+ ],
+ "vendor_named": true,
  "deployments_detail": [
   {
    "company": "Tüpraş",
@@ -59,6 +64,50 @@
    "raw_sector": "Energy",
    "date": "2024",
    "fresh": "aging"
+  },
+  {
+   "company": "Tüpraş",
+   "use": "Industrial AI for energy savings and heat exchanger operations optimization",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.aspentech.com/en/resources/on-demand-webinars/how-tupras-refineries-uses-industrial-ai-to-save-energy-improve-hx-operations",
+   "raw_sector": "",
+   "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "Tüpraş",
+   "use": "Named as a Microsoft Copilot customer/case study [Microsoft Copilot] [Microsoft Copilot]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.microsoft.com/en-us/microsoft-cloud/blog/2025/07/24/ai-powered-success-with-1000-stories-of-customer-transformation-and-innovation/",
+   "raw_sector": "",
+   "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "Tüpraş",
+   "use": "ERP system with AI and data analytics for operational excellence",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.tupras.com.tr/en/digitalization",
+   "raw_sector": "",
+   "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "Tüpraş",
+   "use": "Microsoft 365 Copilot for AI-powered insights and automation [Microsoft 365 Copilot]",
+   "existence": "confirmed",
+   "value": "50% faster AI processing, 80% improved",
+   "tier": "",
+   "url": "https://www.microsoft.com/en-us/microsoft-cloud/blog/2025/07/24/ai-powered-success-with-1000-stories-of-customer-transformation-and-innovation/",
+   "raw_sector": "",
+   "date": "Jul 24, 2025",
+   "fresh": "undated"
   }
  ]
 }

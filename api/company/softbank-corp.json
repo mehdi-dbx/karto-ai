@@ -3,41 +3,57 @@
  "name": "SoftBank Corp.",
  "cc": "JP",
  "vertical": "Telecom",
- "deployments": 1,
- "confirmed": 1,
- "with_value_number": 0,
- "proof_rate": 0.0,
+ "deployments": 13,
+ "confirmed": 11,
+ "with_value_number": 7,
+ "proof_rate": 0.538,
  "mktcap": 70066666667.0,
  "revenue": 46933333333.0,
  "employees": 58432.0,
  "silent": false,
- "per_bn_revenue": 0.02,
- "per_10k_emp": 0.17,
+ "per_bn_revenue": 0.28,
+ "per_10k_emp": 2.22,
  "benchmarks": {
   "global_vertical": {
-   "deployments": 0,
-   "confirmed": 16,
-   "proof_rate": 0,
-   "n": 93
+   "deployments": 82,
+   "confirmed": 85,
+   "proof_rate": 82,
+   "n": 94
   }
  },
- "first_seen": 2025,
+ "first_seen": 2022,
  "by_year": [
   {
-   "year": 2025,
+   "year": 2022,
    "n": 1
+  },
+  {
+   "year": 2025,
+   "n": 7
+  },
+  {
+   "year": 2026,
+   "n": 5
   }
  ],
  "undated_pct": 0,
- "momentum": "rising",
- "maturity": "L3",
+ "momentum": "early_mover,rising",
+ "maturity": "L4",
  "maturity_evidence": [
+  "multi_horizontal",
   "named_product:Crystal Intelligence",
+  "value_number",
+  "multi_year",
   "tier_p"
  ],
- "prospect_score": 46,
+ "prospect_score": 78,
  "stack": [
-  "OpenAI"
+  "Microsoft",
+  "Microsoft Azure",
+  "NVIDIA",
+  "OpenAI",
+  "Oracle",
+  "Palantir"
  ],
  "vendor_named": true,
  "deployments_detail": [
@@ -50,6 +66,138 @@
    "url": "https://www.softbank.jp/sbnews/entry/20250207_02",
    "raw_sector": "Communications",
    "date": "2025-02",
+   "fresh": "fresh"
+  },
+  {
+   "company": "SoftBank Corp.",
+   "use": "AI-powered externally-controlled coverage optimization system for Massive MIMO base stations, deployed with Ericsson at multiple large venues; automatically adapts beam patterns to real-time user distribution, delivering a 24% increase in 5G downlink throughput [Ericsson]",
+   "existence": "confirmed",
+   "value": "24% increase in 5G downlink throughput",
+   "tier": "",
+   "url": "https://www.softbank.jp/en/corp/news/press/sbkk/2026/20260129_01/",
+   "raw_sector": "",
+   "date": "2026-01-29",
+   "fresh": "fresh"
+  },
+  {
+   "company": "SoftBank Corp.",
+   "use": "Large Telecom Model (LTM), a domain-specific generative AI foundation model trained on SoftBank's network data for mobile network design, configuration, and operations automation; reported over 90% accuracy in optimizing network configurations [SoftBank (in-house, on NVIDIA infrastructure)]",
+   "existence": "confirmed",
+   "value": ">90% accuracy in optimizing configurations",
+   "tier": "",
+   "url": "https://www.businesswire.com/news/home/20250319899009/en/SoftBank-Corp.-Develops-a-Foundational-Large-Telecom-Model-LTM",
+   "raw_sector": "",
+   "date": "2025-03-19",
+   "fresh": "fresh"
+  },
+  {
+   "company": "SoftBank Corp.",
+   "use": "Multi-AI-agent platform built on top of the Large Telecom Model to translate operator intents into concrete network actions, improving network stability and reliability for autonomous/agentic RAN operations [SoftBank (in-house)]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.softbank.jp/en/corp/news/press/sbkk/2026/20260312_02/",
+   "raw_sector": "",
+   "date": "2026-03-12",
+   "fresh": "fresh"
+  },
+  {
+   "company": "SoftBank Corp.",
+   "use": "Generative AI services (document generation, agent building) using homegrown Japanese LLM 'Sarashina' from SB Intuitions, offered on Cloud PF Type A with Oracle Alloy for enterprise/government use [SB Intuitions / Oracle (Cloud PF Type A) / NVIDIA]",
+   "existence": "claimed",
+   "value": "70-billion parameter LLM (Sarashina mini)",
+   "tier": "",
+   "url": "https://www.softbank.jp/en/corp/news/press/sbkk/2026/20260416_02/",
+   "raw_sector": "",
+   "date": "2026-04-16",
+   "fresh": "fresh"
+  },
+  {
+   "company": "SoftBank Corp.",
+   "use": "Collaboration with Yaskawa Electric to develop and deploy office-oriented physical AI robots powered by AI running on MEC via AI-RAN [Yaskawa Electric]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.softbank.jp/en/corp/news/press/sbkk/2025/20251201_02/",
+   "raw_sector": "",
+   "date": "2025-12-01",
+   "fresh": "fresh"
+  },
+  {
+   "company": "SoftBank Corp.",
+   "use": "SoftVoice, an AI real-time voice-conversion system for call centers that softens/moderates aggressive customer voices to reduce operator stress; commercialized as a corporate service [SoftBank (in-house)]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.softbank.jp/en/sbnews/entry/20260219_01",
+   "raw_sector": "",
+   "date": "2026-02-19",
+   "fresh": "fresh"
+  },
+  {
+   "company": "SoftBank Corp.",
+   "use": "AI-powered call center that provides guidance in response to customer inquiries; launched operations using Microsoft Foundry, Azure OpenAI in Foundry Models, and Azure App Service [Microsoft (Azure AI Foundry / Azure OpenAI)]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.microsoft.com/en/customers/story/25666-softbank-corp-azure-ai-foundry",
+   "raw_sector": "",
+   "date": "2025-11-18",
+   "fresh": "fresh"
+  },
+  {
+   "company": "SoftBank Corp.",
+   "use": "Customer-facing AI agent for SoftBank's Customer Growth Division handling product/service inquiries; the agent handles approximately 100 inquiries per day with 70% of customers self-resolving [Sierra]",
+   "existence": "confirmed",
+   "value": "~100 inquiries/day, 70% resolution rate",
+   "tier": "",
+   "url": "https://sierra.ai/customers/softbank",
+   "raw_sector": "",
+   "date": "2025-01-01",
+   "fresh": "fresh"
+  },
+  {
+   "company": "SoftBank Corp.",
+   "use": "Suite of AI agents automating sales insight capture, opportunity standardization, and account-plan/research generation across the sales cycle; deployed and scaled across regions [Dataiku]",
+   "existence": "confirmed",
+   "value": "~20 hrs saved per seller/month (~250,000 hours/year); 90% of sellers report improved data-driven selling",
+   "tier": "",
+   "url": "https://www.dataiku.com/blog/softbank",
+   "raw_sector": "",
+   "date": "2025-11-24",
+   "fresh": "fresh"
+  },
+  {
+   "company": "SoftBank Corp.",
+   "use": "STATION, an AI service analyzing in-store camera video data to convert shopper behavior into retail analytics/insights, developed with Konica Minolta [Konica Minolta]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.softbank.jp/en/sbnews/entry/20220426_01",
+   "raw_sector": "",
+   "date": "2022-04-26",
+   "fresh": "stale"
+  },
+  {
+   "company": "SoftBank Corp.",
+   "use": "Group-wide enterprise AI adoption: SoftBank Group (incl. SoftBank Corp.) deployed ChatGPT Enterprise and OpenAI's 'Cristal intelligence', with approximately 2.5 million custom GPTs created across the group [OpenAI (ChatGPT Enterprise / Cristal intelligence)]",
+   "existence": "confirmed",
+   "value": "~2.5 million custom GPTs created",
+   "tier": "",
+   "url": "https://group.softbank/en/news/press/20251105",
+   "raw_sector": "",
+   "date": "2025-11-05",
+   "fresh": "fresh"
+  },
+  {
+   "company": "SoftBank Corp.",
+   "use": "'Patching as a Service' cybersecurity solution powered by OpenAI to secure Japan's critical infrastructure: vulnerability assessment, remediation planning, and implementation support (SoftBank Group offering) [OpenAI]",
+   "existence": "confirmed",
+   "value": "targeting ~3,000 critical infrastructure operators",
+   "tier": "",
+   "url": "https://group.softbank/en/news/press/20260616",
+   "raw_sector": "",
+   "date": "2026-06-16",
    "fresh": "fresh"
   }
  ]

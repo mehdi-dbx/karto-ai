@@ -3,27 +3,27 @@
  "name": "Alfa Laval",
  "cc": "SE",
  "vertical": "Manufacturing & Robotics",
- "deployments": 2,
- "confirmed": 2,
- "with_value_number": 0,
- "proof_rate": 0.0,
+ "deployments": 5,
+ "confirmed": 5,
+ "with_value_number": 1,
+ "proof_rate": 0.2,
  "mktcap": 22524761905.0,
  "revenue": 6707619048.0,
  "employees": 24399.0,
  "silent": false,
- "per_bn_revenue": 0.3,
- "per_10k_emp": 0.82,
+ "per_bn_revenue": 0.75,
+ "per_10k_emp": 2.05,
  "benchmarks": {
   "global_vertical": {
-   "deployments": 64,
-   "confirmed": 78,
-   "proof_rate": 0,
-   "n": 147
+   "deployments": 58,
+   "confirmed": 72,
+   "proof_rate": 62,
+   "n": 150
   },
   "country_vertical": {
-   "deployments": 43,
-   "confirmed": 86,
-   "proof_rate": 0,
+   "deployments": 71,
+   "confirmed": 71,
+   "proof_rate": 57,
    "n": 8
   }
  },
@@ -34,17 +34,20 @@
    "n": 2
   }
  ],
- "undated_pct": 0,
+ "undated_pct": 60,
  "momentum": "early_mover,gone_quiet",
  "maturity": "L3",
  "maturity_evidence": [
   "multi_horizontal",
   "named_product:Alva",
+  "value_number",
   "tier_p"
  ],
- "prospect_score": 60,
- "stack": [],
- "vendor_named": false,
+ "prospect_score": 62,
+ "stack": [
+  "Microsoft"
+ ],
+ "vendor_named": true,
  "deployments_detail": [
   {
    "company": "Alfa Laval",
@@ -59,6 +62,28 @@
   },
   {
    "company": "Alfa Laval",
+   "use": "Clariot - AI-based condition monitoring solution for hygienic process equipment",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.alfalaval.com/media/news/2025/alfa-laval-launches-next-generation-condition-monitoring/",
+   "raw_sector": "",
+   "date": "Jun 18, 2025",
+   "fresh": "undated"
+  },
+  {
+   "company": "Alfa Laval",
+   "use": "Microsoft intelligent data platform for AI-driven business efficiency [Microsoft]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.microsoft.com/en/customers/story/24139-alfa-laval-intelligent-data-platform",
+   "raw_sector": "",
+   "date": "Jun 23, 2025",
+   "fresh": "undated"
+  },
+  {
+   "company": "Alfa Laval",
    "use": "Alva internal generative AI assistant built by AI Centre of Excellence",
    "existence": "confirmed",
    "value": "none",
@@ -67,6 +92,17 @@
    "raw_sector": "Industrials",
    "date": "2023",
    "fresh": "stale"
+  },
+  {
+   "company": "Alfa Laval",
+   "use": "Alva - internal generative AI assistant for workforce optimization and business value creation",
+   "existence": "confirmed",
+   "value": "25000",
+   "tier": "",
+   "url": "https://systemverification.com/case/alfa-laval-success-story",
+   "raw_sector": "",
+   "date": "Dec 17, 2025",
+   "fresh": "undated"
   }
  ]
 }

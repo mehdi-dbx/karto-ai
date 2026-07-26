@@ -3,41 +3,46 @@
  "name": "Amrize AG",
  "cc": "CH",
  "vertical": "Chemicals & Materials",
- "deployments": 1,
- "confirmed": 1,
+ "deployments": 2,
+ "confirmed": 2,
  "with_value_number": 1,
- "proof_rate": 1.0,
+ "proof_rate": 0.5,
  "mktcap": 25221600000.0,
  "revenue": 9550000000.0,
  "employees": 19000.0,
  "silent": false,
- "per_bn_revenue": 0.1,
- "per_10k_emp": 0.53,
+ "per_bn_revenue": 0.21,
+ "per_10k_emp": 1.05,
  "benchmarks": {
   "global_vertical": {
-   "deployments": 0,
-   "confirmed": 19,
-   "proof_rate": 75,
-   "n": 105
+   "deployments": 8,
+   "confirmed": 26,
+   "proof_rate": 83,
+   "n": 107
   },
   "country_vertical": {
    "deployments": 0,
    "confirmed": 0,
-   "proof_rate": 75,
+   "proof_rate": 100,
    "n": 5
   }
  },
- "first_seen": null,
- "by_year": [],
- "undated_pct": 100,
- "momentum": "none",
+ "first_seen": 2025,
+ "by_year": [
+  {
+   "year": 2025,
+   "n": 1
+  }
+ ],
+ "undated_pct": 50,
+ "momentum": "rising",
  "maturity": "L3",
  "maturity_evidence": [
   "named_product:Meta",
   "value_number",
   "tier_p"
  ],
- "prospect_score": 14,
+ "prospect_score": 40,
  "stack": [],
  "vendor_named": false,
  "deployments_detail": [
@@ -51,6 +56,17 @@
    "raw_sector": "Materials",
    "date": "missing",
    "fresh": "undated"
+  },
+  {
+   "company": "Amrize AG",
+   "use": "AI-optimized concrete mix design for data center construction [Meta]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.amrize.com/us/en/media/newsroom/amrize-and-meta-partner-on-ai-optimized-concrete.html",
+   "raw_sector": "",
+   "date": "2025-07-16",
+   "fresh": "fresh"
   }
  ]
 }

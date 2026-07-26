@@ -3,27 +3,27 @@
  "name": "Albemarle Corporation",
  "cc": "US",
  "vertical": "Chemicals & Materials",
- "deployments": 1,
- "confirmed": 1,
+ "deployments": 5,
+ "confirmed": 5,
  "with_value_number": 1,
- "proof_rate": 1.0,
+ "proof_rate": 0.2,
  "mktcap": 13880000000.0,
  "revenue": 5490000000.0,
  "employees": 7800.0,
  "silent": false,
- "per_bn_revenue": 0.18,
- "per_10k_emp": 1.28,
+ "per_bn_revenue": 0.91,
+ "per_10k_emp": 6.41,
  "benchmarks": {
   "global_vertical": {
-   "deployments": 0,
-   "confirmed": 19,
-   "proof_rate": 75,
-   "n": 105
+   "deployments": 50,
+   "confirmed": 69,
+   "proof_rate": 46,
+   "n": 107
   },
   "country_vertical": {
-   "deployments": 0,
-   "confirmed": 32,
-   "proof_rate": 92,
+   "deployments": 44,
+   "confirmed": 72,
+   "proof_rate": 60,
    "n": 26
   }
  },
@@ -33,12 +33,17 @@
  "momentum": "none",
  "maturity": "L3",
  "maturity_evidence": [
+  "multi_horizontal",
   "named_product:Albemarle Intelligence",
   "value_number"
  ],
- "prospect_score": 14,
- "stack": [],
- "vendor_named": false,
+ "prospect_score": 62,
+ "stack": [
+  "Microsoft",
+  "Microsoft Azure",
+  "OpenAI"
+ ],
+ "vendor_named": true,
  "deployments_detail": [
   {
    "company": "Albemarle Corporation",
@@ -49,6 +54,50 @@
    "url": "https://www.albemarle.com/global/en/who-we-are/innovation",
    "raw_sector": "Materials",
    "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "Albemarle Corporation",
+   "use": "AI-driven process optimization across lithium operations and legacy manufacturing infrastructure",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.automationworld.com/analytics/article/55301313/aveva-scaling-ai-in-legacy-manufacturing-infrastructure-lessons-from-albemarle",
+   "raw_sector": "",
+   "date": "Jul 15, 2025",
+   "fresh": "undated"
+  },
+  {
+   "company": "Albemarle Corporation",
+   "use": "Predictive maintenance",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.cio.com/article/657479/cios-still-grapple-with-what-gen-ai-can-do-for-the-enterprise.html",
+   "raw_sector": "",
+   "date": "Nov 1, 2023",
+   "fresh": "undated"
+  },
+  {
+   "company": "Albemarle Corporation",
+   "use": "Albemarle Intelligence (AI) for data management and insights [AVEVA]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.aveva.com/en/perspectives/success-stories/albemarle/",
+   "raw_sector": "",
+   "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "Albemarle Corporation",
+   "use": "Generative AI assistant for process troubleshooting [Microsoft Azure OpenAI]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://innovateenergynow.com/resources/breaking-free-from-pilot-purgatory-lessons-from-albemarles-ai-transformation",
+   "raw_sector": "",
+   "date": "Oct 15, 2025",
    "fresh": "undated"
   }
  ]

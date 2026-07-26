@@ -3,27 +3,27 @@
  "name": "Intesa Sanpaolo",
  "cc": "IT",
  "vertical": "Financial Services",
- "deployments": 2,
- "confirmed": 2,
- "with_value_number": 1,
- "proof_rate": 0.5,
+ "deployments": 11,
+ "confirmed": 10,
+ "with_value_number": 4,
+ "proof_rate": 0.364,
  "mktcap": 121089600000.0,
  "revenue": 27766800000.0,
  "employees": 89931.0,
  "silent": false,
- "per_bn_revenue": 0.07,
- "per_10k_emp": 0.22,
+ "per_bn_revenue": 0.4,
+ "per_10k_emp": 1.22,
  "benchmarks": {
   "global_vertical": {
-   "deployments": 62,
-   "confirmed": 73,
-   "proof_rate": 61,
-   "n": 377
+   "deployments": 72,
+   "confirmed": 78,
+   "proof_rate": 66,
+   "n": 388
   },
   "country_vertical": {
-   "deployments": 56,
-   "confirmed": 67,
-   "proof_rate": 67,
+   "deployments": 100,
+   "confirmed": 100,
+   "proof_rate": 78,
    "n": 10
   }
  },
@@ -32,20 +32,42 @@
   {
    "year": 2022,
    "n": 1
+  },
+  {
+   "year": 2023,
+   "n": 3
+  },
+  {
+   "year": 2024,
+   "n": 3
+  },
+  {
+   "year": 2025,
+   "n": 2
+  },
+  {
+   "year": 2026,
+   "n": 1
   }
  ],
- "undated_pct": 50,
- "momentum": "early_mover,gone_quiet",
- "maturity": "L3",
+ "undated_pct": 9,
+ "momentum": "early_mover,cooling",
+ "maturity": "L4",
  "maturity_evidence": [
   "multi_horizontal",
   "named_product:Artificial",
   "value_number",
+  "multi_year",
   "tier_p"
  ],
- "prospect_score": 40,
- "stack": [],
- "vendor_named": false,
+ "prospect_score": 85,
+ "stack": [
+  "Google Cloud",
+  "Microsoft",
+  "Microsoft Azure",
+  "OpenAI"
+ ],
+ "vendor_named": true,
  "deployments_detail": [
   {
    "company": "Intesa Sanpaolo",
@@ -60,6 +82,28 @@
   },
   {
    "company": "Intesa Sanpaolo",
+   "use": "Ellis, an AI-based digital assistant (chatbot) and voicebot for retail customer service, powered by Google Dialogflow, handling customer interactions and made available via the bank's freephone number [Google (Dialogflow / Google Cloud)]",
+   "existence": "confirmed",
+   "value": "voicebot made available to the first 2 million customers",
+   "tier": "",
+   "url": "https://group.intesasanpaolo.com/content/dam/portalgroup/repository-documenti/sostenibilt%C3%A0/dcnf/dcnf-2023/eng/capitoli/Innovation,%20digital%20transformation%20and%20cybersecurity.pdf",
+   "raw_sector": "",
+   "date": "2023",
+   "fresh": "stale"
+  },
+  {
+   "company": "Intesa Sanpaolo",
+   "use": "Lisa (Linguistic Intelligence for Supervisory Awareness), an NLP/machine-learning tool that reads and rapidly processes thousands of banking supervision publications to support regulatory/compliance analysis [none]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://group.intesasanpaolo.com/en/newsroom/all-news/news/2023/machine-learning-and-banking-supervision",
+   "raw_sector": "",
+   "date": "2023",
+   "fresh": "stale"
+  },
+  {
+   "company": "Intesa Sanpaolo",
    "use": "Artificial Intelligence Lab at Innovation Center (applied AI research)",
    "existence": "confirmed",
    "value": "NONE",
@@ -68,6 +112,83 @@
    "raw_sector": "Banks",
    "date": "missing",
    "fresh": "undated"
+  },
+  {
+   "company": "Intesa Sanpaolo",
+   "use": "AI for regulatory analysis using Aptus.AI to create machine-readable versions of regulatory documents and set the Group Regulatory Agenda; ISP described as first European bank to use AI for regulatory analysis [Aptus.AI]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://group.intesasanpaolo.com/en/newsroom/press-releases/2023/10/intesa-sanpaolo-first-european-bank-to-use-artificial-intelligen",
+   "raw_sector": "",
+   "date": "2023",
+   "fresh": "stale"
+  },
+  {
+   "company": "Intesa Sanpaolo",
+   "use": "Democratic Data Lab built on Google Cloud to develop and release risk-management (and other data/AI) solutions faster [Google Cloud]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://cloud.google.com/customers/intesasanpaolo",
+   "raw_sector": "",
+   "date": "2024",
+   "fresh": "aging"
+  },
+  {
+   "company": "Intesa Sanpaolo",
+   "use": "AI tool supporting Corporate Banking Global Relationship Managers to improve proposal conversion [none]",
+   "existence": "confirmed",
+   "value": "improved proposal conversion rate by 70%",
+   "tier": "",
+   "url": "https://group.intesasanpaolo.com/en/editorial-section/events-and-projects/projects/innovation/2024/ai-solutions-in-digital-business",
+   "raw_sector": "",
+   "date": "2024",
+   "fresh": "aging"
+  },
+  {
+   "company": "Intesa Sanpaolo",
+   "use": "Microsoft Sentinel (AI-enabled SIEM) in production plus Microsoft Copilot for Security to accelerate threat detection/response, generate KQL queries and onboard junior SOC analysts [Microsoft (Sentinel, Copilot for Security, Azure OpenAI)]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.microsoft.com/en/customers/story/18745-intesa-sanpaolo-group-microsoft-copilot-for-security",
+   "raw_sector": "",
+   "date": "2024",
+   "fresh": "aging"
+  },
+  {
+   "company": "Intesa Sanpaolo",
+   "use": "AI transaction-monitoring algorithm developed with the Anti-Financial Crime Digital Hub (Politecnico di Torino, University of Turin) to detect suspicious transactions/tax fraud from false invoicing; public-private AML pilot [AFC Digital Hub (Politecnico di Torino, University of Turin)]",
+   "existence": "confirmed",
+   "value": "over 40,000 corporate customers analysed; more than 30 potential tax fraud cases identified",
+   "tier": "",
+   "url": "https://group.intesasanpaolo.com/en/newsroom/all-news/news/2026/ai-against-financial-crime",
+   "raw_sector": "",
+   "date": "2026",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Intesa Sanpaolo",
+   "use": "MAD (Multicriteria Anomaly Detection): unsupervised anomaly-detection deployed for Anti-Money Laundering, flagging suspicious financial accounts (real-world deployment case study) [none]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://dl.acm.org/doi/abs/10.1145/3711896.3737244",
+   "raw_sector": "",
+   "date": "2025",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Intesa Sanpaolo",
+   "use": "ChatFlex, a GenAI assistant for IT/technology teams that fast-tracks and simplifies legacy code analysis and supports analyst collaboration [none]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.linkedin.com/posts/claudio-balbo-789250_intesa-sanpaolos-gt-genai-innovating-it-activity-7391946329385750528-05so",
+   "raw_sector": "",
+   "date": "2025",
+   "fresh": "fresh"
   }
  ]
 }

@@ -3,10 +3,10 @@
  "name": "ADNOC (Abu Dhabi National Oil Company)",
  "cc": "AE",
  "vertical": "Energy & Utilities",
- "deployments": 1,
- "confirmed": 1,
- "with_value_number": 1,
- "proof_rate": 1.0,
+ "deployments": 5,
+ "confirmed": 4,
+ "with_value_number": 2,
+ "proof_rate": 0.4,
  "mktcap": null,
  "revenue": null,
  "employees": null,
@@ -15,34 +15,44 @@
  "per_10k_emp": null,
  "benchmarks": {
   "global_vertical": {
-   "deployments": 0,
-   "confirmed": 20,
-   "proof_rate": 75,
-   "n": 210
+   "deployments": 53,
+   "confirmed": 58,
+   "proof_rate": 77,
+   "n": 213
   },
   "country_vertical": {
-   "deployments": 0,
-   "confirmed": 25,
-   "proof_rate": 100,
-   "n": 5
+   "deployments": 40,
+   "confirmed": 60,
+   "proof_rate": 60,
+   "n": 6
   }
  },
- "first_seen": 2024,
+ "first_seen": 2023,
  "by_year": [
   {
+   "year": 2023,
+   "n": 1
+  },
+  {
    "year": 2024,
+   "n": 2
+  },
+  {
+   "year": 2025,
    "n": 1
   }
  ],
- "undated_pct": 0,
- "momentum": "early_mover,gone_quiet",
- "maturity": "L3",
+ "undated_pct": 20,
+ "momentum": "early_mover,cooling",
+ "maturity": "L4",
  "maturity_evidence": [
+  "multi_horizontal",
   "named_product:ENERGYai",
   "value_number",
+  "multi_year",
   "tier_p"
  ],
- "prospect_score": 14,
+ "prospect_score": 56,
  "stack": [],
  "vendor_named": false,
  "deployments_detail": [
@@ -56,6 +66,50 @@
    "raw_sector": "Energy",
    "date": "2024",
    "fresh": "aging"
+  },
+  {
+   "company": "ADNOC (Abu Dhabi National Oil Company)",
+   "use": "AI solutions deployment across upstream, midstream, and downstream operations generating operational value",
+   "existence": "confirmed",
+   "value": "$500 million",
+   "tier": "",
+   "url": "https://www.adnoc.ae/en/news-and-media/press-releases/2023/$500-million-in-value-generated-by-adnoc-through-deployment-of-ai-solutions-in-2023",
+   "raw_sector": "",
+   "date": "2023",
+   "fresh": "stale"
+  },
+  {
+   "company": "ADNOC (Abu Dhabi National Oil Company)",
+   "use": "ENERGYai deployment across upstream assets covering 28 producing fields [ENERGYai]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.oilandgasmiddleeast.com/business/energyai-adnoc-ai-sustainability",
+   "raw_sector": "",
+   "date": "2025-03",
+   "fresh": "fresh"
+  },
+  {
+   "company": "ADNOC (Abu Dhabi National Oil Company)",
+   "use": "AI technology deployment at SARB field to increase oil production",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.offshore-technology.com/news/adnoc-uses-ai-to-increase-oil-production-at-sarb-field-by-25/",
+   "raw_sector": "",
+   "date": "2024-07-31",
+   "fresh": "aging"
+  },
+  {
+   "company": "ADNOC (Abu Dhabi National Oil Company)",
+   "use": "AI-powered systems for early detection and prevention of critical equipment failures and environmental KPI monitoring",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.qsys.com/resource-files/casestudies/q_cs_adnoc.pdf",
+   "raw_sector": "",
+   "date": "missing",
+   "fresh": "undated"
   }
  ]
 }

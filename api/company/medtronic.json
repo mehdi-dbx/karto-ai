@@ -3,43 +3,151 @@
  "name": "Medtronic",
  "cc": "US",
  "vertical": "Healthcare & Life Sciences",
- "deployments": 1,
- "confirmed": 1,
- "with_value_number": 1,
- "proof_rate": 1.0,
+ "deployments": 12,
+ "confirmed": 10,
+ "with_value_number": 6,
+ "proof_rate": 0.5,
  "mktcap": 104900000000.0,
  "revenue": 36360000000.0,
  "employees": 95000.0,
  "silent": false,
- "per_bn_revenue": 0.03,
- "per_10k_emp": 0.11,
+ "per_bn_revenue": 0.33,
+ "per_10k_emp": 1.26,
  "benchmarks": {
   "global_vertical": {
-   "deployments": 0,
-   "confirmed": 13,
+   "deployments": 84,
+   "confirmed": 87,
    "proof_rate": 83,
-   "n": 165
+   "n": 168
   },
   "country_vertical": {
-   "deployments": 0,
-   "confirmed": 7,
-   "proof_rate": 90,
+   "deployments": 81,
+   "confirmed": 78,
+   "proof_rate": 86,
    "n": 59
   }
  },
- "first_seen": null,
- "by_year": [],
- "undated_pct": 100,
- "momentum": "none",
- "maturity": "L3",
- "maturity_evidence": [
-  "named_product:Genius",
-  "value_number"
+ "first_seen": 2018,
+ "by_year": [
+  {
+   "year": 2018,
+   "n": 1
+  },
+  {
+   "year": 2021,
+   "n": 1
+  },
+  {
+   "year": 2022,
+   "n": 1
+  },
+  {
+   "year": 2023,
+   "n": 3
+  },
+  {
+   "year": 2025,
+   "n": 3
+  },
+  {
+   "year": 2026,
+   "n": 2
+  }
  ],
- "prospect_score": 14,
- "stack": [],
- "vendor_named": false,
+ "undated_pct": 8,
+ "momentum": "early_mover,rising",
+ "maturity": "L4",
+ "maturity_evidence": [
+  "multi_horizontal",
+  "named_product:Genius",
+  "value_number",
+  "multi_year"
+ ],
+ "prospect_score": 80,
+ "stack": [
+  "IBM",
+  "NVIDIA",
+  "Salesforce"
+ ],
+ "vendor_named": true,
  "deployments_detail": [
+  {
+   "company": "Medtronic",
+   "use": "GI Genius intelligent endoscopy module: AI computer-aided polyp detection during colonoscopy in real time. First FDA de novo cleared (2021) AI system for colonoscopy; deployed commercially and used clinically worldwide. [Medtronic (with Cosmo Intelligent Medical Devices); NVIDIA Holoscan/IGX for AI Access platform]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://news.medtronic.com/2021-04-12-U-S-FDA-Grants-De-Novo-Clearance-for-First-and-Only-Artificial-Intelligence-System-for-Colonoscopy-Medtronic-Launches-GI-Genius-TM-Intelligent-Endoscopy-Module",
+   "raw_sector": "",
+   "date": "2021-04-12",
+   "fresh": "stale"
+  },
+  {
+   "company": "Medtronic",
+   "use": "AccuRhythm AI algorithms for LINQ II insertable cardiac monitor: deep-learning algorithms applied to CareLink-network ECG data to remove false atrial fibrillation and false pause alerts. Deployed/FDA cleared and in clinical use. [Medtronic]",
+   "existence": "confirmed",
+   "value": "AF false alert reduction improved to beyond prior 74.1% reduction",
+   "tier": "",
+   "url": "https://news.medtronic.com/New-data-demonstrates-Medtronic-LINQ-II-insertable-cardiac-monitors-and-AccuRhythm-AI-algorithm-further-reduce-false-alerts",
+   "raw_sector": "",
+   "date": "2023-11-13",
+   "fresh": "stale"
+  },
+  {
+   "company": "Medtronic",
+   "use": "Touch Surgery Enterprise: AI-powered surgical video management and analytics platform for the OR that automatically captures, annotates, and anonymizes procedural video (RedactOR AI) for surgeon review. Commercially deployed. [Medtronic (Digital Surgery)]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://news.medtronic.com/Touch-Surgery-Enterprise-Media-Kit",
+   "raw_sector": "",
+   "date": "2022-03-08",
+   "fresh": "stale"
+  },
+  {
+   "company": "Medtronic",
+   "use": "Touch Surgery Aide compute platform with Instrument Exit Point (IEP): first real-time AI application for the Hugo robotic-assisted surgery system, using computer vision to alert surgeons when instruments leave the visible field. IEP FDA cleared. [Medtronic; NVIDIA (Holoscan, CUDA, TensorRT)]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://news.medtronic.com/2026-07-21-A-new-era-for-surgery-with-real-time-AI-Medtronic-to-unveil-Touch-Surgery-TM-Aide,-the-next-generation-compute-platform-for-the-operating-room-at-Society-of-Robotic-Surgery-2026",
+   "raw_sector": "",
+   "date": "2026-07-21",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Medtronic",
+   "use": "Sugar.IQ smart diabetes assistant app: AI (IBM Watson Health) that analyzes CGM/Guardian Connect data to surface glucose patterns and predict low-glucose events (IQcast). Commercially available/deployed. [Medtronic with IBM Watson Health]",
+   "existence": "confirmed",
+   "value": "Guardian Connect + Sugar.IQ users gained ~1 additional hour/day in target glycemic range (real-world study)",
+   "tier": "",
+   "url": "https://news.medtronic.com/2018-06-22-Artificial-Intelligence-Powered-Sugar-IQ-TM-Diabetes-Management-App-Developed-by-Medtronic-and-IBM-Watson-Health-Now-Commercially-Available",
+   "raw_sector": "",
+   "date": "2018-06-22",
+   "fresh": "stale"
+  },
+  {
+   "company": "Medtronic",
+   "use": "BrainSense Adaptive deep brain stimulation (Percept neurostimulators): world's first closed-loop adaptive DBS that senses patient brain signals and automatically adjusts stimulation for Parkinson's. FDA approved and available to patients. [Medtronic]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://news.medtronic.com/2025-02-24-Medtronic-earns-U-S-FDA-approval-for-the-worlds-first-Adaptive-deep-brain-stimulation-system-for-people-with-Parkinsons",
+   "raw_sector": "",
+   "date": "2025-02-24",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Medtronic",
+   "use": "Tempus AI-driven EHR notifications (ALERT trial) to detect valvular heart disease care gaps and prompt clinician evaluation/referral for TAVR. Evaluated in a randomized trial; being deployed with Tempus. [Tempus AI]",
+   "existence": "claimed",
+   "value": "AI-enabled electronic care notifications 27% more effective than usual care at notifying clinicians",
+   "tier": "",
+   "url": "https://news.medtronic.com/Medtronic-study-reveals-AI-enabled-clinician-alerts-significantly-improve-evaluation-and-valve-intervention-for-patients-with-heart-valve-disease",
+   "raw_sector": "",
+   "date": "2026-03-29",
+   "fresh": "fresh"
+  },
   {
    "company": "Medtronic",
    "use": "GI Genius AI computer-aided colon polyp detection (first FDA-authorized; reduces missed polyps up to ~50%) + Touch Surgery",
@@ -50,6 +158,50 @@
    "raw_sector": "Health Care",
    "date": "missing",
    "fresh": "undated"
+  },
+  {
+   "company": "Medtronic",
+   "use": "Medtronic-NVIDIA collaboration to build an AI platform for medical devices, integrating NVIDIA Holoscan (real-time AI computing) and IGX edge hardware into Medtronic devices starting with GI Genius / endoscopy. [NVIDIA (Holoscan, IGX)]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://nvidianews.nvidia.com/news/medtronic-and-nvidia-collaborate-to-build-ai-platform-for-medical-devices",
+   "raw_sector": "",
+   "date": "2023-03-21",
+   "fresh": "stale"
+  },
+  {
+   "company": "Medtronic",
+   "use": "Everstream Analytics AI/NLP + graph/entity-resolution used by Medtronic Global Operations & Supply Chain to map multi-tier supplier networks and monitor supply-chain risk (discovered 13,876 tier-four suppliers). Deployed for supply-chain resilience. [Everstream Analytics]",
+   "existence": "confirmed",
+   "value": "13,876 tier-four suppliers identified",
+   "tier": "",
+   "url": "https://www.everstream.ai/events/case-study-how-medtronic-uses-tech-healthy-medical-device-supply-chain/",
+   "raw_sector": "",
+   "date": "2023-01-01",
+   "fresh": "stale"
+  },
+  {
+   "company": "Medtronic",
+   "use": "Teneo agentic AI contact-center automation across voice and digital channels: RAG on approved content plus LLMs handling patient/clinician support, device troubleshooting, and field-rep workflows across 10+ business units and 60+ contact centers. In production. [Teneo.ai]",
+   "existence": "confirmed",
+   "value": "$6M saved, 36,000 agent hours saved, 1.05M calls handled; cost per contact reduced from $25.96 to under $12 in Cardiovascular Group; 13 agents live",
+   "tier": "",
+   "url": "https://www.teneo.ai/learning-hub/conversational-ivr-case-studies/medtronic",
+   "raw_sector": "",
+   "date": "2025-08-08",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Medtronic",
+   "use": "AI/analytics inside Salesforce CRM used by market-development and sales teams to identify where eligible patients are located, optimize sales-team deployment, and detect care-pathway bottlenecks (e.g., heart-failure referral gaps). [Salesforce CRM]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://medcitynews.com/2025/11/medtronic-ai-sales/",
+   "raw_sector": "",
+   "date": "2025-11-04",
+   "fresh": "fresh"
   }
  ]
 }

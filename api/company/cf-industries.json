@@ -3,42 +3,89 @@
  "name": "CF Industries",
  "cc": "US",
  "vertical": "Chemicals & Materials",
- "deployments": 1,
- "confirmed": 0,
- "with_value_number": 0,
- "proof_rate": 0.0,
+ "deployments": 7,
+ "confirmed": 5,
+ "with_value_number": 1,
+ "proof_rate": 0.143,
  "mktcap": 19360000000.0,
  "revenue": 7410000000.0,
  "employees": 2900.0,
  "silent": false,
- "per_bn_revenue": 0.13,
- "per_10k_emp": 3.45,
+ "per_bn_revenue": 0.94,
+ "per_10k_emp": 24.14,
  "benchmarks": {
   "global_vertical": {
-   "deployments": 0,
-   "confirmed": 0,
-   "proof_rate": 0,
-   "n": 105
+   "deployments": 72,
+   "confirmed": 69,
+   "proof_rate": 42,
+   "n": 107
   },
   "country_vertical": {
-   "deployments": 0,
-   "confirmed": 0,
-   "proof_rate": 0,
+   "deployments": 80,
+   "confirmed": 72,
+   "proof_rate": 52,
    "n": 26
   }
  },
- "first_seen": null,
- "by_year": [],
- "undated_pct": 100,
- "momentum": "none",
- "maturity": "L1",
- "maturity_evidence": [
-  "rows_no_confirmed"
+ "first_seen": 2024,
+ "by_year": [
+  {
+   "year": 2024,
+   "n": 1
+  },
+  {
+   "year": 2026,
+   "n": 5
+  }
  ],
- "prospect_score": 40,
- "stack": [],
- "vendor_named": false,
+ "undated_pct": 14,
+ "momentum": "early_mover,rising",
+ "maturity": "L4",
+ "maturity_evidence": [
+  "multi_horizontal",
+  "named_product:Microsoft",
+  "value_number",
+  "multi_year"
+ ],
+ "prospect_score": 64,
+ "stack": [
+  "Microsoft"
+ ],
+ "vendor_named": true,
  "deployments_detail": [
+  {
+   "company": "CF Industries",
+   "use": "Microsoft 365 Copilot deployed company-wide as CF Industries' first AI program for user/employee productivity (drafting, summarizing, analysis in Office apps), reported by CF's IT leadership as reaching 93% adoption. [Microsoft (M365 Copilot)]",
+   "existence": "confirmed",
+   "value": "93% adoption",
+   "tier": "",
+   "url": "https://www.linkedin.com/in/peterszoke",
+   "raw_sector": "",
+   "date": "2024-2025",
+   "fresh": "aging"
+  },
+  {
+   "company": "CF Industries",
+   "use": "Global integrated supply-chain planning: CF Industries is implementing OMP's Unison Planning (which includes UnisonIQ AI) to connect production planning with real transport, loading and dock-capacity constraints across its global fertilizer network, with EY as delivery partner. Go-live planned for later in 2026 (not yet in production). [OMP (Unison Planning / UnisonIQ AI); EY (delivery partner)]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://omp.com/news-events/news/2026/cf-industries-integrates-production-and-distribution-to-boost-operational-resilience",
+   "raw_sector": "",
+   "date": "2026",
+   "fresh": "fresh"
+  },
+  {
+   "company": "CF Industries",
+   "use": "Talent acquisition / recruitment: CF Industries discloses in its job postings that it uses automated tools, including artificial intelligence (AI) and machine learning technologies, to assist in its recruitment process (e.g., screening/evaluating applications). [none disclosed]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.linkedin.com/jobs/view/production-operator-trainee-at-cf-industries-4432492387",
+   "raw_sector": "",
+   "date": "2026",
+   "fresh": "fresh"
+  },
   {
    "company": "CF Industries",
    "use": "no confirmed own AI deployment found (only 3rd-party analysis of AI's market impact on fertilizer demand)",
@@ -49,6 +96,39 @@
    "raw_sector": "Materials",
    "date": "missing",
    "fresh": "undated"
+  },
+  {
+   "company": "CF Industries",
+   "use": "Donaldsonville Complex combines smart tags, geolocation and AI analytics to deliver real-time asset and safety insights that reduce risk and improve field decision-making in plant operations (recognized as a 2026 Wilson Award Finalist). [none disclosed]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.linkedin.com/posts/cf-industries_innovation-is-in-action-at-cf-industries-activity-7485739086406742016-FBuG",
+   "raw_sector": "",
+   "date": "2026",
+   "fresh": "fresh"
+  },
+  {
+   "company": "CF Industries",
+   "use": "Billingham Complex deployed an AI-powered mobile equipment/forklift safety system giving operators a 360-degree view, eliminating blind spots, automatically slowing equipment and triggering alarms/pedestrian alerts when people are detected nearby (AI-powered cameras plus warning lighting). [none disclosed]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.linkedin.com/posts/martin-liddle-35289826_2026-wilson-award-finalist-billingham-activity-7480684262023704576-apKn",
+   "raw_sector": "",
+   "date": "2026",
+   "fresh": "fresh"
+  },
+  {
+   "company": "CF Industries",
+   "use": "Donaldsonville Complex deployed an AI-powered mobile plant/vehicle safety solution (originally developed on the UK M6 Smart Motorway upgrade) combining Human Form Recognition, 3D Avoidance and virtual safety zones to detect hazards in real time, prevent incursions and automate safety-critical responses. [none disclosed]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.facebook.com/cfindustries/posts/innovation-is-in-action-at-cf-industries-donaldsonville-complexby-combining-smar/1528861959041084/",
+   "raw_sector": "",
+   "date": "2026",
+   "fresh": "fresh"
   }
  ]
 }

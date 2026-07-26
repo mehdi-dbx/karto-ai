@@ -3,22 +3,22 @@
  "name": "PGE",
  "cc": "PL",
  "vertical": "Energy & Utilities",
- "deployments": 3,
- "confirmed": 3,
- "with_value_number": 1,
+ "deployments": 6,
+ "confirmed": 6,
+ "with_value_number": 2,
  "proof_rate": 0.333,
  "mktcap": 5722500000.0,
  "revenue": 15430000000.0,
  "employees": 40148.0,
  "silent": false,
- "per_bn_revenue": 0.19,
- "per_10k_emp": 0.75,
+ "per_bn_revenue": 0.39,
+ "per_10k_emp": 1.49,
  "benchmarks": {
   "global_vertical": {
-   "deployments": 88,
-   "confirmed": 90,
-   "proof_rate": 65,
-   "n": 210
+   "deployments": 68,
+   "confirmed": 78,
+   "proof_rate": 68,
+   "n": 213
   }
  },
  "first_seen": 2025,
@@ -28,7 +28,7 @@
    "n": 1
   }
  ],
- "undated_pct": 67,
+ "undated_pct": 83,
  "momentum": "rising",
  "maturity": "L3",
  "maturity_evidence": [
@@ -37,10 +37,11 @@
   "value_number",
   "tier_p"
  ],
- "prospect_score": 45,
+ "prospect_score": 63,
  "stack": [
   "Microsoft",
   "Microsoft Azure",
+  "NVIDIA",
   "OpenAI"
  ],
  "vendor_named": true,
@@ -69,6 +70,17 @@
   },
   {
    "company": "PGE",
+   "use": "Document search and retrieval at nuclear power plant operations [Atomic Canyon, Nvidia]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.electricperspectives.com/pge-deploys-first-commercial-generative-ai-tool-for-nuclear-energy/",
+   "raw_sector": "",
+   "date": "Apr 17, 2025",
+   "fresh": "undated"
+  },
+  {
+   "company": "PGE",
    "use": "PGE Obrót (nearly 6 million customers) cooperation with Microsoft using Microsoft 365 Copilot and Azure OpenAI to enhance efficiency and customer satisfaction",
    "existence": "confirmed",
    "value": "serving ~6 million customers",
@@ -77,6 +89,28 @@
    "raw_sector": "Utilities",
    "date": "2025",
    "fresh": "fresh"
+  },
+  {
+   "company": "PGE",
+   "use": "Voice AI agent for customer service call handling [PolyAI]",
+   "existence": "confirmed",
+   "value": "35000",
+   "tier": "",
+   "url": "https://poly.ai/customers/pge",
+   "raw_sector": "",
+   "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "PGE",
+   "use": "AI-powered customer service representative assistance",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.pge.com/en/newsroom/currents/customer-service/customer-at-the-heart--powered-by-ai--.html",
+   "raw_sector": "",
+   "date": "May 22, 2026",
+   "fresh": "undated"
   }
  ]
 }

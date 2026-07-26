@@ -3,34 +3,67 @@
  "name": "Nestlé SA",
  "cc": "CH",
  "vertical": "Retail & E-commerce",
- "deployments": 2,
- "confirmed": 2,
- "with_value_number": 0,
- "proof_rate": 0.0,
+ "deployments": 12,
+ "confirmed": 11,
+ "with_value_number": 6,
+ "proof_rate": 0.5,
  "mktcap": 250464500000.0,
  "revenue": 101575700000.0,
  "employees": 271000.0,
  "silent": false,
- "per_bn_revenue": 0.02,
- "per_10k_emp": 0.07,
+ "per_bn_revenue": 0.12,
+ "per_10k_emp": 0.44,
  "benchmarks": {
   "global_vertical": {
-   "deployments": 71,
-   "confirmed": 80,
-   "proof_rate": 0,
-   "n": 295
+   "deployments": 86,
+   "confirmed": 89,
+   "proof_rate": 78,
+   "n": 301
   }
  },
- "first_seen": null,
- "by_year": [],
- "undated_pct": 100,
- "momentum": "none",
- "maturity": "L2",
+ "first_seen": 2021,
+ "by_year": [
+  {
+   "year": 2021,
+   "n": 1
+  },
+  {
+   "year": 2022,
+   "n": 1
+  },
+  {
+   "year": 2024,
+   "n": 2
+  },
+  {
+   "year": 2025,
+   "n": 5
+  },
+  {
+   "year": 2026,
+   "n": 1
+  }
+ ],
+ "undated_pct": 17,
+ "momentum": "early_mover,rising",
+ "maturity": "L4",
  "maturity_evidence": [
+  "multi_horizontal",
+  "named_product:NesGPT",
+  "value_number",
+  "multi_year",
   "tier_p"
  ],
- "prospect_score": 52,
- "stack": [],
+ "prospect_score": 80,
+ "stack": [
+  "Accenture",
+  "IBM",
+  "Microsoft",
+  "Microsoft Azure",
+  "NVIDIA",
+  "OpenAI",
+  "SAP"
+ ],
  "vendor_named": true,
  "deployments_detail": [
   {
@@ -54,6 +87,116 @@
    "raw_sector": "Retail staples",
    "date": "missing",
    "fresh": "undated"
+  },
+  {
+   "company": "Nestlé SA",
+   "use": "Generative AI tool to discover novel high-barrier sustainable packaging materials via a fine-tuned chemical language model trained on materials data [IBM Research (regression transformer / foundation model)]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.nestle.com/about/research-development/news/ibm-ai-powered-sustainable-packaging",
+   "raw_sector": "",
+   "date": "2025-07-03",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Nestlé SA",
+   "use": "Petivity Smart Litterbox System (Purina) — AI-powered predictive pet-health monitor that learns each cat's patterns (weight, frequency, waste type) to flag early signs of disease [Nestlé Purina PetCare (dev partner Cambridge Consultants)]",
+   "existence": "confirmed",
+   "value": "Launched and available for purchase at $199.99",
+   "tier": "",
+   "url": "https://newscenter.purina.com/2022-09-26-AI-Powered-Litterbox-System-Offers-New-Standard-of-Care-for-Cat-Owners",
+   "raw_sector": "",
+   "date": "2022-09-26",
+   "fresh": "stale"
+  },
+  {
+   "company": "Nestlé SA",
+   "use": "Generative AI product-ideation/formulation tool that analyzes R&D data, consumer insights and market trends from 20+ brands to generate product concepts [Nestlé proprietary (built on internal data)]",
+   "existence": "confirmed",
+   "value": "Generates concepts in ~1 minute; reduced ideation timeline from six months to six weeks",
+   "tier": "",
+   "url": "https://www.nestleusa.com/stories/unlocking-new-opportunities-gen-ai",
+   "raw_sector": "",
+   "date": "2024-06-27",
+   "fresh": "aging"
+  },
+  {
+   "company": "Nestlé SA",
+   "use": "SAP's Joule AI copilot embedded in Nestlé's core S/4HANA Cloud systems (supply chain, procurement, order fulfillment) to access insights, automate routine tasks, and speed decisions; first phase rolled out to Asia, Oceania and Africa (50,000 users across 112 countries). [SAP] [SAP]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.nestle.com/media/news/digital-core-sap-s4hana-cloud-upgrade",
+   "raw_sector": "",
+   "date": "2025-10-23",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Nestlé SA",
+   "use": "NesGPT — internal secure generative AI assistant for employees (content drafting, meeting agendas, proofreading, idea generation, data analysis) used across sales, product innovation, marketing and legal [OpenAI / Microsoft Azure OpenAI Service]",
+   "existence": "confirmed",
+   "value": "Piloted May 2023, rolled out globally; ~7,000 U.S. employees generated ~230,000 prompts in three months; users save an average of 45 minutes per week",
+   "tier": "",
+   "url": "https://www.worklife.news/technology/nesgpt-nestle-genai/",
+   "raw_sector": "",
+   "date": "2024-07-23",
+   "fresh": "aging"
+  },
+  {
+   "company": "Nestlé SA",
+   "use": "AI/ML demand forecasting and supply-chain optimization — statistical demand forecasts, anticipating port container arrivals, and dynamically adjusting production and inventory [none]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.cio.com/article/4070284/nestle-makes-ai-the-main-course.html",
+   "raw_sector": "",
+   "date": "2025-10-10",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Nestlé SA",
+   "use": "SAP S/4HANA Cloud digital core upgrade with embedded AI copilot for enterprise operations [SAP (S/4HANA Cloud Private Edition)]",
+   "existence": "confirmed",
+   "value": "First phase completed covering more than 50,000 users in 112 countries",
+   "tier": "",
+   "url": "https://www.marketingtechnews.net/news/nestles-ai-push-brings-new-marketing-tools-into-daily-workflows/",
+   "raw_sector": "",
+   "date": "2026-02-26",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Nestlé SA",
+   "use": "AI-powered 'digital twin' content service — exact 3D virtual replicas of products used to generate and localize eCommerce/marketing visuals at scale (Purina, Nescafé Dolce Gusto, Nespresso) [NVIDIA Omniverse + OpenUSD + NVIDIA AI Enterprise, Microsoft cloud, Accenture Song]",
+   "existence": "confirmed",
+   "value": "Over 70% reduction in time and cost to scale content; 4,000 3D master products today, targeting 10,000 in two years; scaling across 45 content studios and 250 marketing experts in 7 hubs",
+   "tier": "",
+   "url": "https://www.nestle.com/media/news/brands-ai-digital-twins-content-service",
+   "raw_sector": "",
+   "date": "2025-06-11",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Nestlé SA",
+   "use": "AI-driven Customer Data Platform for marketing personalization — unifying first-party data and activating audiences across Meta, Google DV360, TikTok, Pinterest, Amazon, WhatsApp (Nestlé Mexico and Brazil) [Treasure Data CDP (partners Hive, Artefact)]",
+   "existence": "confirmed",
+   "value": "Mexico: $4.9M paid-media/CRM savings, 71% CTR increase, 49% lower cost per lead, $2.3M operational savings; Brazil: $5M incremental revenue (2025), 36% at-risk customer retention",
+   "tier": "",
+   "url": "https://www.treasure.ai/customers/nestle-global-cpg",
+   "raw_sector": "",
+   "date": "2025-01-01",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Nestlé SA",
+   "use": "Nestlé Toll House 'Cookie Coach' Ruth — photorealistic virtual-human customer-support avatar using natural language AI and autonomous animation to answer baking questions [Soul Machines]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://voicebot.ai/2021/02/24/nestle-debuts-virtual-human-cookie-coach/",
+   "raw_sector": "",
+   "date": "2021-02-24",
+   "fresh": "stale"
   }
  ]
 }

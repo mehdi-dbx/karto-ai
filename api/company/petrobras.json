@@ -3,45 +3,65 @@
  "name": "Petrobras",
  "cc": "BR",
  "vertical": "Energy & Utilities",
- "deployments": 3,
- "confirmed": 3,
- "with_value_number": 2,
- "proof_rate": 0.667,
+ "deployments": 15,
+ "confirmed": 13,
+ "with_value_number": 11,
+ "proof_rate": 0.733,
  "mktcap": 108961111111.0,
  "revenue": 92238888889.0,
  "employees": 43199.0,
  "silent": false,
- "per_bn_revenue": 0.03,
- "per_10k_emp": 0.69,
+ "per_bn_revenue": 0.16,
+ "per_10k_emp": 3.47,
  "benchmarks": {
   "global_vertical": {
-   "deployments": 88,
-   "confirmed": 90,
-   "proof_rate": 74,
-   "n": 210
+   "deployments": 96,
+   "confirmed": 95,
+   "proof_rate": 94,
+   "n": 213
   },
   "country_vertical": {
    "deployments": 100,
    "confirmed": 100,
-   "proof_rate": 61,
+   "proof_rate": 89,
    "n": 19
   }
  },
- "first_seen": null,
- "by_year": [],
- "undated_pct": 100,
- "momentum": "none",
- "maturity": "L3",
+ "first_seen": 2023,
+ "by_year": [
+  {
+   "year": 2023,
+   "n": 2
+  },
+  {
+   "year": 2024,
+   "n": 6
+  },
+  {
+   "year": 2025,
+   "n": 3
+  }
+ ],
+ "undated_pct": 27,
+ "momentum": "early_mover,cooling",
+ "maturity": "L4",
  "maturity_evidence": [
   "multi_horizontal",
   "named_product:Generative",
   "value_number",
+  "multi_year",
   "tier_p"
  ],
- "prospect_score": 31,
+ "prospect_score": 71,
  "stack": [
+  "Databricks",
+  "Deloitte",
+  "Meta",
+  "Microsoft",
   "Microsoft Azure",
-  "OpenAI"
+  "NVIDIA",
+  "OpenAI",
+  "SAP"
  ],
  "vendor_named": true,
  "deployments_detail": [
@@ -69,6 +89,28 @@
   },
   {
    "company": "Petrobras",
+   "use": "ChatPetrobras: internal generative-AI assistant built on Azure OpenAI (GPT) for report summarization, text editing/translation, and code generation; rolled out to ~110,000 employees via an internal portal since Nov 2022 (five-month deployment). [Microsoft Azure OpenAI Service (GPT)]",
+   "existence": "confirmed",
+   "value": "110,000 employees served",
+   "tier": "",
+   "url": "https://www.microsoft.com/en/customers/story/1758695276753608190-petrobras-azure-openai-service-energy-en-brazil",
+   "raw_sector": "",
+   "date": "2024-04-18",
+   "fresh": "aging"
+  },
+  {
+   "company": "Petrobras",
+   "use": "Generative-AI-powered automation of complex Brazilian tax filings in the tax department using Automation Anywhere's Automation Co-Pilot; filed taxes in three days without weekend work for the first time in 15 years. [Automation Anywhere]",
+   "existence": "confirmed",
+   "value": "$120 million saved in three weeks; targeting >$1 billion annual savings",
+   "tier": "",
+   "url": "https://www.prnewswire.com/news-releases/automation-anywheres-generative-ai-powered-automation-saves-petrobras-120-million-in-just-three-weeks-302083053.html",
+   "raw_sector": "",
+   "date": "2024-03-07",
+   "fresh": "aging"
+  },
+  {
+   "company": "Petrobras",
    "use": "Proprietary AI tool to identify/monitor debtor assets for recovery; ML tool forecasting domestic fuel-market sales/revenue",
    "existence": "confirmed",
    "value": "none",
@@ -77,6 +119,116 @@
    "raw_sector": "Oil & gas",
    "date": "missing",
    "fresh": "undated"
+  },
+  {
+   "company": "Petrobras",
+   "use": "Tatu AI supercomputer at the Cenpes research center dedicated to AI techniques for Exploration & Production (E&P) and geoscience problems using Petrobras' own AI algorithms; operational since March 2023. [NVIDIA (224 A100 GPUs)]",
+   "existence": "confirmed",
+   "value": "BRL 36 million investment (~$6.8M)",
+   "tier": "",
+   "url": "https://www.sdxcentral.com/news/petrobras-deploys-first-ai-supercomputer/",
+   "raw_sector": "",
+   "date": "2023-06-29",
+   "fresh": "stale"
+  },
+  {
+   "company": "Petrobras",
+   "use": "SolverBR linear solver for reservoir simulation ported to NVIDIA Grace (Arm) CPU with NVIDIA and CESAR; benchmarking phase with plans to port full geomechanical/reservoir simulators (pilot/evaluation). [NVIDIA Grace CPU; CESAR Innovation Center]",
+   "existence": "claimed",
+   "value": "Up to 4.5x faster; 4.3x greater energy efficiency",
+   "tier": "",
+   "url": "https://developer.nvidia.com/blog/spotlight-petrobras-accelerates-linear-solvers-for-reservoir-simulation-using-nvidia-grace-cpu/",
+   "raw_sector": "",
+   "date": "2024-09-24",
+   "fresh": "aging"
+  },
+  {
+   "company": "Petrobras",
+   "use": "ANYmal X autonomous legged inspection robots for offshore FPSO inspections (condition monitoring, anomaly detection, 3D mapping, gas-leak detection); field-tested on FPSO P-74 in 2023 with a long-term pilot planned for 2024. [ANYbotics (ANYmal X)]",
+   "existence": "confirmed",
+   "value": "$4 million for six units",
+   "tier": "",
+   "url": "https://www.anybotics.com/news/petrobras-and-anybotics-join-efforts-to-automate-offshore-fpso-inspections/",
+   "raw_sector": "",
+   "date": "2023-11-22",
+   "fresh": "stale"
+  },
+  {
+   "company": "Petrobras",
+   "use": "SAP Intelligent Asset Management with machine-learning engine for anomaly detection and failure prediction across critical systems at the Buzios ultra-deepwater field; 10 critical systems live across all Buzios units by end of 2023. [SAP (Asset Strategy & Performance Management, Predictive Asset Insights)]",
+   "existence": "confirmed",
+   "value": "10 critical systems live across Buzios",
+   "tier": "",
+   "url": "https://news.sap.com/2024/03/petrobras-sap-intelligent-asset-management-maintenance/",
+   "raw_sector": "",
+   "date": "2024-03-01",
+   "fresh": "aging"
+  },
+  {
+   "company": "Petrobras",
+   "use": "PetroNeMo: generative-AI maintenance/asset-integrity assistant (fine-tuned LLaMA models via NVIDIA NeMo) built with Deloitte; turns 2-3 week maintenance recommendation analysis into minutes, running on-premises on Petrobras supercomputers; supports ~400 reliability engineers, in production. [Deloitte; NVIDIA NeMo; Meta LLaMA]",
+   "existence": "confirmed",
+   "value": "Est. R$20 million savings by 2029; ~400 reliability engineers; 50% token-cost reduction",
+   "tier": "",
+   "url": "https://www.deloitte.com/br/pt/services/consulting/perspectives/petrobras-inovacao-eficiencia.html",
+   "raw_sector": "",
+   "date": "2025-03-20",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Petrobras",
+   "use": "Geoteric AI Fault Interpretation software for AI-assisted seismic interpretation in the pre-salt, Campos and Santos basins (salt movement, trap formation, reservoir compartmentalization); multi-year deployment announced July 2024. [Geoteric (AI Fault Interpretation)]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.energy-pedia.com/news/brazil/geoteric-announced-as-key-player-in-petrobras%E2%80%99-ambitious-business-strategies-196649",
+   "raw_sector": "",
+   "date": "2024-07-01",
+   "fresh": "aging"
+  },
+  {
+   "company": "Petrobras",
+   "use": "'Chat Petrobras' on Azure OpenAI Service to streamline workflows and report summarization [Microsoft] [Microsoft]",
+   "existence": "confirmed",
+   "value": "Serves 110,000 employees",
+   "tier": "",
+   "url": "https://www.microsoft.com/en-us/microsoft-cloud/blog/2025/07/24/ai-powered-success-with-1000-stories-of-customer-transformation-and-innovation/",
+   "raw_sector": "",
+   "date": "2025-07-24",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Petrobras",
+   "use": "Named as a Microsoft Copilot customer/case study [Microsoft Copilot] [Microsoft Copilot]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.microsoft.com/en-us/microsoft-cloud/blog/2025/07/24/ai-powered-success-with-1000-stories-of-customer-transformation-and-innovation/",
+   "raw_sector": "",
+   "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "Petrobras",
+   "use": "MLOps transformation using MLflow, Databricks Asset Bundles and Unity Catalog to automate model validation, cut deployment timelines from days to hours, and add governance/reproducibility across production ML models. [Databricks (MLflow, DABs, Unity Catalog)]",
+   "existence": "confirmed",
+   "value": "Model deployment reduced from days to hours",
+   "tier": "",
+   "url": "https://www.databricks.com/blog/data-intelligence-action-100-data-and-ai-use-cases-databricks-customers",
+   "raw_sector": "",
+   "date": "2025-07-09",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Petrobras",
+   "use": "Raí: agentic generative-AI application for internal audit planning, letting auditors query technical standards, auditing guidelines, risk assessments and historical audits in natural language; in production for six months at time of case study. [OutSystems (low-code) + generative AI models]",
+   "existence": "confirmed",
+   "value": "Up to 90% reduction in research time (days to ~5 minutes)",
+   "tier": "",
+   "url": "https://www.outsystems.com/case-studies/petrobras-audit-agentic-ai",
+   "raw_sector": "",
+   "date": "2024-01-01",
+   "fresh": "aging"
   }
  ]
 }

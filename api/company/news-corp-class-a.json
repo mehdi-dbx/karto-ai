@@ -3,27 +3,27 @@
  "name": "News Corp (Class A)",
  "cc": "US",
  "vertical": "Telecom",
- "deployments": 1,
- "confirmed": 0,
- "with_value_number": 0,
- "proof_rate": 0.0,
+ "deployments": 4,
+ "confirmed": 2,
+ "with_value_number": 1,
+ "proof_rate": 0.25,
  "mktcap": 14440000000.0,
  "revenue": 8800000000.0,
  "employees": 23900.0,
  "silent": false,
- "per_bn_revenue": 0.11,
- "per_10k_emp": 0.42,
+ "per_bn_revenue": 0.45,
+ "per_10k_emp": 1.67,
  "benchmarks": {
   "global_vertical": {
-   "deployments": 0,
-   "confirmed": 0,
-   "proof_rate": 0,
-   "n": 93
+   "deployments": 14,
+   "confirmed": 9,
+   "proof_rate": 34,
+   "n": 94
   },
   "country_vertical": {
-   "deployments": 0,
-   "confirmed": 0,
-   "proof_rate": 0,
+   "deployments": 14,
+   "confirmed": 9,
+   "proof_rate": 50,
    "n": 23
   }
  },
@@ -34,18 +34,51 @@
    "n": 1
   }
  ],
- "undated_pct": 0,
+ "undated_pct": 75,
  "momentum": "early_mover,gone_quiet",
- "maturity": "L1",
+ "maturity": "L3",
  "maturity_evidence": [
-  "rows_no_confirmed"
+  "named_product:Symbolic"
  ],
- "prospect_score": 40,
+ "prospect_score": 42,
  "stack": [
   "OpenAI"
  ],
  "vendor_named": true,
  "deployments_detail": [
+  {
+   "company": "News Corp (Class A)",
+   "use": "AI training data licensing agreement with Meta for content scraping [Meta]",
+   "existence": "claimed",
+   "value": "$150m",
+   "tier": "",
+   "url": "https://www.theguardian.com/media/2026/mar/04/news-corp-meta-ai-deal-us50m",
+   "raw_sector": "",
+   "date": "Mar 4, 2026",
+   "fresh": "undated"
+  },
+  {
+   "company": "News Corp (Class A)",
+   "use": "AI publishing platform for newsroom research, writing and publishing augmentation [Symbolic.ai]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://symbolic.ai/news/symbolic.ai-partners-with-news-corp-to-deploy-ai-publishing-platform",
+   "raw_sector": "",
+   "date": "Jan 15, 2026",
+   "fresh": "undated"
+  },
+  {
+   "company": "News Corp (Class A)",
+   "use": "News content licensing for AI training and user query answering [OpenAI]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://investors.newscorp.com/news-releases/news-release-details/news-corp-and-openai-sign-landmark-multi-year-global-partnership",
+   "raw_sector": "",
+   "date": "May 22, 2024",
+   "fresh": "undated"
+  },
   {
    "company": "News Corp (Class A)",
    "use": "Multi-year OpenAI content-licensing partnership (premium journalism into ChatGPT) — commercial AI-content deal, not internal AI production system",

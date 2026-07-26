@@ -3,28 +3,28 @@
  "name": "CITIC Securities",
  "cc": "CN",
  "vertical": "Financial Services",
- "deployments": 13,
+ "deployments": 15,
  "confirmed": 13,
  "with_value_number": 7,
- "proof_rate": 0.538,
+ "proof_rate": 0.467,
  "mktcap": 57473611111.0,
  "revenue": 11463888889.0,
  "employees": 26823.0,
  "silent": false,
- "per_bn_revenue": 1.13,
- "per_10k_emp": 4.85,
+ "per_bn_revenue": 1.31,
+ "per_10k_emp": 5.59,
  "benchmarks": {
   "global_vertical": {
-   "deployments": 98,
-   "confirmed": 99,
-   "proof_rate": 71,
-   "n": 377
+   "deployments": 94,
+   "confirmed": 94,
+   "proof_rate": 77,
+   "n": 388
   },
   "country_vertical": {
    "deployments": 100,
-   "confirmed": 100,
-   "proof_rate": 36,
-   "n": 26
+   "confirmed": 93,
+   "proof_rate": 41,
+   "n": 28
   }
  },
  "first_seen": 2023,
@@ -46,7 +46,7 @@
    "n": 1
   }
  ],
- "undated_pct": 0,
+ "undated_pct": 13,
  "momentum": "early_mover,cooling",
  "maturity": "L4",
  "maturity_evidence": [
@@ -55,9 +55,12 @@
   "value_number",
   "multi_year"
  ],
- "prospect_score": 86,
- "stack": [],
- "vendor_named": false,
+ "prospect_score": 81,
+ "stack": [
+  "DeepSeek",
+  "Microsoft"
+ ],
+ "vendor_named": true,
  "deployments_detail": [
   {
    "company": "CITIC Securities",
@@ -69,6 +72,17 @@
    "raw_sector": "Financials",
    "date": "2024",
    "fresh": "aging"
+  },
+  {
+   "company": "CITIC Securities",
+   "use": "AI application deployment across inference and model iteration",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.moomoo.com/news/post/64803969/citic-securities-driven-by-overseas-ai-model-and-application-catalysts",
+   "raw_sector": "",
+   "date": "Jan 29, 2026",
+   "fresh": "undated"
   },
   {
    "company": "CITIC Securities",
@@ -201,6 +215,17 @@
    "raw_sector": "",
    "date": "2023",
    "fresh": "stale"
+  },
+  {
+   "company": "CITIC Securities",
+   "use": "Risk management transformation through AI",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.shs-conferences.org/articles/shsconf/abs/2025/16/shsconf_icfmde2025_02025/shsconf_icfmde2025_02025.html",
+   "raw_sector": "",
+   "date": "missing",
+   "fresh": "undated"
   }
  ]
 }

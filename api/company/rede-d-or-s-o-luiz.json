@@ -3,45 +3,54 @@
  "name": "Rede D'Or São Luiz",
  "cc": "BR",
  "vertical": "Healthcare & Life Sciences",
- "deployments": 1,
- "confirmed": 1,
+ "deployments": 3,
+ "confirmed": 2,
  "with_value_number": 1,
- "proof_rate": 1.0,
+ "proof_rate": 0.333,
  "mktcap": 14046296296.0,
  "revenue": 10572222222.0,
  "employees": 31400.0,
  "silent": false,
- "per_bn_revenue": 0.09,
- "per_10k_emp": 0.32,
+ "per_bn_revenue": 0.28,
+ "per_10k_emp": 0.96,
  "benchmarks": {
   "global_vertical": {
-   "deployments": 0,
-   "confirmed": 13,
-   "proof_rate": 83,
-   "n": 165
+   "deployments": 14,
+   "confirmed": 20,
+   "proof_rate": 65,
+   "n": 168
   },
   "country_vertical": {
-   "deployments": 0,
-   "confirmed": 0,
+   "deployments": 50,
+   "confirmed": 50,
    "proof_rate": 25,
    "n": 5
   }
  },
- "first_seen": 2026,
+ "first_seen": 2023,
  "by_year": [
+  {
+   "year": 2023,
+   "n": 1
+  },
+  {
+   "year": 2025,
+   "n": 1
+  },
   {
    "year": 2026,
    "n": 1
   }
  ],
  "undated_pct": 0,
- "momentum": "late_entrant,rising",
- "maturity": "L3",
+ "momentum": "early_mover,rising",
+ "maturity": "L4",
  "maturity_evidence": [
   "named_product:Dora",
-  "value_number"
+  "value_number",
+  "multi_year"
  ],
- "prospect_score": 14,
+ "prospect_score": 47,
  "stack": [],
  "vendor_named": false,
  "deployments_detail": [
@@ -55,6 +64,28 @@
    "raw_sector": "Saúde",
    "date": "2026",
    "fresh": "fresh"
+  },
+  {
+   "company": "Rede D'Or São Luiz",
+   "use": "AI-powered digital pathology platform for anatomic pathology analysis [PathAI AISight]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.pathai.com/resources/pathai-and-rede-dor-announce-strategic-partnership-to-bring-ai-powered-pathology-solutions-to-brazil",
+   "raw_sector": "",
+   "date": "2025-02-11",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Rede D'Or São Luiz",
+   "use": "AI screening for early detection of retinal diseases using SELENA+ algorithms [SELENA+]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.nova-hub.com/novanews/sao-rafael-hospital-brazil-powers-screening-using-ai-technology/",
+   "raw_sector": "",
+   "date": "2023-06-05",
+   "fresh": "stale"
   }
  ]
 }

@@ -3,27 +3,27 @@
  "name": "Fortescue",
  "cc": "AU",
  "vertical": "Mining & Materials",
- "deployments": 1,
- "confirmed": 1,
- "with_value_number": 0,
- "proof_rate": 0.0,
+ "deployments": 4,
+ "confirmed": 2,
+ "with_value_number": 1,
+ "proof_rate": 0.25,
  "mktcap": 38500000000.0,
  "revenue": 16333333333.0,
  "employees": 15745.0,
  "silent": false,
- "per_bn_revenue": 0.06,
- "per_10k_emp": 0.64,
+ "per_bn_revenue": 0.24,
+ "per_10k_emp": 2.54,
  "benchmarks": {
   "global_vertical": {
-   "deployments": 0,
-   "confirmed": 37,
-   "proof_rate": 0,
-   "n": 61
+   "deployments": 39,
+   "confirmed": 38,
+   "proof_rate": 57,
+   "n": 62
   },
   "country_vertical": {
    "deployments": 0,
-   "confirmed": 40,
-   "proof_rate": 0,
+   "confirmed": 0,
+   "proof_rate": 40,
    "n": 6
   }
  },
@@ -34,14 +34,15 @@
    "n": 1
   }
  ],
- "undated_pct": 0,
+ "undated_pct": 75,
  "momentum": "late_entrant,rising",
  "maturity": "L3",
  "maturity_evidence": [
   "named_product:Integrated",
+  "value_number",
   "tier_p"
  ],
- "prospect_score": 54,
+ "prospect_score": 50,
  "stack": [],
  "vendor_named": false,
  "deployments_detail": [
@@ -55,6 +56,39 @@
    "raw_sector": "Mining",
    "date": "2026",
    "fresh": "fresh"
+  },
+  {
+   "company": "Fortescue",
+   "use": "Autonomous haulage fleet operation",
+   "existence": "confirmed",
+   "value": "30%",
+   "tier": "",
+   "url": "https://aiexpert.network/ai-at-fortescue/",
+   "raw_sector": "",
+   "date": "Oct 24, 2024",
+   "fresh": "undated"
+  },
+  {
+   "company": "Fortescue",
+   "use": "AI systems for Green Grid energy management and real-time decision-making",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.fortescue.com/en/what-we-do/decarbonisation/renewables/ai-systems",
+   "raw_sector": "",
+   "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "Fortescue",
+   "use": "Maintenance work pack data automation and processing",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.mechanicalrock.io/case-studies/modern-data-strategy",
+   "raw_sector": "",
+   "date": "missing",
+   "fresh": "undated"
   }
  ]
 }

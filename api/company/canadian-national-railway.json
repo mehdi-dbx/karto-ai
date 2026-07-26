@@ -3,41 +3,63 @@
  "name": "Canadian National Railway",
  "cc": "CA",
  "vertical": "Logistics & Supply Chain",
- "deployments": 1,
- "confirmed": 1,
- "with_value_number": 0,
- "proof_rate": 0.0,
+ "deployments": 9,
+ "confirmed": 7,
+ "with_value_number": 5,
+ "proof_rate": 0.556,
  "mktcap": 80514705882.0,
  "revenue": 12705882353.0,
  "employees": 23541.0,
  "silent": false,
- "per_bn_revenue": 0.08,
- "per_10k_emp": 0.42,
+ "per_bn_revenue": 0.71,
+ "per_10k_emp": 3.82,
  "benchmarks": {
   "global_vertical": {
-   "deployments": 0,
-   "confirmed": 14,
-   "proof_rate": 0,
-   "n": 66
+   "deployments": 76,
+   "confirmed": 76,
+   "proof_rate": 83,
+   "n": 67
   }
  },
- "first_seen": 2022,
+ "first_seen": 2019,
  "by_year": [
   {
-   "year": 2022,
+   "year": 2019,
    "n": 1
+  },
+  {
+   "year": 2021,
+   "n": 1
+  },
+  {
+   "year": 2022,
+   "n": 3
+  },
+  {
+   "year": 2023,
+   "n": 1
+  },
+  {
+   "year": 2024,
+   "n": 3
   }
  ],
  "undated_pct": 0,
  "momentum": "early_mover,gone_quiet",
- "maturity": "L3",
+ "maturity": "L4",
  "maturity_evidence": [
+  "multi_horizontal",
   "named_product:Autonomous",
+  "value_number",
+  "multi_year",
   "tier_p"
  ],
- "prospect_score": 54,
- "stack": [],
- "vendor_named": false,
+ "prospect_score": 60,
+ "stack": [
+  "Google Cloud",
+  "SAP"
+ ],
+ "vendor_named": true,
  "deployments_detail": [
   {
    "company": "Canadian National Railway",
@@ -48,6 +70,94 @@
    "url": "https://www.cn.ca/en/stories/20220217-atip/",
    "raw_sector": "Industrials",
    "date": "2022",
+   "fresh": "stale"
+  },
+  {
+   "company": "Canadian National Railway",
+   "use": "Automated Inspection Portals (AIP): gantry-mounted ultra-high-def panoramic + infrared cameras capture 360-degree images of railcars/undercarriages at track speed; machine vision with deep learning detects mechanical defects and flags cars needing maintenance before they reach yards. First portals in service in Winnipeg, expanding across the network. [Duos Technologies (machine vision/AI); CN in-house data science]",
+   "existence": "confirmed",
+   "value": "AI can inspect 120 cars in the time a human inspects one; part of automation program CN projected to save up to US$400M over three years",
+   "tier": "",
+   "url": "https://www.cn.ca/en/stories/20190814-machine-vision/",
+   "raw_sector": "",
+   "date": "2019-08-14",
+   "fresh": "stale"
+  },
+  {
+   "company": "Canadian National Railway",
+   "use": "Autonomous Track Inspection Program (ATIP): fleet of automated railcars embedded in revenue trains using laser track-geometry measurement, LIDAR, 3D imaging, heat/acoustic sensors and machine learning to assess track condition in near real-time, generating maintenance alerts without stopping traffic. [CN (in-house autonomous/analytics platform)]",
+   "existence": "confirmed",
+   "value": "More than 93% reduction in track exposure-related safety risk; fleet has travelled 1.5M+ miles; ~750,000 miles/year inspected 2022-2024",
+   "tier": "",
+   "url": "https://www.cn.ca/en/stories/20220217-atip/",
+   "raw_sector": "",
+   "date": "2022-02-17",
+   "fresh": "stale"
+  },
+  {
+   "company": "Canadian National Railway",
+   "use": "Machine Vision / AI Wayside Detection safety-data service: five-year subscription agreement under which CN receives AI-analyzed railcar inspection data (predictive analytics, fleet health monitoring, emphasis on wheels and brakes) and makes it available to shippers and car owners on the CN network. [Duos Technologies Group]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.railway-technology.com/news/duos-cn-ai-wayside-detection/",
+   "raw_sector": "",
+   "date": "2024-10-09",
+   "fresh": "aging"
+  },
+  {
+   "company": "Canadian National Railway",
+   "use": "Precision Dispatch System (PDS): command-and-control platform that automates network traffic optimization across both signaled and dark territory, ingesting data from rolling stock, wayside devices and Positive Train Control to automate mandatory directives, increase capacity and reduce human error. CN is the global launch customer. [Wabtec]",
+   "existence": "confirmed",
+   "value": "37 dispatch desks upon full rollout; operational from late 2023",
+   "tier": "",
+   "url": "https://www.wabteccorp.com/newsroom/press-releases/wabtec-advances-rail-network-optimization-for-cn-with-the-launch-of-its-precision-dispatch-system",
+   "raw_sector": "",
+   "date": "2022-06-06",
+   "fresh": "stale"
+  },
+  {
+   "company": "Canadian National Railway",
+   "use": "Trip Optimizer intelligent 'cruise control' for locomotives: onboard energy-management system that computes the most fuel-efficient way to run a train based on terrain, train makeup and conditions; deployed via modernization of CN's Dash-9 fleet (digital solutions suite including Trip Optimizer and LOCOTROL). [Wabtec]",
+   "existence": "confirmed",
+   "value": "Modernization of 60 additional locomotives (110 total); up to 18% fuel-efficiency improvement, 40%+ reliability gain, up to 50,000 metric tons/yr GHG reduction",
+   "tier": "",
+   "url": "https://www.wabteccorp.com/newsroom/press-releases/cn-to-modernize-60-additional-locomotives-with-wabtec",
+   "raw_sector": "",
+   "date": "2023-07-26",
+   "fresh": "stale"
+  },
+  {
+   "company": "Canadian National Railway",
+   "use": "Wayside predictive safety analytics: extensive detector network (acoustic bearing detectors, hot bearing/wheel detectors, wheel impact load and profile detectors) feeding proactive automated bearing algorithms that flag outlier bearings with unusual heat/sound signatures to predict failures well before a heat-generating fault; monitored by a 24/7 Mechanical Desk. [CN (in-house algorithms)]",
+   "existence": "confirmed",
+   "value": "Over 24 million data points per day across 2,800+ detectors",
+   "tier": "",
+   "url": "https://www.cn.ca/en/safety/operational-safety/",
+   "raw_sector": "",
+   "date": "2024-01-01",
+   "fresh": "aging"
+  },
+  {
+   "company": "Canadian National Railway",
+   "use": "Automation of customs/rail-manifest processing: monitoring rail manifests for importing carriers to enable timely advance filing, freeing back-office staff for other tasks; paired with AI-based prediction of equipment failures cited as an operational breakthrough. [none]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.automotivelogistics.media/partner-content/cn-rail-invests-in-north-americas-future/211812",
+   "raw_sector": "",
+   "date": "2024-09-09",
+   "fresh": "aging"
+  },
+  {
+   "company": "Canadian National Railway",
+   "use": "AI/ML-powered customer digital platform and supply-chain visibility built on Google Cloud (simplified ordering, automated shipment tracking, planning, payments) plus migration of digital infrastructure including SAP to the cloud to enable AI/ML-driven services and predictive maintenance. [Google Cloud (AI/ML tools); SAP]",
+   "existence": "claimed",
+   "value": "Seven-year strategic partnership",
+   "tier": "",
+   "url": "https://www.cn.ca/en/news/2021/12/cn-partners-with-google-cloud-to-modernize-railway-services-and/",
+   "raw_sector": "",
+   "date": "2021-12-14",
    "fresh": "stale"
   }
  ]

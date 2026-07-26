@@ -3,41 +3,50 @@
  "name": "Sabesp",
  "cc": "BR",
  "vertical": "Energy & Utilities",
- "deployments": 2,
- "confirmed": 2,
- "with_value_number": 1,
+ "deployments": 4,
+ "confirmed": 3,
+ "with_value_number": 2,
  "proof_rate": 0.5,
  "mktcap": 19020370370.0,
  "revenue": 7338888889.0,
  "employees": 8927.0,
  "silent": false,
- "per_bn_revenue": 0.27,
- "per_10k_emp": 2.24,
+ "per_bn_revenue": 0.55,
+ "per_10k_emp": 4.48,
  "benchmarks": {
   "global_vertical": {
-   "deployments": 72,
-   "confirmed": 78,
-   "proof_rate": 69,
-   "n": 210
+   "deployments": 40,
+   "confirmed": 48,
+   "proof_rate": 81,
+   "n": 213
   },
   "country_vertical": {
-   "deployments": 83,
-   "confirmed": 83,
-   "proof_rate": 50,
+   "deployments": 67,
+   "confirmed": 67,
+   "proof_rate": 56,
    "n": 19
   }
  },
- "first_seen": null,
- "by_year": [],
- "undated_pct": 100,
- "momentum": "none",
+ "first_seen": 2025,
+ "by_year": [
+  {
+   "year": 2025,
+   "n": 1
+  },
+  {
+   "year": 2026,
+   "n": 1
+  }
+ ],
+ "undated_pct": 50,
+ "momentum": "rising",
  "maturity": "L3",
  "maturity_evidence": [
   "multi_horizontal",
   "named_product:Intelligent",
   "value_number"
  ],
- "prospect_score": 40,
+ "prospect_score": 46,
  "stack": [],
  "vendor_named": false,
  "deployments_detail": [
@@ -54,6 +63,17 @@
   },
   {
    "company": "Sabesp",
+   "use": "Generative AI for customer service via WhatsApp and text messaging",
+   "existence": "confirmed",
+   "value": "50%",
+   "tier": "",
+   "url": "https://seekingalpha.com/article/4889610-companhia-de-saneamento-basico-do-estado-de-sao-paulo-sabesp-sbs-analyst-investor-day",
+   "raw_sector": "",
+   "date": "2026-04-09",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Sabesp",
    "use": "Intelligent system monitoring sewage and water networks in real time to anticipate leaks and blockages",
    "existence": "confirmed",
    "value": "none",
@@ -62,6 +82,17 @@
    "raw_sector": "Utilidade pública, energia e saneamento",
    "date": "missing",
    "fresh": "undated"
+  },
+  {
+   "company": "Sabesp",
+   "use": "Water infrastructure design and digital engineering transformation using generative design [Transcend]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://transcendinfra.com/news/sabesp-signs-with-transcend-to-accelerate-water-infrastructure-design-and-digital-engineering-transformation-in-brazil/",
+   "raw_sector": "",
+   "date": "2025-07-15",
+   "fresh": "fresh"
   }
  ]
 }

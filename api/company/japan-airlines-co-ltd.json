@@ -3,27 +3,27 @@
  "name": "Japan Airlines Co., Ltd.",
  "cc": "JP",
  "vertical": "Logistics & Supply Chain",
- "deployments": 1,
- "confirmed": 1,
+ "deployments": 5,
+ "confirmed": 4,
  "with_value_number": 1,
- "proof_rate": 1.0,
+ "proof_rate": 0.2,
  "mktcap": 8133333333.0,
  "revenue": 13400000000.0,
  "employees": 39076.0,
  "silent": false,
- "per_bn_revenue": 0.07,
- "per_10k_emp": 0.26,
+ "per_bn_revenue": 0.37,
+ "per_10k_emp": 1.28,
  "benchmarks": {
   "global_vertical": {
-   "deployments": 0,
-   "confirmed": 14,
-   "proof_rate": 65,
-   "n": 66
+   "deployments": 48,
+   "confirmed": 52,
+   "proof_rate": 41,
+   "n": 67
   },
   "country_vertical": {
-   "deployments": 0,
-   "confirmed": 0,
-   "proof_rate": 64,
+   "deployments": 45,
+   "confirmed": 50,
+   "proof_rate": 41,
    "n": 23
   }
  },
@@ -32,20 +32,51 @@
   {
    "year": 2023,
    "n": 1
+  },
+  {
+   "year": 2025,
+   "n": 1
   }
  ],
- "undated_pct": 0,
- "momentum": "early_mover,gone_quiet",
- "maturity": "L3",
+ "undated_pct": 60,
+ "momentum": "early_mover,flat",
+ "maturity": "L4",
  "maturity_evidence": [
+  "multi_horizontal",
   "named_product:JAL-AI",
   "value_number",
+  "multi_year",
   "tier_p"
  ],
- "prospect_score": 6,
- "stack": [],
+ "prospect_score": 56,
+ "stack": [
+  "IBM",
+  "Microsoft"
+ ],
  "vendor_named": true,
  "deployments_detail": [
+  {
+   "company": "Japan Airlines Co., Ltd.",
+   "use": "JAL-AI - Generative AI platform for productivity, knowledge access, and airport operations [Microsoft, Avanade]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.avanade.com/en-us/insights/clients/japan-airlines-generative-ai",
+   "raw_sector": "",
+   "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "Japan Airlines Co., Ltd.",
+   "use": "JAL-AI Report - In-flight incident reporting app for cabin attendants using Phi-4 SLM [Microsoft Phi-4]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://news.microsoft.com/source/asia/features/japan-airlines-new-ai-app-will-make-it-easier-for-cabin-attendants-to-report-inflight-events-with-microsofts-phi-4-small-language-model/",
+   "raw_sector": "",
+   "date": "missing",
+   "fresh": "undated"
+  },
   {
    "company": "Japan Airlines Co., Ltd.",
    "use": "Proprietary generative AI platform \"JAL-AI\" (launched Aug 2023), rolled out to all 56 airports Apr 2025, for office & field staff (maintenance, ground, docs, inquiries)",
@@ -56,6 +87,28 @@
    "raw_sector": "Air Transport",
    "date": "2023-08",
    "fresh": "stale"
+  },
+  {
+   "company": "Japan Airlines Co., Ltd.",
+   "use": "Lightning avoidance support using AI prediction models for safe operations and aircraft maintenance reduction",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://press.jal.co.jp/en/release/202505/008845.html",
+   "raw_sector": "",
+   "date": "2025-05-30",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Japan Airlines Co., Ltd.",
+   "use": "AI chatbot agents for customer communications and preemptive customer service [IBM]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.ibm.com/case-studies/japan-airlines-ibm",
+   "raw_sector": "",
+   "date": "missing",
+   "fresh": "undated"
   }
  ]
 }

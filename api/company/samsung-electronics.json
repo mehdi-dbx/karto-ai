@@ -3,36 +3,47 @@
  "name": "Samsung Electronics",
  "cc": "KR",
  "vertical": "Electric Machinery & Electronics",
- "deployments": 1,
- "confirmed": 1,
+ "deployments": 7,
+ "confirmed": 4,
  "with_value_number": 0,
  "proof_rate": 0.0,
  "mktcap": 1268562962963.0,
  "revenue": 247118518519.0,
  "employees": 128925.0,
  "silent": false,
- "per_bn_revenue": 0.0,
- "per_10k_emp": 0.08,
+ "per_bn_revenue": 0.03,
+ "per_10k_emp": 0.54,
  "benchmarks": {
   "global_vertical": {
-   "deployments": 0,
-   "confirmed": 9,
+   "deployments": 41,
+   "confirmed": 38,
    "proof_rate": 0,
    "n": 35
   }
  },
- "first_seen": null,
- "by_year": [],
- "undated_pct": 100,
- "momentum": "none",
+ "first_seen": 2026,
+ "by_year": [
+  {
+   "year": 2026,
+   "n": 3
+  }
+ ],
+ "undated_pct": 57,
+ "momentum": "late_entrant,rising",
  "maturity": "L3",
  "maturity_evidence": [
+  "multi_horizontal",
   "named_product:AI 대전환",
   "tier_p"
  ],
- "prospect_score": 54,
- "stack": [],
- "vendor_named": false,
+ "prospect_score": 64,
+ "stack": [
+  "Anthropic",
+  "Google",
+  "Microsoft",
+  "OpenAI"
+ ],
+ "vendor_named": true,
  "deployments_detail": [
   {
    "company": "Samsung Electronics",
@@ -42,6 +53,72 @@
    "tier": "P",
    "url": "https://news.samsung.com/kr/",
    "raw_sector": "IT",
+   "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "Samsung Electronics",
+   "use": "AI-Driven Factories with Agentic AI across manufacturing operations (material logistics, production, quality inspection, shipment)",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://news.samsung.com/global/samsung-electronics-announces-strategy-to-transition-global-manufacturing-into-ai-driven-factories-by-2030",
+   "raw_sector": "",
+   "date": "2026-03-01",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Samsung Electronics",
+   "use": "AI Agents for infrastructure management on Amazon EKS with Cast AI across CPU and GPU workloads [Cast AI, Amazon EKS]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.youtube.com/watch?v=h8wY_GlNR3I",
+   "raw_sector": "",
+   "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "Samsung Electronics",
+   "use": "External generative AI services adoption (ChatGPT, Gemini, Claude) in DX Division [ChatGPT, Gemini, Claude]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.cio.com/article/4184660/samsung-which-previously-blocked-chatgpt-is-now-fully-adopting-three-generative-ai-models-and-accelerating-its-ax-initiative.html",
+   "raw_sector": "",
+   "date": "2026-06-12",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Samsung Electronics",
+   "use": "ChatGPT Enterprise and Codex deployment across the organization [OpenAI] [OpenAI]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://openai.com/index/samsung-electronics-chatgpt-codex-deployment/",
+   "raw_sector": "",
+   "date": "2026-06-21",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Samsung Electronics",
+   "use": "Named as a Microsoft Copilot customer/case study [Microsoft Copilot] [Microsoft Copilot]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.appsruntheworld.com/customers-database/products/view/microsoft-365-copilot",
+   "raw_sector": "",
+   "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "Samsung Electronics",
+   "use": "Named as a Google Gemini / Vertex AI customer/case study [Google Gemini / Vertex AI] [Google Gemini / Vertex AI]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.appsruntheworld.com/customers-database/products/view/google-gemini",
+   "raw_sector": "",
    "date": "missing",
    "fresh": "undated"
   }

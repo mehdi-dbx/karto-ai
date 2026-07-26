@@ -3,42 +3,85 @@
  "name": "China United Network Communications (China Unicom)",
  "cc": "CN",
  "vertical": "Telecom",
- "deployments": 1,
- "confirmed": 1,
- "with_value_number": 0,
- "proof_rate": 0.0,
+ "deployments": 10,
+ "confirmed": 10,
+ "with_value_number": 8,
+ "proof_rate": 0.8,
  "mktcap": 19193055556.0,
  "revenue": 54401388889.0,
  "employees": 237251.0,
  "silent": false,
- "per_bn_revenue": 0.02,
- "per_10k_emp": 0.04,
+ "per_bn_revenue": 0.18,
+ "per_10k_emp": 0.42,
  "benchmarks": {
   "global_vertical": {
-   "deployments": 0,
-   "confirmed": 16,
-   "proof_rate": 0,
-   "n": 93
+   "deployments": 54,
+   "confirmed": 78,
+   "proof_rate": 96,
+   "n": 94
   }
  },
- "first_seen": 2024,
+ "first_seen": 2022,
  "by_year": [
   {
+   "year": 2022,
+   "n": 1
+  },
+  {
+   "year": 2023,
+   "n": 1
+  },
+  {
    "year": 2024,
+   "n": 4
+  },
+  {
+   "year": 2025,
+   "n": 3
+  },
+  {
+   "year": 2026,
    "n": 1
   }
  ],
  "undated_pct": 0,
- "momentum": "early_mover,gone_quiet",
- "maturity": "L3",
+ "momentum": "early_mover,cooling",
+ "maturity": "L4",
  "maturity_evidence": [
+  "multi_horizontal",
   "named_product:Yuanjing",
+  "value_number",
+  "multi_year",
   "tier_p"
  ],
- "prospect_score": 54,
- "stack": [],
- "vendor_named": false,
+ "prospect_score": 68,
+ "stack": [
+  "Baidu"
+ ],
+ "vendor_named": true,
  "deployments_detail": [
+  {
+   "company": "China United Network Communications (China Unicom)",
+   "use": "Yuanjing Government Hotline Model — AI agent for government citizen-service hotlines providing intent recognition, agent knowledge assistance, intelligent task dispatching, and automated work-order completion [China Unicom (Yuanjing large model)]",
+   "existence": "confirmed",
+   "value": "90% work-order accuracy; over 30% completeness improvement; 60% higher knowledge-assistance accuracy vs traditional methods",
+   "tier": "",
+   "url": "https://www.gsma.com/get-involved/gsma-foundry/gsma_resources/china-unicom-government-hotline-service-ai-agent-llm/",
+   "raw_sector": "",
+   "date": "2025-05-08",
+   "fresh": "fresh"
+  },
+  {
+   "company": "China United Network Communications (China Unicom)",
+   "use": "AI-powered Smart Customer Service (10010 hotline) with Digital Human video chatbot (2D/3D audio-video interaction), Intelligent Work Orders and Intelligent Quality Inspection, deployed nationwide across all 31 provinces [China Unicom]",
+   "existence": "confirmed",
+   "value": "Serves 420M+ customers with 13,000 agents; over 80% of services operate with AI integration",
+   "tier": "",
+   "url": "https://www.mobileworldlive.com/china-unicom-unveils-digital-transformation-milestones-and-ai-powered-customer-experience-center/",
+   "raw_sector": "",
+   "date": "2023-10-13",
+   "fresh": "stale"
+  },
   {
    "company": "China United Network Communications (China Unicom)",
    "use": "Yuanjing large model family (1B-34B) and MaaS platform for industry AI",
@@ -49,6 +92,83 @@
    "raw_sector": "Communication",
    "date": "2024-02",
    "fresh": "aging"
+  },
+  {
+   "company": "China United Network Communications (China Unicom)",
+   "use": "Yuanjing LLM co-pilots applied to network operations and maintenance — specifically broadband installation/maintenance and drive-test data analysis to optimize mobile network performance [China Unicom (in-house Yuanjing large model)]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://inform.tmforum.org/research-and-analysis/case-studies/china-unicom-uses-large-language-models-to-transform-experience",
+   "raw_sector": "",
+   "date": "2024-05-15",
+   "fresh": "aging"
+  },
+  {
+   "company": "China United Network Communications (China Unicom)",
+   "use": "Yuanjing Port Large Language Model / Visual Intelligence Application Platform for AI-driven real-time port safety monitoring and multimodal analysis (under-gate personnel warnings, driver fatigue detection, uniform compliance), deployed across multiple Chinese ports including deep integration at Nanjing Port [China Unicom (Yuanjing Port LLM)]",
+   "existence": "confirmed",
+   "value": "30% reduction in false positives; recognition accuracy over 85%",
+   "tier": "",
+   "url": "https://www.gsma.com/get-involved/gsma-foundry/gsma_resources/china-unicom-port-llm-visual-intelligence-application-platform/",
+   "raw_sector": "",
+   "date": "2025-05-08",
+   "fresh": "fresh"
+  },
+  {
+   "company": "China United Network Communications (China Unicom)",
+   "use": "Intelligent fault management tool based on AI knowledge graph for autonomous network O&M — alarm correlation, root-cause recommendation, and decision-tree self-discovery; operational and won 2023 TM Forum Excellence Award for Autonomous Operations [China Unicom + Nokia + Baidu (AI knowledge graph)]",
+   "existence": "confirmed",
+   "value": "Fault handling efficiency up 67%; avg resolution time cut from 45 to 15 min; root-cause accuracy from 70% to 89%; ~EUR 11.3M annual cost savings",
+   "tier": "",
+   "url": "https://inform.tmforum.org/research-and-analysis/case-studies/china-unicom-uses-ai-knowledge-graphs-in-move-towards-more-autonomous-networks",
+   "raw_sector": "",
+   "date": "2024-01-25",
+   "fresh": "aging"
+  },
+  {
+   "company": "China United Network Communications (China Unicom)",
+   "use": "Gewu industrial internet platform combined with Yuanjing MaaS platform for manufacturing digital transformation — hosting industrial large models and intelligent agents, with benchmarks at partners including COMAC and Shanghai Electric [China Unicom (Gewu + Yuanjing MaaS)]",
+   "existence": "confirmed",
+   "value": "Over 14 million devices connected; 100+ TB industrial datasets; 75+ industrial large models; 150+ intelligent agents",
+   "tier": "",
+   "url": "https://global.chinadaily.com.cn/a/202607/20/WS6a5dc688a310986e2b466350.html",
+   "raw_sector": "",
+   "date": "2026-07-20",
+   "fresh": "fresh"
+  },
+  {
+   "company": "China United Network Communications (China Unicom)",
+   "use": "Smart Wireless Analysis Tool (SWAT) — AI/analytics-driven virtual network testing replacing manual 4G/5G drive tests; processes 55 billion daily records across 31 provinces using 10+ AI models for automated fault identification and root-cause analysis [China Unicom + Nokia (Hadoop + 10+ AI models)]",
+   "existence": "confirmed",
+   "value": "~EUR 16M annual cost savings; 167,000 working-days saved/year; root-cause accuracy from 75% to 91%; VIP complaint resolution 56% faster",
+   "tier": "",
+   "url": "https://inform.tmforum.org/research-and-analysis/case-studies/china-unicom-leverages-work-undertaken-with-nokia-to-develop-and-deploy-a-smart-wireless-analysis-tool-swat",
+   "raw_sector": "",
+   "date": "2022-09-07",
+   "fresh": "stale"
+  },
+  {
+   "company": "China United Network Communications (China Unicom)",
+   "use": "Smart Safeguard — multimodal-LLM-enhanced anti-fraud system detecting fraudulent SMS/MMS and voice/video across text, image, audio and video in multiple languages; deployed across multiple provinces including China Unicom Jiangsu Branch [China Unicom + ZTE (multimodal LLM + computer vision)]",
+   "existence": "confirmed",
+   "value": "Over 95% prediction accuracy and recall rate",
+   "tier": "",
+   "url": "https://www.zte.com.cn/global/about/news/china-unicom-and-zte-launch-multimodal-llm--enhanced-message-anti-fraud-solution.html",
+   "raw_sector": "",
+   "date": "2024-11-13",
+   "fresh": "aging"
+  },
+  {
+   "company": "China United Network Communications (China Unicom)",
+   "use": "Yuanjing Thinking Chain (reasoning) Large Model — first open-source general chain-of-thought model from a Chinese central enterprise, with adaptive slow-thinking/reasoning; open-sourced on GitHub, ModelScope and Wisemodel for developer deployment [China Unicom (Yuanjing)]",
+   "existence": "confirmed",
+   "value": "Claimed to outperform OpenAI GPT-4 and DeepSeek V3 on general benchmarks (vendor claim)",
+   "tier": "",
+   "url": "https://news.aibase.com/news/14983",
+   "raw_sector": "",
+   "date": "2025-01-01",
+   "fresh": "fresh"
   }
  ]
 }

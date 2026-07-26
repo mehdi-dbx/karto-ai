@@ -3,48 +3,77 @@
  "name": "Qualcomm",
  "cc": "US",
  "vertical": "Technology",
- "deployments": 1,
- "confirmed": 1,
- "with_value_number": 0,
- "proof_rate": 0.0,
+ "deployments": 10,
+ "confirmed": 9,
+ "with_value_number": 6,
+ "proof_rate": 0.6,
  "mktcap": 178190000000.0,
  "revenue": 44490000000.0,
  "employees": 52000.0,
  "silent": false,
- "per_bn_revenue": 0.02,
- "per_10k_emp": 0.19,
+ "per_bn_revenue": 0.22,
+ "per_10k_emp": 1.92,
  "benchmarks": {
   "global_vertical": {
-   "deployments": 0,
-   "confirmed": 6,
-   "proof_rate": 0,
-   "n": 156
+   "deployments": 58,
+   "confirmed": 65,
+   "proof_rate": 91,
+   "n": 159
   },
   "country_vertical": {
-   "deployments": 0,
-   "confirmed": 4,
-   "proof_rate": 0,
+   "deployments": 51,
+   "confirmed": 60,
+   "proof_rate": 93,
    "n": 74
   }
  },
- "first_seen": 2025,
+ "first_seen": 2023,
  "by_year": [
   {
-   "year": 2025,
+   "year": 2023,
    "n": 1
+  },
+  {
+   "year": 2024,
+   "n": 4
+  },
+  {
+   "year": 2025,
+   "n": 3
+  },
+  {
+   "year": 2026,
+   "n": 2
   }
  ],
  "undated_pct": 0,
- "momentum": "early_mover,rising",
- "maturity": "L3",
+ "momentum": "early_mover,flat",
+ "maturity": "L4",
  "maturity_evidence": [
+  "multi_horizontal",
   "named_product:Snapdragon",
+  "value_number",
+  "multi_year",
   "tier_p"
  ],
- "prospect_score": 54,
- "stack": [],
- "vendor_named": false,
+ "prospect_score": 70,
+ "stack": [
+  "IBM",
+  "Microsoft"
+ ],
+ "vendor_named": true,
  "deployments_detail": [
+  {
+   "company": "Qualcomm",
+   "use": "AI-powered product-support search (Qualcomm AI Assistant BETA) on the developer/support portal that answers customer and developer queries by scanning Qualcomm's product-documentation library; live for logged-in Qualcomm ID users. [none]",
+   "existence": "confirmed",
+   "value": "scans more than 45,000 product documents",
+   "tier": "",
+   "url": "https://www.qualcomm.com/support/product-support",
+   "raw_sector": "",
+   "date": "2025",
+   "fresh": "fresh"
+  },
   {
    "company": "Qualcomm",
    "use": "Snapdragon on-device/edge AI (AI PCs, phones) + AI200/AI250 rack-scale data-center inference accelerators",
@@ -55,6 +84,94 @@
    "raw_sector": "Information Technology",
    "date": "2025",
    "fresh": "fresh"
+  },
+  {
+   "company": "Qualcomm",
+   "use": "AI/ML-driven chip functional verification using Synopsys VCS Intelligent Coverage Optimization (reinforcement learning) to accelerate coverage closure and reduce manual testbench tuning; deployed across real projects and evaluated over a two-year period. [Synopsys (VCS ICO / VSO.ai)]",
+   "existence": "confirmed",
+   "value": "1.5-week shift-left in functional coverage closure; 30% more testbench issues found; 10-15% grid-usage reduction per block; coverage bins cut from 200-500 to <100",
+   "tier": "",
+   "url": "https://www.synopsys.com/blogs/chip-design/ai-chip-design-verification-qualcomm.html",
+   "raw_sector": "",
+   "date": "2023-08-24",
+   "fresh": "stale"
+  },
+  {
+   "company": "Qualcomm",
+   "use": "Early adopter of Cadence ChipStack AI Super Agent, an agentic AI workflow automating chip design and verification (RTL generation, test planning, regression orchestration, debug). [Cadence (ChipStack AI Super Agent)]",
+   "existence": "confirmed",
+   "value": "up to 10X productivity gains in design and verification tasks",
+   "tier": "",
+   "url": "https://cryptobriefing.com/cadence-chipstack-ai-super-agent-nvidia-computex/",
+   "raw_sector": "",
+   "date": "2026-02-10",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Qualcomm",
+   "use": "Qualcomm AI Hub: cloud platform offering 300+ pre-optimized ML and generative-AI models for developers to optimize, validate and deploy on Snapdragon/Qualcomm devices. [none]",
+   "existence": "confirmed",
+   "value": "300+ optimized models available",
+   "tier": "",
+   "url": "https://aihub.qualcomm.com/",
+   "raw_sector": "",
+   "date": "2024-02-26",
+   "fresh": "aging"
+  },
+  {
+   "company": "Qualcomm",
+   "use": "Collaboration with IBM to optimize IBM Granite 3.1 language models and Granite Guardian for the Qualcomm AI Hub, extending watsonx (incl. watsonx.governance) enterprise generative-AI from cloud to Snapdragon edge devices. [IBM (Granite / watsonx)]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.qualcomm.com/news/releases/2025/02/qualcomm-and-ibm-scale-enterprise-grade-generative-ai-from-edge-",
+   "raw_sector": "",
+   "date": "2025-02-27",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Qualcomm",
+   "use": "Copilot+ PCs: Snapdragon X Elite/X Plus NPU platforms are the launch hardware for Microsoft Copilot+ on-device AI (Recall, Live Captions, image generation, Copilot), shipping in laptops from Microsoft, Dell, Lenovo and others. [Microsoft (Copilot+)]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.qualcomm.com/news/onq/2024/06/what-on-earth-is-a-copilot-plus-pc",
+   "raw_sector": "",
+   "date": "2024-06-05",
+   "fresh": "aging"
+  },
+  {
+   "company": "Qualcomm",
+   "use": "Agentic AI in the Snapdragon Digital Chassis (Snapdragon Cockpit/Ride Elite) delivering in-vehicle assistants that anticipate driver/passenger needs; design wins with Toyota, Li Auto, NIO, Leapmotor, Zeekr, Chery, GreatWall and others. [Google (partnership); Qualcomm]",
+   "existence": "claimed",
+   "value": "Snapdragon Cockpit powers 75M+ vehicles worldwide",
+   "tier": "",
+   "url": "https://www.qualcomm.com/news/releases/2026/01/qualcomm-drives-the-future-of-mobility-with-strong-snapdragon-di",
+   "raw_sector": "",
+   "date": "2026-01-05",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Qualcomm",
+   "use": "AI-powered candidate-matching in hiring (Eightfold AI) that predicts fit between applicants and open roles based on skills and selection criteria, plus automated resume keyword scanning to prioritize candidates. [Eightfold AI]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.qualcomm.com/site/privacy/ai-in-the-application-process",
+   "raw_sector": "",
+   "date": "2024",
+   "fresh": "aging"
+  },
+  {
+   "company": "Qualcomm",
+   "use": "Enterprise generative-AI platform (Writer) used by hundreds of employees across marketing, legal, analytics, product/UX, sales and HR for trademark/brand-voice compliance, media sentiment analysis, product messaging and multilingual transcreation (25+ vetted use cases, 70 workflows). [Writer]",
+   "existence": "confirmed",
+   "value": "2,400 hours saved per month; 85% of users active weekly; one analyst cut workload 30-40%",
+   "tier": "",
+   "url": "https://writer.com/blog/qualcomm-customer-story/",
+   "raw_sector": "",
+   "date": "2024",
+   "fresh": "aging"
   }
  ]
 }

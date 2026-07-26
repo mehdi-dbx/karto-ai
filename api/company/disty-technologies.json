@@ -3,8 +3,8 @@
  "name": "Disty Technologies",
  "cc": "MA",
  "vertical": "Technology",
- "deployments": 1,
- "confirmed": 0,
+ "deployments": 2,
+ "confirmed": 1,
  "with_value_number": 0,
  "proof_rate": 0.0,
  "mktcap": 33000000.0,
@@ -15,16 +15,16 @@
  "per_10k_emp": null,
  "benchmarks": {
   "global_vertical": {
-   "deployments": 0,
-   "confirmed": 0,
+   "deployments": 3,
+   "confirmed": 3,
    "proof_rate": 0,
-   "n": 156
+   "n": 159
   },
   "country_vertical": {
-   "deployments": 0,
-   "confirmed": 0,
+   "deployments": 33,
+   "confirmed": 33,
    "proof_rate": 0,
-   "n": 6
+   "n": 7
   }
  },
  "first_seen": 2026,
@@ -34,16 +34,29 @@
    "n": 1
   }
  ],
- "undated_pct": 0,
+ "undated_pct": 50,
  "momentum": "late_entrant,rising",
- "maturity": "L1",
+ "maturity": "L3",
  "maturity_evidence": [
-  "rows_no_confirmed"
+  "named_product:NVIDIA"
  ],
- "prospect_score": 40,
- "stack": [],
- "vendor_named": false,
+ "prospect_score": 46,
+ "stack": [
+  "NVIDIA"
+ ],
+ "vendor_named": true,
  "deployments_detail": [
+  {
+   "company": "Disty Technologies",
+   "use": "AI hardware solutions and deployment support [NVIDIA DGX Spark, PNY]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.instagram.com/p/DSApCkeDPYp/",
+   "raw_sector": "",
+   "date": "missing",
+   "fresh": "undated"
+  },
   {
    "company": "Disty Technologies",
    "use": "Signed distribution partnership with PNY/NVIDIA to resell AI and datacenter infrastructure in Morocco; AI positioned as a primary growth driver (reseller pivot not internal AI deployment)",

@@ -3,27 +3,27 @@
  "name": "OCBC Bank",
  "cc": "SG",
  "vertical": "Financial Services",
- "deployments": 16,
- "confirmed": 15,
+ "deployments": 22,
+ "confirmed": 21,
  "with_value_number": 12,
- "proof_rate": 0.75,
+ "proof_rate": 0.545,
  "mktcap": 96835820896.0,
  "revenue": 10410447761.0,
  "employees": 33311.0,
  "silent": false,
- "per_bn_revenue": 1.54,
- "per_10k_emp": 4.8,
+ "per_bn_revenue": 2.11,
+ "per_10k_emp": 6.6,
  "benchmarks": {
   "global_vertical": {
-   "deployments": 100,
+   "deployments": 99,
    "confirmed": 100,
-   "proof_rate": 74,
-   "n": 377
+   "proof_rate": 83,
+   "n": 388
   },
   "country_vertical": {
    "deployments": 100,
    "confirmed": 100,
-   "proof_rate": 100,
+   "proof_rate": 50,
    "n": 5
   }
  },
@@ -43,15 +43,15 @@
   },
   {
    "year": 2025,
-   "n": 4
+   "n": 7
   },
   {
    "year": 2026,
    "n": 2
   }
  ],
- "undated_pct": 0,
- "momentum": "early_mover,cooling",
+ "undated_pct": 14,
+ "momentum": "early_mover,rising",
  "maturity": "L4",
  "maturity_evidence": [
   "multi_horizontal",
@@ -60,8 +60,9 @@
   "multi_year",
   "tier_p"
  ],
- "prospect_score": 70,
+ "prospect_score": 78,
  "stack": [
+  "Microsoft",
   "Microsoft Azure",
   "OpenAI"
  ],
@@ -80,6 +81,17 @@
   },
   {
    "company": "OCBC Bank",
+   "use": "Know-Your-Customer (KYC) processes with agentic AI",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.ocbc.com/group/investors/annual-reports/2025-annual-report/driving-customer-centricity-through-ai-digital-and-data.page",
+   "raw_sector": "",
+   "date": "2025",
+   "fresh": "fresh"
+  },
+  {
+   "company": "OCBC Bank",
    "use": "Over 300 AI use cases including personalising credit card deals and fraud detection, making about 6 million AI decisions daily",
    "existence": "claimed",
    "value": "300+ use cases; ~6 million AI decisions/day",
@@ -91,6 +103,17 @@
   },
   {
    "company": "OCBC Bank",
+   "use": "AI models for customer personalization and recommendation engine",
+   "existence": "confirmed",
+   "value": "over hundred",
+   "tier": "",
+   "url": "https://www.theasianbanker.com/updates-and-articles/best-ai-for-customer-personalisation-technology-initiative-goes-to-ocbc-2025",
+   "raw_sector": "",
+   "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "OCBC Bank",
    "use": "AI and machine learning to combat financial crime / detect suspicious transactions (first Singapore bank to do so)",
    "existence": "confirmed",
    "value": "none",
@@ -99,6 +122,17 @@
    "raw_sector": "Banks",
    "date": "2017-11",
    "fresh": "stale"
+  },
+  {
+   "company": "OCBC Bank",
+   "use": "AI and RPA for transaction monitoring and fraud detection",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.facebook.com/OCBC.Singapore/posts/episode-2-of-banking-on-us-goes-behind-the-scenes-of-ocbcs-fraud-detection-and-p/1497503055741203/",
+   "raw_sector": "",
+   "date": "1 week ago",
+   "fresh": "undated"
   },
   {
    "company": "OCBC Bank",
@@ -242,6 +276,39 @@
    "raw_sector": "",
    "date": "2025",
    "fresh": "fresh"
+  },
+  {
+   "company": "OCBC Bank",
+   "use": "AI Oscar - AI-powered stock picking tool for personalized stock recommendations",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.ocbc.com/group/investors/annual-reports/2025-annual-report/driving-customer-centricity-through-ai-digital-and-data.page",
+   "raw_sector": "",
+   "date": "2025",
+   "fresh": "fresh"
+  },
+  {
+   "company": "OCBC Bank",
+   "use": "HOLMES AI - investment insights and multi-asset strategies for relationship managers",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.ocbc.com/group/investors/annual-reports/2025-annual-report/driving-customer-centricity-through-ai-digital-and-data.page",
+   "raw_sector": "",
+   "date": "2025",
+   "fresh": "fresh"
+  },
+  {
+   "company": "OCBC Bank",
+   "use": "Generative AI chatbot for global employees",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.ocbc.com/group/media/release/2023/ocbc-is-first-singapore-bank-to-roll-out-generative-ai-chatbot-to-all-employees-globally",
+   "raw_sector": "",
+   "date": "Oct 24, 2023",
+   "fresh": "undated"
   }
  ]
 }

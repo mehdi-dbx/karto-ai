@@ -3,27 +3,27 @@
  "name": "Intel",
  "cc": "US",
  "vertical": "Technology",
- "deployments": 10,
- "confirmed": 8,
+ "deployments": 13,
+ "confirmed": 10,
  "with_value_number": 1,
- "proof_rate": 0.1,
+ "proof_rate": 0.077,
  "mktcap": 509640000000.0,
  "revenue": 53760000000.0,
  "employees": 85100.0,
  "silent": false,
- "per_bn_revenue": 0.19,
- "per_10k_emp": 1.18,
+ "per_bn_revenue": 0.24,
+ "per_10k_emp": 1.53,
  "benchmarks": {
   "global_vertical": {
-   "deployments": 89,
-   "confirmed": 89,
-   "proof_rate": 59,
-   "n": 156
+   "deployments": 82,
+   "confirmed": 76,
+   "proof_rate": 37,
+   "n": 159
   },
   "country_vertical": {
-   "deployments": 85,
-   "confirmed": 84,
-   "proof_rate": 68,
+   "deployments": 84,
+   "confirmed": 73,
+   "proof_rate": 42,
    "n": 74
   }
  },
@@ -47,15 +47,15 @@
   },
   {
    "year": 2025,
-   "n": 1
+   "n": 4
   },
   {
    "year": 2026,
    "n": 1
   }
  ],
- "undated_pct": 30,
- "momentum": "early_mover,cooling",
+ "undated_pct": 23,
+ "momentum": "early_mover,rising",
  "maturity": "L4",
  "maturity_evidence": [
   "multi_horizontal",
@@ -64,10 +64,24 @@
   "multi_year",
   "tier_p"
  ],
- "prospect_score": 92,
- "stack": [],
- "vendor_named": false,
+ "prospect_score": 97,
+ "stack": [
+  "Accenture",
+  "Microsoft"
+ ],
+ "vendor_named": true,
  "deployments_detail": [
+  {
+   "company": "Intel",
+   "use": "AI Playground open source application for generative AI workloads [PyTorch]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://pytorch.org/blog/how-intel-uses-pytorch-to-empower-generative-ai-through-intel-arc-gpus/",
+   "raw_sector": "",
+   "date": "2025-01-24",
+   "fresh": "fresh"
+  },
   {
    "company": "Intel",
    "use": "Gaudi 3 AI accelerators (datacenter training/inference) + Xeon 6 + Core Ultra AI PC chips (on-device NPU)",
@@ -78,6 +92,28 @@
    "raw_sector": "Information Technology",
    "date": "missing",
    "fresh": "undated"
+  },
+  {
+   "company": "Intel",
+   "use": "AI-driven productivity and IT management for business computing",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://newsroom.intel.com/client-computing/2025-ces-client-computing-news",
+   "raw_sector": "",
+   "date": "2025-01-06",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Intel",
+   "use": "Intel Gaudi 3 AI accelerators for scalable AI inferencing",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.intc.com/news-events/press-releases/detail/1741/computex-2025-intel-unveils-new-gpus-for-ai-and",
+   "raw_sector": "",
+   "date": "2025-05-19",
+   "fresh": "fresh"
   },
   {
    "company": "Intel",

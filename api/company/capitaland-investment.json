@@ -3,48 +3,63 @@
  "name": "CapitaLand Investment",
  "cc": "SG",
  "vertical": "Real Estate & Construction",
- "deployments": 4,
- "confirmed": 4,
- "with_value_number": 2,
- "proof_rate": 0.5,
+ "deployments": 14,
+ "confirmed": 12,
+ "with_value_number": 6,
+ "proof_rate": 0.429,
  "mktcap": 9276119403.0,
  "revenue": 1589552239.0,
  "employees": 10000.0,
  "silent": false,
- "per_bn_revenue": 2.52,
- "per_10k_emp": 4.0,
+ "per_bn_revenue": 8.81,
+ "per_10k_emp": 14.0,
  "benchmarks": {
   "global_vertical": {
-   "deployments": 95,
-   "confirmed": 95,
-   "proof_rate": 65,
+   "deployments": 99,
+   "confirmed": 99,
+   "proof_rate": 80,
    "n": 154
   },
   "country_vertical": {
-   "deployments": 80,
-   "confirmed": 80,
-   "proof_rate": 80,
+   "deployments": 100,
+   "confirmed": 100,
+   "proof_rate": 40,
    "n": 6
   }
  },
- "first_seen": 2024,
+ "first_seen": 2023,
  "by_year": [
   {
+   "year": 2023,
+   "n": 1
+  },
+  {
    "year": 2024,
-   "n": 4
+   "n": 7
+  },
+  {
+   "year": 2025,
+   "n": 3
+  },
+  {
+   "year": 2026,
+   "n": 3
   }
  ],
  "undated_pct": 0,
- "momentum": "early_mover,gone_quiet",
- "maturity": "L3",
+ "momentum": "early_mover,cooling",
+ "maturity": "L4",
  "maturity_evidence": [
   "multi_horizontal",
   "named_product:Cubby",
   "value_number",
+  "multi_year",
   "tier_p"
  ],
- "prospect_score": 44,
+ "prospect_score": 83,
  "stack": [
+  "Alibaba Cloud",
+  "Microsoft",
   "Microsoft Azure",
   "OpenAI"
  ],
@@ -63,6 +78,28 @@
   },
   {
    "company": "CapitaLand Investment",
+   "use": "Cubby, a generative AI travel-buddy web chatbot launched by lodging arm The Ascott, assists guests with destination insights, itinerary planning, accommodation recommendation and booking, supporting live-chat agents. Built on Microsoft Azure OpenAI (ChatGPT) with Bing search, Azure Maps and weather APIs. [Microsoft Azure OpenAI (ChatGPT)]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.capitaland.com/en/about-capitaland/newsroom/news-releases/international/2023/august/Ascott_generativeAI_ChatGPT_Chatbot_Cubby.html",
+   "raw_sector": "",
+   "date": "2023-08-14",
+   "fresh": "stale"
+  },
+  {
+   "company": "CapitaLand Investment",
+   "use": "Casey, CapitaStar's Gen-AI-powered digital assistant/concierge, fully integrated into the CapitaStar app. Handles shopping and rewards enquiries 24/7, transaction queries, and cross-platform travel recommendations. Built internally by CLI's retail and Digital International teams using NLP/LLMs (ChatGPT-powered). [ChatGPT / LLM (internally built)]",
+   "existence": "confirmed",
+   "value": "handles ~60% of member inquiries; 1.9M CapitaStar members across 30 properties; 91% of engaging members adopted linked payment",
+   "tier": "",
+   "url": "https://www.capitaland.com/en/about-capitaland/newsroom/perspectives/insights/2026/building-one-ecosystem.html",
+   "raw_sector": "",
+   "date": "2026-05-21",
+   "fresh": "fresh"
+  },
+  {
+   "company": "CapitaLand Investment",
    "use": "Predictive AI models (Azure) for investment analysis: identifying markets and analysing deals",
    "existence": "confirmed",
    "value": "none",
@@ -71,6 +108,39 @@
    "raw_sector": "Real Estate",
    "date": "2024-03",
    "fresh": "aging"
+  },
+  {
+   "company": "CapitaLand Investment",
+   "use": "MoU with Alibaba Cloud to deploy the Qwen large language model and big-data platform across CapitaLand's China operations for smart operations, precision marketing, customer profiling, advanced data analytics, risk management and ESG/low-carbon initiatives. [Alibaba Cloud (Qwen LLM)]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.alibabacloud.com/blog/alibaba-cloud-and-capitaland-strengthen-collaboration-to-drive-digital-transformation_602380",
+   "raw_sector": "",
+   "date": "2025-07-17",
+   "fresh": "fresh"
+  },
+  {
+   "company": "CapitaLand Investment",
+   "use": "AI-driven building energy management/optimization solution developed by CLI's Group Technology team for energy optimization and predictive fault diagnostics, trialed at the Smart Urban Co-Innovation Lab and The Galen at Singapore Science Park. [none (internal Group Technology)]",
+   "existence": "claimed",
+   "value": "double-digit energy savings (in trial)",
+   "tier": "",
+   "url": "https://www.capitaland.com/en/about-capitaland/newsroom/perspectives/insights/2025/building-a-culture-of-innovation-for-transformation.html",
+   "raw_sector": "",
+   "date": "2024-10-08",
+   "fresh": "aging"
+  },
+  {
+   "company": "CapitaLand Investment",
+   "use": "Group-wide AI-enabled initiatives embedded across fund management, commercial and lodging platforms delivering financial outcomes in FY2025, governed under CLI's Responsible AI governance framework (100 AI projects targeted across business units). [none]",
+   "existence": "confirmed",
+   "value": "over S$12M revenue uplift and more than S$5M cost savings in FY2025",
+   "tier": "",
+   "url": "https://www.capitaland.com/en/about-capitaland/sustainability/case-studies/2025/embedding-responsible-AI-governance-across-capitaLand-investment.html",
+   "raw_sector": "",
+   "date": "2025-12-31",
+   "fresh": "fresh"
   },
   {
    "company": "CapitaLand Investment",
@@ -85,6 +155,50 @@
   },
   {
    "company": "CapitaLand Investment",
+   "use": "Genie AI, an AI-powered HR chatbot deployed across CLI, automates routine HR admin such as drafting job descriptions, offboarding/redundancy processes and creating employee training materials. [none]",
+   "existence": "confirmed",
+   "value": "reduced time spent on routine tasks by 30%",
+   "tier": "",
+   "url": "https://www.humanresourcesonline.net/winning-secrets-restructuring-helped-capitaland-investment-redefine-hr-as-a-driver-of-innovation-not-just-a-support-function",
+   "raw_sector": "",
+   "date": "2026-01-14",
+   "fresh": "fresh"
+  },
+  {
+   "company": "CapitaLand Investment",
+   "use": "AI capabilities within Workday used by CLI HR for skills mapping, personalized coaching, job matching and predictive analytics, part of the HR transformation program. [Workday]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.humanresourcesonline.net/winning-secrets-restructuring-helped-capitaland-investment-redefine-hr-as-a-driver-of-innovation-not-just-a-support-function",
+   "raw_sector": "",
+   "date": "2026-01-14",
+   "fresh": "fresh"
+  },
+  {
+   "company": "CapitaLand Investment",
+   "use": "IoT-based emergency exit light monitoring system that automates safety-compliance inspections previously requiring manual floor-by-floor checks across CLI buildings. [none]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.capitaland.com/en/about-capitaland/newsroom/perspectives/insights/2025/building-a-culture-of-innovation-for-transformation.html",
+   "raw_sector": "",
+   "date": "2024-10-08",
+   "fresh": "aging"
+  },
+  {
+   "company": "CapitaLand Investment",
+   "use": "AI embedded into the CapitaStar rewards program for faster receipt processing and reward-points delivery to shoppers in CLI's retail malls. [none]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.capitaland.com/en/about-capitaland/newsroom/perspectives/insights/2025/a-journey-of-ai-and-digital-innovation-at-capitaland-investment.html",
+   "raw_sector": "",
+   "date": "2024-12-23",
+   "fresh": "aging"
+  },
+  {
+   "company": "CapitaLand Investment",
    "use": "CapitaStar rewards uses Azure OpenAI with OCR for instant receipt processing (cut from 3-7 days to seconds)",
    "existence": "confirmed",
    "value": "processing time cut from 3-7 days to seconds",
@@ -93,6 +207,17 @@
    "raw_sector": "Real Estate",
    "date": "2024-03",
    "fresh": "aging"
+  },
+  {
+   "company": "CapitaLand Investment",
+   "use": "GitHub Copilot used by CLI engineering teams building the CapitaStar app; AI writes a share of production code, part of an Azure DevOps / Azure Kubernetes Service modernization with automated security scanning in the release pipeline. [GitHub Copilot / Microsoft Azure]",
+   "existence": "confirmed",
+   "value": "25% of code written by AI; 35% increase in developer productivity; 50% faster releases; 50% infra cost reduction",
+   "tier": "",
+   "url": "https://www.microsoft.com/en/customers/story/24628-capitaland-investment-cli-azure-devops",
+   "raw_sector": "",
+   "date": "2025-07-02",
+   "fresh": "fresh"
   }
  ]
 }

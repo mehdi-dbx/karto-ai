@@ -3,27 +3,27 @@
  "name": "Daimler Truck",
  "cc": "DE",
  "vertical": "Automotive",
- "deployments": 1,
- "confirmed": 1,
- "with_value_number": 0,
- "proof_rate": 0.0,
+ "deployments": 7,
+ "confirmed": 6,
+ "with_value_number": 1,
+ "proof_rate": 0.143,
  "mktcap": 36126000000.0,
  "revenue": 49172400000.0,
  "employees": 108655.0,
  "silent": false,
- "per_bn_revenue": 0.02,
- "per_10k_emp": 0.09,
+ "per_bn_revenue": 0.14,
+ "per_10k_emp": 0.64,
  "benchmarks": {
   "global_vertical": {
-   "deployments": 0,
-   "confirmed": 10,
-   "proof_rate": 0,
+   "deployments": 38,
+   "confirmed": 59,
+   "proof_rate": 28,
    "n": 40
   },
   "country_vertical": {
    "deployments": 0,
-   "confirmed": 0,
-   "proof_rate": 0,
+   "confirmed": 20,
+   "proof_rate": 20,
    "n": 6
   }
  },
@@ -33,12 +33,17 @@
  "momentum": "none",
  "maturity": "L3",
  "maturity_evidence": [
+  "multi_horizontal",
   "named_product:Rolled",
+  "value_number",
   "tier_p"
  ],
- "prospect_score": 54,
- "stack": [],
- "vendor_named": false,
+ "prospect_score": 70,
+ "stack": [
+  "Amazon AWS",
+  "Microsoft"
+ ],
+ "vendor_named": true,
  "deployments_detail": [
   {
    "company": "Daimler Truck",
@@ -49,6 +54,72 @@
    "url": "https://www.daimlertruck.com/newsroom/stories/daimler-truck-macht-kuenstliche-intelligenz-fuer-alle-beschaeftigten-weltweit-zugaenglich-mit-librechat",
    "raw_sector": "Automotive",
    "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "Daimler Truck",
+   "use": "Autonomous driving platform for SAE Level 4 trucks",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.daimlertruck.com/en/newsroom/pressrelease/autonomous-driving-daimler-truck-delivers-latest-iteration-of-autonomous-ready-truck-platform-to-torc-53051127",
+   "raw_sector": "",
+   "date": "Apr 16, 2025",
+   "fresh": "undated"
+  },
+  {
+   "company": "Daimler Truck",
+   "use": "Twin4Trucks AI-driven data consistency for truck production",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.automotivemanufacturingsolutions.com/smart-factory/key-insights-from-daimler-trucks-twin4trucks-project/643824",
+   "raw_sector": "",
+   "date": "Jul 9, 2025",
+   "fresh": "undated"
+  },
+  {
+   "company": "Daimler Truck",
+   "use": "LibreChat company-wide AI platform for employee access [LibreChat]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.daimlertruck.com/en/newsroom/pressrelease/daimler-truck-launches-librechat-as-company-wide-ai-platform-53368047",
+   "raw_sector": "",
+   "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "Daimler Truck",
+   "use": "Data governance and AI-ready environment for manufacturing [Alation]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.alation.com/blog/daimler-trucks-ai-agents-metadata-manufacturing/",
+   "raw_sector": "",
+   "date": "Dec 3, 2025",
+   "fresh": "undated"
+  },
+  {
+   "company": "Daimler Truck",
+   "use": "Open-source AI platform deployment on AWS with agentic AI agents [AWS]",
+   "existence": "confirmed",
+   "value": "3000",
+   "tier": "",
+   "url": "https://www.youtube.com/watch?v=dxlunPv9e9Y",
+   "raw_sector": "",
+   "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "Daimler Truck",
+   "use": "Policy management and exploration system [Microsoft Power Apps, Dataverse]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://learn.microsoft.com/en-us/power-platform/guidance/case-studies/daimler-truck-modernizes-policies",
+   "raw_sector": "",
+   "date": "Aug 20, 2025",
    "fresh": "undated"
   }
  ]

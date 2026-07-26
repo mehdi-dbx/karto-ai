@@ -3,39 +3,40 @@
  "name": "Singapore Airlines",
  "cc": "SG",
  "vertical": "Travel & Hospitality",
- "deployments": 2,
- "confirmed": 2,
+ "deployments": 6,
+ "confirmed": 5,
  "with_value_number": 0,
  "proof_rate": 0.0,
  "mktcap": 17798507463.0,
  "revenue": 15313432836.0,
  "employees": 22819.0,
  "silent": false,
- "per_bn_revenue": 0.13,
- "per_10k_emp": 0.88,
+ "per_bn_revenue": 0.39,
+ "per_10k_emp": 2.63,
  "benchmarks": {
   "global_vertical": {
-   "deployments": 71,
-   "confirmed": 87,
+   "deployments": 72,
+   "confirmed": 75,
    "proof_rate": 0,
-   "n": 39
+   "n": 41
   }
  },
  "first_seen": 2025,
  "by_year": [
   {
    "year": 2025,
-   "n": 2
+   "n": 4
   }
  ],
- "undated_pct": 0,
- "momentum": "rising",
+ "undated_pct": 33,
+ "momentum": "early_mover,rising",
  "maturity": "L3",
  "maturity_evidence": [
+  "multi_horizontal",
   "named_product:Partnership",
   "tier_p"
  ],
- "prospect_score": 52,
+ "prospect_score": 70,
  "stack": [
   "OpenAI",
   "Salesforce"
@@ -63,6 +64,50 @@
    "raw_sector": "Airlines",
    "date": "2025",
    "fresh": "fresh"
+  },
+  {
+   "company": "Singapore Airlines",
+   "use": "Enhanced AI-powered virtual assistant for flight recommendations, booking, and customer journey management [OpenAI]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.singaporeair.com/en_UK/us/corporate/newsroom/press-release/2025/april-may/sia_openAI_collaboration/",
+   "raw_sector": "",
+   "date": "2025-04-25",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Singapore Airlines",
+   "use": "AI-powered customer service with autonomous agents for case management [Salesforce Agentforce, Einstein in Service Cloud, Data Cloud]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.singaporeair.com/en_UK/us/corporate/newsroom/press-release/2025/January-March/singapore-airlines-and-salesforce-collaborate-on-ai-powered-cust/",
+   "raw_sector": "",
+   "date": "2025-03-12",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Singapore Airlines",
+   "use": "Kris the Chatbot - 24/7 customer support chatbot",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.singaporeair.com/en_UK/us/support/kris-the-chatbot/",
+   "raw_sector": "",
+   "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "Singapore Airlines",
+   "use": "AI software engineering methodology for digital product development [PALO IT]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.palo-it.com/en/case-study/singapore-airlines",
+   "raw_sector": "",
+   "date": "missing",
+   "fresh": "undated"
   }
  ]
 }

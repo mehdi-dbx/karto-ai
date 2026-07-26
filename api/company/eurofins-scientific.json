@@ -3,41 +3,59 @@
  "name": "Eurofins Scientific",
  "cc": "FR",
  "vertical": "Healthcare & Life Sciences",
- "deployments": 3,
- "confirmed": 2,
- "with_value_number": 1,
- "proof_rate": 0.333,
+ "deployments": 11,
+ "confirmed": 9,
+ "with_value_number": 5,
+ "proof_rate": 0.455,
  "mktcap": 13316400000.0,
  "revenue": 7884000000.0,
  "employees": 65694.0,
  "silent": false,
- "per_bn_revenue": 0.38,
- "per_10k_emp": 0.46,
+ "per_bn_revenue": 1.4,
+ "per_10k_emp": 1.67,
  "benchmarks": {
   "global_vertical": {
-   "deployments": 87,
-   "confirmed": 79,
-   "proof_rate": 70,
-   "n": 165
+   "deployments": 76,
+   "confirmed": 80,
+   "proof_rate": 79,
+   "n": 168
   },
   "country_vertical": {
    "deployments": 88,
-   "confirmed": 75,
-   "proof_rate": 88,
+   "confirmed": 88,
+   "proof_rate": 75,
    "n": 9
   }
  },
- "first_seen": null,
- "by_year": [],
- "undated_pct": 100,
- "momentum": "none",
- "maturity": "L3",
- "maturity_evidence": [
-  "named_product:DiscoveryAI"
+ "first_seen": 2024,
+ "by_year": [
+  {
+   "year": 2024,
+   "n": 2
+  },
+  {
+   "year": 2025,
+   "n": 2
+  },
+  {
+   "year": 2026,
+   "n": 2
+  }
  ],
- "prospect_score": 47,
- "stack": [],
- "vendor_named": false,
+ "undated_pct": 45,
+ "momentum": "early_mover,rising",
+ "maturity": "L4",
+ "maturity_evidence": [
+  "multi_horizontal",
+  "named_product:DiscoveryAI",
+  "value_number",
+  "multi_year"
+ ],
+ "prospect_score": 76,
+ "stack": [
+  "OpenAI"
+ ],
+ "vendor_named": true,
  "deployments_detail": [
   {
    "company": "Eurofins Scientific",
@@ -69,6 +87,94 @@
    "tier": "I",
    "url": "https://www.eurofins.com/fr-fr/services-biopharmaceutiques/actualites/eurofins-discoveryai-accelerating-and-empowering-drug-discovery/",
    "raw_sector": "Healthcare",
+   "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "Eurofins Scientific",
+   "use": "DiscoveryAI SAFIRE: AI/ML platform predicting ADMET (absorption, distribution, metabolism, excretion, toxicity) properties of drug candidates, trained on the proprietary BioPrint dataset. Launched Feb 2024 and made available to customers via the Eurofins Discovery website; published validation reports Matthews Correlation Coefficient >0.4 and accuracy >80%. [Eurofins Discovery (proprietary, trained on BioPrint database)]",
+   "existence": "confirmed",
+   "value": "MCC >0.4, accuracy >80% (model validation)",
+   "tier": "",
+   "url": "https://www.eurofins.com/en/media-centre/press-releases/eurofins-discovery-introduces-innovative-discoveryai-safire-a-new-ai-driven-platform-for-drug-discovery-trained-using-proprietary-datasets/",
+   "raw_sector": "",
+   "date": "2024-02-29",
+   "fresh": "aging"
+  },
+  {
+   "company": "Eurofins Scientific",
+   "use": "DiscoveryAI platform: broader AI-powered drug-discovery service suite (SAFIRE + OPLE + computational chemistry) leveraging proprietary BioPrint and BioMAP datasets for predictive analytics on safety/efficacy liabilities; offered to customers ('TRY SAFIRE TODAY'), with ADMET and Dosage datasets and the PIXIE expansion project. [Eurofins Discovery (proprietary)]",
+   "existence": "confirmed",
+   "value": "up to 30% reduction in investment costs via early identification of safety/efficacy liabilities (company claim)",
+   "tier": "",
+   "url": "https://emea.eurofinsdiscovery.com/solution/advanced-ai",
+   "raw_sector": "",
+   "date": "2024-08-14",
+   "fresh": "aging"
+  },
+  {
+   "company": "Eurofins Scientific",
+   "use": "OPLE: computational tool that predicts the percent likelihood of small-molecule activity against SafetyScreen18/44 targets using molecular similarity plus machine learning trained on Eurofins' proprietary EMERALD assay datasets; provides similarity references and applicability-domain thresholds. Offered to customers. [Eurofins Discovery (proprietary, EMERALD datasets)]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://emea.eurofinsdiscovery.com/blog-predictive-safety-intelligence-at-the-start-of-drug-discovery-introducing-ople",
+   "raw_sector": "",
+   "date": "2025-07-29",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Eurofins Scientific",
+   "use": "Eurofins CDMO Alphora AI-powered software for high-throughput salt and co-crystal screening in drug development; machine learning predicts salt/co-crystal formation to reduce trial-and-error experimentation. Described as 'now integrated as a core component of its solid-state screening programs'; developed with a local university. [Eurofins CDMO Alphora (proprietary, developed with a university partner)]",
+   "existence": "confirmed",
+   "value": "none (claims shorter timelines and lower screening costs)",
+   "tier": "",
+   "url": "https://www.businesswire.com/news/home/20260126653786/en/Eurofins-CDMO-Alphora-Announces-Development-Implementation-of-AI-Powered-Salt-and-Co-Crystal-Screening-Software",
+   "raw_sector": "",
+   "date": "2026-01-26",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Eurofins Scientific",
+   "use": "Eurofins-Viracor Center of Excellence for Bioinformatics & AI (Lenexa, KS): AI/ML services including predictive disease/outcome models on clinical data, pattern recognition on high-dimensional omics, medical image analysis (tumor biopsy images), time-series clinical-trial data analysis and unsupervised clustering, with cloud-based NGS data processing. [Eurofins Viracor (proprietary, cloud computing)]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.eurofins-viracorbiopharma.com/services/bioinformatics-ai/",
+   "raw_sector": "",
+   "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "Eurofins Scientific",
+   "use": "In Vitro Safety Insight: computational tool interpreting secondary pharmacology (SafetyScreen) data via a semi-automated pipeline integrating public and proprietary sources; produces target-adverse-event associations, radar/heatmap visualizations and an Organ System Hazard Metric Profile to flag organs at risk and recommend follow-up assays. Available to customers. [Eurofins Discovery (proprietary)]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.eurofins.com/en/biopharma-services/news/in-vitro-safety-insight/",
+   "raw_sector": "",
+   "date": "2025-07-29",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Eurofins Scientific",
+   "use": "AI/ML applied to food-safety testing: Eurofins blog describes branded tools for contamination forecasting and detection (e.g., contamination-hotspot prediction, auto-flagging of non-conforming results, computer-vision microbial colony recognition, AI-assisted allergen mapping) within its food-testing operations. [Eurofins (proprietary; tool names cited in Eurofins India blog)]",
+   "existence": "claimed",
+   "value": "blog cites 70% reduction in mycotoxin contamination incidents and <1% allergen reoccurrence (customer examples, unverified)",
+   "tier": "",
+   "url": "https://www.eurofins.in/food-testing/blog/how-ai-and-machine-learning-are-transforming-food-safety/",
+   "raw_sector": "",
+   "date": "2026-03-05",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Eurofins Scientific",
+   "use": "Employee AI enablement: Eurofins Food, Feed, Water Benelux ran an interactive ChatGPT webinar (with partner DataNorth) for 90+ employees, teaching 15+ ChatGPT use cases, custom GPTs and prompt engineering to drive internal AI adoption for email/document tasks. [DataNorth (delivery partner); OpenAI ChatGPT]",
+   "existence": "confirmed",
+   "value": "90+ employees trained",
+   "tier": "",
+   "url": "https://datanorth.ai/case-study/eurofins",
+   "raw_sector": "",
    "date": "missing",
    "fresh": "undated"
   }

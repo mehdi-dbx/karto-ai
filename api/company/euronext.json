@@ -3,47 +3,101 @@
  "name": "Euronext",
  "cc": "FR",
  "vertical": "Financial Services",
- "deployments": 1,
- "confirmed": 0,
- "with_value_number": 0,
- "proof_rate": 0.0,
+ "deployments": 9,
+ "confirmed": 7,
+ "with_value_number": 4,
+ "proof_rate": 0.444,
  "mktcap": 16178400000.0,
  "revenue": 2041200000.0,
  "employees": 3105.0,
  "silent": false,
- "per_bn_revenue": 0.49,
- "per_10k_emp": 3.22,
+ "per_bn_revenue": 4.41,
+ "per_10k_emp": 28.99,
  "benchmarks": {
   "global_vertical": {
-   "deployments": 0,
-   "confirmed": 0,
-   "proof_rate": 0,
-   "n": 377
+   "deployments": 58,
+   "confirmed": 62,
+   "proof_rate": 74,
+   "n": 388
   },
   "country_vertical": {
-   "deployments": 0,
-   "confirmed": 0,
-   "proof_rate": 0,
+   "deployments": 71,
+   "confirmed": 71,
+   "proof_rate": 71,
    "n": 8
   }
  },
- "first_seen": 2025,
+ "first_seen": 2023,
  "by_year": [
   {
-   "year": 2025,
+   "year": 2023,
    "n": 1
+  },
+  {
+   "year": 2024,
+   "n": 1
+  },
+  {
+   "year": 2025,
+   "n": 2
+  },
+  {
+   "year": 2026,
+   "n": 5
   }
  ],
  "undated_pct": 0,
- "momentum": "rising",
- "maturity": "L1",
+ "momentum": "early_mover,rising",
+ "maturity": "L4",
  "maturity_evidence": [
-  "rows_no_confirmed"
+  "multi_horizontal",
+  "named_product:Market",
+  "value_number",
+  "multi_year"
  ],
- "prospect_score": 40,
- "stack": [],
- "vendor_named": false,
+ "prospect_score": 64,
+ "stack": [
+  "Amazon AWS",
+  "Anthropic",
+  "Microsoft",
+  "Microsoft Azure",
+  "OpenAI"
+ ],
+ "vendor_named": true,
  "deployments_detail": [
+  {
+   "company": "Euronext",
+   "use": "Market Analytics Assistant Agent: an AI agent (built in Dataiku) that lets business/product teams ask market-share questions in natural language, translating them into governed SQL queries against trusted datasets with full traceability. In production in the product team's workflow. [Dataiku]",
+   "existence": "confirmed",
+   "value": "up to 20% of analysts' time saved; ad-hoc questions that took hours resolved in seconds",
+   "tier": "",
+   "url": "https://www.dataiku.com/blog/euronext",
+   "raw_sector": "",
+   "date": "2026-03-16",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Euronext",
+   "use": "Euronext Artificial Intelligence World Index: a live thematic index tracking the 100 highest-ranking AI companies, with constituents selected using SESAMm's AI/NLP engine that analyzes over 20 billion documents to generate exposure and sentiment scores. Live and tradable (ticker FRIX00001845-XPAR). [SESAMm]",
+   "existence": "confirmed",
+   "value": "100 companies tracked; SESAMm analyzes over 20 billion documents",
+   "tier": "",
+   "url": "https://www.euronext.com/en/news/euronext-artificial-intelligence-world-index",
+   "raw_sector": "",
+   "date": "2023-05-24",
+   "fresh": "stale"
+  },
+  {
+   "company": "Euronext",
+   "use": "Euronext Corporate Solutions Investor Relations Portal: a secure AI-powered digital workspace for listed companies, including an embedded AI agent/assistant that helps users navigate the platform and access IR best practices and knowledge, alongside live market data and shareholder intelligence. Launched with 180+ companies onboarded. [none]",
+   "existence": "confirmed",
+   "value": "180+ companies onboarded as of July 2026",
+   "tier": "",
+   "url": "https://www.euronext.com/en/about/media/euronext-press-releases/euronext-corporate-solutions-launches-investor-relations-portal",
+   "raw_sector": "",
+   "date": "2026-07-14",
+   "fresh": "fresh"
+  },
   {
    "company": "Euronext",
    "use": "AI used for market surveillance to detect anomalies and ensure fair orderly transactions",
@@ -53,6 +107,61 @@
    "url": "https://www.maddyness.com/2025/04/30/comment-euronext-et-la-finance-utilise-lia/",
    "raw_sector": "Financial Exchanges",
    "date": "2025",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Euronext",
+   "use": "AI-driven market surveillance: Euronext's Market Surveillance team uses AI-powered tools to monitor trading activity, detect market manipulation and ensure regulatory compliance in real time across its markets. [none]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://iongroup.com/blog/markets/how-global-markets-are-adapting-to-the-changes-forged-by-ai-and-digitalization/",
+   "raw_sector": "",
+   "date": "2025-05-20",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Euronext",
+   "use": "Euronext Securities (Monte Titoli, Milan CSD) built a serverless machine-learning platform on AWS with Amazon SageMaker to run end-to-end predictive/prescriptive analytics on structured and unstructured post-trade data, serving internal and external users via batch and real-time prediction endpoints, with drift-triggered retraining. [AWS (Amazon SageMaker), Reply (Storm Reply / Data Reply)]",
+   "existence": "confirmed",
+   "value": "50% reduction in time to design/run ML workflows; 75% cost savings on model updates via drift-triggered retraining; went live in under 6 months",
+   "tier": "",
+   "url": "https://www.reply.com/en/data-world/monte-titoli-activites-with-advanced-analytics-and-ml-on-aws",
+   "raw_sector": "",
+   "date": "2024-01-28",
+   "fresh": "aging"
+  },
+  {
+   "company": "Euronext",
+   "use": "AI-powered regulatory-reporting automation: Euronext is developing LLM/AI-agent-based tools (Python, copilots, dashboards) to automate recurring regulatory reporting activities for analysts. Described as being designed/built rather than an established named production system. [none]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.euronext.com/en/about/careers/job-offers/r27985-france-ai-automation-intern",
+   "raw_sector": "",
+   "date": "2026-07-10",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Euronext",
+   "use": "AI-assisted software development: Euronext engineering and DevOps teams use GitHub Copilot (including Copilot CLI) and other AI coding agents (Claude Code) as standard dev tools to enhance development efficiency, referenced across multiple engineering roles and job postings. [GitHub Copilot (Microsoft/GitHub), Anthropic Claude Code]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.euronext.com/en/about/careers/job-offers/r28114-portugal-devops-trainee",
+   "raw_sector": "",
+   "date": "2026-07-20",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Euronext",
+   "use": "Production AI agent services: Euronext deploys and monitors AI agent services built on AWS Bedrock and Azure OpenAI across Dev/EUA/Prod environments, integrating AI capabilities via REST APIs, MCP servers and agentic orchestration frameworks (enterprise GenAI/Framework platform team). [AWS Bedrock, Microsoft Azure OpenAI]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.euronext.com/en/about/careers/job-offers/r28114-portugal-devops-trainee",
+   "raw_sector": "",
+   "date": "2026-07-20",
    "fresh": "fresh"
   }
  ]

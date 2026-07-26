@@ -3,41 +3,55 @@
  "name": "Santander",
  "cc": "ES",
  "vertical": "Financial Services",
- "deployments": 1,
- "confirmed": 1,
- "with_value_number": 1,
- "proof_rate": 1.0,
+ "deployments": 14,
+ "confirmed": 13,
+ "with_value_number": 11,
+ "proof_rate": 0.786,
  "mktcap": 186494400000.0,
  "revenue": 52347600000.0,
  "employees": 186370.0,
  "silent": false,
- "per_bn_revenue": 0.02,
- "per_10k_emp": 0.05,
+ "per_bn_revenue": 0.27,
+ "per_10k_emp": 0.75,
  "benchmarks": {
   "global_vertical": {
-   "deployments": 0,
-   "confirmed": 17,
-   "proof_rate": 76,
-   "n": 377
+   "deployments": 91,
+   "confirmed": 94,
+   "proof_rate": 97,
+   "n": 388
   },
   "country_vertical": {
-   "deployments": 0,
-   "confirmed": 0,
-   "proof_rate": 60,
+   "deployments": 100,
+   "confirmed": 100,
+   "proof_rate": 100,
    "n": 6
   }
  },
- "first_seen": null,
- "by_year": [],
- "undated_pct": 100,
- "momentum": "none",
- "maturity": "L3",
- "maturity_evidence": [
-  "named_product:AI-first",
-  "value_number"
+ "first_seen": 2025,
+ "by_year": [
+  {
+   "year": 2025,
+   "n": 3
+  },
+  {
+   "year": 2026,
+   "n": 10
+  }
  ],
- "prospect_score": 6,
+ "undated_pct": 7,
+ "momentum": "rising",
+ "maturity": "L4",
+ "maturity_evidence": [
+  "multi_horizontal",
+  "named_product:AI-first",
+  "value_number",
+  "multi_year"
+ ],
+ "prospect_score": 69,
  "stack": [
+  "Anthropic",
+  "Google",
+  "Microsoft",
   "OpenAI"
  ],
  "vendor_named": true,
@@ -52,6 +66,149 @@
    "raw_sector": "Financial Services",
    "date": "missing",
    "fresh": "undated"
+  },
+  {
+   "company": "Santander",
+   "use": "Santander and Mastercard completed Europe's first live end-to-end payment executed by an AI agent, using Mastercard Agent Pay to let AI agents initiate and execute payments within predefined limits and permissions. [Mastercard (Agent Pay)]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.santander.com/en/press-room/press-releases/2026/03/santander-and-mastercard-complete-europes-first-live-end-to-end-payment-executed-by-an-ai-agent",
+   "raw_sector": "",
+   "date": "2026-03",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Santander",
+   "use": "Santander and Visa delivered Latin America's first end-to-end payments powered by AI agents, with pilot transactions completed in five markets, letting agents securely initiate payments within defined consent parameters. [Visa]",
+   "existence": "confirmed",
+   "value": "pilot in 5 markets",
+   "tier": "",
+   "url": "https://www.santander.com/en/press-room/press-releases/2026/03/santander-and-visa-deliver-latin-americas-first-end-to-end-payments-powered-by-ai-agents",
+   "raw_sector": "",
+   "date": "2026-03",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Santander",
+   "use": "Onboarding ML model performs real-time eligibility assessment for credit card offers at account creation. [none]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.santander.com/en/stories/santander-turns-its-ai-first-strategy-into-measurable-impact-and-extends-ai-access-to-all-185000-employees",
+   "raw_sector": "",
+   "date": "2026-06",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Santander",
+   "use": "Santander and G42 signed a memorandum of understanding to co-develop AI banking solutions (advisory, savings, banking applications), combining Santander's banking scale with G42's sovereign AI and cloud capabilities. [G42 (and subsidiary Presight)]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.santander.com/en/press-room/press-releases/2026/06/banco-santander-and-g42-sign-memorandum-of-understanding-to-explore-strategic-cooperation-in-artificial-intelligence",
+   "raw_sector": "",
+   "date": "2026-06",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Santander",
+   "use": "AI copilots support more than 40% of contact center interactions, assisting agents in real time during customer service calls. [none]",
+   "existence": "confirmed",
+   "value": "40%+ of contact center interactions",
+   "tier": "",
+   "url": "https://www.santander.com/en/stories/santander-data-ai-first-strategy-accelerates-through-openai-collaboration",
+   "raw_sector": "",
+   "date": "2025-08",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Santander",
+   "use": "Speech Analytics processes around 10 million voice calls annually in Spain, auto-filling CRM systems and freeing over 100,000 hours annually. [none]",
+   "existence": "confirmed",
+   "value": "10 million calls/year; 100,000+ hours freed annually",
+   "tier": "",
+   "url": "https://www.santander.com/en/stories/santander-data-ai-first-strategy-accelerates-through-openai-collaboration",
+   "raw_sector": "",
+   "date": "2025-08",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Santander",
+   "use": "UK voice channel deploying AI for card-related self-service, targeting 240,000 calls (about 40% of annual volume) for natural-language self-service handling. [none]",
+   "existence": "confirmed",
+   "value": "targeting 240,000 calls (~40% of annual volume)",
+   "tier": "",
+   "url": "https://www.santander.com/en/stories/santander-turns-its-ai-first-strategy-into-measurable-impact-and-extends-ai-access-to-all-185000-employees",
+   "raw_sector": "",
+   "date": "2026-06",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Santander",
+   "use": "Rolled out OpenAI's ChatGPT Enterprise to ~15,000 employees across Europe and the Americas in two months (one of OpenAI's fastest enterprise deployments), targeting 30,000 users by year-end 2025 as part of its data & AI-first strategy. [OpenAI (ChatGPT Enterprise)]",
+   "existence": "confirmed",
+   "value": "15,000 employees (targeting 30,000, ~15% of workforce)",
+   "tier": "",
+   "url": "https://www.santander.com/en/stories/santander-data-ai-first-strategy-accelerates-through-openai-collaboration",
+   "raw_sector": "",
+   "date": "2025-08",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Santander",
+   "use": "More than 280 process automation (AI) agents in production across credit, fraud, KYC and operations functions. [none]",
+   "existence": "confirmed",
+   "value": "280+ production AI agents",
+   "tier": "",
+   "url": "https://www.santander.com/en/stories/santander-turns-its-ai-first-strategy-into-measurable-impact-and-extends-ai-access-to-all-185000-employees",
+   "raw_sector": "",
+   "date": "2026-06",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Santander",
+   "use": "Microsoft Copilot deployed integrated with Microsoft 365 for employee productivity across the group as part of extending AI access to all 185,000 employees. [Microsoft (Copilot / M365)]",
+   "existence": "confirmed",
+   "value": "185,000 employees given AI access",
+   "tier": "",
+   "url": "https://www.santander.com/en/stories/santander-turns-its-ai-first-strategy-into-measurable-impact-and-extends-ai-access-to-all-185000-employees",
+   "raw_sector": "",
+   "date": "2026-06",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Santander",
+   "use": "Agentic AI coding tools deployed for software development; 17,000+ employees using agentic AI for coding (May 2026) with ~40% of code developed by AI (June 2026). Named tools include Microsoft Copilot, ChatGPT, Anthropic's Claude, Google's Gemini, plus Maisa and Devin in developer training. [Microsoft Copilot, OpenAI, Anthropic Claude, Google Gemini, Devin, Maisa]",
+   "existence": "confirmed",
+   "value": "17,000+ developers; ~40% of code AI-generated; 20-30% productivity gains on some tasks",
+   "tier": "",
+   "url": "https://www.santander.com/en/stories/santander-turns-its-ai-first-strategy-into-measurable-impact-and-extends-ai-access-to-all-185000-employees",
+   "raw_sector": "",
+   "date": "2026-06",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Santander",
+   "use": "Openbank anti-money-laundering system processes ~100,000 AML alerts annually, reducing investigation time from hours to minutes. [none]",
+   "existence": "confirmed",
+   "value": "~100,000 alerts/year; investigations cut from hours to minutes",
+   "tier": "",
+   "url": "https://www.santander.com/en/stories/santander-turns-its-ai-first-strategy-into-measurable-impact-and-extends-ai-access-to-all-185000-employees",
+   "raw_sector": "",
+   "date": "2026-06",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Santander",
+   "use": "Brazil card fraud claims processing automated with AI: ~95% faster processing, up to 90% automation, and less than 1% error rate. [none]",
+   "existence": "confirmed",
+   "value": "95% faster, up to 90% automated, <1% error rate",
+   "tier": "",
+   "url": "https://www.santander.com/en/stories/santander-turns-its-ai-first-strategy-into-measurable-impact-and-extends-ai-access-to-all-185000-employees",
+   "raw_sector": "",
+   "date": "2026-06",
+   "fresh": "fresh"
   }
  ]
 }

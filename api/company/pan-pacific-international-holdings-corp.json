@@ -3,47 +3,65 @@
  "name": "Pan Pacific International Holdings Corp.",
  "cc": "JP",
  "vertical": "Retail & E-commerce",
- "deployments": 1,
- "confirmed": 1,
- "with_value_number": 0,
- "proof_rate": 0.0,
+ "deployments": 9,
+ "confirmed": 8,
+ "with_value_number": 4,
+ "proof_rate": 0.444,
  "mktcap": 17066666667.0,
  "revenue": 15000000000.0,
  "employees": 17075.0,
  "silent": false,
- "per_bn_revenue": 0.07,
- "per_10k_emp": 0.59,
+ "per_bn_revenue": 0.6,
+ "per_10k_emp": 5.27,
  "benchmarks": {
   "global_vertical": {
-   "deployments": 0,
-   "confirmed": 24,
-   "proof_rate": 0,
-   "n": 295
+   "deployments": 64,
+   "confirmed": 75,
+   "proof_rate": 76,
+   "n": 301
   },
   "country_vertical": {
-   "deployments": 0,
-   "confirmed": 4,
-   "proof_rate": 0,
-   "n": 25
+   "deployments": 60,
+   "confirmed": 68,
+   "proof_rate": 72,
+   "n": 26
   }
  },
- "first_seen": 2025,
+ "first_seen": 2023,
  "by_year": [
   {
+   "year": 2023,
+   "n": 1
+  },
+  {
+   "year": 2024,
+   "n": 2
+  },
+  {
    "year": 2025,
+   "n": 4
+  },
+  {
+   "year": 2026,
    "n": 1
   }
  ],
- "undated_pct": 0,
- "momentum": "rising",
- "maturity": "L3",
+ "undated_pct": 11,
+ "momentum": "early_mover,rising",
+ "maturity": "L4",
  "maturity_evidence": [
+  "multi_horizontal",
   "named_product:SCAN ME",
+  "value_number",
+  "multi_year",
   "tier_p"
  ],
- "prospect_score": 54,
- "stack": [],
- "vendor_named": false,
+ "prospect_score": 70,
+ "stack": [
+  "Google",
+  "Google Cloud"
+ ],
+ "vendor_named": true,
  "deployments_detail": [
   {
    "company": "Pan Pacific International Holdings Corp.",
@@ -55,6 +73,94 @@
    "raw_sector": "Retail",
    "date": "2025-07",
    "fresh": "fresh"
+  },
+  {
+   "company": "Pan Pacific International Holdings Corp.",
+   "use": "'AI創業会長' (AI Founder Chairman): a conversational AI avatar of founder Takao Yasuda, co-developed with AIdeaLab, reproducing his speaking style, voice and philosophy from his books, materials, and internal video/audio (RAG-based dialogue model). Installed at a newly built space in PPIH's Shibuya headquarters for internal use. [AIdeaLab]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://aidealab.com/casestudy/5Lms4pEq",
+   "raw_sector": "",
+   "date": "2025-05",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Pan Pacific International Holdings Corp.",
+   "use": "AI pricing system 'Kakaku Mill' (価格ミル): AI recommends store prices based on competitor pricing, weather, temperature and past sales; recommendations shown on staff smartphone terminals. Rolled out to all Don Quijote stores during the fiscal year ended June 2023. Staff retain discretion (AI-recommended prices adopted ~50% of the time on average). [PPIH in-house]",
+   "existence": "confirmed",
+   "value": "Deployed to all Don Quijote stores by FY ending June 2023; ~50% adoption rate of AI recommendations",
+   "tier": "",
+   "url": "https://xtrend.nikkei.com/atcl/contents/18/01052/00007/",
+   "raw_sector": "",
+   "date": "2023-06",
+   "fresh": "stale"
+  },
+  {
+   "company": "Pan Pacific International Holdings Corp.",
+   "use": "'Campus Donki' unmanned checkout-free small store: AI cameras recognize customer movement, posture and products, combined with per-shelf weight sensors, to enable automatic checkout (LINE QR entry, cashless auto-payment). Uses NTT Data's Catch&Go digital store service; opened at Osaka Electro-Communication University in 2025. [NTT Data (Catch&Go)]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://aismiley.co.jp/ai_news/donki-oecu-ppih-ntt/",
+   "raw_sector": "",
+   "date": "2025-07",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Pan Pacific International Holdings Corp.",
+   "use": "Graph Neural Network (GNN)-based personalized product recommendation and coupon targeting on the majica app: learns from a customer's purchase history plus data from similar customers to predict next likely purchases and optimize per-customer discount rates (~50 variables). Completed three PoC rounds; full operational launch targeted for August 2026. [PPIH (GNN)]",
+   "existence": "claimed",
+   "value": "PoC1 (10,000 customers) achieved 59x higher coupon utilization vs standard promotions; ~5x improvement overall; full launch targeted Aug 2026",
+   "tier": "",
+   "url": "https://news.mynavi.jp/techplus/article/20260708-4622546/",
+   "raw_sector": "",
+   "date": "2026-07",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Pan Pacific International Holdings Corp.",
+   "use": "Retail-media audience targeting 'co-buy Audience Plus': Data One (PPIH-affiliated retail media venture) uses NTT Docomo's AI engine plus real ID-POS purchase data (including PPIH majica member data) to estimate lookalike customers and deliver targeted advertising across online/offline channels. [Data One; NTT Docomo (AI engine)]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://marketing.itmedia.co.jp/mm/spv/2407/16/news195.html",
+   "raw_sector": "",
+   "date": "2024-07",
+   "fresh": "aging"
+  },
+  {
+   "company": "Pan Pacific International Holdings Corp.",
+   "use": "majica app customer-experience personalization with Plaid's KARTE for App and KARTE Datahub: real-time analysis and visualization of individual in-app customer behavior, unifying purchase/POS/behavioral data to drive one-to-one personalized content and communication for majica's ~15M members. [Plaid (KARTE for App, KARTE Datahub)]",
+   "existence": "confirmed",
+   "value": "~15M majica app members",
+   "tier": "",
+   "url": "https://plaid.co.jp/news/20241008/",
+   "raw_sector": "",
+   "date": "2024-10",
+   "fresh": "aging"
+  },
+  {
+   "company": "Pan Pacific International Holdings Corp.",
+   "use": "In-store product AI image search service ('AI商品ナビ' / 'SCAN ME'): customers upload a smartphone photo of a desired product and the system locates it on shelves within the store; also helps staff re-shelve misplaced items. Built with BrainPad and PPIH's Kaibara Lab using Google Cloud Gemini and Vertex AI image recognition to construct a shelf-allocation database. [BrainPad; Kaibara Lab; Google Cloud (Gemini, Vertex AI / Vision AI, Vector Search)]",
+   "existence": "confirmed",
+   "value": "Don Quijote Shibuya flagship (~1.3M products; ~70% of sales from inbound tourists); 100% top-5 recognition accuracy for single-product images; PPIH plans 40 stores nationwide by FY2026",
+   "tier": "",
+   "url": "https://www.brainpad.co.jp/news/2025/05/09/23257",
+   "raw_sector": "",
+   "date": "2025-05",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Pan Pacific International Holdings Corp.",
+   "use": "AI security/anti-theft cameras: PPIH installs cameras with facial-identification functionality at store entrances and AI that detects shoplifting-type behaviors from camera images to aid crime prevention, per PPIH's official store security-camera privacy notice. [not named]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://ppih.co.jp/privacy/pdf/security_camera.pdf",
+   "raw_sector": "",
+   "date": "none",
+   "fresh": "undated"
   }
  ]
 }

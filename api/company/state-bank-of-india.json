@@ -3,42 +3,65 @@
  "name": "State Bank of India",
  "cc": "IN",
  "vertical": "Financial Services",
- "deployments": 2,
- "confirmed": 2,
- "with_value_number": 1,
- "proof_rate": 0.5,
+ "deployments": 11,
+ "confirmed": 8,
+ "with_value_number": 5,
+ "proof_rate": 0.455,
  "mktcap": 112650602410.0,
  "revenue": 45421686747.0,
  "employees": 245131.0,
  "silent": false,
- "per_bn_revenue": 0.04,
- "per_10k_emp": 0.08,
+ "per_bn_revenue": 0.24,
+ "per_10k_emp": 0.45,
  "benchmarks": {
   "global_vertical": {
-   "deployments": 62,
-   "confirmed": 73,
-   "proof_rate": 61,
-   "n": 377
+   "deployments": 72,
+   "confirmed": 67,
+   "proof_rate": 75,
+   "n": 388
   },
   "country_vertical": {
-   "deployments": 82,
-   "confirmed": 86,
-   "proof_rate": 55,
-   "n": 23
+   "deployments": 67,
+   "confirmed": 71,
+   "proof_rate": 62,
+   "n": 25
   }
  },
- "first_seen": null,
- "by_year": [],
- "undated_pct": 100,
- "momentum": "none",
- "maturity": "L3",
- "maturity_evidence": [
-  "named_product:SIA",
-  "value_number"
+ "first_seen": 2017,
+ "by_year": [
+  {
+   "year": 2017,
+   "n": 1
+  },
+  {
+   "year": 2021,
+   "n": 1
+  },
+  {
+   "year": 2024,
+   "n": 1
+  },
+  {
+   "year": 2025,
+   "n": 5
+  },
+  {
+   "year": 2026,
+   "n": 1
+  }
  ],
- "prospect_score": 40,
+ "undated_pct": 18,
+ "momentum": "early_mover,rising",
+ "maturity": "L4",
+ "maturity_evidence": [
+  "multi_horizontal",
+  "named_product:SIA",
+  "value_number",
+  "multi_year"
+ ],
+ "prospect_score": 70,
  "stack": [],
- "vendor_named": false,
+ "vendor_named": true,
  "deployments_detail": [
   {
    "company": "State Bank of India",
@@ -61,6 +84,105 @@
    "raw_sector": "Financial Services",
    "date": "missing",
    "fresh": "undated"
+  },
+  {
+   "company": "State Bank of India",
+   "use": "SIA (SBI Intelligent Assistant): AI/NLP customer-service chatbot answering everyday banking and loan-product queries; deployed at large scale via fintech partner Payjo. [Payjo]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://analyticsindiamag.com/ai-news-updates/sbi-introduces-chatbot-sia-address-customer-queries/",
+   "raw_sector": "",
+   "date": "2017-09",
+   "fresh": "stale"
+  },
+  {
+   "company": "State Bank of India",
+   "use": "YONO Ji: agentic AI-powered virtual assistant on YONO Business (web + mobile), providing 24/7 personalized product/service guidance; launched on SBI's 71st Bank Day. [none]",
+   "existence": "confirmed",
+   "value": "10 crore registered YONO users (platform)",
+   "tier": "",
+   "url": "https://ffnews.com/news/sbi-unveils-ai-powered-yono-ji-and-mobile-trade-finance-suite-on-71st-bank-day",
+   "raw_sector": "",
+   "date": "2026-07-01",
+   "fresh": "fresh"
+  },
+  {
+   "company": "State Bank of India",
+   "use": "Agentic AI for customer service: SBI announced plans to deploy agentic AI to autonomously handle customer-service transactions, alongside the GenAI askSBI employee assistant. [none]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://timesofindia.indiatimes.com/business/india-business/sbi-to-deploy-agentic-ai-for-customer-service/articleshow/119951201.cms",
+   "raw_sector": "",
+   "date": "2025-04-03",
+   "fresh": "fresh"
+  },
+  {
+   "company": "State Bank of India",
+   "use": "YONO Statement Interpreter: GenAI feature giving plain-language, self-service explanations of bank statements/transactions to reduce support calls (prototype stage). [none]",
+   "existence": "claimed",
+   "value": "projected 1-2 crore fewer support calls/branch visits (industry estimate, not realized)",
+   "tier": "",
+   "url": "https://www.linkedin.com/posts/atul-16b09b218_yono-statement-interpreter-ai-transaction-activity-7405727249351643136-QZkK",
+   "raw_sector": "",
+   "date": "2025-12",
+   "fresh": "fresh"
+  },
+  {
+   "company": "State Bank of India",
+   "use": "Predictive AI/ML for credit underwriting and proactive Early Warning Systems (EWS) detecting borrower financial stress, plus risk/treasury/ALM analytics, per FY2025 Annual Report. [none]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.adgully.com/post/2069/sbis-ai-blueprint-a-tech-forward-vision-for-indias-evolving-digital-economy",
+   "raw_sector": "",
+   "date": "2025-05",
+   "fresh": "fresh"
+  },
+  {
+   "company": "State Bank of India",
+   "use": "AI/analytics-driven pre-approved personal loan (PAPL) disbursal engine on the YONO app, using customer data to instantly offer and disburse retail credit. [none]",
+   "existence": "confirmed",
+   "value": "over Rs 5,500 crore retail credit disbursed via YONO",
+   "tier": "",
+   "url": "https://www.expresscomputer.in/industries/bfsi/ai-proving-to-be-a-strong-force-on-disbursals-via-sbi-yono/71702/",
+   "raw_sector": "",
+   "date": "2021-01",
+   "fresh": "stale"
+  },
+  {
+   "company": "State Bank of India",
+   "use": "askSBI Generative AI-powered Knowledge Hub chatbot for employees, giving secure access to enterprise knowledge and helping staff handle complex business scenarios. [none]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.linkedin.com/posts/state-bank-of-india_sbi-thebankertoeveryindian-asksbi-activity-7406310058734567425-4oV2",
+   "raw_sector": "",
+   "date": "2025-12",
+   "fresh": "fresh"
+  },
+  {
+   "company": "State Bank of India",
+   "use": "AI-powered customer engagement analytics: real-time CSAT/NPS/CES metrics coupled with AI-driven insights for continuous service improvement and hyper-personalized engagement (FY2025 Annual Report). [none]",
+   "existence": "confirmed",
+   "value": "98.20% of transactions via digital/alternate channels",
+   "tier": "",
+   "url": "https://www.adgully.com/post/2069/sbis-ai-blueprint-a-tech-forward-vision-for-indias-evolving-digital-economy",
+   "raw_sector": "",
+   "date": "2025-05",
+   "fresh": "fresh"
+  },
+  {
+   "company": "State Bank of India",
+   "use": "Own domain-specific Large Language Model (LLM): SBI plans to build an in-house LLM leveraging its data for data sovereignty and reduced dependence on external models. [none]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://money.rediff.com/amp/news/market/sbi-plans-own-llm-for-data-sovereignty-ai-news/7491120240301",
+   "raw_sector": "",
+   "date": "2024-03-01",
+   "fresh": "aging"
   }
  ]
 }

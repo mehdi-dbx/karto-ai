@@ -3,53 +3,63 @@
  "name": "Bank of China",
  "cc": "HK",
  "vertical": "Financial Services",
- "deployments": 2,
- "confirmed": 2,
- "with_value_number": 1,
- "proof_rate": 0.5,
+ "deployments": 12,
+ "confirmed": 11,
+ "with_value_number": 5,
+ "proof_rate": 0.417,
  "mktcap": 265384615385.0,
  "revenue": 82623076923.0,
  "employees": 313746.0,
  "silent": false,
- "per_bn_revenue": 0.02,
- "per_10k_emp": 0.06,
+ "per_bn_revenue": 0.15,
+ "per_10k_emp": 0.38,
  "benchmarks": {
   "global_vertical": {
-   "deployments": 62,
-   "confirmed": 73,
-   "proof_rate": 61,
-   "n": 377
+   "deployments": 81,
+   "confirmed": 84,
+   "proof_rate": 72,
+   "n": 388
   },
   "country_vertical": {
-   "deployments": 29,
-   "confirmed": 29,
-   "proof_rate": 71,
+   "deployments": 43,
+   "confirmed": 43,
+   "proof_rate": 57,
    "n": 8
   }
  },
- "first_seen": 2024,
+ "first_seen": 2018,
  "by_year": [
+  {
+   "year": 2018,
+   "n": 1
+  },
   {
    "year": 2024,
    "n": 1
   },
   {
    "year": 2025,
-   "n": 1
+   "n": 8
+  },
+  {
+   "year": 2026,
+   "n": 2
   }
  ],
  "undated_pct": 0,
- "momentum": "early_mover,flat",
+ "momentum": "early_mover,rising",
  "maturity": "L4",
  "maturity_evidence": [
+  "multi_horizontal",
   "named_product:BOCAI",
   "value_number",
   "multi_year",
   "tier_p"
  ],
- "prospect_score": 32,
+ "prospect_score": 83,
  "stack": [
-  "DeepSeek"
+  "DeepSeek",
+  "OpenAI"
  ],
  "vendor_named": true,
  "deployments_detail": [
@@ -63,6 +73,39 @@
    "raw_sector": "Financials",
    "date": "2024",
    "fresh": "aging"
+  },
+  {
+   "company": "Bank of China",
+   "use": "Internal large-model employee Q&A / knowledge assistant deployed across head office and branches. [none]",
+   "existence": "confirmed",
+   "value": "over 80,000 person-months saved across operations, marketing and R&D (aggregate)",
+   "tier": "",
+   "url": "https://wap.boc.cn/bif/bi1/202503/t20250327_25305740.html",
+   "raw_sector": "",
+   "date": "2025-03-27",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Bank of China",
+   "use": "Large-model automated report generation, deployed as one of the bank's 10+ production large-model application scenarios (part of 3,000+ AI application scenarios). [none]",
+   "existence": "confirmed",
+   "value": "3,000+ total AI application scenarios covered",
+   "tier": "",
+   "url": "https://wap.boc.cn/bif/bi1/202503/t20250327_25305740.html",
+   "raw_sector": "",
+   "date": "2025-03-27",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Bank of China",
+   "use": "BOCHK GenAI document-fraud-detection and anti-deepfake facial recognition to assist credit assessment, letting loan approval officers identify material forgeries and AI-generated fraudulent documents (tested via HKMA/Cyberport GenA.I. Sandbox first cohort). [none]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.bochk.com/dam/bochk/desktop/top/aboutus/pressrelease2/2025/251015056_Press_Release_EN.pdf",
+   "raw_sector": "",
+   "date": "2025-10-15",
+   "fresh": "fresh"
   },
   {
    "company": "Bank of China",
@@ -85,6 +128,50 @@
    "raw_sector": "Banks",
    "date": "2024",
    "fresh": "aging"
+  },
+  {
+   "company": "Bank of China",
+   "use": "Private (on-premise) deployment of the open-source DeepSeek R1 large language model, fine-tuned on Bank of China's proprietary data, forming the base model for internal AI scenarios; piloted in marketing assistants, remote banking and credit-report generation. [DeepSeek (R1 model)]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://wap.boc.cn/bif/bi1/202503/t20250327_25305740.html",
+   "raw_sector": "",
+   "date": "2025-03-27",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Bank of China",
+   "use": "BOCHK GenAI Assistant: a GenAI conversational tool for corporate banking staff that automates analysis of complex financial documents to assess risk and client relationships; progressed from PoC to full production deployment at scale (BOCHK's first GenAI project). [none]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://thedigitalbanker.com/generative-ai-powers-a-new-era-of-efficiency-for-bank-of-china-hong-kong/",
+   "raw_sector": "",
+   "date": "2026-03-11",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Bank of China",
+   "use": "'BOC Sci-Tech KuaTeng' (中银科创夸腾) system: uses AIGC/generative AI and knowledge graphs plus a full-stack self-developed financial large-model tech system to quantitatively evaluate tech-company innovation strength for sci-tech finance credit/lending decisions. [none]",
+   "existence": "confirmed",
+   "value": "served nearly 8,000 (Shenzhen: 18,000+) tech enterprises",
+   "tier": "",
+   "url": "https://www.bankofchina.com/aboutboc/bi1/202601/t20260126_25645966.html",
+   "raw_sector": "",
+   "date": "2026-01-26",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Bank of China",
+   "use": "'BOC Hui Tou' (中银慧投): AI/ML-driven robo-advisor in the mobile banking app that uses AI algorithms, big-data analytics and machine learning to monitor global markets 24/7 and provide personalized fund/asset-allocation recommendations. [none]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.bankofchina.com/aboutboc/ab8/201804/t20180423_12055269.html",
+   "raw_sector": "",
+   "date": "2018-04-23",
+   "fresh": "stale"
   },
   {
    "company": "Bank of China",
@@ -205,6 +292,39 @@
    "url": "https://www.cs.com.cn/xwzx/hg/202504/t20250411_6484941.html",
    "raw_sector": "",
    "date": "2025-04",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Bank of China",
+   "use": "BOCHK 'Frontline GPT': a generative and agentic AI-powered tool giving sales/frontline staff instant product knowledge and real-time conversational support for customer interactions (recognized/implemented per IDC Future Enterprise Awards 2025 and Digital CX Awards 2025). [none]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://my.idc.com/getdoc.jsp?containerId=prAP53893025",
+   "raw_sector": "",
+   "date": "2025-10-27",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Bank of China",
+   "use": "BOCHK AI Avatars: GenAI-powered avatars deployed to generate multilingual investment-commentary video clips (Cantonese, Mandarin and Southeast Asian languages) disseminated to customers via the BOCHK mobile banking app; also provide interactive info on banking products/promotions. [none]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.bochk.com/dam/bochk/desktop/top/aboutus/pressrelease2/2025/251015056_Press_Release_EN.pdf",
+   "raw_sector": "",
+   "date": "2025-10-15",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Bank of China",
+   "use": "Large-model intelligent R&D / software development assistant used by bank technology staff, deployed as one of 10+ production large-model scenarios. [none]",
+   "existence": "confirmed",
+   "value": "over 3,600 users in the intelligent R&D scenario",
+   "tier": "",
+   "url": "https://wap.boc.cn/bif/bi1/202503/t20250327_25305740.html",
+   "raw_sector": "",
+   "date": "2025-03-27",
    "fresh": "fresh"
   }
  ]

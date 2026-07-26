@@ -3,22 +3,22 @@
  "name": "Qantas Airways",
  "cc": "AU",
  "vertical": "Travel & Hospitality",
- "deployments": 10,
- "confirmed": 7,
- "with_value_number": 3,
- "proof_rate": 0.3,
+ "deployments": 16,
+ "confirmed": 11,
+ "with_value_number": 5,
+ "proof_rate": 0.312,
  "mktcap": 10040000000.0,
  "revenue": 15880000000.0,
  "employees": 20000.0,
  "silent": false,
- "per_bn_revenue": 0.63,
- "per_10k_emp": 5.0,
+ "per_bn_revenue": 1.01,
+ "per_10k_emp": 8.0,
  "benchmarks": {
   "global_vertical": {
-   "deployments": 92,
-   "confirmed": 92,
-   "proof_rate": 68,
-   "n": 39
+   "deployments": 95,
+   "confirmed": 95,
+   "proof_rate": 75,
+   "n": 41
   }
  },
  "first_seen": 2017,
@@ -48,7 +48,7 @@
    "n": 4
   }
  ],
- "undated_pct": 0,
+ "undated_pct": 38,
  "momentum": "early_mover,rising",
  "maturity": "L4",
  "maturity_evidence": [
@@ -58,9 +58,11 @@
   "multi_year",
   "tier_p"
  ],
- "prospect_score": 78,
- "stack": [],
- "vendor_named": false,
+ "prospect_score": 88,
+ "stack": [
+  "Amazon AWS"
+ ],
+ "vendor_named": true,
  "deployments_detail": [
   {
    "company": "Qantas Airways",
@@ -83,6 +85,17 @@
    "raw_sector": "Airlines",
    "date": "2024-01",
    "fresh": "aging"
+  },
+  {
+   "company": "Qantas Airways",
+   "use": "Group-wide AI capability development",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://australianaviation.com.au/2025/09/qantas-announces-development-of-group-wide-ai-capabilities/",
+   "raw_sector": "",
+   "date": "Sep 2, 2025",
+   "fresh": "undated"
   },
   {
    "company": "Qantas Airways",
@@ -171,6 +184,61 @@
    "raw_sector": "",
    "date": "2018",
    "fresh": "stale"
+  },
+  {
+   "company": "Qantas Airways",
+   "use": "Predictive maintenance and aircraft scheduling optimization",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.thedigitalspeaker.com/qantas-ai-readiness-announced-outcomes-undisclosed-infrastructure/",
+   "raw_sector": "",
+   "date": "Jun 16, 2026",
+   "fresh": "undated"
+  },
+  {
+   "company": "Qantas Airways",
+   "use": "AI-based fuel routing and fuel-efficient flight path planning",
+   "existence": "confirmed",
+   "value": "1-2% fuel savings per sector",
+   "tier": "",
+   "url": "https://www.thedigitalspeaker.com/qantas-ai-readiness-announced-outcomes-undisclosed-infrastructure/",
+   "raw_sector": "",
+   "date": "Jun 16, 2026",
+   "fresh": "undated"
+  },
+  {
+   "company": "Qantas Airways",
+   "use": "On-time performance optimization",
+   "existence": "confirmed",
+   "value": "3-4 points on-time performance improvement; 86% on-time rate in April 2026",
+   "tier": "",
+   "url": "https://www.afr.com/companies/transport/how-qantas-used-ai-to-land-more-on-time-and-save-30m-20260504-p5ztfz",
+   "raw_sector": "",
+   "date": "May 4, 2026",
+   "fresh": "undated"
+  },
+  {
+   "company": "Qantas Airways",
+   "use": "Sales and revenue optimization",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.thedigitalspeaker.com/qantas-ai-readiness-announced-outcomes-undisclosed-infrastructure/",
+   "raw_sector": "",
+   "date": "Jun 16, 2026",
+   "fresh": "undated"
+  },
+  {
+   "company": "Qantas Airways",
+   "use": "Customer loyalty data extraction and analysis",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://ami.org.au/knowledge-hub/robot-chicken-qantas-exec-reveals-three-ai-customer-experience-experiments/",
+   "raw_sector": "",
+   "date": "missing",
+   "fresh": "undated"
   }
  ]
 }

@@ -3,48 +3,90 @@
  "name": "Air France-KLM",
  "cc": "FR",
  "vertical": "Travel & Hospitality",
- "deployments": 1,
- "confirmed": 1,
- "with_value_number": 0,
- "proof_rate": 0.0,
+ "deployments": 5,
+ "confirmed": 4,
+ "with_value_number": 1,
+ "proof_rate": 0.2,
  "mktcap": 3294000000.0,
  "revenue": 35985600000.0,
  "employees": 79755.0,
  "silent": false,
- "per_bn_revenue": 0.03,
- "per_10k_emp": 0.13,
+ "per_bn_revenue": 0.14,
+ "per_10k_emp": 0.63,
  "benchmarks": {
   "global_vertical": {
-   "deployments": 0,
-   "confirmed": 29,
-   "proof_rate": 0,
-   "n": 39
+   "deployments": 60,
+   "confirmed": 62,
+   "proof_rate": 52,
+   "n": 41
   },
   "country_vertical": {
-   "deployments": 0,
-   "confirmed": 0,
-   "proof_rate": 0,
-   "n": 6
+   "deployments": 33,
+   "confirmed": 33,
+   "proof_rate": 33,
+   "n": 7
   }
  },
- "first_seen": 2025,
+ "first_seen": 2024,
  "by_year": [
   {
-   "year": 2025,
+   "year": 2024,
    "n": 1
+  },
+  {
+   "year": 2025,
+   "n": 3
   }
  ],
- "undated_pct": 0,
- "momentum": "rising",
+ "undated_pct": 20,
+ "momentum": "early_mover,rising",
  "maturity": "L3",
  "maturity_evidence": [
+  "multi_horizontal",
   "named_product:Gen",
+  "value_number",
   "tier_p"
  ],
- "prospect_score": 54,
- "stack": [],
- "vendor_named": false,
+ "prospect_score": 56,
+ "stack": [
+  "Accenture",
+  "Google Cloud"
+ ],
+ "vendor_named": true,
  "deployments_detail": [
+  {
+   "company": "Air France-KLM",
+   "use": "Customer agent support with automatic documentation for customer management [Google Cloud]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.googlecloudpresscorner.com/2024-12-04-Google-Cloud-Lands-Partnership-with-Air-France-KLM-to-Transform-its-Data-and-Generative-AI-Strategy",
+   "raw_sector": "",
+   "date": "2024-12-04",
+   "fresh": "aging"
+  },
+  {
+   "company": "Air France-KLM",
+   "use": "AI chatbot trained on policy documents for customer support [EyeLevel]",
+   "existence": "confirmed",
+   "value": "96%",
+   "tier": "",
+   "url": "https://www.eyelevel.ai/customers/air-france-klm",
+   "raw_sector": "",
+   "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "Air France-KLM",
+   "use": "Generative AI factory for scaled AI deployment across operations, aircraft engineering, maintenance, and customer service [Google Cloud, Accenture]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://newsroom.accenture.com/news/2025/accenture-and-google-cloud-support-air-france-klm-in-building-a-generative-ai-factory-to-revolutionize-operations",
+   "raw_sector": "",
+   "date": "2025-07-17",
+   "fresh": "fresh"
+  },
   {
    "company": "Air France-KLM",
    "use": "Gen AI Factory built with Google Cloud and Accenture to industrialize generative AI across operations",
@@ -54,6 +96,17 @@
    "url": "https://corporate.airfrance.com/fr/actualites/air-france-et-lintelligence-artificielle-ia",
    "raw_sector": "Airlines",
    "date": "2025",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Air France-KLM",
+   "use": "Private generative AI assistant and retrieval-augmented generation (RAG) for aircraft damage diagnosis and repair [Google Cloud, Accenture]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://newsroom.accenture.com/news/2025/accenture-and-google-cloud-support-air-france-klm-in-building-a-generative-ai-factory-to-revolutionize-operations",
+   "raw_sector": "",
+   "date": "2025-07-17",
    "fresh": "fresh"
   }
  ]

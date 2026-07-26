@@ -3,42 +3,83 @@
  "name": "Alliant Energy",
  "cc": "US",
  "vertical": "Energy & Utilities",
- "deployments": 1,
- "confirmed": 0,
- "with_value_number": 0,
- "proof_rate": 0.0,
+ "deployments": 9,
+ "confirmed": 5,
+ "with_value_number": 3,
+ "proof_rate": 0.333,
  "mktcap": 19210000000.0,
  "revenue": 4420000000.0,
  "employees": 4943.0,
  "silent": false,
- "per_bn_revenue": 0.23,
- "per_10k_emp": 2.02,
+ "per_bn_revenue": 2.04,
+ "per_10k_emp": 18.21,
  "benchmarks": {
   "global_vertical": {
-   "deployments": 0,
-   "confirmed": 0,
-   "proof_rate": 0,
-   "n": 210
+   "deployments": 78,
+   "confirmed": 70,
+   "proof_rate": 68,
+   "n": 213
   },
   "country_vertical": {
-   "deployments": 0,
-   "confirmed": 0,
-   "proof_rate": 0,
+   "deployments": 78,
+   "confirmed": 78,
+   "proof_rate": 88,
    "n": 52
   }
  },
- "first_seen": null,
- "by_year": [],
- "undated_pct": 100,
- "momentum": "none",
- "maturity": "L1",
- "maturity_evidence": [
-  "rows_no_confirmed"
+ "first_seen": 2018,
+ "by_year": [
+  {
+   "year": 2018,
+   "n": 1
+  },
+  {
+   "year": 2023,
+   "n": 1
+  },
+  {
+   "year": 2025,
+   "n": 6
+  }
  ],
- "prospect_score": 40,
- "stack": [],
- "vendor_named": false,
+ "undated_pct": 11,
+ "momentum": "early_mover,rising",
+ "maturity": "L4",
+ "maturity_evidence": [
+  "multi_horizontal",
+  "named_product:NewGrid",
+  "value_number",
+  "multi_year"
+ ],
+ "prospect_score": 57,
+ "stack": [
+  "Microsoft",
+  "NVIDIA"
+ ],
+ "vendor_named": true,
  "deployments_detail": [
+  {
+   "company": "Alliant Energy",
+   "use": "Sunny, an AI Recruiting Assistant / conversational job assistant embedded across Alliant Energy careers pages and the Workday jobs board, answering candidate questions about the business, culture, teams and open roles. [none]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.alliantenergy.com/careers/application-process",
+   "raw_sector": "",
+   "date": "2025",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Alliant Energy",
+   "use": "Dedicated internal AI, Innovation and Emerging Technology function (led by an Assistant VP of AI, Innovation and Emerging Technology) exploring enterprise generative-AI tools including Microsoft Copilot for the workforce. [Microsoft (Copilot)]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.instagram.com/p/DO7jURDDKvU/",
+   "raw_sector": "",
+   "date": "2025",
+   "fresh": "fresh"
+  },
   {
    "company": "Alliant Energy",
    "use": "no confirmed own AI deployment (positioned as power provider to AI data centers, not internal AI use)",
@@ -49,6 +90,72 @@
    "raw_sector": "Utilities",
    "date": "missing",
    "fresh": "undated"
+  },
+  {
+   "company": "Alliant Energy",
+   "use": "NewGrid topology optimization software (AI/optimization 'Waze for the grid') used operationally with ITC/ATC to identify transmission reconfigurations that re-route power flow around congestion bottlenecks affecting Interstate Power and Light (IPL) generation assets, cutting wholesale congestion costs for customers. [NewGrid (with ITC/ATC, MISO reconfiguration process)]",
+   "existence": "confirmed",
+   "value": "49% reduction in congestion costs over two years; ~$24 million saved for customers (DOE Liftoff cites $40.3M identified/achievable)",
+   "tier": "",
+   "url": "https://newgridinc.com/wp-content/uploads/2024/05/topology-optimization-case-studies.pdf",
+   "raw_sector": "",
+   "date": "2023-2024",
+   "fresh": "stale"
+  },
+  {
+   "company": "Alliant Energy",
+   "use": "Sense Home Energy Monitor deployed to Wisconsin households: machine-learning energy disaggregation / non-intrusive load monitoring (NILM) delivers real-time, appliance-level energy insights via mobile app to drive efficiency and demand response. Ran as a multi-year program (400 efficiency households + 500 high-use demand-response households) concluding 2024, evaluated by Cadmus and the PSC of Wisconsin. [Sense (with Cadmus)]",
+   "existence": "confirmed",
+   "value": "At least 4% annual electric savings, 2.5% gas savings, up to 10% peak demand reduction; up to 9% 'always on' savings potential identified",
+   "tier": "",
+   "url": "https://www.prnewswire.com/news-releases/sense-alliant-energy-and-cadmus-collaborate-on-new-study-301516988.html",
+   "raw_sector": "",
+   "date": "2018-2024",
+   "fresh": "stale"
+  },
+  {
+   "company": "Alliant Energy",
+   "use": "Smart Hours demand-response program: automatically and remotely adjusts enrolled smart devices (smart thermostats, EV/EV chargers, Aquanta-controlled water heaters) across thousands of homes, pre-cooling/pre-heating and making minor automatic setting changes to find the best times and reduce load during predicted peak-demand events. [Aquanta (water-heater controllers)]",
+   "existence": "confirmed",
+   "value": "$25 sign-up bonus + $25 per season incentive to customers",
+   "tier": "",
+   "url": "https://www.alliantenergy.com/news/illuminate/,-w-,/2026/04/041326-smarthours",
+   "raw_sector": "",
+   "date": "2025-2026",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Alliant Energy",
+   "use": "Founding/participating member of EPRI's Open Power AI Consortium (launched with NVIDIA and 40+ companies) to co-develop open-source AI and generative-AI models, datasets and libraries tailored to power-sector challenges (forecasting, unified data platforms, grid operations). [EPRI, NVIDIA]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://openpowerai.org/consortium-membership",
+   "raw_sector": "",
+   "date": "2025",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Alliant Energy",
+   "use": "Customer-service chatbot embedded on the Alliant Energy Contact Us page (blue circle widget) for self-service support inquiries. [none]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.alliantenergy.com/customer-service/contact-us",
+   "raw_sector": "",
+   "date": "2025",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Alliant Energy",
+   "use": "Online home energy assessment tool that instantly generates personalized, lifestyle-tailored energy-saving recommendations from customer answers about their residence and energy habits (customer-facing recommendation/personalization engine). [none]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.alliantenergy.com/ways-to-save/home-energy-assessment",
+   "raw_sector": "",
+   "date": "2025",
+   "fresh": "fresh"
   }
  ]
 }

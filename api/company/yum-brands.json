@@ -3,43 +3,90 @@
  "name": "Yum! Brands",
  "cc": "US",
  "vertical": "Retail & E-commerce",
- "deployments": 1,
- "confirmed": 1,
- "with_value_number": 1,
- "proof_rate": 1.0,
+ "deployments": 10,
+ "confirmed": 8,
+ "with_value_number": 3,
+ "proof_rate": 0.3,
  "mktcap": 40770000000.0,
  "revenue": 8490000000.0,
  "employees": 49000.0,
  "silent": false,
- "per_bn_revenue": 0.12,
- "per_10k_emp": 0.2,
+ "per_bn_revenue": 1.18,
+ "per_10k_emp": 2.04,
  "benchmarks": {
   "global_vertical": {
-   "deployments": 0,
-   "confirmed": 24,
-   "proof_rate": 77,
-   "n": 295
+   "deployments": 72,
+   "confirmed": 75,
+   "proof_rate": 59,
+   "n": 301
   },
   "country_vertical": {
-   "deployments": 0,
-   "confirmed": 25,
-   "proof_rate": 85,
+   "deployments": 59,
+   "confirmed": 65,
+   "proof_rate": 61,
    "n": 80
   }
  },
- "first_seen": null,
- "by_year": [],
- "undated_pct": 100,
- "momentum": "none",
- "maturity": "L3",
- "maturity_evidence": [
-  "named_product:Byte by Yum",
-  "value_number"
+ "first_seen": 2024,
+ "by_year": [
+  {
+   "year": 2024,
+   "n": 1
+  },
+  {
+   "year": 2025,
+   "n": 8
+  }
  ],
- "prospect_score": 14,
- "stack": [],
- "vendor_named": false,
+ "undated_pct": 10,
+ "momentum": "early_mover,rising",
+ "maturity": "L4",
+ "maturity_evidence": [
+  "multi_horizontal",
+  "named_product:Byte by Yum",
+  "value_number",
+  "multi_year"
+ ],
+ "prospect_score": 76,
+ "stack": [
+  "Amazon AWS",
+  "NVIDIA"
+ ],
+ "vendor_named": true,
  "deployments_detail": [
+  {
+   "company": "Yum! Brands",
+   "use": "AI 'voice of the consumer' tool that aggregates reviews from social media and third-party platforms to inform restaurant operations [Byte by Yum]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.customerexperiencedive.com/news/yum-brands-ai-aggregate-social-media-third-party-reviews/756862/",
+   "raw_sector": "",
+   "date": "2025-08-05",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Yum! Brands",
+   "use": "Voice AI drive-thru and phone ordering agents that understand natural speech, process complex menu orders and suggest add-ons at Taco Bell (and select Pizza Hut) drive-thru lanes and call centers [NVIDIA (NIM microservices, Riva) on AWS EC2; SoundHound-derived voice tech]",
+   "existence": "confirmed",
+   "value": "~500 Taco Bell U.S. locations (up from ~100 in mid-2024)",
+   "tier": "",
+   "url": "https://www.tacobell.com/newsroom/yum-brands-to-expand-voice-ai-technology",
+   "raw_sector": "",
+   "date": "2024-07-31",
+   "fresh": "aging"
+  },
+  {
+   "company": "Yum! Brands",
+   "use": "NVIDIA-powered computer vision for drive-thru efficiency, order accuracy and back-of-house/kitchen labor optimization via AI cameras and real-time analytics [NVIDIA]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://blogs.nvidia.com/blog/yum-brands-ai/",
+   "raw_sector": "",
+   "date": "2025-03-18",
+   "fresh": "fresh"
+  },
   {
    "company": "Yum! Brands",
    "use": "\"Byte by Yum\" AI restaurant platform + Taco Bell voice AI drive-thru (300+ US locations, 2M+ orders)",
@@ -50,6 +97,72 @@
    "raw_sector": "Consumer Discretionary",
    "date": "missing",
    "fresh": "undated"
+  },
+  {
+   "company": "Yum! Brands",
+   "use": "Accelerated Restaurant Intelligence: operational intelligence engine that analyzes store metrics to generate action-plan recommendations for restaurant managers, replicating top-performer practices [NVIDIA NIM microservices; Byte by Yum]",
+   "existence": "confirmed",
+   "value": "thousands of Yum! locations",
+   "tier": "",
+   "url": "https://www.restaurantdive.com/news/yum-brands-nvidia-ai-taco-bell-pizza-hut-kfc-deal/742926/",
+   "raw_sector": "",
+   "date": "2025-03-18",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Yum! Brands",
+   "use": "Byte Coach / AI Restaurant Coach: intelligent assistant that aggregates customer feedback and social metrics and proactively suggests operational optimizations for frontline managers (labor scheduling, inventory, quality inspections) [Byte by Yum]",
+   "existence": "confirmed",
+   "value": "operational in nearly all Pizza Hut stores outside China",
+   "tier": "",
+   "url": "https://restaurantassociation.com/news/inside-yums-ai-factory-how-red360-and-byte-are-rewriting-fast-food/",
+   "raw_sector": "",
+   "date": "2025-12-01",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Yum! Brands",
+   "use": "Byte Inventory: AI-driven demand forecasting (Crave AI models) that recommends ordering/stock levels for restaurant general managers to reduce out-of-stocks and waste [Byte by Yum (Crave AI models)]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.yum.com/wps/portal/yumbrands/Yumbrands/news/company-stories-article/The+results+are+in+and+Byte+by+Yum+products+are+contributing+to+improved+customer+satisfaction+and+digital+sales",
+   "raw_sector": "",
+   "date": "2025-12-16",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Yum! Brands",
+   "use": "Corporate AI agents integrated in Yum! pilots for financial intelligence and internal workflows (agents that plan, reason and act to assist team members with complex tasks) [Byte by Yum; NVIDIA]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.yum.com/wps/portal/yumbrands/Yumbrands/news/press-releases/yum+brands+to+accelerate+ai+innovation+in+an+industry-first+collaboration+with+nvidia",
+   "raw_sector": "",
+   "date": "2025-03-18",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Yum! Brands",
+   "use": "AI 'factory' for personalized marketing: ML models (churn prediction, upsell, channel preference, send-time) generate individualized offers across KFC, Taco Bell and Pizza Hut using the Red360 first-party consumer data platform [OfferFit (now part of Braze); Red360 data platform]",
+   "existence": "confirmed",
+   "value": "up to 5x improvement in KPIs (ad frequency, ROAS); 200M+ AI-generated messages; 140M+ customer records",
+   "tier": "",
+   "url": "https://www.restaurantdive.com/news/how-yums-ai-factory-supercharges-marketing-taco-bell-beyond/760235/",
+   "raw_sector": "",
+   "date": "2025-09-17",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Yum! Brands",
+   "use": "AI-driven personalized upsell offers on in-store digital kiosks powered by the Red360 consumer intelligence engine [Red360 (Byte by Yum)]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.restaurantdive.com/news/how-yums-ai-factory-supercharges-marketing-taco-bell-beyond/760235/",
+   "raw_sector": "",
+   "date": "2025-09-17",
+   "fresh": "fresh"
   }
  ]
 }

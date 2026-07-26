@@ -3,10 +3,10 @@
  "name": "Rolls-Royce",
  "cc": "UK",
  "vertical": "Aerospace & Defence",
- "deployments": 1,
- "confirmed": 1,
+ "deployments": 6,
+ "confirmed": 2,
  "with_value_number": 1,
- "proof_rate": 1.0,
+ "proof_rate": 0.167,
  "mktcap": null,
  "revenue": null,
  "employees": null,
@@ -15,24 +15,34 @@
  "per_10k_emp": null,
  "benchmarks": {
   "global_vertical": {
-   "deployments": 0,
+   "deployments": 57,
    "confirmed": 29,
-   "proof_rate": 86,
+   "proof_rate": 71,
    "n": 8
   }
  },
- "first_seen": null,
- "by_year": [],
- "undated_pct": 100,
- "momentum": "none",
+ "first_seen": 2024,
+ "by_year": [
+  {
+   "year": 2024,
+   "n": 1
+  },
+  {
+   "year": 2025,
+   "n": 1
+  }
+ ],
+ "undated_pct": 67,
+ "momentum": "early_mover,flat",
  "maturity": "L3",
  "maturity_evidence": [
   "named_product:TotalCare",
   "value_number",
   "tier_p"
  ],
- "prospect_score": 6,
+ "prospect_score": 45,
  "stack": [
+  "Databricks",
   "Microsoft",
   "Microsoft Azure"
  ],
@@ -48,6 +58,61 @@
    "raw_sector": "Aerospace & defence",
    "date": "missing",
    "fresh": "undated"
+  },
+  {
+   "company": "Rolls-Royce",
+   "use": "AI-powered engine inspections",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.rolls-royce.com/media/our-stories/discover/2021/intelligentengine-harnessing-the-power-of-ai-to-deliver-more-intelligent-engine-inspections.aspx",
+   "raw_sector": "",
+   "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "Rolls-Royce",
+   "use": "AI for design acceleration, production streamlining, engine efficiency, and predictive maintenance [Microsoft Azure, Databricks]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.microsoft.com/en/customers/story/23201-rolls-royce-azure-databricks",
+   "raw_sector": "",
+   "date": "2025-01-04",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Rolls-Royce",
+   "use": "Generative AI for preliminary engineering design [Databricks]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.zenml.io/llmops-database/cloud-based-generative-ai-for-preliminary-engineering-design",
+   "raw_sector": "",
+   "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "Rolls-Royce",
+   "use": "Autoencoders for design optimization and dimensionality reduction in turbomachinery [Monolith AI]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.monolithai.com/case-studies/turbomachinery-autoencoders-rolls-royce",
+   "raw_sector": "",
+   "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "Rolls-Royce",
+   "use": "Conditional Generative Adversarial Networks (cGAN) for image generation optimization [Databricks]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.databricks.com/blog/rolls-royce-mosaic-ai",
+   "raw_sector": "",
+   "date": "2024-08-08",
+   "fresh": "aging"
   }
  ]
 }

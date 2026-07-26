@@ -3,28 +3,28 @@
  "name": "Morgan Stanley",
  "cc": "US",
  "vertical": "Financial Services",
- "deployments": 9,
- "confirmed": 8,
+ "deployments": 15,
+ "confirmed": 13,
  "with_value_number": 3,
- "proof_rate": 0.333,
+ "proof_rate": 0.2,
  "mktcap": 338460000000.0,
  "revenue": 77830000000.0,
  "employees": 83000.0,
  "silent": false,
- "per_bn_revenue": 0.12,
- "per_10k_emp": 1.08,
+ "per_bn_revenue": 0.19,
+ "per_10k_emp": 1.81,
  "benchmarks": {
   "global_vertical": {
-   "deployments": 92,
-   "confirmed": 93,
-   "proof_rate": 57,
-   "n": 377
+   "deployments": 94,
+   "confirmed": 94,
+   "proof_rate": 39,
+   "n": 388
   },
   "country_vertical": {
-   "deployments": 83,
-   "confirmed": 88,
-   "proof_rate": 67,
-   "n": 76
+   "deployments": 88,
+   "confirmed": 93,
+   "proof_rate": 42,
+   "n": 77
   }
  },
  "first_seen": 2017,
@@ -54,7 +54,7 @@
    "n": 1
   }
  ],
- "undated_pct": 11,
+ "undated_pct": 47,
  "momentum": "early_mover,flat",
  "maturity": "L4",
  "maturity_evidence": [
@@ -64,9 +64,10 @@
   "multi_year",
   "tier_p"
  ],
- "prospect_score": 75,
+ "prospect_score": 92,
  "stack": [
-  "OpenAI"
+  "OpenAI",
+  "Palantir"
  ],
  "vendor_named": true,
  "deployments_detail": [
@@ -78,6 +79,72 @@
    "tier": "P",
    "url": "https://www.morganstanley.com/press-releases/ai-at-morgan-stanley-debrief-launch",
    "raw_sector": "Financials",
+   "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "Morgan Stanley",
+   "use": "AI-powered tool that helps predict monetary policy actions by analyzing Federal Reserve communications",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.morganstanley.com/about-us/technology",
+   "raw_sector": "",
+   "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "Morgan Stanley",
+   "use": "AI Assistant and Debrief for advisory and investment teams to provide faster insights and informed decisions [OpenAI]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://openai.com/index/morgan-stanley/",
+   "raw_sector": "",
+   "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "Morgan Stanley",
+   "use": "AI @ Morgan Stanley Debrief - OpenAI-powered tool that generates meeting notes on behalf of Financial Advisors with client consent [OpenAI]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.morganstanley.com/press-releases/ai-at-morgan-stanley-debrief-launch",
+   "raw_sector": "",
+   "date": "Jun 26, 2024",
+   "fresh": "undated"
+  },
+  {
+   "company": "Morgan Stanley",
+   "use": "AI evals and summarization tools empowering financial advisors [OpenAI] [OpenAI]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://openai.com/index/morgan-stanley/",
+   "raw_sector": "",
+   "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "Morgan Stanley",
+   "use": "Named as a OpenAI customer/case study [OpenAI] [OpenAI]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://medium.com/@liliu.data/openai-customer-success-stories-a-brief-summary-41b41842ba78",
+   "raw_sector": "",
+   "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "Morgan Stanley",
+   "use": "Named as a Palantir customer/case study [Palantir] [Palantir]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://en.wikipedia.org/wiki/Palantir",
+   "raw_sector": "",
    "date": "missing",
    "fresh": "undated"
   },

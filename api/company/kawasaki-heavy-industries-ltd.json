@@ -3,27 +3,27 @@
  "name": "Kawasaki Heavy Industries, Ltd.",
  "cc": "JP",
  "vertical": "Real Estate & Construction",
- "deployments": 1,
- "confirmed": 1,
+ "deployments": 4,
+ "confirmed": 2,
  "with_value_number": 1,
- "proof_rate": 1.0,
+ "proof_rate": 0.25,
  "mktcap": 15466666667.0,
  "revenue": 15400000000.0,
  "employees": 39689.0,
  "silent": false,
- "per_bn_revenue": 0.06,
- "per_10k_emp": 0.25,
+ "per_bn_revenue": 0.26,
+ "per_10k_emp": 1.01,
  "benchmarks": {
   "global_vertical": {
-   "deployments": 0,
-   "confirmed": 31,
-   "proof_rate": 71,
+   "deployments": 50,
+   "confirmed": 41,
+   "proof_rate": 58,
    "n": 154
   },
   "country_vertical": {
-   "deployments": 0,
-   "confirmed": 0,
-   "proof_rate": 64,
+   "deployments": 29,
+   "confirmed": 7,
+   "proof_rate": 36,
    "n": 15
   }
  },
@@ -33,11 +33,12 @@
  "momentum": "none",
  "maturity": "L3",
  "maturity_evidence": [
+  "multi_horizontal",
   "named_product:NVIDIA",
   "value_number",
   "tier_p"
  ],
- "prospect_score": 6,
+ "prospect_score": 42,
  "stack": [
   "NVIDIA"
  ],
@@ -51,6 +52,39 @@
    "tier": "P",
    "url": "https://www.nikkei.com/",
    "raw_sector": "Shipbuilding",
+   "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "Kawasaki Heavy Industries, Ltd.",
+   "use": "Next-Generation Digital Shipyard using AI and Digital Twin Technology for vessel lifecycle management [NVIDIA]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://global.kawasaki.com/en/corp/newsroom/news/detail/?f=20260716_9376",
+   "raw_sector": "",
+   "date": "Jul 16, 2026",
+   "fresh": "undated"
+  },
+  {
+   "company": "Kawasaki Heavy Industries, Ltd.",
+   "use": "Sales acceleration using AI for customer discovery [SUPPLYCO]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.supplyco.ai/blog/kawasaki-robotics",
+   "raw_sector": "",
+   "date": "Apr 24, 2026",
+   "fresh": "undated"
+  },
+  {
+   "company": "Kawasaki Heavy Industries, Ltd.",
+   "use": "Track maintenance and inspection optimization using AI [NVIDIA cuOpt, NVIDIA Jetson Orin]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.nvidia.com/en-us/case-studies/reinventing-maintenance-operations-with-ai/",
+   "raw_sector": "",
    "date": "missing",
    "fresh": "undated"
   }

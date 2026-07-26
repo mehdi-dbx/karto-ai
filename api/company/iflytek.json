@@ -3,10 +3,10 @@
  "name": "iFlytek",
  "cc": "CN",
  "vertical": "Technology",
- "deployments": 1,
- "confirmed": 1,
+ "deployments": 4,
+ "confirmed": 2,
  "with_value_number": 1,
- "proof_rate": 1.0,
+ "proof_rate": 0.25,
  "mktcap": null,
  "revenue": null,
  "employees": null,
@@ -15,30 +15,38 @@
  "per_10k_emp": null,
  "benchmarks": {
   "global_vertical": {
-   "deployments": 0,
-   "confirmed": 6,
-   "proof_rate": 80,
-   "n": 156
+   "deployments": 15,
+   "confirmed": 11,
+   "proof_rate": 58,
+   "n": 159
   },
   "country_vertical": {
-   "deployments": 0,
-   "confirmed": 0,
-   "proof_rate": 58,
+   "deployments": 17,
+   "confirmed": 17,
+   "proof_rate": 42,
    "n": 13
   }
  },
- "first_seen": null,
- "by_year": [],
- "undated_pct": 100,
- "momentum": "none",
+ "first_seen": 2025,
+ "by_year": [
+  {
+   "year": 2025,
+   "n": 3
+  }
+ ],
+ "undated_pct": 25,
+ "momentum": "early_mover,rising",
  "maturity": "L3",
  "maturity_evidence": [
+  "multi_horizontal",
   "named_product:Spark",
   "value_number"
  ],
- "prospect_score": 14,
- "stack": [],
- "vendor_named": false,
+ "prospect_score": 42,
+ "stack": [
+  "OpenAI"
+ ],
+ "vendor_named": true,
  "deployments_detail": [
   {
    "company": "iFlytek",
@@ -50,6 +58,39 @@
    "raw_sector": "Information Technology",
    "date": "missing",
    "fresh": "undated"
+  },
+  {
+   "company": "iFlytek",
+   "use": "AI Industrial Endoscope for aircraft crack detection",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.iflytek.com/en/news-events/news/285.html",
+   "raw_sector": "",
+   "date": "2025-10-17",
+   "fresh": "fresh"
+  },
+  {
+   "company": "iFlytek",
+   "use": "Antelope Industrial Large Model 3.0",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.iflytek.com/en/news-events/news/285.html",
+   "raw_sector": "",
+   "date": "2025-10-17",
+   "fresh": "fresh"
+  },
+  {
+   "company": "iFlytek",
+   "use": "AI Meeting Summary and transcription in AINOTE Air 2 [GPT-4o]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://store.iflytek.com/blogs/news/conversing-with-gpt-4o-in-ainote-air-2-real-use-cases-and-tips?srsltid=AfmBOorVrSqdxlH7zU3t1wpJbdkCwmKQNe2kFd9dxycfsHkTjWefRyN9",
+   "raw_sector": "",
+   "date": "2025-05-22",
+   "fresh": "fresh"
   }
  ]
 }

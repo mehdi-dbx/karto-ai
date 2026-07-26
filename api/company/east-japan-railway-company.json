@@ -3,27 +3,27 @@
  "name": "East Japan Railway Company",
  "cc": "JP",
  "vertical": "Logistics & Supply Chain",
- "deployments": 2,
- "confirmed": 2,
+ "deployments": 8,
+ "confirmed": 5,
  "with_value_number": 1,
- "proof_rate": 0.5,
+ "proof_rate": 0.125,
  "mktcap": 27200000000.0,
  "revenue": 20533333333.0,
  "employees": 70623.0,
  "silent": false,
- "per_bn_revenue": 0.1,
- "per_10k_emp": 0.28,
+ "per_bn_revenue": 0.39,
+ "per_10k_emp": 1.13,
  "benchmarks": {
   "global_vertical": {
-   "deployments": 65,
-   "confirmed": 74,
-   "proof_rate": 52,
-   "n": 66
+   "deployments": 70,
+   "confirmed": 64,
+   "proof_rate": 30,
+   "n": 67
   },
   "country_vertical": {
-   "deployments": 64,
-   "confirmed": 68,
-   "proof_rate": 41,
+   "deployments": 73,
+   "confirmed": 64,
+   "proof_rate": 18,
    "n": 23
   }
  },
@@ -38,16 +38,17 @@
    "n": 1
   }
  ],
- "undated_pct": 0,
- "momentum": "early_mover,rising",
+ "undated_pct": 75,
+ "momentum": "rising",
  "maturity": "L4",
  "maturity_evidence": [
+  "multi_horizontal",
   "named_product:Railway-version generative AI",
   "value_number",
   "multi_year",
   "tier_p"
  ],
- "prospect_score": 40,
+ "prospect_score": 73,
  "stack": [],
  "vendor_named": false,
  "deployments_detail": [
@@ -72,6 +73,72 @@
    "raw_sector": "Railway/Bus",
    "date": "2025-09",
    "fresh": "fresh"
+  },
+  {
+   "company": "East Japan Railway Company",
+   "use": "AI-powered solution for operations management",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://globalmasstransit.net/jr-east-to-deploy-ai-powered-solution-for-operations-management-japan/",
+   "raw_sector": "",
+   "date": "Jun 11, 2025",
+   "fresh": "undated"
+  },
+  {
+   "company": "East Japan Railway Company",
+   "use": "Generative AI to support employee work",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.jreast.co.jp/en/company/business_strategy/innovation/",
+   "raw_sector": "",
+   "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "East Japan Railway Company",
+   "use": "AI agents for railway traffic management and maintenance [Hitachi]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://itbusinesstoday.com/gov-tech/hitachi-ltd-jr-east-to-test-ai-in-railway-traffic-control/",
+   "raw_sector": "",
+   "date": "Jun 10, 2025",
+   "fresh": "undated"
+  },
+  {
+   "company": "East Japan Railway Company",
+   "use": "AI-based detection system at pedestrian rail crossings",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www3.nhk.or.jp/nhkworld/en/shows/2049169/",
+   "raw_sector": "",
+   "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "East Japan Railway Company",
+   "use": "AI system detecting passengers approaching closing doors",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.facebook.com/JapanStationGuide/posts/jr-east-rolls-out-a-new-ai-system-that-detects-passengers-approaching-closing-do/1256169906541102/",
+   "raw_sector": "",
+   "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "East Japan Railway Company",
+   "use": "Generative AI at ticket counters",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://finance.biggo.com/news/9ce4f6c0-e7bc-4f57-b8e7-40a05bfc7383",
+   "raw_sector": "",
+   "date": "8 days ago",
+   "fresh": "undated"
   }
  ]
 }

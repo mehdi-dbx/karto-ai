@@ -3,44 +3,70 @@
  "name": "Toyota Motor Corp.",
  "cc": "JP",
  "vertical": "Automotive",
- "deployments": 3,
- "confirmed": 3,
- "with_value_number": 0,
- "proof_rate": 0.0,
+ "deployments": 12,
+ "confirmed": 10,
+ "with_value_number": 7,
+ "proof_rate": 0.583,
  "mktcap": 232000000000.0,
  "revenue": 337866666667.0,
  "employees": 390927.0,
  "silent": false,
- "per_bn_revenue": 0.01,
- "per_10k_emp": 0.08,
+ "per_bn_revenue": 0.04,
+ "per_10k_emp": 0.31,
  "benchmarks": {
   "global_vertical": {
-   "deployments": 79,
-   "confirmed": 79,
-   "proof_rate": 0,
+   "deployments": 74,
+   "confirmed": 82,
+   "proof_rate": 95,
    "n": 40
   },
   "country_vertical": {
    "deployments": 78,
-   "confirmed": 78,
-   "proof_rate": 0,
+   "confirmed": 89,
+   "proof_rate": 78,
    "n": 10
   }
  },
- "first_seen": null,
- "by_year": [],
- "undated_pct": 100,
- "momentum": "none",
- "maturity": "L3",
+ "first_seen": 2023,
+ "by_year": [
+  {
+   "year": 2023,
+   "n": 2
+  },
+  {
+   "year": 2024,
+   "n": 2
+  },
+  {
+   "year": 2025,
+   "n": 3
+  },
+  {
+   "year": 2026,
+   "n": 2
+  }
+ ],
+ "undated_pct": 25,
+ "momentum": "early_mover,rising",
+ "maturity": "L4",
  "maturity_evidence": [
   "multi_horizontal",
   "named_product:Generative",
+  "value_number",
+  "multi_year",
   "tier_p"
  ],
- "prospect_score": 58,
+ "prospect_score": 77,
  "stack": [
+  "Amazon AWS",
+  "Anthropic",
+  "Deloitte",
+  "Google Cloud",
   "Microsoft",
-  "Microsoft Azure"
+  "Microsoft Azure",
+  "NVIDIA",
+  "OpenAI",
+  "Salesforce"
  ],
  "vendor_named": true,
  "deployments_detail": [
@@ -68,6 +94,50 @@
   },
   {
    "company": "Toyota Motor Corp.",
+   "use": "O-Beya multi-agent generative AI system giving ~800 powertrain engineers 24/7 access to consolidated engineering knowledge (nine specialized agents e.g. Vibration Agent, Fuel Consumption Agent) to accelerate vehicle development. [Microsoft Azure OpenAI Service (GPT-4o), Azure Functions, Azure Cosmos DB]",
+   "existence": "confirmed",
+   "value": "9 agents; ~800 engineers with access; in production since Jan 2024",
+   "tier": "",
+   "url": "https://news.microsoft.com/source/asia/features/toyota-is-deploying-ai-agents-to-harness-the-collective-wisdom-of-engineers-and-innovate-faster/",
+   "raw_sector": "",
+   "date": "2024",
+   "fresh": "aging"
+  },
+  {
+   "company": "Toyota Motor Corp.",
+   "use": "In-house no-code AI Platform letting factory workers build and deploy their own machine-learning models (parts inspection, adhesive/glass detection, injection-molding anomaly detection, predictive maintenance) across all Toyota unit/car plants. [Google Cloud (GKE Enterprise, Cloud Build, NVIDIA T4/A100 GPUs)]",
+   "existence": "confirmed",
+   "value": "10,000+ man-hours saved annually; ~1,200 active users; 10,000 models created in 2024; live across 10 factories",
+   "tier": "",
+   "url": "https://cloud.google.com/blog/topics/hybrid-cloud/toyota-ai-platform-manufacturing-efficiency",
+   "raw_sector": "",
+   "date": "2024",
+   "fresh": "aging"
+  },
+  {
+   "company": "Toyota Motor Corp.",
+   "use": "Toyota uses Nvidia AI for manufacturing: Omniverse digital twins of assembly lines, robot training via Isaac Sim (with Ready Robotics) to cut robotic-task deployment time, autonomous warehouse forklifts/AMRs, and a Nemotron-based code assistant for validating safety-critical manufacturing software. [NVIDIA (Omniverse, Isaac Sim, Nemotron LLMs, Drive AGX Orin)]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.automotiveworld.com/news/toyota-nvidia-expand-ai-deal-into-manufacturing-smart-cities/",
+   "raw_sector": "",
+   "date": "2026",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Toyota Motor Corp.",
+   "use": "Toyota Research Institute generative-AI design tool that lets vehicle designers generate design sketches from text prompts while incorporating engineering/manufacturing constraints (e.g. aerodynamic drag optimization). [Toyota Research Institute (in-house generative AI / text-to-image)]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://pressroom.toyota.com/toyota-research-institute-unveils-new-generative-ai-technique-for-vehicle-design/",
+   "raw_sector": "",
+   "date": "2023",
+   "fresh": "stale"
+  },
+  {
+   "company": "Toyota Motor Corp.",
    "use": "Next-gen AI voice recognition on Arene OS (controls 200+ vehicle functions), for next-gen global production models",
    "existence": "confirmed",
    "value": "none quantified",
@@ -76,6 +146,61 @@
    "raw_sector": "Automotive",
    "date": "missing",
    "fresh": "undated"
+  },
+  {
+   "company": "Toyota Motor Corp.",
+   "use": "Toyota Motor North America used generative AI to reverse-engineer legacy COBOL and auto-generate documentation to migrate mainframe workloads (managing 90% of Toyota's supply chain) off the mainframe to AWS. [AWS (Amazon Q Developer / AWS Transform)]",
+   "existence": "confirmed",
+   "value": "Legacy systems managed 90% of Toyota's supply chain; documentation generated in one day",
+   "tier": "",
+   "url": "https://aws.amazon.com/solutions/case-studies/innovators/toyota/",
+   "raw_sector": "",
+   "date": "2025",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Toyota Motor Corp.",
+   "use": "Toyota Motor Europe uses generative AI to auto-generate documentation (technical YAML specs, HTML business reports, process-flow diagrams) for legacy NCL/AS400 mainframe code as part of mainframe modernization; validated and moved to production rollout. [AWS Amazon Bedrock (Anthropic Claude Sonnet 4), Strands Agents SDK, Titan Text Embeddings V2; Deloitte]",
+   "existence": "confirmed",
+   "value": "1.3M lines of NCL code in target app; ~90% token savings via prompt caching; 70+ legacy apps",
+   "tier": "",
+   "url": "https://aws.amazon.com/blogs/industries/accelerating-mainframe-modernization-how-toyota-motor-europe-tme-uses-amazon-bedrock-to-automate-legacy-code-documentation/",
+   "raw_sector": "",
+   "date": "2026",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Toyota Motor Corp.",
+   "use": "Woven by Toyota built a multi-agent generative AI system (Coder, Reviewer, Evaluator) to automatically fix MISRA C/C++ coding-compliance errors in embedded control software for autonomous driving / ADAS. [Microsoft Azure OpenAI Service (o3-mini, o1, GPT-4o), Microsoft AutoGen, Azure Cosmos DB, GitHub Enterprise]",
+   "existence": "claimed",
+   "value": "~80% of MISRA errors auto-corrected; 97.1% code-generation success in PoC",
+   "tier": "",
+   "url": "https://www.microsoft.com/en/customers/story/24108-woven-by-toyota-inc-azure-openai",
+   "raw_sector": "",
+   "date": "2025",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Toyota Motor Corp.",
+   "use": "AI-powered contact center: Toyota Motor North America's Brand Engagement Center uses Amazon Connect with Amazon Lex NLP and Contact Lens for real-time transcription, sentiment analysis and call routing; all 700 agents migrated within two months of the April 2023 pilot. [AWS (Amazon Connect, Amazon Lex, Contact Lens); Salesforce Service Cloud Voice]",
+   "existence": "confirmed",
+   "value": "20% reduction in average call handling time; 13% reduction in call transfer rate; ~4% of calls self-served; 1M+ calls/year; zero outages",
+   "tier": "",
+   "url": "https://aws.amazon.com/solutions/case-studies/toyota-case-study/",
+   "raw_sector": "",
+   "date": "2023",
+   "fresh": "stale"
+  },
+  {
+   "company": "Toyota Motor Corp.",
+   "use": "Toyota Connected/TMNA generative-AI vehicle information platform serving the entire Toyota dealer network, letting dealership sales staff and customers query accurate, citation-backed vehicle information in real time via RAG. [AWS (Amazon Bedrock with Anthropic models, SageMaker, OpenSearch Serverless, EKS, DynamoDB)]",
+   "existence": "confirmed",
+   "value": "7,000+ interactions per month across the dealer network",
+   "tier": "",
+   "url": "https://www.zenml.io/llmops-database/ai-powered-vehicle-information-platform-for-dealership-sales-support",
+   "raw_sector": "",
+   "date": "2025",
+   "fresh": "fresh"
   }
  ]
 }

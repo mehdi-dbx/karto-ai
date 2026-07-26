@@ -3,48 +3,67 @@
  "name": "LVMH",
  "cc": "FR",
  "vertical": "Retail & E-commerce",
- "deployments": 3,
- "confirmed": 3,
- "with_value_number": 1,
- "proof_rate": 0.333,
+ "deployments": 13,
+ "confirmed": 12,
+ "with_value_number": 5,
+ "proof_rate": 0.385,
  "mktcap": 254113200000.0,
  "revenue": 87274800000.0,
  "employees": 196647.0,
  "silent": false,
- "per_bn_revenue": 0.03,
- "per_10k_emp": 0.15,
+ "per_bn_revenue": 0.15,
+ "per_10k_emp": 0.66,
  "benchmarks": {
   "global_vertical": {
-   "deployments": 87,
-   "confirmed": 89,
-   "proof_rate": 67,
-   "n": 295
+   "deployments": 89,
+   "confirmed": 91,
+   "proof_rate": 70,
+   "n": 301
   },
   "country_vertical": {
-   "deployments": 67,
+   "deployments": 78,
    "confirmed": 78,
    "proof_rate": 67,
    "n": 10
   }
  },
- "first_seen": 2023,
+ "first_seen": 2016,
  "by_year": [
+  {
+   "year": 2016,
+   "n": 1
+  },
   {
    "year": 2023,
    "n": 1
+  },
+  {
+   "year": 2024,
+   "n": 1
+  },
+  {
+   "year": 2025,
+   "n": 6
+  },
+  {
+   "year": 2026,
+   "n": 2
   }
  ],
- "undated_pct": 67,
- "momentum": "early_mover,gone_quiet",
- "maturity": "L3",
+ "undated_pct": 15,
+ "momentum": "early_mover,rising",
+ "maturity": "L4",
  "maturity_evidence": [
+  "multi_horizontal",
   "named_product:MaIA",
-  "value_number"
+  "value_number",
+  "multi_year"
  ],
- "prospect_score": 45,
+ "prospect_score": 85,
  "stack": [
   "Google",
   "Google Cloud",
+  "NVIDIA",
   "OpenAI"
  ],
  "vendor_named": true,
@@ -81,6 +100,116 @@
    "raw_sector": "Consumer Cyclical",
    "date": "2023",
    "fresh": "stale"
+  },
+  {
+   "company": "LVMH",
+   "use": "Moët Hennessy winemaking AI: AI optical grape sorting (color analysis for red winemaking), rot detection via image analysis at white-grape pressing centers, and real-time fermentation monitoring deployed across all Moët & Chandon wineries. [none]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://vivatech.com/news/champ-a-igne-and-moet-hennessy",
+   "raw_sector": "",
+   "date": "2024-04-25",
+   "fresh": "aging"
+  },
+  {
+   "company": "LVMH",
+   "use": "AI-driven dynamic pricing across maisons — adjusting prices based on currency and market factors, and AI-generated mood boards for product design, on the Google Cloud platform. [Google Cloud]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.pymnts.com/news/artificial-intelligence/2025/lvmh-deploys-ai-tools-across-operation-seeking-efficiency-and-customer-retention/",
+   "raw_sector": "",
+   "date": "2025-06-09",
+   "fresh": "fresh"
+  },
+  {
+   "company": "LVMH",
+   "use": "Sephora AI Beauty Chat — conversational AI on web/app that answers beauty questions, builds routines, compares products and drives in-chat purchases; expanded via Google Agentic Checkout (first prestige beauty retailer to enable shopping inside Google's AI platform). [Google (Agentic Checkout / Gemini)]",
+   "existence": "confirmed",
+   "value": "Over 20% of consumers who use the chat purchase the same day; 80M Beauty Insider members",
+   "tier": "",
+   "url": "https://www.glossy.co/beauty/sephora-is-bringing-prestige-beauty-shopping-into-googles-ai-ecosystem/",
+   "raw_sector": "",
+   "date": "2026-06-03",
+   "fresh": "fresh"
+  },
+  {
+   "company": "LVMH",
+   "use": "MaIA — companywide internal generative-AI assistant for employees (content translation, mock-up/image generation, document digestion, business insights). Built on Google's Gemini and Imagen models. [Google Cloud (Gemini, Imagen, Vertex AI)]",
+   "existence": "confirmed",
+   "value": "40,000 employees; 2 million requests per month",
+   "tier": "",
+   "url": "https://www.pymnts.com/news/artificial-intelligence/2025/lvmh-deploys-ai-tools-across-operation-seeking-efficiency-and-customer-retention/",
+   "raw_sector": "",
+   "date": "2025-06-09",
+   "fresh": "fresh"
+  },
+  {
+   "company": "LVMH",
+   "use": "AI-driven sales and supply-chain forecasting / inventory optimization and logistics control towers across maisons, built on the centralized Google Cloud data platform. [Google Cloud (BigQuery, Vertex AI)]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://cloud.google.com/transform/lvmh-data-ai-platform-interview-franck-le-moal-luxury-gen-ai-louis-vuitton-sephora-dom-perignon",
+   "raw_sector": "",
+   "date": "2025-06-09",
+   "fresh": "fresh"
+  },
+  {
+   "company": "LVMH",
+   "use": "Client-advisor AI agent: a Google Cloud-built AI chat that lets client advisors understand client product affinities, review lifetime service history, and identify new opportunities. Tiffany & Co. and Louis Vuitton cited as leaders. [Google Cloud (Vertex AI)]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://cloud.google.com/transform/lvmh-data-ai-platform-interview-franck-le-moal-luxury-gen-ai-louis-vuitton-sephora-dom-perignon",
+   "raw_sector": "",
+   "date": "2025-06-09",
+   "fresh": "fresh"
+  },
+  {
+   "company": "LVMH",
+   "use": "Sephora Virtual Artist — AR + AI makeup try-on app that lets customers virtually try thousands of shades and get shade-matched product recommendations (built with ModiFace). [ModiFace]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.sephora.sg/pages/virtual-artist",
+   "raw_sector": "",
+   "date": "2016-01-01",
+   "fresh": "stale"
+  },
+  {
+   "company": "LVMH",
+   "use": "Sephora Smart Skin Scan — AI virtual skin-analysis tool that diagnoses seven skin concerns across all skin types/tones in seconds and recommends products (also deployed in-store). [none]",
+   "existence": "confirmed",
+   "value": "Over 180,000 in-store scans monthly; 80%+ of users who start the diagnostic complete it",
+   "tier": "",
+   "url": "https://www.glossy.co/beauty/sephora-is-bringing-prestige-beauty-shopping-into-googles-ai-ecosystem/",
+   "raw_sector": "",
+   "date": "2026-06-03",
+   "fresh": "fresh"
+  },
+  {
+   "company": "LVMH",
+   "use": "Moët Hennessy generative-AI content production using NVIDIA Omniverse 3D digital twins + Grip content engine to generate luxury digital marketing assets at scale. [NVIDIA (Omniverse), Grip]",
+   "existence": "confirmed",
+   "value": "3 million content variations globally at twice the speed",
+   "tier": "",
+   "url": "https://blogs.nvidia.com/blog/retail-agentic-physical-ai/",
+   "raw_sector": "",
+   "date": "2025-06-11",
+   "fresh": "fresh"
+  },
+  {
+   "company": "LVMH",
+   "use": "Louis Vuitton generative-AI pilot creating bespoke 'thank you' messages with tone tailored to each client, to free advisor time for client relationships. [none]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.pymnts.com/news/artificial-intelligence/2025/verizon-louis-vuitton-adobe-drive-customer-experience-with-strategic-ai-initiatives/",
+   "raw_sector": "",
+   "date": "2025-06-13",
+   "fresh": "fresh"
   }
  ]
 }

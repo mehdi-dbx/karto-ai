@@ -3,22 +3,22 @@
  "name": "EDP Renováveis",
  "cc": "PT",
  "vertical": "Energy & Utilities",
- "deployments": 2,
- "confirmed": 2,
- "with_value_number": 0,
- "proof_rate": 0.0,
+ "deployments": 6,
+ "confirmed": 6,
+ "with_value_number": 1,
+ "proof_rate": 0.167,
  "mktcap": 16060049681.0,
  "revenue": 2376066530.0,
  "employees": 2615.0,
  "silent": false,
- "per_bn_revenue": 0.84,
- "per_10k_emp": 7.65,
+ "per_bn_revenue": 2.53,
+ "per_10k_emp": 22.94,
  "benchmarks": {
   "global_vertical": {
-   "deployments": 72,
+   "deployments": 68,
    "confirmed": 78,
-   "proof_rate": 0,
-   "n": 210
+   "proof_rate": 47,
+   "n": 213
   }
  },
  "first_seen": null,
@@ -27,12 +27,17 @@
  "momentum": "none",
  "maturity": "L3",
  "maturity_evidence": [
+  "multi_horizontal",
   "named_product:Digital",
+  "value_number",
   "tier_p"
  ],
- "prospect_score": 60,
- "stack": [],
- "vendor_named": false,
+ "prospect_score": 69,
+ "stack": [
+  "Microsoft",
+  "Microsoft Azure"
+ ],
+ "vendor_named": true,
  "deployments_detail": [
   {
    "company": "EDP Renováveis",
@@ -53,6 +58,50 @@
    "tier": "I",
    "url": "https://investsustain.com.br/noticias/robotizacao-em-parques-solares-e-inevitavel-diz-gestor-da-edp/",
    "raw_sector": "Utilities",
+   "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "EDP Renováveis",
+   "use": "Generative AI usage policy with 10 Golden Rules for responsible and effective use",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://edp.com/en/north-america/na/media/promise-and-perils-artificial-intelligence-energy-transition",
+   "raw_sector": "",
+   "date": "Jan 23, 2025",
+   "fresh": "undated"
+  },
+  {
+   "company": "EDP Renováveis",
+   "use": "Datahub GEN initiative for governed data ecosystem supporting analytics and AI-based development",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.cgi.com/en/case-study/energy-utilities/EDP-governed-data-into-business-value-modern-energy-operations",
+   "raw_sector": "",
+   "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "EDP Renováveis",
+   "use": "Cloud migration and Microsoft Intelligent services deployment for energy operations [Microsoft Azure]",
+   "existence": "confirmed",
+   "value": "80%",
+   "tier": "",
+   "url": "https://www.microsoft.com/en/customers/story/1651196286774740054-edp-energy-azure-en-portugal",
+   "raw_sector": "",
+   "date": "Jun 30, 2023",
+   "fresh": "undated"
+  },
+  {
+   "company": "EDP Renováveis",
+   "use": "Responsible AI governance and deployment in secure, approved environments with cybersecurity and privacy standards",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://edp.com/en/investors/corporate-governance/policies-repository/edp-responsible-ai",
+   "raw_sector": "",
    "date": "missing",
    "fresh": "undated"
   }

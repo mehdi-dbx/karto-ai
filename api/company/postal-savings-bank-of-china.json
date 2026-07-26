@@ -3,42 +3,56 @@
  "name": "Postal Savings Bank of China",
  "cc": "CN",
  "vertical": "Financial Services",
- "deployments": 1,
- "confirmed": 1,
- "with_value_number": 1,
- "proof_rate": 1.0,
+ "deployments": 11,
+ "confirmed": 11,
+ "with_value_number": 7,
+ "proof_rate": 0.636,
  "mktcap": 82837500000.0,
  "revenue": 44822222222.0,
  "employees": 182347.0,
  "silent": false,
- "per_bn_revenue": 0.02,
- "per_10k_emp": 0.05,
+ "per_bn_revenue": 0.25,
+ "per_10k_emp": 0.6,
  "benchmarks": {
   "global_vertical": {
-   "deployments": 0,
-   "confirmed": 17,
-   "proof_rate": 76,
-   "n": 377
+   "deployments": 72,
+   "confirmed": 84,
+   "proof_rate": 91,
+   "n": 388
   },
   "country_vertical": {
-   "deployments": 0,
-   "confirmed": 0,
-   "proof_rate": 44,
-   "n": 26
+   "deployments": 56,
+   "confirmed": 74,
+   "proof_rate": 63,
+   "n": 28
   }
  },
- "first_seen": null,
- "by_year": [],
- "undated_pct": 100,
- "momentum": "none",
- "maturity": "L3",
- "maturity_evidence": [
-  "named_product:Youzhi",
-  "value_number"
+ "first_seen": 2024,
+ "by_year": [
+  {
+   "year": 2024,
+   "n": 3
+  },
+  {
+   "year": 2025,
+   "n": 7
+  }
  ],
- "prospect_score": 14,
- "stack": [],
- "vendor_named": false,
+ "undated_pct": 9,
+ "momentum": "early_mover,rising",
+ "maturity": "L4",
+ "maturity_evidence": [
+  "multi_horizontal",
+  "named_product:Youzhi",
+  "value_number",
+  "multi_year"
+ ],
+ "prospect_score": 75,
+ "stack": [
+  "Alibaba Cloud",
+  "DeepSeek"
+ ],
+ "vendor_named": true,
  "deployments_detail": [
   {
    "company": "Postal Savings Bank of China",
@@ -50,6 +64,116 @@
    "raw_sector": "Financials",
    "date": "missing",
    "fresh": "undated"
+  },
+  {
+   "company": "Postal Savings Bank of China",
+   "use": "\"Xiaoyou Assistant\" (小邮助手) — an LLM-powered internal employee/customer-service assistant deployed across the branch network, spanning credit-card service, operations, regulations, fund management and marketing, with aggregation, chart display, source traceability and multi-style dialogue. [PSBC Youzhi (with DeepSeek)]",
+   "existence": "confirmed",
+   "value": "Covers 39,000+ outlets nationwide, serves 330,000+ employees, business-handling efficiency up 80%+, ~50,000 daily queries",
+   "tier": "",
+   "url": "https://www.chinapost.com.cn/cn/report/2508/10281-1.html",
+   "raw_sector": "",
+   "date": "2025-08-28",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Postal Savings Bank of China",
+   "use": "Mobile-banking intelligent customer service rebuilt with Huawei Cloud, moving from fragmented single-scenario assistants to a unified LLM-based system that raised dialogue-to-intent and intent-to-transaction recognition accuracy, shifting from \"customers finding services\" to \"services finding customers\". [Huawei Cloud Stack]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.huaweicloud.com/cases/psbc.html",
+   "raw_sector": "",
+   "date": "2025-01-01",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Postal Savings Bank of China",
+   "use": "\"Youzhi\" (邮智) proprietary enterprise LLM suite — a fully self-controlled foundation-model matrix (compute-to-application) that PSBC first unveiled Dec 2024, now powering 230+ intelligent application scenarios across operations/marketing, customer service, risk management, smart operations and intelligent office work. [PSBC in-house (built on Huawei Cloud Stack, incorporating multiple industry models)]",
+   "existence": "confirmed",
+   "value": "230+ application scenarios",
+   "tier": "",
+   "url": "https://www.psbc.com/cn/gyyc/ycfm/ycdt/202412/t20241216_275399.html",
+   "raw_sector": "",
+   "date": "2024-12-16",
+   "fresh": "aging"
+  },
+  {
+   "company": "Postal Savings Bank of China",
+   "use": "Local deployment and integration of DeepSeek-V3 and lightweight DeepSeek-R1 reasoning models into the Youzhi platform, first applied to the enterprise Q&A assistant \"Xiaoyou\" (小邮助手) to add logical-reasoning and deep-analysis capabilities for complex financial questions (e.g. wealth-product redemption rules, loan rate calculations). [DeepSeek (V3 + R1), self-hosted]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.cebnet.com.cn/20250213/102981657.html",
+   "raw_sector": "",
+   "date": "2025-02-13",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Postal Savings Bank of China",
+   "use": "\"You Xiaoying\" (邮小盈) bill/note-business robot — combining LLM, RPA and multimodal recognition for full-lifecycle intelligent bill trading (real-time market data, trading-strategy formulation, intelligent inquiry-trading, automated business report generation, risk control), deployed on the PC and app versions of PSBC's interbank platform \"You Ni Tong Ying\". [PSBC in-house architecture]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://m.mpaypass.com.cn/news/202506/01152721.html",
+   "raw_sector": "",
+   "date": "2025-05-30",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Postal Savings Bank of China",
+   "use": "Intelligent loan-review assistant (智能审贷) applying LLM/multimodal image recognition to credit-application document classification and key-information extraction, part of PSBC's push to accelerate AI in smart credit approval. [Huawei Cloud (Youzhi)]",
+   "existence": "confirmed",
+   "value": "96% image-classification accuracy, 92% key-information-extraction accuracy",
+   "tier": "",
+   "url": "https://www.huaweicloud.com/cases/psbc.html",
+   "raw_sector": "",
+   "date": "2025-01-01",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Postal Savings Bank of China",
+   "use": "Alert-investigation operations agent (告警研判智能体) — an LLM agent using PSBC's ops knowledge base to generate alert-investigation reasoning chains and remediation recommendations, executing typical fault self-healing after human confirmation, forming an \"intelligent judgment-self-healing\" ops closed loop. [PSBC in-house (Youzhi)]",
+   "existence": "confirmed",
+   "value": "Automatic handling of common network alerts >87.5%, efficiency improvement ~90%",
+   "tier": "",
+   "url": "https://mp.m.ofweek.com/ai/a556714076537",
+   "raw_sector": "",
+   "date": "2025-08-01",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Postal Savings Bank of China",
+   "use": "\"You Xiaoyan\" (邮小研) intelligent software-development platform built on Huawei Cloud CodeArts Pangu assistant — supporting model precision-tuning, RAG retrieval augmentation and multi-agent collaboration for code generation, completion, comments and unit tests across the DevOps pipeline. [Huawei Cloud (CodeArts / Pangu)]",
+   "existence": "confirmed",
+   "value": "260,000+ lines of code generated, 100+ systems built, used by 50%+ of the bank's engineers, code-adoption rate 30%+",
+   "tier": "",
+   "url": "https://mp.ofweek.com/ai/a756714529457",
+   "raw_sector": "",
+   "date": "2024-09-23",
+   "fresh": "aging"
+  },
+  {
+   "company": "Postal Savings Bank of China",
+   "use": "\"R&D testing large model\" (研发测试大模型) — an intelligent research-and-test assistant integrated into the DevOps and testing platforms, automating test-case generation, unit tests and test-artifact creation (built on open-source LLMs via Prompt/fine-tuning, LangChain, locally deployed). [PSBC in-house (open-source LLM, LangChain; vendors Huawei/Alibaba Cloud/Zhipu won subsystem bids)]",
+   "existence": "confirmed",
+   "value": "Assisted 5,000+ R&D staff, generated 1.1M+ lines of code, ~20% code-adoption rate, 60-80% unit-test line coverage, ~31% pilot test-artifact adoption",
+   "tier": "",
+   "url": "https://www.psbc.com/cn/gyyc/tzzgx/qyshzr/202503/t20250328_312282.html",
+   "raw_sector": "",
+   "date": "2025-03-28",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Postal Savings Bank of China",
+   "use": "Generative-AI application (co-developed with Zhipu AI, fine-tuning ChatGLM on historical AML data) that automatically drafts suspicious-transaction analysis reports for anti-money-laundering investigators; selected as a typical case at the 2024 Global Digital Economy Conference. [Zhipu AI (ChatGLM)]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://finance.sina.com.cn/stock/relnews/hk/2024-08-06/doc-inchsmtk0181672.shtml",
+   "raw_sector": "",
+   "date": "2024-08-06",
+   "fresh": "aging"
   }
  ]
 }

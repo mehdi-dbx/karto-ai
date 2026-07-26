@@ -3,44 +3,45 @@
  "name": "Ørsted",
  "cc": "DK",
  "vertical": "Energy & Utilities",
- "deployments": 3,
- "confirmed": 2,
+ "deployments": 8,
+ "confirmed": 4,
  "with_value_number": 1,
- "proof_rate": 0.333,
+ "proof_rate": 0.125,
  "mktcap": 29302898551.0,
  "revenue": 11617391304.0,
  "employees": 7675.0,
  "silent": false,
- "per_bn_revenue": 0.26,
- "per_10k_emp": 3.91,
+ "per_bn_revenue": 0.69,
+ "per_10k_emp": 10.42,
  "benchmarks": {
   "global_vertical": {
-   "deployments": 88,
-   "confirmed": 78,
-   "proof_rate": 65,
-   "n": 210
+   "deployments": 75,
+   "confirmed": 58,
+   "proof_rate": 44,
+   "n": 213
   }
  },
  "first_seen": 2023,
  "by_year": [
   {
    "year": 2023,
-   "n": 1
+   "n": 2
   },
   {
    "year": 2025,
    "n": 1
   }
  ],
- "undated_pct": 33,
- "momentum": "early_mover,flat",
+ "undated_pct": 62,
+ "momentum": "early_mover,cooling",
  "maturity": "L3",
  "maturity_evidence": [
+  "multi_horizontal",
   "named_product:Democratise AI",
   "value_number",
   "tier_p"
  ],
- "prospect_score": 47,
+ "prospect_score": 67,
  "stack": [],
  "vendor_named": false,
  "deployments_detail": [
@@ -76,6 +77,61 @@
    "raw_sector": "Utilities",
    "date": "2025",
    "fresh": "fresh"
+  },
+  {
+   "company": "Ørsted",
+   "use": "AI solution to enhance wind, solar, and storage asset performance across 5.5GW US portfolio [SparkCognition Renewable Suite]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://us.orsted.com/news-archive/2023/11/orsted-deploys-sparkcognitions-ai-solution-to-enhance-wind-solar-and-storage",
+   "raw_sector": "",
+   "date": "2023-11-07",
+   "fresh": "stale"
+  },
+  {
+   "company": "Ørsted",
+   "use": "AI-powered site investigation for renewable energy generation using seabed material detection [Digital Sense]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.digitalsense.ai/projects/orsted",
+   "raw_sector": "",
+   "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "Ørsted",
+   "use": "Democratise AI initiative to empower employees with intelligent tools for decision-making and innovation",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://orsted.com/en/offshore-wind/innovation/democratise-ai",
+   "raw_sector": "",
+   "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "Ørsted",
+   "use": "Generative AI applications rollout for value-adding use cases [Halfspace]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.halfspace.ai/cases/orsted-generative-ai",
+   "raw_sector": "",
+   "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "Ørsted",
+   "use": "Data-driven approach to maintenance inspection using industrial DataOps [Cognite]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.cognite.com/en/resources/customer-stories/orsted-uses-a-data-driven-approach-to-maintenance-through-industrial-dataops",
+   "raw_sector": "",
+   "date": "missing",
+   "fresh": "undated"
   }
  ]
 }

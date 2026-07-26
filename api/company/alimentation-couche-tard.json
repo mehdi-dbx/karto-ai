@@ -3,46 +3,71 @@
  "name": "Alimentation Couche-Tard",
  "cc": "CA",
  "vertical": "Retail & E-commerce",
- "deployments": 2,
- "confirmed": 0,
- "with_value_number": 1,
- "proof_rate": 0.5,
+ "deployments": 10,
+ "confirmed": 5,
+ "with_value_number": 4,
+ "proof_rate": 0.4,
  "mktcap": 60227941176.0,
  "revenue": 76970588235.0,
  "employees": 145000.0,
  "silent": false,
- "per_bn_revenue": 0.03,
- "per_10k_emp": 0.14,
+ "per_bn_revenue": 0.13,
+ "per_10k_emp": 0.69,
  "benchmarks": {
   "global_vertical": {
-   "deployments": 71,
-   "confirmed": 0,
+   "deployments": 72,
+   "confirmed": 53,
    "proof_rate": 70,
-   "n": 295
+   "n": 301
   },
   "country_vertical": {
    "deployments": 71,
-   "confirmed": 0,
+   "confirmed": 43,
    "proof_rate": 71,
    "n": 8
   }
  },
- "first_seen": 2023,
+ "first_seen": 2021,
  "by_year": [
   {
+   "year": 2021,
+   "n": 1
+  },
+  {
+   "year": 2022,
+   "n": 2
+  },
+  {
    "year": 2023,
+   "n": 3
+  },
+  {
+   "year": 2024,
+   "n": 1
+  },
+  {
+   "year": 2025,
+   "n": 1
+  },
+  {
+   "year": 2026,
    "n": 2
   }
  ],
  "undated_pct": 0,
- "momentum": "early_mover,gone_quiet",
- "maturity": "L1",
+ "momentum": "early_mover,cooling",
+ "maturity": "L4",
  "maturity_evidence": [
-  "rows_no_confirmed"
+  "multi_horizontal",
+  "named_product:Smart",
+  "value_number",
+  "multi_year"
  ],
- "prospect_score": 20,
- "stack": [],
- "vendor_named": false,
+ "prospect_score": 54,
+ "stack": [
+  "Databricks"
+ ],
+ "vendor_named": true,
  "deployments_detail": [
   {
    "company": "Alimentation Couche-Tard",
@@ -57,6 +82,39 @@
   },
   {
    "company": "Alimentation Couche-Tard",
+   "use": "AI-powered 'Smart Checkout' self-service kiosks using computer vision to recognize items from any angle and ring them up in a single transaction across Circle K and Couche-Tard stores [Mashgin]",
+   "existence": "confirmed",
+   "value": "Checkout time cut up to 400% (under 10 seconds per customer); 99.9% item-ring accuracy; deployed at ~500 stores with planned rollout of 10,000+ units across 7,000+ stores",
+   "tier": "",
+   "url": "https://corporate.couche-tard.com/2022-06-02-ALIMENTATION-COUCHE-TARD-TO-ROLL-OUT-SMART-CHECKOUT-TO-MORE-THAN-7,000-CIRCLE-K-AND-COUCHE-TARD-STORES-ACROSS-GLOBAL-NETWORK-USING-MASHGINS-AI-POWERED-TECHNOLOGY",
+   "raw_sector": "",
+   "date": "2022-06-02",
+   "fresh": "stale"
+  },
+  {
+   "company": "Alimentation Couche-Tard",
+   "use": "Fully checkout-free autonomous store using ceiling-mounted AI cameras and machine-vision to track items shoppers pick up and charge via app, retrofitted into an existing Circle K store in Tempe, Arizona [Standard AI (Standard Cognition)]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.businesswire.com/news/home/20211013005340/en/Standard-AI-Launches-New-Autonomous-Checkout-Experience-at-Existing-Arizona-Circle-K-Location",
+   "raw_sector": "",
+   "date": "2021-10-13",
+   "fresh": "stale"
+  },
+  {
+   "company": "Alimentation Couche-Tard",
+   "use": "Pilot of additional computer-vision frictionless/grab-and-go checkout systems at a handful of Arizona stores alongside Mashgin [Grabango]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.grocerydive.com/news/alimentation-couche-tard-mashgin-checkout-7k-convenience-stores/624864/",
+   "raw_sector": "",
+   "date": "2022-06-03",
+   "fresh": "stale"
+  },
+  {
+   "company": "Alimentation Couche-Tard",
    "use": "RELEX ML/AI-powered supply chain and inventory management across North American operations",
    "existence": "claimed",
    "value": "none",
@@ -65,6 +123,61 @@
    "raw_sector": "Retail",
    "date": "2023",
    "fresh": "stale"
+  },
+  {
+   "company": "Alimentation Couche-Tard",
+   "use": "AI/ML-powered demand forecasting, automated replenishment, and space and floor planning to unify inventory and merchandising across North American Circle K and Couche-Tard stores (following European deployment since 2017) [RELEX Solutions]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.relexsolutions.com/news/couche-tard-and-relex-partner-to-amplify-north-american-operations/",
+   "raw_sector": "",
+   "date": "2024-03-20",
+   "fresh": "aging"
+  },
+  {
+   "company": "Alimentation Couche-Tard",
+   "use": "AI-supported talent acquisition: text-to-apply conversion tool, AI talent CRM matching candidates to requisitions, and conversational AI chatbot for high-volume hiring feeding the ATS (US stores) [Phenom]",
+   "existence": "confirmed",
+   "value": "Piloted in 20 US stores; in-store signage drives 70% of candidate flow",
+   "tier": "",
+   "url": "https://www.phenom.com/blog/circle-k-integrated-hr-tech-aligned-company-goals",
+   "raw_sector": "",
+   "date": "2023-10-13",
+   "fresh": "stale"
+  },
+  {
+   "company": "Alimentation Couche-Tard",
+   "use": "AI-driven digital 'people platform' for recruitment (predictive-analytics-ranked situational judgment tests), game-based onboarding with real-time AI-generated feedback, and gamified training, deployed across Circle K Europe",
+   "existence": "confirmed",
+   "value": "Deployed across 12 markets and 5,200+ stores; saves store managers over 2 hours per new hire; won 2025 NACS Convenience Retail Technology Award Europe",
+   "tier": "",
+   "url": "https://corporate.couche-tard.com/2025-05-28-Circle-K-honored-with-2025-NACS-Convenience-Retail-Technology-Award-Europe",
+   "raw_sector": "",
+   "date": "2025-05-28",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Alimentation Couche-Tard",
+   "use": "Algorithmic AI-driven fuel price optimization software used across Circle K fuel stations (alleged in a California class-action lawsuit to set/coordinate pump prices) [Kalibrate]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.cstoredive.com/news/7-eleven-circle-k-named-in-lawsuit-over-using-ai-to-boost-gas-prices/823558/",
+   "raw_sector": "",
+   "date": "2026-06-24",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Alimentation Couche-Tard",
+   "use": "Customer Data Platform activating loyalty/customer data for personalized offers and data-driven marketing across the Inner Circle loyalty program (customer intelligence, segmentation, marketing) [Databricks]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.databricks.com/dataaisummit/session/customerlake-how-circle-k-powers-personalized-loyalty-programs-customer",
+   "raw_sector": "",
+   "date": "2026-06-15",
+   "fresh": "fresh"
   }
  ]
 }

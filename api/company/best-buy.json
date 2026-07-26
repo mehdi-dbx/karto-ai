@@ -3,27 +3,27 @@
  "name": "Best Buy",
  "cc": "US",
  "vertical": "Retail & E-commerce",
- "deployments": 1,
- "confirmed": 1,
- "with_value_number": 0,
- "proof_rate": 0.0,
+ "deployments": 12,
+ "confirmed": 8,
+ "with_value_number": 3,
+ "proof_rate": 0.25,
  "mktcap": 17760000000.0,
  "revenue": 41860000000.0,
  "employees": 82000.0,
  "silent": false,
- "per_bn_revenue": 0.02,
- "per_10k_emp": 0.12,
+ "per_bn_revenue": 0.29,
+ "per_10k_emp": 1.46,
  "benchmarks": {
   "global_vertical": {
-   "deployments": 0,
-   "confirmed": 24,
-   "proof_rate": 0,
-   "n": 295
+   "deployments": 86,
+   "confirmed": 75,
+   "proof_rate": 50,
+   "n": 301
   },
   "country_vertical": {
-   "deployments": 0,
-   "confirmed": 25,
-   "proof_rate": 0,
+   "deployments": 73,
+   "confirmed": 65,
+   "proof_rate": 52,
    "n": 80
   }
  },
@@ -31,20 +31,33 @@
  "by_year": [
   {
    "year": 2024,
-   "n": 1
+   "n": 4
+  },
+  {
+   "year": 2025,
+   "n": 4
+  },
+  {
+   "year": 2026,
+   "n": 3
   }
  ],
- "undated_pct": 0,
- "momentum": "early_mover,gone_quiet",
- "maturity": "L3",
+ "undated_pct": 8,
+ "momentum": "early_mover,rising",
+ "maturity": "L4",
  "maturity_evidence": [
+  "multi_horizontal",
   "named_product:Google",
+  "value_number",
+  "multi_year",
   "tier_p"
  ],
- "prospect_score": 46,
+ "prospect_score": 78,
  "stack": [
   "Accenture",
-  "Google Cloud"
+  "Google",
+  "Google Cloud",
+  "OpenAI"
  ],
  "vendor_named": true,
  "deployments_detail": [
@@ -58,6 +71,127 @@
    "raw_sector": "Consumer Discretionary",
    "date": "2024",
    "fresh": "aging"
+  },
+  {
+   "company": "Best Buy",
+   "use": "Gen AI-powered virtual assistant for customer self-service on BestBuy.com, the mobile app, and the support phone line: troubleshoots product issues, reschedules/combines deliveries, and manages subscriptions/software [Google Cloud (Gemini models, Vertex AI); Accenture]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://corporate.bestbuy.com/2024/generative-ai-customer-support/",
+   "raw_sector": "",
+   "date": "2024-04-09",
+   "fresh": "aging"
+  },
+  {
+   "company": "Best Buy",
+   "use": "Agent-assist AI for contact-center care agents: real-time conversation summarization, sentiment detection, and in-the-moment recommendations to reduce agent cognitive load [Google Cloud (Contact Center AI / Gemini); Accenture]",
+   "existence": "confirmed",
+   "value": "conversation summarization deployed in 6-8 weeks",
+   "tier": "",
+   "url": "https://www.forbes.com/sites/maribellopez/2025/06/17/how-best-buy-uses-ai-to-transform-customer-experience/",
+   "raw_sector": "",
+   "date": "2025-06-17",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Best Buy",
+   "use": "Gen AI assistant for in-store / front-line employees giving quick access to internal company resources and product guides [Google Cloud; Accenture]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.retaildive.com/news/best-buy-generative-ai-virtual-assistant-customer-support/712648/",
+   "raw_sector": "",
+   "date": "2024-04-09",
+   "fresh": "aging"
+  },
+  {
+   "company": "Best Buy",
+   "use": "AI in the supply chain: predictive demand forecasting, data scaling and digital twins to shift from reactive to preventive inventory positioning and logistics [none named]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.retailnews.ai/article/best-buy-supply-chain-strategy",
+   "raw_sector": "",
+   "date": "2026-02-21",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Best Buy",
+   "use": "Named as a Google Gemini / Vertex AI customer/case study [Google Gemini / Vertex AI] [Google Gemini / Vertex AI]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://aimagazine.com/news/what-can-googles-gemini-enterprise-suite-offer-businesses",
+   "raw_sector": "",
+   "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "Best Buy",
+   "use": "Consolidation of the contact-center technology stack (starting from 93 separate applications) into a unified AI-powered platform for agents [Google Cloud; Accenture]",
+   "existence": "confirmed",
+   "value": "reduced from 93 contact-center applications",
+   "tier": "",
+   "url": "https://www.forbes.com/sites/maribellopez/2025/06/17/how-best-buy-uses-ai-to-transform-customer-experience/",
+   "raw_sector": "",
+   "date": "2025-06-17",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Best Buy",
+   "use": "AI-powered search experience across web and app that uses AI prompts and conversational filtering to guide shoppers to fewer, higher-quality results reflecting customer intent (also for employees) [none named]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.customerexperiencedive.com/news/best-buy-search-experience-online-app/749333/",
+   "raw_sector": "",
+   "date": "2025-05-29",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Best Buy",
+   "use": "AI/ML-driven personalization in the Best Buy mobile app: personalized home screen and 'Discover' tab recommendations across hundreds of categories based on shopping history, membership, and preferences [none named]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://corporate.bestbuy.com/2024/best-buy-unlocks-personalized-discovery-and-shopping-with-new-app/",
+   "raw_sector": "",
+   "date": "2024-05-14",
+   "fresh": "aging"
+  },
+  {
+   "company": "Best Buy",
+   "use": "Integration of Best Buy's product catalog into OpenAI's ChatGPT to enable AI-driven product discovery within the chatbot (agentic commerce) [OpenAI (ChatGPT)]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.retaildive.com/news/best-buy-forefront-agentic-ai-discovery/814222/",
+   "raw_sector": "",
+   "date": "2026-03-10",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Best Buy",
+   "use": "Agentic commerce with Google: enabling customers to make purchases from Best Buy directly in Google Search AI Mode and the Gemini app, and making bestbuy.com more agent-friendly (Universal Commerce Protocol) [Google (AI Mode, Gemini, Universal Commerce Protocol)]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.retaildive.com/news/best-buy-forefront-agentic-ai-discovery/814222/",
+   "raw_sector": "",
+   "date": "2026-03-10",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Best Buy",
+   "use": "Best Buy Ads retail media network: AI and data science power audience segmentation, predictive targeting, and creative content production at scale (3,000 campaigns/year, aiming to double) [Adobe (service support); The Trade Desk, Google DV360, Yahoo DSP (DSP integrations)]",
+   "existence": "confirmed",
+   "value": "~93% of transactional revenue attributed to customer IDs; 3,000 campaigns/year",
+   "tier": "",
+   "url": "https://www.mediapost.com/publications/article/409086/best-buy-reimagines-advertising-retail-media-buys.html",
+   "raw_sector": "",
+   "date": "2025-09-16",
+   "fresh": "fresh"
   }
  ]
 }

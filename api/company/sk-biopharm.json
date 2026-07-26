@@ -3,41 +3,52 @@
  "name": "SK Biopharm",
  "cc": "KR",
  "vertical": "Healthcare & Life Sciences",
- "deployments": 1,
- "confirmed": 1,
- "with_value_number": 1,
- "proof_rate": 1.0,
+ "deployments": 4,
+ "confirmed": 3,
+ "with_value_number": 2,
+ "proof_rate": 0.5,
  "mktcap": 4451851852.0,
  "revenue": 523511111.0,
  "employees": 246.0,
  "silent": false,
- "per_bn_revenue": 1.91,
- "per_10k_emp": 40.65,
+ "per_bn_revenue": 7.64,
+ "per_10k_emp": 162.6,
  "benchmarks": {
   "global_vertical": {
-   "deployments": 0,
-   "confirmed": 13,
+   "deployments": 26,
+   "confirmed": 33,
    "proof_rate": 83,
-   "n": 165
+   "n": 168
   },
   "country_vertical": {
-   "deployments": 0,
-   "confirmed": 14,
-   "proof_rate": 57,
+   "deployments": 57,
+   "confirmed": 43,
+   "proof_rate": 71,
    "n": 8
   }
  },
- "first_seen": null,
- "by_year": [],
- "undated_pct": 100,
- "momentum": "none",
- "maturity": "L3",
+ "first_seen": 2025,
+ "by_year": [
+  {
+   "year": 2025,
+   "n": 2
+  },
+  {
+   "year": 2026,
+   "n": 1
+  }
+ ],
+ "undated_pct": 25,
+ "momentum": "rising",
+ "maturity": "L4",
  "maturity_evidence": [
+  "multi_horizontal",
   "named_product:AIDD",
   "value_number",
+  "multi_year",
   "tier_p"
  ],
- "prospect_score": 14,
+ "prospect_score": 46,
  "stack": [],
  "vendor_named": false,
  "deployments_detail": [
@@ -51,6 +62,39 @@
    "raw_sector": "Health Care",
    "date": "missing",
    "fresh": "undated"
+  },
+  {
+   "company": "SK Biopharm",
+   "use": "AI-powered drug development platform [PhnyX Lab]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.sklifescienceinc.com/wp-content/uploads/2025/07/SKBP-PhnyX-Lab-MOU-Press-Release.pdf",
+   "raw_sector": "",
+   "date": "2025",
+   "fresh": "fresh"
+  },
+  {
+   "company": "SK Biopharm",
+   "use": "AI-powered drug discovery collaboration for neuroimmune disorders [Insilico Medicine (Pharma.AI platform)]",
+   "existence": "confirmed",
+   "value": "2.5B",
+   "tier": "",
+   "url": "https://www.prnewswire.com/news-releases/insilico-medicine-and-sk-biopharmaceuticals-achieved-ai-powered-drug-discovery-collaboration-worth-up-to-2-5-billion-for-neuroimmune-disorders-302806072.html",
+   "raw_sector": "",
+   "date": "2026-06-22",
+   "fresh": "fresh"
+  },
+  {
+   "company": "SK Biopharm",
+   "use": "AI-driven digital health joint venture",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.fiercebiotech.com/biotech/insilico-lands-heavily-backloaded-25b-ai-drug-discovery-deal-sk-biopharm",
+   "raw_sector": "",
+   "date": "2025-10",
+   "fresh": "fresh"
   }
  ]
 }

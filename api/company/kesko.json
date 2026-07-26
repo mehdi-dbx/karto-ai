@@ -3,22 +3,22 @@
  "name": "Kesko",
  "cc": "FI",
  "vertical": "Retail & E-commerce",
- "deployments": 2,
- "confirmed": 2,
+ "deployments": 6,
+ "confirmed": 4,
  "with_value_number": 0,
  "proof_rate": 0.0,
  "mktcap": 8834400000.0,
  "revenue": 13899600000.0,
  "employees": 18864.0,
  "silent": false,
- "per_bn_revenue": 0.14,
- "per_10k_emp": 1.06,
+ "per_bn_revenue": 0.43,
+ "per_10k_emp": 3.18,
  "benchmarks": {
   "global_vertical": {
-   "deployments": 71,
-   "confirmed": 80,
+   "deployments": 48,
+   "confirmed": 44,
    "proof_rate": 0,
-   "n": 295
+   "n": 301
   }
  },
  "first_seen": null,
@@ -30,9 +30,12 @@
   "multi_horizontal",
   "named_product:Data"
  ],
- "prospect_score": 60,
- "stack": [],
- "vendor_named": false,
+ "prospect_score": 64,
+ "stack": [
+  "Microsoft",
+  "TCS"
+ ],
+ "vendor_named": true,
  "deployments_detail": [
   {
    "company": "Kesko",
@@ -47,6 +50,17 @@
   },
   {
    "company": "Kesko",
+   "use": "K-Hyvinvointi AI-powered grocery recommendation service",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.futurice.com/case-studies/kesko-k-hyvinvointi",
+   "raw_sector": "",
+   "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "Kesko",
    "use": "AI-powered K-Hyvinvointi feature helping grocery customers make healthier food choices",
    "existence": "confirmed",
    "value": "none",
@@ -54,6 +68,39 @@
    "url": "https://futurice.com/case-studies/kesko-k-hyvinvointi",
    "raw_sector": "Retail",
    "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "Kesko",
+   "use": "AI-driven waste reduction and inventory optimization",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.mckinsey.com/industries/retail/our-insights/kesko-bets-on-data-and-ai-to-reduce-waste-and-drive-growth",
+   "raw_sector": "",
+   "date": "Apr 8, 2025",
+   "fresh": "undated"
+  },
+  {
+   "company": "Kesko",
+   "use": "AI-powered retail transformation and intelligent automation [TCS]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.tcs.com/who-we-are/newsroom/press-release/finnish-retailer-kesko-partners-with-tcs-drive-ai-powered-retail-transformation",
+   "raw_sector": "",
+   "date": "Aug 20, 2025",
+   "fresh": "undated"
+  },
+  {
+   "company": "Kesko",
+   "use": "Generative AI for marketing and product information creation [Microsoft]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://news.microsoft.com/fi-fi/2023/08/30/k-group-and-microsoft-deepen-their-cooperation-in-the-development-of-digital-services/",
+   "raw_sector": "",
+   "date": "Aug 30, 2023",
    "fresh": "undated"
   }
  ]

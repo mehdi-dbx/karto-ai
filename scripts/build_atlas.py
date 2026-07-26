@@ -331,6 +331,22 @@ a:hover {{ text-decoration: underline; }}
 .open-legend {{ display:flex; flex-wrap:wrap; gap:8px 18px; margin-bottom:20px; font-family:var(--font-ui); font-size:12px; color:var(--ink-2); }}
 .open-legend .k {{ display:inline-flex; align-items:center; gap:7px; }}
 .open-legend .sw {{ width:14px; height:14px; border-radius:4px; flex:none; }}
+/* --- two-sides-of-a-coin toggle: Open (whitespace) <-> Contested (crowded) --- */
+.terr-toggle {{ display:inline-flex; border:1px solid var(--hair); border-radius:999px; padding:3px; background:var(--surface); gap:2px; }}
+.terr-toggle button {{ font-family:var(--font-ui); font-size:12.5px; font-weight:520; color:var(--ink-2);
+  background:none; border:none; border-radius:999px; padding:6px 15px; cursor:pointer; transition:background .25s, color .25s; }}
+.terr-toggle button[aria-selected="true"] {{ background:var(--ink); color:var(--surface); }}
+.terr-toggle button:not([aria-selected="true"]):hover {{ color:var(--ink); }}
+/* the matrix: same 138 cells always mounted; only emphasis + heat morph in place */
+.terr-matrix {{ transition:opacity .3s; }}
+.open-fn {{ transition:background .4s ease, border-color .4s ease, color .4s ease, opacity .4s ease; }}
+/* a cell that is OFF the active side (filled cell in Open view, or empty cell in Contested view) recedes */
+.open-fn.is-dim {{ opacity:.16; filter:saturate(.4); }}
+/* Contested heat: warm ramp by deployment density, driven by --heat (0..1) set inline */
+.open-fn.is-heat {{ border-color:color-mix(in srgb,#a0472c calc(var(--heat)*70%),var(--hair));
+  background:color-mix(in srgb,#c0862b calc(var(--heat)*46% + 8%),var(--surface));
+  color:color-mix(in srgb,#7a2f18 calc(var(--heat)*100%),var(--ink-2)); font-weight:calc(440 + var(--heat)*140); }}
+.open-fn .cnt {{ font-variant-numeric:tabular-nums; opacity:.75; margin-left:6px; font-size:11px; }}
 .uc-cards {{ display:grid; grid-template-columns:repeat(auto-fill,minmax(280px,1fr)); gap:16px; margin-top:32px; }}
 .uc-card {{ display:block; padding:18px; border:1px solid var(--hair); border-radius:12px; background:var(--surface); text-decoration:none; transition:border-color .18s ease, transform .18s ease; }}
 .uc-card:hover {{ border-color:var(--accent); transform:translateY(-2px); text-decoration:none; }}
@@ -1007,18 +1023,19 @@ a.colink {{ color:var(--ink); text-decoration:none; }} a.colink:hover {{ color:v
   <div class="terr">
     <div class="head">
       <div>
-        <h2>Open territory — <span class="scope">where the space isn't filled yet</span></h2>
-        <p class="lede">The study's core question: <b>where is AI not yet deployed?</b> Each tile is an
-        industry × business-function pair for which our sourcing found <b>zero</b> deployments across
-        every country. Read it as a <b>coverage floor, not proof of absence</b> — a blank cell is a lead
-        to check, not a guarantee nobody is doing it. The filled map lives on the <a href="#/grid">grid</a>.</p>
+        <h2 id="openTitle">Open territory — <span class="scope" id="openScope">where the space isn't filled yet</span></h2>
+        <p class="lede" id="openLede"></p>
       </div>
       <div class="controls">
+        <div class="terr-toggle" id="terrToggle" role="tablist" aria-label="Territory view">
+          <button role="tab" data-side="open" aria-selected="true">Open</button>
+          <button role="tab" data-side="contested" aria-selected="false">Contested</button>
+        </div>
         <select id="openFn" class="filtersel"><option value="">All functions</option></select>
       </div>
     </div>
     <div id="openLegend"></div>
-    <div id="openGrid" class="open-grid"></div>
+    <div id="openGrid" class="open-grid terr-matrix"></div>
     <p class="footnote" id="openCount"></p>
   </div>
 </section>
@@ -1771,21 +1788,29 @@ function drawCompanies() {{
 
 /* ============ OPEN TERRITORY — empty industry×function cells (the core question) ============ */
 let openWired=false;
-function openEmptyCells() {{
-  // every vertical×horizontal pair with NO deployment found in the global grid
-  const filled=new Set((ATLAS.grid_global||[]).map(c=>c.v+'|'+c.h));
-  const out=[];
-  (ATLAS.verticals||[]).forEach(v=>(ATLAS.horizontals||[]).forEach(h=>{{
-    if(!filled.has(v+'|'+h)) out.push({{v,h}});
-  }}));
-  return out;
+let terrSide='open';          // 'open' (whitespace) | 'contested' (crowded) — two sides, one coin
+let terrBuiltFor=null;        // remembers which function-filter the matrix DOM was built for
+function gridDensity() {{
+  // "v|h" -> deployment count n (absent = 0). Same 138-cell space the Open view inverts.
+  const m={{}}; (ATLAS.grid_global||[]).forEach(c=>{{ m[c.v+'|'+c.h]=c.n||0; }}); return m;
 }}
 function renderOpen() {{
   goAltitude('open','Opportunities');
   const fnSel=document.getElementById('openFn');
   if(!openWired){{ openWired=true;
     (ATLAS.horizontals||[]).forEach(h=>fnSel.insertAdjacentHTML('beforeend',`<option value="${{esc(h)}}">${{esc(h)}}</option>`));
-    fnSel.onchange=drawOpen;
+    fnSel.onchange=()=>{{ terrBuiltFor=null; drawOpen(); }};   // filter change forces a rebuild
+    // the coin flip: same map, invert the metric — morph in place, don't redraw
+    document.querySelectorAll('#terrToggle button').forEach(b=>b.onclick=()=>{{
+      const side=b.dataset.side; if(side===terrSide) return;
+      terrSide=side;
+      document.querySelectorAll('#terrToggle button').forEach(x=>x.setAttribute('aria-selected', x.dataset.side===side));
+      applyTerrSide();   // pure CSS-class/heat morph over the already-mounted matrix
+    }});
+    // honor a shared link like #/open?view=contested
+    const want=currentParams().get('view');
+    if(want==='contested'){{ terrSide='contested';
+      document.querySelectorAll('#terrToggle button').forEach(x=>x.setAttribute('aria-selected', x.dataset.side==='contested')); }}
   }}
   drawOpen();
 }}
@@ -1796,28 +1821,75 @@ const FN_COLOR={{}};
 ['#c0862b','#2f7d84','#a0472c','#7d5a86','#6f6a2c','#4a6a92'].forEach((c,i)=>{{
   const h=(ATLAS.horizontals||[])[i]; if(h) FN_COLOR[h]=c;
 }});
-function fnPill(h) {{
-  const c=FN_COLOR[h]||'var(--muted)';
-  return `<span class="open-fn" style="border-color:${{c}};background:color-mix(in srgb,${{c}} 14%,var(--surface));color:${{c}}">${{esc(h)}}</span>`;
-}}
+// build ALL vertical×function cells once as a stable matrix; each pill carries its density
+// as data so the toggle only morphs classes/heat, never re-lays-out (the "same coin" feel).
 function drawOpen() {{
   const fn=document.getElementById('openFn').value;
-  let cells=openEmptyCells();
-  if(fn) cells=cells.filter(c=>c.h===fn);
-  // group by industry (vertical), keep global vertical order
-  const byV={{}}; cells.forEach(c=>{{ (byV[c.v]=byV[c.v]||[]).push(c.h); }});
-  const order=(ATLAS.verticals||[]).filter(v=>byV[v]);
-  const host=document.getElementById('openGrid');
-  // legend: colour per function (only those still visible under the filter)
-  const shownFns=(ATLAS.horizontals||[]).filter(h=>!fn||h===fn);
-  document.getElementById('openLegend').innerHTML=`<div class="open-legend">`+shownFns.map(h=>
-    `<span class="k"><span class="sw" style="background:${{FN_COLOR[h]||'var(--muted)'}}"></span>${{esc(h)}}</span>`).join('')+`</div>`;
-  host.innerHTML = order.map(v=>`<div class="open-card"><h4>${{esc(v)}}</h4><div class="open-fns">`
-    + byV[v].map(h=>fnPill(h)).join('')
-    + `</div></div>`).join('') || '<p class="lede">No open cells for this filter — every function is covered here.</p>';
-  const nCells=cells.length, nInd=order.length;
-  document.getElementById('openCount').textContent =
-    `${{nCells}} open industry × function cell${{nCells===1?'':'s'}} across ${{nInd}} industr${{nInd===1?'y':'ies'}} — no deployment found yet (a coverage floor, not proof of absence).`;
+  const dens=gridDensity();
+  // rebuild DOM only when the function-filter changes (not on every side flip)
+  if(terrBuiltFor!==fn){{
+    terrBuiltFor=fn;
+    const verts=(ATLAS.verticals||[]);
+    const fns=(ATLAS.horizontals||[]).filter(h=>!fn||h===fn);
+    const host=document.getElementById('openGrid');
+    host.innerHTML = verts.map(v=>{{
+      const pills=fns.map(h=>{{
+        const n=dens[v+'|'+h]||0; const c=FN_COLOR[h]||'var(--muted)';
+        return `<span class="open-fn" data-n="${{n}}" data-fnc="${{c}}" data-h="${{esc(h)}}">`
+             + `${{esc(h)}}<span class="cnt" data-role="cnt"></span></span>`;
+      }}).join('');
+      return `<div class="open-card" data-v="${{esc(v)}}"><h4>${{esc(v)}}</h4><div class="open-fns">${{pills}}</div></div>`;
+    }}).join('');
+    // legend (function colours) — only meaningful on the Open side; kept stable
+    document.getElementById('openLegend').innerHTML=`<div class="open-legend">`+fns.map(h=>
+      `<span class="k"><span class="sw" style="background:${{FN_COLOR[h]||'var(--muted)'}}"></span>${{esc(h)}}</span>`).join('')+`</div>`;
+  }}
+  applyTerrSide();
+}}
+// the morph: recolour every mounted pill for the active side of the coin. No relayout.
+function applyTerrSide() {{
+  const dens=gridDensity();
+  const maxN=Math.max(1,...Object.values(dens));
+  const open=(terrSide==='open');
+  let liveCells=0, liveInd=0, sumN=0;
+  document.querySelectorAll('#openGrid .open-card').forEach(card=>{{
+    let cardLive=false;
+    card.querySelectorAll('.open-fn').forEach(p=>{{
+      const n=+p.dataset.n||0, c=p.dataset.fnc;
+      const cnt=p.querySelector('[data-role=cnt]');
+      p.classList.remove('is-dim','is-heat'); p.style.cssText='';
+      if(open){{
+        // OPEN side: empty cells are the subject; filled cells recede
+        if(n===0){{ p.style.borderColor=c; p.style.background=`color-mix(in srgb,${{c}} 14%,var(--surface))`; p.style.color=c;
+                    liveCells++; cardLive=true; if(cnt)cnt.textContent=''; }}
+        else {{ p.classList.add('is-dim'); if(cnt)cnt.textContent=''; }}
+      }} else {{
+        // CONTESTED side: filled cells are the subject, heat by density; empty cells recede
+        if(n>0){{ p.classList.add('is-heat'); p.style.setProperty('--heat',(n/maxN).toFixed(3));
+                  liveCells++; cardLive=true; sumN+=n; if(cnt)cnt.textContent=n.toLocaleString(); }}
+        else {{ p.classList.add('is-dim'); if(cnt)cnt.textContent=''; }}
+      }}
+    }});
+    if(cardLive) liveInd++;
+    card.style.opacity = cardLive? '1':'.32';
+  }});
+  // mirror the title, scope line, lede and footnote to the active side
+  const T=document.getElementById('openTitle'), S=document.getElementById('openScope'),
+        L=document.getElementById('openLede'), C=document.getElementById('openCount');
+  if(open){{
+    T.childNodes[0].nodeValue='Open territory — ';
+    S.textContent="where the space isn't filled yet";
+    L.innerHTML=`The study's core question: <b>where is AI not yet deployed?</b> Each lit tile is an industry × business-function pair for which our sourcing found <b>zero</b> deployments across every country. Read it as a <b>coverage floor, not proof of absence</b>. Flip to <b>Contested</b> to see the same map inverted — where the ground is already crowded.`;
+    C.textContent=`${{liveCells}} open industry × function cell${{liveCells===1?'':'s'}} across ${{liveInd}} industr${{liveInd===1?'y':'ies'}} — no deployment found yet (a coverage floor, not proof of absence).`;
+  }} else {{
+    T.childNodes[0].nodeValue='Contested territory — ';
+    S.textContent='where the ground is already crowded';
+    L.innerHTML=`The mirror of Open: <b>where is AI already densely deployed?</b> Each tile's heat scales with the number of deployments found in that industry × business-function pair — the <b>hottest cells are the most contested</b>, where differentiation is hardest. Flip back to <b>Open</b> for the whitespace.`;
+    C.textContent=`${{liveCells}} active industry × function cell${{liveCells===1?'':'s'}} across ${{liveInd}} industr${{liveInd===1?'y':'ies'}} — carrying ${{sumN.toLocaleString()}} deployments (hotter = more crowded).`;
+  }}
+  // keep the shareable view param in sync without reloading the route (mirrors syncCmpUrl)
+  const h='/open'+(terrSide==='contested'?'?view=contested':'');
+  if(location.hash!=='#'+h) history.replaceState(null,'','#'+h);
 }}
 
 function renderSilent() {{

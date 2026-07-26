@@ -3,22 +3,22 @@
  "name": "Unipol",
  "cc": "IT",
  "vertical": "Insurance",
- "deployments": 2,
- "confirmed": 2,
+ "deployments": 5,
+ "confirmed": 4,
  "with_value_number": 1,
- "proof_rate": 0.5,
+ "proof_rate": 0.2,
  "mktcap": 20660400000.0,
  "revenue": 11793600000.0,
  "employees": 12590.0,
  "silent": false,
- "per_bn_revenue": 0.17,
- "per_10k_emp": 1.59,
+ "per_bn_revenue": 0.42,
+ "per_10k_emp": 3.97,
  "benchmarks": {
   "global_vertical": {
-   "deployments": 54,
-   "confirmed": 68,
-   "proof_rate": 54,
-   "n": 60
+   "deployments": 29,
+   "confirmed": 39,
+   "proof_rate": 32,
+   "n": 63
   }
  },
  "first_seen": null,
@@ -27,11 +27,12 @@
  "momentum": "none",
  "maturity": "L3",
  "maturity_evidence": [
+  "multi_horizontal",
   "named_product:IBM",
   "value_number",
   "tier_p"
  ],
- "prospect_score": 32,
+ "prospect_score": 56,
  "stack": [
   "IBM"
  ],
@@ -56,6 +57,39 @@
    "tier": "P",
    "url": "https://www.unipol.it/app",
    "raw_sector": "Insurance",
+   "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "Unipol",
+   "use": "NAMI - Next Automation Monitoring Insurance platform for IT operations modernization [IBM watsonx]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.ibm.com/case-studies/unipol",
+   "raw_sector": "",
+   "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "Unipol",
+   "use": "Customer support and agent assistance optimization using Generative AI",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.reply.com/en/artificial-intelligence/unipol-accelerates-innovation-in-the-insurance-sector-thanks-to-generative-ai",
+   "raw_sector": "",
+   "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "Unipol",
+   "use": "UnipolSai digital assistant chatbot with generative AI",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.reply.com/en/artificial-intelligence/unipolsai-digital-assistant",
+   "raw_sector": "",
    "date": "missing",
    "fresh": "undated"
   }

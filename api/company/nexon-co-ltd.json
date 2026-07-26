@@ -3,27 +3,27 @@
  "name": "Nexon Co., Ltd.",
  "cc": "JP",
  "vertical": "Media / Entertainment / Gaming",
- "deployments": 1,
- "confirmed": 1,
+ "deployments": 3,
+ "confirmed": 2,
  "with_value_number": 1,
- "proof_rate": 1.0,
+ "proof_rate": 0.333,
  "mktcap": 11733333333.0,
  "revenue": 3422666667.0,
  "employees": 9834.0,
  "silent": false,
- "per_bn_revenue": 0.29,
- "per_10k_emp": 1.02,
+ "per_bn_revenue": 0.88,
+ "per_10k_emp": 3.05,
  "benchmarks": {
   "global_vertical": {
-   "deployments": 0,
-   "confirmed": 18,
+   "deployments": 12,
+   "confirmed": 26,
    "proof_rate": 62,
    "n": 35
   },
   "country_vertical": {
    "deployments": 0,
    "confirmed": 0,
-   "proof_rate": 0,
+   "proof_rate": 50,
    "n": 5
   }
  },
@@ -33,13 +33,16 @@
  "momentum": "none",
  "maturity": "L3",
  "maturity_evidence": [
+  "multi_horizontal",
   "named_product:Insight Finder",
   "value_number",
   "tier_p"
  ],
- "prospect_score": 14,
- "stack": [],
- "vendor_named": false,
+ "prospect_score": 39,
+ "stack": [
+  "ServiceNow"
+ ],
+ "vendor_named": true,
  "deployments_detail": [
   {
    "company": "Nexon Co., Ltd.",
@@ -49,6 +52,28 @@
    "tier": "P",
    "url": "https://www.4gamer.net/games/991/G999110/20260617019/",
    "raw_sector": "Services",
+   "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "Nexon Co., Ltd.",
+   "use": "Generative AI integration into game narrative design",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.invenglobal.com/articles/22847/how-a-nexon-planner-uses-ai",
+   "raw_sector": "",
+   "date": "Jun 16, 2026",
+   "fresh": "undated"
+  },
+  {
+   "company": "Nexon Co., Ltd.",
+   "use": "Customer Service Management with AI-powered CRM and SLA tracking [ServiceNow Now Assist]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.servicenow.com/customers/nexon.html",
+   "raw_sector": "",
    "date": "missing",
    "fresh": "undated"
   }

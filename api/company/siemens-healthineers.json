@@ -3,42 +3,58 @@
  "name": "Siemens Healthineers",
  "cc": "DE",
  "vertical": "Healthcare & Life Sciences",
- "deployments": 1,
- "confirmed": 1,
- "with_value_number": 0,
- "proof_rate": 0.0,
+ "deployments": 6,
+ "confirmed": 3,
+ "with_value_number": 1,
+ "proof_rate": 0.167,
  "mktcap": 41569200000.0,
  "revenue": 24915600000.0,
  "employees": 73800.0,
  "silent": false,
- "per_bn_revenue": 0.04,
- "per_10k_emp": 0.14,
+ "per_bn_revenue": 0.24,
+ "per_10k_emp": 0.81,
  "benchmarks": {
   "global_vertical": {
-   "deployments": 0,
-   "confirmed": 13,
-   "proof_rate": 0,
-   "n": 165
+   "deployments": 47,
+   "confirmed": 33,
+   "proof_rate": 47,
+   "n": 168
   },
   "country_vertical": {
-   "deployments": 0,
-   "confirmed": 0,
-   "proof_rate": 0,
+   "deployments": 60,
+   "confirmed": 20,
+   "proof_rate": 20,
    "n": 6
   }
  },
- "first_seen": null,
- "by_year": [],
- "undated_pct": 100,
- "momentum": "none",
+ "first_seen": 2023,
+ "by_year": [
+  {
+   "year": 2023,
+   "n": 1
+  },
+  {
+   "year": 2024,
+   "n": 1
+  },
+  {
+   "year": 2025,
+   "n": 2
+  }
+ ],
+ "undated_pct": 33,
+ "momentum": "early_mover,flat",
  "maturity": "L3",
  "maturity_evidence": [
   "named_product:Scalable",
+  "value_number",
   "tier_p"
  ],
- "prospect_score": 54,
- "stack": [],
- "vendor_named": false,
+ "prospect_score": 51,
+ "stack": [
+  "NVIDIA"
+ ],
+ "vendor_named": true,
  "deployments_detail": [
   {
    "company": "Siemens Healthineers",
@@ -50,6 +66,61 @@
    "raw_sector": "Medical Equipment",
    "date": "missing",
    "fresh": "undated"
+  },
+  {
+   "company": "Siemens Healthineers",
+   "use": "AI-enabled radiology services suite spanning scheduling, image acquisition, and reporting with custom-built AI summaries of clinically relevant observations",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.siemens-healthineers.com/en-us/press-room/press-releases/ai-enabled-radiology-services",
+   "raw_sector": "",
+   "date": "2025-11-24",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Siemens Healthineers",
+   "use": "Generative AI combining clinical images with reports for radiology",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.siemens-healthineers.com/en-us/press-room/press-releases/generative-artificial-intelligence",
+   "raw_sector": "",
+   "date": "2023-11-26",
+   "fresh": "stale"
+  },
+  {
+   "company": "Siemens Healthineers",
+   "use": "MONAI Deploy adoption for developing, packaging, testing, deploying and running medical AI applications in clinical production [MONAI Deploy]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://blogs.nvidia.com/blog/rsna-siemens-healthineers-monai-medical-imaging-ai/",
+   "raw_sector": "",
+   "date": "2024-12-02",
+   "fresh": "aging"
+  },
+  {
+   "company": "Siemens Healthineers",
+   "use": "AI-assisted AutoContouring for radiation oncology treatment planning on the Sherlock AI supercomputer [NVIDIA] [NVIDIA]",
+   "existence": "confirmed",
+   "value": "Trained on 4.5M+ images; runs 600+ deep learning experiments daily; 45+ AI apps approved for clinical use; training cut from weeks to hours",
+   "tier": "",
+   "url": "https://www.nvidia.com/en-us/case-studies/streamlining-cancer-radiation-therapy-with-ai/",
+   "raw_sector": "",
+   "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "Siemens Healthineers",
+   "use": "ActExcell Operational Twin for simulating complex scenarios and recommending improvements to hospital department operations",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.siemens-healthineers.com/en-us/press-room/press-releases/ai-enabled-radiology-services",
+   "raw_sector": "",
+   "date": "2025-11-24",
+   "fresh": "fresh"
   }
  ]
 }

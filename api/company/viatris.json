@@ -3,50 +3,90 @@
  "name": "Viatris",
  "cc": "US",
  "vertical": "Healthcare & Life Sciences",
- "deployments": 1,
- "confirmed": 1,
- "with_value_number": 0,
- "proof_rate": 0.0,
+ "deployments": 9,
+ "confirmed": 3,
+ "with_value_number": 2,
+ "proof_rate": 0.222,
  "mktcap": 19810000000.0,
  "revenue": 14560000000.0,
  "employees": 30000.0,
  "silent": false,
- "per_bn_revenue": 0.07,
- "per_10k_emp": 0.33,
+ "per_bn_revenue": 0.62,
+ "per_10k_emp": 3.0,
  "benchmarks": {
   "global_vertical": {
-   "deployments": 0,
-   "confirmed": 13,
-   "proof_rate": 0,
-   "n": 165
+   "deployments": 62,
+   "confirmed": 33,
+   "proof_rate": 56,
+   "n": 168
   },
   "country_vertical": {
-   "deployments": 0,
-   "confirmed": 7,
-   "proof_rate": 0,
+   "deployments": 52,
+   "confirmed": 22,
+   "proof_rate": 57,
    "n": 59
   }
  },
- "first_seen": 2026,
+ "first_seen": 2025,
  "by_year": [
   {
+   "year": 2025,
+   "n": 2
+  },
+  {
    "year": 2026,
-   "n": 1
+   "n": 7
   }
  ],
  "undated_pct": 0,
- "momentum": "late_entrant,rising",
+ "momentum": "rising",
  "maturity": "L3",
  "maturity_evidence": [
+  "multi_horizontal",
   "named_product:Salesforce",
+  "value_number",
   "tier_p"
  ],
- "prospect_score": 46,
+ "prospect_score": 49,
  "stack": [
+  "SAP",
   "Salesforce"
  ],
  "vendor_named": true,
  "deployments_detail": [
+  {
+   "company": "Viatris",
+   "use": "AI-driven antibacterial drug discovery: Viatris entered a research collaboration with Locus Biosciences to develop precision engineered bacteriophage therapeutics for serious ophthalmic infections, using Locus's platform that integrates predictive AI, high-throughput robotics and synthetic biology to design phage cocktails. [Locus Biosciences (AI-powered phage engineering platform)]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.locus-bio.com/locus-biosciences-enters-research-collaboration-to-develop-precision-antibacterial-therapies-for-ophthalmic-infections/",
+   "raw_sector": "",
+   "date": "2025-10",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Viatris",
+   "use": "AI-powered clinical intelligence: Viatris states a collaboration strengthening AI-powered clinical intelligence capabilities within its care-delivery model to help support clinicians (details of partner/scope not disclosed in the post). [none]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.linkedin.com/posts/viatris_ingenuity-is-at-the-heart-of-our-science-activity-7455238328745889792-E9r8",
+   "raw_sector": "",
+   "date": "2025",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Viatris",
+   "use": "Internal AI Hackathon driven by global CIO Ramkumar Rayapureddy: 300+ participants across the global technology team generated 120+ ideas/prototypes spanning workflow automation, analytics and intelligent decision-making, moving AI from concept to buildable internal tools. [none]",
+   "existence": "claimed",
+   "value": "300+ participants, 120+ ideas",
+   "tier": "",
+   "url": "https://www.linkedin.com/posts/jfolive_want-to-know-why-100-of-respondents-in-our-activity-7450575440005599232-KOOr",
+   "raw_sector": "",
+   "date": "2026",
+   "fresh": "fresh"
+  },
   {
    "company": "Viatris",
    "use": "Salesforce Agentforce AI + automation/analytics across commercial segments/channels/geographies",
@@ -55,6 +95,61 @@
    "tier": "P",
    "url": "https://www.businesstoday.in/industry/pharma/story/heres-how-healthcare-company-viatris-is-reimagining-customer-engagement-operations-534731-2026-06-03",
    "raw_sector": "Health Care",
+   "date": "2026",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Viatris",
+   "use": "Approval workflow automation: a solution built on SAP Build Process Automation to orchestrate approval workflows with a unified inbox for managing all approval tasks (recognized as a 2026 SAP Innovation Awards entry), plus SAP Integration Suite for email integration. [SAP (Build Process Automation, Integration Suite / BTP)]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.sap.com/documents/2026/02/bc288ed3-3e7f-0010-bca6-c68f7e60039b.html",
+   "raw_sector": "",
+   "date": "2026-02",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Viatris",
+   "use": "AI virtual assistant for pharmacy/customer support: an always-on AI agent that answers FAQs, handles pharmacy support requests and provides order information as part of Viatris's reimagined global customer engagement operations. [Salesforce (Agentforce)]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.linkedin.com/posts/business-today-india_heres-how-healthcare-company-viatris-is-activity-7467910877925642240-vWIg",
+   "raw_sector": "",
+   "date": "2026-06",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Viatris",
+   "use": "Global customer engagement platform: Viatris deployed Salesforce Agentforce Life Sciences for Customer Engagement across 165+ countries/territories to run field-visit management, event logistics, HCP interaction tracking and approval workflows for its commercial, medical and patient-support teams (offline-sync mobile/tablet field app). [Salesforce (Agentforce Life Sciences, Customer 360 / Data 360)]",
+   "existence": "confirmed",
+   "value": "165+ countries and territories",
+   "tier": "",
+   "url": "https://www.businesstoday.in/amp/industry/pharma/story/heres-how-healthcare-company-viatris-is-reimagining-customer-engagement-operations-534731-2026-06-03",
+   "raw_sector": "",
+   "date": "2026-06",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Viatris",
+   "use": "AI-driven multichannel marketing: Viatris uses Agentforce Marketing to deliver personalized campaigns to healthcare professionals across email, SMS and digital channels as part of its unified Customer 360 engagement. [Salesforce (Agentforce Marketing)]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.linkedin.com/posts/salesforce-news_salesforce-today-announced-that-viatris-activity-7467567171296976898-xGkf",
+   "raw_sector": "",
+   "date": "2026-06",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Viatris",
+   "use": "Commercial productivity AI program (LATAM): Viatris is staffing a LATAM Commercial Productivity & AI Specialist to identify, develop and implement AI and automation solutions that simplify processes, enhance commercial effectiveness and enable data-driven decision-making, tracking efficiency gains and business impact. [none]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://viatris.wd5.myworkdayjobs.com/en-US/External/job/LATAM-Commercial-Productivity---AI-Specialist_R5668490",
+   "raw_sector": "",
    "date": "2026",
    "fresh": "fresh"
   }

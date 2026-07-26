@@ -3,7 +3,7 @@
  "name": "ASUSTeK Computer",
  "cc": "TW",
  "vertical": "Manufacturing & Robotics",
- "deployments": 2,
+ "deployments": 4,
  "confirmed": 2,
  "with_value_number": 0,
  "proof_rate": 0.0,
@@ -11,30 +11,30 @@
  "revenue": 24986875000.0,
  "employees": null,
  "silent": false,
- "per_bn_revenue": 0.08,
+ "per_bn_revenue": 0.16,
  "per_10k_emp": null,
  "benchmarks": {
   "global_vertical": {
-   "deployments": 64,
-   "confirmed": 78,
+   "deployments": 42,
+   "confirmed": 34,
    "proof_rate": 0,
-   "n": 147
+   "n": 150
   },
   "country_vertical": {
-   "deployments": 52,
-   "confirmed": 67,
+   "deployments": 41,
+   "confirmed": 41,
    "proof_rate": 0,
-   "n": 22
+   "n": 23
   }
  },
  "first_seen": 2025,
  "by_year": [
   {
    "year": 2025,
-   "n": 2
+   "n": 3
   }
  ],
- "undated_pct": 0,
+ "undated_pct": 25,
  "momentum": "rising",
  "maturity": "L3",
  "maturity_evidence": [
@@ -48,6 +48,28 @@
  ],
  "vendor_named": true,
  "deployments_detail": [
+  {
+   "company": "ASUSTeK Computer",
+   "use": "ASUS AI Hub for secure, scalable enterprise AI deployment with ready-made assistants and local data protection",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://press.asus.com/news/press-releases/asus-enterprise-ai-solutions-computex-2025/",
+   "raw_sector": "",
+   "date": "2025-05-19",
+   "fresh": "fresh"
+  },
+  {
+   "company": "ASUSTeK Computer",
+   "use": "AI-powered PCs with 10+ TOPS NPU for voice-to-text, smart scheduling, video calls, and battery optimization",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.asus.com/us/content/asus-ai-pc/",
+   "raw_sector": "",
+   "date": "missing",
+   "fresh": "undated"
+  },
   {
    "company": "ASUSTeK Computer",
    "use": "Employee-developed internal AI Hub (on-prem LLM/RAG platform with AI committee & governance) evolved from internal use into a market product",

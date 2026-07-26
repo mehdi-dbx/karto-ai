@@ -3,27 +3,27 @@
  "name": "Amman Mineral Internasional",
  "cc": "ID",
  "vertical": "Mining & Materials",
- "deployments": 1,
- "confirmed": 1,
- "with_value_number": 1,
- "proof_rate": 1.0,
+ "deployments": 9,
+ "confirmed": 8,
+ "with_value_number": 3,
+ "proof_rate": 0.333,
  "mktcap": 19340506329.0,
  "revenue": 1850000000.0,
  "employees": 2149.0,
  "silent": false,
- "per_bn_revenue": 0.54,
- "per_10k_emp": 4.65,
+ "per_bn_revenue": 4.86,
+ "per_10k_emp": 41.88,
  "benchmarks": {
   "global_vertical": {
-   "deployments": 0,
-   "confirmed": 37,
-   "proof_rate": 80,
-   "n": 61
+   "deployments": 84,
+   "confirmed": 87,
+   "proof_rate": 69,
+   "n": 62
   },
   "country_vertical": {
-   "deployments": 0,
-   "confirmed": 62,
-   "proof_rate": 88,
+   "deployments": 100,
+   "confirmed": 100,
+   "proof_rate": 75,
    "n": 9
   }
  },
@@ -34,17 +34,23 @@
    "n": 1
   }
  ],
- "undated_pct": 0,
+ "undated_pct": 89,
  "momentum": "late_entrant,rising",
  "maturity": "L3",
  "maturity_evidence": [
+  "multi_horizontal",
   "named_product:AIDA",
   "value_number",
   "tier_p"
  ],
- "prospect_score": 14,
- "stack": [],
- "vendor_named": false,
+ "prospect_score": 75,
+ "stack": [
+  "Accenture",
+  "Microsoft",
+  "Microsoft Azure",
+  "SAP"
+ ],
+ "vendor_named": true,
  "deployments_detail": [
   {
    "company": "Amman Mineral Internasional",
@@ -56,6 +62,94 @@
    "raw_sector": "Mining",
    "date": "2026-07",
    "fresh": "fresh"
+  },
+  {
+   "company": "Amman Mineral Internasional",
+   "use": "AIDA (Artificial Intelligence Dashboard Automation) with an AI-driven Set Point Optimizer that recommends operating parameters (reagent dosage, water flow) in the mineral-processing plant. Built on 25+ years of operational data and millions of real-time data points; operations/metallurgy teams review AI recommendations every four hours before acting. Deployed at the Batu Hijau copper-gold operation. [none named]",
+   "existence": "confirmed",
+   "value": "~2.5% increase in mineral recovery at Batu Hijau",
+   "tier": "",
+   "url": "https://english.kontan.co.id/news/amman-deploys-ai-to-boost-mineral-recovery-improve-mining-efficiency",
+   "raw_sector": "",
+   "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "Amman Mineral Internasional",
+   "use": "4D blasting modeling / Orica 4D Surface Bulk System for finely controlled detonations that fragment ore to optimal size for downstream processing, improving fragmentation, reducing powder factor and speeding bucket fill times. [Orica (4D Surface)]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.amman.co.id/article/building-the-future-of-mining-amman-s-journey-of-technological-innovation",
+   "raw_sector": "",
+   "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "Amman Mineral Internasional",
+   "use": "3D Particle Size Measurement (3DPM) using real-time 3D laser scanning / laser triangulation on conveyors before the SAG Mill to measure shape, size and volume of material and detect oversized/foreign objects. Upgrade from prior 2D camera systems, improving processing decisions and reducing disruptions. [none named]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.amman.co.id/article/ensuring-smooth-mineral-processing-amman-uses-3d-laser-technology",
+   "raw_sector": "",
+   "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "Amman Mineral Internasional",
+   "use": "Laser scanners track material from shovel to stockpile, providing an accurate, real-time inventory of material volume and quality across the mining value chain. [none named]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.amman.co.id/article/building-the-future-of-mining-amman-s-journey-of-technological-innovation",
+   "raw_sector": "",
+   "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "Amman Mineral Internasional",
+   "use": "UAV / drone survey and mapping program (topographic and LiDAR surveying of the mine site), with certified remote-pilot training conducted for AMMAN's surveyors. [Terra Drone Indonesia]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://terra-drone.net/global/2019/06/18/terra-drone-indonesia-training-mining-uav-pilot/",
+   "raw_sector": "",
+   "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "Amman Mineral Internasional",
+   "use": "Full digitalization of procurement via SAP Business Network and SAP Ariba Supplier Lifecycle and Performance for supplier onboarding, PO exchange, compliance and license management. Won SAP 'Transformation Journey Award'. [SAP]",
+   "existence": "confirmed",
+   "value": "100% of goods procurement via SAP Business Network within 9 months of go-live; 1,500+ POs processed per week; 214,000 sheets of paper saved in 6 months",
+   "tier": "",
+   "url": "https://www.amman.co.id/article/amman-wins-sap-transformation-journey-award-for-rapid-procurement-digitalization",
+   "raw_sector": "",
+   "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "Amman Mineral Internasional",
+   "use": "Cloud-first ERP/HR transformation: SAP S/4HANA and SAP SuccessFactors deployed on Microsoft Azure, replacing a decade-old ERP, with data migrated to the cloud. Implemented with Accenture (myConcerto for mining). Went live Sept 2021. [SAP, Microsoft Azure, Accenture]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.linkedin.com/pulse/digital-transformation-accelerate-operational-excellence-",
+   "raw_sector": "",
+   "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "Amman Mineral Internasional",
+   "use": "Enterprise analytics and planning stack built on SAP Analytics Cloud (SAC) and SAP Datasphere, alongside S/4HANA and Ariba (SAP BTP), used for reporting/planning. Evidenced by AMMAN's long-running SAP Portfolio Lead role (since Dec 2021) spanning S/4HANA, Ariba, SAC, and Datasphere. [SAP (Analytics Cloud, Datasphere, BTP)]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://id.linkedin.com/in/dian-pramana-426ab234",
+   "raw_sector": "",
+   "date": "missing",
+   "fresh": "undated"
   }
  ]
 }

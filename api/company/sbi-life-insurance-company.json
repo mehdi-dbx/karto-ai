@@ -3,43 +3,98 @@
  "name": "SBI Life Insurance Company",
  "cc": "IN",
  "vertical": "Financial Services",
- "deployments": 1,
- "confirmed": 1,
- "with_value_number": 1,
- "proof_rate": 1.0,
+ "deployments": 10,
+ "confirmed": 7,
+ "with_value_number": 7,
+ "proof_rate": 0.7,
  "mktcap": 21807228916.0,
  "revenue": 13493975904.0,
  "employees": 25672.0,
  "silent": false,
- "per_bn_revenue": 0.07,
- "per_10k_emp": 0.39,
+ "per_bn_revenue": 0.74,
+ "per_10k_emp": 3.9,
  "benchmarks": {
   "global_vertical": {
-   "deployments": 0,
-   "confirmed": 17,
-   "proof_rate": 76,
-   "n": 377
+   "deployments": 65,
+   "confirmed": 62,
+   "proof_rate": 95,
+   "n": 388
   },
   "country_vertical": {
-   "deployments": 0,
-   "confirmed": 18,
-   "proof_rate": 73,
-   "n": 23
+   "deployments": 50,
+   "confirmed": 62,
+   "proof_rate": 100,
+   "n": 25
   }
  },
- "first_seen": null,
- "by_year": [],
- "undated_pct": 100,
- "momentum": "none",
- "maturity": "L3",
- "maturity_evidence": [
-  "named_product:Datamatics",
-  "value_number"
+ "first_seen": 2023,
+ "by_year": [
+  {
+   "year": 2023,
+   "n": 1
+  },
+  {
+   "year": 2024,
+   "n": 2
+  },
+  {
+   "year": 2025,
+   "n": 3
+  },
+  {
+   "year": 2026,
+   "n": 3
+  }
  ],
- "prospect_score": 14,
- "stack": [],
- "vendor_named": false,
+ "undated_pct": 10,
+ "momentum": "early_mover,rising",
+ "maturity": "L4",
+ "maturity_evidence": [
+  "multi_horizontal",
+  "named_product:Datamatics",
+  "value_number",
+  "multi_year"
+ ],
+ "prospect_score": 54,
+ "stack": [
+  "Amazon AWS",
+  "Anthropic"
+ ],
+ "vendor_named": true,
  "deployments_detail": [
+  {
+   "company": "SBI Life Insurance Company",
+   "use": "Call-center document search 'selfbot' that retrieves insurance product/policy info via Amazon Kendra and summarizes results using generative AI (Anthropic Claude and other LLMs on Amazon Bedrock), so agents read a summary instead of manually searching brochures. [AWS (Amazon Kendra, Amazon Bedrock, Amazon S3); Anthropic Claude]",
+   "existence": "confirmed",
+   "value": "Built in 4 months (Apr-Jul 2023); selfbot added Sep 2023; 30% reduction in operator training time; near-universal operator adoption",
+   "tier": "",
+   "url": "https://aws.amazon.com/solutions/case-studies/sbi-life-case-study/",
+   "raw_sector": "",
+   "date": "2023",
+   "fresh": "stale"
+  },
+  {
+   "company": "SBI Life Insurance Company",
+   "use": "RIA conversational assistant: an AI chatbot and multilingual voicebot for customer self-service (policy queries, servicing), voice-enabled and integrated with Amazon Alexa; voicebot available in 12 regional languages via the toll-free helpline. [none disclosed (Amazon Alexa integration)]",
+   "existence": "confirmed",
+   "value": "99% query answer rate (per exec interview); voicebot in 12 regional languages",
+   "tier": "",
+   "url": "https://www.instagram.com/p/DVqmMX6EoIv/",
+   "raw_sector": "",
+   "date": "2025",
+   "fresh": "fresh"
+  },
+  {
+   "company": "SBI Life Insurance Company",
+   "use": "AI-powered conversational analytics platform recognized as 'Best AI-Powered Conversational Analytics Platform' at the 2nd Edition of the Data Analytics and AI Show 2025 (analytics over customer conversations). [none disclosed]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.sbilife.co.in/about-us/awards",
+   "raw_sector": "",
+   "date": "2025",
+   "fresh": "fresh"
+  },
   {
    "company": "SBI Life Insurance Company",
    "use": "AI-powered underwriting (Datamatics TruAI, agentic AI) cutting processing to ~45 seconds/application; Sarvam AI WhatsApp assistant deployed to 3.5 lakh+ sales agents",
@@ -50,6 +105,72 @@
    "raw_sector": "Financial Services",
    "date": "missing",
    "fresh": "undated"
+  },
+  {
+   "company": "SBI Life Insurance Company",
+   "use": "Agentic AI underwriting platform (Datamatics TruAI Underwriting) that ingests medical documents, lab reports and declarations to extract risk parameters, generate consolidated case summaries and provide decision support for complex medical underwriting cases (human underwriter retains final decision). [Datamatics Global Services (TruAI, agentic AI)]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.datamatics.com/press-release-list/sbi-life-collaborates-with-datamatics-to-harness-agentic-ai-redefining-underwriting-for-smarter-future-ready-risk-assessment",
+   "raw_sector": "",
+   "date": "2026-05-27",
+   "fresh": "fresh"
+  },
+  {
+   "company": "SBI Life Insurance Company",
+   "use": "Intelligent Document Processing (IDP) with RPA for claims processing: automated classification of death certificates/claim forms/KYC docs, OCR data extraction, cross-validation against policyholder records, with a human-in-the-loop QA interface. [Glib.ai]",
+   "existence": "confirmed",
+   "value": "Turnaround time reduced 83%+ (to ~55 seconds for straight-through processing); 85% reduction in manual effort; data accuracy exceeded 80%",
+   "tier": "",
+   "url": "https://glib.ai/case-studies/enhancing-sbi-life-insurance-claims-process/",
+   "raw_sector": "",
+   "date": "2024",
+   "fresh": "aging"
+  },
+  {
+   "company": "SBI Life Insurance Company",
+   "use": "Enterprise-wide Robotic Process Automation program: 272 RPA bots operating around the clock to automate ~1,349 work tasks across 186 business processes (per ESG/annual report disclosures). [none disclosed]",
+   "existence": "confirmed",
+   "value": "272 RPA bots; 1,349 tasks automated; 186 processes",
+   "tier": "",
+   "url": "https://corpweb.sbilife.co.in/sites/SBILife/Annual-Report/FY24/pdf/ESG-Report-FY2024.pdf",
+   "raw_sector": "",
+   "date": "2024",
+   "fresh": "aging"
+  },
+  {
+   "company": "SBI Life Insurance Company",
+   "use": "In-house AI/ML risk models that flag high-risk applicants at the proposal stage, identify and cancel likely-fraudulent applications, and model customer behaviour to prevent early death claims and improve persistency. [In-house]",
+   "existence": "confirmed",
+   "value": "~3% of cases flagged high-risk; ~22% of those cancelled on deeper scrutiny",
+   "tier": "",
+   "url": "https://www.linkedin.com/posts/cnbc-tv18_aidialogues-riskmanagement-bfsistrategy-activity-7338105000629334016-Vcuv",
+   "raw_sector": "",
+   "date": "2025-06",
+   "fresh": "fresh"
+  },
+  {
+   "company": "SBI Life Insurance Company",
+   "use": "Joint 'Bharat AI & Cyber Innovation Hub for Insurance' with IIT Bombay to research and build indigenous AI-powered cyber defence systems for the insurance sector. [IIT Bombay (MoU partnership)]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://finance.yahoo.com/technology/ai/articles/sbi-life-partners-iit-bombay-113700439.html",
+   "raw_sector": "",
+   "date": "2026-06-30",
+   "fresh": "fresh"
+  },
+  {
+   "company": "SBI Life Insurance Company",
+   "use": "AI-powered multilingual WhatsApp assistant deployed to the frontline sales force (3.5 lakh+ agents) for product inquiries, personalized sales collateral, premium calculations and underwriting-guideline lookups across 11 Indian languages. [Sarvam AI]",
+   "existence": "claimed",
+   "value": "3.5 lakh+ sales agents; 11 languages; serving 8 crore (80M+) customers; described as largest enterprise WhatsApp chatbot use case in India; nationwide rollout targeted for completion by Aug 2026",
+   "tier": "",
+   "url": "https://www.sarvam.ai/stories/sbi-life",
+   "raw_sector": "",
+   "date": "2026-02",
+   "fresh": "fresh"
   }
  ]
 }

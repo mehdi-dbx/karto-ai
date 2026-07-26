@@ -3,46 +3,54 @@
  "name": "Epiroc",
  "cc": "SE",
  "vertical": "Mining & Materials",
- "deployments": 2,
- "confirmed": 2,
+ "deployments": 5,
+ "confirmed": 4,
  "with_value_number": 0,
  "proof_rate": 0.0,
  "mktcap": 26747619048.0,
  "revenue": 5941904762.0,
  "employees": 19086.0,
  "silent": false,
- "per_bn_revenue": 0.34,
- "per_10k_emp": 1.05,
+ "per_bn_revenue": 0.84,
+ "per_10k_emp": 2.62,
  "benchmarks": {
   "global_vertical": {
-   "deployments": 78,
-   "confirmed": 85,
+   "deployments": 57,
+   "confirmed": 56,
    "proof_rate": 0,
-   "n": 61
+   "n": 62
   }
  },
  "first_seen": 2023,
  "by_year": [
   {
    "year": 2023,
-   "n": 1
+   "n": 2
   },
   {
    "year": 2025,
+   "n": 2
+  },
+  {
+   "year": 2026,
    "n": 1
   }
  ],
  "undated_pct": 0,
- "momentum": "early_mover,flat",
+ "momentum": "early_mover,rising",
  "maturity": "L4",
  "maturity_evidence": [
+  "multi_horizontal",
   "named_product:Open",
   "multi_year",
   "tier_p"
  ],
- "prospect_score": 60,
- "stack": [],
- "vendor_named": false,
+ "prospect_score": 64,
+ "stack": [
+  "Microsoft",
+  "Microsoft Azure"
+ ],
+ "vendor_named": true,
  "deployments_detail": [
   {
    "company": "Epiroc",
@@ -64,6 +72,39 @@
    "url": "https://www.epiroc.com/en/us/newsroom/2023/epiroc-collaborates-with-leading-partners-through-renam-project-to-develop-autonomous-mining",
    "raw_sector": "Industrials",
    "date": "2023",
+   "fresh": "stale"
+  },
+  {
+   "company": "Epiroc",
+   "use": "Digital mine planning solutions consolidation with OreInventory",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.epiroc.com/en-al/newsroom/2026/epiroc-launches-digital-mine-planning-solutions",
+   "raw_sector": "",
+   "date": "2026-05-20",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Epiroc",
+   "use": "SmartROC D65 autonomous surface drill rig deployment",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://discoveryalert.com.au/epiroc-autonomous-drilling-2025-innovation-mining/",
+   "raw_sector": "",
+   "date": "2025-10-16",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Epiroc",
+   "use": "ESML AI Factory on Microsoft Azure for manufacturing innovation [Microsoft Azure Machine Learning]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.microsoft.com/en/customers/story/1653030140221000726-epiroc-manufacturing-azure-machine-learning",
+   "raw_sector": "",
+   "date": "2023-09-01",
    "fresh": "stale"
   }
  ]

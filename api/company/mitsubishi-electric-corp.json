@@ -3,27 +3,27 @@
  "name": "Mitsubishi Electric Corp.",
  "cc": "JP",
  "vertical": "Electric Machinery & Electronics",
- "deployments": 1,
- "confirmed": 1,
- "with_value_number": 0,
- "proof_rate": 0.0,
+ "deployments": 11,
+ "confirmed": 2,
+ "with_value_number": 1,
+ "proof_rate": 0.091,
  "mktcap": 78400000000.0,
  "revenue": 39266666667.0,
  "employees": 150386.0,
  "silent": false,
- "per_bn_revenue": 0.03,
- "per_10k_emp": 0.07,
+ "per_bn_revenue": 0.28,
+ "per_10k_emp": 0.73,
  "benchmarks": {
   "global_vertical": {
-   "deployments": 0,
-   "confirmed": 9,
-   "proof_rate": 0,
+   "deployments": 71,
+   "confirmed": 12,
+   "proof_rate": 32,
    "n": 35
   },
   "country_vertical": {
-   "deployments": 0,
-   "confirmed": 6,
-   "proof_rate": 0,
+   "deployments": 68,
+   "confirmed": 10,
+   "proof_rate": 26,
    "n": 32
   }
  },
@@ -32,18 +32,31 @@
   {
    "year": 2017,
    "n": 1
+  },
+  {
+   "year": 2025,
+   "n": 3
+  },
+  {
+   "year": 2026,
+   "n": 2
   }
  ],
- "undated_pct": 0,
- "momentum": "early_mover,gone_quiet",
- "maturity": "L3",
+ "undated_pct": 45,
+ "momentum": "early_mover,rising",
+ "maturity": "L4",
  "maturity_evidence": [
+  "multi_horizontal",
   "named_product:Maisart",
+  "value_number",
+  "multi_year",
   "tier_p"
  ],
- "prospect_score": 54,
- "stack": [],
- "vendor_named": false,
+ "prospect_score": 48,
+ "stack": [
+  "Amazon AWS"
+ ],
+ "vendor_named": true,
  "deployments_detail": [
   {
    "company": "Mitsubishi Electric Corp.",
@@ -55,6 +68,116 @@
    "raw_sector": "Electric Machinery",
    "date": "2017",
    "fresh": "stale"
+  },
+  {
+   "company": "Mitsubishi Electric Corp.",
+   "use": "Formal verification technology for AI systems",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.mitsubishielectric.com/en/pr/2025/0226/",
+   "raw_sector": "",
+   "date": "2025-02-26",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Mitsubishi Electric Corp.",
+   "use": "AI Data Center Solutions alliance",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://us.mitsubishielectric.com/en/pr/global/2025/1106/",
+   "raw_sector": "",
+   "date": "2025-11-06",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Mitsubishi Electric Corp.",
+   "use": "800 VDC power infrastructure for AI factories",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.businesswire.com/news/home/20251013882999/en/Mitsubishi-Electric-to-Power-Next-Generation-AI-Factories-with-800-VDC-Infrastructure",
+   "raw_sector": "",
+   "date": "2025-10-13",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Mitsubishi Electric Corp.",
+   "use": "Investment in Sakana AI for complex business decision-making [Sakana AI]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.mitsubishielectric.com/en/pr/2026/0325-b/",
+   "raw_sector": "",
+   "date": "2026-03-25",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Mitsubishi Electric Corp.",
+   "use": "Generative AI for story creation and inquiry response",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.mitsubishielectric.com/rd/maisart/generative-ai/",
+   "raw_sector": "",
+   "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "Mitsubishi Electric Corp.",
+   "use": "Generative AI for product development, industrial simulations, and robotic training",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.mitsubishielectric.com/rd/maisart/generative-ai/",
+   "raw_sector": "",
+   "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "Mitsubishi Electric Corp.",
+   "use": "Predictive maintenance and energy optimization with EcoAdviser",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.youtube.com/watch?v=wQm4I4Y1ik8",
+   "raw_sector": "",
+   "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "Mitsubishi Electric Corp.",
+   "use": "Generative AI in internal processes",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.mitsubishielectric.com/investors/library/integrated-report/pdf/2025/integrated-report2025-en.pdf",
+   "raw_sector": "",
+   "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "Mitsubishi Electric Corp.",
+   "use": "Generative AI for operations, supply chain, maintenance, and sales [AWS]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.facebook.com/amazonwebservices/posts/learn-how-mitsubishi-electric-are-using-generative-ai-powered-by-aws-to-create-m/1227290122764897/",
+   "raw_sector": "",
+   "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "Mitsubishi Electric Corp.",
+   "use": "Analytics acceleration and AI access scaling [Dataiku]",
+   "existence": "confirmed",
+   "value": "60%",
+   "tier": "",
+   "url": "https://www.dataiku.com/blog/mitsubishi-electric",
+   "raw_sector": "",
+   "date": "2026-01-20",
+   "fresh": "fresh"
   }
  ]
 }

@@ -3,28 +3,28 @@
  "name": "ADNOC Drilling",
  "cc": "AE",
  "vertical": "Energy & Utilities",
- "deployments": 1,
- "confirmed": 1,
- "with_value_number": 0,
- "proof_rate": 0.0,
+ "deployments": 2,
+ "confirmed": 2,
+ "with_value_number": 1,
+ "proof_rate": 0.5,
  "mktcap": 24706000000.0,
  "revenue": 4965000000.0,
  "employees": null,
  "silent": false,
- "per_bn_revenue": 0.2,
+ "per_bn_revenue": 0.4,
  "per_10k_emp": null,
  "benchmarks": {
   "global_vertical": {
-   "deployments": 0,
-   "confirmed": 20,
-   "proof_rate": 0,
-   "n": 210
+   "deployments": 10,
+   "confirmed": 30,
+   "proof_rate": 81,
+   "n": 213
   },
   "country_vertical": {
    "deployments": 0,
-   "confirmed": 25,
-   "proof_rate": 0,
-   "n": 5
+   "confirmed": 20,
+   "proof_rate": 100,
+   "n": 6
   }
  },
  "first_seen": 2024,
@@ -32,16 +32,22 @@
   {
    "year": 2024,
    "n": 1
+  },
+  {
+   "year": 2026,
+   "n": 1
   }
  ],
  "undated_pct": 0,
- "momentum": "early_mover,gone_quiet",
- "maturity": "L3",
+ "momentum": "early_mover,flat",
+ "maturity": "L4",
  "maturity_evidence": [
   "named_product:First",
+  "value_number",
+  "multi_year",
   "tier_p"
  ],
- "prospect_score": 54,
+ "prospect_score": 40,
  "stack": [],
  "vendor_named": false,
  "deployments_detail": [
@@ -55,6 +61,17 @@
    "raw_sector": "Energy",
    "date": "2024",
    "fresh": "aging"
+  },
+  {
+   "company": "ADNOC Drilling",
+   "use": "AI-enabled automated walking island rig (AD-300) with autonomous operations, automated pipe handling, and AI-enabled monitoring systems",
+   "existence": "confirmed",
+   "value": "$1.54 billion",
+   "tier": "",
+   "url": "https://adnocdrilling.ae/en/news-and-media/news-releases/2026/ad-300-first-ai-rig",
+   "raw_sector": "",
+   "date": "2026-06-25",
+   "fresh": "fresh"
   }
  ]
 }

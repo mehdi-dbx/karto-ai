@@ -3,22 +3,22 @@
  "name": "Sydbank",
  "cc": "DK",
  "vertical": "Financial Services",
- "deployments": 2,
+ "deployments": 4,
  "confirmed": 2,
  "with_value_number": 1,
- "proof_rate": 0.5,
+ "proof_rate": 0.25,
  "mktcap": 7626086957.0,
  "revenue": 1378260870.0,
  "employees": 4109.0,
  "silent": false,
- "per_bn_revenue": 1.45,
- "per_10k_emp": 4.87,
+ "per_bn_revenue": 2.9,
+ "per_10k_emp": 9.73,
  "benchmarks": {
   "global_vertical": {
-   "deployments": 62,
-   "confirmed": 73,
-   "proof_rate": 61,
-   "n": 377
+   "deployments": 24,
+   "confirmed": 17,
+   "proof_rate": 47,
+   "n": 388
   }
  },
  "first_seen": 2024,
@@ -28,7 +28,7 @@
    "n": 1
   }
  ],
- "undated_pct": 50,
+ "undated_pct": 75,
  "momentum": "early_mover,gone_quiet",
  "maturity": "L3",
  "maturity_evidence": [
@@ -37,7 +37,7 @@
   "value_number",
   "tier_p"
  ],
- "prospect_score": 32,
+ "prospect_score": 42,
  "stack": [
   "OpenAI"
  ],
@@ -56,6 +56,17 @@
   },
   {
    "company": "Sydbank",
+   "use": "Personalized chatbot integration [Corax AI]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://trifork.com/?cases=introducing-alai-arbejdernes-landsbanks-new-chatbot",
+   "raw_sector": "",
+   "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "Sydbank",
    "use": "Internal GPT-based AI colleague answering ~1,000 employee questions per day",
    "existence": "confirmed",
    "value": "~1,000 questions/day",
@@ -64,6 +75,17 @@
    "raw_sector": "Banks",
    "date": "2024",
    "fresh": "aging"
+  },
+  {
+   "company": "Sydbank",
+   "use": "Embedded LLM deployment",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://via.ritzau.dk/pressemeddelelse/14658966/sydbank-as?publisherId=90446&lang=en",
+   "raw_sector": "",
+   "date": "Nov 5, 2025",
+   "fresh": "undated"
   }
  ]
 }

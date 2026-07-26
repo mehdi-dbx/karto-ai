@@ -3,41 +3,63 @@
  "name": "BBVA",
  "cc": "ES",
  "vertical": "Financial Services",
- "deployments": 1,
- "confirmed": 1,
- "with_value_number": 1,
- "proof_rate": 1.0,
+ "deployments": 13,
+ "confirmed": 12,
+ "with_value_number": 10,
+ "proof_rate": 0.769,
  "mktcap": 137257200000.0,
  "revenue": 34182000000.0,
  "employees": 123368.0,
  "silent": false,
- "per_bn_revenue": 0.03,
- "per_10k_emp": 0.08,
+ "per_bn_revenue": 0.38,
+ "per_10k_emp": 1.05,
  "benchmarks": {
   "global_vertical": {
-   "deployments": 0,
-   "confirmed": 17,
-   "proof_rate": 76,
-   "n": 377
+   "deployments": 87,
+   "confirmed": 90,
+   "proof_rate": 97,
+   "n": 388
   },
   "country_vertical": {
-   "deployments": 0,
-   "confirmed": 0,
-   "proof_rate": 60,
+   "deployments": 60,
+   "confirmed": 60,
+   "proof_rate": 80,
    "n": 6
   }
  },
- "first_seen": null,
- "by_year": [],
- "undated_pct": 100,
- "momentum": "none",
- "maturity": "L3",
- "maturity_evidence": [
-  "named_product:ChatGPT",
-  "value_number"
+ "first_seen": 2018,
+ "by_year": [
+  {
+   "year": 2018,
+   "n": 1
+  },
+  {
+   "year": 2024,
+   "n": 4
+  },
+  {
+   "year": 2025,
+   "n": 4
+  },
+  {
+   "year": 2026,
+   "n": 3
+  }
  ],
- "prospect_score": 6,
+ "undated_pct": 8,
+ "momentum": "early_mover,rising",
+ "maturity": "L4",
+ "maturity_evidence": [
+  "multi_horizontal",
+  "named_product:ChatGPT",
+  "value_number",
+  "multi_year"
+ ],
+ "prospect_score": 69,
  "stack": [
+  "Amazon AWS",
+  "Google",
+  "Google Cloud",
   "OpenAI"
  ],
  "vendor_named": true,
@@ -52,6 +74,138 @@
    "raw_sector": "Financial Services",
    "date": "missing",
    "fresh": "undated"
+  },
+  {
+   "company": "BBVA",
+   "use": "'Credit Analysis Pro' GPT that helps Global Risk Management credit analysts accelerate assessments by automatically extracting relevant company data from annual reports, sustainability assessments and media, and enabling sector comparisons. [OpenAI (ChatGPT Enterprise, custom GPT)]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.bbva.com/en/innovation/bbva-sparks-a-wave-of-innovation-among-its-employees-with-the-deployment-of-chatgpt-enterprise/",
+   "raw_sector": "",
+   "date": "2024-11-20",
+   "fresh": "aging"
+  },
+  {
+   "company": "BBVA",
+   "use": "Founding participation as a partner in 'DeployCo', OpenAI's new deployment company, to co-develop and embed AI systems into banking operations (co-development of AI systems beyond off-the-shelf ChatGPT). [OpenAI (DeployCo)]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.bbva.com/en/innovation/bbva-joins-deployco-openais-new-company-to-accelerate-ai-enterprise-transformation/",
+   "raw_sector": "",
+   "date": "2026-05-11",
+   "fresh": "fresh"
+  },
+  {
+   "company": "BBVA",
+   "use": "Gemini in Google Workspace for 100,000 employees [Google Cloud] [Google Cloud]",
+   "existence": "confirmed",
+   "value": "3 hours/week time savings per employee",
+   "tier": "",
+   "url": "https://cloud.google.com/transform/101-real-world-generative-ai-use-cases-from-industry-leaders",
+   "raw_sector": "",
+   "date": "2026-04-22",
+   "fresh": "fresh"
+  },
+  {
+   "company": "BBVA",
+   "use": "'Blue' customer-facing virtual assistant upgraded with generative AI to handle account and card management, conversational natural-language queries and personalized financial insights. Launched in Spain (Feb 2025) and used in Mexico to cut call-center handling times. [BBVA (in-house, RAG-based agent)]",
+   "existence": "confirmed",
+   "value": "Up to 150 queries/transactions; answers 3,000+ potential questions; Mexico call times cut from ~4 min to under 1 min",
+   "tier": "",
+   "url": "https://www.bbva.com/en/innovation/for-the-first-time-in-spain-bbva-will-offer-ai-powered-account-and-card-management-with-its-virtual-assistant/",
+   "raw_sector": "",
+   "date": "2025-02-14",
+   "fresh": "fresh"
+  },
+  {
+   "company": "BBVA",
+   "use": "Generative AI analysis of customer conversations ('My Conversations' channel) — transcribing and analyzing phone calls, chats and complaints to identify why customers contact the bank and detect friction points, replacing reliance on satisfaction surveys. In production in Spain and Mexico. [BBVA (generative AI)]",
+   "existence": "confirmed",
+   "value": "220,000+ monthly calls analyzed in Mexico; 10,000-20,000 NPS surveys processed daily",
+   "tier": "",
+   "url": "https://www.bbva.com/en/innovation/bbva-goes-beyond-satisfaction-surveys-and-uses-ai-to-measure-the-real-customer-experience/",
+   "raw_sector": "",
+   "date": "2026-07-14",
+   "fresh": "fresh"
+  },
+  {
+   "company": "BBVA",
+   "use": "Enterprise-wide rollout of ChatGPT Enterprise to employees as a general productivity/knowledge assistant. Began with 3,000 licenses (May 2024), expanded to 11,000 (May 2025), and to all 120,000+ employees across 25 countries (Dec 2025), one of the largest corporate deployments. [OpenAI (ChatGPT Enterprise)]",
+   "existence": "confirmed",
+   "value": "120,000+ employees; average 2.8 hours saved per employee per week; 83% weekly usage within 5 months",
+   "tier": "",
+   "url": "https://www.bbva.com/en/innovation/bbva-and-openai-seal-a-strategic-alliance-to-redefine-banking-with-artificial-intelligence/",
+   "raw_sector": "",
+   "date": "2025-12-12",
+   "fresh": "fresh"
+  },
+  {
+   "company": "BBVA",
+   "use": "Internal 'GPT Store' where employees build and share custom GPTs for specialized workflows across legal, risk, customer service and operations. Grew from ~2,900 GPTs in 5 months to 20,000+ custom GPTs. [OpenAI (ChatGPT Enterprise)]",
+   "existence": "confirmed",
+   "value": "20,000+ custom GPTs created; ~700 in the internal store",
+   "tier": "",
+   "url": "https://www.finextra.com/newsarticle/45110/bbva-creates-gpt-store-to-house-employee-generated-ai-tools",
+   "raw_sector": "",
+   "date": "2024-11-25",
+   "fresh": "aging"
+  },
+  {
+   "company": "BBVA",
+   "use": "Retail Banking Legal Assistant GPT that answers branch managers' client legal questions, drawing on a documentation repository, delivering responses in under 24 hours for a large annual query volume. [OpenAI (ChatGPT Enterprise, custom GPT)]",
+   "existence": "confirmed",
+   "value": "Over 40,000 client legal questions handled annually; responses in <24 hours",
+   "tier": "",
+   "url": "https://www.bbva.com/en/innovation/bbva-sparks-a-wave-of-innovation-among-its-employees-with-the-deployment-of-chatgpt-enterprise/",
+   "raw_sector": "",
+   "date": "2024-11-20",
+   "fresh": "aging"
+  },
+  {
+   "company": "BBVA",
+   "use": "Rollout of Google Workspace with Gemini generative AI to ~100,000 employees, embedding AI into Gmail, Docs, Sheets and Meet to summarize, draft and find information; part of a deepened Google Cloud partnership. [Google Cloud (Gemini for Google Workspace)]",
+   "existence": "confirmed",
+   "value": "~100,000 employees; 4M+ Google Meet sessions and 2M+ collaborations per month",
+   "tier": "",
+   "url": "https://www.bbva.com/en/innovation/bbva-deepens-partnership-with-google-cloud-to-innovate-with-ai/",
+   "raw_sector": "",
+   "date": "2025-07-02",
+   "fresh": "fresh"
+  },
+  {
+   "company": "BBVA",
+   "use": "ADA (Analytics, Data, AI) global cloud data and machine-learning platform migrated to AWS, with a new MLOps architecture based on Amazon SageMaker AI to industrialize the creation, deployment and management of ML/AI models across countries. [AWS (Amazon SageMaker AI, Glue, EMR)]",
+   "existence": "confirmed",
+   "value": "~500TB data and 250+ analytical environments migrated; development times reduced up to 75% in use cases such as personalized recommendations and financial forecasting",
+   "tier": "",
+   "url": "https://aws.amazon.com/blogs/industries/part-3-how-bbva-built-a-global-analytics-and-machine-learning-platform-on-aws/",
+   "raw_sector": "",
+   "date": "2025-10-06",
+   "fresh": "fresh"
+  },
+  {
+   "company": "BBVA",
+   "use": "Machine-learning / deep-learning models for credit-card fraud detection, developed by BBVA's data science team (BBVA Data & Analytics / AI Factory), including collaboration with MIT to reduce false positives. [BBVA Data & Analytics / MIT]",
+   "existence": "confirmed",
+   "value": "Up to 54% reduction in false positives on fraudulent card transactions",
+   "tier": "",
+   "url": "https://www.bbva.com/en/innovation/bbva-teams-up-with-mit-to-improve-card-fraud-detection/",
+   "raw_sector": "",
+   "date": "2018-11-12",
+   "fresh": "stale"
+  },
+  {
+   "company": "BBVA",
+   "use": "AI-driven personalization engine that recommends relevant products and services in the mobile app's 'commercial offers' section, built by BBVA AI Factory. [BBVA AI Factory]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.bbvaaifactory.com/personalizing-commercial-offers/",
+   "raw_sector": "",
+   "date": "2024-10-08",
+   "fresh": "aging"
   }
  ]
 }

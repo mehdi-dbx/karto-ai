@@ -3,43 +3,85 @@
  "name": "ServiceNow",
  "cc": "US",
  "vertical": "Technology",
- "deployments": 1,
- "confirmed": 1,
- "with_value_number": 1,
- "proof_rate": 1.0,
+ "deployments": 12,
+ "confirmed": 11,
+ "with_value_number": 10,
+ "proof_rate": 0.833,
  "mktcap": 97710000000.0,
  "revenue": 14730000000.0,
  "employees": 29187.0,
  "silent": false,
- "per_bn_revenue": 0.07,
- "per_10k_emp": 0.34,
+ "per_bn_revenue": 0.81,
+ "per_10k_emp": 4.11,
  "benchmarks": {
   "global_vertical": {
-   "deployments": 0,
-   "confirmed": 6,
-   "proof_rate": 80,
-   "n": 156
+   "deployments": 75,
+   "confirmed": 82,
+   "proof_rate": 99,
+   "n": 159
   },
   "country_vertical": {
-   "deployments": 0,
-   "confirmed": 4,
-   "proof_rate": 93,
+   "deployments": 73,
+   "confirmed": 85,
+   "proof_rate": 100,
    "n": 74
   }
  },
- "first_seen": null,
- "by_year": [],
- "undated_pct": 100,
- "momentum": "none",
- "maturity": "L3",
- "maturity_evidence": [
-  "named_product:Now Assist",
-  "value_number"
+ "first_seen": 2024,
+ "by_year": [
+  {
+   "year": 2024,
+   "n": 1
+  },
+  {
+   "year": 2025,
+   "n": 4
+  },
+  {
+   "year": 2026,
+   "n": 4
+  }
  ],
- "prospect_score": 14,
- "stack": [],
- "vendor_named": false,
+ "undated_pct": 25,
+ "momentum": "early_mover,rising",
+ "maturity": "L4",
+ "maturity_evidence": [
+  "multi_horizontal",
+  "named_product:Now Assist",
+  "value_number",
+  "multi_year"
+ ],
+ "prospect_score": 67,
+ "stack": [
+  "Anthropic",
+  "Databricks",
+  "Google",
+  "ServiceNow"
+ ],
+ "vendor_named": true,
  "deployments_detail": [
+  {
+   "company": "ServiceNow",
+   "use": "ServiceNow's own customer support runs Now Assist / AI agents that automate ~37% of support case workflow (routing, categorization, summarization); ~89% of customer self-service requests are supported by AI while holding a 9.0 CSAT. [ServiceNow Now Assist / AI Agents (Now Platform)]",
+   "existence": "confirmed",
+   "value": "37% of support case workflow automated; ~89% of self-service requests AI-supported at 9.0 CSAT",
+   "tier": "",
+   "url": "https://www.servicenow.com/customers/now-on-now-support-ai.html",
+   "raw_sector": "",
+   "date": "2025",
+   "fresh": "fresh"
+  },
+  {
+   "company": "ServiceNow",
+   "use": "ServiceNow deployed Claude Code across its engineering and technical teams (part of a >29,000-employee Claude rollout) to write and review code, debug issues, automate repetitive development tasks, and speed up internal tooling. [Anthropic Claude / Claude Code]",
+   "existence": "confirmed",
+   "value": "Deployed to >29,000 employees (combined sales+engineering rollout)",
+   "tier": "",
+   "url": "https://newsroom.servicenow.com/press-releases/details/2026/ServiceNow-and-Anthropic-partner-to-help-customers-build-AI-powered-applications-accelerate-time-to-value-and-apply-trusted-AI-to-critical-industries/default.aspx",
+   "raw_sector": "",
+   "date": "2026-01-28",
+   "fresh": "fresh"
+  },
   {
    "company": "ServiceNow",
    "use": "\"Now Assist\" GenAI + AI agents (agentic ACV toward ~$1B run rate) across ITSM/enterprise workflows",
@@ -50,6 +92,105 @@
    "raw_sector": "Information Technology",
    "date": "missing",
    "fresh": "undated"
+  },
+  {
+   "company": "ServiceNow",
+   "use": "Aggregate internal AI-agent program: ServiceNow states it has generated over $350M in value from its internal use of AI agents across functions (customer support, IT, HR, etc.), with ~89% of customer support cases resolved autonomously reported by the CFO. [ServiceNow AI Agents (Now Platform)]",
+   "existence": "confirmed",
+   "value": "$350M+ in value from internal AI agents; 89% of customer support cases resolved autonomously",
+   "tier": "",
+   "url": "https://www.cxtoday.com/crm/servicenows-internal-ai-agents-generate-350m-in-added-value-spark-debate-on-future-of-jobs/",
+   "raw_sector": "",
+   "date": "2025-07-15",
+   "fresh": "fresh"
+  },
+  {
+   "company": "ServiceNow",
+   "use": "Named as a Google Gemini / Vertex AI customer/case study [Google Gemini / Vertex AI] [Google Gemini / Vertex AI]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://blog.google/innovation-and-ai/infrastructure-and-cloud/google-cloud/gemini-at-work-ai-agents/",
+   "raw_sector": "",
+   "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "ServiceNow",
+   "use": "Named as a Databricks customer/case study [Databricks] [Databricks]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://siliconangle.com/2025/06/11/new-databricks-tools-aim-cut-costs-complexity-ai-agent-deployment/",
+   "raw_sector": "",
+   "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "ServiceNow",
+   "use": "ServiceNow's own security operations team runs Autonomous Security & Risk (agentic SecOps on the Now Platform), handling security incidents roughly 7x faster than prior workflows. [ServiceNow Autonomous Security & Risk / Now Assist for SecOps]",
+   "existence": "confirmed",
+   "value": "~7x faster incident handling",
+   "tier": "",
+   "url": "https://diginomica.com/servicenow-knowledge-2026-ai-control-tower-expands-autonomous-workforce-reaches-every-function-and",
+   "raw_sector": "",
+   "date": "2026-05-05",
+   "fresh": "fresh"
+  },
+  {
+   "company": "ServiceNow",
+   "use": "ServiceNow governs its own AI internally with its AI Control Tower, tracking over 1,600 internal AI assets and measuring roughly half a billion dollars in cumulative AI value through the tool in 2025. [ServiceNow AI Control Tower (Now Platform)]",
+   "existence": "confirmed",
+   "value": ">1,600 AI assets tracked; ~$500M cumulative AI value measured in 2025",
+   "tier": "",
+   "url": "https://diginomica.com/servicenow-knowledge-2026-ai-control-tower-expands-autonomous-workforce-reaches-every-function-and",
+   "raw_sector": "",
+   "date": "2025",
+   "fresh": "fresh"
+  },
+  {
+   "company": "ServiceNow",
+   "use": "Internal IT service desk staffed by ServiceNow's Autonomous Workforce: a Level 1 Service Desk AI Specialist handles over 90% of employee IT requests and resolves assigned cases 99% faster than human agents. [ServiceNow Now Assist / AI Specialists (Autonomous Workforce)]",
+   "existence": "confirmed",
+   "value": ">90% of employee IT requests handled; 99% faster resolution vs. humans",
+   "tier": "",
+   "url": "https://newsroom.servicenow.com/press-releases/details/2026/ServiceNow-turns-enterprise-AI-chaos-into-control-with-the-platform-for-governed-autonomous-work/default.aspx",
+   "raw_sector": "",
+   "date": "2026-02-26",
+   "fresh": "fresh"
+  },
+  {
+   "company": "ServiceNow",
+   "use": "ServiceNow uses AI (AI Search + Now Assist virtual agents) internally to transform the HR/employee experience, delivering ~20x faster resolution of HR queries and saving ~410,000 hours annually. [ServiceNow Now Assist / AI Search (Now Platform)]",
+   "existence": "confirmed",
+   "value": "20x faster HR query resolution; ~410,000 hours saved annually",
+   "tier": "",
+   "url": "https://www.servicenow.com/customers/now-on-now-ai-experience.html",
+   "raw_sector": "",
+   "date": "2025",
+   "fresh": "fresh"
+  },
+  {
+   "company": "ServiceNow",
+   "use": "ServiceNow's original 'Now on Now' Now Assist deployment for its internal IT/employee workflows (starting with incident summarization to help IT agents resolve issues faster, plus task summarization). [ServiceNow Now Assist (generative AI, Now Platform)]",
+   "existence": "confirmed",
+   "value": "$10M annualized tangible benefit + $4M+ productivity within 120 days of implementing Now Assist",
+   "tier": "",
+   "url": "https://www.servicenow.com/uk/customers/now-on-now-now-assist.html",
+   "raw_sector": "",
+   "date": "2024",
+   "fresh": "aging"
+  },
+  {
+   "company": "ServiceNow",
+   "use": "ServiceNow sellers use an AI-powered coaching experience built on Anthropic's Claude to prepare for customer meetings, synthesizing prospect intelligence, account context and web/enterprise data; deployed to more than 29,000 employees. [Anthropic Claude]",
+   "existence": "confirmed",
+   "value": "Up to 95% reduction in seller meeting-preparation time",
+   "tier": "",
+   "url": "https://www.anthropic.com/news/servicenow-anthropic-claude",
+   "raw_sector": "",
+   "date": "2026-01-28",
+   "fresh": "fresh"
   }
  ]
 }

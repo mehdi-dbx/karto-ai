@@ -3,48 +3,72 @@
  "name": "Fujikura Ltd.",
  "cc": "JP",
  "vertical": "Chemicals & Materials",
- "deployments": 1,
- "confirmed": 1,
- "with_value_number": 1,
- "proof_rate": 1.0,
+ "deployments": 9,
+ "confirmed": 7,
+ "with_value_number": 3,
+ "proof_rate": 0.333,
  "mktcap": 52200000000.0,
  "revenue": 7866666667.0,
  "employees": 50586.0,
  "silent": false,
- "per_bn_revenue": 0.13,
- "per_10k_emp": 0.2,
+ "per_bn_revenue": 1.14,
+ "per_10k_emp": 1.78,
  "benchmarks": {
   "global_vertical": {
-   "deployments": 0,
-   "confirmed": 19,
+   "deployments": 82,
+   "confirmed": 80,
    "proof_rate": 75,
-   "n": 105
+   "n": 107
   },
   "country_vertical": {
-   "deployments": 0,
-   "confirmed": 15,
-   "proof_rate": 59,
+   "deployments": 76,
+   "confirmed": 76,
+   "proof_rate": 68,
    "n": 35
   }
  },
- "first_seen": 2023,
+ "first_seen": 2017,
  "by_year": [
   {
+   "year": 2017,
+   "n": 1
+  },
+  {
+   "year": 2018,
+   "n": 2
+  },
+  {
+   "year": 2021,
+   "n": 1
+  },
+  {
    "year": 2023,
+   "n": 2
+  },
+  {
+   "year": 2024,
+   "n": 1
+  },
+  {
+   "year": 2026,
    "n": 1
   }
  ],
- "undated_pct": 0,
- "momentum": "early_mover,gone_quiet",
- "maturity": "L3",
+ "undated_pct": 11,
+ "momentum": "early_mover,cooling",
+ "maturity": "L4",
  "maturity_evidence": [
+  "multi_horizontal",
   "named_product:Deep",
   "value_number",
+  "multi_year",
   "tier_p"
  ],
- "prospect_score": 14,
- "stack": [],
- "vendor_named": false,
+ "prospect_score": 69,
+ "stack": [
+  "NVIDIA"
+ ],
+ "vendor_named": true,
  "deployments_detail": [
   {
    "company": "Fujikura Ltd.",
@@ -56,6 +80,94 @@
    "raw_sector": "Nonferrous Metals",
    "date": "2023",
    "fresh": "stale"
+  },
+  {
+   "company": "Fujikura Ltd.",
+   "use": "AI visual inspection of laser-diode wafers (key fiber-laser component made by group company Optoenergy): a self-developed deep-learning image-recognition system detects micro-scratches/defects with heatmap display, replacing skilled technicians' microscope inspection. In production since 2018, achieving judgment accuracy exceeding 99% and faster/more accurate results than skilled operators. [NVIDIA (DGX-1, DGX-2 for training; RTX for inference); in-house deep-learning models]",
+   "existence": "confirmed",
+   "value": "judgment accuracy >99%",
+   "tier": "",
+   "url": "https://www.fujikura.co.jp/en/news/pressrelease/20230320ai_1.html",
+   "raw_sector": "",
+   "date": "2018",
+   "fresh": "stale"
+  },
+  {
+   "company": "Fujikura Ltd.",
+   "use": "Deep reinforcement learning implemented to control manufacturing equipment (a lens-focusing/alignment device in the production process), combined with Sim2Real technology. Proof-of-concept confirmed AI operated faster and more accurately than human operators and conventional control programs; results presented at NVIDIA GTC 2023. [NVIDIA (DGX system, RTX); in-house reinforcement learning]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.fujikura.co.jp/en/news/pressrelease/20230320ai_1.html",
+   "raw_sector": "",
+   "date": "2023-03-20",
+   "fresh": "stale"
+  },
+  {
+   "company": "Fujikura Ltd.",
+   "use": "Materials Informatics (MI) applied to R&D materials development, e.g. rubber cable-sheath formulation, using Bayesian optimization, regression/classification models, model interpretation and persistent homology to guide experiments. Used as one of Fujikura's foundational technologies. [in-house MI (Bayesian optimization, UMAP)]",
+   "existence": "confirmed",
+   "value": "experiments cut from ~120 to ~30 trials; development time from ~12 months to ~3 months; workload from ~4 to ~1 person-months",
+   "tier": "",
+   "url": "https://www.mi-seek.com/success-stories/fujikura.html",
+   "raw_sector": "",
+   "date": "2024",
+   "fresh": "aging"
+  },
+  {
+   "company": "Fujikura Ltd.",
+   "use": "Expansion of AI-based visual inspection: after the 2018 first deployment, Fujikura developed and implemented multiple AI-based visual inspection systems across a wide range of internal products in its manufacturing processes, reducing inspection man-hours and improving production efficiency. [in-house deep-learning image recognition]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.fujikura.co.jp/en/research/core-technology/",
+   "raw_sector": "",
+   "date": "2018",
+   "fresh": "stale"
+  },
+  {
+   "company": "Fujikura Ltd.",
+   "use": "AI-based route-bus passenger safety monitoring system: in-cabin cameras plus Fujikura's own AI image-analysis (edge computing) analyze passenger posture in real time (standing before seating, seated, standing in transit) and alert the driver, targeting elderly-fall accidents. Field demonstration on commercial route buses in Kofu, Yamanashi. [Fujikura in-house AI image analysis; partner Edison AI; Yamanashi Kotsu]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.nextmobility.jp/after_market/fujikura-demonstrates-ai-based-route-bus-passenger-safety-monitoring-system20211011/",
+   "raw_sector": "",
+   "date": "2021-10-18",
+   "fresh": "stale"
+  },
+  {
+   "company": "Fujikura Ltd.",
+   "use": "No-code creation of custom AI models by a non-AI-specialist production-management staffer, using internal data for business/production reform in SWR (Spider Web Ribbon) optical fiber cable production management; part of an ongoing multi-year initiative expanding to new divisions. [none]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.itmedia.co.jp/business/articles/2605/27/news022_2.html",
+   "raw_sector": "",
+   "date": "2026-05-27",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Fujikura Ltd.",
+   "use": "Deployment of NVIDIA DGX-1 (2017, Sakura R&D lab, Chiba) and a second DGX-1 (2018) plus DGX-2 to accelerate deep-learning training for the company's AI development, dramatically shortening training time for the wafer inspection and other AI systems. [NVIDIA (DGX-1, DGX-2)]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.nvidia.com/content/dam/en-zz/ja/Solutions/Data-Center/documents/dgx-systems-fujikura-success-story.pdf",
+   "raw_sector": "",
+   "date": "2017",
+   "fresh": "stale"
+  },
+  {
+   "company": "Fujikura Ltd.",
+   "use": "In-house 'AI Platform' developed and operated to streamline development, monitoring, operation and maintenance of Fujikura's AI systems and to keep deployed inspection AI running stably, raising the value of its production AI systems. [in-house]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.fujikura.co.jp/research/pdf/technical-report/134/134_R9.pdf",
+   "raw_sector": "",
+   "date": "none",
+   "fresh": "undated"
   }
  ]
 }

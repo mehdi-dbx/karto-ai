@@ -3,27 +3,27 @@
  "name": "Sun Pharma",
  "cc": "IN",
  "vertical": "Healthcare & Life Sciences",
- "deployments": 9,
- "confirmed": 5,
+ "deployments": 12,
+ "confirmed": 7,
  "with_value_number": 2,
- "proof_rate": 0.222,
+ "proof_rate": 0.167,
  "mktcap": 56144578313.0,
  "revenue": 7043614458.0,
  "employees": 47000.0,
  "silent": false,
- "per_bn_revenue": 1.28,
- "per_10k_emp": 1.91,
+ "per_bn_revenue": 1.7,
+ "per_10k_emp": 2.55,
  "benchmarks": {
   "global_vertical": {
-   "deployments": 91,
-   "confirmed": 90,
-   "proof_rate": 70,
-   "n": 165
+   "deployments": 84,
+   "confirmed": 68,
+   "proof_rate": 47,
+   "n": 168
   },
   "country_vertical": {
-   "deployments": 100,
-   "confirmed": 100,
-   "proof_rate": 100,
+   "deployments": 80,
+   "confirmed": 80,
+   "proof_rate": 40,
    "n": 6
   }
  },
@@ -38,7 +38,7 @@
    "n": 2
   }
  ],
- "undated_pct": 33,
+ "undated_pct": 50,
  "momentum": "rising",
  "maturity": "L3",
  "maturity_evidence": [
@@ -46,9 +46,14 @@
   "named_product:GoML",
   "value_number"
  ],
- "prospect_score": 69,
- "stack": [],
- "vendor_named": false,
+ "prospect_score": 75,
+ "stack": [
+  "Amazon AWS",
+  "Microsoft",
+  "Microsoft Azure",
+  "OpenAI"
+ ],
+ "vendor_named": true,
  "deployments_detail": [
   {
    "company": "Sun Pharma",
@@ -148,6 +153,39 @@
    "raw_sector": "",
    "date": "2026",
    "fresh": "fresh"
+  },
+  {
+   "company": "Sun Pharma",
+   "use": "AI-Driven CMC & Regulatory (USFDA/EMA)",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.linkedin.com/posts/vikas-dandekar-2a0a619_for-fy2025-sun-pharmas-sales-stood-at-rs-activity-7331352921239908353-I0WK",
+   "raw_sector": "",
+   "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "Sun Pharma",
+   "use": "Digital and AI-enabled tools across manufacturing, commercial and corporate functions",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://sunpharma.com/wp-content/uploads/2026/07/Sun-Pharma_AR-2025-26.pdf",
+   "raw_sector": "",
+   "date": "May 22, 2026",
+   "fresh": "undated"
+  },
+  {
+   "company": "Sun Pharma",
+   "use": "AI sales analytics assistant [OpenAI, Autogen]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.goml.io/case-study/ai-sales-analytics-agents-autogen-openai",
+   "raw_sector": "",
+   "date": "Jun 23, 2025",
+   "fresh": "undated"
   }
  ]
 }

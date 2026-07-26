@@ -3,27 +3,27 @@
  "name": "Amgen",
  "cc": "US",
  "vertical": "Healthcare & Life Sciences",
- "deployments": 11,
- "confirmed": 11,
+ "deployments": 15,
+ "confirmed": 15,
  "with_value_number": 5,
- "proof_rate": 0.455,
+ "proof_rate": 0.333,
  "mktcap": 198260000000.0,
  "revenue": 37220000000.0,
  "employees": 31500.0,
  "silent": false,
- "per_bn_revenue": 0.3,
- "per_10k_emp": 3.49,
+ "per_bn_revenue": 0.4,
+ "per_10k_emp": 4.76,
  "benchmarks": {
   "global_vertical": {
-   "deployments": 97,
+   "deployments": 95,
    "confirmed": 99,
-   "proof_rate": 74,
-   "n": 165
+   "proof_rate": 65,
+   "n": 168
   },
   "country_vertical": {
-   "deployments": 91,
+   "deployments": 90,
    "confirmed": 98,
-   "proof_rate": 78,
+   "proof_rate": 67,
    "n": 59
   }
  },
@@ -47,10 +47,10 @@
   },
   {
    "year": 2025,
-   "n": 6
+   "n": 9
   }
  ],
- "undated_pct": 0,
+ "undated_pct": 7,
  "momentum": "early_mover,rising",
  "maturity": "L4",
  "maturity_evidence": [
@@ -59,12 +59,37 @@
   "value_number",
   "multi_year"
  ],
- "prospect_score": 82,
+ "prospect_score": 87,
  "stack": [
-  "NVIDIA"
+  "Amazon AWS",
+  "Microsoft",
+  "NVIDIA",
+  "OpenAI"
  ],
  "vendor_named": true,
  "deployments_detail": [
+  {
+   "company": "Amgen",
+   "use": "AI for drug discovery and protein design [NVIDIA]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.amgen.com/science/research-and-development-strategy/ai-in-research-and-development",
+   "raw_sector": "",
+   "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "Amgen",
+   "use": "Clinical trial optimization using AI",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.amgen.com/stories/2025/05/on-the-global-stage-amgens-top-voices-drive-conversations-on-ai-and-innovation",
+   "raw_sector": "",
+   "date": "2025-05-21",
+   "fresh": "fresh"
+  },
   {
    "company": "Amgen",
    "use": "Named AI platforms: ATOMIC (ML for clinical trial optimization/site selection) + AMPLIFY protein language model for protein engineering; NVIDIA BioNeMo",
@@ -74,6 +99,28 @@
    "url": "https://www.amgen.com/stories/2025/04/follow-the-data",
    "raw_sector": "Health Care",
    "date": "2025",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Amgen",
+   "use": "Generative AI tools for employee productivity and innovation",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.amgen.com/stories/2025/08/generative-ai-tools-support-amgens-mission-to-serve-patients",
+   "raw_sector": "",
+   "date": "2025-08-07",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Amgen",
+   "use": "AI agent for benefit verification and patient access [Infinitus Systems, Inc.]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.amgen.com/stories/2025/11/how-amgen-uses-ai-to-support-patient-access-and-reimbursement",
+   "raw_sector": "",
+   "date": "2025-11-18",
    "fresh": "fresh"
   },
   {

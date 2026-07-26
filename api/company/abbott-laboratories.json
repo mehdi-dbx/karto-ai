@@ -3,47 +3,72 @@
  "name": "Abbott Laboratories",
  "cc": "US",
  "vertical": "Healthcare & Life Sciences",
- "deployments": 1,
- "confirmed": 1,
- "with_value_number": 0,
- "proof_rate": 0.0,
+ "deployments": 10,
+ "confirmed": 8,
+ "with_value_number": 4,
+ "proof_rate": 0.4,
  "mktcap": 174740000000.0,
  "revenue": 46590000000.0,
  "employees": 115000.0,
  "silent": false,
- "per_bn_revenue": 0.02,
- "per_10k_emp": 0.09,
+ "per_bn_revenue": 0.21,
+ "per_10k_emp": 0.87,
  "benchmarks": {
   "global_vertical": {
-   "deployments": 0,
-   "confirmed": 13,
-   "proof_rate": 0,
-   "n": 165
+   "deployments": 69,
+   "confirmed": 73,
+   "proof_rate": 75,
+   "n": 168
   },
   "country_vertical": {
-   "deployments": 0,
-   "confirmed": 7,
-   "proof_rate": 0,
+   "deployments": 62,
+   "confirmed": 62,
+   "proof_rate": 78,
    "n": 59
   }
  },
- "first_seen": 2026,
+ "first_seen": 2019,
  "by_year": [
   {
-   "year": 2026,
+   "year": 2019,
    "n": 1
+  },
+  {
+   "year": 2022,
+   "n": 1
+  },
+  {
+   "year": 2023,
+   "n": 2
+  },
+  {
+   "year": 2024,
+   "n": 1
+  },
+  {
+   "year": 2025,
+   "n": 2
+  },
+  {
+   "year": 2026,
+   "n": 2
   }
  ],
- "undated_pct": 0,
- "momentum": "late_entrant,rising",
- "maturity": "L3",
+ "undated_pct": 10,
+ "momentum": "early_mover,rising",
+ "maturity": "L4",
  "maturity_evidence": [
+  "multi_horizontal",
   "named_product:Ultreon",
+  "value_number",
+  "multi_year",
   "tier_p"
  ],
- "prospect_score": 54,
- "stack": [],
- "vendor_named": false,
+ "prospect_score": 72,
+ "stack": [
+  "Cohere"
+ ],
+ "vendor_named": true,
  "deployments_detail": [
   {
    "company": "Abbott Laboratories",
@@ -54,6 +79,105 @@
    "url": "https://abbott.mediaroom.com/2026-04-28-Abbott-receives-FDA-clearance-and-CE-Mark-for-next-generation-Ultreon-TM-3-0-AI-powered-coronary-imaging-platform",
    "raw_sector": "Health Care",
    "date": "2026-04",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Abbott Laboratories",
+   "use": "Ultreon Software AI-powered coronary OCT imaging: analyzes optical coherence tomography images in real time to detect calcium, assess plaque type, and guide stent sizing/placement during PCI procedures. Ultreon 1.0 FDA-cleared Aug 2021; next-gen Ultreon 3.0 received FDA clearance and CE Mark Apr 28 2026. [Abbott (proprietary)]",
+   "existence": "confirmed",
+   "value": "1-second OCT pullback; ~600,000 annual PCI procedures in US, 885,000+ in Europe",
+   "tier": "",
+   "url": "https://abbott.mediaroom.com/2026-04-28-Abbott-receives-FDA-clearance-and-CE-Mark-for-next-generation-Ultreon-TM-3-0-AI-powered-coronary-imaging-platform",
+   "raw_sector": "",
+   "date": "2026-04-28",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Abbott Laboratories",
+   "use": "Assert-IQ Insertable Cardiac Monitor uses AI/advanced algorithms to detect and classify atrial fibrillation and Pause episodes with fewer false positives, reducing clinician data review burden. FDA-cleared long-term (up to 6-year) implantable monitor. [Abbott (proprietary)]",
+   "existence": "confirmed",
+   "value": "Reduces false detections by 98.7% for AF and Pause while maintaining 97.7% of true EGMs",
+   "tier": "",
+   "url": "https://abbott.mediaroom.com/2023-05-18-Abbott-Receives-FDA-Clearance-for-Assert-IQ-TM-Insertable-Cardiac-Monitor-to-Help-Doctors-Monitor-Peoples-Heart-Rhythms-Long-Term",
+   "raw_sector": "",
+   "date": "2023-05-18",
+   "fresh": "stale"
+  },
+  {
+   "company": "Abbott Laboratories",
+   "use": "AlinIQ Clinical Decision Support (CDS), powered by RippleDown, applies AI to analyze large volumes of lab data and auto-generate/interpret clinical reports; deployed with Redcliffe Labs (Abbott India) for AI-based clinical reporting. [Abbott AlinIQ / RippleDown]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://health.economictimes.indiatimes.com/amp/news/diagnostics/redcliffe-labs-partners-with-abbott-to-launch-ai-based-clinical-reporting/102553705",
+   "raw_sector": "",
+   "date": "2023-08-09",
+   "fresh": "stale"
+  },
+  {
+   "company": "Abbott Laboratories",
+   "use": "Lingo consumer continuous glucose biosensor with companion app providing AI-driven, personalized real-time metabolic insights and coaching to help users build habits. FDA-cleared OTC CGM launched in the US. [Abbott (proprietary)]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://abbott.mediaroom.com/2024-09-05-Abbotts-Lingo-TM-Continuous-Glucose-Monitor-for-Health-and-Wellness-Now-Available-in-the-U-S",
+   "raw_sector": "",
+   "date": "2024-09-05",
+   "fresh": "aging"
+  },
+  {
+   "company": "Abbott Laboratories",
+   "use": "Machine-learning myocardial ischemic injury index algorithm to individualize heart-attack diagnosis from high-sensitivity troponin measurements; presented as outperforming the European Society of Cardiology rule-out pathway. [Abbott (proprietary)]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://abbott.mediaroom.com/2019-09-10-Abbott-Announces-New-Data-That-Shows-Artificial-Intelligence-Technology-Can-Help-Doctors-Better-Determine-Which-Patients-are-Having-a-Heart-Attack",
+   "raw_sector": "",
+   "date": "2019-09-10",
+   "fresh": "stale"
+  },
+  {
+   "company": "Abbott Laboratories",
+   "use": "EnSite X 3D cardiac mapping system with automated algorithms and Lesion Index (multiparametric algorithm combining contact force, RF time and current) on the TactiCath Sensor Enabled ablation catheter to guide real-time cardiac ablation for arrhythmias. [Abbott (proprietary)]",
+   "existence": "confirmed",
+   "value": "Can map 1 million points in the heart",
+   "tier": "",
+   "url": "https://www.prnewswire.com/news-releases/abbott-receives-us-fda-clearance-for-new-cardiac-mapping-system-to-improve-how-doctors-treat-abnormal-heart-rhythms-301457983.html",
+   "raw_sector": "",
+   "date": "2022-01-12",
+   "fresh": "stale"
+  },
+  {
+   "company": "Abbott Laboratories",
+   "use": "LibreView diabetes data management platform integrated into Epic EHRs to deliver real-time glucose analytics from FreeStyle Libre CGM data to clinicians at the point of care. [Abbott / Epic Systems]",
+   "existence": "confirmed",
+   "value": "Over half a million US clinicians",
+   "tier": "",
+   "url": "https://www.imd.org/entity-profile/abbott-laboratories-ai-maturity-2025/",
+   "raw_sector": "",
+   "date": "2025-01-01",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Abbott Laboratories",
+   "use": "AlinIQ Always On predictive diagnostics service: machine learning analyzes real-time sensor data from Abbott lab instruments to predict equipment malfunctions weeks in advance and enable proactive maintenance, minimizing lab downtime. [Abbott (proprietary)]",
+   "existence": "confirmed",
+   "value": "Analyzed over 5 billion records; 99% uptime guarantee; up to 70% greater productivity",
+   "tier": "",
+   "url": "https://www.corelaboratory.abbott/us/en/offerings/brands/aliniq/aliniq-always-on.html",
+   "raw_sector": "",
+   "date": "none",
+   "fresh": "undated"
+  },
+  {
+   "company": "Abbott Laboratories",
+   "use": "Internal enterprise AI: machine-learning models for quality-risk prediction in operations/manufacturing, plus generative-AI training courses offered to employees, under a Responsible AI framework and Data Use & Ethics Board. [none]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.imd.org/entity-profile/abbott-laboratories-ai-maturity-2025/",
+   "raw_sector": "",
+   "date": "2025-01-01",
    "fresh": "fresh"
   }
  ]

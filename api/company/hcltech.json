@@ -3,28 +3,28 @@
  "name": "HCLTech",
  "cc": "IN",
  "vertical": "Technology",
- "deployments": 1,
- "confirmed": 1,
+ "deployments": 4,
+ "confirmed": 3,
  "with_value_number": 0,
  "proof_rate": 0.0,
  "mktcap": 40602409639.0,
  "revenue": 16867469880.0,
  "employees": 168977.0,
  "silent": false,
- "per_bn_revenue": 0.06,
- "per_10k_emp": 0.06,
+ "per_bn_revenue": 0.24,
+ "per_10k_emp": 0.24,
  "benchmarks": {
   "global_vertical": {
-   "deployments": 0,
-   "confirmed": 6,
+   "deployments": 15,
+   "confirmed": 27,
    "proof_rate": 0,
-   "n": 156
+   "n": 159
   },
   "country_vertical": {
-   "deployments": 0,
-   "confirmed": 0,
+   "deployments": 17,
+   "confirmed": 33,
    "proof_rate": 0,
-   "n": 6
+   "n": 7
   }
  },
  "first_seen": null,
@@ -33,12 +33,15 @@
  "momentum": "none",
  "maturity": "L3",
  "maturity_evidence": [
+  "multi_horizontal",
   "named_product:AI Force",
   "tier_p"
  ],
- "prospect_score": 54,
- "stack": [],
- "vendor_named": false,
+ "prospect_score": 58,
+ "stack": [
+  "OpenAI"
+ ],
+ "vendor_named": true,
  "deployments_detail": [
   {
    "company": "HCLTech",
@@ -49,6 +52,39 @@
    "url": "https://techcircle.in/hcltech-ai-force-2",
    "raw_sector": "Information Technology",
    "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "HCLTech",
+   "use": "GenAI and Agentic AI Automation Platform",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.hcltech.com/ai-force",
+   "raw_sector": "",
+   "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "HCLTech",
+   "use": "Internal employee empowerment with enterprise-grade generative AI tools [OpenAI ChatGPT Enterprise, OpenAI APIs]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.hcltech.com/press-releases/hcltech-and-openai-collaborate-drive-enterprise-scale-ai-adoption",
+   "raw_sector": "",
+   "date": "Jun 30, 2025",
+   "fresh": "undated"
+  },
+  {
+   "company": "HCLTech",
+   "use": "FraudShield - Agentic AI for financial fraud investigation and real-time transaction analysis",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.hcltech.com/blogs/fraudshield-redefining-financial-fraud-investigation-with-agentic-ai",
+   "raw_sector": "",
+   "date": "Jan 8, 2026",
    "fresh": "undated"
   }
  ]

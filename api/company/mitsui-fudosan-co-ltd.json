@@ -3,47 +3,68 @@
  "name": "Mitsui Fudosan Co., Ltd",
  "cc": "JP",
  "vertical": "Real Estate & Construction",
- "deployments": 1,
- "confirmed": 1,
- "with_value_number": 1,
- "proof_rate": 1.0,
+ "deployments": 12,
+ "confirmed": 12,
+ "with_value_number": 9,
+ "proof_rate": 0.75,
  "mktcap": 27800000000.0,
  "revenue": 18066666667.0,
  "employees": 27704.0,
  "silent": false,
- "per_bn_revenue": 0.06,
- "per_10k_emp": 0.36,
+ "per_bn_revenue": 0.66,
+ "per_10k_emp": 4.33,
  "benchmarks": {
   "global_vertical": {
-   "deployments": 0,
-   "confirmed": 31,
-   "proof_rate": 71,
+   "deployments": 96,
+   "confirmed": 99,
+   "proof_rate": 95,
    "n": 154
   },
   "country_vertical": {
-   "deployments": 0,
-   "confirmed": 0,
-   "proof_rate": 64,
+   "deployments": 93,
+   "confirmed": 100,
+   "proof_rate": 100,
    "n": 15
   }
  },
- "first_seen": 2025,
+ "first_seen": 2019,
  "by_year": [
   {
-   "year": 2025,
+   "year": 2019,
    "n": 1
+  },
+  {
+   "year": 2021,
+   "n": 1
+  },
+  {
+   "year": 2023,
+   "n": 1
+  },
+  {
+   "year": 2025,
+   "n": 7
+  },
+  {
+   "year": 2026,
+   "n": 2
   }
  ],
  "undated_pct": 0,
- "momentum": "rising",
- "maturity": "L3",
+ "momentum": "early_mover,rising",
+ "maturity": "L4",
  "maturity_evidence": [
+  "multi_horizontal",
   "named_product:CEO",
   "value_number",
+  "multi_year",
   "tier_p"
  ],
- "prospect_score": 6,
+ "prospect_score": 70,
  "stack": [
+  "Microsoft",
+  "Microsoft Azure",
+  "NVIDIA",
   "OpenAI"
  ],
  "vendor_named": true,
@@ -57,6 +78,127 @@
    "url": "https://www.mitsuifudosan.co.jp/corporate/news/2025/1223/",
    "raw_sector": "Real Estate",
    "date": "2025-10",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Mitsui Fudosan Co., Ltd",
+   "use": "'社長AIエージェント' (CEO AI Agent) — a proprietary AI agent developed in-house that reflects the president's strategic perspective/thinking, rolled out for company-wide trial use for employees to 'spar' ideas against management thinking. [Mitsui Fudosan in-house (on ChatGPT Enterprise / Azure)]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://ledge.ai/articles/mitsuifudosan_ceo_ai_agent_chatgpt_enterprise",
+   "raw_sector": "",
+   "date": "2025-12-23",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Mitsui Fudosan Co., Ltd",
+   "use": "'OPTiM AI Camera for Office Building' deployed in Mitsui Fudosan office buildings to visualize user counts and congestion via camera image analysis on an NVIDIA GPU deep-learning platform (integrated with support from Macnica); image-analysis system built in ~2 months. [OPTiM; NVIDIA GPU; Macnica]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.macnica.co.jp/en/business/ai/case/142104/",
+   "raw_sector": "",
+   "date": "2021-01-01",
+   "fresh": "stale"
+  },
+  {
+   "company": "Mitsui Fudosan Co., Ltd",
+   "use": "'Rehouse AI Assessment' — AI system jointly developed with ExaWizards for Mitsui Fudosan Realty that instantly calculates estimated contract prices for individually owned condominiums using AI, presenting appraisal estimates to customers. [ExaWizards + Mitsui Fudosan Realty]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://exawizards.com/en/archives/8786/",
+   "raw_sector": "",
+   "date": "2019-12-16",
+   "fresh": "stale"
+  },
+  {
+   "company": "Mitsui Fudosan Co., Ltd",
+   "use": "'YOMEL' automatic meeting-minutes AI deployed at Mitsui Fudosan Realty to auto-generate minutes and cut post-negotiation data-entry work, reducing minutes-creation work by ~50% to free up sales staff for core selling activities. [PKSHA group (YOMEL)]",
+   "existence": "confirmed",
+   "value": "~50% reduction in minutes-creation work",
+   "tier": "",
+   "url": "https://prtimes.jp/main/html/rd/p/000000215.000022705.html",
+   "raw_sector": "",
+   "date": "2025-08-29",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Mitsui Fudosan Co., Ltd",
+   "use": "Deployed OpenAI ChatGPT Enterprise company-wide to all ~2,000 employees from Oct 1, 2025 for summarization, translation, document/email drafting and code generation; targeting 10%+ reduction in work time. Built on Microsoft Azure infrastructure with 150 AI Promotion Leaders across 85 divisions. [OpenAI (ChatGPT Enterprise); Microsoft Azure]",
+   "existence": "confirmed",
+   "value": "~2,000 employees; target 10%+ work-time reduction",
+   "tier": "",
+   "url": "https://www.mitsuifudosan.co.jp/corporate/news/2025/1223/",
+   "raw_sector": "",
+   "date": "2025-10-01",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Mitsui Fudosan Co., Ltd",
+   "use": "Custom GPTs / no-code internal assistant tools built by employees on the ChatGPT Enterprise platform; ~500 operational instances as of Dec 23, 2025 used across departments for task-specific assistance. [OpenAI (Custom GPT)]",
+   "existence": "confirmed",
+   "value": "~500 custom assistants in operation",
+   "tier": "",
+   "url": "https://webtan.impress.co.jp/n/2025/12/25/51939",
+   "raw_sector": "",
+   "date": "2025-12-23",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Mitsui Fudosan Co., Ltd",
+   "use": "'本部長AI / DX本部長AIエージェント' — an AI agent reproducing the DX division head's persona, thinking and division plans; operational in the DX division since Oct 2025 with six modes (advisory, document review, etc.), reducing document revision time ~30%. [Mitsui Fudosan in-house]",
+   "existence": "confirmed",
+   "value": "~30% reduction in document revision time",
+   "tier": "",
+   "url": "https://www.nikkei.com/article/DGXZQOUC318WW0R30C26A3000000/",
+   "raw_sector": "",
+   "date": "2025-10-01",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Mitsui Fudosan Co., Ltd",
+   "use": "'&Chat (アンドチャット)' — proprietary company-specific generative-AI chat tool developed in-house and rolled out to all ~2,500 employees from Aug 2023 for internal document/knowledge tasks; Mitsui Fudosan's first company-wide generative AI deployment. [Mitsui Fudosan in-house (generative AI)]",
+   "existence": "confirmed",
+   "value": "~2,500 employees",
+   "tier": "",
+   "url": "https://www.mitsuifudosan.co.jp/corporate/news/2023/1010/",
+   "raw_sector": "",
+   "date": "2023-08-01",
+   "fresh": "stale"
+  },
+  {
+   "company": "Mitsui Fudosan Co., Ltd",
+   "use": "RAG-based inquiry-handling AI deployed at Mitsui Fudosan Building Management to answer building-management inquiries across the group; projected to cut ~4,080 hours of inquiry handling annually, winning the company president's award. [PKSHA Technology (PKSHA RAG)]",
+   "existence": "confirmed",
+   "value": "~4,080 hours/year inquiry reduction projected",
+   "tier": "",
+   "url": "https://aisaas.pkshatech.com/success/mitsuifudosan_mitsuifudosan-buildingmanagement/?hs_amp=true",
+   "raw_sector": "",
+   "date": "2025-06-27",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Mitsui Fudosan Co., Ltd",
+   "use": "'対話型スライド生成AI' (interactive slide-generation AI) developed jointly with ENIAQ and deployed company-wide; generates PowerPoint (.pptx) from text/PDF and refines via natural-language dialogue, saving an average of 44 minutes per document. [ENIAQ Inc. (University of Tokyo startup) + Mitsui Fudosan]",
+   "existence": "confirmed",
+   "value": "~44 minutes saved per document (avg)",
+   "tier": "",
+   "url": "https://www.eniaq.jp/news/20260122-mitsuifudosan/",
+   "raw_sector": "",
+   "date": "2026-02-05",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Mitsui Fudosan Co., Ltd",
+   "use": "'PKSHA AI ヘルプデスク' AI-agent helpdesk introduced at Mitsui Fudosan Realty to handle internal inquiries; FAQ instant answers plus document-reading generative responses, streamlining ~3,000 internal inquiries per month; verification started for expanding to more departments. [PKSHA Technology (PKSHA AI Helpdesk)]",
+   "existence": "confirmed",
+   "value": "~3,000 internal inquiries/month",
+   "tier": "",
+   "url": "https://www.pkshatech.com/news/20260113/",
+   "raw_sector": "",
+   "date": "2026-01-13",
    "fresh": "fresh"
   }
  ]

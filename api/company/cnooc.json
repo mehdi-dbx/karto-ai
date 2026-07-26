@@ -3,27 +3,27 @@
  "name": "CNOOC",
  "cc": "HK",
  "vertical": "Energy & Utilities",
- "deployments": 2,
- "confirmed": 2,
+ "deployments": 7,
+ "confirmed": 6,
  "with_value_number": 2,
- "proof_rate": 1.0,
+ "proof_rate": 0.286,
  "mktcap": 152564102564.0,
  "revenue": 59375641026.0,
  "employees": 22045.0,
  "silent": false,
- "per_bn_revenue": 0.03,
- "per_10k_emp": 0.91,
+ "per_bn_revenue": 0.12,
+ "per_10k_emp": 3.18,
  "benchmarks": {
   "global_vertical": {
    "deployments": 72,
    "confirmed": 78,
-   "proof_rate": 75,
-   "n": 210
+   "proof_rate": 65,
+   "n": 213
   },
   "country_vertical": {
-   "deployments": 43,
-   "confirmed": 43,
-   "proof_rate": 71,
+   "deployments": 57,
+   "confirmed": 57,
+   "proof_rate": 57,
    "n": 8
   }
  },
@@ -31,23 +31,28 @@
  "by_year": [
   {
    "year": 2024,
-   "n": 1
+   "n": 2
   },
   {
    "year": 2025,
-   "n": 1
+   "n": 3
+  },
+  {
+   "year": 2026,
+   "n": 2
   }
  ],
  "undated_pct": 0,
- "momentum": "early_mover,flat",
+ "momentum": "early_mover,rising",
  "maturity": "L4",
  "maturity_evidence": [
+  "multi_horizontal",
   "named_product:Haineng",
   "value_number",
   "multi_year",
   "tier_p"
  ],
- "prospect_score": 20,
+ "prospect_score": 73,
  "stack": [],
  "vendor_named": false,
  "deployments_detail": [
@@ -71,6 +76,61 @@
    "url": "https://cenertech.cnooc.com.cn/xwzx/gsdt/202508/t20250805_116983.html",
    "raw_sector": "Energy",
    "date": "2025-07",
+   "fresh": "fresh"
+  },
+  {
+   "company": "CNOOC",
+   "use": "Intelligent offshore drilling navigation system",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.syzt.com.cn/en/article/doi/10.11911/syztjs.2025072",
+   "raw_sector": "",
+   "date": "2025",
+   "fresh": "fresh"
+  },
+  {
+   "company": "CNOOC",
+   "use": "AI solution for digitalizing offshore operations",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.upstreamonline.com/production/cnooc-launches-ai-solution-in-move-to-digitalise-offshore-operations/2-1-1724216",
+   "raw_sector": "",
+   "date": "2024-10-16",
+   "fresh": "aging"
+  },
+  {
+   "company": "CNOOC",
+   "use": "HAI Innovation system for identifying oil leak sources and monitoring well production [HAI Innovation]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.bnamericas.com/en/features/energy-companies-in-latin-america-deepen-ai-adoption",
+   "raw_sector": "",
+   "date": "2026-02-06",
+   "fresh": "fresh"
+  },
+  {
+   "company": "CNOOC",
+   "use": "AI deployment at basin-wide scale across Tarim Basin, Bohai Bay, and South China Sea operations",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://ifactoryapp.com/industries/oil-and-gas/top-10-countries-leading-ai-adoption-in-oil-and-gas",
+   "raw_sector": "",
+   "date": "2026-05-26",
+   "fresh": "fresh"
+  },
+  {
+   "company": "CNOOC",
+   "use": "Intelligent procurement system using CodeArts for procurement execution and warehousing logistics management [Huawei CodeArts]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://e.huawei.com/en/case-studies/industries/oil-gas/2025-cnooc",
+   "raw_sector": "",
+   "date": "2025",
    "fresh": "fresh"
   }
  ]

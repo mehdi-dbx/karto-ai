@@ -3,35 +3,56 @@
  "name": "Vonovia",
  "cc": "DE",
  "vertical": "Real Estate & Construction",
- "deployments": 1,
- "confirmed": 0,
- "with_value_number": 0,
- "proof_rate": 0.0,
+ "deployments": 9,
+ "confirmed": 4,
+ "with_value_number": 2,
+ "proof_rate": 0.222,
  "mktcap": 19094400000.0,
  "revenue": 6415200000.0,
  "employees": 12898.0,
  "silent": false,
- "per_bn_revenue": 0.16,
- "per_10k_emp": 0.78,
+ "per_bn_revenue": 1.4,
+ "per_10k_emp": 6.98,
  "benchmarks": {
   "global_vertical": {
-   "deployments": 0,
-   "confirmed": 0,
-   "proof_rate": 0,
+   "deployments": 80,
+   "confirmed": 64,
+   "proof_rate": 56,
    "n": 154
   }
  },
- "first_seen": null,
- "by_year": [],
- "undated_pct": 100,
- "momentum": "none",
- "maturity": "L1",
- "maturity_evidence": [
-  "rows_no_confirmed"
+ "first_seen": 2020,
+ "by_year": [
+  {
+   "year": 2020,
+   "n": 1
+  },
+  {
+   "year": 2021,
+   "n": 1
+  },
+  {
+   "year": 2023,
+   "n": 4
+  },
+  {
+   "year": 2025,
+   "n": 2
+  }
  ],
- "prospect_score": 40,
- "stack": [],
- "vendor_named": false,
+ "undated_pct": 11,
+ "momentum": "early_mover,cooling",
+ "maturity": "L3",
+ "maturity_evidence": [
+  "multi_horizontal",
+  "named_product:IoT",
+  "multi_year"
+ ],
+ "prospect_score": 55,
+ "stack": [
+  "Microsoft Azure"
+ ],
+ "vendor_named": true,
  "deployments_detail": [
   {
    "company": "Vonovia",
@@ -43,6 +64,94 @@
    "raw_sector": "Real Estate",
    "date": "missing",
    "fresh": "undated"
+  },
+  {
+   "company": "Vonovia",
+   "use": "AI + IoT predictive maintenance for elevators: connected elevators stream sensor/status data to a central diagnostics and remote-monitoring platform; AI analyzes the data for early fault detection to reduce outages and avoid costly emergency repairs. Explicitly stated as operational, with plans to extend the same technology to heating systems. [Vonovia in-house diagnostics/monitoring platform (IoT + AI)]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://reports.vonovia.de/2020/nachhaltigkeitsbericht/unternehmensfuehrung/digitalisierung-von-prozessen.html",
+   "raw_sector": "",
+   "date": "2020",
+   "fresh": "stale"
+  },
+  {
+   "company": "Vonovia",
+   "use": "Digital remote monitoring / diagnostics platform for elevators that makes downtime and technical status visible at any time to prevent malfunctions (production rollout announcement building on the earlier predictive-maintenance work). [Vonovia (in-house platform)]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.vonovia.com/en/press/press-releases/2023/vonovia-prevents-elevator-malfunctions-with-digital-re-mote-monitoring",
+   "raw_sector": "",
+   "date": "2023-08-31",
+   "fresh": "stale"
+  },
+  {
+   "company": "Vonovia",
+   "use": "Self-learning (AI) energy management system for a 1,400-apartment neighborhood (Bochum-Weitmar) that decides in real time where locally generated energy should go — EV charging stations, household electricity, or heating — integrating PV, heat pumps, fuel cells and hydrogen production. Under construction / research deployment. [Vonovia with Fraunhofer Society; €6.2m NRW state funding]",
+   "existence": "claimed",
+   "value": "1,400 apartments; €6.2m funding",
+   "tier": "",
+   "url": "https://www.eqs-news.com/news/corporate/vonovia-se-striking-a-good-social-balance-between-affordable-housing-and-climate-protection-vonovia-invests-in-new-construction-and-co2-savings-with-moderate-rent-growth-news-with-additional-fea/4ec7e051-2205-430c-bdd6-3f3f462ed324",
+   "raw_sector": "",
+   "date": "2023",
+   "fresh": "stale"
+  },
+  {
+   "company": "Vonovia",
+   "use": "Vonovia Proptech venture studio exploring and building companies applying frontier tech — generative AI, digital twins, material science — to affordable/climate-neutral housing; portfolio includes 'Built AI' (AI-enabled analysis & valuation for real estate). [Founders Factory (Vonovia Proptech Studio partnership)]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://foundersfactory.com/vonovia-proptech-studio/",
+   "raw_sector": "",
+   "date": "2023",
+   "fresh": "stale"
+  },
+  {
+   "company": "Vonovia",
+   "use": "AI solution for transfer-pricing (TP) compliance documentation: automates the manual, repetitive TP documentation process using classical + AI technologies on a modular platform operated inside Vonovia's IT infrastructure. Moved from proof-of-concept into implementation/production. [KPMG (innovation partnership); runs in Vonovia IT infrastructure (Azure-based approach referenced)]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.taxandbytes.de/360/ttc24-koenigsdisziplin-statt-chatbots-ki-revolutioniert-bei-vonovia-die-transfer-pricing-dokumentation",
+   "raw_sector": "",
+   "date": "2025-01-30",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Vonovia",
+   "use": "Service chat with an AI assistant (KI-Assistent) in the 'Mein Vonovia' tenant app, handling customer-service interactions (contracts, messages, documents, damage reports) for tenants. Listed as a live channel on Vonovia's official customer-service page. [Vonovia 'Mein Vonovia' app (app built with Appsfactory)]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.vonovia.de/en/mein-zuhause/customer-service",
+   "raw_sector": "",
+   "date": "2025",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Vonovia",
+   "use": "'Image Insight' computer-vision project to recognize damages/appliances in tenants' damage reports to minimize delays and enhance customer support. Because no labeled/scrapable data was permitted, NILG.AI used generative AI to create synthetic training data (appliance pictures and tenant complaint emails). [NILG.AI (computer vision + generative AI for synthetic data)]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://nilg.ai/en_us/202310/nilg-ai-success-hodcon-2023/",
+   "raw_sector": "",
+   "date": "2023-10-09",
+   "fresh": "stale"
+  },
+  {
+   "company": "Vonovia",
+   "use": "'Flat-Finder' AI recommender system that matches prospective tenants to Vonovia's residential units based on personal preferences (KI-gestützte individuelle Wohnungsvorschläge). Built as a challenge/pilot recommender over ~400,000 units across DE/SE/AT; presented as a Vonovia innovation product. [NILG.AI (recommender system built via DataHub Ruhr open-innovation collaboration)]",
+   "existence": "claimed",
+   "value": "~400,000 residential units in scope",
+   "tier": "",
+   "url": "https://nilg.ai/202107/nilg-ai-among-winners-of-the-datahub-ruhr-open-innovation-call/",
+   "raw_sector": "",
+   "date": "2021-07",
+   "fresh": "stale"
   }
  ]
 }

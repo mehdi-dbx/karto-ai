@@ -3,27 +3,27 @@
  "name": "Linde plc",
  "cc": "US",
  "vertical": "Chemicals & Materials",
- "deployments": 1,
- "confirmed": 1,
- "with_value_number": 1,
- "proof_rate": 1.0,
+ "deployments": 4,
+ "confirmed": 3,
+ "with_value_number": 2,
+ "proof_rate": 0.5,
  "mktcap": 234180000000.0,
  "revenue": 34660000000.0,
  "employees": 65177.0,
  "silent": false,
- "per_bn_revenue": 0.03,
- "per_10k_emp": 0.15,
+ "per_bn_revenue": 0.12,
+ "per_10k_emp": 0.61,
  "benchmarks": {
   "global_vertical": {
-   "deployments": 0,
-   "confirmed": 19,
-   "proof_rate": 75,
-   "n": 105
+   "deployments": 29,
+   "confirmed": 42,
+   "proof_rate": 83,
+   "n": 107
   },
   "country_vertical": {
-   "deployments": 0,
-   "confirmed": 32,
-   "proof_rate": 92,
+   "deployments": 28,
+   "confirmed": 40,
+   "proof_rate": 96,
    "n": 26
   }
  },
@@ -36,9 +36,11 @@
   "named_product:Remote",
   "value_number"
  ],
- "prospect_score": 14,
- "stack": [],
- "vendor_named": false,
+ "prospect_score": 38,
+ "stack": [
+  "OpenAI"
+ ],
+ "vendor_named": true,
  "deployments_detail": [
   {
    "company": "Linde plc",
@@ -48,6 +50,39 @@
    "tier": "S",
    "url": "https://www.gasworld.com/story/ai-now-has-more-than-300-use-cases-says-linde-ceo/2167837.article/",
    "raw_sector": "Materials",
+   "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "Linde plc",
+   "use": "Productivity optimization and efficiency projects across operations",
+   "existence": "confirmed",
+   "value": "32%",
+   "tier": "",
+   "url": "https://www.gasworld.com/story/ai-delivered-a-third-of-lindes-productivity-gains-in-first-quarter/2155687.article/",
+   "raw_sector": "",
+   "date": "May 2, 2025",
+   "fresh": "undated"
+  },
+  {
+   "company": "Linde plc",
+   "use": "Real-time power optimization model for energy-intensive operations",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.gasworld.com/story/ai-delivered-a-third-of-lindes-productivity-gains-in-first-quarter/2155687.article/",
+   "raw_sector": "",
+   "date": "May 2, 2025",
+   "fresh": "undated"
+  },
+  {
+   "company": "Linde plc",
+   "use": "Linde Audit GPT - internal audit process automation with GenAI and LLMs [GenAI, LLMs]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://dainstudios.com/insights/case/unlocking-value-through-ai-at-linde/",
+   "raw_sector": "",
    "date": "missing",
    "fresh": "undated"
   }

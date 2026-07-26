@@ -3,27 +3,27 @@
  "name": "Kweichow Moutai",
  "cc": "CN",
  "vertical": "Retail & E-commerce",
- "deployments": 2,
- "confirmed": 2,
- "with_value_number": 0,
- "proof_rate": 0.0,
+ "deployments": 11,
+ "confirmed": 10,
+ "with_value_number": 5,
+ "proof_rate": 0.455,
  "mktcap": 225000000000.0,
  "revenue": 23909722222.0,
  "employees": 34992.0,
  "silent": false,
- "per_bn_revenue": 0.08,
- "per_10k_emp": 0.57,
+ "per_bn_revenue": 0.46,
+ "per_10k_emp": 3.14,
  "benchmarks": {
   "global_vertical": {
-   "deployments": 71,
-   "confirmed": 80,
-   "proof_rate": 0,
-   "n": 295
+   "deployments": 80,
+   "confirmed": 86,
+   "proof_rate": 77,
+   "n": 301
   },
   "country_vertical": {
-   "deployments": 83,
-   "confirmed": 83,
-   "proof_rate": 0,
+   "deployments": 94,
+   "confirmed": 94,
+   "proof_rate": 72,
    "n": 19
   }
  },
@@ -34,8 +34,16 @@
    "n": 1
   },
   {
+   "year": 2023,
+   "n": 3
+  },
+  {
    "year": 2025,
-   "n": 1
+   "n": 5
+  },
+  {
+   "year": 2026,
+   "n": 2
   }
  ],
  "undated_pct": 0,
@@ -44,12 +52,16 @@
  "maturity_evidence": [
   "multi_horizontal",
   "named_product:Machine",
+  "value_number",
   "multi_year",
   "tier_p"
  ],
- "prospect_score": 60,
- "stack": [],
- "vendor_named": false,
+ "prospect_score": 82,
+ "stack": [
+  "Alibaba Cloud",
+  "DeepSeek"
+ ],
+ "vendor_named": true,
  "deployments_detail": [
   {
    "company": "Kweichow Moutai",
@@ -64,6 +76,61 @@
   },
   {
    "company": "Kweichow Moutai",
+   "use": "Machine-learning brewing system that decodes traditional distilling ('experience black box'): using CatBoost and LightGBM decision-tree algorithms it built five process-evaluation models (grain soaking, steaming, spreading/cooling, stacking, in-pit fermentation) predicting 9 key indicators such as grain expansion rate and average steaming output. Deployed in Brewing Workshop 15 with 124 cameras and 186 wireless sensors collecting 15M+ data points/year. [In-house (CatBoost, LightGBM)]",
+   "existence": "confirmed",
+   "value": "Overall prediction accuracy 83.2%; grain expansion rate accuracy up to 97.6%; ~15M data points/year at 0.39% error rate",
+   "tier": "",
+   "url": "https://www.moutaichina.com/mtgf/2025-10/10/article_2025101009063173047.html",
+   "raw_sector": "",
+   "date": "2025-10-10",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Kweichow Moutai",
+   "use": "'DeepSeek + production management' mode: uses DeepSeek large model to perform real-time monitoring and analysis of brewing-workshop temperature, humidity and microbial data to assist and optimize production decisions. [DeepSeek]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.moutaichina.com/mtgf/2025-06/07/article_2025060700103863977.html",
+   "raw_sector": "",
+   "date": "2025-06-07",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Kweichow Moutai",
+   "use": "AI machine-vision defect inspection of Moutai glass liquor bottles on the production line: deep-learning visual inspection machines detecting bottle appearance/printing/label defects to replace manual quality inspection. [Keye Technology (科亿科技)]",
+   "existence": "confirmed",
+   "value": "Described as a 'super-million-yuan-level' benchmark project (10 glass-bottle inspection machines supplied)",
+   "tier": "",
+   "url": "https://www.keyetech.com/display.php?id=330",
+   "raw_sector": "",
+   "date": "2023-12-29",
+   "fresh": "stale"
+  },
+  {
+   "company": "Kweichow Moutai",
+   "use": "AI for brand marketing: launched a 'using DeepSeek and other AI large models to enhance brand influence' program; 'DeepSeek + new media' mode generates creative scripts for short-video content promoting Moutai culture. [DeepSeek]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.zgbjjt.com/sys-nd/406.html",
+   "raw_sector": "",
+   "date": "2025-05-07",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Kweichow Moutai",
+   "use": "i-Moutai app customer service: launched an 'AI intelligent assistance system' alongside expanded human agents to improve after-sales/customer-service response efficiency, addressing congested service channels amid 10M+ customer inquiries. [none]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://finance.sina.com.cn/roll/2026-02-02/doc-inhkmwpy7882179.shtml",
+   "raw_sector": "",
+   "date": "2026-02-02",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Kweichow Moutai",
    "use": "DeepSeek and SenseTime large-model training program for dealers and regional staff",
    "existence": "confirmed",
    "value": "none",
@@ -71,6 +138,50 @@
    "url": "https://www.moutai.com.cn/mtjt/2025-06/07/article_2025060700103885516.html",
    "raw_sector": "Consumer Staples",
    "date": "2025-05",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Kweichow Moutai",
+   "use": "Enterprise-wide DeepSeek adoption for smart office / back-office productivity, with hands-on employee training programs ('DeepSeek Empowering Efficient Smart Office') simulating real Moutai office scenarios, plus a 'DeepSeek + customer management' mode analyzing client needs for personalized service strategies. [DeepSeek]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.moutaichina.com/mtgf/2025-06/07/article_2025060700103863977.html",
+   "raw_sector": "",
+   "date": "2025-06-07",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Kweichow Moutai",
+   "use": "'Smart Moutai' liquor-warehouse security & safety AI (with Huawei): integrated security/fire-protection system in the core storage/blending-and-storage workshop using AI-based intelligent recognition and localization of anomalous events, turning passive alerting into proactive early warning. [Huawei (IoT, 5G, cloud, AI)]",
+   "existence": "confirmed",
+   "value": "5-second event identification, 10-second alert delivery; 23 storage buildings + 1 office building, 10,000+ integrated devices, 20+ business roles served",
+   "tier": "",
+   "url": "https://e.huawei.com/cn/case-studies/solutions/campus/2023-kweichow-moutai-intelligent-security",
+   "raw_sector": "",
+   "date": "2023-08-28",
+   "fresh": "stale"
+  },
+  {
+   "company": "Kweichow Moutai",
+   "use": "i-Moutai digital marketing platform risk-control system combining big data, AI, and business-strategy rules with the Moutai 'Tiangong' blockchain to build a multi-dimensional anti-scalping/fair-purchase risk framework for its ~100M-user flash-sale channel. [In-house (Tiangong blockchain, big data, AI)]",
+   "existence": "confirmed",
+   "value": "Tiangong chain single-day on-chain processing >1 billion records; concurrency >300,000/second",
+   "tier": "",
+   "url": "http://www.news.cn/enterprise/20230330/a3724123187a4bc187466af7c178ea9d/c.html",
+   "raw_sector": "",
+   "date": "2023-03-30",
+   "fresh": "stale"
+  },
+  {
+   "company": "Kweichow Moutai",
+   "use": "Alibaba Cloud won the i-Moutai public-cloud project, supplying computing, database/middleware, big data, network and large-model (大模型) resources to power the i-Moutai digital marketing platform (~96M registered users). [Alibaba Cloud (incl. large model / Tongyi resources)]",
+   "existence": "confirmed",
+   "value": "i-Moutai ~96M registered users",
+   "tier": "",
+   "url": "https://finance.sina.com.cn/stock/t/2026-06-15/doc-inicnpyv5071897.shtml",
+   "raw_sector": "",
+   "date": "2026-06-15",
    "fresh": "fresh"
   }
  ]

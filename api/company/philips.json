@@ -3,39 +3,58 @@
  "name": "Philips",
  "cc": "NL",
  "vertical": "Healthcare & Life Sciences",
- "deployments": 2,
- "confirmed": 2,
- "with_value_number": 0,
- "proof_rate": 0.0,
+ "deployments": 12,
+ "confirmed": 9,
+ "with_value_number": 7,
+ "proof_rate": 0.583,
  "mktcap": 24310800000.0,
  "revenue": 19051200000.0,
  "employees": 64317.0,
  "silent": false,
- "per_bn_revenue": 0.1,
- "per_10k_emp": 0.31,
+ "per_bn_revenue": 0.63,
+ "per_10k_emp": 1.87,
  "benchmarks": {
   "global_vertical": {
-   "deployments": 75,
-   "confirmed": 79,
-   "proof_rate": 0,
-   "n": 165
+   "deployments": 84,
+   "confirmed": 80,
+   "proof_rate": 91,
+   "n": 168
   }
  },
- "first_seen": 2024,
+ "first_seen": 2018,
  "by_year": [
   {
-   "year": 2024,
+   "year": 2018,
+   "n": 1
+  },
+  {
+   "year": 2023,
    "n": 2
+  },
+  {
+   "year": 2024,
+   "n": 5
+  },
+  {
+   "year": 2025,
+   "n": 3
+  },
+  {
+   "year": 2026,
+   "n": 1
   }
  ],
  "undated_pct": 0,
- "momentum": "early_mover,gone_quiet",
- "maturity": "L3",
+ "momentum": "early_mover,cooling",
+ "maturity": "L4",
  "maturity_evidence": [
+  "multi_horizontal",
   "named_product:SmartSpeed",
+  "value_number",
+  "multi_year",
   "tier_p"
  ],
- "prospect_score": 52,
+ "prospect_score": 71,
  "stack": [
   "Amazon AWS"
  ],
@@ -62,6 +81,116 @@
    "raw_sector": "Healthcare",
    "date": "2024",
    "fresh": "aging"
+  },
+  {
+   "company": "Philips",
+   "use": "AI Manager orchestration platform running Gleamer BoneView fracture-detection AI in production across Vestre Viken Health Trust's four hospital sites (Norway), integrated with Philips Vue PACS/RIS in a 24/7 radiology workflow [Philips AI Manager, Vue PACS, Gleamer BoneView]",
+   "existence": "confirmed",
+   "value": "594 days of waiting time saved and 3,100 physician hours freed across 74,000 patients examined; radiologist sensitivity rose from 93% to 98%",
+   "tier": "",
+   "url": "https://www.usa.philips.com/healthcare/customer-story/ai-radiology-workflow-vestre-viken-ris-pacs",
+   "raw_sector": "",
+   "date": "2023-11-20",
+   "fresh": "stale"
+  },
+  {
+   "company": "Philips",
+   "use": "SmartSpeed deep-learning MRI reconstruction (AI acceleration) in full clinical production at Kumamoto Chuo Hospital, used in all MRI examinations to cut scan times while improving resolution [Philips SmartSpeed (Dual AI deep learning reconstruction)]",
+   "existence": "confirmed",
+   "value": "Up to 65% higher resolution and 3x faster scans; hospital runs 7,000-8,000 MRI exams/year with SmartSpeed on all exams",
+   "tier": "",
+   "url": "https://www.usa.philips.com/healthcare/clinical-article/mri-smartspeed-enhancements",
+   "raw_sector": "",
+   "date": "2025-02-28",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Philips",
+   "use": "Transcend Plus cardiac ultrasound AI suite on EPIQ CVx and Affiniti CVx echocardiography systems, bundling FDA-cleared AI apps for automated ejection fraction, chamber quantification and image selection; deployed to select customers [Philips Transcend Plus (EPIQ CVx / Affiniti CVx)]",
+   "existence": "confirmed",
+   "value": "26 separate FDA-cleared AI applications integrated into the platform",
+   "tier": "",
+   "url": "https://www.fiercebiotech.com/medtech/philips-rolls-out-major-ai-upgrades-cardiac-ultrasound-platforms",
+   "raw_sector": "",
+   "date": "2025-08-27",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Philips",
+   "use": "CT 5300 scanner with in-house 'Precise' AI software suite (Precise Image deep-learning reconstruction) installed and in clinical use at European hospitals including St. Bernhard Hospital [Philips CT 5300, Precise Image AI reconstruction]",
+   "existence": "confirmed",
+   "value": "80% lower radiation dose, 85% lower noise, 60% improved image quality vs conventional reconstruction",
+   "tier": "",
+   "url": "https://www.usa.philips.com/a-w/about/news/archive/standard/news/press/2024/philips-optimizes-ct-workflows-with-in-house-ai-launches-ct-5300-in-north-america-at-rsna2024.html",
+   "raw_sector": "",
+   "date": "2024-12-01",
+   "fresh": "aging"
+  },
+  {
+   "company": "Philips",
+   "use": "HealthSuite Imaging cloud with generative-AI 'ambient/conversational reporting' letting radiologists dictate findings into structured reports; cloud platform in production with 150+ sites migrated, generative-AI reporting built on Amazon Bedrock foundation models [AWS (Amazon Bedrock), Philips HealthSuite Imaging]",
+   "existence": "claimed",
+   "value": "150+ sites migrated to cloud; estimated 15-20% reporting efficiency increase",
+   "tier": "",
+   "url": "https://www.usa.philips.com/a-w/about/news/archive/standard/news/press/2024/philips-and-aws-expand-strategic-collaboration-to-advance-healthsuite-cloud-services-and-power-generative-ai-workflows.html",
+   "raw_sector": "",
+   "date": "2024-11-26",
+   "fresh": "aging"
+  },
+  {
+   "company": "Philips",
+   "use": "eICU tele-ICU program using predictive analytics to remotely monitor ICU patients from centralized hubs; deployed with partner Advanced ICU Care powering nine virtual care hubs monitoring ~1,000 ICU beds [Philips eICU (predictive analytics)]",
+   "existence": "confirmed",
+   "value": "~1,000 ICU beds monitored across nine virtual care hubs; program monitors 10,000+ patients annually",
+   "tier": "",
+   "url": "https://www.usa.philips.com/a-w/about/news/archive/standard/news/press/2018/20180214-advanced-icu-care-extends-contract-with-philips-to-deliver-tele-icu-care-to-partner-hospitals-in-the-us.html",
+   "raw_sector": "",
+   "date": "2018-02-14",
+   "fresh": "stale"
+  },
+  {
+   "company": "Philips",
+   "use": "EchoNavigator R5.0 with DeviceGuide - AI software providing real-time device tracking during minimally invasive mitral valve repair by fusing live echo (EPIQ CVxi) and X-ray (Azurion) images; FDA 510(k) cleared [Philips EchoNavigator R5.0 / DeviceGuide (EPIQ CVxi, Azurion)]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.usa.philips.com/a-w/about/news/archive/standard/news/press/2026/fda-clears-philips-ai-solution-that-provides-real-time-guidance-during-complex-minimally-invasive-heart-valve-repair.html",
+   "raw_sector": "",
+   "date": "2026-03-26",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Philips",
+   "use": "Philips and AWS collaboration to scale cloud-based digital pathology, enabling labs to store/manage/analyze whole-slide images and apply AI for diagnostic productivity [AWS, Philips digital pathology (HealthSuite)]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.usa.philips.com/a-w/about/news/archive/standard/news/press/2024/philips-and-aws-collaborate-to-scale-digital-pathology-in-the-cloud-enhancing-diagnostic-capabilities-and-improving-productivity.html",
+   "raw_sector": "",
+   "date": "2024-03-12",
+   "fresh": "aging"
+  },
+  {
+   "company": "Philips",
+   "use": "HealthSuite Imaging PACS moved to the cloud on AWS, delivering AI-enabled diagnostic tools to clinicians as a managed cloud service; expanded to Europe in 2025 [AWS, Philips HealthSuite Imaging PACS]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.philips.com/a-w/about/news/archive/standard/news/press/2025/philips-expands-cloud-based-enterprise-imaging-services-to-europe-for-better-access-to-ai-enabled-workflows-and-innovation.html",
+   "raw_sector": "",
+   "date": "2025-02-27",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Philips",
+   "use": "AI ToolSuite - internal end-to-end MLOps platform for Philips healthcare R&D teams to build and deploy AI models, in production with users onboarded across several business units [AWS (Amazon SageMaker, Service Catalog, Lambda, ECR, CloudWatch)]",
+   "existence": "confirmed",
+   "value": "New ML environments provisioned in under an hour (vs several days); model training cut from weeks to 1-3 days",
+   "tier": "",
+   "url": "https://aws.amazon.com/blogs/machine-learning/philips-accelerates-development-of-ai-enabled-healthcare-solutions-with-an-mlops-platform-built-on-amazon-sagemaker/",
+   "raw_sector": "",
+   "date": "2023-11-16",
+   "fresh": "stale"
   }
  ]
 }

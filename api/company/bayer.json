@@ -3,48 +3,75 @@
  "name": "Bayer",
  "cc": "DE",
  "vertical": "Healthcare & Life Sciences",
- "deployments": 1,
- "confirmed": 1,
- "with_value_number": 1,
- "proof_rate": 1.0,
+ "deployments": 15,
+ "confirmed": 10,
+ "with_value_number": 7,
+ "proof_rate": 0.467,
  "mktcap": 49831200000.0,
  "revenue": 48859200000.0,
  "employees": 87757.0,
  "silent": false,
- "per_bn_revenue": 0.02,
- "per_10k_emp": 0.11,
+ "per_bn_revenue": 0.31,
+ "per_10k_emp": 1.71,
  "benchmarks": {
   "global_vertical": {
-   "deployments": 0,
-   "confirmed": 13,
-   "proof_rate": 83,
-   "n": 165
+   "deployments": 95,
+   "confirmed": 87,
+   "proof_rate": 81,
+   "n": 168
   },
   "country_vertical": {
-   "deployments": 0,
-   "confirmed": 0,
+   "deployments": 100,
+   "confirmed": 100,
    "proof_rate": 100,
    "n": 6
   }
  },
- "first_seen": 2025,
+ "first_seen": 2022,
  "by_year": [
   {
-   "year": 2025,
+   "year": 2022,
    "n": 1
+  },
+  {
+   "year": 2023,
+   "n": 1
+  },
+  {
+   "year": 2024,
+   "n": 6
+  },
+  {
+   "year": 2025,
+   "n": 5
+  },
+  {
+   "year": 2026,
+   "n": 2
   }
  ],
  "undated_pct": 0,
- "momentum": "rising",
- "maturity": "L3",
+ "momentum": "early_mover,flat",
+ "maturity": "L4",
  "maturity_evidence": [
+  "multi_horizontal",
   "named_product:Hundreds",
   "value_number",
+  "multi_year",
   "tier_p"
  ],
- "prospect_score": 14,
- "stack": [],
- "vendor_named": false,
+ "prospect_score": 81,
+ "stack": [
+  "Amazon AWS",
+  "Databricks",
+  "Google",
+  "Google Cloud",
+  "Microsoft",
+  "Microsoft Azure",
+  "OpenAI",
+  "Palantir"
+ ],
+ "vendor_named": true,
  "deployments_detail": [
   {
    "company": "Bayer",
@@ -56,6 +83,160 @@
    "raw_sector": "Pharmaceuticals",
    "date": "2025",
    "fresh": "fresh"
+  },
+  {
+   "company": "Bayer",
+   "use": "PRINCE preclinical-data chatbot – RAG assistant letting researchers query ~17,000 completed preclinical study reports in natural language to find, summarize and extract conclusions; built with Thoughtworks on Bayer's AWS-hosted PRINCE platform using myGenAssist-hosted LLMs, with Langfuse observability. Rolled out to a pilot group then productionized. [Thoughtworks; myGenAssist LLMs; AWS; Langfuse]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.thoughtworks.com/en-us/clients/bayer-ag",
+   "raw_sector": "",
+   "date": "2024",
+   "fresh": "aging"
+  },
+  {
+   "company": "Bayer",
+   "use": "CropKey – AI-driven crop-protection discovery approach that virtually tests millions of molecules against weed/pest protein structures to find new modes of action; produced the herbicide Icafolin (expected commercial launch in Brazil in 2028). [none named]",
+   "existence": "confirmed",
+   "value": "30+ potential molecular targets, 10+ validated as new modes of action; development timeline compressed from ~15 to ~10 years",
+   "tier": "",
+   "url": "https://emerj.com/artificial-intelligence-at-bayer/",
+   "raw_sector": "",
+   "date": "2024",
+   "fresh": "aging"
+  },
+  {
+   "company": "Bayer",
+   "use": "ALYCE – clinical-trial analytics platform ingesting heterogeneous trial data (EHRs, case report forms, patient-reported outcomes, wearables) into a Bronze/Silver/Gold data lake with automated quality checks to produce analysis-ready datasets faster and detect anomalies earlier. [none named]",
+   "existence": "confirmed",
+   "value": "handles ~300,000 files (1.6 TB) per trial payload",
+   "tier": "",
+   "url": "https://emerj.com/artificial-intelligence-at-bayer/",
+   "raw_sector": "",
+   "date": "2022",
+   "fresh": "stale"
+  },
+  {
+   "company": "Bayer",
+   "use": "Calantic Digital Solutions – cloud-hosted vendor-neutral radiology AI marketplace/platform delivering AI-enabled imaging apps (prioritization, lesion detection, quantification); integrated Rad AI's generative-AI reporting, Omni Impressions and Continuity follow-up tools. (Bayer announced in Sept 2025 it would discontinue Calantic and Blackford services.) [Rad AI; Blackford Analysis (Bayer subsidiary)]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.radai.com/news/bayer-and-rad-ai-announce-collaboration-agreement",
+   "raw_sector": "",
+   "date": "2024",
+   "fresh": "aging"
+  },
+  {
+   "company": "Bayer",
+   "use": "FieldView – flagship digital-farming platform using AI, data science and machine learning to give farmers data visualization and product recommendations across their acres. [none named (Climate Corporation, acquired 2013)]",
+   "existence": "confirmed",
+   "value": "manages 220M+ acres in 20+ countries",
+   "tier": "",
+   "url": "https://www.bayer.com/en/agriculture/ai-for-agriculture",
+   "raw_sector": "",
+   "date": "2025",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Bayer",
+   "use": "Generative-AI chemical-reaction-condition prediction for drug discovery (with AWS) – custom transformer models plus fine-tuned foundation models (7B–70B) to predict reaction conditions, and an Amazon Kendra chatbot for chemists to query reaction data in natural language. A 6-week prototype/POC; code handed to Bayer's Applied Mathematics team in March 2024. [AWS (SageMaker, SageMaker JumpStart, Amazon Kendra)]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://aws.amazon.com/blogs/industries/driving-innovation-in-drug-discovery-using-generative-ai-with-bayer-case-study/",
+   "raw_sector": "",
+   "date": "2024",
+   "fresh": "aging"
+  },
+  {
+   "company": "Bayer",
+   "use": "Cradle collaboration – three-year strategic partnership to use Cradle's generative-AI protein-engineering platform ('lab-in-the-loop') for antibody discovery and optimization; Bayer to integrate the platform into existing R&D workflows across its therapeutic antibody pipeline. [Cradle]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.ddw-online.com/bayer-partners-with-cradle-to-advance-ai-led-drug-discovery-39836-202601/",
+   "raw_sector": "",
+   "date": "2026-01",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Bayer",
+   "use": "Iambic Therapeutics collaboration – research collaboration to discover new small-molecule medicines using Iambic's AI-driven drug-discovery platform. [Iambic Therapeutics]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://chemanager-online.com/en/news/bayer-and-iambic-partner-to-advance-ai-driven-drug-discovery",
+   "raw_sector": "",
+   "date": "2026-06",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Bayer",
+   "use": "Ceres AI × Climate FieldView partnership – integrating Ceres AI's AI-driven risk-intelligence insights with FieldView data to deliver real-time risk analytics to farmers, insurance carriers and agricultural investors. [Ceres AI]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://ceres.ai/blog/ceres-ai-and-bayer-climate-fieldview-partner-to-empower-farm-operations-and-financial-stakeholders-with-ai-driven-insights",
+   "raw_sector": "",
+   "date": "2025-05",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Bayer",
+   "use": "myGenAssist – Bayer's secure internal generative-AI platform (an in-house 'ChatGPT but better' at chat.int.bayer.com) giving employees chat, knowledge connection to internal/external sources, and an AI-app builder; underpins other internal LLM apps. ~30% of employees actively use generative AI in daily work. [Bayer in-house platform hosting ChatGPT/OpenAI-class LLMs]",
+   "existence": "confirmed",
+   "value": "~30% of Team Bayer actively using generative AI",
+   "tier": "",
+   "url": "https://www.thoughtworks.com/en-us/clients/bayer-ag",
+   "raw_sector": "",
+   "date": "2024",
+   "fresh": "aging"
+  },
+  {
+   "company": "Bayer",
+   "use": "Microsoft 365 Copilot for employee productivity – Bayer employees using generative AI and Microsoft Copilot for productivity and collaboration in daily knowledge work. [Microsoft (M365 Copilot)]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.microsoft.com/en/customers/story/1703594261178267318-bayer-microsoft-copilot-germany",
+   "raw_sector": "",
+   "date": "2023-11",
+   "fresh": "stale"
+  },
+  {
+   "company": "Bayer",
+   "use": "E.L.Y. – generative-AI assistant for Crop Science agronomists/frontline reps to access product knowledge; won 'AI-based AgTech Solution of the Year' at AgTech Breakthrough Awards and the AI for Good award with EY. Deployed to 1,500+ frontline employees in North America. [EY]",
+   "existence": "confirmed",
+   "value": "1,500+ users; ~60% productivity increase; ~4 hours saved per week",
+   "tier": "",
+   "url": "https://agfundernews.com/bayers-117bn-data-points-and-decade-old-data-culture-drive-ai-advantage-says-cio",
+   "raw_sector": "",
+   "date": "2025",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Bayer",
+   "use": "Conversational AI agronomy assistant for Crop Science (with EY) – farmer/agronomist tool consolidating field data, satellites, soil sensors, drones and weather into an NLP interface to troubleshoot crop health and seed/product guidance. Built on Azure AI Foundry with Azure OpenAI, Azure AI Search and Azure Databricks (RAG). Prototype in 90 days, shared with 1,000 employees in 2024, rolling out to several thousand BCS employees in 2025. [Microsoft Azure AI Foundry / Azure OpenAI / Azure Databricks; EY]",
+   "existence": "confirmed",
+   "value": "1,000-employee pilot in 2024; rollout to several thousand in 2025",
+   "tier": "",
+   "url": "https://www.microsoft.com/en/customers/story/22209-bayer-azure-ai-foundry",
+   "raw_sector": "",
+   "date": "2025",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Bayer",
+   "use": "Bayer AI Innovation Platform for radiology – cloud-native developer platform (built on Google Cloud) to build, validate and launch gen-AI healthcare apps that assist radiologists and reduce burnout; uses Vertex AI, BigQuery, Healthcare API and Chronicle. First version entered extended testing in EU and US. [Google Cloud (Vertex AI, BigQuery, Healthcare API, Chronicle)]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.prnewswire.com/news-releases/bayer-and-google-cloud-to-accelerate-development-of-ai-powered-healthcare-applications-for-radiologists-302111532.html",
+   "raw_sector": "",
+   "date": "2024",
+   "fresh": "aging"
   }
  ]
 }

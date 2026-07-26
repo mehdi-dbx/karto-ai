@@ -3,46 +3,58 @@
  "name": "Nidec",
  "cc": "JP",
  "vertical": "Electric Machinery & Electronics",
- "deployments": 1,
- "confirmed": 0,
+ "deployments": 9,
+ "confirmed": 6,
  "with_value_number": 0,
  "proof_rate": 0.0,
  "mktcap": 18933333333.0,
  "revenue": 17466666667.0,
  "employees": 104285.0,
  "silent": false,
- "per_bn_revenue": 0.06,
- "per_10k_emp": 0.1,
+ "per_bn_revenue": 0.52,
+ "per_10k_emp": 0.86,
  "benchmarks": {
   "global_vertical": {
-   "deployments": 0,
-   "confirmed": 0,
+   "deployments": 53,
+   "confirmed": 59,
    "proof_rate": 0,
    "n": 35
   },
   "country_vertical": {
-   "deployments": 0,
-   "confirmed": 0,
+   "deployments": 48,
+   "confirmed": 55,
    "proof_rate": 0,
    "n": 32
   }
  },
- "first_seen": 2025,
+ "first_seen": 2024,
  "by_year": [
   {
+   "year": 2024,
+   "n": 4
+  },
+  {
    "year": 2025,
-   "n": 1
+   "n": 3
+  },
+  {
+   "year": 2026,
+   "n": 2
   }
  ],
  "undated_pct": 0,
  "momentum": "early_mover,rising",
- "maturity": "L1",
+ "maturity": "L3",
  "maturity_evidence": [
-  "rows_no_confirmed"
+  "multi_horizontal",
+  "named_product:Nidec",
+  "multi_year"
  ],
- "prospect_score": 40,
- "stack": [],
- "vendor_named": false,
+ "prospect_score": 76,
+ "stack": [
+  "SAP"
+ ],
+ "vendor_named": true,
  "deployments_detail": [
   {
    "company": "Nidec",
@@ -53,6 +65,94 @@
    "url": "https://www.nidec.com/jp/product/news/2025/news1028-02/",
    "raw_sector": "Electric Machinery",
    "date": "2025",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Nidec",
+   "use": "AI-powered visual inspection of post-welding surfaces at Nidec's next-generation smart factory; the AI performs product quality judgment (previously done by human visual inspection) fully automatically, preventing complex products from being left uninspected and stopping defective units from escaping. [Nidec (in-house/proprietary; no external vendor named)]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.nidec.com/en/technology/smart-factory/",
+   "raw_sector": "",
+   "date": "2024",
+   "fresh": "aging"
+  },
+  {
+   "company": "Nidec",
+   "use": "AI automation of sensory inspection (sight, hearing, touch), previously performed manually, plus AI-assisted collaborative robots for assembly, at Nidec Mobility's Iida Factory (Nagano); being rolled out to eight overseas plants to raise efficiency and reduce required headcount. [Nidec Mobility (in-house)]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.nidec.com/en/nidec-mobility/product/technology/manufacturing/",
+   "raw_sector": "",
+   "date": "2024",
+   "fresh": "aging"
+  },
+  {
+   "company": "Nidec",
+   "use": "AURCA-series AI-based automated optical inspection & measurement solution (product) for semiconductors and printed substrates; a proprietary AI algorithm detects defects/abnormalities conventional imaging misses, with full-color scanning and real-time inspection-analysis-feedback loops for yield improvement. [Nidec Advance Technology (proprietary AI algorithm)]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.nidec.com/en/nidec-advancetechnology/product/news/2026/260515_AURCA/",
+   "raw_sector": "",
+   "date": "2026-05-15",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Nidec",
+   "use": "LAMDA-series (LAMDA200/500/2000/5000) laser powder DED metal additive-manufacturing machines with integrated AI/machine-learning-based anomaly detection for real-time melt-pool monitoring and closed-loop process control, protecting against defects and process drift. [Nidec Machine Tool America (in-house AI)]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.nidec-machinetoolamerica.com/products/advanced-manufacturing-technologies/lamda-5000/",
+   "raw_sector": "",
+   "date": "2026-03-16",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Nidec",
+   "use": "ADAS camera-and-radar sensor-fusion driver-assistance products (Nidec Elesys) using image-recognition software and detection-algorithm software to detect vehicles, pedestrians and road markings; company R&D targets advanced recognition algorithms toward autonomous driving. (AI/deep-learning not explicitly stated in source, so treated as claimed.) [Nidec Elesys]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.nidec.com/en/technology/casestudy/camera_radar/",
+   "raw_sector": "",
+   "date": "2024",
+   "fresh": "aging"
+  },
+  {
+   "company": "Nidec",
+   "use": "Nidec Advance Technology partnership with Gantu Technology to develop and deliver AI inspection and test solutions for electronic circuit boards and semiconductor advanced packaging, combining Nidec's high-accuracy measurement/mechatronics with AI defect analysis. [Nidec Advance Technology + Gantu Technology]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.nidec.com/en/product/news/2025/news1202-02/",
+   "raw_sector": "",
+   "date": "2025-12-02",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Nidec",
+   "use": "AI-based route optimization for automated guided vehicles (AGVs) on the smart-factory floor; AGVs use QR-code identification and AI to optimize travel paths and adapt to flexible route/layout changes for material movement. [Nidec (in-house)]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.nidec.com/en/technology/smart-factory/",
+   "raw_sector": "",
+   "date": "2024",
+   "fresh": "aging"
+  },
+  {
+   "company": "Nidec",
+   "use": "Nidec Automobile Motor (Zhejiang) uses AI and machine-learning algorithms to analyze massive production-process data for equipment failure prediction (predictive maintenance), production data processing and quality optimization; recognized as Zhejiang Province's first-class smart factory. [Nidec (AI/ML with SAP, MES, WMS integration)]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.nidec.com/en/corporate/news/2025/news0702-02/",
+   "raw_sector": "",
+   "date": "2025-07-02",
    "fresh": "fresh"
   }
  ]

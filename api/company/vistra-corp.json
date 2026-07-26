@@ -3,27 +3,27 @@
  "name": "Vistra Corp.",
  "cc": "US",
  "vertical": "Energy & Utilities",
- "deployments": 1,
- "confirmed": 1,
- "with_value_number": 0,
- "proof_rate": 0.0,
+ "deployments": 4,
+ "confirmed": 4,
+ "with_value_number": 1,
+ "proof_rate": 0.25,
  "mktcap": 56210000000.0,
  "revenue": 19450000000.0,
  "employees": 6390.0,
  "silent": false,
- "per_bn_revenue": 0.05,
- "per_10k_emp": 1.56,
+ "per_bn_revenue": 0.21,
+ "per_10k_emp": 6.26,
  "benchmarks": {
   "global_vertical": {
-   "deployments": 0,
-   "confirmed": 20,
-   "proof_rate": 0,
-   "n": 210
+   "deployments": 40,
+   "confirmed": 58,
+   "proof_rate": 59,
+   "n": 213
   },
   "country_vertical": {
-   "deployments": 0,
-   "confirmed": 39,
-   "proof_rate": 0,
+   "deployments": 47,
+   "confirmed": 67,
+   "proof_rate": 84,
    "n": 52
   }
  },
@@ -34,14 +34,16 @@
    "n": 1
   }
  ],
- "undated_pct": 0,
+ "undated_pct": 75,
  "momentum": "early_mover,gone_quiet",
  "maturity": "L3",
  "maturity_evidence": [
+  "multi_horizontal",
   "named_product:Heat Rate Optimizer",
+  "value_number",
   "tier_p"
  ],
- "prospect_score": 54,
+ "prospect_score": 62,
  "stack": [],
  "vendor_named": false,
  "deployments_detail": [
@@ -55,6 +57,39 @@
    "raw_sector": "Utilities",
    "date": "2020",
    "fresh": "stale"
+  },
+  {
+   "company": "Vistra Corp.",
+   "use": "Geni - AI-native compliance agent for business services and board support",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://eqtgroup.com/en/thinq/case-study/vistras-journey-to-building-an-agentic-ai-hub-for-business-services",
+   "raw_sector": "",
+   "date": "Dec 15, 2025",
+   "fresh": "undated"
+  },
+  {
+   "company": "Vistra Corp.",
+   "use": "AI models deployed across generation fleet for optimization, trading, and grid management",
+   "existence": "confirmed",
+   "value": "$250-$300 million",
+   "tier": "",
+   "url": "https://www.klover.ai/vistra-ai-strategy-analysis-of-dominance-in-energy-ai/",
+   "raw_sector": "",
+   "date": "Aug 4, 2025",
+   "fresh": "undated"
+  },
+  {
+   "company": "Vistra Corp.",
+   "use": "AI solutions for power-plant efficiency improvement and emissions reduction [McKinsey]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.mckinsey.com/capabilities/tech-and-ai/how-we-help-clients/an-ai-power-play-fueling-the-next-wave-of-innovation-in-the-energy-sector",
+   "raw_sector": "",
+   "date": "May 12, 2022",
+   "fresh": "undated"
   }
  ]
 }

@@ -3,7 +3,7 @@
  "name": "Lite-On Technology",
  "cc": "TW",
  "vertical": "Manufacturing & Robotics",
- "deployments": 1,
+ "deployments": 4,
  "confirmed": 0,
  "with_value_number": 0,
  "proof_rate": 0.0,
@@ -11,20 +11,20 @@
  "revenue": 5408750000.0,
  "employees": 38676.0,
  "silent": false,
- "per_bn_revenue": 0.18,
- "per_10k_emp": 0.26,
+ "per_bn_revenue": 0.74,
+ "per_10k_emp": 1.03,
  "benchmarks": {
   "global_vertical": {
-   "deployments": 0,
+   "deployments": 42,
    "confirmed": 0,
    "proof_rate": 0,
-   "n": 147
+   "n": 150
   },
   "country_vertical": {
-   "deployments": 0,
+   "deployments": 41,
    "confirmed": 0,
    "proof_rate": 0,
-   "n": 22
+   "n": 23
   }
  },
  "first_seen": 2026,
@@ -34,15 +34,17 @@
    "n": 1
   }
  ],
- "undated_pct": 0,
+ "undated_pct": 75,
  "momentum": "late_entrant,rising",
  "maturity": "L1",
  "maturity_evidence": [
   "rows_no_confirmed"
  ],
  "prospect_score": 40,
- "stack": [],
- "vendor_named": false,
+ "stack": [
+  "NVIDIA"
+ ],
+ "vendor_named": true,
  "deployments_detail": [
   {
    "company": "Lite-On Technology",
@@ -54,6 +56,39 @@
    "raw_sector": "Electronics",
    "date": "2026",
    "fresh": "fresh"
+  },
+  {
+   "company": "Lite-On Technology",
+   "use": "AI-RAN (Radio Access Network) solution development and deployment [NVIDIA AI Aerial]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.liteon.com/en/news/press-center/content/liteon-ai-ran",
+   "raw_sector": "",
+   "date": "Mar 27, 2025",
+   "fresh": "undated"
+  },
+  {
+   "company": "Lite-On Technology",
+   "use": "End-to-end AI capability integration from cloud to edge including AI-RAN, intelligent surveillance, and smart city applications",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.liteon.com/en/news/press-center/content/quarterly-fourth-eps-2025",
+   "raw_sector": "",
+   "date": "Feb 25, 2026",
+   "fresh": "undated"
+  },
+  {
+   "company": "Lite-On Technology",
+   "use": "NVIDIA AI Aerial platform integration for scalable AI-native RAN commercialization [NVIDIA AI Aerial]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.liteon.com/en/news/press-center/content/liteon-mwc-2026",
+   "raw_sector": "",
+   "date": "Mar 1, 2026",
+   "fresh": "undated"
   }
  ]
 }

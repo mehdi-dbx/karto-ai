@@ -3,36 +3,60 @@
  "name": "Waste Connections",
  "cc": "CA",
  "vertical": "Logistics & Supply Chain",
- "deployments": 1,
- "confirmed": 0,
- "with_value_number": 1,
- "proof_rate": 1.0,
+ "deployments": 5,
+ "confirmed": 3,
+ "with_value_number": 3,
+ "proof_rate": 0.6,
  "mktcap": 43845588235.0,
  "revenue": 10198529412.0,
  "employees": 24214.0,
  "silent": false,
- "per_bn_revenue": 0.1,
- "per_10k_emp": 0.41,
+ "per_bn_revenue": 0.49,
+ "per_10k_emp": 2.06,
  "benchmarks": {
   "global_vertical": {
-   "deployments": 0,
-   "confirmed": 0,
-   "proof_rate": 65,
-   "n": 66
+   "deployments": 48,
+   "confirmed": 41,
+   "proof_rate": 86,
+   "n": 67
   }
  },
  "first_seen": null,
  "by_year": [],
  "undated_pct": 100,
  "momentum": "none",
- "maturity": "L1",
+ "maturity": "L3",
  "maturity_evidence": [
-  "rows_no_confirmed"
+  "multi_horizontal",
+  "named_product:Voice",
+  "value_number"
  ],
- "prospect_score": 0,
+ "prospect_score": 42,
  "stack": [],
  "vendor_named": false,
  "deployments_detail": [
+  {
+   "company": "Waste Connections",
+   "use": "AI-powered sortation and recycling facility processing with real-time material characterization and robotic arm sorting [AMP Robotics (AMP ONE system, AMP Smart Sortation)]",
+   "existence": "claimed",
+   "value": "62,000 tons per year",
+   "tier": "",
+   "url": "https://ampsortation.com/articles/first-of-its-kind-facility-featuring-fully-integra",
+   "raw_sector": "",
+   "date": "Nov 18, 2024",
+   "fresh": "undated"
+  },
+  {
+   "company": "Waste Connections",
+   "use": "AMP Delta intelligent robotics systems installed across multiple MRFs on fiber, container, and residue lines [AMP Robotics (AMP Delta)]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://ampsortation.com/case-studies/waste-connections",
+   "raw_sector": "",
+   "date": "missing",
+   "fresh": "undated"
+  },
   {
    "company": "Waste Connections",
    "use": "AI-based driver safety monitoring (Lytx/DriveCam video telematics, Geotab) across large truck fleet, plus AI safety analytics and predictive maintenance",
@@ -41,6 +65,28 @@
    "tier": "I",
    "url": "https://www.truckinginfo.com/podcasts/how-waste-connections-is-using-data-telematics-and-ai",
    "raw_sector": "Industrials",
+   "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "Waste Connections",
+   "use": "AI pricing engine for commercial customers using data-driven price adjustments",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.wastedive.com/news/waste-industry-hauling-ai-use-cases/823203/",
+   "raw_sector": "",
+   "date": "Jun 18, 2026",
+   "fresh": "undated"
+  },
+  {
+   "company": "Waste Connections",
+   "use": "Voice AI for customer support automating waste pickup scheduling, service modifications, billing inquiries, and bill payments [yellow.ai]",
+   "existence": "confirmed",
+   "value": "100,000+ users",
+   "tier": "",
+   "url": "https://yellow.ai/case-study/waste-connections-voice-ai-trasnforms-customer-support/",
+   "raw_sector": "",
    "date": "missing",
    "fresh": "undated"
   }

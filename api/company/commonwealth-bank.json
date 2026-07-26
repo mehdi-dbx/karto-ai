@@ -3,22 +3,22 @@
  "name": "Commonwealth Bank",
  "cc": "AU",
  "vertical": "Financial Services",
- "deployments": 13,
- "confirmed": 11,
- "with_value_number": 7,
- "proof_rate": 0.538,
+ "deployments": 20,
+ "confirmed": 18,
+ "with_value_number": 9,
+ "proof_rate": 0.45,
  "mktcap": 191393333333.0,
  "revenue": 18980000000.0,
  "employees": 51617.0,
  "silent": false,
- "per_bn_revenue": 0.68,
- "per_10k_emp": 2.52,
+ "per_bn_revenue": 1.05,
+ "per_10k_emp": 3.87,
  "benchmarks": {
   "global_vertical": {
    "deployments": 98,
-   "confirmed": 97,
-   "proof_rate": 71,
-   "n": 377
+   "confirmed": 99,
+   "proof_rate": 75,
+   "n": 388
   },
   "country_vertical": {
    "deployments": 100,
@@ -50,7 +50,7 @@
    "n": 3
   }
  ],
- "undated_pct": 0,
+ "undated_pct": 35,
  "momentum": "early_mover,rising",
  "maturity": "L4",
  "maturity_evidence": [
@@ -60,10 +60,50 @@
   "multi_year",
   "tier_p"
  ],
- "prospect_score": 86,
- "stack": [],
- "vendor_named": false,
+ "prospect_score": 82,
+ "stack": [
+  "Amazon AWS",
+  "Anthropic",
+  "Microsoft",
+  "OpenAI",
+  "Palantir",
+  "Snowflake"
+ ],
+ "vendor_named": true,
  "deployments_detail": [
+  {
+   "company": "Commonwealth Bank",
+   "use": "CommBiz Gen AI - AI-powered messaging service for business banking customers",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://au.finance.yahoo.com/news/commonwealth-bank-launches-new-ai-tool-to-reimagine-banking-faster-and-safer-005744886.html",
+   "raw_sector": "",
+   "date": "Feb 3, 2025",
+   "fresh": "undated"
+  },
+  {
+   "company": "Commonwealth Bank",
+   "use": "Legacy system modernization using agentic AI to reduce processing time from 6 weeks to under 1 hour [AWS Bedrock]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.youtube.com/watch?v=H02dc_AV_Vo",
+   "raw_sector": "",
+   "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "Commonwealth Bank",
+   "use": "Data pipeline migration leveraging AI and generative AI for code transformation and testing",
+   "existence": "confirmed",
+   "value": "61000",
+   "tier": "",
+   "url": "https://www.cio.inc/commonwealth-bank-australia-builds-ai-native-banking-a-30513",
+   "raw_sector": "",
+   "date": "Jan 14, 2026",
+   "fresh": "undated"
+  },
   {
    "company": "Commonwealth Bank",
    "use": "Customer Engagement Engine (CEE), an AI platform running 450 machine learning models for real-time cross-channel personalization and decisioning",
@@ -74,6 +114,28 @@
    "raw_sector": "Banks",
    "date": "2026-02",
    "fresh": "fresh"
+  },
+  {
+   "company": "Commonwealth Bank",
+   "use": "Customer engagement engine utilizing machine learning models [H2O.ai]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://h2o.ai/case-studies/cba/",
+   "raw_sector": "",
+   "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "Commonwealth Bank",
+   "use": "Named as a OpenAI customer/case study [OpenAI] [OpenAI]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://openai.com/index/1-million-businesses-putting-ai-to-work/",
+   "raw_sector": "",
+   "date": "missing",
+   "fresh": "undated"
   },
   {
    "company": "Commonwealth Bank",
@@ -206,6 +268,28 @@
    "raw_sector": "",
    "date": "2023-05",
    "fresh": "stale"
+  },
+  {
+   "company": "Commonwealth Bank",
+   "use": "AI technology to detect suspicious and unusual behaviour on digital banking platforms",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.commbank.com.au/articles/newsroom/2022/07/scams-fraud-artificial-intelligence.html",
+   "raw_sector": "",
+   "date": "Jul 4, 2022",
+   "fresh": "undated"
+  },
+  {
+   "company": "Commonwealth Bank",
+   "use": "AI-based fraud detection and loan processing acceleration",
+   "existence": "confirmed",
+   "value": "50",
+   "tier": "",
+   "url": "https://www.retailbankerinternational.com/news/cba-fraud-speeds-ai/",
+   "raw_sector": "",
+   "date": "Nov 29, 2024",
+   "fresh": "undated"
   }
  ]
 }

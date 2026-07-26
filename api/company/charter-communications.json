@@ -3,45 +3,92 @@
  "name": "Charter Communications",
  "cc": "US",
  "vertical": "Telecom",
- "deployments": 1,
- "confirmed": 1,
- "with_value_number": 1,
- "proof_rate": 1.0,
+ "deployments": 10,
+ "confirmed": 8,
+ "with_value_number": 5,
+ "proof_rate": 0.5,
  "mktcap": 17330000000.0,
  "revenue": 54640000000.0,
  "employees": 91900.0,
  "silent": false,
- "per_bn_revenue": 0.02,
- "per_10k_emp": 0.11,
+ "per_bn_revenue": 0.18,
+ "per_10k_emp": 1.09,
  "benchmarks": {
   "global_vertical": {
-   "deployments": 0,
-   "confirmed": 16,
-   "proof_rate": 78,
-   "n": 93
+   "deployments": 54,
+   "confirmed": 63,
+   "proof_rate": 73,
+   "n": 94
   },
   "country_vertical": {
-   "deployments": 0,
-   "confirmed": 32,
-   "proof_rate": 95,
+   "deployments": 50,
+   "confirmed": 55,
+   "proof_rate": 91,
    "n": 23
   }
  },
- "first_seen": null,
- "by_year": [],
- "undated_pct": 100,
- "momentum": "none",
- "maturity": "L3",
- "maturity_evidence": [
-  "named_product:Spectrum",
-  "value_number"
+ "first_seen": 2019,
+ "by_year": [
+  {
+   "year": 2019,
+   "n": 1
+  },
+  {
+   "year": 2022,
+   "n": 1
+  },
+  {
+   "year": 2023,
+   "n": 1
+  },
+  {
+   "year": 2025,
+   "n": 5
+  },
+  {
+   "year": 2026,
+   "n": 1
+  }
  ],
- "prospect_score": 6,
+ "undated_pct": 10,
+ "momentum": "early_mover,rising",
+ "maturity": "L4",
+ "maturity_evidence": [
+  "multi_horizontal",
+  "named_product:Spectrum",
+  "value_number",
+  "multi_year"
+ ],
+ "prospect_score": 68,
  "stack": [
+  "Amazon AWS",
+  "Anthropic",
   "NVIDIA"
  ],
  "vendor_named": true,
  "deployments_detail": [
+  {
+   "company": "Charter Communications",
+   "use": "Edge AI infrastructure using NVIDIA AI Grid reference design: Spectrum is deploying NVIDIA RTX PRO 6000 Blackwell Server Edition GPUs across 1,000+ edge data centers/hubs on its fiber network to deliver low-latency real-time AI inferencing and GPU compute (e.g., remote CGI rendering) within ~5-10 ms of connected devices. [NVIDIA (RTX PRO 6000 Blackwell, AI Grid)]",
+   "existence": "confirmed",
+   "value": "1,000+ edge locations within 5-10 ms of 500 million connected devices",
+   "tier": "",
+   "url": "https://www.tvtechnology.com/infrastructure/ip-networking/comcast-charter-deploy-ai-infrastructure-at-the-network-edge-using-nvidia-ai-technologies",
+   "raw_sector": "",
+   "date": "2026-03-17",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Charter Communications",
+   "use": "Intent-based network scaling proof-of-concept driven by AI/ML that ingests data from IoT devices to predict network demand and dynamically flex a software-defined WAN (autonomous smart-venue scenario) via an AI/ML network analytics engine. [Spectrum Enterprise (PoC)]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://corporate.charter.com/newsroom/spectrum-enterprise-demonstrates-intelligent-intent-based-network-scaling",
+   "raw_sector": "",
+   "date": "2019-11-19",
+   "fresh": "stale"
+  },
   {
    "company": "Charter Communications",
    "use": "Spectrum agent-assist AI/ML for call recommendations + Spectrum Voice ID (NVIDIA DGX Cloud); CEO cited potential $8B annual cost reductions",
@@ -52,6 +99,83 @@
    "raw_sector": "Communication Services",
    "date": "missing",
    "fresh": "undated"
+  },
+  {
+   "company": "Charter Communications",
+   "use": "Agent Assist: proprietary AI that listens to live customer calls via real-time voice-to-text and feeds a machine learning model that surfaces recommendations to help frontline agents reach solutions faster; CEO Chris Winfrey confirmed it is operational at scale. [Charter proprietary (call-center AI)]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://corporate.charter.com/newsroom/spectrum-agents-use-ai-tools-to-strengthen-customer-connection",
+   "raw_sector": "",
+   "date": "2025-10-21",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Charter Communications",
+   "use": "Summary AI: proprietary AI tool that generates automated call summaries / notetaking for customer service reps so they can stay present in the conversation instead of typing notes. Named and quoted by an active Tech Support rep. [Charter proprietary]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://corporate.charter.com/newsroom/spectrum-agents-use-ai-tools-to-strengthen-customer-connection",
+   "raw_sector": "",
+   "date": "2025-10-21",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Charter Communications",
+   "use": "AI-powered knowledge search giving agents instant access to the information they need to answer customer questions; Charter states these tools are in use and expanding to field technicians in 2026. [Charter proprietary]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://corporate.charter.com/newsroom/spectrum-agents-use-ai-tools-to-strengthen-customer-connection",
+   "raw_sector": "",
+   "date": "2025-10-21",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Charter Communications",
+   "use": "Generative AI on NVIDIA DGX Cloud to support call-center agents with real-time transcription and translation of customer calls for faster issue resolution and to forecast customer call supply/demand, aimed at resolving calls faster and reducing agent churn. [NVIDIA (DGX Cloud, AI Enterprise)]",
+   "existence": "claimed",
+   "value": "train AI models up to 3X faster (vendor claim)",
+   "tier": "",
+   "url": "https://www.nvidia.com/en-us/am/dgx-cloud/charter/",
+   "raw_sector": "",
+   "date": "2023-10-05",
+   "fresh": "stale"
+  },
+  {
+   "company": "Charter Communications",
+   "use": "Generative AI for software development: Charter standardized on GitLab Duo with Amazon Q Developer (which provides access to Claude Sonnet 4.5) for agentic coding to build and operate software for Spectrum Internet, TV and Mobile; AWS named a strategic GenAI provider. CTO Jake Perlman quoted. [AWS (Amazon Q Developer), GitLab Duo, Anthropic Claude Sonnet 4.5]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.prnewswire.com/news-releases/charter-communications-announces-strategic-collaboration-with-aws-on-generative-ai-to-transform-software-development-and-operations-302618763.html",
+   "raw_sector": "",
+   "date": "2025-11-18",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Charter Communications",
+   "use": "Spectrum Reach + Waymark AI ad-creation platform: generative AI produces ready-to-air, TV-quality local commercials (AI-generated voiceover, dynamic audio mixing, Click-to-Edit) in under 5 minutes; deployed and available to advertisers across Spectrum Reach markets. [Waymark]",
+   "existence": "confirmed",
+   "value": "over 15,000 ad campaigns created since early 2023; available across 36 states / 91 markets",
+   "tier": "",
+   "url": "https://www.prnewswire.com/news-releases/spectrum-reach-and-waymark-partnership-powers-over-15-000-campaigns-and-counting-driving-success-for-local-businesses-302592882.html",
+   "raw_sector": "",
+   "date": "2025-10-23",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Charter Communications",
+   "use": "Security Shield: AI-enabled home cybersecurity for Advanced WiFi subscribers that automatically detects and blocks malicious websites, phishing scams and internet-originated attacks against home devices; auto-enabled and managed via the My Spectrum App. [Charter/Spectrum (Advanced WiFi platform)]",
+   "existence": "confirmed",
+   "value": "available across 41-state footprint",
+   "tier": "",
+   "url": "https://www.lightreading.com/security/charter-pitches-ai-powered-security-shield-to-wi-fi-subs",
+   "raw_sector": "",
+   "date": "2022-07-06",
+   "fresh": "stale"
   }
  ]
 }

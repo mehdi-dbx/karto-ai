@@ -3,27 +3,27 @@
  "name": "China Merchants Bank",
  "cc": "HK",
  "vertical": "Financial Services",
- "deployments": 1,
- "confirmed": 1,
- "with_value_number": 1,
- "proof_rate": 1.0,
+ "deployments": 12,
+ "confirmed": 11,
+ "with_value_number": 8,
+ "proof_rate": 0.667,
  "mktcap": 146153846154.0,
  "revenue": 43544871795.0,
  "employees": 121585.0,
  "silent": false,
- "per_bn_revenue": 0.02,
- "per_10k_emp": 0.08,
+ "per_bn_revenue": 0.28,
+ "per_10k_emp": 0.99,
  "benchmarks": {
   "global_vertical": {
-   "deployments": 0,
-   "confirmed": 17,
-   "proof_rate": 76,
-   "n": 377
+   "deployments": 81,
+   "confirmed": 84,
+   "proof_rate": 93,
+   "n": 388
   },
   "country_vertical": {
-   "deployments": 0,
-   "confirmed": 0,
-   "proof_rate": 86,
+   "deployments": 43,
+   "confirmed": 43,
+   "proof_rate": 100,
    "n": 8
   }
  },
@@ -31,20 +31,31 @@
  "by_year": [
   {
    "year": 2025,
-   "n": 1
+   "n": 8
+  },
+  {
+   "year": 2026,
+   "n": 4
   }
  ],
  "undated_pct": 0,
  "momentum": "rising",
- "maturity": "L3",
+ "maturity": "L4",
  "maturity_evidence": [
+  "multi_horizontal",
   "named_product:AI First",
   "value_number",
+  "multi_year",
   "tier_p"
  ],
- "prospect_score": 14,
- "stack": [],
- "vendor_named": false,
+ "prospect_score": 73,
+ "stack": [
+  "Alibaba Cloud",
+  "DeepSeek",
+  "Microsoft",
+  "NVIDIA"
+ ],
+ "vendor_named": true,
  "deployments_detail": [
   {
    "company": "China Merchants Bank",
@@ -59,6 +70,72 @@
   },
   {
    "company": "China Merchants Bank",
+   "use": "AI小招 (AI Xiaozhao): retail-facing conversational assistant embedded in the CMB mobile app for wealth/banking queries, upgraded to a listen-and-speak banking assistant. Reported serving 20M+ customers per month. [China Merchants Bank (self-developed, on Alibaba Cloud Tongyi Qianwen among stacks)]",
+   "existence": "confirmed",
+   "value": "20 million+ customers served per month",
+   "tier": "",
+   "url": "http://www.news.cn/tech/20250910/a5091cbc53b94f7da05bd9dcbabbb710/c.html",
+   "raw_sector": "",
+   "date": "2025-09-10",
+   "fresh": "fresh"
+  },
+  {
+   "company": "China Merchants Bank",
+   "use": "小招助理: AI assistant embedded in the Cmb Life (掌上生活) credit-card app home screen for cardholder service, inquiries and complaint intake. [China Merchants Bank Credit Card Center (self-developed)]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://cc.cmbchina.com/vip/1/",
+   "raw_sector": "",
+   "date": "2026-01-01",
+   "fresh": "fresh"
+  },
+  {
+   "company": "China Merchants Bank",
+   "use": "招银智库AI小研: intelligent investment-research assistant built on the 'CMB Think Tank' research platform, providing full-site Q&A bot, Chat research reports, and hotspot aggregation. Named InfoQ 2024 Best AI Practice case. [Alibaba Cloud Tongyi Qianwen (通义千问)]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://finance.sina.com.cn/roll/2025-01-15/doc-ineezhcc8057421.shtml",
+   "raw_sector": "",
+   "date": "2025-01-15",
+   "fresh": "fresh"
+  },
+  {
+   "company": "China Merchants Bank",
+   "use": "一招 (YiZhao) financial-domain large language model series (e.g. YiZhao-12B-Chat) trained on fully-domestic hardware/framework; open-sourced on ModelScope/Gitee for financial NLP. [China Merchants Bank AI Lab, jointly with Huawei and Zhipu AI (GLM)]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://modelscope.cn/models/CMB_AILab/YiZhao-12B-Chat",
+   "raw_sector": "",
+   "date": "2025-01-01",
+   "fresh": "fresh"
+  },
+  {
+   "company": "China Merchants Bank",
+   "use": "Corporate-finance AI stack: layered 'AI小招' for enterprise roles plus '财资助手' (Financial Resources Assistant) using natural-language commands and OCR to auto-fill forms, and '数智司库' intelligent treasury with AI contract recognition and cash-flow forecasting. [China Merchants Bank (self-developed)]",
+   "existence": "confirmed",
+   "value": "Single transaction operation time cut from 5 minutes to 30 seconds; ~70,000 corporate clients served since 2025 launch",
+   "tier": "",
+   "url": "https://www.stcn.com/article/detail/3405682.html",
+   "raw_sector": "",
+   "date": "2025-10-24",
+   "fresh": "fresh"
+  },
+  {
+   "company": "China Merchants Bank",
+   "use": "Enterprise-wide LLM application program: 800+ AI large-model application scenarios deployed across retail, corporate banking, risk management, operations and office functions, backed by 40+ open-source and 60+ proprietary domain models; won 1st prize at 2025 Shenzhen Financial Innovation Competition. [China Merchants Bank (full-stack self-developed LLM technology system)]",
+   "existence": "confirmed",
+   "value": "856 business scenarios by end-2025 (up from ~120); 12,000+ users",
+   "tier": "",
+   "url": "https://m.mpaypass.com.cn/news/202602/10104730.html",
+   "raw_sector": "",
+   "date": "2026-02-10",
+   "fresh": "fresh"
+  },
+  {
+   "company": "China Merchants Bank",
    "use": "Cross-listed (also in CSI300) — \"AI First\", AIAgent retail, 10B-param financial LLM",
    "existence": "confirmed",
    "value": "(see row 4)",
@@ -70,6 +147,116 @@
   },
   {
    "company": "China Merchants Bank",
+   "use": "AI小助 (AI Xiaozhu): internal employee copilot deployed across all bank positions/roles for daily work assistance. [China Merchants Bank (self-developed)]",
+   "existence": "confirmed",
+   "value": "Covers all positions bank-wide",
+   "tier": "",
+   "url": "http://www.news.cn/tech/20250910/a5091cbc53b94f7da05bd9dcbabbb710/c.html",
+   "raw_sector": "",
+   "date": "2025-09-10",
+   "fresh": "fresh"
+  },
+  {
+   "company": "China Merchants Bank",
+   "use": "AI-native heterogeneous compute platform: unified Kubernetes + HAMi scheduling pool consolidating Kunlunxin, Ascend NPU, NVIDIA GPU, PPU, Moore Threads and MetaX accelerators for model training/inference/fine-tuning, with topology-aware scheduling and GPU/NPU sharing. [CNCF Kubernetes + HAMi (open-source), multi-vendor accelerators]",
+   "existence": "confirmed",
+   "value": "100% hardware utilization; 30% reduction in cross-machine scheduling; ResNet50 single-card throughput 64.6->94.8 images/sec",
+   "tier": "",
+   "url": "https://www.cncf.io/case-studies/china-merchants-bank/",
+   "raw_sector": "",
+   "date": "2026-07-02",
+   "fresh": "fresh"
+  },
+  {
+   "company": "China Merchants Bank",
+   "use": "火眼助手 (Huoyan Assistant): wholesale/corporate-banking data query and analysis agent that lets relationship managers retrieve and analyze data via natural language. [China Merchants Bank (self-developed)]",
+   "existence": "confirmed",
+   "value": "Frequent data retrieval time reduced from 10 minutes to 20 seconds",
+   "tier": "",
+   "url": "https://jr.sz.gov.cn/sjrb/xxgk/gzdt/content/post_12637909.html",
+   "raw_sector": "",
+   "date": "2026-02-09",
+   "fresh": "fresh"
+  },
+  {
+   "company": "China Merchants Bank",
+   "use": "研发智能体 DevAgent: self-developed ReAct-based coding agent that perceives the programming environment, retrieves enterprise R&D knowledge, and generates cross-file code for engineers. Reported to auto-handle 48,000+ (some reports 90,000+) development tasks per month. [China Merchants Bank (self-developed full-stack LLM system)]",
+   "existence": "confirmed",
+   "value": "4.8 million (per some reports 90,000+) development tasks handled per month",
+   "tier": "",
+   "url": "https://jr.sz.gov.cn/sjrb/xxgk/gzdt/content/post_12637909.html",
+   "raw_sector": "",
+   "date": "2026-02-09",
+   "fresh": "fresh"
+  },
+  {
+   "company": "China Merchants Bank",
+   "use": "Two consumer AI agents — '掌上生活优惠' (Pocket Life Deals) and '财富看点' (Wealth Insights) — built on Volcano Engine Coze/Doubao and launched inside the Doubao app; CMB was reportedly the first financial institution on the Doubao app. [Volcano Engine (火山引擎) Coze / Doubao 豆包, ByteDance]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://finance.sina.com.cn/tech/roll/2024-09-11/doc-incnunpm1712341.shtml",
+   "raw_sector": "",
+   "date": "2024-09-11",
+   "fresh": "aging"
+  },
+  {
+   "company": "China Merchants Bank",
+   "use": "AI Xiaozhu (AI小助), an internal LLM-based employee productivity/assistant tool deployed bank-wide covering all job positions across the organization. [CMB self-developed large model]",
+   "existence": "confirmed",
+   "value": "covers all positions across the entire bank",
+   "tier": "",
+   "url": "http://www.news.cn/tech/20250910/a5091cbc53b94f7da05bd9dcbabbb710/c.html",
+   "raw_sector": "",
+   "date": "2025-09-10",
+   "fresh": "fresh"
+  },
+  {
+   "company": "China Merchants Bank",
+   "use": "AI-reshaped cross-border service workflow for Chinese companies going overseas, using intelligent document processing and risk-control models to compress traditional account-opening and due-diligence processes. [CMB self-developed large model]",
+   "existence": "confirmed",
+   "value": "account-opening/due-diligence time compressed to about one-third of original",
+   "tier": "",
+   "url": "https://promote.caixin.com/2026-02-12/102413970.html",
+   "raw_sector": "",
+   "date": "2026-02-12",
+   "fresh": "fresh"
+  },
+  {
+   "company": "China Merchants Bank",
+   "use": "AI Xiaozhao (小招/AI小招), the retail intelligent wealth assistant in the CMB mobile app, upgraded with LLM technology from a wealth advisor into a voice-capable 'listen-and-speak' banking assistant; serves over 20 million customers per month. [CMB self-developed 'Xiaozhao' large model]",
+   "existence": "confirmed",
+   "value": "over 20 million customers served monthly",
+   "tier": "",
+   "url": "http://www.news.cn/tech/20250910/a5091cbc53b94f7da05bd9dcbabbb710/c.html",
+   "raw_sector": "",
+   "date": "2025-09-10",
+   "fresh": "fresh"
+  },
+  {
+   "company": "China Merchants Bank",
+   "use": "Zhaoyin Zhiku AI Xiaoyan (招银智库AI小研), an intelligent investment-research assistant built on CMB's research platform providing full-site Q&A robot, Chat research reports and hot-topic aggregation; named a 2024 Best AI Practice case. [Alibaba Cloud Tongyi Qianwen (Qwen)]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://developer.aliyun.com/article/1653619",
+   "raw_sector": "",
+   "date": "2025-01-15",
+   "fresh": "fresh"
+  },
+  {
+   "company": "China Merchants Bank",
+   "use": "YiZhao (一招), China's banking-industry first open-source ~10-billion-parameter financial large language model, released together with a 2TB open financial dataset; trained on fully domestic hardware/frameworks. [CMB with Huawei and Zhipu AI]",
+   "existence": "confirmed",
+   "value": "~10-billion-parameter model; 2TB open financial dataset; 120+ application scenarios",
+   "tier": "",
+   "url": "https://news.qq.com/rain/a/20250509A07V4K00",
+   "raw_sector": "",
+   "date": "2025-05-06",
+   "fresh": "fresh"
+  },
+  {
+   "company": "China Merchants Bank",
    "use": "AI Agent for retail banking providing personalized service to large volumes of long-tail retail customers under the bank's \"AI First\" strategy",
    "existence": "confirmed",
    "value": "large-model app iteration cycle cut to 8 days",
@@ -77,6 +264,83 @@
    "url": "https://www.sohu.com/a/1005263263_121924584",
    "raw_sector": "Banks",
    "date": "2025",
+   "fresh": "fresh"
+  },
+  {
+   "company": "China Merchants Bank",
+   "use": "Telephone Xiaozhao (电话小招), an AI voice phone-banking assistant supporting inclusive-finance service scenarios, especially for elderly and dialect-speaking customers. [CMB self-developed large model]",
+   "existence": "confirmed",
+   "value": "supports over 300 business scenarios via voice",
+   "tier": "",
+   "url": "https://promote.caixin.com/2026-02-12/102413970.html",
+   "raw_sector": "",
+   "date": "2026-02-12",
+   "fresh": "fresh"
+  },
+  {
+   "company": "China Merchants Bank",
+   "use": "Xiaozhao Voice Control (小招语控), a voice-interaction system for inclusive finance letting customers complete banking transactions with a single spoken command. [CMB self-developed large model]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://promote.caixin.com/2026-02-12/102413970.html",
+   "raw_sector": "",
+   "date": "2026-02-12",
+   "fresh": "fresh"
+  },
+  {
+   "company": "China Merchants Bank",
+   "use": "Zhaoxiaocai (招小财), an online AI assistant in transaction-banking business that recognizes customer intent and helps corporate clients complete complex corporate-finance product operations. [CMB self-developed large model]",
+   "existence": "confirmed",
+   "value": "95% response accuracy",
+   "tier": "",
+   "url": "https://wap.eastmoney.com/a/202504173379430463.html",
+   "raw_sector": "",
+   "date": "2025-04-17",
+   "fresh": "fresh"
+  },
+  {
+   "company": "China Merchants Bank",
+   "use": "'Chat-while-doing' (边聊边办) LLM text customer service integrated with the Rizhao Housing Provident Fund Management Center, enabling residents to complete housing-fund withdrawal transactions through conversational AI, 7x24. [AI + big data + large language model (vendor not named)]",
+   "existence": "confirmed",
+   "value": "7x24 online service; launched November 2025",
+   "tier": "",
+   "url": "https://qd.ifeng.com/c/8opw9elzZPu",
+   "raw_sector": "",
+   "date": "2025-12-05",
+   "fresh": "fresh"
+  },
+  {
+   "company": "China Merchants Bank",
+   "use": "Credit-card AI customer-service system using a RAG + workflow-engine architecture with intent recognition routing to knowledge base, calculation engines and sensitive-operation workflows. [DeepSeek (with Tencent Hunyuan as backup), TDSQL vector database]",
+   "existence": "claimed",
+   "value": "over 500,000 daily inquiries; 17.7% transfer-to-human rate",
+   "tier": "",
+   "url": "https://adg.csdn.net/695245145b9f5f31781b4b38.html",
+   "raw_sector": "",
+   "date": "2025-12-07",
+   "fresh": "fresh"
+  },
+  {
+   "company": "China Merchants Bank",
+   "use": "AI large-model applications in risk management — risk screening/early warning, anti-fraud and anti-money-laundering scenarios, using retrieval-augmented generation plus retained human review to control hallucination risk. [China Merchants Bank (self-developed)]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "http://www.news.cn/tech/20250910/a5091cbc53b94f7da05bd9dcbabbb710/c.html",
+   "raw_sector": "",
+   "date": "2025-09-10",
+   "fresh": "fresh"
+  },
+  {
+   "company": "China Merchants Bank",
+   "use": "R&D Intelligent Agent (研发智能体 / DevAgent), a self-developed coding agent that understands natural-language instructions, senses the programming environment and calls tools to help engineers with daily development tasks. [CMB self-developed large model]",
+   "existence": "confirmed",
+   "value": "automatically handles over 90,000 development tasks per month",
+   "tier": "",
+   "url": "https://promote.caixin.com/2026-02-12/102413970.html",
+   "raw_sector": "",
+   "date": "2026-02-12",
    "fresh": "fresh"
   }
  ]

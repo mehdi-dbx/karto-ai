@@ -3,49 +3,90 @@
  "name": "Haleon",
  "cc": "UK",
  "vertical": "Healthcare & Life Sciences",
- "deployments": 1,
- "confirmed": 1,
- "with_value_number": 0,
- "proof_rate": 0.0,
+ "deployments": 11,
+ "confirmed": 9,
+ "with_value_number": 4,
+ "proof_rate": 0.364,
  "mktcap": 40932100000.0,
  "revenue": 14008100000.0,
  "employees": 24535.0,
  "silent": false,
- "per_bn_revenue": 0.07,
- "per_10k_emp": 0.41,
+ "per_bn_revenue": 0.79,
+ "per_10k_emp": 4.48,
  "benchmarks": {
   "global_vertical": {
-   "deployments": 0,
-   "confirmed": 13,
-   "proof_rate": 0,
-   "n": 165
+   "deployments": 76,
+   "confirmed": 80,
+   "proof_rate": 72,
+   "n": 168
   },
   "country_vertical": {
-   "deployments": 0,
-   "confirmed": 0,
-   "proof_rate": 0,
+   "deployments": 62,
+   "confirmed": 62,
+   "proof_rate": 62,
    "n": 9
   }
  },
- "first_seen": 2026,
+ "first_seen": 2023,
  "by_year": [
   {
-   "year": 2026,
+   "year": 2023,
    "n": 1
+  },
+  {
+   "year": 2024,
+   "n": 4
+  },
+  {
+   "year": 2025,
+   "n": 3
+  },
+  {
+   "year": 2026,
+   "n": 3
   }
  ],
  "undated_pct": 0,
- "momentum": "late_entrant,rising",
- "maturity": "L3",
+ "momentum": "early_mover,rising",
+ "maturity": "L4",
  "maturity_evidence": [
-  "named_product:Microsoft"
+  "multi_horizontal",
+  "named_product:Microsoft",
+  "value_number",
+  "multi_year"
  ],
- "prospect_score": 46,
+ "prospect_score": 79,
  "stack": [
-  "Microsoft"
+  "Alibaba Cloud",
+  "Microsoft",
+  "Microsoft Azure",
+  "SAP",
+  "Salesforce"
  ],
  "vendor_named": true,
  "deployments_detail": [
+  {
+   "company": "Haleon",
+   "use": "iNutrition AI Nutrition Assistant: a consumer-facing AI nutritionist for Chinese consumers built on Alibaba Cloud's Tongyi Qianwen (Qwen) LLM with retrieval-augmented generation over Haleon's nutritional knowledge base, cutting consultation response times from minutes to seconds. [Alibaba Cloud (Tongyi Qianwen / Qwen LLM, RAG, serverless)]",
+   "existence": "confirmed",
+   "value": "Response time reduced from minutes to seconds",
+   "tier": "",
+   "url": "https://www.alibabacloud.com/en/press-room/unveil-serverless-solution-to-harness-gen-ai?_p_lc=1",
+   "raw_sector": "",
+   "date": "2024-01-30",
+   "fresh": "aging"
+  },
+  {
+   "company": "Haleon",
+   "use": "Enterprise GenAI application built by Haleon's centralized ~40-person data science team, incorporating a chatbot, knowledge graph, recommendation models and user profiling to support internal work. [none]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://medium.com/trusted-data-science-haleon/celebrating-our-first-year-of-data-science-at-haleon-f428aaec668a",
+   "raw_sector": "",
+   "date": "2023-01-01",
+   "fresh": "stale"
+  },
   {
    "company": "Haleon",
    "use": "5-year Microsoft collaboration to scale AI across operations (product dev, clinical research, supply chain, marketing); Copilot rollout across functions",
@@ -55,6 +96,94 @@
    "url": "https://www.haleon.com/news/press-releases/corporate/2026/haleon-ai-transformation-microsoft-five-year-collaboration",
    "raw_sector": "Pharmaceuticals & biotechnology",
    "date": "2026",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Haleon",
+   "use": "Smart manufacturing at the Suzhou (China) site: AI, robotics, automation and collaborative robots deployed to boost production efficiency and productivity across the supply chain network. [none]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.haleon.com/news/our-stories/our-markets/2025/china-growth-story",
+   "raw_sector": "",
+   "date": "2025-09-24",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Haleon",
+   "use": "Microsoft 365 Copilot and Azure AI: Copilot already in use across Haleon, expanded via a five-year collaboration to co-create agentic AI use cases across consumer insights, marketing content, R&D, supply chain and forecasting. [Microsoft (365 Copilot, Azure, agentic AI)]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.fiercepharma.com/pharma/haleon-teams-microsoft-5-year-corporate-ai-deal-upgrade-consumer-health-operations",
+   "raw_sector": "",
+   "date": "2026-07-01",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Haleon",
+   "use": "SAP Business Suite and Business Data Cloud adoption to embed AI across finance, supply chain, HR and sales, including exploration of agentic AI where software agents identify issues and recommend actions. [SAP (Business Suite, Business Data Cloud)]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://itbrief.co.uk/story/haleon-taps-sap-for-ai-driven-business-systems-overhaul",
+   "raw_sector": "",
+   "date": "2026-03-26",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Haleon",
+   "use": "Health Inclusivity Screener: an AI tool that scans digital ad creative for readability and inclusivity, categorizing people by gender, four age groups and six skin tones and flagging opportunities to improve diversity. Piloted on the Panadol brand. [CreativeX]",
+   "existence": "confirmed",
+   "value": "Pilot analyzed 1,500 Panadol creative assets across nine markets",
+   "tier": "",
+   "url": "https://www.adexchanger.com/creative/pain-relief-brand-panadol-taps-creativex-for-help-making-its-ads-more-diverse/",
+   "raw_sector": "",
+   "date": "2024-10-22",
+   "fresh": "aging"
+  },
+  {
+   "company": "Haleon",
+   "use": "GenAI-powered consumer research: Discuss's generative AI tools summarize interviews, generate project-level themes with quotes in minutes, and provide instant translations across markets for Haleon's global empathy/insights projects. [Discuss.io]",
+   "existence": "confirmed",
+   "value": "15 markets in 15 languages; 1,000+ internal team members engaged",
+   "tier": "",
+   "url": "https://www.discuss.io/customer-stories/how-haleon-is-radically-transforming-consumer-understanding-with-discuss/",
+   "raw_sector": "",
+   "date": "2025-01-09",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Haleon",
+   "use": "Retail media automation: Skai's Advanced Automated Actions and Dimensions used (via agency Publicis LeOne) to automate keyword harvesting, bid/budget optimization and labeling across Amazon DSP and search campaigns for the Centrum brand. [Skai]",
+   "existence": "confirmed",
+   "value": "Order volume +7%, cost-per-order -5%, new-to-brand orders +156% in pilot",
+   "tier": "",
+   "url": "https://skai.io/case-studies/publicis-leon-haleon-amazon-strategy/",
+   "raw_sector": "",
+   "date": "2024-01-01",
+   "fresh": "aging"
+  },
+  {
+   "company": "Haleon",
+   "use": "NowPrivacy data discovery: AI-driven scanning of unstructured data to detect and remediate personally identifiable information (PII) and reduce data risk. Deployed across Haleon UK and US data centers, scanning 8.1M files and flagging 31,200+ high-risk files. [NowVertical (NowPrivacy)]",
+   "existence": "confirmed",
+   "value": "37% reduction in Cost of Risk; 195 TB processed; $40,000 savings; deployed in 3 months",
+   "tier": "",
+   "url": "https://www.nowvertical.com/haleon-case-study",
+   "raw_sector": "",
+   "date": "2024-01-01",
+   "fresh": "aging"
+  },
+  {
+   "company": "Haleon",
+   "use": "Salesforce Agentforce and Life Sciences Cloud selected to power AI-driven customer engagement with pharmacies and healthcare professionals worldwide, including agentic AI for commercial/marketing workflows. [Salesforce (Agentforce, Life Sciences Cloud)]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.businesswire.com/news/home/20251008924109/en/Haleon-Selects-Salesforce-Agentforce-Life-Sciences-Cloud-for-Customer-Engagement-to-Improve-Engagement-with-Pharmacies-and-Healthcare-Professionals-with-AI",
+   "raw_sector": "",
+   "date": "2025-10-08",
    "fresh": "fresh"
   }
  ]

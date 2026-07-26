@@ -3,33 +3,49 @@
  "name": "Recordati",
  "cc": "IT",
  "vertical": "Healthcare & Life Sciences",
- "deployments": 2,
- "confirmed": 0,
- "with_value_number": 0,
- "proof_rate": 0.0,
+ "deployments": 9,
+ "confirmed": 7,
+ "with_value_number": 2,
+ "proof_rate": 0.222,
  "mktcap": 11296800000.0,
  "revenue": 2829600000.0,
  "employees": 4693.0,
  "silent": false,
- "per_bn_revenue": 0.71,
- "per_10k_emp": 4.26,
+ "per_bn_revenue": 3.18,
+ "per_10k_emp": 19.18,
  "benchmarks": {
   "global_vertical": {
-   "deployments": 75,
-   "confirmed": 0,
-   "proof_rate": 0,
-   "n": 165
+   "deployments": 62,
+   "confirmed": 68,
+   "proof_rate": 56,
+   "n": 168
   }
  },
- "first_seen": null,
- "by_year": [],
- "undated_pct": 100,
- "momentum": "none",
- "maturity": "L1",
- "maturity_evidence": [
-  "rows_no_confirmed"
+ "first_seen": 2024,
+ "by_year": [
+  {
+   "year": 2024,
+   "n": 1
+  },
+  {
+   "year": 2025,
+   "n": 4
+  },
+  {
+   "year": 2026,
+   "n": 2
+  }
  ],
- "prospect_score": 40,
+ "undated_pct": 22,
+ "momentum": "early_mover,rising",
+ "maturity": "L4",
+ "maturity_evidence": [
+  "multi_horizontal",
+  "named_product:Recordati",
+  "value_number",
+  "multi_year"
+ ],
+ "prospect_score": 81,
  "stack": [],
  "vendor_named": false,
  "deployments_detail": [
@@ -46,6 +62,39 @@
   },
   {
    "company": "Recordati",
+   "use": "AI-driven yield optimization at Recordati's Ireland manufacturing plant: Aizon Predict used predictive regression and time-series models to identify critical process parameters behind a >4% yield drop, then implemented targeted process changes (e.g., optimized drying time). [Aizon (Aizon Predict)]",
+   "existence": "confirmed",
+   "value": "1.5% yield increase; 2% COGS reduction within 3 months",
+   "tier": "",
+   "url": "https://www.aizon.ai/success-stories/how-recordati-improved-yield-by-1-5-in-just-three-months-with-aizons-ai-driven-solutions",
+   "raw_sector": "",
+   "date": "2025",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Recordati",
+   "use": "Manufacturing data unification for AI analysis: Aizon Unify integrated fragmented GxP data sources (process data, material attributes, batch records, sensor/IoT data) into a single platform to enable AI-based root-cause and process analysis. [Aizon (Aizon Unify)]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.pharmaceuticalonline.com/doc/an-ai-use-case-in-pharma-process-optimization-0001",
+   "raw_sector": "",
+   "date": "2025",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Recordati",
+   "use": "AI evidence screening/triage grounded in a licensed biomedical database: MedPro integrated with Elsevier's Embase to let Medical Information teams screen searches and build responses from a single controlled, version-tracked evidence base. [AVAYL (MedPro) + Elsevier (Embase/ScienceDirect)]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.elsevier.com/connect/how-medical-information-is-successfully-harnessing-ai",
+   "raw_sector": "",
+   "date": "2026",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Recordati",
    "use": "Partnership with Healthily (medical AI) to redefine services for professionals, pharmacists, patients in Italy",
    "existence": "claimed",
    "value": "NONE",
@@ -54,6 +103,50 @@
    "raw_sector": "Health Care",
    "date": "missing",
    "fresh": "undated"
+  },
+  {
+   "company": "Recordati",
+   "use": "Generative AI drafting of compliant, evidence-based Medical Information responses to physician/HCP inquiries in Recordati Rare Diseases' Global Medical Information team, using AVAYL MedPro (moved from pilot to production). [AVAYL (MedPro)]",
+   "existence": "confirmed",
+   "value": "Response delivered within ~1 hour vs. typical multi-day turnaround",
+   "tier": "",
+   "url": "https://www.avayl.tech/projects/from-pilot-to-patient-impact",
+   "raw_sector": "",
+   "date": "2025",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Recordati",
+   "use": "AI-assisted systematic literature review/search automation within the Medical Information workflow, letting specialists surface relevant evidence far faster than manual review. [AVAYL (MedPro)]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.linkedin.com/posts/michelle-bridenbaker_generativeai-ai-medicalinformation-activity-7263270079369211905-ciir",
+   "raw_sector": "",
+   "date": "2024",
+   "fresh": "aging"
+  },
+  {
+   "company": "Recordati",
+   "use": "Real-time process monitoring dashboards and automation of previously manual production workflows in the GxP-compliant cloud platform, deployed after the AI analysis at Recordati Ireland. [Aizon]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.aizon.ai/success-stories/how-recordati-improved-yield-by-1-5-in-just-three-months-with-aizons-ai-driven-solutions",
+   "raw_sector": "",
+   "date": "2025",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Recordati",
+   "use": "Audit-ready, governed generative AI for Medical Information: MedPro provides transparent source trails, role-based approvals, and copyright/IP-compliant content handling to meet regulatory/audit requirements for AI-generated medical responses. [AVAYL (MedPro)]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.elsevier.com/connect/how-medical-information-is-successfully-harnessing-ai",
+   "raw_sector": "",
+   "date": "2026",
+   "fresh": "fresh"
   }
  ]
 }

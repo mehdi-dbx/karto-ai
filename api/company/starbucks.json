@@ -3,50 +3,85 @@
  "name": "Starbucks",
  "cc": "US",
  "vertical": "Retail & E-commerce",
- "deployments": 1,
- "confirmed": 1,
- "with_value_number": 0,
- "proof_rate": 0.0,
+ "deployments": 10,
+ "confirmed": 9,
+ "with_value_number": 4,
+ "proof_rate": 0.4,
  "mktcap": 117370000000.0,
  "revenue": 38470000000.0,
  "employees": 381000.0,
  "silent": false,
- "per_bn_revenue": 0.03,
- "per_10k_emp": 0.03,
+ "per_bn_revenue": 0.26,
+ "per_10k_emp": 0.26,
  "benchmarks": {
   "global_vertical": {
-   "deployments": 0,
-   "confirmed": 24,
-   "proof_rate": 0,
-   "n": 295
+   "deployments": 72,
+   "confirmed": 81,
+   "proof_rate": 70,
+   "n": 301
   },
   "country_vertical": {
-   "deployments": 0,
-   "confirmed": 25,
-   "proof_rate": 0,
+   "deployments": 59,
+   "confirmed": 70,
+   "proof_rate": 78,
    "n": 80
   }
  },
- "first_seen": 2025,
+ "first_seen": 2019,
  "by_year": [
   {
+   "year": 2019,
+   "n": 4
+  },
+  {
    "year": 2025,
-   "n": 1
+   "n": 4
+  },
+  {
+   "year": 2026,
+   "n": 2
   }
  ],
  "undated_pct": 0,
- "momentum": "rising",
- "maturity": "L3",
+ "momentum": "early_mover,rising",
+ "maturity": "L4",
  "maturity_evidence": [
+  "multi_horizontal",
   "named_product:Green Dot Assist",
+  "value_number",
+  "multi_year",
   "tier_p"
  ],
- "prospect_score": 46,
+ "prospect_score": 78,
  "stack": [
-  "Microsoft"
+  "Microsoft",
+  "Microsoft Azure",
+  "OpenAI"
  ],
  "vendor_named": true,
  "deployments_detail": [
+  {
+   "company": "Starbucks",
+   "use": "Deep Brew, Starbucks' proprietary AI/ML platform (launched 2019) that powers customer personalization, drives store operations, labor allocation and inventory management across the chain. [Starbucks (in-house, on Microsoft Azure)]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://hyperight.com/deep-brew-transforming-starbucks-into-a-data-driven-company/",
+   "raw_sector": "",
+   "date": "2019",
+   "fresh": "stale"
+  },
+  {
+   "company": "Starbucks",
+   "use": "Green Dot Assist, a generative-AI barista assistant on in-store iPads/tablets that gives conversational answers on drink recipes, seasonal ingredients, troubleshooting, shift planning and coaching, with video tutorials. [Microsoft Azure OpenAI]",
+   "existence": "confirmed",
+   "value": "Pilot across 35 locations, with rollout to US/Canada stores planned for fiscal year 2026",
+   "tier": "",
+   "url": "https://www.geekwire.com/2025/starbucks-reveals-ai-powered-assistant-to-help-baristas-focus-more-on-coffee-and-customers/",
+   "raw_sector": "",
+   "date": "2025-06-10",
+   "fresh": "fresh"
+  },
   {
    "company": "Starbucks",
    "use": "\"Green Dot Assist\" GenAI barista assistant (Microsoft) + \"Deep Brew\" AI for personalization/inventory",
@@ -57,6 +92,83 @@
    "raw_sector": "Consumer Discretionary",
    "date": "2025",
    "fresh": "fresh"
+  },
+  {
+   "company": "Starbucks",
+   "use": "Computer-vision / spatial-intelligence inventory-counting tool that automated shelf/stock counts to prevent stockouts. Deployed across North America ~Sept 2025 and then discontinued in May 2026 after being deemed unreliable. [not disclosed (computer vision)]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.restaurantdive.com/news/Starbucks-eliminates-computer-vision-ai-inventory-system/820934/",
+   "raw_sector": "",
+   "date": "2026-05-22",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Starbucks",
+   "use": "Azure Sphere IoT connected-equipment program: sensors on espresso machines collect a dozen+ data points per shot to enable predictive maintenance and secure cloud delivery of recipes (replacing thumb-drive updates). [Microsoft Azure Sphere]",
+   "existence": "confirmed",
+   "value": "More than 5 megabytes of data generated per machine in an eight-hour shift",
+   "tier": "",
+   "url": "https://news.microsoft.com/source/features/digital-transformation/starbucks-turns-to-technology-to-brew-up-a-more-personal-connection-with-its-customers/",
+   "raw_sector": "",
+   "date": "2019-05-06",
+   "fresh": "stale"
+  },
+  {
+   "company": "Starbucks",
+   "use": "AI-driven labor scheduling / staffing optimization (part of Deep Brew) that automates store scheduling grids and supports 'Green Apron Service' by placing the right partners at the right times. [Starbucks (Deep Brew)]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.gocanopy.com/glossary/starbucks-deep-brew",
+   "raw_sector": "",
+   "date": "2025-11-26",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Starbucks",
+   "use": "Machine-learning demand and food/inventory forecasting models used to improve inventory accuracy and food availability across stores. [Starbucks (Deep Brew)]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.forbes.com/sites/randybean/2025/09/11/how-starbucks-is-using-data-and-ai-to-deliver-joy-and-connection-to-its-customers/",
+   "raw_sector": "",
+   "date": "2025-09-11",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Starbucks",
+   "use": "Reinforcement-learning recommendation engine in the Starbucks mobile app that generates tailored order suggestions based on local store inventory, weather, time of day, community preferences and past orders. [Microsoft Azure]",
+   "existence": "confirmed",
+   "value": "16 million active Starbucks Rewards members receiving personalized suggestions",
+   "tier": "",
+   "url": "https://news.microsoft.com/source/features/digital-transformation/starbucks-turns-to-technology-to-brew-up-a-more-personal-connection-with-its-customers/",
+   "raw_sector": "",
+   "date": "2019-05-06",
+   "fresh": "stale"
+  },
+  {
+   "company": "Starbucks",
+   "use": "Beta Starbucks app inside ChatGPT that lets customers discover drinks from a mood, 'vibe', text prompt or photo, then pick a store, customize and hand off the order to the Starbucks app or Starbucks.com for checkout. [OpenAI (ChatGPT)]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://about.starbucks.com/press/2026/a-new-way-to-inspire-your-starbucks-order/",
+   "raw_sector": "",
+   "date": "2026-04-15",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Starbucks",
+   "use": "Predictive drive-thru ordering: AI-driven digital menu boards that make order recommendations using store transaction histories and 400+ store-level criteria. [Microsoft Azure]",
+   "existence": "claimed",
+   "value": "more than 400 store-level criteria used for recommendations",
+   "tier": "",
+   "url": "https://news.microsoft.com/source/features/digital-transformation/starbucks-turns-to-technology-to-brew-up-a-more-personal-connection-with-its-customers/",
+   "raw_sector": "",
+   "date": "2019-05-06",
+   "fresh": "stale"
   }
  ]
 }

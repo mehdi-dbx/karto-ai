@@ -3,47 +3,61 @@
  "name": "Hapvida",
  "cc": "BR",
  "vertical": "Healthcare & Life Sciences",
- "deployments": 1,
- "confirmed": 1,
- "with_value_number": 1,
- "proof_rate": 1.0,
+ "deployments": 15,
+ "confirmed": 14,
+ "with_value_number": 12,
+ "proof_rate": 0.8,
  "mktcap": 1001851852.0,
  "revenue": 5898148148.0,
  "employees": 68000.0,
  "silent": false,
- "per_bn_revenue": 0.17,
- "per_10k_emp": 0.15,
+ "per_bn_revenue": 2.54,
+ "per_10k_emp": 2.21,
  "benchmarks": {
   "global_vertical": {
-   "deployments": 0,
-   "confirmed": 13,
-   "proof_rate": 83,
-   "n": 165
+   "deployments": 95,
+   "confirmed": 98,
+   "proof_rate": 98,
+   "n": 168
   },
   "country_vertical": {
-   "deployments": 0,
-   "confirmed": 0,
-   "proof_rate": 25,
+   "deployments": 100,
+   "confirmed": 100,
+   "proof_rate": 75,
    "n": 5
   }
  },
- "first_seen": 2026,
+ "first_seen": 2021,
  "by_year": [
   {
-   "year": 2026,
+   "year": 2021,
+   "n": 2
+  },
+  {
+   "year": 2023,
    "n": 1
+  },
+  {
+   "year": 2025,
+   "n": 4
+  },
+  {
+   "year": 2026,
+   "n": 8
   }
  ],
  "undated_pct": 0,
- "momentum": "late_entrant,rising",
- "maturity": "L3",
+ "momentum": "early_mover,rising",
+ "maturity": "L4",
  "maturity_evidence": [
+  "multi_horizontal",
   "named_product:Internally",
-  "value_number"
+  "value_number",
+  "multi_year"
  ],
- "prospect_score": 14,
+ "prospect_score": 68,
  "stack": [],
- "vendor_named": false,
+ "vendor_named": true,
  "deployments_detail": [
   {
    "company": "Hapvida",
@@ -54,6 +68,160 @@
    "url": "https://medicinasa.com.br/hapvida-ia/",
    "raw_sector": "Saúde",
    "date": "2026",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Hapvida",
+   "use": "AutoCID: AI analyzes consultation anamnesis text and automatically suggests ICD-10 diagnostic codes for physicians in emergency/outpatient care, speeding coding and clinical classification. [Hapvida (internal development)]",
+   "existence": "confirmed",
+   "value": "Used across 22M+ emergency visits; 96% accuracy; 88% physician concordance",
+   "tier": "",
+   "url": "https://tiinside.com.br/20/02/2026/com-escala-governanca-e-impacto-hapvida-consolida-tecnologia-como-pilar-estrategico/",
+   "raw_sector": "",
+   "date": "2026-02-20",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Hapvida",
+   "use": "AI voice transcription of medical consultations that generates the patient history (anamnesis) in real time and suggests CID codes, deployed on telemedicine platforms nationwide and in-person in Ceará emergency departments. [Hapvida (internal development)]",
+   "existence": "confirmed",
+   "value": "604,383 consultations transcribed Jan-May 2026; 94% physician agreement with CID; 646+ physicians engaged",
+   "tier": "",
+   "url": "https://medicinasa.com.br/hapvida-ia/",
+   "raw_sector": "",
+   "date": "2026-07-14",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Hapvida",
+   "use": "AI electrocardiogram (ECG) analysis system that automatically evaluates ECGs in under a minute to flag cardiac abnormalities and prioritize urgent cases in emergency departments. [Hapvida NotreDame Intermédica (mix of internal and market solutions)]",
+   "existence": "confirmed",
+   "value": "Since 2021: 382,000+ ECGs analyzed, ~145,000 abnormalities identified, ~8,000 severe cases; reports within 15 minutes",
+   "tier": "",
+   "url": "https://convergenciadigital.com.br/mercado/hapvida-notredame-investe-em-ia-para-salvar-vidas-de-pacientes-cardacos/",
+   "raw_sector": "",
+   "date": "2023-08-30",
+   "fresh": "stale"
+  },
+  {
+   "company": "Hapvida",
+   "use": "Octopus-X: AI classifies chest and lumbar-spine X-ray images as normal or altered and alerts physicians to potential pathologies, integrated with the PACS imaging infrastructure. [Maida.Health (Hapvida group tech holding)]",
+   "existence": "confirmed",
+   "value": "Classifies 43% of chest X-rays (98.65% precision on normals); alerted on 6,000+ suspected Covid-19 cases",
+   "tier": "",
+   "url": "https://www.trendsce.com.br/2021/04/23/sistema-octopus-maximiza-fluxo-de-exames-e-procedimentos-medicos/",
+   "raw_sector": "",
+   "date": "2021-04-23",
+   "fresh": "stale"
+  },
+  {
+   "company": "Hapvida",
+   "use": "AI platform that automatically identifies and selects beneficiaries eligible for clinical research studies (oncology, obesity, neurology, rare diseases) across the national network. [Hapvida (internal proprietary platform)]",
+   "existence": "confirmed",
+   "value": "80% reduction in time to identify/screen eligible patients; 275 eligible beneficiaries identified, 39 enrolled in oncology studies",
+   "tier": "",
+   "url": "https://www.cnnbrasil.com.br/economia/negocios/hapvida-amplia-centro-de-pesquisa-em-sp-e-aposta-em-ia-para-acelerar-selecao-de-pacientes/",
+   "raw_sector": "",
+   "date": "2026-06-23",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Hapvida",
+   "use": "AI model for early identification of endometriosis through automated medical image analysis. [Hapvida (internal development)]",
+   "existence": "confirmed",
+   "value": "90% assertion rate",
+   "tier": "",
+   "url": "https://tiinside.com.br/20/02/2026/com-escala-governanca-e-impacto-hapvida-consolida-tecnologia-como-pilar-estrategico/",
+   "raw_sector": "",
+   "date": "2026-02-20",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Hapvida",
+   "use": "Chronic kidney disease prevention model that identifies patients at risk of renal-disease progression using machine learning. [Hapvida CEREIA with UFC/UFPI/Unifor (XGBoost)]",
+   "existence": "confirmed",
+   "value": "72% accuracy vs 22% traditional; analyzed 511k patients and 3M+ lab records",
+   "tier": "",
+   "url": "https://www.segs.com.br/seguros/427782-hapvida-e-universidades-avancam-fronteira-da-ia-na-saude-beneficiando-milhares-de-pacientes/amp",
+   "raw_sector": "",
+   "date": "2025-08-19",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Hapvida",
+   "use": "Breast cancer risk prediction model estimating five-year cancer development risk and reducing overdiagnosis, trained on mammography reports. [Hapvida CEREIA with universities (neural network)]",
+   "existence": "confirmed",
+   "value": "Neural network trained on 1.3M mammography reports",
+   "tier": "",
+   "url": "https://www.segs.com.br/seguros/427782-hapvida-e-universidades-avancam-fronteira-da-ia-na-saude-beneficiando-milhares-de-pacientes/amp",
+   "raw_sector": "",
+   "date": "2025-08-19",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Hapvida",
+   "use": "AI model applying machine learning to predict risk of developing type 2 diabetes before diagnosis, incorporated into the preventive medicine platform to guide early interventions. [Hapvida (machine learning; model originated as HEC Paris thesis by CEO Luccas Adib)]",
+   "existence": "claimed",
+   "value": "Trained on millions of anonymized healthcare records",
+   "tier": "",
+   "url": "https://esbrasil.com.br/hapvida-ia-prever-risco-diabetes-tipo-2/",
+   "raw_sector": "",
+   "date": "2026-06-17",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Hapvida",
+   "use": "Octopus: AI system that automates authorization of exams and medical procedures, reducing response time and removing the need for call-center authorization teams while enabling quality supervision. [Maida.Health (Hapvida group tech holding)]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.trendsce.com.br/2021/04/23/sistema-octopus-maximiza-fluxo-de-exames-e-procedimentos-medicos/",
+   "raw_sector": "",
+   "date": "2021-04-23",
+   "fresh": "stale"
+  },
+  {
+   "company": "Hapvida",
+   "use": "Predictive no-show model estimating the probability that a patient will miss a scheduled appointment, enabling proactive scheduling actions. [Hapvida (internal development)]",
+   "existence": "confirmed",
+   "value": "17% reduction in missed appointments; 9% increase in physician productivity",
+   "tier": "",
+   "url": "https://tiinside.com.br/20/02/2026/com-escala-governanca-e-impacto-hapvida-consolida-tecnologia-como-pilar-estrategico/",
+   "raw_sector": "",
+   "date": "2026-02-20",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Hapvida",
+   "use": "Intelligent dental image audit that detects duplicate/inconsistent dental exams to prevent fraud and waste in claims auditing. [Hapvida with Universidade Federal do Ceará (BoVW/SIFT/VGG-16 CNN)]",
+   "existence": "confirmed",
+   "value": "95.6% precision identifying duplicated exams",
+   "tier": "",
+   "url": "https://www.segs.com.br/seguros/427782-hapvida-e-universidades-avancam-fronteira-da-ia-na-saude-beneficiando-milhares-de-pacientes/amp",
+   "raw_sector": "",
+   "date": "2025-08-19",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Hapvida",
+   "use": "MarIA: LLM-based virtual assistant supporting beneficiaries in chronic disease management and adherence to preventive care programs. [Hapvida (Large Language Models)]",
+   "existence": "confirmed",
+   "value": "50k+ interactions; 98.9% user approval; 360+ scheduled consultations",
+   "tier": "",
+   "url": "https://www.segs.com.br/seguros/427782-hapvida-e-universidades-avancam-fronteira-da-ia-na-saude-beneficiando-milhares-de-pacientes/amp",
+   "raw_sector": "",
+   "date": "2025-08-19",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Hapvida",
+   "use": "Customer-facing chatbot on Hapvida's website/app for scheduling appointments and exams, issuing duplicate invoices (boletos), and answering member questions. [Hapvida]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www2.hapvida.com.br/atendimento/saude",
+   "raw_sector": "",
+   "date": "2026-07-20",
    "fresh": "fresh"
   }
  ]

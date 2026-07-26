@@ -3,35 +3,56 @@
  "name": "Telefónica",
  "cc": "ES",
  "vertical": "Telecom",
- "deployments": 1,
- "confirmed": 1,
- "with_value_number": 0,
- "proof_rate": 0.0,
+ "deployments": 10,
+ "confirmed": 7,
+ "with_value_number": 6,
+ "proof_rate": 0.6,
  "mktcap": 22021200000.0,
  "revenue": 38782800000.0,
  "employees": 82175.0,
  "silent": false,
- "per_bn_revenue": 0.03,
- "per_10k_emp": 0.12,
+ "per_bn_revenue": 0.26,
+ "per_10k_emp": 1.22,
  "benchmarks": {
   "global_vertical": {
-   "deployments": 0,
-   "confirmed": 16,
-   "proof_rate": 0,
-   "n": 93
+   "deployments": 54,
+   "confirmed": 57,
+   "proof_rate": 88,
+   "n": 94
   }
  },
- "first_seen": null,
- "by_year": [],
- "undated_pct": 100,
- "momentum": "none",
- "maturity": "L3",
- "maturity_evidence": [
-  "named_product:Generative"
+ "first_seen": 2024,
+ "by_year": [
+  {
+   "year": 2024,
+   "n": 1
+  },
+  {
+   "year": 2025,
+   "n": 6
+  },
+  {
+   "year": 2026,
+   "n": 2
+  }
  ],
- "prospect_score": 46,
+ "undated_pct": 10,
+ "momentum": "early_mover,rising",
+ "maturity": "L4",
+ "maturity_evidence": [
+  "multi_horizontal",
+  "named_product:Generative",
+  "value_number",
+  "multi_year"
+ ],
+ "prospect_score": 58,
  "stack": [
-  "NVIDIA"
+  "Meta",
+  "Microsoft",
+  "Microsoft Azure",
+  "NVIDIA",
+  "OpenAI",
+  "Palantir"
  ],
  "vendor_named": true,
  "deployments_detail": [
@@ -45,6 +66,105 @@
    "raw_sector": "Telecommunications",
    "date": "missing",
    "fresh": "undated"
+  },
+  {
+   "company": "Telefónica",
+   "use": "GenIA generative-AI workplace virtual assistant deployed for Prosegur employees to resolve IT support incidents and manage work environment (part of Smart Workplace All in One) [Telefónica (GenIA platform)]",
+   "existence": "confirmed",
+   "value": "~24,000 Prosegur employees across 16 countries",
+   "tier": "",
+   "url": "https://www.telefonica.com/en/communication-room/press-room/telefonica-incorporate-generative-ai-workplace-prosegur-iberia-latin-america/",
+   "raw_sector": "",
+   "date": "2025-02-21",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Telefónica",
+   "use": "Aura, Telefónica's AI-powered digital/virtual assistant across customer service channels (My Movistar, O2 app, hotlines) handling product/service queries and account management [Telefónica (originally built with Microsoft)]",
+   "existence": "confirmed",
+   "value": "400 million interactions per year",
+   "tier": "",
+   "url": "https://www.telefonica.com/en/transformation-handbooks/innovation-handbook/aura-telefonicas-artificial-intelligence/",
+   "raw_sector": "",
+   "date": "2024",
+   "fresh": "aging"
+  },
+  {
+   "company": "Telefónica",
+   "use": "I.Ajuda AI call-center assistant giving contact-center agents AI-generated insights/responses to resolve customer issues faster [Microsoft Azure OpenAI Service (Azure AI Foundry, Document Intelligence, Cosmos DB, AKS)]",
+   "existence": "confirmed",
+   "value": "23,000 agents, 5.3M questions/month, average handling time cut 9% (consumer) and 4% (business)",
+   "tier": "",
+   "url": "https://www.microsoft.com/en/customers/story/23109-telefonica-brasil-azure-open-ai-service",
+   "raw_sector": "",
+   "date": "2025-02-04",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Telefónica",
+   "use": "Compressed LLM (quantum-inspired compression of Meta Llama 3.1 8B / 3.3 70B) to power an on-premise chatbot supporting Movistar customer-service agents ('Movistar por ti') [Multiverse Computing (CompactifAI) + Meta Llama]",
+   "existence": "claimed",
+   "value": "80% model-size reduction, 75% energy savings",
+   "tier": "",
+   "url": "https://multiversecomputing.com/resources/telefonica-and-multiverse-computing-develop-an-ai-based-model-to-support-customer-service-agents",
+   "raw_sector": "",
+   "date": "2025-11-12",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Telefónica",
+   "use": "Level 4 autonomous-network AI use cases: self-healing 5G Core, AI capacity provisioning (Fractal), digital twins (NetOptimizer), intelligent IP weakness detection and autonomous resolution across Spain, Germany and Brazil [Telefónica (Autonomous Network Journey)]",
+   "existence": "confirmed",
+   "value": "12 Level 4 use cases by end 2025; Germany flapping impact cut 70%, capacity issues cut 40%",
+   "tier": "",
+   "url": "https://www.telefonica.com/en/communication-room/press-room/telefonica-accelerates-transformation-autonomous-networks-reaches-12-level-4-cases/",
+   "raw_sector": "",
+   "date": "2026-02-18",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Telefónica",
+   "use": "Network Operations Agent (NOA), a generative-AI assistant helping engineers/service managers diagnose and resolve network issues, automate tickets and train staff [O2 Telefónica (built internally with generative AI)]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.rcrwireless.com/20260323/carriers/o2-telefonica-ai-2",
+   "raw_sector": "",
+   "date": "2026-03-23",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Telefónica",
+   "use": "Distributed edge AI infrastructure pilot across Spain (edge AI 'fabric') to bring AI inference closer to data for government and financial-services sectors with data sovereignty [NVIDIA (AI Enterprise, NIM microservices, GPUs)]",
+   "existence": "claimed",
+   "value": "hundreds of NVIDIA GPUs",
+   "tier": "",
+   "url": "https://blogs.nvidia.com/blog/european-telcos-ai-factories/",
+   "raw_sector": "",
+   "date": "2025-06-11",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Telefónica",
+   "use": "Telefónica Tech GenAI Platform: multi-model (open-source and proprietary LLM) platform to build customizable virtual assistants/agents for customer service, HR and financial planning [Telefónica Tech (with Altostratus; multi-hyperscaler, multi-model)]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.telefonica.com/en/communication-room/press-room/telefonica-tech-launches-generative-ai-platform-create-customisable-virtual-assistants/",
+   "raw_sector": "",
+   "date": "2025-01-28",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Telefónica",
+   "use": "AI/analytics platform (ClearScape Analytics) for customer analytics, personalization and revenue optimization, with move toward generative AI [Teradata (ClearScape Analytics)]",
+   "existence": "claimed",
+   "value": "$190M in revenue attributed to AI",
+   "tier": "",
+   "url": "https://www.teradata.com/customers/telefonica-argentina",
+   "raw_sector": "",
+   "date": "2025",
+   "fresh": "fresh"
   }
  ]
 }

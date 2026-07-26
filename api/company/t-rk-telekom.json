@@ -3,34 +3,41 @@
  "name": "Türk Telekom",
  "cc": "TR",
  "vertical": "Telecom",
- "deployments": 2,
- "confirmed": 1,
- "with_value_number": 0,
- "proof_rate": 0.0,
+ "deployments": 7,
+ "confirmed": 5,
+ "with_value_number": 1,
+ "proof_rate": 0.143,
  "mktcap": 6414687500.0,
  "revenue": 7731875000.0,
  "employees": 31076.0,
  "silent": false,
- "per_bn_revenue": 0.26,
- "per_10k_emp": 0.64,
+ "per_bn_revenue": 0.91,
+ "per_10k_emp": 2.25,
  "benchmarks": {
   "global_vertical": {
-   "deployments": 57,
-   "confirmed": 16,
-   "proof_rate": 0,
-   "n": 93
+   "deployments": 38,
+   "confirmed": 44,
+   "proof_rate": 22,
+   "n": 94
   }
  },
- "first_seen": null,
- "by_year": [],
- "undated_pct": 100,
- "momentum": "none",
+ "first_seen": 2026,
+ "by_year": [
+  {
+   "year": 2026,
+   "n": 2
+  }
+ ],
+ "undated_pct": 71,
+ "momentum": "late_entrant,rising",
  "maturity": "L3",
  "maturity_evidence": [
+  "multi_horizontal",
   "named_product:TiTi",
+  "value_number",
   "tier_p"
  ],
- "prospect_score": 54,
+ "prospect_score": 72,
  "stack": [],
  "vendor_named": false,
  "deployments_detail": [
@@ -53,6 +60,61 @@
    "tier": "P",
    "url": "https://bireysel.turktelekom.com.tr/titi",
    "raw_sector": "Telecom",
+   "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "Türk Telekom",
+   "use": "Site inspection time reduction using AI and computer vision",
+   "existence": "confirmed",
+   "value": "98%",
+   "tier": "",
+   "url": "https://www.gsma.com/get-involved/gsma-foundry/gsma_resources/how-turk-telekom-achieved-a-98-reduction-in-site-inspection-time-using-ai-and-computer-vision/",
+   "raw_sector": "",
+   "date": "2026-01-06",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Türk Telekom",
+   "use": "Anomaly detection in network operations (RTT, network traffic, alarm duration)",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.tmforum.org/wp-content/uploads/2021/02/TM-Forum-Excellence-Awards-Case-Study-AID_Turk-Telekom.pdf",
+   "raw_sector": "",
+   "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "Türk Telekom",
+   "use": "AI-powered digital transformation project for Turkey's prison system",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://techafricanews.com/2026/07/03/turk-telekom-expands-ai-powered-digital-transformation-project-for-turkeys-prison-system/",
+   "raw_sector": "",
+   "date": "2026-07-03",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Türk Telekom",
+   "use": "AIOps (Artificial Intelligence for IT Operations)",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.microfocus.com/en-us/case-study/turk-telekom",
+   "raw_sector": "",
+   "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "Türk Telekom",
+   "use": "AI-assisted DDoS support platform",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://blog.stevieawards.com/hubfs/IBA25%20Gold%20Entry%20PDFs_new%20URL/376_AI%20Assisted%20DDOS%20Support%20Platform.pdf",
+   "raw_sector": "",
    "date": "missing",
    "fresh": "undated"
   }

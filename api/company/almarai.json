@@ -3,22 +3,22 @@
  "name": "Almarai",
  "cc": "SA",
  "vertical": "Retail & E-commerce",
- "deployments": 2,
- "confirmed": 1,
+ "deployments": 5,
+ "confirmed": 3,
  "with_value_number": 0,
  "proof_rate": 0.0,
  "mktcap": 12288000000.0,
  "revenue": 6144000000.0,
  "employees": 46997.0,
  "silent": false,
- "per_bn_revenue": 0.33,
- "per_10k_emp": 0.43,
+ "per_bn_revenue": 0.81,
+ "per_10k_emp": 1.06,
  "benchmarks": {
   "global_vertical": {
-   "deployments": 71,
-   "confirmed": 24,
+   "deployments": 39,
+   "confirmed": 32,
    "proof_rate": 0,
-   "n": 295
+   "n": 301
   }
  },
  "first_seen": 2024,
@@ -26,18 +26,25 @@
   {
    "year": 2024,
    "n": 2
+  },
+  {
+   "year": 2025,
+   "n": 2
   }
  ],
- "undated_pct": 0,
- "momentum": "early_mover,gone_quiet",
- "maturity": "L3",
+ "undated_pct": 20,
+ "momentum": "early_mover,flat",
+ "maturity": "L4",
  "maturity_evidence": [
+  "multi_horizontal",
   "named_product:Technology",
+  "multi_year",
   "tier_p"
  ],
- "prospect_score": 46,
+ "prospect_score": 58,
  "stack": [
-  "Google Cloud"
+  "Google Cloud",
+  "SAP"
  ],
  "vendor_named": true,
  "deployments_detail": [
@@ -54,6 +61,17 @@
   },
   {
    "company": "Almarai",
+   "use": "Generative AI for food security and operational excellence [Google Cloud, SAP]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.forbes.com/sites/sap/2025/02/11/this-middle-eastern-dairy-company-uses-ai-to-boost-food-security/",
+   "raw_sector": "",
+   "date": "2025-02-11",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Almarai",
    "use": "Migration to Google Cloud with Business Intelligence Center using AI to improve productivity and operational efficiency",
    "existence": "claimed",
    "value": "none",
@@ -62,6 +80,28 @@
    "raw_sector": "Food",
    "date": "2024",
    "fresh": "aging"
+  },
+  {
+   "company": "Almarai",
+   "use": "SAP S/4HANA implementation with emerging AI technologies on Google Cloud [SAP, Google Cloud]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://news.sap.com/africa/2025/01/almarai-successfully-deploys-sap-solutions-to-power-strategic-expansion/?amp=1",
+   "raw_sector": "",
+   "date": "2025-01-09",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Almarai",
+   "use": "AI-based predictive analytics for demand management and production scheduling",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.scribd.com/document/837513595/Case-Study-Almarai-Supply-Chain-Management",
+   "raw_sector": "",
+   "date": "missing",
+   "fresh": "undated"
   }
  ]
 }

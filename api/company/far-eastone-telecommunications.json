@@ -3,42 +3,52 @@
  "name": "Far EasTone Telecommunications",
  "cc": "TW",
  "vertical": "Telecom",
- "deployments": 2,
- "confirmed": 2,
- "with_value_number": 1,
- "proof_rate": 0.5,
+ "deployments": 13,
+ "confirmed": 13,
+ "with_value_number": 7,
+ "proof_rate": 0.538,
  "mktcap": 11553750000.0,
  "revenue": 3481875000.0,
  "employees": 5941.0,
  "silent": false,
- "per_bn_revenue": 0.57,
- "per_10k_emp": 3.37,
+ "per_bn_revenue": 3.73,
+ "per_10k_emp": 21.88,
  "benchmarks": {
   "global_vertical": {
-   "deployments": 57,
-   "confirmed": 65,
-   "proof_rate": 58,
-   "n": 93
+   "deployments": 82,
+   "confirmed": 91,
+   "proof_rate": 82,
+   "n": 94
   }
  },
- "first_seen": 2025,
+ "first_seen": 2024,
  "by_year": [
   {
+   "year": 2024,
+   "n": 1
+  },
+  {
    "year": 2025,
+   "n": 10
+  },
+  {
+   "year": 2026,
    "n": 2
   }
  ],
  "undated_pct": 0,
- "momentum": "rising",
- "maturity": "L3",
+ "momentum": "early_mover,rising",
+ "maturity": "L4",
  "maturity_evidence": [
   "multi_horizontal",
   "named_product:Deployed",
   "value_number",
+  "multi_year",
   "tier_p"
  ],
- "prospect_score": 32,
+ "prospect_score": 78,
  "stack": [
+  "Microsoft",
   "Microsoft Azure",
   "OpenAI"
  ],
@@ -57,6 +67,72 @@
   },
   {
    "company": "Far EasTone Telecommunications",
+   "use": "Ericsson Service Continuity AI Apps Suite deployed across FET's 5G RAN to automate monitoring, traffic prediction and performance optimization, cutting daily per-site energy consumption [Ericsson]",
+   "existence": "confirmed",
+   "value": "25% average daily per-site energy saving; potential ~50,000 tons/year CO2 reduction if network-wide",
+   "tier": "",
+   "url": "https://www.feg.com.tw/en/news/news_detail.aspx?id=11259",
+   "raw_sector": "",
+   "date": "2024-06-28",
+   "fresh": "aging"
+  },
+  {
+   "company": "Far EasTone Telecommunications",
+   "use": "FET AI Genie (遠傳智靈), FET's proprietary enterprise-grade generative-AI PaaS platform built on Azure OpenAI with RAG, offered to enterprise customers across public admin, education, healthcare, finance, ports, transportation and retail [Microsoft Azure OpenAI]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.ithome.com.tw/pr/173283",
+   "raw_sector": "",
+   "date": "2026-01-16",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Far EasTone Telecommunications",
+   "use": "AI-driven 5G Standalone ecosystem with Ericsson and OPPO: URSP application-level network slicing plus on-device AI for performance-based differentiated connectivity, validated on FET's live 5G SA network (large-scale concert scenario, shown at MWC) [Ericsson, OPPO]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.ericsson.com/en/press-releases/2/2026/ericsson-far-eastone-oppo-demonstrate-ai-driven-5g-standalone-ecosystem-differentiated-connectivity",
+   "raw_sector": "",
+   "date": "2026-02-06",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Far EasTone Telecommunications",
+   "use": "Smart-city AI on FET's IoT platform: AI power-demand forecasting, smart-streetlight/smart-pole monitoring, smart water-level (水情) monitoring, image recognition and disaster early-warning, plus a digital-twin platform for simulation and risk prediction [none]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.cna.com.tw/postwrite/chi/410463",
+   "raw_sector": "",
+   "date": "2025-08-25",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Far EasTone Telecommunications",
+   "use": "Operation Smart Genie — internal generative-AI assistant for IT operations enabling domain experts to collaborate with AI for autonomous learning and incident analysis [none]",
+   "existence": "confirmed",
+   "value": "Incident-analysis manpower reduced 30-50%",
+   "tier": "",
+   "url": "https://www.feg.com.tw/en/news/news_detail.aspx?id=12725",
+   "raw_sector": "",
+   "date": "2025-11-26",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Far EasTone Telecommunications",
+   "use": "愛瑪 (Emma) intelligent customer-service chatbot with human handoff, big-data-driven service prediction and 24/7 online/offline support [none]",
+   "existence": "confirmed",
+   "value": "~400,000 interactions/month; estimated NT$54 million/year labor savings",
+   "tier": "",
+   "url": "https://www.ctee.com.tw/news/20250717700909-430201",
+   "raw_sector": "",
+   "date": "2025-07-17",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Far EasTone Telecommunications",
    "use": "friDay streaming used AI recommendations to expand active content from 3,000-4,000 to 35,000 titles, boosting engagement",
    "existence": "confirmed",
    "value": "35,000 titles active",
@@ -64,6 +140,61 @@
    "url": "https://www.feg.com.tw/tw/news/news_detail.aspx?id=11068",
    "raw_sector": "Telecom",
    "date": "2025",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Far EasTone Telecommunications",
+   "use": "friDay Video AI conversational movie/OTT recommendation using semantic and sentiment analysis (first Taiwan OTT to add generative AI) [none]",
+   "existence": "confirmed",
+   "value": "7x higher click-through rate; sales +1.6x during Double 11; new member registrations more than doubled",
+   "tier": "",
+   "url": "https://www.feg.com.tw/en/news/news_detail.aspx?id=12725",
+   "raw_sector": "",
+   "date": "2025-11-26",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Far EasTone Telecommunications",
+   "use": "Microsoft 365 Copilot deployed across daily workflows (product management, retail, legal, accounting, procurement, IT) for contract review, document summarization, supplier/KYC verification [Microsoft]",
+   "existence": "confirmed",
+   "value": "Lease review time -66%; summary analysis -95%; 2,000+ minutes/month saved on approvals; supplier verification -75-90%; KYC time -60-99%",
+   "tier": "",
+   "url": "https://www.feg.com.tw/en/news/news_detail.aspx?id=12725",
+   "raw_sector": "",
+   "date": "2025-11-26",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Far EasTone Telecommunications",
+   "use": "Network Technology AI assistant integrating historical incident records and 300+ operational manuals for problem identification, work-order automation and early-stage risk alerts in network operations [none]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.feg.com.tw/en/news/news_detail.aspx?id=12725",
+   "raw_sector": "",
+   "date": "2025-11-26",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Far EasTone Telecommunications",
+   "use": "打詐智靈 (Anti-Fraud Genie) AI fraud-prevention platform providing three defense lines — AI phone-fraud, AI SMS-fraud and AI web-fraud blocking — using a 600,000-keyword semantic database and ML [none]",
+   "existence": "confirmed",
+   "value": "Suspicious calls blocked within 2 hours; 90%+ fraudulent SMS interception; 31 million high-risk links blocked monthly; phone-fraud detection accuracy 95%",
+   "tier": "",
+   "url": "https://www.fetnet.net/content/cbu/tw/lifecircle/tech/2025/07/FETAI.html",
+   "raw_sector": "",
+   "date": "2025-08-04",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Far EasTone Telecommunications",
+   "use": "AI 聲份證 (AI Voiceprint ID) — voice-recognition authentication in the customer-service call flow so users authenticate once and are identified by voiceprint on subsequent calls [none]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://money.udn.com/money/amp/story/5612/8876670",
+   "raw_sector": "",
+   "date": "2025-07-16",
    "fresh": "fresh"
   }
  ]

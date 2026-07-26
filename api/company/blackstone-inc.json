@@ -3,41 +3,64 @@
  "name": "Blackstone Inc.",
  "cc": "US",
  "vertical": "Financial Services",
- "deployments": 1,
- "confirmed": 0,
- "with_value_number": 0,
- "proof_rate": 0.0,
+ "deployments": 11,
+ "confirmed": 9,
+ "with_value_number": 6,
+ "proof_rate": 0.545,
  "mktcap": 150540000000.0,
  "revenue": 15840000000.0,
  "employees": 5285.0,
  "silent": false,
- "per_bn_revenue": 0.06,
- "per_10k_emp": 1.89,
+ "per_bn_revenue": 0.69,
+ "per_10k_emp": 20.81,
  "benchmarks": {
   "global_vertical": {
-   "deployments": 0,
-   "confirmed": 0,
-   "proof_rate": 0,
-   "n": 377
+   "deployments": 72,
+   "confirmed": 73,
+   "proof_rate": 83,
+   "n": 388
   },
   "country_vertical": {
-   "deployments": 0,
-   "confirmed": 0,
-   "proof_rate": 0,
-   "n": 76
+   "deployments": 68,
+   "confirmed": 68,
+   "proof_rate": 93,
+   "n": 77
   }
  },
- "first_seen": null,
- "by_year": [],
- "undated_pct": 100,
- "momentum": "none",
- "maturity": "L1",
- "maturity_evidence": [
-  "rows_no_confirmed"
+ "first_seen": 2023,
+ "by_year": [
+  {
+   "year": 2023,
+   "n": 6
+  },
+  {
+   "year": 2024,
+   "n": 1
+  },
+  {
+   "year": 2026,
+   "n": 2
+  }
  ],
- "prospect_score": 40,
- "stack": [],
- "vendor_named": false,
+ "undated_pct": 18,
+ "momentum": "early_mover,cooling",
+ "maturity": "L4",
+ "maturity_evidence": [
+  "multi_horizontal",
+  "named_product:DocAI",
+  "value_number",
+  "multi_year"
+ ],
+ "prospect_score": 72,
+ "stack": [
+  "Anthropic",
+  "Google Cloud",
+  "Microsoft",
+  "OpenAI",
+  "Salesforce",
+  "Snowflake"
+ ],
+ "vendor_named": true,
  "deployments_detail": [
   {
    "company": "Blackstone Inc.",
@@ -49,6 +72,116 @@
    "raw_sector": "Financials",
    "date": "missing",
    "fresh": "undated"
+  },
+  {
+   "company": "Blackstone Inc.",
+   "use": "Data science team embeds 50+ data scientists on deal/investment teams, combining predictive and generative AI to build first-pass investment models, forecast economic scenarios, evaluate portfolio performance and support deal sourcing/due diligence (including AI-driven decisions to reject deals). [Blackstone in-house data science]",
+   "existence": "confirmed",
+   "value": "50+ data scientists; ~$200M estimated bottom-line impact (per blackstone.com/investing-in-ai)",
+   "tier": "",
+   "url": "https://www.institutionalinvestor.com/article/2c5n7hypxbs38zj9xsutc/portfolio/how-blackstone-sprinted-ahead-of-its-peers-in-ai",
+   "raw_sector": "",
+   "date": "2023-09",
+   "fresh": "stale"
+  },
+  {
+   "company": "Blackstone Inc.",
+   "use": "Link Logistics (Blackstone's warehouse/logistics portfolio company) uses a centralized AI algorithm to set pricing and forecast demand, instantly allocating warehouse space using distance calculations from FedEx/UPS hubs and airports across its US logistics assets. [Blackstone / Link Logistics in-house]",
+   "existence": "confirmed",
+   "value": "Serves ~11,000 customers across ~half-billion sq ft",
+   "tier": "",
+   "url": "https://www.institutionalinvestor.com/article/2c5n7hypxbs38zj9xsutc/portfolio/how-blackstone-sprinted-ahead-of-its-peers-in-ai",
+   "raw_sector": "",
+   "date": "2023-09",
+   "fresh": "stale"
+  },
+  {
+   "company": "Blackstone Inc.",
+   "use": "Founding partner/investor in a new enterprise AI services company with Anthropic, Hellman & Friedman and Goldman Sachs to design, build and maintain Claude-based enterprise AI deployments (initially for mid-sized companies), joining Anthropic's Claude Partner Network. [Anthropic (Claude)]",
+   "existence": "claimed",
+   "value": "~$1.5B joint venture (reported); amount not confirmed in Anthropic release",
+   "tier": "",
+   "url": "https://www.anthropic.com/news/enterprise-ai-services-company",
+   "raw_sector": "",
+   "date": "2026-05",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Blackstone Inc.",
+   "use": "Joint venture with Google to create a new US-based AI cloud company offering compute-as-a-service built on Google Cloud TPUs, for AI training and inference workloads. [Google Cloud (TPUs)]",
+   "existence": "confirmed",
+   "value": "$5B equity commitment; ~500MW capacity by 2027",
+   "tier": "",
+   "url": "https://datacentremagazine.com/news/blackstone-and-google-commit-us-5bn-for-new-ai-cloud-company-with-google",
+   "raw_sector": "",
+   "date": "2026-05",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Blackstone Inc.",
+   "use": "Named as a Anthropic Claude customer/case study [Anthropic Claude] [Anthropic Claude]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://sacra.com/c/anthropic/",
+   "raw_sector": "",
+   "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "Blackstone Inc.",
+   "use": "DocAI (Document AI): in-house generative AI tool that lets employees upload, search and summarize collections of documents (proprietary and external research) and evaluate vendor contracts. Built over ~10 months, piloted across departments and rolled out firm-wide. [Blackstone in-house (built by CTO John Stecher's team)]",
+   "existence": "confirmed",
+   "value": "Rolled out to ~5,000 employees",
+   "tier": "",
+   "url": "https://www.ai-street.co/p/ai-financial-analyst",
+   "raw_sector": "",
+   "date": "2024-08",
+   "fresh": "aging"
+  },
+  {
+   "company": "Blackstone Inc.",
+   "use": "Microsoft Office 365 with ChatGPT/generative AI used across the firm for email writing, document summarization and PowerPoint creation. [Microsoft / OpenAI (Office 365 + ChatGPT)]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.institutionalinvestor.com/article/2c5n7hypxbs38zj9xsutc/portfolio/how-blackstone-sprinted-ahead-of-its-peers-in-ai",
+   "raw_sector": "",
+   "date": "2023-09",
+   "fresh": "stale"
+  },
+  {
+   "company": "Blackstone Inc.",
+   "use": "Snowflake central data warehouse receiving hourly updates, serving as the data foundation feeding Blackstone's predictive and generative AI models. [Snowflake]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.institutionalinvestor.com/article/2c5n7hypxbs38zj9xsutc/portfolio/how-blackstone-sprinted-ahead-of-its-peers-in-ai",
+   "raw_sector": "",
+   "date": "2023-09",
+   "fresh": "stale"
+  },
+  {
+   "company": "Blackstone Inc.",
+   "use": "Sourcegraph Cody AI coding assistant used by Blackstone engineers to write and accelerate software development. [Sourcegraph (Cody)]",
+   "existence": "confirmed",
+   "value": "Reduces development time by ~50%",
+   "tier": "",
+   "url": "https://www.institutionalinvestor.com/article/2c5n7hypxbs38zj9xsutc/portfolio/how-blackstone-sprinted-ahead-of-its-peers-in-ai",
+   "raw_sector": "",
+   "date": "2023-09",
+   "fresh": "stale"
+  },
+  {
+   "company": "Blackstone Inc.",
+   "use": "Salesforce Einstein GPT used in Blackstone's private wealth management business to generate personalized investment suggestions for clients. [Salesforce (Einstein GPT)]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.institutionalinvestor.com/article/2c5n7hypxbs38zj9xsutc/portfolio/how-blackstone-sprinted-ahead-of-its-peers-in-ai",
+   "raw_sector": "",
+   "date": "2023-09",
+   "fresh": "stale"
   }
  ]
 }

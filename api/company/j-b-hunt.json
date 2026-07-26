@@ -3,28 +3,28 @@
  "name": "J.B. Hunt",
  "cc": "US",
  "vertical": "Industrial / Machinery",
- "deployments": 1,
- "confirmed": 1,
- "with_value_number": 0,
- "proof_rate": 0.0,
+ "deployments": 4,
+ "confirmed": 4,
+ "with_value_number": 1,
+ "proof_rate": 0.25,
  "mktcap": 27230000000.0,
  "revenue": 12700000000.0,
  "employees": 31750.0,
  "silent": false,
- "per_bn_revenue": 0.08,
- "per_10k_emp": 0.31,
+ "per_bn_revenue": 0.31,
+ "per_10k_emp": 1.26,
  "benchmarks": {
   "global_vertical": {
-   "deployments": 0,
-   "confirmed": 14,
-   "proof_rate": 0,
-   "n": 175
+   "deployments": 23,
+   "confirmed": 53,
+   "proof_rate": 66,
+   "n": 176
   },
   "country_vertical": {
-   "deployments": 0,
-   "confirmed": 19,
-   "proof_rate": 0,
-   "n": 80
+   "deployments": 21,
+   "confirmed": 48,
+   "proof_rate": 72,
+   "n": 81
   }
  },
  "first_seen": 2026,
@@ -34,14 +34,16 @@
    "n": 1
   }
  ],
- "undated_pct": 0,
- "momentum": "rising",
+ "undated_pct": 75,
+ "momentum": "late_entrant,rising",
  "maturity": "L3",
  "maturity_evidence": [
+  "multi_horizontal",
   "named_product:Hunt",
+  "value_number",
   "tier_p"
  ],
- "prospect_score": 46,
+ "prospect_score": 54,
  "stack": [
   "Google Cloud"
  ],
@@ -57,6 +59,39 @@
    "raw_sector": "Industrials",
    "date": "2026",
    "fresh": "fresh"
+  },
+  {
+   "company": "J.B. Hunt",
+   "use": "Freight execution and load management with Overroute AI agents [Overroute]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.jbhunt.com/our-company/newsroom/2026/07/overroute-launches-to-streamline-freight",
+   "raw_sector": "",
+   "date": "Jul 21, 2026",
+   "fresh": "undated"
+  },
+  {
+   "company": "J.B. Hunt",
+   "use": "AI and automation on J.B. Hunt 360 platform for freight transactions",
+   "existence": "confirmed",
+   "value": "$2 billion",
+   "tier": "",
+   "url": "https://www.jbhunt.com/blog/j-b-hunt-360/driving-efficiency-with-innovative-freight-technology",
+   "raw_sector": "",
+   "date": "Feb 23, 2026",
+   "fresh": "undated"
+  },
+  {
+   "company": "J.B. Hunt",
+   "use": "Business process automation across operations",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.jbhunt.com/blog/company/a-year-of-innovation-and-impact",
+   "raw_sector": "",
+   "date": "Dec 22, 2025",
+   "fresh": "undated"
   }
  ]
 }

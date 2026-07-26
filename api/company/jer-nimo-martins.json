@@ -3,38 +3,57 @@
  "name": "Jerónimo Martins",
  "cc": "PT",
  "vertical": "Retail & E-commerce",
- "deployments": 2,
- "confirmed": 1,
- "with_value_number": 0,
- "proof_rate": 0.0,
+ "deployments": 10,
+ "confirmed": 7,
+ "with_value_number": 3,
+ "proof_rate": 0.3,
  "mktcap": 11577924182.0,
  "revenue": 39442704396.0,
  "employees": 147709.0,
  "silent": false,
- "per_bn_revenue": 0.05,
- "per_10k_emp": 0.14,
+ "per_bn_revenue": 0.25,
+ "per_10k_emp": 0.68,
  "benchmarks": {
   "global_vertical": {
-   "deployments": 71,
-   "confirmed": 24,
-   "proof_rate": 0,
-   "n": 295
+   "deployments": 72,
+   "confirmed": 69,
+   "proof_rate": 59,
+   "n": 301
   }
  },
- "first_seen": 2025,
+ "first_seen": 2019,
  "by_year": [
   {
+   "year": 2019,
+   "n": 1
+  },
+  {
+   "year": 2022,
+   "n": 1
+  },
+  {
+   "year": 2023,
+   "n": 1
+  },
+  {
+   "year": 2024,
+   "n": 3
+  },
+  {
    "year": 2025,
-   "n": 2
+   "n": 4
   }
  ],
  "undated_pct": 0,
- "momentum": "rising",
- "maturity": "L3",
+ "momentum": "early_mover,flat",
+ "maturity": "L4",
  "maturity_evidence": [
-  "named_product:Pingo"
+  "multi_horizontal",
+  "named_product:Pingo",
+  "value_number",
+  "multi_year"
  ],
- "prospect_score": 54,
+ "prospect_score": 78,
  "stack": [],
  "vendor_named": false,
  "deployments_detail": [
@@ -51,6 +70,50 @@
   },
   {
    "company": "Jerónimo Martins",
+   "use": "SymphonyAI CINDE Connected Retail platform deployed at Pingo Doce for AI-driven merchandising and CPG collaboration — replacing static reports with real-time, prescriptive store-by-store, SKU-by-SKU insights and natural-language querying for category teams and suppliers. [SymphonyAI (CINDE Connected Retail)]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.symphonyai.com/news/retail-cpg/pingo-doce-ai-driven-merchandising-cpg-collaboration/",
+   "raw_sector": "",
+   "date": "2025-10-14",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Jerónimo Martins",
+   "use": "AI-powered self-checkout at Pingo Doce 'Comida Fresca' restaurants: computer-vision tills recognise meal trays by shape, colour and texture to eliminate manual food registration and cut queue times. First deployed at Alegro Sintra. [Retail Robotics Solution (computer vision)]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.theportugalnews.com/news/2025-04-11/pingo-doce-launches-ai-powered-self-checkout/96852",
+   "raw_sector": "",
+   "date": "2025-04-11",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Jerónimo Martins",
+   "use": "Store-of-the-future laboratory (Pingo Doce/Go Nova at NOVA School) using dozens of ceiling and shelf cameras with computer vision + AI for automated shelf replenishment, checkout-free shopping, backup for NFC/barcode scanning, and 24/7 self-service secure display cabinets. [OutSystems (low-code) + Truewind (delivery partner)]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.outsystems.com/case-studies/jeronimo-martins-store-of-the-future",
+   "raw_sector": "",
+   "date": "2024-01-01",
+   "fresh": "aging"
+  },
+  {
+   "company": "Jerónimo Martins",
+   "use": "AI 'sales assistant' at Biedronka self-checkouts: machine-learning produce recognition that identifies fruit/vegetables on the scale and suggests the correct product to speed weighing and checkout. Piloted across several dozen Warsaw stores. [not disclosed]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://innpoland.pl/199144,ai-w-kasach-samoobslugowych-biedronki-pomoc-dla-klientow",
+   "raw_sector": "",
+   "date": "2023-09-28",
+   "fresh": "stale"
+  },
+  {
+   "company": "Jerónimo Martins",
    "use": "Pingo Doce AI-driven merchandising platform replacing static reports with real-time prescriptive insights for execution and supplier alignment",
    "existence": "claimed",
    "value": "none",
@@ -59,6 +122,50 @@
    "raw_sector": "Retail",
    "date": "2025",
    "fresh": "fresh"
+  },
+  {
+   "company": "Jerónimo Martins",
+   "use": "Biedronka mobile loyalty app ('Moja Biedronka') with AI/ML personalization: individualized offers and discounts generated from purchase history and preferences via Forcom's Recommender engine. [Future Mind (app) with Forcom Recommender (personalization engine)]",
+   "existence": "confirmed",
+   "value": "10M+ active app users; 20M+ loyalty members",
+   "tier": "",
+   "url": "https://www.futuremind.com/case-studies/biedronka-app/",
+   "raw_sector": "",
+   "date": "2022-05-30",
+   "fresh": "stale"
+  },
+  {
+   "company": "Jerónimo Martins",
+   "use": "Generative-AI model tested to create personalised employee development plans (learning/career recommendations) as part of HR training and skills development. [not disclosed]",
+   "existence": "claimed",
+   "value": "1,238 employees covered in the pilot",
+   "tier": "",
+   "url": "https://reports.jeronimomartins.com/annual-report/2024/sustainability/social/managing-social-topics/own-workforce/training-and-skills-development.html",
+   "raw_sector": "",
+   "date": "2024-12-31",
+   "fresh": "aging"
+  },
+  {
+   "company": "Jerónimo Martins",
+   "use": "AI/ML-powered customer-service and internal-support chatbot for Biedronka: an internal chatbot supporting 80,000+ employees (2019) plus a customer-facing bot on Messenger/WhatsApp handling repetitive queries, promotions and recipe search. [KODA (usekoda.com)]",
+   "existence": "confirmed",
+   "value": "Automates over 50% of conversations; 100,000+ users; ~6,500 conversations / 50,000 messages per month",
+   "tier": "",
+   "url": "https://usekoda.com/case-studies/biedronka-how-polands-largest-retail-chain-is-revolutionizing-customer-service/",
+   "raw_sector": "",
+   "date": "2019-01-01",
+   "fresh": "stale"
+  },
+  {
+   "company": "Jerónimo Martins",
+   "use": "Migration of production data-analytics platform to Teradata VantageCloud Lake in the cloud, enabling disaster recovery and cloud-native AI capabilities for independent business units across the group. [Teradata (VantageCloud Lake)]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.teradata.com/events/possible/videos/jeronimo-martins",
+   "raw_sector": "",
+   "date": "2024-01-01",
+   "fresh": "aging"
   }
  ]
 }

@@ -3,46 +3,54 @@
  "name": "Doosan Bobcat",
  "cc": "KR",
  "vertical": "Industrial / Machinery",
- "deployments": 1,
- "confirmed": 0,
- "with_value_number": 0,
- "proof_rate": 0.0,
+ "deployments": 10,
+ "confirmed": 2,
+ "with_value_number": 4,
+ "proof_rate": 0.4,
  "mktcap": 4918518519.0,
  "revenue": 7074074074.0,
  "employees": 142.0,
  "silent": false,
- "per_bn_revenue": 0.14,
- "per_10k_emp": 70.42,
+ "per_bn_revenue": 1.41,
+ "per_10k_emp": 704.23,
  "benchmarks": {
   "global_vertical": {
-   "deployments": 0,
-   "confirmed": 0,
-   "proof_rate": 0,
-   "n": 175
+   "deployments": 77,
+   "confirmed": 26,
+   "proof_rate": 90,
+   "n": 176
   },
   "country_vertical": {
-   "deployments": 0,
-   "confirmed": 0,
-   "proof_rate": 0,
+   "deployments": 90,
+   "confirmed": 43,
+   "proof_rate": 81,
    "n": 22
   }
  },
- "first_seen": 2026,
+ "first_seen": 2025,
  "by_year": [
   {
+   "year": 2025,
+   "n": 2
+  },
+  {
    "year": 2026,
-   "n": 1
+   "n": 8
   }
  ],
  "undated_pct": 0,
- "momentum": "rising",
- "maturity": "L1",
+ "momentum": "early_mover,rising",
+ "maturity": "L3",
  "maturity_evidence": [
-  "rows_no_confirmed"
+  "multi_horizontal",
+  "named_product:Agtonomy",
+  "value_number"
  ],
- "prospect_score": 40,
- "stack": [],
- "vendor_named": false,
+ "prospect_score": 36,
+ "stack": [
+  "NVIDIA"
+ ],
+ "vendor_named": true,
  "deployments_detail": [
   {
    "company": "Doosan Bobcat",
@@ -53,6 +61,105 @@
    "url": "https://html.duckduckgo.com/html/?q=두산밥캣+AI+건설장비+도입",
    "raw_sector": "Heavy Industries",
    "date": "2026-06",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Doosan Bobcat",
+   "use": "Bobcat Jobsite Companion: an onboard AI voice assistant for compact construction equipment that lets operators ask questions and issue voice commands, adjusts attachment settings, gives recommendations, and automates 50+ machine functions. Runs entirely on-machine on Bobcat's proprietary AI large language model. Unveiled at CES 2026; a compact loader equipped with it is planned for US market launch summer 2026. [Bobcat proprietary AI large language model (onboard/edge)]",
+   "existence": "claimed",
+   "value": "automates more than 50 machine functions",
+   "tier": "",
+   "url": "https://www.prnewswire.com/news-releases/doosan-bobcat-introduces-smarter-machines-for-simpler-operation-at-ces-2026-302653056.html",
+   "raw_sector": "",
+   "date": "2026-01",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Doosan Bobcat",
+   "use": "Agtonomy-enabled autonomous, electric Bobcat tractors (CT4045 diesel and AT450X). Factory-fitted Physical AI software enables vision-based autonomous operation with no base stations or pre-mapping; a single operator can manage 10+ tractors simultaneously. Marketed as available/in stock for agriculture and landscaping. [Agtonomy (Physical AI, vision-based autonomy)]",
+   "existence": "confirmed",
+   "value": "one operator manages 10+ tractors simultaneously",
+   "tier": "",
+   "url": "https://www.agtonomy.com/press/agtonomy-third-generation-software",
+   "raw_sector": "",
+   "date": "2025-04",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Doosan Bobcat",
+   "use": "MAUM.AI pilot to develop and validate an end-to-end autonomous loader solution based on a Vision-Language-Action (VLA) AI model connecting perception, language understanding and real-world actions, for use on construction sites, mining and logistics facilities. Pilot runs June-December 2026. [MAUM.AI (VLA foundation model / robotic brain)]",
+   "existence": "claimed",
+   "value": "KRW 11 billion (~$800,000) pilot agreement",
+   "tier": "",
+   "url": "https://www.kmjournal.net/news/articleView.html?idxno=12337",
+   "raw_sector": "",
+   "date": "2026-06",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Doosan Bobcat",
+   "use": "Strategic collaboration with NVIDIA on Physical AI: exploring integration of NVIDIA physical-AI technologies and specialized world models into Doosan Bobcat equipment across construction, landscaping, agriculture and material handling, so machines can perceive environments, reason about conditions and operate more autonomously. [NVIDIA (physical AI, world models, Omniverse/Isaac)]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://blogs.nvidia.com/blog/nvidia-and-doosan-group-physical-ai/",
+   "raw_sector": "",
+   "date": "2026-06",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Doosan Bobcat",
+   "use": "MOU with MAUM.AI for joint feasibility studies and demonstrations of VLA-based autonomous operation technology for compact construction equipment; Doosan Bobcat contributes equipment and operational data while MAUM.AI applies its VLA robotic-brain models. [MAUM.AI (VLA models)]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://en.sedaily.com/finance/2026/06/02/doosan-bobcat-partners-with-maum-ai-to-advance-autonomous",
+   "raw_sector": "",
+   "date": "2026-06",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Doosan Bobcat",
+   "use": "RogueX3 fully-electric autonomous compact loader concept: cab-free/cab-optional modular platform with autonomy-ready intelligence, remote operation and programmable autonomous tasks; latest evolution of the RogueX autonomous concept line, shown at CES 2026. [Bobcat (autonomous concept platform)]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.equipmentworld.com/construction-equipment/compact-equipment/article/15814331/bobcat-debuts-roguex3-ai-and-electric-tech-at-ces",
+   "raw_sector": "",
+   "date": "2026-01",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Doosan Bobcat",
+   "use": "Bobcat Machine IQ telematics platform: cloud-connected system delivering real-time machine health, fault-code diagnostics, utilization/fuel analytics, maintenance scheduling and proactive servicing alerts plus remote engine disable for theft prevention. Fully deployed in production with 30,000+ connected units in Europe as of Oct 2025. [Bobcat (proprietary telematics/analytics)]",
+   "existence": "confirmed",
+   "value": "30,000+ connected units installed in Europe (Oct 2025)",
+   "tier": "",
+   "url": "https://highways.today/2025/10/21/bobcat-machine-iq-telematics/",
+   "raw_sector": "",
+   "date": "2025-10",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Doosan Bobcat",
+   "use": "Service.AI: an AI-powered service platform for dealers and technicians giving instant access to repair manuals, warranty details, real-time diagnostics and historical troubleshooting cases to accelerate diagnostics and repair. Announced/demonstrated at CES 2026. [Doosan Bobcat (vendor not disclosed)]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.prnewswire.com/news-releases/doosan-bobcat-introduces-smarter-machines-for-simpler-operation-at-ces-2026-302653056.html",
+   "raw_sector": "",
+   "date": "2026-01",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Doosan Bobcat",
+   "use": "Advanced Display Technology and Collision Warning & Avoidance System: MicroLED transparent smart-cab display with 360-degree cameras plus imaging-radar-based hazard detection that senses nearby people/machines and utilities, warns operators and can automatically slow or stop the machine to prevent collisions. Prototype/concept shown at CES 2026. [Bobcat (imaging radar, computer vision)]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.bobcat.com/na/en/company/news-media/press-releases/doosan-bobcat-introduces-smarter-machines-ces-2026",
+   "raw_sector": "",
+   "date": "2026-01",
    "fresh": "fresh"
   }
  ]

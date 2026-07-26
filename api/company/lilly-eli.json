@@ -3,27 +3,27 @@
  "name": "Lilly (Eli)",
  "cc": "US",
  "vertical": "Healthcare & Life Sciences",
- "deployments": 12,
- "confirmed": 8,
- "with_value_number": 6,
+ "deployments": 14,
+ "confirmed": 10,
+ "with_value_number": 7,
  "proof_rate": 0.5,
  "mktcap": 1050000000000.0,
  "revenue": 72250000000.0,
  "employees": 50000.0,
  "silent": false,
- "per_bn_revenue": 0.17,
- "per_10k_emp": 2.4,
+ "per_bn_revenue": 0.19,
+ "per_10k_emp": 2.8,
  "benchmarks": {
   "global_vertical": {
-   "deployments": 98,
-   "confirmed": 93,
-   "proof_rate": 75,
-   "n": 165
+   "deployments": 93,
+   "confirmed": 87,
+   "proof_rate": 83,
+   "n": 168
   },
   "country_vertical": {
-   "deployments": 95,
-   "confirmed": 84,
-   "proof_rate": 81,
+   "deployments": 84,
+   "confirmed": 78,
+   "proof_rate": 86,
    "n": 59
   }
  },
@@ -39,14 +39,14 @@
   },
   {
    "year": 2025,
-   "n": 2
+   "n": 4
   },
   {
    "year": 2026,
    "n": 4
   }
  ],
- "undated_pct": 17,
+ "undated_pct": 14,
  "momentum": "early_mover,rising",
  "maturity": "L4",
  "maturity_evidence": [
@@ -56,12 +56,37 @@
   "multi_year",
   "tier_p"
  ],
- "prospect_score": 68,
+ "prospect_score": 80,
  "stack": [
-  "NVIDIA"
+  "Databricks",
+  "Microsoft",
+  "NVIDIA",
+  "OpenAI"
  ],
  "vendor_named": true,
  "deployments_detail": [
+  {
+   "company": "Lilly (Eli)",
+   "use": "AI factory for drug discovery using foundation models, genome analysis, patient outcome prediction, and molecular design [NVIDIA Blackwell DGX SuperPOD]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://blogs.nvidia.com/blog/lilly-ai-factory-nvidia-blackwell-dgx-superpod/",
+   "raw_sector": "",
+   "date": "2025-10-28",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Lilly (Eli)",
+   "use": "TuneLab - AI and machine learning platform providing biotech companies access to drug discovery models built on Lilly's proprietary data",
+   "existence": "confirmed",
+   "value": "$1 billion",
+   "tier": "",
+   "url": "https://blogs.nvidia.com/blog/lilly-ai-factory-nvidia-blackwell-dgx-superpod/",
+   "raw_sector": "",
+   "date": "2025-10-28",
+   "fresh": "fresh"
+  },
   {
    "company": "Lilly (Eli)",
    "use": "\"TuneLab\" AI/ML drug-discovery platform (Lilly-trained models on $1B+ proprietary data) + NVIDIA Blackwell DGX AI factory",

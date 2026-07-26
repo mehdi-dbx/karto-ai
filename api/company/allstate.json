@@ -3,28 +3,28 @@
  "name": "Allstate",
  "cc": "US",
  "vertical": "Financial Services",
- "deployments": 10,
+ "deployments": 11,
  "confirmed": 8,
  "with_value_number": 7,
- "proof_rate": 0.7,
+ "proof_rate": 0.636,
  "mktcap": 65410000000.0,
  "revenue": 68170000000.0,
  "employees": 53300.0,
  "silent": false,
- "per_bn_revenue": 0.15,
- "per_10k_emp": 1.88,
+ "per_bn_revenue": 0.16,
+ "per_10k_emp": 2.06,
  "benchmarks": {
   "global_vertical": {
-   "deployments": 93,
-   "confirmed": 93,
-   "proof_rate": 74,
-   "n": 377
+   "deployments": 72,
+   "confirmed": 67,
+   "proof_rate": 91,
+   "n": 388
   },
   "country_vertical": {
-   "deployments": 88,
-   "confirmed": 88,
-   "proof_rate": 79,
-   "n": 76
+   "deployments": 68,
+   "confirmed": 62,
+   "proof_rate": 97,
+   "n": 77
   }
  },
  "first_seen": 2018,
@@ -54,7 +54,7 @@
    "n": 1
   }
  ],
- "undated_pct": 20,
+ "undated_pct": 27,
  "momentum": "early_mover,rising",
  "maturity": "L4",
  "maturity_evidence": [
@@ -63,12 +63,27 @@
   "value_number",
   "multi_year"
  ],
- "prospect_score": 60,
+ "prospect_score": 63,
  "stack": [
+  "Amazon AWS",
+  "Databricks",
+  "Microsoft",
+  "Microsoft Azure",
   "OpenAI"
  ],
  "vendor_named": true,
  "deployments_detail": [
+  {
+   "company": "Allstate",
+   "use": "Named as a Databricks customer/case study [Databricks] [Databricks]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.appsruntheworld.com/customers-database/products/view/microsoft-azure-databricks-ai",
+   "raw_sector": "",
+   "date": "missing",
+   "fresh": "undated"
+  },
   {
    "company": "Allstate",
    "use": "GPT-based AI drafts nearly all claims-related customer communications (~50,000/day across ~23,000 reps); \"MyStory\" ChatGPT app for claim reporting",

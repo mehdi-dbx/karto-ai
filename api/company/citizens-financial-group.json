@@ -3,28 +3,28 @@
  "name": "Citizens Financial Group",
  "cc": "US",
  "vertical": "Financial Services",
- "deployments": 1,
- "confirmed": 1,
+ "deployments": 4,
+ "confirmed": 2,
  "with_value_number": 1,
- "proof_rate": 1.0,
+ "proof_rate": 0.25,
  "mktcap": 30000000000.0,
  "revenue": 8160000000.0,
  "employees": 17398.0,
  "silent": false,
- "per_bn_revenue": 0.12,
- "per_10k_emp": 0.57,
+ "per_bn_revenue": 0.49,
+ "per_10k_emp": 2.3,
  "benchmarks": {
   "global_vertical": {
-   "deployments": 0,
+   "deployments": 24,
    "confirmed": 17,
-   "proof_rate": 76,
-   "n": 377
+   "proof_rate": 47,
+   "n": 388
   },
   "country_vertical": {
-   "deployments": 0,
-   "confirmed": 19,
-   "proof_rate": 81,
-   "n": 76
+   "deployments": 17,
+   "confirmed": 11,
+   "proof_rate": 57,
+   "n": 77
   }
  },
  "first_seen": 2028,
@@ -34,14 +34,15 @@
    "n": 1
   }
  ],
- "undated_pct": 0,
+ "undated_pct": 75,
  "momentum": "late_entrant,rising",
  "maturity": "L3",
  "maturity_evidence": [
+  "multi_horizontal",
   "named_product:Reimagine the Bank",
   "value_number"
  ],
- "prospect_score": 14,
+ "prospect_score": 50,
  "stack": [],
  "vendor_named": false,
  "deployments_detail": [
@@ -55,6 +56,39 @@
    "raw_sector": "Financials",
    "date": "2028",
    "fresh": "fresh"
+  },
+  {
+   "company": "Citizens Financial Group",
+   "use": "Complaint handling",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.americanbanker.com/news/inside-citizens-plan-to-reimagine-itself-with-ai",
+   "raw_sector": "",
+   "date": "Dec 1, 2025",
+   "fresh": "undated"
+  },
+  {
+   "company": "Citizens Financial Group",
+   "use": "Fraud detection and claims processing",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.americanbanker.com/news/inside-citizens-plan-to-reimagine-itself-with-ai",
+   "raw_sector": "",
+   "date": "Dec 1, 2025",
+   "fresh": "undated"
+  },
+  {
+   "company": "Citizens Financial Group",
+   "use": "Anomaly detection and fraud prevention",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.linkedin.com/posts/michaelruttledge_citizens-announces-ai-driven-reimagining-activity-7354507713499852801-yqJN",
+   "raw_sector": "",
+   "date": "missing",
+   "fresh": "undated"
   }
  ]
 }

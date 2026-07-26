@@ -3,27 +3,27 @@
  "name": "Hilton Worldwide",
  "cc": "US",
  "vertical": "Retail & E-commerce",
- "deployments": 1,
- "confirmed": 1,
- "with_value_number": 1,
- "proof_rate": 1.0,
+ "deployments": 6,
+ "confirmed": 6,
+ "with_value_number": 3,
+ "proof_rate": 0.5,
  "mktcap": 72530000000.0,
  "revenue": 5070000000.0,
  "employees": 182000.0,
  "silent": false,
- "per_bn_revenue": 0.2,
- "per_10k_emp": 0.05,
+ "per_bn_revenue": 1.18,
+ "per_10k_emp": 0.33,
  "benchmarks": {
   "global_vertical": {
-   "deployments": 0,
-   "confirmed": 24,
-   "proof_rate": 77,
-   "n": 295
+   "deployments": 48,
+   "confirmed": 63,
+   "proof_rate": 78,
+   "n": 301
   },
   "country_vertical": {
-   "deployments": 0,
-   "confirmed": 25,
-   "proof_rate": 85,
+   "deployments": 30,
+   "confirmed": 52,
+   "proof_rate": 91,
    "n": 80
   }
  },
@@ -33,16 +33,39 @@
  "momentum": "none",
  "maturity": "L3",
  "maturity_evidence": [
+  "multi_horizontal",
   "named_product:Hilton AI Planner",
   "value_number"
  ],
- "prospect_score": 6,
+ "prospect_score": 56,
  "stack": [
   "Anthropic",
   "OpenAI"
  ],
  "vendor_named": true,
  "deployments_detail": [
+  {
+   "company": "Hilton Worldwide",
+   "use": "AI chatbots for customer service query resolution across digital channels",
+   "existence": "confirmed",
+   "value": "90% positive feedback, 50% faster query resolution",
+   "tier": "",
+   "url": "https://aiadopters.club/p/hilton-ai-adoption-case-study",
+   "raw_sector": "",
+   "date": "Oct 30, 2025",
+   "fresh": "undated"
+  },
+  {
+   "company": "Hilton Worldwide",
+   "use": "Hilton AI Planner - generative AI digital concierge for trip planning",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://stories.hilton.com/releases/hilton-introduces-the-hilton-ai-planner",
+   "raw_sector": "",
+   "date": "Mar 10, 2026",
+   "fresh": "undated"
+  },
   {
    "company": "Hilton Worldwide",
    "use": "\"Hilton AI Planner\" conversational travel-planning + 41 AI use cases across operations (Google/OpenAI/Anthropic partners)",
@@ -52,6 +75,39 @@
    "url": "https://stories.hilton.com/releases/hilton-introduces-the-hilton-ai-planner",
    "raw_sector": "Consumer Discretionary",
    "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "Hilton Worldwide",
+   "use": "Generative AI coaching for guest service staff training [SweetRush]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.sweetrush.com/case-studies/generative-ai-immersive-training-sweetrush-and-hilton",
+   "raw_sector": "",
+   "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "Hilton Worldwide",
+   "use": "Winnow AI kitchen scales for food waste reduction [Winnow]",
+   "existence": "confirmed",
+   "value": "60% food waste reduction in 200 hotels",
+   "tier": "",
+   "url": "https://aiadopters.club/p/hilton-ai-adoption-case-study",
+   "raw_sector": "",
+   "date": "Oct 30, 2025",
+   "fresh": "undated"
+  },
+  {
+   "company": "Hilton Worldwide",
+   "use": "AI-powered marketing campaigns for revenue optimization",
+   "existence": "confirmed",
+   "value": "double-digit incremental revenue growth",
+   "tier": "",
+   "url": "https://aiadopters.club/p/hilton-ai-adoption-case-study",
+   "raw_sector": "",
+   "date": "Oct 30, 2025",
    "fresh": "undated"
   }
  ]

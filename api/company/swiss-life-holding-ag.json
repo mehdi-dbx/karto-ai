@@ -3,27 +3,27 @@
  "name": "Swiss Life Holding AG",
  "cc": "CH",
  "vertical": "Financial Services",
- "deployments": 1,
- "confirmed": 0,
- "with_value_number": 0,
- "proof_rate": 0.0,
+ "deployments": 10,
+ "confirmed": 7,
+ "with_value_number": 4,
+ "proof_rate": 0.4,
  "mktcap": 29945000000.0,
  "revenue": 13232300000.0,
  "employees": 12313.0,
  "silent": false,
- "per_bn_revenue": 0.08,
- "per_10k_emp": 0.81,
+ "per_bn_revenue": 0.76,
+ "per_10k_emp": 8.12,
  "benchmarks": {
   "global_vertical": {
-   "deployments": 0,
-   "confirmed": 0,
-   "proof_rate": 0,
-   "n": 377
+   "deployments": 65,
+   "confirmed": 62,
+   "proof_rate": 68,
+   "n": 388
   },
   "country_vertical": {
-   "deployments": 0,
-   "confirmed": 0,
-   "proof_rate": 0,
+   "deployments": 25,
+   "confirmed": 25,
+   "proof_rate": 25,
    "n": 5
   }
  },
@@ -31,14 +31,75 @@
  "by_year": [],
  "undated_pct": 100,
  "momentum": "none",
- "maturity": "L1",
+ "maturity": "L3",
  "maturity_evidence": [
-  "rows_no_confirmed"
+  "multi_horizontal",
+  "named_product:IVR",
+  "value_number"
  ],
- "prospect_score": 40,
- "stack": [],
- "vendor_named": false,
+ "prospect_score": 66,
+ "stack": [
+  "Google Cloud",
+  "Microsoft",
+  "Microsoft Azure"
+ ],
+ "vendor_named": true,
  "deployments_detail": [
+  {
+   "company": "Swiss Life Holding AG",
+   "use": "'Aida' voice-enabled mobile assistant for 400+ tied insurance agents (Swiss Life France) providing hands-free voice queries of client data, note dictation, geolocated client suggestions and data-science-driven leads. From PoC to MVP in 3 months; in production 6+ months, ~10 uses/day per agent. [Google Cloud (Cloud Speech-to-Text, Dialogflow Enterprise, Vision AI, GKE) with partner Quantmetry]",
+   "existence": "confirmed",
+   "value": "~10 uses/day per agent; ~400 agents",
+   "tier": "",
+   "url": "https://cloud.google.com/customers/swiss-life",
+   "raw_sector": "",
+   "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "Swiss Life Holding AG",
+   "use": "Machine-learning client-experience scoring and knowledge engine augmenting ~800 sales representatives at Swiss Life France, using semantic analysis of unstructured data to better understand client needs (life insurance, retirement, benefits) and prioritize interactions. [Swiss Life France data science division with Quantmetry]",
+   "existence": "confirmed",
+   "value": "~800 sales reps supported",
+   "tier": "",
+   "url": "https://www.lemondeinformatique.fr/actualites/lireamp-swisslife-equipe-ses-commerciaux-d-un-chatbot-pour-ameliorer-la-connaissance-client-72002.html",
+   "raw_sector": "",
+   "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "Swiss Life Holding AG",
+   "use": "Outbound AI voicebot (LLM-enhanced) fully handling customer outreach and meeting scheduling / lead generation, replacing part-time call-center operators. In operation over one year, handling 100% of the outbound calls in scope. [Daktela (CCaaS platform with LLM voicebot)]",
+   "existence": "confirmed",
+   "value": "70% reduction in outbound call costs; 100% of calls handled by bot; 7% sales success rate comparable to human operators",
+   "tier": "",
+   "url": "https://daktela.com/sr/customer-stories/swiss-life",
+   "raw_sector": "",
+   "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "Swiss Life Holding AG",
+   "use": "AI phone bot replacing legacy touch-tone IVR to route inbound customer calls via natural-language intent recognition and direct callers to the right advisor/expert. Launched as pilot in one sales division at Swiss Life Germany, then rolled out across all four sales departments. [Parloa (conversational AI platform), implemented with consultancy MUUUH!]",
+   "existence": "confirmed",
+   "value": "96% routing accuracy; 60% faster call resolution; 73% of respondents rated agent 4-5/5",
+   "tier": "",
+   "url": "https://www.parloa.com/customers/swiss-life/",
+   "raw_sector": "",
+   "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "Swiss Life Holding AG",
+   "use": "Conversational AI phonebots deployed in both customer service and sales-partner (Vertriebspartner) service centers to relieve staff, reduce costs and improve reachability/customer experience. Described as running for 3+ years. [CAIB (Conversational AI consultancy) with Swiss Life]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.youtube.com/watch?v=llZ8VzyyEhs",
+   "raw_sector": "",
+   "date": "missing",
+   "fresh": "undated"
+  },
   {
    "company": "Swiss Life Holding AG",
    "use": "Brand Engagement Network (BEN) partnership to develop AI for insurance operations — announcement only, no named live deployment",
@@ -47,6 +108,50 @@
    "tier": "I",
    "url": "https://www.swisslife.com/",
    "raw_sector": "Financials",
+   "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "Swiss Life Holding AG",
+   "use": "Partnership to build a generative-AI agent for insurance workflows (streamlining sales/enrollment, reducing call-center volume, member self-service for coverage/policy/claims) for Swiss Life Global Solutions clients and network partners. AI agent debuted at the Swiss Life Network Partners Conference in London (Sep 2025); described as milestone/showcase rather than confirmed production. [Brand Engagement Network (BEN) - Engagement Language Model (ELM) with RAG]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://brandengagementnetwork.com/newsroom/ben-swiss-life-launch-ai-partnership-for-global-insurance-solutions",
+   "raw_sector": "",
+   "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "Swiss Life Holding AG",
+   "use": "'Swissie' internal generative-AI assistant for Swiss Life Germany employees: text analysis, summarization, drafting and content creation; plus 'Custom-Bots' (configured assistants) used by e.g. the legal department to review legislative drafts and by teams for partner communication, presentation structuring and structured report analysis. [Swiss Life Deutschland (custom-built AI assistant; underlying model not disclosed)]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.swisslife.de/ueber-swiss-life/medienportal/news/2025/25-06-23-swissie-ki-chatbot.html",
+   "raw_sector": "",
+   "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "Swiss Life Holding AG",
+   "use": "AI-powered compliance call/meeting recording and speech analytics in Microsoft Teams: automatic conversation classification, topic recognition, speech-to-text transcription and analysis to simplify case processing and compliance. [ASC Technologies 'Recording Insights' on Microsoft Teams / Azure AI Services]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.asctechnologies.com/de/blog/artikel/ki-in-der-versicherungsbranche/",
+   "raw_sector": "",
+   "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "Swiss Life Holding AG",
+   "use": "Use of GitHub Copilot / AI coding agents by Swiss Life software engineers to improve developer productivity, code quality and delivery; Swiss Life participated in a Microsoft Switzerland panel testifying that these changes are 'bringing real value.' AI-generated 'production-ready application' built in ~4.5 hours with no manually written code demonstrated by a Swiss Life Switzerland lead. [GitHub Copilot / Microsoft]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.linkedin.com/posts/lanternstudios_the-developer-role-is-fundamentally-transforming-activity-7386750683456339968-bp1E",
+   "raw_sector": "",
    "date": "missing",
    "fresh": "undated"
   }

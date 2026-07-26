@@ -3,46 +3,62 @@
  "name": "Magnit",
  "cc": "RU",
  "vertical": "Retail & E-commerce",
- "deployments": 2,
- "confirmed": 2,
- "with_value_number": 0,
- "proof_rate": 0.0,
+ "deployments": 11,
+ "confirmed": 9,
+ "with_value_number": 5,
+ "proof_rate": 0.455,
  "mktcap": null,
  "revenue": 41900000000.0,
  "employees": 300000.0,
  "silent": false,
- "per_bn_revenue": 0.05,
- "per_10k_emp": 0.07,
+ "per_bn_revenue": 0.26,
+ "per_10k_emp": 0.37,
  "benchmarks": {
   "global_vertical": {
-   "deployments": 71,
-   "confirmed": 80,
-   "proof_rate": 0,
-   "n": 295
+   "deployments": 80,
+   "confirmed": 81,
+   "proof_rate": 77,
+   "n": 301
   },
   "country_vertical": {
-   "deployments": 50,
-   "confirmed": 50,
-   "proof_rate": 0,
+   "deployments": 100,
+   "confirmed": 100,
+   "proof_rate": 75,
    "n": 5
   }
  },
- "first_seen": 2026,
+ "first_seen": 2021,
  "by_year": [
   {
-   "year": 2026,
+   "year": 2021,
    "n": 2
+  },
+  {
+   "year": 2022,
+   "n": 2
+  },
+  {
+   "year": 2025,
+   "n": 3
+  },
+  {
+   "year": 2026,
+   "n": 4
   }
  ],
  "undated_pct": 0,
- "momentum": "late_entrant,rising",
- "maturity": "L2",
+ "momentum": "early_mover,rising",
+ "maturity": "L4",
  "maturity_evidence": [
+  "multi_horizontal",
+  "named_product:Computer",
+  "value_number",
+  "multi_year",
   "tier_p"
  ],
- "prospect_score": 60,
+ "prospect_score": 76,
  "stack": [],
- "vendor_named": false,
+ "vendor_named": true,
  "deployments_detail": [
   {
    "company": "Magnit",
@@ -64,6 +80,105 @@
    "url": "https://www.cnews.ru/news/line/2026-02-25_magnit_vnedryaet_resheniya",
    "raw_sector": "Retail",
    "date": "2026",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Magnit",
+   "use": "Computer vision system in 430 large-format stores (Magnit Semeyny supermarkets, Magnit Extra superstores) that uses neural networks on existing CCTV feeds to monitor shelf display quality, product availability, staff presence in service zones, shopping-cart availability, and checkout queue formation, sending alerts to store managers. Built in-house by Magnit Tech; scaled network-wide over six months. [Magnit Tech (in-house)]",
+   "existence": "confirmed",
+   "value": "430 stores; measurable sales increase and loss reduction (no figure disclosed)",
+   "tier": "",
+   "url": "https://www.cnews.ru/news/line/2026-07-22_magnit_vnedril_kompyuternoe",
+   "raw_sector": "",
+   "date": "2026-07-22",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Magnit",
+   "use": "Shelf product-recognition ('Image Recognition') technology: a neural network recognizes product images on shelves from photos and checks whether the actual planogram/layout matches the required one, acting as a digital assistant for in-store merchandising staff. Scaled across stores. [Magnit (in-house / Magnit Tech)]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.magnit.com/ru/media/press-releases/magnit-masshtabiruet-tekhnologiyu-raspoznavaniya-tovarov-na-polke/",
+   "raw_sector": "",
+   "date": "2022-11-27",
+   "fresh": "stale"
+  },
+  {
+   "company": "Magnit",
+   "use": "Platform of 17 corporate chatbots built on Russian AI vendor CraftTalk, operating as text contact centers over Telegram/Viber. Bots cover HR (salary, vacations, document filing), document-management help, loyalty-program/card consultations, new-store-opening coordination, and IT support (account status, password reset), connected to HelpDesk and Active Directory. [CraftTalk]",
+   "existence": "confirmed",
+   "value": "17 bots (7 co-developed, 10 built in-house)",
+   "tier": "",
+   "url": "https://rb.ru/news/magnit-chat-bots/",
+   "raw_sector": "",
+   "date": "2021-02-01",
+   "fresh": "stale"
+  },
+  {
+   "company": "Magnit",
+   "use": "Demand forecasting and replenishment using big data and neural networks / machine learning. Magnit reported that after introducing AI elements, forecasting accuracy rose by 2.4%, above the industry average. Builds on the unified Forecasting & Replenishment (F&R) system originally deployed on Relex Solutions' cloud platform. [Relex Solutions; Magnit in-house ML]",
+   "existence": "confirmed",
+   "value": "+2.4% forecasting accuracy",
+   "tier": "",
+   "url": "https://www.magnit.com/ru/media/press-releases/bolshie-dannye-i-neyroseti-uvelichili-effektivnost-magnita-/",
+   "raw_sector": "",
+   "date": "2022-02-14",
+   "fresh": "stale"
+  },
+  {
+   "company": "Magnit",
+   "use": "AI in Magnit's own production and agricultural complex (20 industrial/agro facilities): four AI solutions being deployed/piloted - computer-vision greenhouse video analytics assessing plant health, detecting disease and forecasting yield; a voice-recognition system 'Голос' letting equipment operators report malfunctions by speech; AI analysis of tender/supplier commercial proposals; and smart watches that analyze production-staff activity to identify best practices. [Magnit (in-house)]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.cnews.ru/news/line/2026-02-25_magnit_vnedryaet_resheniya",
+   "raw_sector": "",
+   "date": "2026-02-24",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Magnit",
+   "use": "BeautyScan: AI service for personalized cosmetics/perfume selection in Magnit Cosmetic stores. Customer scans an in-store QR code, uploads a face photo and answers questions; neural networks and computer vision perform skin diagnostics and recommend products. Scaled to ~2,500 Magnit Cosmetic stores. [Magnit (in-house)]",
+   "existence": "confirmed",
+   "value": "~2,500 stores; +5% sales reported in earlier pilot",
+   "tier": "",
+   "url": "https://www.magnit.com/ru/media/press-releases/magnit-zapustil-ii-servis-dlya-individualnogo-podbora-kosmetiki-v-2-5-tys-magazinov-magnit-kosmetik/",
+   "raw_sector": "",
+   "date": "2025-06-24",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Magnit",
+   "use": "AI-driven personalization of promotional offers and loyalty program: Magnit uses AI algorithms and big data from ~55 million customer loyalty cards to manage thousands of customer microsegments and deliver individualized promos, discounts and mass-promo personalization (developed with Sber ecosystem/GK Innoretail). [Magnit with Sber]",
+   "existence": "confirmed",
+   "value": "~55 million loyalty cards used for segmentation",
+   "tier": "",
+   "url": "https://rb.ru/news/magnit-sovmestno/",
+   "raw_sector": "",
+   "date": "2021-12-14",
+   "fresh": "stale"
+  },
+  {
+   "company": "Magnit",
+   "use": "'Mэджик' (Magic) generative-AI shopper assistant launched in the Magnit mobile app. Helps customers pick products (meal ideas for breakfast/lunch/dinner), find the biggest discounts, navigate stores and self-checkout, select cosmetics, check order status and resolve issues without contacting support. Developed by the internal IT team. [Magnit (in-house IT team)]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.magnit.com/ru/media/press-releases/magnit-zapustil-medzhik-v-mobilnom-prilozhenii/",
+   "raw_sector": "",
+   "date": "2025-12-15",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Magnit",
+   "use": "AI-based analysis of customer feedback (voice-of-customer / NPS): a system that 'listens' to customers and helps convert detractors into promoters, tied to revenue growth. Documented as a vendor case study for Magnit. [Generation AI]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://generation-ai.ru/cases/magnit",
+   "raw_sector": "",
+   "date": "2025-05-22",
    "fresh": "fresh"
   }
  ]

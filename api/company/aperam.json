@@ -3,26 +3,26 @@
  "name": "Aperam",
  "cc": "BE",
  "vertical": "Manufacturing & Robotics",
- "deployments": 1,
- "confirmed": 0,
+ "deployments": 9,
+ "confirmed": 5,
  "with_value_number": 0,
  "proof_rate": 0.0,
  "mktcap": 3704400000.0,
  "revenue": 6480000000.0,
  "employees": 13000.0,
  "silent": false,
- "per_bn_revenue": 0.15,
- "per_10k_emp": 0.77,
+ "per_bn_revenue": 1.39,
+ "per_10k_emp": 6.92,
  "benchmarks": {
   "global_vertical": {
-   "deployments": 0,
-   "confirmed": 0,
+   "deployments": 75,
+   "confirmed": 72,
    "proof_rate": 0,
-   "n": 147
+   "n": 150
   },
   "country_vertical": {
-   "deployments": 0,
-   "confirmed": 0,
+   "deployments": 50,
+   "confirmed": 50,
    "proof_rate": 0,
    "n": 5
   }
@@ -31,18 +31,28 @@
  "by_year": [
   {
    "year": 2024,
-   "n": 1
+   "n": 4
+  },
+  {
+   "year": 2025,
+   "n": 3
+  },
+  {
+   "year": 2026,
+   "n": 2
   }
  ],
  "undated_pct": 0,
- "momentum": "early_mover,gone_quiet",
- "maturity": "L1",
+ "momentum": "early_mover,rising",
+ "maturity": "L3",
  "maturity_evidence": [
-  "rows_no_confirmed"
+  "multi_horizontal",
+  "named_product:AMI",
+  "multi_year"
  ],
- "prospect_score": 40,
+ "prospect_score": 70,
  "stack": [],
- "vendor_named": false,
+ "vendor_named": true,
  "deployments_detail": [
   {
    "company": "Aperam",
@@ -54,6 +64,94 @@
    "raw_sector": "Materials",
    "date": "2024",
    "fresh": "aging"
+  },
+  {
+   "company": "Aperam",
+   "use": "AMI SmartFurnace AI/ML system deployed on Aperam Genk's 120-ton AC electric arc furnace. Real-time analytics and machine-learning algorithms (DigitARC PX3 electrode regulator, SmartARC electrical-energy optimization, and an oxygen module) make dynamic decisions on electric power input, gas flow and oxygen supply to optimize EAF operation. Agreement reached 2022; presented as operational at AISTech 2024. [AMI Automation (SmartFurnace, DigitARC, SmartARC)]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://aistech.secure-platform.com/site/gallery/rounds/82004/details/13558",
+   "raw_sector": "",
+   "date": "2024",
+   "fresh": "aging"
+  },
+  {
+   "company": "Aperam",
+   "use": "Aperam uses the Wizata industrial AI platform to autonomously build and deploy AI models directly on its production lines/processes, alongside other materials-sector firms (ArcelorMittal, Carmeuse, Ceratizit, LafargeHolcim). Wizata lists Aperam as a customer leveraging its platform. [Wizata]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://lu.linkedin.com/company/wizata",
+   "raw_sector": "",
+   "date": "2025",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Aperam",
+   "use": "Fully in-house, AI-driven surface-defect inspection system built at Aperam Genk, combining advanced imaging, artificial intelligence and software development in a single modular platform for automated detection of surface defects on stainless steel. Won the 2025 VOKA Limburg Innovation Award; jury noted high technological maturity, indicating it is in operation. [In-house (Aperam Genk)]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://flandersmetalsvalley.be/2026/01/29/aperam-wins-2025-innovation-award-in-limburg-belgium/",
+   "raw_sector": "",
+   "date": "2026-01",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Aperam",
+   "use": "AI-supported predictive maintenance at Aperam Chatelet: sensors continuously monitor machines while AI-driven data analysis immediately detects deviations, shifting from reactive to condition-based maintenance to reduce unplanned downtime. Presented by Siemens Digital Industries Software as a live deployment (Senseye Predictive Maintenance context). [Siemens (Senseye Predictive Maintenance)]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.linkedin.com/posts/siemenssoftware_imagine-if-your-machines-could-detect-faults-activity-7278710045507227648-vMZl",
+   "raw_sector": "",
+   "date": "2024",
+   "fresh": "aging"
+  },
+  {
+   "company": "Aperam",
+   "use": "Autonomous guided vehicles (Movanis Titan Heavy AGV) deployed at Aperam Genk for driverless internal transport of steel coils/sleeves (up to 30 tonnes) between production lines in a shared, dynamic environment with autonomous route adaptation. In active shop-floor production. [Movanis]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://movanis.be/en/agv-use-cases/aperam",
+   "raw_sector": "",
+   "date": "2024",
+   "fresh": "aging"
+  },
+  {
+   "company": "Aperam",
+   "use": "Aperam AI transformation program with dedicated roles (AI Business Partner and AI Solution Architect at Genk) acting as catalysts for AI adoption, partnering with business units and process owners to drive Aperam's AI transformation across the company. [In-house (Aperam)]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://be.linkedin.com/jobs/view/accelerate-program-ai-business-partner-at-aperam-4144422043",
+   "raw_sector": "",
+   "date": "2025",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Aperam",
+   "use": "Aperam AI Day workshop at the Haan Service Centre (Germany) with 25+ staff from production, planning, maintenance and IT, demystifying Machine Learning, Generative AI and Prompt Engineering and fostering dialogue between plant personnel and AI experts to uncover operational-excellence use cases. Internal enablement/adoption initiative, not a specific production system. [In-house (Aperam)]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.linkedin.com/posts/aperam_aperam-artificialintelligence-aiinindustry-activity-7419689000715571200-dcyk",
+   "raw_sector": "",
+   "date": "2026-01",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Aperam",
+   "use": "Neural-network-based environmental noise management at Aperam Stainless Belgium (Chatelet), presented in the Engineering Applications of Neural Networks (ENNS) proceedings by an Aperam Chatelet author (Yves Bernis) - applying AI/neural networks to predict/manage industrial environmental noise near the plant. [In-house / academic (neural networks)]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://link.springer.com/content/pdf/10.1007/978-3-032-31144-3.pdf",
+   "raw_sector": "",
+   "date": "2025",
+   "fresh": "fresh"
   }
  ]
 }

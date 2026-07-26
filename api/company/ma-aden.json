@@ -3,42 +3,49 @@
  "name": "Ma'aden",
  "cc": "SA",
  "vertical": "Mining & Materials",
- "deployments": 3,
- "confirmed": 0,
- "with_value_number": 1,
+ "deployments": 9,
+ "confirmed": 4,
+ "with_value_number": 3,
  "proof_rate": 0.333,
  "mktcap": 60608000000.0,
  "revenue": 10360000000.0,
  "employees": 6978.0,
  "silent": false,
- "per_bn_revenue": 0.29,
- "per_10k_emp": 4.3,
+ "per_bn_revenue": 0.87,
+ "per_10k_emp": 12.9,
  "benchmarks": {
   "global_vertical": {
-   "deployments": 90,
-   "confirmed": 0,
-   "proof_rate": 73,
-   "n": 61
+   "deployments": 84,
+   "confirmed": 56,
+   "proof_rate": 69,
+   "n": 62
   }
  },
  "first_seen": 2023,
  "by_year": [
   {
    "year": 2023,
+   "n": 2
+  },
+  {
+   "year": 2024,
    "n": 1
   },
   {
    "year": 2025,
-   "n": 2
+   "n": 6
   }
  ],
  "undated_pct": 0,
  "momentum": "early_mover,rising",
- "maturity": "L1",
+ "maturity": "L4",
  "maturity_evidence": [
-  "rows_no_confirmed"
+  "multi_horizontal",
+  "named_product:Enterprise",
+  "value_number",
+  "multi_year"
  ],
- "prospect_score": 27,
+ "prospect_score": 51,
  "stack": [
   "Microsoft",
   "Microsoft Azure",
@@ -55,6 +62,17 @@
    "url": "https://www.middleeastainews.com/p/maaden-adopts-microsoft-copilot",
    "raw_sector": "Mining",
    "date": "2025",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Ma'aden",
+   "use": "Enterprise productivity automation with Copilot for document drafting, email writing, and report generation [Microsoft 365 Copilot, Azure OpenAI Service]",
+   "existence": "confirmed",
+   "value": "2200 hours monthly",
+   "tier": "",
+   "url": "https://www.microsoft.com/en/customers/story/21514-maaden-microsoft-365-copilot",
+   "raw_sector": "",
+   "date": "2025-01-29",
    "fresh": "fresh"
   },
   {
@@ -77,6 +95,61 @@
    "url": "https://www.metaltechnews.com/story/2025/05/07/mining-tech/data-driven-exploration-reshaping-saudi-mining/2269.html",
    "raw_sector": "Mining",
    "date": "2025",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Ma'aden",
+   "use": "AI-powered subsurface imaging and mineral exploration using satellite data and multiphysics analysis [Fleet Space ExoSphere]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.fleetspace.com/newsroom/maaden-signs-mou-with-fleet-space-tahreez-to-unlock-ksas-mineral-potential",
+   "raw_sector": "",
+   "date": "2025-01-20",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Ma'aden",
+   "use": "Autonomous industrial mining robots deployment [OffWorld]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.offworld.ai/post/offworld-and-maaden-collaborate-to-spearhead-new-era-of-ai-powered-swarm-robotic-mining",
+   "raw_sector": "",
+   "date": "2023-01-27",
+   "fresh": "stale"
+  },
+  {
+   "company": "Ma'aden",
+   "use": "AI for mineral reserve prediction, cybersecurity management, and predictive data models",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.middleeastainews.com/p/maaden-adopts-microsoft-copilot",
+   "raw_sector": "",
+   "date": "2025-03-31",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Ma'aden",
+   "use": "Digital mine with AR and AI-based geoscience analytics using real-time data [Hexagon]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://aiexpert.network/ai-at-maaden/",
+   "raw_sector": "",
+   "date": "2024-10-22",
+   "fresh": "aging"
+  },
+  {
+   "company": "Ma'aden",
+   "use": "Microsoft 365 Copilot for drafting emails and analyzing data [Microsoft] [Microsoft]",
+   "existence": "confirmed",
+   "value": "Saved up to 2,200 hours monthly",
+   "tier": "",
+   "url": "https://www.microsoft.com/en-us/microsoft-cloud/blog/2025/07/24/ai-powered-success-with-1000-stories-of-customer-transformation-and-innovation/",
+   "raw_sector": "",
+   "date": "2025-07-24",
    "fresh": "fresh"
   }
  ]

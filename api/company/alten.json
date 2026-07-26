@@ -3,27 +3,27 @@
  "name": "Alten",
  "cc": "FR",
  "vertical": "Technology",
- "deployments": 1,
- "confirmed": 1,
- "with_value_number": 0,
- "proof_rate": 0.0,
+ "deployments": 6,
+ "confirmed": 5,
+ "with_value_number": 1,
+ "proof_rate": 0.167,
  "mktcap": 2116800000.0,
  "revenue": 4428000000.0,
  "employees": 57038.0,
  "silent": false,
- "per_bn_revenue": 0.23,
- "per_10k_emp": 0.18,
+ "per_bn_revenue": 1.36,
+ "per_10k_emp": 1.05,
  "benchmarks": {
   "global_vertical": {
-   "deployments": 0,
-   "confirmed": 6,
-   "proof_rate": 0,
-   "n": 156
+   "deployments": 35,
+   "confirmed": 46,
+   "proof_rate": 45,
+   "n": 159
   },
   "country_vertical": {
-   "deployments": 0,
-   "confirmed": 0,
-   "proof_rate": 0,
+   "deployments": 57,
+   "confirmed": 71,
+   "proof_rate": 43,
    "n": 8
   }
  },
@@ -34,17 +34,32 @@
    "n": 1
   }
  ],
- "undated_pct": 0,
+ "undated_pct": 83,
  "momentum": "early_mover,rising",
  "maturity": "L3",
  "maturity_evidence": [
+  "multi_horizontal",
   "named_product:Mistral",
+  "value_number",
   "tier_p"
  ],
- "prospect_score": 54,
- "stack": [],
- "vendor_named": false,
+ "prospect_score": 63,
+ "stack": [
+  "Mistral AI"
+ ],
+ "vendor_named": true,
  "deployments_detail": [
+  {
+   "company": "Alten",
+   "use": "AI bot for technical support call management and remote dispatching",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.alten.com/case-studies/a-bot-for-better-technical-support-and-customer-service/",
+   "raw_sector": "",
+   "date": "missing",
+   "fresh": "undated"
+  },
   {
    "company": "Alten",
    "use": "A3 AI program integrating AI into engineering projects and processes plus Mistral AI partnership",
@@ -55,6 +70,50 @@
    "raw_sector": "IT / Engineering Consulting",
    "date": "2025",
    "fresh": "fresh"
+  },
+  {
+   "company": "Alten",
+   "use": "Strategic partnership for deployment of AI solutions in engineering and IT services [Mistral AI]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.alten.com/alten-and-mistral-ai-announce-a-strategic-partnership-for-the-deployment-of-artificial-intelligence-solutions-in-technological-engineering-and-it-services/",
+   "raw_sector": "",
+   "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "Alten",
+   "use": "AI-infused projects across industries",
+   "existence": "confirmed",
+   "value": "300+",
+   "tier": "",
+   "url": "https://www.alten.com/wp-content/uploads/2025/03/BROCHURE_AI_AT_ALTEN_2025.pdf",
+   "raw_sector": "",
+   "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "Alten",
+   "use": "Conversational AI assistant for querying company CVs and case studies",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.alten.com/case-studies/generative-ai-boosts-corporate-intelligence/",
+   "raw_sector": "",
+   "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "Alten",
+   "use": "Generative AI for software development - code writing and fixing",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.alten.com/case-studies/pushing-the-boundaries-of-ai-in-software-development/",
+   "raw_sector": "",
+   "date": "missing",
+   "fresh": "undated"
   }
  ]
 }

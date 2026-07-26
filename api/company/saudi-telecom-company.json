@@ -3,47 +3,61 @@
  "name": "Saudi Telecom Company",
  "cc": "SA",
  "vertical": "Telecom",
- "deployments": 2,
- "confirmed": 2,
- "with_value_number": 1,
- "proof_rate": 0.5,
+ "deployments": 12,
+ "confirmed": 8,
+ "with_value_number": 5,
+ "proof_rate": 0.417,
  "mktcap": 57776000000.0,
  "revenue": 20946666667.0,
  "employees": null,
  "silent": false,
- "per_bn_revenue": 0.1,
+ "per_bn_revenue": 0.57,
  "per_10k_emp": null,
  "benchmarks": {
   "global_vertical": {
-   "deployments": 57,
-   "confirmed": 65,
-   "proof_rate": 58,
-   "n": 93
+   "deployments": 75,
+   "confirmed": 63,
+   "proof_rate": 66,
+   "n": 94
   }
  },
- "first_seen": 2024,
+ "first_seen": 2020,
  "by_year": [
   {
+   "year": 2020,
+   "n": 2
+  },
+  {
    "year": 2024,
-   "n": 1
+   "n": 3
   },
   {
    "year": 2025,
+   "n": 5
+  },
+  {
+   "year": 2026,
    "n": 1
   }
  ],
- "undated_pct": 0,
- "momentum": "early_mover,flat",
+ "undated_pct": 8,
+ "momentum": "early_mover,rising",
  "maturity": "L4",
  "maturity_evidence": [
+  "multi_horizontal",
   "named_product:STC",
   "value_number",
   "multi_year",
   "tier_p"
  ],
- "prospect_score": 40,
- "stack": [],
- "vendor_named": false,
+ "prospect_score": 71,
+ "stack": [
+  "Cohere",
+  "Meta",
+  "NVIDIA",
+  "OpenAI"
+ ],
+ "vendor_named": true,
  "deployments_detail": [
   {
    "company": "Saudi Telecom Company",
@@ -66,6 +80,116 @@
    "raw_sector": "Telecom",
    "date": "2025",
    "fresh": "fresh"
+  },
+  {
+   "company": "Saudi Telecom Company",
+   "use": "Nokia MantaRay Cognitive SON deployed on stc's live network for AI-powered autonomous RAN optimization (self-configuring modules boosting 5G radio quality and efficiency); a global first on a live network. By 2025 stc's AI-powered products expected to cover 200+ systems saving ~SAR 2m annually. [Nokia (MantaRay Cognitive SON)]",
+   "existence": "confirmed",
+   "value": "SAR 2 million annual savings; 200+ systems by 2025",
+   "tier": "",
+   "url": "https://www.nokia.com/newsroom/nokia-and-stc-group-optimize-network-with-ai-powered-mantaray-cognitive-son-solution-in-saudi-arabia/",
+   "raw_sector": "",
+   "date": "2024-07-02",
+   "fresh": "aging"
+  },
+  {
+   "company": "Saudi Telecom Company",
+   "use": "Deployed Nokia MantaRay Autopilot for fully autonomous RAN operations during the 2025 Hajj in Makkah — self-healing fault detection, load redistribution and coverage optimization, using historical Hajj data to anticipate congestion. [Nokia (MantaRay Autopilot / SMO)]",
+   "existence": "confirmed",
+   "value": "60% reduction in cell outages; 15,000+ autonomous adjustments/hour; 10% peak throughput increase; 20-30% higher average speeds",
+   "tier": "",
+   "url": "https://www.itp.net/telecommunications/ai-powered-network-automation-slashes-outages-in-makkah-by-60-during-hajj-season",
+   "raw_sector": "",
+   "date": "2025-07-30",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Saudi Telecom Company",
+   "use": "stc.AI launched a sovereign LLM cloud platform with stc Enterprise GPT — a generative AI content-creation/decision-support solution running the open-source Llama 405B model on SambaNova inferencing infrastructure, targeting Saudi enterprises. [SambaNova Systems; Meta Llama 405B]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://techafricanews.com/2025/02/18/stc-group-unveils-saudi-arabias-first-sovereign-ai-cloud-for-enterprise-innovation/",
+   "raw_sector": "",
+   "date": "2025-02-18",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Saudi Telecom Company",
+   "use": "'New Calling' real-time Arabic-English voice translation pilot — uses LLMs and speech models optimized for Arabic/English with network-level low-latency processing so callers speak naturally while hearing instant translation; Phase Two commercial pilot live for selected customers in Riyadh. [stc (proprietary LLM/speech models on New Calling network)]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://developingtelecoms.com/telecom-business/operator-news/19912-stc-pilots-ai-powered-arabic-english-translation-for-voice-calls.html",
+   "raw_sector": "",
+   "date": "2026-03-09",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Saudi Telecom Company",
+   "use": "stc acquired an NVIDIA DGX AI supercomputer to build Saudi Arabia's first AI and deep-learning cloud infrastructure, positioning as the region's first cloud service provider to deliver GPU-accelerated enterprise AI (smart factory, healthcare diagnostics, autonomous vehicles, smart cities). [NVIDIA (DGX)]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.hpcwire.com/off-the-wire/stc-and-nvidia-team-up-to-build-saudi-arabias-first-ai-and-deep-learning-cloud-infrastructure/",
+   "raw_sector": "",
+   "date": "2020-10-21",
+   "fresh": "stale"
+  },
+  {
+   "company": "Saudi Telecom Company",
+   "use": "stc and HUMAIN announced a strategic joint venture to develop and operate AI-focused data centers in Saudi Arabia, planned capacity up to 1GW, to accelerate the Kingdom's AI compute and sovereign AI capabilities. [HUMAIN]",
+   "existence": "claimed",
+   "value": "up to 1 gigawatt AI data center capacity",
+   "tier": "",
+   "url": "https://spa.gov.sa/en/N2471061",
+   "raw_sector": "",
+   "date": "2025-12-18",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Saudi Telecom Company",
+   "use": "stc's AI-Driven Clinical Solutions platform for healthcare enables hospitals to deploy and switch radiology AI tools quickly through a single platform, with secure GDPR-compliant data handling and deployment. [stc (digital healthcare)]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.stc.com.sa/en/business/digital_future/stc-digital-healthcare-solutions/AI-Driven-Clinical-Solutions.html",
+   "raw_sector": "",
+   "date": "2025-01-01",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Saudi Telecom Company",
+   "use": "Named as a Cohere customer/case study [Cohere] [Cohere]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://medium.com/@zcefaratti87/cohere-ai-well-positioned-for-the-coming-wave-of-enterprise-ai-application-and-agentic-ai-8cc52ab02ac8",
+   "raw_sector": "",
+   "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "Saudi Telecom Company",
+   "use": "AI/ML customer segmentation and personalized marketing on Teradata Vantage — 400+ attributes categorizing customers into behavioral segments, nPath omnichannel journey analytics, and AI-generated personalized campaigns (50,000+ campaigns/month). [Teradata (Vantage, nPath)]",
+   "existence": "confirmed",
+   "value": "Campaign take rates improved from 0.5-1% to 30-45%; 50,000+ monthly campaigns; 109% KPI overachievement in 2019",
+   "tier": "",
+   "url": "https://www.teradata.com/customers/saudi-telecom-company",
+   "raw_sector": "",
+   "date": "2020-01-01",
+   "fresh": "stale"
+  },
+  {
+   "company": "Saudi Telecom Company",
+   "use": "stc selected REVE Chat's AI-powered chatbot and live chat platform for customer service, providing context-aware LLM-powered responses in Arabic and English across stc's website, Facebook Messenger, WhatsApp and other digital channels (40+ API integrations). [REVE Chat / REVE Systems]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.thedailystar.net/business/organisation-news/press-releases/news/stc-selects-reve-chats-ai-powered-chatbot-and-live-chat-platform-3714276",
+   "raw_sector": "",
+   "date": "2024-09-28",
+   "fresh": "aging"
   }
  ]
 }

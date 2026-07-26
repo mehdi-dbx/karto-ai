@@ -3,10 +3,10 @@
  "name": "Salafin",
  "cc": "MA",
  "vertical": "Financial Services",
- "deployments": 1,
- "confirmed": 0,
- "with_value_number": 0,
- "proof_rate": 0.0,
+ "deployments": 9,
+ "confirmed": 3,
+ "with_value_number": 2,
+ "proof_rate": 0.222,
  "mktcap": 134000000.0,
  "revenue": null,
  "employees": null,
@@ -15,27 +15,47 @@
  "per_10k_emp": null,
  "benchmarks": {
   "global_vertical": {
-   "deployments": 0,
-   "confirmed": 0,
-   "proof_rate": 0,
-   "n": 377
+   "deployments": 58,
+   "confirmed": 27,
+   "proof_rate": 44,
+   "n": 388
   },
   "country_vertical": {
-   "deployments": 0,
-   "confirmed": 0,
-   "proof_rate": 0,
+   "deployments": 60,
+   "confirmed": 40,
+   "proof_rate": 90,
    "n": 11
   }
  },
- "first_seen": null,
- "by_year": [],
- "undated_pct": 100,
- "momentum": "none",
- "maturity": "L1",
- "maturity_evidence": [
-  "rows_no_confirmed"
+ "first_seen": 2010,
+ "by_year": [
+  {
+   "year": 2010,
+   "n": 1
+  },
+  {
+   "year": 2016,
+   "n": 1
+  },
+  {
+   "year": 2019,
+   "n": 1
+  },
+  {
+   "year": 2026,
+   "n": 4
+  }
  ],
- "prospect_score": 40,
+ "undated_pct": 22,
+ "momentum": "early_mover,rising",
+ "maturity": "L4",
+ "maturity_evidence": [
+  "multi_horizontal",
+  "named_product:Reported",
+  "value_number",
+  "multi_year"
+ ],
+ "prospect_score": 57,
  "stack": [],
  "vendor_named": false,
  "deployments_detail": [
@@ -49,6 +69,94 @@
    "raw_sector": "Financials / Sociétés de financement",
    "date": "missing",
    "fresh": "undated"
+  },
+  {
+   "company": "Salafin",
+   "use": "Virtual customer assistance / assistant for customer onboarding and support ('assistance et prise en main des clients', 'assistance virtuelle'), described as part of Salafin's AI integration into customer-facing processes. [none disclosed]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://telquel.ma/sponsors/salafin-ia-lexperience-client-a-lere-du-digital-et-de-lintelligence-artificielle_1983348",
+   "raw_sector": "",
+   "date": "2026-04",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Salafin",
+   "use": "Personalized credit scoring for personal loans, including behavioral scoring and custom pre-screening models built and fine-tuned on Salafin data, providing decision support for underwriting/risk control and marketing propensity modeling. [CRIF Decision Solutions]",
+   "existence": "confirmed",
+   "value": "+19% increase in new personal loan volumes (Nov 2009-Jan 2010) following the campaign using the new models",
+   "tier": "",
+   "url": "https://www.crif.com/news-events/press/salafin-chose-crif-decision-solutions-as-partner-for-the-optimization-of-its-credit-risk-assessment-and-management-performance/",
+   "raw_sector": "",
+   "date": "2010-04",
+   "fresh": "stale"
+  },
+  {
+   "company": "Salafin",
+   "use": "Deployment of a behavioral scoring model ('score comportemental SALAFIN 2016') used in credit risk decisioning, as disclosed in Salafin's AMMC financial reference document. [none disclosed]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.ammc.ma/sites/default/files/DR_Salafin_012_2024.pdf",
+   "raw_sector": "",
+   "date": "2016",
+   "fresh": "stale"
+  },
+  {
+   "company": "Salafin",
+   "use": "Generative AI to support analysis and processing of customer files as part of Salafin's stated plan to embed AI into its key processes. [none disclosed]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://telquel.ma/sponsors/salafin-ia-lexperience-client-a-lere-du-digital-et-de-lintelligence-artificielle_1983348",
+   "raw_sector": "",
+   "date": "2026-04",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Salafin",
+   "use": "AI used to accelerate the credit decision cycle ('Time-to-Yes' reduction) by compressing friction points in loan approval. [none disclosed]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://telquel.ma/sponsors/salafin-ia-lexperience-client-a-lere-du-digital-et-de-lintelligence-artificielle_1983348",
+   "raw_sector": "",
+   "date": "2026-04",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Salafin",
+   "use": "Online automated credit pre-decisioning: after a customer submits information via the digital application form, Salafin analyzes the file and returns an online 'réponse de principe' (in-principle decision), backed by its scoring engine. [none disclosed]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.salafin.com/projet-personnel/besoin-de-tresorerie",
+   "raw_sector": "",
+   "date": "none",
+   "fresh": "undated"
+  },
+  {
+   "company": "Salafin",
+   "use": "AI-driven personalization of financing offers to individual customers. [none disclosed]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://telquel.ma/sponsors/salafin-ia-lexperience-client-a-lere-du-digital-et-de-lintelligence-artificielle_1983348",
+   "raw_sector": "",
+   "date": "2026-04",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Salafin",
+   "use": "AI/machine-learning anti-fraud model that scores the probability of fraud on consumer/auto credit applications before disbursement, flagging deceptive transactions, falsified accounts and non-existent businesses. Reported as Morocco's first ML-based fraud detection system of this kind. [AIS Group (Aplicaciones de Inteligencia Artificial, Spain)]",
+   "existence": "confirmed",
+   "value": "700 real fraud cases detected in 2017 (baseline); AIS projected a 20-30% improvement in fraud detection",
+   "tier": "",
+   "url": "https://www.innovaspain.com/empresa-espanola-fraude-marruecos-ais-group-bmce/",
+   "raw_sector": "",
+   "date": "2019-02",
+   "fresh": "stale"
   }
  ]
 }

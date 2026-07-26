@@ -3,28 +3,28 @@
  "name": "Shinsegae",
  "cc": "KR",
  "vertical": "Retail & E-commerce",
- "deployments": 1,
- "confirmed": 1,
- "with_value_number": 0,
- "proof_rate": 0.0,
+ "deployments": 11,
+ "confirmed": 7,
+ "with_value_number": 9,
+ "proof_rate": 0.818,
  "mktcap": 3555555556.0,
  "revenue": 5133333333.0,
  "employees": 2624.0,
  "silent": false,
- "per_bn_revenue": 0.19,
- "per_10k_emp": 3.81,
+ "per_bn_revenue": 2.14,
+ "per_10k_emp": 41.92,
  "benchmarks": {
   "global_vertical": {
-   "deployments": 0,
-   "confirmed": 24,
-   "proof_rate": 0,
-   "n": 295
+   "deployments": 80,
+   "confirmed": 69,
+   "proof_rate": 96,
+   "n": 301
   },
   "country_vertical": {
-   "deployments": 0,
-   "confirmed": 14,
-   "proof_rate": 0,
-   "n": 22
+   "deployments": 91,
+   "confirmed": 82,
+   "proof_rate": 95,
+   "n": 23
   }
  },
  "first_seen": 2017,
@@ -32,17 +32,37 @@
   {
    "year": 2017,
    "n": 1
+  },
+  {
+   "year": 2023,
+   "n": 2
+  },
+  {
+   "year": 2024,
+   "n": 2
+  },
+  {
+   "year": 2025,
+   "n": 2
+  },
+  {
+   "year": 2026,
+   "n": 4
   }
  ],
  "undated_pct": 0,
- "momentum": "early_mover,gone_quiet",
- "maturity": "L3",
+ "momentum": "early_mover,rising",
+ "maturity": "L4",
  "maturity_evidence": [
+  "multi_horizontal",
   "named_product:S-Mind",
+  "value_number",
+  "multi_year",
   "tier_p"
  ],
- "prospect_score": 46,
+ "prospect_score": 49,
  "stack": [
+  "NVIDIA",
   "OpenAI"
  ],
  "vendor_named": true,
@@ -57,6 +77,116 @@
    "raw_sector": "Consumer Discretionary",
    "date": "2017",
    "fresh": "stale"
+  },
+  {
+   "company": "Shinsegae",
+   "use": "SSG.com AI shopping stack: deep-learning-based personalized product recommendation and search, plus a 24-hour AI voicebot for customer consultation. Reported 5x sales-linkage rate from recommendations and ~15% reduction in average consultation time via the voicebot. [SSG.com in-house AI]",
+   "existence": "confirmed",
+   "value": "5x sales-linkage rate; ~15% shorter average consultation time",
+   "tier": "",
+   "url": "https://www.donga.com/news/amp/all/20241013/130198489/2",
+   "raw_sector": "",
+   "date": "2024-10-14",
+   "fresh": "aging"
+  },
+  {
+   "company": "Shinsegae",
+   "use": "E-mart enhanced 'e-Sori' AI system to analyze ~240,000 monthly customer complaints/feedback (~8,000/day), classify by category, detect patterns, and generate store-specific operational improvement recommendations across checkout, parking, facilities, product location, and out-of-stock management. [Emart (e-Sori)]",
+   "existence": "claimed",
+   "value": "~240,000 feedback items/month analyzed",
+   "tier": "",
+   "url": "https://en.sedaily.com/finance/2026/07/08/e-mart-deploys-ai-to-tackle-customer-complaints-tailor",
+   "raw_sector": "",
+   "date": "2026-07-08",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Shinsegae",
+   "use": "Sparos AI demand forecasting at Emart24 convenience stores: self-developed ML platform factoring weather, location, events, day-of-week, and season to auto-generate orders, cutting ordering time from over 1 hour to ~5 minutes. Operational across 13 stores with plans to expand to 15-20. [Shinsegae I&C (Sparos AI)]",
+   "existence": "confirmed",
+   "value": "ordering time reduced from 1+ hour to ~5 minutes; 13 stores live",
+   "tier": "",
+   "url": "https://www.4th.kr/news/articleView.html?idxno=2048386",
+   "raw_sector": "",
+   "date": "2023-09-27",
+   "fresh": "stale"
+  },
+  {
+   "company": "Shinsegae",
+   "use": "SSG.com GPT-powered product review summarization: AI applies proprietary NLP (NER + topic modeling) to classify reviews by attributes (taste, freshness, price), then GPT generates concise summaries. Launched as Korea's first e-commerce GPT review summary; available on 85% of top 1,000 food products at launch. [OpenAI GPT + SSG.com in-house NLP]",
+   "existence": "confirmed",
+   "value": "85% of top 1,000 food products covered at launch",
+   "tier": "",
+   "url": "https://www.shinsegaegroupnewsroom.com/ssg-dotcom-gpt-review-summary/",
+   "raw_sector": "",
+   "date": "2024-04-29",
+   "fresh": "aging"
+  },
+  {
+   "company": "Shinsegae",
+   "use": "SSG.com AI Review Analysis System that analyzes ~2.5 million customer reviews per month, converting qualitative feedback into numeric scores across granular attribute criteria to inform product satisfaction and sales strategy. Built over 9 months by SSG.com's AI team and quality management team. [SSG.com in-house AI]",
+   "existence": "confirmed",
+   "value": "~2.5 million reviews analyzed per month",
+   "tier": "",
+   "url": "https://www.shinsegaegroupnewsroom.com/customer-mind-reading-ai-review/",
+   "raw_sector": "",
+   "date": "2023-05",
+   "fresh": "stale"
+  },
+  {
+   "company": "Shinsegae",
+   "use": "Shinsegae I&C 'Sparos AI Vision' deep-learning computer-vision platform powering unmanned/smart stores and 'AI checkout' that recognizes products in ~1 second without barcode scanning; trained on tens of millions of data points from its own unmanned stores. Deployed and being commercialized as a modular retail-tech solution. [Shinsegae I&C (Sparos AI Vision)]",
+   "existence": "confirmed",
+   "value": "product recognition in ~1 second",
+   "tier": "",
+   "url": "https://byline.network/2025/04/8-306/",
+   "raw_sector": "",
+   "date": "2025-04-08",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Shinsegae",
+   "use": "Shinsegae Group MOU with OpenAI to build ChatGPT-based end-to-end 'AI commerce' on E-Mart by 2027, including a ChatGPT shopping agent integrated into the Emart app for search, recommendation, and purchase. Partnership was subsequently scrapped ~11 days after signing. [OpenAI (ChatGPT)]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://en.sedaily.com/finance/2026/04/06/shinsegae-partners-with-openai-to-launch-ai-commerce-on",
+   "raw_sector": "",
+   "date": "2026-04-06",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Shinsegae",
+   "use": "Shinsegae Group partnership with Reflection AI to apply AI across retail operations (product sourcing, inventory management, customer management, personalized service, product curation/payment agents) and to build a 250MW sovereign AI data center on NVIDIA GPUs. [Reflection AI, NVIDIA]",
+   "existence": "claimed",
+   "value": "250MW AI data center (largest in Korea)",
+   "tier": "",
+   "url": "https://www.shinsegaegroupnewsroom.com/shinsegaegroup-reflectionai/",
+   "raw_sector": "",
+   "date": "2026-03-16",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Shinsegae",
+   "use": "Sparos 'ScanCare' edge-AI computer-vision solution that detects scan omissions and barcode fraud at self-checkout, running on an Intel mini-PC with NPU and IP cameras. Deployed at Emart24, Emart, and SK Hynix Icheon campus; commercialized at low cost (tens of thousands of won range) for external customers. [Shinsegae I&C (Sparos ScanCare), Intel]",
+   "existence": "confirmed",
+   "value": "checkout/wait time 4x+ faster than traditional stores",
+   "tier": "",
+   "url": "https://www.thelec.kr/news/articleView.html?idxno=43241",
+   "raw_sector": "",
+   "date": "2025-11-04",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Shinsegae",
+   "use": "Shinsegae Department Store 'AI Ready Data' personalization framework, co-developed with Seoul National University's Graduate School of Data Science; research accepted as an ICML paper. Planned 'AI Sales Agent' to analyze real-time sales data for customer characteristics, purchasing patterns, and promotions, targeted for early 2027. [Shinsegae Department Store + Seoul National University]",
+   "existence": "claimed",
+   "value": "up to 46% higher average transaction value (simulation)",
+   "tier": "",
+   "url": "https://en.sedaily.com/finance/2026/07/23/shinsegae-ai-personalization-study-accepted-by-icml-sales",
+   "raw_sector": "",
+   "date": "2026-07-23",
+   "fresh": "fresh"
   }
  ]
 }

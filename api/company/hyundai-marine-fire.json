@@ -3,7 +3,7 @@
  "name": "Hyundai Marine & Fire",
  "cc": "KR",
  "vertical": "Financial Services",
- "deployments": 1,
+ "deployments": 5,
  "confirmed": 1,
  "with_value_number": 0,
  "proof_rate": 0.0,
@@ -11,26 +11,43 @@
  "revenue": 11918518519.0,
  "employees": 3839.0,
  "silent": false,
- "per_bn_revenue": 0.08,
- "per_10k_emp": 2.6,
+ "per_bn_revenue": 0.42,
+ "per_10k_emp": 13.02,
  "benchmarks": {
   "global_vertical": {
-   "deployments": 0,
-   "confirmed": 17,
+   "deployments": 31,
+   "confirmed": 5,
    "proof_rate": 0,
-   "n": 377
+   "n": 388
   },
   "country_vertical": {
-   "deployments": 0,
+   "deployments": 39,
    "confirmed": 0,
    "proof_rate": 0,
-   "n": 17
+   "n": 19
   }
  },
- "first_seen": null,
- "by_year": [],
- "undated_pct": 100,
- "momentum": "none",
+ "first_seen": 2020,
+ "by_year": [
+  {
+   "year": 2020,
+   "n": 1
+  },
+  {
+   "year": 2024,
+   "n": 1
+  },
+  {
+   "year": 2025,
+   "n": 1
+  },
+  {
+   "year": 2026,
+   "n": 1
+  }
+ ],
+ "undated_pct": 20,
+ "momentum": "early_mover,rising",
  "maturity": "L3",
  "maturity_evidence": [
   "named_product:PASS",
@@ -42,6 +59,28 @@
  "deployments_detail": [
   {
    "company": "Hyundai Marine & Fire",
+   "use": "AI call centre and chatbot service [SKT AX LLM]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.telecompaper.com/news/skt-introduces-ai-to-hyundai-marine-fire-insurance--1491442",
+   "raw_sector": "",
+   "date": "2024-02-16",
+   "fresh": "aging"
+  },
+  {
+   "company": "Hyundai Marine & Fire",
+   "use": "AI-equipped robots for phone customer support",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://koreajoongangdaily.joins.com/2020/07/27/business/finance/insurance-AI-Hyundai-Fire--Marine/20200727175800692.html",
+   "raw_sector": "",
+   "date": "2020-07-27",
+   "fresh": "stale"
+  },
+  {
+   "company": "Hyundai Marine & Fire",
    "use": "\"2Q-PASS\" AI auto-underwriting process; AI across UW, claims, CS, marketing; HI-AICE innovation center; KAIST MOU",
    "existence": "confirmed",
    "value": "NONE",
@@ -50,6 +89,28 @@
    "raw_sector": "Financials",
    "date": "missing",
    "fresh": "undated"
+  },
+  {
+   "company": "Hyundai Marine & Fire",
+   "use": "AI-powered route optimization for maritime operations [Weathernews OSR-OW]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://sea.weathernews.com/resources/202607/137",
+   "raw_sector": "",
+   "date": "2026-07-15",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Hyundai Marine & Fire",
+   "use": "AI-assisted pricing and underwriting",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://pestel-analysis.com/blogs/growth-strategy/hyundai-insurance",
+   "raw_sector": "",
+   "date": "2025",
+   "fresh": "fresh"
   }
  ]
 }

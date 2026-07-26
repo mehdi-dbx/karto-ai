@@ -3,47 +3,62 @@
  "name": "IHI Corp.",
  "cc": "JP",
  "vertical": "Industrial / Machinery",
- "deployments": 2,
- "confirmed": 2,
- "with_value_number": 1,
- "proof_rate": 0.5,
+ "deployments": 10,
+ "confirmed": 9,
+ "with_value_number": 2,
+ "proof_rate": 0.2,
  "mktcap": 20400000000.0,
  "revenue": 10933333333.0,
  "employees": 26224.0,
  "silent": false,
- "per_bn_revenue": 0.18,
- "per_10k_emp": 0.76,
+ "per_bn_revenue": 0.91,
+ "per_10k_emp": 3.81,
  "benchmarks": {
   "global_vertical": {
-   "deployments": 82,
-   "confirmed": 82,
-   "proof_rate": 76,
-   "n": 175
+   "deployments": 77,
+   "confirmed": 84,
+   "proof_rate": 57,
+   "n": 176
   },
   "country_vertical": {
    "deployments": 69,
-   "confirmed": 69,
-   "proof_rate": 62,
+   "confirmed": 77,
+   "proof_rate": 38,
    "n": 27
   }
  },
- "first_seen": 2023,
+ "first_seen": 2017,
  "by_year": [
   {
+   "year": 2017,
+   "n": 2
+  },
+  {
    "year": 2023,
-   "n": 1
+   "n": 3
+  },
+  {
+   "year": 2024,
+   "n": 2
+  },
+  {
+   "year": 2026,
+   "n": 2
   }
  ],
- "undated_pct": 50,
- "momentum": "early_mover,gone_quiet",
- "maturity": "L3",
+ "undated_pct": 10,
+ "momentum": "early_mover,cooling",
+ "maturity": "L4",
  "maturity_evidence": [
+  "multi_horizontal",
   "named_product:Chat-IHI",
   "value_number",
+  "multi_year",
   "tier_p"
  ],
- "prospect_score": 32,
+ "prospect_score": 86,
  "stack": [
+  "Microsoft",
   "Microsoft Azure",
   "OpenAI"
  ],
@@ -70,6 +85,94 @@
    "raw_sector": "Machinery",
    "date": "missing",
    "fresh": "undated"
+  },
+  {
+   "company": "IHI Corp.",
+   "use": "ILIPS (IHI group Lifecycle Partner System) engine performance monitoring service for civil aircraft engines: collects in-flight engine data, performs trend monitoring, anomaly detection and failure prognostics to plan timely maintenance and support airline operations. Used with customers including Fuji Dream Airlines. [IHI (in-house platform)]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.ihi.co.jp/en/technology/techinfo/contents_no/__icsFiles/afieldfile/2023/06/17/eba80a44e6690d47977ff8c5d0bfc581.pdf",
+   "raw_sector": "",
+   "date": "2017",
+   "fresh": "stale"
+  },
+  {
+   "company": "IHI Corp.",
+   "use": "AADS (IHI AI Auto Depalletizing System): a deep-learning-powered robot that recognizes and unloads cardboard boxes from pallets to automate heavy logistics work. Co-developed with IHI Logistics & Machinery and Kinema Systems (USA); launched (commercialized) December 2017, with a domestic logistics customer deploying it in an automated warehouse. [IHI, IHI Logistics & Machinery, Kinema Systems (deep learning)]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.ihi.co.jp/en/technology/techinfo/contents_no/__icsFiles/afieldfile/2023/06/17/1a2e496cb6f3ea9cd55adf6a2a4071eb.pdf",
+   "raw_sector": "",
+   "date": "2017-12",
+   "fresh": "stale"
+  },
+  {
+   "company": "IHI Corp.",
+   "use": "3D Laser Radar combined with AI to detect and warn of wrong-way driving and mistaken entries at expressway entrances/exits, distinguishing vehicles from other objects to enhance road safety. [IHI]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.ihi.co.jp/en/technology/techinfo/contents_no/__icsFiles/afieldfile/2026/03/31/Vol59No1_03.pdf",
+   "raw_sector": "",
+   "date": "2026-03",
+   "fresh": "fresh"
+  },
+  {
+   "company": "IHI Corp.",
+   "use": "AI-based visual inspection for aero-engine and manufacturing parts: a Variational Auto-Encoder for anomaly detection on honeycomb-structure pattern images, plus synthetic-data-generation techniques to train visual-inspection AI models, part of IHI's aero-engine parts plant digitization/quality efforts. [IHI]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.ihi.co.jp/en/technology/techinfo/",
+   "raw_sector": "",
+   "date": "2024",
+   "fresh": "aging"
+  },
+  {
+   "company": "IHI Corp.",
+   "use": "Chat-IHI, an internal generative-AI chatbot built on Microsoft Azure OpenAI Service on IHI's private cloud, for document drafting, coding help, summarization, translation, questionnaire analysis and safety risk assessment. Launched June 2023; 3,600 users in the first week, and by March 2025 over 4,000 users (~30% of eligible staff) use it daily out of ~20,000 eligible Group employees in Japan. Uses RAG against internal business data. [Microsoft (Azure OpenAI Service), OpenAI]",
+   "existence": "confirmed",
+   "value": "4,000+ daily users (~30% of eligible), 20,000 eligible employees; questionnaire free-text analysis cut from hours to minutes",
+   "tier": "",
+   "url": "https://www.ihi.co.jp/en/technology/techinfo/contents_no/1201340_13586.html",
+   "raw_sector": "",
+   "date": "2023-06",
+   "fresh": "stale"
+  },
+  {
+   "company": "IHI Corp.",
+   "use": "For IHI Group offices outside Japan (where Chat-IHI is unavailable), internal versions of ChatGPT and Microsoft 365 Copilot are introduced for business productivity; Phase-3 rollout adds per-business-unit LLM frameworks and an on-premises RAG system for departments handling highly confidential information. [Microsoft (Microsoft 365 Copilot), OpenAI (ChatGPT)]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.ihi.co.jp/en/technology/techinfo/contents_no/__icsFiles/afieldfile/2026/04/07/Vol59No1_05.pdf",
+   "raw_sector": "",
+   "date": "2026-04",
+   "fresh": "fresh"
+  },
+  {
+   "company": "IHI Corp.",
+   "use": "MIMAMORI AI: deep-learning object-detection and image-classification system using ceiling- and workbench-mounted cameras to automatically count factory workers, measure operating hours and classify tasks, enabling workload equalization and productivity analysis. Trialed/installed at IHI Aioi Works. [IHI (deep learning)]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.ihi.co.jp/en/technology/techinfo/contents_no/1200701_13586.html",
+   "raw_sector": "",
+   "date": "2023",
+   "fresh": "stale"
+  },
+  {
+   "company": "IHI Corp.",
+   "use": "AI equipment anomaly-detection systems: a deep-learning fault-prediction system on PLC operational data (with generative AI for root-cause analysis) plus an abnormal-sound detection system (microphones -> spectrograms -> supervised/unsupervised deep learning). Detects early fire-risk anomalies such as abnormal roller rotation; deployed on industrial machinery including large cranes and at a coal terminal in Fukushima Prefecture where IUK performs maintenance. [IHI (deep learning + generative AI)]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.ihi.co.jp/technology/techinfo/contents_no/1201198_13491.html",
+   "raw_sector": "",
+   "date": "2024",
+   "fresh": "aging"
   }
  ]
 }

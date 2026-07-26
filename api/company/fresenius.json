@@ -3,26 +3,26 @@
  "name": "Fresenius",
  "cc": "DE",
  "vertical": "Healthcare & Life Sciences",
- "deployments": 1,
- "confirmed": 1,
+ "deployments": 6,
+ "confirmed": 4,
  "with_value_number": 0,
  "proof_rate": 0.0,
  "mktcap": 26503200000.0,
  "revenue": 24699600000.0,
  "employees": 177783.0,
  "silent": false,
- "per_bn_revenue": 0.04,
- "per_10k_emp": 0.06,
+ "per_bn_revenue": 0.24,
+ "per_10k_emp": 0.34,
  "benchmarks": {
   "global_vertical": {
-   "deployments": 0,
-   "confirmed": 13,
+   "deployments": 47,
+   "confirmed": 48,
    "proof_rate": 0,
-   "n": 165
+   "n": 168
   },
   "country_vertical": {
-   "deployments": 0,
-   "confirmed": 0,
+   "deployments": 60,
+   "confirmed": 40,
    "proof_rate": 0,
    "n": 6
   }
@@ -34,16 +34,19 @@
    "n": 1
   }
  ],
- "undated_pct": 0,
+ "undated_pct": 83,
  "momentum": "early_mover,gone_quiet",
  "maturity": "L3",
  "maturity_evidence": [
+  "multi_horizontal",
   "named_product:Center",
   "tier_p"
  ],
- "prospect_score": 54,
- "stack": [],
- "vendor_named": false,
+ "prospect_score": 64,
+ "stack": [
+  "SAP"
+ ],
+ "vendor_named": true,
  "deployments_detail": [
   {
    "company": "Fresenius",
@@ -55,6 +58,61 @@
    "raw_sector": "Healthcare",
    "date": "2024",
    "fresh": "aging"
+  },
+  {
+   "company": "Fresenius",
+   "use": "AI-powered anemia control model for dialysis patients to support nephrologists in optimizing anemia management for end-stage renal disease",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.prnewswire.com/news-releases/fresenius-medical-cares-ai-powered-application-of-the-anemia-control-model-selected-for-cms-ai-demo-days-in-the-united-states-302308533.html",
+   "raw_sector": "",
+   "date": "Nov 18, 2024",
+   "fresh": "undated"
+  },
+  {
+   "company": "Fresenius",
+   "use": "AI model to predict patient hospitalization within one week in dialysis care",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://freseniusmedicalcare.com/en-us/insights/articles/using-artificial-intelligence-to-predict-patient-outcomes-qa-with-len-usvyat/",
+   "raw_sector": "",
+   "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "Fresenius",
+   "use": "Development of AI models for dialysis care using anonymized patient database",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.medtechdive.com/news/fresenius-dialysis-care-database-ai/698133/",
+   "raw_sector": "",
+   "date": "Oct 30, 2023",
+   "fresh": "undated"
+  },
+  {
+   "company": "Fresenius",
+   "use": "Strategic partnership with SAP to accelerate digital healthcare delivery and AI innovation [SAP]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.fresenius.com/ai-in-healthcare",
+   "raw_sector": "",
+   "date": "Jan 19, 2026",
+   "fresh": "undated"
+  },
+  {
+   "company": "Fresenius",
+   "use": "EU AI Regulation implementation project",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://report.fresenius.com/2025/annual-report/sustainability-statement/social-information/s-digital-transformation.html",
+   "raw_sector": "",
+   "date": "Mar 25, 2026",
+   "fresh": "undated"
   }
  ]
 }

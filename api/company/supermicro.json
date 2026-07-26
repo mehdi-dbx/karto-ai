@@ -3,26 +3,26 @@
  "name": "Supermicro",
  "cc": "US",
  "vertical": "Technology",
- "deployments": 1,
- "confirmed": 1,
+ "deployments": 6,
+ "confirmed": 3,
  "with_value_number": 0,
  "proof_rate": 0.0,
  "mktcap": 20710000000.0,
  "revenue": 33700000000.0,
  "employees": 6238.0,
  "silent": false,
- "per_bn_revenue": 0.03,
- "per_10k_emp": 1.6,
+ "per_bn_revenue": 0.18,
+ "per_10k_emp": 9.62,
  "benchmarks": {
   "global_vertical": {
-   "deployments": 0,
-   "confirmed": 6,
+   "deployments": 35,
+   "confirmed": 27,
    "proof_rate": 0,
-   "n": 156
+   "n": 159
   },
   "country_vertical": {
-   "deployments": 0,
-   "confirmed": 4,
+   "deployments": 32,
+   "confirmed": 25,
    "proof_rate": 0,
    "n": 74
   }
@@ -33,15 +33,27 @@
  "momentum": "none",
  "maturity": "L3",
  "maturity_evidence": [
+  "multi_horizontal",
   "named_product:GPU",
   "tier_p"
  ],
- "prospect_score": 46,
+ "prospect_score": 58,
  "stack": [
   "NVIDIA"
  ],
  "vendor_named": true,
  "deployments_detail": [
+  {
+   "company": "Supermicro",
+   "use": "Supermicro demonstrated a customer-service application built with the NVIDIA AI Blueprint for digital humans at its booth/expanded AI portfolio launch (Jan 2025), showcasing a conversational AI agent on its own edge/enterprise servers. [NVIDIA (AI Blueprint / digital humans)]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.engineering.com/supermicro-expands-ai-capabilities-for-enterprise-retail-edge-servers/",
+   "raw_sector": "",
+   "date": "missing",
+   "fresh": "undated"
+  },
   {
    "company": "Supermicro",
    "use": "AI GPU servers + liquid-cooled SuperClusters (NVIDIA Blackwell) for AI/GenAI infrastructure",
@@ -50,6 +62,50 @@
    "tier": "P",
    "url": "https://www.supermicro.com/en/solutions/ai-deep-learning",
    "raw_sector": "Information Technology",
+   "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "Supermicro",
+   "use": "SuperCloud Composer, Supermicro's data-center management platform, embeds a data-rich analytics engine providing predictive analytics and intelligent monitoring across compute/network/power to automate deployment, provisioning and repurposing of infrastructure. AI/ML feature shipped in Supermicro's own product. [Supermicro (in-house)]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.supermicro.com/en/solutions/management-software/supercloud-composer",
+   "raw_sector": "",
+   "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "Supermicro",
+   "use": "Data Center Building Block Solutions (DCBBS), a new Supermicro business line launched Oct 2025, delivers modular AI infrastructure with deployment automation and developer tools to design, order and build complete AI data centers from validated components. [Supermicro (in-house)]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://ir.supermicro.com/news/news-details/2025/Supermicro-Introduces-New-Business-Line-Data-Center-Building-Block-Solutions-for-Data-Center-Facilities-Equipment-and-Management-Services/default.aspx",
+   "raw_sector": "",
+   "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "Supermicro",
+   "use": "SuperCloud Automation Center (SCAC) provides pre-built enterprise automation for data-center and edge infrastructure, including AI workload enablement/onboarding, firmware baselining, OS setup and Kubernetes integration. Launched as part of the DCBBS business line. [Supermicro (in-house)]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.supermicro.com/en/solutions/management-software/scac",
+   "raw_sector": "",
+   "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "Supermicro",
+   "use": "Automated L11 cluster testing and burn-in (R-Burn/S-Burn) quality assurance in Supermicro's own rack-scale integration factories, validating integration quality and hardware before shipment. Automated inspection/validation in manufacturing operations. [Supermicro (in-house)]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.supermicro.com/manuals/brochure/Brochure-Rack-Services.pdf",
+   "raw_sector": "",
    "date": "missing",
    "fresh": "undated"
   }

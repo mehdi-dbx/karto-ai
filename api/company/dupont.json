@@ -3,48 +3,81 @@
  "name": "DuPont",
  "cc": "US",
  "vertical": "Chemicals & Materials",
- "deployments": 1,
- "confirmed": 1,
- "with_value_number": 0,
- "proof_rate": 0.0,
+ "deployments": 7,
+ "confirmed": 5,
+ "with_value_number": 3,
+ "proof_rate": 0.429,
  "mktcap": 18550000000.0,
  "revenue": 6920000000.0,
  "employees": 15000.0,
  "silent": false,
- "per_bn_revenue": 0.14,
- "per_10k_emp": 0.67,
+ "per_bn_revenue": 1.01,
+ "per_10k_emp": 4.67,
  "benchmarks": {
   "global_vertical": {
-   "deployments": 0,
-   "confirmed": 19,
-   "proof_rate": 0,
-   "n": 105
+   "deployments": 72,
+   "confirmed": 69,
+   "proof_rate": 81,
+   "n": 107
   },
   "country_vertical": {
-   "deployments": 0,
-   "confirmed": 32,
-   "proof_rate": 0,
+   "deployments": 80,
+   "confirmed": 72,
+   "proof_rate": 92,
    "n": 26
   }
  },
- "first_seen": 2024,
+ "first_seen": 2022,
  "by_year": [
   {
+   "year": 2022,
+   "n": 2
+  },
+  {
    "year": 2024,
-   "n": 1
+   "n": 2
+  },
+  {
+   "year": 2026,
+   "n": 3
   }
  ],
  "undated_pct": 0,
- "momentum": "early_mover,gone_quiet",
- "maturity": "L3",
+ "momentum": "early_mover,rising",
+ "maturity": "L4",
  "maturity_evidence": [
+  "multi_horizontal",
   "named_product:Advanced",
+  "value_number",
+  "multi_year",
   "tier_p"
  ],
- "prospect_score": 54,
+ "prospect_score": 53,
  "stack": [],
- "vendor_named": false,
+ "vendor_named": true,
  "deployments_detail": [
+  {
+   "company": "DuPont",
+   "use": "Predictive maintenance / machine health across DuPont manufacturing plants. DuPont deployed Augury's AI-driven machine health solution (vibration/ultrasonic sensors + ML diagnostics backed by vibration analysts), moving from route-based to predictive maintenance to prevent unscheduled downtime; rolling out across all businesses after proof-of-concept sites. [Augury]",
+   "existence": "confirmed",
+   "value": "7x ROI at proof-of-concept sites in under one year; '100% accuracy in our predictions' per DuPont Corporate Digital Value Delivery Leader Jim Hunt",
+   "tier": "",
+   "url": "https://www.augury.com/success-stories/dupont-sees-rapid-value-and-high-roi-with-predictive-maintenance/",
+   "raw_sector": "",
+   "date": "2022",
+   "fresh": "stale"
+  },
+  {
+   "company": "DuPont",
+   "use": "Supply Chain Cockpit — a digital planning platform (custom algorithm on an open-source platform) built with EY for DuPont's Mobility & Materials division, integrating 15+ supply chain and financial factors to let planners run multiple demand/supply scenarios within minutes for better business decisions. [EY]",
+   "existence": "confirmed",
+   "value": "1,000+ products distributed more effectively; 20+ scenario options tested monthly; 75+ supply chain locations analyzed; up to 30 planners trained",
+   "tier": "",
+   "url": "https://www.ey.com/en_us/insights/consulting/a-supply-chain-solution-sparked-an-industry-leading-reaction-for-dupont",
+   "raw_sector": "",
+   "date": "2022",
+   "fresh": "stale"
+  },
   {
    "company": "DuPont",
    "use": "Advanced IC substrate/interconnect materials for AI servers; internal data-science/ML team for decision-making",
@@ -55,6 +88,50 @@
    "raw_sector": "Materials",
    "date": "2024",
    "fresh": "aging"
+  },
+  {
+   "company": "DuPont",
+   "use": "RO Operations Advisor, an AI-enabled web tool that analyzes historical operating data from customers' reverse osmosis systems (applying advanced analytics and AI models grounded in DuPont water science) to identify likely fouling, document prior cleaning/replacement events, and recommend membrane cleaning and replacement timing to reduce downtime and cost of treated water. [DuPont (in-house)]",
+   "existence": "confirmed",
+   "value": "Up to 20% reduction in operating expenses (lower energy/chemical use, increased water recovery)",
+   "tier": "",
+   "url": "https://www.dupont.com/news/dupont-launches-ai-enabled-digital-advisor-to-help-customers-optimize-the-operations-of-reverse-osmosis-water-treatment-systems.html",
+   "raw_sector": "",
+   "date": "2026-04-23",
+   "fresh": "fresh"
+  },
+  {
+   "company": "DuPont",
+   "use": "AI-ready labs / R&D formulation acceleration. DuPont partnered with Uncountable's AI platform to capture, structure and connect experimental data into a unified data layer and use AI-driven optimization to design, test and optimize complex formulations, accelerating product development. Announced as a strategic collaboration/initiative (scaling digital lab workflows) rather than a fully proven production rollout. [Uncountable]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.dupont.com/news/dupont-collaborates-with-uncountable-to-advance-ai-ready-labs-strategy.html",
+   "raw_sector": "",
+   "date": "2026-04-30",
+   "fresh": "fresh"
+  },
+  {
+   "company": "DuPont",
+   "use": "Minerva, a generative AI chatbot from DuPont Water Solutions that lets customers and water-sector professionals instantly search, find and synthesize concise technical answers about DuPont's purification/separation products, with embedded source references and multi-language support. Accessible via Resource Center Premium at minerva.dupont.com. [none disclosed]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.dupont.com/news/dupont-water-solutions-launches-minerva.html",
+   "raw_sector": "",
+   "date": "2024-11-13",
+   "fresh": "aging"
+  },
+  {
+   "company": "DuPont",
+   "use": "Enterprise use of AI/digital tools on the commercial side — investments in workflow and process automation to improve customer experience and accelerate sales opportunities, as described by DuPont CEO Lori Koch. Stated as an active enterprise initiative across commercial, operations and innovation disciplines; no specific tools or metrics disclosed. [none disclosed]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.fool.com/earnings/call-transcripts/2026/02/10/dupont-dd-q4-2025-earnings-call-transcript/",
+   "raw_sector": "",
+   "date": "2026-02-10",
+   "fresh": "fresh"
   }
  ]
 }

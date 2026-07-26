@@ -3,43 +3,67 @@
  "name": "SK Telecom",
  "cc": "KR",
  "vertical": "Telecom",
- "deployments": 1,
- "confirmed": 1,
- "with_value_number": 1,
- "proof_rate": 1.0,
+ "deployments": 14,
+ "confirmed": 13,
+ "with_value_number": 8,
+ "proof_rate": 0.571,
  "mktcap": 15807407407.0,
  "revenue": 12622222222.0,
  "employees": 24569.0,
  "silent": false,
- "per_bn_revenue": 0.08,
- "per_10k_emp": 0.41,
+ "per_bn_revenue": 1.11,
+ "per_10k_emp": 5.7,
  "benchmarks": {
   "global_vertical": {
-   "deployments": 0,
-   "confirmed": 16,
-   "proof_rate": 78,
-   "n": 93
+   "deployments": 88,
+   "confirmed": 91,
+   "proof_rate": 86,
+   "n": 94
   },
   "country_vertical": {
-   "deployments": 0,
-   "confirmed": 0,
-   "proof_rate": 56,
+   "deployments": 89,
+   "confirmed": 89,
+   "proof_rate": 100,
    "n": 10
   }
  },
- "first_seen": null,
- "by_year": [],
- "undated_pct": 100,
- "momentum": "none",
- "maturity": "L3",
+ "first_seen": 2023,
+ "by_year": [
+  {
+   "year": 2023,
+   "n": 2
+  },
+  {
+   "year": 2024,
+   "n": 4
+  },
+  {
+   "year": 2025,
+   "n": 5
+  },
+  {
+   "year": 2026,
+   "n": 2
+  }
+ ],
+ "undated_pct": 7,
+ "momentum": "early_mover,rising",
+ "maturity": "L4",
  "maturity_evidence": [
+  "multi_horizontal",
   "named_product:MAU",
   "value_number",
+  "multi_year",
   "tier_p"
  ],
- "prospect_score": 6,
+ "prospect_score": 77,
  "stack": [
-  "Anthropic"
+  "Amazon AWS",
+  "Anthropic",
+  "Microsoft",
+  "Microsoft Azure",
+  "NVIDIA",
+  "Palantir"
  ],
  "vendor_named": true,
  "deployments_detail": [
@@ -53,6 +77,149 @@
    "raw_sector": "Communication Services",
    "date": "missing",
    "fresh": "undated"
+  },
+  {
+   "company": "SK Telecom",
+   "use": "Fine-tuning Anthropic Claude models on Amazon Bedrock for telco-specific grounded Q&A over SKT technical telecommunication documents (Korean, with citation/reference links), using prompt optimization, fine-tuning and synthetic data generation via AWS Generative AI Innovation Center. [Anthropic Claude on AWS Amazon Bedrock]",
+   "existence": "claimed",
+   "value": "~58% improvement in ROUGE-3, ~27% in ROUGE-L; substantial improvement in correct reference links",
+   "tier": "",
+   "url": "https://aws.amazon.com/blogs/machine-learning/sk-telecom-improves-telco-specific-qa-by-fine-tuning-anthropics-claude-models-in-amazon-bedrock/",
+   "raw_sector": "",
+   "date": "2024-10-10",
+   "fresh": "aging"
+  },
+  {
+   "company": "SK Telecom",
+   "use": "A. (A-dot) personal AI assistant consumer app, fully revamped into a daily-life AI assistant for SKT subscribers (personalization, information recommendation, call/assistant features). [SKT (with multiple LLM partners)]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://news.sktelecom.com/en/1551",
+   "raw_sector": "",
+   "date": "2024-08-26",
+   "fresh": "aging"
+  },
+  {
+   "company": "SK Telecom",
+   "use": "A. Call Translator: AI-based real-time voice interpretation/translation during phone calls (launched on iOS, later Android). [SKT]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.sktelecom.com/en/press/press_detail.do?idx=1590",
+   "raw_sector": "",
+   "date": "2023-12-14",
+   "fresh": "stale"
+  },
+  {
+   "company": "SK Telecom",
+   "use": "A. (A-dot) AI call recording, voice-to-text transcription and call summarization app for iPhone (launched alongside iPhone 15 in Korea; T Phone upgraded to Adot Phone with AI pre/during/post-call assistant functions). [SKT]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.kedglobal.com/tech,-media-telecom/newsView/ked202310240010",
+   "raw_sector": "",
+   "date": "2023-10-24",
+   "fresh": "stale"
+  },
+  {
+   "company": "SK Telecom",
+   "use": "Sovereign AI infrastructure 'Haein Cluster' GPU-as-a-Service (GPUaaS) at the Gasan AI Data Center, with proprietary 'Petasus AI Cloud' virtualization and 'AI Cloud Manager' lifecycle platform; selected for Korea's national Proprietary AI Foundation Model project. (Prior H100/H200-based GPUaaS launched Dec 2024/Q1 2025.) [NVIDIA (Blackwell/B200 GPUs), Penguin Solutions, Supermicro]",
+   "existence": "confirmed",
+   "value": "over 1,000 NVIDIA Blackwell GPUs in a single cluster (one of Korea's largest)",
+   "tier": "",
+   "url": "https://www.sktelecom.com/en/press/press_detail.do?idx=1643",
+   "raw_sector": "",
+   "date": "2025-08-05",
+   "fresh": "fresh"
+  },
+  {
+   "company": "SK Telecom",
+   "use": "Perplexity AI-powered search engine offered to SKT subscribers (Perplexity Pro free for users) and joint development of a Korean-optimized AI search engine integrated into the A. (A-dot) assistant service. [Perplexity AI]",
+   "existence": "confirmed",
+   "value": "SKT invested USD 10 million; rollout to 30M+ Korean subscribers",
+   "tier": "",
+   "url": "https://www.reuters.com/technology/sk-telecom-partners-with-ai-search-startup-perplexity-korea-2024-02-26/",
+   "raw_sector": "",
+   "date": "2024-02-26",
+   "fresh": "aging"
+  },
+  {
+   "company": "SK Telecom",
+   "use": "AI Customer Service Support System for call-center agents, built on SKT's proprietary Telco LLM and large multimodal model (LMM): AI Knowledge Search Assistant (natural-language document retrieval), Intelligent Document Processing (auto-categorizing customer-submitted docs), and Automated Post-Processing (consultation summarization/classification). Beta launched Oct 2024, full rollout across all customer service ops in 2025. [SKT proprietary Telco LLM/LMM (co-developed with global LLM partners)]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://news.sktelecom.com/en/1647",
+   "raw_sector": "",
+   "date": "2024-11-18",
+   "fresh": "aging"
+  },
+  {
+   "company": "SK Telecom",
+   "use": "Claude-powered customer-support agent assistance: 'In-Call Assist' (real-time document search/answers for agents) and 'Post-Call Processing' (summarization, topic classification, to-do generation, sentiment analysis), serving millions of Korean customers in production. [Anthropic (Claude Platform / API)]",
+   "existence": "confirmed",
+   "value": "LLM response quality +34%; low-quality responses -68%; post-call processing ~89% of human-agent quality; agent evaluation scores rose from 3.3 to mid-4s",
+   "tier": "",
+   "url": "https://claude.com/customers/skt",
+   "raw_sector": "",
+   "date": "2025-01-01",
+   "fresh": "fresh"
+  },
+  {
+   "company": "SK Telecom",
+   "use": "Agentic workflows for the A. (A-Dot) personal AI assistant app orchestrated on Microsoft Azure AI Foundry, using multi-agent orchestration to deliver personalized, scalable, compliant digital customer experiences. [Microsoft (Azure AI Foundry)]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.microsoft.com/en/customers/story/25680-sk-telecom-azure-ai-foundry",
+   "raw_sector": "",
+   "date": "2025-11-18",
+   "fresh": "fresh"
+  },
+  {
+   "company": "SK Telecom",
+   "use": "ScamVanguard AI phishing/fraud detection: analyzes communications and financial activity in real time to detect bait/phishing messages and block suspicious transfers. Deployed in Industrial Bank of Korea's SurPASS fraud-monitoring platform and in SKT's A. assistant phone service. [SKT]",
+   "existence": "confirmed",
+   "value": "IBK trial: prevented 26 phishing attempts / ~USD 445,000 losses; SKT A. phone: warnings on ~190,000 suspected phishing calls in one month",
+   "tier": "",
+   "url": "https://www.telecomreviewasia.com/news/service-news/13093-sk-telecom-launches-ai-phishing-detection-service/",
+   "raw_sector": "",
+   "date": "2025-04-09",
+   "fresh": "fresh"
+  },
+  {
+   "company": "SK Telecom",
+   "use": "AI voice-phishing prevention with the National Police Agency: 'FAME' system analyzes telecom data (location, calls, texts) with AI to detect/prevent financial-fraud patterns in real time; SKT also automated AI-based malware analysis for fraud investigations. [SKT (with Korean National Police Agency)]",
+   "existence": "confirmed",
+   "value": "identified 475 criminal servers, helped 643 victims; malware analysis time reduced ~81%",
+   "tier": "",
+   "url": "https://www.telecompaper.com/news/sk-telecom-and-national-police-agency-expand-ai-driven-fraud-prevention-partnership--1574310",
+   "raw_sector": "",
+   "date": "2026-06-16",
+   "fresh": "fresh"
+  },
+  {
+   "company": "SK Telecom",
+   "use": "Enterprise AI agent serving infrastructure deployed on FriendliAI Dedicated Endpoints to serve LLM-based AI agents to millions of end users across mobile and enterprise touchpoints in production. [FriendliAI (Dedicated Endpoints)]",
+   "existence": "confirmed",
+   "value": "5x LLM throughput increase; 3x cost reduction; production readiness in hours",
+   "tier": "",
+   "url": "https://friendli.ai/customers/sk-telecom",
+   "raw_sector": "",
+   "date": "2026-05-27",
+   "fresh": "fresh"
+  },
+  {
+   "company": "SK Telecom",
+   "use": "A-dot Biz enterprise AI agent deployed across SK Group companies (part of AX Innovation 2.0), providing employees AI agents treated as 'digital employees' with IDs, defined roles and a hiring-to-termination lifecycle for internal/back-office work. [SKT]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.mobileworldlive.com/ai-cloud/skt-begins-group-ai-agent-deployment/",
+   "raw_sector": "",
+   "date": "2025-09-29",
+   "fresh": "fresh"
   }
  ]
 }

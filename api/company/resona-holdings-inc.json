@@ -3,27 +3,27 @@
  "name": "Resona Holdings, Inc.",
  "cc": "JP",
  "vertical": "Financial Services",
- "deployments": 2,
- "confirmed": 2,
- "with_value_number": 1,
- "proof_rate": 0.5,
+ "deployments": 6,
+ "confirmed": 5,
+ "with_value_number": 2,
+ "proof_rate": 0.333,
  "mktcap": 35133333333.0,
  "revenue": 7333333333.0,
  "employees": 20813.0,
  "silent": false,
- "per_bn_revenue": 0.27,
- "per_10k_emp": 0.96,
+ "per_bn_revenue": 0.82,
+ "per_10k_emp": 2.88,
  "benchmarks": {
   "global_vertical": {
-   "deployments": 62,
-   "confirmed": 73,
-   "proof_rate": 61,
-   "n": 377
+   "deployments": 44,
+   "confirmed": 46,
+   "proof_rate": 58,
+   "n": 388
   },
   "country_vertical": {
-   "deployments": 29,
-   "confirmed": 36,
-   "proof_rate": 29,
+   "deployments": 50,
+   "confirmed": 43,
+   "proof_rate": 21,
    "n": 15
   }
  },
@@ -34,7 +34,7 @@
    "n": 1
   }
  ],
- "undated_pct": 50,
+ "undated_pct": 83,
  "momentum": "early_mover,gone_quiet",
  "maturity": "L3",
  "maturity_evidence": [
@@ -43,10 +43,34 @@
   "value_number",
   "tier_p"
  ],
- "prospect_score": 40,
- "stack": [],
- "vendor_named": false,
+ "prospect_score": 57,
+ "stack": [
+  "IBM"
+ ],
+ "vendor_named": true,
  "deployments_detail": [
+  {
+   "company": "Resona Holdings, Inc.",
+   "use": "Generative AI in business process reforms and human resource development",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://vpr.hkma.gov.hk/statics/assets/doc/400675/ar_25/ar_25_pt01_eng.pdf",
+   "raw_sector": "",
+   "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "Resona Holdings, Inc.",
+   "use": "AI and data analytics in financial operations [BrainPad, Fujitsu]",
+   "existence": "confirmed",
+   "value": "¥30 billion",
+   "tier": "",
+   "url": "https://global.fujitsu/en-global/pr/news/2026/03/30-02",
+   "raw_sector": "",
+   "date": "Mar 30, 2026",
+   "fresh": "undated"
+  },
   {
    "company": "Resona Holdings, Inc.",
    "use": "Resona Bank deployed PKSHA AI service for customer outreach ops",
@@ -68,6 +92,28 @@
    "raw_sector": "Banking",
    "date": "2024-12",
    "fresh": "aging"
+  },
+  {
+   "company": "Resona Holdings, Inc.",
+   "use": "Anti-money laundering and countering the financing of terrorism (AML/CFT) detection and processing [IBM]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.ibm.com/case-studies/resona-holdings-inc",
+   "raw_sector": "",
+   "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "Resona Holdings, Inc.",
+   "use": "Agentic AI for AML/CFT alert and case investigations",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.linkedin.com/posts/yan-zhu-cams-925760265_sas%E3%82%8A%E3%81%9D%E3%81%AAhd%E3%81%A8%E3%81%AEamlcft%E6%A5%AD%E5%8B%99%E9%AB%98%E5%BA%A6%E5%8C%96%E3%81%AB%E5%90%91%E3%81%91%E3%81%9F%E5%8F%96%E3%82%8A%E7%B5%84%E3%81%BF%E7%B6%99%E7%B6%9A%E6%8E%A8%E9%80%B2-activity-7480904396718100480-OB1J",
+   "raw_sector": "",
+   "date": "missing",
+   "fresh": "undated"
   }
  ]
 }

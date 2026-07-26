@@ -3,27 +3,27 @@
  "name": "Beijing Kingsoft Office Software",
  "cc": "CN",
  "vertical": "Technology",
- "deployments": 1,
- "confirmed": 1,
- "with_value_number": 0,
- "proof_rate": 0.0,
+ "deployments": 11,
+ "confirmed": 11,
+ "with_value_number": 2,
+ "proof_rate": 0.182,
  "mktcap": 15462500000.0,
  "revenue": 866666667.0,
  "employees": 6048.0,
  "silent": false,
- "per_bn_revenue": 1.15,
- "per_10k_emp": 1.65,
+ "per_bn_revenue": 12.69,
+ "per_10k_emp": 18.19,
  "benchmarks": {
   "global_vertical": {
-   "deployments": 0,
-   "confirmed": 6,
-   "proof_rate": 0,
-   "n": 156
+   "deployments": 67,
+   "confirmed": 82,
+   "proof_rate": 51,
+   "n": 159
   },
   "country_vertical": {
-   "deployments": 0,
-   "confirmed": 0,
-   "proof_rate": 0,
+   "deployments": 83,
+   "confirmed": 83,
+   "proof_rate": 33,
    "n": 13
   }
  },
@@ -31,19 +31,39 @@
  "by_year": [
   {
    "year": 2023,
-   "n": 1
+   "n": 2
+  },
+  {
+   "year": 2024,
+   "n": 4
+  },
+  {
+   "year": 2025,
+   "n": 3
+  },
+  {
+   "year": 2026,
+   "n": 2
   }
  ],
  "undated_pct": 0,
- "momentum": "early_mover,gone_quiet",
- "maturity": "L3",
+ "momentum": "early_mover,cooling",
+ "maturity": "L4",
  "maturity_evidence": [
+  "multi_horizontal",
   "named_product:WPS",
+  "value_number",
+  "multi_year",
   "tier_p"
  ],
- "prospect_score": 54,
- "stack": [],
- "vendor_named": false,
+ "prospect_score": 93,
+ "stack": [
+  "Amazon AWS",
+  "Anthropic",
+  "Baidu",
+  "DeepSeek"
+ ],
+ "vendor_named": true,
  "deployments_detail": [
   {
    "company": "Beijing Kingsoft Office Software",
@@ -55,6 +75,116 @@
    "raw_sector": "Information Technology",
    "date": "2023-07",
    "fresh": "stale"
+  },
+  {
+   "company": "Beijing Kingsoft Office Software",
+   "use": "WPS AI office assistant (core LLM productivity in Writer/Sheets/Presentation/PDF): AI writing (drafting, rewriting, summarizing, polishing), AI reading, AI data assistant, AI design/PPT generation. Launched to public beta Nov 2023, backbone of the product suite. [MiniMax, Zhipu AI, Baidu Wenxin/ERNIE (multi-model backend)]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "http://www.news.cn/food/20240705/66d3d487a1be493d86dd65a97bec82fa/c.html",
+   "raw_sector": "",
+   "date": "2024-07-05",
+   "fresh": "aging"
+  },
+  {
+   "company": "Beijing Kingsoft Office Software",
+   "use": "WPS AI multi-LLM backend: WPS AI routes tasks across domestic Chinese LLMs. Company disclosed on the SSE interactive platform that WPS AI primarily connects to Wenxin/ERNIE, MiniMax, and Zhipu AI, all filed under China's generative AI regulations. [Baidu Wenxin/ERNIE, MiniMax, Zhipu AI]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.yicai.com/news/101863024.html",
+   "raw_sector": "",
+   "date": "2023-09-20",
+   "fresh": "stale"
+  },
+  {
+   "company": "Beijing Kingsoft Office Software",
+   "use": "WPS AI overseas edition built on Amazon Bedrock with Anthropic Claude 3 as the foundation model, powering spell check, content rewriting, PPT/slide generation, data analysis and knowledge extraction (200k-token context) for global WPS Office users. In production. [AWS (Amazon Bedrock), Anthropic Claude 3]",
+   "existence": "confirmed",
+   "value": "35% reduction in operational costs; 30% increase in R&D efficiency; deployment cut from 3 months to 2; serves 200M+ overseas users",
+   "tier": "",
+   "url": "https://aws.amazon.com/solutions/case-studies/wps/",
+   "raw_sector": "",
+   "date": "2025-01-08",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Beijing Kingsoft Office Software",
+   "use": "WPS AI Government Edition (政务版): government office model 1.0 covering government AI writing, AI Q&A and AI tools; built on a self-developed 13B model with hundred-million-scale government pre-training corpus for official-document (公文) generation. [Kingsoft self-developed 13B model]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "http://www.xinhuanet.com/fortune/20240708/7679f940b4a045809625dc6cfee92cb4/c.html",
+   "raw_sector": "",
+   "date": "2024-07-08",
+   "fresh": "aging"
+  },
+  {
+   "company": "Beijing Kingsoft Office Software",
+   "use": "WPS 365 integration of DeepSeek: parts of the WPS 365 platform (cloud-document intelligent Q&A, 'AI Ask') call DeepSeek models for stronger reasoning, alongside Zhipu, MiniMax and Wenxin. [DeepSeek (also Zhipu AI, MiniMax, Wenxin)]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://finance.sina.com.cn/roll/2025-03-10/doc-inepeazk0670239.shtml",
+   "raw_sector": "",
+   "date": "2025-03-10",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Beijing Kingsoft Office Software",
+   "use": "WPS Lingxi (WPS 灵犀 / WPS AI 3.0): native Office AI agent letting users complete document creation, PPT generation and voice-assistant tasks via natural-language multi-turn dialogue without external app-switching. Awarded WAIC 2025 'treasure of the exhibition'. [Kingsoft (native agent; DeepSeek R1 among integrated models)]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://zhuanlan.zhihu.com/p/1933191389891495218",
+   "raw_sector": "",
+   "date": "2025-07-28",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Beijing Kingsoft Office Software",
+   "use": "WPS Comate AI office client for organizations (ToB) and Lingxi Professional Edition for individuals (ToC): task-executing AI agents that finish work rather than just answer questions; launched at the 2026 WPS AI Productivity Launch Event. [Kingsoft Office]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://en.tmtpost.com/news/8068568",
+   "raw_sector": "",
+   "date": "2026-07-16",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Beijing Kingsoft Office Software",
+   "use": "WPS AI spreadsheet agent: autonomous agent that operates spreadsheets; topped the global SpreadsheetBench benchmark. [Kingsoft Office]",
+   "existence": "confirmed",
+   "value": "98.25% on SpreadsheetBench (global top score)",
+   "tier": "",
+   "url": "https://en.tmtpost.com/news/8068568",
+   "raw_sector": "",
+   "date": "2026-07-16",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Beijing Kingsoft Office Software",
+   "use": "WPS AI 'AI companion writing' (AI伴写): immersive, human-led continuation writing that predicts intended content in ~0.5s, references local/cloud docs and web pages, and uses a self-built 'golden-phrase' knowledge base (classical poetry, laws, templates) plus a self-developed small model to reduce hallucination; offers role-based personas (general, administrative, teacher, operations). [Kingsoft self-developed small model + golden-phrase knowledge base]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.pingwest.com/a/300142",
+   "raw_sector": "",
+   "date": "2024-11-18",
+   "fresh": "aging"
+  },
+  {
+   "company": "Beijing Kingsoft Office Software",
+   "use": "WPS AI Enterprise Edition (WPS AI 企业版): AI Hub multi-model base, AI Docs turns enterprise documents into an intelligent document library with Q&A and creation; when integrated into enterprise business systems it assists after-sales and customer-service departments. [AI Hub (MiniMax, Zhipu AI, Wenxin, SenseTime, Tongyi Qianwen)]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://cn.chinadaily.com.cn/a/202407/05/WS6687d605a3107cd55d26a236.html",
+   "raw_sector": "",
+   "date": "2024-07-05",
+   "fresh": "aging"
   }
  ]
 }

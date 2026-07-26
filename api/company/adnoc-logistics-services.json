@@ -3,42 +3,58 @@
  "name": "ADNOC Logistics & Services",
  "cc": "AE",
  "vertical": "Logistics & Supply Chain",
- "deployments": 1,
- "confirmed": 1,
- "with_value_number": 1,
- "proof_rate": 1.0,
+ "deployments": 8,
+ "confirmed": 6,
+ "with_value_number": 6,
+ "proof_rate": 0.75,
  "mktcap": 46570000000.0,
  "revenue": 18060000000.0,
  "employees": 7022.0,
  "silent": false,
- "per_bn_revenue": 0.06,
- "per_10k_emp": 1.42,
+ "per_bn_revenue": 0.44,
+ "per_10k_emp": 11.39,
  "benchmarks": {
   "global_vertical": {
-   "deployments": 0,
-   "confirmed": 14,
-   "proof_rate": 65,
-   "n": 66
+   "deployments": 70,
+   "confirmed": 71,
+   "proof_rate": 92,
+   "n": 67
   }
  },
- "first_seen": 2025,
+ "first_seen": 2023,
  "by_year": [
   {
+   "year": 2023,
+   "n": 1
+  },
+  {
+   "year": 2024,
+   "n": 1
+  },
+  {
    "year": 2025,
+   "n": 3
+  },
+  {
+   "year": 2026,
    "n": 1
   }
  ],
- "undated_pct": 0,
+ "undated_pct": 25,
  "momentum": "early_mover,rising",
- "maturity": "L3",
+ "maturity": "L4",
  "maturity_evidence": [
+  "multi_horizontal",
   "named_product:Smart",
   "value_number",
+  "multi_year",
   "tier_p"
  ],
- "prospect_score": 14,
- "stack": [],
- "vendor_named": false,
+ "prospect_score": 46,
+ "stack": [
+  "Microsoft"
+ ],
+ "vendor_named": true,
  "deployments_detail": [
   {
    "company": "ADNOC Logistics & Services",
@@ -50,6 +66,83 @@
    "raw_sector": "Logistics",
    "date": "2025",
    "fresh": "fresh"
+  },
+  {
+   "company": "ADNOC Logistics & Services",
+   "use": "AI-powered Smart Port Solution (marineM) optimizing petroleum port operations, resource allocation, towage/pilotage and real-time marine activity tracking across UAE petroleum ports (Das, Zirku, Mubaraz, Ruwais, Jebel Dhana). Cuts vessel service sourcing from 3 hours to 45 seconds. [Innovez One (marineM PMIS)]",
+   "existence": "confirmed",
+   "value": "Vessel turnaround time reduced up to 90%; sourcing time 3 hours to 45 seconds; ~3,000 hours saved annually; +20% jetty utilization; targeting US$950,000 (AED 3.5m) savings by 2028",
+   "tier": "",
+   "url": "https://adnocls.ae/en/news-and-media/press-releases/2025/smart-port",
+   "raw_sector": "",
+   "date": "2025-09-10",
+   "fresh": "fresh"
+  },
+  {
+   "company": "ADNOC Logistics & Services",
+   "use": "Proprietary AI-enabled Smart Ship and Smart Vessel systems providing predictive maintenance for planning optimization, operational efficiency, fleet performance and health & safety. [ADNOC L&S (proprietary)]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://adnocls.ae/en/esg",
+   "raw_sector": "",
+   "date": "none",
+   "fresh": "undated"
+  },
+  {
+   "company": "ADNOC Logistics & Services",
+   "use": "UAE's first remotely operated / autonomous 60m offshore landing craft vessels, using onboard AI and satellite-linked control from the Mussafah Remote-Control Center, with AI-driven route optimization; two prototypes under construction, delivery Q4 2026-2027. [SeaOwl]",
+   "existence": "claimed",
+   "value": "Up to 30% reduction in CO2 emissions via AI route optimization vs conventional vessels",
+   "tier": "",
+   "url": "https://adnocls.ae/en/news-and-media/press-releases/2025/autonomous-offshore-vessels",
+   "raw_sector": "",
+   "date": "2025-11-13",
+   "fresh": "fresh"
+  },
+  {
+   "company": "ADNOC Logistics & Services",
+   "use": "AI-powered logistics management / decision-support system harnessing AI and real-time data to enhance safety, efficiency and operational performance across L&S operations ('turning data into decisions'). [none]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.linkedin.com/posts/adnocgroup_logistics-and-services-through-ai-and-advanced-activity-7472608342998392832-Pqvz",
+   "raw_sector": "",
+   "date": "none",
+   "fresh": "undated"
+  },
+  {
+   "company": "ADNOC Logistics & Services",
+   "use": "SMARTi Intelligent Operational Safety Monitoring - AI computer-vision system analyzing shipboard CCTV video streams in real time to detect PPE non-compliance, unauthorized area access, slip/fall and man-overboard incidents; deployed across the fleet. [AIQ]",
+   "existence": "confirmed",
+   "value": "Deployed on 86 vessels; over 1 billion predictions per day; >90% detection accuracy",
+   "tier": "",
+   "url": "https://aiq.ae/newsroom/news-and-press-releases/AIQ-deploys-SMARTi-Intelligent-Operational-Safety-Monitoring-solution-on-ADNOC-L-S-vessels",
+   "raw_sector": "",
+   "date": "2024-08-15",
+   "fresh": "aging"
+  },
+  {
+   "company": "ADNOC Logistics & Services",
+   "use": "Digital fleet performance management using data integration and analytics to optimize offshore support vessel (OSV) operations, reduce fuel consumption, emissions and idle time; renewed as a five-year collaboration across one of the world's largest OSV fleets. [Opsealog (Streamlog/performance management service)]",
+   "existence": "confirmed",
+   "value": "12% combined reduction in costs and emissions; 12% fuel consumption reduction in initial trial",
+   "tier": "",
+   "url": "https://opsealog.com/how-opsealog-is-improving-fleet-efficiency-for-adnoc-logistics-services/",
+   "raw_sector": "",
+   "date": "2026-02-03",
+   "fresh": "fresh"
+  },
+  {
+   "company": "ADNOC Logistics & Services",
+   "use": "Generative AI / Microsoft 365 Copilot rolled out enterprise-wide across ADNOC Group (including L&S staff), plus ADNOC AI Marketplace built on Copilot letting employees build their own AI agents. [Microsoft (365 Copilot)]",
+   "existence": "confirmed",
+   "value": "40,000+ ADNOC Group employees; >90% active usage; 70,000+ productivity hours/month (group-wide)",
+   "tier": "",
+   "url": "https://www.thenationalnews.com/business/energy/2025/11/02/adnoc-signs-microsoft-deal-to-co-develop-and-deploy-ai-agents-across-its-operations/",
+   "raw_sector": "",
+   "date": "2023-11-01",
+   "fresh": "stale"
   }
  ]
 }

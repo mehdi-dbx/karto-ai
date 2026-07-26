@@ -3,20 +3,20 @@
  "name": "Japfa Comfeed Indonesia",
  "cc": "ID",
  "vertical": "Agriculture",
- "deployments": 1,
- "confirmed": 0,
+ "deployments": 4,
+ "confirmed": 3,
  "with_value_number": 0,
  "proof_rate": 0.0,
  "mktcap": 1531012658.0,
  "revenue": 3843037975.0,
  "employees": 31683.0,
  "silent": false,
- "per_bn_revenue": 0.26,
- "per_10k_emp": 0.32,
+ "per_bn_revenue": 1.04,
+ "per_10k_emp": 1.26,
  "benchmarks": {
   "global_vertical": {
-   "deployments": 0,
-   "confirmed": 0,
+   "deployments": 40,
+   "confirmed": 70,
    "proof_rate": 0,
    "n": 11
   }
@@ -25,18 +25,21 @@
  "by_year": [
   {
    "year": 2025,
-   "n": 1
+   "n": 2
   }
  ],
- "undated_pct": 0,
+ "undated_pct": 50,
  "momentum": "rising",
- "maturity": "L1",
+ "maturity": "L3",
  "maturity_evidence": [
-  "rows_no_confirmed"
+  "multi_horizontal",
+  "named_product:Quantum"
  ],
- "prospect_score": 40,
- "stack": [],
- "vendor_named": false,
+ "prospect_score": 58,
+ "stack": [
+  "Snowflake"
+ ],
+ "vendor_named": true,
  "deployments_detail": [
   {
    "company": "Japfa Comfeed Indonesia",
@@ -48,6 +51,39 @@
    "raw_sector": "Food Products",
    "date": "2025-11",
    "fresh": "fresh"
+  },
+  {
+   "company": "Japfa Comfeed Indonesia",
+   "use": "AI & Quantum Computing Centre of Excellence",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.japfa.com/news",
+   "raw_sector": "",
+   "date": "2025",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Japfa Comfeed Indonesia",
+   "use": "Data consolidation and real-time AI for business operations strategy using Snowflake's AI Data Cloud [Snowflake]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.sbi-group.com/blog/japfa-use-case-data-real-time-ai?hs_amp=true",
+   "raw_sector": "",
+   "date": "Sep 30, 2025",
+   "fresh": "undated"
+  },
+  {
+   "company": "Japfa Comfeed Indonesia",
+   "use": "Supply chain planning transformation with machine learning-based forecasting [RELEX]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://techtouchasia.blogspot.com/2026/04/japfa-food-indonesia-transform-supply.html",
+   "raw_sector": "",
+   "date": "Apr 13, 2026",
+   "fresh": "undated"
   }
  ]
 }

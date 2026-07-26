@@ -3,46 +3,72 @@
  "name": "Mashreqbank",
  "cc": "AE",
  "vertical": "Financial Services",
- "deployments": 1,
- "confirmed": 0,
- "with_value_number": 0,
- "proof_rate": 0.0,
+ "deployments": 11,
+ "confirmed": 10,
+ "with_value_number": 7,
+ "proof_rate": 0.636,
  "mktcap": 13665000000.0,
  "revenue": 3384000000.0,
  "employees": null,
  "silent": false,
- "per_bn_revenue": 0.3,
+ "per_bn_revenue": 3.25,
  "per_10k_emp": null,
  "benchmarks": {
   "global_vertical": {
-   "deployments": 0,
-   "confirmed": 0,
-   "proof_rate": 0,
-   "n": 377
+   "deployments": 72,
+   "confirmed": 78,
+   "proof_rate": 91,
+   "n": 388
   },
   "country_vertical": {
-   "deployments": 0,
-   "confirmed": 0,
-   "proof_rate": 0,
-   "n": 14
+   "deployments": 93,
+   "confirmed": 93,
+   "proof_rate": 100,
+   "n": 15
   }
  },
- "first_seen": 2024,
+ "first_seen": 2021,
  "by_year": [
+  {
+   "year": 2021,
+   "n": 1
+  },
+  {
+   "year": 2022,
+   "n": 1
+  },
+  {
+   "year": 2023,
+   "n": 1
+  },
   {
    "year": 2024,
    "n": 1
+  },
+  {
+   "year": 2025,
+   "n": 5
+  },
+  {
+   "year": 2026,
+   "n": 2
   }
  ],
  "undated_pct": 0,
- "momentum": "early_mover,gone_quiet",
- "maturity": "L1",
+ "momentum": "early_mover,rising",
+ "maturity": "L4",
  "maturity_evidence": [
-  "rows_no_confirmed"
+  "multi_horizontal",
+  "named_product:Kore",
+  "value_number",
+  "multi_year"
  ],
- "prospect_score": 40,
- "stack": [],
- "vendor_named": false,
+ "prospect_score": 75,
+ "stack": [
+  "Microsoft",
+  "OpenAI"
+ ],
+ "vendor_named": true,
  "deployments_detail": [
   {
    "company": "Mashreqbank",
@@ -54,6 +80,116 @@
    "raw_sector": "Banks",
    "date": "2024",
    "fresh": "aging"
+  },
+  {
+   "company": "Mashreqbank",
+   "use": "AI-driven digital onboarding for NEO BIZ SME accounts including AI-powered onboarding workflows and facial recognition plus verification, underpinning a One-Day Service Promise for opening business accounts. [Mashreq]",
+   "existence": "confirmed",
+   "value": "SME account turnaround in 1 day",
+   "tier": "",
+   "url": "https://www.mashreq.com/en/uae/news/2026/may/mashreq-neobiz-one-day-promise/",
+   "raw_sector": "",
+   "date": "2026-05-19",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Mashreqbank",
+   "use": "Commercial/risk AI: predictive models for market identification and client risk assessment, automated credit decisioning, ML-based anomaly detection across transaction data, and AI-based risk scoring / biometric authentication for customer authentication and real-time transaction anomaly flagging. [OpenAI (referenced)]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.euromoney.com/article/ax6dudwvwvksgg0w8scosgwoc/sponsored-content/rebuilding-banks-from-the-inside-out-in-the-digital-age/",
+   "raw_sector": "",
+   "date": "2025-07-01",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Mashreqbank",
+   "use": "TADA Data Copilot: internally built generative-AI natural-language interface letting staff query banking/data platforms in plain English and receive structured outputs with charts and trend analysis, reducing dependency on central analytics teams. [Mashreq (in-house)]",
+   "existence": "confirmed",
+   "value": "reduced data retrieval and analysis time by 40-60%",
+   "tier": "",
+   "url": "https://thedigitalbanker.com/mashreqs-digital-playbook-scaling-data-platforms-and-purpose-across-retail-and-sme-banking/",
+   "raw_sector": "",
+   "date": "2025-07-01",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Mashreqbank",
+   "use": "Kore.ai BankAssist virtual assistant deployed for retail customers, enabling over 100 retail banking transactions via natural-language voice and text in Arabic and English, interfacing with back-office systems and escalating to live agents while retaining context. Also adopted SmartAssist contact-center platform for call deflection and IVR (ASR/TTS). [Kore.ai]",
+   "existence": "confirmed",
+   "value": "over 500,000 retail customers served; 100+ transaction types",
+   "tier": "",
+   "url": "https://ai-techpark.com/mashreq-bank-selects-kore-ais-conversational-ai/",
+   "raw_sector": "",
+   "date": "2021-06-08",
+   "fresh": "stale"
+  },
+  {
+   "company": "Mashreqbank",
+   "use": "Production AI chatbot / conversational assistant across mobile app, chat and voice, processing 1.5-2 million conversations annually with 95% intent-recognition accuracy and 85% containment (resolved without human escalation), with contextual awareness across channels. [Kore.ai]",
+   "existence": "confirmed",
+   "value": "1.5-2M conversations/year; 95% intent accuracy; 85% containment rate",
+   "tier": "",
+   "url": "https://www.kore.ai/blog/transforming-financial-services-with-agentic-ai",
+   "raw_sector": "",
+   "date": "2025-08-11",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Mashreqbank",
+   "use": "GitHub Copilot used by developers for code development, plus generative-AI tools automating HR/legal workflows and policy-document drafting (reduced from hours to minutes), and generative tools for country-entry assessments replacing weeks of manual analyst work. [GitHub / Microsoft (Copilot), OpenAI]",
+   "existence": "confirmed",
+   "value": "policy drafting reduced from hours to minutes",
+   "tier": "",
+   "url": "https://www.euromoney.com/article/ax6dudwvwvksgg0w8scosgwoc/sponsored-content/rebuilding-banks-from-the-inside-out-in-the-digital-age/",
+   "raw_sector": "",
+   "date": "2025-07-01",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Mashreqbank",
+   "use": "ThetaRay AI/ML transaction-monitoring solution to detect financial crime and money laundering in cross-border correspondent banking payments, with low false-positive rates. ThetaRay's first UAE customer. [ThetaRay]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.prnewswire.com/news-releases/mashreq-bank-chooses-thetaray-transaction-monitoring-solution-for-correspondent-banking-301481430.html",
+   "raw_sector": "",
+   "date": "2022-02-14",
+   "fresh": "stale"
+  },
+  {
+   "company": "Mashreqbank",
+   "use": "Clari5 enterprise-wide real-time fraud detection, replacing siloed channel-centric systems to detect fraudulent transactions across over 15 channels in real time and automate regulatory compliance. [Clari5 (CustomerXPs)]",
+   "existence": "confirmed",
+   "value": "real-time detection across 15+ channels",
+   "tier": "",
+   "url": "https://www.clari5.com/mashreq_bank_fortifies_real_time_anti-fraud_defenses_enterprise-wide_with_clari5/",
+   "raw_sector": "",
+   "date": "2023-01-01",
+   "fresh": "stale"
+  },
+  {
+   "company": "Mashreqbank",
+   "use": "Smart Call Report: generative AI and NLP that auto-generates relationship-manager call summaries in under one minute (previously 10-12 minutes per call), boosting RM productivity. [OpenAI (referenced)]",
+   "existence": "confirmed",
+   "value": "call summaries in under 1 minute vs 10-12 minutes previously",
+   "tier": "",
+   "url": "https://www.euromoney.com/article/ax6dudwvwvksgg0w8scosgwoc/sponsored-content/rebuilding-banks-from-the-inside-out-in-the-digital-age/",
+   "raw_sector": "",
+   "date": "2025-07-01",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Mashreqbank",
+   "use": "Rezolve AI Reward platform powering Mashreq's Visa 'Everyday Cashback' card-linked-offers program, using advanced analytics to personalize offers (up to 20% cashback) for debit and credit cardholders, discoverable and trackable in the Mashreq mobile app. [Rezolve AI]",
+   "existence": "confirmed",
+   "value": "up to 20% cashback at hundreds of merchants",
+   "tier": "",
+   "url": "https://finance.yahoo.com/technology/ai/articles/rezolve-ai-powers-mashreq-visa-120000151.html",
+   "raw_sector": "",
+   "date": "2026-06-22",
+   "fresh": "fresh"
   }
  ]
 }

@@ -3,47 +3,74 @@
  "name": "Hiab",
  "cc": "FI",
  "vertical": "Manufacturing & Robotics",
- "deployments": 2,
- "confirmed": 2,
- "with_value_number": 0,
- "proof_rate": 0.0,
+ "deployments": 12,
+ "confirmed": 11,
+ "with_value_number": 4,
+ "proof_rate": 0.333,
  "mktcap": 4125600000.0,
  "revenue": 1652400000.0,
  "employees": 3906.0,
  "silent": false,
- "per_bn_revenue": 1.21,
- "per_10k_emp": 5.12,
+ "per_bn_revenue": 7.26,
+ "per_10k_emp": 30.72,
  "benchmarks": {
   "global_vertical": {
-   "deployments": 64,
-   "confirmed": 78,
-   "proof_rate": 0,
-   "n": 147
+   "deployments": 86,
+   "confirmed": 95,
+   "proof_rate": 74,
+   "n": 150
   },
   "country_vertical": {
-   "deployments": 50,
-   "confirmed": 50,
-   "proof_rate": 0,
+   "deployments": 80,
+   "confirmed": 80,
+   "proof_rate": 80,
    "n": 11
   }
  },
- "first_seen": 2025,
+ "first_seen": 2019,
  "by_year": [
   {
+   "year": 2019,
+   "n": 1
+  },
+  {
+   "year": 2020,
+   "n": 1
+  },
+  {
+   "year": 2022,
+   "n": 1
+  },
+  {
+   "year": 2023,
+   "n": 1
+  },
+  {
+   "year": 2024,
+   "n": 4
+  },
+  {
    "year": 2025,
+   "n": 2
+  },
+  {
+   "year": 2026,
    "n": 1
   }
  ],
- "undated_pct": 50,
- "momentum": "rising",
- "maturity": "L3",
+ "undated_pct": 8,
+ "momentum": "early_mover,cooling",
+ "maturity": "L4",
  "maturity_evidence": [
+  "multi_horizontal",
   "named_product:Driver",
+  "value_number",
+  "multi_year",
   "tier_p"
  ],
- "prospect_score": 60,
+ "prospect_score": 87,
  "stack": [],
- "vendor_named": false,
+ "vendor_named": true,
  "deployments_detail": [
   {
    "company": "Hiab",
@@ -66,6 +93,116 @@
    "raw_sector": "Industrials",
    "date": "2025-09",
    "fresh": "fresh"
+  },
+  {
+   "company": "Hiab",
+   "use": "Strategic partnership with Forterra to integrate Forterra's AutoDrive ground-autonomy platform with Hiab's automated load-handling systems (cranes, hooklifts, MULTILIFT Talon) to develop autonomous trucking and load handling. Early stage: aligning technology roadmaps and integration pathways. [Forterra (AutoDrive)]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.hiab.com/en/media/newsroom/hiab-and-forterra-announce-strategic-partnership-to-advance-autonomy-in-load-handling",
+   "raw_sector": "",
+   "date": "2025-09-09",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Hiab",
+   "use": "MULTILIFT L2 Driver Support: assisted-autonomy for hooklift operations using rear camera and depth sensors, computer-vision recognition, trajectory/path planning and force-regulated automatic gripping to reverse the truck into optimal pickup position in GNSS-denied environments. Backed by 70+ national patent filings. [Hiab (in-house)]",
+   "existence": "confirmed",
+   "value": "70+ national patent filings",
+   "tier": "",
+   "url": "https://www.hiab.com/fi/tuotteet/vaihtolavalaitteet/multilift-L2-autonomous",
+   "raw_sector": "",
+   "date": "2024-10-09",
+   "fresh": "aging"
+  },
+  {
+   "company": "Hiab",
+   "use": "MULTILIFT Talon defence hooklift: cutting-edge automation with HiVision technology enabling fully automated configuration changes and in-cabin container handling; a complete container loading cycle takes just 180 seconds with automatic ISO container locking. [Hiab (in-house)]",
+   "existence": "confirmed",
+   "value": "180-second full container loading cycle",
+   "tier": "",
+   "url": "https://www.hiabgroup.com/newsroom/press-releases/hiab-transforms-defence-logistics-with-the-new-multilift-talon/",
+   "raw_sector": "",
+   "date": "2024-10-18",
+   "fresh": "aging"
+  },
+  {
+   "company": "Hiab",
+   "use": "Crane Tip Control (CTC): software feature in the HiPro control system where the onboard computer automatically calculates the optimum path for the crane tip; the operator moves a single lever toward a target point and the system converts input into coordinated horizontal/vertical boom motion. [Hiab (HiPro control system)]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.hiab.com/en/media/newsroom/hiab-crane-tip-control",
+   "raw_sector": "",
+   "date": "2020-09-07",
+   "fresh": "stale"
+  },
+  {
+   "company": "Hiab",
+   "use": "HiVision: digitalised VR crane/hooklift control that uses external cameras and sensors with in-cabin VR viewing to give a 270-degree horizontal / 130-degree vertical view; includes obstacle-detection software to reduce risk of injury or equipment damage. [Hiab (in-house)]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://lectura.press/en/article/hiab-upgrades-hivision-for-forestry-cranes-and-demountables/59601",
+   "raw_sector": "",
+   "date": "2022-10-11",
+   "fresh": "stale"
+  },
+  {
+   "company": "Hiab",
+   "use": "HiConnect telematics/IoT service: near real-time data from Hiab equipment (loader cranes, MOFFETT forklifts, WALTCO liftgates) feeding web dashboards for utilization, condition monitoring, location, service history and automated weekly reports to optimize fleet, operator and maintenance decisions. Built jointly with Remion on the Regatta IoT platform; rolled out across all markets. [Remion (Regatta IoT platform)]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://remion.com/customer-story/hiconnect-takes-load-handling-equipment-productivity-and-safety-to-a-whole-new-level/",
+   "raw_sector": "",
+   "date": "2019-01-01",
+   "fresh": "stale"
+  },
+  {
+   "company": "Hiab",
+   "use": "SPACEevo control system: the intelligent control core of Hiab loader cranes that continuously processes real-time data from multiple sensors to enable adaptive crane behavior and automated safety functions, integrated with Olsbergs radio remote control and CombiDrive 4 controller. Deployed in production cranes. [Hiab / Olsbergs (CombiDrive 4)]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.hiab.com/en/products/loader-cranes/spaceevo",
+   "raw_sector": "",
+   "date": "2024-01-01",
+   "fresh": "aging"
+  },
+  {
+   "company": "Hiab",
+   "use": "HiSkill VR crane operator training simulator: virtual-reality simulation of real HIAB crane controls for safe, scalable operator onboarding and ongoing training, offered as a subscription service. [Hiab (in-house)]",
+   "existence": "confirmed",
+   "value": "first-time operator success reportedly improved from ~65% to 85-90%",
+   "tier": "",
+   "url": "https://www.hiabgroup.com/newsroom/press-releases/hiab-launches-hiskill-training-simulator-for-knuckle-boom-cranes/",
+   "raw_sector": "",
+   "date": "2023-07-20",
+   "fresh": "stale"
+  },
+  {
+   "company": "Hiab",
+   "use": "Internal workforce AI enablement: as part of employee competence development, Hiab ran 18 virtual sessions in 2025 on topics including company strategy, wellbeing, personal competence development and artificial intelligence (AI). [none]",
+   "existence": "confirmed",
+   "value": "18 virtual sessions (2025)",
+   "tier": "",
+   "url": "https://cms.hiabgroup.com/globalassets/hiab-group/investor-relations/reports--presentations/annual-report/2025/hiab-annual-report-2025-en.pdf",
+   "raw_sector": "",
+   "date": "2026-02-19",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Hiab",
+   "use": "ProCare predictive service contracts: preventive and predictive maintenance solution combining connectivity, remote real-time monitoring and diagnostics to accelerate diagnostics/resolution and respond to malfunctions on HIAB and EFFER equipment. [Hiab (in-house)]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.hiab.com/en-us/digital-solutions",
+   "raw_sector": "",
+   "date": "2024-01-01",
+   "fresh": "aging"
   }
  ]
 }

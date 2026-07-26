@@ -3,43 +3,61 @@
  "name": "Siemens",
  "cc": "IN",
  "vertical": "Industrial / Machinery",
- "deployments": 1,
- "confirmed": 1,
+ "deployments": 6,
+ "confirmed": 5,
  "with_value_number": 1,
- "proof_rate": 1.0,
+ "proof_rate": 0.167,
  "mktcap": 15662650602.0,
  "revenue": 2022530120.0,
  "employees": 6346.0,
  "silent": false,
- "per_bn_revenue": 0.49,
- "per_10k_emp": 1.58,
+ "per_bn_revenue": 2.97,
+ "per_10k_emp": 9.45,
  "benchmarks": {
   "global_vertical": {
-   "deployments": 0,
-   "confirmed": 14,
-   "proof_rate": 79,
-   "n": 175
+   "deployments": 53,
+   "confirmed": 63,
+   "proof_rate": 54,
+   "n": 176
   },
   "country_vertical": {
-   "deployments": 0,
-   "confirmed": 17,
-   "proof_rate": 100,
+   "deployments": 50,
+   "confirmed": 67,
+   "proof_rate": 50,
    "n": 7
   }
  },
- "first_seen": null,
- "by_year": [],
- "undated_pct": 100,
- "momentum": "none",
- "maturity": "L3",
- "maturity_evidence": [
-  "named_product:Siemens",
-  "value_number"
+ "first_seen": 2023,
+ "by_year": [
+  {
+   "year": 2023,
+   "n": 1
+  },
+  {
+   "year": 2024,
+   "n": 3
+  },
+  {
+   "year": 2025,
+   "n": 1
+  }
  ],
- "prospect_score": 6,
+ "undated_pct": 17,
+ "momentum": "early_mover,cooling",
+ "maturity": "L4",
+ "maturity_evidence": [
+  "multi_horizontal",
+  "named_product:Siemens",
+  "value_number",
+  "multi_year"
+ ],
+ "prospect_score": 63,
  "stack": [
+  "Amazon AWS",
   "Microsoft",
-  "NVIDIA"
+  "NVIDIA",
+  "OpenAI",
+  "SAP"
  ],
  "vendor_named": true,
  "deployments_detail": [
@@ -56,6 +74,116 @@
   },
   {
    "company": "Siemens",
+   "use": "AI-enhanced semiconductor and PCB design with generative and agentic AI for EDA workflows [NVIDIA NIM microservices, NVIDIA Nemotron models]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://news.siemens.com/en-us/siemens-eda-ai-dac-2025/",
+   "raw_sector": "",
+   "date": "Jun 23, 2025",
+   "fresh": "undated"
+  },
+  {
+   "company": "Siemens",
+   "use": "Industrial AI applications for automation engineers with no prior data science experience",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://blogs.sw.siemens.com/thought-leadership/automating-industrial-ai-model-deployment/",
+   "raw_sector": "",
+   "date": "Jun 14, 2024",
+   "fresh": "undated"
+  },
+  {
+   "company": "Siemens",
+   "use": "AI tools for industrial maintenance problem prediction and troubleshooting",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.businessinsider.com/ai-siemens-predict-industrial-maintenance-machine-infrastructure-equipment-costs-productivity-2024-11",
+   "raw_sector": "",
+   "date": "Nov 21, 2024",
+   "fresh": "undated"
+  },
+  {
+   "company": "Siemens",
+   "use": "SAP Joule for Consultants to accelerate employee onboarding and provide expert SAP knowledge access during a major S/4HANA Cloud transformation. [SAP] [SAP]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.sap.com/assetdetail/2025/06/6e36f8fe-0c7f-0010-bca6-c68f7e60039b.html",
+   "raw_sector": "",
+   "date": "2025-06-10",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Siemens",
+   "use": "Named as a OpenAI customer/case study [OpenAI] [OpenAI]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://technologychecker.io/technology/openai-chatgpt",
+   "raw_sector": "",
+   "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "Siemens",
+   "use": "Named as a Amazon Bedrock customer/case study [Amazon Bedrock] [Amazon Bedrock]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://aimagazine.com/articles/why-businesses-are-building-ai-strategy-on-amazon-bedrock",
+   "raw_sector": "",
+   "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "Siemens",
+   "use": "AI-enhanced EDA design flow for semiconductor and PCB design with generative and agentic AI capabilities [NVIDIA NIM microservices, NVIDIA Nemotron models]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://news.siemens.com/en-us/siemens-eda-ai-dac-2025/",
+   "raw_sector": "",
+   "date": "2025-06-23",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Siemens",
+   "use": "Industrial AI applications for automation engineers enabling model deployment without data science expertise",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://blogs.sw.siemens.com/thought-leadership/automating-industrial-ai-model-deployment/",
+   "raw_sector": "",
+   "date": "2024-06-14",
+   "fresh": "aging"
+  },
+  {
+   "company": "Siemens",
+   "use": "Predictive maintenance and anomaly detection using AI in industrial contexts",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://blog.siemens.com/2024/02/genai-bridging-the-gap-between-industrial-ai-and-generative-ai/",
+   "raw_sector": "",
+   "date": "2024-02-26",
+   "fresh": "aging"
+  },
+  {
+   "company": "Siemens",
+   "use": "Industrial Copilot - generative AI-powered assistant for industrial applications [Microsoft]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://news.microsoft.com/source/emea/features/how-ai-is-helping-siemens-and-thyssenkrupp-bridge-skilling-gaps-in-manufacturing/",
+   "raw_sector": "",
+   "date": "2024-10-24",
+   "fresh": "aging"
+  },
+  {
+   "company": "Siemens",
    "use": "Siemens India runs 25 factories leveraging AI + digital twins; 10,000+ SW/AI experts developing the industrial AI operating system (NVIDIA partnership) — internal use; also sells Industrial Copilot & AI agents as products",
    "existence": "confirmed",
    "value": "none quantified (product claims up to 50% productivity)",
@@ -64,6 +192,17 @@
    "raw_sector": "Capital Goods",
    "date": "missing",
    "fresh": "undated"
+  },
+  {
+   "company": "Siemens",
+   "use": "Real-time supply chain intelligence providing visibility into global component availability",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://press.siemens.com/global/en/pressrelease/siemens-brings-real-time-supply-chain-intelligence-siemens-xcelerator-and-digital-twin",
+   "raw_sector": "",
+   "date": "2023-06-13",
+   "fresh": "stale"
   }
  ]
 }

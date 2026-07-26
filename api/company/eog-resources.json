@@ -3,42 +3,95 @@
  "name": "EOG Resources",
  "cc": "US",
  "vertical": "Energy & Utilities",
- "deployments": 1,
- "confirmed": 0,
- "with_value_number": 0,
- "proof_rate": 0.0,
+ "deployments": 10,
+ "confirmed": 8,
+ "with_value_number": 3,
+ "proof_rate": 0.3,
  "mktcap": 77860000000.0,
  "revenue": 23570000000.0,
  "employees": 3400.0,
  "silent": false,
- "per_bn_revenue": 0.04,
- "per_10k_emp": 2.94,
+ "per_bn_revenue": 0.42,
+ "per_10k_emp": 29.41,
  "benchmarks": {
   "global_vertical": {
-   "deployments": 0,
-   "confirmed": 0,
-   "proof_rate": 0,
-   "n": 210
+   "deployments": 83,
+   "confirmed": 85,
+   "proof_rate": 67,
+   "n": 213
   },
   "country_vertical": {
-   "deployments": 0,
-   "confirmed": 0,
-   "proof_rate": 0,
+   "deployments": 84,
+   "confirmed": 88,
+   "proof_rate": 86,
    "n": 52
   }
  },
- "first_seen": null,
- "by_year": [],
- "undated_pct": 100,
- "momentum": "none",
- "maturity": "L1",
- "maturity_evidence": [
-  "rows_no_confirmed"
+ "first_seen": 2022,
+ "by_year": [
+  {
+   "year": 2022,
+   "n": 5
+  },
+  {
+   "year": 2023,
+   "n": 2
+  },
+  {
+   "year": 2025,
+   "n": 1
+  },
+  {
+   "year": 2026,
+   "n": 1
+  }
  ],
- "prospect_score": 40,
+ "undated_pct": 10,
+ "momentum": "early_mover,flat",
+ "maturity": "L4",
+ "maturity_evidence": [
+  "multi_horizontal",
+  "named_product:EOG",
+  "value_number",
+  "multi_year"
+ ],
+ "prospect_score": 76,
  "stack": [],
- "vendor_named": false,
+ "vendor_named": true,
  "deployments_detail": [
+  {
+   "company": "EOG Resources",
+   "use": "Trident real-time water resources management app: proprietary desktop/mobile app providing map-based visualizations, scenario planning for water sourcing/storage/transport, real-time operational controls, and automated shut-off valves to optimize water reuse and prevent spills. [Proprietary (EOG in-house; incorporates WRI Aqueduct data)]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://eogresources.s3.us-east-2.amazonaws.com/EOG_2022_Sustainability_Report.pdf",
+   "raw_sector": "",
+   "date": "2022",
+   "fresh": "stale"
+  },
+  {
+   "company": "EOG Resources",
+   "use": "iEnvironmental / miEnvironmental environmental data collection and analysis app: in-field data capture, automated compiling/calculating/formatting of state and federal reporting, LDAR data capture, and dashboards for trend identification. [Proprietary (EOG in-house)]",
+   "existence": "confirmed",
+   "value": "Used by 65+ different departments across the organization in 2022",
+   "tier": "",
+   "url": "https://eogresources.s3.us-east-2.amazonaws.com/EOG_2022_Sustainability_Report.pdf",
+   "raw_sector": "",
+   "date": "2022",
+   "fresh": "stale"
+  },
+  {
+   "company": "EOG Resources",
+   "use": "iEnergy operational GHG emissions performance management application: proprietary app to track and manage operational greenhouse-gas emissions performance data. [Proprietary (EOG in-house)]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://eogresources.s3.us-east-2.amazonaws.com/EOG_2022_Sustainability_Report.pdf",
+   "raw_sector": "",
+   "date": "2022",
+   "fresh": "stale"
+  },
   {
    "company": "EOG Resources",
    "use": "no confirmed named deployment (3rd-party analyses cite AI+sensors in drilling strategy; no primary press release)",
@@ -49,6 +102,72 @@
    "raw_sector": "Energy",
    "date": "missing",
    "fresh": "undated"
+  },
+  {
+   "company": "EOG Resources",
+   "use": "Proprietary AI-driven drilling optimization: EOG collects extensive well data and uses proprietary AI-driven algorithms to optimize the drilling of future wells (drill bit, weight-on-bit, mud weight and related parameters). [Proprietary (EOG in-house)]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.fool.com/investing/2023/05/21/artificial-intelligence-is-wading-into-the-deep-to/",
+   "raw_sector": "",
+   "date": "2023",
+   "fresh": "stale"
+  },
+  {
+   "company": "EOG Resources",
+   "use": "In-house production optimizers and area-specific control rooms applying real-time geology, drilling and completions data to improve well performance, reduce time on location, and maintain remote operations during disruptions. [Proprietary (EOG in-house)]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.investing.com/news/transcripts/earnings-call-transcript-eog-resources-q1-2026-sees-strong-earnings-beat-amid-stock-decline-93CH-4664594",
+   "raw_sector": "",
+   "date": "2026",
+   "fresh": "fresh"
+  },
+  {
+   "company": "EOG Resources",
+   "use": "Seismic and geological AI/ML models for automated subsurface interpretation and identification of high-productivity 'sweet spots' to reduce exploration risk and improve drilling inventory quality. [Proprietary (EOG in-house; big-data/Hadoop framework)]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.klover.ai/eog-resources-ai-strategy-analysis-of-dominance-in-energy-ai/",
+   "raw_sector": "",
+   "date": "2025",
+   "fresh": "fresh"
+  },
+  {
+   "company": "EOG Resources",
+   "use": "140+ proprietary in-house desktop and mobile applications delivering real-time data capture and predictive analytics to field and office employees (a 'virtual control room'), built by EOG's Information Systems team to support continuous operational improvement. [Proprietary (EOG Information Systems team)]",
+   "existence": "confirmed",
+   "value": "140+ (later cited as 100+) in-house desktop and mobile apps",
+   "tier": "",
+   "url": "https://s24.q4cdn.com/589393778/files/doc_downloads/2023/02/EOG_0223-Supplemental.pdf",
+   "raw_sector": "",
+   "date": "2023",
+   "fresh": "stale"
+  },
+  {
+   "company": "EOG Resources",
+   "use": "iSense continuous methane monitoring: EOG-developed, in-house methane-sensing system that continuously monitors production facilities and sends real-time leak alerts to a central control room, with data/trend analytics to prioritize repairs and inform facility design. [Proprietary (EOG in-house)]",
+   "existence": "confirmed",
+   "value": "95% of production handled at central tank batteries in the Delaware Basin monitored by end of 2022",
+   "tier": "",
+   "url": "https://eogresources.s3.us-east-2.amazonaws.com/EOG_2022_Sustainability_Report.pdf",
+   "raw_sector": "",
+   "date": "2022",
+   "fresh": "stale"
+  },
+  {
+   "company": "EOG Resources",
+   "use": "iDetect automated leak detection software: proprietary application that automates detection of leaks/spills across facilities, integrated with SCADA remote monitoring and automated shut-off/spill detection hardware. [Proprietary (EOG in-house)]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://eogresources.s3.us-east-2.amazonaws.com/EOG_2022_Sustainability_Report.pdf",
+   "raw_sector": "",
+   "date": "2022",
+   "fresh": "stale"
   }
  ]
 }

@@ -3,25 +3,25 @@
  "name": "TPBank",
  "cc": "VN",
  "vertical": "Financial Services",
- "deployments": 2,
- "confirmed": 2,
+ "deployments": 7,
+ "confirmed": 5,
  "with_value_number": 0,
  "proof_rate": 0.0,
  "mktcap": 1564400000.0,
  "revenue": 632000000.0,
  "employees": 7821.0,
  "silent": false,
- "per_bn_revenue": 3.16,
- "per_10k_emp": 2.56,
+ "per_bn_revenue": 11.08,
+ "per_10k_emp": 8.95,
  "benchmarks": {
   "global_vertical": {
-   "deployments": 62,
-   "confirmed": 73,
+   "deployments": 51,
+   "confirmed": 46,
    "proof_rate": 0,
-   "n": 377
+   "n": 388
   },
   "country_vertical": {
-   "deployments": 55,
+   "deployments": 82,
    "confirmed": 82,
    "proof_rate": 0,
    "n": 12
@@ -31,20 +31,27 @@
  "by_year": [
   {
    "year": 2024,
-   "n": 2
+   "n": 3
+  },
+  {
+   "year": 2025,
+   "n": 4
   }
  ],
  "undated_pct": 0,
- "momentum": "early_mover,gone_quiet",
- "maturity": "L3",
+ "momentum": "early_mover,rising",
+ "maturity": "L4",
  "maturity_evidence": [
   "multi_horizontal",
   "named_product:Top",
+  "multi_year",
   "tier_p"
  ],
- "prospect_score": 60,
- "stack": [],
- "vendor_named": false,
+ "prospect_score": 70,
+ "stack": [
+  "IBM"
+ ],
+ "vendor_named": true,
  "deployments_detail": [
   {
    "company": "TPBank",
@@ -56,6 +63,61 @@
    "raw_sector": "Banks",
    "date": "2024",
    "fresh": "aging"
+  },
+  {
+   "company": "TPBank",
+   "use": "ChatPay - AI-powered money transfer with chat interface",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://tpb.vn/eng/tin-tuc/tin-tpbank/tpbank-xay-dung-ngan-hang-tri-tue",
+   "raw_sector": "",
+   "date": "2025-09-22",
+   "fresh": "fresh"
+  },
+  {
+   "company": "TPBank",
+   "use": "Paste to Pay - AI-enabled payment feature",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://tpb.vn/eng/tin-tuc/tin-tpbank/tpbank-xay-dung-ngan-hang-tri-tue",
+   "raw_sector": "",
+   "date": "2025-09-22",
+   "fresh": "fresh"
+  },
+  {
+   "company": "TPBank",
+   "use": "LiveBank 24/7 - AI-powered banking service",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://tpb.vn/eng/tin-tuc/tin-tpbank/tpbank-xay-dung-ngan-hang-tri-tue",
+   "raw_sector": "",
+   "date": "2025-09-22",
+   "fresh": "fresh"
+  },
+  {
+   "company": "TPBank",
+   "use": "IBM Cloud Pak for Data - data infrastructure modernization [IBM]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://asean.newsroom.ibm.com/TPBank-leverages-IBM-Cloud-Pak-for-Data",
+   "raw_sector": "",
+   "date": "2024-03-14",
+   "fresh": "aging"
+  },
+  {
+   "company": "TPBank",
+   "use": "AI tools for operational efficiency and automation",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://live.theasianbanker.com/video/tpbank-accelerates-growth-through-digital-banking--ai-and-social-banking-initiatives",
+   "raw_sector": "",
+   "date": "2025-03-04",
+   "fresh": "fresh"
   },
   {
    "company": "TPBank",

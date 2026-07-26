@@ -3,33 +3,47 @@
  "name": "Cogna Educação",
  "cc": "BR",
  "vertical": "Education",
- "deployments": 1,
- "confirmed": 1,
- "with_value_number": 1,
- "proof_rate": 1.0,
+ "deployments": 4,
+ "confirmed": 2,
+ "with_value_number": 2,
+ "proof_rate": 0.5,
  "mktcap": 801851852.0,
  "revenue": 1396296296.0,
  "employees": 25000.0,
  "silent": false,
- "per_bn_revenue": 0.72,
- "per_10k_emp": 0.4,
- "first_seen": 2024,
+ "per_bn_revenue": 2.86,
+ "per_10k_emp": 1.6,
+ "first_seen": 2021,
  "by_year": [
   {
+   "year": 2021,
+   "n": 1
+  },
+  {
    "year": 2024,
+   "n": 2
+  },
+  {
+   "year": 2025,
    "n": 1
   }
  ],
  "undated_pct": 0,
- "momentum": "gone_quiet",
- "maturity": "L3",
+ "momentum": "early_mover,cooling",
+ "maturity": "L4",
  "maturity_evidence": [
   "named_product:Edu",
-  "value_number"
+  "value_number",
+  "multi_year"
  ],
- "prospect_score": 14,
- "stack": [],
- "vendor_named": false,
+ "prospect_score": 32,
+ "stack": [
+  "Anthropic",
+  "Microsoft",
+  "Microsoft Azure",
+  "OpenAI"
+ ],
+ "vendor_named": true,
  "deployments_detail": [
   {
    "company": "Cogna Educação",
@@ -40,6 +54,39 @@
    "url": "https://exame.com/inteligencia-artificial/com-120-projetos-de-ia-cogna-aposta-que-tecnologia-trara-mais-a-receita/",
    "raw_sector": "Consumo cíclico e construção civil",
    "date": "2024",
+   "fresh": "aging"
+  },
+  {
+   "company": "Cogna Educação",
+   "use": "Cloud-based academic management platform with AI-powered search [Microsoft Azure Cognitive Search]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://news.microsoft.com/es-xl/features/cogna-educacao-creates-microsofts-cloud-based-academic-management-platform/",
+   "raw_sector": "",
+   "date": "2021-04-05",
+   "fresh": "stale"
+  },
+  {
+   "company": "Cogna Educação",
+   "use": "AI tools for personalized education using student data",
+   "existence": "claimed",
+   "value": "2.7 million",
+   "tier": "",
+   "url": "https://convergenciadigital.com.br/inovacao/ia-e-nuvem-mexem-na-educacao-como-dados-de-27-milhoes-de-alunos-vao-personalizar-ensino/",
+   "raw_sector": "",
+   "date": "2025-05-15",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Cogna Educação",
+   "use": "Cogna IA platform for internal operations",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://esg.cogna.com.br/wp-content/uploads/2024/08/Cogna_Integrated_Report_2023-EN_v1.pdf",
+   "raw_sector": "",
+   "date": "2024-08-05",
    "fresh": "aging"
   }
  ]

@@ -3,27 +3,27 @@
  "name": "Brookfield Asset Management",
  "cc": "CA",
  "vertical": "Financial Services",
- "deployments": 1,
- "confirmed": 1,
- "with_value_number": 1,
- "proof_rate": 1.0,
+ "deployments": 5,
+ "confirmed": 2,
+ "with_value_number": 4,
+ "proof_rate": 0.8,
  "mktcap": 76742647059.0,
  "revenue": 5205882353.0,
  "employees": 5800.0,
  "silent": false,
- "per_bn_revenue": 0.19,
- "per_10k_emp": 1.72,
+ "per_bn_revenue": 0.96,
+ "per_10k_emp": 8.62,
  "benchmarks": {
   "global_vertical": {
-   "deployments": 0,
+   "deployments": 31,
    "confirmed": 17,
-   "proof_rate": 76,
-   "n": 377
+   "proof_rate": 98,
+   "n": 388
   },
   "country_vertical": {
    "deployments": 0,
    "confirmed": 14,
-   "proof_rate": 86,
+   "proof_rate": 100,
    "n": 8
   }
  },
@@ -34,17 +34,19 @@
    "n": 1
   }
  ],
- "undated_pct": 0,
+ "undated_pct": 80,
  "momentum": "rising",
  "maturity": "L3",
  "maturity_evidence": [
+  "multi_horizontal",
   "named_product:Brookfield",
   "value_number",
   "tier_p"
  ],
- "prospect_score": 6,
+ "prospect_score": 20,
  "stack": [
-  "NVIDIA"
+  "NVIDIA",
+  "OpenAI"
  ],
  "vendor_named": true,
  "deployments_detail": [
@@ -58,6 +60,50 @@
    "raw_sector": "Financials",
    "date": "2025-11",
    "fresh": "fresh"
+  },
+  {
+   "company": "Brookfield Asset Management",
+   "use": "AI infrastructure investment and deployment platform [OpenAI]",
+   "existence": "claimed",
+   "value": "$500 million",
+   "tier": "",
+   "url": "https://bam.brookfield.com/press-releases/brookfield-invest-500-million-strategic-partnership-openai",
+   "raw_sector": "",
+   "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "Brookfield Asset Management",
+   "use": "AI infrastructure program across data centers and value chain",
+   "existence": "claimed",
+   "value": "$100 billion",
+   "tier": "",
+   "url": "https://bam.brookfield.com/press-releases/brookfield-launches-100-billion-ai-infrastructure-program",
+   "raw_sector": "",
+   "date": "Nov 19, 2025",
+   "fresh": "undated"
+  },
+  {
+   "company": "Brookfield Asset Management",
+   "use": "Data centers and infrastructure for AI deployment in France",
+   "existence": "claimed",
+   "value": "€20 billion",
+   "tier": "",
+   "url": "https://bam.brookfield.com/press-releases/brookfield-invest-eu20-billion-frances-ai-infrastructure",
+   "raw_sector": "",
+   "date": "Feb 10, 2025",
+   "fresh": "undated"
+  },
+  {
+   "company": "Brookfield Asset Management",
+   "use": "AI bots to automate routine customer service and repair-related calls",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.klover.ai/brookfield-ai-strategy-analysis-of-dominance-in-investement-management-ai/",
+   "raw_sector": "",
+   "date": "Jul 27, 2025",
+   "fresh": "undated"
   }
  ]
 }

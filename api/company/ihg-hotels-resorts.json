@@ -3,52 +3,70 @@
  "name": "IHG Hotels & Resorts",
  "cc": "UK",
  "vertical": "Travel & Hospitality",
- "deployments": 1,
- "confirmed": 1,
- "with_value_number": 1,
- "proof_rate": 1.0,
+ "deployments": 5,
+ "confirmed": 3,
+ "with_value_number": 2,
+ "proof_rate": 0.4,
  "mktcap": 17180000000.0,
  "revenue": 3860000000.0,
  "employees": 13049.0,
  "silent": false,
- "per_bn_revenue": 0.26,
- "per_10k_emp": 0.77,
+ "per_bn_revenue": 1.3,
+ "per_10k_emp": 3.83,
  "benchmarks": {
   "global_vertical": {
-   "deployments": 0,
-   "confirmed": 29,
-   "proof_rate": 76,
-   "n": 39
+   "deployments": 60,
+   "confirmed": 45,
+   "proof_rate": 90,
+   "n": 41
   },
   "country_vertical": {
-   "deployments": 0,
+   "deployments": 50,
    "confirmed": 25,
    "proof_rate": 75,
    "n": 5
   }
  },
- "first_seen": 2026,
+ "first_seen": 2024,
  "by_year": [
   {
+   "year": 2024,
+   "n": 2
+  },
+  {
    "year": 2026,
-   "n": 1
+   "n": 3
   }
  ],
  "undated_pct": 0,
- "momentum": "late_entrant,rising",
- "maturity": "L3",
+ "momentum": "early_mover,rising",
+ "maturity": "L4",
  "maturity_evidence": [
+  "multi_horizontal",
   "named_product:Launched",
   "value_number",
+  "multi_year",
   "tier_p"
  ],
- "prospect_score": 6,
+ "prospect_score": 42,
  "stack": [
+  "Google",
   "Google Cloud",
   "OpenAI"
  ],
  "vendor_named": true,
  "deployments_detail": [
+  {
+   "company": "IHG Hotels & Resorts",
+   "use": "Hotel data restructuring for AI agents",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://skift.com/2026/02/17/ihg-overhauls-its-hotel-data-for-ai-agents/",
+   "raw_sector": "",
+   "date": "2026-02-17",
+   "fresh": "fresh"
+  },
   {
    "company": "IHG Hotels & Resorts",
    "use": "Launched IHG app in ChatGPT + AI conversational search across 7,000+ hotels; Google Cloud gen-AI travel planner in IHG One Rewards; appointed SVP of AI",
@@ -59,6 +77,39 @@
    "raw_sector": "Travel & leisure",
    "date": "2026",
    "fresh": "fresh"
+  },
+  {
+   "company": "IHG Hotels & Resorts",
+   "use": "Conversational AI search and booking in IHG app on ChatGPT, IHG.com, and IHG One Rewards app [ChatGPT]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.ihgplc.com/en/news-and-media/news-releases/2026/ihg-hotels-and-resorts-advances-conversational-ai-search-capabilities",
+   "raw_sector": "",
+   "date": "2026-06-03",
+   "fresh": "fresh"
+  },
+  {
+   "company": "IHG Hotels & Resorts",
+   "use": "AI-led customer self-service",
+   "existence": "confirmed",
+   "value": "53%",
+   "tier": "",
+   "url": "https://procurement.ihg.com/w/impact-of-ai-on-procurement",
+   "raw_sector": "",
+   "date": "2024-10-21",
+   "fresh": "aging"
+  },
+  {
+   "company": "IHG Hotels & Resorts",
+   "use": "Generative AI-powered travel planner for IHG One Rewards mobile app [Google Cloud AI, Vertex AI, Gemini]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.prnewswire.com/news-releases/ihg-hotels--resorts-builds-a-new-travel-planner-powered-by-google-cloud-ai-302111463.html",
+   "raw_sector": "",
+   "date": "2024-04-09",
+   "fresh": "aging"
   }
  ]
 }

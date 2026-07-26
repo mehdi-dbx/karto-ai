@@ -3,27 +3,27 @@
  "name": "Eni",
  "cc": "IT",
  "vertical": "Energy & Utilities",
- "deployments": 1,
- "confirmed": 1,
+ "deployments": 4,
+ "confirmed": 4,
  "with_value_number": 1,
- "proof_rate": 1.0,
+ "proof_rate": 0.25,
  "mktcap": 70729200000.0,
  "revenue": 90288000000.0,
  "employees": 32349.0,
  "silent": false,
- "per_bn_revenue": 0.01,
- "per_10k_emp": 0.31,
+ "per_bn_revenue": 0.04,
+ "per_10k_emp": 1.24,
  "benchmarks": {
   "global_vertical": {
-   "deployments": 0,
-   "confirmed": 20,
-   "proof_rate": 75,
-   "n": 210
+   "deployments": 40,
+   "confirmed": 58,
+   "proof_rate": 59,
+   "n": 213
   },
   "country_vertical": {
-   "deployments": 0,
-   "confirmed": 0,
-   "proof_rate": 62,
+   "deployments": 25,
+   "confirmed": 62,
+   "proof_rate": 38,
    "n": 9
   }
  },
@@ -33,11 +33,12 @@
  "momentum": "none",
  "maturity": "L3",
  "maturity_evidence": [
+  "multi_horizontal",
   "named_product:PFlops",
   "value_number",
   "tier_p"
  ],
- "prospect_score": 14,
+ "prospect_score": 62,
  "stack": [],
  "vendor_named": false,
  "deployments_detail": [
@@ -49,6 +50,39 @@
    "tier": "P",
    "url": "https://www.eni.com/it-IT/azioni/tecnologie-transizione-energetica/supercalcolo-intelligenza-artificiale/supercomputer.html",
    "raw_sector": "Energy",
+   "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "Eni",
+   "use": "Generative AI with vector embeddings for document retrieval and question answering [MongoDB]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.mongodb.com/solutions/customer-case-studies/eni",
+   "raw_sector": "",
+   "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "Eni",
+   "use": "EnergIA - generative AI tool for information retrieval on eni.com",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.eni.com/en-IT/strategic-vision/innovation/digitalisation/generative-ai-experience.html",
+   "raw_sector": "",
+   "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "Eni",
+   "use": "Data analytics for strategic decisions in bioenergy and biofuel production",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.eni.com/en-IT/actions/energy-transition-technologies/supercomputing-artificial-intelligence.html",
+   "raw_sector": "",
    "date": "missing",
    "fresh": "undated"
   }

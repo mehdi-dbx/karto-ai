@@ -3,40 +3,59 @@
  "name": "Interactive Brokers",
  "cc": "US",
  "vertical": "Financial Services",
- "deployments": 1,
- "confirmed": 1,
- "with_value_number": 0,
- "proof_rate": 0.0,
+ "deployments": 10,
+ "confirmed": 10,
+ "with_value_number": 2,
+ "proof_rate": 0.2,
  "mktcap": 40610000000.0,
  "revenue": 6840000000.0,
  "employees": 3182.0,
  "silent": false,
- "per_bn_revenue": 0.15,
- "per_10k_emp": 3.14,
+ "per_bn_revenue": 1.46,
+ "per_10k_emp": 31.43,
  "benchmarks": {
   "global_vertical": {
-   "deployments": 0,
-   "confirmed": 17,
-   "proof_rate": 0,
-   "n": 377
+   "deployments": 65,
+   "confirmed": 78,
+   "proof_rate": 39,
+   "n": 388
   },
   "country_vertical": {
-   "deployments": 0,
-   "confirmed": 19,
-   "proof_rate": 0,
-   "n": 76
+   "deployments": 62,
+   "confirmed": 74,
+   "proof_rate": 42,
+   "n": 77
   }
  },
- "first_seen": null,
- "by_year": [],
- "undated_pct": 100,
- "momentum": "none",
- "maturity": "L3",
+ "first_seen": 2022,
+ "by_year": [
+  {
+   "year": 2022,
+   "n": 1
+  },
+  {
+   "year": 2024,
+   "n": 1
+  },
+  {
+   "year": 2025,
+   "n": 2
+  },
+  {
+   "year": 2026,
+   "n": 2
+  }
+ ],
+ "undated_pct": 40,
+ "momentum": "early_mover,rising",
+ "maturity": "L4",
  "maturity_evidence": [
   "named_product:Hub",
+  "value_number",
+  "multi_year",
   "tier_p"
  ],
- "prospect_score": 46,
+ "prospect_score": 92,
  "stack": [
   "Anthropic",
   "OpenAI"
@@ -51,6 +70,105 @@
    "tier": "P",
    "url": "https://www.interactivebrokers.com/en/trading/ai-hub.php",
    "raw_sector": "Financials",
+   "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "Interactive Brokers",
+   "use": "Ask IBKR — a proprietary AI-powered assistant that lets clients query their own portfolio in plain English (performance vs. benchmarks, sector/asset allocation, holdings, trade history and fees) and get instant visualized answers. Built with IBKR's own NLP and 'proprietary methods designed to minimise the risk of inaccurate or speculative responses.' Available across Client Portal, Advisor Portal and IBKR Desktop. [Interactive Brokers (in-house NLP)]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://sg.finance.yahoo.com/news/interactive-brokers-launches-ai-assistant-100018987.html",
+   "raw_sector": "",
+   "date": "2025-10-15",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Interactive Brokers",
+   "use": "Agentic trading integration: clients connect their IBKR account to AI platforms supporting the Model Context Protocol (ChatGPT, Claude, Grok) to analyze portfolios, assess exposures, explore hedging strategies, benchmark performance and draft natural-language trade instructions across stocks, ETFs, options, futures and futures options. Every AI-generated instruction must be reviewed/approved via a dedicated 'AI Instructions' tab before execution. [OpenAI (ChatGPT), Anthropic (Claude), xAI (Grok) via MCP]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://finance.yahoo.com/technology/ai/articles/ibkr-broadens-ai-trading-reach-125700719.html",
+   "raw_sector": "",
+   "date": "2026-06-22",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Interactive Brokers",
+   "use": "Certified Interactive Brokers connector for Claude (built by IBKR): lets clients manage portfolios through natural-language conversation with Claude — check positions and P&L, review balances and buying power, get real-time quotes/historical data, and have Claude draft trade instructions (e.g. 'Buy 100 shares of AAPL at $200') that are sent to the IBKR account for user review/approval. Available in Claude web/desktop/mobile, Claude Code and the Claude API. [Anthropic (Claude)]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://claude.com/connectors/interactive-brokers",
+   "raw_sector": "",
+   "date": "2026-06-08",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Interactive Brokers",
+   "use": "Investment Themes — an AI-powered discovery tool (powered by Reflexivity's proprietary knowledge graph) that lets investors enter a theme like 'Generative AI' or 'Nuclear Energy' and instantly see connected public companies across ~500 themes in the S&P 1500, with competitive landscapes, regional exposure and revenue footprints. Integrated across TWS, IBKR Mobile and IBKR Desktop. [Reflexivity (knowledge graph)]",
+   "existence": "confirmed",
+   "value": "~500 investment themes across the S&P 1500",
+   "tier": "",
+   "url": "https://www.stocktitan.net/news/IBKR/interactive-brokers-unveils-investment-themes-tool-to-turn-market-td1u6k2ap7nf.html",
+   "raw_sector": "",
+   "date": "2025-07-16",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Interactive Brokers",
+   "use": "AI-Powered News Summaries — an AI feature that condenses market news into tailored summaries by market, sector and asset class so clients can monitor developments most aligned with their interests and make faster investment decisions. [Interactive Brokers]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.interactivebrokers.com/en/trading/news-summaries.php",
+   "raw_sector": "",
+   "date": "2024-12-11",
+   "fresh": "aging"
+  },
+  {
+   "company": "Interactive Brokers",
+   "use": "IBot — an automated natural-language interface (available in IBKR Mobile, Trader Workstation and Desktop) that uses AI to interpret plain-English commands for order entry, charts, scanners, fundamentals, pricing data, market research and account management. [Interactive Brokers]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.interactivebrokers.com/en/trading/ibot.php",
+   "raw_sector": "",
+   "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "Interactive Brokers",
+   "use": "AI Configured Screener — an AI-powered stock screener in IBKR Desktop where investors describe in natural language what they are looking for and the AI generates a screener that analyzes metrics such as revenue growth and EPS to surface matching stocks and news-driven opportunities. [Interactive Brokers]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.interactivebrokers.com/campus/trading-lessons/ai-configured-screener/",
+   "raw_sector": "",
+   "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "Interactive Brokers",
+   "use": "Direct trading integration with TOGGLE AI: IBKR account holders can execute trades directly on the TOGGLE AI platform, an AI-powered app that generates tactical investment insights across 40,000+ global assets while accessing IBKR's trading suite. [TOGGLE AI]",
+   "existence": "confirmed",
+   "value": "40,000+ global assets covered by TOGGLE AI",
+   "tier": "",
+   "url": "https://www.businesswire.com/news/home/20221212005271/en/TOGGLE-AI-Introduces-Direct-Trading-Integration-in-Partnership-With-Interactive-Brokers",
+   "raw_sector": "",
+   "date": "2022-12-12",
+   "fresh": "stale"
+  },
+  {
+   "company": "Interactive Brokers",
+   "use": "Capitalise.ai integration — a code-free automated-trading service offered free to IBKR clients (added via the research subscription in Client Portal) that lets traders create, backtest and automate trading strategies using plain-English natural-language instructions executed on their IBKR account. [Capitalise.ai]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://capitalise.ai/interactivebrokers/",
+   "raw_sector": "",
    "date": "missing",
    "fresh": "undated"
   }

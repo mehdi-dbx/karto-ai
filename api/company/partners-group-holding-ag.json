@@ -3,26 +3,26 @@
  "name": "Partners Group Holding AG",
  "cc": "CH",
  "vertical": "Financial Services",
- "deployments": 1,
- "confirmed": 1,
- "with_value_number": 0,
- "proof_rate": 0.0,
+ "deployments": 3,
+ "confirmed": 3,
+ "with_value_number": 1,
+ "proof_rate": 0.333,
  "mktcap": 19582900000.0,
  "revenue": 2881500000.0,
  "employees": 2027.0,
  "silent": false,
- "per_bn_revenue": 0.35,
- "per_10k_emp": 4.93,
+ "per_bn_revenue": 1.04,
+ "per_10k_emp": 14.8,
  "benchmarks": {
   "global_vertical": {
-   "deployments": 0,
-   "confirmed": 17,
-   "proof_rate": 0,
-   "n": 377
+   "deployments": 13,
+   "confirmed": 27,
+   "proof_rate": 58,
+   "n": 388
   },
   "country_vertical": {
    "deployments": 0,
-   "confirmed": 25,
+   "confirmed": 0,
    "proof_rate": 0,
    "n": 5
   }
@@ -34,16 +34,42 @@
    "n": 1
   }
  ],
- "undated_pct": 0,
+ "undated_pct": 67,
  "momentum": "early_mover,gone_quiet",
  "maturity": "L3",
  "maturity_evidence": [
-  "named_product:Rolled"
+  "multi_horizontal",
+  "named_product:Rolled",
+  "value_number"
  ],
- "prospect_score": 54,
- "stack": [],
- "vendor_named": false,
+ "prospect_score": 45,
+ "stack": [
+  "OpenAI"
+ ],
+ "vendor_named": true,
  "deployments_detail": [
+  {
+   "company": "Partners Group Holding AG",
+   "use": "AI use case identification and deployment in portfolio companies",
+   "existence": "confirmed",
+   "value": "20+",
+   "tier": "",
+   "url": "https://www.partnersgroupprivateequitylimited.com/~/media/Files/P/Partnersgroup/pgpeltd/investors/interim/interim-report-2025-pgpe-limited.pdf",
+   "raw_sector": "",
+   "date": "Jun 30, 2025",
+   "fresh": "undated"
+  },
+  {
+   "company": "Partners Group Holding AG",
+   "use": "PRIMERA GPT - integrated generative AI programme",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.privateequityinternational.com/all-eyes-on-artificial-intelligence-story-of-the-year/",
+   "raw_sector": "",
+   "date": "Dec 20, 2023",
+   "fresh": "undated"
+  },
   {
    "company": "Partners Group Holding AG",
    "use": "Rolled out an integrated generative AI programme (PRIMERA GPT / GPT-4) to its global employee base for RFP writing coding and cybersecurity behaviour analytics",

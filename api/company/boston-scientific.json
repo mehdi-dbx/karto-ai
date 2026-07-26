@@ -3,26 +3,26 @@
  "name": "Boston Scientific",
  "cc": "US",
  "vertical": "Healthcare & Life Sciences",
- "deployments": 1,
- "confirmed": 1,
+ "deployments": 4,
+ "confirmed": 4,
  "with_value_number": 0,
  "proof_rate": 0.0,
  "mktcap": 64170000000.0,
  "revenue": 20610000000.0,
  "employees": 59000.0,
  "silent": false,
- "per_bn_revenue": 0.05,
- "per_10k_emp": 0.17,
+ "per_bn_revenue": 0.19,
+ "per_10k_emp": 0.68,
  "benchmarks": {
   "global_vertical": {
-   "deployments": 0,
-   "confirmed": 13,
+   "deployments": 26,
+   "confirmed": 48,
    "proof_rate": 0,
-   "n": 165
+   "n": 168
   },
   "country_vertical": {
-   "deployments": 0,
-   "confirmed": 7,
+   "deployments": 14,
+   "confirmed": 34,
    "proof_rate": 0,
    "n": 59
   }
@@ -33,13 +33,25 @@
  "momentum": "none",
  "maturity": "L3",
  "maturity_evidence": [
+  "multi_horizontal",
   "named_product:Automated Lesion Assessment",
   "tier_p"
  ],
- "prospect_score": 54,
+ "prospect_score": 72,
  "stack": [],
  "vendor_named": false,
  "deployments_detail": [
+  {
+   "company": "Boston Scientific",
+   "use": "AI-powered diagnostics for predicting and preventing cardiac emergencies",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://news.bostonscientific.com/ai-diagnostic-heart-failure-symptoms-arrythmia",
+   "raw_sector": "",
+   "date": "May 30, 2025",
+   "fresh": "undated"
+  },
   {
    "company": "Boston Scientific",
    "use": "Avvigo+ AI \"Automated Lesion Assessment\" PCI guidance (FDA-cleared) + BodyGuardian AI arrhythmia remote monitoring",
@@ -49,6 +61,28 @@
    "url": "https://news.bostonscientific.com/ai-diagnostic-heart-failure-symptoms-arrythmia",
    "raw_sector": "Health Care",
    "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "Boston Scientific",
+   "use": "AI-enabled monitoring of supply chain disruptions",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.bostonscientific.com/en-US/corporate-responsibility/integrity/supply-chain-management.html",
+   "raw_sector": "",
+   "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "Boston Scientific",
+   "use": "AI-enabled product discovery and B2B buying experience [Coveo]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.coveo.com/blog/boston-scientific-b2b-product-discovery/",
+   "raw_sector": "",
+   "date": "Jul 9, 2025",
    "fresh": "undated"
   }
  ]

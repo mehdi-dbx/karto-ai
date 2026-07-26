@@ -3,35 +3,55 @@
  "name": "DSV",
  "cc": "DK",
  "vertical": "Logistics & Supply Chain",
- "deployments": 1,
- "confirmed": 0,
- "with_value_number": 1,
- "proof_rate": 1.0,
+ "deployments": 10,
+ "confirmed": 7,
+ "with_value_number": 5,
+ "proof_rate": 0.5,
  "mktcap": 49605797101.0,
  "revenue": 42140579710.0,
  "employees": 148830.0,
  "silent": false,
- "per_bn_revenue": 0.02,
- "per_10k_emp": 0.07,
+ "per_bn_revenue": 0.24,
+ "per_10k_emp": 0.67,
  "benchmarks": {
   "global_vertical": {
-   "deployments": 0,
-   "confirmed": 0,
-   "proof_rate": 65,
-   "n": 66
+   "deployments": 82,
+   "confirmed": 76,
+   "proof_rate": 73,
+   "n": 67
   }
  },
- "first_seen": null,
- "by_year": [],
- "undated_pct": 100,
- "momentum": "none",
- "maturity": "L1",
- "maturity_evidence": [
-  "rows_no_confirmed"
+ "first_seen": 2020,
+ "by_year": [
+  {
+   "year": 2020,
+   "n": 1
+  },
+  {
+   "year": 2024,
+   "n": 1
+  },
+  {
+   "year": 2025,
+   "n": 4
+  },
+  {
+   "year": 2026,
+   "n": 3
+  }
  ],
- "prospect_score": 0,
+ "undated_pct": 10,
+ "momentum": "early_mover,rising",
+ "maturity": "L4",
+ "maturity_evidence": [
+  "multi_horizontal",
+  "named_product:LocusONE",
+  "value_number",
+  "multi_year"
+ ],
+ "prospect_score": 62,
  "stack": [],
- "vendor_named": false,
+ "vendor_named": true,
  "deployments_detail": [
   {
    "company": "DSV",
@@ -43,6 +63,105 @@
    "raw_sector": "Logistics",
    "date": "missing",
    "fresh": "undated"
+  },
+  {
+   "company": "DSV",
+   "use": "AI-driven warehouse fulfillment robots (LocusONE robots-as-a-service): intelligent fleet management coordinating autonomous mobile robots with human pickers to optimize picking and labor allocation. Deployed at a North American health & beauty retailer site and replicated across multiple DSV facilities over 3+ years of collaboration. [Locus Robotics (LocusONE)]",
+   "existence": "confirmed",
+   "value": "none (article states 'substantial improvements in warehouse efficiency' and reduced picking times, no numbers)",
+   "tier": "",
+   "url": "https://www.supplychainbrain.com/articles/42518-case-study-dsv-and-locus-robotics-partnership-optimizing-warehouse-fulfillment-with-intelligent-ai-driven-enterprise-grade-robotics",
+   "raw_sector": "",
+   "date": "2025-09-23",
+   "fresh": "fresh"
+  },
+  {
+   "company": "DSV",
+   "use": "Autonomous inventory drones that fly warehouses (mainly at night), scan barcodes and detect empty vs occupied pallet positions, compare against system data to make stock counts virtually error-free. Piloted at Moerdijk (Netherlands) warehouse with thousands of autonomous flights and tens of thousands of scans, then rolled out to additional warehouses. [Verity]",
+   "existence": "confirmed",
+   "value": "drones scan 100-300 locations per hour; thousands of flights, tens of thousands of scans in pilot; inventory data 'virtually error-free'",
+   "tier": "",
+   "url": "https://theloadstar.com/dsv-improves-warehouse-operations-with-drone-system/",
+   "raw_sector": "",
+   "date": "2020-11-17",
+   "fresh": "stale"
+  },
+  {
+   "company": "DSV",
+   "use": "Autonomous freight trucking: DSV and Volvo Autonomous Solutions launched driverless freight operations using the Volvo VNL Autonomous truck integrated with the Aurora Driver self-driving system, running between Dallas and Houston, Texas. First commercial truckload with the Volvo VNL Autonomous completed (initial phase with safety driver present); aims at 24/7 depot-to-depot operations. [Volvo Autonomous Solutions / Aurora Driver]",
+   "existence": "confirmed",
+   "value": "Volvo Autonomous Solutions has logged 1M+ miles in regional/local freight since 2023",
+   "tier": "",
+   "url": "https://www.dsv.com/en/about-dsv/press/news/volvo-autonomous-solutions-and-dsv-announce-autonomous-freight-2628152",
+   "raw_sector": "",
+   "date": "2026-05-13",
+   "fresh": "fresh"
+  },
+  {
+   "company": "DSV",
+   "use": "SynapseAI predictive supply chain platform: machine-learning platform analyzing real-time traffic, weather, port congestion and historical performance to forecast transit times and disruptions and recommend rerouting, inventory and modal changes. Unveiled in Copenhagen; in initial rollout focused on ocean and air freight, with road/contract logistics integration planned through 2027. [none named (proprietary ML)]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://ports.marinelink.com/ports/port/san-diego/news/dsv-launches-ai-powered-platform-predictive-supply-chain-optimization",
+   "raw_sector": "",
+   "date": "2026-04-29",
+   "fresh": "fresh"
+  },
+  {
+   "company": "DSV",
+   "use": "Digital Warehouse Twin: a live 3D model of the warehouse fed by real-time data including computer vision and tracking, used to monitor and optimize warehouse operations. [none named]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.dsv.com/en-us/insights/innovation",
+   "raw_sector": "",
+   "date": "2025-01-01",
+   "fresh": "fresh"
+  },
+  {
+   "company": "DSV",
+   "use": "Digital Cargo Twin: an in-motion scanning solution that automatically captures weight and dimensions of pallets (computer-vision/sensor-based dimensioning) to digitize cargo data. [none named]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.dsv.com/en-us/insights/innovation",
+   "raw_sector": "",
+   "date": "2025-01-01",
+   "fresh": "fresh"
+  },
+  {
+   "company": "DSV",
+   "use": "Offshore cargo delivery drones: autonomous drones deliver spare parts to offshore technicians and remote locations without human interaction (developed with energy partner Ørsted). [Ørsted (partner)]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.dsv.com/en-us/insights/innovation",
+   "raw_sector": "",
+   "date": "2025-01-01",
+   "fresh": "fresh"
+  },
+  {
+   "company": "DSV",
+   "use": "AutoStore goods-to-person warehouse automation with intelligent order routing that automatically sends orders to the nearest fulfillment location across an interconnected network. Scaled from the Kolding, Denmark pilot (world's largest 3PL AutoStore, 88,000 bins, 49 robots) to 20+ global sites across Europe, North America and Asia Pacific. [AutoStore]",
+   "existence": "confirmed",
+   "value": "50% increase in throughput; 88,000 bins and 49 robots at Kolding; 20+ global sites",
+   "tier": "",
+   "url": "https://www.autostoresystem.com/cases/dsv-expands-autostore-implementation-to-20-global-sites",
+   "raw_sector": "",
+   "date": "2024-09-16",
+   "fresh": "aging"
+  },
+  {
+   "company": "DSV",
+   "use": "Owned core AI platform built on Tango (Air & Sea) and Star (Road) with an Enterprise Data Platform and an 'AI Factory' providing reusable AI services at enterprise scale, including predictive lane-level forecasting. Approximately 25% of Air & Sea volumes already running on Tango as of May 2026; Road division consolidating 25+ legacy systems into Star. [none named (in-house, replacing WiseTech CargoWise)]",
+   "existence": "confirmed",
+   "value": "~DKK 6bn (~$870m) targeted annual AI & technology-related improvements by 2030; 25% of Air & Sea volumes on Tango",
+   "tier": "",
+   "url": "https://theloadstar.com/dsv-confirms-cargowise-shift-as-tango-becomes-core-of-ai-platform/",
+   "raw_sector": "",
+   "date": "2026-05-12",
+   "fresh": "fresh"
   }
  ]
 }

@@ -3,42 +3,62 @@
  "name": "Coinbase",
  "cc": "US",
  "vertical": "Financial Services",
- "deployments": 1,
- "confirmed": 1,
- "with_value_number": 0,
- "proof_rate": 0.0,
+ "deployments": 14,
+ "confirmed": 13,
+ "with_value_number": 6,
+ "proof_rate": 0.429,
  "mktcap": 42680000000.0,
  "revenue": 6290000000.0,
  "employees": 4951.0,
  "silent": false,
- "per_bn_revenue": 0.16,
- "per_10k_emp": 2.02,
+ "per_bn_revenue": 2.23,
+ "per_10k_emp": 28.28,
  "benchmarks": {
   "global_vertical": {
-   "deployments": 0,
-   "confirmed": 17,
-   "proof_rate": 0,
-   "n": 377
+   "deployments": 91,
+   "confirmed": 94,
+   "proof_rate": 73,
+   "n": 388
   },
   "country_vertical": {
-   "deployments": 0,
-   "confirmed": 19,
-   "proof_rate": 0,
-   "n": 76
+   "deployments": 83,
+   "confirmed": 93,
+   "proof_rate": 78,
+   "n": 77
   }
  },
- "first_seen": null,
- "by_year": [],
- "undated_pct": 100,
- "momentum": "none",
- "maturity": "L3",
+ "first_seen": 2025,
+ "by_year": [
+  {
+   "year": 2025,
+   "n": 9
+  },
+  {
+   "year": 2026,
+   "n": 2
+  }
+ ],
+ "undated_pct": 21,
+ "momentum": "rising",
+ "maturity": "L4",
  "maturity_evidence": [
+  "multi_horizontal",
   "named_product:Coinbase for Agents",
+  "value_number",
+  "multi_year",
   "tier_p"
  ],
- "prospect_score": 54,
- "stack": [],
- "vendor_named": false,
+ "prospect_score": 83,
+ "stack": [
+  "Amazon AWS",
+  "Anthropic",
+  "Cohere",
+  "Databricks",
+  "Google",
+  "Microsoft",
+  "OpenAI"
+ ],
+ "vendor_named": true,
  "deployments_detail": [
   {
    "company": "Coinbase",
@@ -50,6 +70,149 @@
    "raw_sector": "Financials",
    "date": "missing",
    "fresh": "undated"
+  },
+  {
+   "company": "Coinbase",
+   "use": "Coinbase for Agents: platform letting third-party AI assistants (ChatGPT, Claude) connect to a user's Coinbase account to trade spot/derivatives, make payments, rebalance portfolios and execute strategies under user-set spending/trade limits; uses the x402 machine-to-machine payments protocol. [OpenAI (ChatGPT), Anthropic (Claude), Coinbase x402]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.coindesk.com/tech/2026/06/11/coinbase-launches-ai-agent-accounts-that-can-trade-and-spend-on-your-behalf",
+   "raw_sector": "",
+   "date": "2026-06-11",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Coinbase",
+   "use": "Payments MCP: Model Context Protocol server letting AI agents/LLMs (Claude, Gemini, others) access Coinbase wallets and onramps to make stablecoin payments via natural language, runnable locally with minimal user input. [Anthropic Claude, Google Gemini, Model Context Protocol]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.tradingview.com/news/the_block:51d7a3dc7094b:0-coinbase-unveils-tool-for-ai-agents-like-claude-and-gemini-to-access-crypto-wallets/",
+   "raw_sector": "",
+   "date": "2025-10-22",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Coinbase",
+   "use": "AgentKit support for OpenAI's Agents SDK: enables agentic commerce so OpenAI-built agents can transact onchain through Coinbase's AgentKit toolkit. [OpenAI Agents SDK, Coinbase AgentKit]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.coinbase.com/developer-platform/discover/launches/openai-agents-sdk",
+   "raw_sector": "",
+   "date": "2025-01-01",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Coinbase",
+   "use": "Graph ML on blockchain transaction data; graph query engine for observability [Databricks] [Databricks]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.databricks.com/customers/coinbase",
+   "raw_sector": "",
+   "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "Coinbase",
+   "use": "Named as a Google Gemini / Vertex AI customer/case study [Google Gemini / Vertex AI] [Google Gemini / Vertex AI]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://theirstack.com/en/technology/gemini/us",
+   "raw_sector": "",
+   "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "Coinbase",
+   "use": "Customer support AI chatbot: three-layer generative-AI assistant (RAG for FAQ, business-procedure automation, proactive problem-solving) powering chatbot, help-center search and agent-assist across 100+ countries. Built on Amazon Bedrock with Claude models, Bedrock Knowledge Bases for vectorization and Cohere re-rank. [Anthropic Claude, AWS Bedrock, Cohere]",
+   "existence": "confirmed",
+   "value": "65% of customer contacts handled automatically by AI; ~5 million employee hours saved annually; 65% of automated cases resolved in a single interaction within 10 min vs 40 min for human agents",
+   "tier": "",
+   "url": "https://zenn.dev/kiiwami/articles/006d5ce137876bdc?locale=en",
+   "raw_sector": "",
+   "date": "2025-12-03",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Coinbase",
+   "use": "Enterprise/internal AI agents built by an 'Agentic AI Tiger Team': a code-first 'paved road' (LangGraph/LangChain for orchestration, LangSmith for observability/auditability) enabling teams to ship internal automation agents with immutable audit records. [LangChain, LangGraph, LangSmith]",
+   "existence": "confirmed",
+   "value": "2 agents in production saving 25+ hours per week; agent build time cut from ~12 weeks to under 1 week",
+   "tier": "",
+   "url": "https://www.linkedin.com/posts/langchain_building-enterprise-agents-at-coinbase-activity-7428240150775775232-_MYx",
+   "raw_sector": "",
+   "date": "2025-12-22",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Coinbase",
+   "use": "Compliance Automated Resolution (CAR) engine: orchestrates AML/compliance investigations (KYC, KYB, transaction monitoring) using standardized MCP connectors to internal, external and open-source intelligence; traditional ML risk models served via Anyscale (Ray) on AWS EKS flag high-risk cases; humans retain final SAR decision authority. [Anyscale (Ray), AWS EKS, Model Context Protocol]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://zenn.dev/kiiwami/articles/006d5ce137876bdc?locale=en",
+   "raw_sector": "",
+   "date": "2025-12-03",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Coinbase",
+   "use": "AI coding tools rolled out company-wide for engineers: Cursor, GitHub Copilot and Claude Code enabled as common coding tools; CEO mandated adoption. Reported share of AI-generated/AI-influenced code. [Cursor, GitHub Copilot, Anthropic Claude Code]",
+   "existence": "confirmed",
+   "value": "40% of code written daily is AI-generated or AI-influenced (2025), with a stated push toward 50%+",
+   "tier": "",
+   "url": "https://www.coinbase.com/blog/Tools-for-Developer-Productivity-at-Coinbase",
+   "raw_sector": "",
+   "date": "2025-08-06",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Coinbase",
+   "use": "AI-driven GitHub Action for automated pull-request review: automatically reviews PRs, enforces coding standards and identifies test gaps as part of the developer workflow. [Anthropic Claude (via AWS Bedrock), GitHub]",
+   "existence": "confirmed",
+   "value": "~75,000 hours saved per year",
+   "tier": "",
+   "url": "https://zenn.dev/kiiwami/articles/006d5ce137876bdc?locale=en",
+   "raw_sector": "",
+   "date": "2025-12-03",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Coinbase",
+   "use": "Automated UI testing tool that runs tests from natural-language descriptions instead of hand-written scripts. [AWS Bedrock]",
+   "existence": "confirmed",
+   "value": "86% cost reduction versus manual UI testing",
+   "tier": "",
+   "url": "https://zenn.dev/kiiwami/articles/006d5ce137876bdc?locale=en",
+   "raw_sector": "",
+   "date": "2025-12-03",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Coinbase",
+   "use": "Figma-to-code AI agent: reads Figma design screenshots and generates production-ready frontend code (component mapping, layout, data-fetch wiring, tests, validation against team standards). Shipped a real feature in a production pilot. [none]",
+   "existence": "confirmed",
+   "value": "Pilot shipped a feature in 4 days vs a typical 2-4 weeks",
+   "tier": "",
+   "url": "https://departmentofproduct.substack.com/p/how-coinbase-built-an-ai-agent-that",
+   "raw_sector": "",
+   "date": "2026-06-03",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Coinbase",
+   "use": "AI-native Coinbase Developer Platform (CDP) documentation: four new AI features plus an interactive API playground giving developers real-time AI help and AI-optimized/contextual docs for building on CDP. [none]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.coinbase.com/developer-platform/discover/launches/ai-native-docs",
+   "raw_sector": "",
+   "date": "2025-06-29",
+   "fresh": "fresh"
   }
  ]
 }

@@ -3,43 +3,51 @@
  "name": "X5 Group",
  "cc": "RU",
  "vertical": "Retail & E-commerce",
- "deployments": 2,
- "confirmed": 2,
- "with_value_number": 0,
- "proof_rate": 0.0,
+ "deployments": 5,
+ "confirmed": 5,
+ "with_value_number": 2,
+ "proof_rate": 0.4,
  "mktcap": null,
  "revenue": 36900000000.0,
  "employees": null,
  "silent": false,
- "per_bn_revenue": 0.05,
+ "per_bn_revenue": 0.14,
  "per_10k_emp": null,
  "benchmarks": {
   "global_vertical": {
-   "deployments": 71,
-   "confirmed": 80,
-   "proof_rate": 0,
-   "n": 295
+   "deployments": 39,
+   "confirmed": 53,
+   "proof_rate": 70,
+   "n": 301
   },
   "country_vertical": {
-   "deployments": 50,
-   "confirmed": 50,
-   "proof_rate": 0,
+   "deployments": 75,
+   "confirmed": 75,
+   "proof_rate": 50,
    "n": 5
   }
  },
- "first_seen": null,
- "by_year": [],
- "undated_pct": 100,
- "momentum": "none",
+ "first_seen": 2026,
+ "by_year": [
+  {
+   "year": 2026,
+   "n": 3
+  }
+ ],
+ "undated_pct": 40,
+ "momentum": "late_entrant,rising",
  "maturity": "L3",
  "maturity_evidence": [
   "multi_horizontal",
   "named_product:Broad",
+  "value_number",
   "tier_p"
  ],
- "prospect_score": 60,
- "stack": [],
- "vendor_named": false,
+ "prospect_score": 54,
+ "stack": [
+  "Microsoft"
+ ],
+ "vendor_named": true,
  "deployments_detail": [
   {
    "company": "X5 Group",
@@ -54,6 +62,17 @@
   },
   {
    "company": "X5 Group",
+   "use": "AI solutions for commerce, logistics, customer experience, and corporate operations generating additional operating profit",
+   "existence": "confirmed",
+   "value": "5 billion RUB",
+   "tier": "",
+   "url": "https://www.x5.ru/en/news/x5-generates-rub-5-bln-in-additional-operating-profit-through-ai-solutions/",
+   "raw_sector": "",
+   "date": "2026-06-01",
+   "fresh": "fresh"
+  },
+  {
+   "company": "X5 Group",
    "use": "AI system to assess product competencies in hiring/development",
    "existence": "confirmed",
    "value": "none",
@@ -62,6 +81,28 @@
    "raw_sector": "Retail",
    "date": "missing",
    "fresh": "undated"
+  },
+  {
+   "company": "X5 Group",
+   "use": "Enterprise AI assistant (CoPilot X5) for employee productivity across multiple business functions",
+   "existence": "confirmed",
+   "value": "5 billion RUB",
+   "tier": "",
+   "url": "https://tadviser.com/index.php/Article:Digital_at_X5_Retail_Group",
+   "raw_sector": "",
+   "date": "2026-06-17",
+   "fresh": "fresh"
+  },
+  {
+   "company": "X5 Group",
+   "use": "Robotics and AI for operational efficiency in stores, dark stores, distribution centres, and delivery operations",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.x5.ru/en/news/x5-completes-major-robotisation-project-for-its-distribution-centre-in-moscow-region/",
+   "raw_sector": "",
+   "date": "2026-06-04",
+   "fresh": "fresh"
   }
  ]
 }

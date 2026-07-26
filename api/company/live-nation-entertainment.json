@@ -3,43 +3,62 @@
  "name": "Live Nation Entertainment",
  "cc": "US",
  "vertical": "Telecom",
- "deployments": 1,
- "confirmed": 1,
- "with_value_number": 0,
- "proof_rate": 0.0,
+ "deployments": 3,
+ "confirmed": 2,
+ "with_value_number": 1,
+ "proof_rate": 0.333,
  "mktcap": 41050000000.0,
  "revenue": 25610000000.0,
  "employees": 34700.0,
  "silent": false,
- "per_bn_revenue": 0.04,
- "per_10k_emp": 0.29,
+ "per_bn_revenue": 0.12,
+ "per_10k_emp": 0.86,
  "benchmarks": {
   "global_vertical": {
-   "deployments": 0,
-   "confirmed": 16,
-   "proof_rate": 0,
-   "n": 93
+   "deployments": 6,
+   "confirmed": 9,
+   "proof_rate": 48,
+   "n": 94
   },
   "country_vertical": {
    "deployments": 0,
-   "confirmed": 32,
-   "proof_rate": 0,
+   "confirmed": 9,
+   "proof_rate": 68,
    "n": 23
   }
  },
- "first_seen": null,
- "by_year": [],
- "undated_pct": 100,
- "momentum": "none",
+ "first_seen": 2026,
+ "by_year": [
+  {
+   "year": 2026,
+   "n": 1
+  }
+ ],
+ "undated_pct": 67,
+ "momentum": "late_entrant,rising",
  "maturity": "L3",
  "maturity_evidence": [
   "named_product:Ticketmaster",
+  "value_number",
   "tier_p"
  ],
- "prospect_score": 54,
- "stack": [],
- "vendor_named": false,
+ "prospect_score": 39,
+ "stack": [
+  "Salesforce"
+ ],
+ "vendor_named": true,
  "deployments_detail": [
+  {
+   "company": "Live Nation Entertainment",
+   "use": "AI-powered value-added services for venues and event profitability",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://newsroom.livenation.com/news/live-nation-entertainment-full-year-and-fourth-quarter-2025-results/",
+   "raw_sector": "",
+   "date": "2026-02-19",
+   "fresh": "fresh"
+  },
   {
    "company": "Live Nation Entertainment",
    "use": "AI across fan journey (event discovery, search, purchase, support) at Ticketmaster",
@@ -48,6 +67,17 @@
    "tier": "P",
    "url": "https://business.ticketmaster.com/how-ticketmaster-uses-ai-to-enhance-event-discovery-fan-support-and-experiences/",
    "raw_sector": "Communication Services",
+   "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "Live Nation Entertainment",
+   "use": "AI festival guide agent for attendee support (BottleRock Napa Valley) [Salesforce Agentforce]",
+   "existence": "confirmed",
+   "value": "37,000 unique interactions",
+   "tier": "",
+   "url": "https://www.linkedin.com/posts/kacy-ray_myself-and-our-partnership-team-at-live-nation-activity-7465422641856733184-XOcA",
+   "raw_sector": "",
    "date": "missing",
    "fresh": "undated"
   }

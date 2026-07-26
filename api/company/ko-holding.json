@@ -3,49 +3,66 @@
  "name": "Koç Holding",
  "cc": "TR",
  "vertical": "Manufacturing & Robotics",
- "deployments": 3,
- "confirmed": 2,
- "with_value_number": 2,
+ "deployments": 12,
+ "confirmed": 10,
+ "with_value_number": 8,
  "proof_rate": 0.667,
  "mktcap": 16190000000.0,
  "revenue": 87187500000.0,
  "employees": 122623.0,
  "silent": false,
- "per_bn_revenue": 0.03,
- "per_10k_emp": 0.24,
+ "per_bn_revenue": 0.14,
+ "per_10k_emp": 0.98,
  "benchmarks": {
   "global_vertical": {
-   "deployments": 88,
-   "confirmed": 78,
-   "proof_rate": 83,
-   "n": 147
+   "deployments": 86,
+   "confirmed": 91,
+   "proof_rate": 92,
+   "n": 150
   },
   "country_vertical": {
-   "deployments": 100,
-   "confirmed": 89,
-   "proof_rate": 100,
-   "n": 10
+   "deployments": 90,
+   "confirmed": 90,
+   "proof_rate": 90,
+   "n": 11
   }
  },
- "first_seen": 2024,
+ "first_seen": 2022,
  "by_year": [
   {
-   "year": 2024,
+   "year": 2022,
+   "n": 1
+  },
+  {
+   "year": 2023,
    "n": 2
+  },
+  {
+   "year": 2024,
+   "n": 7
+  },
+  {
+   "year": 2025,
+   "n": 1
   }
  ],
- "undated_pct": 33,
- "momentum": "early_mover,gone_quiet",
- "maturity": "L3",
+ "undated_pct": 8,
+ "momentum": "early_mover,cooling",
+ "maturity": "L4",
  "maturity_evidence": [
   "multi_horizontal",
   "named_product:Group",
   "value_number",
+  "multi_year",
   "tier_p"
  ],
- "prospect_score": 33,
- "stack": [],
- "vendor_named": false,
+ "prospect_score": 73,
+ "stack": [
+  "Microsoft",
+  "Microsoft Azure",
+  "OpenAI"
+ ],
+ "vendor_named": true,
  "deployments_detail": [
   {
    "company": "Koç Holding",
@@ -56,6 +73,61 @@
    "url": "https://cdn.koc.com.tr/cmscontainer/kocholding/media/koc/06medya-merkezi/basin-bültenleri/koc-gpt-basin-bulteni_28032024.pdf",
    "raw_sector": "Conglomerate",
    "date": "2024-03",
+   "fresh": "aging"
+  },
+  {
+   "company": "Koç Holding",
+   "use": "Ford Otosan deployed a hybrid-quantum/AI optimization application in production for vehicle production sequencing on the Ford Transit line (1,500+ variants), cutting scheduling time dramatically. [D-Wave (Leap quantum cloud, annealing)]",
+   "existence": "confirmed",
+   "value": "Scheduling time for 1,000 vehicles/run reduced from 30 minutes to under 5 minutes",
+   "tier": "",
+   "url": "https://www.dwavequantum.com/company/newsroom/press-release/in-production-ford-otosan-deploys-vehicle-manufacturing-application-built-with-d-wave-technology/",
+   "raw_sector": "",
+   "date": "2025-03-31",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Koç Holding",
+   "use": "FireAId — AI/ML wildfire risk prediction and prevention platform built by KoçDigital for Koç Holding, using 400+ variables across 14 datasets, piloted with Turkey's General Directorate of Forestry and showcased at WEF Davos. [KoçDigital (Koç Holding); World Economic Forum AI platform]",
+   "existence": "confirmed",
+   "value": "~86% wildfire-risk prediction accuracy (per Koç); 400+ variables, 14 datasets",
+   "tier": "",
+   "url": "https://kocdigital.com/post/we-mobilized-our-advanced-data-analytics-capabilities-to-support-the-global-fight-against-wildfires",
+   "raw_sector": "",
+   "date": "2023",
+   "fresh": "stale"
+  },
+  {
+   "company": "Koç Holding",
+   "use": "Ford Otosan built predictive digital twins of its new electric-vehicle factory (welding/body, paint shop, assembly) to simulate production shifts, optimize sequencing, robot/operator efficiency and forecast capacity 12+ months ahead. [Haskoning Twinn (Witness Horizon simulation software)]",
+   "existence": "confirmed",
+   "value": "3% cost savings on the proposed EV factory",
+   "tier": "",
+   "url": "https://www.haskoning.com/en/projects/ford-otosan-and-predictive-digital-twins",
+   "raw_sector": "",
+   "date": "2024",
+   "fresh": "aging"
+  },
+  {
+   "company": "Koç Holding",
+   "use": "Tüpraş (Koç refining subsidiary) runs AI algorithms in production for product-efficiency and energy optimization, AI-powered predictive maintenance, and digital-twin systems for emission monitoring; also adopted Microsoft 365 Copilot in its corporate stack. [Microsoft 365 Copilot; Power BI (proprietary AI models otherwise unnamed)]",
+   "existence": "confirmed",
+   "value": "~$18M invested in digital transformation (2024); ~$30M annual efficiency potential",
+   "tier": "",
+   "url": "https://www.tupras.com.tr/en/digitalization",
+   "raw_sector": "",
+   "date": "2024",
+   "fresh": "aging"
+  },
+  {
+   "company": "Koç Holding",
+   "use": "KoçDigital's Platform360 Industrial IoT plus advanced-analytics solutions (demand forecasting, network/inventory/material optimization, remote asset monitoring, manufacturing execution) deployed across Koç Group companies including Ford Otosan, Arçelik, Tüpraş, Koçtaş, Otokoç, Tat and Demir Export. [KoçDigital (Platform360)]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.koc.com.tr/sustainability/grow-the-business-together/dijital-transformation",
+   "raw_sector": "",
+   "date": "2024",
    "fresh": "aging"
   },
   {
@@ -79,6 +151,50 @@
    "raw_sector": "Conglomerate",
    "date": "missing",
    "fresh": "undated"
+  },
+  {
+   "company": "Koç Holding",
+   "use": "KoçGPT — a group-wide generative-AI assistant (ChatGPT alternative) giving ~50,000 office employees access to a corporate GPT model for drafting, summarization, travel planning and knowledge work; a GenAI Excellence Centre under KoçDigital sustains it. [Microsoft Azure OpenAI Service (GPT-4 Turbo)]",
+   "existence": "confirmed",
+   "value": "~50,000 office workers served; 600+ ideas from Boost Your Business Ideathon",
+   "tier": "",
+   "url": "https://www.kocbayi.com.tr/gundem/hayatin-icinden/english-news/kocgpt-koc-holding%E2%80%99s-generative-ai",
+   "raw_sector": "",
+   "date": "2023",
+   "fresh": "stale"
+  },
+  {
+   "company": "Koç Holding",
+   "use": "Group-wide employee service chatbot delivered over WhatsApp, integrated with the 4me ITSM/ESM platform, letting employees self-serve IT (e.g. password resets) and HR requests without VPN via an instant-serving model. [Autom Mate (with 4me ITSM)]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.autommate.com/resources/blog/autommate-koc-holding-success-story/",
+   "raw_sector": "",
+   "date": "2022-10-10",
+   "fresh": "stale"
+  },
+  {
+   "company": "Koç Holding",
+   "use": "BotGen conversational-AI chatbot platform (NLP + deep learning) handling customer conversations on WhatsApp and other channels for Yapı Kredi within the Koç Group, automating the majority of customer interactions end-to-end. [Koç Group (BotGen / Yapı Kredi Teknoloji)]",
+   "existence": "confirmed",
+   "value": "75% of WhatsApp customer meetings start and end with a bot; ~2M messages answered/year; service staff reduced from 50 to 2",
+   "tier": "",
+   "url": "https://www.koc.com.tr/sustainability/grow-the-business-together/dijital-transformation",
+   "raw_sector": "",
+   "date": "2024",
+   "fresh": "aging"
+  },
+  {
+   "company": "Koç Holding",
+   "use": "Smart Worksafe occupational-safety product using AI video analytics to monitor workplace safety, developed within Koç Holding's digital-transformation program. [KoçDigital]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.koc.com.tr/sustainability/grow-the-business-together/dijital-transformation",
+   "raw_sector": "",
+   "date": "2024",
+   "fresh": "aging"
   }
  ]
 }

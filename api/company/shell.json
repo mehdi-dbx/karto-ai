@@ -3,27 +3,27 @@
  "name": "Shell",
  "cc": "UK",
  "vertical": "Energy & Utilities",
- "deployments": 1,
- "confirmed": 1,
- "with_value_number": 0,
- "proof_rate": 0.0,
+ "deployments": 10,
+ "confirmed": 9,
+ "with_value_number": 2,
+ "proof_rate": 0.2,
  "mktcap": 295465500000.0,
  "revenue": 257124200000.0,
  "employees": 84000.0,
  "silent": false,
- "per_bn_revenue": 0.0,
- "per_10k_emp": 0.12,
+ "per_bn_revenue": 0.04,
+ "per_10k_emp": 1.19,
  "benchmarks": {
   "global_vertical": {
-   "deployments": 0,
-   "confirmed": 20,
-   "proof_rate": 0,
-   "n": 210
+   "deployments": 83,
+   "confirmed": 88,
+   "proof_rate": 50,
+   "n": 213
   },
   "country_vertical": {
-   "deployments": 0,
-   "confirmed": 0,
-   "proof_rate": 0,
+   "deployments": 88,
+   "confirmed": 100,
+   "proof_rate": 50,
    "n": 9
   }
  },
@@ -33,11 +33,15 @@
  "momentum": "none",
  "maturity": "L3",
  "maturity_evidence": [
-  "named_product:SparkCognition"
+  "multi_horizontal",
+  "named_product:SparkCognition",
+  "value_number"
  ],
- "prospect_score": 46,
+ "prospect_score": 86,
  "stack": [
-  "C3.ai"
+  "C3.ai",
+  "Databricks",
+  "NVIDIA"
  ],
  "vendor_named": true,
  "deployments_detail": [
@@ -50,6 +54,105 @@
    "url": "https://www.shell.com/what-we-do/digitalisation/artificial-intelligence.html",
    "raw_sector": "Oil & gas producers",
    "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "Shell",
+   "use": "AI and automation for procurement productivity",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.youtube.com/watch?v=nY-PULWTTjM",
+   "raw_sector": "",
+   "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "Shell",
+   "use": "AI risk management for global supply chain",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://supplychaindigital.com/supply-chain-risk-management/shell-adopts-ai-risk-management-across-global-supply-chain",
+   "raw_sector": "",
+   "date": "Mar 22, 2021",
+   "fresh": "undated"
+  },
+  {
+   "company": "Shell",
+   "use": "Generative AI algorithms for data analysis in operations [SparkCognition]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.klover.ai/shell-ai-strategy-analysis-of-ai-dominance-in-energy-sector/",
+   "raw_sector": "",
+   "date": "Jul 17, 2025",
+   "fresh": "undated"
+  },
+  {
+   "company": "Shell",
+   "use": "Multiple AI applications across business operations",
+   "existence": "confirmed",
+   "value": "100",
+   "tier": "",
+   "url": "https://c3.ai/customers/shell",
+   "raw_sector": "",
+   "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "Shell",
+   "use": "AI for demand management at electric car charging stations",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://bernardmarr.com/the-incredible-ways-shell-uses-artificial-intelligence-to-help-transform-the-oil-and-gas-giant/",
+   "raw_sector": "",
+   "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "Shell",
+   "use": "Domain-specific chemistry chatbot built with NVIDIA NeMo, fine-tuned on 154,000 curated chemistry documents [NVIDIA] [NVIDIA]",
+   "existence": "confirmed",
+   "value": "30% increase in accuracy versus non-finetuned base models; 20% faster model training",
+   "tier": "",
+   "url": "https://www.nvidia.com/en-us/case-studies/shell-trains-custom-ai-chatbot-with-nemo/",
+   "raw_sector": "",
+   "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "Shell",
+   "use": "Data Mesh with Unity Catalog governance underpinning analytics and ML [Databricks] [Databricks]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.databricks.com/customers/shell",
+   "raw_sector": "",
+   "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "Shell",
+   "use": "Fraud detection for Shell Card users [The ai Corporation]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.aicorporation.com/news-and-resources/news/shell-extends-collaboration-with-the-ai-corporation",
+   "raw_sector": "",
+   "date": "Sep 20, 2023",
+   "fresh": "undated"
+  },
+  {
+   "company": "Shell",
+   "use": "Generative AI platform for custom application development and deployment",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.shell.com/what-we-do/digitalisation/artificial-intelligence.html",
+   "raw_sector": "",
+   "date": "Nov 3, 2025",
    "fresh": "undated"
   }
  ]

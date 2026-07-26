@@ -3,27 +3,27 @@
  "name": "Swiss Reinsurance Company Ltd",
  "cc": "CH",
  "vertical": "Financial Services",
- "deployments": 1,
- "confirmed": 1,
- "with_value_number": 0,
- "proof_rate": 0.0,
+ "deployments": 10,
+ "confirmed": 8,
+ "with_value_number": 6,
+ "proof_rate": 0.6,
  "mktcap": 43697100000.0,
  "revenue": 42600000000.0,
  "employees": 15238.0,
  "silent": false,
- "per_bn_revenue": 0.02,
- "per_10k_emp": 0.66,
+ "per_bn_revenue": 0.23,
+ "per_10k_emp": 6.56,
  "benchmarks": {
   "global_vertical": {
-   "deployments": 0,
-   "confirmed": 17,
-   "proof_rate": 0,
-   "n": 377
+   "deployments": 65,
+   "confirmed": 67,
+   "proof_rate": 88,
+   "n": 388
   },
   "country_vertical": {
-   "deployments": 0,
-   "confirmed": 25,
-   "proof_rate": 0,
+   "deployments": 25,
+   "confirmed": 50,
+   "proof_rate": 75,
    "n": 5
   }
  },
@@ -31,20 +31,29 @@
  "by_year": [
   {
    "year": 2024,
-   "n": 1
+   "n": 3
+  },
+  {
+   "year": 2025,
+   "n": 7
   }
  ],
  "undated_pct": 0,
- "momentum": "early_mover,gone_quiet",
- "maturity": "L3",
+ "momentum": "early_mover,rising",
+ "maturity": "L4",
  "maturity_evidence": [
+  "multi_horizontal",
   "named_product:Life",
+  "value_number",
+  "multi_year",
   "tier_p"
  ],
- "prospect_score": 46,
+ "prospect_score": 64,
  "stack": [
+  "Microsoft",
   "Microsoft Azure",
-  "OpenAI"
+  "OpenAI",
+  "Palantir"
  ],
  "vendor_named": true,
  "deployments_detail": [
@@ -58,6 +67,105 @@
    "raw_sector": "Financials",
    "date": "2024-04",
    "fresh": "aging"
+  },
+  {
+   "company": "Swiss Reinsurance Company Ltd",
+   "use": "Life Guide Scout: Generative AI-powered underwriting assistant embedded in Swiss Re's Life Guide manual, letting L&H underwriters ask natural-language questions and get sourced, cited answers from curated expert knowledge in seconds to speed risk assessment. [Microsoft Azure OpenAI Service]",
+   "existence": "confirmed",
+   "value": "Life Guide serves 100+ countries with 23M+ annual hits; cardiovascular risk calculator used ~every 5 seconds",
+   "tier": "",
+   "url": "https://www.swissre.com/press-release/Swiss-Re-launches-Swiss-Re-Life-Guide-Scout-a-Generative-AI-powered-underwriting-assistant/d0d00d41-755c-4f0b-8bba-95a39b6fc21d",
+   "raw_sector": "",
+   "date": "2024-04-22",
+   "fresh": "aging"
+  },
+  {
+   "company": "Swiss Reinsurance Company Ltd",
+   "use": "ClaimsGenAI: AI-powered commercial claims-handling platform in Swiss Re Corporate Solutions that processes unstructured claims documents to triage, flag fraud risks, and surface third-party recovery opportunities, with an AI chatbot for claims guidance. [none]",
+   "existence": "confirmed",
+   "value": "1,000+ alerts for potential irregularities in first year; hundreds of third-party recovery opportunities; fraud savings pipeline potentially worth millions",
+   "tier": "",
+   "url": "https://www.swissre.com/risk-knowledge/advancing-societal-benefits-digitalisation/how-generative-ai-is-transforming-insurance-claims-claimsgenai.html",
+   "raw_sector": "",
+   "date": "2025-06-20",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Swiss Reinsurance Company Ltd",
+   "use": "Underwriting Ease (MagnumXP Underwriting Assistant): AI platform that uses OCR, NLP and LLMs to extract and standardize applicant data from referred life-insurance cases (health records, physician statements, lab results, MVRs, prescription histories) into a single underwriter dashboard. [none]",
+   "existence": "confirmed",
+   "value": "Up to 50% reduction in manual underwriting workload; 90% straight-through processing in some markets, ~75% globally",
+   "tier": "",
+   "url": "https://www.insurancebusinessmag.com/reinsurance/news/breaking-news/swiss-re-launches-aipowered-underwriting-ease-to-streamline-life-insurance-reviews-546156.aspx",
+   "raw_sector": "",
+   "date": "2025-08-14",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Swiss Reinsurance Company Ltd",
+   "use": "Palantir Foundry data & analytics platform used to consolidate data silos and apply machine learning for risk modeling, automated pipelines, and pattern detection in historical claims data across underwriters, actuaries and technical teams. [Palantir (Foundry)]",
+   "existence": "confirmed",
+   "value": "170% ROI, 7.3-month payback; 70-80% reduction in reporting time; 30% underwriting time savings; 50% data engineer productivity gain",
+   "tier": "",
+   "url": "https://nucleusresearch.com/research/single/roi-case-study-palantir-at-swiss-re/",
+   "raw_sector": "",
+   "date": "2025-03-14",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Swiss Reinsurance Company Ltd",
+   "use": "Appian Connected Underwriting Life Workbench integrated with Swiss Re's Magnum rules engine: a single-interface underwriting workbench with AI-assistance and intelligent automation embedding underwriting/risk rules to drive straight-through processing across multiple data sources. [Appian (with Swiss Re Magnum)]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://appian.com/about/explore/press-releases/2024/appian-and-swiss-re-extend-partnership",
+   "raw_sector": "",
+   "date": "2024-05-31",
+   "fresh": "aging"
+  },
+  {
+   "company": "Swiss Reinsurance Company Ltd",
+   "use": "MagnumXP Assessment Engine: automated life & health underwriting engine that ingests structured/unstructured data and delivers near-immediate automated coverage decisions, complemented by AI models and advanced analytics. [none]",
+   "existence": "confirmed",
+   "value": "~75% of applications process through automated underwriting globally, up to 90% in some markets",
+   "tier": "",
+   "url": "https://www.swissre.com/risk-knowledge/advancing-societal-benefits-digitalisation/reimagining-life-insurance-underwriting.html",
+   "raw_sector": "",
+   "date": "2025-08-13",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Swiss Reinsurance Company Ltd",
+   "use": "Palantir-powered agentic AI platform at the center of Swiss Re's new strategy, combining automation, ontologies, vector management, simulation and workflow orchestration to embed predictive and generative AI across underwriting, claims and operational decision-making. [Palantir]",
+   "existence": "claimed",
+   "value": "85%+ staff adopting new technologies (~30pp above industry average)",
+   "tier": "",
+   "url": "https://www.reinsurancene.ws/swiss-re-puts-palantir-powered-ai-at-heart-of-new-strategy/",
+   "raw_sector": "",
+   "date": "2025-12-05",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Swiss Reinsurance Company Ltd",
+   "use": "Sigma Explorer: AI-powered data portal built with EPAM for the Swiss Re Institute, providing conversational 'talk-to-your-data' exploration of insurance/reinsurance research data to boost operational efficiency and data discovery. [EPAM Systems]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.epam.com/services/client-work/a-new-era-for-insurance-data",
+   "raw_sector": "",
+   "date": "2025-11-10",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Swiss Reinsurance Company Ltd",
+   "use": "AI-assisted coding tools used by Swiss Re engineering/technology teams to improve software development productivity, as part of the company's day-to-day AI adoption. [none]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.reinsurancene.ws/swiss-re-puts-palantir-powered-ai-at-heart-of-new-strategy/",
+   "raw_sector": "",
+   "date": "2025-12-05",
+   "fresh": "fresh"
   }
  ]
 }

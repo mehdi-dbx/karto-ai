@@ -3,47 +3,71 @@
  "name": "Sberbank",
  "cc": "RU",
  "vertical": "Financial Services",
- "deployments": 2,
- "confirmed": 2,
- "with_value_number": 1,
- "proof_rate": 0.5,
+ "deployments": 12,
+ "confirmed": 12,
+ "with_value_number": 9,
+ "proof_rate": 0.75,
  "mktcap": null,
  "revenue": 40000000000.0,
  "employees": 281000.0,
  "silent": false,
- "per_bn_revenue": 0.05,
- "per_10k_emp": 0.07,
+ "per_bn_revenue": 0.3,
+ "per_10k_emp": 0.43,
  "benchmarks": {
   "global_vertical": {
-   "deployments": 62,
-   "confirmed": 73,
-   "proof_rate": 61,
-   "n": 377
+   "deployments": 81,
+   "confirmed": 90,
+   "proof_rate": 96,
+   "n": 388
   },
   "country_vertical": {
-   "deployments": 43,
-   "confirmed": 57,
-   "proof_rate": 86,
+   "deployments": 100,
+   "confirmed": 100,
+   "proof_rate": 100,
    "n": 8
   }
  },
- "first_seen": 2026,
+ "first_seen": 2016,
  "by_year": [
   {
-   "year": 2026,
+   "year": 2016,
    "n": 1
+  },
+  {
+   "year": 2020,
+   "n": 1
+  },
+  {
+   "year": 2023,
+   "n": 2
+  },
+  {
+   "year": 2024,
+   "n": 2
+  },
+  {
+   "year": 2025,
+   "n": 2
+  },
+  {
+   "year": 2026,
+   "n": 3
   }
  ],
- "undated_pct": 50,
- "momentum": "late_entrant,rising",
- "maturity": "L3",
+ "undated_pct": 8,
+ "momentum": "early_mover,rising",
+ "maturity": "L4",
  "maturity_evidence": [
+  "multi_horizontal",
   "named_product:GigaChat",
   "value_number",
+  "multi_year",
   "tier_p"
  ],
- "prospect_score": 32,
- "stack": [],
+ "prospect_score": 70,
+ "stack": [
+  "OpenAI"
+ ],
  "vendor_named": true,
  "deployments_detail": [
   {
@@ -67,6 +91,116 @@
    "raw_sector": "Banking",
    "date": "missing",
    "fresh": "undated"
+  },
+  {
+   "company": "Sberbank",
+   "use": "GigaChat, Sber's in-house generative LLM family, deployed as a public multimodal assistant (text, code, images, music) and offered to enterprises via API and on-prem. Positioned as a ChatGPT rival built in Russia. [Sberbank (in-house GigaChat)]",
+   "existence": "confirmed",
+   "value": "over 2.5 million users by February 2024",
+   "tier": "",
+   "url": "https://en.wikipedia.org/wiki/GigaChat",
+   "raw_sector": "",
+   "date": "2023-04-24",
+   "fresh": "stale"
+  },
+  {
+   "company": "Sberbank",
+   "use": "AI-driven credit scoring and automated loan decisioning; retail consumer lending decisions fully automated, and corporate loan approval time cut dramatically via ML models. [Sberbank (in-house)]",
+   "existence": "confirmed",
+   "value": "100% of consumer loan decisions automated; corporate loan approval reduced to ~7 minutes; overall AI financial effect ~RUB 350 bn (2023)",
+   "tier": "",
+   "url": "https://www.klover.ai/sberbank-ai-strategy-analysis-of-dominance-in-banking-ai/",
+   "raw_sector": "",
+   "date": "2025-07-28",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Sberbank",
+   "use": "AI diagnostic assistants co-developed by Sber and the Moscow Government that analyze patient data in parallel with physicians to produce preliminary and final diagnoses, deployed across Moscow medical facilities. [Sber (SberMedAI) with Moscow Government]",
+   "existence": "confirmed",
+   "value": "more than 17 million preliminary and final diagnoses made using AI (Oct 2024)",
+   "tier": "",
+   "url": "https://www.mos.ru/en/news/item/145399073/",
+   "raw_sector": "",
+   "date": "2024-10-24",
+   "fresh": "aging"
+  },
+  {
+   "company": "Sberbank",
+   "use": "Kandinsky text-to-image generative AI model (latent diffusion), developed by Sber/AIRI and integrated into GigaChat; publicly available image (and 3D) generation product. [Sber / AIRI (Kandinsky)]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://news.hamidun.com/en/news/7461/sber-launches-kandinsky-6-image-image-generator-gets-faster",
+   "raw_sector": "",
+   "date": "2026-04-29",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Sberbank",
+   "use": "GigaChat-based personal AI assistant for corporate contact-center operators: analyzes conversations, retrieves answers from the SberHelp knowledge base, summarizes, recommends responses, and scores service quality. [Sberbank (GigaChat for Business)]",
+   "existence": "confirmed",
+   "value": "available to 40% of operators (full rollout by end-2024); CSI +2 pp; operator productivity +7%; ~20% of AI suggestions used (up to 45% on some lines)",
+   "tier": "",
+   "url": "https://www.cnews.ru/news/line/2024-11-07_sber_vnedril_gigachat_v_kontaktnyj",
+   "raw_sector": "",
+   "date": "2024-11-07",
+   "fresh": "aging"
+  },
+  {
+   "company": "Sberbank",
+   "use": "AI system for call-center operators that analyzes calls to evaluate and improve service quality, used for staff motivation and coaching. [Sberbank (in-house)]",
+   "existence": "confirmed",
+   "value": "deployed with more than 11,000 operators",
+   "tier": "",
+   "url": "https://www.sberbank.ru/en/press_center/all/article?newsID=4070193c-ecf5-45a9-9bd3-38b68c97bb1c&blockID=1539&regionID=77&lang=en&type=NEWS",
+   "raw_sector": "",
+   "date": "2020-10-09",
+   "fresh": "stale"
+  },
+  {
+   "company": "Sberbank",
+   "use": "Anti-fraud / transaction-monitoring platform using 100+ machine-learning models and algorithms to score transactions and detect anomalies across all customer channels in real time (1 ms response). [Sberbank (in-house, incl. BigSecurityData)]",
+   "existence": "confirmed",
+   "value": "99% fraud detection rate; more than 258.8 billion rubles of cyber fraud prevented since 2016; processes 4.6 billion transactions monthly / 450 million events daily",
+   "tier": "",
+   "url": "https://cybersecurity-excellence-awards.com/candidates/sberbank-anti-fraud-system/",
+   "raw_sector": "",
+   "date": "2016-01-01",
+   "fresh": "stale"
+  },
+  {
+   "company": "Sberbank",
+   "use": "GigaChat-powered AI assistant embedded in SberBusiness that analyzes company data, answers questions and recommends solutions to help corporate clients run and scale their business. [Sberbank (GigaChat)]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.sberbank.ru/en/press_center/all/article?newsID=6a8f12f7-1d2f-4f5a-bdd1-11aed8bcc26d&blockID=1539&regionID=77&lang=en&type=N",
+   "raw_sector": "",
+   "date": "2026-06-03",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Sberbank",
+   "use": "Multi-agent AI system used internally to analyze roles and identify inefficient positions, driving a large workforce reduction (back-office/operations automation). [Sberbank (in-house multi-agent AI)]",
+   "existence": "confirmed",
+   "value": "20% of analyzed staff cut; headcount fell from 308,092 (end-2024) to 294,578 (Sep 30, 2025)",
+   "tier": "",
+   "url": "https://www.themoscowtimes.com/2025/11/20/sberbank-using-ai-to-cut-20-of-staff-by-end-of-2025-gref-says-a91184",
+   "raw_sector": "",
+   "date": "2025-11-20",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Sberbank",
+   "use": "GigaCode, Sber's GigaChat-based AI coding assistant that auto-completes code in real time for software developers; opened to developers outside Sber (also via GigaIDE / GitVerse). [Sberbank (GigaCode / GigaChat)]",
+   "existence": "confirmed",
+   "value": "~25% faster coding (per Sber AI strategy analysis)",
+   "tier": "",
+   "url": "https://www.sberbank.ru/en/press_center/all/article?newsID=4cb3cf3f-6e94-4440-9575-adf14530c09a&blockID=1539&regionID=77&lang=en&type=NEWS",
+   "raw_sector": "",
+   "date": "2023-09-21",
+   "fresh": "stale"
   }
  ]
 }

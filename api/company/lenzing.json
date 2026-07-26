@@ -3,22 +3,22 @@
  "name": "Lenzing",
  "cc": "AT",
  "vertical": "Manufacturing & Robotics",
- "deployments": 2,
- "confirmed": 1,
+ "deployments": 4,
+ "confirmed": 3,
  "with_value_number": 0,
  "proof_rate": 0.0,
  "mktcap": 1051034400.0,
  "revenue": 2808000000.0,
  "employees": 7589.0,
  "silent": false,
- "per_bn_revenue": 0.71,
- "per_10k_emp": 2.64,
+ "per_bn_revenue": 1.42,
+ "per_10k_emp": 5.27,
  "benchmarks": {
   "global_vertical": {
-   "deployments": 64,
-   "confirmed": 24,
+   "deployments": 42,
+   "confirmed": 50,
    "proof_rate": 0,
-   "n": 147
+   "n": 150
   }
  },
  "first_seen": 2025,
@@ -28,14 +28,15 @@
    "n": 1
   }
  ],
- "undated_pct": 50,
+ "undated_pct": 75,
  "momentum": "rising",
  "maturity": "L3",
  "maturity_evidence": [
+  "multi_horizontal",
   "named_product:Company",
   "tier_p"
  ],
- "prospect_score": 46,
+ "prospect_score": 58,
  "stack": [
   "SAP"
  ],
@@ -54,6 +55,17 @@
   },
   {
    "company": "Lenzing",
+   "use": "AI-based solutions in production facilities for acceleration",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://reports.lenzing.com/annual-and-sustainability-report/2025/management-report/research-and-development.html",
+   "raw_sector": "",
+   "date": "Mar 19, 2026",
+   "fresh": "undated"
+  },
+  {
+   "company": "Lenzing",
    "use": "AI, GPS sensors and ML (project44 + SAP) for real-time supply-chain tracking and transparency of fiber orders from shipment status to vessel route",
    "existence": "claimed",
    "value": "none",
@@ -61,6 +73,17 @@
    "url": "https://www.eqs-news.com",
    "raw_sector": "Chemicals",
    "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "Lenzing",
+   "use": "Supply chain transparency combining real-time shipment tracking and carbon visibility",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.lenzing.com/newsroom/news-events/lenzing-takes-supply-chain-transparency-to-next-level-by-combining-real-time-shipment-tracking-and-carbon-visibility/",
+   "raw_sector": "",
+   "date": "Sep 18, 2023",
    "fresh": "undated"
   }
  ]

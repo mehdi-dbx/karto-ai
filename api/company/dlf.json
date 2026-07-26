@@ -3,35 +3,58 @@
  "name": "DLF",
  "cc": "IN",
  "vertical": "Real Estate & Construction",
- "deployments": 1,
- "confirmed": 0,
- "with_value_number": 0,
- "proof_rate": 0.0,
+ "deployments": 9,
+ "confirmed": 5,
+ "with_value_number": 2,
+ "proof_rate": 0.222,
  "mktcap": 19397590361.0,
  "revenue": 987228916.0,
  "employees": 4310.0,
  "silent": false,
- "per_bn_revenue": 1.01,
- "per_10k_emp": 2.32,
+ "per_bn_revenue": 9.12,
+ "per_10k_emp": 20.88,
  "benchmarks": {
   "global_vertical": {
-   "deployments": 0,
-   "confirmed": 0,
-   "proof_rate": 0,
+   "deployments": 80,
+   "confirmed": 75,
+   "proof_rate": 56,
    "n": 154
   }
  },
- "first_seen": null,
- "by_year": [],
- "undated_pct": 100,
- "momentum": "none",
- "maturity": "L1",
- "maturity_evidence": [
-  "rows_no_confirmed"
+ "first_seen": 2017,
+ "by_year": [
+  {
+   "year": 2017,
+   "n": 1
+  },
+  {
+   "year": 2018,
+   "n": 1
+  },
+  {
+   "year": 2025,
+   "n": 4
+  },
+  {
+   "year": 2026,
+   "n": 2
+  }
  ],
- "prospect_score": 40,
- "stack": [],
- "vendor_named": false,
+ "undated_pct": 11,
+ "momentum": "early_mover,rising",
+ "maturity": "L4",
+ "maturity_evidence": [
+  "multi_horizontal",
+  "named_product:DLF",
+  "value_number",
+  "multi_year"
+ ],
+ "prospect_score": 61,
+ "stack": [
+  "IBM",
+  "Microsoft"
+ ],
+ "vendor_named": true,
  "deployments_detail": [
   {
    "company": "DLF",
@@ -43,6 +66,94 @@
    "raw_sector": "Realty",
    "date": "missing",
    "fresh": "undated"
+  },
+  {
+   "company": "DLF",
+   "use": "AI-powered digital twins / 3D visualization to digitize DLF's entire rent-yielding commercial portfolio, using Matterport's proprietary AI to analyze properties at scale for space planning and leasing. [Matterport]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.linkedin.com/posts/proptechbuzz_proptech-realestate-3dvisualization-activity-7436730130615402496-Whw7",
+   "raw_sector": "",
+   "date": "2026",
+   "fresh": "fresh"
+  },
+  {
+   "company": "DLF",
+   "use": "AI-powered smart-home control for lighting, temperature and security in DLF Camellias ultra-luxury residences (technology upgrade being rolled out). [none]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://ysrealty.co.in/dlf-camellias/",
+   "raw_sector": "",
+   "date": "2025",
+   "fresh": "fresh"
+  },
+  {
+   "company": "DLF",
+   "use": "AI-powered smart mirrors and AR virtual try-on across DLF malls (DLF Mall of India, DLF Promenade, DLF Avenue) for the '100 Looks, 1 Summer' phygital fashion campaign, enabling real-time virtual styling, outfit visualization and in-mall item location; results sent to shoppers via WhatsApp. [ORBO.ai]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.retail4growth.com/projects/lite/dlf-malls-curate-100-summer-looks-with-an-immersive-phygital-experience-7965",
+   "raw_sector": "",
+   "date": "2026-04",
+   "fresh": "fresh"
+  },
+  {
+   "company": "DLF",
+   "use": "'Lukout' phygital shopping application for DLF Shopping Malls (billed as India's first) offering highly personalized, proximity-based engaging content on latest looks and trends to mall shoppers. [none]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.bwdisrupt.com/article/dlf-shopping-malls-unveils-indias-first-phygital-application-lukout-159483",
+   "raw_sector": "",
+   "date": "2018-09",
+   "fresh": "stale"
+  },
+  {
+   "company": "DLF",
+   "use": "'Huber' AI-based virtual concierge chatbot for DLF Cyber Hub 2.0 (on Facebook Messenger) that uses NLP and continuous machine learning to answer visitor questions on restaurants, cuisines, store hours, ratings and promotions, plus virtual queuing, table reservations and waiter calls. [Social Cloud Ventures (Social Recharge)]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.dqindia.com/dlf-launches-cyber-hub-2-0-with-huber/",
+   "raw_sector": "",
+   "date": "2017-09",
+   "fresh": "stale"
+  },
+  {
+   "company": "DLF",
+   "use": "DLF Mall Rewards loyalty program using an AI chatbot for mall-preference selection and OCR extraction to automatically read bill details, plus behavior-based segmentation for targeted offers. [Capillary Technologies]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://letstalkloyalty.com/dlf-mall-rewards-loyalty-program/",
+   "raw_sector": "",
+   "date": "2025-12",
+   "fresh": "fresh"
+  },
+  {
+   "company": "DLF",
+   "use": "AI-driven building operations across DLF Gurugram/Cyber City offices: AI predictive maintenance for infrastructure, AI-powered occupancy sensors optimizing space and energy, AI virtual assistants in smart meeting rooms, and AI chatbots for tenant/employee assistance. [none]",
+   "existence": "confirmed",
+   "value": "30% reduction in operational costs; 25% increase in employee efficiency (per DLF)",
+   "tier": "",
+   "url": "https://www.dlf.in/offices/blog/digital-workplace-revolution-inside-gurgaons-dlf-ecosystem",
+   "raw_sector": "",
+   "date": "2025",
+   "fresh": "fresh"
+  },
+  {
+   "company": "DLF",
+   "use": "Migration of DLF's enterprise content from IBM FileNet P8 to SharePoint Online using Proventeq's Migration Accelerator to discover, analyze and migrate content, marketed as AI-powered enriched content management. [Proventeq (Microsoft SharePoint Online)]",
+   "existence": "claimed",
+   "value": "35% reduction in licensing costs; 2.4M content items",
+   "tier": "",
+   "url": "https://www.linkedin.com/posts/proventeq-ltd_digitaltransformation-datamigration-contentmanagement-activity-7407410575359516672-XZSQ",
+   "raw_sector": "",
+   "date": "2025",
+   "fresh": "fresh"
   }
  ]
 }

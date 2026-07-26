@@ -3,27 +3,27 @@
  "name": "Naver",
  "cc": "KR",
  "vertical": "Telecom",
- "deployments": 1,
- "confirmed": 1,
- "with_value_number": 1,
- "proof_rate": 1.0,
+ "deployments": 5,
+ "confirmed": 3,
+ "with_value_number": 2,
+ "proof_rate": 0.4,
  "mktcap": 24385185185.0,
  "revenue": 8918518519.0,
  "employees": 4390.0,
  "silent": false,
- "per_bn_revenue": 0.11,
- "per_10k_emp": 2.28,
+ "per_bn_revenue": 0.56,
+ "per_10k_emp": 11.39,
  "benchmarks": {
   "global_vertical": {
-   "deployments": 0,
-   "confirmed": 16,
-   "proof_rate": 78,
-   "n": 93
+   "deployments": 19,
+   "confirmed": 24,
+   "proof_rate": 62,
+   "n": 94
   },
   "country_vertical": {
-   "deployments": 0,
-   "confirmed": 0,
-   "proof_rate": 56,
+   "deployments": 33,
+   "confirmed": 44,
+   "proof_rate": 67,
    "n": 10
   }
  },
@@ -33,11 +33,12 @@
  "momentum": "none",
  "maturity": "L3",
  "maturity_evidence": [
+  "multi_horizontal",
   "named_product:HyperCLOVA",
   "value_number",
   "tier_p"
  ],
- "prospect_score": 14,
+ "prospect_score": 50,
  "stack": [],
  "vendor_named": false,
  "deployments_detail": [
@@ -50,6 +51,50 @@
    "url": "https://html.duckduckgo.com/html/?q=네이버+AI+하이퍼클로바",
    "raw_sector": "Communication Services",
    "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "Naver",
+   "use": "Generative AI-powered search service [HyperCLOVA X]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.reuters.com/technology/south-koreas-naver-launches-generative-ai-services-2023-08-24/",
+   "raw_sector": "",
+   "date": "Aug 24, 2023",
+   "fresh": "undated"
+  },
+  {
+   "company": "Naver",
+   "use": "Tech Impact area AI technology expansion",
+   "existence": "claimed",
+   "value": "KRW 22.9 billion",
+   "tier": "",
+   "url": "https://www.navercorp.com/en/media/pressReleasesDetail?seq",
+   "raw_sector": "",
+   "date": "Jun 25, 2026",
+   "fresh": "undated"
+  },
+  {
+   "company": "Naver",
+   "use": "AI product listing assistant for e-commerce sellers [HyperCLOVA X]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://clova.ai/en/hyperclova",
+   "raw_sector": "",
+   "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "Naver",
+   "use": "AI writing tool for emails and blog posts [HyperCLOVA X]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.cnbc.com/amp/2023/08/24/south-koreas-naver-launches-generative-ai-services-to-compete-with-chatgpt.html",
+   "raw_sector": "",
+   "date": "Aug 24, 2023",
    "fresh": "undated"
   }
  ]

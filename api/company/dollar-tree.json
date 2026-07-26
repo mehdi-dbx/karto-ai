@@ -3,27 +3,27 @@
  "name": "Dollar Tree",
  "cc": "US",
  "vertical": "Retail & E-commerce",
- "deployments": 1,
- "confirmed": 0,
- "with_value_number": 0,
- "proof_rate": 0.0,
+ "deployments": 5,
+ "confirmed": 1,
+ "with_value_number": 1,
+ "proof_rate": 0.2,
  "mktcap": 22670000000.0,
  "revenue": 19750000000.0,
  "employees": 153032.0,
  "silent": false,
- "per_bn_revenue": 0.05,
- "per_10k_emp": 0.07,
+ "per_bn_revenue": 0.25,
+ "per_10k_emp": 0.33,
  "benchmarks": {
   "global_vertical": {
-   "deployments": 0,
-   "confirmed": 0,
-   "proof_rate": 0,
-   "n": 295
+   "deployments": 39,
+   "confirmed": 9,
+   "proof_rate": 45,
+   "n": 301
   },
   "country_vertical": {
-   "deployments": 0,
-   "confirmed": 0,
-   "proof_rate": 0,
+   "deployments": 23,
+   "confirmed": 5,
+   "proof_rate": 43,
    "n": 80
   }
  },
@@ -34,13 +34,14 @@
    "n": 1
   }
  ],
- "undated_pct": 0,
+ "undated_pct": 80,
  "momentum": "rising",
- "maturity": "L1",
+ "maturity": "L3",
  "maturity_evidence": [
-  "rows_no_confirmed"
+  "named_product:HVAC",
+  "value_number"
  ],
- "prospect_score": 40,
+ "prospect_score": 46,
  "stack": [],
  "vendor_named": false,
  "deployments_detail": [
@@ -54,6 +55,50 @@
    "raw_sector": "Consumer Staples",
    "date": "2025",
    "fresh": "fresh"
+  },
+  {
+   "company": "Dollar Tree",
+   "use": "HVAC energy optimization and emissions reduction [BrainBox AI]",
+   "existence": "confirmed",
+   "value": "$1,028,159",
+   "tier": "",
+   "url": "https://brainboxai.com/en/case-studies/dollar-tree-unlocks-major-energy-and-emissions-savings-with-brainbox-ai",
+   "raw_sector": "",
+   "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "Dollar Tree",
+   "use": "AI-powered supply chain and distribution systems",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.supplychaindive.com/news/dollar-tree-distribution-network-expansion-inventory-discipline/815467/",
+   "raw_sector": "",
+   "date": "Mar 30, 2026",
+   "fresh": "undated"
+  },
+  {
+   "company": "Dollar Tree",
+   "use": "AI in training videos",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.reddit.com/r/DollarTree/comments/1jm3yc6/anyone_else_notice_the_ai_in_our_training_videos/",
+   "raw_sector": "",
+   "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "Dollar Tree",
+   "use": "AI in hiring",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://conversationsonretail.com/dollar-trees-cultural-shift-from-one-dollar-roots-to-an-ai-driven-future/",
+   "raw_sector": "",
+   "date": "Oct 23, 2025",
+   "fresh": "undated"
   }
  ]
 }

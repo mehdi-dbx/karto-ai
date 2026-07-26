@@ -3,27 +3,27 @@
  "name": "Nikon Corp.",
  "cc": "JP",
  "vertical": "Industrial / Machinery",
- "deployments": 2,
- "confirmed": 2,
+ "deployments": 4,
+ "confirmed": 3,
  "with_value_number": 2,
- "proof_rate": 1.0,
+ "proof_rate": 0.5,
  "mktcap": 4879866667.0,
  "revenue": 4514400000.0,
  "employees": 19928.0,
  "silent": false,
- "per_bn_revenue": 0.44,
- "per_10k_emp": 1.0,
+ "per_bn_revenue": 0.89,
+ "per_10k_emp": 2.01,
  "benchmarks": {
   "global_vertical": {
-   "deployments": 82,
-   "confirmed": 82,
-   "proof_rate": 79,
-   "n": 175
+   "deployments": 23,
+   "confirmed": 39,
+   "proof_rate": 94,
+   "n": 176
   },
   "country_vertical": {
-   "deployments": 69,
-   "confirmed": 69,
-   "proof_rate": 73,
+   "deployments": 27,
+   "confirmed": 35,
+   "proof_rate": 85,
    "n": 27
   }
  },
@@ -31,7 +31,7 @@
  "by_year": [
   {
    "year": 2023,
-   "n": 1
+   "n": 2
   }
  ],
  "undated_pct": 50,
@@ -42,7 +42,7 @@
   "value_number",
   "tier_p"
  ],
- "prospect_score": 20,
+ "prospect_score": 46,
  "stack": [],
  "vendor_named": false,
  "deployments_detail": [
@@ -65,6 +65,28 @@
    "tier": "P",
    "url": "https://enterprisezine.jp/article/detail/22714",
    "raw_sector": "Precision Instruments",
+   "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "Nikon Corp.",
+   "use": "3D printing software for additive manufacturing [Ai Build Limited]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.nikon.com/company/news/2023/1019_01/",
+   "raw_sector": "",
+   "date": "2023-10-19",
+   "fresh": "stale"
+  },
+  {
+   "company": "Nikon Corp.",
+   "use": "AI-based processing tools for predictive imaging and image segmentation using convolutional neural networks",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.microscope.healthcare.nikon.com/about/news/nikon-announces-artificial-intelligence-ai-for-predictive-imaging-image-segmentation-and-processing",
+   "raw_sector": "",
    "date": "missing",
    "fresh": "undated"
   }

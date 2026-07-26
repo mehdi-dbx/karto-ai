@@ -3,22 +3,22 @@
  "name": "Erste Group Bank",
  "cc": "AT",
  "vertical": "Financial Services",
- "deployments": 1,
- "confirmed": 1,
- "with_value_number": 0,
- "proof_rate": 0.0,
+ "deployments": 6,
+ "confirmed": 6,
+ "with_value_number": 1,
+ "proof_rate": 0.167,
  "mktcap": 48664800000.0,
  "revenue": 12960000000.0,
  "employees": 55431.0,
  "silent": false,
- "per_bn_revenue": 0.08,
- "per_10k_emp": 0.18,
+ "per_bn_revenue": 0.46,
+ "per_10k_emp": 1.08,
  "benchmarks": {
   "global_vertical": {
-   "deployments": 0,
-   "confirmed": 17,
-   "proof_rate": 0,
-   "n": 377
+   "deployments": 44,
+   "confirmed": 55,
+   "proof_rate": 35,
+   "n": 388
   }
  },
  "first_seen": 2023,
@@ -28,14 +28,16 @@
    "n": 1
   }
  ],
- "undated_pct": 0,
+ "undated_pct": 83,
  "momentum": "early_mover,gone_quiet",
  "maturity": "L3",
  "maturity_evidence": [
+  "multi_horizontal",
   "named_product:Financial",
+  "value_number",
   "tier_p"
  ],
- "prospect_score": 46,
+ "prospect_score": 69,
  "stack": [
   "OpenAI"
  ],
@@ -51,6 +53,61 @@
    "raw_sector": "Banks",
    "date": "2023-10",
    "fresh": "stale"
+  },
+  {
+   "company": "Erste Group Bank",
+   "use": "Financial AI chatbot for customer queries",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.erstegroup.com/en/news-media/press-releases/2023/10/05/erste-bank-launches-austrias-first-financial-ai",
+   "raw_sector": "",
+   "date": "Oct 5, 2023",
+   "fresh": "undated"
+  },
+  {
+   "company": "Erste Group Bank",
+   "use": "Legal AI deployment [Legora]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://legora.com/customers/setting-the-new-standard-for-ai-in-banking-inside-erste-group%E2%80%99s-landmark-collaboration-with-legora",
+   "raw_sector": "",
+   "date": "Dec 10, 2025",
+   "fresh": "undated"
+  },
+  {
+   "company": "Erste Group Bank",
+   "use": "Synthetic data platform for digital transformation [MOSTLY AI]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://mostly.ai/news/erste-group-embraces-synthetic-data",
+   "raw_sector": "",
+   "date": "Mar 23, 2021",
+   "fresh": "undated"
+  },
+  {
+   "company": "Erste Group Bank",
+   "use": "Customized pricing and limit strategies optimization [FICO]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.fico.com/en/newsroom/erste-group-offers-tailored-financing-solutions-across-countries-using-fico-ai",
+   "raw_sector": "",
+   "date": "Apr 20, 2026",
+   "fresh": "undated"
+  },
+  {
+   "company": "Erste Group Bank",
+   "use": "AI-driven personalization for advisor-client interactions [DataSentics]",
+   "existence": "confirmed",
+   "value": "1000",
+   "tier": "",
+   "url": "https://datasentics.com/case-studies/improving-advisor-outreach-with-ai-personalization-at-erste",
+   "raw_sector": "",
+   "date": "missing",
+   "fresh": "undated"
   }
  ]
 }

@@ -3,42 +3,54 @@
  "name": "Cognizant",
  "cc": "US",
  "vertical": "Technology",
- "deployments": 1,
- "confirmed": 1,
- "with_value_number": 0,
- "proof_rate": 0.0,
+ "deployments": 7,
+ "confirmed": 2,
+ "with_value_number": 1,
+ "proof_rate": 0.143,
  "mktcap": 20150000000.0,
  "revenue": 21410000000.0,
  "employees": 351600.0,
  "silent": false,
- "per_bn_revenue": 0.05,
- "per_10k_emp": 0.03,
+ "per_bn_revenue": 0.33,
+ "per_10k_emp": 0.2,
  "benchmarks": {
   "global_vertical": {
-   "deployments": 0,
-   "confirmed": 6,
-   "proof_rate": 0,
-   "n": 156
+   "deployments": 42,
+   "confirmed": 11,
+   "proof_rate": 42,
+   "n": 159
   },
   "country_vertical": {
-   "deployments": 0,
-   "confirmed": 4,
-   "proof_rate": 0,
+   "deployments": 34,
+   "confirmed": 7,
+   "proof_rate": 49,
    "n": 74
   }
  },
- "first_seen": null,
- "by_year": [],
- "undated_pct": 100,
- "momentum": "none",
+ "first_seen": 2025,
+ "by_year": [
+  {
+   "year": 2025,
+   "n": 2
+  },
+  {
+   "year": 2026,
+   "n": 1
+  }
+ ],
+ "undated_pct": 57,
+ "momentum": "early_mover,rising",
  "maturity": "L3",
  "maturity_evidence": [
+  "multi_horizontal",
   "named_product:Neuro AI",
   "tier_p"
  ],
  "prospect_score": 46,
  "stack": [
-  "Anthropic"
+  "Anthropic",
+  "Google",
+  "Microsoft"
  ],
  "vendor_named": true,
  "deployments_detail": [
@@ -50,6 +62,72 @@
    "tier": "P",
    "url": "https://www.cognizant.com/us/en/services/cognizant-platforms/neuro-ai-engineering",
    "raw_sector": "Information Technology",
+   "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "Cognizant",
+   "use": "Agentic AI deployment with context engineering [Workfabric AI, ContextFabric™]",
+   "existence": "claimed",
+   "value": "1000",
+   "tier": "",
+   "url": "https://news.cognizant.com/2025-08-29-Cognizant-to-Deploy-1,000-Context-Engineers,-Powered-by-ContextFabric-TM-,-to-Industrialize-Agentic-AI",
+   "raw_sector": "",
+   "date": "2025-08-29",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Cognizant",
+   "use": "AI Training Data Services for model development",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://news.cognizant.com/2025-07-30-Cognizant-Launches-AI-Training-Data-Services-to-Accelerate-AI-Model-Development-at-Enterprise-Scale",
+   "raw_sector": "",
+   "date": "2025-07-30",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Cognizant",
+   "use": "Gemini deployment with Frontier Certified Engineers [Google Gemini]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://ng.investing.com/news/stock-market-news/cognizant-expands-google-cloud-partnership-on-ai-deployment-93CH-2589215",
+   "raw_sector": "",
+   "date": "2026-07-07",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Cognizant",
+   "use": "Named as a Anthropic Claude customer/case study [Anthropic Claude] [Anthropic Claude]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://sacra.com/c/anthropic/",
+   "raw_sector": "",
+   "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "Cognizant",
+   "use": "Named as a Microsoft Copilot customer/case study [Microsoft Copilot] [Microsoft Copilot]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://windowsforum.com/threads/infosys-tcs-and-wipro-deploy-microsoft-365-copilot-at-300k-seats-in-india.422337/",
+   "raw_sector": "",
+   "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "Cognizant",
+   "use": "Named as a Google Gemini / Vertex AI customer/case study [Google Gemini / Vertex AI] [Google Gemini / Vertex AI]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://itcblogs.currentanalysis.com/2025/08/18/google-cloud-brings-customers-to-its-summit-to-share-their-ai-success-stories/",
+   "raw_sector": "",
    "date": "missing",
    "fresh": "undated"
   }

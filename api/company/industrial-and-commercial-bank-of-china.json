@@ -3,28 +3,28 @@
  "name": "Industrial and Commercial Bank of China",
  "cc": "CN",
  "vertical": "Financial Services",
- "deployments": 2,
- "confirmed": 2,
- "with_value_number": 2,
- "proof_rate": 1.0,
+ "deployments": 11,
+ "confirmed": 10,
+ "with_value_number": 6,
+ "proof_rate": 0.545,
  "mktcap": 356944444444.0,
  "revenue": 93526388889.0,
  "employees": 409758.0,
  "silent": false,
- "per_bn_revenue": 0.02,
- "per_10k_emp": 0.05,
+ "per_bn_revenue": 0.12,
+ "per_10k_emp": 0.27,
  "benchmarks": {
   "global_vertical": {
-   "deployments": 62,
-   "confirmed": 73,
-   "proof_rate": 76,
-   "n": 377
+   "deployments": 72,
+   "confirmed": 78,
+   "proof_rate": 83,
+   "n": 388
   },
   "country_vertical": {
-   "deployments": 76,
-   "confirmed": 76,
+   "deployments": 56,
+   "confirmed": 56,
    "proof_rate": 44,
-   "n": 26
+   "n": 28
   }
  },
  "first_seen": 2024,
@@ -38,7 +38,7 @@
    "n": 1
   }
  ],
- "undated_pct": 0,
+ "undated_pct": 82,
  "momentum": "early_mover,flat",
  "maturity": "L4",
  "maturity_evidence": [
@@ -47,9 +47,12 @@
   "value_number",
   "multi_year"
  ],
- "prospect_score": 20,
- "stack": [],
- "vendor_named": false,
+ "prospect_score": 78,
+ "stack": [
+  "DeepSeek",
+  "Microsoft"
+ ],
+ "vendor_named": true,
  "deployments_detail": [
   {
    "company": "Industrial and Commercial Bank of China",
@@ -64,6 +67,72 @@
   },
   {
    "company": "Industrial and Commercial Bank of China",
+   "use": "Intelligent customer-service virtual assistant '工小智' (Gong Xiaozhi) — natural-language chatbot serving customers across mobile banking, online banking, SMS, WeChat and 15+ channels for balance queries, transfers, wealth-management advice and Q&A. 2025-26 upgraded onto the 工银智涌 100B-parameter model ('享享+1.0'). [ICBC in-house (工小智 on 工银智涌 LLM)]",
+   "existence": "confirmed",
+   "value": "Serving 10.97 million users; intelligent customer service surpassed 170 million transactions",
+   "tier": "",
+   "url": "https://www.moomoo.com/hans/news/post/67583062",
+   "raw_sector": "",
+   "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "Industrial and Commercial Bank of China",
+   "use": "Remote-banking agent-assist copilot '工小慧' (Gong Xiaohui) — provides call-center agents with pre-call operations support, in-call real-time assistance and post-call quality inspection ('intelligent full-journey accompaniment'). [ICBC in-house (on 工银智涌 LLM)]",
+   "existence": "confirmed",
+   "value": "Reduced call duration by ~10% in key scenarios",
+   "tier": "",
+   "url": "https://www.cebnet.com.cn/20250407/102985295.html",
+   "raw_sector": "",
+   "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "Industrial and Commercial Bank of China",
+   "use": "Enterprise-grade ~100-billion-parameter financial large-model platform 'ChatICBC / Gongyin Zhiyong' (工银智涌) — the bank's foundational GenAI stack, empowering 20+ major business domains and 200+ (later 500+) live application scenarios across the bank, built on a thousand-GPU AI compute cloud with in-house financial LLM plus 2,000+ traditional models. [ICBC in-house (工银智涌); DeepSeek open-source model incorporated]",
+   "existence": "confirmed",
+   "value": "20+ business domains, 200+ scenarios (2024); 500+ scenarios across 30+ domains (2025-26); 1 billion+ AI calls/year",
+   "tier": "",
+   "url": "https://app.xinhuanet.com/news/article.html?articleId=ee7085072d0fa09dba0070d4c5afd4eb",
+   "raw_sector": "",
+   "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "Industrial and Commercial Bank of China",
+   "use": "Credit-approval risk-control assistant '工小审' — GenAI assistant covering full corporate/public lending workflow: credit-policy inquiry, due-diligence report writing, risk assessment, data analysis and loan-approval recommendations. [ICBC in-house (on 工银智涌 LLM)]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.globaltimes.cn/page/202503/1330054.shtml",
+   "raw_sector": "",
+   "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "Industrial and Commercial Bank of China",
+   "use": "ChatDealing — intelligent conversational trading product for financial markets that reshapes the transaction process, letting traders interact with the trading/dealing system via natural-language dialogue. [ICBC in-house (on 工银智涌 LLM)]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.globaltimes.cn/page/202503/1330054.shtml",
+   "raw_sector": "",
+   "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "Industrial and Commercial Bank of China",
+   "use": "Private/localized deployment of the DeepSeek open-source LLM, integrated into ICBC's multi-model framework and applied to wealth-management tasks and financial-data analysis. ICBC stated it completed privatized on-prem deployment of the latest DeepSeek model ahead of peers. [DeepSeek (open-source, on-prem/privatized deployment)]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://gfmag.com/technology/deepseek-ai-takes-root-in-chinas-banks/",
+   "raw_sector": "",
+   "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "Industrial and Commercial Bank of China",
    "use": "Cross-listed (also in CSI300) — self-controlled LLM 500+ scenarios, AI digital workers ≈55,000 person-years",
    "existence": "confirmed",
    "value": "(see row 12)",
@@ -72,6 +141,28 @@
    "raw_sector": "Finance (HSI)",
    "date": "2025",
    "fresh": "fresh"
+  },
+  {
+   "company": "Industrial and Commercial Bank of China",
+   "use": "Network-operations AI agent (网络智能体) for the financial data center — LLM-driven AIOps agent performing automatic fault disposal and simulation validation to improve fault-handling efficiency and reduce network-change risk. [ICBC in-house (AI large-model based)]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.fxbaogao.com/detail/5069052",
+   "raw_sector": "",
+   "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "Industrial and Commercial Bank of China",
+   "use": "AI-assisted software development / intelligent coding platform — LLM-based coding assistant capabilities (code generation, completion, unit-test generation, defect detection) rolled out bank-wide to developers. In 2025 Alibaba's Tongyi Lingma won the bid to supply code completion, code Q&A and unit-test-agent services to ICBC's intelligent R&D platform. [ICBC in-house intelligent R&D platform + Alibaba Tongyi Lingma (通义灵码)]",
+   "existence": "confirmed",
+   "value": "8 coding capabilities deployed bank-wide, covering 7,000+ developers; +22.9% effective code output; >40% automatic code-defect detection rate",
+   "tier": "",
+   "url": "https://www.fxbaogao.com/detail/4611202",
+   "raw_sector": "",
+   "date": "missing",
+   "fresh": "undated"
   },
   {
    "company": "Industrial and Commercial Bank of China",
@@ -86,6 +177,17 @@
   },
   {
    "company": "Industrial and Commercial Bank of China",
+   "use": "Enterprise-level Intelligent Risk Control Platform integrating machine learning, knowledge graphs, and large models for risk view, measurement, monitoring, early warning, and decision-making (includes 'ICBC e Prevention' for credit risk management). [In-house (ML, knowledge graph, LLM)]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.icbc-ltd.com/en/page/1081148290814296064.html",
+   "raw_sector": "",
+   "date": "2025-04-02",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Industrial and Commercial Bank of China",
    "use": "Gongyin Zhiyong (工银智涌) proprietary billion-parameter financial LLM deployed across 500+ AI application scenarios in 30+ business domains",
    "existence": "confirmed",
    "value": "AI digital workers handle 55,000 person-years of work",
@@ -93,6 +195,105 @@
    "url": "https://www.toutiao.com/article/7626270032016540212/",
    "raw_sector": "Banks",
    "date": "2025",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Industrial and Commercial Bank of China",
+   "use": "ICBC Zhiyong (工银智涌), an enterprise-level financial large language model with hundreds of billions of parameters, developed in-house and deployed across 20+ major business areas and 200+ (later 500+) financial scenarios. Part of the group-wide 'Pilot AI+ Action' plan. [In-house (built on open-source LLMs); part of matrix of 10+ large models and 2,000+ traditional models]",
+   "existence": "confirmed",
+   "value": "Hundreds of billions of parameters; 20+ business areas; 200+ scenarios",
+   "tier": "",
+   "url": "https://www.icbc-ltd.com/en/page/1081148290814296064.html",
+   "raw_sector": "",
+   "date": "2025-04-02",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Industrial and Commercial Bank of China",
+   "use": "Privatized (on-premise) deployment of DeepSeek's latest open-source large model, integrated into ICBC's large-model matrix framework to enhance intelligence across financial business scenarios. [DeepSeek]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.globaltimes.cn/page/202503/1330054.shtml",
+   "raw_sector": "",
+   "date": "2025-03-13",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Industrial and Commercial Bank of China",
+   "use": "AI-powered Credit Approval Assistant handling the full lending workflow: credit policy inquiries, report writing, risk assessment, data analysis, and loan approval recommendations. [DeepSeek (integrated into ICBC model matrix)]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.globaltimes.cn/page/202503/1330054.shtml",
+   "raw_sector": "",
+   "date": "2025-03-13",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Industrial and Commercial Bank of China",
+   "use": "ChatDealing, an intelligent dialogue platform for the trading/dealing process that reshapes trading workflows and increases transaction volumes. [DeepSeek / ICBC large-model matrix]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.globaltimes.cn/page/202503/1330054.shtml",
+   "raw_sector": "",
+   "date": "2025-03-13",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Industrial and Commercial Bank of China",
+   "use": "ICBC Smart, an AI/machine-learning customer service robot answering banking, e-banking, investment, wealth management, and credit-card inquiries across 15 channels (SMS, mobile banking, WeChat banking, etc.). [In-house AI/ML]",
+   "existence": "confirmed",
+   "value": "170M+ transactions; 570,000+ daily interactions; 96.8% recognition rate; 10,000+ inquiry types",
+   "tier": "",
+   "url": "https://www.icbc.com.cn/icbc/en/newsupdates/icbc%20news/ICBCsIntelligentCustomerServiceExceeds170MillionTransactions.htm",
+   "raw_sector": "",
+   "date": "2017-10-16",
+   "fresh": "stale"
+  },
+  {
+   "company": "Industrial and Commercial Bank of China",
+   "use": "ICBC (Asia) fraud and scam detection — expanding use of machine learning and other AI technologies to identify and investigate scams and financial crime amid rising fraud cases in Hong Kong. [not named]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.scmp.com/business/banking-finance/article/3251444/icbc-asia-combat-fraud-doubling-down-ai-amid-rise-scams-anti-financial-crimes-chief-says",
+   "raw_sector": "",
+   "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "Industrial and Commercial Bank of China",
+   "use": "'AI Investment' robo-advisor in mobile banking that analyzes stock and bond markets against a customer's risk profile to recommend and rebalance personalized fund portfolios. [In-house AI]",
+   "existence": "confirmed",
+   "value": "Min. investment RMB 10,000; navigates 4,300+ funds",
+   "tier": "",
+   "url": "https://icbc.com.cn/icbc/en/newsupdates/icbc%20news/ICBCOfficiallyLaunchesRobo-AdvisorAIInvestment.htm",
+   "raw_sector": "",
+   "date": "2017-11-16",
+   "fresh": "stale"
+  },
+  {
+   "company": "Industrial and Commercial Bank of China",
+   "use": "Use of DeepSeek AI for wealth management tasks and financial data analysis. [DeepSeek]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://gfmag.com/technology/deepseek-ai-takes-root-in-chinas-banks/",
+   "raw_sector": "",
+   "date": "2025-03-01",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Industrial and Commercial Bank of China",
+   "use": "Industry-specific banking LLM (award-winning) integrated into 30+ core systems, supporting all frontline staff and thousands of developers (software development assistance), autonomously resolving ~90% of customer inquiries and accelerating investment reporting. [In-house LLM]",
+   "existence": "confirmed",
+   "value": "90% of customer inquiries autonomously resolved; 30+ core systems; millions of calls annually",
+   "tier": "",
+   "url": "https://www.theasianbanker.com/updates-and-articles/best-large-language-model-initiative-in-asia-pacific-for-developing-industry-specific-ai-models-for-efficiency-2025",
+   "raw_sector": "",
+   "date": "2025-07-08",
    "fresh": "fresh"
   }
  ]

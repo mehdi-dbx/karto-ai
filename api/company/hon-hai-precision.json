@@ -3,48 +3,59 @@
  "name": "Hon Hai Precision",
  "cc": "TW",
  "vertical": "Manufacturing & Robotics",
- "deployments": 3,
- "confirmed": 2,
- "with_value_number": 1,
- "proof_rate": 0.333,
+ "deployments": 12,
+ "confirmed": 3,
+ "with_value_number": 2,
+ "proof_rate": 0.167,
  "mktcap": 112812500000.0,
  "revenue": 268125000000.0,
  "employees": 826608.0,
  "silent": false,
- "per_bn_revenue": 0.01,
- "per_10k_emp": 0.04,
+ "per_bn_revenue": 0.04,
+ "per_10k_emp": 0.15,
  "benchmarks": {
   "global_vertical": {
-   "deployments": 88,
-   "confirmed": 78,
-   "proof_rate": 71,
-   "n": 147
+   "deployments": 86,
+   "confirmed": 50,
+   "proof_rate": 58,
+   "n": 150
   },
   "country_vertical": {
    "deployments": 86,
-   "confirmed": 67,
-   "proof_rate": 43,
-   "n": 22
+   "confirmed": 50,
+   "proof_rate": 36,
+   "n": 23
   }
  },
- "first_seen": 2025,
+ "first_seen": 2024,
  "by_year": [
   {
+   "year": 2024,
+   "n": 1
+  },
+  {
    "year": 2025,
-   "n": 3
+   "n": 8
+  },
+  {
+   "year": 2026,
+   "n": 1
   }
  ],
- "undated_pct": 0,
- "momentum": "rising",
+ "undated_pct": 17,
+ "momentum": "early_mover,rising",
  "maturity": "L3",
  "maturity_evidence": [
   "multi_horizontal",
   "named_product:Developed",
   "tier_p"
  ],
- "prospect_score": 47,
- "stack": [],
- "vendor_named": false,
+ "prospect_score": 51,
+ "stack": [
+  "NVIDIA",
+  "SAP"
+ ],
+ "vendor_named": true,
  "deployments_detail": [
   {
    "company": "Hon Hai Precision",
@@ -66,6 +77,105 @@
    "url": "https://www.foxconn.com/zh-tw/press-center/press-releases/latest-news/1904",
    "raw_sector": "Electronics",
    "date": "2025-11",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Hon Hai Precision",
+   "use": "AI infrastructure and superchip solutions for enterprise and agentic AI",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.foxconn.com/en-us/press-center/press-releases/latest-news/1601",
+   "raw_sector": "",
+   "date": "2025-05-19",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Hon Hai Precision",
+   "use": "AI-ready modular container data center with GB300 AI infrastructure",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.honhai.com/en-us/press-center/events/foxconn-events/1909",
+   "raw_sector": "",
+   "date": "2025-11-21",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Hon Hai Precision",
+   "use": "Global AI data center solutions",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.mitsubishielectric.com/en/pr/2025/1106/",
+   "raw_sector": "",
+   "date": "2025-11-06",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Hon Hai Precision",
+   "use": "Advanced AI infrastructure deployment",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.cnbc.com/amp/2025/11/21/foxconn-hon-hai-ai-openai-apple-iphone-assembler-chatgpt-openai-nvidia-sam-altman-young-liu.html",
+   "raw_sector": "",
+   "date": "2025-11-21",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Hon Hai Precision",
+   "use": "AI servers with liquid-cooled rack infrastructure [NVIDIA GB200 NVL72]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.foxconn.com/en-us/press-center/press-releases/latest-news/1302",
+   "raw_sector": "",
+   "date": "2024-03-19",
+   "fresh": "aging"
+  },
+  {
+   "company": "Hon Hai Precision",
+   "use": "Physical AI and smart manufacturing co-innovation [SAP]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.honhai.com/en-us/press-center/press-releases/latest-news/1981",
+   "raw_sector": "",
+   "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "Hon Hai Precision",
+   "use": "AI factories and sovereign AI infrastructure",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.prnewswire.com/news-releases/hon-hai-technology-group-foxconn-accelerates-global-leadership-in-ai-factories-infrastructure-at-europes-vivatech-302802796.html",
+   "raw_sector": "",
+   "date": "2026-06-17",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Hon Hai Precision",
+   "use": "AI data center equipment investment and cloud compute platform expansion",
+   "existence": "claimed",
+   "value": "1.4B",
+   "tier": "",
+   "url": "https://www.facebook.com/focus.tw/posts/taiwan-based-manufacturing-giant-hon-hai-precision-industry-co-announced-monday-/1422042643299802/",
+   "raw_sector": "",
+   "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "Hon Hai Precision",
+   "use": "AI data center operations",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.taipeitimes.com/News/biz/archives/2025/11/19/2003847425",
+   "raw_sector": "",
+   "date": "2025-11-19",
    "fresh": "fresh"
   },
   {

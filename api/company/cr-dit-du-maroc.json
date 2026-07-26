@@ -3,10 +3,10 @@
  "name": "Crédit du Maroc",
  "cc": "MA",
  "vertical": "Financial Services",
- "deployments": 1,
- "confirmed": 0,
- "with_value_number": 0,
- "proof_rate": 0.0,
+ "deployments": 10,
+ "confirmed": 3,
+ "with_value_number": 2,
+ "proof_rate": 0.2,
  "mktcap": 1054000000.0,
  "revenue": null,
  "employees": null,
@@ -15,27 +15,43 @@
  "per_10k_emp": null,
  "benchmarks": {
   "global_vertical": {
-   "deployments": 0,
-   "confirmed": 0,
-   "proof_rate": 0,
-   "n": 377
+   "deployments": 65,
+   "confirmed": 27,
+   "proof_rate": 39,
+   "n": 388
   },
   "country_vertical": {
-   "deployments": 0,
-   "confirmed": 0,
-   "proof_rate": 0,
+   "deployments": 90,
+   "confirmed": 40,
+   "proof_rate": 80,
    "n": 11
   }
  },
- "first_seen": null,
- "by_year": [],
- "undated_pct": 100,
- "momentum": "none",
- "maturity": "L1",
- "maturity_evidence": [
-  "rows_no_confirmed"
+ "first_seen": 2024,
+ "by_year": [
+  {
+   "year": 2024,
+   "n": 2
+  },
+  {
+   "year": 2025,
+   "n": 6
+  },
+  {
+   "year": 2026,
+   "n": 1
+  }
  ],
- "prospect_score": 40,
+ "undated_pct": 10,
+ "momentum": "early_mover,rising",
+ "maturity": "L4",
+ "maturity_evidence": [
+  "multi_horizontal",
+  "named_product:Holmarcom",
+  "value_number",
+  "multi_year"
+ ],
+ "prospect_score": 58,
  "stack": [],
  "vendor_named": false,
  "deployments_detail": [
@@ -49,6 +65,105 @@
    "raw_sector": "Financials / Banques",
    "date": "missing",
    "fresh": "undated"
+  },
+  {
+   "company": "Crédit du Maroc",
+   "use": "Contextual virtual assistant / enriched chatbot for personalized customer advice — a prioritized use case being designed and prototyped by CDM's Senior AI Engineer role ('Assistant virtuel contextualisé (chatbot enrichi, conseil personnalisé)'). [open-source / partner tools (not named)]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://ma.linkedin.com/jobs/view/ing%C3%A9nieur-ia-senior-at-credit-du-maroc-4309947780",
+   "raw_sector": "",
+   "date": "2025",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Crédit du Maroc",
+   "use": "AI upskilling / adoption program: launch of an artificial-intelligence training cycle for staff run with the Holmarcom Group 'AI Institute' training center, alongside training on the new Core Banking System (1,500 employees). [Holmarcom AI Institute]",
+   "existence": "confirmed",
+   "value": "1,500 employees trained on new Core Banking System (AI cycle count not disclosed)",
+   "tier": "",
+   "url": "https://www.ammc.ma/sites/default/files/DR_CDM_020_2025.pdf",
+   "raw_sector": "",
+   "date": "2024",
+   "fresh": "aging"
+  },
+  {
+   "company": "Crédit du Maroc",
+   "use": "Huawei OceanStor Dorado 8000 all-flash storage deployed active-active across production and DR sites as the data infrastructure foundation for CDM's data/analytics and digital banking under the CDM Boost 2028 program (batch, transactions, report analysis accelerated from hours to minutes). [Huawei (OceanStor Dorado)]",
+   "existence": "confirmed",
+   "value": "over 1 million IOPS",
+   "tier": "",
+   "url": "https://e.huawei.com/en/case-studies/solutions/storage/202604-credit-du-maroc",
+   "raw_sector": "",
+   "date": "2026",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Crédit du Maroc",
+   "use": "Intelligent AI tools for back-office, compliance and support functions plus automation of manual, repetitive low-value tasks — internal-facing AI use cases in the AI Engineer job description. [not named]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://ma.linkedin.com/jobs/view/ing%C3%A9nieur-ia-senior-at-credit-du-maroc-4309947780",
+   "raw_sector": "",
+   "date": "2025",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Crédit du Maroc",
+   "use": "AI-guided customer journeys for onboarding, credit and after-sales/service ('Autonomisation via des parcours IA-guidés (onboarding, crédit, SAV, etc.)') — customer-facing AI use case being prototyped. [not named]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://ma.linkedin.com/jobs/view/ing%C3%A9nieur-ia-senior-at-credit-du-maroc-4309947780",
+   "raw_sector": "",
+   "date": "2025",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Crédit du Maroc",
+   "use": "AI-powered intelligent sales tool rolled out to the branch network (bancassurance) that generates integrated sales solutions and fluid customer journeys, per the 2024 registration document: the agency network was equipped with 'un nouvel outil intelligent intégrant les dernières avancées en intelligence artificielle'. [not named]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.ammc.ma/sites/default/files/DR_CDM_020_2025.pdf",
+   "raw_sector": "",
+   "date": "2024",
+   "fresh": "aging"
+  },
+  {
+   "company": "Crédit du Maroc",
+   "use": "Augmented commercial agent: AI delivering real-time recommendations and behavioral scoring to relationship managers ('Agent commercial augmenté (recommandations en temps réel, scoring comportemental)') — targeted AI use case in the AI Engineer job description. [not named]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://ma.linkedin.com/jobs/view/ing%C3%A9nieur-ia-senior-at-credit-du-maroc-4309947780",
+   "raw_sector": "",
+   "date": "2025",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Crédit du Maroc",
+   "use": "Predictive behavioral analytics and 'next best offer' micro-segmented, individualized customer recommendations powered by data + AICited by Yassine Ziad ('Analyse prédictive des comportements', 'Offres adaptées aux besoins individuels'). [not named]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.marocetude.com/actualite-maroc/ia-au-coeur-de-la-strategie-yassine-ziad-credit-du-maroc-devoile-un-nouveau-chemin/",
+   "raw_sector": "",
+   "date": "2025",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Crédit du Maroc",
+   "use": "AI for fraud detection and financial-transaction security — cited by CDM's Director of Innovation & Digital Banking Yassine Ziad as a priority AI application ('détection de la fraude et la sécurité des transactions financières'). [not named]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.facebook.com/LesEcoMa/posts/yassine-ziad-cr%C3%A9dit-du-maroc-on-commence-d%C3%A9sormais-par-lia-pour-tracer-un-chemin/1153118370176824/",
+   "raw_sector": "",
+   "date": "2025",
+   "fresh": "fresh"
   }
  ]
 }

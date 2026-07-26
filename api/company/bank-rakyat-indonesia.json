@@ -3,26 +3,26 @@
  "name": "Bank Rakyat Indonesia",
  "cc": "ID",
  "vertical": "Financial Services",
- "deployments": 3,
- "confirmed": 1,
+ "deployments": 10,
+ "confirmed": 6,
  "with_value_number": 0,
  "proof_rate": 0.0,
  "mktcap": 28781012658.0,
  "revenue": 9206962025.0,
  "employees": 82203.0,
  "silent": false,
- "per_bn_revenue": 0.33,
- "per_10k_emp": 0.36,
+ "per_bn_revenue": 1.09,
+ "per_10k_emp": 1.22,
  "benchmarks": {
   "global_vertical": {
-   "deployments": 86,
-   "confirmed": 17,
+   "deployments": 65,
+   "confirmed": 55,
    "proof_rate": 0,
-   "n": 377
+   "n": 388
   },
   "country_vertical": {
-   "deployments": 86,
-   "confirmed": 43,
+   "deployments": 57,
+   "confirmed": 57,
    "proof_rate": 0,
    "n": 8
   }
@@ -38,15 +38,18 @@
    "n": 2
   }
  ],
- "undated_pct": 0,
+ "undated_pct": 70,
  "momentum": "early_mover,gone_quiet",
  "maturity": "L3",
  "maturity_evidence": [
+  "multi_horizontal",
   "named_product:BRIBRAIN",
   "tier_p"
  ],
- "prospect_score": 46,
- "stack": [],
+ "prospect_score": 76,
+ "stack": [
+  "Microsoft"
+ ],
  "vendor_named": true,
  "deployments_detail": [
   {
@@ -62,6 +65,61 @@
   },
   {
    "company": "Bank Rakyat Indonesia",
+   "use": "Conversational banking platform modernization, IT workload management, and collaborative technologies for employee development",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.itnews.asia/news/indonesian-bank-bri-plans-to-use-ai-solutions-for-enhanced-efficiency-607751",
+   "raw_sector": "",
+   "date": "May 7, 2024",
+   "fresh": "undated"
+  },
+  {
+   "company": "Bank Rakyat Indonesia",
+   "use": "AI-driven intelligent apps and models integrated with BRIMO and BRISPOT superapps [Cloudera AI]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.cloudera.com/customers/bank-bri.html",
+   "raw_sector": "",
+   "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "Bank Rakyat Indonesia",
+   "use": "Generative AI for RAG and agentic AI use cases with real-time data processing [Confluent]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.confluent.io/customers/bri/",
+   "raw_sector": "",
+   "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "Bank Rakyat Indonesia",
+   "use": "Generative AI collaboration and service advancement [Microsoft]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://news.microsoft.com/id-id/2024/04/28/revolutionizing-banking-services-towards-financial-inclusion-bri-strengthens-collaboration-with-microsoft/",
+   "raw_sector": "",
+   "date": "Apr 28, 2024",
+   "fresh": "undated"
+  },
+  {
+   "company": "Bank Rakyat Indonesia",
+   "use": "Big Data, AI and ML for customer understanding and private AI agents with real-time processing [Cloudera]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.cloudera.com/content/dam/www/marketing/resources/case-studies/bank-bri-customer-success-story.pdf.landing.html",
+   "raw_sector": "",
+   "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "Bank Rakyat Indonesia",
    "use": "Sabrina - AI chatbot evolved into an intelligent customer companion",
    "existence": "claimed",
    "value": "none",
@@ -73,6 +131,17 @@
   },
   {
    "company": "Bank Rakyat Indonesia",
+   "use": "AI-powered chatbot for customer support and information accessibility",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.ir-bri.com/newsroom/AnnualReport2025-BBRI-att4_(1).pdf",
+   "raw_sector": "",
+   "date": "Mar 20, 2026",
+   "fresh": "undated"
+  },
+  {
+   "company": "Bank Rakyat Indonesia",
    "use": "AI used for anti-fraud analysis and customer acquisition",
    "existence": "claimed",
    "value": "none",
@@ -81,6 +150,17 @@
    "raw_sector": "Banks",
    "date": "2024",
    "fresh": "aging"
+  },
+  {
+   "company": "Bank Rakyat Indonesia",
+   "use": "BRIBrain - AI system to store, process, and consolidate information from various sources for phygital strategy",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://asianbankingandfinance.net/retail-banking/exclusive/bri-employs-ai-brain-merge-its-digital-and-physical-presence",
+   "raw_sector": "",
+   "date": "Feb 16, 2022",
+   "fresh": "undated"
   }
  ]
 }

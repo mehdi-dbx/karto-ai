@@ -3,42 +3,60 @@
  "name": "Telus",
  "cc": "CA",
  "vertical": "Telecom",
- "deployments": 1,
- "confirmed": 1,
- "with_value_number": 1,
- "proof_rate": 1.0,
+ "deployments": 11,
+ "confirmed": 10,
+ "with_value_number": 7,
+ "proof_rate": 0.636,
  "mktcap": 16639705882.0,
  "revenue": 14941176471.0,
  "employees": 111500.0,
  "silent": false,
- "per_bn_revenue": 0.07,
- "per_10k_emp": 0.09,
+ "per_bn_revenue": 0.74,
+ "per_10k_emp": 0.99,
  "benchmarks": {
   "global_vertical": {
-   "deployments": 0,
-   "confirmed": 16,
-   "proof_rate": 78,
-   "n": 93
+   "deployments": 66,
+   "confirmed": 78,
+   "proof_rate": 91,
+   "n": 94
   }
  },
- "first_seen": 2025,
+ "first_seen": 2024,
  "by_year": [
   {
+   "year": 2024,
+   "n": 1
+  },
+  {
    "year": 2025,
+   "n": 8
+  },
+  {
+   "year": 2026,
    "n": 1
   }
  ],
- "undated_pct": 0,
- "momentum": "rising",
- "maturity": "L3",
+ "undated_pct": 9,
+ "momentum": "early_mover,rising",
+ "maturity": "L4",
  "maturity_evidence": [
+  "multi_horizontal",
   "named_product:Fuel",
   "value_number",
+  "multi_year",
   "tier_p"
  ],
- "prospect_score": 14,
- "stack": [],
- "vendor_named": false,
+ "prospect_score": 75,
+ "stack": [
+  "Anthropic",
+  "Capgemini",
+  "Google",
+  "Google Cloud",
+  "Microsoft",
+  "Microsoft Azure",
+  "OpenAI"
+ ],
+ "vendor_named": true,
  "deployments_detail": [
   {
    "company": "Telus",
@@ -49,6 +67,116 @@
    "url": "https://www.telusdigital.com/solutions/fuel-ix",
    "raw_sector": "Telecom",
    "date": "2025",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Telus",
+   "use": "Enterprise-wide generative AI on the proprietary Fuel iX platform, built on Google Cloud Vertex AI with a choice of curated models (Anthropic Claude, Google Gemini, and 40-50+ LLMs). 13,000+ custom AI solutions built (HR policy access, real-time translation, brand guidelines, conversation coaches) with 57,000 team members using GenAI. [TELUS Fuel iX on Google Cloud Vertex AI; Anthropic Claude, Google Gemini]",
+   "existence": "confirmed",
+   "value": "13,000+ custom AI solutions; $90M documented benefits; 500,000+ hours saved; 100B tokens/month",
+   "tier": "",
+   "url": "https://cloud.google.com/customers/telusai",
+   "raw_sector": "",
+   "date": "2025-08-19",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Telus",
+   "use": "Network operations automation toward autonomous networks — TELUS selected Capgemini to modernize its proprietary network-automation platform, incorporating AI (agentic AI and digital twins per Capgemini PoV) for intent-based, closed-loop operations that detect anomalies, predict equipment failures and self-heal. [Capgemini (AI-driven network automation)]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.businesswire.com/news/home/20260226856340/en/Capgemini-and-TELUS-to-Accelerate-Towards-Autonomous-Telecommunications-Networks",
+   "raw_sector": "",
+   "date": "2026-02-26",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Telus",
+   "use": "Built Fuel iX generative-AI platform on Vertex AI (connecting to Gemini and Anthropic Claude) for enterprise-wide productivity and engineering/coding assistance [Google Cloud] [Google Cloud]",
+   "existence": "confirmed",
+   "value": "90% of AI model traffic runs through Vertex AI; engineering teams shipping code 30% faster",
+   "tier": "",
+   "url": "https://cloud.google.com/customers/telusai",
+   "raw_sector": "",
+   "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "Telus",
+   "use": "Customer-facing GenAI customer support tool that answers customer queries by drawing on 1,000+ support articles; world's first to achieve ISO 31700-1 Privacy by Design certification. Reported to have handled 50,000+ customer inquiries and to outperform traditional site search by 28% in helping customers find information. [TELUS Fuel iX + Microsoft Azure OpenAI Service]",
+   "existence": "confirmed",
+   "value": "50,000+ queries handled; 28% improvement over site search",
+   "tier": "",
+   "url": "https://www.telecomreviewamericas.com/articles/telecom-operators/telus-introduces-advanced-genai-support-tool/",
+   "raw_sector": "",
+   "date": "2024-05-05",
+   "fresh": "aging"
+  },
+  {
+   "company": "Telus",
+   "use": "Fuel iX Agent Assist — real-time knowledge retrieval for contact-center agents during live customer interactions to speed and improve issue resolution; deployed with TELUS Expert Messaging. [TELUS Fuel iX]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.telusdigital.com/solutions/fuel-ix/agent-assist",
+   "raw_sector": "",
+   "date": "2025-11-04",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Telus",
+   "use": "Fuel iX Agent Trainer — AI-simulated customer interactions used to accelerate contact-center agent skill development and ramp time. [TELUS Fuel iX]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.businesswire.com/news/home/20251104371907/en/TELUS-Digitals-Fuel-iX-Makes-AI-Accessible-to-Every-Team-Member",
+   "raw_sector": "",
+   "date": "2025-11-04",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Telus",
+   "use": "TELUS Health uses GenAI to support internal teams — call-center agents, care navigators and clinical staff responding to member inquiries — plus AI-powered chatbots to help users find information. [TELUS Health (GenAI via undisclosed technology provider)]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://help.one.telushealth.com/hc/en-us/articles/35443835826068-Use-of-GenAI",
+   "raw_sector": "",
+   "date": "2025-01-01",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Telus",
+   "use": "Fuel iX Copilots — no-code, enterprise-safe custom AI assistants used by TELUS employees for research, document drafting, data analysis, coding and everyday knowledge tasks. Over 21,000 custom copilots created and used across the workforce. [TELUS Fuel iX (multi-model: Anthropic Claude, Google, others via Google Cloud Vertex AI)]",
+   "existence": "confirmed",
+   "value": "21,000+ copilots created; ~70,000 team members with access",
+   "tier": "",
+   "url": "https://www.businesswire.com/news/home/20251104371907/en/TELUS-Digitals-Fuel-iX-Makes-AI-Accessible-to-Every-Team-Member",
+   "raw_sector": "",
+   "date": "2025-11-04",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Telus",
+   "use": "Fuel iX Fortify — automated red-teaming and AI safety/security testing that simulates real-world attack scenarios to uncover GenAI vulnerabilities; automates 140+ research-backed attack objectives mapped to OWASP, and cuts testing time by up to 97%. Used internally and offered to enterprises. [TELUS Digital Fuel iX Fortify]",
+   "existence": "confirmed",
+   "value": "up to 97% reduction in testing time; 140+ automated attack objectives",
+   "tier": "",
+   "url": "https://www.businesswire.com/news/home/20251001136995/en/TELUS-Digital-Launches-Fuel-iX-Fortify-for-Automated-Red-Teaming",
+   "raw_sector": "",
+   "date": "2025-10-01",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Telus",
+   "use": "Software engineering / developer productivity — engineers use Claude via GitHub Copilot, Cline and Claude Code integrated through Fuel iX, reported to ship code ~30% faster. [Anthropic Claude, GitHub Copilot, Cline, Claude Code (via TELUS Fuel iX)]",
+   "existence": "confirmed",
+   "value": "code shipped ~30% faster",
+   "tier": "",
+   "url": "https://claude.com/customers/telus",
+   "raw_sector": "",
+   "date": "2025-08-01",
    "fresh": "fresh"
   }
  ]

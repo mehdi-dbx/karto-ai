@@ -3,46 +3,72 @@
  "name": "WuXi Biologics",
  "cc": "CN",
  "vertical": "Real Estate & Construction",
- "deployments": 1,
- "confirmed": 1,
- "with_value_number": 1,
- "proof_rate": 1.0,
+ "deployments": 9,
+ "confirmed": 7,
+ "with_value_number": 3,
+ "proof_rate": 0.333,
  "mktcap": 20644871795.0,
  "revenue": 3108974359.0,
  "employees": 13252.0,
  "silent": false,
- "per_bn_revenue": 0.32,
- "per_10k_emp": 0.75,
+ "per_bn_revenue": 2.89,
+ "per_10k_emp": 6.79,
  "benchmarks": {
   "global_vertical": {
-   "deployments": 0,
-   "confirmed": 31,
-   "proof_rate": 71,
+   "deployments": 80,
+   "confirmed": 84,
+   "proof_rate": 61,
    "n": 154
   },
   "country_vertical": {
-   "deployments": 0,
-   "confirmed": 7,
-   "proof_rate": 31,
+   "deployments": 90,
+   "confirmed": 83,
+   "proof_rate": 52,
    "n": 30
   }
  },
- "first_seen": null,
- "by_year": [],
- "undated_pct": 100,
- "momentum": "none",
- "maturity": "L3",
- "maturity_evidence": [
-  "named_product:WuXi ProDesign",
-  "value_number"
+ "first_seen": 2023,
+ "by_year": [
+  {
+   "year": 2023,
+   "n": 1
+  },
+  {
+   "year": 2025,
+   "n": 2
+  },
+  {
+   "year": 2026,
+   "n": 5
+  }
  ],
- "prospect_score": 6,
+ "undated_pct": 11,
+ "momentum": "early_mover,rising",
+ "maturity": "L4",
+ "maturity_evidence": [
+  "multi_horizontal",
+  "named_product:WuXi ProDesign",
+  "value_number",
+  "multi_year"
+ ],
+ "prospect_score": 69,
  "stack": [
   "NVIDIA",
   "Tencent Cloud"
  ],
  "vendor_named": true,
  "deployments_detail": [
+  {
+   "company": "WuXi Biologics",
+   "use": "Cloud-based client portal giving customers real-time access to project milestones, data insights and program planning across integrated projects. [WuXi Biologics (proprietary)]",
+   "existence": "confirmed",
+   "value": "supports 945 integrated client projects (as of Dec 2025)",
+   "tier": "",
+   "url": "https://www.prnewswire.com/news-releases/wuxi-biologics-reports-record-2025-annual-results-operational-excellence-driven-by-digital-native-architecture-302724708.html",
+   "raw_sector": "",
+   "date": "2026-03-25",
+   "fresh": "fresh"
+  },
   {
    "company": "WuXi Biologics",
    "use": "\"WuXi ProDesign\" antibody design model; \"PatroLab\" bioprocessing digital-twin; NVIDIA BioNeMo AI (protein stability/affinity, 20+ antibody projects); Tencent Cloud AI middle platform",
@@ -56,6 +82,83 @@
   },
   {
    "company": "WuXi Biologics",
+   "use": "PatroLab digital twin platform for bioprocessing/manufacturing: integrates real-time process monitoring (incl. Raman-based PAT), predictive modeling, and automated process control into one digital platform to enhance process performance, reduce risk and shorten development timelines. [WuXi Biologics (proprietary)]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.wuxibiologics.com/press-release/wuxi-biologics-launches-industry-leading-digital-twin-platform-patrolabtm-designed-to-transform-bioprocessing-and-manufacturing/",
+   "raw_sector": "",
+   "date": "2026-01-12",
+   "fresh": "fresh"
+  },
+  {
+   "company": "WuXi Biologics",
+   "use": "Deep learning-powered robotic experimentation ('first Industrial Smart Lab Framework') combining deep learning models with automated/robotic experimentation to optimize cell culture process development. [WuXi Biologics (proprietary)]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://aiche.onlinelibrary.wiley.com/doi/abs/10.1002/btpr.70051",
+   "raw_sector": "",
+   "date": "2025-06-03",
+   "fresh": "fresh"
+  },
+  {
+   "company": "WuXi Biologics",
+   "use": "AI/ML antibody non-specificity and developability prediction: uses protein language model embeddings and sequence-derived biophysical descriptors to predict non-specific binding, self-association, stability and immunogenicity risks for lead optimization; offered as a CRO service. [WuXi Biologics (proprietary)]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.linkedin.com/posts/wuxi-biologics-cro-services_developability-antibodydiscovery-antibodyengineering-activity-7465823119287488512-5kF0",
+   "raw_sector": "",
+   "date": "2026",
+   "fresh": "fresh"
+  },
+  {
+   "company": "WuXi Biologics",
+   "use": "WuXiUP automated continuous drug substance manufacturing: automated process control enabling fully automated continuous perfusion bioprocessing at pilot scale (monitored/controlled via PatroLab digital platform). [WuXi Biologics (proprietary)]",
+   "existence": "confirmed",
+   "value": "5-15X greater productivity vs traditional fed-batch",
+   "tier": "",
+   "url": "https://www.wuxibiologics.com/press-release/wuxi-biologics-wuxiup-accomplishes-automated-continuous-drug-substance-production-at-pilot-scale/",
+   "raw_sector": "",
+   "date": "2025-08-12",
+   "fresh": "fresh"
+  },
+  {
+   "company": "WuXi Biologics",
+   "use": "Strategic collaboration with Earendil Labs integrating Earendil's AI-driven / machine-learning generative protein-engineering capabilities with WuXi's biologics development and GMP manufacturing to accelerate bispecific/multispecific antibodies and ADCs. [Earendil Labs (AI); WuXi Biologics]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.wuxibiologics.com/press-release/wuxi-biologics-and-earendil-labs-enter-strategic-collaboration-to-accelerate-development-and-manufacturing-of-bispecific-multispecific-antibodies-and-adcs/",
+   "raw_sector": "",
+   "date": "2026-03-12",
+   "fresh": "fresh"
+  },
+  {
+   "company": "WuXi Biologics",
+   "use": "Sophisticated AI model that detects flaws in antibody sequences causing developability issues and proposes engineering strategies (part of antibody design/engineering discovery services). [WuXi Biologics (proprietary)]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.wuxibiologics.com/wp-content/uploads/WuXi-Bio-2023-Investor-Day-Chris-Chen.pdf",
+   "raw_sector": "",
+   "date": "2023",
+   "fresh": "stale"
+  },
+  {
+   "company": "WuXi Biologics",
+   "use": "Digital-native operational architecture: advanced computational modeling, predictive analytics and ontology-driven software development plus smart-automation workflows embedded across the biopharmaceutical value chain to shorten development cycles and drive operational efficiency. [WuXi Biologics (proprietary)]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.prnewswire.com/news-releases/wuxi-biologics-reports-record-2025-annual-results-operational-excellence-driven-by-digital-native-architecture-302724708.html",
+   "raw_sector": "",
+   "date": "2026-03-25",
+   "fresh": "fresh"
+  },
+  {
+   "company": "WuXi Biologics",
    "use": "WuXi ProDesign self-developed AI model for antibody design",
    "existence": "confirmed",
    "value": "none",
@@ -64,6 +167,17 @@
    "raw_sector": "Pharma",
    "date": "2024",
    "fresh": "aging"
+  },
+  {
+   "company": "WuXi Biologics",
+   "use": "AI-powered antibody generation for epitope-specific antibodies",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.wuxibiologics.com/wp-content/uploads/WuXi-Bio-2023-Investor-Day-Chris-Chen.pdf",
+   "raw_sector": "",
+   "date": "missing",
+   "fresh": "undated"
   }
  ]
 }

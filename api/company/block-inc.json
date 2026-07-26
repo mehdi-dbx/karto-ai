@@ -3,45 +3,81 @@
  "name": "Block, Inc.",
  "cc": "US",
  "vertical": "Financial Services",
- "deployments": 1,
- "confirmed": 1,
- "with_value_number": 0,
- "proof_rate": 0.0,
+ "deployments": 7,
+ "confirmed": 7,
+ "with_value_number": 3,
+ "proof_rate": 0.429,
  "mktcap": 46050000000.0,
  "revenue": 24480000000.0,
  "employees": 10205.0,
  "silent": false,
- "per_bn_revenue": 0.04,
- "per_10k_emp": 0.98,
+ "per_bn_revenue": 0.29,
+ "per_10k_emp": 6.86,
  "benchmarks": {
   "global_vertical": {
-   "deployments": 0,
-   "confirmed": 17,
-   "proof_rate": 0,
-   "n": 377
+   "deployments": 51,
+   "confirmed": 62,
+   "proof_rate": 73,
+   "n": 388
   },
   "country_vertical": {
-   "deployments": 0,
-   "confirmed": 19,
-   "proof_rate": 0,
-   "n": 76
+   "deployments": 49,
+   "confirmed": 55,
+   "proof_rate": 78,
+   "n": 77
   }
  },
- "first_seen": null,
- "by_year": [],
- "undated_pct": 100,
- "momentum": "none",
- "maturity": "L3",
+ "first_seen": 2025,
+ "by_year": [
+  {
+   "year": 2025,
+   "n": 2
+  },
+  {
+   "year": 2026,
+   "n": 3
+  }
+ ],
+ "undated_pct": 29,
+ "momentum": "rising",
+ "maturity": "L4",
  "maturity_evidence": [
+  "multi_horizontal",
   "named_product:Goose",
+  "value_number",
+  "multi_year",
   "tier_p"
  ],
- "prospect_score": 46,
+ "prospect_score": 65,
  "stack": [
-  "Anthropic"
+  "Anthropic",
+  "Databricks",
+  "NVIDIA"
  ],
  "vendor_named": true,
  "deployments_detail": [
+  {
+   "company": "Block, Inc.",
+   "use": "Frontier model research infrastructure deployment [NVIDIA GB200]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://investors.block.xyz/investor-news/news-details/2025/Block-Becomes-First-Company-in-North-America-to-Deploy-the-Latest-NVIDIA-GB200-Systems-for-Frontier-Models/default.aspx",
+   "raw_sector": "",
+   "date": "2025-03-12",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Block, Inc.",
+   "use": "GenAI for setup automation and content generation, governed by Unity Catalog [Databricks] [Databricks]",
+   "existence": "confirmed",
+   "value": "12x reduction in computing costs",
+   "tier": "",
+   "url": "https://www.databricks.com/customers/block/unity-catalog",
+   "raw_sector": "",
+   "date": "missing",
+   "fresh": "undated"
+  },
   {
    "company": "Block, Inc.",
    "use": "\"Goose\" open-source AI coding agent (built with Anthropic) + Agentic AI Foundation; investor day cites AI-authored code & Cash App support cases handled by AI",
@@ -52,6 +88,50 @@
    "raw_sector": "Financials",
    "date": "missing",
    "fresh": "undated"
+  },
+  {
+   "company": "Block, Inc.",
+   "use": "Merchant operations automation (Managerbot)",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://getperspective.ai/blog/block-square-ai-customer-research-seller-ecosystem-2026",
+   "raw_sector": "",
+   "date": "2026-05-26",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Block, Inc.",
+   "use": "AI agents deployed to entire workforce",
+   "existence": "confirmed",
+   "value": "12000",
+   "tier": "",
+   "url": "https://thenewstack.io/how-block-got-12000-employees-using-ai-agents-in-two-months/",
+   "raw_sector": "",
+   "date": "2025-10-20",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Block, Inc.",
+   "use": "AI fraud detection and threat response in security systems",
+   "existence": "confirmed",
+   "value": "3500000000",
+   "tier": "",
+   "url": "https://block.xyz/inside/ai-block-customers",
+   "raw_sector": "",
+   "date": "2026-05-04",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Block, Inc.",
+   "use": "Internal engineering automation agent (Goose)",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://getperspective.ai/blog/block-square-ai-customer-research-seller-ecosystem-2026",
+   "raw_sector": "",
+   "date": "2026-05-26",
+   "fresh": "fresh"
   }
  ]
 }

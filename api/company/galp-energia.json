@@ -3,22 +3,22 @@
  "name": "Galp Energia",
  "cc": "PT",
  "vertical": "Energy & Utilities",
- "deployments": 2,
- "confirmed": 1,
+ "deployments": 5,
+ "confirmed": 4,
  "with_value_number": 0,
  "proof_rate": 0.0,
  "mktcap": 15962846960.0,
  "revenue": 21319796954.0,
  "employees": 7095.0,
  "silent": false,
- "per_bn_revenue": 0.09,
- "per_10k_emp": 2.82,
+ "per_bn_revenue": 0.23,
+ "per_10k_emp": 7.05,
  "benchmarks": {
   "global_vertical": {
-   "deployments": 72,
-   "confirmed": 20,
+   "deployments": 53,
+   "confirmed": 58,
    "proof_rate": 0,
-   "n": 210
+   "n": 213
   }
  },
  "first_seen": 2024,
@@ -28,16 +28,20 @@
    "n": 2
   }
  ],
- "undated_pct": 0,
+ "undated_pct": 60,
  "momentum": "early_mover,gone_quiet",
  "maturity": "L3",
  "maturity_evidence": [
+  "multi_horizontal",
   "named_product:Galp",
   "tier_p"
  ],
- "prospect_score": 46,
+ "prospect_score": 64,
  "stack": [
-  "IBM"
+  "C3.ai",
+  "IBM",
+  "Microsoft",
+  "SAP"
  ],
  "vendor_named": true,
  "deployments_detail": [
@@ -54,6 +58,17 @@
   },
   {
    "company": "Galp Energia",
+   "use": "Operational reliability prediction and efficiency optimization [C3 AI Reliability]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.linkedin.com/posts/brunoteles_maximizing-reliability-and-efficiency-for-activity-7318343906536906752-28MV",
+   "raw_sector": "",
+   "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "Galp Energia",
    "use": "AI integrated in CFO office (Planning, Procurement, Accounting) via partnership with Iventus for data-driven financial operations",
    "existence": "claimed",
    "value": "none",
@@ -62,6 +77,28 @@
    "raw_sector": "Energy",
    "date": "2024",
    "fresh": "aging"
+  },
+  {
+   "company": "Galp Energia",
+   "use": "Integrated operations platform for sustainability and energy innovation [IBM and SAP]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.ibm.com/case-studies/galp-energia-services-cloud-sap",
+   "raw_sector": "",
+   "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "Galp Energia",
+   "use": "Security threat detection and response across cloud and endpoints [Microsoft Defender (xDR platform, M365 E5)]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.microsoft.com/en/customers/story/1723806548866436285-galpenergia-microsoft-defender-for-office365-energy-en-portugal",
+   "raw_sector": "",
+   "date": "Jan 16, 2024",
+   "fresh": "undated"
   }
  ]
 }

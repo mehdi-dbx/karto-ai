@@ -3,45 +3,109 @@
  "name": "Salesforce",
  "cc": "US",
  "vertical": "Technology",
- "deployments": 1,
- "confirmed": 1,
- "with_value_number": 0,
- "proof_rate": 0.0,
+ "deployments": 9,
+ "confirmed": 9,
+ "with_value_number": 6,
+ "proof_rate": 0.667,
  "mktcap": 129110000000.0,
  "revenue": 42830000000.0,
  "employees": 83334.0,
  "silent": false,
- "per_bn_revenue": 0.02,
- "per_10k_emp": 0.12,
+ "per_bn_revenue": 0.21,
+ "per_10k_emp": 1.08,
  "benchmarks": {
   "global_vertical": {
-   "deployments": 0,
-   "confirmed": 6,
-   "proof_rate": 0,
-   "n": 156
+   "deployments": 49,
+   "confirmed": 65,
+   "proof_rate": 95,
+   "n": 159
   },
   "country_vertical": {
-   "deployments": 0,
-   "confirmed": 4,
-   "proof_rate": 0,
+   "deployments": 42,
+   "confirmed": 60,
+   "proof_rate": 99,
    "n": 74
   }
  },
- "first_seen": null,
- "by_year": [],
- "undated_pct": 100,
- "momentum": "none",
+ "first_seen": 2025,
+ "by_year": [
+  {
+   "year": 2025,
+   "n": 8
+  }
+ ],
+ "undated_pct": 11,
+ "momentum": "early_mover,rising",
  "maturity": "L3",
  "maturity_evidence": [
+  "multi_horizontal",
   "named_product:Agentforce",
+  "value_number",
   "tier_p"
  ],
- "prospect_score": 46,
+ "prospect_score": 67,
  "stack": [
+  "Google",
+  "Microsoft",
   "Salesforce"
  ],
  "vendor_named": true,
  "deployments_detail": [
+  {
+   "company": "Salesforce",
+   "use": "Agentforce on Salesforce Help — autonomous AI service agent answering customer support questions in natural language on the public help.salesforce.com site; passed 2M+ conversations and resolves the majority of visitor issues [Salesforce Agentforce]",
+   "existence": "confirmed",
+   "value": "over 2 million conversations handled",
+   "tier": "",
+   "url": "https://www.salesforce.com/blog/support-requests-agentforce/",
+   "raw_sector": "",
+   "date": "2025-11-06",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Salesforce",
+   "use": "Agentforce resolving customer support issues on the Salesforce Help site — case study reporting 75%+ issue resolution, 65% faster response for 90% of users, serving 1.7M+ users [Salesforce Agentforce]",
+   "existence": "confirmed",
+   "value": "resolves over 75% of visitor issues; 65% reduction in response time",
+   "tier": "",
+   "url": "https://www.salesforce.com/customer-stories/agentforce-for-customer-support/",
+   "raw_sector": "",
+   "date": "2025-01-22",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Salesforce",
+   "use": "AI agents (Agentforce) used to rebalance customer support workforce — CEO Marc Benioff stated support headcount was reduced from ~9,000 to ~5,000 as AI agents took on support work [Salesforce Agentforce]",
+   "existence": "confirmed",
+   "value": "~4,000 support roles cut (9,000 to 5,000)",
+   "tier": "",
+   "url": "https://finance.yahoo.com/news/salesforce-ceo-marc-benioff-says-145324020.html",
+   "raw_sector": "",
+   "date": "2025-09-02",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Salesforce",
+   "use": "CodeGenie — internal IDE-based generative-AI coding assistant used by Salesforce engineers for code generation and answering developer questions [Salesforce CodeGenie]",
+   "existence": "confirmed",
+   "value": "7M+ lines of code accepted; 500,000+ developer questions answered",
+   "tier": "",
+   "url": "https://www.salesforce.com/news/stories/codegenie-developer-agents/",
+   "raw_sector": "",
+   "date": "2025-03-31",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Salesforce",
+   "use": "Standardized AI coding tooling across engineering (Cursor and CodeGenie as default coding agents, plus GitHub Copilot and Gemini) rolled out to six major engineering clouds [Cursor, Salesforce CodeGenie, GitHub Copilot, Google Gemini]",
+   "existence": "confirmed",
+   "value": "90%+ adoption across 6 engineering clouds in 3 weeks; Cursor usage grew 300%",
+   "tier": "",
+   "url": "https://engineering.salesforce.com/how-salesforce-engineering-operationalized-ai-productivity-at-scale/",
+   "raw_sector": "",
+   "date": "2025-06-23",
+   "fresh": "fresh"
+  },
   {
    "company": "Salesforce",
    "use": "\"Agentforce\" agentic AI platform (autonomous customer/employee agents) + Einstein GenAI/predictive on Data Cloud",
@@ -52,6 +116,39 @@
    "raw_sector": "Information Technology",
    "date": "missing",
    "fresh": "undated"
+  },
+  {
+   "company": "Salesforce",
+   "use": "TechForce IT support agent — Agentforce in Slack giving Salesforce employees instant answers to common IT issues, automating routine IT tasks and escalating complex problems to humans [Salesforce Agentforce (Slack)]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://slack.com/blog/productivity/techforce-agent-ai-it-support-slack",
+   "raw_sector": "",
+   "date": "2025",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Salesforce",
+   "use": "Agentforce Customer Zero in Slack — internal employee support agents automating thousands of tickets across the business (Slack agents processed 18,000+ queries reducing repetitive support requests) [Salesforce Agentforce (Slack)]",
+   "existence": "confirmed",
+   "value": "18,000+ queries processed by internal Slack agents",
+   "tier": "",
+   "url": "https://www.salesforce.com/slack/agentforce-customer-zero/",
+   "raw_sector": "",
+   "date": "2025",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Salesforce",
+   "use": "Agentforce SDR (Sales Development Rep agent) used internally by Salesforce's own Global Sales Development teams to augment sellers with autonomous lead prospecting and nurturing [Salesforce Agentforce SDR]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.youtube.com/watch?v=WoaMFLkbyYc",
+   "raw_sector": "",
+   "date": "2025",
+   "fresh": "fresh"
   }
  ]
 }

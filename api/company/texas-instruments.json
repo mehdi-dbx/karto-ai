@@ -3,27 +3,27 @@
  "name": "Texas Instruments",
  "cc": "US",
  "vertical": "Technology",
- "deployments": 7,
- "confirmed": 4,
- "with_value_number": 0,
- "proof_rate": 0.0,
+ "deployments": 11,
+ "confirmed": 7,
+ "with_value_number": 1,
+ "proof_rate": 0.091,
  "mktcap": 256780000000.0,
  "revenue": 19450000000.0,
  "employees": 33000.0,
  "silent": false,
- "per_bn_revenue": 0.36,
- "per_10k_emp": 2.12,
+ "per_bn_revenue": 0.57,
+ "per_10k_emp": 3.33,
  "benchmarks": {
   "global_vertical": {
-   "deployments": 82,
-   "confirmed": 83,
-   "proof_rate": 0,
-   "n": 156
+   "deployments": 67,
+   "confirmed": 56,
+   "proof_rate": 38,
+   "n": 159
   },
   "country_vertical": {
-   "deployments": 71,
-   "confirmed": 74,
-   "proof_rate": 0,
+   "deployments": 63,
+   "confirmed": 52,
+   "proof_rate": 45,
    "n": 74
   }
  },
@@ -38,19 +38,36 @@
    "n": 5
   }
  ],
- "undated_pct": 14,
+ "undated_pct": 45,
  "momentum": "early_mover,rising",
  "maturity": "L4",
  "maturity_evidence": [
   "multi_horizontal",
   "named_product:TinyEngine",
+  "value_number",
   "multi_year",
   "tier_p"
  ],
- "prospect_score": 72,
- "stack": [],
- "vendor_named": false,
+ "prospect_score": 78,
+ "stack": [
+  "Anthropic",
+  "Microsoft",
+  "NVIDIA",
+  "OpenAI"
+ ],
+ "vendor_named": true,
  "deployments_detail": [
+  {
+   "company": "Texas Instruments",
+   "use": "Generative AI support in CCStudio IDE for development assistance across full development workflow for TI devices",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.youtube.com/watch?v=wRK1UbrSDQs",
+   "raw_sector": "",
+   "date": "missing",
+   "fresh": "undated"
+  },
   {
    "company": "Texas Instruments",
    "use": "Edge-AI microcontrollers + \"TinyEngine\" NPU for on-device AI (sensors, predictive maintenance, autonomy)",
@@ -60,6 +77,39 @@
    "url": "https://www.ti.com/technologies/edge-ai.html",
    "raw_sector": "Information Technology",
    "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "Texas Instruments",
+   "use": "Edge AI deployment across microcontrollers, processors, wireless connectivity and radar sensors with TinyEngine™ NPU for real-time decision-making in embedded systems [TinyEngine™ NPU]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.ti.com/technologies/edge-ai.html?srsltid=AfmBOopvSypgg_EnIiR1nh4j6Rvb-DYDSLWAm9dnYDOu0nKjSOGKFTMQ",
+   "raw_sector": "",
+   "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "Texas Instruments",
+   "use": "Power-management solutions for scalable AI infrastructures in collaboration with NVIDIA for next-generation data center architectures [NVIDIA]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.ti.com/about-ti/newsroom/news-releases/2025/tis-new-power-management-solutions-enable-scalable-ai-infrastructures.html?srsltid=AfmBOoogQDHF9FYcVYx4gyTK1i2N_R0oEeK-prOCeqCdh814pBK68_aB",
+   "raw_sector": "",
+   "date": "Oct 13, 2025",
+   "fresh": "undated"
+  },
+  {
+   "company": "Texas Instruments",
+   "use": "Edge AI pre-trained models for arc fault detection in solar panels with 20% improved accuracy",
+   "existence": "confirmed",
+   "value": "20%",
+   "tier": "",
+   "url": "https://www.ti.com/about-ti/behind-chip/articles/building-tomorrows-innovations-with-todays-edge-AI-enabled-devices.html?srsltid=AfmBOorGHT7mKiD45iVbveIyhdvyGdfj5iaTpjuoQ8p0myulFcJhvuXk",
+   "raw_sector": "",
+   "date": "Nov 11, 2025",
    "fresh": "undated"
   },
   {

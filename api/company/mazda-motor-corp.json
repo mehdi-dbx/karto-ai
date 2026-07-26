@@ -3,48 +3,62 @@
  "name": "Mazda Motor Corp.",
  "cc": "JP",
  "vertical": "Automotive",
- "deployments": 2,
- "confirmed": 1,
- "with_value_number": 1,
- "proof_rate": 0.5,
+ "deployments": 12,
+ "confirmed": 9,
+ "with_value_number": 8,
+ "proof_rate": 0.667,
  "mktcap": 4874066667.0,
  "revenue": 32800000000.0,
  "employees": 47144.0,
  "silent": false,
- "per_bn_revenue": 0.06,
- "per_10k_emp": 0.42,
+ "per_bn_revenue": 0.37,
+ "per_10k_emp": 2.55,
  "benchmarks": {
   "global_vertical": {
-   "deployments": 62,
-   "confirmed": 10,
-   "proof_rate": 72,
+   "deployments": 74,
+   "confirmed": 74,
+   "proof_rate": 100,
    "n": 40
   },
   "country_vertical": {
-   "deployments": 33,
-   "confirmed": 0,
-   "proof_rate": 67,
+   "deployments": 78,
+   "confirmed": 78,
+   "proof_rate": 100,
    "n": 10
   }
  },
- "first_seen": 2025,
+ "first_seen": 2023,
  "by_year": [
   {
+   "year": 2023,
+   "n": 1
+  },
+  {
    "year": 2025,
-   "n": 2
+   "n": 7
+  },
+  {
+   "year": 2026,
+   "n": 4
   }
  ],
  "undated_pct": 0,
- "momentum": "rising",
- "maturity": "L3",
+ "momentum": "early_mover,rising",
+ "maturity": "L4",
  "maturity_evidence": [
+  "multi_horizontal",
   "named_product:MAX",
   "value_number",
+  "multi_year",
   "tier_p"
  ],
- "prospect_score": 26,
+ "prospect_score": 67,
  "stack": [
-  "Microsoft Azure"
+  "Databricks",
+  "Google",
+  "Microsoft",
+  "Microsoft Azure",
+  "OpenAI"
  ],
  "vendor_named": true,
  "deployments_detail": [
@@ -68,6 +82,116 @@
    "url": "https://www.protiviti.com/jp-jp/press-release-december-22-2025",
    "raw_sector": "Automotive",
    "date": "2025",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Mazda Motor Corp.",
+   "use": "Machine-learning-driven design space exploration and calibration to accelerate vehicle design/development and reduce reliance on expensive physical simulations. Long-running partnership (3+ years) with commercial deployment of solutions; Mazda also invested in Secondmind's funding round. [Secondmind]",
+   "existence": "confirmed",
+   "value": "$16M funding round (Mazda investor)",
+   "tier": "",
+   "url": "https://www.secondmind.ai/company/news/secondmind-expands-strategic-partnership-with-mazda",
+   "raw_sector": "",
+   "date": "2023-11-28",
+   "fresh": "stale"
+  },
+  {
+   "company": "Mazda Motor Corp.",
+   "use": "AI-driven simulation and design optimization for in-vehicle audio/acoustics (speaker performance, speaker grille and full-vehicle interior acoustics 20Hz-20kHz), used in model-based development to cut prototypes. [Siemens (Simcenter HEEDS, Simcenter 3D, NASTRAN)]",
+   "existence": "confirmed",
+   "value": "Speaker-grille simulation cut from 2.5 days to 4 hours; full analysis of 8 speaker models in 2 hours",
+   "tier": "",
+   "url": "https://resources.sw.siemens.com/en-US/case-study-mazda-engineering-and-technology/",
+   "raw_sector": "",
+   "date": "2025-07-24",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Mazda Motor Corp.",
+   "use": "In-car AI voice assistant: the all-new 2026 Mazda CX-5 is the first Mazda to ship with Google built-in (Google Assistant, Google Maps, Google Play), with the Google Gemini conversational AI assistant arriving in a future software update. [Google (Google built-in, Assistant, Gemini)]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.mazdausa.com/vehicles/cx-5",
+   "raw_sector": "",
+   "date": "2025-11-28",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Mazda Motor Corp.",
+   "use": "Broader use of generative AI to accelerate vehicle design and early development via increased virtualization and data-efficient models, reducing time and cost and lessening the need for expensive physical simulations. [none]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.autonews.com/technology/ane-mazda-ai-simulations-calibration-0724/",
+   "raw_sector": "",
+   "date": "2025-07-24",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Mazda Motor Corp.",
+   "use": "GenAI RAG assistant for technical service hotline agents, combining warranty/repair history, diagnostic codes and service documents to guide technicians through unfamiliar repairs. Built by Mazda North American Operations on Databricks (Unity Catalog, Vector Search, MLflow 3, Databricks Apps/Streamlit, Foundation Model API). Went from kickoff to working concept in ~8 weeks, tested with 10 service agents. [Databricks]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.databricks.com/blog/legacy-lakehouse-how-mazda-accelerated-genai-technical-service-operations",
+   "raw_sector": "",
+   "date": "2026-03-20",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Mazda Motor Corp.",
+   "use": "Service-department program in which dealership technicians record personalized inspection/repair videos for customers, reinforced by AI feedback/coaching. Rolled out and trained across Mazda's ~550 US dealerships to drive service retention and loyalty. [none]",
+   "existence": "confirmed",
+   "value": "Customers 95% more likely to return; trained across 550 dealerships",
+   "tier": "",
+   "url": "https://www.forbes.com/sites/kristinshaw/2026/04/29/mazda-employs-video-and-ai-at-to-build-loyalty-and-its-working/",
+   "raw_sector": "",
+   "date": "2026-04-29",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Mazda Motor Corp.",
+   "use": "AI-produced television/social commercial for the MX-5 relaunch in the South African market, generated with Luma's AI agents by agency Boundless. Mazda's first AI-produced commercial, completed in under two weeks from brief to final approval. [Luma AI (Luma Agents); agency Boundless]",
+   "existence": "confirmed",
+   "value": "Produced in under 2 weeks",
+   "tier": "",
+   "url": "https://www.businesswire.com/news/home/20260415098939/en/South-African-Agency-Boundless-Delivers-Mazdas-First-AI-produced-Commercial-Using-Luma-Agents",
+   "raw_sector": "",
+   "date": "2026-04-15",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Mazda Motor Corp.",
+   "use": "Consolidation of ~30 years of simulation/model-based-development and CAD data onto Dell PowerScale to build a data lake supporting AI workloads; managed with Dell InsightIQ AIOps, SnapshotIQ and SyncIQ. Deployed to support model-based development and future generative-AI workloads. [Dell Technologies (PowerScale, InsightIQ)]",
+   "existence": "confirmed",
+   "value": "Capacity expanded ~4PB to 10PB; ~90% reduction in storage cost per unit",
+   "tier": "",
+   "url": "https://www.digitalengineering247.com/article/mazda-unifies-model-based-development-and-cad-storage-with-dell-ai-tools",
+   "raw_sector": "",
+   "date": "2026-05-21",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Mazda Motor Corp.",
+   "use": "Enterprise conversational-AI tools rolled out for administrative work (accounting, procurement, HR, PR), part of a productivity drive. Mazda uses Microsoft Copilot and OpenAI ChatGPT while also building a proprietary in-house AI system. An AI transformation department (~70 staff, expanding to ~400) was created in Sept 2025. [Microsoft (Copilot), OpenAI (ChatGPT)]",
+   "existence": "confirmed",
+   "value": "Goal to double productivity by 2030 (5 people do work of 10)",
+   "tier": "",
+   "url": "https://www.just-auto.com/news/mazda-promotes-ai-use/",
+   "raw_sector": "",
+   "date": "2025-11-20",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Mazda Motor Corp.",
+   "use": "AI-assisted pilot to automate Mazda's monthly global production report, which had taken ~50 hours to compile across disparate systems. Also testing AI translation and voice synthesis for multilingual executive communications. Part of the same administrative-productivity program. [none]",
+   "existence": "claimed",
+   "value": "Global production report compilation reduced from ~50 hours",
+   "tier": "",
+   "url": "https://asia.nikkei.com/business/automobiles/mazda-leverages-ai-to-compete-with-bigger-automakers",
+   "raw_sector": "",
+   "date": "2025-11-20",
    "fresh": "fresh"
   }
  ]

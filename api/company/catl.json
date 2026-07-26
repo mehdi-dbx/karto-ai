@@ -3,10 +3,10 @@
  "name": "CATL",
  "cc": "CN",
  "vertical": "Industrial / Machinery",
- "deployments": 1,
- "confirmed": 1,
+ "deployments": 3,
+ "confirmed": 3,
  "with_value_number": 1,
- "proof_rate": 1.0,
+ "proof_rate": 0.333,
  "mktcap": null,
  "revenue": null,
  "employees": null,
@@ -15,27 +15,32 @@
  "per_10k_emp": null,
  "benchmarks": {
   "global_vertical": {
-   "deployments": 0,
-   "confirmed": 14,
-   "proof_rate": 79,
-   "n": 175
+   "deployments": 13,
+   "confirmed": 39,
+   "proof_rate": 82,
+   "n": 176
   },
   "country_vertical": {
-   "deployments": 0,
-   "confirmed": 8,
-   "proof_rate": 46,
+   "deployments": 31,
+   "confirmed": 62,
+   "proof_rate": 77,
    "n": 14
   }
  },
- "first_seen": null,
- "by_year": [],
- "undated_pct": 100,
- "momentum": "none",
+ "first_seen": 2026,
+ "by_year": [
+  {
+   "year": 2026,
+   "n": 2
+  }
+ ],
+ "undated_pct": 33,
+ "momentum": "late_entrant,rising",
  "maturity": "L3",
  "maturity_evidence": [
   "value_number"
  ],
- "prospect_score": 14,
+ "prospect_score": 53,
  "stack": [],
  "vendor_named": false,
  "deployments_detail": [
@@ -49,6 +54,28 @@
    "raw_sector": "Industrials",
    "date": "missing",
    "fresh": "undated"
+  },
+  {
+   "company": "CATL",
+   "use": "AI-driven next-generation battery design with augmented intelligence and virtual battery modeling",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.catl.com/en/news/6663.html",
+   "raw_sector": "",
+   "date": "2026-01-19",
+   "fresh": "fresh"
+  },
+  {
+   "company": "CATL",
+   "use": "AI-driven tools across battery value chain including design-stage modeling",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.bestmag.co.uk/catl-energy-ai-link-storage-systems/",
+   "raw_sector": "",
+   "date": "2026-03-26",
+   "fresh": "fresh"
   }
  ]
 }

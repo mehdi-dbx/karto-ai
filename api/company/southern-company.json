@@ -3,42 +3,53 @@
  "name": "Southern Company",
  "cc": "US",
  "vertical": "Energy & Utilities",
- "deployments": 1,
- "confirmed": 1,
+ "deployments": 12,
+ "confirmed": 7,
  "with_value_number": 1,
- "proof_rate": 1.0,
+ "proof_rate": 0.083,
  "mktcap": 108420000000.0,
  "revenue": 30180000000.0,
  "employees": 29800.0,
  "silent": false,
- "per_bn_revenue": 0.03,
- "per_10k_emp": 0.34,
+ "per_bn_revenue": 0.4,
+ "per_10k_emp": 4.03,
  "benchmarks": {
   "global_vertical": {
-   "deployments": 0,
-   "confirmed": 20,
-   "proof_rate": 75,
-   "n": 210
+   "deployments": 89,
+   "confirmed": 81,
+   "proof_rate": 42,
+   "n": 213
   },
   "country_vertical": {
-   "deployments": 0,
-   "confirmed": 39,
-   "proof_rate": 92,
+   "deployments": 94,
+   "confirmed": 82,
+   "proof_rate": 69,
    "n": 52
   }
  },
- "first_seen": null,
- "by_year": [],
- "undated_pct": 100,
- "momentum": "none",
+ "first_seen": 2025,
+ "by_year": [
+  {
+   "year": 2025,
+   "n": 1
+  }
+ ],
+ "undated_pct": 92,
+ "momentum": "rising",
  "maturity": "L3",
  "maturity_evidence": [
+  "multi_horizontal",
   "named_product:Databricks",
   "value_number"
  ],
- "prospect_score": 6,
+ "prospect_score": 79,
  "stack": [
-  "Databricks"
+  "Amazon AWS",
+  "Cohere",
+  "Databricks",
+  "Google",
+  "Microsoft",
+  "Palantir"
  ],
  "vendor_named": true,
  "deployments_detail": [
@@ -51,6 +62,127 @@
    "url": "https://www.databricks.com/blog/unlocking-future-energy-smart-meter-innovation",
    "raw_sector": "Utilities",
    "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "Southern Company",
+   "use": "Governed data platform for enterprise AI models",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.cgi.com/en/podcast/energy-utilities/how-southern-company-turned-governed-data-enterprise-ai-value",
+   "raw_sector": "",
+   "date": "Jul 10, 2026",
+   "fresh": "undated"
+  },
+  {
+   "company": "Southern Company",
+   "use": "AI applications in nuclear power operations",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.southerncompany.com/miscellaneous-pages/2025-year-in-review.html",
+   "raw_sector": "",
+   "date": "2025",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Southern Company",
+   "use": "Digital twin for infrastructure management",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.southerncompany.com/newsroom/innovation/southern-company-is-revolutionizing-infrastructure-management-wi.html",
+   "raw_sector": "",
+   "date": "Jun 3, 2025",
+   "fresh": "undated"
+  },
+  {
+   "company": "Southern Company",
+   "use": "Named as a Microsoft Copilot customer/case study [Microsoft Copilot] [Microsoft Copilot]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.appsruntheworld.com/customers-database/products/view/microsoft-365-copilot",
+   "raw_sector": "",
+   "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "Southern Company",
+   "use": "Named as a Amazon Bedrock customer/case study [Amazon Bedrock] [Amazon Bedrock]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.appsruntheworld.com/customers-database/products/view/amazon-bedrock",
+   "raw_sector": "",
+   "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "Southern Company",
+   "use": "Named as a Google Gemini / Vertex AI customer/case study [Google Gemini / Vertex AI] [Google Gemini / Vertex AI]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.appsruntheworld.com/customers-database/products/view/google-cloud-vertex-ai",
+   "raw_sector": "",
+   "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "Southern Company",
+   "use": "Named as a Databricks customer/case study [Databricks] [Databricks]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.appsruntheworld.com/customers-database/products/view/microsoft-azure-databricks-ai",
+   "raw_sector": "",
+   "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "Southern Company",
+   "use": "Named as a Palantir customer/case study [Palantir] [Palantir]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.appsruntheworld.com/customers-database/products/view/palantir-aip-platform",
+   "raw_sector": "",
+   "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "Southern Company",
+   "use": "Named as a Cohere customer/case study [Cohere] [Cohere]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.appsruntheworld.com/customers-database/products/view/cohere-ai",
+   "raw_sector": "",
+   "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "Southern Company",
+   "use": "Voice AI for document search and retrieval [Datch]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.datch.io/blog/datch-collaborates-with-southern-company-on-voice-ai-technology",
+   "raw_sector": "",
+   "date": "Feb 26, 2024",
+   "fresh": "undated"
+  },
+  {
+   "company": "Southern Company",
+   "use": "AI for worker safety threat prediction [Urbint]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.3blmedia.com/news/southern-company-subsidiaries-among-first-use-ai-enhance-worker-safety",
+   "raw_sector": "",
+   "date": "Jul 6, 2023",
    "fresh": "undated"
   }
  ]

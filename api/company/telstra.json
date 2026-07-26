@@ -3,22 +3,22 @@
  "name": "Telstra",
  "cc": "AU",
  "vertical": "Telecom",
- "deployments": 2,
- "confirmed": 1,
- "with_value_number": 1,
- "proof_rate": 0.5,
+ "deployments": 8,
+ "confirmed": 7,
+ "with_value_number": 2,
+ "proof_rate": 0.25,
  "mktcap": 36420000000.0,
  "revenue": 15420000000.0,
  "employees": 29520.0,
  "silent": false,
- "per_bn_revenue": 0.13,
- "per_10k_emp": 0.68,
+ "per_bn_revenue": 0.52,
+ "per_10k_emp": 2.71,
  "benchmarks": {
   "global_vertical": {
-   "deployments": 57,
-   "confirmed": 16,
-   "proof_rate": 58,
-   "n": 93
+   "deployments": 45,
+   "confirmed": 57,
+   "proof_rate": 34,
+   "n": 94
   }
  },
  "first_seen": 2024,
@@ -29,19 +29,24 @@
   },
   {
    "year": 2025,
-   "n": 1
+   "n": 3
   }
  ],
- "undated_pct": 0,
- "momentum": "early_mover,flat",
- "maturity": "L3",
+ "undated_pct": 50,
+ "momentum": "early_mover,rising",
+ "maturity": "L4",
  "maturity_evidence": [
+  "multi_horizontal",
   "named_product:Ask Telstra",
+  "value_number",
+  "multi_year",
   "tier_p"
  ],
- "prospect_score": 26,
+ "prospect_score": 72,
  "stack": [
   "Accenture",
+  "Amazon AWS",
+  "Databricks",
   "Microsoft",
   "Microsoft Azure",
   "OpenAI"
@@ -61,6 +66,28 @@
   },
   {
    "company": "Telstra",
+   "use": "Generative AI tools for customer service and employee effectiveness",
+   "existence": "confirmed",
+   "value": "90% employee effectiveness improvement, 20% reduction in follow-up contacts",
+   "tier": "",
+   "url": "https://chiefaiofficer.com/how-telstra-and-nab-rebuilt-customer-experience-around-ai/",
+   "raw_sector": "",
+   "date": "2025-09-21",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Telstra",
+   "use": "AI for summarising customer interactions and experiences",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.telstra.com.au/consumer-advice/your-information/machine-learning-and-ai",
+   "raw_sector": "",
+   "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "Telstra",
    "use": "Seven-year AUD 700m deal with Accenture for one of Australia's largest telecom AI deployments across operations",
    "existence": "claimed",
    "value": "AUD 700m",
@@ -69,6 +96,50 @@
    "raw_sector": "Telecom",
    "date": "2025",
    "fresh": "fresh"
+  },
+  {
+   "company": "Telstra",
+   "use": "AI Silicon Valley hub for incubating and accelerating AI solutions and foundational architecture [AWS, Databricks, Microsoft]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://newsroom.accenture.com/news/2025/telstra-and-accenture-launch-silicon-valley-hub-to-rapidly-advance-benefits-of-ai-for-telstra-customers-and-people",
+   "raw_sector": "",
+   "date": "2025-05-13",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Telstra",
+   "use": "AI agents to automatically find and fix customer data errors",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.linkedin.com/posts/cyber-news-live_telstras-ai-bid-to-nip-customer-complaints-activity-7453529688498671616-LlsE",
+   "raw_sector": "",
+   "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "Telstra",
+   "use": "AI for credit assessment",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.telstra.com.au/consumer-advice/your-information/machine-learning-and-ai",
+   "raw_sector": "",
+   "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "Telstra",
+   "use": "AI for digital marketing and personalisation",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.telstra.com.au/consumer-advice/your-information/machine-learning-and-ai",
+   "raw_sector": "",
+   "date": "missing",
+   "fresh": "undated"
   }
  ]
 }

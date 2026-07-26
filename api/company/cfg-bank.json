@@ -3,8 +3,8 @@
  "name": "CFG Bank",
  "cc": "MA",
  "vertical": "Financial Services",
- "deployments": 1,
- "confirmed": 0,
+ "deployments": 7,
+ "confirmed": 4,
  "with_value_number": 0,
  "proof_rate": 0.0,
  "mktcap": 665000000.0,
@@ -15,14 +15,14 @@
  "per_10k_emp": null,
  "benchmarks": {
   "global_vertical": {
-   "deployments": 0,
-   "confirmed": 0,
+   "deployments": 51,
+   "confirmed": 39,
    "proof_rate": 0,
-   "n": 377
+   "n": 388
   },
   "country_vertical": {
-   "deployments": 0,
-   "confirmed": 0,
+   "deployments": 50,
+   "confirmed": 70,
    "proof_rate": 0,
    "n": 11
   }
@@ -34,13 +34,14 @@
    "n": 1
   }
  ],
- "undated_pct": 0,
+ "undated_pct": 86,
  "momentum": "early_mover,gone_quiet",
- "maturity": "L1",
+ "maturity": "L3",
  "maturity_evidence": [
-  "rows_no_confirmed"
+  "multi_horizontal",
+  "named_product:Virtual"
  ],
- "prospect_score": 40,
+ "prospect_score": 72,
  "stack": [],
  "vendor_named": false,
  "deployments_detail": [
@@ -54,6 +55,72 @@
    "raw_sector": "Financials / Banques",
    "date": "2019",
    "fresh": "stale"
+  },
+  {
+   "company": "CFG Bank",
+   "use": "Virtual assistant / chatbot on the website and mobile app answering customer product and account-opening questions 24/7, described as a channel that 'learns every day' and is continuously enriched. [not disclosed]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.cfgbank.com/particuliers/cfg-bank-et-moi/multicanal/le-chatbot-cfg-bank/",
+   "raw_sector": "",
+   "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "CFG Bank",
+   "use": "Automatic pre-categorization of income and expenses in the mobile app (personal financial management), classifying identifiable transactions into spending categories with analytics/charts of spending habits. [built on Kony DBX / Temenos Digital Banking platform]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://play.google.com/store/apps/details?id=com.cfgbank.mobileapp&hl=fr",
+   "raw_sector": "",
+   "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "CFG Bank",
+   "use": "Announced intent (with digital-banking vendor Kony) to adopt artificial intelligence, data analysis and behavioral analysis to improve the online customer experience. [Kony]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://lematin.ma/journal/2019/cfg-bank-investira-lintelligence-artificielle/310393/amp",
+   "raw_sector": "",
+   "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "CFG Bank",
+   "use": "Plan to pair artificial intelligence with data analytics and consumer behavior analysis to predict and assist decision-making for client and bank (stated by Retail Executive Director Moulhim Aouad; described in the Temenos success story as not yet in production). [Temenos (Kony DBX)]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.temenos.com/success-story/cfg-bank-success-story/",
+   "raw_sector": "",
+   "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "CFG Bank",
+   "use": "Facial biometric identity verification (selfie-based) during 100% digital remote account opening via the 'Be CFG Bank' app, confirming the customer's identity with biometric technology. [not disclosed]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://apps.apple.com/us/app/be-cfg-bank/id1562315110",
+   "raw_sector": "",
+   "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "CFG Bank",
+   "use": "Automated ID-document authenticity check from a photo of the identity document during remote onboarding in the 'Be CFG Bank' app (part of the eKYC flow). [not disclosed]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://play.google.com/store/apps/details?id=com.cfgbank.deer&hl=en_US",
+   "raw_sector": "",
+   "date": "missing",
+   "fresh": "undated"
   }
  ]
 }

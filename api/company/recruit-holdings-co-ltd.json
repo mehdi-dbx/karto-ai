@@ -3,38 +3,123 @@
  "name": "Recruit Holdings Co., Ltd.",
  "cc": "JP",
  "vertical": "Technology",
- "deployments": 1,
- "confirmed": 1,
- "with_value_number": 1,
- "proof_rate": 1.0,
+ "deployments": 10,
+ "confirmed": 9,
+ "with_value_number": 7,
+ "proof_rate": 0.7,
  "mktcap": 114400000000.0,
  "revenue": 24666666667.0,
  "employees": 45586.0,
  "silent": false,
- "per_bn_revenue": 0.04,
- "per_10k_emp": 0.22,
+ "per_bn_revenue": 0.41,
+ "per_10k_emp": 2.19,
  "benchmarks": {
   "global_vertical": {
-   "deployments": 0,
-   "confirmed": 6,
-   "proof_rate": 80,
-   "n": 156
+   "deployments": 58,
+   "confirmed": 65,
+   "proof_rate": 97,
+   "n": 159
   }
  },
- "first_seen": null,
- "by_year": [],
- "undated_pct": 100,
- "momentum": "none",
- "maturity": "L3",
+ "first_seen": 2024,
+ "by_year": [
+  {
+   "year": 2024,
+   "n": 2
+  },
+  {
+   "year": 2025,
+   "n": 5
+  },
+  {
+   "year": 2026,
+   "n": 2
+  }
+ ],
+ "undated_pct": 10,
+ "momentum": "early_mover,rising",
+ "maturity": "L4",
  "maturity_evidence": [
+  "multi_horizontal",
   "named_product:Career Scout",
   "value_number",
+  "multi_year",
   "tier_p"
  ],
- "prospect_score": 14,
- "stack": [],
- "vendor_named": false,
+ "prospect_score": 66,
+ "stack": [
+  "Amazon AWS",
+  "OpenAI",
+  "Salesforce"
+ ],
+ "vendor_named": true,
  "deployments_detail": [
+  {
+   "company": "Recruit Holdings Co., Ltd.",
+   "use": "Indeed's Core AI team fine-tunes and deploys open-source LLMs on Amazon SageMaker to power HR-specific tasks: match explanations, job-description generation, resume/job skill extraction, match labeling, and career guides. Runs in production serving job matching at scale. [AWS (Amazon SageMaker, Hugging Face TGI, open-source LLMs)]",
+   "existence": "confirmed",
+   "value": "Over 6.5M live production requests served; up to 3M requests/day; 67% cheaper than third-party vendor models; P99 latency under 7s; 75+ models fine-tuned; 4-5x improvement on HR-specific tasks",
+   "tier": "",
+   "url": "https://aws.amazon.com/blogs/machine-learning/how-indeed-builds-and-deploys-fine-tuned-llms-on-amazon-sagemaker/",
+   "raw_sector": "",
+   "date": "2024-10-11",
+   "fresh": "aging"
+  },
+  {
+   "company": "Recruit Holdings Co., Ltd.",
+   "use": "Indeed Smart Sourcing: AI-powered candidate sourcing suite that uses Indeed's AI matching engine to recommend candidates from ~300M-worker talent pool, generates AI candidate summaries explaining fit, and drafts AI-powered outreach messages to accelerate hiring. [Indeed (in-house AI matching)]",
+   "existence": "confirmed",
+   "value": "Matched candidates 17x more likely to apply when invited; 83% of employers call it their most effective communication method; 78% cite it as fastest way to make quality hires; one client saw 30% improvement in response rates",
+   "tier": "",
+   "url": "https://www.indeed.com/news/releases/indeed-launches-ai-powered-smart-sourcing-to-make-hiring-faster-by-matching-and-connecting-people-with-relevant-jobs",
+   "raw_sector": "",
+   "date": "2024-04-02",
+   "fresh": "aging"
+  },
+  {
+   "company": "Recruit Holdings Co., Ltd.",
+   "use": "Indeed Talent Scout: AI-powered conversational hiring agent for employers that sources, matches, and reaches out to candidates, provides real-time insights, and recommends job-post improvements; integrates with the employer's ATS. Launched at FutureWorks 2025. [Indeed (in-house AI agent)]",
+   "existence": "confirmed",
+   "value": "Over 1,000 employers already using it; BrightSpring Health Services reported 45% increase in hard-to-fill hires within four weeks; users saved eight hours weekly",
+   "tier": "",
+   "url": "https://www.indeed.com/lead/indeed-talent-scout-futureworks-2025",
+   "raw_sector": "",
+   "date": "2025-09-10",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Recruit Holdings Co., Ltd.",
+   "use": "Indeed Career Scout: AI career-coach agent for job seekers that learns skills, commute preferences, schedule and salary beyond a traditional resume to match people with roles, tailor resumes, and prep for interviews. Rolling out in the Indeed app. [Indeed (in-house AI agent)]",
+   "existence": "confirmed",
+   "value": "84% of job seekers find it valuable; 7x faster job discovery and application vs mobile app users; 38% increased likelihood of getting hired",
+   "tier": "",
+   "url": "https://www.indeed.com/lead/indeed-talent-scout-futureworks-2025",
+   "raw_sector": "",
+   "date": "2025-09-10",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Recruit Holdings Co., Ltd.",
+   "use": "Indeed AI-driven job matching and recommendations engine: machine-learning algorithms match job seekers with employers, driving the majority of applications on the platform through recommendations and sourcing tools rather than keyword search. [Indeed (in-house ML)]",
+   "existence": "confirmed",
+   "value": "~70% of applications come from AI-driven recommendations/sourcing (vs ~30% keyword search); 31 hires per minute (one person hired every ~2 seconds); Premium Sponsored Jobs cut time-to-hire ~50%",
+   "tier": "",
+   "url": "https://recruit-holdings.com/en/ir/library/upload/recruit_202603Q4_call-transcript_en/",
+   "raw_sector": "",
+   "date": "2026-05-15",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Recruit Holdings Co., Ltd.",
+   "use": "Indeed AI Mock Interview tool (part of Career Scout): generates a report and personalized feedback based on a job seeker's responses to behavioral interview questions to help candidates prepare. [Indeed (in-house AI)]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.indeed.com/career-advice/news/ai-mock-interview",
+   "raw_sector": "",
+   "date": "2025-11-28",
+   "fresh": "fresh"
+  },
   {
    "company": "Recruit Holdings Co., Ltd.",
    "use": "Indeed AI recruitment: interview automation, \"Career Scout\"/\"Talent Scout\" AI matching, AI job-data refinement",
@@ -45,6 +130,39 @@
    "raw_sector": "Services",
    "date": "missing",
    "fresh": "undated"
+  },
+  {
+   "company": "Recruit Holdings Co., Ltd.",
+   "use": "Salesforce AI agents deployed for go-to-market activities, plus internal agentic products, built primarily on AWS Bedrock-type platforms and in-house developer tools; company remains model-agnostic (currently using OpenAI-based models among others). [Salesforce (Agentforce), AWS Bedrock, OpenAI]",
+   "existence": "confirmed",
+   "value": "4 Salesforce agents deployed for go-to-market; 6 internal agentic products in production; 20+ additional agents in development",
+   "tier": "",
+   "url": "https://www.cio.com/article/4016971/indeed-puts-ai-to-work-to-help-job-seekers-find-new-roles.html",
+   "raw_sector": "",
+   "date": "2025-07-14",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Recruit Holdings Co., Ltd.",
+   "use": "Indeed intelligent risk management / trust and safety: AI-based system to manage fraud and risk across the platform, presented as an AWS re:Invent 2025 session on scaling responsible AI. [AWS]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.youtube.com/watch?v=7nY-BifCorI",
+   "raw_sector": "",
+   "date": "2025-12-01",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Recruit Holdings Co., Ltd.",
+   "use": "AI scoring of sales conversations: Indeed uses AI to analyze recorded sales conversations, identify patterns from top performers, and coach underperforming sales teams (sales enablement). [Indeed (in-house AI)]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://recruit-holdings.com/en/ir/library/upload/recruit_202603Q4_call-transcript_en/",
+   "raw_sector": "",
+   "date": "2026-05-15",
+   "fresh": "fresh"
   }
  ]
 }

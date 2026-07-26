@@ -3,27 +3,27 @@
  "name": "Gree Electric Appliances",
  "cc": "CN",
  "vertical": "Manufacturing & Robotics",
- "deployments": 2,
- "confirmed": 0,
- "with_value_number": 1,
- "proof_rate": 0.5,
+ "deployments": 12,
+ "confirmed": 9,
+ "with_value_number": 7,
+ "proof_rate": 0.583,
  "mktcap": 31470833333.0,
  "revenue": 23876388889.0,
  "employees": 71966.0,
  "silent": false,
- "per_bn_revenue": 0.08,
- "per_10k_emp": 0.28,
+ "per_bn_revenue": 0.5,
+ "per_10k_emp": 1.67,
  "benchmarks": {
   "global_vertical": {
-   "deployments": 64,
-   "confirmed": 0,
-   "proof_rate": 74,
-   "n": 147
+   "deployments": 86,
+   "confirmed": 85,
+   "proof_rate": 90,
+   "n": 150
   },
   "country_vertical": {
    "deployments": 91,
-   "confirmed": 0,
-   "proof_rate": 45,
+   "confirmed": 82,
+   "proof_rate": 73,
    "n": 12
   }
  },
@@ -31,18 +31,27 @@
  "by_year": [
   {
    "year": 2025,
-   "n": 1
+   "n": 7
+  },
+  {
+   "year": 2026,
+   "n": 4
   }
  ],
- "undated_pct": 50,
+ "undated_pct": 8,
  "momentum": "rising",
- "maturity": "L1",
+ "maturity": "L4",
  "maturity_evidence": [
-  "rows_no_confirmed"
+  "multi_horizontal",
+  "named_product:Jinwan",
+  "value_number",
+  "multi_year"
  ],
- "prospect_score": 20,
- "stack": [],
- "vendor_named": false,
+ "prospect_score": 71,
+ "stack": [
+  "DeepSeek"
+ ],
+ "vendor_named": true,
  "deployments_detail": [
   {
    "company": "Gree Electric Appliances",
@@ -64,6 +73,116 @@
    "url": "https://www.toutiao.com/article/7480197108927087113/",
    "raw_sector": "Consumer Discretionary",
    "date": "2025",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Gree Electric Appliances",
+   "use": "AI machine-vision quality inspection at the Jinwan (Zhuhai) intelligent factory replaces manual visual inspection; the system automatically tests 16 critical performance indicators per air-conditioning unit (cooling capacity, heating, sleep mode, electrical parameters) and uses models trained on 300,000+ data points to recognize fault sounds and anomalies. [Gree (self-developed AI vision)]",
+   "existence": "confirmed",
+   "value": "16 performance indicators tested per unit; 300,000+ data points used to train fault-recognition models",
+   "tier": "",
+   "url": "https://www.stcn.com/article/detail/3539094.html",
+   "raw_sector": "",
+   "date": "2025-12-13",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Gree Electric Appliances",
+   "use": "Over 2,000 self-developed industrial robots operate in coordinated production at the Jinwan smart factory under unified AI-system scheduling, with AI-driven state sensing, real-time analysis and autonomous decision-making across the manufacturing process. [Gree (self-developed robots and AI scheduling system)]",
+   "existence": "confirmed",
+   "value": "2,000+ self-developed industrial robots; equipment self-manufacture rate 80%",
+   "tier": "",
+   "url": "https://finance.ifeng.com/c/8oy2D1xncfo",
+   "raw_sector": "",
+   "date": "2025-12-10",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Gree Electric Appliances",
+   "use": "5.5G private-network 'lights-out' factory combining AI foundation models with 5.5G ultra-low-latency/high-uplink networks, RedCap terminals and precise positioning (LPHAP) to enable end-to-end device connectivity, intelligent logistics and online quality inspection at the Gaolan (Zhuhai) plant. Won GSMA GLOMO 'Best Private Network Solution' and 'Best Mobile Innovation for Connected Economy' at MWC 2025. [Huawei, China Unicom Guangdong]",
+   "existence": "confirmed",
+   "value": "Production efficiency increase 86%; annual capacity 12 million split ACs; zero reported quality defects; tens of thousands of connected devices",
+   "tier": "",
+   "url": "https://www.huawei.com/en/news/2025/3/mwc-best-private-network-solution",
+   "raw_sector": "",
+   "date": "2025-03-07",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Gree Electric Appliances",
+   "use": "Gree integrated DeepSeek R1 (full version) with its own multi-model framework into voice-controlled air conditioners, moving from a traditional voice assistant to AI-based reasoning and decision-making with whole-home device connectivity. [DeepSeek (DeepSeek-R1)]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://finance.sina.com.cn/roll/2025-03-10/doc-inepcncv6705116.shtml",
+   "raw_sector": "",
+   "date": "2025-03-10",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Gree Electric Appliances",
+   "use": "'AI Cold Quiet King' cabinet air conditioner acts as a whole-home smart hub, processing temperature/humidity/air-quality data through Gree's proprietary self-developed home-appliance AI large model to autonomously manage air and coordinate lighting, security and other appliances in a 'person-home-car' ecosystem. [Gree (self-developed home-appliance AI large model)]",
+   "existence": "confirmed",
+   "value": "Reduces annual electricity consumption by 23% vs. first-generation efficiency products",
+   "tier": "",
+   "url": "https://finance.sina.cn/stock/ggyj/2026-03-16/detail-inhrequr8752571.d.html",
+   "raw_sector": "",
+   "date": "2026-03-16",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Gree Electric Appliances",
+   "use": "Self-developed EAi AI chip embedded in air conditioners provides low-power, high-efficiency intelligent control and dynamic energy-saving; awarded the world's first Intertek TICK-MARK certificate for AI air conditioner energy conservation. [Gree (self-developed EAi chip)]",
+   "existence": "confirmed",
+   "value": "~10 million EAi chip units shipped to date; energy-efficiency improvement cited up to ~15.8%",
+   "tier": "",
+   "url": "https://finance.sina.cn/stock/ggyj/2026-03-16/detail-inhrequr8752571.d.html",
+   "raw_sector": "",
+   "date": "2026-03-16",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Gree Electric Appliances",
+   "use": "'Golden Sunflower' air-source heat-pump water heater uses AI algorithms combined with real-time meteorological data to intelligently select the optimal heating time window. [Gree (self-developed AI algorithm)]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://news.cheaa.com/2026/0723/656698.shtml",
+   "raw_sector": "",
+   "date": "2026-07-23",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Gree Electric Appliances",
+   "use": "'Star Chef' steamer-oven with AI smell-recognition technology using high-precision olfactory sensors to detect food aromas at millisecond speed for AI-guided cooking (addressing limits of visual recognition, e.g. foil-wrapped or similar-looking foods). [Gree (self-developed olfactory AI)]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://finance.sina.cn/stock/ggyj/2026-03-16/detail-inhrequr8752571.d.html",
+   "raw_sector": "",
+   "date": "2026-03-16",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Gree Electric Appliances",
+   "use": "Industrial 'AI brain' / smart center that integrates marketing, product design, procurement, production, logistics and customer service data into a unified digital management model ('horizontal to the end, vertical to the bottom'), enabling real-time visibility and autonomous optimization across hundreds of production stages. [Gree (industrial internet platform)]",
+   "existence": "confirmed",
+   "value": "Production efficiency improved ~200%; research cycles shortened nearly 50%; one AC unit assembled every 15 seconds; overall automation over 80%",
+   "tier": "",
+   "url": "https://www.stcn.com/article/detail/3539094.html",
+   "raw_sector": "",
+   "date": "2025-12-13",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Gree Electric Appliances",
+   "use": "AI applied across operations for automated sampling inspection, equipment fault diagnosis, intelligent production-data analysis and energy-consumption analysis, as Gree drives its shift from 'manufacturing' to 'intelligent manufacturing'. [Gree]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "http://www.chinaiol.com/News/Content/202512/17_62981.html",
+   "raw_sector": "",
+   "date": "2025-12-04",
    "fresh": "fresh"
   }
  ]

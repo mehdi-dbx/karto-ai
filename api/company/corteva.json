@@ -3,27 +3,27 @@
  "name": "Corteva",
  "cc": "US",
  "vertical": "Chemicals & Materials",
- "deployments": 1,
- "confirmed": 1,
- "with_value_number": 0,
- "proof_rate": 0.0,
+ "deployments": 6,
+ "confirmed": 3,
+ "with_value_number": 1,
+ "proof_rate": 0.167,
  "mktcap": 59040000000.0,
  "revenue": 17890000000.0,
  "employees": 21500.0,
  "silent": false,
- "per_bn_revenue": 0.06,
- "per_10k_emp": 0.47,
+ "per_bn_revenue": 0.34,
+ "per_10k_emp": 2.79,
  "benchmarks": {
   "global_vertical": {
-   "deployments": 0,
-   "confirmed": 19,
-   "proof_rate": 0,
-   "n": 105
+   "deployments": 65,
+   "confirmed": 42,
+   "proof_rate": 43,
+   "n": 107
   },
   "country_vertical": {
-   "deployments": 0,
-   "confirmed": 32,
-   "proof_rate": 0,
+   "deployments": 72,
+   "confirmed": 40,
+   "proof_rate": 56,
    "n": 26
   }
  },
@@ -33,13 +33,26 @@
  "momentum": "none",
  "maturity": "L3",
  "maturity_evidence": [
+  "multi_horizontal",
   "named_product:Profluent",
+  "value_number",
   "tier_p"
  ],
- "prospect_score": 54,
+ "prospect_score": 51,
  "stack": [],
- "vendor_named": false,
+ "vendor_named": true,
  "deployments_detail": [
+  {
+   "company": "Corteva",
+   "use": "Legal department AI adoption for in-house counsel",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.law.com/legaltechnews/2025/05/06/cloc-day-1-inside-one-legal-departments-ai-adoption-journey-/",
+   "raw_sector": "",
+   "date": "May 6, 2025",
+   "fresh": "undated"
+  },
   {
    "company": "Corteva",
    "use": "AI for crop-protection molecule/protein modeling + computational breeding; Profluent multi-year AI crop-innovation collaboration",
@@ -48,6 +61,50 @@
    "tier": "P",
    "url": "https://www.corteva.com/who-we-are/outlook/the-future-of-ai-in-agriculture.html",
    "raw_sector": "Materials",
+   "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "Corteva",
+   "use": "AI modeling of crop protection molecules for drug discovery and development",
+   "existence": "confirmed",
+   "value": "10,000 molecules",
+   "tier": "",
+   "url": "https://reports.corteva.com/sustainability/impactreport2025/static/Corteva_Our_2025_Impact_Report.pdf?v=1775742674",
+   "raw_sector": "",
+   "date": "Apr 9, 2026",
+   "fresh": "undated"
+  },
+  {
+   "company": "Corteva",
+   "use": "AI for seed genetics enhancement and disease resistance [Google AI]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://publicpolicy.google/stories/corteva-indiana/",
+   "raw_sector": "",
+   "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "Corteva",
+   "use": "Generative AI chatbot leveraging CropWizard components [CropWizard]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://training-portal.nifa.usda.gov/web/crisprojectpages/1024178-ai-institute-artificial-intelligence-for-future-agricultural-resilience-management-and-sustainability-aifarms.html",
+   "raw_sector": "",
+   "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "Corteva",
+   "use": "Generative AI for protein design collaboration [Bio]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.linkedin.com/posts/john-bloomer-72052483_biostimulants-helping-plants-to-help-themselves-activity-7295000453837119488-ygPa",
+   "raw_sector": "",
    "date": "missing",
    "fresh": "undated"
   }

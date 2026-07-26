@@ -3,28 +3,28 @@
  "name": "Multiply Group",
  "cc": "AE",
  "vertical": "Financial Services",
- "deployments": 1,
- "confirmed": 1,
- "with_value_number": 0,
- "proof_rate": 0.0,
+ "deployments": 6,
+ "confirmed": 5,
+ "with_value_number": 1,
+ "proof_rate": 0.167,
  "mktcap": 6378000000.0,
  "revenue": 4477000000.0,
  "employees": null,
  "silent": false,
- "per_bn_revenue": 0.22,
+ "per_bn_revenue": 1.34,
  "per_10k_emp": null,
  "benchmarks": {
   "global_vertical": {
-   "deployments": 0,
-   "confirmed": 17,
-   "proof_rate": 0,
-   "n": 377
+   "deployments": 44,
+   "confirmed": 46,
+   "proof_rate": 35,
+   "n": 388
   },
   "country_vertical": {
-   "deployments": 0,
-   "confirmed": 8,
-   "proof_rate": 0,
-   "n": 14
+   "deployments": 50,
+   "confirmed": 64,
+   "proof_rate": 50,
+   "n": 15
   }
  },
  "first_seen": 2025,
@@ -34,15 +34,20 @@
    "n": 1
   }
  ],
- "undated_pct": 0,
+ "undated_pct": 83,
  "momentum": "rising",
  "maturity": "L3",
  "maturity_evidence": [
+  "multi_horizontal",
   "named_product:PIVOT",
+  "value_number",
   "tier_p"
  ],
- "prospect_score": 46,
- "stack": [],
+ "prospect_score": 63,
+ "stack": [
+  "Databricks",
+  "NVIDIA"
+ ],
  "vendor_named": true,
  "deployments_detail": [
   {
@@ -55,6 +60,61 @@
    "raw_sector": "Investment",
    "date": "2025",
    "fresh": "fresh"
+  },
+  {
+   "company": "Multiply Group",
+   "use": "PIVOT: AI-driven investment intelligence with real-time data ingestion, predictive analytics, and portfolio management [Aleria, NVIDIA]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://aleria.com/company/newsroom/multiply-group-unveils-innovation-labs-powered-by-alerias-ai-platform-and-nvidia",
+   "raw_sector": "",
+   "date": "Nov 13, 2025",
+   "fresh": "undated"
+  },
+  {
+   "company": "Multiply Group",
+   "use": "Named as a Databricks customer/case study [Databricks] [Databricks]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.linkedin.com/pulse/databricks-moves-beyond-ai-data-platform-agentic-developers-smith-5qklc",
+   "raw_sector": "",
+   "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "Multiply Group",
+   "use": "AI-driven workflow optimization and decision-making acceleration",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.linkedin.com/posts/multiplygroupae_timewithai-multiplygroup-aipowered-activity-7388879931897892864-B6Dt",
+   "raw_sector": "",
+   "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "Multiply Group",
+   "use": "Innovation Labs: centralized data science, model engineering, and platform enablement across portfolio (40+ AI initiatives) [Aleria, NVIDIA]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://aleria.com/company/newsroom/multiply-group-unveils-innovation-labs-powered-by-alerias-ai-platform-and-nvidia",
+   "raw_sector": "",
+   "date": "Nov 13, 2025",
+   "fresh": "undated"
+  },
+  {
+   "company": "Multiply Group",
+   "use": "AI integration across portfolio for operational efficiency and EBITDA improvement",
+   "existence": "confirmed",
+   "value": "17%",
+   "tier": "",
+   "url": "https://www.linkedin.com/posts/samia-bouazza_qatareconomicforum-multiplygroup-ai-activity-7331354270446915586-s3H3",
+   "raw_sector": "",
+   "date": "missing",
+   "fresh": "undated"
   }
  ]
 }

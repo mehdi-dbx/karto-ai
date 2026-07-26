@@ -3,43 +3,55 @@
  "name": "Telenor",
  "cc": "NO",
  "vertical": "Telecom",
- "deployments": 3,
- "confirmed": 3,
- "with_value_number": 0,
- "proof_rate": 0.0,
+ "deployments": 15,
+ "confirmed": 12,
+ "with_value_number": 5,
+ "proof_rate": 0.333,
  "mktcap": 17005607477.0,
  "revenue": 7039252336.0,
  "employees": 9819.0,
  "silent": false,
- "per_bn_revenue": 0.43,
- "per_10k_emp": 3.06,
+ "per_bn_revenue": 2.13,
+ "per_10k_emp": 15.28,
  "benchmarks": {
   "global_vertical": {
-   "deployments": 79,
-   "confirmed": 79,
-   "proof_rate": 0,
-   "n": 93
+   "deployments": 94,
+   "confirmed": 88,
+   "proof_rate": 48,
+   "n": 94
   }
  },
  "first_seen": 2024,
  "by_year": [
   {
    "year": 2024,
+   "n": 3
+  },
+  {
+   "year": 2025,
+   "n": 9
+  },
+  {
+   "year": 2026,
    "n": 2
   }
  ],
- "undated_pct": 33,
- "momentum": "early_mover,gone_quiet",
- "maturity": "L3",
+ "undated_pct": 7,
+ "momentum": "early_mover,rising",
+ "maturity": "L4",
  "maturity_evidence": [
   "multi_horizontal",
   "named_product:Internal",
+  "value_number",
+  "multi_year",
   "tier_p"
  ],
- "prospect_score": 58,
+ "prospect_score": 87,
  "stack": [
   "Anthropic",
+  "Capgemini",
   "Google",
+  "Microsoft",
   "NVIDIA",
   "OpenAI"
  ],
@@ -55,6 +67,39 @@
    "raw_sector": "Telecom",
    "date": "missing",
    "fresh": "undated"
+  },
+  {
+   "company": "Telenor",
+   "use": "Microsoft 365 Copilot pilot deployed to employees across Finland, Sweden, global functions and parts of Asia to evaluate productivity gains for search/summarization, content drafting and meeting notes; supported by a 'Ninja community' adoption model. [Microsoft (365 Copilot)]",
+   "existence": "claimed",
+   "value": "pilot expanded from 300 to 500 users; ~8 hours of work time saved per user per month",
+   "tier": "",
+   "url": "https://contextand.com/customer-success-stories/telenor",
+   "raw_sector": "",
+   "date": "2025-01-01",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Telenor",
+   "use": "TeSS, Telenor Shared Services' first enterprise generative AI bot, rolled out to serve all employees across Telenor Nordics and Telenor Group for internal productivity/support. [none disclosed]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.linkedin.com/posts/telenor-shared-services_%F0%9D%97%A7%F0%9D%97%A6%F0%9D%97%A6-%F0%9D%97%B5%F0%9D%97%B2%F0%9D%97%BF%F0%9D%97%B2-%F0%9D%98%81%F0%9D%97%BC-%F0%9D%97%B5%F0%9D%97%B2%F0%9D%97%B9%F0%9D%97%BD-this-week-activity-7361706734429569024-NkTX",
+   "raw_sector": "",
+   "date": "2025-08-01",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Telenor",
+   "use": "Telenor Pakistan HR assistant chatbot integrated into Microsoft Teams, giving employees instant access to HR policies and streamlining internal processes. [Microsoft (Teams)]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.dawn.com/news/1941925",
+   "raw_sector": "",
+   "date": "2025-09-15",
+   "fresh": "fresh"
   },
   {
    "company": "Telenor",
@@ -77,6 +122,105 @@
    "raw_sector": "Telecom",
    "date": "2024",
    "fresh": "aging"
+  },
+  {
+   "company": "Telenor",
+   "use": "Telenor AI Factory, Norway's first sovereign and secure AI cloud service, launched commercially in late 2024; provides GPU infrastructure for generative and agentic AI, integrating NVIDIA AI Enterprise. Supports real-world applications for internal and external customers. [NVIDIA (AI Enterprise, DGX); Capgemini]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.telenor.com/media/newsroom/announcement/telenor-advances-its-sovereign-ai-infrastructure/",
+   "raw_sector": "",
+   "date": "2025-06-11",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Telenor",
+   "use": "Agentic AI proof-of-concept co-developed with Ericsson to autonomously optimize Radio Access Network (RAN) capacity and power consumption, trained on real-world data in simulated environments using Ericsson's Intelligent Automation Platform and rApps. [Ericsson (Intelligent Automation Platform, rApps)]",
+   "existence": "claimed",
+   "value": "up to 4% reduction in energy usage for radio units (simulated)",
+   "tier": "",
+   "url": "https://www.ericsson.com/en/press-releases/3/2025/telenor-and-ericsson-successfully-co-create-agentic-ai-for-radio-controls-and-expand-innovation-partnership",
+   "raw_sector": "",
+   "date": "2025-03-05",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Telenor",
+   "use": "Opti-Sphere agentic AI operating a live private 5G network at sea for Telenor Maritime; turns live network data into insights and applies pre-validated safe configuration changes via a real-time digital twin on an Ericsson private 5G deployment. [BubbleRAN; NVIDIA AI Enterprise; Ericsson (private 5G)]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.telecompaper.com/news/telenor-and-bubbleran-present-opti-sphere-ai-powered-maritime-private-5g-service-at-mwc--1563100",
+   "raw_sector": "",
+   "date": "2026-02-23",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Telenor",
+   "use": "Telenor Pakistan AI-based service/network monitoring that detects faults and anomalies across the IT ecosystem to reduce outage times and safeguard critical services like recharge and data bundles; plus AI smart energy management forecasting grid unavailability, solar output and battery malfunctions. [none disclosed]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.dawn.com/news/1941925",
+   "raw_sector": "",
+   "date": "2025-09-15",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Telenor",
+   "use": "BabelSpeak, an AI voice-to-voice translation service supporting 100+ languages, developed by Capgemini and hosted on Telenor's sovereign AI Factory infrastructure. [Capgemini (hosted on Telenor AI Factory / NVIDIA)]",
+   "existence": "confirmed",
+   "value": "100+ languages",
+   "tier": "",
+   "url": "https://www.telenor.com/media/newsroom/announcement/telenor-advances-its-sovereign-ai-infrastructure/",
+   "raw_sector": "",
+   "date": "2025-06-11",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Telenor",
+   "use": "Telmi, Telenor Norway's conversational AI virtual agent, handles customer service inquiries (PUK codes, plan upgrades, invoices) with 20+ backend integrations; handled 1M+ customer inquiries since 2019 launch. [boost.ai]",
+   "existence": "confirmed",
+   "value": "over 1 million customer inquiries handled",
+   "tier": "",
+   "url": "https://boost.ai/case-studies/enhancing-telecom-customer-experience-with-conversational-ai/",
+   "raw_sector": "",
+   "date": "2024-11-22",
+   "fresh": "aging"
+  },
+  {
+   "company": "Telenor",
+   "use": "Employee generative-AI productivity assistant piloted across Nordic markets for meeting minutes and document creation, alongside customer-service gen-AI (smart call routing voice bots, call transcription, sentiment analysis, agent assist); traditional AI (network optimization, fraud detection, churn prediction) runs across hundreds of operational use cases. [none disclosed]",
+   "existence": "claimed",
+   "value": "hundreds of operational AI use cases",
+   "tier": "",
+   "url": "https://www.telenor.com/stories/advance/how-telenor-is-putting-artificial-intelligence-to-work/",
+   "raw_sector": "",
+   "date": "2025-02-23",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Telenor",
+   "use": "Nummervarsel, a nationwide call protection service using Hiya's Adaptive AI to block fraudulent calls and flag spam in real time for consumers and business customers, with no app download required. [Hiya (Adaptive AI)]",
+   "existence": "confirmed",
+   "value": "over 50 million fraudulent calls blocked in the prior year",
+   "tier": "",
+   "url": "https://www.hiya.com/newsroom/press-releases/telenor-norway-launches-nationwide-call-protection-service-to-safeguard-consumers-against-spam-and-fraud",
+   "raw_sector": "",
+   "date": "2025-02-07",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Telenor",
+   "use": "Kissan Dost Bashir, an AI-powered Urdu voice bot for farmers providing real-time market rates, weather-based crop advisory and livestock guidance, accessible 24/7 by dialing 7272. [none disclosed]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.arabnews.pk/node/2641002/pakistan",
+   "raw_sector": "",
+   "date": "2026-04-23",
+   "fresh": "fresh"
   }
  ]
 }

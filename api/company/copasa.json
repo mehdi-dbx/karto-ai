@@ -3,27 +3,27 @@
  "name": "Copasa",
  "cc": "BR",
  "vertical": "Energy & Utilities",
- "deployments": 2,
- "confirmed": 2,
- "with_value_number": 0,
- "proof_rate": 0.0,
+ "deployments": 10,
+ "confirmed": 9,
+ "with_value_number": 6,
+ "proof_rate": 0.6,
  "mktcap": 4494444444.0,
  "revenue": 1555555556.0,
  "employees": 9836.0,
  "silent": false,
- "per_bn_revenue": 1.29,
- "per_10k_emp": 2.03,
+ "per_bn_revenue": 6.43,
+ "per_10k_emp": 10.17,
  "benchmarks": {
   "global_vertical": {
-   "deployments": 72,
-   "confirmed": 78,
-   "proof_rate": 0,
-   "n": 210
+   "deployments": 83,
+   "confirmed": 88,
+   "proof_rate": 91,
+   "n": 213
   },
   "country_vertical": {
-   "deployments": 83,
-   "confirmed": 83,
-   "proof_rate": 0,
+   "deployments": 89,
+   "confirmed": 89,
+   "proof_rate": 78,
    "n": 19
   }
  },
@@ -31,18 +31,32 @@
  "by_year": [
   {
    "year": 2023,
+   "n": 4
+  },
+  {
+   "year": 2024,
+   "n": 2
+  },
+  {
+   "year": 2025,
    "n": 1
+  },
+  {
+   "year": 2026,
+   "n": 2
   }
  ],
- "undated_pct": 50,
- "momentum": "early_mover,gone_quiet",
- "maturity": "L3",
+ "undated_pct": 10,
+ "momentum": "early_mover,cooling",
+ "maturity": "L4",
  "maturity_evidence": [
   "multi_horizontal",
   "named_product:WhatsApp",
+  "value_number",
+  "multi_year",
   "tier_p"
  ],
- "prospect_score": 60,
+ "prospect_score": 78,
  "stack": [],
  "vendor_named": false,
  "deployments_detail": [
@@ -59,6 +73,17 @@
   },
   {
    "company": "Copasa",
+   "use": "AI-powered customer service on WhatsApp and Webchat (Weflow platform): intelligent routing, integration with internal systems, image analysis of user-submitted leak photos, and automated self-service flows (debt installments, water reconnection, bill delivery). [Weflow]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://news.copasa.com.br/ia-no-atendimento-via-whatsapp-e-webchat-da-copasa-proporciona-melhorias-para-a-jornada-do-cliente/",
+   "raw_sector": "",
+   "date": "2026-05-18",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Copasa",
    "use": "AI-based network monitoring to detect and reduce water leaks (4Fluid startup partnership; also Orion Alfa sensor pilot in Araxá)",
    "existence": "confirmed",
    "value": "none",
@@ -67,6 +92,83 @@
    "raw_sector": "Utilidade pública, energia e saneamento",
    "date": "2023",
    "fresh": "stale"
+  },
+  {
+   "company": "Copasa",
+   "use": "AI acoustic leak detection (4Fluid by Stattus4): AI analyzes noise captured by electronic collectors near water meters to locate hidden underground leaks; first deployed in Curvelo (Jul 2023) and Pompeu (Aug 2023), with planned rollout to Conselheiro Lafaiete, Divinopolis, Nova Serrana and Tres Marias. [Stattus4 (4Fluid)]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://news.copasa.com.br/copasa-implanta-sistema-de-inteligencia-artificial-para-deteccao-de-vazamentos-ocultos-em-curvelo-e-pompeu/",
+   "raw_sector": "",
+   "date": "2023-09-11",
+   "fresh": "stale"
+  },
+  {
+   "company": "Copasa",
+   "use": "4Fluid AI leak-detection deployed in Bambui for one year: AI-driven acoustic analysis identified and eliminated hidden water leaks, reducing distribution losses in the city. [Stattus4 (4Fluid)]",
+   "existence": "confirmed",
+   "value": "14% reduction in water losses; 52 leak points identified and eliminated over 12 months (12,759 acoustic collections)",
+   "tier": "",
+   "url": "https://news.copasa.com.br/inteligencia-artificial-reduziu-em-14-perdas-de-agua-em-bambui/",
+   "raw_sector": "",
+   "date": "2023-12-18",
+   "fresh": "stale"
+  },
+  {
+   "company": "Copasa",
+   "use": "4Fluid Movel in Araxa: portable AI acoustic device predicts potential leaks in distribution networks/branches, optimizing the geophonist's work and cutting leak-detection time. [Stattus4 (4Fluid Movel)]",
+   "existence": "confirmed",
+   "value": "reduction of roughly 1,138 m3/day in losses after repairs (equivalent to ~34,140 water tanks/month); double the suspect points identified, ~80% confirmed",
+   "tier": "",
+   "url": "https://stattus4.com/case/4fluid-movel-para-copasa/",
+   "raw_sector": "",
+   "date": "2024-02-27",
+   "fresh": "aging"
+  },
+  {
+   "company": "Copasa",
+   "use": "4Fluid AI leak-detection deployed in Januaria and Itacarambi to control water losses. [Stattus4 (4Fluid)]",
+   "existence": "confirmed",
+   "value": "~R$40 thousand invested; goal to reduce losses from 20.25% to 17%",
+   "tier": "",
+   "url": "https://news.copasa.com.br/copasa-adota-tecnologia-para-controle-de-perdas-de-agua-em-januaria-e-itacarambi/",
+   "raw_sector": "",
+   "date": "2024-05-21",
+   "fresh": "aging"
+  },
+  {
+   "company": "Copasa",
+   "use": "ADA pressure-monitoring system in Araxa (Alvorada neighborhood): AI-linked sensors installed beside water meters continuously measure network pressure and send data to cloud software to pinpoint leak locations for faster repairs. [Stattus4 (ADA)]",
+   "existence": "confirmed",
+   "value": "R$55 thousand system; 30 sensors covering 30 km of networks; 12-month trial",
+   "tier": "",
+   "url": "https://news.copasa.com.br/copasa-usa-inteligencia-artificial-para-melhorar-abastecimento-de-agua-em-araxa/",
+   "raw_sector": "",
+   "date": "2023-12",
+   "fresh": "stale"
+  },
+  {
+   "company": "Copasa",
+   "use": "Orion Alfa AI pressure sensors (Galax.ia) tested in Araxa: sensors monitor network pressure and send data to cloud software that uses AI to identify leak patterns via pressure variation. [Galax.ia (Orion Alfa)]",
+   "existence": "claimed",
+   "value": "24 devices across 6 neighborhoods serving 110,000+ residents; 12-month test; no cost to Copasa (technical cooperation)",
+   "tier": "",
+   "url": "https://news.copasa.com.br/copasa-inicia-testes-com-nova-tecnologia-para-combater-perdas-de-agua-em-araxa/",
+   "raw_sector": "",
+   "date": "2025-10-27",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Copasa",
+   "use": "AI-integrated video monitoring of operational units (Teltex): intelligent video-monitoring platform with alarm centers and siren activation used to monitor dam water levels, sewage-treatment processes, and support preventive actions; centralized in a main Operations Control Center in Belo Horizonte plus five regional centers. [Teltex Tecnologia]",
+   "existence": "confirmed",
+   "value": "Phase 1: 270 operational units across Minas Gerais; Phase 2 expansion to Divinopolis (Dec 2025); further expansion to 8 dams in Northern Minas",
+   "tier": "",
+   "url": "https://teltex.com.br/teltex-apoia-a-copasa-no-monitoramento-integrado-com-inteligencia-artificial-de-unidades-operacionais-em-minas-gerais/",
+   "raw_sector": "",
+   "date": "2026-02-10",
+   "fresh": "fresh"
   }
  ]
 }

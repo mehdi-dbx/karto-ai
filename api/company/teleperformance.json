@@ -3,36 +3,53 @@
  "name": "Teleperformance",
  "cc": "FR",
  "vertical": "Legal & Professional Services",
- "deployments": 2,
- "confirmed": 2,
- "with_value_number": 2,
- "proof_rate": 1.0,
+ "deployments": 11,
+ "confirmed": 11,
+ "with_value_number": 8,
+ "proof_rate": 0.727,
  "mktcap": 3402000000.0,
  "revenue": 11026800000.0,
  "employees": 446716.0,
  "silent": false,
- "per_bn_revenue": 0.18,
- "per_10k_emp": 0.04,
+ "per_bn_revenue": 1.0,
+ "per_10k_emp": 0.25,
  "benchmarks": {
   "global_vertical": {
    "deployments": 91,
    "confirmed": 91,
-   "proof_rate": 64,
+   "proof_rate": 91,
    "n": 12
   }
  },
- "first_seen": null,
- "by_year": [],
- "undated_pct": 100,
- "momentum": "none",
- "maturity": "L3",
- "maturity_evidence": [
-  "named_product:Microsoft",
-  "value_number"
+ "first_seen": 2023,
+ "by_year": [
+  {
+   "year": 2023,
+   "n": 4
+  },
+  {
+   "year": 2025,
+   "n": 3
+  },
+  {
+   "year": 2026,
+   "n": 2
+  }
  ],
- "prospect_score": 12,
+ "undated_pct": 18,
+ "momentum": "early_mover,rising",
+ "maturity": "L4",
+ "maturity_evidence": [
+  "multi_horizontal",
+  "named_product:Microsoft",
+  "value_number",
+  "multi_year"
+ ],
+ "prospect_score": 71,
  "stack": [
   "Microsoft",
+  "Microsoft Azure",
+  "OpenAI",
   "ServiceNow"
  ],
  "vendor_named": true,
@@ -58,6 +75,105 @@
    "raw_sector": "Customer Service BPO",
    "date": "missing",
    "fresh": "undated"
+  },
+  {
+   "company": "Teleperformance",
+   "use": "TP GenAI platform built on Microsoft Azure OpenAI to automate low-value tasks and assist frontline customer-care agents; initial programs saw up to 25% reduction in call handling time and 20% reduction in email response time. [Microsoft (Azure OpenAI / GPT)]",
+   "existence": "confirmed",
+   "value": "$185 million deal; up to 25% lower call handling time, 20% lower email response time",
+   "tier": "",
+   "url": "https://www.businesswire.com/news/home/20230620115067/en/Teleperformance-Expands-Microsoft-Partnership-to-Launch-TP-GenAI-a-Generative-AI-Platform-to-Make-Enterprises-More-Efficient-and-Human-centric",
+   "raw_sector": "",
+   "date": "2023-06-20",
+   "fresh": "stale"
+  },
+  {
+   "company": "Teleperformance",
+   "use": "Sanas real-time AI Accent Translation and Noise Cancellation deployed for call-center agents across India, Latin America and the Philippines to improve intelligibility and reduce accent-based friction. [Sanas]",
+   "existence": "confirmed",
+   "value": "CSAT +22%, AHT -37.5%, first contact resolution +14%",
+   "tier": "",
+   "url": "https://www.sanas.ai/customer-stories/tp",
+   "raw_sector": "",
+   "date": "2025-02-19",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Teleperformance",
+   "use": "TP.ai FAB Connect orchestration engine with autonomous AI voice agents that resolve customer inquiries at first contact and guide digital onboarding; used e.g. at Sparda-Bank West to handle 150K+ calls during a banking migration. [TP (proprietary)]",
+   "existence": "confirmed",
+   "value": "46% first-contact resolution; up to 75% of low/medium-complexity inquiries resolved by AI without escalation",
+   "tier": "",
+   "url": "https://www.tp.com/en-us/services/ai-solutions/fab-connect/",
+   "raw_sector": "",
+   "date": "2026-03-24",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Teleperformance",
+   "use": "TP.ai FAB Assist real-time agent-assist that listens to live interactions and gives frontline experts in-workflow guidance, knowledge retrieval, automatic summaries/wrap-up, transcription and accent softening. [TP (proprietary)]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.tp.com/en-us/services/ai-solutions/fab-assist/",
+   "raw_sector": "",
+   "date": "2025-02-26",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Teleperformance",
+   "use": "TP Interact interaction-analytics platform enhanced with generative AI to deliver near real-time, multilingual insights from customer interactions and automate quality audits on 100% of interactions. [TP (proprietary), generative AI]",
+   "existence": "confirmed",
+   "value": "100% of interactions audited/analyzed",
+   "tier": "",
+   "url": "https://www.tp.com/en-us/insights-list/press-releases/tp-enhances-interaction-analytics-platform-tp-interact-leveraging-generative-ai-to-deliver-near-real-time-data-driven-decision-making-for-customer-care/",
+   "raw_sector": "",
+   "date": "2023-09-21",
+   "fresh": "stale"
+  },
+  {
+   "company": "Teleperformance",
+   "use": "TP.ai FAB Collect hybrid debt-collection solution combining autonomous AI collectors with human experts across digital and voice channels to maximize recovery. [TP (proprietary)]",
+   "existence": "confirmed",
+   "value": "up to 40% debt recovery; recovery/liquidation rates improved up to 25%",
+   "tier": "",
+   "url": "https://www.tp.com/en-sg/insights-list/press-releases/tp-s-ai-powered-debt-collection-solution-recovers-up-to-40-debt-improves-efficiency-and-saves-costs/",
+   "raw_sector": "",
+   "date": "2026-05-14",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Teleperformance",
+   "use": "Anna AI conversational digital recruiter (built by TP subsidiary PSG Global Solutions) that screens resumes, conducts real-time voice-led interviews, and schedules candidates 24/7; deployed by a national employer across 50% of hiring sites. [PSG Global Solutions (TP Specialized Services)]",
+   "existence": "confirmed",
+   "value": "2.5x deployment scale; 4x hires (national employer case)",
+   "tier": "",
+   "url": "https://www.prnewswire.com/news-releases/tp-specialized-services-company-psg-global-solutions-launches-digital-recruiter-anna-ai-to-help-staffing-organizations-drive-recruitment-at-scale-302490752.html",
+   "raw_sector": "",
+   "date": "2025-06-25",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Teleperformance",
+   "use": "AI solutions on the ServiceNow platform for internal IT service desk / employee experience: single knowledge-management system, automated ticket closure/resolution notes and transactional-task automation; TP is a ServiceNow AI Lighthouse member co-developing GenAI use cases. [ServiceNow]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.tp.com/en-us/insights-list/press-releases/tp-implements-ai-solutions-leveraging-servicenow-platform/",
+   "raw_sector": "",
+   "date": "2023-06-13",
+   "fresh": "stale"
+  },
+  {
+   "company": "Teleperformance",
+   "use": "Microsoft Sales Copilot (Viva Sales) deployed for TP's own sellers as an AI-powered sales productivity application to work faster and focus on selling. [Microsoft (Sales Copilot / Viva Sales)]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://techcommunity.microsoft.com/blog/vivasales-blog/microsoft-sales-copilot-at-teleperformance/3770091",
+   "raw_sector": "",
+   "date": "2023-03-22",
+   "fresh": "stale"
   }
  ]
 }

@@ -3,46 +3,59 @@
  "name": "S.F. Holding",
  "cc": "CN",
  "vertical": "Industrial / Machinery",
- "deployments": 1,
- "confirmed": 1,
- "with_value_number": 1,
- "proof_rate": 1.0,
+ "deployments": 11,
+ "confirmed": 11,
+ "with_value_number": 8,
+ "proof_rate": 0.727,
  "mktcap": 23694444444.0,
  "revenue": 43405555556.0,
  "employees": 158761.0,
  "silent": false,
- "per_bn_revenue": 0.02,
- "per_10k_emp": 0.06,
+ "per_bn_revenue": 0.25,
+ "per_10k_emp": 0.69,
  "benchmarks": {
   "global_vertical": {
-   "deployments": 0,
-   "confirmed": 14,
-   "proof_rate": 79,
-   "n": 175
+   "deployments": 82,
+   "confirmed": 95,
+   "proof_rate": 98,
+   "n": 176
   },
   "country_vertical": {
-   "deployments": 0,
-   "confirmed": 8,
-   "proof_rate": 46,
+   "deployments": 100,
+   "confirmed": 100,
+   "proof_rate": 92,
    "n": 14
   }
  },
- "first_seen": 2025,
+ "first_seen": 2024,
  "by_year": [
   {
+   "year": 2024,
+   "n": 3
+  },
+  {
    "year": 2025,
+   "n": 7
+  },
+  {
+   "year": 2026,
    "n": 1
   }
  ],
  "undated_pct": 0,
  "momentum": "early_mover,rising",
- "maturity": "L3",
+ "maturity": "L4",
  "maturity_evidence": [
-  "value_number"
+  "multi_horizontal",
+  "named_product:Fengyu",
+  "value_number",
+  "multi_year"
  ],
- "prospect_score": 14,
- "stack": [],
- "vendor_named": false,
+ "prospect_score": 71,
+ "stack": [
+  "Meta"
+ ],
+ "vendor_named": true,
  "deployments_detail": [
   {
    "company": "S.F. Holding",
@@ -53,6 +66,116 @@
    "url": "https://www.sf-express.com (2025 annual report)",
    "raw_sector": "Industrials",
    "date": "2025",
+   "fresh": "fresh"
+  },
+  {
+   "company": "S.F. Holding",
+   "use": "Fengyu Shangbian (丰语商编) intelligent customs solution: AI auto-classifies HS codes and standardizes declarations for cross-border shipment inspection, declaration and clearance [SF Technology (Fengyu LLM)]",
+   "existence": "confirmed",
+   "value": ">90% HS-code matching accuracy; response time cut from 30 min to under 7 min; 60%+ processing efficiency gain; 30% fewer exception cases",
+   "tier": "",
+   "url": "https://www.sh.chinanews.com.cn/chanjing/2025-12-19/143477.shtml",
+   "raw_sector": "",
+   "date": "2025-12",
+   "fresh": "fresh"
+  },
+  {
+   "company": "S.F. Holding",
+   "use": "Fengyu LLM for delivery/pickup (收派) personnel: real-time training and issue-identification guidance for couriers [SF Technology (Fengyu LLM)]",
+   "existence": "confirmed",
+   "value": ">98% accuracy identifying issues; ~3 minutes saved per session",
+   "tier": "",
+   "url": "https://www.aibase.com/news/11676",
+   "raw_sector": "",
+   "date": "2024-09",
+   "fresh": "aging"
+  },
+  {
+   "company": "S.F. Holding",
+   "use": "Operations-research + AI decision system for network design and daily vehicle route optimization (ground/air/rail), guiding strategic and operational network planning [SF Technology (OR + AI algorithms; SF Cognitive Decision Intelligence Agent)]",
+   "existence": "confirmed",
+   "value": "Financial benefits exceeding $1 billion since 2018; millions of tons of CO2 reduction",
+   "tier": "",
+   "url": "https://ideas.repec.org/a/inm/orinte/v56y2026i1p76-94.html",
+   "raw_sector": "",
+   "date": "2026-01",
+   "fresh": "fresh"
+  },
+  {
+   "company": "S.F. Holding",
+   "use": "Digital twin technology creating virtual replicas of transfer hubs and airports (e.g. Ezhou Huahu Airport) for dynamic scenario simulation and real-time coordination of apron, sorting and ground transport [SF Technology]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.upu.int/en/news/2025/july/endtoend-intelligence-sf-express-and-china-state-post-bureau-drive-smart-transformation-from-insp",
+   "raw_sector": "",
+   "date": "2025-07",
+   "fresh": "fresh"
+  },
+  {
+   "company": "S.F. Holding",
+   "use": "Fengzhi (丰知) logistics-decision LLM powering a real-time conversational 'AI-BI' supply-chain operations analysis agent within the Fengzhi Cloud Tower (丰智云塔) control system for sales forecasting, route planning and loading optimization [SF Technology (Fengzhi LLM + Fengzhi Cloud suite)]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://ir.sf-express.com/media/mbwpabmr/sf-2025-esg-report-e.pdf",
+   "raw_sector": "",
+   "date": "2025",
+   "fresh": "fresh"
+  },
+  {
+   "company": "S.F. Holding",
+   "use": "Level-4 autonomous delivery vehicle fleet (lidar + 360-degree cameras) for line-haul/branch and last-mile parcel transport [SF Express (via subsidiary autonomous-driving programs)]",
+   "existence": "confirmed",
+   "value": "L4 fleet launched June 2025; plan to deploy 35+ autonomous vehicles in Shijiazhuang by end of 2025",
+   "tier": "",
+   "url": "https://chozan.co/robots-in-logistics/",
+   "raw_sector": "",
+   "date": "2025-06",
+   "fresh": "fresh"
+  },
+  {
+   "company": "S.F. Holding",
+   "use": "One-stop no-code AI-agent building platform + office assistant / AI Agents deployed internally across business roles [SF Technology (Fengyu LLM)]",
+   "existence": "confirmed",
+   "value": "Covers 1,000+ roles and 20+ business scenarios; departments can build Q&A bots within a single day",
+   "tier": "",
+   "url": "https://www.sohu.com/a/807974705_104421",
+   "raw_sector": "",
+   "date": "2024-09",
+   "fresh": "aging"
+  },
+  {
+   "company": "S.F. Holding",
+   "use": "Fengyu (丰语) logistics vertical LLM used in intelligent customer service to auto-extract key info from customer conversations and generate service summaries [SF Technology (self-developed Fengyu LLM, initially built on Llama-7B)]",
+   "existence": "confirmed",
+   "value": "95%+ summary accuracy; ~30% reduction in processing time",
+   "tier": "",
+   "url": "https://www.aibase.com/news/11676",
+   "raw_sector": "",
+   "date": "2024-09",
+   "fresh": "aging"
+  },
+  {
+   "company": "S.F. Holding",
+   "use": "Fengyu LLM applied to marketing content generation to accelerate business-opportunity conversion [SF Technology (Fengyu LLM)]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://ir.sf-express.com/media/mbwpabmr/sf-2025-esg-report-e.pdf",
+   "raw_sector": "",
+   "date": "2025",
+   "fresh": "fresh"
+  },
+  {
+   "company": "S.F. Holding",
+   "use": "AI-powered multimodal package inspection integrated with X-ray scanning to pre-analyze package images and flag suspicious items for human review [SF Express / SF Technology]",
+   "existence": "confirmed",
+   "value": "80% reduction in manpower; 25% reduction in error rate; deployed at 100+ transfer venues with 1,000+ high-speed inspection devices",
+   "tier": "",
+   "url": "https://www.upu.int/en/news/2025/july/endtoend-intelligence-sf-express-and-china-state-post-bureau-drive-smart-transformation-from-insp",
+   "raw_sector": "",
+   "date": "2025-07",
    "fresh": "fresh"
   }
  ]

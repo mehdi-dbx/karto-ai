@@ -3,28 +3,28 @@
  "name": "Reliance Industries",
  "cc": "IN",
  "vertical": "Energy & Utilities",
- "deployments": 1,
- "confirmed": 1,
- "with_value_number": 0,
- "proof_rate": 0.0,
+ "deployments": 9,
+ "confirmed": 2,
+ "with_value_number": 1,
+ "proof_rate": 0.111,
  "mktcap": 210120481928.0,
  "revenue": 136144578313.0,
  "employees": 404501.0,
  "silent": false,
- "per_bn_revenue": 0.01,
- "per_10k_emp": 0.02,
+ "per_bn_revenue": 0.07,
+ "per_10k_emp": 0.22,
  "benchmarks": {
   "global_vertical": {
-   "deployments": 0,
-   "confirmed": 20,
-   "proof_rate": 0,
-   "n": 210
+   "deployments": 78,
+   "confirmed": 30,
+   "proof_rate": 43,
+   "n": 213
   },
   "country_vertical": {
-   "deployments": 0,
-   "confirmed": 9,
-   "proof_rate": 0,
-   "n": 12
+   "deployments": 92,
+   "confirmed": 42,
+   "proof_rate": 17,
+   "n": 13
   }
  },
  "first_seen": null,
@@ -33,12 +33,17 @@
  "momentum": "none",
  "maturity": "L3",
  "maturity_evidence": [
+  "multi_horizontal",
   "named_product:Jio Brain",
   "tier_p"
  ],
- "prospect_score": 54,
- "stack": [],
- "vendor_named": false,
+ "prospect_score": 48,
+ "stack": [
+  "Google",
+  "Google Cloud",
+  "NVIDIA"
+ ],
+ "vendor_named": true,
  "deployments_detail": [
   {
    "company": "Reliance Industries",
@@ -49,6 +54,94 @@
    "url": "https://economictimes.indiatimes.com/jio-brain-reliance-agm",
    "raw_sector": "Oil, Gas & Consumable Fuels",
    "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "Reliance Industries",
+   "use": "Reliance Intelligence subsidiary launched to accelerate AI initiatives and partnerships with Google and Meta [Google, Meta]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.forbesindia.com/amp/article/news/reliance-industries-announces-tie-ups-with-google-meta-to-accelerate-ai-revolution/2986879/1",
+   "raw_sector": "",
+   "date": "Aug 29, 2025",
+   "fresh": "undated"
+  },
+  {
+   "company": "Reliance Industries",
+   "use": "AI data centre infrastructure investment - 1 gigawatt of AI data capacity in southern India",
+   "existence": "claimed",
+   "value": "$11 billion",
+   "tier": "",
+   "url": "https://www.reuters.com/world/india/indias-reliance-industries-jv-invest-11-billion-data-centre-2025-11-26/",
+   "raw_sector": "",
+   "date": "Nov 26, 2025",
+   "fresh": "undated"
+  },
+  {
+   "company": "Reliance Industries",
+   "use": "AI-powered Riya and related AI products announced at AGM 2025",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://m.economictimes.com/industry/cons-products/electronics/reliance-agm-2025-ai-announcements-reliance-ai-strategy-riya-jiopc-jioframes/amp_articleshow/123580387.cms",
+   "raw_sector": "",
+   "date": "Aug 29, 2025",
+   "fresh": "undated"
+  },
+  {
+   "company": "Reliance Industries",
+   "use": "Reliance Intelligence as strategic partner for Google Cloud providing AI hardware accelerators access in India [Google Cloud]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.ril.com/sites/default/files/2025-10/MR_Reliance_and_Google_Partner_to_Accelerate_India%E2%80%99s_AI_Revolution_across_Consumers_and_Enterprises.pdf",
+   "raw_sector": "",
+   "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "Reliance Industries",
+   "use": "Partnership with Nvidia to develop India's own foundation large language model tailored for generative AI [Nvidia]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.youtube.com/watch?v=a4rQSUaJ5yE",
+   "raw_sector": "",
+   "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "Reliance Industries",
+   "use": "AI deployment in retail arm for solving Indian context problems",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.klover.ai/reliance-ai-strategy-analysis-of-conglomerate-ai-dominance/",
+   "raw_sector": "",
+   "date": "Jul 17, 2025",
+   "fresh": "undated"
+  },
+  {
+   "company": "Reliance Industries",
+   "use": "AI used for network management at Jio, supply chain and merchandising optimisation at Reliance Retail, and energy consumption reduction",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.ndtvprofit.com/technology/reliance-intelligence-to-make-ai-dramatically-more-affordable-in-india-by-2030-akash-ambani-11661008/amp/1",
+   "raw_sector": "",
+   "date": "Jun 19, 2026",
+   "fresh": "undated"
+  },
+  {
+   "company": "Reliance Industries",
+   "use": "Google AI Pro plan with Google Gemini offered free to eligible Jio users [Google Gemini]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.newindianexpress.com/amp/story/business/2025/Oct/30/reliance-partners-with-google-to-boost-ai-adoption-across-india",
+   "raw_sector": "",
+   "date": "Oct 30, 2025",
    "fresh": "undated"
   }
  ]

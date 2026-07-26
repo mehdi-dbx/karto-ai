@@ -3,7 +3,7 @@
  "name": "STMicroelectronics",
  "cc": "IT",
  "vertical": "Technology",
- "deployments": 3,
+ "deployments": 5,
  "confirmed": 3,
  "with_value_number": 0,
  "proof_rate": 0.0,
@@ -11,14 +11,14 @@
  "revenue": 11800000000.0,
  "employees": 48000.0,
  "silent": false,
- "per_bn_revenue": 0.25,
- "per_10k_emp": 0.62,
+ "per_bn_revenue": 0.42,
+ "per_10k_emp": 1.04,
  "benchmarks": {
   "global_vertical": {
-   "deployments": 80,
-   "confirmed": 81,
+   "deployments": 27,
+   "confirmed": 27,
    "proof_rate": 0,
-   "n": 156
+   "n": 159
   }
  },
  "first_seen": null,
@@ -32,7 +32,8 @@
  ],
  "prospect_score": 58,
  "stack": [
-  "Amazon AWS"
+  "Amazon AWS",
+  "Microsoft"
  ],
  "vendor_named": true,
  "deployments_detail": [
@@ -46,6 +47,39 @@
    "raw_sector": "Technology",
    "date": "missing",
    "fresh": "undated"
+  },
+  {
+   "company": "STMicroelectronics",
+   "use": "STM32 AI Model Zoo for embedded AI application development and prototyping",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.edge-ai-vision.com/2025/11/stmicroelectronics-introduces-the-industrys-largest-mcu-model-zoo-to-accelerate-physical-ai-time-to-market/",
+   "raw_sector": "",
+   "date": "2025-11-24",
+   "fresh": "fresh"
+  },
+  {
+   "company": "STMicroelectronics",
+   "use": "Edge Impulse partnership for STM32N6 series support [Edge Impulse]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.linkedin.com/posts/spencerhuang_edgeai-ai-ces-activity-7275197773631602688-H76U",
+   "raw_sector": "",
+   "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "STMicroelectronics",
+   "use": "AI-driven design space optimization for chip design (power, performance, area) [Microsoft, Synopsys]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.synopsys.com/blogs/chip-design/ai-chip-design-stmicroelectronics-microsoft.html",
+   "raw_sector": "",
+   "date": "2023-07-11",
+   "fresh": "stale"
   },
   {
    "company": "STMicroelectronics",
@@ -77,6 +111,39 @@
    "tier": "P",
    "url": "https://www.ictbusiness.it/news/stmicroelectronics-rincorre-ledge-ai-con-la-canadese-deeplite.aspx",
    "raw_sector": "Technology",
+   "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "STMicroelectronics",
+   "use": "AI-driven chip design optimization for power, performance, and area (PPA) [Microsoft]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.synopsys.com/blogs/chip-design/ai-chip-design-stmicroelectronics-microsoft.html",
+   "raw_sector": "",
+   "date": "Jul 11, 2023",
+   "fresh": "undated"
+  },
+  {
+   "company": "STMicroelectronics",
+   "use": "Edge AI computer vision with ST Neural-ART accelerator NPU",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.st.com/en/development-tools/stm32n6-ai.html",
+   "raw_sector": "",
+   "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "STMicroelectronics",
+   "use": "ST Edge AI Suite for AI model deployment and project tool selection",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.st.com/content/st_com/en/st-edge-ai-suite.html",
+   "raw_sector": "",
    "date": "missing",
    "fresh": "undated"
   }

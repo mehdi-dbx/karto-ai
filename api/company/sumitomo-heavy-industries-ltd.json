@@ -3,47 +3,72 @@
  "name": "Sumitomo Heavy Industries, Ltd.",
  "cc": "JP",
  "vertical": "Industrial / Machinery",
- "deployments": 1,
- "confirmed": 1,
- "with_value_number": 0,
- "proof_rate": 0.0,
+ "deployments": 10,
+ "confirmed": 6,
+ "with_value_number": 2,
+ "proof_rate": 0.2,
  "mktcap": 4241933333.0,
  "revenue": 7133333333.0,
  "employees": 25123.0,
  "silent": false,
- "per_bn_revenue": 0.14,
- "per_10k_emp": 0.4,
+ "per_bn_revenue": 1.4,
+ "per_10k_emp": 3.98,
  "benchmarks": {
   "global_vertical": {
-   "deployments": 0,
-   "confirmed": 14,
-   "proof_rate": 0,
-   "n": 175
+   "deployments": 77,
+   "confirmed": 72,
+   "proof_rate": 57,
+   "n": 176
   },
   "country_vertical": {
-   "deployments": 0,
-   "confirmed": 4,
-   "proof_rate": 0,
+   "deployments": 69,
+   "confirmed": 65,
+   "proof_rate": 38,
    "n": 27
   }
  },
- "first_seen": 2026,
+ "first_seen": 2017,
  "by_year": [
   {
-   "year": 2026,
+   "year": 2017,
    "n": 1
+  },
+  {
+   "year": 2021,
+   "n": 1
+  },
+  {
+   "year": 2023,
+   "n": 1
+  },
+  {
+   "year": 2024,
+   "n": 3
+  },
+  {
+   "year": 2025,
+   "n": 2
+  },
+  {
+   "year": 2026,
+   "n": 2
   }
  ],
  "undated_pct": 0,
- "momentum": "rising",
- "maturity": "L3",
+ "momentum": "early_mover,flat",
+ "maturity": "L4",
  "maturity_evidence": [
+  "multi_horizontal",
   "named_product:Vision",
+  "value_number",
+  "multi_year",
   "tier_p"
  ],
- "prospect_score": 54,
- "stack": [],
- "vendor_named": false,
+ "prospect_score": 68,
+ "stack": [
+  "Microsoft"
+ ],
+ "vendor_named": true,
  "deployments_detail": [
   {
    "company": "Sumitomo Heavy Industries, Ltd.",
@@ -54,6 +79,105 @@
    "url": "https://jpn.nec.com/rd/technologies/202512/index.html",
    "raw_sector": "Machinery",
    "date": "2026-04",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Sumitomo Heavy Industries, Ltd.",
+   "use": "IZANA: AI (machine learning) operation-support system for next-generation biomass / circulating fluidized bed (CFB) boiler power plants. Diagnoses live plant operating data to detect equipment issues early and advise operators on stable operation. Runs on SHI's SHICuTe ICT/IoT platform. [Sumitomo Heavy Industries (in-house ML, Technology Research Center)]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.shi.co.jp/english/tech/technology/izana.html",
+   "raw_sector": "",
+   "date": "2023",
+   "fresh": "stale"
+  },
+  {
+   "company": "Sumitomo Heavy Industries, Ltd.",
+   "use": "AI fault-prediction for industrial machinery: deep-learning system to detect early signs of ball-screw damage in electric plastic injection-molding machine drive mechanisms; also aimed at product quality判定 and auto-adjustment of operating conditions. [NEC (RAPID machine learning / NEC the WISE)]",
+   "existence": "claimed",
+   "value": "learns 1500 datasets in ~20 min; classifies normal vs damaged at <=0.4 sec/dataset",
+   "tier": "",
+   "url": "https://www.shi.co.jp/info/2017/6kgpsq0000003bn0.html",
+   "raw_sector": "",
+   "date": "2017-12-13",
+   "fresh": "stale"
+  },
+  {
+   "company": "Sumitomo Heavy Industries, Ltd.",
+   "use": "Construction-site safety AI: video-recognition AI plus generative AI (LLM) to automatically detect near-miss (hiyari-hatto) events around hydraulic excavators from camera/sensor data and auto-generate summarized incident reports. PoC Sept 2025; joint development from April 2026. [NEC (video recognition AI + LLM)]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://techsabado.com/2026/04/06/industrial-news-sumitomo-heavy-nec-to-develop-ai-system-for-construction-safety/",
+   "raw_sector": "",
+   "date": "2026-04",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Sumitomo Heavy Industries, Ltd.",
+   "use": "KITOV-ONE AI visual/appearance inspection system offered by SHI Mechatronics: 3D imaging + proprietary image-processing algorithms and OCR to detect 100-micron-level scratches, dents, hair, loose screws and labeling errors on complex/glossy parts in high-mix low-volume production. [Sumitomo Heavy Industries Mechatronics (KITOV-ONE, based on Kitov.ai tech)]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.visualinspection-eqp.com/manufacturer/shi-mechatronics.html",
+   "raw_sector": "",
+   "date": "2024",
+   "fresh": "aging"
+  },
+  {
+   "company": "Sumitomo Heavy Industries, Ltd.",
+   "use": "AI-driven automatic adjustment of injection-molding parameters during mass production: collects temperature/pressure/speed data and uses ML to auto-tune molding conditions in real time to stabilize quality (incl. recycled materials) and reduce defects/labor. Shown at Nov 2024 Nagoya exhibition; reference technology, release TBD. [Sumitomo Heavy Industries (Plastics Machinery)]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.shi.co.jp/plastics/english/blog/en-0023.html",
+   "raw_sector": "",
+   "date": "2024-11",
+   "fresh": "aging"
+  },
+  {
+   "company": "Sumitomo Heavy Industries, Ltd.",
+   "use": "Machine-learning development on the SHICuTe common platform requiring large-scale data annotation (images, time-series waveforms, natural language) to build ML systems that diagnose operational data; annotation outsourced to Science Co. to scale training-data production. [Science Co., Ltd. (annotation services); SHI SHICuTe platform]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.science.co.jp/en/case/shi/annotation/",
+   "raw_sector": "",
+   "date": "2021",
+   "fresh": "stale"
+  },
+  {
+   "company": "Sumitomo Heavy Industries, Ltd.",
+   "use": "1paper AI translation service adopted so R&D engineers can read English/German academic papers in Japanese (OCR + auto layout reconstruction), speeding overseas technical-literature intake for product development. [Feynma Technology (1paper; DeepL engine)]",
+   "existence": "confirmed",
+   "value": "papers translated in ~1 minute; up to 100,000 characters per translation",
+   "tier": "",
+   "url": "https://prtimes.jp/main/html/rd/p/000000011.000073035.html",
+   "raw_sector": "",
+   "date": "2024-05-09",
+   "fresh": "aging"
+  },
+  {
+   "company": "Sumitomo Heavy Industries, Ltd.",
+   "use": "CADDi Drawer manufacturing-data-utilization cloud deployed at Sumitomo Heavy Industries Construction Crane (HSC): AI drawing analysis and similarity search across technical drawings/specs to consolidate duplicate part numbers, transfer engineering knowledge, and cut inventory; expanding to production tech, painting, QA departments. [CADDi (CADDi Drawer)]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://caddi.com/press/20250807/",
+   "raw_sector": "",
+   "date": "2025-08-07",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Sumitomo Heavy Industries, Ltd.",
+   "use": "Microsoft 365 Copilot ('Meet my Copilot' case): energy/environment division uses Copilot for knowledge transfer and creation of employee training/education materials in quality-control and product-inspection work, reducing instructor workload (OJT augmentation). [Microsoft (Microsoft 365 Copilot)]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.youtube.com/watch?v=LABoWpy2C7Y",
+   "raw_sector": "",
+   "date": "2025-03-10",
    "fresh": "fresh"
   }
  ]

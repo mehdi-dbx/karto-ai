@@ -3,27 +3,27 @@
  "name": "Target Corporation",
  "cc": "US",
  "vertical": "Retail & E-commerce",
- "deployments": 13,
- "confirmed": 11,
- "with_value_number": 1,
- "proof_rate": 0.077,
+ "deployments": 20,
+ "confirmed": 18,
+ "with_value_number": 2,
+ "proof_rate": 0.1,
  "mktcap": 61190000000.0,
  "revenue": 106380000000.0,
  "employees": 415000.0,
  "silent": false,
- "per_bn_revenue": 0.12,
- "per_10k_emp": 0.31,
+ "per_bn_revenue": 0.19,
+ "per_10k_emp": 0.48,
  "benchmarks": {
   "global_vertical": {
    "deployments": 98,
-   "confirmed": 97,
-   "proof_rate": 61,
-   "n": 295
+   "confirmed": 99,
+   "proof_rate": 36,
+   "n": 301
   },
   "country_vertical": {
    "deployments": 96,
-   "confirmed": 91,
-   "proof_rate": 63,
+   "confirmed": 97,
+   "proof_rate": 29,
    "n": 80
   }
  },
@@ -39,14 +39,14 @@
   },
   {
    "year": 2025,
-   "n": 6
+   "n": 11
   },
   {
    "year": 2026,
-   "n": 1
+   "n": 2
   }
  ],
- "undated_pct": 8,
+ "undated_pct": 10,
  "momentum": "early_mover,rising",
  "maturity": "L4",
  "maturity_evidence": [
@@ -55,10 +55,36 @@
   "value_number",
   "multi_year"
  ],
- "prospect_score": 100,
- "stack": [],
- "vendor_named": false,
+ "prospect_score": 96,
+ "stack": [
+  "Google",
+  "Google Cloud",
+  "OpenAI"
+ ],
+ "vendor_named": true,
  "deployments_detail": [
+  {
+   "company": "Target Corporation",
+   "use": "AI-powered product search and personalized recommendations",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://ctomagazine.com/targets-ai-revolution-making-smarter-shopping-modern-for-modern-consumers/",
+   "raw_sector": "",
+   "date": "2026-05-26",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Target Corporation",
+   "use": "Generative AI for product review summarization",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.digitalcommerce360.com/2025/08/14/how-target-is-using-ai/amp/",
+   "raw_sector": "",
+   "date": "2025-08-14",
+   "fresh": "fresh"
+  },
   {
    "company": "Target Corporation",
    "use": "\"Store Companion\" GenAI chatbot for store team members (~2,000 stores, hundreds of thousands of employees)",
@@ -69,6 +95,61 @@
    "raw_sector": "Consumer Staples",
    "date": "2024",
    "fresh": "aging"
+  },
+  {
+   "company": "Target Corporation",
+   "use": "AI deployment across store and digital operations",
+   "existence": "confirmed",
+   "value": "10000",
+   "tier": "",
+   "url": "https://finance.yahoo.com/news/target-accelerates-growth-ai-driven-132800741.html",
+   "raw_sector": "",
+   "date": "2025-10-13",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Target Corporation",
+   "use": "Store Companion generative AI chatbot for employee training and store operations",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.bain.com/client-results/ai/target/",
+   "raw_sector": "",
+   "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "Target Corporation",
+   "use": "Generative AI for demand forecasting and marketplace optimization",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.retaildive.com/news/target-generative-artificial-intelligence-technology-forecasting-marketplace/802801/",
+   "raw_sector": "",
+   "date": "2025-10-16",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Target Corporation",
+   "use": "Conversational shopping experience in ChatGPT [ChatGPT]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://corporate.target.com/press/release/2025/11/target-to-launch-first-of-its-kind-conversational,-curated-shopping-experience-in-chatgpt",
+   "raw_sector": "",
+   "date": "2025-11-19",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Target Corporation",
+   "use": "AI-powered gift recommendations",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://corporate.target.com/press/release/2025/11/target-launches-new-ai-powered-features-to-make-holiday-shopping-easier,-smarter-and-more-fun",
+   "raw_sector": "",
+   "date": "2025-11-12",
+   "fresh": "fresh"
   },
   {
    "company": "Target Corporation",

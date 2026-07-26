@@ -3,27 +3,27 @@
  "name": "Danone",
  "cc": "FR",
  "vertical": "Retail & E-commerce",
- "deployments": 2,
- "confirmed": 2,
- "with_value_number": 0,
- "proof_rate": 0.0,
+ "deployments": 7,
+ "confirmed": 5,
+ "with_value_number": 2,
+ "proof_rate": 0.286,
  "mktcap": 48459600000.0,
  "revenue": 29462400000.0,
  "employees": 88670.0,
  "silent": false,
- "per_bn_revenue": 0.07,
- "per_10k_emp": 0.23,
+ "per_bn_revenue": 0.24,
+ "per_10k_emp": 0.79,
  "benchmarks": {
   "global_vertical": {
-   "deployments": 71,
-   "confirmed": 80,
-   "proof_rate": 0,
-   "n": 295
+   "deployments": 56,
+   "confirmed": 53,
+   "proof_rate": 57,
+   "n": 301
   },
   "country_vertical": {
    "deployments": 44,
-   "confirmed": 56,
-   "proof_rate": 0,
+   "confirmed": 33,
+   "proof_rate": 56,
    "n": 10
   }
  },
@@ -33,10 +33,13 @@
  "momentum": "none",
  "maturity": "L3",
  "maturity_evidence": [
-  "named_product:Danone Microsoft AI Academy"
+  "multi_horizontal",
+  "named_product:Danone Microsoft AI Academy",
+  "value_number"
  ],
- "prospect_score": 52,
+ "prospect_score": 59,
  "stack": [
+  "Databricks",
   "Microsoft"
  ],
  "vendor_named": true,
@@ -61,6 +64,61 @@
    "url": "https://www.danone.com/fr/newsroom/communiques-de-presse/danone-accelere-le-deploiement-de-lintelligence-artificielle-ia-en-collaborant-avec-microsoft.html",
    "raw_sector": "Consumer Defensive",
    "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "Danone",
+   "use": "Digital and AI tools for R&D and nutrition research",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.danoneresearch.com/digital-innovation/digital-and-ai/",
+   "raw_sector": "",
+   "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "Danone",
+   "use": "AI-powered natural-language data tools and data-quality improvement [Databricks] [Databricks]",
+   "existence": "confirmed",
+   "value": "speeds decisions by up to 30%",
+   "tier": "",
+   "url": "https://www.databricks.com/customers/danone",
+   "raw_sector": "",
+   "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "Danone",
+   "use": "Employee training and upskilling in AI and digital technologies [Microsoft]",
+   "existence": "confirmed",
+   "value": "20000",
+   "tier": "",
+   "url": "https://www.danone.com/newsroom/press-releases/danone-collaborates-with-microsoft-to-accelerate-ai.html",
+   "raw_sector": "",
+   "date": "Jul 23, 2024",
+   "fresh": "undated"
+  },
+  {
+   "company": "Danone",
+   "use": "Microsoft 365 Copilot and autonomous agents for HR and order-to-cash process automation [Microsoft]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.microsoft.com/en/customers/story/25506-danone-microsoft-365-copilot",
+   "raw_sector": "",
+   "date": "Oct 24, 2025",
+   "fresh": "undated"
+  },
+  {
+   "company": "Danone",
+   "use": "AI-driven supply chain and logistics optimization [Microsoft]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.danone.com/newsroom/stories/ai-supply-chain.html",
+   "raw_sector": "",
+   "date": "May 4, 2026",
    "fresh": "undated"
   }
  ]

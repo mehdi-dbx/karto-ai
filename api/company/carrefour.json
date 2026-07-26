@@ -3,49 +3,121 @@
  "name": "Carrefour",
  "cc": "FR",
  "vertical": "Retail & E-commerce",
- "deployments": 2,
- "confirmed": 1,
- "with_value_number": 0,
- "proof_rate": 0.0,
+ "deployments": 13,
+ "confirmed": 12,
+ "with_value_number": 8,
+ "proof_rate": 0.615,
  "mktcap": 12700800000.0,
  "revenue": 90536400000.0,
  "employees": 298604.0,
  "silent": false,
- "per_bn_revenue": 0.02,
- "per_10k_emp": 0.07,
+ "per_bn_revenue": 0.14,
+ "per_10k_emp": 0.44,
  "benchmarks": {
   "global_vertical": {
-   "deployments": 71,
-   "confirmed": 24,
-   "proof_rate": 0,
-   "n": 295
+   "deployments": 89,
+   "confirmed": 91,
+   "proof_rate": 90,
+   "n": 301
   },
   "country_vertical": {
-   "deployments": 44,
-   "confirmed": 0,
-   "proof_rate": 0,
+   "deployments": 78,
+   "confirmed": 78,
+   "proof_rate": 100,
    "n": 10
   }
  },
- "first_seen": 2023,
+ "first_seen": 2019,
  "by_year": [
   {
-   "year": 2023,
+   "year": 2019,
+   "n": 2
+  },
+  {
+   "year": 2021,
    "n": 1
+  },
+  {
+   "year": 2023,
+   "n": 4
+  },
+  {
+   "year": 2024,
+   "n": 1
+  },
+  {
+   "year": 2025,
+   "n": 2
+  },
+  {
+   "year": 2026,
+   "n": 2
   }
  ],
- "undated_pct": 50,
- "momentum": "early_mover,gone_quiet",
- "maturity": "L3",
+ "undated_pct": 8,
+ "momentum": "early_mover,cooling",
+ "maturity": "L4",
  "maturity_evidence": [
-  "named_product:Hopla"
+  "multi_horizontal",
+  "named_product:Hopla",
+  "value_number",
+  "multi_year"
  ],
- "prospect_score": 46,
+ "prospect_score": 75,
  "stack": [
+  "Capgemini",
+  "Google",
+  "Google Cloud",
+  "Microsoft",
+  "Microsoft Azure",
   "OpenAI"
  ],
  "vendor_named": true,
  "deployments_detail": [
+  {
+   "company": "Carrefour",
+   "use": "ai.carrefour, a global AI platform launched first in Spain to make AI accessible across HR, customer experience and internal processes (built on the earlier uno.ia super-agent) [Google Gemini 2.0]",
+   "existence": "confirmed",
+   "value": "launch event connected 3,000+ employees in Spain",
+   "tier": "",
+   "url": "https://cross-border-magazine.com/carrefour-launches-ai-carrefour-in-spain/",
+   "raw_sector": "",
+   "date": "2025-04-01",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Carrefour",
+   "use": "Smart-store rollout using Captana AI micro-cameras and EdgeSense smart shelves/rails to detect out-of-stocks, price discrepancies and planogram errors in real time across all French hyper/supermarkets [VusionGroup (Captana AI, EdgeSense)]",
+   "existence": "confirmed",
+   "value": "millions of smart labels; all French stores by 2030",
+   "tier": "",
+   "url": "https://www.vusion.com/na/newsroom/carrefour-vusion-join-forces-deploy-smart-store-at-scale/",
+   "raw_sector": "",
+   "date": "2026-02-18",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Carrefour",
+   "use": "AI-driven dynamic markdown / smart pricing of perishable fresh products to reduce food waste, rolled out to all Carrefour Argentina stores [Wasteless]",
+   "existence": "confirmed",
+   "value": "45% reduction in markdown costs in first year; 640 stores",
+   "tier": "",
+   "url": "https://www.wasteless.com/success/wasteless-rolls-out-650-stores-to-optimize-fresh-markdowns",
+   "raw_sector": "",
+   "date": "2024-01-01",
+   "fresh": "aging"
+  },
+  {
+   "company": "Carrefour",
+   "use": "Machine-learning demand forecasting for the bakery-pastry department to cut food waste, deployed across French supermarkets after piloting in 200+ stores [Artefact]",
+   "existence": "confirmed",
+   "value": "~100 tons of pastries saved from waste in 5 months (2021)",
+   "tier": "",
+   "url": "https://www.artefact.com/cases/carrefour-group-how-to-reduce-food-waste-bakery-pastry/",
+   "raw_sector": "",
+   "date": "2021-01-01",
+   "fresh": "stale"
+  },
   {
    "company": "Carrefour",
    "use": "Three OpenAI/ChatGPT-based solutions: \"Hopla\" shopping-advice chatbot on carrefour.fr, AI-generated product descriptions, and AI purchase assistance (own press release, 2023)",
@@ -67,6 +139,83 @@
    "raw_sector": "Consumer Defensive",
    "date": "missing",
    "fresh": "undated"
+  },
+  {
+   "company": "Carrefour",
+   "use": "AI assistance for the non-merchandise purchasing division, drafting tender/call-for-proposal documents and analyzing quotes [OpenAI (GPT-4) on Microsoft Azure OpenAI Service]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://antoniosantos.blog/2023/06/14/carrefours-ai-revolution-enhancing-shopping-experience-with-openais-gpt-4/",
+   "raw_sector": "",
+   "date": "2023-06-08",
+   "fresh": "stale"
+  },
+  {
+   "company": "Carrefour",
+   "use": "Group-wide generative AI employee assistant to simplify daily work and free operational time, rolled out to all staff across eight countries [Google Gemini]",
+   "existence": "confirmed",
+   "value": "125,000 employees across 8 countries",
+   "tier": "",
+   "url": "https://retail-systems.com/rs/Carrefour_Rolls_Out_AI_Assistant_For_125000_Staff.php",
+   "raw_sector": "",
+   "date": "2025-08-03",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Carrefour",
+   "use": "AI demand forecasting and inventory optimization across stores, warehouses and e-commerce to reduce waste and overstock; deployed after an 18-month pilot [SAS (Viya), integrator Capgemini]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.sas.com/cs_cz/news/press-releases/2019/january/carrefour-artificial-intelligence-retail-forecasting-nrf-2019.html",
+   "raw_sector": "",
+   "date": "2019-01-14",
+   "fresh": "stale"
+  },
+  {
+   "company": "Carrefour",
+   "use": "Hopla, a ChatGPT/GPT-4 based conversational shopping assistant on Carrefour.fr that helps customers find products by budget, dietary needs and recipes, with anti-waste suggestions [OpenAI (GPT-4) on Microsoft Azure OpenAI Service, integrator Bain & Company]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://antoniosantos.blog/2023/06/14/carrefours-ai-revolution-enhancing-shopping-experience-with-openais-gpt-4/",
+   "raw_sector": "",
+   "date": "2023-06-08",
+   "fresh": "stale"
+  },
+  {
+   "company": "Carrefour",
+   "use": "Generative AI enrichment of Carrefour private-label product description sheets (over 2,000 products online, extending across the catalog) [OpenAI (GPT-4) on Microsoft Azure OpenAI Service]",
+   "existence": "confirmed",
+   "value": "2,000+ product sheets enriched",
+   "tier": "",
+   "url": "https://antoniosantos.blog/2023/06/14/carrefours-ai-revolution-enhancing-shopping-experience-with-openais-gpt-4/",
+   "raw_sector": "",
+   "date": "2023-06-08",
+   "fresh": "stale"
+  },
+  {
+   "company": "Carrefour",
+   "use": "AI-powered precision marketing: four ML models (customer lifetime value, segmentation, conversion prediction, churn) built on Google Cloud AutoML to optimize online advertising at Carrefour Taiwan [Google Cloud AutoML / Google Ads]",
+   "existence": "confirmed",
+   "value": "2.64x higher ROAS; 40% lower cost per action",
+   "tier": "",
+   "url": "https://cloud.google.com/customers/carrefourtaiwan",
+   "raw_sector": "",
+   "date": "2019-01-01",
+   "fresh": "stale"
+  },
+  {
+   "company": "Carrefour",
+   "use": "Grocery shopping service inside ChatGPT: users plan meals, search products in natural language, filter by diet, check availability and build a basket, then finalize on carrefour.fr (first major European retailer to do so) [OpenAI (ChatGPT)]",
+   "existence": "confirmed",
+   "value": "targets ~26 million ChatGPT users in France",
+   "tier": "",
+   "url": "https://finance.yahoo.com/sectors/technology/articles/carrefour-becomes-first-european-retailer-093836925.html",
+   "raw_sector": "",
+   "date": "2026-03-27",
+   "fresh": "fresh"
   }
  ]
 }

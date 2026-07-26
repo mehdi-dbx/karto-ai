@@ -3,41 +3,46 @@
  "name": "Gazprom",
  "cc": "RU",
  "vertical": "Energy & Utilities",
- "deployments": 1,
+ "deployments": 2,
  "confirmed": 1,
  "with_value_number": 1,
- "proof_rate": 1.0,
+ "proof_rate": 0.5,
  "mktcap": null,
  "revenue": 117000000000.0,
  "employees": 466000.0,
  "silent": false,
- "per_bn_revenue": 0.01,
- "per_10k_emp": 0.02,
+ "per_bn_revenue": 0.02,
+ "per_10k_emp": 0.04,
  "benchmarks": {
   "global_vertical": {
-   "deployments": 0,
-   "confirmed": 20,
-   "proof_rate": 75,
-   "n": 210
+   "deployments": 10,
+   "confirmed": 7,
+   "proof_rate": 81,
+   "n": 213
   },
   "country_vertical": {
-   "deployments": 0,
-   "confirmed": 44,
-   "proof_rate": 89,
+   "deployments": 11,
+   "confirmed": 22,
+   "proof_rate": 67,
    "n": 10
   }
  },
- "first_seen": null,
- "by_year": [],
- "undated_pct": 100,
- "momentum": "none",
+ "first_seen": 2025,
+ "by_year": [
+  {
+   "year": 2025,
+   "n": 1
+  }
+ ],
+ "undated_pct": 50,
+ "momentum": "rising",
  "maturity": "L3",
  "maturity_evidence": [
   "named_product:Gazprom",
   "value_number",
   "tier_p"
  ],
- "prospect_score": 14,
+ "prospect_score": 34,
  "stack": [],
  "vendor_named": false,
  "deployments_detail": [
@@ -51,6 +56,17 @@
    "raw_sector": "Oil & Gas",
    "date": "missing",
    "fresh": "undated"
+  },
+  {
+   "company": "Gazprom",
+   "use": "AI and datacenter power infrastructure development",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://tass.com/economy/2032535/amp",
+   "raw_sector": "",
+   "date": "2025-10-20",
+   "fresh": "fresh"
   }
  ]
 }

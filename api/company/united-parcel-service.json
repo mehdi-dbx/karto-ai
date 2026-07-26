@@ -3,43 +3,124 @@
  "name": "United Parcel Service",
  "cc": "US",
  "vertical": "Industrial / Machinery",
- "deployments": 1,
- "confirmed": 1,
- "with_value_number": 1,
- "proof_rate": 1.0,
+ "deployments": 7,
+ "confirmed": 7,
+ "with_value_number": 2,
+ "proof_rate": 0.286,
  "mktcap": 97440000000.0,
  "revenue": 88320000000.0,
  "employees": 460000.0,
  "silent": false,
- "per_bn_revenue": 0.01,
- "per_10k_emp": 0.02,
+ "per_bn_revenue": 0.08,
+ "per_10k_emp": 0.15,
  "benchmarks": {
   "global_vertical": {
-   "deployments": 0,
-   "confirmed": 14,
-   "proof_rate": 79,
-   "n": 175
+   "deployments": 61,
+   "confirmed": 78,
+   "proof_rate": 75,
+   "n": 176
   },
   "country_vertical": {
-   "deployments": 0,
-   "confirmed": 19,
-   "proof_rate": 89,
-   "n": 80
+   "deployments": 61,
+   "confirmed": 81,
+   "proof_rate": 81,
+   "n": 81
   }
  },
- "first_seen": null,
- "by_year": [],
- "undated_pct": 100,
- "momentum": "none",
- "maturity": "L3",
- "maturity_evidence": [
-  "named_product:ORION",
-  "value_number"
+ "first_seen": 2024,
+ "by_year": [
+  {
+   "year": 2024,
+   "n": 2
+  },
+  {
+   "year": 2025,
+   "n": 1
+  },
+  {
+   "year": 2026,
+   "n": 3
+  }
  ],
- "prospect_score": 14,
+ "undated_pct": 14,
+ "momentum": "early_mover,rising",
+ "maturity": "L4",
+ "maturity_evidence": [
+  "multi_horizontal",
+  "named_product:ORION",
+  "value_number",
+  "multi_year"
+ ],
+ "prospect_score": 79,
  "stack": [],
  "vendor_named": false,
  "deployments_detail": [
+  {
+   "company": "United Parcel Service",
+   "use": "Enhanced end-to-end visibility and customer support across multiple channels",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.supplychain-outlook.com/supply-chain-technology/ups-enables-greater-visibility-reliability-and-control-with-bold-ai-initiatives",
+   "raw_sector": "",
+   "date": "2026-07-02",
+   "fresh": "fresh"
+  },
+  {
+   "company": "United Parcel Service",
+   "use": "Generative AI for customer service operations streamlining",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.cio.com/article/2096052/ups-delivers-customer-wins-with-generative-ai.html",
+   "raw_sector": "",
+   "date": "2024-05-03",
+   "fresh": "aging"
+  },
+  {
+   "company": "United Parcel Service",
+   "use": "MeRA - generative AI tool for automating customer email responses [Large Language Models (LLMs)]",
+   "existence": "confirmed",
+   "value": "52000",
+   "tier": "",
+   "url": "https://aiexpert.network/ai-at-ups/",
+   "raw_sector": "",
+   "date": "2024-10-04",
+   "fresh": "aging"
+  },
+  {
+   "company": "United Parcel Service",
+   "use": "AI for end-to-end logistics visibility and customer experience improvement",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://about.ups.com/us/en/newsroom/press-releases/innovation-driven/proof-over-promises--ups-s-bold-ai-initiatives-enhance-products-.html",
+   "raw_sector": "",
+   "date": "2026-06-18",
+   "fresh": "fresh"
+  },
+  {
+   "company": "United Parcel Service",
+   "use": "AI for shipper pricing and customs clearance automation",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.supplychaindive.com/news/ups-ai-employee-upskilling-network-changes/816412/",
+   "raw_sector": "",
+   "date": "2026-04-06",
+   "fresh": "fresh"
+  },
+  {
+   "company": "United Parcel Service",
+   "use": "Dynamic route optimization with AI",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.auroralive.com/insights/ai-driven-logistics-in-ups-practical-use-cases?hs_amp=true",
+   "raw_sector": "",
+   "date": "2025-02-13",
+   "fresh": "fresh"
+  },
   {
    "company": "United Parcel Service",
    "use": "ORION AI route optimization (~100M miles/yr saved) + DeliveryDefense AI theft/address-risk + ML package sorting",

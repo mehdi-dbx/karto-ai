@@ -3,27 +3,27 @@
  "name": "Haier Smart Home",
  "cc": "HK",
  "vertical": "Manufacturing & Robotics",
- "deployments": 1,
- "confirmed": 1,
- "with_value_number": 1,
- "proof_rate": 1.0,
+ "deployments": 9,
+ "confirmed": 9,
+ "with_value_number": 5,
+ "proof_rate": 0.556,
  "mktcap": 28383333333.0,
  "revenue": 43267948718.0,
  "employees": 134995.0,
  "silent": false,
- "per_bn_revenue": 0.02,
- "per_10k_emp": 0.07,
+ "per_bn_revenue": 0.21,
+ "per_10k_emp": 0.67,
  "benchmarks": {
   "global_vertical": {
-   "deployments": 0,
-   "confirmed": 24,
-   "proof_rate": 85,
-   "n": 147
+   "deployments": 75,
+   "confirmed": 85,
+   "proof_rate": 89,
+   "n": 150
   },
   "country_vertical": {
-   "deployments": 0,
-   "confirmed": 14,
-   "proof_rate": 86,
+   "deployments": 100,
+   "confirmed": 100,
+   "proof_rate": 71,
    "n": 8
   }
  },
@@ -31,19 +31,37 @@
  "by_year": [
   {
    "year": 2023,
+   "n": 3
+  },
+  {
+   "year": 2024,
+   "n": 3
+  },
+  {
+   "year": 2025,
    "n": 1
+  },
+  {
+   "year": 2026,
+   "n": 2
   }
  ],
  "undated_pct": 0,
- "momentum": "early_mover,gone_quiet",
- "maturity": "L3",
+ "momentum": "early_mover,cooling",
+ "maturity": "L4",
  "maturity_evidence": [
+  "multi_horizontal",
   "named_product:HomeGPT",
   "value_number",
+  "multi_year",
   "tier_p"
  ],
- "prospect_score": 6,
- "stack": [],
+ "prospect_score": 72,
+ "stack": [
+  "Amazon AWS",
+  "Google",
+  "Google Cloud"
+ ],
  "vendor_named": true,
  "deployments_detail": [
   {
@@ -59,6 +77,39 @@
   },
   {
    "company": "Haier Smart Home",
+   "use": "AI-driven smart home ecosystem with intuitive user interaction and home learning capabilities",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.haier.com/global/press-events/news/20250324_257963.shtml",
+   "raw_sector": "",
+   "date": "2025-03-24",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Haier Smart Home",
+   "use": "AI-powered smart home portfolio for entertainment, cooling, laundry, cooking, dishwashing, and floorcare",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://automatedhome.com/haier-unveils-ai-powered-smart-home-innovations-in-paris-redefining-daily-living/",
+   "raw_sector": "",
+   "date": "2026-04-07",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Haier Smart Home",
+   "use": "AI-powered customer service for appliance diagnostics",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://eu.36kr.com/en/p/3857432529884417",
+   "raw_sector": "",
+   "date": "2026-06-17",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Haier Smart Home",
    "use": "HomeGPT self-developed smart-home vertical LLM understanding user instructions and predicting needs; Smart Home Brain 2.0 with UHomeOS",
    "existence": "confirmed",
    "value": "4+ level trustworthy-AI rating",
@@ -66,6 +117,116 @@
    "url": "https://baike.baidu.com/item/HomeGPT/64432031",
    "raw_sector": "Consumer Electronics",
    "date": "2023",
+   "fresh": "stale"
+  },
+  {
+   "company": "Haier Smart Home",
+   "use": "Flavorly AI in the SmartHQ consumer app (GE Appliances, a Haier Smart Home company) generates personalized recipes from ingredients/photos and dietary preferences using generative AI. [Google Cloud (Vertex AI)]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://pressroom.geappliances.com/news/ge-appliances-helps-consumers-create-personalized-recipes-from-the-food-in-their-kitchen-with-google-clouds-generative-ai",
+   "raw_sector": "",
+   "date": "2023-08-29",
+   "fresh": "stale"
+  },
+  {
+   "company": "Haier Smart Home",
+   "use": "HomeGPT, described as the industry's first vertical-domain large model for smart home, powering the Smart Home Brain to tune interactions between millions of households and appliances via voice, text and multimodal input across speakers, service robots and security devices. [Haier (proprietary)]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.forbes.com/sites/markgreeven/2024/09/13/haiers-ai-evolution-charting-the-course-for-ge-appliances/",
+   "raw_sector": "",
+   "date": "2024-09-13",
+   "fresh": "aging"
+  },
+  {
+   "company": "Haier Smart Home",
+   "use": "COSMOMind, the first domestic industrial-internet vertical large model on Haier's COSMOPlat, used for industrial scenario analysis, knowledge Q&A and reasoning across R&D, manufacturing, operations and carbon management; deployed in petrochemical, manufacturing and energy sectors. [Haier COSMOPlat (proprietary)]",
+   "existence": "confirmed",
+   "value": "93% industrial-knowledge retrieval accuracy; 57 industrial AI agents across 40+ scenarios; ~20% efficiency gain in petrochemical; 50% improvement in equipment failure diagnosis efficiency",
+   "tier": "",
+   "url": "https://www.acnnewswire.com/press-release/english/105063/cosmoplat-introduces-full-stack-ai-to-hong-kong-for-trillion-dollar-industrial-digitalization",
+   "raw_sector": "",
+   "date": "2026-02-06",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Haier Smart Home",
+   "use": "AI Eye / AI Vision 2.0 perception system giving appliances visual understanding of the home, plus a 3D digital space model of the home, enabling autonomous 'unmanned housework' scenarios (shown at AWE 2026). [Haier (proprietary)]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://eu.36kr.com/en/p/3720096740211333",
+   "raw_sector": "",
+   "date": "2026-03-12",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Haier Smart Home",
+   "use": "hOn app (Candy, Hoover, Haier brands) provides AI-supported recipe suggestions and cooking-progress monitoring for smart kitchen appliances, managing remote control across many product lines. [Haier Europe (proprietary; AWS-backed platform)]",
+   "existence": "confirmed",
+   "value": "10 million connected users; hOn manages up to 35 product lines",
+   "tier": "",
+   "url": "https://corporate.haier-europe.com/haier-europe-inaugurates-hon-one-smart-home/",
+   "raw_sector": "",
+   "date": "2024-07-12",
+   "fresh": "aging"
+  },
+  {
+   "company": "Haier Smart Home",
+   "use": "Smart Home Digitalisation 2025 AI Talent Development Programme",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://smart-home.haier.com/media/qyxnwuj4/d-share-28778_ar-2-eng-haier-smart-home-26-march-2236-cl.pdf",
+   "raw_sector": "",
+   "date": "2026-03-26",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Haier Smart Home",
+   "use": "AI tools implementation across entire value chain",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://smart-home.haier.com/en/dggg/P020250829838756580450.pdf",
+   "raw_sector": "",
+   "date": "2025-08-28",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Haier Smart Home",
+   "use": "Haier Europe uses generative AI for automatic machine translation across 27 languages (product/content localization, keeping a human in the loop) built on Amazon Bedrock. [AWS (Amazon Bedrock)]",
+   "existence": "confirmed",
+   "value": "27 languages",
+   "tier": "",
+   "url": "https://aws.amazon.com/solutions/case-studies/bedrock-haier-europe/",
+   "raw_sector": "",
+   "date": "2024",
+   "fresh": "aging"
+  },
+  {
+   "company": "Haier Smart Home",
+   "use": "AI-powered smart manufacturing in Haier's own 'lighthouse' factories using large AI models, machine vision quality inspection, predictive equipment maintenance and intelligent agents for quality control and energy management. [Haier COSMOPlat (proprietary)]",
+   "existence": "confirmed",
+   "value": "12 lighthouse factories powered; ~30% reduction in equipment failure rates and 25% lower maintenance costs (one auto factory); ~20% productivity gain",
+   "tier": "",
+   "url": "https://www.globaltimes.cn/page/202507/1339486.shtml",
+   "raw_sector": "",
+   "date": "2025-07-28",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Haier Smart Home",
+   "use": "SmartHQ Assistant, a conversational AI interface in the GE Appliances SmartHQ app that answers questions about connected appliance use and maintenance. [Google Cloud (Vertex AI)]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://pressroom.geappliances.com/news/ge-appliances-helps-consumers-create-personalized-recipes-from-the-food-in-their-kitchen-with-google-clouds-generative-ai",
+   "raw_sector": "",
+   "date": "2023-08-29",
    "fresh": "stale"
   }
  ]

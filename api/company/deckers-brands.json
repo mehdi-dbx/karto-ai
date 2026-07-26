@@ -3,42 +3,84 @@
  "name": "Deckers Brands",
  "cc": "US",
  "vertical": "Retail & E-commerce",
- "deployments": 1,
- "confirmed": 0,
- "with_value_number": 0,
- "proof_rate": 0.0,
+ "deployments": 10,
+ "confirmed": 5,
+ "with_value_number": 3,
+ "proof_rate": 0.3,
  "mktcap": 13870000000.0,
  "revenue": 5470000000.0,
  "employees": 6000.0,
  "silent": false,
- "per_bn_revenue": 0.18,
- "per_10k_emp": 1.67,
+ "per_bn_revenue": 1.83,
+ "per_10k_emp": 16.67,
  "benchmarks": {
   "global_vertical": {
-   "deployments": 0,
-   "confirmed": 0,
-   "proof_rate": 0,
-   "n": 295
+   "deployments": 72,
+   "confirmed": 53,
+   "proof_rate": 59,
+   "n": 301
   },
   "country_vertical": {
-   "deployments": 0,
-   "confirmed": 0,
-   "proof_rate": 0,
+   "deployments": 59,
+   "confirmed": 38,
+   "proof_rate": 61,
    "n": 80
   }
  },
- "first_seen": null,
- "by_year": [],
- "undated_pct": 100,
- "momentum": "none",
- "maturity": "L1",
- "maturity_evidence": [
-  "rows_no_confirmed"
+ "first_seen": 2020,
+ "by_year": [
+  {
+   "year": 2020,
+   "n": 1
+  },
+  {
+   "year": 2021,
+   "n": 3
+  },
+  {
+   "year": 2022,
+   "n": 1
+  },
+  {
+   "year": 2024,
+   "n": 2
+  },
+  {
+   "year": 2025,
+   "n": 1
+  },
+  {
+   "year": 2026,
+   "n": 1
+  }
  ],
- "prospect_score": 40,
- "stack": [],
- "vendor_named": false,
+ "undated_pct": 10,
+ "momentum": "early_mover,flat",
+ "maturity": "L4",
+ "maturity_evidence": [
+  "multi_horizontal",
+  "named_product:Identity",
+  "value_number",
+  "multi_year"
+ ],
+ "prospect_score": 58,
+ "stack": [
+  "Google Cloud",
+  "Salesforce"
+ ],
+ "vendor_named": true,
  "deployments_detail": [
+  {
+   "company": "Deckers Brands",
+   "use": "Customer service platform consolidating voice, chat, SMS, email and IVR with the 'Answers' knowledge-base automation serving as a single source of truth for agents, reducing wait times and duplicate handling. [Gladly]",
+   "existence": "confirmed",
+   "value": "40% service level improvement within one month; 29% reduction in order-to-contact ratio; 100% increase in agent productivity; 90% search success rate",
+   "tier": "",
+   "url": "https://www.gladly.ai/customers/deckers/",
+   "raw_sector": "",
+   "date": "2021",
+   "fresh": "stale"
+  },
   {
    "company": "Deckers Brands",
    "use": "AI-powered workforce management platform (retail ops); AI part of FY2030 growth strategy",
@@ -49,6 +91,94 @@
    "raw_sector": "Consumer Discretionary",
    "date": "missing",
    "fresh": "undated"
+  },
+  {
+   "company": "Deckers Brands",
+   "use": "Company-wide strategic technology investment through fiscal 2030 including 'responsible use of AI' aimed at supporting productivity, efficiency and consumer acquisition, cited by CEO Stefano Caroti (no specific systems/vendors disclosed). [none disclosed]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://wiresift.com/ai-adoption/deck",
+   "raw_sector": "",
+   "date": "2026",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Deckers Brands",
+   "use": "AI-native workforce management platform for retail labor operations — scheduling, demand forecasting, labor compliance, and frontline communications across Deckers' global stores (70+ WFM use cases). [Legion Technologies]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://legion.co/company/press-releases/2025/02/26/legion-partners-with-deckers-brands/",
+   "raw_sector": "",
+   "date": "2025-02-26",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Deckers Brands",
+   "use": "AI integrated into corporate e-learning/training platforms for personalized learning experiences — AI-driven analytics to track employee progress, identify skill gaps and recommend tailored learning modules. [none disclosed]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.hroutlook.com/deckers-brands/",
+   "raw_sector": "",
+   "date": "2024",
+   "fresh": "aging"
+  },
+  {
+   "company": "Deckers Brands",
+   "use": "ERP, data, and AI-enabled demand planning initiatives to improve inventory allocation, replenishment, and omnichannel visibility. [none disclosed]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://umbrex.com/resources/company-profiles/deckers-brands/",
+   "raw_sector": "",
+   "date": "2024",
+   "fresh": "aging"
+  },
+  {
+   "company": "Deckers Brands",
+   "use": "Propensity-to-purchase model built with BigQuery ML on UGG first-party data and Analytics 360, predicting which first-time visitors are most likely to buy. Scores fed back into Analytics 360 to build audiences activated in Display & Video 360 and Google Ads. [Google Cloud (BigQuery ML, Google Marketing Platform)]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://marketingplatform.google.com/about/resources/deckers-brands-drives-business-growth-with-google-marketing-platform-and-google-cloud/",
+   "raw_sector": "",
+   "date": "2021",
+   "fresh": "stale"
+  },
+  {
+   "company": "Deckers Brands",
+   "use": "On-site personalization and product recommendations across UGG, HOKA, Teva and Koolaburra — guided selling, intent-based audience segmentation, algorithmic product recommendations, geo/weather targeting, and A/B testing/experimentation. [Dynamic Yield (by Mastercard)]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.dynamicyield.com/personalization-awards/deckers-2025/",
+   "raw_sector": "",
+   "date": "2022, renewed 2025",
+   "fresh": "stale"
+  },
+  {
+   "company": "Deckers Brands",
+   "use": "AI-driven digital marketing for UGG via Jellyfish using Google Marketing Platform — Audience Center 360 for audience insights, data-driven attribution (DDA) modeling, and Studio dynamic creative for location-targeted ads. [Jellyfish + Google Marketing Platform]",
+   "existence": "confirmed",
+   "value": "60% decrease in CPM; 20% increase in ROAS via dynamic creative; 100% increase in reach with DDA model",
+   "tier": "",
+   "url": "https://www.jellyfish.com/en-us/success/pushing-performance-further-with-intelligent-tech/",
+   "raw_sector": "",
+   "date": "2021",
+   "fresh": "stale"
+  },
+  {
+   "company": "Deckers Brands",
+   "use": "Identity-based AI fraud prevention on Deckers' e-commerce sites (UGG, HOKA, etc.), replacing rules-based checks and manual review. Forter's automated platform detects fraudulent activity in real time across the online purchase journey, integrated with Salesforce Commerce Cloud. [Forter]",
+   "existence": "confirmed",
+   "value": "Approval rates increased to above 98%; integration completed within 4 weeks; expanded from North America to EMEA and Japan",
+   "tier": "",
+   "url": "https://www.forter.com/wp-content/uploads/2021/09/Forter_Deckers.pdf",
+   "raw_sector": "",
+   "date": "2020-2021",
+   "fresh": "stale"
   }
  ]
 }

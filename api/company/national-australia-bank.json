@@ -3,27 +3,27 @@
  "name": "National Australia Bank",
  "cc": "AU",
  "vertical": "Financial Services",
- "deployments": 2,
- "confirmed": 2,
- "with_value_number": 0,
- "proof_rate": 0.0,
+ "deployments": 6,
+ "confirmed": 4,
+ "with_value_number": 1,
+ "proof_rate": 0.167,
  "mktcap": 81860000000.0,
  "revenue": 13713333333.0,
  "employees": 42471.0,
  "silent": false,
- "per_bn_revenue": 0.15,
- "per_10k_emp": 0.47,
+ "per_bn_revenue": 0.44,
+ "per_10k_emp": 1.41,
  "benchmarks": {
   "global_vertical": {
-   "deployments": 62,
-   "confirmed": 73,
-   "proof_rate": 0,
-   "n": 377
+   "deployments": 44,
+   "confirmed": 39,
+   "proof_rate": 35,
+   "n": 388
   },
   "country_vertical": {
    "deployments": 40,
    "confirmed": 40,
-   "proof_rate": 0,
+   "proof_rate": 20,
    "n": 6
   }
  },
@@ -38,19 +38,33 @@
    "n": 1
   }
  ],
- "undated_pct": 0,
+ "undated_pct": 67,
  "momentum": "early_mover,gone_quiet",
  "maturity": "L4",
  "maturity_evidence": [
   "multi_horizontal",
   "named_product:Customer",
+  "value_number",
   "multi_year",
   "tier_p"
  ],
- "prospect_score": 60,
- "stack": [],
- "vendor_named": false,
+ "prospect_score": 57,
+ "stack": [
+  "Databricks"
+ ],
+ "vendor_named": true,
  "deployments_detail": [
+  {
+   "company": "National Australia Bank",
+   "use": "Real-time call assistant for customer interactions",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.klover.ai/national-australia-bank-ai-strategy-analysis-of-dominance-in-banking-ai/",
+   "raw_sector": "",
+   "date": "Jul 31, 2025",
+   "fresh": "undated"
+  },
   {
    "company": "National Australia Bank",
    "use": "First bank in Australia rolling out a conversational AI data tool letting analytics teams query datasets via natural language",
@@ -64,6 +78,17 @@
   },
   {
    "company": "National Australia Bank",
+   "use": "Conversational analytics tool for data access and customer insights [Databricks Genie]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.nab.com.au/news/technology-ai/nab-first-bank-in-australia-rolling-out-conversational-ai-data-tool-to-speed-up-customer-insights",
+   "raw_sector": "",
+   "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "National Australia Bank",
    "use": "Customer Brain AI engine (launched 2023) personalizing customer communications by analyzing behavior patterns to deliver tailored banking",
    "existence": "confirmed",
    "value": "none",
@@ -72,6 +97,28 @@
    "raw_sector": "Banks",
    "date": "2023",
    "fresh": "stale"
+  },
+  {
+   "company": "National Australia Bank",
+   "use": "Customer experience personalization and financial crime detection",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.fivetran.com/case-studies/national-australia-bank-enhances-customer-experiences-and-powers-genai",
+   "raw_sector": "",
+   "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "National Australia Bank",
+   "use": "Generative AI for software development code generation",
+   "existence": "confirmed",
+   "value": "18%",
+   "tier": "",
+   "url": "https://aws.amazon.com/solutions/case-studies/generative-ai-national-australia-bank/",
+   "raw_sector": "",
+   "date": "missing",
+   "fresh": "undated"
   }
  ]
 }

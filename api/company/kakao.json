@@ -3,41 +3,61 @@
  "name": "Kakao",
  "cc": "KR",
  "vertical": "Telecom",
- "deployments": 1,
- "confirmed": 1,
- "with_value_number": 0,
- "proof_rate": 0.0,
+ "deployments": 13,
+ "confirmed": 12,
+ "with_value_number": 7,
+ "proof_rate": 0.538,
  "mktcap": 12125925926.0,
  "revenue": 6000000000.0,
  "employees": 3829.0,
  "silent": false,
- "per_bn_revenue": 0.17,
- "per_10k_emp": 2.61,
+ "per_bn_revenue": 2.17,
+ "per_10k_emp": 33.95,
  "benchmarks": {
   "global_vertical": {
-   "deployments": 0,
-   "confirmed": 16,
-   "proof_rate": 0,
-   "n": 93
+   "deployments": 82,
+   "confirmed": 88,
+   "proof_rate": 82,
+   "n": 94
   },
   "country_vertical": {
-   "deployments": 0,
-   "confirmed": 0,
-   "proof_rate": 0,
+   "deployments": 78,
+   "confirmed": 78,
+   "proof_rate": 89,
    "n": 10
   }
  },
- "first_seen": null,
- "by_year": [],
- "undated_pct": 100,
- "momentum": "none",
- "maturity": "L3",
+ "first_seen": 2024,
+ "by_year": [
+  {
+   "year": 2024,
+   "n": 1
+  },
+  {
+   "year": 2025,
+   "n": 8
+  },
+  {
+   "year": 2026,
+   "n": 3
+  }
+ ],
+ "undated_pct": 8,
+ "momentum": "early_mover,rising",
+ "maturity": "L4",
  "maturity_evidence": [
+  "multi_horizontal",
   "named_product:Kanana",
+  "value_number",
+  "multi_year",
   "tier_p"
  ],
- "prospect_score": 46,
+ "prospect_score": 78,
  "stack": [
+  "Amazon AWS",
+  "Google",
+  "Microsoft",
+  "Microsoft Azure",
   "OpenAI"
  ],
  "vendor_named": true,
@@ -52,6 +72,138 @@
    "raw_sector": "Communication Services",
    "date": "missing",
    "fresh": "undated"
+  },
+  {
+   "company": "Kakao",
+   "use": "ChatGPT integrated directly into KakaoTalk chat interface (image generation, web search, Kakao tools like KakaoMap), giving 50M+ users one-tap generative AI; a Kakao-OpenAI co-built product launched Oct 2025 on GPT-5 [OpenAI (ChatGPT / GPT-5)]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://pulse.mk.co.kr/news/english/11454248",
+   "raw_sector": "",
+   "date": "2025-10-28",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Kakao",
+   "use": "Kanana AI Mate service (Nana for personal chats, Kana for group chats) offering conversational assistance, group-chat summarization, scheduling and reminders; launched in closed beta test (CBT) [Kakao Kanana (proprietary); OpenAI for generative search]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.kakaocorp.com/page/detail/11557?lang=ENG",
+   "raw_sector": "",
+   "date": "2025-05-08",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Kakao",
+   "use": "KakaoTalk 'Everyday AI' features powered by Kanana: unread-chat summarization, call recording with AI transcription/summaries, and Kanana AI search replacing hashtag search; rolling out from Sept 2025 [Kakao Kanana (on-device)]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.kakaocorp.com/page/detail/11725?lang=ENG",
+   "raw_sector": "",
+   "date": "2025-09-23",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Kakao",
+   "use": "Kakao Mobility uses on-device Gemini Nano (via ML Kit GenAI Prompt API) to parse recipient name/address/phone from free-text for delivery order entry in the Kakao T app; in production [Google Gemini Nano (on-device) / ML Kit]",
+   "existence": "confirmed",
+   "value": "24% reduction in order completion time; +45% conversion for new users, +6% for existing users; 200%+ increase in AI-powered orders in peak seasons",
+   "tier": "",
+   "url": "https://developer.android.com/blog/posts/kakao-mobility-uses-gemini-nano-on-device-to-reduce-costs-and-boost-call-conversion-by-45",
+   "raw_sector": "",
+   "date": "2026-01-01",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Kakao",
+   "use": "AI Public Assistant ('Kookmin Secretary Guppi') built with Korea's Ministry of the Interior and Safety, a conversational agent in KakaoTalk for issuing electronic certificates and booking public facilities, later adding voice recognition; launched as pilot March 2026 [Kakao (Kanana models, Kanana Safeguard)]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.koreatimes.co.kr/amp/business/companies/20260514/kakao-streamlines-public-bookings-as-ai-assistant-now-includes-voice-recognition",
+   "raw_sector": "",
+   "date": "2026-03-01",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Kakao",
+   "use": "Kakao Brain KARA-CXR, a web-based radiology report service powered by a healthcare-specialized large-scale AI that generates preliminary chest X-ray interpretation drafts; trained on 16M+ chest X-ray images and readings [Kakao Brain (proprietary healthcare LLM)]",
+   "existence": "confirmed",
+   "value": "Analyzed over 16 million chest X-ray images and readings",
+   "tier": "",
+   "url": "https://www.prnewswire.com/apac/news-releases/kakao-brain-debuts-kara-cxr-a-web-based-radiology-report-service-powered-by-large-scale-ai-302068278.html",
+   "raw_sector": "",
+   "date": "2024-02-22",
+   "fresh": "aging"
+  },
+  {
+   "company": "Kakao",
+   "use": "KakaoBank 'AI Search' conversational banking assistant letting customers ask natural-language questions and get answers with product links/follow-ups; Korea's first conversational AI search in finance, built on Azure OpenAI [Microsoft Azure OpenAI]",
+   "existence": "confirmed",
+   "value": "30% click-through rate from AI Search results to product pages; 1M+ cumulative users within 100 days",
+   "tier": "",
+   "url": "https://www.microsoft.com/en/customers/story/24967-kakao-bank-azure-openai",
+   "raw_sector": "",
+   "date": "2025-05-26",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Kakao",
+   "use": "KakaoBank AI-based 'sequence detection model' in its fraud detection system (FDS), using an attention mechanism over transaction sequences, timing intervals and device changes to catch voice-phishing and financial fraud; in production after Nov 2025 pilot [KakaoBank (proprietary deep-learning model)]",
+   "existence": "confirmed",
+   "value": "Fraud prevention cases up ~4.4x since implementation; accounted for 49.8% of all suspected fraud prevented in Q1 2026",
+   "tier": "",
+   "url": "https://m.ajupress.com/amp/20260609161270412",
+   "raw_sector": "",
+   "date": "2026-06-09",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Kakao",
+   "use": "KakaoPay Fraud Detection System (FDS) using Adaptive Machine Learning to detect abnormal transaction patterns in real time and protect users from fraud/voice phishing; in production [KakaoPay (Adaptive ML, proprietary)]",
+   "existence": "confirmed",
+   "value": "Detected ~710,000 suspicious transactions in one month",
+   "tier": "",
+   "url": "https://www.asiae.co.kr/en/article/2025061709365058062",
+   "raw_sector": "",
+   "date": "2025-06-18",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Kakao",
+   "use": "AI-driven observability platform on AWS (EKS + ClickHouse + AI-driven analytics) for operations serving 50 million daily users, presented at AWS re:Invent 2025 [AWS (EKS, ClickHouse)]",
+   "existence": "confirmed",
+   "value": "400x faster observability for 50 million daily users, processing billions of events",
+   "tier": "",
+   "url": "https://www.classcentral.com/index.php/course/youtube-aws-re-invent-2025-ai-driven-operations-scaling-observability-and-cost-optimization-gbl201-510313",
+   "raw_sector": "",
+   "date": "2025-12-01",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Kakao",
+   "use": "Kanana open-source bilingual (Korean/English) language models, including Kanana-1.5-15.7b-a3b MoE (only ~3B params active) and multimodal Kanana-1.5-v-3b, released on Hugging Face under Apache 2.0 to power Kakao's AI products cost-efficiently [Kakao (Kanana, proprietary; open-weight release)]",
+   "existence": "confirmed",
+   "value": "15.7B total params with ~3B activated at inference; performance equal to or above Kanana-1.5-8B",
+   "tier": "",
+   "url": "https://www.kakaocorp.com/page/detail/11671?lang=ENG",
+   "raw_sector": "",
+   "date": "2025-07-24",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Kakao",
+   "use": "Deployment of ChatGPT Enterprise to Kakao employees to boost workplace productivity and enable smarter internal workflows, part of the Feb 2025 Kakao-OpenAI strategic partnership [OpenAI (ChatGPT Enterprise)]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.kakaocorp.com/page/detail/11451?lang=ENG",
+   "raw_sector": "",
+   "date": "2025-02-04",
+   "fresh": "fresh"
   }
  ]
 }

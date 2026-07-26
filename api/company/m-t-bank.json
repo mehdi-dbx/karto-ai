@@ -3,28 +3,28 @@
  "name": "M&T Bank",
  "cc": "US",
  "vertical": "Financial Services",
- "deployments": 1,
- "confirmed": 1,
- "with_value_number": 0,
- "proof_rate": 0.0,
+ "deployments": 4,
+ "confirmed": 4,
+ "with_value_number": 2,
+ "proof_rate": 0.5,
  "mktcap": 35470000000.0,
  "revenue": 9450000000.0,
  "employees": 22278.0,
  "silent": false,
- "per_bn_revenue": 0.11,
- "per_10k_emp": 0.45,
+ "per_bn_revenue": 0.42,
+ "per_10k_emp": 1.8,
  "benchmarks": {
   "global_vertical": {
-   "deployments": 0,
-   "confirmed": 17,
-   "proof_rate": 0,
-   "n": 377
+   "deployments": 24,
+   "confirmed": 39,
+   "proof_rate": 78,
+   "n": 388
   },
   "country_vertical": {
-   "deployments": 0,
-   "confirmed": 19,
-   "proof_rate": 0,
-   "n": 76
+   "deployments": 17,
+   "confirmed": 32,
+   "proof_rate": 84,
+   "n": 77
   }
  },
  "first_seen": null,
@@ -33,13 +33,39 @@
  "momentum": "none",
  "maturity": "L3",
  "maturity_evidence": [
+  "multi_horizontal",
   "named_product:CDO",
+  "value_number",
   "tier_p"
  ],
- "prospect_score": 54,
- "stack": [],
- "vendor_named": false,
+ "prospect_score": 44,
+ "stack": [
+  "Microsoft"
+ ],
+ "vendor_named": true,
  "deployments_detail": [
+  {
+   "company": "M&T Bank",
+   "use": "AI platform for Relationship Managers and Credit Associates [RDC.AI]",
+   "existence": "confirmed",
+   "value": "1200",
+   "tier": "",
+   "url": "https://informaconnect.com/banking-tech-awards-usa/showcase-page-2026-mt-bank-rdcai/",
+   "raw_sector": "",
+   "date": "May 28, 2026",
+   "fresh": "undated"
+  },
+  {
+   "company": "M&T Bank",
+   "use": "Customer contact center platform [Genesys]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.genesys.com/customer-stories/mt-bank",
+   "raw_sector": "",
+   "date": "missing",
+   "fresh": "undated"
+  },
   {
    "company": "M&T Bank",
    "use": "GenAI internal tools + data-governance/AI-readiness program (CDO Andrew Foster); methodical internal-first AI approach",
@@ -48,6 +74,17 @@
    "tier": "P",
    "url": "https://www.americanbanker.com/news/how-m-t-bank-ensures-data-quality-as-it-implements-gen-ai",
    "raw_sector": "Financials",
+   "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "M&T Bank",
+   "use": "Copilot deployment to employees",
+   "existence": "confirmed",
+   "value": "17000",
+   "tier": "",
+   "url": "https://www.youtube.com/watch?v=mDSaICupbOk",
+   "raw_sector": "",
    "date": "missing",
    "fresh": "undated"
   }

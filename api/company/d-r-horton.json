@@ -3,48 +3,107 @@
  "name": "D. R. Horton",
  "cc": "US",
  "vertical": "Retail & E-commerce",
- "deployments": 1,
- "confirmed": 1,
- "with_value_number": 0,
- "proof_rate": 0.0,
+ "deployments": 7,
+ "confirmed": 5,
+ "with_value_number": 2,
+ "proof_rate": 0.286,
  "mktcap": 39330000000.0,
  "revenue": 33350000000.0,
  "employees": 14341.0,
  "silent": false,
- "per_bn_revenue": 0.03,
- "per_10k_emp": 0.7,
+ "per_bn_revenue": 0.21,
+ "per_10k_emp": 4.88,
  "benchmarks": {
   "global_vertical": {
-   "deployments": 0,
-   "confirmed": 24,
-   "proof_rate": 0,
-   "n": 295
+   "deployments": 56,
+   "confirmed": 53,
+   "proof_rate": 57,
+   "n": 301
   },
   "country_vertical": {
-   "deployments": 0,
-   "confirmed": 25,
-   "proof_rate": 0,
+   "deployments": 39,
+   "confirmed": 38,
+   "proof_rate": 57,
    "n": 80
   }
  },
- "first_seen": 2025,
+ "first_seen": 2019,
  "by_year": [
   {
-   "year": 2025,
+   "year": 2019,
    "n": 1
+  },
+  {
+   "year": 2024,
+   "n": 1
+  },
+  {
+   "year": 2025,
+   "n": 3
+  },
+  {
+   "year": 2026,
+   "n": 2
   }
  ],
  "undated_pct": 0,
- "momentum": "rising",
- "maturity": "L3",
+ "momentum": "early_mover,rising",
+ "maturity": "L4",
  "maturity_evidence": [
+  "multi_horizontal",
   "named_product:Prophetic",
+  "value_number",
+  "multi_year",
   "tier_p"
  ],
- "prospect_score": 54,
+ "prospect_score": 59,
  "stack": [],
- "vendor_named": false,
+ "vendor_named": true,
  "deployments_detail": [
+  {
+   "company": "D. R. Horton",
+   "use": "AI-native land acquisition and development analysis platform (Prophetic). Translates zoning rules, environmental data and parcel records into instant, verifiable site potential; automates land discovery/entitlement feasibility. Selected for an organization-wide, multi-year deployment across D.R. Horton, Forestar and DHI engineering, rolling out division by division across 30+ states. [Prophetic (Prophetic Technologies / Prophetic Software) - proprietary modules ZoneAI, SiteAI, DevMap, DealDesk, SearchAI]",
+   "existence": "confirmed",
+   "value": "Org-wide across 30+ states; land analysis reduced from ~2-3 hours (weeks of manual work) to ~6 minutes; Prophetic users regularly process ~5,700 parcels/month vs a few hundred manually",
+   "tier": "",
+   "url": "https://www.prnewswire.com/news-releases/prophetic-to-power-dr-hortons-ai-driven-land-acquisition-at-national-scale-302610017.html",
+   "raw_sector": "",
+   "date": "2025-11-11",
+   "fresh": "fresh"
+  },
+  {
+   "company": "D. R. Horton",
+   "use": "AI-powered construction site intelligence via drone mapping. Combines drone scans, cloud software and AI to verify/optimize earthwork (cut/fill and volumetric analysis), suggest grading strategies and haul roads, monitor construction progress, and reduce rework across land acquisition, development and vertical construction phases. Rolled out nationwide. [TraceAir]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.traceair.net/whats-new/nationwide-collaboration-with-d-r-horton",
+   "raw_sector": "",
+   "date": "2025-05-28",
+   "fresh": "fresh"
+  },
+  {
+   "company": "D. R. Horton",
+   "use": "Voice-AI smart home assistant embedded in every new home. D.R. Horton's 'Home is Connected' smart home system integrates Amazon Alexa for hands-free, voice-first control of home automation (thermostat, locks, doorbell, switches), included as standard in each new home across its brands (Emerald, Express, Freedom). [Amazon Alexa (voice assistant); Qolsys hub, Alarm.com, Resideo/Honeywell, Kwikset, Eaton, SkyBell]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://investor.drhorton.com/news-and-events/press-releases/2019/02-14-2019-140122314",
+   "raw_sector": "",
+   "date": "2019-02-14",
+   "fresh": "stale"
+  },
+  {
+   "company": "D. R. Horton",
+   "use": "Autonomous robotic construction 3D-printing. D.R. Horton made a strategic investment in Apis Cor, whose autonomous robotic systems ('Frank') 3D-print concrete building structures on the job site, and planned to work together on a multi-unit construction project in South Florida to address labor shortages and productivity. [Apis Cor (autonomous robotic 3D-printing systems)]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.prnewswire.com/news-releases/apis-cor-a-manufacturer-of-construction-3d-printing-robots-announces-strategic-investment-by-dr-horton-302084850.html",
+   "raw_sector": "",
+   "date": "2024-03-11",
+   "fresh": "aging"
+  },
   {
    "company": "D. R. Horton",
    "use": "Prophetic AI platform for zoning analysis + land acquisition at national scale (Nov 2025)",
@@ -54,6 +113,28 @@
    "url": "https://www.prnewswire.com/news-releases/prophetic-to-power-dr-hortons-ai-driven-land-acquisition-at-national-scale-302610017.html",
    "raw_sector": "Consumer Discretionary",
    "date": "2025-11",
+   "fresh": "fresh"
+  },
+  {
+   "company": "D. R. Horton",
+   "use": "Agentic AI mortgage origination platform deployed by DHI Mortgage (D.R. Horton's mortgage subsidiary). Autonomous AI agents (incl. borrower/LO support agent 'SOLO') handle document review, data entry, verification and underwriting-adjacent tasks to shorten underwriting timelines for D.R. Horton homebuyers. D.R. Horton is both investor (participated in Tidalwave's $22M Series A) and customer. [Tidalwave (agentic AI); integrations with Fannie Mae, Freddie Mac, Plaid, Argyle, Truv]",
+   "existence": "confirmed",
+   "value": "$22M Series A (D.R. Horton participated); platform reportedly cuts closing time from ~45 days to under 2 weeks",
+   "tier": "",
+   "url": "https://agenticindex.io/vendors/tidalwave",
+   "raw_sector": "",
+   "date": "2026-05-13",
+   "fresh": "fresh"
+  },
+  {
+   "company": "D. R. Horton",
+   "use": "Generative/answer engine optimization for marketing. D.R. Horton created a 'Senior Paid Search and AI Discovery Manager' role to develop paid-search and AI-discovery (Generative Engine Optimization) strategies for national and division-level lead-generation campaigns, indicating an internal AI-driven marketing/search function. [none disclosed]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://drhorton.taleo.net/careersection/2/jobdetail.ftl?job=263348",
+   "raw_sector": "",
+   "date": "2026-05-12",
    "fresh": "fresh"
   }
  ]

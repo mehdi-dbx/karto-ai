@@ -3,41 +3,79 @@
  "name": "Apollo Hospitals",
  "cc": "IN",
  "vertical": "Healthcare & Life Sciences",
- "deployments": 1,
- "confirmed": 1,
- "with_value_number": 0,
- "proof_rate": 0.0,
+ "deployments": 12,
+ "confirmed": 10,
+ "with_value_number": 7,
+ "proof_rate": 0.583,
  "mktcap": 15542168675.0,
  "revenue": 3039638554.0,
  "employees": 42497.0,
  "silent": false,
- "per_bn_revenue": 0.33,
- "per_10k_emp": 0.24,
+ "per_bn_revenue": 3.95,
+ "per_10k_emp": 2.82,
  "benchmarks": {
   "global_vertical": {
-   "deployments": 0,
-   "confirmed": 13,
-   "proof_rate": 0,
-   "n": 165
+   "deployments": 84,
+   "confirmed": 87,
+   "proof_rate": 91,
+   "n": 168
   },
   "country_vertical": {
-   "deployments": 0,
-   "confirmed": 40,
-   "proof_rate": 0,
+   "deployments": 80,
+   "confirmed": 100,
+   "proof_rate": 100,
    "n": 6
   }
  },
- "first_seen": null,
- "by_year": [],
- "undated_pct": 100,
- "momentum": "none",
- "maturity": "L3",
- "maturity_evidence": [
-  "named_product:Clinical"
+ "first_seen": 2018,
+ "by_year": [
+  {
+   "year": 2018,
+   "n": 1
+  },
+  {
+   "year": 2020,
+   "n": 1
+  },
+  {
+   "year": 2022,
+   "n": 1
+  },
+  {
+   "year": 2023,
+   "n": 1
+  },
+  {
+   "year": 2024,
+   "n": 1
+  },
+  {
+   "year": 2025,
+   "n": 5
+  },
+  {
+   "year": 2026,
+   "n": 1
+  }
  ],
- "prospect_score": 46,
+ "undated_pct": 8,
+ "momentum": "early_mover,rising",
+ "maturity": "L4",
+ "maturity_evidence": [
+  "multi_horizontal",
+  "named_product:Clinical",
+  "value_number",
+  "multi_year"
+ ],
+ "prospect_score": 77,
  "stack": [
-  "Microsoft"
+  "Amazon AWS",
+  "Google",
+  "Google Cloud",
+  "Microsoft",
+  "Microsoft Azure",
+  "OpenAI",
+  "Salesforce"
  ],
  "vendor_named": true,
  "deployments_detail": [
@@ -51,6 +89,127 @@
    "raw_sector": "Healthcare",
    "date": "missing",
    "fresh": "undated"
+  },
+  {
+   "company": "Apollo Hospitals",
+   "use": "Clinical Intelligence Engine (CIE): AI-powered clinical decision support / symptom-checker built on Google Cloud Vertex AI and later augmented with MedLM and RAG; helps doctors analyze symptoms, determine causes and recommend care. Rolled out across India and via Apollo 24|7. [Google Cloud (Vertex AI, MedLM, generative AI, RAG)]",
+   "existence": "confirmed",
+   "value": "More than 4,000 Apollo doctors using it",
+   "tier": "",
+   "url": "https://www.prnewswire.com/in/news-releases/apollo-hospitals-rolls-out-clinical-intelligence-engine-cie-for-doctors-across-india-301740454.html",
+   "raw_sector": "",
+   "date": "2023-02-07",
+   "fresh": "stale"
+  },
+  {
+   "company": "Apollo Hospitals",
+   "use": "AI-powered continuous vital-signs / patient monitoring system: sensor sheets under beds stream data to the EMR, AI detects abnormal heart/respiration patterns and alerts nurses for early intervention (reducing cardiac Code Blue events). [none]",
+   "existence": "confirmed",
+   "value": "80% reduction in Code Blues in 9 months; nurse vitals-recording time cut from 3.5h to 1h (70%); ward ops cost -26%",
+   "tier": "",
+   "url": "https://www.hospitalmanagementasia.com/patient-safety/ai-powered-patient-monitoring-system-at-apollo-hospitals-cut-code-blues-by-80/",
+   "raw_sector": "",
+   "date": "2025-02-06",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Apollo Hospitals",
+   "use": "AI-powered brain-scan analysis for acute stroke: AI system flags possible stroke on CT/imaging to radiologists within minutes across a network of stroke labs in Chennai, accelerating diagnosis-to-treatment. [none]",
+   "existence": "confirmed",
+   "value": "Scan-to-interpretation time cut to ~7 minutes from ~30 minutes; 9 advanced stroke labs across Chennai",
+   "tier": "",
+   "url": "https://timesofindia.indiatimes.com/city/chennai/ai-backed-scans-speed-up-stroke-diagnosis/amp_articleshow/124916579.cms",
+   "raw_sector": "",
+   "date": "2025-10-30",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Apollo Hospitals",
+   "use": "AI-powered stroke management platform (partnership with Medtronic): FDA-approved AI generates advanced images from non-contrast CT, CTA, CT perfusion and MRI to automate stroke analysis and speed treatment decisions. [Medtronic (India Medtronic)]",
+   "existence": "confirmed",
+   "value": "Reduces diagnosis time from ~60 minutes to under 2 minutes",
+   "tier": "",
+   "url": "https://www.apollohospitals.com/apollo-in-the-news/apollo-hospitals-partners-with-medtronic-for-advanced-stroke-management-using-artificial-intelligence-ai",
+   "raw_sector": "",
+   "date": "2020-10-29",
+   "fresh": "stale"
+  },
+  {
+   "company": "Apollo Hospitals",
+   "use": "AICVD: AI-based cardiovascular disease risk score API (developed with Microsoft AI Network for Healthcare) predicting 10-year CVD event risk from Indian patient data; available to doctors across the Apollo network and published on Azure Marketplace. [Microsoft (Azure)]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://news.microsoft.com/en-in/microsoft-and-apollo-hospitals-introduce-ai-powered-cardiovascular-disease-risk-score/",
+   "raw_sector": "",
+   "date": "2018-08-17",
+   "fresh": "stale"
+  },
+  {
+   "company": "Apollo Hospitals",
+   "use": "Apollo Radiology International using Google AI screening models for early detection of TB, lung cancer and breast cancer to expand access to free screenings. [Google (Google Health AI)]",
+   "existence": "confirmed",
+   "value": "3 million free screenings for TB, lung and breast cancer",
+   "tier": "",
+   "url": "https://www.deccanherald.com/technology/apollo-hospitals-to-use-googles-ai-screening-tech-for-early-detection-of-tb-cancer-2944878",
+   "raw_sector": "",
+   "date": "2024-03-20",
+   "fresh": "aging"
+  },
+  {
+   "company": "Apollo Hospitals",
+   "use": "India's first 5G/AI-driven colonoscopy: AI-assisted colonoscopy polyp detection trial over Airtel 5G, using cloud AI to improve accuracy and speed of colon cancer detection. [Bharti Airtel (5G), AWS]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.healthcareitnews.com/news/asia/roundup-apollo-hospitals-bharti-airtel-conduct-indias-first-5gai-guided-colonoscopy-and",
+   "raw_sector": "",
+   "date": "2022-12-22",
+   "fresh": "stale"
+  },
+  {
+   "company": "Apollo Hospitals",
+   "use": "Automation of clinical documentation audits: Azure OpenAI Service identifies discrepancies in EMRs and ensures documentation quality/consistency, replacing a largely manual audit process across the hospital network. [Microsoft Azure OpenAI Service]",
+   "existence": "confirmed",
+   "value": "Deployed across 72 hospitals; previously required 50 dedicated auditors; near real-time vs weeks",
+   "tier": "",
+   "url": "https://www.microsoft.com/en-in/aifirstmovers/apollo-hospitals",
+   "raw_sector": "",
+   "date": "2025-01-01",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Apollo Hospitals",
+   "use": "Enterprise data unification on Microsoft Fabric (OneLake medallion architecture, Real-Time Intelligence 'Operational Cockpit' for bed availability/alerts) as the AI-ready foundation, with a Clinical Copilot for instant patient history in design. [Microsoft Fabric (Copilot in Fabric planned)]",
+   "existence": "confirmed",
+   "value": "Across 75 hospitals; 25% reduction in manual work; data latency 4h to 2s; 230TB consolidated to 30TB",
+   "tier": "",
+   "url": "https://www.microsoft.com/en/customers/story/25664-apollo-hospitals-microsoft-fabric",
+   "raw_sector": "",
+   "date": "2025-11-14",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Apollo Hospitals",
+   "use": "Four generative-AI sales/marketing use cases on Salesforce CRM (built with Wohlig): conversational analytics over CRM data (Gemini Enterprise), a five-agent Vertex AI geospatial field-rep optimizer, doctor-network mining agents, and a content-generation agent (newsletters/brochures/images/video) distributed via Salesforce email + WhatsApp. [Google Gemini / Vertex AI, Salesforce, Wohlig Transformations]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://insights.wohlig.com/p/apollo-hospitals-four-healthcare",
+   "raw_sector": "",
+   "date": "2026-06-24",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Apollo Hospitals",
+   "use": "Adoption of four AI healthcare copilots (for clinicians, patients, nurses and hospital operations) as part of a Microsoft collaboration to embed AI into clinical and operational workflows. [Microsoft]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://health.economictimes.indiatimes.com/amp/news/health-it/apollo-microsoft-partner-to-advance-healthcare-through-ai-and-digital-innovation/117114982",
+   "raw_sector": "",
+   "date": "2025-01-17",
+   "fresh": "fresh"
   }
  ]
 }

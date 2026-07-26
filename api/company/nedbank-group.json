@@ -3,51 +3,69 @@
  "name": "Nedbank Group",
  "cc": "ZA",
  "vertical": "Financial Services",
- "deployments": 2,
- "confirmed": 1,
- "with_value_number": 0,
- "proof_rate": 0.0,
+ "deployments": 11,
+ "confirmed": 9,
+ "with_value_number": 5,
+ "proof_rate": 0.455,
  "mktcap": 6642162162.0,
  "revenue": 3240000000.0,
  "employees": 25700.0,
  "silent": false,
- "per_bn_revenue": 0.62,
- "per_10k_emp": 0.78,
+ "per_bn_revenue": 3.4,
+ "per_10k_emp": 4.28,
  "benchmarks": {
   "global_vertical": {
-   "deployments": 62,
-   "confirmed": 17,
-   "proof_rate": 0,
-   "n": 377
+   "deployments": 72,
+   "confirmed": 73,
+   "proof_rate": 75,
+   "n": 388
   },
   "country_vertical": {
-   "deployments": 67,
-   "confirmed": 17,
-   "proof_rate": 0,
+   "deployments": 83,
+   "confirmed": 83,
+   "proof_rate": 33,
    "n": 7
   }
  },
- "first_seen": 2025,
+ "first_seen": 2021,
  "by_year": [
   {
-   "year": 2025,
+   "year": 2021,
    "n": 1
   },
   {
-   "year": 2026,
+   "year": 2023,
    "n": 1
+  },
+  {
+   "year": 2024,
+   "n": 2
+  },
+  {
+   "year": 2025,
+   "n": 4
+  },
+  {
+   "year": 2026,
+   "n": 3
   }
  ],
  "undated_pct": 0,
- "momentum": "rising",
- "maturity": "L3",
+ "momentum": "early_mover,rising",
+ "maturity": "L4",
  "maturity_evidence": [
+  "multi_horizontal",
   "named_product:Enbi",
+  "value_number",
+  "multi_year",
   "tier_p"
  ],
- "prospect_score": 54,
- "stack": [],
- "vendor_named": false,
+ "prospect_score": 76,
+ "stack": [
+  "Microsoft",
+  "Microsoft Azure"
+ ],
+ "vendor_named": true,
  "deployments_detail": [
   {
    "company": "Nedbank Group",
@@ -62,6 +80,50 @@
   },
   {
    "company": "Nedbank Group",
+   "use": "Enbi, an AI-powered virtual banking assistant on the Nedbank Money app and Online Banking that resolves everyday client queries (statements, limits, forgotten usernames/passwords, ATM locator) 24/7 and escalates to human bankers when needed. Launched August 2021, built on Kasisto's KAI conversational AI platform. [Kasisto (KAI platform)]",
+   "existence": "confirmed",
+   "value": "Reduced live chat volumes by more than 70%; increased client satisfaction",
+   "tier": "",
+   "url": "https://pages.kasisto.com/nedbank_casestudy",
+   "raw_sector": "",
+   "date": "2021-08",
+   "fresh": "stale"
+  },
+  {
+   "company": "Nedbank Group",
+   "use": "Risk Intelligence Center (RIC) for enterprise-wide financial crime risk management, using AI, machine learning and optimization to consolidate risk data, resolve entity/identity networks and address fraud, money laundering, suspicious transaction monitoring, affordability and employment vetting. Won the 2024 FICO Decisions Award for AI, Machine Learning and Optimization. [FICO (Decision services, Application Studio, Identity Resolution Engine)]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://investors.fico.com/news-releases/news-release-details/south-africas-nedbank-uses-fico-technology-stop-financial-crime",
+   "raw_sector": "",
+   "date": "2024-03",
+   "fresh": "aging"
+  },
+  {
+   "company": "Nedbank Group",
+   "use": "AI-driven anomaly and fraud detection tools deployed to enhance transactional security across the bank, cited as active production systems in Nedbank's data-driven strategy.",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://digitalbankerafrica.com/nedbank-and-the-digital-revolution-in-africa/",
+   "raw_sector": "",
+   "date": "2025",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Nedbank Group",
+   "use": "Evaluation and enhancement of Microsoft 365 Copilot, a generative-AI productivity tool for Microsoft 365 applications, as part of Nedbank's broader data and AI use-case program (bank is a Microsoft lighthouse customer using Azure, Office 365 and Dynamics 365). [Microsoft (Microsoft 365 Copilot)]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.linkedin.com/posts/nedbank_nedbank-collaborates-with-microsoft-to-boost-activity-7095335024320733184-NCtM",
+   "raw_sector": "",
+   "date": "2023-08",
+   "fresh": "stale"
+  },
+  {
+   "company": "Nedbank Group",
    "use": "AI/ML for risk assessment and fraud detection; AI partnership with JUMO to expand lending to excluded borrowers",
    "existence": "claimed",
    "value": "none",
@@ -69,6 +131,61 @@
    "url": "https://techcabal.com/2026/06/04/nedbank-jumo-ai-partnership/",
    "raw_sector": "Banks",
    "date": "2026-06",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Nedbank Group",
+   "use": "Nedbank Quick Loans, an AI-driven digital lending product on the Nedbank Money app where JUMO's AI assesses applications and makes credit decisions within seconds, delivering loan approvals and payouts in about five minutes (from R500, 1-12 month terms), targeting thin-credit-file and underserved customers. [JUMO]",
+   "existence": "confirmed",
+   "value": "Loan approval and payout in ~5 minutes; JUMO estimates over 20 million underserved South Africans could be reached",
+   "tier": "",
+   "url": "https://www.thesouthafrican.com/technology/major-sa-bank-launches-five-minute-ai-loans-in-new-partnership/",
+   "raw_sector": "",
+   "date": "2026-06",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Nedbank Group",
+   "use": "AI-powered credit risk models enabling smarter lending decisions, particularly for SMEs, described as an active production capability supporting the bank's data-driven customer engagement strategy.",
+   "existence": "confirmed",
+   "value": "20% reduction in default rates",
+   "tier": "",
+   "url": "https://digitalbankerafrica.com/nedbank-and-the-digital-revolution-in-africa/",
+   "raw_sector": "",
+   "date": "2025",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Nedbank Group",
+   "use": "AI-powered advisory, solutioning and ecosystem-intelligence platform for Nedbank Business and Commercial Banking that helps bankers deliver smarter insights and more proactive client engagement. Won 'Best AI-Powered Business Intelligence and Advisory Platform - Africa' at The Digital Banker MEA Innovation Awards 2026.",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.linkedin.com/posts/nedbank_we-are-proud-to-announce-that-nedbank-business-activity-7467186768765775872-0Mqq",
+   "raw_sector": "",
+   "date": "2026",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Nedbank Group",
+   "use": "'We're for Africa' brand marketing campaign produced with Forge by Brave, a generative-AI marketing platform, where a brief generates strategy, creative concepts, social posts, assets and production. Rolled out across seven African markets during Africa Month. [Brave Group / Bravado (Forge by Brave)]",
+   "existence": "confirmed",
+   "value": "81% reduction in campaign cost; delivered in 12 days vs 45; 2-person team vs 14; 6.7M+ impressions",
+   "tier": "",
+   "url": "https://www.bizcommunity.com/article/bravado-uses-ai-to-supercharge-nedbanks-brand-700212a",
+   "raw_sector": "",
+   "date": "2024-11",
+   "fresh": "aging"
+  },
+  {
+   "company": "Nedbank Group",
+   "use": "ADAM, an AI/behavioral-analytics system for enhanced customer segmentation, targeting and hyper-personalized recommendations across savings, investments and insurance, plus ML-driven marketing campaign optimization.",
+   "existence": "confirmed",
+   "value": "30% increase in cross-sell rates; 25% increase in customer engagement; 15% reduction in operational costs",
+   "tier": "",
+   "url": "https://digitalbankerafrica.com/nedbank-and-the-digital-revolution-in-africa/",
+   "raw_sector": "",
+   "date": "2025",
    "fresh": "fresh"
   }
  ]

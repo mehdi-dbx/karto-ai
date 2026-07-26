@@ -3,43 +3,61 @@
  "name": "POSCO",
  "cc": "KR",
  "vertical": "Chemicals & Materials",
- "deployments": 1,
- "confirmed": 1,
- "with_value_number": 1,
- "proof_rate": 1.0,
+ "deployments": 7,
+ "confirmed": 5,
+ "with_value_number": 2,
+ "proof_rate": 0.286,
  "mktcap": 18029629630.0,
  "revenue": 51503703704.0,
  "employees": 406.0,
  "silent": false,
- "per_bn_revenue": 0.02,
- "per_10k_emp": 24.63,
+ "per_bn_revenue": 0.14,
+ "per_10k_emp": 172.41,
  "benchmarks": {
   "global_vertical": {
-   "deployments": 0,
-   "confirmed": 19,
-   "proof_rate": 75,
-   "n": 105
+   "deployments": 72,
+   "confirmed": 69,
+   "proof_rate": 70,
+   "n": 107
   },
   "country_vertical": {
-   "deployments": 0,
-   "confirmed": 27,
-   "proof_rate": 73,
+   "deployments": 82,
+   "confirmed": 82,
+   "proof_rate": 82,
    "n": 12
   }
  },
- "first_seen": null,
- "by_year": [],
- "undated_pct": 100,
- "momentum": "none",
- "maturity": "L3",
+ "first_seen": 2024,
+ "by_year": [
+  {
+   "year": 2024,
+   "n": 1
+  },
+  {
+   "year": 2025,
+   "n": 2
+  },
+  {
+   "year": 2026,
+   "n": 2
+  }
+ ],
+ "undated_pct": 29,
+ "momentum": "early_mover,rising",
+ "maturity": "L4",
  "maturity_evidence": [
+  "multi_horizontal",
   "named_product:Gen",
   "value_number",
+  "multi_year",
   "tier_p"
  ],
- "prospect_score": 14,
- "stack": [],
- "vendor_named": false,
+ "prospect_score": 59,
+ "stack": [
+  "Google",
+  "Google Cloud"
+ ],
+ "vendor_named": true,
  "deployments_detail": [
   {
    "company": "POSCO",
@@ -49,6 +67,72 @@
    "tier": "P",
    "url": "https://html.duckduckgo.com/html/?q=포스코+AI+스마트공장",
    "raw_sector": "Steels & Materials",
+   "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "POSCO",
+   "use": "Physical AI for industrial automation - coil unloading systems and factory operations",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://newsroom.posco.com/en/posco-dx-promotes-field-application-of-physical-ai-specialized-for-industrial-sites/",
+   "raw_sector": "",
+   "date": "2025-03-25",
+   "fresh": "fresh"
+  },
+  {
+   "company": "POSCO",
+   "use": "Humanoid robot development for hazardous industrial work [Persona AI]",
+   "existence": "claimed",
+   "value": "3M",
+   "tier": "",
+   "url": "https://theaiinsider.tech/2025/12/29/posco-group-invests-3m-in-persona-ai-for-industrial-humanoid-robot-development/",
+   "raw_sector": "",
+   "date": "2025-12-29",
+   "fresh": "fresh"
+  },
+  {
+   "company": "POSCO",
+   "use": "AI-enabled smart production system for real-time process monitoring",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://dbr.donga.com/kfocus/view/en/article_no/1683",
+   "raw_sector": "",
+   "date": "2026-01-19",
+   "fresh": "fresh"
+  },
+  {
+   "company": "POSCO",
+   "use": "Industrial robot foundation model development and motion planning [NC AI]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://newsroom.posco.com/en/posco-dx-nc-ai-physical-ai-based-launch-of-joint-development-of-industrial-robot-foundation-model/",
+   "raw_sector": "",
+   "date": "2026-06-05",
+   "fresh": "fresh"
+  },
+  {
+   "company": "POSCO",
+   "use": "AI-powered supply chain and master planning transformation [o9]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://o9solutions.com/news/posco-chooses-o9s-ai-powered-platform-for-comprehensive-digital-transformation-of-planning-processes",
+   "raw_sector": "",
+   "date": "2024-08-27",
+   "fresh": "aging"
+  },
+  {
+   "company": "POSCO",
+   "use": "AI service for market analysis and business intelligence [Google Cloud, Gemini 1.5 Pro]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://cloud.google.com/customers/posco-holdings",
+   "raw_sector": "",
    "date": "missing",
    "fresh": "undated"
   }

@@ -3,22 +3,22 @@
  "name": "Heineken",
  "cc": "NL",
  "vertical": "Retail & E-commerce",
- "deployments": 1,
- "confirmed": 1,
- "with_value_number": 0,
- "proof_rate": 0.0,
+ "deployments": 16,
+ "confirmed": 13,
+ "with_value_number": 4,
+ "proof_rate": 0.25,
  "mktcap": 43988400000.0,
  "revenue": 31050000000.0,
  "employees": 81028.0,
  "silent": false,
- "per_bn_revenue": 0.03,
- "per_10k_emp": 0.12,
+ "per_bn_revenue": 0.52,
+ "per_10k_emp": 1.97,
  "benchmarks": {
   "global_vertical": {
-   "deployments": 0,
-   "confirmed": 24,
-   "proof_rate": 0,
-   "n": 295
+   "deployments": 94,
+   "confirmed": 94,
+   "proof_rate": 50,
+   "n": 301
   }
  },
  "first_seen": 2024,
@@ -26,19 +26,101 @@
   {
    "year": 2024,
    "n": 1
+  },
+  {
+   "year": 2025,
+   "n": 14
   }
  ],
- "undated_pct": 0,
- "momentum": "early_mover,gone_quiet",
- "maturity": "L3",
+ "undated_pct": 6,
+ "momentum": "early_mover,rising",
+ "maturity": "L4",
  "maturity_evidence": [
+  "multi_horizontal",
   "named_product:Multi",
+  "value_number",
+  "multi_year",
   "tier_p"
  ],
- "prospect_score": 54,
- "stack": [],
- "vendor_named": false,
+ "prospect_score": 90,
+ "stack": [
+  "Anthropic",
+  "Google",
+  "IBM",
+  "Microsoft",
+  "Microsoft Azure",
+  "OpenAI",
+  "Palantir",
+  "SAP"
+ ],
+ "vendor_named": true,
  "deployments_detail": [
+  {
+   "company": "Heineken",
+   "use": "Global Generative AI Lab in Singapore (partnership with AI Singapore): innovation hub developing GenAI and agentic solutions for automated marketing content, intelligent financial reporting, and next-gen customer support/knowledge management. [AI Singapore]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.processexcellencenetwork.com/ai/news/heineken-opens-generative-ai-lab",
+   "raw_sector": "",
+   "date": "2025-03-20",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Heineken",
+   "use": "Named as a Palantir customer/case study [Palantir] [Palantir]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.palantir.com/impact/",
+   "raw_sector": "",
+   "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "Heineken",
+   "use": "PowerBot: internal AI agent built on Microsoft Power Platform and Copilot Studio that helps employees find information and automate repetitive tasks (meeting summaries, proposal generation) via Teams and custom web apps. [Microsoft (Power Platform, Copilot Studio)]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.microsoft.com/en/customers/story/25909-heineken-microsoft-copilot-studio",
+   "raw_sector": "",
+   "date": "2025-12-19",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Heineken",
+   "use": "Logistic Trade Term Validation app: Power Apps + AI-enhanced app that automatically validates thousands of daily orders against logistics trade terms, replacing manual Excel/SAP checks. [Microsoft (Power Platform)]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.microsoft.com/en/customers/story/25909-heineken-microsoft-copilot-studio",
+   "raw_sector": "",
+   "date": "2025-12-19",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Heineken",
+   "use": "Hoppy: generative AI chatbot that helps finance teams navigate internal standards and processes to boost productivity. [In-house (Heineken)]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.aidataanalytics.network/data-science-ai/articles/how-heineken-is-brewing-innovation-with-ai",
+   "raw_sector": "",
+   "date": "2025-06-23",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Heineken",
+   "use": "Microsoft Copilot rolled into internal communication workflows (HR, Legal, Corporate Affairs) as a generative AI productivity assistant. [Microsoft (Copilot)]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.aidataanalytics.network/data-science-ai/articles/how-heineken-is-brewing-innovation-with-ai",
+   "raw_sector": "",
+   "date": "2025-06-23",
+   "fresh": "fresh"
+  },
   {
    "company": "Heineken",
    "use": "Multi-faceted AI strategy enhancing consumer insights, innovation and generative-AI knowledge management, embedded across the organization (2024 annual report)",
@@ -49,6 +131,105 @@
    "raw_sector": "Beverages",
    "date": "2024",
    "fresh": "aging"
+  },
+  {
+   "company": "Heineken",
+   "use": "AIDDA (AI Data-Driven Advisor): sales assistant that predicts optimal next-best sales actions and best customer touchpoints, turning sales reps into business advisors. Scaled to 7-8 markets with 3,700+ sales/tele-sales reps supporting ~490,000 customers. [In-house (Heineken)]",
+   "existence": "confirmed",
+   "value": ">5% sales uplift in first year (Mexico pilot); ~490,000 customers, 3,700+ reps across 7 markets",
+   "tier": "",
+   "url": "https://www.theheinekencompany.com/newsroom/brewing-with-ai/",
+   "raw_sector": "",
+   "date": "2025-02-05",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Heineken",
+   "use": "Allocation AI: marketing spend optimizer that runs thousands of scenarios (mixed-integer linear programming) to recommend budget distribution across brands, channels and markets, replacing third-party Market Mix Models and measuring incremental ROI per touchpoint. [In-house (Heineken)]",
+   "existence": "confirmed",
+   "value": "Delivered incremental gross profit in Mexico, Brazil and Netherlands (no figure disclosed); deployed across all brands in 2024",
+   "tier": "",
+   "url": "https://www.theheinekencompany.com/newsroom/brewing-with-ai/",
+   "raw_sector": "",
+   "date": "2025-02-05",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Heineken",
+   "use": "Promo Advisor: promotional planning and optimization system with three components (DECOMPOSER analyzes past promotions, SIMULATOR tests scenarios, OPTIMISER builds optimal promotion calendar) plus dedicated front-end, to maximize promo uplift and profit. [In-house (Heineken)]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.theheinekencompany.com/newsroom/brewing-with-ai/",
+   "raw_sector": "",
+   "date": "2025-02-05",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Heineken",
+   "use": "MERCURY: AI-driven marketing investment/spend optimizer deployed to help allocate marketing budget and deliver incremental gross profit across markets. [In-house (Heineken)]",
+   "existence": "confirmed",
+   "value": "Delivering incremental gross profit across three markets (no figure disclosed)",
+   "tier": "",
+   "url": "https://www.aidataanalytics.network/data-science-ai/articles/how-heineken-is-brewing-innovation-with-ai",
+   "raw_sector": "",
+   "date": "2025-06-23",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Heineken",
+   "use": "Product Recommender: personalization engine that analyzes user behavior and preferences to deliver personalized product recommendations to B2B customers across markets. [In-house (Heineken)]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.aidataanalytics.network/data-science-ai/articles/how-heineken-is-brewing-innovation-with-ai",
+   "raw_sector": "",
+   "date": "2025-06-23",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Heineken",
+   "use": "WPP Open partnership: WPP's AI-powered marketing operating system (integrating Anthropic, OpenAI and Google Gemini models) used for Heineken's shopper marketing, in-bar, retail and e-commerce/commerce activation, led by VML Amsterdam. [WPP (WPP Open; Anthropic, OpenAI, Google Gemini)]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.marketingdive.com/news/heineken-taps-wpp-ai-muscle-strengthen-below-the-line-marketing/743969/",
+   "raw_sector": "",
+   "date": "2025-03-31",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Heineken",
+   "use": "Amstel Brewery customer FAQ agent: external customer-facing conversational agent on Amstel's website that answers frequently asked questions and hands off to contact systems when it cannot answer. Live in the Dutch market. [Microsoft (Power Platform, Copilot Studio)]",
+   "existence": "confirmed",
+   "value": "~300 hours saved per year; improved customer satisfaction scores",
+   "tier": "",
+   "url": "https://www.microsoft.com/en/customers/story/25909-heineken-microsoft-copilot-studio",
+   "raw_sector": "",
+   "date": "2025-12-19",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Heineken",
+   "use": "IBM collaboration to infuse automation and AI into digital operations, setting up AI assistants and agents and modernizing the tech stack across global markets (connected intelligence / modular data stack). [IBM]",
+   "existence": "confirmed",
+   "value": "95% reduction in technical deployment time (from 1-2 days to hours)",
+   "tier": "",
+   "url": "https://siliconangle.com/2025/05/29/heineken-ibm-ai-scale-connected-intelligence-ibmthink/",
+   "raw_sector": "",
+   "date": "2025-05-29",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Heineken",
+   "use": "Marketing Claims Compliance app: uses Azure OpenAI to map marketing claims against company policies and assist the legal team with approvals and proactive compliance advice. [Microsoft (Azure OpenAI, Power Platform)]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.microsoft.com/en/customers/story/25909-heineken-microsoft-copilot-studio",
+   "raw_sector": "",
+   "date": "2025-12-19",
+   "fresh": "fresh"
   }
  ]
 }

@@ -3,22 +3,22 @@
  "name": "DNB Bank",
  "cc": "NO",
  "vertical": "Financial Services",
- "deployments": 3,
- "confirmed": 0,
- "with_value_number": 2,
+ "deployments": 12,
+ "confirmed": 6,
+ "with_value_number": 8,
  "proof_rate": 0.667,
  "mktcap": 40329906542.0,
  "revenue": 8195327103.0,
  "employees": 11649.0,
  "silent": false,
- "per_bn_revenue": 0.37,
- "per_10k_emp": 2.58,
+ "per_bn_revenue": 1.46,
+ "per_10k_emp": 10.3,
  "benchmarks": {
   "global_vertical": {
-   "deployments": 86,
-   "confirmed": 0,
-   "proof_rate": 73,
-   "n": 377
+   "deployments": 81,
+   "confirmed": 55,
+   "proof_rate": 93,
+   "n": 388
   }
  },
  "first_seen": 2022,
@@ -30,17 +30,34 @@
   {
    "year": 2023,
    "n": 1
+  },
+  {
+   "year": 2024,
+   "n": 1
+  },
+  {
+   "year": 2025,
+   "n": 5
+  },
+  {
+   "year": 2026,
+   "n": 3
   }
  ],
  "undated_pct": 0,
- "momentum": "early_mover,gone_quiet",
- "maturity": "L1",
+ "momentum": "early_mover,rising",
+ "maturity": "L4",
  "maturity_evidence": [
-  "rows_no_confirmed"
+  "multi_horizontal",
+  "named_product:Aino",
+  "value_number",
+  "multi_year"
  ],
- "prospect_score": 13,
- "stack": [],
- "vendor_named": false,
+ "prospect_score": 49,
+ "stack": [
+  "Infosys"
+ ],
+ "vendor_named": true,
  "deployments_detail": [
   {
    "company": "DNB Bank",
@@ -66,6 +83,39 @@
   },
   {
    "company": "DNB Bank",
+   "use": "Aino, a customer-facing conversational AI virtual agent that handles first-line customer support in the online bank, automating 50-60% of all incoming chat traffic (~22% of total customer service traffic) and running 24/7. [boost.ai]",
+   "existence": "confirmed",
+   "value": "Automates 50-60% of incoming chat traffic; 10,000+ automated daily interactions; 1M+ interactions to date",
+   "tier": "",
+   "url": "https://boost.ai/case-studies/how-dnb-transformed-customer-service-operations-and-enhanced-human-agent-efficiency-with-conversational-ai/",
+   "raw_sector": "",
+   "date": "2025-01-28",
+   "fresh": "fresh"
+  },
+  {
+   "company": "DNB Bank",
+   "use": "Juno, an internal AI advisory bot that assists DNB customer service and retail banking employees with HR, legal, and product questions, acting as a knowledge assistant for human agents. [boost.ai]",
+   "existence": "confirmed",
+   "value": "5,000+ daily users; answered 2M+ inquiries in 2022",
+   "tier": "",
+   "url": "https://boost.ai/case-studies/ai-chatbot-banking/",
+   "raw_sector": "",
+   "date": "2026-03-20",
+   "fresh": "fresh"
+  },
+  {
+   "company": "DNB Bank",
+   "use": "AI-powered contact center: Genesys Predictive Routing to match customers to best-fit agents for loan/mortgage interactions, plus intelligent chatbots resolving inquiries across voice/email/SMS/chat. [Genesys]",
+   "existence": "confirmed",
+   "value": "6.5% reduction in average handle time; 30% reduction in call volumes; 90% inquiry resolution",
+   "tier": "",
+   "url": "https://www.genesys.com/customer-stories/dnb",
+   "raw_sector": "",
+   "date": "2024-01-01",
+   "fresh": "aging"
+  },
+  {
+   "company": "DNB Bank",
    "use": "Enterprise-wide generative AI testing across customer service and internal processes",
    "existence": "claimed",
    "value": "none",
@@ -74,6 +124,72 @@
    "raw_sector": "Banks",
    "date": "2023",
    "fresh": "stale"
+  },
+  {
+   "company": "DNB Bank",
+   "use": "Enterprise intelligent automation / RPA program with digital workers across 230 processes, including AML (reviewing stock transaction data for authorities, off-boarding non-compliant customers, processing ID documents) and credit operations (credit card requests, loan repricing). [SS&C Blue Prism]",
+   "existence": "confirmed",
+   "value": "EUR 70 million saved; 1.5 million hours returned; 86% reduction in processing time; 230 processes automated",
+   "tier": "",
+   "url": "https://www.blueprism.com/resources/case-studies/dnb-bank-aml-credit-automation/",
+   "raw_sector": "",
+   "date": "2025-01-01",
+   "fresh": "fresh"
+  },
+  {
+   "company": "DNB Bank",
+   "use": "Financial crime detection platform: NICE Actimize X-Sight Enterprise with Suspicious Activity Monitoring (SAM) for money-laundering/mule-ring detection and Integrated Fraud Management (IFM) applying AI across detection, investigation and operations, consolidating AML, sanctions screening, CDD and fraud monitoring. [NICE Actimize (integrator Infosys)]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://fintech.global/2026/06/16/nice-actimize-wins-dnb-mandate-for-ai-crime-detection/",
+   "raw_sector": "",
+   "date": "2026-06-16",
+   "fresh": "fresh"
+  },
+  {
+   "company": "DNB Bank",
+   "use": "Intelligent Fraud Prevention using NICE Actimize machine-learning models for real-time fraud detection, already in production per DNB SVP testimonial. [NICE Actimize]",
+   "existence": "confirmed",
+   "value": "80% year-over-year increase in fraud prevention",
+   "tier": "",
+   "url": "https://www.linkedin.com/posts/actimize_ai-machinelearning-fincrime-activity-7322630198942674945-9twH",
+   "raw_sector": "",
+   "date": "2025-04-01",
+   "fresh": "fresh"
+  },
+  {
+   "company": "DNB Bank",
+   "use": "Cloud-native, AI-enabled financial crime data platform modernization consolidating fragmented legacy AML/fraud systems, with AI-assisted investigations and intelligent orchestration, delivered with Infosys as systems integrator. [Infosys]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://ffnews.com/newsarticle/infosys-expands-strategic-collaboration-with-dnb-bank-asa-to-modernize-financial-crime-operations",
+   "raw_sector": "",
+   "date": "2026-06-02",
+   "fresh": "fresh"
+  },
+  {
+   "company": "DNB Bank",
+   "use": "AI-driven quality assurance and test automation across the bank's digital infrastructure, using Infosys Finacle/Topaz AI and generative AI capabilities to build, train, test and monitor AI-powered software and industrialize AI model development. [Infosys (Finacle / Topaz)]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://qa-financial.com/norways-dnb-bank-turns-to-infosys-for-group-wide-qa-testing-upgrade/",
+   "raw_sector": "",
+   "date": "2025-05-20",
+   "fresh": "fresh"
+  },
+  {
+   "company": "DNB Bank",
+   "use": "Digital/robo-advisor for automated investment advisory, live across DNB and Sbanken brands, using algorithmic/AI-driven portfolio recommendations for retail customers. [Quantfolio]",
+   "existence": "confirmed",
+   "value": "Live for 2.4 million DNB customers",
+   "tier": "",
+   "url": "https://www.linkedin.com/posts/martin-wik-s%C3%A6tre-a458424a_dnb-signs-with-quantfolio-we-are-extremely-activity-7333461701943525378-94zN",
+   "raw_sector": "",
+   "date": "2025-05-01",
+   "fresh": "fresh"
   }
  ]
 }

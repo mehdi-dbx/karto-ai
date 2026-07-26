@@ -3,40 +3,50 @@
  "name": "Arch Capital Group",
  "cc": "US",
  "vertical": "Financial Services",
- "deployments": 1,
- "confirmed": 1,
+ "deployments": 3,
+ "confirmed": 3,
  "with_value_number": 0,
  "proof_rate": 0.0,
  "mktcap": 34710000000.0,
  "revenue": 19780000000.0,
  "employees": 8000.0,
  "silent": false,
- "per_bn_revenue": 0.05,
- "per_10k_emp": 1.25,
+ "per_bn_revenue": 0.15,
+ "per_10k_emp": 3.75,
  "benchmarks": {
   "global_vertical": {
-   "deployments": 0,
-   "confirmed": 17,
+   "deployments": 13,
+   "confirmed": 27,
    "proof_rate": 0,
-   "n": 377
+   "n": 388
   },
   "country_vertical": {
-   "deployments": 0,
-   "confirmed": 19,
+   "deployments": 4,
+   "confirmed": 21,
    "proof_rate": 0,
-   "n": 76
+   "n": 77
   }
  },
- "first_seen": null,
- "by_year": [],
- "undated_pct": 100,
- "momentum": "none",
- "maturity": "L3",
+ "first_seen": 2024,
+ "by_year": [
+  {
+   "year": 2024,
+   "n": 1
+  },
+  {
+   "year": 2025,
+   "n": 1
+  }
+ ],
+ "undated_pct": 33,
+ "momentum": "early_mover,flat",
+ "maturity": "L4",
  "maturity_evidence": [
   "named_product:Deployed",
+  "multi_year",
   "tier_p"
  ],
- "prospect_score": 46,
+ "prospect_score": 58,
  "stack": [
   "Microsoft"
  ],
@@ -52,6 +62,28 @@
    "raw_sector": "Financials",
    "date": "missing",
    "fresh": "undated"
+  },
+  {
+   "company": "Arch Capital Group",
+   "use": "AI and machine learning embedded throughout organization for data-driven decisions and process streamlining",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://insurance.archgroup.com/the-importance-of-leveraging-data-and-analytics-to-elevate-the-customer-experience/",
+   "raw_sector": "",
+   "date": "2024-03-18",
+   "fresh": "aging"
+  },
+  {
+   "company": "Arch Capital Group",
+   "use": "Generative AI for mortgage underwriting and application processing",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://mortgage.archgroup.com/harnessing-ai-for-success-and-sidestepping-costly-mistakes/",
+   "raw_sector": "",
+   "date": "2025-02-20",
+   "fresh": "fresh"
   }
  ]
 }

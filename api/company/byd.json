@@ -3,21 +3,21 @@
  "name": "BYD",
  "cc": "CN",
  "vertical": "Automotive",
- "deployments": 1,
- "confirmed": 1,
+ "deployments": 6,
+ "confirmed": 5,
  "with_value_number": 1,
- "proof_rate": 1.0,
+ "proof_rate": 0.167,
  "mktcap": 107516666667.0,
  "revenue": 108865277778.0,
  "employees": 869600.0,
  "silent": false,
- "per_bn_revenue": 0.01,
- "per_10k_emp": 0.01,
+ "per_bn_revenue": 0.06,
+ "per_10k_emp": 0.07,
  "benchmarks": {
   "global_vertical": {
-   "deployments": 0,
-   "confirmed": 10,
-   "proof_rate": 82,
+   "deployments": 21,
+   "confirmed": 49,
+   "proof_rate": 33,
    "n": 40
   }
  },
@@ -30,9 +30,11 @@
   "named_product:God",
   "value_number"
  ],
- "prospect_score": 14,
- "stack": [],
- "vendor_named": false,
+ "prospect_score": 63,
+ "stack": [
+  "DeepSeek"
+ ],
+ "vendor_named": true,
  "deployments_detail": [
   {
    "company": "BYD",
@@ -43,6 +45,61 @@
    "url": "https://www.byd.com (God's Eye / Xuanji launch)",
    "raw_sector": "Consumer Discretionary",
    "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "BYD",
+   "use": "AI-powered quality control in battery manufacturing",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://evmagazine.com/news/how-chinas-byd-is-using-ai-to-scale-global-ev-manufacturing-2025",
+   "raw_sector": "",
+   "date": "Oct 14, 2025",
+   "fresh": "undated"
+  },
+  {
+   "company": "BYD",
+   "use": "Doubao LLM integration into DiLink platform [ByteDance Volcano Engine Doubao]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://digitaldefynd.com/IQ/byd-using-ai-case-study/",
+   "raw_sector": "",
+   "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "BYD",
+   "use": "God's Eye driver-assistance system",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://aibrief.kit.com/posts/byd-s-ai-driven-cars-are-coming",
+   "raw_sector": "",
+   "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "BYD",
+   "use": "Driver assist technology with DeepSeek AI [DeepSeek]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.cnbc.com/amp/2025/02/11/byd-rolls-out-driver-assist-tech-for-evs-with-deepseeks-ai-help.html",
+   "raw_sector": "",
+   "date": "Feb 10, 2025",
+   "fresh": "undated"
+  },
+  {
+   "company": "BYD",
+   "use": "Cerence xUI conversational in-car AI assistant [Cerence xUI]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://investors.cerence.com/news-events/press-releases/detail/374/cerence-ai-to-power-intelligent-llm-powered-in-car-experiences-for-byd",
+   "raw_sector": "",
+   "date": "Apr 8, 2026",
    "fresh": "undated"
   }
  ]

@@ -3,28 +3,28 @@
  "name": "Sapporo Holdings Ltd.",
  "cc": "JP",
  "vertical": "Retail & E-commerce",
- "deployments": 1,
- "confirmed": 1,
+ "deployments": 3,
+ "confirmed": 2,
  "with_value_number": 1,
- "proof_rate": 1.0,
+ "proof_rate": 0.333,
  "mktcap": 5079666667.0,
  "revenue": 3379066667.0,
  "employees": 6102.0,
  "silent": false,
- "per_bn_revenue": 0.3,
- "per_10k_emp": 1.64,
+ "per_bn_revenue": 0.89,
+ "per_10k_emp": 4.92,
  "benchmarks": {
   "global_vertical": {
-   "deployments": 0,
-   "confirmed": 24,
-   "proof_rate": 77,
-   "n": 295
+   "deployments": 19,
+   "confirmed": 22,
+   "proof_rate": 62,
+   "n": 301
   },
   "country_vertical": {
-   "deployments": 0,
-   "confirmed": 4,
-   "proof_rate": 50,
-   "n": 25
+   "deployments": 12,
+   "confirmed": 12,
+   "proof_rate": 44,
+   "n": 26
   }
  },
  "first_seen": 2025,
@@ -34,7 +34,7 @@
    "n": 1
   }
  ],
- "undated_pct": 0,
+ "undated_pct": 67,
  "momentum": "rising",
  "maturity": "L3",
  "maturity_evidence": [
@@ -42,12 +42,24 @@
   "value_number",
   "tier_p"
  ],
- "prospect_score": 6,
+ "prospect_score": 39,
  "stack": [
-  "Amazon AWS"
+  "Amazon AWS",
+  "IBM"
  ],
  "vendor_named": true,
  "deployments_detail": [
+  {
+   "company": "Sapporo Holdings Ltd.",
+   "use": "Proprietary generative AI tool rollout - SAPPORO AI-Stick for internal operations [Amazon Bedrock]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.sapporobreweries.com/en/innovation/dx/infrastructure/",
+   "raw_sector": "",
+   "date": "missing",
+   "fresh": "undated"
+  },
   {
    "company": "Sapporo Holdings Ltd.",
    "use": "\"SAPPORO AI-Stick\" (Amazon Bedrock) generative AI to ~6,000 employees (Feb 2025)",
@@ -58,6 +70,17 @@
    "raw_sector": "Foods",
    "date": "2025-02",
    "fresh": "fresh"
+  },
+  {
+   "company": "Sapporo Holdings Ltd.",
+   "use": "Product development acceleration using AI to reduce development time for new beverages [IBM Japan]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.foodnavigator.com/Article/2023/05/24/sapporo-to-release-first-rtd-alcoholic-beverage-developed-using-ai/",
+   "raw_sector": "",
+   "date": "May 24, 2023",
+   "fresh": "undated"
   }
  ]
 }

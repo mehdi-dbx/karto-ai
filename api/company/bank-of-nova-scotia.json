@@ -3,27 +3,27 @@
  "name": "Bank of Nova Scotia",
  "cc": "CA",
  "vertical": "Financial Services",
- "deployments": 2,
- "confirmed": 2,
+ "deployments": 7,
+ "confirmed": 7,
  "with_value_number": 1,
- "proof_rate": 0.5,
+ "proof_rate": 0.143,
  "mktcap": 111213235294.0,
  "revenue": 25161764706.0,
  "employees": 80415.0,
  "silent": false,
- "per_bn_revenue": 0.08,
- "per_10k_emp": 0.25,
+ "per_bn_revenue": 0.28,
+ "per_10k_emp": 0.87,
  "benchmarks": {
   "global_vertical": {
-   "deployments": 62,
-   "confirmed": 73,
-   "proof_rate": 61,
-   "n": 377
+   "deployments": 51,
+   "confirmed": 62,
+   "proof_rate": 33,
+   "n": 388
   },
   "country_vertical": {
-   "deployments": 43,
-   "confirmed": 57,
-   "proof_rate": 57,
+   "deployments": 29,
+   "confirmed": 29,
+   "proof_rate": 14,
    "n": 8
   }
  },
@@ -34,7 +34,7 @@
    "n": 2
   }
  ],
- "undated_pct": 0,
+ "undated_pct": 71,
  "momentum": "late_entrant,rising",
  "maturity": "L3",
  "maturity_evidence": [
@@ -43,9 +43,11 @@
   "value_number",
   "tier_p"
  ],
- "prospect_score": 40,
- "stack": [],
- "vendor_named": false,
+ "prospect_score": 76,
+ "stack": [
+  "Deloitte"
+ ],
+ "vendor_named": true,
  "deployments_detail": [
   {
    "company": "Bank of Nova Scotia",
@@ -60,6 +62,39 @@
   },
   {
    "company": "Bank of Nova Scotia",
+   "use": "Scotia Intelligence - enterprise AI tools suite for employees",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.scotiabank.com/corporate/en/home/media-centre/media-centre/news-release.html?id=4287&language=en",
+   "raw_sector": "",
+   "date": "Apr 13, 2026",
+   "fresh": "undated"
+  },
+  {
+   "company": "Bank of Nova Scotia",
+   "use": "Scotia Navigator - assistive AI for employees integrated into workplace",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.scotiabank.com/corporate/en/home/media-centre/media-centre/news-release.html?id=4287&language=en",
+   "raw_sector": "",
+   "date": "Apr 13, 2026",
+   "fresh": "undated"
+  },
+  {
+   "company": "Bank of Nova Scotia",
+   "use": "AI agents for payment operations - data transformation, analysis and report generation",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://gtb.scotiabank.com/en/global-transaction-banking/resources/insights/article.insights.how-ai-agents-are-transforming-scotiabank-s-payment-operations.html",
+   "raw_sector": "",
+   "date": "Sep 17, 2025",
+   "fresh": "undated"
+  },
+  {
+   "company": "Bank of Nova Scotia",
    "use": "AI strengthening anti-money laundering (AML) detection system",
    "existence": "confirmed",
    "value": "none",
@@ -68,6 +103,28 @@
    "raw_sector": "Banks",
    "date": "2026",
    "fresh": "fresh"
+  },
+  {
+   "company": "Bank of Nova Scotia",
+   "use": "Ethics Assistant - AI ethics issue identification tool developed with Deloitte Canada [Deloitte Canada]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://sloanreview.mit.edu/article/how-scotiabank-built-an-ethical-engaged-ai-culture/",
+   "raw_sector": "",
+   "date": "Jul 31, 2024",
+   "fresh": "undated"
+  },
+  {
+   "company": "Bank of Nova Scotia",
+   "use": "AI for anti-money laundering checks and risk management",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://financialpost.com/fp-finance/banking/scotiabank-accelerates-ai-use-boost-productivity-manage-risks",
+   "raw_sector": "",
+   "date": "Jun 10, 2026",
+   "fresh": "undated"
   }
  ]
 }

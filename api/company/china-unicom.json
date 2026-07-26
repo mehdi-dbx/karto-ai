@@ -3,43 +3,75 @@
  "name": "China Unicom",
  "cc": "HK",
  "vertical": "Telecom",
- "deployments": 2,
- "confirmed": 2,
- "with_value_number": 0,
- "proof_rate": 0.0,
+ "deployments": 14,
+ "confirmed": 14,
+ "with_value_number": 8,
+ "proof_rate": 0.571,
  "mktcap": 26008974359.0,
  "revenue": 57079487179.0,
  "employees": 237251.0,
  "silent": false,
- "per_bn_revenue": 0.04,
- "per_10k_emp": 0.08,
+ "per_bn_revenue": 0.25,
+ "per_10k_emp": 0.59,
  "benchmarks": {
   "global_vertical": {
-   "deployments": 57,
-   "confirmed": 65,
-   "proof_rate": 0,
-   "n": 93
+   "deployments": 88,
+   "confirmed": 100,
+   "proof_rate": 86,
+   "n": 94
   }
  },
- "first_seen": 2024,
+ "first_seen": 2021,
  "by_year": [
   {
+   "year": 2021,
+   "n": 1
+  },
+  {
+   "year": 2022,
+   "n": 1
+  },
+  {
+   "year": 2023,
+   "n": 1
+  },
+  {
    "year": 2024,
-   "n": 2
+   "n": 3
+  },
+  {
+   "year": 2025,
+   "n": 8
   }
  ],
  "undated_pct": 0,
- "momentum": "early_mover,gone_quiet",
- "maturity": "L3",
+ "momentum": "early_mover,rising",
+ "maturity": "L4",
  "maturity_evidence": [
   "multi_horizontal",
   "named_product:Yuanjing",
+  "value_number",
+  "multi_year",
   "tier_p"
  ],
- "prospect_score": 60,
- "stack": [],
- "vendor_named": false,
+ "prospect_score": 77,
+ "stack": [
+  "Baidu",
+  "DeepSeek"
+ ],
+ "vendor_named": true,
  "deployments_detail": [
+  {
+   "company": "China Unicom",
+   "use": "10010 Smart Contact Center uses GenAI plus dialect/intent/emotion recognition across 26 end-to-end AI applications serving 420M users; unified dialect foundation model (92% recognition) and intent recognition (98.4%), built on Huawei Pangu Model and other LLMs [Huawei Pangu Model + other LLMs]",
+   "existence": "confirmed",
+   "value": "CNY 600 million cost savings; service satisfaction 98%; avg call duration cut 28s per agent",
+   "tier": "",
+   "url": "https://developingtelecoms.com/telecom-technology/customer-management/15839-enabling-china-unicom-s-smart-contact-center-10010-through-gen-ai.html",
+   "raw_sector": "",
+   "date": "2023-11-22",
+   "fresh": "stale"
+  },
   {
    "company": "China Unicom",
    "use": "Yuanjing (元景) industrial large model for product design assistance, quality inspection and predictive equipment maintenance",
@@ -53,6 +85,61 @@
   },
   {
    "company": "China Unicom",
+   "use": "Yuanjing Government Service Hotline Large Model provides agent knowledge assistance, intelligent task dispatching and smart data inquiries for government citizen hotlines; generates six specialized report categories [China Unicom Yuanjing (proprietary)]",
+   "existence": "confirmed",
+   "value": "Work order accuracy 90%; completeness +30%; knowledge assistance accuracy 60% higher than traditional methods",
+   "tier": "",
+   "url": "https://www.gsma.com/get-involved/gsma-foundry/gsma_resources/china-unicom-government-hotline-service-ai-agent-llm/",
+   "raw_sector": "",
+   "date": "2025-05-08",
+   "fresh": "fresh"
+  },
+  {
+   "company": "China Unicom",
+   "use": "Integrated DeepSeek-R1 reasoning model into China Unicom cloud computing platform, offering DeepSeek-based AI services to cloud customers [DeepSeek (DeepSeek-R1)]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.scmp.com/tech/big-tech/article/3297961/chinas-three-big-telecoms-operators-rush-integrate-deepseek-models-cloud-services",
+   "raw_sector": "",
+   "date": "2025-02-09",
+   "fresh": "fresh"
+  },
+  {
+   "company": "China Unicom",
+   "use": "Yuanjing model automates recording and routing of public complaints/requests for China's '12345' citizen hotline, eliminating manual transcription steps [China Unicom Yuanjing (proprietary)]",
+   "existence": "confirmed",
+   "value": "Processing time reduced from 186 to 133 seconds per call",
+   "tier": "",
+   "url": "https://aiforgood.itu.int/yuanjing-model-drives-chinas-digital-industrial-transformation/",
+   "raw_sector": "",
+   "date": "2025-12-21",
+   "fresh": "fresh"
+  },
+  {
+   "company": "China Unicom",
+   "use": "Sichuan emergency-response system: citizens photograph emergencies and submit via mobile app; Yuanjing image-to-text capabilities process submissions for faster public-service response [China Unicom Yuanjing (proprietary)]",
+   "existence": "confirmed",
+   "value": "Average response time reduced from four working days to two",
+   "tier": "",
+   "url": "https://aiforgood.itu.int/yuanjing-model-drives-chinas-digital-industrial-transformation/",
+   "raw_sector": "",
+   "date": "2025-12-21",
+   "fresh": "fresh"
+  },
+  {
+   "company": "China Unicom",
+   "use": "Industrial equipment repair assistance: technicians describe equipment problems in plain language and Yuanjing retrieves troubleshooting guidance instead of manual guide search; deployed for manufacturing/industrial quality inspection (weight prediction, product counting) across 200+ enterprise clients [China Unicom Yuanjing (proprietary)]",
+   "existence": "confirmed",
+   "value": "Recall rate exceeding 90% for troubleshooting guidance; 200+ enterprise clients in production",
+   "tier": "",
+   "url": "https://aiforgood.itu.int/yuanjing-model-drives-chinas-digital-industrial-transformation/",
+   "raw_sector": "",
+   "date": "2025-12-21",
+   "fresh": "fresh"
+  },
+  {
+   "company": "China Unicom",
    "use": "Yuanjing 2.0 AI intrinsic-security framework with open-sourced security-testing datasets and model-service security toolchain",
    "existence": "confirmed",
    "value": "none",
@@ -61,6 +148,72 @@
    "raw_sector": "Telecom",
    "date": "2024",
    "fresh": "aging"
+  },
+  {
+   "company": "China Unicom",
+   "use": "Yuanjing-powered SMS fraud detection deployed across China Unicom's network to identify fraudulent messages and alert users without accessing message content (privacy-preserving) [China Unicom Yuanjing (proprietary)]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://aiforgood.itu.int/yuanjing-model-drives-chinas-digital-industrial-transformation/",
+   "raw_sector": "",
+   "date": "2025-12-21",
+   "fresh": "fresh"
+  },
+  {
+   "company": "China Unicom",
+   "use": "Smart Wireless Analysis Tool (SWAT) co-developed with Nokia automates closed-loop wireless network testing, data collection, problem identification and root-cause analysis across 31 provinces, processing ~55 billion daily records with 10+ AI models [Nokia]",
+   "existence": "confirmed",
+   "value": "EUR 16 million annual cost reduction; 167,000 labor working-days saved/yr; RCA accuracy 75%->91%",
+   "tier": "",
+   "url": "https://inform.tmforum.org/research-and-analysis/case-studies/china-unicom-leverages-work-undertaken-with-nokia-to-develop-and-deploy-a-smart-wireless-analysis-tool-swat",
+   "raw_sector": "",
+   "date": "2022-09-07",
+   "fresh": "stale"
+  },
+  {
+   "company": "China Unicom",
+   "use": "Intelligent fault management tool built with Nokia and Baidu using AI knowledge-graph technology; automates alarm correlation, root-cause analysis, decision-tree self-discovery across multi-domain networks (2023 TM Forum Excellence in Autonomous Operations award) [Nokia + Baidu]",
+   "existence": "confirmed",
+   "value": "Fault handling efficiency +67%; EUR 11.3M annual savings; RCA accuracy 70%->89%; resolution time 45min->15min",
+   "tier": "",
+   "url": "https://inform.tmforum.org/research-and-analysis/case-studies/china-unicom-uses-ai-knowledge-graphs-in-move-towards-more-autonomous-networks",
+   "raw_sector": "",
+   "date": "2024-01-25",
+   "fresh": "aging"
+  },
+  {
+   "company": "China Unicom",
+   "use": "AI-based network operations & management platform (built on Huawei AUTIN) centralizes national data collection/analysis for predictive fault detection across 1,000+ KPIs, automated trouble-ticket dispatch, self-healing and 5G site planning across 31 provinces [Huawei (AUTIN)]",
+   "existence": "confirmed",
+   "value": "Network planning efficiency +300%; outages -25%; fault prediction accuracy 85%; 100M kWh/yr power reduction",
+   "tier": "",
+   "url": "https://inform.tmforum.org/research-and-analysis/case-studies/ai-platform-brings-wide-sweeping-transformation-to-china-unicoms-networks-and-service",
+   "raw_sector": "",
+   "date": "2021-10-07",
+   "fresh": "stale"
+  },
+  {
+   "company": "China Unicom",
+   "use": "China Unicom Beijing + Huawei '3D smart 5G-A network' with AI-driven automated/unattended network operations - site deployment, maintenance, optimization and complaint handling, plus digital-twin sensing; fault self-healing within 30 minutes [Huawei]",
+   "existence": "confirmed",
+   "value": "Fault response within 10 seconds; fault self-healing within 30 minutes",
+   "tier": "",
+   "url": "https://www.huawei.com/en/news/2025/6/mwcsh-unicom-beijing-ai-network",
+   "raw_sector": "",
+   "date": "2025-06-20",
+   "fresh": "fresh"
+  },
+  {
+   "company": "China Unicom",
+   "use": "Yuanjing Wanwu AI Agent Development Platform - proprietary zero-code/low-code platform for model management, knowledge-base construction and workflow orchestration enabling partners/enterprises to build AI agent applications [China Unicom Yuanjing Wanwu (proprietary)]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.chinadaily.com.cn/a/202507/20/WS687ccab4a310ad07b5d90de0.html",
+   "raw_sector": "",
+   "date": "2025-07-20",
+   "fresh": "fresh"
   }
  ]
 }

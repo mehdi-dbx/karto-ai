@@ -3,43 +3,106 @@
  "name": "Nasdaq, Inc.",
  "cc": "US",
  "vertical": "Financial Services",
- "deployments": 1,
- "confirmed": 1,
+ "deployments": 6,
+ "confirmed": 4,
  "with_value_number": 0,
  "proof_rate": 0.0,
  "mktcap": 51890000000.0,
  "revenue": 5610000000.0,
  "employees": 9525.0,
  "silent": false,
- "per_bn_revenue": 0.18,
- "per_10k_emp": 1.05,
+ "per_bn_revenue": 1.07,
+ "per_10k_emp": 6.3,
  "benchmarks": {
   "global_vertical": {
-   "deployments": 0,
-   "confirmed": 17,
+   "deployments": 44,
+   "confirmed": 39,
    "proof_rate": 0,
-   "n": 377
+   "n": 388
   },
   "country_vertical": {
-   "deployments": 0,
-   "confirmed": 19,
+   "deployments": 41,
+   "confirmed": 32,
    "proof_rate": 0,
-   "n": 76
+   "n": 77
   }
  },
- "first_seen": null,
- "by_year": [],
- "undated_pct": 100,
- "momentum": "none",
+ "first_seen": 2025,
+ "by_year": [
+  {
+   "year": 2025,
+   "n": 1
+  }
+ ],
+ "undated_pct": 83,
+ "momentum": "rising",
  "maturity": "L3",
  "maturity_evidence": [
+  "multi_horizontal",
   "named_product:Dynamic M-ELO",
   "tier_p"
  ],
- "prospect_score": 54,
- "stack": [],
- "vendor_named": false,
+ "prospect_score": 64,
+ "stack": [
+  "Amazon AWS"
+ ],
+ "vendor_named": true,
  "deployments_detail": [
+  {
+   "company": "Nasdaq, Inc.",
+   "use": "AI built into advanced cloud-based solutions (Verafin, eVestment, AxiomSL, Calypso)",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://ir.nasdaq.com/news-releases/news-release-details/nasdaq-raises-medium-term-revenue-outlook-and-outlines-strategy",
+   "raw_sector": "",
+   "date": "Feb 25, 2026",
+   "fresh": "undated"
+  },
+  {
+   "company": "Nasdaq, Inc.",
+   "use": "Nasdaq Sustainable Lens: Amazon Bedrock + AWS Lambda solution analyzing tens of thousands of ESG/sustainability disclosure documents [AWS] [AWS]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://aws.amazon.com/solutions/case-studies/nasdaq-video-case-study/",
+   "raw_sector": "",
+   "date": "2025",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Nasdaq, Inc.",
+   "use": "Agentic AI workforce for automating financial crime prevention workflows",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://ir.nasdaq.com/news-releases/news-release-details/nasdaq-verafin-announces-launch-its-agentic-ai-workforce",
+   "raw_sector": "",
+   "date": "Jul 21, 2025",
+   "fresh": "undated"
+  },
+  {
+   "company": "Nasdaq, Inc.",
+   "use": "Market surveillance with generative AI capabilities",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://ir.nasdaq.com/news-releases/news-release-details/nasdaq-embeds-innovative-ai-capabilities-within-its-surveillance",
+   "raw_sector": "",
+   "date": "Oct 16, 2025",
+   "fresh": "undated"
+  },
+  {
+   "company": "Nasdaq, Inc.",
+   "use": "Generative AI integration into market surveillance technology",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://ir.nasdaq.com/news-releases/news-release-details/nasdaq-enhance-global-market-surveillance-offering-generative-ai",
+   "raw_sector": "",
+   "date": "May 15, 2024",
+   "fresh": "undated"
+  },
   {
    "company": "Nasdaq, Inc.",
    "use": "Verafin agentic AI (AML/fraud analysts) + \"Dynamic M-ELO\" (first SEC-approved AI order type) + GenAI market surveillance",

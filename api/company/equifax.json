@@ -3,42 +3,74 @@
  "name": "Equifax",
  "cc": "US",
  "vertical": "Industrial / Machinery",
- "deployments": 1,
- "confirmed": 1,
- "with_value_number": 0,
- "proof_rate": 0.0,
+ "deployments": 13,
+ "confirmed": 10,
+ "with_value_number": 6,
+ "proof_rate": 0.462,
  "mktcap": 19190000000.0,
  "revenue": 6440000000.0,
  "employees": 15000.0,
  "silent": false,
- "per_bn_revenue": 0.16,
- "per_10k_emp": 0.67,
+ "per_bn_revenue": 2.02,
+ "per_10k_emp": 8.67,
  "benchmarks": {
   "global_vertical": {
-   "deployments": 0,
-   "confirmed": 14,
-   "proof_rate": 0,
-   "n": 175
+   "deployments": 89,
+   "confirmed": 92,
+   "proof_rate": 94,
+   "n": 176
   },
   "country_vertical": {
-   "deployments": 0,
-   "confirmed": 19,
-   "proof_rate": 0,
-   "n": 80
+   "deployments": 91,
+   "confirmed": 96,
+   "proof_rate": 100,
+   "n": 81
   }
  },
- "first_seen": null,
- "by_year": [],
- "undated_pct": 100,
- "momentum": "none",
- "maturity": "L3",
+ "first_seen": 2018,
+ "by_year": [
+  {
+   "year": 2018,
+   "n": 1
+  },
+  {
+   "year": 2021,
+   "n": 1
+  },
+  {
+   "year": 2023,
+   "n": 1
+  },
+  {
+   "year": 2024,
+   "n": 2
+  },
+  {
+   "year": 2025,
+   "n": 3
+  },
+  {
+   "year": 2026,
+   "n": 2
+  }
+ ],
+ "undated_pct": 23,
+ "momentum": "early_mover,rising",
+ "maturity": "L4",
  "maturity_evidence": [
+  "multi_horizontal",
   "named_product:NeuroDecision",
+  "value_number",
+  "multi_year",
   "tier_p"
  ],
- "prospect_score": 54,
- "stack": [],
- "vendor_named": false,
+ "prospect_score": 82,
+ "stack": [
+  "Databricks",
+  "Google",
+  "Google Cloud"
+ ],
+ "vendor_named": true,
  "deployments_detail": [
   {
    "company": "Equifax",
@@ -50,6 +82,138 @@
    "raw_sector": "Industrials",
    "date": "missing",
    "fresh": "undated"
+  },
+  {
+   "company": "Equifax",
+   "use": "NeuroDecision Technology (NDT): patented explainable machine-learning credit scoring system using optimally-constrained neural networks that generates regulatory-compliant, consumer-facing reason codes. First ML credit scoring methodology reviewed by regulators; in production and embedded across Equifax scoring products. [Equifax proprietary (EFX.AI); originally co-developed with SAS]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://investor.equifax.com/news-events/press-releases/detail/203/equifax-launches-neurodecision-technology",
+   "raw_sector": "",
+   "date": "2018-03-26",
+   "fresh": "stale"
+  },
+  {
+   "company": "Equifax",
+   "use": "OneScore: next-generation consumer credit risk score powered by advanced analytics and machine learning, combining traditional credit attributes with alternative data (utility, telecom, specialty finance) to score previously unscoreable applicants. In production for US lenders. [Equifax proprietary (EFX.AI)]",
+   "existence": "confirmed",
+   "value": "Scores an estimated 21% more (8.8 million) additional credit-seeking consumers; commercial version potential to score up to 50% more applicants",
+   "tier": "",
+   "url": "https://investor.equifax.com/news-events/press-releases/detail/1284/equifax-introduces-new-onescore-scoring-model-to-help",
+   "raw_sector": "",
+   "date": "2023-03-27",
+   "fresh": "stale"
+  },
+  {
+   "company": "Equifax",
+   "use": "Google Cloud Vertex AI deployed across Equifax platforms (Ignite, Interconnect and global systems) alongside proprietary explainable AI for faster, more predictive credit/risk model development, scoring, and data ingestion. Active production rollout during 2024. [Google Cloud (Vertex AI, BigQuery ML)]",
+   "existence": "confirmed",
+   "value": "Processing data 5x faster than legacy applications; $1.5B cloud investment",
+   "tier": "",
+   "url": "https://www.constellationr.com/insights/news/equifax-bets-google-cloud-vertex-ai-speed-model-scores-data-ingestion",
+   "raw_sector": "",
+   "date": "2024-04-19",
+   "fresh": "aging"
+  },
+  {
+   "company": "Equifax",
+   "use": "EFX.AI: enterprise ML/AI framework used to build Equifax models and scores. By Q3 2024, 100% of new models and scores were built with EFX.AI and ML, up from 70% in 2023. [Equifax proprietary (EFX.AI)]",
+   "existence": "confirmed",
+   "value": "100% of new models and scores built with EFX.AI/ML in Q3 2024 (up from 70% in 2023)",
+   "tier": "",
+   "url": "https://www.equifax.com/newsroom/all-news/-/story/ai-enabled-equifax-cloud-infrastructure-accelerates-customer-insights-financial-opportunities/",
+   "raw_sector": "",
+   "date": "2024-10-01",
+   "fresh": "aging"
+  },
+  {
+   "company": "Equifax",
+   "use": "Gemini for help-desk data analysis and Google Meet notes [Google Cloud] [Google Cloud]",
+   "existence": "confirmed",
+   "value": "90% work-quality increase, 1+ hour daily savings; 97% wanted to keep licenses",
+   "tier": "",
+   "url": "https://cloud.google.com/transform/101-real-world-generative-ai-use-cases-from-industry-leaders",
+   "raw_sector": "",
+   "date": "2026-04-22",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Equifax",
+   "use": "Named as a Google Gemini / Vertex AI customer/case study [Google Gemini / Vertex AI] [Google Gemini / Vertex AI]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://workspace.google.com/customers/",
+   "raw_sector": "",
+   "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "Equifax",
+   "use": "Named as a Databricks customer/case study [Databricks] [Databricks]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.carahsoft.com/databricks/customer-stories",
+   "raw_sector": "",
+   "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "Equifax",
+   "use": "Gemini for Google Workspace deployed company-wide for employee productivity: help-desk reps use it for deeper data analysis; teams use 'take notes for me' for Meet transcripts/summaries/action items. Rolled out after a six-month trial to ~22,000 employees and contractors. [Google (Gemini / Google Workspace)]",
+   "existence": "confirmed",
+   "value": "Employees saved more than one hour per day; 97% of trial participants wanted to keep licenses; 90% saw increased work quality/quantity; ~22,000 employees",
+   "tier": "",
+   "url": "https://workspace.google.com/blog/customer-stories/equifax-embraces-gemini-for-secure-innovation-across-business-units",
+   "raw_sector": "",
+   "date": "2025-06-24",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Equifax",
+   "use": "Equifax Ignite AI Advisor: generative and agentic AI solution giving lenders conversational, non-technical analytic insights on their own data plus Equifax data to find profitable lending opportunities and grow portfolios. Launched as a commercial product. [Equifax (EFX.AI) on Google Cloud]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://investor.equifax.com/news-events/press-releases/detail/1372/equifax-introduces-equifax-ignite-ai-advisor",
+   "raw_sector": "",
+   "date": "2025-10-16",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Equifax",
+   "use": "Agentic AI Platform: an internal platform to accelerate and standardize the development, deployment, monitoring, and governance of AI agents across Equifax; slated for full production release in 2026. [Equifax (EFX.AI) on Google Cloud / Vertex AI (Gemini Enterprise Agent Platform)]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.equifax.com/about-equifax/ai/",
+   "raw_sector": "",
+   "date": "2026-01-01",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Equifax",
+   "use": "Kount / Kount 360 AI-driven fraud prevention and digital identity platform: uses AI and machine learning against a global data network to evaluate payment and identity interactions (device ID, IP, location) in real time and deliver automated fraud decisions. Acquired 2021 and operated in production. [Kount (an Equifax company)]",
+   "existence": "confirmed",
+   "value": "$640 million acquisition price",
+   "tier": "",
+   "url": "https://www.equifax.com/newsroom/all-news/-/story/commemorating-one-year-of-fraud-prevention-and-identity-solutions-growth-with-kount-an-equifax-company/",
+   "raw_sector": "",
+   "date": "2021-05-01",
+   "fresh": "stale"
+  },
+  {
+   "company": "Equifax",
+   "use": "Identity proofing solution launched within the Kount 360 platform, using Equifax's data network plus AI and ML models to verify/authenticate customer-provided identities for regulated financial services and other industries. [Kount 360 (Equifax); Incode partnership for facial/document biometrics]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://investor.equifax.com/news-events/press-releases/detail/1368/equifax-launches-identity-proofing-solution-in",
+   "raw_sector": "",
+   "date": "2025-09-02",
+   "fresh": "fresh"
   }
  ]
 }

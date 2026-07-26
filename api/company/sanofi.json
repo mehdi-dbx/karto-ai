@@ -3,52 +3,68 @@
  "name": "Sanofi",
  "cc": "FR",
  "vertical": "Healthcare & Life Sciences",
- "deployments": 2,
- "confirmed": 2,
- "with_value_number": 0,
- "proof_rate": 0.0,
+ "deployments": 13,
+ "confirmed": 9,
+ "with_value_number": 7,
+ "proof_rate": 0.538,
  "mktcap": 99759600000.0,
  "revenue": 51138000000.0,
  "employees": 74846.0,
  "silent": false,
- "per_bn_revenue": 0.04,
- "per_10k_emp": 0.27,
+ "per_bn_revenue": 0.25,
+ "per_10k_emp": 1.74,
  "benchmarks": {
   "global_vertical": {
-   "deployments": 75,
-   "confirmed": 79,
-   "proof_rate": 0,
-   "n": 165
+   "deployments": 92,
+   "confirmed": 80,
+   "proof_rate": 87,
+   "n": 168
   },
   "country_vertical": {
-   "deployments": 75,
-   "confirmed": 75,
-   "proof_rate": 0,
+   "deployments": 100,
+   "confirmed": 88,
+   "proof_rate": 88,
    "n": 9
   }
  },
- "first_seen": 2023,
+ "first_seen": 2022,
  "by_year": [
   {
-   "year": 2023,
+   "year": 2022,
    "n": 1
   },
   {
+   "year": 2023,
+   "n": 6
+  },
+  {
+   "year": 2024,
+   "n": 3
+  },
+  {
    "year": 2025,
+   "n": 2
+  },
+  {
+   "year": 2026,
    "n": 1
   }
  ],
  "undated_pct": 0,
- "momentum": "early_mover,flat",
- "maturity": "L3",
+ "momentum": "early_mover,cooling",
+ "maturity": "L4",
  "maturity_evidence": [
   "multi_horizontal",
   "named_product:Aily",
+  "value_number",
   "multi_year"
  ],
- "prospect_score": 60,
- "stack": [],
- "vendor_named": false,
+ "prospect_score": 72,
+ "stack": [
+  "Capgemini",
+  "OpenAI"
+ ],
+ "vendor_named": true,
  "deployments_detail": [
   {
    "company": "Sanofi",
@@ -63,6 +79,105 @@
   },
   {
    "company": "Sanofi",
+   "use": "plai — company-wide AI decision-intelligence app giving a 360-degree view across R&D, manufacturing, supply and commercial; used daily by Sanofians and 'attends' R&D portfolio decisions to advise on advancing, accelerating or halting programs [Aily Labs]",
+   "existence": "confirmed",
+   "value": "aggregates 1+ billion data points; roughly doubled decision-making speed",
+   "tier": "",
+   "url": "https://www.sanofi.com/en/media-room/press-releases/2023/2023-06-13-12-00-00-2687072",
+   "raw_sector": "",
+   "date": "2023-06-13",
+   "fresh": "stale"
+  },
+  {
+   "company": "Sanofi",
+   "use": "plai used for quality management across manufacturing sites — automating deviation and complaint trending, generating root-cause hypotheses, and accelerating investigations; governed by Sanofi's RAISE (Responsible AI at Sanofi Enterprise) framework [Aily Labs]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://ispe.org/pharmaceutical-engineering/ispeak/reactive-predictive-how-sanofi-transforming-quality-ai",
+   "raw_sector": "",
+   "date": "2024-08-30",
+   "fresh": "aging"
+  },
+  {
+   "company": "Sanofi",
+   "use": "SimplY — in-house AI-powered yield analytics platform that learns from past and current batch performance (tracking thousands of live bioreactor data points) to raise manufacturing yields batch-by-batch [Sanofi (in-house)]",
+   "existence": "confirmed",
+   "value": "yield gains of 5-10% per batch",
+   "tier": "",
+   "url": "https://www.sanofi.com/en/magazine/our-science/ai-goes-industrial",
+   "raw_sector": "",
+   "date": "2023-06-19",
+   "fresh": "stale"
+  },
+  {
+   "company": "Sanofi",
+   "use": "Collaboration with OpenAI and Formation Bio to build AI-powered software to accelerate drug development, including a tool to speed clinical-trial patient recruitment [OpenAI, Formation Bio]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.sanofi.com/en/media-room/press-releases/2024/2024-05-21-05-30-00-2885244",
+   "raw_sector": "",
+   "date": "2024-05-21",
+   "fresh": "aging"
+  },
+  {
+   "company": "Sanofi",
+   "use": "Multi-year small-molecule drug discovery collaboration using AQEMIA's quantum-physics-inspired generative-AI platform combined with Sanofi's R&D, spanning the discovery journey (expanded in 2026) [AQEMIA]",
+   "existence": "confirmed",
+   "value": "up to $140 million in upfront and milestone payments",
+   "tier": "",
+   "url": "https://www.fiercebiotech.com/biotech/sanofi-spins-ai-pact-inking-140m-deal-apply-aqemias-physics-algorithms-drug-discovery",
+   "raw_sector": "",
+   "date": "2023-12-05",
+   "fresh": "stale"
+  },
+  {
+   "company": "Sanofi",
+   "use": "Five-year license and multi-year collaboration to build agentic AI 'biopharma agents' on Owkin's K Pro AI-scientist platform to autonomously support drug discovery and development workflows [Owkin]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.owkin.com/newsfeed/owkin-to-build-ai-agents-as-part-of-a-multi-year-k-pro-collaboration-with-sanofi",
+   "raw_sector": "",
+   "date": "2026-06-05",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Sanofi",
+   "use": "Partnership with BioMap to co-develop AI foundation-model modules for biotherapeutic (large-molecule/biologics) drug discovery [BioMap]",
+   "existence": "claimed",
+   "value": "$10 million upfront; potential $1B+ in milestones",
+   "tier": "",
+   "url": "https://www.fiercebiotech.com/biotech/sanofi-pays-10m-hope-biological-map-or-proteins-leads-drug-discovery-treasure",
+   "raw_sector": "",
+   "date": "2023-10-10",
+   "fresh": "stale"
+  },
+  {
+   "company": "Sanofi",
+   "use": "AI drug discovery partnership with Insilico Medicine using generative AI to develop drugs against multiple targets; collaboration yielded an AI-facilitated first-in-class oncology lead against a previously undruggable transcription-factor target [Insilico Medicine]",
+   "existence": "confirmed",
+   "value": "deal worth up to $1.2 billion",
+   "tier": "",
+   "url": "https://www.eurekalert.org/news-releases/1063134",
+   "raw_sector": "",
+   "date": "2024-10-30",
+   "fresh": "aging"
+  },
+  {
+   "company": "Sanofi",
+   "use": "Virtual (digital) twin technology to simulate and optimize tech transfer, recipes, equipment and vaccine plant design, accelerating vaccine development [Dassault Systemes (3DEXPERIENCE Virtual Twin)]",
+   "existence": "confirmed",
+   "value": "cited up to 50% faster development in later manufacturing use",
+   "tier": "",
+   "url": "https://investor.3ds.com/news-releases/news-release-details/dassault-systemes-partners-sanofi-optimize-tech-transfer-and",
+   "raw_sector": "",
+   "date": "2022-10-26",
+   "fresh": "stale"
+  },
+  {
+   "company": "Sanofi",
    "use": "Third Digital Accelerator (Lyon) integrating AI at scale into pharmaceutical production (own press release, 2025)",
    "existence": "confirmed",
    "value": "none",
@@ -70,6 +185,28 @@
    "url": "https://www.sanofi.fr/fr/media/communiques-et-dossiers-de-presse/2025/sanofi-place-l-ia-au-coeur-d-une-nouvelle-ere-de-production-pharmaceutique",
    "raw_sector": "Healthcare",
    "date": "2025",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Sanofi",
+   "use": "plai deployed in Manufacturing & Supply for probabilistic supply-chain planning, predicting low-inventory/stock-disruption positions to keep medicines flowing [Aily Labs]",
+   "existence": "confirmed",
+   "value": "predicts ~80% of low-inventory positions / stock disruptions",
+   "tier": "",
+   "url": "https://www.sanofi.com/en/our-science/digital-artificial-intelligence",
+   "raw_sector": "",
+   "date": "2023-06-13",
+   "fresh": "stale"
+  },
+  {
+   "company": "Sanofi",
+   "use": "Using generative AI to accelerate global rollout of Manufacturing Execution Systems (MES) — replacing paper-based batch records with digital ones and speeding site deployments [Siemens, Capgemini]",
+   "existence": "claimed",
+   "value": "expected to cut MES deployment timelines in half",
+   "tier": "",
+   "url": "https://blog.siemens.com/2025/09/driving-pharma-manufacturing-excellence-sanofi-capgemini-and-siemens-on-scaling-mes-with-generative-ai/",
+   "raw_sector": "",
+   "date": "2025-09-25",
    "fresh": "fresh"
   }
  ]

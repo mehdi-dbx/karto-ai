@@ -3,44 +3,57 @@
  "name": "Televisa",
  "cc": "MX",
  "vertical": "Media / Entertainment / Gaming",
- "deployments": 2,
- "confirmed": 0,
- "with_value_number": 0,
- "proof_rate": 0.0,
+ "deployments": 11,
+ "confirmed": 8,
+ "with_value_number": 2,
+ "proof_rate": 0.182,
  "mktcap": 1490000000.0,
  "revenue": 3240000000.0,
  "employees": 25531.0,
  "silent": false,
- "per_bn_revenue": 0.62,
- "per_10k_emp": 0.78,
+ "per_bn_revenue": 3.4,
+ "per_10k_emp": 4.31,
  "benchmarks": {
   "global_vertical": {
-   "deployments": 82,
-   "confirmed": 0,
-   "proof_rate": 0,
+   "deployments": 79,
+   "confirmed": 79,
+   "proof_rate": 38,
    "n": 35
   }
  },
- "first_seen": 2025,
+ "first_seen": 2021,
  "by_year": [
+  {
+   "year": 2021,
+   "n": 1
+  },
+  {
+   "year": 2024,
+   "n": 1
+  },
   {
    "year": 2025,
    "n": 1
   },
   {
    "year": 2026,
-   "n": 1
+   "n": 8
   }
  ],
  "undated_pct": 0,
  "momentum": "early_mover,rising",
- "maturity": "L1",
+ "maturity": "L4",
  "maturity_evidence": [
-  "rows_no_confirmed"
+  "multi_horizontal",
+  "named_product:Portuguese",
+  "value_number",
+  "multi_year"
  ],
- "prospect_score": 40,
- "stack": [],
- "vendor_named": false,
+ "prospect_score": 81,
+ "stack": [
+  "Google Cloud"
+ ],
+ "vendor_named": true,
  "deployments_detail": [
   {
    "company": "Televisa",
@@ -62,6 +75,105 @@
    "url": "https://jentel.mx/2026/03/05/televisa-experimenta-con-ia-para-producir-micronovelas/",
    "raw_sector": "Media",
    "date": "2026-03",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Televisa",
+   "use": "AI-powered dubbing of telenovelas/content using cloned voices of the original actors to localize into multiple languages (e.g. Portuguese, Korean) for international distribution [ElevenLabs]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.investing.com/news/transcripts/earnings-call-transcript-grupo-televisa-beats-q2-2026-eps-forecast-as-margins-widen-93CH-4812420",
+   "raw_sector": "",
+   "date": "2026-07",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Televisa",
+   "use": "AI-generated production of short-form vertical micronovelas/microdramas (ViX Micro), using AI for scriptwriting and production; some produced 100% with the technology [none]",
+   "existence": "confirmed",
+   "value": "40 series in 2025, targeting 100 in 2026",
+   "tier": "",
+   "url": "https://www.axisnegocios.com/articulo.phtml?id=146693",
+   "raw_sector": "",
+   "date": "2026-03",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Televisa",
+   "use": "AI in TV production for special effects, set design and musicalization of programs, in collaboration with specialized AI companies [none]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.investing.com/news/transcripts/earnings-call-transcript-grupo-televisa-beats-q2-2026-eps-forecast-as-margins-widen-93CH-4812420",
+   "raw_sector": "",
+   "date": "2026-07",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Televisa",
+   "use": "Content personalization and recommendations plus real-time programming analytics: applying AI/ML across content libraries to personalize based on viewing history (Univision/TelevisaUnivision cloud transformation, with Looker/BigQuery) [Google Cloud]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://cloud.google.com/blog/topics/customers/univision-is-partnering-with-google-cloud",
+   "raw_sector": "",
+   "date": "2021-04",
+   "fresh": "stale"
+  },
+  {
+   "company": "Televisa",
+   "use": "izzi (cable/telecom unit) has AI deployed across multiple processes from sales to collections; internal cloud storage and GPU infrastructure used to run AI in-house [in-house (internal GPU infrastructure)]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.investing.com/news/transcripts/earnings-call-transcript-grupo-televisa-beats-q2-2026-eps-forecast-as-margins-widen-93CH-4812420",
+   "raw_sector": "",
+   "date": "2026-07",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Televisa",
+   "use": "Legal/contract intelligence: AI to build a centralized institutional knowledge base, surface key contract terms, renewal/termination rights and change-of-control provisions, speeding legal and finance responses [Workday Contract Intelligence]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.workday.com/en-us/perspectives/ai/legal-leadership-with-veronica-rodriguez.html",
+   "raw_sector": "",
+   "date": "2026-02",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Televisa",
+   "use": "Shoppable TV / retail media: AI platform curates on-screen product collections making linear and streaming content instantly shoppable via QR codes and dedicated stores (launched at Latin American Music Awards) [Shopsense AI]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://corporate.televisaunivision.com/press/2024/04/25/televisaunivision-and-shopsense-ai-announce-exclusive-spanish-language-partnership-for-new-retail-media-experience/",
+   "raw_sector": "",
+   "date": "2024-04",
+   "fresh": "aging"
+  },
+  {
+   "company": "Televisa",
+   "use": "AI-powered creative automation for ViX CTV advertising: identifying top-performing social assets and adapting them into premium CTV ads at scale via Amazon DSP [Smartly (with Amazon DSP)]",
+   "existence": "confirmed",
+   "value": "reach of 275M+ Amazon users across Prime Video, Twitch and Amazon ad network",
+   "tier": "",
+   "url": "https://www.smartly.io/resources/televisaunivision-delivers-ctv-impact-with-ai-powered-creative",
+   "raw_sector": "",
+   "date": "2026-03",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Televisa",
+   "use": "AI agent that reviews advertising deals in real time and alerts sellers when spend is lagging behind pace (agentic sales workflow automation) [none (context: TripleLift CTV partnership)]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://triplelift.com/resources/blog/lessons-in-ctv-creative-innovation-from-triplelift-and-televisaunivision/",
+   "raw_sector": "",
+   "date": "2026-01",
    "fresh": "fresh"
   }
  ]

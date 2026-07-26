@@ -3,27 +3,27 @@
  "name": "Entain",
  "cc": "UK",
  "vertical": "Travel & Hospitality",
- "deployments": 1,
- "confirmed": 1,
- "with_value_number": 1,
- "proof_rate": 1.0,
+ "deployments": 9,
+ "confirmed": 8,
+ "with_value_number": 4,
+ "proof_rate": 0.444,
  "mktcap": 4457700000.0,
  "revenue": 6680200000.0,
  "employees": 28413.0,
  "silent": false,
- "per_bn_revenue": 0.15,
- "per_10k_emp": 0.35,
+ "per_bn_revenue": 1.35,
+ "per_10k_emp": 3.17,
  "benchmarks": {
   "global_vertical": {
-   "deployments": 0,
-   "confirmed": 29,
-   "proof_rate": 76,
-   "n": 39
+   "deployments": 80,
+   "confirmed": 82,
+   "proof_rate": 92,
+   "n": 41
   },
   "country_vertical": {
-   "deployments": 0,
-   "confirmed": 25,
-   "proof_rate": 75,
+   "deployments": 100,
+   "confirmed": 100,
+   "proof_rate": 100,
    "n": 5
   }
  },
@@ -31,20 +31,36 @@
  "by_year": [
   {
    "year": 2023,
+   "n": 2
+  },
+  {
+   "year": 2024,
+   "n": 3
+  },
+  {
+   "year": 2025,
    "n": 1
+  },
+  {
+   "year": 2026,
+   "n": 3
   }
  ],
  "undated_pct": 0,
- "momentum": "early_mover,gone_quiet",
- "maturity": "L3",
+ "momentum": "early_mover,cooling",
+ "maturity": "L4",
  "maturity_evidence": [
+  "multi_horizontal",
   "named_product:ARC",
   "value_number",
+  "multi_year",
   "tier_p"
  ],
- "prospect_score": 14,
- "stack": [],
- "vendor_named": false,
+ "prospect_score": 70,
+ "stack": [
+  "Snowflake"
+ ],
+ "vendor_named": true,
  "deployments_detail": [
   {
    "company": "Entain",
@@ -56,6 +72,94 @@
    "raw_sector": "Travel & leisure",
    "date": "2023",
    "fresh": "stale"
+  },
+  {
+   "company": "Entain",
+   "use": "Angstrom Sports simulation-based predictive pricing/forecasting models powering BetMGM same-game parlays (SGP/SGP+) and pre-packaged parlays; deployed live for MLB and NFL/football seasons. [Angstrom Sports (Entain-acquired)]",
+   "existence": "confirmed",
+   "value": "Acquired for up to ~£200m / $265m",
+   "tier": "",
+   "url": "https://www.entaingroup.com/news-insights/latest-news/2024/betmgm-debuts-game-changing-features-for-football-season/",
+   "raw_sector": "",
+   "date": "2024-08-27",
+   "fresh": "aging"
+  },
+  {
+   "company": "Entain",
+   "use": "Advanced Responsibility & Care (ARC): three AI/ML-based models assess player risk in real time across the customer base, triggering personalised safer-gambling interventions (deposit/session/withdrawal anomaly flags and control recommendations). [Entain proprietary (ARC)]",
+   "existence": "confirmed",
+   "value": "742,112 customers engaged and 8.7 million interventions in 2023 (up 98% YoY); live across 27 of 34 online jurisdictions plus UK/Ireland retail",
+   "tier": "",
+   "url": "https://igamingbusiness.com/sustainable-gambling/entain-player-protection-tool/",
+   "raw_sector": "",
+   "date": "2024-07-09",
+   "fresh": "aging"
+  },
+  {
+   "company": "Entain",
+   "use": "Mindway AI GameScanner integrated into ARC for early, automated detection and expert-style risk profiling of at-risk and problem gambling behaviour across Entain's player database. [Mindway AI (GameScanner)]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://mindway.ai/news_and_knowledge/gamescanner-is-part-of-entains-advanced-responsibility-care-program-arc/",
+   "raw_sector": "",
+   "date": "2023-03-15",
+   "fresh": "stale"
+  },
+  {
+   "company": "Entain",
+   "use": "SportingBOT: generative AI chatbot / personalised betting assistant for Sportingbet Brazil, integrating live odds pricing API, real-time match data (Sportradar) and grounded in promotions and T&Cs for conversational customer answers. [Entain (generative AI)]",
+   "existence": "confirmed",
+   "value": "40% of targeted visitors engaged within the first month of launch",
+   "tier": "",
+   "url": "https://www.entaingroup.com/annualreport2025/stories.html",
+   "raw_sector": "",
+   "date": "2026-03-31",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Entain",
+   "use": "AI used to produce high-quality marketing creative assets in-house (notably in Australia), replacing inefficient legacy marketing and third-party agency production to dramatically cut asset-generation cost. [none]",
+   "existence": "confirmed",
+   "value": "Executives stated creative assets produced 'at a fraction of the cost' vs third-party agency; contributed to broader Project Roma savings",
+   "tier": "",
+   "url": "https://www.investing.com/news/transcripts/earnings-call-transcript-entain-plc-h2-2025-shows-strong-growth-stock-rises-93CH-4543337",
+   "raw_sector": "",
+   "date": "2026-03-05",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Entain",
+   "use": "AI-led CRM: self-optimizing marketing campaigns via Optimove (with CACI) to consolidate the martech stack and automate campaign building for personalised customer engagement. [Optimove + CACI]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.globenewswire.com/news-release/2025/10/28/3175641/0/en/caci-and-optimove-strengthen-partnership-to-help-brands-maximize-their-customer-marketing-effectiveness.html",
+   "raw_sector": "",
+   "date": "2025-10-28",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Entain",
+   "use": "AI tools integrated across the software product lifecycle: product discovery, design, implementation, testing, automation and release management (AI-native pods with AI agents). [none]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.entaingroup.com/media/by4fdoyj/entain-annual-report-2025.pdf",
+   "raw_sector": "",
+   "date": "2026-03-31",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Entain",
+   "use": "Snowflake Cortex AI GenAI solution to optimise the software delivery lifecycle (design-to-code) for data and engineering teams. [Snowflake Cortex AI]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://medium.com/snowflake/automating-entains-software-delivery-lifecycle-with-snowflake-cortex-ai-design-to-code-5645f05636d0",
+   "raw_sector": "",
+   "date": "2024-01-01",
+   "fresh": "aging"
   }
  ]
 }

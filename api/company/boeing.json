@@ -3,48 +3,100 @@
  "name": "Boeing",
  "cc": "US",
  "vertical": "Industrial / Machinery",
- "deployments": 1,
- "confirmed": 1,
+ "deployments": 7,
+ "confirmed": 5,
  "with_value_number": 0,
  "proof_rate": 0.0,
  "mktcap": 164540000000.0,
  "revenue": 92180000000.0,
  "employees": 182000.0,
  "silent": false,
- "per_bn_revenue": 0.01,
- "per_10k_emp": 0.05,
+ "per_bn_revenue": 0.08,
+ "per_10k_emp": 0.38,
  "benchmarks": {
   "global_vertical": {
-   "deployments": 0,
-   "confirmed": 14,
+   "deployments": 61,
+   "confirmed": 63,
    "proof_rate": 0,
-   "n": 175
+   "n": 176
   },
   "country_vertical": {
-   "deployments": 0,
-   "confirmed": 19,
+   "deployments": 61,
+   "confirmed": 58,
    "proof_rate": 0,
-   "n": 80
+   "n": 81
   }
  },
  "first_seen": 2025,
  "by_year": [
   {
    "year": 2025,
+   "n": 5
+  },
+  {
+   "year": 2026,
    "n": 1
   }
  ],
- "undated_pct": 0,
+ "undated_pct": 14,
  "momentum": "early_mover,rising",
  "maturity": "L3",
  "maturity_evidence": [
+  "multi_horizontal",
   "named_product:Shaping AI for the Sky",
   "tier_p"
  ],
- "prospect_score": 54,
- "stack": [],
- "vendor_named": false,
+ "prospect_score": 70,
+ "stack": [
+  "OpenAI",
+  "Palantir"
+ ],
+ "vendor_named": true,
  "deployments_detail": [
+  {
+   "company": "Boeing",
+   "use": "Photo-driven AI for aircraft part validation and inspection",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.boeing.com/features/2025/12/engineers-use-photo-driven-ai-to-simplify-part-validation",
+   "raw_sector": "",
+   "date": "2025-12-17",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Boeing",
+   "use": "AI platform for defense and classified programs data unification [Palantir Foundry]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://boeing.mediaroom.com/2025-09-23-Boeing-Defense,-Space-Security-Partners-with-Palantir-to-Accelerate-AI-Adoption-Across-Defense,-Classified-Programs",
+   "raw_sector": "",
+   "date": "2025-09-23",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Boeing",
+   "use": "AI and machine learning for military transportation planning [Tapestry Solutions]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.boeing.com/features/2025/08/boeing-aides-military-transportation-with-ai",
+   "raw_sector": "",
+   "date": "2025-08-26",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Boeing",
+   "use": "Named as a OpenAI customer/case study [OpenAI] [OpenAI]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://community.openai.com/t/openai-announcement-chatgpt-enterprise-chatgpt-web-platform-for-business-contact-sales/336131",
+   "raw_sector": "",
+   "date": "missing",
+   "fresh": "undated"
+  },
   {
    "company": "Boeing",
    "use": "AI across engineering, manufacturing, supply chain, safety incl. visual inspection + rapid parts validation (\"Shaping AI for the Sky\")",
@@ -54,6 +106,28 @@
    "url": "https://www.boeing.com/innovation/innovation-quarterly/2025/12/shaping-ai-for-the-sky",
    "raw_sector": "Industrials",
    "date": "2025",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Boeing",
+   "use": "GenAI for intelligence analyst workflow automation",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.bia-boeing.com/capabilitiesinfo/genai",
+   "raw_sector": "",
+   "date": "2026-05-28",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Boeing",
+   "use": "Code generation and modeling assistance [Code Assistant]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.boeing.com/innovation/innovation-quarterly/2025/12/shaping-ai-for-the-sky",
+   "raw_sector": "",
+   "date": "2025-12-18",
    "fresh": "fresh"
   }
  ]

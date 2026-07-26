@@ -3,48 +3,62 @@
  "name": "Ricoh Co., Ltd.",
  "cc": "JP",
  "vertical": "Electric Machinery & Electronics",
- "deployments": 1,
- "confirmed": 1,
- "with_value_number": 1,
- "proof_rate": 1.0,
+ "deployments": 10,
+ "confirmed": 9,
+ "with_value_number": 5,
+ "proof_rate": 0.5,
  "mktcap": 5900200000.0,
  "revenue": 17400000000.0,
  "employees": 75635.0,
  "silent": false,
- "per_bn_revenue": 0.06,
- "per_10k_emp": 0.13,
+ "per_bn_revenue": 0.57,
+ "per_10k_emp": 1.32,
  "benchmarks": {
   "global_vertical": {
-   "deployments": 0,
-   "confirmed": 9,
-   "proof_rate": 79,
+   "deployments": 65,
+   "confirmed": 82,
+   "proof_rate": 91,
    "n": 35
   },
   "country_vertical": {
-   "deployments": 0,
-   "confirmed": 6,
-   "proof_rate": 77,
+   "deployments": 61,
+   "confirmed": 81,
+   "proof_rate": 90,
    "n": 32
   }
  },
- "first_seen": 2025,
+ "first_seen": 2024,
  "by_year": [
   {
+   "year": 2024,
+   "n": 3
+  },
+  {
    "year": 2025,
-   "n": 1
+   "n": 5
+  },
+  {
+   "year": 2026,
+   "n": 2
   }
  ],
  "undated_pct": 0,
  "momentum": "early_mover,rising",
- "maturity": "L3",
+ "maturity": "L4",
  "maturity_evidence": [
+  "multi_horizontal",
   "named_product:Own",
   "value_number",
+  "multi_year",
   "tier_p"
  ],
- "prospect_score": 14,
- "stack": [],
- "vendor_named": false,
+ "prospect_score": 74,
+ "stack": [
+  "Amazon AWS",
+  "Meta",
+  "OpenAI"
+ ],
+ "vendor_named": true,
  "deployments_detail": [
   {
    "company": "Ricoh Co., Ltd.",
@@ -56,6 +70,105 @@
    "raw_sector": "Electric Machinery",
    "date": "2025",
    "fresh": "fresh"
+  },
+  {
+   "company": "Ricoh Co., Ltd.",
+   "use": "RICOH Intelligent Automation, an AI-powered SaaS platform for intelligent document processing (OCR, handwritten text recognition, data extraction from unstructured documents in 200+ languages) with planned generative AI assistant functionality; piloting in selected markets ahead of phased global rollout. [natif.ai (OCR/image recognition, Ricoh subsidiary)]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.ricoh.com/release/2025/1028_1",
+   "raw_sector": "",
+   "date": "2025-10-28",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Ricoh Co., Ltd.",
+   "use": "Scalable intelligent document processing solution for healthcare document automation (insurance claims, appeals, grievances, clinical records) using generative AI for classification and extraction with human-in-the-loop review; in production. [AWS (Amazon Bedrock, Amazon Textract, Lambda, S3, DynamoDB, SQS)]",
+   "existence": "confirmed",
+   "value": "Processes 10,000+ healthcare documents/month (scalable to 70,000); onboarding cut from 4-6 weeks to 2-3 days (>90%); 98-99% accuracy; manual review costs reduced 60-70%",
+   "tier": "",
+   "url": "https://aws.amazon.com/blogs/machine-learning/how-ricoh-built-a-scalable-intelligent-document-processing-solution-on-aws/",
+   "raw_sector": "",
+   "date": "2026-03-04",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Ricoh Co., Ltd.",
+   "use": "Multimodal LLM (LMM) built on Alibaba's Qwen2.5-VL-32B-Instruct under Japan's GENIAC program, trained on ~600,000 business-document images to read Japanese corporate documents containing diagrams, pie charts, bar graphs and flowcharts; offered to customers and bundled in the RICOH On-Premise LLM Starter Kit. [Alibaba Qwen2.5-VL (base model); GENIAC (METI/NEDO)]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://itbusinesstoday.com/quick-reads/ricoh-develops-lmm-that-can-read-documents-with-diagrams/",
+   "raw_sector": "",
+   "date": "2026-01-12",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Ricoh Co., Ltd.",
+   "use": "Integration of natif.ai Intelligent Document Processing (AI-based OCR/image recognition) into DocuWare document management to improve extraction from handwritten documents such as purchase orders and auto-sort documents by content; widely used in Germany and being adapted for Japanese-language processing. [natif.ai; DocuWare (both Ricoh companies)]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.ricoh.com/news/stories/articles/docuware-natif-ai",
+   "raw_sector": "",
+   "date": "2025-03-14",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Ricoh Co., Ltd.",
+   "use": "Ricoh's own 70-billion-parameter LLM supporting Japanese, English and Chinese with high Japanese performance, offered in cloud-based and secure on-premise configurations; expansion of an AI-solutions partnership with AWS Japan to bring it to market. [AWS Japan (partnership)]",
+   "existence": "confirmed",
+   "value": "70 billion parameters",
+   "tier": "",
+   "url": "https://itbusinesstoday.com/tech/ai/aws-japan-and-ricoh-expand-partnership-for-ai-solutions/",
+   "raw_sector": "",
+   "date": "2025-06-25",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Ricoh Co., Ltd.",
+   "use": "13-billion-parameter bilingual (Japanese/English) Llama-2-based LLM trained with curriculum learning on AWS Trainium, developed under the AWS LLM Development Support Program; pre-trained on a Japanese corpus and evaluated on llm-jp-eval benchmarks. [AWS Trainium (64 trn1.32xlarge / 1,024 Trainium chips); Meta Llama 2]",
+   "existence": "confirmed",
+   "value": "50% reduction in training cost and 25% decrease in training time (per AWS Trainium/Inferentia customer series)",
+   "tier": "",
+   "url": "https://aws.amazon.com/blogs/machine-learning/unlocking-japanese-llms-with-aws-trainium-innovators-showcase-from-the-aws-llm-development-support-program/",
+   "raw_sector": "",
+   "date": "2024-07-31",
+   "fresh": "aging"
+  },
+  {
+   "company": "Ricoh Co., Ltd.",
+   "use": "RICOH Digital Buddy for Local Governments, a generative-AI service that auto-generates responses to citizen inquiries from registered regulatory/internal documents and summarizes long plans and reports; runs inside the LGWAN secure network with no use of input data for training. Launched in Standard and Advanced editions. [Ricoh Japan]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://itbusinesstoday.com/gov-tech/ricoh-launches-local-government-ai-service-digital-buddy/",
+   "raw_sector": "",
+   "date": "2025-09-19",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Ricoh Co., Ltd.",
+   "use": "Ricoh GPT, an in-house GPT-3-class Japanese LLM developed on AWS; used for natural-language vector search of technical databases for equipment malfunction causes, a custom GPT giving maintenance workers technical info via voice queries, and interactive 'digital human' avatars for customer engagement. [AWS (Amazon SageMaker, EC2 P4d, S3, FSx for Lustre, ML Solutions Lab)]",
+   "existence": "confirmed",
+   "value": "Model developed in 3 months",
+   "tier": "",
+   "url": "https://aws.amazon.com/solutions/case-studies/ricoh-case-study/",
+   "raw_sector": "",
+   "date": "2024-01-01",
+   "fresh": "aging"
+  },
+  {
+   "company": "Ricoh Co., Ltd.",
+   "use": "RICOH Intelligent Support uses AI and big data on internet-connected multifunction printers (MFPs) for predictive/preventive maintenance: analyzing usage and environment to detect anomalies, predict part failures, trigger firmware updates and auto-notify call centers before breakdowns occur. [Ricoh (@Remote platform)]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.ricoh.com/support/intelligent-support",
+   "raw_sector": "",
+   "date": "2024-01-01",
+   "fresh": "aging"
   }
  ]
 }

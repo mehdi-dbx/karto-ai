@@ -3,21 +3,21 @@
  "name": "James Hardie",
  "cc": "AU",
  "vertical": "Real Estate & Construction",
- "deployments": 1,
- "confirmed": 1,
- "with_value_number": 0,
- "proof_rate": 0.0,
+ "deployments": 8,
+ "confirmed": 5,
+ "with_value_number": 3,
+ "proof_rate": 0.375,
  "mktcap": 13486666667.0,
  "revenue": 7050000000.0,
  "employees": 7500.0,
  "silent": false,
- "per_bn_revenue": 0.14,
- "per_10k_emp": 1.33,
+ "per_bn_revenue": 1.13,
+ "per_10k_emp": 10.67,
  "benchmarks": {
   "global_vertical": {
-   "deployments": 0,
-   "confirmed": 31,
-   "proof_rate": 0,
+   "deployments": 79,
+   "confirmed": 75,
+   "proof_rate": 75,
    "n": 154
   }
  },
@@ -25,19 +25,30 @@
  "by_year": [
   {
    "year": 2025,
-   "n": 1
+   "n": 2
+  },
+  {
+   "year": 2026,
+   "n": 6
   }
  ],
  "undated_pct": 0,
  "momentum": "rising",
- "maturity": "L3",
+ "maturity": "L4",
  "maturity_evidence": [
+  "multi_horizontal",
   "named_product:Hardie",
+  "value_number",
+  "multi_year",
   "tier_p"
  ],
- "prospect_score": 54,
- "stack": [],
- "vendor_named": false,
+ "prospect_score": 55,
+ "stack": [
+  "Amazon AWS",
+  "Google Cloud",
+  "Microsoft Azure"
+ ],
+ "vendor_named": true,
  "deployments_detail": [
   {
    "company": "James Hardie",
@@ -48,6 +59,83 @@
    "url": "https://www.jameshardie.com/all-about-james-hardie/press-releases/products/james-hardie-debuts-hardiedesigner-powered-by-hover-ai-technology/",
    "raw_sector": "Building Materials",
    "date": "2025-04",
+   "fresh": "fresh"
+  },
+  {
+   "company": "James Hardie",
+   "use": "Hardie Designer — consumer-facing AI tool on jameshardie.com that lets a homeowner upload a single photo of their home and see photorealistic, real-time renderings of Hardie siding products (profiles, colors, textures) in seconds; shareable with contractors. James Hardie is the first siding manufacturer to adopt Hover's flagship design product. [Hover (AI/3D property technology)]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.prnewswire.com/news-releases/james-hardie-debuts-hardie-designer-powered-by-hovers-ai-technology-302435260.html",
+   "raw_sector": "",
+   "date": "2025-04-23",
+   "fresh": "fresh"
+  },
+  {
+   "company": "James Hardie",
+   "use": "AI Takeoff Estimator — automates the construction blueprint takeoff process to generate material estimates, replacing a manual 2-3 day process. [James Hardie (internally developed)]",
+   "existence": "claimed",
+   "value": "reduces a 2-3 day manual process to minutes; ~$500,000 in annual external cost avoidance",
+   "tier": "",
+   "url": "https://www.hypeinnovation.com/james-hardie-employee-driven-ai-innovation-case-study",
+   "raw_sector": "",
+   "date": "2026-01-01",
+   "fresh": "fresh"
+  },
+  {
+   "company": "James Hardie",
+   "use": "AI-powered innovation/idea management — James Hardie runs its Innovation Forum Committee and T.H.I.N.K. program on HYPE Innovation's AI-powered idea management platform to crowdsource, prioritize and advance employee ideas (including the GenAI tools above). [HYPE Innovation]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.hypeinnovation.com/james-hardie-employee-driven-ai-innovation-case-study",
+   "raw_sector": "",
+   "date": "2026-01-01",
+   "fresh": "fresh"
+  },
+  {
+   "company": "James Hardie",
+   "use": "Hardie Hotline — internally developed AI installation assistant giving field installers real-time, product-specific guidance to reduce installation errors and callbacks. [James Hardie (internally developed)]",
+   "existence": "confirmed",
+   "value": "87.7% success rate with ~14-second response time across 5,500+ production tests; ~76% reduction in installation callbacks; ~75% reduction in job-site downtime; $5.1M-$7.3M annual cost avoidance through reduced rework",
+   "tier": "",
+   "url": "https://www.hypeinnovation.com/james-hardie-employee-driven-ai-innovation-case-study",
+   "raw_sector": "",
+   "date": "2026-05-18",
+   "fresh": "fresh"
+  },
+  {
+   "company": "James Hardie",
+   "use": "JH Lab Assistant — AI tool that guides R&D lab workflows and standard operating procedures for research operations, speeding execution and onboarding. [James Hardie (internally developed)]",
+   "existence": "confirmed",
+   "value": "up to 50% faster execution; 30% faster onboarding; ~$4,000 annual productivity gain per user",
+   "tier": "",
+   "url": "https://www.innovationleader.com/topics/articles-and-content-by-topic/innovation-methodologies/finalists-for-best-innovations-of-2026/",
+   "raw_sector": "",
+   "date": "2026-05-18",
+   "fresh": "fresh"
+  },
+  {
+   "company": "James Hardie",
+   "use": "AI Cutting Planner — optimizes on-site installation efficiency and cutting layout to reduce measurement time and minimize material waste. [James Hardie (internally developed)]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.hypeinnovation.com/james-hardie-employee-driven-ai-innovation-case-study",
+   "raw_sector": "",
+   "date": "2026-01-01",
+   "fresh": "fresh"
+  },
+  {
+   "company": "James Hardie",
+   "use": "Enterprise AI/ML program — James Hardie is building and operating a dedicated AI/ML engineering function to embed Generative AI (LLMs, RAG pipelines) and Predictive AI (forecasting, anomaly detection, classification, computer vision) into enterprise production systems via APIs/microservices on cloud (Azure/AWS/GCP), per its Senior AI/ML Solutions Engineer roles. [James Hardie (cloud-agnostic: Azure/AWS/GCP; TensorFlow/PyTorch)]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.indeed.com/viewjob?jk=647b9d5190cf3941",
+   "raw_sector": "",
+   "date": "2026-07-04",
    "fresh": "fresh"
   }
  ]

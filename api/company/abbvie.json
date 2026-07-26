@@ -3,48 +3,139 @@
  "name": "AbbVie",
  "cc": "US",
  "vertical": "Healthcare & Life Sciences",
- "deployments": 1,
- "confirmed": 1,
- "with_value_number": 0,
- "proof_rate": 0.0,
+ "deployments": 11,
+ "confirmed": 8,
+ "with_value_number": 4,
+ "proof_rate": 0.364,
  "mktcap": 452740000000.0,
  "revenue": 62820000000.0,
  "employees": 57000.0,
  "silent": false,
- "per_bn_revenue": 0.02,
- "per_10k_emp": 0.18,
+ "per_bn_revenue": 0.18,
+ "per_10k_emp": 1.93,
  "benchmarks": {
   "global_vertical": {
-   "deployments": 0,
-   "confirmed": 13,
-   "proof_rate": 0,
-   "n": 165
+   "deployments": 76,
+   "confirmed": 73,
+   "proof_rate": 72,
+   "n": 168
   },
   "country_vertical": {
-   "deployments": 0,
-   "confirmed": 7,
-   "proof_rate": 0,
+   "deployments": 69,
+   "confirmed": 62,
+   "proof_rate": 72,
    "n": 59
   }
  },
- "first_seen": 2023,
+ "first_seen": 2022,
  "by_year": [
   {
+   "year": 2022,
+   "n": 1
+  },
+  {
    "year": 2023,
+   "n": 3
+  },
+  {
+   "year": 2024,
+   "n": 2
+  },
+  {
+   "year": 2025,
+   "n": 4
+  },
+  {
+   "year": 2026,
    "n": 1
   }
  ],
  "undated_pct": 0,
- "momentum": "early_mover,gone_quiet",
- "maturity": "L3",
+ "momentum": "early_mover,flat",
+ "maturity": "L4",
  "maturity_evidence": [
+  "multi_horizontal",
   "named_product:BigHat",
+  "value_number",
+  "multi_year",
   "tier_p"
  ],
- "prospect_score": 54,
- "stack": [],
- "vendor_named": false,
+ "prospect_score": 73,
+ "stack": [
+  "Accenture",
+  "Amazon AWS",
+  "Anthropic",
+  "Salesforce",
+  "Snowflake"
+ ],
+ "vendor_named": true,
  "deployments_detail": [
+  {
+   "company": "AbbVie",
+   "use": "Gaia: enterprise generative-AI platform that auto-drafts clinical and regulatory documents across R&D; connects to 90+ data sources via an internal LLM router/garden, uses multi-agent systems and RAG (vectors + graphs). By end of 2024 it automated 26 document types. [AWS Bedrock (LLM access); AbbVie enterprise LLM router/garden; Accenture (implementation)]",
+   "existence": "confirmed",
+   "value": "20,000 hours saved annually (2024); up to 80-90% reduction in manual writing effort; target 350+ doc types / 115,000+ hours by 2030",
+   "tier": "",
+   "url": "https://www.zenml.io/llmops-database/automated-clinical-document-generation-platform-for-pharmaceutical-r-d",
+   "raw_sector": "",
+   "date": "2025-12",
+   "fresh": "fresh"
+  },
+  {
+   "company": "AbbVie",
+   "use": "AbbVie R&D Convergence Hub (ARCH): ML-driven knowledge-graph analytics platform that harmonizes 200+ internal/external data sources and 2B+ scientific knowledge points to accelerate early-stage drug discovery and target identification. [Internally developed]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://emerj.com/artificial-intelligence-at-abbvie-two-use-cases/",
+   "raw_sector": "",
+   "date": "2024-09",
+   "fresh": "aging"
+  },
+  {
+   "company": "AbbVie",
+   "use": "Machine-learning algorithm for clinical trial site selection: ranks candidate investigator sites by quantitative performance in analogous prior studies; systematized part of the site-selection process in oncology development operations for over a year. [Internally developed]",
+   "existence": "confirmed",
+   "value": "Increased number of sites meeting enrollment and startup-time goals by more than 50%",
+   "tier": "",
+   "url": "https://www.clinicalresearchnewsonline.com/news/2023/02/01/at-abbvie-machine-learning-aids-selection-of-clinical-trial-sites",
+   "raw_sector": "",
+   "date": "2023-02",
+   "fresh": "stale"
+  },
+  {
+   "company": "AbbVie",
+   "use": "Generative AI and protein/chemical language models used to design novel molecules and engineer antibodies (predicting protein structures and assessing compound viability before synthesis) in drug discovery. [Internally developed]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://emerj.com/artificial-intelligence-at-abbvie-two-use-cases/",
+   "raw_sector": "",
+   "date": "2025-05",
+   "fresh": "fresh"
+  },
+  {
+   "company": "AbbVie",
+   "use": "Research collaboration with BigHat Biosciences using its AI/ML-guided Milliner platform (ML integrated with a high-speed wet lab) to discover next-generation therapeutic antibodies in oncology and neuroscience. [BigHat Biosciences (Milliner platform)]",
+   "existence": "confirmed",
+   "value": "$30M upfront to BigHat; ~$325M potential research milestones plus commercial milestones and tiered royalties",
+   "tier": "",
+   "url": "https://news.abbvie.com/2023-12-05-AbbVie-and-BigHat-Biosciences-Announce-Research-Collaboration-to-Leverage-Artificial-Intelligence-and-Machine-Learning-to-Discover-Next-Generation-Therapeutic-Antibodies",
+   "raw_sector": "",
+   "date": "2023-12",
+   "fresh": "stale"
+  },
+  {
+   "company": "AbbVie",
+   "use": "Deploying Claude for Life Sciences (Anthropic) across regulatory compliance, drug discovery and cancer therapy development; used to analyze multimodal biological data and optimize clinical trial design. [Anthropic (Claude for Life Sciences)]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.rdworldonline.com/anthropic-unveils-claude-for-life-sciences-which-reportedly-outperforms-humans-at-lab-protocol-tasks-and-slashes-pharma-documentation-time/",
+   "raw_sector": "",
+   "date": "2025-10",
+   "fresh": "fresh"
+  },
   {
    "company": "AbbVie",
    "use": "AI/ML across R&D for drug discovery; named collaboration w/ BigHat Biosciences (Milliner AI platform for antibodies, $30M upfront)",
@@ -55,6 +146,50 @@
    "raw_sector": "Health Care",
    "date": "2023",
    "fresh": "stale"
+  },
+  {
+   "company": "AbbVie",
+   "use": "WRAP (Whole Room AI Platform): an AI-powered 'digital twin' of a manufacturing space that lets factory staff query and simulate the production environment; described as a pilot. [none]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.abbvie.com/who-we-are/our-stories/five-technologies-transforming-how-we-make-medicines.html",
+   "raw_sector": "",
+   "date": "2026-06",
+   "fresh": "fresh"
+  },
+  {
+   "company": "AbbVie",
+   "use": "Allergan Aesthetics (an AbbVie company) uses data science and machine learning on Snowflake with Twilio Segment to generate personalized customer offers and reduce customer acquisition cost. [Snowflake; Twilio Segment]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.snowflake.com/en/blog/how-allergan-aesthetics-uses-snowflake-and-segment-to-generate-personalized-offers-and-reduce-customer-acquisition-cost/",
+   "raw_sector": "",
+   "date": "2022-01",
+   "fresh": "stale"
+  },
+  {
+   "company": "AbbVie",
+   "use": "Adopting Salesforce Life Sciences Cloud for customer engagement across sales, medical affairs and market access in 70+ countries, with plans to enhance the field workforce with AI to give providers information to support patients. [Salesforce (Life Sciences Cloud / Agentforce)]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.linkedin.com/posts/chadlacrosse_at-abbvie-were-always-looking-for-ways-activity-7374532672775364608-w3hL",
+   "raw_sector": "",
+   "date": "2025-09",
+   "fresh": "fresh"
+  },
+  {
+   "company": "AbbVie",
+   "use": "Predictive pharmacovigilance/safety-signal surveillance model that detects potential new adverse-event signals from post-marketing data using gradient boosting (XGBoost); a proof-of-concept pilot tested on two AbbVie products. [Internally developed (XGBoost)]",
+   "existence": "claimed",
+   "value": "Detected one confirmed safety signal 6 months earlier than standard surveillance; sensitivity 50-56%, accuracy 96-98% in pilot",
+   "tier": "",
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11133112/",
+   "raw_sector": "",
+   "date": "2024-05",
+   "fresh": "aging"
   }
  ]
 }

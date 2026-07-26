@@ -3,27 +3,27 @@
  "name": "SBA Communications",
  "cc": "US",
  "vertical": "Real Estate & Construction",
- "deployments": 1,
- "confirmed": 0,
- "with_value_number": 0,
- "proof_rate": 0.0,
+ "deployments": 10,
+ "confirmed": 1,
+ "with_value_number": 1,
+ "proof_rate": 0.1,
  "mktcap": 18880000000.0,
  "revenue": 2850000000.0,
  "employees": 1844.0,
  "silent": false,
- "per_bn_revenue": 0.35,
- "per_10k_emp": 5.42,
+ "per_bn_revenue": 3.51,
+ "per_10k_emp": 54.23,
  "benchmarks": {
   "global_vertical": {
-   "deployments": 0,
-   "confirmed": 0,
-   "proof_rate": 0,
+   "deployments": 86,
+   "confirmed": 14,
+   "proof_rate": 42,
    "n": 154
   },
   "country_vertical": {
-   "deployments": 0,
-   "confirmed": 0,
-   "proof_rate": 0,
+   "deployments": 80,
+   "confirmed": 20,
+   "proof_rate": 63,
    "n": 31
   }
  },
@@ -31,18 +31,27 @@
  "by_year": [
   {
    "year": 2025,
-   "n": 1
+   "n": 6
+  },
+  {
+   "year": 2026,
+   "n": 4
   }
  ],
  "undated_pct": 0,
  "momentum": "rising",
- "maturity": "L1",
+ "maturity": "L3",
  "maturity_evidence": [
-  "rows_no_confirmed"
+  "named_product:Deployed",
+  "value_number"
  ],
- "prospect_score": 40,
- "stack": [],
- "vendor_named": false,
+ "prospect_score": 42,
+ "stack": [
+  "Microsoft",
+  "OpenAI",
+  "ServiceNow"
+ ],
+ "vendor_named": true,
  "deployments_detail": [
   {
    "company": "SBA Communications",
@@ -53,6 +62,105 @@
    "url": "https://www.ainvest.com/news/sba-communications-strategic-position-2025-media-5g-infrastructure-landscape-2509-57/",
    "raw_sector": "Real Estate",
    "date": "2025",
+   "fresh": "fresh"
+  },
+  {
+   "company": "SBA Communications",
+   "use": "Robotic Process Automation (RPA) program automating high-effort, low-value workflows across Tower Operations, Field Services, New Asset Development, and Strategic Sales, using UiPath and Microsoft Power Automate. Includes AI agents to automate complex workflows and decision-making, plus self-service tools and ticket classifiers. [UiPath; Microsoft Power Automate; Automation Anywhere]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://builtin.com/job/generative-ai-workflow-automation-developer/6246015",
+   "raw_sector": "",
+   "date": "2026-06",
+   "fresh": "fresh"
+  },
+  {
+   "company": "SBA Communications",
+   "use": "Embedded AI data scientists working side by side with business teams to deliver early operational benefits across tower operations, described as producing early wins in the wireless infrastructure AI program. [none]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://wia.org/artificial-intelligence-enabling-new-capabilities-at-wireless-infrastructure-companies/",
+   "raw_sector": "",
+   "date": "2025-04",
+   "fresh": "fresh"
+  },
+  {
+   "company": "SBA Communications",
+   "use": "Digital twin development for physical towers and compounds using 3D modeling that integrates sensor data, historical maintenance logs, and image processing to create tower replicas and reduce the need for constant drone flights, supporting structural analysis, site monitoring, and remote management. [none]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://wia.org/artificial-intelligence-enabling-new-capabilities-at-wireless-infrastructure-companies/",
+   "raw_sector": "",
+   "date": "2025-04",
+   "fresh": "fresh"
+  },
+  {
+   "company": "SBA Communications",
+   "use": "AI/automation integration with ITSM platforms (ServiceNow) and Power BI dashboards to improve ticketing, service delivery, ticket classification, and visibility across domestic tower operations. [ServiceNow; Microsoft Power BI; Ivanti]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://builtin.com/job/generative-ai-workflow-automation-developer/6246015",
+   "raw_sector": "",
+   "date": "2026-06",
+   "fresh": "fresh"
+  },
+  {
+   "company": "SBA Communications",
+   "use": "Adoption of Microsoft Copilot and other Microsoft 365 AI tools to create repeatable workflows that increase efficiency in reporting, ticketing, and communication, supported through guided use cases and lightweight prototypes. [Microsoft (Copilot, Microsoft 365)]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.linkedin.com/jobs/view/rpa-ai-enablement-developer-at-sba-communications-4423934354",
+   "raw_sector": "",
+   "date": "2026-06",
+   "fresh": "fresh"
+  },
+  {
+   "company": "SBA Communications",
+   "use": "Optical character recognition (OCR) and AI to digitize legal documents such as leases, including those with handwritten notes, watermarks, and stamps with physical signatures, enabling automated contract/document management and lease-expiry identification. [none]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://wia.org/artificial-intelligence-enabling-new-capabilities-at-wireless-infrastructure-companies/",
+   "raw_sector": "",
+   "date": "2025-04",
+   "fresh": "fresh"
+  },
+  {
+   "company": "SBA Communications",
+   "use": "Generative AI multilanguage translation services enabling common meetings and webcasts among global teams across SBA's international operations. [none]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://wia.org/artificial-intelligence-enabling-new-capabilities-at-wireless-infrastructure-companies/",
+   "raw_sector": "",
+   "date": "2025-04",
+   "fresh": "fresh"
+  },
+  {
+   "company": "SBA Communications",
+   "use": "Generative AI development using ChatGPT and custom GPTs to build AI-enabled solutions and AI agents that automate complex workflows and decision-making processes for tower operations and field services. [OpenAI (ChatGPT, custom GPTs)]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://builtin.com/job/generative-ai-workflow-automation-developer/6246015",
+   "raw_sector": "",
+   "date": "2026-06",
+   "fresh": "fresh"
+  },
+  {
+   "company": "SBA Communications",
+   "use": "Deployed Deepwatch Guardian MDR Platform for AI-driven managed threat detection and response across its SOC, with full MITRE ATT&CK alignment, dynamic risk scoring, proactive detection tuning, and automated bidirectional ticketing. Achieved a 9.64 Security Index (vs 7.96 industry / 8.99 Deepwatch customer average) and zero incidents requiring declaration over two years; a related LinkedIn post cites a 98% reduction in low/medium severity alerts. [Deepwatch (Guardian MDR Platform); Splunk]",
+   "existence": "confirmed",
+   "value": "9.64 Security Index score; ~98% reduction in low/medium severity alerts; zero incidents requiring declaration over two years",
+   "tier": "",
+   "url": "https://www.deepwatch.com/resource/how-sba-communications-strengthened-cyber-resilience-and-efficiency-with-the-deepwatch-guardian-mdr-platform/",
+   "raw_sector": "",
+   "date": "2025-01",
    "fresh": "fresh"
   }
  ]

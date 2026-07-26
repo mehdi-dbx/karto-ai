@@ -3,42 +3,79 @@
  "name": "ICICI Bank",
  "cc": "IN",
  "vertical": "Financial Services",
- "deployments": 2,
- "confirmed": 2,
- "with_value_number": 1,
- "proof_rate": 0.5,
+ "deployments": 12,
+ "confirmed": 12,
+ "with_value_number": 4,
+ "proof_rate": 0.333,
  "mktcap": 123975903614.0,
  "revenue": 23855421687.0,
  "employees": 182665.0,
  "silent": false,
- "per_bn_revenue": 0.08,
- "per_10k_emp": 0.11,
+ "per_bn_revenue": 0.5,
+ "per_10k_emp": 0.66,
  "benchmarks": {
   "global_vertical": {
-   "deployments": 62,
-   "confirmed": 73,
-   "proof_rate": 61,
-   "n": 377
+   "deployments": 81,
+   "confirmed": 90,
+   "proof_rate": 58,
+   "n": 388
   },
   "country_vertical": {
-   "deployments": 82,
-   "confirmed": 86,
-   "proof_rate": 55,
-   "n": 23
+   "deployments": 83,
+   "confirmed": 96,
+   "proof_rate": 50,
+   "n": 25
   }
  },
- "first_seen": null,
- "by_year": [],
- "undated_pct": 100,
- "momentum": "none",
- "maturity": "L3",
- "maturity_evidence": [
-  "named_product:GST",
-  "value_number"
+ "first_seen": 2016,
+ "by_year": [
+  {
+   "year": 2016,
+   "n": 1
+  },
+  {
+   "year": 2017,
+   "n": 1
+  },
+  {
+   "year": 2018,
+   "n": 1
+  },
+  {
+   "year": 2019,
+   "n": 1
+  },
+  {
+   "year": 2020,
+   "n": 1
+  },
+  {
+   "year": 2022,
+   "n": 1
+  },
+  {
+   "year": 2024,
+   "n": 1
+  },
+  {
+   "year": 2025,
+   "n": 3
+  }
  ],
- "prospect_score": 40,
- "stack": [],
- "vendor_named": false,
+ "undated_pct": 17,
+ "momentum": "early_mover,rising",
+ "maturity": "L4",
+ "maturity_evidence": [
+  "multi_horizontal",
+  "named_product:GST",
+  "value_number",
+  "multi_year"
+ ],
+ "prospect_score": 87,
+ "stack": [
+  "TCS"
+ ],
+ "vendor_named": true,
  "deployments_detail": [
   {
    "company": "ICICI Bank",
@@ -61,6 +98,116 @@
    "raw_sector": "Financial Services",
    "date": "missing",
    "fresh": "undated"
+  },
+  {
+   "company": "ICICI Bank",
+   "use": "iPal AI virtual assistant / chatbot handling customer banking queries across website, iMobile Pay, WhatsApp and other channels using NLP and semantic analysis [In-house (NLP/ML engine)]",
+   "existence": "confirmed",
+   "value": "Handled ~6 million queries from 3.1 million customers within first eight months; ~90% accuracy in resolving queries (per analysis); ~1.4 million queries/month",
+   "tier": "",
+   "url": "https://indiaai.gov.in/case-study/icici-bank-leveraging-ai-to-augment-customer-service-and-support",
+   "raw_sector": "",
+   "date": "2017",
+   "fresh": "stale"
+  },
+  {
+   "company": "ICICI Bank",
+   "use": "Voice banking: iPal AI chatbot integrated with Amazon Alexa and Google Assistant for balance, credit card and product queries by voice (discontinued Aug 2021) [Amazon Alexa, Google Assistant (iPal AI)]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.icici.bank.in/about-us/news-room/2020/news-icici-bank-launches-voice-banking-services-on-amazon-alexa-and-google-assistant",
+   "raw_sector": "",
+   "date": "2020-04-20",
+   "fresh": "stale"
+  },
+  {
+   "company": "ICICI Bank",
+   "use": "AI/ML credit-risk and decisioning models used across the SME lending lifecycle (acquisition, credit underwriting, cross-sell, portfolio risk) leveraging digital public infrastructure data [none named]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.celent.com/en/insights/icici-bank-analytics-led-decision-making-for-sme-lending-1",
+   "raw_sector": "",
+   "date": "2024",
+   "fresh": "aging"
+  },
+  {
+   "company": "ICICI Bank",
+   "use": "iLens digital lending platform automating the end-to-end lending process including digital credit evaluation and paperless onboarding for new-to-bank customers [Tata Consultancy Services (TCS Lending Platform)]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.tcs.com/who-we-are/newsroom/press-release/icici-bank-launches-ilens-powered-by-tcs-lending-platform",
+   "raw_sector": "",
+   "date": "2022-11-29",
+   "fresh": "stale"
+  },
+  {
+   "company": "ICICI Bank",
+   "use": "Software robotics (RPA, later combined with OCR + AI/ML) automating retail banking, trade & forex, treasury, agri-business and HR processes [In-house + OpenSpan automation platform (early)]",
+   "existence": "confirmed",
+   "value": "200+ software robots across 200+ business processes performing over 10 lakh (~1M) transactions/day; response time cut up to 60%, accuracy raised to 100%; scaled to 750+ bots (~2M transactions/day) per later analysis",
+   "tier": "",
+   "url": "https://www.icici.bank.in/about-us/news-room/2016/news-icici-bank-introduces-software-robotics-to-power-banking",
+   "raw_sector": "",
+   "date": "2016-09-08",
+   "fresh": "stale"
+  },
+  {
+   "company": "ICICI Bank",
+   "use": "Generative AI framework for employees: drafting and summarizing customer communication, document/code comparison for version control, and internal document summarization with AI-powered search [none named]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://rdxuat.com/icici-bank2025/our-business-strategy.php",
+   "raw_sector": "",
+   "date": "2025",
+   "fresh": "fresh"
+  },
+  {
+   "company": "ICICI Bank",
+   "use": "Document extraction & classification and image recognition using traditional AI to increase scale and accuracy of processing and onboarding [none named]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://rdxuat.com/icici-bank2025/our-business-strategy.php",
+   "raw_sector": "",
+   "date": "2025",
+   "fresh": "fresh"
+  },
+  {
+   "company": "ICICI Bank",
+   "use": "Industrial robotic arms automating currency-note sorting at currency chests (physical process automation) [none named]",
+   "existence": "confirmed",
+   "value": "14 robotic arms across 12 cities sorting over 6 million notes/day (~1.8 billion annually)",
+   "tier": "",
+   "url": "https://www.retailbankerinternational.com/news/icici-robotic-arms-sort-notes/",
+   "raw_sector": "",
+   "date": "2019-08-28",
+   "fresh": "stale"
+  },
+  {
+   "company": "ICICI Bank",
+   "use": "Fraud detection using machine learning to flag suspicious transactions and customer behaviour in real time (Enterprise Fraud Risk Management) [none named]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://rdxuat.com/icici-bank2025/our-business-strategy.php",
+   "raw_sector": "",
+   "date": "2025",
+   "fresh": "fresh"
+  },
+  {
+   "company": "ICICI Bank",
+   "use": "Money Coach: software-robotics/AI-based automated personal finance and investment advisory (robo-advisory) with AI-led personalised suggestions in the iMobile app [In-house (software robotics)]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.icici.bank.in/about-us/news-room/2018/news-icici-bank-completes-20-years-of-digital-banking-journey-the-bank-launches-revamped-imobile-with-many-industryfirst-features",
+   "raw_sector": "",
+   "date": "2018-12",
+   "fresh": "stale"
   }
  ]
 }

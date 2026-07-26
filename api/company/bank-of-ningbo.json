@@ -3,47 +3,63 @@
  "name": "Bank of Ningbo",
  "cc": "CN",
  "vertical": "Financial Services",
- "deployments": 1,
- "confirmed": 1,
+ "deployments": 2,
+ "confirmed": 2,
  "with_value_number": 0,
  "proof_rate": 0.0,
  "mktcap": 28936111111.0,
  "revenue": 7987500000.0,
  "employees": 24857.0,
  "silent": false,
- "per_bn_revenue": 0.13,
- "per_10k_emp": 0.4,
+ "per_bn_revenue": 0.25,
+ "per_10k_emp": 0.8,
  "benchmarks": {
   "global_vertical": {
-   "deployments": 0,
+   "deployments": 5,
    "confirmed": 17,
    "proof_rate": 0,
-   "n": 377
+   "n": 388
   },
   "country_vertical": {
-   "deployments": 0,
-   "confirmed": 0,
+   "deployments": 15,
+   "confirmed": 22,
    "proof_rate": 0,
-   "n": 26
+   "n": 28
   }
  },
- "first_seen": 2025,
+ "first_seen": 2022,
  "by_year": [
+  {
+   "year": 2022,
+   "n": 1
+  },
   {
    "year": 2025,
    "n": 1
   }
  ],
  "undated_pct": 0,
- "momentum": "rising",
- "maturity": "L2",
+ "momentum": "early_mover,rising",
+ "maturity": "L3",
  "maturity_evidence": [
-  "single_confirmed"
+  "multi_horizontal",
+  "multi_year"
  ],
- "prospect_score": 54,
+ "prospect_score": 60,
  "stack": [],
  "vendor_named": false,
  "deployments_detail": [
+  {
+   "company": "Bank of Ningbo",
+   "use": "AI digital employee for frontend business and customer engagement",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://futurecio.tech/bank-of-ningbo-unveils-first-ai-digital-employee/",
+   "raw_sector": "",
+   "date": "2022-12-20",
+   "fresh": "stale"
+  },
   {
    "company": "Bank of Ningbo",
    "use": "LLM project department for Q&A search text analysis content generation and intelligent scheduling",

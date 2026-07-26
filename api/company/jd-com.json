@@ -3,48 +3,67 @@
  "name": "JD.com",
  "cc": "HK",
  "vertical": "Retail & E-commerce",
- "deployments": 2,
- "confirmed": 2,
- "with_value_number": 1,
- "proof_rate": 0.5,
+ "deployments": 13,
+ "confirmed": 13,
+ "with_value_number": 11,
+ "proof_rate": 0.846,
  "mktcap": 40928205128.0,
  "revenue": 192307692308.0,
  "employees": 900000.0,
  "silent": false,
- "per_bn_revenue": 0.01,
- "per_10k_emp": 0.02,
+ "per_bn_revenue": 0.07,
+ "per_10k_emp": 0.14,
  "benchmarks": {
   "global_vertical": {
-   "deployments": 71,
-   "confirmed": 80,
-   "proof_rate": 70,
-   "n": 295
+   "deployments": 89,
+   "confirmed": 94,
+   "proof_rate": 97,
+   "n": 301
   },
   "country_vertical": {
-   "deployments": 60,
-   "confirmed": 60,
-   "proof_rate": 50,
+   "deployments": 100,
+   "confirmed": 100,
+   "proof_rate": 100,
    "n": 11
   }
  },
- "first_seen": 2025,
+ "first_seen": 2021,
  "by_year": [
   {
+   "year": 2021,
+   "n": 1
+  },
+  {
+   "year": 2022,
+   "n": 1
+  },
+  {
+   "year": 2023,
+   "n": 1
+  },
+  {
+   "year": 2024,
+   "n": 4
+  },
+  {
    "year": 2025,
-   "n": 2
+   "n": 6
   }
  ],
  "undated_pct": 0,
- "momentum": "rising",
- "maturity": "L3",
+ "momentum": "early_mover,rising",
+ "maturity": "L4",
  "maturity_evidence": [
   "multi_horizontal",
   "named_product:JoyAI",
   "value_number",
+  "multi_year",
   "tier_p"
  ],
- "prospect_score": 32,
- "stack": [],
+ "prospect_score": 66,
+ "stack": [
+  "NVIDIA"
+ ],
  "vendor_named": true,
  "deployments_detail": [
   {
@@ -60,6 +79,61 @@
   },
   {
    "company": "JD.com",
+   "use": "ChatRhino (Yanxi) large language model — JD's in-house 100-billion-parameter foundation LLM (70% general + 30% supply-chain data), first rolled out for its own use across retail, logistics, finance and healthcare, and offered to enterprise clients via JD Cloud. [JD Cloud (in-house)]",
+   "existence": "confirmed",
+   "value": "100 billion parameters",
+   "tier": "",
+   "url": "https://jdcorporateblog.com/jd-com-introduces-chatrhino-empowering-industry-innovations-with-an-advanced-large-language-model/",
+   "raw_sector": "",
+   "date": "2023-07-13",
+   "fresh": "stale"
+  },
+  {
+   "company": "JD.com",
+   "use": "JoyAI — rebranded/upgraded large-model system (3B to 750B parameters) with multi-modal language, speech, image, video and digital-human capabilities, powering retail content generation, logistics Super Brain, industry inspection and JD Health services. [JD Cloud (in-house)]",
+   "existence": "confirmed",
+   "value": "3B–750B parameters",
+   "tier": "",
+   "url": "https://news.aibase.com/news/19987",
+   "raw_sector": "",
+   "date": "2025-07-27",
+   "fresh": "fresh"
+  },
+  {
+   "company": "JD.com",
+   "use": "JD Health 'AI Jingyi' suite and 'JOY DOC' hospital assistant built on the medical LLM 'Jingyi Qianxun' — AI diagnosis assistant, triage, medical-record generation and AI doctor digital twin for online and in-hospital care. [JD Health (Jingyi Qianxun LLM)]",
+   "existence": "confirmed",
+   "value": "99.5% triage accuracy; 120% faster medical-record writing; 90%+ first-attempt resolution",
+   "tier": "",
+   "url": "https://jdcorporateblog.com/jd-health-introduces-groundbreaking-llm-powered-suite-for-comprehensive-online-and-in-hospital-healthcare-scenarios/",
+   "raw_sector": "",
+   "date": "2025-01-12",
+   "fresh": "fresh"
+  },
+  {
+   "company": "JD.com",
+   "use": "Logistics 'Super Brain' LLM (with digital-twin tech) dynamically optimizing transportation routes and fulfillment across 1,000+ core logistics/supply-chain scenarios, handling tens of millions of parcels; deployed at scale during 618/Singles Day. [JINGDONG Logistics / JD Cloud]",
+   "existence": "confirmed",
+   "value": "1,000+ scenarios; fulfillment 12%+ faster during 2024 Singles Day",
+   "tier": "",
+   "url": "https://jdcorporateblog.com/the-future-of-industry-marketing-with-jd-coms-ai-powered-solutions/",
+   "raw_sector": "",
+   "date": "2024-06-01",
+   "fresh": "aging"
+  },
+  {
+   "company": "JD.com",
+   "use": "Level-4 autonomous last-mile delivery vehicles and delivery drones operating in daily commercial service across Chinese cities for e-commerce parcel delivery. [JD Logistics (with Nvidia for drone/robotics platform)]",
+   "existence": "confirmed",
+   "value": "~400 intelligent delivery vehicles across 25+ cities (as of May 2022)",
+   "tier": "",
+   "url": "https://www.traffictechnologytoday.com/news/autonomous-vehicles/case-study-chinas-jd-com-launches-fleet-of-30-new-autonomous-delivery-bots.html",
+   "raw_sector": "",
+   "date": "2021-06-15",
+   "fresh": "stale"
+  },
+  {
+   "company": "JD.com",
    "use": "JoyAI generating \"618\" e-commerce marketing plans in minutes for merchants",
    "existence": "confirmed",
    "value": "618 marketing plans generated in minutes",
@@ -67,6 +141,72 @@
    "url": "https://zhuanlan.zhihu.com/p/1932825380819042312",
    "raw_sector": "E-commerce",
    "date": "2025",
+   "fresh": "fresh"
+  },
+  {
+   "company": "JD.com",
+   "use": "AI digital-human avatar of founder Richard Liu ('Procurement and Sales Dong') hosting livestream commerce simultaneously in JD Home Appliances and JD Supermarket rooms, replicating his expressions, gestures and voice. [JD Cloud ChatRhino]",
+   "existence": "confirmed",
+   "value": "20M+ views in first hour; RMB 50 million in sales",
+   "tier": "",
+   "url": "https://jdcorporateblog.com/jd-com-debuts-ai-digital-representative-of-founder-richard-liu-during-livestream-drawing-20-million-views-in-under-one-hour/",
+   "raw_sector": "",
+   "date": "2024-04-16",
+   "fresh": "aging"
+  },
+  {
+   "company": "JD.com",
+   "use": "AIGC content-marketing platform and AI growth-marketing platform generating e-commerce visuals, posters and copy from a single product image for merchants. [JD Cloud (in-house)]",
+   "existence": "confirmed",
+   "value": "90% cost reduction; production time cut from 7 days to half a day; ~100x marketing efficiency",
+   "tier": "",
+   "url": "https://jdcorporateblog.com/the-future-of-industry-marketing-with-jd-coms-ai-powered-solutions/",
+   "raw_sector": "",
+   "date": "2024-06-01",
+   "fresh": "aging"
+  },
+  {
+   "company": "JD.com",
+   "use": "Multimodal AI digital presenters (virtual hosts) for 24/7 live-stream commerce, integrated into thousands of brand/merchant livestreaming rooms. [JD Cloud (in-house)]",
+   "existence": "confirmed",
+   "value": "4,000+ brand/merchant rooms; RMB 800 million+ GMV generated",
+   "tier": "",
+   "url": "https://jdcorporateblog.com/the-future-of-industry-marketing-with-jd-coms-ai-powered-solutions/",
+   "raw_sector": "",
+   "date": "2024-06-01",
+   "fresh": "aging"
+  },
+  {
+   "company": "JD.com",
+   "use": "AI-powered warehouse automation robots ('Wolf Pack' series and rack-moving/ACR robots) with dispatching algorithms for storage, picking, sorting and transport in JD's highly-automated ('Asia No.1') fulfillment centers. [JD Logistics (Wolf Pack); Hai Robotics (ASRS)]",
+   "existence": "confirmed",
+   "value": "Deployed across 20+ Chinese provinces and 10+ countries",
+   "tier": "",
+   "url": "https://technode.com/2025/10/27/jd-logistics-unveils-five-year-plan-to-deploy-millions-of-robots-autonomous-vehicles-and-drones/",
+   "raw_sector": "",
+   "date": "2025-10-27",
+   "fresh": "fresh"
+  },
+  {
+   "company": "JD.com",
+   "use": "Intelligent customer-service system (Yanxi) — commercial-scale AI serving JD users with product consultation, order/price/after-sales handling, emotion detection, and AI voice outbound-call capability. [JD Cloud (Yanxi)]",
+   "existence": "confirmed",
+   "value": "Serves 500M+ JD users",
+   "tier": "",
+   "url": "https://pandaily.com/jd-com-upgrades-smart-customer-services-product-yanxi",
+   "raw_sector": "",
+   "date": "2022-05-12",
+   "fresh": "stale"
+  },
+  {
+   "company": "JD.com",
+   "use": "JoyCode / JoyCoder — enterprise AI coding assistant (VS Code extension and platform) from JD Cloud that writes code, fixes bugs and analyzes complex codebases for developers. [JD Cloud (JoyCode)]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://marketplace.visualstudio.com/items?itemName=JoyCoder.joycoder-fe",
+   "raw_sector": "",
+   "date": "2025-01-01",
    "fresh": "fresh"
   }
  ]

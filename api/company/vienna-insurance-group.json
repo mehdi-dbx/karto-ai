@@ -3,22 +3,22 @@
  "name": "Vienna Insurance Group",
  "cc": "AT",
  "vertical": "Insurance",
- "deployments": 2,
- "confirmed": 1,
+ "deployments": 5,
+ "confirmed": 2,
  "with_value_number": 1,
- "proof_rate": 0.5,
+ "proof_rate": 0.2,
  "mktcap": 9072000000.0,
  "revenue": 14893200000.0,
  "employees": 32706.0,
  "silent": false,
- "per_bn_revenue": 0.13,
- "per_10k_emp": 0.61,
+ "per_bn_revenue": 0.34,
+ "per_10k_emp": 1.53,
  "benchmarks": {
   "global_vertical": {
-   "deployments": 54,
-   "confirmed": 14,
-   "proof_rate": 54,
-   "n": 60
+   "deployments": 29,
+   "confirmed": 15,
+   "proof_rate": 32,
+   "n": 63
   }
  },
  "first_seen": null,
@@ -27,13 +27,16 @@
  "momentum": "none",
  "maturity": "L3",
  "maturity_evidence": [
+  "multi_horizontal",
   "named_product:Data",
   "value_number",
   "tier_p"
  ],
- "prospect_score": 34,
- "stack": [],
- "vendor_named": false,
+ "prospect_score": 44,
+ "stack": [
+  "Google Cloud"
+ ],
+ "vendor_named": true,
  "deployments_detail": [
   {
    "company": "Vienna Insurance Group",
@@ -48,6 +51,17 @@
   },
   {
    "company": "Vienna Insurance Group",
+   "use": "Strengthening use of data and artificial intelligence across all insurance companies",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://group.vig/en/career/diverse-work/our-departments/data-analytics/",
+   "raw_sector": "",
+   "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "Vienna Insurance Group",
    "use": "Enterprise-wide generative AI transformation at subsidiary Wiener Staedtische Versicherung (with vorderwelle.ai)",
    "existence": "claimed",
    "value": "none",
@@ -55,6 +69,28 @@
    "url": "https://www.vorderwelle.ai/projects",
    "raw_sector": "Insurance",
    "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "Vienna Insurance Group",
+   "use": "GDPR-compliant AI for claims review built on Google Cloud [Google Cloud]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://cloud.google.com/customers/viesure",
+   "raw_sector": "",
+   "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "Vienna Insurance Group",
+   "use": "Specialized GenAI chatbots for better and faster customer service",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://group.vig/media/eg0l4jcj/2025-vig-agm-presentation-english-version.pdf",
+   "raw_sector": "",
+   "date": "May 23, 2025",
    "fresh": "undated"
   }
  ]

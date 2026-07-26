@@ -3,41 +3,49 @@
  "name": "SLC Agrícola",
  "cc": "BR",
  "vertical": "Agriculture",
- "deployments": 1,
- "confirmed": 1,
+ "deployments": 4,
+ "confirmed": 2,
  "with_value_number": 1,
- "proof_rate": 1.0,
+ "proof_rate": 0.25,
  "mktcap": 1285185185.0,
  "revenue": 1572222222.0,
  "employees": 6729.0,
  "silent": false,
- "per_bn_revenue": 0.64,
- "per_10k_emp": 1.49,
+ "per_bn_revenue": 2.54,
+ "per_10k_emp": 5.94,
  "benchmarks": {
   "global_vertical": {
-   "deployments": 0,
-   "confirmed": 20,
-   "proof_rate": 90,
+   "deployments": 40,
+   "confirmed": 10,
+   "proof_rate": 60,
    "n": 11
   }
  },
- "first_seen": 2024,
+ "first_seen": 2019,
  "by_year": [
   {
-   "year": 2024,
+   "year": 2019,
    "n": 1
+  },
+  {
+   "year": 2024,
+   "n": 2
   }
  ],
- "undated_pct": 0,
+ "undated_pct": 25,
  "momentum": "early_mover,gone_quiet",
  "maturity": "L3",
  "maturity_evidence": [
+  "multi_horizontal",
   "named_product:Digital",
   "value_number"
  ],
- "prospect_score": 14,
- "stack": [],
- "vendor_named": false,
+ "prospect_score": 42,
+ "stack": [
+  "Microsoft",
+  "Microsoft Azure"
+ ],
+ "vendor_named": true,
  "deployments_detail": [
   {
    "company": "SLC Agrícola",
@@ -48,6 +56,39 @@
    "url": "https://epocanegocios.globo.com/empresas/inovacao-de-resultado/noticia/2024/10/slc-otimiza-processos-e-economiza-mais-de-r-165-milhoes-com-centro-de-inteligencia-agricola.ghtml",
    "raw_sector": "Consumo não cíclico, alimentos, comércio/distribuição e agropecuária",
    "date": "2024",
+   "fresh": "aging"
+  },
+  {
+   "company": "SLC Agrícola",
+   "use": "AI-enhanced agronomic decision-making with advanced sensors and onboard AI",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.slcagricola.com.br/en/innovation/digital-agriculture",
+   "raw_sector": "",
+   "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "SLC Agrícola",
+   "use": "Connected technology and artificial intelligence for production management",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://revistacultivar.com/index.php/news/SLC-Agricola-invests-in-connected-technology-to-manage-production",
+   "raw_sector": "",
+   "date": "2019-09-26",
+   "fresh": "stale"
+  },
+  {
+   "company": "SLC Agrícola",
+   "use": "Enterprise management system digital transformation [Microsoft Azure]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.microsoft.com/en/customers/story/1784144855580651969-slcagricola-azure-forestry-and-fishing-en-brazil",
+   "raw_sector": "",
+   "date": "2024-06-25",
    "fresh": "aging"
   }
  ]

@@ -3,44 +3,95 @@
  "name": "Nordea Bank",
  "cc": "SE",
  "vertical": "Financial Services",
- "deployments": 1,
- "confirmed": 1,
- "with_value_number": 1,
- "proof_rate": 1.0,
+ "deployments": 11,
+ "confirmed": 9,
+ "with_value_number": 3,
+ "proof_rate": 0.273,
  "mktcap": 39744000000.0,
  "revenue": 12682440000.0,
  "employees": 29153.0,
  "silent": false,
- "per_bn_revenue": 0.08,
- "per_10k_emp": 0.34,
+ "per_bn_revenue": 0.87,
+ "per_10k_emp": 3.77,
  "benchmarks": {
   "global_vertical": {
-   "deployments": 0,
-   "confirmed": 17,
-   "proof_rate": 76,
-   "n": 377
+   "deployments": 72,
+   "confirmed": 73,
+   "proof_rate": 52,
+   "n": 388
   },
   "country_vertical": {
-   "deployments": 0,
-   "confirmed": 25,
-   "proof_rate": 75,
-   "n": 5
+   "deployments": 100,
+   "confirmed": 100,
+   "proof_rate": 40,
+   "n": 6
   }
  },
- "first_seen": null,
- "by_year": [],
- "undated_pct": 100,
- "momentum": "none",
- "maturity": "L3",
+ "first_seen": 2017,
+ "by_year": [
+  {
+   "year": 2017,
+   "n": 1
+  },
+  {
+   "year": 2025,
+   "n": 5
+  },
+  {
+   "year": 2026,
+   "n": 4
+  }
+ ],
+ "undated_pct": 9,
+ "momentum": "early_mover,rising",
+ "maturity": "L4",
  "maturity_evidence": [
+  "multi_horizontal",
   "named_product:Nova",
   "value_number",
+  "multi_year",
   "tier_p"
  ],
- "prospect_score": 14,
- "stack": [],
- "vendor_named": false,
+ "prospect_score": 83,
+ "stack": [
+  "Amazon AWS",
+  "OpenAI"
+ ],
+ "vendor_named": true,
  "deployments_detail": [
+  {
+   "company": "Nordea Bank",
+   "use": "Research Librarian — AI 'deep agent' consolidating equity research reports, earnings-call transcripts and financial estimates, used by Equity Research and client-facing teams to deliver faster company insights to corporate clients. [none (built by Nordea Equity Research & AI teams)]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.nordea.com/en/news/ai-powered-research-transforms-our-service-for-corporate-clients",
+   "raw_sector": "",
+   "date": "2026",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Nordea Bank",
+   "use": "AI News Summary — customer-facing feature in digital banking that analyzes each customer's holdings, account activity, market interests and watchlists to deliver personalized investment news. Nordea's first customer-facing AI solution, live across all four Nordic markets. [none]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.nordea.com/en/news/new-feature-gives-you-tailormade-investment-updates-all-created-by-ai",
+   "raw_sector": "",
+   "date": "2026-01-26",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Nordea Bank",
+   "use": "Agentic commerce payment with Mastercard — completed Finland's first live AI-agent purchase and payment, where an AI agent autonomously bought a product (coffee tasting package on Priceless.com) and settled payment on a Nordea Mastercard using Mastercard Agent Pay, agentic tokens and PayOS. [Mastercard (Agent Pay, agentic tokens, PayOS)]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.nordea.com/en/news/first-ever-finnish-ai-agent-payment-mastercard-and-nordea-completes-live-agentic-transaction",
+   "raw_sector": "",
+   "date": "2026-06-05",
+   "fresh": "fresh"
+  },
   {
    "company": "Nordea Bank",
    "use": "Nova conversational AI chatbot (12 virtual agents across 4 Nordic markets) handling customer queries",
@@ -54,12 +105,177 @@
   },
   {
    "company": "Nordea Bank",
+   "use": "Nova (Nordea Virtual Agent) — customer-facing conversational AI chatbot handling banking inquiries (card blocking, IBAN lookups, PIN resets, general questions) across web and app in four Nordic markets, in local languages. Live since 2017. [boost.ai]",
+   "existence": "confirmed",
+   "value": "~7 million chat sessions per year; 12 AI agents; 50% of Norway conversations handled by AI with no human escalation; 91% in-scope resolution (Swedish private), 95% (Swedish corporate & Finland)",
+   "tier": "",
+   "url": "https://boost.ai/case-studies/nordea-employs-comprehensive-conversational-ai-strategy-to-scale-customer-service/",
+   "raw_sector": "",
+   "date": "2017 (expanded Nordic-wide 2021)",
+   "fresh": "stale"
+  },
+  {
+   "company": "Nordea Bank",
+   "use": "Knowledge Assistants — GenAI tools that embed internal guidelines into content creation and give front-line staff quick access to customer information to resolve cases faster. [none]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.nordea.com/en/news/three-ways-we-use-ai-to-accelerate-efficiency-and-growth",
+   "raw_sector": "",
+   "date": "2025",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Nordea Bank",
+   "use": "Financial crime prevention — AI/ML tools detecting suspicious transaction patterns and analyzing data for fraudulent behaviour within Nordea's financial crime prevention operations. [none]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.nordea.com/en/news/three-ways-we-use-ai-to-accelerate-efficiency-and-growth",
+   "raw_sector": "",
+   "date": "2025",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Nordea Bank",
+   "use": "AI-powered fraud detection — AI automates fraud detection and analyzes large transaction volumes in real time, learning from historical fraud cases to flag suspicious behaviour and reduce false positives (discussed by Nordea's Sara Helin). [none]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.siili.com/newsandinsights/ai-powered-fraud-detection-sara-helin-nordea",
+   "raw_sector": "",
+   "date": "2025-02-07",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Nordea Bank",
+   "use": "Nova, Nordea's customer-facing conversational AI chatbot (Nordea Virtual Agent), handling banking queries, self-service tasks like card blocking and PIN resets across Sweden, Denmark, Norway and Finland. Nordea runs 12 AI agents in production (customer-facing plus internal HR and second-line support bots) with 90%+ in-scope resolution rates and close to 7 million chat sessions per year. [boost.ai]",
+   "existence": "confirmed",
+   "value": "12 AI agents in production; 90%+ in-scope resolution; ~7 million chat sessions/year; 220,000+ conversations/month for private banking",
+   "tier": "",
+   "url": "https://boost.ai/case-studies/nordea-employs-comprehensive-conversational-ai-strategy-to-scale-customer-service/",
+   "raw_sector": "",
+   "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "Nordea Bank",
+   "use": "Feelingstream AI for customer service message triage: AI software that analyses and categorises incoming customer messages/feedback and automatically forwards them to the right person or unit within Nordea to speed up customer service. [Feelingstream]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.computerweekly.com/news/450423224/Nordea-deploys-AI-to-speed-up-customer-service",
+   "raw_sector": "",
+   "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "Nordea Bank",
+   "use": "Enterprise Agent, an internally built 'ChatGPT-like' generative AI tool that lets employees generate text, get insights from documents and compare documents. Built on a model-agnostic GenAI platform (AWS Bedrock) that scaled from pilots to 10,000 internal users during 2025. [Internally built on AWS Bedrock (model-agnostic)]",
+   "existence": "confirmed",
+   "value": "Scaled 3,000 to 5,000 to 10,000 internal users in 2025",
+   "tier": "",
+   "url": "https://www.nordea.com/en/news/three-ways-we-use-ai-to-accelerate-efficiency-and-growth",
+   "raw_sector": "",
+   "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "Nordea Bank",
+   "use": "Knowledge Assistants: internally built AI assistants that support staff across business areas by embedding guidelines into content creation and giving employees quick access to information during customer interactions. [Internally built]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.nordea.com/en/news/three-ways-we-use-ai-to-accelerate-efficiency-and-growth",
+   "raw_sector": "",
+   "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "Nordea Bank",
    "use": "AI hub initiative developing solutions to make the bank better at understanding customers",
    "existence": "claimed",
    "value": "none",
    "tier": "I",
    "url": "https://www.computerworld.dk/art/256634/nordea-saetter-kunstig-intelligens-i-drift-i-ny-stor-satsning-her-er-planerne",
    "raw_sector": "Banks",
+   "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "Nordea Bank",
+   "use": "Deep analytics tools: AI systems described as specialised domain experts that solve specific problems and handle large data sets, including processing thousands of equity research reports to surface insights for the bank. [Internally built]",
+   "existence": "confirmed",
+   "value": "Processes thousands of equity research reports",
+   "tier": "",
+   "url": "https://www.nordea.com/en/news/three-ways-we-use-ai-to-accelerate-efficiency-and-growth",
+   "raw_sector": "",
+   "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "Nordea Bank",
+   "use": "AI-generated tailored investment updates: a feature in Nordea's Nordic mobile banking apps that uses AI to analyse a customer's holdings, account activity, market interests and watchlists to select and summarise the news most relevant to that individual investor. Launched January 2026, described by Nordea as its first AI-driven customer service. [none]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.nordea.com/en/news/new-feature-gives-you-tailormade-investment-updates-all-created-by-ai",
+   "raw_sector": "",
+   "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "Nordea Bank",
+   "use": "Enterprise Agent — internally built, model-agnostic generative AI platform (a 'ChatGPT-like' tool) for text generation, document insights, comparison and consultation, rolled out to 10,000 employees. Built on AWS Bedrock; moved to full production in late 2024. [AWS Bedrock (model-agnostic; internally built)]",
+   "existence": "confirmed",
+   "value": "10,000 employees (scaled from 3,000 to 5,000 to 10,000 users)",
+   "tier": "",
+   "url": "https://hyperight.com/banking-on-ai-nordea-poc-to-10000-users/",
+   "raw_sector": "",
+   "date": "2025",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Nordea Bank",
+   "use": "Payments/transaction process automation — AI solutions that cut manual work in payments and financial transactions 'from days to minutes,' developed by payments teams and moving into scaling. [none]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.nordea.com/en/news/how-we-use-ai-to-simplify-customers-everyday-banking",
+   "raw_sector": "",
+   "date": "2026-04-22",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Nordea Bank",
+   "use": "Customer communication personalization — machine learning models identifying precise target audiences so specific messages reach the most relevant customers. [none]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.nordea.com/en/news/three-ways-we-use-ai-to-accelerate-efficiency-and-growth",
+   "raw_sector": "",
+   "date": "2025",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Nordea Bank",
+   "use": "Personalisation of customer communication: machine learning models that target customer communication more precisely by identifying relevance to different audiences, delivering around 1.6 billion personalised insights in the mobile banking app each year. [none]",
+   "existence": "confirmed",
+   "value": "~1.6 billion personalised insights delivered in the mobile app per year",
+   "tier": "",
+   "url": "https://www.nordea.com/en/news/relationships-before-robots-how-nordea-is-leveraging-ai-in-digital-banking",
+   "raw_sector": "",
+   "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "Nordea Bank",
+   "use": "AI-driven financial crime prevention: AI models detect suspicious transaction patterns and analyse articles and datasets for fraudulent behaviour as part of Nordea's transaction monitoring and anti-financial-crime program. [none]",
+   "existence": "confirmed",
+   "value": "30% reduction in fraud losses",
+   "tier": "",
+   "url": "https://www.nordea.com/en/news/relationships-before-robots-how-nordea-is-leveraging-ai-in-digital-banking",
+   "raw_sector": "",
    "date": "missing",
    "fresh": "undated"
   }

@@ -3,27 +3,27 @@
  "name": "Elevance Health",
  "cc": "US",
  "vertical": "Healthcare & Life Sciences",
- "deployments": 10,
- "confirmed": 10,
- "with_value_number": 7,
- "proof_rate": 0.7,
+ "deployments": 15,
+ "confirmed": 14,
+ "with_value_number": 9,
+ "proof_rate": 0.6,
  "mktcap": 81800000000.0,
  "revenue": 201110000000.0,
  "employees": 97100.0,
  "silent": false,
- "per_bn_revenue": 0.05,
- "per_10k_emp": 1.03,
+ "per_bn_revenue": 0.07,
+ "per_10k_emp": 1.54,
  "benchmarks": {
   "global_vertical": {
-   "deployments": 94,
+   "deployments": 95,
    "confirmed": 98,
-   "proof_rate": 82,
-   "n": 165
+   "proof_rate": 93,
+   "n": 168
   },
   "country_vertical": {
-   "deployments": 84,
-   "confirmed": 95,
-   "proof_rate": 86,
+   "deployments": 90,
+   "confirmed": 97,
+   "proof_rate": 97,
    "n": 59
   }
  },
@@ -46,7 +46,7 @@
    "n": 2
   }
  ],
- "undated_pct": 0,
+ "undated_pct": 33,
  "momentum": "early_mover,rising",
  "maturity": "L4",
  "maturity_evidence": [
@@ -56,10 +56,34 @@
   "multi_year",
   "tier_p"
  ],
- "prospect_score": 80,
- "stack": [],
- "vendor_named": false,
+ "prospect_score": 76,
+ "stack": [
+  "OpenAI"
+ ],
+ "vendor_named": true,
  "deployments_detail": [
+  {
+   "company": "Elevance Health",
+   "use": "Generative AI for personalized care recommendations and benefits interpretation",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.fiercehealthcare.com/payers/elevance-health-wants-use-ai-simplify-and-personalize-healthcare-heres-how-insurance-giant",
+   "raw_sector": "",
+   "date": "Jan 19, 2024",
+   "fresh": "undated"
+  },
+  {
+   "company": "Elevance Health",
+   "use": "Generative AI for health system roster processing",
+   "existence": "confirmed",
+   "value": "90 days reduction",
+   "tier": "",
+   "url": "https://dhis.net/docs/librariesprovider86/news/genaidhiswest.pdf?sfvrsn=4ce7431c_1",
+   "raw_sector": "",
+   "date": "Feb 13, 2024",
+   "fresh": "undated"
+  },
   {
    "company": "Elevance Health",
    "use": "GenAI across member service, provider administration, employee support; personalized care recommendations (AHIP 2026)",
@@ -70,6 +94,28 @@
    "raw_sector": "Health Care",
    "date": "2026",
    "fresh": "fresh"
+  },
+  {
+   "company": "Elevance Health",
+   "use": "Virtual assistant for member engagement and support",
+   "existence": "confirmed",
+   "value": "10 million members",
+   "tier": "",
+   "url": "https://www.beckerspayer.com/payer/we-are-extremely-bullish-about-this-elevance-ramps-up-ai-investments/",
+   "raw_sector": "",
+   "date": "Oct 24, 2025",
+   "fresh": "undated"
+  },
+  {
+   "company": "Elevance Health",
+   "use": "AI-driven outreach program for member experience",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.elevancehealth.com/our-approach-to-health/digitally-enabled-healthcare/how-ai-helps-improve-the-consumer-experience",
+   "raw_sector": "",
+   "date": "Dec 30, 2025",
+   "fresh": "undated"
   },
   {
    "company": "Elevance Health",
@@ -169,6 +215,17 @@
    "raw_sector": "",
    "date": "2026",
    "fresh": "fresh"
+  },
+  {
+   "company": "Elevance Health",
+   "use": "AI for fraud, waste, and abuse detection",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.elevancehealth.com/our-approach-to-health/digitally-enabled-healthcare/how-ai-helps-fight-fraud-waste-and-abuse",
+   "raw_sector": "",
+   "date": "Apr 13, 2026",
+   "fresh": "undated"
   }
  ]
 }

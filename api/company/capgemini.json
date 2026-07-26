@@ -3,48 +3,70 @@
  "name": "Capgemini",
  "cc": "FR",
  "vertical": "Technology",
- "deployments": 3,
- "confirmed": 3,
- "with_value_number": 1,
- "proof_rate": 0.333,
+ "deployments": 13,
+ "confirmed": 9,
+ "with_value_number": 4,
+ "proof_rate": 0.308,
  "mktcap": 16232400000.0,
  "revenue": 24267600000.0,
  "employees": 423405.0,
  "silent": false,
- "per_bn_revenue": 0.12,
- "per_10k_emp": 0.07,
+ "per_bn_revenue": 0.54,
+ "per_10k_emp": 0.31,
  "benchmarks": {
   "global_vertical": {
-   "deployments": 80,
-   "confirmed": 81,
-   "proof_rate": 66,
-   "n": 156
+   "deployments": 82,
+   "confirmed": 65,
+   "proof_rate": 68,
+   "n": 159
   },
   "country_vertical": {
-   "deployments": 86,
+   "deployments": 100,
    "confirmed": 86,
    "proof_rate": 71,
    "n": 8
   }
  },
- "first_seen": 2026,
+ "first_seen": 2023,
  "by_year": [
   {
-   "year": 2026,
+   "year": 2023,
    "n": 1
+  },
+  {
+   "year": 2024,
+   "n": 4
+  },
+  {
+   "year": 2025,
+   "n": 2
+  },
+  {
+   "year": 2026,
+   "n": 4
   }
  ],
- "undated_pct": 67,
- "momentum": "late_entrant,rising",
- "maturity": "L3",
+ "undated_pct": 15,
+ "momentum": "early_mover,rising",
+ "maturity": "L4",
  "maturity_evidence": [
   "multi_horizontal",
   "named_product:Perform AI",
-  "value_number"
+  "value_number",
+  "multi_year"
  ],
- "prospect_score": 45,
+ "prospect_score": 82,
  "stack": [
-  "Mistral AI"
+  "Amazon AWS",
+  "Anthropic",
+  "Capgemini",
+  "Google",
+  "Google Cloud",
+  "Microsoft",
+  "Microsoft Azure",
+  "Mistral AI",
+  "NVIDIA",
+  "OpenAI"
  ],
  "vendor_named": true,
  "deployments_detail": [
@@ -80,6 +102,116 @@
    "raw_sector": "Technology",
    "date": "missing",
    "fresh": "undated"
+  },
+  {
+   "company": "Capgemini",
+   "use": "Telenor AI Factory built with Capgemini and NVIDIA - described as Norway's first sovereign and secure AI cloud service, running on NVIDIA infrastructure, launched Nov 2024. Part of Capgemini's broader NVIDIA AI Enterprise / NIM agentic solutions. [NVIDIA (AI Enterprise, NIM); client Telenor]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.capgemini.com/news/press-releases/capgemini-accelerates-enterprise-adoption-of-agentic-ai-for-industries-with-nvidia/",
+   "raw_sector": "",
+   "date": "2024-11",
+   "fresh": "aging"
+  },
+  {
+   "company": "Capgemini",
+   "use": "Investment in and partnership with the OpenAI Deployment Company (extending founding membership of the OpenAI Frontier Alliance) to embed OpenAI models into enterprise client workflows at scale. [OpenAI]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.capgemini.com/news/press-releases/capgemini-strengthens-its-position-in-enterprise-ai-with-investment-in-the-openai-deployment-company/",
+   "raw_sector": "",
+   "date": "2026-05",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Capgemini",
+   "use": "Google Cloud AI Enterprise Hub to accelerate agentic AI enterprise transformation, introducing 'Outcome Deployed Engineers' to move agentic AI from pilots to scaled deployment on Gemini/Google Cloud. [Google Cloud (Gemini / Gemini Enterprise)]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.capgemini.com/news/press-releases/capgemini-unveils-google-cloud-ai-enterprise-hub-to-accelerate-agentic-ai-enterprise-transformation/",
+   "raw_sector": "",
+   "date": "2026-04",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Capgemini",
+   "use": "Strategic collaboration with AWS to enable broad enterprise generative AI adoption, building client solutions on Amazon Bedrock (foundation models incl. Anthropic, AI21). [AWS (Amazon Bedrock)]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.capgemini.com/news/press-releases/capgemini-and-aws-expand-strategic-collaboration-to-enable-broad-enterprise-generative-ai-adoption/",
+   "raw_sector": "",
+   "date": "2024-01",
+   "fresh": "aging"
+  },
+  {
+   "company": "Capgemini",
+   "use": "Internal Gen AI workforce upskilling: Capgemini used Degreed's Gen AI Campus to train over 150,000 employees in 10 weeks (95 plans, 176 pathways, 2,700 resources, 50,000 certifications awarded) to drive company-wide AI adoption. [Degreed (Gen AI Campus)]",
+   "existence": "confirmed",
+   "value": "150,000+ employees trained in 10 weeks; 50,000 certifications",
+   "tier": "",
+   "url": "https://degreed.com/experience/success-stories/capgemini-ai-workforce-transformation/",
+   "raw_sector": "",
+   "date": "2024",
+   "fresh": "aging"
+  },
+  {
+   "company": "Capgemini",
+   "use": "Rolled out Microsoft 365 Copilot to a client in the energy & utilities sector, granting employees access to bolster adoption and quantify business benefits of the AI workplace assistant. [Microsoft (Microsoft 365 Copilot)]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.capgemini.com/insights/research-library/unleash-a-new-era-of-work-with-capgemini-and-microsoft-copilot-for-microsoft-365/",
+   "raw_sector": "",
+   "date": "2024",
+   "fresh": "aging"
+  },
+  {
+   "company": "Capgemini",
+   "use": "Internal deployment of Microsoft Viva Engage + Microsoft 365 Copilot across Capgemini's 340,000+ employees to turn internal comms/conversations into AI-ready knowledge that grounds Copilot responses. [Microsoft (Viva Engage, Microsoft 365 Copilot)]",
+   "existence": "confirmed",
+   "value": "340,000+ employee organization",
+   "tier": "",
+   "url": "https://techcommunity.microsoft.com/blog/viva_engage_blog/customer-spotlight-capgemini-is-turning-comms-and-conversations-into-ai-ready-kn/4530280",
+   "raw_sector": "",
+   "date": "2026-06",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Capgemini",
+   "use": "Deployed GitHub Copilot to all software engineers at a global German automotive client (after pilot), using Capgemini's software-engineering measurement protocol (Azure/Jira, SonarQube) to track code quality and developer productivity impact. [GitHub / Microsoft (GitHub Copilot)]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.capgemini.com/news/client-stories/highlighting-how-ai-enhanced-coding-for-an-automotive-giant/",
+   "raw_sector": "",
+   "date": "2023-06",
+   "fresh": "stale"
+  },
+  {
+   "company": "Capgemini",
+   "use": "Mercedes-Benz Global Ordering system mainframe-to-AWS migration using Capgemini's GenRevive agentic-AI multi-agent system (engineer/reviewer/tester/DevOps agents); converted 1.3M lines of COBOL to Java in ~7 months, live in production Sept 2025 with zero go-live incidents. [AWS; Capgemini GenRevive (agentic AI)]",
+   "existence": "confirmed",
+   "value": "1.3 million lines of COBOL converted to Java in ~7 months; zero incidents at go-live",
+   "tier": "",
+   "url": "https://www.zenml.io/llmops-database/mainframe-to-cloud-migration-with-ai-powered-code-transformation",
+   "raw_sector": "",
+   "date": "2025-09",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Capgemini",
+   "use": "Agentic-AI-powered mainframe application modernization offering that automates legacy code analysis and business-rule extraction, transforming legacy code into modern cloud-native architecture. [Capgemini (Gen AI / agentic AI)]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.capgemini.com/news/press-releases/capgemini-leads-paradigm-shift-in-mainframe-application-modernization-powered-by-gen-ai-and-agentic-ai/",
+   "raw_sector": "",
+   "date": "2025-05",
+   "fresh": "fresh"
   }
  ]
 }

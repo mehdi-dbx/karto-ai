@@ -1,0 +1,144 @@
+{
+ "slug": "pge-polska-grupa-energetyczna",
+ "name": "PGE (Polska Grupa Energetyczna)",
+ "cc": "PL",
+ "vertical": "Energy & Utilities",
+ "deployments": 8,
+ "confirmed": 3,
+ "with_value_number": 2,
+ "proof_rate": 0.25,
+ "mktcap": null,
+ "revenue": null,
+ "employees": null,
+ "silent": false,
+ "per_bn_revenue": null,
+ "per_10k_emp": null,
+ "benchmarks": {
+  "global_vertical": {
+   "deployments": 75,
+   "confirmed": 48,
+   "proof_rate": 59,
+   "n": 213
+  }
+ },
+ "first_seen": 2023,
+ "by_year": [
+  {
+   "year": 2023,
+   "n": 1
+  },
+  {
+   "year": 2024,
+   "n": 1
+  },
+  {
+   "year": 2025,
+   "n": 6
+  }
+ ],
+ "undated_pct": 0,
+ "momentum": "early_mover,rising",
+ "maturity": "L4",
+ "maturity_evidence": [
+  "named_product:BIMS",
+  "value_number",
+  "multi_year"
+ ],
+ "prospect_score": 48,
+ "stack": [
+  "Microsoft",
+  "Microsoft Azure",
+  "OpenAI"
+ ],
+ "vendor_named": true,
+ "deployments_detail": [
+  {
+   "company": "PGE (Polska Grupa Energetyczna)",
+   "use": "Internal office-productivity AI assistants for employees, supporting document work, presentations, spreadsheets and meeting organization to save time on routine tasks. Described by PGE as in development/piloting. [none]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://smart-grids.pl/technologie/4830-sztuczna-inteligencja-w-pge-od-wizji-do-realnych-korzy%C5%9Bci.html",
+   "raw_sector": "",
+   "date": "2025-01",
+   "fresh": "fresh"
+  },
+  {
+   "company": "PGE (Polska Grupa Energetyczna)",
+   "use": "BIMS (Blade Inspection Management System): AI automatically detects and classifies wind turbine blade damage (coating damage, cracks, scratches, chips, holes, lightning-strike damage, dirt, prior-repair traces) from drone inspection photos, so technicians can prioritize repairs. Deployed by PGE Systemy and used operationally by PGE Energia Odnawialna across 349 turbines (1,047 blades), analyzing 100,000+ photos per annual inspection cycle. Platform rolled out end of 2023. [PGE Systemy (in-house)]",
+   "existence": "confirmed",
+   "value": "349 turbines / 1,047 blades / 100,000+ inspection photos analyzed per year",
+   "tier": "",
+   "url": "https://www.teraz-srodowisko.pl/aktualnosci/Jak-AI-pomaga-w-naprawie-turbin-wiatrowych-PGE-15768.html",
+   "raw_sector": "",
+   "date": "2023-12",
+   "fresh": "stale"
+  },
+  {
+   "company": "PGE (Polska Grupa Energetyczna)",
+   "use": "SENSUM EcoDriving: machine-learning-based eco-driving support system for rail transport (PGE Energetyka Kolejowa). A central 'brain' collects and interprets telemetry from train journeys and on-board cab tablets give drivers real-time guidance (e.g. 'decelerate to 20 km/h') to smooth driving, hit punctual arrivals and cut traction energy consumption; ML continuously optimizes from recorded journeys. Tested over ~150 journeys with 19 drivers (Koleje Mazowieckie, Lodzka Kolej Aglomeracyjna), production launch scheduled mid-2024. [PGE Energetyka Kolejowa / PGE Systemy]",
+   "existence": "confirmed",
+   "value": "500,000+ system records processed in testing; ~150 test journeys",
+   "tier": "",
+   "url": "https://pgeenergetykakolejowa.pl/aktualnosc/ekojazda-na-polskich-torach-sukces-pierwszej-fazy-testow-naszej-aplikacji-ktora-pomaga-oszczedzac-energie-trakcyjna",
+   "raw_sector": "",
+   "date": "2024-06",
+   "fresh": "aging"
+  },
+  {
+   "company": "PGE (Polska Grupa Energetyczna)",
+   "use": "Machine-learning models forecasting energy production and consumption by prosumers (customers who both consume and generate electricity), deployed at the PGE Obrot (retail supply) division to improve balancing and planning. [none]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.rp.pl/analizy-rzeczpospolitej/art43263171-energetyka-idzie-pod-reke-z-ai",
+   "raw_sector": "",
+   "date": "2025-10",
+   "fresh": "fresh"
+  },
+  {
+   "company": "PGE (Polska Grupa Energetyczna)",
+   "use": "AI models to optimize renewable (OZE) energy production - analyzing weather data and predicting generation patterns - described as the next phase after the BIMS wind-farm AI deployment at PGE Energia Odnawialna. [none]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://smart-grids.pl/technologie/4830-sztuczna-inteligencja-w-pge-od-wizji-do-realnych-korzy%C5%9Bci.html",
+   "raw_sector": "",
+   "date": "2025-01",
+   "fresh": "fresh"
+  },
+  {
+   "company": "PGE (Polska Grupa Energetyczna)",
+   "use": "PGE Obrot signed a letter of intent with Microsoft to run AI pilots using M365 Copilot and Azure OpenAI, targeting customer service, billing/reconciliation, sales support and post-sale/complaint handling, with broader rollout planned after pilots. Formal partnership; pilot phase. [Microsoft (M365 Copilot, Azure OpenAI)]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://itreseller.pl/pge-obrot-microsoft-wspolpraca-ai/",
+   "raw_sector": "",
+   "date": "2025-04",
+   "fresh": "fresh"
+  },
+  {
+   "company": "PGE (Polska Grupa Energetyczna)",
+   "use": "Advanced conversational (LLM-based) solution to support customer-service consultants in handling requests; PGE reports initial pilot tests showing potential to reduce per-request handling time. [none]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://smart-grids.pl/technologie/4830-sztuczna-inteligencja-w-pge-od-wizji-do-realnych-korzy%C5%9Bci.html",
+   "raw_sector": "",
+   "date": "2025-01",
+   "fresh": "fresh"
+  },
+  {
+   "company": "PGE (Polska Grupa Energetyczna)",
+   "use": "AI-driven hyperpersonalized customer engagement: proactively tailoring offers and contact mechanisms to individual customer needs. In pilot/development at PGE. [none]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://smart-grids.pl/technologie/4830-sztuczna-inteligencja-w-pge-od-wizji-do-realnych-korzy%C5%9Bci.html",
+   "raw_sector": "",
+   "date": "2025-01",
+   "fresh": "fresh"
+  }
+ ]
+}

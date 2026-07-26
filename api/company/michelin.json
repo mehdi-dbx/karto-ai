@@ -3,47 +3,69 @@
  "name": "Michelin",
  "cc": "FR",
  "vertical": "Industrial / Machinery",
- "deployments": 3,
- "confirmed": 3,
- "with_value_number": 0,
- "proof_rate": 0.0,
+ "deployments": 14,
+ "confirmed": 9,
+ "with_value_number": 2,
+ "proof_rate": 0.143,
  "mktcap": 25801200000.0,
  "revenue": 28069200000.0,
  "employees": 117495.0,
  "silent": false,
- "per_bn_revenue": 0.11,
- "per_10k_emp": 0.26,
+ "per_bn_revenue": 0.5,
+ "per_10k_emp": 1.19,
  "benchmarks": {
   "global_vertical": {
-   "deployments": 89,
-   "confirmed": 89,
-   "proof_rate": 0,
-   "n": 175
+   "deployments": 93,
+   "confirmed": 84,
+   "proof_rate": 49,
+   "n": 176
   },
   "country_vertical": {
-   "deployments": 62,
+   "deployments": 88,
    "confirmed": 62,
-   "proof_rate": 0,
+   "proof_rate": 50,
    "n": 9
   }
  },
- "first_seen": null,
- "by_year": [],
- "undated_pct": 100,
- "momentum": "none",
+ "first_seen": 2024,
+ "by_year": [
+  {
+   "year": 2024,
+   "n": 1
+  }
+ ],
+ "undated_pct": 93,
+ "momentum": "early_mover,gone_quiet",
  "maturity": "L3",
  "maturity_evidence": [
   "multi_horizontal",
-  "named_product:Universal"
+  "named_product:Universal",
+  "value_number"
  ],
- "prospect_score": 58,
+ "prospect_score": 88,
  "stack": [
+  "Amazon AWS",
+  "Cohere",
+  "Databricks",
+  "Google",
   "Microsoft",
   "Microsoft Azure",
-  "OpenAI"
+  "OpenAI",
+  "Palantir"
  ],
  "vendor_named": true,
  "deployments_detail": [
+  {
+   "company": "Michelin",
+   "use": "Fleet management AI assistant for connected fleet insights",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://connectedfleet.michelin.com/solution/ai-assistant/",
+   "raw_sector": "",
+   "date": "missing",
+   "fresh": "undated"
+  },
   {
    "company": "Michelin",
    "use": "ML + generative AI widely used in factories and supply-chain demand forecasting (\"Innovation@scale\") (own disclosure via Les Echos)",
@@ -68,12 +90,122 @@
   },
   {
    "company": "Michelin",
+   "use": "Global AI fabric for manufacturing with 1,500+ users across 50+ factories [Dataiku]",
+   "existence": "confirmed",
+   "value": "1500",
+   "tier": "",
+   "url": "https://www.dataiku.com/blog/michelin",
+   "raw_sector": "",
+   "date": "Sep 16, 2025",
+   "fresh": "undated"
+  },
+  {
+   "company": "Michelin",
    "use": "Universal tire digital twin — combines tire physics + AI algorithms to monitor tire condition in real time without added sensors (own publication)",
    "existence": "confirmed",
    "value": "none",
    "tier": "S",
    "url": "https://www.michelin.com/publications/produits-et-services/le-jumeau-numerique-universel-du-pneu",
    "raw_sector": "Industrials",
+   "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "Michelin",
+   "use": "Tire performance analytics and predictive maintenance (SmartLoad and SmartWear technologies) [Sonatus AI Director]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.sonatus.com/company/press-release/michelin-and-sonatus-showcase-ready-to-deploy-embedded-tire-digital-twin-solutions-for-next-generation-mobility/",
+   "raw_sector": "",
+   "date": "Dec 19, 2025",
+   "fresh": "undated"
+  },
+  {
+   "company": "Michelin",
+   "use": "In-house 'Aurora' chatbot on Azure OpenAI Service plus Microsoft 365 Copilot for employee productivity [Microsoft] [Microsoft]",
+   "existence": "confirmed",
+   "value": "Significantly increased employee productivity",
+   "tier": "",
+   "url": "https://www.microsoft.com/en/customers/story/20836-michelin-azure-open-ai-service",
+   "raw_sector": "",
+   "date": "2024-12-27",
+   "fresh": "aging"
+  },
+  {
+   "company": "Michelin",
+   "use": "ERP data migration to a Data Mesh supporting analytics and energy-optimization ML [Databricks] [Databricks]",
+   "existence": "confirmed",
+   "value": "on track for 3% energy reduction by 2026",
+   "tier": "",
+   "url": "https://www.databricks.com/customers/michelin",
+   "raw_sector": "",
+   "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "Michelin",
+   "use": "Named as a Microsoft Copilot customer/case study [Microsoft Copilot] [Microsoft Copilot]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.appsruntheworld.com/customers-database/products/view/microsoft-365-copilot",
+   "raw_sector": "",
+   "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "Michelin",
+   "use": "Named as a Amazon Bedrock customer/case study [Amazon Bedrock] [Amazon Bedrock]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.appsruntheworld.com/customers-database/products/view/amazon-bedrock",
+   "raw_sector": "",
+   "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "Michelin",
+   "use": "Named as a Google Gemini / Vertex AI customer/case study [Google Gemini / Vertex AI] [Google Gemini / Vertex AI]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.appsruntheworld.com/customers-database/products/view/google-cloud-vertex-ai",
+   "raw_sector": "",
+   "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "Michelin",
+   "use": "Named as a Databricks customer/case study [Databricks] [Databricks]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.appsruntheworld.com/customers-database/products/view/microsoft-azure-databricks-ai",
+   "raw_sector": "",
+   "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "Michelin",
+   "use": "Named as a Palantir customer/case study [Palantir] [Palantir]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.appsruntheworld.com/customers-database/products/view/palantir-aip-platform",
+   "raw_sector": "",
+   "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "Michelin",
+   "use": "Named as a Cohere customer/case study [Cohere] [Cohere]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.appsruntheworld.com/customers-database/products/view/cohere-ai",
+   "raw_sector": "",
    "date": "missing",
    "fresh": "undated"
   }

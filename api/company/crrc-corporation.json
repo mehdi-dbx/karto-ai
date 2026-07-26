@@ -3,27 +3,27 @@
  "name": "CRRC Corporation",
  "cc": "CN",
  "vertical": "Industrial / Machinery",
- "deployments": 1,
- "confirmed": 1,
+ "deployments": 4,
+ "confirmed": 3,
  "with_value_number": 1,
- "proof_rate": 1.0,
+ "proof_rate": 0.25,
  "mktcap": 22863888889.0,
  "revenue": 38640277778.0,
  "employees": 151602.0,
  "silent": false,
- "per_bn_revenue": 0.03,
- "per_10k_emp": 0.07,
+ "per_bn_revenue": 0.1,
+ "per_10k_emp": 0.26,
  "benchmarks": {
   "global_vertical": {
-   "deployments": 0,
-   "confirmed": 14,
-   "proof_rate": 79,
-   "n": 175
+   "deployments": 23,
+   "confirmed": 39,
+   "proof_rate": 66,
+   "n": 176
   },
   "country_vertical": {
-   "deployments": 0,
-   "confirmed": 8,
-   "proof_rate": 46,
+   "deployments": 54,
+   "confirmed": 62,
+   "proof_rate": 54,
    "n": 14
   }
  },
@@ -34,14 +34,15 @@
    "n": 1
   }
  ],
- "undated_pct": 0,
+ "undated_pct": 75,
  "momentum": "early_mover,rising",
  "maturity": "L3",
  "maturity_evidence": [
+  "multi_horizontal",
   "named_product:Zhuolun",
   "value_number"
  ],
- "prospect_score": 6,
+ "prospect_score": 48,
  "stack": [
   "Baidu"
  ],
@@ -57,6 +58,39 @@
    "raw_sector": "Industrials",
    "date": "2025",
    "fresh": "fresh"
+  },
+  {
+   "company": "CRRC Corporation",
+   "use": "Intelligent regional train with self-sensing, self-learning, and self-decision-making control technologies",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.yahoo.com/news/articles/china-crrc-debuts-standard-intelligent-160235750.html",
+   "raw_sector": "",
+   "date": "Oct 1, 2025",
+   "fresh": "undated"
+  },
+  {
+   "company": "CRRC Corporation",
+   "use": "AI for maglev train development reaching 600 kilometers per hour",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.youtube.com/watch?v=gcv7tICKgFc",
+   "raw_sector": "",
+   "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "CRRC Corporation",
+   "use": "Decision-making algorithms and generative AI models integrated into production and supply chain management",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://regional.chinadaily.com.cn/Qiushi/2025-11/18/c_1141491.htm",
+   "raw_sector": "",
+   "date": "Nov 18, 2025",
+   "fresh": "undated"
   }
  ]
 }

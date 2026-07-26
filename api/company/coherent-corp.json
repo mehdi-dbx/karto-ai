@@ -3,26 +3,26 @@
  "name": "Coherent Corp.",
  "cc": "US",
  "vertical": "Technology",
- "deployments": 1,
- "confirmed": 1,
+ "deployments": 8,
+ "confirmed": 3,
  "with_value_number": 0,
  "proof_rate": 0.0,
  "mktcap": 61820000000.0,
  "revenue": 6600000000.0,
  "employees": 30216.0,
  "silent": false,
- "per_bn_revenue": 0.15,
- "per_10k_emp": 0.33,
+ "per_bn_revenue": 1.21,
+ "per_10k_emp": 2.65,
  "benchmarks": {
   "global_vertical": {
-   "deployments": 0,
-   "confirmed": 6,
+   "deployments": 45,
+   "confirmed": 27,
    "proof_rate": 0,
-   "n": 156
+   "n": 159
   },
   "country_vertical": {
-   "deployments": 0,
-   "confirmed": 4,
+   "deployments": 38,
+   "confirmed": 25,
    "proof_rate": 0,
    "n": 74
   }
@@ -31,14 +31,32 @@
  "by_year": [],
  "undated_pct": 100,
  "momentum": "none",
- "maturity": "L2",
+ "maturity": "L3",
  "maturity_evidence": [
+  "multi_horizontal",
+  "named_product:Generative",
   "tier_p"
  ],
- "prospect_score": 54,
- "stack": [],
- "vendor_named": false,
+ "prospect_score": 58,
+ "stack": [
+  "Amazon AWS",
+  "Anthropic",
+  "Cohere",
+  "Microsoft"
+ ],
+ "vendor_named": true,
  "deployments_detail": [
+  {
+   "company": "Coherent Corp.",
+   "use": "Generative AI software development services",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.coherentsolutions.com/artificial-intelligence/generative-ai",
+   "raw_sector": "",
+   "date": "missing",
+   "fresh": "undated"
+  },
   {
    "company": "Coherent Corp.",
    "use": "800G/1.6T optical transceivers + silicon photonics enabling AI datacenter networks",
@@ -47,6 +65,72 @@
    "tier": "P",
    "url": "https://www.coherent.com/datacenter-communications",
    "raw_sector": "Information Technology",
+   "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "Coherent Corp.",
+   "use": "AI datacenter and networking infrastructure - CPO-enabling photonics for AI-scale networks",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.coherent.com/news/press-releases/coherent-exhibits-cpo-enabling-pPhotonics-for-aI-scale-networks-a-nvidia-gtc-dc-2025",
+   "raw_sector": "",
+   "date": "Oct 27, 2025",
+   "fresh": "undated"
+  },
+  {
+   "company": "Coherent Corp.",
+   "use": "VCSELs for sensor applications and transceivers for datacom in AI systems",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.coherent.com/news/blog/advanced-sensors-and-ai",
+   "raw_sector": "",
+   "date": "Nov 15, 2024",
+   "fresh": "undated"
+  },
+  {
+   "company": "Coherent Corp.",
+   "use": "Named as a Anthropic Claude customer/case study [Anthropic Claude] [Anthropic Claude]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://rajsarkar.substack.com/p/anthropic-just-won-the-enterprise",
+   "raw_sector": "",
+   "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "Coherent Corp.",
+   "use": "Named as a Microsoft Copilot customer/case study [Microsoft Copilot] [Microsoft Copilot]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.microsoft.com/insidetrack/blog/taking-back-time-evolving-how-we-use-microsoft-365-copilot-chat-at-microsoft/",
+   "raw_sector": "",
+   "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "Coherent Corp.",
+   "use": "Named as a Amazon Bedrock customer/case study [Amazon Bedrock] [Amazon Bedrock]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://dev.to/kazuya_dev/aws-reinvent-2025-transforming-supply-chains-with-amazon-bedrock-agentcore-api206-19e6",
+   "raw_sector": "",
+   "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "Coherent Corp.",
+   "use": "Named as a Cohere customer/case study [Cohere] [Cohere]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.analyticsvidhya.com/blog/2024/05/guide-to-using-cohere-ai/",
+   "raw_sector": "",
    "date": "missing",
    "fresh": "undated"
   }

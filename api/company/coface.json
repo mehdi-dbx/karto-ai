@@ -3,22 +3,22 @@
  "name": "Coface",
  "cc": "FR",
  "vertical": "Insurance",
- "deployments": 1,
- "confirmed": 1,
+ "deployments": 3,
+ "confirmed": 2,
  "with_value_number": 0,
  "proof_rate": 0.0,
  "mktcap": 2613600000.0,
  "revenue": 1965600000.0,
  "employees": 5511.0,
  "silent": false,
- "per_bn_revenue": 0.51,
- "per_10k_emp": 1.81,
+ "per_bn_revenue": 1.53,
+ "per_10k_emp": 5.44,
  "benchmarks": {
   "global_vertical": {
-   "deployments": 0,
-   "confirmed": 14,
+   "deployments": 10,
+   "confirmed": 15,
    "proof_rate": 0,
-   "n": 60
+   "n": 63
   }
  },
  "first_seen": 2023,
@@ -28,14 +28,14 @@
    "n": 1
   }
  ],
- "undated_pct": 0,
+ "undated_pct": 67,
  "momentum": "early_mover,gone_quiet",
  "maturity": "L3",
  "maturity_evidence": [
   "named_product:Coface",
   "tier_p"
  ],
- "prospect_score": 54,
+ "prospect_score": 60,
  "stack": [],
  "vendor_named": false,
  "deployments_detail": [
@@ -49,6 +49,28 @@
    "raw_sector": "Credit Insurance",
    "date": "2023",
    "fresh": "stale"
+  },
+  {
+   "company": "Coface",
+   "use": "AI-powered credit scoring for assessing company creditworthiness and trade risk management",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.coface.ch/business-information/coface-score",
+   "raw_sector": "",
+   "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "Coface",
+   "use": "Data governance and AI with Virtual Data Lake for data accessibility and business value generation",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.coface.com/news-economy-and-insights/data-accessibility-and-governance-how-data-and-ai-generate-value-for-your-business",
+   "raw_sector": "",
+   "date": "May 15, 2025",
+   "fresh": "undated"
   }
  ]
 }

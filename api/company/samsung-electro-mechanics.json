@@ -3,39 +3,46 @@
  "name": "Samsung Electro-Mechanics",
  "cc": "KR",
  "vertical": "Technology",
- "deployments": 1,
- "confirmed": 0,
- "with_value_number": 0,
- "proof_rate": 0.0,
+ "deployments": 4,
+ "confirmed": 2,
+ "with_value_number": 1,
+ "proof_rate": 0.25,
  "mktcap": 7343703704.0,
  "revenue": 8377777778.0,
  "employees": 36402.0,
  "silent": false,
- "per_bn_revenue": 0.12,
- "per_10k_emp": 0.27,
+ "per_bn_revenue": 0.48,
+ "per_10k_emp": 1.1,
  "benchmarks": {
   "global_vertical": {
-   "deployments": 0,
-   "confirmed": 0,
-   "proof_rate": 0,
-   "n": 156
+   "deployments": 15,
+   "confirmed": 11,
+   "proof_rate": 58,
+   "n": 159
   },
   "country_vertical": {
    "deployments": 0,
-   "confirmed": 0,
-   "proof_rate": 0,
+   "confirmed": 22,
+   "proof_rate": 33,
    "n": 10
   }
  },
- "first_seen": null,
- "by_year": [],
- "undated_pct": 100,
- "momentum": "none",
- "maturity": "L1",
- "maturity_evidence": [
-  "rows_no_confirmed"
+ "first_seen": 2026,
+ "by_year": [
+  {
+   "year": 2026,
+   "n": 3
+  }
  ],
- "prospect_score": 40,
+ "undated_pct": 25,
+ "momentum": "late_entrant,rising",
+ "maturity": "L3",
+ "maturity_evidence": [
+  "multi_horizontal",
+  "named_product:MLCCs",
+  "value_number"
+ ],
+ "prospect_score": 50,
  "stack": [],
  "vendor_named": false,
  "deployments_detail": [
@@ -49,6 +56,39 @@
    "raw_sector": "IT",
    "date": "missing",
    "fresh": "undated"
+  },
+  {
+   "company": "Samsung Electro-Mechanics",
+   "use": "AI server component manufacturing (MLCCs for AI infrastructure)",
+   "existence": "confirmed",
+   "value": "813000000",
+   "tier": "",
+   "url": "https://www.hdinresearch.com/news/1020",
+   "raw_sector": "",
+   "date": "2026-03-14",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Samsung Electro-Mechanics",
+   "use": "AI accelerator substrate supply for Broadcom",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://x.com/jukan05/status/2046521336106004977",
+   "raw_sector": "",
+   "date": "2026-04-21",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Samsung Electro-Mechanics",
+   "use": "ERP software upgrade for AI-driven digital transformation",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.koreatimes.co.kr/business/tech-science/20260408/samsung-electro-mechanics-upgrades-erp-software-to-boost-ai-push",
+   "raw_sector": "",
+   "date": "2026-04-08",
+   "fresh": "fresh"
   }
  ]
 }

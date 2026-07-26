@@ -3,22 +3,22 @@
  "name": "Kuehne + Nagel",
  "cc": "CH",
  "vertical": "Industrial / Machinery",
- "deployments": 13,
- "confirmed": 12,
- "with_value_number": 4,
- "proof_rate": 0.308,
+ "deployments": 16,
+ "confirmed": 14,
+ "with_value_number": 5,
+ "proof_rate": 0.312,
  "mktcap": 27911000000.0,
  "revenue": 27662400000.0,
  "employees": 80141.0,
  "silent": false,
- "per_bn_revenue": 0.47,
- "per_10k_emp": 1.62,
+ "per_bn_revenue": 0.58,
+ "per_10k_emp": 2.0,
  "benchmarks": {
   "global_vertical": {
-   "deployments": 99,
-   "confirmed": 100,
-   "proof_rate": 72,
-   "n": 175
+   "deployments": 95,
+   "confirmed": 99,
+   "proof_rate": 81,
+   "n": 176
   }
  },
  "first_seen": 2019,
@@ -44,7 +44,7 @@
    "n": 2
   }
  ],
- "undated_pct": 15,
+ "undated_pct": 31,
  "momentum": "early_mover,rising",
  "maturity": "L4",
  "maturity_evidence": [
@@ -54,9 +54,11 @@
   "multi_year",
   "tier_p"
  ],
- "prospect_score": 96,
- "stack": [],
- "vendor_named": false,
+ "prospect_score": 88,
+ "stack": [
+  "Amazon AWS"
+ ],
+ "vendor_named": true,
  "deployments_detail": [
   {
    "company": "Kuehne + Nagel",
@@ -71,12 +73,45 @@
   },
   {
    "company": "Kuehne + Nagel",
+   "use": "Supply chain visibility using AI smart label reader network [Chorusview Inc]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://aimagazine.com/news/kuehne-nagel-deploys-ai-for-enhanced-supply-chain-visibility",
+   "raw_sector": "",
+   "date": "Dec 3, 2025",
+   "fresh": "undated"
+  },
+  {
+   "company": "Kuehne + Nagel",
+   "use": "AI agents and AI fulfillment deployment",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://assets.kuehne-nagel.com/f/331466/x/4da2bd0a0a/company-investor-relations-capital-markets-day-presentation-2025.pdf",
+   "raw_sector": "",
+   "date": "Mar 25, 2025",
+   "fresh": "undated"
+  },
+  {
+   "company": "Kuehne + Nagel",
    "use": "K.AI — centralized generative AI platform for CX and process optimization (K+N disclosure)",
    "existence": "confirmed",
    "value": "none quantified",
    "tier": "P",
    "url": "https://newsroom.kuehne-nagel.com/",
    "raw_sector": "Industrials",
+   "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "Kuehne + Nagel",
+   "use": "AI agents for customer support call handling and email processing [HappyRobot]",
+   "existence": "confirmed",
+   "value": "78% of calls handled end-to-end, 6000+ emails processed, 47% capacity gain",
+   "tier": "",
+   "url": "https://www.happyrobot.ai/customer-story/kuehne-nagel",
+   "raw_sector": "",
    "date": "missing",
    "fresh": "undated"
   },

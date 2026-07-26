@@ -3,44 +3,65 @@
  "name": "AstraZeneca",
  "cc": "SE",
  "vertical": "Healthcare & Life Sciences",
- "deployments": 2,
- "confirmed": 1,
- "with_value_number": 1,
- "proof_rate": 0.5,
+ "deployments": 12,
+ "confirmed": 7,
+ "with_value_number": 7,
+ "proof_rate": 0.583,
  "mktcap": 242857142857.0,
  "revenue": 54779047619.0,
  "employees": 96100.0,
  "silent": false,
- "per_bn_revenue": 0.04,
- "per_10k_emp": 0.21,
+ "per_bn_revenue": 0.22,
+ "per_10k_emp": 1.25,
  "benchmarks": {
   "global_vertical": {
-   "deployments": 75,
-   "confirmed": 13,
-   "proof_rate": 75,
-   "n": 165
+   "deployments": 84,
+   "confirmed": 68,
+   "proof_rate": 91,
+   "n": 168
   }
  },
- "first_seen": 2023,
+ "first_seen": 2019,
  "by_year": [
+  {
+   "year": 2019,
+   "n": 1
+  },
   {
    "year": 2023,
    "n": 1
   },
   {
-   "year": 2025,
+   "year": 2024,
    "n": 1
+  },
+  {
+   "year": 2025,
+   "n": 9
   }
  ],
  "undated_pct": 0,
- "momentum": "early_mover,flat",
- "maturity": "L2",
+ "momentum": "early_mover,rising",
+ "maturity": "L4",
  "maturity_evidence": [
+  "multi_horizontal",
+  "named_product:Development",
+  "value_number",
+  "multi_year",
   "tier_p"
  ],
- "prospect_score": 34,
- "stack": [],
- "vendor_named": false,
+ "prospect_score": 59,
+ "stack": [
+  "Amazon AWS",
+  "Anthropic",
+  "Databricks",
+  "Google",
+  "Microsoft",
+  "Microsoft Azure",
+  "NVIDIA",
+  "OpenAI"
+ ],
+ "vendor_named": true,
  "deployments_detail": [
   {
    "company": "AstraZeneca",
@@ -66,6 +87,149 @@
   },
   {
    "company": "AstraZeneca",
+   "use": "Development Assistant: a multi-agent generative-AI system on Amazon Bedrock that lets clinical, regulatory, and safety teams query structured and unstructured clinical-trial data in natural language (text-to-SQL + RAG), returning cross-functional insights in seconds. Went from concept to production in 6 months and is scaling to 1,000+ users. [AWS (Amazon Bedrock, multi-agent architecture)]",
+   "existence": "confirmed",
+   "value": "6 months concept-to-production; scaling to 1,000+ users; insights that took hours now available in minutes",
+   "tier": "",
+   "url": "https://aws.amazon.com/solutions/case-studies/astrazeneca-case-study/",
+   "raw_sector": "",
+   "date": "2025-08",
+   "fresh": "fresh"
+  },
+  {
+   "company": "AstraZeneca",
+   "use": "AI-powered chest X-ray lung cancer screening deployed across Thai public hospitals via Thailand's National Health Security Office, flagging suspected lung lesions for follow-up. Uses Qure.ai's qXR tool; 660,000+ people screened since 2022, scaling to 887 hospitals. [Qure.ai (qXR-LNMS)]",
+   "existence": "confirmed",
+   "value": "660,000+ patients screened since 2022; 887 hospitals; 415M+ baht three-year budget; 54.1% positive predictive value; lesions in ~8% of cases",
+   "tier": "",
+   "url": "https://www.artificialintelligence-news.com/news/astrazeneca-ai-clinical-trials-2025/",
+   "raw_sector": "",
+   "date": "2025-12",
+   "fresh": "fresh"
+  },
+  {
+   "company": "AstraZeneca",
+   "use": "Three-way strategic collaboration to build a multimodal oncology foundation model using Tempus' de-identified cancer patient data, to discover novel drug targets and develop oncology therapeutics. AstraZeneca committed $200M in data licensing and model development fees. [Tempus AI, Pathos AI]",
+   "existence": "claimed",
+   "value": "$200 million in data licensing and model development fees",
+   "tier": "",
+   "url": "https://www.fiercebiotech.com/biotech/tempus-ai-line-200m-astrazeneca-pathos-deal-develop-cancer-model",
+   "raw_sector": "",
+   "date": "2025-04",
+   "fresh": "fresh"
+  },
+  {
+   "company": "AstraZeneca",
+   "use": "AstraZeneca is deploying Evinova's AI-native clinical development platform (an AstraZeneca-founded health-tech business), sharing operational data to power a study-designer platform that recommends trial-design improvements and reduces rework to accelerate clinical timelines. [Evinova (AstraZeneca subsidiary)]",
+   "existence": "claimed",
+   "value": "Evinova claims 5%-7% savings per study; trial timelines shortened by up to 6 months",
+   "tier": "",
+   "url": "https://www.fiercebiotech.com/biotech/evinova-multiplies-ai-clinic-development-partnerships-astellas-and-astrazeneca-deals",
+   "raw_sector": "",
+   "date": "2026-02",
+   "fresh": "fresh"
+  },
+  {
+   "company": "AstraZeneca",
+   "use": "Long-term drug-discovery collaboration applying machine learning and AI-based reasoning over a biomedical knowledge graph (genes, proteins, diseases, compounds) combined with AstraZeneca's genomics/chemistry/clinical data to identify novel drug targets for chronic kidney disease and idiopathic pulmonary fibrosis. [BenevolentAI]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.benevolent.com/news-and-media/press-releases-and-in-media/astrazeneca-starts-artificial-intelligence-collaboration-accelerate-drug-discovery/",
+   "raw_sector": "",
+   "date": "2019-04",
+   "fresh": "stale"
+  },
+  {
+   "company": "AstraZeneca",
+   "use": "AstraZeneca collaborated with NVIDIA on the Cambridge-1 supercomputer to develop the MegaMolBART transformer model for chemical structure/small-molecule generation, and uses the NVIDIA BioNeMo framework to train large language models on datasets of small molecules and proteins for drug discovery. [NVIDIA (BioNeMo, Cambridge-1, MegaMolBART model)]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://blogs.nvidia.com/blog/bionemo-large-language-models-drug-discovery/",
+   "raw_sector": "",
+   "date": "2022-09",
+   "fresh": "stale"
+  },
+  {
+   "company": "AstraZeneca",
+   "use": "Microsoft-AstraZeneca 'AI Factory for Health' co-innovation collaboration using Azure cloud and machine learning to develop AI healthcare applications (patient monitoring, AI digital companions answering patient questions, diagnosis/treatment pathway support, personalized medicine), supporting early-stage AI startups with AstraZeneca domain expertise. [Microsoft (Azure), Inria]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://news.microsoft.com/europe/2019/09/10/microsoft-and-astrazeneca-join-forces-on-artificial-intelligence-for-healthcare/",
+   "raw_sector": "",
+   "date": "2019-09",
+   "fresh": "stale"
+  },
+  {
+   "company": "AstraZeneca",
+   "use": "AstraZeneca uses Anthropic's Claude / Claude Science (agentic AI for scientific research operations) to reduce the manual burden of research work, alongside other pharma adopters cited by Anthropic. [Anthropic (Claude, Claude Science)]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.statnews.com/2026/06/30/anthropic-release-claude-science-ceo-dario-amodei/",
+   "raw_sector": "",
+   "date": "2026-06",
+   "fresh": "fresh"
+  },
+  {
+   "company": "AstraZeneca",
+   "use": "Machine learning applied to drug discovery research using Microsoft Azure Machine Learning and PyTorch to accelerate identification and prioritization of molecules/compounds. [Microsoft Azure Machine Learning, PyTorch]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://techcommunity.microsoft.com/blog/healthcareandlifesciencesblog/microsoft-azure-and-pytorch-help-astrazeneca-apply-advanced-machine-learning-to-/1731173",
+   "raw_sector": "",
+   "date": "2020-09",
+   "fresh": "stale"
+  },
+  {
+   "company": "AstraZeneca",
+   "use": "Development Assistant, a multi-agent tool on Amazon Bedrock Agents for natural-language querying of clinical, regulatory, safety, and quality data [AWS] [AWS]",
+   "existence": "confirmed",
+   "value": "In production in 6 months; over 1,000 users; insights that took hours now available in minutes",
+   "tier": "",
+   "url": "https://aws.amazon.com/solutions/case-studies/astrazeneca-case-study/",
+   "raw_sector": "",
+   "date": "2025",
+   "fresh": "fresh"
+  },
+  {
+   "company": "AstraZeneca",
+   "use": "Named as a Amazon Bedrock customer/case study [Amazon Bedrock] [Amazon Bedrock]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://aws.amazon.com/bedrock/customers/",
+   "raw_sector": "",
+   "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "AstraZeneca",
+   "use": "Named as a Databricks customer/case study [Databricks] [Databricks]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://siliconangle.com/2025/06/11/new-databricks-tools-aim-cut-costs-complexity-ai-agent-deployment/",
+   "raw_sector": "",
+   "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "AstraZeneca",
+   "use": "AI-assisted systematic literature review using IQVIA's NLP/text-mining solution to identify relevant publications (non-small cell lung cancer trial results) from millions of abstracts, accelerating evidence synthesis. [IQVIA (Healthcare-grade AI NLP platform)]",
+   "existence": "confirmed",
+   "value": "7X faster initial screen; reduced screening time from 20 days to under 3 days; documents cut from 4,736 to 617 (87% reduction)",
+   "tier": "",
+   "url": "https://www.iqvia.com/solutions/real-world-evidence/iqvia-nlp-platform/accelerate-scientific-literature-reviews",
+   "raw_sector": "",
+   "date": "2025-05",
+   "fresh": "fresh"
+  },
+  {
+   "company": "AstraZeneca",
    "use": "AI embedded across drug discovery and development to identify targets and speed timelines",
    "existence": "confirmed",
    "value": "none",
@@ -85,6 +249,127 @@
    "raw_sector": "Healthcare",
    "date": "2023",
    "fresh": "stale"
+  },
+  {
+   "company": "AstraZeneca",
+   "use": "Development Assistant: a multi-agent generative-AI application (supervisor agent routing to terminology, clinical, regulatory and database subagents) that lets clinical, regulatory, safety and quality teams query structured and unstructured drug-development data in natural language, cutting insight generation from hours to minutes. [AWS (Amazon Bedrock)]",
+   "existence": "confirmed",
+   "value": "Concept to production in 6 months; scaling to 1,000+ users",
+   "tier": "",
+   "url": "https://aws.amazon.com/solutions/case-studies/astrazeneca-case-study/",
+   "raw_sector": "",
+   "date": "2025-08",
+   "fresh": "fresh"
+  },
+  {
+   "company": "AstraZeneca",
+   "use": "Fine-tuning of the HyenaDNA genomic foundation model to predict pathogenicity of non-coding genetic variants, identifying disease-driving mutations across the human genome (32,000-nucleotide context window). [AWS (Amazon SageMaker); HyenaDNA]",
+   "existence": "claimed",
+   "value": "20.9% average improvement over CADD baseline; validation AUC 0.752-0.861",
+   "tier": "",
+   "url": "https://aws.amazon.com/blogs/industries/astrazeneca-fine-tunes-genomics-foundation-models-with-amazon-sagemaker/",
+   "raw_sector": "",
+   "date": "2025-01",
+   "fresh": "fresh"
+  },
+  {
+   "company": "AstraZeneca",
+   "use": "AI chest X-ray screening (qXR-LNMS) deployed across Thailand's national health system to detect suspected pulmonary lesions and (expanding) heart failure, screening patients as part of the CREATE study and national program. [Qure.ai; Thailand National Health Security Office]",
+   "existence": "confirmed",
+   "value": "887 hospitals; 660,000+ patients screened since 2022; 54.1% positive predictive value; budget >415M baht",
+   "tier": "",
+   "url": "https://www.artificialintelligence-news.com/news/astrazeneca-ai-clinical-trials-2025/",
+   "raw_sector": "",
+   "date": "2025-12",
+   "fresh": "fresh"
+  },
+  {
+   "company": "AstraZeneca",
+   "use": "AI-driven drug target identification: novel drug targets for chronic kidney disease, idiopathic pulmonary fibrosis, systemic lupus erythematosus and heart failure discovered via the Benevolent Platform and selected into AstraZeneca's discovery portfolio. [BenevolentAI]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.benevolent.com/news-and-media/press-releases-and-in-media/benevolentai-and-astrazeneca-collaboration-yields-continued-success-further-novel-target-progressed-portfolio/",
+   "raw_sector": "",
+   "date": "2024-06",
+   "fresh": "aging"
+  },
+  {
+   "company": "AstraZeneca",
+   "use": "Three-way collaboration to build a multimodal AI foundation model in oncology, using AI-driven simulations to explore drug-resistance mechanisms (e.g. blood cancers) and discover novel drug targets. [Tempus AI; Pathos AI]",
+   "existence": "claimed",
+   "value": "$200M in data licensing and model development fees",
+   "tier": "",
+   "url": "https://investors.tempus.com/news-releases/news-release-details/tempus-signs-expanded-strategic-agreements-astrazeneca-and",
+   "raw_sector": "",
+   "date": "2025-04",
+   "fresh": "fresh"
+  },
+  {
+   "company": "AstraZeneca",
+   "use": "Centre for Genomics Research uses cloud-based AI/ML to analyze large-scale genomic and clinical data (multi-omics) to uncover disease insights and drug targets. [AWS]",
+   "existence": "confirmed",
+   "value": "Target of up to 2 million genomes analyzed by 2026",
+   "tier": "",
+   "url": "https://aws.amazon.com/solutions/case-studies/innovators/astrazeneca/",
+   "raw_sector": "",
+   "date": "2025-08",
+   "fresh": "fresh"
+  },
+  {
+   "company": "AstraZeneca",
+   "use": "AI protein/antibody engineering: use of AlphaFold and internal AI methods (e.g. MapDiff, Edge Set Attention) for structure prediction and de novo protein/antibody design to accelerate biologics discovery. [Google DeepMind (AlphaFold)]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.astrazeneca.com/what-science-can-do/topics/data-science-ai/mapdiff-edge-set-attention-ai-protein-design-breakthroughs.html",
+   "raw_sector": "",
+   "date": "2025-10",
+   "fresh": "fresh"
+  },
+  {
+   "company": "AstraZeneca",
+   "use": "Long-running AI collaboration (AI Factory / imaging) applying deep learning to healthcare data and medical imaging to support R&D and patient care. [Microsoft (Azure)]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://news.microsoft.com/europe/2019/09/10/microsoft-and-astrazeneca-join-forces-on-artificial-intelligence-for-healthcare/",
+   "raw_sector": "",
+   "date": "2019-09",
+   "fresh": "stale"
+  },
+  {
+   "company": "AstraZeneca",
+   "use": "Enterprise rollout of frontier generative-AI tools including ChatGPT Enterprise, plus a company-wide upskilling program teaching employees to apply generative AI in daily work. [OpenAI (ChatGPT Enterprise)]",
+   "existence": "confirmed",
+   "value": "~12,000+ employees upskilled (17,000 AI-certified reported by 2026); 85-93% of surveyed staff positive",
+   "tier": "",
+   "url": "https://www.astrazeneca.com/media-centre/articles/2025/upskillingAI.html",
+   "raw_sector": "",
+   "date": "2025-04",
+   "fresh": "fresh"
+  },
+  {
+   "company": "AstraZeneca",
+   "use": "'Self-healing' supply chain and smart-factory manufacturing using generative-AI agents, digital twins and surrogate AI models to strengthen resilience and accelerate pharmaceutical manufacturing. [none named]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.arcweb.com/blog/accelerating-pharma-manufacturing-astrazenecas-leap-digital-twins-agentic-ai",
+   "raw_sector": "",
+   "date": "2025-06",
+   "fresh": "fresh"
+  },
+  {
+   "company": "AstraZeneca",
+   "use": "AI-powered virtual assistant to increase healthcare-professional (HCP) engagement and reduce costs, built for AstraZeneca by consultancy Credera. [Credera]",
+   "existence": "claimed",
+   "value": "196% increase in HCP engagement",
+   "tier": "",
+   "url": "https://credera.com/case-studies/ai-driven-solution-boosts-engagement-and-reduces-costs-for-leading-pharmaceutical-company",
+   "raw_sector": "",
+   "date": "2024-01",
+   "fresh": "aging"
   }
  ]
 }

@@ -3,52 +3,92 @@
  "name": "Fukuoka Financial Group, Inc.",
  "cc": "JP",
  "vertical": "Financial Services",
- "deployments": 2,
- "confirmed": 2,
- "with_value_number": 0,
- "proof_rate": 0.0,
+ "deployments": 12,
+ "confirmed": 10,
+ "with_value_number": 5,
+ "proof_rate": 0.417,
  "mktcap": 9666666667.0,
  "revenue": 2820266667.0,
  "employees": 8050.0,
  "silent": false,
- "per_bn_revenue": 0.71,
- "per_10k_emp": 2.48,
+ "per_bn_revenue": 4.25,
+ "per_10k_emp": 14.91,
  "benchmarks": {
   "global_vertical": {
-   "deployments": 62,
-   "confirmed": 73,
-   "proof_rate": 0,
-   "n": 377
+   "deployments": 81,
+   "confirmed": 78,
+   "proof_rate": 72,
+   "n": 388
   },
   "country_vertical": {
-   "deployments": 29,
-   "confirmed": 36,
-   "proof_rate": 0,
+   "deployments": 93,
+   "confirmed": 100,
+   "proof_rate": 79,
    "n": 15
   }
  },
- "first_seen": 2025,
+ "first_seen": 2023,
  "by_year": [
   {
-   "year": 2025,
+   "year": 2023,
    "n": 1
+  },
+  {
+   "year": 2024,
+   "n": 3
+  },
+  {
+   "year": 2025,
+   "n": 4
+  },
+  {
+   "year": 2026,
+   "n": 3
   }
  ],
- "undated_pct": 50,
- "momentum": "rising",
- "maturity": "L3",
+ "undated_pct": 8,
+ "momentum": "early_mover,rising",
+ "maturity": "L4",
  "maturity_evidence": [
   "multi_horizontal",
   "named_product:Loan",
+  "value_number",
+  "multi_year",
   "tier_p"
  ],
- "prospect_score": 52,
+ "prospect_score": 83,
  "stack": [
+  "Anthropic",
+  "Google",
+  "Google Cloud",
   "IBM",
-  "OpenAI"
+  "OpenAI",
+  "Salesforce"
  ],
  "vendor_named": true,
  "deployments_detail": [
+  {
+   "company": "Fukuoka Financial Group, Inc.",
+   "use": "Fukuoka Bank deployed LayerX Ai Workforce for contract-document management in structured finance (project finance, real estate finance, LBO, ship/aircraft finance); rolled out from HQ to branches. First regional bank in Japan to adopt it. [LayerX (Ai Workforce)]",
+   "existence": "confirmed",
+   "value": "~7,000 hours/year labor savings targeted",
+   "tier": "",
+   "url": "https://jp.ibtimes.com/fukuoka-bank-adopts-layerx-ai-platform-structured-finance-100829",
+   "raw_sector": "",
+   "date": "2026-05",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Fukuoka Financial Group, Inc.",
+   "use": "Partnership with OpenAI adopting ChatGPT Enterprise, OpenAI o1 (for code and design-document creation), and custom GPTs; used by engineers to streamline coding and non-technical staff for data analysis. First regional Japanese bank to partner with OpenAI. [OpenAI (ChatGPT Enterprise, o1, GPTs)]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://prtimes.jp/main/html/rd/p/000000339.000029076.html",
+   "raw_sector": "",
+   "date": "2025-03",
+   "fresh": "fresh"
+  },
   {
    "company": "Fukuoka Financial Group, Inc.",
    "use": "OpenAI partnership (Mar 2025) for financial ops efficiency + generative AI value creation; dedicated AI Strategy Group est. Apr 2024",
@@ -62,6 +102,50 @@
   },
   {
    "company": "Fukuoka Financial Group, Inc.",
+   "use": "Generative AI to auto-draft the opinion section of loan credit approval documents (ringi-sho); extracts borrower data from CRM/Excel and generates drafts loan officers refine. Rolled out to all Fukuoka Bank branches after a Fukuoka-city pilot. [IBM Japan; middleware supports GPT or Claude interchangeably]",
+   "existence": "confirmed",
+   "value": "~35-40% reduction in ringi preparation time",
+   "tier": "",
+   "url": "https://note.com/ffg_oig/n/na0eb721e9aab",
+   "raw_sector": "",
+   "date": "2024-12",
+   "fresh": "aging"
+  },
+  {
+   "company": "Fukuoka Financial Group, Inc.",
+   "use": "Loan business generative AI (ringi-sho creation support) developed with IBM; PoC then pilot at select branches, phased rollout, with plans for a proprietary LLM. [IBM Japan]",
+   "existence": "confirmed",
+   "value": "35% time reduction in PoC",
+   "tier": "",
+   "url": "https://active.nikkeibp.co.jp/atcl/act/19/00591/061400001/",
+   "raw_sector": "",
+   "date": "2024-05",
+   "fresh": "aging"
+  },
+  {
+   "company": "Fukuoka Financial Group, Inc.",
+   "use": "Shinsa Support AI (審査サポートAI) supporting loan review/screening work in corporate lending; internal use launched across branches with caravan adoption activities. Built to convert tacit credit-assessment knowledge into structured support. [PwC Consulting; development support by Adniss]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://adniss.jp/sol-top/ffg.html",
+   "raw_sector": "",
+   "date": "2025-11",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Fukuoka Financial Group, Inc.",
+   "use": "Strategic partnership deploying exaBase Studio, an AI-agent development/operations platform with RAG Ops templates, for head-office operational reform, sales/market productivity, and compliance/risk management. Phased implementation across the group. [ExaWizards (exaBase Studio)]",
+   "existence": "confirmed",
+   "value": "90% of FFG-proposed AI use cases match existing platform templates",
+   "tier": "",
+   "url": "https://exawizards.com/en/archives/29996/",
+   "raw_sector": "",
+   "date": "2025-05",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Fukuoka Financial Group, Inc.",
    "use": "Loan review support AI + loan proposal document generation AI in core lending ops (with PwC / IBM)",
    "existence": "confirmed",
    "value": "none quantified",
@@ -70,6 +154,50 @@
    "raw_sector": "Banking",
    "date": "missing",
    "fresh": "undated"
+  },
+  {
+   "company": "Fukuoka Financial Group, Inc.",
+   "use": "FFG adopted Salesforce as a data- and AI-driven sales-reform and information-sharing platform blending offline and online channels across the group. [Salesforce]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.salesforce.com/jp/news/press-releases/2024/06/11/ffg-customer-news/",
+   "raw_sector": "",
+   "date": "2024-06",
+   "fresh": "aging"
+  },
+  {
+   "company": "Fukuoka Financial Group, Inc.",
+   "use": "Plan to build a system by FY2027 where AI advises on customers' cash-flow/funding consultations and recommends sales approaches for bankers based on data. [none named]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.nikkei.com/article/DGXZQOJC121NY0S6A310C2000000/",
+   "raw_sector": "",
+   "date": "2026-03",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Fukuoka Financial Group, Inc.",
+   "use": "Minna Bank (FFG subsidiary) uses AI to monitor and detect fraudulent/suspicious bank accounts (e.g., accounts opened with stolen personal data) with high precision. [Groovenauts]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://corporate.minna-no-ginko.com/information/corporate/2023/05/18/353/",
+   "raw_sector": "",
+   "date": "2023-05",
+   "fresh": "stale"
+  },
+  {
+   "company": "Fukuoka Financial Group, Inc.",
+   "use": "Minna Bank uses generative AI to streamline anti-money-laundering suspicious-transaction reporting (data aggregation, file organization, document generation, PDF processing); Gemini Enterprise deployed enterprise-wide after successful pilot. [Google Cloud (Gemini / Gemini Enterprise) with RPA/Python]",
+   "existence": "confirmed",
+   "value": "~47% work-hour reduction; one 7-hour task cut to ~30 seconds",
+   "tier": "",
+   "url": "https://it.impress.co.jp/articles/-/29293",
+   "raw_sector": "",
+   "date": "2026-04",
+   "fresh": "fresh"
   }
  ]
 }

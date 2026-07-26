@@ -3,43 +3,151 @@
  "name": "PNC Financial Services",
  "cc": "US",
  "vertical": "Financial Services",
- "deployments": 1,
- "confirmed": 1,
- "with_value_number": 0,
- "proof_rate": 0.0,
+ "deployments": 9,
+ "confirmed": 8,
+ "with_value_number": 3,
+ "proof_rate": 0.333,
  "mktcap": 99190000000.0,
  "revenue": 24320000000.0,
  "employees": 55333.0,
  "silent": false,
- "per_bn_revenue": 0.04,
- "per_10k_emp": 0.18,
+ "per_bn_revenue": 0.37,
+ "per_10k_emp": 1.63,
  "benchmarks": {
   "global_vertical": {
-   "deployments": 0,
-   "confirmed": 17,
-   "proof_rate": 0,
-   "n": 377
+   "deployments": 58,
+   "confirmed": 67,
+   "proof_rate": 58,
+   "n": 388
   },
   "country_vertical": {
-   "deployments": 0,
-   "confirmed": 19,
-   "proof_rate": 0,
-   "n": 76
+   "deployments": 55,
+   "confirmed": 62,
+   "proof_rate": 68,
+   "n": 77
   }
  },
- "first_seen": null,
- "by_year": [],
- "undated_pct": 100,
- "momentum": "none",
- "maturity": "L3",
+ "first_seen": 2020,
+ "by_year": [
+  {
+   "year": 2020,
+   "n": 1
+  },
+  {
+   "year": 2021,
+   "n": 1
+  },
+  {
+   "year": 2022,
+   "n": 1
+  },
+  {
+   "year": 2023,
+   "n": 1
+  },
+  {
+   "year": 2025,
+   "n": 1
+  },
+  {
+   "year": 2026,
+   "n": 3
+  }
+ ],
+ "undated_pct": 11,
+ "momentum": "early_mover,rising",
+ "maturity": "L4",
  "maturity_evidence": [
+  "multi_horizontal",
   "named_product:AI factory",
+  "value_number",
+  "multi_year",
   "tier_p"
  ],
- "prospect_score": 54,
- "stack": [],
- "vendor_named": false,
+ "prospect_score": 75,
+ "stack": [
+  "Microsoft",
+  "NVIDIA"
+ ],
+ "vendor_named": true,
  "deployments_detail": [
+  {
+   "company": "PNC Financial Services",
+   "use": "PNC is building its own in-house 'AI factory' — proprietary large and small language models, internal data centers, and purchased Nvidia chips — to run AI without reliance on external vendors and usage-based token pricing, targeting fraud detection and client care/call center among priority areas. [Nvidia (chips); in-house/open-source LLMs]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.americanbanker.com/news/why-pnc-is-building-its-own-ai-factory",
+   "raw_sector": "",
+   "date": "2026-06-11",
+   "fresh": "fresh"
+  },
+  {
+   "company": "PNC Financial Services",
+   "use": "PNC Claim Predictor — an AI/ML healthcare treasury solution that learns from historical claim data to predict and flag insurance claims likely to be rejected before submission; integrates with EMR systems such as Epic. [none named (integrates with Epic EMR)]",
+   "existence": "confirmed",
+   "value": "Providers face ~$5M/yr in initial claim rejections; ~$100 per claim to rework; 45% of rejected claims never resubmitted",
+   "tier": "",
+   "url": "https://pnc.mediaroom.com/2023-03-21-PNC-Treasury-Management-Launches-Artificial-Intelligence-Enabled-Healthcare-Solution-Claim-Predictor-To-Prevent-Lost-Revenue",
+   "raw_sector": "",
+   "date": "2023-03-21",
+   "fresh": "stale"
+  },
+  {
+   "company": "PNC Financial Services",
+   "use": "PINACLE Cash Forecasting — an AI/ML-enabled treasury management application that trains five models per client to select the most accurate model-set and generate 31/60/90-day rolling cash-flow forecasts with back-testing. [none named]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.prnewswire.com/news-releases/pnc-treasury-management-launches-artificial-intelligence-machine-learning-enabled-cash-forecasting-application-301418730.html",
+   "raw_sector": "",
+   "date": "2021-11-09",
+   "fresh": "stale"
+  },
+  {
+   "company": "PNC Financial Services",
+   "use": "PNC launched a modernized Mobile Banking app featuring embedded generative AI (intelligent assistance, proactive financial insights), built via agentic software development on a patented data-streaming microservices architecture using frontier AI models. [none named (frontier AI models)]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://ffnews.com/news/pnc-launches-modernized-mobile-banking-app-powered-by-agentic-ai-development",
+   "raw_sector": "",
+   "date": "2026-07-09",
+   "fresh": "fresh"
+  },
+  {
+   "company": "PNC Financial Services",
+   "use": "PNC deployed LivePerson's Conversational Cloud for AI-powered asynchronous messaging across mobile app and web, letting customers message agents on their own schedule. [LivePerson (Conversational Cloud)]",
+   "existence": "confirmed",
+   "value": "150,000 messaging conversations/month (end 2022); 577% growth since inception; 80%+ CSAT; 90% resolve without calling",
+   "tier": "",
+   "url": "https://www.liveperson.com/blog/pnc-bank-messaging-strategy/",
+   "raw_sector": "",
+   "date": "2022-11-28",
+   "fresh": "stale"
+  },
+  {
+   "company": "PNC Financial Services",
+   "use": "PNC deployed Microsoft Copilot and multiple generative AI platforms across the organization to enhance employee productivity and streamline processes, per its 2025 Annual Report enterprise AI strategy. [Microsoft (Copilot)]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.linkedin.com/posts/jeremytyers_pncs-2025-annual-report-highlights-the-inclusion-activity-7436438531889094656-jZOx",
+   "raw_sector": "",
+   "date": "2026-03-08",
+   "fresh": "fresh"
+  },
+  {
+   "company": "PNC Financial Services",
+   "use": "PNC's Analytics Competency Center uses Anaconda Enterprise (open-source Python) enterprise-wide to build ML/risk models — Probability of Default, Loss Given Default, Exposure at Default, PPNR modeling, scorecards, and pricing/forecasting — with Monte Carlo simulations reimplemented in PySpark. [Anaconda; PySpark]",
+   "existence": "confirmed",
+   "value": "Monte Carlo simulation runtimes reduced from hours to minutes",
+   "tier": "",
+   "url": "https://www.anaconda.com/resources/case-study/pnc-financial-services",
+   "raw_sector": "",
+   "date": "2020-01-01",
+   "fresh": "stale"
+  },
   {
    "company": "PNC Financial Services",
    "use": "Building own \"AI factory\" + agentic AI in software development; $1.4B AI investment plan",
@@ -50,6 +158,17 @@
    "raw_sector": "Financials",
    "date": "missing",
    "fresh": "undated"
+  },
+  {
+   "company": "PNC Financial Services",
+   "use": "Agentic AI introduced into PNC's software development lifecycle, delivering measurable developer productivity gains; CIO Charaka Kithulegoda reported results at the BIAN Banking Summit 2025. [none named]",
+   "existence": "confirmed",
+   "value": "63% faster user story completion; 40% improvement in developer productivity",
+   "tier": "",
+   "url": "https://www.linkedin.com/posts/urlinkedup_pnc-using-agentic-ai-in-software-development-activity-7397390901087490049-nRrA",
+   "raw_sector": "",
+   "date": "2025-11-18",
+   "fresh": "fresh"
   }
  ]
 }

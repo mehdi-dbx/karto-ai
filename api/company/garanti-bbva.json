@@ -3,43 +3,54 @@
  "name": "Garanti BBVA",
  "cc": "TR",
  "vertical": "Financial Services",
- "deployments": 2,
- "confirmed": 2,
- "with_value_number": 1,
- "proof_rate": 0.5,
+ "deployments": 9,
+ "confirmed": 8,
+ "with_value_number": 3,
+ "proof_rate": 0.333,
  "mktcap": 16524375000.0,
  "revenue": 11339062500.0,
  "employees": 23376.0,
  "silent": false,
- "per_bn_revenue": 0.18,
- "per_10k_emp": 0.86,
+ "per_bn_revenue": 0.79,
+ "per_10k_emp": 3.85,
  "benchmarks": {
   "global_vertical": {
-   "deployments": 62,
-   "confirmed": 73,
-   "proof_rate": 61,
-   "n": 377
+   "deployments": 58,
+   "confirmed": 67,
+   "proof_rate": 58,
+   "n": 388
   },
   "country_vertical": {
-   "deployments": 25,
-   "confirmed": 50,
-   "proof_rate": 75,
+   "deployments": 100,
+   "confirmed": 100,
+   "proof_rate": 50,
    "n": 5
   }
  },
- "first_seen": null,
- "by_year": [],
- "undated_pct": 100,
- "momentum": "none",
- "maturity": "L3",
+ "first_seen": 2025,
+ "by_year": [
+  {
+   "year": 2025,
+   "n": 3
+  },
+  {
+   "year": 2026,
+   "n": 1
+  }
+ ],
+ "undated_pct": 56,
+ "momentum": "rising",
+ "maturity": "L4",
  "maturity_evidence": [
   "multi_horizontal",
   "named_product:Ugi",
   "value_number",
+  "multi_year",
   "tier_p"
  ],
- "prospect_score": 32,
+ "prospect_score": 75,
  "stack": [
+  "IBM",
   "OpenAI"
  ],
  "vendor_named": true,
@@ -57,6 +68,28 @@
   },
   {
    "company": "Garanti BBVA",
+   "use": "Smart assistant Ugi enhanced with generative AI for customer support",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.bbva.com/en/innovation/garanti-bbva-enhances-its-smart-assistant-ugi-using-generative-artificial-intelligence/",
+   "raw_sector": "",
+   "date": "2025-04-22",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Garanti BBVA",
+   "use": "ChatGPT Enterprise for customer service, SME loan processing, and fraud detection [ChatGPT Enterprise]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.bbva.com/en/innovation/generative-ai-customer-service-smes-and-fraud-detection-stood-out-at-the-bbva-bot-talent-competition/",
+   "raw_sector": "",
+   "date": "2025-03-07",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Garanti BBVA",
    "use": "Group-level OpenAI partnership (via BBVA) to transform AI-powered customer experience and operational efficiency",
    "existence": "confirmed",
    "value": "none",
@@ -65,6 +98,61 @@
    "raw_sector": "Banks",
    "date": "missing",
    "fresh": "undated"
+  },
+  {
+   "company": "Garanti BBVA",
+   "use": "Generative AI enhancement of mobile banking platform with 900+ AI models",
+   "existence": "confirmed",
+   "value": "900",
+   "tier": "",
+   "url": "https://www.bbva.com/en/tr/innovation/garanti-bbva-mobile-redefines-digital-banking-in-2025/",
+   "raw_sector": "",
+   "date": "2026-01-14",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Garanti BBVA",
+   "use": "ADA data and artificial intelligence platform global rollout",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.bbva.com/en/specials/innovation/",
+   "raw_sector": "",
+   "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "Garanti BBVA",
+   "use": "IBM Db2 Analytics Accelerator deployment for data warehouse and AI [IBM Db2 Analytics Accelerator]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.ibm.com/case-studies/garanti-bbva-data-ai-ibm-z",
+   "raw_sector": "",
+   "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "Garanti BBVA",
+   "use": "Generative AI development tool reducing development times by up to 75%",
+   "existence": "confirmed",
+   "value": "75",
+   "tier": "",
+   "url": "https://www.bbva.com/en/innovation/artificial-intelligence/",
+   "raw_sector": "",
+   "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "Garanti BBVA",
+   "use": "AI model for real-time risk scoring and suspicious account detection",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.bbva.com/en/tr/economy-and-finance/garanti-bbva-teknoloji-scoops-best-financial-institution-innovation-accolade-at-datos-impact-awards/",
+   "raw_sector": "",
+   "date": "2025-08-22",
+   "fresh": "fresh"
   }
  ]
 }

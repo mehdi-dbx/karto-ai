@@ -3,21 +3,21 @@
  "name": "Wienerberger",
  "cc": "AT",
  "vertical": "Real Estate & Construction",
- "deployments": 2,
- "confirmed": 1,
- "with_value_number": 0,
- "proof_rate": 0.0,
+ "deployments": 6,
+ "confirmed": 5,
+ "with_value_number": 1,
+ "proof_rate": 0.167,
  "mktcap": 2408400000.0,
  "revenue": 4935600000.0,
  "employees": 20220.0,
  "silent": false,
- "per_bn_revenue": 0.41,
- "per_10k_emp": 0.99,
+ "per_bn_revenue": 1.22,
+ "per_10k_emp": 2.97,
  "benchmarks": {
   "global_vertical": {
-   "deployments": 82,
-   "confirmed": 31,
-   "proof_rate": 0,
+   "deployments": 69,
+   "confirmed": 75,
+   "proof_rate": 46,
    "n": 154
   }
  },
@@ -29,19 +29,24 @@
   },
   {
    "year": 2025,
-   "n": 1
+   "n": 3
   }
  ],
- "undated_pct": 0,
- "momentum": "early_mover,flat",
+ "undated_pct": 33,
+ "momentum": "early_mover,rising",
  "maturity": "L3",
  "maturity_evidence": [
+  "multi_horizontal",
   "named_product:Digital",
+  "value_number",
   "tier_p"
  ],
- "prospect_score": 54,
- "stack": [],
- "vendor_named": false,
+ "prospect_score": 63,
+ "stack": [
+  "Microsoft",
+  "Microsoft Azure"
+ ],
+ "vendor_named": true,
  "deployments_detail": [
   {
    "company": "Wienerberger",
@@ -56,6 +61,39 @@
   },
   {
    "company": "Wienerberger",
+   "use": "Production optimization using AI, data science, and digital twins for real-time manufacturing process efficiency",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.wienerberger.com/en/stories/2025/20251119-Production-of-the-Future-How-Digitalization-and-AI-are-changing-Industry.html",
+   "raw_sector": "",
+   "date": "2025-11-19",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Wienerberger",
+   "use": "Data-driven production efficiency and sustainability optimization using AI and digital processes",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.wienerberger.com/en/stories/2025/20250604-From-Sensor-to-Decision-Industry-4-0-at-wienerberger.html",
+   "raw_sector": "",
+   "date": "2025-07-04",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Wienerberger",
+   "use": "Connected factory using SAS Viya on Microsoft Azure to reduce waste and optimize operations [SAS Viya]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.sas.com/en_gb/customers/wienerberger.html",
+   "raw_sector": "",
+   "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "Wienerberger",
    "use": "Digital transformation program embracing AI chatbots and AI-driven tools across the business (company story)",
    "existence": "confirmed",
    "value": "none",
@@ -64,6 +102,17 @@
    "raw_sector": "Construction Materials",
    "date": "2025",
    "fresh": "fresh"
+  },
+  {
+   "company": "Wienerberger",
+   "use": "AI model for energy consumption optimization and waste reduction in manufacturing [Faktion]",
+   "existence": "confirmed",
+   "value": "92%",
+   "tier": "",
+   "url": "https://www.faktion.com/case/smart-energy-management-reduced-costs-and-carbon-footprint-for-wienerberger",
+   "raw_sector": "",
+   "date": "missing",
+   "fresh": "undated"
   }
  ]
 }

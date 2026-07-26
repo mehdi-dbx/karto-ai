@@ -3,37 +3,45 @@
  "name": "Transurban",
  "cc": "AU",
  "vertical": "Logistics & Supply Chain",
- "deployments": 2,
- "confirmed": 2,
- "with_value_number": 1,
- "proof_rate": 0.5,
+ "deployments": 12,
+ "confirmed": 10,
+ "with_value_number": 10,
+ "proof_rate": 0.833,
  "mktcap": 30413333333.0,
  "revenue": 2513333333.0,
  "employees": 4100.0,
  "silent": false,
- "per_bn_revenue": 0.8,
- "per_10k_emp": 4.88,
+ "per_bn_revenue": 4.77,
+ "per_10k_emp": 29.27,
  "benchmarks": {
   "global_vertical": {
-   "deployments": 65,
-   "confirmed": 74,
-   "proof_rate": 52,
-   "n": 66
+   "deployments": 88,
+   "confirmed": 94,
+   "proof_rate": 95,
+   "n": 67
   }
  },
- "first_seen": 2024,
+ "first_seen": 2023,
  "by_year": [
   {
+   "year": 2023,
+   "n": 6
+  },
+  {
    "year": 2024,
-   "n": 1
+   "n": 2
   },
   {
    "year": 2025,
-   "n": 1
+   "n": 2
+  },
+  {
+   "year": 2026,
+   "n": 2
   }
  ],
  "undated_pct": 0,
- "momentum": "early_mover,flat",
+ "momentum": "early_mover,cooling",
  "maturity": "L4",
  "maturity_evidence": [
   "multi_horizontal",
@@ -42,9 +50,12 @@
   "multi_year",
   "tier_p"
  ],
- "prospect_score": 40,
- "stack": [],
- "vendor_named": false,
+ "prospect_score": 67,
+ "stack": [
+  "Amazon AWS",
+  "Anthropic"
+ ],
+ "vendor_named": true,
  "deployments_detail": [
   {
    "company": "Transurban",
@@ -59,6 +70,83 @@
   },
   {
    "company": "Transurban",
+   "use": "AI 'auto-correction' model that analyses ALPR camera imagery to identify vehicles/number plates and bill trips missed by e-tag detection, reducing manual human review of toll images [Amazon SageMaker (primary), Dataiku]",
+   "existence": "confirmed",
+   "value": "99% model accuracy; ~2.5M customer trips processed daily; up to 40% reduction in images sent for human review",
+   "tier": "",
+   "url": "https://www.itnews.com.au/news/transurban-using-ai-to-aid-toll-collection-611478",
+   "raw_sector": "",
+   "date": "2024-09-12",
+   "fresh": "aging"
+  },
+  {
+   "company": "Transurban",
+   "use": "AI-driven incident detection scanning CityLink CCTV cameras for traffic anomalies (poor visibility, debris, stopped vehicles) faster than the human eye to alert traffic control [none]",
+   "existence": "confirmed",
+   "value": "Identified 10,000+ stopped vehicles in 2023; average 5 minutes to incident location",
+   "tier": "",
+   "url": "https://www.transurban.com/about-us/innovation",
+   "raw_sector": "",
+   "date": "2023-04-19",
+   "fresh": "stale"
+  },
+  {
+   "company": "Transurban",
+   "use": "Burnley Tunnel 'pacemaker' AI-driven dynamic lighting that activates visual speed guides when traffic slows to smooth congestion in Melbourne [none]",
+   "existence": "confirmed",
+   "value": "15%+ speed increase during peak hours (4-7pm); ~50 seconds faster tunnel transit",
+   "tier": "",
+   "url": "https://www.transurban.com/about-us/innovation",
+   "raw_sector": "",
+   "date": "2023-04-19",
+   "fresh": "stale"
+  },
+  {
+   "company": "Transurban",
+   "use": "Connected-vehicle telematics analytics using anonymised data to detect road-safety issues across CityLink, Gateway Motorway (Brisbane) and M7-M12 (Sydney) [none]",
+   "existence": "confirmed",
+   "value": "75% reduction in rear-end crashes at CityLink Domain Tunnel exit",
+   "tier": "",
+   "url": "https://www.transurban.com/about-us/innovation",
+   "raw_sector": "",
+   "date": "2023-04-19",
+   "fresh": "stale"
+  },
+  {
+   "company": "Transurban",
+   "use": "Purpose-built AI incident-management platform that learns from previous incidents and recommends response strategies (speed reductions, lane closures) to control-room crews [none]",
+   "existence": "confirmed",
+   "value": "On-road incidents typically cleared in under 10 minutes; ~1,000 incidents handled weekly",
+   "tier": "",
+   "url": "https://www.transurban.com/news/using-ai-to-keep-people-moving",
+   "raw_sector": "",
+   "date": "2023-04-19",
+   "fresh": "stale"
+  },
+  {
+   "company": "Transurban",
+   "use": "Proprietary dynamic tolling algorithm on US Express Lanes (I-95, I-395, I-495 around Washington DC) that adjusts pricing every ~10 minutes based on demand to maintain minimum speeds [none]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.transurban.com/about-us/innovation",
+   "raw_sector": "",
+   "date": "2023-04-19",
+   "fresh": "stale"
+  },
+  {
+   "company": "Transurban",
+   "use": "Collaboration with Plus to test Level 4 autonomous freight trucks (generative AI, computer vision, lidar/radar) combined with smart-road infrastructure in live traffic on Australian motorways [Plus (autonomous driving), Level 4 ADS]",
+   "existence": "claimed",
+   "value": "11 successful trials of fully/partially automated vehicles to date",
+   "tier": "",
+   "url": "https://www.transurban.com/news/pluspartnership",
+   "raw_sector": "",
+   "date": "2023-08-23",
+   "fresh": "stale"
+  },
+  {
+   "company": "Transurban",
    "use": "Generative AI customer service chatbot being enhanced with agentic AI for contextual and proactive engagement",
    "existence": "confirmed",
    "value": "none",
@@ -66,6 +154,39 @@
    "url": "https://www.transurban.com/about-us/innovation",
    "raw_sector": "Infrastructure",
    "date": "2025",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Transurban",
+   "use": "'Lex' generative AI customer-service chatbot on the Linkt app and website providing 24/7 self-service support (e-tag issues, disaster info), with multi-turn clarifying questions [Anthropic Claude, Amazon Bedrock (guardrails), AWS, Concentrix Catalyst]",
+   "existence": "confirmed",
+   "value": "Resolving 62% of chats without human intervention; Net Promoter Score +64",
+   "tier": "",
+   "url": "https://www.itnews.com.au/news/transurban-to-run-more-of-its-customer-service-out-of-amazon-connect-626063",
+   "raw_sector": "",
+   "date": "2026-05-28",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Transurban",
+   "use": "Amazon Connect omnichannel contact-centre platform (IVR, plus expansion to case and email management) underpinning AI-assisted customer service including a planned 'hardship recognition' AI agent [Amazon Connect, AWS, Concentrix]",
+   "existence": "claimed",
+   "value": "97% of customer interactions occur through digital channels",
+   "tier": "",
+   "url": "https://www.itnews.com.au/news/transurban-to-run-more-of-its-customer-service-out-of-amazon-connect-626063",
+   "raw_sector": "",
+   "date": "2026-05-28",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Transurban",
+   "use": "'Cerberus' agentic AI cyber watchdog automating quality-assurance checks on all security incident reports for consistency and accuracy in incident response [none]",
+   "existence": "confirmed",
+   "value": "100% QA coverage of security incidents; equivalent to 2,000+ hours of manual QA saved per year",
+   "tier": "",
+   "url": "https://www.linkedin.com/posts/transurban_transforming-the-future-of-cyber-defence-activity-7365640468845522946-OfVl",
+   "raw_sector": "",
+   "date": "2025-08",
    "fresh": "fresh"
   }
  ]

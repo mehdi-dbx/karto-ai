@@ -3,26 +3,26 @@
  "name": "ASML Holding",
  "cc": "NL",
  "vertical": "Manufacturing & Robotics",
- "deployments": 1,
- "confirmed": 1,
+ "deployments": 4,
+ "confirmed": 4,
  "with_value_number": 0,
  "proof_rate": 0.0,
  "mktcap": 659329200000.0,
  "revenue": 38156400000.0,
  "employees": 43882.0,
  "silent": false,
- "per_bn_revenue": 0.03,
- "per_10k_emp": 0.23,
+ "per_bn_revenue": 0.1,
+ "per_10k_emp": 0.91,
  "benchmarks": {
   "global_vertical": {
-   "deployments": 0,
-   "confirmed": 24,
+   "deployments": 42,
+   "confirmed": 66,
    "proof_rate": 0,
-   "n": 147
+   "n": 150
   },
   "country_vertical": {
-   "deployments": 0,
-   "confirmed": 20,
+   "deployments": 40,
+   "confirmed": 40,
    "proof_rate": 0,
    "n": 6
   }
@@ -34,16 +34,19 @@
    "n": 1
   }
  ],
- "undated_pct": 0,
+ "undated_pct": 75,
  "momentum": "rising",
  "maturity": "L3",
  "maturity_evidence": [
+  "multi_horizontal",
   "named_product:Machine",
   "tier_p"
  ],
- "prospect_score": 54,
- "stack": [],
- "vendor_named": false,
+ "prospect_score": 64,
+ "stack": [
+  "Mistral AI"
+ ],
+ "vendor_named": true,
  "deployments_detail": [
   {
    "company": "ASML Holding",
@@ -55,6 +58,39 @@
    "raw_sector": "Semiconductors",
    "date": "2025",
    "fresh": "fresh"
+  },
+  {
+   "company": "ASML Holding",
+   "use": "Strategic partnership with Mistral AI for innovative products and solutions for customers [Mistral AI]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.asml.com/en/news/press-releases/2025/asml-mistral-ai-enter-strategic-partnership",
+   "raw_sector": "",
+   "date": "Sep 9, 2025",
+   "fresh": "undated"
+  },
+  {
+   "company": "ASML Holding",
+   "use": "AI used to extend innovation roadmap and enhance lithography capabilities",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.asml.com/en/investors/annual-report/2025/strategy-and-stories",
+   "raw_sector": "",
+   "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "ASML Holding",
+   "use": "Responsible AI governance, principles, and practices implementation",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.asml.com/en/responsible-ai",
+   "raw_sector": "",
+   "date": "missing",
+   "fresh": "undated"
   }
  ]
 }

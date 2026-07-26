@@ -3,47 +3,56 @@
  "name": "Chubb Limited",
  "cc": "US",
  "vertical": "Financial Services",
- "deployments": 1,
- "confirmed": 1,
- "with_value_number": 1,
- "proof_rate": 1.0,
+ "deployments": 10,
+ "confirmed": 8,
+ "with_value_number": 3,
+ "proof_rate": 0.3,
  "mktcap": 135320000000.0,
  "revenue": 62030000000.0,
  "employees": 45000.0,
  "silent": false,
- "per_bn_revenue": 0.02,
- "per_10k_emp": 0.22,
+ "per_bn_revenue": 0.16,
+ "per_10k_emp": 2.22,
  "benchmarks": {
   "global_vertical": {
-   "deployments": 0,
-   "confirmed": 17,
-   "proof_rate": 76,
-   "n": 377
+   "deployments": 65,
+   "confirmed": 67,
+   "proof_rate": 54,
+   "n": 388
   },
   "country_vertical": {
-   "deployments": 0,
-   "confirmed": 19,
-   "proof_rate": 81,
-   "n": 76
+   "deployments": 62,
+   "confirmed": 62,
+   "proof_rate": 66,
+   "n": 77
   }
  },
- "first_seen": 2025,
+ "first_seen": 2024,
  "by_year": [
   {
+   "year": 2024,
+   "n": 4
+  },
+  {
    "year": 2025,
-   "n": 1
+   "n": 6
   }
  ],
  "undated_pct": 0,
- "momentum": "rising",
- "maturity": "L3",
+ "momentum": "early_mover,rising",
+ "maturity": "L4",
  "maturity_evidence": [
+  "multi_horizontal",
   "named_product:Chubb",
-  "value_number"
+  "value_number",
+  "multi_year"
  ],
- "prospect_score": 14,
- "stack": [],
- "vendor_named": false,
+ "prospect_score": 76,
+ "stack": [
+  "Microsoft",
+  "OpenAI"
+ ],
+ "vendor_named": true,
  "deployments_detail": [
   {
    "company": "Chubb Limited",
@@ -54,6 +63,105 @@
    "url": "https://news.chubb.com/2025-11-12-Chubb-Launches-AI-Powered-Embedded-Insurance-Engine",
    "raw_sector": "Financials",
    "date": "2025-11",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Chubb Limited",
+   "use": "Generative-AI-powered digitization of Chubb's global claims intake via Cytora's platform: AI-native claims document flows automatically digitize claims documents, uplift straight-through processing and decouple claims volume from expense; publicly stated to cover Chubb's entire North America claims intake digitization. [Cytora (generative AI)]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.cytora.com/risk-flow-center/blog/cytora-engaged-by-chubb-to-enhance-claims-automation",
+   "raw_sector": "",
+   "date": "2024-02-28",
+   "fresh": "aging"
+  },
+  {
+   "company": "Chubb Limited",
+   "use": "Chubb 4D, a proprietary advanced analytics/data-modeling system that mines structured and unstructured claim data (adjuster notes plus claims-professional inputs) to identify fraud, optimize claims outcomes, and flag risk across workers compensation, casualty bodily injury, employment practices liability and other lines; used with the Special Investigations Unit. [Chubb proprietary (Chubb 4D)]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.chubb.com/us-en/claims/value-added-claims-resources.html",
+   "raw_sector": "",
+   "date": "2024-01-01",
+   "fresh": "aging"
+  },
+  {
+   "company": "Chubb Limited",
+   "use": "AI-driven underwriting submission intake and pre-underwriting triage on a governed, secure enterprise platform, reducing submission-to-quote cycle times from days to hours in some markets, plus AI-assisted pricing/triage decisions (described in Chubb's December 2025 investor presentation as moving from pilots to production). [none]",
+   "existence": "confirmed",
+   "value": "~85% of major underwriting and claims processes automated; ~20% headcount reduction over 3-4 years",
+   "tier": "",
+   "url": "https://www.processexcellencenetwork.com/digital-transformation/news/chubb-lays-out-ambitious-digital-transformation-plans-with-focus-on-ai-automation/amp",
+   "raw_sector": "",
+   "date": "2025-12-15",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Chubb Limited",
+   "use": "AI in claims operations to increase no-touch (straight-through) claim rates through document automation and AI tools, plus AI-based claims severity assessment and first-contact speed improvements, as described in Chubb's December 2025 investor presentation and digital transformation plan. [none]",
+   "existence": "claimed",
+   "value": "70% of the business affected within three years",
+   "tier": "",
+   "url": "https://www.processexcellencenetwork.com/digital-transformation/news/chubb-lays-out-ambitious-digital-transformation-plans-with-focus-on-ai-automation/amp",
+   "raw_sector": "",
+   "date": "2025-12-15",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Chubb Limited",
+   "use": "AI-enabled portfolio management and risk selection: AI used to identify changes in market conditions and optimize risk selection across the portfolio, leveraging curated proprietary data (December 2025 investor presentation). [none]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.processexcellencenetwork.com/digital-transformation/news/chubb-lays-out-ambitious-digital-transformation-plans-with-focus-on-ai-automation/amp",
+   "raw_sector": "",
+   "date": "2025-12-15",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Chubb Limited",
+   "use": "Hi Marley AI-powered conversational platform deployed for claims communication: secure two-way SMS texting between Chubb claims teams and clients, with multilingual support and real-time claims updates. Launched by Chubb Canada. [Hi Marley]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.linkedin.com/posts/shelby-reid-71b360219_im-excited-to-announce-that-chubb-canada-activity-7432900717377626113-t_fG",
+   "raw_sector": "",
+   "date": "2025-11-01",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Chubb Limited",
+   "use": "Internal proprietary 'Chubb GPT' large language model and an internal app store that delivers copilots to different functions of the company; custom LLMs built on Chubb's own proprietary data. CEO stated 'We're a practitioner of that. We're doing that right now.' [Chubb proprietary LLMs]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.carriermanagement.com/news/2024/06/06/262893.htm",
+   "raw_sector": "",
+   "date": "2024-06-06",
+   "fresh": "aging"
+  },
+  {
+   "company": "Chubb Limited",
+   "use": "AI coding copilot that enhances programmer/developer productivity, delivered as part of Chubb's internal copilot app store to its engineering function (Chubb employs 3,500+ engineers globally). [none]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.carriermanagement.com/news/2024/06/06/262893.htm",
+   "raw_sector": "",
+   "date": "2024-06-06",
+   "fresh": "aging"
+  },
+  {
+   "company": "Chubb Limited",
+   "use": "Chubb Studio AI-powered optimization engine for embedded insurance: proprietary AI analyzes customer data to identify personas and deliver personalized product recommendations (phone damage, travel, life) at the point of sale across digital distribution partners, with click-to-engage and real-time performance feedback. [Chubb proprietary AI]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://news.chubb.com/2025-11-12-Chubb-Launches-AI-Powered-Embedded-Insurance-Engine",
+   "raw_sector": "",
+   "date": "2025-11-12",
    "fresh": "fresh"
   }
  ]

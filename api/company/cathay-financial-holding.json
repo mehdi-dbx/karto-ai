@@ -3,43 +3,51 @@
  "name": "Cathay Financial Holding",
  "cc": "TW",
  "vertical": "Financial Services",
- "deployments": 3,
- "confirmed": 3,
- "with_value_number": 1,
- "proof_rate": 0.333,
+ "deployments": 9,
+ "confirmed": 6,
+ "with_value_number": 2,
+ "proof_rate": 0.222,
  "mktcap": 44375000000.0,
  "revenue": 37187500000.0,
  "employees": 51797.0,
  "silent": false,
- "per_bn_revenue": 0.08,
- "per_10k_emp": 0.58,
+ "per_bn_revenue": 0.24,
+ "per_10k_emp": 1.74,
  "benchmarks": {
   "global_vertical": {
-   "deployments": 86,
-   "confirmed": 89,
-   "proof_rate": 57,
-   "n": 377
+   "deployments": 58,
+   "confirmed": 55,
+   "proof_rate": 44,
+   "n": 388
   },
   "country_vertical": {
-   "deployments": 82,
-   "confirmed": 82,
-   "proof_rate": 36,
+   "deployments": 64,
+   "confirmed": 55,
+   "proof_rate": 27,
    "n": 12
   }
  },
- "first_seen": 2024,
+ "first_seen": 2022,
  "by_year": [
+  {
+   "year": 2022,
+   "n": 1
+  },
   {
    "year": 2024,
    "n": 2
   },
   {
+   "year": 2025,
+   "n": 2
+  },
+  {
    "year": 2026,
-   "n": 1
+   "n": 4
   }
  ],
  "undated_pct": 0,
- "momentum": "early_mover,cooling",
+ "momentum": "early_mover,rising",
  "maturity": "L4",
  "maturity_evidence": [
   "multi_horizontal",
@@ -48,12 +56,24 @@
   "multi_year",
   "tier_p"
  ],
- "prospect_score": 45,
+ "prospect_score": 67,
  "stack": [
+  "NVIDIA",
   "OpenAI"
  ],
  "vendor_named": true,
  "deployments_detail": [
+  {
+   "company": "Cathay Financial Holding",
+   "use": "AI fraud interception technology for banking",
+   "existence": "confirmed",
+   "value": "1.3 billion",
+   "tier": "",
+   "url": "https://www.youtube.com/watch?v=yq7WWf8EkGU",
+   "raw_sector": "",
+   "date": "2025-01-01",
+   "fresh": "fresh"
+  },
   {
    "company": "Cathay Financial Holding",
    "use": "Launched GAIA generative-AI development framework (knowledge base, model hub, guardrails, unified governance) across subsidiaries for 8.6M+ digital customers; GAIA 2.0 adds multi-agent architecture",
@@ -78,6 +98,17 @@
   },
   {
    "company": "Cathay Financial Holding",
+   "use": "AI-empowered claims review platform integrating case review decision trees",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.celent.com/en/insights/432909308",
+   "raw_sector": "",
+   "date": "2022-10-01",
+   "fresh": "stale"
+  },
+  {
+   "company": "Cathay Financial Holding",
    "use": "Cathay Life \"CathayEye\" AI risk-identification tool predicting policyholder mortality/hospitalization risk over 10 years",
    "existence": "confirmed",
    "value": "none",
@@ -86,6 +117,50 @@
    "raw_sector": "Financials",
    "date": "2024-11",
    "fresh": "aging"
+  },
+  {
+   "company": "Cathay Financial Holding",
+   "use": "Enterprise-wide AI deployment with ChatGPT Enterprise across subsidiaries and employee tools [OpenAI ChatGPT Enterprise]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.prnewswire.com/apac/news-releases/cathay-fhc-advances-ai-adoption-across-the-group-with-openai-302735655.html",
+   "raw_sector": "",
+   "date": "2026-04-07",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Cathay Financial Holding",
+   "use": "Agentic AI scaling in financial services operations and governance [OpenAI]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.linkedin.com/posts/ittech-pulse_cathay-fhc-advances-ai-adoption-across-the-activity-7447277656343195648-oq4E",
+   "raw_sector": "",
+   "date": "2026-04-07",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Cathay Financial Holding",
+   "use": "Financial-domain model development and data governance using NVIDIA AI ecosystem [NVIDIA]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://finance.yahoo.com/sectors/technology/articles/cathay-financial-holdings-leverages-open-223200111.html",
+   "raw_sector": "",
+   "date": "2026-06-11",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Cathay Financial Holding",
+   "use": "Deep AI integration across internal workflows and customer services",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.theasianbanker.com/updates-and-articles/cathay-financial-holdings-enhances-productivity-and-employee-engagement-with-deep-ai-integration-across-processes",
+   "raw_sector": "",
+   "date": "2025-09-22",
+   "fresh": "fresh"
   }
  ]
 }

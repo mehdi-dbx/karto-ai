@@ -3,38 +3,53 @@
  "name": "Bupa Arabia",
  "cc": "SA",
  "vertical": "Insurance",
- "deployments": 1,
- "confirmed": 0,
- "with_value_number": 0,
- "proof_rate": 0.0,
+ "deployments": 10,
+ "confirmed": 7,
+ "with_value_number": 2,
+ "proof_rate": 0.2,
  "mktcap": 6488000000.0,
  "revenue": 5592000000.0,
  "employees": 52000.0,
  "silent": false,
- "per_bn_revenue": 0.18,
- "per_10k_emp": 0.19,
+ "per_bn_revenue": 1.79,
+ "per_10k_emp": 1.92,
  "benchmarks": {
   "global_vertical": {
-   "deployments": 0,
-   "confirmed": 0,
-   "proof_rate": 0,
-   "n": 60
+   "deployments": 74,
+   "confirmed": 60,
+   "proof_rate": 32,
+   "n": 63
   }
  },
- "first_seen": 2024,
+ "first_seen": 2019,
  "by_year": [
   {
-   "year": 2024,
+   "year": 2019,
    "n": 1
+  },
+  {
+   "year": 2023,
+   "n": 3
+  },
+  {
+   "year": 2024,
+   "n": 2
+  },
+  {
+   "year": 2025,
+   "n": 4
   }
  ],
  "undated_pct": 0,
- "momentum": "early_mover,gone_quiet",
- "maturity": "L1",
+ "momentum": "early_mover,cooling",
+ "maturity": "L4",
  "maturity_evidence": [
-  "rows_no_confirmed"
+  "multi_horizontal",
+  "named_product:Bupa",
+  "value_number",
+  "multi_year"
  ],
- "prospect_score": 40,
+ "prospect_score": 82,
  "stack": [],
  "vendor_named": false,
  "deployments_detail": [
@@ -48,6 +63,105 @@
    "raw_sector": "Insurance",
    "date": "2024",
    "fresh": "aging"
+  },
+  {
+   "company": "Bupa Arabia",
+   "use": "AI-powered symptom checker in the Bupa app for members to run a comprehensive self health assessment [not disclosed]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://annualreport.plus/bupa2022/en/annual-report/business_review/customer_capital.html",
+   "raw_sector": "",
+   "date": "2023",
+   "fresh": "stale"
+  },
+  {
+   "company": "Bupa Arabia",
+   "use": "'Bupa Pro' AI-powered claims processing that eliminates pre-approvals and fast-tracks claim adjudication (deployed at Mina field clinics during Hajj 2025 and expanding across hospitals) [not disclosed]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.zawya.com/en/press-release/companies-news/bupa-clinics-in-mina-transform-healthcare-into-a-fully-integrated-digital-model-w05qh5qt",
+   "raw_sector": "",
+   "date": "2025-06",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Bupa Arabia",
+   "use": "Predictive health-risk analytics that analyze member lifestyle/historical data to forecast future health risks and enable proactive/preventive interventions (Bupa Digital Clinic) [not disclosed]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.arabnews.com/node/2569939/amp",
+   "raw_sector": "",
+   "date": "2024-09",
+   "fresh": "aging"
+  },
+  {
+   "company": "Bupa Arabia",
+   "use": "Advanced analytics / clinical decision support that leverages up-to-date data to assist doctors and patients in making informed treatment decisions (tied to Tebtom and Rahatkom services) [not disclosed]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://annualreport.plus/bupa2022/en/annual-report/business_review/customer_capital.html",
+   "raw_sector": "",
+   "date": "2023",
+   "fresh": "stale"
+  },
+  {
+   "company": "Bupa Arabia",
+   "use": "Real-time AI on customer data to predict health risks and automate claims, presented as shift from compensatory to preventive/proactive insurance model (Money20/20 Middle East) [not disclosed]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://en.sharikatmubasher.com/media-hub/news/21507474/bupa-arabia-drives-digital-transformation-in-health-insurance-at-money-20-20?lang=en",
+   "raw_sector": "",
+   "date": "2025-09",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Bupa Arabia",
+   "use": "NuraLogix contactless facial-scan AI (Transdermal Optical Imaging) for vital-sign / health-risk measurement, via CareConnect strategic partnership [NuraLogix]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.arabnews.com/node/2604064/corporate-and-sponsored-content",
+   "raw_sector": "",
+   "date": "2025-06",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Bupa Arabia",
+   "use": "AI-driven wearable health tracking / preventive health coaching via CareConnect strategic partnership (GOQii among four global health-tech partners) [GOQii]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.arabnews.com/node/2604064/corporate-and-sponsored-content",
+   "raw_sector": "",
+   "date": "2025-06",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Bupa Arabia",
+   "use": "Customer-service chatbot (branded 'CIA' on the website/app) that answers FAQs and handles digital-channel queries, cutting reliance on human agents [not disclosed]",
+   "existence": "confirmed",
+   "value": "reliance on agents reduced to just 15% of interactions",
+   "tier": "",
+   "url": "https://annualreport.plus/bupa2022/en/annual-report/business_review/customer_capital.html",
+   "raw_sector": "",
+   "date": "2023",
+   "fresh": "stale"
+  },
+  {
+   "company": "Bupa Arabia",
+   "use": "Enterprise Feedback Management platform with AI text analytics ('Text Genie') to convert open-ended customer feedback into insights and automate personalized surveys/closed-loop follow-up [XEBO.ai]",
+   "existence": "confirmed",
+   "value": "18% NPS increase (2017-2019); ~1M customers reached; 250,000 surveys completed",
+   "tier": "",
+   "url": "https://www.xebo.ai/case-study/bupa-arabia",
+   "raw_sector": "",
+   "date": "2019",
+   "fresh": "stale"
   }
  ]
 }

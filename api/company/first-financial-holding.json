@@ -3,48 +3,99 @@
  "name": "First Financial Holding",
  "cc": "TW",
  "vertical": "Financial Services",
- "deployments": 1,
- "confirmed": 1,
- "with_value_number": 0,
- "proof_rate": 0.0,
+ "deployments": 14,
+ "confirmed": 12,
+ "with_value_number": 8,
+ "proof_rate": 0.571,
  "mktcap": 15345625000.0,
  "revenue": 2292500000.0,
  "employees": 10299.0,
  "silent": false,
- "per_bn_revenue": 0.44,
- "per_10k_emp": 0.97,
+ "per_bn_revenue": 6.11,
+ "per_10k_emp": 13.59,
  "benchmarks": {
   "global_vertical": {
-   "deployments": 0,
-   "confirmed": 17,
-   "proof_rate": 0,
-   "n": 377
+   "deployments": 91,
+   "confirmed": 90,
+   "proof_rate": 86,
+   "n": 388
   },
   "country_vertical": {
-   "deployments": 0,
-   "confirmed": 9,
-   "proof_rate": 0,
+   "deployments": 100,
+   "confirmed": 91,
+   "proof_rate": 91,
    "n": 12
   }
  },
- "first_seen": 2025,
+ "first_seen": 2022,
  "by_year": [
   {
-   "year": 2025,
+   "year": 2022,
    "n": 1
+  },
+  {
+   "year": 2024,
+   "n": 7
+  },
+  {
+   "year": 2025,
+   "n": 3
+  },
+  {
+   "year": 2026,
+   "n": 2
   }
  ],
- "undated_pct": 0,
- "momentum": "rising",
- "maturity": "L3",
+ "undated_pct": 7,
+ "momentum": "early_mover,cooling",
+ "maturity": "L4",
  "maturity_evidence": [
+  "multi_horizontal",
   "named_product:Launched",
+  "value_number",
+  "multi_year",
   "tier_p"
  ],
- "prospect_score": 54,
- "stack": [],
- "vendor_named": false,
+ "prospect_score": 77,
+ "stack": [
+  "Amazon AWS",
+  "NVIDIA"
+ ],
+ "vendor_named": true,
  "deployments_detail": [
+  {
+   "company": "First Financial Holding",
+   "use": "Proprietary AI warning-account early-warning model analyzing transaction data and behavior patterns to detect/freeze high-risk accounts across online banking, ATM and counter [in-house (First Bank big data team)]",
+   "existence": "confirmed",
+   "value": "alert accounts down ~25% in first month; processes hundreds of millions of transaction records daily",
+   "tier": "",
+   "url": "https://www.firstbank.com.tw/sites/fcb/touch/zh_TW/1565703032980",
+   "raw_sector": "",
+   "date": "2024-05-24",
+   "fresh": "aging"
+  },
+  {
+   "company": "First Financial Holding",
+   "use": "AI anomaly fund-flow detection and intelligent analysis tools for anti-fraud (Reg-Tech) high-risk transaction alerting [none named (participates in FISC anti-fraud alliance platform)]",
+   "existence": "confirmed",
+   "value": "over NT$200 million in fraud blocked; 312 fraud cases intercepted by July 2025",
+   "tier": "",
+   "url": "https://www.firstbank.com.tw/sites/fcb/zh_TW/1565711079241",
+   "raw_sector": "",
+   "date": "2026-03-17",
+   "fresh": "fresh"
+  },
+  {
+   "company": "First Financial Holding",
+   "use": "Intelligent chatbot virtual teller 小e providing 24/7 customer service across LINE, web and mobile app using NLP and machine learning (Chinese/English) [none named]",
+   "existence": "confirmed",
+   "value": "1,825,018 cumulative users by end-2024; 98% response accuracy",
+   "tier": "",
+   "url": "https://csr.firstholding.com.tw/tc/social3.html",
+   "raw_sector": "",
+   "date": "2024",
+   "fresh": "aging"
+  },
   {
    "company": "First Financial Holding",
    "use": "Launched Project GALA generative-AI action plan and \"Project 3A (AO AI Agent)\" AI assistant for corporate-banking staff",
@@ -55,6 +106,116 @@
    "raw_sector": "Banks",
    "date": "2025",
    "fresh": "fresh"
+  },
+  {
+   "company": "First Financial Holding",
+   "use": "Enterprise internal intelligent Q&A system (2.0) built on generative AI + RAG, consolidating regulations/procedures for real-time employee knowledge queries incl. overseas branches [none named]",
+   "existence": "confirmed",
+   "value": "over 10,000 inquiries processed",
+   "tier": "",
+   "url": "https://www.firstbank.com.tw/sites/fcb/zh_TW/1565711013415",
+   "raw_sector": "",
+   "date": "2026-03-11",
+   "fresh": "fresh"
+  },
+  {
+   "company": "First Financial Holding",
+   "use": "Robotic Process Automation automating repetitive credit-review and data-analysis tasks in back-office operations [none named]",
+   "existence": "confirmed",
+   "value": "187 RPA workflows live; 1.06 million labor hours saved (~530 FTE)",
+   "tier": "",
+   "url": "https://csr.firstholding.com.tw/tc/social3.html",
+   "raw_sector": "",
+   "date": "2024",
+   "fresh": "aging"
+  },
+  {
+   "company": "First Financial Holding",
+   "use": "Project GALA (Generative AI Liberalize & Accelerate) enterprise-wide GenAI enablement platform to accelerate employee GenAI adoption, incl. marketing use cases; evaluating NVIDIA GPU/NeMo for AI Agents [NVIDIA (NeMo, under consideration)]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.bnext.com.tw/article/83952/firstbank202507",
+   "raw_sector": "",
+   "date": "2025-05-21",
+   "fresh": "fresh"
+  },
+  {
+   "company": "First Financial Holding",
+   "use": "e-First intelligent (robo) wealth management using human-machine collaboration for asset allocation and fund selection [Morningstar (algorithm provider)]",
+   "existence": "confirmed",
+   "value": "~40,000 customers; NT$1.801 billion investment balance (end-2024)",
+   "tier": "",
+   "url": "https://csr.firstholding.com.tw/tc/social3.html",
+   "raw_sector": "",
+   "date": "2024",
+   "fresh": "aging"
+  },
+  {
+   "company": "First Financial Holding",
+   "use": "第e數速貸 online personal/mortgage lending with AI smart appraisal (智能鑑價) model for online loan-amount and property valuation [in-house]",
+   "existence": "confirmed",
+   "value": "40,878 credit/mortgage estimates; 55,502 applications in 2024",
+   "tier": "",
+   "url": "https://csr.firstholding.com.tw/tc/social3.html",
+   "raw_sector": "",
+   "date": "2024",
+   "fresh": "aging"
+  },
+  {
+   "company": "First Financial Holding",
+   "use": "微企e時貸 micro-enterprise lending platform with AI enterprise cash-flow model and automated credit assessment plus intelligent marketing [in-house]",
+   "existence": "confirmed",
+   "value": "5,621 applications in 2024",
+   "tier": "",
+   "url": "https://www.firstbank.com.tw/sites/fcb/touch/zh_TW/1565704955068",
+   "raw_sector": "",
+   "date": "2024",
+   "fresh": "aging"
+  },
+  {
+   "company": "First Financial Holding",
+   "use": "First Securities ESG smart sustainability platform providing AI-algorithm ESG scoring (stock/sector/portfolio) in 第e贏家 and 移動贏家 trading apps [none named]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://csr.firstholding.com.tw/tc/social3.html",
+   "raw_sector": "",
+   "date": "2024",
+   "fresh": "aging"
+  },
+  {
+   "company": "First Financial Holding",
+   "use": "Named as a Amazon Bedrock customer/case study [Amazon Bedrock] [Amazon Bedrock]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://aws.amazon.com/bedrock/",
+   "raw_sector": "",
+   "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "First Financial Holding",
+   "use": "First Financial Smart Map Platform combining GIS geospatial intelligence with big-data/AI modeling for corporate-client prospecting and intelligent (GIS) work dispatch [in-house]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.firstbank.com.tw/sites/fcb/touch/zh_TW/1565706651654",
+   "raw_sector": "",
+   "date": "2025-02-26",
+   "fresh": "fresh"
+  },
+  {
+   "company": "First Financial Holding",
+   "use": "AI房貸試算 AI mortgage calculator co-developed with Taiwan Realty via API integration, giving one-click loan eligibility/down-payment/monthly-payment estimates from property listings [Taiwan Realty (platform partner)]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.firstbank.com.tw/sites/fcb/touch/zh_TW/1565696150051",
+   "raw_sector": "",
+   "date": "2022-10-20",
+   "fresh": "stale"
   }
  ]
 }

@@ -3,47 +3,58 @@
  "name": "En+ Group",
  "cc": "RU",
  "vertical": "Energy & Utilities",
- "deployments": 2,
- "confirmed": 1,
- "with_value_number": 0,
- "proof_rate": 0.0,
+ "deployments": 10,
+ "confirmed": 8,
+ "with_value_number": 5,
+ "proof_rate": 0.5,
  "mktcap": null,
  "revenue": 10360000000.0,
  "employees": 90000.0,
  "silent": false,
- "per_bn_revenue": 0.19,
- "per_10k_emp": 0.22,
+ "per_bn_revenue": 0.97,
+ "per_10k_emp": 1.11,
  "benchmarks": {
   "global_vertical": {
-   "deployments": 72,
-   "confirmed": 20,
-   "proof_rate": 0,
-   "n": 210
+   "deployments": 83,
+   "confirmed": 85,
+   "proof_rate": 81,
+   "n": 213
   },
   "country_vertical": {
-   "deployments": 44,
-   "confirmed": 44,
-   "proof_rate": 0,
+   "deployments": 89,
+   "confirmed": 89,
+   "proof_rate": 67,
    "n": 10
   }
  },
- "first_seen": 2025,
+ "first_seen": 2024,
  "by_year": [
   {
+   "year": 2024,
+   "n": 3
+  },
+  {
    "year": 2025,
+   "n": 5
+  },
+  {
+   "year": 2026,
    "n": 1
   }
  ],
- "undated_pct": 50,
- "momentum": "rising",
- "maturity": "L3",
+ "undated_pct": 10,
+ "momentum": "early_mover,rising",
+ "maturity": "L4",
  "maturity_evidence": [
+  "multi_horizontal",
   "named_product:Digital",
+  "value_number",
+  "multi_year",
   "tier_p"
  ],
- "prospect_score": 54,
+ "prospect_score": 68,
  "stack": [],
- "vendor_named": false,
+ "vendor_named": true,
  "deployments_detail": [
   {
    "company": "En+ Group",
@@ -66,6 +77,94 @@
    "raw_sector": "Energy",
    "date": "2025-06",
    "fresh": "fresh"
+  },
+  {
+   "company": "En+ Group",
+   "use": "Machine vision + neural network system monitoring aluminium melt/alloy preparation in the casthouse, tracking operator actions across 7-20 sequential operations to reduce human error and defects. Deployed at Taishet Aluminium Smelter (TaAZ), with rollout planned to all smelters. [RUSAL Engineering and Technology Centre (RUSAL ETC), proprietary]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://rusal.ru/en/press-center/press-releases/rusal-implements-ai-to-monitor-alloy-production/",
+   "raw_sector": "",
+   "date": "2025-07-01",
+   "fresh": "fresh"
+  },
+  {
+   "company": "En+ Group",
+   "use": "Machine vision + eight dedicated neural networks for microstructure quality analysis of cylindrical aluminium ingots (grain size, inclusions across 8 parameters). Operational at the RUSAL Engineering Center laboratory, cutting analysis time from up to 4 hours to 15 minutes. [RUSAL Engineering Center, proprietary neural networks]",
+   "existence": "confirmed",
+   "value": "Analysis time reduced from up to 4 hours (90 min-4 hr) to 15 minutes",
+   "tier": "",
+   "url": "https://www.rusal.ru/en/press-center/press-releases/rusal-leverages-ai-to-enhance-aluminium-ingot-quality-control/",
+   "raw_sector": "",
+   "date": "2025-02-04",
+   "fresh": "fresh"
+  },
+  {
+   "company": "En+ Group",
+   "use": "Machine vision technology monitoring electrolysis workshops (EcoSoderberg cells) at five aluminium smelters — Krasnoyarsk, Bratsk, Novokuznetsk, Irkutsk and Volgograd — for real-time equipment and process oversight. Rollout through 2027. [RUSAL, proprietary]",
+   "existence": "confirmed",
+   "value": "~1.6 billion rubles (est. $17.5 million) investment",
+   "tier": "",
+   "url": "https://www.akm.ru/eng/news/rusal-invests-1-6-billion-rubles-in-the-implementation-of-ai-in-aluminum-plants/",
+   "raw_sector": "",
+   "date": "2024-05-15",
+   "fresh": "aging"
+  },
+  {
+   "company": "En+ Group",
+   "use": "Neural-network model for electrolysis process control on RA-550 electrolysers at Sayanogorsk Aluminium Smelter: calculates electrolyte chemical composition from temperature, current, voltage and adjusts the process with minimal human input. Completed industrial tests; moving to implementation across smelters. [RUSAL, proprietary neural network]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.aluminium-journal.com/ai-controlled-electrolysis-technology",
+   "raw_sector": "",
+   "date": "2024-10-29",
+   "fresh": "aging"
+  },
+  {
+   "company": "En+ Group",
+   "use": "Machine hearing (acoustic AI) technology controlling mill loading in alumina production: analyzes acoustic vibrations from wet grinding to optimize bauxite ore input, prevent under/overloading, reduce equipment wear and power consumption. Tested at Krasnoturinsk Alumina Plant; evaluating Achinsk Alumina Refinery. [RUSAL, proprietary (machine hearing)]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://rusal.ru/en/press-center/press-releases/rusal-becomes-the-first-to-implement-machine-hearing-technology-in-alumina-production/",
+   "raw_sector": "",
+   "date": "2025-09-02",
+   "fresh": "fresh"
+  },
+  {
+   "company": "En+ Group",
+   "use": "ELTM (Electrolysis Technology Monitoring) — AI/neural network integrated into the automatic electrolysis monitoring system across all aluminium plants, processing 85 parameters per electrolyser (~600,000 parameters across all plants) to prioritize alerts by urgency and recommend corrective actions for deviations. [RUSAL Engineering and Technology Center (RUSAL ITC), proprietary]",
+   "existence": "confirmed",
+   "value": "Processes ~600,000 parameters (85 per electrolyser) across all plants",
+   "tier": "",
+   "url": "https://rusal.ru/press-center/press-releases/rusal-vnedryaet-iskusstvennyy-intellekt-v-globalnuyu-sistemu-monitoringa-alyuminievogo-proizvodstva/",
+   "raw_sector": "",
+   "date": "2025-05-12",
+   "fresh": "fresh"
+  },
+  {
+   "company": "En+ Group",
+   "use": "Proprietary software automating control of anode baking furnaces (burners and furnace systems) at Sayanogorsk Aluminium Smelter, with architecture explicitly built to support neural-network-based approaches for furnace management and optimisation. The furnace automation software is deployed; the neural-network optimization layer is on the roadmap. [RUSAL Engineering Department, proprietary]",
+   "existence": "claimed",
+   "value": "~$200 million modernization; baked-anode capacity up from 480,000 to 535,000 tonnes/yr",
+   "tier": "",
+   "url": "https://rusal.ru/en/press-center/press-releases/rusal-introduces-proprietary-software-for-anode-production-automation/",
+   "raw_sector": "",
+   "date": "2026-05-12",
+   "fresh": "fresh"
+  },
+  {
+   "company": "En+ Group",
+   "use": "AI + machine vision container terminal control at Krasnoyarsk Aluminium Smelter (KrAZ): more than ten machine-learning models create a virtual twin of the terminal, recognize container numbers and track real-time locations via cameras and GPS sensors on loaders. Won ComNews 'Best Digital Logistics Solution' award. [RUSAL, proprietary (10+ ML models)]",
+   "existence": "confirmed",
+   "value": "Goal to increase container shipments by 60% within two years; container location time cut from ~30 minutes",
+   "tier": "",
+   "url": "https://rusal.ru/en/press-center/press-releases/rusal-develops-ai-technology-for-container-control/",
+   "raw_sector": "",
+   "date": "2024-12-10",
+   "fresh": "aging"
   }
  ]
 }

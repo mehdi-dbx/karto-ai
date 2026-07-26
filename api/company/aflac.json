@@ -3,28 +3,28 @@
  "name": "Aflac",
  "cc": "US",
  "vertical": "Financial Services",
- "deployments": 1,
- "confirmed": 1,
- "with_value_number": 0,
- "proof_rate": 0.0,
+ "deployments": 5,
+ "confirmed": 4,
+ "with_value_number": 2,
+ "proof_rate": 0.4,
  "mktcap": 62940000000.0,
  "revenue": 18110000000.0,
  "employees": 12716.0,
  "silent": false,
- "per_bn_revenue": 0.06,
- "per_10k_emp": 0.79,
+ "per_bn_revenue": 0.28,
+ "per_10k_emp": 3.93,
  "benchmarks": {
   "global_vertical": {
-   "deployments": 0,
-   "confirmed": 17,
-   "proof_rate": 0,
-   "n": 377
+   "deployments": 31,
+   "confirmed": 39,
+   "proof_rate": 68,
+   "n": 388
   },
   "country_vertical": {
-   "deployments": 0,
-   "confirmed": 19,
-   "proof_rate": 0,
-   "n": 76
+   "deployments": 26,
+   "confirmed": 32,
+   "proof_rate": 76,
+   "n": 77
   }
  },
  "first_seen": 2023,
@@ -34,14 +34,16 @@
    "n": 1
   }
  ],
- "undated_pct": 0,
+ "undated_pct": 80,
  "momentum": "early_mover,gone_quiet",
  "maturity": "L3",
  "maturity_evidence": [
+  "multi_horizontal",
   "named_product:Code Based Processing",
+  "value_number",
   "tier_p"
  ],
- "prospect_score": 54,
+ "prospect_score": 56,
  "stack": [],
  "vendor_named": false,
  "deployments_detail": [
@@ -55,6 +57,50 @@
    "raw_sector": "Financials",
    "date": "2023",
    "fresh": "stale"
+  },
+  {
+   "company": "Aflac",
+   "use": "AI-driven claims approval for simple claims with guardrails for decision-making",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.inc.com/ben-sherry/which-tasks-can-you-delegate-to-ai-aflac-s-guardrails-might-hold-the-answer.html",
+   "raw_sector": "",
+   "date": "Dec 4, 2023",
+   "fresh": "undated"
+  },
+  {
+   "company": "Aflac",
+   "use": "Generative AI pilot integration into call center for customer service",
+   "existence": "claimed",
+   "value": "15%",
+   "tier": "",
+   "url": "https://www.chiefmarketer.com/when-aflac-integrates-ai-into-customer-service-and-when-it-doesnt/",
+   "raw_sector": "",
+   "date": "Mar 17, 2026",
+   "fresh": "undated"
+  },
+  {
+   "company": "Aflac",
+   "use": "Automated workflows and process automation with 99% data intake accuracy, 23 use cases automated, processing 10,000+ forms per week [Lazarus AI]",
+   "existence": "confirmed",
+   "value": "99% accuracy, 23 use cases, 10,000 forms/week, 62% accuracy improvement, 8 week deployment reduction",
+   "tier": "",
+   "url": "https://welcome.plugandplaytechcenter.com/the-success-story-of-aflac-and-lazarus",
+   "raw_sector": "",
+   "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "Aflac",
+   "use": "CrowdStrike Falcon cybersecurity platform with endpoint detection and response (XDR) [CrowdStrike Falcon]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://emerj.com/artificial-intelligence-at-aflac/",
+   "raw_sector": "",
+   "date": "Mar 24, 2025",
+   "fresh": "undated"
   }
  ]
 }

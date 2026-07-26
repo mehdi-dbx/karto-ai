@@ -3,26 +3,26 @@
  "name": "BOC Hong Kong",
  "cc": "HK",
  "vertical": "Financial Services",
- "deployments": 2,
- "confirmed": 2,
+ "deployments": 7,
+ "confirmed": 7,
  "with_value_number": 0,
  "proof_rate": 0.0,
  "mktcap": 65551282051.0,
  "revenue": 8811538462.0,
  "employees": 15585.0,
  "silent": false,
- "per_bn_revenue": 0.23,
- "per_10k_emp": 1.28,
+ "per_bn_revenue": 0.79,
+ "per_10k_emp": 4.49,
  "benchmarks": {
   "global_vertical": {
-   "deployments": 62,
-   "confirmed": 73,
+   "deployments": 51,
+   "confirmed": 62,
    "proof_rate": 0,
-   "n": 377
+   "n": 388
   },
   "country_vertical": {
-   "deployments": 29,
-   "confirmed": 29,
+   "deployments": 14,
+   "confirmed": 14,
    "proof_rate": 0,
    "n": 8
   }
@@ -36,10 +36,14 @@
   {
    "year": 2025,
    "n": 1
+  },
+  {
+   "year": 2026,
+   "n": 2
   }
  ],
- "undated_pct": 0,
- "momentum": "early_mover,flat",
+ "undated_pct": 43,
+ "momentum": "early_mover,rising",
  "maturity": "L4",
  "maturity_evidence": [
   "multi_horizontal",
@@ -47,9 +51,11 @@
   "multi_year",
   "tier_p"
  ],
- "prospect_score": 60,
- "stack": [],
- "vendor_named": false,
+ "prospect_score": 82,
+ "stack": [
+  "OpenAI"
+ ],
+ "vendor_named": true,
  "deployments_detail": [
   {
    "company": "BOC Hong Kong",
@@ -64,6 +70,39 @@
   },
   {
    "company": "BOC Hong Kong",
+   "use": "GenAI-powered assistant for corporate banking document analysis and client insights",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://thedigitalbanker.com/generative-ai-powers-a-new-era-of-efficiency-for-bank-of-china-hong-kong/",
+   "raw_sector": "",
+   "date": "Mar 11, 2026",
+   "fresh": "undated"
+  },
+  {
+   "company": "BOC Hong Kong",
+   "use": "AI technologies for seamless customer services",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.bochk.com/dam/bochk/desktop/top/aboutus/ir/docs/finreport/bochkholdings/2025ar/e101_fullset.pdf",
+   "raw_sector": "",
+   "date": "Mar 30, 2026",
+   "fresh": "undated"
+  },
+  {
+   "company": "BOC Hong Kong",
+   "use": "Frontline GPT for real-time conversational support to sales teams",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.linkedin.com/posts/thedigitalbanker_grb25-bankingawards-retailbanking-activity-7391298999435214848-Ru9w",
+   "raw_sector": "",
+   "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "BOC Hong Kong",
    "use": "Multimodal AI-powered anti-fraud detection solution tested in the HKMA/Cyberport GenA.I. Sandbox",
    "existence": "confirmed",
    "value": "none",
@@ -75,6 +114,50 @@
   },
   {
    "company": "BOC Hong Kong",
+   "use": "GenAI for anti-fraud intelligence and fraud prevention",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.bochk.com/dam/more/gen_a_sandbox.pdf",
+   "raw_sector": "",
+   "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "BOC Hong Kong",
+   "use": "Generative AI for operational efficiency and customer service delivery",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://thedigitalbanker.com/generative-ai-powers-a-new-era-of-efficiency-for-bank-of-china-hong-kong/",
+   "raw_sector": "",
+   "date": "2026-03-11",
+   "fresh": "fresh"
+  },
+  {
+   "company": "BOC Hong Kong",
+   "use": "AI technologies for seamless customer service delivery",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.bochk.com/dam/bochk/an/2026/20260330a_en.pdf",
+   "raw_sector": "",
+   "date": "2026-03-30",
+   "fresh": "fresh"
+  },
+  {
+   "company": "BOC Hong Kong",
+   "use": "GenAI for improving corporate banking efficiency and client analysis",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.linkedin.com/posts/thedigitalbanker_ai-generativeai-digitalbanking-activity-7439195197688729601-1dju",
+   "raw_sector": "",
+   "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "BOC Hong Kong",
    "use": "Multimodal AI \"Digital Human Assistant\" for real-time interactive customer service, tested via the HKMA GenA.I. Sandbox",
    "existence": "confirmed",
    "value": "none",
@@ -83,6 +166,28 @@
    "raw_sector": "Banks",
    "date": "2025-10",
    "fresh": "fresh"
+  },
+  {
+   "company": "BOC Hong Kong",
+   "use": "Anti-Fraud Intelligence use case",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.bochk.com/dam/more/gen_a_sandbox.pdf",
+   "raw_sector": "",
+   "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "BOC Hong Kong",
+   "use": "Frontline GPT for real-time conversational support for sales teams [GPT]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.linkedin.com/posts/thedigitalbanker_grb25-bankingawards-retailbanking-activity-7391298999435214848-Ru9w",
+   "raw_sector": "",
+   "date": "missing",
+   "fresh": "undated"
   }
  ]
 }

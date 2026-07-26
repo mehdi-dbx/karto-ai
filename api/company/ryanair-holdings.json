@@ -3,22 +3,22 @@
  "name": "Ryanair Holdings",
  "cc": "IE",
  "vertical": "Travel & Hospitality",
- "deployments": 11,
+ "deployments": 15,
  "confirmed": 9,
  "with_value_number": 3,
- "proof_rate": 0.273,
+ "proof_rate": 0.2,
  "mktcap": 27583200000.0,
  "revenue": 16837200000.0,
  "employees": 27081.0,
  "silent": false,
- "per_bn_revenue": 0.65,
- "per_10k_emp": 4.06,
+ "per_bn_revenue": 0.89,
+ "per_10k_emp": 5.54,
  "benchmarks": {
   "global_vertical": {
-   "deployments": 97,
-   "confirmed": 95,
-   "proof_rate": 66,
-   "n": 39
+   "deployments": 92,
+   "confirmed": 90,
+   "proof_rate": 52,
+   "n": 41
   }
  },
  "first_seen": 2022,
@@ -36,7 +36,7 @@
    "n": 5
   }
  ],
- "undated_pct": 9,
+ "undated_pct": 33,
  "momentum": "early_mover,rising",
  "maturity": "L4",
  "maturity_evidence": [
@@ -46,9 +46,10 @@
   "multi_year",
   "tier_p"
  ],
- "prospect_score": 83,
+ "prospect_score": 86,
  "stack": [
-  "Amazon AWS"
+  "Amazon AWS",
+  "OpenAI"
  ],
  "vendor_named": true,
  "deployments_detail": [
@@ -65,6 +66,17 @@
   },
   {
    "company": "Ryanair Holdings",
+   "use": "Named as a Amazon Bedrock customer/case study [Amazon Bedrock] [Amazon Bedrock]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://aimagazine.com/articles/why-businesses-are-building-ai-strategy-on-amazon-bedrock",
+   "raw_sector": "",
+   "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "Ryanair Holdings",
    "use": "Ryanair Connect crew platform with AI chat features to reduce reliance on support desks, plus conversational AI/IVR in crew control operations",
    "existence": "claimed",
    "value": "84%+ on-time performance",
@@ -73,6 +85,17 @@
    "raw_sector": "Airlines",
    "date": "2025-06",
    "fresh": "fresh"
+  },
+  {
+   "company": "Ryanair Holdings",
+   "use": "Customer service and revenue management integration",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.eplaneai.com/news/ryanair-executive-michael-cawley-discusses-technology-and-ai-strategy",
+   "raw_sector": "",
+   "date": "Jul 7, 2025",
+   "fresh": "undated"
   },
   {
    "company": "Ryanair Holdings",
@@ -172,6 +195,28 @@
    "raw_sector": "",
    "date": "2025",
    "fresh": "fresh"
+  },
+  {
+   "company": "Ryanair Holdings",
+   "use": "Generative AI technology for efficiency and productivity [AWS]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://aws.amazon.com/solutions/case-studies/ryanair-video-testimonial/",
+   "raw_sector": "",
+   "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "Ryanair Holdings",
+   "use": "Machine learning for digital platform monitoring [New Relic]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.quora.com/What-AI-tools-does-Ryanair-apply-in-their-company",
+   "raw_sector": "",
+   "date": "missing",
+   "fresh": "undated"
   }
  ]
 }

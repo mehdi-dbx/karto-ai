@@ -3,42 +3,116 @@
  "name": "HDFC Life",
  "cc": "IN",
  "vertical": "Financial Services",
- "deployments": 1,
- "confirmed": 1,
- "with_value_number": 0,
- "proof_rate": 0.0,
+ "deployments": 13,
+ "confirmed": 9,
+ "with_value_number": 2,
+ "proof_rate": 0.154,
  "mktcap": 14457831325.0,
  "revenue": 12530120482.0,
  "employees": 38291.0,
  "silent": false,
- "per_bn_revenue": 0.08,
- "per_10k_emp": 0.26,
+ "per_bn_revenue": 1.04,
+ "per_10k_emp": 3.4,
  "benchmarks": {
   "global_vertical": {
-   "deployments": 0,
-   "confirmed": 17,
-   "proof_rate": 0,
-   "n": 377
+   "deployments": 87,
+   "confirmed": 73,
+   "proof_rate": 34,
+   "n": 388
   },
   "country_vertical": {
-   "deployments": 0,
-   "confirmed": 18,
-   "proof_rate": 0,
-   "n": 23
+   "deployments": 92,
+   "confirmed": 75,
+   "proof_rate": 29,
+   "n": 25
   }
  },
- "first_seen": null,
- "by_year": [],
- "undated_pct": 100,
- "momentum": "none",
- "maturity": "L3",
- "maturity_evidence": [
-  "named_product:Automated"
+ "first_seen": 2018,
+ "by_year": [
+  {
+   "year": 2018,
+   "n": 1
+  },
+  {
+   "year": 2019,
+   "n": 1
+  },
+  {
+   "year": 2020,
+   "n": 4
+  },
+  {
+   "year": 2024,
+   "n": 3
+  },
+  {
+   "year": 2025,
+   "n": 2
+  },
+  {
+   "year": 2026,
+   "n": 1
+  }
  ],
- "prospect_score": 54,
- "stack": [],
- "vendor_named": false,
+ "undated_pct": 8,
+ "momentum": "early_mover,flat",
+ "maturity": "L4",
+ "maturity_evidence": [
+  "multi_horizontal",
+  "named_product:Automated",
+  "value_number",
+  "multi_year"
+ ],
+ "prospect_score": 88,
+ "stack": [
+  "Microsoft"
+ ],
+ "vendor_named": true,
  "deployments_detail": [
+  {
+   "company": "HDFC Life",
+   "use": "Elle — website chatbot answering 200+ policy-related queries (policy details, premium receipts, fund statements) without human intervention. [HDFC Life Data Labs (in-house, NLP)]",
+   "existence": "confirmed",
+   "value": "200+ query types; part of 210 bots launched; ~40 lakh customer queries handled annually via digital channels",
+   "tier": "",
+   "url": "https://m.economictimes.com/wealth/insure/hdfc-life-insurance-launches-chat-bot-elle-here-is-how-to-use-it/amp_articleshow/64305862.cms",
+   "raw_sector": "",
+   "date": "2018-05-24",
+   "fresh": "stale"
+  },
+  {
+   "company": "HDFC Life",
+   "use": "Etty — 24/7 AI-powered WhatsApp bot using natural language processing to buy policies and service existing plans. [HDFC Life (NLP-based)]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.medianews4u.com/hdfc-life-launches-voice-assistant-on-alexa-for-on-the-go-policy-servicing/",
+   "raw_sector": "",
+   "date": "2020-05-07",
+   "fresh": "stale"
+  },
+  {
+   "company": "HDFC Life",
+   "use": "Elsa — Alexa voice assistant responding to 200+ unique policy-related voice queries (e.g. next premium due), delivering info via SMS. [Amazon Alexa platform + NLP]",
+   "existence": "confirmed",
+   "value": "200+ unique queries",
+   "tier": "",
+   "url": "https://www.medianews4u.com/hdfc-life-launches-voice-assistant-on-alexa-for-on-the-go-policy-servicing/",
+   "raw_sector": "",
+   "date": "2020-05-07",
+   "fresh": "stale"
+  },
+  {
+   "company": "HDFC Life",
+   "use": "NEO — Twitter/X service bot answering policyholder queries across social channels. [HDFC Life (NLP-based)]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.medianews4u.com/hdfc-life-launches-voice-assistant-on-alexa-for-on-the-go-policy-servicing/",
+   "raw_sector": "",
+   "date": "2020-05-07",
+   "fresh": "stale"
+  },
   {
    "company": "HDFC Life",
    "use": "Automated underwriting engine, early claims prediction, mis-sale predictor, health risk calculator, 13th-month persistency, early reminder calling, FLS hiring model (disclosed at HDFC Life AI Day)",
@@ -49,6 +123,94 @@
    "raw_sector": "Financial Services",
    "date": "missing",
    "fresh": "undated"
+  },
+  {
+   "company": "HDFC Life",
+   "use": "Automated underwriting engine + AI/advanced analytics for risk assessment and underwriting precision across the value chain. [Microsoft (partner)]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.hdfclife.com/content/dam/hdfclifeinsurancecompany/about-us/pdf/investor-relations/financial-information/annual-reports/integrated-annual-report-fy-2024-2025.pdf",
+   "raw_sector": "",
+   "date": "2025-03-31",
+   "fresh": "fresh"
+  },
+  {
+   "company": "HDFC Life",
+   "use": "Early claims prediction — service analytics model to flag claims likely to occur early, showcased at HDFC Life AI Day by the Data Labs team. [HDFC Life Data Labs]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://smestreet.in/infocus/hdfc-life-showcases-ai-solutions-for-life-insurance-industry-7375742",
+   "raw_sector": "",
+   "date": "2024-10-29",
+   "fresh": "aging"
+  },
+  {
+   "company": "HDFC Life",
+   "use": "Pre-Approved Sum Assured (PASA) — ML model to pre-approve coverage and speed up issuance; health risk calculator for risk-based assessment. [HDFC Life Data Labs]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://smestreet.in/infocus/hdfc-life-showcases-ai-solutions-for-life-insurance-industry-7375742",
+   "raw_sector": "",
+   "date": "2024-10-29",
+   "fresh": "aging"
+  },
+  {
+   "company": "HDFC Life",
+   "use": "GenAI, automation and advanced analytics integrated across the value chain to strengthen risk management, decision-making, efficiency and customer experience (positioned as a key growth lever by chairman). [not disclosed]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.financialexpress.com/business/news/hdfc-life-investing-in-genai-to-improve-customer-experience-drive-efficiency-chairmannbsp/4276447/",
+   "raw_sector": "",
+   "date": "2026-06-25",
+   "fresh": "fresh"
+  },
+  {
+   "company": "HDFC Life",
+   "use": "InstA — virtual assistant / knowledge platform empowering employees and distribution partners with real-time sales and service support to customers. [HDFC Life (in-house)]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://bfsi.economictimes.indiatimes.com/news/insurance/hdfc-life-to-service-insurance-policies-on-amazons-alexa/75674322",
+   "raw_sector": "",
+   "date": "2019-11-12",
+   "fresh": "stale"
+  },
+  {
+   "company": "HDFC Life",
+   "use": "Qlik-based analytics at Data Labs for insurance fraud detection — linking multiple data sources to identify fraud trends, patterns and suspicious activity (won 2020 Qlik Global Transformation Award). [Qlik (Qlik Sense)]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.qlik.com/us/solutions/industries/financial-services-analytics",
+   "raw_sector": "",
+   "date": "2020-11-19",
+   "fresh": "stale"
+  },
+  {
+   "company": "HDFC Life",
+   "use": "SalesTap Nudge Engine — AI recommendation/nudge engine delivering personalized sales and service prompts to frontline; plus mis-sale predictor and 13th-month persistency model. [salesassist.ai / Greylabs.ai (partners)]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://smestreet.in/infocus/hdfc-life-showcases-ai-solutions-for-life-insurance-industry-7375742",
+   "raw_sector": "",
+   "date": "2024-10-29",
+   "fresh": "aging"
+  },
+  {
+   "company": "HDFC Life",
+   "use": "Generative AI strategically deployed in the Testing Centre of Excellence (TCoE) across functional, performance and UI testing to accelerate software delivery. [not disclosed]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.scribd.com/document/884208972/HDFC-LIfe-Integrated-Annual-Report-Fy-2024-2025",
+   "raw_sector": "",
+   "date": "2025-03-31",
+   "fresh": "fresh"
   }
  ]
 }

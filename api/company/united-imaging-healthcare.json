@@ -3,28 +3,28 @@
  "name": "United Imaging Healthcare",
  "cc": "CN",
  "vertical": "Healthcare & Life Sciences",
- "deployments": 1,
- "confirmed": 1,
- "with_value_number": 1,
- "proof_rate": 1.0,
+ "deployments": 5,
+ "confirmed": 4,
+ "with_value_number": 2,
+ "proof_rate": 0.4,
  "mktcap": 12966666667.0,
  "revenue": 1976388889.0,
  "employees": 8703.0,
  "silent": false,
- "per_bn_revenue": 0.51,
- "per_10k_emp": 1.15,
+ "per_bn_revenue": 2.53,
+ "per_10k_emp": 5.75,
  "benchmarks": {
   "global_vertical": {
-   "deployments": 0,
-   "confirmed": 13,
-   "proof_rate": 83,
-   "n": 165
+   "deployments": 40,
+   "confirmed": 48,
+   "proof_rate": 75,
+   "n": 168
   },
   "country_vertical": {
-   "deployments": 0,
-   "confirmed": 25,
-   "proof_rate": 62,
-   "n": 9
+   "deployments": 67,
+   "confirmed": 67,
+   "proof_rate": 78,
+   "n": 10
   }
  },
  "first_seen": null,
@@ -36,9 +36,11 @@
   "named_product:YuanZhi",
   "value_number"
  ],
- "prospect_score": 14,
- "stack": [],
- "vendor_named": false,
+ "prospect_score": 48,
+ "stack": [
+  "NVIDIA"
+ ],
+ "vendor_named": true,
  "deployments_detail": [
   {
    "company": "United Imaging Healthcare",
@@ -48,6 +50,50 @@
    "tier": "I",
    "url": "https://www.uii-ai.com/article/520.html",
    "raw_sector": "Health Care",
+   "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "United Imaging Healthcare",
+   "use": "AI-enabled magnetic resonance (MR) scanner to reduce patient time in MR machines [NVIDIA AI and accelerated computing]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.nvidia.com/en-us/case-studies/united-imaging-healthcare/",
+   "raw_sector": "",
+   "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "United Imaging Healthcare",
+   "use": "uAI Agent for Ultrasound - embodied AI robotic-arm system with autonomous scanning",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.prnewswire.com/news-releases/united-imaging-intelligence-at-rsna-2025-reshaping-medicine-with-ai-agents-302639952.html",
+   "raw_sector": "",
+   "date": "Dec 12, 2025",
+   "fresh": "undated"
+  },
+  {
+   "company": "United Imaging Healthcare",
+   "use": "Intelligent workflow solutions and large model-driven applications for medical AI",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.linkedin.com/posts/uii-america-inc_ecr2025-medicalai-healthcareinnovation-activity-7319913292364161024-gEM6",
+   "raw_sector": "",
+   "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "United Imaging Healthcare",
+   "use": "GPU-accelerated AI MR image reconstruction using CUDA and cuSolver [NVIDIA] [NVIDIA]",
+   "existence": "confirmed",
+   "value": "Image reconstruction time reduced by nearly 95%; 10x+ computational speed increase",
+   "tier": "",
+   "url": "https://www.nvidia.com/en-us/case-studies/united-imaging-healthcare/",
+   "raw_sector": "",
    "date": "missing",
    "fresh": "undated"
   }

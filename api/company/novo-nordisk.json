@@ -3,50 +3,66 @@
  "name": "Novo Nordisk",
  "cc": "DK",
  "vertical": "Healthcare & Life Sciences",
- "deployments": 2,
- "confirmed": 1,
- "with_value_number": 0,
- "proof_rate": 0.0,
+ "deployments": 12,
+ "confirmed": 6,
+ "with_value_number": 4,
+ "proof_rate": 0.333,
  "mktcap": 204347826087.0,
  "revenue": 47507246377.0,
  "employees": 67900.0,
  "silent": false,
- "per_bn_revenue": 0.04,
- "per_10k_emp": 0.29,
+ "per_bn_revenue": 0.25,
+ "per_10k_emp": 1.77,
  "benchmarks": {
   "global_vertical": {
-   "deployments": 75,
-   "confirmed": 13,
-   "proof_rate": 0,
-   "n": 165
+   "deployments": 84,
+   "confirmed": 62,
+   "proof_rate": 65,
+   "n": 168
   },
   "country_vertical": {
-   "deployments": 57,
-   "confirmed": 29,
-   "proof_rate": 0,
+   "deployments": 86,
+   "confirmed": 86,
+   "proof_rate": 71,
    "n": 8
   }
  },
- "first_seen": 2024,
+ "first_seen": 2023,
  "by_year": [
   {
-   "year": 2024,
+   "year": 2023,
    "n": 1
   },
   {
+   "year": 2024,
+   "n": 3
+  },
+  {
+   "year": 2025,
+   "n": 4
+  },
+  {
    "year": 2026,
-   "n": 1
+   "n": 3
   }
  ],
- "undated_pct": 0,
- "momentum": "early_mover,flat",
- "maturity": "L3",
+ "undated_pct": 8,
+ "momentum": "early_mover,rising",
+ "maturity": "L4",
  "maturity_evidence": [
+  "multi_horizontal",
   "named_product:Named",
+  "value_number",
+  "multi_year",
   "tier_p"
  ],
- "prospect_score": 46,
+ "prospect_score": 63,
  "stack": [
+  "Amazon AWS",
+  "Anthropic",
+  "Databricks",
+  "Microsoft",
+  "Microsoft Azure",
   "NVIDIA",
   "OpenAI"
  ],
@@ -73,6 +89,116 @@
    "raw_sector": "Pharma",
    "date": "2024",
    "fresh": "aging"
+  },
+  {
+   "company": "Novo Nordisk",
+   "use": "NovoScribe: generative-AI platform that auto-drafts Clinical Study Reports (CSRs) for regulatory submissions using RAG over trial data and templates; cut CSR creation from ~12-15 weeks to ~10 minutes and generates ~30% of all CSRs (targeting >90%). [AWS Bedrock (Claude 3, Titan), MongoDB Atlas Vector Search, LangChain]",
+   "existence": "confirmed",
+   "value": "12 weeks to 10 minutes; ~30% of CSRs generated; each day faster to market ~$15M revenue",
+   "tier": "",
+   "url": "https://www.mongodb.com/solutions/customer-case-studies/novo-nordisk",
+   "raw_sector": "",
+   "date": "2025",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Novo Nordisk",
+   "use": "FounData clinical-trials platform with 'Co-Scientist' multi-agent AI and AI/BI Genie natural-language querying on Databricks, used to optimize clinical trials and enable secondary use of trial data; first Co-Scientist agent launched mid-June 2025. [Databricks (Data Intelligence Platform, Agent Bricks, AI/BI Genie)]",
+   "existence": "confirmed",
+   "value": "$157M+ projected net new value over 5 years; $14M efficiency gains; 1,000 active users; 20% org adoption; 80+ live collaborations",
+   "tier": "",
+   "url": "https://www.databricks.com/customers/novo-nordisk",
+   "raw_sector": "",
+   "date": "2025",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Novo Nordisk",
+   "use": "Quantitative decision-support AI agent for pharmaceutical R&D that lets researchers query 200,000+ patient-years of harmonized trial data in natural language, generating and executing statistical code with human-in-the-loop validation; live internally with broader rollout underway. [Microsoft (Azure, Forward Deployed Engineering / AI Acceleration Studio)]",
+   "existence": "confirmed",
+   "value": "Time to insight reduced from weeks to minutes; 50+ scientific questions evaluated per quarter vs 5-10 previously",
+   "tier": "",
+   "url": "https://www.microsoft.com/en/customers/story/26569-novo-nordisk-as-azure",
+   "raw_sector": "",
+   "date": "2026",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Novo Nordisk",
+   "use": "AI research platform built with Microsoft Research on Azure (unification, copilot reasoning tool, collaboration, governance, AI factory) spanning regulatory affairs, early research, drug discovery and trial design; produced a cardiovascular-risk prediction algorithm beating the best clinical standard. [Microsoft (Azure OpenAI Service, Azure Cosmos DB, AKS, Power BI/Apps), Microsoft Research]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.microsoft.com/en/customers/story/18752-novo-nordisk-azure",
+   "raw_sector": "",
+   "date": "2024",
+   "fresh": "aging"
+  },
+  {
+   "company": "Novo Nordisk",
+   "use": "Drug-discovery on the Gefion sovereign AI supercomputer (NVIDIA DGX SuperPOD) using BioNeMo generative AI, NIM/NeMo agentic workflows and Omniverse simulation for single-cell response prediction, molecular design and biomedical LLMs; announced collaboration. [NVIDIA (BioNeMo, NIM, NeMo, Omniverse), Danish Centre for AI Innovation]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://nvidianews.nvidia.com/news/nvidia-partners-with-novo-nordisk-and-dcai-to-advance-drug-discovery",
+   "raw_sector": "",
+   "date": "2025-06-11",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Novo Nordisk",
+   "use": "Enterprise partnership to embed OpenAI AI across the value chain: drug discovery/target identification, manufacturing, supply chain and distribution, commercial operations, and workforce AI-literacy training; pilots launching with full integration targeted by end of 2026. [OpenAI]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.globenewswire.com/news-release/2026/04/14/3273010/0/en/novo-nordisk-and-openai-partner-to-transform-how-medicines-are-discovered-and-delivered.html",
+   "raw_sector": "",
+   "date": "2026-04-14",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Novo Nordisk",
+   "use": "Expanded AI drug-discovery collaboration with Valo Health applying human data and machine learning to discover and develop up to 20 novel treatments for obesity, type 2 diabetes and cardiovascular disease. [Valo Health]",
+   "existence": "claimed",
+   "value": "$190M upfront, up to $4.6B in milestones plus R&D funding; up to 20 programs",
+   "tier": "",
+   "url": "https://www.valohealth.com/press/valo-health-and-novo-nordisk-expand-collaboration-to-discover-and-develop-novel-treatments-for-cardiometabolic-diseases",
+   "raw_sector": "",
+   "date": "2025-01-08",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Novo Nordisk",
+   "use": "Named as a Amazon Bedrock customer/case study [Amazon Bedrock] [Amazon Bedrock]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.appsruntheworld.com/customers-database/products/view/amazon-bedrock",
+   "raw_sector": "",
+   "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "Novo Nordisk",
+   "use": "Enterprise generative-AI on Dataiku: predictive model flagging Type 2 diabetes comorbidity risk for field medical teams, automated scientific-literature summarization + LITGA literature-gap tool, and IC ASSIST RAG chatbot for sales-rep incentive-compensation queries. [Dataiku]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.dataiku.com/blog/novo-nordisk-using-generative-ai-to-drive-efficiency",
+   "raw_sector": "",
+   "date": "2024",
+   "fresh": "aging"
+  },
+  {
+   "company": "Novo Nordisk",
+   "use": "GitHub Copilot integration within the Research Collaboration Platform to reduce repetitive research and engineering (coding) tasks; described as in-development/building-out rather than fully in production. [GitHub (Copilot), Microsoft Azure DevOps]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.microsoft.com/en/customers/story/1703023298904319840-novo-nordisk-azure-devops-github-pharmaceuticals-denmark",
+   "raw_sector": "",
+   "date": "2023-11-14",
+   "fresh": "stale"
   }
  ]
 }

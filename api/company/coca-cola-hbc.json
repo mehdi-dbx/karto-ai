@@ -3,26 +3,26 @@
  "name": "Coca-Cola HBC",
  "cc": "UK",
  "vertical": "Retail & E-commerce",
- "deployments": 1,
- "confirmed": 1,
+ "deployments": 4,
+ "confirmed": 4,
  "with_value_number": 0,
  "proof_rate": 0.0,
  "mktcap": 22999700000.0,
  "revenue": 12852400000.0,
  "employees": 33582.0,
  "silent": false,
- "per_bn_revenue": 0.08,
- "per_10k_emp": 0.3,
+ "per_bn_revenue": 0.31,
+ "per_10k_emp": 1.19,
  "benchmarks": {
   "global_vertical": {
-   "deployments": 0,
-   "confirmed": 24,
+   "deployments": 28,
+   "confirmed": 44,
    "proof_rate": 0,
-   "n": 295
+   "n": 301
   },
   "country_vertical": {
-   "deployments": 0,
-   "confirmed": 15,
+   "deployments": 31,
+   "confirmed": 38,
    "proof_rate": 0,
    "n": 14
   }
@@ -35,9 +35,13 @@
  "maturity_evidence": [
   "named_product:Statement"
  ],
- "prospect_score": 46,
+ "prospect_score": 64,
  "stack": [
-  "Microsoft"
+  "Databricks",
+  "Microsoft",
+  "Microsoft Azure",
+  "OpenAI",
+  "SAP"
  ],
  "vendor_named": true,
  "deployments_detail": [
@@ -51,6 +55,149 @@
    "raw_sector": "Beverages",
    "date": "missing",
    "fresh": "undated"
+  },
+  {
+   "company": "Coca-Cola HBC",
+   "use": "Supply chain automation and process optimization [Microsoft]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.microsoft.com/en/customers/story/26347-coca-cola-hbc-dynamics-365-sales",
+   "raw_sector": "",
+   "date": "Apr 27, 2026",
+   "fresh": "undated"
+  },
+  {
+   "company": "Coca-Cola HBC",
+   "use": "Energy consumption monitoring and digital twin",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.just-drinks.com/interviews/why-coca-cola-hbc-is-looking-for-balance-on-ai/",
+   "raw_sector": "",
+   "date": "Dec 12, 2023",
+   "fresh": "undated"
+  },
+  {
+   "company": "Coca-Cola HBC",
+   "use": "Financial operations and job automation [Redwood RunMyJobs]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.redwood.com/resource/coca-cola-hbc-case-study/",
+   "raw_sector": "",
+   "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "Coca-Cola HBC",
+   "use": "Vision picking in warehouses: order pickers use RealWear smart glasses running TeamViewer Frontline xPick (formerly Ubimax) to receive hands-free, step-by-step picking instructions integrated with SAP/WMS, boosting accuracy and speed. [TeamViewer (Frontline xPick / Ubimax), RealWear HMT-1 smart glasses]",
+   "existence": "confirmed",
+   "value": "99.99% picking accuracy; +6-8% picking performance; rolled out to 16-18 logistics locations",
+   "tier": "",
+   "url": "https://invelon.com/en/case-study-coca-cola-hbc/",
+   "raw_sector": "",
+   "date": "2021",
+   "fresh": "stale"
+  },
+  {
+   "company": "Coca-Cola HBC",
+   "use": "Image-recognition for in-store execution: sales reps photograph shelves and coolers and computer vision automatically scores shelf execution/cooler appearance in real time, guiding in-store action. [none named]",
+   "existence": "confirmed",
+   "value": "Deployed across all 29 markets; ~60-70% of store visits use image recognition",
+   "tier": "",
+   "url": "https://www.just-drinks.com/interviews/why-coca-cola-hbc-is-looking-for-balance-on-ai/",
+   "raw_sector": "",
+   "date": "2023",
+   "fresh": "stale"
+  },
+  {
+   "company": "Coca-Cola HBC",
+   "use": "Unified customer data and CRM on Microsoft Dynamics 365 (Sales, Customer Service, Customer Insights - Journeys/Data) integrated with SAP via Dataverse; introducing Microsoft 365 Copilot for Sales to boost sales-team productivity. [Microsoft (Dynamics 365, Dataverse, Microsoft 365 Copilot for Sales)]",
+   "existence": "confirmed",
+   "value": "Operational across 21+ countries; new customer creation reduced from days to hours; data updates from days to seconds (Copilot for Sales in rollout)",
+   "tier": "",
+   "url": "https://www.microsoft.com/en/customers/story/26347-coca-cola-hbc-dynamics-365-sales",
+   "raw_sector": "",
+   "date": "2026",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Coca-Cola HBC",
+   "use": "AI-led outlet prioritization for field sales: models recommend which outlets to visit, when, and what to focus on to improve rep route effectiveness and order volumes. [none named]",
+   "existence": "claimed",
+   "value": "+12% sales rep efficiency; higher order volumes from high-priority stores",
+   "tier": "",
+   "url": "https://www.linkedin.com/posts/swagatpattanaik_reimaginingretail-aiinsales-fieldexecution-activity-7345056736191401984-KlNy",
+   "raw_sector": "",
+   "date": "2025",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Coca-Cola HBC",
+   "use": "AI-powered sales app developed at the Cairo digital hub that helps on-the-ground teams tailor promotions in real time, plus an upgraded AI-enhanced customer portal. [in-house (Coca-Cola HBC Digital Hub Egypt)]",
+   "existence": "confirmed",
+   "value": "Customer portal operating at double previous speed; hub supporting 27 markets, growing to ~450 IT professionals by 2027",
+   "tier": "",
+   "url": "https://www.just-drinks.com/sponsored/building-coca-cola-hbcs-digital-future-in-egypt/",
+   "raw_sector": "",
+   "date": "2025",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Coca-Cola HBC",
+   "use": "Digital twins of production lines: virtual replicas built from sensor data used to simulate configuration changes before physical implementation, with embedded generative AI for natural-language interaction. [Microsoft (Azure), OpenAI]",
+   "existence": "confirmed",
+   "value": "Operational facility in Austria; planned scale to 50+ lines by 2027",
+   "tier": "",
+   "url": "https://www.just-drinks.com/interviews/why-coca-cola-hbc-is-looking-for-balance-on-ai/",
+   "raw_sector": "",
+   "date": "2023",
+   "fresh": "stale"
+  },
+  {
+   "company": "Coca-Cola HBC",
+   "use": "Energy-efficiency optimization on a production line combining digital-twin sensor modeling, narrow AI and a generative-AI natural-language interface to optimize energy consumption. [Microsoft (Azure), OpenAI]",
+   "existence": "confirmed",
+   "value": "~90% energy savings on the specific line over 12 months (prototype)",
+   "tier": "",
+   "url": "https://www.just-drinks.com/interviews/why-coca-cola-hbc-is-looking-for-balance-on-ai/",
+   "raw_sector": "",
+   "date": "2023",
+   "fresh": "stale"
+  },
+  {
+   "company": "Coca-Cola HBC",
+   "use": "End-to-end demand, supply and production planning digitally transformed with Blue Yonder's AI/ML-driven planning platform. [Blue Yonder (Luminate Planning)]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.coca-colahellenic.com/en/media/news/corporate_news/2021/coca-cola-hbc-to-digitally-transform-its-end-to-end-planning-with-blue-yonder",
+   "raw_sector": "",
+   "date": "2021",
+   "fresh": "stale"
+  },
+  {
+   "company": "Coca-Cola HBC",
+   "use": "AI-powered internal knowledge hub and chatbot that instantly surfaces insights from internal resources for employees. [none named]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.coca-colahellenic.com/en/working-with-us/careers-in-digital-and-technology",
+   "raw_sector": "",
+   "date": "2025",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Coca-Cola HBC",
+   "use": "Building a federated, interoperable AI-ready data foundation on Databricks as the platform for scalable enterprise AI / 'systems of intelligence'. [Databricks]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://events.databricks.com/FY27-AI-Days-Lausanne/session/3792157/0930-coca-cola-hbc-data-foundation-for-building-systems-of-intelligence",
+   "raw_sector": "",
+   "date": "2026",
+   "fresh": "fresh"
   }
  ]
 }

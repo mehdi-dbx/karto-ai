@@ -3,28 +3,28 @@
  "name": "Citigroup",
  "cc": "US",
  "vertical": "Financial Services",
- "deployments": 9,
- "confirmed": 6,
+ "deployments": 16,
+ "confirmed": 7,
  "with_value_number": 9,
- "proof_rate": 1.0,
+ "proof_rate": 0.562,
  "mktcap": 220900000000.0,
  "revenue": 81710000000.0,
  "employees": 226000.0,
  "silent": false,
- "per_bn_revenue": 0.11,
- "per_10k_emp": 0.4,
+ "per_bn_revenue": 0.2,
+ "per_10k_emp": 0.71,
  "benchmarks": {
   "global_vertical": {
-   "deployments": 92,
-   "confirmed": 92,
-   "proof_rate": 76,
-   "n": 377
+   "deployments": 95,
+   "confirmed": 62,
+   "proof_rate": 86,
+   "n": 388
   },
   "country_vertical": {
-   "deployments": 83,
-   "confirmed": 83,
-   "proof_rate": 81,
-   "n": 76
+   "deployments": 92,
+   "confirmed": 55,
+   "proof_rate": 96,
+   "n": 77
   }
  },
  "first_seen": 2025,
@@ -38,7 +38,7 @@
    "n": 6
   }
  ],
- "undated_pct": 0,
+ "undated_pct": 44,
  "momentum": "rising",
  "maturity": "L4",
  "maturity_evidence": [
@@ -47,9 +47,18 @@
   "value_number",
   "multi_year"
  ],
- "prospect_score": 44,
- "stack": [],
- "vendor_named": false,
+ "prospect_score": 60,
+ "stack": [
+  "Amazon AWS",
+  "Cohere",
+  "Databricks",
+  "Google",
+  "Google Cloud",
+  "Microsoft",
+  "OpenAI",
+  "Palantir"
+ ],
+ "vendor_named": true,
  "deployments_detail": [
   {
    "company": "Citigroup",
@@ -61,6 +70,83 @@
    "raw_sector": "Financials",
    "date": "2025",
    "fresh": "fresh"
+  },
+  {
+   "company": "Citigroup",
+   "use": "Named as a OpenAI customer/case study [OpenAI] [OpenAI]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://bloomberry.com/blog/i-analyzed-all-of-chatgpts-enterprise-customers-heres-what-i-learned/",
+   "raw_sector": "",
+   "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "Citigroup",
+   "use": "Named as a Microsoft Copilot customer/case study [Microsoft Copilot] [Microsoft Copilot]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.appsruntheworld.com/customers-database/products/view/microsoft-365-copilot",
+   "raw_sector": "",
+   "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "Citigroup",
+   "use": "Named as a Amazon Bedrock customer/case study [Amazon Bedrock] [Amazon Bedrock]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.appsruntheworld.com/customers-database/products/view/amazon-bedrock",
+   "raw_sector": "",
+   "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "Citigroup",
+   "use": "Named as a Google Gemini / Vertex AI customer/case study [Google Gemini / Vertex AI] [Google Gemini / Vertex AI]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.appsruntheworld.com/customers-database/products/view/google-cloud-vertex-ai",
+   "raw_sector": "",
+   "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "Citigroup",
+   "use": "Named as a Databricks customer/case study [Databricks] [Databricks]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.appsruntheworld.com/customers-database/products/view/microsoft-azure-databricks-ai",
+   "raw_sector": "",
+   "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "Citigroup",
+   "use": "Named as a Palantir customer/case study [Palantir] [Palantir]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.appsruntheworld.com/customers-database/products/view/palantir-aip-platform",
+   "raw_sector": "",
+   "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "Citigroup",
+   "use": "Named as a Cohere customer/case study [Cohere] [Cohere]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.appsruntheworld.com/customers-database/products/view/cohere-ai",
+   "raw_sector": "",
+   "date": "missing",
+   "fresh": "undated"
   },
   {
    "company": "Citigroup",

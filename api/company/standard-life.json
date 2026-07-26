@@ -3,27 +3,27 @@
  "name": "Standard Life",
  "cc": "UK",
  "vertical": "Insurance",
- "deployments": 1,
+ "deployments": 4,
  "confirmed": 1,
  "with_value_number": 1,
- "proof_rate": 1.0,
+ "proof_rate": 0.25,
  "mktcap": 11633200000.0,
  "revenue": 36779200000.0,
  "employees": 5519.0,
  "silent": false,
- "per_bn_revenue": 0.03,
- "per_10k_emp": 1.81,
+ "per_bn_revenue": 0.11,
+ "per_10k_emp": 7.25,
  "benchmarks": {
   "global_vertical": {
-   "deployments": 0,
-   "confirmed": 14,
-   "proof_rate": 75,
-   "n": 60
+   "deployments": 24,
+   "confirmed": 2,
+   "proof_rate": 47,
+   "n": 63
   },
   "country_vertical": {
-   "deployments": 0,
-   "confirmed": 14,
-   "proof_rate": 43,
+   "deployments": 29,
+   "confirmed": 0,
+   "proof_rate": 29,
    "n": 8
   }
  },
@@ -34,17 +34,42 @@
    "n": 1
   }
  ],
- "undated_pct": 0,
+ "undated_pct": 75,
  "momentum": "early_mover,gone_quiet",
  "maturity": "L3",
  "maturity_evidence": [
   "named_product:Exploring",
   "value_number"
  ],
- "prospect_score": 14,
- "stack": [],
+ "prospect_score": 44,
+ "stack": [
+  "Microsoft",
+  "Microsoft Azure"
+ ],
  "vendor_named": false,
  "deployments_detail": [
+  {
+   "company": "Standard Life",
+   "use": "Customer messaging and support automation",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.moneymarketing.co.uk/news/standard-life-exploring-more-than-24-artificial-intelligence-concepts/",
+   "raw_sector": "",
+   "date": "Apr 3, 2025",
+   "fresh": "undated"
+  },
+  {
+   "company": "Standard Life",
+   "use": "AI tools and automation for customer experience and pension engagement",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.ftadviser.com/content/33de7373-75f3-54a1-bafa-970ef0297636",
+   "raw_sector": "",
+   "date": "Aug 28, 2024",
+   "fresh": "undated"
+  },
   {
    "company": "Standard Life",
    "use": "Exploring 24+ AI use cases across the business including secure query handling and boosting online pension engagement",
@@ -55,6 +80,105 @@
    "raw_sector": "Life insurance",
    "date": "2024",
    "fresh": "aging"
+  },
+  {
+   "company": "Standard Life",
+   "use": "Staff and adviser education on vulnerabilities",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.moneymarketing.co.uk/news/standard-life-exploring-more-than-24-artificial-intelligence-concepts/",
+   "raw_sector": "",
+   "date": "Apr 3, 2025",
+   "fresh": "undated"
+  },
+  {
+   "company": "Standard Life",
+   "use": "'Life Genie' customer-facing chatbot / virtual assistant on the Standard Life pensions site, answering member questions online. [none named]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.standardlifepensions.com/pa/virtual-assistant",
+   "raw_sector": "",
+   "date": "2025",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Standard Life",
+   "use": "Generative-AI 'secure message response assistant' that helps customer-service agents search ~1,500 knowledge articles and draft replies faster (human checks each reply before sending). [none named]",
+   "existence": "claimed",
+   "value": "12 people in alpha, ~100 in beta testing; 1,500+ knowledge articles",
+   "tier": "",
+   "url": "https://www.moneymarketing.co.uk/news/standard-life-exploring-more-than-24-artificial-intelligence-concepts/",
+   "raw_sector": "",
+   "date": "2025-04-03",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Standard Life",
+   "use": "Voice analytics to understand customer needs and identify vulnerable customers early (positive-assurance signals in calls). [none named]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://committees.parliament.uk/writtenevidence/139313/pdf/",
+   "raw_sector": "",
+   "date": "2024",
+   "fresh": "aging"
+  },
+  {
+   "company": "Standard Life",
+   "use": "Machine-learning email personalisation that learns the optimal send-time per member to improve engagement with pensions. [none named]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.moneymarketing.co.uk/news/standard-life-exploring-more-than-24-artificial-intelligence-concepts/",
+   "raw_sector": "",
+   "date": "2025-04-03",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Standard Life",
+   "use": "GitHub Copilot AI pair-programming assistant adopted by software developers for code suggestions and vulnerability fixes. [Microsoft / GitHub Copilot]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.microsoft.com/en/customers/story/24856-phoenix-group-microsoft-dev-box",
+   "raw_sector": "",
+   "date": "2025-10-01",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Standard Life",
+   "use": "Microsoft Dev Box AI-assisted cloud developer workstations (paired with GitHub Copilot) to speed developer onboarding and productivity. [Microsoft (Dev Box, Azure, Intune)]",
+   "existence": "confirmed",
+   "value": "up to 90% efficiency increase; developer onboarding cut from up to one month to one day",
+   "tier": "",
+   "url": "https://www.microsoft.com/en/customers/story/24856-phoenix-group-microsoft-dev-box",
+   "raw_sector": "",
+   "date": "2025-10-01",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Standard Life",
+   "use": "Machine learning to analyse existing/new customer data and develop scenarios so customer support can be delivered at scale (beyond the existing simple chatbot). [none named]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://committees.parliament.uk/writtenevidence/139313/pdf/",
+   "raw_sector": "",
+   "date": "2024",
+   "fresh": "aging"
+  },
+  {
+   "company": "Standard Life",
+   "use": "10-year outsourcing partnership with Wipro to modernise the ALPHA life & pension policy-administration platform (ReAssure book) using AI and automation for policy admin, claims and customer support. [Wipro]",
+   "existence": "claimed",
+   "value": "GBP 500 million over 10 years",
+   "tier": "",
+   "url": "https://www.wipro.com/newsroom/press-releases/2025/wipro-wins-a-pound500m-strategic-deal-with-uk-insurance-giant-phoenix-group/",
+   "raw_sector": "",
+   "date": "2025-03-26",
+   "fresh": "fresh"
   }
  ]
 }

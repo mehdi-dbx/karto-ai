@@ -3,45 +3,126 @@
  "name": "McDonald's",
  "cc": "US",
  "vertical": "Retail & E-commerce",
- "deployments": 1,
- "confirmed": 1,
- "with_value_number": 1,
- "proof_rate": 1.0,
+ "deployments": 12,
+ "confirmed": 9,
+ "with_value_number": 2,
+ "proof_rate": 0.167,
  "mktcap": 186450000000.0,
  "revenue": 27450000000.0,
  "employees": 150000.0,
  "silent": false,
- "per_bn_revenue": 0.04,
- "per_10k_emp": 0.07,
+ "per_bn_revenue": 0.44,
+ "per_10k_emp": 0.8,
  "benchmarks": {
   "global_vertical": {
-   "deployments": 0,
-   "confirmed": 24,
-   "proof_rate": 77,
-   "n": 295
+   "deployments": 86,
+   "confirmed": 81,
+   "proof_rate": 40,
+   "n": 301
   },
   "country_vertical": {
-   "deployments": 0,
-   "confirmed": 25,
-   "proof_rate": 85,
+   "deployments": 73,
+   "confirmed": 70,
+   "proof_rate": 35,
    "n": 80
   }
  },
- "first_seen": null,
- "by_year": [],
- "undated_pct": 100,
- "momentum": "none",
- "maturity": "L3",
- "maturity_evidence": [
-  "named_product:ArchIQ",
-  "value_number"
+ "first_seen": 2019,
+ "by_year": [
+  {
+   "year": 2019,
+   "n": 3
+  },
+  {
+   "year": 2023,
+   "n": 1
+  },
+  {
+   "year": 2024,
+   "n": 1
+  },
+  {
+   "year": 2025,
+   "n": 4
+  },
+  {
+   "year": 2026,
+   "n": 1
+  }
  ],
- "prospect_score": 6,
+ "undated_pct": 17,
+ "momentum": "early_mover,rising",
+ "maturity": "L4",
+ "maturity_evidence": [
+  "multi_horizontal",
+  "named_product:ArchIQ",
+  "value_number",
+  "multi_year"
+ ],
+ "prospect_score": 87,
  "stack": [
-  "Google Cloud"
+  "Databricks",
+  "Google",
+  "Google Cloud",
+  "IBM"
  ],
  "vendor_named": true,
  "deployments_detail": [
+  {
+   "company": "McDonald's",
+   "use": "ArchIQ ('Archy') generative-AI drive-thru voice ordering and restaurant-operations platform, taking orders in English and Spanish; in limited testing at five US locations, having processed over one million transactions with ~90% of orders completed without escalation to staff. [Google (Google Edge Cloud)]",
+   "existence": "confirmed",
+   "value": "~90% of orders completed without staff escalation; 1M+ transactions processed",
+   "tier": "",
+   "url": "https://www.artificialintelligence-news.com/news/mcdonalds-ai-drive-thru-google-archiq/",
+   "raw_sector": "",
+   "date": "2026-06-05",
+   "fresh": "fresh"
+  },
+  {
+   "company": "McDonald's",
+   "use": "Automated Order Taking (AOT) AI voice ordering at the drive-thru, tested in partnership with IBM at 100+ US restaurants beginning 2021; McDonald's ended the global AOT partnership with IBM and removed the technology (switched off by late July 2024) after accuracy shortfalls. [IBM]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.cnbc.com/amp/2024/06/17/mcdonalds-to-end-ibm-ai-drive-thru-test.html",
+   "raw_sector": "",
+   "date": "2024-06-17",
+   "fresh": "aging"
+  },
+  {
+   "company": "McDonald's",
+   "use": "Acquisition of Apprente, a 'sound-to-meaning' voice AI startup, to build multilingual conversational voice ordering for the drive-thru; folded into the new McD Tech Labs unit (later sold to IBM in 2021), forming the foundation of McDonald's automated voice-ordering effort. [Apprente (McD Tech Labs)]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://corporate.mcdonalds.com/corpmcd/our-stories/article/acquires_apprente.html",
+   "raw_sector": "",
+   "date": "2019-09-10",
+   "fresh": "stale"
+  },
+  {
+   "company": "McDonald's",
+   "use": "Strategic partnership with Google Cloud to apply generative AI and edge computing across restaurants worldwide, deploying Google Distributed Cloud hardware/software on-site for low-latency analytics, mobile app/loyalty optimization, kiosk improvements and equipment monitoring; thousands of restaurants began receiving upgrades from 2024. [Google Cloud (Google Distributed Cloud, Vertex AI)]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://corporate.mcdonalds.com/corpmcd/our-stories/article/mcd-google-cloud-announce-partnership.html",
+   "raw_sector": "",
+   "date": "2023-12-06",
+   "fresh": "stale"
+  },
+  {
+   "company": "McDonald's",
+   "use": "Named as a Databricks customer/case study [Databricks] [Databricks]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.databricks.com/blog/data-ai-use-cases-worlds-leading-companies",
+   "raw_sector": "",
+   "date": "missing",
+   "fresh": "undated"
+  },
   {
    "company": "McDonald's",
    "use": "\"ArchIQ\" AI platform (Google Cloud) — drive-thru voice ordering (multilingual, ~90% accuracy) + manager assist",
@@ -52,6 +133,72 @@
    "raw_sector": "Consumer Discretionary",
    "date": "missing",
    "fresh": "undated"
+  },
+  {
+   "company": "McDonald's",
+   "use": "Edge-computing AI predictive maintenance: sensors on kitchen equipment feed AI that detects early signs of failure (fryers, McFlurry/ice cream machines) to reduce downtime, rolling out to restaurants as part of the Google Cloud edge deployment announced in 2025. [Google Cloud (edge computing)]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.emarketer.com/content/mcdonalds-ai-edge-computing-restaurant-operations",
+   "raw_sector": "",
+   "date": "2025-03-05",
+   "fresh": "fresh"
+  },
+  {
+   "company": "McDonald's",
+   "use": "McHire hiring platform with AI conversational chatbot 'Olivia' (built by Paradox.ai) that screens applicants, collects resumes and administers personality tests to speed hourly hiring; in production and used at scale (a 2025 security flaw exposed records of tens of millions of applicants, confirming live use). [Paradox.ai (Olivia)]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.wired.com/story/mcdonalds-ai-hiring-chat-bot-paradoxai/",
+   "raw_sector": "",
+   "date": "2025-07-09",
+   "fresh": "fresh"
+  },
+  {
+   "company": "McDonald's",
+   "use": "'Apply Thru' voice job-application assistant letting candidates start a McDonald's job application via Amazon Alexa and Google Assistant ('Alexa, help me get a job at McDonald's'); launched live in the US, Canada and other markets in 2019. [Amazon Alexa; Google Assistant]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://corporate.mcdonalds.com/corpmcd/our-stories/article/job-via-alexa.html",
+   "raw_sector": "",
+   "date": "2019-09-25",
+   "fresh": "stale"
+  },
+  {
+   "company": "McDonald's",
+   "use": "Computer-vision order-accuracy checking: fixed cameras in the kitchen use AI to verify orders for accuracy before they are handed to the customer, described as part of McDonald's 2025 restaurant AI/edge rollout. [Google Cloud]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.techspot.com/news/107065-mcdonald-turns-ai-boost-order-accuracy-stay-ahead.html",
+   "raw_sector": "",
+   "date": "2025-03-07",
+   "fresh": "fresh"
+  },
+  {
+   "company": "McDonald's",
+   "use": "Development of a 'generative AI virtual manager' to handle administrative tasks such as shift scheduling and inventory for restaurant managers, disclosed as part of the plan to deploy AI tools across ~43,000 restaurants. [none]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://thespoon.tech/mcdonalds-is-creating-virtual-ai-managers-for-its-restaurants/",
+   "raw_sector": "",
+   "date": "2025-03-06",
+   "fresh": "fresh"
+  },
+  {
+   "company": "McDonald's",
+   "use": "Dynamic Yield decision-technology / machine-learning personalization of outdoor digital drive-thru menu boards and in-store kiosks, varying displayed items by weather, time of day, trending items and current order to suggest add-ons; acquired 2019, deployed across US drive-thrus, later sold to Mastercard (closed April 2022) with McDonald's continuing to use the technology. [Dynamic Yield (McDonald's-owned 2019-2022, then Mastercard)]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://corporate.mcdonalds.com/corpmcd/our-stories/article/dynamic_yield_1164112100.html",
+   "raw_sector": "",
+   "date": "2019-03-25",
+   "fresh": "stale"
   }
  ]
 }

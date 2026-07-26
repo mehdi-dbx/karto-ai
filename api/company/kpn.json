@@ -3,35 +3,40 @@
  "name": "KPN",
  "cc": "NL",
  "vertical": "Telecom",
- "deployments": 2,
- "confirmed": 1,
- "with_value_number": 0,
- "proof_rate": 0.0,
+ "deployments": 6,
+ "confirmed": 4,
+ "with_value_number": 1,
+ "proof_rate": 0.167,
  "mktcap": 17312400000.0,
  "revenue": 6296400000.0,
  "employees": 9293.0,
  "silent": false,
- "per_bn_revenue": 0.32,
- "per_10k_emp": 2.15,
+ "per_bn_revenue": 0.95,
+ "per_10k_emp": 6.46,
  "benchmarks": {
   "global_vertical": {
-   "deployments": 57,
-   "confirmed": 16,
-   "proof_rate": 0,
-   "n": 93
+   "deployments": 30,
+   "confirmed": 33,
+   "proof_rate": 26,
+   "n": 94
   }
  },
  "first_seen": null,
  "by_year": [],
  "undated_pct": 100,
  "momentum": "none",
- "maturity": "L2",
+ "maturity": "L3",
  "maturity_evidence": [
+  "multi_horizontal",
+  "named_product:Agentic",
   "tier_p"
  ],
- "prospect_score": 54,
- "stack": [],
- "vendor_named": false,
+ "prospect_score": 57,
+ "stack": [
+  "Microsoft Azure",
+  "OpenAI"
+ ],
+ "vendor_named": true,
  "deployments_detail": [
   {
    "company": "KPN",
@@ -46,6 +51,17 @@
   },
   {
    "company": "KPN",
+   "use": "GenAI Lab for accelerating AI adoption and delivering production-ready solutions",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.youtube.com/watch?v=ztpIv54DrqM",
+   "raw_sector": "",
+   "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "KPN",
    "use": "Agentic AI customer-care engine including invoice-explainer agent and generic Q&A agent available to all customers",
    "existence": "claimed",
    "value": "none",
@@ -53,6 +69,39 @@
    "url": "https://www.mckinsey.com/industries/technology-media-and-telecommunications",
    "raw_sector": "Telecom",
    "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "KPN",
+   "use": "Agentic AI for customer service with orchestration, conversation optimization, and core system integration",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.mckinsey.com/industries/technology-media-and-telecommunications/how-we-help-clients/how-kpn-is-building-an-agentic-ai-engine-for-customer-care",
+   "raw_sector": "",
+   "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "KPN",
+   "use": "Generative AI for improving productivity and employee empowerment across operations [Azure OpenAI Service]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.microsoft.com/en/customers/story/1755313882150246075-kpn-azure-openai-service-telecommunications-en-netherlands",
+   "raw_sector": "",
+   "date": "May 2, 2024",
+   "fresh": "undated"
+  },
+  {
+   "company": "KPN",
+   "use": "Multiple generative AI use cases identified including social media content composition",
+   "existence": "claimed",
+   "value": "60",
+   "tier": "",
+   "url": "https://www.deloitte.com/nl/en/Industries/tmt/research/state-of-ai-in-tmt.html",
+   "raw_sector": "",
+   "date": "May 28, 2024",
    "fresh": "undated"
   }
  ]

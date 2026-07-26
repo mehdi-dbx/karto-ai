@@ -3,39 +3,58 @@
  "name": "Voestalpine",
  "cc": "AT",
  "vertical": "Manufacturing & Robotics",
- "deployments": 3,
- "confirmed": 1,
- "with_value_number": 0,
- "proof_rate": 0.0,
+ "deployments": 16,
+ "confirmed": 10,
+ "with_value_number": 2,
+ "proof_rate": 0.125,
  "mktcap": 8272800000.0,
  "revenue": 16264800000.0,
  "employees": 41486.0,
  "silent": false,
- "per_bn_revenue": 0.18,
- "per_10k_emp": 0.72,
+ "per_bn_revenue": 0.98,
+ "per_10k_emp": 3.86,
  "benchmarks": {
   "global_vertical": {
-   "deployments": 88,
-   "confirmed": 24,
-   "proof_rate": 0,
-   "n": 147
+   "deployments": 99,
+   "confirmed": 91,
+   "proof_rate": 54,
+   "n": 150
   }
  },
- "first_seen": 2025,
+ "first_seen": 2021,
  "by_year": [
   {
+   "year": 2021,
+   "n": 1
+  },
+  {
+   "year": 2023,
+   "n": 1
+  },
+  {
+   "year": 2024,
+   "n": 2
+  },
+  {
    "year": 2025,
+   "n": 9
+  },
+  {
+   "year": 2026,
    "n": 1
   }
  ],
- "undated_pct": 67,
- "momentum": "rising",
- "maturity": "L3",
+ "undated_pct": 12,
+ "momentum": "early_mover,rising",
+ "maturity": "L4",
  "maturity_evidence": [
+  "multi_horizontal",
   "named_product:Company",
+  "value_number",
+  "multi_year",
   "tier_p"
  ],
- "prospect_score": 46,
+ "prospect_score": 95,
  "stack": [
   "IBM"
  ],
@@ -65,6 +84,127 @@
   },
   {
    "company": "Voestalpine",
+   "use": "Computer-vision visual defect detection at voestalpine Tubulars recognizes cracks in the hollow billet and other surface/end-face defects on tube products during production. [voestalpine (in-house computer vision)]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.voestalpine.com/blog/en/innovation-technology/incredibly-smart-artificial-intelligence-at-voestalpine/",
+   "raw_sector": "",
+   "date": "2025-02",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Voestalpine",
+   "use": "Machine-learning models at voestalpine Stahl Donawitz predict longitudinal cracks in cast billets before they appear, improving quality management in continuous casting. [voestalpine (in-house ML)]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.voestalpine.com/blog/en/innovation-technology/incredibly-smart-artificial-intelligence-at-voestalpine/",
+   "raw_sector": "",
+   "date": "2025-02",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Voestalpine",
+   "use": "OCR plus sensor-data fusion on cloud platforms at the Linz site to unequivocally identify material objects and track them as they move through the factory (material tracing). [voestalpine (in-house, cloud-based)]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.voestalpine.com/blog/en/innovation-technology/incredibly-smart-artificial-intelligence-at-voestalpine/",
+   "raw_sector": "",
+   "date": "2025-02",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Voestalpine",
+   "use": "AI-based predictive maintenance / condition monitoring in the High Performance Metals Division improves equipment availability and optimizes capacity utilization, reducing energy use and CO2 emissions. [voestalpine (in-house)]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.voestalpine.com/blog/en/innovation-technology/incredibly-smart-artificial-intelligence-at-voestalpine/",
+   "raw_sector": "",
+   "date": "2025-02",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Voestalpine",
+   "use": "Intelligent Turnout / points condition-monitoring product (zentrak, Digital Performance on Track) with sensor+AI predictive maintenance that detects the risk of a points failure that would cause a line closure; sold commercially to railway infrastructure operators. [voestalpine Railway Systems (zentrak / ROADMASTER SCM)]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.voestalpine.com/railway-systems/en/products/turnout-systems/intelligent-turnout/",
+   "raw_sector": "",
+   "date": "2025-08",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Voestalpine",
+   "use": "Optical AI measuring system at voestalpine Grobblech for final inspection of roll-bonded clad plates, measuring plate thickness and geometry. [voestalpine (optical measuring system)]",
+   "existence": "confirmed",
+   "value": "+/-100 micrometer accuracy; more than one million measuring points within ten minutes",
+   "tier": "",
+   "url": "https://www.wire-tradefair.com/en/Media_News/News/Topics/How_AI_supports_green_steel_production",
+   "raw_sector": "",
+   "date": "2024",
+   "fresh": "aging"
+  },
+  {
+   "company": "Voestalpine",
+   "use": "Data-based AI assistance systems at voestalpine Wire Germany (Finsterwalde) for wire-drawing production: sensor-based anomaly detection and predictive maintenance (e.g., vibration/oscillation early-warning of bearing damage) and comparison of production parameters against targets. [voestalpine Wire Technology (in-house)]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.voestalpine.com/wiretechnology/en/company/news-events/artificial-intelligence-at-voestalpine-wire-technology/",
+   "raw_sector": "",
+   "date": "2023-12",
+   "fresh": "stale"
+  },
+  {
+   "company": "Voestalpine",
+   "use": "Shopfloor AI 'Lighthouse Project' at voestalpine Krems: predicts sawblade wear on flying saws in roll-forming lines from operational signals (current, power, momentum) and surfaces a SCADA traffic-light indicator to optimize blade-change timing and reduce scrap/downtime. [AVEVA (Advanced Analytics + CONNECT data services)]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.aveva.com/en/perspectives/presentations/2026/voestalpine--ai-at-the-shopfloor--material-tracing-and-sawblade-lifetime-optimization/",
+   "raw_sector": "",
+   "date": "2026",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Voestalpine",
+   "use": "AI surface-inspection projects at voestalpine Wire Rod Austria: line-scan-camera surface defect detection on the rolling line (proactively alerts control-center staff to possible errors), acoustic monitoring of the rolling mill for equipment faults, and AI support for the eddy-current testing unit. [voestalpine Wire Technology (in-house)]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.voestalpine.com/wiretechnology/en/company/news-events/artificial-intelligence-solutions/",
+   "raw_sector": "",
+   "date": "2021-10",
+   "fresh": "stale"
+  },
+  {
+   "company": "Voestalpine",
+   "use": "greentec steel: machine-learning process-parameter optimization and a digital twin predict finishing parameters (cooling-stop temperature, cooling rate, rolling speed; target hardness/tensile strength) to avoid energy-intensive corrections at Linz and Donawitz electric-steel plants. [voestalpine (in-house ML / digital twin)]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.voestalpine.com/blog/en/sustainability/greentec-steel/greentec-steel-green-and-smart-steel-production/",
+   "raw_sector": "",
+   "date": "2025-11",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Voestalpine",
+   "use": "SAELING research project applies AI to optimize energy efficiency of ~2,000 saws, milling machines and grinders (built on the HPMconnect program, 250+ connected units) in the High Performance Metals Division at Kapfenberg. [voestalpine HPM with University of Klagenfurt, KU Leuven, Siemens]",
+   "existence": "claimed",
+   "value": "targeted 20-30% energy efficiency increase; ~21 GWh current annual consumption",
+   "tier": "",
+   "url": "https://www.voestalpine.com/blog/en/innovation-technology/incredibly-smart-artificial-intelligence-at-voestalpine/",
+   "raw_sector": "",
+   "date": "2024-05",
+   "fresh": "aging"
+  },
+  {
+   "company": "Voestalpine",
    "use": "voestalpine High Performance Metals multicloud AI assistant (IBM) automating order capture and significantly reducing order-processing times",
    "existence": "claimed",
    "value": "significant reduction in processing times",
@@ -73,6 +213,28 @@
    "raw_sector": "Steel",
    "date": "missing",
    "fresh": "undated"
+  },
+  {
+   "company": "Voestalpine",
+   "use": "AI/ML liquidity forecasting in the Steel Division predicts incoming and outgoing payments to support financial planning and solvency. [voestalpine (in-house ML)]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.voestalpine.com/blog/en/innovation-technology/incredibly-smart-artificial-intelligence-at-voestalpine/",
+   "raw_sector": "",
+   "date": "2025-02",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Voestalpine",
+   "use": "Supply-chain optimization in the High Performance Metals Division uses internal and external data to recommend which supply-chain process path is most likely to succeed, presenting recommendations for employee approval. [voestalpine (in-house)]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.voestalpine.com/blog/en/innovation-technology/incredibly-smart-artificial-intelligence-at-voestalpine/",
+   "raw_sector": "",
+   "date": "2025-02",
+   "fresh": "fresh"
   }
  ]
 }

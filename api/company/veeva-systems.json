@@ -3,7 +3,7 @@
  "name": "Veeva Systems",
  "cc": "US",
  "vertical": "Healthcare & Life Sciences",
- "deployments": 1,
+ "deployments": 4,
  "confirmed": 1,
  "with_value_number": 0,
  "proof_rate": 0.0,
@@ -11,26 +11,35 @@
  "revenue": 3320000000.0,
  "employees": 7928.0,
  "silent": false,
- "per_bn_revenue": 0.3,
- "per_10k_emp": 1.26,
+ "per_bn_revenue": 1.2,
+ "per_10k_emp": 5.05,
  "benchmarks": {
   "global_vertical": {
-   "deployments": 0,
-   "confirmed": 13,
+   "deployments": 26,
+   "confirmed": 5,
    "proof_rate": 0,
-   "n": 165
+   "n": 168
   },
   "country_vertical": {
-   "deployments": 0,
-   "confirmed": 7,
+   "deployments": 14,
+   "confirmed": 3,
    "proof_rate": 0,
    "n": 59
   }
  },
- "first_seen": null,
- "by_year": [],
- "undated_pct": 100,
- "momentum": "none",
+ "first_seen": 2024,
+ "by_year": [
+  {
+   "year": 2024,
+   "n": 1
+  },
+  {
+   "year": 2025,
+   "n": 1
+  }
+ ],
+ "undated_pct": 50,
+ "momentum": "early_mover,flat",
  "maturity": "L3",
  "maturity_evidence": [
   "named_product:Vault AI",
@@ -40,6 +49,39 @@
  "stack": [],
  "vendor_named": false,
  "deployments_detail": [
+  {
+   "company": "Veeva Systems",
+   "use": "Agentic AI agents across Vault Platform for clinical, regulatory, safety, quality, medical, and commercial use cases",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.veeva.com/products/vault-ai/",
+   "raw_sector": "",
+   "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "Veeva Systems",
+   "use": "AI Agents for automating draft versions of dossier documents and regulatory submissions",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.veeva.com/blog/emerging-ai-proof-of-concepts-for-accelerating-submission-timelines/",
+   "raw_sector": "",
+   "date": "2024-07-18",
+   "fresh": "aging"
+  },
+  {
+   "company": "Veeva Systems",
+   "use": "Pre-built AI Agents for detecting missing metadata in submission documents and summarizing",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://clarkstonconsulting.com/insights/veeva-ai-benefits-risks/",
+   "raw_sector": "",
+   "date": "2025-06-30",
+   "fresh": "fresh"
+  },
   {
    "company": "Veeva Systems",
    "use": "\"Vault AI\" + Veeva AI Agents (industry-specific agents for Vault CRM/PromoMats)",

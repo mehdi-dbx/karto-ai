@@ -3,27 +3,27 @@
  "name": "Bank Negara Indonesia",
  "cc": "ID",
  "vertical": "Financial Services",
- "deployments": 2,
- "confirmed": 1,
- "with_value_number": 0,
- "proof_rate": 0.0,
+ "deployments": 14,
+ "confirmed": 12,
+ "with_value_number": 2,
+ "proof_rate": 0.143,
  "mktcap": 8488607595.0,
  "revenue": 3152531646.0,
  "employees": 27651.0,
  "silent": false,
- "per_bn_revenue": 0.63,
- "per_10k_emp": 0.72,
+ "per_bn_revenue": 4.44,
+ "per_10k_emp": 5.06,
  "benchmarks": {
   "global_vertical": {
-   "deployments": 62,
-   "confirmed": 17,
-   "proof_rate": 0,
-   "n": 377
+   "deployments": 91,
+   "confirmed": 90,
+   "proof_rate": 33,
+   "n": 388
   },
   "country_vertical": {
-   "deployments": 14,
-   "confirmed": 43,
-   "proof_rate": 0,
+   "deployments": 100,
+   "confirmed": 100,
+   "proof_rate": 71,
    "n": 8
   }
  },
@@ -31,24 +31,59 @@
  "by_year": [
   {
    "year": 2018,
+   "n": 3
+  },
+  {
+   "year": 2021,
    "n": 1
   },
   {
    "year": 2024,
-   "n": 1
+   "n": 5
+  },
+  {
+   "year": 2025,
+   "n": 5
   }
  ],
  "undated_pct": 0,
- "momentum": "early_mover,gone_quiet",
- "maturity": "L3",
+ "momentum": "early_mover,flat",
+ "maturity": "L4",
  "maturity_evidence": [
+  "multi_horizontal",
   "named_product:Cinta",
+  "value_number",
+  "multi_year",
   "tier_p"
  ],
- "prospect_score": 54,
- "stack": [],
- "vendor_named": false,
+ "prospect_score": 94,
+ "stack": [
+  "NVIDIA"
+ ],
+ "vendor_named": true,
  "deployments_detail": [
+  {
+   "company": "Bank Negara Indonesia",
+   "use": "Cloudera AI Inference Service (built on NVIDIA NIM microservices) hosting open-source LLMs in BNI's virtual private cloud for production-grade predictive/GenAI/LLM workloads with data sovereignty [Cloudera, NVIDIA]",
+   "existence": "confirmed",
+   "value": "up to 36x faster AI model inference on NVIDIA GPUs",
+   "tier": "",
+   "url": "https://www.cloudera.com/about/news-and-blogs/press-releases/2024-06-24-bank-negara-indonesia-selects-cloudera-to-accelerate-its-business-transformation-with-generative-ai.html",
+   "raw_sector": "",
+   "date": "2024-06-24",
+   "fresh": "aging"
+  },
+  {
+   "company": "Bank Negara Indonesia",
+   "use": "Churn prediction ML - identifying at-risk customers for proactive retention engagement [Cloudera, NVIDIA]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.cloudera.com/about/news-and-blogs/press-releases/2025-08-06-bank-negara-indonesia-strengthens-partnership-with-cloudera-to-scale-ai-powered-business-transformation.html",
+   "raw_sector": "",
+   "date": "2025-08-06",
+   "fresh": "fresh"
+  },
   {
    "company": "Bank Negara Indonesia",
    "use": "Cinta (Chat with your INTelligent Advisor) - AI chat-banking channel for digital-generation customers",
@@ -62,6 +97,72 @@
   },
   {
    "company": "Bank Negara Indonesia",
+   "use": "Cinta (Chat with your INTelligent Advisor) - AI chat-banking virtual assistant that recognizes user profile and steers conversations via profiling [none named]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.bni.co.id/id-id/beranda/kabar-bni/berita/articleid/3806",
+   "raw_sector": "",
+   "date": "2018-03-04",
+   "fresh": "stale"
+  },
+  {
+   "company": "Bank Negara Indonesia",
+   "use": "Digital Contact Center Application - Indonesia's first integrated AI-assisted contact center app, using machine learning and Natural Language Processing [none named]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.bni.co.id/en-us/home/bni-news/news/articleid/24097/bni-investor-daily-summit-2024-bni-encourages-business-competitiveness-with-ai-and-cloud-based-digital-transformation",
+   "raw_sector": "",
+   "date": "2024-10-08",
+   "fresh": "aging"
+  },
+  {
+   "company": "Bank Negara Indonesia",
+   "use": "Lenna.ai contact center automation - AI conversation technology via text and voice to assist BNI customer service [Lenna.ai]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://lenna.ai/en/bni-contact-center/",
+   "raw_sector": "",
+   "date": "2021-03-28",
+   "fresh": "stale"
+  },
+  {
+   "company": "Bank Negara Indonesia",
+   "use": "BNI Call Virtual Assistant / call center with voice command - AI-based personal assistant for customer self-service [none named]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://finance.detik.com/moneter/d-4275822/bni-pelopori-layanan-call-center-berbasis-ai-dilengkapi-voice-command",
+   "raw_sector": "",
+   "date": "2018-10-27",
+   "fresh": "stale"
+  },
+  {
+   "company": "Bank Negara Indonesia",
+   "use": "Online gambling detection - real-time ML models to detect and freeze suspicious accounts, coordinating with PPATK/Kominfo/OJK/BI [Cloudera, NVIDIA]",
+   "existence": "confirmed",
+   "value": "214 accounts blocked (reported Jul 2024)",
+   "tier": "",
+   "url": "https://www.cloudera.com/about/news-and-blogs/press-releases/2025-08-06-bank-negara-indonesia-strengthens-partnership-with-cloudera-to-scale-ai-powered-business-transformation.html",
+   "raw_sector": "",
+   "date": "2025-08-06",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Bank Negara Indonesia",
+   "use": "AI-based fraud detection integrated across banking operations [none named]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://jakartaglobe.id/business/bni-adopts-ai-to-enhance-customer-service",
+   "raw_sector": "",
+   "date": "2024-10-09",
+   "fresh": "aging"
+  },
+  {
+   "company": "Bank Negara Indonesia",
    "use": "AI used for product recommendations and supply-chain analytics to improve customer service",
    "existence": "claimed",
    "value": "none",
@@ -70,6 +171,50 @@
    "raw_sector": "Banks",
    "date": "2024",
    "fresh": "aging"
+  },
+  {
+   "company": "Bank Negara Indonesia",
+   "use": "Relationship Manager chatbot providing AI-generated responses to customer inquiries to equip RMs with product knowledge [Cloudera, NVIDIA]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.cloudera.com/about/news-and-blogs/press-releases/2025-08-06-bank-negara-indonesia-strengthens-partnership-with-cloudera-to-scale-ai-powered-business-transformation.html",
+   "raw_sector": "",
+   "date": "2025-08-06",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Bank Negara Indonesia",
+   "use": "Product recommendation ML - suggesting relevant banking products based on customer transaction history [Cloudera, NVIDIA]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.cloudera.com/about/news-and-blogs/press-releases/2025-08-06-bank-negara-indonesia-strengthens-partnership-with-cloudera-to-scale-ai-powered-business-transformation.html",
+   "raw_sector": "",
+   "date": "2025-08-06",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Bank Negara Indonesia",
+   "use": "Conversational banking and hyper-personalization integrated into digital channels [none named]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://jakartaglobe.id/business/bni-adopts-ai-to-enhance-customer-service",
+   "raw_sector": "",
+   "date": "2024-10-09",
+   "fresh": "aging"
+  },
+  {
+   "company": "Bank Negara Indonesia",
+   "use": "Supply chain analytics ML - optimizing material flows and vendor networks to improve operational efficiency and reduce risk [Cloudera, NVIDIA]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.cloudera.com/about/news-and-blogs/press-releases/2025-08-06-bank-negara-indonesia-strengthens-partnership-with-cloudera-to-scale-ai-powered-business-transformation.html",
+   "raw_sector": "",
+   "date": "2025-08-06",
+   "fresh": "fresh"
   }
  ]
 }

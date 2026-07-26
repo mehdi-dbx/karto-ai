@@ -3,47 +3,71 @@
  "name": "Poly Real Estate Group (Poly Developments)",
  "cc": "CN",
  "vertical": "Real Estate & Construction",
- "deployments": 1,
- "confirmed": 0,
- "with_value_number": 1,
+ "deployments": 9,
+ "confirmed": 8,
+ "with_value_number": 9,
  "proof_rate": 1.0,
  "mktcap": 8470833333.0,
  "revenue": 41611111111.0,
  "employees": 44445.0,
  "silent": false,
- "per_bn_revenue": 0.02,
- "per_10k_emp": 0.22,
+ "per_bn_revenue": 0.22,
+ "per_10k_emp": 2.02,
  "benchmarks": {
   "global_vertical": {
-   "deployments": 0,
-   "confirmed": 0,
-   "proof_rate": 71,
+   "deployments": 80,
+   "confirmed": 90,
+   "proof_rate": 96,
    "n": 154
   },
   "country_vertical": {
-   "deployments": 0,
-   "confirmed": 0,
-   "proof_rate": 31,
+   "deployments": 90,
+   "confirmed": 93,
+   "proof_rate": 86,
    "n": 30
   }
  },
- "first_seen": 2025,
+ "first_seen": 2023,
  "by_year": [
   {
+   "year": 2023,
+   "n": 1
+  },
+  {
    "year": 2025,
+   "n": 7
+  },
+  {
+   "year": 2026,
    "n": 1
   }
  ],
  "undated_pct": 0,
- "momentum": "rising",
- "maturity": "L1",
+ "momentum": "early_mover,rising",
+ "maturity": "L4",
  "maturity_evidence": [
-  "rows_no_confirmed"
+  "multi_horizontal",
+  "named_product:AIGC",
+  "value_number",
+  "multi_year"
  ],
- "prospect_score": 0,
- "stack": [],
- "vendor_named": false,
+ "prospect_score": 48,
+ "stack": [
+  "DeepSeek"
+ ],
+ "vendor_named": true,
  "deployments_detail": [
+  {
+   "company": "Poly Real Estate Group (Poly Developments)",
+   "use": "Poly Property 'RADAR' (雷达) whole-time whole-domain digital service system covering management and owner-facing service, enabling online handling of property business [none]",
+   "existence": "confirmed",
+   "value": "Over 84% of business handled online (as of 2023); system developed 2022",
+   "tier": "",
+   "url": "https://5gai.cctv.com/2023/01/13/ARTIdH9LkWt8gE6z8237pu1Z230112.shtml",
+   "raw_sector": "",
+   "date": "2023-01-13",
+   "fresh": "stale"
+  },
   {
    "company": "Poly Real Estate Group (Poly Developments)",
    "use": "AIGC smart design platform and DeepSeek-V3 smart-home optimization",
@@ -53,6 +77,83 @@
    "url": "https://finance.sina.com.cn",
    "raw_sector": "Real Estate",
    "date": "2025",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Poly Real Estate Group (Poly Developments)",
+   "use": "AIGC intelligent design system (Hezhi Technology 智造 platform): one-click generation of refined-decoration drawings, prefab/door-window design, automatic quantity take-off and ordering, with a built-in '一城一策' standard component library [Hezhi Technology (和智科技, Poly Developments x Daleyizhuang joint venture)]",
+   "existence": "confirmed",
+   "value": "Design cycle cut from 15 days to 2 hours; prefab construction cost reduced >10%; design efficiency improved 5x+; near-zero drawing error rate",
+   "tier": "",
+   "url": "https://polycn.com/news_d35861.html",
+   "raw_sector": "",
+   "date": "2025-08-13",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Poly Real Estate Group (Poly Developments)",
+   "use": "AI technology construction management (科技建管): real-time construction-site tracking, big-data analysis, safety early-warning and concealed-works inspection on the Hezhi 智造 platform [Hezhi Technology (和智科技)]",
+   "existence": "confirmed",
+   "value": "Concealed-project inspection efficiency improved 75%; average acceptance cycle reduced from 55 to 30 days; quality-defect tracing at minute-level response",
+   "tier": "",
+   "url": "https://publicity.cebpubservice.com/publicity/case-release/zhongfang-detail/2025/detail-blfz.html",
+   "raw_sector": "",
+   "date": "2025",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Poly Real Estate Group (Poly Developments)",
+   "use": "Data large-model 'AI digital human' that ingests full production-management workflow data to provide operational decision support across development and operations [Hezhi Technology (和智科技)]",
+   "existence": "confirmed",
+   "value": "Trial projects achieved over 10 million yuan in management cost savings (platform-level)",
+   "tier": "",
+   "url": "https://publicity.cebpubservice.com/publicity/case-release/zhongfang-detail/2025/detail-blfz.html",
+   "raw_sector": "",
+   "date": "2025",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Poly Real Estate Group (Poly Developments)",
+   "use": "AI smart work badge (AI智能工牌) for on-site sales: AI customer profiling and one-client-one-strategy analysis of the reception/showroom process to close the sales loop [Mingyuan Cloud (明源云)]",
+   "existence": "confirmed",
+   "value": "Deployed across 60+ projects nationwide in 2024",
+   "tier": "",
+   "url": "https://finance.sina.com.cn/jjxw/2025-08-20/doc-infmrnyc6767797.shtml",
+   "raw_sector": "",
+   "date": "2025-08-20",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Poly Real Estate Group (Poly Developments)",
+   "use": "24/7 AI salesperson (AI销售员) for Poly Herun digital marketing: understands customer intent, replies human-like from a project knowledge base, handles live-chat/private messages, and drives lead capture [Mingyuan Cloud (明源云)]",
+   "existence": "confirmed",
+   "value": "25% increase in lead capture; ~300k yuan/project annual cost reduction; Jiangmen Poly Langyue private inquiries rose from 3 to 73 in one month; AI handled 98% of follow-ups at a pilot",
+   "tier": "",
+   "url": "https://www.mingyuanyun.com/about/news/company-dynamics/1282",
+   "raw_sector": "",
+   "date": "2025-07-04",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Poly Real Estate Group (Poly Developments)",
+   "use": "AI content/marketing suite for Poly Herun: AI creative workshop (short-video scripting/editing), AI live-streaming host (AI走播) filling gaps in human broadcasts [Mingyuan Cloud (明源云)]",
+   "existence": "confirmed",
+   "value": "Pilot projects saw 30x+ matrix-account exposure",
+   "tier": "",
+   "url": "https://www.mingyuanyun.com/customer-case/real-estates/101",
+   "raw_sector": "",
+   "date": "2025",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Poly Real Estate Group (Poly Developments)",
+   "use": "Poly Property x Hikvision '蔚然人居' joint lab: security AI intelligent patrol/inspection (安防AI智能巡检), refined community-entrance management, and elderly/child care scenarios [Hikvision (海康威视)]",
+   "existence": "confirmed",
+   "value": "Demonstration project deployed at Shanghai Poly Longyue community; lab launched June 2026",
+   "tier": "",
+   "url": "https://www.hikvision.com/cn/NewsEvents/Newsroom/2026/2026-06-10/",
+   "raw_sector": "",
+   "date": "2026-06-10",
    "fresh": "fresh"
   }
  ]

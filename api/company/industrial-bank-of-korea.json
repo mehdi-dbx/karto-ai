@@ -3,43 +3,79 @@
  "name": "Industrial Bank of Korea",
  "cc": "KR",
  "vertical": "Financial Services",
- "deployments": 1,
- "confirmed": 1,
- "with_value_number": 0,
- "proof_rate": 0.0,
+ "deployments": 6,
+ "confirmed": 6,
+ "with_value_number": 2,
+ "proof_rate": 0.333,
  "mktcap": 12437037037.0,
  "revenue": 6703703704.0,
  "employees": 13333.0,
  "silent": false,
- "per_bn_revenue": 0.15,
- "per_10k_emp": 0.75,
+ "per_bn_revenue": 0.9,
+ "per_10k_emp": 4.5,
  "benchmarks": {
   "global_vertical": {
-   "deployments": 0,
-   "confirmed": 17,
-   "proof_rate": 0,
-   "n": 377
+   "deployments": 44,
+   "confirmed": 55,
+   "proof_rate": 58,
+   "n": 388
   },
   "country_vertical": {
-   "deployments": 0,
-   "confirmed": 0,
-   "proof_rate": 0,
-   "n": 17
+   "deployments": 56,
+   "confirmed": 72,
+   "proof_rate": 83,
+   "n": 19
   }
  },
- "first_seen": null,
- "by_year": [],
- "undated_pct": 100,
- "momentum": "none",
- "maturity": "L3",
+ "first_seen": 2025,
+ "by_year": [
+  {
+   "year": 2025,
+   "n": 2
+  },
+  {
+   "year": 2026,
+   "n": 2
+  }
+ ],
+ "undated_pct": 33,
+ "momentum": "rising",
+ "maturity": "L4",
  "maturity_evidence": [
+  "multi_horizontal",
   "named_product:Explainable",
+  "value_number",
+  "multi_year",
   "tier_p"
  ],
- "prospect_score": 54,
- "stack": [],
- "vendor_named": false,
+ "prospect_score": 63,
+ "stack": [
+  "OpenAI"
+ ],
+ "vendor_named": true,
  "deployments_detail": [
+  {
+   "company": "Industrial Bank of Korea",
+   "use": "IBK BARO - generative AI voice bot service for customer support",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.instagram.com/industrial_bank_of_korea/?hl=en",
+   "raw_sector": "",
+   "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "Industrial Bank of Korea",
+   "use": "IBK GenAI - proprietary generative AI platform for banking operations and service development",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "http://www.ibkar.co.kr/business/digital_group",
+   "raw_sector": "",
+   "date": "2025",
+   "fresh": "fresh"
+  },
   {
    "company": "Industrial Bank of Korea",
    "use": "Explainable AI (XAI) for financial services (Korea-first claim); AI-based digital banking rebuild; AI ACT SME consulting; AX loan program",
@@ -50,6 +86,39 @@
    "raw_sector": "Financials",
    "date": "missing",
    "fresh": "undated"
+  },
+  {
+   "company": "Industrial Bank of Korea",
+   "use": "IBK GPT Project - AI for operational productivity and digital transformation",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://finovate.com/industrial-bank-of-korea-wins-best-mobile-financial-app-at-the-finovate-awards/",
+   "raw_sector": "",
+   "date": "2025-01-09",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Industrial Bank of Korea",
+   "use": "IBK GenAI for service development and deployment across branches",
+   "existence": "confirmed",
+   "value": "249",
+   "tier": "",
+   "url": "https://m.ajupress.com/amp/20260318180470748",
+   "raw_sector": "",
+   "date": "2026-03-18",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Industrial Bank of Korea",
+   "use": "AI Transformation Leap Loan program for SMEs",
+   "existence": "confirmed",
+   "value": "500 billion won",
+   "tier": "",
+   "url": "https://en.sedaily.com/finance/2026/06/30/ibk-launches-500-billion-won-ai-transformation-loan-for-smes",
+   "raw_sector": "",
+   "date": "2026-06-30",
+   "fresh": "fresh"
   }
  ]
 }

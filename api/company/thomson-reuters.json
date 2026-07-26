@@ -3,41 +3,64 @@
  "name": "Thomson Reuters",
  "cc": "CA",
  "vertical": "Media / Entertainment / Gaming",
- "deployments": 1,
- "confirmed": 1,
- "with_value_number": 0,
- "proof_rate": 0.0,
+ "deployments": 15,
+ "confirmed": 11,
+ "with_value_number": 5,
+ "proof_rate": 0.333,
  "mktcap": 39448529412.0,
  "revenue": 7867647059.0,
  "employees": 27100.0,
  "silent": false,
- "per_bn_revenue": 0.13,
- "per_10k_emp": 0.37,
+ "per_bn_revenue": 1.91,
+ "per_10k_emp": 5.54,
  "benchmarks": {
   "global_vertical": {
-   "deployments": 0,
-   "confirmed": 18,
-   "proof_rate": 0,
+   "deployments": 91,
+   "confirmed": 88,
+   "proof_rate": 62,
    "n": 35
   }
  },
- "first_seen": 2025,
+ "first_seen": 2023,
  "by_year": [
   {
-   "year": 2025,
+   "year": 2023,
+   "n": 4
+  },
+  {
+   "year": 2024,
    "n": 1
+  },
+  {
+   "year": 2025,
+   "n": 5
+  },
+  {
+   "year": 2026,
+   "n": 2
   }
  ],
- "undated_pct": 0,
+ "undated_pct": 20,
  "momentum": "early_mover,rising",
- "maturity": "L3",
+ "maturity": "L4",
  "maturity_evidence": [
+  "multi_horizontal",
   "named_product:CoCounsel",
+  "value_number",
+  "multi_year",
   "tier_p"
  ],
- "prospect_score": 54,
- "stack": [],
- "vendor_named": false,
+ "prospect_score": 87,
+ "stack": [
+  "Amazon AWS",
+  "Anthropic",
+  "Cohere",
+  "Google",
+  "Microsoft",
+  "OpenAI",
+  "Palantir"
+ ],
+ "vendor_named": true,
  "deployments_detail": [
   {
    "company": "Thomson Reuters",
@@ -49,6 +72,160 @@
    "raw_sector": "Media",
    "date": "2025-08",
    "fresh": "fresh"
+  },
+  {
+   "company": "Thomson Reuters",
+   "use": "CoCounsel Legal — generative AI legal assistant (originally acquired via Casetext, GPT-4 based) for legal research, drafting, document review, deposition prep; now rebuilt as an agentic platform on Anthropic's Claude Agent SDK [Anthropic (Claude), OpenAI (GPT-4), AWS Bedrock]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://claude.com/customers/thomson-reuters",
+   "raw_sector": "",
+   "date": "2023-08-17",
+   "fresh": "stale"
+  },
+  {
+   "company": "Thomson Reuters",
+   "use": "Westlaw AI-Assisted Research / Westlaw Precision (and Westlaw Advantage/Edge) — generative AI legal research answering natural-language questions with citations to Westlaw authority [AWS Bedrock]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.prnewswire.com/news-releases/thomson-reuters-launches-generative-ai-powered-solutions-to-transform-how-legal-professionals-work-301989149.html",
+   "raw_sector": "",
+   "date": "2023-11-15",
+   "fresh": "stale"
+  },
+  {
+   "company": "Thomson Reuters",
+   "use": "Checkpoint Edge with CoCounsel — generative AI tax and accounting research assistant returning answers with in-line citations to tax resources [AWS Bedrock (Claude models)]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://aws.amazon.com/solutions/case-studies/thomson-reuters-bedrock-case-study/",
+   "raw_sector": "",
+   "date": "2024-10-24",
+   "fresh": "aging"
+  },
+  {
+   "company": "Thomson Reuters",
+   "use": "Ready to Review — cloud-based agentic AI 1040 tax-return prep that ingests source docs (W-2, 1099-INT/DIV) and prior-year returns, extracts and categorizes data, and generates returns ready for professional review [CoCounsel]",
+   "existence": "confirmed",
+   "value": "~1 hour saved per simple return",
+   "tier": "",
+   "url": "https://www.thomsonreuters.com/en/press-releases/2025/november/thomson-reuters-launches-agentic-ai-solutions-to-transform-tax-audit-and-accounting-workflows",
+   "raw_sector": "",
+   "date": "2025-11-05",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Thomson Reuters",
+   "use": "ONESOURCE Indirect / Sales and Use Tax AI powered by CoCounsel — SaaS platform operating autonomously with AI agents to automate sales-and-use tax compliance and audit documentation [CoCounsel]",
+   "existence": "confirmed",
+   "value": "up to 75% reduction in audit exposure; filing improved 96%; $60,000 saved annually",
+   "tier": "",
+   "url": "https://www.thomsonreuters.com/en/press-releases/2026/january/thomson-reuters-launches-ai-tax-compliance-solution-that-saves-time-and-reduces-risk",
+   "raw_sector": "",
+   "date": "2026-01-15",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Thomson Reuters",
+   "use": "Audit Intelligence Test / CoCounsel audit document analysis — agentic AI that traces accounting transactions to banking activity, matches samples to supporting evidence, and automates workpaper review [CoCounsel]",
+   "existence": "confirmed",
+   "value": "testing cut from 16 hours to 5-6 hours per engagement; up to 70% faster prep/workpaper review",
+   "tier": "",
+   "url": "https://www.thomsonreuters.com/en/press-releases/2025/november/thomson-reuters-launches-agentic-ai-solutions-to-transform-tax-audit-and-accounting-workflows",
+   "raw_sector": "",
+   "date": "2025-11-05",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Thomson Reuters",
+   "use": "Reuters AI Suite / Reuters Connect AI video features — automated transcription (detects 57 languages), translation, scene lists/shotlisting, and identification of public figures for news video production [none]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.reuters.com/media-center/reuters-launches-ai-powered-discoverability-features-for-video-library-on-reuters-connect-accelerating-discovery-editing-and-publishing/",
+   "raw_sector": "",
+   "date": "2023-07-09",
+   "fresh": "stale"
+  },
+  {
+   "company": "Thomson Reuters",
+   "use": "Anthropic MCP integration connecting Claude directly to CoCounsel Legal and Westlaw Primary Law database, bringing TR legal content and tools into Claude workflows [Anthropic (Claude, MCP)]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.thomsonreuters.com/en/press-releases/2026/may/thomson-reuters-and-anthropic-expand-partnership-to-connect-claude-with-cocounsel-legal",
+   "raw_sector": "",
+   "date": "2026-05-12",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Thomson Reuters",
+   "use": "Named as a Google Gemini / Vertex AI customer/case study [Google Gemini / Vertex AI] [Google Gemini / Vertex AI]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://blog.google/innovation-and-ai/infrastructure-and-cloud/google-cloud/gemini-at-work-ai-agents/",
+   "raw_sector": "",
+   "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "Thomson Reuters",
+   "use": "Named as a Palantir customer/case study [Palantir] [Palantir]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://en.wikipedia.org/wiki/Palantir",
+   "raw_sector": "",
+   "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "Thomson Reuters",
+   "use": "Named as a Cohere customer/case study [Cohere] [Cohere]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://theirstack.com/en/technology/cohere",
+   "raw_sector": "",
+   "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "Thomson Reuters",
+   "use": "Open Arena — internal no-code generative AI platform/playground letting employees experiment with LLMs and build custom AI solutions on proprietary content; reduced AI model deployment time from days/weeks to hours [AWS (Amazon Bedrock, Bedrock Flows, AgentCore)]",
+   "existence": "confirmed",
+   "value": "~19,000 monthly users",
+   "tier": "",
+   "url": "https://aws.amazon.com/blogs/machine-learning/democratizing-ai-how-thomson-reuters-open-arena-supports-no-code-ai-for-every-professional-with-amazon-bedrock/",
+   "raw_sector": "",
+   "date": "2025-11-07",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Thomson Reuters",
+   "use": "AWS Transform for .NET code modernization — agentic AI tool used internally to modernize legacy .NET code and cut technical debt [AWS (AWS Transform, Amazon Q)]",
+   "existence": "confirmed",
+   "value": "~5M lines of .NET modernized monthly; 4x faster development; 30% cost reduction; up to 50% technical-debt reduction",
+   "tier": "",
+   "url": "https://aws.amazon.com/solutions/case-studies/thomson-reuters-case-study/",
+   "raw_sector": "",
+   "date": "2025-09-02",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Thomson Reuters",
+   "use": "Thomson Reuters plugin for Microsoft 365 Copilot — brings CoCounsel/Westlaw and Practical Law content into Word for AI contract drafting for legal professionals [Microsoft (365 Copilot)]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.thomsonreuters.com/en/press-releases/2023/may/thomson-reuters-brings-forward-vision-to-redefine-the-future-of-professionals-with-content-driven-ai-technology",
+   "raw_sector": "",
+   "date": "2023-05-23",
+   "fresh": "stale"
   }
  ]
 }

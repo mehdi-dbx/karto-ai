@@ -3,28 +3,28 @@
  "name": "Getlink",
  "cc": "FR",
  "vertical": "Travel & Hospitality",
- "deployments": 1,
- "confirmed": 1,
- "with_value_number": 0,
- "proof_rate": 0.0,
+ "deployments": 3,
+ "confirmed": 3,
+ "with_value_number": 1,
+ "proof_rate": 0.333,
  "mktcap": 10918800000.0,
  "revenue": 1868400000.0,
  "employees": 3825.0,
  "silent": false,
- "per_bn_revenue": 0.54,
- "per_10k_emp": 2.61,
+ "per_bn_revenue": 1.61,
+ "per_10k_emp": 7.84,
  "benchmarks": {
   "global_vertical": {
-   "deployments": 0,
-   "confirmed": 29,
-   "proof_rate": 0,
-   "n": 39
+   "deployments": 28,
+   "confirmed": 45,
+   "proof_rate": 78,
+   "n": 41
   },
   "country_vertical": {
    "deployments": 0,
-   "confirmed": 0,
-   "proof_rate": 0,
-   "n": 6
+   "confirmed": 17,
+   "proof_rate": 67,
+   "n": 7
   }
  },
  "first_seen": 2024,
@@ -34,13 +34,14 @@
    "n": 1
   }
  ],
- "undated_pct": 0,
+ "undated_pct": 67,
  "momentum": "early_mover,gone_quiet",
  "maturity": "L3",
  "maturity_evidence": [
-  "named_product:Channel"
+  "named_product:Channel",
+  "value_number"
  ],
- "prospect_score": 54,
+ "prospect_score": 53,
  "stack": [],
  "vendor_named": false,
  "deployments_detail": [
@@ -54,6 +55,28 @@
    "raw_sector": "Transport Infrastructure (Channel Tunnel)",
    "date": "2024",
    "fresh": "aging"
+  },
+  {
+   "company": "Getlink",
+   "use": "Rail network operational efficiency optimization using AI",
+   "existence": "confirmed",
+   "value": "€2.5 million",
+   "tier": "",
+   "url": "https://www.ekimetrics.com/zh-cn/success-stories/getlink-turns-to-ai-to-optimize-the-efficiency-of-its-rail-network",
+   "raw_sector": "",
+   "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "Getlink",
+   "use": "AI and digital twins adoption for rail operations and services",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.railwaygazette.com/infrastructure/2024/04/10/europe-getlink-adopts-ai-and-digital-twins/",
+   "raw_sector": "",
+   "date": "Apr 10, 2024",
+   "fresh": "undated"
   }
  ]
 }

@@ -3,27 +3,27 @@
  "name": "Elbit Systems",
  "cc": "IL",
  "vertical": "Manufacturing & Robotics",
- "deployments": 2,
- "confirmed": 2,
- "with_value_number": 0,
- "proof_rate": 0.0,
+ "deployments": 5,
+ "confirmed": 3,
+ "with_value_number": 1,
+ "proof_rate": 0.2,
  "mktcap": 37700000000.0,
  "revenue": 8230000000.0,
  "employees": 20537.0,
  "silent": false,
- "per_bn_revenue": 0.24,
- "per_10k_emp": 0.97,
+ "per_bn_revenue": 0.61,
+ "per_10k_emp": 2.43,
  "benchmarks": {
   "global_vertical": {
-   "deployments": 64,
-   "confirmed": 78,
-   "proof_rate": 0,
-   "n": 147
+   "deployments": 58,
+   "confirmed": 50,
+   "proof_rate": 62,
+   "n": 150
   },
   "country_vertical": {
-   "deployments": 80,
-   "confirmed": 80,
-   "proof_rate": 0,
+   "deployments": 40,
+   "confirmed": 60,
+   "proof_rate": 80,
    "n": 6
   }
  },
@@ -33,9 +33,11 @@
  "momentum": "none",
  "maturity": "L3",
  "maturity_evidence": [
-  "named_product:Frontier"
+  "multi_horizontal",
+  "named_product:Frontier",
+  "value_number"
  ],
- "prospect_score": 60,
+ "prospect_score": 58,
  "stack": [],
  "vendor_named": false,
  "deployments_detail": [
@@ -59,6 +61,39 @@
    "url": "https://en.globes.co.il/en/article-elbit-systems-unit-buys-israeli-ai-company-1001544098",
    "raw_sector": "Defense",
    "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "Elbit Systems",
+   "use": "Autonomous threat detection and classification for border defense",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.elbitsystems.com/news/elbit-systems-launches-frontier-next-generation-ai-based-system-tackle-evolving-border-defense",
+   "raw_sector": "",
+   "date": "Sep 9, 2025",
+   "fresh": "undated"
+  },
+  {
+   "company": "Elbit Systems",
+   "use": "Vision-based prognostics and health management system for Israeli Defense Forces [Odysight.ai]",
+   "existence": "confirmed",
+   "value": "0.3",
+   "tier": "",
+   "url": "https://www.odysight.ai/press/odysight-ai-receives-purchase-order-from-elbit-systems-on-behalf-of-the-israeli-ministry-of-defense-for-deployment-of-its-vision-based-prognostics-and-health-management-system/",
+   "raw_sector": "",
+   "date": "Jul 8, 2026",
+   "fresh": "undated"
+  },
+  {
+   "company": "Elbit Systems",
+   "use": "AI-driven quality control in supply chain",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.elbitsystems.com/blog/we-taught-system-think-now-what",
+   "raw_sector": "",
+   "date": "Sep 30, 2025",
    "fresh": "undated"
   }
  ]

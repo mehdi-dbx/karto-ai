@@ -3,41 +3,73 @@
  "name": "EchoStar",
  "cc": "US",
  "vertical": "Telecom",
- "deployments": 1,
- "confirmed": 0,
- "with_value_number": 0,
- "proof_rate": 0.0,
+ "deployments": 15,
+ "confirmed": 13,
+ "with_value_number": 7,
+ "proof_rate": 0.467,
  "mktcap": 26320000000.0,
  "revenue": 14800000000.0,
  "employees": 12100.0,
  "silent": false,
- "per_bn_revenue": 0.07,
- "per_10k_emp": 0.83,
+ "per_bn_revenue": 1.01,
+ "per_10k_emp": 12.4,
  "benchmarks": {
   "global_vertical": {
-   "deployments": 0,
-   "confirmed": 0,
-   "proof_rate": 0,
-   "n": 93
+   "deployments": 94,
+   "confirmed": 91,
+   "proof_rate": 72,
+   "n": 94
   },
   "country_vertical": {
-   "deployments": 0,
-   "confirmed": 0,
-   "proof_rate": 0,
+   "deployments": 82,
+   "confirmed": 86,
+   "proof_rate": 86,
    "n": 23
   }
  },
- "first_seen": null,
- "by_year": [],
- "undated_pct": 100,
- "momentum": "none",
- "maturity": "L1",
- "maturity_evidence": [
-  "rows_no_confirmed"
+ "first_seen": 2020,
+ "by_year": [
+  {
+   "year": 2020,
+   "n": 1
+  },
+  {
+   "year": 2022,
+   "n": 1
+  },
+  {
+   "year": 2023,
+   "n": 1
+  },
+  {
+   "year": 2024,
+   "n": 1
+  },
+  {
+   "year": 2025,
+   "n": 3
+  }
  ],
- "prospect_score": 40,
- "stack": [],
- "vendor_named": false,
+ "undated_pct": 53,
+ "momentum": "early_mover,rising",
+ "maturity": "L4",
+ "maturity_evidence": [
+  "multi_horizontal",
+  "named_product:IBM",
+  "value_number",
+  "multi_year"
+ ],
+ "prospect_score": 81,
+ "stack": [
+  "Google Cloud",
+  "IBM",
+  "Microsoft",
+  "Microsoft Azure",
+  "OpenAI",
+  "Palantir",
+  "Snowflake"
+ ],
+ "vendor_named": true,
  "deployments_detail": [
   {
    "company": "EchoStar",
@@ -47,6 +79,160 @@
    "tier": "—",
    "url": "https://www.echostar.com",
    "raw_sector": "Communication Services",
+   "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "EchoStar",
+   "use": "IBM AI-powered automation and intent-driven orchestration ('brains of the network') drives operations of DISH's cloud-native 5G Open RAN network, using IBM Cloud Pak for Network Automation and Watson AI for network optimization [IBM (Cloud Pak for Network Automation, Watson)]",
+   "existence": "confirmed",
+   "value": "Operational across 120+ cities covering 20%+ of US population",
+   "tier": "",
+   "url": "https://newsroom.ibm.com/DISH-5G-Network-Now-Live-For-More-Than-20-of-the-U-S-Population-Whats-Next",
+   "raw_sector": "",
+   "date": "2022-08-03",
+   "fresh": "stale"
+  },
+  {
+   "company": "EchoStar",
+   "use": "AI image processing on Google Cloud guides field technicians through satellite antenna/modem installation, converting installation photos to text and analyzing signal/cloud conditions [Google Cloud]",
+   "existence": "confirmed",
+   "value": "90% reduction in technician text entry",
+   "tier": "",
+   "url": "https://cloud.google.com/customers/echostar",
+   "raw_sector": "",
+   "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "EchoStar",
+   "use": "Hughes AIOps self-healing managed network: ML establishes dynamic per-device baselines to predict and proactively mitigate WAN edge failures (routers, SD-WAN, firewalls) across managed enterprise sites [Hughes (in-house AIOps)]",
+   "existence": "confirmed",
+   "value": "Prevents service-disrupting symptoms in 70% of cases; across 33,000 managed sites",
+   "tier": "",
+   "url": "https://ir.echostar.com/news-releases/news-release-details/hughes-pioneers-self-healing-capability-improves-enterprise-wide",
+   "raw_sector": "",
+   "date": "2020-09-15",
+   "fresh": "stale"
+  },
+  {
+   "company": "EchoStar",
+   "use": "Field Technician Assistant: generative AI giving thousands of field technicians on-site guidance for installs, upgrades, repairs and troubleshooting [EchoStar AI Office]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.echostar.com/careers/life-at-echostar/team-stories/scaling-the-ai-office-at-echostar",
+   "raw_sector": "",
+   "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "EchoStar",
+   "use": "JUPITER 3 satellite ground system uses AI to monitor traffic and make real-time network-management changes to reduce congestion and boost throughput on HughesNet [Hughes (JUPITER System)]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.prnewswire.com/news-releases/hughes-elevates-rural-americas-internet-experience-with-the-new-hughesnet-302018280.html",
+   "raw_sector": "",
+   "date": "2023-12-19",
+   "fresh": "stale"
+  },
+  {
+   "company": "EchoStar",
+   "use": "Named as a Microsoft Copilot customer/case study [Microsoft Copilot] [Microsoft Copilot]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.microsoft.com/en-us/microsoft-cloud/blog/2025/07/24/ai-powered-success-with-1000-stories-of-customer-transformation-and-innovation/",
+   "raw_sector": "",
+   "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "EchoStar",
+   "use": "BigQuery built-in AI/ML detects customer usage patterns in real time to give customer-service agents intelligence during calls to recommend better deals and services [Google Cloud (BigQuery ML)]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://cloud.google.com/customers/echostar",
+   "raw_sector": "",
+   "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "EchoStar",
+   "use": "Customer retention/churn analysis app analyzing surveys, calls and case data via GenAI [Microsoft Azure AI Foundry (Azure OpenAI)]",
+   "existence": "confirmed",
+   "value": "30,000+ customer-service hours saved/yr; up to 25% productivity boost",
+   "tier": "",
+   "url": "https://www.microsoft.com/en/customers/story/24300-hughes-azure-ai-foundry",
+   "raw_sector": "",
+   "date": "2025-06-26",
+   "fresh": "fresh"
+  },
+  {
+   "company": "EchoStar",
+   "use": "RAG-based knowledge-base search and contact-center call summarization apps for field/support employees [Microsoft Azure AI Foundry (Azure OpenAI)]",
+   "existence": "confirmed",
+   "value": "Field tech support 8,000+ hours saved/yr; 12 total production apps",
+   "tier": "",
+   "url": "https://www.microsoft.com/en/customers/story/24300-hughes-azure-ai-foundry",
+   "raw_sector": "",
+   "date": "2025-06-26",
+   "fresh": "fresh"
+  },
+  {
+   "company": "EchoStar",
+   "use": "Customer Experience Agent AI: agent-facing solution consolidating knowledge bases, ticketing and workflows to cut hold times and speed new-agent onboarding [EchoStar AI Office]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.echostar.com/careers/life-at-echostar/team-stories/scaling-the-ai-office-at-echostar",
+   "raw_sector": "",
+   "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "EchoStar",
+   "use": "AI-driven lead audit automation for Boost Mobile lease processing (promotional compliance, activation reconciliation, partner agreements) using neurosymbolic AI, integrated with LexisNexis and Snowflake [Kognitos]",
+   "existence": "confirmed",
+   "value": "29,500 hours saved/yr; 97% reduction in audit time; 2,500+ leases/month; tracking 23x ROI; 0% hallucination on financial decisions",
+   "tier": "",
+   "url": "https://www.kognitos.com/case-studies/dish-networks-gets-a-boost-in-ai-driven-lead-audit-processing-for-boost-mobile/",
+   "raw_sector": "",
+   "date": "2024-01-01",
+   "fresh": "aging"
+  },
+  {
+   "company": "EchoStar",
+   "use": "Employee HR AI Partner: centralized GenAI platform giving all employees instant HR answers and workflow/case management [EchoStar AI Office]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.echostar.com/careers/life-at-echostar/team-stories/scaling-the-ai-office-at-echostar",
+   "raw_sector": "",
+   "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "EchoStar",
+   "use": "Automated sales call auditing: speech-to-text plus GenAI replaces manual audits of Hughes sales calls [Microsoft Azure AI Foundry (Azure AI Speech, Azure OpenAI)]",
+   "existence": "confirmed",
+   "value": "90% cost reduction ($26/hr to $2/hr); part of 35,000+ total hours saved/yr",
+   "tier": "",
+   "url": "https://www.microsoft.com/en/customers/story/24300-hughes-azure-ai-foundry",
+   "raw_sector": "",
+   "date": "2025-06-26",
+   "fresh": "fresh"
+  },
+  {
+   "company": "EchoStar",
+   "use": "Boost Mobile Retail Assistant: AI tool giving store agents accurate customer responses via a centralized knowledge hub [EchoStar AI Office]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.echostar.com/careers/life-at-echostar/team-stories/scaling-the-ai-office-at-echostar",
+   "raw_sector": "",
    "date": "missing",
    "fresh": "undated"
   }

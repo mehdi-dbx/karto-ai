@@ -3,27 +3,27 @@
  "name": "Costco",
  "cc": "US",
  "vertical": "Retail & E-commerce",
- "deployments": 10,
- "confirmed": 4,
+ "deployments": 16,
+ "confirmed": 7,
  "with_value_number": 3,
- "proof_rate": 0.3,
+ "proof_rate": 0.188,
  "mktcap": 408080000000.0,
  "revenue": 293590000000.0,
  "employees": 341000.0,
  "silent": false,
- "per_bn_revenue": 0.03,
- "per_10k_emp": 0.29,
+ "per_bn_revenue": 0.05,
+ "per_10k_emp": 0.47,
  "benchmarks": {
   "global_vertical": {
-   "deployments": 93,
-   "confirmed": 91,
-   "proof_rate": 65,
-   "n": 295
+   "deployments": 94,
+   "confirmed": 69,
+   "proof_rate": 45,
+   "n": 301
   },
   "country_vertical": {
-   "deployments": 84,
-   "confirmed": 81,
-   "proof_rate": 73,
+   "deployments": 86,
+   "confirmed": 59,
+   "proof_rate": 42,
    "n": 80
   }
  },
@@ -38,7 +38,7 @@
    "n": 3
   }
  ],
- "undated_pct": 10,
+ "undated_pct": 44,
  "momentum": "rising",
  "maturity": "L4",
  "maturity_evidence": [
@@ -47,10 +47,39 @@
   "value_number",
   "multi_year"
  ],
- "prospect_score": 60,
- "stack": [],
- "vendor_named": false,
+ "prospect_score": 74,
+ "stack": [
+  "Google",
+  "Google Cloud",
+  "Microsoft",
+  "Microsoft Azure",
+  "OpenAI",
+  "SAP"
+ ],
+ "vendor_named": true,
  "deployments_detail": [
+  {
+   "company": "Costco",
+   "use": "AI travel benefits system",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.digitalcommerce360.com/2025/08/28/how-costco-is-using-ai/amp/",
+   "raw_sector": "",
+   "date": "Aug 28, 2025",
+   "fresh": "undated"
+  },
+  {
+   "company": "Costco",
+   "use": "AI-powered inventory, shopping experience personalization, and customer service",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.atliq.ai/the-future-of-retail-how-costco-is-using-ai-to-stay-ahead-of-the-competition/",
+   "raw_sector": "",
+   "date": "Oct 30, 2024",
+   "fresh": "undated"
+  },
   {
    "company": "Costco",
    "use": "AI demand forecasting/inventory (CEO Vachris: \"very Costco way\", practical); reported $100M bakery forecasting savings — 3rd-party sourced, no primary press release",
@@ -60,6 +89,50 @@
    "url": "https://www.constellationr.com/insights/news/costco-approaching-ai-very-costco-way",
    "raw_sector": "Consumer Staples",
    "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "Costco",
+   "use": "Bakery product demand forecasting using machine learning model",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.digitalcommerce360.com/2025/08/28/how-costco-is-using-ai/amp/",
+   "raw_sector": "",
+   "date": "Aug 28, 2025",
+   "fresh": "undated"
+  },
+  {
+   "company": "Costco",
+   "use": "Inventory and demand forecasting",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.digitalcommerce360.com/2025/08/28/how-costco-is-using-ai/amp/",
+   "raw_sector": "",
+   "date": "Aug 28, 2025",
+   "fresh": "undated"
+  },
+  {
+   "company": "Costco",
+   "use": "Supply chain management and inventory optimization",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://aiexpert.network/ai-at-costco/",
+   "raw_sector": "",
+   "date": "Jul 18, 2025",
+   "fresh": "undated"
+  },
+  {
+   "company": "Costco",
+   "use": "AI search product page optimization",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://finance.yahoo.com/technology/ai/articles/ai-search-become-costcos-next-122200522.html",
+   "raw_sector": "",
+   "date": "Jun 29, 2026",
    "fresh": "undated"
   },
   {

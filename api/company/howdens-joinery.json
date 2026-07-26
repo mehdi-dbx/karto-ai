@@ -3,21 +3,21 @@
  "name": "Howdens Joinery",
  "cc": "UK",
  "vertical": "Real Estate & Construction",
- "deployments": 8,
- "confirmed": 4,
+ "deployments": 10,
+ "confirmed": 6,
  "with_value_number": 1,
- "proof_rate": 0.125,
+ "proof_rate": 0.1,
  "mktcap": 5397500000.0,
  "revenue": 3111500000.0,
  "employees": 12000.0,
  "silent": false,
- "per_bn_revenue": 2.57,
- "per_10k_emp": 6.67,
+ "per_bn_revenue": 3.21,
+ "per_10k_emp": 8.33,
  "benchmarks": {
   "global_vertical": {
-   "deployments": 96,
-   "confirmed": 95,
-   "proof_rate": 61,
+   "deployments": 86,
+   "confirmed": 80,
+   "proof_rate": 42,
    "n": 154
   },
   "country_vertical": {
@@ -42,7 +42,7 @@
    "n": 2
   }
  ],
- "undated_pct": 38,
+ "undated_pct": 50,
  "momentum": "early_mover,cooling",
  "maturity": "L4",
  "maturity_evidence": [
@@ -52,10 +52,12 @@
   "multi_year",
   "tier_p"
  ],
- "prospect_score": 59,
+ "prospect_score": 72,
  "stack": [
+  "Microsoft",
   "Microsoft Azure",
-  "OpenAI"
+  "OpenAI",
+  "SAP"
  ],
  "vendor_named": true,
  "deployments_detail": [
@@ -146,6 +148,28 @@
    "raw_sector": "",
    "date": "2025-01",
    "fresh": "fresh"
+  },
+  {
+   "company": "Howdens Joinery",
+   "use": "AI assistant for trade customers to resolve technical issues [Microsoft]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://news.microsoft.com/source/emea/features/kitchen-supplier-howdens-launches-innovative-ai-help-tool/",
+   "raw_sector": "",
+   "date": "Sep 7, 2024",
+   "fresh": "undated"
+  },
+  {
+   "company": "Howdens Joinery",
+   "use": "GenAI-powered digital assistant in Howdens app for trade customers",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.computerweekly.com/news/366592645/How-Howdens-used-GenAI-to-power-app-user-experience",
+   "raw_sector": "",
+   "date": "Jul 12, 2024",
+   "fresh": "undated"
   }
  ]
 }

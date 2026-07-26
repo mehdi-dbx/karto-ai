@@ -3,28 +3,28 @@
  "name": "3M",
  "cc": "US",
  "vertical": "Industrial / Machinery",
- "deployments": 1,
- "confirmed": 1,
+ "deployments": 5,
+ "confirmed": 3,
  "with_value_number": 0,
  "proof_rate": 0.0,
  "mktcap": 87670000000.0,
  "revenue": 25180000000.0,
  "employees": 60500.0,
  "silent": false,
- "per_bn_revenue": 0.04,
- "per_10k_emp": 0.17,
+ "per_bn_revenue": 0.2,
+ "per_10k_emp": 0.83,
  "benchmarks": {
   "global_vertical": {
-   "deployments": 0,
-   "confirmed": 14,
+   "deployments": 38,
+   "confirmed": 39,
    "proof_rate": 0,
-   "n": 175
+   "n": 176
   },
   "country_vertical": {
-   "deployments": 0,
-   "confirmed": 19,
+   "deployments": 35,
+   "confirmed": 34,
    "proof_rate": 0,
-   "n": 80
+   "n": 81
   }
  },
  "first_seen": 2026,
@@ -34,16 +34,20 @@
    "n": 1
   }
  ],
- "undated_pct": 0,
- "momentum": "rising",
+ "undated_pct": 80,
+ "momentum": "late_entrant,rising",
  "maturity": "L3",
  "maturity_evidence": [
+  "multi_horizontal",
   "named_product:Ask 3M",
   "tier_p"
  ],
- "prospect_score": 54,
- "stack": [],
- "vendor_named": false,
+ "prospect_score": 58,
+ "stack": [
+  "Amazon AWS",
+  "Microsoft"
+ ],
+ "vendor_named": true,
  "deployments_detail": [
   {
    "company": "3M",
@@ -55,6 +59,50 @@
    "raw_sector": "Industrials",
    "date": "2026",
    "fresh": "fresh"
+  },
+  {
+   "company": "3M",
+   "use": "Ask 3M - AI-powered digital assistant for design challenges and materials selection",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://news.3m.com/2025-12-29-3M-to-debut-AI-powered-assistant-Ask-3M-and-expanded-3M-Digital-Materials-Hub-at-CES-2026",
+   "raw_sector": "",
+   "date": "Dec 29, 2025",
+   "fresh": "undated"
+  },
+  {
+   "company": "3M",
+   "use": "AI-powered innovation tool for product development",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://news.3m.com/2025-12-22-3M-to-showcase-industry-advancing-solutions,-new-AI-powered-innovation-tool-at-CES-2026",
+   "raw_sector": "",
+   "date": "Dec 22, 2025",
+   "fresh": "undated"
+  },
+  {
+   "company": "3M",
+   "use": "3M HIS clinical documentation with AWS HealthScribe [AWS HealthScribe]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://aws.amazon.com/healthscribe/customers/",
+   "raw_sector": "",
+   "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "3M",
+   "use": "Microsoft AI and digital capabilities for enterprise transformation [Microsoft]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://news.3m.com/2026-07-15-3M-and-Microsoft-announce-strategic-partnership-to-advance-AI-data-center-infrastructure-and-enterprise-transformation",
+   "raw_sector": "",
+   "date": "Jul 15, 2026",
+   "fresh": "undated"
   }
  ]
 }

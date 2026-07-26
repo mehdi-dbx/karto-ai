@@ -3,47 +3,84 @@
  "name": "Jabil",
  "cc": "US",
  "vertical": "Technology",
- "deployments": 1,
- "confirmed": 1,
- "with_value_number": 0,
- "proof_rate": 0.0,
+ "deployments": 13,
+ "confirmed": 11,
+ "with_value_number": 4,
+ "proof_rate": 0.308,
  "mktcap": 33700000000.0,
  "revenue": 33590000000.0,
  "employees": 135000.0,
  "silent": false,
- "per_bn_revenue": 0.03,
- "per_10k_emp": 0.07,
+ "per_bn_revenue": 0.39,
+ "per_10k_emp": 0.96,
  "benchmarks": {
   "global_vertical": {
-   "deployments": 0,
-   "confirmed": 6,
-   "proof_rate": 0,
-   "n": 156
+   "deployments": 82,
+   "confirmed": 82,
+   "proof_rate": 68,
+   "n": 159
   },
   "country_vertical": {
-   "deployments": 0,
-   "confirmed": 4,
-   "proof_rate": 0,
+   "deployments": 84,
+   "confirmed": 85,
+   "proof_rate": 77,
    "n": 74
   }
  },
- "first_seen": 2025,
+ "first_seen": 2018,
  "by_year": [
   {
-   "year": 2025,
+   "year": 2018,
    "n": 1
+  },
+  {
+   "year": 2023,
+   "n": 2
+  },
+  {
+   "year": 2024,
+   "n": 4
+  },
+  {
+   "year": 2025,
+   "n": 3
+  },
+  {
+   "year": 2026,
+   "n": 3
   }
  ],
  "undated_pct": 0,
- "momentum": "early_mover,rising",
- "maturity": "L2",
+ "momentum": "early_mover,flat",
+ "maturity": "L4",
  "maturity_evidence": [
+  "multi_horizontal",
+  "named_product:Intelligent",
+  "value_number",
+  "multi_year",
   "tier_p"
  ],
- "prospect_score": 54,
- "stack": [],
- "vendor_named": false,
+ "prospect_score": 88,
+ "stack": [
+  "Amazon AWS",
+  "Deloitte",
+  "Microsoft",
+  "Microsoft Azure",
+  "NVIDIA"
+ ],
+ "vendor_named": true,
  "deployments_detail": [
+  {
+   "company": "Jabil",
+   "use": "Bright Designer — web app using NVIDIA Omniverse simulation and robotic-automation insights (streamed on Microsoft Azure) to accelerate design of CPU/GPU server products for AI data-center infrastructure. Jabil named as a customer that will use it (private preview). [Bright Machines, NVIDIA (Omniverse), Microsoft Azure]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.brightmachines.com/news/bright-designer/",
+   "raw_sector": "",
+   "date": "2025-03-18",
+   "fresh": "fresh"
+  },
   {
    "company": "Jabil",
    "use": "J-422G AI servers + rack-level AI data-center infrastructure (compute/storage/photonics/cooling)",
@@ -54,6 +91,127 @@
    "raw_sector": "Information Technology",
    "date": "2025",
    "fresh": "fresh"
+  },
+  {
+   "company": "Jabil",
+   "use": "Intelligent Shop Floor Assistant — a generative-AI chatbot giving manufacturing floor operators instant troubleshooting and diagnostic answers across 1,700+ policies, specs and knowledge articles in multiple languages. First iteration built in one week; launched and rolled out globally. [AWS (Amazon Q Business, Amazon Bedrock via Generative AI Innovation Center)]",
+   "existence": "confirmed",
+   "value": "Built first iteration in 1 week; access to 1,700+ documents; reduced average troubleshooting time (no % disclosed)",
+   "tier": "",
+   "url": "https://aws.amazon.com/solutions/case-studies/jabil-manufacturing-transformation-generative-ai/",
+   "raw_sector": "",
+   "date": "2024",
+   "fresh": "aging"
+  },
+  {
+   "company": "Jabil",
+   "use": "AI-augmented Automated Optical Inspection (AOI) — machine-vision pattern recognition layered onto AOI machines for product inspection and quality control, raising defect-detection accuracy from ~60-70% to as high as 97%. [none disclosed]",
+   "existence": "confirmed",
+   "value": "Accuracy raised from 60-70% up to 97%",
+   "tier": "",
+   "url": "https://www.jabil.com/blog/artificial-intelligence-in-manufacturing.html",
+   "raw_sector": "",
+   "date": "2023",
+   "fresh": "stale"
+  },
+  {
+   "company": "Jabil",
+   "use": "AI + data-analytics for injection-molding process control — analyzing injection pressure, speed and temperature parameters to detect common deviations and improve molding quality. [none disclosed]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.jabil.com/blog/artificial-intelligence-in-manufacturing.html",
+   "raw_sector": "",
+   "date": "2023",
+   "fresh": "stale"
+  },
+  {
+   "company": "Jabil",
+   "use": "Visual-inspection deep-learning pilot on production lines using Azure Machine Learning and Project Brainwave (FPGA-accelerated inferencing) to improve speed and accuracy of component inspection. [Microsoft (Azure Machine Learning, Project Brainwave)]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.microsoft.com/en-us/research/video/jabil-pilots-azure-project-brainwave-advanced-manufacturing-solutions/",
+   "raw_sector": "",
+   "date": "2018",
+   "fresh": "stale"
+  },
+  {
+   "company": "Jabil",
+   "use": "Arch Systems AI-guided action systems across Jabil's global factory network — building on prior SMT connectivity and advanced analytics, expanded to backend, assembly and test operations, with an agentic-AI roadmap. Jabil made an equity investment in Arch to fund deployment. [Arch Systems]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://archsys.io/hub/news/arch-and-jabil-expand-collaboration-to-deliver-ai-at-scale-in-manufacturing/",
+   "raw_sector": "",
+   "date": "2025-06-19",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Jabil",
+   "use": "NVIDIA Omniverse 3D factory digital twin (with Deloitte) at the new Salisbury, North Carolina site — high-fidelity digital twin to virtually plan and simulate factory layouts for building liquid-cooled data center equipment before physical deployment. [NVIDIA (Omniverse), Deloitte]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.deloitte.com/us/en/about/press-room/deloitte-unveils-physical-ai-solutions-built-with-nvidia-omniverse-libraries-to-help-accelerate-industrial-transformation.html",
+   "raw_sector": "",
+   "date": "2026",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Jabil",
+   "use": "AI-enabled low-power optical inspection system developed in Malaysia (a Deliver Best Practices competition winner) — consumes just 3-4 watts versus 10x+ for traditional inspection equipment, cutting energy use while performing quality inspection. [none disclosed]",
+   "existence": "confirmed",
+   "value": "3-4 watts vs at least 10x that for traditional equipment",
+   "tier": "",
+   "url": "https://trellis.net/article/how-ai-and-robotics-benefit-jabils-decarbonization-agenda/",
+   "raw_sector": "",
+   "date": "2026-04-13",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Jabil",
+   "use": "AI/robotics-guided quality-control robots — e.g., inspecting air-conditioning units to verify screws and labels are correctly installed, reducing waste and process-related emissions across Jabil facilities. [none disclosed]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://trellis.net/article/how-ai-and-robotics-benefit-jabils-decarbonization-agenda/",
+   "raw_sector": "",
+   "date": "2026-04-13",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Jabil",
+   "use": "Intelligent Procurement Assistant — generative-AI chatbot providing market intelligence on suppliers, pricing and product lifecycle data to support procurement decisions. [AWS (Amazon Q Business)]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://aws.amazon.com/solutions/case-studies/jabil-manufacturing-transformation-generative-ai/",
+   "raw_sector": "",
+   "date": "2024",
+   "fresh": "aging"
+  },
+  {
+   "company": "Jabil",
+   "use": "Centralized data lake and analytics/ML platform — consolidated siloed machine data from 100+ plants on Amazon Redshift, enabling cross-domain analytics and ML-based inventory forecasting; foundation for GenAI tools. Included automating shop-floor application deployment (AWS CDK/Terraform) and moving Data Dispatcher to serverless AWS Glue Flex. [AWS (Amazon Redshift, AWS Glue Flex, EKS, AWS Professional Services)]",
+   "existence": "confirmed",
+   "value": "74% decrease in data processing times; 67-83% reduction in deployment times; 23% cost savings from serverless integration",
+   "tier": "",
+   "url": "https://aws.amazon.com/solutions/case-studies/jabil-manufacturing-transformation-generative-ai/",
+   "raw_sector": "",
+   "date": "2024",
+   "fresh": "aging"
+  },
+  {
+   "company": "Jabil",
+   "use": "Intelligent Customer Research Assistant — generative-AI chatbot that streamlines sales by gathering customer and financial data for account teams. [AWS (Amazon Q Business)]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://aws.amazon.com/solutions/case-studies/jabil-manufacturing-transformation-generative-ai/",
+   "raw_sector": "",
+   "date": "2024",
+   "fresh": "aging"
   }
  ]
 }

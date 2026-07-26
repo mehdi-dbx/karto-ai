@@ -3,39 +3,46 @@
  "name": "Borouge",
  "cc": "AE",
  "vertical": "Manufacturing & Robotics",
- "deployments": 1,
- "confirmed": 1,
- "with_value_number": 0,
- "proof_rate": 0.0,
+ "deployments": 12,
+ "confirmed": 10,
+ "with_value_number": 3,
+ "proof_rate": 0.25,
  "mktcap": 19479000000.0,
  "revenue": 5607000000.0,
  "employees": 2979.0,
  "silent": false,
- "per_bn_revenue": 0.18,
- "per_10k_emp": 3.36,
+ "per_bn_revenue": 2.14,
+ "per_10k_emp": 40.28,
  "benchmarks": {
   "global_vertical": {
-   "deployments": 0,
-   "confirmed": 24,
-   "proof_rate": 0,
-   "n": 147
+   "deployments": 86,
+   "confirmed": 91,
+   "proof_rate": 67,
+   "n": 150
   }
  },
  "first_seen": 2025,
  "by_year": [
   {
    "year": 2025,
+   "n": 11
+  },
+  {
+   "year": 2026,
    "n": 1
   }
  ],
  "undated_pct": 0,
  "momentum": "rising",
- "maturity": "L3",
+ "maturity": "L4",
  "maturity_evidence": [
+  "multi_horizontal",
   "named_product:Industry",
+  "value_number",
+  "multi_year",
   "tier_p"
  ],
- "prospect_score": 54,
+ "prospect_score": 98,
  "stack": [],
  "vendor_named": false,
  "deployments_detail": [
@@ -48,6 +55,127 @@
    "url": "https://www.borouge.com/en/media/Pages/News/Borouge_To_Develop_AI_Powered-.aspx",
    "raw_sector": "Chemicals",
    "date": "2025",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Borouge",
+   "use": "AI-powered autonomous control room for full-scale petrochemical operations at the Ruwais complex, using Honeywell Experion Cognition (agentic AI + machine learning) to detect anomalies, recommend/automate corrective actions and optimise production. Proof-of-concept completed in a live production environment (industry-first). [Honeywell (Experion Cognition)]",
+   "existence": "confirmed",
+   "value": "PoC indicated up to 20% efficiency gains, ~20% reduction in downtime and up to 15% operating cost reduction; part of AIDT programme targeting $575M value in 2025",
+   "tier": "",
+   "url": "https://www.borouge.com/en/media/Pages/News/INDUSTRY-FIRST-AI-AUTONOMOUS-OPERATIONS-AT-RUWAIS-FACILITY.aspx",
+   "raw_sector": "",
+   "date": "2026-01-07",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Borouge",
+   "use": "Proof-of-concept for an AI-powered autonomous control room at the Ruwais facility with Yokogawa, using AI to analyse operational data, identify patterns and predict anomalies to enable faster corrective actions and reduce downtime. [Yokogawa Electric]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.borouge.com/en/media/Pages/News/BOROUGE-YOKOGAWA-AI-CONTROL-ROOM-.aspx",
+   "raw_sector": "",
+   "date": "2025-08-27",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Borouge",
+   "use": "Real-Time Optimiser (RTO) deployed across ethane crackers, processing over 150,000 parameters hourly to optimise production; boosted ethane processing and cut energy use/emissions. [none]",
+   "existence": "confirmed",
+   "value": "$25M throughput/additional benefit; 1.4% higher ethane processing",
+   "tier": "",
+   "url": "https://www.borouge.com/en/investor-relations/Documents/IR%20Documents/Annual%20Reports/Borouge%20Annual%20Report%202024%20final.pdf",
+   "raw_sector": "",
+   "date": "2025-05-23",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Borouge",
+   "use": "CPAD (Centralised Predictive Analytics Diagnostics) established for rotating equipment predictive maintenance, addressing crack gas compressor fouling and extending run lengths. [none]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.borouge.com/en/investor-relations/Documents/IR%20Documents/Annual%20Reports/Borouge%20Annual%20Report%202024%20final.pdf",
+   "raw_sector": "",
+   "date": "2025-05-23",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Borouge",
+   "use": "OneAPM (Asset Performance Management) reliability module implemented for production-loss analytics and root-cause analysis to eliminate inefficiencies and enhance operational availability. [none]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.borouge.com/en/investor-relations/Documents/IR%20Documents/Annual%20Reports/Borouge%20Annual%20Report%202024%20final.pdf",
+   "raw_sector": "",
+   "date": "2025-05-23",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Borouge",
+   "use": "PO-APC (Advanced Process Control) enhancement using SPOT APC technology to reduce off-spec production during grade transitions. [none]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.borouge.com/en/investor-relations/Documents/IR%20Documents/Annual%20Reports/Borouge%20Annual%20Report%202024%20final.pdf",
+   "raw_sector": "",
+   "date": "2025-05-23",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Borouge",
+   "use": "OneAPM incident module deployed to integrate process and equipment reliability investigations, improving incident management. [none]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.borouge.com/en/investor-relations/Documents/IR%20Documents/Annual%20Reports/Borouge%20Annual%20Report%202024%20final.pdf",
+   "raw_sector": "",
+   "date": "2025-05-23",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Borouge",
+   "use": "Hazard Detection Technology pilot at the Borouge-4 expansion project, applying AI/technology to detect hazards and improve HSE. [none]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.borouge.com/en/investor-relations/Documents/IR%20Documents/Annual%20Reports/Borouge%20Annual%20Report%202024%20final.pdf",
+   "raw_sector": "",
+   "date": "2025-05-23",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Borouge",
+   "use": "S&OP (Sales & Operations Planning) tool applying predictive analytics for supply-chain resilience, monitoring stock levels and delivery schedules to mitigate delays. [none]",
+   "existence": "confirmed",
+   "value": "$20M gross margin uplift (case study)",
+   "tier": "",
+   "url": "https://www.borouge.com/en/investor-relations/Documents/IR%20Documents/Annual%20Reports/Borouge%20Annual%20Report%202024%20final.pdf",
+   "raw_sector": "",
+   "date": "2025-05-23",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Borouge",
+   "use": "AI tools for dynamic pricing models and market intelligence, enabling data-driven pricing strategies to command product premia. [none]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.borouge.com/en/investor-relations/Documents/IR%20Documents/Annual%20Reports/Borouge%20Annual%20Report%202024%20final.pdf",
+   "raw_sector": "",
+   "date": "2025-05-23",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Borouge",
+   "use": "Centralised, AI-enhanced customer relationship management for over 3,500 customers, equipping sales teams with insights to optimise execution. [none]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.borouge.com/en/investor-relations/Documents/IR%20Documents/Annual%20Reports/Borouge%20Annual%20Report%202024%20final.pdf",
+   "raw_sector": "",
+   "date": "2025-05-23",
    "fresh": "fresh"
   }
  ]

@@ -3,27 +3,27 @@
  "name": "Hitachi, Ltd.",
  "cc": "JP",
  "vertical": "Electric Machinery & Electronics",
- "deployments": 14,
- "confirmed": 12,
- "with_value_number": 4,
- "proof_rate": 0.286,
+ "deployments": 25,
+ "confirmed": 16,
+ "with_value_number": 7,
+ "proof_rate": 0.28,
  "mktcap": 145133333333.0,
  "revenue": 70600000000.0,
  "employees": 287901.0,
  "silent": false,
- "per_bn_revenue": 0.2,
- "per_10k_emp": 0.49,
+ "per_bn_revenue": 0.35,
+ "per_10k_emp": 0.87,
  "benchmarks": {
   "global_vertical": {
-   "deployments": 97,
-   "confirmed": 97,
-   "proof_rate": 53,
+   "deployments": 100,
+   "confirmed": 100,
+   "proof_rate": 79,
    "n": 35
   },
   "country_vertical": {
-   "deployments": 97,
-   "confirmed": 97,
-   "proof_rate": 48,
+   "deployments": 100,
+   "confirmed": 100,
+   "proof_rate": 77,
    "n": 32
   }
  },
@@ -39,14 +39,14 @@
   },
   {
    "year": 2025,
-   "n": 4
+   "n": 7
   },
   {
    "year": 2026,
-   "n": 5
+   "n": 6
   }
  ],
- "undated_pct": 7,
+ "undated_pct": 32,
  "momentum": "early_mover,rising",
  "maturity": "L4",
  "maturity_evidence": [
@@ -58,7 +58,17 @@
  ],
  "prospect_score": 89,
  "stack": [
-  "Anthropic"
+  "Amazon AWS",
+  "Anthropic",
+  "Cohere",
+  "Databricks",
+  "Google",
+  "Google Cloud",
+  "Microsoft",
+  "Microsoft Azure",
+  "NVIDIA",
+  "OpenAI",
+  "Palantir"
  ],
  "vendor_named": true,
  "deployments_detail": [
@@ -83,6 +93,127 @@
    "raw_sector": "Electric Machinery",
    "date": "2026",
    "fresh": "fresh"
+  },
+  {
+   "company": "Hitachi, Ltd.",
+   "use": "Hitachi AI Factory for physical AI development and deployment across Mobility, Energy, Industrial and Technology sectors [NVIDIA AI Factory, NVIDIA Blackwell GPUs, NVIDIA HGX B200, NVIDIA RTX PRO 6000, NVIDIA Spectrum-X]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://hitachidigital.com/news/ai-factory-to-accelerate-physical-ai-innovation/",
+   "raw_sector": "",
+   "date": "2025-09-25",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Hitachi, Ltd.",
+   "use": "Red Hat OpenShift AI exploration for external business development [Red Hat OpenShift AI]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.redhat.com/en/about/press-releases/red-hat-empowers-hitachi-ltd-evolve-ai-driven-enterprise-red-hat-openshift-ai",
+   "raw_sector": "",
+   "date": "2025-05-20",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Hitachi, Ltd.",
+   "use": "Generative AI use cases across multiple domains including healthcare and manufacturing",
+   "existence": "confirmed",
+   "value": "1000",
+   "tier": "",
+   "url": "https://www.hitachi.com/en/insights/hitachihyoron/hitachi-technology/2026/16/",
+   "raw_sector": "",
+   "date": "2026-05-28",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Hitachi, Ltd.",
+   "use": "Named as a Microsoft Copilot customer/case study [Microsoft Copilot] [Microsoft Copilot]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.appsruntheworld.com/customers-database/products/view/microsoft-365-copilot",
+   "raw_sector": "",
+   "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "Hitachi, Ltd.",
+   "use": "Named as a Amazon Bedrock customer/case study [Amazon Bedrock] [Amazon Bedrock]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.appsruntheworld.com/customers-database/products/view/amazon-bedrock",
+   "raw_sector": "",
+   "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "Hitachi, Ltd.",
+   "use": "Named as a Google Gemini / Vertex AI customer/case study [Google Gemini / Vertex AI] [Google Gemini / Vertex AI]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.appsruntheworld.com/customers-database/products/view/google-cloud-vertex-ai",
+   "raw_sector": "",
+   "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "Hitachi, Ltd.",
+   "use": "Named as a Databricks customer/case study [Databricks] [Databricks]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.appsruntheworld.com/customers-database/products/view/microsoft-azure-databricks-ai",
+   "raw_sector": "",
+   "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "Hitachi, Ltd.",
+   "use": "Named as a Palantir customer/case study [Palantir] [Palantir]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.appsruntheworld.com/customers-database/products/view/palantir-aip-platform",
+   "raw_sector": "",
+   "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "Hitachi, Ltd.",
+   "use": "Named as a Cohere customer/case study [Cohere] [Cohere]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.appsruntheworld.com/customers-database/products/view/cohere-ai",
+   "raw_sector": "",
+   "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "Hitachi, Ltd.",
+   "use": "GitHub Copilot deployment for software development [GitHub Copilot]",
+   "existence": "confirmed",
+   "value": "83",
+   "tier": "",
+   "url": "https://www.microsoft.com/en/customers/story/23738-hitachi-ltd-github-copilot",
+   "raw_sector": "",
+   "date": "2025-03-06",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Hitachi, Ltd.",
+   "use": "Internal AI assistant for Hitachi Group employees",
+   "existence": "confirmed",
+   "value": "60000",
+   "tier": "",
+   "url": "https://www.hitachi.com/en/about/it/dx/contents4/",
+   "raw_sector": "",
+   "date": "missing",
+   "fresh": "undated"
   },
   {
    "company": "Hitachi, Ltd.",

@@ -3,39 +3,63 @@
  "name": "Union Bank of India",
  "cc": "IN",
  "vertical": "Financial Services",
- "deployments": 1,
- "confirmed": 1,
- "with_value_number": 0,
- "proof_rate": 0.0,
+ "deployments": 11,
+ "confirmed": 7,
+ "with_value_number": 3,
+ "proof_rate": 0.273,
  "mktcap": 15662650602.0,
  "revenue": 5901927711.0,
  "employees": 73885.0,
  "silent": false,
- "per_bn_revenue": 0.17,
- "per_10k_emp": 0.14,
+ "per_bn_revenue": 1.86,
+ "per_10k_emp": 1.49,
  "benchmarks": {
   "global_vertical": {
-   "deployments": 0,
-   "confirmed": 17,
-   "proof_rate": 0,
-   "n": 377
+   "deployments": 72,
+   "confirmed": 62,
+   "proof_rate": 52,
+   "n": 388
   },
   "country_vertical": {
-   "deployments": 0,
-   "confirmed": 18,
-   "proof_rate": 0,
-   "n": 23
+   "deployments": 67,
+   "confirmed": 62,
+   "proof_rate": 38,
+   "n": 25
   }
  },
- "first_seen": null,
- "by_year": [],
- "undated_pct": 100,
- "momentum": "none",
- "maturity": "L3",
- "maturity_evidence": [
-  "named_product:UVA"
+ "first_seen": 2022,
+ "by_year": [
+  {
+   "year": 2022,
+   "n": 1
+  },
+  {
+   "year": 2023,
+   "n": 3
+  },
+  {
+   "year": 2024,
+   "n": 1
+  },
+  {
+   "year": 2025,
+   "n": 4
+  },
+  {
+   "year": 2026,
+   "n": 1
+  }
  ],
- "prospect_score": 46,
+ "undated_pct": 9,
+ "momentum": "early_mover,rising",
+ "maturity": "L4",
+ "maturity_evidence": [
+  "multi_horizontal",
+  "named_product:UVA",
+  "value_number",
+  "multi_year"
+ ],
+ "prospect_score": 71,
  "stack": [
   "Accenture"
  ],
@@ -51,6 +75,116 @@
    "raw_sector": "Financial Services",
    "date": "missing",
    "fresh": "undated"
+  },
+  {
+   "company": "Union Bank of India",
+   "use": "GenAI-powered voice-based real-time AI Agent Assist deployed by Floatbot.AI in the bank's contact center. Integrated with Genesys Cloud and the Core Banking System, drawing on 500+ web pages and 15+ knowledge sources; supports a 35-agent operation with bilingual (Hindi/English) real-time suggestions, card blocking via voice, and complaint resolution. [Floatbot.AI (on Genesys Cloud)]",
+   "existence": "confirmed",
+   "value": "27% reduction in Average Handling Time; 45% faster complaint handling; 95% accuracy in agent response recommendations; deployed in 14 weeks",
+   "tier": "",
+   "url": "https://floatbot.ai/case-studies/ubi-agent-assist-case-study",
+   "raw_sector": "",
+   "date": "2025",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Union Bank of India",
+   "use": "Union Virtual Connect (UVConn) WhatsApp banking with the UVA chat assistant, offering conversational access to account services, card management, loan inquiries, cheque operations and government/tax services across 7 languages on the bank's official WhatsApp number. [none]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.unionbankofindia.bank.in/en/details/union-virtual-connect",
+   "raw_sector": "",
+   "date": "2024",
+   "fresh": "aging"
+  },
+  {
+   "company": "Union Bank of India",
+   "use": "Union Voice Assistant (UVA) voice-banking on Amazon Alexa, letting customers check balances, get mini statements, block/unblock debit cards, request cheque books and receive offers via voice commands. Live for several years; discontinued 15.11.2025 in favor of the ease app and WhatsApp banking. [Amazon Alexa]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.unionbankofindia.bank.in/en/details/union-voice-assistant-union-bank-of-india-voice-banking",
+   "raw_sector": "",
+   "date": "2025",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Union Bank of India",
+   "use": "Cash Management System built on Intellect Design Arena's eMACH.ai platform for end-to-end transaction banking (payments and mandates), with direct NPCI connectivity via the Turmeric framework. Went live in ~5 months. [Intellect Design Arena (eMACH.ai)]",
+   "existence": "confirmed",
+   "value": "Payment transaction volumes increased up to 5x; live in approximately five months (commenced 19 June 2023)",
+   "tier": "",
+   "url": "https://www.intellectdesign.com/media/union-bank-of-india-goes-live-with-intellects-cash-management-system-built-on-emach-ai-for-end-to-end-digital-transformation-of-transaction-banking/",
+   "raw_sector": "",
+   "date": "2023-12-18",
+   "fresh": "stale"
+  },
+  {
+   "company": "Union Bank of India",
+   "use": "Enterprise data lake platform with advanced analytics and new AI/ML models for business forecasting, personalized customer offers, and fraud detection/prevention/mitigation, spanning corporate, retail and MSME banking plus risk, treasury and operations. Announced as a collaborative program in development. [Accenture]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://newsroom.accenture.com/news/2023/union-bank-of-india-collaborates-with-accenture-to-accelerate-data-driven-transformation",
+   "raw_sector": "",
+   "date": "2023-12-05",
+   "fresh": "stale"
+  },
+  {
+   "company": "Union Bank of India",
+   "use": "Onboarding of Accenture (Dec 2025) to aid generative AI adoption; POC completed and use cases identified for front-line customer interactions (exchange services) and HR management functions, with implementation planned over the following 6-7 months. Described as a work in progress. [Accenture]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://informistmedia.com/MoneyWire/42323/Union-Bank-official-says-bank-onboarded-Accenture-in-Dec-to-aid-generative-AI-adoption",
+   "raw_sector": "",
+   "date": "2026",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Union Bank of India",
+   "use": "Enterprise hyperautomation initiative using RPA, AI/ML, low-code/no-code platforms, Intelligent Document Processing (IDP), iPaaS and OCR to automate repetitive, high-volume back-office tasks and reduce processing time and cost. Recognized as a Finnoviti 2025 winner. [none]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://bankingfrontiers.com/finnoviti-2025-winner-union-bank-of-india-for-hyperautomation/",
+   "raw_sector": "",
+   "date": "2025-11-17",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Union Bank of India",
+   "use": "Establishment of a Generative AI Centre of Excellence (CoE) for implementation, deployment and support of GenAI solutions, including automated document generation and summarization (letters, personalized notifications, legal documents, contracts). Solicited via a bank Expression of Interest / tender. [none]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.unionbankofindia.bank.in/tenderfiles/eoi_generative%20ai%20final.pdf",
+   "raw_sector": "",
+   "date": "2023-10-03",
+   "fresh": "stale"
+  },
+  {
+   "company": "Union Bank of India",
+   "use": "Expression of Interest to prepare a Scope of Work for leveraging AI, ML and quantum-safe algorithm-based solutions across the bank, with on-prem/hybrid-cloud deployment options. [none]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.unionbankofindia.bank.in/tenderfiles/final-eoi-ai-ml-pqc.pdf",
+   "raw_sector": "",
+   "date": "2025-09-09",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Union Bank of India",
+   "use": "Uni-Verse metaverse banking platform (India's first PSU banking metaverse) built with Tech Mahindra's Makers Lab, providing an immersive VR/web experience where customers use avatars to browse products; the bank's page states customer queries are handled through an AI chatbot within the metaverse. [Tech Mahindra (Makers Lab)]",
+   "existence": "confirmed",
+   "value": "367,653+ engaged users and 76,000+ new leads generated within 18 months",
+   "tier": "",
+   "url": "https://www.techmahindra.com/insights/case-studies/modernizing-banking-experience-generating-70k-leads-metaverse/",
+   "raw_sector": "",
+   "date": "2022",
+   "fresh": "stale"
   }
  ]
 }

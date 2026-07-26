@@ -3,27 +3,27 @@
  "name": "Palo Alto Networks",
  "cc": "US",
  "vertical": "Technology",
- "deployments": 12,
+ "deployments": 17,
  "confirmed": 12,
  "with_value_number": 1,
- "proof_rate": 0.083,
+ "proof_rate": 0.059,
  "mktcap": 265000000000.0,
  "revenue": 10610000000.0,
  "employees": 16068.0,
  "silent": false,
- "per_bn_revenue": 1.13,
- "per_10k_emp": 7.47,
+ "per_bn_revenue": 1.6,
+ "per_10k_emp": 10.58,
  "benchmarks": {
   "global_vertical": {
-   "deployments": 95,
-   "confirmed": 98,
-   "proof_rate": 58,
-   "n": 156
+   "deployments": 97,
+   "confirmed": 89,
+   "proof_rate": 34,
+   "n": 159
   },
   "country_vertical": {
-   "deployments": 96,
-   "confirmed": 99,
-   "proof_rate": 67,
+   "deployments": 97,
+   "confirmed": 90,
+   "proof_rate": 38,
    "n": 74
   }
  },
@@ -43,15 +43,15 @@
   },
   {
    "year": 2025,
-   "n": 3
+   "n": 4
   },
   {
    "year": 2026,
    "n": 1
   }
  ],
- "undated_pct": 25,
- "momentum": "early_mover,flat",
+ "undated_pct": 41,
+ "momentum": "early_mover,rising",
  "maturity": "L4",
  "maturity_evidence": [
   "multi_horizontal",
@@ -60,10 +60,39 @@
   "multi_year",
   "tier_p"
  ],
- "prospect_score": 100,
- "stack": [],
- "vendor_named": false,
+ "prospect_score": 98,
+ "stack": [
+  "Amazon AWS",
+  "Anthropic",
+  "Databricks",
+  "Google",
+  "Google Cloud",
+  "Microsoft"
+ ],
+ "vendor_named": true,
  "deployments_detail": [
+  {
+   "company": "Palo Alto Networks",
+   "use": "Named as a Anthropic Claude customer/case study [Anthropic Claude] [Anthropic Claude]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://sacra.com/c/anthropic/",
+   "raw_sector": "",
+   "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "Palo Alto Networks",
+   "use": "Named as a Databricks customer/case study [Databricks] [Databricks]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.carahsoft.com/databricks/customer-stories",
+   "raw_sector": "",
+   "date": "missing",
+   "fresh": "undated"
+  },
   {
    "company": "Palo Alto Networks",
    "use": "\"Precision AI\" security + Cortex XSIAM/Agentix + Prisma AIRS for AI-powered/AI-securing operations",
@@ -72,6 +101,39 @@
    "tier": "P",
    "url": "https://www.paloaltonetworks.com/precision-ai-security",
    "raw_sector": "Information Technology",
+   "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "Palo Alto Networks",
+   "use": "AI lifecycle security covering development, training, deployment and runtime monitoring",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.paloaltonetworks.com/blog/2025/09/securing-the-future-of-ai/",
+   "raw_sector": "",
+   "date": "2025-09-17",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Palo Alto Networks",
+   "use": "AI Access Security for safe adoption and use of GenAI apps with visibility, access controls, threat protection, and data loss prevention",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.paloaltonetworks.com/sase/ai-access-security",
+   "raw_sector": "",
+   "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "Palo Alto Networks",
+   "use": "Precision AI security products and capabilities for secure generative AI adoption",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.paloaltonetworks.com/precision-ai-security",
+   "raw_sector": "",
    "date": "missing",
    "fresh": "undated"
   },

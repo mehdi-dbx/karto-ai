@@ -3,48 +3,62 @@
  "name": "Xiaomi",
  "cc": "HK",
  "vertical": "Technology",
- "deployments": 2,
- "confirmed": 2,
- "with_value_number": 1,
- "proof_rate": 0.5,
+ "deployments": 12,
+ "confirmed": 12,
+ "with_value_number": 7,
+ "proof_rate": 0.583,
  "mktcap": 89556410256.0,
  "revenue": 64867948718.0,
  "employees": 55994.0,
  "silent": false,
- "per_bn_revenue": 0.03,
- "per_10k_emp": 0.36,
+ "per_bn_revenue": 0.18,
+ "per_10k_emp": 2.14,
  "benchmarks": {
   "global_vertical": {
-   "deployments": 71,
-   "confirmed": 72,
-   "proof_rate": 72,
-   "n": 156
+   "deployments": 75,
+   "confirmed": 89,
+   "proof_rate": 90,
+   "n": 159
   },
   "country_vertical": {
-   "deployments": 17,
-   "confirmed": 17,
-   "proof_rate": 33,
+   "deployments": 33,
+   "confirmed": 33,
+   "proof_rate": 50,
    "n": 7
   }
  },
- "first_seen": 2025,
+ "first_seen": 2024,
  "by_year": [
   {
+   "year": 2024,
+   "n": 4
+  },
+  {
    "year": 2025,
+   "n": 6
+  },
+  {
+   "year": 2026,
    "n": 2
   }
  ],
  "undated_pct": 0,
  "momentum": "early_mover,rising",
- "maturity": "L3",
+ "maturity": "L4",
  "maturity_evidence": [
   "multi_horizontal",
   "named_product:MiMo",
   "value_number",
+  "multi_year",
   "tier_p"
  ],
- "prospect_score": 32,
- "stack": [],
+ "prospect_score": 77,
+ "stack": [
+  "DeepSeek",
+  "Google",
+  "Google Cloud",
+  "NVIDIA"
+ ],
  "vendor_named": true,
  "deployments_detail": [
   {
@@ -60,6 +74,94 @@
   },
   {
    "company": "Xiaomi",
+   "use": "MiMo LLM family - Xiaomi's in-house large language models (MiMo-7B reasoning model released Apr 2025, later MiMo-V2.5 series) open-sourced under MIT license and served via Xiaomi's own API and platform for reasoning, agentic tasks, and product integration [Xiaomi (in-house)]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://github.com/xiaomimimo/mimo",
+   "raw_sector": "",
+   "date": "2025-04-30",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Xiaomi",
+   "use": "MiCU domain-specific LLM for smart-home natural-language command understanding, deployed in the Xiaomi Home app to interpret user instructions and control IoT devices [Xiaomi (in-house)]",
+   "existence": "confirmed",
+   "value": "~1.7 million page views daily; 20.01% accuracy gain over DeepSeek-V3 baseline; user correction rate cut 37.37% (4.16% to 2.59%)",
+   "tier": "",
+   "url": "https://arxiv.org/html/2606.01099v1",
+   "raw_sector": "",
+   "date": "2025-09-01",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Xiaomi",
+   "use": "Xiaomi HAD (Hyper Autonomous Driving) end-to-end AI driving system in SU7 EVs - highway and urban Navigate-on-Autopilot (City NOA), hands-free parking and summon, rolled out to owners via OTA [Nvidia (2x Drive Orin X, 508 TOPS), Hesai LiDAR; Xiaomi software]",
+   "existence": "confirmed",
+   "value": "508 TOPS compute",
+   "tier": "",
+   "url": "https://en.wikipedia.org/wiki/Xiaomi_SU7",
+   "raw_sector": "",
+   "date": "2024-06-06",
+   "fresh": "aging"
+  },
+  {
+   "company": "Xiaomi",
+   "use": "Integration of Google's Gemini LLM into Xiaomi flagship smartphones (Xiaomi 15 series) for international markets, providing generative-AI assistant features on-device [Google (Gemini, Google Cloud)]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://finance.yahoo.com/news/xiaomi-adopt-googles-gemini-ai-093000098.html",
+   "raw_sector": "",
+   "date": "2024-08-09",
+   "fresh": "aging"
+  },
+  {
+   "company": "Xiaomi",
+   "use": "MiMo-Audio audio language models and MiMo-V2.5 ASR/TTS speech models, open-sourced and served on Xiaomi's MiMo Open Platform for speech recognition and synthesis (including voice input in MiMo Code) [Xiaomi (in-house)]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://github.com/XiaomiMiMo/MiMo-Audio",
+   "raw_sector": "",
+   "date": "2025-09-01",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Xiaomi",
+   "use": "Xiaomi AISP (AI Imaging Signal Processor) computational photography platform shipping in flagship phones (Xiaomi 14/15 Ultra), running AI imaging models for photo, video and post-processing on-device [Xiaomi (in-house)]",
+   "existence": "confirmed",
+   "value": "up to 60 TOPS computational photography power",
+   "tier": "",
+   "url": "https://www.mi.com/global/discover/article?id=3777",
+   "raw_sector": "",
+   "date": "2024-10-29",
+   "fresh": "aging"
+  },
+  {
+   "company": "Xiaomi",
+   "use": "Super Xiao Ai - full-ecosystem AI voice assistant integrated into HyperOS 2 across phones, tablets and smart devices, adding LLM-based conversation, real-time translation, meeting notes, image editing and writing assistance [Xiaomi (in-house)]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.techradar.com/phones/apple-intelligence-gets-a-xiaomi-tribute-act-with-thoughtful-super-xiao-ai-assistant",
+   "raw_sector": "",
+   "date": "2024-11-13",
+   "fresh": "aging"
+  },
+  {
+   "company": "Xiaomi",
+   "use": "Lights-out 'dark factory' in Changping, Beijing using AI, machine vision, robotics and the HyperIMP intelligent manufacturing platform to run smartphone assembly, inspection and logistics 24/7 with no on-site workers [Xiaomi HyperIMP (in-house)]",
+   "existence": "confirmed",
+   "value": "Up to 10 million smartphones annually, ~one phone per second; 96,900 sq yard facility",
+   "tier": "",
+   "url": "https://www.bgr.com/2087200/xiaomi-dark-robot-smart-phone-factory/",
+   "raw_sector": "",
+   "date": "2026-02-01",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Xiaomi",
    "use": "Super Xiao Ai (小爱同学) voice assistant upgraded with MiMo models for conversation, reasoning and device control",
    "existence": "confirmed",
    "value": "none",
@@ -67,6 +169,28 @@
    "url": "https://post.smzdm.com/p/an56qqd2/",
    "raw_sector": "Technology",
    "date": "2025",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Xiaomi",
+   "use": "AI-powered multilingual customer support center in India offering 24x7 chat and social-media assistance in 11 regional languages, plus AI-assisted video and sign-language support [Xiaomi]",
+   "existence": "confirmed",
+   "value": "11 regional languages; first smartphone brand in India to do so",
+   "tier": "",
+   "url": "https://digitalterminal.in/amp/story/tech-companies/xiaomi-india-launches-ai-enabled-support-center",
+   "raw_sector": "",
+   "date": "2025-05-02",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Xiaomi",
+   "use": "MiMo Code - open-sourced (MIT) agentic AI programming assistant running in the terminal, with Compose mode for planning/coding/testing/review and persistent memory across long tasks [Xiaomi (MiMo-V2.5, also DeepSeek/Kimi)]",
+   "existence": "confirmed",
+   "value": "62% on SWE-Bench Pro",
+   "tier": "",
+   "url": "https://mimo.mi.com/docs/en-US/news/latest/mimocode",
+   "raw_sector": "",
+   "date": "2026-06-11",
    "fresh": "fresh"
   }
  ]

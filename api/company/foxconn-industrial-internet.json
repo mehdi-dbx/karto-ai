@@ -3,41 +3,68 @@
  "name": "Foxconn Industrial Internet",
  "cc": "CN",
  "vertical": "Technology",
- "deployments": 1,
- "confirmed": 1,
- "with_value_number": 1,
- "proof_rate": 1.0,
+ "deployments": 10,
+ "confirmed": 9,
+ "with_value_number": 7,
+ "proof_rate": 0.7,
  "mktcap": 173611111111.0,
  "revenue": 137993055556.0,
  "employees": 217084.0,
  "silent": false,
- "per_bn_revenue": 0.01,
- "per_10k_emp": 0.05,
+ "per_bn_revenue": 0.07,
+ "per_10k_emp": 0.46,
  "benchmarks": {
   "global_vertical": {
-   "deployments": 0,
-   "confirmed": 6,
-   "proof_rate": 80,
-   "n": 156
+   "deployments": 58,
+   "confirmed": 65,
+   "proof_rate": 97,
+   "n": 159
   },
   "country_vertical": {
-   "deployments": 0,
-   "confirmed": 0,
-   "proof_rate": 58,
+   "deployments": 75,
+   "confirmed": 75,
+   "proof_rate": 83,
    "n": 13
   }
  },
- "first_seen": null,
- "by_year": [],
- "undated_pct": 100,
- "momentum": "none",
- "maturity": "L3",
- "maturity_evidence": [
-  "value_number"
+ "first_seen": 2021,
+ "by_year": [
+  {
+   "year": 2021,
+   "n": 1
+  },
+  {
+   "year": 2023,
+   "n": 1
+  },
+  {
+   "year": 2024,
+   "n": 3
+  },
+  {
+   "year": 2025,
+   "n": 3
+  },
+  {
+   "year": 2026,
+   "n": 1
+  }
  ],
- "prospect_score": 14,
- "stack": [],
- "vendor_named": false,
+ "undated_pct": 10,
+ "momentum": "early_mover,flat",
+ "maturity": "L4",
+ "maturity_evidence": [
+  "multi_horizontal",
+  "named_product:FoxBrain",
+  "value_number",
+  "multi_year"
+ ],
+ "prospect_score": 66,
+ "stack": [
+  "Meta",
+  "NVIDIA"
+ ],
+ "vendor_named": true,
  "deployments_detail": [
   {
    "company": "Foxconn Industrial Internet",
@@ -49,6 +76,105 @@
    "raw_sector": "Information Technology",
    "date": "missing",
    "fresh": "undated"
+  },
+  {
+   "company": "Foxconn Industrial Internet",
+   "use": "FoxBrain, Fii's in-house Traditional Chinese reasoning LLM built on Meta Llama and NVIDIA NeMo (trained on 120 H100 GPUs in ~4 weeks), used for data analysis, decision support, document collaboration, math/reasoning and code generation across smart manufacturing, smart-EV and smart-city platforms [NVIDIA (NeMo, H100 GPUs), Meta (Llama)]",
+   "existence": "confirmed",
+   "value": "trained in ~4 weeks on 120 NVIDIA H100 GPUs",
+   "tier": "",
+   "url": "https://www.manufacturingdive.com/news/foxconn-apple-deepseek-llm-ai-model-foxbrain/742231/",
+   "raw_sector": "",
+   "date": "2025-03-10",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Foxconn Industrial Internet",
+   "use": "Fii Omniverse Digital Twin (FODT) platform — virtual replicas of factories connected to real MES data, USD-based line migration between global sites, robot simulation with Isaac Sim, and PhysicsNeMo-accelerated thermal/CFD analysis for AI-server smart factory design and operation [NVIDIA (Omniverse, Isaac Sim, PhysicsNeMo)]",
+   "existence": "confirmed",
+   "value": "150x faster CFD/thermal simulations; ~50% reduction in factory planning/time-to-revenue",
+   "tier": "",
+   "url": "https://www.nvidia.com/en-us/case-studies/foxconn-develops-physical-ai-enabled-smart-factories-with-digital-twins/",
+   "raw_sector": "",
+   "date": "2025-05-22",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Foxconn Industrial Internet",
+   "use": "FOXCONN NxVAE unsupervised-learning AI visual defect inspection — detects the 13 most common defect types by clustering unlabeled good-product data (no manual labeling), deployed on handheld-device production lines in mainland China [Foxconn (in-house)]",
+   "existence": "confirmed",
+   "value": "reduced manual inspection labor by 50% after 8 months; reporting accuracy raised 95%->99% and operating costs cut by at least one third",
+   "tier": "",
+   "url": "https://www.foxconn.com/en-us/press-center/events/csr-events/533",
+   "raw_sector": "",
+   "date": "2021-01-21",
+   "fresh": "stale"
+  },
+  {
+   "company": "Foxconn Industrial Internet",
+   "use": "AI-powered quality inspection of smart PV controllers using Huawei Ascend Smart Manufacturing Solution — verifies silicone-grease color/amount and nameplate presence/alignment on the production line [Huawei (Ascend Smart Manufacturing Solution)]",
+   "existence": "confirmed",
+   "value": "over 6,000 devices inspected per month with >99% overall accuracy",
+   "tier": "",
+   "url": "https://e.huawei.com/en/case-studies/industries/manufacturing/ai-quality-inspection-2023",
+   "raw_sector": "",
+   "date": "2023-01-01",
+   "fresh": "stale"
+  },
+  {
+   "company": "Foxconn Industrial Internet",
+   "use": "Bac Giang (Vietnam) WEF Lighthouse smart factory for AI servers — integrates AI-driven automation, AI 360-degree camera systems (POLYTRON) and city-scale 3D mapping/real-time digital twin (VIZZIO), with 40+ Fourth Industrial Revolution use cases [VIZZIO Technologies (3D digital twin), POLYTRON (AI 360 camera)]",
+   "existence": "confirmed",
+   "value": "labour productivity improved 190%, 99.5% on-time delivery, manufacturing costs cut",
+   "tier": "",
+   "url": "https://initiatives.weforum.org/global-lighthouse-network/case-study-details/foxconn-industrial-internet---b%E1%BA%AFc-giang/aJYTG0000000LVt4AM",
+   "raw_sector": "",
+   "date": "2024-10-07",
+   "fresh": "aging"
+  },
+  {
+   "company": "Foxconn Industrial Internet",
+   "use": "Guanlan (Shenzhen) facility certified as Fii's first WEF Sustainable Lighthouse — AI and digitalization applied to precision metal processing to boost production efficiency while reducing environmental impact [Foxconn / Fii (in-house)]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.fii-foxconn.com/en/NewsDetail?id=4004",
+   "raw_sector": "",
+   "date": "2024-10-01",
+   "fresh": "aging"
+  },
+  {
+   "company": "Foxconn Industrial Internet",
+   "use": "AI server full-line (whole-plant) automation solutions — Fii's Lean Consulting arm deploys AI-driven end-to-end automated production lines for AI server manufacturing and other industries [Foxconn / Fii (in-house)]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.fii-foxconn.com/en/LeanConsulting?id=3989",
+   "raw_sector": "",
+   "date": "2024-01-01",
+   "fresh": "aging"
+  },
+  {
+   "company": "Foxconn Industrial Internet",
+   "use": "Bac Ninh (Vietnam) GenAI-based intelligent campus platform — integrates production, operations, energy management, carbon tracking and EHS; includes AI-enabled green design, GenAI carbon accounting for SME suppliers and Omniverse+AI energy-efficiency optimization (20+ digital/AI solutions) [NVIDIA (Omniverse); Foxconn in-house GenAI]",
+   "existence": "confirmed",
+   "value": "22% reduction in Scope 3 emissions; 34% combined Scope 1+2 reduction; 90% supplier emissions visibility; 100+ customized carbon-reduction solutions",
+   "tier": "",
+   "url": "https://www.foxconn.com/en-us/press-center/events/csr-events/1953",
+   "raw_sector": "",
+   "date": "2026-01-16",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Foxconn Industrial Internet",
+   "use": "Video analytics AI agents (built on NVIDIA Metropolis and the NVIDIA AI Blueprint for video search and summarization) monitoring factory floors — detecting unauthorized access to restricted areas and generating management reports [NVIDIA (Metropolis, VSS AI Blueprint)]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.nvidia.com/en-us/case-studies/foxconn-develops-physical-ai-enabled-smart-factories-with-digital-twins/",
+   "raw_sector": "",
+   "date": "2025-05-22",
+   "fresh": "fresh"
   }
  ]
 }

@@ -3,44 +3,61 @@
  "name": "GS",
  "cc": "KR",
  "vertical": "Chemicals & Materials",
- "deployments": 1,
- "confirmed": 1,
+ "deployments": 4,
+ "confirmed": 4,
  "with_value_number": 1,
- "proof_rate": 1.0,
+ "proof_rate": 0.25,
  "mktcap": 6518518519.0,
  "revenue": 19111111111.0,
  "employees": 74.0,
  "silent": false,
- "per_bn_revenue": 0.05,
- "per_10k_emp": 135.14,
+ "per_bn_revenue": 0.21,
+ "per_10k_emp": 540.54,
  "benchmarks": {
   "global_vertical": {
-   "deployments": 0,
-   "confirmed": 19,
-   "proof_rate": 75,
-   "n": 105
+   "deployments": 29,
+   "confirmed": 51,
+   "proof_rate": 58,
+   "n": 107
   },
   "country_vertical": {
-   "deployments": 0,
-   "confirmed": 27,
-   "proof_rate": 73,
+   "deployments": 18,
+   "confirmed": 55,
+   "proof_rate": 64,
    "n": 12
   }
  },
- "first_seen": null,
- "by_year": [],
- "undated_pct": 100,
- "momentum": "none",
+ "first_seen": 2025,
+ "by_year": [
+  {
+   "year": 2025,
+   "n": 3
+  }
+ ],
+ "undated_pct": 25,
+ "momentum": "rising",
  "maturity": "L3",
  "maturity_evidence": [
+  "multi_horizontal",
   "named_product:AIU",
   "value_number",
   "tier_p"
  ],
- "prospect_score": 14,
+ "prospect_score": 62,
  "stack": [],
  "vendor_named": false,
  "deployments_detail": [
+  {
+   "company": "GS",
+   "use": "GS AI Assistant for bankers, traders and asset managers",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.cnbc.com/amp/2025/01/21/goldman-sachs-launches-ai-assistant.html",
+   "raw_sector": "",
+   "date": "2025-01-21",
+   "fresh": "fresh"
+  },
   {
    "company": "GS",
    "use": "GS Caltex \"AIU\" gen-AI platform (2,800 employees); AI equipment inspection; safety-regulation chatbots; DAX strategy",
@@ -51,6 +68,28 @@
    "raw_sector": "Energy & Chemicals",
    "date": "missing",
    "fresh": "undated"
+  },
+  {
+   "company": "GS",
+   "use": "GS AI Assistant for document summarization, content drafting, and data analysis",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.pymnts.com/news/artificial-intelligence/2025/goldman-sachs-expands-availability-ai-assistant-across-firm/",
+   "raw_sector": "",
+   "date": "2025-06-23",
+   "fresh": "fresh"
+  },
+  {
+   "company": "GS",
+   "use": "Developer productivity and code generation",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.pymnts.com/news/artificial-intelligence/2025/inside-goldman-sachs-big-bet-on-ai-at-scale/",
+   "raw_sector": "",
+   "date": "2025-03-20",
+   "fresh": "fresh"
   }
  ]
 }

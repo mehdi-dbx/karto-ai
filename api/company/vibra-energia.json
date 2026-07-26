@@ -3,28 +3,28 @@
  "name": "Vibra Energia",
  "cc": "BR",
  "vertical": "Retail & E-commerce",
- "deployments": 2,
- "confirmed": 2,
+ "deployments": 6,
+ "confirmed": 6,
  "with_value_number": 1,
- "proof_rate": 0.5,
+ "proof_rate": 0.167,
  "mktcap": 7725925926.0,
  "revenue": 35596296296.0,
  "employees": 3785.0,
  "silent": false,
- "per_bn_revenue": 0.06,
- "per_10k_emp": 5.28,
+ "per_bn_revenue": 0.17,
+ "per_10k_emp": 15.85,
  "benchmarks": {
   "global_vertical": {
-   "deployments": 71,
-   "confirmed": 80,
-   "proof_rate": 70,
-   "n": 295
+   "deployments": 48,
+   "confirmed": 63,
+   "proof_rate": 40,
+   "n": 301
   },
   "country_vertical": {
-   "deployments": 100,
-   "confirmed": 100,
-   "proof_rate": 67,
-   "n": 13
+   "deployments": 77,
+   "confirmed": 77,
+   "proof_rate": 54,
+   "n": 14
   }
  },
  "first_seen": 2023,
@@ -34,18 +34,33 @@
    "n": 1
   }
  ],
- "undated_pct": 50,
+ "undated_pct": 83,
  "momentum": "early_mover,gone_quiet",
  "maturity": "L3",
  "maturity_evidence": [
+  "multi_horizontal",
   "named_product:Posto 360 2.0",
   "value_number",
   "tier_p"
  ],
- "prospect_score": 40,
- "stack": [],
- "vendor_named": false,
+ "prospect_score": 69,
+ "stack": [
+  "Google",
+  "Google Cloud"
+ ],
+ "vendor_named": true,
  "deployments_detail": [
+  {
+   "company": "Vibra Energia",
+   "use": "AI-powered control tower for operations productivity and cost efficiency",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.vibraenergia.com.br/sites/default/files/2025-07/ENG%20RS24_Vibra_D4a.pdf",
+   "raw_sector": "",
+   "date": "Dec 31, 2024",
+   "fresh": "undated"
+  },
   {
    "company": "Vibra Energia",
    "use": "AI-driven predictive inventory management reduced fuel stock by R$900M since 2023; AI for logistics efficiency",
@@ -66,6 +81,39 @@
    "url": "https://bloomberglinea.com.br / https://valor.globo.com",
    "raw_sector": "Oil & gas / fuel distribution",
    "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "Vibra Energia",
+   "use": "Company-wide AI enablement program with leadership workshops [Google Cloud Agentspace, Gemini]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.googlecloudpresscorner.com/2025-09-10-Google-Cloud-Brings-a-New-Era-of-AI-Innovation-to-Brazil",
+   "raw_sector": "",
+   "date": "Sep 10, 2025",
+   "fresh": "undated"
+  },
+  {
+   "company": "Vibra Energia",
+   "use": "Gemini Enterprise Agent Platform deployment [Google Gemini]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://cloud.google.com/transform/101-real-world-generative-ai-use-cases-from-industry-leaders",
+   "raw_sector": "",
+   "date": "Apr 22, 2026",
+   "fresh": "undated"
+  },
+  {
+   "company": "Vibra Energia",
+   "use": "AI-powered mascots (Lu and Bras) for targeted digital marketing campaigns",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://valorinternacional.globo.com/business/news/2025/03/11/vibra-bets-on-digital-marketing-for-targeted-campaigns.ghtml",
+   "raw_sector": "",
+   "date": "Mar 11, 2025",
    "fresh": "undated"
   }
  ]

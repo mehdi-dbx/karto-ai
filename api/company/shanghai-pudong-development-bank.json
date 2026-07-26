@@ -3,43 +3,190 @@
  "name": "Shanghai Pudong Development Bank",
  "cc": "CN",
  "vertical": "Financial Services",
- "deployments": 1,
- "confirmed": 1,
- "with_value_number": 1,
- "proof_rate": 1.0,
+ "deployments": 13,
+ "confirmed": 12,
+ "with_value_number": 8,
+ "proof_rate": 0.615,
  "mktcap": 41863888889.0,
  "revenue": 15140277778.0,
  "employees": 62198.0,
  "silent": false,
- "per_bn_revenue": 0.07,
- "per_10k_emp": 0.16,
+ "per_bn_revenue": 0.86,
+ "per_10k_emp": 2.09,
  "benchmarks": {
   "global_vertical": {
-   "deployments": 0,
-   "confirmed": 17,
-   "proof_rate": 76,
-   "n": 377
+   "deployments": 87,
+   "confirmed": 90,
+   "proof_rate": 89,
+   "n": 388
   },
   "country_vertical": {
-   "deployments": 0,
-   "confirmed": 0,
-   "proof_rate": 44,
-   "n": 26
+   "deployments": 85,
+   "confirmed": 85,
+   "proof_rate": 59,
+   "n": 28
   }
  },
- "first_seen": null,
- "by_year": [],
- "undated_pct": 100,
- "momentum": "none",
- "maturity": "L3",
- "maturity_evidence": [
-  "named_product:LLMs",
-  "value_number"
+ "first_seen": 2019,
+ "by_year": [
+  {
+   "year": 2019,
+   "n": 1
+  },
+  {
+   "year": 2021,
+   "n": 3
+  },
+  {
+   "year": 2024,
+   "n": 1
+  },
+  {
+   "year": 2025,
+   "n": 3
+  },
+  {
+   "year": 2026,
+   "n": 4
+  }
  ],
- "prospect_score": 14,
- "stack": [],
- "vendor_named": false,
+ "undated_pct": 8,
+ "momentum": "early_mover,rising",
+ "maturity": "L4",
+ "maturity_evidence": [
+  "multi_horizontal",
+  "named_product:LLMs",
+  "value_number",
+  "multi_year"
+ ],
+ "prospect_score": 75,
+ "stack": [
+  "Baidu",
+  "DeepSeek"
+ ],
+ "vendor_named": true,
  "deployments_detail": [
+  {
+   "company": "Shanghai Pudong Development Bank",
+   "use": "Digital employee 'Xiao Pu' (小浦), the banking industry's first digital human employee, co-developed with Baidu; uses NLP, speech recognition and emotion sensing to serve customers across branches, tablets, phones and PCs as an intelligent assistant/customer service agent. [Baidu (Baidu AI Cloud)]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.spdb.com.cn/today_s_spd/about_spd/xwdt_1632/201912/t20191216_1108723.shtml",
+   "raw_sector": "",
+   "date": "2019-12",
+   "fresh": "stale"
+  },
+  {
+   "company": "Shanghai Pudong Development Bank",
+   "use": "Intelligent voice customer service system combining smart answering and smart outbound calling; described as the first bank in the industry to fully implement telephone intelligent voice service. [none]",
+   "existence": "confirmed",
+   "value": "Outbound-call capacity up to 200,000 calls per day",
+   "tier": "",
+   "url": "https://www.cebnet.com.cn/20210401/102741461.html",
+   "raw_sector": "",
+   "date": "2021-04",
+   "fresh": "stale"
+  },
+  {
+   "company": "Shanghai Pudong Development Bank",
+   "use": "Deployed the DeepSeek-R1 671B full-parameter large model on-premise on a Huawei Ascend (Atlas 800T A2) compute cluster in Feb 2025, fused with the bank's enterprise knowledge base and embedded into digital-employee assistant apps powering intelligent Q&A, metric Q&A, financial analysis and report writing. [DeepSeek (DeepSeek-R1 671B); Huawei Ascend / MindIE]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://finance.sina.com.cn/tech/roll/2025-02-20/doc-inemctnx3617681.shtml",
+   "raw_sector": "",
+   "date": "2025-02",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Shanghai Pudong Development Bank",
+   "use": "Enterprise multi-agent system with 100+ AI workflow pipelines across cross-border settlement, supply-chain finance and retail credit, where AI handles identification/extraction/preliminary judgment and staff handle review and complex decisions ('able to get things done, not just chat'). [none]",
+   "existence": "confirmed",
+   "value": "100+ agent/AI workflow pipelines",
+   "tier": "",
+   "url": "https://www.gzw.sh.gov.cn/shgzw_zxzx_gqdt/20260720/a54b4f9b9f4e4559986dfff8990905dc.html",
+   "raw_sector": "",
+   "date": "2026-07",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Shanghai Pudong Development Bank",
+   "use": "'Puhui Yuncang' (浦慧云仓) smart-warehouse financing platform built with Huawei: front-end IoT devices plus AI-based capabilities and multi-dimensional data verification turn ordinary warehouses into 'financial warehouses' enabling collateral/inventory-based lending. [Huawei]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://e.huawei.com/cn/news/ebg/2021/shanghai-pudong-development-bank",
+   "raw_sector": "",
+   "date": "2021-09",
+   "fresh": "stale"
+  },
+  {
+   "company": "Shanghai Pudong Development Bank",
+   "use": "'PuYin ZhiQi' (浦银智启) M+1+N large-model service matrix launched with Baidu and other tech partners, using M open-source models as a base to deliver a productized model-service platform for scaled financial AI applications. [Baidu (plus other partners)]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://finance.sina.com.cn/stock/t/2026-04-10/doc-inhtywee0314033.shtml",
+   "raw_sector": "",
+   "date": "2026-04",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Shanghai Pudong Development Bank",
+   "use": "'AI+' six practical achievements deployed across business lines: retail experience (Puhui Laile), inclusive finance for small/micro enterprises, investment banking research/advisory, corporate credit (intelligent financial-report recognition, industry research, automated report generation), wealth/treasury management, and custody services; supported by 200+ digital-worker application scenarios. [none]",
+   "existence": "confirmed",
+   "value": "200+ digital-worker application scenarios",
+   "tier": "",
+   "url": "https://finance.sina.com.cn/stock/relnews/cn/2025-03-27/doc-ineraiqt8207255.shtml",
+   "raw_sector": "",
+   "date": "2025-03",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Shanghai Pudong Development Bank",
+   "use": "Strategic partnership with Bairong Inc. to build a financial-agent ecosystem: customizable AI hubs and enterprise agent capabilities for intelligent financial management, credit decisioning, risk monitoring, cross-border finance, asset management and customer operations (agreement signed, forward-looking). [Bairong Inc.]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.prnewswire.com/apac/news-releases/bairong-inc-and-shanghai-pudong-development-bank-establish-strategic-ecosystem-partnership-to-accelerate-the-compliant-implementation-of-financial-agents-302614015.html",
+   "raw_sector": "",
+   "date": "2025-11",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Shanghai Pudong Development Bank",
+   "use": "Financial-report/form vertical large model trained on tens of thousands of table datasets to auto-recognize and extract data from complex, non-standardized financial statements for corporate-credit workflows, cutting per-transaction processing from 30 minutes to 5 minutes. [none]",
+   "existence": "confirmed",
+   "value": "Processing time per transaction cut from 30 minutes to 5 minutes",
+   "tier": "",
+   "url": "https://www.gzw.sh.gov.cn/shgzw_zxzx_gqdt/20260720/a54b4f9b9f4e4559986dfff8990905dc.html",
+   "raw_sector": "",
+   "date": "2026-07",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Shanghai Pudong Development Bank",
+   "use": "AI assistant for operations-post staff integrating real-time knowledge retrieval, intelligent navigation and smart translation, providing contextual guidance during business processing to reduce operational difficulty and training cost. [none]",
+   "existence": "confirmed",
+   "value": "AI applications absorbed 2,500+ person-years of work annually (bank-wide, as of June 2026)",
+   "tier": "",
+   "url": "https://www.gzw.sh.gov.cn/shgzw_zxzx_gqdt/20260720/a54b4f9b9f4e4559986dfff8990905dc.html",
+   "raw_sector": "",
+   "date": "2026-07",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Shanghai Pudong Development Bank",
+   "use": "AI coding assistant built on a code LLM at the credit card center, generating code, unit tests and code audits and providing an LLM Q&A tool for developers; won The Asian Banker's Best AI Application for Coding Assistance in China 2024. [none]",
+   "existence": "confirmed",
+   "value": "Over 20% of code machine-generated; ~10% coding-efficiency improvement; supports 90%+ of developers; 200,000+ daily invocations",
+   "tier": "",
+   "url": "https://www.theasianbanker.com/updates-and-articles/best-ai-application-for-coding-assistance-in-china-2024",
+   "raw_sector": "",
+   "date": "2024-06",
+   "fresh": "aging"
+  },
   {
    "company": "Shanghai Pudong Development Bank",
    "use": "HQ-level AI center + thousand-card compute base; 100bn-scale open-source LLMs + 8 AI components; 200+ digital-worker scenarios (wealth/inclusive/IB); \"AI+应用规划白皮书1.0\"",
@@ -50,6 +197,17 @@
    "raw_sector": "Financials",
    "date": "missing",
    "fresh": "undated"
+  },
+  {
+   "company": "Shanghai Pudong Development Bank",
+   "use": "Privacy-computing / multi-party secure computation (MPC) risk-control models built with Ant Group, using multi-source collaborative data to improve fraud/credit risk models; used to block issuance of billions of RMB in high-risk loans. [Ant Group (multi-party secure computation)]",
+   "existence": "confirmed",
+   "value": "Model KS value improved 12%-23% vs single-source model; blocked billions of RMB in high-risk loans",
+   "tier": "",
+   "url": "http://www.cnr.cn/shanghai/tt/20210709/t20210709_525530859.shtml",
+   "raw_sector": "",
+   "date": "2021-07",
+   "fresh": "stale"
   }
  ]
 }

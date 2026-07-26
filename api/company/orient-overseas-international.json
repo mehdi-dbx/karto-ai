@@ -3,35 +3,41 @@
  "name": "Orient Overseas (International)",
  "cc": "HK",
  "vertical": "Logistics & Supply Chain",
- "deployments": 2,
- "confirmed": 2,
- "with_value_number": 1,
- "proof_rate": 0.5,
+ "deployments": 5,
+ "confirmed": 4,
+ "with_value_number": 2,
+ "proof_rate": 0.4,
  "mktcap": 12462820513.0,
  "revenue": 9701282051.0,
  "employees": 11665.0,
  "silent": false,
- "per_bn_revenue": 0.21,
- "per_10k_emp": 1.71,
+ "per_bn_revenue": 0.52,
+ "per_10k_emp": 4.29,
  "benchmarks": {
   "global_vertical": {
-   "deployments": 65,
-   "confirmed": 74,
-   "proof_rate": 52,
-   "n": 66
+   "deployments": 48,
+   "confirmed": 52,
+   "proof_rate": 68,
+   "n": 67
   }
  },
- "first_seen": null,
- "by_year": [],
- "undated_pct": 100,
- "momentum": "none",
+ "first_seen": 2025,
+ "by_year": [
+  {
+   "year": 2025,
+   "n": 1
+  }
+ ],
+ "undated_pct": 80,
+ "momentum": "rising",
  "maturity": "L3",
  "maturity_evidence": [
+  "multi_horizontal",
   "named_product:PODIUM",
   "value_number",
   "tier_p"
  ],
- "prospect_score": 32,
+ "prospect_score": 48,
  "stack": [
   "Microsoft"
  ],
@@ -58,6 +64,39 @@
    "raw_sector": "Shipping",
    "date": "missing",
    "fresh": "undated"
+  },
+  {
+   "company": "Orient Overseas (International)",
+   "use": "AI integration into network planning, internal processes, container and vessel management",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.ooilgroup.com/financials/interimandannualreports/Documents/2025/E-Interim%20Report%202025.pdf",
+   "raw_sector": "",
+   "date": "Aug 21, 2025",
+   "fresh": "undated"
+  },
+  {
+   "company": "Orient Overseas (International)",
+   "use": "AI for network operations and shipping efficiencies (Microsoft Research Asia partnership) [Microsoft]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.oocl.com/eng/pressandmedia/pressreleases/2018/pages/23apr18.aspx",
+   "raw_sector": "",
+   "date": "Apr 23, 2018",
+   "fresh": "undated"
+  },
+  {
+   "company": "Orient Overseas (International)",
+   "use": "AI-powered Intelligent Chatbot for customer inquiries (shipment schedules, product information, cargo tracking)",
+   "existence": "confirmed",
+   "value": "1.5 million customer interactions",
+   "tier": "",
+   "url": "https://www.ooilgroup.com/financials/interimandannualreports/Documents/2025/E-Annual%20Report%202025.pdf",
+   "raw_sector": "",
+   "date": "2025",
+   "fresh": "fresh"
   }
  ]
 }

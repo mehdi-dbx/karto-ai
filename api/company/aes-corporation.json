@@ -3,26 +3,26 @@
  "name": "AES Corporation",
  "cc": "US",
  "vertical": "Energy & Utilities",
- "deployments": 1,
- "confirmed": 1,
+ "deployments": 5,
+ "confirmed": 5,
  "with_value_number": 0,
  "proof_rate": 0.0,
  "mktcap": 10590000000.0,
  "revenue": 12490000000.0,
  "employees": 8336.0,
  "silent": false,
- "per_bn_revenue": 0.08,
- "per_10k_emp": 1.2,
+ "per_bn_revenue": 0.4,
+ "per_10k_emp": 6.0,
  "benchmarks": {
   "global_vertical": {
-   "deployments": 0,
-   "confirmed": 20,
+   "deployments": 53,
+   "confirmed": 70,
    "proof_rate": 0,
-   "n": 210
+   "n": 213
   },
   "country_vertical": {
-   "deployments": 0,
-   "confirmed": 39,
+   "deployments": 57,
+   "confirmed": 78,
    "proof_rate": 0,
    "n": 52
   }
@@ -34,16 +34,19 @@
    "n": 1
   }
  ],
- "undated_pct": 0,
+ "undated_pct": 80,
  "momentum": "early_mover,gone_quiet",
  "maturity": "L3",
  "maturity_evidence": [
+  "multi_horizontal",
   "named_product:Maximo",
   "tier_p"
  ],
- "prospect_score": 54,
- "stack": [],
- "vendor_named": false,
+ "prospect_score": 70,
+ "stack": [
+  "Google"
+ ],
+ "vendor_named": true,
  "deployments_detail": [
   {
    "company": "AES Corporation",
@@ -55,6 +58,50 @@
    "raw_sector": "Utilities",
    "date": "2024",
    "fresh": "aging"
+  },
+  {
+   "company": "AES Corporation",
+   "use": "Generative AI agents for health and safety audits [Google Gemini Enterprise Agent Platform]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://cloud.google.com/customers/aes",
+   "raw_sector": "",
+   "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "AES Corporation",
+   "use": "AI-powered solar robot fleet deployment",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.enlit.world/library/aes-sends-world-s-first-ai-powered-solar-robot-fleet-to-california-project",
+   "raw_sector": "",
+   "date": "Sep 8, 2025",
+   "fresh": "undated"
+  },
+  {
+   "company": "AES Corporation",
+   "use": "Machine learning for renewable energy forecasting and vegetation management optimization [H2O.ai]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://h2o.ai/case-studies/aes-transforms-energy-business-with-ai-and-h2o/",
+   "raw_sector": "",
+   "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "AES Corporation",
+   "use": "AI-driven incident intelligence and safety platform",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.prnewswire.com/news-releases/aes-deploys-ai-safety-platform-in-us-operations-302711682.html",
+   "raw_sector": "",
+   "date": "Mar 12, 2026",
+   "fresh": "undated"
   }
  ]
 }

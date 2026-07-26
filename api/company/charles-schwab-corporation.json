@@ -3,48 +3,118 @@
  "name": "Charles Schwab Corporation",
  "cc": "US",
  "vertical": "Financial Services",
- "deployments": 1,
- "confirmed": 1,
- "with_value_number": 0,
- "proof_rate": 0.0,
+ "deployments": 14,
+ "confirmed": 11,
+ "with_value_number": 5,
+ "proof_rate": 0.357,
  "mktcap": 176900000000.0,
  "revenue": 26030000000.0,
  "employees": 33000.0,
  "silent": false,
- "per_bn_revenue": 0.04,
- "per_10k_emp": 0.3,
+ "per_bn_revenue": 0.54,
+ "per_10k_emp": 4.24,
  "benchmarks": {
   "global_vertical": {
-   "deployments": 0,
-   "confirmed": 17,
-   "proof_rate": 0,
-   "n": 377
+   "deployments": 91,
+   "confirmed": 84,
+   "proof_rate": 65,
+   "n": 388
   },
   "country_vertical": {
-   "deployments": 0,
-   "confirmed": 19,
-   "proof_rate": 0,
-   "n": 76
+   "deployments": 83,
+   "confirmed": 84,
+   "proof_rate": 72,
+   "n": 77
   }
  },
- "first_seen": 2026,
+ "first_seen": 2015,
  "by_year": [
   {
-   "year": 2026,
+   "year": 2015,
    "n": 1
+  },
+  {
+   "year": 2020,
+   "n": 1
+  },
+  {
+   "year": 2023,
+   "n": 1
+  },
+  {
+   "year": 2024,
+   "n": 1
+  },
+  {
+   "year": 2025,
+   "n": 2
+  },
+  {
+   "year": 2026,
+   "n": 8
   }
  ],
  "undated_pct": 0,
- "momentum": "late_entrant,rising",
- "maturity": "L3",
+ "momentum": "early_mover,rising",
+ "maturity": "L4",
  "maturity_evidence": [
+  "multi_horizontal",
   "named_product:Schwab",
+  "value_number",
+  "multi_year",
   "tier_p"
  ],
- "prospect_score": 54,
- "stack": [],
- "vendor_named": false,
+ "prospect_score": 86,
+ "stack": [
+  "Microsoft",
+  "OpenAI"
+ ],
+ "vendor_named": true,
  "deployments_detail": [
+  {
+   "company": "Charles Schwab Corporation",
+   "use": "Portfolio Insights: Schwab's first generative-AI capability for retail investor clients, delivering AI-generated summaries of portfolio performance for the top five moving holdings, news summaries on S&P 500 holdings, and research commentary. [none]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://pressroom.aboutschwab.com/press-releases/press-release/2026/Charles-Schwab-Launches-AI-Powered-Capability-That-Helps-Investors-Understand-Portfolio-Performance-and-Market-Activity/default.aspx",
+   "raw_sector": "",
+   "date": "2026-05-05",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Charles Schwab Corporation",
+   "use": "Schwab Investing Themes: NLP-powered algorithms scan millions of unstructured documents (regulatory filings, patents, clinical trials) to identify and rank companies by relevance to investment themes and build thematic stock portfolios. [Proprietary NLP algorithm]",
+   "existence": "confirmed",
+   "value": "40+ thematic portfolios; $250 minimum investment",
+   "tier": "",
+   "url": "https://www.klover.ai/charles-schwab-ai-strategy-analysis-of-dominance-in-financial-services/",
+   "raw_sector": "",
+   "date": "2023",
+   "fresh": "stale"
+  },
+  {
+   "company": "Charles Schwab Corporation",
+   "use": "Schwab Intelligent Portfolios: robo-advisor that builds, monitors, and automatically rebalances diversified ETF portfolios, with algorithmic tax-loss harvesting. [Proprietary algorithms]",
+   "existence": "confirmed",
+   "value": "$5,000 minimum; $0 advisory fee",
+   "tier": "",
+   "url": "https://www.schwab.com/intelligent-portfolios",
+   "raw_sector": "",
+   "date": "2015",
+   "fresh": "stale"
+  },
+  {
+   "company": "Charles Schwab Corporation",
+   "use": "AI-powered trust and estate/tax planning delivered live through the Wealth.com partnership, augmenting Schwab's wealth management lifecycle. [Wealth.com]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.investmentnews.com/fintech/schwab-touts-ai-as-its-biggest-growth-lever-at-investor-day/266613",
+   "raw_sector": "",
+   "date": "2026-05",
+   "fresh": "fresh"
+  },
   {
    "company": "Charles Schwab Corporation",
    "use": "GenAI capability explaining portfolio performance/market activity to retail clients (2026) + Schwab Knowledge Assistant (LLM research automation, 2024) + GenAI in call centers",
@@ -54,6 +124,105 @@
    "url": "https://pressroom.aboutschwab.com/press-releases/press-release/2026/Charles-Schwab-Launches-AI-Powered-Capability-That-Helps-Investors-Understand-Portfolio-Performance-and-Market-Activity",
    "raw_sector": "Financials",
    "date": "2026",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Charles Schwab Corporation",
+   "use": "Schwab Knowledge Assistant: a GenAI, ChatGPT-like tool for client service representatives that searches internal knowledge bases and policies to synthesize answers and reduce call handling time. [Proprietary GenAI / large language model + NLP]",
+   "existence": "confirmed",
+   "value": "90% employee adoption growth in 2024; ~2 minute reduction in handling time per complex call",
+   "tier": "",
+   "url": "https://emerj.com/artificial-intelligence-at-charles-schwab-two-use-cases/",
+   "raw_sector": "",
+   "date": "2024",
+   "fresh": "aging"
+  },
+  {
+   "company": "Charles Schwab Corporation",
+   "use": "AI Service Assistant (retail): transcribes live client interactions and assists service staff with next steps across the retail contact operation. [none]",
+   "existence": "confirmed",
+   "value": "Processes approximately 60,000 live client interactions daily",
+   "tier": "",
+   "url": "https://www.investmentnews.com/fintech/schwab-touts-ai-as-its-biggest-growth-lever-at-investor-day/266613",
+   "raw_sector": "",
+   "date": "2026-05",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Charles Schwab Corporation",
+   "use": "LLM-based call analysis and coaching for Advisor Services: large language models analyze millions of service calls to provide coaching and performance feedback to service professionals. [Large language models (unnamed)]",
+   "existence": "confirmed",
+   "value": "Analyzes millions of calls",
+   "tier": "",
+   "url": "https://www.investmentnews.com/fintech/schwab-touts-ai-as-its-biggest-growth-lever-at-investor-day/266613",
+   "raw_sector": "",
+   "date": "2026-05",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Charles Schwab Corporation",
+   "use": "AI-enhanced voice routing in the phone system: a voice AI asks callers why they are calling and routes them directly to the right specialist without menus or transfers, built from analysis of 2.5M+ historical calls. [none]",
+   "existence": "confirmed",
+   "value": "2.5 million+ calls analyzed; ~8,000 calls handled daily",
+   "tier": "",
+   "url": "https://voicebot.ai/2020/03/25/charles-schwab-integrates-voice-ai-into-phone-system/",
+   "raw_sector": "",
+   "date": "2020-03",
+   "fresh": "stale"
+  },
+  {
+   "company": "Charles Schwab Corporation",
+   "use": "Investor AI Assistant: first client-facing AI assistant over chat and voice for general inquiries and limited client actions (e.g., voice agent setting beneficiaries), with handoffs to human agents and guardrails. [Partnership with an unnamed leading AI firm]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.wealthmanagement.com/ria-news/schwab-makes-ai-push-with-client-facing-agents-to-roll-out-in-june",
+   "raw_sector": "",
+   "date": "2026-06",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Charles Schwab Corporation",
+   "use": "Generative search for Schwab.com: AI-powered generative search capability on the public website. [none]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.investmentnews.com/fintech/schwab-touts-ai-as-its-biggest-growth-lever-at-investor-day/266613",
+   "raw_sector": "",
+   "date": "2026",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Charles Schwab Corporation",
+   "use": "AI-powered fraud detection: systems that monitor transactions, detect patterns and unusual/suspicious behavior at the client and network level, and block potential fraud before funds leave customer accounts. [none]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.thestreet.com/personal-finance/schwab-reveals-ai-fraud-tactics-more-personalized",
+   "raw_sector": "",
+   "date": "2026-06",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Charles Schwab Corporation",
+   "use": "AI-assisted software development: engineers use GitHub Copilot and Microsoft 365 Copilot with agentic workflows and prompt engineering to accelerate coding, refactoring, documentation, SQL generation, and test creation. [GitHub Copilot, Microsoft 365 Copilot]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.schwabjobs.com/job/austin/full-stack-net-software-engineer/33727/95313581552",
+   "raw_sector": "",
+   "date": "2025",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Charles Schwab Corporation",
+   "use": "AI Marketing Review (Advisor Services): AI tool that identifies high-risk language in advisor marketing content based on SEC rules, with inline AI suggestions and comments to reduce compliance rewrites. [none]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://advisorservices.schwab.com/provider-solutions/AI_Marketing_Review",
+   "raw_sector": "",
+   "date": "2025",
    "fresh": "fresh"
   }
  ]

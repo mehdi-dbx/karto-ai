@@ -3,43 +3,85 @@
  "name": "Nisshin Seifun Group Inc.",
  "cc": "JP",
  "vertical": "Retail & E-commerce",
- "deployments": 1,
- "confirmed": 1,
- "with_value_number": 0,
- "proof_rate": 0.0,
+ "deployments": 9,
+ "confirmed": 8,
+ "with_value_number": 3,
+ "proof_rate": 0.333,
  "mktcap": 3758000000.0,
  "revenue": 5766666667.0,
  "employees": 9624.0,
  "silent": false,
- "per_bn_revenue": 0.17,
- "per_10k_emp": 1.04,
+ "per_bn_revenue": 1.56,
+ "per_10k_emp": 9.35,
  "benchmarks": {
   "global_vertical": {
-   "deployments": 0,
-   "confirmed": 24,
-   "proof_rate": 0,
-   "n": 295
+   "deployments": 64,
+   "confirmed": 75,
+   "proof_rate": 62,
+   "n": 301
   },
   "country_vertical": {
-   "deployments": 0,
-   "confirmed": 4,
-   "proof_rate": 0,
-   "n": 25
+   "deployments": 60,
+   "confirmed": 68,
+   "proof_rate": 44,
+   "n": 26
   }
  },
- "first_seen": null,
- "by_year": [],
- "undated_pct": 100,
- "momentum": "none",
- "maturity": "L3",
+ "first_seen": 2020,
+ "by_year": [
+  {
+   "year": 2020,
+   "n": 1
+  },
+  {
+   "year": 2024,
+   "n": 4
+  },
+  {
+   "year": 2025,
+   "n": 3
+  }
+ ],
+ "undated_pct": 11,
+ "momentum": "early_mover,cooling",
+ "maturity": "L4",
  "maturity_evidence": [
+  "multi_horizontal",
   "named_product:Nisshin",
+  "value_number",
+  "multi_year",
   "tier_p"
  ],
- "prospect_score": 54,
- "stack": [],
- "vendor_named": false,
+ "prospect_score": 75,
+ "stack": [
+  "Microsoft",
+  "Microsoft Azure",
+  "OpenAI"
+ ],
+ "vendor_named": true,
  "deployments_detail": [
+  {
+   "company": "Nisshin Seifun Group Inc.",
+   "use": "Enterprise ('corporate version') ChatGPT deployed group-wide for secure generative-AI use to improve individual work efficiency; generative-AI usage rate tracked as a DX KPI. [OpenAI (ChatGPT, enterprise)]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.nisshin.com/company/dx/",
+   "raw_sector": "",
+   "date": "2024",
+   "fresh": "aging"
+  },
+  {
+   "company": "Nisshin Seifun Group Inc.",
+   "use": "Corporate AI chatbot (hitTO) for the internal IT help desk at Nisshin Seifun Group HQ, combining two AI engines with existing FAQ databases to automate employee inquiries; later extended to external inquiries. [hitTO]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://roboma.io/blog/marketing/ai-chat-bot-cases/",
+   "raw_sector": "",
+   "date": "2020",
+   "fresh": "stale"
+  },
   {
    "company": "Nisshin Seifun Group Inc.",
    "use": "AI demand-supply management automation for frozen foods (Nisshin Welna); MS Fabric for factory smartification",
@@ -50,6 +92,72 @@
    "raw_sector": "Foods",
    "date": "missing",
    "fresh": "undated"
+  },
+  {
+   "company": "Nisshin Seifun Group Inc.",
+   "use": "AI-driven demand/supply and inventory-transfer planning system for ~400 frozen food products (Nisshin Seifun Welna subsidiary), co-developed with AI vendor Grid. Automatically generates sales forecasts, production schedules, delivery truck needs and inter-warehouse transfers across ~1,800 planning-pattern combinations. [Grid (株式会社グリッド)]",
+   "existence": "confirmed",
+   "value": "Planning time cut from ~3 days to ~1 day; daily inventory-transfer work from ~2 hrs to ~45 min; ~50 hours/month saved",
+   "tier": "",
+   "url": "https://www.nisshin.com/release/details/20250204100738.html",
+   "raw_sector": "",
+   "date": "2024-10 (operational); announced 2025-02-04",
+   "fresh": "aging"
+  },
+  {
+   "company": "Nisshin Seifun Group Inc.",
+   "use": "Mizushima smart factory in Okayama uses IoT, AI and robots to automate production-line adjustment, material/product handling, data collection & analysis, and production planning; targets unmanned operation during certain periods and 20%+ productivity gains rolled out to other plants. [none]",
+   "existence": "confirmed",
+   "value": "Target 20%+ productivity improvement across domestic/overseas plants",
+   "tier": "",
+   "url": "https://www.nisshin.com/release/details/20250526134413.html",
+   "raw_sector": "",
+   "date": "2025-05-26 (full operation)",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Nisshin Seifun Group Inc.",
+   "use": "Real-time production data platform on Microsoft Fabric Real-Time Intelligence (with Azure IoT Hub, Stream Analytics, Synapse, Data Factory, Power BI); uses machine learning to digitize expert-miller knowledge for micron-level milling adjustments based on wheat moisture/hardness, plus equipment-failure analytics. 100+ dashboards in production. [Microsoft (Azure, Microsoft Fabric)]",
+   "existence": "confirmed",
+   "value": "Over 100 dashboards shared across departments",
+   "tier": "",
+   "url": "https://www.microsoft.com/en/customers/story/26329-nisshin-flour-milling-microsoft-fabric",
+   "raw_sector": "",
+   "date": "2025-07 (in production); story published 2026-04-16",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Nisshin Seifun Group Inc.",
+   "use": "Non-humanoid conversational (generative) AI powering an interactive factory-tour experience at the Mizushima plant, built by Dentsu Digital / Dentsu Institute on Microsoft Azure (speech-to-text, generative AI responses, text-to-speech, Lottie animation); visitors converse and the system plays contextual videos. [Dentsu Digital; Microsoft Azure]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.dentsudigital.co.jp/knowledge-charge/articles/2025-1202-nisshin-seifun",
+   "raw_sector": "",
+   "date": "2025-05 (launch); article 2025-12-02",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Nisshin Seifun Group Inc.",
+   "use": "Database + AI deployment in the flour-milling business to deliver rapid, high-quality information to customers about flour products and secondary-processing techniques (customer-proposal strengthening under the DX strategy). [none]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.nisshin-seifun.com/company/dx.html",
+   "raw_sector": "",
+   "date": "2024",
+   "fresh": "aging"
+  },
+  {
+   "company": "Nisshin Seifun Group Inc.",
+   "use": "Internal cross-department system-development platform providing a development environment with deep-learning-based natural language processing (NLP) AI, plus BI tools and document-digitization tools available across the group. [none]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.nisshin-seifun.com/company/dx.html",
+   "raw_sector": "",
+   "date": "2024",
+   "fresh": "aging"
   }
  ]
 }

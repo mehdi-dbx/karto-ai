@@ -3,39 +3,50 @@
  "name": "Porr",
  "cc": "AT",
  "vertical": "Real Estate & Construction",
- "deployments": 1,
- "confirmed": 1,
- "with_value_number": 0,
- "proof_rate": 0.0,
+ "deployments": 9,
+ "confirmed": 7,
+ "with_value_number": 3,
+ "proof_rate": 0.333,
  "mktcap": 1652400000.0,
  "revenue": 6814800000.0,
  "employees": 20127.0,
  "silent": false,
- "per_bn_revenue": 0.15,
- "per_10k_emp": 0.5,
+ "per_bn_revenue": 1.32,
+ "per_10k_emp": 4.47,
  "benchmarks": {
   "global_vertical": {
-   "deployments": 0,
-   "confirmed": 31,
-   "proof_rate": 0,
+   "deployments": 80,
+   "confirmed": 84,
+   "proof_rate": 61,
    "n": 154
   }
  },
- "first_seen": 2026,
+ "first_seen": 2021,
  "by_year": [
   {
-   "year": 2026,
+   "year": 2021,
    "n": 1
+  },
+  {
+   "year": 2025,
+   "n": 1
+  },
+  {
+   "year": 2026,
+   "n": 7
   }
  ],
  "undated_pct": 0,
- "momentum": "late_entrant,rising",
- "maturity": "L3",
+ "momentum": "early_mover,rising",
+ "maturity": "L4",
  "maturity_evidence": [
+  "multi_horizontal",
   "named_product:SmartStreet",
+  "value_number",
+  "multi_year",
   "tier_p"
  ],
- "prospect_score": 54,
+ "prospect_score": 77,
  "stack": [],
  "vendor_named": false,
  "deployments_detail": [
@@ -48,6 +59,94 @@
    "url": "https://porr.at/fileadmin/s_porr-group/Presse/2026/260217_PORR_Smart_Street_DE.pdf",
    "raw_sector": "Construction",
    "date": "2026-02",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Porr",
+   "use": "SmartStreet research project: a neural network predicts the mechanical properties of asphalt and concrete when recycled material is added, replacing physical sample testing to optimise recycled content. [University of Innsbruck (Dept. of Materials Technology); funded by Austrian Research Promotion Agency (FFG)]",
+   "existence": "claimed",
+   "value": "PORR produces ~1.5 million tonnes of recycled material group-wide; project runs Oct 2025-Oct 2028",
+   "tier": "",
+   "url": "https://www.porr-group.com/en/press/press-releases/detail/when-ai-gets-involved-with-asphalt-and-concrete",
+   "raw_sector": "",
+   "date": "2026-02-17",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Porr",
+   "use": "AI applied in planning and project development phases of construction projects. [none named]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://industriemagazin.at/industrie/porr-karl-heinz-strauss-ki-roboter-baustelle-zukunft/",
+   "raw_sector": "",
+   "date": "2026-07-09",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Porr",
+   "use": "CRAHOI (Crane Hook Identification): sensor/telemetry-equipped crane hook reads RFID tags on prefab elements and uses machine learning to improve load identification, automating real-time material-handling documentation and BIM/logistics integration. [PORR with partner companies (Liebherr Smart cited in secondary/social coverage)]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://baublatt.at/crahoi-porr-testet-smarte-kransteuerung-mit-rfid-technik/",
+   "raw_sector": "",
+   "date": "2025-07-15",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Porr",
+   "use": "QuickSpeech intelligent microlearning platform for employee training (onboarding, product/safety training, apprenticeships, management development); machine learning identifies user needs and adapts learning content to individual patterns. [QuickSpeech GmbH (PORR took a strategic stake)]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.porr.at/presse/mitteilungen/detail/neue-lernprozesse-fuer-effektive-mitarbeiterschulungen",
+   "raw_sector": "",
+   "date": "2021-01-18",
+   "fresh": "stale"
+  },
+  {
+   "company": "Porr",
+   "use": "AI used in the tax department for over seven years to prepare/automate VAT returns (Umsatzsteuervoranmeldungen) across Europe. [none named]",
+   "existence": "confirmed",
+   "value": "in use for 7+ years",
+   "tier": "",
+   "url": "https://industriemagazin.at/industrie/porr-karl-heinz-strauss-ki-roboter-baustelle-zukunft/",
+   "raw_sector": "",
+   "date": "2026-07-09",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Porr",
+   "use": "Equipment/fleet telematics: data collected from the group's 60,000+ devices and machines is analysed and made usable for decision-making (maintenance, fleet management, safety access). [none named]",
+   "existence": "confirmed",
+   "value": "60,000+ devices, incl. 10,000+ large machines",
+   "tier": "",
+   "url": "https://industriemagazin.at/industrie/porr-karl-heinz-strauss-ki-roboter-baustelle-zukunft/",
+   "raw_sector": "",
+   "date": "2026-07-09",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Porr",
+   "use": "AI-based checking/verification of documents (Pruefung von Unterlagen), with programs that will capture and verify entire plans, protocols and building documentation. [none named]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://industriemagazin.at/industrie/porr-karl-heinz-strauss-ki-roboter-baustelle-zukunft/",
+   "raw_sector": "",
+   "date": "2026-07-09",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Porr",
+   "use": "AI applied in tendering/bid processes (Ausschreibungen) to support proposal and procurement work. [none named]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://industriemagazin.at/industrie/porr-karl-heinz-strauss-ki-roboter-baustelle-zukunft/",
+   "raw_sector": "",
+   "date": "2026-07-09",
    "fresh": "fresh"
   }
  ]

@@ -3,27 +3,27 @@
  "name": "Eneos Holdings",
  "cc": "JP",
  "vertical": "Energy & Utilities",
- "deployments": 1,
- "confirmed": 1,
- "with_value_number": 1,
- "proof_rate": 1.0,
+ "deployments": 8,
+ "confirmed": 4,
+ "with_value_number": 2,
+ "proof_rate": 0.25,
  "mktcap": 23666666667.0,
  "revenue": 78466666667.0,
  "employees": 34099.0,
  "silent": false,
- "per_bn_revenue": 0.01,
- "per_10k_emp": 0.29,
+ "per_bn_revenue": 0.1,
+ "per_10k_emp": 2.35,
  "benchmarks": {
   "global_vertical": {
-   "deployments": 0,
-   "confirmed": 20,
-   "proof_rate": 75,
-   "n": 210
+   "deployments": 75,
+   "confirmed": 58,
+   "proof_rate": 59,
+   "n": 213
   },
   "country_vertical": {
-   "deployments": 0,
+   "deployments": 50,
    "confirmed": 0,
-   "proof_rate": 67,
+   "proof_rate": 0,
    "n": 7
   }
  },
@@ -34,17 +34,20 @@
    "n": 1
   }
  ],
- "undated_pct": 0,
+ "undated_pct": 88,
  "momentum": "early_mover,gone_quiet",
  "maturity": "L3",
  "maturity_evidence": [
+  "multi_horizontal",
   "named_product:World",
   "value_number",
   "tier_p"
  ],
- "prospect_score": 14,
- "stack": [],
- "vendor_named": false,
+ "prospect_score": 54,
+ "stack": [
+  "OpenAI"
+ ],
+ "vendor_named": true,
  "deployments_detail": [
   {
    "company": "Eneos Holdings",
@@ -56,6 +59,83 @@
    "raw_sector": "Petroleum",
    "date": "2024-05",
    "fresh": "aging"
+  },
+  {
+   "company": "Eneos Holdings",
+   "use": "AI maintenance systems at refineries",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.hd.eneos.co.jp/english/news/eneosways/articles/be4ecb804bb8a808f5fbffb1c9b2b198a18f0172/",
+   "raw_sector": "",
+   "date": "Feb 12, 2026",
+   "fresh": "undated"
+  },
+  {
+   "company": "Eneos Holdings",
+   "use": "AI-equipped failure prevention systems at refineries",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://asia.nikkei.com/business/technology/artificial-intelligence/japan-s-eneos-to-adopt-ai-for-failure-prevention-at-refineries",
+   "raw_sector": "",
+   "date": "Aug 15, 2025",
+   "fresh": "undated"
+  },
+  {
+   "company": "Eneos Holdings",
+   "use": "Generative AI utilization across workplaces",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.eneos.co.jp/english/rd/research/digital/refinery_support.html",
+   "raw_sector": "",
+   "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "Eneos Holdings",
+   "use": "ChatGPT Enterprise for research, plant design, and HR analysis [OpenAI]",
+   "existence": "confirmed",
+   "value": "90",
+   "tier": "",
+   "url": "https://openai.com/index/eneos-materials/",
+   "raw_sector": "",
+   "date": "Sep 24, 2025",
+   "fresh": "undated"
+  },
+  {
+   "company": "Eneos Holdings",
+   "use": "AI-based autonomous operation of crude oil processing units [Preferred Networks]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.preferred.jp/en/news/pr20240524",
+   "raw_sector": "",
+   "date": "May 24, 2024",
+   "fresh": "undated"
+  },
+  {
+   "company": "Eneos Holdings",
+   "use": "Long-term autonomous plant operation [Yokogawa]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.yokogawa.com/us/library/resources/references/successstory-eneos-materials/",
+   "raw_sector": "",
+   "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "Eneos Holdings",
+   "use": "AI for sales and customer service",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.eneos.co.jp/english/company/dx/",
+   "raw_sector": "",
+   "date": "missing",
+   "fresh": "undated"
   }
  ]
 }

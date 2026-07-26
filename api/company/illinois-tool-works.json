@@ -3,41 +3,67 @@
  "name": "Illinois Tool Works",
  "cc": "US",
  "vertical": "Industrial / Machinery",
- "deployments": 1,
- "confirmed": 0,
- "with_value_number": 0,
- "proof_rate": 0.0,
+ "deployments": 9,
+ "confirmed": 6,
+ "with_value_number": 1,
+ "proof_rate": 0.111,
  "mktcap": 79110000000.0,
  "revenue": 16220000000.0,
  "employees": 43000.0,
  "silent": false,
- "per_bn_revenue": 0.06,
- "per_10k_emp": 0.23,
+ "per_bn_revenue": 0.55,
+ "per_10k_emp": 2.09,
  "benchmarks": {
   "global_vertical": {
-   "deployments": 0,
-   "confirmed": 0,
-   "proof_rate": 0,
-   "n": 175
+   "deployments": 73,
+   "confirmed": 72,
+   "proof_rate": 47,
+   "n": 176
   },
   "country_vertical": {
-   "deployments": 0,
-   "confirmed": 0,
-   "proof_rate": 0,
-   "n": 80
+   "deployments": 72,
+   "confirmed": 70,
+   "proof_rate": 55,
+   "n": 81
   }
  },
- "first_seen": null,
- "by_year": [],
- "undated_pct": 100,
- "momentum": "none",
- "maturity": "L1",
- "maturity_evidence": [
-  "rows_no_confirmed"
+ "first_seen": 2015,
+ "by_year": [
+  {
+   "year": 2015,
+   "n": 1
+  },
+  {
+   "year": 2016,
+   "n": 1
+  },
+  {
+   "year": 2023,
+   "n": 1
+  },
+  {
+   "year": 2024,
+   "n": 3
+  },
+  {
+   "year": 2025,
+   "n": 2
+  }
  ],
- "prospect_score": 40,
- "stack": [],
- "vendor_named": false,
+ "undated_pct": 11,
+ "momentum": "early_mover,cooling",
+ "maturity": "L4",
+ "maturity_evidence": [
+  "multi_horizontal",
+  "named_product:Miller",
+  "value_number",
+  "multi_year"
+ ],
+ "prospect_score": 72,
+ "stack": [
+  "Microsoft"
+ ],
+ "vendor_named": true,
  "deployments_detail": [
   {
    "company": "Illinois Tool Works",
@@ -49,6 +75,94 @@
    "raw_sector": "Industrials",
    "date": "missing",
    "fresh": "undated"
+  },
+  {
+   "company": "Illinois Tool Works",
+   "use": "Miller Copilot collaborative welding line: partnership with AI-welding specialist Novarc Technologies to bring next-generation AI-powered, real-time adaptive welding software (computer vision + adaptive control) to Miller's cobot welding systems, addressing skilled-labor shortages and part-to-part / fit-up variation. [Novarc Technologies (Miller Electric / ITW Welding)]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.thefabricator.com/thewelder/news/arcwelding/miller-electric-novarc-technologies-forge-partnership",
+   "raw_sector": "",
+   "date": "2025-02-25",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Illinois Tool Works",
+   "use": "Miller Insight Centerpoint: real-time weld-cell feedback system that monitors every parameter of every weld, alerts welders when a weld is missed or falls outside acceptable parameters, verifies proper weld sequences, and provides early defect containment/control on manufacturing lines. [Miller Electric (ITW Welding)]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.thefabricator.com/thewelder/product/testingmeasuring/millers-insight-centerpoint-application-measures-welding-data-from-deltaweld-power-sources",
+   "raw_sector": "",
+   "date": "2023-07-10",
+   "fresh": "stale"
+  },
+  {
+   "company": "Illinois Tool Works",
+   "use": "Miller Insight Core: cloud-based weld data management solution deployed to monitor and report welding productivity (arc-on time, machine/welder analysis) with the goal of improving productivity and quality across manufacturing operations. [Miller Electric (ITW Welding)]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.millerwelds.com/en-US/resources/knowledge-hub/industrial-welding/weld-data-productivity/weld-data-monitoring-in-manufacturing-guide",
+   "raw_sector": "",
+   "date": "2024-01-01",
+   "fresh": "aging"
+  },
+  {
+   "company": "Illinois Tool Works",
+   "use": "Miller Insight ArcAgent: weld data acquisition and analytics technology that gathers weld data from any power source (including mixed/non-Miller fleets) for productivity and quality improvement, over/under-weld elimination, missing/incomplete weld detection, and process monitoring/alarming. [Miller Electric / Impact Engineering (ITW Welding)]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.modernmetals.com/13011-miller-acquires-impact-engineering-additions-to-welding-intelligence-solutions.html",
+   "raw_sector": "",
+   "date": "2015-11-05",
+   "fresh": "stale"
+  },
+  {
+   "company": "Illinois Tool Works",
+   "use": "AI/ML in Instron materials-testing systems: per Instron product management, AI is being built into testing to identify trends/patterns to catch quality issues faster and reduce shipping bad product, plus voice commands and virtual assistants to simplify machine operation; safety coaching built into latest 3400/6800 Series universal testing systems. [Instron (ITW Test & Measurement)]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.qualitymag.com/articles/98480-smarter-testing-machines-require-new-training-approaches",
+   "raw_sector": "",
+   "date": "2024-12-31",
+   "fresh": "aging"
+  },
+  {
+   "company": "Illinois Tool Works",
+   "use": "Hobart NGW (Next Generation Wrapper) automatic meat/produce wrapping system: advanced machine-vision system with camera and sensor technology that automatically sizes and weighs each package and optimizes film efficiency via variable film usage. [Hobart (ITW Food Equipment Group)]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.hobartcorp.com/itw-food-equipment-group-brands-showcase-product-innovations-nafem-show-2025",
+   "raw_sector": "",
+   "date": "2025-01-22",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Illinois Tool Works",
+   "use": "Miller AugmentedArc augmented-reality welding training system: deployed multiprocess (MIG/TIG/Stick/Flux-Cored) AR simulation with realistic torch/helmet interfaces, real-time feedback on maintaining welding parameters, instructor LMS, and performance analytics to accelerate welder skill-building. [Miller Electric (ITW Welding)]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.millerwelds.com/en-US/equipment/education-solutions/training-solutions/augmentedarc-m30100/augmentedarc-augmented-reality-welding-system-951823",
+   "raw_sector": "",
+   "date": "2016-01-01",
+   "fresh": "stale"
+  },
+  {
+   "company": "Illinois Tool Works",
+   "use": "Corporate Strategic Sourcing uses JAGGAER's AI-powered sourcing optimization platform for complex multi-round bid analysis, multi-component cost breakdown, and consolidating buying power across ITW's business segments. [JAGGAER]",
+   "existence": "confirmed",
+   "value": "Over $500M annual spend managed; ~5% savings on direct materials and up to 45% on indirect (e.g. $220K saved on a $5M lubricant buy; $63K saved on $140K heating elements)",
+   "tier": "",
+   "url": "https://www.jaggaer.com/success-stories/manufacturer-itw-optimize-sourcing-savings",
+   "raw_sector": "",
+   "date": "2024-01-01",
+   "fresh": "aging"
   }
  ]
 }

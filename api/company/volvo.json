@@ -3,21 +3,21 @@
  "name": "Volvo",
  "cc": "SE",
  "vertical": "Automotive",
- "deployments": 2,
- "confirmed": 2,
- "with_value_number": 0,
- "proof_rate": 0.0,
+ "deployments": 6,
+ "confirmed": 3,
+ "with_value_number": 1,
+ "proof_rate": 0.167,
  "mktcap": 67402857143.0,
  "revenue": 44907619048.0,
  "employees": 89299.0,
  "silent": false,
- "per_bn_revenue": 0.04,
- "per_10k_emp": 0.22,
+ "per_bn_revenue": 0.13,
+ "per_10k_emp": 0.67,
  "benchmarks": {
   "global_vertical": {
-   "deployments": 62,
-   "confirmed": 72,
-   "proof_rate": 0,
+   "deployments": 21,
+   "confirmed": 10,
+   "proof_rate": 33,
    "n": 40
   }
  },
@@ -26,18 +26,28 @@
   {
    "year": 2024,
    "n": 2
+  },
+  {
+   "year": 2025,
+   "n": 1
   }
  ],
- "undated_pct": 0,
- "momentum": "early_mover,gone_quiet",
- "maturity": "L3",
+ "undated_pct": 50,
+ "momentum": "early_mover,cooling",
+ "maturity": "L4",
  "maturity_evidence": [
   "named_product:Zenseact",
+  "value_number",
+  "multi_year",
   "tier_p"
  ],
- "prospect_score": 60,
- "stack": [],
- "vendor_named": false,
+ "prospect_score": 51,
+ "stack": [
+  "Google",
+  "Microsoft",
+  "Microsoft Azure"
+ ],
+ "vendor_named": true,
  "deployments_detail": [
   {
    "company": "Volvo",
@@ -60,6 +70,50 @@
    "raw_sector": "Automotive",
    "date": "2024-11",
    "fresh": "aging"
+  },
+  {
+   "company": "Volvo",
+   "use": "AI-powered assistant deployed in vehicles [Google Gemini]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.wardsauto.com/news/archive-auto-volvo-cars-google-expand-gemini-android-automotive-partnership-aaos/749053/",
+   "raw_sector": "",
+   "date": "May 30, 2025",
+   "fresh": "undated"
+  },
+  {
+   "company": "Volvo",
+   "use": "AI-generated virtual worlds for safety software development",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.volvocars.com/mt/news/technology/we-are-using-ai-and-virtual-worlds-with-the-aim-of-creating-safer-cars/",
+   "raw_sector": "",
+   "date": "Mar 20, 2025",
+   "fresh": "undated"
+  },
+  {
+   "company": "Volvo",
+   "use": "Self-driving trucks deployment [Waabi]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.cnbc.com/amp/2025/02/04/volvo-to-deploy-waabi-gen-ai-to-get-self-driving-trucks-on-the-road.html",
+   "raw_sector": "",
+   "date": "Feb 4, 2025",
+   "fresh": "undated"
+  },
+  {
+   "company": "Volvo",
+   "use": "Document-processing solution on Azure AI services and Azure AI Document Intelligence [Microsoft] [Microsoft]",
+   "existence": "confirmed",
+   "value": "Saved 10,000+ manual hours",
+   "tier": "",
+   "url": "https://www.microsoft.com/en-us/microsoft-cloud/blog/2025/07/24/ai-powered-success-with-1000-stories-of-customer-transformation-and-innovation/",
+   "raw_sector": "",
+   "date": "2025-07-24",
+   "fresh": "fresh"
   }
  ]
 }

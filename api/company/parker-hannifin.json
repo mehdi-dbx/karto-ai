@@ -3,42 +3,71 @@
  "name": "Parker Hannifin",
  "cc": "US",
  "vertical": "Industrial / Machinery",
- "deployments": 1,
- "confirmed": 1,
- "with_value_number": 0,
- "proof_rate": 0.0,
+ "deployments": 10,
+ "confirmed": 5,
+ "with_value_number": 3,
+ "proof_rate": 0.3,
  "mktcap": 123480000000.0,
  "revenue": 20990000000.0,
  "employees": 57950.0,
  "silent": false,
- "per_bn_revenue": 0.05,
- "per_10k_emp": 0.17,
+ "per_bn_revenue": 0.48,
+ "per_10k_emp": 1.73,
  "benchmarks": {
   "global_vertical": {
-   "deployments": 0,
-   "confirmed": 14,
-   "proof_rate": 0,
-   "n": 175
+   "deployments": 77,
+   "confirmed": 63,
+   "proof_rate": 79,
+   "n": 176
   },
   "country_vertical": {
-   "deployments": 0,
-   "confirmed": 19,
-   "proof_rate": 0,
-   "n": 80
+   "deployments": 80,
+   "confirmed": 58,
+   "proof_rate": 86,
+   "n": 81
   }
  },
- "first_seen": null,
- "by_year": [],
- "undated_pct": 100,
- "momentum": "none",
- "maturity": "L3",
+ "first_seen": 2017,
+ "by_year": [
+  {
+   "year": 2017,
+   "n": 1
+  },
+  {
+   "year": 2021,
+   "n": 1
+  },
+  {
+   "year": 2022,
+   "n": 1
+  },
+  {
+   "year": 2024,
+   "n": 2
+  },
+  {
+   "year": 2025,
+   "n": 2
+  }
+ ],
+ "undated_pct": 30,
+ "momentum": "early_mover,flat",
+ "maturity": "L4",
  "maturity_evidence": [
+  "multi_horizontal",
   "named_product:Camgian",
+  "value_number",
+  "multi_year",
   "tier_p"
  ],
- "prospect_score": 54,
- "stack": [],
- "vendor_named": false,
+ "prospect_score": 58,
+ "stack": [
+  "Databricks",
+  "Google Cloud",
+  "Microsoft",
+  "Microsoft Azure"
+ ],
+ "vendor_named": true,
  "deployments_detail": [
   {
    "company": "Parker Hannifin",
@@ -50,6 +79,105 @@
    "raw_sector": "Industrials",
    "date": "missing",
    "fresh": "undated"
+  },
+  {
+   "company": "Parker Hannifin",
+   "use": "Parker Aerospace built a hydraulic-fluid leak-detection / predictive-maintenance algorithm on Azure Databricks that analyzes daily flight data from Republic Airways' 220+ aircraft fleet to flag abnormal hydraulic fluid drops before failures; results surface in a Power BI dashboard used by airline maintenance teams. [Microsoft Azure, Databricks (Azure Databricks), Power BI]",
+   "existence": "confirmed",
+   "value": "Nightly batch processing reduced from over 14 hours to under 2 hours",
+   "tier": "",
+   "url": "https://www.microsoft.com/en/customers/story/1783210028552036733-parker-azure-databricks-discrete-manufacturing-en-united-states",
+   "raw_sector": "",
+   "date": "2024-06-25",
+   "fresh": "aging"
+  },
+  {
+   "company": "Parker Hannifin",
+   "use": "Parker's Electronic Motion and Controls Division partnered with Camgian to embed AI/ML into Parker IoT Connected Services, applying cognitive computing to real telematics data for predictive maintenance, remote diagnostics, anomaly detection and failure prediction on off-road and industrial equipment (Mobile IoT and Industrial IoT). [Camgian]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://discover.parker.com/camgian",
+   "raw_sector": "",
+   "date": "2022-03-10",
+   "fresh": "stale"
+  },
+  {
+   "company": "Parker Hannifin",
+   "use": "Parker Hannifin and Camgian won an $8M U.S. Army contract to develop an AI-based Onboard Diagnostic Platform (HPPPMx) using real-time machine learning and edge AI to self-diagnose and forecast failures across engines, transmissions and brakes on Army ground vehicles. [Camgian]",
+   "existence": "claimed",
+   "value": "$8 million contract value",
+   "tier": "",
+   "url": "https://www.camgian.com/camgian-secures-8m-contract-to-develop-next-gen-onboard-diagnostic-platform-for-the-army/",
+   "raw_sector": "",
+   "date": "2024-07-10",
+   "fresh": "aging"
+  },
+  {
+   "company": "Parker Hannifin",
+   "use": "Parker launched the Voice of the Machine IoT platform (built on Exosite's Murano) as its standardized ecosystem of connected products for remote asset monitoring, condition monitoring and predictive maintenance, reducing unplanned downtime for customers. [Exosite (Murano platform)]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.exosite.com/blog/machine-voice-2017",
+   "raw_sector": "",
+   "date": "2017-04-24",
+   "fresh": "stale"
+  },
+  {
+   "company": "Parker Hannifin",
+   "use": "Parker Hannifin is applying generative AI to accelerate its own product-design and engineering-simulation processes, enabling rapid simulation of component performance under many operational scenarios before prototyping (part of stated corporate investment in AI, robotics and additive manufacturing). [none]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.klover.ai/parker-hannifin-ai-strategy-analysis-of-dominance-in-motion-control-intelligence/",
+   "raw_sector": "",
+   "date": "2025-07-28",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Parker Hannifin",
+   "use": "Parker's Morton production plant deployed Delvitech's D.ONE AI-based Automated Optical Inspection (AOI) system, which uses neural-network defect-detection models (no threshold parameter tuning) to inspect printed circuit boards in electronics manufacturing. [Delvitech (D.ONE AOI)]",
+   "existence": "confirmed",
+   "value": "Greater than 70% reduction in false calls; AOI PCB cycle time reduced by more than half",
+   "tier": "",
+   "url": "https://delvi.tech/parker-hannifin-corporation-in-the-usa-goes-for-delvitech-technology/",
+   "raw_sector": "",
+   "date": "2021-11",
+   "fresh": "stale"
+  },
+  {
+   "company": "Parker Hannifin",
+   "use": "Parker Hannifin is listed as a customer of Overview.ai's AI-powered machine-vision inspection platform for real-time defect detection in manufacturing quality control. [Overview.ai]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.overview.ai/resources/case-studies/",
+   "raw_sector": "",
+   "date": "none",
+   "fresh": "undated"
+  },
+  {
+   "company": "Parker Hannifin",
+   "use": "Parker Hannifin is named as a customer of Litmus's industrial data / edge-to-cloud platform used to deploy machine learning and AI models at the plant edge across manufacturing operations. [Litmus, Google Cloud]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://litmus.io/newsroom/litmus-accelerates-industrial-ai-with-a-unified-edge-to-cloud-stack-enabled",
+   "raw_sector": "",
+   "date": "none",
+   "fresh": "undated"
+  },
+  {
+   "company": "Parker Hannifin",
+   "use": "Parker Hannifin uses AI forecasting and predictive analytics to better predict customer and supplier demand, improving inventory and supply-chain responsiveness by incorporating external factors such as market trends and economic indicators. [none]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.rudolflai.com/ai-research/companies/parker-hannifin",
+   "raw_sector": "",
+   "date": "2025-07-03",
+   "fresh": "fresh"
   }
  ]
 }

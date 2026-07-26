@@ -3,26 +3,26 @@
  "name": "Tower Semiconductor",
  "cc": "IL",
  "vertical": "Manufacturing & Robotics",
- "deployments": 1,
- "confirmed": 1,
- "with_value_number": 1,
- "proof_rate": 1.0,
+ "deployments": 3,
+ "confirmed": 2,
+ "with_value_number": 2,
+ "proof_rate": 0.667,
  "mktcap": 29420000000.0,
  "revenue": 1620000000.0,
  "employees": 5613.0,
  "silent": false,
- "per_bn_revenue": 0.62,
- "per_10k_emp": 1.78,
+ "per_bn_revenue": 1.85,
+ "per_10k_emp": 5.34,
  "benchmarks": {
   "global_vertical": {
-   "deployments": 0,
-   "confirmed": 24,
-   "proof_rate": 85,
-   "n": 147
+   "deployments": 25,
+   "confirmed": 34,
+   "proof_rate": 92,
+   "n": 150
   },
   "country_vertical": {
-   "deployments": 0,
-   "confirmed": 20,
+   "deployments": 20,
+   "confirmed": 40,
    "proof_rate": 100,
    "n": 6
   }
@@ -32,19 +32,26 @@
   {
    "year": 2025,
    "n": 1
+  },
+  {
+   "year": 2026,
+   "n": 2
   }
  ],
  "undated_pct": 0,
  "momentum": "rising",
- "maturity": "L3",
+ "maturity": "L4",
  "maturity_evidence": [
   "named_product:Silicon",
   "value_number",
+  "multi_year",
   "tier_p"
  ],
- "prospect_score": 14,
- "stack": [],
- "vendor_named": false,
+ "prospect_score": 25,
+ "stack": [
+  "NVIDIA"
+ ],
+ "vendor_named": true,
  "deployments_detail": [
   {
    "company": "Tower Semiconductor",
@@ -55,6 +62,28 @@
    "url": "https://www.towersemi.com/2025/03/12/",
    "raw_sector": "Semiconductors",
    "date": "2025",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Tower Semiconductor",
+   "use": "Silicon Photonics platform for optical and network infrastructure with high-speed data transceivers for AI [NVIDIA]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://ir.towersemi.com/news-releases/news-release-details/tower-semiconductor-teams-nvidia-advance-ai-infrastructure-16t",
+   "raw_sector": "",
+   "date": "2026-02-05",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Tower Semiconductor",
+   "use": "Silicon photonics deals for AI data centers",
+   "existence": "confirmed",
+   "value": "$1.3B",
+   "tier": "",
+   "url": "https://qz.com/tower-semiconductor-silicon-photonics-deals-ai-data-centers-051326",
+   "raw_sector": "",
+   "date": "2026-05-13",
    "fresh": "fresh"
   }
  ]

@@ -3,47 +3,63 @@
  "name": "Shinhan Financial",
  "cc": "KR",
  "vertical": "Financial Services",
- "deployments": 1,
- "confirmed": 1,
- "with_value_number": 1,
- "proof_rate": 1.0,
+ "deployments": 14,
+ "confirmed": 13,
+ "with_value_number": 3,
+ "proof_rate": 0.214,
  "mktcap": 36496296296.0,
  "revenue": 11644444444.0,
  "employees": 165.0,
  "silent": false,
- "per_bn_revenue": 0.09,
- "per_10k_emp": 60.61,
+ "per_bn_revenue": 1.2,
+ "per_10k_emp": 848.48,
  "benchmarks": {
   "global_vertical": {
-   "deployments": 0,
-   "confirmed": 17,
-   "proof_rate": 76,
-   "n": 377
+   "deployments": 91,
+   "confirmed": 94,
+   "proof_rate": 44,
+   "n": 388
   },
   "country_vertical": {
-   "deployments": 0,
-   "confirmed": 0,
-   "proof_rate": 56,
-   "n": 17
+   "deployments": 100,
+   "confirmed": 100,
+   "proof_rate": 50,
+   "n": 19
   }
  },
- "first_seen": 2026,
+ "first_seen": 2023,
  "by_year": [
   {
-   "year": 2026,
+   "year": 2023,
    "n": 1
+  },
+  {
+   "year": 2024,
+   "n": 4
+  },
+  {
+   "year": 2025,
+   "n": 3
+  },
+  {
+   "year": 2026,
+   "n": 6
   }
  ],
  "undated_pct": 0,
- "momentum": "late_entrant,rising",
- "maturity": "L3",
+ "momentum": "early_mover,rising",
+ "maturity": "L4",
  "maturity_evidence": [
+  "multi_horizontal",
   "named_product:Agent",
   "value_number",
+  "multi_year",
   "tier_p"
  ],
- "prospect_score": 6,
- "stack": [],
+ "prospect_score": 91,
+ "stack": [
+  "OpenAI"
+ ],
  "vendor_named": true,
  "deployments_detail": [
   {
@@ -56,6 +72,149 @@
    "raw_sector": "Financials",
    "date": "2026",
    "fresh": "fresh"
+  },
+  {
+   "company": "Shinhan Financial",
+   "use": "Generative AI bank tellers ('AI Teller Kiosk') deployed at Digital Desks and Smart Kiosks in Shinhan Bank branches nationwide, handling routine teller tasks by voice (queue numbers, ID guidance, certificate printing, passbook copies, transaction history, account updates/closures). AI humans modeled on 5 real Shinhan employees using speech/video synthesis. [DeepBrain AI (AI Studios)]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.aistudios.com/customers/shinhan-bank",
+   "raw_sector": "",
+   "date": "2024-07",
+   "fresh": "aging"
+  },
+  {
+   "company": "Shinhan Financial",
+   "use": "Generative-AI 'Financial Knowledge Q&A Service' for Shinhan Bank employees, upgrading the internal chatbot with ChatGPT and Retrieval-Augmented Generation (RAG) drawing on 100,000+ financial data sources to answer complex financial inquiries. Described as a first in South Korea. [LG CNS (OpenAI ChatGPT + RAG)]",
+   "existence": "confirmed",
+   "value": "100,000+ financial data sources",
+   "tier": "",
+   "url": "https://www.telecompaper.com/news/lg-cns-deploys-chatgpt-based-customer-service-for-shinhan-bank--1536163",
+   "raw_sector": "",
+   "date": "2025-05",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Shinhan Financial",
+   "use": "Group Integrated AI Contact Center (AICC) platform where AI-powered voice bots and chatbots respond to customer inquiries across group affiliates, sharing workload between human counselors and AI. [Shinhan Financial Group]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.asiae.co.kr/en/article/2023111709113176903",
+   "raw_sector": "",
+   "date": "2023-11",
+   "fresh": "stale"
+  },
+  {
+   "company": "Shinhan Financial",
+   "use": "'Shinhan Super SOL' all-in-one finance app with embedded AI agents/assistant using natural language: users request ~50 financial services conversationally (e.g., 'How is Tesla stock performing?') across banking, card, securities, and insurance, preparing for 'agent-driven finance'. [Shinhan Financial Group]",
+   "existence": "confirmed",
+   "value": "~50 financial services via natural language",
+   "tier": "",
+   "url": "https://www.koreatimes.co.kr/amp/business/banking-finance/20260617/shinhan-launches-ai-powered-all-in-one-finance-app",
+   "raw_sector": "",
+   "date": "2026-06",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Shinhan Financial",
+   "use": "'AI Investment Mate' investment-advice chatbot built on Shinhan Bank's proprietary large language model, showcased at CES and launched to customers. [Shinhan Bank (proprietary LLM)]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.koreaherald.com/article/10011598",
+   "raw_sector": "",
+   "date": "2024-12",
+   "fresh": "aging"
+  },
+  {
+   "company": "Shinhan Financial",
+   "use": "Fully staffless 'AI Branch' in central Seoul operating with AI avatar tellers and no human staff or business-hour restrictions. [Shinhan Bank / DeepBrain AI]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.koreaherald.com/article/10011598",
+   "raw_sector": "",
+   "date": "2024-07",
+   "fresh": "aging"
+  },
+  {
+   "company": "Shinhan Financial",
+   "use": "'AI Credit Extension Guardian' in the Shinhan SOL Securities app: AI analyzes daily risk factors for margin-funded stock positions (period returns, volatility, sector, market cap), issues real-time alerts on rising stock risk or credit-grade changes, replacing prior semi-annual risk assessments. [Shinhan Securities (in-house)]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://en.sedaily.com/technology/2025/12/10/shinhan-securities-launches-ai-credit-extension-guardian",
+   "raw_sector": "",
+   "date": "2025-12",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Shinhan Financial",
+   "use": "Integrated 'One-Stop IPO Solution' AI agent for private-company clients (Shinhan Securities): analyzes corporate documents and recommends suitable relationship managers by expertise/experience; built by divisional employees on an in-house agent platform. [Shinhan Securities (in-house platform)]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://en.sedaily.com/finance/2026/07/19/shinhan-financial-rolls-out-ai-powered-one-stop-ipo-service",
+   "raw_sector": "",
+   "date": "2026-07",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Shinhan Financial",
+   "use": "Shinhan Card AI agent that automates the assessment/evaluation process for real-estate collateral (property-backed) loans. [Shinhan Card (in-house)]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://en.sedaily.com/finance/2026/07/19/shinhan-financial-rolls-out-ai-powered-one-stop-ipo-service",
+   "raw_sector": "",
+   "date": "2026-07",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Shinhan Financial",
+   "use": "AI 'red team' agent used at executive strategy events: analyzes executives' discussions in real time, generates counterarguments and alternative proposals, and provides feedback on assignments/presentations to improve objectivity of decision-making. [Shinhan Financial (in-house)]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.koreaherald.com/article/10798351",
+   "raw_sector": "",
+   "date": "2026-07",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Shinhan Financial",
+   "use": "'FAME' AI fraud-detection system deployed at Shinhan Card (first FAME customer): analyzes telecom + financial data (location, calls, texts, transactions) to detect and block voice phishing and smishing fraud patterns in real time. [SK Telecom (FAME)]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://oecd.ai/en/incidents/2025-10-28-9bc4",
+   "raw_sector": "",
+   "date": "2025-10",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Shinhan Financial",
+   "use": "Shinhan Life internal-controls monitoring AI agent that examines social media posts to identify potential violations of internal compliance policies. [Shinhan Life (in-house)]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://en.sedaily.com/finance/2026/07/19/shinhan-financial-rolls-out-ai-powered-one-stop-ipo-service",
+   "raw_sector": "",
+   "date": "2026-07",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Shinhan Financial",
+   "use": "'AI PB' (AI Private Bank) personal investment assistant in the Shinhan SOL Securities app: provides personalized asset management, investment information and portfolio guidance to retail investors. [Shinhan Securities (in-house)]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.chosun.com/english/market-money-en/2026/03/30/3HGOK4QTDBGQVNRIHXQAI27KZQ/",
+   "raw_sector": "",
+   "date": "2024-08",
+   "fresh": "aging"
   }
  ]
 }

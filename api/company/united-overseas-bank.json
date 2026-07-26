@@ -3,47 +3,71 @@
  "name": "United Overseas Bank",
  "cc": "SG",
  "vertical": "Financial Services",
- "deployments": 2,
- "confirmed": 1,
- "with_value_number": 0,
- "proof_rate": 0.0,
+ "deployments": 13,
+ "confirmed": 9,
+ "with_value_number": 6,
+ "proof_rate": 0.462,
  "mktcap": 53029850746.0,
  "revenue": 8783582090.0,
  "employees": 31222.0,
  "silent": false,
- "per_bn_revenue": 0.23,
- "per_10k_emp": 0.64,
+ "per_bn_revenue": 1.48,
+ "per_10k_emp": 4.16,
  "benchmarks": {
   "global_vertical": {
-   "deployments": 62,
-   "confirmed": 17,
-   "proof_rate": 0,
-   "n": 377
+   "deployments": 87,
+   "confirmed": 73,
+   "proof_rate": 76,
+   "n": 388
   },
   "country_vertical": {
-   "deployments": 25,
-   "confirmed": 0,
-   "proof_rate": 0,
+   "deployments": 50,
+   "confirmed": 50,
+   "proof_rate": 25,
    "n": 5
   }
  },
- "first_seen": 2025,
+ "first_seen": 2019,
  "by_year": [
   {
-   "year": 2025,
+   "year": 2019,
    "n": 1
+  },
+  {
+   "year": 2020,
+   "n": 1
+  },
+  {
+   "year": 2022,
+   "n": 1
+  },
+  {
+   "year": 2023,
+   "n": 1
+  },
+  {
+   "year": 2025,
+   "n": 3
+  },
+  {
+   "year": 2026,
+   "n": 5
   }
  ],
- "undated_pct": 50,
- "momentum": "rising",
- "maturity": "L3",
+ "undated_pct": 8,
+ "momentum": "early_mover,rising",
+ "maturity": "L4",
  "maturity_evidence": [
+  "multi_horizontal",
   "named_product:UOB",
+  "value_number",
+  "multi_year",
   "tier_p"
  ],
- "prospect_score": 46,
+ "prospect_score": 76,
  "stack": [
-  "Accenture"
+  "Accenture",
+  "Microsoft"
  ],
  "vendor_named": true,
  "deployments_detail": [
@@ -60,6 +84,61 @@
   },
   {
    "company": "United Overseas Bank",
+   "use": "Microsoft 365 Copilot generative AI productivity tool trialled across branches, customer service, and technology & operations to summarise documents/emails, build Excel visualisations, and generate Teams meeting summaries. UOB was the first Singapore bank to trial it. [Microsoft (M365 Copilot)]",
+   "existence": "claimed",
+   "value": "300 employees given progressive access for one year",
+   "tier": "",
+   "url": "https://news.microsoft.com/en-sg/2023/10/03/uob-pioneers-trial-of-microsoft-365-copilot-generative-ai-tool-across-multiple-business-functions-to-enhance-productivity-and-collaboration/",
+   "raw_sector": "",
+   "date": "2023-10",
+   "fresh": "stale"
+  },
+  {
+   "company": "United Overseas Bank",
+   "use": "Cloudera-UOB co-developed GenAI data-quality and metadata governance solution (DAITA IQ) that uses generative AI to automate and standardise business metadata, improving data discovery to support trustworthy AI. Showcased at Singapore FinTech Festival 2025. [Cloudera]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.cloudera.com/customers/united-overseas-bank.html",
+   "raw_sector": "",
+   "date": "2025-08",
+   "fresh": "fresh"
+  },
+  {
+   "company": "United Overseas Bank",
+   "use": "B-Score 2.0 credit risk model using XGBoost to predict non-performing loans and payment delays across the Singapore commercial banking portfolio, analysing over 3,100 data points with a 9-month prediction horizon. Won 'Outstanding Use of AI in Credit Decisioning' at the Global AI Innovation Awards 2025. [XGBoost (open-source ML)]",
+   "existence": "confirmed",
+   "value": "over 3,100 data points analysed",
+   "tier": "",
+   "url": "https://thedigitalbanker.com/ai-in-action-how-uob-is-turning-intelligence-into-impact/",
+   "raw_sector": "",
+   "date": "2026-03",
+   "fresh": "fresh"
+  },
+  {
+   "company": "United Overseas Bank",
+   "use": "AI-powered portfolio optimisation solution for corporate banking that turns historical data into actionable insights via optimisation algorithms, enabling more consistent capital allocation across the corporate loan book. Deployed in Singapore, now expanding regionally starting with Malaysia. [Cloudera (data/AI platform)]",
+   "existence": "confirmed",
+   "value": "corporate banking revenue in Singapore rose more than 5% YoY in 2024",
+   "tier": "",
+   "url": "https://www.theedgesingapore.com/digitaledge/artificial-intelligence/uobs-ai-driven-strategy-lifts-corporate-banking-revenue-5",
+   "raw_sector": "",
+   "date": "2026-02",
+   "fresh": "fresh"
+  },
+  {
+   "company": "United Overseas Bank",
+   "use": "MoU with Accenture to accelerate UOB's GenAI and agentic AI journey using Accenture's AI Refinery platform to transform customer experience across the bank (three-year collaboration). [Accenture (AI Refinery)]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://newsroom.accenture.com/news/2025/uob-and-accenture-collaborate-to-transform-customer-experience-using-advanced-technologies-including-genai",
+   "raw_sector": "",
+   "date": "2025-04",
+   "fresh": "fresh"
+  },
+  {
+   "company": "United Overseas Bank",
    "use": "AI and machine learning applied to financial-crime compliance and fraud prevention (per UOB group tech-ecosystem report)",
    "existence": "confirmed",
    "value": "none",
@@ -68,6 +147,72 @@
    "raw_sector": "Banks",
    "date": "missing",
    "fresh": "undated"
+  },
+  {
+   "company": "United Overseas Bank",
+   "use": "Machine-learning-powered anti-money laundering (AML) alert triaging via Tookitaki's AML Suite (AMLS) Smart Alert Management, prioritising transaction-monitoring and name-screening alerts into risk tiers in production to reduce false positives. [Tookitaki (AMLS)]",
+   "existence": "confirmed",
+   "value": "~5,700 average monthly suspicious transaction alerts screened",
+   "tier": "",
+   "url": "https://www.tookitaki.com/case-studies/traditional-banks",
+   "raw_sector": "",
+   "date": "2020-12",
+   "fresh": "stale"
+  },
+  {
+   "company": "United Overseas Bank",
+   "use": "Project Magnet: unsupervised machine learning models providing real-time detection of conduct and anti-financial-crime risks in private banking with 100% transaction coverage. Won 'Outstanding Use of AI in Risk Management - Private Banking'. [none]",
+   "existence": "confirmed",
+   "value": "100% transaction coverage",
+   "tier": "",
+   "url": "https://thedigitalbanker.com/ai-in-action-how-uob-is-turning-intelligence-into-impact/",
+   "raw_sector": "",
+   "date": "2026-03",
+   "fresh": "fresh"
+  },
+  {
+   "company": "United Overseas Bank",
+   "use": "Mystery Shopper compliance monitoring that uses voice-to-text and large language models to analyse sales calls for compliance risks. Won 'Outstanding Use of AI in Risk Management - Compliance'. [none (voice-to-text + LLM)]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://thedigitalbanker.com/ai-in-action-how-uob-is-turning-intelligence-into-impact/",
+   "raw_sector": "",
+   "date": "2026-03",
+   "fresh": "fresh"
+  },
+  {
+   "company": "United Overseas Bank",
+   "use": "Mighty Insights: AI-based personal financial management service in the UOB Mighty mobile app that delivers daily prompts, expense tracking, and predictive financial insights to help customers manage finances without contacting the branch. [Cloudera (big data/AI platform)]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.uobgroup.com/web-resources/uobgroup/pdf/newsroom/2019/UOB-Mighty-Insights.pdf",
+   "raw_sector": "",
+   "date": "2019-11",
+   "fresh": "stale"
+  },
+  {
+   "company": "United Overseas Bank",
+   "use": "Machine-learning-based branch wait-time prediction that estimates individual customer wait duration at registration using historical and real-time queue data. Won 'Outstanding Predictive Analytics Initiative - Branch'. [none]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://thedigitalbanker.com/ai-in-action-how-uob-is-turning-intelligence-into-impact/",
+   "raw_sector": "",
+   "date": "2026-03",
+   "fresh": "fresh"
+  },
+  {
+   "company": "United Overseas Bank",
+   "use": "Auto-Save feature in the TMRW mobile banking app using machine learning to analyse spending patterns and automatically transfer 'safe-to-save' excess funds into higher-yield savings, plus AI-driven personalised insights (via Personetics partnership). Launched first in Indonesia. [Personetics]",
+   "existence": "confirmed",
+   "value": "over 150 million personalised insights delivered across four markets; ~30% YoY mobile login growth",
+   "tier": "",
+   "url": "https://personetics.com/uob-and-personetics-launch-ai-driven-automated-savings-feature-tmrw-mobile-banking-app/",
+   "raw_sector": "",
+   "date": "2022-11",
+   "fresh": "stale"
   }
  ]
 }

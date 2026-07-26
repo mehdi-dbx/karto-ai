@@ -3,47 +3,64 @@
  "name": "China Shenhua Energy",
  "cc": "HK",
  "vertical": "Energy & Utilities",
- "deployments": 1,
- "confirmed": 1,
- "with_value_number": 1,
- "proof_rate": 1.0,
+ "deployments": 13,
+ "confirmed": 13,
+ "with_value_number": 7,
+ "proof_rate": 0.538,
  "mktcap": 142307692308.0,
  "revenue": 43094871795.0,
  "employees": 91392.0,
  "silent": false,
- "per_bn_revenue": 0.02,
- "per_10k_emp": 0.11,
+ "per_bn_revenue": 0.3,
+ "per_10k_emp": 1.42,
  "benchmarks": {
   "global_vertical": {
-   "deployments": 0,
-   "confirmed": 20,
-   "proof_rate": 75,
-   "n": 210
+   "deployments": 91,
+   "confirmed": 95,
+   "proof_rate": 90,
+   "n": 213
   },
   "country_vertical": {
-   "deployments": 0,
-   "confirmed": 0,
-   "proof_rate": 71,
+   "deployments": 71,
+   "confirmed": 86,
+   "proof_rate": 86,
    "n": 8
   }
  },
- "first_seen": 2025,
+ "first_seen": 2023,
  "by_year": [
   {
+   "year": 2023,
+   "n": 2
+  },
+  {
+   "year": 2024,
+   "n": 3
+  },
+  {
    "year": 2025,
-   "n": 1
+   "n": 5
+  },
+  {
+   "year": 2026,
+   "n": 3
   }
  ],
  "undated_pct": 0,
- "momentum": "rising",
- "maturity": "L3",
+ "momentum": "early_mover,rising",
+ "maturity": "L4",
  "maturity_evidence": [
+  "multi_horizontal",
   "named_product:Coal",
-  "value_number"
+  "value_number",
+  "multi_year"
  ],
- "prospect_score": 14,
- "stack": [],
- "vendor_named": false,
+ "prospect_score": 78,
+ "stack": [
+  "DeepSeek",
+  "NVIDIA"
+ ],
+ "vendor_named": true,
  "deployments_detail": [
   {
    "company": "China Shenhua Energy",
@@ -76,6 +93,138 @@
    "url": "https://www.sohu.com/a/954597538_121924584",
    "raw_sector": "Energy",
    "date": "2025",
+   "fresh": "fresh"
+  },
+  {
+   "company": "China Shenhua Energy",
+   "use": "Unmanned transportation system for ultra-large open-pit coal mines led by China Shenhua's Zhunneng (Zhungeer) Group (Heidaigou open-pit mine), an autonomous mining-truck fleet with intelligent dispatch; selected as one of the National Energy Administration's 2025 Top Ten Scientific & Technological Innovations in the energy industry. [China Shenhua Zhunneng Group]",
+   "existence": "confirmed",
+   "value": "cumulative stripping volume 3.9098 million cubic meters; total operating mileage exceeding 1.95 million kilometers",
+   "tier": "",
+   "url": "http://www.csec.com/zgshwwEn/qydt/202602/24f3c3e55a24412cbbdf4c3fb47972fe.shtml",
+   "raw_sector": "",
+   "date": "2026-02-13",
+   "fresh": "fresh"
+  },
+  {
+   "company": "China Shenhua Energy",
+   "use": "Autonomous/driverless 100-ton mining-truck fleet with 5G-powered intelligent transport dispatch at the Zhunda (Zhundong) open-pit coal mine in Xinjiang, the largest such fleet within Shenhua Group. [China Shenhua Group (5G autonomous haulage)]",
+   "existence": "confirmed",
+   "value": "135 vehicles in 2024; 2.85 million km driven; over 245,000 trips by Oct 2024",
+   "tier": "",
+   "url": "https://cnmra.com/china-achieves-milestone-with-400-autonomous-mining-trucks-across-multiple-sites/",
+   "raw_sector": "",
+   "date": "2024-12-17",
+   "fresh": "aging"
+  },
+  {
+   "company": "China Shenhua Energy",
+   "use": "Xiwan open-pit coal mine (Shaanxi Shenyan Coal, subsidiary of CHN Energy / China Shenhua) certified as a state-class intelligent demonstration mine: unmanned open-pit truck fleet, intelligent transport dispatch, and intelligent operation-and-maintenance system with centralized monitoring of slopes, power, heating, water supply and drainage. [Shaanxi Shenyan Coal (CHN Energy)]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.ceic.com/gjnyjtwwEn/IntelligenceInnovation/202304/23e05dbcffbb477a933b86833f71b90e.shtml",
+   "raw_sector": "",
+   "date": "2023-04-23",
+   "fresh": "stale"
+  },
+  {
+   "company": "China Shenhua Energy",
+   "use": "Qingyuan large language model for the power generation industry: a hundred-billion-parameter AI model supporting intelligent decision-making across the power generation chain (safety/environmental protection, power trading, production scheduling, equipment maintenance), including weather/wind-speed forecasting for spot-market trading. [CHN Energy (Qingyuan large model)]",
+   "existence": "confirmed",
+   "value": "hundred-billion parameter level; new-energy power output forecast accuracy improved by 2.8%",
+   "tier": "",
+   "url": "https://www.chinadaily.com.cn/a/202506/30/WS68621d07a31000e9a57394ed.html",
+   "raw_sector": "",
+   "date": "2025-06-30",
+   "fresh": "fresh"
+  },
+  {
+   "company": "China Shenhua Energy",
+   "use": "AI-powered intelligent operation-and-maintenance system at Guoshen Zhundong Power Plant: a voice/LLM 'AI Assistant' answering operators' equipment diagnostic questions (e.g., pulverizer current anomalies) by analyzing 30 days of operating data, integrating 30,000+ engineering drawings, manuals, procedures and maintenance records with the group's Qingyuan LLM. [CHN Energy (Qingyuan large model)]",
+   "existence": "confirmed",
+   "value": "over 30,000 engineering drawings/manuals/records integrated",
+   "tier": "",
+   "url": "https://www.ceic.com/gjnyjtwwEn/xwzx/202607/94383a155dae48aa9ed3119b4e8c4cfa.shtml",
+   "raw_sector": "",
+   "date": "2026-07-01",
+   "fresh": "fresh"
+  },
+  {
+   "company": "China Shenhua Energy",
+   "use": "Digital twin / AI 'automatic coal cutting' system at Sandaogou Coal Mine (Fugu Company): a high-precision one-to-one digital twin of the underground working face lets the shearer follow an optimal autonomous mining path with sub-5cm error. [CHN Energy / Fugu Company]",
+   "existence": "confirmed",
+   "value": "production efficiency +~20%; operators reduced by 30%; cutting error <5 cm",
+   "tier": "",
+   "url": "https://www.ceic.com/gjnyjtwwEn/xwzx/202607/94383a155dae48aa9ed3119b4e8c4cfa.shtml",
+   "raw_sector": "",
+   "date": "2026-07-01",
+   "fresh": "fresh"
+  },
+  {
+   "company": "China Shenhua Energy",
+   "use": "Huanghua Port (China Shenhua port segment) full-process automated coal handling — world's first bulk-cargo port to achieve intelligent control over the entire 'turning, stacking, reclaiming, loading' chain — plus a full-process collaborative intelligent dispatch system reducing process switching time. [CHN Energy Huanghua Port]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "http://www.csec.com/zgshwwEn/jtyw/202408/ac0ff94b3236479393f5f9a1ce9acf2b.shtml",
+   "raw_sector": "",
+   "date": "2024-08-15",
+   "fresh": "aging"
+  },
+  {
+   "company": "China Shenhua Energy",
+   "use": "Intelligent smart operation & maintenance system for heavy-haul trains on the Shuohuang (Shuozhou-Huanghua) Railway, China Shenhua's west-to-east coal transport corridor: real-time digital monitoring and smart operation of heavy-haul freight infrastructure. [CHN Energy (Shuohuang Railway)]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.ceic.com/gjnyjtwwEn/xwzx/202305/d951770419174fd794683175e73b345a.shtml",
+   "raw_sector": "",
+   "date": "2023-05-29",
+   "fresh": "stale"
+  },
+  {
+   "company": "China Shenhua Energy",
+   "use": "Intelligent diagnosis system for thermal power plant equipment (developed by China Shenhua/CHN Energy 'Digital Intelligence'), combining remote collaboration, standardized operational training, a localized knowledge base, and AR smart wearable devices for equipment diagnosis and monitoring; passed acceptance. [China Shenhua Digital Intelligence / CHN Energy]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "http://www.csec.com/zgshwwEn/kjcx/202411/44b5d7af5fd34d699628e82d81af3b61.shtml",
+   "raw_sector": "",
+   "date": "2024-11",
+   "fresh": "aging"
+  },
+  {
+   "company": "China Shenhua Energy",
+   "use": "CHN Energy's first industry-specific AI large model for industrial equipment diagnostics and maintenance, built on an intelligent knowledge base with an 'AI expert consultant' feature that lets maintenance personnel query fault diagnosis and repair guidance. [CHN Energy]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.ceic.com/gjnyjtwwEn/xwzx/202502/190f4fc9527548598c5e5e43df31a86c.shtml",
+   "raw_sector": "",
+   "date": "2025-02-12",
+   "fresh": "fresh"
+  },
+  {
+   "company": "China Shenhua Energy",
+   "use": "Archive/records management system integrated with the DeepSeek AI platform: using prompt-engineering to convert 584 archiving-scope and retention-period rules into a structured decision framework, enabling second-level automated appraisal/classification of tens of thousands of archive records. [DeepSeek]",
+   "existence": "confirmed",
+   "value": "584 archiving rules digitized; 'second-level' appraisal of tens of thousands of records",
+   "tier": "",
+   "url": "https://theoutdoorthinkingcompany.com/zgshww/gsxw/202503/9471ca483137471690e9e4a0774fd369.shtml",
+   "raw_sector": "",
+   "date": "2025-03-31",
+   "fresh": "fresh"
+  },
+  {
+   "company": "China Shenhua Energy",
+   "use": "Localization deployment of the DeepSeek-R1 series large language models on the CHN Energy Enterprise Cloud platform (the parent group cloud used by China Shenhua's IT Company), using an OpenWebUI + CUDA/GPU stack with a 'large-model reasoning + small-model vectorization' architecture, to provide enterprise-wide generative AI services. [DeepSeek (DeepSeek-R1); CHN Energy Enterprise Cloud]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "http://www.shenhuachina.com/zgshww/xwtt/newslist_10.shtml",
+   "raw_sector": "",
+   "date": "2025-02-19",
    "fresh": "fresh"
   }
  ]

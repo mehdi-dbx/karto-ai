@@ -3,26 +3,26 @@
  "name": "Melexis",
  "cc": "BE",
  "vertical": "Manufacturing & Robotics",
- "deployments": 1,
- "confirmed": 1,
+ "deployments": 4,
+ "confirmed": 2,
  "with_value_number": 0,
  "proof_rate": 0.0,
  "mktcap": 3153600000.0,
  "revenue": 910936800.0,
  "employees": 2000.0,
  "silent": false,
- "per_bn_revenue": 1.1,
- "per_10k_emp": 5.0,
+ "per_bn_revenue": 4.39,
+ "per_10k_emp": 20.0,
  "benchmarks": {
   "global_vertical": {
-   "deployments": 0,
-   "confirmed": 24,
+   "deployments": 42,
+   "confirmed": 34,
    "proof_rate": 0,
-   "n": 147
+   "n": 150
   },
   "country_vertical": {
-   "deployments": 0,
-   "confirmed": 25,
+   "deployments": 25,
+   "confirmed": 0,
    "proof_rate": 0,
    "n": 5
   }
@@ -32,16 +32,23 @@
   {
    "year": 2024,
    "n": 1
+  },
+  {
+   "year": 2025,
+   "n": 2
   }
  ],
- "undated_pct": 0,
- "momentum": "early_mover,gone_quiet",
+ "undated_pct": 25,
+ "momentum": "early_mover,rising",
  "maturity": "L3",
  "maturity_evidence": [
-  "named_product:Expanded"
+  "multi_horizontal",
+  "named_product:Expanded",
+  "multi_year"
  ],
- "prospect_score": 46,
+ "prospect_score": 52,
  "stack": [
+  "Google",
   "Google Cloud"
  ],
  "vendor_named": true,
@@ -56,6 +63,39 @@
    "raw_sector": "Semiconductors",
    "date": "2024",
    "fresh": "aging"
+  },
+  {
+   "company": "Melexis",
+   "use": "Named as a Google Gemini / Vertex AI customer/case study [Google Gemini / Vertex AI] [Google Gemini / Vertex AI]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://cloud.google.com/blog/products/ai-machine-learning/introducing-gemini-enterprise",
+   "raw_sector": "",
+   "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "Melexis",
+   "use": "Enterprise-wide AI transformation across operations, productivity enhancement, manufacturing process streamlining, and product development innovation [Google Cloud]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.googlecloudpresscorner.com/2025-10-09-Melexis-and-Google-Cloud-Announce-Expanded-Strategic-Partnership-to-Accelerate-Enterprise-Wide-AI-Transformation",
+   "raw_sector": "",
+   "date": "2025-10-09",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Melexis",
+   "use": "Google Workspace AI capabilities adoption including Melexis Google Workspace Cafe for internal collaboration [Google Workspace]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.googlecloudpresscorner.com/2025-10-09-Melexis-and-Google-Cloud-Announce-Expanded-Strategic-Partnership-to-Accelerate-Enterprise-Wide-AI-Transformation",
+   "raw_sector": "",
+   "date": "2025-10-09",
+   "fresh": "fresh"
   }
  ]
 }

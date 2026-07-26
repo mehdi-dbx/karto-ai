@@ -3,41 +3,56 @@
  "name": "Multiplan",
  "cc": "BR",
  "vertical": "Real Estate & Construction",
- "deployments": 2,
- "confirmed": 2,
- "with_value_number": 0,
- "proof_rate": 0.0,
+ "deployments": 10,
+ "confirmed": 9,
+ "with_value_number": 4,
+ "proof_rate": 0.4,
  "mktcap": 2631481481.0,
  "revenue": 562962963.0,
  "employees": 80513.0,
  "silent": false,
- "per_bn_revenue": 3.55,
- "per_10k_emp": 0.25,
+ "per_bn_revenue": 17.76,
+ "per_10k_emp": 1.24,
  "benchmarks": {
   "global_vertical": {
-   "deployments": 82,
-   "confirmed": 88,
-   "proof_rate": 0,
+   "deployments": 86,
+   "confirmed": 93,
+   "proof_rate": 76,
    "n": 154
   },
   "country_vertical": {
    "deployments": 100,
    "confirmed": 100,
-   "proof_rate": 0,
+   "proof_rate": 60,
    "n": 6
   }
  },
- "first_seen": null,
- "by_year": [],
- "undated_pct": 100,
- "momentum": "none",
- "maturity": "L3",
+ "first_seen": 2021,
+ "by_year": [
+  {
+   "year": 2021,
+   "n": 3
+  },
+  {
+   "year": 2024,
+   "n": 2
+  },
+  {
+   "year": 2025,
+   "n": 3
+  }
+ ],
+ "undated_pct": 20,
+ "momentum": "early_mover,rising",
+ "maturity": "L4",
  "maturity_evidence": [
   "multi_horizontal",
   "named_product:Generative",
+  "value_number",
+  "multi_year",
   "tier_p"
  ],
- "prospect_score": 52,
+ "prospect_score": 78,
  "stack": [
   "Amazon AWS"
  ],
@@ -56,6 +71,17 @@
   },
   {
    "company": "Multiplan",
+   "use": "OmniMIND algorithm that fuses physical + digital data from ~380 collection points (turnstiles, Wi-Fi, MultiVoce loyalty, Multi superapp, receipts) to build consumer clusters, personalize promotions and optimize store mix (phygital omnichannel engine). [In-house (Multiplan)]",
+   "existence": "confirmed",
+   "value": "Aggregates ~380 data collection points; Multi superapp had 1M downloads and R$1 billion in transactions at the time; Outback campaign generated 14,000+ vouchers in under two months",
+   "tier": "",
+   "url": "https://neofeed.com.br/transformacao-digital/na-multiplan-um-novo-algoritmo-turbina-a-conexao-entre-o-fisico-e-o-digital/",
+   "raw_sector": "",
+   "date": "2021-07-29",
+   "fresh": "stale"
+  },
+  {
+   "company": "Multiplan",
    "use": "Generative AI chatbot deployed in production in the MULTI app (AWS case)",
    "existence": "confirmed",
    "value": "none",
@@ -64,6 +90,83 @@
    "raw_sector": "Real estate/shopping malls",
    "date": "missing",
    "fresh": "undated"
+  },
+  {
+   "company": "Multiplan",
+   "use": "ZECA, an AI virtual assistant/chatbot that answers shopper questions (store locations, hours, cinema showtimes) across all Multiplan mall websites 24/7 and on WhatsApp at select malls; built in-house by Multiplan's MIND team. [In-house (Multiplan MIND team); design by Dulado]",
+   "existence": "confirmed",
+   "value": "380,000+ messages exchanged and 150,000+ interactions (Jan-Aug 2021)",
+   "tier": "",
+   "url": "https://www2.multiplan.com.br/pt-br/a-empresa/noticias/zeca-o-robo-metido-humano-criado-para-atender-os-clientes-multiplan",
+   "raw_sector": "",
+   "date": "2021-09-23",
+   "fresh": "stale"
+  },
+  {
+   "company": "Multiplan",
+   "use": "WhatsApp customer-service chatbot using AI to automate shopper relationship (parking, hours, job vacancies, pet rules), rolled out to 11 of 18 malls; first launched at Shopping Analia Franco. Programmed and trained internally. [In-house (Multiplan MIND team)]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www2.multiplan.com.br/en/the-company/news/multiplan-invests-24-hour-chatbot-service",
+   "raw_sector": "",
+   "date": "2021-02-17",
+   "fresh": "stale"
+  },
+  {
+   "company": "Multiplan",
+   "use": "'Conheca seus Clientes' data-intelligence tool in the retailer channel (Canal Lojista) that turns aggregated Multi app, MultiVoce loyalty and store sales data into anonymized demographic and behavioral insights (age, gender, share of wallet, share of visits) for tenants, LGPD-compliant. [In-house (Multiplan IT + Mind innovation team)]",
+   "existence": "confirmed",
+   "value": "Multi app 8.5M+ downloads; MultiVoce +73% growth in Q1 2025",
+   "tier": "",
+   "url": "https://www.multiplan.com.br/dicas-e-novidades/post/canal-do-lojista-nova-funcionalidade-permite-que-c/",
+   "raw_sector": "",
+   "date": "2025-06-01",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Multiplan",
+   "use": "Multi superapp personalization engine that adapts offers, communications and journeys to each customer using loyalty and behavioral data ('antecipar preferencias'), integrating all digital solutions under the unified Multi brand. [In-house (Multiplan)]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.multiplan.com.br/dicas-e-novidades/post/multiplan-unifica-marca-multi-e-reforca-experienci/",
+   "raw_sector": "",
+   "date": "2025-07-08",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Multiplan",
+   "use": "Data-clusterization and personalized promotional campaigns for mall tenants: Multiplan builds consumer clusters and runs cost-effective personalized campaigns/recommendations to optimize retailer sales (data intelligence for tenant relationship). [In-house (Multiplan)]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.linkedin.com/pulse/como-intelig%C3%AAncia-de-dados-est%C3%A1-transformando-o-relacionamento-b8tkf",
+   "raw_sector": "",
+   "date": "2025-06-23",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Multiplan",
+   "use": "Free-flow (sem cancela) parking access using automatic camera-based license-plate recognition tied to the Multi app, letting registered vehicles enter/exit and pay automatically without a ticket; launched at MorumbiShopping and JundiaiShopping with expansion to other malls. [In-house Multi app integration; unnamed LPR camera provider]",
+   "existence": "confirmed",
+   "value": "~22,000 registrations in predecessor Automatic Payment service; ~R$50M invested in technology in 2023",
+   "tier": "",
+   "url": "https://www.multiplan.com.br/dicas-e-novidades/post/acesso-sem-cancela/",
+   "raw_sector": "",
+   "date": "2024-03-15",
+   "fresh": "aging"
+  },
+  {
+   "company": "Multiplan",
+   "use": "AI applied to internal back-office document classification to reduce errors and increase productivity, part of Multiplan's process-optimization use of artificial intelligence. [not disclosed]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://revistashoppingcenters.com.br/inovacao/iniciativas-transformadoras/",
+   "raw_sector": "",
+   "date": "2024-12-09",
+   "fresh": "aging"
   }
  ]
 }

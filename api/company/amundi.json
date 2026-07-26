@@ -3,27 +3,27 @@
  "name": "Amundi",
  "cc": "FR",
  "vertical": "Financial Services",
- "deployments": 1,
- "confirmed": 1,
- "with_value_number": 0,
- "proof_rate": 0.0,
+ "deployments": 5,
+ "confirmed": 2,
+ "with_value_number": 1,
+ "proof_rate": 0.2,
  "mktcap": 19288800000.0,
  "revenue": 7430400000.0,
  "employees": 5400.0,
  "silent": false,
- "per_bn_revenue": 0.13,
- "per_10k_emp": 1.85,
+ "per_bn_revenue": 0.67,
+ "per_10k_emp": 9.26,
  "benchmarks": {
   "global_vertical": {
-   "deployments": 0,
+   "deployments": 31,
    "confirmed": 17,
-   "proof_rate": 0,
-   "n": 377
+   "proof_rate": 39,
+   "n": 388
   },
   "country_vertical": {
    "deployments": 0,
-   "confirmed": 14,
-   "proof_rate": 0,
+   "confirmed": 0,
+   "proof_rate": 14,
    "n": 8
   }
  },
@@ -34,15 +34,16 @@
    "n": 1
   }
  ],
- "undated_pct": 0,
+ "undated_pct": 80,
  "momentum": "rising",
  "maturity": "L3",
  "maturity_evidence": [
+  "multi_horizontal",
   "named_product:Generative"
  ],
- "prospect_score": 54,
+ "prospect_score": 44,
  "stack": [],
- "vendor_named": false,
+ "vendor_named": true,
  "deployments_detail": [
   {
    "company": "Amundi",
@@ -54,6 +55,50 @@
    "raw_sector": "Asset Management",
    "date": "2025",
    "fresh": "fresh"
+  },
+  {
+   "company": "Amundi",
+   "use": "AI-powered investment research platform with data analysis, scenario modeling, and research field expansion",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://research-center.amundi.com/article/ai-investment-research",
+   "raw_sector": "",
+   "date": "Oct 3, 2025",
+   "fresh": "undated"
+  },
+  {
+   "company": "Amundi",
+   "use": "AI for document verification and customer support augmentation",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://funds-europe.com/ai-driven-human-centric-design/",
+   "raw_sector": "",
+   "date": "May 12, 2025",
+   "fresh": "undated"
+  },
+  {
+   "company": "Amundi",
+   "use": "Proprietary AI platform for process optimization and client value creation, rolling out 50 applications at scale",
+   "existence": "claimed",
+   "value": "50",
+   "tier": "",
+   "url": "https://about.amundi.com/new-2025-2028-strategic-plan-drive-continued-value-creation-and-invest-long-term-leadership",
+   "raw_sector": "",
+   "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "Amundi",
+   "use": "Generative AI Compliance Assistance tool",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.amunditechnology.com/article/amundi-technology-awarded-most-promising-project-using-gen-ai-during-am-tech-day",
+   "raw_sector": "",
+   "date": "Oct 8, 2024",
+   "fresh": "undated"
   }
  ]
 }

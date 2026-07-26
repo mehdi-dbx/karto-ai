@@ -3,27 +3,27 @@
  "name": "VietinBank",
  "cc": "VN",
  "vertical": "Financial Services",
- "deployments": 2,
- "confirmed": 2,
- "with_value_number": 1,
- "proof_rate": 0.5,
+ "deployments": 13,
+ "confirmed": 11,
+ "with_value_number": 8,
+ "proof_rate": 0.615,
  "mktcap": 9025200000.0,
  "revenue": 2800000000.0,
  "employees": 24513.0,
  "silent": false,
- "per_bn_revenue": 0.71,
- "per_10k_emp": 0.82,
+ "per_bn_revenue": 4.64,
+ "per_10k_emp": 5.3,
  "benchmarks": {
   "global_vertical": {
-   "deployments": 62,
-   "confirmed": 73,
-   "proof_rate": 61,
-   "n": 377
+   "deployments": 87,
+   "confirmed": 84,
+   "proof_rate": 89,
+   "n": 388
   },
   "country_vertical": {
-   "deployments": 55,
-   "confirmed": 82,
-   "proof_rate": 82,
+   "deployments": 100,
+   "confirmed": 100,
+   "proof_rate": 100,
    "n": 12
   }
  },
@@ -31,22 +31,32 @@
  "by_year": [
   {
    "year": 2024,
-   "n": 2
+   "n": 3
+  },
+  {
+   "year": 2025,
+   "n": 6
+  },
+  {
+   "year": 2026,
+   "n": 4
   }
  ],
  "undated_pct": 0,
- "momentum": "early_mover,gone_quiet",
- "maturity": "L3",
+ "momentum": "early_mover,rising",
+ "maturity": "L4",
  "maturity_evidence": [
   "multi_horizontal",
   "named_product:Genie",
   "value_number",
+  "multi_year",
   "tier_p"
  ],
- "prospect_score": 32,
+ "prospect_score": 75,
  "stack": [
   "Microsoft",
   "Microsoft Azure",
+  "OpenAI",
   "Palantir"
  ],
  "vendor_named": true,
@@ -64,6 +74,50 @@
   },
   {
    "company": "VietinBank",
+   "use": "AI VoiceBot: natural-voice virtual agent running 24/7 in Vietnamese, English and Japanese for product lookups and common contact-center requests [NamiTech]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://vietinbank.vn/vi/nang-tam-trai-nghiem-khach-hang-voi-ai-voicebot-20260205023104-00-html",
+   "raw_sector": "",
+   "date": "2026-02-05",
+   "fresh": "fresh"
+  },
+  {
+   "company": "VietinBank",
+   "use": "AI Chatbot: RAG-based conversational assistant handling routine customer inquiries across digital channels [NamiTech (NamiGen generative layer)]",
+   "existence": "confirmed",
+   "value": "12,000-20,000 AI conversations processed per day (contact-center total)",
+   "tier": "",
+   "url": "https://www.namitech.io/customers/vietinbank",
+   "raw_sector": "",
+   "date": "2026-04-23",
+   "fresh": "fresh"
+  },
+  {
+   "company": "VietinBank",
+   "use": "NamiSense conversation analytics: speaker-separated transcription, sentiment analysis and 100% automated quality assurance / agent-assist across contact-center calls [NamiTech]",
+   "existence": "confirmed",
+   "value": "100% QA coverage (every call analyzed by AI Virtual QC)",
+   "tier": "",
+   "url": "https://www.namitech.io/customers/vietinbank",
+   "raw_sector": "",
+   "date": "2026-04-23",
+   "fresh": "fresh"
+  },
+  {
+   "company": "VietinBank",
+   "use": "FPT AI virtual agent for the call center handling customer care and transaction processing [FPT.AI]",
+   "existence": "confirmed",
+   "value": "~50% cut in customer-care costs; ~30% reduction in transaction processing time (per VietinBank quote)",
+   "tier": "",
+   "url": "https://fpt.com/en/news/fpt-news/banks-cuts-customer-care-costs-by-50-thanks-to-ai",
+   "raw_sector": "",
+   "date": "2024-01-01",
+   "fresh": "aging"
+  },
+  {
+   "company": "VietinBank",
    "use": "Genie internal virtual assistant built on Microsoft Azure AI Foundry, trained on 2000+ internal documents to boost staff productivity",
    "existence": "confirmed",
    "value": "trained on 2000+ internal documents",
@@ -72,6 +126,83 @@
    "raw_sector": "Banks",
    "date": "2024",
    "fresh": "aging"
+  },
+  {
+   "company": "VietinBank",
+   "use": "Genie internal generative-AI assistant for staff: answers operational questions from 2,000+ internal procedures/policies, drafts reports, and surfaces 500+ financial metrics and branch performance for leaders [Microsoft Azure AI Foundry / Azure OpenAI; NashTech (BonBon platform); Noventiq (infrastructure)]",
+   "existence": "confirmed",
+   "value": "350,000+ inquiries processed in first 2 months; up to 95% reduction in waiting time; hundreds of thousands of work-hours saved monthly",
+   "tier": "",
+   "url": "https://news.microsoft.com/source/asia/features/unlocking-new-horizons-how-ai-is-transforming-operation-at-vietinbank/",
+   "raw_sector": "",
+   "date": "2025-09-19",
+   "fresh": "fresh"
+  },
+  {
+   "company": "VietinBank",
+   "use": "Genie AI chatbot for staff knowledge/Q&A, document analysis, and expanding to relationship-manager sales support (award-winning digital transformation case study) [NashTech (BonBon AI platform)]",
+   "existence": "confirmed",
+   "value": "95% reduction in Q&A time; 350,000+ queries in two months; trained on 2,000+ internal documents",
+   "tier": "",
+   "url": "https://www.nashtechglobal.com/insights/case-studies/vietinbankdigital-transformation-with-genie-ai-chatbot",
+   "raw_sector": "",
+   "date": "2025-10-01",
+   "fresh": "fresh"
+  },
+  {
+   "company": "VietinBank",
+   "use": "akaBot intelligent process automation: AI-integrated virtual robots automating repetitive back-office banking workflows [FPT (akaBot)]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.financedirectoreurope.com/news/vietinbank-launches-automation-project-with-fpt-to-drive-digital-transformation/",
+   "raw_sector": "",
+   "date": "2025-01-06",
+   "fresh": "fresh"
+  },
+  {
+   "company": "VietinBank",
+   "use": "SGI-HCM AI data-center campus (200MW IT load, capacity for up to 100,000 GPUs) to support AI workloads; VietinBank is a co-developing partner [KBC (Kinh Bac City), AIC]",
+   "existence": "claimed",
+   "value": "~US$2 billion investment; 200MW; up to 100,000 GPUs",
+   "tier": "",
+   "url": "https://w.media/kbc-aic-vietin-bank-ink-mou-to-develop-us2-billion-200mw-ai-data-center/",
+   "raw_sector": "",
+   "date": "2025-11-10",
+   "fresh": "fresh"
+  },
+  {
+   "company": "VietinBank",
+   "use": "VoiceDNA voice-biometric authentication: enrolls voiceprints in under 10 seconds and detects AI-generated / playback voice spoofing in real time to reduce fraud [NamiTech]",
+   "existence": "confirmed",
+   "value": ">99% authentication accuracy",
+   "tier": "",
+   "url": "https://www.namitech.io/customers/vietinbank",
+   "raw_sector": "",
+   "date": "2026-04-23",
+   "fresh": "fresh"
+  },
+  {
+   "company": "VietinBank",
+   "use": "Facepay Plus: facial-recognition biometric authentication combined with chip-based ID scan on VietinBank iPay Mobile to secure digital accounts and prevent fraud [none]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "http://www.vietinbank.vn/en/ca-nhan/tin-tuc-khcn/ra-mat-facepay-plus-tren-vietinbank-ipay-mobile-tang-cuong-bao-mat-an-tam-tuyet-doi-cho-tai-khoan-so-20250912093323-00-html",
+   "raw_sector": "",
+   "date": "2025-09-10",
+   "fresh": "fresh"
+  },
+  {
+   "company": "VietinBank",
+   "use": "State Bank of Vietnam AI-based fraud-prevention information-sharing system pilot, deployed at five banks including VietinBank to detect and block scam accounts/transactions [State Bank of Vietnam (pilot)]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://vietnamnet.vn/en/vietnamese-banks-embrace-ai-shut-branches-and-block-scams-2446326.html",
+   "raw_sector": "",
+   "date": "2025-09-26",
+   "fresh": "fresh"
   }
  ]
 }

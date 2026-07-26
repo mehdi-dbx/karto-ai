@@ -3,27 +3,27 @@
  "name": "Itaú Unibanco",
  "cc": "BR",
  "vertical": "Financial Services",
- "deployments": 1,
- "confirmed": 1,
- "with_value_number": 1,
- "proof_rate": 1.0,
+ "deployments": 9,
+ "confirmed": 8,
+ "with_value_number": 2,
+ "proof_rate": 0.222,
  "mktcap": 90262962963.0,
  "revenue": 25590740741.0,
  "employees": 93554.0,
  "silent": false,
- "per_bn_revenue": 0.04,
- "per_10k_emp": 0.11,
+ "per_bn_revenue": 0.35,
+ "per_10k_emp": 0.96,
  "benchmarks": {
   "global_vertical": {
-   "deployments": 0,
-   "confirmed": 17,
-   "proof_rate": 76,
-   "n": 377
+   "deployments": 58,
+   "confirmed": 67,
+   "proof_rate": 44,
+   "n": 388
   },
   "country_vertical": {
-   "deployments": 0,
-   "confirmed": 17,
-   "proof_rate": 67,
+   "deployments": 33,
+   "confirmed": 33,
+   "proof_rate": 50,
    "n": 7
   }
  },
@@ -33,13 +33,16 @@
  "momentum": "none",
  "maturity": "L3",
  "maturity_evidence": [
+  "multi_horizontal",
   "named_product:Inteligência Itaú",
   "value_number",
   "tier_p"
  ],
- "prospect_score": 14,
- "stack": [],
- "vendor_named": false,
+ "prospect_score": 79,
+ "stack": [
+  "Amazon AWS"
+ ],
+ "vendor_named": true,
  "deployments_detail": [
   {
    "company": "Itaú Unibanco",
@@ -49,6 +52,94 @@
    "tier": "P",
    "url": "https://tiinside.com.br / https://itau.com.br",
    "raw_sector": "Banking",
+   "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "Itaú Unibanco",
+   "use": "Client-facing AI platform for service scaling with trust, security, and compliance",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.gartner.com/en/documents/6996866",
+   "raw_sector": "",
+   "date": "Sep 26, 2025",
+   "fresh": "undated"
+  },
+  {
+   "company": "Itaú Unibanco",
+   "use": "Inteligência Itaú: generative AI for WhatsApp Pix interactions",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.itau.com.br/relacoes-com-investidores/noticias/inteligencia-itau-banco-lanca-nova-experiencia-para-clientes-com-ia-generativa/?lang=en",
+   "raw_sector": "",
+   "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "Itaú Unibanco",
+   "use": "AI-optimized customer experience and contact center orchestration [NICE CXone]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.nice.com/resources/itau-is-banking-on-nice-cxone-to-orchestrate-end-to-end-customer-journeys",
+   "raw_sector": "",
+   "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "Itaú Unibanco",
+   "use": "Generative AI-powered natural language search and voice commands for bank statement system modernization",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.youtube.com/watch?v=ZxE9nh0wkGI",
+   "raw_sector": "",
+   "date": "1 month ago",
+   "fresh": "undated"
+  },
+  {
+   "company": "Itaú Unibanco",
+   "use": "ML model deployment and speed to market using Amazon SageMaker Studio [Amazon SageMaker]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://aws.amazon.com/solutions/case-studies/itau-ml-case-study/",
+   "raw_sector": "",
+   "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "Itaú Unibanco",
+   "use": "Generative AI for hyper-personalized customer journeys and efficiency",
+   "existence": "confirmed",
+   "value": "141% increase in generative AI volume",
+   "tier": "",
+   "url": "https://www.itau.com.br/download-file/v2/d/42787847-4cf6-4461-94a5-40ed237dca33/d67a287a-7595-b305-4379-6a708af4f179?origin=2",
+   "raw_sector": "",
+   "date": "Oct 31, 2025",
+   "fresh": "undated"
+  },
+  {
+   "company": "Itaú Unibanco",
+   "use": "AI-driven credit analytics [AWS]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.ainvest.com/news/ita-unibanco-strategic-digital-operational-transformation-catalyst-sustained-roe-growth-2509/",
+   "raw_sector": "",
+   "date": "Sep 2, 2025",
+   "fresh": "undated"
+  },
+  {
+   "company": "Itaú Unibanco",
+   "use": "Generative AI for fraud detection",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://cap.csail.mit.edu/sites/default/files/2025-10/case-study-itau-edited.pdf",
+   "raw_sector": "",
    "date": "missing",
    "fresh": "undated"
   }

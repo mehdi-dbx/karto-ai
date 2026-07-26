@@ -3,42 +3,98 @@
  "name": "Darden Restaurants",
  "cc": "US",
  "vertical": "Retail & E-commerce",
- "deployments": 1,
- "confirmed": 0,
- "with_value_number": 0,
- "proof_rate": 0.0,
+ "deployments": 9,
+ "confirmed": 7,
+ "with_value_number": 2,
+ "proof_rate": 0.222,
  "mktcap": 22170000000.0,
  "revenue": 13210000000.0,
  "employees": 197124.0,
  "silent": false,
- "per_bn_revenue": 0.08,
- "per_10k_emp": 0.05,
+ "per_bn_revenue": 0.68,
+ "per_10k_emp": 0.46,
  "benchmarks": {
   "global_vertical": {
-   "deployments": 0,
-   "confirmed": 0,
-   "proof_rate": 0,
-   "n": 295
+   "deployments": 64,
+   "confirmed": 69,
+   "proof_rate": 49,
+   "n": 301
   },
   "country_vertical": {
-   "deployments": 0,
-   "confirmed": 0,
-   "proof_rate": 0,
+   "deployments": 49,
+   "confirmed": 59,
+   "proof_rate": 48,
    "n": 80
   }
  },
- "first_seen": null,
- "by_year": [],
- "undated_pct": 100,
- "momentum": "none",
- "maturity": "L1",
- "maturity_evidence": [
-  "rows_no_confirmed"
+ "first_seen": 2014,
+ "by_year": [
+  {
+   "year": 2014,
+   "n": 1
+  },
+  {
+   "year": 2021,
+   "n": 1
+  },
+  {
+   "year": 2024,
+   "n": 2
+  },
+  {
+   "year": 2026,
+   "n": 4
+  }
  ],
- "prospect_score": 40,
- "stack": [],
- "vendor_named": false,
+ "undated_pct": 11,
+ "momentum": "early_mover,rising",
+ "maturity": "L4",
+ "maturity_evidence": [
+  "multi_horizontal",
+  "named_product:Automated",
+  "value_number",
+  "multi_year"
+ ],
+ "prospect_score": 73,
+ "stack": [
+  "Microsoft",
+  "Oracle"
+ ],
+ "vendor_named": true,
  "deployments_detail": [
+  {
+   "company": "Darden Restaurants",
+   "use": "AI/machine-learning guest-count forecasting and labor management built into Darden's proprietary POS system ('nerve center' of the tech ecosystem), giving managers better forecasts to schedule staff efficiently. Executives repeatedly cite AI/ML for forecasting across earnings calls. [Darden proprietary POS (in-house)]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.roic.ai/quote/DRI/transcripts/2026-year/4-quarter",
+   "raw_sector": "",
+   "date": "2026",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Darden Restaurants",
+   "use": "Check-Level Analytics platform capturing the full guest journey (arrival, seating, order, kitchen prep times, server performance, bill settlement, satisfaction survey) across 2,100 restaurants; uses data-mining/predictive analytics for fraud detection, visit-duration analysis, and menu price optimization. [Oracle Data Miner / Oracle R Enterprise (analytics); MicroStrategy (viz)]",
+   "existence": "confirmed",
+   "value": "$20M projected cost savings",
+   "tier": "",
+   "url": "https://www.informationweek.com/machine-learning-ai/darden-uses-analytics-to-understand-restaurant-customers",
+   "raw_sector": "",
+   "date": "2014",
+   "fresh": "stale"
+  },
+  {
+   "company": "Darden Restaurants",
+   "use": "AI-driven demand forecasting to predict guest traffic for food inventory planning and waste/overproduction reduction (in addition to labor), part of Darden's efficiency push while emphasizing it augments rather than replaces staff. [none]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://finance.yahoo.com/sectors/technology/articles/ai-forecasting-tools-boost-dardens-143300339.html",
+   "raw_sector": "",
+   "date": "2026",
+   "fresh": "fresh"
+  },
   {
    "company": "Darden Restaurants",
    "use": "AI forecasting tools for restaurant efficiency + Traitify AI hiring assessments (Olive Garden) — 3rd-party sourced, no primary press release",
@@ -49,6 +105,61 @@
    "raw_sector": "Consumer Discretionary",
    "date": "missing",
    "fresh": "undated"
+  },
+  {
+   "company": "Darden Restaurants",
+   "use": "Automated credit-card chargeback dispute handling: 'digital workers' (RPA/AI automation) download chargeback reports from merchant processors (BAMS, Amex, Discover), apply business rules, gather evidence, auto-file low-value disputes, and void fraudulent gift cards, reducing revenue leakage. [WonderBotz]",
+   "existence": "confirmed",
+   "value": "Over $1M saved from a single use case",
+   "tier": "",
+   "url": "https://wonderbotz.com/case-studies/restaurant-chain-saves-1m-in-credit-card-chargebacks-with-automation-005/",
+   "raw_sector": "",
+   "date": "2026",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Darden Restaurants",
+   "use": "Conversational AI recruiting assistant 'Olivia' embedded on Olive Garden and other Darden brand careers sites; collects applicant info, answers candidate questions, screens, and schedules interviews across ~200,000-employee hourly workforce. [Paradox (Olivia)]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://fortune.com/2024/02/17/man-i-just-want-a-dishwasher-job-why-are-olive-garden-and-fedex-forcing-job-applicants-to-endure-a-strange-personality-test-that-turns-them-into-blue-avatars/",
+   "raw_sector": "",
+   "date": "2024",
+   "fresh": "aging"
+  },
+  {
+   "company": "Darden Restaurants",
+   "use": "AI-based pre-employment personality assessment (Big Five model, 'me/not me' image-based test with blue avatars) used in hiring at Olive Garden and across Darden brands; a Darden spokesperson confirmed it is one of many ways restaurant leaders assess candidates. [Traitify by Paradox]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.buzzfeed.com/natashajokic1/olive-garden-ai-hiring-blue-people",
+   "raw_sector": "",
+   "date": "2024",
+   "fresh": "aging"
+  },
+  {
+   "company": "Darden Restaurants",
+   "use": "Machine-learning pricing-elasticity and menu-optimization analytics aggregating transaction-level POS data, loyalty, weather and marketing events to model performance and guide pricing/menu strategy. Darden (incl. Olive Garden, LongHorn) listed as a client, but no case-study detail confirming active production use. [Red Onion AI]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://redonion.ai/",
+   "raw_sector": "",
+   "date": "2026",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Darden Restaurants",
+   "use": "Adaptive-AI payment fraud protection deployed at LongHorn Steakhouse after the pandemic shift to online-only ordering; detects purchase fraud and protects e-commerce transaction acceptance rates. [Microsoft Dynamics 365 Fraud Protection]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.microsoft.com/en-us/dynamics-365/blog/business-leader/2021/01/26/fraud-trends-part-3-fraud-in-the-food-service-industry/",
+   "raw_sector": "",
+   "date": "2021",
+   "fresh": "stale"
   }
  ]
 }

@@ -3,28 +3,28 @@
  "name": "Samsung Life",
  "cc": "KR",
  "vertical": "Financial Services",
- "deployments": 1,
- "confirmed": 1,
- "with_value_number": 0,
- "proof_rate": 0.0,
+ "deployments": 11,
+ "confirmed": 10,
+ "with_value_number": 5,
+ "proof_rate": 0.455,
  "mktcap": 43829629630.0,
  "revenue": 14814814815.0,
  "employees": 461.0,
  "silent": false,
- "per_bn_revenue": 0.07,
- "per_10k_emp": 21.69,
+ "per_bn_revenue": 0.74,
+ "per_10k_emp": 238.61,
  "benchmarks": {
   "global_vertical": {
-   "deployments": 0,
-   "confirmed": 17,
-   "proof_rate": 0,
-   "n": 377
+   "deployments": 72,
+   "confirmed": 78,
+   "proof_rate": 75,
+   "n": 388
   },
   "country_vertical": {
-   "deployments": 0,
-   "confirmed": 0,
-   "proof_rate": 0,
-   "n": 17
+   "deployments": 78,
+   "confirmed": 89,
+   "proof_rate": 94,
+   "n": 19
   }
  },
  "first_seen": 2023,
@@ -32,19 +32,63 @@
   {
    "year": 2023,
    "n": 1
+  },
+  {
+   "year": 2025,
+   "n": 7
+  },
+  {
+   "year": 2026,
+   "n": 3
   }
  ],
  "undated_pct": 0,
- "momentum": "early_mover,gone_quiet",
- "maturity": "L3",
+ "momentum": "early_mover,rising",
+ "maturity": "L4",
  "maturity_evidence": [
+  "multi_horizontal",
   "named_product:OCR",
+  "value_number",
+  "multi_year",
   "tier_p"
  ],
- "prospect_score": 54,
+ "prospect_score": 82,
  "stack": [],
- "vendor_named": false,
+ "vendor_named": true,
  "deployments_detail": [
+  {
+   "company": "Samsung Life",
+   "use": "Internal generative-AI/RAG chatbots (14 bots) answering staff and agent questions on underwriting criteria and FAQs; ~85,000 inquiries answered since May 2024 launch [none]",
+   "existence": "confirmed",
+   "value": "14 chatbots; ~85,000 inquiries answered",
+   "tier": "",
+   "url": "https://www.etnews.com/20250520000023",
+   "raw_sector": "",
+   "date": "2025-05-20",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Samsung Life",
+   "use": "AI voice bots (9 bots) for outbound customer calls: contact verification, loan-interest delinquency notices, identity confirmation; ~100,000 calls/month at 92% STT accuracy [none]",
+   "existence": "confirmed",
+   "value": "9 voice bots; ~100,000 calls/month; 92% STT accuracy",
+   "tier": "",
+   "url": "https://www.etnews.com/20250520000023",
+   "raw_sector": "",
+   "date": "2025-05-20",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Samsung Life",
+   "use": "AI Advisor for call center: analyzes live consultation conversations and recommends optimal agent responses (STT/TTS-enabled contact center), deployed 2023 [none]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.etnews.com/20250520000023",
+   "raw_sector": "",
+   "date": "2025-05-20",
+   "fresh": "fresh"
+  },
   {
    "company": "Samsung Life",
    "use": "AI OCR for claim doc recognition & payout; AI call-center advisor (best-response recommendation, 2023); integrated AI underwriting+claims system (2025)",
@@ -55,6 +99,83 @@
    "raw_sector": "Financials",
    "date": "2023",
    "fresh": "stale"
+  },
+  {
+   "company": "Samsung Life",
+   "use": "AI OCR for insurance claims processing: auto-recognizes/extracts data from medical and pharmacy receipts and other claim documents (classifies 47 doc categories, auto-extracts 7 primary types); ~95% recognition rate [Upstage]",
+   "existence": "confirmed",
+   "value": "~95% recognition rate; 47 document categories",
+   "tier": "",
+   "url": "https://www.newswatch.kr/news/articleView.html?idxno=74658",
+   "raw_sector": "",
+   "date": "2025-11-18",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Samsung Life",
+   "use": "AI insurance review system on Samsung SDS FabriX generative-AI platform: real-time policy comparison, case summarization, and payment-basis derivation for claims review across Samsung Financial Networks (incl. Samsung Life) [Samsung SDS (FabriX)]",
+   "existence": "confirmed",
+   "value": "reduced lead times; improved VoC (no figures)",
+   "tier": "",
+   "url": "https://www.samsungsds.com/en/ai-agent/ai-agent.html",
+   "raw_sector": "",
+   "date": "2025-06-26",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Samsung Life",
+   "use": "AI-based automatic underwriting and claims-payment system: end-to-end automation from new-contract underwriting through claim payment; declared 2026 as 'AX first year' to build it (planned/expanding) [none]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://en.sedaily.com/news/2026/04/05/samsung-life-to-build-ai-underwriting-claims-payment-system",
+   "raw_sector": "",
+   "date": "2026-04-05",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Samsung Life",
+   "use": "AI voice-print match analysis ('AI 성문일치도') for real-time identity verification during call center consultations, comparing live voice to prior recordings to block impersonation/voice-phishing fraud; industry-first, developed in-house (patent filed) [none]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "http://www.fetimes.co.kr/news/articleViewAmp.html?idxno=122050",
+   "raw_sector": "",
+   "date": "2025-06-30",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Samsung Life",
+   "use": "Generative-AI 'AI CX Writing System' that rewrites customer-facing content: converts jargon/financial terms into plain language and standardizes expressions; deployed internally Dec 2025 [none]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.insjournal.co.kr/news/articleView.html?idxno=29657",
+   "raw_sector": "",
+   "date": "2026-01-07",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Samsung Life",
+   "use": "'AI 활동비서' (AI activity assistant): mobile tool giving insurance agents real-time sales-activity support; 97% of new contracts and 98% of consulting consents processed via mobile [none]",
+   "existence": "confirmed",
+   "value": "97% of new contracts, 98% of consulting consents processed via mobile",
+   "tier": "",
+   "url": "http://www.ftoday.co.kr/news/articleView.html?idxno=343976",
+   "raw_sector": "",
+   "date": "2025-06-30",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Samsung Life",
+   "use": "Generative-AI-produced TV brand advertising campaign ('Developers Beyond Insurance'): over 70% of the ad created with AI tools; surpassed 10M views [none]",
+   "existence": "confirmed",
+   "value": "70%+ produced with AI; 10M+ views",
+   "tier": "",
+   "url": "https://www.sedaily.com/article/20028849",
+   "raw_sector": "",
+   "date": "2026-04-06",
+   "fresh": "fresh"
   }
  ]
 }

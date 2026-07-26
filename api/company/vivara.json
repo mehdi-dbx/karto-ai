@@ -3,28 +3,28 @@
  "name": "Vivara",
  "cc": "BR",
  "vertical": "Retail & E-commerce",
- "deployments": 1,
- "confirmed": 1,
- "with_value_number": 1,
- "proof_rate": 1.0,
+ "deployments": 8,
+ "confirmed": 6,
+ "with_value_number": 5,
+ "proof_rate": 0.625,
  "mktcap": 938888889.0,
  "revenue": 572222222.0,
  "employees": 5602.0,
  "silent": false,
- "per_bn_revenue": 1.75,
- "per_10k_emp": 1.79,
+ "per_bn_revenue": 13.98,
+ "per_10k_emp": 14.28,
  "benchmarks": {
   "global_vertical": {
-   "deployments": 0,
-   "confirmed": 24,
-   "proof_rate": 77,
-   "n": 295
+   "deployments": 60,
+   "confirmed": 63,
+   "proof_rate": 90,
+   "n": 301
   },
   "country_vertical": {
-   "deployments": 0,
-   "confirmed": 0,
-   "proof_rate": 75,
-   "n": 13
+   "deployments": 85,
+   "confirmed": 77,
+   "proof_rate": 77,
+   "n": 14
   }
  },
  "first_seen": 2019,
@@ -32,19 +32,70 @@
   {
    "year": 2019,
    "n": 1
+  },
+  {
+   "year": 2020,
+   "n": 1
+  },
+  {
+   "year": 2021,
+   "n": 1
+  },
+  {
+   "year": 2024,
+   "n": 4
+  },
+  {
+   "year": 2026,
+   "n": 1
   }
  ],
  "undated_pct": 0,
- "momentum": "early_mover,gone_quiet",
- "maturity": "L3",
+ "momentum": "early_mover,cooling",
+ "maturity": "L4",
  "maturity_evidence": [
+  "multi_horizontal",
   "named_product:Criteo",
-  "value_number"
+  "value_number",
+  "multi_year"
  ],
- "prospect_score": 14,
+ "prospect_score": 59,
  "stack": [],
  "vendor_named": false,
  "deployments_detail": [
+  {
+   "company": "Vivara",
+   "use": "Internal employee chatbot 'Vicky' (built on Take Blip) serving HR / Departamento Pessoal via WhatsApp and intranet, answering staff questions on HR processes; intended to expand to IT service desk via SoftExpert integration. [Take Blip]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.softexpert.com/pt-BR/noticias/vivara-automatiza-processos-com-softexpert-suite-e-avanca-na-transformacao-digital/",
+   "raw_sector": "",
+   "date": "2021-11",
+   "fresh": "stale"
+  },
+  {
+   "company": "Vivara",
+   "use": "Service/process automation with SoftExpert Suite across corporate and store operations (workflow standardization, SLA control, real-time dashboards), with stated roadmap to add RPA and chatbot automation. [SoftExpert]",
+   "existence": "claimed",
+   "value": "+80% transactions processed via the platform between 2020 and 2021",
+   "tier": "",
+   "url": "https://www.softexpert.com/pt-BR/casos-de-sucesso/vivara/",
+   "raw_sector": "",
+   "date": "2024",
+   "fresh": "aging"
+  },
+  {
+   "company": "Vivara",
+   "use": "Artificial-intelligence project co-developed with Chiefs.Group ('Open Talent na Prática') exploring how AI could benefit Vivara's business and customer journey, delivered via an on-demand executive/Chief AI Officer model. [Chiefs.Group]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.youtube.com/watch?v=bm6SAmQK9fU",
+   "raw_sector": "",
+   "date": "2024",
+   "fresh": "aging"
+  },
   {
    "company": "Vivara",
    "use": "AI and machine learning (Criteo) optimizing online marketing campaigns",
@@ -55,6 +106,50 @@
    "raw_sector": "Consumo cíclico e construção civil",
    "date": "2019",
    "fresh": "stale"
+  },
+  {
+   "company": "Vivara",
+   "use": "AI/ML automated bidding for paid-media (Criteo). Vivara set a cost-of-sale target and Criteo's machine-learning engine auto-adjusts CPC bids in real time to hit ROAS goals, removing manual bid management. [Criteo]",
+   "existence": "confirmed",
+   "value": "Within 5 months: +49% online revenue, +47% ROAS, +41% sales, +37% conversion rate",
+   "tier": "",
+   "url": "https://www.criteo.com/success-stories/vivara/",
+   "raw_sector": "",
+   "date": "2020",
+   "fresh": "stale"
+  },
+  {
+   "company": "Vivara",
+   "use": "Customer-facing conversational-commerce AI agent launched for Black Friday: an AI chatbot that answers customer questions, recommends products and sells 24/7 across WhatsApp/digital channels (built by DigitalBot, delivered via Squadra Digital partnership). [DigitalBot / Squadra Digital]",
+   "existence": "confirmed",
+   "value": "~2 million AI-handled interactions; R$2.2 million in sales attributed to the AI agent on Black Friday",
+   "tier": "",
+   "url": "https://digitalbot.com.br/case-vivara/",
+   "raw_sector": "",
+   "date": "2024",
+   "fresh": "aging"
+  },
+  {
+   "company": "Vivara",
+   "use": "Customer-experience AI 'intelligent orchestrator' (NeoAssist) plus customer virtual assistant 'Vick' that understands intent, cross-references data and routes shoppers to the best flow (purchase, after-sales, support) across omnichannel touchpoints. [NeoAssist]",
+   "existence": "confirmed",
+   "value": "+80% productivity; retention rate up to 80% (from 70%); First Contact Resolution >80% (from <70%); handled 50% demand surge without proportional team growth; -30% technology tools",
+   "tier": "",
+   "url": "https://consumidormoderno.com.br/vivara-ia-estrategia-cx-produtividade/",
+   "raw_sector": "",
+   "date": "2026",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Vivara",
+   "use": "'Consultoria Digital' intelligent virtual assistant on Vivara's own e-commerce site, available 24/7 for quick customer interactions and initial guidance during the online purchase journey. [none]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.vivara.com.br/consultoria-digital",
+   "raw_sector": "",
+   "date": "2024",
+   "fresh": "aging"
   }
  ]
 }

@@ -3,10 +3,10 @@
  "name": "Hikvision",
  "cc": "CN",
  "vertical": "Technology",
- "deployments": 1,
- "confirmed": 1,
- "with_value_number": 0,
- "proof_rate": 0.0,
+ "deployments": 6,
+ "confirmed": 3,
+ "with_value_number": 1,
+ "proof_rate": 0.167,
  "mktcap": null,
  "revenue": null,
  "employees": null,
@@ -15,15 +15,15 @@
  "per_10k_emp": null,
  "benchmarks": {
   "global_vertical": {
-   "deployments": 0,
-   "confirmed": 6,
-   "proof_rate": 0,
-   "n": 156
+   "deployments": 35,
+   "confirmed": 27,
+   "proof_rate": 45,
+   "n": 159
   },
   "country_vertical": {
-   "deployments": 0,
-   "confirmed": 0,
-   "proof_rate": 0,
+   "deployments": 42,
+   "confirmed": 33,
+   "proof_rate": 25,
    "n": 13
   }
  },
@@ -31,16 +31,17 @@
  "by_year": [
   {
    "year": 2025,
-   "n": 1
+   "n": 2
   }
  ],
- "undated_pct": 0,
+ "undated_pct": 67,
  "momentum": "early_mover,rising",
  "maturity": "L3",
  "maturity_evidence": [
-  "named_product:Guanlan"
+  "named_product:Guanlan",
+  "value_number"
  ],
- "prospect_score": 46,
+ "prospect_score": 51,
  "stack": [
   "DeepSeek"
  ],
@@ -56,6 +57,61 @@
    "raw_sector": "Information Technology",
    "date": "2025-03",
    "fresh": "fresh"
+  },
+  {
+   "company": "Hikvision",
+   "use": "AI video analytics for security cameras with deep learning for human and vehicle detection",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.hikvision.com/us-en/core-technologies/ai-analytics/acusense/",
+   "raw_sector": "",
+   "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "Hikvision",
+   "use": "Guanlan Large-Scale AI Models for AIoT products and applications",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.hikvision.com/en/core-technologies/",
+   "raw_sector": "",
+   "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "Hikvision",
+   "use": "AI-enhanced traffic security cameras with reduced false alarms",
+   "existence": "confirmed",
+   "value": "75%",
+   "tier": "",
+   "url": "https://www.sourcesecurity.com/amp/news/gen-hikvision-ai-cameras-enhance-traffic-co-12558-ga-npr.1753873891.html",
+   "raw_sector": "",
+   "date": "2025-07-30",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Hikvision",
+   "use": "AI-driven video analytics for logistics operations and security",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.hikvision.com/en/solutions/solutions-by-industry/logistics/",
+   "raw_sector": "",
+   "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "Hikvision",
+   "use": "Real-time safety compliance monitoring and human-machine interaction detection powered by Guanlan large-scale AI models",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.instagram.com/reel/DXswGIsjs_M/",
+   "raw_sector": "",
+   "date": "missing",
+   "fresh": "undated"
   }
  ]
 }

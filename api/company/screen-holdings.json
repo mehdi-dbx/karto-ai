@@ -3,47 +3,62 @@
  "name": "SCREEN Holdings",
  "cc": "JP",
  "vertical": "Electric Machinery & Electronics",
- "deployments": 1,
- "confirmed": 1,
- "with_value_number": 0,
- "proof_rate": 0.0,
+ "deployments": 9,
+ "confirmed": 8,
+ "with_value_number": 2,
+ "proof_rate": 0.222,
  "mktcap": 21000000000.0,
  "revenue": 4038333333.0,
  "employees": 6884.0,
  "silent": false,
- "per_bn_revenue": 0.25,
- "per_10k_emp": 1.45,
+ "per_bn_revenue": 2.23,
+ "per_10k_emp": 13.07,
  "benchmarks": {
   "global_vertical": {
-   "deployments": 0,
-   "confirmed": 9,
-   "proof_rate": 0,
+   "deployments": 53,
+   "confirmed": 71,
+   "proof_rate": 62,
    "n": 35
   },
   "country_vertical": {
-   "deployments": 0,
-   "confirmed": 6,
-   "proof_rate": 0,
+   "deployments": 48,
+   "confirmed": 68,
+   "proof_rate": 58,
    "n": 32
   }
  },
- "first_seen": 2024,
+ "first_seen": 2021,
  "by_year": [
   {
+   "year": 2021,
+   "n": 1
+  },
+  {
    "year": 2024,
+   "n": 6
+  },
+  {
+   "year": 2025,
+   "n": 1
+  },
+  {
+   "year": 2026,
    "n": 1
   }
  ],
  "undated_pct": 0,
- "momentum": "early_mover,gone_quiet",
- "maturity": "L3",
+ "momentum": "early_mover,cooling",
+ "maturity": "L4",
  "maturity_evidence": [
+  "multi_horizontal",
   "named_product:SCRAIS",
+  "value_number",
+  "multi_year",
   "tier_p"
  ],
- "prospect_score": 54,
+ "prospect_score": 79,
  "stack": [],
- "vendor_named": false,
+ "vendor_named": true,
  "deployments_detail": [
   {
    "company": "SCREEN Holdings",
@@ -55,6 +70,94 @@
    "raw_sector": "Electric Machinery",
    "date": "2024-06",
    "fresh": "aging"
+  },
+  {
+   "company": "SCREEN Holdings",
+   "use": "SCRAIS brand for AI-driven defect inspection/measurement of semiconductor wafers and printed circuit boards; deep-learning false-call filtering and auto defect classification built into SCREEN inspection equipment. Validated to eliminate over 80% of false calls and hold oversight rate below 0.1%, refined over ~7 years on SCREEN group inspection tools. [SCREEN (proprietary deep learning)]",
+   "existence": "confirmed",
+   "value": ">80% false-call reduction; oversight rate <0.1%; ~50% annotation labor reduction",
+   "tier": "",
+   "url": "https://www.screen.co.jp/en/news/NR240129E",
+   "raw_sector": "",
+   "date": "2024-01-29",
+   "fresh": "aging"
+  },
+  {
+   "company": "SCREEN Holdings",
+   "use": "SCRAIS AI image-analysis solution productized by SCREEN Advanced System Solutions, extending its deep-learning defect-detection/anomaly-monitoring beyond semiconductor to film/sheet web inspection, surveillance and food inspection, with AI-model learning and operational phases supported end to end. [SCREEN Advanced System Solutions (proprietary deep learning)]",
+   "existence": "confirmed",
+   "value": ">80% false-call reduction; oversight rate <0.1%; ~50% annotation reduction",
+   "tier": "",
+   "url": "https://www.screen.co.jp/as/solution/scrais",
+   "raw_sector": "",
+   "date": "2024-01-29",
+   "fresh": "aging"
+  },
+  {
+   "company": "SCREEN Holdings",
+   "use": "Three-year joint development with AI firm Rist of a 'next-generation AI inspection model' for semiconductor wafers and PCBs, combining SCREEN AS inspection-AI data/know-how (patent-pending method reaching high accuracy with half the usual training data) with Rist's AI engineering and knowledge-distillation to run large high-precision models on the factory floor with minimal tuning. [Rist (AI engineering); SCREEN Advanced System Solutions]",
+   "existence": "claimed",
+   "value": "half the conventional training data volume for target accuracy",
+   "tier": "",
+   "url": "https://www.screen.co.jp/as/info/as250313",
+   "raw_sector": "",
+   "date": "2025-03-13",
+   "fresh": "fresh"
+  },
+  {
+   "company": "SCREEN Holdings",
+   "use": "Capital and business alliance with AI venture Laboro.AI (SCREEN AS took an equity stake) to jointly plan, develop and deploy AI applications across SCREEN Group semiconductor-manufacturing equipment and solutions, both for internal group operations and external offerings. [Laboro.AI]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.screen.co.jp/news/NR210730",
+   "raw_sector": "",
+   "date": "2021-07-30",
+   "fresh": "stale"
+  },
+  {
+   "company": "SCREEN Holdings",
+   "use": "Cell3iMager NX life-science cell imager offers an optional deep-learning plug-in for highly accurate cell segmentation in challenging cases (high-confluency, non-uniform or overlapping cells), used for label-free organoid proliferation monitoring and cancer-spheroid/NK-cell assay quantification. [SCREEN Holdings (Life Science) proprietary deep learning]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.screen.co.jp/en/products/lifescience/cell/nx",
+   "raw_sector": "",
+   "date": "2024-01-01",
+   "fresh": "aging"
+  },
+  {
+   "company": "SCREEN Holdings",
+   "use": "SU-3400 single-wafer cleaning equipment uses IoT/big-data failure detection plus high-resolution in-chamber camera monitoring for stable operation and trouble prevention, integrated into support/maintenance functions. [SCREEN Semiconductor Solutions]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.screen.co.jp/spe/products/su-3400",
+   "raw_sector": "",
+   "date": "2024-01-01",
+   "fresh": "aging"
+  },
+  {
+   "company": "SCREEN Holdings",
+   "use": "SARIA all-round no-code image-AI software: lets users build, evaluate and analyze image-processing/recognition AI models, from beginner no-code up to source-editable neural networks, with annotation support and planned knowledge-distillation and Human-in-the-Loop features. Released commercially August 2024. [SCREEN Advanced System Solutions]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.screen.co.jp/as/info/as240819",
+   "raw_sector": "",
+   "date": "2024-08-19",
+   "fresh": "aging"
+  },
+  {
+   "company": "SCREEN Holdings",
+   "use": "'Real Shugo Talk' (りある守護とーく) generative-AI knowledge system for manufacturers: securely surfaces internal design data, manufacturing know-how and after-sales info with permission-based sensitive-information masking; used for field-engineer support, knowledge transfer/training and recipe documentation. [SCREEN Advanced System Solutions (generative AI)]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.screen.co.jp/as/info/real-shugo-talk-genai-manufacturing-knowledge-system-release",
+   "raw_sector": "",
+   "date": "2026-06-04",
+   "fresh": "fresh"
   }
  ]
 }

@@ -3,40 +3,63 @@
  "name": "Acciona",
  "cc": "ES",
  "vertical": "Real Estate & Construction",
- "deployments": 2,
- "confirmed": 0,
- "with_value_number": 1,
- "proof_rate": 0.5,
+ "deployments": 10,
+ "confirmed": 7,
+ "with_value_number": 4,
+ "proof_rate": 0.4,
  "mktcap": 14882400000.0,
  "revenue": 23209200000.0,
  "employees": 68502.0,
  "silent": false,
- "per_bn_revenue": 0.09,
- "per_10k_emp": 0.29,
+ "per_bn_revenue": 0.43,
+ "per_10k_emp": 1.46,
  "benchmarks": {
   "global_vertical": {
-   "deployments": 82,
-   "confirmed": 0,
-   "proof_rate": 65,
+   "deployments": 86,
+   "confirmed": 84,
+   "proof_rate": 76,
    "n": 154
   }
  },
- "first_seen": 2026,
+ "first_seen": 2020,
  "by_year": [
   {
-   "year": 2026,
+   "year": 2020,
    "n": 1
+  },
+  {
+   "year": 2021,
+   "n": 2
+  },
+  {
+   "year": 2024,
+   "n": 1
+  },
+  {
+   "year": 2025,
+   "n": 3
+  },
+  {
+   "year": 2026,
+   "n": 2
   }
  ],
- "undated_pct": 50,
- "momentum": "late_entrant,rising",
- "maturity": "L1",
+ "undated_pct": 10,
+ "momentum": "early_mover,rising",
+ "maturity": "L4",
  "maturity_evidence": [
-  "rows_no_confirmed"
+  "multi_horizontal",
+  "named_product:Predictive",
+  "value_number",
+  "multi_year"
  ],
- "prospect_score": 20,
- "stack": [],
- "vendor_named": false,
+ "prospect_score": 66,
+ "stack": [
+  "Google",
+  "Google Cloud",
+  "SAP"
+ ],
+ "vendor_named": true,
  "deployments_detail": [
   {
    "company": "Acciona",
@@ -58,6 +81,94 @@
    "url": "https://industriambiente.com/noticias/20260521/acciona-gana-premio-al-mejor-proyecto-ia-ano-una-desaladora-inteligente-en-florida",
    "raw_sector": "Construction/Infrastructure",
    "date": "2026",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Acciona",
+   "use": "Predictive AI platform for water treatment plants that forecasts turbidity spikes, salinity changes and red tide events hours in advance by combining machine learning with weather, river flow, satellite imagery and sensor data; being tested at the Tampa Bay desalination plant (USA). [SkyTL (co-developed)]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.linkedin.com/posts/max-fraser-krauss-water-recruitment_acciona-develops-predictive-ai-system-to-activity-7416446758416912384-KGII",
+   "raw_sector": "",
+   "date": "2026-01",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Acciona",
+   "use": "Dual-model AI system for reverse-osmosis desalination combining ACRRO (physics/simulation model) and Insight (real-time ML optimization) for predictive and adaptive control, cutting electricity consumption; deployed at an ACCIONA desalination plant in Qatar and monitored from CECOA Madrid. [ACCIONA proprietary (ACRRO + Insight)]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.desalination-news.com/2025/10/13/acciona-launches-advanced-ai-system-to-enhance-desalination-efficiency-in-qatar/",
+   "raw_sector": "",
+   "date": "2025-10",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Acciona",
+   "use": "Maestro AI platform at the Umm Al Houl seawater reverse-osmosis desalination plant in Qatar, using AI to lower energy and reagent consumption and reduce the plant's carbon footprint; financed via ACCIONA's decarbonization fund. [ACCIONA Maestro]",
+   "existence": "claimed",
+   "value": "targeted reduction of ~12,000 tonnes of CO2 per year",
+   "tier": "",
+   "url": "https://www.constructionweekonline.com/business/271087-acciona-to-finance-milestone-ai-desalination-plant-in-qatar",
+   "raw_sector": "",
+   "date": "2021-03",
+   "fresh": "stale"
+  },
+  {
+   "company": "Acciona",
+   "use": "Boston Dynamics Spot quadruped robot (with Trimble laser scanning, acoustic sensors and thermal cameras) for autonomous tunnel-construction inspection, 3D as-built vs design comparison and predictive maintenance in hazardous areas; structured data feeds ACCIONA's AI use cases. [Boston Dynamics (Spot), Trimble]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://bostondynamics.com/case-studies/acciona/",
+   "raw_sector": "",
+   "date": "2021",
+   "fresh": "stale"
+  },
+  {
+   "company": "Acciona",
+   "use": "Digital twin with embedded machine learning / AI routines used to remotely test, commission and start up the Al-Khobar 1 desalination plant in Saudi Arabia from Madrid, and to run scenario testing, optimization and operator training. [Siemens / AVEVA (digital twin platform)]",
+   "existence": "confirmed",
+   "value": "plant produces 210,000 m3/day of potable water serving ~350,000 people",
+   "tier": "",
+   "url": "https://www.globalconstructionreview.com/digital-twin-lets-acciona-fire-saudi-desalination/",
+   "raw_sector": "",
+   "date": "2020-11",
+   "fresh": "stale"
+  },
+  {
+   "company": "Acciona",
+   "use": "Edge AI / adaptive machine-learning (MLOps) deployed on edge nodes in water desalination/treatment plants for real-time optimized control, replacing manual water-sample analysis and cutting chemical use and energy expenditure. [Barbara (edge AI platform)]",
+   "existence": "confirmed",
+   "value": "millions in annual savings (no precise figure disclosed)",
+   "tier": "",
+   "url": "https://www.edgeir.com/revolutionizing-water-treatment-with-machine-learning-at-the-edge-20240422",
+   "raw_sector": "",
+   "date": "2024-04",
+   "fresh": "aging"
+  },
+  {
+   "company": "Acciona",
+   "use": "AI virtual assistant for HR management serving ~60,000 field/blue-collar workers via phone and WhatsApp, available 24/7 and multilingual; handles payslips, contracts, personal-data updates and Modelo 145 forms, integrating with SAP, Workday and RPA. [Google Cloud (Conversational Agents/Dialogflow, Gemini); Ayesa (implementation partner)]",
+   "existence": "confirmed",
+   "value": "80,000+ conversations, 72,000+ resolved, 90%+ resolution rate, only 0.89% escalated to human agents",
+   "tier": "",
+   "url": "https://ayesa-digital.com/en/press/acciona-implements-virtual-assistant-to-enhance-employee-satisfaction/",
+   "raw_sector": "",
+   "date": "2025-07",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Acciona",
+   "use": "ACCIONA Energia Gen-AI commercial assistant on its Solutions platform: a multimodal (voice and text) conversational assistant giving customers real-time quotes for solar, EV charging and storage, supporting 90+ languages across the exploration-to-contract journey. [none]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.linkedin.com/posts/the-spain---us-chamber-of-commerce-inc-_energytransition-genai-accionaenergia-activity-7416560397538795520-8VuO",
+   "raw_sector": "",
+   "date": "2025-12",
    "fresh": "fresh"
   }
  ]

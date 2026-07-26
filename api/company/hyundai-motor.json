@@ -3,42 +3,50 @@
  "name": "Hyundai Motor",
  "cc": "KR",
  "vertical": "Automotive",
- "deployments": 1,
- "confirmed": 1,
- "with_value_number": 1,
- "proof_rate": 1.0,
+ "deployments": 7,
+ "confirmed": 4,
+ "with_value_number": 2,
+ "proof_rate": 0.286,
  "mktcap": 73903703704.0,
  "revenue": 137962962963.0,
  "employees": 126069.0,
  "silent": false,
- "per_bn_revenue": 0.01,
- "per_10k_emp": 0.08,
+ "per_bn_revenue": 0.05,
+ "per_10k_emp": 0.56,
  "benchmarks": {
   "global_vertical": {
-   "deployments": 0,
-   "confirmed": 10,
-   "proof_rate": 82,
+   "deployments": 38,
+   "confirmed": 23,
+   "proof_rate": 72,
    "n": 40
   }
  },
- "first_seen": 2026,
+ "first_seen": 2025,
  "by_year": [
   {
+   "year": 2025,
+   "n": 3
+  },
+  {
    "year": 2026,
-   "n": 1
+   "n": 3
   }
  ],
- "undated_pct": 0,
- "momentum": "late_entrant,rising",
- "maturity": "L3",
+ "undated_pct": 14,
+ "momentum": "early_mover,rising",
+ "maturity": "L4",
  "maturity_evidence": [
+  "multi_horizontal",
   "named_product:Artria",
   "value_number",
+  "multi_year",
   "tier_p"
  ],
- "prospect_score": 14,
- "stack": [],
- "vendor_named": false,
+ "prospect_score": 53,
+ "stack": [
+  "NVIDIA"
+ ],
+ "vendor_named": true,
  "deployments_detail": [
   {
    "company": "Hyundai Motor",
@@ -50,6 +58,72 @@
    "raw_sector": "Consumer Discretionary",
    "date": "2026",
    "fresh": "fresh"
+  },
+  {
+   "company": "Hyundai Motor",
+   "use": "In-vehicle AI and autonomous driving model training, validation and deployment [NVIDIA]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://investor.nvidia.com/news/press-release-details/2025/NVIDIA-and-Hyundai-Motor-Group-Team-on-AI-Factory-to-Power-AI-Driven-Mobility-Solutions/default.aspx",
+   "raw_sector": "",
+   "date": "2025-10-31",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Hyundai Motor",
+   "use": "AI Robotics for human-centered autonomous systems",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.hyundainews.com/releases/4664",
+   "raw_sector": "",
+   "date": "2026-01-05",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Hyundai Motor",
+   "use": "Generative AI model for virtual driving environment simulation",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.hyundaimotorgroup.com/en/story/CONT0000000000192886",
+   "raw_sector": "",
+   "date": "2025-11-12",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Hyundai Motor",
+   "use": "Material science and next-generation battery efficiency enhancement [CuspAI]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.hyundai.com/worldwide/en/newsroom/detail/0000001052",
+   "raw_sector": "",
+   "date": "2025-11-06",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Hyundai Motor",
+   "use": "Predictive maintenance for factory robots [MakinaRocks]",
+   "existence": "confirmed",
+   "value": "1400",
+   "tier": "",
+   "url": "https://www.makinarocks.ai/en/news/makinarocks-and-hyundai-motor-expand-global-ai-deployment-to-1400-factory-robots/",
+   "raw_sector": "",
+   "date": "2026-04-23",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Hyundai Motor",
+   "use": "Customer service automation [Yellow.ai]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://yellow.ai/case-study/hyundai/",
+   "raw_sector": "",
+   "date": "missing",
+   "fresh": "undated"
   }
  ]
 }

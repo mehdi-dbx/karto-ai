@@ -3,46 +3,61 @@
  "name": "Cipla",
  "cc": "IN",
  "vertical": "Healthcare & Life Sciences",
- "deployments": 1,
- "confirmed": 0,
- "with_value_number": 0,
- "proof_rate": 0.0,
+ "deployments": 9,
+ "confirmed": 6,
+ "with_value_number": 4,
+ "proof_rate": 0.444,
  "mktcap": 13734939759.0,
  "revenue": 3352771084.0,
  "employees": 31369.0,
  "silent": false,
- "per_bn_revenue": 0.3,
- "per_10k_emp": 0.32,
+ "per_bn_revenue": 2.68,
+ "per_10k_emp": 2.87,
  "benchmarks": {
   "global_vertical": {
-   "deployments": 0,
-   "confirmed": 0,
-   "proof_rate": 0,
-   "n": 165
+   "deployments": 62,
+   "confirmed": 62,
+   "proof_rate": 78,
+   "n": 168
   },
   "country_vertical": {
-   "deployments": 0,
-   "confirmed": 0,
-   "proof_rate": 0,
+   "deployments": 60,
+   "confirmed": 60,
+   "proof_rate": 80,
    "n": 6
   }
  },
- "first_seen": 2025,
+ "first_seen": 2017,
  "by_year": [
   {
-   "year": 2025,
+   "year": 2017,
    "n": 1
+  },
+  {
+   "year": 2022,
+   "n": 1
+  },
+  {
+   "year": 2024,
+   "n": 1
+  },
+  {
+   "year": 2025,
+   "n": 6
   }
  ],
  "undated_pct": 0,
- "momentum": "rising",
- "maturity": "L1",
+ "momentum": "early_mover,rising",
+ "maturity": "L4",
  "maturity_evidence": [
-  "rows_no_confirmed"
+  "multi_horizontal",
+  "named_product:Digital",
+  "value_number",
+  "multi_year"
  ],
- "prospect_score": 40,
+ "prospect_score": 58,
  "stack": [],
- "vendor_named": false,
+ "vendor_named": true,
  "deployments_detail": [
   {
    "company": "Cipla",
@@ -54,6 +69,94 @@
    "raw_sector": "Healthcare",
    "date": "2025",
    "fresh": "fresh"
+  },
+  {
+   "company": "Cipla",
+   "use": "Digital Automation Analytics (DAA) / Industry 4.0 program: AI/ML, advanced analytics, IIoT, NLP, RPA and robotics deployed across manufacturing operations. Its Indore OSD plant was inducted into the WEF Global Lighthouse Network for accelerated use of AI, with 30+ digital use cases scaled across 22 Indian sites. [In-house (WEF Global Lighthouse Network recognized)]",
+   "existence": "confirmed",
+   "value": "30+ use cases across 22 sites; ~23% higher productivity, ~28% reduction in greenhouse emissions",
+   "tier": "",
+   "url": "https://www.cipla.com/press-releases-statements/cipla-indore-plant-joins-world-economic-forums-prestigious-lighthouse-network",
+   "raw_sector": "",
+   "date": "2022-10-11",
+   "fresh": "stale"
+  },
+  {
+   "company": "Cipla",
+   "use": "CipAir, an AI-powered mobile app for first-line asthma screening. Uses a proprietary algorithm to turn a smartphone into a screening device, analyzing exhalation sounds for acoustic patterns indicative of asthma; clinically validated via a multi-centric pan-India study, delivered through the Breathefree platform. [Cipla (digital partner: Indus Net Technologies)]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.cipla.com/sites/default/files/Cipla-introduces-CipAir-an-AI-powered%20mobile-application-to-simplify-asthma%20screening-in-India_06%20Jan_0.pdf",
+   "raw_sector": "",
+   "date": "2025-01-06",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Cipla",
+   "use": "Cipla Genie, an in-house Generative AI platform implemented at the Patalganga formulation plant by Cipla's Digital Lean team; recognized with the AI in Pharma Manufacturing Award at the 3rd Bharat Gen AI & Analytics Summit 2025. [In-house (Cipla Gen-AI Platform)]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://x.com/Cipla_Global/status/1902647642909503528",
+   "raw_sector": "",
+   "date": "2025-03-19",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Cipla",
+   "use": "AI-driven Quality Assurance: AI-based batch record review/automation, predictive maintenance, and real-time compliance dashboards in pharmaceutical manufacturing quality operations (described by a Cipla QA professional). [unspecified]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.linkedin.com/posts/saikat-bagchi-37b4a0155_mylifeinqa-pharmaquality-aiinpharma-activity-7319719894512463873-eT7W",
+   "raw_sector": "",
+   "date": "2025-04-01",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Cipla",
+   "use": "AI-driven job-shop scheduling at the Indore Lighthouse facility to optimize product changeovers and throughput in oral solid dosage manufacturing. [In-house]",
+   "existence": "confirmed",
+   "value": "22% reduction in changeover durations",
+   "tier": "",
+   "url": "https://scw.ai/blog/ai-in-pharma/",
+   "raw_sector": "",
+   "date": "2025-01-23",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Cipla",
+   "use": "'Driverless forecasting' at Cipla Medpro (South Africa): machine-learning/automated statistical demand forecasting to optimize inventory and reduce stock-outs across the pharmaceutical supply chain. [In-house supply chain analytics]",
+   "existence": "confirmed",
+   "value": "Inventory levels cut 25%; stock-outs reduced to less than 1%",
+   "tier": "",
+   "url": "https://www.scmr.com/article/ciplas_journey_to_driverless_forecasting",
+   "raw_sector": "",
+   "date": "2017-11-02",
+   "fresh": "stale"
+  },
+  {
+   "company": "Cipla",
+   "use": "Conversational AI voice agents (Oration / OmniAgent) to conduct outbound patient surveys ahead of a new inhaler launch, gathering qualitative product feedback across six Indian languages (English, Hindi, Marathi, Tamil, Gujarati, Kannada). [Oration.ai / OmniAgent]",
+   "existence": "confirmed",
+   "value": "55% survey completion rate; 1-day deployment; thousands of patients contacted",
+   "tier": "",
+   "url": "https://www.oration.ai/en/customers/cipla-survey-at-scale",
+   "raw_sector": "",
+   "date": "2025-01-01",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Cipla",
+   "use": "AI-generated, hyper-personalized celebrity/HCP videos (TrueFan AI) for Doctor's Day engagement, delivered to doctors across India by medical representatives. [TrueFan AI]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.truefan.ai/case-study/case-study-cipla-doctors-day-case-study",
+   "raw_sector": "",
+   "date": "2024-07-01",
+   "fresh": "aging"
   }
  ]
 }

@@ -3,53 +3,99 @@
  "name": "Asahi Group Holdings, Ltd.",
  "cc": "JP",
  "vertical": "Retail & E-commerce",
- "deployments": 2,
- "confirmed": 2,
- "with_value_number": 1,
- "proof_rate": 0.5,
+ "deployments": 11,
+ "confirmed": 9,
+ "with_value_number": 5,
+ "proof_rate": 0.455,
  "mktcap": 15933333333.0,
  "revenue": 19266666667.0,
  "employees": 28173.0,
  "silent": false,
- "per_bn_revenue": 0.1,
- "per_10k_emp": 0.71,
+ "per_bn_revenue": 0.57,
+ "per_10k_emp": 3.9,
  "benchmarks": {
   "global_vertical": {
-   "deployments": 71,
-   "confirmed": 80,
-   "proof_rate": 70,
-   "n": 295
+   "deployments": 80,
+   "confirmed": 81,
+   "proof_rate": 77,
+   "n": 301
   },
   "country_vertical": {
-   "deployments": 62,
-   "confirmed": 71,
-   "proof_rate": 33,
-   "n": 25
+   "deployments": 88,
+   "confirmed": 84,
+   "proof_rate": 76,
+   "n": 26
   }
  },
- "first_seen": 2023,
+ "first_seen": 2020,
  "by_year": [
   {
-   "year": 2023,
+   "year": 2020,
    "n": 1
+  },
+  {
+   "year": 2021,
+   "n": 1
+  },
+  {
+   "year": 2023,
+   "n": 2
+  },
+  {
+   "year": 2024,
+   "n": 3
+  },
+  {
+   "year": 2025,
+   "n": 1
+  },
+  {
+   "year": 2026,
+   "n": 2
   }
  ],
- "undated_pct": 50,
- "momentum": "early_mover,gone_quiet",
- "maturity": "L3",
+ "undated_pct": 9,
+ "momentum": "early_mover,cooling",
+ "maturity": "L4",
  "maturity_evidence": [
   "multi_horizontal",
   "named_product:Asahi Chat",
   "value_number",
+  "multi_year",
   "tier_p"
  ],
- "prospect_score": 32,
+ "prospect_score": 76,
  "stack": [
+  "Microsoft",
   "Microsoft Azure",
-  "OpenAI"
+  "OpenAI",
+  "SAP",
+  "Salesforce"
  ],
  "vendor_named": true,
  "deployments_detail": [
+  {
+   "company": "Asahi Group Holdings, Ltd.",
+   "use": "Microsoft 365 Copilot rolled out at Asahi Europe & International for employee productivity: meeting minutes, document summarization, HR interview-question drafting (cut from 3 days to 1 hour), and multilingual (14-language) communications; also experimenting with Copilot Studio conversational agents for 24/7 HR support and customer ordering. [Microsoft (Copilot for Microsoft 365 E3, Copilot Studio)]",
+   "existence": "confirmed",
+   "value": "Started with 300 Copilot licenses; leadership estimates ~15% of time previously spent on admin tasks freed up",
+   "tier": "",
+   "url": "https://www.microsoft.com/en/customers/story/1794442287816192713-asahi-europe-and-international-microsoft-copilot-for-microsoft-365-consumer-goods-en-czechia",
+   "raw_sector": "",
+   "date": "2024-07-26",
+   "fresh": "aging"
+  },
+  {
+   "company": "Asahi Group Holdings, Ltd.",
+   "use": "Asahi Group Holdings launched a project to incorporate generative AI into business systems to improve operational efficiency and enable autonomous operational changes, as stated in its Japan Business Strategy investor presentation. [none]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.asahigroup-holdings.com/pdf/en/ir/event/presentation/240319_1.pdf",
+   "raw_sector": "",
+   "date": "2024-03-19",
+   "fresh": "aging"
+  },
   {
    "company": "Asahi Group Holdings, Ltd.",
    "use": "\"Asahi Chat\" (GPT-4) internal AI + generative-AI internal info search (Azure OpenAI, from Sep 2023)",
@@ -63,6 +109,17 @@
   },
   {
    "company": "Asahi Group Holdings, Ltd.",
+   "use": "AI-powered recommendation and matching engine for Asahi Beer built by Smartdev/Verysell AI, providing user matching on behavioral patterns, personalized drink-recipe suggestions and semantic similarity (embeddings) search across Asahi's digital platforms. [Smartdev / Verysell AI]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://smartdev.com/ai-recommendation-matching-systems-in-retail-e-commerce/",
+   "raw_sector": "",
+   "date": "2026-02-03",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Asahi Group Holdings, Ltd.",
    "use": "AI demand forecasting (reduce order errors/waste) + consumer insight analysis",
    "existence": "confirmed",
    "value": "extracted 8 consumer insights from 297 samples",
@@ -71,6 +128,72 @@
    "raw_sector": "Foods",
    "date": "missing",
    "fresh": "undated"
+  },
+  {
+   "company": "Asahi Group Holdings, Ltd.",
+   "use": "AI-enabled Trade Promotion Optimization (TPO) tool co-designed with EY, with descriptive, predictive and prescriptive capabilities analyzing RGM data, POS, weather and trading restrictions to optimize promotional spend and forecast revenue; delivered via EY Managed Services on Microsoft Azure and integrated with SAP. [EY + Microsoft Azure (EY RGM framework / consumer commercial analytics platform)]",
+   "existence": "confirmed",
+   "value": "Deployed across five European markets; daily tool usage growing 60% year-on-year; Romania team analyzed hundreds of promotions with full recommendations in 24 hours",
+   "tier": "",
+   "url": "https://www.ey.com/en_br/alliances/asahi-ai-transformation",
+   "raw_sector": "",
+   "date": "2025",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Asahi Group Holdings, Ltd.",
+   "use": "AI Creator System, described as the world's first automatic package-design generation system, combining multiple deep-learning models to generate original package design proposals and a design-evaluation engine that scores designs, jointly developed with Cogent Labs. [Cogent Labs]",
+   "existence": "confirmed",
+   "value": "Evaluation engine trained on inputs from ~300 design experts across 3,000 images; trial service began April 2020",
+   "tier": "",
+   "url": "https://www.stofficetokyo.ch/news/startups/asahi-group-holdings-cogent-labs-jointly-develop-ai-creator-system-the-worlds-first",
+   "raw_sector": "",
+   "date": "2020-03-09",
+   "fresh": "stale"
+  },
+  {
+   "company": "Asahi Group Holdings, Ltd.",
+   "use": "Asahi Beverages (Australia) selected Complexica's Decision Cloud platform (Larry, the Digital Analyst and Promotional Campaign Manager) for AI-driven trade promotion optimization, following a proof-of-concept, to optimize promotions on volume, margin and net price realization and generate what-if scenarios. [Complexica (Decision Cloud, Larry the Digital Analyst)]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.complexica.com/news/complexica-to-deploy-its-decision-cloud-for-ai-driven-trade-promotion-optimization-for-asahi-beverages",
+   "raw_sector": "",
+   "date": "2021-10-20",
+   "fresh": "stale"
+  },
+  {
+   "company": "Asahi Group Holdings, Ltd.",
+   "use": "Asahi Lifestyle Beverages (Asahi Beverages' non-alcoholic drinks business in Australia) went live with the Trade Promotion Management and Optimisation modules of Complexica's AI Decision Cloud to automate what-if scenario exploration and save time for Sales and Revenue Management teams. [Complexica (Decision Cloud)]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.complexica.com/news/asahi-lifestyle-beverages-goes-live-with-complexicas-decision-cloud-for-ai-driven-trade-promotion-management-optimisation",
+   "raw_sector": "",
+   "date": "2024-07-24",
+   "fresh": "aging"
+  },
+  {
+   "company": "Asahi Group Holdings, Ltd.",
+   "use": "Asahi Beverages' digital and data team uses Mutinex GrowthOS, an AI/econometric marketing mix modeling platform, to analyze marketing channel performance against sales and revenue and guide media investment decisions. [Mutinex (GrowthOS)]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://digiday.com/sponsored/how-australias-asahi-beverages-is-refining-media-investment-strategies/",
+   "raw_sector": "",
+   "date": "2023-09-13",
+   "fresh": "stale"
+  },
+  {
+   "company": "Asahi Group Holdings, Ltd.",
+   "use": "Asahi Beverages (Australia) has started embedding Salesforce Agentforce agentic AI into sales and marketing processes as part of a shift to real-time, data-driven territory sales planning across a ~300-person field sales team serving ~30,000 customers. [Salesforce (Agentforce)]",
+   "existence": "claimed",
+   "value": "300-person field sales team; ~30,000 customers; consolidating from 60 CRM systems",
+   "tier": "",
+   "url": "https://www.itnews.com.au/news/asahi-beverages-targeting-real-time-sales-insight-623960",
+   "raw_sector": "",
+   "date": "2026-03-04",
+   "fresh": "fresh"
   }
  ]
 }

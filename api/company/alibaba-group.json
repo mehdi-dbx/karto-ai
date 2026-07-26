@@ -3,49 +3,59 @@
  "name": "Alibaba Group",
  "cc": "HK",
  "vertical": "Technology",
- "deployments": 2,
- "confirmed": 2,
- "with_value_number": 2,
- "proof_rate": 1.0,
+ "deployments": 14,
+ "confirmed": 14,
+ "with_value_number": 9,
+ "proof_rate": 0.643,
  "mktcap": 266666666667.0,
  "revenue": 148717948718.0,
  "employees": 131462.0,
  "silent": false,
- "per_bn_revenue": 0.01,
- "per_10k_emp": 0.15,
+ "per_bn_revenue": 0.09,
+ "per_10k_emp": 1.06,
  "benchmarks": {
   "global_vertical": {
-   "deployments": 71,
-   "confirmed": 72,
-   "proof_rate": 80,
-   "n": 156
+   "deployments": 88,
+   "confirmed": 97,
+   "proof_rate": 94,
+   "n": 159
   },
   "country_vertical": {
-   "deployments": 17,
-   "confirmed": 17,
+   "deployments": 83,
+   "confirmed": 83,
    "proof_rate": 67,
    "n": 7
   }
  },
- "first_seen": 2025,
+ "first_seen": 2024,
  "by_year": [
   {
+   "year": 2024,
+   "n": 3
+  },
+  {
    "year": 2025,
-   "n": 2
+   "n": 10
+  },
+  {
+   "year": 2026,
+   "n": 1
   }
  ],
  "undated_pct": 0,
  "momentum": "early_mover,rising",
- "maturity": "L3",
+ "maturity": "L4",
  "maturity_evidence": [
   "multi_horizontal",
   "named_product:Qwen",
   "value_number",
+  "multi_year",
   "tier_p"
  ],
- "prospect_score": 12,
+ "prospect_score": 74,
  "stack": [
-  "Alibaba Cloud"
+  "Alibaba Cloud",
+  "NVIDIA"
  ],
  "vendor_named": true,
  "deployments_detail": [
@@ -62,6 +72,72 @@
   },
   {
    "company": "Alibaba Group",
+   "use": "Qwen-powered AI search and recommendation across Taobao/Tmall — enhanced indexing of 2B+ product listings, conversational natural-language search, and personalized recommendations; described as Alibaba's first large-scale GenAI deployment in e-commerce at the 11.11 (Singles' Day) festival [Alibaba Qwen (in-house)]",
+   "existence": "confirmed",
+   "value": "double-digit improvement in search result relevance for complex queries; double-digit lift in click-through for certain recommendation scenarios",
+   "tier": "",
+   "url": "https://www.alibabagroup.com/document-1915930722120499200",
+   "raw_sector": "",
+   "date": "2025-10-16",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Alibaba Group",
+   "use": "Amap (Gaode) 'Xiao Gao' AI-native map assistant combining navigation with spatial intelligence — described as the world's first AI-native map application [Alibaba Qwen (in-house)]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.alibabacloud.com/blog/602436",
+   "raw_sector": "",
+   "date": "2025-08-05",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Alibaba Group",
+   "use": "Qwen App integrated with Amap to act as an AI agent for end-to-end travel planning (routes, restaurants, hotels) using real-time traffic and 200M+ points of interest [Alibaba Qwen (in-house)]",
+   "existence": "confirmed",
+   "value": "over 200 million points of interest",
+   "tier": "",
+   "url": "https://www.alibabagroup.com/document-1938724620211322880",
+   "raw_sector": "",
+   "date": "2025-12-18",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Alibaba Group",
+   "use": "AI Business Advisor generating analytical/operational reports for merchants (store operations decision support) [Alibaba Qwen (in-house)]",
+   "existence": "confirmed",
+   "value": "ten million analytical reports generated for merchants",
+   "tier": "",
+   "url": "https://www.alibabagroup.com/document-1915930722120499200",
+   "raw_sector": "",
+   "date": "2025-10-16",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Alibaba Group",
+   "use": "DingTalk AI Assistant for enterprise workplace collaboration — real-time meeting transcription, conversation summarization, document drafting, and long-document processing [Alibaba Tongyi Qianwen (in-house)]",
+   "existence": "confirmed",
+   "value": "processes up to 500 pages of text at a time",
+   "tier": "",
+   "url": "https://www.alibabacloud.com/blog/601085",
+   "raw_sector": "",
+   "date": "2024-04-26",
+   "fresh": "aging"
+  },
+  {
+   "company": "Alibaba Group",
+   "use": "Aegaeon GPU pooling system deployed in Alibaba Cloud's model marketplace to serve LLM inference more efficiently, reducing Nvidia GPU count needed for serving models [Alibaba Cloud (in-house); Nvidia GPUs]",
+   "existence": "confirmed",
+   "value": "cut Nvidia AI GPU use by 82%; 213 GPUs perform like 1,192",
+   "tier": "",
+   "url": "https://www.tomshardware.com/tech-industry/semiconductors/alibaba-says-new-pooling-system-cut-nvidia-gpu-use-by-82-percent",
+   "raw_sector": "",
+   "date": "2025-10-20",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Alibaba Group",
    "use": "Qianwen (千问) consumer AI app for AI search, webpage summarization, AI PPT, image generation and transcription",
    "existence": "confirmed",
    "value": "top-3 App Store free ranking",
@@ -69,6 +145,72 @@
    "url": "https://baike.baidu.com/item/千问/66990271",
    "raw_sector": "E-commerce",
    "date": "2025-11",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Alibaba Group",
+   "use": "Dianxiaomi AI customer-service assistant handling merchant/consumer service interactions on Taobao/Tmall [Alibaba Qwen (in-house)]",
+   "existence": "confirmed",
+   "value": "saved RMB 20 million in daily operation costs",
+   "tier": "",
+   "url": "https://www.alibabagroup.com/document-1915930722120499200",
+   "raw_sector": "",
+   "date": "2025-10-16",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Alibaba Group",
+   "use": "Ali Xiaomi (Ali Assistant) — Qwen-powered chatbot enabling Taobao/Tmall merchants to provide automated customer service to shoppers [Alibaba Qwen (in-house)]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.alibabacloud.com/blog/taobao-and-tmall-upgrades-consumer-shopping-experience-and-merchant-support-through-ai_601285",
+   "raw_sector": "",
+   "date": "2024-06-14",
+   "fresh": "aging"
+  },
+  {
+   "company": "Alibaba Group",
+   "use": "Tongyi Lingma AI coding assistant piloted internally for Alibaba engineers (code completion, unit-test generation, debugging); inducted as Alibaba's first 'AI employee' (AI001) [Alibaba Cloud / Tongyi (in-house)]",
+   "existence": "confirmed",
+   "value": "reduced over 70% of the workload for writing test code; expected to write at least 20% of company code",
+   "tier": "",
+   "url": "https://www.alibabacloud.com/blog/alibaba-cloud-pilots-ai-coding-assistant-to-help-employees-write-code_601031",
+   "raw_sector": "",
+   "date": "2024-04-12",
+   "fresh": "aging"
+  },
+  {
+   "company": "Alibaba Group",
+   "use": "AIGC (generative AI) content suite for merchants — generates product marketing images and videos, including video generation from static product photos, on Taobao/Tmall [Alibaba Qwen / Wan (in-house)]",
+   "existence": "confirmed",
+   "value": "~200 million images and 5 million videos generated monthly; over 10% increase in product click-through rates",
+   "tier": "",
+   "url": "https://www.alibabagroup.com/document-1915930722120499200",
+   "raw_sector": "",
+   "date": "2025-10-16",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Alibaba Group",
+   "use": "AI-powered marketing bidding engine for merchant advertising campaigns on Taobao/Tmall [Alibaba Qwen (in-house)]",
+   "existence": "confirmed",
+   "value": "12% marketing ROI improvement",
+   "tier": "",
+   "url": "https://www.alibabagroup.com/document-1915930722120499200",
+   "raw_sector": "",
+   "date": "2025-10-16",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Alibaba Group",
+   "use": "Accio Work — enterprise agentic AI platform from Alibaba International for global B2B businesses (supplier/product research, sourcing, negotiation, store operations, marketing) built on Alibaba's AI stack [Alibaba International / Qwen (in-house)]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.prnewswire.com/apac/news-releases/alibaba-international-launches-accio-work-an-enterprise-ai-agent-for-global-businesses-302721781.html",
+   "raw_sector": "",
+   "date": "2026-03-23",
    "fresh": "fresh"
   }
  ]

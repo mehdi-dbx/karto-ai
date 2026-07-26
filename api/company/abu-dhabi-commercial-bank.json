@@ -3,7 +3,7 @@
  "name": "Abu Dhabi Commercial Bank",
  "cc": "AE",
  "vertical": "Financial Services",
- "deployments": 1,
+ "deployments": 6,
  "confirmed": 1,
  "with_value_number": 0,
  "proof_rate": 0.0,
@@ -11,39 +11,74 @@
  "revenue": 5452000000.0,
  "employees": 5000.0,
  "silent": false,
- "per_bn_revenue": 0.18,
- "per_10k_emp": 2.0,
+ "per_bn_revenue": 1.1,
+ "per_10k_emp": 12.0,
  "benchmarks": {
   "global_vertical": {
-   "deployments": 0,
-   "confirmed": 17,
+   "deployments": 44,
+   "confirmed": 5,
    "proof_rate": 0,
-   "n": 377
+   "n": 388
   },
   "country_vertical": {
-   "deployments": 0,
-   "confirmed": 8,
+   "deployments": 50,
+   "confirmed": 0,
    "proof_rate": 0,
-   "n": 14
+   "n": 15
   }
  },
  "first_seen": 2025,
  "by_year": [
   {
    "year": 2025,
-   "n": 1
+   "n": 2
   }
  ],
- "undated_pct": 0,
+ "undated_pct": 67,
  "momentum": "rising",
  "maturity": "L2",
  "maturity_evidence": [
   "tier_p"
  ],
- "prospect_score": 54,
- "stack": [],
- "vendor_named": false,
+ "prospect_score": 46,
+ "stack": [
+  "Amazon AWS"
+ ],
+ "vendor_named": true,
  "deployments_detail": [
+  {
+   "company": "Abu Dhabi Commercial Bank",
+   "use": "AI-Led Digital Transformation across 150+ use cases",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.adcb.com/en/about-us/media-centre/news/2025/october/ai-led-transformation",
+   "raw_sector": "",
+   "date": "2025-10-27",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Abu Dhabi Commercial Bank",
+   "use": "Generative AI Hackathon use cases in procurement, engineering, retail banking, and treasury [Add Value Machine, AWS]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.addvaluemachine.com/blog-post/adcb-and-add-value-machine-conclude-uaes-first-generative-ai-hackathon-in-banking",
+   "raw_sector": "",
+   "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "Abu Dhabi Commercial Bank",
+   "use": "RAG-powered GenAI Assistant Dashboard for operational efficiency",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.linkedin.com/posts/data-innovation-summit-mea_disummitmea2030-generativeai-llm-activity-7314940905268899841-A2iU",
+   "raw_sector": "",
+   "date": "missing",
+   "fresh": "undated"
+  },
   {
    "company": "Abu Dhabi Commercial Bank",
    "use": "AI-powered conversational virtual assistant in next-gen mobile app; customers interact via voice and text commands",
@@ -54,6 +89,28 @@
    "raw_sector": "Banks",
    "date": "2025",
    "fresh": "fresh"
+  },
+  {
+   "company": "Abu Dhabi Commercial Bank",
+   "use": "AI-powered personalized banking with conversational AI assistant",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.facebook.com/ADCBOfficial/videos/the-future-of-banking-is-no-longer-comingits-already-in-your-handsexperience-per/818585191054818/",
+   "raw_sector": "",
+   "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "Abu Dhabi Commercial Bank",
+   "use": "AI-powered predictive analytics for retail customer lifecycle management and cross-sell [FICO, Network International]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.linkedin.com/posts/fintech-gate-official-page_fintechgate-networkinternational-adcb-activity-7437862533249527808-zLUO",
+   "raw_sector": "",
+   "date": "missing",
+   "fresh": "undated"
   }
  ]
 }

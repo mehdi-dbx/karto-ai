@@ -3,42 +3,65 @@
  "name": "Amcor",
  "cc": "US",
  "vertical": "Chemicals & Materials",
- "deployments": 1,
- "confirmed": 0,
- "with_value_number": 0,
- "proof_rate": 0.0,
+ "deployments": 5,
+ "confirmed": 3,
+ "with_value_number": 1,
+ "proof_rate": 0.2,
  "mktcap": 19800000000.0,
  "revenue": 22190000000.0,
  "employees": 77000.0,
  "silent": false,
- "per_bn_revenue": 0.05,
- "per_10k_emp": 0.13,
+ "per_bn_revenue": 0.23,
+ "per_10k_emp": 0.65,
  "benchmarks": {
   "global_vertical": {
-   "deployments": 0,
-   "confirmed": 0,
-   "proof_rate": 0,
-   "n": 105
+   "deployments": 50,
+   "confirmed": 42,
+   "proof_rate": 46,
+   "n": 107
   },
   "country_vertical": {
-   "deployments": 0,
-   "confirmed": 0,
-   "proof_rate": 0,
+   "deployments": 44,
+   "confirmed": 40,
+   "proof_rate": 60,
    "n": 26
   }
  },
- "first_seen": null,
- "by_year": [],
- "undated_pct": 100,
- "momentum": "none",
- "maturity": "L1",
- "maturity_evidence": [
-  "rows_no_confirmed"
+ "first_seen": 2024,
+ "by_year": [
+  {
+   "year": 2024,
+   "n": 1
+  },
+  {
+   "year": 2025,
+   "n": 2
+  }
  ],
- "prospect_score": 40,
- "stack": [],
- "vendor_named": false,
+ "undated_pct": 40,
+ "momentum": "early_mover,rising",
+ "maturity": "L3",
+ "maturity_evidence": [
+  "multi_horizontal",
+  "named_product:Greyparrot"
+ ],
+ "prospect_score": 50,
+ "stack": [
+  "Microsoft"
+ ],
+ "vendor_named": true,
  "deployments_detail": [
+  {
+   "company": "Amcor",
+   "use": "Industrial AI Assistant for performance monitoring and downtime detection in molding machines [Microsoft Industrial AI Assistant]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.microsoft.com/en-us/microsoft-cloud/blog/manufacturing/2025/02/26/from-data-to-decisions-harnessing-generative-ai-in-manufacturing/",
+   "raw_sector": "",
+   "date": "2025-02-26",
+   "fresh": "fresh"
+  },
   {
    "company": "Amcor",
    "use": "AI/generative design for sustainable packaging (own content); $500K investment in Greyparrot (AI waste-sorting computer vision) — exploratory, not named production deployment",
@@ -52,6 +75,39 @@
   },
   {
    "company": "Amcor",
+   "use": "AI waste analytics for packaging lifecycle tracking and recycling optimization [Greyparrot]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.amcor.com/insights/blogs/driving-packaging-circularity-ai-transforming-waste-management",
+   "raw_sector": "",
+   "date": "2025-04-07",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Amcor",
+   "use": "AI in manufacturing and R&D through Lift-Off Sprints open-call initiative",
+   "existence": "claimed",
+   "value": "$500,000",
+   "tier": "",
+   "url": "https://www.amcor.com/media/news/amcor-open-call-lift-off-sprints-connect",
+   "raw_sector": "",
+   "date": "2024-11-12",
+   "fresh": "aging"
+  },
+  {
+   "company": "Amcor",
+   "use": "Moda AI Vision for meat cut identification and automated sorting into optimal packing lanes",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.youtube.com/watch?v=3sq9WaDPFrw",
+   "raw_sector": "",
+   "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "Amcor",
    "use": "Invested USD 500k in Greyparrot AI computer-vision waste analytics to monitor and sort packaging waste streams for circularity insights",
    "existence": "confirmed",
    "value": "USD 500,000 investment",
@@ -60,6 +116,39 @@
    "raw_sector": "Packaging",
    "date": "2024",
    "fresh": "aging"
+  },
+  {
+   "company": "Amcor",
+   "use": "AI waste analytics for packaging lifecycle tracking and recycling optimization [Greyparrot]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.amcor.com/insights/blogs/driving-packaging-circularity-ai-transforming-waste-management",
+   "raw_sector": "",
+   "date": "Apr 7, 2025",
+   "fresh": "undated"
+  },
+  {
+   "company": "Amcor",
+   "use": "AI vision technology for product scanning and customized bag size dispensing",
+   "existence": "confirmed",
+   "value": "30%",
+   "tier": "",
+   "url": "https://www.amcor.com/media/news/ippe-2025",
+   "raw_sector": "",
+   "date": "Dec 18, 2024",
+   "fresh": "undated"
+  },
+  {
+   "company": "Amcor",
+   "use": "AI for collection and sorting systems in circular packaging",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.amcor.com/sustainability/circularity",
+   "raw_sector": "",
+   "date": "missing",
+   "fresh": "undated"
   },
   {
    "company": "Amcor",
@@ -148,6 +237,17 @@
    "raw_sector": "",
    "date": "2024-06",
    "fresh": "aging"
+  },
+  {
+   "company": "Amcor",
+   "use": "AI in supply chain optimization for delivery routes and demand forecasting",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://futurecio.tech/organisations-tapping-ai-to-see-deeper-and-plan-ahead-in-production/",
+   "raw_sector": "",
+   "date": "Jul 4, 2025",
+   "fresh": "undated"
   }
  ]
 }

@@ -1,0 +1,162 @@
+{
+ "slug": "seb-skandinaviska-enskilda-banken",
+ "name": "SEB (Skandinaviska Enskilda Banken)",
+ "cc": "SE",
+ "vertical": "Financial Services",
+ "deployments": 8,
+ "confirmed": 8,
+ "with_value_number": 3,
+ "proof_rate": 0.375,
+ "mktcap": null,
+ "revenue": null,
+ "employees": null,
+ "silent": false,
+ "per_bn_revenue": null,
+ "per_10k_emp": null,
+ "benchmarks": {
+  "global_vertical": {
+   "deployments": 55,
+   "confirmed": 67,
+   "proof_rate": 67,
+   "n": 388
+  },
+  "country_vertical": {
+   "deployments": 80,
+   "confirmed": 80,
+   "proof_rate": 80,
+   "n": 6
+  }
+ },
+ "first_seen": 2016,
+ "by_year": [
+  {
+   "year": 2016,
+   "n": 1
+  },
+  {
+   "year": 2017,
+   "n": 1
+  },
+  {
+   "year": 2022,
+   "n": 1
+  },
+  {
+   "year": 2023,
+   "n": 1
+  },
+  {
+   "year": 2025,
+   "n": 1
+  },
+  {
+   "year": 2026,
+   "n": 3
+  }
+ ],
+ "undated_pct": 0,
+ "momentum": "early_mover,rising",
+ "maturity": "L4",
+ "maturity_evidence": [
+  "multi_horizontal",
+  "named_product:Aida",
+  "value_number",
+  "multi_year"
+ ],
+ "prospect_score": 73,
+ "stack": [
+  "Google",
+  "Google Cloud"
+ ],
+ "vendor_named": true,
+ "deployments_detail": [
+  {
+   "company": "SEB (Skandinaviska Enskilda Banken)",
+   "use": "SensAIa, an AI-powered advisory tool that transforms private-wealth client meetings into structured insights by automating documentation and extracting themes, sentiment and action points; fully implemented across Private Wealth Management & Family Office advisory teams. Won Best Private Bank for Use of AI at PWM Wealth Tech Awards 2026. [SEB proprietary tool (vendor/stack not disclosed in source)]",
+   "existence": "confirmed",
+   "value": "none (advisers 'save a significant amount of time per call'; no specific figure)",
+   "tier": "",
+   "url": "https://sebgroup.com/press/news/2026/award-winning-ai-frees-up-time-for-proactive-client-interaction",
+   "raw_sector": "",
+   "date": "2026-04-24",
+   "fresh": "fresh"
+  },
+  {
+   "company": "SEB (Skandinaviska Enskilda Banken)",
+   "use": "Tellus ESG data hub, SEB's proprietary sustainability data platform running end-to-end on Google Cloud, applying AI/ML (a component called 'Luna') to estimate and analyse ESG metrics, SDG impact, EU Taxonomy and biodiversity data for portfolio analysis and client dialogues. [Google Cloud Platform (Vertex AI / ML); Tableau for visualization]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://sebgroup.com/our-offering/financing-and-investment-banking/sustainable-financial-products/tellus-data-hub",
+   "raw_sector": "",
+   "date": "2023",
+   "fresh": "stale"
+  },
+  {
+   "company": "SEB (Skandinaviska Enskilda Banken)",
+   "use": "Aida/Ida customer-facing conversational AI on seb.se, answering chat questions, handling account/appointment booking and informational queries for Nordic customers 24/7 in Swedish. [IPsoft (Amelia platform)]",
+   "existence": "confirmed",
+   "value": "91% of customers who used Aida rated the solution as 'very good' or 'good'",
+   "tier": "",
+   "url": "https://sebgroup.com/press/news/2017/seb-awarded-for-innovative-use-of-ai-technology",
+   "raw_sector": "",
+   "date": "2017",
+   "fresh": "stale"
+  },
+  {
+   "company": "SEB (Skandinaviska Enskilda Banken)",
+   "use": "AI agent for the wealth-management division, built with Google Cloud and support from Bain & Company, that enhances end-customer conversations with suggested responses and generates call summaries. (May be the underlying/related implementation of SensAIa.) [Google Cloud (Gemini / Vertex AI); Bain & Company]",
+   "existence": "confirmed",
+   "value": "~15% increase in efficiency",
+   "tier": "",
+   "url": "https://cloud.google.com/transform/101-real-world-generative-ai-use-cases-from-industry-leaders",
+   "raw_sector": "",
+   "date": "2026-04-22",
+   "fresh": "fresh"
+  },
+  {
+   "company": "SEB (Skandinaviska Enskilda Banken)",
+   "use": "Aida, an internal digital assistant at SEB's IT Service Desk, helping employees resolve common IT support issues; live since 2016 and cited as reducing resolution times for routine IT requests. [IPsoft (Amelia platform), rebranded Aida by SEB]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.constellationr.com/research/how-seb-bank-uses-ai-increase-customer-and-employee-engagement",
+   "raw_sector": "",
+   "date": "2016",
+   "fresh": "stale"
+  },
+  {
+   "company": "SEB (Skandinaviska Enskilda Banken)",
+   "use": "Software/robotic process automation fleet across the Baltics performing loan agreements, leasing offers, KYC procedures and data archiving; combined with machine learning and OCR/image recognition to process scanned documents and images (e.g., distinguishing building exteriors from interiors). [not named (custom RPA + ML/OCR)]",
+   "existence": "confirmed",
+   "value": "82 software robots across the Baltics doing work of 50+ full-time employees, ~200,000 repetitive actions per month",
+   "tier": "",
+   "url": "https://www.seb.lv/en/how-artificial-intelligence-and-robots-help-bank-become-more-efficient-and-smarter",
+   "raw_sector": "",
+   "date": "2022-06-15",
+   "fresh": "stale"
+  },
+  {
+   "company": "SEB (Skandinaviska Enskilda Banken)",
+   "use": "SEB Latvija custom-built machine-learning systems for document processing and text classification, identity-document recognition, signature detection and template-based element extraction, run in-house for GDPR/security reasons; in production for several years with continuous performance monitoring. [SEB in-house (custom ML)]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://eei-institute.eu/wp-content/uploads/2026/01/Fact-sheet-6-AI@Work-BC-AIC-SEB-Latvija.pdf",
+   "raw_sector": "",
+   "date": "2026-01",
+   "fresh": "fresh"
+  },
+  {
+   "company": "SEB (Skandinaviska Enskilda Banken)",
+   "use": "SEBx innovation studio uses SparkBeyond's AI-powered decision-intelligence platform to discover customer insights and explore new fintech opportunities, informing the launch of UNQUO, a financial service for solo business owners. [SparkBeyond]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.sparkbeyond.ai/press/seb-partners-with-sparkbeyond-to-explore-new-technologies-through-its-innovation-studio-sebx",
+   "raw_sector": "",
+   "date": "2025-02-04",
+   "fresh": "fresh"
+  }
+ ]
+}

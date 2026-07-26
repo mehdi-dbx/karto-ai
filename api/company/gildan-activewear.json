@@ -3,22 +3,22 @@
  "name": "Gildan Activewear",
  "cc": "CA",
  "vertical": "Manufacturing & Robotics",
- "deployments": 2,
- "confirmed": 0,
+ "deployments": 4,
+ "confirmed": 1,
  "with_value_number": 1,
- "proof_rate": 0.5,
+ "proof_rate": 0.25,
  "mktcap": 10220588235.0,
  "revenue": 4154411765.0,
  "employees": 75000.0,
  "silent": false,
- "per_bn_revenue": 0.48,
- "per_10k_emp": 0.27,
+ "per_bn_revenue": 0.96,
+ "per_10k_emp": 0.53,
  "benchmarks": {
   "global_vertical": {
-   "deployments": 64,
-   "confirmed": 0,
-   "proof_rate": 74,
-   "n": 147
+   "deployments": 42,
+   "confirmed": 14,
+   "proof_rate": 67,
+   "n": 150
   }
  },
  "first_seen": 2025,
@@ -28,16 +28,27 @@
    "n": 1
   }
  ],
- "undated_pct": 50,
+ "undated_pct": 75,
  "momentum": "rising",
- "maturity": "L1",
+ "maturity": "L2",
  "maturity_evidence": [
-  "rows_no_confirmed"
+  "single_confirmed"
  ],
- "prospect_score": 20,
+ "prospect_score": 44,
  "stack": [],
  "vendor_named": false,
  "deployments_detail": [
+  {
+   "company": "Gildan Activewear",
+   "use": "AI-powered robots for warehouse automation and material handling in distribution center",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://members.asicentral.com/news/industry-news/june-2025/gildan-implements-ai-powered-robots-in-its-eden-nc-distribution-center/",
+   "raw_sector": "",
+   "date": "Jun 13, 2025",
+   "fresh": "undated"
+  },
   {
    "company": "Gildan Activewear",
    "use": "AI-powered putaway/picking robots (~19) working with staff to transport product cases at Eden NC distribution center",
@@ -57,6 +68,17 @@
    "tier": "I",
    "url": "https://www.scaleai.ca/funded-projects/advanced-logistics-and-inventory-for-gildans-network-align/",
    "raw_sector": "Apparel",
+   "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "Gildan Activewear",
+   "use": "Advanced Logistics and Inventory for Gildan's Network (ALIGN) - automating inventory allocation and truck load building",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.scaleai.ca/funded-projects/advanced-logistics-and-inventory-for-gildans-network-align/",
+   "raw_sector": "",
    "date": "missing",
    "fresh": "undated"
   }

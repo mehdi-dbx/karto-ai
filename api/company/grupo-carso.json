@@ -3,27 +3,27 @@
  "name": "Grupo Carso",
  "cc": "MX",
  "vertical": "Retail & E-commerce",
- "deployments": 1,
- "confirmed": 0,
- "with_value_number": 0,
- "proof_rate": 0.0,
+ "deployments": 9,
+ "confirmed": 7,
+ "with_value_number": 5,
+ "proof_rate": 0.556,
  "mktcap": null,
  "revenue": 5368888889.0,
  "employees": 72944.0,
  "silent": false,
- "per_bn_revenue": 0.19,
- "per_10k_emp": 0.14,
+ "per_bn_revenue": 1.68,
+ "per_10k_emp": 1.23,
  "benchmarks": {
   "global_vertical": {
-   "deployments": 0,
-   "confirmed": 0,
-   "proof_rate": 0,
-   "n": 295
+   "deployments": 64,
+   "confirmed": 69,
+   "proof_rate": 87,
+   "n": 301
   },
   "country_vertical": {
-   "deployments": 0,
-   "confirmed": 0,
-   "proof_rate": 0,
+   "deployments": 50,
+   "confirmed": 50,
+   "proof_rate": 88,
    "n": 9
   }
  },
@@ -31,21 +31,45 @@
  "by_year": [
   {
    "year": 2024,
+   "n": 2
+  },
+  {
+   "year": 2025,
+   "n": 6
+  },
+  {
+   "year": 2026,
    "n": 1
   }
  ],
  "undated_pct": 0,
- "momentum": "early_mover,gone_quiet",
- "maturity": "L1",
+ "momentum": "early_mover,rising",
+ "maturity": "L4",
  "maturity_evidence": [
-  "rows_no_confirmed"
+  "multi_horizontal",
+  "named_product:Launched",
+  "value_number",
+  "multi_year"
  ],
- "prospect_score": 40,
+ "prospect_score": 60,
  "stack": [
-  "Amazon AWS"
+  "Amazon AWS",
+  "Oracle",
+  "Salesforce"
  ],
  "vendor_named": true,
  "deployments_detail": [
+  {
+   "company": "Grupo Carso",
+   "use": "T1 marketing AI agents: AI generates logos and business names automatically, selects templates/photos/page sections optimized for conversion, and gives proactive recommendations on marketing campaign budgets and expected visitor projections. [AWS Amazon Bedrock]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://forbes.com.mx/nieto-de-slim-lanza-t1-plataforma-que-facilita-el-e-commerce-a-pymes/",
+   "raw_sector": "",
+   "date": "2025-12-03",
+   "fresh": "fresh"
+  },
   {
    "company": "Grupo Carso",
    "use": "T1 e-commerce platform marketed as AI-first (built on AWS) to manage creation, operations and logistics for online stores",
@@ -56,6 +80,83 @@
    "raw_sector": "Industrials",
    "date": "2024",
    "fresh": "aging"
+  },
+  {
+   "company": "Grupo Carso",
+   "use": "T1 AI store builder: generative AI that creates fully functional online stores in under a minute from a plain text description, auto-generating product descriptions, images, categories, store names and logos. Launched Dec 2, 2025 by Grupo Carso (also backed by Inbursa, Sanborns, America Movil); AWS is the technology partner. [AWS Amazon Bedrock]",
+   "existence": "confirmed",
+   "value": "8,000+ active businesses; platform has processed 150M+ transactions and 20M+ shipments",
+   "tier": "",
+   "url": "https://dplnews.com/grupo-carso-presenta-t1-plataforma-de-comercio-electronico-ai-first-con-tecnologia-de-aws/",
+   "raw_sector": "",
+   "date": "2025-12-02",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Grupo Carso",
+   "use": "T1 intelligent logistics orchestrator: AI that optimizes and routes deliveries across multiple carriers (DHL, FedEx, UPS and others) and a unified console managing inventory and orders across 10+ marketplaces (Amazon, Mercado Libre, Walmart, TikTok Shop, Sears, Sanborns). [AWS Amazon Bedrock]",
+   "existence": "confirmed",
+   "value": "20M+ shipments managed",
+   "tier": "",
+   "url": "https://fastcompany.mx/2025/12/02/t1-la-plataforma-mexicana-que-crea-en-minutos-tiendas-en-linea-usando-ia/",
+   "raw_sector": "",
+   "date": "2025-12-02",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Grupo Carso",
+   "use": "Grupo Sanborns 2026 digital-transformation program: reducing physical store openings to concentrate investment in technology for e-commerce, logistics and customer experience, deploying an Oracle ERP and a Salesforce commerce/sales platform; a dedicated Data & AI team drives the effort (AI role not fully detailed). [Salesforce, Oracle]",
+   "existence": "claimed",
+   "value": "targets margins above 6% and improved results by 2027",
+   "tier": "",
+   "url": "https://www.eleconomista.com.mx/empresas/sanborns-reducira-aperturas-aumentara-inversion-tecnologia-aumentar-ventas-20260211-799433.html",
+   "raw_sector": "",
+   "date": "2026-02-11",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Grupo Carso",
+   "use": "T1 AI customer-service agents: 24/7 voice and text AI agents for merchants' stores that answer FAQs with human-like fluency, schedule appointments and add them to a calendar; part of the AI-first e-commerce ecosystem. [AWS Amazon Bedrock]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.eluniversal.com.mx/techbit/asi-es-t1com-la-apuesta-de-ia-de-elias-slim-para-vendedores/",
+   "raw_sector": "",
+   "date": "2025-12-02",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Grupo Carso",
+   "use": "Claro Shop (Claroshop, operated by Grupo Sanborns) generative-AI conversational shopping assistant built with Nubiral: uses RAG over internal docs, store policies and product APIs to answer shopper questions in ~10 seconds for a more interactive purchase experience. [AWS Amazon Bedrock, Nubiral (RAG; Lambda, S3, DynamoDB)]",
+   "existence": "confirmed",
+   "value": "assistant answers 95% of queries with relevant information",
+   "tier": "",
+   "url": "https://nubiral.com/claro-shop-y-nubiral-revolucionan-la-experiencia-de-compra-con-aws-ia-generativa/",
+   "raw_sector": "",
+   "date": "2024-01-01",
+   "fresh": "aging"
+  },
+  {
+   "company": "Grupo Carso",
+   "use": "Sears Mexico (Grupo Sanborns) AI chat/virtual assistant on sears.com.mx and WhatsApp: an on-site AI chat assistant for shopping help and customer service, displaying the standard generative-AI disclaimer 'La IA puede cometer errores. Verifique las respuestas.' [none]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.sears.com.mx/c/atencion-digital/",
+   "raw_sector": "",
+   "date": "2025-01-01",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Grupo Carso",
+   "use": "T1 Score AI anti-fraud: AI validates a merchant's fiscal and banking documentation to activate payments and confirm the business is not fraudulent, approving payments while reducing fraud losses. [AWS]",
+   "existence": "confirmed",
+   "value": "payment approval rate above 86% (stated highest in Latin America)",
+   "tier": "",
+   "url": "https://forbes.com.mx/nieto-de-slim-lanza-t1-plataforma-que-facilita-el-e-commerce-a-pymes/",
+   "raw_sector": "",
+   "date": "2025-12-03",
+   "fresh": "fresh"
   }
  ]
 }

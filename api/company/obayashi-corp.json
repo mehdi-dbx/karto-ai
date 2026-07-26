@@ -3,27 +3,27 @@
  "name": "Obayashi Corp.",
  "cc": "JP",
  "vertical": "Real Estate & Construction",
- "deployments": 2,
- "confirmed": 2,
- "with_value_number": 0,
- "proof_rate": 0.0,
+ "deployments": 8,
+ "confirmed": 6,
+ "with_value_number": 1,
+ "proof_rate": 0.125,
  "mktcap": 14933333333.0,
  "revenue": 17266666667.0,
  "employees": 18031.0,
  "silent": false,
- "per_bn_revenue": 0.12,
- "per_10k_emp": 1.11,
+ "per_bn_revenue": 0.46,
+ "per_10k_emp": 4.44,
  "benchmarks": {
   "global_vertical": {
-   "deployments": 82,
-   "confirmed": 88,
-   "proof_rate": 0,
+   "deployments": 79,
+   "confirmed": 80,
+   "proof_rate": 44,
    "n": 154
   },
   "country_vertical": {
-   "deployments": 43,
-   "confirmed": 57,
-   "proof_rate": 0,
+   "deployments": 86,
+   "confirmed": 79,
+   "proof_rate": 14,
    "n": 15
   }
  },
@@ -35,12 +35,70 @@
  "maturity_evidence": [
   "multi_horizontal",
   "named_product:AICORB",
+  "value_number",
   "tier_p"
  ],
- "prospect_score": 60,
- "stack": [],
- "vendor_named": false,
+ "prospect_score": 71,
+ "stack": [
+  "Amazon AWS"
+ ],
+ "vendor_named": true,
  "deployments_detail": [
+  {
+   "company": "Obayashi Corp.",
+   "use": "Smart building system with Vantiq Intelligent Platform integration for WELCS place® [Vantiq]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.linkedin.com/posts/smartcitiescouncilapac_vantiq-obayashi-panasonic-activity-7318424734461767680-Auyg",
+   "raw_sector": "",
+   "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "Obayashi Corp.",
+   "use": "IoT and AI-driven smart buildings for business continuity",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://ir.obayashi.co.jp/en/ir/data/report/main/0111118/teaserItems2/02/linkList/0/link/ir2025en.pdf",
+   "raw_sector": "",
+   "date": "Oct 4, 2025",
+   "fresh": "undated"
+  },
+  {
+   "company": "Obayashi Corp.",
+   "use": "AiCorb - AI-based façade design generation from photos and drawings [SRI]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.obayashi.co.jp/en/news/detail/news20220322_1_en.html",
+   "raw_sector": "",
+   "date": "Mar 22, 2022",
+   "fresh": "undated"
+  },
+  {
+   "company": "Obayashi Corp.",
+   "use": "WellnessBOX - IoT and AI for optimal building environment and worker wellness",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.obayashi.co.jp/chronicle/130th/en/archives/chapter4_1_18.html",
+   "raw_sector": "",
+   "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "Obayashi Corp.",
+   "use": "AI capabilities for data analysis and semi-automatic preliminary studies in design [Unity]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://unity.com/resources/obayashi",
+   "raw_sector": "",
+   "date": "Feb 5, 2025",
+   "fresh": "undated"
+  },
   {
    "company": "Obayashi Corp.",
    "use": "\"AICORB\" AI auto-design + structural design support AI (expert knowledge → formulas)",
@@ -60,6 +118,17 @@
    "tier": "P",
    "url": "https://www.obayashi.co.jp/news/",
    "raw_sector": "Construction",
+   "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "Obayashi Corp.",
+   "use": "AWS HPC for wind analysis and urban environmental simulations [AWS]",
+   "existence": "confirmed",
+   "value": "640x",
+   "tier": "",
+   "url": "https://aws.amazon.com/solutions/case-studies/obayashi/",
+   "raw_sector": "",
    "date": "missing",
    "fresh": "undated"
   }

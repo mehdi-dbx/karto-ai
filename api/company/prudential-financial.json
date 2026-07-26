@@ -3,48 +3,112 @@
  "name": "Prudential Financial",
  "cc": "US",
  "vertical": "Financial Services",
- "deployments": 1,
- "confirmed": 1,
- "with_value_number": 1,
- "proof_rate": 1.0,
+ "deployments": 11,
+ "confirmed": 10,
+ "with_value_number": 6,
+ "proof_rate": 0.545,
  "mktcap": 40760000000.0,
  "revenue": 63290000000.0,
  "employees": 36824.0,
  "silent": false,
- "per_bn_revenue": 0.02,
- "per_10k_emp": 0.27,
+ "per_bn_revenue": 0.17,
+ "per_10k_emp": 2.99,
  "benchmarks": {
   "global_vertical": {
-   "deployments": 0,
-   "confirmed": 17,
-   "proof_rate": 76,
-   "n": 377
+   "deployments": 72,
+   "confirmed": 78,
+   "proof_rate": 83,
+   "n": 388
   },
   "country_vertical": {
-   "deployments": 0,
-   "confirmed": 19,
-   "proof_rate": 81,
-   "n": 76
+   "deployments": 68,
+   "confirmed": 74,
+   "proof_rate": 93,
+   "n": 77
   }
  },
- "first_seen": 2026,
+ "first_seen": 2025,
  "by_year": [
   {
+   "year": 2025,
+   "n": 4
+  },
+  {
    "year": 2026,
-   "n": 1
+   "n": 7
   }
  ],
  "undated_pct": 0,
- "momentum": "late_entrant,rising",
- "maturity": "L3",
+ "momentum": "rising",
+ "maturity": "L4",
  "maturity_evidence": [
+  "multi_horizontal",
   "named_product:Just Ask",
-  "value_number"
+  "value_number",
+  "multi_year"
  ],
- "prospect_score": 14,
- "stack": [],
- "vendor_named": false,
+ "prospect_score": 78,
+ "stack": [
+  "Amazon AWS",
+  "Salesforce"
+ ],
+ "vendor_named": true,
  "deployments_detail": [
+  {
+   "company": "Prudential Financial",
+   "use": "AWS-built enterprise multi-agent platform (financial advisor assistant): an orchestration agent routes requests to five specialized sub-agents (Quick Quote, Forms, Product, Illustration, Book of Business), replacing manual navigation across 50-60 IT systems. Built with the AWS GenAI Innovation Center on Amazon Bedrock + SageMaker with a centralized LLM gateway; presented at AWS re:Invent 2025. [AWS (Amazon Bedrock, SageMaker); AWS GenAI Innovation Center]",
+   "existence": "confirmed",
+   "value": "More than 100,000 advisors using it in production; new AI use-case turnaround cut from 6-8 weeks to 3-4 weeks",
+   "tier": "",
+   "url": "https://www.zenml.io/llmops-database/building-a-microservices-based-multi-agent-platform-for-financial-advisors",
+   "raw_sector": "",
+   "date": "2025",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Prudential Financial",
+   "use": "Pace agentic AI agents streamlining policy servicing and quality assurance within Prudential's Individual Life Insurance (ILI) business; moved from pilot to live production under a multi-year agreement. [Pace (withpace.com)]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.businesswire.com/news/home/20251203008504/en/Pace-selected-by-Prudential-Financial-to-help-automate-its-insurance-operations-with-agentic-AI",
+   "raw_sector": "",
+   "date": "2025-12-03",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Prudential Financial",
+   "use": "AI-assisted claims processing and customer service: AI extracts data from customer conversations, policy systems, and documents to automate routine steps, reducing call and case handling times and shrinking life insurance claims from weeks to days. [none disclosed]",
+   "existence": "confirmed",
+   "value": "Reduced call and case handling times by up to 20%; claims cut from weeks to days",
+   "tier": "",
+   "url": "https://news.prudential.com/us-en/latest-news/prudential-news/2026/q2/AI-at-Prudential-Amplifying-human-potential-to-better-serve-our-customers",
+   "raw_sector": "",
+   "date": "2026-05-13",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Prudential Financial",
+   "use": "AI-built pricing models for annuity products, accelerating the actuarial/product pricing process. [none disclosed]",
+   "existence": "confirmed",
+   "value": "Pricing models built in one-fifth of the time it used to take",
+   "tier": "",
+   "url": "https://news.prudential.com/us-en/latest-news/prudential-news/2026/q2/AI-at-Prudential-Amplifying-human-potential-to-better-serve-our-customers",
+   "raw_sector": "",
+   "date": "2026-05-13",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Prudential Financial",
+   "use": "Neutrinos Underwriting Automation Suite for Simplified Solutions (a Prudential ILI unit): AI composer/orchestrator to automate underwriting, claims management, and distribution channels for embedded-distribution life insurance, enabling touchless operations and intelligent servicing. [Neutrinos]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.lifeinsuranceinternational.com/news/prudential-financial-neutrinos-life-business/",
+   "raw_sector": "",
+   "date": "2025-05-23",
+   "fresh": "fresh"
+  },
   {
    "company": "Prudential Financial",
    "use": "260+ active AI use cases, 2,300+ employees using agentic AI; \"Just Ask\" AI tool for financial pros + automated underwriting (Pace)",
@@ -54,6 +118,61 @@
    "url": "https://news.prudential.com/us-en/latest-news/prudential-news/2026/q2/AI-at-Prudential-Amplifying-human-potential-to-better-serve-our-customers",
    "raw_sector": "Financials",
    "date": "2026",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Prudential Financial",
+   "use": "\"Nadia,\" a personalized AI coaching platform for employees supporting learning, development, and career growth; part of broader agentic AI rollout (2,300+ employees using agentic AI, 260+ AI use cases active). [none disclosed]",
+   "existence": "confirmed",
+   "value": "2,300+ employees using agentic AI tools; 260+ AI use cases in development or production",
+   "tier": "",
+   "url": "https://news.prudential.com/us-en/latest-news/prudential-news/2026/q2/AI-at-Prudential-Amplifying-human-potential-to-better-serve-our-customers",
+   "raw_sector": "",
+   "date": "2026-05-13",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Prudential Financial",
+   "use": "Agentic AI used to speed up software development across the technology organization; supported by a Tech-Ready Academy training staff in LLMs, prompt engineering, and agentic AI. [none disclosed]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://news.prudential.com/us-en/latest-news/prudential-news/2026/q2/AI-at-Prudential-Amplifying-human-potential-to-better-serve-our-customers",
+   "raw_sector": "",
+   "date": "2026-05-13",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Prudential Financial",
+   "use": "\"Just Ask\" AI-powered assistant for Individual Life Insurance financial professionals/distributors: quick access to product information, underwriting quick quotes (generating certain underwriting rates in minutes vs. several business days), and new-business forms. [none disclosed (AWS-associated per AWS event session)]",
+   "existence": "confirmed",
+   "value": "~85% of first-time users reported the tool was helpful in answering their questions",
+   "tier": "",
+   "url": "https://news.prudential.com/us-en/latest-news/prudential-news/2026/q2/Prudential-Individual-Life-Insurance-introduces-Just-Ask-expanding-the-use-of-AI-to-support-financial-professionals",
+   "raw_sector": "",
+   "date": "2026-05-18",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Prudential Financial",
+   "use": "Salesforce Agentforce agentic AI for Retirement Strategies / Global Retirement & Insurance wholesalers: automates meeting recaps, client detail lookup, and follow-up tasks so wholesalers can focus on advisor relationships. [Salesforce (Agentforce)]",
+   "existence": "confirmed",
+   "value": "Saves around half a day a week of a wholesaler's time",
+   "tier": "",
+   "url": "https://diginomica.com/ai-and-financial-services-how-prudential-insurance-putting-humans-and-agents-work-agentforce-better",
+   "raw_sector": "",
+   "date": "2025-05-21",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Prudential Financial",
+   "use": "PGIM (Prudential's asset management arm) sales chatbot giving Global Wealth wholesalers instant access to fund placement data, performance, fees, and commissions. [none disclosed]",
+   "existence": "confirmed",
+   "value": "Handled nearly 5,000 queries as of May 2026; answers in seconds instead of minutes",
+   "tier": "",
+   "url": "https://news.prudential.com/us-en/latest-news/prudential-news/2026/q2/AI-at-Prudential-Amplifying-human-potential-to-better-serve-our-customers",
+   "raw_sector": "",
+   "date": "2026-05-13",
    "fresh": "fresh"
   }
  ]

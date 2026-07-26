@@ -3,43 +3,69 @@
  "name": "Sumitomo Electric Industries, Ltd.",
  "cc": "JP",
  "vertical": "Chemicals & Materials",
- "deployments": 2,
- "confirmed": 2,
- "with_value_number": 2,
- "proof_rate": 1.0,
+ "deployments": 10,
+ "confirmed": 8,
+ "with_value_number": 7,
+ "proof_rate": 0.7,
  "mktcap": 51000000000.0,
  "revenue": 34066666667.0,
  "employees": 302972.0,
  "silent": false,
- "per_bn_revenue": 0.06,
- "per_10k_emp": 0.07,
+ "per_bn_revenue": 0.29,
+ "per_10k_emp": 0.33,
  "benchmarks": {
   "global_vertical": {
-   "deployments": 75,
-   "confirmed": 75,
-   "proof_rate": 75,
-   "n": 105
+   "deployments": 86,
+   "confirmed": 86,
+   "proof_rate": 96,
+   "n": 107
   },
   "country_vertical": {
-   "deployments": 47,
-   "confirmed": 47,
-   "proof_rate": 59,
+   "deployments": 79,
+   "confirmed": 79,
+   "proof_rate": 94,
    "n": 35
   }
  },
- "first_seen": null,
- "by_year": [],
- "undated_pct": 100,
- "momentum": "none",
- "maturity": "L3",
+ "first_seen": 2022,
+ "by_year": [
+  {
+   "year": 2022,
+   "n": 1
+  },
+  {
+   "year": 2023,
+   "n": 2
+  },
+  {
+   "year": 2024,
+   "n": 3
+  },
+  {
+   "year": 2025,
+   "n": 1
+  },
+  {
+   "year": 2026,
+   "n": 1
+  }
+ ],
+ "undated_pct": 20,
+ "momentum": "early_mover,cooling",
+ "maturity": "L4",
  "maturity_evidence": [
+  "multi_horizontal",
   "named_product:Group",
   "value_number",
+  "multi_year",
   "tier_p"
  ],
- "prospect_score": 20,
- "stack": [],
- "vendor_named": false,
+ "prospect_score": 60,
+ "stack": [
+  "Microsoft Azure",
+  "OpenAI"
+ ],
+ "vendor_named": true,
  "deployments_detail": [
   {
    "company": "Sumitomo Electric Industries, Ltd.",
@@ -62,6 +88,94 @@
    "raw_sector": "Nonferrous Metals",
    "date": "missing",
    "fresh": "undated"
+  },
+  {
+   "company": "Sumitomo Electric Industries, Ltd.",
+   "use": "Materials Informatics (MI) and Process Informatics (PI) for next-gen materials R&D on cloud HPC, running AI/ML and GAN-based virtual material screening [Rescale]",
+   "existence": "confirmed",
+   "value": "10x AI application performance; 50% reduction in material development time; 5x increase in new patents",
+   "tier": "",
+   "url": "https://rescale.com/resources/sumitomo-electric-industries-redefines-rd-innovation-with-ai-on-rescale/",
+   "raw_sector": "",
+   "date": "2023-11",
+   "fresh": "stale"
+  },
+  {
+   "company": "Sumitomo Electric Industries, Ltd.",
+   "use": "GAN-based synthetic (pseudo) defect image generation to train visual defect-detection AI for manufacturing quality inspection, reducing needed real defect images from ~500 to ~100 per product [DataGrid (GAN); Sumitomo Electric]",
+   "existence": "confirmed",
+   "value": "80% reduction in defect-detection AI development period",
+   "tier": "",
+   "url": "https://sumitomoelectric.com/jp/press/2022/09/prs116",
+   "raw_sector": "",
+   "date": "2022-09",
+   "fresh": "stale"
+  },
+  {
+   "company": "Sumitomo Electric Industries, Ltd.",
+   "use": "Image-generation AI applied to train appearance-inspection AI for ceramics and cables, plus an internal tool letting inspection business units generate defect patterns themselves; deployed internally [generative/image-generation AI (DataGrid collaboration)]",
+   "existence": "confirmed",
+   "value": "development period cut from ~4 years to 2-3 months",
+   "tier": "",
+   "url": "https://xtech.nikkei.com/atcl/nxt/column/18/00001/09794/",
+   "raw_sector": "",
+   "date": "2024-12",
+   "fresh": "aging"
+  },
+  {
+   "company": "Sumitomo Electric Industries, Ltd.",
+   "use": "NEXUSEYE road-crossing detection sensor combining mmWave radar with a camera and proprietary AI image processing to classify pedestrians, cyclists, wheelchair and white-cane users for traffic safety [Sumitomo Electric (proprietary AI image processing)]",
+   "existence": "confirmed",
+   "value": "detection accuracy 95%+; radar range up to 60m",
+   "tier": "",
+   "url": "https://sumitomoelectric.com/press/2024/09/prs042",
+   "raw_sector": "",
+   "date": "2024-10",
+   "fresh": "aging"
+  },
+  {
+   "company": "Sumitomo Electric Industries, Ltd.",
+   "use": "LLM combined with Materials Informatics to extract and restructure decades of unformatted past research data (Word/Excel, plots) for reuse in materials development; PoC across ~3 organizational units [Emuni (LLM)]",
+   "existence": "claimed",
+   "value": "research data extraction described as hundreds of times faster than manual",
+   "tier": "",
+   "url": "https://www.emuniinc.jp/service/customer-cases/sumitomoelectric",
+   "raw_sector": "",
+   "date": "2026-03",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Sumitomo Electric Industries, Ltd.",
+   "use": "AI-based traffic infrastructure sensing (fusing mmWave radar and camera images to detect vehicles/pedestrians) and probe-data-based signal control that forecasts future road conditions for smart-city traffic management [Sumitomo Electric]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://sumitomoelectric.com/rd/automotive",
+   "raw_sector": "",
+   "date": "2024",
+   "fresh": "aging"
+  },
+  {
+   "company": "Sumitomo Electric Industries, Ltd.",
+   "use": "Group-wide RAG platform built on QuickSolution enterprise search + generative AI, letting ~290,000 group employees globally query 400TB / 1.8M internal documents and 50k intranet pages in natural language with permission-aware answers [Sumitomo Electric Information Systems (QuickSolution); generative AI (ChatGPT / Azure OpenAI)]",
+   "existence": "confirmed",
+   "value": "290,000 employees; 400TB / 1.8M documents; RAG built in ~2 weeks",
+   "tier": "",
+   "url": "https://dcross.impress.co.jp/docs/usecase/003940.html",
+   "raw_sector": "",
+   "date": "2025-03",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Sumitomo Electric Industries, Ltd.",
+   "use": "Group-wide rollout of a secure ChatGPT environment for all employees to use generative AI safely in daily work [OpenAI ChatGPT]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.sei-info.co.jp/quicksolution/news/news-qs20250307/",
+   "raw_sector": "",
+   "date": "2023-10",
+   "fresh": "stale"
   }
  ]
 }

@@ -3,43 +3,60 @@
  "name": "CPFL Energia",
  "cc": "BR",
  "vertical": "Energy & Utilities",
- "deployments": 1,
- "confirmed": 1,
+ "deployments": 4,
+ "confirmed": 2,
  "with_value_number": 0,
  "proof_rate": 0.0,
  "mktcap": 9966666667.0,
  "revenue": 8342592593.0,
  "employees": 16040.0,
  "silent": false,
- "per_bn_revenue": 0.12,
- "per_10k_emp": 0.62,
+ "per_bn_revenue": 0.48,
+ "per_10k_emp": 2.49,
  "benchmarks": {
   "global_vertical": {
-   "deployments": 0,
-   "confirmed": 20,
+   "deployments": 40,
+   "confirmed": 30,
    "proof_rate": 0,
-   "n": 210
+   "n": 213
   },
   "country_vertical": {
-   "deployments": 0,
-   "confirmed": 0,
+   "deployments": 67,
+   "confirmed": 33,
    "proof_rate": 0,
    "n": 19
   }
  },
- "first_seen": null,
- "by_year": [],
- "undated_pct": 100,
- "momentum": "none",
+ "first_seen": 2026,
+ "by_year": [
+  {
+   "year": 2026,
+   "n": 2
+  }
+ ],
+ "undated_pct": 50,
+ "momentum": "late_entrant,rising",
  "maturity": "L3",
  "maturity_evidence": [
+  "multi_horizontal",
   "named_product:Machine",
   "tier_p"
  ],
- "prospect_score": 54,
+ "prospect_score": 60,
  "stack": [],
  "vendor_named": false,
  "deployments_detail": [
+  {
+   "company": "CPFL Energia",
+   "use": "Robotic Process Automation (RPA) for operational efficiency [Automation Anywhere]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.automationanywhere.com/resources/customer-stories/cpfl",
+   "raw_sector": "",
+   "date": "missing",
+   "fresh": "undated"
+  },
   {
    "company": "CPFL Energia",
    "use": "Machine learning applied to a real-time system to reduce unnecessary/improper field service calls (chamados improcedentes)",
@@ -50,6 +67,28 @@
    "raw_sector": "Utilidade pública, energia e saneamento",
    "date": "missing",
    "fresh": "undated"
+  },
+  {
+   "company": "CPFL Energia",
+   "use": "AI-based battery energy storage systems (BESS) with autonomous substations",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.bnamericas.com/en/features/cpfl-energia-prepares-autonomous-substations-and-ai-based-bess-project",
+   "raw_sector": "",
+   "date": "2026-05-19",
+   "fresh": "fresh"
+  },
+  {
+   "company": "CPFL Energia",
+   "use": "Artificial Intelligence applications for operational expansion",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.grupocpfl.com.br/sites/default/files/2026-05/CPFL2025_ENG%20%281%29.pdf",
+   "raw_sector": "",
+   "date": "2026-03-31",
+   "fresh": "fresh"
   }
  ]
 }

@@ -3,22 +3,22 @@
  "name": "Boliden",
  "cc": "SE",
  "vertical": "Mining & Materials",
- "deployments": 2,
- "confirmed": 2,
- "with_value_number": 0,
- "proof_rate": 0.0,
+ "deployments": 7,
+ "confirmed": 5,
+ "with_value_number": 1,
+ "proof_rate": 0.143,
  "mktcap": 13421904762.0,
  "revenue": 9872380952.0,
  "employees": 7500.0,
  "silent": false,
- "per_bn_revenue": 0.2,
- "per_10k_emp": 2.67,
+ "per_bn_revenue": 0.71,
+ "per_10k_emp": 9.33,
  "benchmarks": {
   "global_vertical": {
-   "deployments": 78,
-   "confirmed": 85,
-   "proof_rate": 0,
-   "n": 61
+   "deployments": 75,
+   "confirmed": 72,
+   "proof_rate": 54,
+   "n": 62
   }
  },
  "first_seen": 2023,
@@ -28,16 +28,20 @@
    "n": 1
   }
  ],
- "undated_pct": 50,
+ "undated_pct": 86,
  "momentum": "early_mover,gone_quiet",
  "maturity": "L3",
  "maturity_evidence": [
+  "multi_horizontal",
   "named_product:Autonomous",
+  "value_number",
   "tier_p"
  ],
- "prospect_score": 60,
- "stack": [],
- "vendor_named": false,
+ "prospect_score": 64,
+ "stack": [
+  "Microsoft Azure"
+ ],
+ "vendor_named": true,
  "deployments_detail": [
   {
    "company": "Boliden",
@@ -60,6 +64,61 @@
    "raw_sector": "Mining",
    "date": "2023",
    "fresh": "stale"
+  },
+  {
+   "company": "Boliden",
+   "use": "Mine automation and process control through applied artificial intelligence",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.linkedin.com/posts/future-bridge-sro_mining40-boliden-aiinmining-activity-7336025192734904321-EQtd",
+   "raw_sector": "",
+   "date": "1 year ago",
+   "fresh": "undated"
+  },
+  {
+   "company": "Boliden",
+   "use": "AI to optimize concentration processes",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.boliden.com/news/can-ai-optimize-our-processes/",
+   "raw_sector": "",
+   "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "Boliden",
+   "use": "AI-based solution for process control optimization to reduce emissions and improve safety",
+   "existence": "confirmed",
+   "value": "5-10%",
+   "tier": "",
+   "url": "https://www.insta.fi/en/industry/references/industrial-ai-will-create-significant-value-in-business-case-boliden/",
+   "raw_sector": "",
+   "date": "Oct 4, 2019",
+   "fresh": "undated"
+  },
+  {
+   "company": "Boliden",
+   "use": "AI to analyse video streams for automated 24/7 monitoring [Azure Cognitive Services, Machine Learning]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://holisticon.pl/cases/boliden-case-study/",
+   "raw_sector": "",
+   "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "Boliden",
+   "use": "AI vision system to automatically detect foreign objects on conveyor belts",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.instagram.com/p/DaPN8qhEbEv/",
+   "raw_sector": "",
+   "date": "missing",
+   "fresh": "undated"
   }
  ]
 }

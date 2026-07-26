@@ -3,7 +3,7 @@
  "name": "RWE",
  "cc": "DE",
  "vertical": "Energy & Utilities",
- "deployments": 1,
+ "deployments": 3,
  "confirmed": 1,
  "with_value_number": 0,
  "proof_rate": 0.0,
@@ -11,14 +11,14 @@
  "revenue": 19828800000.0,
  "employees": 19969.0,
  "silent": false,
- "per_bn_revenue": 0.05,
- "per_10k_emp": 0.5,
+ "per_bn_revenue": 0.15,
+ "per_10k_emp": 1.5,
  "benchmarks": {
   "global_vertical": {
-   "deployments": 0,
-   "confirmed": 20,
+   "deployments": 25,
+   "confirmed": 7,
    "proof_rate": 0,
-   "n": 210
+   "n": 213
   }
  },
  "first_seen": null,
@@ -30,10 +30,23 @@
   "named_product:RWE",
   "tier_p"
  ],
- "prospect_score": 54,
- "stack": [],
- "vendor_named": false,
+ "prospect_score": 46,
+ "stack": [
+  "OpenAI"
+ ],
+ "vendor_named": true,
  "deployments_detail": [
+  {
+   "company": "RWE",
+   "use": "Corporate GPT for process automation and optimization",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.rwe.com/en/research-and-development/digitalisation-at-rwe/digital-guidelines/",
+   "raw_sector": "",
+   "date": "missing",
+   "fresh": "undated"
+  },
   {
    "company": "RWE",
    "use": "RWE AI Research Laboratory building leading AI weather/energy forecasting models (temperature, precipitation, wind) for renewables; AI guidelines for internal process optimization",
@@ -42,6 +55,17 @@
    "tier": "P",
    "url": "https://www.rwe.com/forschung-und-entwicklung/digitalisierung-at-rwe/rwe-ai-research-laboratory/",
    "raw_sector": "Utilities",
+   "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "RWE",
+   "use": "Forecasting models for energy production",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.rwe.com/en/research-and-development/digitalisation-at-rwe/rwe-ai-research-laboratory/",
+   "raw_sector": "",
    "date": "missing",
    "fresh": "undated"
   }

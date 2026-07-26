@@ -3,48 +3,55 @@
  "name": "Lloyds Banking Group",
  "cc": "UK",
  "vertical": "Financial Services",
- "deployments": 2,
- "confirmed": 2,
- "with_value_number": 1,
- "proof_rate": 0.5,
+ "deployments": 10,
+ "confirmed": 8,
+ "with_value_number": 3,
+ "proof_rate": 0.3,
  "mktcap": 84404200000.0,
  "revenue": 24295100000.0,
  "employees": 60061.0,
  "silent": false,
- "per_bn_revenue": 0.08,
- "per_10k_emp": 0.33,
+ "per_bn_revenue": 0.41,
+ "per_10k_emp": 1.66,
  "benchmarks": {
   "global_vertical": {
-   "deployments": 62,
-   "confirmed": 73,
-   "proof_rate": 61,
-   "n": 377
+   "deployments": 65,
+   "confirmed": 67,
+   "proof_rate": 54,
+   "n": 388
   },
   "country_vertical": {
-   "deployments": 86,
+   "deployments": 91,
    "confirmed": 91,
-   "proof_rate": 82,
+   "proof_rate": 73,
    "n": 23
   }
  },
- "first_seen": 2026,
+ "first_seen": 2025,
  "by_year": [
   {
+   "year": 2025,
+   "n": 5
+  },
+  {
    "year": 2026,
-   "n": 1
+   "n": 3
   }
  ],
- "undated_pct": 50,
- "momentum": "late_entrant,rising",
- "maturity": "L3",
+ "undated_pct": 20,
+ "momentum": "rising",
+ "maturity": "L4",
  "maturity_evidence": [
   "multi_horizontal",
   "named_product:Copilot",
   "value_number",
+  "multi_year",
   "tier_p"
  ],
- "prospect_score": 32,
+ "prospect_score": 76,
  "stack": [
+  "Google",
+  "Google Cloud",
   "Microsoft"
  ],
  "vendor_named": true,
@@ -62,6 +69,50 @@
   },
   {
    "company": "Lloyds Banking Group",
+   "use": "Generative AI value realization across multiple use cases",
+   "existence": "confirmed",
+   "value": "£50 million in 2025",
+   "tier": "",
+   "url": "https://www.lloydsbankinggroup.com/media/press-releases/2026/lloyds-banking-group/ai-driven-benefits-2026.html",
+   "raw_sector": "",
+   "date": "2026-01-29",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Lloyds Banking Group",
+   "use": "AI platform migration to cloud for data science and AI capabilities [Google Cloud]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.googlecloudpresscorner.com/2025-04-09-Lloyds-Banking-Group-Accelerates-AI-Innovation-with-Google-Cloud",
+   "raw_sector": "",
+   "date": "2025-04-09",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Lloyds Banking Group",
+   "use": "Microsoft Copilot for employee productivity - email drafting, summarization, meeting preparation and recording [Microsoft Copilot]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://ukstories.microsoft.com/features/lloyds-banking-group-using-ai-at-scale-to-transform-operations-and-employee-experience/",
+   "raw_sector": "",
+   "date": "2025-10-20",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Lloyds Banking Group",
+   "use": "Dialogue with Data - conversational analytics using GenAI",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.lloydsbankinggroup.com/insights/dialogue-with-data-translating-natural-language-into-queries-usi.html",
+   "raw_sector": "",
+   "date": "2025-10-08",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Lloyds Banking Group",
    "use": "First UK lender to pilot an AI tool to help customers make investment decisions (regulator studying impact)",
    "existence": "confirmed",
    "value": "none",
@@ -69,6 +120,50 @@
    "url": "https://www.reuters.com/business/finance/lloyds-pilots-ai-investment-guidance-tool-uk-regulator-studies-impact-2026-04-21/",
    "raw_sector": "Banks",
    "date": "2026",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Lloyds Banking Group",
+   "use": "Adopted Gemini Enterprise Agent Platform on customer data for AI use cases including an income-verification algorithm for mortgage applications and transaction classification/pricing [Google Cloud] [Google Cloud]",
+   "existence": "confirmed",
+   "value": "Mortgage income-verification step reduced from days to seconds; 27 CO2 tonnes of operational emissions saved",
+   "tier": "",
+   "url": "https://cloud.google.com/customers/lloydsbankinggroup",
+   "raw_sector": "",
+   "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "Lloyds Banking Group",
+   "use": "GenAI solutions for in-app search, customer operations, and support across branches and call centres",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.lloydsbankinggroup.com/media/press-releases/2025/lloyds-banking-group-2025/lloyds-banking-group-unveils-uks-first-ai-powered-financial-assistant.html",
+   "raw_sector": "",
+   "date": "2025-11-06",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Lloyds Banking Group",
+   "use": "AI-powered financial assistant",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.lloydsbankinggroup.com/media/press-releases/2025/lloyds-banking-group-2025/lloyds-banking-group-unveils-uks-first-ai-powered-financial-assistant.html",
+   "raw_sector": "",
+   "date": "2025-11-06",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Lloyds Banking Group",
+   "use": "Agentic AI system for real-time fraud protection",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.lloydsbankinggroup.com/media/press-releases/2026/lloyds-banking-group/lloyds-banking-group-deploys-agentic-ai-to-strengthen-real-time-.html",
+   "raw_sector": "",
+   "date": "2026-06-08",
    "fresh": "fresh"
   }
  ]

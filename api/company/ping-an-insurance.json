@@ -3,42 +3,54 @@
  "name": "Ping An Insurance",
  "cc": "CN",
  "vertical": "Financial Services",
- "deployments": 2,
- "confirmed": 2,
- "with_value_number": 1,
- "proof_rate": 0.5,
+ "deployments": 13,
+ "confirmed": 12,
+ "with_value_number": 11,
+ "proof_rate": 0.846,
  "mktcap": 130355555556.0,
  "revenue": 132348611111.0,
  "employees": 258806.0,
  "silent": false,
- "per_bn_revenue": 0.02,
- "per_10k_emp": 0.08,
+ "per_bn_revenue": 0.1,
+ "per_10k_emp": 0.5,
  "benchmarks": {
   "global_vertical": {
-   "deployments": 62,
-   "confirmed": 73,
-   "proof_rate": 61,
-   "n": 377
+   "deployments": 87,
+   "confirmed": 90,
+   "proof_rate": 98,
+   "n": 388
   },
   "country_vertical": {
-   "deployments": 76,
-   "confirmed": 76,
-   "proof_rate": 32,
-   "n": 26
+   "deployments": 85,
+   "confirmed": 85,
+   "proof_rate": 85,
+   "n": 28
   }
  },
- "first_seen": null,
- "by_year": [],
- "undated_pct": 100,
- "momentum": "none",
- "maturity": "L3",
+ "first_seen": 2025,
+ "by_year": [
+  {
+   "year": 2025,
+   "n": 6
+  },
+  {
+   "year": 2026,
+   "n": 5
+  }
+ ],
+ "undated_pct": 15,
+ "momentum": "rising",
+ "maturity": "L4",
  "maturity_evidence": [
   "multi_horizontal",
   "named_product:AI in All",
-  "value_number"
+  "value_number",
+  "multi_year"
  ],
- "prospect_score": 32,
- "stack": [],
+ "prospect_score": 66,
+ "stack": [
+  "DeepSeek"
+ ],
  "vendor_named": true,
  "deployments_detail": [
   {
@@ -54,6 +66,17 @@
   },
   {
    "company": "Ping An Insurance",
+   "use": "Express Service AI assistant: a customer-facing AI assistant integrating 300+ digital services across insurance, banking, securities and healthcare for Ping An's 251 million customers; interprets user intent and coordinates processes. Peak daily usage reached 1.1 million visits; monthly users tripled over three months. [Ping An (in-house)]",
+   "existence": "confirmed",
+   "value": "251 million customers; 300+ services; 1.1 million peak daily visits",
+   "tier": "",
+   "url": "https://group.pingan.com/media/news/2026/pingan-unveils-innovative-ai-solutions-in-healthcare-insurance-and-payments-at-waic-2026.html",
+   "raw_sector": "",
+   "date": "2026-07",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Ping An Insurance",
    "use": "Cross-listed (also in CSI300) — \"AI in All\", vertical LLMs across underwriting/claims/service",
    "existence": "confirmed",
    "value": "(see row 2)",
@@ -65,6 +88,83 @@
   },
   {
    "company": "Ping An Insurance",
+   "use": "Intelligent Policy Issuance Robot for auto insurance: AI automatically issues new vehicle insurance policies. 93% of new vehicle insurance policies are handled by the robot, cutting processing time from six minutes to 1.2 minutes. [Ping An P&C (in-house)]",
+   "existence": "confirmed",
+   "value": "93% of new vehicle policies; 6 min to 1.2 min",
+   "tier": "",
+   "url": "https://group.pingan.com/media/news/2026/pingan-unveils-innovative-ai-solutions-in-healthcare-insurance-and-payments-at-waic-2026.html",
+   "raw_sector": "",
+   "date": "2026-07",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Ping An Insurance",
+   "use": "AI-powered image-based damage assessment for auto insurance claims (smart instant claims): drivers upload photos, AI assesses damage and dispenses compensation, reducing claims processing from hours to minutes. [Ping An P&C / OneConnect (in-house)]",
+   "existence": "confirmed",
+   "value": "hours reduced to minutes; settles some claims in ~2 minutes",
+   "tier": "",
+   "url": "https://group.pingan.com/media/perspectives/2025/driving-innovation-with-generative-ai.html",
+   "raw_sector": "",
+   "date": "2025-03",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Ping An Insurance",
+   "use": "Ping An Xin Yi AI doctor assistant: AI-powered digital-avatar physicians on the Ping An Health app providing 24/7 consultations, triage, and assisted diagnosis, built on an LLM with DeepSeek integration and Ping An's five medical databases. [Ping An Health; DeepSeek]",
+   "existence": "confirmed",
+   "value": "triage accuracy >99%; assisted diagnosis accuracy >95%; family doctor efficiency +30%",
+   "tier": "",
+   "url": "https://www.prnewswire.com/news-releases/ping-an-health-launches-ping-an-xin-yi-ai-doctor-assistant-service-to-enhance-accessibility-and-satisfaction-in-medical-services-302385892.html",
+   "raw_sector": "",
+   "date": "2025-02",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Ping An Insurance",
+   "use": "Intelligent underwriting: AI reduces initial policy review time to ~1.5 hours, doubles average daily processing volume per underwriter, and increases risk interception rate; ~93% of policies underwritten within seconds. [Ping An (in-house)]",
+   "existence": "confirmed",
+   "value": "initial review ~1.5 hours; risk interception +16%; 93% underwritten in seconds",
+   "tier": "",
+   "url": "https://group.pingan.com/media/news/2026/pingan-unveils-innovative-ai-solutions-in-healthcare-insurance-and-payments-at-waic-2026.html",
+   "raw_sector": "",
+   "date": "2026-07",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Ping An Insurance",
+   "use": "'111 Fast Claim' life & health insurance claims: AI-driven claims service delivering an average 7.4-minute processing time. [Ping An Life (in-house)]",
+   "existence": "confirmed",
+   "value": "7.4-minute average claim processing",
+   "tier": "",
+   "url": "https://group.pingan.com/media/perspectives/2025/driving-innovation-with-generative-ai.html",
+   "raw_sector": "",
+   "date": "2025-03",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Ping An Insurance",
+   "use": "Ping An Good Doctor 'AI Family Doctor': AI + physician model providing 24/7 diagnosis support across 11,300+ diseases to ~90 million monthly active users on the health app. [Ping An Good Doctor (in-house)]",
+   "existence": "confirmed",
+   "value": "90 million MAU; 11,300+ diseases covered",
+   "tier": "",
+   "url": "https://group.pingan.com/media/news/2026/pingan-unveils-innovative-ai-solutions-in-healthcare-insurance-and-payments-at-waic-2026.html",
+   "raw_sector": "",
+   "date": "2026-07",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Ping An Insurance",
+   "use": "OneConnect (Ping An associate) 'dual-engine' AI agent platform combining open-source DeepSeek and Qwen models with a proprietary AI Agent Platform on private cloud, applied to wealth management, lending, remote banking and office assistance for financial-institution clients. [OneConnect Financial Technology; DeepSeek; Qwen (Alibaba)]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://group.pingan.com/media/perspectives/2025/driving-innovation-with-generative-ai.html",
+   "raw_sector": "",
+   "date": "2025-03",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Ping An Insurance",
    "use": "Self-developed large models across underwriting, pricing, claims and operations; auto-insurance cost reduced by 1 percentage point via AI across underwriting/claims/marketing",
    "existence": "confirmed",
    "value": "1 percentage point auto-insurance cost reduction",
@@ -72,6 +172,61 @@
    "url": "https://finance.sina.com.cn/jryx/insurance/2025-08-27/doc-infnkyfe0725544.shtml",
    "raw_sector": "Insurance",
    "date": "2025-08",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Ping An Insurance",
+   "use": "AI-enabled digital underwriting for life insurance policies using big data and machine learning [Ping An (in-house)]",
+   "existence": "confirmed",
+   "value": "94% of life insurance policies underwritten within seconds in 2025",
+   "tier": "",
+   "url": "https://group.pingan.com/about_us/our_businesses/technology.html",
+   "raw_sector": "",
+   "date": "2025",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Ping An Insurance",
+   "use": "AI-driven claims processing including Ping An Life '111 Fast Claim' (one-sentence reporting, one-click upload, one-minute validation) and automated personal injury claims [Ping An (in-house)]",
+   "existence": "confirmed",
+   "value": "70% of personal injury claims settled automatically (as fast as 51 seconds); average claim processing time 7.4 minutes",
+   "tier": "",
+   "url": "https://group.pingan.com/media/perspectives/2025/driving-innovation-with-generative-ai.html",
+   "raw_sector": "",
+   "date": "2025",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Ping An Insurance",
+   "use": "Ping An Xin Yi AI doctor assistant: digital-human avatars of real doctors giving 24/7 consultations, report interpretation, triage and medication reminders, built on the self-developed 'Ping An Medical Master' multimodal medical model plus DeepSeek [Ping An Health (Ping An Medical Master) + DeepSeek]",
+   "existence": "confirmed",
+   "value": "Triage accuracy rate exceeding 99%; assisted diagnosis accuracy over 95%",
+   "tier": "",
+   "url": "https://www.prnewswire.com/news-releases/ping-an-health-launches-ping-an-xin-yi-ai-doctor-assistant-service-to-enhance-accessibility-and-satisfaction-in-medical-services-302385892.html",
+   "raw_sector": "",
+   "date": "2025-02",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Ping An Insurance",
+   "use": "Deployment of open-source generative AI models (DeepSeek, Qwen) integrated with proprietary systems for medical diagnostics (Ping An Health) and OneConnect's dual-engine AI Agent Platform for wealth management, lending, remote banking and office assistance [DeepSeek, Qwen (Alibaba) + OneConnect AI Agent Platform]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://group.pingan.com/media/perspectives/2025/driving-innovation-with-generative-ai.html",
+   "raw_sector": "",
+   "date": "2025-02",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Ping An Insurance",
+   "use": "AI-assisted intelligent auto insurance policy issuance for the auto dealer channel [Ping An (in-house)]",
+   "existence": "confirmed",
+   "value": "93% of policies sold via auto dealer channel intelligently issued within one minute on average in 2025",
+   "tier": "",
+   "url": "https://group.pingan.com/about_us/our_businesses/technology.html",
+   "raw_sector": "",
+   "date": "2025",
    "fresh": "fresh"
   },
   {
@@ -87,12 +242,111 @@
   },
   {
    "company": "Ping An Insurance",
+   "use": "AI voice agents performing loan-repayment / debt-recovery calls at Ping An Bank, adjusting tone to customer responses [Ping An Bank (in-house)]",
+   "existence": "confirmed",
+   "value": "AI handled 70% of Ping An Bank's RMB500 billion of loan recoveries in 2025",
+   "tier": "",
+   "url": "https://www.insurancejournal.com/news/international/2026/03/31/864014.htm",
+   "raw_sector": "",
+   "date": "2025",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Ping An Insurance",
    "use": "PingAnGPT-Qwen3-32B financial LLM for compliance, risk control, fact reasoning and knowledge Q&A",
    "existence": "confirmed",
    "value": "top rank in CNFinBench benchmark",
    "tier": "P",
    "url": "https://baike.baidu.com/item/PingAnGPT-Qwen3-32B/67524265",
    "raw_sector": "Insurance",
+   "date": "2025",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Ping An Insurance",
+   "use": "Smart fraud detection in property & casualty (auto) insurance claims to intercept fraudulent/inflated claims [Ping An P&C (in-house)]",
+   "existence": "confirmed",
+   "value": "RMB10.51 billion in claims savings via smart fraud detection in 2025 (over RMB10bn for third consecutive year)",
+   "tier": "",
+   "url": "https://group.pingan.com/about_us/our_businesses/technology.html",
+   "raw_sector": "",
+   "date": "2025",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Ping An Insurance",
+   "use": "EagleX AI risk mitigation platform: integrates more than 100 risk models to assess flood-prone locations, urban flooding and catastrophe risk for insurance underwriting and disaster prevention. [Ping An P&C (in-house)]",
+   "existence": "confirmed",
+   "value": "100+ risk models",
+   "tier": "",
+   "url": "https://group.pingan.com/media/news/2026/pingan-unveils-innovative-ai-solutions-in-healthcare-insurance-and-payments-at-waic-2026.html",
+   "raw_sector": "",
+   "date": "2026-07",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Ping An Insurance",
+   "use": "PAOBank and OneConnect Anti-Fraud Strategy Platform: AI-powered facial recognition verifies user selfies in real time to detect forged/deepfake and synthetically generated faces; 25+ modules covering document verification, deepfake detection and device risk. Selected for HKMA GenA.I. Sandbox second cohort. [PAOBank; OneConnect Financial Technology]",
+   "existence": "claimed",
+   "value": "99% deepfake detection success rate; 25+ modules",
+   "tier": "",
+   "url": "https://group.pingan.com/media/news/2025/paobank-and-oneconnect-join-hkmas-second-cohort-of-genai-sandbox.html",
+   "raw_sector": "",
+   "date": "2025-10",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Ping An Insurance",
+   "use": "Voiceprint recognition for customer identity verification across Ping An's financial and insurance services, used to authenticate users; medical imaging multi-disease diagnostics with >90% accuracy also deployed. [Ping An Technology (in-house)]",
+   "existence": "confirmed",
+   "value": "voiceprint accuracy >99%; medical imaging accuracy >90%",
+   "tier": "",
+   "url": "https://group.pingan.com/media/perspectives/2025/driving-innovation-with-generative-ai.html",
+   "raw_sector": "",
+   "date": "2025-03",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Ping An Insurance",
+   "use": "AI service representatives / agents handling customer service interactions across the group [Ping An (in-house AI agents)]",
+   "existence": "confirmed",
+   "value": "~1,702 million customer service interactions in 2025, ~80% of total service volume",
+   "tier": "",
+   "url": "https://group.pingan.com/about_us/our_businesses/technology.html",
+   "raw_sector": "",
+   "date": "2025",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Ping An Insurance",
+   "use": "Ping An Bank intelligent voice outbound service using generative AI and predictive analytics to automate complex customer conversations and personalized banking outreach [Ping An Bank (in-house generative AI)]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.theasianbanker.com/updates-and-articles/best-chatbot-voice-banking-service-in-asia-pacific-for-outstanding-improvements-in-customer-interaction-2025",
+   "raw_sector": "",
+   "date": "2025",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Ping An Insurance",
+   "use": "AI sales agents that perform customer demand analysis, personalized product recommendations, sales pitches and follow-up across insurance channels [Ping An (in-house AI agents)]",
+   "existence": "confirmed",
+   "value": "RMB133.18 billion in sales realized via AI agents in 2025",
+   "tier": "",
+   "url": "https://group.pingan.com/about_us/our_businesses/technology.html",
+   "raw_sector": "",
+   "date": "2025",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Ping An Insurance",
+   "use": "AI-assisted coding / code generation tools used across the group's software development [Ping An (in-house)]",
+   "existence": "confirmed",
+   "value": "AI code penetration rate reached 35.49% in 2025",
+   "tier": "",
+   "url": "https://group.pingan.com/about_us/our_businesses/technology.html",
+   "raw_sector": "",
    "date": "2025",
    "fresh": "fresh"
   }

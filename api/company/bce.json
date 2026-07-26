@@ -3,22 +3,22 @@
  "name": "BCE",
  "cc": "CA",
  "vertical": "Telecom",
- "deployments": 10,
- "confirmed": 8,
+ "deployments": 14,
+ "confirmed": 10,
  "with_value_number": 5,
- "proof_rate": 0.5,
+ "proof_rate": 0.357,
  "mktcap": 20705882353.0,
  "revenue": 18169117647.0,
  "employees": 38683.0,
  "silent": false,
- "per_bn_revenue": 0.55,
- "per_10k_emp": 2.59,
+ "per_bn_revenue": 0.77,
+ "per_10k_emp": 3.62,
  "benchmarks": {
   "global_vertical": {
-   "deployments": 85,
-   "confirmed": 88,
-   "proof_rate": 58,
-   "n": 93
+   "deployments": 88,
+   "confirmed": 78,
+   "proof_rate": 57,
+   "n": 94
   }
  },
  "first_seen": 2021,
@@ -33,11 +33,11 @@
   },
   {
    "year": 2025,
-   "n": 5
+   "n": 6
   },
   {
    "year": 2026,
-   "n": 1
+   "n": 4
   }
  ],
  "undated_pct": 0,
@@ -50,9 +50,12 @@
   "multi_year",
   "tier_p"
  ],
- "prospect_score": 68,
+ "prospect_score": 86,
  "stack": [
-  "Cohere"
+  "Cohere",
+  "Google",
+  "Google Cloud",
+  "ServiceNow"
  ],
  "vendor_named": true,
  "deployments_detail": [
@@ -65,6 +68,50 @@
    "url": "https://www.bce.ca/news-and-media/newsroom?article=bell-canada-and-buzz-hpc-partner-to-advance-sovereign-accelerated-gpu-infrastructure-at-bell-ai-fabr",
    "raw_sector": "Telecom",
    "date": "2025",
+   "fresh": "fresh"
+  },
+  {
+   "company": "BCE",
+   "use": "Sovereign AI infrastructure development and deployment on Canadian infrastructure [Cohere]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.bce.ca/news-and-media/newsroom?article=%2FBell-AI-Fabric-Cohere-Hypertec-and-BUZZ-HPC-announce-landmark-deal-to-advance-sovereign-AI-in-Canada",
+   "raw_sector": "",
+   "date": "2026-06-18",
+   "fresh": "fresh"
+  },
+  {
+   "company": "BCE",
+   "use": "Bell AI Fabric - AI infrastructure platform",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/bce-bets-ai-fiber-growth-061024746.html",
+   "raw_sector": "",
+   "date": "2026-05-09",
+   "fresh": "fresh"
+  },
+  {
+   "company": "BCE",
+   "use": "AI data centre expansion - 300 MW Saskatchewan facility",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.prnewswire.com/news-releases/bell-ai-fabric-expands-national-network-with-300-mw-data-centre-in-saskatchewan-892263812.html",
+   "raw_sector": "",
+   "date": "2026-03-16",
+   "fresh": "fresh"
+  },
+  {
+   "company": "BCE",
+   "use": "Six AI data centres in British Columbia",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.baystreet.ca/amp/articles/techinsider.aspx?articleid=111942",
+   "raw_sector": "",
+   "date": "2025-05-29",
    "fresh": "fresh"
   },
   {

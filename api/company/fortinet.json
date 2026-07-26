@@ -3,43 +3,216 @@
  "name": "Fortinet",
  "cc": "US",
  "vertical": "Technology",
- "deployments": 1,
- "confirmed": 1,
- "with_value_number": 0,
- "proof_rate": 0.0,
+ "deployments": 14,
+ "confirmed": 13,
+ "with_value_number": 1,
+ "proof_rate": 0.071,
  "mktcap": 111470000000.0,
  "revenue": 7110000000.0,
  "employees": 15109.0,
  "silent": false,
- "per_bn_revenue": 0.14,
- "per_10k_emp": 0.66,
+ "per_bn_revenue": 1.97,
+ "per_10k_emp": 9.27,
  "benchmarks": {
   "global_vertical": {
-   "deployments": 0,
-   "confirmed": 6,
-   "proof_rate": 0,
-   "n": 156
+   "deployments": 88,
+   "confirmed": 94,
+   "proof_rate": 36,
+   "n": 159
   },
   "country_vertical": {
-   "deployments": 0,
-   "confirmed": 4,
-   "proof_rate": 0,
+   "deployments": 88,
+   "confirmed": 96,
+   "proof_rate": 41,
    "n": 74
   }
  },
- "first_seen": null,
- "by_year": [],
- "undated_pct": 100,
- "momentum": "none",
- "maturity": "L3",
+ "first_seen": 2018,
+ "by_year": [
+  {
+   "year": 2018,
+   "n": 1
+  },
+  {
+   "year": 2022,
+   "n": 2
+  },
+  {
+   "year": 2023,
+   "n": 3
+  },
+  {
+   "year": 2024,
+   "n": 1
+  },
+  {
+   "year": 2025,
+   "n": 3
+  },
+  {
+   "year": 2026,
+   "n": 3
+  }
+ ],
+ "undated_pct": 7,
+ "momentum": "early_mover,rising",
+ "maturity": "L4",
  "maturity_evidence": [
+  "multi_horizontal",
   "named_product:FortiAI",
+  "value_number",
+  "multi_year",
   "tier_p"
  ],
- "prospect_score": 54,
- "stack": [],
- "vendor_named": false,
+ "prospect_score": 97,
+ "stack": [
+  "NVIDIA"
+ ],
+ "vendor_named": true,
  "deployments_detail": [
+  {
+   "company": "Fortinet",
+   "use": "FortiAI-Assist / Fortinet Advisor: a generative-AI security assistant embedded across the Security Fabric that guides, simplifies and automates SecOps analyst work (alert triage, incident enrichment, threat investigation, config-script generation). Launched as 'Fortinet Advisor' in Dec 2023 and now GA as FortiAI-Assist. [Fortinet (FortiAI, GenAI); model not publicly disclosed]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.fortinet.com/corporate/about-us/newsroom/press-releases/2023/fortinet-advisor-a-generative-ai-assistant-accelerating-threat-investigation-and-remediation",
+   "raw_sector": "",
+   "date": "2023-12-11",
+   "fresh": "stale"
+  },
+  {
+   "company": "Fortinet",
+   "use": "FortiGuard AI-powered Security Services: FortiGuard Labs uses AI, ML and deep learning to deliver real-time, proactive threat detection and threat intelligence at machine speed across the attack surface. [Fortinet (FortiGuard AI/ML/deep learning)]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://investor.fortinet.com/news-releases/news-release-details/fortiguard-artificial-intelligence-ai-delivers-proactive-threat/",
+   "raw_sector": "",
+   "date": "2023-08-01",
+   "fresh": "stale"
+  },
+  {
+   "company": "Fortinet",
+   "use": "FortiNDR Network Detection and Response: uses purpose-built machine learning and deep neural networks to detect cyberattacks based on anomalous network activity and automate investigation/response. [Fortinet (ML + deep neural networks)]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.fortinet.com/corporate/about-us/newsroom/press-releases/2022/fortinet-introduces-self-learning-ai-capabitilies-new-network-detection",
+   "raw_sector": "",
+   "date": "2022-05-24",
+   "fresh": "stale"
+  },
+  {
+   "company": "Fortinet",
+   "use": "FortiSandbox / FortiGuard AI-based Inline Malware Prevention Service: AI-powered real-time inspection of files with purpose-built ML to block zero-day and previously unknown file-based threats inline at the gateway. [Fortinet (purpose-built ML/AI sandbox)]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.fortinet.com/products/fortisandbox",
+   "raw_sector": "",
+   "date": "2024-11-12",
+   "fresh": "aging"
+  },
+  {
+   "company": "Fortinet",
+   "use": "FortiAIOps: AI/ML engine for IT/network operations that collects data, identifies pattern anomalies, and optimizes LAN, Wireless LAN and SD-WAN network management, now with a FortiAI Agent for actionable insights. [Fortinet (AI/ML)]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://investor.fortinet.com/news-releases/news-release-details/fortinet-introduces-enhanced-aiops-capabilities-across-its-sd",
+   "raw_sector": "",
+   "date": "2022-09-27",
+   "fresh": "stale"
+  },
+  {
+   "company": "Fortinet",
+   "use": "FortiAIGate: an AI runtime security gateway deployed between applications and LLMs that manages traffic flows and applies guardrails to protect large language models from prompt injection, data leakage and model manipulation. [Fortinet (FortiAIGate); integrated with NVIDIA AI platforms]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.fortinet.com/content/dam/fortinet/assets/solution-guides/sb-secure-ai-workloads-llms-fortiaigate.pdf",
+   "raw_sector": "",
+   "date": "2025-11-11",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Fortinet",
+   "use": "FortiSOC: a unified cloud-delivered SOC platform (SIEM + SOAR + threat intel + identity threat detection) powered by agentic AI, with autonomous investigation, AI-generated playbooks, and Model Context Protocol (MCP)-powered agent coordination via FortiAI-Assist. [Fortinet (FortiAI-Assist agentic AI, MCP); model not disclosed]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.fortinet.com/corporate/about-us/newsroom/press-releases/2026/fortinet-launches-fortisoc-unified-soc-platform-powered-by-agentic-ai",
+   "raw_sector": "",
+   "date": "2026-06-16",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Fortinet",
+   "use": "Fortinet + NVIDIA AI Factory security: FortiGate-VM (FortiOS 7.6.3) runs directly on NVIDIA BlueField-3 DPUs, embedding firewalling, segmentation and policy enforcement into AI data-center infrastructure and offloading security inspection from the host. [NVIDIA (BlueField-3 DPU) + Fortinet (FortiOS/FortiGate-VM)]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.fortinet.com/corporate/about-us/newsroom/press-releases/2025/fortinet-delivers-isolated-infrastructure-acceleration-for-the-ai-factory-with-nvidia",
+   "raw_sector": "",
+   "date": "2025-12-16",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Fortinet",
+   "use": "Vocus Secure Shield with Fortinet: a SASE-delivered service (launched with Australian telco Vocus) that uses Fortinet's deep application awareness and inline DLP to detect shadow-AI usage and flag/block sensitive data before it reaches public LLMs. [Fortinet (FortiSASE/deep app awareness, inline DLP) + Vocus]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.vocus.com.au/news/vocus-launches-secure-shield-sase",
+   "raw_sector": "",
+   "date": "2026-05-03",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Fortinet",
+   "use": "FortiEndpoint AI-era expansion: new AI visibility, native DLP/data protection, endpoint risk scoring and FortiAI-Assist delivered through one agent/console/license to let organizations safely adopt AI (data-loss controls for AI use expected Q3 2026). [Fortinet (FortiEndpoint, FortiAI-Assist)]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.globenewswire.com/news-release/2026/07/14/3326925/0/en/fortinet-expands-fortiendpoint-with-new-capabilities-for-the-ai-era.html",
+   "raw_sector": "",
+   "date": "2026-07-14",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Fortinet",
+   "use": "FortiMail Email Security: multi-layered email protection combining advanced detection engines powered by machine learning (ML) and large language models (LLM) to block phishing, BEC and malware. [Fortinet (ML + LLM)]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.fortinet.com/products/email-security",
+   "raw_sector": "",
+   "date": "2025-10-23",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Fortinet",
+   "use": "FortiWeb Web Application Firewall: AI-based machine-learning function that automatically models and detects malicious web traffic and bots, going beyond signature-based detection. [Fortinet (ML-based anomaly detection)]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.fortinet.com/blog/business-and-technology/fortiweb-release-6-0--ai-based-machine-learning-for-advanced-thr",
+   "raw_sector": "",
+   "date": "2018-06-05",
+   "fresh": "stale"
+  },
+  {
+   "company": "Fortinet",
+   "use": "Fortinet Security Operations (FortiAI/SecOps) AI-driven detection & response: AI used across the SecOps suite to slash time to detect and contain threats. Fortinet reports triage time reduced from ~8 hours to 10 minutes and containment from 4.2 hours to ~1 minute. [Fortinet (FortiAI/FortiGuard AI/ML)]",
+   "existence": "confirmed",
+   "value": "Time to triage reduced from 8 hours to 10 minutes; time to contain reduced from 4.2 hours to 1 minute",
+   "tier": "",
+   "url": "https://investor.fortinet.com/news-releases/news-release-details/fortinet-security-operations-solutions-use-ai-slash-time-detect",
+   "raw_sector": "",
+   "date": "2023-08-01",
+   "fresh": "stale"
+  },
   {
    "company": "Fortinet",
    "use": "\"FortiAI\" + FortiAI-Assist agentic AI across Security Fabric (threat detection, SOC automation, LLM/model protection)",

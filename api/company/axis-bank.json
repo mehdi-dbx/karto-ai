@@ -3,28 +3,28 @@
  "name": "Axis Bank",
  "cc": "IN",
  "vertical": "Financial Services",
- "deployments": 2,
- "confirmed": 1,
- "with_value_number": 2,
- "proof_rate": 1.0,
+ "deployments": 5,
+ "confirmed": 2,
+ "with_value_number": 3,
+ "proof_rate": 0.6,
  "mktcap": 45783132530.0,
  "revenue": 9286867470.0,
  "employees": 101337.0,
  "silent": false,
- "per_bn_revenue": 0.22,
- "per_10k_emp": 0.2,
+ "per_bn_revenue": 0.54,
+ "per_10k_emp": 0.49,
  "benchmarks": {
   "global_vertical": {
-   "deployments": 62,
+   "deployments": 31,
    "confirmed": 17,
-   "proof_rate": 76,
-   "n": 377
+   "proof_rate": 88,
+   "n": 388
   },
   "country_vertical": {
-   "deployments": 82,
-   "confirmed": 18,
-   "proof_rate": 73,
-   "n": 23
+   "deployments": 25,
+   "confirmed": 17,
+   "proof_rate": 67,
+   "n": 25
   }
  },
  "first_seen": null,
@@ -33,10 +33,11 @@
  "momentum": "none",
  "maturity": "L3",
  "maturity_evidence": [
+  "multi_horizontal",
   "named_product:Axis",
   "value_number"
  ],
- "prospect_score": 14,
+ "prospect_score": 36,
  "stack": [],
  "vendor_named": false,
  "deployments_detail": [
@@ -60,6 +61,39 @@
    "url": "https://inc42.com/axis-bank-genai-strategy",
    "raw_sector": "Financial Services",
    "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "Axis Bank",
+   "use": "Axis Deep Intelligence (ADI) - GenAI-powered internal chatbot deployed across 5,500 branches supporting 100,000 employees",
+   "existence": "confirmed",
+   "value": "5500",
+   "tier": "",
+   "url": "https://www.axis.bank.in/annual-reports/2024-2025/pdf/Message%20from%20the%20management%20operations%20and%20transformation.pdf",
+   "raw_sector": "",
+   "date": "Jul 4, 2025",
+   "fresh": "undated"
+  },
+  {
+   "company": "Axis Bank",
+   "use": "AI-powered ReKYC solution for current account customers",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.axis.bank.in/about-us/press-releases/axis-bank-launches-ai-powered-compliance-solutions-to-transform-rekyc-and-business-profile-updates-for-current-account-customers",
+   "raw_sector": "",
+   "date": "May 7, 2026",
+   "fresh": "undated"
+  },
+  {
+   "company": "Axis Bank",
+   "use": "AI-driven Digital Business Profile Update Service for current account customers",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.axis.bank.in/about-us/press-releases/axis-bank-launches-ai-powered-compliance-solutions-to-transform-rekyc-and-business-profile-updates-for-current-account-customers",
+   "raw_sector": "",
+   "date": "May 7, 2026",
    "fresh": "undated"
   }
  ]

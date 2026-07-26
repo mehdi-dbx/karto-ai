@@ -1,0 +1,179 @@
+{
+ "slug": "hon-hai-precision-foxconn",
+ "name": "Hon Hai Precision (Foxconn)",
+ "cc": "TW",
+ "vertical": "Manufacturing & Robotics",
+ "deployments": 10,
+ "confirmed": 8,
+ "with_value_number": 5,
+ "proof_rate": 0.5,
+ "mktcap": null,
+ "revenue": null,
+ "employees": null,
+ "silent": false,
+ "per_bn_revenue": null,
+ "per_10k_emp": null,
+ "benchmarks": {
+  "global_vertical": {
+   "deployments": 79,
+   "confirmed": 81,
+   "proof_rate": 83,
+   "n": 150
+  },
+  "country_vertical": {
+   "deployments": 77,
+   "confirmed": 86,
+   "proof_rate": 86,
+   "n": 23
+  }
+ },
+ "first_seen": 2021,
+ "by_year": [
+  {
+   "year": 2021,
+   "n": 1
+  },
+  {
+   "year": 2023,
+   "n": 1
+  },
+  {
+   "year": 2024,
+   "n": 1
+  },
+  {
+   "year": 2025,
+   "n": 5
+  },
+  {
+   "year": 2026,
+   "n": 2
+  }
+ ],
+ "undated_pct": 0,
+ "momentum": "early_mover,rising",
+ "maturity": "L4",
+ "maturity_evidence": [
+  "named_product:FoxBrain",
+  "value_number",
+  "multi_year"
+ ],
+ "prospect_score": 68,
+ "stack": [
+  "Meta",
+  "NVIDIA"
+ ],
+ "vendor_named": true,
+ "deployments_detail": [
+  {
+   "company": "Hon Hai Precision (Foxconn)",
+   "use": "FoxBrain, Foxconn's in-house Traditional Chinese LLM (Llama 3.1-based, trained on NVIDIA H100/Hopper GPUs) for data analysis, decision support, document collaboration, math/reasoning and code generation; deployed for internal manufacturing and operations functions and expanding to EV and smart-city use. [NVIDIA (Hopper GPUs), Meta Llama 3.1]",
+   "existence": "confirmed",
+   "value": "trained in ~4 weeks; 70B parameters",
+   "tier": "",
+   "url": "https://www.honhai.com/en-us/press-center/press-releases/latest-news/1549",
+   "raw_sector": "",
+   "date": "2025-03-10",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Hon Hai Precision (Foxconn)",
+   "use": "Nurabot collaborative nursing robot (built with Kawasaki, powered by FoxBrain LLM + NVIDIA Jetson Orin) for medication/specimen delivery, ward patrol and patient guidance; field-trialled and being deployed at Taichung Veterans General Hospital with dozens of units planned. [NVIDIA (Jetson Orin, Isaac), Kawasaki Heavy Industries]",
+   "existence": "confirmed",
+   "value": "up to 30% reduction in nurse workload",
+   "tier": "",
+   "url": "https://blogs.nvidia.com/blog/foxconn-smart-hospital-robot/",
+   "raw_sector": "",
+   "date": "2025-05-18",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Hon Hai Precision (Foxconn)",
+   "use": "AI factory supercomputer built by Foxconn subsidiary Big Innovation Company with NVIDIA, providing GB300 NVL72 Blackwell compute to Taiwan researchers/industry and powering Foxconn's own smart-manufacturing, EV (ADAS) and smart-city AI workloads. [NVIDIA (10,000 Blackwell GPUs, GB300 NVL72)]",
+   "existence": "confirmed",
+   "value": "10,000 NVIDIA Blackwell GPUs",
+   "tier": "",
+   "url": "https://nvidianews.nvidia.com/news/foxconn-ai-factory-tsmc-taiwan-nvidia",
+   "raw_sector": "",
+   "date": "2025-05-18",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Hon Hai Precision (Foxconn)",
+   "use": "Digital twins of Foxconn's robotic factories (e.g., Guadalajara, Mexico and Houston, Texas plants) built with NVIDIA Omniverse and Siemens Xcelerator/Teamcenter for factory layout simulation, robot training and real-time monitoring. [NVIDIA Omniverse/OpenUSD, Siemens Xcelerator]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://blogs.nvidia.com/blog/foxconn-digital-twin-ai/",
+   "raw_sector": "",
+   "date": "2024-06-02",
+   "fresh": "aging"
+  },
+  {
+   "company": "Hon Hai Precision (Foxconn)",
+   "use": "DeepHow Live SOP Verification agent deployed in a Foxconn manufacturing center to validate every operator assembly step in real time, detect procedural drift and reduce rework (running on NVIDIA RTX PRO servers, NVIDIA Cosmos). [DeepHow, NVIDIA (Cosmos, RTX PRO Servers)]",
+   "existence": "confirmed",
+   "value": "first-pass yield improved by 3%; up to 99% task accuracy",
+   "tier": "",
+   "url": "https://deephow.com/case-study/foxconn-deephow",
+   "raw_sector": "",
+   "date": "2026-06-02",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Hon Hai Precision (Foxconn)",
+   "use": "CoDoctor AI platform - a coordinated set of specialized medical AI agents (cardiovascular, oncology, retinal imaging, arrhythmia/cancer screening, CoroSegmentater coronary artery segmentation) developed on Hon Hai Super AI Computing Center and deployed across Taiwan medical centers. [NVIDIA (DGX, agentic AI)]",
+   "existence": "confirmed",
+   "value": "reduces a ~2-hour clinical workflow (coronary 3D reconstruction)",
+   "tier": "",
+   "url": "https://investor.nvidia.com/news/press-release-details/2026/NVIDIA-Foxconn-and-Taiwan-Medical-Centers-Bring-Agentic-and-Physical-AI-to-Healthy-Taiwan/default.aspx",
+   "raw_sector": "",
+   "date": "2026-06-01",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Hon Hai Precision (Foxconn)",
+   "use": "FOXCONN NxVAE - unsupervised deep-learning (variational autoencoder) AI for automated visual defect inspection in manufacturing, requiring only non-defective samples for training. [Foxconn (in-house)]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.foxconn.com/en-us/press-center/events/csr-events/533",
+   "raw_sector": "",
+   "date": "2021-01-21",
+   "fresh": "stale"
+  },
+  {
+   "company": "Hon Hai Precision (Foxconn)",
+   "use": "AI-powered visual quality inspection of smart PV (photovoltaic) controllers using Huawei's Ascend Smart Manufacturing Solution on Foxconn production lines. [Huawei (Ascend)]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://e.huawei.com/en/case-studies/industries/manufacturing/ai-quality-inspection-2023",
+   "raw_sector": "",
+   "date": "2023-01-01",
+   "fresh": "stale"
+  },
+  {
+   "company": "Hon Hai Precision (Foxconn)",
+   "use": "Deployment of NVIDIA-powered humanoid robots on the production line of Foxconn's Houston, Texas AI-server (GB300) manufacturing plant, targeting first-quarter 2026 start - the first Foxconn factory to run humanoid robots on the line. [NVIDIA]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.reuters.com/business/foxconn-deploy-humanoid-robots-houston-ai-server-plant-2025-10-29/",
+   "raw_sector": "",
+   "date": "2025-10-29",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Hon Hai Precision (Foxconn)",
+   "use": "Foxconn-Intrinsic (Alphabet) joint venture to integrate Intrinsic's AI robotics platform with Foxconn's Smart Manufacturing platform to build the automated 'AI factory of the future.' [Intrinsic (Alphabet)]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.intrinsic.ai/blog/posts/foxconn-and-intrinsic-launch-joint-venture-to-build-the-ai-factory-of-the-future",
+   "raw_sector": "",
+   "date": "2025-11-20",
+   "fresh": "fresh"
+  }
+ ]
+}

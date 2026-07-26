@@ -3,22 +3,28 @@
  "name": "Indosat",
  "cc": "ID",
  "vertical": "Telecom",
- "deployments": 2,
- "confirmed": 0,
- "with_value_number": 0,
- "proof_rate": 0.0,
+ "deployments": 10,
+ "confirmed": 2,
+ "with_value_number": 1,
+ "proof_rate": 0.1,
  "mktcap": 3929113924.0,
  "revenue": 3577215190.0,
  "employees": 4182.0,
  "silent": false,
- "per_bn_revenue": 0.56,
- "per_10k_emp": 4.78,
+ "per_bn_revenue": 2.8,
+ "per_10k_emp": 23.91,
  "benchmarks": {
   "global_vertical": {
-   "deployments": 57,
+   "deployments": 54,
+   "confirmed": 9,
+   "proof_rate": 17,
+   "n": 94
+  },
+  "country_vertical": {
+   "deployments": 0,
    "confirmed": 0,
    "proof_rate": 0,
-   "n": 93
+   "n": 5
   }
  },
  "first_seen": 2024,
@@ -28,14 +34,18 @@
    "n": 2
   }
  ],
- "undated_pct": 0,
+ "undated_pct": 80,
  "momentum": "early_mover,gone_quiet",
- "maturity": "L1",
+ "maturity": "L3",
  "maturity_evidence": [
-  "rows_no_confirmed"
+  "multi_horizontal",
+  "named_product:Sovereign",
+  "value_number"
  ],
- "prospect_score": 40,
+ "prospect_score": 48,
  "stack": [
+  "Google",
+  "Google Cloud",
   "NVIDIA"
  ],
  "vendor_named": true,
@@ -61,6 +71,94 @@
    "raw_sector": "Telecom",
    "date": "2024",
    "fresh": "aging"
+  },
+  {
+   "company": "Indosat",
+   "use": "AI-RAN (Artificial Intelligence Radio Access Network) deployment for network performance optimization [Nokia]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.rcrwireless.com/20260612/ai-infrastructure/nokia-indosat-ai-ran",
+   "raw_sector": "",
+   "date": "Jun 12, 2026",
+   "fresh": "undated"
+  },
+  {
+   "company": "Indosat",
+   "use": "Sovereign AI Factory and collection of LLMs for Indonesia [NVIDIA]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.nvidia.com/en-us/on-demand/session/gtc25-s73440/",
+   "raw_sector": "",
+   "date": "Mar 20, 2025",
+   "fresh": "undated"
+  },
+  {
+   "company": "Indosat",
+   "use": "AI-RAN technologies for network reach and optimization [NVIDIA]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://siliconangle.com/2025/07/16/indonesia-to-establish-ai-center-of-excellence-with-support-from-nvidia-cisco-and-indosat/",
+   "raw_sector": "",
+   "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "Indosat",
+   "use": "Vision AI and AI-based services implementation",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://ioh.co.id/EN/bsbusiness",
+   "raw_sector": "",
+   "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "Indosat",
+   "use": "AI-RAN for network performance, energy efficiency and spectrum utilization",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.fierce-network.com/wireless/indosat-using-ai-overhaul-its-operations-heres-how",
+   "raw_sector": "",
+   "date": "Apr 18, 2025",
+   "fresh": "undated"
+  },
+  {
+   "company": "Indosat",
+   "use": "AI-native data centre strategy and re-usable AI use cases [Agentspace, Vertex AI]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://datacentremagazine.com/news/mwc-indosat-building-ai-native-network-in-indonesia",
+   "raw_sector": "",
+   "date": "Mar 17, 2026",
+   "fresh": "undated"
+  },
+  {
+   "company": "Indosat",
+   "use": "AI-powered personalization for customer experience and ARPU growth",
+   "existence": "confirmed",
+   "value": "6.4%",
+   "tier": "",
+   "url": "https://www.thefastmode.com/mobile-network-operators-g-p/46991-indosat-s-ai-powered-personalization-drives-arpu-growth-and-strong-fy-2025-results",
+   "raw_sector": "",
+   "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "Indosat",
+   "use": "AI-driven and generative AI solutions for businesses across Indonesia [Google Cloud]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://futurecio.tech/indosat-and-google-cloud-to-deliver-ai-driven-solutions-across-indonesia/",
+   "raw_sector": "",
+   "date": "Jun 24, 2024",
+   "fresh": "undated"
   }
  ]
 }

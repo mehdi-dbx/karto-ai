@@ -3,27 +3,27 @@
  "name": "Fairfax Financial Holdings",
  "cc": "CA",
  "vertical": "Insurance",
- "deployments": 1,
- "confirmed": 0,
- "with_value_number": 1,
- "proof_rate": 1.0,
+ "deployments": 11,
+ "confirmed": 7,
+ "with_value_number": 6,
+ "proof_rate": 0.545,
  "mktcap": 38257352941.0,
  "revenue": 39595588235.0,
  "employees": 62500.0,
  "silent": false,
- "per_bn_revenue": 0.03,
- "per_10k_emp": 0.16,
+ "per_bn_revenue": 0.28,
+ "per_10k_emp": 1.76,
  "benchmarks": {
   "global_vertical": {
-   "deployments": 0,
-   "confirmed": 0,
-   "proof_rate": 75,
-   "n": 60
+   "deployments": 81,
+   "confirmed": 60,
+   "proof_rate": 85,
+   "n": 63
   },
   "country_vertical": {
-   "deployments": 0,
-   "confirmed": 0,
-   "proof_rate": 25,
+   "deployments": 100,
+   "confirmed": 50,
+   "proof_rate": 75,
    "n": 5
   }
  },
@@ -34,15 +34,23 @@
    "n": 1
   }
  ],
- "undated_pct": 0,
+ "undated_pct": 91,
  "momentum": "early_mover,gone_quiet",
- "maturity": "L1",
+ "maturity": "L3",
  "maturity_evidence": [
-  "rows_no_confirmed"
+  "multi_horizontal",
+  "named_product:Surplus",
+  "value_number"
  ],
- "prospect_score": 0,
- "stack": [],
- "vendor_named": false,
+ "prospect_score": 60,
+ "stack": [
+  "Google Cloud",
+  "Infosys",
+  "Microsoft",
+  "Microsoft Azure",
+  "NVIDIA"
+ ],
+ "vendor_named": true,
  "deployments_detail": [
   {
    "company": "Fairfax Financial Holdings",
@@ -54,6 +62,116 @@
    "raw_sector": "Insurance",
    "date": "2020",
    "fresh": "stale"
+  },
+  {
+   "company": "Fairfax Financial Holdings",
+   "use": "S&S UP underwriting platform for the Surplus & Specialty division, integrating an in-house generative AI and OCR solution to automate underwriting workflows and data capture. Won the 2025 Datos Insights Insurance Technology Impact Award. [In-house generative AI + OCR (Crum & Forster, a Fairfax subsidiary)]",
+   "existence": "confirmed",
+   "value": "Quote turnaround time reduced 35%; deployed since early 2024 across multiple business units",
+   "tier": "",
+   "url": "https://www.prnewswire.com/news-releases/crum--forsters-surplus--specialty-division-earns-datos-insights-insurance-technology-impact-award-for-its-transformative-underwriting-platform-302569629.html",
+   "raw_sector": "",
+   "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "Fairfax Financial Holdings",
+   "use": "AI-powered submission intake (Convr d3 Intake) for Crum & Forster's Surplus & Specialty Lines Division, using intelligent document processing to ingest structured/unstructured submissions and extract underwriting data, eliminating most manual entry. [Convr (d3 Intake)]",
+   "existence": "confirmed",
+   "value": "Submission processing time reduced 50%; 40% of contractors and 20% of ops staff redeployed to higher-value roles; deployed 2021",
+   "tier": "",
+   "url": "https://convr.com/news/convr-digitally-transforms-submission-intake-for-crum-forster",
+   "raw_sector": "",
+   "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "Fairfax Financial Holdings",
+   "use": "Ki Insurance (Fairfax Group standalone syndicate) algorithmic follow underwriting: ML models price risk and generate quotes in seconds for brokers on the Ki Platform, built with Google Cloud (GKE + BigQuery). First fully digital/algorithmic Lloyd's of London syndicate. [Google Cloud (GKE, BigQuery); developed with UCL and Brit]",
+   "existence": "confirmed",
+   "value": "Quotes in seconds vs days; 90% reduction in model retraining costs; in production since 2021",
+   "tier": "",
+   "url": "https://cloud.google.com/customers/ki-insurance",
+   "raw_sector": "",
+   "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "Fairfax Financial Holdings",
+   "use": "AI-led claims engine at Go Digit (Digit Insurance, Fairfax-anchored insurer): AI/ML confidence models score and auto-process claims for fast straight-through settlement, cutting claims processing time. [Digit Insurance (in-house AI/ML)]",
+   "existence": "confirmed",
+   "value": "Claims processing time reduced 75% through AI-based automation; 30M+ customers",
+   "tier": "",
+   "url": "https://www.finextra.com/blogposting/27914/ai-powered-insurtech-how-digit-insurance-is-using-ai",
+   "raw_sector": "",
+   "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "Fairfax Financial Holdings",
+   "use": "Digit AI-enabled Vehicle Damage Detection: computer-vision system processes multiple image angles to assess whether a car panel is damaged or intact, supporting rapid motor claims assessment. [Digit Insurance (computer vision)]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.expresscomputer.in/exclusives/the-rise-of-real-time-insurance-inside-digits-seven-minute-claims-revolution/130460/",
+   "raw_sector": "",
+   "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "Fairfax Financial Holdings",
+   "use": "Fairfax Digital Services (a Fairfax Financial Holdings company) is orchestrator/architect of Eurobank's agentic AI Factory, embedding agentic AI into core banking operations, built on the EY.ai Agentic Platform, Microsoft Azure and NVIDIA-accelerated computing. [EY.ai Agentic Platform, Microsoft Azure, NVIDIA]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://financialit.net/news/artificial-intelligence/eurobank-and-fairfax-digital-launch-new-project-ey-and-microsoft",
+   "raw_sector": "",
+   "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "Fairfax Financial Holdings",
+   "use": "OdysseyRe (Odyssey Group, a Fairfax subsidiary) created a Head of AI Business Solutions role to identify and implement AI/technology opportunities that add value to the reinsurance underwriting process. [none disclosed]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.reinsurancene.ws/odysseyre-names-randhir-bilkhu-as-head-of-ai-business-solutions/",
+   "raw_sector": "",
+   "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "Fairfax Financial Holdings",
+   "use": "Allied World Insurance (Fairfax subsidiary), with Infosys BPM, streamlined the production underwriters' desk using customer-centric automation, advanced analytics and AI to hyper-automate end-to-end processes; recognized at the Hackett Group 2022 Digital Awards. [Infosys BPM]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.infosysbpm.com/about/awards/allied-world-in-partnership-with-infosys-bpm-wins-at-the-hackett-digital-awards-2022.html",
+   "raw_sector": "",
+   "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "Fairfax Financial Holdings",
+   "use": "Fairfax GCC, an AI-native global capability center for the Fairfax Group where human experts and 'AI workers' deliver technology, operations and intelligence as a shared hybrid workforce. [none disclosed]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.fairfaxgcc.com/",
+   "raw_sector": "",
+   "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "Fairfax Financial Holdings",
+   "use": "Digit fraud detection: machine-learning predictive analytics analyze patterns to detect fraudulent claims and mitigate risk. [Digit Insurance (in-house ML)]",
+   "existence": "confirmed",
+   "value": "Fraudulent claims reduced 35% using AI-driven predictive analytics",
+   "tier": "",
+   "url": "https://www.finextra.com/blogposting/27914/ai-powered-insurtech-how-digit-insurance-is-using-ai",
+   "raw_sector": "",
+   "date": "missing",
+   "fresh": "undated"
   }
  ]
 }

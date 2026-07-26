@@ -3,40 +3,45 @@
  "name": "Huntington Ingalls Industries",
  "cc": "US",
  "vertical": "Industrial / Machinery",
- "deployments": 1,
- "confirmed": 1,
+ "deployments": 2,
+ "confirmed": 2,
  "with_value_number": 0,
  "proof_rate": 0.0,
  "mktcap": 11290000000.0,
  "revenue": 12850000000.0,
  "employees": 44000.0,
  "silent": false,
- "per_bn_revenue": 0.08,
- "per_10k_emp": 0.23,
+ "per_bn_revenue": 0.16,
+ "per_10k_emp": 0.45,
  "benchmarks": {
   "global_vertical": {
-   "deployments": 0,
-   "confirmed": 14,
+   "deployments": 7,
+   "confirmed": 26,
    "proof_rate": 0,
-   "n": 175
+   "n": 176
   },
   "country_vertical": {
-   "deployments": 0,
-   "confirmed": 19,
+   "deployments": 6,
+   "confirmed": 24,
    "proof_rate": 0,
-   "n": 80
+   "n": 81
   }
  },
- "first_seen": null,
- "by_year": [],
- "undated_pct": 100,
- "momentum": "none",
+ "first_seen": 2025,
+ "by_year": [
+  {
+   "year": 2025,
+   "n": 1
+  }
+ ],
+ "undated_pct": 50,
+ "momentum": "early_mover,rising",
  "maturity": "L3",
  "maturity_evidence": [
   "named_product:Newport",
   "tier_p"
  ],
- "prospect_score": 46,
+ "prospect_score": 52,
  "stack": [
   "C3.ai"
  ],
@@ -52,6 +57,17 @@
    "raw_sector": "Industrials",
    "date": "missing",
    "fresh": "undated"
+  },
+  {
+   "company": "Huntington Ingalls Industries",
+   "use": "Production schedule optimization, demand planning, process optimization, inventory optimization, sourcing optimization, and labor allocation across Navy shipbuilding operations [C3 AI]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://hii.com/news/hii-and-c3-ai-forge-strategic-artificial-intelligence-partnership-to-support-us-navy-shipbuilding",
+   "raw_sector": "",
+   "date": "2025-06-30",
+   "fresh": "fresh"
   }
  ]
 }

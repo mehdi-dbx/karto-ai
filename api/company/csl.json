@@ -3,46 +3,65 @@
  "name": "CSL",
  "cc": "AU",
  "vertical": "Healthcare & Life Sciences",
- "deployments": 1,
- "confirmed": 0,
- "with_value_number": 0,
- "proof_rate": 0.0,
+ "deployments": 12,
+ "confirmed": 3,
+ "with_value_number": 3,
+ "proof_rate": 0.25,
  "mktcap": 36953333333.0,
  "revenue": 15400000000.0,
  "employees": 29904.0,
  "silent": false,
- "per_bn_revenue": 0.06,
- "per_10k_emp": 0.33,
+ "per_bn_revenue": 0.78,
+ "per_10k_emp": 4.01,
  "benchmarks": {
   "global_vertical": {
-   "deployments": 0,
-   "confirmed": 0,
-   "proof_rate": 0,
-   "n": 165
+   "deployments": 84,
+   "confirmed": 33,
+   "proof_rate": 57,
+   "n": 168
   },
   "country_vertical": {
-   "deployments": 0,
-   "confirmed": 0,
-   "proof_rate": 0,
+   "deployments": 100,
+   "confirmed": 50,
+   "proof_rate": 75,
    "n": 5
   }
  },
- "first_seen": 2025,
+ "first_seen": 2020,
  "by_year": [
   {
-   "year": 2025,
+   "year": 2020,
    "n": 1
+  },
+  {
+   "year": 2021,
+   "n": 1
+  },
+  {
+   "year": 2023,
+   "n": 1
+  },
+  {
+   "year": 2025,
+   "n": 7
+  },
+  {
+   "year": 2026,
+   "n": 2
   }
  ],
  "undated_pct": 0,
- "momentum": "rising",
- "maturity": "L1",
+ "momentum": "early_mover,rising",
+ "maturity": "L3",
  "maturity_evidence": [
-  "rows_no_confirmed"
+  "multi_horizontal",
+  "named_product:AWS",
+  "value_number"
  ],
- "prospect_score": 40,
+ "prospect_score": 48,
  "stack": [
-  "Amazon AWS"
+  "Amazon AWS",
+  "Salesforce"
  ],
  "vendor_named": true,
  "deployments_detail": [
@@ -56,6 +75,127 @@
    "raw_sector": "Healthcare",
    "date": "2025",
    "fresh": "fresh"
+  },
+  {
+   "company": "CSL",
+   "use": "Deviation AI - AI analytics to identify deviations/outliers in clinical trial outcomes, planned for production across three AWS Regions [AWS]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://aws.amazon.com/solutions/case-studies/csl-agenticai/",
+   "raw_sector": "",
+   "date": "2025",
+   "fresh": "fresh"
+  },
+  {
+   "company": "CSL",
+   "use": "Digital twin (virtual plant replica) plus robotics and automation at the Broadmeadows plasma fractionation facility to optimize operations, safety and waste; won 2025 ISPE Facility of the Year (Pharma 4.0) [none]",
+   "existence": "confirmed",
+   "value": "Processes 10M+ litres of plasma annually; USD 900M facility; ninefold Australian capacity increase",
+   "tier": "",
+   "url": "https://www.csl.com/we-are-csl/vita-original-stories/2025/csls-plasma-fractionation-facility-wins-pharmaceutical-engineering-award",
+   "raw_sector": "",
+   "date": "2025",
+   "fresh": "fresh"
+  },
+  {
+   "company": "CSL",
+   "use": "AI/ML with multi-omics integration (genomics, transcriptomics, proteomics) for drug discovery and understanding complex diseases, led by CSL's Global Research Data Science / Bioinformatics and AI group [none]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.csl.com/we-are-csl/vita-original-stories/2021/using-ai-and-data-science-to-understand-complex-diseases",
+   "raw_sector": "",
+   "date": "2021",
+   "fresh": "stale"
+  },
+  {
+   "company": "CSL",
+   "use": "AI, machine learning and large-scale data sets applied to optimize clinical trial design (Biomedical Data Science Initiative) [none]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://investors.csl.com/annualreport/2023/36/",
+   "raw_sector": "",
+   "date": "2023",
+   "fresh": "stale"
+  },
+  {
+   "company": "CSL",
+   "use": "PlasmIX project using mixed-reality headsets and digital twins showing real-time production-equipment data at the Bern manufacturing facility [none]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.klover.ai/csl-ai-strategy-analysis-of-dominance-in-biotechnology-biopharma-ai/",
+   "raw_sector": "",
+   "date": "2025",
+   "fresh": "fresh"
+  },
+  {
+   "company": "CSL",
+   "use": "AWS Transform for VMware (agentic AI) used to auto-generate server migration wave plans as CSL migrates 5,000 VMware servers and exits data centers [AWS (AWS Transform for VMware)]",
+   "existence": "confirmed",
+   "value": "10x faster initial wave planning; minimum 10.5 weeks of effort saved across 1,072 applications; 4.6M records processed from 5,000 servers across 29 data centers",
+   "tier": "",
+   "url": "https://aws.amazon.com/solutions/case-studies/csl-agenticai/",
+   "raw_sector": "",
+   "date": "2025",
+   "fresh": "fresh"
+  },
+  {
+   "company": "CSL",
+   "use": "Amazon Q Business generative-AI applications for infrastructure discovery and application documentation analysis to accelerate cloud migration [AWS (Amazon Q Business)]",
+   "existence": "confirmed",
+   "value": "12x faster application discovery (1-2 hours to 5 minutes per app); indexed 17,000+ pages covering 1,000+ applications; three Q Business apps built",
+   "tier": "",
+   "url": "https://aws.amazon.com/solutions/case-studies/csl-agenticai/",
+   "raw_sector": "",
+   "date": "2025",
+   "fresh": "fresh"
+  },
+  {
+   "company": "CSL",
+   "use": "Salesforce Agentforce Life Sciences for Customer Engagement rolled out across CSL commercial organization for AI-driven HCP engagement across Commercial and Medical Affairs, integrated with Data 360 [Salesforce (Agentforce Life Sciences, Data 360)]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.linkedin.com/posts/salesforce-news_csl-a-global-leader-in-developing-lifesaving-activity-7460685436693426176-dURq",
+   "raw_sector": "",
+   "date": "2026",
+   "fresh": "fresh"
+  },
+  {
+   "company": "CSL",
+   "use": "ON24 intelligent engagement platform capturing first-party HCP engagement data integrated into Veeva CRM for commercial engagement [ON24 / Veeva]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.klover.ai/csl-ai-strategy-analysis-of-dominance-in-biotechnology-biopharma-ai/",
+   "raw_sector": "",
+   "date": "2025",
+   "fresh": "fresh"
+  },
+  {
+   "company": "CSL",
+   "use": "CSL Plasma deploying Agentforce AI agents in its donor contact center to enhance service delivery [Salesforce (Agentforce)]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.linkedin.com/posts/salesforce-news_csl-a-global-leader-in-developing-lifesaving-activity-7460685436693426176-dURq",
+   "raw_sector": "",
+   "date": "2026",
+   "fresh": "fresh"
+  },
+  {
+   "company": "CSL",
+   "use": "Robotic Process Automation and NLP applied to pharmacovigilance / adverse-event and patient-safety monitoring to speed information flow [none]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.csl.com/we-are-csl/vita-original-stories/2020/artificial-intelligence-at-csl",
+   "raw_sector": "",
+   "date": "2020",
+   "fresh": "stale"
   }
  ]
 }

@@ -3,27 +3,27 @@
  "name": "Universal Health Services",
  "cc": "US",
  "vertical": "Healthcare & Life Sciences",
- "deployments": 1,
- "confirmed": 1,
+ "deployments": 4,
+ "confirmed": 3,
  "with_value_number": 1,
- "proof_rate": 1.0,
+ "proof_rate": 0.25,
  "mktcap": 8950000000.0,
  "revenue": 17760000000.0,
  "employees": 101500.0,
  "silent": false,
- "per_bn_revenue": 0.06,
- "per_10k_emp": 0.1,
+ "per_bn_revenue": 0.23,
+ "per_10k_emp": 0.39,
  "benchmarks": {
   "global_vertical": {
-   "deployments": 0,
-   "confirmed": 13,
-   "proof_rate": 83,
-   "n": 165
+   "deployments": 26,
+   "confirmed": 33,
+   "proof_rate": 57,
+   "n": 168
   },
   "country_vertical": {
-   "deployments": 0,
-   "confirmed": 7,
-   "proof_rate": 90,
+   "deployments": 14,
+   "confirmed": 22,
+   "proof_rate": 59,
    "n": 59
   }
  },
@@ -34,17 +34,29 @@
    "n": 1
   }
  ],
- "undated_pct": 0,
+ "undated_pct": 75,
  "momentum": "rising",
  "maturity": "L3",
  "maturity_evidence": [
+  "multi_horizontal",
   "named_product:Hippocratic",
   "value_number"
  ],
- "prospect_score": 14,
+ "prospect_score": 56,
  "stack": [],
  "vendor_named": false,
  "deployments_detail": [
+  {
+   "company": "Universal Health Services",
+   "use": "Post-discharge patient engagement and follow-up outreach by phone using generative AI agents [Hippocratic AI]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://uhs.com/news/universal-health-services-launches-hippocratic-ais-generative-ai-healthcare-agents-to-assist-with-post-discharge-patient-engagement/",
+   "raw_sector": "",
+   "date": "Jun 16, 2025",
+   "fresh": "undated"
+  },
   {
    "company": "Universal Health Services",
    "use": "Hippocratic AI GenAI agents for post-discharge patient follow-up + 8 AI solutions in revenue cycle (2025)",
@@ -55,6 +67,28 @@
    "raw_sector": "Health Care",
    "date": "2025",
    "fresh": "fresh"
+  },
+  {
+   "company": "Universal Health Services",
+   "use": "Revenue cycle management with eight AI solutions deployed",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.beckershospitalreview.com/finance/revenue-cycle-management/uhs-deployed-8-ai-solutions-in-revenue-cycle-in-2025-eyes-clinical-operations/",
+   "raw_sector": "",
+   "date": "Apr 29, 2026",
+   "fresh": "undated"
+  },
+  {
+   "company": "Universal Health Services",
+   "use": "AI-driven marketing initiatives for social media, blogs, and personalized storytelling",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://uhs.com/news/beckers-ai-search-brand-differentiation-17-top-health-systems-2026-marketing-priorities/",
+   "raw_sector": "",
+   "date": "Jan 22, 2026",
+   "fresh": "undated"
   }
  ]
 }

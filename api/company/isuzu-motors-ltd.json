@@ -3,27 +3,27 @@
  "name": "Isuzu Motors Ltd.",
  "cc": "JP",
  "vertical": "Automotive",
- "deployments": 2,
- "confirmed": 2,
- "with_value_number": 1,
- "proof_rate": 0.5,
+ "deployments": 10,
+ "confirmed": 7,
+ "with_value_number": 6,
+ "proof_rate": 0.6,
  "mktcap": 10666666667.0,
  "revenue": 23200000000.0,
  "employees": 43005.0,
  "silent": false,
- "per_bn_revenue": 0.09,
- "per_10k_emp": 0.47,
+ "per_bn_revenue": 0.43,
+ "per_10k_emp": 2.33,
  "benchmarks": {
   "global_vertical": {
-   "deployments": 62,
-   "confirmed": 72,
-   "proof_rate": 72,
+   "deployments": 64,
+   "confirmed": 64,
+   "proof_rate": 97,
    "n": 40
   },
   "country_vertical": {
-   "deployments": 33,
-   "confirmed": 56,
-   "proof_rate": 67,
+   "deployments": 44,
+   "confirmed": 44,
+   "proof_rate": 89,
    "n": 10
   }
  },
@@ -31,7 +31,15 @@
  "by_year": [
   {
    "year": 2024,
-   "n": 1
+   "n": 2
+  },
+  {
+   "year": 2025,
+   "n": 4
+  },
+  {
+   "year": 2026,
+   "n": 3
   },
   {
    "year": 2027,
@@ -39,18 +47,22 @@
   }
  ],
  "undated_pct": 0,
- "momentum": "early_mover,flat",
+ "momentum": "early_mover,rising",
  "maturity": "L4",
  "maturity_evidence": [
+  "multi_horizontal",
   "named_product:ISUZU AI Chat",
   "value_number",
   "multi_year",
   "tier_p"
  ],
- "prospect_score": 32,
+ "prospect_score": 58,
  "stack": [
+  "IBM",
   "Microsoft Azure",
-  "OpenAI"
+  "NVIDIA",
+  "OpenAI",
+  "SAP"
  ],
  "vendor_named": true,
  "deployments_detail": [
@@ -74,6 +86,94 @@
    "url": "https://www.road-to-the-l4.go.jp/publication/pdf/03-3_ISUZU_20260305.pdf",
    "raw_sector": "Automotive",
    "date": "2027",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Isuzu Motors Ltd.",
+   "use": "End-to-end AI autonomous heavy-duty trucks (Giga) running daily commercial cargo on a 450 km hub-to-hub logistics route between Tochigi and Aichi, using Applied Intuition's end-to-end autonomy model and continuous data engine; public-road operation began 2025, expanded to daily commercial operations spring 2026. [Applied Intuition]",
+   "existence": "confirmed",
+   "value": "450 km commercial route",
+   "tier": "",
+   "url": "https://www.appliedintuition.com/blog/isuzu-applied-intuition-autonomous-trucks-commercial-logistics-japan",
+   "raw_sector": "",
+   "date": "2026-03-31",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Isuzu Motors Ltd.",
+   "use": "Middle-mile SAE Level 4 autonomous medium-duty trucks: Gatik integrated its 'Gatik Driver' interpretable AI autonomy system into Isuzu medium-duty truck platforms; freight-only driverless operations across Texas, Arizona and Arkansas, targeting mass production in 2027. Isuzu invested US$30M in Gatik. [Gatik]",
+   "existence": "confirmed",
+   "value": "US$30M Isuzu investment; 60,000 driverless deliveries; >$600M contracted revenue",
+   "tier": "",
+   "url": "https://www.kochinc.com/news/gatik-leads-the-way-in-fully-driverless-commercial-truck-deliveries",
+   "raw_sector": "",
+   "date": "2026-02-19",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Isuzu Motors Ltd.",
+   "use": "Level 4 autonomous buses (ERGA electric and diesel) developed with TIER IV, running TIER IV's Autoware-based L4 autonomous driving software on NVIDIA DRIVE AGX Thor SoC / DRIVE Hyperion platform for public transit, addressing Japan's driver shortage. [TIER IV, NVIDIA]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.isuzu-global.com/en/newsroom/20260317_1.html",
+   "raw_sector": "",
+   "date": "2026-03-17",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Isuzu Motors Ltd.",
+   "use": "Generative design AI in Autodesk Fusion used by Isuzu Central Research Institute to optimize diesel engine gear structures, achieving a prototype gear with 43% weight reduction and 0.5% fuel-efficiency improvement while maintaining rattle-noise suppression. [Autodesk (Fusion)]",
+   "existence": "confirmed",
+   "value": "43% gear weight reduction; 0.5% fuel efficiency improvement",
+   "tier": "",
+   "url": "https://www.autodesk.com/products/fusion-360/blog/isuzu-central-research-laboratory-generative-design/",
+   "raw_sector": "",
+   "date": "2025-10-20",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Isuzu Motors Ltd.",
+   "use": "GATEX-based connected services for battery-electric N-Series trucks providing remote uptime support: monitoring of battery SOH/SOC/remaining range, energy-saving operation reports, and predictive-maintenance advance notifications for inspection timing; launched with North America N-Series EV rollout, expanding globally. [Transtron (GATEX)]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.isuzu-global.com/en/newsroom/20240731_1.html",
+   "raw_sector": "",
+   "date": "2024-07-31",
+   "fresh": "aging"
+  },
+  {
+   "company": "Isuzu Motors Ltd.",
+   "use": "Strategic partnership with Fujitsu to commercialize software-defined vehicles (SDVs) for commercial logistics, accelerating in-vehicle software development via Fujitsu's SDV offering under the Fujitsu Uvance business, building on Isuzu's GATEX platform (~570,000 connected vehicles). [Fujitsu (Uvance)]",
+   "existence": "claimed",
+   "value": "~570,000 connected commercial vehicles on GATEX",
+   "tier": "",
+   "url": "https://www.isuzu-global.com/en/newsroom/20250415_1.html",
+   "raw_sector": "",
+   "date": "2025-04-15",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Isuzu Motors Ltd.",
+   "use": "IBM Envizi ESG Suite deployed at Isuzu Motors South Africa for sustainability/ESG data management, using advanced analytics and machine learning to track carbon, energy, water, waste and safety metrics; integrated with SAP/ERP, with 14 years of historical data loaded as baseline. Went live June 2025. [IBM (Envizi), Datacentrix]",
+   "existence": "confirmed",
+   "value": "14 years historical data loaded",
+   "tier": "",
+   "url": "https://www.itweb.co.za/article/datacentrix-assists-isuzu-motors-south-africa-drive-sustainability-with-ibm-envizi-esg-suite/mQwkoM6Y8r273r9A",
+   "raw_sector": "",
+   "date": "2025-11-11",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Isuzu Motors Ltd.",
+   "use": "Joint pilot with Fujitsu and Logistics Knight Japan to build a pharmaceutical logistics platform using Isuzu's GATEX fleet/vehicle-data platform, Fujitsu data technologies and Dynamic Supply Chain Management for real-time inventory/temperature visibility and joint-transport optimization; selected by Japan's MLIT for its Logistics Innovation Implementation Support Project. Pilot launched November 2025. [Fujitsu, Logistics Knight Japan]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://global.fujitsu/en-global/pr/news/2025/10/27-01",
+   "raw_sector": "",
+   "date": "2025-10-27",
    "fresh": "fresh"
   }
  ]

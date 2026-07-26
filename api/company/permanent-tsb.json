@@ -3,22 +3,22 @@
  "name": "Permanent TSB",
  "cc": "IE",
  "vertical": "Financial Services",
- "deployments": 1,
- "confirmed": 1,
+ "deployments": 4,
+ "confirmed": 4,
  "with_value_number": 0,
  "proof_rate": 0.0,
  "mktcap": 1782000000.0,
  "revenue": 749520000.0,
  "employees": 3223.0,
  "silent": false,
- "per_bn_revenue": 1.33,
- "per_10k_emp": 3.1,
+ "per_bn_revenue": 5.34,
+ "per_10k_emp": 12.41,
  "benchmarks": {
   "global_vertical": {
-   "deployments": 0,
-   "confirmed": 17,
+   "deployments": 24,
+   "confirmed": 39,
    "proof_rate": 0,
-   "n": 377
+   "n": 388
   }
  },
  "first_seen": 2023,
@@ -28,17 +28,29 @@
    "n": 1
   }
  ],
- "undated_pct": 0,
+ "undated_pct": 75,
  "momentum": "early_mover,gone_quiet",
  "maturity": "L3",
  "maturity_evidence": [
+  "multi_horizontal",
   "named_product:PTSB",
   "tier_p"
  ],
- "prospect_score": 54,
+ "prospect_score": 72,
  "stack": [],
  "vendor_named": false,
  "deployments_detail": [
+  {
+   "company": "Permanent TSB",
+   "use": "AI-infused complaints process with advanced case management [Insight 2 Value]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.ibm.com/case-studies/permanent-tsb-ba",
+   "raw_sector": "",
+   "date": "missing",
+   "fresh": "undated"
+  },
   {
    "company": "Permanent TSB",
    "use": "PTSB Protect in-app anti-smishing feature (with Expleo) using AI and machine learning to detect fraudulent SMS URLs targeting customers",
@@ -49,6 +61,28 @@
    "raw_sector": "Banks",
    "date": "2023-10",
    "fresh": "stale"
+  },
+  {
+   "company": "Permanent TSB",
+   "use": "Real-time fraud protection for PSD2 requirements [Featurespace]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.featurespace.com/case-studies/permanent-tsb",
+   "raw_sector": "",
+   "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "Permanent TSB",
+   "use": "AI and machine learning for fraud detection in mobile app [Expleo]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.siliconrepublic.com/enterprise/permanent-tsb-expleo-anti-fraud-software-mobile-smishing",
+   "raw_sector": "",
+   "date": "Oct 12, 2023",
+   "fresh": "undated"
   }
  ]
 }

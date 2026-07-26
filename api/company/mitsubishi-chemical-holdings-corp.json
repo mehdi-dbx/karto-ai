@@ -3,43 +3,51 @@
  "name": "Mitsubishi Chemical Holdings Corp.",
  "cc": "JP",
  "vertical": "Chemicals & Materials",
- "deployments": 2,
- "confirmed": 2,
- "with_value_number": 1,
+ "deployments": 4,
+ "confirmed": 3,
+ "with_value_number": 2,
  "proof_rate": 0.5,
  "mktcap": 11000000000.0,
  "revenue": 24666666667.0,
  "employees": 56678.0,
  "silent": false,
- "per_bn_revenue": 0.08,
- "per_10k_emp": 0.35,
+ "per_bn_revenue": 0.16,
+ "per_10k_emp": 0.71,
  "benchmarks": {
   "global_vertical": {
-   "deployments": 75,
-   "confirmed": 75,
-   "proof_rate": 67,
-   "n": 105
+   "deployments": 29,
+   "confirmed": 42,
+   "proof_rate": 83,
+   "n": 107
   },
   "country_vertical": {
-   "deployments": 47,
+   "deployments": 38,
    "confirmed": 47,
-   "proof_rate": 44,
+   "proof_rate": 82,
    "n": 35
   }
  },
- "first_seen": null,
- "by_year": [],
- "undated_pct": 100,
- "momentum": "none",
+ "first_seen": 2026,
+ "by_year": [
+  {
+   "year": 2026,
+   "n": 1
+  }
+ ],
+ "undated_pct": 75,
+ "momentum": "late_entrant,rising",
  "maturity": "L3",
  "maturity_evidence": [
+  "multi_horizontal",
   "named_product:Tokai",
   "value_number",
   "tier_p"
  ],
- "prospect_score": 40,
- "stack": [],
- "vendor_named": false,
+ "prospect_score": 38,
+ "stack": [
+  "Accenture"
+ ],
+ "vendor_named": true,
  "deployments_detail": [
   {
    "company": "Mitsubishi Chemical Holdings Corp.",
@@ -60,6 +68,28 @@
    "tier": "I",
    "url": "https://blog-ja.allganize.ai/casestudy2212/",
    "raw_sector": "Chemicals",
+   "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "Mitsubishi Chemical Holdings Corp.",
+   "use": "AI-enabled digital platform for corporate operations optimization including general affairs, administrative services, and facilities management [Accenture]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://newsroom.accenture.com/news/2026/mitsubishi-chemical-and-accenture-establish-joint-venture-to-drive-ai-enabled-business-reinvention-and-operational-transformation",
+   "raw_sector": "",
+   "date": "2026-05-28",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Mitsubishi Chemical Holdings Corp.",
+   "use": "AI chatbot Alli for help desk task automation [Allganize]",
+   "existence": "confirmed",
+   "value": "5000",
+   "tier": "",
+   "url": "https://www.allganize.ai/post/mitsubishi-chemical-group-automates-approximately-5-000-in-house-help-desk-tasks-per-month-using-ai-chatbot-alli",
+   "raw_sector": "",
    "date": "missing",
    "fresh": "undated"
   }

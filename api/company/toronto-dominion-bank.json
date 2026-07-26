@@ -3,22 +3,22 @@
  "name": "Toronto-Dominion Bank",
  "cc": "CA",
  "vertical": "Financial Services",
- "deployments": 12,
- "confirmed": 12,
- "with_value_number": 2,
- "proof_rate": 0.167,
+ "deployments": 16,
+ "confirmed": 16,
+ "with_value_number": 3,
+ "proof_rate": 0.188,
  "mktcap": 207382352941.0,
  "revenue": 43514705882.0,
  "employees": 104843.0,
  "silent": false,
- "per_bn_revenue": 0.28,
- "per_10k_emp": 1.14,
+ "per_bn_revenue": 0.37,
+ "per_10k_emp": 1.53,
  "benchmarks": {
   "global_vertical": {
    "deployments": 95,
    "confirmed": 98,
-   "proof_rate": 55,
-   "n": 377
+   "proof_rate": 38,
+   "n": 388
   },
   "country_vertical": {
    "deployments": 71,
@@ -35,15 +35,15 @@
   },
   {
    "year": 2024,
-   "n": 5
+   "n": 6
   },
   {
    "year": 2025,
-   "n": 4
+   "n": 6
   },
   {
    "year": 2026,
-   "n": 2
+   "n": 3
   }
  ],
  "undated_pct": 0,
@@ -56,9 +56,14 @@
   "multi_year",
   "tier_p"
  ],
- "prospect_score": 100,
- "stack": [],
- "vendor_named": false,
+ "prospect_score": 92,
+ "stack": [
+  "Cohere",
+  "Microsoft",
+  "Microsoft Azure",
+  "OpenAI"
+ ],
+ "vendor_named": true,
  "deployments_detail": [
   {
    "company": "Toronto-Dominion Bank",
@@ -69,6 +74,17 @@
    "url": "https://stories.td.com/ca/en/article/foundation-ai-model",
    "raw_sector": "Banks",
    "date": "2025",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Toronto-Dominion Bank",
+   "use": "75 AI use cases implementation generating CAD 170 million in value",
+   "existence": "confirmed",
+   "value": "170000000",
+   "tier": "",
+   "url": "https://www.pymnts.com/news/artificial-intelligence/2025/td-bank-group-implemented-75-ai-use-cases-in-2025/",
+   "raw_sector": "",
+   "date": "2025-12-04",
    "fresh": "fresh"
   },
   {
@@ -190,6 +206,39 @@
    "url": "https://stories.td.com/ca/en/news/2025-07-08-virtual-ai-assistant-to-help-power-td-securities",
    "raw_sector": "",
    "date": "2025-07",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Toronto-Dominion Bank",
+   "use": "Generative AI virtual assistant for contact centre colleagues to retrieve banking inquiry answers",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://stories.td.com/ca/en/news/2024-05-16-td-launches-new-generative-ai-pilots-to-help-empower-colleag",
+   "raw_sector": "",
+   "date": "2024-05-16",
+   "fresh": "aging"
+  },
+  {
+   "company": "Toronto-Dominion Bank",
+   "use": "GenAI Knowledge Management solution for contact centers and branches handling 58 million interactions",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.linkedin.com/posts/robzelinka_td-bank-eyes-150m-in-claims-cost-reductions-activity-7436147425754615808-U-oQ",
+   "raw_sector": "",
+   "date": "2026-01-01",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Toronto-Dominion Bank",
+   "use": "TD AI Prism - predictive foundation model for customer needs prediction and experience personalization",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://td.mediaroom.com/2025-06-11-TD-Announces-Launch-of-Groundbreaking-Predictive-Foundation-Model",
+   "raw_sector": "",
+   "date": "2025-06-11",
    "fresh": "fresh"
   }
  ]

@@ -3,42 +3,66 @@
  "name": "Rockwell Automation",
  "cc": "US",
  "vertical": "Industrial / Machinery",
- "deployments": 1,
- "confirmed": 1,
+ "deployments": 11,
+ "confirmed": 6,
  "with_value_number": 0,
  "proof_rate": 0.0,
  "mktcap": 51190000000.0,
  "revenue": 8800000000.0,
  "employees": 26000.0,
  "silent": false,
- "per_bn_revenue": 0.11,
- "per_10k_emp": 0.38,
+ "per_bn_revenue": 1.25,
+ "per_10k_emp": 4.23,
  "benchmarks": {
   "global_vertical": {
-   "deployments": 0,
-   "confirmed": 14,
+   "deployments": 82,
+   "confirmed": 72,
    "proof_rate": 0,
-   "n": 175
+   "n": 176
   },
   "country_vertical": {
-   "deployments": 0,
-   "confirmed": 19,
+   "deployments": 85,
+   "confirmed": 70,
    "proof_rate": 0,
-   "n": 80
+   "n": 81
   }
  },
- "first_seen": null,
- "by_year": [],
- "undated_pct": 100,
- "momentum": "none",
- "maturity": "L3",
+ "first_seen": 2019,
+ "by_year": [
+  {
+   "year": 2019,
+   "n": 1
+  },
+  {
+   "year": 2023,
+   "n": 1
+  },
+  {
+   "year": 2024,
+   "n": 4
+  },
+  {
+   "year": 2025,
+   "n": 4
+  }
+ ],
+ "undated_pct": 9,
+ "momentum": "early_mover,cooling",
+ "maturity": "L4",
  "maturity_evidence": [
+  "multi_horizontal",
   "named_product:FactoryTalk",
+  "multi_year",
   "tier_p"
  ],
- "prospect_score": 46,
+ "prospect_score": 76,
  "stack": [
-  "NVIDIA"
+  "Amazon AWS",
+  "Microsoft",
+  "Microsoft Azure",
+  "NVIDIA",
+  "OpenAI",
+  "Snowflake"
  ],
  "vendor_named": true,
  "deployments_detail": [
@@ -52,6 +76,116 @@
    "raw_sector": "Industrials",
    "date": "missing",
    "fresh": "undated"
+  },
+  {
+   "company": "Rockwell Automation",
+   "use": "FactoryTalk Analytics VisionAI: AI-powered machine-vision quality inspection platform that identifies and classifies previously undetectable defects, performs root-cause analysis and runs closed-loop quality control at up to 500-600 parts/minute on edge or cloud. [Rockwell Automation (in-house AI vision)]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.automationworld.com/analytics/article/55251927/rockwell-automations-ai-vision-tech-for-closed-loop-quality-control",
+   "raw_sector": "",
+   "date": "2025-01-01",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Rockwell Automation",
+   "use": "FactoryTalk Analytics LogixAI: in-chassis Logix module (formerly Project Sherlock) that applies machine learning to production process data to build a model of normal operation and detect/predict anomalies, alerting operators before failures. [Rockwell Automation (embedded ML)]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.rockwellautomation.com/en-us/company/news/press-releases/Rockwell-Automation-Releases-AI-Module-to-Improve-Industrial-Production-.html",
+   "raw_sector": "",
+   "date": "2019-04-29",
+   "fresh": "stale"
+  },
+  {
+   "company": "Rockwell Automation",
+   "use": "FactoryTalk Analytics GuardianAI: machine-learning supervisory application that uses existing PowerFlex 755/755T/6000T variable-frequency drives as sensors, applying motor current signature analysis for predictive maintenance of motors and driven equipment. [Rockwell Automation (embedded ML)]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.rockwellautomation.com/en-us/products/software/factorytalk/maintenancesuite/factorytalk-analytics-guardianai.html",
+   "raw_sector": "",
+   "date": "2024-09-23",
+   "fresh": "aging"
+  },
+  {
+   "company": "Rockwell Automation",
+   "use": "Emulate3D digital twins with NVIDIA Omniverse: integration of Omniverse APIs into Rockwell's Emulate3D software to build factory-scale, physics-based AI digital twins for visualizing, simulating and optimizing operations before physical deployment. [NVIDIA Omniverse]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.rockwellautomation.com/en-us/company/news/press-releases/Rockwell-Automation-Brings-Autonomous-Operations-to-Life-Using-NVIDIA-Omniverse.html",
+   "raw_sector": "",
+   "date": "2024-11-12",
+   "fresh": "aging"
+  },
+  {
+   "company": "Rockwell Automation",
+   "use": "OTTO Motors autonomous mobile robots: Rockwell integrates NVIDIA AI robotics technology (Isaac platform) into its OTTO AMRs to build next-generation autonomous mobile robots for manufacturing and logistics material handling. [NVIDIA Isaac / Omniverse]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.rockwellautomation.com/en-us/company/news/press-releases/Rockwell-Automation-to-Advance-Intelligent-Automation-Mobile-Robotics-in-Manufacturing-Logistics-in-Collaboration-with-NVIDIA.html",
+   "raw_sector": "",
+   "date": "2024-06-03",
+   "fresh": "aging"
+  },
+  {
+   "company": "Rockwell Automation",
+   "use": "Production Logistics on AWS: AI-powered real-time scheduling and management solution for fleets of autonomous mobile robots (AMRs), built by combining Rockwell's industrial platforms (DataMosaix, Fiix) with AWS cloud infrastructure. [AWS]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.arcweb.com/blog/rockwell-automation-aws-expand-cloud-integration-advance-industrial-manufacturing",
+   "raw_sector": "",
+   "date": "2025-04-04",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Rockwell Automation",
+   "use": "Fiix Asset Risk Predictor: AI add-on to the Fiix cloud CMMS that ingests hourly equipment sensor readings to predict which assets need maintenance, learning failure signatures in as little as seven days to cut unnecessary maintenance. [Fiix by Rockwell Automation]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://control.com/news/fiix-by-rockwell-automation-releases-predictive-maintenance-software/",
+   "raw_sector": "",
+   "date": "2023-10-27",
+   "fresh": "stale"
+  },
+  {
+   "company": "Rockwell Automation",
+   "use": "Fiix Maintenance Copilot: conversational AI assistant in the Fiix CMMS that lets maintenance teams query maintenance history, asset insights and documentation in natural language, powered by Snowflake Cortex Analyst (presented at Snowflake Summit 2025). [Snowflake Cortex Analyst]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.linkedin.com/posts/fiix-software_our-very-own-liudmila-domakhina-phd-recently-activity-7340750857321295872-b3Ik",
+   "raw_sector": "",
+   "date": "2025-06-16",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Rockwell Automation",
+   "use": "FactoryTalk Design Studio Copilot: generative AI in Rockwell's cloud-based industrial design software lets controls engineers generate PLC/automation code from natural-language prompts, automating routine design tasks and mentoring junior engineers. [Microsoft Azure OpenAI Service]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.packworld.com/trends/digital-transformation/article/22927841/rockwell-automations-factorytalk-design-studio-adds-generative-ai-copilot",
+   "raw_sector": "",
+   "date": "2024-12-03",
+   "fresh": "aging"
+  },
+  {
+   "company": "Rockwell Automation",
+   "use": "Edge-based generative AI: Rockwell fine-tunes NVIDIA Nemotron Nano, a purpose-built small language model, on FactoryTalk Design Studio Copilot data to run offline/air-gapped on HMI panels, desktop IDEs and servers for design, development, production and maintenance workflows. [NVIDIA Nemotron Nano (SLM)]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.prnewswire.com/news-releases/rockwell-automation-to-advance-industrial-intelligence-through-edge-based-generative-ai-with-nvidia-nemotron-302614991.html",
+   "raw_sector": "",
+   "date": "2025-11-13",
+   "fresh": "fresh"
   }
  ]
 }

@@ -3,27 +3,27 @@
  "name": "Hiscox",
  "cc": "UK",
  "vertical": "Insurance",
- "deployments": 1,
- "confirmed": 1,
- "with_value_number": 1,
- "proof_rate": 1.0,
+ "deployments": 6,
+ "confirmed": 6,
+ "with_value_number": 3,
+ "proof_rate": 0.5,
  "mktcap": 7404100000.0,
  "revenue": 3797300000.0,
  "employees": 3000.0,
  "silent": false,
- "per_bn_revenue": 0.26,
- "per_10k_emp": 3.33,
+ "per_bn_revenue": 1.58,
+ "per_10k_emp": 20.0,
  "benchmarks": {
   "global_vertical": {
-   "deployments": 0,
-   "confirmed": 14,
-   "proof_rate": 75,
-   "n": 60
+   "deployments": 39,
+   "confirmed": 50,
+   "proof_rate": 77,
+   "n": 63
   },
   "country_vertical": {
-   "deployments": 0,
-   "confirmed": 14,
-   "proof_rate": 43,
+   "deployments": 57,
+   "confirmed": 71,
+   "proof_rate": 100,
    "n": 8
   }
  },
@@ -31,20 +31,32 @@
  "by_year": [
   {
    "year": 2024,
+   "n": 3
+  },
+  {
+   "year": 2025,
+   "n": 2
+  },
+  {
+   "year": 2026,
    "n": 1
   }
  ],
  "undated_pct": 0,
- "momentum": "early_mover,gone_quiet",
- "maturity": "L3",
+ "momentum": "early_mover,flat",
+ "maturity": "L4",
  "maturity_evidence": [
+  "multi_horizontal",
   "named_product:Hailo",
   "value_number",
+  "multi_year",
   "tier_p"
  ],
- "prospect_score": 6,
+ "prospect_score": 56,
  "stack": [
-  "Google Cloud"
+  "Google",
+  "Google Cloud",
+  "Microsoft"
  ],
  "vendor_named": true,
  "deployments_detail": [
@@ -57,6 +69,61 @@
    "url": "https://www.hiscoxgroup.com/news/press-releases/2024/12-08-24",
    "raw_sector": "Non-life insurance",
    "date": "2024",
+   "fresh": "aging"
+  },
+  {
+   "company": "Hiscox",
+   "use": "Generative AI-enhanced lead underwriting model for sabotage and terrorism risks [Google Cloud]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.hiscoxgroup.com/news/press-releases/2024/12-08-24",
+   "raw_sector": "",
+   "date": "2024-08-12",
+   "fresh": "aging"
+  },
+  {
+   "company": "Hiscox",
+   "use": "Microsoft 365 Copilot across 14 countries to streamline claims work [Microsoft] [Microsoft]",
+   "existence": "confirmed",
+   "value": "New claim processing cut from ~1 hour to 10 minutes",
+   "tier": "",
+   "url": "https://www.microsoft.com/en-us/microsoft-cloud/blog/2025/07/24/ai-powered-success-with-1000-stories-of-customer-transformation-and-innovation/",
+   "raw_sector": "",
+   "date": "2025-07-24",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Hiscox",
+   "use": "BigQuery and Vertex AI for insurance underwriting [Google Cloud] [Google Cloud]",
+   "existence": "confirmed",
+   "value": "Complex risk quotes 3 days to minutes",
+   "tier": "",
+   "url": "https://cloud.google.com/transform/101-real-world-generative-ai-use-cases-from-industry-leaders",
+   "raw_sector": "",
+   "date": "2026-04-22",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Hiscox",
+   "use": "Microsoft 365 Copilot deployment to employees [Microsoft 365 Copilot]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://ukstories.microsoft.com/features/how-ai-is-supercharging-hiscox-employees-to-do-what-theyre-great-at/",
+   "raw_sector": "",
+   "date": "2025-06-25",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Hiscox",
+   "use": "AI-powered automation for direct bill commission carrier template interpretation [UiPath]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.uipath.com/blog/industry-solutions/hiscox-insurance-ai-powered-automation",
+   "raw_sector": "",
+   "date": "2024-05-14",
    "fresh": "aging"
   }
  ]

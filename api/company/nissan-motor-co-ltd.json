@@ -3,27 +3,27 @@
  "name": "Nissan Motor Co., Ltd.",
  "cc": "JP",
  "vertical": "Automotive",
- "deployments": 4,
- "confirmed": 4,
- "with_value_number": 1,
- "proof_rate": 0.25,
+ "deployments": 10,
+ "confirmed": 7,
+ "with_value_number": 2,
+ "proof_rate": 0.2,
  "mktcap": 7733333333.0,
  "revenue": 80066666667.0,
  "employees": 120079.0,
  "silent": false,
- "per_bn_revenue": 0.05,
- "per_10k_emp": 0.33,
+ "per_bn_revenue": 0.12,
+ "per_10k_emp": 0.83,
  "benchmarks": {
   "global_vertical": {
-   "deployments": 85,
-   "confirmed": 85,
-   "proof_rate": 59,
+   "deployments": 64,
+   "confirmed": 64,
+   "proof_rate": 51,
    "n": 40
   },
   "country_vertical": {
-   "deployments": 89,
-   "confirmed": 89,
-   "proof_rate": 56,
+   "deployments": 44,
+   "confirmed": 44,
+   "proof_rate": 22,
    "n": 10
   }
  },
@@ -38,9 +38,11 @@
   "value_number",
   "tier_p"
  ],
- "prospect_score": 62,
- "stack": [],
- "vendor_named": false,
+ "prospect_score": 74,
+ "stack": [
+  "Amazon AWS"
+ ],
+ "vendor_named": true,
  "deployments_detail": [
   {
    "company": "Nissan Motor Co., Ltd.",
@@ -77,6 +79,28 @@
   },
   {
    "company": "Nissan Motor Co., Ltd.",
+   "use": "ProPilot autonomous driving system with AI",
+   "existence": "claimed",
+   "value": "90%",
+   "tier": "",
+   "url": "https://english.kyodonews.net/articles/-/74137",
+   "raw_sector": "",
+   "date": "Apr 14, 2026",
+   "fresh": "undated"
+  },
+  {
+   "company": "Nissan Motor Co., Ltd.",
+   "use": "AI-Partner technology for visual recognition and passenger information",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.nissan-global.com/EN/INNOVATION/TECHNOLOGY/ARCHIVE/AI_PARTNER/",
+   "raw_sector": "",
+   "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "Nissan Motor Co., Ltd.",
    "use": "AI used in Skyline development",
    "existence": "confirmed",
    "value": "cut development period by more than half",
@@ -84,6 +108,50 @@
    "url": "https://www.yomiuri.co.jp/economy/20260612-GYT1T00026/",
    "raw_sector": "Automotive",
    "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "Nissan Motor Co., Ltd.",
+   "use": "AI-driven operating system for consumer understanding and engagement",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.youtube.com/watch?v=hV6a4YEZ1_4",
+   "raw_sector": "",
+   "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "Nissan Motor Co., Ltd.",
+   "use": "AI integration across design, testing and manufacturing phases for development time reduction",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.automotiveworld.com/news/nissan-aims-to-halve-dev-times-with-china-inspired-ai-playbook/",
+   "raw_sector": "",
+   "date": "Jun 15, 2026",
+   "fresh": "undated"
+  },
+  {
+   "company": "Nissan Motor Co., Ltd.",
+   "use": "Data-driven automotive development with generative AI in R&D [AWS]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://aws.amazon.com/solutions/case-studies/nissan-2025/",
+   "raw_sector": "",
+   "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "Nissan Motor Co., Ltd.",
+   "use": "AI for physical testing optimization (bolt tightening on Nissan Leaf chassis) [Monolith]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.reuters.com/world/asia-pacific/nissan-monolith-expand-joint-ai-efforts-cut-car-development-time-2025-10-31/",
+   "raw_sector": "",
+   "date": "Oct 31, 2025",
    "fresh": "undated"
   }
  ]

@@ -3,27 +3,27 @@
  "name": "Procter & Gamble",
  "cc": "US",
  "vertical": "Retail & E-commerce",
- "deployments": 11,
- "confirmed": 11,
- "with_value_number": 6,
- "proof_rate": 0.545,
+ "deployments": 17,
+ "confirmed": 13,
+ "with_value_number": 7,
+ "proof_rate": 0.412,
  "mktcap": 340440000000.0,
  "revenue": 86720000000.0,
  "employees": 109000.0,
  "silent": false,
- "per_bn_revenue": 0.13,
- "per_10k_emp": 1.01,
+ "per_bn_revenue": 0.2,
+ "per_10k_emp": 1.56,
  "benchmarks": {
   "global_vertical": {
    "deployments": 95,
-   "confirmed": 97,
-   "proof_rate": 75,
-   "n": 295
+   "confirmed": 94,
+   "proof_rate": 74,
+   "n": 301
   },
   "country_vertical": {
    "deployments": 87,
-   "confirmed": 91,
-   "proof_rate": 81,
+   "confirmed": 87,
+   "proof_rate": 86,
    "n": 80
   }
  },
@@ -46,7 +46,7 @@
    "n": 6
   }
  ],
- "undated_pct": 9,
+ "undated_pct": 41,
  "momentum": "early_mover,rising",
  "maturity": "L4",
  "maturity_evidence": [
@@ -56,10 +56,82 @@
   "multi_year",
   "tier_p"
  ],
- "prospect_score": 86,
- "stack": [],
- "vendor_named": false,
+ "prospect_score": 84,
+ "stack": [
+  "Google",
+  "Google Cloud",
+  "Microsoft",
+  "Microsoft Azure",
+  "OpenAI"
+ ],
+ "vendor_named": true,
  "deployments_detail": [
+  {
+   "company": "Procter & Gamble",
+   "use": "Data insights and algorithm development using AI",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://sloanreview.mit.edu/article/how-procter-gamble-uses-ai-to-unlock-new-insights-from-data/",
+   "raw_sector": "",
+   "date": "Dec 17, 2025",
+   "fresh": "undated"
+  },
+  {
+   "company": "Procter & Gamble",
+   "use": "AI agents for autonomous/semi-autonomous operations and retail media investment",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.klover.ai/procter-gamble-uses-ai-agents-10-ways-to-use-ai-in-depth-analysis-2025/",
+   "raw_sector": "",
+   "date": "Aug 7, 2025",
+   "fresh": "undated"
+  },
+  {
+   "company": "Procter & Gamble",
+   "use": "AI, automation and data analytics for operations transformation",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://us.pg.com/blogs/innovation-at-scale-transforming-business-through-technology/",
+   "raw_sector": "",
+   "date": "Jun 4, 2025",
+   "fresh": "undated"
+  },
+  {
+   "company": "Procter & Gamble",
+   "use": "AI integration for team collaboration and employee experience",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://us.pg.com/blogs/how-ai-supplements-teamwork-and-innovation/",
+   "raw_sector": "",
+   "date": "Apr 4, 2025",
+   "fresh": "undated"
+  },
+  {
+   "company": "Procter & Gamble",
+   "use": "Model deployment time reduction with Azure IoT Operations [Azure IoT Operations]",
+   "existence": "confirmed",
+   "value": "90%",
+   "tier": "",
+   "url": "https://aiexpert.network/ai-at-procter-and-gamble/",
+   "raw_sector": "",
+   "date": "Aug 2, 2025",
+   "fresh": "undated"
+  },
+  {
+   "company": "Procter & Gamble",
+   "use": "Generative AI for marketing concept generation and copy testing",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://consumergoods.com/pg-taps-ai-and-automation-faster-smarter-operations",
+   "raw_sector": "",
+   "date": "Dec 3, 2024",
+   "fresh": "undated"
+  },
   {
    "company": "Procter & Gamble",
    "use": "Analytical + generative + agentic AI for product/package innovation, media, manufacturing (\"AI factory\" framework)",

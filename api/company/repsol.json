@@ -3,27 +3,27 @@
  "name": "Repsol",
  "cc": "ES",
  "vertical": "Energy & Utilities",
- "deployments": 12,
- "confirmed": 11,
+ "deployments": 17,
+ "confirmed": 16,
  "with_value_number": 5,
- "proof_rate": 0.417,
+ "proof_rate": 0.294,
  "mktcap": 30412800000.0,
  "revenue": 52218000000.0,
  "employees": 24523.0,
  "silent": false,
- "per_bn_revenue": 0.23,
- "per_10k_emp": 4.89,
+ "per_bn_revenue": 0.33,
+ "per_10k_emp": 6.93,
  "benchmarks": {
   "global_vertical": {
    "deployments": 97,
-   "confirmed": 97,
-   "proof_rate": 67,
-   "n": 210
+   "confirmed": 99,
+   "proof_rate": 66,
+   "n": 213
   },
   "country_vertical": {
    "deployments": 83,
    "confirmed": 83,
-   "proof_rate": 33,
+   "proof_rate": 67,
    "n": 7
   }
  },
@@ -42,7 +42,7 @@
    "n": 1
   }
  ],
- "undated_pct": 50,
+ "undated_pct": 65,
  "momentum": "early_mover,rising",
  "maturity": "L4",
  "maturity_evidence": [
@@ -51,9 +51,14 @@
   "value_number",
   "multi_year"
  ],
- "prospect_score": 83,
+ "prospect_score": 88,
  "stack": [
-  "Accenture"
+  "Accenture",
+  "Databricks",
+  "Google Cloud",
+  "Microsoft",
+  "Microsoft Azure",
+  "NVIDIA"
  ],
  "vendor_named": true,
  "deployments_detail": [
@@ -67,6 +72,39 @@
    "raw_sector": "Oil and Gas",
    "date": "2025",
    "fresh": "fresh"
+  },
+  {
+   "company": "Repsol",
+   "use": "AI agent systems for business process automation and efficiency across operations [Accenture, NVIDIA AI platform]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://newsroom.accenture.com/news/2025/repsol-boosts-its-digital-strategy-by-collaborating-with-accenture-to-adopt-ai-agents",
+   "raw_sector": "",
+   "date": "Feb 6, 2025",
+   "fresh": "undated"
+  },
+  {
+   "company": "Repsol",
+   "use": "Intelligent multi-agent platform with 22 AI agents deployed across three teams [Accenture]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.repsol.com/en/press-room/press-releases/2025/repsol-launches-intelligent-multi-agent-platform-consolidating-global-ai-leader-energy-sector/index.cshtml",
+   "raw_sector": "",
+   "date": "Oct 15, 2025",
+   "fresh": "undated"
+  },
+  {
+   "company": "Repsol",
+   "use": "Generative AI adoption across identified and implemented use cases for business value",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.repsol.com/en/energy-move-forward/innovation/adoption-generative-ai-repsol/index.cshtml",
+   "raw_sector": "",
+   "date": "Feb 12, 2026",
+   "fresh": "undated"
   },
   {
    "company": "Repsol",
@@ -181,6 +219,28 @@
   {
    "company": "Repsol",
    "use": "Vivit: AI-based home energy service that detects which household electrical appliances consume the most energy so customers can save. [ARiA (Repsol proprietary)]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.repsol.com/en/innovation/digitalization/our-model/aria/index.cshtml",
+   "raw_sector": "",
+   "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "Repsol",
+   "use": "Generative AI Competence Center for secure extraction of generative AI potential",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.repsol.com/en/innovation/digitalization/our-transformation/index.cshtml",
+   "raw_sector": "",
+   "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "Repsol",
+   "use": "ARiA Big Data and AI cloud platform with hundreds of active use cases including predictive maintenance",
    "existence": "confirmed",
    "value": "none",
    "tier": "",

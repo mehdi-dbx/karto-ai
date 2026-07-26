@@ -3,33 +3,45 @@
  "name": "Shufersal",
  "cc": "IL",
  "vertical": "Retail & E-commerce",
- "deployments": 1,
- "confirmed": 0,
- "with_value_number": 1,
- "proof_rate": 1.0,
+ "deployments": 3,
+ "confirmed": 2,
+ "with_value_number": 2,
+ "proof_rate": 0.667,
  "mktcap": 3359459459.0,
  "revenue": 3959459459.0,
  "employees": 14500.0,
  "silent": false,
- "per_bn_revenue": 0.25,
- "per_10k_emp": 0.69,
+ "per_bn_revenue": 0.76,
+ "per_10k_emp": 2.07,
  "benchmarks": {
   "global_vertical": {
-   "deployments": 0,
-   "confirmed": 0,
-   "proof_rate": 77,
-   "n": 295
+   "deployments": 19,
+   "confirmed": 22,
+   "proof_rate": 91,
+   "n": 301
   }
  },
- "first_seen": null,
- "by_year": [],
- "undated_pct": 100,
- "momentum": "none",
- "maturity": "L1",
- "maturity_evidence": [
-  "rows_no_confirmed"
+ "first_seen": 2021,
+ "by_year": [
+  {
+   "year": 2021,
+   "n": 1
+  },
+  {
+   "year": 2022,
+   "n": 1
+  }
  ],
- "prospect_score": 0,
+ "undated_pct": 33,
+ "momentum": "early_mover,gone_quiet",
+ "maturity": "L4",
+ "maturity_evidence": [
+  "multi_horizontal",
+  "named_product:Shopic",
+  "value_number",
+  "multi_year"
+ ],
+ "prospect_score": 33,
  "stack": [],
  "vendor_named": false,
  "deployments_detail": [
@@ -43,6 +55,28 @@
    "raw_sector": "Retail",
    "date": "missing",
    "fresh": "undated"
+  },
+  {
+   "company": "Shufersal",
+   "use": "AI-based smart cart with computer vision for product detection, checkout, and product recommendations [Shopic]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://nocamels.com/2021/12/shufersal-smart-cart-solution-shopic/",
+   "raw_sector": "",
+   "date": "2021-12-14",
+   "fresh": "stale"
+  },
+  {
+   "company": "Shufersal",
+   "use": "Cold chain operations and tracking with reusable transport items [Wiliot]",
+   "existence": "confirmed",
+   "value": "1000000",
+   "tier": "",
+   "url": "https://foodindustryexecutive.com/2022/06/wiliot-revolutionizes-cold-chain-operations-with-the-launch-of-its-new-reusable-transport-item-solution-debuting-with-israels-leading-retailer-shufersal/",
+   "raw_sector": "",
+   "date": "2022-06-12",
+   "fresh": "stale"
   }
  ]
 }

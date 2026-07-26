@@ -3,21 +3,21 @@
  "name": "News Corp",
  "cc": "AU",
  "vertical": "Media / Entertainment / Gaming",
- "deployments": 1,
- "confirmed": 0,
+ "deployments": 4,
+ "confirmed": 3,
  "with_value_number": 1,
- "proof_rate": 1.0,
+ "proof_rate": 0.25,
  "mktcap": 14733333333.0,
  "revenue": 8546666667.0,
  "employees": 22300.0,
  "silent": false,
- "per_bn_revenue": 0.12,
- "per_10k_emp": 0.45,
+ "per_bn_revenue": 0.47,
+ "per_10k_emp": 1.79,
  "benchmarks": {
   "global_vertical": {
-   "deployments": 0,
-   "confirmed": 0,
-   "proof_rate": 62,
+   "deployments": 29,
+   "confirmed": 41,
+   "proof_rate": 53,
    "n": 35
   }
  },
@@ -26,18 +26,62 @@
   {
    "year": 2023,
    "n": 1
+  },
+  {
+   "year": 2024,
+   "n": 1
+  },
+  {
+   "year": 2025,
+   "n": 2
   }
  ],
  "undated_pct": 0,
- "momentum": "early_mover,gone_quiet",
- "maturity": "L1",
+ "momentum": "early_mover,flat",
+ "maturity": "L3",
  "maturity_evidence": [
-  "rows_no_confirmed"
+  "named_product:News",
+  "multi_year"
  ],
- "prospect_score": 0,
- "stack": [],
- "vendor_named": false,
+ "prospect_score": 48,
+ "stack": [
+  "OpenAI"
+ ],
+ "vendor_named": true,
  "deployments_detail": [
+  {
+   "company": "News Corp",
+   "use": "News content licensing and training data provision to OpenAI [OpenAI]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://investors.newscorp.com/news-releases/news-release-details/news-corp-and-openai-sign-landmark-multi-year-global-partnership",
+   "raw_sector": "",
+   "date": "2024-05-22",
+   "fresh": "aging"
+  },
+  {
+   "company": "News Corp",
+   "use": "NewsGPT - in-house AI tool for newsroom operations",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.editorandpublisher.com/stories/news-corp-bets-big-on-ai-tools-but-journalists-voice-concerns,256354",
+   "raw_sector": "",
+   "date": "2025-06-20",
+   "fresh": "fresh"
+  },
+  {
+   "company": "News Corp",
+   "use": "AI integration in editorial departments",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.inma.org/blogs/conference/post.cfm/news-corp-australia-outlines-its-approach-to-using-ai-in-its-newsrooms",
+   "raw_sector": "",
+   "date": "2025-09-08",
+   "fresh": "fresh"
+  },
   {
    "company": "News Corp",
    "use": "Data Local unit generates ~3,000 AI-powered hyperlocal news articles weekly (weather, fuel prices, traffic); rolled out NewsGPT internal AI tool",

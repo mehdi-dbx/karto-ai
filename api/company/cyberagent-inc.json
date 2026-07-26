@@ -3,26 +3,26 @@
  "name": "CyberAgent Inc.",
  "cc": "JP",
  "vertical": "Media / Entertainment / Gaming",
- "deployments": 1,
- "confirmed": 1,
+ "deployments": 7,
+ "confirmed": 6,
  "with_value_number": 1,
- "proof_rate": 1.0,
+ "proof_rate": 0.143,
  "mktcap": 4744800000.0,
  "revenue": 6209333333.0,
  "employees": 8150.0,
  "silent": false,
- "per_bn_revenue": 0.16,
- "per_10k_emp": 1.23,
+ "per_bn_revenue": 1.13,
+ "per_10k_emp": 8.59,
  "benchmarks": {
   "global_vertical": {
-   "deployments": 0,
-   "confirmed": 18,
-   "proof_rate": 62,
+   "deployments": 65,
+   "confirmed": 62,
+   "proof_rate": 35,
    "n": 35
   },
   "country_vertical": {
-   "deployments": 0,
-   "confirmed": 0,
+   "deployments": 50,
+   "confirmed": 25,
    "proof_rate": 0,
    "n": 5
   }
@@ -32,19 +32,31 @@
   {
    "year": 2016,
    "n": 1
+  },
+  {
+   "year": 2025,
+   "n": 3
+  },
+  {
+   "year": 2026,
+   "n": 2
   }
  ],
- "undated_pct": 0,
- "momentum": "early_mover,gone_quiet",
- "maturity": "L3",
+ "undated_pct": 14,
+ "momentum": "early_mover,rising",
+ "maturity": "L4",
  "maturity_evidence": [
+  "multi_horizontal",
   "named_product:Lab",
   "value_number",
+  "multi_year",
   "tier_p"
  ],
- "prospect_score": 14,
- "stack": [],
- "vendor_named": false,
+ "prospect_score": 70,
+ "stack": [
+  "OpenAI"
+ ],
+ "vendor_named": true,
  "deployments_detail": [
   {
    "company": "CyberAgent Inc.",
@@ -56,6 +68,72 @@
    "raw_sector": "Services",
    "date": "2016",
    "fresh": "stale"
+  },
+  {
+   "company": "CyberAgent Inc.",
+   "use": "ChatGPT Enterprise and Codex for software development, team productivity, and business decision-making [OpenAI ChatGPT Enterprise, Codex]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://openai.com/index/cyberagent/",
+   "raw_sector": "",
+   "date": "2026-04-09",
+   "fresh": "fresh"
+  },
+  {
+   "company": "CyberAgent Inc.",
+   "use": "Generative AI for unit test generation in software development",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.cyberagent.co.jp/en/way/list/detail/id=31842",
+   "raw_sector": "",
+   "date": "2025-04-30",
+   "fresh": "fresh"
+  },
+  {
+   "company": "CyberAgent Inc.",
+   "use": "Prompt API integration for AI-enhanced content creation on Ameba Blog [Chrome Prompt API]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://developer.chrome.com/blog/prompt-api-blog-cyberagent",
+   "raw_sector": "",
+   "date": "2025-04-28",
+   "fresh": "fresh"
+  },
+  {
+   "company": "CyberAgent Inc.",
+   "use": "ChatGPT Enterprise and Codex to scale AI across advertising businesses [OpenAI] [OpenAI]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://openai.com/index/cyberagent/",
+   "raw_sector": "",
+   "date": "2026-04-09",
+   "fresh": "fresh"
+  },
+  {
+   "company": "CyberAgent Inc.",
+   "use": "Named as a OpenAI customer/case study [OpenAI] [OpenAI]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://openai.com/index/cyberagent/",
+   "raw_sector": "",
+   "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "CyberAgent Inc.",
+   "use": "Company-wide operational efficiency and AI adoption across all business functions",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://report.cyberagent.co.jp/en/sustainability/",
+   "raw_sector": "",
+   "date": "2025-02",
+   "fresh": "fresh"
   }
  ]
 }

@@ -3,28 +3,28 @@
  "name": "Intercontinental Exchange",
  "cc": "US",
  "vertical": "Financial Services",
- "deployments": 1,
- "confirmed": 1,
+ "deployments": 5,
+ "confirmed": 5,
  "with_value_number": 0,
  "proof_rate": 0.0,
  "mktcap": 80600000000.0,
  "revenue": 10440000000.0,
  "employees": 12844.0,
  "silent": false,
- "per_bn_revenue": 0.1,
- "per_10k_emp": 0.78,
+ "per_bn_revenue": 0.48,
+ "per_10k_emp": 3.89,
  "benchmarks": {
   "global_vertical": {
-   "deployments": 0,
-   "confirmed": 17,
+   "deployments": 31,
+   "confirmed": 46,
    "proof_rate": 0,
-   "n": 377
+   "n": 388
   },
   "country_vertical": {
-   "deployments": 0,
-   "confirmed": 19,
+   "deployments": 26,
+   "confirmed": 41,
    "proof_rate": 0,
-   "n": 76
+   "n": 77
   }
  },
  "first_seen": 2026,
@@ -34,17 +34,65 @@
    "n": 1
   }
  ],
- "undated_pct": 0,
+ "undated_pct": 80,
  "momentum": "late_entrant,rising",
  "maturity": "L3",
  "maturity_evidence": [
+  "multi_horizontal",
   "named_product:Compass",
   "tier_p"
  ],
- "prospect_score": 54,
- "stack": [],
- "vendor_named": false,
+ "prospect_score": 70,
+ "stack": [
+  "Anthropic",
+  "Databricks"
+ ],
+ "vendor_named": true,
  "deployments_detail": [
+  {
+   "company": "Intercontinental Exchange",
+   "use": "Custom text analytics for financial insights using Databricks [Databricks]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.databricks.com/blog/unlocking-financial-insights-nyse-ice",
+   "raw_sector": "",
+   "date": "Oct 1, 2024",
+   "fresh": "undated"
+  },
+  {
+   "company": "Intercontinental Exchange",
+   "use": "AI Voice and Chat Agents for mortgage servicing customer support",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://ir.theice.com/press/news-details/2026/ICE-Unveils-AI-Voice-and-Chat-Agents-for-Mortgage-Servicing-at-ICE-Experience-2026/default.aspx",
+   "raw_sector": "",
+   "date": "Mar 17, 2026",
+   "fresh": "undated"
+  },
+  {
+   "company": "Intercontinental Exchange",
+   "use": "AI-secured infrastructure for cybersecurity vulnerability identification and remediation [Anthropic Claude]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.linkedin.com/posts/nyse_claude-activity-7468039695583723523-2GxS",
+   "raw_sector": "",
+   "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "Intercontinental Exchange",
+   "use": "Project Glasswing - AI-secured financial infrastructure [Anthropic]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://ir.theice.com/press/news-details/2026/Intercontinental-Exchange-Joins-Anthropics-Project-Glasswing/default.aspx",
+   "raw_sector": "",
+   "date": "Jun 3, 2026",
+   "fresh": "undated"
+  },
   {
    "company": "Intercontinental Exchange",
    "use": "\"Compass\" AI fixed-income pre-trade analytics + AI voice/chat agents for mortgage servicing (12+ automation agents)",

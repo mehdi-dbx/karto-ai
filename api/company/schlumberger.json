@@ -3,27 +3,27 @@
  "name": "Schlumberger",
  "cc": "US",
  "vertical": "Energy & Utilities",
- "deployments": 1,
- "confirmed": 1,
- "with_value_number": 0,
- "proof_rate": 0.0,
+ "deployments": 9,
+ "confirmed": 3,
+ "with_value_number": 1,
+ "proof_rate": 0.111,
  "mktcap": 39320000.0,
  "revenue": 3160000.0,
  "employees": 9.0,
  "silent": false,
- "per_bn_revenue": 316.46,
- "per_10k_emp": 1111.11,
+ "per_bn_revenue": 2848.1,
+ "per_10k_emp": 10000.0,
  "benchmarks": {
   "global_vertical": {
-   "deployments": 0,
-   "confirmed": 20,
-   "proof_rate": 0,
-   "n": 210
+   "deployments": 78,
+   "confirmed": 48,
+   "proof_rate": 43,
+   "n": 213
   },
   "country_vertical": {
-   "deployments": 0,
-   "confirmed": 39,
-   "proof_rate": 0,
+   "deployments": 78,
+   "confirmed": 55,
+   "proof_rate": 71,
    "n": 52
   }
  },
@@ -34,17 +34,31 @@
    "n": 1
   }
  ],
- "undated_pct": 0,
+ "undated_pct": 89,
  "momentum": "early_mover,gone_quiet",
  "maturity": "L3",
  "maturity_evidence": [
   "named_product:Lumi",
+  "value_number",
   "tier_p"
  ],
  "prospect_score": 54,
- "stack": [],
- "vendor_named": false,
+ "stack": [
+  "NVIDIA"
+ ],
+ "vendor_named": true,
  "deployments_detail": [
+  {
+   "company": "Schlumberger",
+   "use": "Supply chain optimization and cost management [Avanade]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.avanade.com/en-us/insights/clients/schlumberger",
+   "raw_sector": "",
+   "date": "missing",
+   "fresh": "undated"
+  },
   {
    "company": "Schlumberger",
    "use": "\"Lumi\" data & AI platform (GenAI + workflows across energy value chain); Shell partnership",
@@ -55,6 +69,83 @@
    "raw_sector": "Energy",
    "date": "2024",
    "fresh": "aging"
+  },
+  {
+   "company": "Schlumberger",
+   "use": "Agentic AI workflows for subsurface operations [AIQ]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.slb.com/newsroom/press-release/2025/aiq-slb-energyai-pr",
+   "raw_sector": "",
+   "date": "Aug 7, 2025",
+   "fresh": "undated"
+  },
+  {
+   "company": "Schlumberger",
+   "use": "Tela agentic AI assistant for energy operations",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.slb.com/newsroom/press-release/2025/pr-2025-1103-slb-tela-ai",
+   "raw_sector": "",
+   "date": "Nov 3, 2025",
+   "fresh": "undated"
+  },
+  {
+   "company": "Schlumberger",
+   "use": "Open data and AI infrastructure for subsurface, well construction and workflows",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://investorcenter.slb.com/news-releases/news-release-details/slb-enters-collaboration-agreement-accelerate-new-digital",
+   "raw_sector": "",
+   "date": "Dec 11, 2025",
+   "fresh": "undated"
+  },
+  {
+   "company": "Schlumberger",
+   "use": "Modular data center infrastructure and generative AI models for large-scale deployments [NVIDIA]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://investorcenter.slb.com/news-releases/news-release-details/slb-industrializes-ai-energy-industry-nvidia",
+   "raw_sector": "",
+   "date": "Mar 25, 2026",
+   "fresh": "undated"
+  },
+  {
+   "company": "Schlumberger",
+   "use": "Custom generative AI models for energy scientists and engineers [NVIDIA NeMo and NIM]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://developer.nvidia.com/blog/spotlight-slb-and-nvidia-collaborate-on-gen-ai-solutions-for-energy/",
+   "raw_sector": "",
+   "date": "Sep 19, 2024",
+   "fresh": "undated"
+  },
+  {
+   "company": "Schlumberger",
+   "use": "Generative AI for field development planning and infill well performance analysis",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.slb.com/resource-library/article/2024/generative-ai-for-field-development-planning",
+   "raw_sector": "",
+   "date": "Jun 4, 2024",
+   "fresh": "undated"
+  },
+  {
+   "company": "Schlumberger",
+   "use": "Well construction tender sizing and reservoir pressure analysis [Dataiku]",
+   "existence": "confirmed",
+   "value": "76%",
+   "tier": "",
+   "url": "https://www.dataiku.com/blog/dataiku-slb",
+   "raw_sector": "",
+   "date": "Nov 15, 2023",
+   "fresh": "undated"
   }
  ]
 }

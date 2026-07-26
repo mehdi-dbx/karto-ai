@@ -3,40 +3,55 @@
  "name": "Emirates Integrated Telecommunications (du)",
  "cc": "AE",
  "vertical": "Telecom",
- "deployments": 1,
- "confirmed": 1,
- "with_value_number": 0,
- "proof_rate": 0.0,
+ "deployments": 12,
+ "confirmed": 6,
+ "with_value_number": 6,
+ "proof_rate": 0.5,
  "mktcap": 15267000000.0,
  "revenue": 4455000000.0,
  "employees": null,
  "silent": false,
- "per_bn_revenue": 0.22,
+ "per_bn_revenue": 2.69,
  "per_10k_emp": null,
  "benchmarks": {
   "global_vertical": {
-   "deployments": 0,
-   "confirmed": 16,
-   "proof_rate": 0,
-   "n": 93
+   "deployments": 75,
+   "confirmed": 51,
+   "proof_rate": 73,
+   "n": 94
   }
  },
- "first_seen": 2025,
+ "first_seen": 2024,
  "by_year": [
   {
+   "year": 2024,
+   "n": 2
+  },
+  {
    "year": 2025,
+   "n": 9
+  },
+  {
+   "year": 2026,
    "n": 1
   }
  ],
  "undated_pct": 0,
- "momentum": "rising",
- "maturity": "L3",
+ "momentum": "early_mover,rising",
+ "maturity": "L4",
  "maturity_evidence": [
+  "multi_horizontal",
   "named_product:Launched",
+  "value_number",
+  "multi_year",
   "tier_p"
  ],
- "prospect_score": 46,
+ "prospect_score": 56,
  "stack": [
+  "Microsoft",
+  "Microsoft Azure",
+  "NVIDIA",
+  "OpenAI",
   "Oracle"
  ],
  "vendor_named": true,
@@ -51,6 +66,127 @@
    "raw_sector": "Telecom",
    "date": "2025",
    "fresh": "fresh"
+  },
+  {
+   "company": "Emirates Integrated Telecommunications (du)",
+   "use": "du deployed Oracle Alloy to launch the National Hypercloud, a live sovereign cloud offering 150+ OCI services plus a sovereign AI portfolio to UAE public and private sector, keeping data in-country [Oracle (Alloy / OCI)]",
+   "existence": "confirmed",
+   "value": "150+ Oracle Cloud Services",
+   "tier": "",
+   "url": "https://www.du.ae/about/media-centre/newsdetail/du-to-launch-hyperscale-cloud-and-sovereign-ai-services",
+   "raw_sector": "",
+   "date": "2025-07-02",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Emirates Integrated Telecommunications (du)",
+   "use": "du and Nokia implemented industry-first AI-driven autonomous 5G Advanced network slicing with self-optimizing intelligence that continuously measures slice performance and autonomously adjusts RAN policies for intent-based services [Nokia]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.nokia.com/newsroom/nokia-and-du-set-new-benchmark-in-5g-innovation-with-autonomous-network-slicing-in-industry-first/",
+   "raw_sector": "",
+   "date": "2025-12-03",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Emirates Integrated Telecommunications (du)",
+   "use": "du trialed Nokia WaveSuite AI (classic + GPT-powered automation assistant) for optical network automation, using natural-language queries for network status and planning to accelerate optical network expansion [Nokia (WaveSuite AI, GPT-powered)]",
+   "existence": "claimed",
+   "value": "50% reduction in optical network planning time; 30% more efficient network designs",
+   "tier": "",
+   "url": "https://developingtelecoms.com/telecom-technology/optical-fixed-networks/19174-nokia-and-du-conduct-trial-of-ai-powered-network-automation.html",
+   "raw_sector": "",
+   "date": "2025-10-09",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Emirates Integrated Telecommunications (du)",
+   "use": "du and NextGenAI expanded an operational Nvidia-powered AI supercluster (direct-to-chip liquid-cooled Nvidia B300 GPUs) at du's DSO data center, giving customers access to large-scale AI compute [Nvidia (B300 GPUs), NextGenAI]",
+   "existence": "confirmed",
+   "value": "13+ MW capacity (expanded from 5 MW)",
+   "tier": "",
+   "url": "https://www.datacenterdynamics.com/en/news/du-and-nextgenai-partner-for-13mw-nvidia-b300-deployment-in-uae/",
+   "raw_sector": "",
+   "date": "2025-11-10",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Emirates Integrated Telecommunications (du)",
+   "use": "du and AIHostingHub launched the GCC's first NVIDIA GPU AI supercluster (several thousand NVIDIA GPUs in Supermicro liquid-cooled racks) at Dubai Silicon Oasis for AI training/inference workloads [Nvidia, AIHostingHub, Supermicro]",
+   "existence": "confirmed",
+   "value": "5+ MW capacity; several thousand NVIDIA GPUs; project value over half a billion",
+   "tier": "",
+   "url": "https://www.du.ae/about/media-centre/newsdetail/du-and-aihostinghub-announce-the-launch-of-first-nvidia",
+   "raw_sector": "",
+   "date": "2024-12-05",
+   "fresh": "aging"
+  },
+  {
+   "company": "Emirates Integrated Telecommunications (du)",
+   "use": "du signed an MoU with Open Innovation AI (with UAE Cyber Security Council) to deploy and scale sovereign agentic AI workloads, integrating du's National Hypercloud with Open Innovation AI's GPU orchestration platform for government and enterprises [Open Innovation AI]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.zawya.com/en/press-release/companies-news/du-and-open-innovation-ai-join-forces-to-power-the-uaes-sovereign-agentic-ai-future-kjkydd4k",
+   "raw_sector": "",
+   "date": "2026-06-04",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Emirates Integrated Telecommunications (du)",
+   "use": "du launched AI Park (Dubai Warsan) and National Hybrid AI at GITEX 2025 - liquid-cooled hyperscale data centers plus a sovereign hybrid AI production cluster on the National Hypercloud for enterprises/government to build and deploy AI apps [none]",
+   "existence": "claimed",
+   "value": "up to 1 GW capacity; ~500,000 sqm; 5-year phased rollout",
+   "tier": "",
+   "url": "https://www.du.ae/about/media-centre/newsdetail/du-launches-ai-park-and-national-hybrid-ai-at-gitex-2025",
+   "raw_sector": "",
+   "date": "2025-10-13",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Emirates Integrated Telecommunications (du)",
+   "use": "du and Microsoft announced an AED 2 billion hyperscale data center in the UAE to boost national cloud and AI capabilities and provide sovereign cloud solutions supporting AI-powered applications [Microsoft (Azure)]",
+   "existence": "claimed",
+   "value": "AED 2 billion ($544.54 million)",
+   "tier": "",
+   "url": "https://www.rcrwireless.com/20250428/ai-ml/du-ai-data-microsoft",
+   "raw_sector": "",
+   "date": "2025-04-28",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Emirates Integrated Telecommunications (du)",
+   "use": "du launched Microsoft 365 Copilot internally for employees to boost workplace collaboration, streamline processes and efficiency (began with a select group in first phase) [Microsoft (365 Copilot)]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.du.ae/about/media-centre/newsdetail/du-launches-microsoft-365-copilot",
+   "raw_sector": "",
+   "date": "2025-03-13",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Emirates Integrated Telecommunications (du)",
+   "use": "du and Microsoft AI-driven managed cybersecurity services including Security Copilot-based threat detection/response, LLM services, AI-driven predictive security insights and Microsoft Defender ATP integration [Microsoft (Security Copilot, Defender ATP, Azure)]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://techafricanews.com/2025/03/07/du-and-microsoft-join-forces-to-elevate-cybersecurity-in-the-uae/",
+   "raw_sector": "",
+   "date": "2025-03-07",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Emirates Integrated Telecommunications (du)",
+   "use": "du adopted Microsoft Azure OpenAI Service to improve call center analytics and reduce agent response time, delivering more personalized customer experience [Microsoft (Azure OpenAI Service)]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.du.ae/about/media-centre/newsdetail/du-to-revolutionize-the-digital-landscape-in-the-uae",
+   "raw_sector": "",
+   "date": "2024-03-01",
+   "fresh": "aging"
   }
  ]
 }

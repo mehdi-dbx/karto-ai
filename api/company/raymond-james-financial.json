@@ -3,48 +3,93 @@
  "name": "Raymond James Financial",
  "cc": "US",
  "vertical": "Financial Services",
- "deployments": 1,
- "confirmed": 1,
- "with_value_number": 0,
- "proof_rate": 0.0,
+ "deployments": 11,
+ "confirmed": 11,
+ "with_value_number": 3,
+ "proof_rate": 0.273,
  "mktcap": 31440000000.0,
  "revenue": 15250000000.0,
  "employees": 19500.0,
  "silent": false,
- "per_bn_revenue": 0.07,
- "per_10k_emp": 0.51,
+ "per_bn_revenue": 0.72,
+ "per_10k_emp": 5.64,
  "benchmarks": {
   "global_vertical": {
-   "deployments": 0,
-   "confirmed": 17,
-   "proof_rate": 0,
-   "n": 377
+   "deployments": 72,
+   "confirmed": 84,
+   "proof_rate": 52,
+   "n": 388
   },
   "country_vertical": {
-   "deployments": 0,
-   "confirmed": 19,
-   "proof_rate": 0,
-   "n": 76
+   "deployments": 68,
+   "confirmed": 84,
+   "proof_rate": 62,
+   "n": 77
   }
  },
- "first_seen": 2026,
+ "first_seen": 2025,
  "by_year": [
   {
+   "year": 2025,
+   "n": 4
+  },
+  {
    "year": 2026,
-   "n": 1
+   "n": 7
   }
  ],
  "undated_pct": 0,
- "momentum": "late_entrant,rising",
- "maturity": "L3",
+ "momentum": "rising",
+ "maturity": "L4",
  "maturity_evidence": [
+  "multi_horizontal",
   "named_product:Rai",
+  "value_number",
+  "multi_year",
   "tier_p"
  ],
- "prospect_score": 46,
- "stack": [],
+ "prospect_score": 89,
+ "stack": [
+  "Amazon AWS",
+  "Anthropic",
+  "Microsoft",
+  "OpenAI"
+ ],
  "vendor_named": true,
  "deployments_detail": [
+  {
+   "company": "Raymond James Financial",
+   "use": "'Client 360' platform (live after beta) consolidating AI-driven client insights, CRM content, recent activity, milestones and opportunities into one advisor interface, built on Anthropic's Claude and Amazon Web Services [Anthropic (Claude); Amazon Web Services]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.wealthmanagement.com/ibd-news/raymond-james-announces-ai-driven-client360-platform-ai-advisor-academy",
+   "raw_sector": "",
+   "date": "2026-05-05",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Raymond James Financial",
+   "use": "Firmwide rollout of Zoom AI Companion meeting summaries, auto-generating and sharing AI meeting summaries for advisor meetings (integrated with CRM to create activities, notes, tasks and draft recaps) [Zoom (AI Companion)]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.raymondjames.com/news-and-media/press-releases/2025/05/15/raymond-james-expands-service-focused-technology-investment-with-zoom-ai-companion",
+   "raw_sector": "",
+   "date": "2025-05-15",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Raymond James Financial",
+   "use": "AI Note Assistant built into the proprietary CRM that optimizes advisor note-taking and identifies action items from client interactions [In-house (proprietary CRM)]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.wealthmanagement.com/ibd-news/raymond-james-announces-ai-driven-client360-platform-ai-advisor-academy",
+   "raw_sector": "",
+   "date": "2026-05-05",
+   "fresh": "fresh"
+  },
   {
    "company": "Raymond James Financial",
    "use": "\"Rai\" proprietary GenAI operations agent + GenAI internal-knowledge search + Client 360 AI advisor platform",
@@ -54,6 +99,83 @@
    "url": "https://www.raymondjames.com/news-and-media/press-releases/2026/01/27/raymond-james-launches-proprietary-digital-ai-agent-to-bolster-operational-excellence",
    "raw_sector": "Financials",
    "date": "2026",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Raymond James Financial",
+   "use": "Proprietary generative AI 'AI Search' embedded in internal systems, letting financial advisors and associates ask natural-language questions against the firm's internal knowledge base for service delivery [In-house (proprietary)]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.investmentnews.com/fintech/raymond-james-looks-to-level-up-service-with-generative-ai/260190",
+   "raw_sector": "",
+   "date": "2025-04-17",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Raymond James Financial",
+   "use": "'Rai' (aka Raimond) proprietary digital AI operations agent using NLP and generative AI to give role-personalized natural-language answers and process guidance; piloted then rolling out to business units enterprise-wide [In-house (proprietary)]",
+   "existence": "confirmed",
+   "value": "600 advisors and 1,400 home office employees in pilot",
+   "tier": "",
+   "url": "https://finance.yahoo.com/news/raymond-james-launches-proprietary-digital-211400674.html",
+   "raw_sector": "",
+   "date": "2026-01-27",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Raymond James Financial",
+   "use": "Secure enterprise access to ChatGPT Enterprise provided to employees for conversational AI productivity (10,000+ regular users of the firm's conversational AI tools) [OpenAI (ChatGPT Enterprise)]",
+   "existence": "confirmed",
+   "value": "over 10,000 regular users of conversational AI tools",
+   "tier": "",
+   "url": "https://finance.yahoo.com/news/raymond-james-launches-proprietary-digital-211400674.html",
+   "raw_sector": "",
+   "date": "2026-01-27",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Raymond James Financial",
+   "use": "Microsoft Copilot integration deployed across the firm for employee productivity [Microsoft (Copilot)]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://finance.yahoo.com/news/raymond-james-launches-proprietary-digital-211400674.html",
+   "raw_sector": "",
+   "date": "2026-01-27",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Raymond James Financial",
+   "use": "AI in cybersecurity and fraud prevention: machine-learning algorithms reduce false positives in electronic communications monitoring, enhance real-time threat detection, and support anti-money-laundering due diligence [none]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.investmentnews.com/fintech/raymond-james-looks-to-level-up-service-with-generative-ai/260190",
+   "raw_sector": "",
+   "date": "2025-04-17",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Raymond James Financial",
+   "use": "AI-assisted software development: developers use generative AI coding tools to write code faster and identify vulnerabilities, generating roughly 3.2 million lines of code per month under developer oversight [none]",
+   "existence": "confirmed",
+   "value": "~3.2 million lines of code generated monthly",
+   "tier": "",
+   "url": "https://finance.yahoo.com/news/raymond-james-launches-proprietary-digital-211400674.html",
+   "raw_sector": "",
+   "date": "2026-01-27",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Raymond James Financial",
+   "use": "Dynatrace Davis AI (machine-learning engine) used in production by the site reliability engineering team for AI-enabled observability, anomaly detection against seasonal baselines, and root-cause analysis across applications [Dynatrace (Davis AI); also Splunk and Datadog]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://diginomica.com/how-raymond-james-uses-ai-enabled-observability-gain-wealth-insight-247",
+   "raw_sector": "",
+   "date": "2025-02-12",
    "fresh": "fresh"
   }
  ]

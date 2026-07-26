@@ -3,42 +3,61 @@
  "name": "AppLovin",
  "cc": "US",
  "vertical": "Technology",
- "deployments": 1,
- "confirmed": 1,
+ "deployments": 11,
+ "confirmed": 9,
  "with_value_number": 1,
- "proof_rate": 1.0,
+ "proof_rate": 0.091,
  "mktcap": 134050000000.0,
  "revenue": 6160000000.0,
  "employees": 898.0,
  "silent": false,
- "per_bn_revenue": 0.16,
- "per_10k_emp": 11.14,
+ "per_bn_revenue": 1.79,
+ "per_10k_emp": 122.49,
  "benchmarks": {
   "global_vertical": {
-   "deployments": 0,
-   "confirmed": 6,
-   "proof_rate": 80,
-   "n": 156
+   "deployments": 67,
+   "confirmed": 65,
+   "proof_rate": 38,
+   "n": 159
   },
   "country_vertical": {
-   "deployments": 0,
-   "confirmed": 4,
-   "proof_rate": 93,
+   "deployments": 63,
+   "confirmed": 60,
+   "proof_rate": 45,
    "n": 74
   }
  },
- "first_seen": null,
- "by_year": [],
- "undated_pct": 100,
- "momentum": "none",
- "maturity": "L3",
- "maturity_evidence": [
-  "named_product:AXON",
-  "value_number"
+ "first_seen": 2023,
+ "by_year": [
+  {
+   "year": 2023,
+   "n": 1
+  },
+  {
+   "year": 2024,
+   "n": 3
+  },
+  {
+   "year": 2025,
+   "n": 2
+  },
+  {
+   "year": 2026,
+   "n": 4
+  }
  ],
- "prospect_score": 14,
+ "undated_pct": 9,
+ "momentum": "early_mover,rising",
+ "maturity": "L4",
+ "maturity_evidence": [
+  "multi_horizontal",
+  "named_product:AXON",
+  "value_number",
+  "multi_year"
+ ],
+ "prospect_score": 90,
  "stack": [],
- "vendor_named": false,
+ "vendor_named": true,
  "deployments_detail": [
   {
    "company": "AppLovin",
@@ -50,6 +69,116 @@
    "raw_sector": "Information Technology",
    "date": "missing",
    "fresh": "undated"
+  },
+  {
+   "company": "AppLovin",
+   "use": "AXON AI advertising engine — the core AI system powering AppLovin Ads. It evaluates every ad impression in real time using predictive algorithms, identifies users most likely to engage, and bids on impressions based on their assessed value to each advertiser. Trains continuously on device, network, and cross-app engagement data plus MAX bid outcomes. [AppLovin (proprietary AXON)]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://legal.applovin.com/about-applovins-axon-ai/",
+   "raw_sector": "",
+   "date": "2025",
+   "fresh": "fresh"
+  },
+  {
+   "company": "AppLovin",
+   "use": "AXON 2.0 — upgraded predictive machine-learning ad-tech engine (released 2023) that targets app-install ads to users most likely to download, using expected-value distribution models projecting many days into the future. Credited as the primary driver of AppLovin's software-platform revenue growth. [AppLovin (proprietary AXON 2.0)]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.adexchanger.com/ai/a-tiny-peek-inside-the-black-box-algorithm-driving-applovins-business/",
+   "raw_sector": "",
+   "date": "2024-02-16",
+   "fresh": "aging"
+  },
+  {
+   "company": "AppLovin",
+   "use": "Axon Ads Manager — self-serve, AI-powered advertising platform (rebranded from the AppLovin ad platform) with real-time AI bidding, Shopify integration, and AI-driven audience targeting, opened to e-commerce/DTC advertisers. [AppLovin Axon (proprietary)]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.modernretail.co/marketing/applovin-rebrands-its-ad-platform-as-axon-launches-ads-manager-on-referral-only-basis/",
+   "raw_sector": "",
+   "date": "2025-10-01",
+   "fresh": "fresh"
+  },
+  {
+   "company": "AppLovin",
+   "use": "Discovery Campaigns and Prospecting Campaigns — Axon ML-powered e-commerce campaign types. Prospecting optimizes for purchases from people who never bought before; Discovery reaches audiences with zero prior brand interaction. Advertisers set the goal, Axon AI optimizes matching. Early testing more than doubled new-visitor percentages. [AppLovin Axon (proprietary)]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://applovin.com/en/blog/discovery-campaigns",
+   "raw_sector": "",
+   "date": "2026",
+   "fresh": "fresh"
+  },
+  {
+   "company": "AppLovin",
+   "use": "Automated fraud / invalid-traffic detection — platform enforcement system that actively monitors and analyzes metrics with automated tooling to identify fraudulent clicks and impressions and irregular patterns indicating invalid traffic; flagged publishers face account termination. In active production. [AppLovin (proprietary automated tooling)]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://applovin.com/platform-enforcement",
+   "raw_sector": "",
+   "date": "2026",
+   "fresh": "fresh"
+  },
+  {
+   "company": "AppLovin",
+   "use": "Adjust (AppLovin-owned mobile measurement) AI-powered measurement, attribution, analytics and personalization — Adjust and AppLovin outlined how AI-powered personalization and measurement drive the next phase of mobile app growth. [Adjust (AppLovin subsidiary)]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://investors.applovin.com/news/news-details/2024/Adjust-and-AppLovin-Reveal-Ways-AI-Powered-Personalization-Will-Drive-Next-Mobile-App-Growth-Phase/default.aspx",
+   "raw_sector": "",
+   "date": "2024-02-20",
+   "fresh": "aging"
+  },
+  {
+   "company": "AppLovin",
+   "use": "AppDiscovery — AI/machine-learning user-acquisition (demand) platform for advertisers. AppLovin announced AI advancements that improved campaign efficiency and performance for mobile UA campaigns. [AppLovin (proprietary)]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://investors.applovin.com/news/news-details/2023/AppLovin-AI-Advancements-to-Accelerate-Partner-Growth/default.aspx",
+   "raw_sector": "",
+   "date": "2023-08-07",
+   "fresh": "stale"
+  },
+  {
+   "company": "AppLovin",
+   "use": "AI-generated interactive (HTML) shopping ad creatives — a multi-agent AI pipeline that automatically gathers brand context/product imagery, drafts concepts, generates assets with image and video models, runs quality checks, and delivers ready-to-launch interactive ads within minutes. Live rollout enrolled several hundred web advertisers and launched thousands of AI-generated interactives capturing a significant share of HTML ad spend. [AppLovin Axon (proprietary image/video models, multi-agent pipeline)]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.applovin.com/en/blog/automating-creative",
+   "raw_sector": "",
+   "date": "2026",
+   "fresh": "fresh"
+  },
+  {
+   "company": "AppLovin",
+   "use": "AI video ad generation from a URL — automated system that generates high-quality video ads (30-60 seconds) from an advertiser's website URL, handling product depiction, editing, captions and music. In early-access rollout with free generation, broader web-advertiser rollout planned for Q2. [AppLovin Axon (proprietary)]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://applovin.com/en/blog/generating-video",
+   "raw_sector": "",
+   "date": "2026",
+   "fresh": "fresh"
+  },
+  {
+   "company": "AppLovin",
+   "use": "SparkLabs (in-house creative agency) — infuses generative AI into daily creative-team operations to enhance mobile ad creatives and boost productivity. Analysis covered tens of thousands of creatives produced by SparkLabs in 2023. [AppLovin SparkLabs (generative AI, vendor unnamed)]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://investors.applovin.com/news/news-details/2024/AppLovin-Reveals-Ways-Generative-AI-Is-Transforming-The-Mobile-Ads-Creative-Process/default.aspx",
+   "raw_sector": "",
+   "date": "2024-02-13",
+   "fresh": "aging"
   }
  ]
 }

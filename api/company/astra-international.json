@@ -3,51 +3,89 @@
  "name": "Astra International",
  "cc": "ID",
  "vertical": "Financial Services",
- "deployments": 2,
- "confirmed": 0,
- "with_value_number": 0,
- "proof_rate": 0.0,
+ "deployments": 10,
+ "confirmed": 7,
+ "with_value_number": 3,
+ "proof_rate": 0.3,
  "mktcap": 13058860759.0,
  "revenue": 20467721519.0,
  "employees": 133092.0,
  "silent": false,
- "per_bn_revenue": 0.1,
- "per_10k_emp": 0.15,
+ "per_bn_revenue": 0.49,
+ "per_10k_emp": 0.75,
  "benchmarks": {
   "global_vertical": {
-   "deployments": 62,
-   "confirmed": 0,
-   "proof_rate": 0,
-   "n": 377
+   "deployments": 65,
+   "confirmed": 62,
+   "proof_rate": 54,
+   "n": 388
   },
   "country_vertical": {
-   "deployments": 14,
-   "confirmed": 0,
-   "proof_rate": 0,
+   "deployments": 57,
+   "confirmed": 71,
+   "proof_rate": 86,
    "n": 8
   }
  },
- "first_seen": 2023,
+ "first_seen": 2018,
  "by_year": [
   {
+   "year": 2018,
+   "n": 1
+  },
+  {
+   "year": 2019,
+   "n": 1
+  },
+  {
+   "year": 2021,
+   "n": 1
+  },
+  {
+   "year": 2022,
+   "n": 2
+  },
+  {
    "year": 2023,
+   "n": 2
+  },
+  {
+   "year": 2024,
    "n": 1
   },
   {
    "year": 2025,
-   "n": 1
+   "n": 2
   }
  ],
  "undated_pct": 0,
- "momentum": "early_mover,flat",
- "maturity": "L1",
+ "momentum": "early_mover,cooling",
+ "maturity": "L4",
  "maturity_evidence": [
-  "rows_no_confirmed"
+  "multi_horizontal",
+  "named_product:Garxia",
+  "value_number",
+  "multi_year"
  ],
- "prospect_score": 40,
- "stack": [],
- "vendor_named": false,
+ "prospect_score": 70,
+ "stack": [
+  "Microsoft",
+  "Microsoft Azure",
+  "SAP"
+ ],
+ "vendor_named": true,
  "deployments_detail": [
+  {
+   "company": "Astra International",
+   "use": "United Tractors and subsidiary Pamapersada Nusantara (PAMA) partnered with Microsoft to build a digital inventory-planning product using predictive maintenance on Azure (SAP HANA on Azure, Azure Kubernetes Services, Azure SQL) to forecast heavy-equipment repairs/spare-part needs and support smart mining. [Microsoft Azure]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://p3k.uma.ac.id/2022/02/09/united-tractors-dan-pama-gandeng-microsoft-untuk-transformasi-bisnis-dukung-digitalisasi-di-indonesia/",
+   "raw_sector": "",
+   "date": "2022-02",
+   "fresh": "stale"
+  },
   {
    "company": "Astra International",
    "use": "Fiona - AI-based consumer service application from subsidiary FIFGROUP (won digital product awards)",
@@ -61,6 +99,39 @@
   },
   {
    "company": "Astra International",
+   "use": "TARRA (Toyota Interactive Virtual Assistant) by PT Toyota-Astra Motor: AI chatbot with voice-command capability across LINE, WhatsApp, Facebook Messenger, website and the mTOYOTA app, answering product, service-booking, dealer, promo and credit-simulation queries 24/7. [none]",
+   "existence": "confirmed",
+   "value": "More than 1.2 million interactions since March 2019",
+   "tier": "",
+   "url": "https://pressroom.toyota.astra.co.id/toyota-astra-motor-kembali-melakukan-enhancement-pada-channel-digital-saat-ini-toyota-interactive",
+   "raw_sector": "",
+   "date": "2021-09",
+   "fresh": "stale"
+  },
+  {
+   "company": "Astra International",
+   "use": "TASIA (Toyota Astra Intelligent Assistant) by Auto2000 (Astra's Toyota dealer network): NLP/ML-powered automotive chatbot on web and WhatsApp handling purchase info, credit simulation, service booking, status tracking and dealer locator, positioned as Indonesia's first automotive chatbot. [Suitmedia]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://auto2000.co.id/berita-dan-tips/auto2000-memperkenalkan-tasia-chatbot-otomotif-pertama-di-indonesia-sebagai-virtual-assistant-pelanggan-24-jam",
+   "raw_sector": "",
+   "date": "2019-02",
+   "fresh": "stale"
+  },
+  {
+   "company": "Astra International",
+   "use": "FIONA (FIFGROUP Intelligence Personal Assistant): AI-based virtual contact center at FIFGROUP (Astra's consumer-finance arm) providing 24-hour customer support on contract info, BPKB document retrieval and vehicle registration renewals; won 2023 Indonesia digital product awards. [none]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://m.antaranews.com/amp/berita/3411951/layanan-berbasis-ai-dari-fifgroup-raih-penghargaan-produk-digital",
+   "raw_sector": "",
+   "date": "2023-02",
+   "fresh": "stale"
+  },
+  {
+   "company": "Astra International",
    "use": "Group flags rising AI-powered cyberattacks; Chief of Group Digital Strategy discusses AI defense posture",
    "existence": "claimed",
    "value": "none",
@@ -68,6 +139,50 @@
    "url": "https://katadata.co.id/digital/teknologi/68a4028032b21/astra-waspadai-lonjakan-serangan-hacker-yang-pakai-ai",
    "raw_sector": "Conglomerate",
    "date": "2025",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Astra International",
+   "use": "Garda Oto (Asuransi Astra) uses AI to detect fraudulent vehicle-insurance claims by analyzing unusual data patterns during claims processing. [none]",
+   "existence": "confirmed",
+   "value": "Saves ~Rp100 billion per year",
+   "tier": "",
+   "url": "https://sis.binus.ac.id/2024/10/04/asuransi-pintar-mengoptimalkan-proses-klaim-dengan-ai/",
+   "raw_sector": "",
+   "date": "2024-10",
+   "fresh": "aging"
+  },
+  {
+   "company": "Astra International",
+   "use": "Garxia (Garda eXperience Intelligent Assistant), an AI virtual assistant chatbot in the Garda Mobile Otocare app that lets customers simulate premiums and buy Garda Oto motor insurance end-to-end via chat; marketed as Indonesia's first insurance-purchase chatbot. [none]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://katadata.co.id/digital/nasional/5e9a55d538ef7/asuransi-astra-jual-asuransi-lewat-chatbot-garxia",
+   "raw_sector": "",
+   "date": "2018-09",
+   "fresh": "stale"
+  },
+  {
+   "company": "Astra International",
+   "use": "Robotic Process Automation (UiPath) at Astra Credit Companies (ACC) automating the admin-subsidy process in the AOL financing system for the multiguna (multipurpose) brand division, replacing manual repetitive work. [UiPath]",
+   "existence": "confirmed",
+   "value": "2.8x faster (65.4% improvement) vs. manual processing",
+   "tier": "",
+   "url": "https://ojs.uajy.ac.id/index.php/jiaj/article/view/5733",
+   "raw_sector": "",
+   "date": "2022",
+   "fresh": "stale"
+  },
+  {
+   "company": "Astra International",
+   "use": "PT Astra Graphia Information Technology (AGIT) partnered with HPE and Equinix to deliver AI-based private cloud solutions (consulting, system design, infrastructure-as-a-service, managed services) for AI workloads to Indonesian enterprises; MoU signed July 2025. [HPE, Equinix]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.astragraphia.co.id/en/news-activities/corporate-stories/d/hpe-equinix-and-agit-collaboration-drives-digital-ecosystem-development-and-ai-acceleration-in-indonesia",
+   "raw_sector": "",
+   "date": "2025-07",
    "fresh": "fresh"
   }
  ]

@@ -3,27 +3,27 @@
  "name": "Simon Property Group",
  "cc": "US",
  "vertical": "Real Estate & Construction",
- "deployments": 1,
- "confirmed": 1,
- "with_value_number": 0,
- "proof_rate": 0.0,
+ "deployments": 10,
+ "confirmed": 8,
+ "with_value_number": 4,
+ "proof_rate": 0.4,
  "mktcap": 85800000000.0,
  "revenue": 6650000000.0,
  "employees": 3600.0,
  "silent": false,
- "per_bn_revenue": 0.15,
- "per_10k_emp": 2.78,
+ "per_bn_revenue": 1.5,
+ "per_10k_emp": 27.78,
  "benchmarks": {
   "global_vertical": {
-   "deployments": 0,
-   "confirmed": 31,
-   "proof_rate": 0,
+   "deployments": 86,
+   "confirmed": 90,
+   "proof_rate": 76,
    "n": 154
   },
   "country_vertical": {
-   "deployments": 0,
-   "confirmed": 50,
-   "proof_rate": 0,
+   "deployments": 80,
+   "confirmed": 93,
+   "proof_rate": 87,
    "n": 31
   }
  },
@@ -33,12 +33,18 @@
  "momentum": "none",
  "maturity": "L3",
  "maturity_evidence": [
+  "multi_horizontal",
   "named_product:Simon",
+  "value_number",
   "tier_p"
  ],
- "prospect_score": 54,
- "stack": [],
- "vendor_named": false,
+ "prospect_score": 72,
+ "stack": [
+  "Google",
+  "Google Cloud",
+  "Microsoft Azure"
+ ],
+ "vendor_named": true,
  "deployments_detail": [
   {
    "company": "Simon Property Group",
@@ -48,6 +54,105 @@
    "tier": "P",
    "url": "https://www.simonpropertygroup.com/simon-innovation-group",
    "raw_sector": "Real Estate",
+   "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "Simon Property Group",
+   "use": "Google Vertex AI used to enrich the ShopSimon online catalog: extracting and standardizing missing product attributes, generating alt text, and identifying non-compliant content across data aggregated from many retailers; enriched data feeds search (with Azure AI Search) and analytics (GA4 into BigQuery). [Google Cloud Vertex AI; implementation by Woolpert; Azure AI Search; BigQuery]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://innovations.woolpert.com/simon-property-group/",
+   "raw_sector": "",
+   "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "Simon Property Group",
+   "use": "Machine-learning analytics models process consumer data (traffic patterns, purchase behavior) to surface opportunities and guide merchandising, leasing/location strategy, and customer engagement across the portfolio. [Simon (Innovation Group)]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.simonpropertygroup.com/simon-innovation-group",
+   "raw_sector": "",
+   "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "Simon Property Group",
+   "use": "HolidAI Gift Finder: in-mall staff ('elves') equipped with tablets running an AI gift-recommendation tool to help holiday shoppers find gifts, piloted during the 2023 holiday season. [Simon]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://propmodo.com/simon-property-group-using-elves-equipped-with-ai-to-boost-sales/",
+   "raw_sector": "",
+   "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "Simon Property Group",
+   "use": "ShopSimon online marketplace AI shopping assistant: search-by-image, search-by-color, similar-item recommendations, and hyper-personalization to guide shoppers through the catalog. [Simon (ShopSimon)]",
+   "existence": "confirmed",
+   "value": "360+ participating retailers; 153 million annual website visits",
+   "tier": "",
+   "url": "https://www.prnewswire.com/news-releases/introducing-shopsimon-brands-you-love-on-sale-247-302238974.html",
+   "raw_sector": "",
+   "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "Simon Property Group",
+   "use": "Simon Search digital search platform lets shoppers find in-stock products at stores inside a Simon center before visiting; launched 2022 and expanded across the portfolio. [Simon]",
+   "existence": "confirmed",
+   "value": "187 Simon destinations (as of 2023)",
+   "tier": "",
+   "url": "https://www.modernretail.co/technology/why-mall-owner-simon-property-group-is-expanding-its-online-marketplace/",
+   "raw_sector": "",
+   "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "Simon Property Group",
+   "use": "Quividi computer-vision audience & attention measurement platform deployed on Simon's digital out-of-home (DOOH) screens to measure real-time viewership, attention time, and shopper engagement. [Quividi]",
+   "existence": "confirmed",
+   "value": "500+ digital screens",
+   "tier": "",
+   "url": "https://quividi.com/global-case-studies/simon-property-group/",
+   "raw_sector": "",
+   "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "Simon Property Group",
+   "use": "Yext AI-driven knowledge/voice-search platform to manage and distribute verified brand and mall location information across search engines, maps, voice assistants (Alexa), and rideshare/GPS channels. [Yext]",
+   "existence": "confirmed",
+   "value": "18% YoY growth in listing clicks; 826,000+ reviews captured",
+   "tier": "",
+   "url": "https://www.yext.com/customers/simon-property-group",
+   "raw_sector": "",
+   "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "Simon Property Group",
+   "use": "Simon+ AI-powered consumer app that helps shoppers locate the best deals and unique offers across the Simon ecosystem, both in physical centers and digitally. [Simon]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.simonpropertygroup.com/simon-innovation-group",
+   "raw_sector": "",
+   "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "Simon Property Group",
+   "use": "Flock Safety AI-powered automatic license plate reader (ALPR) cameras deployed across mall properties; AI creates vehicle 'fingerprints' searchable by plate, make, model, and color, with feeds shared directly with law enforcement. [Flock Safety]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.forbes.com/sites/thomasbrewster/2024/05/06/simon-property-and-flock-safety-feed-ai-surveillance-feeds-to-the-cops/",
+   "raw_sector": "",
    "date": "missing",
    "fresh": "undated"
   }

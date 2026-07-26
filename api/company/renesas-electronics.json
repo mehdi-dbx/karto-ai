@@ -3,41 +3,57 @@
  "name": "Renesas Electronics",
  "cc": "JP",
  "vertical": "Electric Machinery & Electronics",
- "deployments": 1,
- "confirmed": 1,
- "with_value_number": 0,
- "proof_rate": 0.0,
+ "deployments": 9,
+ "confirmed": 8,
+ "with_value_number": 5,
+ "proof_rate": 0.556,
  "mktcap": 50800000000.0,
  "revenue": 9266666667.0,
  "employees": 21907.0,
  "silent": false,
- "per_bn_revenue": 0.11,
- "per_10k_emp": 0.46,
+ "per_bn_revenue": 0.97,
+ "per_10k_emp": 4.11,
  "benchmarks": {
   "global_vertical": {
-   "deployments": 0,
-   "confirmed": 9,
-   "proof_rate": 0,
+   "deployments": 53,
+   "confirmed": 71,
+   "proof_rate": 97,
    "n": 35
   },
   "country_vertical": {
-   "deployments": 0,
-   "confirmed": 6,
-   "proof_rate": 0,
+   "deployments": 48,
+   "confirmed": 68,
+   "proof_rate": 97,
    "n": 32
   }
  },
- "first_seen": null,
- "by_year": [],
- "undated_pct": 100,
- "momentum": "none",
- "maturity": "L2",
+ "first_seen": 2021,
+ "by_year": [
+  {
+   "year": 2021,
+   "n": 1
+  },
+  {
+   "year": 2022,
+   "n": 2
+  },
+  {
+   "year": 2023,
+   "n": 5
+  }
+ ],
+ "undated_pct": 11,
+ "momentum": "early_mover,gone_quiet",
+ "maturity": "L4",
  "maturity_evidence": [
+  "named_product:RTL",
+  "value_number",
+  "multi_year",
   "tier_p"
  ],
- "prospect_score": 54,
+ "prospect_score": 66,
  "stack": [],
- "vendor_named": false,
+ "vendor_named": true,
  "deployments_detail": [
   {
    "company": "Renesas Electronics",
@@ -49,6 +65,94 @@
    "raw_sector": "Electric Machinery",
    "date": "missing",
    "fresh": "undated"
+  },
+  {
+   "company": "Renesas Electronics",
+   "use": "AI-driven digital implementation (RTL-to-signoff) flow optimization for its chip designs using Cadence Cerebrus Intelligent Chip Explorer (reinforcement-learning based), applied to production SoC design. [Cadence (Cerebrus Intelligent Chip Explorer)]",
+   "existence": "confirmed",
+   "value": "15% lower power and 10% better performance",
+   "tier": "",
+   "url": "https://www.cadence.com/en_US/home/tools/digital-design-and-signoff/soc-implementation-and-floorplanning/cerebrus-intelligent-chip-explorer.html",
+   "raw_sector": "",
+   "date": "2022",
+   "fresh": "stale"
+  },
+  {
+   "company": "Renesas Electronics",
+   "use": "AI-driven functional verification and automated root-cause bug analysis for R-Car automotive SoC designs using the Cadence Verisium AI-Driven Verification Platform. [Cadence (Verisium AI-Driven Verification Platform)]",
+   "existence": "confirmed",
+   "value": "up to 10X verification productivity improvement",
+   "tier": "",
+   "url": "https://www.eejournal.com/industry_news/cadence-verisium-ai-driven-verification-platform-accelerates-debug-productivity-for-renesas/",
+   "raw_sector": "",
+   "date": "2023-03",
+   "fresh": "stale"
+  },
+  {
+   "company": "Renesas Electronics",
+   "use": "Machine-learning-driven optimization of random regression verification cycles for chip design using the Cadence Xcelium ML App. [Cadence (Xcelium ML App)]",
+   "existence": "confirmed",
+   "value": "66% savings on complete random verification regression cycle; 2.2X test compression",
+   "tier": "",
+   "url": "https://en.eeworld.com.cn/news/manufacture/eic633281.html",
+   "raw_sector": "",
+   "date": "2023-02",
+   "fresh": "stale"
+  },
+  {
+   "company": "Renesas Electronics",
+   "use": "AI/ML-driven verification space optimization for SoC/IP functional verification, integrated into existing VCS regression environment using Synopsys VSO.ai. [Synopsys (VSO.ai + VCS)]",
+   "existence": "confirmed",
+   "value": "30% increase in IP/SoC verification productivity; 90% reduction in coverage holes; 2x smaller regression lists",
+   "tier": "",
+   "url": "https://www.synopsys.com/blogs/chip-design/soc-design-verification-renesas.html",
+   "raw_sector": "",
+   "date": "2023",
+   "fresh": "stale"
+  },
+  {
+   "company": "Renesas Electronics",
+   "use": "Early-adopter collaboration applying generative AI / large language models (Cadence generative AI, JedAI platform, ChipGPT PoC) to accelerate up-front chip design tasks and design-team productivity. [Cadence (Generative AI / JedAI / LLM ChipGPT)]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.design-reuse.com/blog/55729-renesas-collaborates-on-large-language-model-generative-ai-chip-design/",
+   "raw_sector": "",
+   "date": "2023-09",
+   "fresh": "stale"
+  },
+  {
+   "company": "Renesas Electronics",
+   "use": "Company-wide \"Design by AI Project\" integrating AI into every stage of internal product development to improve verification accuracy, automate complex design tasks, and shorten development cycles. [none (internal program, multi-vendor EDA/AI)]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.linkedin.com/posts/renesas_ai-engineering-semiconductors-activity-7405016057473622017-bI0C",
+   "raw_sector": "",
+   "date": "2021",
+   "fresh": "stale"
+  },
+  {
+   "company": "Renesas Electronics",
+   "use": "Renesas's proprietary DRP-AI hardware accelerator embedded in RZ/V vision-AI microprocessors, enabling real-time edge AI inference (object detection, vision) in production-ready modules shipped to customers. [Renesas (DRP-AI / DRP-AI3 accelerator, RZ/V MPUs)]",
+   "existence": "confirmed",
+   "value": "up to 8 TOPS (dense) / 80 TOPS (sparse) on DRP-AI3",
+   "tier": "",
+   "url": "https://www.renesas.com/en/products/rz-v2h",
+   "raw_sector": "",
+   "date": "2023",
+   "fresh": "stale"
+  },
+  {
+   "company": "Renesas Electronics",
+   "use": "Reality AI Tools: Renesas's AutoML/TinyML software that automatically explores sensor data and generates optimized edge-AI models, deployed for use cases such as sensorless predictive maintenance on Renesas MCUs. [Renesas (Reality AI Tools, from Reality AI acquisition)]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.renesas.com/en/software-tool/reality-ai-tools",
+   "raw_sector": "",
+   "date": "2022",
+   "fresh": "stale"
   }
  ]
 }

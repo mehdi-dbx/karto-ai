@@ -3,46 +3,66 @@
  "name": "Sino Biopharmaceutical",
  "cc": "HK",
  "vertical": "Healthcare & Life Sciences",
- "deployments": 1,
- "confirmed": 1,
- "with_value_number": 0,
- "proof_rate": 0.0,
+ "deployments": 12,
+ "confirmed": 8,
+ "with_value_number": 3,
+ "proof_rate": 0.25,
  "mktcap": 12212820513.0,
  "revenue": 4542307692.0,
  "employees": 21435.0,
  "silent": false,
- "per_bn_revenue": 0.22,
- "per_10k_emp": 0.47,
+ "per_bn_revenue": 2.64,
+ "per_10k_emp": 5.6,
  "benchmarks": {
   "global_vertical": {
-   "deployments": 0,
-   "confirmed": 13,
-   "proof_rate": 0,
-   "n": 165
+   "deployments": 84,
+   "confirmed": 73,
+   "proof_rate": 57,
+   "n": 168
   },
   "country_vertical": {
-   "deployments": 0,
-   "confirmed": 14,
-   "proof_rate": 0,
+   "deployments": 100,
+   "confirmed": 71,
+   "proof_rate": 43,
    "n": 8
   }
  },
- "first_seen": 2024,
+ "first_seen": 2018,
  "by_year": [
   {
+   "year": 2018,
+   "n": 1
+  },
+  {
+   "year": 2022,
+   "n": 2
+  },
+  {
    "year": 2024,
+   "n": 4
+  },
+  {
+   "year": 2025,
+   "n": 4
+  },
+  {
+   "year": 2026,
    "n": 1
   }
  ],
  "undated_pct": 0,
- "momentum": "early_mover,gone_quiet",
- "maturity": "L3",
+ "momentum": "early_mover,rising",
+ "maturity": "L4",
  "maturity_evidence": [
+  "multi_horizontal",
   "named_product:DeepSeek",
+  "value_number",
+  "multi_year",
   "tier_p"
  ],
- "prospect_score": 46,
+ "prospect_score": 78,
  "stack": [
+  "Alibaba Cloud",
   "DeepSeek"
  ],
  "vendor_named": true,
@@ -57,6 +77,127 @@
    "raw_sector": "Pharma",
    "date": "2024",
    "fresh": "aging"
+  },
+  {
+   "company": "Sino Biopharmaceutical",
+   "use": "AI-driven drug discovery of high-difficulty small-molecule anti-tumor (oncology) candidates via XtalPi's (晶泰科技) intelligent/automated drug discovery platform (millions of virtual molecules, force-field + free-energy-perturbation scoring), reaching a key milestone in 50% of originally planned time. Partner: subsidiary Chia Tai Tianqing (正大天晴). [XtalPi (晶泰科技)]",
+   "existence": "confirmed",
+   "value": "Milestone reached in 50% of originally planned time",
+   "tier": "",
+   "url": "https://www.xtalpi.com/news-21/",
+   "raw_sector": "",
+   "date": "2022-05-09",
+   "fresh": "stale"
+  },
+  {
+   "company": "Sino Biopharmaceutical",
+   "use": "Second XtalPi (晶泰科技) collaboration: AI drug-discovery platform (XPose conformation sampling, XFEP free-energy perturbation) to discover novel-scaffold small-molecule preclinical candidates for liver disease, combined with CTTQ's internal AI drug-discovery platform. [XtalPi (晶泰科技)]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.sbpgroup.com/news-center/dynamic/24274.html",
+   "raw_sector": "",
+   "date": "2022-12-09",
+   "fresh": "stale"
+  },
+  {
+   "company": "Sino Biopharmaceutical",
+   "use": "invoX Pharma (wholly-owned UK subsidiary of Sino Biopharm) uses Insilico Medicine's PandaOmics AI target-discovery platform (20+ predictive/generative models) to identify novel oncology indications/targets for pipeline assets; two use cases in execution under a multi-year collaboration. [Insilico Medicine (PandaOmics)]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.eurekalert.org/news-releases/1042198",
+   "raw_sector": "",
+   "date": "2024-04-23",
+   "fresh": "aging"
+  },
+  {
+   "company": "Sino Biopharmaceutical",
+   "use": "Machine-learning compound-screening / virtual screening built with Alibaba Cloud medical AI: models trained on limited experimental data + compound structures to filter low-activity molecules and generate novel virtual compound libraries, improving screening accuracy vs traditional computer-aided drug design. Partner: Chia Tai Tianqing (正大天晴). [Alibaba Cloud]",
+   "existence": "confirmed",
+   "value": "+20% screening accuracy vs traditional CADD",
+   "tier": "",
+   "url": "https://developer.aliyun.com/article/635126",
+   "raw_sector": "",
+   "date": "2018-09-05",
+   "fresh": "stale"
+  },
+  {
+   "company": "Sino Biopharmaceutical",
+   "use": "Strategic partnership with Huawei covering AI-assisted pharmaceutical development (using Huawei Cloud Pangu drug/pharma large model), data governance, and intelligent/smart manufacturing as part of CTTQ's digital transformation. Partner: Chia Tai Tianqing (正大天晴). [Huawei (Huawei Cloud / Pangu model)]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.cttq.com/news/579130.htm",
+   "raw_sector": "",
+   "date": "2024-08-01",
+   "fresh": "aging"
+  },
+  {
+   "company": "Sino Biopharmaceutical",
+   "use": "Strategic agreement with 'Wukong Zhisuan' (悟空智算) intelligent-computing center in Haizhou/Lianyungang to supply AI compute power for CTTQ's transition to 'AI + R&D and production' drug-development workloads. Partner: Chia Tai Tianqing (正大天晴). [Wukong Zhisuan (悟空智算)]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.lyg.gov.cn/zglygzfmhwz/xqdt/content/e9d26761-d18c-48c7-b8e4-dee5179afdb1.html",
+   "raw_sector": "",
+   "date": "2024-07",
+   "fresh": "aging"
+  },
+  {
+   "company": "Sino Biopharmaceutical",
+   "use": "AI in clinical trials: intelligent medical-image reading (智能阅片) with automated report generation, plus AI-assisted patient enrollment screening and trial protocol design/optimization to shorten cycles and improve data quality (described as in use by CIO Cao Fenze). Company: China Biopharm / Chia Tai Tianqing. [none]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.dtinsight.com.cn/sys-nd/3314.html",
+   "raw_sector": "",
+   "date": "2025-04-15",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Sino Biopharmaceutical",
+   "use": "AI deeply integrated into new 4x10000L biologics production lines: AI-driven refined process control raised monoclonal antibody expression ~20%, plus a production-quality + EHS knowledge base for predictive risk warning and digitalized quality/energy management. Company: Chia Tai Tianqing (正大天晴). [none]",
+   "existence": "confirmed",
+   "value": "~+20% antibody expression level via AI-refined control",
+   "tier": "",
+   "url": "https://www.cttq.com/news/579392.htm",
+   "raw_sector": "",
+   "date": "2026-04-13",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Sino Biopharmaceutical",
+   "use": "AI in drug manufacturing operations: intelligent production scheduling, real-time process-parameter monitoring, workshop resource-scheduling optimization, and AI-based quality-issue identification across production (described in use by CIO Cao Fenze). [none]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://finance.sina.com.cn/tech/roll/2025-05-12/doc-inewicst5224405.shtml",
+   "raw_sector": "",
+   "date": "2025-04-15",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Sino Biopharmaceutical",
+   "use": "AI in internal operations / back-office: intelligent financial audit systems, AI-assisted contract drafting for procurement (OCR + rule-matching), and AI-powered inventory/warehouse-space optimization (described by CIO Cao Fenze as being deployed/explored). [none]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.dtinsight.com.cn/sys-nd/3314.html",
+   "raw_sector": "",
+   "date": "2025-04-15",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Sino Biopharmaceutical",
+   "use": "AI-powered sales coaching / enablement for field sales teams (described by CIO Cao Fenze as part of the AI application map across the value chain). [none]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.cttq.com/news/579152.htm",
+   "raw_sector": "",
+   "date": "2025-04-15",
+   "fresh": "fresh"
   }
  ]
 }

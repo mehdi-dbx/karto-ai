@@ -3,48 +3,66 @@
  "name": "Edenred",
  "cc": "FR",
  "vertical": "Financial Services",
- "deployments": 2,
- "confirmed": 2,
- "with_value_number": 1,
+ "deployments": 14,
+ "confirmed": 13,
+ "with_value_number": 7,
  "proof_rate": 0.5,
  "mktcap": 6847200000.0,
  "revenue": 2948400000.0,
  "employees": 12102.0,
  "silent": false,
- "per_bn_revenue": 0.68,
- "per_10k_emp": 1.65,
+ "per_bn_revenue": 4.75,
+ "per_10k_emp": 11.57,
  "benchmarks": {
   "global_vertical": {
-   "deployments": 62,
-   "confirmed": 73,
-   "proof_rate": 61,
-   "n": 377
+   "deployments": 91,
+   "confirmed": 94,
+   "proof_rate": 78,
+   "n": 388
   },
   "country_vertical": {
-   "deployments": 57,
-   "confirmed": 57,
-   "proof_rate": 29,
+   "deployments": 100,
+   "confirmed": 86,
+   "proof_rate": 86,
    "n": 8
   }
  },
- "first_seen": 2024,
+ "first_seen": 2020,
  "by_year": [
   {
-   "year": 2024,
+   "year": 2020,
    "n": 1
+  },
+  {
+   "year": 2024,
+   "n": 6
+  },
+  {
+   "year": 2025,
+   "n": 3
+  },
+  {
+   "year": 2026,
+   "n": 3
   }
  ],
- "undated_pct": 50,
- "momentum": "early_mover,gone_quiet",
- "maturity": "L3",
+ "undated_pct": 7,
+ "momentum": "early_mover,flat",
+ "maturity": "L4",
  "maturity_evidence": [
   "multi_horizontal",
   "named_product:Amplify 25-28",
-  "value_number"
+  "value_number",
+  "multi_year"
  ],
- "prospect_score": 40,
- "stack": [],
- "vendor_named": false,
+ "prospect_score": 80,
+ "stack": [
+  "Microsoft",
+  "Microsoft Azure",
+  "OpenAI",
+  "Salesforce"
+ ],
+ "vendor_named": true,
  "deployments_detail": [
   {
    "company": "Edenred",
@@ -59,6 +77,17 @@
   },
   {
    "company": "Edenred",
+   "use": "AI in sales processes to accelerate SME client acquisition; virtual HR agent for LatAm engagement platform clients; automated repair-appointment scheduling for Brazilian maintenance merchants. [none]",
+   "existence": "confirmed",
+   "value": "700,000+ new platform users in 2025",
+   "tier": "",
+   "url": "https://www.edenred.com/en/group/innovation-data-and-ai-heart-edenreds-strategy",
+   "raw_sector": "",
+   "date": "2025-01-01",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Edenred",
    "use": "\"TED\" and \"EVA\" virtual digital assistants serving clients; AI/cloud/cybersecurity anticipated across platform processing millions of daily transactions (integrated report 2024-2025)",
    "existence": "confirmed",
    "value": "none",
@@ -67,6 +96,127 @@
    "raw_sector": "Financial Services",
    "date": "2024",
    "fresh": "aging"
+  },
+  {
+   "company": "Edenred",
+   "use": "Speech-to-text analysis of voice interactions in customer service to generate customer statistics and insights. [none]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.journaldunet.com/intelligence-artificielle/1530457-edenred-ameliore-sa-productivite-et-sa-relation-client-avec-l-ia-generative/",
+   "raw_sector": "",
+   "date": "2024-05-17",
+   "fresh": "aging"
+  },
+  {
+   "company": "Edenred",
+   "use": "'Eden Help' conversational GenAI chatbot on the MyEdenred app answering frequent user questions (card activation, usage limits, login, app navigation). [Cognigy]",
+   "existence": "confirmed",
+   "value": "35% of interactions resolved without human intervention; >4.5/5 satisfaction",
+   "tier": "",
+   "url": "https://www.relationclientmag.fr/brandvoice/lia-conversationnelle-au-coeur-de-la-transformation-dedenred",
+   "raw_sector": "",
+   "date": "2026-05-11",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Edenred",
+   "use": "Voicebot automating inbound phone-call handling (currently gift-card inquiries) in customer relations, deployed with partner Foundever. [Foundever]",
+   "existence": "confirmed",
+   "value": "handles 25% of gift-card-related calls",
+   "tier": "",
+   "url": "https://www.relationclientmag.fr/brandvoice/lia-conversationnelle-au-coeur-de-la-transformation-dedenred",
+   "raw_sector": "",
+   "date": "2026-05-11",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Edenred",
+   "use": "'Ella' AI conversational bot serving all customer groups with employee-benefit-related questions at Edenred Finland. [Front AI]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://front.ai/edenreds-ai-bot-ella-serves-all-customer-groups-in-employee-benefit-related-questions/",
+   "raw_sector": "",
+   "date": "2020-01-01",
+   "fresh": "stale"
+  },
+  {
+   "company": "Edenred",
+   "use": "AI/ML-driven, behavior-based fraud detection ('invisible guardrails') for B2B accounts-payable payments at Edenred Pay, covering checks, ACH and virtual cards. [none]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.pymnts.com/authentication/2025/edenred-pay-says-ai-is-powering-the-invisible-guardrails-for-b2bs-future/",
+   "raw_sector": "",
+   "date": "2025-09-24",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Edenred",
+   "use": "Microsoft 365 Copilot company-wide productivity assistant (pilot phase with roll-out decision targeted for mid-December). [Microsoft (Microsoft 365 Copilot)]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.journaldunet.com/intelligence-artificielle/1530457-edenred-ameliore-sa-productivite-et-sa-relation-client-avec-l-ia-generative/",
+   "raw_sector": "",
+   "date": "2024-05-17",
+   "fresh": "aging"
+  },
+  {
+   "company": "Edenred",
+   "use": "AI-based tools to help select and screen candidates in recruitment. [none]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.edenred.com/en/integrated-report-2024-2025/technology",
+   "raw_sector": "",
+   "date": "2024-01-01",
+   "fresh": "aging"
+  },
+  {
+   "company": "Edenred",
+   "use": "EdenChat / Edenchat: internal generative-AI assistant for employees, built on Azure OpenAI (GPT-4) with a RAG architecture over internal documentation; handles inquiries and boosts staff productivity. [Microsoft Azure OpenAI (GPT-4)]",
+   "existence": "confirmed",
+   "value": "6,000 monthly users",
+   "tier": "",
+   "url": "https://www.journaldunet.com/intelligence-artificielle/1530457-edenred-ameliore-sa-productivite-et-sa-relation-client-avec-l-ia-generative/",
+   "raw_sector": "",
+   "date": "2024-05-17",
+   "fresh": "aging"
+  },
+  {
+   "company": "Edenred",
+   "use": "GitHub Copilot used by developers for code generation and improving test cases. [GitHub / Microsoft (GitHub Copilot)]",
+   "existence": "confirmed",
+   "value": "~15% developer productivity gain",
+   "tier": "",
+   "url": "https://www.journaldunet.com/intelligence-artificielle/1530457-edenred-ameliore-sa-productivite-et-sa-relation-client-avec-l-ia-generative/",
+   "raw_sector": "",
+   "date": "2024-05-17",
+   "fresh": "aging"
+  },
+  {
+   "company": "Edenred",
+   "use": "'Eden' custom AI SDR agent engaging prospects across web and email, personalizing interactions and supporting multilingual engagement (used by Edenred Taiwan). [Qualified (Salesforce)]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.linkedin.com/posts/dandarcy_this-is-a-cool-one-because-of-the-international-activity-7466883801835565056-1E9i",
+   "raw_sector": "",
+   "date": "2026-06-01",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Edenred",
+   "use": "AI tools for producing marketing content (text and images) and Retail Media targeted-campaign automation. [none]",
+   "existence": "confirmed",
+   "value": "Retail Media revenue growth >30% YoY",
+   "tier": "",
+   "url": "https://www.edenred.com/en/group/innovation-data-and-ai-heart-edenreds-strategy",
+   "raw_sector": "",
+   "date": "2025-01-01",
+   "fresh": "fresh"
   }
  ]
 }

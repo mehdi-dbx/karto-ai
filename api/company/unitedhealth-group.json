@@ -3,27 +3,27 @@
  "name": "UnitedHealth Group",
  "cc": "US",
  "vertical": "Healthcare & Life Sciences",
- "deployments": 11,
- "confirmed": 10,
- "with_value_number": 5,
- "proof_rate": 0.455,
+ "deployments": 18,
+ "confirmed": 12,
+ "with_value_number": 7,
+ "proof_rate": 0.389,
  "mktcap": 383770000000.0,
  "revenue": 450130000000.0,
  "employees": 390000.0,
  "silent": false,
- "per_bn_revenue": 0.02,
- "per_10k_emp": 0.28,
+ "per_bn_revenue": 0.04,
+ "per_10k_emp": 0.46,
  "benchmarks": {
   "global_vertical": {
-   "deployments": 97,
-   "confirmed": 98,
+   "deployments": 99,
+   "confirmed": 97,
    "proof_rate": 74,
-   "n": 165
+   "n": 168
   },
   "country_vertical": {
-   "deployments": 91,
-   "confirmed": 95,
-   "proof_rate": 78,
+   "deployments": 98,
+   "confirmed": 93,
+   "proof_rate": 76,
    "n": 59
   }
  },
@@ -42,7 +42,7 @@
    "n": 2
   }
  ],
- "undated_pct": 18,
+ "undated_pct": 50,
  "momentum": "early_mover,rising",
  "maturity": "L4",
  "maturity_evidence": [
@@ -52,10 +52,61 @@
   "multi_year",
   "tier_p"
  ],
- "prospect_score": 90,
- "stack": [],
- "vendor_named": false,
+ "prospect_score": 84,
+ "stack": [
+  "Databricks",
+  "Google Cloud",
+  "Microsoft",
+  "Microsoft Azure",
+  "Palantir",
+  "ServiceNow"
+ ],
+ "vendor_named": true,
  "deployments_detail": [
+  {
+   "company": "UnitedHealth Group",
+   "use": "1000 AI use cases across insurance underwriting, clinical delivery networks, pharmacy benefits, claims review, and clinical visit transcription",
+   "existence": "confirmed",
+   "value": "1000",
+   "tier": "",
+   "url": "https://www.wsj.com/articles/unitedhealth-now-has-1-000-ai-use-cases-including-in-claims-f3387ca3",
+   "raw_sector": "",
+   "date": "May 5, 2025",
+   "fresh": "undated"
+  },
+  {
+   "company": "UnitedHealth Group",
+   "use": "AI reading aloud summaries of medical charts for nurses",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.bloomberg.com/news/articles/2026-06-19/unitedhealth-bets-3-billion-on-ai-to-cut-costs-tame-backlash",
+   "raw_sector": "",
+   "date": "Jun 19, 2026",
+   "fresh": "undated"
+  },
+  {
+   "company": "UnitedHealth Group",
+   "use": "Named as a Databricks customer/case study [Databricks] [Databricks]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.zoominfo.com/tech/23711/databricks-tech-by-revenue",
+   "raw_sector": "",
+   "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "UnitedHealth Group",
+   "use": "Named as a Palantir customer/case study [Palantir] [Palantir]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://data.landbase.com/technology/palantir/",
+   "raw_sector": "",
+   "date": "missing",
+   "fresh": "undated"
+  },
   {
    "company": "UnitedHealth Group",
    "use": "naviHealth \"nH Predict\" AI used in Medicare Advantage post-acute care claim decisions (litigation-documented); Optum AI broadly",
@@ -65,6 +116,28 @@
    "url": "https://www.healthcarefinancenews.com/news/class-action-lawsuit-against-unitedhealths-ai-claim-denials-advances",
    "raw_sector": "Health Care",
    "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "UnitedHealth Group",
+   "use": "AI platform for best practices in building, deploying and managing AI applications",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.unitedhealthgroup.com/uhg/what-we-do/artificial-intelligence.html",
+   "raw_sector": "",
+   "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "UnitedHealth Group",
+   "use": "AI investment in related initiatives",
+   "existence": "claimed",
+   "value": "1.5 billion",
+   "tier": "",
+   "url": "https://www.healthcarefinancenews.com/news/unitedhealth-group-track-invest-15-billion-ai",
+   "raw_sector": "",
+   "date": "Apr 23, 2026",
    "fresh": "undated"
   },
   {
@@ -176,6 +249,17 @@
    "raw_sector": "",
    "date": "2025-05",
    "fresh": "fresh"
+  },
+  {
+   "company": "UnitedHealth Group",
+   "use": "Data privacy and security in AI design, deployment, and use",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.unitedhealthgroup.com/uhg/what-we-do/artificial-intelligence/ai-responsible-use.html",
+   "raw_sector": "",
+   "date": "missing",
+   "fresh": "undated"
   }
  ]
 }

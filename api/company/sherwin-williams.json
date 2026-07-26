@@ -3,43 +3,60 @@
  "name": "Sherwin-Williams",
  "cc": "US",
  "vertical": "Chemicals & Materials",
- "deployments": 1,
- "confirmed": 1,
+ "deployments": 5,
+ "confirmed": 4,
  "with_value_number": 0,
  "proof_rate": 0.0,
  "mktcap": 76450000000.0,
  "revenue": 23940000000.0,
  "employees": 64249.0,
  "silent": false,
- "per_bn_revenue": 0.04,
- "per_10k_emp": 0.16,
+ "per_bn_revenue": 0.21,
+ "per_10k_emp": 0.78,
  "benchmarks": {
   "global_vertical": {
-   "deployments": 0,
-   "confirmed": 19,
+   "deployments": 50,
+   "confirmed": 51,
    "proof_rate": 0,
-   "n": 105
+   "n": 107
   },
   "country_vertical": {
-   "deployments": 0,
-   "confirmed": 32,
+   "deployments": 44,
+   "confirmed": 56,
    "proof_rate": 0,
    "n": 26
   }
  },
- "first_seen": null,
- "by_year": [],
- "undated_pct": 100,
- "momentum": "none",
+ "first_seen": 2023,
+ "by_year": [
+  {
+   "year": 2023,
+   "n": 1
+  }
+ ],
+ "undated_pct": 80,
+ "momentum": "early_mover,gone_quiet",
  "maturity": "L3",
  "maturity_evidence": [
+  "multi_horizontal",
   "named_product:Color Expert",
   "tier_p"
  ],
- "prospect_score": 54,
+ "prospect_score": 72,
  "stack": [],
  "vendor_named": false,
  "deployments_detail": [
+  {
+   "company": "Sherwin-Williams",
+   "use": "Generative AI integration into enterprise architecture for product development and design rendering",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://assets.ctfassets.net/0vvalmm98slw/6jgtIVKfjxm4lrqK6FkN5S/9a7c25c8773af3dfda88b9599efcabdb/Improving_Case_Study_INTERNAL_ONLY_-_Sherwin_Williams-Product_Sheet_Attribution.pdf",
+   "raw_sector": "",
+   "date": "2023",
+   "fresh": "stale"
+  },
   {
    "company": "Sherwin-Williams",
    "use": "\"Color Expert\" AI app (computer vision detects room colors + recommends complementary paint)",
@@ -48,6 +65,39 @@
    "tier": "P",
    "url": "https://www.sherwin-williams.com/en-us/color/color-tools/color-expert",
    "raw_sector": "Materials",
+   "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "Sherwin-Williams",
+   "use": "AI-powered color visualization and recommendation tool that reads interior spaces to suggest complementary paint colors and allows users to preview colors in photos before painting",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.sherwin-williams.com/en-us/color/color-tools/color-expert",
+   "raw_sector": "",
+   "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "Sherwin-Williams",
+   "use": "Next-generation paint color visualizer app powered by AI technology enabling users to explore color collections, visualize colors in spaces, and order samples",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.sherwin-williams.com/en-us/color/color-tools/color-visualizer",
+   "raw_sector": "",
+   "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "Sherwin-Williams",
+   "use": "AI-powered paint tool enabling users to create custom colors using voice commands",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.youtube.com/watch?v=Sa2ZILCMbPs",
+   "raw_sector": "",
    "date": "missing",
    "fresh": "undated"
   }

@@ -3,27 +3,27 @@
  "name": "Experian",
  "cc": "UK",
  "vertical": "Financial Services",
- "deployments": 1,
- "confirmed": 1,
- "with_value_number": 0,
- "proof_rate": 0.0,
+ "deployments": 6,
+ "confirmed": 6,
+ "with_value_number": 3,
+ "proof_rate": 0.5,
  "mktcap": 30594300000.0,
  "revenue": 8128000000.0,
  "employees": 25200.0,
  "silent": false,
- "per_bn_revenue": 0.12,
- "per_10k_emp": 0.4,
+ "per_bn_revenue": 0.74,
+ "per_10k_emp": 2.38,
  "benchmarks": {
   "global_vertical": {
-   "deployments": 0,
-   "confirmed": 17,
-   "proof_rate": 0,
-   "n": 377
+   "deployments": 44,
+   "confirmed": 55,
+   "proof_rate": 78,
+   "n": 388
   },
   "country_vertical": {
-   "deployments": 0,
-   "confirmed": 36,
-   "proof_rate": 0,
+   "deployments": 64,
+   "confirmed": 73,
+   "proof_rate": 100,
    "n": 23
   }
  },
@@ -31,19 +31,58 @@
  "by_year": [
   {
    "year": 2025,
-   "n": 1
+   "n": 4
   }
  ],
- "undated_pct": 0,
+ "undated_pct": 33,
  "momentum": "rising",
- "maturity": "L2",
+ "maturity": "L3",
  "maturity_evidence": [
+  "multi_horizontal",
+  "named_product:Experian",
+  "value_number",
   "tier_p"
  ],
- "prospect_score": 54,
- "stack": [],
- "vendor_named": false,
+ "prospect_score": 56,
+ "stack": [
+  "Amazon AWS",
+  "Databricks"
+ ],
+ "vendor_named": true,
  "deployments_detail": [
+  {
+   "company": "Experian",
+   "use": "Experian Assistant - generative AI tool for analytics, modeling, and model governance",
+   "existence": "confirmed",
+   "value": "70",
+   "tier": "",
+   "url": "https://www.pymnts.com/news/artificial-intelligence/2025/experian-unveils-new-ai-tool-managing-credit-risk-models/",
+   "raw_sector": "",
+   "date": "2025-08-04",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Experian",
+   "use": "Generative AI code transformation and developer productivity on AWS [AWS] [AWS]",
+   "existence": "confirmed",
+   "value": "40% reduction in developer effort; 300 engineering days saved; automated transformation of 687,600 lines of code",
+   "tier": "",
+   "url": "https://aws.amazon.com/ai/generative-ai/customers/",
+   "raw_sector": "",
+   "date": "2025",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Experian",
+   "use": "Generative analytics via AI/BI Genie and GenAI embedded across products; synthetic test generation [Databricks] [Databricks]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.databricks.com/customers/experian",
+   "raw_sector": "",
+   "date": "missing",
+   "fresh": "undated"
+  },
   {
    "company": "Experian",
    "use": "AI/ML fraud detection and decisioning products; AI agents for financial services; own survey on AI-for-fraud adoption",
@@ -53,6 +92,28 @@
    "url": "https://www.experianplc.com/newsroom/press-releases/2025/experian-s-10th-annual-survey-finds-over-a-third-of-businesses-r",
    "raw_sector": "Support services",
    "date": "2025",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Experian",
+   "use": "Latte AI chatbot for customer support automation [Mosaic AI]",
+   "existence": "confirmed",
+   "value": "35",
+   "tier": "",
+   "url": "https://www.databricks.com/customers/experian/genai",
+   "raw_sector": "",
+   "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "Experian",
+   "use": "AI-powered fraud prevention platform",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.experian.com/blogs/insights/why-experian-is-the-trusted-leader-in-ai-powered-fraud-prevention-for-2026/",
+   "raw_sector": "",
+   "date": "2025-12-08",
    "fresh": "fresh"
   }
  ]

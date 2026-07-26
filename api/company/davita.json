@@ -3,42 +3,179 @@
  "name": "DaVita",
  "cc": "US",
  "vertical": "Healthcare & Life Sciences",
- "deployments": 1,
- "confirmed": 1,
- "with_value_number": 1,
- "proof_rate": 1.0,
+ "deployments": 11,
+ "confirmed": 9,
+ "with_value_number": 5,
+ "proof_rate": 0.455,
  "mktcap": 14920000000.0,
  "revenue": 13840000000.0,
  "employees": 78000.0,
  "silent": false,
- "per_bn_revenue": 0.07,
- "per_10k_emp": 0.13,
+ "per_bn_revenue": 0.79,
+ "per_10k_emp": 1.41,
  "benchmarks": {
   "global_vertical": {
-   "deployments": 0,
-   "confirmed": 13,
-   "proof_rate": 83,
-   "n": 165
+   "deployments": 76,
+   "confirmed": 80,
+   "proof_rate": 79,
+   "n": 168
   },
   "country_vertical": {
-   "deployments": 0,
-   "confirmed": 7,
-   "proof_rate": 90,
+   "deployments": 69,
+   "confirmed": 72,
+   "proof_rate": 83,
    "n": 59
   }
  },
- "first_seen": null,
- "by_year": [],
- "undated_pct": 100,
- "momentum": "none",
- "maturity": "L3",
- "maturity_evidence": [
-  "value_number"
+ "first_seen": 2021,
+ "by_year": [
+  {
+   "year": 2021,
+   "n": 1
+  },
+  {
+   "year": 2022,
+   "n": 1
+  },
+  {
+   "year": 2023,
+   "n": 1
+  },
+  {
+   "year": 2025,
+   "n": 2
+  },
+  {
+   "year": 2026,
+   "n": 5
+  }
  ],
- "prospect_score": 14,
- "stack": [],
- "vendor_named": false,
+ "undated_pct": 9,
+ "momentum": "early_mover,rising",
+ "maturity": "L4",
+ "maturity_evidence": [
+  "multi_horizontal",
+  "named_product:Loss",
+  "value_number",
+  "multi_year"
+ ],
+ "prospect_score": 76,
+ "stack": [
+  "Google",
+  "Google Cloud"
+ ],
+ "vendor_named": true,
  "deployments_detail": [
+  {
+   "company": "DaVita",
+   "use": "PD Loss predictive ML model that analyzes hundreds of variables from patient health records (adherence, fluid removal, blood pressure, cycler device data) to flag peritoneal-dialysis patients at high risk of dropping off home dialysis within 90 days, prompting weekly targeted interventions. [DaVita proprietary (built on Center Without Walls / Google Cloud)]",
+   "existence": "confirmed",
+   "value": "~15% lower risk of transferring to in-center hemodialysis when nurses intervene within 5 days of a high-risk flag; PD-to-HHD mean transition time 6 days",
+   "tier": "",
+   "url": "https://newsroom.davita.com/sustaining-home-dialysis-success-predictive-analytics-ai/",
+   "raw_sector": "",
+   "date": "2026-03-02",
+   "fresh": "fresh"
+  },
+  {
+   "company": "DaVita",
+   "use": "Linea, an AI-backed chronic-care platform for congestive heart failure that connects cardiology and kidney care earlier, using generative AI to improve data interpretation and time clinical interventions. DaVita invested via DaVita Venture Group. [Linea (DaVita Venture Group investment)]",
+   "existence": "claimed",
+   "value": "50% reduction in hospital readmissions; <25% 90-day readmission rate; 80% patient engagement before discharge (early pilot results)",
+   "tier": "",
+   "url": "https://newsroom.davita.com/davitas-investment-in-ai-powered-platform-signals-a-new-era-for-chronic-care/",
+   "raw_sector": "",
+   "date": "2025-12-15",
+   "fresh": "fresh"
+  },
+  {
+   "company": "DaVita",
+   "use": "Center Without Walls (CWOW), a cloud-native clinical operating system serving ~2,600+ US centers that unifies patient data and runs AI/ML models (40+ in development) for risk stratification, early complication detection and real-time clinical insights. [Google Cloud (Vertex AI, BigQuery, Cloud Spanner)]",
+   "existence": "confirmed",
+   "value": "30M+ treatments/yr; 94,000 daily treatments; 2.3M daily lab orders; 100+ TB patient data; 200,000+ patients served; 40+ AI models",
+   "tier": "",
+   "url": "https://cloud.google.com/transform/davita-reinvents-healthcare-center-without-walls-dialysis-on-the-cloud",
+   "raw_sector": "",
+   "date": "2023-11-15",
+   "fresh": "stale"
+  },
+  {
+   "company": "DaVita",
+   "use": "AI-based home-dialysis monitoring system that ingests data from connected cyclers to give care teams visibility into potential treatment complications (including detecting disconnected dialysis tubes) and sends real-time alerts for proactive intervention. [DaVita (on Google Cloud CWOW; connected cycler vendor partners)]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://newsroom.davita.com/future-of-chronic-care-3-ways-tech-is-helping-transform-patient-experience/",
+   "raw_sector": "",
+   "date": "2026-02-16",
+   "fresh": "fresh"
+  },
+  {
+   "company": "DaVita",
+   "use": "Generative-AI clinical summarization tool used by nurses to auto-summarize patient interaction notes for nephrologists during clinic rounds, with clinician oversight of AI-generated summaries. [DaVita (generative AI; specific model not disclosed)]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.hcinnovationgroup.com/analytics-ai/generative-ai/article/55392766/davita-cio-on-building-the-infrastructure-for-ai-success",
+   "raw_sector": "",
+   "date": "2026-07-22",
+   "fresh": "fresh"
+  },
+  {
+   "company": "DaVita",
+   "use": "AI-generated summaries of hospitalization records that highlight key information for nephrologists, with source attribution linking back to full documentation. [DaVita (generative AI)]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.hcinnovationgroup.com/analytics-ai/generative-ai/article/55392766/davita-cio-on-building-the-infrastructure-for-ai-success",
+   "raw_sector": "",
+   "date": "2026-07-22",
+   "fresh": "fresh"
+  },
+  {
+   "company": "DaVita",
+   "use": "Validated machine-learning algorithm from DaVita Clinical Research that identifies CKD (stage 3-5) patients at elevated risk of near-term hospitalization, enabling proactive intervention and upstream kidney care. [DaVita Clinical Research (proprietary; 30+ data scientists, 1B+ CKD/ESKD data points)]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://newsroom.davita.com/using-predictive-analytics-to-move-kidney-care-upstream/",
+   "raw_sector": "",
+   "date": "2022-03-22",
+   "fresh": "stale"
+  },
+  {
+   "company": "DaVita",
+   "use": "KidneyIntelX, a machine-learning bioprognostic tool combining blood biomarkers and EHR data to produce patient-specific kidney-failure risk scores, launched jointly with RenalytixAI to drive earlier detection and risk stratification in primary/payer care settings. [RenalytixAI (KidneyIntelX)]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.healio.com/news/nephrology/20210106/davita-renalytixai-to-launch-program-aimed-at-earlier-kidney-disease-detection",
+   "raw_sector": "",
+   "date": "2021-01-06",
+   "fresh": "stale"
+  },
+  {
+   "company": "DaVita",
+   "use": "FDA-cleared personalized dosing tool that recommends medication dosage adjustments based on an individual patient's real-time lab values, moving from standardized protocols to individualized treatment. [not disclosed]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://newsroom.davita.com/future-of-chronic-care-3-ways-tech-is-helping-transform-patient-experience/",
+   "raw_sector": "",
+   "date": "2026-02-16",
+   "fresh": "fresh"
+  },
+  {
+   "company": "DaVita",
+   "use": "OneView, a physician rounding platform that consolidates DaVita IT tools and surfaces AI/risk analytics for population-health management, streamlining nephrologist workflows. [DaVita Physician Solutions]",
+   "existence": "confirmed",
+   "value": "94% physician opt-in rate",
+   "tier": "",
+   "url": "https://newsroom.davita.com/davitas-investment-in-ai-powered-platform-signals-a-new-era-for-chronic-care/",
+   "raw_sector": "",
+   "date": "2025-12-15",
+   "fresh": "fresh"
+  },
   {
    "company": "DaVita",
    "use": "ML predictive model for home-dialysis patient risk (analyzes 150+ data points; reported 15% reduction in transfers back to in-center)",

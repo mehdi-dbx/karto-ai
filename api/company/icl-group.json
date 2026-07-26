@@ -3,42 +3,65 @@
  "name": "ICL Group",
  "cc": "IL",
  "vertical": "Manufacturing & Robotics",
- "deployments": 1,
- "confirmed": 1,
- "with_value_number": 0,
- "proof_rate": 0.0,
+ "deployments": 12,
+ "confirmed": 10,
+ "with_value_number": 2,
+ "proof_rate": 0.167,
  "mktcap": 6850000000.0,
  "revenue": 7410000000.0,
  "employees": 13007.0,
  "silent": false,
- "per_bn_revenue": 0.13,
- "per_10k_emp": 0.77,
+ "per_bn_revenue": 1.62,
+ "per_10k_emp": 9.23,
  "benchmarks": {
   "global_vertical": {
-   "deployments": 0,
-   "confirmed": 24,
-   "proof_rate": 0,
-   "n": 147
+   "deployments": 86,
+   "confirmed": 91,
+   "proof_rate": 58,
+   "n": 150
   },
   "country_vertical": {
-   "deployments": 0,
-   "confirmed": 20,
-   "proof_rate": 0,
+   "deployments": 100,
+   "confirmed": 100,
+   "proof_rate": 40,
    "n": 6
   }
  },
- "first_seen": null,
- "by_year": [],
- "undated_pct": 100,
- "momentum": "none",
- "maturity": "L3",
+ "first_seen": 2019,
+ "by_year": [
+  {
+   "year": 2019,
+   "n": 3
+  },
+  {
+   "year": 2023,
+   "n": 1
+  },
+  {
+   "year": 2024,
+   "n": 2
+  },
+  {
+   "year": 2025,
+   "n": 1
+  }
+ ],
+ "undated_pct": 42,
+ "momentum": "early_mover,cooling",
+ "maturity": "L4",
  "maturity_evidence": [
+  "multi_horizontal",
   "named_product:Agmatix",
+  "value_number",
+  "multi_year",
   "tier_p"
  ],
- "prospect_score": 54,
- "stack": [],
- "vendor_named": false,
+ "prospect_score": 93,
+ "stack": [
+  "Amazon AWS",
+  "Anthropic"
+ ],
+ "vendor_named": true,
  "deployments_detail": [
   {
    "company": "ICL Group",
@@ -48,6 +71,127 @@
    "tier": "P",
    "url": "https://www.icl-group.com/blog/agriculture-digital-solutions-with-agmatix/",
    "raw_sector": "Chemicals",
+   "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "ICL Group",
+   "use": "Anomaly detection / predictive maintenance: ML models monitor machine sensor data in real time to detect irregular data sequences and warn of impending equipment malfunctions [Unnamed ML specialist partners]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.icl-group.com/blog/one-step-ahead-artificial-intelligence-at-icl/",
+   "raw_sector": "",
+   "date": "2019-08-23",
+   "fresh": "stale"
+  },
+  {
+   "company": "ICL Group",
+   "use": "Production yield optimization at ICL Rotem acid facilities: ML analyzes large volumes of historical operational data to generate improved operating recommendations and boost output efficiency [none]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.icl-group.com/blog/one-step-ahead-artificial-intelligence-at-icl/",
+   "raw_sector": "",
+   "date": "2019-08-23",
+   "fresh": "stale"
+  },
+  {
+   "company": "ICL Group",
+   "use": "Solution flow management at ICL Dead Sea factories: AI integrates meteorological, process, physical and chemical data with weather forecasts to recommend how to manage flow of solutions in real time (pilot completed) [none]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.icl-group.com/blog/one-step-ahead-artificial-intelligence-at-icl/",
+   "raw_sector": "",
+   "date": "2019-08-23",
+   "fresh": "stale"
+  },
+  {
+   "company": "ICL Group",
+   "use": "GPS-enabled drones used as an automated tool for inspection routines, emergency response and control assignments, collecting precise operational data to optimize operations and prevent malfunctions [none]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.icl-group.com/innovation/industry-4-0-applications/",
+   "raw_sector": "",
+   "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "ICL Group",
+   "use": "First-in-industry autonomous AI controller using camera vision to automatically adjust flow regulation on flotation cells at the ICL Sdom Cold Leach Plant; follow-on AI project predicts salt concentration on a conveyor at the Hot Leach plant [none]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.linkedin.com/posts/icl-group_ai-innovation-iclimpacts-activity-7196493330224971778-gNBu",
+   "raw_sector": "",
+   "date": "2024-05-16",
+   "fresh": "aging"
+  },
+  {
+   "company": "ICL Group",
+   "use": "Agmatix (ICL AgTech company) 'Leafy' generative AI assistant lets agronomists and R&D staff query field-trial data in natural language and instantly get dashboards/insights [Amazon Bedrock, Anthropic Claude]",
+   "existence": "confirmed",
+   "value": ">20% improvement in operational efficiency, >25% improvement in data integrity, 3x increase in analysis throughput",
+   "tier": "",
+   "url": "https://aws.amazon.com/blogs/machine-learning/generative-ai-for-agriculture-how-agmatix-is-improving-agriculture-with-amazon-bedrock/",
+   "raw_sector": "",
+   "date": "2024-11-12",
+   "fresh": "aging"
+  },
+  {
+   "company": "ICL Group",
+   "use": "Agmatix Axiom: ontology-based, proprietary ML/AI engine that ingests, validates, enriches and harmonizes agronomic data to power predictive crop modeling and nutrition recommendations across Agmatix's platform [none]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.agmatix.com/agronomic-modeling-technology/",
+   "raw_sector": "",
+   "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "ICL Group",
+   "use": "Agmatix used machine learning and agronomic big data to develop predictive models for Soybean Sudden Death Syndrome (SDS) risk [none]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.agmatix.com/casestudy/developing-big-data-models-of-soybean-sds-with-agmatix-new/",
+   "raw_sector": "",
+   "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "ICL Group",
+   "use": "Agmatix + BASF partnership building a digital tool using Axiom AI/ML to detect and predict Soybean Cyst Nematode (SCN) infestations (under development, not yet commercial) [Agmatix Axiom, BASF AgroStart]",
+   "existence": "claimed",
+   "value": "Targets ~$1.5B/yr in US soybean yield losses from SCN",
+   "tier": "",
+   "url": "https://www.basf.com/us/en/media/news-releases/2025/03/P-US-25-07",
+   "raw_sector": "",
+   "date": "2025-03-12",
+   "fresh": "fresh"
+  },
+  {
+   "company": "ICL Group",
+   "use": "ICL partnership with startup Agrematch applying its AI4AI (Artificial Intelligence for Active Ingredients) platform to accelerate discovery of novel biostimulant compounds for plant nutrition [Agrematch AI4AI]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.icl-group.com/blog/expediting-compound-discovery-and-research-with-ai-application-in-agritech/",
+   "raw_sector": "",
+   "date": "2023-12-12",
+   "fresh": "stale"
+  },
+  {
+   "company": "ICL Group",
+   "use": "Autonomous trucks transporting materials without human intervention at ICL's Ladenburg, Germany facility for logistics/operational efficiency [none]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.icl-group.com/innovation/industry-4-0-applications/",
+   "raw_sector": "",
    "date": "missing",
    "fresh": "undated"
   }

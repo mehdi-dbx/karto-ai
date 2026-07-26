@@ -3,27 +3,27 @@
  "name": "Intact Financial",
  "cc": "CA",
  "vertical": "Insurance",
- "deployments": 1,
- "confirmed": 1,
- "with_value_number": 1,
- "proof_rate": 1.0,
+ "deployments": 8,
+ "confirmed": 7,
+ "with_value_number": 2,
+ "proof_rate": 0.25,
  "mktcap": 37529411765.0,
  "revenue": 19375000000.0,
  "employees": 32000.0,
  "silent": false,
- "per_bn_revenue": 0.05,
- "per_10k_emp": 0.31,
+ "per_bn_revenue": 0.41,
+ "per_10k_emp": 2.5,
  "benchmarks": {
   "global_vertical": {
-   "deployments": 0,
-   "confirmed": 14,
-   "proof_rate": 75,
-   "n": 60
+   "deployments": 52,
+   "confirmed": 60,
+   "proof_rate": 47,
+   "n": 63
   },
   "country_vertical": {
-   "deployments": 0,
-   "confirmed": 25,
-   "proof_rate": 25,
+   "deployments": 50,
+   "confirmed": 50,
+   "proof_rate": 50,
    "n": 5
   }
  },
@@ -34,16 +34,19 @@
    "n": 1
   }
  ],
- "undated_pct": 0,
+ "undated_pct": 88,
  "momentum": "late_entrant,rising",
  "maturity": "L3",
  "maturity_evidence": [
+  "multi_horizontal",
   "named_product:Nearly",
   "value_number"
  ],
- "prospect_score": 14,
- "stack": [],
- "vendor_named": false,
+ "prospect_score": 72,
+ "stack": [
+  "Amazon AWS"
+ ],
+ "vendor_named": true,
  "deployments_detail": [
   {
    "company": "Intact Financial",
@@ -55,6 +58,83 @@
    "raw_sector": "Insurance",
    "date": "2026",
    "fresh": "fresh"
+  },
+  {
+   "company": "Intact Financial",
+   "use": "AI and machine learning models for insurance operations",
+   "existence": "confirmed",
+   "value": "$200 million",
+   "tier": "",
+   "url": "https://coverager.com/intact-scales-ai-targets-specialty-growth/",
+   "raw_sector": "",
+   "date": "Apr 13, 2026",
+   "fresh": "undated"
+  },
+  {
+   "company": "Intact Financial",
+   "use": "Risk-based pricing and underwriting with machine learning",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.insurancebusinessmag.com/ca/news/breaking-news/riskbased-pricing-and-ai-will-decide-pandc-winners-in-climate-change-era-intact-ceo-570170.aspx",
+   "raw_sector": "",
+   "date": "Mar 30, 2026",
+   "fresh": "undated"
+  },
+  {
+   "company": "Intact Financial",
+   "use": "Usage-based insurance program powered by AI",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.linkedin.com/pulse/leveraging-ai-innovate-outperform-grow-intact-arkde",
+   "raw_sector": "",
+   "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "Intact Financial",
+   "use": "AI-improved claims response",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.linkedin.com/pulse/leveraging-ai-innovate-outperform-grow-intact-arkde",
+   "raw_sector": "",
+   "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "Intact Financial",
+   "use": "AI-powered call auditing [AWS]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://aws.amazon.com/solutions/case-studies/case-study-intact-financial/",
+   "raw_sector": "",
+   "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "Intact Financial",
+   "use": "Agentic AI for customer and broker experiences",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.linkedin.com/posts/intact_2026-executive-outlook-louis-gagnon-intact-activity-7415480717263941632-yWGM",
+   "raw_sector": "",
+   "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "Intact Financial",
+   "use": "AI-accelerated commercial quote delivery",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.linkedin.com/pulse/leveraging-ai-innovate-outperform-grow-intact-arkde",
+   "raw_sector": "",
+   "date": "missing",
+   "fresh": "undated"
   }
  ]
 }

@@ -3,21 +3,21 @@
  "name": "Ipsos",
  "cc": "FR",
  "vertical": "Legal & Professional Services",
- "deployments": 10,
- "confirmed": 10,
+ "deployments": 14,
+ "confirmed": 12,
  "with_value_number": 5,
- "proof_rate": 0.5,
+ "proof_rate": 0.357,
  "mktcap": 1684800000.0,
  "revenue": 2743200000.0,
  "employees": 20921.0,
  "silent": false,
- "per_bn_revenue": 3.65,
- "per_10k_emp": 4.78,
+ "per_bn_revenue": 5.1,
+ "per_10k_emp": 6.69,
  "benchmarks": {
   "global_vertical": {
    "deployments": 100,
    "confirmed": 100,
-   "proof_rate": 55,
+   "proof_rate": 73,
    "n": 12
   }
  },
@@ -28,17 +28,20 @@
    "n": 1
   }
  ],
- "undated_pct": 90,
- "momentum": "early_mover,rising",
+ "undated_pct": 93,
+ "momentum": "rising",
  "maturity": "L3",
  "maturity_evidence": [
   "multi_horizontal",
   "named_product:Plans",
   "value_number"
  ],
- "prospect_score": 88,
- "stack": [],
- "vendor_named": false,
+ "prospect_score": 86,
+ "stack": [
+  "Anthropic",
+  "OpenAI"
+ ],
+ "vendor_named": true,
  "deployments_detail": [
   {
    "company": "Ipsos",
@@ -50,6 +53,28 @@
    "raw_sector": "Market Research",
    "date": "2025",
    "fresh": "fresh"
+  },
+  {
+   "company": "Ipsos",
+   "use": "AI-powered persona bots for persona creation and management",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.ipsos.com/en-us/personas-age-ai",
+   "raw_sector": "",
+   "date": "Jun 27, 2025",
+   "fresh": "undated"
+  },
+  {
+   "company": "Ipsos",
+   "use": "Generative AI and AI-agents based surveys for synthetic data generation",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://ipsos-insight-llc.foleon.com/our-solutions/ipsos-data-labs/synthetic-data-gen-ai-agents-based-surveys",
+   "raw_sector": "",
+   "date": "missing",
+   "fresh": "undated"
   },
   {
    "company": "Ipsos",
@@ -146,6 +171,28 @@
    "value": "none",
    "tier": "",
    "url": "https://www.ipsos.com/en/unlock-your-brand-visibility-ai-era-ipsos-synthesio-geo",
+   "raw_sector": "",
+   "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "Ipsos",
+   "use": "Ipsos Synthesio - AI search monitoring for brand visibility",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.ipsos.com/en-us/ipsos-shows-why-trust-ultimate-differentiator-ai-era",
+   "raw_sector": "",
+   "date": "Mar 16, 2026",
+   "fresh": "undated"
+  },
+  {
+   "company": "Ipsos",
+   "use": "Ipsos Facto - AI assistant for social researchers",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://the-sra.org.uk/SRA/sra/blog/IpsosFactoanewAIassistantforsocialresearchers.aspx",
    "raw_sector": "",
    "date": "missing",
    "fresh": "undated"

@@ -3,27 +3,27 @@
  "name": "Baidu",
  "cc": "HK",
  "vertical": "Technology",
- "deployments": 2,
- "confirmed": 2,
- "with_value_number": 1,
- "proof_rate": 0.5,
+ "deployments": 13,
+ "confirmed": 13,
+ "with_value_number": 9,
+ "proof_rate": 0.692,
  "mktcap": 36773076923.0,
  "revenue": 18755128205.0,
  "employees": 33500.0,
  "silent": false,
- "per_bn_revenue": 0.11,
- "per_10k_emp": 0.6,
+ "per_bn_revenue": 0.69,
+ "per_10k_emp": 3.88,
  "benchmarks": {
   "global_vertical": {
-   "deployments": 71,
-   "confirmed": 72,
-   "proof_rate": 72,
-   "n": 156
+   "deployments": 82,
+   "confirmed": 94,
+   "proof_rate": 96,
+   "n": 159
   },
   "country_vertical": {
-   "deployments": 17,
-   "confirmed": 17,
-   "proof_rate": 33,
+   "deployments": 67,
+   "confirmed": 67,
+   "proof_rate": 100,
    "n": 7
   }
  },
@@ -35,21 +35,28 @@
   },
   {
    "year": 2024,
-   "n": 1
+   "n": 2
+  },
+  {
+   "year": 2025,
+   "n": 10
   }
  ],
  "undated_pct": 0,
- "momentum": "early_mover,gone_quiet",
+ "momentum": "early_mover,rising",
  "maturity": "L4",
  "maturity_evidence": [
+  "multi_horizontal",
   "named_product:ERNIE",
   "value_number",
   "multi_year",
   "tier_p"
  ],
- "prospect_score": 32,
+ "prospect_score": 72,
  "stack": [
-  "Baidu"
+  "Baidu",
+  "DeepSeek",
+  "NVIDIA"
  ],
  "vendor_named": true,
  "deployments_detail": [
@@ -74,6 +81,127 @@
    "raw_sector": "Technology",
    "date": "2024",
    "fresh": "aging"
+  },
+  {
+   "company": "Baidu",
+   "use": "Apollo Go (Luobo Kuaipao) autonomous robotaxi ride-hailing service running fully driverless (no safety operator) across 22 cities including Beijing, Shanghai, Wuhan, Shenzhen, Hong Kong, Dubai and Abu Dhabi [Baidu Apollo (in-house)]",
+   "existence": "confirmed",
+   "value": "17M+ cumulative rides; 250,000+ fully driverless orders weekly; 240M km logged; 22 cities",
+   "tier": "",
+   "url": "https://carnewschina.com/2025/11/13/baidus-apollo-go-robotaxi-leads-global-autonomous-driving-with-17m-orders-targets-profit-this-year/",
+   "raw_sector": "",
+   "date": "2025-11-13",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Baidu",
+   "use": "ERNIE 5.0 natively omni-modal foundation model (text, image, audio, video) deployed to consumers via ERNIE Bot and to enterprises/developers via the Qianfan MaaS platform API [Baidu ERNIE (in-house)]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.prnewswire.com/news-releases/baidu-unveils-ernie-5-0-and-a-series-of-ai-applications-at-baidu-world-2025--ramps-up-global-push-302614531.html",
+   "raw_sector": "",
+   "date": "2025-11-13",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Baidu",
+   "use": "AI overhaul of Baidu Search core product, replacing static links with ERNIE-generated conversational/multimodal answers and rich media in mobile search results [Baidu ERNIE (in-house)]",
+   "existence": "confirmed",
+   "value": "~70% of mobile search result pages contained AI-generated content (Oct 2025)",
+   "tier": "",
+   "url": "https://capacityglobal.com/news/baidu-ai-third-quarter-results/",
+   "raw_sector": "",
+   "date": "2025-11-18",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Baidu",
+   "use": "Baige (Baidu AI Cloud) AI computing platform powered by domestic Kunlun chips, deployed to train and serve large models and reduce reliance on Nvidia; Kunlun P800 chip cluster lit up for training DeepSeek-scale models [Baidu Kunlunxin / Baige (in-house)]",
+   "existence": "confirmed",
+   "value": "30,000-chip Kunlun P800 cluster",
+   "tier": "",
+   "url": "https://amp.scmp.com/tech/big-tech/article/3323480/baidu-unveils-ai-computing-platform-powered-chinese-chips-push-domestic-tech-stack",
+   "raw_sector": "",
+   "date": "2025-08-28",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Baidu",
+   "use": "GenFlow 3.0 general-purpose consumer AI agent with multimodality and memory, deployed to end users [Baidu ERNIE (in-house)]",
+   "existence": "confirmed",
+   "value": "20M+ users (described as world's largest general-purpose agent)",
+   "tier": "",
+   "url": "https://www.prnewswire.com/news-releases/baidu-unveils-ernie-5-0-and-a-series-of-ai-applications-at-baidu-world-2025--ramps-up-global-push-302614531.html",
+   "raw_sector": "",
+   "date": "2025-11-13",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Baidu",
+   "use": "ERNIE X1.1 reasoning model deployed on Qianfan (Baidu AI Cloud's Models-as-a-Service platform), opened to enterprise clients for building and deploying AI applications on private/enterprise data [Baidu Qianfan / ERNIE (in-house)]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.prnewswire.com/news-releases/baidu-unveils-reasoning-model-ernie-x1-1-with-upgrades-in-key-capabilities-302551170.html",
+   "raw_sector": "",
+   "date": "2025-09-09",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Baidu",
+   "use": "Oreate AI workspace (multi-agent) for generating documents, slides, images, video and podcasts, deployed to global users as a back-office productivity tool [Baidu ERNIE (in-house)]",
+   "existence": "confirmed",
+   "value": "1.2M+ users",
+   "tier": "",
+   "url": "https://www.prnewswire.com/news-releases/baidu-unveils-ernie-5-0-and-a-series-of-ai-applications-at-baidu-world-2025--ramps-up-global-push-302614531.html",
+   "raw_sector": "",
+   "date": "2025-11-13",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Baidu",
+   "use": "Baidu Health AI Assistant using an 'AI + Real Doctor' dual mode to provide health management and triage/consultation services to patients, powered by ERNIE [Baidu Health / ERNIE (in-house)]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://baike.baidu.com/en/item/Baidu%20Health/1526317",
+   "raw_sector": "",
+   "date": "2025-10-01",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Baidu",
+   "use": "Baidu Comate AI coding assistant (ERNIE-powered) providing code completion, natural-language code generation and error finding to Baidu's own engineers and enterprise developers via SaaS [Baidu Comate / ERNIE (in-house)]",
+   "existence": "confirmed",
+   "value": "50% code adoption rate reported by Baidu",
+   "tier": "",
+   "url": "https://medium.com/@piyushlamsoge20/baidu-comate-intelligent-code-assistant-fully-opens-saas-service-improving-coding-efficiency-by-10-6802faf8a834",
+   "raw_sector": "",
+   "date": "2024-08-15",
+   "fresh": "aging"
+  },
+  {
+   "company": "Baidu",
+   "use": "Miaoda (intl. MeDo) no-code AI application builder that coordinates AI agents to build apps from natural language, deployed to enterprises and developers [Baidu ERNIE (in-house)]",
+   "existence": "confirmed",
+   "value": "400,000+ applications generated via Miaoda",
+   "tier": "",
+   "url": "https://www.prnewswire.com/news-releases/baidu-unveils-ernie-5-0-and-a-series-of-ai-applications-at-baidu-world-2025--ramps-up-global-push-302614531.html",
+   "raw_sector": "",
+   "date": "2025-11-13",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Baidu",
+   "use": "Huiboxing AI digital-human livestreaming platform for e-commerce; an AI avatar of Luo Yonghao co-hosted a 6-hour shopping livestream on Baidu E-commerce, generating orders without a human on camera [Baidu Huiboxing (in-house)]",
+   "existence": "confirmed",
+   "value": "¥55M ($7.6M) GMV; 13M+ views; order volume 150% higher than real-person sessions",
+   "tier": "",
+   "url": "https://eu.36kr.com/en/p/3342031020833282",
+   "raw_sector": "",
+   "date": "2025-06-18",
+   "fresh": "fresh"
   }
  ]
 }

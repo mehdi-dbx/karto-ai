@@ -3,26 +3,26 @@
  "name": "Datadog",
  "cc": "US",
  "vertical": "Technology",
- "deployments": 1,
- "confirmed": 1,
+ "deployments": 6,
+ "confirmed": 5,
  "with_value_number": 0,
  "proof_rate": 0.0,
  "mktcap": 86740000000.0,
  "revenue": 3670000000.0,
  "employees": 8100.0,
  "silent": false,
- "per_bn_revenue": 0.27,
- "per_10k_emp": 1.23,
+ "per_bn_revenue": 1.63,
+ "per_10k_emp": 7.41,
  "benchmarks": {
   "global_vertical": {
-   "deployments": 0,
-   "confirmed": 6,
+   "deployments": 35,
+   "confirmed": 46,
    "proof_rate": 0,
-   "n": 156
+   "n": 159
   },
   "country_vertical": {
-   "deployments": 0,
-   "confirmed": 4,
+   "deployments": 32,
+   "confirmed": 41,
    "proof_rate": 0,
    "n": 74
   }
@@ -33,13 +33,28 @@
  "momentum": "none",
  "maturity": "L3",
  "maturity_evidence": [
+  "multi_horizontal",
   "named_product:Bits AI",
   "tier_p"
  ],
- "prospect_score": 54,
- "stack": [],
- "vendor_named": false,
+ "prospect_score": 70,
+ "stack": [
+  "Anthropic",
+  "Microsoft"
+ ],
+ "vendor_named": true,
  "deployments_detail": [
+  {
+   "company": "Datadog",
+   "use": "Bits Code - AI coding tool embedded across Datadog portfolio",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://devops.com/datadog-leverages-ai-to-extend-observability-reach-deeper-into-devops-workflows/",
+   "raw_sector": "",
+   "date": "Jun 10, 2026",
+   "fresh": "undated"
+  },
   {
    "company": "Datadog",
    "use": "\"Bits AI\" GenAI assistant + LLM Observability for monitoring agentic AI/LLM apps in production",
@@ -49,6 +64,50 @@
    "url": "https://www.datadoghq.com/about/latest-news/press-releases/datadog-expands-llm-observability-with-new-capabilities-to-monitor-agentic-ai-accelerate-development-and-improve-model-performance/",
    "raw_sector": "Information Technology",
    "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "Datadog",
+   "use": "LLM Observability platform for monitoring generative AI applications",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.datadoghq.com/about/latest-news/press-releases/datadog-llm-observability-is-now-generally-available-to-help-businesses-monitor-improve-and-secure-generative-ai-applications/",
+   "raw_sector": "",
+   "date": "Jun 26, 2024",
+   "fresh": "undated"
+  },
+  {
+   "company": "Datadog",
+   "use": "Named as a Anthropic Claude customer/case study [Anthropic Claude] [Anthropic Claude]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://aiopsschool.com/blog/what-your-employer-can-see-on-claude-enterprise-a-complete-transparency-guide/",
+   "raw_sector": "",
+   "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "Datadog",
+   "use": "Bits AI - DevOps copilot for incident investigation and response",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.datadoghq.com/blog/datadog-bits-generative-ai/",
+   "raw_sector": "",
+   "date": "Aug 3, 2023",
+   "fresh": "undated"
+  },
+  {
+   "company": "Datadog",
+   "use": "Domain-specific AI agents for application issue resolution",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://investors.datadoghq.com/news-releases/news-release-details/datadog-unveils-latest-ai-agents-rapidly-resolve-application",
+   "raw_sector": "",
+   "date": "Jun 10, 2025",
    "fresh": "undated"
   }
  ]

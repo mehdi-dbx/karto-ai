@@ -3,44 +3,44 @@
  "name": "Outokumpu",
  "cc": "FI",
  "vertical": "Mining & Materials",
- "deployments": 12,
- "confirmed": 10,
+ "deployments": 17,
+ "confirmed": 15,
  "with_value_number": 2,
- "proof_rate": 0.167,
+ "proof_rate": 0.118,
  "mktcap": 2840400000.0,
  "revenue": 5832000000.0,
  "employees": 8172.0,
  "silent": false,
- "per_bn_revenue": 2.06,
- "per_10k_emp": 14.68,
+ "per_bn_revenue": 2.91,
+ "per_10k_emp": 20.8,
  "benchmarks": {
   "global_vertical": {
    "deployments": 100,
    "confirmed": 100,
-   "proof_rate": 70,
-   "n": 61
+   "proof_rate": 51,
+   "n": 62
   }
  },
  "first_seen": 2023,
  "by_year": [
   {
    "year": 2023,
-   "n": 4
+   "n": 6
   },
   {
    "year": 2024,
-   "n": 4
+   "n": 5
   },
   {
    "year": 2025,
-   "n": 2
+   "n": 3
   },
   {
    "year": 2026,
    "n": 1
   }
  ],
- "undated_pct": 8,
+ "undated_pct": 12,
  "momentum": "early_mover,cooling",
  "maturity": "L4",
  "maturity_evidence": [
@@ -50,9 +50,11 @@
   "multi_year",
   "tier_p"
  ],
- "prospect_score": 100,
- "stack": [],
- "vendor_named": false,
+ "prospect_score": 95,
+ "stack": [
+  "Microsoft"
+ ],
+ "vendor_named": true,
  "deployments_detail": [
   {
    "company": "Outokumpu",
@@ -67,6 +69,39 @@
   },
   {
    "company": "Outokumpu",
+   "use": "AI for electric arc furnace melting time optimization",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.outokumpu.com/en/expertise/industrial-evolution-insights/2023/innovation-intersection-ais-growing-role-in-stainless-steel",
+   "raw_sector": "",
+   "date": "2023-11-02",
+   "fresh": "stale"
+  },
+  {
+   "company": "Outokumpu",
+   "use": "Surface defect detection system for stainless steel production [Nortal]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://nortal.com/insights/ai-in-action-surface-defect-detection-in-outokumpu-stainless-steel",
+   "raw_sector": "",
+   "date": "2024-06-25",
+   "fresh": "aging"
+  },
+  {
+   "company": "Outokumpu",
+   "use": "Machine learning development platform and generative AI for R&D [Solita]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.solita.fi/work/outokumpu-digital-innovation-hub-drives-ai-solutions-in-sustainable-stainless-steel/",
+   "raw_sector": "",
+   "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "Outokumpu",
    "use": "Digital innovation hub / ML platform (with Solita) to scale AI across operations, targeting cost savings",
    "existence": "confirmed",
    "value": "targeting tens of millions in savings",
@@ -75,6 +110,17 @@
    "raw_sector": "Materials",
    "date": "missing",
    "fresh": "undated"
+  },
+  {
+   "company": "Outokumpu",
+   "use": "Intelligent data platform for data-driven operations [Microsoft]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.microsoft.com/en/customers/story/24140-outokumpu-intelligent-data-platform",
+   "raw_sector": "",
+   "date": "2025-06-23",
+   "fresh": "fresh"
   },
   {
    "company": "Outokumpu",
@@ -185,6 +231,17 @@
    "raw_sector": "",
    "date": "2024",
    "fresh": "aging"
+  },
+  {
+   "company": "Outokumpu",
+   "use": "AI-driven safety inspection robots for workplace safety management",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.outokumpu.com/en/news/2023/outokumpu-is-the-first-in-the-steel-industry-to-use-robotics-in-safety-management-%E2%80%93-supporting-the-vision-of-achieving-the-lowest-accident-frequency-rate-in-the-industry-by-2025-3286722",
+   "raw_sector": "",
+   "date": "2023-06-21",
+   "fresh": "stale"
   }
  ]
 }

@@ -3,27 +3,27 @@
  "name": "Baker Hughes",
  "cc": "US",
  "vertical": "Energy & Utilities",
- "deployments": 1,
- "confirmed": 1,
- "with_value_number": 0,
- "proof_rate": 0.0,
+ "deployments": 10,
+ "confirmed": 7,
+ "with_value_number": 2,
+ "proof_rate": 0.2,
  "mktcap": 55950000000.0,
  "revenue": 27890000000.0,
  "employees": 56000.0,
  "silent": false,
- "per_bn_revenue": 0.04,
- "per_10k_emp": 0.18,
+ "per_bn_revenue": 0.36,
+ "per_10k_emp": 1.79,
  "benchmarks": {
   "global_vertical": {
-   "deployments": 0,
-   "confirmed": 20,
-   "proof_rate": 0,
-   "n": 210
+   "deployments": 83,
+   "confirmed": 81,
+   "proof_rate": 50,
+   "n": 213
   },
   "country_vertical": {
-   "deployments": 0,
-   "confirmed": 39,
-   "proof_rate": 0,
+   "deployments": 84,
+   "confirmed": 82,
+   "proof_rate": 78,
    "n": 52
   }
  },
@@ -31,20 +31,46 @@
  "by_year": [
   {
    "year": 2025,
-   "n": 1
+   "n": 6
+  },
+  {
+   "year": 2026,
+   "n": 2
   }
  ],
- "undated_pct": 0,
+ "undated_pct": 20,
  "momentum": "rising",
- "maturity": "L3",
+ "maturity": "L4",
  "maturity_evidence": [
+  "multi_horizontal",
   "named_product:Leucipa",
+  "value_number",
+  "multi_year",
   "tier_p"
  ],
- "prospect_score": 54,
- "stack": [],
- "vendor_named": false,
+ "prospect_score": 74,
+ "stack": [
+  "Amazon AWS",
+  "C3.ai",
+  "Google Cloud",
+  "Microsoft",
+  "Microsoft Azure",
+  "NVIDIA",
+  "Palantir"
+ ],
+ "vendor_named": true,
  "deployments_detail": [
+  {
+   "company": "Baker Hughes",
+   "use": "Baker Hughes internal use of C3 AI applications for its own operations — sourcing optimization, inventory optimization and sustainability tracking (part of the expanded JV). [C3 AI]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://c3.ai/news/c3-ai-and-baker-hughes-renew-and-expand-joint-venture-agreement",
+   "raw_sector": "",
+   "date": "2025-05-28",
+   "fresh": "fresh"
+  },
   {
    "company": "Baker Hughes",
    "use": "\"Leucipa\" automated field production (AI/ML production optimization) + \"Cordant\" AI engines for energy asset ops; agentic AI added 2025",
@@ -54,6 +80,94 @@
    "url": "https://investors.bakerhughes.com/news/press-releases/2023/Baker-Hughes-Unveils-New-Digital-Solutions",
    "raw_sector": "Energy",
    "date": "2025",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Baker Hughes",
+   "use": "Leucipa automated field production solution — AI-powered software for field-wide oil & gas production optimization, reducing unplanned downtime and emissions. Piloted by Repsol (Lift Optimizer for plunger lift wells). SaaS hosted on AWS. [Baker Hughes (Leucipa); AWS (hosting)]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.bakerhughes.com/company/news/baker-hughes-repsol-launching-new-aipowered-functionality-leucipatm",
+   "raw_sector": "",
+   "date": "2025-06-10",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Baker Hughes",
+   "use": "Leucipa 'Lucy' AI Production Assistant — generative-AI conversational interface giving real-time analysis of production data for field decision-making. Deployed across Expand Energy US natural gas fields (Marcellus, Utica, Haynesville). [Baker Hughes (Leucipa/Lucy); AWS]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.bakerhughes.com/company/news/baker-hughes-expand-energy-deploy-leucipatm-across-us-natural-gas-fields",
+   "raw_sector": "",
+   "date": "2026-01-29",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Baker Hughes",
+   "use": "Cordant industrial software — hybrid AI + physics-based predictive failure detection for turbomachinery (turbines, compressors, pumps) plus an AI Assistant for Work Management to accelerate case resolution. Enterprise deployment, 20+ languages. [Baker Hughes (Cordant); Microsoft Azure/AI Foundry partnership]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.bakerhughes.com/company/news/baker-hughes-enhances-cordanttm-industrial-software-integrated-ai-enhanced-usability",
+   "raw_sector": "",
+   "date": "2025-09-08",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Baker Hughes",
+   "use": "BHC3 Reliability — machine-learning predictive-maintenance application (early warning of equipment failure / production downtime) built via the Baker Hughes–C3 AI joint venture. Deployed to major energy operators (Shell, Eni, QatarEnergy LNG, ExxonMobil, etc.). JV renewed/expanded through 2028. [C3 AI; Microsoft Azure]",
+   "existence": "confirmed",
+   "value": "$500M+ combined revenue from O&G/chemicals since 2019 (per C3 AI CEO)",
+   "tier": "",
+   "url": "https://c3.ai/news/c3-ai-and-baker-hughes-renew-and-expand-joint-venture-agreement",
+   "raw_sector": "",
+   "date": "2025-05-28",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Baker Hughes",
+   "use": "Waygate Technologies AI-powered non-destructive testing (NDT) inspection — deep-learning defect classification and anomaly detection trained on millions of inspection images/signals; products include Mentor Visual iQ+ borescope and Phoenix CT systems for aerospace, oil & gas, power gen, automotive. [Baker Hughes (Waygate Technologies)]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.bakerhughes.com/waygate-technologies/blog/future-autonomous-ndt-aipowered-inspection-systems",
+   "raw_sector": "",
+   "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "Baker Hughes",
+   "use": "NVIDIA deep-learning predictive maintenance — deep learning applied to pumps, turbines and compressors to increase production and cut maintenance costs; also GPU-accelerated reservoir simulation. Described as proof-of-concept. [NVIDIA]",
+   "existence": "claimed",
+   "value": "93% prediction accuracy; 5X reduction in false positives/negatives",
+   "tier": "",
+   "url": "https://www.bakerhughes.com/ai-industrial-scale",
+   "raw_sector": "",
+   "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "Baker Hughes",
+   "use": "Google Cloud collaboration on AI-enabled power optimization and sustainability for data centers — combining Baker Hughes turbomachinery/power systems with Google Cloud AI to optimize power generation, management and consumption. Early/exploratory phase. [Google Cloud]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://investors.bakerhughes.com/news/press-releases/news-details/2026/Baker-Hughes-Develops-AI-Enabled-Power-Optimization-and-Sustainability-Solutions-for-Data-Centers-with-Google-Cloud-Technology/default.aspx",
+   "raw_sector": "",
+   "date": "2026-03-24",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Baker Hughes",
+   "use": "GenAI digital assistants 'JenAii' and 'Flow' — Flow supports field personnel with common questions on artificial-lift equipment; built by turning decades of documentation into an intelligent support bot. Rolled out with a repeatable framework for more assistants. [EPAM; AWS (generative AI)]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.bakerhughes.com/company/stories/how-genai-driving-art-possible",
+   "raw_sector": "",
+   "date": "2025-03-26",
    "fresh": "fresh"
   }
  ]

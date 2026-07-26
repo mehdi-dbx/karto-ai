@@ -3,27 +3,27 @@
  "name": "Vinci",
  "cc": "FR",
  "vertical": "Industrial / Machinery",
- "deployments": 10,
- "confirmed": 8,
- "with_value_number": 5,
+ "deployments": 12,
+ "confirmed": 9,
+ "with_value_number": 6,
  "proof_rate": 0.5,
  "mktcap": 68040000000.0,
  "revenue": 81756000000.0,
  "employees": 292101.0,
  "silent": false,
- "per_bn_revenue": 0.12,
- "per_10k_emp": 0.34,
+ "per_bn_revenue": 0.15,
+ "per_10k_emp": 0.41,
  "benchmarks": {
   "global_vertical": {
-   "deployments": 91,
-   "confirmed": 94,
-   "proof_rate": 76,
-   "n": 175
+   "deployments": 87,
+   "confirmed": 84,
+   "proof_rate": 94,
+   "n": 176
   },
   "country_vertical": {
-   "deployments": 88,
-   "confirmed": 100,
-   "proof_rate": 88,
+   "deployments": 62,
+   "confirmed": 62,
+   "proof_rate": 100,
    "n": 9
   }
  },
@@ -39,14 +39,14 @@
   },
   {
    "year": 2025,
-   "n": 4
+   "n": 5
   },
   {
    "year": 2026,
    "n": 1
   }
  ],
- "undated_pct": 10,
+ "undated_pct": 17,
  "momentum": "early_mover,rising",
  "maturity": "L4",
  "maturity_evidence": [
@@ -55,9 +55,14 @@
   "value_number",
   "multi_year"
  ],
- "prospect_score": 76,
- "stack": [],
- "vendor_named": false,
+ "prospect_score": 74,
+ "stack": [
+  "Microsoft",
+  "Microsoft Azure",
+  "Mistral AI",
+  "OpenAI"
+ ],
+ "vendor_named": true,
  "deployments_detail": [
   {
    "company": "Vinci",
@@ -80,6 +85,28 @@
    "raw_sector": "Industrials",
    "date": "2025",
    "fresh": "fresh"
+  },
+  {
+   "company": "Vinci",
+   "use": "Process optimization across business lines",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://leonard.vinci.com/en/ai-program-2025/",
+   "raw_sector": "",
+   "date": "2025-01-15",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Vinci",
+   "use": "Crane foundation design simulation [VIKTOR.AI]",
+   "existence": "confirmed",
+   "value": "300",
+   "tier": "",
+   "url": "https://www.viktor.ai/customer-cases/43/how-vinci-yearly-saves-300-days-calculating-crane-foundation-designs",
+   "raw_sector": "",
+   "date": "missing",
+   "fresh": "undated"
   },
   {
    "company": "Vinci",

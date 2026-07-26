@@ -3,27 +3,27 @@
  "name": "Meta Platforms",
  "cc": "US",
  "vertical": "Telecom",
- "deployments": 11,
- "confirmed": 11,
+ "deployments": 13,
+ "confirmed": 13,
  "with_value_number": 4,
- "proof_rate": 0.364,
+ "proof_rate": 0.308,
  "mktcap": 1540000000000.0,
  "revenue": 214960000000.0,
  "employees": 78865.0,
  "silent": false,
- "per_bn_revenue": 0.05,
- "per_10k_emp": 1.39,
+ "per_bn_revenue": 0.06,
+ "per_10k_emp": 1.65,
  "benchmarks": {
   "global_vertical": {
-   "deployments": 91,
-   "confirmed": 98,
-   "proof_rate": 52,
-   "n": 93
+   "deployments": 82,
+   "confirmed": 91,
+   "proof_rate": 46,
+   "n": 94
   },
   "country_vertical": {
-   "deployments": 82,
-   "confirmed": 95,
-   "proof_rate": 68,
+   "deployments": 77,
+   "confirmed": 86,
+   "proof_rate": 64,
    "n": 23
   }
  },
@@ -39,14 +39,14 @@
   },
   {
    "year": 2025,
-   "n": 4
+   "n": 5
   },
   {
    "year": 2026,
    "n": 2
   }
  ],
- "undated_pct": 9,
+ "undated_pct": 15,
  "momentum": "early_mover,rising",
  "maturity": "L4",
  "maturity_evidence": [
@@ -55,12 +55,38 @@
   "value_number",
   "multi_year"
  ],
- "prospect_score": 85,
+ "prospect_score": 88,
  "stack": [
-  "Meta"
+  "Anthropic",
+  "Google",
+  "Meta",
+  "NVIDIA",
+  "OpenAI"
  ],
  "vendor_named": true,
  "deployments_detail": [
+  {
+   "company": "Meta Platforms",
+   "use": "Recommendation engine for social media feed and content ranking",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://about.fb.com/news/2025/10/improving-your-recommendations-apps-ai-meta/",
+   "raw_sector": "",
+   "date": "2025-10-01",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Meta Platforms",
+   "use": "Conversational AI assistant across Meta apps",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://ai.meta.com/global_search/",
+   "raw_sector": "",
+   "date": "missing",
+   "fresh": "undated"
+  },
   {
    "company": "Meta Platforms",
    "use": "Llama open models + Meta AI assistant + AI ad-ranking/recommendation systems; ~$70-80B AI capex FY26",

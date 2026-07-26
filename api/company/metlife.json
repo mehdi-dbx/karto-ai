@@ -3,28 +3,28 @@
  "name": "MetLife",
  "cc": "US",
  "vertical": "Financial Services",
- "deployments": 12,
- "confirmed": 10,
+ "deployments": 17,
+ "confirmed": 14,
  "with_value_number": 4,
- "proof_rate": 0.333,
+ "proof_rate": 0.235,
  "mktcap": 59490000000.0,
  "revenue": 77580000000.0,
  "employees": 46000.0,
  "silent": false,
- "per_bn_revenue": 0.15,
- "per_10k_emp": 2.61,
+ "per_bn_revenue": 0.22,
+ "per_10k_emp": 3.7,
  "benchmarks": {
   "global_vertical": {
-   "deployments": 95,
-   "confirmed": 95,
-   "proof_rate": 57,
-   "n": 377
+   "deployments": 97,
+   "confirmed": 96,
+   "proof_rate": 47,
+   "n": 388
   },
   "country_vertical": {
-   "deployments": 95,
-   "confirmed": 95,
-   "proof_rate": 67,
-   "n": 76
+   "deployments": 96,
+   "confirmed": 96,
+   "proof_rate": 54,
+   "n": 77
   }
  },
  "first_seen": 2019,
@@ -39,7 +39,7 @@
   },
   {
    "year": 2023,
-   "n": 3
+   "n": 6
   },
   {
    "year": 2024,
@@ -47,11 +47,15 @@
   },
   {
    "year": 2025,
-   "n": 5
+   "n": 6
+  },
+  {
+   "year": 2026,
+   "n": 1
   }
  ],
- "undated_pct": 8,
- "momentum": "early_mover,rising",
+ "undated_pct": 6,
+ "momentum": "early_mover,flat",
  "maturity": "L4",
  "maturity_evidence": [
   "multi_horizontal",
@@ -60,10 +64,35 @@
   "multi_year",
   "tier_p"
  ],
- "prospect_score": 95,
- "stack": [],
- "vendor_named": false,
+ "prospect_score": 91,
+ "stack": [
+  "Microsoft",
+  "Microsoft Azure"
+ ],
+ "vendor_named": true,
  "deployments_detail": [
+  {
+   "company": "MetLife",
+   "use": "AI-powered mental health and identity fraud protection tools for employer benefits [Aura]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.metlife.com/about-us/newsroom/2025/may/metlife-and-aura-introduce-new-category-of-ai-powered-tools-to-us-employer-benefits-channel-to-take-on-the-mental-health-crisis/",
+   "raw_sector": "",
+   "date": "2025-05-06",
+   "fresh": "fresh"
+  },
+  {
+   "company": "MetLife",
+   "use": "Property risk assessment improvement",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://emerj.com/artificial-intelligence-at-metlife/",
+   "raw_sector": "",
+   "date": "2023-04-10",
+   "fresh": "stale"
+  },
   {
    "company": "MetLife",
    "use": "Cogito emotion-AI for call-center agents (real-time tone guidance) + Sprout.ai claims automation",
@@ -74,6 +103,39 @@
    "raw_sector": "Financials",
    "date": "missing",
    "fresh": "undated"
+  },
+  {
+   "company": "MetLife",
+   "use": "Contact center agent coaching with generative AI",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://emerj.com/artificial-intelligence-at-metlife/",
+   "raw_sector": "",
+   "date": "2023-04-10",
+   "fresh": "stale"
+  },
+  {
+   "company": "MetLife",
+   "use": "Fraudulent claims detection",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://emerj.com/artificial-intelligence-at-metlife/",
+   "raw_sector": "",
+   "date": "2023-04-10",
+   "fresh": "stale"
+  },
+  {
+   "company": "MetLife",
+   "use": "MetIQ - unified AI platform for rapid software app creation and deployment",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.innovationleader.com/inside-look/inside-look-how-metlife-built-an-ai-platform-to-be-a-force-multiplier/",
+   "raw_sector": "",
+   "date": "2026-01-30",
+   "fresh": "fresh"
   },
   {
    "company": "MetLife",

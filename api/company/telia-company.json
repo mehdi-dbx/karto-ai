@@ -3,40 +3,85 @@
  "name": "Telia Company",
  "cc": "SE",
  "vertical": "Telecom",
- "deployments": 1,
- "confirmed": 1,
- "with_value_number": 1,
- "proof_rate": 1.0,
+ "deployments": 6,
+ "confirmed": 4,
+ "with_value_number": 3,
+ "proof_rate": 0.5,
  "mktcap": 16840952381.0,
  "revenue": 7793333333.0,
  "employees": 14552.0,
  "silent": false,
- "per_bn_revenue": 0.13,
- "per_10k_emp": 0.69,
+ "per_bn_revenue": 0.77,
+ "per_10k_emp": 4.12,
  "benchmarks": {
   "global_vertical": {
-   "deployments": 0,
-   "confirmed": 16,
-   "proof_rate": 78,
-   "n": 93
+   "deployments": 30,
+   "confirmed": 33,
+   "proof_rate": 73,
+   "n": 94
   }
  },
- "first_seen": null,
- "by_year": [],
- "undated_pct": 100,
- "momentum": "none",
- "maturity": "L3",
+ "first_seen": 2025,
+ "by_year": [
+  {
+   "year": 2025,
+   "n": 1
+  },
+  {
+   "year": 2026,
+   "n": 3
+  }
+ ],
+ "undated_pct": 33,
+ "momentum": "early_mover,rising",
+ "maturity": "L4",
  "maturity_evidence": [
+  "multi_horizontal",
   "named_product:Telia",
   "value_number",
+  "multi_year",
   "tier_p"
  ],
- "prospect_score": 6,
+ "prospect_score": 44,
  "stack": [
+  "Accenture",
   "Google Cloud"
  ],
  "vendor_named": true,
  "deployments_detail": [
+  {
+   "company": "Telia Company",
+   "use": "Sweden's largest sovereign AI infrastructure initiative with Brookfield",
+   "existence": "claimed",
+   "value": "SEK 95 billion",
+   "tier": "",
+   "url": "https://www.teliacompany.com/en/news/telia-brookfield-partner-on-swedens-largest-sovereign-ai-initiative-2026-03-16-07-00-00%22",
+   "raw_sector": "",
+   "date": "2026-03-16",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Telia Company",
+   "use": "AI-enabled IoT platform and service",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.teliacompany.com/en/news/telia-launches-aienabled-iot-platform-service-2025-10-02-06-00-00",
+   "raw_sector": "",
+   "date": "2025-10-02",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Telia Company",
+   "use": "AI-RAN collaboration for 5G network capabilities [Nokia]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.nokia.com/newsroom/nokia-and-telia-to-collaborate-on-ai-ran-use-cases-mwc26/",
+   "raw_sector": "",
+   "date": "2026-03-04",
+   "fresh": "fresh"
+  },
   {
    "company": "Telia Company",
    "use": "Telia ACE contact-center AI platform (with Google Cloud AI) handling customer interactions",
@@ -45,6 +90,28 @@
    "tier": "P",
    "url": "https://www.teliacompany.com/en/news-articles/telia-and-google-cloud-collaborate-to-leverage-ai-technology-for-an-even-better-customer-service-experience",
    "raw_sector": "Telecom",
+   "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "Telia Company",
+   "use": "AI system for thunderstorm alerts to reduce service disruptions",
+   "existence": "confirmed",
+   "value": "800000",
+   "tier": "",
+   "url": "https://shortl.ee/en/estonia/story/telia-ai-alerts-sharply-reduce-storm-disruptions-customer-issues-in-estonia",
+   "raw_sector": "",
+   "date": "2026-05-31",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Telia Company",
+   "use": "Generative AI solution for data management and repository automation [Accenture]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.accenture.com/us-en/case-studies/ai-data/telia-supercharges-its-data-with-gen-ai",
+   "raw_sector": "",
    "date": "missing",
    "fresh": "undated"
   }

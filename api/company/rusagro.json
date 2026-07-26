@@ -3,21 +3,21 @@
  "name": "Rusagro",
  "cc": "RU",
  "vertical": "Agriculture",
- "deployments": 1,
- "confirmed": 0,
- "with_value_number": 0,
- "proof_rate": 0.0,
+ "deployments": 2,
+ "confirmed": 1,
+ "with_value_number": 1,
+ "proof_rate": 0.5,
  "mktcap": null,
  "revenue": 4730000000.0,
  "employees": null,
  "silent": false,
- "per_bn_revenue": 0.21,
+ "per_bn_revenue": 0.42,
  "per_10k_emp": null,
  "benchmarks": {
   "global_vertical": {
    "deployments": 0,
    "confirmed": 0,
-   "proof_rate": 0,
+   "proof_rate": 100,
    "n": 11
   }
  },
@@ -26,15 +26,20 @@
   {
    "year": 2024,
    "n": 1
+  },
+  {
+   "year": 2025,
+   "n": 1
   }
  ],
  "undated_pct": 0,
- "momentum": "early_mover,gone_quiet",
- "maturity": "L1",
+ "momentum": "early_mover,flat",
+ "maturity": "L3",
  "maturity_evidence": [
-  "rows_no_confirmed"
+  "named_product:Autonomous",
+  "value_number"
  ],
- "prospect_score": 40,
+ "prospect_score": 34,
  "stack": [],
  "vendor_named": false,
  "deployments_detail": [
@@ -48,6 +53,17 @@
    "raw_sector": "Agriculture",
    "date": "2024",
    "fresh": "aging"
+  },
+  {
+   "company": "Rusagro",
+   "use": "Autonomous driving systems on combine harvesters [Cognitive Pilot (Sber and Cognitive Technologies joint venture)]",
+   "existence": "confirmed",
+   "value": "242 combines",
+   "tier": "",
+   "url": "https://leadtheshift.org/articles/countries-russia-russia-ceo-edition.html",
+   "raw_sector": "",
+   "date": "2025",
+   "fresh": "fresh"
   }
  ]
 }

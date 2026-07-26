@@ -3,44 +3,119 @@
  "name": "St. James's Place",
  "cc": "UK",
  "vertical": "Financial Services",
- "deployments": 1,
- "confirmed": 1,
- "with_value_number": 1,
- "proof_rate": 1.0,
+ "deployments": 9,
+ "confirmed": 7,
+ "with_value_number": 4,
+ "proof_rate": 0.444,
  "mktcap": 6896100000.0,
  "revenue": 38303200000.0,
  "employees": 2859.0,
  "silent": false,
- "per_bn_revenue": 0.03,
- "per_10k_emp": 3.5,
+ "per_bn_revenue": 0.23,
+ "per_10k_emp": 31.48,
  "benchmarks": {
   "global_vertical": {
-   "deployments": 0,
-   "confirmed": 17,
-   "proof_rate": 76,
-   "n": 377
+   "deployments": 58,
+   "confirmed": 62,
+   "proof_rate": 74,
+   "n": 388
   },
   "country_vertical": {
-   "deployments": 0,
-   "confirmed": 36,
-   "proof_rate": 86,
+   "deployments": 82,
+   "confirmed": 86,
+   "proof_rate": 91,
    "n": 23
   }
  },
- "first_seen": null,
- "by_year": [],
- "undated_pct": 100,
- "momentum": "none",
- "maturity": "L3",
+ "first_seen": 2020,
+ "by_year": [
+  {
+   "year": 2020,
+   "n": 1
+  },
+  {
+   "year": 2021,
+   "n": 1
+  },
+  {
+   "year": 2022,
+   "n": 2
+  },
+  {
+   "year": 2024,
+   "n": 1
+  },
+  {
+   "year": 2025,
+   "n": 2
+  },
+  {
+   "year": 2026,
+   "n": 1
+  }
+ ],
+ "undated_pct": 11,
+ "momentum": "early_mover,rising",
+ "maturity": "L4",
  "maturity_evidence": [
+  "multi_horizontal",
   "named_product:Advice",
   "value_number",
+  "multi_year",
   "tier_p"
  ],
- "prospect_score": 14,
- "stack": [],
- "vendor_named": false,
+ "prospect_score": 64,
+ "stack": [
+  "OpenAI",
+  "Salesforce",
+  "Snowflake"
+ ],
+ "vendor_named": true,
  "deployments_detail": [
+  {
+   "company": "St. James's Place",
+   "use": "AI data automation for customer survey sentiment analysis (processing thousands of survey responses) and accelerating ETL pipeline consolidation/migration in the data engineering team. [Maia AI]",
+   "existence": "confirmed",
+   "value": "Survey analysis cut from ~4,000 hours to 16 hours (1,300% efficiency gain); two-thirds reduction in ETL migration effort",
+   "tier": "",
+   "url": "https://www.maia.ai/resources/customer-stories/sjp",
+   "raw_sector": "",
+   "date": "2026-03-06",
+   "fresh": "fresh"
+  },
+  {
+   "company": "St. James's Place",
+   "use": "Robotic process automation / intelligent automation bots for business assurance, investment reporting and partner servicing (automated case checking, initially pension management), letting the firm review far more incoming cases. [Automation Anywhere]",
+   "existence": "confirmed",
+   "value": "~63 minutes saved per case; 85-90% of cases checked by bots; 100% increase in processing volume",
+   "tier": "",
+   "url": "https://www.automationanywhere.com/resources/customer-stories/st-james-place",
+   "raw_sector": "",
+   "date": "2022-01-01",
+   "fresh": "stale"
+  },
+  {
+   "company": "St. James's Place",
+   "use": "Advice Assistant: in-house AI tool that turns a completed client fact-find into a full suitable-advice pack (illustrations, documents, advice sets) in as few as 10 clicks, using rules-based automation plus natural-language-processing models. In production for ~2 years and available to all SJP partners. [St. James's Place (in-house build)]",
+   "existence": "confirmed",
+   "value": "Time to produce an advice pack cut from 2-3 hours to under 30 minutes (as little as 15 minutes)",
+   "tier": "",
+   "url": "https://www.buzzsprout.com/940546/episodes/17027320-from-chatgpt-to-chat-sjp-the-ai-revolution-at-st-james-s-place-john-o-driscoll-wenyu-bai-sjp",
+   "raw_sector": "",
+   "date": "2025-05-15",
+   "fresh": "fresh"
+  },
+  {
+   "company": "St. James's Place",
+   "use": "Intellect selected as strategic AI transformation partner for SJP's Investment Management division to build an 'Intelligent Investment Hub' using AI/ML/NLP/NLG: fund performance intelligence, automated sentiment analysis of analyst reactions, comparative fund analysis, auto-generated fund fact sheets and ESG intelligence. [Intellect Design / Intellect AI (on Snowflake + Matillion)]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.intellectdesign.com/media/st-jamess-place-selects-intellect-as-their-strategic-ai-transformation-partner-for-their-investment-management-division/",
+   "raw_sector": "",
+   "date": "2021-06-29",
+   "fresh": "stale"
+  },
   {
    "company": "St. James's Place",
    "use": "AI to identify/assist \"vulnerable\" call-centre customers; Advice Assistant for advisers; Maia AI cut survey analysis from 4,000 hrs to 16",
@@ -51,6 +126,50 @@
    "raw_sector": "Financial services",
    "date": "missing",
    "fresh": "undated"
+  },
+  {
+   "company": "St. James's Place",
+   "use": "Chat SJP: internal GPT-style assistant for partners that answers technical questions on SJP's advice framework and business-submission rules using LLM retrieval-augmented generation (RAG) restricted to verified 'gold standard' documents, with source citations. In pilot at time of reporting. [St. James's Place (in-house, LLM/RAG)]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.buzzsprout.com/940546/episodes/17027320-from-chatgpt-to-chat-sjp-the-ai-revolution-at-st-james-s-place-john-o-driscoll-wenyu-bai-sjp",
+   "raw_sector": "",
+   "date": "2025-05-15",
+   "fresh": "fresh"
+  },
+  {
+   "company": "St. James's Place",
+   "use": "AI listening to call-centre calls to detect intonation and language patterns that flag potentially vulnerable customers, so staff can adapt support (Consumer Duty compliance). Described by CEO Mark FitzPatrick as recently deployed. [none disclosed]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.brownejacobson.com/insights/using-ai-to-help-spot-vulnerable-customers",
+   "raw_sector": "",
+   "date": "2024-07-26",
+   "fresh": "aging"
+  },
+  {
+   "company": "St. James's Place",
+   "use": "AI-enhanced client and entity screening for anti-money-laundering: continuous daily screening and re-screening of customers against sanctions, PEP and adverse-media watchlists plus internal white/black lists. Used to manage introduction of Russian sanctions. [Napier AI]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.napier.ai/post/st-jamess-place-aml",
+   "raw_sector": "",
+   "date": "2022-09-06",
+   "fresh": "stale"
+  },
+  {
+   "company": "St. James's Place",
+   "use": "Salesforce Financial Services Cloud with Einstein Analytics deployed across the SJP partnership to give advisers unified client data, AI-driven insights and next-best-action to increase advisor productivity and client engagement. [Salesforce (Financial Services Cloud, Einstein)]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.moneymarketing.co.uk/opinion/learning-from-sjps-use-of-salesforce/",
+   "raw_sector": "",
+   "date": "2020-05-01",
+   "fresh": "stale"
   }
  ]
 }

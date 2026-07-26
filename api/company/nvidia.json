@@ -3,27 +3,27 @@
  "name": "Nvidia",
  "cc": "US",
  "vertical": "Technology",
- "deployments": 9,
+ "deployments": 11,
  "confirmed": 9,
- "with_value_number": 5,
- "proof_rate": 0.556,
+ "with_value_number": 6,
+ "proof_rate": 0.545,
  "mktcap": 5070000000000.0,
  "revenue": 253490000000.0,
  "employees": 42000.0,
  "silent": false,
  "per_bn_revenue": 0.04,
- "per_10k_emp": 2.14,
+ "per_10k_emp": 2.62,
  "benchmarks": {
   "global_vertical": {
-   "deployments": 83,
-   "confirmed": 91,
-   "proof_rate": 77,
-   "n": 156
+   "deployments": 67,
+   "confirmed": 65,
+   "proof_rate": 89,
+   "n": 159
   },
   "country_vertical": {
-   "deployments": 74,
-   "confirmed": 88,
-   "proof_rate": 88,
+   "deployments": 63,
+   "confirmed": 60,
+   "proof_rate": 90,
    "n": 74
   }
  },
@@ -50,7 +50,7 @@
    "n": 3
   }
  ],
- "undated_pct": 0,
+ "undated_pct": 18,
  "momentum": "early_mover,rising",
  "maturity": "L4",
  "maturity_evidence": [
@@ -61,7 +61,10 @@
  ],
  "prospect_score": 72,
  "stack": [
-  "NVIDIA"
+  "Meta",
+  "NVIDIA",
+  "OpenAI",
+  "SAP"
  ],
  "vendor_named": true,
  "deployments_detail": [
@@ -75,6 +78,28 @@
    "raw_sector": "Information Technology",
    "date": "2025",
    "fresh": "fresh"
+  },
+  {
+   "company": "Nvidia",
+   "use": "AI infrastructure deployment for training and inference at scale [OpenAI]",
+   "existence": "claimed",
+   "value": "10 gigawatts",
+   "tier": "",
+   "url": "https://nvidianews.nvidia.com/news/openai-and-nvidia-announce-strategic-partnership-to-deploy-10gw-of-nvidia-systems",
+   "raw_sector": "",
+   "date": "Sep 22, 2025",
+   "fresh": "undated"
+  },
+  {
+   "company": "Nvidia",
+   "use": "AI infrastructure deployment at US National Laboratories and NVIDIA AI Factory Research Center",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://nvidianews.nvidia.com/news/nvidia-partners-ai-infrastructure-america",
+   "raw_sector": "",
+   "date": "Oct 28, 2025",
+   "fresh": "undated"
   },
   {
    "company": "Nvidia",

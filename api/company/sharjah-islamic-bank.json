@@ -3,48 +3,107 @@
  "name": "Sharjah Islamic Bank",
  "cc": "AE",
  "vertical": "Financial Services",
- "deployments": 1,
- "confirmed": 1,
- "with_value_number": 0,
- "proof_rate": 0.0,
+ "deployments": 9,
+ "confirmed": 6,
+ "with_value_number": 2,
+ "proof_rate": 0.222,
  "mktcap": 2556000000.0,
  "revenue": 670000000.0,
  "employees": null,
  "silent": false,
- "per_bn_revenue": 1.49,
+ "per_bn_revenue": 13.43,
  "per_10k_emp": null,
  "benchmarks": {
   "global_vertical": {
-   "deployments": 0,
-   "confirmed": 17,
-   "proof_rate": 0,
-   "n": 377
+   "deployments": 58,
+   "confirmed": 55,
+   "proof_rate": 44,
+   "n": 388
   },
   "country_vertical": {
-   "deployments": 0,
-   "confirmed": 8,
-   "proof_rate": 0,
-   "n": 14
+   "deployments": 79,
+   "confirmed": 79,
+   "proof_rate": 64,
+   "n": 15
   }
  },
- "first_seen": 2023,
+ "first_seen": 2011,
  "by_year": [
   {
-   "year": 2023,
+   "year": 2011,
    "n": 1
+  },
+  {
+   "year": 2023,
+   "n": 3
+  },
+  {
+   "year": 2024,
+   "n": 1
+  },
+  {
+   "year": 2025,
+   "n": 4
   }
  ],
  "undated_pct": 0,
- "momentum": "early_mover,gone_quiet",
- "maturity": "L3",
+ "momentum": "early_mover,flat",
+ "maturity": "L4",
  "maturity_evidence": [
+  "multi_horizontal",
   "named_product:Joined",
+  "value_number",
+  "multi_year",
   "tier_p"
  ],
- "prospect_score": 54,
+ "prospect_score": 75,
  "stack": [],
  "vendor_named": false,
  "deployments_detail": [
+  {
+   "company": "Sharjah Islamic Bank",
+   "use": "Digital bank-guarantee issuance and verification pilot on haifin using Merkle-root-hash cryptographic verification (with FAB), run in the UAE TradeTech regulatory sandbox; featured in the WEF 'Advancing Digital Trade 2025' whitepaper. [haifin (e& Enterprise Fintech)]",
+   "existence": "claimed",
+   "value": "targets AED 500+ billion paper-based guarantee market",
+   "tier": "",
+   "url": "https://www.linkedin.com/posts/haifin_wef-x-haifin-activity-7381976166238158849-1tC8",
+   "raw_sector": "",
+   "date": "2025",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Sharjah Islamic Bank",
+   "use": "MoU (witnessed by the CBUAE Governor, July 2025) alongside FAB, ADCB, CBD and NBF to explore traditional and generative-AI use cases in banking (operational efficiency, cybersecurity, customer experience, credit risk, document processing) via sandbox pilots. [none]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.linkedin.com/posts/pkeyrouz_strategic-mous-h-activity-7356310102913486848-aTiM",
+   "raw_sector": "",
+   "date": "2025-07-16",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Sharjah Islamic Bank",
+   "use": "AI-powered customer-service chatbot for the SIB Digital App / online banking, handling customer interactions to improve service levels (ChatBot project led by Head of Digital Mobile & Online Banking). [none]",
+   "existence": "confirmed",
+   "value": "~60% of customer queries handled (per bank digital lead's profile)",
+   "tier": "",
+   "url": "https://ae.linkedin.com/in/tariqm",
+   "raw_sector": "",
+   "date": "2023",
+   "fresh": "stale"
+  },
+  {
+   "company": "Sharjah Islamic Bank",
+   "use": "Screen-reader / assistive service embedded in the SIB Digital mobile banking app to serve visually impaired customers (text-to-speech accessibility). [none]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://emiratitimes.com/sib-launches-screen-reader-service-for-its-mobile-banking-app/",
+   "raw_sector": "",
+   "date": "2023-09",
+   "fresh": "stale"
+  },
   {
    "company": "Sharjah Islamic Bank",
    "use": "Joined haifin platform using blockchain and AI to detect and prevent trade-finance fraud across member banks",
@@ -54,6 +113,50 @@
    "url": "https://wam.ae",
    "raw_sector": "Banks",
    "date": "2023",
+   "fresh": "stale"
+  },
+  {
+   "company": "Sharjah Islamic Bank",
+   "use": "AI + blockchain trade-finance fraud detection via the 'haifin' platform: real-time verification of commercial financing deals to prevent duplicate-transaction fraud. SIB joined as the 14th member bank of the haifin alliance. [haifin (e& Enterprise Fintech)]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://emiratitimes.com/sharjah-islamic-bank-joins-haifin-to-enhance-fraud-prevention/",
+   "raw_sector": "",
+   "date": "2024-05",
+   "fresh": "aging"
+  },
+  {
+   "company": "Sharjah Islamic Bank",
+   "use": "Facial authentication with liveness verification (UAEICP integration) for identity verification in the SIB Digital App, using computer-vision biometric/liveness detection. [UAEICP (UAE Federal Authority for Identity)]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://ae.linkedin.com/in/tariqm",
+   "raw_sector": "",
+   "date": "2025",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Sharjah Islamic Bank",
+   "use": "SIB Pay payment gateway with real-time fraud detection and detailed transaction analytics plus card tokenisation for merchants/e-commerce. [none]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.sib.ae/en/SIBPay/Value-Added-Services",
+   "raw_sector": "",
+   "date": "2025-11",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Sharjah Islamic Bank",
+   "use": "Complinet Global Screening Workstation deployed for continuous automated screening of clients against global sanctions/watchlists for AML and fraud prevention (fully auditable screening automation). [Complinet (Thomson Reuters)]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.wam.ae/en/article/hsyitijx-sib-strengthens-fraud-and-money-laundering",
+   "raw_sector": "",
+   "date": "2011",
    "fresh": "stale"
   }
  ]

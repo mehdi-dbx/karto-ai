@@ -3,42 +3,67 @@
  "name": "Entergy",
  "cc": "US",
  "vertical": "Energy & Utilities",
- "deployments": 1,
- "confirmed": 1,
- "with_value_number": 0,
- "proof_rate": 0.0,
+ "deployments": 9,
+ "confirmed": 9,
+ "with_value_number": 2,
+ "proof_rate": 0.222,
  "mktcap": 52840000000.0,
  "revenue": 13290000000.0,
  "employees": 12233.0,
  "silent": false,
- "per_bn_revenue": 0.08,
- "per_10k_emp": 0.82,
+ "per_bn_revenue": 0.68,
+ "per_10k_emp": 7.36,
  "benchmarks": {
   "global_vertical": {
-   "deployments": 0,
-   "confirmed": 20,
-   "proof_rate": 0,
-   "n": 210
+   "deployments": 78,
+   "confirmed": 88,
+   "proof_rate": 57,
+   "n": 213
   },
   "country_vertical": {
-   "deployments": 0,
-   "confirmed": 39,
-   "proof_rate": 0,
+   "deployments": 78,
+   "confirmed": 90,
+   "proof_rate": 82,
    "n": 52
   }
  },
- "first_seen": null,
- "by_year": [],
- "undated_pct": 100,
- "momentum": "none",
- "maturity": "L3",
+ "first_seen": 2022,
+ "by_year": [
+  {
+   "year": 2022,
+   "n": 1
+  },
+  {
+   "year": 2024,
+   "n": 1
+  },
+  {
+   "year": 2025,
+   "n": 5
+  },
+  {
+   "year": 2026,
+   "n": 1
+  }
+ ],
+ "undated_pct": 11,
+ "momentum": "early_mover,rising",
+ "maturity": "L4",
  "maturity_evidence": [
+  "multi_horizontal",
   "named_product:AiDash",
+  "value_number",
+  "multi_year",
   "tier_p"
  ],
- "prospect_score": 54,
- "stack": [],
- "vendor_named": false,
+ "prospect_score": 85,
+ "stack": [
+  "Amazon AWS",
+  "Anthropic",
+  "Microsoft",
+  "OpenAI"
+ ],
+ "vendor_named": true,
  "deployments_detail": [
   {
    "company": "Entergy",
@@ -50,6 +75,94 @@
    "raw_sector": "Utilities",
    "date": "missing",
    "fresh": "undated"
+  },
+  {
+   "company": "Entergy",
+   "use": "Enterprise use of off-the-shelf generative AI tools (ChatGPT, Claude, Copilot) for employees, accessible only through internal firewall with monitoring, blocked from public internet [OpenAI (ChatGPT), Anthropic (Claude), Microsoft (Copilot)]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.innovationleader.com/energy-and-utilities/ai-at-entergy-andy-quick-chief-ai-officer/",
+   "raw_sector": "",
+   "date": "2025-05-29",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Entergy",
+   "use": "Generative AI plus data analytics to analyze procurement/supply chain contracts and identify unclaimed entitlements (rebates, volume discounts, performance clauses), creating a centralized tracking process [none named]",
+   "existence": "confirmed",
+   "value": "Recovered real dollars and drove measurable performance gains (no exact figure disclosed)",
+   "tier": "",
+   "url": "https://www.utilityanalyticsweek.com/2025/session/3156462/302-unlocking-hidden-savings-how-entergy-used-genai-to-transform-contract-management",
+   "raw_sector": "",
+   "date": "2025-10-29",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Entergy",
+   "use": "AI/ML applied to Advanced Metering Infrastructure (smart meter) data to predict distribution transformer failures before they occur, preventing unplanned outages [none named (internal, built on AWS)]",
+   "existence": "confirmed",
+   "value": "Prevented 536 unplanned outages and avoided over 48,000 outage minutes in the first year",
+   "tier": "",
+   "url": "https://www.entergy.com/blog/we-re-taking-steps-advance-reliability-across-our-region",
+   "raw_sector": "",
+   "date": "2024-07-16",
+   "fresh": "aging"
+  },
+  {
+   "company": "Entergy",
+   "use": "Storm damage assessment using LIDAR-equipped aircraft plus AI/computer vision software to rapidly assess damage after storms, replacing 3-5 day manual assessment [none named]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.innovationleader.com/energy-and-utilities/ai-at-entergy-andy-quick-chief-ai-officer/",
+   "raw_sector": "",
+   "date": "2025-05-29",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Entergy",
+   "use": "AI to forecast vegetation growth on distribution feeders (using tree species, growth rates, customer density, clearance) plus satellite imagery to prioritize tree-trimming cycles and generate criticality scores [none named (satellite + AI)]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.entergy.com/blog/technology-drives-vegetation-management-so-we-stay-one-step-ahead-mother-nature",
+   "raw_sector": "",
+   "date": "2022-06-21",
+   "fresh": "stale"
+  },
+  {
+   "company": "Entergy",
+   "use": "Multi-state Dynamic Line Rating: drone-installed Neuron sensors monitoring line temperature, current, sag and weather to enable real-time analytics determining how much power lines can safely carry, across transmission assets in Louisiana, Texas and Arkansas [Heimdall Power (Neuron sensors)]",
+   "existence": "confirmed",
+   "value": "Utilities using this approach have increased line capacity by as much as 40%",
+   "tier": "",
+   "url": "https://www.heimdallpower.com/news/heimdall-power-and-entergy-deploy-multi-state-dynamic-line-rating-dlr-project",
+   "raw_sector": "",
+   "date": "2026-02-04",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Entergy",
+   "use": "Remote autonomous drone inspection of substations using thermal/visual cameras and AI imagery analysis software to detect equipment abnormalities and shift from time-based to condition-based maintenance [Skydio (X10 drones) + AI imagery analysis software]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.entergy.com/blog/entergy-launches-remote-drone-inspections-to-strengthen-grid-reliability",
+   "raw_sector": "",
+   "date": "2025-11-03",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Entergy",
+   "use": "Internal generative AI assistant for contact center agents, trained on Entergy's internal contact center procedures, used live while agents are on calls with customers [none named]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.innovationleader.com/energy-and-utilities/ai-at-entergy-andy-quick-chief-ai-officer/",
+   "raw_sector": "",
+   "date": "2025-05-29",
+   "fresh": "fresh"
   }
  ]
 }

@@ -3,22 +3,22 @@
  "name": "Prysmian",
  "cc": "IT",
  "vertical": "Industrial / Machinery",
- "deployments": 1,
- "confirmed": 0,
+ "deployments": 4,
+ "confirmed": 2,
  "with_value_number": 0,
  "proof_rate": 0.0,
  "mktcap": 39722400000.0,
  "revenue": 21740400000.0,
  "employees": 33824.0,
  "silent": false,
- "per_bn_revenue": 0.05,
- "per_10k_emp": 0.3,
+ "per_bn_revenue": 0.18,
+ "per_10k_emp": 1.18,
  "benchmarks": {
   "global_vertical": {
-   "deployments": 0,
-   "confirmed": 0,
+   "deployments": 23,
+   "confirmed": 26,
    "proof_rate": 0,
-   "n": 175
+   "n": 176
   }
  },
  "first_seen": 2026,
@@ -28,18 +28,30 @@
    "n": 1
   }
  ],
- "undated_pct": 0,
- "momentum": "rising",
- "maturity": "L1",
+ "undated_pct": 75,
+ "momentum": "late_entrant,rising",
+ "maturity": "L3",
  "maturity_evidence": [
-  "rows_no_confirmed"
+  "multi_horizontal",
+  "named_product:Statistical"
  ],
- "prospect_score": 40,
+ "prospect_score": 52,
  "stack": [
   "SAP"
  ],
  "vendor_named": true,
  "deployments_detail": [
+  {
+   "company": "Prysmian",
+   "use": "AI program for business challenges and operational efficiency",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.prysmian.com/en/innovation/ai-program",
+   "raw_sector": "",
+   "date": "missing",
+   "fresh": "undated"
+  },
   {
    "company": "Prysmian",
    "use": "SAP Business AI + Document AI embedded in operations (RISE with SAP cloud migration); GenAI/ML in factories",
@@ -50,6 +62,28 @@
    "raw_sector": "Industrial Goods and Services",
    "date": "2026",
    "fresh": "fresh"
+  },
+  {
+   "company": "Prysmian",
+   "use": "Statistical and artificial intelligence algorithms for factory machine data analysis",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.prysmian.com/en/insight/people-and-life/keeping-prysmian-in-the-lead-with-digital-technology",
+   "raw_sector": "",
+   "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "Prysmian",
+   "use": "Low-code application development and deployment [Appian]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://appian.com/about/explore/customers/all-customers/prysmian-group",
+   "raw_sector": "",
+   "date": "missing",
+   "fresh": "undated"
   }
  ]
 }

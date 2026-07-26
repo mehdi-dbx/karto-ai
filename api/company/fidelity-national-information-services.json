@@ -3,28 +3,28 @@
  "name": "Fidelity National Information Services",
  "cc": "US",
  "vertical": "Financial Services",
- "deployments": 1,
- "confirmed": 1,
+ "deployments": 5,
+ "confirmed": 5,
  "with_value_number": 0,
  "proof_rate": 0.0,
  "mktcap": 20750000000.0,
  "revenue": 11440000000.0,
  "employees": 44000.0,
  "silent": false,
- "per_bn_revenue": 0.09,
- "per_10k_emp": 0.23,
+ "per_bn_revenue": 0.44,
+ "per_10k_emp": 1.14,
  "benchmarks": {
   "global_vertical": {
-   "deployments": 0,
-   "confirmed": 17,
+   "deployments": 31,
+   "confirmed": 46,
    "proof_rate": 0,
-   "n": 377
+   "n": 388
   },
   "country_vertical": {
-   "deployments": 0,
-   "confirmed": 19,
+   "deployments": 26,
+   "confirmed": 41,
    "proof_rate": 0,
-   "n": 76
+   "n": 77
   }
  },
  "first_seen": 2024,
@@ -34,19 +34,42 @@
    "n": 1
   }
  ],
- "undated_pct": 0,
+ "undated_pct": 80,
  "momentum": "early_mover,gone_quiet",
  "maturity": "L3",
  "maturity_evidence": [
+  "multi_horizontal",
   "named_product:SecurLOCK",
   "tier_p"
  ],
- "prospect_score": 46,
+ "prospect_score": 70,
  "stack": [
   "Anthropic"
  ],
  "vendor_named": true,
  "deployments_detail": [
+  {
+   "company": "Fidelity National Information Services",
+   "use": "Insurance risk modeling and underwriting support",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://finance.yahoo.com/news/fidelity-national-information-services-bets-130821540.html",
+   "raw_sector": "",
+   "date": "Mar 2, 2026",
+   "fresh": "undated"
+  },
+  {
+   "company": "Fidelity National Information Services",
+   "use": "AI-powered digital banking and customer service",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.businesswire.com/news/home/20251009875977/en/FIS-Brings-AI-Powered-Advancements-to-Seamless-Personalized-Digital-Banking-Experiences",
+   "raw_sector": "",
+   "date": "Oct 9, 2025",
+   "fresh": "undated"
+  },
   {
    "company": "Fidelity National Information Services",
    "use": "SecurLOCK AI card-fraud detection (Stratyfy) + Anthropic AI agents for bank fraud across thousands of banks",
@@ -57,6 +80,28 @@
    "raw_sector": "Financials",
    "date": "2024",
    "fresh": "aging"
+  },
+  {
+   "company": "Fidelity National Information Services",
+   "use": "Fraud screening and detection",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.paymentsdive.com/news/fidelity-national-information-services-fis-nyce-debit-ai/804883/",
+   "raw_sector": "",
+   "date": "Nov 6, 2025",
+   "fresh": "undated"
+  },
+  {
+   "company": "Fidelity National Information Services",
+   "use": "Financial crimes detection and investigation [Anthropic]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.otcmarkets.com/stock/FIS/news/FIS-Brings-Agentic-AI-to-Banking-with-Anthropic-Starting-with-Financial-Crimes?e&id=3458575",
+   "raw_sector": "",
+   "date": "missing",
+   "fresh": "undated"
   }
  ]
 }

@@ -3,43 +3,74 @@
  "name": "Fortive",
  "cc": "US",
  "vertical": "Industrial / Machinery",
- "deployments": 1,
- "confirmed": 1,
+ "deployments": 6,
+ "confirmed": 4,
  "with_value_number": 0,
  "proof_rate": 0.0,
  "mktcap": 18340000000.0,
  "revenue": 4240000000.0,
  "employees": 10000.0,
  "silent": false,
- "per_bn_revenue": 0.24,
- "per_10k_emp": 1.0,
+ "per_bn_revenue": 1.42,
+ "per_10k_emp": 6.0,
  "benchmarks": {
   "global_vertical": {
-   "deployments": 0,
-   "confirmed": 14,
+   "deployments": 53,
+   "confirmed": 53,
    "proof_rate": 0,
-   "n": 175
+   "n": 176
   },
   "country_vertical": {
-   "deployments": 0,
-   "confirmed": 19,
+   "deployments": 54,
+   "confirmed": 48,
    "proof_rate": 0,
-   "n": 80
+   "n": 81
   }
  },
- "first_seen": null,
- "by_year": [],
- "undated_pct": 100,
- "momentum": "none",
+ "first_seen": 2025,
+ "by_year": [
+  {
+   "year": 2025,
+   "n": 1
+  }
+ ],
+ "undated_pct": 83,
+ "momentum": "early_mover,rising",
  "maturity": "L3",
  "maturity_evidence": [
+  "multi_horizontal",
   "named_product:Fortive",
   "tier_p"
  ],
- "prospect_score": 54,
- "stack": [],
- "vendor_named": false,
+ "prospect_score": 64,
+ "stack": [
+  "Amazon AWS",
+  "Microsoft Azure"
+ ],
+ "vendor_named": true,
  "deployments_detail": [
+  {
+   "company": "Fortive",
+   "use": "The Fort AI Innovation Incubation Center",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://fortive.com/growth",
+   "raw_sector": "",
+   "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "Fortive",
+   "use": "Generative AI business ideas testing",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.geekwire.com/2023/how-this-publicly-traded-manufacturing-giant-is-testing-generative-ai-business-ideas/",
+   "raw_sector": "",
+   "date": "Jul 5, 2023",
+   "fresh": "undated"
+  },
   {
    "company": "Fortive",
    "use": "AI/ML incorporated into Fortive Business System + products (Fluke sensor ecosystem, AI-enabled maintenance/asset intelligence) per 10-K",
@@ -48,6 +79,39 @@
    "tier": "P",
    "url": "https://www.stocktitan.net/sec-filings/FTV/10-k-fortive-corp-files-annual-report",
    "raw_sector": "Industrials",
+   "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "Fortive",
+   "use": "AI-infused growth tools for learning resource navigation and leverage",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://fortive.com/sites/default/files/2026-04/2025-Fortive-Sustainability-Report.pdf",
+   "raw_sector": "",
+   "date": "2025",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Fortive",
+   "use": "AI-powered talent strategy modernization and internal mobility [Eightfold]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://eightfold.ai/blog/fortive-unlocks-growth/",
+   "raw_sector": "",
+   "date": "Aug 26, 2025",
+   "fresh": "undated"
+  },
+  {
+   "company": "Fortive",
+   "use": "Next-Gen AI Platform migration from Azure to AWS [AWS]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.youtube.com/watch?v=L6J5TsZcPt4",
+   "raw_sector": "",
    "date": "missing",
    "fresh": "undated"
   }

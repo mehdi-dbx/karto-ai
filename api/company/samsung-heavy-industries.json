@@ -3,43 +3,55 @@
  "name": "Samsung Heavy Industries",
  "cc": "KR",
  "vertical": "Industrial / Machinery",
- "deployments": 1,
- "confirmed": 1,
+ "deployments": 7,
+ "confirmed": 4,
  "with_value_number": 1,
- "proof_rate": 1.0,
+ "proof_rate": 0.143,
  "mktcap": 14962962963.0,
  "revenue": 7888888889.0,
  "employees": 8470.0,
  "silent": false,
- "per_bn_revenue": 0.13,
- "per_10k_emp": 1.18,
+ "per_bn_revenue": 0.89,
+ "per_10k_emp": 8.26,
  "benchmarks": {
   "global_vertical": {
-   "deployments": 0,
-   "confirmed": 14,
-   "proof_rate": 79,
-   "n": 175
+   "deployments": 61,
+   "confirmed": 53,
+   "proof_rate": 49,
+   "n": 176
   },
   "country_vertical": {
-   "deployments": 0,
-   "confirmed": 24,
-   "proof_rate": 62,
+   "deployments": 52,
+   "confirmed": 90,
+   "proof_rate": 48,
    "n": 22
   }
  },
- "first_seen": null,
- "by_year": [],
- "undated_pct": 100,
- "momentum": "none",
- "maturity": "L3",
+ "first_seen": 2025,
+ "by_year": [
+  {
+   "year": 2025,
+   "n": 2
+  },
+  {
+   "year": 2026,
+   "n": 1
+  }
+ ],
+ "undated_pct": 57,
+ "momentum": "early_mover,rising",
+ "maturity": "L4",
  "maturity_evidence": [
   "named_product:Rainbow",
   "value_number",
+  "multi_year",
   "tier_p"
  ],
- "prospect_score": 14,
- "stack": [],
- "vendor_named": false,
+ "prospect_score": 58,
+ "stack": [
+  "OpenAI"
+ ],
+ "vendor_named": true,
  "deployments_detail": [
   {
    "company": "Samsung Heavy Industries",
@@ -49,6 +61,72 @@
    "tier": "P",
    "url": "https://html.duckduckgo.com/html/?q=삼성중공업+AI+조선+도입",
    "raw_sector": "Heavy Industries",
+   "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "Samsung Heavy Industries",
+   "use": "AI-assisted navigation, berthing and speed optimisation for autonomous vessels",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.rivieramm.com/lead-stories-brand/samsung-heavy-industries-accelerates-autonomous-vessel-development-88628",
+   "raw_sector": "",
+   "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "Samsung Heavy Industries",
+   "use": "Floating data centers for AI infrastructure with improved cooling efficiency",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://enkikai.com/ai-market-intelligence/samsungs-ai-strategy-2025-dominating-energy-efficiency/",
+   "raw_sector": "",
+   "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "Samsung Heavy Industries",
+   "use": "Collaboration with OpenAI on global AI data centers and floating infrastructure [OpenAI]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://news.samsungsemiconductor.com/global/samsung-and-sk-join-openais-stargate-initiative-to-advance-global-ai-infrastructure/",
+   "raw_sector": "",
+   "date": "2025-10-01",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Samsung Heavy Industries",
+   "use": "Collaboration with Orca AI for AI-powered autonomous vessel technology and maritime operations platform [Orca AI]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.orca-ai.io/resource/orca-ai-joins-forces-with-samsung-heavy-industries-to-accelerate-autonomous-vessel-technology/",
+   "raw_sector": "",
+   "date": "2026-04-29",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Samsung Heavy Industries",
+   "use": "AI-powered shipbuilding ecosystem addressing multiple operational challenges",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://emerj.com/artificial-intelligence-at-samsung-two-use-cases/",
+   "raw_sector": "",
+   "date": "2025-12-22",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Samsung Heavy Industries",
+   "use": "AI tools for identifying bottlenecks, reducing delays, streamlining engineering workflows with Saronic partnership",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.facebook.com/MaritimeReporter/posts/exciting-news-saronic-and-samsung-heavy-industries-are-joining-forces-to-innovat/1719872190140760/",
+   "raw_sector": "",
    "date": "missing",
    "fresh": "undated"
   }

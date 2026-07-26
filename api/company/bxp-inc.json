@@ -3,27 +3,27 @@
  "name": "BXP, Inc.",
  "cc": "US",
  "vertical": "Real Estate & Construction",
- "deployments": 1,
- "confirmed": 0,
- "with_value_number": 0,
- "proof_rate": 0.0,
+ "deployments": 3,
+ "confirmed": 1,
+ "with_value_number": 1,
+ "proof_rate": 0.333,
  "mktcap": 12130000000.0,
  "revenue": 3160000000.0,
  "employees": 826.0,
  "silent": false,
- "per_bn_revenue": 0.32,
- "per_10k_emp": 12.11,
+ "per_bn_revenue": 0.95,
+ "per_10k_emp": 36.32,
  "benchmarks": {
   "global_vertical": {
-   "deployments": 0,
-   "confirmed": 0,
-   "proof_rate": 0,
+   "deployments": 37,
+   "confirmed": 14,
+   "proof_rate": 61,
    "n": 154
   },
   "country_vertical": {
-   "deployments": 0,
-   "confirmed": 0,
-   "proof_rate": 0,
+   "deployments": 20,
+   "confirmed": 20,
+   "proof_rate": 77,
    "n": 31
   }
  },
@@ -31,16 +31,17 @@
  "by_year": [
   {
    "year": 2025,
-   "n": 1
+   "n": 3
   }
  ],
  "undated_pct": 0,
  "momentum": "rising",
- "maturity": "L1",
+ "maturity": "L3",
  "maturity_evidence": [
-  "rows_no_confirmed"
+  "named_product:Energy",
+  "value_number"
  ],
- "prospect_score": 40,
+ "prospect_score": 41,
  "stack": [],
  "vendor_named": false,
  "deployments_detail": [
@@ -53,6 +54,28 @@
    "url": "https://www.bizjournals.com/boston/news/2025/09/11/bxp-reports-jump-in-office-demand-from-ai.html",
    "raw_sector": "Real Estate",
    "date": "2025",
+   "fresh": "fresh"
+  },
+  {
+   "company": "BXP, Inc.",
+   "use": "Artificial intelligence and machine learning technology deployment",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.sec.gov/Archives/edgar/data/1037540/000165642325000009/bxp-20241231.htm",
+   "raw_sector": "",
+   "date": "2025-02-21",
+   "fresh": "fresh"
+  },
+  {
+   "company": "BXP, Inc.",
+   "use": "Energy management and cost optimization using AI-powered analytics [Measurabl Optimize]",
+   "existence": "confirmed",
+   "value": "$7.5M",
+   "tier": "",
+   "url": "https://www.measurabl.com/resources/bxp-leverages-measurabl-optimize-to-drive-millions-in-energy-cost-savings/",
+   "raw_sector": "",
+   "date": "2025-08-05",
    "fresh": "fresh"
   }
  ]

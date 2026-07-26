@@ -3,49 +3,70 @@
  "name": "Hongkong Land Holdings",
  "cc": "SG",
  "vertical": "Real Estate & Construction",
- "deployments": 1,
- "confirmed": 1,
- "with_value_number": 1,
- "proof_rate": 1.0,
+ "deployments": 11,
+ "confirmed": 11,
+ "with_value_number": 5,
+ "proof_rate": 0.455,
  "mktcap": 21380000000.0,
  "revenue": 1860000000.0,
  "employees": 2552.0,
  "silent": false,
- "per_bn_revenue": 0.54,
- "per_10k_emp": 3.92,
+ "per_bn_revenue": 5.91,
+ "per_10k_emp": 43.1,
  "benchmarks": {
   "global_vertical": {
-   "deployments": 0,
-   "confirmed": 31,
-   "proof_rate": 71,
+   "deployments": 93,
+   "confirmed": 97,
+   "proof_rate": 80,
    "n": 154
   },
   "country_vertical": {
-   "deployments": 0,
-   "confirmed": 40,
-   "proof_rate": 100,
+   "deployments": 80,
+   "confirmed": 80,
+   "proof_rate": 60,
    "n": 6
   }
  },
- "first_seen": 2025,
+ "first_seen": 2022,
  "by_year": [
   {
+   "year": 2022,
+   "n": 2
+  },
+  {
+   "year": 2024,
+   "n": 2
+  },
+  {
    "year": 2025,
-   "n": 1
+   "n": 7
   }
  ],
  "undated_pct": 0,
- "momentum": "rising",
- "maturity": "L3",
+ "momentum": "early_mover,rising",
+ "maturity": "L4",
  "maturity_evidence": [
+  "multi_horizontal",
   "named_product:IFMCT",
   "value_number",
+  "multi_year",
   "tier_p"
  ],
- "prospect_score": 14,
+ "prospect_score": 82,
  "stack": [],
- "vendor_named": false,
+ "vendor_named": true,
  "deployments_detail": [
+  {
+   "company": "Hongkong Land Holdings",
+   "use": "AI-driven tenant wellness monitoring — indoor-environment and wellness monitoring for tenants integrated into the IFMCT platform. [Proprietary (Hongkong Land)]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://entelechyasia.com/2025/08/21/hongkong-land-adopts-ai-platform-for-smarter-facility-management/",
+   "raw_sector": "",
+   "date": "2025-08-21",
+   "fresh": "fresh"
+  },
   {
    "company": "Hongkong Land Holdings",
    "use": "IFMCT AI-powered intelligent facility management platform integrating 20+ building systems, deployed at Alexandra House, Chater House and Exchange Square",
@@ -55,6 +76,105 @@
    "url": "https://webfile.hkland.com/assets/press-release/2025/en/hll_20250821.pdf",
    "raw_sector": "Real Estate",
    "date": "2025-08",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Hongkong Land Holdings",
+   "use": "IFMCT (Integrated Facility Management Control Tower) — Hong Kong's first AI-powered facility management platform, unifying 20+ standalone building systems (BMS, HVAC, energy, cleaning, vendor management, procurement) into a single AI command centre. Piloted at Alexandra House, rolled out to Chater House and Exchange Square, with portfolio-wide expansion planned across Central HK and Shanghai. [Proprietary (Hongkong Land in-house AI platform)]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://entelechyasia.com/2025/08/21/hongkong-land-adopts-ai-platform-for-smarter-facility-management/",
+   "raw_sector": "",
+   "date": "2025-08-21",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Hongkong Land Holdings",
+   "use": "AI intelligent energy management — the platform dynamically adjusts heating and cooling in response to forecasted weather patterns to optimise tenant comfort and reduce energy use / advance decarbonisation. [Proprietary (Hongkong Land)]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.taiwannews.com.tw/news/6183919",
+   "raw_sector": "",
+   "date": "2025-08-21",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Hongkong Land Holdings",
+   "use": "JEDI (Jardine Engineering Digital Insights) — IoT + AI platform optimising chiller-plant operations across the Central Portfolio, predicting cooling demand and adjusting system operation to cut energy consumption. [Jardine Engineering Corporation (JEC) / JEDI]",
+   "existence": "confirmed",
+   "value": "9% efficiency improvement at Prince's Building; additional 7% at Jardine House chiller plant",
+   "tier": "",
+   "url": "https://www.cic.hk/en/news-centre/safety.walk-20240703",
+   "raw_sector": "",
+   "date": "2024-07-03",
+   "fresh": "aging"
+  },
+  {
+   "company": "Hongkong Land Holdings",
+   "use": "AI/ML + IoT command centre at Two Exchange Square (400 sqm) monitoring and managing the 12-building Central portfolio, including automated seawater chiller-plant control that removes the need for on-site manual operators. [Proprietary (Hongkong Land)]",
+   "existence": "confirmed",
+   "value": "Seawater cooling system uses up to 35% less energy than conventional air-cooled systems; ~30% overall energy savings across Central portfolio",
+   "tier": "",
+   "url": "https://www.scmp.com/business/article/3191988/ai-cooling-paint-how-smart-tech-helps-hong-kong-buildings-cut-cost-staying",
+   "raw_sector": "",
+   "date": "2022-09-10",
+   "fresh": "stale"
+  },
+  {
+   "company": "Hongkong Land Holdings",
+   "use": "4D digital twin visualisation layer — real-time 4D digital twin combined with advanced AI analytics for predictive analytics and automated real-time monitoring of building operations (cleaning, occupancy, patrols, KPIs). [Proprietary (Hongkong Land)]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://smartcitiestech.io/2025/08/hong-kongs-first-ai-powered-intelligent-facility-management-platform/",
+   "raw_sector": "",
+   "date": "2025-08-21",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Hongkong Land Holdings",
+   "use": "i-BMS (Intelligent Building Management System) — real-time Digital Twin monitoring system launched at The Ring shopping mall in Chongqing, mainland China, for building operations monitoring. [Proprietary (Hongkong Land)]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://hklandblob.blob.core.windows.net/assets/press-release/2022/en/hll_20221205.pdf",
+   "raw_sector": "",
+   "date": "2022-12-05",
+   "fresh": "stale"
+  },
+  {
+   "company": "Hongkong Land Holdings",
+   "use": "AI-based algorithmic chiller optimisation and an energy management platform with automatic system inefficiency diagnostics, deployed as part of the Central Portfolio climate-resilience programme. [Proprietary (Hongkong Land)]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.hkland.com/en/sustainability/climate-and-economic-resilience",
+   "raw_sector": "",
+   "date": "2024-01-01",
+   "fresh": "aging"
+  },
+  {
+   "company": "Hongkong Land Holdings",
+   "use": "AI predictive and condition-based maintenance within IFMCT — targeted servicing of air handling units driven by AI analytics, replacing fixed-schedule maintenance. [Proprietary (Hongkong Land)]",
+   "existence": "confirmed",
+   "value": "16% reduction in maintenance effort; servicing frequency halved within one year",
+   "tier": "",
+   "url": "https://entelechyasia.com/2025/08/21/hongkong-land-adopts-ai-platform-for-smarter-facility-management/",
+   "raw_sector": "",
+   "date": "2025-08-21",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Hongkong Land Holdings",
+   "use": "AI-driven work-order automation within IFMCT — automated routine facility-management workflows and administrative processes, reducing alarm-monitoring calls and information-retrieval time. [Proprietary (Hongkong Land)]",
+   "existence": "confirmed",
+   "value": "66% of work orders fully automated; information retrieval time cut by 80%",
+   "tier": "",
+   "url": "https://entelechyasia.com/2025/08/21/hongkong-land-adopts-ai-platform-for-smarter-facility-management/",
+   "raw_sector": "",
+   "date": "2025-08-21",
    "fresh": "fresh"
   }
  ]

@@ -3,22 +3,28 @@
  "name": "Rusal",
  "cc": "RU",
  "vertical": "Chemicals & Materials",
- "deployments": 2,
- "confirmed": 2,
+ "deployments": 4,
+ "confirmed": 4,
  "with_value_number": 1,
- "proof_rate": 0.5,
+ "proof_rate": 0.25,
  "mktcap": null,
  "revenue": 14800000000.0,
  "employees": 64000.0,
  "silent": false,
- "per_bn_revenue": 0.14,
- "per_10k_emp": 0.31,
+ "per_bn_revenue": 0.27,
+ "per_10k_emp": 0.62,
  "benchmarks": {
   "global_vertical": {
-   "deployments": 75,
-   "confirmed": 75,
-   "proof_rate": 67,
-   "n": 105
+   "deployments": 29,
+   "confirmed": 51,
+   "proof_rate": 58,
+   "n": 107
+  },
+  "country_vertical": {
+   "deployments": 50,
+   "confirmed": 50,
+   "proof_rate": 50,
+   "n": 5
   }
  },
  "first_seen": 2026,
@@ -28,15 +34,16 @@
    "n": 1
   }
  ],
- "undated_pct": 50,
+ "undated_pct": 75,
  "momentum": "late_entrant,rising",
  "maturity": "L3",
  "maturity_evidence": [
+  "multi_horizontal",
   "named_product:Neural",
   "value_number",
   "tier_p"
  ],
- "prospect_score": 40,
+ "prospect_score": 62,
  "stack": [],
  "vendor_named": false,
  "deployments_detail": [
@@ -61,6 +68,28 @@
    "raw_sector": "Aluminum",
    "date": "2026",
    "fresh": "fresh"
+  },
+  {
+   "company": "Rusal",
+   "use": "AI across smelters and supply chains for aluminium production efficiency and quality",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.alcircle.com/news/from-smelters-to-supply-chains-how-rusal-is-powering-aluminium-with-ai-115314?srsltid=AfmBOor274Xt9uCzYoVyoKKPrjwjjmriM_hjzt9OCfzVbo9HPNVQD-fa",
+   "raw_sector": "",
+   "date": "Sep 1, 2025",
+   "fresh": "undated"
+  },
+  {
+   "company": "Rusal",
+   "use": "AI technology for container control",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://rusal.ru/en/press-center/press-releases/rusal-develops-ai-technology-for-container-control/",
+   "raw_sector": "",
+   "date": "Dec 10, 2024",
+   "fresh": "undated"
   }
  ]
 }

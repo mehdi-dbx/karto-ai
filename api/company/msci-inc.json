@@ -3,42 +3,63 @@
  "name": "MSCI Inc.",
  "cc": "US",
  "vertical": "Financial Services",
- "deployments": 1,
- "confirmed": 1,
- "with_value_number": 0,
- "proof_rate": 0.0,
+ "deployments": 10,
+ "confirmed": 10,
+ "with_value_number": 2,
+ "proof_rate": 0.2,
  "mktcap": 40450000000.0,
  "revenue": 3330000000.0,
  "employees": 6286.0,
  "silent": false,
- "per_bn_revenue": 0.3,
- "per_10k_emp": 1.59,
+ "per_bn_revenue": 3.0,
+ "per_10k_emp": 15.91,
  "benchmarks": {
   "global_vertical": {
-   "deployments": 0,
-   "confirmed": 17,
-   "proof_rate": 0,
-   "n": 377
+   "deployments": 65,
+   "confirmed": 78,
+   "proof_rate": 39,
+   "n": 388
   },
   "country_vertical": {
-   "deployments": 0,
-   "confirmed": 19,
-   "proof_rate": 0,
-   "n": 76
+   "deployments": 62,
+   "confirmed": 74,
+   "proof_rate": 42,
+   "n": 77
   }
  },
- "first_seen": null,
- "by_year": [],
- "undated_pct": 100,
- "momentum": "none",
- "maturity": "L3",
+ "first_seen": 2024,
+ "by_year": [
+  {
+   "year": 2024,
+   "n": 1
+  },
+  {
+   "year": 2025,
+   "n": 3
+  },
+  {
+   "year": 2026,
+   "n": 5
+  }
+ ],
+ "undated_pct": 10,
+ "momentum": "early_mover,rising",
+ "maturity": "L4",
  "maturity_evidence": [
+  "multi_horizontal",
   "named_product:MSCI AI Portfolio Insights",
+  "value_number",
+  "multi_year",
   "tier_p"
  ],
- "prospect_score": 46,
+ "prospect_score": 92,
  "stack": [
-  "Google Cloud"
+  "Anthropic",
+  "Google",
+  "Google Cloud",
+  "Microsoft",
+  "OpenAI",
+  "Snowflake"
  ],
  "vendor_named": true,
  "deployments_detail": [
@@ -52,6 +73,105 @@
    "raw_sector": "Financials",
    "date": "missing",
    "fresh": "undated"
+  },
+  {
+   "company": "MSCI Inc.",
+   "use": "MSCI IndexAI Insights — a conversational AI interface letting clients ask plain-language questions about index performance, exposures, constituents and methodologies. Delivered via an MSCI app in OpenAI's ChatGPT and an MSCI connector in Claude, spanning 68,000+ indexes and up to 20 years of data. [OpenAI (ChatGPT), Anthropic (Claude)]",
+   "existence": "confirmed",
+   "value": "68,000+ indexes, up to 20 years of data",
+   "tier": "",
+   "url": "https://fintech.global/2026/02/25/msci-launches-indexai-insights-with-chatgpt-and-claude/",
+   "raw_sector": "",
+   "date": "2026-02-25",
+   "fresh": "fresh"
+  },
+  {
+   "company": "MSCI Inc.",
+   "use": "AI connectors giving clients secure access to MSCI proprietary data from leading AI services — MSCI app in OpenAI ChatGPT, MSCI connector in Claude, and a Private Assets Model Context Protocol (MCP) server (with Microsoft Copilot coming soon) to query, measure and analyze data where they work. [OpenAI, Anthropic, Microsoft (Copilot, planned)]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.msci.com/discover-msci/media-room/msci-unveils-new-ai-connectors-transforming-access-to-proprietary-data",
+   "raw_sector": "",
+   "date": "2026-02-24",
+   "fresh": "fresh"
+  },
+  {
+   "company": "MSCI Inc.",
+   "use": "MSCI AI Portfolio Insights — the firm's first generative-AI-powered solution, an AI assistant that answers natural-language questions about portfolio risk in seconds by assembling portfolio data and generating code, surfacing key risk drivers and outliers to automate risk analysis. [none]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.msci.com/research-and-insights/paper/ai-portfolio-insights-and-the-future-of-risk-management",
+   "raw_sector": "",
+   "date": "2024-06-10",
+   "fresh": "aging"
+  },
+  {
+   "company": "MSCI Inc.",
+   "use": "GeoSpatial Asset Intelligence — AI-driven document parsing/extraction plus geospatial processing to deliver asset-level physical and nature risk data down to individual property/facility locations, built on Google Cloud (Vertex AI, BigQuery, Google Earth). [Google Cloud (Vertex AI, BigQuery, Google Earth)]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://cloud.google.com/transform/msci-climate-risk-responsible-investments-data-interview",
+   "raw_sector": "",
+   "date": "2025-01-22",
+   "fresh": "fresh"
+  },
+  {
+   "company": "MSCI Inc.",
+   "use": "AskPCI — an LLM-powered search and analysis tool within Private Capital Intel that lets clients search, summarize and construct benchmarks over the MSCI fund data set. [none]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.msci.com/data-and-analytics/private-asset-solutions/ai-for-private-markets",
+   "raw_sector": "",
+   "date": "2026-02-26",
+   "fresh": "fresh"
+  },
+  {
+   "company": "MSCI Inc.",
+   "use": "MSCI Diligence Platform (via acquisition of Vantager) — an AI-native platform that automates early-stage private-markets pre-investment due diligence, turning unstructured GP documents into AI-powered reports and standardized, decision-ready outputs. [none]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.msci.com/discover-msci/media-room/msci-transforms-private-markets-pre-investment-diligence-with-acquisition-of-vantager",
+   "raw_sector": "",
+   "date": "2026-03-02",
+   "fresh": "fresh"
+  },
+  {
+   "company": "MSCI Inc.",
+   "use": "MSCI enterprise intelligence agent launched with Snowflake Intelligence — clients ask natural-language questions and get insights into the investment characteristics driving portfolio risk and performance. [Snowflake (Cortex AI / Snowflake Intelligence)]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.snowflake.com/en/news/press-releases/snowflake-unveils-cortex-ai-for-financial-services--enterprise-ready-ai-built-to-scale/",
+   "raw_sector": "",
+   "date": "2025-10-02",
+   "fresh": "fresh"
+  },
+  {
+   "company": "MSCI Inc.",
+   "use": "AI-supported custom index creation — MSCI uses AI-enabled tools to translate unstructured client requirements into structured index specifications, enabling custom indexes to be built quickly and at scale rather than through a slow manual process. [none]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://seekingalpha.com/article/4888476-msci-ai-is-changing-the-model-not-breaking-the-business",
+   "raw_sector": "",
+   "date": "2026-04-05",
+   "fresh": "fresh"
+  },
+  {
+   "company": "MSCI Inc.",
+   "use": "Data Acquisition Platform (DAP) — internal data operations platform using generative AI and agentic frameworks to process alternative/unstructured climate data at scale, cutting the model development lifecycle from ~6 months to weeks. [Google Cloud (Vertex AI, LLMs)]",
+   "existence": "confirmed",
+   "value": "model development cut from ~6 months to weeks",
+   "tier": "",
+   "url": "https://cloud.google.com/transform/msci-climate-risk-responsible-investments-data-interview",
+   "raw_sector": "",
+   "date": "2025-01-22",
+   "fresh": "fresh"
   }
  ]
 }

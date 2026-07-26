@@ -3,27 +3,27 @@
  "name": "BNP Paribas",
  "cc": "FR",
  "vertical": "Financial Services",
- "deployments": 4,
- "confirmed": 4,
+ "deployments": 13,
+ "confirmed": 13,
  "with_value_number": 2,
- "proof_rate": 0.5,
+ "proof_rate": 0.154,
  "mktcap": 126738000000.0,
  "revenue": 54572400000.0,
  "employees": 180000.0,
  "silent": false,
- "per_bn_revenue": 0.07,
- "per_10k_emp": 0.22,
+ "per_bn_revenue": 0.24,
+ "per_10k_emp": 0.72,
  "benchmarks": {
   "global_vertical": {
-   "deployments": 91,
-   "confirmed": 91,
-   "proof_rate": 61,
-   "n": 377
+   "deployments": 87,
+   "confirmed": 94,
+   "proof_rate": 34,
+   "n": 388
   },
   "country_vertical": {
-   "deployments": 100,
-   "confirmed": 100,
-   "proof_rate": 29,
+   "deployments": 86,
+   "confirmed": 86,
+   "proof_rate": 0,
    "n": 8
   }
  },
@@ -34,23 +34,28 @@
    "n": 1
   },
   {
+   "year": 2024,
+   "n": 1
+  },
+  {
    "year": 2025,
-   "n": 2
+   "n": 6
   },
   {
    "year": 2026,
-   "n": 1
+   "n": 2
   }
  ],
- "undated_pct": 0,
+ "undated_pct": 23,
  "momentum": "early_mover,rising",
  "maturity": "L4",
  "maturity_evidence": [
+  "multi_horizontal",
   "named_product:LLM as a Service",
   "value_number",
   "multi_year"
  ],
- "prospect_score": 44,
+ "prospect_score": 94,
  "stack": [
   "Microsoft",
   "Mistral AI"
@@ -100,6 +105,105 @@
    "raw_sector": "Financial Services",
    "date": "2015",
    "fresh": "stale"
+  },
+  {
+   "company": "BNP Paribas",
+   "use": "Generative AI Deployment - Mistral AI Partnership [Mistral AI]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://group.bnpparibas/en/press-release/bnp-paribas-and-mistral-ai-extend-their-partnership-to-support-the-next-phase-of-generative-ai-deployment-within-the-group",
+   "raw_sector": "",
+   "date": "2026-05-26",
+   "fresh": "fresh"
+  },
+  {
+   "company": "BNP Paribas",
+   "use": "LLM as a Service Platform",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://group.bnpparibas/en/press-release/bnp-paribas-provides-its-businesses-with-an-llm-as-a-service-platform-to-accelerate-the-industrialization-of-generative-ai-use-cases",
+   "raw_sector": "",
+   "date": "2025-06-05",
+   "fresh": "fresh"
+  },
+  {
+   "company": "BNP Paribas",
+   "use": "AI Integration in Securities Services",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://securities.cib.bnpparibas/artificial-intelligence-for-performance/",
+   "raw_sector": "",
+   "date": "2025-02-03",
+   "fresh": "fresh"
+  },
+  {
+   "company": "BNP Paribas",
+   "use": "Generative AI Customer Assistance Platform",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://thebankingscene.com/opinions/bnp-paribas-accelerates-ai-integration-what-this-means-in-practice/",
+   "raw_sector": "",
+   "date": "2025-03-10",
+   "fresh": "fresh"
+  },
+  {
+   "company": "BNP Paribas",
+   "use": "NOA AI-Powered Assistant on Centric Platform [NOA]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://cib.bnpparibas/bringing-the-client-experience-to-a-new-level-with-ai/",
+   "raw_sector": "",
+   "date": "2024-05-02",
+   "fresh": "aging"
+  },
+  {
+   "company": "BNP Paribas",
+   "use": "ESG Assessment and Risk Identification",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://group.bnpparibas/en/our-commitments/innovation/data-artificial-intelligence",
+   "raw_sector": "",
+   "date": "2025-11-10",
+   "fresh": "fresh"
+  },
+  {
+   "company": "BNP Paribas",
+   "use": "AI for Claims Management and Customer Service",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.bnpparibascardif.com/en/our-value-proposition/tech-innovation/ai/",
+   "raw_sector": "",
+   "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "BNP Paribas",
+   "use": "AI for Efficiency Program - Commercial Banking [Artefact]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.artefact.com/blog/ai-for-efficiency-program-transforming-bnp-paribas-commercial-banking-through-ai/",
+   "raw_sector": "",
+   "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "BNP Paribas",
+   "use": "Genix Generative AI Platform for Wealth Management [Genix]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.unique.ai/bnp-paribas-wm-case-study",
+   "raw_sector": "",
+   "date": "missing",
+   "fresh": "undated"
   }
  ]
 }

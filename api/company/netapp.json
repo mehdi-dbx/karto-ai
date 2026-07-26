@@ -3,26 +3,26 @@
  "name": "NetApp",
  "cc": "US",
  "vertical": "Technology",
- "deployments": 1,
- "confirmed": 1,
+ "deployments": 8,
+ "confirmed": 2,
  "with_value_number": 0,
  "proof_rate": 0.0,
  "mktcap": 32640000000.0,
  "revenue": 6930000000.0,
  "employees": 11700.0,
  "silent": false,
- "per_bn_revenue": 0.14,
- "per_10k_emp": 0.85,
+ "per_bn_revenue": 1.15,
+ "per_10k_emp": 6.84,
  "benchmarks": {
   "global_vertical": {
-   "deployments": 0,
-   "confirmed": 6,
+   "deployments": 45,
+   "confirmed": 11,
    "proof_rate": 0,
-   "n": 156
+   "n": 159
   },
   "country_vertical": {
-   "deployments": 0,
-   "confirmed": 4,
+   "deployments": 38,
+   "confirmed": 7,
    "proof_rate": 0,
    "n": 74
   }
@@ -33,11 +33,14 @@
  "momentum": "none",
  "maturity": "L3",
  "maturity_evidence": [
+  "multi_horizontal",
   "named_product:NetApp AIPod",
   "tier_p"
  ],
- "prospect_score": 46,
+ "prospect_score": 52,
  "stack": [
+  "Google",
+  "Google Cloud",
   "NVIDIA"
  ],
  "vendor_named": true,
@@ -51,6 +54,83 @@
    "url": "https://www.netapp.com/artificial-intelligence/aipod/",
    "raw_sector": "Information Technology",
    "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "NetApp",
+   "use": "AI infrastructure and data management platform for unified data across AI deployments",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.netapp.com/artificial-intelligence/",
+   "raw_sector": "",
+   "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "NetApp",
+   "use": "AI Data Engine for pre-processing ONTAP data for LLMs and AI agents with metadata management",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.youtube.com/watch?v=rHePBf6YOYY",
+   "raw_sector": "",
+   "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "NetApp",
+   "use": "Enterprise-grade data platform for AI with NVIDIA and Google Cloud integration [NVIDIA, Google Cloud]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.channelinsider.com/ai/netapp-oct-2025-product-announcements/",
+   "raw_sector": "",
+   "date": "Oct 14, 2025",
+   "fresh": "undated"
+  },
+  {
+   "company": "NetApp",
+   "use": "Generative AI solutions for retrieval-augmented generation (RAG) with secure scalable data",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.netapp.com/artificial-intelligence/generative-ai-solutions/",
+   "raw_sector": "",
+   "date": "Feb 7, 2025",
+   "fresh": "undated"
+  },
+  {
+   "company": "NetApp",
+   "use": "GenAI Toolkit for retrieval-augmented generation (RAG) with AI-ready storage",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://community.netapp.com/t5/Tech-ONTAP-Blogs/NetApp-GenAI-Toolkit-Unlocking-enterprise-data-for-GenAI/ba-p/452567",
+   "raw_sector": "",
+   "date": "May 14, 2024",
+   "fresh": "undated"
+  },
+  {
+   "company": "NetApp",
+   "use": "GenAI Toolkit with Google Cloud NetApp Volumes for secure private data extension to Vertex AI [Google Cloud Vertex AI]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.sandataworks.com/netapp-genai-toolkit-with-support-for-google-cloud-netapp-volumes.asp",
+   "raw_sector": "",
+   "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "NetApp",
+   "use": "Internal AI analytics and generative AI for real-time analytics and predictive intelligence",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.netapp.com/customers/it-use-cases/ai-analytics-ai-use-cases/",
+   "raw_sector": "",
+   "date": "Aug 20, 2025",
    "fresh": "undated"
   }
  ]

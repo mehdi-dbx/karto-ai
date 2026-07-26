@@ -3,27 +3,27 @@
  "name": "Nippon Express Holdings Inc.",
  "cc": "JP",
  "vertical": "Logistics & Supply Chain",
- "deployments": 2,
- "confirmed": 2,
+ "deployments": 3,
+ "confirmed": 3,
  "with_value_number": 1,
- "proof_rate": 0.5,
+ "proof_rate": 0.333,
  "mktcap": 8800000000.0,
  "revenue": 17133333333.0,
  "employees": 77925.0,
  "silent": false,
- "per_bn_revenue": 0.12,
- "per_10k_emp": 0.26,
+ "per_bn_revenue": 0.18,
+ "per_10k_emp": 0.38,
  "benchmarks": {
   "global_vertical": {
-   "deployments": 65,
-   "confirmed": 74,
-   "proof_rate": 52,
-   "n": 66
+   "deployments": 20,
+   "confirmed": 41,
+   "proof_rate": 61,
+   "n": 67
   },
   "country_vertical": {
-   "deployments": 64,
-   "confirmed": 68,
-   "proof_rate": 41,
+   "deployments": 9,
+   "confirmed": 36,
+   "proof_rate": 77,
    "n": 23
   }
  },
@@ -38,22 +38,34 @@
    "n": 1
   }
  ],
- "undated_pct": 0,
+ "undated_pct": 33,
  "momentum": "early_mover,gone_quiet",
  "maturity": "L4",
  "maturity_evidence": [
+  "multi_horizontal",
   "named_product:NX-Brain",
   "value_number",
   "multi_year",
   "tier_p"
  ],
- "prospect_score": 32,
+ "prospect_score": 45,
  "stack": [
   "Microsoft Azure",
   "OpenAI"
  ],
  "vendor_named": true,
  "deployments_detail": [
+  {
+   "company": "Nippon Express Holdings Inc.",
+   "use": "AI-powered shipping forecasts to support optimal inventory management and procurement planning",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.nipponexpress.com/press/2025/29-Aug-25-1.html",
+   "raw_sector": "",
+   "date": "Aug 29, 2025",
+   "fresh": "undated"
+  },
   {
    "company": "Nippon Express Holdings Inc.",
    "use": "\"NX-Brain\" proprietary generative AI (Azure OpenAI, from 2023)",

@@ -3,44 +3,50 @@
  "name": "Antofagasta",
  "cc": "UK",
  "vertical": "Mining & Materials",
- "deployments": 1,
- "confirmed": 1,
+ "deployments": 4,
+ "confirmed": 4,
  "with_value_number": 0,
  "proof_rate": 0.0,
  "mktcap": 47523400000.0,
  "revenue": 8128000000.0,
  "employees": 8457.0,
  "silent": false,
- "per_bn_revenue": 0.12,
- "per_10k_emp": 1.18,
+ "per_bn_revenue": 0.49,
+ "per_10k_emp": 4.73,
  "benchmarks": {
   "global_vertical": {
-   "deployments": 0,
-   "confirmed": 37,
+   "deployments": 39,
+   "confirmed": 56,
    "proof_rate": 0,
-   "n": 61
+   "n": 62
   },
   "country_vertical": {
-   "deployments": 0,
+   "deployments": 60,
    "confirmed": 60,
    "proof_rate": 0,
    "n": 6
   }
  },
- "first_seen": 2025,
+ "first_seen": 2024,
  "by_year": [
   {
-   "year": 2025,
+   "year": 2024,
    "n": 1
+  },
+  {
+   "year": 2025,
+   "n": 3
   }
  ],
  "undated_pct": 0,
- "momentum": "rising",
- "maturity": "L2",
+ "momentum": "early_mover,rising",
+ "maturity": "L3",
  "maturity_evidence": [
-  "single_confirmed"
+  "multi_horizontal",
+  "named_product:SIRO",
+  "multi_year"
  ],
- "prospect_score": 54,
+ "prospect_score": 72,
  "stack": [],
  "vendor_named": false,
  "deployments_detail": [
@@ -52,6 +58,39 @@
    "tier": "I",
    "url": "https://www.antofagasta.co.uk/media/articles/antofagasta-advancing-ai-to-optimise-copper-processing/",
    "raw_sector": "Mining",
+   "date": "2025",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Antofagasta",
+   "use": "SIRO system for copper processing optimization with real-time ore characterization and leaching optimization",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.antofagasta.co.uk/media/articles/antofagasta-advancing-ai-to-optimise-copper-processing/",
+   "raw_sector": "",
+   "date": "2024",
+   "fresh": "aging"
+  },
+  {
+   "company": "Antofagasta",
+   "use": "Fleet autonomy deployment and Integrated Remote Operating Centres",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.miningreporters.com/noticia/news/2026/03/antofagasta-plc-drives-copper-growth-with-innovation-automation-and-ai",
+   "raw_sector": "",
+   "date": "2025",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Antofagasta",
+   "use": "SIRO Ácido platform deployment with real-time ore characterisation and leaching optimisation at Antucoya",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://im-mining.com/2026/03/27/antofagasta-plc-copper-growth-delivery-going-hand-in-hand-with-innovation/",
+   "raw_sector": "",
    "date": "2025",
    "fresh": "fresh"
   }

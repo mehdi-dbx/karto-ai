@@ -3,39 +3,44 @@
  "name": "Apollo Global Management",
  "cc": "US",
  "vertical": "Financial Services",
- "deployments": 1,
- "confirmed": 0,
+ "deployments": 4,
+ "confirmed": 1,
  "with_value_number": 0,
  "proof_rate": 0.0,
  "mktcap": 68770000000.0,
  "revenue": 31290000000.0,
  "employees": 2540.0,
  "silent": false,
- "per_bn_revenue": 0.03,
- "per_10k_emp": 3.94,
+ "per_bn_revenue": 0.13,
+ "per_10k_emp": 15.75,
  "benchmarks": {
   "global_vertical": {
-   "deployments": 0,
-   "confirmed": 0,
+   "deployments": 24,
+   "confirmed": 5,
    "proof_rate": 0,
-   "n": 377
+   "n": 388
   },
   "country_vertical": {
-   "deployments": 0,
-   "confirmed": 0,
+   "deployments": 17,
+   "confirmed": 5,
    "proof_rate": 0,
-   "n": 76
+   "n": 77
   }
  },
- "first_seen": null,
- "by_year": [],
- "undated_pct": 100,
- "momentum": "none",
- "maturity": "L1",
- "maturity_evidence": [
-  "rows_no_confirmed"
+ "first_seen": 2025,
+ "by_year": [
+  {
+   "year": 2025,
+   "n": 1
+  }
  ],
- "prospect_score": 40,
+ "undated_pct": 75,
+ "momentum": "rising",
+ "maturity": "L3",
+ "maturity_evidence": [
+  "named_product:Fraud"
+ ],
+ "prospect_score": 46,
  "stack": [
   "Anthropic"
  ],
@@ -49,6 +54,39 @@
    "tier": "P",
    "url": "https://ir.apollo.com/news-events/press-releases/detail/629/apollo-leads-35-billion-capital-solution-for-broadcom-ai",
    "raw_sector": "Financials",
+   "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "Apollo Global Management",
+   "use": "AI capabilities integration across portfolio companies",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://sloanreview.mit.edu/article/building-ai-capabilities-into-portfolio-companies-at-apollo/",
+   "raw_sector": "",
+   "date": "2025-06-17",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Apollo Global Management",
+   "use": "Named as a Anthropic Claude customer/case study [Anthropic Claude] [Anthropic Claude]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.anthropic.com/news/enterprise-ai-services-company",
+   "raw_sector": "",
+   "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "Apollo Global Management",
+   "use": "Fraud detection for AI-generated voice calls",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.linkedin.com/posts/kyriba_ai-fraud-calls-are-now-indistinguishable-activity-7364019650499596288-g7wS",
+   "raw_sector": "",
    "date": "missing",
    "fresh": "undated"
   }

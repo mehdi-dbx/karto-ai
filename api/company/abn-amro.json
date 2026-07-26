@@ -3,35 +3,48 @@
  "name": "ABN AMRO",
  "cc": "NL",
  "vertical": "Financial Services",
- "deployments": 2,
- "confirmed": 0,
+ "deployments": 8,
+ "confirmed": 5,
  "with_value_number": 0,
  "proof_rate": 0.0,
  "mktcap": 33750000000.0,
  "revenue": 9482400000.0,
  "employees": 23140.0,
  "silent": false,
- "per_bn_revenue": 0.21,
- "per_10k_emp": 0.86,
+ "per_bn_revenue": 0.84,
+ "per_10k_emp": 3.46,
  "benchmarks": {
   "global_vertical": {
-   "deployments": 62,
-   "confirmed": 0,
+   "deployments": 55,
+   "confirmed": 46,
    "proof_rate": 0,
-   "n": 377
+   "n": 388
   }
  },
- "first_seen": null,
- "by_year": [],
- "undated_pct": 100,
- "momentum": "none",
- "maturity": "L1",
- "maturity_evidence": [
-  "rows_no_confirmed"
+ "first_seen": 2024,
+ "by_year": [
+  {
+   "year": 2024,
+   "n": 1
+  },
+  {
+   "year": 2025,
+   "n": 2
+  }
  ],
- "prospect_score": 40,
+ "undated_pct": 62,
+ "momentum": "early_mover,rising",
+ "maturity": "L3",
+ "maturity_evidence": [
+  "multi_horizontal",
+  "named_product:Customer",
+  "multi_year"
+ ],
+ "prospect_score": 70,
  "stack": [
-  "Microsoft"
+  "Capgemini",
+  "Microsoft",
+  "OpenAI"
  ],
  "vendor_named": true,
  "deployments_detail": [
@@ -48,6 +61,39 @@
   },
   {
    "company": "ABN AMRO",
+   "use": "Customer service and process streamlining",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.abnamro.com/en/innovation/information/how-ai-helps-us-create-long-term-value",
+   "raw_sector": "",
+   "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "ABN AMRO",
+   "use": "Customer and employee interactions using Copilot Studio [Microsoft Copilot Studio]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://learn.microsoft.com/en-us/power-platform/guidance/case-studies/abn-amro-enhances-ai",
+   "raw_sector": "",
+   "date": "2025-05-13",
+   "fresh": "fresh"
+  },
+  {
+   "company": "ABN AMRO",
+   "use": "Gen AI development for customer experience [Capgemini]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.capgemini.com/news/client-stories/abn-amro-adopts-a-future-focused-approach-to-gen-ai-development/",
+   "raw_sector": "",
+   "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "ABN AMRO",
    "use": "Abby internal chatbot providing support to bank employees",
    "existence": "claimed",
    "value": "none",
@@ -56,6 +102,39 @@
    "raw_sector": "Banks",
    "date": "missing",
    "fresh": "undated"
+  },
+  {
+   "company": "ABN AMRO",
+   "use": "Internal ChatGPT for corporate data protection",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.business-reporter.co.uk/ai--automation/fintechtalk-embracing-ai-in-banking---delivering-intelligence-everywhere",
+   "raw_sector": "",
+   "date": "2024-09-23",
+   "fresh": "aging"
+  },
+  {
+   "company": "ABN AMRO",
+   "use": "Named as a Microsoft Copilot customer/case study [Microsoft Copilot] [Microsoft Copilot]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://learn.microsoft.com/en-us/microsoft-copilot-studio/guidance/adoption-case-studies",
+   "raw_sector": "",
+   "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "ABN AMRO",
+   "use": "Anti-money laundering support",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://diginomica.com/why-abn-amro-deserves-be-recognized-ai-leader-according-ceo-marguerite-berard-she-axes-nearly",
+   "raw_sector": "",
+   "date": "2025-11-27",
+   "fresh": "fresh"
   }
  ]
 }

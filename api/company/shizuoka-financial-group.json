@@ -3,26 +3,26 @@
  "name": "Shizuoka Financial Group",
  "cc": "JP",
  "vertical": "Financial Services",
- "deployments": 2,
- "confirmed": 2,
+ "deployments": 4,
+ "confirmed": 3,
  "with_value_number": 0,
  "proof_rate": 0.0,
  "mktcap": 11800000000.0,
  "revenue": 2299533333.0,
  "employees": 4226.0,
  "silent": false,
- "per_bn_revenue": 0.87,
- "per_10k_emp": 4.73,
+ "per_bn_revenue": 1.74,
+ "per_10k_emp": 9.47,
  "benchmarks": {
   "global_vertical": {
-   "deployments": 62,
-   "confirmed": 73,
+   "deployments": 24,
+   "confirmed": 27,
    "proof_rate": 0,
-   "n": 377
+   "n": 388
   },
   "country_vertical": {
-   "deployments": 29,
-   "confirmed": 36,
+   "deployments": 21,
+   "confirmed": 21,
    "proof_rate": 0,
    "n": 15
   }
@@ -38,18 +38,32 @@
    "n": 1
   }
  ],
- "undated_pct": 0,
+ "undated_pct": 50,
  "momentum": "early_mover,flat",
  "maturity": "L4",
  "maturity_evidence": [
+  "multi_horizontal",
   "named_product:S-hare",
   "multi_year",
   "tier_p"
  ],
- "prospect_score": 60,
- "stack": [],
- "vendor_named": false,
+ "prospect_score": 58,
+ "stack": [
+  "Snowflake"
+ ],
+ "vendor_named": true,
  "deployments_detail": [
+  {
+   "company": "Shizuoka Financial Group",
+   "use": "AI and data utilization for business process, sales activities, and customer optimization",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.shizuoka-fg.co.jp/english/pdf/ir/2026_2Q_summary_en.pdf",
+   "raw_sector": "",
+   "date": "Nov 20, 2025",
+   "fresh": "undated"
+  },
   {
    "company": "Shizuoka Financial Group",
    "use": "Generative AI chatbot built on \"S-hare\" data platform (implemented Jan 2023)",
@@ -71,6 +85,17 @@
    "raw_sector": "Banking",
    "date": "2026-01",
    "fresh": "fresh"
+  },
+  {
+   "company": "Shizuoka Financial Group",
+   "use": "Predictive models for risk assessment and fraud detection [Snowflake]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://medium.com/tokyo-fintech/shizuoka-financial-groups-digital-strategy-and-snowflake-use-cases-a66f509bea7a",
+   "raw_sector": "",
+   "date": "missing",
+   "fresh": "undated"
   }
  ]
 }

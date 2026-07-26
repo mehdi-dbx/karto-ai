@@ -3,33 +3,65 @@
  "name": "Puig",
  "cc": "ES",
  "vertical": "Retail & E-commerce",
- "deployments": 1,
- "confirmed": 0,
- "with_value_number": 1,
- "proof_rate": 1.0,
+ "deployments": 10,
+ "confirmed": 9,
+ "with_value_number": 7,
+ "proof_rate": 0.7,
  "mktcap": 10216800000.0,
  "revenue": 5443200000.0,
  "employees": 11701.0,
  "silent": false,
- "per_bn_revenue": 0.18,
- "per_10k_emp": 0.85,
+ "per_bn_revenue": 1.84,
+ "per_10k_emp": 8.55,
  "benchmarks": {
   "global_vertical": {
-   "deployments": 0,
-   "confirmed": 0,
-   "proof_rate": 77,
-   "n": 295
+   "deployments": 72,
+   "confirmed": 81,
+   "proof_rate": 93,
+   "n": 301
   }
  },
- "first_seen": null,
- "by_year": [],
- "undated_pct": 100,
- "momentum": "none",
- "maturity": "L1",
- "maturity_evidence": [
-  "rows_no_confirmed"
+ "first_seen": 2016,
+ "by_year": [
+  {
+   "year": 2016,
+   "n": 1
+  },
+  {
+   "year": 2018,
+   "n": 1
+  },
+  {
+   "year": 2020,
+   "n": 1
+  },
+  {
+   "year": 2021,
+   "n": 1
+  },
+  {
+   "year": 2022,
+   "n": 2
+  },
+  {
+   "year": 2023,
+   "n": 2
+  },
+  {
+   "year": 2024,
+   "n": 1
+  }
  ],
- "prospect_score": 0,
+ "undated_pct": 10,
+ "momentum": "early_mover,gone_quiet",
+ "maturity": "L4",
+ "maturity_evidence": [
+  "multi_horizontal",
+  "named_product:AILICE",
+  "value_number",
+  "multi_year"
+ ],
+ "prospect_score": 74,
  "stack": [],
  "vendor_named": false,
  "deployments_detail": [
@@ -43,6 +75,105 @@
    "raw_sector": "Clothes and Cosmetics",
    "date": "missing",
    "fresh": "undated"
+  },
+  {
+   "company": "Puig",
+   "use": "AILICE (AI.LICE), a mobile/in-store technology enabling fragrance shoppers to preview and 'see' a perfume's scent in real time without smelling it. Shoppers scan a bottle/QR code with a smartphone; AI automatically analyzes the scent and displays its olfactive family and dominant ingredients. Launched Sept 2020, developed with studio Bestiario, deployed in Puig retail environments. [Bestiario]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.puig.com/en/newsroom/puig-presents-ailice/",
+   "raw_sector": "",
+   "date": "2020-09",
+   "fresh": "stale"
+  },
+  {
+   "company": "Puig",
+   "use": "AirParfum, a patented AI-driven fragrance discovery system (acquired by Puig in 2018) that lets consumers smell up to ~100 different fragrances without olfactory fatigue, deployed in retail and at the Prado Museum. Puig later positioned it toward AI-analyzed personalized perfumery. [AirParfum (Puig-owned)]",
+   "existence": "confirmed",
+   "value": "up to 100 fragrances sampled without olfactory fatigue",
+   "tier": "",
+   "url": "https://www.puig.com/en/newsroom/airparfum-technology-at-prado-museum/",
+   "raw_sector": "",
+   "date": "2018",
+   "fresh": "stale"
+  },
+  {
+   "company": "Puig",
+   "use": "WikiParfum, a brand-agnostic digital fragrance platform combining a search engine with a personalized recommendation system, using the 'Quadrification' visualization algorithm to let users 'see' scents and receive tailored fragrance recommendations. Launched Dec 2022, developed with Bestiario. [Bestiario]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://wwd.com/beauty-industry-news/fragrance/puigs-wikiparfum-fragrance-selection-1235452441/",
+   "raw_sector": "",
+   "date": "2022-12",
+   "fresh": "stale"
+  },
+  {
+   "company": "Puig",
+   "use": "Scent Visualizer, a digital fragrance-discovery tool Puig developed for Alibaba's Tmall, using a visual library of 1,400+ ingredients and a database of 21,500 perfumes to visually represent a perfume's dominant olfactive notes online and drive e-commerce fragrance sales in China. [Alibaba Tmall (partner); data via Fragrances of the World]",
+   "existence": "confirmed",
+   "value": "~5% average increase in gross merchandise volume in a 7-week pilot with 25 brands",
+   "tier": "",
+   "url": "https://moodiedavittreport.com/introducing-scent-visualizer-tmall-and-puig-launch-new-digital-technology-to-drive-fragrance-sales/",
+   "raw_sector": "",
+   "date": "2023-02",
+   "fresh": "stale"
+  },
+  {
+   "company": "Puig",
+   "use": "Charlotte Tilbury (Puig-owned) 'Magic Mirror' augmented-reality virtual makeup try-on, described as the world's first AR magic mirror, letting shoppers instantly try on Charlotte Tilbury's signature makeup looks superimposed on their own face in-store and online. [Holition]",
+   "existence": "confirmed",
+   "value": "10 looks",
+   "tier": "",
+   "url": "https://www.forbes.com/sites/rachelarthur/2016/10/21/charlotte-tilburys-new-virtual-magic-mirror-serves-as-active-make-up-selling-tool/",
+   "raw_sector": "",
+   "date": "2016-10",
+   "fresh": "stale"
+  },
+  {
+   "company": "Puig",
+   "use": "Charlotte Tilbury 'Easy Beauty For You' mobile app combining AI and deep learning for personalized beauty: 'Pro Skin Analysis' (selfie + questions assessing hydration, dark circles, wrinkles), 'Pro Shade Match' foundation matching in ~60 seconds, and an artistry algorithm backed by data science. Launched June 2023 in 34 countries. [Charlotte Tilbury (Puig)]",
+   "existence": "confirmed",
+   "value": "launched in 34 countries; shade match in ~60 seconds",
+   "tier": "",
+   "url": "https://retailbeauty.com.au/charlotte-tilbury-debuts-first-ever-mobile-app/",
+   "raw_sector": "",
+   "date": "2023-06",
+   "fresh": "stale"
+  },
+  {
+   "company": "Puig",
+   "use": "EAN-Nose, an evolution of Puig's scent-recognition technology that recognizes barcodes from over 90,000 perfume references, using AI to narrow in-store/retail fragrance offerings to match consumer preferences. [Puig (internal)]",
+   "existence": "confirmed",
+   "value": "90,000+ perfume references recognized",
+   "tier": "",
+   "url": "https://theinnovator.news/why-spanish-fragrance-company-puig-is-embracing-open-innovation/",
+   "raw_sector": "",
+   "date": "2022-09",
+   "fresh": "stale"
+  },
+  {
+   "company": "Puig",
+   "use": "AI-assisted fragrance creation for Phantom by Paco Rabanne: Puig used AI and neuroscience, taking 45 million brain readings from men aged 18-35 to identify ingredient combinations eliciting target emotions, combined with IFF's AI 'augmented creativity' tools to finesse the cologne's formulation. [IFF (International Flavors & Fragrances)]",
+   "existence": "confirmed",
+   "value": "45 million brain measurements analyzed",
+   "tier": "",
+   "url": "https://beautymatter.com/articles/robot-love-paco-rabannes-phantom-looks-to-the-future-of-fragrance-with-a-nod-to-the-past",
+   "raw_sector": "",
+   "date": "2021-08",
+   "fresh": "stale"
+  },
+  {
+   "company": "Puig",
+   "use": "Enterprise AI governance and internal AI use: Puig operates an AI policy under which all AI systems must be approved and signed off by an 'AI Demand Management Committee' before being deployed for live use within Puig, indicating governed internal/operational deployment of AI systems across the company. [Puig (internal governance)]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://uploads.puig.com/uploads/Artificial_Intelligence_Policy_en_204bffdcfe.pdf",
+   "raw_sector": "",
+   "date": "2024",
+   "fresh": "aging"
   }
  ]
 }

@@ -1,0 +1,169 @@
+{
+ "slug": "muji-co-ltd-ryohin-keikaku-co-ltd",
+ "name": "Muji Co., Ltd (Ryohin Keikaku Co., Ltd.)",
+ "cc": "JP",
+ "vertical": "Retail & E-commerce",
+ "deployments": 9,
+ "confirmed": 9,
+ "with_value_number": 5,
+ "proof_rate": 0.556,
+ "mktcap": null,
+ "revenue": null,
+ "employees": null,
+ "silent": false,
+ "per_bn_revenue": null,
+ "per_10k_emp": null,
+ "benchmarks": {
+  "global_vertical": {
+   "deployments": 64,
+   "confirmed": 81,
+   "proof_rate": 87,
+   "n": 301
+  },
+  "country_vertical": {
+   "deployments": 60,
+   "confirmed": 84,
+   "proof_rate": 88,
+   "n": 26
+  }
+ },
+ "first_seen": 2021,
+ "by_year": [
+  {
+   "year": 2021,
+   "n": 1
+  },
+  {
+   "year": 2022,
+   "n": 1
+  },
+  {
+   "year": 2023,
+   "n": 3
+  },
+  {
+   "year": 2024,
+   "n": 2
+  },
+  {
+   "year": 2025,
+   "n": 2
+  }
+ ],
+ "undated_pct": 0,
+ "momentum": "early_mover,cooling",
+ "maturity": "L4",
+ "maturity_evidence": [
+  "multi_horizontal",
+  "named_product:Google",
+  "value_number",
+  "multi_year"
+ ],
+ "prospect_score": 72,
+ "stack": [
+  "Google",
+  "Google Cloud"
+ ],
+ "vendor_named": true,
+ "deployments_detail": [
+  {
+   "company": "Muji Co., Ltd (Ryohin Keikaku Co., Ltd.)",
+   "use": "Buddycom live voice communication platform with AI-based digital assistant deployed across ~500 directly-operated MUJI stores to improve customer service and register operations [Science Arts Inc. (Buddycom)]",
+   "existence": "confirmed",
+   "value": "~500 stores as of September 2023",
+   "tier": "",
+   "url": "https://prtimes.jp/main/html/rd/p/000000127.000006457.html",
+   "raw_sector": "",
+   "date": "2023-10-24",
+   "fresh": "stale"
+  },
+  {
+   "company": "Muji Co., Ltd (Ryohin Keikaku Co., Ltd.)",
+   "use": "In-house AI model predicting hourly store foot-traffic from 5 years of visitor data plus weather forecasts, feeding staff scheduling and real-time POS-driven automatic replenishment/order optimization to distribution centers [Ryohin Keikaku (in-house on internal data lake, Staging/Raw/Insight layers)]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://news.mynavi.jp/techplus/article/20231227-2844121/",
+   "raw_sector": "",
+   "date": "2023-12-27",
+   "fresh": "stale"
+  },
+  {
+   "company": "Muji Co., Ltd (Ryohin Keikaku Co., Ltd.)",
+   "use": "Artly autonomous Barista Bot (later 'Jarvis') using a Vision-Language-Action AI model to make specialty coffee drinks in MUJI stores (Portland, New York, Vancouver, Toronto) [Artly (Vision-Language-Action model)]",
+   "existence": "confirmed",
+   "value": "~70 cups/day at Toronto flagship; nearly 1 million cups served since inception; makes 28+ drink types",
+   "tier": "",
+   "url": "https://artly.coffee/blogs/artly-blog/how-artly-s-barista-bot-helped-muji-transform-its-retail-experience",
+   "raw_sector": "",
+   "date": "2021-01-01",
+   "fresh": "stale"
+  },
+  {
+   "company": "Muji Co., Ltd (Ryohin Keikaku Co., Ltd.)",
+   "use": "ID-POS data analytics foundation combining machine learning / AI for demand and trend forecasting, marketing reporting, and order optimization built on a self-managed data platform [Ryohin Keikaku (in-house data analytics platform)]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://speakerdeck.com/yangming/wu-yin-liang-pin-noid-postetafen-xi-woshao-jie",
+   "raw_sector": "",
+   "date": "2023-07-28",
+   "fresh": "stale"
+  },
+  {
+   "company": "Muji Co., Ltd (Ryohin Keikaku Co., Ltd.)",
+   "use": "Google Cloud Recommendations AI powering personalized article recommendations in the MUJI passport / MUJI app and product recommendations on the EC (net store) site, tuned with diversity controls to fit brand values [Google Cloud (Recommendations AI / Vertex AI); implementation partner System Support Inc.]",
+   "existence": "confirmed",
+   "value": "+0.5 percentage point CTR uplift on recommended articles (A/B tested); EC recommendations internalized and delivered in ~1 month",
+   "tier": "",
+   "url": "https://cloud.google.com/blog/ja/topics/customers/mujis-personalized-customer-experience-with-recommendations-ai",
+   "raw_sector": "",
+   "date": "2025-04-17",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Muji Co., Ltd (Ryohin Keikaku Co., Ltd.)",
+   "use": "MUJI Promotion Insights Hub: causal ML plus Gemini Enterprise letting staff query, in natural language, how EC browsing drives in-store sales (integrating Google Analytics, weather, demographics, store layout) [Google Cloud (Gemini Enterprise, causal ML)]",
+   "existence": "confirmed",
+   "value": "EC access estimated to contribute ~8% of store sales during a 2-month shipping suspension; regional drivers up to 56% (Hokkaido thermal underwear) and 49% (Osaka space-saving furniture)",
+   "tier": "",
+   "url": "https://business.google.com/jp/think/future-of-marketing/retail-case-muji/",
+   "raw_sector": "",
+   "date": "2025-01-01",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Muji Co., Ltd (Ryohin Keikaku Co., Ltd.)",
+   "use": "AI influenza outbreak forecasting displayed in-store on a monitor at MUJI Grand Front Osaka, pairing 4-level 2-week-ahead flu risk forecasts with relevant preventive products [Hitachi Social Information Services (Hitachi Infectious Disease Forecast Service)]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.hitachi.com/ja-jp/insights/articles/muji-flu-forecast/",
+   "raw_sector": "",
+   "date": "2022-12-20",
+   "fresh": "stale"
+  },
+  {
+   "company": "Muji Co., Ltd (Ryohin Keikaku Co., Ltd.)",
+   "use": "Helpfeel AI-FAQ intent-prediction search deployed for store and net-store customer self-service to deflect inquiries during peak sales periods (e.g. MUJI Week) [Helpfeel (Nota Inc.)]",
+   "existence": "confirmed",
+   "value": "70% reduction in inquiries during peak periods; active users grew 150%+; FAQ publishing time cut from 2 weeks to immediate",
+   "tier": "",
+   "url": "https://www.helpfeel.com/works/ryohin-keikaku",
+   "raw_sector": "",
+   "date": "2024-03-01",
+   "fresh": "aging"
+  },
+  {
+   "company": "Muji Co., Ltd (Ryohin Keikaku Co., Ltd.)",
+   "use": "AI 'staff' avatars providing conversational product recommendations and Q&A in the MUJI Ginza virtual store within the metaverse (service ran until March 2025) [KDDI (αU place) with AIQ conversational AI]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://tsuhan-ec.jp/article/2024/03/27/530.html",
+   "raw_sector": "",
+   "date": "2024-03-27",
+   "fresh": "aging"
+  }
+ ]
+}

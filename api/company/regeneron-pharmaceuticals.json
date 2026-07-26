@@ -3,27 +3,27 @@
  "name": "Regeneron Pharmaceuticals",
  "cc": "US",
  "vertical": "Healthcare & Life Sciences",
- "deployments": 1,
- "confirmed": 1,
- "with_value_number": 0,
- "proof_rate": 0.0,
+ "deployments": 6,
+ "confirmed": 4,
+ "with_value_number": 1,
+ "proof_rate": 0.167,
  "mktcap": 66320000000.0,
  "revenue": 14920000000.0,
  "employees": 15410.0,
  "silent": false,
- "per_bn_revenue": 0.07,
- "per_10k_emp": 0.65,
+ "per_bn_revenue": 0.4,
+ "per_10k_emp": 3.89,
  "benchmarks": {
   "global_vertical": {
-   "deployments": 0,
-   "confirmed": 13,
-   "proof_rate": 0,
-   "n": 165
+   "deployments": 47,
+   "confirmed": 48,
+   "proof_rate": 47,
+   "n": 168
   },
   "country_vertical": {
-   "deployments": 0,
-   "confirmed": 7,
-   "proof_rate": 0,
+   "deployments": 38,
+   "confirmed": 34,
+   "proof_rate": 47,
    "n": 59
   }
  },
@@ -33,13 +33,60 @@
  "momentum": "none",
  "maturity": "L3",
  "maturity_evidence": [
+  "multi_horizontal",
   "named_product:Regeneron",
   "tier_p"
  ],
- "prospect_score": 54,
- "stack": [],
- "vendor_named": false,
+ "prospect_score": 57,
+ "stack": [
+  "Databricks"
+ ],
+ "vendor_named": true,
  "deployments_detail": [
+  {
+   "company": "Regeneron Pharmaceuticals",
+   "use": "AI and digital tools for streamlining clinical trials",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.regeneron.com/stories/the-next-generation-of-clinical-trials",
+   "raw_sector": "",
+   "date": "Jan 28, 2026",
+   "fresh": "undated"
+  },
+  {
+   "company": "Regeneron Pharmaceuticals",
+   "use": "AI and big data tools for drug discovery and digital health solutions",
+   "existence": "claimed",
+   "value": "10 million samples",
+   "tier": "",
+   "url": "https://www.regeneron.com/downloads/2025RR.pdf",
+   "raw_sector": "",
+   "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "Regeneron Pharmaceuticals",
+   "use": "Viz COPD module - AI-powered care acceleration solution for COPD management [Viz.ai]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://hlth.com/insights/news/viz-ai-partners-with-sanofi-and-regeneron-on-ai-solution-for-copd-management-2025-05-21",
+   "raw_sector": "",
+   "date": "May 21, 2025",
+   "fresh": "undated"
+  },
+  {
+   "company": "Regeneron Pharmaceuticals",
+   "use": "Databricks for advanced analytics and machine learning in drug discovery [Databricks]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.databricks.com/customers/regeneron",
+   "raw_sector": "",
+   "date": "missing",
+   "fresh": "undated"
+  },
   {
    "company": "Regeneron Pharmaceuticals",
    "use": "AI/ML + genetics (Regeneron Genetics Center) for target ID/drug discovery + TriNetX AI partnership",
@@ -48,6 +95,17 @@
    "tier": "P",
    "url": "https://www.regeneron.com/stories/ai-and-genetic-breakthroughs",
    "raw_sector": "Health Care",
+   "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "Regeneron Pharmaceuticals",
+   "use": "Generative AI assistants for internal users",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.linkedin.com/posts/nawazshah_im-excited-to-share-our-latest-advancement-activity-7338651078281916418-tgxC",
+   "raw_sector": "",
    "date": "missing",
    "fresh": "undated"
   }

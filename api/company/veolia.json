@@ -3,41 +3,52 @@
  "name": "Veolia",
  "cc": "FR",
  "vertical": "Energy & Utilities",
- "deployments": 2,
- "confirmed": 2,
+ "deployments": 8,
+ "confirmed": 5,
  "with_value_number": 0,
  "proof_rate": 0.0,
  "mktcap": 29462400000.0,
  "revenue": 47952000000.0,
  "employees": 203100.0,
  "silent": false,
- "per_bn_revenue": 0.04,
- "per_10k_emp": 0.1,
+ "per_bn_revenue": 0.17,
+ "per_10k_emp": 0.39,
  "benchmarks": {
   "global_vertical": {
-   "deployments": 72,
-   "confirmed": 78,
+   "deployments": 75,
+   "confirmed": 70,
    "proof_rate": 0,
-   "n": 210
+   "n": 213
   },
   "country_vertical": {
    "deployments": 67,
-   "confirmed": 67,
+   "confirmed": 50,
    "proof_rate": 0,
    "n": 7
   }
  },
- "first_seen": null,
- "by_year": [],
- "undated_pct": 100,
- "momentum": "none",
+ "first_seen": 2024,
+ "by_year": [
+  {
+   "year": 2024,
+   "n": 1
+  },
+  {
+   "year": 2025,
+   "n": 2
+  }
+ ],
+ "undated_pct": 62,
+ "momentum": "early_mover,rising",
  "maturity": "L3",
  "maturity_evidence": [
   "multi_horizontal",
-  "named_product:Global"
+  "named_product:Global",
+  "multi_year"
  ],
- "prospect_score": 52,
+ "prospect_score": 70,
  "stack": [
+  "Amazon AWS",
   "Microsoft",
   "Mistral AI"
  ],
@@ -56,12 +67,78 @@
   },
   {
    "company": "Veolia",
+   "use": "Invoice processing automation for Shared Service Center [Rossum]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://rossum.ai/customer-stories/veolia/",
+   "raw_sector": "",
+   "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "Veolia",
    "use": "Partnership with Mistral AI to deploy generative AI letting employees/stakeholders \"copilot\" water/waste/energy facilities (own press release)",
    "existence": "confirmed",
    "value": "none",
    "tier": "S",
    "url": "https://www.veolia.fr/medias/communiques-presse/veolia-mistral-ai-sassocient-revolutionner-gestion-lefficacite-ressources",
    "raw_sector": "Utilities",
+   "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "Veolia",
+   "use": "Generative AI partnership with Mistral AI for ecological transformation [Mistral AI]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.veolia.com/en/our-media/news/generative-ai-heart-ecological-transformation-veolia-pushes-boundaries-innovation",
+   "raw_sector": "",
+   "date": "2025-02-05",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Veolia",
+   "use": "Hubgrade Water Footprint - AI-based digital solution for water neutrality",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.watertechnologies.com/about-us/newsroom/veolia-takes-artificial-intelligence-deployment-next-level-drive-sustainable",
+   "raw_sector": "",
+   "date": "2024-07-31",
+   "fresh": "aging"
+  },
+  {
+   "company": "Veolia",
+   "use": "Generative AI for remote plant management, water leak detection, and sorting optimization",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.youtube.com/watch?v=lvCfAiuajB0&vl=en-US",
+   "raw_sector": "",
+   "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "Veolia",
+   "use": "Generative AI on Amazon Bedrock supporting environmental solutions across 50+ countries [AWS] [AWS]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://aws.amazon.com/bedrock/customers/",
+   "raw_sector": "",
+   "date": "2025",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Veolia",
+   "use": "Named as a Amazon Bedrock customer/case study [Amazon Bedrock] [Amazon Bedrock]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://aws.amazon.com/bedrock/customers/",
+   "raw_sector": "",
    "date": "missing",
    "fresh": "undated"
   }

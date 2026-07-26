@@ -3,36 +3,59 @@
  "name": "Infineon Technologies",
  "cc": "DE",
  "vertical": "Technology",
- "deployments": 1,
- "confirmed": 1,
- "with_value_number": 0,
- "proof_rate": 0.0,
+ "deployments": 9,
+ "confirmed": 8,
+ "with_value_number": 3,
+ "proof_rate": 0.333,
  "mktcap": 97966800000.0,
  "revenue": 16329600000.0,
  "employees": 56500.0,
  "silent": false,
- "per_bn_revenue": 0.06,
- "per_10k_emp": 0.18,
+ "per_bn_revenue": 0.55,
+ "per_10k_emp": 1.59,
  "benchmarks": {
   "global_vertical": {
-   "deployments": 0,
-   "confirmed": 6,
-   "proof_rate": 0,
-   "n": 156
+   "deployments": 49,
+   "confirmed": 63,
+   "proof_rate": 71,
+   "n": 159
   }
  },
- "first_seen": null,
- "by_year": [],
- "undated_pct": 100,
- "momentum": "none",
- "maturity": "L3",
+ "first_seen": 2023,
+ "by_year": [
+  {
+   "year": 2023,
+   "n": 1
+  },
+  {
+   "year": 2024,
+   "n": 3
+  },
+  {
+   "year": 2025,
+   "n": 2
+  },
+  {
+   "year": 2026,
+   "n": 2
+  }
+ ],
+ "undated_pct": 11,
+ "momentum": "early_mover,flat",
+ "maturity": "L4",
  "maturity_evidence": [
+  "multi_horizontal",
   "named_product:Edge",
+  "value_number",
+  "multi_year",
   "tier_p"
  ],
- "prospect_score": 54,
- "stack": [],
- "vendor_named": false,
+ "prospect_score": 75,
+ "stack": [
+  "OpenAI",
+  "TCS"
+ ],
+ "vendor_named": true,
  "deployments_detail": [
   {
    "company": "Infineon Technologies",
@@ -44,6 +67,94 @@
    "raw_sector": "Technology",
    "date": "missing",
    "fresh": "undated"
+  },
+  {
+   "company": "Infineon Technologies",
+   "use": "GenAI for Test Engineering: AI agents and multimodal LLMs auto-generate initial functional test-program code from structured specifications for semiconductor test, with human-in-the-loop validation. In production at frontend test systems; won Porsche Consulting AI Impact Award 2026 (Manufacturing & Supply Chain). Benefits several hundred test engineers. [Internal (AI agents + multimodal LLMs; developed under Infineon AI Manifesto)]",
+   "existence": "confirmed",
+   "value": "50% reduction in test-code creation time short-term, up to 80% long-term; manual effort to create initial test modules cut 20-50%; modules created in minutes vs hours",
+   "tier": "",
+   "url": "https://www.porsche-consulting.com/international/en/article/infineon-automates-semiconductor-testing-ai",
+   "raw_sector": "",
+   "date": "2026-04-22",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Infineon Technologies",
+   "use": "AI/ML-based real-time dispatching, planning and scheduling across front-end and back-end fabs (Real-Time Dispatcher, Activity Manager, commercial solver) for automated lot starts, equipment setup and lot sequencing. Rolled out to three sites within 18 months. [Applied Materials (SmartFactory Advanced Productivity Family / RTD)]",
+   "existence": "confirmed",
+   "value": "5-15% capacity improvement across multiple work centers",
+   "tier": "",
+   "url": "https://appliedsmartfactory.com/semiconductor-blog/use-cases/infineon-technologies-describes-how-they-optimize-productivity/",
+   "raw_sector": "",
+   "date": "2023-04-27",
+   "fresh": "stale"
+  },
+  {
+   "company": "Infineon Technologies",
+   "use": "AI-driven automotive predictive maintenance: Aurora Labs' Line-of-Code Intelligence (LOCI) AI runs on Infineon's 32-bit AURIX TC4x microcontrollers to monitor software for failures/security threats in safety-critical systems (steering, braking, airbags), ASIL-D compliant. Announced/demonstrated at CES 2025. [Aurora Labs (LOCI AI) on Infineon AURIX TC4x]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.analyticsvidhya.com/blog/2024/01/infineon-and-aurora-labs-launch-ai-powered-automotive-predictive-maintenance-system/",
+   "raw_sector": "",
+   "date": "2024-11-28",
+   "fresh": "aging"
+  },
+  {
+   "company": "Infineon Technologies",
+   "use": "DEEPCRAFT Edge AI software suite (incl. DEEPCRAFT Studio ML development platform and AI Hub with 50+ ready models) for low-power on-device ML - classification, regression, computer vision, audio/radar - optimized for PSOC Edge. Commercialized/launched AI product portfolio (Imagimob-based) sold to developers. [Infineon DEEPCRAFT (Imagimob)]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.infineon.com/technology-news/2025/INFCSS202510-008",
+   "raw_sector": "",
+   "date": "2025-10-16",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Infineon Technologies",
+   "use": "Infineon Digital Assistant: generative-AI chatbot on the myInfineon portal that lets customers/partners ask natural-language questions to find products, compare specs, locate materials and get technical support. Deployed and available to registered portal users. [Generative AI (specific model not disclosed)]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.macnica.co.jp/en/business/semiconductor/manufacturers/infineon/products/149137/",
+   "raw_sector": "",
+   "date": "2026-06-04",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Infineon Technologies",
+   "use": "Internal ChatGPT-like corporate GenAI chatbot for employees, built on OutSystems low-code, integrating OpenAI's ChatGPT plus Infineon's internal LLMs to give staff controlled, secure generative-AI access; added streaming, multiple prompt types and document upload. Part of a scaled low-code program (100+ production apps, 200+ developers). [OutSystems (low-code) + OpenAI ChatGPT + internal LLMs]",
+   "existence": "confirmed",
+   "value": "GenAI app reached MVP in under 3 weeks with a single developer; 100+ apps in production, ~200 more in development",
+   "tier": "",
+   "url": "https://www.outsystems.com/case-studies/infineon-low-code-generative-ai",
+   "raw_sector": "",
+   "date": "2024-01-01",
+   "fresh": "aging"
+  },
+  {
+   "company": "Infineon Technologies",
+   "use": "AI-powered digital commerce platform (rebuilt Infineon global website) with AI-driven product search/discovery, personalized journeys, product recommendations and multilingual, multi-device experience, integrating 40+ connected apps/microservices. Platform is live. [Tata Consultancy Services (TCS)]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.tcs.com/who-we-are/newsroom/news-alert/tcs-infineon-partner-redefine-digital-experience-accelerate-sales-growth",
+   "raw_sector": "",
+   "date": "2025-10-16",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Infineon Technologies",
+   "use": "RAG-Fusion retrieval-augmented generation chatbot (LLM + vector embeddings), originally built for automotive field engineers and expanded to account managers and customers to answer technical product questions and support sales strategies. Authored/deployed internally by an Infineon sales-support engineer (peer-reviewed paper). [Infineon (RAG-Fusion; LLM + vector embeddings, provider not disclosed)]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://arxiv.org/html/2402.03367v1",
+   "raw_sector": "",
+   "date": "2024-01-31",
+   "fresh": "aging"
   }
  ]
 }

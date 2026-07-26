@@ -3,44 +3,67 @@
  "name": "Denso Corp.",
  "cc": "JP",
  "vertical": "Electric Machinery & Electronics",
- "deployments": 2,
- "confirmed": 2,
- "with_value_number": 2,
- "proof_rate": 1.0,
+ "deployments": 11,
+ "confirmed": 6,
+ "with_value_number": 5,
+ "proof_rate": 0.455,
  "mktcap": 35800000000.0,
  "revenue": 50266666667.0,
  "employees": 154716.0,
  "silent": false,
- "per_bn_revenue": 0.04,
- "per_10k_emp": 0.13,
+ "per_bn_revenue": 0.22,
+ "per_10k_emp": 0.71,
  "benchmarks": {
   "global_vertical": {
-   "deployments": 53,
-   "confirmed": 53,
-   "proof_rate": 79,
+   "deployments": 71,
+   "confirmed": 59,
+   "proof_rate": 88,
    "n": 35
   },
   "country_vertical": {
-   "deployments": 48,
-   "confirmed": 48,
-   "proof_rate": 77,
+   "deployments": 68,
+   "confirmed": 55,
+   "proof_rate": 87,
    "n": 32
   }
  },
- "first_seen": null,
- "by_year": [],
- "undated_pct": 100,
- "momentum": "none",
- "maturity": "L3",
+ "first_seen": 2020,
+ "by_year": [
+  {
+   "year": 2020,
+   "n": 1
+  },
+  {
+   "year": 2024,
+   "n": 4
+  },
+  {
+   "year": 2025,
+   "n": 3
+  },
+  {
+   "year": 2026,
+   "n": 1
+  }
+ ],
+ "undated_pct": 18,
+ "momentum": "early_mover,flat",
+ "maturity": "L4",
  "maturity_evidence": [
   "multi_horizontal",
   "named_product:Xmare",
   "value_number",
+  "multi_year",
   "tier_p"
  ],
- "prospect_score": 20,
- "stack": [],
- "vendor_named": false,
+ "prospect_score": 58,
+ "stack": [
+  "Microsoft",
+  "Microsoft Azure",
+  "OpenAI",
+  "Oracle"
+ ],
+ "vendor_named": true,
  "deployments_detail": [
   {
    "company": "Denso Corp.",
@@ -55,6 +78,50 @@
   },
   {
    "company": "Denso Corp.",
+   "use": "Autonomous 'human-like' robot that understands verbal instructions and acts independently, using generative AI as its decision-making brain (assembling, serving, customer-service tasks). Development began April 2023. [Microsoft Azure OpenAI Service / OpenAI ChatGPT; Azure AI Services for voice]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.microsoft.com/en/customers/story/15692-denso-corporation-azure-open-ai-service",
+   "raw_sector": "",
+   "date": "2024-10-08",
+   "fresh": "aging"
+  },
+  {
+   "company": "Denso Corp.",
+   "use": "AI-based action recognition and computer vision (Drishti) on manual assembly lines to generate continuous analytics on manual production tasks, identify bottlenecks and reduce defects, deployed at multiple North American facilities. [Drishti Technologies]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.prnewswire.com/news-releases/denso-and-drishti-bring-innovation-to-the-production-floor-with-ai-based-action-recognition-technology-301003329.html",
+   "raw_sector": "",
+   "date": "2020-02-12",
+   "fresh": "stale"
+  },
+  {
+   "company": "Denso Corp.",
+   "use": "Strategic partnership and investment with AI startup Turing to jointly develop fully autonomous vehicles powered by a large-scale end-to-end autonomous-driving foundation model, targeting mass deployment by 2030. [Turing Inc.]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://asia.nikkei.com/business/technology/artificial-intelligence/japan-s-turing-partners-with-denso-on-self-driving-cars-after-raising-63m",
+   "raw_sector": "",
+   "date": "2025-11-17",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Denso Corp.",
+   "use": "New Zenmyo (Zenmyo-Minami) smart factory: fully automated 24-hour unmanned production using digital-twin technology for equipment verification and kaizen simulation, plus remote AI-based equipment-failure detection and a plant-wide manufacturing-knowledge database. [none]",
+   "existence": "claimed",
+   "value": "~69 billion yen investment",
+   "tier": "",
+   "url": "https://aei.dempa.net/archives/30899",
+   "raw_sector": "",
+   "date": "2024-09-11",
+   "fresh": "aging"
+  },
+  {
+   "company": "Denso Corp.",
    "use": "AI-driven development / co-creation for large-scale systems",
    "existence": "confirmed",
    "value": "~4x development productivity vs baseline",
@@ -63,6 +130,61 @@
    "raw_sector": "Electric Machinery",
    "date": "missing",
    "fresh": "undated"
+  },
+  {
+   "company": "Denso Corp.",
+   "use": "GitHub Copilot used to accelerate development of the autonomous robot's control software, generating and testing new robotic functions (basic architecture completed in two days). [GitHub Copilot]",
+   "existence": "confirmed",
+   "value": "basic architecture completed in 2 days",
+   "tier": "",
+   "url": "https://www.microsoft.com/en-us/microsoft-cloud/blog/2024/05/28/showcasing-ai-powered-business-transformation-in-japan/",
+   "raw_sector": "",
+   "date": "2024-05-28",
+   "fresh": "aging"
+  },
+  {
+   "company": "Denso Corp.",
+   "use": "In-house ChatGPT system (Processing DX Laboratory) that uses generative AI to structure disparate unstructured data (handwritten notes, PDFs, Excel), add searchable tags and catalog technical information for retrieval, automating previously manual tasks. [Avanade Insight Discovery + Microsoft Azure OpenAI]",
+   "existence": "claimed",
+   "value": "employees set to save hours of work",
+   "tier": "",
+   "url": "https://www.technologyrecord.com/article/avanade-helps-denso-make-sense-of-data-with-ai",
+   "raw_sector": "",
+   "date": "2024-04-18",
+   "fresh": "aging"
+  },
+  {
+   "company": "Denso Corp.",
+   "use": "Global supply chain, finance and HR modernization on Oracle Fusion Cloud Applications with AI at the core; joint AI center of excellence to apply AI across supply chain workflows. [Oracle Fusion Cloud Applications]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.oracle.com/news/announcement/denso-transforms-global-supply-chain-operations-2026-04-15/",
+   "raw_sector": "",
+   "date": "2026-04-15",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Denso Corp.",
+   "use": "Machinery & Tools Division adopted CADDi AI data platform (CADDi Drawer + CADDi Quote) for manufacturing data utilization, AI-powered quotation and knowledge preservation from retiring engineers across ~1,500 equipment units built annually. [CADDi]",
+   "existence": "confirmed",
+   "value": "cut quotation time in half",
+   "tier": "",
+   "url": "https://us.caddi.com/resources/news/densos-machinery-tools-division-transforms-business-operations-by-introducing-caddi-an-ai-data-platform-for-the-manufacturing-industry",
+   "raw_sector": "",
+   "date": "2025-04-02",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Denso Corp.",
+   "use": "Company-wide generative AI adoption on a secure digital platform serving all 160,000 associates (frontline associates given personal digital devices), with digital-training proficiency targets, part of DENSO's AI-first transformation. [none]",
+   "existence": "confirmed",
+   "value": "160,000 associates; 50% digital proficiency target by FY2025",
+   "tier": "",
+   "url": "https://www.imd.org/entity-profile/denso-ai-maturity-2025/",
+   "raw_sector": "",
+   "date": "2025-01-01",
+   "fresh": "fresh"
   }
  ]
 }

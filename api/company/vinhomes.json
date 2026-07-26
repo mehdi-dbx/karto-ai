@@ -3,21 +3,21 @@
  "name": "Vinhomes",
  "cc": "VN",
  "vertical": "Real Estate & Construction",
- "deployments": 1,
- "confirmed": 1,
- "with_value_number": 0,
- "proof_rate": 0.0,
+ "deployments": 9,
+ "confirmed": 9,
+ "with_value_number": 3,
+ "proof_rate": 0.333,
  "mktcap": 20849200000.0,
  "revenue": 6130800000.0,
  "employees": 12155.0,
  "silent": false,
- "per_bn_revenue": 0.16,
- "per_10k_emp": 0.82,
+ "per_bn_revenue": 1.47,
+ "per_10k_emp": 7.4,
  "benchmarks": {
   "global_vertical": {
-   "deployments": 0,
-   "confirmed": 31,
-   "proof_rate": 0,
+   "deployments": 80,
+   "confirmed": 93,
+   "proof_rate": 61,
    "n": 154
   }
  },
@@ -25,17 +25,24 @@
  "by_year": [
   {
    "year": 2022,
+   "n": 5
+  },
+  {
+   "year": 2023,
    "n": 1
   }
  ],
- "undated_pct": 0,
+ "undated_pct": 33,
  "momentum": "early_mover,gone_quiet",
- "maturity": "L3",
+ "maturity": "L4",
  "maturity_evidence": [
+  "multi_horizontal",
   "named_product:Vinhomes",
+  "value_number",
+  "multi_year",
   "tier_p"
  ],
- "prospect_score": 54,
+ "prospect_score": 89,
  "stack": [],
  "vendor_named": false,
  "deployments_detail": [
@@ -49,6 +56,94 @@
    "raw_sector": "Real Estate",
    "date": "2022-07",
    "fresh": "stale"
+  },
+  {
+   "company": "Vinhomes",
+   "use": "AI virtual assistant ('Hey Vinhomes') on the Vinhomes Resident app acts as a resident 'butler': voice/text queries to find parking, check and pay bills, book/cancel amenity reservations, read announcements and weather. [VinBigdata (ViVi AI, Vingroup)]",
+   "existence": "confirmed",
+   "value": "~350,000 residents across 26 urban areas",
+   "tier": "",
+   "url": "https://vnexpress.net/vinhomes-ra-mat-tro-ly-ao-danh-cho-cu-dan-4493025.html",
+   "raw_sector": "",
+   "date": "2022-07",
+   "fresh": "stale"
+  },
+  {
+   "company": "Vinhomes",
+   "use": "AI-enabled smart home: residents control lighting, curtains, AC and devices via smartphone or voice commands, with environmental sensors that monitor indoor conditions and alert to hazards such as water leaks or fire risks. [Vinhomes (Vingroup)]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://vinhomebysalereal.vn/vinhomes-smart-city-ung-dung-cong-nghe-thong-minh/",
+   "raw_sector": "",
+   "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "Vinhomes",
+   "use": "GuardPro AI video analytics turns ordinary IP cameras into a security system across Vinhomes megacities, running face recognition, license plate recognition, crowd/anomaly detection and real-time alerts. Operational since May 2023. [VinAI (Vingroup); Qualcomm Cloud AI 100 NPU]",
+   "existence": "confirmed",
+   "value": "11,000+ video streams; 10 AI features; 35% capex savings; >50% inference power savings",
+   "tier": "",
+   "url": "https://www.vinai.io/vinai-guardpro-massive-real-time-video-analytics-high-performance-and-low-power-consumption-ai-solution-with-qualcomm-cloud-ai-100/",
+   "raw_sector": "",
+   "date": "2023-05",
+   "fresh": "stale"
+  },
+  {
+   "company": "Vinhomes",
+   "use": "Vizone IVA smart surveillance: VinBigdata developed and integrated AI models for people, vehicle and license-plate monitoring on AMD hardware, deployed in Vinhomes megacities for security and traffic-flow analytics. [VinBigdata (Vingroup); AMD hardware]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://vinbigdata.com/case-study-product/hst-vizone/vizone-iva",
+   "raw_sector": "",
+   "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "Vinhomes",
+   "use": "Facial-recognition access control: Face ID integrated into building/elevator systems for floor-level access restriction and contactless resident entry at Vinhomes Smart City, Ocean Park and Grand Park. [Vinhomes (Vingroup)]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://vneconomy.vn/techconnect/vinhomes-trien-khai-he-thong-an-ninh-da-lop-thong-minh-tai-cac-dai-do-thi.htm",
+   "raw_sector": "",
+   "date": "2022-11",
+   "fresh": "stale"
+  },
+  {
+   "company": "Vinhomes",
+   "use": "Multi-layer AI smart security shield: AI cameras plus sensor layers detect unauthorized intrusion, glass breakage, abnormal movement and falls lasting over 20 seconds, pushing real-time alerts to security centers and resident apps. [Vinhomes (Vingroup)]",
+   "existence": "confirmed",
+   "value": "5 security layers",
+   "tier": "",
+   "url": "https://vneconomy.vn/techconnect/vinhomes-trien-khai-he-thong-an-ninh-da-lop-thong-minh-tai-cac-dai-do-thi.htm",
+   "raw_sector": "",
+   "date": "2022-11",
+   "fresh": "stale"
+  },
+  {
+   "company": "Vinhomes",
+   "use": "AI virtual assistant on the Vinhomes Online website acts as a 24/7 sales consultant for prospective buyers: answers product questions, schedules viewing appointments and tracks transaction status without needing to travel. [VinBigdata (ViVi AI, Vingroup)]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://vnexpress.net/vinhomes-ra-mat-tro-ly-ao-danh-cho-cu-dan-4493025.html",
+   "raw_sector": "",
+   "date": "2022-07",
+   "fresh": "stale"
+  },
+  {
+   "company": "Vinhomes",
+   "use": "24/7 Intelligent Operations Center at Vinhomes Smart City uses AI to monitor and optimize the whole urban area (electricity, lighting, HVAC, ventilation, security cameras), delivering comprehensive oversight and timely alerts for issue resolution. [Vinhomes (Vingroup)]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://vinhomebysalereal.vn/vinhomes-smart-city-ung-dung-cong-nghe-thong-minh/",
+   "raw_sector": "",
+   "date": "missing",
+   "fresh": "undated"
   }
  ]
 }

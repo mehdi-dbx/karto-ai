@@ -3,28 +3,28 @@
  "name": "Uber",
  "cc": "US",
  "vertical": "Industrial / Machinery",
- "deployments": 11,
- "confirmed": 11,
+ "deployments": 17,
+ "confirmed": 15,
  "with_value_number": 3,
- "proof_rate": 0.273,
+ "proof_rate": 0.176,
  "mktcap": 140200000000.0,
  "revenue": 53690000000.0,
  "employees": 34000.0,
  "silent": false,
- "per_bn_revenue": 0.2,
- "per_10k_emp": 3.24,
+ "per_bn_revenue": 0.32,
+ "per_10k_emp": 5.0,
  "benchmarks": {
   "global_vertical": {
-   "deployments": 95,
-   "confirmed": 99,
-   "proof_rate": 71,
-   "n": 175
+   "deployments": 97,
+   "confirmed": 100,
+   "proof_rate": 56,
+   "n": 176
   },
   "country_vertical": {
-   "deployments": 96,
+   "deployments": 98,
    "confirmed": 100,
-   "proof_rate": 84,
-   "n": 80
+   "proof_rate": 64,
+   "n": 81
   }
  },
  "first_seen": 2022,
@@ -42,7 +42,7 @@
    "n": 5
   }
  ],
- "undated_pct": 9,
+ "undated_pct": 41,
  "momentum": "early_mover,rising",
  "maturity": "L4",
  "maturity_evidence": [
@@ -52,9 +52,14 @@
   "multi_year",
   "tier_p"
  ],
- "prospect_score": 97,
- "stack": [],
- "vendor_named": false,
+ "prospect_score": 93,
+ "stack": [
+  "Anthropic",
+  "Microsoft",
+  "NVIDIA",
+  "OpenAI"
+ ],
+ "vendor_named": true,
  "deployments_detail": [
   {
    "company": "Uber",
@@ -65,6 +70,72 @@
    "url": "https://www.uber.com/us/en/ai-solutions/",
    "raw_sector": "Industrials",
    "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "Uber",
+   "use": "Generative AI for FAQ creation and knowledge ecosystem [Writer]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://writer.com/blog/uber-customer-story/",
+   "raw_sector": "",
+   "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "Uber",
+   "use": "Data labeling and product testing for generative AI models",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.uber.com/us/en/ai-solutions/",
+   "raw_sector": "",
+   "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "Uber",
+   "use": "ADAS and Lidar data labeling for autonomous vehicles",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.uber.com/us/en/ai-solutions/",
+   "raw_sector": "",
+   "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "Uber",
+   "use": "AI-powered data labeling and localization across 30 countries",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.uber.com/us/en/ai-solutions/",
+   "raw_sector": "",
+   "date": "Jun 23, 2025",
+   "fresh": "undated"
+  },
+  {
+   "company": "Uber",
+   "use": "Autonomous vehicle deployment powered by NVIDIA AI architecture [NVIDIA]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://investor.uber.com/news-events/news/press-release-details/2025/Uber-to-Deploy-One-of-the-Worlds-Largest-Networks-of-Autonomous-Vehicles-Powered-by-NVIDIA-AI-Architecture/default.aspx",
+   "raw_sector": "",
+   "date": "Oct 28, 2025",
+   "fresh": "undated"
+  },
+  {
+   "company": "Uber",
+   "use": "Michelangelo ML platform for predictive and generative AI",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.uber.com/us/en/blog/from-predictive-to-generative-ai/",
+   "raw_sector": "",
+   "date": "May 2, 2024",
    "fresh": "undated"
   },
   {

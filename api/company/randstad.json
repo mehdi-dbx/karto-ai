@@ -3,7 +3,7 @@
  "name": "Randstad",
  "cc": "NL",
  "vertical": "Legal & Professional Services",
- "deployments": 1,
+ "deployments": 3,
  "confirmed": 1,
  "with_value_number": 0,
  "proof_rate": 0.0,
@@ -11,11 +11,11 @@
  "revenue": 24883200000.0,
  "employees": 38000.0,
  "silent": false,
- "per_bn_revenue": 0.04,
- "per_10k_emp": 0.26,
+ "per_bn_revenue": 0.12,
+ "per_10k_emp": 0.79,
  "benchmarks": {
   "global_vertical": {
-   "deployments": 0,
+   "deployments": 18,
    "confirmed": 9,
    "proof_rate": 0,
    "n": 12
@@ -25,19 +25,21 @@
  "by_year": [
   {
    "year": 2025,
-   "n": 1
+   "n": 2
   }
  ],
- "undated_pct": 0,
- "momentum": "early_mover,rising",
+ "undated_pct": 33,
+ "momentum": "rising",
  "maturity": "L3",
  "maturity_evidence": [
   "named_product:Workday",
   "tier_p"
  ],
- "prospect_score": 54,
- "stack": [],
- "vendor_named": false,
+ "prospect_score": 46,
+ "stack": [
+  "Google"
+ ],
+ "vendor_named": true,
  "deployments_detail": [
   {
    "company": "Randstad",
@@ -48,6 +50,28 @@
    "url": "https://www.randstad.com",
    "raw_sector": "Staffing",
    "date": "2025",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Randstad",
+   "use": "Named as a Google Gemini / Vertex AI customer/case study [Google Gemini / Vertex AI] [Google Gemini / Vertex AI]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://blog.google/innovation-and-ai/infrastructure-and-cloud/google-cloud/gemini-at-work-ai-agents/",
+   "raw_sector": "",
+   "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "Randstad",
+   "use": "AI-assisted recruiting agent for talent matching [Workday]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.randstad.com/press/2025/workday-randstad-partner-to-transform-hiring-with-ai/",
+   "raw_sector": "",
+   "date": "2025-02-26",
    "fresh": "fresh"
   }
  ]

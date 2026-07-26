@@ -3,39 +3,53 @@
  "name": "Rheinmetall",
  "cc": "DE",
  "vertical": "Aerospace & Defence",
- "deployments": 1,
- "confirmed": 1,
- "with_value_number": 0,
- "proof_rate": 0.0,
+ "deployments": 10,
+ "confirmed": 4,
+ "with_value_number": 2,
+ "proof_rate": 0.2,
  "mktcap": 50662800000.0,
  "revenue": 10875600000.0,
  "employees": 28815.0,
  "silent": false,
- "per_bn_revenue": 0.09,
- "per_10k_emp": 0.35,
+ "per_bn_revenue": 0.92,
+ "per_10k_emp": 3.47,
  "benchmarks": {
   "global_vertical": {
-   "deployments": 0,
-   "confirmed": 29,
-   "proof_rate": 0,
+   "deployments": 100,
+   "confirmed": 71,
+   "proof_rate": 86,
    "n": 8
   }
  },
- "first_seen": 2024,
+ "first_seen": 2022,
  "by_year": [
   {
+   "year": 2022,
+   "n": 1
+  },
+  {
    "year": 2024,
+   "n": 5
+  },
+  {
+   "year": 2025,
+   "n": 3
+  },
+  {
+   "year": 2026,
    "n": 1
   }
  ],
  "undated_pct": 0,
- "momentum": "early_mover,gone_quiet",
- "maturity": "L3",
+ "momentum": "early_mover,cooling",
+ "maturity": "L4",
  "maturity_evidence": [
   "named_product:ELROB",
+  "value_number",
+  "multi_year",
   "tier_p"
  ],
- "prospect_score": 54,
+ "prospect_score": 64,
  "stack": [],
  "vendor_named": false,
  "deployments_detail": [
@@ -48,6 +62,105 @@
    "url": "https://www.rheinmetall.com/de/produkte/digitalisierung/uebersicht",
    "raw_sector": "Aerospace & Defence",
    "date": "2024",
+   "fresh": "aging"
+  },
+  {
+   "company": "Rheinmetall",
+   "use": "Battlesuite, a networked combat digital platform built on blackned's Tactical Core middleware, acts as the central hub for battlefield data flow and decision-making, supported by state-of-the-art AI to accelerate the sensor-to-shooter chain and integrate new AI-enabled capabilities as modular 'apps'. Demonstrated at NATO REPMUS / Dynamic Messenger 2025 exercises; Tactical Core is the operating system for the German Bundeswehr D-LBO (Digitalization of Land-Based Operations) program (EUR 1.2bn integration contract). [blackned (Rheinmetall subsidiary) Tactical Core / RIDUX middleware]",
+   "existence": "confirmed",
+   "value": "EUR 1.2 billion D-LBO IT-integration contract",
+   "tier": "",
+   "url": "https://www.rheinmetall.com/en/products/digital-forces/battlesuite",
+   "raw_sector": "",
+   "date": "2025-05-26",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Rheinmetall",
+   "use": "Strategic partnership with defence-AI firm Helsing to develop next-generation software-defined, AI-enabled land combat systems, combining Rheinmetall's platforms with Helsing's military-grade AI for target identification and battlefield decision support. [Helsing (defence AI software)]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.rheinmetall.com/en/media/news-watch/news/2022/2022-09-15_rheinmetall-and-helsing-partners-for-the-next-generation-of-armed-forces",
+   "raw_sector": "",
+   "date": "2022-09-15",
+   "fresh": "stale"
+  },
+  {
+   "company": "Rheinmetall",
+   "use": "Partnership with Auterion to develop a standardized AI-based drone operating system (AuterionOS, incl. AI-powered swarm capability Nemyx) for military unmanned systems, enabling interoperability across 200+ drone types. Auterion already supplies software for some Rheinmetall drones; Rheinmetall took a direct stake in Auterion in Nov 2025. [Auterion (AuterionOS / Nemyx)]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://auterion.com/rheinmetall-and-auterion-are-working-together-on-drone-technology-and-developing-standard-operating-system-for-military-industries/",
+   "raw_sector": "",
+   "date": "2024-12-09",
+   "fresh": "aging"
+  },
+  {
+   "company": "Rheinmetall",
+   "use": "Strategic partnership with Anduril to co-develop and manufacture software-defined autonomous air systems for Europe (Barracuda cruise missiles, Fury autonomous fighter/CCA) plus solid rocket motors, using Anduril's autonomy/AI software stack, with Rheinmetall providing European production capacity. [Anduril (Barracuda, Fury autonomous air systems)]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.anduril.com/news/anduril-industries-and-rheinmetall-partner-to-design-and-manufacture-barracuda-fury-and-solid",
+   "raw_sector": "",
+   "date": "2025-06-18",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Rheinmetall",
+   "use": "Mission Master family of uncrewed ground vehicles (developed by Rheinmetall Canada) using an AI-enabled autonomy kit (PATH) that provides perception, navigation and decision-making across GPS-degraded and complex terrain. Delivered to the US Marine Corps (2024) and used in trials/training. [Rheinmetall Canada PATH autonomy kit]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.rheinmetall.com/en/products/uncrewed-systems-and-autonomous-navigation-technology/mission-master-a-ugs",
+   "raw_sector": "",
+   "date": "2024-03-11",
+   "fresh": "aging"
+  },
+  {
+   "company": "Rheinmetall",
+   "use": "Rheinmetall UK is a member of the Raytheon UK-led 'Omnia Training' consortium awarded a GBP 2bn / 15-year UK MoD contract to deliver an AI-based Combat Laboratory: a digital platform using AI, advanced analytics and virtual environments to train up to 60,000 British soldiers a year and support command decision-making. [Omnia Training consortium (Raytheon UK lead; Rheinmetall UK, Capita, Cervus, Skyral)]",
+   "existence": "claimed",
+   "value": "GBP 2 billion ($2.7bn) over 15 years",
+   "tier": "",
+   "url": "https://www.gov.uk/government/news/ai-battle-lab-to-prepare-british-army-for-modern-warfare",
+   "raw_sector": "",
+   "date": "2026-07-10",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Rheinmetall",
+   "use": "Use of Spleenlab's VISIONAIRY AI-based perception software (autonomous navigation, GPS-denied localization, multi-object detection) for Rheinmetall's unmanned/drone and sensor systems, per Spleenlab's Rheinmetall customer story. [Spleenlab (VISIONAIRY AI perception)]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.spleenlab.ai/customer-story-rheinmetall",
+   "raw_sector": "",
+   "date": "2025-01-01",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Rheinmetall",
+   "use": "Joint development of a layered Counter-small-UAS (C-sUAS) air defense system integrating Rheinmetall's Skymaster command-and-control system and high-power guns with Anduril's Lattice AI software, Sentry Towers, Wisp sensors and Anvil interceptors to autonomously detect, identify and defeat drones. [Anduril (Lattice AI)]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.anduril.com/news/rheinmetall-and-anduril-join-forces-to-develop-c-suas-system",
+   "raw_sector": "",
+   "date": "2024-06-19",
+   "fresh": "aging"
+  },
+  {
+   "company": "Rheinmetall",
+   "use": "AI-powered 3D digital twin (built with SPREAD.ai) for the Oerlikon Skyranger 30 air-defence system at Rheinmetall Air Defence, integrating PLM/PDM/CAD data via smart connectors to enable predictive and preventive maintenance, spare-parts management and mission readiness. [SPREAD.ai (knowledge-based-engineering digital twin)]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.spread.ai/resources/stories/knowledge-based-engineering-in-defense-building-a-defense-digital-twin-with-rheinmetall-air-defence",
+   "raw_sector": "",
+   "date": "2024-11-04",
    "fresh": "aging"
   }
  ]

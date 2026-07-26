@@ -3,43 +3,72 @@
  "name": "Marvell Technology",
  "cc": "US",
  "vertical": "Technology",
- "deployments": 1,
- "confirmed": 1,
+ "deployments": 8,
+ "confirmed": 4,
  "with_value_number": 0,
  "proof_rate": 0.0,
  "mktcap": 181630000000.0,
  "revenue": 8720000000.0,
  "employees": 7480.0,
  "silent": false,
- "per_bn_revenue": 0.11,
- "per_10k_emp": 1.34,
+ "per_bn_revenue": 0.92,
+ "per_10k_emp": 10.7,
  "benchmarks": {
   "global_vertical": {
-   "deployments": 0,
-   "confirmed": 6,
+   "deployments": 45,
+   "confirmed": 41,
    "proof_rate": 0,
-   "n": 156
+   "n": 159
   },
   "country_vertical": {
-   "deployments": 0,
-   "confirmed": 4,
+   "deployments": 38,
+   "confirmed": 38,
    "proof_rate": 0,
    "n": 74
   }
  },
- "first_seen": null,
- "by_year": [],
- "undated_pct": 100,
- "momentum": "none",
- "maturity": "L3",
+ "first_seen": 2023,
+ "by_year": [
+  {
+   "year": 2023,
+   "n": 1
+  },
+  {
+   "year": 2024,
+   "n": 2
+  },
+  {
+   "year": 2025,
+   "n": 4
+  }
+ ],
+ "undated_pct": 12,
+ "momentum": "early_mover,rising",
+ "maturity": "L4",
  "maturity_evidence": [
   "named_product:Custom",
+  "multi_year",
   "tier_p"
  ],
- "prospect_score": 54,
- "stack": [],
- "vendor_named": false,
+ "prospect_score": 64,
+ "stack": [
+  "Databricks",
+  "Microsoft",
+  "NVIDIA"
+ ],
+ "vendor_named": true,
  "deployments_detail": [
+  {
+   "company": "Marvell Technology",
+   "use": "Marvell engineers/interns use AI coding tools as 'teammates' in software development, reporting cleaner code, faster issue resolution and better team alignment in fast-paced development work. [AI coding assistants (unspecified)]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.linkedin.com/posts/marvell_at-marvell-interns-are-exploring-how-ai-activity-7377009072254107648-P66c",
+   "raw_sector": "",
+   "date": "2025-09",
+   "fresh": "fresh"
+  },
   {
    "company": "Marvell Technology",
    "use": "Custom AI silicon (accelerators/CPUs) + optical interconnects/co-packaged optics for AI data centers",
@@ -50,6 +79,72 @@
    "raw_sector": "Information Technology",
    "date": "missing",
    "fresh": "undated"
+  },
+  {
+   "company": "Marvell Technology",
+   "use": "Marvell adopted Synopsys.ai Formal Advisor Copilot (generative AI) in its chip verification flow to automate property/assertion generation and assist engineers, reducing formal verification times and improving onboarding for new engineers. [Synopsys (Synopsys.ai Formal Advisor Copilot)]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.synopsys.com/success-stories/marvell-gen-ai-formal-verification.html",
+   "raw_sector": "",
+   "date": "2025",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Marvell Technology",
+   "use": "Marvell uses the Synopsys.ai big-data / chip data analytics EDA tool to analyze the massive data generated during chip manufacturing and testing, improving process efficiency and quality and targeting reduced manufacturing/test costs. Greg Bazan (senior principal engineer) states the tool 'has been vital to improve the efficiency and quality of our manufacturing process.' [Synopsys (Synopsys.ai EDA Data Analytics)]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://investor.synopsys.com/news/news-details/2023/Synopsys-Extends-Synopsys.ai-EDA-Suite-with-Industrys-First-Full-Stack-Big-Data-Analytics-Solution/default.aspx",
+   "raw_sector": "",
+   "date": "2023-09-06",
+   "fresh": "stale"
+  },
+  {
+   "company": "Marvell Technology",
+   "use": "Marvell taps the Databricks Data Intelligence Platform to power its AI-driven solutions, using Unity Catalog for centralized governance (quality, security, lineage) over secure, compliant and transparent data and AI workflows. [Databricks (Data Intelligence Platform, Unity Catalog)]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.databricks.com/blog/data-intelligence-action-100-data-and-ai-use-cases-databricks-customers",
+   "raw_sector": "",
+   "date": "2025-07-09",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Marvell Technology",
+   "use": "Marvell built an internal retrieval-augmented generation (RAG) system / custom LLM to assist chip designers with Verilog design and verification queries and early anomaly detection, streamlining the design/verification process (developed via Marvell's first GenAI intern program, exploring Copilot extensions). [Marvell internal (LLM/RAG; explored GitHub Copilot extensions)]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.marvell.com/blogs/marvells-first-genai-intern.html",
+   "raw_sector": "",
+   "date": "2024-06-26",
+   "fresh": "aging"
+  },
+  {
+   "company": "Marvell Technology",
+   "use": "Marvell's advanced packaging platform for custom AI accelerators leverages NVIDIA machine learning models to shift testing from reactive to predictive, improving throughput, yield and overall quality. [NVIDIA (machine learning models)]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.linkedin.com/posts/marvell_marvell-delivers-advanced-packaging-platform-activity-7333842254886846464-KrJH",
+   "raw_sector": "",
+   "date": "2025-05-29",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Marvell Technology",
+   "use": "Marvell has adopted generative AI tools internally for employees and established a formal internal policy governing the usage of generative artificial intelligence tools across the company. [Internal generative AI tools (governance policy)]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.marvell.com/content/dam/marvell/en/company/assets/marvell-sustainability-report-fy24.pdf",
+   "raw_sector": "",
+   "date": "2024",
+   "fresh": "aging"
   }
  ]
 }

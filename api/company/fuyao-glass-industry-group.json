@@ -3,41 +3,59 @@
  "name": "Fuyao Glass Industry Group",
  "cc": "CN",
  "vertical": "Manufacturing & Robotics",
- "deployments": 1,
- "confirmed": 0,
- "with_value_number": 1,
- "proof_rate": 1.0,
+ "deployments": 9,
+ "confirmed": 6,
+ "with_value_number": 7,
+ "proof_rate": 0.778,
  "mktcap": 19452777778.0,
  "revenue": 6429166667.0,
  "employees": 42541.0,
  "silent": false,
- "per_bn_revenue": 0.16,
- "per_10k_emp": 0.24,
+ "per_bn_revenue": 1.4,
+ "per_10k_emp": 2.12,
  "benchmarks": {
   "global_vertical": {
-   "deployments": 0,
-   "confirmed": 0,
-   "proof_rate": 85,
-   "n": 147
+   "deployments": 75,
+   "confirmed": 76,
+   "proof_rate": 97,
+   "n": 150
   },
   "country_vertical": {
-   "deployments": 0,
-   "confirmed": 0,
-   "proof_rate": 64,
+   "deployments": 64,
+   "confirmed": 64,
+   "proof_rate": 100,
    "n": 12
   }
  },
- "first_seen": null,
- "by_year": [],
- "undated_pct": 100,
- "momentum": "none",
- "maturity": "L1",
- "maturity_evidence": [
-  "rows_no_confirmed"
+ "first_seen": 2019,
+ "by_year": [
+  {
+   "year": 2019,
+   "n": 1
+  },
+  {
+   "year": 2025,
+   "n": 3
+  },
+  {
+   "year": 2026,
+   "n": 4
+  }
  ],
- "prospect_score": 0,
- "stack": [],
- "vendor_named": false,
+ "undated_pct": 11,
+ "momentum": "early_mover,rising",
+ "maturity": "L4",
+ "maturity_evidence": [
+  "multi_horizontal",
+  "named_product:Digital",
+  "value_number",
+  "multi_year"
+ ],
+ "prospect_score": 45,
+ "stack": [
+  "Oracle"
+ ],
+ "vendor_named": true,
  "deployments_detail": [
   {
    "company": "Fuyao Glass Industry Group",
@@ -49,6 +67,94 @@
    "raw_sector": "Consumer Discretionary",
    "date": "missing",
    "fresh": "undated"
+  },
+  {
+   "company": "Fuyao Glass Industry Group",
+   "use": "AI machine-vision quality inspection on automotive glass lines: deep-learning defect detection using 20-megapixel cameras achieving 0.01mm-grade precision and autonomous optical online inspection and cutting, replacing manual QC across every glass piece. [In-house (deep-learning vision)]",
+   "existence": "confirmed",
+   "value": "0.01mm inspection precision; ~30% defect-rate reduction after intelligent-equipment deployment",
+   "tier": "",
+   "url": "https://www.fuyaogroup.com/news_692.html",
+   "raw_sector": "",
+   "date": "2025",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Fuyao Glass Industry Group",
+   "use": "AI-driven flexible/mixed-line production scheduling: intelligent algorithms optimize delivery deadlines and material inventory so a single line can switch among dozens of glass specifications within an hour (high-mix production). [In-house]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://xueqiu.com/1706376775/377838548/398233062",
+   "raw_sector": "",
+   "date": "2026",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Fuyao Glass Industry Group",
+   "use": "Smart factory with MES manufacturing-execution system plus industrial IoT and big-data optimization on fully automated production lines (interconnected sensors, real-time order-to-delivery optimization, ~600 tons/day). [In-house]",
+   "existence": "confirmed",
+   "value": "production efficiency +30.5%; defect rate -30%; energy utilization +12%",
+   "tier": "",
+   "url": "https://www.fuyaogroup.com/news_692.html",
+   "raw_sector": "",
+   "date": "2025",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Fuyao Glass Industry Group",
+   "use": "Robotic automation of glass production: ranks of robotic arms and a fleet of automated carriers move fragile panes; the Hefei plant runs ~90% automated production as the company's technological blueprint. [In-house / robotics]",
+   "existence": "confirmed",
+   "value": "~90% automated production at Hefei plant",
+   "tier": "",
+   "url": "https://www.scmp.com/tech/tech-trends/article/3354478/inside-fuyao-glass-chinese-auto-part-supplier-whose-head-earned-seat-elon-musk",
+   "raw_sector": "",
+   "date": "2025",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Fuyao Glass Industry Group",
+   "use": "AI intelligent-dimming privacy glass co-developed with XPeng for the XPeng GX: LC dye liquid-crystal glass integrated with the vehicle AI large model / voice assistant ('summon Xiao P') for second-level automatic dimming; 0.16s dimming response; mass-production delivery completed. [XPeng (AI large model / voice assistant); Fuyao (glass)]",
+   "existence": "confirmed",
+   "value": "0.16s dimming response; 99.9% UV / 99.4% visible-light blocking",
+   "tier": "",
+   "url": "https://www.stcn.com/article/detail/3739987.html",
+   "raw_sector": "",
+   "date": "2026-04-10",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Fuyao Glass Industry Group",
+   "use": "'Yuguang' (御光) AI dimming panoramic sunroof: PDLC/EC dimming glass combined with AI algorithms that automatically adjust transparency based on ambient light, temperature, and user preferences. [In-house]",
+   "existence": "claimed",
+   "value": "sunroof shading rate >99.8%",
+   "tier": "",
+   "url": "https://xueqiu.com/1706376775/377838548/398233062",
+   "raw_sector": "",
+   "date": "2026",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Fuyao Glass Industry Group",
+   "use": "Digital-twin energy optimization across smart factories: predictive maintenance and optimized device-operation strategies driven by a digital twin to cut energy consumption. [In-house]",
+   "existence": "confirmed",
+   "value": "energy efficiency improved by >12%",
+   "tier": "",
+   "url": "https://xueqiu.com/1706376775/377838548/398233062",
+   "raw_sector": "",
+   "date": "2026",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Fuyao Glass Industry Group",
+   "use": "Cloud + digital backbone migration applying AI, big data and industrial IoT: consolidated 100+ heterogeneous systems onto a unified cloud (Oracle Fusion/SaaS) to support global intelligent management and data-driven operations. [Oracle Cloud]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.fuyaogroup.com/news_647.html",
+   "raw_sector": "",
+   "date": "2019",
+   "fresh": "stale"
   }
  ]
 }

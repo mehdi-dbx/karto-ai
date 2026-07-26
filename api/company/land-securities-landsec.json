@@ -3,10 +3,10 @@
  "name": "Land Securities (Landsec)",
  "cc": "UK",
  "vertical": "Real Estate & Construction",
- "deployments": 1,
- "confirmed": 1,
- "with_value_number": 1,
- "proof_rate": 1.0,
+ "deployments": 4,
+ "confirmed": 3,
+ "with_value_number": 2,
+ "proof_rate": 0.5,
  "mktcap": null,
  "revenue": null,
  "employees": null,
@@ -15,28 +15,33 @@
  "per_10k_emp": null,
  "benchmarks": {
   "global_vertical": {
-   "deployments": 0,
-   "confirmed": 31,
-   "proof_rate": 71,
+   "deployments": 50,
+   "confirmed": 55,
+   "proof_rate": 82,
    "n": 154
   },
   "country_vertical": {
-   "deployments": 0,
-   "confirmed": 67,
+   "deployments": 83,
+   "confirmed": 83,
    "proof_rate": 100,
    "n": 7
   }
  },
- "first_seen": null,
- "by_year": [],
- "undated_pct": 100,
- "momentum": "none",
+ "first_seen": 2024,
+ "by_year": [
+  {
+   "year": 2024,
+   "n": 2
+  }
+ ],
+ "undated_pct": 50,
+ "momentum": "early_mover,gone_quiet",
  "maturity": "L3",
  "maturity_evidence": [
   "named_product:Landsec GPT",
   "value_number"
  ],
- "prospect_score": 6,
+ "prospect_score": 38,
  "stack": [
   "Microsoft",
   "Microsoft Azure",
@@ -46,12 +51,45 @@
  "deployments_detail": [
   {
    "company": "Land Securities (Landsec)",
+   "use": "Custom Landsec GPT built on Azure OpenAI for investment modelling, development, place-making, leasing, and asset operations [Microsoft Azure OpenAI]",
+   "existence": "claimed",
+   "value": "20-30%",
+   "tier": "",
+   "url": "https://www.landsec.com/en/media-insights/press-releases/landsec-collaborates-microsoft-leverage-power-ai",
+   "raw_sector": "",
+   "date": "2024-04-23",
+   "fresh": "aging"
+  },
+  {
+   "company": "Land Securities (Landsec)",
    "use": "Microsoft collaboration: Copilot 365 + custom \"Landsec GPT\" (Azure OpenAI) across UK portfolio",
    "existence": "confirmed",
    "value": "\"reduced process time by 75%\" (self-claimed, LinkedIn)",
    "tier": "I",
    "url": "https://www.landsec.com/en/media-insights/press-releases/landsec-collaborates-microsoft-leverage-power-ai",
    "raw_sector": "Real estate investment trusts",
+   "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "Land Securities (Landsec)",
+   "use": "Copilot for Microsoft 365 deployment for workplace productivity across Word, Excel, PowerPoint, Outlook, and Teams [Microsoft Copilot for Microsoft 365]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.landsec.com/en/media-insights/press-releases/landsec-collaborates-microsoft-leverage-power-ai",
+   "raw_sector": "",
+   "date": "2024-04-23",
+   "fresh": "aging"
+  },
+  {
+   "company": "Land Securities (Landsec)",
+   "use": "Invoice processing and document automation [Rossum]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://rossum.ai/customer-stories/landsec/",
+   "raw_sector": "",
    "date": "missing",
    "fresh": "undated"
   }

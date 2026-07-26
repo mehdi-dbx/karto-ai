@@ -3,22 +3,22 @@
  "name": "Canadian Pacific Kansas City",
  "cc": "CA",
  "vertical": "Logistics & Supply Chain",
- "deployments": 1,
- "confirmed": 0,
- "with_value_number": 1,
- "proof_rate": 1.0,
+ "deployments": 10,
+ "confirmed": 7,
+ "with_value_number": 8,
+ "proof_rate": 0.8,
  "mktcap": 83904411765.0,
  "revenue": 11014705882.0,
  "employees": 19539.0,
  "silent": false,
- "per_bn_revenue": 0.09,
- "per_10k_emp": 0.51,
+ "per_bn_revenue": 0.91,
+ "per_10k_emp": 5.12,
  "benchmarks": {
   "global_vertical": {
-   "deployments": 0,
-   "confirmed": 0,
-   "proof_rate": 65,
-   "n": 66
+   "deployments": 82,
+   "confirmed": 76,
+   "proof_rate": 94,
+   "n": 67
   }
  },
  "first_seen": 2024,
@@ -26,17 +26,27 @@
   {
    "year": 2024,
    "n": 1
+  },
+  {
+   "year": 2025,
+   "n": 6
+  },
+  {
+   "year": 2026,
+   "n": 3
   }
  ],
  "undated_pct": 0,
- "momentum": "early_mover,gone_quiet",
- "maturity": "L1",
+ "momentum": "early_mover,rising",
+ "maturity": "L4",
  "maturity_evidence": [
-  "rows_no_confirmed"
+  "named_product:Train",
+  "value_number",
+  "multi_year"
  ],
- "prospect_score": 0,
+ "prospect_score": 50,
  "stack": [],
- "vendor_named": false,
+ "vendor_named": true,
  "deployments_detail": [
   {
    "company": "Canadian Pacific Kansas City",
@@ -48,6 +58,105 @@
    "raw_sector": "Industrials",
    "date": "2024",
    "fresh": "aging"
+  },
+  {
+   "company": "Canadian Pacific Kansas City",
+   "use": "Train Inspection Portal System (TIPS): wayside machine-vision portals scan trains at track speed using 35+ cameras capturing 72 high-res images per railcar to detect undercarriage, wheel, bearing, coupler and draft-gear defects human inspectors miss; independently evaluated by the National Research Council of Canada, operational near Maple Creek, Saskatchewan. [In-house (CPKC); evaluated with National Research Council of Canada, University of Alberta, Transport Canada]",
+   "existence": "confirmed",
+   "value": "89% more defects detected vs manual inspection",
+   "tier": "",
+   "url": "https://nrc.canada.ca/en/stories/enhancing-railcar-safety-machine-vision-technology",
+   "raw_sector": "",
+   "date": "2025-01-23",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Canadian Pacific Kansas City",
+   "use": "Optical AEI: CPKC-developed wayside sensor combining lidar, visible/infrared cameras and real-time AI to identify railcar/container equipment numbers (consist accuracy) and detect rolling-stock defects; data streamed to cloud for analysis. [In-house (CPKC)]",
+   "existence": "confirmed",
+   "value": "8 devices installed in Alberta and Missouri, two more by year-end; prototype in 8 weeks",
+   "tier": "",
+   "url": "https://www.progressiverailroading.com/railPrime/details/CPKCs-new-AEI-technology-targets-fewer-accidents-more-efficiencies--75440",
+   "raw_sector": "",
+   "date": "2025-09-23",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Canadian Pacific Kansas City",
+   "use": "Acoustic bearing predictive maintenance: CPKC's patented algorithms analyze acoustic bearing detector data to predict wheel-bearing failures up to three months in advance, enabling proactive removal before failure. [In-house (CPKC)]",
+   "existence": "confirmed",
+   "value": "Bearing-related failures reduced more than 90%",
+   "tier": "",
+   "url": "https://www.cpkcr.com/en/safety/Innovation/Detection-Technology",
+   "raw_sector": "",
+   "date": "2025-10-02",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Canadian Pacific Kansas City",
+   "use": "Cold wheel / automated brake-effectiveness testing: wayside detectors at the base of mountain grades feed a brake-effectiveness analysis system of algorithms measuring wheel/brake-shoe heat to flag cars with defective air brakes and support predictive maintenance. [In-house (CPKC)]",
+   "existence": "confirmed",
+   "value": "50% reduction in air-brake failures since 2019; ~2,600 additional cars tested annually vs manual",
+   "tier": "",
+   "url": "https://www.progressiverailroading.com/railPrime/details/Cold-wheel-technology-benefits-heat-up-for-CPKC--74320",
+   "raw_sector": "",
+   "date": "2025-04-15",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Canadian Pacific Kansas City",
+   "use": "Broken Rail Detection (BRD): in-house real-time electrical-circuit monitoring system that automatically detects broken rails in non-signalled (dark) territory; machine-learning algorithms added to cut false positives and predict component failure. [In-house (CPKC)]",
+   "existence": "confirmed",
+   "value": "Machine learning reduced false-positive detections by 45%",
+   "tier": "",
+   "url": "https://www.linkedin.com/posts/cpkcrail_cpkc-railroaders-built-broken-rail-detection-activity-7463282573381898241-9fFb",
+   "raw_sector": "",
+   "date": "2025-11-01",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Canadian Pacific Kansas City",
+   "use": "Autonomous track inspection fleet: autonomous Track Geometry Measurement System boxcars (including 'Total Track Assessment' cars) using lasers, machine vision and lidar to scan track geometry and rail profile; ENSCO 'combo cluster' algorithm detects low-level VTI exceptions preceding serious defects; rail-surface imaging assigns severity scores. [CPKC with ENSCO]",
+   "existence": "confirmed",
+   "value": "311,554 track-miles measured in 2024 (vs 118,000 in 2023); urgent defects per 100 miles down from 9.03 to 5.37",
+   "tier": "",
+   "url": "https://interfacejournal.com/archives/43890",
+   "raw_sector": "",
+   "date": "2025-08-03",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Canadian Pacific Kansas City",
+   "use": "Center of Excellence for Data Analytics and AI: dedicated data-science team applying predictive rail analytics across wayside detectors, rail-flaw (ultrasonic/induction) detection, track-stress/buckle indexing and 3D tie assessment at 60 mph. [In-house (CPKC)]",
+   "existence": "confirmed",
+   "value": "3 data scientists; target 15% train-accident reduction within 12 months",
+   "tier": "",
+   "url": "https://www.progressiverailroading.com/canadian_pacific_kansas_city/article/CPKC-is-determined-to-lead-the-Class-I-pack-in-transformative-technological-gains--77244",
+   "raw_sector": "",
+   "date": "2026-07-01",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Canadian Pacific Kansas City",
+   "use": "Water body Hazard Monitoring System (WHMS): geohazard monitoring using AI with satellite data, synthetic-aperture radar and multispectral imagery, plus two lidar-equipped test cars, to build a data risk index of water sources near track and pre-empt washout risks. [In-house (CPKC)]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.progressiverailroading.com/canadian_pacific_kansas_city/article/CPKC-is-determined-to-lead-the-Class-I-pack-in-transformative-technological-gains--77244",
+   "raw_sector": "",
+   "date": "2026-07-01",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Canadian Pacific Kansas City",
+   "use": "AI-assisted cross-border customs processing: analytics/AI applied to speed customs clearance across CPKC's tri-national (Canada-US-Mexico) single-line network. [CPKC (undisclosed)]",
+   "existence": "claimed",
+   "value": "Customs processing times reduced from weeks to hours",
+   "tier": "",
+   "url": "https://www.progressiverailroading.com/canadian_pacific_kansas_city/article/CPKC-is-determined-to-lead-the-Class-I-pack-in-transformative-technological-gains--77244",
+   "raw_sector": "",
+   "date": "2026-07-01",
+   "fresh": "fresh"
   }
  ]
 }

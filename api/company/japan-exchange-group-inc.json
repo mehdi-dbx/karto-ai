@@ -3,49 +3,88 @@
  "name": "Japan Exchange Group Inc.",
  "cc": "JP",
  "vertical": "Financial Services",
- "deployments": 1,
- "confirmed": 1,
- "with_value_number": 1,
- "proof_rate": 1.0,
+ "deployments": 11,
+ "confirmed": 9,
+ "with_value_number": 4,
+ "proof_rate": 0.364,
  "mktcap": 15066666667.0,
  "revenue": 1324933333.0,
  "employees": 1268.0,
  "silent": false,
- "per_bn_revenue": 0.75,
- "per_10k_emp": 7.89,
+ "per_bn_revenue": 8.3,
+ "per_10k_emp": 86.75,
  "benchmarks": {
   "global_vertical": {
-   "deployments": 0,
-   "confirmed": 17,
-   "proof_rate": 76,
-   "n": 377
+   "deployments": 72,
+   "confirmed": 73,
+   "proof_rate": 66,
+   "n": 388
   },
   "country_vertical": {
-   "deployments": 0,
-   "confirmed": 0,
-   "proof_rate": 71,
+   "deployments": 79,
+   "confirmed": 93,
+   "proof_rate": 50,
    "n": 15
   }
  },
- "first_seen": 2025,
+ "first_seen": 2018,
  "by_year": [
   {
-   "year": 2025,
+   "year": 2018,
    "n": 1
+  },
+  {
+   "year": 2024,
+   "n": 2
+  },
+  {
+   "year": 2025,
+   "n": 5
+  },
+  {
+   "year": 2026,
+   "n": 3
   }
  ],
  "undated_pct": 0,
- "momentum": "rising",
- "maturity": "L3",
+ "momentum": "early_mover,rising",
+ "maturity": "L4",
  "maturity_evidence": [
+  "multi_horizontal",
   "named_product:J-LENS",
   "value_number",
+  "multi_year",
   "tier_p"
  ],
- "prospect_score": 14,
- "stack": [],
- "vendor_named": false,
+ "prospect_score": 79,
+ "stack": [
+  "Amazon AWS",
+  "Microsoft"
+ ],
+ "vendor_named": true,
  "deployments_detail": [
+  {
+   "company": "Japan Exchange Group Inc.",
+   "use": "Internal generative-AI adoption for employees: internally developed generative-AI applications plus Microsoft 365 Copilot for document preparation and knowledge sharing across JPX staff under the Medium-Term Management Plan 2027. [Microsoft 365 Copilot]",
+   "existence": "confirmed",
+   "value": "~12 working hours saved per employee per month (internal survey)",
+   "tier": "",
+   "url": "https://tradeinformer.com/tech-news/jpx-ai-adoption-saves-employee-hours-2026",
+   "raw_sector": "",
+   "date": "2026-04-28",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Japan Exchange Group Inc.",
+   "use": "Survey of TCFD/climate disclosure using generative AI: JPX used generative AI to automatically determine whether climate-related information was disclosed in Annual Securities Reports across surveyed listed companies. [none]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.jpx.co.jp/english/corporate/sustainability/esg-investment/support/b5b4pj000002z9ey-att/Survey_TCFD_Disclosure_Using_Generative_AI_en.pdf",
+   "raw_sector": "",
+   "date": "2024-03-26",
+   "fresh": "aging"
+  },
   {
    "company": "Japan Exchange Group Inc.",
    "use": "\"J-LENS\" AI disclosure-information natural-language search service (β Dec 2025); generative AI for internal ops",
@@ -55,6 +94,94 @@
    "url": "https://www.jpx.co.jp/corporate/news/news-releases/6020/20260629-02.html",
    "raw_sector": "Other Financial Services",
    "date": "2025-12",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Japan Exchange Group Inc.",
+   "use": "JPxData Portal: uses generative AI to analyze disclosure documents and earnings reports and auto-assign keyword/business tags so users can search listed companies by product or service names. [none]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.prnewswire.com/news-releases/announcing-the-launch-of-jpxdata-portal-beta-version-a-portal-site-comprehensively-covering-data-provided-by-jpx-group-etc-302306517.html",
+   "raw_sector": "",
+   "date": "2024-11-14",
+   "fresh": "aging"
+  },
+  {
+   "company": "Japan Exchange Group Inc.",
+   "use": "J-LENS: AI-powered natural-language search service over TDnet disclosure documents and securities reports for ~4,000 TSE-listed companies (from 3 years to 2 days before query), aimed at improving investor access to filings. [none]",
+   "existence": "confirmed",
+   "value": "~150,000 disclosure documents filed per year; ~4,000 companies covered",
+   "tier": "",
+   "url": "https://www.japantimes.co.jp/business/2025/12/10/markets/exchange-ai-disclosure-search/",
+   "raw_sector": "",
+   "date": "2025-12-09",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Japan Exchange Group Inc.",
+   "use": "J-LAKE data platform: JPXI's cloud data platform centrally managing market and alternative data, combining AI, machine learning and generative AI to power disclosure-material search and investment-opportunity discovery, built with AWS. [AWS]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://press.aboutamazon.com/2025/11/with-awss-support-jpxi-revs-up-efforts-to-turn-jpx-into-a-global-comprehensive-finance-and-information-platform",
+   "raw_sector": "",
+   "date": "2025-11-04",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Japan Exchange Group Inc.",
+   "use": "TDnet renewal disclosure-preparation support: planned generative-AI feature to assist listed companies throughout the process of preparing corporate disclosure materials. [none]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://mondovisione.com/media-and-resources/news/japan-exchange-group-progress-of-ai-utilization-under-medium-term-management-pl-2026428/",
+   "raw_sector": "",
+   "date": "2026-04-28",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Japan Exchange Group Inc.",
+   "use": "JPX Market Explorer / StockWise: multilingual generative-AI service giving retail and overseas investors company overviews, stock screening, and fundamental ratings for TSE-listed companies, built on Bridgewise's generative AI. [Bridgewise (generative AI), AWS Bedrock]",
+   "existence": "confirmed",
+   "value": "3,600+ TSE stocks covered; 12 languages; 2x site traffic post-launch",
+   "tier": "",
+   "url": "https://bridgewise.com/case-study/japan-exchange-group/",
+   "raw_sector": "",
+   "date": "2025-07-01",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Japan Exchange Group Inc.",
+   "use": "AI-based market surveillance: JPX-Regulation and Tokyo Stock Exchange deploy NEC 'Advanced Analytics - RAPID machine learning' and Hitachi AI Technology/H to score and detect potential unfair trading, letting the AI learn on its own rather than relying on preset patterns so surveillance staff can focus on detailed investigations. [NEC (RAPID machine learning), Hitachi (Hitachi AI Technology/H)]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.nec.com/en/press/201803/global_20180319_02.html",
+   "raw_sector": "",
+   "date": "2018-03-19",
+   "fresh": "stale"
+  },
+  {
+   "company": "Japan Exchange Group Inc.",
+   "use": "Generative AI for CCP risk management: Japan Securities Clearing Corporation (JSCC) proof-of-concept, with NRI, using generative AI to create hypothetical market-data scenarios for risk management / stress testing (JPX Working Paper Vol.48). [Nomura Research Institute (NRI)]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.jpx.co.jp/jscc/en/information/press_releases/20250804.html",
+   "raw_sector": "",
+   "date": "2025-08-04",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Japan Exchange Group Inc.",
+   "use": "AI for listing examination and compliance analysis: JPX applies AI to analyze fraud risks in listing applications and support regulatory compliance reviews under its AI-utilization program. [none]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://mondovisione.com/media-and-resources/news/japan-exchange-group-progress-of-ai-utilization-under-medium-term-management-pl-2026428/",
+   "raw_sector": "",
+   "date": "2026-04-28",
    "fresh": "fresh"
   }
  ]

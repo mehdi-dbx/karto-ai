@@ -3,26 +3,26 @@
  "name": "Amphenol",
  "cc": "US",
  "vertical": "Technology",
- "deployments": 1,
- "confirmed": 1,
+ "deployments": 9,
+ "confirmed": 2,
  "with_value_number": 0,
  "proof_rate": 0.0,
  "mktcap": 193800000000.0,
  "revenue": 25900000000.0,
  "employees": 170000.0,
  "silent": false,
- "per_bn_revenue": 0.04,
- "per_10k_emp": 0.06,
+ "per_bn_revenue": 0.35,
+ "per_10k_emp": 0.53,
  "benchmarks": {
   "global_vertical": {
-   "deployments": 0,
-   "confirmed": 6,
+   "deployments": 49,
+   "confirmed": 11,
    "proof_rate": 0,
-   "n": 156
+   "n": 159
   },
   "country_vertical": {
-   "deployments": 0,
-   "confirmed": 4,
+   "deployments": 42,
+   "confirmed": 7,
    "proof_rate": 0,
    "n": 74
   }
@@ -36,10 +36,36 @@
   "named_product:Manufactures",
   "tier_p"
  ],
- "prospect_score": 54,
- "stack": [],
- "vendor_named": false,
+ "prospect_score": 52,
+ "stack": [
+  "Databricks",
+  "Microsoft",
+  "Microsoft Azure"
+ ],
+ "vendor_named": true,
  "deployments_detail": [
+  {
+   "company": "Amphenol",
+   "use": "Conversational AI technical support assistant that answers connector spec/materials questions, does natural-language product discovery across the catalog, gives design guidance and connector comparison/selection; multi-agent architecture (Product Search, Technical Expert, QC Validation agents) over an LLM + vector DB (Pinecone/Weaviate), FastAPI backend, embeddable React widget. Currently a proof of concept covering ~567 products (~3s latency) with a roadmap to 130,000+ products and PIMS integration before go-live. [Trinesis Technologies (LLM + Pinecone/Weaviate vector DB, FastAPI, React)]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://amphenol-poc.trinesis.com/",
+   "raw_sector": "",
+   "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "Amphenol",
+   "use": "AI & digital-transformation rollout across global engineering teams: executing an engineering 'AI and digital transformation playbook,' ensuring AI solutions are deployed, adopted and sustained by engineering teams worldwide. [none named]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.ziprecruiter.com/c/Amphenol-TCS/Job/AI-&-Digital-Transformation-Execution-Lead-Global-Engineering/-in-Remote,US?jid=ec9d9b2544e7d017",
+   "raw_sector": "",
+   "date": "missing",
+   "fresh": "undated"
+  },
   {
    "company": "Amphenol",
    "use": "Manufactures high-speed interconnect/connectors for AI data centers (OAI 2.0 rack architecture); revenue driven by AI datacenter demand. No internal AI deployment found",
@@ -48,6 +74,72 @@
    "tier": "P",
    "url": "https://www.amphenol-cs.com/artificial-intelligence",
    "raw_sector": "Information Technology",
+   "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "Amphenol",
+   "use": "AI machine-vision quality control / defect detection on the manufacturing line (Overview.ai lists Amphenol among its manufacturing customers). Overview.ai's system does real-time visual defect detection on high-density electronic connectors (missing/broken/bent pins, debris). [Overview.ai (AI vision defect detection)]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.overview.ai/",
+   "raw_sector": "",
+   "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "Amphenol",
+   "use": "Active Electrical Cables (AECs) for AI data centers with built-in predictive telemetry and analytics that monitor SNR, bit-error-rate (BER), Forward Error Correction activity and thermal drift to detect early signs of link degradation before workloads are impacted (predictive-visibility product feature embedded in the cable). [Amphenol Communications Solutions (built-in telemetry/analytics; Marvell PAM4 DSP in AEC platform)]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://videos.amphenol-cs.com/detail/videos/highlights/video/6395391428112/active-electrical-cables-for-ai-data-centers-%7C-predictive-telemetry-analytics-for-gpu-scale-infrastructure",
+   "raw_sector": "",
+   "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "Amphenol",
+   "use": "Internal Audit data & AI modernization: building LLM-powered applications and agentic workflows, RAG solutions, intelligent document processing, and analytics tools for audit planning and risk assessment on scalable Databricks data pipelines (part of an Internal Audit 'technology transformation'). [Databricks, Python, LLMs (RAG / agentic workflows)]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.linkedin.com/jobs/view/manager-data-ai-solutions-engineering-at-amphenol-4431957127",
+   "raw_sector": "",
+   "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "Amphenol",
+   "use": "Enterprise AI enablement / adoption program in the High Speed Backplane Products business unit: an AI Business Analyst role dedicated to helping employees leverage AI tools, automate processes, build reporting dashboards and AI-assisted analytics, and establish AI governance/best practices and training across the organization. [generative AI tools, automation technologies, data visualization (unnamed)]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.linkedin.com/jobs/view/ai-business-analyst-at-amphenol-communications-solutions-4434943030",
+   "raw_sector": "",
+   "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "Amphenol",
+   "use": "Corporate Data Analytics & AI Engineering function (Wallingford HQ): designing, developing and maintaining scalable analytics, automation and AI solutions across the enterprise (cloud/architect data & AI solutions engineering). [Cloud / AI (unnamed)]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://devitjobs.com/jobs/Amphenol-Manager-Data-Analytics--AI-Engineering",
+   "raw_sector": "",
+   "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "Amphenol",
+   "use": "Azure-based data platform for the HSIO (High-Speed IO) business unit: an Azure Data Engineer role building data pipelines and applying statistical analysis and machine-learning concepts on the company's Azure data platform. [Microsoft Azure (data platform + ML)]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.ziprecruiter.com/c/Amphenol-HSIO/Job/Data-Platform-Analyst-(Azure)/-in-Markham,ON?jid=0ddb967ee516392d",
+   "raw_sector": "",
    "date": "missing",
    "fresh": "undated"
   }

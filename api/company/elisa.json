@@ -3,22 +3,22 @@
  "name": "Elisa",
  "cc": "FI",
  "vertical": "Telecom",
- "deployments": 2,
- "confirmed": 2,
+ "deployments": 4,
+ "confirmed": 3,
  "with_value_number": 1,
- "proof_rate": 0.5,
+ "proof_rate": 0.25,
  "mktcap": 5950800000.0,
  "revenue": 2430000000.0,
  "employees": 6068.0,
  "silent": false,
- "per_bn_revenue": 0.82,
- "per_10k_emp": 3.3,
+ "per_bn_revenue": 1.65,
+ "per_10k_emp": 6.59,
  "benchmarks": {
   "global_vertical": {
-   "deployments": 57,
-   "confirmed": 65,
-   "proof_rate": 58,
-   "n": 93
+   "deployments": 14,
+   "confirmed": 24,
+   "proof_rate": 34,
+   "n": 94
   }
  },
  "first_seen": 2026,
@@ -28,7 +28,7 @@
    "n": 1
   }
  ],
- "undated_pct": 50,
+ "undated_pct": 75,
  "momentum": "late_entrant,rising",
  "maturity": "L3",
  "maturity_evidence": [
@@ -37,9 +37,11 @@
   "value_number",
   "tier_p"
  ],
- "prospect_score": 40,
- "stack": [],
- "vendor_named": false,
+ "prospect_score": 48,
+ "stack": [
+  "Google Cloud"
+ ],
+ "vendor_named": true,
  "deployments_detail": [
   {
    "company": "Elisa",
@@ -54,6 +56,17 @@
   },
   {
    "company": "Elisa",
+   "use": "AI-driven autonomous networks and 5.5G service deployment [Google Cloud]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://elisa.com/corporate/news-room/press-releases/elisa-and-google-cloud-expand-collaboration-to-deliver-ai-driven-autonomous-networks/76792880552101/",
+   "raw_sector": "",
+   "date": "Jun 17, 2025",
+   "fresh": "undated"
+  },
+  {
+   "company": "Elisa",
    "use": "Speech-recognition AI bot (NLP) answering calls, speech-to-text, classifying customer speech for business customers",
    "existence": "confirmed",
    "value": "none",
@@ -61,6 +74,17 @@
    "url": "https://yrityksille.elisa.fi/tekoaly",
    "raw_sector": "Telecom",
    "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "Elisa",
+   "use": "Intelligent Energy Saver for network operations",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.gsma.com/solutions-and-impact/technologies/networks/gsma_resources/case-study-elisa-automate/",
+   "raw_sector": "",
+   "date": "Feb 6, 2020",
    "fresh": "undated"
   }
  ]

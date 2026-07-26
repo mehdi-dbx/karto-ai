@@ -3,40 +3,42 @@
  "name": "Hexagon",
  "cc": "SE",
  "vertical": "Technology",
- "deployments": 1,
- "confirmed": 1,
+ "deployments": 4,
+ "confirmed": 2,
  "with_value_number": 0,
  "proof_rate": 0.0,
  "mktcap": 20432380952.0,
  "revenue": 5671428571.0,
  "employees": 16118.0,
  "silent": false,
- "per_bn_revenue": 0.18,
- "per_10k_emp": 0.62,
+ "per_bn_revenue": 0.71,
+ "per_10k_emp": 2.48,
  "benchmarks": {
   "global_vertical": {
-   "deployments": 0,
-   "confirmed": 6,
+   "deployments": 15,
+   "confirmed": 11,
    "proof_rate": 0,
-   "n": 156
+   "n": 159
   }
  },
  "first_seen": 2025,
  "by_year": [
   {
    "year": 2025,
-   "n": 1
+   "n": 4
   }
  ],
  "undated_pct": 0,
  "momentum": "early_mover,rising",
  "maturity": "L3",
  "maturity_evidence": [
+  "multi_horizontal",
   "named_product:AEON",
   "tier_p"
  ],
- "prospect_score": 46,
+ "prospect_score": 52,
  "stack": [
+  "Amazon AWS",
   "NVIDIA"
  ],
  "vendor_named": true,
@@ -50,6 +52,39 @@
    "url": "https://robotics.hexagon.com/hexagon-launches-aeon-a-humanoid-built-for-industry/",
    "raw_sector": "Technology",
    "date": "2025",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Hexagon",
+   "use": "Industrial asset monitoring and inspection",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://hexagon.com/company/newsroom/press-releases/2025/hexagon-acquires-industrial-ai-capabilities-to-improve-asset-monitoring",
+   "raw_sector": "",
+   "date": "2025-12-16",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Hexagon",
+   "use": "Humanoid robot (AEON) for reality capture, asset inspection, and industrial operations [NVIDIA]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://blogs.nvidia.com/blog/hexagon-robotics-ai-software-aeon-humanoid/",
+   "raw_sector": "",
+   "date": "2025-06-17",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Hexagon",
+   "use": "AI assistant for enterprise use [AWS]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://aws.amazon.com/blogs/machine-learning/how-hexagon-built-an-ai-assistant-using-aws-generative-ai-services/",
+   "raw_sector": "",
+   "date": "2025-05-13",
    "fresh": "fresh"
   }
  ]

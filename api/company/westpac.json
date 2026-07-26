@@ -3,27 +3,27 @@
  "name": "Westpac",
  "cc": "AU",
  "vertical": "Financial Services",
- "deployments": 2,
- "confirmed": 2,
- "with_value_number": 0,
- "proof_rate": 0.0,
+ "deployments": 5,
+ "confirmed": 3,
+ "with_value_number": 1,
+ "proof_rate": 0.2,
  "mktcap": 82733333333.0,
  "revenue": 14846666667.0,
  "employees": 33305.0,
  "silent": false,
- "per_bn_revenue": 0.13,
- "per_10k_emp": 0.6,
+ "per_bn_revenue": 0.34,
+ "per_10k_emp": 1.5,
  "benchmarks": {
   "global_vertical": {
-   "deployments": 62,
-   "confirmed": 73,
-   "proof_rate": 0,
-   "n": 377
+   "deployments": 31,
+   "confirmed": 27,
+   "proof_rate": 39,
+   "n": 388
   },
   "country_vertical": {
-   "deployments": 40,
-   "confirmed": 40,
-   "proof_rate": 0,
+   "deployments": 20,
+   "confirmed": 0,
+   "proof_rate": 40,
    "n": 6
   }
  },
@@ -34,15 +34,16 @@
    "n": 2
   }
  ],
- "undated_pct": 0,
+ "undated_pct": 60,
  "momentum": "late_entrant,rising",
  "maturity": "L3",
  "maturity_evidence": [
   "multi_horizontal",
   "named_product:Deployed",
+  "value_number",
   "tier_p"
  ],
- "prospect_score": 52,
+ "prospect_score": 50,
  "stack": [
   "Accenture",
   "Microsoft"
@@ -62,6 +63,17 @@
   },
   {
    "company": "Westpac",
+   "use": "AI agents for business lending services acceleration [Rich Data Co.]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.westpac.com.au/about-westpac/westpac-group/corporate-governance/artificial-intelligence-at-westpac/",
+   "raw_sector": "",
+   "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "Westpac",
    "use": "Deployed AI-powered agents for software programming with Accenture, cutting a task from six days to one hour",
    "existence": "confirmed",
    "value": "six days to one hour",
@@ -70,6 +82,28 @@
    "raw_sector": "Banks",
    "date": "2026-02",
    "fresh": "fresh"
+  },
+  {
+   "company": "Westpac",
+   "use": "AI agents for software development and code generation",
+   "existence": "confirmed",
+   "value": "22 percent",
+   "tier": "",
+   "url": "https://www.finextra.com/newsarticle/43725/how-westpac-is-using-generative-ai-to-speed-up-software-development",
+   "raw_sector": "",
+   "date": "Feb 19, 2024",
+   "fresh": "undated"
+  },
+  {
+   "company": "Westpac",
+   "use": "AI-powered call assistant for real-time scam detection and prevention",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.westpac.com.au/news/making-news/2025/05/westpac-deploys-real-time-AI-to-take-on-scammers/",
+   "raw_sector": "",
+   "date": "May 29, 2025",
+   "fresh": "undated"
   }
  ]
 }

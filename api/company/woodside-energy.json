@@ -3,41 +3,51 @@
  "name": "Woodside Energy",
  "cc": "AU",
  "vertical": "Energy & Utilities",
- "deployments": 1,
- "confirmed": 1,
- "with_value_number": 0,
- "proof_rate": 0.0,
+ "deployments": 6,
+ "confirmed": 5,
+ "with_value_number": 1,
+ "proof_rate": 0.167,
  "mktcap": 40300000000.0,
  "revenue": 12980000000.0,
  "employees": 4693.0,
  "silent": false,
- "per_bn_revenue": 0.08,
- "per_10k_emp": 2.13,
+ "per_bn_revenue": 0.46,
+ "per_10k_emp": 12.78,
  "benchmarks": {
   "global_vertical": {
-   "deployments": 0,
-   "confirmed": 20,
-   "proof_rate": 0,
-   "n": 210
+   "deployments": 68,
+   "confirmed": 70,
+   "proof_rate": 47,
+   "n": 213
   }
  },
  "first_seen": 2025,
  "by_year": [
   {
    "year": 2025,
-   "n": 1
+   "n": 2
+  },
+  {
+   "year": 2026,
+   "n": 2
   }
  ],
- "undated_pct": 0,
+ "undated_pct": 33,
  "momentum": "rising",
- "maturity": "L3",
+ "maturity": "L4",
  "maturity_evidence": [
+  "multi_horizontal",
   "named_product:Embedded",
+  "value_number",
+  "multi_year",
   "tier_p"
  ],
- "prospect_score": 54,
- "stack": [],
- "vendor_named": false,
+ "prospect_score": 63,
+ "stack": [
+  "Amazon AWS",
+  "IBM"
+ ],
+ "vendor_named": true,
  "deployments_detail": [
   {
    "company": "Woodside Energy",
@@ -48,6 +58,61 @@
    "url": "https://www.woodside.com/what-we-do/innovation/artificial-intelligence",
    "raw_sector": "Energy",
    "date": "2025",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Woodside Energy",
+   "use": "Subsurface lead screening using AI and machine learning",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.youtube.com/watch?v=ugqYOT9iBf8",
+   "raw_sector": "",
+   "date": "2025",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Woodside Energy",
+   "use": "Remote support, artificial intelligence and advanced analytics across operations [IBM watsonx]",
+   "existence": "confirmed",
+   "value": "11M AUS",
+   "tier": "",
+   "url": "https://www.ibm.com/case-studies/woodside-energy",
+   "raw_sector": "",
+   "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "Woodside Energy",
+   "use": "Predictive maintenance for equipment failure identification",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://lumienai.com/news/woodside-energy-ai-industrial-operations",
+   "raw_sector": "",
+   "date": "2026",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Woodside Energy",
+   "use": "Generative AI features for supply chain optimization [AWS]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://medium.com/@kyle-t-jones/modernizing-supply-chains-with-aws-lessons-from-woodside-energy-7ac72d23c79e",
+   "raw_sector": "",
+   "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "Woodside Energy",
+   "use": "AI Centre of Excellence for consistent and responsible AI deployment",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.woodside.com/what-we-do/innovation/artificial-intelligence",
+   "raw_sector": "",
+   "date": "2026",
    "fresh": "fresh"
   }
  ]

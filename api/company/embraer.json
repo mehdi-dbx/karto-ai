@@ -3,27 +3,27 @@
  "name": "Embraer",
  "cc": "BR",
  "vertical": "Manufacturing & Robotics",
- "deployments": 1,
- "confirmed": 1,
- "with_value_number": 0,
- "proof_rate": 0.0,
+ "deployments": 4,
+ "confirmed": 4,
+ "with_value_number": 1,
+ "proof_rate": 0.25,
  "mktcap": 11044444444.0,
  "revenue": 7974074074.0,
  "employees": 21122.0,
  "silent": false,
- "per_bn_revenue": 0.13,
- "per_10k_emp": 0.47,
+ "per_bn_revenue": 0.5,
+ "per_10k_emp": 1.89,
  "benchmarks": {
   "global_vertical": {
-   "deployments": 0,
-   "confirmed": 24,
-   "proof_rate": 0,
-   "n": 147
+   "deployments": 42,
+   "confirmed": 66,
+   "proof_rate": 67,
+   "n": 150
   },
   "country_vertical": {
-   "deployments": 0,
-   "confirmed": 0,
-   "proof_rate": 0,
+   "deployments": 62,
+   "confirmed": 62,
+   "proof_rate": 50,
    "n": 9
   }
  },
@@ -31,17 +31,18 @@
  "by_year": [
   {
    "year": 2025,
-   "n": 1
+   "n": 3
   }
  ],
- "undated_pct": 0,
+ "undated_pct": 25,
  "momentum": "rising",
  "maturity": "L3",
  "maturity_evidence": [
   "named_product:Smart",
+  "value_number",
   "tier_p"
  ],
- "prospect_score": 54,
+ "prospect_score": 62,
  "stack": [],
  "vendor_named": false,
  "deployments_detail": [
@@ -55,6 +56,39 @@
    "raw_sector": "Bens industriais e transporte",
    "date": "2025",
    "fresh": "fresh"
+  },
+  {
+   "company": "Embraer",
+   "use": "AI-powered supply chain planning and inventory management (Smart Planning) [Aquarela Analytics]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://aero-space.eu/2025/12/09/embraer-introduces-ai-powered-smart-planning-to-boost-supply-chain-efficiency/",
+   "raw_sector": "",
+   "date": "2025-12-09",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Embraer",
+   "use": "ONEChain Program - AI-driven supply chain transformation across suppliers",
+   "existence": "confirmed",
+   "value": "42000",
+   "tier": "",
+   "url": "https://www.traxtech.com/ai-in-supply-chain/embraers-onechain-program-blueprint-for-ai-driven-supply-chain-transformation?hs_amp=true",
+   "raw_sector": "",
+   "date": "2025-08-14",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Embraer",
+   "use": "Generative AI for repair processes and asset management optimization",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://services.global.ntt/en-us/about-us/case-studies/embraer",
+   "raw_sector": "",
+   "date": "missing",
+   "fresh": "undated"
   }
  ]
 }

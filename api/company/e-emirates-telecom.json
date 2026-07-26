@@ -3,43 +3,62 @@
  "name": "e& (Emirates Telecom)",
  "cc": "AE",
  "vertical": "Telecom",
- "deployments": 2,
- "confirmed": 2,
- "with_value_number": 1,
- "proof_rate": 0.5,
+ "deployments": 11,
+ "confirmed": 7,
+ "with_value_number": 3,
+ "proof_rate": 0.273,
  "mktcap": 47488000000.0,
  "revenue": 20547000000.0,
  "employees": null,
  "silent": false,
- "per_bn_revenue": 0.1,
+ "per_bn_revenue": 0.54,
  "per_10k_emp": null,
  "benchmarks": {
   "global_vertical": {
-   "deployments": 57,
-   "confirmed": 65,
-   "proof_rate": 58,
-   "n": 93
+   "deployments": 66,
+   "confirmed": 57,
+   "proof_rate": 40,
+   "n": 94
   }
  },
- "first_seen": 2024,
+ "first_seen": 2023,
  "by_year": [
   {
+   "year": 2023,
+   "n": 2
+  },
+  {
    "year": 2024,
+   "n": 3
+  },
+  {
+   "year": 2025,
+   "n": 4
+  },
+  {
+   "year": 2026,
    "n": 2
   }
  ],
  "undated_pct": 0,
- "momentum": "early_mover,gone_quiet",
- "maturity": "L3",
+ "momentum": "early_mover,rising",
+ "maturity": "L4",
  "maturity_evidence": [
   "multi_horizontal",
   "named_product:Deployed",
   "value_number",
+  "multi_year",
   "tier_p"
  ],
- "prospect_score": 40,
- "stack": [],
- "vendor_named": false,
+ "prospect_score": 71,
+ "stack": [
+  "IBM",
+  "Microsoft",
+  "Microsoft Azure",
+  "NVIDIA",
+  "OpenAI"
+ ],
+ "vendor_named": true,
  "deployments_detail": [
   {
    "company": "e& (Emirates Telecom)",
@@ -54,6 +73,50 @@
   },
   {
    "company": "e& (Emirates Telecom)",
+   "use": "Self-managed on-premises AI factory running agentic AI across five domains: proactive credit-risk mitigation, customer value management / next-best-offer segmentation, real-time network planning forecasting, financial planning with revenue-assurance anomaly detection, and content strategy. CVM initiative noted as directly impacting revenue. [DataRobot (Agent Workforce Platform) + NVIDIA (Enterprise AI Factory, NIM, NeMo)]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.datarobot.com/customers/eand/",
+   "raw_sector": "",
+   "date": "2025",
+   "fresh": "fresh"
+  },
+  {
+   "company": "e& (Emirates Telecom)",
+   "use": "AI integrated into the 5G-Advanced core network via Huawei's Network Data Analytics Function (NWDAF), which uses AI to collect, process and analyse real-time network data as the intelligent-network 'brain'. e& UAE has commercialised its 5G-Advanced technology. [Huawei (NWDAF)]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://techafricanews.com/2025/10/10/e-uae-partners-with-huawei-to-integrate-ai-into-5g-advanced-core-network/",
+   "raw_sector": "",
+   "date": "2025-10-10",
+   "fresh": "fresh"
+  },
+  {
+   "company": "e& (Emirates Telecom)",
+   "use": "Enterprise-wide AI/ML program for network optimisation, sustainability, resource allocation and energy efficiency, plus a Robotics Centre of Excellence / RPA team automating manual tasks — reducing operational costs. [none]",
+   "existence": "confirmed",
+   "value": "400+ AI use cases and 160 ML models across operations",
+   "tier": "",
+   "url": "https://www.eand.com/en/news/eand-unveils-blueprint-for-ai-app.html",
+   "raw_sector": "",
+   "date": "2024-04-23",
+   "fresh": "aging"
+  },
+  {
+   "company": "e& (Emirates Telecom)",
+   "use": "Sovereign AI Compute offering — on-demand in-country GPU infrastructure combining Core42's cloud platform with e& UAE connectivity, keeping sensitive AI workloads and data within the UAE. [Core42 (G42)]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.eand.com/en/news/20-07-26-eand-uae-core42-sovereign-ai-infrastructure.html",
+   "raw_sector": "",
+   "date": "2026-07-20",
+   "fresh": "fresh"
+  },
+  {
+   "company": "e& (Emirates Telecom)",
    "use": "Completed phase one of private AI cloud deployment using Intel AMX to integrate AI into operations",
    "existence": "confirmed",
    "value": "none",
@@ -62,6 +125,61 @@
    "raw_sector": "Telecom",
    "date": "2024",
    "fresh": "aging"
+  },
+  {
+   "company": "e& (Emirates Telecom)",
+   "use": "Internal HR chatbot for employee support and decision-making processes built on Azure OpenAI / GPT, embedded into internal operations. [Microsoft (Azure OpenAI Service / GPT)]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://news.microsoft.com/en-xm/2023/04/04/e-partners-with-microsoft-to-embed-gpt-in-its-products-and-services-for-customers-employees-and-media-industry/",
+   "raw_sector": "",
+   "date": "2023-04-04",
+   "fresh": "stale"
+  },
+  {
+   "company": "e& (Emirates Telecom)",
+   "use": "Enterprise-grade agentic AI for policy, risk and compliance — domain-specific agents help employees and auditors access and interpret legal, regulatory and compliance information. Proof-of-concept completed in eight weeks. [IBM (watsonx Orchestrate, OpenPages, watsonx.governance)]",
+   "existence": "claimed",
+   "value": "500+ tools / agents; PoC in 8 weeks",
+   "tier": "",
+   "url": "https://newsroom.ibm.com/2026-01-19-e-and-ibm-unveil-enterprise-grade-agentic-AI-to-transform-governance-and-compliance",
+   "raw_sector": "",
+   "date": "2026-01-19",
+   "fresh": "fresh"
+  },
+  {
+   "company": "e& (Emirates Telecom)",
+   "use": "AI-powered voice fraud prevention across e& UAE voice core network — CallShield uses call profiling, call sentiment analysis and call-pattern validation to detect anomalies and block robocalls, caller-ID spoofing and one-ring scams in real time. [Mavenir (CallShield)]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.mavenir.com/press-releases/e-and-mavenir-unveil-ai-powered-voice-service-security-and-anti-fraud-collaboration/",
+   "raw_sector": "",
+   "date": "2025-10-14",
+   "fresh": "fresh"
+  },
+  {
+   "company": "e& (Emirates Telecom)",
+   "use": "GPT-based tool for the media industry to help content professionals (editors, journalists) with content creation, editing, translating and publishing — being tested/piloted. [Microsoft (Azure OpenAI Service / GPT)]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://news.microsoft.com/en-xm/2023/04/04/e-partners-with-microsoft-to-embed-gpt-in-its-products-and-services-for-customers-employees-and-media-industry/",
+   "raw_sector": "",
+   "date": "2023-04-04",
+   "fresh": "stale"
+  },
+  {
+   "company": "e& (Emirates Telecom)",
+   "use": "AI Telco Copilot — an agentic AI solution helping telecom engineers accelerate testing, learning and troubleshooting across multi-vendor, cloud-native networks, including AI-driven testing/validation and interoperability checks. Showcased at GITEX 2025. [LabLabee]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.linkedin.com/posts/lablabee_lablabee-etisalat-telco-activity-7383788318678835200-qXsD",
+   "raw_sector": "",
+   "date": "2025-10",
+   "fresh": "fresh"
   }
  ]
 }

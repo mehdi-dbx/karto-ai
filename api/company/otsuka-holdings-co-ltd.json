@@ -3,26 +3,26 @@
  "name": "Otsuka Holdings Co., Ltd.",
  "cc": "JP",
  "vertical": "Healthcare & Life Sciences",
- "deployments": 1,
- "confirmed": 1,
+ "deployments": 4,
+ "confirmed": 2,
  "with_value_number": 0,
  "proof_rate": 0.0,
  "mktcap": 38200000000.0,
  "revenue": 16466666667.0,
  "employees": 37758.0,
  "silent": false,
- "per_bn_revenue": 0.06,
- "per_10k_emp": 0.26,
+ "per_bn_revenue": 0.24,
+ "per_10k_emp": 1.06,
  "benchmarks": {
   "global_vertical": {
-   "deployments": 0,
-   "confirmed": 13,
+   "deployments": 26,
+   "confirmed": 20,
    "proof_rate": 0,
-   "n": 165
+   "n": 168
   },
   "country_vertical": {
-   "deployments": 0,
-   "confirmed": 0,
+   "deployments": 33,
+   "confirmed": 11,
    "proof_rate": 0,
    "n": 10
   }
@@ -33,10 +33,11 @@
  "momentum": "none",
  "maturity": "L3",
  "maturity_evidence": [
+  "multi_horizontal",
   "named_product:Otsuka",
   "tier_p"
  ],
- "prospect_score": 46,
+ "prospect_score": 52,
  "stack": [
   "Microsoft Azure",
   "OpenAI"
@@ -51,6 +52,39 @@
    "tier": "P",
    "url": "https://www.microsoft.com/ja-jp/customers/story/26683-otsuka-pharmaceutical-factory",
    "raw_sector": "Pharmaceuticals",
+   "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "Otsuka Holdings Co., Ltd.",
+   "use": "Drug discovery platform with robotics technology for drug candidate identification and acceleration",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.otsuka.com/en/ir/library/pdf/annual/2025_all_a4.pdf",
+   "raw_sector": "",
+   "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "Otsuka Holdings Co., Ltd.",
+   "use": "Digital health and data analytics collaboration for patient needs understanding [Holmusk]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.otsuka-us.com/news/otsuka-signs-three-year-collaboration-holmusk-enhance-digital-health-and-data-analytics-global",
+   "raw_sector": "",
+   "date": "Jul 6, 2021",
+   "fresh": "undated"
+  },
+  {
+   "company": "Otsuka Holdings Co., Ltd.",
+   "use": "AI-powered delivery route optimization and logistics visualization",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.otsuka.com/en/sustainability/society/quality/logistics.html",
+   "raw_sector": "",
    "date": "missing",
    "fresh": "undated"
   }

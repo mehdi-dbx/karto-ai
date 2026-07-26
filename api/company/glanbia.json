@@ -3,35 +3,48 @@
  "name": "Glanbia",
  "cc": "IE",
  "vertical": "Retail & E-commerce",
- "deployments": 2,
- "confirmed": 0,
- "with_value_number": 1,
+ "deployments": 10,
+ "confirmed": 5,
+ "with_value_number": 5,
  "proof_rate": 0.5,
  "mktcap": 5810400000.0,
  "revenue": 3628800000.0,
  "employees": 4963.0,
  "silent": false,
- "per_bn_revenue": 0.55,
- "per_10k_emp": 4.03,
+ "per_bn_revenue": 2.76,
+ "per_10k_emp": 20.15,
  "benchmarks": {
   "global_vertical": {
-   "deployments": 71,
-   "confirmed": 0,
-   "proof_rate": 70,
-   "n": 295
+   "deployments": 72,
+   "confirmed": 53,
+   "proof_rate": 78,
+   "n": 301
   }
  },
- "first_seen": null,
- "by_year": [],
- "undated_pct": 100,
- "momentum": "none",
- "maturity": "L1",
- "maturity_evidence": [
-  "rows_no_confirmed"
+ "first_seen": 2024,
+ "by_year": [
+  {
+   "year": 2024,
+   "n": 2
+  },
+  {
+   "year": 2025,
+   "n": 6
+  }
  ],
- "prospect_score": 20,
+ "undated_pct": 20,
+ "momentum": "early_mover,rising",
+ "maturity": "L4",
+ "maturity_evidence": [
+  "multi_horizontal",
+  "named_product:Coach",
+  "value_number",
+  "multi_year"
+ ],
+ "prospect_score": 50,
  "stack": [
-  "Microsoft"
+  "Microsoft",
+  "OpenAI"
  ],
  "vendor_named": true,
  "deployments_detail": [
@@ -48,6 +61,39 @@
   },
   {
    "company": "Glanbia",
+   "use": "Glanbia Performance Nutrition uses Black Swan Data's Social Prediction AI to analyze social media conversations at scale and forecast emerging consumer/ingredient trends 12-36 months ahead, feeding product innovation decisions. Led directly to the launch of Isopure colostrum supplements after AI flagged bovine colostrum as an emerging adoption cycle. [Black Swan Data (now part of Mintel)]",
+   "existence": "confirmed",
+   "value": "~7 million unique conversations and ~12,500 topics analyzed over two years in the US supplements market",
+   "tier": "",
+   "url": "https://allthingsinnovation.com/content/speeding-product-innovation-through-social-prediction/",
+   "raw_sector": "",
+   "date": "2024-01-01",
+   "fresh": "aging"
+  },
+  {
+   "company": "Glanbia",
+   "use": "'Product Edge' - a proprietary AI framework where ChatGPT and Perplexity analyze tens of thousands of consumer product reviews (Amazon, Reddit, retail sites) for Optimum Nutrition and competitors across five markets, standardizing findings into a 1-10 score across six metrics for competitive benchmarking and marketing strategy. [OpenAI (ChatGPT); Perplexity]",
+   "existence": "confirmed",
+   "value": "131,000 reviews of ON protein powders on Amazon US alone analyzed",
+   "tier": "",
+   "url": "https://digitalmarketinginstitute.com/blog/glanbia-performance-nutrition-ai-framework-for-measuring-success",
+   "raw_sector": "",
+   "date": "2025-05-06",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Glanbia",
+   "use": "AI-driven social listening used by Glanbia's Insight & Analytics team to detect the latest ingredient trends and share them with B2B ingredient customers. Described by VP Insight & Analytics as an active investment, though blended with third-party data (Datassential, NielsenIQ) rather than relied on alone. [none named]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.glanbia.com/news/insights-separating-signal-noise",
+   "raw_sector": "",
+   "date": "2024-12-10",
+   "fresh": "aging"
+  },
+  {
+   "company": "Glanbia",
    "use": "Microsoft 365 Copilot pilot with PwC Ireland to evaluate efficiency and creativity gains for employees",
    "existence": "claimed",
    "value": "100 employees, 8-week pilot",
@@ -56,6 +102,61 @@
    "raw_sector": "Food Products",
    "date": "missing",
    "fresh": "undated"
+  },
+  {
+   "company": "Glanbia",
+   "use": "Enterprise rollout of Microsoft 365 Copilot (generative AI assistant) across the organisation for employee productivity, content creation and operational efficiency, delivered with PwC Ireland handling adoption, change, governance and security. PwC published a dedicated 'Glanbia's Copilot Journey' case study; PwC's alliance lead confirmed it 'improved productivity across the whole organisation.' [Microsoft (M365 Copilot); PwC Ireland (implementation partner)]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.pwc.ie/services/consulting/insights/case-study-glanbias-m365-journey.html",
+   "raw_sector": "",
+   "date": "2025-07-09",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Glanbia",
+   "use": "Group-level digital transformation program committing to automation and AI-enabled front and back office operations, including a structured/responsive AI-enabled procurement approach, as set out in Glanbia's 2025 Capital Markets Day strategy deck. [none named]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.glanbia.com/sites/glanbia-plc/files/Glanbia-CMD-2025.pdf",
+   "raw_sector": "",
+   "date": "2025-11-19",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Glanbia",
+   "use": "Automation of financial consolidation and cash-flow reporting across 150 entities (part of Glanbia's AI/automation-enabled back-office transformation), delivered with PwC Ireland - moving cash-flow reporting from 100% manual to ~80% automated and streamlining month-end close. (Primarily automation; AI framing per Glanbia's digital-transformation program.) [PwC Ireland]",
+   "existence": "claimed",
+   "value": "80% of cash flow reporting automated; 150 entities",
+   "tier": "",
+   "url": "https://www.pwc.ie/services/consulting/insights/case-study-glanbias-financial-consolidation-processes.html",
+   "raw_sector": "",
+   "date": "2025-12-08",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Glanbia",
+   "use": "Coach Optimum - AI-powered consumer virtual coach for the Optimum Nutrition brand, answering questions on protein intake, creatine, supplement stacking and training goals. Built on the SmartSam controlled-RAG platform (PerformOS), trained exclusively on ON's own content with strict guardrails against hallucination. Launched live in five European markets (Jun 2025), later UK/US. [PerformOS (SmartSam platform), RAG / LLM]",
+   "existence": "confirmed",
+   "value": "66% engagement rate; 92% response accuracy across 25,000+ questions; 35,000+ new users (22% return rate); 3x time-on-site uplift; 4x ROI vs platform cost",
+   "tier": "",
+   "url": "https://www.glanbia.com/news/introducing-coach-optimum-personal-guide-performance-nutrition",
+   "raw_sector": "",
+   "date": "2025-06-20",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Glanbia",
+   "use": "Established AI governance function - Glanbia created a dedicated 'AI Governance & Value Manager' role reporting to a 'Head of AI Strategy and Architecture' within Glanbia Business Services, indicating a formalized enterprise AI program with governance, value tracking and architecture oversight. [internal (Glanbia Business Services)]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://ie.linkedin.com/jobs/view/ai-governance-value-manager-at-glanbia-4389736799",
+   "raw_sector": "",
+   "date": "2025-01-01",
+   "fresh": "fresh"
   }
  ]
 }

@@ -3,26 +3,26 @@
  "name": "Remy Cointreau",
  "cc": "FR",
  "vertical": "Retail & E-commerce",
- "deployments": 1,
- "confirmed": 1,
+ "deployments": 5,
+ "confirmed": 4,
  "with_value_number": 0,
  "proof_rate": 0.0,
  "mktcap": 2548800000.0,
  "revenue": 1010124000.0,
  "employees": 1754.0,
  "silent": false,
- "per_bn_revenue": 0.99,
- "per_10k_emp": 5.7,
+ "per_bn_revenue": 4.95,
+ "per_10k_emp": 28.51,
  "benchmarks": {
   "global_vertical": {
-   "deployments": 0,
-   "confirmed": 24,
+   "deployments": 39,
+   "confirmed": 44,
    "proof_rate": 0,
-   "n": 295
+   "n": 301
   },
   "country_vertical": {
-   "deployments": 0,
-   "confirmed": 0,
+   "deployments": 11,
+   "confirmed": 22,
    "proof_rate": 0,
    "n": 10
   }
@@ -34,16 +34,43 @@
    "n": 1
   }
  ],
- "undated_pct": 0,
+ "undated_pct": 80,
  "momentum": "early_mover,gone_quiet",
  "maturity": "L3",
  "maturity_evidence": [
+  "multi_horizontal",
   "named_product:Generative"
  ],
- "prospect_score": 54,
- "stack": [],
- "vendor_named": false,
+ "prospect_score": 64,
+ "stack": [
+  "Google Cloud",
+  "SAP",
+  "Salesforce"
+ ],
+ "vendor_named": true,
  "deployments_detail": [
+  {
+   "company": "Remy Cointreau",
+   "use": "SAP deployment on Google Cloud for planning and business agility [SAP, Google Cloud]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://cloud.google.com/customers/remy-cointreau",
+   "raw_sector": "",
+   "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "Remy Cointreau",
+   "use": "Salesforce data protection and business continuity [Odaseva]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.odaseva.com/customer-stories/remy-cointreau-protects-business-continuity",
+   "raw_sector": "",
+   "date": "missing",
+   "fresh": "undated"
+  },
   {
    "company": "Remy Cointreau",
    "use": "Generative AI for social listening and consumer insights plus in-house AI agents",
@@ -54,6 +81,28 @@
    "raw_sector": "Spirits / Beverages",
    "date": "2024",
    "fresh": "aging"
+  },
+  {
+   "company": "Remy Cointreau",
+   "use": "AI-driven personalization insights for Travel Retail",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://rapport-annuel.remy-cointreau.com/2025/en/performance/market-trends/index.html",
+   "raw_sector": "",
+   "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "Remy Cointreau",
+   "use": "Sales and trade marketing automation platform for US 3-tier system",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://andavisolutions.com/case-study/remy-cointreau-automates-us-based-sales-and-trade-marketing-processes/",
+   "raw_sector": "",
+   "date": "missing",
+   "fresh": "undated"
   }
  ]
 }

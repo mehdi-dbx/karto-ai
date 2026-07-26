@@ -3,36 +3,80 @@
  "name": "Exor",
  "cc": "NL",
  "vertical": "Financial Services",
- "deployments": 1,
- "confirmed": 0,
- "with_value_number": 1,
- "proof_rate": 1.0,
+ "deployments": 12,
+ "confirmed": 9,
+ "with_value_number": 4,
+ "proof_rate": 0.333,
  "mktcap": 15184800000.0,
  "revenue": null,
  "employees": 20.0,
  "silent": false,
  "per_bn_revenue": null,
- "per_10k_emp": 500.0,
+ "per_10k_emp": 6000.0,
  "benchmarks": {
   "global_vertical": {
-   "deployments": 0,
-   "confirmed": 0,
-   "proof_rate": 76,
-   "n": 377
+   "deployments": 81,
+   "confirmed": 73,
+   "proof_rate": 58,
+   "n": 388
   }
  },
- "first_seen": null,
- "by_year": [],
- "undated_pct": 100,
- "momentum": "none",
- "maturity": "L1",
- "maturity_evidence": [
-  "rows_no_confirmed"
+ "first_seen": 2024,
+ "by_year": [
+  {
+   "year": 2024,
+   "n": 7
+  },
+  {
+   "year": 2025,
+   "n": 3
+  },
+  {
+   "year": 2026,
+   "n": 1
+  }
  ],
- "prospect_score": 0,
- "stack": [],
- "vendor_named": false,
+ "undated_pct": 8,
+ "momentum": "early_mover,cooling",
+ "maturity": "L4",
+ "maturity_evidence": [
+  "multi_horizontal",
+  "named_product:Ferrari",
+  "value_number",
+  "multi_year"
+ ],
+ "prospect_score": 81,
+ "stack": [
+  "Amazon AWS",
+  "Anthropic",
+  "Google Cloud",
+  "Meta",
+  "OpenAI"
+ ],
+ "vendor_named": true,
  "deployments_detail": [
+  {
+   "company": "Exor",
+   "use": "Ferrari customer service chatbot for sales professionals and technicians that classifies and summarizes customer care tickets and answers FAQs, fine-tuned on Ferrari documentation [AWS (Amazon Bedrock, SageMaker JumpStart); models: Claude 3, Amazon Titan, Llama]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://aws.amazon.com/solutions/case-studies/ferrari-generative-ai-case-study/",
+   "raw_sector": "",
+   "date": "2024",
+   "fresh": "aging"
+  },
+  {
+   "company": "Exor",
+   "use": "Ferrari production-line quality inspection using computer vision to detect missing or defective parts in vehicle assembly before the testing phase [AWS (Amazon Lookout for Vision)]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://aws.amazon.com/solutions/case-studies/ferrari-generative-ai-case-study/",
+   "raw_sector": "",
+   "date": "2024",
+   "fresh": "aging"
+  },
   {
    "company": "Exor",
    "use": "no confirmed internal deployment found (holding company; Exor Ventures invested in $107M round for robotics/physical-AI startup Lyte, but that is investment not internal AI use)",
@@ -43,6 +87,105 @@
    "raw_sector": "Holding",
    "date": "missing",
    "fresh": "undated"
+  },
+  {
+   "company": "Exor",
+   "use": "Ferrari vehicle design optimization using generative AI for engineering simulations and text-to-image rendering to accelerate design and reduce prototyping [AWS (generative AI)]",
+   "existence": "claimed",
+   "value": "simulations run 60% faster",
+   "tier": "",
+   "url": "https://aws.amazon.com/solutions/case-studies/ferrari-generative-ai-case-study/",
+   "raw_sector": "",
+   "date": "2024",
+   "fresh": "aging"
+  },
+  {
+   "company": "Exor",
+   "use": "CNH Industrial SenseApply AI sprayer technology using machine learning and camera sensing for real-time crop/weed detection and automated variable-rate spraying, built into Case IH, New Holland and Miller sprayers [CNH (in-house precision technology)]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://investors.cnh.com/news/news-details/2025/CNHs-latest-AI-sprayer-precision-tech-goes-beyond-the-boom/default.aspx",
+   "raw_sector": "",
+   "date": "2025-06-12",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Exor",
+   "use": "IVECO Group semi-autonomous / Level 4 highly-automated S-Way trucks running an AI virtual driver with lidar, radar and cameras on public roads, tested with DSV and dm-drogerie markt [Plus (PlusAI SuperDrive)]",
+   "existence": "claimed",
+   "value": "fuel consumption reduced by ~10%",
+   "tier": "",
+   "url": "https://www.iveco.com/global/press/pressreleases/2025/IVECO-completes-Successful-Test-of-Semi-Autonomous-Trucks-with-Partners-Plus-DSV-and-dm-drogerie-markt",
+   "raw_sector": "",
+   "date": "2025-05-15",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Exor",
+   "use": "GEDI (La Repubblica, La Stampa) AI text-to-speech Voice Studio letting readers listen to written articles [Reply (Voice Studio AI)]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.businesswire.com/news/home/20240917837407/en/GEDI-and-Reply-Give-More-Voice-to-Newspapers",
+   "raw_sector": "",
+   "date": "2024-09-17",
+   "fresh": "aging"
+  },
+  {
+   "company": "Exor",
+   "use": "The Economist AI-translated content on its Espresso app, published live in French, German, Mandarin and Spanish (~20 updates/day, no human review) [DeepL plus proprietary backend]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://pressgazette.co.uk/publishers/how-the-economist-is-using-ai-to-extend-its-global-reach/",
+   "raw_sector": "",
+   "date": "2024-09-19",
+   "fresh": "aging"
+  },
+  {
+   "company": "Exor",
+   "use": "The Economist launched a dedicated ChatGPT app that retrieves and visualizes data such as its Trump approval-rating tracker, built by its in-house AI Lab [OpenAI (ChatGPT app platform)]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.niemanlab.org/2026/05/the-economist-launches-a-dedicated-chatgpt-app/",
+   "raw_sector": "",
+   "date": "2026-05-27",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Exor",
+   "use": "Juventus (Juventus Forward) AI program: a Gen AI chatbot unlocking R&D/Sport Science content, predictive injury-prevention models from player workload data, and Gen AI pitch-monitoring content, presented at Google Cloud Summit 2025 [Google Cloud, Huware (partner), Space11 (pitch sensing)]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.juventus.com/en/news/articles/juventus-and-huware-the-future-of-innovation-takes-shape-at-the-google-cloud-summit-2025",
+   "raw_sector": "",
+   "date": "2025-06-14",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Exor",
+   "use": "Ferrari car configurator using Amazon Bedrock LLMs and Amazon Personalize to guide customers through millions of vehicle personalization options, increasing sales leads [AWS (Amazon Bedrock, Amazon Personalize)]",
+   "existence": "confirmed",
+   "value": "configuration times reduced by 20%",
+   "tier": "",
+   "url": "https://aws.amazon.com/solutions/case-studies/ferrari-generative-ai-case-study/",
+   "raw_sector": "",
+   "date": "2024",
+   "fresh": "aging"
+  },
+  {
+   "company": "Exor",
+   "use": "GEDI strategic partnership with OpenAI bringing La Repubblica and La Stampa content into ChatGPT (first deal between a major Italian publisher and OpenAI) [OpenAI (ChatGPT)]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://openai.com/index/gedi/",
+   "raw_sector": "",
+   "date": "2024-09-26",
+   "fresh": "aging"
   }
  ]
 }

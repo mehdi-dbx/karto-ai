@@ -3,22 +3,22 @@
  "name": "ASR Nederland",
  "cc": "NL",
  "vertical": "Insurance",
- "deployments": 1,
- "confirmed": 1,
+ "deployments": 4,
+ "confirmed": 2,
  "with_value_number": 0,
  "proof_rate": 0.0,
  "mktcap": 15606000000.0,
  "revenue": 18489600000.0,
  "employees": 9718.0,
  "silent": false,
- "per_bn_revenue": 0.05,
- "per_10k_emp": 1.03,
+ "per_bn_revenue": 0.22,
+ "per_10k_emp": 4.12,
  "benchmarks": {
   "global_vertical": {
-   "deployments": 0,
-   "confirmed": 14,
+   "deployments": 24,
+   "confirmed": 15,
    "proof_rate": 0,
-   "n": 60
+   "n": 63
   }
  },
  "first_seen": 2026,
@@ -28,14 +28,15 @@
    "n": 1
   }
  ],
- "undated_pct": 0,
+ "undated_pct": 75,
  "momentum": "late_entrant,rising",
  "maturity": "L3",
  "maturity_evidence": [
+  "multi_horizontal",
   "named_product:Company",
   "tier_p"
  ],
- "prospect_score": 54,
+ "prospect_score": 60,
  "stack": [],
  "vendor_named": false,
  "deployments_detail": [
@@ -49,6 +50,39 @@
    "raw_sector": "Insurance",
    "date": "2026",
    "fresh": "fresh"
+  },
+  {
+   "company": "ASR Nederland",
+   "use": "Service improvement and technological innovation using AI",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.asrnederland.nl/-/media/files/asrnederland-nl/investor-relations/jaarverslagen/2025/2025-annual-report-asr.pdf",
+   "raw_sector": "",
+   "date": "Mar 24, 2026",
+   "fresh": "undated"
+  },
+  {
+   "company": "ASR Nederland",
+   "use": "Customer service optimization through automatic analysis and classification of emails",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.asrnl.com/privacy-statement",
+   "raw_sector": "",
+   "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "ASR Nederland",
+   "use": "Generative AI tool for reading and interpreting documents",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://managementscope.nl/en/interview/ingrid-de-swart-asr-technology-digitization-complexity",
+   "raw_sector": "",
+   "date": "Sep 24, 2024",
+   "fresh": "undated"
   }
  ]
 }

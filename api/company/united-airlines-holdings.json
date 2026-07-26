@@ -3,28 +3,28 @@
  "name": "United Airlines Holdings",
  "cc": "US",
  "vertical": "Industrial / Machinery",
- "deployments": 1,
- "confirmed": 1,
- "with_value_number": 1,
- "proof_rate": 1.0,
+ "deployments": 9,
+ "confirmed": 6,
+ "with_value_number": 3,
+ "proof_rate": 0.333,
  "mktcap": 36880000000.0,
  "revenue": 62900000000.0,
  "employees": 113200.0,
  "silent": false,
- "per_bn_revenue": 0.02,
- "per_10k_emp": 0.09,
+ "per_bn_revenue": 0.14,
+ "per_10k_emp": 0.8,
  "benchmarks": {
   "global_vertical": {
-   "deployments": 0,
-   "confirmed": 14,
-   "proof_rate": 79,
-   "n": 175
+   "deployments": 73,
+   "confirmed": 72,
+   "proof_rate": 82,
+   "n": 176
   },
   "country_vertical": {
-   "deployments": 0,
-   "confirmed": 19,
+   "deployments": 72,
+   "confirmed": 70,
    "proof_rate": 89,
-   "n": 80
+   "n": 81
   }
  },
  "first_seen": null,
@@ -36,9 +36,12 @@
   "named_product:CSAT",
   "value_number"
  ],
- "prospect_score": 14,
- "stack": [],
- "vendor_named": false,
+ "prospect_score": 63,
+ "stack": [
+  "Amazon AWS",
+  "Palantir"
+ ],
+ "vendor_named": true,
  "deployments_detail": [
   {
    "company": "United Airlines Holdings",
@@ -49,6 +52,94 @@
    "url": "https://www.cio.com/article/3969476/united-airlines-ai-strategy-the-airline-that-makes-decisions-fastest-wins.html",
    "raw_sector": "Industrials",
    "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "United Airlines Holdings",
+   "use": "Flight delay explanations using generative AI",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.forbes.com/sites/stevennorton/2024/05/03/united-airlines-turns-to-generative-ai-to-help-explain-flight-delays/",
+   "raw_sector": "",
+   "date": "May 3, 2024",
+   "fresh": "undated"
+  },
+  {
+   "company": "United Airlines Holdings",
+   "use": "AI customer service chatbot and ConnectionSaver proactive service",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://techcrunch.com/2024/04/21/how-united-airlines-uses-ai-to-make-flying-the-friendly-skies-a-bit-easier/",
+   "raw_sector": "",
+   "date": "Apr 21, 2024",
+   "fresh": "undated"
+  },
+  {
+   "company": "United Airlines Holdings",
+   "use": "Generative AI for push notifications and customer communication",
+   "existence": "confirmed",
+   "value": "100000",
+   "tier": "",
+   "url": "https://simpleflying.com/united-airlines-generative-ai-improvement-customer-satisfaction/",
+   "raw_sector": "",
+   "date": "Dec 29, 2024",
+   "fresh": "undated"
+  },
+  {
+   "company": "United Airlines Holdings",
+   "use": "Generative AI platform for customer experience enhancement",
+   "existence": "confirmed",
+   "value": "6",
+   "tier": "",
+   "url": "https://www.slalom.com/us/en/customer-stories/united-airlines-gen-ai",
+   "raw_sector": "",
+   "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "United Airlines Holdings",
+   "use": "Generative AI on website for expedited customer searches",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://skift.com/2025/03/05/airlines-have-lagged-in-ai-how-they-are-using-it-now/",
+   "raw_sector": "",
+   "date": "Mar 5, 2025",
+   "fresh": "undated"
+  },
+  {
+   "company": "United Airlines Holdings",
+   "use": "Named as a Amazon Bedrock customer/case study [Amazon Bedrock] [Amazon Bedrock]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://aimagazine.com/articles/why-businesses-are-building-ai-strategy-on-amazon-bedrock",
+   "raw_sector": "",
+   "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "United Airlines Holdings",
+   "use": "Named as a Palantir customer/case study [Palantir] [Palantir]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.marketingbrew.com/stories/2024/04/18/palantir-is-pitching-ad-agencies-on-its-ai-technology",
+   "raw_sector": "",
+   "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "United Airlines Holdings",
+   "use": "AI for faster decision-making in customer communications and internal operations",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.cio.com/article/3969476/united-airlines-ai-strategy-the-airline-that-makes-decisions-fastest-wins.html",
+   "raw_sector": "",
+   "date": "Apr 30, 2025",
    "fresh": "undated"
   }
  ]

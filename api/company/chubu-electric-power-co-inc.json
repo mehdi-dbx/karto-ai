@@ -3,43 +3,58 @@
  "name": "Chubu Electric Power Co., Inc.",
  "cc": "JP",
  "vertical": "Energy & Utilities",
- "deployments": 2,
- "confirmed": 2,
- "with_value_number": 0,
- "proof_rate": 0.0,
+ "deployments": 10,
+ "confirmed": 7,
+ "with_value_number": 5,
+ "proof_rate": 0.5,
  "mktcap": 14866666667.0,
  "revenue": 23666666667.0,
  "employees": 22700.0,
  "silent": false,
- "per_bn_revenue": 0.08,
- "per_10k_emp": 0.88,
+ "per_bn_revenue": 0.42,
+ "per_10k_emp": 4.41,
  "benchmarks": {
   "global_vertical": {
-   "deployments": 72,
-   "confirmed": 78,
-   "proof_rate": 0,
-   "n": 210
+   "deployments": 83,
+   "confirmed": 81,
+   "proof_rate": 81,
+   "n": 213
   },
   "country_vertical": {
-   "deployments": 33,
-   "confirmed": 33,
-   "proof_rate": 0,
+   "deployments": 67,
+   "confirmed": 67,
+   "proof_rate": 83,
    "n": 7
   }
  },
- "first_seen": null,
- "by_year": [],
- "undated_pct": 100,
- "momentum": "none",
- "maturity": "L3",
+ "first_seen": 2023,
+ "by_year": [
+  {
+   "year": 2023,
+   "n": 1
+  },
+  {
+   "year": 2024,
+   "n": 4
+  },
+  {
+   "year": 2025,
+   "n": 3
+  }
+ ],
+ "undated_pct": 20,
+ "momentum": "early_mover,cooling",
+ "maturity": "L4",
  "maturity_evidence": [
   "multi_horizontal",
   "named_product:Nagano",
+  "value_number",
+  "multi_year",
   "tier_p"
  ],
- "prospect_score": 60,
+ "prospect_score": 62,
  "stack": [],
- "vendor_named": false,
+ "vendor_named": true,
  "deployments_detail": [
   {
    "company": "Chubu Electric Power Co., Inc.",
@@ -54,6 +69,28 @@
   },
   {
    "company": "Chubu Electric Power Co., Inc.",
+   "use": "Early internal deployment of generative AI for employees (chat-format AI assistant) led by in-house DX talent, used for document drafting/summarization, internal manual search, and R&D use cases such as a meeting-minutes AI app and image-generation-based data augmentation. [none]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.chuden.co.jp/seicho_kaihatsu/kaihatsu/techno/techno_webtenzikai/techno_webtenzikai_81.html",
+   "raw_sector": "",
+   "date": "2024-01-01",
+   "fresh": "aging"
+  },
+  {
+   "company": "Chubu Electric Power Co., Inc.",
+   "use": "Digital Adoption Platform 'Techtouch' deployed on new ERP and cloud procurement systems used by 15,000 employees across three Chubu Electric group companies; on-screen operation guidance plus operation-automation for approvals/order processing. [Techtouch, Inc.]",
+   "existence": "confirmed",
+   "value": "55% reduction in inquiries; 29% reduction in operation time; defective purchase orders cut to one-sixth",
+   "tier": "",
+   "url": "https://prtimes.jp/main/html/rd/p/000000273.000048939.html",
+   "raw_sector": "",
+   "date": "2025-03-26",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Chubu Electric Power Co., Inc.",
    "use": "AI detects elderly frailty from smart-meter power consumption data",
    "existence": "confirmed",
    "value": "none quantified",
@@ -62,6 +99,72 @@
    "raw_sector": "Electric Power",
    "date": "missing",
    "fresh": "undated"
+  },
+  {
+   "company": "Chubu Electric Power Co., Inc.",
+   "use": "Drone-based AI automatic anomaly detection for power transmission facilities (POWER GRID Check app): detects broken/melted wires, damaged insulators in real time (from FY2023), plus tower bolt dropout, rust classification, damper/spacer detachment (FY2024). Jointly developed by Chubu Electric Power Grid and SENSYN ROBOTICS. [SENSYN ROBOTICS]",
+   "existence": "confirmed",
+   "value": "reduced a transmission inspection site from 5 workers (per Chubu recruiting page)",
+   "tier": "",
+   "url": "https://www.sensyn-robotics.com/en/news/power-grid-check-ai-detection",
+   "raw_sector": "",
+   "date": "2024-08-06",
+   "fresh": "aging"
+  },
+  {
+   "company": "Chubu Electric Power Co., Inc.",
+   "use": "AI image-recognition for automated inspection of ~2.9 million distribution utility poles; detects cracks/corrosion and classifies deterioration into A-D tiers. Trained partly via 'Denchu Seisen in Chubu' crowdsourced photo campaign. Jointly developed by Chubu Electric Power Grid and Fujitsu. [Fujitsu]",
+   "existence": "claimed",
+   "value": "~2.9 million poles targeted; ~25,000 photos collected, ~12,000 usable training images",
+   "tier": "",
+   "url": "https://global.fujitsu/ja-jp/local/blog/article/2023-12-05-01",
+   "raw_sector": "",
+   "date": "2023-12-05",
+   "fresh": "stale"
+  },
+  {
+   "company": "Chubu Electric Power Co., Inc.",
+   "use": "AI-based voltage control deployed in the Nagano-region ISC (online system stabilization control) system; AI learns optimal voltage-adjustment equipment states offline and computes real-time optimal control online, to handle rising renewable/solar generation. Claimed world-first AI implementation for grid stability. [none]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.chuden.co.jp/corporate/dx/sustainable/vol03/",
+   "raw_sector": "",
+   "date": "2024-01-01",
+   "fresh": "aging"
+  },
+  {
+   "company": "Chubu Electric Power Co., Inc.",
+   "use": "AI system for hydroelectric power generation planning in the Hida River water system (inflow-prediction AI, historical-search AI, optimization AI) to maximize output/revenue across 14 dams and 22 power stations over two water systems. [none]",
+   "existence": "confirmed",
+   "value": "planning time cut from ~4 hours to ~30 minutes; ~2% (~30 million kWh/year) output increase",
+   "tier": "",
+   "url": "https://www.chuden.co.jp/corporate/dx/sustainable/vol05/",
+   "raw_sector": "",
+   "date": "2025-12-06",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Chubu Electric Power Co., Inc.",
+   "use": "Chubu Electric Power joined the EPRI-led Open Power AI Consortium (first Japanese company to join) to collaborate on applying AI to power systems - transmission networks, renewable energy expansion, and reliable electricity supply. [EPRI (Open Power AI Consortium)]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.chuden.co.jp/english/corporate/releases/pressreleases/1216114_5163.html",
+   "raw_sector": "",
+   "date": "2025-05-20",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Chubu Electric Power Co., Inc.",
+   "use": "Contact-center generative AI co-creation service by Chubu Electric group data-science firm TSUNAGU Community Analytics (TCA) with Bell System 24: databases veteran operator know-how and past interaction records so generative AI suggests root causes/solutions to staff. Built on BellCloud+ contact-center platform. [TSUNAGU Community Analytics (Chubu Electric group); Bell System 24 (BellCloud+)]",
+   "existence": "claimed",
+   "value": "target deployment at ~10 organizations by FY2025",
+   "tier": "",
+   "url": "https://prtimes.jp/main/html/rd/p/000000140.000109272.html",
+   "raw_sector": "",
+   "date": "2024-08-30",
+   "fresh": "aging"
   }
  ]
 }

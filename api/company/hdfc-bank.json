@@ -3,41 +3,68 @@
  "name": "HDFC Bank",
  "cc": "IN",
  "vertical": "Financial Services",
- "deployments": 2,
- "confirmed": 2,
- "with_value_number": 1,
- "proof_rate": 0.5,
+ "deployments": 12,
+ "confirmed": 11,
+ "with_value_number": 5,
+ "proof_rate": 0.417,
  "mktcap": 138674698795.0,
  "revenue": 35542168675.0,
  "employees": 211178.0,
  "silent": false,
- "per_bn_revenue": 0.06,
- "per_10k_emp": 0.09,
+ "per_bn_revenue": 0.34,
+ "per_10k_emp": 0.57,
  "benchmarks": {
   "global_vertical": {
-   "deployments": 62,
-   "confirmed": 73,
-   "proof_rate": 61,
-   "n": 377
+   "deployments": 81,
+   "confirmed": 84,
+   "proof_rate": 72,
+   "n": 388
   },
   "country_vertical": {
-   "deployments": 82,
-   "confirmed": 86,
-   "proof_rate": 55,
-   "n": 23
+   "deployments": 83,
+   "confirmed": 88,
+   "proof_rate": 58,
+   "n": 25
   }
  },
- "first_seen": null,
- "by_year": [],
- "undated_pct": 100,
- "momentum": "none",
- "maturity": "L3",
- "maturity_evidence": [
-  "named_product:EVA",
-  "value_number"
+ "first_seen": 2017,
+ "by_year": [
+  {
+   "year": 2017,
+   "n": 2
+  },
+  {
+   "year": 2023,
+   "n": 1
+  },
+  {
+   "year": 2024,
+   "n": 1
+  },
+  {
+   "year": 2025,
+   "n": 1
+  },
+  {
+   "year": 2026,
+   "n": 5
+  }
  ],
- "prospect_score": 32,
- "stack": [],
+ "undated_pct": 17,
+ "momentum": "early_mover,rising",
+ "maturity": "L4",
+ "maturity_evidence": [
+  "multi_horizontal",
+  "named_product:EVA",
+  "value_number",
+  "multi_year"
+ ],
+ "prospect_score": 83,
+ "stack": [
+  "Databricks",
+  "Microsoft",
+  "Microsoft Azure"
+ ],
  "vendor_named": true,
  "deployments_detail": [
   {
@@ -61,6 +88,116 @@
    "raw_sector": "Financial Services",
    "date": "missing",
    "fresh": "undated"
+  },
+  {
+   "company": "HDFC Bank",
+   "use": "EVA (Electronic Virtual Assistant), an AI-powered conversational chatbot on the HDFC Bank website (and via Hindi/voice search) answering customer queries on credit cards, savings accounts, personal loans etc. Billed as India's first AI banking chatbot; reported handling millions of queries. [Senseforth]",
+   "existence": "confirmed",
+   "value": "Handled 2.7 million queries / 1.2 million conversations in first six months (per Indian Express)",
+   "tier": "",
+   "url": "https://www.hdfc.bank.in/ways-to-bank/digital-banking/eva-chatbot",
+   "raw_sector": "",
+   "date": "2017-03",
+   "fresh": "stale"
+  },
+  {
+   "company": "HDFC Bank",
+   "use": "OnChat, an AI chatbot on Facebook Messenger enabling conversational payments and transactions (bill payments, mobile recharges, cab/travel bookings). [Niki.ai]",
+   "existence": "confirmed",
+   "value": "160% month-on-month growth in transactions",
+   "tier": "",
+   "url": "https://cio.economictimes.indiatimes.com/news/strategy-and-management/hdfc-bank-witnesses-160-m-o-m-growth-on-orders-processed-by-the-ai-bot/60751341",
+   "raw_sector": "",
+   "date": "2017-01",
+   "fresh": "stale"
+  },
+  {
+   "company": "HDFC Bank",
+   "use": "HDFC Bank One (Customer Experience Hub), an AI/ML-driven conversational bot on both voice and chat, with AI-based customer query intent identification, deployed to centralize and streamline contact-center operations across channels. [In-house]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://v.hdfc.bank.in/hdfcbank-one/index.html",
+   "raw_sector": "",
+   "date": "2024-07",
+   "fresh": "aging"
+  },
+  {
+   "company": "HDFC Bank",
+   "use": "Migration to the Databricks Data Intelligence Platform to unify data and accelerate ETL/analytics powering credit risk analytics (CRAIN department), model building/deployment, fraud control data integration, and marketing campaign optimization. [Databricks]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.databricks.com/customers/hdfc-bank",
+   "raw_sector": "",
+   "date": "2025-03",
+   "fresh": "fresh"
+  },
+  {
+   "company": "HDFC Bank",
+   "use": "Neev, an in-house full-stack enterprise Generative AI platform providing model access, governance, orchestration and deployment across customer service, lending, wealth management and internal operations; scaling 15+ high-impact GenAI programs (earlier framed as 'Project Indra'). [In-house]",
+   "existence": "confirmed",
+   "value": "15+ high-impact GenAI programs",
+   "tier": "",
+   "url": "https://www.businesstoday.in/amp/technology/artificial-intelligence/story/hdfc-bank-bets-big-on-ai-with-in-house-genai-platform-neev-plans-to-transform-customer-service-lending-and-operations-542375-2026-07-11",
+   "raw_sector": "",
+   "date": "2026-07",
+   "fresh": "fresh"
+  },
+  {
+   "company": "HDFC Bank",
+   "use": "AI/ML-based Business Rule Engine enabling intelligent, real-time credit decisioning and instant loan approvals across customer segments including new-to-bank (NTB) customers. [In-house]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.hdfc.bank.in/content/dam/hdfcbankpws/in/en/pdf/annual-reports/2025-26/reports/HDFC_Bank_IR26.pdf",
+   "raw_sector": "",
+   "date": "2026-06",
+   "fresh": "fresh"
+  },
+  {
+   "company": "HDFC Bank",
+   "use": "Partnership with Microsoft to modernize data landscape on Azure (Federated Data Lake) to enable advanced analytics using AI/ML and deep-learning capabilities as part of its Future Ready digital transformation. [Microsoft Azure]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://news.microsoft.com/en-in/hdfc-bank-partners-with-microsoft-as-part-of-its-digital-transformation-journey/",
+   "raw_sector": "",
+   "date": "2023-01",
+   "fresh": "stale"
+  },
+  {
+   "company": "HDFC Bank",
+   "use": "GenAI Academy to train employees on generative AI, including where human judgment must override AI outputs, as part of enterprise-wide AI skilling. [In-house]",
+   "existence": "confirmed",
+   "value": "50,600+ employees underwent AI training in FY26",
+   "tier": "",
+   "url": "https://www.hrkatha.com/news/hdfc-bank-trims-workforce-expands-management-roles-and-ai-skilling-in-fy26/",
+   "raw_sector": "",
+   "date": "2026-07",
+   "fresh": "fresh"
+  },
+  {
+   "company": "HDFC Bank",
+   "use": "Generative AI used to extract key fields from customer documents and render the data into the trade finance system, automating trade finance document processing. [In-house]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.hdfc.bank.in/content/dam/hdfcbankpws/in/en/pdf/annual-reports/2025-26/reports/HDFC_Bank_IR26.pdf",
+   "raw_sector": "",
+   "date": "2026-06",
+   "fresh": "fresh"
+  },
+  {
+   "company": "HDFC Bank",
+   "use": "Real-time fraud detection / financial crime monitoring engine on the Neev platform that flags suspicious transactions in real time (sub-second/milliseconds) and surfaces hidden money-laundering patterns. [In-house]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.businesstoday.in/amp/technology/artificial-intelligence/story/hdfc-bank-bets-big-on-ai-with-in-house-genai-platform-neev-plans-to-transform-customer-service-lending-and-operations-542375-2026-07-11",
+   "raw_sector": "",
+   "date": "2026-07",
+   "fresh": "fresh"
   }
  ]
 }

@@ -3,42 +3,55 @@
  "name": "LG Uplus",
  "cc": "KR",
  "vertical": "Telecom",
- "deployments": 1,
- "confirmed": 1,
- "with_value_number": 0,
- "proof_rate": 0.0,
+ "deployments": 8,
+ "confirmed": 5,
+ "with_value_number": 1,
+ "proof_rate": 0.125,
  "mktcap": 4651851852.0,
  "revenue": 11488888889.0,
  "employees": 10290.0,
  "silent": false,
- "per_bn_revenue": 0.09,
- "per_10k_emp": 0.97,
+ "per_bn_revenue": 0.7,
+ "per_10k_emp": 7.77,
  "benchmarks": {
   "global_vertical": {
-   "deployments": 0,
-   "confirmed": 16,
-   "proof_rate": 0,
-   "n": 93
+   "deployments": 45,
+   "confirmed": 44,
+   "proof_rate": 20,
+   "n": 94
   },
   "country_vertical": {
-   "deployments": 0,
-   "confirmed": 0,
-   "proof_rate": 0,
+   "deployments": 67,
+   "confirmed": 67,
+   "proof_rate": 22,
    "n": 10
   }
  },
- "first_seen": null,
- "by_year": [],
- "undated_pct": 100,
- "momentum": "none",
- "maturity": "L3",
+ "first_seen": 2025,
+ "by_year": [
+  {
+   "year": 2025,
+   "n": 1
+  },
+  {
+   "year": 2026,
+   "n": 5
+  }
+ ],
+ "undated_pct": 25,
+ "momentum": "early_mover,rising",
+ "maturity": "L4",
  "maturity_evidence": [
+  "multi_horizontal",
   "named_product:GEN",
+  "multi_year",
   "tier_p"
  ],
- "prospect_score": 46,
+ "prospect_score": 65,
  "stack": [
-  "Google Cloud"
+  "Anthropic",
+  "Google Cloud",
+  "OpenAI"
  ],
  "vendor_named": true,
  "deployments_detail": [
@@ -52,6 +65,83 @@
    "raw_sector": "Communication Services",
    "date": "missing",
    "fresh": "undated"
+  },
+  {
+   "company": "LG Uplus",
+   "use": "Network-based voice AI innovation [Ericsson]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.ericsson.com/en/press-releases/2026/7/lg-uplus-voice-ai",
+   "raw_sector": "",
+   "date": "2026-07",
+   "fresh": "fresh"
+  },
+  {
+   "company": "LG Uplus",
+   "use": "ixi-GEN proprietary generative AI model for telecom [ixi-GEN]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.lguplus.com/about/en/service/ai",
+   "raw_sector": "",
+   "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "LG Uplus",
+   "use": "AI Contact Center with OpenAI for customer support automation [OpenAI]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.youtube.com/watch?v=2g1e1QUiY8s",
+   "raw_sector": "",
+   "date": "2026-03",
+   "fresh": "fresh"
+  },
+  {
+   "company": "LG Uplus",
+   "use": "Enterprise customer support automation with OpenAI [OpenAI]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.mobileworldlive.com/operators/lg-uplus-uses-openai-models-to-automate-customer-support/",
+   "raw_sector": "",
+   "date": "2025-12-16",
+   "fresh": "fresh"
+  },
+  {
+   "company": "LG Uplus",
+   "use": "Autonomous network operations using AI agents and digital twins",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.rcrwireless.com/20260210/5g/lg-uplus-network-ai",
+   "raw_sector": "",
+   "date": "2026-02-10",
+   "fresh": "fresh"
+  },
+  {
+   "company": "LG Uplus",
+   "use": "Autonomous robots for data center patrol and monitoring",
+   "existence": "claimed",
+   "value": "$3.26B",
+   "tier": "",
+   "url": "https://www.lightreading.com/data-centers/lg-uplus-bets-big-on-ai-data-centers-with-3-26b-target",
+   "raw_sector": "",
+   "date": "2026-06-08",
+   "fresh": "fresh"
+  },
+  {
+   "company": "LG Uplus",
+   "use": "Enterprise-wide generative AI adoption for employee productivity [OpenAI, Anthropic Claude]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.mk.co.kr/en/it/12079802",
+   "raw_sector": "",
+   "date": "2026-06-22",
+   "fresh": "fresh"
   }
  ]
 }

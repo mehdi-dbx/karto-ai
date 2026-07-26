@@ -3,47 +3,92 @@
  "name": "British American Tobacco",
  "cc": "ZA",
  "vertical": "Retail & E-commerce",
- "deployments": 1,
- "confirmed": 0,
- "with_value_number": 1,
- "proof_rate": 1.0,
+ "deployments": 9,
+ "confirmed": 6,
+ "with_value_number": 7,
+ "proof_rate": 0.778,
  "mktcap": 127449600000.0,
  "revenue": 32780800000.0,
  "employees": 47797.0,
  "silent": false,
- "per_bn_revenue": 0.03,
- "per_10k_emp": 0.21,
+ "per_bn_revenue": 0.27,
+ "per_10k_emp": 1.88,
  "benchmarks": {
   "global_vertical": {
-   "deployments": 0,
-   "confirmed": 0,
-   "proof_rate": 77,
-   "n": 295
+   "deployments": 64,
+   "confirmed": 63,
+   "proof_rate": 95,
+   "n": 301
   },
   "country_vertical": {
-   "deployments": 0,
-   "confirmed": 0,
-   "proof_rate": 80,
+   "deployments": 80,
+   "confirmed": 80,
+   "proof_rate": 100,
    "n": 6
   }
  },
- "first_seen": 2026,
+ "first_seen": 2023,
  "by_year": [
   {
-   "year": 2026,
+   "year": 2023,
    "n": 1
+  },
+  {
+   "year": 2024,
+   "n": 2
+  },
+  {
+   "year": 2025,
+   "n": 4
+  },
+  {
+   "year": 2026,
+   "n": 2
   }
  ],
  "undated_pct": 0,
- "momentum": "late_entrant,rising",
- "maturity": "L1",
+ "momentum": "early_mover,rising",
+ "maturity": "L4",
  "maturity_evidence": [
-  "rows_no_confirmed"
+  "multi_horizontal",
+  "named_product:RPA",
+  "value_number",
+  "multi_year"
  ],
- "prospect_score": 0,
- "stack": [],
- "vendor_named": false,
+ "prospect_score": 45,
+ "stack": [
+  "Accenture",
+  "Meta",
+  "Microsoft",
+  "Microsoft Azure",
+  "NVIDIA",
+  "OpenAI",
+  "SAP"
+ ],
+ "vendor_named": true,
  "deployments_detail": [
+  {
+   "company": "British American Tobacco",
+   "use": "\"Ask Omni\" generative-AI assistant (with \"Naomni\" digital avatar) delivering instant, evidence-based answers on Tobacco Harm Reduction across Omni's content library; live 24/7, voice+text, 28 languages. Built by BAT's GenAI Lab (Dubai). [OpenAI (ChatGPT) on Microsoft Azure]",
+   "existence": "confirmed",
+   "value": "28 languages; searches 385 pages of Omni content; 24/7",
+   "tier": "",
+   "url": "https://www.linkedin.com/posts/javed-iqbal-syed-1589b321_omni-smokelessworld-abettertomorrow-activity-7328761009672699906-rU7L",
+   "raw_sector": "",
+   "date": "2025-05",
+   "fresh": "fresh"
+  },
+  {
+   "company": "British American Tobacco",
+   "use": "AI agents in cigarette-manufacturing facilities for quality-control diagnostics, production optimization, and predictive maintenance, structuring machine sensor data/logs/events with LLaMA-trained models on edge AI hardware. [ASRock Industrial (NVIDIA Jetson Orin NX edge device) + Aimirim Shaman platform (LLaMA models)]",
+   "existence": "confirmed",
+   "value": "5% raw material waste reduction; 4% fuel gas cut; 31 tons CO2 reduction; training time cut from 1 year to 3 months",
+   "tier": "",
+   "url": "https://www.asrockind.com/en-gb/case-study/64",
+   "raw_sector": "",
+   "date": "2025",
+   "fresh": "fresh"
+  },
   {
    "company": "British American Tobacco",
    "use": "AI-driven restructuring cutting ~9,000 jobs to become \"technology enabled\"; automation/reorganisation",
@@ -57,6 +102,94 @@
   },
   {
    "company": "British American Tobacco",
+   "use": "UiPath RPA \"3R system\" (Robot-to-Robot-to-Robot) automating financial recording and production data in SAP across leaf stock acquisition, product costing, and bill-of-materials updates. 79 live software robots across 44 global factories. [UiPath]",
+   "existence": "confirmed",
+   "value": "230,000+ labor-hours saved; zero errors since implementation; ~10 employees' worth of work automated",
+   "tier": "",
+   "url": "https://www.uipath.com/resources/automation-case-studies/bat-uses-software-robots-to-speed-up-production",
+   "raw_sector": "",
+   "date": "2024",
+   "fresh": "aging"
+  },
+  {
+   "company": "British American Tobacco",
+   "use": "AI-powered ocean/air freight analytics for procurement: carrier spread analysis, tender benchmarking, and a Carbon Emissions Index across 48 corridors to reshape BAT's global freight strategy. [Xeneta]",
+   "existence": "confirmed",
+   "value": "~40% freight-spend reduction on key high-volume lanes; 30%+ reduction in negotiation time; 65,000+ TEU/yr managed",
+   "tier": "",
+   "url": "https://www.xeneta.com/case-study/british/american/tobacco",
+   "raw_sector": "",
+   "date": "2024",
+   "fresh": "aging"
+  },
+  {
+   "company": "British American Tobacco",
+   "use": "Microsoft 365 Copilot rolled out to a few thousand employees (mandatory full-day training before enablement) as part of BAT's enterprise AI-at-scale strategy for knowledge work productivity. [Microsoft (M365 Copilot)]",
+   "existence": "confirmed",
+   "value": "a few thousand licenses",
+   "tier": "",
+   "url": "https://www.computing.co.uk/interview/2025/ai-at-scale-starts-with-strategy-not-hype",
+   "raw_sector": "",
+   "date": "2025-05",
+   "fresh": "fresh"
+  },
+  {
+   "company": "British American Tobacco",
+   "use": "Group-wide AI-driven productivity/streamlining programme simplifying operations and increasing automation through data analytics and AI tools, explicitly expected to reduce headcount (thousands of roles). [none (not disclosed)]",
+   "existence": "claimed",
+   "value": "~£600m programme; ~9,000 jobs affected (per press reporting)",
+   "tier": "",
+   "url": "https://www.tobaccoasia.com/news/ai-push-to-cut-bat-jobs/",
+   "raw_sector": "",
+   "date": "2026-02",
+   "fresh": "fresh"
+  },
+  {
+   "company": "British American Tobacco",
+   "use": "CompuMark TM go365 self-service trademark research platform used by BAT's in-house legal/trademark counsel to rapidly clear large volumes of trademarks and mitigate brand-launch conflict risk. [Clarivate (CompuMark TM go365)]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://clarivate.com/intellectual-property/lp/how-british-american-tobacco-cultivates-new-brands-at-the-speed-of-global-markets/",
+   "raw_sector": "",
+   "date": "2024",
+   "fresh": "aging"
+  },
+  {
+   "company": "British American Tobacco",
+   "use": "Edge AI agent (LLM-based 'Shaman') processing machine sensor data, logs and production events into AI-driven diagnostics for predictive maintenance and process-control standardization at BAT's Uberlandia, Brazil manufacturing plant [ASRock Industrial (iEP-6010E / NVIDIA Jetson Orin NX) + Aimirim Shaman (LLAMA-based LLM)]",
+   "existence": "confirmed",
+   "value": "25-56% targeted reduction in process variability; 5% raw material waste reduction; 4% fuel gas reduction (31 tons CO2); personnel qualification time cut from 12+ months to 3 months",
+   "tier": "",
+   "url": "https://www.asrockind.com/en-gb/case-study/64",
+   "raw_sector": "",
+   "date": "2025",
+   "fresh": "fresh"
+  },
+  {
+   "company": "British American Tobacco",
+   "use": "Predictive machine-learning customer churn model combined with omni-channel outreach to reduce attrition in BAT UK's subscription programme for tobacco/nicotine products [none]",
+   "existence": "confirmed",
+   "value": "32% decrease in churn; 25 percentage-point reduction in year-on-year attrition; 62% of consumers willing to recommend",
+   "tier": "",
+   "url": "https://www.warc.com/en/article/british-american-tobacco-uk%3A-using-predictive-ai-to-reduce-churn-26c6f6ba69ae45b7bd9f5c4f971b5824",
+   "raw_sector": "",
+   "date": "2024-10-03",
+   "fresh": "aging"
+  },
+  {
+   "company": "British American Tobacco",
+   "use": "AI optimization of sales-territory assignment and daily field-rep visit routing/scheduling for BAT's direct sales team [Solvice (integrator Volume7)]",
+   "existence": "confirmed",
+   "value": "up to 35% more customer visits daily",
+   "tier": "",
+   "url": "https://www.solvice.io/customers/bat",
+   "raw_sector": "",
+   "date": "2024",
+   "fresh": "aging"
+  },
+  {
+   "company": "British American Tobacco",
    "use": "AI-driven organizational restructuring to become technology-enabled, automating roles across operations",
    "existence": "claimed",
    "value": "~9,000 jobs cut (~20% of workforce)",
@@ -64,6 +197,83 @@
    "url": "https://www.theguardian.com/business/2026/jun/29/british-american-tobacco-bat-cut-jobs-ai",
    "raw_sector": "Tobacco",
    "date": "2026-06",
+   "fresh": "fresh"
+  },
+  {
+   "company": "British American Tobacco",
+   "use": "RPA / agentic automation of global finance and operations processes running across SAP (leaf stock acquisition, product costing, bill-of-materials updates) across BAT's factories worldwide [UiPath]",
+   "existence": "confirmed",
+   "value": "79 live software robots; >230,000 labor-hours saved; 0 errors since implementation; ~10 employees' worth of work automated",
+   "tier": "",
+   "url": "https://www.uipath.com/resources/automation-case-studies/bat-uses-software-robots-to-speed-up-production",
+   "raw_sector": "",
+   "date": "2025",
+   "fresh": "fresh"
+  },
+  {
+   "company": "British American Tobacco",
+   "use": "Strategic partnership giving BAT access to analytics and Agentic AI solutions to transform Global Business Solutions and Supply Network Operations functions [Accenture]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.bat.com/media/press-releases/_2025/july/bat-and-accenture-announce-partnership-to-transform-global-operations-and-supply-network",
+   "raw_sector": "",
+   "date": "2025-07-30",
+   "fresh": "fresh"
+  },
+  {
+   "company": "British American Tobacco",
+   "use": "AI-driven productivity programme under the Fit2Win transformation to make BAT more technology-enabled by automating and outsourcing roles across corporate and operational functions [none]",
+   "existence": "claimed",
+   "value": "~£600m annual savings by 2028; ~5,500 role reductions and ~3,500 roles transitioning to partners",
+   "tier": "",
+   "url": "https://www.bat.com/media/press-releases/_2026/june/creating-a-stronger-bat-through-fit2win-transformation-programme",
+   "raw_sector": "",
+   "date": "2026-06-29",
+   "fresh": "fresh"
+  },
+  {
+   "company": "British American Tobacco",
+   "use": "Internal HR virtual assistant / chatbot integrated with Microsoft Teams answering employee questions on HR processes from a knowledge base of 500+ regulations and routing inquiries to service departments [isystemz / Microsoft (QnA Maker, Teams)]",
+   "existence": "confirmed",
+   "value": "50-100 requests/day; 23% increase in HR department efficiency",
+   "tier": "",
+   "url": "https://isystemz.dev/cases/british-american-tobacco/",
+   "raw_sector": "",
+   "date": "2023",
+   "fresh": "stale"
+  },
+  {
+   "company": "British American Tobacco",
+   "use": "Advanced machine-learning customer churn model at BAT UK identifying at-risk subscription consumers and triggering targeted retention interventions across call centres, email, SMS, and web. [none (not named)]",
+   "existence": "confirmed",
+   "value": "32% decrease in churn; 25 percentage-point reduction in attrition YoY; 62% recommend BAT",
+   "tier": "",
+   "url": "https://www.warc.com/en/article/british-american-tobacco-uk%3A-using-predictive-ai-to-reduce-churn-26c6f6ba69ae45b7bd9f5c4f971b5824",
+   "raw_sector": "",
+   "date": "2024-10",
+   "fresh": "aging"
+  },
+  {
+   "company": "British American Tobacco",
+   "use": "BAT GenAI Lab at the Dubai AI Campus (DIFC Innovation Hub) — dedicated generative-AI innovation lab building BAT's enterprise gen-AI products (origin of InspireAI and Ask Omni) for the CPG/tobacco sector. [none (BAT internal; OpenAI/Azure stack)]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.linkedin.com/posts/javed-iqbal-syed-1589b321_transformation-innovation-ai-activity-7290673267634233344-B1mY",
+   "raw_sector": "",
+   "date": "2025-02",
+   "fresh": "fresh"
+  },
+  {
+   "company": "British American Tobacco",
+   "use": "Enterprise rollout of Microsoft Copilot generative-AI assistant to employees (with mandatory full-day training before enablement) as part of BAT's AI-at-scale strategy [Microsoft (Copilot)]",
+   "existence": "confirmed",
+   "value": "a few thousand Copilot licenses rolled out",
+   "tier": "",
+   "url": "https://www.computing.co.uk/interview/2025/ai-at-scale-starts-with-strategy-not-hype",
+   "raw_sector": "",
+   "date": "2025-05-07",
    "fresh": "fresh"
   }
  ]

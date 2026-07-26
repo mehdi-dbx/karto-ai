@@ -3,42 +3,114 @@
  "name": "Take-Two Interactive",
  "cc": "US",
  "vertical": "Telecom",
- "deployments": 1,
- "confirmed": 1,
- "with_value_number": 0,
- "proof_rate": 0.0,
+ "deployments": 10,
+ "confirmed": 5,
+ "with_value_number": 2,
+ "proof_rate": 0.2,
  "mktcap": 42760000000.0,
  "revenue": 6660000000.0,
  "employees": 12909.0,
  "silent": false,
- "per_bn_revenue": 0.15,
- "per_10k_emp": 0.77,
+ "per_bn_revenue": 1.5,
+ "per_10k_emp": 7.75,
  "benchmarks": {
   "global_vertical": {
-   "deployments": 0,
-   "confirmed": 16,
-   "proof_rate": 0,
-   "n": 93
+   "deployments": 54,
+   "confirmed": 44,
+   "proof_rate": 29,
+   "n": 94
   },
   "country_vertical": {
-   "deployments": 0,
-   "confirmed": 32,
-   "proof_rate": 0,
+   "deployments": 50,
+   "confirmed": 41,
+   "proof_rate": 45,
    "n": 23
   }
  },
- "first_seen": null,
- "by_year": [],
- "undated_pct": 100,
- "momentum": "none",
- "maturity": "L3",
- "maturity_evidence": [
-  "named_product:CEO"
+ "first_seen": 2019,
+ "by_year": [
+  {
+   "year": 2019,
+   "n": 1
+  },
+  {
+   "year": 2020,
+   "n": 1
+  },
+  {
+   "year": 2021,
+   "n": 1
+  },
+  {
+   "year": 2023,
+   "n": 1
+  },
+  {
+   "year": 2024,
+   "n": 3
+  },
+  {
+   "year": 2026,
+   "n": 2
+  }
  ],
- "prospect_score": 54,
+ "undated_pct": 10,
+ "momentum": "early_mover,cooling",
+ "maturity": "L4",
+ "maturity_evidence": [
+  "multi_horizontal",
+  "named_product:CEO",
+  "value_number",
+  "multi_year"
+ ],
+ "prospect_score": 62,
  "stack": [],
- "vendor_named": false,
+ "vendor_named": true,
  "deployments_detail": [
+  {
+   "company": "Take-Two Interactive",
+   "use": "NBA 2K's ProPLAY technology uses machine learning to translate real NBA broadcast footage directly into in-game player animations (dribbling, signature shots, off-ball movement); the ML-powered Dynamic Motion Engine in NBA 2K25/2K26 generated ~9,000 animations. Built by Take-Two's 2K/Visual Concepts studio. [2K / Visual Concepts (proprietary ProPLAY)]",
+   "existence": "confirmed",
+   "value": "9,000 animations incl. 1,500 dribbling, 1,100 signature shots",
+   "tier": "",
+   "url": "https://developer.microsoft.com/en-us/games/articles/2024/09/closer-look-at-nba-2k25-proplay-system/",
+   "raw_sector": "",
+   "date": "2024-09-19",
+   "fresh": "aging"
+  },
+  {
+   "company": "Take-Two Interactive",
+   "use": "Zynga (Take-Two subsidiary) uses deep reinforcement learning in production to personalize player experiences, e.g. choosing the best time of day to send notifications per user, increasing click-through and engagement across 60-70M+ users. Built on its open-sourced rl-bakery framework wrapping TensorFlow-Agents with Apache Spark and MLflow. [Zynga rl-bakery / TensorFlow-Agents / Apache Spark / MLflow]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://github.com/zynga/rl-bakery",
+   "raw_sector": "",
+   "date": "2020-07-29",
+   "fresh": "stale"
+  },
+  {
+   "company": "Take-Two Interactive",
+   "use": "Take-Two CEO Strauss Zelnick states the company is 'actively embracing generative AI' with 'hundreds of pilots and implementations across our company, including within our studios' to drive cost and time efficiencies (while GTA 6 itself uses no generative AI). [undisclosed (multiple)]",
+   "existence": "claimed",
+   "value": "hundreds of pilots and implementations",
+   "tier": "",
+   "url": "https://www.gamesindustry.biz/take-two-ceo-says-generative-ai-tools-are-driving-costs-and-time-efficiencies-but-that-its-worlds-are-handcrafted",
+   "raw_sector": "",
+   "date": "2026-02-03",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Take-Two Interactive",
+   "use": "Zynga's Applied AI team uses AI/ML for game operations beyond gameplay: coordinating ad sales and user acquisition, predictive systems, task automation, and community-health/toxicity monitoring across its mobile game portfolio (Luke Dicken, GDC 'Beyond NPCs: AI for Game Operations'). [Zynga Applied AI (in-house)]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://gdcvault.com/play/1025831/Beyond-NPCs-AI-for-Game",
+   "raw_sector": "",
+   "date": "2019-01-01",
+   "fresh": "stale"
+  },
   {
    "company": "Take-Two Interactive",
    "use": "CEO Zelnick: \"hundreds of pilots and implementations\" of GenAI in operations — but GenAI NOT used in GTA 6; dedicated AI team reportedly laid off",
@@ -49,6 +121,61 @@
    "raw_sector": "Communication Services",
    "date": "missing",
    "fresh": "undated"
+  },
+  {
+   "company": "Take-Two Interactive",
+   "use": "Zynga deployed T-Plan's image-based test automation platform to automate multi-platform game QA (mobile, desktop, web), replacing manual regression testing with automated suites. [T-Plan (image-based automation)]",
+   "existence": "confirmed",
+   "value": "80% broader coverage, 50% reduction in test execution time, $300,000+ annual Year-2 savings",
+   "tier": "",
+   "url": "https://www.t-plan.com/case-studies/game-test-automation-for-zynga/",
+   "raw_sector": "",
+   "date": "2024-01-01",
+   "fresh": "aging"
+  },
+  {
+   "company": "Take-Two Interactive",
+   "use": "Zynga uses Alison.ai's AI to analyze and optimize marketing creative/ad performance, identifying winning creative elements to improve user-acquisition ROAS. [Alison.ai]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://alison.ai/webinars-and-videos/zynga-creative-performance-webinar",
+   "raw_sector": "",
+   "date": "2024-11-08",
+   "fresh": "aging"
+  },
+  {
+   "company": "Take-Two Interactive",
+   "use": "Zynga's Chartboost ad-monetization platform (owned 2021-2024) applied machine learning across its DSP/SSP and mediation stack to optimize ad targeting and monetization across Zynga's gaming portfolio. [Chartboost (Zynga)]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.zynga.com/blog/zynga-closes-acquisition-of-chartboost-a-leading-mobile-advertising-and-monetization-platform/",
+   "raw_sector": "",
+   "date": "2021-08-05",
+   "fresh": "stale"
+  },
+  {
+   "company": "Take-Two Interactive",
+   "use": "GTA Online deploys AI-powered voice chat moderation to detect toxic behavior/harassment in real time, using Modulate's ToxMod voice moderation platform tuned to Rockstar Community Guidelines. [Modulate (ToxMod)]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://rockstarintel.com/gta-online-ai-voice-chat-moderation/",
+   "raw_sector": "",
+   "date": "2023-12-13",
+   "fresh": "stale"
+  },
+  {
+   "company": "Take-Two Interactive",
+   "use": "Take-Two/Rockstar is building operational ML infrastructure for GTA Online's live-service economy: player churn/behavior prediction, real-time economy balancing, anti-cheat and fraud detection, matchmaking optimization, content recommendation, and large-scale A/B testing (explicitly non-generative AI). [Rockstar Games (in-house ML)]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.gtaboom.com/rockstar-is-hiring-for-ai-for-gta-6-but-not-the-kind-you-think-e0fc",
+   "raw_sector": "",
+   "date": "2026-05-31",
+   "fresh": "fresh"
   }
  ]
 }

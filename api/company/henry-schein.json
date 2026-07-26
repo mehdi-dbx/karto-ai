@@ -3,45 +3,141 @@
  "name": "Henry Schein",
  "cc": "US",
  "vertical": "Healthcare & Life Sciences",
- "deployments": 1,
- "confirmed": 1,
- "with_value_number": 1,
- "proof_rate": 1.0,
+ "deployments": 9,
+ "confirmed": 7,
+ "with_value_number": 5,
+ "proof_rate": 0.556,
  "mktcap": 9520000000.0,
  "revenue": 13380000000.0,
  "employees": 25000.0,
  "silent": false,
- "per_bn_revenue": 0.07,
- "per_10k_emp": 0.4,
+ "per_bn_revenue": 0.67,
+ "per_10k_emp": 3.6,
  "benchmarks": {
   "global_vertical": {
-   "deployments": 0,
-   "confirmed": 13,
-   "proof_rate": 83,
-   "n": 165
+   "deployments": 62,
+   "confirmed": 68,
+   "proof_rate": 88,
+   "n": 168
   },
   "country_vertical": {
-   "deployments": 0,
-   "confirmed": 7,
+   "deployments": 52,
+   "confirmed": 60,
    "proof_rate": 90,
    "n": 59
   }
  },
- "first_seen": null,
- "by_year": [],
- "undated_pct": 100,
- "momentum": "none",
- "maturity": "L3",
- "maturity_evidence": [
-  "named_product:Dentrix",
-  "value_number"
+ "first_seen": 2021,
+ "by_year": [
+  {
+   "year": 2021,
+   "n": 1
+  },
+  {
+   "year": 2022,
+   "n": 1
+  },
+  {
+   "year": 2025,
+   "n": 5
+  },
+  {
+   "year": 2026,
+   "n": 1
+  }
  ],
- "prospect_score": 6,
+ "undated_pct": 11,
+ "momentum": "early_mover,rising",
+ "maturity": "L4",
+ "maturity_evidence": [
+  "multi_horizontal",
+  "named_product:Dentrix",
+  "value_number",
+  "multi_year"
+ ],
+ "prospect_score": 60,
  "stack": [
   "Amazon AWS"
  ],
  "vendor_named": true,
  "deployments_detail": [
+  {
+   "company": "Henry Schein",
+   "use": "Image Verify — AI-powered real-time dental X-ray quality assessment embedded in Dentrix and Dentrix Ascend; multi-model inference pipeline scores radiograph quality (1-5) at capture to reduce retakes and insurance claim denials [AWS (Amazon SageMaker AI, Amazon EKS, AWS Cloud WAN)]",
+   "existence": "confirmed",
+   "value": "10,000+ active locations; 11M+ X-rays processed (1.5M/week); 1.4s median latency, 0.01% error rate; addresses up to 20% of claims initially denied for poor image quality",
+   "tier": "",
+   "url": "https://aws.amazon.com/blogs/machine-learning/real-time-dental-image-verification-with-amazon-sagemaker-ai-at-henry-schein-one/",
+   "raw_sector": "",
+   "date": "2026-07-10",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Henry Schein",
+   "use": "Dentrix Detect AI — FDA-cleared computer-assisted detection (CADe) AI X-ray analysis tool integrated into Dentrix practice management, detects caries and other conditions to improve diagnostic accuracy [VideaHealth]",
+   "existence": "confirmed",
+   "value": "reduces missed lesions by up to 31%; VideaHealth AI analyzes 500M+ X-rays annually",
+   "tier": "",
+   "url": "https://investor.henryschein.com/news-releases/news-release-details/2022/Henry-Schein-One-Partners-With-VideaHealth-to-Launch-New-Dentrix-Detect-AI-X-Ray-Analysis-Tool-to-Enhance-Patient-Care-11-29-2022/default.aspx",
+   "raw_sector": "",
+   "date": "2022-11-29",
+   "fresh": "stale"
+  },
+  {
+   "company": "Henry Schein",
+   "use": "VideaHealth Impact Panel — real-time AI findings and AI-driven patient education tools integrated directly into Dentrix and Dentrix Ascend imaging workflows [VideaHealth]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.henryscheinone.com/about-us/press-release/videahealth-and-henry-schein-one-launch-the-impact-panel/",
+   "raw_sector": "",
+   "date": "2025-11-05",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Henry Schein",
+   "use": "Dentrix Voice / Dentrix Ascend Voice — voice AI for hands-free perio charting and clinical note dictation, natively powered by Bola AI, sold and marketed by Henry Schein One [Bola AI (Bola Technologies)]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://bola.ai/news/bola-technologies-inc-and-henry-schein-one-announce-partnership/",
+   "raw_sector": "",
+   "date": "2021-01-14",
+   "fresh": "stale"
+  },
+  {
+   "company": "Henry Schein",
+   "use": "Pearl Second Opinion — FDA-cleared radiologic AI analyzing intraoral X-rays in real time, integrated via Henry Schein One API Exchange as an authorized vendor [Pearl]",
+   "existence": "confirmed",
+   "value": "94% accuracy detecting caries and dental disease (Pearl claim)",
+   "tier": "",
+   "url": "https://hellopearl.com/news/pearl-joins-henry-schein-one-api-exchange-as-an-authorized-integration-vendor",
+   "raw_sector": "",
+   "date": "2025-09-16",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Henry Schein",
+   "use": "Voice Notes — generative AI ambient documentation that transcribes and summarizes chairside conversations into clinical records in real time, natively embedded in Dentrix and Dentrix Ascend [Henry Schein One (generative AI; AWS Transcribe Medical / Bedrock per AWS collaboration)]",
+   "existence": "confirmed",
+   "value": "projected 65-70% reduction in clinical documentation time",
+   "tier": "",
+   "url": "https://www.henryscheinone.com/about-us/press-release/henry-schein-one-unveils-industry-first-natively-embedded-voice-workflow-at-2025-greater-new-york-dental-meeting/",
+   "raw_sector": "",
+   "date": "2025-11-25",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Henry Schein",
+   "use": "Henry Schein One + AWS generative AI collaboration — platform-wide GenAI across Dentrix, Dentrix Ascend and Dentally for documentation assistant, predictive analytics, automated claims validation, dynamic pricing, and AI-driven scheduling/patient communication [AWS (Amazon Bedrock, Transcribe Medical)]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://investor.henryschein.com/news-releases/news-release-details/2025/Henry-Schein-One-and-AWS-Collaborate-to-Transform-Global-Dentistry-with-Generative-AI/default.aspx",
+   "raw_sector": "",
+   "date": "2025-11-03",
+   "fresh": "fresh"
+  },
   {
    "company": "Henry Schein",
    "use": "GenAI across Dentrix dental software (documentation, imaging, workflow) via AWS partnership; ~65-70% clinical documentation time cut",
@@ -52,6 +148,17 @@
    "raw_sector": "Health Care",
    "date": "missing",
    "fresh": "undated"
+  },
+  {
+   "company": "Henry Schein",
+   "use": "AI-powered IFS Cloud field service management — Mobile Workforce Management, Planning & Scheduling Optimization, and Field Service to modernize/consolidate global dental equipment field service operations [IFS (IFS Cloud, Industrial AI)]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://investor.henryschein.com/news-releases/news-release-details/2025/Henry-Schein-Opts-for-IFS-to-Optimize-Field-Service-and-Streamline-Global-Operations-06-04-2025/default.aspx",
+   "raw_sector": "",
+   "date": "2025-06-04",
+   "fresh": "fresh"
   }
  ]
 }

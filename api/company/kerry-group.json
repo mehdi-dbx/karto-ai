@@ -3,43 +3,116 @@
  "name": "Kerry Group",
  "cc": "IE",
  "vertical": "Retail & E-commerce",
- "deployments": 3,
- "confirmed": 3,
- "with_value_number": 1,
- "proof_rate": 0.333,
+ "deployments": 11,
+ "confirmed": 10,
+ "with_value_number": 3,
+ "proof_rate": 0.273,
  "mktcap": 14094000000.0,
  "revenue": 7300800000.0,
  "employees": 19420.0,
  "silent": false,
- "per_bn_revenue": 0.41,
- "per_10k_emp": 1.54,
+ "per_bn_revenue": 1.51,
+ "per_10k_emp": 5.66,
  "benchmarks": {
   "global_vertical": {
-   "deployments": 87,
-   "confirmed": 89,
-   "proof_rate": 67,
-   "n": 295
+   "deployments": 80,
+   "confirmed": 86,
+   "proof_rate": 57,
+   "n": 301
   }
  },
- "first_seen": 2025,
+ "first_seen": 2019,
  "by_year": [
   {
+   "year": 2019,
+   "n": 1
+  },
+  {
+   "year": 2024,
+   "n": 1
+  },
+  {
    "year": 2025,
+   "n": 6
+  },
+  {
+   "year": 2026,
    "n": 1
   }
  ],
- "undated_pct": 67,
- "momentum": "rising",
- "maturity": "L3",
+ "undated_pct": 18,
+ "momentum": "early_mover,rising",
+ "maturity": "L4",
  "maturity_evidence": [
+  "multi_horizontal",
   "named_product:Kerry",
   "value_number",
+  "multi_year",
   "tier_p"
  ],
- "prospect_score": 53,
- "stack": [],
- "vendor_named": false,
+ "prospect_score": 89,
+ "stack": [
+  "IBM",
+  "Microsoft",
+  "Microsoft Azure"
+ ],
+ "vendor_named": true,
  "deployments_detail": [
+  {
+   "company": "Kerry Group",
+   "use": "Salsify Intelligence Suite (AI) in production for product content management — extracts nutritional data from PDFs/packaging images, generates product titles/descriptions in Kerry's brand voice, and auto-validates data in Salsify workflows for the digital shelf / e-commerce. [Salsify]",
+   "existence": "confirmed",
+   "value": "85% decrease in manual work; product validation cut from 20-30 minutes to 5 minutes; product launch from 2-3 days to 1 day",
+   "tier": "",
+   "url": "https://www.salsify.com/resources/case-study/kerry-group-decreases-manual-work-salsify-ai-intelligence-suite",
+   "raw_sector": "",
+   "date": "2026-02-19",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Kerry Group",
+   "use": "KerryNow customer portal featuring AI-powered new product development using Kerry's proprietary data, alongside order tracking and product portfolio management; launched and being upscaled. [Kerry (proprietary)]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.kerry.com/about/news-and-media/2025/new-kerry-digital-centre-of-excellence",
+   "raw_sector": "",
+   "date": "2025-02-14",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Kerry Group",
+   "use": "Microsoft 365 Copilot rollout (deployed with EY as implementation partner) for knowledge-worker productivity — document analysis/summarization (e.g. reviewing an 86-page acquisition proposal), knowledge synthesis and decision support across the workforce. [Microsoft (365 Copilot); EY (deployment partner)]",
+   "existence": "confirmed",
+   "value": "early-adopter users saved at least 20 minutes per use case; 97% of surveyed users wanted to continue using it daily",
+   "tier": "",
+   "url": "https://news.microsoft.com/source/emea/features/kerry-group-copilot-knowledge-partner/",
+   "raw_sector": "",
+   "date": "2025-01-01",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Kerry Group",
+   "use": "EY-led deployment of Microsoft 365 Copilot at Kerry Group as part of its digital transformation, with EY's change-management framework used to drive staff adoption. [EY; Microsoft]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.ey.com/en_ie/insights/consulting/its-not-going-to-land-by-itself-how-irish-organisations-are-working-with-their-people-to-embrace-the-wave-of-tech",
+   "raw_sector": "",
+   "date": "2024-12-12",
+   "fresh": "aging"
+  },
+  {
+   "company": "Kerry Group",
+   "use": "AI applied to supply chain and manufacturing network optimization and to streamlining regulatory documentation, delivered via Kerry's new Digital Centre of Excellence (Naas), with advanced generative AI being scaled across operations, R&D and global business services. [none]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://news.microsoft.com/source/emea/features/irelands-frontier-firms-leading-the-ai-charge-lessons-from-kerry-group-and-an-post/",
+   "raw_sector": "",
+   "date": "2025-04-12",
+   "fresh": "fresh"
+  },
   {
    "company": "Kerry Group",
    "use": "Kerry TrendSpotter AI platform created a new snack flavour, shortening product development timelines",
@@ -72,6 +145,39 @@
    "raw_sector": "Food Products",
    "date": "missing",
    "fresh": "undated"
+  },
+  {
+   "company": "Kerry Group",
+   "use": "Kerry Trendspotter — predictive AI platform (IBM Watson NLU/ML) that ingests millions of social/consumer data points to forecast food & beverage trends and inform new product development; used to create a novel snack flavour ahead of trend. [IBM Watson]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.kerry.com/insights/case-studies/new-snack-flavour-created-with-artificial-intelligence-from-kerry-trendspotter",
+   "raw_sector": "",
+   "date": "2019-12-26",
+   "fresh": "stale"
+  },
+  {
+   "company": "Kerry Group",
+   "use": "Kerry Kalaido — proprietary generative-AI product ideation and concepting tool that generates, formulates and visualizes product prototypes from Kerry's 20-year formulation database plus external consumer/trend data; deployed at Kerry co-creation hubs (California), with customers taking outputs to launch activity. [Kerry (proprietary)]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.foodingredientsfirst.com/news/kerry-ai-food-innovation-kalaido.html",
+   "raw_sector": "",
+   "date": "2025-05-08",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Kerry Group",
+   "use": "Generative AI to accelerate food product development and reshape innovation cycles, embedding Microsoft Azure and Microsoft 365 Copilot to respond faster to consumer trends and sustainability demands. [Microsoft (Azure, 365 Copilot)]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://news.microsoft.com/source/emea/features/irelands-frontier-firms-leading-the-ai-charge-lessons-from-kerry-group-and-an-post/",
+   "raw_sector": "",
+   "date": "2025-04-12",
+   "fresh": "fresh"
   }
  ]
 }

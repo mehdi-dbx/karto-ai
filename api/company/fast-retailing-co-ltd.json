@@ -3,44 +3,85 @@
  "name": "Fast Retailing Co., Ltd.",
  "cc": "JP",
  "vertical": "Retail & E-commerce",
- "deployments": 1,
- "confirmed": 1,
- "with_value_number": 1,
- "proof_rate": 1.0,
+ "deployments": 10,
+ "confirmed": 9,
+ "with_value_number": 2,
+ "proof_rate": 0.2,
  "mktcap": 157733333333.0,
  "revenue": 25666666667.0,
  "employees": 59522.0,
  "silent": false,
- "per_bn_revenue": 0.04,
- "per_10k_emp": 0.17,
+ "per_bn_revenue": 0.39,
+ "per_10k_emp": 1.68,
  "benchmarks": {
   "global_vertical": {
-   "deployments": 0,
-   "confirmed": 24,
-   "proof_rate": 77,
-   "n": 295
+   "deployments": 72,
+   "confirmed": 81,
+   "proof_rate": 45,
+   "n": 301
   },
   "country_vertical": {
-   "deployments": 0,
-   "confirmed": 4,
-   "proof_rate": 50,
-   "n": 25
+   "deployments": 80,
+   "confirmed": 84,
+   "proof_rate": 32,
+   "n": 26
   }
  },
- "first_seen": null,
- "by_year": [],
- "undated_pct": 100,
- "momentum": "none",
- "maturity": "L3",
+ "first_seen": 2018,
+ "by_year": [
+  {
+   "year": 2018,
+   "n": 4
+  },
+  {
+   "year": 2019,
+   "n": 1
+  },
+  {
+   "year": 2021,
+   "n": 1
+  },
+  {
+   "year": 2022,
+   "n": 1
+  },
+  {
+   "year": 2024,
+   "n": 1
+  },
+  {
+   "year": 2025,
+   "n": 1
+  }
+ ],
+ "undated_pct": 10,
+ "momentum": "early_mover,flat",
+ "maturity": "L4",
  "maturity_evidence": [
+  "multi_horizontal",
   "named_product:UNIQLO IQ",
   "value_number",
+  "multi_year",
   "tier_p"
  ],
- "prospect_score": 14,
- "stack": [],
- "vendor_named": false,
+ "prospect_score": 86,
+ "stack": [
+  "Amazon AWS",
+  "Google Cloud"
+ ],
+ "vendor_named": true,
  "deployments_detail": [
+  {
+   "company": "Fast Retailing Co., Ltd.",
+   "use": "AI-based motion-planning picking robots for warehouse/logistics automation: robots that autonomously handle the variety and complexity of apparel picking, deployed to automate Fast Retailing brand warehouses. [MUJIN (Motion Planning AI), Exotec Solutions, Daifuku]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.fastretailing.com/eng/ir/news/1911131400.html",
+   "raw_sector": "",
+   "date": "2019-11-13",
+   "fresh": "stale"
+  },
   {
    "company": "Fast Retailing Co., Ltd.",
    "use": "AI demand forecasting + supply-chain optimization (with Google); customer-voice AI analysis (millions/year); \"UNIQLO IQ\" AI styling app",
@@ -51,6 +92,94 @@
    "raw_sector": "Retail",
    "date": "missing",
    "fresh": "undated"
+  },
+  {
+   "company": "Fast Retailing Co., Ltd.",
+   "use": "AI-driven demand forecasting under the Ariake Project: Fast Retailing works with Google Cloud's Advanced Solutions Lab to apply advanced machine learning to analyze customer data and forecast product demand, coordinating sales, production, and inventory planning. [Google Cloud (Advanced Solutions Lab)]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://cloud.google.com/blog/products/ai-machine-learning/introducing-the-google-cloud-advanced-solutions-lab-in-tokyo-helping-businesses-do-more-with-ai",
+   "raw_sector": "",
+   "date": "2018-09-19",
+   "fresh": "stale"
+  },
+  {
+   "company": "Fast Retailing Co., Ltd.",
+   "use": "Image-recognition + machine learning to evaluate product/fashion trends, feeding design and merchandising decisions (part of the Ariake Project collaboration with Google Cloud). [Google Cloud]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.fastretailing.com/eng/ir/news/1809191400.html",
+   "raw_sector": "",
+   "date": "2018-09-19",
+   "fresh": "stale"
+  },
+  {
+   "company": "Fast Retailing Co., Ltd.",
+   "use": "StyleHint: an image-recognition-powered style search app that lets users upload/take photos of clothing and be matched with visually similar UNIQLO and GU products and styling inspiration. [none]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.uniqlo.com/uk/en/news/topics/2021120301/",
+   "raw_sector": "",
+   "date": "2021-12-03",
+   "fresh": "stale"
+  },
+  {
+   "company": "Fast Retailing Co., Ltd.",
+   "use": "MySize ASSIST: an AI algorithm in the UNIQLO app that estimates a shopper's body shape and recommends a clothing size based on sex, age, height, weight and fit preference (with phone-camera body measurement). [none]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.uniqlo.com/us/en/special-feature/mysize-assist",
+   "raw_sector": "",
+   "date": "2022-01-01",
+   "fresh": "stale"
+  },
+  {
+   "company": "Fast Retailing Co., Ltd.",
+   "use": "Google-powered personalization in the UNIQLO app: AI tailors product recommendations and rankings to individual users (by occasion, preferences, and behavior), part of UNIQLO IQ's digital shopping experience. [Google]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://econsultancy.com/how-uniqlo-is-personalising-the-shopping-experience-with-google-powered-app/",
+   "raw_sector": "",
+   "date": "2018-08-06",
+   "fresh": "stale"
+  },
+  {
+   "company": "Fast Retailing Co., Ltd.",
+   "use": "AI analysis of customer feedback: UNIQLO uses AI to analyze the ~30 million+ customer comments received annually, increasing accuracy and speed of feedback analysis and dissemination to inform product development and improvement. [none]",
+   "existence": "confirmed",
+   "value": "over 30 million customer comments analyzed annually",
+   "tier": "",
+   "url": "https://www.fastretailing.com/eng/group/strategy/uniqlobusiness.html",
+   "raw_sector": "",
+   "date": "2025-01-15",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Fast Retailing Co., Ltd.",
+   "use": "UNIQLO IQ virtual shopping assistant / chatbot: an AI-powered conversational assistant (voice + chat) built with Google technology that provides personalized product recommendations, sizing help, and order/return support. [Google Cloud (Google Assistant / ML); agencies Inamoto & Co, Party]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.thedrum.com/news/uniqlo-launches-its-own-virtual-assistant-using-google-technology",
+   "raw_sector": "",
+   "date": "2018-08-01",
+   "fresh": "stale"
+  },
+  {
+   "company": "Fast Retailing Co., Ltd.",
+   "use": "Machine-learning e-commerce search: Fast Retailing is leveraging/evaluating LLMs, vector search and semantic search (on top of Amazon OpenSearch) to reduce manual synonym/keyword registration and improve e-commerce site search relevance. [AWS (Amazon OpenSearch Service)]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://aws.amazon.com/jp/blogs/news/fastretailing-event-20240724-en-part2/",
+   "raw_sector": "",
+   "date": "2024-11-06",
+   "fresh": "aging"
   }
  ]
 }

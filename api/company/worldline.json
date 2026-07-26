@@ -3,27 +3,27 @@
  "name": "Worldline",
  "cc": "FR",
  "vertical": "Financial Services",
- "deployments": 1,
- "confirmed": 1,
+ "deployments": 5,
+ "confirmed": 4,
  "with_value_number": 1,
- "proof_rate": 1.0,
+ "proof_rate": 0.2,
  "mktcap": 614001600.0,
  "revenue": 4352400000.0,
  "employees": 17948.0,
  "silent": false,
- "per_bn_revenue": 0.23,
- "per_10k_emp": 0.56,
+ "per_bn_revenue": 1.15,
+ "per_10k_emp": 2.79,
  "benchmarks": {
   "global_vertical": {
-   "deployments": 0,
-   "confirmed": 17,
-   "proof_rate": 76,
-   "n": 377
+   "deployments": 31,
+   "confirmed": 39,
+   "proof_rate": 39,
+   "n": 388
   },
   "country_vertical": {
    "deployments": 0,
    "confirmed": 14,
-   "proof_rate": 71,
+   "proof_rate": 14,
    "n": 8
   }
  },
@@ -34,14 +34,15 @@
    "n": 1
   }
  ],
- "undated_pct": 0,
+ "undated_pct": 80,
  "momentum": "early_mover,gone_quiet",
  "maturity": "L3",
  "maturity_evidence": [
+  "multi_horizontal",
   "value_number",
   "tier_p"
  ],
- "prospect_score": 14,
+ "prospect_score": 64,
  "stack": [],
  "vendor_named": false,
  "deployments_detail": [
@@ -55,6 +56,50 @@
    "raw_sector": "Payments / Fintech",
    "date": "2024",
    "fresh": "aging"
+  },
+  {
+   "company": "Worldline",
+   "use": "AI-powered payment routing to optimize authorization rates",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://worldline.com/en/home/top-navigation/media-relations/press-release/worldline-launches-ai-powered-routing-to-boost-payment-authorisation-rates",
+   "raw_sector": "",
+   "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "Worldline",
+   "use": "AI agents for merchant commerce deployment",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://finovate.com/worldline-connects-ai-agents-to-its-global-payment-ecosystem/",
+   "raw_sector": "",
+   "date": "Jan 15, 2026",
+   "fresh": "undated"
+  },
+  {
+   "company": "Worldline",
+   "use": "AI-powered global routing solution for e-commerce merchants",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://fintech.global/2025/07/17/worldline-launches-ai-powered-global-routing-solution/",
+   "raw_sector": "",
+   "date": "Jul 17, 2025",
+   "fresh": "undated"
+  },
+  {
+   "company": "Worldline",
+   "use": "AI and machine learning for payment fraud detection and prevention",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://worldline.com/en/home/main-navigation/solutions/financial-institutions/authentication-and-security/payment-fraud-management",
+   "raw_sector": "",
+   "date": "missing",
+   "fresh": "undated"
   }
  ]
 }

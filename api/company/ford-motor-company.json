@@ -3,21 +3,21 @@
  "name": "Ford Motor Company",
  "cc": "US",
  "vertical": "Automotive",
- "deployments": 1,
- "confirmed": 1,
- "with_value_number": 0,
- "proof_rate": 0.0,
+ "deployments": 9,
+ "confirmed": 3,
+ "with_value_number": 1,
+ "proof_rate": 0.111,
  "mktcap": 56260000000.0,
  "revenue": 189860000000.0,
  "employees": 169000.0,
  "silent": false,
- "per_bn_revenue": 0.01,
- "per_10k_emp": 0.06,
+ "per_bn_revenue": 0.05,
+ "per_10k_emp": 0.53,
  "benchmarks": {
   "global_vertical": {
-   "deployments": 0,
+   "deployments": 59,
    "confirmed": 10,
-   "proof_rate": 0,
+   "proof_rate": 21,
    "n": 40
   }
  },
@@ -28,16 +28,20 @@
    "n": 1
   }
  ],
- "undated_pct": 0,
+ "undated_pct": 89,
  "momentum": "early_mover,gone_quiet",
  "maturity": "L3",
  "maturity_evidence": [
+  "multi_horizontal",
   "named_product:BlueCruise",
+  "value_number",
   "tier_p"
  ],
  "prospect_score": 54,
- "stack": [],
- "vendor_named": false,
+ "stack": [
+  "NVIDIA"
+ ],
+ "vendor_named": true,
  "deployments_detail": [
   {
    "company": "Ford Motor Company",
@@ -49,6 +53,94 @@
    "raw_sector": "Consumer Discretionary",
    "date": "2023",
    "fresh": "stale"
+  },
+  {
+   "company": "Ford Motor Company",
+   "use": "AI-powered 2D sketch to 3D model conversion for vehicle design",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://digitaldefynd.com/IQ/ford-using-ai-case-study/",
+   "raw_sector": "",
+   "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "Ford Motor Company",
+   "use": "Android, AI, and ML integration for connected vehicles [Google]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://corporate.ford.com/articles/products/ford-and-google-to-accelerate-auto-innovation.html",
+   "raw_sector": "",
+   "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "Ford Motor Company",
+   "use": "Employee AI training program",
+   "existence": "confirmed",
+   "value": "10,000 employees",
+   "tier": "",
+   "url": "https://www.forbes.com/sites/randybean/2025/11/23/how-ford-is-embracing-ai-to-drive-innovation-in-the-automotive-industry/",
+   "raw_sector": "",
+   "date": "Nov 23, 2025",
+   "fresh": "undated"
+  },
+  {
+   "company": "Ford Motor Company",
+   "use": "AI-enabled robots and cobots for assembly-line production",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.futuriom.com/articles/news/enterprise-ai-profile-ford-accelerates-product-design-and-safety-with-ai/2025/11",
+   "raw_sector": "",
+   "date": "Nov 20, 2025",
+   "fresh": "undated"
+  },
+  {
+   "company": "Ford Motor Company",
+   "use": "AI quality assurance for manufacturing and defect detection",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://bernardmarr.com/the-amazing-ways-the-ford-motor-company-uses-artificial-intelligence-and-machine-learning/",
+   "raw_sector": "",
+   "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "Ford Motor Company",
+   "use": "AI supply chain disruption monitoring and prevention",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://fordauthority.com/2025/09/ford-using-ai-to-monitor-and-prevent-supply-chain-disruptions/",
+   "raw_sector": "",
+   "date": "Sep 26, 2025",
+   "fresh": "undated"
+  },
+  {
+   "company": "Ford Motor Company",
+   "use": "AI agents for customer experience and operational efficiency [NVIDIA]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.nvidia.com/en-us/on-demand/session/gtc25-s73306/",
+   "raw_sector": "",
+   "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "Ford Motor Company",
+   "use": "Internal Language Learning Model (LLM) beta testing",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://corporate.ford.com/microsites/ford-trends-2024/ai-wary.html",
+   "raw_sector": "",
+   "date": "missing",
+   "fresh": "undated"
   }
  ]
 }

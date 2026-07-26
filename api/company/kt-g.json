@@ -3,46 +3,63 @@
  "name": "KT&G",
  "cc": "KR",
  "vertical": "Retail & E-commerce",
- "deployments": 1,
- "confirmed": 1,
- "with_value_number": 0,
- "proof_rate": 0.0,
+ "deployments": 9,
+ "confirmed": 7,
+ "with_value_number": 1,
+ "proof_rate": 0.111,
  "mktcap": 13577777778.0,
  "revenue": 5029629630.0,
  "employees": 4130.0,
  "silent": false,
- "per_bn_revenue": 0.2,
- "per_10k_emp": 2.42,
+ "per_bn_revenue": 1.79,
+ "per_10k_emp": 21.79,
  "benchmarks": {
   "global_vertical": {
-   "deployments": 0,
-   "confirmed": 24,
-   "proof_rate": 0,
-   "n": 295
+   "deployments": 64,
+   "confirmed": 69,
+   "proof_rate": 36,
+   "n": 301
   },
   "country_vertical": {
-   "deployments": 0,
-   "confirmed": 14,
-   "proof_rate": 0,
-   "n": 22
+   "deployments": 77,
+   "confirmed": 82,
+   "proof_rate": 45,
+   "n": 23
   }
  },
- "first_seen": 2025,
+ "first_seen": 2022,
  "by_year": [
   {
-   "year": 2025,
+   "year": 2022,
    "n": 1
+  },
+  {
+   "year": 2024,
+   "n": 2
+  },
+  {
+   "year": 2025,
+   "n": 4
+  },
+  {
+   "year": 2026,
+   "n": 2
   }
  ],
  "undated_pct": 0,
- "momentum": "rising",
- "maturity": "L2",
+ "momentum": "early_mover,rising",
+ "maturity": "L4",
  "maturity_evidence": [
-  "single_confirmed"
+  "multi_horizontal",
+  "named_product:AIBLE",
+  "value_number",
+  "multi_year"
  ],
- "prospect_score": 54,
- "stack": [],
- "vendor_named": false,
+ "prospect_score": 78,
+ "stack": [
+  "Salesforce"
+ ],
+ "vendor_named": true,
  "deployments_detail": [
   {
    "company": "KT&G",
@@ -53,6 +70,94 @@
    "url": "https://html.duckduckgo.com/html/?q=케이티앤지+KT&G+AI+채용",
    "raw_sector": "Consumer Staples",
    "date": "2025",
+   "fresh": "fresh"
+  },
+  {
+   "company": "KT&G",
+   "use": "AI competency assessment (AI 역량검사, incl. AI interview) used as a standard, recurring step in KT&G's blind new-graduate and experienced-hire recruitment process to evaluate cognitive ability, problem-solving and disposition. [none]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.shinailbo.co.kr/news/articleView.html?idxno=2093953",
+   "raw_sector": "",
+   "date": "2025-08-04",
+   "fresh": "fresh"
+  },
+  {
+   "company": "KT&G",
+   "use": "Internal generative-AI in-house instructor training program (생성형 AI를 활용한 사내강사 양성과정) — KT&G HRD program training employees to build training content and personal course pages using generative AI tools; multiple cohorts run in 2025-2026. [none]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://blog.naver.com/wofyrhd/224158750311",
+   "raw_sector": "",
+   "date": "2026-01-25",
+   "fresh": "fresh"
+  },
+  {
+   "company": "KT&G",
+   "use": "lil AIBLE heat-not-burn device with embedded 'Smart AI' — Preheating AI (calculates ambient temperature/humidity + stick manufacturing variance to optimize heating), Puff AI (proposes puff count/usage time), and Charging AI (optimal charge timing). First HNB product in the industry to embed AI. [KT&G (in-house)]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.bloter.net/news/articleViewAmp.html?idxno=46525",
+   "raw_sector": "",
+   "date": "2022-11-09",
+   "fresh": "stale"
+  },
+  {
+   "company": "KT&G",
+   "use": "lil Solid 3.0 device 'SMART ON' feature — sensor/AI-driven auto-heating that detects the tobacco stick as it is inserted and instantly begins heating, plus fast charging and boost mode. [KT&G (in-house)]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://tobaccoreporter.com/2024/09/24/ktg-has-releases-lil-solid-3-0/",
+   "raw_sector": "",
+   "date": "2024-09-22",
+   "fresh": "aging"
+  },
+  {
+   "company": "KT&G",
+   "use": "Daejeon cigarette plant smart-factory program — plan to graft AI systems onto the highly automated line (29 lines, 14,000 cigarettes/minute) to extend from manufacturing into AI-based diagnostics; described as an in-progress build (currently sensor-based), so AI diagnostics not yet in production. [KT&G (in-house)]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://v.daum.net/v/20250917103744528",
+   "raw_sector": "",
+   "date": "2025-09-17",
+   "fresh": "fresh"
+  },
+  {
+   "company": "KT&G",
+   "use": "RAISON D'ETRE A.I COLLABOR limited-edition cigarette line whose pack graphics were created using generative AI graphic technology (2000s-inspired 'newtro' concept), released in Blue and Black variants. [KT&G (in-house)]",
+   "existence": "confirmed",
+   "value": "4,500 KRW per pack (retail price)",
+   "tier": "",
+   "url": "https://www.etnews.com/20240620000268",
+   "raw_sector": "",
+   "date": "2024-06-20",
+   "fresh": "aging"
+  },
+  {
+   "company": "KT&G",
+   "use": "New unified commerce platform built on Salesforce Agentforce / Commerce Cloud, connecting commerce, CRM and an integrated database into a 'Golden Customer 360' single-ID platform; composable/headless architecture with real-time multi-warehouse inventory and automated fulfillment. KT&G chose a proven external AI platform rather than building AI in-house; plans to extend with device recommendations and autonomous customer-service agents. [Salesforce (Agentforce Commerce / Commerce Cloud)]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "http://www.newstheai.com/news/articleView.html?idxno=21160",
+   "raw_sector": "",
+   "date": "2026-07-16",
+   "fresh": "fresh"
+  },
+  {
+   "company": "KT&G",
+   "use": "KT&G Sangsangmadang 20th-anniversary 'AI-based Art Support Project' — an open call and exhibition supporting artists creating experimental work through human-AI collaboration (accepting applications Mar-Apr 2025; exhibition later in 2025). [KT&G Sangsangmadang]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.sangsangmadang.com/support/detail/306",
+   "raw_sector": "",
+   "date": "2025-03-25",
    "fresh": "fresh"
   }
  ]

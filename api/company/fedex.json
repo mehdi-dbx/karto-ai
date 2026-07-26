@@ -3,48 +3,89 @@
  "name": "FedEx",
  "cc": "US",
  "vertical": "Industrial / Machinery",
- "deployments": 1,
- "confirmed": 1,
+ "deployments": 7,
+ "confirmed": 6,
  "with_value_number": 0,
  "proof_rate": 0.0,
  "mktcap": 74720000000.0,
  "revenue": 94720000000.0,
  "employees": 530000.0,
  "silent": false,
- "per_bn_revenue": 0.01,
- "per_10k_emp": 0.02,
+ "per_bn_revenue": 0.07,
+ "per_10k_emp": 0.13,
  "benchmarks": {
   "global_vertical": {
-   "deployments": 0,
-   "confirmed": 14,
+   "deployments": 61,
+   "confirmed": 72,
    "proof_rate": 0,
-   "n": 175
+   "n": 176
   },
   "country_vertical": {
-   "deployments": 0,
-   "confirmed": 19,
+   "deployments": 61,
+   "confirmed": 70,
    "proof_rate": 0,
-   "n": 80
+   "n": 81
   }
  },
- "first_seen": 2029,
+ "first_seen": 2026,
  "by_year": [
+  {
+   "year": 2026,
+   "n": 1
+  },
   {
    "year": 2029,
    "n": 1
   }
  ],
- "undated_pct": 0,
+ "undated_pct": 71,
  "momentum": "late_entrant,rising",
- "maturity": "L3",
+ "maturity": "L4",
  "maturity_evidence": [
+  "multi_horizontal",
   "named_product:Dataworks",
+  "multi_year",
   "tier_p"
  ],
- "prospect_score": 54,
- "stack": [],
- "vendor_named": false,
+ "prospect_score": 76,
+ "stack": [
+  "Accenture"
+ ],
+ "vendor_named": true,
  "deployments_detail": [
+  {
+   "company": "FedEx",
+   "use": "AI-powered post-purchase solutions with automated responses to delivery and returns questions",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://newsroom.fedex.com/newsroom/global-english/fedex-to-offer-access-to-ai-powered-post-purchase-solutions-for-enterprises",
+   "raw_sector": "",
+   "date": "Feb 2, 2026",
+   "fresh": "undated"
+  },
+  {
+   "company": "FedEx",
+   "use": "AI-powered robotic arms with machine vision for package sorting and barcode scanning",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://digitaldefynd.com/IQ/ways-fedex-using-ai/",
+   "raw_sector": "",
+   "date": "2026",
+   "fresh": "fresh"
+  },
+  {
+   "company": "FedEx",
+   "use": "AI-powered sorting robots for shipping operations [Dexterity AI]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.fedex.com/en-hk/business-insights/tech-innovation/the-rise-of-the-sorting-robots.html",
+   "raw_sector": "",
+   "date": "Sep 24, 2025",
+   "fresh": "undated"
+  },
   {
    "company": "FedEx",
    "use": "\"Dataworks\" AI supply-chain intelligence + \"FedEx Surround\" predictive delay/monitoring; AI-powered network transformation to 2029",
@@ -55,6 +96,39 @@
    "raw_sector": "Industrials",
    "date": "2029",
    "fresh": "fresh"
+  },
+  {
+   "company": "FedEx",
+   "use": "Enterprise-wide AI Education and Literacy program for workforce training [Accenture]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://newsroom.fedex.com/newsroom/global-english/fedex-empowers-global-workforce-with-ai-education-and-literacy-program",
+   "raw_sector": "",
+   "date": "Dec 2, 2025",
+   "fresh": "undated"
+  },
+  {
+   "company": "FedEx",
+   "use": "AI agents integrated into core workflows",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.wsj.com/cio-journal/fedex-is-planning-an-ai-agent-workforce-f5b09f36",
+   "raw_sector": "",
+   "date": "Mar 13, 2026",
+   "fresh": "undated"
+  },
+  {
+   "company": "FedEx",
+   "use": "AI-powered marketing demand intake and governance",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://asana.com/case-study/fedex",
+   "raw_sector": "",
+   "date": "missing",
+   "fresh": "undated"
   }
  ]
 }

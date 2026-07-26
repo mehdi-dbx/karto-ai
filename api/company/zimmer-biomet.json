@@ -3,40 +3,53 @@
  "name": "Zimmer Biomet",
  "cc": "US",
  "vertical": "Healthcare & Life Sciences",
- "deployments": 1,
- "confirmed": 1,
+ "deployments": 6,
+ "confirmed": 2,
  "with_value_number": 1,
- "proof_rate": 1.0,
+ "proof_rate": 0.167,
  "mktcap": 17170000000.0,
  "revenue": 8410000000.0,
  "employees": 17000.0,
  "silent": false,
- "per_bn_revenue": 0.12,
- "per_10k_emp": 0.59,
+ "per_bn_revenue": 0.71,
+ "per_10k_emp": 3.53,
  "benchmarks": {
   "global_vertical": {
-   "deployments": 0,
-   "confirmed": 13,
-   "proof_rate": 83,
-   "n": 165
+   "deployments": 47,
+   "confirmed": 20,
+   "proof_rate": 47,
+   "n": 168
   },
   "country_vertical": {
-   "deployments": 0,
-   "confirmed": 7,
-   "proof_rate": 90,
+   "deployments": 38,
+   "confirmed": 10,
+   "proof_rate": 47,
    "n": 59
   }
  },
- "first_seen": null,
- "by_year": [],
- "undated_pct": 100,
- "momentum": "none",
+ "first_seen": 2022,
+ "by_year": [
+  {
+   "year": 2022,
+   "n": 1
+  },
+  {
+   "year": 2024,
+   "n": 2
+  },
+  {
+   "year": 2025,
+   "n": 1
+  }
+ ],
+ "undated_pct": 33,
+ "momentum": "early_mover,cooling",
  "maturity": "L3",
  "maturity_evidence": [
   "named_product:ROSA",
   "value_number"
  ],
- "prospect_score": 14,
+ "prospect_score": 53,
  "stack": [],
  "vendor_named": false,
  "deployments_detail": [
@@ -50,6 +63,61 @@
    "raw_sector": "Health Care",
    "date": "missing",
    "fresh": "undated"
+  },
+  {
+   "company": "Zimmer Biomet",
+   "use": "AI-powered surgical robotics with fluoroscopy-based guidance",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.prnewswire.com/news-releases/zimmer-biomet-highlights-robotics--musculoskeletal-product-innovations-at-2025-aahks-annual-meeting-302589481.html",
+   "raw_sector": "",
+   "date": "2025",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Zimmer Biomet",
+   "use": "AI-powered operating room workflow recognition and timestamping for OMNI Suite Intelligent Operating Room",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://orthofeed.com/2022/05/10/zimmer-biomet-debuts-first-of-its-kind-artificial-intelligence-capabilities-for-omni-suite-intelligent-operating-room/amp/",
+   "raw_sector": "",
+   "date": "2022-05-10",
+   "fresh": "stale"
+  },
+  {
+   "company": "Zimmer Biomet",
+   "use": "OrthoGrid Systems AI-driven guidance for total hip replacement",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.beckersspine.com/orthopedic/how-well-positioned-is-zimmer-biomet-for-2025/",
+   "raw_sector": "",
+   "date": "2024-12-10",
+   "fresh": "aging"
+  },
+  {
+   "company": "Zimmer Biomet",
+   "use": "Peritas AI agentic orchestration for connected surgical robotics and unified operating room [Peritas AI]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://hub.zimmerbiomet.com/Zimmer-Biomet-and-PeritasAI-Collaborate-to-Explore-Agentic-Connected-Robotics-to-Support-Surgical-Teams-with-a-Smarter-Unified-Operating-Room",
+   "raw_sector": "",
+   "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "Zimmer Biomet",
+   "use": "RevelAi Health AI-enabled asynchronous care model for value-based orthopedic care [RevelAi Health]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.prnewswire.com/news-releases/revelai-health-and-zimmer-biomet-announce-exclusive-multi-year-co-marketing-agreement-to-advance-value-based-care-and-health-equity-through-ai-powered-technology-302170335.html",
+   "raw_sector": "",
+   "date": "2024-06-12",
+   "fresh": "aging"
   }
  ]
 }

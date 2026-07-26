@@ -3,27 +3,27 @@
  "name": "Bank Hapoalim",
  "cc": "IL",
  "vertical": "Financial Services",
- "deployments": 2,
- "confirmed": 2,
- "with_value_number": 0,
- "proof_rate": 0.0,
+ "deployments": 10,
+ "confirmed": 9,
+ "with_value_number": 3,
+ "proof_rate": 0.3,
  "mktcap": 25602702703.0,
  "revenue": 6297297297.0,
  "employees": 8409.0,
  "silent": false,
- "per_bn_revenue": 0.32,
- "per_10k_emp": 2.38,
+ "per_bn_revenue": 1.59,
+ "per_10k_emp": 11.89,
  "benchmarks": {
   "global_vertical": {
-   "deployments": 62,
+   "deployments": 65,
    "confirmed": 73,
-   "proof_rate": 0,
-   "n": 377
+   "proof_rate": 54,
+   "n": 388
   },
   "country_vertical": {
-   "deployments": 50,
-   "confirmed": 50,
-   "proof_rate": 0,
+   "deployments": 75,
+   "confirmed": 100,
+   "proof_rate": 75,
    "n": 5
   }
  },
@@ -31,28 +31,40 @@
  "by_year": [
   {
    "year": 2025,
-   "n": 1
+   "n": 3
   },
   {
    "year": 2026,
-   "n": 1
+   "n": 5
   }
  ],
- "undated_pct": 0,
+ "undated_pct": 20,
  "momentum": "rising",
  "maturity": "L4",
  "maturity_evidence": [
   "multi_horizontal",
   "named_product:First",
+  "value_number",
   "multi_year",
   "tier_p"
  ],
- "prospect_score": 52,
+ "prospect_score": 82,
  "stack": [
   "Microsoft"
  ],
  "vendor_named": true,
  "deployments_detail": [
+  {
+   "company": "Bank Hapoalim",
+   "use": "Embedding generative AI and data in work processes to improve service and value propositions (GenAI & data pillar of the Poalim 2026 strategic plan; bank stating intent to increase use of AI/GenAI-based models) [none]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.bankhapoalim.com/sites/bnhpcom/files/media/com/FinancialInformation/12001254e.pdf",
+   "raw_sector": "",
+   "date": "2026-03",
+   "fresh": "fresh"
+  },
   {
    "company": "Bank Hapoalim",
    "use": "First Israeli bank to integrate Microsoft Copilot as part of daily work routines for thousands of employees (with Microsoft Israel)",
@@ -66,6 +78,50 @@
   },
   {
    "company": "Bank Hapoalim",
+   "use": "Microsoft 365 Copilot Chat rolled out to bank employees as the first capability of a broad AI-in-workflow program (~12 cross-divisional AI projects, personalized AI agents for staff) [Microsoft (Copilot / Microsoft 365)]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://news.microsoft.com/source/emea/2026/02/%D7%9E%D7%99%D7%A7%D7%A8%D7%95%D7%A1%D7%95%D7%A4%D7%98-%D7%95%D7%91%D7%A0%D7%A7-%D7%94%D7%A4%D7%95%D7%A2%D7%9C%D7%99%D7%9D/?lang=he",
+   "raw_sector": "",
+   "date": "2026-02",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Bank Hapoalim",
+   "use": "AI voice agents handling inbound customer calls for appointment scheduling (calendar/Zoom/Outlook integration, multi-language, duplicate validation) across 2M+ customers [Wonderful]",
+   "existence": "confirmed",
+   "value": "4,000 interactions processed in 6 weeks; avg call under 90 seconds; 75% first-contact resolution; 97% positive sentiment; zero wait times",
+   "tier": "",
+   "url": "https://www.wonderful.ai/case-studies/financial-services",
+   "raw_sector": "",
+   "date": "2026-02",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Bank Hapoalim",
+   "use": "'Danit' in-app conversational AI agent in the account-management mobile app that lets customers ask in free language and get guidance to information and actions [none]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://apps.apple.com/st/app/%D7%A0%D7%99%D7%94%D7%95%D7%9C-%D7%94%D7%97%D7%A9%D7%91%D7%95%D7%9F-%D7%91%D7%A0%D7%A7-%D7%94%D7%A4%D7%95%D7%A2%D7%9C%D7%99%D7%9D/id362123205",
+   "raw_sector": "",
+   "date": "2026",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Bank Hapoalim",
+   "use": "Deep-learning / neural-network model for automated classification and routing of inbound customer email inquiries across bank departments [Opisoft]",
+   "existence": "confirmed",
+   "value": "Email classification accuracy improved to 98%",
+   "tier": "",
+   "url": "https://opisoft.com/bankhapoalim/",
+   "raw_sector": "",
+   "date": "none",
+   "fresh": "undated"
+  },
+  {
+   "company": "Bank Hapoalim",
    "use": "Offering business customers access to Marketeam.ai AI-driven digital marketing/advertising services on social networks",
    "existence": "confirmed",
    "value": "none",
@@ -73,6 +129,39 @@
    "url": "https://www.israelhayom.co.il/business/article/17174280",
    "raw_sector": "Banks",
    "date": "2025",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Bank Hapoalim",
+   "use": "'Ella' AI virtual marketing manager offered to SMB business customers - generates, schedules and publishes social media content (text/image/video) across Facebook, Instagram, LinkedIn [Marketeam.ai]",
+   "existence": "confirmed",
+   "value": "Priced 99 shekel/month (free 6 months, then ~$8/mo for Hapoalim business clients)",
+   "tier": "",
+   "url": "https://www.calcalist.co.il/shopping/article/bjazlqldkg",
+   "raw_sector": "",
+   "date": "2025-01",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Bank Hapoalim",
+   "use": "Voice-signature biometric authentication for the 'Poalim by Phone' channel - customers create a voice signature and access their account via voice commands (automated voice recognition) [none]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.bankhapoalim.com/en/node/1206",
+   "raw_sector": "",
+   "date": "none",
+   "fresh": "undated"
+  },
+  {
+   "company": "Bank Hapoalim",
+   "use": "GitHub Copilot AI coding assistant adopted by the bank's developers ('Vibe Coding'), showcased at Bank Hapoalim's internal AI Day with Microsoft [GitHub / Microsoft (GitHub Copilot)]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.linkedin.com/posts/isar-elishakov-a30505101_ai-bankinginnovation-microsoftcopilot-activity-7401626518046584832-w__0",
+   "raw_sector": "",
+   "date": "2025-12",
    "fresh": "fresh"
   }
  ]

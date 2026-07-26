@@ -3,49 +3,71 @@
  "name": "Dai-ichi Life Insurance Company, Limited",
  "cc": "JP",
  "vertical": "Insurance",
- "deployments": 2,
- "confirmed": 2,
- "with_value_number": 1,
+ "deployments": 12,
+ "confirmed": 9,
+ "with_value_number": 6,
  "proof_rate": 0.5,
  "mktcap": 45733333333.0,
  "revenue": 72400000000.0,
  "employees": 60138.0,
  "silent": false,
- "per_bn_revenue": 0.03,
- "per_10k_emp": 0.33,
+ "per_bn_revenue": 0.17,
+ "per_10k_emp": 2.0,
  "benchmarks": {
   "global_vertical": {
-   "deployments": 54,
-   "confirmed": 68,
-   "proof_rate": 54,
-   "n": 60
+   "deployments": 85,
+   "confirmed": 79,
+   "proof_rate": 77,
+   "n": 63
   },
   "country_vertical": {
    "deployments": 50,
    "confirmed": 50,
-   "proof_rate": 25,
+   "proof_rate": 75,
    "n": 5
   }
  },
- "first_seen": 2026,
+ "first_seen": 2019,
  "by_year": [
   {
-   "year": 2026,
+   "year": 2019,
    "n": 1
+  },
+  {
+   "year": 2020,
+   "n": 2
+  },
+  {
+   "year": 2024,
+   "n": 2
+  },
+  {
+   "year": 2025,
+   "n": 2
+  },
+  {
+   "year": 2026,
+   "n": 4
   }
  ],
- "undated_pct": 50,
- "momentum": "late_entrant,rising",
- "maturity": "L3",
+ "undated_pct": 8,
+ "momentum": "early_mover,rising",
+ "maturity": "L4",
  "maturity_evidence": [
   "multi_horizontal",
   "named_product:Generative",
   "value_number",
+  "multi_year",
   "tier_p"
  ],
- "prospect_score": 40,
- "stack": [],
- "vendor_named": false,
+ "prospect_score": 74,
+ "stack": [
+  "Amazon AWS",
+  "Microsoft",
+  "Microsoft Azure",
+  "OpenAI"
+ ],
+ "vendor_named": true,
  "deployments_detail": [
   {
    "company": "Dai-ichi Life Insurance Company, Limited",
@@ -60,6 +82,39 @@
   },
   {
    "company": "Dai-ichi Life Insurance Company, Limited",
+   "use": "Next-generation AI-OCR platform using generative AI for recognizing identity documents (driver's licenses etc.) and forms in claims/benefit payments and policy procedures; migrated from on-prem to cloud with human-in-the-loop verification [Microsoft Azure OpenAI, Azure Document Intelligence; Fujifilm Business Innovation AI-OCR; Headwaters; Dai-ichi Life Technocross]",
+   "existence": "confirmed",
+   "value": "~20% improvement in recognition accuracy; ~50% reduction in operating costs",
+   "tier": "",
+   "url": "https://www.dai-ichi-life.co.jp/company/news/pdf/2026_007.pdf",
+   "raw_sector": "",
+   "date": "2026-04-24",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Dai-ichi Life Insurance Company, Limited",
+   "use": "Original AI-OCR platform automating administrative operations (policy maintenance, benefit/claim payment processing) by digitizing ~700 form types / ~17M sheets per year [ABBYY FlexiCapture; PFU (Ricoh); Fuji Xerox; Fujitsu; Cinnamon AI]",
+   "existence": "confirmed",
+   "value": "~40% reduction in administrative work",
+   "tier": "",
+   "url": "https://www.pfu.ricoh.com/workstyle/case_studies/dai-ichi-life.html",
+   "raw_sector": "",
+   "date": "2020-07",
+   "fresh": "stale"
+  },
+  {
+   "company": "Dai-ichi Life Insurance Company, Limited",
+   "use": "Global strategic partnership adopting Microsoft Azure as preferred cloud and introducing advanced data/AI tools (Microsoft Fabric, Azure OpenAI Service) plus Microsoft Copilot to analyze customer data and drive digital innovation [Microsoft (Azure, Microsoft Fabric, Azure OpenAI Service, Copilot)]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://news.microsoft.com/ja-jp/2024/08/23/240823-dai-ichi-life-holdings-x-microsoft-global-strategic-partnership-to-accelerate-digital-innovation/",
+   "raw_sector": "",
+   "date": "2024-08-23",
+   "fresh": "aging"
+  },
+  {
+   "company": "Dai-ichi Life Insurance Company, Limited",
    "use": "AI for multi-dimensional benefit fraud detection; \"Digital Buddy\" agent support",
    "existence": "confirmed",
    "value": "none quantified",
@@ -68,6 +123,83 @@
    "raw_sector": "Insurance",
    "date": "missing",
    "fresh": "undated"
+  },
+  {
+   "company": "Dai-ichi Life Insurance Company, Limited",
+   "use": "AI-assisted detection of fraudulent benefit claims (moral-risk detection) analyzing historical claims data to flag suspicious/unusual claims for prioritized review, at Dai-ichi Life Group subsidiary NeoFirst Life [none]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://neofirst.co.jp/information/news/assets/2603260001.pdf",
+   "raw_sector": "",
+   "date": "2026-04",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Dai-ichi Life Insurance Company, Limited",
+   "use": "Automation of core underwriting and benefit/claim assessment (reading diagnosis certificates and hospitalization proofs for enrollment eligibility and payment decisions) with rollout of conversational AI to sales staff across ~1,000 nationwide offices, under a 400 billion yen digital investment plan [none]",
+   "existence": "claimed",
+   "value": "400 billion yen digital/AI investment over 5 years (to FY2030)",
+   "tier": "",
+   "url": "https://www.nikkei.com/article/DGXZQOUB180OS0Y6A410C2000000/",
+   "raw_sector": "",
+   "date": "2026-04-18",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Dai-ichi Life Insurance Company, Limited",
+   "use": "AI protection-design recommendation system that proposes optimal insurance coverage plans based on customer intent, trained on ~17M historical coverage-design records created by Total Life Plan Designers [Fujitsu]",
+   "existence": "confirmed",
+   "value": "Up to ~4.8M hours/year of designer work efficiency",
+   "tier": "",
+   "url": "https://www.dai-ichi-life.co.jp/company/news/pdf/2020_034.pdf",
+   "raw_sector": "",
+   "date": "2020-07",
+   "fresh": "stale"
+  },
+  {
+   "company": "Dai-ichi Life Insurance Company, Limited",
+   "use": "'Digital Buddy' / 'ICHI' conversational digital-human avatar supporting Total Life Plan Designers in sales activities (note-taking, natural dialogue), integrating a conversational-AI chat solution and virtual-human avatar [Aww (virtual human); Dentsu Digital (∞AI Chat)]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://prtimes.jp/main/html/rd/p/000000021.000060123.html",
+   "raw_sector": "",
+   "date": "2025-02",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Dai-ichi Life Insurance Company, Limited",
+   "use": "Adoption of a generative-AI service development/operations platform ('AI utilization platform') for safe and efficient use of ChatGPT-type generative AI across the company; later moved to a private-cloud version on AWS [ExaWizards (exaBase Studio); AWS (private cloud)]",
+   "existence": "confirmed",
+   "value": "~50% improvement in development efficiency",
+   "tier": "",
+   "url": "https://exawizards.com/archives/28504/",
+   "raw_sector": "",
+   "date": "2025-01",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Dai-ichi Life Insurance Company, Limited",
+   "use": "'ICHI-to-Chat' generative-AI consumer chat service delivered via the company's official LINE account to help people think about future needs and insurance [none]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.dai-ichi-life.co.jp/company/news/pdf/2024_013.pdf",
+   "raw_sector": "",
+   "date": "2024-06",
+   "fresh": "aging"
+  },
+  {
+   "company": "Dai-ichi Life Insurance Company, Limited",
+   "use": "AI-powered contact center / 'Smart Center' with chatbot and manned chat for policy-related inquiries, built on cloud AI contact-center support system [Techmatrix]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.techmatrix.co.jp/casestudy/daiichiseimeihoken/index.html",
+   "raw_sector": "",
+   "date": "2019-08",
+   "fresh": "stale"
   }
  ]
 }

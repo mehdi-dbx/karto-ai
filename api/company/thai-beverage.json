@@ -3,22 +3,22 @@
  "name": "Thai Beverage",
  "cc": "SG",
  "vertical": "Retail & E-commerce",
- "deployments": 2,
- "confirmed": 2,
- "with_value_number": 0,
- "proof_rate": 0.0,
+ "deployments": 11,
+ "confirmed": 8,
+ "with_value_number": 2,
+ "proof_rate": 0.182,
  "mktcap": 8529850746.0,
  "revenue": 9701000000.0,
  "employees": null,
  "silent": false,
- "per_bn_revenue": 0.21,
+ "per_bn_revenue": 1.13,
  "per_10k_emp": null,
  "benchmarks": {
   "global_vertical": {
-   "deployments": 71,
-   "confirmed": 80,
-   "proof_rate": 0,
-   "n": 295
+   "deployments": 80,
+   "confirmed": 75,
+   "proof_rate": 44,
+   "n": 301
   }
  },
  "first_seen": 2025,
@@ -28,17 +28,18 @@
    "n": 2
   }
  ],
- "undated_pct": 0,
+ "undated_pct": 82,
  "momentum": "rising",
  "maturity": "L3",
  "maturity_evidence": [
   "multi_horizontal",
   "named_product:Generative",
+  "value_number",
   "tier_p"
  ],
- "prospect_score": 60,
+ "prospect_score": 81,
  "stack": [],
- "vendor_named": false,
+ "vendor_named": true,
  "deployments_detail": [
   {
    "company": "Thai Beverage",
@@ -53,6 +54,50 @@
   },
   {
    "company": "Thai Beverage",
+   "use": "AI-driven bottle-sorting system that uses multi-camera computer vision and machine learning to identify and separate reusable glass bottles from defective ones in ThaiBev's returnable-bottle recycling operations. Developed by ThaiBev's R&D unit BevTech (est. 2018) in collaboration with CMKL University and Carnegie Mellon University; a four-camera rig images each bottle's neck, bottom and sides and classifies them into Reusable / Clean-before-reuse / Non-reusable. [BevTech (ThaiBev), CMKL University, Carnegie Mellon University (CyLab)]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://sustainability.thaibev.com/2025/en/packaging_management.php",
+   "raw_sector": "",
+   "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "Thai Beverage",
+   "use": "Second corroborating source for the AI bottle-sorting deployment: Carnegie Mellon Engineering detailing the machine-learning multi-view camera system built for ThaiBev to automate segregation of reusable vs defective bottles (supporting ThaiBev's 80% recycling target). [Carnegie Mellon University, CMKL University]",
+   "existence": "claimed",
+   "value": "Targeting 80% recycling rate",
+   "tier": "",
+   "url": "https://engineering.cmu.edu/news-events/news/2020/01/02-ai-recycles-bottles.html",
+   "raw_sector": "",
+   "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "Thai Beverage",
+   "use": "Deployment of AI and analytics across the value chain to analyze gathered data and generate insights that enhanced ThaiBev's distribution network, as stated by chairman Charoen Sirivadhanabhakdi (alongside automation and robotics in production). [none]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.forbes.com/sites/jonathanburgos/2024/01/11/thaibev-billionaire-revamps-management-as-chang-beer-maker-expands-in-southeast-asia/",
+   "raw_sector": "",
+   "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "Thai Beverage",
+   "use": "Data-AI supply chain transformation program ('Reinventing the Supply Chain with Technology and Data') using AI and digital technology to improve efficiency and drive circular-economy / recycling-network goals, delivered via collaboration between TCC Technology and CMKL University, presented by ThaiBev's Chief of Supply Chain Thailand. [TCC Technology, CMKL University]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.tridge.com/news/exploring-the-thaibev-plan-advancing-dataai--vbdltijo",
+   "raw_sector": "",
+   "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "Thai Beverage",
    "use": "Generative-AI programmes for creating text, images, reports, designs and code, plus AI in management and data-processing systems (per company AI programs disclosure)",
    "existence": "confirmed",
    "value": "none",
@@ -61,6 +106,61 @@
    "raw_sector": "Beverages",
    "date": "2025",
    "fresh": "fresh"
+  },
+  {
+   "company": "Thai Beverage",
+   "use": "AI-driven CV screening and candidate matching for recruitment, centralizing candidate evaluation across all business units to accelerate evaluation consistency, strengthen hiring quality and minimize duplicated screening effort. [none]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://sustainability.thaibev.com/2025/en/limitless_opportunities.php",
+   "raw_sector": "",
+   "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "Thai Beverage",
+   "use": "Beverest in-house HR platform enhanced with AI and automation on a scalable architecture, covering recruitment, employee databases, performance management, career development and learning programs to improve efficiency, transparency and employee experience. [none]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://sustainability.thaibev.com/2025/en/limitless_opportunities.php",
+   "raw_sector": "",
+   "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "Thai Beverage",
+   "use": "AI-powered personalized learning and talent-development: a digital 360-assessment platform plus AI-powered tools that personalize learning, reskilling and internal mobility, enabling data-driven, personalized development journeys (used for high-potential employees, Level 8 and above). [none]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://sustainability.thaibev.com/2025/en/limitless_opportunities.php",
+   "raw_sector": "",
+   "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "Thai Beverage",
+   "use": "Employee generative-AI upskilling: ThaiBev delivered digital-skills training including a 'Generative AI Essentials' course as part of its enterprise AI adoption push (12,662 employees trained across 34,778 learning hours reported). [none]",
+   "existence": "confirmed",
+   "value": "12,662 employees trained; 34,778 learning hours",
+   "tier": "",
+   "url": "https://sustainability.thaibev.com/2025/en/limitless_opportunities.php",
+   "raw_sector": "",
+   "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "Thai Beverage",
+   "use": "AI/Machine-Learning cybersecurity anomaly detection: ThaiBev deploys AI and ML tools to enhance anomaly detection and reduce false positives, running 'Cybersecurity Alert Research and AI Analytics' to analyze behavior, identify anomalies, and intelligently manage/triage alerts, monitored through the 'Eagle Eye' data-and-infrastructure monitoring center (with Trend Micro EDR and Tenable vulnerability scanning in the stack). [Trend Micro, Tenable (in stack); ThaiBev in-house AI analytics]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://sustainability.thaibev.com/2025/en/cyber_security.php",
+   "raw_sector": "",
+   "date": "missing",
+   "fresh": "undated"
   }
  ]
 }

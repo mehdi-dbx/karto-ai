@@ -3,27 +3,27 @@
  "name": "IG Group",
  "cc": "UK",
  "vertical": "Financial Services",
- "deployments": 10,
- "confirmed": 10,
- "with_value_number": 3,
- "proof_rate": 0.3,
+ "deployments": 13,
+ "confirmed": 13,
+ "with_value_number": 4,
+ "proof_rate": 0.308,
  "mktcap": 7239000000.0,
  "revenue": 1371600000.0,
  "employees": 2354.0,
  "silent": false,
- "per_bn_revenue": 7.29,
- "per_10k_emp": 42.48,
+ "per_bn_revenue": 9.48,
+ "per_10k_emp": 55.23,
  "benchmarks": {
   "global_vertical": {
-   "deployments": 93,
-   "confirmed": 95,
+   "deployments": 87,
+   "confirmed": 94,
    "proof_rate": 57,
-   "n": 377
+   "n": 388
   },
   "country_vertical": {
-   "deployments": 95,
+   "deployments": 100,
    "confirmed": 100,
-   "proof_rate": 73,
+   "proof_rate": 77,
    "n": 23
   }
  },
@@ -31,14 +31,14 @@
  "by_year": [
   {
    "year": 2025,
-   "n": 1
+   "n": 2
   },
   {
    "year": 2026,
-   "n": 5
+   "n": 6
   }
  ],
- "undated_pct": 40,
+ "undated_pct": 38,
  "momentum": "rising",
  "maturity": "L4",
  "maturity_evidence": [
@@ -47,10 +47,24 @@
   "value_number",
   "multi_year"
  ],
- "prospect_score": 96,
- "stack": [],
- "vendor_named": false,
+ "prospect_score": 88,
+ "stack": [
+  "Anthropic",
+  "OpenAI"
+ ],
+ "vendor_named": true,
  "deployments_detail": [
+  {
+   "company": "IG Group",
+   "use": "AI-powered employee engagement tool for pulse surveys",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.iggroup.com/~/media/Files/I/IG-Group/documents/investors/financial-results/results-reports-and-presentations/2026/annual-report-31-December-2025.pdf",
+   "raw_sector": "",
+   "date": "2025-12-31",
+   "fresh": "fresh"
+  },
   {
    "company": "IG Group",
    "use": "Deployed Adclear AI-powered tools for marketing/financial-promotions compliance automation amid tighter FCA rules",
@@ -153,6 +167,28 @@
   {
    "company": "IG Group",
    "use": "Machine translation for SEO/localisation of marketing content, using generative AI to scale multilingual content production.",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://fewtokens.online/en/case-studies/ig-group-genai/",
+   "raw_sector": "",
+   "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "IG Group",
+   "use": "AI-powered marketing compliance review system (Adclear platform) [Adclear]",
+   "existence": "confirmed",
+   "value": "87%",
+   "tier": "",
+   "url": "https://www.tradingview.com/news/financemagnates:6c866c0ad094b:0-ig-group-joins-activtrades-and-trade-nation-turning-to-ai-as-fca-rules-tighten/",
+   "raw_sector": "",
+   "date": "2026-02-04",
+   "fresh": "fresh"
+  },
+  {
+   "company": "IG Group",
+   "use": "Generative AI for multilingual content creation and translation",
    "existence": "confirmed",
    "value": "none",
    "tier": "",

@@ -3,27 +3,27 @@
  "name": "Publicis",
  "cc": "FR",
  "vertical": "Media / Entertainment / Gaming",
- "deployments": 11,
- "confirmed": 8,
- "with_value_number": 6,
- "proof_rate": 0.545,
+ "deployments": 16,
+ "confirmed": 13,
+ "with_value_number": 7,
+ "proof_rate": 0.438,
  "mktcap": 23360400000.0,
  "revenue": 19062000000.0,
  "employees": 114079.0,
  "silent": false,
- "per_bn_revenue": 0.58,
- "per_10k_emp": 0.96,
+ "per_bn_revenue": 0.84,
+ "per_10k_emp": 1.4,
  "benchmarks": {
   "global_vertical": {
    "deployments": 94,
    "confirmed": 94,
-   "proof_rate": 59,
+   "proof_rate": 91,
    "n": 35
   },
   "country_vertical": {
    "deployments": 83,
    "confirmed": 83,
-   "proof_rate": 50,
+   "proof_rate": 100,
    "n": 7
   }
  },
@@ -46,7 +46,7 @@
    "n": 6
   }
  ],
- "undated_pct": 9,
+ "undated_pct": 38,
  "momentum": "early_mover,rising",
  "maturity": "L4",
  "maturity_evidence": [
@@ -55,9 +55,14 @@
   "value_number",
   "multi_year"
  ],
- "prospect_score": 74,
- "stack": [],
- "vendor_named": false,
+ "prospect_score": 82,
+ "stack": [
+  "Amazon AWS",
+  "Microsoft",
+  "Microsoft Azure",
+  "NVIDIA"
+ ],
+ "vendor_named": true,
  "deployments_detail": [
   {
    "company": "Publicis",
@@ -68,6 +73,61 @@
    "url": "https://www.publicisgroupe.com/fr/news-fr/communiques-de-presse/apres-une-nouvelle-annee-record-publicis-devoile-sa-strategie-en-matiere-d-intelligence-artificielle",
    "raw_sector": "Media",
    "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "Publicis",
+   "use": "AI Center of Excellence and Enterprise AI Factories with GPU infrastructure [NVIDIA DGX]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.publicisgroupe.com/en/news/press-releases/publicis-groupe-to-create-ai-center-of-excellence-and-enterprise-ai-factories-with-nvidia",
+   "raw_sector": "",
+   "date": "Jun 11, 2025",
+   "fresh": "undated"
+  },
+  {
+   "company": "Publicis",
+   "use": "AI-driven marketing and media campaign optimization",
+   "existence": "confirmed",
+   "value": "80%",
+   "tier": "",
+   "url": "https://www.linkedin.com/posts/larspetersvane_how-publicis-group-made-ai-pay-off-activity-7386026577190522880-Dqde",
+   "raw_sector": "",
+   "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "Publicis",
+   "use": "Generative AI integration for personalized content creation at scale [Adobe]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.marketingdive.com/news/publicis-adobe-generative-ai-coreai-platform/742756/",
+   "raw_sector": "",
+   "date": "Mar 18, 2025",
+   "fresh": "undated"
+  },
+  {
+   "company": "Publicis",
+   "use": "AI Hub for adoption and implementation across marketing functions [Slingshot]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.uctoday.com/talent-hcm-platforms/publicis-launches-ai-hub-to-level-up-implementation-across-all-marketing-functions/",
+   "raw_sector": "",
+   "date": "Apr 28, 2026",
+   "fresh": "undated"
+  },
+  {
+   "company": "Publicis",
+   "use": "AI models deployment within client-owned data and predictive analytics [Lotame]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.emarketer.com/content/publicis-accelerates-ai-investment-agencies-race-predictive-power",
+   "raw_sector": "",
+   "date": "Mar 12, 2026",
    "fresh": "undated"
   },
   {

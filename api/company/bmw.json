@@ -3,42 +3,56 @@
  "name": "BMW",
  "cc": "DE",
  "vertical": "Automotive",
- "deployments": 1,
- "confirmed": 1,
- "with_value_number": 0,
- "proof_rate": 0.0,
+ "deployments": 13,
+ "confirmed": 10,
+ "with_value_number": 1,
+ "proof_rate": 0.077,
  "mktcap": 37810800000.0,
  "revenue": 141156000000.0,
  "employees": 154540.0,
  "silent": false,
- "per_bn_revenue": 0.01,
- "per_10k_emp": 0.06,
+ "per_bn_revenue": 0.09,
+ "per_10k_emp": 0.84,
  "benchmarks": {
   "global_vertical": {
-   "deployments": 0,
-   "confirmed": 10,
-   "proof_rate": 0,
+   "deployments": 82,
+   "confirmed": 82,
+   "proof_rate": 18,
    "n": 40
   },
   "country_vertical": {
-   "deployments": 0,
-   "confirmed": 0,
+   "deployments": 60,
+   "confirmed": 60,
    "proof_rate": 0,
    "n": 6
   }
  },
- "first_seen": null,
- "by_year": [],
- "undated_pct": 100,
- "momentum": "none",
- "maturity": "L3",
+ "first_seen": 2025,
+ "by_year": [
+  {
+   "year": 2025,
+   "n": 3
+  },
+  {
+   "year": 2026,
+   "n": 1
+  }
+ ],
+ "undated_pct": 69,
+ "momentum": "early_mover,rising",
+ "maturity": "L4",
  "maturity_evidence": [
+  "multi_horizontal",
   "named_product:GenAI4Q",
+  "value_number",
+  "multi_year",
   "tier_p"
  ],
- "prospect_score": 54,
- "stack": [],
- "vendor_named": false,
+ "prospect_score": 97,
+ "stack": [
+  "NVIDIA"
+ ],
+ "vendor_named": true,
  "deployments_detail": [
   {
    "company": "BMW",
@@ -48,6 +62,138 @@
    "tier": "P",
    "url": "https://www.press.bmwgroup.com/deutschland/article/detail/T0449729DE/qualitaetsbooster-kuenstliche-intelligenz",
    "raw_sector": "Automotive",
+   "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "BMW",
+   "use": "Scalable AI systems for automotive workloads using Ray Framework [Ray]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.youtube.com/watch?v=s3x3STd5vuU",
+   "raw_sector": "",
+   "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "BMW",
+   "use": "Hundreds of AI use cases in series production",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.bmwgroup.com/en/innovation/artificial-intelligence.html",
+   "raw_sector": "",
+   "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "BMW",
+   "use": "AI-guided driverless systems in production vehicles",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.facebook.com/BMWGroup/posts/driverless-in-production-guided-by-advanced-sensors-and-ai-our-new-vehicles-now-/1281889943974984/",
+   "raw_sector": "",
+   "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "BMW",
+   "use": "Advanced AI for customized driving experiences in BMW iX and 5 Series",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.competitionbmw.com/how-bmws-ai-enhances-your-journey-in-2025/",
+   "raw_sector": "",
+   "date": "2025-01-08",
+   "fresh": "fresh"
+  },
+  {
+   "company": "BMW",
+   "use": "Generative AI-based cloud for connected mobility solutions",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://aws.amazon.com/solutions/case-studies/bmw-generative-ai/",
+   "raw_sector": "",
+   "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "BMW",
+   "use": "Generative AI for quality control and customer service",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.youtube.com/watch?v=EwHVJU8a8pQ",
+   "raw_sector": "",
+   "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "BMW",
+   "use": "Generative AI for quality control using NVIDIA DGX systems [NVIDIA DGX]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.nvidia.com/en-us/case-studies/bmw-optimizes-production-with-ai-and-dgx-systems/",
+   "raw_sector": "",
+   "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "BMW",
+   "use": "Generative AI and synthetic data generation (SORDI dataset) on DGX systems for manufacturing quality control and object detection [NVIDIA] [NVIDIA]",
+   "existence": "confirmed",
+   "value": "8x boost in data scientist productivity; time to implement QA AI automation cut by over two-thirds; 800,000+ synthetic images generated",
+   "tier": "",
+   "url": "https://www.nvidia.com/en-us/case-studies/bmw-optimizes-production-with-ai-and-dgx-systems/",
+   "raw_sector": "",
+   "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "BMW",
+   "use": "Humanoid robots deployment in production",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.press.bmwgroup.com/global/article/detail/T0455864EN/bmw-group-to-deploy-humanoid-robots-in-production-in-germany-for-the-first-time?language=en",
+   "raw_sector": "",
+   "date": "2026-02-27",
+   "fresh": "fresh"
+  },
+  {
+   "company": "BMW",
+   "use": "AI and automation for Munich plant production and digital logistics",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.automotivemanufacturingsolutions.com/digitalisation/bmw-reinvents-its-munich-plant-with-ai-automation-and-digital-logistics-to-support-neue-klasse-production-and-meet-rising-demand-in-a-constrained-city-centre-location/536222",
+   "raw_sector": "",
+   "date": "2025-06-09",
+   "fresh": "fresh"
+  },
+  {
+   "company": "BMW",
+   "use": "AIconic multi-agent generative AI for purchasing",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.press.bmwgroup.com/global/article/detail/T0450032EN/greater-efficiency-and-productivity-with-artificial-intelligence-%E2%80%93-generative-ai-in-bmw-group-purchasing?language=en",
+   "raw_sector": "",
+   "date": "2025-05-19",
+   "fresh": "fresh"
+  },
+  {
+   "company": "BMW",
+   "use": "Agentic AI in purchasing and supplier networks",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.linkedin.com/posts/bcg-on-industrial-goods_ai-agenticai-supplychain-activity-7373645595703603200-UyVQ",
+   "raw_sector": "",
    "date": "missing",
    "fresh": "undated"
   }

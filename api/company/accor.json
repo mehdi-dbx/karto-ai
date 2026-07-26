@@ -3,28 +3,28 @@
  "name": "Accor",
  "cc": "FR",
  "vertical": "Travel & Hospitality",
- "deployments": 13,
- "confirmed": 12,
+ "deployments": 19,
+ "confirmed": 17,
  "with_value_number": 7,
- "proof_rate": 0.538,
+ "proof_rate": 0.368,
  "mktcap": 11242800000.0,
  "revenue": 6091200000.0,
  "employees": 19943.0,
  "silent": false,
- "per_bn_revenue": 2.13,
- "per_10k_emp": 6.52,
+ "per_bn_revenue": 3.12,
+ "per_10k_emp": 9.53,
  "benchmarks": {
   "global_vertical": {
    "deployments": 100,
    "confirmed": 100,
-   "proof_rate": 74,
-   "n": 39
+   "proof_rate": 88,
+   "n": 41
   },
   "country_vertical": {
    "deployments": 100,
    "confirmed": 100,
    "proof_rate": 100,
-   "n": 6
+   "n": 7
   }
  },
  "first_seen": 2023,
@@ -42,7 +42,7 @@
    "n": 7
   }
  ],
- "undated_pct": 23,
+ "undated_pct": 47,
  "momentum": "early_mover,rising",
  "maturity": "L4",
  "maturity_evidence": [
@@ -51,10 +51,13 @@
   "value_number",
   "multi_year"
  ],
- "prospect_score": 78,
+ "prospect_score": 85,
  "stack": [
   "Amazon AWS",
-  "Deloitte"
+  "Deloitte",
+  "OpenAI",
+  "Oracle",
+  "Snowflake"
  ],
  "vendor_named": true,
  "deployments_detail": [
@@ -71,6 +74,39 @@
   },
   {
    "company": "Accor",
+   "use": "Personalized recommendations and conversational booking in ALL.com and ALL Accor app",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://assets.group.accor.com/yrj0orc8tx24/yMg4ParJIzpy1DzMN0kOQ/90a1cf55393deb7ff5f70b8d44c8ecda/Accor_Integrated_Report_2025.pdf",
+   "raw_sector": "",
+   "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "Accor",
+   "use": "Cloud telephony platform with AI-based advanced service for customer service [Deloitte]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.deloitte.com/be/en/services/consulting/case-studies/transforming-customer-service-in-hospitality.html",
+   "raw_sector": "",
+   "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "Accor",
+   "use": "AI translation tools in contact centers for multilingual guest support",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://group.accor.com/en/news-stories/contact-centers-guest-experience",
+   "raw_sector": "",
+   "date": "Sep 19, 2024",
+   "fresh": "undated"
+  },
+  {
+   "company": "Accor",
    "use": "AI for marketing content production, online campaign evaluation, guest personalization, CV screening in HR (rolled out across 5,800 hotels)",
    "existence": "confirmed",
    "value": "none",
@@ -78,6 +114,28 @@
    "url": "https://www.lesechos.fr/thema/articles/accor-deploie-lia-a-tous-les-etages-2028970",
    "raw_sector": "Consumer Services",
    "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "Accor",
+   "use": "ChatGPT integration for natural language hotel search and booking in ALL Accor app [ChatGPT]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://press.accor.com/accor-leads-hospitality-innovation-with-the-launch-of-its-all-accor-app-in-chatgpt/",
+   "raw_sector": "",
+   "date": "Jan 29, 2026",
+   "fresh": "undated"
+  },
+  {
+   "company": "Accor",
+   "use": "AI for back-end task automation and guest service personalization",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.pymnts.com/news/artificial-intelligence/2025/expedia-accor-ceos-ai-reinvent-future-travel/",
+   "raw_sector": "",
+   "date": "Jun 13, 2025",
    "fresh": "undated"
   },
   {
@@ -197,6 +255,17 @@
    "value": "deployed over 7 contact centres, 2,000 telephony lines, 600 reservation agents",
    "tier": "",
    "url": "https://www.deloitte.com/be/en/services/consulting/case-studies/transforming-customer-service-in-hospitality.html",
+   "raw_sector": "",
+   "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "Accor",
+   "use": "Figma AI tools for design efficiency and strategic optimization [Figma]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.figma.com/customers/how-accor-uses-figmas-ai-tools-to-drive-efficiency-strategy-and-emotion/",
    "raw_sector": "",
    "date": "missing",
    "fresh": "undated"

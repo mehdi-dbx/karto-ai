@@ -3,26 +3,26 @@
  "name": "Sempra",
  "cc": "US",
  "vertical": "Energy & Utilities",
- "deployments": 1,
- "confirmed": 0,
+ "deployments": 3,
+ "confirmed": 2,
  "with_value_number": 0,
  "proof_rate": 0.0,
  "mktcap": 61020000000.0,
  "revenue": 13560000000.0,
  "employees": 28451.0,
  "silent": false,
- "per_bn_revenue": 0.07,
- "per_10k_emp": 0.35,
+ "per_bn_revenue": 0.22,
+ "per_10k_emp": 1.05,
  "benchmarks": {
   "global_vertical": {
-   "deployments": 0,
-   "confirmed": 0,
+   "deployments": 25,
+   "confirmed": 30,
    "proof_rate": 0,
-   "n": 210
+   "n": 213
   },
   "country_vertical": {
-   "deployments": 0,
-   "confirmed": 0,
+   "deployments": 24,
+   "confirmed": 37,
    "proof_rate": 0,
    "n": 52
   }
@@ -31,14 +31,26 @@
  "by_year": [],
  "undated_pct": 100,
  "momentum": "none",
- "maturity": "L1",
+ "maturity": "L3",
  "maturity_evidence": [
-  "rows_no_confirmed"
+  "multi_horizontal",
+  "named_product:Edge"
  ],
- "prospect_score": 40,
+ "prospect_score": 60,
  "stack": [],
  "vendor_named": false,
  "deployments_detail": [
+  {
+   "company": "Sempra",
+   "use": "Predictive maintenance using PI analytics [PI analytics]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.utilitydive.com/news/how-does-ai-improve-grid-performance-no-one-fully-understands-and-thats-l/566997/",
+   "raw_sector": "",
+   "date": "Nov 14, 2019",
+   "fresh": "undated"
+  },
   {
    "company": "Sempra",
    "use": "no confirmed own AI deployment (positioned as power infrastructure provider for AI data centers, esp. Texas)",
@@ -48,6 +60,17 @@
    "url": "https://sempra.com/annualreport",
    "raw_sector": "Utilities",
    "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "Sempra",
+   "use": "Edge AI gateway platform for grid operations [Qualcomm Dragonwing IQ9]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.sempra.com/newsroom/press-releases/sempra-reports-2025-financial-and-business-results",
+   "raw_sector": "",
+   "date": "Feb 26, 2026",
    "fresh": "undated"
   }
  ]

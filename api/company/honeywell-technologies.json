@@ -3,28 +3,28 @@
  "name": "Honeywell Technologies",
  "cc": "US",
  "vertical": "Industrial / Machinery",
- "deployments": 1,
- "confirmed": 1,
- "with_value_number": 1,
- "proof_rate": 1.0,
+ "deployments": 7,
+ "confirmed": 3,
+ "with_value_number": 2,
+ "proof_rate": 0.286,
  "mktcap": 62760000000.0,
  "revenue": 17680000000.0,
  "employees": 30000.0,
  "silent": false,
- "per_bn_revenue": 0.06,
- "per_10k_emp": 0.33,
+ "per_bn_revenue": 0.4,
+ "per_10k_emp": 2.33,
  "benchmarks": {
   "global_vertical": {
-   "deployments": 0,
-   "confirmed": 14,
-   "proof_rate": 79,
-   "n": 175
+   "deployments": 61,
+   "confirmed": 39,
+   "proof_rate": 75,
+   "n": 176
   },
   "country_vertical": {
-   "deployments": 0,
-   "confirmed": 19,
-   "proof_rate": 89,
-   "n": 80
+   "deployments": 61,
+   "confirmed": 34,
+   "proof_rate": 81,
+   "n": 81
   }
  },
  "first_seen": null,
@@ -33,12 +33,15 @@
  "momentum": "none",
  "maturity": "L3",
  "maturity_evidence": [
+  "multi_horizontal",
   "named_product:Honeywell",
   "value_number"
  ],
- "prospect_score": 14,
- "stack": [],
- "vendor_named": false,
+ "prospect_score": 47,
+ "stack": [
+  "Google Cloud"
+ ],
+ "vendor_named": true,
  "deployments_detail": [
   {
    "company": "Honeywell Technologies",
@@ -49,6 +52,72 @@
    "url": "https://www.honeywell.com/us/en/honeywell-forge",
    "raw_sector": "Industrials",
    "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "Honeywell Technologies",
+   "use": "AI-enabled digital suite for industrial autonomy and automation",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.honeywell.com/us/en/news/press-releases/2025/06/honeywell-drives-industrial-transition-from-automation-to-autonomy-with-new-ai-enabled-digital-suite",
+   "raw_sector": "",
+   "date": "Jun 9, 2025",
+   "fresh": "undated"
+  },
+  {
+   "company": "Honeywell Technologies",
+   "use": "AI-assisted control room with TotalEnergies for industrial autonomy",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.honeywell.com/us/en/news/press-releases/2025/11/honeywell-and-totalenergies-pilot-ai-assisted-control-room-to-accelerate-shift-to-industrial-autonomy",
+   "raw_sector": "",
+   "date": "Nov 11, 2025",
+   "fresh": "undated"
+  },
+  {
+   "company": "Honeywell Technologies",
+   "use": "AI agents for autonomous operations with Google Cloud [Google Cloud]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.honeywell.com/us/en/news/press-releases/2024/10/honeywell-and-google-cloud-to-accelerate-autonomous-operations-with-ai-agents-for-the-industrial-sector",
+   "raw_sector": "",
+   "date": "Oct 20, 2024",
+   "fresh": "undated"
+  },
+  {
+   "company": "Honeywell Technologies",
+   "use": "Maintenance Assist generative AI tool for maintenance teams",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.marketscale.com/industries/engineering-and-construction/honeywell-unveils-generative-ai-tool-maintenance-assist",
+   "raw_sector": "",
+   "date": "Mar 19, 2024",
+   "fresh": "undated"
+  },
+  {
+   "company": "Honeywell Technologies",
+   "use": "AI innovations for workforce performance and efficiency",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.honeywell.com/us/en/news/press-releases/2025/10/honeywell-s-new-ai-innovations-to-drive-workforce-performance",
+   "raw_sector": "",
+   "date": "Oct 16, 2025",
+   "fresh": "undated"
+  },
+  {
+   "company": "Honeywell Technologies",
+   "use": "Generative AI use cases across operations and employee support [Moveworks]",
+   "existence": "confirmed",
+   "value": "16",
+   "tier": "",
+   "url": "https://www.cio.com/article/3816457/honeywell-transforms-with-gen-ai.html",
+   "raw_sector": "",
+   "date": "Feb 7, 2025",
    "fresh": "undated"
   }
  ]

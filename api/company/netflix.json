@@ -3,27 +3,27 @@
  "name": "Netflix",
  "cc": "US",
  "vertical": "Telecom",
- "deployments": 11,
- "confirmed": 9,
+ "deployments": 17,
+ "confirmed": 12,
  "with_value_number": 2,
- "proof_rate": 0.182,
+ "proof_rate": 0.118,
  "mktcap": 286940000000.0,
  "revenue": 48370000000.0,
  "employees": 16000.0,
  "silent": false,
- "per_bn_revenue": 0.23,
- "per_10k_emp": 6.88,
+ "per_bn_revenue": 0.35,
+ "per_10k_emp": 10.62,
  "benchmarks": {
   "global_vertical": {
-   "deployments": 91,
-   "confirmed": 92,
-   "proof_rate": 49,
-   "n": 93
+   "deployments": 99,
+   "confirmed": 88,
+   "proof_rate": 19,
+   "n": 94
   },
   "country_vertical": {
-   "deployments": 82,
-   "confirmed": 77,
-   "proof_rate": 64,
+   "deployments": 95,
+   "confirmed": 82,
+   "proof_rate": 36,
    "n": 23
   }
  },
@@ -39,14 +39,14 @@
   },
   {
    "year": 2025,
-   "n": 5
+   "n": 8
   },
   {
    "year": 2026,
    "n": 3
   }
  ],
- "undated_pct": 0,
+ "undated_pct": 18,
  "momentum": "early_mover,rising",
  "maturity": "L4",
  "maturity_evidence": [
@@ -56,9 +56,78 @@
   "multi_year"
  ],
  "prospect_score": 95,
- "stack": [],
- "vendor_named": false,
+ "stack": [
+  "Anthropic",
+  "OpenAI"
+ ],
+ "vendor_named": true,
  "deployments_detail": [
+  {
+   "company": "Netflix",
+   "use": "Visual effects generation for content production",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://aimagazine.com/news/the-impact-of-netflix-using-gen-ai-for-visual-effects",
+   "raw_sector": "",
+   "date": "2025-07-21",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Netflix",
+   "use": "Conversational search for content discovery [ChatGPT]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.linkedin.com/pulse/how-netflix-ai-transforming-streaming-personalization-2025-4vjlf",
+   "raw_sector": "",
+   "date": "2025",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Netflix",
+   "use": "Content recommendation using Foundation Model",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://litslink.com/blog/all-about-netflix-artificial-intelligence-the-truth-behind-personalized-content",
+   "raw_sector": "",
+   "date": "2025-03",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Netflix",
+   "use": "Generative AI guidelines for content production",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://partnerhelp.netflixstudios.com/hc/en-us/articles/43393929218323-Using-Generative-AI-in-Content-Production",
+   "raw_sector": "",
+   "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "Netflix",
+   "use": "Named as a Anthropic Claude customer/case study [Anthropic Claude] [Anthropic Claude]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://sacra.com/c/anthropic/",
+   "raw_sector": "",
+   "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "Netflix",
+   "use": "Named as a OpenAI customer/case study [OpenAI] [OpenAI]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://community.openai.com/t/openai-announcement-chatgpt-enterprise-chatgpt-web-platform-for-business-contact-sales/336131",
+   "raw_sector": "",
+   "date": "missing",
+   "fresh": "undated"
+  },
   {
    "company": "Netflix",
    "use": "GenAI in ~300 productions (2026) + longstanding ML recommendation engine + AI-generated ads; \"all in\" on GenAI",

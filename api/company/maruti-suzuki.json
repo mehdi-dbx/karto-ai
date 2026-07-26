@@ -3,27 +3,27 @@
  "name": "Maruti Suzuki",
  "cc": "IN",
  "vertical": "Automotive",
- "deployments": 1,
- "confirmed": 1,
- "with_value_number": 0,
- "proof_rate": 0.0,
+ "deployments": 5,
+ "confirmed": 4,
+ "with_value_number": 1,
+ "proof_rate": 0.2,
  "mktcap": 51325301205.0,
  "revenue": 22048192771.0,
  "employees": 19966.0,
  "silent": false,
- "per_bn_revenue": 0.05,
- "per_10k_emp": 0.5,
+ "per_bn_revenue": 0.23,
+ "per_10k_emp": 2.5,
  "benchmarks": {
   "global_vertical": {
-   "deployments": 0,
-   "confirmed": 10,
-   "proof_rate": 0,
+   "deployments": 8,
+   "confirmed": 23,
+   "proof_rate": 51,
    "n": 40
   },
   "country_vertical": {
-   "deployments": 0,
-   "confirmed": 44,
-   "proof_rate": 0,
+   "deployments": 22,
+   "confirmed": 33,
+   "proof_rate": 67,
    "n": 10
   }
  },
@@ -34,15 +34,17 @@
    "n": 1
   }
  ],
- "undated_pct": 0,
+ "undated_pct": 80,
  "momentum": "early_mover,gone_quiet",
  "maturity": "L3",
  "maturity_evidence": [
-  "named_product:Amlgo"
+  "multi_horizontal",
+  "named_product:Amlgo",
+  "value_number"
  ],
- "prospect_score": 54,
+ "prospect_score": 56,
  "stack": [],
- "vendor_named": false,
+ "vendor_named": true,
  "deployments_detail": [
   {
    "company": "Maruti Suzuki",
@@ -54,6 +56,50 @@
    "raw_sector": "Automobile and Auto Components",
    "date": "2024",
    "fresh": "aging"
+  },
+  {
+   "company": "Maruti Suzuki",
+   "use": "Generative AI App (In-House Deployment)",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.globalsuzuki.com/ir/library/financialpresentation/pdf/2025/dx.pdf",
+   "raw_sector": "",
+   "date": "Oct 27, 2025",
+   "fresh": "undated"
+  },
+  {
+   "company": "Maruti Suzuki",
+   "use": "AI/ML integration in new vehicle models [Amlgo Labs]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.thehindu.com/sci-tech/technology/maruti-suzuki-acquires-stake-in-tech-startup-to-use-aiml-in-its-new-models/article67983912.ece/amp/",
+   "raw_sector": "",
+   "date": "Mar 23, 2024",
+   "fresh": "undated"
+  },
+  {
+   "company": "Maruti Suzuki",
+   "use": "Agentic AI contact center automation [Rezo]",
+   "existence": "confirmed",
+   "value": "60% operational cost reduction",
+   "tier": "",
+   "url": "https://www.rezo.ai/case-study/maruti-suzuki",
+   "raw_sector": "",
+   "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "Maruti Suzuki",
+   "use": "AI-powered Virtual Sales Avatar",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.iamdave.ai/stories/maruti-suzuki/",
+   "raw_sector": "",
+   "date": "missing",
+   "fresh": "undated"
   }
  ]
 }

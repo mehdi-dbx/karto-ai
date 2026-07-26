@@ -3,27 +3,27 @@
  "name": "Chow Tai Fook",
  "cc": "CN",
  "vertical": "Real Estate & Construction",
- "deployments": 1,
- "confirmed": 1,
- "with_value_number": 1,
- "proof_rate": 1.0,
+ "deployments": 5,
+ "confirmed": 3,
+ "with_value_number": 3,
+ "proof_rate": 0.6,
  "mktcap": 15821794872.0,
  "revenue": 12102564103.0,
  "employees": 24700.0,
  "silent": false,
- "per_bn_revenue": 0.08,
- "per_10k_emp": 0.4,
+ "per_bn_revenue": 0.41,
+ "per_10k_emp": 2.02,
  "benchmarks": {
   "global_vertical": {
-   "deployments": 0,
-   "confirmed": 31,
-   "proof_rate": 71,
+   "deployments": 60,
+   "confirmed": 55,
+   "proof_rate": 93,
    "n": 154
   },
   "country_vertical": {
-   "deployments": 0,
-   "confirmed": 7,
-   "proof_rate": 31,
+   "deployments": 55,
+   "confirmed": 48,
+   "proof_rate": 83,
    "n": 30
   }
  },
@@ -34,16 +34,54 @@
    "n": 1
   }
  ],
- "undated_pct": 0,
+ "undated_pct": 80,
  "momentum": "late_entrant,rising",
  "maturity": "L3",
  "maturity_evidence": [
+  "multi_horizontal",
+  "named_product:Enterprise",
   "value_number"
  ],
- "prospect_score": 14,
- "stack": [],
- "vendor_named": false,
+ "prospect_score": 34,
+ "stack": [
+  "Microsoft",
+  "SAP"
+ ],
+ "vendor_named": true,
  "deployments_detail": [
+  {
+   "company": "Chow Tai Fook",
+   "use": "AI-powered workplace productivity and customer service [Microsoft]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.linkedin.com/posts/alliwest_ai-ai-designmatters-activity-7470599222686543872-Iz6O",
+   "raw_sector": "",
+   "date": "1 month ago",
+   "fresh": "undated"
+  },
+  {
+   "company": "Chow Tai Fook",
+   "use": "Enterprise AI agent deployment across multiple functions [Microsoft]",
+   "existence": "confirmed",
+   "value": "400",
+   "tier": "",
+   "url": "https://news.microsoft.com/source/asia/features/hyper-intelligence-chow-tai-fook-and-microsoft-join-hands-to-redefine-the-future-of-global-luxury-retail-with-hyper-intelligence/",
+   "raw_sector": "",
+   "date": "Apr 17, 2026",
+   "fresh": "undated"
+  },
+  {
+   "company": "Chow Tai Fook",
+   "use": "In-house AI Agent platform deployment",
+   "existence": "confirmed",
+   "value": "12",
+   "tier": "",
+   "url": "https://www.ctfjewellerygroup.com/en/Media/news/p260611/",
+   "raw_sector": "",
+   "date": "Jun 11, 2026",
+   "fresh": "undated"
+  },
   {
    "company": "Chow Tai Fook",
    "use": "\"阿福\" AI agent family (400+ agents across 24,000 employees: display/product agents); unified large-model service center; AI member analytics (53M members); o9 supply-chain AI",
@@ -54,6 +92,17 @@
    "raw_sector": "Commerce & Industry (HSI)",
    "date": "2026",
    "fresh": "fresh"
+  },
+  {
+   "company": "Chow Tai Fook",
+   "use": "Talent management and HCM transformation [SAP SuccessFactors]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.sap.com/asset/dynamic/2025/06/90b040f9-0f7f-0010-bca6-c68f7e60039b.html",
+   "raw_sector": "",
+   "date": "missing",
+   "fresh": "undated"
   }
  ]
 }

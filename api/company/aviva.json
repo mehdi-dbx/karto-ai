@@ -3,27 +3,27 @@
  "name": "Aviva",
  "cc": "UK",
  "vertical": "Insurance",
- "deployments": 2,
- "confirmed": 2,
- "with_value_number": 2,
- "proof_rate": 1.0,
+ "deployments": 7,
+ "confirmed": 6,
+ "with_value_number": 3,
+ "proof_rate": 0.429,
  "mktcap": 26136600000.0,
  "revenue": 36423600000.0,
  "employees": 39359.0,
  "silent": false,
- "per_bn_revenue": 0.05,
- "per_10k_emp": 0.51,
+ "per_bn_revenue": 0.19,
+ "per_10k_emp": 1.78,
  "benchmarks": {
   "global_vertical": {
-   "deployments": 54,
-   "confirmed": 68,
-   "proof_rate": 75,
-   "n": 60
+   "deployments": 48,
+   "confirmed": 50,
+   "proof_rate": 69,
+   "n": 63
   },
   "country_vertical": {
    "deployments": 86,
-   "confirmed": 86,
-   "proof_rate": 43,
+   "confirmed": 71,
+   "proof_rate": 86,
    "n": 8
   }
  },
@@ -34,7 +34,7 @@
    "n": 1
   }
  ],
- "undated_pct": 50,
+ "undated_pct": 86,
  "momentum": "late_entrant,rising",
  "maturity": "L3",
  "maturity_evidence": [
@@ -42,9 +42,11 @@
   "named_product:Motor",
   "value_number"
  ],
- "prospect_score": 20,
- "stack": [],
- "vendor_named": false,
+ "prospect_score": 59,
+ "stack": [
+  "Microsoft"
+ ],
+ "vendor_named": true,
  "deployments_detail": [
   {
    "company": "Aviva",
@@ -59,6 +61,39 @@
   },
   {
    "company": "Aviva",
+   "use": "Insurance claims processing and summarization",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.mckinsey.com/capabilities/tech-and-ai/how-we-help-clients/rewired-in-action/aviva-rewiring-the-insurance-claims-journey-with-ai",
+   "raw_sector": "",
+   "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "Aviva",
+   "use": "Generative AI-powered claims summarization for call center and motor claims agents",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.aiusecasehub.com/case/aviva-empowers-insurance-transformation-through-ai-powered-claims",
+   "raw_sector": "",
+   "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "Aviva",
+   "use": "AI underwriting tool for medical report analysis and summarization",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.aviva.com/newsroom/news-and-research-overview/news-releases/2025/11/aviva-to-launch-groundbreaking-ai-underwriting-tool/",
+   "raw_sector": "",
+   "date": "Nov 18, 2025",
+   "fresh": "undated"
+  },
+  {
+   "company": "Aviva",
    "use": "Motor-claims transformation with 80+ AI models (with McKinsey); AI-powered virtual agent for phone claims journeys",
    "existence": "confirmed",
    "value": "80+ AI models (self-claimed)",
@@ -66,6 +101,28 @@
    "url": "https://www.mckinsey.com/capabilities/tech-and-ai/how-we-help-clients/rewired-in-action/aviva-rewiring-the-insurance-claims-journey-with-ai",
    "raw_sector": "Life insurance",
    "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "Aviva",
+   "use": "Microsoft Copilot Chat deployment across workforce [Microsoft Copilot]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.aiusecasehub.com/case/aviva-empowers-insurance-transformation-through-ai-powered-claims",
+   "raw_sector": "",
+   "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "Aviva",
+   "use": "AI fraud detection for insurance claims",
+   "existence": "confirmed",
+   "value": "£230m",
+   "tier": "",
+   "url": "https://www.theguardian.com/business/2026/jun/08/aviva-ai-bogus-insurance-claims-rocket",
+   "raw_sector": "",
+   "date": "Jun 8, 2026",
    "fresh": "undated"
   }
  ]

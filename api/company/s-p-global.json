@@ -3,45 +3,229 @@
  "name": "S&P Global",
  "cc": "US",
  "vertical": "Financial Services",
- "deployments": 1,
- "confirmed": 1,
- "with_value_number": 0,
- "proof_rate": 0.0,
+ "deployments": 16,
+ "confirmed": 16,
+ "with_value_number": 2,
+ "proof_rate": 0.125,
  "mktcap": 124590000000.0,
  "revenue": 15730000000.0,
  "employees": 44500.0,
  "silent": false,
- "per_bn_revenue": 0.06,
- "per_10k_emp": 0.22,
+ "per_bn_revenue": 1.02,
+ "per_10k_emp": 3.6,
  "benchmarks": {
   "global_vertical": {
-   "deployments": 0,
-   "confirmed": 17,
-   "proof_rate": 0,
-   "n": 377
+   "deployments": 95,
+   "confirmed": 98,
+   "proof_rate": 31,
+   "n": 388
   },
   "country_vertical": {
-   "deployments": 0,
-   "confirmed": 19,
-   "proof_rate": 0,
-   "n": 76
+   "deployments": 92,
+   "confirmed": 97,
+   "proof_rate": 36,
+   "n": 77
   }
  },
- "first_seen": null,
- "by_year": [],
- "undated_pct": 100,
- "momentum": "none",
- "maturity": "L3",
+ "first_seen": 2020,
+ "by_year": [
+  {
+   "year": 2020,
+   "n": 1
+  },
+  {
+   "year": 2021,
+   "n": 1
+  },
+  {
+   "year": 2024,
+   "n": 7
+  },
+  {
+   "year": 2025,
+   "n": 5
+  },
+  {
+   "year": 2026,
+   "n": 1
+  }
+ ],
+ "undated_pct": 6,
+ "momentum": "early_mover,cooling",
+ "maturity": "L4",
  "maturity_evidence": [
+  "multi_horizontal",
   "named_product:ChatIQ",
+  "value_number",
+  "multi_year",
   "tier_p"
  ],
- "prospect_score": 46,
+ "prospect_score": 95,
  "stack": [
-  "Microsoft"
+  "Amazon AWS",
+  "Anthropic",
+  "Google",
+  "Microsoft",
+  "NVIDIA",
+  "OpenAI",
+  "Salesforce"
  ],
  "vendor_named": true,
  "deployments_detail": [
+  {
+   "company": "S&P Global",
+   "use": "ChatIQ — GenAI-powered assistant in S&P Capital IQ Pro that answers natural-language questions about companies, filings and data; developed with Kensho [Kensho (S&P Global)]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://press.spglobal.com/2024-11-12-S-P-Global-Transforms-S-P-Capital-IQ-Pro-Experience-with-the-Launch-of-New-Generative-AI-Powered-Capabilities",
+   "raw_sector": "",
+   "date": "2024-11-12",
+   "fresh": "aging"
+  },
+  {
+   "company": "S&P Global",
+   "use": "Multi-Document ChatIQ — AI-powered tool in Capital IQ Pro letting clients query and compare across multiple filings, transcripts, investor presentations and news simultaneously [Kensho (S&P Global)]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.prnewswire.com/news-releases/sp-global-redefines-financial-insights-with-new-ai-powered-multi-document-research-and-analysis-tool-in-capital-iq-pro-chatiq-302590794.html",
+   "raw_sector": "",
+   "date": "2025-10-22",
+   "fresh": "fresh"
+  },
+  {
+   "company": "S&P Global",
+   "use": "S&P Capital IQ Pro Document Intelligence — generative-AI chatbot that extracts insights, evaluates risks and gauges sentiment from earnings transcripts and regulatory filings; launched on Salesforce AgentExchange/Agentforce [Kensho / Salesforce Agentforce]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://press.spglobal.com/2025-10-14-S-P-Global-Launches-S-P-Capital-IQ-Pro-Document-Intelligence-on-Salesforces-AgentExchange,-Transforming-Document-Analysis-with-Generative-AI",
+   "raw_sector": "",
+   "date": "2025-10-14",
+   "fresh": "fresh"
+  },
+  {
+   "company": "S&P Global",
+   "use": "S&P Global + Anthropic collaboration — Kensho LLM-ready API connected to Claude, giving financial professionals direct in-Claude access to trusted S&P Global data (also an S&P Global plugin for Claude Cowork) [Anthropic (Claude) / Kensho]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://kensho.com/news/s-p-global-and-anthropic-announce-collaboration-to-bring-trusted-financial-data-into-claude",
+   "raw_sector": "",
+   "date": "2025-07-15",
+   "fresh": "fresh"
+  },
+  {
+   "company": "S&P Global",
+   "use": "Commodity Insights AI-ready data integrated into Microsoft 365 Copilot — custom declarative Copilot agent in Microsoft Teams lets customers query commodity data conversationally; Microsoft customer case study [Microsoft 365 Copilot / Microsoft Graph connectors]",
+   "existence": "confirmed",
+   "value": "95% faster data extraction, 98% faster comparative analysis, 96% faster customer insights",
+   "tier": "",
+   "url": "https://www.microsoft.com/en/customers/story/25029-s-and-p-global-microsoft-365",
+   "raw_sector": "",
+   "date": "2025-08-14",
+   "fresh": "fresh"
+  },
+  {
+   "company": "S&P Global",
+   "use": "Kensho Scribe — machine-transcription service used by S&P Global to transcribe earnings calls, management presentations and acquisition announcements for clients [Kensho (S&P Global), NVIDIA (ASR collaboration)]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.marketplace.spglobal.com/en/solutions/kensho-scribe-(51a74428-4e26-49cb-9039-3c47116aaeb6)",
+   "raw_sector": "",
+   "date": "2021-01-21",
+   "fresh": "stale"
+  },
+  {
+   "company": "S&P Global",
+   "use": "Kensho NERD (Named Entity Recognition and Disambiguation) — ML system that identifies and links entities (companies, people, events) in textual data to S&P Global datasets; embedded in Capital IQ Pro [Kensho (S&P Global)]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://kensho.com/solutions/core-ai-capabilities",
+   "raw_sector": "",
+   "date": "2020-08-07",
+   "fresh": "stale"
+  },
+  {
+   "company": "S&P Global",
+   "use": "Platts Connect / Energy Core ChatAI — LLM-powered chatbot in Commodity Insights platforms delivering instant, sourced answers on energy and commodity data [S&P Global Commodity Insights (Kensho)]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.spglobal.com/energy/en/products-solutions/delivery/core",
+   "raw_sector": "",
+   "date": "2024-01-01",
+   "fresh": "aging"
+  },
+  {
+   "company": "S&P Global",
+   "use": "Kensho LLM-ready API (beta) — makes structured S&P Global datasets accessible to customers' generative-AI models (integrates with OpenAI GPT, Google Gemini, Anthropic Claude) [Kensho (S&P Global); OpenAI / Google / Anthropic]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.prnewswire.com/news-releases/sp-global-launches-kensho-llm-ready-api-beta-making-its-structured-data-accessible-for-generative-ai-302303392.html",
+   "raw_sector": "",
+   "date": "2024-11-13",
+   "fresh": "aging"
+  },
+  {
+   "company": "S&P Global",
+   "use": "ProntoNLP — finance-optimized GenAI/NLP tooling (acquired by S&P Global Jan 2025) for deriving differentiated insights from unstructured data, deployable via APIs, cloud platforms or MCP connectors [ProntoNLP (S&P Global Market Intelligence)]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://investor.spglobal.com/news-releases/news-details/2025/SP-Global-Acquires-ProntoNLP-Expanding-its-Generative-AI-Powered-Product-Portfolio/default.aspx",
+   "raw_sector": "",
+   "date": "2025-01-06",
+   "fresh": "fresh"
+  },
+  {
+   "company": "S&P Global",
+   "use": "AI analysis of earnings calls by S&P Global Ratings analysts — Ratings used AI/NLP to analyze rated nonfinancial corporates' earnings-call commentary, informing rating research (e.g., AI-related rating actions tracking) [S&P Global Ratings (Kensho NLP)]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.spglobal.com/ratings/en/research/topics/ai",
+   "raw_sector": "",
+   "date": "2026-07-02",
+   "fresh": "fresh"
+  },
+  {
+   "company": "S&P Global",
+   "use": "Kensho Spark Assist — S&P Global's primary internal GenAI platform (ChatGPT-like assistant connected to company data), used by 25,000+ employees enterprise-wide to streamline workflows [Kensho (S&P Global)]",
+   "existence": "confirmed",
+   "value": "More than 25,000 employees across the enterprise",
+   "tier": "",
+   "url": "https://investorfactbook.spglobal.com/sp-global/leveraging-unique-data-sets/",
+   "raw_sector": "",
+   "date": "2024-04-25",
+   "fresh": "aging"
+  },
+  {
+   "company": "S&P Global",
+   "use": "Spark Air — GenAI platform specific to the S&P Global Ratings division; in-house workforce tool cited alongside Spark Assist in AI upskilling curriculum [Kensho (S&P Global)]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.ciodive.com/news/spglobal-upskilling-generative-ai-initiative-strategy/728736/",
+   "raw_sector": "",
+   "date": "2024-10-02",
+   "fresh": "aging"
+  },
+  {
+   "company": "S&P Global",
+   "use": "DevOps / developer productivity transformation using generative AI built on Amazon Bedrock — S&P Global engineering org applies GenAI to developer experience and productivity [AWS (Amazon Bedrock)]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.youtube.com/watch?v=0nJG5axbhk4",
+   "raw_sector": "",
+   "date": "2024-01-01",
+   "fresh": "aging"
+  },
   {
    "company": "S&P Global",
    "use": "Kensho AI engine + \"ChatIQ\" GenAI (Capital IQ Pro) + \"Spark Assist\" GenAI copilot",
@@ -52,6 +236,17 @@
    "raw_sector": "Financials",
    "date": "missing",
    "fresh": "undated"
+  },
+  {
+   "company": "S&P Global",
+   "use": "S&P Global Marketplace Generative AI Search — lets customers ask plain-language questions to discover datasets and coverage, powered by Kensho [Kensho (S&P Global)]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://press.spglobal.com/2024-02-06-S-P-Global-Launches-Generative-AI-Search-on-the-S-P-Global-Marketplace",
+   "raw_sector": "",
+   "date": "2024-02-06",
+   "fresh": "aging"
   }
  ]
 }

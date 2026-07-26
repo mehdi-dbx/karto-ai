@@ -3,22 +3,22 @@
  "name": "Medibank",
  "cc": "AU",
  "vertical": "Insurance",
- "deployments": 2,
- "confirmed": 1,
+ "deployments": 5,
+ "confirmed": 4,
  "with_value_number": 1,
- "proof_rate": 0.5,
+ "proof_rate": 0.2,
  "mktcap": 9380000000.0,
  "revenue": 5706666667.0,
  "employees": 3604.0,
  "silent": false,
- "per_bn_revenue": 0.35,
- "per_10k_emp": 5.55,
+ "per_bn_revenue": 0.88,
+ "per_10k_emp": 13.87,
  "benchmarks": {
   "global_vertical": {
-   "deployments": 54,
-   "confirmed": 14,
-   "proof_rate": 54,
-   "n": 60
+   "deployments": 29,
+   "confirmed": 39,
+   "proof_rate": 32,
+   "n": 63
   }
  },
  "first_seen": 2024,
@@ -28,15 +28,16 @@
    "n": 2
   }
  ],
- "undated_pct": 0,
+ "undated_pct": 60,
  "momentum": "early_mover,gone_quiet",
  "maturity": "L3",
  "maturity_evidence": [
+  "multi_horizontal",
   "named_product:Calvary",
   "value_number",
   "tier_p"
  ],
- "prospect_score": 34,
+ "prospect_score": 64,
  "stack": [],
  "vendor_named": false,
  "deployments_detail": [
@@ -53,6 +54,17 @@
   },
   {
    "company": "Medibank",
+   "use": "Digital health experience powered by AI and data platform [League]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://league.com/newsroom/medibank-digital-health-experience/",
+   "raw_sector": "",
+   "date": "Oct 21, 2024",
+   "fresh": "undated"
+  },
+  {
+   "company": "Medibank",
    "use": "Uses generative AI platform Typeface to produce health-related content for community engagement",
    "existence": "claimed",
    "value": "none",
@@ -61,6 +73,28 @@
    "raw_sector": "Insurance",
    "date": "2024",
    "fresh": "aging"
+  },
+  {
+   "company": "Medibank",
+   "use": "Health content creation using generative AI [Typeface]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.itnews.com.au/news/medibank-turns-to-genai-to-create-more-health-content-611753",
+   "raw_sector": "",
+   "date": "Sep 23, 2024",
+   "fresh": "undated"
+  },
+  {
+   "company": "Medibank",
+   "use": "AI Governance Policy for ethical and responsible AI deployment",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.medibank.com.au/livebetter/newsroom/post/delivering-on-our-strategy-and-sustainability-commitments-in-2025",
+   "raw_sector": "",
+   "date": "Sep 19, 2025",
+   "fresh": "undated"
   }
  ]
 }

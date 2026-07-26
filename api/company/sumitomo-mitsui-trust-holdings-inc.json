@@ -3,27 +3,27 @@
  "name": "Sumitomo Mitsui Trust Holdings, Inc.",
  "cc": "JP",
  "vertical": "Financial Services",
- "deployments": 2,
- "confirmed": 2,
- "with_value_number": 0,
- "proof_rate": 0.0,
+ "deployments": 8,
+ "confirmed": 5,
+ "with_value_number": 1,
+ "proof_rate": 0.125,
  "mktcap": 31466666667.0,
  "revenue": 10933333333.0,
  "employees": 22526.0,
  "silent": false,
- "per_bn_revenue": 0.18,
- "per_10k_emp": 0.89,
+ "per_bn_revenue": 0.73,
+ "per_10k_emp": 3.55,
  "benchmarks": {
   "global_vertical": {
-   "deployments": 62,
-   "confirmed": 73,
-   "proof_rate": 0,
-   "n": 377
+   "deployments": 55,
+   "confirmed": 46,
+   "proof_rate": 31,
+   "n": 388
   },
   "country_vertical": {
-   "deployments": 29,
-   "confirmed": 36,
-   "proof_rate": 0,
+   "deployments": 57,
+   "confirmed": 43,
+   "proof_rate": 14,
    "n": 15
   }
  },
@@ -33,15 +33,85 @@
  "momentum": "none",
  "maturity": "L3",
  "maturity_evidence": [
+  "multi_horizontal",
   "named_product:Partnership",
+  "value_number",
   "tier_p"
  ],
- "prospect_score": 52,
+ "prospect_score": 65,
  "stack": [
-  "Anthropic"
+  "Amazon AWS",
+  "Anthropic",
+  "OpenAI"
  ],
  "vendor_named": true,
  "deployments_detail": [
+  {
+   "company": "Sumitomo Mitsui Trust Holdings, Inc.",
+   "use": "Generative AI platform for enterprise deployment",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.smtg.jp/english/-/media/tg/english/investors/annual/2024/all3.pdf",
+   "raw_sector": "",
+   "date": "Sep 4, 2025",
+   "fresh": "undated"
+  },
+  {
+   "company": "Sumitomo Mitsui Trust Holdings, Inc.",
+   "use": "Generative AI deployment for business efficiency",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.smtg.jp/english/about_us/strategy",
+   "raw_sector": "",
+   "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "Sumitomo Mitsui Trust Holdings, Inc.",
+   "use": "AI technology for office tasks and employee repositioning",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.japantimes.co.jp/business/2026/06/09/companies/sumitomo-mitsui-trust-digital-investment/",
+   "raw_sector": "",
+   "date": "Jun 9, 2026",
+   "fresh": "undated"
+  },
+  {
+   "company": "Sumitomo Mitsui Trust Holdings, Inc.",
+   "use": "SMBC-GAI AI assistant tool",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.smfg.co.jp/english/dx_link/article/0117.html",
+   "raw_sector": "",
+   "date": "May 16, 2024",
+   "fresh": "undated"
+  },
+  {
+   "company": "Sumitomo Mitsui Trust Holdings, Inc.",
+   "use": "Document processing with generative AI [Amazon Bedrock]",
+   "existence": "confirmed",
+   "value": "80%",
+   "tier": "",
+   "url": "https://aws.amazon.com/solutions/case-studies/generative-ai-mitsui/",
+   "raw_sector": "",
+   "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "Sumitomo Mitsui Trust Holdings, Inc.",
+   "use": "AI-CEO model using GPT-4o [OpenAI GPT-4o]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.fintechobserver.com/accelerating-ai-utilization-through-development-of-ai-ceo/",
+   "raw_sector": "",
+   "date": "Aug 12, 2025",
+   "fresh": "undated"
+  },
   {
    "company": "Sumitomo Mitsui Trust Holdings, Inc.",
    "use": "Partnership with Anthropic + NEC for financial-sector AI applications",

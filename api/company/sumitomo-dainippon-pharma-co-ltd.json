@@ -3,26 +3,26 @@
  "name": "Sumitomo Dainippon Pharma Co., Ltd.",
  "cc": "JP",
  "vertical": "Healthcare & Life Sciences",
- "deployments": 1,
- "confirmed": 1,
+ "deployments": 3,
+ "confirmed": 3,
  "with_value_number": 0,
  "proof_rate": 0.0,
  "mktcap": 3845933333.0,
  "revenue": 3021933333.0,
  "employees": 4980.0,
  "silent": false,
- "per_bn_revenue": 0.33,
- "per_10k_emp": 2.01,
+ "per_bn_revenue": 0.99,
+ "per_10k_emp": 6.02,
  "benchmarks": {
   "global_vertical": {
-   "deployments": 0,
-   "confirmed": 13,
+   "deployments": 14,
+   "confirmed": 33,
    "proof_rate": 0,
-   "n": 165
+   "n": 168
   },
   "country_vertical": {
-   "deployments": 0,
-   "confirmed": 0,
+   "deployments": 11,
+   "confirmed": 22,
    "proof_rate": 0,
    "n": 10
   }
@@ -31,17 +31,23 @@
  "by_year": [
   {
    "year": 2020,
+   "n": 2
+  },
+  {
+   "year": 2023,
    "n": 1
   }
  ],
  "undated_pct": 0,
  "momentum": "early_mover,gone_quiet",
- "maturity": "L3",
+ "maturity": "L4",
  "maturity_evidence": [
+  "multi_horizontal",
   "named_product:DSP",
+  "multi_year",
   "tier_p"
  ],
- "prospect_score": 54,
+ "prospect_score": 66,
  "stack": [],
  "vendor_named": false,
  "deployments_detail": [
@@ -54,6 +60,28 @@
    "url": "https://www.sumitomo-pharma.co.jp/news/20200130.html",
    "raw_sector": "Pharmaceuticals",
    "date": "2020-01",
+   "fresh": "stale"
+  },
+  {
+   "company": "Sumitomo Dainippon Pharma Co., Ltd.",
+   "use": "AI-assisted drug discovery and development (DSP-1181 candidate) [Exscientia]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.sumitomo-pharma.com/news/20200130.html",
+   "raw_sector": "",
+   "date": "2020-01-30",
+   "fresh": "stale"
+  },
+  {
+   "company": "Sumitomo Dainippon Pharma Co., Ltd.",
+   "use": "Generative AI chat tool for internal operations",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.sumitomo-pharma.com/news/20230616.html",
+   "raw_sector": "",
+   "date": "2023-06-16",
    "fresh": "stale"
   }
  ]

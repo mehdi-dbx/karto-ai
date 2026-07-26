@@ -3,41 +3,54 @@
  "name": "Singtel",
  "cc": "SG",
  "vertical": "Telecom",
- "deployments": 2,
- "confirmed": 2,
- "with_value_number": 0,
- "proof_rate": 0.0,
+ "deployments": 13,
+ "confirmed": 13,
+ "with_value_number": 5,
+ "proof_rate": 0.385,
  "mktcap": 54335820896.0,
  "revenue": 10641791045.0,
  "employees": 23175.0,
  "silent": false,
- "per_bn_revenue": 0.19,
- "per_10k_emp": 0.86,
+ "per_bn_revenue": 1.22,
+ "per_10k_emp": 5.61,
  "benchmarks": {
   "global_vertical": {
-   "deployments": 57,
-   "confirmed": 65,
-   "proof_rate": 0,
-   "n": 93
+   "deployments": 82,
+   "confirmed": 91,
+   "proof_rate": 61,
+   "n": 94
   }
  },
  "first_seen": 2024,
  "by_year": [
   {
    "year": 2024,
+   "n": 5
+  },
+  {
+   "year": 2025,
+   "n": 6
+  },
+  {
+   "year": 2026,
    "n": 2
   }
  ],
  "undated_pct": 0,
- "momentum": "early_mover,gone_quiet",
- "maturity": "L3",
+ "momentum": "early_mover,rising",
+ "maturity": "L4",
  "maturity_evidence": [
+  "multi_horizontal",
   "named_product:GPU",
+  "value_number",
+  "multi_year",
   "tier_p"
  ],
- "prospect_score": 52,
+ "prospect_score": 85,
  "stack": [
-  "NVIDIA"
+  "Microsoft",
+  "NVIDIA",
+  "OpenAI"
  ],
  "vendor_named": true,
  "deployments_detail": [
@@ -62,6 +75,127 @@
    "raw_sector": "Telecom",
    "date": "2024",
    "fresh": "aging"
+  },
+  {
+   "company": "Singtel",
+   "use": "Internal AI-driven network incident triage and security operations automation (surfaced via the AI Studio launch), automatically triaging and filtering network incidents and prioritizing relevant security alerts. [Cisco]",
+   "existence": "confirmed",
+   "value": "Network incident triage reduced from 45,000 incidents to ~14,000, with automation cutting manual interventions to ~500; SOC now focuses on ~1% of relevant security incidents",
+   "tier": "",
+   "url": "https://www.computerweekly.com/news/366632312/Singtel-debuts-low-code-platform-to-ease-AI-deployment",
+   "raw_sector": "",
+   "date": "2025-10-02",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Singtel",
+   "use": "AI Studio low-code platform (delivered via Singtel CUBE network-as-a-service) lets businesses build, test and deploy AI applications, create AI agents and digital twins, switch between LLMs, and monitor security/performance from one portal. Available now. [Cisco]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.computerweekly.com/news/366632312/Singtel-debuts-low-code-platform-to-ease-AI-deployment",
+   "raw_sector": "",
+   "date": "2025-10-02",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Singtel",
+   "use": "GPU-as-a-Service / sovereign AI: Singtel operates NVIDIA Hopper (H100) GPU clusters in its Nxera energy-efficient data centres as 'AI factories' processing private datasets for enterprises, startups, universities and governments, integrated with 5G/broadband. First AI services operational in Singapore. [NVIDIA]",
+   "existence": "confirmed",
+   "value": "Data centres targeting under 1.3 PUE",
+   "tier": "",
+   "url": "https://blogs.nvidia.com/blog/singtel-sovereign-ai/",
+   "raw_sector": "",
+   "date": "2024-01-30",
+   "fresh": "aging"
+  },
+  {
+   "company": "Singtel",
+   "use": "RE:AI (Reimagine AI) cloud service giving enterprise and public-sector customers affordable access to GPU-powered AI infrastructure and models without in-house infrastructure investment. [NVIDIA / Scale AI]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.singtel.com/about-us/media-centre/news-releases/singtel-launches-ai-cloud-service",
+   "raw_sector": "",
+   "date": "2024-10-10",
+   "fresh": "aging"
+  },
+  {
+   "company": "Singtel",
+   "use": "Sierra-powered conversational AI agent 'Shirley' handles customer service across chat and voice channels (mobile/home troubleshooting, roaming sign-up, transactions, compliant outbound sales) in Singtel Singapore; understands local expressions and Singlish. Live in production after a Jan 2026 pilot. [Sierra]",
+   "existence": "confirmed",
+   "value": "70,000+ customer cases handled in first six weeks; ~73% of mobile/home troubleshooting and 76% of roaming sign-ups resolved without agent intervention; went live in under 10 weeks",
+   "tier": "",
+   "url": "https://sg.finance.yahoo.com/news/singtel-deploys-conversational-ai-agents-171700969.html",
+   "raw_sector": "",
+   "date": "2026-03-04",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Singtel",
+   "use": "AI-powered call-centre agent-assist tool that summarizes, synthesizes and highlights key customer issues by topic for call-centre staff to augment efficiency and effectiveness. In operational use. [none]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.rcrwireless.com/20240628/asia-pacific/singtel-uses-ai-to-improve-its-call-center-operations",
+   "raw_sector": "",
+   "date": "2024-06-28",
+   "fresh": "aging"
+  },
+  {
+   "company": "Singtel",
+   "use": "ChatGPT Enterprise deployed to employees for day-to-day productivity, brainstorming and routine-task automation as part of an AI-native workforce push. [OpenAI]",
+   "existence": "confirmed",
+   "value": "Deployed to more than 3,000 employees in Singapore with over 80% monthly active users",
+   "tier": "",
+   "url": "https://www.telecompaper.com/news/singtel-expands-ai-deployment-across-workforce-and-enterprise-operations--1571916",
+   "raw_sector": "",
+   "date": "2026-05-22",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Singtel",
+   "use": "Xtelify Work AI platform deployed to equip Singtel's field teams in Singapore with AI-powered fleet dispatch optimization, automated task management and governance across field operations. [Xtelify (Bharti Airtel)]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.computerweekly.com/news/366628320/Airtel-to-sell-its-in-house-tech-globally-inks-deal-with-Singtel",
+   "raw_sector": "",
+   "date": "2025-08-06",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Singtel",
+   "use": "Microsoft 365 Copilot used at executive level (Singtel Singapore CEO) for strategic planning, summarization, meeting prep and decision support, part of Singtel's 'AI-first telco' adoption. [Microsoft]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://news.microsoft.com/source/asia/features/singtel-singapore-ceo-uses-microsoft-365-copilot-to-unlock-ideas-and-land-big-fish/",
+   "raw_sector": "",
+   "date": "2025-12-08",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Singtel",
+   "use": "GitHub Copilot AI coding assistant rolled out to software engineers to accelerate development, following a phased pilot with hands-on workshops and troubleshooting guides. [GitHub / Microsoft]",
+   "existence": "confirmed",
+   "value": "300 software engineers enabled across 14 departments in six months; ~20% average productivity boost; 300,000+ lines of AI-suggested code; developer satisfaction 7.4/10",
+   "tier": "",
+   "url": "https://www.linkedin.com/posts/jamesteejt_a-year-ago-during-a-senior-leadership-meeting-activity-7353012095044481026-3tFa",
+   "raw_sector": "",
+   "date": "2025-07-01",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Singtel",
+   "use": "Project NarrAItive marketing campaign for Singapore's SG60: used AI voice generation, lip-sync animation and generative art to produce a multilingual short film, translating narrations across seven native languages with synchronized dubbing. Produced and launched. [Hogarth]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.brandinginasia.com/singtel-celebrates-singapores-60th-with-ai-powered-storytelling-campaign/",
+   "raw_sector": "",
+   "date": "2025-02-24",
+   "fresh": "fresh"
   }
  ]
 }

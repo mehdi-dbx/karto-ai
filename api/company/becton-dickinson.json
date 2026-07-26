@@ -3,26 +3,26 @@
  "name": "Becton Dickinson",
  "cc": "US",
  "vertical": "Healthcare & Life Sciences",
- "deployments": 1,
- "confirmed": 1,
+ "deployments": 7,
+ "confirmed": 6,
  "with_value_number": 0,
  "proof_rate": 0.0,
  "mktcap": 42080000000.0,
  "revenue": 22230000000.0,
  "employees": 72000.0,
  "silent": false,
- "per_bn_revenue": 0.04,
- "per_10k_emp": 0.14,
+ "per_bn_revenue": 0.31,
+ "per_10k_emp": 0.97,
  "benchmarks": {
   "global_vertical": {
-   "deployments": 0,
-   "confirmed": 13,
+   "deployments": 55,
+   "confirmed": 62,
    "proof_rate": 0,
-   "n": 165
+   "n": 168
   },
   "country_vertical": {
-   "deployments": 0,
-   "confirmed": 7,
+   "deployments": 45,
+   "confirmed": 52,
    "proof_rate": 0,
    "n": 59
   }
@@ -32,18 +32,34 @@
   {
    "year": 2023,
    "n": 1
+  },
+  {
+   "year": 2024,
+   "n": 1
+  },
+  {
+   "year": 2025,
+   "n": 3
+  },
+  {
+   "year": 2026,
+   "n": 2
   }
  ],
  "undated_pct": 0,
- "momentum": "early_mover,gone_quiet",
- "maturity": "L3",
+ "momentum": "early_mover,rising",
+ "maturity": "L4",
  "maturity_evidence": [
+  "multi_horizontal",
   "named_product:Kiestra",
+  "multi_year",
   "tier_p"
  ],
- "prospect_score": 54,
- "stack": [],
- "vendor_named": false,
+ "prospect_score": 76,
+ "stack": [
+  "Amazon AWS"
+ ],
+ "vendor_named": true,
  "deployments_detail": [
   {
    "company": "Becton Dickinson",
@@ -55,6 +71,72 @@
    "raw_sector": "Health Care",
    "date": "2023",
    "fresh": "stale"
+  },
+  {
+   "company": "Becton Dickinson",
+   "use": "BD Incada Connected Care Platform - AI-enabled cloud-based platform unifying BD device data",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://news.bd.com/2025-10-20-BD-Launches-New-AI-enabled-Solutions-to-Drive-Connectivity-Across-Healthcare-Settings",
+   "raw_sector": "",
+   "date": "2025-10-20",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Becton Dickinson",
+   "use": "BD Incada Analytics Platform - AI-powered analytics platform for hospitals and health systems",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://investors.bd.com/news-events/press-releases/detail/946/bd-launches-ai-enabled-medication-dispensing-system-to-the-european-market",
+   "raw_sector": "",
+   "date": "2026-04-01",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Becton Dickinson",
+   "use": "AI-enabled Medication Dispensing System",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://investors.bd.com/news-events/press-releases/detail/946/bd-launches-ai-enabled-medication-dispensing-system-to-the-european-market",
+   "raw_sector": "",
+   "date": "2026-04-01",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Becton Dickinson",
+   "use": "Incada Platform on AWS - AI-powered platform unifying 3M+ connected medical devices [AWS]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.mddionline.com/medical-device-markets/bd-launches-ai-platform-for-medical-device-data",
+   "raw_sector": "",
+   "date": "2025-10-20",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Becton Dickinson",
+   "use": "HemoSphere Alta - AI-powered monitor for predicting blood pressure drops during surgery",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.2minutemedicine.com/becton-dickinson-unveils-artificial-intelligence-powered-monitor-for-surgery/",
+   "raw_sector": "",
+   "date": "2025-05-28",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Becton Dickinson",
+   "use": "AI Software for Detecting Controlled Substance Diversion",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://investors.bd.com/news-events/press-releases/detail/851/new-data-reveals-bds-artificial-intelligence-software-highly-effective-in-detecting-indicators-of-controlled-substance-diversion",
+   "raw_sector": "",
+   "date": "2024-09-26",
+   "fresh": "aging"
   }
  ]
 }

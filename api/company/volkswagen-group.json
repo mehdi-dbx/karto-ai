@@ -3,27 +3,27 @@
  "name": "Volkswagen Group",
  "cc": "DE",
  "vertical": "Automotive",
- "deployments": 1,
- "confirmed": 1,
- "with_value_number": 1,
- "proof_rate": 1.0,
+ "deployments": 8,
+ "confirmed": 5,
+ "with_value_number": 2,
+ "proof_rate": 0.25,
  "mktcap": 40100400000.0,
  "revenue": 347662800000.0,
  "employees": 598592.0,
  "silent": false,
- "per_bn_revenue": 0.0,
- "per_10k_emp": 0.02,
+ "per_bn_revenue": 0.02,
+ "per_10k_emp": 0.13,
  "benchmarks": {
   "global_vertical": {
-   "deployments": 0,
-   "confirmed": 10,
-   "proof_rate": 82,
+   "deployments": 54,
+   "confirmed": 49,
+   "proof_rate": 69,
    "n": 40
   },
   "country_vertical": {
-   "deployments": 0,
+   "deployments": 20,
    "confirmed": 0,
-   "proof_rate": 100,
+   "proof_rate": 80,
    "n": 6
   }
  },
@@ -33,14 +33,51 @@
  "momentum": "none",
  "maturity": "L3",
  "maturity_evidence": [
+  "multi_horizontal",
   "named_product:Committing",
   "value_number",
   "tier_p"
  ],
- "prospect_score": 14,
- "stack": [],
- "vendor_named": false,
+ "prospect_score": 60,
+ "stack": [
+  "Amazon AWS",
+  "Google"
+ ],
+ "vendor_named": true,
  "deployments_detail": [
+  {
+   "company": "Volkswagen Group",
+   "use": "Self-driving research vehicle (Gen.Urban) for shared mobility insights",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.volkswagen-group.com/en/artificial-intelligence-in-the-automotive-industry-19030",
+   "raw_sector": "",
+   "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "Volkswagen Group",
+   "use": "AI Lab established as competence center and incubator",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.volkswagen-group.com/en/press-releases/volkswagen-group-establishes-artificial-intelligence-company-18105",
+   "raw_sector": "",
+   "date": "Jan 31, 2024",
+   "fresh": "undated"
+  },
+  {
+   "company": "Volkswagen Group",
+   "use": "Named as a Google Gemini / Vertex AI customer/case study [Google Gemini / Vertex AI] [Google Gemini / Vertex AI]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://blog.google/innovation-and-ai/infrastructure-and-cloud/google-cloud/gemini-at-work-ai-agents/",
+   "raw_sector": "",
+   "date": "missing",
+   "fresh": "undated"
+  },
   {
    "company": "Volkswagen Group",
    "use": "Committing up to EUR 1bn through 2030 to AI-supported vehicle development, industrial applications and IT systems (announced at IAA Mobility)",
@@ -50,6 +87,50 @@
    "url": "https://www.volkswagen-group.com/de/pressemitteilungen/innovationskraft-steigern-mobilitaet-neugestalten-volkswagen-investiert-in-kuenstliche-intelligenz-19852",
    "raw_sector": "Automotive",
    "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "Volkswagen Group",
+   "use": "AI-powered factory productivity improvements targeting 30% improvement",
+   "existence": "claimed",
+   "value": "30%",
+   "tier": "",
+   "url": "https://media.vw.com/releases/1583",
+   "raw_sector": "",
+   "date": "Aug 10, 2021",
+   "fresh": "undated"
+  },
+  {
+   "company": "Volkswagen Group",
+   "use": "AI for sustainability risk identification in supply chain",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://newsroom.porsche.com/en/2021/sustainability/porsche-audi-volkswagen-pilot-project-artificial-intelligence-minimisation-sustainability-risks-supply-chain-23801.html",
+   "raw_sector": "",
+   "date": "Mar 3, 2021",
+   "fresh": "undated"
+  },
+  {
+   "company": "Volkswagen Group",
+   "use": "Generative AI solution for photorealistic vehicle image generation and technical validation [AWS]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://aws.amazon.com/blogs/machine-learning/reimagine-marketing-at-volkswagen-group-with-generative-ai/",
+   "raw_sector": "",
+   "date": "Mar 30, 2026",
+   "fresh": "undated"
+  },
+  {
+   "company": "Volkswagen Group",
+   "use": "AI-enhanced digital assistant development and deployment across group brands",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.just-auto.com/features/how-volkswagen-is-utilising-ai-to-enhance-its-digital-assistant/",
+   "raw_sector": "",
+   "date": "Oct 30, 2024",
    "fresh": "undated"
   }
  ]

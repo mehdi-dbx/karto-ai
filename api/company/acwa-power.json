@@ -3,26 +3,26 @@
  "name": "ACWA Power",
  "cc": "SA",
  "vertical": "Energy & Utilities",
- "deployments": 2,
- "confirmed": 1,
+ "deployments": 5,
+ "confirmed": 4,
  "with_value_number": 0,
  "proof_rate": 0.0,
  "mktcap": 38514666667.0,
  "revenue": 1992000000.0,
  "employees": 3538.0,
  "silent": false,
- "per_bn_revenue": 1.0,
- "per_10k_emp": 5.65,
+ "per_bn_revenue": 2.51,
+ "per_10k_emp": 14.13,
  "benchmarks": {
   "global_vertical": {
-   "deployments": 72,
-   "confirmed": 20,
+   "deployments": 53,
+   "confirmed": 58,
    "proof_rate": 0,
-   "n": 210
+   "n": 213
   },
   "country_vertical": {
-   "deployments": 40,
-   "confirmed": 20,
+   "deployments": 80,
+   "confirmed": 80,
    "proof_rate": 0,
    "n": 6
   }
@@ -34,14 +34,15 @@
    "n": 1
   }
  ],
- "undated_pct": 50,
+ "undated_pct": 80,
  "momentum": "late_entrant,rising",
  "maturity": "L3",
  "maturity_evidence": [
+  "multi_horizontal",
   "named_product:Aleph",
   "tier_p"
  ],
- "prospect_score": 46,
+ "prospect_score": 64,
  "stack": [
   "Microsoft",
   "Microsoft Azure"
@@ -68,6 +69,39 @@
    "url": "https://www.microsoft.com/en/customers/story/22211-acwa-power-azure",
    "raw_sector": "Utilities",
    "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "ACWA Power",
+   "use": "Remote monitoring and diagnostics for global power plant fleet [GE APM]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.gevernova.com/software/customer-stories/acwa-power-future-power-plant-intelligence",
+   "raw_sector": "",
+   "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "ACWA Power",
+   "use": "Generative AI integration across processes",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://ar2023.acwapower.com/en/strategic-review/digital-ai-innovation",
+   "raw_sector": "",
+   "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "ACWA Power",
+   "use": "Real-time operational insights and optimization using Azure AI Services, IoT Hub, Data Lake, and Microsoft Fabric [Microsoft Azure AI Services]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.microsoft.com/en/customers/story/22211-acwa-power-azure",
+   "raw_sector": "",
+   "date": "Feb 10, 2025",
    "fresh": "undated"
   }
  ]

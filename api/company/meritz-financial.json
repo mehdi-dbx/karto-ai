@@ -3,28 +3,28 @@
  "name": "Meritz Financial",
  "cc": "KR",
  "vertical": "Financial Services",
- "deployments": 1,
+ "deployments": 4,
  "confirmed": 1,
  "with_value_number": 1,
- "proof_rate": 1.0,
+ "proof_rate": 0.25,
  "mktcap": 13829629630.0,
  "revenue": 14659259259.0,
  "employees": 21.0,
  "silent": false,
- "per_bn_revenue": 0.07,
- "per_10k_emp": 476.19,
+ "per_bn_revenue": 0.27,
+ "per_10k_emp": 1904.76,
  "benchmarks": {
   "global_vertical": {
-   "deployments": 0,
-   "confirmed": 17,
-   "proof_rate": 76,
-   "n": 377
+   "deployments": 24,
+   "confirmed": 5,
+   "proof_rate": 47,
+   "n": 388
   },
   "country_vertical": {
-   "deployments": 0,
+   "deployments": 17,
    "confirmed": 0,
    "proof_rate": 56,
-   "n": 17
+   "n": 19
   }
  },
  "first_seen": 2026,
@@ -34,7 +34,7 @@
    "n": 1
   }
  ],
- "undated_pct": 0,
+ "undated_pct": 75,
  "momentum": "late_entrant,rising",
  "maturity": "L3",
  "maturity_evidence": [
@@ -42,12 +42,46 @@
   "value_number",
   "tier_p"
  ],
- "prospect_score": 6,
+ "prospect_score": 36,
  "stack": [
+  "Amazon AWS",
   "Palantir"
  ],
  "vendor_named": true,
  "deployments_detail": [
+  {
+   "company": "Meritz Financial",
+   "use": "AI-driven investment platform for personalized financial services [WNSTN]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://fintech.global/2026/01/06/wnstn-partners-with-meritz-securities-to-launch-ai-investing-platform/",
+   "raw_sector": "",
+   "date": "Jan 6, 2026",
+   "fresh": "undated"
+  },
+  {
+   "company": "Meritz Financial",
+   "use": "AI platform for personalized financial services [AWS]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.upi.com/amp/Top_News/World-News/2025/06/25/South-Korea-Meritz-AWS-AI-partnership/8451750850509/",
+   "raw_sector": "",
+   "date": "Jun 25, 2025",
+   "fresh": "undated"
+  },
+  {
+   "company": "Meritz Financial",
+   "use": "AI technology for sales analysis and diagnosis [Palantir]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://completeaitraining.com/news/meritz-adopts-palantir-ai-to-reduce-analysis-time-and/",
+   "raw_sector": "",
+   "date": "missing",
+   "fresh": "undated"
+  },
   {
    "company": "Meritz Financial",
    "use": "Palantir AI for insurance fraud detection (Korea financial-sector first, PoC done, deploy 2026); genAI insurance consultation; MeriPass AI doc recognition; KT AI-model partnership",

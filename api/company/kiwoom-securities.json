@@ -3,28 +3,28 @@
  "name": "Kiwoom Securities",
  "cc": "KR",
  "vertical": "Financial Services",
- "deployments": 1,
- "confirmed": 1,
+ "deployments": 5,
+ "confirmed": 5,
  "with_value_number": 0,
  "proof_rate": 0.0,
  "mktcap": 6111111111.0,
  "revenue": 10422222222.0,
  "employees": 642.0,
  "silent": false,
- "per_bn_revenue": 0.1,
- "per_10k_emp": 15.58,
+ "per_bn_revenue": 0.48,
+ "per_10k_emp": 77.88,
  "benchmarks": {
   "global_vertical": {
-   "deployments": 0,
-   "confirmed": 17,
+   "deployments": 31,
+   "confirmed": 46,
    "proof_rate": 0,
-   "n": 377
+   "n": 388
   },
   "country_vertical": {
-   "deployments": 0,
-   "confirmed": 0,
+   "deployments": 39,
+   "confirmed": 61,
    "proof_rate": 0,
-   "n": 17
+   "n": 19
   }
  },
  "first_seen": null,
@@ -33,12 +33,15 @@
  "momentum": "none",
  "maturity": "L3",
  "maturity_evidence": [
+  "multi_horizontal",
   "named_product:LiveData",
   "tier_p"
  ],
- "prospect_score": 54,
- "stack": [],
- "vendor_named": false,
+ "prospect_score": 70,
+ "stack": [
+  "Anthropic"
+ ],
+ "vendor_named": true,
  "deployments_detail": [
   {
    "company": "Kiwoom Securities",
@@ -49,6 +52,50 @@
    "url": "https://html.duckduckgo.com/html/?q=키움증권+AI+도입",
    "raw_sector": "Financials",
    "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "Kiwoom Securities",
+   "use": "AI chatbot for 24-hour customer business consultation",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://biz.chosun.com/en/en-finance/2025/10/23/HUP64WLSJJBBHKFVHMAW2EK2UY/?outputType=amp",
+   "raw_sector": "",
+   "date": "Oct 23, 2025",
+   "fresh": "undated"
+  },
+  {
+   "company": "Kiwoom Securities",
+   "use": "AI-powered stock pick explanation and equity forecasting [LG AI, LSEG]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.koreaherald.com/article/10716993",
+   "raw_sector": "",
+   "date": "Apr 14, 2026",
+   "fresh": "undated"
+  },
+  {
+   "company": "Kiwoom Securities",
+   "use": "AI coding assistant for automated trading service development [Claude, Cursor]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.asiae.co.kr/en/article/2026072108591833704",
+   "raw_sector": "",
+   "date": "4 days ago",
+   "fresh": "undated"
+  },
+  {
+   "company": "Kiwoom Securities",
+   "use": "Generative AI coding assistant for trading automation",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://biz.chosun.com/en/en-finance/2025/05/16/ORRRCHGY65HYVNOGPEDNJCTLWQ/?outputType=amp",
+   "raw_sector": "",
+   "date": "May 16, 2025",
    "fresh": "undated"
   }
  ]

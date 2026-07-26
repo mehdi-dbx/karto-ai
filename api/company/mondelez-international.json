@@ -3,27 +3,27 @@
  "name": "Mondelez International",
  "cc": "US",
  "vertical": "Retail & E-commerce",
- "deployments": 1,
- "confirmed": 1,
- "with_value_number": 0,
- "proof_rate": 0.0,
+ "deployments": 10,
+ "confirmed": 9,
+ "with_value_number": 8,
+ "proof_rate": 0.8,
  "mktcap": 76860000000.0,
  "revenue": 39300000000.0,
  "employees": 91000.0,
  "silent": false,
- "per_bn_revenue": 0.03,
- "per_10k_emp": 0.11,
+ "per_bn_revenue": 0.25,
+ "per_10k_emp": 1.1,
  "benchmarks": {
   "global_vertical": {
-   "deployments": 0,
-   "confirmed": 24,
-   "proof_rate": 0,
-   "n": 295
+   "deployments": 72,
+   "confirmed": 81,
+   "proof_rate": 96,
+   "n": 301
   },
   "country_vertical": {
-   "deployments": 0,
-   "confirmed": 25,
-   "proof_rate": 0,
+   "deployments": 59,
+   "confirmed": 70,
+   "proof_rate": 100,
    "n": 80
   }
  },
@@ -33,15 +33,74 @@
  "momentum": "none",
  "maturity": "L3",
  "maturity_evidence": [
+  "multi_horizontal",
   "named_product:Accenture",
+  "value_number",
   "tier_p"
  ],
- "prospect_score": 46,
+ "prospect_score": 62,
  "stack": [
-  "Accenture"
+  "Accenture",
+  "Amazon AWS",
+  "Databricks"
  ],
  "vendor_named": true,
  "deployments_detail": [
+  {
+   "company": "Mondelez International",
+   "use": "Cadbury (Mondelez India) 'Valentine's Special Store' AI intelligent virtual assistant / chatbot built on Haptik, guiding shoppers through a seasonal store experience with themed content and product suggestions to drive engagement and conversions. [Haptik (Jio Haptik)]",
+   "existence": "confirmed",
+   "value": "5M+ users reached; 12.9% conversion rate; 56% over benchmark",
+   "tier": "",
+   "url": "https://www.haptik.ai/resources/case-study/mondelez-internationals-case-study",
+   "raw_sector": "",
+   "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "Mondelez International",
+   "use": "SKU demand forecasting on Databricks: ML models predict demand across six-week to two-year horizons for supply network planning, reducing finished-goods and plant inventory waste. Part of a fleet of ~20,000 models with ~3,000 in production via MLflow/Model Serving under Unity Catalog governance. [Databricks]",
+   "existence": "confirmed",
+   "value": "reduced finished goods and plant inventory waste by 2-3%; improved forecast accuracy by 3-5%",
+   "tier": "",
+   "url": "https://www.databricks.com/customers/mondelez",
+   "raw_sector": "",
+   "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "Mondelez International",
+   "use": "Revenue management and pricing simulations on Databricks: models evaluate how price changes affect consumer behavior (brand-switching, purchase volume) before price increases, plus promotional uplift forecasts and volume-transfer modeling. [Databricks]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.databricks.com/customers/mondelez",
+   "raw_sector": "",
+   "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "Mondelez International",
+   "use": "AI Product Development (AIPD) tool for recipe formulation: predicts how formulas affect sensory attributes/appeal and factors in pricing and nutrition constraints, accelerating new-product development across Oreo, Chips Ahoy, Cadbury and Toblerone. Recipes developed via AIPD are on the market. [Mondelez (in-house)]",
+   "existence": "confirmed",
+   "value": "2-5x faster than traditional methods; 70 new product SKUs launched",
+   "tier": "",
+   "url": "https://www.confectionerynews.com/Article/2025/03/19/stategies-confectioners-are-using-ai-to-maximise-product-innovation/",
+   "raw_sector": "",
+   "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "Mondelez International",
+   "use": "Automation and AI deployment at up to five distribution centers serving the direct-store-delivery network, using automated fulfillment to reach points of sale faster, reduce stock and cut costs; part of a $1.2B supply chain/ERP overhaul. [none]",
+   "existence": "claimed",
+   "value": "up to 5 distribution centers serving 55 branches; part of $1.2B program",
+   "tier": "",
+   "url": "https://www.supplychaindive.com/news/mondelez-taps-ai-for-distribution-centers-to-cut-costs/820067/",
+   "raw_sector": "",
+   "date": "missing",
+   "fresh": "undated"
+  },
   {
    "company": "Mondelez International",
    "use": "GenAI marketing content-creation platform (Accenture + Publicis) for personalized content at scale",
@@ -50,6 +109,50 @@
    "tier": "P",
    "url": "https://ir.mondelezinternational.com/news-releases/news-release-details/mondelez-international-joins-forces-accenture-and-publicis",
    "raw_sector": "Consumer Staples",
+   "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "Mondelez International",
+   "use": "Sales execution AI on Databricks: SKU recommendation models optimize product placement per store using geography/demographics/layout, plus ML route optimization for field reps to maximize market coverage. [Databricks]",
+   "existence": "confirmed",
+   "value": "2-4% increase in store-level topline sales; sales rep effectiveness ~80%",
+   "tier": "",
+   "url": "https://www.databricks.com/customers/mondelez",
+   "raw_sector": "",
+   "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "Mondelez International",
+   "use": "In-house generative AI marketing content platform (built with Accenture and Publicis Groupe) generating personalized text, images and video; live campaigns include Chips Ahoy (US), Milka (Germany), Oreo product pages on Amazon/Walmart, plus Brazil and UK rollouts. [Accenture; Publicis Groupe]",
+   "existence": "confirmed",
+   "value": "$40M+ invested; targets 30-50% reduction in marketing content production costs",
+   "tier": "",
+   "url": "https://finance.yahoo.com/news/mondelez-turns-generative-ai-cut-111623798.html",
+   "raw_sector": "",
+   "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "Mondelez International",
+   "use": "#NotJustACadburyAd Diwali campaign using AI voice cloning and synthetic media of Shah Rukh Khan to auto-generate hyper-personalized video ads for individual local retailers, name-checking shop owners across categories and pincodes. [Respeecher; Rephrase.AI; Ogilvy; Wavemaker]",
+   "existence": "confirmed",
+   "value": "1,800+ local stores across 8 municipalities; 10x faster production; Clio 2022 gold",
+   "tier": "",
+   "url": "https://www.respeecher.com/case-studies/mondelez-ogilvy-wavemaker-revolutionary-ad-campaign-indian-market",
+   "raw_sector": "",
+   "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "Mondelez International",
+   "use": "Kiro agentic AI coding assistant used in the AWS cloud transformation: generates and validates infrastructure-as-code, writes IAM policies, flags insecure IaC, and integrates with internal systems via a custom MCP; cut server provisioning from 7-10 days to ~20 minutes. [AWS (Kiro)]",
+   "existence": "confirmed",
+   "value": "2-3x productivity gains; provisioning cut from 7-10 days to ~20 minutes",
+   "tier": "",
+   "url": "https://aws.amazon.com/solutions/case-studies/mondelez-case-study/",
+   "raw_sector": "",
    "date": "missing",
    "fresh": "undated"
   }

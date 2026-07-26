@@ -3,27 +3,27 @@
  "name": "KONE",
  "cc": "FI",
  "vertical": "Manufacturing & Robotics",
- "deployments": 10,
- "confirmed": 10,
- "with_value_number": 7,
- "proof_rate": 0.7,
+ "deployments": 12,
+ "confirmed": 12,
+ "with_value_number": 8,
+ "proof_rate": 0.667,
  "mktcap": 26146800000.0,
  "revenue": 12279600000.0,
  "employees": 64884.0,
  "silent": false,
- "per_bn_revenue": 0.81,
- "per_10k_emp": 1.54,
+ "per_bn_revenue": 0.98,
+ "per_10k_emp": 1.85,
  "benchmarks": {
   "global_vertical": {
-   "deployments": 97,
+   "deployments": 86,
    "confirmed": 98,
-   "proof_rate": 84,
-   "n": 147
+   "proof_rate": 92,
+   "n": 150
   },
   "country_vertical": {
-   "deployments": 100,
+   "deployments": 80,
    "confirmed": 100,
-   "proof_rate": 90,
+   "proof_rate": 100,
    "n": 11
   }
  },
@@ -46,7 +46,7 @@
    "n": 2
   }
  ],
- "undated_pct": 20,
+ "undated_pct": 33,
  "momentum": "early_mover,cooling",
  "maturity": "L4",
  "maturity_evidence": [
@@ -56,9 +56,19 @@
   "multi_year",
   "tier_p"
  ],
- "prospect_score": 80,
- "stack": [],
- "vendor_named": false,
+ "prospect_score": 73,
+ "stack": [
+  "Amazon AWS",
+  "Anthropic",
+  "IBM",
+  "Microsoft",
+  "Microsoft Azure",
+  "OpenAI",
+  "Palantir",
+  "SAP",
+  "Salesforce"
+ ],
+ "vendor_named": true,
  "deployments_detail": [
   {
    "company": "KONE",
@@ -169,6 +179,28 @@
    "raw_sector": "",
    "date": "2026-01",
    "fresh": "fresh"
+  },
+  {
+   "company": "KONE",
+   "use": "AI-powered technician assistant for field service to resolve equipment issues [Amazon Bedrock]",
+   "existence": "confirmed",
+   "value": "40000",
+   "tier": "",
+   "url": "https://aws.amazon.com/solutions/case-studies/innovators/kone/",
+   "raw_sector": "",
+   "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "KONE",
+   "use": "Generative AI solution to enhance technicians' efficiency using KONE documentation [Amazon Bedrock]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://aws.amazon.com/solutions/case-studies/aws-ai-security-kone-case-study/",
+   "raw_sector": "",
+   "date": "missing",
+   "fresh": "undated"
   }
  ]
 }

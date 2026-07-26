@@ -3,27 +3,27 @@
  "name": "Fujifilm Holdings Corp.",
  "cc": "JP",
  "vertical": "Chemicals & Materials",
- "deployments": 2,
- "confirmed": 2,
- "with_value_number": 2,
- "proof_rate": 1.0,
+ "deployments": 12,
+ "confirmed": 10,
+ "with_value_number": 3,
+ "proof_rate": 0.25,
  "mktcap": 28933333333.0,
  "revenue": 22400000000.0,
  "employees": 73526.0,
  "silent": false,
- "per_bn_revenue": 0.09,
- "per_10k_emp": 0.27,
+ "per_bn_revenue": 0.54,
+ "per_10k_emp": 1.63,
  "benchmarks": {
   "global_vertical": {
-   "deployments": 75,
-   "confirmed": 75,
-   "proof_rate": 75,
-   "n": 105
+   "deployments": 92,
+   "confirmed": 93,
+   "proof_rate": 58,
+   "n": 107
   },
   "country_vertical": {
-   "deployments": 47,
-   "confirmed": 47,
-   "proof_rate": 59,
+   "deployments": 85,
+   "confirmed": 91,
+   "proof_rate": 47,
    "n": 35
   }
  },
@@ -34,17 +34,23 @@
    "n": 1
   }
  ],
- "undated_pct": 50,
+ "undated_pct": 92,
  "momentum": "early_mover,gone_quiet",
  "maturity": "L3",
  "maturity_evidence": [
+  "multi_horizontal",
   "named_product:REiLI",
   "value_number",
   "tier_p"
  ],
- "prospect_score": 20,
- "stack": [],
- "vendor_named": false,
+ "prospect_score": 90,
+ "stack": [
+  "Amazon AWS",
+  "Microsoft",
+  "Microsoft Azure",
+  "NVIDIA"
+ ],
+ "vendor_named": true,
  "deployments_detail": [
   {
    "company": "Fujifilm Holdings Corp.",
@@ -65,6 +71,116 @@
    "tier": "P",
    "url": "https://xtech.nikkei.com/atcl/nxt/column/18/00001/11080/",
    "raw_sector": "Chemicals",
+   "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "Fujifilm Holdings Corp.",
+   "use": "CAD EYE — real-time AI detection/characterization system for colonoscopy; deep-learning software integrated into ELUXEO endoscopy systems that flags suspected colorectal polyps (including flat lesions) live during exams. In clinical use in Japan/Europe since 2020, FDA-cleared and launched in the US in 2024. [Fujifilm (in-house deep learning)]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://healthcaresolutions-us.fujifilm.com/blog/endoscopy/ai-raises-the-bar-on-colonoscopy-performance-with-fujifilms-cad-eye/",
+   "raw_sector": "",
+   "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "Fujifilm Holdings Corp.",
+   "use": "REiLI medical AI platform — vendor-neutral diagnostic-imaging AI platform integrated into Synapse PACS; in clinical use for automatic detection/prioritization of intracranial hemorrhage (Capital Health, NJ) and breast cancer/mammography (University Radiology Group across four NJ centers). [Fujifilm REiLI; partners MaxQ AI (Accipio), ScreenPoint Medical (Transpara)]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://finance.yahoo.com/news/fujifilm-reili-artificial-intelligence-platform-162900946.html",
+   "raw_sector": "",
+   "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "Fujifilm Holdings Corp.",
+   "use": "Synapse AI Orchestrator — open imaging workflow rules engine deployed in production that integrates 50+ validated third-party AI algorithms into Synapse Enterprise PACS, performing worklist triage, study prioritization, findings preview and critical-result notifications for radiology. [Fujifilm (vendor-agnostic orchestration)]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://healthcaresolutions-us.fujifilm.com/products/enterprise-imaging/synapse-ai-orchestrator/",
+   "raw_sector": "",
+   "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "Fujifilm Holdings Corp.",
+   "use": "AI image-recognition inspection for semiconductor materials — AI-based image recognition introduced to inspect fine particles in semiconductor materials, improving analysis accuracy as part of an advanced quality-control system; deployed at the new Shizuoka Factory building that began operating in November 2025. [Fujifilm (in-house)]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.fujifilm.com/ch/en/news/hq/13134",
+   "raw_sector": "",
+   "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "Fujifilm Holdings Corp.",
+   "use": "NVIDIA DGX-2 AI supercomputer adoption — Fujifilm became the first company in Japan to adopt the NVIDIA DGX-2 (16 Tesla V100 GPUs w/ NVSwitch) to accelerate its deep-learning/AI R&D across healthcare, medical imaging and display/functional materials. [NVIDIA (DGX-2)]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://developer.nvidia.com/blog/fujifilm-becomes-first-company-in-japan-to-adopt-the-nvidia-dgx-2-supercomputer/",
+   "raw_sector": "",
+   "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "Fujifilm Holdings Corp.",
+   "use": "'Predict-First' biomanufacturing AI — FUJIFILM Biotechnologies uses advanced machine learning/AI and bioinformatics to predict bioprocess production outcomes from culture conditions, de-risk biologic development and improve manufacturing predictability across its CDMO network. [FUJIFILM Biotechnologies (in-house ML/AI)]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://fujifilmbiotechnologies.fujifilm.com/wp-content/uploads/2025/07/MKT-0194-WP-rev02-Arghya-Bioinformatics-Predict-First-Approach.pdf",
+   "raw_sector": "",
+   "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "Fujifilm Holdings Corp.",
+   "use": "AI-driven drug discovery — Fujifilm's CRO/drug-discovery services use AI simulation and analysis to generate/analyze compounds and explore drug mechanisms and gene targets, aiming to speed up and reduce the cost of creating new drug candidates. [Fujifilm (in-house AI)]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://global.fujifilm.com/en/healthcare-life-sciences/cro",
+   "raw_sector": "",
+   "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "Fujifilm Holdings Corp.",
+   "use": "Fujifilm–AWS strategic collaboration — validates Synapse enterprise imaging (Radiology/Cardiology/Digital Pathology PACS, VNA) for AWS cloud hosting with the stated aim of improving data accessibility, security and AI utilization for clinical workflows; a first-of-its-kind North American Synapse Pathology deployment (5 sites, ~1.3M patients) followed. [Amazon Web Services]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.fujifilm.com/us/en/news/healthcare/fujifilm-signs-strategic-collaboration-agreement-with-amazon-web-services",
+   "raw_sector": "",
+   "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "Fujifilm Holdings Corp.",
+   "use": "Cash Application AI — custom machine-learning system built by FUJIFILM Business Innovation on Azure (Azure ML, VMs, Storage, integrated with Dynamics 365, RPA/Power Automate) to auto-match ~100,000 receipts and 1.2M invoices/month to invoices. In official operation since February 2022. [Microsoft Azure Machine Learning]",
+   "existence": "confirmed",
+   "value": "~20% of manual work automated (vs 10% target); over 70% accuracy in generating cash-application candidates",
+   "tier": "",
+   "url": "https://www.microsoft.com/en/customers/story/1598952280649492742-fujifilm-discrete-manufacturing-azure-en-japan",
+   "raw_sector": "",
+   "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "Fujifilm Holdings Corp.",
+   "use": "AI-Powered Integrated Maintenance Support Platform — cloud platform for service/customer engineers featuring an AI Spare Parts Recommender and AI Service Manual to speed parts prep and on-site repair decisions for multifunction printers; global rollout began July 2026 (Japan, APAC, Europe, Americas) after trials in Hong Kong and Australia. [FUJIFILM Business Innovation (in-house)]",
+   "existence": "confirmed",
+   "value": "none (trials showed improved parts-identification accuracy and reduced service work time)",
+   "tier": "",
+   "url": "https://www.fujifilm.com/fb/en/news/15408e",
+   "raw_sector": "",
    "date": "missing",
    "fresh": "undated"
   }

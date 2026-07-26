@@ -3,27 +3,27 @@
  "name": "China Petroleum & Chemical Corporation (Sinopec)",
  "cc": "CN",
  "vertical": "Energy & Utilities",
- "deployments": 2,
- "confirmed": 2,
+ "deployments": 5,
+ "confirmed": 5,
  "with_value_number": 2,
- "proof_rate": 1.0,
+ "proof_rate": 0.4,
  "mktcap": 82277777778.0,
  "revenue": 381944444444.0,
  "employees": 351104.0,
  "silent": false,
  "per_bn_revenue": 0.01,
- "per_10k_emp": 0.06,
+ "per_10k_emp": 0.14,
  "benchmarks": {
   "global_vertical": {
-   "deployments": 72,
-   "confirmed": 78,
-   "proof_rate": 75,
-   "n": 210
+   "deployments": 53,
+   "confirmed": 70,
+   "proof_rate": 77,
+   "n": 213
   },
   "country_vertical": {
-   "deployments": 73,
+   "deployments": 64,
    "confirmed": 73,
-   "proof_rate": 55,
+   "proof_rate": 64,
    "n": 12
   }
  },
@@ -38,7 +38,7 @@
    "n": 1
   }
  ],
- "undated_pct": 0,
+ "undated_pct": 60,
  "momentum": "rising",
  "maturity": "L4",
  "maturity_evidence": [
@@ -48,9 +48,11 @@
   "multi_year",
   "tier_p"
  ],
- "prospect_score": 20,
- "stack": [],
- "vendor_named": false,
+ "prospect_score": 54,
+ "stack": [
+  "DeepSeek"
+ ],
+ "vendor_named": true,
  "deployments_detail": [
   {
    "company": "China Petroleum & Chemical Corporation (Sinopec)",
@@ -73,6 +75,39 @@
    "raw_sector": "Energy",
    "date": "2025-02",
    "fresh": "fresh"
+  },
+  {
+   "company": "China Petroleum & Chemical Corporation (Sinopec)",
+   "use": "Fenghuo Industrial AI Agent for production data analysis, industrial software interaction, and scientific research/engineering outcomes",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.prnewswire.com/news-releases/sinopec-launches-fenghuo-industrial-ai-agent-an-industry-first-that-turns-ai-into-digital-employees-and-domain-experts-302764033.html",
+   "raw_sector": "",
+   "date": "May 6, 2026",
+   "fresh": "undated"
+  },
+  {
+   "company": "China Petroleum & Chemical Corporation (Sinopec)",
+   "use": "AI platform for refinery optimization and oilfield analysis to improve efficiency of large complex assets",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://finance.yahoo.com/sectors/energy/articles/china-petroleum-chemical-uses-ai-151159615.html",
+   "raw_sector": "",
+   "date": "May 10, 2026",
+   "fresh": "undated"
+  },
+  {
+   "company": "China Petroleum & Chemical Corporation (Sinopec)",
+   "use": "5 Sinopec technologies recognized as Outstanding Cases of Artificial Intelligence Applications in China's Oil and Gas industry",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "http://www.sinopecgroup.com/group/en/000/000/067/67304.shtml",
+   "raw_sector": "",
+   "date": "Jun 11, 2025",
+   "fresh": "undated"
   }
  ]
 }

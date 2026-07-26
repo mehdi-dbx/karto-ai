@@ -3,42 +3,58 @@
  "name": "Union Pacific Corporation",
  "cc": "US",
  "vertical": "Industrial / Machinery",
- "deployments": 1,
- "confirmed": 1,
- "with_value_number": 0,
- "proof_rate": 0.0,
+ "deployments": 3,
+ "confirmed": 3,
+ "with_value_number": 1,
+ "proof_rate": 0.333,
  "mktcap": 181120000000.0,
  "revenue": 25410000000.0,
  "employees": 29287.0,
  "silent": false,
- "per_bn_revenue": 0.04,
- "per_10k_emp": 0.34,
+ "per_bn_revenue": 0.12,
+ "per_10k_emp": 1.02,
  "benchmarks": {
   "global_vertical": {
-   "deployments": 0,
-   "confirmed": 14,
-   "proof_rate": 0,
-   "n": 175
+   "deployments": 13,
+   "confirmed": 39,
+   "proof_rate": 82,
+   "n": 176
   },
   "country_vertical": {
-   "deployments": 0,
-   "confirmed": 19,
-   "proof_rate": 0,
-   "n": 80
+   "deployments": 10,
+   "confirmed": 34,
+   "proof_rate": 89,
+   "n": 81
   }
  },
  "first_seen": null,
  "by_year": [],
  "undated_pct": 100,
  "momentum": "none",
- "maturity": "L2",
+ "maturity": "L3",
  "maturity_evidence": [
+  "multi_horizontal",
+  "named_product:Chat",
+  "value_number",
   "tier_p"
  ],
- "prospect_score": 54,
- "stack": [],
- "vendor_named": false,
+ "prospect_score": 45,
+ "stack": [
+  "OpenAI"
+ ],
+ "vendor_named": true,
  "deployments_detail": [
+  {
+   "company": "Union Pacific Corporation",
+   "use": "AI-powered track inspection using geometry systems and vision technology to measure precise condition of railroad track",
+   "existence": "confirmed",
+   "value": "644000 miles",
+   "tier": "",
+   "url": "https://www.up.com/news/safety/ai-powered-vision-inspects-track-260522",
+   "raw_sector": "",
+   "date": "May 22, 2026",
+   "fresh": "undated"
+  },
   {
    "company": "Union Pacific Corporation",
    "use": "AI-powered machine-vision track inspection + automated train inspection (defect detection)",
@@ -48,6 +64,17 @@
    "url": "https://www.up.com/news/safety/ai-powered-vision-inspects-track-260522",
    "raw_sector": "Industrials",
    "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "Union Pacific Corporation",
+   "use": "UP Chat - AI chatbot tool for employees to enhance safety, service and operational efficiency [ChatGPT]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.up.com/news/service/ai-chatgpt-tool-it-240205",
+   "raw_sector": "",
+   "date": "Feb 5, 2024",
    "fresh": "undated"
   }
  ]

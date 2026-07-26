@@ -3,40 +3,58 @@
  "name": "Kojamo",
  "cc": "FI",
  "vertical": "Real Estate & Construction",
- "deployments": 2,
- "confirmed": 2,
- "with_value_number": 0,
- "proof_rate": 0.0,
+ "deployments": 10,
+ "confirmed": 8,
+ "with_value_number": 2,
+ "proof_rate": 0.2,
  "mktcap": 2700000000.0,
  "revenue": 475200000.0,
  "employees": 300.0,
  "silent": false,
- "per_bn_revenue": 4.21,
- "per_10k_emp": 66.67,
+ "per_bn_revenue": 21.04,
+ "per_10k_emp": 333.33,
  "benchmarks": {
   "global_vertical": {
-   "deployments": 82,
-   "confirmed": 88,
-   "proof_rate": 0,
+   "deployments": 86,
+   "confirmed": 90,
+   "proof_rate": 50,
    "n": 154
   }
  },
- "first_seen": 2025,
+ "first_seen": 2016,
  "by_year": [
   {
+   "year": 2016,
+   "n": 1
+  },
+  {
+   "year": 2023,
+   "n": 1
+  },
+  {
+   "year": 2024,
+   "n": 3
+  },
+  {
    "year": 2025,
-   "n": 2
+   "n": 4
+  },
+  {
+   "year": 2026,
+   "n": 1
   }
  ],
  "undated_pct": 0,
- "momentum": "rising",
- "maturity": "L3",
+ "momentum": "early_mover,rising",
+ "maturity": "L4",
  "maturity_evidence": [
   "multi_horizontal",
   "named_product:Generative",
+  "value_number",
+  "multi_year",
   "tier_p"
  ],
- "prospect_score": 60,
+ "prospect_score": 88,
  "stack": [],
  "vendor_named": false,
  "deployments_detail": [
@@ -53,12 +71,100 @@
   },
   {
    "company": "Kojamo",
+   "use": "Automated energy analytics (EG EnerKey) — automatic analytics used to more easily identify energy-saving opportunities across Kojamo's properties. [EG EnerKey]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://yritys.lumo.fi/mediatiedotteet-ja-uutiset/kojamo-on-kiinteistoalan-edellakavija-tekoalyn-hyodyntamisessa/",
+   "raw_sector": "",
+   "date": "2024",
+   "fresh": "aging"
+  },
+  {
+   "company": "Kojamo",
+   "use": "Generative-AI assistants for knowledge workers that accelerate information-intensive tasks and reduce manual work; part of ten different AI solutions Kojamo reports having in use. [none named]",
+   "existence": "confirmed",
+   "value": "Kojamo reports ten different AI solutions in active use; users report improved productivity and work experience",
+   "tier": "",
+   "url": "https://yritys.lumo.fi/mediatiedotteet-ja-uutiset/kojamo-on-kiinteistoalan-edellakavija-tekoalyn-hyodyntamisessa/",
+   "raw_sector": "",
+   "date": "2025",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Kojamo",
+   "use": "Piloting of AI-based tools aimed at enhancing customer and employee experience and improving operational efficiency, with the company considering expansion of their use (reported alongside new ERP and cloud transition). [none named]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://yritys.lumo.fi/wp-content/uploads/2026/03/kojamo-plc-annual-report-2024.pdf",
+   "raw_sector": "",
+   "date": "2024",
+   "fresh": "aging"
+  },
+  {
+   "company": "Kojamo",
    "use": "AI to enhance energy efficiency of Lumo residential units and customer experience",
    "existence": "confirmed",
    "value": "none",
    "tier": "P",
    "url": "https://yritys.lumo.fi/en/news-and-articles/kojamo-is-a-pioneer-in-the-use-of-artificial-intelligence-in-the-real-estate-industry/",
    "raw_sector": "Real Estate",
+   "date": "2025-06",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Kojamo",
+   "use": "AI-based heating/indoor-temperature optimization (Danfoss LeanHeat) — AI+IoT system that adjusts building heating from actual indoor temperatures, energy need and weather forecasts across the property portfolio. [Danfoss LeanHeat]",
+   "existence": "confirmed",
+   "value": "~7% reduction in heating consumption; AI-based IoT temperature-control coverage reached 73% of portfolio in 2024 (up from 49% in 2022)",
+   "tier": "",
+   "url": "https://yritys.lumo.fi/mediatiedotteet-ja-uutiset/kojamo-on-kiinteistoalan-edellakavija-tekoalyn-hyodyntamisessa/",
+   "raw_sector": "",
+   "date": "2016 (ongoing; 73% coverage 2024)",
+   "fresh": "stale"
+  },
+  {
+   "company": "Kojamo",
+   "use": "AI-powered energy management system implemented in 2024 that provides up-to-date information to support decision-making and enables quicker response to energy consumption deviations. [none named]",
+   "existence": "confirmed",
+   "value": "Cited among main drivers of a 22.9% year-on-year reduction in carbon footprint per apartment (vs 5% annual target)",
+   "tier": "",
+   "url": "https://yritys.lumo.fi/en/news-and-articles/kojamo-plcs-annual-report-and-sustainability-report-for-2024-published/",
+   "raw_sector": "",
+   "date": "2024 (summer)",
+   "fresh": "aging"
+  },
+  {
+   "company": "Kojamo",
+   "use": "Asuntoagentti (\"Housing Agent\") — AI recommendation engine on the Lumo online store that matches renters with suitable apartments; launched 2023, described as the first of its kind in the Finnish rental market. [none named]",
+   "existence": "confirmed",
+   "value": "Has helped thousands of customers find a home and prompted several thousand to submit contact details for Lumo homes",
+   "tier": "",
+   "url": "https://yritys.lumo.fi/mediatiedotteet-ja-uutiset/kojamo-on-kiinteistoalan-edellakavija-tekoalyn-hyodyntamisessa/",
+   "raw_sector": "",
+   "date": "2023",
+   "fresh": "stale"
+  },
+  {
+   "company": "Kojamo",
+   "use": "Strategic use of data, technology and artificial intelligence to develop sales and customer interactions (stated direction in the 2025 financial statements release). [none named]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.prnewswire.com/news-releases/kojamo-plcs-financial-statements-release-1-january31-december-2025-302684724.html",
+   "raw_sector": "",
+   "date": "2026-02",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Kojamo",
+   "use": "AI-based Lumo chatbot — a fully renewed AI-powered chat service providing 24/7 multilingual support for apartment seekers and Lumo residents' questions. [none named]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://yritys.lumo.fi/mediatiedotteet-ja-uutiset/kojamo-on-kiinteistoalan-edellakavija-tekoalyn-hyodyntamisessa/",
+   "raw_sector": "",
    "date": "2025-06",
    "fresh": "fresh"
   }

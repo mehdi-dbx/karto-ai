@@ -3,27 +3,27 @@
  "name": "Military Commercial Bank",
  "cc": "VN",
  "vertical": "Financial Services",
- "deployments": 2,
- "confirmed": 1,
- "with_value_number": 0,
- "proof_rate": 0.0,
+ "deployments": 4,
+ "confirmed": 3,
+ "with_value_number": 1,
+ "proof_rate": 0.25,
  "mktcap": 7104400000.0,
  "revenue": 2234400000.0,
  "employees": 18600.0,
  "silent": false,
- "per_bn_revenue": 0.9,
- "per_10k_emp": 1.08,
+ "per_bn_revenue": 1.79,
+ "per_10k_emp": 2.15,
  "benchmarks": {
   "global_vertical": {
-   "deployments": 62,
-   "confirmed": 17,
-   "proof_rate": 0,
-   "n": 377
+   "deployments": 24,
+   "confirmed": 27,
+   "proof_rate": 47,
+   "n": 388
   },
   "country_vertical": {
-   "deployments": 55,
-   "confirmed": 18,
-   "proof_rate": 0,
+   "deployments": 36,
+   "confirmed": 36,
+   "proof_rate": 64,
    "n": 12
   }
  },
@@ -38,16 +38,19 @@
    "n": 1
   }
  ],
- "undated_pct": 0,
+ "undated_pct": 50,
  "momentum": "early_mover,flat",
  "maturity": "L3",
  "maturity_evidence": [
   "named_product:BIZ",
+  "value_number",
   "tier_p"
  ],
- "prospect_score": 54,
- "stack": [],
- "vendor_named": false,
+ "prospect_score": 48,
+ "stack": [
+  "Google Cloud"
+ ],
+ "vendor_named": true,
  "deployments_detail": [
   {
    "company": "Military Commercial Bank",
@@ -59,6 +62,28 @@
    "raw_sector": "Banks",
    "date": "2024",
    "fresh": "aging"
+  },
+  {
+   "company": "Military Commercial Bank",
+   "use": "Digital loan disbursement platform leveraging artificial intelligence",
+   "existence": "confirmed",
+   "value": "VND822 trillion ($31.59 billion)",
+   "tier": "",
+   "url": "https://theinvestor.vn/mb-solidifies-position-as-one-of-vietnams-most-profitable-banks-d18305.html",
+   "raw_sector": "",
+   "date": "Feb 3, 2026",
+   "fresh": "undated"
+  },
+  {
+   "company": "Military Commercial Bank",
+   "use": "Digital business model with scalable API program [Google Cloud]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://cloud.google.com/customers/military-bank",
+   "raw_sector": "",
+   "date": "missing",
+   "fresh": "undated"
   },
   {
    "company": "Military Commercial Bank",

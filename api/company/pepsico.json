@@ -3,27 +3,27 @@
  "name": "PepsiCo",
  "cc": "US",
  "vertical": "Retail & E-commerce",
- "deployments": 12,
- "confirmed": 11,
+ "deployments": 17,
+ "confirmed": 12,
  "with_value_number": 5,
- "proof_rate": 0.417,
+ "proof_rate": 0.294,
  "mktcap": 184230000000.0,
  "revenue": 96900000000.0,
  "employees": 306000.0,
  "silent": false,
- "per_bn_revenue": 0.12,
- "per_10k_emp": 0.39,
+ "per_bn_revenue": 0.18,
+ "per_10k_emp": 0.56,
  "benchmarks": {
   "global_vertical": {
-   "deployments": 96,
-   "confirmed": 97,
-   "proof_rate": 69,
-   "n": 295
+   "deployments": 95,
+   "confirmed": 91,
+   "proof_rate": 59,
+   "n": 301
   },
   "country_vertical": {
-   "deployments": 91,
-   "confirmed": 91,
-   "proof_rate": 77,
+   "deployments": 87,
+   "confirmed": 81,
+   "proof_rate": 59,
    "n": 80
   }
  },
@@ -50,7 +50,7 @@
    "n": 3
   }
  ],
- "undated_pct": 8,
+ "undated_pct": 35,
  "momentum": "early_mover,rising",
  "maturity": "L4",
  "maturity_evidence": [
@@ -60,13 +60,41 @@
   "multi_year",
   "tier_p"
  ],
- "prospect_score": 83,
+ "prospect_score": 88,
  "stack": [
+  "Amazon AWS",
+  "Google",
   "Google Cloud",
-  "NVIDIA"
+  "Microsoft",
+  "Microsoft Azure",
+  "NVIDIA",
+  "OpenAI",
+  "Salesforce"
  ],
  "vendor_named": true,
  "deployments_detail": [
+  {
+   "company": "PepsiCo",
+   "use": "Generative AI in product lifecycle management for formulas, recipes and deadlines",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.ciodive.com/news/PepsiCo-generative-AI-pilot-purgatory-agents/750095/",
+   "raw_sector": "",
+   "date": "Jun 9, 2025",
+   "fresh": "undated"
+  },
+  {
+   "company": "PepsiCo",
+   "use": "Named as a OpenAI customer/case study [OpenAI] [OpenAI]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://technologychecker.io/technology/openai-chatgpt",
+   "raw_sector": "",
+   "date": "missing",
+   "fresh": "undated"
+  },
   {
    "company": "PepsiCo",
    "use": "AI + digital-twin plant/supply-chain transformation (Siemens+NVIDIA) + Google Cloud AI at scale",
@@ -77,6 +105,39 @@
    "raw_sector": "Consumer Staples",
    "date": "2025",
    "fresh": "fresh"
+  },
+  {
+   "company": "PepsiCo",
+   "use": "Digital twin and AI for industrial operations [Siemens, NVIDIA]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.pepsico.com/en/newsroom/press-releases/2025/pepsico-announces-industry-first-ai-and-digital-twin-collaboration-with-siemens-and-nvidia",
+   "raw_sector": "",
+   "date": "Jan 6, 2026",
+   "fresh": "undated"
+  },
+  {
+   "company": "PepsiCo",
+   "use": "AI-driven digital platform for data and analytics capabilities [Google Cloud]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.pepsico.com/en/newsroom/press-releases/2026/pepsico-deepens-ai-capabilties-with-google-cloud",
+   "raw_sector": "",
+   "date": "Apr 22, 2026",
+   "fresh": "undated"
+  },
+  {
+   "company": "PepsiCo",
+   "use": "AI agents for operational efficiency and key function control [Salesforce]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.pepsico.com/en/newsroom/press-releases/2025/pepsico-leverages-salesforces-agentforce-to-advance-ai-agenda",
+   "raw_sector": "",
+   "date": "Jun 24, 2025",
+   "fresh": "undated"
   },
   {
    "company": "PepsiCo",

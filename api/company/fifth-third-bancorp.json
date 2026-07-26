@@ -3,28 +3,28 @@
  "name": "Fifth Third Bancorp",
  "cc": "US",
  "vertical": "Financial Services",
- "deployments": 1,
- "confirmed": 1,
- "with_value_number": 0,
- "proof_rate": 0.0,
+ "deployments": 5,
+ "confirmed": 4,
+ "with_value_number": 1,
+ "proof_rate": 0.2,
  "mktcap": 51340000000.0,
  "revenue": 10070000000.0,
  "employees": 18676.0,
  "silent": false,
- "per_bn_revenue": 0.1,
- "per_10k_emp": 0.54,
+ "per_bn_revenue": 0.5,
+ "per_10k_emp": 2.68,
  "benchmarks": {
   "global_vertical": {
-   "deployments": 0,
-   "confirmed": 17,
-   "proof_rate": 0,
-   "n": 377
+   "deployments": 31,
+   "confirmed": 39,
+   "proof_rate": 39,
+   "n": 388
   },
   "country_vertical": {
-   "deployments": 0,
-   "confirmed": 19,
-   "proof_rate": 0,
-   "n": 76
+   "deployments": 26,
+   "confirmed": 32,
+   "proof_rate": 42,
+   "n": 77
   }
  },
  "first_seen": null,
@@ -33,10 +33,12 @@
  "momentum": "none",
  "maturity": "L3",
  "maturity_evidence": [
+  "multi_horizontal",
   "named_product:CTO",
+  "value_number",
   "tier_p"
  ],
- "prospect_score": 54,
+ "prospect_score": 64,
  "stack": [],
  "vendor_named": false,
  "deployments_detail": [
@@ -49,6 +51,50 @@
    "url": "https://www.53.com/content/fifth-third/en/commercial-banking/treasury-management/risk-management.html",
    "raw_sector": "Financials",
    "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "Fifth Third Bancorp",
+   "use": "AI-powered chatbot for customer service and inquiry management [Jeanie]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://tearsheet.co/artificial-intelligence/how-fifth-third-uses-its-ai-powered-chatbot-jeanie-to-talk-smarter-and-more-importantly-listen-better/",
+   "raw_sector": "",
+   "date": "May 1, 2025",
+   "fresh": "undated"
+  },
+  {
+   "company": "Fifth Third Bancorp",
+   "use": "AI-powered interface in mobile banking app [Jeanie]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.53.com/content/fifth-third/en/media-center/press-releases/2026/press-release-2026-06-17.html",
+   "raw_sector": "",
+   "date": "Jun 17, 2026",
+   "fresh": "undated"
+  },
+  {
+   "company": "Fifth Third Bancorp",
+   "use": "Interaction Analytics for call center sentiment analysis [NICE Enlighten AI and Nexidia Analytics]",
+   "existence": "confirmed",
+   "value": "35%",
+   "tier": "",
+   "url": "https://www.nice.com/resources/fifth-third-bank-transforms-voice-of-the-customer-through-nice-enlighten-ai-and-nexidia-analytics",
+   "raw_sector": "",
+   "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "Fifth Third Bancorp",
+   "use": "ModelOps and feature store for AI model governance and reusability",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.cdomagazine.tech/leadership/how-fifth-third-banks-4-point-ai-playbook-is-transforming-data-culture-through-empathy-and-trust",
+   "raw_sector": "",
+   "date": "Oct 30, 2025",
    "fresh": "undated"
   }
  ]

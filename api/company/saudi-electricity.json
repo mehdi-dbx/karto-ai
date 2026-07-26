@@ -3,7 +3,7 @@
  "name": "Saudi Electricity",
  "cc": "SA",
  "vertical": "Energy & Utilities",
- "deployments": 2,
+ "deployments": 4,
  "confirmed": 1,
  "with_value_number": 0,
  "proof_rate": 0.0,
@@ -11,14 +11,14 @@
  "revenue": 27746666667.0,
  "employees": 33957.0,
  "silent": false,
- "per_bn_revenue": 0.07,
- "per_10k_emp": 0.59,
+ "per_bn_revenue": 0.14,
+ "per_10k_emp": 1.18,
  "benchmarks": {
   "global_vertical": {
-   "deployments": 72,
-   "confirmed": 20,
+   "deployments": 40,
+   "confirmed": 7,
    "proof_rate": 0,
-   "n": 210
+   "n": 213
   },
   "country_vertical": {
    "deployments": 40,
@@ -38,16 +38,18 @@
    "n": 1
   }
  ],
- "undated_pct": 0,
+ "undated_pct": 50,
  "momentum": "early_mover,rising",
  "maturity": "L3",
  "maturity_evidence": [
   "named_product:Global",
   "tier_p"
  ],
- "prospect_score": 54,
- "stack": [],
- "vendor_named": false,
+ "prospect_score": 46,
+ "stack": [
+  "Microsoft"
+ ],
+ "vendor_named": true,
  "deployments_detail": [
   {
    "company": "Saudi Electricity",
@@ -70,6 +72,28 @@
    "raw_sector": "Utilities",
    "date": "2025",
    "fresh": "fresh"
+  },
+  {
+   "company": "Saudi Electricity",
+   "use": "AI copilots for power system operations and EV usage pattern detection",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://gccia.com.sa/gccia-organized-a-workshop-on-the-applications-of-generative-ai-in-gcc-power-systems/",
+   "raw_sector": "",
+   "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "Saudi Electricity",
+   "use": "AI guidance for utilities on new use cases",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.linkedin.com/posts/rohitpareek_ai-energytransition-utilities-activity-7389494616129146880-Fm-Z",
+   "raw_sector": "",
+   "date": "missing",
+   "fresh": "undated"
   }
  ]
 }

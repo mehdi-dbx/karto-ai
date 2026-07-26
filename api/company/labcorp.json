@@ -3,42 +3,61 @@
  "name": "Labcorp",
  "cc": "US",
  "vertical": "Healthcare & Life Sciences",
- "deployments": 1,
- "confirmed": 1,
- "with_value_number": 0,
- "proof_rate": 0.0,
+ "deployments": 9,
+ "confirmed": 6,
+ "with_value_number": 5,
+ "proof_rate": 0.556,
  "mktcap": 23560000000.0,
  "revenue": 14140000000.0,
  "employees": 71000.0,
  "silent": false,
- "per_bn_revenue": 0.07,
- "per_10k_emp": 0.14,
+ "per_bn_revenue": 0.64,
+ "per_10k_emp": 1.27,
  "benchmarks": {
   "global_vertical": {
-   "deployments": 0,
-   "confirmed": 13,
-   "proof_rate": 0,
-   "n": 165
+   "deployments": 62,
+   "confirmed": 62,
+   "proof_rate": 88,
+   "n": 168
   },
   "country_vertical": {
-   "deployments": 0,
-   "confirmed": 7,
-   "proof_rate": 0,
+   "deployments": 52,
+   "confirmed": 52,
+   "proof_rate": 90,
    "n": 59
   }
  },
- "first_seen": null,
- "by_year": [],
- "undated_pct": 100,
- "momentum": "none",
- "maturity": "L3",
+ "first_seen": 2021,
+ "by_year": [
+  {
+   "year": 2021,
+   "n": 1
+  },
+  {
+   "year": 2025,
+   "n": 4
+  },
+  {
+   "year": 2026,
+   "n": 3
+  }
+ ],
+ "undated_pct": 11,
+ "momentum": "early_mover,rising",
+ "maturity": "L4",
  "maturity_evidence": [
+  "multi_horizontal",
   "named_product:PathAI",
+  "value_number",
+  "multi_year",
   "tier_p"
  ],
  "prospect_score": 54,
- "stack": [],
- "vendor_named": false,
+ "stack": [
+  "Amazon AWS",
+  "OpenAI"
+ ],
+ "vendor_named": true,
  "deployments_detail": [
   {
    "company": "Labcorp",
@@ -50,6 +69,94 @@
    "raw_sector": "Health Care",
    "date": "missing",
    "fresh": "undated"
+  },
+  {
+   "company": "Labcorp",
+   "use": "Test Finder: generative AI tool that lets healthcare providers describe patient needs in natural language and returns curated, clinically relevant lab test recommendations across thousands of tests. Live on Labcorp.com since July 30, 2025. [AWS (Amazon Bedrock, LLM); HIPAA-compliant infrastructure]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.prnewswire.com/news-releases/labcorp-introduces-test-finder-a-first-of-its-kind-generative-ai-tool-to-simplify-lab-test-search-302517300.html",
+   "raw_sector": "",
+   "date": "2025-07-30",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Labcorp",
+   "use": "Test Finder expanded into EHR/clinician workflows via Labcorp Diagnostic Assistant (embedded in EHRs) and Labcorp Link (browser-based ordering), bringing generative-AI test selection to the point of care. [AWS (Amazon Bedrock, LLM)]",
+   "existence": "confirmed",
+   "value": "750+ health systems/physician groups on Diagnostic Assistant; ~500,000 lab orders/month via Labcorp Link",
+   "tier": "",
+   "url": "https://clpmag.com/lab-essentials/information-technology/middleware-software/labcorp-expands-ai-powered-test-finder-ehr-systems/",
+   "raw_sector": "",
+   "date": "2025-09-24",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Labcorp",
+   "use": "Nationwide deployment of AISight Dx FDA-cleared digital pathology platform: pathologists review, interpret and manage digital slide images for primary diagnosis with AI support across Labcorp's anatomic pathology labs and hospital collaborations. [PathAI (AISight Dx)]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.prnewswire.com/news-releases/labcorp-expands-collaboration-with-pathai-to-deploy-fda-cleared-digital-pathology-platform-nationwide-302694248.html",
+   "raw_sector": "",
+   "date": "2026-02-23",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Labcorp",
+   "use": "AI-powered real-world data platform for Alzheimer's research using agentic AI to compress months of manual cohort/data preparation into minutes, tracking disease progression and treatment effectiveness across diverse populations for biopharma and researchers. [AWS (Amazon Bedrock for agents, Amazon SageMaker); Datavant (privacy-preserving connectivity)]",
+   "existence": "claimed",
+   "value": "none (context: 7.2M Americans with Alzheimer's, $380B annual care costs)",
+   "tier": "",
+   "url": "https://www.prnewswire.com/news-releases/labcorp-introduces-ai-powered-real-world-data-platform-with-aws-and-datavant-to-accelerate-alzheimers-research-302741607.html",
+   "raw_sector": "",
+   "date": "2026-04-14",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Labcorp",
+   "use": "Strategic collaboration applying AI-based spatial profiling of pathology slides (Lunit SCOPE IO) to characterize tumor-immune microenvironments in oncology research, initially in NSCLC with MET exon 14 alterations. [Lunit (SCOPE IO)]",
+   "existence": "claimed",
+   "value": "370+ pathology slides analyzed in initial NSCLC studies",
+   "tier": "",
+   "url": "https://www.prnewswire.com/news-releases/lunit-and-labcorp-announce-strategic-collaboration-to-advance-ai-powered-digital-pathology-research-302617133.html",
+   "raw_sector": "",
+   "date": "2025-11-20",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Labcorp",
+   "use": "Collaboration using ConcertAI's AI and real-world data SaaS platform to optimize precision oncology clinical trials: trial design, protocol optimization, site selection, faster patient recruitment and retention. [ConcertAI]",
+   "existence": "claimed",
+   "value": "none (Labcorp Drug Development supports >50% of global oncology trials)",
+   "tier": "",
+   "url": "https://www.fiercebiotech.com/cro/labcorp-taps-concertai-for-next-gen-approach-to-clinical-trials",
+   "raw_sector": "",
+   "date": "2021-12-01",
+   "fresh": "stale"
+  },
+  {
+   "company": "Labcorp",
+   "use": "AI models for biopharma drug development: benefits-verification model for call center, fraud detection, patient segmentation/recruitment prediction, and prediction of pharmacokinetics (PK), drug response (PD) and drug-drug interactions; used in real customer engagements incl. a NASH trial subject-finding model. [none named]",
+   "existence": "confirmed",
+   "value": "call center pre-research time reduced 60%; fraud detection model ~$100,000 annual savings; NASH study 34 of 54 AI-flagged candidates tested positive",
+   "tier": "",
+   "url": "https://www.labcorp.com/biopharma/commercialization/ai",
+   "raw_sector": "",
+   "date": "2025-01-01",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Labcorp",
+   "use": "MyLabcorp consumer mobile app with AI-enabled chat assistant that helps patients understand lab results, ask questions, spot trends over time, and manage appointments/billing. Live on Apple App Store and Google Play. [OpenAI (advanced reasoning models)]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.prnewswire.com/news-releases/labcorp-launches-mylabcorp-a-new-ai-powered-mobile-app-designed-to-help-consumers-understand-lab-results-and-track-health-trends-over-time-302777006.html",
+   "raw_sector": "",
+   "date": "2026-05-20",
+   "fresh": "fresh"
   }
  ]
 }

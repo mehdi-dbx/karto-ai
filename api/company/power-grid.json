@@ -3,7 +3,7 @@
  "name": "Power Grid",
  "cc": "IN",
  "vertical": "Energy & Utilities",
- "deployments": 1,
+ "deployments": 2,
  "confirmed": 0,
  "with_value_number": 0,
  "proof_rate": 0.0,
@@ -11,20 +11,20 @@
  "revenue": 5630481928.0,
  "employees": 9048.0,
  "silent": false,
- "per_bn_revenue": 0.18,
- "per_10k_emp": 1.11,
+ "per_bn_revenue": 0.36,
+ "per_10k_emp": 2.21,
  "benchmarks": {
   "global_vertical": {
-   "deployments": 0,
+   "deployments": 10,
    "confirmed": 0,
    "proof_rate": 0,
-   "n": 210
+   "n": 213
   },
   "country_vertical": {
-   "deployments": 0,
+   "deployments": 17,
    "confirmed": 0,
    "proof_rate": 0,
-   "n": 12
+   "n": 13
   }
  },
  "first_seen": null,
@@ -36,8 +36,10 @@
   "rows_no_confirmed"
  ],
  "prospect_score": 40,
- "stack": [],
- "vendor_named": false,
+ "stack": [
+  "Anthropic"
+ ],
+ "vendor_named": true,
  "deployments_detail": [
   {
    "company": "Power Grid",
@@ -47,6 +49,17 @@
    "tier": "I",
    "url": "https://powerline.net.in/powergrid-ai-it-ot",
    "raw_sector": "Power",
+   "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "Power Grid",
+   "use": "Named as a Anthropic Claude customer/case study [Anthropic Claude] [Anthropic Claude]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.anthropic.com/research/anthropic-economic-index-september-2025-report",
+   "raw_sector": "",
    "date": "missing",
    "fresh": "undated"
   }

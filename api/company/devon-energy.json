@@ -3,41 +3,63 @@
  "name": "Devon Energy",
  "cc": "US",
  "vertical": "Energy & Utilities",
- "deployments": 1,
- "confirmed": 0,
- "with_value_number": 1,
- "proof_rate": 1.0,
+ "deployments": 13,
+ "confirmed": 9,
+ "with_value_number": 6,
+ "proof_rate": 0.462,
  "mktcap": 52390000000.0,
  "revenue": 16000000000.0,
  "employees": 2200.0,
  "silent": false,
- "per_bn_revenue": 0.06,
- "per_10k_emp": 4.55,
+ "per_bn_revenue": 0.81,
+ "per_10k_emp": 59.09,
  "benchmarks": {
   "global_vertical": {
-   "deployments": 0,
-   "confirmed": 0,
-   "proof_rate": 75,
-   "n": 210
+   "deployments": 91,
+   "confirmed": 88,
+   "proof_rate": 80,
+   "n": 213
   },
   "country_vertical": {
-   "deployments": 0,
-   "confirmed": 0,
+   "deployments": 96,
+   "confirmed": 90,
    "proof_rate": 92,
    "n": 52
   }
  },
- "first_seen": null,
- "by_year": [],
- "undated_pct": 100,
- "momentum": "none",
- "maturity": "L1",
- "maturity_evidence": [
-  "rows_no_confirmed"
+ "first_seen": 2021,
+ "by_year": [
+  {
+   "year": 2021,
+   "n": 2
+  },
+  {
+   "year": 2025,
+   "n": 3
+  },
+  {
+   "year": 2026,
+   "n": 7
+  }
  ],
- "prospect_score": 0,
- "stack": [],
- "vendor_named": false,
+ "undated_pct": 8,
+ "momentum": "early_mover,rising",
+ "maturity": "L4",
+ "maturity_evidence": [
+  "multi_horizontal",
+  "named_product:ChatDVN",
+  "value_number",
+  "multi_year"
+ ],
+ "prospect_score": 76,
+ "stack": [
+  "Anthropic",
+  "Databricks",
+  "Microsoft",
+  "Microsoft Azure",
+  "OpenAI"
+ ],
+ "vendor_named": true,
  "deployments_detail": [
   {
    "company": "Devon Energy",
@@ -49,6 +71,138 @@
    "raw_sector": "Energy",
    "date": "missing",
    "fresh": "undated"
+  },
+  {
+   "company": "Devon Energy",
+   "use": "Predictive equipment failure detection — ML on drill rig and machinery data to predict failures and reduce operational downtime [Azure Databricks (MLflow)]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.databricks.com/customers/devon-energy",
+   "raw_sector": "",
+   "date": "2021-01-01",
+   "fresh": "stale"
+  },
+  {
+   "company": "Devon Energy",
+   "use": "PDF / unstructured-data extraction — AI extracts data from operating-partner reports to benchmark performance of non-operated wells [Devon Energy (ChatDVN / proprietary)]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://drillingcontractor.org/post-merger-devon-sees-big-role-for-ai-as-it-tackles-integration-seeks-1-billion-in-synergies-78873",
+   "raw_sector": "",
+   "date": "2026-07-06",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Devon Energy",
+   "use": "Supply chain and contract optimization — AI applied to procurement and vendor/contract management (part of Wave Three internal-process redesign) [Devon Energy (proprietary)]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://drillingcontractor.org/post-merger-devon-sees-big-role-for-ai-as-it-tackles-integration-seeks-1-billion-in-synergies-78873",
+   "raw_sector": "",
+   "date": "2026-07-06",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Devon Energy",
+   "use": "Simulfrac optimization — AI coordinates pumping-stage sequences and wireline deployment across multiple wells to improve completion efficiency in the Delaware Basin [Devon Energy (ChatDVN / proprietary)]",
+   "existence": "confirmed",
+   "value": "12% completion efficiency improvement in Delaware Basin",
+   "tier": "",
+   "url": "https://www.aogr.com/magazine/cover-story/devon-energy-stays-ahead-of-technology-curve",
+   "raw_sector": "",
+   "date": "2025-07-01",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Devon Energy",
+   "use": "Gas lift / gas injection optimization — real-time physics-based AI models continuously adjust gas injection rates and optimize centralized gas lift compression across many wells [Devon Energy (proprietary physics-based AI)]",
+   "existence": "confirmed",
+   "value": "~5% oil production increase at a Delaware location (reported 3-5% uplift)",
+   "tier": "",
+   "url": "https://www.aogr.com/magazine/cover-story/devon-energy-stays-ahead-of-technology-curve",
+   "raw_sector": "",
+   "date": "2025-07-01",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Devon Energy",
+   "use": "InnDrill — production application for collecting, managing and analyzing drilling costs, performance and real-time data, with AI event flagging (e.g., motor-stall notifications to rig personnel) [Devon Energy (internally built)]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://drillingcontractor.org/post-merger-devon-sees-big-role-for-ai-as-it-tackles-integration-seeks-1-billion-in-synergies-78873",
+   "raw_sector": "",
+   "date": "2026-07-06",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Devon Energy",
+   "use": "InnFrac — production application for completions data and performance management (fracturing operations analytics), analogous to InnDrill [Devon Energy (internally built)]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://drillingcontractor.org/post-merger-devon-sees-big-role-for-ai-as-it-tackles-integration-seeks-1-billion-in-synergies-78873",
+   "raw_sector": "",
+   "date": "2026-07-06",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Devon Energy",
+   "use": "Subsurface / exploration optimization — ML on geophysical, geochemical, seismic and drill-rig data to characterize the subsurface and locate hydrocarbons more efficiently [Azure Databricks (MLflow), Microsoft Azure]",
+   "existence": "confirmed",
+   "value": "Full-well processing in 1-2 hours on 1,000+ cores; query times cut from 2+ days to ~30 minutes",
+   "tier": "",
+   "url": "https://www.databricks.com/customers/devon-energy",
+   "raw_sector": "",
+   "date": "2021-01-01",
+   "fresh": "stale"
+  },
+  {
+   "company": "Devon Energy",
+   "use": "AI agents for well-design optimization and completions sequencing plus basin-wide pre-drill performance prediction (Wave Three, in-drill / in-frac agents monitoring operations in real time) [Devon Energy (proprietary AI agents)]",
+   "existence": "claimed",
+   "value": "Reported ~12% lower drilling costs and ~15% lower completion costs (secondary source)",
+   "tier": "",
+   "url": "https://drillingcontractor.org/post-merger-devon-sees-big-role-for-ai-as-it-tackles-integration-seeks-1-billion-in-synergies-78873",
+   "raw_sector": "",
+   "date": "2026-07-06",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Devon Energy",
+   "use": "ChatDVN — internally developed generative-AI platform (LLM-based chat/assistant over Devon's data) used company-wide for data analysis and building internal apps; now on version 3.0 [Devon Energy (internally built; inspired by OpenAI ChatGPT)]",
+   "existence": "confirmed",
+   "value": "Used daily by more than 75% of employees; 15-30% productivity gains for engineers/geoscientists",
+   "tier": "",
+   "url": "https://drillingcontractor.org/post-merger-devon-sees-big-role-for-ai-as-it-tackles-integration-seeks-1-billion-in-synergies-78873",
+   "raw_sector": "",
+   "date": "2026-07-06",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Devon Energy",
+   "use": "Low-code app development with Claude Code — enables non-coding engineers to build and customize internal applications [Anthropic (Claude Code)]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://drillingcontractor.org/post-merger-devon-sees-big-role-for-ai-as-it-tackles-integration-seeks-1-billion-in-synergies-78873",
+   "raw_sector": "",
+   "date": "2026-07-06",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Devon Energy",
+   "use": "Video analytics — proprietary AI application using infrared and standard cameras to detect wellsite anomalies, hazards, spills and emissions [Devon Energy (proprietary)]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.aogr.com/magazine/cover-story/devon-energy-stays-ahead-of-technology-curve",
+   "raw_sector": "",
+   "date": "2025-07-01",
+   "fresh": "fresh"
   }
  ]
 }

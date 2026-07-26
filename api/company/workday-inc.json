@@ -3,26 +3,26 @@
  "name": "Workday, Inc.",
  "cc": "US",
  "vertical": "Technology",
- "deployments": 1,
- "confirmed": 1,
+ "deployments": 5,
+ "confirmed": 2,
  "with_value_number": 0,
  "proof_rate": 0.0,
  "mktcap": 31980000000.0,
  "revenue": 9850000000.0,
  "employees": 21000.0,
  "silent": false,
- "per_bn_revenue": 0.1,
- "per_10k_emp": 0.48,
+ "per_bn_revenue": 0.51,
+ "per_10k_emp": 2.38,
  "benchmarks": {
   "global_vertical": {
-   "deployments": 0,
-   "confirmed": 6,
+   "deployments": 27,
+   "confirmed": 11,
    "proof_rate": 0,
-   "n": 156
+   "n": 159
   },
   "country_vertical": {
-   "deployments": 0,
-   "confirmed": 4,
+   "deployments": 23,
+   "confirmed": 7,
    "proof_rate": 0,
    "n": 74
   }
@@ -31,20 +31,54 @@
  "by_year": [
   {
    "year": 2025,
-   "n": 1
+   "n": 2
   }
  ],
- "undated_pct": 0,
+ "undated_pct": 60,
  "momentum": "early_mover,rising",
  "maturity": "L3",
  "maturity_evidence": [
+  "multi_horizontal",
   "named_product:Workday Illuminate",
   "tier_p"
  ],
- "prospect_score": 54,
+ "prospect_score": 60,
  "stack": [],
  "vendor_named": false,
  "deployments_detail": [
+  {
+   "company": "Workday, Inc.",
+   "use": "Workday Build - AI developer toolset integrating Workday Illuminate",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://en-gb.newsroom.workday.com/2025-09-16-Workday-Unveils-Workday-Build,-Giving-Developers-the-Tools-to-Build-the-Future-of-Work",
+   "raw_sector": "",
+   "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "Workday, Inc.",
+   "use": "Role-based AI agents through Agent System of Record",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://newsroom.workday.com/2025-02-11-The-Next-Generation-of-Workforce-Management-is-Here-Workday-Unveils-New-Agent-System-of-Record",
+   "raw_sector": "",
+   "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "Workday, Inc.",
+   "use": "Sana and agentic AI for building, orchestrating, and managing agents across business functions",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.workday.com/en-us/artificial-intelligence.html",
+   "raw_sector": "",
+   "date": "missing",
+   "fresh": "undated"
+  },
   {
    "company": "Workday, Inc.",
    "use": "\"Workday Illuminate\" + Sana AI agents for HR/finance (11+ agents across functions)",
@@ -54,6 +88,17 @@
    "url": "https://newsroom.workday.com/2025-09-16-Workday-Illuminate-TM-Expands-with-New-AI-Agents-for-HR,-Finance,-and-Industry",
    "raw_sector": "Information Technology",
    "date": "2025",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Workday, Inc.",
+   "use": "AI-powered applicant recommendation system",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.lawandtheworkplace.com/2025/06/ai-bias-lawsuit-against-workday-reaches-next-stage-as-court-grants-conditional-certification-of-adea-claim/",
+   "raw_sector": "",
+   "date": "2025-06-11",
    "fresh": "fresh"
   }
  ]

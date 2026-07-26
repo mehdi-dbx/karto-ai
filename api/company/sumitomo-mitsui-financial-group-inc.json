@@ -3,47 +3,102 @@
  "name": "Sumitomo Mitsui Financial Group, Inc.",
  "cc": "JP",
  "vertical": "Financial Services",
- "deployments": 2,
- "confirmed": 2,
- "with_value_number": 1,
- "proof_rate": 0.5,
+ "deployments": 11,
+ "confirmed": 8,
+ "with_value_number": 4,
+ "proof_rate": 0.364,
  "mktcap": 181533333333.0,
  "revenue": 29200000000.0,
  "employees": 123000.0,
  "silent": false,
- "per_bn_revenue": 0.07,
- "per_10k_emp": 0.16,
+ "per_bn_revenue": 0.38,
+ "per_10k_emp": 0.89,
  "benchmarks": {
   "global_vertical": {
-   "deployments": 62,
-   "confirmed": 73,
-   "proof_rate": 61,
-   "n": 377
+   "deployments": 72,
+   "confirmed": 67,
+   "proof_rate": 66,
+   "n": 388
   },
   "country_vertical": {
-   "deployments": 29,
-   "confirmed": 36,
-   "proof_rate": 29,
+   "deployments": 79,
+   "confirmed": 71,
+   "proof_rate": 50,
    "n": 15
   }
  },
- "first_seen": null,
- "by_year": [],
- "undated_pct": 100,
- "momentum": "none",
- "maturity": "L3",
+ "first_seen": 2023,
+ "by_year": [
+  {
+   "year": 2023,
+   "n": 1
+  },
+  {
+   "year": 2024,
+   "n": 2
+  },
+  {
+   "year": 2025,
+   "n": 3
+  },
+  {
+   "year": 2026,
+   "n": 3
+  }
+ ],
+ "undated_pct": 18,
+ "momentum": "early_mover,rising",
+ "maturity": "L4",
  "maturity_evidence": [
   "multi_horizontal",
   "named_product:SMBC-GAI",
   "value_number",
+  "multi_year",
   "tier_p"
  ],
- "prospect_score": 32,
+ "prospect_score": 73,
  "stack": [
-  "Google"
+  "Google",
+  "IBM",
+  "Microsoft",
+  "Microsoft Azure",
+  "OpenAI"
  ],
  "vendor_named": true,
  "deployments_detail": [
+  {
+   "company": "Sumitomo Mitsui Financial Group, Inc.",
+   "use": "SMBC-GAI (originally piloted as SMBC-GPT): in-house generative AI assistant for all employees, embedded in Microsoft Teams, used for drafting, summarizing, translation, and code generation over the internal network. Reached ~12,000 daily uses ('once every two seconds'). [Microsoft Azure OpenAI Service; co-developed with Japan Research Institute (JRI) and NEC]",
+   "existence": "confirmed",
+   "value": "~12,000 daily uses (up from ~6,000 at launch)",
+   "tier": "",
+   "url": "https://www.smfg.co.jp/english/dx_link/article/0117.html",
+   "raw_sector": "",
+   "date": "2023-07",
+   "fresh": "stale"
+  },
+  {
+   "company": "Sumitomo Mitsui Financial Group, Inc.",
+   "use": "AI-CEO: internal chatbot and avatar modeled on Group CEO using system prompts and RAG, deployed to employees to normalize AI use and share management perspective; chatbot version rolled out to staff. [OpenAI GPT-4o; Microsoft avatar technology]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.fintechobserver.com/accelerating-ai-utilization-through-development-of-ai-ceo/",
+   "raw_sector": "",
+   "date": "2025-08",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Sumitomo Mitsui Financial Group, Inc.",
+   "use": "Agentic AI embedded in banking workflows via kAIgentic (Singapore venture SMFG invested in), designed to automate data extraction and complex banking operations with source-traceable outputs; being deployed within SMBC Group banking workflows. [kAIgentic Pte Ltd (founded by Ahmed Mazhari)]",
+   "existence": "confirmed",
+   "value": "USD 10M investment",
+   "tier": "",
+   "url": "https://asianbankingandfinance.net/banking-technology/exclusive/why-smbc-launched-agentic-ai-startup-in-singapore",
+   "raw_sector": "",
+   "date": "2025-11",
+   "fresh": "fresh"
+  },
   {
    "company": "Sumitomo Mitsui Financial Group, Inc.",
    "use": "\"SMBC-GAI\" employee AI assistant; multi-LLM strategy (incl. Gemini); ~100 concurrent GenAI projects",
@@ -57,6 +112,61 @@
   },
   {
    "company": "Sumitomo Mitsui Financial Group, Inc.",
+   "use": "Proposal Generation AI: multi-agent system (information gathering, hypothesis/story building, quality evaluation and fact-checking agents) that automates strategic proposal generation for wholesale banking clients; reached production deployment at SMBC. [Sakana AI]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.fintechobserver.com/smbc-group-and-sakana-ai-launch-automated-strategic-proposal-system-to-scale-wholesale-banking-advisory/",
+   "raw_sector": "",
+   "date": "2026-05",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Sumitomo Mitsui Financial Group, Inc.",
+   "use": "AI-powered data analytics / demand forecasting business jointly developed with Fujitsu (Dynamic Ensemble Model) for product demand, inventory, personnel, and logistics optimization; demonstration experiments and service provision planned. [Fujitsu]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://info.archives.global.fujitsu/global/about/resources/news/press-releases/2025/0403-01.html",
+   "raw_sector": "",
+   "date": "2025-04",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Sumitomo Mitsui Financial Group, Inc.",
+   "use": "Healthcare fintech initiative deploying AI to generate clinical documentation, support nursing administration, and automate DPC coding for medical fee claims across hospitals; broader ambition to serve ~60 million users and 4,000 medical institutions. [Fujitsu; IBM Japan]",
+   "existence": "claimed",
+   "value": "target ~60 million users, 4,000 medical institutions",
+   "tier": "",
+   "url": "https://fintechmagazine.com/news/smbc-drives-fintech-led-transformation-of-japans-healthcare",
+   "raw_sector": "",
+   "date": "2026-05",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Sumitomo Mitsui Financial Group, Inc.",
+   "use": "SMBC-GAI applied to call center / contact center support, helping agents keep records of customer conversations and access information, with human-AI division of labor. [Microsoft Azure OpenAI Service]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.smfg.co.jp/english/dx_link/article/0117.html",
+   "raw_sector": "",
+   "date": "2024-05",
+   "fresh": "aging"
+  },
+  {
+   "company": "Sumitomo Mitsui Financial Group, Inc.",
+   "use": "AVACOM AI-powered digital customer-service avatars trialed in the corporate customer contact center, letting customers interact with human-like avatars for product/service explanations by phone. [AVITA (AVACOM)]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.cxtoday.com/contact-center/japanese-bank-smbc-trialing-customer-service-digital-avatars-in-contact-centers/",
+   "raw_sector": "",
+   "date": "2024-07",
+   "fresh": "aging"
+  },
+  {
+   "company": "Sumitomo Mitsui Financial Group, Inc.",
    "use": "Multi-agent \"proposal document auto-generation\" app for wholesale business (with Sakana AI)",
    "existence": "confirmed",
    "value": "none quantified",
@@ -65,6 +175,17 @@
    "raw_sector": "Banking",
    "date": "missing",
    "fresh": "undated"
+  },
+  {
+   "company": "Sumitomo Mitsui Financial Group, Inc.",
+   "use": "Sales Promotion AI Application: AI app for wholesale-banking lead identification and sales promotion, released as the front end of an end-to-end wholesale workflow paired with the Proposal Generation AI. [Sakana AI]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.fintechobserver.com/smbc-group-and-sakana-ai-launch-automated-strategic-proposal-system-to-scale-wholesale-banking-advisory/",
+   "raw_sector": "",
+   "date": "2026-04",
+   "fresh": "fresh"
   }
  ]
 }

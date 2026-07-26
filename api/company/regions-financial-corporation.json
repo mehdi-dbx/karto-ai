@@ -3,43 +3,65 @@
  "name": "Regions Financial Corporation",
  "cc": "US",
  "vertical": "Financial Services",
- "deployments": 1,
- "confirmed": 1,
+ "deployments": 3,
+ "confirmed": 3,
  "with_value_number": 0,
  "proof_rate": 0.0,
  "mktcap": 26000000000.0,
  "revenue": 7240000000.0,
  "employees": 19969.0,
  "silent": false,
- "per_bn_revenue": 0.14,
- "per_10k_emp": 0.5,
+ "per_bn_revenue": 0.41,
+ "per_10k_emp": 1.5,
  "benchmarks": {
   "global_vertical": {
-   "deployments": 0,
-   "confirmed": 17,
+   "deployments": 13,
+   "confirmed": 27,
    "proof_rate": 0,
-   "n": 377
+   "n": 388
   },
   "country_vertical": {
-   "deployments": 0,
-   "confirmed": 19,
+   "deployments": 4,
+   "confirmed": 21,
    "proof_rate": 0,
-   "n": 76
+   "n": 77
   }
  },
- "first_seen": null,
- "by_year": [],
- "undated_pct": 100,
- "momentum": "none",
- "maturity": "L3",
+ "first_seen": 2024,
+ "by_year": [
+  {
+   "year": 2024,
+   "n": 1
+  },
+  {
+   "year": 2025,
+   "n": 1
+  }
+ ],
+ "undated_pct": 33,
+ "momentum": "early_mover,flat",
+ "maturity": "L4",
  "maturity_evidence": [
+  "multi_horizontal",
   "named_product:COO",
+  "multi_year",
   "tier_p"
  ],
- "prospect_score": 54,
+ "prospect_score": 66,
  "stack": [],
  "vendor_named": false,
  "deployments_detail": [
+  {
+   "company": "Regions Financial Corporation",
+   "use": "Embedded ERP Finance platform (Regions Embedded ERP Finance powered by Koxa) for business clients [Koxa]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://ir.regions.com/news-events/press-releases/news-details/2025/Leading-through-Innovation-Regions-Bank-Earns-2025-Datos-Impact-Gold-Award-for-Best-Innovation-in-Product-Development/default.aspx",
+   "raw_sector": "",
+   "date": "2025-10-22",
+   "fresh": "fresh"
+  },
   {
    "company": "Regions Financial Corporation",
    "use": "AI systems flagging suspicious activity + guiding customer-service reps (COO Amala Duggirala)",
@@ -50,6 +72,17 @@
    "raw_sector": "Financials",
    "date": "missing",
    "fresh": "undated"
+  },
+  {
+   "company": "Regions Financial Corporation",
+   "use": "AI for recruitment - mining historical recruiting data, streamlining candidate communication, and making smarter hiring decisions",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.phenom.com/blog/future-financial-recruitment-regions-bank-ai-hiring",
+   "raw_sector": "",
+   "date": "2024-11-11",
+   "fresh": "aging"
   }
  ]
 }

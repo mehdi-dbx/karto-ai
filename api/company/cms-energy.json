@@ -3,27 +3,27 @@
  "name": "CMS Energy",
  "cc": "US",
  "vertical": "Energy & Utilities",
- "deployments": 1,
- "confirmed": 1,
- "with_value_number": 1,
+ "deployments": 2,
+ "confirmed": 2,
+ "with_value_number": 2,
  "proof_rate": 1.0,
  "mktcap": 22880000000.0,
  "revenue": 8820000000.0,
  "employees": 8350.0,
  "silent": false,
- "per_bn_revenue": 0.11,
- "per_10k_emp": 1.2,
+ "per_bn_revenue": 0.23,
+ "per_10k_emp": 2.4,
  "benchmarks": {
   "global_vertical": {
-   "deployments": 0,
-   "confirmed": 20,
-   "proof_rate": 75,
-   "n": 210
+   "deployments": 10,
+   "confirmed": 30,
+   "proof_rate": 95,
+   "n": 213
   },
   "country_vertical": {
-   "deployments": 0,
-   "confirmed": 39,
-   "proof_rate": 92,
+   "deployments": 10,
+   "confirmed": 37,
+   "proof_rate": 100,
    "n": 52
   }
  },
@@ -31,17 +31,18 @@
  "by_year": [
   {
    "year": 2024,
-   "n": 1
+   "n": 2
   }
  ],
  "undated_pct": 0,
  "momentum": "early_mover,gone_quiet",
  "maturity": "L3",
  "maturity_evidence": [
+  "multi_horizontal",
   "named_product:DOE",
   "value_number"
  ],
- "prospect_score": 14,
+ "prospect_score": 20,
  "stack": [],
  "vendor_named": false,
  "deployments_detail": [
@@ -54,6 +55,17 @@
    "url": "https://www.cmsenergy.com/investor-relations/news-releases/news-release-details/2024/Consumers-Energy-Selected-by-U.S.-Department-of-Energy-for-Nearly-20-Million-to-Add-Real-Time-Visibility-to-Grid/default.aspx",
    "raw_sector": "Utilities",
    "date": "2024",
+   "fresh": "aging"
+  },
+  {
+   "company": "CMS Energy",
+   "use": "AI-powered modules for real-time grid visibility and electric meter monitoring",
+   "existence": "confirmed",
+   "value": "$40 million",
+   "tier": "",
+   "url": "https://www.cmsenergy.com/investor-relations/news-releases/news-release-details/2024/Consumers-Energy-Selected-by-U.S.-Department-of-Energy-for-Nearly-20-Million-to-Add-Real-Time-Visibility-to-Grid/default.aspx",
+   "raw_sector": "",
+   "date": "2024-10-18",
    "fresh": "aging"
   }
  ]

@@ -3,22 +3,22 @@
  "name": "Jyske Bank",
  "cc": "DK",
  "vertical": "Financial Services",
- "deployments": 1,
- "confirmed": 1,
- "with_value_number": 0,
- "proof_rate": 0.0,
+ "deployments": 4,
+ "confirmed": 4,
+ "with_value_number": 1,
+ "proof_rate": 0.25,
  "mktcap": 8428985507.0,
  "revenue": 2053623188.0,
  "employees": 3845.0,
  "silent": false,
- "per_bn_revenue": 0.49,
- "per_10k_emp": 2.6,
+ "per_bn_revenue": 1.95,
+ "per_10k_emp": 10.4,
  "benchmarks": {
   "global_vertical": {
-   "deployments": 0,
-   "confirmed": 17,
-   "proof_rate": 0,
-   "n": 377
+   "deployments": 24,
+   "confirmed": 39,
+   "proof_rate": 47,
+   "n": 388
   }
  },
  "first_seen": 2026,
@@ -28,13 +28,15 @@
    "n": 1
   }
  ],
- "undated_pct": 0,
+ "undated_pct": 75,
  "momentum": "late_entrant,rising",
- "maturity": "L2",
+ "maturity": "L3",
  "maturity_evidence": [
+  "named_product:Organization",
+  "value_number",
   "tier_p"
  ],
- "prospect_score": 54,
+ "prospect_score": 62,
  "stack": [],
  "vendor_named": false,
  "deployments_detail": [
@@ -48,6 +50,39 @@
    "raw_sector": "Banks",
    "date": "2026",
    "fresh": "fresh"
+  },
+  {
+   "company": "Jyske Bank",
+   "use": "AI solutions for employee productivity and daily work processes",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://jyskebank.com/investorrelations/financialstatements/financialstatementdetails/0199d12c-2504-4d8e-9d7a-9dd253f9d2cb",
+   "raw_sector": "",
+   "date": "Aug 19, 2025",
+   "fresh": "undated"
+  },
+  {
+   "company": "Jyske Bank",
+   "use": "Organization-wide AI solutions rollout",
+   "existence": "confirmed",
+   "value": "1500-2000",
+   "tier": "",
+   "url": "https://trifork.com/?cases=building-an-ai-ready-foundation-at-jyske-bank",
+   "raw_sector": "",
+   "date": "May 2025",
+   "fresh": "undated"
+  },
+  {
+   "company": "Jyske Bank",
+   "use": "Generative AI integration across organization for employee productivity [Halfspace]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://halfspace.ai/cases/jyske",
+   "raw_sector": "",
+   "date": "missing",
+   "fresh": "undated"
   }
  ]
 }

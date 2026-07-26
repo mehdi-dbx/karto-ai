@@ -3,47 +3,55 @@
  "name": "Anglo American",
  "cc": "ZA",
  "vertical": "Mining & Materials",
- "deployments": 1,
- "confirmed": 1,
+ "deployments": 4,
+ "confirmed": 4,
  "with_value_number": 0,
  "proof_rate": 0.0,
  "mktcap": 48396800000.0,
  "revenue": 13780000000.0,
  "employees": 26400.0,
  "silent": false,
- "per_bn_revenue": 0.07,
- "per_10k_emp": 0.38,
+ "per_bn_revenue": 0.29,
+ "per_10k_emp": 1.52,
  "benchmarks": {
   "global_vertical": {
-   "deployments": 0,
-   "confirmed": 37,
+   "deployments": 39,
+   "confirmed": 56,
    "proof_rate": 0,
-   "n": 61
+   "n": 62
   },
   "country_vertical": {
-   "deployments": 0,
-   "confirmed": 43,
+   "deployments": 71,
+   "confirmed": 71,
    "proof_rate": 0,
    "n": 8
   }
  },
- "first_seen": 2026,
+ "first_seen": 2024,
  "by_year": [
   {
-   "year": 2026,
+   "year": 2024,
    "n": 1
+  },
+  {
+   "year": 2026,
+   "n": 2
   }
  ],
- "undated_pct": 0,
- "momentum": "late_entrant,rising",
- "maturity": "L3",
+ "undated_pct": 25,
+ "momentum": "early_mover,rising",
+ "maturity": "L4",
  "maturity_evidence": [
+  "multi_horizontal",
   "named_product:FutureSmart",
+  "multi_year",
   "tier_p"
  ],
- "prospect_score": 54,
- "stack": [],
- "vendor_named": false,
+ "prospect_score": 64,
+ "stack": [
+  "Microsoft"
+ ],
+ "vendor_named": true,
  "deployments_detail": [
   {
    "company": "Anglo American",
@@ -58,6 +66,127 @@
   },
   {
    "company": "Anglo American",
+   "use": "Fully autonomous drone-in-a-box system (DJI Dock 2 / Matrice 3D) with AI-driven mission orchestration for automated infrastructure inspection and volumetric/3D mapping at the Quellaveco copper mine in Peru; first Peruvian mining project to adopt automated drone operations. [FlytBase; UAV Latam; Pix4D]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://flytbase.com/blog/anglo-american-deploys-drone-in-a-box-solution-at-quellaveco",
+   "raw_sector": "",
+   "date": "2025-05",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Anglo American",
+   "use": "Advanced analytics automation with Alteryx: automated fuel-usage tracking at Quellaveco, $1bn+ rough diamond inventory ETL at De Beers, and audit/business-assurance analytics; 13 analysts trained on the low-code platform. [Alteryx]",
+   "existence": "confirmed",
+   "value": "97% improvement in fuel tracking time (2 days to 30 min); diamond month-end balancing cut from ~1 week to 2 days; thousands of manual hours saved",
+   "tier": "",
+   "url": "https://www.alteryx.com/resources/customer-story/anglo-american-case-study",
+   "raw_sector": "",
+   "date": "2023",
+   "fresh": "stale"
+  },
+  {
+   "company": "Anglo American",
+   "use": "Bulk ore sorting (BOS): sensor + AI mineral classification system that identifies copper grade in real time and rejects sterile material before processing, deployed at the El Soldado copper mine in Chile. Scaled from an initial 900 t/h to 8,000 t/h throughput. [Anglo American (in-house, FutureSmart Mining)]",
+   "existence": "confirmed",
+   "value": "Throughput scaled from 900 t/h to 8,000 t/h; enables flotation at 350 microns vs 150 previously",
+   "tier": "",
+   "url": "https://www.bnamericas.com/en/news/how-anglo-americans-using-technology-to-shape-the-future-of-mining",
+   "raw_sector": "",
+   "date": "2022-11",
+   "fresh": "stale"
+  },
+  {
+   "company": "Anglo American",
+   "use": "Coarse particle recovery (CPR) plus bulk ore sorting AI-optimised processing at Quellaveco, using AI to reduce energy and water intensity while recovering more metal from ore. [Anglo American (FutureSmart Mining); Microsoft (cloud)]",
+   "existence": "confirmed",
+   "value": "30% improvement in energy efficiency and 50% reduction in fresh water abstraction",
+   "tier": "",
+   "url": "https://aiexpert.network/ai-at-anglo-american/",
+   "raw_sector": "",
+   "date": "2024-10",
+   "fresh": "aging"
+  },
+  {
+   "company": "Anglo American",
+   "use": "Scientific-AI stockpile and inventory optimisation application for strategic ore reclaim and reducing feed variability, using a 3D block model of stockpiles at the Minas-Rio iron ore operation in Brazil. Won the 2024 Mining-Metallurgical Industry Excellence Award. [IntelliSense.io]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.intellisense.io/awards-and-recognitions/",
+   "raw_sector": "",
+   "date": "2024",
+   "fresh": "aging"
+  },
+  {
+   "company": "Anglo American",
+   "use": "Autonomous haulage: fleet of 32 Cat 794 autonomous mining trucks running Caterpillar MineStar Command for hauling at the Quellaveco copper mine in Peru, with high utilisation and physical availability. [Caterpillar (MineStar Command); Ferreyros (support)]",
+   "existence": "confirmed",
+   "value": "32 autonomous trucks; 'exceptional' utilisation and availability",
+   "tier": "",
+   "url": "https://im-mining.com/2025/09/18/ferreyros-hails-successful-results-with-autonomous-cat-fleet-at-quellaveco/",
+   "raw_sector": "",
+   "date": "2025-09",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Anglo American",
+   "use": "Autonomous Haulage System (FrontRunner AHS) planned for deployment across 62 Komatsu 930E ultra-class haul trucks at the Los Bronces copper mine in Chile, integrated with Modular Mining DISPATCH fleet management. [Komatsu (FrontRunner AHS); Modular Mining (DISPATCH)]",
+   "existence": "claimed",
+   "value": "62 haul trucks targeted by 2024",
+   "tier": "",
+   "url": "https://www.komatsu.com/en-us/newsroom/2022/komatsu-to-deploy-autonomous-haulage-system-at-los-bronces-copper-mine",
+   "raw_sector": "",
+   "date": "2022",
+   "fresh": "stale"
+  },
+  {
+   "company": "Anglo American",
+   "use": "Teleremote bulldozers: Komatsu D375Ai-8 dozers with automatic blade control and Modular Mining ProVision machine guidance, operated remotely at the Minas-Rio iron ore mine in Brazil; reached commercial operation with plans to expand to six D475A-8R dozers. [Komatsu; Modular Mining (ProVision)]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.heavyequipmentguide.ca/article/40423/remote-operated-dozers-go-to-work-at-mine-site",
+   "raw_sector": "",
+   "date": "2023-06",
+   "fresh": "stale"
+  },
+  {
+   "company": "Anglo American",
+   "use": "VOXEL (Vision of Operational Excellence) proprietary digital platform with an integrated data lake and AI for resource modelling, asset maintenance, mine planning, safety/health pattern detection and processing optimisation; underpins the Integrated Remote Operations Centre (IROC) at Los Bronces. [Anglo American (proprietary IP); Microsoft (cloud infrastructure)]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://im-mining.com/2021/05/11/anglo-americans-technology-based-new-trajectory-mining/",
+   "raw_sector": "",
+   "date": "2021-05",
+   "fresh": "stale"
+  },
+  {
+   "company": "Anglo American",
+   "use": "AI-powered process digital twins of the Quellaveco processing plant (grinding, flotation, tailings, water and electrical systems) built on Siemens COMOS with Simatic PCS-7, used for simulation, optimisation and failure reduction, controlled from the Integrated Operations Center; Peru's first 100% digital mine. [Siemens (COMOS, Simatic PCS-7)]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://im-mining.com/2022/12/12/anglo-american-utilising-latest-digital-twin-technology-at-quellaveco/",
+   "raw_sector": "",
+   "date": "2022-12",
+   "fresh": "stale"
+  },
+  {
+   "company": "Anglo American",
+   "use": "Digital twin plus AI applied at an Australian metallurgical coal operation to identify a production bottleneck and boost mine productivity (more tonnes). [Anglo American]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.miningmagazine.com/technology/news-analysis/4408949/ai-helped-anglo-tonnes",
+   "raw_sector": "",
+   "date": "2025-02",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Anglo American",
    "use": "FutureSmart Mining AI-driven transformation and AI Centre of Excellence for orebody characterisation, geometallurgical modelling, predictive maintenance on haul fleets",
    "existence": "confirmed",
    "value": "none",
@@ -66,6 +195,50 @@
    "raw_sector": "Mining",
    "date": "2026-03",
    "fresh": "fresh"
+  },
+  {
+   "company": "Anglo American",
+   "use": "AI Centre of Excellence for safe and responsible AI adoption",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://im-mining.com/2026/03/09/anglos-new-ai-centre-of-excellence-to-drive-safe-responsible-ai-adoption/",
+   "raw_sector": "",
+   "date": "2026-03-09",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Anglo American",
+   "use": "FutureSmart Mining™ - AI integration for ore sorting, particle recovery, and safety monitoring [Microsoft]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://aiexpert.network/ai-at-anglo-american/",
+   "raw_sector": "",
+   "date": "2024-10-25",
+   "fresh": "aging"
+  },
+  {
+   "company": "Anglo American",
+   "use": "AI Centre of Excellence established to govern safe and responsible AI adoption across the group, covering AI governance, risk management and learning programmes, plus an emerging-technology team prioritising mining-specific generative AI use cases. [Anglo American (in-house)]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://im-mining.com/2026/03/09/anglos-new-ai-centre-of-excellence-to-drive-safe-responsible-ai-adoption/",
+   "raw_sector": "",
+   "date": "2026-03",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Anglo American",
+   "use": "Advanced analytics function with data cleansing and matching automation [Alteryx]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.alteryx.com/resources/customer-story/anglo-american-case-study",
+   "raw_sector": "",
+   "date": "missing",
+   "fresh": "undated"
   }
  ]
 }

@@ -3,10 +3,10 @@
  "name": "Wafa Assurance",
  "cc": "MA",
  "vertical": "Financial Services",
- "deployments": 1,
- "confirmed": 1,
- "with_value_number": 0,
- "proof_rate": 0.0,
+ "deployments": 9,
+ "confirmed": 6,
+ "with_value_number": 2,
+ "proof_rate": 0.222,
  "mktcap": 1802000000.0,
  "revenue": null,
  "employees": null,
@@ -15,15 +15,15 @@
  "per_10k_emp": null,
  "benchmarks": {
   "global_vertical": {
-   "deployments": 0,
-   "confirmed": 17,
-   "proof_rate": 0,
-   "n": 377
+   "deployments": 58,
+   "confirmed": 55,
+   "proof_rate": 44,
+   "n": 388
   },
   "country_vertical": {
-   "deployments": 0,
-   "confirmed": 60,
-   "proof_rate": 0,
+   "deployments": 60,
+   "confirmed": 80,
+   "proof_rate": 90,
    "n": 11
   }
  },
@@ -31,13 +31,15 @@
  "by_year": [],
  "undated_pct": 100,
  "momentum": "none",
- "maturity": "L2",
+ "maturity": "L3",
  "maturity_evidence": [
-  "single_confirmed"
+  "multi_horizontal",
+  "named_product:Automated",
+  "value_number"
  ],
- "prospect_score": 54,
+ "prospect_score": 67,
  "stack": [],
- "vendor_named": false,
+ "vendor_named": true,
  "deployments_detail": [
   {
    "company": "Wafa Assurance",
@@ -47,6 +49,94 @@
    "tier": "I",
    "url": "https://www.cash-platform.com/wafa-assurance-leading-the-charge-in-ethical-ai-adoption-within-the-insurance-sector/",
    "raw_sector": "Financials / Assurances",
+   "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "Wafa Assurance",
+   "use": "Digital Factory: dedicated in-house digital/data unit (~40 people) staffing data scientists and 'artificial intelligence specialists' alongside developers and architects to build AI/data products for the insurer's transformation. [Dovteam (consulting partner)]",
+   "existence": "confirmed",
+   "value": "~40 specialists",
+   "tier": "",
+   "url": "https://www.atlas-mag.net/en/articles/wafa-assurance-creation-digital-factory-0",
+   "raw_sector": "",
+   "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "Wafa Assurance",
+   "use": "Digital health-claims automation in My Wafa Sante: online claim declaration and reimbursement with AMO/RAMED coverage automatically factored in, plus digital deposit and real-time tracking of medical-expense files. [not disclosed]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.facebook.com/Wafa.Assurance/posts/digital-simple-et-efficace-lassurance-sant%C3%A9-%C3%A9volue-avec-wafa-assurance-gr%C3%A2ce-%C3%A0-m/1294673912704118/",
+   "raw_sector": "",
+   "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "Wafa Assurance",
+   "use": "Data Office structuring engagement: external partner (Seven) engaged to help structure Wafa Assurance's Data Office, the governance/foundation function underpinning its data & AI initiatives. [Seven (Digital & Data partner)]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://seven-app.org/index.php/category/uncategorized/",
+   "raw_sector": "",
+   "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "Wafa Assurance",
+   "use": "Automated vehicle-damage analysis: AI/computer-vision assesses accident damage from customer-submitted photos and the digital e-constat (e-report) to produce an immediate estimate and settle the auto-claim file without a physical visit. Marketed as an active service in the auto-claims journey. [not disclosed]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.facebook.com/leconomistemaroc/videos/expertise-%C3%A0-distance-wafa-assurance-r%C3%A9sout-votre-sinistre-sans-se-d%C3%A9placer-/1044171077168996/",
+   "raw_sector": "",
+   "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "Wafa Assurance",
+   "use": "Remote expertise (expertise a distance): auto-claim damage assessed remotely via the mobile app / photo-video rather than an in-person expert visit, part of a '100% digitalized' interconnected claims journey (mobile app, home repair, advance on repair). [not disclosed]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.leconomiste.com/video/wafa-assurance-integre-le-digital-pour-reinventer-le-parcours-client-i-face-l-expert/",
+   "raw_sector": "",
+   "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "Wafa Assurance",
+   "use": "AI integrated into the 'Wafa Oto Sarii' auto-insurance customer journey to enable fast claim indemnification (company explicitly markets 'l'IA integree a votre parcours Wafa Oto Sarii' for rapid indemnisation). [not disclosed]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.facebook.com/Wafa.Assurance/posts/wafa-assurance-innove-pour-vous-avec-lia-int%C3%A9gr%C3%A9e-%C3%A0-votre-parcours-wafa-oto-sari/1060893046082207/",
+   "raw_sector": "",
+   "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "Wafa Assurance",
+   "use": "Data & AI roadmap and portfolio of internal AI use-cases: at an Oct 17, 2025 AI Day for 110+ managers/top management, Wafa Assurance presented its 'roadmap Data & IA' and 20 employee-built AI use-cases (4 singled out) applied to insurance. Indicates a portfolio of AI use-cases under development. [advisors: Artefact, Onepoint, AI Movement (per company LinkedIn)]",
+   "existence": "claimed",
+   "value": "20 AI use-cases presented (4 distinguished); 110+ managers",
+   "tier": "",
+   "url": "https://www.wafaassurance.ma/sites/default/files/2026-04/rapport_du_ca_a_lago_sur_2025.pdf",
+   "raw_sector": "",
+   "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "Wafa Assurance",
+   "use": "Connected-driving telematics in the MyWafa mobile app: analyzes driving data to alert motorists when they exceed speed limits and provides geolocated assistance on accident/breakdown ('conduite connectee'). [not disclosed]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.atlas-mag.net/fr/articles/wafa-assurance-lance-une-nouvelle-application-mobile",
+   "raw_sector": "",
    "date": "missing",
    "fresh": "undated"
   }

@@ -3,42 +3,65 @@
  "name": "Yapı Kredi",
  "cc": "TR",
  "vertical": "Financial Services",
- "deployments": 2,
- "confirmed": 0,
- "with_value_number": 0,
- "proof_rate": 0.0,
+ "deployments": 6,
+ "confirmed": 4,
+ "with_value_number": 1,
+ "proof_rate": 0.167,
  "mktcap": 8748125000.0,
  "revenue": 6564375000.0,
  "employees": 15656.0,
  "silent": false,
- "per_bn_revenue": 0.3,
- "per_10k_emp": 1.28,
+ "per_bn_revenue": 0.91,
+ "per_10k_emp": 3.83,
  "benchmarks": {
   "global_vertical": {
-   "deployments": 62,
-   "confirmed": 0,
-   "proof_rate": 0,
-   "n": 377
+   "deployments": 44,
+   "confirmed": 39,
+   "proof_rate": 35,
+   "n": 388
   },
   "country_vertical": {
-   "deployments": 25,
-   "confirmed": 0,
-   "proof_rate": 0,
+   "deployments": 75,
+   "confirmed": 25,
+   "proof_rate": 25,
    "n": 5
   }
  },
- "first_seen": null,
- "by_year": [],
- "undated_pct": 100,
- "momentum": "none",
- "maturity": "L1",
- "maturity_evidence": [
-  "rows_no_confirmed"
+ "first_seen": 2025,
+ "by_year": [
+  {
+   "year": 2025,
+   "n": 2
+  },
+  {
+   "year": 2026,
+   "n": 1
+  }
  ],
- "prospect_score": 40,
+ "undated_pct": 50,
+ "momentum": "rising",
+ "maturity": "L4",
+ "maturity_evidence": [
+  "multi_horizontal",
+  "named_product:Interaction",
+  "value_number",
+  "multi_year"
+ ],
+ "prospect_score": 65,
  "stack": [],
  "vendor_named": false,
  "deployments_detail": [
+  {
+   "company": "Yapı Kredi",
+   "use": "AI-powered automatic customer complaint classification and real-time complaint management",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.sestek.com/how-yapi-kredi-classifies-customer-requests-in-under-1-second",
+   "raw_sector": "",
+   "date": "missing",
+   "fresh": "undated"
+  },
   {
    "company": "Yapı Kredi",
    "use": "AI/ML-driven personalized banking delivering customized pricing and need-specific product offers",
@@ -60,6 +83,39 @@
    "raw_sector": "Banks",
    "date": "missing",
    "fresh": "undated"
+  },
+  {
+   "company": "Yapı Kredi",
+   "use": "AI-enabled Interaction Analytics for sales intelligence from customer conversations [NiCE]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.businesswire.com/news/home/20260430856947/en/Yapi-Kredi-Transforms-Customer-Conversations-into-Revenue-Opportunities-with-NiCE-AI-Enabled-Interaction-Analytics",
+   "raw_sector": "",
+   "date": "2026-04-30",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Yapı Kredi",
+   "use": "RPA and AI automation across multiple processes with unattended robots",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://qa-financial.com/running-with-robots-turkeys-yapi-kredi-bank-blends-qa-ai-and-rpa/",
+   "raw_sector": "",
+   "date": "2025-12-17",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Yapı Kredi",
+   "use": "AI-based fraud detection and management [FICO Falcon Fraud Manager]",
+   "existence": "confirmed",
+   "value": "98%",
+   "tier": "",
+   "url": "https://www.fico.com/en/newsroom/yapi-kredi-cuts-fraud-98-seven-years-using-fico-ai-technology",
+   "raw_sector": "",
+   "date": "2025-01-30",
+   "fresh": "fresh"
   }
  ]
 }

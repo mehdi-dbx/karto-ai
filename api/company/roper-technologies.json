@@ -3,42 +3,71 @@
  "name": "Roper Technologies",
  "cc": "US",
  "vertical": "Technology",
- "deployments": 1,
- "confirmed": 0,
- "with_value_number": 0,
- "proof_rate": 0.0,
+ "deployments": 12,
+ "confirmed": 10,
+ "with_value_number": 2,
+ "proof_rate": 0.167,
  "mktcap": 36090000000.0,
  "revenue": 8280000000.0,
  "employees": 19400.0,
  "silent": false,
- "per_bn_revenue": 0.12,
- "per_10k_emp": 0.52,
+ "per_bn_revenue": 1.45,
+ "per_10k_emp": 6.19,
  "benchmarks": {
   "global_vertical": {
-   "deployments": 0,
-   "confirmed": 0,
-   "proof_rate": 0,
-   "n": 156
+   "deployments": 75,
+   "confirmed": 76,
+   "proof_rate": 45,
+   "n": 159
   },
   "country_vertical": {
-   "deployments": 0,
-   "confirmed": 0,
-   "proof_rate": 0,
+   "deployments": 73,
+   "confirmed": 73,
+   "proof_rate": 53,
    "n": 74
   }
  },
- "first_seen": null,
- "by_year": [],
- "undated_pct": 100,
- "momentum": "none",
- "maturity": "L1",
- "maturity_evidence": [
-  "rows_no_confirmed"
+ "first_seen": 2024,
+ "by_year": [
+  {
+   "year": 2024,
+   "n": 3
+  },
+  {
+   "year": 2025,
+   "n": 5
+  },
+  {
+   "year": 2026,
+   "n": 3
+  }
  ],
- "prospect_score": 40,
- "stack": [],
- "vendor_named": false,
+ "undated_pct": 8,
+ "momentum": "early_mover,rising",
+ "maturity": "L4",
+ "maturity_evidence": [
+  "multi_horizontal",
+  "named_product:Deltek",
+  "value_number",
+  "multi_year"
+ ],
+ "prospect_score": 93,
+ "stack": [
+  "Snowflake"
+ ],
+ "vendor_named": true,
  "deployments_detail": [
+  {
+   "company": "Roper Technologies",
+   "use": "Clinisys CLS CARE - embedded conversational generative-AI support agent within the Clinisys Laboratory Solution (v2025.2). Provides context-aware assistance for issue resolution, feature learning, and workflow optimization; supports 4 languages and generates API code samples (.NET, Java, Python) for integrations. [Clinisys]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://clpmag.com/lab-essentials/information-technology/middleware-software/clinisys-releases-laboratory-solution-update-ai-powered-support-agent/",
+   "raw_sector": "",
+   "date": "2025-11-06",
+   "fresh": "fresh"
+  },
   {
    "company": "Roper Technologies",
    "use": "AI embedded across vertical-software portfolio (legal/logistics/healthcare); appointed AI leadership exec",
@@ -49,6 +78,116 @@
    "raw_sector": "Information Technology",
    "date": "missing",
    "fresh": "undated"
+  },
+  {
+   "company": "Roper Technologies",
+   "use": "Deltek Dela - GenAI-powered 'business companion' embedded across Deltek's project-based ERP suite (Vantagepoint, Costpoint, GovWin IQ). Offers Smart Content (GenAI summaries), predictive functions (resource/risk forecasting), and the 'Ask Dela' natural-language digital assistant that answers questions about projects/contracts and drafts emails. [Deltek (GenAI, vendor not disclosed)]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.prnewswire.com/news-releases/deltek-launches-ai-powered-business-companion-deltek-dela-to-revolutionize-project-based-businesses-302116389.html",
+   "raw_sector": "",
+   "date": "2024-04-16",
+   "fresh": "aging"
+  },
+  {
+   "company": "Roper Technologies",
+   "use": "Aderant MADDI - AI-powered 'virtual associate' for law firms, pre-trained on Aderant's business-of-law knowledge base. Automates outside-counsel-guideline (OCG) compliance, generates predictive timekeeping narratives, and auto-matches cash receipts to invoices. Deployed powering Aderant Onyx, iTimekeep, and Expert Accounts Receivable. [Aderant (multiple LLMs, proprietary)]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.aderant.com/news-pr/aderant-transforming-legal-tech-with-introduction-of-maddi/",
+   "raw_sector": "",
+   "date": "2024-04-04",
+   "fresh": "aging"
+  },
+  {
+   "company": "Roper Technologies",
+   "use": "Aderant AI Agent Center - agentic law-firm-operations AI built on the Stridyn platform that orchestrates multi-agent workflows across the work-to-cash lifecycle and talent management. [Aderant (Stridyn platform)]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.aderant.com/news-pr/aderant-introduces-agentic-law-firm-operations-ai-agent-center/",
+   "raw_sector": "",
+   "date": "2026-05-11",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Roper Technologies",
+   "use": "Vertafore insurance-software AI features - AMS360 Client Communications uses AI to target the right client message; BenefitPoint document intelligence automates SBC data entry. Part of an AI portfolio spanning AMS360, RiskMatch, BenefitPoint, Surefyre, and Sircon for the independent insurance channel. [Vertafore]",
+   "existence": "confirmed",
+   "value": "BenefitPoint document intelligence saves up to 45 minutes per plan",
+   "tier": "",
+   "url": "https://www.vertafore.com/resources/blog/insurance-and-ai-2025-powering-smarter-work-and-growth",
+   "raw_sector": "",
+   "date": "2025-09-12",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Roper Technologies",
+   "use": "DAT iQ - AI/ML-powered freight rate analytics platform providing spot and contract pricing across virtually every North American trucking lane. AI-powered rate models continuously learn and infer rates where data is sparse; trained on $150B in annual market transactions. [DAT Freight & Analytics]",
+   "existence": "confirmed",
+   "value": "Models trained on $150 billion in annual freight market transactions",
+   "tier": "",
+   "url": "https://www.dat.com/company/news-events/news-releases/dat-to-preview-new-ai-powered-dat-iq-platform-at-manifest-vegas-2024",
+   "raw_sector": "",
+   "date": "2024-02-06",
+   "fresh": "aging"
+  },
+  {
+   "company": "Roper Technologies",
+   "use": "ConstructConnect On-Screen Takeoff with Takeoff Boost / Auto Takeoff - proprietary AI that automatically detects and measures areas, linears, and counts on construction plan sets, automating material takeoff/estimating (focus on drywall/interior estimating). [ConstructConnect (proprietary AI)]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.constructconnect.com/blog/ai-assisted_takeoff_solutions",
+   "raw_sector": "",
+   "date": "2025-05-21",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Roper Technologies",
+   "use": "Strata Decision Technology healthcare-finance analytics on Snowflake - applying AI/ML and LLM processing on Snowflake's AI Data Cloud to normalize/standardize integrated financial, operational, clinical, and claims data for health-system analytics. [Snowflake (AI Data Cloud); Strata StrataJazz/Axiom]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.stratadecision.com/press-release/strata-decision-technology-and-snowflake-transform-healthcare-financial-analytics",
+   "raw_sector": "",
+   "date": "2025-03-03",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Roper Technologies",
+   "use": "Strata Decision Technology AI-driven predictive analytics - solution using continuously-updated, data-driven predictions to help health systems forecast and identify financial risk in healthcare finance. [Strata Decision Technology]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.stratadecision.com/press-release/strata-decision-technology-unveils-ai-driven-predictive-analytics-healthcare-finance",
+   "raw_sector": "",
+   "date": "2026-03-31",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Roper Technologies",
+   "use": "Vertafore carrier-statement reconciliation & Outlook workflow AI - new AI innovations that accelerate carrier statement reconciliation and turn Outlook activity into structured agency workflows. [Vertafore]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.prnewswire.com/news-releases/vertafores-latest-ai-innovations-help-agencies-accelerate-carrier-statement-reconciliation-and-turn-outlook-activity-into-structured-workflows-302813535.html",
+   "raw_sector": "",
+   "date": "2026-06-30",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Roper Technologies",
+   "use": "PowerPlan NXT - cloud-based AI-powered tax and accounting SaaS platform for asset-intensive energy/utility businesses; applies AI to fixed-asset accounting, FERC compliance, and cost allocation ('Asset Accelerator' closes field-to-finance data gaps). [PowerPlan]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.utilitydive.com/spons/powerplan-announces-nxt-30-years-of-industry-expertise-now-powered-by-ai/743399/",
+   "raw_sector": "",
+   "date": "2025-03-31",
+   "fresh": "fresh"
   }
  ]
 }

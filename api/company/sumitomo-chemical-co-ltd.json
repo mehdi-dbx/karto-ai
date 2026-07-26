@@ -3,27 +3,27 @@
  "name": "Sumitomo Chemical Co., Ltd.",
  "cc": "JP",
  "vertical": "Chemicals & Materials",
- "deployments": 1,
- "confirmed": 1,
+ "deployments": 4,
+ "confirmed": 3,
  "with_value_number": 1,
- "proof_rate": 1.0,
+ "proof_rate": 0.25,
  "mktcap": 6086000000.0,
  "revenue": 15533333333.0,
  "employees": 27491.0,
  "silent": false,
- "per_bn_revenue": 0.06,
- "per_10k_emp": 0.36,
+ "per_bn_revenue": 0.26,
+ "per_10k_emp": 1.46,
  "benchmarks": {
   "global_vertical": {
-   "deployments": 0,
-   "confirmed": 19,
-   "proof_rate": 75,
-   "n": 105
+   "deployments": 29,
+   "confirmed": 42,
+   "proof_rate": 58,
+   "n": 107
   },
   "country_vertical": {
-   "deployments": 0,
-   "confirmed": 15,
-   "proof_rate": 59,
+   "deployments": 38,
+   "confirmed": 47,
+   "proof_rate": 47,
    "n": 35
   }
  },
@@ -31,20 +31,27 @@
  "by_year": [
   {
    "year": 2023,
-   "n": 1
+   "n": 2
+  },
+  {
+   "year": 2025,
+   "n": 2
   }
  ],
  "undated_pct": 0,
- "momentum": "early_mover,gone_quiet",
- "maturity": "L3",
+ "momentum": "early_mover,flat",
+ "maturity": "L4",
  "maturity_evidence": [
   "named_product:ChatSCC",
   "value_number",
+  "multi_year",
   "tier_p"
  ],
- "prospect_score": 14,
- "stack": [],
- "vendor_named": false,
+ "prospect_score": 48,
+ "stack": [
+  "OpenAI"
+ ],
+ "vendor_named": true,
  "deployments_detail": [
   {
    "company": "Sumitomo Chemical Co., Ltd.",
@@ -56,6 +63,39 @@
    "raw_sector": "Chemicals",
    "date": "2023-10",
    "fresh": "stale"
+  },
+  {
+   "company": "Sumitomo Chemical Co., Ltd.",
+   "use": "ChatSCC - In-house generative AI service for enterprise employees [ChatGPT]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.sumitomo-chem.co.jp/english/news/detail/20231024e.html",
+   "raw_sector": "",
+   "date": "2023-10-24",
+   "fresh": "stale"
+  },
+  {
+   "company": "Sumitomo Chemical Co., Ltd.",
+   "use": "Enterprise AI platform deployment across 6,500 employees",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://digitalcxo.com/article/from-iot-to-ai-native-inside-sumitomo-chemicals-decade-long-digital-reinvention/",
+   "raw_sector": "",
+   "date": "2025-09-09",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Sumitomo Chemical Co., Ltd.",
+   "use": "AI Native Company - Digital Transformation Management Structure",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.sumitomo-chem.co.jp/english/news/detail/20250616e.html",
+   "raw_sector": "",
+   "date": "2025-06-16",
+   "fresh": "fresh"
   }
  ]
 }

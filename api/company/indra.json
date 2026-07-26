@@ -3,41 +3,52 @@
  "name": "Indra",
  "cc": "ES",
  "vertical": "Technology",
- "deployments": 1,
- "confirmed": 1,
- "with_value_number": 1,
- "proof_rate": 1.0,
+ "deployments": 11,
+ "confirmed": 7,
+ "with_value_number": 8,
+ "proof_rate": 0.727,
  "mktcap": 9698400000.0,
  "revenue": 6015600000.0,
  "employees": 62689.0,
  "silent": false,
- "per_bn_revenue": 0.17,
- "per_10k_emp": 0.16,
+ "per_bn_revenue": 1.83,
+ "per_10k_emp": 1.75,
  "benchmarks": {
   "global_vertical": {
-   "deployments": 0,
-   "confirmed": 6,
-   "proof_rate": 80,
-   "n": 156
+   "deployments": 67,
+   "confirmed": 56,
+   "proof_rate": 98,
+   "n": 159
   }
  },
- "first_seen": 2026,
+ "first_seen": 2024,
  "by_year": [
   {
-   "year": 2026,
+   "year": 2024,
    "n": 1
+  },
+  {
+   "year": 2025,
+   "n": 7
+  },
+  {
+   "year": 2026,
+   "n": 3
   }
  ],
  "undated_pct": 0,
- "momentum": "late_entrant,rising",
- "maturity": "L3",
+ "momentum": "early_mover,rising",
+ "maturity": "L4",
  "maturity_evidence": [
+  "multi_horizontal",
   "named_product:Internal",
-  "value_number"
+  "value_number",
+  "multi_year"
  ],
- "prospect_score": 6,
+ "prospect_score": 53,
  "stack": [
-  "Microsoft"
+  "Microsoft",
+  "OpenAI"
  ],
  "vendor_named": true,
  "deployments_detail": [
@@ -50,6 +61,116 @@
    "url": "https://www.indragroup.com/cms-content/2026/05/260506-NP-Indra-Group-Impacto-IA-VF.pdf",
    "raw_sector": "Information Technology",
    "date": "2026",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Indra",
+   "use": "Deployed an AI-powered computer-vision video analytics platform to monitor aircraft turnaround and apron operations (auto-detecting GPU connections, chock placement, refueling, catering) at Madrid-Barajas, Barcelona-El Prat and Palma de Mallorca airports managed by Aena [Synaptic Aviation (partner)]",
+   "existence": "confirmed",
+   "value": "3 airports, ~477 aircraft parking positions, 150M+ passengers/year",
+   "tier": "",
+   "url": "https://www.prnewswire.com/news-releases/indra-and-synaptic-aviation-enhance-efficiency-with-artificial-intelligence-at-airports-in-barcelona-madrid-and-palma-de-mallorca-302719434.html",
+   "raw_sector": "",
+   "date": "2026-03-19",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Indra",
+   "use": "Integrated the 'Intelligent Approach' time-based aircraft separation tool into its ManagAir air traffic management platform, live at Heathrow (since 2015), Toronto Pearson (2022) and Amsterdam Schiphol (2023) to increase runway capacity and cut emissions [NATS / Leidos (Intelligent Approach), integrated in Indra ManagAir]",
+   "existence": "confirmed",
+   "value": "Up to 6 additional landings per hour per runway at Schiphol; platform available in 50+ countries",
+   "tier": "",
+   "url": "https://www.indragroup.com/en/news/intelligent-approach-now-fully-incorporated-indra-atm-systems-increase-capacity-high-traffic",
+   "raw_sector": "",
+   "date": "2024-03-19",
+   "fresh": "aging"
+  },
+  {
+   "company": "Indra",
+   "use": "Deployed the Mova Collect dynamic (deep-learning-based) tolling solution on Israel's Ayalon Highway (Highway 20) near Tel Aviv, automatically detecting high-occupancy vehicles and adjusting tolls in real time across 80 free-flow tolling booths, integrated with Indra's Horus traffic management system [Indra (Mova Collect / Horus)]",
+   "existence": "confirmed",
+   "value": "EUR 24 million contract; 10-year maintenance; 80 free-flow tolling booths",
+   "tier": "",
+   "url": "https://www.itsinternational.com/its1/news/indra-ai-helps-israel-traffic-flow",
+   "raw_sector": "",
+   "date": "2025-01-01",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Indra",
+   "use": "Incorporating LLMs and advanced AI into its defense/tactical simulators so instructors can generate complex synthetic battle scenarios (platforms, positions, routes, friend/foe designations) from natural-language prompts in minutes; being integrated into new simulators and progressively into fielded systems [Indra (LLM-based)]",
+   "existence": "claimed",
+   "value": "Scenario generation reduced from weeks/months to minutes",
+   "tier": "",
+   "url": "https://www.joint-forces.com/ew-and-cyber/83272-indra-incorporates-artificial-intelligence-into-simulators",
+   "raw_sector": "",
+   "date": "2025-06-18",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Indra",
+   "use": "Officially launched IndraMind, its sovereign AI platform that consolidates multi-source data for real-time threat anticipation, autonomous decision-making, and coordination of intelligent systems (e.g., drones) for defense, border surveillance, emergency management and critical-infrastructure protection against hybrid threats [Indra (IndraMind)]",
+   "existence": "claimed",
+   "value": "Launched with EUR 300M+ turnover and 3,000 professionals",
+   "tier": "",
+   "url": "https://www.indragroup.com/en/news/indramind-indra-groups-sovereign-combat-hybrid-warfare-protect-citizens",
+   "raw_sector": "",
+   "date": "2025-10-30",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Indra",
+   "use": "Offers Onesait Intelligence, an AI/ML analytics platform for utilities providing meter data analytics, energy fraud detection, debt management and network-overload forecasting using data-discovery and IoT techniques [Minsait (Onesait Intelligence)]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.minsaitacs.com/sites/default/files/inline-images/Intelligence_082923_ee10eb3d94.pdf",
+   "raw_sector": "",
+   "date": "2025-01-01",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Indra",
+   "use": "Deployed Microsoft 365 Copilot to over 3,000 professionals (with 1,500 more planned) to embed generative AI into daily document, email and productivity work; also built an internal 'Indra M365 Copilot Helper' onboarding agent with Agent Builder [Microsoft (M365 Copilot)]",
+   "existence": "confirmed",
+   "value": "80% adoption; 2 hours/week saved per user; 5% productivity gain; up to 90% time reduction on repetitive document comparison",
+   "tier": "",
+   "url": "https://www.indragroup.com/en/news/indra-group-speeds-processes-3000-professionals-improve-productivity-efficiency-using",
+   "raw_sector": "",
+   "date": "2025-07-10",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Indra",
+   "use": "Adopted GitHub Copilot across its Aerospace & Defense Software Unit (non-confidential codebases) for boilerplate code, unit tests, documentation, module design and technology migration, with plans to expand to all non-confidential projects [GitHub / Microsoft / OpenAI (GitHub Copilot)]",
+   "existence": "confirmed",
+   "value": "564 seats; 30% less time on boilerplate; 20% productivity boost on new features; 15% more tasks completed per 3-week sprint",
+   "tier": "",
+   "url": "https://github.com/customer-stories/indra",
+   "raw_sector": "",
+   "date": "2025-01-01",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Indra",
+   "use": "Deployed its CROW counter-UAS (anti-drone) system, which uses AI algorithms with radar and electro-optical sensors for autonomous drone detection and neutralization, in real operations including the Spanish Army's ATLAS25 exercises and the Chilean presidential inauguration [Indra (CROW)]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://globalairspaceradar.com/news/indra-deploys-its-crow-counter%E2%80%91drone-system-during-the-presidential-inauguration-in-chile/",
+   "raw_sector": "",
+   "date": "2026-03-13",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Indra",
+   "use": "Leading the AIDA (Artificial Intelligence Deployable Agent) project to build the core platform managing autonomous AI agents that detect, analyze and respond to cyberthreats in military operations, coordinating 28 organizations across 15 EU countries with proofs of concept via the EU-GUARDIAN project [European Defence Fund (AIDA / EU-GUARDIAN); Indra leads platform]",
+   "existence": "claimed",
+   "value": "EUR 32 million budget; 28 organizations, 15 countries",
+   "tier": "",
+   "url": "https://www.indragroup.com/en/news/indra-develops-core-capability-manage-autonomous-agents-support-military-operations-european",
+   "raw_sector": "",
+   "date": "2025-05-20",
    "fresh": "fresh"
   }
  ]

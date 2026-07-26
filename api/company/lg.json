@@ -3,43 +3,70 @@
  "name": "LG",
  "cc": "KR",
  "vertical": "Technology",
- "deployments": 1,
- "confirmed": 1,
- "with_value_number": 1,
- "proof_rate": 1.0,
+ "deployments": 13,
+ "confirmed": 9,
+ "with_value_number": 6,
+ "proof_rate": 0.462,
  "mktcap": 11525925926.0,
  "revenue": 5370370370.0,
  "employees": 198.0,
  "silent": false,
- "per_bn_revenue": 0.19,
- "per_10k_emp": 50.51,
+ "per_bn_revenue": 2.42,
+ "per_10k_emp": 656.57,
  "benchmarks": {
   "global_vertical": {
-   "deployments": 0,
-   "confirmed": 6,
-   "proof_rate": 80,
-   "n": 156
+   "deployments": 82,
+   "confirmed": 65,
+   "proof_rate": 82,
+   "n": 159
   },
   "country_vertical": {
-   "deployments": 0,
-   "confirmed": 22,
-   "proof_rate": 44,
+   "deployments": 78,
+   "confirmed": 78,
+   "proof_rate": 100,
    "n": 10
   }
  },
- "first_seen": null,
- "by_year": [],
- "undated_pct": 100,
- "momentum": "none",
- "maturity": "L3",
+ "first_seen": 2023,
+ "by_year": [
+  {
+   "year": 2023,
+   "n": 1
+  },
+  {
+   "year": 2024,
+   "n": 4
+  },
+  {
+   "year": 2025,
+   "n": 5
+  },
+  {
+   "year": 2026,
+   "n": 2
+  }
+ ],
+ "undated_pct": 8,
+ "momentum": "early_mover,rising",
+ "maturity": "L4",
  "maturity_evidence": [
+  "multi_horizontal",
   "named_product:EXAONE",
   "value_number",
+  "multi_year",
   "tier_p"
  ],
- "prospect_score": 14,
- "stack": [],
- "vendor_named": false,
+ "prospect_score": 76,
+ "stack": [
+  "Amazon AWS",
+  "Google",
+  "Google Cloud",
+  "Microsoft",
+  "Microsoft Azure",
+  "NVIDIA",
+  "OpenAI"
+ ],
+ "vendor_named": true,
  "deployments_detail": [
   {
    "company": "LG",
@@ -51,6 +78,138 @@
    "raw_sector": "IT",
    "date": "missing",
    "fresh": "undated"
+  },
+  {
+   "company": "LG",
+   "use": "EXAONE foundation model (LLM/multimodal) built and deployed to production on Amazon SageMaker; used across LG affiliates to transform business processes. Trained on tens of TB including 250M+ high-resolution image-text pairs. [AWS (Amazon SageMaker, FSx for Lustre)]",
+   "existence": "confirmed",
+   "value": "35% reduction in AI engine development cost; 60% increase in data processing speed; deployed to production within one year",
+   "tier": "",
+   "url": "https://aws.amazon.com/solutions/case-studies/lg-ai-research-case-study/",
+   "raw_sector": "",
+   "date": "2023-11-29",
+   "fresh": "stale"
+  },
+  {
+   "company": "LG",
+   "use": "K-EXAONE (32B and 236B MoE foundation model) put into production inference serving across multiple environments using FriendliAI dedicated endpoints on NVIDIA A100 GPUs. [FriendliAI, NVIDIA]",
+   "existence": "confirmed",
+   "value": "236B parameters; 3x traffic growth; deployment time cut by several weeks; ~260K token context",
+   "tier": "",
+   "url": "https://friendli.ai/customers/lg-ai-research",
+   "raw_sector": "",
+   "date": "2025-07-15",
+   "fresh": "fresh"
+  },
+  {
+   "company": "LG",
+   "use": "Vision AI real-time anomaly/defect detection and generative-AI (LLM) equipment diagnostics deployed across LG smart factories (Changwon plant and 60+ global production sites). [LG (in-house)]",
+   "existence": "confirmed",
+   "value": "Changwon plant: +17% productivity, +30% energy efficiency, -70% quality/defect costs; solutions applied at 60+ sites in 40 regions",
+   "tier": "",
+   "url": "https://www.lg.com/global/newsroom/b2b/product-and-solutions/lg-acclerates-smart-factory-solutions-business-integrating-ai-with-66-year-manufacturing-expertise/",
+   "raw_sector": "",
+   "date": "2024-07-18",
+   "fresh": "aging"
+  },
+  {
+   "company": "LG",
+   "use": "Generative-AI model trained on ~100,000 cell design drafts to auto-generate optimal EV battery cell designs, cutting design time from two weeks to one day; being integrated into internal cell development system. [LG Energy Solution (in-house)]",
+   "existence": "claimed",
+   "value": "Battery cell design time reduced from ~2 weeks to 1 day (~93% reduction)",
+   "tier": "",
+   "url": "https://news.lgensol.com/company-news/supplementary-stories/3134/",
+   "raw_sector": "",
+   "date": "2024-07-31",
+   "fresh": "aging"
+  },
+  {
+   "company": "LG",
+   "use": "EXAONE-based AI model on AWS for rapid cancer diagnosis, reducing genetic/molecular testing time from ~2 weeks to under one minute. [AWS (Amazon SageMaker)]",
+   "existence": "confirmed",
+   "value": "Genetic testing time reduced from two weeks to under one minute",
+   "tier": "",
+   "url": "https://www.businesswire.com/news/home/20241203624472/en/LG-AI-Research-Develops-AI-Model-on-AWS-for-Rapid-Cancer-Diagnosis",
+   "raw_sector": "",
+   "date": "2024-12-03",
+   "fresh": "aging"
+  },
+  {
+   "company": "LG",
+   "use": "EXAONE Path 2.0 precision medical AI analyzing pathology slide images to predict gene mutations/expression; co-developed with Vanderbilt University Medical Center. [LG AI Research; Vanderbilt University Medical Center (partner)]",
+   "existence": "claimed",
+   "value": "78.4% gene mutation prediction accuracy; molecular testing time from >2 weeks to under a minute; trained on 10,000+ matched WSI/multi-omics datasets",
+   "tier": "",
+   "url": "https://www.prnewswire.com/news-releases/lg-debuts-next-generation-precision-medical-ai-302502425.html",
+   "raw_sector": "",
+   "date": "2025-07-10",
+   "fresh": "fresh"
+  },
+  {
+   "company": "LG",
+   "use": "EXAONE Discovery generative-AI platform for materials and drug discovery; EXAONE Chemical Agent deployed for molecular/peptide design in oral obesity-drug development with D&D Pharmatech. [LG AI Research; D&D Pharmatech (partner)]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.asiae.co.kr/en/article/2026061808215683996",
+   "raw_sector": "",
+   "date": "2026-06-18",
+   "fresh": "fresh"
+  },
+  {
+   "company": "LG",
+   "use": "NVIDIA + LG Group AI Factory: LG Electronics building a physical-AI data factory using NVIDIA Cosmos world foundation models for synthetic robotics training data; LG CNS/Uplus building NVIDIA-GPU AI data centers. [NVIDIA (Cosmos, DSX AI factory, GPUs)]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://blogs.nvidia.com/blog/nvidia-and-lg-group-ai-factory/",
+   "raw_sector": "",
+   "date": "2026-06-07",
+   "fresh": "fresh"
+  },
+  {
+   "company": "LG",
+   "use": "LG AI Research + Google Cloud collaboration to develop EXAONE 3.0 and ChatEXAONE, an enterprise AI agent for LG affiliates (document processing, coding, Q&A). [Google Cloud]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.prnewswire.com/news-releases/lg-ai-research-taps-google-cloud-to-develop-exaone-3-0-and-chatexaone-ai-agent-302231481.html",
+   "raw_sector": "",
+   "date": "2024-08-28",
+   "fresh": "aging"
+  },
+  {
+   "company": "LG",
+   "use": "LG CNS enterprise generative-AI systems integration practice; first Korean company to earn generative-AI competency credentials from Microsoft, AWS and Google Cloud, delivering GenAI solutions to enterprise clients. [Microsoft (Azure OpenAI), AWS, Google Cloud]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.techinasia.com/news/lg-cns-gains-generative-ai-credentials-from-microsoft-google",
+   "raw_sector": "",
+   "date": "2025-08-01",
+   "fresh": "fresh"
+  },
+  {
+   "company": "LG",
+   "use": "LG Uplus ixi-O AI call assistant / on-device AI call service for consumers: call recording, summarization, real-time transcription, and answering calls on users' behalf; being exported to Malaysia (Maxis). [LG Uplus; Google (Gemini-powered voice assistant)]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.chosun.com/english/industry-en/2025/10/30/FKN2TQPOJZAW3ID63FNX47BMEU/",
+   "raw_sector": "",
+   "date": "2025-10-30",
+   "fresh": "fresh"
+  },
+  {
+   "company": "LG",
+   "use": "LG Electronics in-house customer-service chatbot (ThinQ/Affectionate Intelligence) being upgraded into an AI agent that interprets commands and executes tasks; deployed for consumer appliance support. [LG Electronics (in-house)]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.lg.com/global/lg-ai/",
+   "raw_sector": "",
+   "date": "2025-04-17",
+   "fresh": "fresh"
   }
  ]
 }

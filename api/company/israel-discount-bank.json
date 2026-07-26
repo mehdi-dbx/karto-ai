@@ -3,48 +3,68 @@
  "name": "Israel Discount Bank",
  "cc": "IL",
  "vertical": "Financial Services",
- "deployments": 2,
- "confirmed": 2,
- "with_value_number": 0,
- "proof_rate": 0.0,
+ "deployments": 10,
+ "confirmed": 8,
+ "with_value_number": 3,
+ "proof_rate": 0.3,
  "mktcap": 10532432432.0,
  "revenue": 3408108108.0,
  "employees": 6849.0,
  "silent": false,
- "per_bn_revenue": 0.59,
- "per_10k_emp": 2.92,
+ "per_bn_revenue": 2.93,
+ "per_10k_emp": 14.6,
  "benchmarks": {
   "global_vertical": {
-   "deployments": 62,
-   "confirmed": 73,
-   "proof_rate": 0,
-   "n": 377
+   "deployments": 65,
+   "confirmed": 67,
+   "proof_rate": 54,
+   "n": 388
   },
   "country_vertical": {
-   "deployments": 50,
-   "confirmed": 50,
-   "proof_rate": 0,
+   "deployments": 75,
+   "confirmed": 75,
+   "proof_rate": 75,
    "n": 5
   }
  },
- "first_seen": 2024,
+ "first_seen": 2018,
  "by_year": [
   {
-   "year": 2024,
+   "year": 2018,
    "n": 1
+  },
+  {
+   "year": 2020,
+   "n": 1
+  },
+  {
+   "year": 2024,
+   "n": 2
+  },
+  {
+   "year": 2025,
+   "n": 1
+  },
+  {
+   "year": 2026,
+   "n": 4
   }
  ],
- "undated_pct": 50,
- "momentum": "early_mover,gone_quiet",
- "maturity": "L3",
+ "undated_pct": 10,
+ "momentum": "early_mover,rising",
+ "maturity": "L4",
  "maturity_evidence": [
   "multi_horizontal",
   "named_product:Adi",
+  "value_number",
+  "multi_year",
   "tier_p"
  ],
- "prospect_score": 60,
- "stack": [],
- "vendor_named": false,
+ "prospect_score": 76,
+ "stack": [
+  "Microsoft"
+ ],
+ "vendor_named": true,
  "deployments_detail": [
   {
    "company": "Israel Discount Bank",
@@ -59,6 +79,61 @@
   },
   {
    "company": "Israel Discount Bank",
+   "use": "\"Didi\" in-app AI digital financial assistant that analyzes customer transactions to proactively deliver personalized insights, spending trends, savings opportunities and low-balance warnings; Hebrew NLP chatbot. Powered by Personetics (Cognitive Banking Brain / predictive analytics) with Nanorep for Hebrew natural-language understanding. [Personetics; Nanorep]",
+   "existence": "confirmed",
+   "value": "220,000+ active customers within 2 months of full rollout; 81% rated interactions highly; 30 pre-built insights",
+   "tier": "",
+   "url": "https://www.americanbanker.com/news/three-things-an-ai-chatbot-taught-an-israeli-bank",
+   "raw_sector": "",
+   "date": "2018-02-02",
+   "fresh": "stale"
+  },
+  {
+   "company": "Israel Discount Bank",
+   "use": "\"Smart Save\" automated savings product using Personetics AI models and predictive analytics to identify spare funds in a customer's account and automatically transfer them to savings without overdrafting; sends progress notifications and nudges. Described as the bank's first Auto-Savings product. [Personetics]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://personetics.com/discount-bank-strengthens-its-partnership-with-personetics-and-launches-smart-save-to-automatically-save-banking-customers-time-and-money/",
+   "raw_sector": "",
+   "date": "2020-08-16",
+   "fresh": "stale"
+  },
+  {
+   "company": "Israel Discount Bank",
+   "use": "\"AI Stock Talk\" generative-AI investment chatbot letting retail customers converse in Hebrew about ~40,000 supported stocks, get financial-report analysis, stock ratings and buy/sell-style guidance in the bank's app. Cleared by the Israeli securities regulator. Built on Bridgewise's Gen AI (a data-mining LLM, a stock-rating model, and a conversational LLM). [Bridgewise]",
+   "existence": "confirmed",
+   "value": "Beta launch to 500 customers before full rollout; supports ~40,000 stocks",
+   "tier": "",
+   "url": "https://www.calcalistech.com/ctechnews/article/syavggxa0",
+   "raw_sector": "",
+   "date": "2024-09-24",
+   "fresh": "aging"
+  },
+  {
+   "company": "Israel Discount Bank",
+   "use": "\"Smart Future\" pension-planning digital platform/bot in the bank's app: consolidates pension and insurance data (via Israel's Pension Clearing House), runs a retirement-income simulator, and issues personalized alerts on high management fees, coverage gaps and outdated beneficiaries. Presented in the Q4 2025 earnings call as a first-of-its-kind pension planning bot alongside the bank's AI initiatives. [none]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.jpost.com/business-and-innovation/banking-and-finance/article-887246",
+   "raw_sector": "",
+   "date": "2026-02-19",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Israel Discount Bank",
+   "use": "Bank-wide AI and advanced-automation efficiency program: the CEO states processes that previously depended on substantial manpower are becoming automated and more precise, making a number of roles/positions redundant as part of accelerated digitization and AI. General program; no specific system named. [none]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.kikar.co.il/economy/discount-bank-ai-layoffs-bonuses-freeze",
+   "raw_sector": "",
+   "date": "2026-04-26",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Israel Discount Bank",
    "use": "Adi AI banking assistant answering customer queries (account opening, branch hours) without waiting for a human banker",
    "existence": "confirmed",
    "value": "none",
@@ -67,6 +142,39 @@
    "raw_sector": "Banks",
    "date": "missing",
    "fresh": "undated"
+  },
+  {
+   "company": "Israel Discount Bank",
+   "use": "\"Adi\" (עדי) voice-based AI banker on the bank's telephone service line (*6111), available 24/7. Customers speak questions naturally (no phone menus) and get answers on account balances, credit cards, deposits, loans, debit authorizations and general banking info. This is the \"first-of-its-kind talking AI bot\" the bank highlighted in its 2025 results. [none]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.discountbank.co.il/private/general-information/adi_ai/",
+   "raw_sector": "",
+   "date": "2026-03-10",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Israel Discount Bank",
+   "use": "Microsoft Copilot Studio agents for the bank's CRM/customer-service operations: an autonomous email-reading agent that understands intent and acts against the CRM (opening cases, updating customers), plus Quality-Assessment, Case-Management and Customer-Knowledge-Management agents. Shown as hands-on live demos with the bank's CRM teams; evaluation/POC stage rather than confirmed production. [Microsoft (Copilot Studio, Dataverse)]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.linkedin.com/posts/batelkalo_microsoft-ai-copilotstudio-activity-7469002900703440896-3XXo",
+   "raw_sector": "",
+   "date": "2026-02-01",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Israel Discount Bank",
+   "use": "Bridgewise full-suite deployment for investment advisory: \"EquityWise\" AI equity-analysis tool for all retail clients and \"Bridget\" AI chat delivering compliant personalized buy/sell recommendations to VIP clients; expanded the bank's advisory equity coverage using AI-driven analysis. [Bridgewise]",
+   "existence": "confirmed",
+   "value": "4.5x advisory coverage expansion (200 to 900+ stocks); 50% of retail clients adopted in first week; avg 3.2 questions per Bridget session",
+   "tier": "",
+   "url": "https://bridgewise.com/case-study/investment-intelligence-unlock-revenue/",
+   "raw_sector": "",
+   "date": "2025-01-07",
+   "fresh": "fresh"
   }
  ]
 }

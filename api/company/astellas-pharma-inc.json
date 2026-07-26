@@ -3,27 +3,27 @@
  "name": "Astellas Pharma Inc.",
  "cc": "JP",
  "vertical": "Healthcare & Life Sciences",
- "deployments": 1,
- "confirmed": 1,
- "with_value_number": 1,
- "proof_rate": 1.0,
+ "deployments": 9,
+ "confirmed": 8,
+ "with_value_number": 7,
+ "proof_rate": 0.778,
  "mktcap": 25800000000.0,
  "revenue": 14266666667.0,
  "employees": 14099.0,
  "silent": false,
- "per_bn_revenue": 0.07,
- "per_10k_emp": 0.71,
+ "per_bn_revenue": 0.63,
+ "per_10k_emp": 6.38,
  "benchmarks": {
   "global_vertical": {
-   "deployments": 0,
-   "confirmed": 13,
-   "proof_rate": 83,
-   "n": 165
+   "deployments": 62,
+   "confirmed": 73,
+   "proof_rate": 97,
+   "n": 168
   },
   "country_vertical": {
-   "deployments": 0,
-   "confirmed": 0,
-   "proof_rate": 67,
+   "deployments": 67,
+   "confirmed": 100,
+   "proof_rate": 100,
    "n": 10
   }
  },
@@ -32,19 +32,41 @@
   {
    "year": 2019,
    "n": 1
+  },
+  {
+   "year": 2024,
+   "n": 2
+  },
+  {
+   "year": 2025,
+   "n": 3
+  },
+  {
+   "year": 2026,
+   "n": 3
   }
  ],
  "undated_pct": 0,
- "momentum": "early_mover,gone_quiet",
- "maturity": "L3",
+ "momentum": "early_mover,rising",
+ "maturity": "L4",
  "maturity_evidence": [
+  "multi_horizontal",
   "named_product:Human",
   "value_number",
+  "multi_year",
   "tier_p"
  ],
- "prospect_score": 14,
- "stack": [],
- "vendor_named": false,
+ "prospect_score": 57,
+ "stack": [
+  "Accenture",
+  "DeepSeek",
+  "Google",
+  "Microsoft",
+  "Microsoft Azure",
+  "NVIDIA",
+  "OpenAI"
+ ],
+ "vendor_named": true,
  "deployments_detail": [
   {
    "company": "Astellas Pharma Inc.",
@@ -56,6 +78,94 @@
    "raw_sector": "Pharmaceuticals",
    "date": "2019",
    "fresh": "stale"
+  },
+  {
+   "company": "Astellas Pharma Inc.",
+   "use": "'Human-in-the-Loop' / Mahol-A-Ba drug discovery platform integrating human expertise, AI (ML for compound design/prediction) and robotic automated synthesis; widely used in small- and medium-molecule R&D, with an AI-designed, robot-synthesized compound advancing to clinical trial. [Astellas (proprietary; robotics + ML)]",
+   "existence": "confirmed",
+   "value": "70% reduction in timeline to refine initial compounds into viable candidates",
+   "tier": "",
+   "url": "https://newsroom.astellas.com/2025-04-22-The-Future-of-Drug-Discovery-Integrating-Human,-AI-and-Robotics",
+   "raw_sector": "",
+   "date": "2025-04-22",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Astellas Pharma Inc.",
+   "use": "Structure-based drug discovery for membrane proteins using NVIDIA Boltz-2 NIM for biomolecular structure and binding-affinity prediction, deployed as a browser-based app on the Tokyo-1 platform to let medicinal chemists run simulations independently. [NVIDIA (Boltz-2 NIM, TensorRT)]",
+   "existence": "confirmed",
+   "value": "90% reduction in compounds needing experimental evaluation; 70% reduction in Hit-ID timeline; full discovery cycle <1 month vs 3.5-month baseline; 2,000+ total users",
+   "tier": "",
+   "url": "https://www.nvidia.com/en-us/case-studies/astellas-pharma/",
+   "raw_sector": "",
+   "date": "2026-02",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Astellas Pharma Inc.",
+   "use": "Built astABpLM (Astellas Antibody Pre-trained Language Model) using NVIDIA BioNeMo to predict antibody physical properties (stability, solubility, viscosity); incorporated into existing antibody property-prediction workflows to discover new antibodies. [NVIDIA BioNeMo (ESM-1nv backbone)]",
+   "existence": "confirmed",
+   "value": "50-60x speed increase for 3D structure generation (~15 seconds vs hours/days)",
+   "tier": "",
+   "url": "https://www.nvidia.com/en-us/case-studies/astellas-antibody-language-model-with-bionemo/",
+   "raw_sector": "",
+   "date": "2024",
+   "fresh": "aging"
+  },
+  {
+   "company": "Astellas Pharma Inc.",
+   "use": "Biologics research on the Tokyo-1 NVIDIA DGX supercomputer using BioNeMo biomolecular AI models (ESM-1nv, ESM-2nv, DNABERT) plus generative NIM microservices (DiffDock, GenMol, MolMIM) to generate molecular structures, predict binding and optimize efficacy. [NVIDIA (BioNeMo, Tokyo-1 DGX; Mitsui/Xeureka infrastructure)]",
+   "existence": "confirmed",
+   "value": "30x acceleration in chemical molecule generation",
+   "tier": "",
+   "url": "https://blogs.nvidia.com/blog/japan-sovereign-ai-healthcare/",
+   "raw_sector": "",
+   "date": "2024-11-12",
+   "fresh": "aging"
+  },
+  {
+   "company": "Astellas Pharma Inc.",
+   "use": "Strategic collaboration to deploy Evinova's AI-native clinical development platform, including the Study Designer, to design smarter patient-centered studies, eliminate rework and accelerate trial timelines. [Evinova (AstraZeneca subsidiary)]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://evinova.com/press-releases/evinova-astellas-astrazeneca-bristol-myers-squibb-partnership",
+   "raw_sector": "",
+   "date": "2026-02-18",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Astellas Pharma Inc.",
+   "use": "AI-based document translation in global clinical operations, translating protocols and patient materials across 15-20 countries; cited as essential to internalizing global clinical operations and streamlining protocol development and patient outreach. [not disclosed]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.pharmavoice.com/news/astellas-ai-clinical-drug-pharma-kras/822738/",
+   "raw_sector": "",
+   "date": "2026-06-12",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Astellas Pharma Inc.",
+   "use": "Enterprise internal generative-AI platform built on self-hosted Open WebUI on Azure, letting employees create, customize and share custom GenAI models across R&D, Clinical Development, Pharmacovigilance, Compliance, Legal, Sales and Marketing. [Open WebUI on Azure; Azure OpenAI (plus Gemini, DeepSeek, Perplexity); Azure AKS]",
+   "existence": "confirmed",
+   "value": "3,200+ users, 800+ advanced users, 420+ custom models; 68% reported significant efficacy gains; NPS +43",
+   "tier": "",
+   "url": "https://docs.openwebui.com/enterprise/customers/astellas-pharma/",
+   "raw_sector": "",
+   "date": "2025-05",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Astellas Pharma Inc.",
+   "use": "Cloud migration to Microsoft Azure (closing 6 datacenters, ~250 servers, 500 TB) with a 'Triple A' Astellas-Azure-Accenture partnership; Azure OpenAI in use for corporate workloads with Azure AI being applied to R&D insights. [Microsoft Azure (Azure OpenAI); Accenture]",
+   "existence": "confirmed",
+   "value": "6-month migration vs typical 2 years; ~250-300 servers migrated; 500 TB transferred",
+   "tier": "",
+   "url": "https://www.microsoft.com/en/customers/story/24804-astellas-azure-data-box",
+   "raw_sector": "",
+   "date": "2025-09-03",
+   "fresh": "fresh"
   }
  ]
 }

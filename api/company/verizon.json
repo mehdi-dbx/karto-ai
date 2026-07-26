@@ -3,27 +3,27 @@
  "name": "Verizon",
  "cc": "US",
  "vertical": "Telecom",
- "deployments": 11,
- "confirmed": 10,
+ "deployments": 15,
+ "confirmed": 11,
  "with_value_number": 4,
- "proof_rate": 0.364,
+ "proof_rate": 0.267,
  "mktcap": 184020000000.0,
  "revenue": 139150000000.0,
  "employees": 89900.0,
  "silent": false,
- "per_bn_revenue": 0.08,
- "per_10k_emp": 1.22,
+ "per_bn_revenue": 0.11,
+ "per_10k_emp": 1.67,
  "benchmarks": {
   "global_vertical": {
-   "deployments": 91,
-   "confirmed": 96,
-   "proof_rate": 52,
-   "n": 93
+   "deployments": 94,
+   "confirmed": 85,
+   "proof_rate": 39,
+   "n": 94
   },
   "country_vertical": {
    "deployments": 82,
-   "confirmed": 86,
-   "proof_rate": 68,
+   "confirmed": 77,
+   "proof_rate": 55,
    "n": 23
   }
  },
@@ -46,7 +46,7 @@
    "n": 1
   }
  ],
- "undated_pct": 9,
+ "undated_pct": 33,
  "momentum": "early_mover,cooling",
  "maturity": "L4",
  "maturity_evidence": [
@@ -56,12 +56,27 @@
   "multi_year",
   "tier_p"
  ],
- "prospect_score": 85,
+ "prospect_score": 89,
  "stack": [
-  "Google"
+  "Anthropic",
+  "Google",
+  "Google Cloud",
+  "Mistral AI",
+  "NVIDIA"
  ],
  "vendor_named": true,
  "deployments_detail": [
+  {
+   "company": "Verizon",
+   "use": "Named as a Google Gemini / Vertex AI customer/case study [Google Gemini / Vertex AI] [Google Gemini / Vertex AI]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://itcblogs.currentanalysis.com/2025/08/18/google-cloud-brings-customers-to-its-summit-to-share-their-ai-success-stories/",
+   "raw_sector": "",
+   "date": "missing",
+   "fresh": "undated"
+  },
   {
    "company": "Verizon",
    "use": "AI-powered customer experience (Google Gemini) — agent-assist reducing call times; reported sales lift",
@@ -71,6 +86,39 @@
    "url": "https://www.verizon.com/about/news/verizon-launches-industry-leading-ai-powered-customer-experience",
    "raw_sector": "Communication Services",
    "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "Verizon",
+   "use": "Generative AI for customer service agent support (call summarization, prompts, follow-up tracking)",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.businessinsider.com/verizon-is-using-generative-ai-to-streamline-business-relationships-2024-7",
+   "raw_sector": "",
+   "date": "Jul 30, 2024",
+   "fresh": "undated"
+  },
+  {
+   "company": "Verizon",
+   "use": "AI-powered customer experience with chatbots, virtual assistants, and predictive analytics",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.verizon.com/about/news/verizon-launches-industry-leading-ai-powered-customer-experience",
+   "raw_sector": "",
+   "date": "Jun 24, 2025",
+   "fresh": "undated"
+  },
+  {
+   "company": "Verizon",
+   "use": "AI agents to improve customer experiences and support frontline teams",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.cxtoday.com/contact-center/verizon-is-using-ai-agents-to-improve-customer-experiences-heres-how/",
+   "raw_sector": "",
+   "date": "Mar 20, 2025",
    "fresh": "undated"
   },
   {

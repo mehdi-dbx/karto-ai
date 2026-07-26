@@ -3,22 +3,22 @@
  "name": "Suncorp",
  "cc": "AU",
  "vertical": "Insurance",
- "deployments": 1,
- "confirmed": 0,
+ "deployments": 11,
+ "confirmed": 7,
  "with_value_number": 1,
- "proof_rate": 1.0,
+ "proof_rate": 0.091,
  "mktcap": 13406666667.0,
  "revenue": 10053333333.0,
  "employees": 11500.0,
  "silent": false,
- "per_bn_revenue": 0.1,
- "per_10k_emp": 0.87,
+ "per_bn_revenue": 1.09,
+ "per_10k_emp": 9.57,
  "benchmarks": {
   "global_vertical": {
-   "deployments": 0,
-   "confirmed": 0,
-   "proof_rate": 75,
-   "n": 60
+   "deployments": 81,
+   "confirmed": 60,
+   "proof_rate": 24,
+   "n": 63
   }
  },
  "first_seen": 2025,
@@ -28,15 +28,19 @@
    "n": 1
   }
  ],
- "undated_pct": 0,
+ "undated_pct": 91,
  "momentum": "rising",
- "maturity": "L1",
+ "maturity": "L3",
  "maturity_evidence": [
-  "rows_no_confirmed"
+  "multi_horizontal",
+  "named_product:Oracle"
  ],
- "prospect_score": 0,
- "stack": [],
- "vendor_named": false,
+ "prospect_score": 78,
+ "stack": [
+  "Microsoft",
+  "Oracle"
+ ],
+ "vendor_named": true,
  "deployments_detail": [
   {
    "company": "Suncorp",
@@ -48,6 +52,116 @@
    "raw_sector": "Insurance",
    "date": "2025",
    "fresh": "fresh"
+  },
+  {
+   "company": "Suncorp",
+   "use": "Enterprise-wide Agentic AI deployment across organization",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.insurancebusinessmag.com/au/news/breaking-news/ai-takes-bigger-role-in-suncorps-strategy-539261.aspx",
+   "raw_sector": "",
+   "date": "Jun 17, 2025",
+   "fresh": "undated"
+  },
+  {
+   "company": "Suncorp",
+   "use": "120 genAI internal use cases in exploration, 20 set for deployment by June 2025",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.itnews.com.au/news/suncorp-moves-from-ai-experimentation-to-full-scale-production-613827",
+   "raw_sector": "",
+   "date": "Dec 12, 2024",
+   "fresh": "undated"
+  },
+  {
+   "company": "Suncorp",
+   "use": "Platform modernisation and AI-enabled operational transformation",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.suncorpgroup.com.au/news/news/fy25-tech-milestones-suncorp",
+   "raw_sector": "",
+   "date": "Aug 20, 2025",
+   "fresh": "undated"
+  },
+  {
+   "company": "Suncorp",
+   "use": "Claims processing streamlined with AI",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.afr.com/technology/insurer-keeps-human-touch-to-the-fore-as-it-streamlines-claims-20250515-p5lzkq",
+   "raw_sector": "",
+   "date": "Jun 3, 2025",
+   "fresh": "undated"
+  },
+  {
+   "company": "Suncorp",
+   "use": "Hundreds of AI and machine learning models deployed; multiple Gen AI use cases in production",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.suncorpgroup.com.au/news/features/adam-bennett-ai",
+   "raw_sector": "",
+   "date": "Jun 11, 2025",
+   "fresh": "undated"
+  },
+  {
+   "company": "Suncorp",
+   "use": "Multi-agent AI strategy with reusable component library for business transformation",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.itnews.com.au/news/suncorp-turns-to-multi-agent-ai-for-business-transformation-622678",
+   "raw_sector": "",
+   "date": "Dec 23, 2025",
+   "fresh": "undated"
+  },
+  {
+   "company": "Suncorp",
+   "use": "Generative AI embedded in core insurance operations with approved knowledge bases and claim data",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.afr.com/technology/why-winning-enterprises-build-before-they-sprint-20260518-p5zyal",
+   "raw_sector": "",
+   "date": "Jun 2, 2026",
+   "fresh": "undated"
+  },
+  {
+   "company": "Suncorp",
+   "use": "Agentic AI for claim lodgement processing and customer service",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.linkedin.com/posts/itnews_suncorp-creates-a-clear-execution-roadmap-activity-7390162153221226497-daga",
+   "raw_sector": "",
+   "date": "8 months ago",
+   "fresh": "undated"
+  },
+  {
+   "company": "Suncorp",
+   "use": "AI embedded in Oracle Fusion Cloud Applications for operational efficiency and governance [Oracle]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.youtube.com/watch?v=MRKGxO2z2Vo",
+   "raw_sector": "",
+   "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "Suncorp",
+   "use": "Microsoft 365 Copilot and GitHub Copilot deployment [Microsoft]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://news.microsoft.com/en-au/features/suncorp-announces-5-year-partnership-with-microsoft-to-accelerate-the-use-of-ai-and-cloud-to-transform-insurance/",
+   "raw_sector": "",
+   "date": "Dec 11, 2024",
+   "fresh": "undated"
   }
  ]
 }

@@ -3,41 +3,56 @@
  "name": "Sanlam",
  "cc": "ZA",
  "vertical": "Insurance",
- "deployments": 1,
- "confirmed": 1,
- "with_value_number": 0,
- "proof_rate": 0.0,
+ "deployments": 10,
+ "confirmed": 7,
+ "with_value_number": 2,
+ "proof_rate": 0.2,
  "mktcap": 9759459459.0,
  "revenue": 13232432432.0,
  "employees": 23363.0,
  "silent": false,
- "per_bn_revenue": 0.08,
- "per_10k_emp": 0.43,
+ "per_bn_revenue": 0.76,
+ "per_10k_emp": 4.28,
  "benchmarks": {
   "global_vertical": {
-   "deployments": 0,
-   "confirmed": 14,
-   "proof_rate": 0,
-   "n": 60
+   "deployments": 74,
+   "confirmed": 60,
+   "proof_rate": 32,
+   "n": 63
   }
  },
- "first_seen": 2026,
+ "first_seen": 2024,
  "by_year": [
   {
-   "year": 2026,
+   "year": 2024,
+   "n": 5
+  },
+  {
+   "year": 2025,
    "n": 1
+  },
+  {
+   "year": 2026,
+   "n": 4
   }
  ],
  "undated_pct": 0,
- "momentum": "late_entrant,rising",
- "maturity": "L3",
+ "momentum": "early_mover,flat",
+ "maturity": "L4",
  "maturity_evidence": [
+  "multi_horizontal",
   "named_product:Embedding",
+  "value_number",
+  "multi_year",
   "tier_p"
  ],
- "prospect_score": 54,
- "stack": [],
- "vendor_named": false,
+ "prospect_score": 74,
+ "stack": [
+  "Microsoft",
+  "Microsoft Azure",
+  "SAP"
+ ],
+ "vendor_named": true,
  "deployments_detail": [
   {
    "company": "Sanlam",
@@ -48,6 +63,105 @@
    "url": "https://www.sanlamonline.co.za/knowledge-hub/sanlam-gives-ai-a-seat",
    "raw_sector": "Insurance",
    "date": "2026-03",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Sanlam",
+   "use": "Sanlam Global Artificial Intelligence Fund uses an AI-supported risk management strategy designed to minimise capital loss and time in loss, applied to the fund's investment/portfolio management process. [Sanlam Asset Management]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://expressapi.fundassist.com/v1/api//Files/2ee102bf-3e6a-ed11-a858-005056a103bb/1",
+   "raw_sector": "",
+   "date": "2024-01-01",
+   "fresh": "aging"
+  },
+  {
+   "company": "Sanlam",
+   "use": "AI Coach — a generative-AI digital financial coach (Sanlam Studios / Sanlam Fintech) that answers credit questions, reads and interprets clients' credit reports/scores, gives judgment-free guidance, and hands qualified leads to human advisers. Built on Voiceflow conversational-AI platform. In production since mid-2024. [Voiceflow]",
+   "existence": "confirmed",
+   "value": "45% of AI-generated offers convert to advisor conversations; 350+ active users daily with no marketing spend; ~3,000 business leads generated; conversion rates ~3x traditional methods",
+   "tier": "",
+   "url": "https://www.voiceflow.com/stories/how-sanlam-studios-ai-coach-drives-leads-and-financial-literacy",
+   "raw_sector": "",
+   "date": "2024-07-25",
+   "fresh": "aging"
+  },
+  {
+   "company": "Sanlam",
+   "use": "AI Coach expansion beyond credit into healthcare/primary-care and gap-cover coaching — Sanlam Studios' digital financial coach extended to new specialisations to help clients understand and manage healthcare-related financial decisions. [Sanlam Studios (Voiceflow)]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.moonstone.co.za/sanlams-ai-coach-expands-into-healthcare/",
+   "raw_sector": "",
+   "date": "2025-11-03",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Sanlam",
+   "use": "AI-powered support knowledge base for Sanlam's client-facing web platform, featuring suggestive/predictive search, FAQ automation and analytics on customer search terms and article engagement, built by Realm Digital. [Realm Digital]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://realmdigital.com/case-studies/sanlam-knowledge-base/",
+   "raw_sector": "",
+   "date": "2024-01-01",
+   "fresh": "aging"
+  },
+  {
+   "company": "Sanlam",
+   "use": "GitHub Copilot deployed to Sanlam's software engineers for code generation, code optimization, refactoring legacy code into modern languages, and automated unit-test data generation, alongside Azure DevOps. Sanlam described as the fastest and largest adopter of GitHub Copilot in South Africa. [Microsoft / GitHub (GitHub Copilot, Azure DevOps)]",
+   "existence": "confirmed",
+   "value": "20-30% time savings, up to 50% in some cases; one engineer reported feeling '5x more productive'",
+   "tier": "",
+   "url": "https://www.microsoft.com/en/customers/story/1743938628089055931-sanlam-azure-devops-insurance-en-south-africa",
+   "raw_sector": "",
+   "date": "2024-03-06",
+   "fresh": "aging"
+  },
+  {
+   "company": "Sanlam",
+   "use": "Intelligent automation deployed across HR/human-capital operations — service management, payments, compliance activities and administrative HR functions — as part of the SAP-led people-transformation programme. [SAP]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://news.sap.com/africa/2026/06/sanlam-advances-people-transformation-with-cloud-data-and-ai/",
+   "raw_sector": "",
+   "date": "2026-06-10",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Sanlam",
+   "use": "Predictive people analytics via the maturing Talent Intelligence function — evolved from reports/dashboards to trend analysis, insights and predictive analytics, plus an AI-supported solution to measure productivity across Sanlam business entities. [SAP]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://news.sap.com/africa/2026/06/sanlam-advances-people-transformation-with-cloud-data-and-ai/",
+   "raw_sector": "",
+   "date": "2026-06-10",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Sanlam",
+   "use": "SAP Build Robotic Process Automation (RPA) — Sanlam concluded an SAP Build RPA implementation and completed a human-capital AI pilot as part of its people-empowerment/transformation programme. [SAP (SAP Build Process Automation)]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.sanlam.com/pdf/transformation/2024/empowering-our-people.pdf",
+   "raw_sector": "",
+   "date": "2024-01-01",
+   "fresh": "aging"
+  },
+  {
+   "company": "Sanlam",
+   "use": "AI deployed in group finance/treasury to manage automated reconciliation, optimise liquidity, and detect sophisticated fraud patterns, cited alongside the appointment of a Group Chief AI Officer. [none]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.instagram.com/p/DWlSU3JDfVv/",
+   "raw_sector": "",
+   "date": "2026-04-01",
    "fresh": "fresh"
   }
  ]

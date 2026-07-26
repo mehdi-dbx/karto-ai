@@ -3,48 +3,63 @@
  "name": "Kawasaki Kisen Kaisha, Ltd.",
  "cc": "JP",
  "vertical": "Logistics & Supply Chain",
- "deployments": 2,
- "confirmed": 2,
+ "deployments": 7,
+ "confirmed": 7,
  "with_value_number": 1,
- "proof_rate": 0.5,
+ "proof_rate": 0.143,
  "mktcap": 11133333333.0,
  "revenue": 6800000000.0,
  "employees": 5262.0,
  "silent": false,
- "per_bn_revenue": 0.29,
- "per_10k_emp": 3.8,
+ "per_bn_revenue": 1.03,
+ "per_10k_emp": 13.3,
  "benchmarks": {
   "global_vertical": {
-   "deployments": 65,
-   "confirmed": 74,
-   "proof_rate": 52,
-   "n": 66
+   "deployments": 64,
+   "confirmed": 76,
+   "proof_rate": 33,
+   "n": 67
   },
   "country_vertical": {
    "deployments": 64,
-   "confirmed": 68,
-   "proof_rate": 41,
+   "confirmed": 82,
+   "proof_rate": 27,
    "n": 23
   }
  },
- "first_seen": 2026,
+ "first_seen": 2021,
  "by_year": [
+  {
+   "year": 2021,
+   "n": 2
+  },
+  {
+   "year": 2023,
+   "n": 1
+  },
+  {
+   "year": 2025,
+   "n": 1
+  },
   {
    "year": 2026,
    "n": 1
   }
  ],
- "undated_pct": 50,
- "momentum": "late_entrant,rising",
- "maturity": "L3",
+ "undated_pct": 29,
+ "momentum": "early_mover,rising",
+ "maturity": "L4",
  "maturity_evidence": [
+  "multi_horizontal",
   "named_product:Kawasaki",
   "value_number",
+  "multi_year",
   "tier_p"
  ],
- "prospect_score": 32,
+ "prospect_score": 76,
  "stack": [
-  "IBM"
+  "IBM",
+  "OpenAI"
  ],
  "vendor_named": true,
  "deployments_detail": [
@@ -69,6 +84,61 @@
    "raw_sector": "Marine Transport",
    "date": "2026",
    "fresh": "fresh"
+  },
+  {
+   "company": "Kawasaki Kisen Kaisha, Ltd.",
+   "use": "AI-powered Contract Intelligence Platform",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://safety4sea.com/k-line-sets-ai-powered-contract-intelligence-platform/",
+   "raw_sector": "",
+   "date": "2021-12-02",
+   "fresh": "stale"
+  },
+  {
+   "company": "Kawasaki Kisen Kaisha, Ltd.",
+   "use": "Generative AI enterprise deployment [exaBase Generative AI]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://exawizards.com/en/archives/29563/",
+   "raw_sector": "",
+   "date": "2025-02-13",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Kawasaki Kisen Kaisha, Ltd.",
+   "use": "AI chat service for office operations [AIplicity Chat (ChatGPT API)]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://safety4sea.com/dawn-of-a-new-era-k-line-implements-ai-software-to-boost-operations/",
+   "raw_sector": "",
+   "date": "2023-08-28",
+   "fresh": "stale"
+  },
+  {
+   "company": "Kawasaki Kisen Kaisha, Ltd.",
+   "use": "Environmental load reduction through AI data analysis [Bearing, Inc.]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.kline.com/news-and-press/2021/02/210217%20Adopting%20full%20scale%20of%20AI%20data%20analysis%20technology%20for%20environmental%20load%20reduction.pdf",
+   "raw_sector": "",
+   "date": "2021-02-17",
+   "fresh": "stale"
+  },
+  {
+   "company": "Kawasaki Kisen Kaisha, Ltd.",
+   "use": "Energy efficiency improvement in vessel operations using AI analysis",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.kline.co.jp/en/ir/library/report/main/01111111118/teaserItems1/00/file/KL_AR2025EN.pdf",
+   "raw_sector": "",
+   "date": "missing",
+   "fresh": "undated"
   }
  ]
 }

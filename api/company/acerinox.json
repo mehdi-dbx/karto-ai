@@ -3,33 +3,40 @@
  "name": "Acerinox",
  "cc": "ES",
  "vertical": "Chemicals & Materials",
- "deployments": 1,
- "confirmed": 0,
- "with_value_number": 0,
- "proof_rate": 0.0,
+ "deployments": 4,
+ "confirmed": 2,
+ "with_value_number": 1,
+ "proof_rate": 0.25,
  "mktcap": 4482000000.0,
  "revenue": 6069600000.0,
  "employees": 9094.0,
  "silent": false,
- "per_bn_revenue": 0.16,
- "per_10k_emp": 1.1,
+ "per_bn_revenue": 0.66,
+ "per_10k_emp": 4.4,
  "benchmarks": {
   "global_vertical": {
-   "deployments": 0,
-   "confirmed": 0,
-   "proof_rate": 0,
-   "n": 105
+   "deployments": 29,
+   "confirmed": 26,
+   "proof_rate": 58,
+   "n": 107
   }
  },
- "first_seen": null,
- "by_year": [],
- "undated_pct": 100,
- "momentum": "none",
- "maturity": "L1",
- "maturity_evidence": [
-  "rows_no_confirmed"
+ "first_seen": 2025,
+ "by_year": [
+  {
+   "year": 2025,
+   "n": 2
+  }
  ],
- "prospect_score": 40,
+ "undated_pct": 50,
+ "momentum": "rising",
+ "maturity": "L3",
+ "maturity_evidence": [
+  "multi_horizontal",
+  "named_product:Data",
+  "value_number"
+ ],
+ "prospect_score": 50,
  "stack": [],
  "vendor_named": false,
  "deployments_detail": [
@@ -43,6 +50,39 @@
    "raw_sector": "Steel",
    "date": "missing",
    "fresh": "undated"
+  },
+  {
+   "company": "Acerinox",
+   "use": "AI technology infrastructure and cybersecurity investments",
+   "existence": "confirmed",
+   "value": "€5 million",
+   "tier": "",
+   "url": "https://www.acerinox.com/export/sites/acerinox/es/accionistas-e-inversores/informacion-economica-financiera/informe-anual-integrado/.galleries/Informacion-Anual/2025-Acerinox-Group-Consolidated-Management-Report.pdf",
+   "raw_sector": "",
+   "date": "2025",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Acerinox",
+   "use": "Data analysis training and operational excellence through data-driven use cases",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.acerinox.com/en/innovacion/",
+   "raw_sector": "",
+   "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "Acerinox",
+   "use": "Cybersecurity threat monitoring and risk management related to AI",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.acerinox.com/export/sites/acerinox/.content/galerias/galeria-descargas/informacion-eco-financiera/memoria-e-informe-anual/2025-Acerinox-S.A.-Management-Report.pdf",
+   "raw_sector": "",
+   "date": "2025",
+   "fresh": "fresh"
   }
  ]
 }

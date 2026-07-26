@@ -3,41 +3,70 @@
  "name": "PG&E Corporation",
  "cc": "US",
  "vertical": "Energy & Utilities",
- "deployments": 1,
- "confirmed": 1,
- "with_value_number": 1,
- "proof_rate": 1.0,
+ "deployments": 11,
+ "confirmed": 11,
+ "with_value_number": 7,
+ "proof_rate": 0.636,
  "mktcap": 39200000000.0,
  "revenue": 25840000000.0,
  "employees": 29010.0,
  "silent": false,
- "per_bn_revenue": 0.04,
- "per_10k_emp": 0.34,
+ "per_bn_revenue": 0.43,
+ "per_10k_emp": 3.79,
  "benchmarks": {
   "global_vertical": {
-   "deployments": 0,
-   "confirmed": 20,
-   "proof_rate": 75,
-   "n": 210
+   "deployments": 86,
+   "confirmed": 93,
+   "proof_rate": 92,
+   "n": 213
   },
   "country_vertical": {
-   "deployments": 0,
-   "confirmed": 39,
-   "proof_rate": 92,
+   "deployments": 90,
+   "confirmed": 98,
+   "proof_rate": 98,
    "n": 52
   }
  },
- "first_seen": null,
- "by_year": [],
- "undated_pct": 100,
- "momentum": "none",
- "maturity": "L3",
- "maturity_evidence": [
-  "value_number"
+ "first_seen": 2021,
+ "by_year": [
+  {
+   "year": 2021,
+   "n": 1
+  },
+  {
+   "year": 2023,
+   "n": 1
+  },
+  {
+   "year": 2024,
+   "n": 2
+  },
+  {
+   "year": 2025,
+   "n": 5
+  },
+  {
+   "year": 2026,
+   "n": 1
+  }
  ],
- "prospect_score": 14,
- "stack": [],
- "vendor_named": false,
+ "undated_pct": 9,
+ "momentum": "early_mover,rising",
+ "maturity": "L4",
+ "maturity_evidence": [
+  "multi_horizontal",
+  "named_product:Peggy",
+  "value_number",
+  "multi_year"
+ ],
+ "prospect_score": 75,
+ "stack": [
+  "Microsoft",
+  "NVIDIA",
+  "Palantir",
+  "SAP"
+ ],
+ "vendor_named": true,
  "deployments_detail": [
   {
    "company": "PG&E Corporation",
@@ -49,6 +78,116 @@
    "raw_sector": "Utilities",
    "date": "missing",
    "fresh": "undated"
+  },
+  {
+   "company": "PG&E Corporation",
+   "use": "Peggy internal IT helpdesk chatbot answering employee questions (Citrix login, SAP account unlocks) at PG&E's Technology Service Center [Microsoft Copilot Studio / Power Platform (formerly Power Virtual Agents)]",
+   "existence": "confirmed",
+   "value": "Fulfills 25-40% of helpdesk demand; saves $1.1M+ annually; SAP automation saves 840 hours/year",
+   "tier": "",
+   "url": "https://www.microsoft.com/en/customers/story/1709539049606899869-pacific-gas-and-electric-microsoft-power-apps-energy-usa",
+   "raw_sector": "",
+   "date": "2023-12-04",
+   "fresh": "stale"
+  },
+  {
+   "company": "PG&E Corporation",
+   "use": "On-site generative AI (Neutron Enterprise) for document management and retrieval at Diablo Canyon nuclear plant using OCR, RAG and semantic search - first on-site generative AI deployment at a US nuclear plant [Atomic Canyon, built on NVIDIA full-stack AI platform (FERMI models)]",
+   "existence": "confirmed",
+   "value": "Cuts document search times from hours to seconds",
+   "tier": "",
+   "url": "https://investor.pgecorp.com/news-events/press-releases/press-release-details/2024/PGE-Launches-First-Commercial-Deployment-of-On-Site-Generative-AI-Solution-for-the-Nuclear-Energy-Sector-at-Diablo-Canyon/default.aspx",
+   "raw_sector": "",
+   "date": "2024-11-13",
+   "fresh": "aging"
+  },
+  {
+   "company": "PG&E Corporation",
+   "use": "AI-powered high-definition wildfire cameras that automatically detect smoke and generate wildfire alerts across high fire-risk areas [ALERTWest / ALERTCalifornia (UC San Diego)]",
+   "existence": "confirmed",
+   "value": "630+ AI cameras monitoring 90% of high fire-risk areas",
+   "tier": "",
+   "url": "https://www.pge.com/en/newsroom/currents/future-of-energy/pg-e-using-machine-learning-to-build-a-smarter--more-resilient-g.html",
+   "raw_sector": "",
+   "date": "2025-11-07",
+   "fresh": "fresh"
+  },
+  {
+   "company": "PG&E Corporation",
+   "use": "Continuous Monitoring Center using SmartDetect machine-learning models that scan SmartMeter and sensor data to detect grid anomalies/faults and prevent wildfires and outages [PG&E (integrates data from 5.5M smart meters and tens of thousands of sensors)]",
+   "existence": "confirmed",
+   "value": "Intercepted 17 potential ignitions; avoided 12M outage minutes; cut response time by 2,620 hours; ~$6M saved; 1,484 good catches in 2025",
+   "tier": "",
+   "url": "https://investor.pgecorp.com/news-events/press-releases/press-release-details/2026/PGE-Unveils-First-of-its-kind-Monitoring-Hub-That-Helped-Prevent-17-Wildfires-and-Over-a-Thousand-Outages/default.aspx",
+   "raw_sector": "",
+   "date": "2026-05-01",
+   "fresh": "fresh"
+  },
+  {
+   "company": "PG&E Corporation",
+   "use": "AI-powered asset management (CORE software) creating digital twins from LiDAR/RGB imagery with segmentation and tree species identification for vegetation management and wildfire risk modeling [Sharper Shape]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://dronelife.com/2025/01/13/pge-embraces-ai-powered-asset-management-with-sharper-shapes-core-software/",
+   "raw_sector": "",
+   "date": "2025-01-13",
+   "fresh": "fresh"
+  },
+  {
+   "company": "PG&E Corporation",
+   "use": "Fully remote autonomous drone-based inspection of electric infrastructure (X10 drone with Dock and Remote Ops software) automating data capture for equipment inspections [Skydio]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.skydio.com/customer-stories/pacific-gas-and-electric",
+   "raw_sector": "",
+   "date": "2024-05-31",
+   "fresh": "aging"
+  },
+  {
+   "company": "PG&E Corporation",
+   "use": "Foundry data-analytics platform integrating real-time grid conditions, asset and outage data to improve electric operations, asset management, safety and reliability [Palantir Technologies (Foundry)]",
+   "existence": "confirmed",
+   "value": "PG&E committed $200M-$300M investment over the term of the deal",
+   "tier": "",
+   "url": "https://www.hpcwire.com/bigdatawire/2021/01/21/pge-deploys-palantirs-foundry-platform/",
+   "raw_sector": "",
+   "date": "2021-01-21",
+   "fresh": "stale"
+  },
+  {
+   "company": "PG&E Corporation",
+   "use": "Machine-learning weather models that predict outages and fire risks to enable faster, proactive grid response [PG&E]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.pge.com/en/newsroom/currents/future-of-energy/pg-e-using-machine-learning-to-build-a-smarter--more-resilient-g.html",
+   "raw_sector": "",
+   "date": "2025-11-07",
+   "fresh": "fresh"
+  },
+  {
+   "company": "PG&E Corporation",
+   "use": "Peggy customer-facing voice AI agent handling outage notifications, billing inquiries and FAQs in English and Spanish on PG&E's phone lines, replacing legacy IVR [PolyAI]",
+   "existence": "confirmed",
+   "value": "35,000+ labor hours saved; 67% call containment (vs 3.5% target); +22% CSAT on outage calls; -25% customer effort; 4.7M calls handled",
+   "tier": "",
+   "url": "https://poly.ai/customers/pge",
+   "raw_sector": "",
+   "date": "2025",
+   "fresh": "fresh"
+  },
+  {
+   "company": "PG&E Corporation",
+   "use": "Service Planning AI Companion chatbot that searches 1,400+ documents (utility rules, 1,050-page Greenbook Manual) to help the Service Planning & Design team answer customer/project questions [Built internally by PG&E Business Technology team]",
+   "existence": "confirmed",
+   "value": "Saves reps 1+ hour/day; 1,400+ hours saved in first month (~$200K); estimated up to $30M savings over 2 years",
+   "tier": "",
+   "url": "https://www.pge.com/en/newsroom/currents/customer-service/ai-helps-service-planning-with-project-and-customer-connections.html",
+   "raw_sector": "",
+   "date": "2025-08-01",
+   "fresh": "fresh"
   }
  ]
 }

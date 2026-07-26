@@ -3,41 +3,55 @@
  "name": "Legal & General",
  "cc": "UK",
  "vertical": "Insurance",
- "deployments": 1,
- "confirmed": 1,
- "with_value_number": 0,
- "proof_rate": 0.0,
+ "deployments": 3,
+ "confirmed": 2,
+ "with_value_number": 1,
+ "proof_rate": 0.333,
  "mktcap": 20802600000.0,
  "revenue": 13957300000.0,
  "employees": 10500.0,
  "silent": false,
- "per_bn_revenue": 0.07,
- "per_10k_emp": 0.95,
+ "per_bn_revenue": 0.21,
+ "per_10k_emp": 2.86,
  "benchmarks": {
   "global_vertical": {
-   "deployments": 0,
-   "confirmed": 14,
-   "proof_rate": 0,
-   "n": 60
+   "deployments": 10,
+   "confirmed": 15,
+   "proof_rate": 58,
+   "n": 63
   },
   "country_vertical": {
    "deployments": 0,
-   "confirmed": 14,
-   "proof_rate": 0,
+   "confirmed": 29,
+   "proof_rate": 57,
    "n": 8
   }
  },
- "first_seen": null,
- "by_year": [],
- "undated_pct": 100,
- "momentum": "none",
+ "first_seen": 2025,
+ "by_year": [
+  {
+   "year": 2025,
+   "n": 1
+  },
+  {
+   "year": 2026,
+   "n": 1
+  }
+ ],
+ "undated_pct": 33,
+ "momentum": "rising",
  "maturity": "L3",
  "maturity_evidence": [
+  "multi_horizontal",
   "named_product:AWS"
  ],
- "prospect_score": 46,
+ "prospect_score": 39,
  "stack": [
-  "Amazon AWS"
+  "Amazon AWS",
+  "Microsoft",
+  "Microsoft Azure",
+  "OpenAI",
+  "Snowflake"
  ],
  "vendor_named": true,
  "deployments_detail": [
@@ -51,6 +65,116 @@
    "raw_sector": "Life insurance",
    "date": "missing",
    "fresh": "undated"
+  },
+  {
+   "company": "Legal & General",
+   "use": "AI for Business Value programme - upskilling 50 employees in AI capabilities to drive efficiencies [Multiverse]",
+   "existence": "claimed",
+   "value": "12%",
+   "tier": "",
+   "url": "https://group.legalandgeneral.com/newsroom/press-releases/2025/1/l-g-launches-new-ai-for-business-value-programme-in-partnership-with-multiverse/",
+   "raw_sector": "",
+   "date": "2025-01-30",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Legal & General",
+   "use": "AI-powered customer service platform for Retail (workplace savings, retail protection, annuities): unified agent desktop with real-time customer views, conversation/sentiment analysis, auto-transcription, case summaries and next-best-action recommendations [Microsoft (Dynamics 365 Contact Center, Copilot, Azure, Power Platform)]",
+   "existence": "confirmed",
+   "value": "Serves 12.4M customers; workplace savings CSAT 82.6 vs UK average 77.3; 8-point YoY NPS increase in Q1 in DC & Workplace Savings; claim times cut by nearly two weeks",
+   "tier": "",
+   "url": "https://group.legalandgeneral.com/newsroom/press-releases/2025/10/l-g-announces-collaboration-with-microsoft-to-drive-customer-focused-ai-transformation/",
+   "raw_sector": "",
+   "date": "2025-10-15",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Legal & General",
+   "use": "Generative AI chatbot for the group protection business letting customer service reps query policy terms and conditions in natural language and get answers with hyperlinks to source documents, reducing training time and speeding adviser responses [OpenAI (internally-hosted 'safe' ChatGPT-based tool)]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://healthcareandprotection.com/legal-general-launches-gen-ai-chatbot-for-more-efficient-adviser-responses/amp/",
+   "raw_sector": "",
+   "date": "2024-05",
+   "fresh": "aging"
+  },
+  {
+   "company": "Legal & General",
+   "use": "AI virtual assistant / conversational agent for Legal & General Insurance to handle high volumes of inbound customer enquiries and self-service [EBI.AI]",
+   "existence": "claimed",
+   "value": "83% of customers helped via the AI reportedly preferred it (per vendor case study)",
+   "tier": "",
+   "url": "https://ebi.ai/blog/legalandgeneral-insurance-ai-case-study/",
+   "raw_sector": "",
+   "date": "2021-06-09",
+   "fresh": "stale"
+  },
+  {
+   "company": "Legal & General",
+   "use": "Real-time customer data orchestration feeding AI/predictive models and agents with consented, real-time customer context and writing predictions back into profiles/channels for personalised marketing and CX; foundation for planned LLM-powered chatbots [Tealium (real-time CDP, MCP integration) + Snowflake (analytics)]",
+   "existence": "confirmed",
+   "value": "54% increase in call-to-lead conversions; 15% boost in application completions",
+   "tier": "",
+   "url": "https://tealium.com/press-releases/legal-and-general-snowflake-case-study/",
+   "raw_sector": "",
+   "date": "2025-08-12",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Legal & General",
+   "use": "Generative AI on AWS in L&G Retail for operational efficiency, extending the document platform to new customer-focused use cases (e.g., complaint management, underwriting support, and customer feedback analysis) on a modular, serverless architecture [AWS (Amazon Bedrock generative AI)]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://aws.amazon.com/solutions/case-studies/aws-innovator-legal-and-general/",
+   "raw_sector": "",
+   "date": "2024",
+   "fresh": "aging"
+  },
+  {
+   "company": "Legal & General",
+   "use": "Docusort intelligent document processing in UK Retail Retirements: classifies inbound paper/scanned documents, extracts data with Amazon Textract, and pushes it to backend systems via ML models managed in Amazon SageMaker [AWS (Amazon Textract, Amazon SageMaker)]",
+   "existence": "confirmed",
+   "value": "Processes 1,000s of documents concurrently in 30 minutes; serves 5.2M workplace pension members; handles 1M+ paper documents annually; enabled redeployment of 5 employees",
+   "tier": "",
+   "url": "https://aws.amazon.com/solutions/case-studies/legal-general/",
+   "raw_sector": "",
+   "date": "2023",
+   "fresh": "stale"
+  },
+  {
+   "company": "Legal & General",
+   "use": "Enterprise rollout of Microsoft 365 Copilot to all employees to embed generative AI into everyday productivity tools (email, documents, meetings), plus expanded Azure use to modernise infrastructure [Microsoft (Microsoft 365 Copilot, Azure)]",
+   "existence": "confirmed",
+   "value": "Deployed to all 10,000 employees globally",
+   "tier": "",
+   "url": "https://group.legalandgeneral.com/newsroom/press-releases/2026/6/lg-expands-microsoft-collaboration-to-accelerate-ai-enablement-and-transform-customer-experience/",
+   "raw_sector": "",
+   "date": "2026-06-16",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Legal & General",
+   "use": "'AI for Business Value' enterprise upskilling programme (L&G AI Academy) to train colleagues to identify AI opportunities, implement AI solutions responsibly, and automate manual processes across the group [Multiverse]",
+   "existence": "confirmed",
+   "value": "Initial cohort of 50 colleagues; 13-month apprenticeship-levy-funded course",
+   "tier": "",
+   "url": "https://group.legalandgeneral.com/newsroom/press-releases/2025/1/l-g-launches-new-ai-for-business-value-programme-in-partnership-with-multiverse/",
+   "raw_sector": "",
+   "date": "2025-01-30",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Legal & General",
+   "use": "Microsoft 365 Copilot deployment to all 10,000 employees globally [Microsoft 365 Copilot]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://group.legalandgeneral.com/newsroom/press-releases/2026/6/lg-expands-microsoft-collaboration-to-accelerate-ai-enablement-and-transform-customer-experience/",
+   "raw_sector": "",
+   "date": "2026-06-16",
+   "fresh": "fresh"
   }
  ]
 }

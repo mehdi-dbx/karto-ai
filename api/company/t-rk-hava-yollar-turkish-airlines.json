@@ -1,0 +1,178 @@
+{
+ "slug": "t-rk-hava-yollar-turkish-airlines",
+ "name": "Türk Hava Yolları (Turkish Airlines)",
+ "cc": "TR",
+ "vertical": "Travel & Hospitality",
+ "deployments": 11,
+ "confirmed": 10,
+ "with_value_number": 3,
+ "proof_rate": 0.273,
+ "mktcap": null,
+ "revenue": null,
+ "employees": null,
+ "silent": false,
+ "per_bn_revenue": null,
+ "per_10k_emp": null,
+ "benchmarks": {
+  "global_vertical": {
+   "deployments": 85,
+   "confirmed": 92,
+   "proof_rate": 70,
+   "n": 41
+  }
+ },
+ "first_seen": 2020,
+ "by_year": [
+  {
+   "year": 2020,
+   "n": 1
+  },
+  {
+   "year": 2024,
+   "n": 2
+  },
+  {
+   "year": 2025,
+   "n": 8
+  }
+ ],
+ "undated_pct": 0,
+ "momentum": "early_mover,rising",
+ "maturity": "L4",
+ "maturity_evidence": [
+  "multi_horizontal",
+  "named_product:Enterprise",
+  "value_number",
+  "multi_year"
+ ],
+ "prospect_score": 89,
+ "stack": [
+  "Anthropic",
+  "DeepSeek",
+  "Meta"
+ ],
+ "vendor_named": true,
+ "deployments_detail": [
+  {
+   "company": "Türk Hava Yolları (Turkish Airlines)",
+   "use": "Enterprise AI/ML platform on Red Hat OpenShift AI running 60+ live AI models in production (with 40+ more in development), used by 200+ staff; halved deployment times and manages the GPU farm [Red Hat (OpenShift AI); also builds custom LLMs on open-source Llama/DeepSeek]",
+   "existence": "confirmed",
+   "value": "60+ live AI models; deployment time halved; 200+ employees on platform",
+   "tier": "",
+   "url": "https://www.redhat.com/en/about/press-releases/turkish-airlines-pioneers-ai-led-innovation-aviation-red-hat-openshift-ai",
+   "raw_sector": "",
+   "date": "2025-05-20",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Türk Hava Yolları (Turkish Airlines)",
+   "use": "TK Assistant / 'Sema' AI-based smart travel assistant chatbot for customer support (flight status, check-in, ticketing, Miles&Smiles, pet transport), available 24/7 via web and WhatsApp [none stated]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.turkishairlines.com/en-int/any-questions/get-in-touch/",
+   "raw_sector": "",
+   "date": "2025-03",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Türk Hava Yolları (Turkish Airlines)",
+   "use": "Cargy — Turkish Cargo's AI-powered digital assistant / chatbot letting customers query shipment status, rates, dates and flights 24/7 via WhatsApp in Turkish and English (upgraded to Cargy 2.0) [Palmate (Cargy 2.0 AI platform)]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.turkishcargo.com/en/cargy",
+   "raw_sector": "",
+   "date": "2020-07-10",
+   "fresh": "stale"
+  },
+  {
+   "company": "Türk Hava Yolları (Turkish Airlines)",
+   "use": "AI models for real-time dynamic pricing of airline ticket sales based on passenger and behavioral data [Red Hat OpenShift AI]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.redhat.com/en/resources/turkish-airlines-case-study",
+   "raw_sector": "",
+   "date": "2025-06-03",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Türk Hava Yolları (Turkish Airlines)",
+   "use": "PROS AI Price Elasticity / Elasticity Forecasting and Optimization for revenue management, improving forecast accuracy at class block level as foundation for dynamic pricing [PROS]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://pros.com/learn/case-studies-testimonials/turkish-airlines-adopts-pros-price-elasticity-optimization-improve-forecast-accuracy-move-towards-dynamic-pricing/",
+   "raw_sector": "",
+   "date": "2024-08-07",
+   "fresh": "aging"
+  },
+  {
+   "company": "Türk Hava Yolları (Turkish Airlines)",
+   "use": "Turkish Cargo Air Cargo Revenue Management (ACRM) system using AI for differentiated real-time pricing, optimized booking offers and automated sales decisions from demand/capacity predictions [easie (ICRON aviation brand), with Turkish Technology and Invent]",
+   "existence": "confirmed",
+   "value": "2% increase in annual revenue within six months",
+   "tier": "",
+   "url": "https://www.easietech.com/resources/news-and-press-releases/turkish-cargo-partners-with-easie-to-launch-ai-powered-air-cargo-revenue-management-system",
+   "raw_sector": "",
+   "date": "2024-02",
+   "fresh": "aging"
+  },
+  {
+   "company": "Türk Hava Yolları (Turkish Airlines)",
+   "use": "AI fraud-prevention models detecting fraudulent transactions across customer card payments and the Miles&Smiles loyalty program [Red Hat OpenShift AI]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.travelandtourworld.com/news/article/turkish-airlines-accelerates-breakthrough-ai-deployments-across-353-destinations-driving-revenue-growth-and-operational-resilience-with-red-hats-state-of-the-art-open-source-hybrid-cloud-pla/",
+   "raw_sector": "",
+   "date": "2025-05-21",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Türk Hava Yolları (Turkish Airlines)",
+   "use": "Machine learning combined with optimization models to assign aircraft to routes efficiently and improve flight planning/fuel loading, cutting fuel consumption [Red Hat OpenShift AI]",
+   "existence": "confirmed",
+   "value": "$10 million fuel cost savings",
+   "tier": "",
+   "url": "https://siliconangle.com/2025/05/27/turkish-airlines-boosts-efficiency-red-hat-openshift-ai-rhsummit/",
+   "raw_sector": "",
+   "date": "2025-05-27",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Türk Hava Yolları (Turkish Airlines)",
+   "use": "Turkish Technic predictive maintenance using ML on aircraft component sensor data to forecast failures before they occur, integrated into base maintenance, component pooling and spare-parts operations for on-time line maintenance [none stated]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.linkedin.com/posts/turkish-technic_getting-ahead-with-predictive-maintenance-activity-7425146007979626496-RBbz",
+   "raw_sector": "",
+   "date": "2025",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Türk Hava Yolları (Turkish Airlines)",
+   "use": "Smart baggage tracking service letting passengers register a photo of their luggage and locate it in real time; uses SmartThings Find image/AI features connected to 700M+ devices to identify and reconcile bags [Samsung (SmartThings Find)]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://news.samsung.com/global/samsung-partners-with-turkish-airlines-to-elevate-the-travel-experience",
+   "raw_sector": "",
+   "date": "2025-12-01",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Türk Hava Yolları (Turkish Airlines)",
+   "use": "Turkish Airlines MCP Server — a Model Context Protocol server (13 tools) letting AI assistants like Claude access live airline data for flight search, booking/reservation management, check-in and Miles&Smiles; billed as the first airline MCP server [Turkish Technology Digital Lab; Anthropic Claude (via Claude.ai/Desktop), also model-agnostic]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://turkishtechnology.com/en/blog/revolutionizing-travel-ai-how-we-built-turkish-airlines",
+   "raw_sector": "",
+   "date": "2025-12",
+   "fresh": "fresh"
+  }
+ ]
+}

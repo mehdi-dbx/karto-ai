@@ -3,28 +3,28 @@
  "name": "Lockheed Martin",
  "cc": "US",
  "vertical": "Industrial / Machinery",
- "deployments": 1,
- "confirmed": 1,
+ "deployments": 6,
+ "confirmed": 2,
  "with_value_number": 0,
  "proof_rate": 0.0,
  "mktcap": 130270000000.0,
  "revenue": 77010000000.0,
  "employees": 123000.0,
  "silent": false,
- "per_bn_revenue": 0.01,
- "per_10k_emp": 0.08,
+ "per_bn_revenue": 0.08,
+ "per_10k_emp": 0.49,
  "benchmarks": {
   "global_vertical": {
-   "deployments": 0,
-   "confirmed": 14,
+   "deployments": 53,
+   "confirmed": 26,
    "proof_rate": 0,
-   "n": 175
+   "n": 176
   },
   "country_vertical": {
-   "deployments": 0,
-   "confirmed": 19,
+   "deployments": 54,
+   "confirmed": 24,
    "proof_rate": 0,
-   "n": 80
+   "n": 81
   }
  },
  "first_seen": null,
@@ -33,13 +33,17 @@
  "momentum": "none",
  "maturity": "L3",
  "maturity_evidence": [
+  "multi_horizontal",
   "named_product:Astris AI",
   "tier_p"
  ],
- "prospect_score": 46,
+ "prospect_score": 52,
  "stack": [
+  "Google",
+  "Google Cloud",
   "NVIDIA",
-  "Oracle"
+  "Oracle",
+  "Palantir"
  ],
  "vendor_named": true,
  "deployments_detail": [
@@ -52,6 +56,61 @@
    "url": "https://news.lockheedmartin.com/Lockheed-Martin-Launches-Astris-AI-to-Enable-Secure-AI-Solutions-Across-Industries",
    "raw_sector": "Industrials",
    "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "Lockheed Martin",
+   "use": "Generative AI model training, deployment, and sustainability for national security applications [Google Cloud]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.lockheedmartin.com/en-us/news/features/2025/lockheed-martin-google-collaborate-to-advance-generative-ai-national-security.html",
+   "raw_sector": "",
+   "date": "Mar 27, 2025",
+   "fresh": "undated"
+  },
+  {
+   "company": "Lockheed Martin",
+   "use": "Named as a Palantir customer/case study [Palantir] [Palantir]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.appsruntheworld.com/customers-database/products/view/palantir-aip-platform",
+   "raw_sector": "",
+   "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "Lockheed Martin",
+   "use": "Integration of Google Gemini generative AI tools into AI Factory for workflow operations [Google Gemini]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.lockheedmartin.com/en-us/news/features/2025/lockheed-martin-google-collaborate-to-advance-generative-ai-national-security.html",
+   "raw_sector": "",
+   "date": "Mar 27, 2025",
+   "fresh": "undated"
+  },
+  {
+   "company": "Lockheed Martin",
+   "use": "LMText Navigator for post-mission analytics, software code generation and testing, and information extraction",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.lockheedmartin.com/en-us/news/features/2024/empowering-innovation-with-secure-generative-ai-across-enterprise.html",
+   "raw_sector": "",
+   "date": "Oct 8, 2024",
+   "fresh": "undated"
+  },
+  {
+   "company": "Lockheed Martin",
+   "use": "AI-powered threat detection systems for real-time identification and response to cybersecurity threats",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.lockheedmartin.com/en-us/news/features/2025/pioneering-Innovation-how-lockheed-martin-is-using-ai-to-transform-cybersecurity.html",
+   "raw_sector": "",
+   "date": "May 5, 2025",
    "fresh": "undated"
   }
  ]

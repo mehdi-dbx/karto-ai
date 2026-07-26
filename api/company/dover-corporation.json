@@ -3,28 +3,28 @@
  "name": "Dover Corporation",
  "cc": "US",
  "vertical": "Industrial / Machinery",
- "deployments": 1,
- "confirmed": 1,
+ "deployments": 5,
+ "confirmed": 3,
  "with_value_number": 0,
  "proof_rate": 0.0,
  "mktcap": 26620000000.0,
  "revenue": 8420000000.0,
  "employees": 24000.0,
  "silent": false,
- "per_bn_revenue": 0.12,
- "per_10k_emp": 0.42,
+ "per_bn_revenue": 0.59,
+ "per_10k_emp": 2.08,
  "benchmarks": {
   "global_vertical": {
-   "deployments": 0,
-   "confirmed": 14,
+   "deployments": 38,
+   "confirmed": 39,
    "proof_rate": 0,
-   "n": 175
+   "n": 176
   },
   "country_vertical": {
-   "deployments": 0,
-   "confirmed": 19,
+   "deployments": 35,
+   "confirmed": 34,
    "proof_rate": 0,
-   "n": 80
+   "n": 81
   }
  },
  "first_seen": null,
@@ -33,13 +33,47 @@
  "momentum": "none",
  "maturity": "L3",
  "maturity_evidence": [
+  "multi_horizontal",
   "named_product:Dover Digital Labs",
   "tier_p"
  ],
- "prospect_score": 54,
+ "prospect_score": 66,
  "stack": [],
  "vendor_named": false,
  "deployments_detail": [
+  {
+   "company": "Dover Corporation",
+   "use": "License plate recognition for vehicle wash club members",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://investors.dovercorporation.com/news-releases/news-release-details/innovative-control-systems-introduces-new-ai-powered-license",
+   "raw_sector": "",
+   "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "Dover Corporation",
+   "use": "AI data center cooling products for hyperscalers",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.reuters.com/technology/dovers-quarterly-profit-rises-high-demand-ai-data-center-cooling-products-2026-01-29/",
+   "raw_sector": "",
+   "date": "Jan 29, 2026",
+   "fresh": "undated"
+  },
+  {
+   "company": "Dover Corporation",
+   "use": "AI inference engine for autonomous forklift sensor data verification",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "http://www.dovermicrosystems.com/wp-content/uploads/2024/05/Dover-Microsystems-Securing-AI-ML.pdf",
+   "raw_sector": "",
+   "date": "missing",
+   "fresh": "undated"
+  },
   {
    "company": "Dover Corporation",
    "use": "\"Dover Digital Labs\" AI/ML hub + AI-powered visualization software for industrial equipment; condition-based maintenance",
@@ -48,6 +82,17 @@
    "tier": "P",
    "url": "https://www.dovercorporation.com/about-us/overview",
    "raw_sector": "Industrials",
+   "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "Dover Corporation",
+   "use": "AI-powered configure price quote (CPQ) and aftermarket spare part search",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.dovercorporation.com/2025overview/",
+   "raw_sector": "",
    "date": "missing",
    "fresh": "undated"
   }

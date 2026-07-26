@@ -3,33 +3,49 @@
  "name": "Generali",
  "cc": "IT",
  "vertical": "Insurance",
- "deployments": 2,
- "confirmed": 2,
- "with_value_number": 1,
- "proof_rate": 0.5,
+ "deployments": 11,
+ "confirmed": 11,
+ "with_value_number": 5,
+ "proof_rate": 0.455,
  "mktcap": 69087600000.0,
  "revenue": 62424000000.0,
  "employees": 82951.0,
  "silent": false,
- "per_bn_revenue": 0.03,
- "per_10k_emp": 0.24,
+ "per_bn_revenue": 0.18,
+ "per_10k_emp": 1.33,
  "benchmarks": {
   "global_vertical": {
-   "deployments": 54,
-   "confirmed": 68,
-   "proof_rate": 54,
-   "n": 60
+   "deployments": 81,
+   "confirmed": 87,
+   "proof_rate": 74,
+   "n": 63
   }
  },
- "first_seen": 2022,
+ "first_seen": 2019,
  "by_year": [
+  {
+   "year": 2019,
+   "n": 1
+  },
+  {
+   "year": 2021,
+   "n": 1
+  },
   {
    "year": 2022,
    "n": 1
   },
   {
+   "year": 2024,
+   "n": 2
+  },
+  {
    "year": 2025,
-   "n": 1
+   "n": 4
+  },
+  {
+   "year": 2026,
+   "n": 2
   }
  ],
  "undated_pct": 0,
@@ -42,9 +58,16 @@
   "multi_year",
   "tier_p"
  ],
- "prospect_score": 40,
- "stack": [],
- "vendor_named": false,
+ "prospect_score": 82,
+ "stack": [
+  "Capgemini",
+  "Google",
+  "Google Cloud",
+  "Microsoft",
+  "Microsoft Azure",
+  "OpenAI"
+ ],
+ "vendor_named": true,
  "deployments_detail": [
   {
    "company": "Generali",
@@ -59,6 +82,61 @@
   },
   {
    "company": "Generali",
+   "use": "Generali Global Corporate & Commercial (GC&C) launched GlobalTracer, a proprietary generative-AI solution that verifies local policy terms, identifies coverage gaps and analyzes large documentation volumes to improve accuracy and alignment across multinational insurance programs in 180+ countries. [Generali proprietary (Generative AI; vendor not disclosed)]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.generaliglobalcorporate.com/media/press-releases/all/2026/Generali-GCC-launches-GlobalTracer-a-new-Generative-AI-driven-solution-enhancing-accuracy-in-Multinational-Programs.html",
+   "raw_sector": "",
+   "date": "2026-02-19",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Generali",
+   "use": "Generali GC&C deployed AGORA, a Gen AI-powered SaaS underwriting platform (Capgemini implementation on Microsoft Dynamics 365 / Power Platform) automating pre-bind underwriting, document management, and data extraction/enrichment across 25 countries, replacing legacy systems. [Capgemini + Microsoft (Dynamics 365, Power Platform, SharePoint) with Gen AI assistant]",
+   "existence": "confirmed",
+   "value": "80% faster pre-bind underwriting; 60% lower licensing cost; 75% lower support/maintenance staffing; 75% fewer service desk tickets",
+   "tier": "",
+   "url": "https://www.capgemini.com/us-en/news/client-stories/generali-gcc-transforms-its-underwriting-business-to-increase-efficiency-by-80/",
+   "raw_sector": "",
+   "date": "2025-01-01",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Generali",
+   "use": "Generali Italia used Google Cloud AutoML/AutoML Vision and Cloud TPU to build automated claims processing for simple auto accident claims (customers upload photos/info, AI estimates claim value and delivers fast cash settlement); 80+ predictive models in production. Also uses AI for IFRS 17 simulations and customer knowledge-base virtual assistants. [Google Cloud (AutoML, AutoML Vision, Cloud TPU)]",
+   "existence": "confirmed",
+   "value": "80+ predictive models in production; projects delivered in weeks/months instead of years",
+   "tier": "",
+   "url": "https://cloud.google.com/customers/generali",
+   "raw_sector": "",
+   "date": "2021-01-01",
+   "fresh": "stale"
+  },
+  {
+   "company": "Generali",
+   "use": "Generali expanded deployment of Intermap's Aquarius Risk Management & Analytics (RMA), an AI-enabled risk platform using high-resolution 3D terrain and peril analytics, for underwriting, accumulation management, reinsurance and portfolio modeling across Central & Eastern Europe (Czech Republic, then Poland, Hungary, Slovenia). [Intermap (Aquarius RMA)]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.intermap.com/pressreleases/generali-expands-deployment-of-intermaps-ai-enabled-risk-platform-in-central-and-eastern-europe",
+   "raw_sector": "",
+   "date": "2026-06-01",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Generali",
+   "use": "Generali Hong Kong deployed CoverGo's Intelligent Document Processing (IDP) AI agent to automate health insurance claims, extracting data from unstructured documents (claim forms, medical reports, invoices), mapping ICD/benefit codes and producing structured decision-ready data in real time. [CoverGo (IDP AI agent)]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://covergo.com/news/generali-automates-health-claims-with-covergos-intelligent-document-processing-ai-agent/",
+   "raw_sector": "",
+   "date": "2025-01-01",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Generali",
    "use": "MIT collaboration (3 research teams): risk modeling, claims assessment, smart underwriting",
    "existence": "confirmed",
    "value": "NONE (research, from Jan 2025)",
@@ -67,6 +145,50 @@
    "raw_sector": "Insurance",
    "date": "2025-01",
    "fresh": "fresh"
+  },
+  {
+   "company": "Generali",
+   "use": "Generali France deployed Shift Technology's AI-native fraud detection (Force) for property & casualty claims (multi-risk home and business), cross-referencing internal and third-party data to generate suspicion scores and fraud alerts for adjusters; expanded from an auto-insurance partnership begun in 2016. [Shift Technology (Force)]",
+   "existence": "confirmed",
+   "value": "~3,000 claims analyzed daily; target 2% fraud detection rate on 107,000 P&C claims",
+   "tier": "",
+   "url": "https://www.shift-technology.com/resources/news/lintelligence-articificielle-au-service-de-la-detection-des-fraudes-a-lassurance-dommages?hs_amp=true",
+   "raw_sector": "",
+   "date": "2019-10-01",
+   "fresh": "stale"
+  },
+  {
+   "company": "Generali",
+   "use": "Generali France equipped 3,700 employees with Microsoft 365 Copilot, Copilot Studio and Azure OpenAI, with ~50 specialized agents and 17 live business use cases; 100% of staff have Copilot Chat access. AI resolves 1.3M calls (30% of requests) without human intervention. [Microsoft (M365 Copilot, Copilot Studio, Azure OpenAI)]",
+   "existence": "confirmed",
+   "value": "3,700 employees on Copilot; 1.3M calls (30%) resolved by AI without human intervention; 70% adoption",
+   "tier": "",
+   "url": "https://www.microsoft.com/en/customers/story/25382-generali-microsoft-365-copilot",
+   "raw_sector": "",
+   "date": "2025-09-30",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Generali",
+   "use": "Generali Switzerland launched 'Chatty', a generative-AI customer-service chatbot (built on DocBrain and ChatGPT with Enterprise Bot / HITS) that helps customers select policies, answers coverage questions and assists with claims in four languages (German, French, Italian, English). [Enterprise Bot / HITS (DocBrain + OpenAI ChatGPT)]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.generali.com/thepulse/2024/Generali-Switzerland-launches-Chatty",
+   "raw_sector": "",
+   "date": "2024-02-01",
+   "fresh": "aging"
+  },
+  {
+   "company": "Generali",
+   "use": "Generali Italia used Google Cloud Vertex AI to build a model evaluation pipeline that helps ML teams quickly evaluate model performance and deploy models (MLOps tooling for the data science organization). [Google Cloud (Vertex AI)]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://cloud.google.com/transform/101-real-world-generative-ai-use-cases-from-industry-leaders",
+   "raw_sector": "",
+   "date": "2024-01-01",
+   "fresh": "aging"
   }
  ]
 }

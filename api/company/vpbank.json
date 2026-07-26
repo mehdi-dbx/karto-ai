@@ -3,27 +3,27 @@
  "name": "VPBank",
  "cc": "VN",
  "vertical": "Financial Services",
- "deployments": 1,
- "confirmed": 1,
- "with_value_number": 0,
- "proof_rate": 0.0,
+ "deployments": 6,
+ "confirmed": 5,
+ "with_value_number": 1,
+ "proof_rate": 0.167,
  "mktcap": 7934000000.0,
  "revenue": 1970000000.0,
  "employees": 29046.0,
  "silent": false,
- "per_bn_revenue": 0.51,
- "per_10k_emp": 0.34,
+ "per_bn_revenue": 3.05,
+ "per_10k_emp": 2.07,
  "benchmarks": {
   "global_vertical": {
-   "deployments": 0,
-   "confirmed": 17,
-   "proof_rate": 0,
-   "n": 377
+   "deployments": 44,
+   "confirmed": 46,
+   "proof_rate": 35,
+   "n": 388
   },
   "country_vertical": {
-   "deployments": 0,
-   "confirmed": 18,
-   "proof_rate": 0,
+   "deployments": 73,
+   "confirmed": 82,
+   "proof_rate": 55,
    "n": 12
   }
  },
@@ -34,16 +34,20 @@
    "n": 1
   }
  ],
- "undated_pct": 0,
+ "undated_pct": 83,
  "momentum": "rising",
  "maturity": "L3",
  "maturity_evidence": [
+  "multi_horizontal",
   "named_product:Conversational",
+  "value_number",
   "tier_p"
  ],
- "prospect_score": 54,
- "stack": [],
- "vendor_named": false,
+ "prospect_score": 63,
+ "stack": [
+  "Google"
+ ],
+ "vendor_named": true,
  "deployments_detail": [
   {
    "company": "VPBank",
@@ -55,6 +59,61 @@
    "raw_sector": "Banks",
    "date": "2025",
    "fresh": "fresh"
+  },
+  {
+   "company": "VPBank",
+   "use": "Customized financial advice and product recommendations",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.vpbank.com/research/en/content/47266/isaijusthypeoranopportunity",
+   "raw_sector": "",
+   "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "VPBank",
+   "use": "Agentic AI for fraud-related customer support",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://qa-financial.com/how-vpbank-built-its-own-internal-automation-capability-to-boost-qa/",
+   "raw_sector": "",
+   "date": "Jan 26, 2026",
+   "fresh": "undated"
+  },
+  {
+   "company": "VPBank",
+   "use": "Omni-channel chatbot with personalized services [Google Vertex AI, Gemini Flash]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://cloud.google.com/customers/cake-digital-bank",
+   "raw_sector": "",
+   "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "VPBank",
+   "use": "In-house AI models for core banking",
+   "existence": "confirmed",
+   "value": "100",
+   "tier": "",
+   "url": "https://vir.com.vn/cake-by-vpbank-posts-strong-gains-in-scale-and-efficiency-leveraging-ai-focus-144079.html",
+   "raw_sector": "",
+   "date": "Jan 5, 2026",
+   "fresh": "undated"
+  },
+  {
+   "company": "VPBank",
+   "use": "Proactive fraud detection",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.vpbank.com/research/en/content/47266/isaijusthypeoranopportunity",
+   "raw_sector": "",
+   "date": "missing",
+   "fresh": "undated"
   }
  ]
 }

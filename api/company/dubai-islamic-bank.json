@@ -3,28 +3,28 @@
  "name": "Dubai Islamic Bank",
  "cc": "AE",
  "vertical": "Financial Services",
- "deployments": 1,
- "confirmed": 1,
+ "deployments": 10,
+ "confirmed": 5,
  "with_value_number": 0,
  "proof_rate": 0.0,
  "mktcap": 14456000000.0,
  "revenue": 3529000000.0,
  "employees": 10000.0,
  "silent": false,
- "per_bn_revenue": 0.28,
- "per_10k_emp": 1.0,
+ "per_bn_revenue": 2.83,
+ "per_10k_emp": 10.0,
  "benchmarks": {
   "global_vertical": {
-   "deployments": 0,
-   "confirmed": 17,
+   "deployments": 65,
+   "confirmed": 46,
    "proof_rate": 0,
-   "n": 377
+   "n": 388
   },
   "country_vertical": {
-   "deployments": 0,
-   "confirmed": 8,
+   "deployments": 86,
+   "confirmed": 64,
    "proof_rate": 0,
-   "n": 14
+   "n": 15
   }
  },
  "first_seen": 2025,
@@ -34,17 +34,44 @@
    "n": 1
   }
  ],
- "undated_pct": 0,
+ "undated_pct": 90,
  "momentum": "rising",
  "maturity": "L3",
  "maturity_evidence": [
+  "multi_horizontal",
   "named_product:Strategic",
   "tier_p"
  ],
- "prospect_score": 54,
- "stack": [],
- "vendor_named": false,
+ "prospect_score": 70,
+ "stack": [
+  "IBM",
+  "Microsoft",
+  "Microsoft Azure"
+ ],
+ "vendor_named": true,
  "deployments_detail": [
+  {
+   "company": "Dubai Islamic Bank",
+   "use": "Strategic partnership to embed responsible AI across DIB operations for personalized customer experiences, decision-making, operations and risk/compliance, using HCLTech's full-stack AI portfolio and hyperscaler alliances (unveiled at GITEX Global 2025) [HCLTech]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.dib.ae/about-us/news/2025/10/21/dib-and-hcltech-forge-strategic-ai-innovation-partnership",
+   "raw_sector": "",
+   "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "Dubai Islamic Bank",
+   "use": "Newgen GenAI Suite for Islamic banking ('Tawkelat' guarantees/automation solution) listed as a Dubai Islamic Bank deployment for intelligent banking automation [Newgen Software]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://newgensoft.com/solutions/industries/financial-institutions/islamic-banking/",
+   "raw_sector": "",
+   "date": "missing",
+   "fresh": "undated"
+  },
   {
    "company": "Dubai Islamic Bank",
    "use": "Strategic AI innovation partnership with HCLTech to accelerate AI adoption across banking operations and Islamic finance (announced GITEX 2025)",
@@ -55,6 +82,83 @@
    "raw_sector": "Banks",
    "date": "2025",
    "fresh": "fresh"
+  },
+  {
+   "company": "Dubai Islamic Bank",
+   "use": "Robotic process automation bots performing maker and checker processes in Finacle Treasury, eliminating errors and inconsistencies (documented in Avasant GCC Digital Services RadarView, HCLTech engagement) [HCLTech (RPA)]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.hcltech.com/sites/default/files/documents/analyst-reports/files/2023/05/03/Avasant-GCC-Region-Digital-Services-2022-2023-RadarView.pdf",
+   "raw_sector": "",
+   "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "Dubai Islamic Bank",
+   "use": "AI-powered chatbot/digital assistant on the DIB 'alt' digital banking platform that understands customer requests and handles balance inquiries, card info, bill payments and loan applications across website, Facebook Messenger and Skype [none]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.dib.ae/alt",
+   "raw_sector": "",
+   "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "Dubai Islamic Bank",
+   "use": "Voice biometric authentication that authenticates customers in seconds using their unique voiceprint, offered as part of the DIB 'alt' banking channels [none]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.dib.ae/alt",
+   "raw_sector": "",
+   "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "Dubai Islamic Bank",
+   "use": "SAS Financial Crime Analytics (AI/ML-powered) upgrade for anti-money-laundering and financial crime detection, running on SAS Viya 4 cloud-native analytics hosted on Microsoft Azure [SAS (SAS Viya 4) on Microsoft Azure]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.intelligentcio.com/me/2025/10/17/sas-partners-with-dib-to-elevate-financial-crime-risk-management/",
+   "raw_sector": "",
+   "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "Dubai Islamic Bank",
+   "use": "AI used to spot suspicious patterns and duplicate financing attempts early, strengthening fraud detection and overall integrity of Islamic financing [none]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.linkedin.com/posts/eralpd41_ai-in-islamic-trade-finance-activity-7460933687816278016-jzCI",
+   "raw_sector": "",
+   "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "Dubai Islamic Bank",
+   "use": "Customer journey analytics engine built with IBM Consulting to serve as the foundation for AI and Machine Learning models supporting customer retention and more personalized customer offers across channels [IBM Consulting]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://mea.newsroom.ibm.com/IBM-Consulting-Selected-by-Dubai-Islamic-Bank-to-Accelerate-Data-Transformation-Journey",
+   "raw_sector": "",
+   "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "Dubai Islamic Bank",
+   "use": "Implementation of Finshape's Digital Bank Operating System to power Shariah-compliant digital banking with omni-channel experiences, personalization and deeper customer engagement (announced at GITEX Global 2025) [Finshape]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://thedigitalbanker.com/dib-strengthens-digital-transformation-hcltech-finshape/",
+   "raw_sector": "",
+   "date": "missing",
+   "fresh": "undated"
   }
  ]
 }

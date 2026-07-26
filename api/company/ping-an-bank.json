@@ -3,28 +3,28 @@
  "name": "Ping An Bank",
  "cc": "CN",
  "vertical": "Financial Services",
- "deployments": 1,
- "confirmed": 1,
- "with_value_number": 1,
- "proof_rate": 1.0,
+ "deployments": 9,
+ "confirmed": 8,
+ "with_value_number": 8,
+ "proof_rate": 0.889,
  "mktcap": 29863888889.0,
  "revenue": 12784722222.0,
  "employees": 41698.0,
  "silent": false,
- "per_bn_revenue": 0.08,
- "per_10k_emp": 0.24,
+ "per_bn_revenue": 0.7,
+ "per_10k_emp": 2.16,
  "benchmarks": {
   "global_vertical": {
-   "deployments": 0,
-   "confirmed": 17,
-   "proof_rate": 76,
-   "n": 377
+   "deployments": 58,
+   "confirmed": 67,
+   "proof_rate": 98,
+   "n": 388
   },
   "country_vertical": {
-   "deployments": 0,
-   "confirmed": 0,
-   "proof_rate": 44,
-   "n": 26
+   "deployments": 48,
+   "confirmed": 52,
+   "proof_rate": 89,
+   "n": 28
   }
  },
  "first_seen": 2024,
@@ -32,18 +32,97 @@
   {
    "year": 2024,
    "n": 1
+  },
+  {
+   "year": 2025,
+   "n": 6
+  },
+  {
+   "year": 2026,
+   "n": 2
   }
  ],
  "undated_pct": 0,
- "momentum": "early_mover,gone_quiet",
- "maturity": "L3",
+ "momentum": "early_mover,rising",
+ "maturity": "L4",
  "maturity_evidence": [
-  "value_number"
+  "multi_horizontal",
+  "named_product:YouTu",
+  "value_number",
+  "multi_year"
  ],
- "prospect_score": 14,
- "stack": [],
- "vendor_named": false,
+ "prospect_score": 52,
+ "stack": [
+  "Palantir"
+ ],
+ "vendor_named": true,
  "deployments_detail": [
+  {
+   "company": "Ping An Bank",
+   "use": "Remote Service Platform uses AI to support retail customer engagement: generates daily contact lists, suggests scripts, predicts call answer likelihood and drafts message templates for human-AI collaboration. [In-house (Ping An)]",
+   "existence": "confirmed",
+   "value": "Serves ~5M customers; average service coverage per agent exceeded 4,800 customers; response times reduced to 30 minutes",
+   "tier": "",
+   "url": "https://www.theasianbanker.com/updates-and-articles/ping-an-bank-drives-business-innovation-through-ai",
+   "raw_sector": "",
+   "date": "2025-10-24",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Ping An Bank",
+   "use": "Intelligent voice outbound platform automates customer touchpoints (reminders, greetings, updates) using in-house ASR, NLU and TTS across multiple languages; won 'Best Chatbot/Voice Banking Service in Asia Pacific' 2025. [In-house ASR/NLU/TTS (Ping An)]",
+   "existence": "confirmed",
+   "value": "Served 26M customers by end-2024; 70% of interactions exceeded ten seconds; average call length +16%",
+   "tier": "",
+   "url": "https://www.theasianbanker.com/updates-and-articles/best-chatbot-voice-banking-service-in-asia-pacific-for-outstanding-improvements-in-customer-interaction-2025",
+   "raw_sector": "",
+   "date": "2025-07-09",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Ping An Bank",
+   "use": "Express Service conversational financial AI assistant lets customers execute transactions, access financing and process insurance claims via voice or text; deployed across banking, insurance, securities and healthcare businesses (including Ping An Bank). [In-house (Ping An); uses large reasoning models ('Thinkbots')]",
+   "existence": "confirmed",
+   "value": "Available to 251M customers; average monthly users tripled over three months; peak daily usage 1.1 million visits",
+   "tier": "",
+   "url": "https://fintechnews.hk/39758/ai/ping-an-ai-credit-card-compute-power/",
+   "raw_sector": "",
+   "date": "2026-07-01",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Ping An Bank",
+   "use": "Fully online, automated consumer loan / credit approval for auto (new-energy-vehicle) financing, with AI-driven decisioning delivering automated approval and rapid funding. [In-house (Ping An)]",
+   "existence": "confirmed",
+   "value": "90% of customers receive automated approval; fastest end-to-end funding completed within ten minutes",
+   "tier": "",
+   "url": "https://www.theasianbanker.com/updates-and-articles/ping-an-bank-drives-business-innovation-through-ai",
+   "raw_sector": "",
+   "date": "2025-10-24",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Ping An Bank",
+   "use": "Ping An Bank Credit Card 'all-scenario AI credit card' — a credit card product letting cardholders redeem reward points for AI computing resources to support AI usage scenarios, launched at WAIC 2026. [Ping An Bank Credit Card]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://fintechnews.hk/39758/ai/ping-an-ai-credit-card-compute-power/",
+   "raw_sector": "",
+   "date": "2026-07-01",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Ping An Bank",
+   "use": "Super Coach knowledge hub provides employees with intelligent knowledge queries, document generation, process forecasting and real-time risk alerts across operations, risk and FX functions. [In-house (Ping An)]",
+   "existence": "confirmed",
+   "value": "Deployed across 67 operational scenarios",
+   "tier": "",
+   "url": "https://www.theasianbanker.com/updates-and-articles/ping-an-bank-drives-business-innovation-through-ai",
+   "raw_sector": "",
+   "date": "2025-10-24",
+   "fresh": "fresh"
+  },
   {
    "company": "Ping An Bank",
    "use": "390+ large-model application scenarios; AI-assisted development coverage >94%; AI-generated code >30%",
@@ -54,6 +133,28 @@
    "raw_sector": "Financials",
    "date": "2024",
    "fresh": "aging"
+  },
+  {
+   "company": "Ping An Bank",
+   "use": "Agent Foundry low-code platform orchestrates intelligent workflow agents to automate approval, audit and credit workflows. [In-house (Ping An)]",
+   "existence": "confirmed",
+   "value": "70% of pilot scenarios use AI assistance; 20% of core workflows AI-automated",
+   "tier": "",
+   "url": "https://www.theasianbanker.com/updates-and-articles/ping-an-bank-drives-business-innovation-through-ai",
+   "raw_sector": "",
+   "date": "2025-10-24",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Ping An Bank",
+   "use": "YouTu Wanxiang generative AI platform creates personalized multi-format marketing content (images, copy), runs compliance checks and automates deployment; now in its third iteration. [In-house (Ping An)]",
+   "existence": "confirmed",
+   "value": "33M+ AI-generated images; used by 238 departments and 6,000+ business users; cost savings of over RMB 100 million (~$14M) year-on-year",
+   "tier": "",
+   "url": "https://www.theasianbanker.com/updates-and-articles/ping-an-bank-drives-business-innovation-through-ai",
+   "raw_sector": "",
+   "date": "2025-10-24",
+   "fresh": "fresh"
   }
  ]
 }

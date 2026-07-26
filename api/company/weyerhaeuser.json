@@ -3,42 +3,133 @@
  "name": "Weyerhaeuser",
  "cc": "US",
  "vertical": "Real Estate & Construction",
- "deployments": 1,
- "confirmed": 1,
- "with_value_number": 1,
- "proof_rate": 1.0,
+ "deployments": 10,
+ "confirmed": 7,
+ "with_value_number": 7,
+ "proof_rate": 0.7,
  "mktcap": 16980000000.0,
  "revenue": 6870000000.0,
  "employees": 9517.0,
  "silent": false,
- "per_bn_revenue": 0.15,
- "per_10k_emp": 1.05,
+ "per_bn_revenue": 1.46,
+ "per_10k_emp": 10.51,
  "benchmarks": {
   "global_vertical": {
-   "deployments": 0,
-   "confirmed": 31,
-   "proof_rate": 71,
+   "deployments": 86,
+   "confirmed": 84,
+   "proof_rate": 95,
    "n": 154
   },
   "country_vertical": {
-   "deployments": 0,
-   "confirmed": 50,
-   "proof_rate": 93,
+   "deployments": 80,
+   "confirmed": 87,
+   "proof_rate": 100,
    "n": 31
   }
  },
- "first_seen": null,
- "by_year": [],
- "undated_pct": 100,
- "momentum": "none",
- "maturity": "L3",
- "maturity_evidence": [
-  "value_number"
+ "first_seen": 2024,
+ "by_year": [
+  {
+   "year": 2024,
+   "n": 3
+  },
+  {
+   "year": 2026,
+   "n": 6
+  }
  ],
- "prospect_score": 14,
- "stack": [],
- "vendor_named": false,
+ "undated_pct": 10,
+ "momentum": "early_mover,rising",
+ "maturity": "L4",
+ "maturity_evidence": [
+  "multi_horizontal",
+  "named_product:END",
+  "value_number",
+  "multi_year"
+ ],
+ "prospect_score": 54,
+ "stack": [
+  "Microsoft"
+ ],
+ "vendor_named": true,
  "deployments_detail": [
+  {
+   "company": "Weyerhaeuser",
+   "use": "AI/ML dryer optimization system ('END GAME') at the Sutton OSB mill (Heaters, WV) that analyzes thousands of sensor data points and automatically adjusts dryer temperature/settings in real time to control moisture, akin to adaptive cruise control. [AI2Infinity]",
+   "existence": "confirmed",
+   "value": "200,000 lbs of wood strands dried per hour; operators use the automated feature ~80% of the time; live since April 2023",
+   "tier": "",
+   "url": "https://www.weyerhaeuser.com/blog/innovation-sutton-osb-mill-ai-power/",
+   "raw_sector": "",
+   "date": "2024-11-11",
+   "fresh": "aging"
+  },
+  {
+   "company": "Weyerhaeuser",
+   "use": "Replication of the ML equipment-optimization architecture to a veneer press at the Eugene, Oregon engineered wood products plant to optimize press throughput. [AI2Infinity]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://hbsdealer.com/how-weyerhaeuser-using-ai-streamline-operations",
+   "raw_sector": "",
+   "date": "2024-11-18",
+   "fresh": "aging"
+  },
+  {
+   "company": "Weyerhaeuser",
+   "use": "AI-driven digital forest mapping: models built from satellite imagery, drone footage, and lidar to identify individual tree size, species, and spacing across the timberland estate. [Internal (satellite/drone/lidar)]",
+   "existence": "confirmed",
+   "value": "Covers ~10.4 million acres of US timberland",
+   "tier": "",
+   "url": "https://www.nipimpressions.com/weyerhaeuser-targets-1-billion-profit-gain-with-ai-forestry-tools-cms-20306",
+   "raw_sector": "",
+   "date": "2026-04-24",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Weyerhaeuser",
+   "use": "AI model that reviews drone footage to measure seedling survival rates, replacing manual forester counts and producing faster, cheaper reforestation data. [Internal]",
+   "existence": "confirmed",
+   "value": "Company plants 100+ million seedlings annually (~190 per minute)",
+   "tier": "",
+   "url": "https://www.nipimpressions.com/weyerhaeuser-targets-1-billion-profit-gain-with-ai-forestry-tools-cms-20306",
+   "raw_sector": "",
+   "date": "2026-04-24",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Weyerhaeuser",
+   "use": "AI-based mill equipment monitoring / predictive maintenance that watches for anomalous vibrations and other signals to flag equipment failures before they occur, and matches production with demand and market prices. [Internal]",
+   "existence": "confirmed",
+   "value": "Part of $1 billion added-annual-profit target by 2030",
+   "tier": "",
+   "url": "https://www.aieatingtheworld.com/articles/weyerhaeuser-ai-forest-management",
+   "raw_sector": "",
+   "date": "2026-05-30",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Weyerhaeuser",
+   "use": "Semiautonomous / remotely operated logging skidder with AI-assisted navigation to drag felled trees around logging sites, aiming toward one operator managing multiple machines. [Kodama Systems]",
+   "existence": "claimed",
+   "value": "400-mile remote operation demonstrated (still in testing)",
+   "tier": "",
+   "url": "https://www.wsj.com/tech/ai/americas-largest-landowner-is-using-ai-to-digitize-the-forest-bd3eec86",
+   "raw_sector": "",
+   "date": "2026-04-23",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Weyerhaeuser",
+   "use": "In-cabin AI assistant for harvesters that directs operators on which trees to cut versus preserve during thinning, optimizing for the strongest trees and higher-value products. [Nordic Forestry Automation]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.nipimpressions.com/weyerhaeuser-targets-1-billion-profit-gain-with-ai-forestry-tools-cms-20306",
+   "raw_sector": "",
+   "date": "2026-04-24",
+   "fresh": "fresh"
+  },
   {
    "company": "Weyerhaeuser",
    "use": "AI to map/model every tree across ~11M acres (drone seedling counting, autonomous equipment, mill maintenance); targets +$1B annual profit by 2030",
@@ -49,6 +140,28 @@
    "raw_sector": "Real Estate",
    "date": "missing",
    "fresh": "undated"
+  },
+  {
+   "company": "Weyerhaeuser",
+   "use": "AI-driven truck route optimization for the logging trucking fleet, optimizing routing across a large private road network in real time. [Internal]",
+   "existence": "confirmed",
+   "value": "~5,000 logging trucks per day; road network rivaling US Interstate Highway System mileage",
+   "tier": "",
+   "url": "https://www.nipimpressions.com/weyerhaeuser-targets-1-billion-profit-gain-with-ai-forestry-tools-cms-20306",
+   "raw_sector": "",
+   "date": "2026-04-24",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Weyerhaeuser",
+   "use": "Enterprise generative AI adoption for the workforce, using Microsoft Copilot as a personal assistant plus custom-built and pre-built Microsoft agents (e.g., Analyst and Researcher agents) for specialized tasks. [Microsoft (Copilot / Copilot Studio agents)]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.cioapplications.com/leadership-perspective/from-hype-and-hallucinations-to-headway-how-weyerhaeuser-is-embracing-generative-ai-nid-11625.html",
+   "raw_sector": "",
+   "date": "2024-11-01",
+   "fresh": "aging"
   }
  ]
 }

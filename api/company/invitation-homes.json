@@ -3,41 +3,54 @@
  "name": "Invitation Homes",
  "cc": "US",
  "vertical": "Real Estate & Construction",
- "deployments": 1,
- "confirmed": 1,
+ "deployments": 5,
+ "confirmed": 4,
  "with_value_number": 0,
  "proof_rate": 0.0,
  "mktcap": 17630000000.0,
  "revenue": 2780000000.0,
  "employees": 1725.0,
  "silent": false,
- "per_bn_revenue": 0.36,
- "per_10k_emp": 5.8,
+ "per_bn_revenue": 1.8,
+ "per_10k_emp": 28.99,
  "benchmarks": {
   "global_vertical": {
-   "deployments": 0,
-   "confirmed": 31,
+   "deployments": 60,
+   "confirmed": 64,
    "proof_rate": 0,
    "n": 154
   },
   "country_vertical": {
-   "deployments": 0,
-   "confirmed": 50,
+   "deployments": 57,
+   "confirmed": 57,
    "proof_rate": 0,
    "n": 31
   }
  },
- "first_seen": null,
- "by_year": [],
- "undated_pct": 100,
- "momentum": "none",
- "maturity": "L2",
+ "first_seen": 2023,
+ "by_year": [
+  {
+   "year": 2023,
+   "n": 1
+  },
+  {
+   "year": 2024,
+   "n": 3
+  }
+ ],
+ "undated_pct": 20,
+ "momentum": "early_mover,gone_quiet",
+ "maturity": "L3",
  "maturity_evidence": [
+  "multi_horizontal",
+  "named_product:Operations",
   "tier_p"
  ],
- "prospect_score": 54,
- "stack": [],
- "vendor_named": false,
+ "prospect_score": 64,
+ "stack": [
+  "Microsoft"
+ ],
+ "vendor_named": true,
  "deployments_detail": [
   {
    "company": "Invitation Homes",
@@ -49,6 +62,50 @@
    "raw_sector": "Real Estate",
    "date": "missing",
    "fresh": "undated"
+  },
+  {
+   "company": "Invitation Homes",
+   "use": "Customer Support - Chat enhancement to reduce friction and improve response times",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.invitationhomes.com/resident-journey-tech-ai",
+   "raw_sector": "",
+   "date": "2023-08-18",
+   "fresh": "stale"
+  },
+  {
+   "company": "Invitation Homes",
+   "use": "Operations - Microsoft Copilot deployment across multiple areas [Microsoft Copilot]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.reit.com/news/articles/invitation-homes-using-tech-to-elevate-the-resident-associate-experience-",
+   "raw_sector": "",
+   "date": "2024-12-19",
+   "fresh": "aging"
+  },
+  {
+   "company": "Invitation Homes",
+   "use": "Operations - HOA notification system",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.reit.com/news/articles/invitation-homes-using-tech-to-elevate-the-resident-associate-experience-",
+   "raw_sector": "",
+   "date": "2024-12-19",
+   "fresh": "aging"
+  },
+  {
+   "company": "Invitation Homes",
+   "use": "Sales - AI deployment within leasing process",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.reit.com/news/articles/invitation-homes-using-tech-to-elevate-the-resident-associate-experience-",
+   "raw_sector": "",
+   "date": "2024-12-19",
+   "fresh": "aging"
   }
  ]
 }

@@ -3,48 +3,66 @@
  "name": "Mizuho Financial Group, Inc.",
  "cc": "JP",
  "vertical": "Financial Services",
- "deployments": 3,
- "confirmed": 2,
- "with_value_number": 3,
- "proof_rate": 1.0,
+ "deployments": 10,
+ "confirmed": 7,
+ "with_value_number": 5,
+ "proof_rate": 0.5,
  "mktcap": 142200000000.0,
  "revenue": 29333333333.0,
  "employees": 52427.0,
  "silent": false,
- "per_bn_revenue": 0.1,
- "per_10k_emp": 0.57,
+ "per_bn_revenue": 0.34,
+ "per_10k_emp": 1.91,
  "benchmarks": {
   "global_vertical": {
-   "deployments": 86,
-   "confirmed": 73,
-   "proof_rate": 76,
-   "n": 377
+   "deployments": 65,
+   "confirmed": 62,
+   "proof_rate": 78,
+   "n": 388
   },
   "country_vertical": {
-   "deployments": 93,
-   "confirmed": 36,
-   "proof_rate": 71,
+   "deployments": 71,
+   "confirmed": 64,
+   "proof_rate": 86,
    "n": 15
   }
  },
- "first_seen": 2028,
+ "first_seen": 2023,
  "by_year": [
+  {
+   "year": 2023,
+   "n": 2
+  },
+  {
+   "year": 2024,
+   "n": 2
+  },
+  {
+   "year": 2025,
+   "n": 1
+  },
+  {
+   "year": 2026,
+   "n": 1
+  },
   {
    "year": 2028,
    "n": 1
   }
  ],
- "undated_pct": 67,
- "momentum": "late_entrant,rising",
- "maturity": "L3",
+ "undated_pct": 30,
+ "momentum": "early_mover,cooling",
+ "maturity": "L4",
  "maturity_evidence": [
   "multi_horizontal",
   "named_product:Agent Factory",
   "value_number",
+  "multi_year",
   "tier_p"
  ],
- "prospect_score": 12,
+ "prospect_score": 62,
  "stack": [
+  "IBM",
   "OpenAI"
  ],
  "vendor_named": true,
@@ -62,6 +80,50 @@
   },
   {
    "company": "Mizuho Financial Group, Inc.",
+   "use": "Agent Factory - autonomous AI agents for business process automation [Wiz Base]",
+   "existence": "claimed",
+   "value": "70% reduction in development time",
+   "tier": "",
+   "url": "https://www.fintechobserver.com/mizuhos-new-agent-factory-aims-to-mass-produce-ai-agents-slashing-development-time-by-70/",
+   "raw_sector": "",
+   "date": "2026-04-05",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Mizuho Financial Group, Inc.",
+   "use": "Generative AI initiative with IBM for operations recovery and error monitoring [IBM]",
+   "existence": "confirmed",
+   "value": "98% accuracy",
+   "tier": "",
+   "url": "https://newsroom.ibm.com/2024-05-22-Mizuho-and-IBM-Unveil-Generative-AI-Initiative-to-Accelerate-Recovery-Time-in-Operations",
+   "raw_sector": "",
+   "date": "2024-05-22",
+   "fresh": "aging"
+  },
+  {
+   "company": "Mizuho Financial Group, Inc.",
+   "use": "In-house AI text generator for employees",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.mizuhogroup.com/digital/2312-generative-ai",
+   "raw_sector": "",
+   "date": "2023-12-28",
+   "fresh": "stale"
+  },
+  {
+   "company": "Mizuho Financial Group, Inc.",
+   "use": "Generative AI trial for development and maintenance",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.computerweekly.com/news/366542241/Mizuho-Financial-Group-trials-generative-AI-for-development-and-maintenance",
+   "raw_sector": "",
+   "date": "2023-06-20",
+   "fresh": "stale"
+  },
+  {
+   "company": "Mizuho Financial Group, Inc.",
    "use": "\"Agent Factory\" for mass-producing AI agents + \"RM Studio\" sales-support AI; Dify Enterprise for field-led dev",
    "existence": "confirmed",
    "value": "doubling AI devs to 400 by FY2026; up to JPY1bn invest to 2028",
@@ -73,12 +135,45 @@
   },
   {
    "company": "Mizuho Financial Group, Inc.",
+   "use": "Wiz Chat - generative AI utilization platform",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.mizuhogroup.com/digital/aix-generative-ai",
+   "raw_sector": "",
+   "date": "2024-06-06",
+   "fresh": "aging"
+  },
+  {
+   "company": "Mizuho Financial Group, Inc.",
+   "use": "Next-generation contact center system",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.mizuho-fg.co.jp/investors/financial/annual/data2503/pdf/data2503_all.pdf",
+   "raw_sector": "",
+   "date": "2025-03-31",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Mizuho Financial Group, Inc.",
    "use": "\"Crystal Intelligence\" (SoftBank/OpenAI) deployment",
    "existence": "claimed",
    "value": "target 2x sales productivity, 50% cost reduction",
    "tier": "P",
    "url": "https://prtimes.jp/main/html/rd/p/000000011.000177612.html",
    "raw_sector": "Banking",
+   "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "Mizuho Financial Group, Inc.",
+   "use": "AI application suite for corporate relationship managers",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://generativex.com/case-studies",
+   "raw_sector": "",
    "date": "missing",
    "fresh": "undated"
   }

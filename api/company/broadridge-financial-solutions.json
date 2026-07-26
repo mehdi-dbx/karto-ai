@@ -3,41 +3,66 @@
  "name": "Broadridge Financial Solutions",
  "cc": "US",
  "vertical": "Industrial / Machinery",
- "deployments": 1,
- "confirmed": 1,
- "with_value_number": 0,
- "proof_rate": 0.0,
+ "deployments": 11,
+ "confirmed": 9,
+ "with_value_number": 2,
+ "proof_rate": 0.182,
  "mktcap": 16600000000.0,
  "revenue": 7320000000.0,
  "employees": 15000.0,
  "silent": false,
- "per_bn_revenue": 0.14,
- "per_10k_emp": 0.67,
+ "per_bn_revenue": 1.5,
+ "per_10k_emp": 7.33,
  "benchmarks": {
   "global_vertical": {
-   "deployments": 0,
-   "confirmed": 14,
-   "proof_rate": 0,
-   "n": 175
+   "deployments": 82,
+   "confirmed": 84,
+   "proof_rate": 57,
+   "n": 176
   },
   "country_vertical": {
-   "deployments": 0,
-   "confirmed": 19,
-   "proof_rate": 0,
-   "n": 80
+   "deployments": 85,
+   "confirmed": 89,
+   "proof_rate": 65,
+   "n": 81
   }
  },
- "first_seen": null,
- "by_year": [],
- "undated_pct": 100,
- "momentum": "none",
- "maturity": "L3",
+ "first_seen": 2021,
+ "by_year": [
+  {
+   "year": 2021,
+   "n": 1
+  },
+  {
+   "year": 2023,
+   "n": 1
+  },
+  {
+   "year": 2024,
+   "n": 1
+  },
+  {
+   "year": 2025,
+   "n": 4
+  },
+  {
+   "year": 2026,
+   "n": 3
+  }
+ ],
+ "undated_pct": 9,
+ "momentum": "early_mover,rising",
+ "maturity": "L4",
  "maturity_evidence": [
+  "multi_horizontal",
   "named_product:OpsGPT",
+  "value_number",
+  "multi_year",
   "tier_p"
  ],
- "prospect_score": 46,
+ "prospect_score": 87,
  "stack": [
+  "Amazon AWS",
   "OpenAI"
  ],
  "vendor_named": true,
@@ -52,6 +77,116 @@
    "raw_sector": "Industrials",
    "date": "missing",
    "fresh": "undated"
+  },
+  {
+   "company": "Broadridge Financial Solutions",
+   "use": "OpsGPT — a GenAI/LLM-powered co-pilot for global post-trade operations that uses transactions, settlements and positions data to help operations users, analysts and management triage exceptions, resolve trade fails, and manage the trade lifecycle (launched for a T+1 environment). [Broadridge (GenAI/LLM-powered)]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.prnewswire.com/news-releases/broadridge-launches-genai-powered-opsgpt-to-transform-and-optimize-trading-in-a-t1-environment-302031880.html",
+   "raw_sector": "",
+   "date": "2024-01-11",
+   "fresh": "aging"
+  },
+  {
+   "company": "Broadridge Financial Solutions",
+   "use": "OpsGPT agentic enhancement — added agentic AI capabilities to OpsGPT so AI agents autonomously analyze issues, prioritize exceptions and initiate resolution across global post-trade operations. [Broadridge]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.prnewswire.com/news-releases/broadridge-enhances-opsgpt-introducing-new-agentic-capabilities-to-further-optimize-global-post-trade-operations-302446666.html",
+   "raw_sector": "",
+   "date": "2025-05-06",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Broadridge Financial Solutions",
+   "use": "BondGPT — generative AI application on the LTX platform that answers complex corporate bond-related questions in seconds and assists traders in identifying corporate bonds. Queries run through Broadridge's OpenAI enterprise account with data anonymized before being sent. [OpenAI (GPT-4), LTX by Broadridge]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.prnewswire.com/news-releases/ltx-by-broadridge-launches-bondgptsm-powered-by-openai-gpt-4-301843197.html",
+   "raw_sector": "",
+   "date": "2023-06-06",
+   "fresh": "stale"
+  },
+  {
+   "company": "Broadridge Financial Solutions",
+   "use": "Agentic BondGPT — added agentic AI to BondGPT on the LTX platform, letting traders create AI agents that monitor markets and execute selected fixed-income trading tasks while keeping the trader in control. [LTX by Broadridge (built on OpenAI GPT-4)]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.prnewswire.com/news-releases/ltx-launches-agentic-ai-in-bondgpt-turning-ai-insights-into-trading-action-302801555.html",
+   "raw_sector": "",
+   "date": "2026-06-16",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Broadridge Financial Solutions",
+   "use": "Agentic AI at institutional scale — live-in-production AI agents across capital markets and wealth operations handling automated trade fails/break resolution, account opening and maintenance, real-time valuation exception handling, and customer inquiry automation across millions of monthly operational transactions. [Broadridge (with DeepSee)]",
+   "existence": "confirmed",
+   "value": "Up to 30% Day 1 operational cost reduction; production experience across 40+ clients since 2024",
+   "tier": "",
+   "url": "https://www.prnewswire.com/news-releases/broadridge-deploys-agentic-ai-at-institutional-scale-across-capital-markets-and-wealth-operations-302767688.html",
+   "raw_sector": "",
+   "date": "2026-05-11",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Broadridge Financial Solutions",
+   "use": "AI platform for proxy voting data — uses AWS machine learning (Amazon ML Solutions Lab) to analyze proxy card layouts and extract values from text, reducing manual effort and delivering faster, better proxy voting data across shareholder communications. [AWS (Amazon Machine Learning Solutions Lab)]",
+   "existence": "confirmed",
+   "value": "over 5 million proxy voting data points across 85,000 meetings",
+   "tier": "",
+   "url": "https://aws.amazon.com/blogs/industries/broadridge-advances-the-proxy-voting-data-process-using-artificial-intelligence-on-aws/",
+   "raw_sector": "",
+   "date": "2021-01-12",
+   "fresh": "stale"
+  },
+  {
+   "company": "Broadridge Financial Solutions",
+   "use": "AI-powered Algorithm Insights service for the NYFIX network — AI-driven analytics to help clients better understand and optimize algorithmic trading/order routing performance. [Broadridge (NYFIX)]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://a-teaminsight.com/blog/broadridge-unveils-ai-powered-algorithm-insights-service-for-nyfix/",
+   "raw_sector": "",
+   "date": "2025-01-08",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Broadridge Financial Solutions",
+   "use": "AI-powered email orchestration for post-trade operations — strategic investment in agentic AI firm DeepSee to deploy an agentic email framework that converts inbound post-trade email requests into connected, automated workflows, reducing manual email processing. [DeepSee (agentic AI)]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.prnewswire.com/news-releases/broadridge-invests-in-deepsee-further-harnessing-agentic-ai-to-transform-post-trade-operations-302655483.html",
+   "raw_sector": "",
+   "date": "2026-01-08",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Broadridge Financial Solutions",
+   "use": "GenAI-powered analytics for multi-asset post-trade processing — natural-language feature that lets users generate insights and data visualizations directly from their trade data. [Broadridge (GenAI)]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.broadridge.com/press-release/2025/enhanced-multi-asset-post-trade-solutions-by-broadridge",
+   "raw_sector": "",
+   "date": "2025-01-16",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Broadridge Financial Solutions",
+   "use": "AI-powered wealth lending — partnership with Uptiq to embed AI-powered tools into Broadridge's Wealth Lending Network, enabling advisors to deliver smarter securities-based lending recommendations. [Uptiq (AI), Broadridge Wealth Lending Network]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.prnewswire.com/news-releases/broadridge-partners-with-uptiq-to-modernize-wealth-management-with-ai-powered-wealth-lending-solutions-302522403.html",
+   "raw_sector": "",
+   "date": "2025-08-06",
+   "fresh": "fresh"
   }
  ]
 }

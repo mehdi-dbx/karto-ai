@@ -3,27 +3,27 @@
  "name": "Sistema",
  "cc": "RU",
  "vertical": "Financial Services",
- "deployments": 1,
- "confirmed": 0,
- "with_value_number": 0,
- "proof_rate": 0.0,
+ "deployments": 11,
+ "confirmed": 9,
+ "with_value_number": 5,
+ "proof_rate": 0.455,
  "mktcap": null,
  "revenue": 12300000000.0,
  "employees": 70000.0,
  "silent": false,
- "per_bn_revenue": 0.08,
- "per_10k_emp": 0.14,
+ "per_bn_revenue": 0.89,
+ "per_10k_emp": 1.57,
  "benchmarks": {
   "global_vertical": {
-   "deployments": 0,
-   "confirmed": 0,
-   "proof_rate": 0,
-   "n": 377
+   "deployments": 72,
+   "confirmed": 73,
+   "proof_rate": 75,
+   "n": 388
   },
   "country_vertical": {
-   "deployments": 0,
-   "confirmed": 0,
-   "proof_rate": 0,
+   "deployments": 71,
+   "confirmed": 71,
+   "proof_rate": 71,
    "n": 8
   }
  },
@@ -31,13 +31,15 @@
  "by_year": [],
  "undated_pct": 100,
  "momentum": "none",
- "maturity": "L1",
+ "maturity": "L3",
  "maturity_evidence": [
-  "rows_no_confirmed"
+  "multi_horizontal",
+  "named_product:Cotype",
+  "value_number"
  ],
- "prospect_score": 40,
+ "prospect_score": 76,
  "stack": [],
- "vendor_named": false,
+ "vendor_named": true,
  "deployments_detail": [
   {
    "company": "Sistema",
@@ -47,6 +49,116 @@
    "tier": "I",
    "url": "https://tass.ru/ekonomika/27696223",
    "raw_sector": "Diversified",
+   "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "Sistema",
+   "use": "Cotype open large language model (Nano/2nd-gen), for Russian/English content generation, translation, text analysis and chatbots; released open-source and downloaded 10,000+ times in six months since Nov 2024 launch, best-in-class on Ru Arena Hard benchmark [MTS AI / MWS AI (in-house, on Qwen 2.5 architecture)]",
+   "existence": "confirmed",
+   "value": "10,000+ downloads in six months; 1.5B params; 32,000-token context",
+   "tier": "",
+   "url": "https://mts.ai/en/tech/mts-ai-launches-an-open-large-language-model/",
+   "raw_sector": "",
+   "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "Sistema",
+   "use": "Cotype VL vision language model (32B params) for document search with visual data, screenshot-based client support, and report generation with graphical data; offered standalone and inside AI assistants, on-prem deployable [MWS AI (in-house)]",
+   "existence": "confirmed",
+   "value": "32B parameters; trained on 150,000+ documents",
+   "tier": "",
+   "url": "https://mts.ai/en/tech/mws-ai-releases-its-first-visual-language-model/",
+   "raw_sector": "",
+   "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "Sistema",
+   "use": "Center for Foodtech Developments AI division: operational AI system synchronizing livestock herd-management data with the state information system to improve accuracy and speed; neural networks, AI agents and chatbots in the digital ecosystem, plus legal monitoring and back-office analytics [Agroholding Steppe (AFK Sistema, in-house R&D)]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://insights.tridge.com/speaker-product-news-reports/KJLyFXpzJzgKuB1Gqsm5QUKHGgR43AVdqLcfDzQPoVBnFhKifGMTXb3n",
+   "raw_sector": "",
+   "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "Sistema",
+   "use": "Suite of seven AI services for banks: 24/7 chatbots and voice virtual assistants, RAG-based knowledge assistant, service-quality/speech monitoring, brand voice synthesis for IVR/telemarketing, behavioral analytics for sales conversion, and document automation [MTS AI (Cotype LLM, WordPulse, Audiogram stack)]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://mts.ai/en/solutions/mts-ai-created-seven-ai-services-for-banks/",
+   "raw_sector": "",
+   "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "Sistema",
+   "use": "Audiogram neural-network speech recognition and synthesis, installed on customer servers and used in telecom, banking, healthcare and retail (e.g. contact-center transcription and voiceover) [MWS AI (in-house)]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://mts.ai/en/product/audiogram/",
+   "raw_sector": "",
+   "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "Sistema",
+   "use": "AI-based cybersecurity software solution protecting client systems around the clock, mitigating hacking and data-theft risks in response to increased attacks in Russia [AFK Sistema (in-house)]",
+   "existence": "confirmed",
+   "value": "clients avoided losses amounting to hundreds of millions of US dollars",
+   "tier": "",
+   "url": "https://en.sggp.org.vn/afk-sistema-seeks-technology-cooperation-with-ho-chi-minh-city-post123060.html",
+   "raw_sector": "",
+   "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "Sistema",
+   "use": "TenVision cloud video-surveillance and video-analytics platform for business, with neural-network object/face detection (50+ object types, license plate, loitering, line-crossing) for safety and monitoring [MTS AI (in-house)]",
+   "existence": "confirmed",
+   "value": "detects 50+ object types (2023)",
+   "tier": "",
+   "url": "https://mts.ai/wp-content/uploads/TenVision_presentation.pdf",
+   "raw_sector": "",
+   "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "Sistema",
+   "use": "MTS AI moved all of its AI model training and inference to the cloud, retiring on-premise infrastructure investment [MTS AI / MWS Cloud]",
+   "existence": "confirmed",
+   "value": "saved over one billion rubles in on-premise infrastructure investment",
+   "tier": "",
+   "url": "https://www.cloud4y.ru/en/blog/rating-clouds-ai-ml-gpu-2026/",
+   "raw_sector": "",
+   "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "Sistema",
+   "use": "Kodify Nano open AI coding assistant for developers: code completion/improvement, test and documentation generation, code-from-description and code parsing; runs on laptops, plugins for popular editors, closed-circuit deployment [MWS AI (in-house)]",
+   "existence": "confirmed",
+   "value": "1.5B params; 90 programming languages; 32,000-token context; 1GB RAM (quantized)",
+   "tier": "",
+   "url": "https://mts.ai/en/tech/mws-ai-launches-an-open-ai-assistant-for-software-programmers/",
+   "raw_sector": "",
+   "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "Sistema",
+   "use": "Inference Valve AI model-deployment/MLOps platform to push trained ML, LLM and computer-vision models to production; available as private cloud, on-prem and hardware-software bundle [MWS Cloud (MTS/Sistema)]",
+   "existence": "confirmed",
+   "value": "reduces ML-team operational load 70%; +33% CI/CD automation efficiency; >15% GPU cost reduction",
+   "tier": "",
+   "url": "https://www.akm.ru/eng/news/mws-cloud-has-launched-a-platform-for-operating-ai-models/",
+   "raw_sector": "",
    "date": "missing",
    "fresh": "undated"
   }

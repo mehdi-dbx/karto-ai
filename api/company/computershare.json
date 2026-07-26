@@ -3,41 +3,49 @@
  "name": "Computershare",
  "cc": "AU",
  "vertical": "Technology",
- "deployments": 1,
- "confirmed": 1,
- "with_value_number": 0,
- "proof_rate": 0.0,
+ "deployments": 9,
+ "confirmed": 7,
+ "with_value_number": 1,
+ "proof_rate": 0.111,
  "mktcap": 15380000000.0,
  "revenue": 3186666667.0,
  "employees": 12891.0,
  "silent": false,
- "per_bn_revenue": 0.31,
- "per_10k_emp": 0.78,
+ "per_bn_revenue": 2.82,
+ "per_10k_emp": 6.98,
  "benchmarks": {
   "global_vertical": {
-   "deployments": 0,
-   "confirmed": 6,
-   "proof_rate": 0,
-   "n": 156
+   "deployments": 49,
+   "confirmed": 56,
+   "proof_rate": 41,
+   "n": 159
   }
  },
  "first_seen": 2025,
  "by_year": [
   {
    "year": 2025,
+   "n": 8
+  },
+  {
+   "year": 2026,
    "n": 1
   }
  ],
  "undated_pct": 0,
  "momentum": "early_mover,rising",
- "maturity": "L3",
+ "maturity": "L4",
  "maturity_evidence": [
+  "multi_horizontal",
   "named_product:GEMS",
+  "multi_year",
   "tier_p"
  ],
- "prospect_score": 54,
- "stack": [],
- "vendor_named": false,
+ "prospect_score": 78,
+ "stack": [
+  "Microsoft"
+ ],
+ "vendor_named": true,
  "deployments_detail": [
   {
    "company": "Computershare",
@@ -47,6 +55,94 @@
    "tier": "P",
    "url": "https://www.cgs-gems.com/gemsai",
    "raw_sector": "IT Services",
+   "date": "2025",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Computershare",
+   "use": "GEMS AI: AI upgrade to the Global Entity Management System that lets clients extract key data from corporate documents, run natural-language queries for real-time compliance insights, review contractual obligations, and draft corporate resolutions from templates. Launched March 2025, available via browser and mobile app. [Computershare (proprietary GEMS platform; underlying LLM undisclosed)]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.corporatecomplianceinsights.com/computershare-launches-ai-powered-entity-management-tool/",
+   "raw_sector": "",
+   "date": "2025-03-06",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Computershare",
+   "use": "GEMS AI document-intelligence features in production: AI Translate (automated translation into 50+ languages in seconds), AI Compare (instant version comparison), AI Summarize (AI-generated document summaries), AI Autofill (auto-populate common data fields), AI Document Tag (tag suggestions on upload), and AI Search (natural-language answers across the platform). [Computershare (GEMS platform; model undisclosed)]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.cgs-gems.com/gemsai",
+   "raw_sector": "",
+   "date": "2025",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Computershare",
+   "use": "AI document processing: automatically identifying and classifying incoming documents to route them to the correct teams, and automating transaction routing based on specified criteria. [Computershare (undisclosed)]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.computershare.com/us/insights/transfer-agent-services/computershare-approach-ai",
+   "raw_sector": "",
+   "date": "2025",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Computershare",
+   "use": "Internal role-based digital assistants ('copilots') and generative-AI process tools used by staff to streamline finance, people management, writing assistance, and meeting-minute generation, automating routine tasks. [Computershare (undisclosed)]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.computershare.com/us/insights/transfer-agent-services/computershare-approach-ai",
+   "raw_sector": "",
+   "date": "2025",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Computershare",
+   "use": "GEMS AI Insights Agent and Custom AI Agents: coordinated agentic AI tasks for risk analysis, data-integrity scanning, and regulatory-impact assessment across entity/compliance data, flagging risks for a strategic compliance overview. [Computershare (GEMS platform)]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.cgs-gems.com/gemsai",
+   "raw_sector": "",
+   "date": "2025",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Computershare",
+   "use": "AI-powered call-center support: an AI tool that helps customer-service representatives quickly locate answers based on caller needs. Deployed in the US with rollout coming to Canada. [Computershare (undisclosed)]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.computershare.com/us/insights/transfer-agent-services/computershare-approach-ai",
+   "raw_sector": "",
+   "date": "2025",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Computershare",
+   "use": "Investor Center chatbot: a conversational assistant on the shareholder Investor Center / Contact Us pages that answers questions about a shareholder's account and hands off to a live agent when needed. [Computershare (undisclosed)]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www-us.computershare.com/investor/Contact",
+   "raw_sector": "",
+   "date": "2026",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Computershare",
+   "use": "Generative-AI content creation and personalization for investor relations, annual reports, and shareholder communications, plus extraction of data from unstructured PDFs/documents to build knowledge assistants combining structured and unstructured data. [Computershare (undisclosed)]",
+   "existence": "claimed",
+   "value": "Companies report automating 50-60% of content creation with human oversight (industry figure cited by Computershare)",
+   "tier": "",
+   "url": "https://www.computershare.com/us/insights/transfer-agent-services/ai-and-beyond-transforming-future-defining-business",
+   "raw_sector": "",
    "date": "2025",
    "fresh": "fresh"
   }

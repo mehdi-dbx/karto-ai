@@ -3,34 +3,43 @@
  "name": "Larsen & Toubro",
  "cc": "IN",
  "vertical": "Real Estate & Construction",
- "deployments": 1,
- "confirmed": 1,
- "with_value_number": 1,
- "proof_rate": 1.0,
+ "deployments": 5,
+ "confirmed": 3,
+ "with_value_number": 3,
+ "proof_rate": 0.6,
  "mktcap": 63253012048.0,
  "revenue": 35180722892.0,
  "employees": 55662.0,
  "silent": false,
- "per_bn_revenue": 0.03,
- "per_10k_emp": 0.18,
+ "per_bn_revenue": 0.14,
+ "per_10k_emp": 0.9,
  "benchmarks": {
   "global_vertical": {
-   "deployments": 0,
-   "confirmed": 31,
-   "proof_rate": 71,
+   "deployments": 60,
+   "confirmed": 55,
+   "proof_rate": 93,
    "n": 154
   }
  },
- "first_seen": null,
- "by_year": [],
- "undated_pct": 100,
- "momentum": "none",
+ "first_seen": 2024,
+ "by_year": [
+  {
+   "year": 2024,
+   "n": 2
+  },
+  {
+   "year": 2026,
+   "n": 1
+  }
+ ],
+ "undated_pct": 40,
+ "momentum": "early_mover,cooling",
  "maturity": "L3",
  "maturity_evidence": [
   "named_product:Microsoft",
   "value_number"
  ],
- "prospect_score": 6,
+ "prospect_score": 34,
  "stack": [
   "Microsoft",
   "NVIDIA"
@@ -47,6 +56,50 @@
    "raw_sector": "Construction",
    "date": "missing",
    "fresh": "undated"
+  },
+  {
+   "company": "Larsen & Toubro",
+   "use": "Generative AI for tender response and project lifecycle optimization",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://m.economictimes.com/tech/information-tech/lt-using-generative-ai-to-enhance-processes-across-project-lifecycle-says-md-subrahmanyan/amp_articleshow/111491757.cms",
+   "raw_sector": "",
+   "date": "2024-07-04",
+   "fresh": "aging"
+  },
+  {
+   "company": "Larsen & Toubro",
+   "use": "Risk prediction and AI-driven asset management across 800+ projects and 40,000+ assets",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.livemint.com/companies/how-l-t-is-engineering-an-ai-driven-conglomerate/amp-11713957779560.html",
+   "raw_sector": "",
+   "date": "2024-04-24",
+   "fresh": "aging"
+  },
+  {
+   "company": "Larsen & Toubro",
+   "use": "AI-driven use cases deployment across construction operations",
+   "existence": "claimed",
+   "value": "100",
+   "tier": "",
+   "url": "https://www.microsoft.com/en-in/aifirstmovers/larsentoubro",
+   "raw_sector": "",
+   "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "Larsen & Toubro",
+   "use": "NVIDIA GPU cluster deployment for AI factory [NVIDIA]",
+   "existence": "claimed",
+   "value": "30",
+   "tier": "",
+   "url": "https://www.larsentoubro.com/pressreleases/2026/2026-02-18-lt-teaming-with-nvidia-to-build-india-s-largest-gigawatt-scale-ai-factory",
+   "raw_sector": "",
+   "date": "2026-02-18",
+   "fresh": "fresh"
   }
  ]
 }

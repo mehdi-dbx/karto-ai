@@ -3,43 +3,78 @@
  "name": "Zebra Technologies",
  "cc": "US",
  "vertical": "Technology",
- "deployments": 1,
- "confirmed": 1,
- "with_value_number": 0,
- "proof_rate": 0.0,
+ "deployments": 10,
+ "confirmed": 7,
+ "with_value_number": 3,
+ "proof_rate": 0.3,
  "mktcap": 12240000000.0,
  "revenue": 5580000000.0,
  "employees": 10700.0,
  "silent": false,
- "per_bn_revenue": 0.18,
- "per_10k_emp": 0.93,
+ "per_bn_revenue": 1.79,
+ "per_10k_emp": 9.35,
  "benchmarks": {
   "global_vertical": {
-   "deployments": 0,
-   "confirmed": 6,
-   "proof_rate": 0,
-   "n": 156
+   "deployments": 58,
+   "confirmed": 56,
+   "proof_rate": 66,
+   "n": 159
   },
   "country_vertical": {
-   "deployments": 0,
-   "confirmed": 4,
-   "proof_rate": 0,
+   "deployments": 51,
+   "confirmed": 52,
+   "proof_rate": 74,
    "n": 74
   }
  },
- "first_seen": null,
- "by_year": [],
- "undated_pct": 100,
- "momentum": "none",
- "maturity": "L3",
+ "first_seen": 2017,
+ "by_year": [
+  {
+   "year": 2017,
+   "n": 2
+  },
+  {
+   "year": 2023,
+   "n": 1
+  },
+  {
+   "year": 2024,
+   "n": 3
+  },
+  {
+   "year": 2025,
+   "n": 3
+  }
+ ],
+ "undated_pct": 10,
+ "momentum": "early_mover,cooling",
+ "maturity": "L4",
  "maturity_evidence": [
+  "multi_horizontal",
   "named_product:Aurora Vision",
+  "value_number",
+  "multi_year",
   "tier_p"
  ],
- "prospect_score": 54,
- "stack": [],
- "vendor_named": false,
+ "prospect_score": 70,
+ "stack": [
+  "Google",
+  "Google Cloud",
+  "NVIDIA"
+ ],
+ "vendor_named": true,
  "deployments_detail": [
+  {
+   "company": "Zebra Technologies",
+   "use": "Zebra Mobile Computing AI Suite: an AI data-capture SDK and example apps that let developers embed vision-AI capabilities into mobile applications on select Zebra Android devices, enabling frontline workers to capture workflow context accurately. [Zebra Technologies]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.businesswire.com/news/home/20250109443733/en/Zebra-Technologies-Introduces-New-AI-Solutions-to-Empower-Retail-Frontline-Operations",
+   "raw_sector": "",
+   "date": "2025-01-09",
+   "fresh": "fresh"
+  },
   {
    "company": "Zebra Technologies",
    "use": "\"Aurora Vision\" machine-vision software + Vision AI for autonomous warehouse item recognition/scanning",
@@ -50,6 +85,94 @@
    "raw_sector": "Information Technology",
    "date": "missing",
    "fresh": "undated"
+  },
+  {
+   "company": "Zebra Technologies",
+   "use": "Walgreens deployed Zebra Workcloud Forecasting & Analysis (formerly Zebra demand forecasting), an AI-powered demand-forecasting platform that fuses weather, social trends and local events with retail data to forecast demand across 8,000+ stores, analyzing 50+ variables per SKU across 180M distribution points. [Zebra Workcloud (Zebra Technologies)]",
+   "existence": "confirmed",
+   "value": "Forecast error reduced 15 percentage points; over-forecasting cut from 15% to 1%; 50% reduction in human intervention; 98% in-stock levels during demand surges; deployed since 2017",
+   "tier": "",
+   "url": "https://www.zebra.com/us/en/resource-library/success-stories/walgreens-leverages-zebras-ai-powered-demand-forecasting-to-thrive-in-volatile-markets.html",
+   "raw_sector": "",
+   "date": "2017",
+   "fresh": "stale"
+  },
+  {
+   "company": "Zebra Technologies",
+   "use": "Target, with Zebra, Google Cloud and Qualcomm, is exploring a GenAI 'Merchandising Agent' that lets store staff photograph a shelf and get millisecond real-time insights on stock levels, out-of-stocks and misplaced items, running on-device AI on Zebra TC5 Series mobile computers with cloud AI from Google Cloud. [Zebra Technologies + Google Cloud (Gemini) + Qualcomm]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.zebra.com/us/en/resource-library/success-stories/target-explores-the-future-of-retail-with-generative-ai.html",
+   "raw_sector": "",
+   "date": "2024",
+   "fresh": "aging"
+  },
+  {
+   "company": "Zebra Technologies",
+   "use": "Zebra Companion, a multimodal GenAI suite of frontline-worker agents (Knowledge Agent, Sales Agent, Device Agent, Merchandising Agent) running on Zebra Android devices, providing conversational SOP access, product/inventory queries, device troubleshooting and on-device shelf image recognition. Powered by Google Cloud Gemini models. [Zebra Technologies + Google Cloud (Gemini) + Qualcomm]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.zebra.com/us/en/about-zebra/newsroom/press-releases/2025/zebra-technologies-introduces-new-ai-solutions-to-empower-retail-frontline-operations.html",
+   "raw_sector": "",
+   "date": "2025-01-09",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Zebra Technologies",
+   "use": "Sentinel deployed a 'Poka Yoke' automotive door-panel quality-control inspection machine built on Zebra AltiZ 3D profile sensors and a hybrid AI-plus-rule-based vision system (integrated via Zebra reseller ClearView), replacing hundreds of mechanical sensors with vision AI inspection. [Zebra Technologies (AltiZ) + ClearView integrator]",
+   "existence": "confirmed",
+   "value": "Commissioning time cut from 3 months to 3 weeks; defect rates lowered 10-15%; ~500 mechanical sensors eliminated; 100+ inspection points analyzed in 30 seconds",
+   "tier": "",
+   "url": "https://www.zebra.com/us/en/resource-library/success-stories/sentinel-transforms-automotive-inspection-with-quality-control-powered-by-zebra-technologies-and-clearview.html",
+   "raw_sector": "",
+   "date": "2025",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Zebra Technologies",
+   "use": "Zebra added deep-learning AI tools to its Aurora machine vision software suite (Design Assistant, Vision Studio, Imaging Library): no-code deep-learning object detection, font-independent OCR, and unsupervised anomaly/defect detection for industrial inspection in automotive, electronics, semiconductor, food/beverage and packaging. [Zebra Aurora (Zebra Technologies); GPU add-ons for NVIDIA and Intel]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://metrology.news/zebra-technologies-adds-deep-learning-tools-to-machine-vision-software/",
+   "raw_sector": "",
+   "date": "2024-08-29",
+   "fresh": "aging"
+  },
+  {
+   "company": "Zebra Technologies",
+   "use": "Zebra demonstrated on-device generative AI (an open-source GenAI model) running locally on its mobile computers and tablets powered by Qualcomm chipsets, applied to voice AI, computer vision and machine-vision workflows, for privacy, security and cost benefits at the mobile edge. [Zebra Technologies + Qualcomm Technologies]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.zebra.com/us/en/about-zebra/newsroom/press-releases/2023/zebra-technologies-demonstrates-generative-ai-on-devices-powered-by-qualcomm.html",
+   "raw_sector": "",
+   "date": "2023-10-04",
+   "fresh": "stale"
+  },
+  {
+   "company": "Zebra Technologies",
+   "use": "Zebra partnered with Google Cloud, Android and Qualcomm to unveil generative AI capabilities (using Google's Gemini and open-source Gemma models) spanning on-device to cloud, reducing cognitive load on frontline employees; announced at Google Cloud Next '24. [Zebra Technologies + Google Cloud (Gemini/Gemma) + Qualcomm + Android]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.zebra.com/us/en/about-zebra/newsroom/press-releases/2024/zebra-technologies-to-unveil-new-generative-ai-capabilities-at-google-cloud-next.html",
+   "raw_sector": "",
+   "date": "2024-04-04",
+   "fresh": "aging"
+  },
+  {
+   "company": "Zebra Technologies",
+   "use": "Walgreens deployed Zebra Workcloud Actionable Intelligence (formerly Zebra Prescriptive Analytics), an AI/ML anomaly-detection platform that flags inventory anomalies, fraud, compliance issues and loss-prevention risks across 9,000+ stores and issues real-time corrective-action alerts to associates. [Zebra Workcloud (Zebra Technologies)]",
+   "existence": "confirmed",
+   "value": "20,000+ users at Walgreens; 27% reduction in waste rates; millions of dollars saved; 500+ cashiers with irregular ID-verification patterns flagged within 24 hours",
+   "tier": "",
+   "url": "https://www.zebra.com/us/en/resource-library/success-stories/walgreens-boosts-efficiency-and-sales-with-zebras-workcloud-actionable-intelligence.html",
+   "raw_sector": "",
+   "date": "2017",
+   "fresh": "stale"
   }
  ]
 }

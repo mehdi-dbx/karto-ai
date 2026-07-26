@@ -3,45 +3,56 @@
  "name": "Clariane",
  "cc": "FR",
  "vertical": "Healthcare & Life Sciences",
- "deployments": 1,
- "confirmed": 1,
- "with_value_number": 0,
- "proof_rate": 0.0,
+ "deployments": 10,
+ "confirmed": 6,
+ "with_value_number": 6,
+ "proof_rate": 0.6,
  "mktcap": 1544400000.0,
  "revenue": 5734800000.0,
  "employees": 70685.0,
  "silent": false,
- "per_bn_revenue": 0.17,
- "per_10k_emp": 0.14,
+ "per_bn_revenue": 1.74,
+ "per_10k_emp": 1.41,
  "benchmarks": {
   "global_vertical": {
-   "deployments": 0,
-   "confirmed": 13,
-   "proof_rate": 0,
-   "n": 165
+   "deployments": 69,
+   "confirmed": 62,
+   "proof_rate": 93,
+   "n": 168
   },
   "country_vertical": {
-   "deployments": 0,
-   "confirmed": 12,
-   "proof_rate": 0,
+   "deployments": 75,
+   "confirmed": 62,
+   "proof_rate": 100,
    "n": 9
   }
  },
- "first_seen": 2024,
+ "first_seen": 2023,
  "by_year": [
   {
-   "year": 2024,
+   "year": 2023,
    "n": 1
+  },
+  {
+   "year": 2024,
+   "n": 5
+  },
+  {
+   "year": 2025,
+   "n": 4
   }
  ],
  "undated_pct": 0,
- "momentum": "early_mover,gone_quiet",
- "maturity": "L3",
+ "momentum": "early_mover,cooling",
+ "maturity": "L4",
  "maturity_evidence": [
+  "multi_horizontal",
   "named_product:Voice",
+  "value_number",
+  "multi_year",
   "tier_p"
  ],
- "prospect_score": 54,
+ "prospect_score": 60,
  "stack": [],
  "vendor_named": false,
  "deployments_detail": [
@@ -55,6 +66,105 @@
    "raw_sector": "Healthcare / Elderly Care",
    "date": "2024",
    "fresh": "aging"
+  },
+  {
+   "company": "Clariane",
+   "use": "Koala AI voice assistant: care professionals record clinical data (resident weight, blood glucose, observations) hands-free via voice commands instead of manual data entry, integrated into the Koala mobile companion app for facility staff. [Internal development (Clariane/Korian)]",
+   "existence": "confirmed",
+   "value": "Rolled out across 185 Korian facilities in France",
+   "tier": "",
+   "url": "https://www.clariane.com/en/the-group/innovation/technological-innovation",
+   "raw_sector": "",
+   "date": "2024",
+   "fresh": "aging"
+  },
+  {
+   "company": "Clariane",
+   "use": "Kaspard contactless, image-free fall detection: sensor reconstructs the room as a point cloud to detect falls or prolonged bed absence in real time and alert nursing staff. [Kaspard]",
+   "existence": "confirmed",
+   "value": "End 2023: 15% of French facilities and 25% of Belgian sites equipped",
+   "tier": "",
+   "url": "https://www.clariane.com/en/the-group/innovation/technological-innovation",
+   "raw_sector": "",
+   "date": "2023",
+   "fresh": "stale"
+  },
+  {
+   "company": "Clariane",
+   "use": "Lindera AI-based fall prevention mobile application analyzing residents' gait/mobility to assess fall risk in German care homes. [Lindera]",
+   "existence": "confirmed",
+   "value": "Used by more than 80% of the German network",
+   "tier": "",
+   "url": "https://www.clariane.com/en/the-group/innovation/technological-innovation",
+   "raw_sector": "",
+   "date": "2024",
+   "fresh": "aging"
+  },
+  {
+   "company": "Clariane",
+   "use": "Generative AI to summarize clinical handover/transmission notes for care staff, filtering by specialty so staff returning from absence can quickly grasp key patient information without missing critical items. [Generative AI (model not disclosed)]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.republikgroup.com/articles/6f0a3ac3-911c-f111-9a49-000d3a2f771b/luc-gille-clariane--nous-cherchons-une-seule-source-de-verite-",
+   "raw_sector": "",
+   "date": "2025-01-10",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Clariane",
+   "use": "Frailty prediction and prevention algorithms developed with CNES/MEDES and Artefact, analyzing resident data to predict fall risk and detect depression/mental-health risk for early intervention in elderly care. [Artefact; CNES/MEDES]",
+   "existence": "claimed",
+   "value": "Fall-prevention algorithms trained on data from 56,000+ residents; depression detection on 1.6 million records",
+   "tier": "",
+   "url": "https://www.artefact.com/blog/clariane-and-cnes-medes-at-ai-for-health-preventing-frailty-and-ai-geing-well/",
+   "raw_sector": "",
+   "date": "2024",
+   "fresh": "aging"
+  },
+  {
+   "company": "Clariane",
+   "use": "Koala digital ecosystem: integrated mobile workplace app for care teams handling telephony, documentation, care handovers, maintenance and cleaning monitoring in facilities. [Internal development (Clariane/Korian)]",
+   "existence": "confirmed",
+   "value": "185 Korian facilities in France",
+   "tier": "",
+   "url": "https://www.clariane.com/en/the-group/innovation/technological-innovation",
+   "raw_sector": "",
+   "date": "2024",
+   "fresh": "aging"
+  },
+  {
+   "company": "Clariane",
+   "use": "AI-powered technology-monitoring/intelligence service delivering weekly structured summaries (key articles, studies, innovations, weak signals, recommendations) on AI in elderly care, combining automated AI collection/analysis with human editorial curation. [IF (if-innovation.fr)]",
+   "existence": "confirmed",
+   "value": "Operated continuously over a one-year engagement",
+   "tier": "",
+   "url": "https://if-innovation.fr/business-cases/clariane-ia-elderly-care",
+   "raw_sector": "",
+   "date": "2025",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Clariane",
+   "use": "Generative AI to automatically draft responses to Google reviews across Clariane's ~1,000 European establishments, handling high volumes of daily feedback including complaints. [Generative AI (model not disclosed)]",
+   "existence": "claimed",
+   "value": "~1,000 European establishments; multiple reviews per day per facility",
+   "tier": "",
+   "url": "https://www.republikgroup.com/articles/6f0a3ac3-911c-f111-9a49-000d3a2f771b/luc-gille-clariane--nous-cherchons-une-seule-source-de-verite-",
+   "raw_sector": "",
+   "date": "2025-01-10",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Clariane",
+   "use": "Generative AI to consolidate and synthesize serious adverse event reports at group level, identifying priority areas for care-quality improvement across facilities. [Generative AI (model not disclosed)]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.republikgroup.com/articles/6f0a3ac3-911c-f111-9a49-000d3a2f771b/luc-gille-clariane--nous-cherchons-une-seule-source-de-verite-",
+   "raw_sector": "",
+   "date": "2025-01-10",
+   "fresh": "fresh"
   }
  ]
 }

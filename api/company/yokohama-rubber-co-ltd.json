@@ -3,41 +3,50 @@
  "name": "Yokohama Rubber Co., Ltd.",
  "cc": "JP",
  "vertical": "Chemicals & Materials",
- "deployments": 1,
- "confirmed": 1,
+ "deployments": 6,
+ "confirmed": 4,
  "with_value_number": 1,
- "proof_rate": 1.0,
+ "proof_rate": 0.167,
  "mktcap": 8133333333.0,
  "revenue": 8200000000.0,
  "employees": 34471.0,
  "silent": false,
- "per_bn_revenue": 0.12,
- "per_10k_emp": 0.29,
+ "per_bn_revenue": 0.73,
+ "per_10k_emp": 1.74,
  "benchmarks": {
   "global_vertical": {
-   "deployments": 0,
-   "confirmed": 19,
-   "proof_rate": 75,
-   "n": 105
+   "deployments": 65,
+   "confirmed": 51,
+   "proof_rate": 43,
+   "n": 107
   },
   "country_vertical": {
-   "deployments": 0,
-   "confirmed": 15,
-   "proof_rate": 59,
+   "deployments": 71,
+   "confirmed": 59,
+   "proof_rate": 29,
    "n": 35
   }
  },
- "first_seen": null,
- "by_year": [],
- "undated_pct": 100,
- "momentum": "none",
+ "first_seen": 2021,
+ "by_year": [
+  {
+   "year": 2021,
+   "n": 2
+  },
+  {
+   "year": 2026,
+   "n": 1
+  }
+ ],
+ "undated_pct": 50,
+ "momentum": "early_mover,rising",
  "maturity": "L3",
  "maturity_evidence": [
   "named_product:HAICoLab",
   "value_number",
   "tier_p"
  ],
- "prospect_score": 14,
+ "prospect_score": 65,
  "stack": [],
  "vendor_named": false,
  "deployments_detail": [
@@ -49,6 +58,61 @@
    "tier": "P",
    "url": "https://www.y-yokohama.com/technology/tech05/",
    "raw_sector": "Rubber",
+   "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "Yokohama Rubber Co., Ltd.",
+   "use": "AI system to predict physical properties of rubber compounds for tire design",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.y-yokohama.com/release/?id=3518&lang=en",
+   "raw_sector": "",
+   "date": "2021-02-15",
+   "fresh": "stale"
+  },
+  {
+   "company": "Yokohama Rubber Co., Ltd.",
+   "use": "AI system to predict values of key tire characteristics",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.y-yokohama.com/release/?id=3682&lang=en",
+   "raw_sector": "",
+   "date": "2021-12-02",
+   "fresh": "stale"
+  },
+  {
+   "company": "Yokohama Rubber Co., Ltd.",
+   "use": "AI technology to gauge tire air pressure from sound of tapping tires [METRIKA, Inc.]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.y-yokohama.com/release/?id=4462&lang=en",
+   "raw_sector": "",
+   "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "Yokohama Rubber Co., Ltd.",
+   "use": "AI-assisted tire mold design system combining FEM simulation and surrogate AI models",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://jp.ibtimes.com/yokohama-rubber-develops-ai-assisted-tire-mold-design-system-100767",
+   "raw_sector": "",
+   "date": "2026-05-01",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Yokohama Rubber Co., Ltd.",
+   "use": "AI-driven feature engineering for tire design and rubber mixing optimization [dotData]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://dotdata.com/resources/case-study/yokohama-rubber-and-dotdata-revolutionize-tire-performance-and-manufacturing-by-scaling-ai/",
+   "raw_sector": "",
    "date": "missing",
    "fresh": "undated"
   }

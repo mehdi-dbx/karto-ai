@@ -3,22 +3,22 @@
  "name": "Equinor",
  "cc": "NO",
  "vertical": "Energy & Utilities",
- "deployments": 12,
- "confirmed": 12,
- "with_value_number": 9,
- "proof_rate": 0.75,
+ "deployments": 16,
+ "confirmed": 15,
+ "with_value_number": 11,
+ "proof_rate": 0.688,
  "mktcap": 88371028037.0,
  "revenue": 105607476636.0,
  "employees": 24140.0,
  "silent": false,
- "per_bn_revenue": 0.11,
- "per_10k_emp": 4.97,
+ "per_bn_revenue": 0.15,
+ "per_10k_emp": 6.63,
  "benchmarks": {
   "global_vertical": {
    "deployments": 97,
    "confirmed": 98,
-   "proof_rate": 75,
-   "n": 210
+   "proof_rate": 94,
+   "n": 213
   },
   "country_vertical": {
    "deployments": 100,
@@ -47,10 +47,10 @@
   },
   {
    "year": 2026,
-   "n": 2
+   "n": 5
   }
  ],
- "undated_pct": 0,
+ "undated_pct": 6,
  "momentum": "early_mover,rising",
  "maturity": "L4",
  "maturity_evidence": [
@@ -60,9 +60,12 @@
   "multi_year",
   "tier_p"
  ],
- "prospect_score": 78,
- "stack": [],
- "vendor_named": false,
+ "prospect_score": 72,
+ "stack": [
+  "Databricks",
+  "Microsoft"
+ ],
+ "vendor_named": true,
  "deployments_detail": [
   {
    "company": "Equinor",
@@ -85,6 +88,50 @@
    "raw_sector": "Energy",
    "date": "2026-01",
    "fresh": "fresh"
+  },
+  {
+   "company": "Equinor",
+   "use": "Seismic data analysis accelerated tenfold",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.equinor.com/news/20260107-artificial-intelligence-saved-equinor-usd-130-million",
+   "raw_sector": "",
+   "date": "2026-01-07",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Equinor",
+   "use": "AI optimization for Johan Sverdrup Phase 3 field development",
+   "existence": "confirmed",
+   "value": "USD 12 million",
+   "tier": "",
+   "url": "https://www.equinor.com/news/20260107-artificial-intelligence-saved-equinor-usd-130-million",
+   "raw_sector": "",
+   "date": "2026-01-07",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Equinor",
+   "use": "AI-driven savings and value creation across offshore platforms and onshore facilities",
+   "existence": "confirmed",
+   "value": "USD 130 million",
+   "tier": "",
+   "url": "https://www.equinor.com/news/20260107-artificial-intelligence-saved-equinor-usd-130-million",
+   "raw_sector": "",
+   "date": "2026-01-07",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Equinor",
+   "use": "Machine learning predictive maintenance to detect equipment malfunctions",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.equinor.com/energy/digitalisation",
+   "raw_sector": "",
+   "date": "missing",
+   "fresh": "undated"
   },
   {
    "company": "Equinor",

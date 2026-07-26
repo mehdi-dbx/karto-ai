@@ -3,28 +3,28 @@
  "name": "Abu Dhabi Islamic Bank",
  "cc": "AE",
  "vertical": "Financial Services",
- "deployments": 1,
- "confirmed": 1,
+ "deployments": 6,
+ "confirmed": 6,
  "with_value_number": 1,
- "proof_rate": 1.0,
+ "proof_rate": 0.167,
  "mktcap": 20387000000.0,
  "revenue": 3245000000.0,
  "employees": null,
  "silent": false,
- "per_bn_revenue": 0.31,
+ "per_bn_revenue": 1.85,
  "per_10k_emp": null,
  "benchmarks": {
   "global_vertical": {
-   "deployments": 0,
-   "confirmed": 17,
-   "proof_rate": 76,
-   "n": 377
+   "deployments": 44,
+   "confirmed": 55,
+   "proof_rate": 35,
+   "n": 388
   },
   "country_vertical": {
-   "deployments": 0,
-   "confirmed": 8,
-   "proof_rate": 100,
-   "n": 14
+   "deployments": 50,
+   "confirmed": 79,
+   "proof_rate": 50,
+   "n": 15
   }
  },
  "first_seen": 2024,
@@ -34,20 +34,43 @@
    "n": 1
   }
  ],
- "undated_pct": 0,
+ "undated_pct": 83,
  "momentum": "early_mover,gone_quiet",
  "maturity": "L3",
  "maturity_evidence": [
+  "multi_horizontal",
   "named_product:ADIB",
   "value_number",
   "tier_p"
  ],
- "prospect_score": 6,
+ "prospect_score": 69,
  "stack": [
   "Microsoft"
  ],
  "vendor_named": true,
  "deployments_detail": [
+  {
+   "company": "Abu Dhabi Islamic Bank",
+   "use": "Natural language processing chatbot for customer service automation [Verloop.io]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://tools.eurolandir.com/tools/Pressreleases/GetPressRelease/?ID=3939057&lang=en-GB&companycode=ae-adib&v=",
+   "raw_sector": "",
+   "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "Abu Dhabi Islamic Bank",
+   "use": "Gen AI-driven chatbots for 24/7 personalized customer service",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.khaleejtimes.com/supplements/adib-implements-best-data-platform-for-ai-initiatives",
+   "raw_sector": "",
+   "date": "Sep 25, 2025",
+   "fresh": "undated"
+  },
   {
    "company": "Abu Dhabi Islamic Bank",
    "use": "ADIB Digital Factory adopted GitHub Copilot for Business AI code generation, achieving 24% productivity increase in initial testing",
@@ -58,6 +81,39 @@
    "raw_sector": "Banks",
    "date": "2024",
    "fresh": "aging"
+  },
+  {
+   "company": "Abu Dhabi Islamic Bank",
+   "use": "Compliance and financial crime prevention using AI and machine learning",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.euromoney.com/article/2eegvrcax0x73o0r2yc5d/awards/private-banking-awards/middle-easts-best-for-digital-solutions-2025-adib-private-banking/",
+   "raw_sector": "",
+   "date": "Mar 28, 2025",
+   "fresh": "undated"
+  },
+  {
+   "company": "Abu Dhabi Islamic Bank",
+   "use": "Deployment of Visa's threat intelligence platform [Visa]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://fintechly.com/infrastructure/adib-deploys-visas-threat-intelligence-platform/",
+   "raw_sector": "",
+   "date": "2 days ago",
+   "fresh": "undated"
+  },
+  {
+   "company": "Abu Dhabi Islamic Bank",
+   "use": "AI-driven fraud detection [SAS]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://mea-finance.com/abu-dhabi-islamic-bank-adib-strengthens-its-fraud-detection-capabilities-with-enhanced-ai-driven-fraud-detection-from-sas/",
+   "raw_sector": "",
+   "date": "Mar 29, 2021",
+   "fresh": "undated"
   }
  ]
 }

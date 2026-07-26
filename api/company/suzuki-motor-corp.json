@@ -3,47 +3,70 @@
  "name": "Suzuki Motor Corp.",
  "cc": "JP",
  "vertical": "Automotive",
- "deployments": 1,
- "confirmed": 1,
- "with_value_number": 0,
- "proof_rate": 0.0,
+ "deployments": 11,
+ "confirmed": 8,
+ "with_value_number": 5,
+ "proof_rate": 0.455,
  "mktcap": 26266666667.0,
  "revenue": 41933333333.0,
  "employees": 76889.0,
  "silent": false,
- "per_bn_revenue": 0.02,
- "per_10k_emp": 0.13,
+ "per_bn_revenue": 0.26,
+ "per_10k_emp": 1.43,
  "benchmarks": {
   "global_vertical": {
-   "deployments": 0,
-   "confirmed": 10,
-   "proof_rate": 0,
+   "deployments": 69,
+   "confirmed": 72,
+   "proof_rate": 87,
    "n": 40
   },
   "country_vertical": {
-   "deployments": 0,
-   "confirmed": 0,
-   "proof_rate": 0,
+   "deployments": 67,
+   "confirmed": 67,
+   "proof_rate": 67,
    "n": 10
   }
  },
- "first_seen": 2025,
+ "first_seen": 2021,
  "by_year": [
   {
+   "year": 2021,
+   "n": 1
+  },
+  {
+   "year": 2022,
+   "n": 1
+  },
+  {
+   "year": 2024,
+   "n": 5
+  },
+  {
    "year": 2025,
+   "n": 3
+  },
+  {
+   "year": 2026,
    "n": 1
   }
  ],
  "undated_pct": 0,
- "momentum": "rising",
- "maturity": "L3",
+ "momentum": "early_mover,cooling",
+ "maturity": "L4",
  "maturity_evidence": [
+  "multi_horizontal",
   "named_product:Ollo Factory",
+  "value_number",
+  "multi_year",
   "tier_p"
  ],
- "prospect_score": 54,
- "stack": [],
- "vendor_named": false,
+ "prospect_score": 70,
+ "stack": [
+  "Microsoft",
+  "Microsoft Azure",
+  "OpenAI"
+ ],
+ "vendor_named": true,
  "deployments_detail": [
   {
    "company": "Suzuki Motor Corp.",
@@ -55,6 +78,116 @@
    "raw_sector": "Automotive",
    "date": "2025-07",
    "fresh": "fresh"
+  },
+  {
+   "company": "Suzuki Motor Corp.",
+   "use": "\"Ollo Factory\" work-analysis AI that ingests video from wearable cameras/smartphones on the assembly line to auto-generate work manuals, identify wasted motion, train newcomers and flag work errors in real time to prevent defects. First deployed at the Sagara Plant assembly line (July 2025), extended to the Sagara engine facility (Dec 2025), with rollout planned across all domestic plants and potential overseas expansion. [Ollo, Inc. (Univ. of Tokyo Matsuo Lab startup)]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.globalsuzuki.com/globalnews/2025/1222.html",
+   "raw_sector": "",
+   "date": "2025-12-22",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Suzuki Motor Corp.",
+   "use": "Conversational generative-AI in-car assistant (Cerence Assistant) for Suzuki's first BEV, the e VITARA, offering embedded navigation, natural-language free-form conversation and voice control of vehicle functions (AC/heat). Suzuki to be the first Japanese automaker to bring a Cerence Assistant experience to market in Japan. [Cerence AI]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://investors.cerence.com/news-events/press-releases/detail/354/suzuki-teams-up-with-cerence-ai-to-bring-in-car-assistant-to-the-road",
+   "raw_sector": "",
+   "date": "2025-09-30",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Suzuki Motor Corp.",
+   "use": "Computer-vision \"digital poka-yoke\" system using live-streaming video to validate complex manual assembly steps in real time (detecting misaligned panels, incorrect bolt torque, improper clip placement) and alert line managers instantly, at the Sagara Plant in Japan. [i-5O]",
+   "existence": "confirmed",
+   "value": "$100 million/year in rework cost savings; 98%+ model precision",
+   "tier": "",
+   "url": "https://i-5o.ai/Resources/suzuki-case-study",
+   "raw_sector": "",
+   "date": "2024-01-01",
+   "fresh": "aging"
+  },
+  {
+   "company": "Suzuki Motor Corp.",
+   "use": "Autonomous logistics vehicle: Suzuki is the OEM producing the purpose-built \"Blanc Robot\" autonomous electric vehicle running on Applied EV's autonomy/vehicle-control software, moving toward production with an initial 100 units. [Applied EV]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.appliedev.com/news/aev-introduces-first-autonomous-only-logistics-vehicle",
+   "raw_sector": "",
+   "date": "2024-12-10",
+   "fresh": "aging"
+  },
+  {
+   "company": "Suzuki Motor Corp.",
+   "use": "10th accelerator cohort: six startups selected for paid proof-of-concept AI projects covering plant material-movement safety (Goat Robotics), predictive maintenance/equipment safety (Swayatt Drishtigochar), AI dealer sales assistance (Swiftex), used-car pricing (SheerDrive), material traceability (GenbaNEXT) and design-cycle optimization (Schijnenn Digital). (Maruti Suzuki subsidiary; PoC/pilot stage.) [Goat Robotics; Swayatt Drishtigochar; Swiftex; SheerDrive; GenbaNEXT; Schijnenn Digital]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.autocarpro.in/news/maruti-suzuki-selects-six-startups-for-ai-and-technology-led-solutions-132548?amp=1",
+   "raw_sector": "",
+   "date": "2026-05-12",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Suzuki Motor Corp.",
+   "use": "\"S-Assist\" AI-based 24x7 virtual car assistant app for NEXA customers: scan a car part or use voice/chat to get troubleshooting help, feature explanations and driving tips post-purchase. Deployed via the Maruti Suzuki Rewards mobile app (iOS/Android). (Maruti Suzuki, Suzuki's Indian subsidiary.) [Xane.AI]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.marutisuzuki.com/corporate/media/press-releases/2021/september/maruti-suzuki-unveils-s-assist-an-industry-first-ai-based-24x7-virtual-car-assistant-for-nexa",
+   "raw_sector": "",
+   "date": "2021-09-30",
+   "fresh": "stale"
+  },
+  {
+   "company": "Suzuki Motor Corp.",
+   "use": "AI-powered virtual sales avatar deployed across Maruti Suzuki brand web pages, acting as a digital twin of a showroom relationship manager using speech recognition and NLP to give personalized product recommendations and guide discovery. (Maruti Suzuki subsidiary.) [DaveAI]",
+   "existence": "confirmed",
+   "value": "18M+ unique customer interactions, 60,000+ leads, 1.2M+ queries in 18 months; 33% increase in lead generation",
+   "tier": "",
+   "url": "https://www.iamdave.ai/stories/maruti-suzuki/",
+   "raw_sector": "",
+   "date": "2022-06-27",
+   "fresh": "stale"
+  },
+  {
+   "company": "Suzuki Motor Corp.",
+   "use": "Company-wide Azure OpenAI Service deployment. Suzuki was among the first firms to launch an enterprise-wide rollout (from March 21, 2023) and built internal generative-AI apps including NAGI (Q&A/translate/summarize chat) and NAMI (ChatGPT-style assistant) plus a multi-persona debate app. Used for internal document search, meeting-minutes summarization, recruitment screening in India, and DX training. [Microsoft Azure OpenAI Service]",
+   "existence": "confirmed",
+   "value": "Expects to cut labor on simple/routine tasks by 80%",
+   "tier": "",
+   "url": "https://www.microsoft.com/en/customers/story/1752392067274688790-suzuki-motor-corporation-azure-automotive-en-japan",
+   "raw_sector": "",
+   "date": "2024-04-10",
+   "fresh": "aging"
+  },
+  {
+   "company": "Suzuki Motor Corp.",
+   "use": "AI-powered, mobile-first IT Service Management (ITSM) platform with no-code automation and integrated ITAM/ITOM, deployed for Maruti Suzuki's ~20,000 employees to streamline IT operations. (Maruti Suzuki subsidiary.) [SymphonyAI]",
+   "existence": "confirmed",
+   "value": "Up to 50% productivity increase; up to 85% CSAT improvement",
+   "tier": "",
+   "url": "https://www.symphonyai.com/resources/case-study/itsm/maruti-suzuki/",
+   "raw_sector": "",
+   "date": "2024-09-26",
+   "fresh": "aging"
+  },
+  {
+   "company": "Suzuki Motor Corp.",
+   "use": "AI-enabled talent-assessment platform (EY Competency Connect) combining psychometrics, situational-judgment tests and business simulations, replacing physical assessment centres to evaluate ~4,000 employees for leadership development and succession planning. (Maruti Suzuki subsidiary.) [EY (Competency Connect)]",
+   "existence": "confirmed",
+   "value": "~4,000 employees assessed; assessment cycle time cut ~two-thirds; 80% match between AI assessments and real-world outcomes",
+   "tier": "",
+   "url": "https://www.ey.com/en_in/insights/ai/how-maruti-suzuki-scaled-ai-powered-talent-assessment",
+   "raw_sector": "",
+   "date": "2024-01-01",
+   "fresh": "aging"
   }
  ]
 }

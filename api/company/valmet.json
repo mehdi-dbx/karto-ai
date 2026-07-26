@@ -3,42 +3,49 @@
  "name": "Valmet",
  "cc": "FI",
  "vertical": "Manufacturing & Robotics",
- "deployments": 1,
- "confirmed": 1,
- "with_value_number": 0,
- "proof_rate": 0.0,
+ "deployments": 5,
+ "confirmed": 3,
+ "with_value_number": 1,
+ "proof_rate": 0.2,
  "mktcap": 4460400000.0,
  "revenue": 5680800000.0,
  "employees": 18370.0,
  "silent": false,
- "per_bn_revenue": 0.18,
- "per_10k_emp": 0.54,
+ "per_bn_revenue": 0.88,
+ "per_10k_emp": 2.72,
  "benchmarks": {
   "global_vertical": {
-   "deployments": 0,
-   "confirmed": 24,
-   "proof_rate": 0,
-   "n": 147
+   "deployments": 58,
+   "confirmed": 50,
+   "proof_rate": 62,
+   "n": 150
   },
   "country_vertical": {
-   "deployments": 0,
-   "confirmed": 10,
-   "proof_rate": 0,
+   "deployments": 40,
+   "confirmed": 20,
+   "proof_rate": 60,
    "n": 11
   }
  },
- "first_seen": null,
- "by_year": [],
- "undated_pct": 100,
- "momentum": "none",
+ "first_seen": 2026,
+ "by_year": [
+  {
+   "year": 2026,
+   "n": 4
+  }
+ ],
+ "undated_pct": 20,
+ "momentum": "late_entrant,rising",
  "maturity": "L3",
  "maturity_evidence": [
   "named_product:Valmet",
   "tier_p"
  ],
- "prospect_score": 54,
- "stack": [],
- "vendor_named": false,
+ "prospect_score": 50,
+ "stack": [
+  "Infosys"
+ ],
+ "vendor_named": true,
  "deployments_detail": [
   {
    "company": "Valmet",
@@ -50,6 +57,50 @@
    "raw_sector": "Industrials",
    "date": "missing",
    "fresh": "undated"
+  },
+  {
+   "company": "Valmet",
+   "use": "Quality Control System for tissue paper production line",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.pulpapernews.com/20260217/17461/valmet-deliver-qcs-papeterie-le-bourray",
+   "raw_sector": "",
+   "date": "2026-02-17",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Valmet",
+   "use": "Performance Center for early deviation detection and mill optimization",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.instagram.com/reel/DZMv3rNlEC-/",
+   "raw_sector": "",
+   "date": "2026-01-01",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Valmet",
+   "use": "Edge AI-powered analytics for control valve management",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.valmet.com/insights/blogs/flow-control/2026/revolutionizing-control-valve-management-with-edge-ai/",
+   "raw_sector": "",
+   "date": "2026-05-20",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Valmet",
+   "use": "AI-driven IT transformation and IT operations modernization [Infosys Topaz]",
+   "existence": "claimed",
+   "value": "20",
+   "tier": "",
+   "url": "https://www.sahi.com/news/infosys-partners-with-valmet-for-ai-driven-it-transformation-to-boost-operational-efficiency-by-20-1098-PE1_COR",
+   "raw_sector": "",
+   "date": "2026-06-17",
+   "fresh": "fresh"
   }
  ]
 }

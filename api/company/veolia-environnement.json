@@ -3,27 +3,27 @@
  "name": "Veolia Environnement",
  "cc": "FR",
  "vertical": "Energy & Utilities",
- "deployments": 1,
- "confirmed": 1,
- "with_value_number": 0,
- "proof_rate": 0.0,
+ "deployments": 6,
+ "confirmed": 3,
+ "with_value_number": 1,
+ "proof_rate": 0.167,
  "mktcap": 29462400000.0,
  "revenue": 47952000000.0,
  "employees": 203100.0,
  "silent": false,
- "per_bn_revenue": 0.02,
- "per_10k_emp": 0.05,
+ "per_bn_revenue": 0.13,
+ "per_10k_emp": 0.3,
  "benchmarks": {
   "global_vertical": {
-   "deployments": 0,
-   "confirmed": 20,
-   "proof_rate": 0,
-   "n": 210
+   "deployments": 68,
+   "confirmed": 48,
+   "proof_rate": 47,
+   "n": 213
   },
   "country_vertical": {
-   "deployments": 0,
-   "confirmed": 0,
-   "proof_rate": 0,
+   "deployments": 33,
+   "confirmed": 33,
+   "proof_rate": 50,
    "n": 7
   }
  },
@@ -34,16 +34,19 @@
    "n": 1
   }
  ],
- "undated_pct": 0,
+ "undated_pct": 83,
  "momentum": "rising",
  "maturity": "L3",
  "maturity_evidence": [
   "named_product:Mistral",
   "tier_p"
  ],
- "prospect_score": 54,
- "stack": [],
- "vendor_named": false,
+ "prospect_score": 51,
+ "stack": [
+  "Amazon AWS",
+  "Mistral AI"
+ ],
+ "vendor_named": true,
  "deployments_detail": [
   {
    "company": "Veolia Environnement",
@@ -55,6 +58,61 @@
    "raw_sector": "Utilities / Environmental Services",
    "date": "2025",
    "fresh": "fresh"
+  },
+  {
+   "company": "Veolia Environnement",
+   "use": "Operational efficiency gains through AI and digital technologies",
+   "existence": "claimed",
+   "value": "50%",
+   "tier": "",
+   "url": "https://www.veolia.com/en/our-media/press-releases/veolia-positions-growth-clean-tech-data-centers-and-chip-production",
+   "raw_sector": "",
+   "date": "Apr 14, 2026",
+   "fresh": "undated"
+  },
+  {
+   "company": "Veolia Environnement",
+   "use": "AI-powered management and monitoring of industrial sites in water, waste and energy sectors",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.veolia.com/en/our-media/news/generative-ai-heart-ecological-transformation-veolia-pushes-boundaries-innovation",
+   "raw_sector": "",
+   "date": "Feb 5, 2025",
+   "fresh": "undated"
+  },
+  {
+   "company": "Veolia Environnement",
+   "use": "Amazon Bedrock-powered generative AI for ecological innovation [Amazon Bedrock]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.facebook.com/amazonwebservices/videos/aws-how-veolia-uses-amazon-bedrock-to-drive-ecological-innovation/2044889906038553/",
+   "raw_sector": "",
+   "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "Veolia Environnement",
+   "use": "AI applications for waste sorting, water network management, consumption monitoring, and facility remote operations",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.veolia.com/en/solutions/artificial-intelligence-serving-our-businesses",
+   "raw_sector": "",
+   "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "Veolia Environnement",
+   "use": "Hubgrade Water Footprint - AI-based digital solution for water neutrality",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.watertechnologies.com/about-us/newsroom/veolia-takes-artificial-intelligence-deployment-next-level-drive-sustainable",
+   "raw_sector": "",
+   "date": "Jul 31, 2024",
+   "fresh": "undated"
   }
  ]
 }

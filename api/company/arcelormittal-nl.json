@@ -3,27 +3,27 @@
  "name": "ArcelorMittal",
  "cc": "NL",
  "vertical": "Manufacturing & Robotics",
- "deployments": 1,
- "confirmed": 1,
- "with_value_number": 0,
- "proof_rate": 0.0,
+ "deployments": 11,
+ "confirmed": 9,
+ "with_value_number": 2,
+ "proof_rate": 0.182,
  "mktcap": 44330000000.0,
  "revenue": 53780000000.0,
  "employees": 125554.0,
  "silent": false,
- "per_bn_revenue": 0.02,
- "per_10k_emp": 0.08,
+ "per_bn_revenue": 0.2,
+ "per_10k_emp": 0.88,
  "benchmarks": {
   "global_vertical": {
-   "deployments": 0,
-   "confirmed": 24,
-   "proof_rate": 0,
-   "n": 147
+   "deployments": 80,
+   "confirmed": 85,
+   "proof_rate": 60,
+   "n": 150
   },
   "country_vertical": {
-   "deployments": 0,
-   "confirmed": 20,
-   "proof_rate": 0,
+   "deployments": 100,
+   "confirmed": 100,
+   "proof_rate": 100,
    "n": 6
   }
  },
@@ -33,10 +33,12 @@
  "momentum": "none",
  "maturity": "L3",
  "maturity_evidence": [
+  "multi_horizontal",
   "named_product:Strategic",
+  "value_number",
   "tier_p"
  ],
- "prospect_score": 46,
+ "prospect_score": 87,
  "stack": [
   "Amazon AWS"
  ],
@@ -66,6 +68,50 @@
   },
   {
    "company": "ArcelorMittal",
+   "use": "Computer-vision-based production monitoring [AWS]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://portalerp.com/news/arcelormittal-brings-aws-cloud-and-ai-tools-to-steel-production-floors",
+   "raw_sector": "",
+   "date": "Jun 26, 2026",
+   "fresh": "undated"
+  },
+  {
+   "company": "ArcelorMittal",
+   "use": "Dynamic process optimization for automotive steel sheet production",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://aiexpert.network/ai-at-arcelormittal/",
+   "raw_sector": "",
+   "date": "Sep 10, 2024",
+   "fresh": "undated"
+  },
+  {
+   "company": "ArcelorMittal",
+   "use": "AI and network cameras for steel production monitoring [Axis]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.axis.com/customer-story/cameras-ai-steel-manufacturing",
+   "raw_sector": "",
+   "date": "Jan 26, 2026",
+   "fresh": "undated"
+  },
+  {
+   "company": "ArcelorMittal",
+   "use": "Industrial automation and process optimization [AWS]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://press.aboutamazon.com/aws/2026/6/arcelormittal-announces-strategic-collaboration-with-aws-to-drive-industrial-automation-and-lower-carbon-construction-globally",
+   "raw_sector": "",
+   "date": "Jun 22, 2026",
+   "fresh": "undated"
+  },
+  {
+   "company": "ArcelorMittal",
    "use": "Strategic collaboration with AWS to drive industrial automation across global steel operations via cloud, AI and edge tech (own regulatory news release)",
    "existence": "confirmed",
    "value": "none",
@@ -88,6 +134,39 @@
   },
   {
    "company": "ArcelorMittal",
+   "use": "Predictive maintenance for equipment [AWS]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://portalerp.com/news/arcelormittal-brings-aws-cloud-and-ai-tools-to-steel-production-floors",
+   "raw_sector": "",
+   "date": "Jun 26, 2026",
+   "fresh": "undated"
+  },
+  {
+   "company": "ArcelorMittal",
+   "use": "AI-driven investment assessment model",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.steelradar.com/en/arcelormittal-wins-ai-award-at-mlc-2025/",
+   "raw_sector": "",
+   "date": "Jun 30, 2025",
+   "fresh": "undated"
+  },
+  {
+   "company": "ArcelorMittal",
+   "use": "Maintenance documentation and engineering analysis [Tacit AI]",
+   "existence": "confirmed",
+   "value": "42 minutes saved per repair",
+   "tier": "",
+   "url": "https://tacitx.ai/case-study/arcelormittal/",
+   "raw_sector": "",
+   "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "ArcelorMittal",
    "use": "AI-enabled sales workflows (ArcelorMittal Brazil) — margin impact (McKinsey case study)",
    "existence": "claimed",
    "value": "$10.5M margin impact",
@@ -105,6 +184,171 @@
    "tier": "P",
    "url": "https://corporate.arcelormittal.com/media/news/regulatory-news/arcelormittal-announces-strategic-collaboration-with-aws",
    "raw_sector": "Steel",
+   "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "ArcelorMittal",
+   "use": "Predictive maintenance for equipment [AWS]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://portalerp.com/news/arcelormittal-brings-aws-cloud-and-ai-tools-to-steel-production-floors",
+   "raw_sector": "",
+   "date": "Jun 26, 2026",
+   "fresh": "undated"
+  },
+  {
+   "company": "ArcelorMittal",
+   "use": "Computer-vision-based production monitoring [AWS]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://portalerp.com/news/arcelormittal-brings-aws-cloud-and-ai-tools-to-steel-production-floors",
+   "raw_sector": "",
+   "date": "Jun 26, 2026",
+   "fresh": "undated"
+  },
+  {
+   "company": "ArcelorMittal",
+   "use": "AI-SVEEM units for emissions reductions",
+   "existence": "confirmed",
+   "value": "37",
+   "tier": "",
+   "url": "https://cdn.arcelormittal.com/media/kyqeahax/2025-sd-report-22-april-2026-final-upload.pdf",
+   "raw_sector": "",
+   "date": "Apr 22, 2026",
+   "fresh": "undated"
+  },
+  {
+   "company": "ArcelorMittal",
+   "use": "Dynamic process optimization for automotive steel production",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://aiexpert.network/ai-at-arcelormittal/",
+   "raw_sector": "",
+   "date": "Sep 10, 2024",
+   "fresh": "undated"
+  },
+  {
+   "company": "ArcelorMittal",
+   "use": "AI for scrap purchasing optimization",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.linkedin.com/pulse/3-arcelormittal-how-artificial-intelligence-reinvented-8rb8e",
+   "raw_sector": "",
+   "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "ArcelorMittal",
+   "use": "AI for furnace operations",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.linkedin.com/pulse/3-arcelormittal-how-artificial-intelligence-reinvented-8rb8e",
+   "raw_sector": "",
+   "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "ArcelorMittal",
+   "use": "AI for beam cutting optimization",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.linkedin.com/pulse/3-arcelormittal-how-artificial-intelligence-reinvented-8rb8e",
+   "raw_sector": "",
+   "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "ArcelorMittal",
+   "use": "AI and computer vision for smart manufacturing and safety [Axis]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.axis.com/customer-story/cameras-ai-steel-manufacturing",
+   "raw_sector": "",
+   "date": "Jan 26, 2026",
+   "fresh": "undated"
+  },
+  {
+   "company": "ArcelorMittal",
+   "use": "AI-driven investment assessment model",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.steelradar.com/en/arcelormittal-wins-ai-award-at-mlc-2025/",
+   "raw_sector": "",
+   "date": "Jun 30, 2025",
+   "fresh": "undated"
+  },
+  {
+   "company": "ArcelorMittal",
+   "use": "AI-powered maintenance documentation and wrench time optimization [Tacit AI]",
+   "existence": "confirmed",
+   "value": "42",
+   "tier": "",
+   "url": "https://tacitx.ai/case-study/arcelormittal/",
+   "raw_sector": "",
+   "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "ArcelorMittal",
+   "use": "Industrial automation and AI deployment at point of production using AWS services, industrial IoT, real-time sensor data and machine learning [AWS]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://corporate.arcelormittal.com/media/news/regulatory-news/arcelormittal-announces-strategic-collaboration-with-aws-to-drive-industrial-automation-and-lower-carbon-construction-globally",
+   "raw_sector": "",
+   "date": "Jun 22, 2026",
+   "fresh": "undated"
+  },
+  {
+   "company": "ArcelorMittal",
+   "use": "AI and network cameras for steel manufacturing enabling smart manufacturing, safety, and efficiency at Belgium facility",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.axis.com/customer-story/cameras-ai-steel-manufacturing",
+   "raw_sector": "",
+   "date": "Jan 26, 2026",
+   "fresh": "undated"
+  },
+  {
+   "company": "ArcelorMittal",
+   "use": "AI technology for dynamic process optimization in automotive steel sheet production at Eisenhüttenstadt plant",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://aiexpert.network/ai-at-arcelormittal/",
+   "raw_sector": "",
+   "date": "Sep 10, 2024",
+   "fresh": "undated"
+  },
+  {
+   "company": "ArcelorMittal",
+   "use": "AI-powered solutions for scrap purchasing, furnace operations, and beam cutting",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.linkedin.com/pulse/3-arcelormittal-how-artificial-intelligence-reinvented-8rb8e",
+   "raw_sector": "",
+   "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "ArcelorMittal",
+   "use": "Gen AI-powered tool for steel sales enabling real-time insights and freeing salespeople to focus on customer value creation",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.mckinsey.com.br/our-insights/from-instinct-to-real-time-insight-transforming-steel-sales-with-ai",
+   "raw_sector": "",
    "date": "missing",
    "fresh": "undated"
   }

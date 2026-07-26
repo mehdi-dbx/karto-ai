@@ -3,42 +3,64 @@
  "name": "Evergy",
  "cc": "US",
  "vertical": "Energy & Utilities",
- "deployments": 1,
- "confirmed": 1,
- "with_value_number": 0,
- "proof_rate": 0.0,
+ "deployments": 10,
+ "confirmed": 7,
+ "with_value_number": 5,
+ "proof_rate": 0.5,
  "mktcap": 19910000000.0,
  "revenue": 6030000000.0,
  "employees": 4691.0,
  "silent": false,
- "per_bn_revenue": 0.17,
- "per_10k_emp": 2.13,
+ "per_bn_revenue": 1.66,
+ "per_10k_emp": 21.32,
  "benchmarks": {
   "global_vertical": {
-   "deployments": 0,
-   "confirmed": 20,
-   "proof_rate": 0,
-   "n": 210
+   "deployments": 83,
+   "confirmed": 81,
+   "proof_rate": 81,
+   "n": 213
   },
   "country_vertical": {
-   "deployments": 0,
-   "confirmed": 39,
-   "proof_rate": 0,
+   "deployments": 84,
+   "confirmed": 82,
+   "proof_rate": 94,
    "n": 52
   }
  },
- "first_seen": null,
- "by_year": [],
- "undated_pct": 100,
- "momentum": "none",
- "maturity": "L3",
+ "first_seen": 2022,
+ "by_year": [
+  {
+   "year": 2022,
+   "n": 1
+  },
+  {
+   "year": 2024,
+   "n": 4
+  },
+  {
+   "year": 2025,
+   "n": 1
+  },
+  {
+   "year": 2026,
+   "n": 2
+  }
+ ],
+ "undated_pct": 20,
+ "momentum": "early_mover,cooling",
+ "maturity": "L4",
  "maturity_evidence": [
+  "multi_horizontal",
   "named_product:Systems",
+  "value_number",
+  "multi_year",
   "tier_p"
  ],
- "prospect_score": 54,
- "stack": [],
- "vendor_named": false,
+ "prospect_score": 62,
+ "stack": [
+  "Microsoft"
+ ],
+ "vendor_named": true,
  "deployments_detail": [
   {
    "company": "Evergy",
@@ -48,6 +70,105 @@
    "tier": "P",
    "url": "https://www.esmartsystems.com/news-and-resources/esmart-systems-partners-with-evergy",
    "raw_sector": "Utilities",
+   "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "Evergy",
+   "use": "Awesense AI Data Engine used to automate GIS data preparation ahead of ADMS deployment — detecting/correcting network connectivity errors, validating customer-to-transformer mapping, and correcting phasing to build a model-driven digital twin, eliminating manual data-cleaning. [Awesense (Energy Data Engine / AI Data Engine)]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://dtech-events.com/midwest/event-agenda/innovating-with-ai-for-adms-data-readiness-real-world-experience-with-evergy-awesense-1",
+   "raw_sector": "",
+   "date": "2026-01-01",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Evergy",
+   "use": "AI Builder (within Power Automate) used to extract delivery-receipt data from PDFs into Power Apps for human review, tracking inventory and consumption. [Microsoft Power Platform (AI Builder / Power Automate)]",
+   "existence": "confirmed",
+   "value": "5,600+ hours saved annually",
+   "tier": "",
+   "url": "https://www.microsoft.com/en/customers/story/1747349596437245542-evergy-power-apps-energy-en-united-states",
+   "raw_sector": "",
+   "date": "2024-03-20",
+   "fresh": "aging"
+  },
+  {
+   "company": "Evergy",
+   "use": "Robotic process automation to automatically stitch drone-captured power-line images, replacing a manual multi-day process. [Microsoft Power Platform (Power Automate RPA)]",
+   "existence": "confirmed",
+   "value": "Processing cut from 3 days to overnight",
+   "tier": "",
+   "url": "https://www.microsoft.com/en/customers/story/1747349596437245542-evergy-power-apps-energy-en-united-states",
+   "raw_sector": "",
+   "date": "2024-03-20",
+   "fresh": "aging"
+  },
+  {
+   "company": "Evergy",
+   "use": "Enterprise-wide Power Platform automation program (Power Apps, Power Automate, AI Builder) run by 110 citizen developers, including an AI Technology Governance Model spanning enterprise users, citizen developers and Centers of Excellence; exploring generative AI and Copilot integration. [Microsoft Power Platform (Power Apps, Power Automate, AI Builder, Copilot)]",
+   "existence": "confirmed",
+   "value": "120,000+ hours saved annually; 275 production solutions; 900+ apps; 3,200+ flows",
+   "tier": "",
+   "url": "https://www.microsoft.com/en/customers/story/1747349596437245542-evergy-power-apps-energy-en-united-states",
+   "raw_sector": "",
+   "date": "2024-03-20",
+   "fresh": "aging"
+  },
+  {
+   "company": "Evergy",
+   "use": "Evergy discloses in SEC filings / 10-K that artificial intelligence is used by the company and its third-party vendors, treated as an emerging technology impacting operations and flagged as a risk factor — indicating active corporate-level AI adoption and governance. [none (multiple third-party vendors, unnamed)]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://stocklight.com/stocks/us/nasdaq-evrg/evergy/annual-reports/nasdaq-evrg-2026-10K-26650794.pdf",
+   "raw_sector": "",
+   "date": "2026-02-19",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Evergy",
+   "use": "AI-powered inspection of Evergy's entire 9,000+ mile transmission line system using eSmart Systems' Grid Vision 'Collaborative-AI' image recognition to detect defects, catalog assets, and support predictive maintenance. Described as a multi-year (3.5 year) program; Evergy's Director of Operations Analytics quoted on using it to accelerate defect identification. [eSmart Systems (Grid Vision), with EDM International and GeoDigital]",
+   "existence": "confirmed",
+   "value": "9,000+ mile transmission system; 1.6M customers",
+   "tier": "",
+   "url": "https://www.esmartsystems.com/news-and-resources/esmart-systems-partners-with-evergy-to-inspect-their-entire-transmission-line-system-utilizing-artificial-intelligence/",
+   "raw_sector": "",
+   "date": "2022-03-01",
+   "fresh": "stale"
+  },
+  {
+   "company": "Evergy",
+   "use": "'Touchless substation' remote/autonomous monitoring applying AI, machine learning, and video analytics for infrastructure health monitoring, AI-powered image validation, and digitized gauge/temperature threshold detection. Shifted from time-based to preventative maintenance. [Hitachi Energy / Hitachi Digital Services]",
+   "existence": "confirmed",
+   "value": "Physical inspections reduced from 4x/year to 1x/year",
+   "tier": "",
+   "url": "https://www.hitachienergy.com/us/en/news-and-events/blogs/2024/10/rethinking-substation-operations-with-remote-monitoring",
+   "raw_sector": "",
+   "date": "2024-10-02",
+   "fresh": "aging"
+  },
+  {
+   "company": "Evergy",
+   "use": "GridBeyond recognized as an authorized Trade Ally for Evergy's Business Demand Response Program, bringing AI-powered energy intelligence/optimization to Evergy commercial customers to optimize energy usage and grid efficiency. [GridBeyond]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://gridbeyond.com/gridbeyond-recognized-as-an-authorized-trade-ally-for-evergys-business-demand-response-program/",
+   "raw_sector": "",
+   "date": "2025-03-26",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Evergy",
+   "use": "Named as a Microsoft Copilot customer/case study [Microsoft Copilot] [Microsoft Copilot]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.microsoft.com/en-us/power-platform/blog/power-apps/power-platform-stories/",
+   "raw_sector": "",
    "date": "missing",
    "fresh": "undated"
   }

@@ -3,10 +3,10 @@
  "name": "M2M Group",
  "cc": "MA",
  "vertical": "Technology",
- "deployments": 1,
- "confirmed": 1,
- "with_value_number": 0,
- "proof_rate": 0.0,
+ "deployments": 4,
+ "confirmed": 3,
+ "with_value_number": 1,
+ "proof_rate": 0.25,
  "mktcap": 23000000.0,
  "revenue": null,
  "employees": null,
@@ -15,27 +15,38 @@
  "per_10k_emp": null,
  "benchmarks": {
   "global_vertical": {
-   "deployments": 0,
-   "confirmed": 6,
-   "proof_rate": 0,
-   "n": 156
+   "deployments": 15,
+   "confirmed": 27,
+   "proof_rate": 58,
+   "n": 159
   },
   "country_vertical": {
-   "deployments": 0,
-   "confirmed": 60,
-   "proof_rate": 0,
-   "n": 6
+   "deployments": 50,
+   "confirmed": 83,
+   "proof_rate": 100,
+   "n": 7
   }
  },
- "first_seen": null,
- "by_year": [],
- "undated_pct": 100,
- "momentum": "none",
+ "first_seen": 2025,
+ "by_year": [
+  {
+   "year": 2025,
+   "n": 1
+  },
+  {
+   "year": 2026,
+   "n": 1
+  }
+ ],
+ "undated_pct": 50,
+ "momentum": "early_mover,rising",
  "maturity": "L3",
  "maturity_evidence": [
-  "named_product:LinkedIn"
+  "multi_horizontal",
+  "named_product:LinkedIn",
+  "value_number"
  ],
- "prospect_score": 54,
+ "prospect_score": 56,
  "stack": [],
  "vendor_named": false,
  "deployments_detail": [
@@ -49,6 +60,39 @@
    "raw_sector": "Technology / Services informatiques",
    "date": "missing",
    "fresh": "undated"
+  },
+  {
+   "company": "M2M Group",
+   "use": "Enterprise AI deployment across edge and agentic systems",
+   "existence": "confirmed",
+   "value": "290%",
+   "tier": "",
+   "url": "https://m2mtech.ai/",
+   "raw_sector": "",
+   "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "M2M Group",
+   "use": "AI Business Accelerator for developing and deploying AI solutions",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://vancouver.websummit.com/wp-media/2025/05/WSV_Press_Release_1.pdf.pdf",
+   "raw_sector": "",
+   "date": "2025-05-07",
+   "fresh": "fresh"
+  },
+  {
+   "company": "M2M Group",
+   "use": "Applied AI Workforce Model for upskilling",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.newsfilecorp.com/release/281703/M2M-TECH-Recognized-for-Applied-AI-Workforce-Model-in-Palette-Skills-Case-Study",
+   "raw_sector": "",
+   "date": "2026-01-27",
+   "fresh": "fresh"
   }
  ]
 }

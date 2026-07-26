@@ -3,43 +3,68 @@
  "name": "Analog Devices",
  "cc": "US",
  "vertical": "Technology",
- "deployments": 1,
- "confirmed": 1,
- "with_value_number": 0,
- "proof_rate": 0.0,
+ "deployments": 10,
+ "confirmed": 5,
+ "with_value_number": 1,
+ "proof_rate": 0.1,
  "mktcap": 184640000000.0,
  "revenue": 12740000000.0,
  "employees": 24500.0,
  "silent": false,
- "per_bn_revenue": 0.08,
- "per_10k_emp": 0.41,
+ "per_bn_revenue": 0.78,
+ "per_10k_emp": 4.08,
  "benchmarks": {
   "global_vertical": {
-   "deployments": 0,
-   "confirmed": 6,
-   "proof_rate": 0,
-   "n": 156
+   "deployments": 58,
+   "confirmed": 46,
+   "proof_rate": 39,
+   "n": 159
   },
   "country_vertical": {
-   "deployments": 0,
-   "confirmed": 4,
-   "proof_rate": 0,
+   "deployments": 51,
+   "confirmed": 41,
+   "proof_rate": 48,
    "n": 74
   }
  },
- "first_seen": null,
- "by_year": [],
- "undated_pct": 100,
- "momentum": "none",
- "maturity": "L3",
+ "first_seen": 2025,
+ "by_year": [
+  {
+   "year": 2025,
+   "n": 5
+  },
+  {
+   "year": 2026,
+   "n": 4
+  }
+ ],
+ "undated_pct": 10,
+ "momentum": "early_mover,rising",
+ "maturity": "L4",
  "maturity_evidence": [
+  "multi_horizontal",
   "named_product:Physical Intelligence",
+  "multi_year",
   "tier_p"
  ],
- "prospect_score": 54,
- "stack": [],
- "vendor_named": false,
+ "prospect_score": 66,
+ "stack": [
+  "Microsoft",
+  "NVIDIA"
+ ],
+ "vendor_named": true,
  "deployments_detail": [
+  {
+   "company": "Analog Devices",
+   "use": "CodeFusion Studio 2.0 and AutoML for Embedded: embedded software development platform enabling complete end-to-end AI workflows, letting developers bring/train and deploy AI models across ADI's heterogeneous edge hardware with model compatibility checking and inference performance profiling. [Analog Devices (CodeFusion Studio, VS Code integration; AutoML w/ Antmicro Kenning)]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://investor.analog.com/news-releases/news-release-details/analog-devices-unveils-codefusion-studiotm-20-simplify-and",
+   "raw_sector": "",
+   "date": "2025-11-03",
+   "fresh": "fresh"
+  },
   {
    "company": "Analog Devices",
    "use": "EdgeBench cloud platform for benchmarking/deploying AI/ML on ADI edge hardware; \"Physical Intelligence\" edge-AI smart sensors for predictive maintenance",
@@ -50,6 +75,94 @@
    "raw_sector": "Information Technology",
    "date": "missing",
    "fresh": "undated"
+  },
+  {
+   "company": "Analog Devices",
+   "use": "ADI OtoSense Smart Motor Sensor: AI/ML edge machine-health platform for predictive maintenance, detecting motor anomalies and forecasting maintenance cycles. Deployed at named customers including Nissei (soft-serve homogenizer monitoring), Rengo (paper/pulp), and Kanadevia (waste-to-energy plant). [Analog Devices (ADI OtoSense; tech from acquired Test Motors)]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://otosense.analog.com/success-stories/",
+   "raw_sector": "",
+   "date": "2026-02-20",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Analog Devices",
+   "use": "ADI adopts NVIDIA Jetson Thor and uses NVIDIA Holoscan Sensor Bridge for physical AI: connecting ADI sensor data (cameras, radar, lidar) directly to GPU memory with ultralow latency to bring reasoning to real-world robotics/humanoid applications, combining ADI's precision signal chain with Jetson Thor reasoning. [NVIDIA (Jetson Thor, Holoscan Sensor Bridge)]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://blogs.nvidia.com/blog/jetson-thor-physical-ai-edge/",
+   "raw_sector": "",
+   "date": "2025-08-25",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Analog Devices",
+   "use": "Digital Factory of the Future: ADI's manufacturing strategy deploying AI at the edge for autonomous optimization, using AI-enabled sensors (e.g. Voyager4 wireless condition-monitoring platform) for anomaly/motor-health detection to improve quality control and productivity in its own plants. [Analog Devices (edge AI, Voyager4)]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.analog.com/en/resources/analog-dialogue/articles/digital-factory-of-the-future.html",
+   "raw_sector": "",
+   "date": "2025-02-17",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Analog Devices",
+   "use": "Physical intelligence robotics demonstrations at NVIDIA GTC 2026 with Synopsys and NVIDIA: software-defined humanoid hand combining ADI next-gen tactile sensor with precision signal chain and motor control, plus collision/soft-body simulation bridging simulation to real-world robotics. [Analog Devices + NVIDIA + Synopsys (also MANUS gloves)]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://news.synopsys.com/2026-03-16-Synopsys-Showcases-NVIDIA-Partnership-Impact-and-Ecosystem-Innovation-at-GTC-2026",
+   "raw_sector": "",
+   "date": "2026-03-16",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Analog Devices",
+   "use": "Collaboration with Kawasaki Heavy Industries, NVIDIA, Microsoft and Fujitsu to develop physical AI for robotics (ADI named as a signal-chain/sensing collaborator in the multi-company physical AI effort). [Kawasaki, NVIDIA, Microsoft, Fujitsu, Analog Devices]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://seekingalpha.com/news/4596201-kawasaki-teams-up-with-nvidia-microsoft-and-others-to-develop-physical-ai",
+   "raw_sector": "",
+   "date": "2026-05-22",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Analog Devices",
+   "use": "Applied generative AI to accelerate an internal R&D process (a 2-year process involving 400+ steps/people), presented as a business-transformation case study claiming $45M in ROI. [none disclosed]",
+   "existence": "claimed",
+   "value": "$45M ROI",
+   "tier": "",
+   "url": "https://www.processexcellencenetwork.com/events-business-transformation-world-summit/agenda-page/full-agenda",
+   "raw_sector": "",
+   "date": "2026-01-01",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Analog Devices",
+   "use": "'Ask LRO' AI-powered legal chatbot / intake assistant built on Checkbox, serving as a single legal front door for 25,000+ employees across 40+ countries. Auto-triages and routes requests, self-serves NDAs, conflict-of-interest forms, onboarding checklists, patent and matter-change requests. [Checkbox.ai]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.checkbox.ai/customers/analog-devices",
+   "raw_sector": "",
+   "date": "2025-07-21",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Analog Devices",
+   "use": "Strategic partnership with Teradyne Robotics (Universal Robots, MiR) to deploy edge-based AI/ML collaborative and autonomous mobile robots in ADI's own semiconductor fabrication and backend operations (collaborative automation initiative), contributing intelligent motion, position sensing, functional safety and robotic vision. [Teradyne Robotics (Universal Robots, Mobile Industrial Robots) + Analog Devices]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://investors.teradyne.com/news-events/press-releases/detail/17/teradyne-robotics-and-analog-devices-enter-strategic-partnership-to-accelerate-the-adoption-of-ai-and-advanced-robotics-driven-collaborative-automation-in-manufacturing",
+   "raw_sector": "",
+   "date": "2025-01-22",
+   "fresh": "fresh"
   }
  ]
 }

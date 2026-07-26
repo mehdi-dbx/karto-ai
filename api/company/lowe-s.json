@@ -3,27 +3,27 @@
  "name": "Lowe's",
  "cc": "US",
  "vertical": "Retail & E-commerce",
- "deployments": 12,
- "confirmed": 11,
- "with_value_number": 7,
- "proof_rate": 0.583,
+ "deployments": 19,
+ "confirmed": 17,
+ "with_value_number": 8,
+ "proof_rate": 0.421,
  "mktcap": 112870000000.0,
  "revenue": 88430000000.0,
  "employees": 276000.0,
  "silent": false,
- "per_bn_revenue": 0.14,
- "per_10k_emp": 0.43,
+ "per_bn_revenue": 0.21,
+ "per_10k_emp": 0.69,
  "benchmarks": {
   "global_vertical": {
-   "deployments": 96,
-   "confirmed": 97,
+   "deployments": 98,
+   "confirmed": 98,
    "proof_rate": 76,
-   "n": 295
+   "n": 301
   },
   "country_vertical": {
-   "deployments": 91,
-   "confirmed": 91,
-   "proof_rate": 82,
+   "deployments": 95,
+   "confirmed": 96,
+   "proof_rate": 89,
    "n": 80
   }
  },
@@ -39,14 +39,14 @@
   },
   {
    "year": 2025,
-   "n": 8
+   "n": 11
   },
   {
    "year": 2026,
    "n": 1
   }
  ],
- "undated_pct": 8,
+ "undated_pct": 26,
  "momentum": "early_mover,rising",
  "maturity": "L4",
  "maturity_evidence": [
@@ -55,9 +55,14 @@
   "value_number",
   "multi_year"
  ],
- "prospect_score": 77,
+ "prospect_score": 83,
  "stack": [
-  "OpenAI"
+  "Accenture",
+  "Google",
+  "Google Cloud",
+  "NVIDIA",
+  "OpenAI",
+  "Palantir"
  ],
  "vendor_named": true,
  "deployments_detail": [
@@ -69,6 +74,83 @@
    "tier": "S",
    "url": "https://corporate.lowes.com/newsroom/press-releases/lowes-deploys-first-scale-ai-assistant-retail-associates-05-05-25",
    "raw_sector": "Consumer Discretionary",
+   "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "Lowe's",
+   "use": "AI-powered virtual advisor for home improvement customers",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://corporate.lowes.com/newsroom/press-releases/lowes-launches-first-ai-powered-home-improvement-virtual-advisor-03-05-25",
+   "raw_sector": "",
+   "date": "2025-03-05",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Lowe's",
+   "use": "Built Mylow and Mylow Companion AI tools for customers and store associates [OpenAI] [OpenAI]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://openai.com/index/lowes/",
+   "raw_sector": "",
+   "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "Lowe's",
+   "use": "Named as a OpenAI customer/case study [OpenAI] [OpenAI]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://openai.com/index/1-million-businesses-putting-ai-to-work/",
+   "raw_sector": "",
+   "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "Lowe's",
+   "use": "Named as a Palantir customer/case study [Palantir] [Palantir]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.youtube.com/watch?v=eDH5qeCLiAA",
+   "raw_sector": "",
+   "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "Lowe's",
+   "use": "Generative AI tool for in-store associates (Mylow Companion)",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.klover.ai/lowes-ai-strategy-analysis-of-dominance-in-home-improvement-retail/",
+   "raw_sector": "",
+   "date": "2025-05-22",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Lowe's",
+   "use": "Machine learning models for pricing, forecasting, and supply chain",
+   "existence": "confirmed",
+   "value": "50",
+   "tier": "",
+   "url": "https://openai.com/index/lowes-chandhu-nair/",
+   "raw_sector": "",
+   "date": "2025-05-05",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Lowe's",
+   "use": "AI for order routing and inventory positioning",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.linkedin.com/posts/rogerjfuhrman_how-technology-is-revolutionizing-lowes-activity-7391488389532848128-dr4J",
+   "raw_sector": "",
    "date": "missing",
    "fresh": "undated"
   },

@@ -3,20 +3,20 @@
  "name": "Ferrovial",
  "cc": "ES",
  "vertical": "Real Estate & Construction",
- "deployments": 1,
- "confirmed": 1,
+ "deployments": 5,
+ "confirmed": 5,
  "with_value_number": 0,
  "proof_rate": 0.0,
  "mktcap": 43718400000.0,
  "revenue": 10400400000.0,
  "employees": 22609.0,
  "silent": false,
- "per_bn_revenue": 0.1,
- "per_10k_emp": 0.44,
+ "per_bn_revenue": 0.48,
+ "per_10k_emp": 2.21,
  "benchmarks": {
   "global_vertical": {
-   "deployments": 0,
-   "confirmed": 31,
+   "deployments": 60,
+   "confirmed": 75,
    "proof_rate": 0,
    "n": 154
   }
@@ -28,15 +28,19 @@
    "n": 1
   }
  ],
- "undated_pct": 0,
+ "undated_pct": 80,
  "momentum": "late_entrant,rising",
  "maturity": "L3",
  "maturity_evidence": [
   "named_product:Generative"
  ],
- "prospect_score": 54,
- "stack": [],
- "vendor_named": false,
+ "prospect_score": 70,
+ "stack": [
+  "Microsoft",
+  "Microsoft Azure",
+  "OpenAI"
+ ],
+ "vendor_named": true,
  "deployments_detail": [
   {
    "company": "Ferrovial",
@@ -48,6 +52,50 @@
    "raw_sector": "Infrastructure",
    "date": "2026",
    "fresh": "fresh"
+  },
+  {
+   "company": "Ferrovial",
+   "use": "AI agents for field operations, safety management, and business knowledge across 24,000+ employees [DXC, Microsoft Azure OpenAI]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.youtube.com/watch?v=or1daqQ2GzM",
+   "raw_sector": "",
+   "date": "4 months ago",
+   "fresh": "undated"
+  },
+  {
+   "company": "Ferrovial",
+   "use": "DXC AI Workbench deployment with 30+ AI agents on cloud platform [DXC]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.prnewswire.com/news-releases/dxc-announces-ai-workbench-ferrovial-to-serve-as-anchor-client-302431883.html",
+   "raw_sector": "",
+   "date": "Apr 22, 2025",
+   "fresh": "undated"
+  },
+  {
+   "company": "Ferrovial",
+   "use": "Generative AI marketplace with employee assistant for content generation, translation, and common tasks [Microsoft Azure OpenAI, DXC]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://newsroom.ferrovial.com/en/press-releases/ferrovial-and-dxc-technology-to-drive-generative-ai-in-collaboration-with-microsoft/",
+   "raw_sector": "",
+   "date": "Apr 25, 2024",
+   "fresh": "undated"
+  },
+  {
+   "company": "Ferrovial",
+   "use": "Generative AI assistant for text writing, information analysis, and employee support",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://newsroom.ferrovial.com/en/press-releases/ferrovial-pioneering-artificial-intelligence-assistant/",
+   "raw_sector": "",
+   "date": "Apr 21, 2023",
+   "fresh": "undated"
   }
  ]
 }

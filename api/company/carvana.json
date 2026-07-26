@@ -3,27 +3,27 @@
  "name": "Carvana",
  "cc": "US",
  "vertical": "Retail & E-commerce",
- "deployments": 1,
- "confirmed": 1,
- "with_value_number": 0,
- "proof_rate": 0.0,
+ "deployments": 5,
+ "confirmed": 5,
+ "with_value_number": 2,
+ "proof_rate": 0.4,
  "mktcap": 66980000000.0,
  "revenue": 22520000000.0,
  "employees": 23100.0,
  "silent": false,
- "per_bn_revenue": 0.04,
- "per_10k_emp": 0.43,
+ "per_bn_revenue": 0.22,
+ "per_10k_emp": 2.16,
  "benchmarks": {
   "global_vertical": {
-   "deployments": 0,
-   "confirmed": 24,
-   "proof_rate": 0,
-   "n": 295
+   "deployments": 39,
+   "confirmed": 53,
+   "proof_rate": 70,
+   "n": 301
   },
   "country_vertical": {
-   "deployments": 0,
-   "confirmed": 25,
-   "proof_rate": 0,
+   "deployments": 23,
+   "confirmed": 38,
+   "proof_rate": 78,
    "n": 80
   }
  },
@@ -34,16 +34,22 @@
    "n": 1
   }
  ],
- "undated_pct": 0,
+ "undated_pct": 80,
  "momentum": "early_mover,gone_quiet",
  "maturity": "L3",
  "maturity_evidence": [
+  "multi_horizontal",
   "named_product:Sebastian",
+  "value_number",
   "tier_p"
  ],
  "prospect_score": 54,
- "stack": [],
- "vendor_named": false,
+ "stack": [
+  "Microsoft",
+  "Microsoft Azure",
+  "Palantir"
+ ],
+ "vendor_named": true,
  "deployments_detail": [
   {
    "company": "Carvana",
@@ -55,6 +61,50 @@
    "raw_sector": "Consumer Discretionary",
    "date": "2023",
    "fresh": "stale"
+  },
+  {
+   "company": "Carvana",
+   "use": "AI agent (Sebastian) for customer interactions combined with AI-powered quality review platform (CARE) [Microsoft Azure AI Foundry]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.microsoft.com/en/customers/story/23952-carvana-azure-kubernetes-service",
+   "raw_sector": "",
+   "date": "May 19, 2025",
+   "fresh": "undated"
+  },
+  {
+   "company": "Carvana",
+   "use": "AI-powered conversation analysis engine for customer interaction visibility and improvement",
+   "existence": "confirmed",
+   "value": "90%",
+   "tier": "",
+   "url": "https://www.aiusecasehub.com/case/carvana-transforms-automotive-customer-experience-with-ai-powered",
+   "raw_sector": "",
+   "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "Carvana",
+   "use": "AI purchasing algorithm informed by consumer demand providing near instantaneous offers",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://investors.carvana.com/~/media/Files/C/Carvana-IR/documents/intro-to-carvana-february-2025.pdf",
+   "raw_sector": "",
+   "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "Carvana",
+   "use": "AI-generated personalized videos for customers (1.3 million unique videos) [GAN]",
+   "existence": "confirmed",
+   "value": "1.3 million",
+   "tier": "",
+   "url": "https://investors.carvana.com/news-releases/2023/05-09-2023-140115835",
+   "raw_sector": "",
+   "date": "May 9, 2023",
+   "fresh": "undated"
   }
  ]
 }

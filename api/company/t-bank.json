@@ -3,49 +3,96 @@
  "name": "T-Bank",
  "cc": "RU",
  "vertical": "Financial Services",
- "deployments": 2,
- "confirmed": 2,
- "with_value_number": 0,
- "proof_rate": 0.0,
+ "deployments": 11,
+ "confirmed": 11,
+ "with_value_number": 6,
+ "proof_rate": 0.545,
  "mktcap": null,
  "revenue": 3589866667.0,
  "employees": 4600.0,
  "silent": false,
- "per_bn_revenue": 0.56,
- "per_10k_emp": 4.35,
+ "per_bn_revenue": 3.06,
+ "per_10k_emp": 23.91,
  "benchmarks": {
   "global_vertical": {
-   "deployments": 62,
-   "confirmed": 73,
-   "proof_rate": 0,
-   "n": 377
+   "deployments": 72,
+   "confirmed": 84,
+   "proof_rate": 83,
+   "n": 388
   },
   "country_vertical": {
-   "deployments": 43,
-   "confirmed": 57,
-   "proof_rate": 0,
+   "deployments": 71,
+   "confirmed": 86,
+   "proof_rate": 86,
    "n": 8
   }
  },
- "first_seen": 2026,
+ "first_seen": 2021,
  "by_year": [
+  {
+   "year": 2021,
+   "n": 1
+  },
+  {
+   "year": 2024,
+   "n": 3
+  },
+  {
+   "year": 2025,
+   "n": 2
+  },
   {
    "year": 2026,
    "n": 1
   }
  ],
- "undated_pct": 50,
- "momentum": "late_entrant,rising",
- "maturity": "L3",
+ "undated_pct": 36,
+ "momentum": "early_mover,flat",
+ "maturity": "L4",
  "maturity_evidence": [
   "multi_horizontal",
   "named_product:Taya",
+  "value_number",
+  "multi_year",
   "tier_p"
  ],
- "prospect_score": 60,
+ "prospect_score": 78,
  "stack": [],
- "vendor_named": false,
+ "vendor_named": true,
  "deployments_detail": [
+  {
+   "company": "T-Bank",
+   "use": "Gen-T family of proprietary Russian-language LLMs (T-Lite ~7-8B and T-Pro 32B), fine-tuned on Qwen-2.5/Qwen-3, used to power support chatbots, employee tools, coding and internal assistants; open-weighted on Hugging Face. [T-Bank / T-Technologies (Gen-T; base Alibaba Qwen)]",
+   "existence": "confirmed",
+   "value": "T-Pro 32B params; claims 80-90% lower dev cost vs training from scratch",
+   "tier": "",
+   "url": "https://forklog.com/en/t-bank-releases-32-billion-parameter-llm-to-the-public/",
+   "raw_sector": "",
+   "date": "2024-12-11",
+   "fresh": "aging"
+  },
+  {
+   "company": "T-Bank",
+   "use": "AI Investment Assistant (Инвест-ассистент) inside T-Investments app - LLM-based real-time stock analysis, aggregating price dynamics, forecasts, company metrics and analyst opinions on individual stock pages; personalized instrument selection. [T-Bank (in-house, Gen-T LLM)]",
+   "existence": "confirmed",
+   "value": "83% positive user ratings; rated 2x more useful than ChatGPT for Russian securities analysis",
+   "tier": "",
+   "url": "https://www.tbank.ru/invest/social/profile/T-Investments/78c9e0ab-a0ef-4cca-bf8b-eda6313356a5/",
+   "raw_sector": "",
+   "date": "2025-06-21",
+   "fresh": "fresh"
+  },
+  {
+   "company": "T-Bank",
+   "use": "Universe of six specialized consumer AI assistants (finance, investment, shopping, travel, calls, kids communication) powered by Gen-T domain LLMs and integrated across the ecosystem; includes FinAssistant for personal-finance management (spending calc, budgeting advice). [T-Bank (in-house, Gen-T)]",
+   "existence": "confirmed",
+   "value": "first Russian bank to build ecosystem of 6 AI assistants (2024)",
+   "tier": "",
+   "url": "https://news.itmo.ru/en/education/cooperation/news/13825/",
+   "raw_sector": "",
+   "date": "2024-01-01",
+   "fresh": "aging"
+  },
   {
    "company": "T-Bank",
    "use": "AI assistant \"Taya\" (Тая) for financial help, product-agnostic (T-Technologies)",
@@ -59,6 +106,28 @@
   },
   {
    "company": "T-Bank",
+   "use": "Oleg voice assistant answers, records and transcribes phone calls, screens spam/fraud calls with 100+ conversational scripts; available to all Russian mobile subscribers. Trained on 110M+ calls using T-Bank's VoiceKit speech recognition/synthesis. [T-Bank (in-house, Tinkoff VoiceKit)]",
+   "existence": "confirmed",
+   "value": "trained on 110M+ calls; 100+ call scenarios",
+   "tier": "",
+   "url": "https://tinkoff-group.com/company-info/news/03062021-tinkoff-launches-open-telephone-assistant-oleg-defender-against-spammers-and-fraudsters-eng/",
+   "raw_sector": "",
+   "date": "2021-06-03",
+   "fresh": "stale"
+  },
+  {
+   "company": "T-Bank",
+   "use": "AI support chatbots embedded across all T-Bank apps for instant query resolution and automated customer service. [T-Bank (in-house, Gen-T)]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://t-tech.dev/products/",
+   "raw_sector": "",
+   "date": "none",
+   "fresh": "undated"
+  },
+  {
+   "company": "T-Bank",
    "use": "AI-driven offensive cyberattack simulation against own infrastructure (claims first in Russia; syndicated Vedomosti/CNews/IXBT)",
    "existence": "confirmed",
    "value": "none",
@@ -66,6 +135,50 @@
    "url": "https://www.vedomosti.ru/technologies/trendsrub/news/2026/05/18/1197896-infrastrukturu-pomoschyu",
    "raw_sector": "Banking",
    "date": "2026",
+   "fresh": "fresh"
+  },
+  {
+   "company": "T-Bank",
+   "use": "Anti-fraud 'Bot Factory' - AI bots engage with scammers to waste their time and detect fraud via trigger-phrase identification; combined anti-fraud tech of the bank and T-Mobile to identify scammers during calls. [T-Bank (in-house, Gen-T)]",
+   "existence": "confirmed",
+   "value": "99% accuracy identifying scammers during calls",
+   "tier": "",
+   "url": "https://t-tech.dev/products/",
+   "raw_sector": "",
+   "date": "none",
+   "fresh": "undated"
+  },
+  {
+   "company": "T-Bank",
+   "use": "AI assistant for information/cyber security - helps engineers detect and remediate software vulnerabilities, reducing time and cost of fixing security issues; described as Russia's first AI assistant in cybersecurity, used for internal T-Technologies tasks. [T-Bank / T-Technologies (in-house)]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://tass.ru/ekonomika/24003499",
+   "raw_sector": "",
+   "date": "2024-08-01",
+   "fresh": "aging"
+  },
+  {
+   "company": "T-Bank",
+   "use": "AI Shopping Assistant plus personalized recommendation systems (City Service for location-based events/services, Pulse investor social network with content curation, plagiarism and market-manipulation detection). [T-Bank (in-house, Gen-T)]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://t-tech.dev/products/",
+   "raw_sector": "",
+   "date": "none",
+   "fresh": "undated"
+  },
+  {
+   "company": "T-Bank",
+   "use": "AI coding assistant for developers - inline and block code suggestions in VS Code/JetBrains, integrated with internal SQL query tool (Helicopter); extended in 2025 to an agentic mode (built on Qwen3-Coder-480b) that executes multi-step engineering tasks across the SDLC. [T-Technologies (in-house; Qwen3-Coder-480b)]",
+   "existence": "confirmed",
+   "value": "80% of engineers use it, 10,000+ monthly users; 20-40% faster time-to-market; ~170M rubles invested in AI tools",
+   "tier": "",
+   "url": "https://www.forbes.ru/tekhnologii/545720-i-kodopisec-t-tehnologii-sozdali-ii-agenta-dla-razrabotcikov",
+   "raw_sector": "",
+   "date": "2025-09-11",
    "fresh": "fresh"
   }
  ]

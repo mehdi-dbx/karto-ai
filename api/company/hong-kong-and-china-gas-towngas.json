@@ -3,8 +3,8 @@
  "name": "Hong Kong and China Gas (Towngas)",
  "cc": "CN",
  "vertical": "Energy & Utilities",
- "deployments": 1,
- "confirmed": 1,
+ "deployments": 7,
+ "confirmed": 6,
  "with_value_number": 0,
  "proof_rate": 0.0,
  "mktcap": null,
@@ -15,14 +15,14 @@
  "per_10k_emp": null,
  "benchmarks": {
   "global_vertical": {
-   "deployments": 0,
-   "confirmed": 20,
+   "deployments": 72,
+   "confirmed": 78,
    "proof_rate": 0,
-   "n": 210
+   "n": 213
   },
   "country_vertical": {
-   "deployments": 0,
-   "confirmed": 0,
+   "deployments": 82,
+   "confirmed": 82,
    "proof_rate": 0,
    "n": 12
   }
@@ -31,19 +31,45 @@
  "by_year": [
   {
    "year": 2025,
-   "n": 1
+   "n": 4
   }
  ],
- "undated_pct": 0,
+ "undated_pct": 43,
  "momentum": "rising",
  "maturity": "L3",
  "maturity_evidence": [
+  "multi_horizontal",
   "named_product:TGAI"
  ],
- "prospect_score": 54,
- "stack": [],
- "vendor_named": false,
+ "prospect_score": 76,
+ "stack": [
+  "Amazon AWS",
+  "IBM"
+ ],
+ "vendor_named": true,
  "deployments_detail": [
+  {
+   "company": "Hong Kong and China Gas (Towngas)",
+   "use": "AI applications for safety inspections",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.towngas.com/en/Media-Resources/Press-Releases/2025/Towngas-Ai-Applications",
+   "raw_sector": "",
+   "date": "2025-08-24",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Hong Kong and China Gas (Towngas)",
+   "use": "Artificial intelligence for gas-related imaging",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.towngas.com/en/Media-Resources/Press-Releases/2025/Low-Carbon-Smart-Gas-Joint-Innovation-Centre",
+   "raw_sector": "",
+   "date": "2025-11-18",
+   "fresh": "fresh"
+  },
   {
    "company": "Hong Kong and China Gas (Towngas)",
    "use": "AI analysis of underground pipeline condition (3,700+ km); self-built \"TGAI\" platform (Dongguan data center); customer-service Speech Analytics Model; Tencent LLM partnership",
@@ -54,6 +80,50 @@
    "raw_sector": "Utilities (HSI)",
    "date": "2025",
    "fresh": "fresh"
+  },
+  {
+   "company": "Hong Kong and China Gas (Towngas)",
+   "use": "AI upgrades customer service hotline",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.towngas.com/en/Media-Resources/Press-Releases/2025/Towngas-Ai-Applications",
+   "raw_sector": "",
+   "date": "2025-08-24",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Hong Kong and China Gas (Towngas)",
+   "use": "AI application for call reduction and self-service enhancement [IBM]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.ibm.com/case-studies/towngas",
+   "raw_sector": "",
+   "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "Hong Kong and China Gas (Towngas)",
+   "use": "Generative AI and agentic AI for customer support and operations [AWS]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://aws.amazon.com/solutions/case-studies/towngas/",
+   "raw_sector": "",
+   "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "Hong Kong and China Gas (Towngas)",
+   "use": "AI-Empowered Smart Customer Service",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.linkedin.com/posts/the-hong-kong-and-china-gas-company-limited_towngas-ai-innovation-awards-activity-7477284737225490432-ZqEl",
+   "raw_sector": "",
+   "date": "missing",
+   "fresh": "undated"
   }
  ]
 }

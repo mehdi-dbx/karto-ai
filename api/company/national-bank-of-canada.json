@@ -3,47 +3,73 @@
  "name": "National Bank of Canada",
  "cc": "CA",
  "vertical": "Financial Services",
- "deployments": 2,
- "confirmed": 0,
+ "deployments": 5,
+ "confirmed": 1,
  "with_value_number": 0,
  "proof_rate": 0.0,
  "mktcap": 64463235294.0,
  "revenue": 10308823529.0,
  "employees": 33767.0,
  "silent": false,
- "per_bn_revenue": 0.19,
- "per_10k_emp": 0.59,
+ "per_bn_revenue": 0.49,
+ "per_10k_emp": 1.48,
  "benchmarks": {
   "global_vertical": {
-   "deployments": 62,
-   "confirmed": 0,
+   "deployments": 31,
+   "confirmed": 5,
    "proof_rate": 0,
-   "n": 377
+   "n": 388
   },
   "country_vertical": {
-   "deployments": 43,
+   "deployments": 0,
    "confirmed": 0,
    "proof_rate": 0,
    "n": 8
   }
  },
- "first_seen": 2025,
+ "first_seen": 2024,
  "by_year": [
   {
+   "year": 2024,
+   "n": 1
+  },
+  {
    "year": 2025,
-   "n": 2
+   "n": 3
   }
  ],
- "undated_pct": 0,
- "momentum": "rising",
- "maturity": "L1",
+ "undated_pct": 20,
+ "momentum": "early_mover,rising",
+ "maturity": "L3",
  "maturity_evidence": [
-  "rows_no_confirmed"
+  "named_product:Fraud"
  ],
- "prospect_score": 40,
+ "prospect_score": 54,
  "stack": [],
  "vendor_named": false,
  "deployments_detail": [
+  {
+   "company": "National Bank of Canada",
+   "use": "Trustworthy artificial intelligence systems development",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.concordia.ca/news/stories/2025/02/20/concordia-partners-with-national-bank-of-canada-to-advance-trustworthy-artificial-intelligence-systems.html",
+   "raw_sector": "",
+   "date": "2025-02-20",
+   "fresh": "fresh"
+  },
+  {
+   "company": "National Bank of Canada",
+   "use": "Generative AI for innovation in banking",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.linkedin.com/posts/juliencrowe_want-to-know-how-national-bank-of-canada-activity-7299789973954711552-YQCc",
+   "raw_sector": "",
+   "date": "missing",
+   "fresh": "undated"
+  },
   {
    "company": "National Bank of Canada",
    "use": "AI Factory production structure and intelligent employee portal personalizing knowledge access for staff",
@@ -65,6 +91,17 @@
    "raw_sector": "Banks",
    "date": "2025",
    "fresh": "fresh"
+  },
+  {
+   "company": "National Bank of Canada",
+   "use": "Fraud prevention with responsible AI deployment",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.linkedin.com/posts/thedigitalbanker_aiinbanking-responsibleai-digitalbanking-activity-7435678971347988480-8pi1",
+   "raw_sector": "",
+   "date": "2024-08",
+   "fresh": "aging"
   }
  ]
 }

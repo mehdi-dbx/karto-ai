@@ -3,27 +3,27 @@
  "name": "Brookfield Infrastructure Partners",
  "cc": "CA",
  "vertical": "Energy & Utilities",
- "deployments": 1,
- "confirmed": 1,
- "with_value_number": 1,
+ "deployments": 4,
+ "confirmed": 4,
+ "with_value_number": 4,
  "proof_rate": 1.0,
  "mktcap": 19073529412.0,
  "revenue": 24639705882.0,
  "employees": 6000.0,
  "silent": false,
- "per_bn_revenue": 0.04,
- "per_10k_emp": 1.67,
+ "per_bn_revenue": 0.16,
+ "per_10k_emp": 6.67,
  "benchmarks": {
   "global_vertical": {
-   "deployments": 0,
-   "confirmed": 20,
-   "proof_rate": 75,
-   "n": 210
+   "deployments": 40,
+   "confirmed": 58,
+   "proof_rate": 95,
+   "n": 213
   },
   "country_vertical": {
-   "deployments": 0,
-   "confirmed": 43,
-   "proof_rate": 71,
+   "deployments": 43,
+   "confirmed": 57,
+   "proof_rate": 100,
    "n": 8
   }
  },
@@ -34,16 +34,18 @@
    "n": 1
   }
  ],
- "undated_pct": 0,
+ "undated_pct": 75,
  "momentum": "rising",
  "maturity": "L3",
  "maturity_evidence": [
   "named_product:Plan",
   "value_number"
  ],
- "prospect_score": 14,
- "stack": [],
- "vendor_named": false,
+ "prospect_score": 24,
+ "stack": [
+  "NVIDIA"
+ ],
+ "vendor_named": true,
  "deployments_detail": [
   {
    "company": "Brookfield Infrastructure Partners",
@@ -55,6 +57,39 @@
    "raw_sector": "Utilities",
    "date": "2025",
    "fresh": "fresh"
+  },
+  {
+   "company": "Brookfield Infrastructure Partners",
+   "use": "AI infrastructure investment and deployment program [NVIDIA]",
+   "existence": "confirmed",
+   "value": "$100 billion",
+   "tier": "",
+   "url": "https://bam.brookfield.com/press-releases/brookfield-launches-100-billion-ai-infrastructure-program",
+   "raw_sector": "",
+   "date": "Nov 19, 2025",
+   "fresh": "undated"
+  },
+  {
+   "company": "Brookfield Infrastructure Partners",
+   "use": "AI infrastructure partnership with onsite power integration [Bloom Energy]",
+   "existence": "confirmed",
+   "value": "$5 billion",
+   "tier": "",
+   "url": "https://investor.bloomenergy.com/press-releases/press-release-details/2025/Brookfield-and-Bloom-Energy-Announce-5-Billion-Strategic-AI-Infrastructure-Partnership/default.aspx",
+   "raw_sector": "",
+   "date": "Oct 13, 2025",
+   "fresh": "undated"
+  },
+  {
+   "company": "Brookfield Infrastructure Partners",
+   "use": "AI Infrastructure Fund initial closing",
+   "existence": "confirmed",
+   "value": "$5 billion",
+   "tier": "",
+   "url": "https://www.weil.com/articles/weil-advised-brookfield-in-5b-initial-closing-for-brookfield-ai-infrastructure-fund",
+   "raw_sector": "",
+   "date": "Nov 19, 2025",
+   "fresh": "undated"
   }
  ]
 }

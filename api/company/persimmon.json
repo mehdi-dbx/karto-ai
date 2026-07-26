@@ -3,43 +3,72 @@
  "name": "Persimmon",
  "cc": "UK",
  "vertical": "Retail & E-commerce",
- "deployments": 1,
- "confirmed": 1,
- "with_value_number": 1,
- "proof_rate": 1.0,
+ "deployments": 6,
+ "confirmed": 6,
+ "with_value_number": 5,
+ "proof_rate": 0.833,
  "mktcap": 4457700000.0,
  "revenue": 4762500000.0,
  "employees": 4605.0,
  "silent": false,
- "per_bn_revenue": 0.21,
- "per_10k_emp": 2.17,
+ "per_bn_revenue": 1.26,
+ "per_10k_emp": 13.03,
  "benchmarks": {
   "global_vertical": {
-   "deployments": 0,
-   "confirmed": 24,
-   "proof_rate": 77,
-   "n": 295
+   "deployments": 48,
+   "confirmed": 63,
+   "proof_rate": 97,
+   "n": 301
   },
   "country_vertical": {
-   "deployments": 0,
-   "confirmed": 15,
-   "proof_rate": 85,
+   "deployments": 46,
+   "confirmed": 54,
+   "proof_rate": 100,
    "n": 14
   }
  },
- "first_seen": null,
- "by_year": [],
- "undated_pct": 100,
- "momentum": "none",
- "maturity": "L3",
- "maturity_evidence": [
-  "named_product:VUE",
-  "value_number"
+ "first_seen": 2024,
+ "by_year": [
+  {
+   "year": 2024,
+   "n": 1
+  },
+  {
+   "year": 2025,
+   "n": 3
+  },
+  {
+   "year": 2026,
+   "n": 1
+  }
  ],
- "prospect_score": 14,
- "stack": [],
- "vendor_named": false,
+ "undated_pct": 17,
+ "momentum": "early_mover,rising",
+ "maturity": "L4",
+ "maturity_evidence": [
+  "multi_horizontal",
+  "named_product:VUE",
+  "value_number",
+  "multi_year"
+ ],
+ "prospect_score": 43,
+ "stack": [
+  "Meta",
+  "Microsoft"
+ ],
+ "vendor_named": true,
  "deployments_detail": [
+  {
+   "company": "Persimmon",
+   "use": "New robotic/automated timber-frame manufacturing line at the Space4 offsite factory (custom robotics line for full-house automation, plus first automated roof-truss line by a developer) [Randek (Sweden, offsite construction automation)]",
+   "existence": "confirmed",
+   "value": "Space4 supplied c.4,600 timber frame kits/roof systems in 2025, up 36% YoY (facility-level, not robotics-specific)",
+   "tier": "",
+   "url": "https://www.linkedin.com/posts/persimmon-homes_persimmonhomes-activity-7361781171443097601-yh66",
+   "raw_sector": "",
+   "date": "2025",
+   "fresh": "fresh"
+  },
   {
    "company": "Persimmon",
    "use": "VUE HFR AI cameras deployed across 160 construction sites to prevent plant-machinery collisions (on-site safety)",
@@ -50,6 +79,50 @@
    "raw_sector": "Household goods & home construction",
    "date": "missing",
    "fresh": "undated"
+  },
+  {
+   "company": "Persimmon",
+   "use": "AI-driven video creation combined with a new e-learning authoring tool to accelerate production of digital training/content for employee upskilling [none named]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.persimmonhomes.com/corporate/media/pg0jl11j/persimmon-plc-annual-report-2024.pdf",
+   "raw_sector": "",
+   "date": "2025-03",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Persimmon",
+   "use": "Persimmon Data & AI Academy - internal training programme to build practical data and AI capability across the organisation to strengthen decision-making and operational efficiency [none named]",
+   "existence": "confirmed",
+   "value": "none (pilot; first cohort began training March 2026)",
+   "tier": "",
+   "url": "https://www.persimmonhomes.com/corporate/media/t2ejxi3y/persimmon-plc-annual-report-2025.pdf",
+   "raw_sector": "",
+   "date": "2026-03",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Persimmon",
+   "use": "AI-powered paid-search marketing using Google Search Ads 360 machine-learning targeting, dynamic creative automation and automated sitelinks to filter unqualified leads and optimise ad spend across developments [Crafted (agency); Google Search Ads 360; Google/Microsoft/Meta AI ad tools]",
+   "existence": "confirmed",
+   "value": "45% increase in enquiries (71% over target), 20% reduction in spend (six-figure savings), 45% decrease in cost per enquiry; deployed across 260+ developments in 27 regions",
+   "tier": "",
+   "url": "https://www.crafted.co.uk/work/persimmon",
+   "raw_sector": "",
+   "date": "2024",
+   "fresh": "aging"
+  },
+  {
+   "company": "Persimmon",
+   "use": "Human Form Recognition (HFR) AI cameras fitted to telehandlers to detect people in real time around moving plant machinery and alert operators to prevent collisions/near-misses [VUE Group (HFR AI cameras + VUEhub telematics)]",
+   "existence": "confirmed",
+   "value": "180 HFR camera kits across 160 sites in 30 regions (England, Scotland, Wales); rollout nearing completion Dec 2025; telehandler safety alerts reduced 40%+",
+   "tier": "",
+   "url": "https://vuegroup.org/persimmon-homes-deploys-ai-technology/",
+   "raw_sector": "",
+   "date": "2025-07",
+   "fresh": "fresh"
   }
  ]
 }

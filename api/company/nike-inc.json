@@ -3,43 +3,177 @@
  "name": "Nike, Inc.",
  "cc": "US",
  "vertical": "Retail & E-commerce",
- "deployments": 1,
- "confirmed": 1,
- "with_value_number": 0,
- "proof_rate": 0.0,
+ "deployments": 11,
+ "confirmed": 10,
+ "with_value_number": 6,
+ "proof_rate": 0.545,
  "mktcap": 60650000000.0,
  "revenue": 46400000000.0,
  "employees": 73000.0,
  "silent": false,
- "per_bn_revenue": 0.02,
- "per_10k_emp": 0.14,
+ "per_bn_revenue": 0.24,
+ "per_10k_emp": 1.51,
  "benchmarks": {
   "global_vertical": {
-   "deployments": 0,
-   "confirmed": 24,
-   "proof_rate": 0,
-   "n": 295
+   "deployments": 80,
+   "confirmed": 86,
+   "proof_rate": 86,
+   "n": 301
   },
   "country_vertical": {
-   "deployments": 0,
-   "confirmed": 25,
-   "proof_rate": 0,
+   "deployments": 70,
+   "confirmed": 76,
+   "proof_rate": 95,
    "n": 80
   }
  },
- "first_seen": null,
- "by_year": [],
- "undated_pct": 100,
- "momentum": "none",
- "maturity": "L3",
+ "first_seen": 2018,
+ "by_year": [
+  {
+   "year": 2018,
+   "n": 1
+  },
+  {
+   "year": 2019,
+   "n": 1
+  },
+  {
+   "year": 2020,
+   "n": 1
+  },
+  {
+   "year": 2022,
+   "n": 1
+  },
+  {
+   "year": 2024,
+   "n": 2
+  },
+  {
+   "year": 2025,
+   "n": 3
+  },
+  {
+   "year": 2026,
+   "n": 1
+  }
+ ],
+ "undated_pct": 9,
+ "momentum": "early_mover,rising",
+ "maturity": "L4",
  "maturity_evidence": [
+  "multi_horizontal",
   "named_product:Celect",
+  "value_number",
+  "multi_year",
   "tier_p"
  ],
- "prospect_score": 54,
- "stack": [],
- "vendor_named": false,
+ "prospect_score": 78,
+ "stack": [
+  "Google",
+  "OpenAI"
+ ],
+ "vendor_named": true,
  "deployments_detail": [
+  {
+   "company": "Nike, Inc.",
+   "use": "Genius Results, a self-service internal support AI trained on over 1 million past incidents and 6,000 help articles to resolve employee/support issues. [Nike (internal)]",
+   "existence": "confirmed",
+   "value": "trained on 1M+ incidents and 6,000 help articles",
+   "tier": "",
+   "url": "https://www.thestack.technology/nikes-cto-welcomes-nikeai-rollout-are-there-lessons-here-for-developers/",
+   "raw_sector": "",
+   "date": "2025-08",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Nike, Inc.",
+   "use": "Nike A.I.R. (Athlete Imagined Revolution): generative-AI-assisted footwear design that turns athlete listening sessions into hundreds of concept images, combined with computational design, AI simulation, and 3D printing to create 13 athlete-specific Air prototypes. [Nike (generative AI design tools)]",
+   "existence": "confirmed",
+   "value": "13 prototypes for 13 athletes; concepts generated in seconds vs months",
+   "tier": "",
+   "url": "https://about.nike.com/en/magazine/nike-design-athlete-imagined-revolution",
+   "raw_sector": "",
+   "date": "2024-04",
+   "fresh": "aging"
+  },
+  {
+   "company": "Nike, Inc.",
+   "use": "Celect demand-sensing/predictive-analytics platform (acquired 2019) used to forecast demand and determine which inventory to forward-position in distribution centers to optimize delivery speed and fulfillment cost, enabling 1-2 day shipping. [Celect (Nike acquisition)]",
+   "existence": "confirmed",
+   "value": "order cycle times cut by up to 50%",
+   "tier": "",
+   "url": "https://www.supplychaindive.com/news/predictive-analytics-determine-in-stock-nike-new-la-warehouse/585727/",
+   "raw_sector": "",
+   "date": "2020-09",
+   "fresh": "stale"
+  },
+  {
+   "company": "Nike, Inc.",
+   "use": "Nike Fit: AI + augmented reality foot-scanning feature in the Nike App that uses computer vision and machine learning to collect 13 data points mapping foot morphology and recommend hyper-accurate shoe sizes. [Nike (computer vision / ML)]",
+   "existence": "confirmed",
+   "value": "13 foot data points captured",
+   "tier": "",
+   "url": "https://www.dezeen.com/2019/05/09/nike-fit-app-ar-ai-trainers/",
+   "raw_sector": "",
+   "date": "2019-05",
+   "fresh": "stale"
+  },
+  {
+   "company": "Nike, Inc.",
+   "use": "More than 1,000 collaborative robots (cobots) deployed across Nike distribution centers to sort, pack, and move products, working alongside human 'teammates' to speed order processing; part of Nike's AI/ML-driven supply chain transformation. [Nike (cobot fleet)]",
+   "existence": "confirmed",
+   "value": "1,000+ cobots deployed",
+   "tier": "",
+   "url": "https://roboticsandautomationnews.com/2022/02/01/nike-transforming-it-supply-chain-with-1000-collaborative-robots/48866/",
+   "raw_sector": "",
+   "date": "2022-02",
+   "fresh": "stale"
+  },
+  {
+   "company": "Nike, Inc.",
+   "use": "NikeAI Beta, a conversational generative-AI shopping assistant in the Nike App (iOS, US) that lets shoppers describe needs in plain language (e.g. 'running shoes for a 5k') and returns personalized product recommendations. Built on 'best in class foundational models fine-tuned by domain experts.' [Undisclosed foundation models (fine-tuned in-house)]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.thestack.technology/nikes-cto-welcomes-nikeai-rollout-are-there-lessons-here-for-developers/",
+   "raw_sector": "",
+   "date": "2025-08",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Nike, Inc.",
+   "use": "AI-powered agentic shopping experience with Google: Nike products discoverable and purchasable directly in the Gemini app and AI Mode in Google Search, using Google's Universal Commerce Protocol multi-item checkout with Google Wallet. [Google (Gemini, AI Mode, Universal Commerce Protocol)]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://about.nike.com/en/newsroom/releases/nike-is-serving-athletes-faster-through-ai-powered-shopping-on-google",
+   "raw_sector": "",
+   "date": "2026-05",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Nike, Inc.",
+   "use": "NikeKIT, a personalized AI shopping assistant proof-of-concept built by agency Rangle using OpenAI text-generation RAG with mixed embeddings over real-time conversation, member data, and enriched product catalog; auto-tagged 6,300+ SKUs and served Nike's 170M+ loyalty members. [Rangle / OpenAI / Next.js / Vercel]",
+   "existence": "claimed",
+   "value": "6,300+ SKUs tagged in 1 day; 8-day PoC, 21-day delivery",
+   "tier": "",
+   "url": "https://rangle.io/cases/nike-generative-ai-ecommerce",
+   "raw_sector": "",
+   "date": "2024",
+   "fresh": "aging"
+  },
+  {
+   "company": "Nike, Inc.",
+   "use": "Zodiac (acquired 2018), a predictive customer-analytics/AI tool integrated into the Nike App to estimate customer lifetime value and drive personalized product recommendations and content across platforms. [Zodiac (Nike acquisition)]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.aidataanalytics.network/business-analytics/articles/ai-data-and-predictive-analytics-a-look-into-nikes-formula-for-growth/amp",
+   "raw_sector": "",
+   "date": "2018",
+   "fresh": "stale"
+  },
   {
    "company": "Nike, Inc.",
    "use": "GenAI product design (custom LLM on athlete data, e.g. A.I.R. project) + Celect AI demand forecasting + AI-powered shopping (Google)",
@@ -50,6 +184,17 @@
    "raw_sector": "Consumer Discretionary",
    "date": "missing",
    "fresh": "undated"
+  },
+  {
+   "company": "Nike, Inc.",
+   "use": "AgentAutosys, an internal AI/agentic tool that automatically detects and resolves batch/data job failures, handling thousands of alerts to keep Nike's technology operations running. [Nike (internal)]",
+   "existence": "confirmed",
+   "value": "thousands of alerts handled",
+   "tier": "",
+   "url": "https://www.thestack.technology/nikes-cto-welcomes-nikeai-rollout-are-there-lessons-here-for-developers/",
+   "raw_sector": "",
+   "date": "2025-08",
+   "fresh": "fresh"
   }
  ]
 }

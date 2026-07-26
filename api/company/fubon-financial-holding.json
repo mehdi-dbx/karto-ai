@@ -3,49 +3,128 @@
  "name": "Fubon Financial Holding",
  "cc": "TW",
  "vertical": "Financial Services",
- "deployments": 1,
- "confirmed": 1,
- "with_value_number": 1,
- "proof_rate": 1.0,
+ "deployments": 13,
+ "confirmed": 11,
+ "with_value_number": 8,
+ "proof_rate": 0.615,
  "mktcap": 56250000000.0,
  "revenue": 32812500000.0,
  "employees": 42363.0,
  "silent": false,
- "per_bn_revenue": 0.03,
- "per_10k_emp": 0.24,
+ "per_bn_revenue": 0.4,
+ "per_10k_emp": 3.07,
  "benchmarks": {
   "global_vertical": {
-   "deployments": 0,
-   "confirmed": 17,
-   "proof_rate": 76,
-   "n": 377
+   "deployments": 87,
+   "confirmed": 84,
+   "proof_rate": 89,
+   "n": 388
   },
   "country_vertical": {
-   "deployments": 0,
-   "confirmed": 9,
-   "proof_rate": 73,
+   "deployments": 91,
+   "confirmed": 82,
+   "proof_rate": 100,
    "n": 12
   }
  },
- "first_seen": 2025,
+ "first_seen": 2024,
  "by_year": [
   {
+   "year": 2024,
+   "n": 2
+  },
+  {
    "year": 2025,
-   "n": 1
+   "n": 9
+  },
+  {
+   "year": 2026,
+   "n": 2
   }
  ],
  "undated_pct": 0,
- "momentum": "rising",
- "maturity": "L3",
+ "momentum": "early_mover,rising",
+ "maturity": "L4",
  "maturity_evidence": [
+  "multi_horizontal",
   "named_product:Established",
   "value_number",
+  "multi_year",
   "tier_p"
  ],
- "prospect_score": 14,
- "stack": [],
- "vendor_named": false,
+ "prospect_score": 75,
+ "stack": [
+  "Alibaba Cloud",
+  "Microsoft"
+ ],
+ "vendor_named": true,
  "deployments_detail": [
+  {
+   "company": "Fubon Financial Holding",
+   "use": "Taipei Fubon Bank 'Eagle Eye' AI anti-fraud model detecting suspicious accounts/transactions, shared across the Eagle Eye Anti-Fraud Alliance [proprietary (developed with Criminal Investigation Bureau fraud patterns)]",
+   "existence": "confirmed",
+   "value": "detection accuracy increased 559x vs manual; ~99% less human intervention; secured over NT$360 million in prevented transfers",
+   "tier": "",
+   "url": "https://www.fubon.com/financialholdings/en/news/news_1240919_741047.htm",
+   "raw_sector": "",
+   "date": "2024-08-14",
+   "fresh": "aging"
+  },
+  {
+   "company": "Fubon Financial Holding",
+   "use": "Taipei Fubon Bank eAML AI model for monitoring suspected money-laundering transactions to reduce false alarms [proprietary]",
+   "existence": "claimed",
+   "value": "false alarms reduced 45% in initial testing",
+   "tier": "",
+   "url": "https://www.fubon.com/financialholdings/en/news/news_1240919_741047.htm",
+   "raw_sector": "",
+   "date": "2024-08-14",
+   "fresh": "aging"
+  },
+  {
+   "company": "Fubon Financial Holding",
+   "use": "Fubon Insurance 'FacePass' AI facial-recognition and liveness-detection service for digital insurance identity verification/onboarding [proprietary (AI facial recognition)]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.fubon.com/financialholdings/en/news/news_1260612_248768.htm",
+   "raw_sector": "",
+   "date": "2026-05-25",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Fubon Financial Holding",
+   "use": "Taipei Fubon Bank AI voice customer service platform handling wealth management and consumer finance inquiries on the 0800 hotline [proprietary]",
+   "existence": "confirmed",
+   "value": "~560,000 calls/month; over 80% handled by automation; equivalent to ~145 staff",
+   "tier": "",
+   "url": "https://www.fubon.com/financialholdings/en/news/news_1251212_506312.htm",
+   "raw_sector": "",
+   "date": "2025-11-07",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Fubon Financial Holding",
+   "use": "Fubon Bank (Hong Kong) GenAI-powered mobile banking assistant developed in HKMA's second GenA.I. Sandbox cohort [Alibaba Cloud, Ant Digital Technologies, Votee AI]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.fubonbank.com.hk/resources/common/pdf/pr_251015_e.pdf",
+   "raw_sector": "",
+   "date": "2025-10-15",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Fubon Financial Holding",
+   "use": "Fubon Life text-based customer service chatbot integrated with its knowledge base for query responses [Microsoft Copilot]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.fubon.com/financialholdings/en/news/news_1251212_506312.htm",
+   "raw_sector": "",
+   "date": "2025-11-07",
+   "fresh": "fresh"
+  },
   {
    "company": "Fubon Financial Holding",
    "use": "Established Generative AI Application Promotion Team (July 2025) across five subsidiaries with nearly 20 projects: employee assistants, virtual helpers, workflow automation",
@@ -55,6 +134,72 @@
    "url": "https://www.fubon.com/financialholdings/news/news_1251107_482220.htm",
    "raw_sector": "Financials",
    "date": "2025-11",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Fubon Financial Holding",
+   "use": "Fubon Life AI occupational-code recommendation system automating policy occupation classification [proprietary]",
+   "existence": "confirmed",
+   "value": "1.2M+ policies processed; 90% success rate; online since 2023",
+   "tier": "",
+   "url": "https://www.fubon.com/financialholdings/en/news/news_1251212_506312.htm",
+   "raw_sector": "",
+   "date": "2025-11-07",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Fubon Financial Holding",
+   "use": "Corporate knowledge retrieval engine (RAG / NLP semantic search + generative AI) unifying document search across regulations, product terms and marketing materials [proprietary (NLP semantic search + generative AI)]",
+   "existence": "confirmed",
+   "value": "deployed across 4 subsidiaries and 12 business units",
+   "tier": "",
+   "url": "https://www.fubon.com/financialholdings/en/news/news_1251212_506312.htm",
+   "raw_sector": "",
+   "date": "2025-11-07",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Fubon Financial Holding",
+   "use": "Fubon Life Underwriting Smart Assistant using generative AI to automatically summarize medical records for underwriting [generative AI (unnamed)]",
+   "existence": "confirmed",
+   "value": "underwriting processing time reduced from 50 to 25 minutes",
+   "tier": "",
+   "url": "https://www.fubon.com/financialholdings/en/news/news_1251212_506312.htm",
+   "raw_sector": "",
+   "date": "2025-11-07",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Fubon Financial Holding",
+   "use": "Fubon Bank (Hong Kong) adoption of Moody's Automated Credit Memo, a GenAI solution for corporate credit origination (first retail bank in HK) [Moody's Corporation (Automated Credit Memo, GenAI)]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.fubonbank.com.hk/resources/common/pdf/pr_251020_e.pdf",
+   "raw_sector": "",
+   "date": "2025-10-20",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Fubon Financial Holding",
+   "use": "Fubon Securities AI customer service system using LLMs/generative AI for semantic understanding of customer needs, plus AI-driven personalized multi-channel messaging [LLMs / generative AI (unnamed)]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.fubon.com/financialholdings/en/news/news_1251212_506312.htm",
+   "raw_sector": "",
+   "date": "2025-11-07",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Fubon Financial Holding",
+   "use": "Taipei Fubon Bank AI-driven personalized product recommendations with optimal contact timing built on Cloudera AI (real-time, explainable, across 24 retail products) [Cloudera (Cloudera AI/ML)]",
+   "existence": "confirmed",
+   "value": "conversion rate +240%; engagement +130%",
+   "tier": "",
+   "url": "https://www.cloudera.com/customers/taipei-fubon-bank.html",
+   "raw_sector": "",
+   "date": "2026-01-01",
    "fresh": "fresh"
   }
  ]

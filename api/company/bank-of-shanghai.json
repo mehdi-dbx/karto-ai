@@ -3,43 +3,141 @@
  "name": "Bank of Shanghai",
  "cc": "CN",
  "vertical": "Financial Services",
- "deployments": 1,
- "confirmed": 1,
- "with_value_number": 1,
- "proof_rate": 1.0,
+ "deployments": 11,
+ "confirmed": 10,
+ "with_value_number": 6,
+ "proof_rate": 0.545,
  "mktcap": 18056944444.0,
  "revenue": 5869444444.0,
  "employees": 14558.0,
  "silent": false,
- "per_bn_revenue": 0.17,
- "per_10k_emp": 0.69,
+ "per_bn_revenue": 1.87,
+ "per_10k_emp": 7.56,
  "benchmarks": {
   "global_vertical": {
-   "deployments": 0,
-   "confirmed": 17,
-   "proof_rate": 76,
-   "n": 377
+   "deployments": 72,
+   "confirmed": 78,
+   "proof_rate": 83,
+   "n": 388
   },
   "country_vertical": {
-   "deployments": 0,
-   "confirmed": 0,
+   "deployments": 56,
+   "confirmed": 56,
    "proof_rate": 44,
-   "n": 26
+   "n": 28
   }
  },
- "first_seen": null,
- "by_year": [],
- "undated_pct": 100,
- "momentum": "none",
- "maturity": "L3",
- "maturity_evidence": [
-  "named_product:Self",
-  "value_number"
+ "first_seen": 2021,
+ "by_year": [
+  {
+   "year": 2021,
+   "n": 1
+  },
+  {
+   "year": 2023,
+   "n": 1
+  },
+  {
+   "year": 2025,
+   "n": 5
+  },
+  {
+   "year": 2026,
+   "n": 3
+  }
  ],
- "prospect_score": 6,
- "stack": [],
+ "undated_pct": 9,
+ "momentum": "early_mover,rising",
+ "maturity": "L4",
+ "maturity_evidence": [
+  "multi_horizontal",
+  "named_product:Self",
+  "value_number",
+  "multi_year"
+ ],
+ "prospect_score": 78,
+ "stack": [
+  "DeepSeek"
+ ],
  "vendor_named": true,
  "deployments_detail": [
+  {
+   "company": "Bank of Shanghai",
+   "use": "AI digital employees '海小智' and '海小慧' launched on the mobile banking app / e-channel to handle balance inquiries, transfers, bill payments, wealth-management guidance and product introductions, with a focus on lowering the barrier for elderly users; built on SenseTime's '商量' (SenseNova) LLM and digital-human video generation. [SenseTime (商汤科技) — SenseNova LLM + digital human]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.cs.com.cn/ssgs/gsxw/202312/t20231229_6382793.html",
+   "raw_sector": "",
+   "date": "2023-12-29",
+   "fresh": "stale"
+  },
+  {
+   "company": "Bank of Shanghai",
+   "use": "AI mobile banking with 'dialogue-as-service' (对话即服务): customers complete 10+ high-frequency services (transfers, loan repayment, wealth-management consulting, pension management) by text or voice with multi-turn context understanding, shifting from 'people find services' to 'services find people'. Powered by Ant Group's enterprise agent platform Agentar (LUI natural-language interaction, agent development, model management, compute scheduling). [Ant Group / Ant Digital Technologies (蚂蚁数科) — Agentar platform]",
+   "existence": "confirmed",
+   "value": "Business handling conversion rate improved by 10 percentage points; elderly customer satisfaction significantly improved",
+   "tier": "",
+   "url": "http://www.zqrb.cn/jrjg/bank/2025-08-08/A1754640323844.html",
+   "raw_sector": "",
+   "date": "2025-08-07",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Bank of Shanghai",
+   "use": "First-in-industry Shanghainese-dialect (沪语) voice AI in mobile banking: full-chain dialect interaction (voice wake-up, recognition, comprehension, response) letting elderly Shanghainese speakers do transfers, loan repayment, investment consulting and pension management entirely in dialect; built on a multimodal Shanghainese speech LLM from CaiYue Xingchen / StepFun. [CaiYue Xingchen (财跃星辰) & StepFun (阶跃星辰) — multimodal dialect speech LLM]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://finance.sina.com.cn/jjxw/2025-11-04/doc-infwfiev0483851.shtml",
+   "raw_sector": "",
+   "date": "2025-11-03",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Bank of Shanghai",
+   "use": "Interbank negotiable certificate of deposit (同业存单) AI robot acting as an 'intelligent co-pilot' for traders: integrates AI dialogue, customer-intent recognition and back-office process automation to handle batch quoting, CD price inquiries and subscription reminders (intelligent outreach, assistance, process tracking). [none]",
+   "existence": "confirmed",
+   "value": "Replaced over 60% of repetitive work; since late-April 2026 launch processed 2,700+ inquiry messages, served 100+ counterparties, assisted raising 100B+ yuan",
+   "tier": "",
+   "url": "https://finance.sina.com.cn/wm/2026-07-09/doc-inihefvc1415604.shtml",
+   "raw_sector": "",
+   "date": "2026-07-09",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Bank of Shanghai",
+   "use": "AI infrastructure / large-model innovation ecosystem: localized (on-prem) deployment of open-source LLM series including DeepSeek and Qwen as the bank's base-model system, using large-and-small-model collaboration for scenarios such as customer marketing; embedded in the bank's 'deepening digital transformation' plan. [DeepSeek, Qwen (Alibaba) — open-source LLMs, self-hosted]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.fintechinchina.com/cases/8885",
+   "raw_sector": "",
+   "date": "2025-05-30",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Bank of Shanghai",
+   "use": "Strategic launch of China's first large-model system focused on pension/elderly finance and dialect intelligence (智慧养老金融大模型体系), a three-way collaboration to deliver smarter financial services to elderly customers, built on the multimodal 'CaiYue' finance LLM (trained on trillion-scale financial corpora). [CaiYue Xingchen (财跃星辰) & StepFun (阶跃星辰) — CaiYue multimodal finance LLM]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://m.cls.cn/detail/2190367",
+   "raw_sector": "",
+   "date": "2025-11-03",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Bank of Shanghai",
+   "use": "Bank-wide (全行级) AI platform: strengthened AI base capabilities with a compute platform centered on resource sharing and flexible scheduling; using large and small models the bank has self-developed 100+ agents (智能体) across business scenarios. [none]",
+   "existence": "confirmed",
+   "value": "100+ self-developed agents",
+   "tier": "",
+   "url": "https://m.mpaypass.com.cn/news/202605/06103045.html",
+   "raw_sector": "",
+   "date": "2026-05-06",
+   "fresh": "fresh"
+  },
   {
    "company": "Bank of Shanghai",
    "use": "Self-developed \"同业存单AI机器人\" (interbank CD robot); 100+ intelligent agents; AI尽调助手 (due-diligence) + 智能问数助手; multi-agent AI mobile banking",
@@ -50,6 +148,39 @@
    "raw_sector": "Financials",
    "date": "missing",
    "fresh": "undated"
+  },
+  {
+   "company": "Bank of Shanghai",
+   "use": "Intelligent data-query platform (智能问数平台) letting non-technical staff obtain metrics and insights via natural-language Q&A across corporate and retail banking; built on DigitForce's SwiftAgent agent architecture with a DeepSeek LLM base, using RAG and a semantic layer plus an acceleration engine for sub-second queries. [DigitForce (数势科技) SwiftAgent + DeepSeek]",
+   "existence": "confirmed",
+   "value": "Target: self-service data usage rate from 35% to 80%; ~30% faster response, 50%+ faster analysis (projected)",
+   "tier": "",
+   "url": "https://finance.sina.com.cn/roll/2025-08-01/doc-infimste5100925.shtml",
+   "raw_sector": "",
+   "date": "2025-08-01",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Bank of Shanghai",
+   "use": "Asset-custody operations assistant using an LLM to parse fund transaction files (subscription, redemption, dividend and complex transactions) from many distribution channels with inconsistent formats: full pipeline of file reception, content parsing, key-info extraction, rule-based cleaning and standardized output; recently extended to fund-conversion scenarios. [none]",
+   "existence": "confirmed",
+   "value": "80%+ efficiency improvement over manual; ~2,500 files/week processed saving ~40 labor hours weekly (vs ~65 hours manual for ~4,000 transactions)",
+   "tier": "",
+   "url": "https://www.163.com/dy/article/L06CF40J05568W0A.html",
+   "raw_sector": "",
+   "date": "2026-06-24",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Bank of Shanghai",
+   "use": "Retail-credit intelligent anti-fraud knowledge graph: uses graph platform and graph algorithms to build relationship networks that identify fraud rings and at-risk customers missed by traditional rule-based anti-fraud strategies. Won 2nd prize in the Shanghai Financial Innovation Award. [none]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.gzw.sh.gov.cn/shgzw_zxzx_gqdt/20210812/87a30c6b6c9e4b2881ef4bd73f98e79e.html",
+   "raw_sector": "",
+   "date": "2021-08-06",
+   "fresh": "stale"
   }
  ]
 }

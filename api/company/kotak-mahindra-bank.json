@@ -3,42 +3,63 @@
  "name": "Kotak Mahindra Bank",
  "cc": "IN",
  "vertical": "Financial Services",
- "deployments": 1,
- "confirmed": 1,
- "with_value_number": 1,
- "proof_rate": 1.0,
+ "deployments": 11,
+ "confirmed": 10,
+ "with_value_number": 7,
+ "proof_rate": 0.636,
  "mktcap": 45662650602.0,
  "revenue": 8589879518.0,
  "employees": 112000.0,
  "silent": false,
- "per_bn_revenue": 0.12,
- "per_10k_emp": 0.09,
+ "per_bn_revenue": 1.28,
+ "per_10k_emp": 0.98,
  "benchmarks": {
   "global_vertical": {
-   "deployments": 0,
-   "confirmed": 17,
-   "proof_rate": 76,
-   "n": 377
+   "deployments": 72,
+   "confirmed": 78,
+   "proof_rate": 91,
+   "n": 388
   },
   "country_vertical": {
-   "deployments": 0,
-   "confirmed": 18,
-   "proof_rate": 73,
-   "n": 23
+   "deployments": 67,
+   "confirmed": 79,
+   "proof_rate": 92,
+   "n": 25
   }
  },
- "first_seen": null,
- "by_year": [],
- "undated_pct": 100,
- "momentum": "none",
- "maturity": "L3",
- "maturity_evidence": [
-  "named_product:Keya",
-  "value_number"
+ "first_seen": 2018,
+ "by_year": [
+  {
+   "year": 2018,
+   "n": 1
+  },
+  {
+   "year": 2019,
+   "n": 1
+  },
+  {
+   "year": 2025,
+   "n": 1
+  },
+  {
+   "year": 2026,
+   "n": 7
+  }
  ],
- "prospect_score": 14,
- "stack": [],
- "vendor_named": false,
+ "undated_pct": 9,
+ "momentum": "early_mover,rising",
+ "maturity": "L4",
+ "maturity_evidence": [
+  "multi_horizontal",
+  "named_product:Keya",
+  "value_number",
+  "multi_year"
+ ],
+ "prospect_score": 75,
+ "stack": [
+  "Amazon AWS"
+ ],
+ "vendor_named": true,
  "deployments_detail": [
   {
    "company": "Kotak Mahindra Bank",
@@ -50,6 +71,116 @@
    "raw_sector": "Financial Services",
    "date": "missing",
    "fresh": "undated"
+  },
+  {
+   "company": "Kotak Mahindra Bank",
+   "use": "Keya - AI-powered bilingual (English/Hindi) voicebot integrated with the phone-banking helpline, augmenting the IVR with natural-language call-intent recognition and routing; cut response time by over 50% vs traditional IVR. [Nuance Communications]",
+   "existence": "confirmed",
+   "value": "response time reduced by over 50% vs traditional IVR",
+   "tier": "",
+   "url": "https://ffnews.com/newsarticle/kotak-mahindra-banks-taps-nuance-to-launch-its-ai-powered-virtual-voice-assistant-keya/",
+   "raw_sector": "",
+   "date": "2018-05-17",
+   "fresh": "stale"
+  },
+  {
+   "company": "Kotak Mahindra Bank",
+   "use": "Keya - conversational AI chatbot across the Kotak website, internet banking, 811 and mobile app, answering banking queries and handling service requests (cards, accounts, deposits, fund transfers, PIN generation) 24/7. Handles 3.5M+ queries/month with 93% AI accuracy over a 95,000+ question knowledge base. [Gupshup (conversational AI engine); originally launched on Active.Ai TRINITI]",
+   "existence": "confirmed",
+   "value": "3.5M+ queries/month, 93% AI accuracy, 95,000+ questions, 1M+ service requests/month",
+   "tier": "",
+   "url": "https://www.gupshup.ai/resources/case-studies/kotak-mahindra-bank-leverages-omnichannel-conversational-support/",
+   "raw_sector": "",
+   "date": "2019-07",
+   "fresh": "stale"
+  },
+  {
+   "company": "Kotak Mahindra Bank",
+   "use": "Kotak AI - a proprietary in-house Generative AI platform serving as the 'cognitive core' of the bank, on which the bank has indigenously developed ~12 foundational AI models to power agentic systems at scale (control over third-party dependence for fraud, AML, recommendations). [In-house (Kotak AI)]",
+   "existence": "confirmed",
+   "value": "~12 foundational AI models developed",
+   "tier": "",
+   "url": "https://www.linkedin.com/posts/abhishek-raval-80a58a28a_how-kotak-mahindra-bank-is-building-an-operating-activity-7406701860214165504-i45u",
+   "raw_sector": "",
+   "date": "2026",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Kotak Mahindra Bank",
+   "use": "AI-powered credit risk assessment to strengthen portfolio management and risk oversight. [none]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.bankingfinance.in/kotak-mahindra-bank-prioritizes-ai-investments-to-achieve-tangible-business-outcomes.html",
+   "raw_sector": "",
+   "date": "2026",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Kotak Mahindra Bank",
+   "use": "Real-time Transaction Service / core banking augmentation modernization on AWS (DynamoDB, EKS, MSK, ElastiCache) - included for context, but the source documents no AI/ML component. [AWS (Amazon DynamoDB)]",
+   "existence": "confirmed",
+   "value": "p95 latency 600ms to ~30ms; failure rate 1.5% to <0.01%; 350M monthly transactions",
+   "tier": "",
+   "url": "https://aws.amazon.com/blogs/industries/kotak-bank-modernizes-microledgers-using-amazon-dynamodb-for-predictable-low-latency-at-scale/",
+   "raw_sector": "",
+   "date": "2025-12-10",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Kotak Mahindra Bank",
+   "use": "Real-time fraud detection and monitoring using ensemble machine-learning models tracking 150+ behavioral and transactional parameters, plus AML pattern detection. [none]",
+   "existence": "confirmed",
+   "value": "150+ real-time behavioral/transactional parameters monitored",
+   "tier": "",
+   "url": "https://www.bankingfinance.in/kotak-mahindra-bank-prioritizes-ai-investments-to-achieve-tangible-business-outcomes.html",
+   "raw_sector": "",
+   "date": "2026",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Kotak Mahindra Bank",
+   "use": "AI-driven customer analytics and personalized product offerings / hyper-personalization to improve customer engagement. [none]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.bankingfinance.in/kotak-mahindra-bank-prioritizes-ai-investments-to-achieve-tangible-business-outcomes.html",
+   "raw_sector": "",
+   "date": "2026",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Kotak Mahindra Bank",
+   "use": "AI agents in marketing driving awareness, performance and personalized campaigns at scale (agentic marketing across the awareness-performance-personalization 'trifecta'). [none]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.linkedin.com/posts/the-think-school_kotakmahindrabank-hauslahaitohhojayega-activity-7457740595910901760-u92k",
+   "raw_sector": "",
+   "date": "2026",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Kotak Mahindra Bank",
+   "use": "AI code-generation tools used by engineering teams for software development; the bank reports hundreds of engineers already using AI tools for code generation and ~35,000 employees using AI tools daily, with a goal of AI integration across almost all operations. [none]",
+   "existence": "confirmed",
+   "value": "hundreds of engineers use AI code-gen; ~35,000 employees use AI tools daily",
+   "tier": "",
+   "url": "https://finance.yahoo.com/news/kotak-mahindra-bank-add-500-123414409.html",
+   "raw_sector": "",
+   "date": "2026",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Kotak Mahindra Bank",
+   "use": "CodeMate AI autonomous AI-powered SDLC agent - self-hosted, covering code generation, testing, security enforcement, deployment and real-time monitoring; partnership via Kotak Bizlabs for the regulated BFSI environment (on-prem/VPC, data sovereignty). [CodeMate AI (via Kotak Bizlabs)]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.linkedin.com/posts/shama-ahlawat-b40a72134_partnership-financial-development-activity-7443977519940313088-v6RO",
+   "raw_sector": "",
+   "date": "2026",
+   "fresh": "fresh"
   }
  ]
 }

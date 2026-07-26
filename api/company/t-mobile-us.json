@@ -3,27 +3,27 @@
  "name": "T-Mobile US",
  "cc": "US",
  "vertical": "Telecom",
- "deployments": 12,
- "confirmed": 11,
+ "deployments": 17,
+ "confirmed": 13,
  "with_value_number": 5,
- "proof_rate": 0.417,
+ "proof_rate": 0.294,
  "mktcap": 192340000000.0,
  "revenue": 92190000000.0,
  "employees": 75000.0,
  "silent": false,
- "per_bn_revenue": 0.13,
- "per_10k_emp": 1.6,
+ "per_bn_revenue": 0.18,
+ "per_10k_emp": 2.27,
  "benchmarks": {
   "global_vertical": {
-   "deployments": 97,
-   "confirmed": 98,
-   "proof_rate": 54,
-   "n": 93
+   "deployments": 99,
+   "confirmed": 91,
+   "proof_rate": 44,
+   "n": 94
   },
   "country_vertical": {
-   "deployments": 100,
-   "confirmed": 95,
-   "proof_rate": 77,
+   "deployments": 95,
+   "confirmed": 86,
+   "proof_rate": 59,
    "n": 23
   }
  },
@@ -46,7 +46,7 @@
    "n": 4
   }
  ],
- "undated_pct": 25,
+ "undated_pct": 47,
  "momentum": "early_mover,rising",
  "maturity": "L4",
  "maturity_evidence": [
@@ -56,12 +56,51 @@
   "multi_year",
   "tier_p"
  ],
- "prospect_score": 83,
+ "prospect_score": 88,
  "stack": [
-  "OpenAI"
+  "Amazon AWS",
+  "Anthropic",
+  "Google Cloud",
+  "Microsoft",
+  "NVIDIA",
+  "OpenAI",
+  "Salesforce"
  ],
  "vendor_named": true,
  "deployments_detail": [
+  {
+   "company": "T-Mobile US",
+   "use": "AI-RAN integration into 5G-Advanced network for handling customer calls",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.mobileworldlive.com/t-mobile-us/feature-t-mobile-us-bets-big-on-ai-ran/",
+   "raw_sector": "",
+   "date": "May 18, 2026",
+   "fresh": "undated"
+  },
+  {
+   "company": "T-Mobile US",
+   "use": "6G AI-native wireless network stack development [NVIDIA]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://futurumgroup.com/insights/gtc25-t-mobile-nvidia-prep-6g-blueprint-for-ai-native-wireless-networks/",
+   "raw_sector": "",
+   "date": "Mar 25, 2025",
+   "fresh": "undated"
+  },
+  {
+   "company": "T-Mobile US",
+   "use": "5G Advanced - AI and ML for network performance optimization",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.t-mobile.com/how-mobile-works/innovation/5g-advanced",
+   "raw_sector": "",
+   "date": "missing",
+   "fresh": "undated"
+  },
   {
    "company": "T-Mobile US",
    "use": "\"IntentCX\" intent-driven AI customer-experience platform (OpenAI; real-time sentiment/problem-prevention)",
@@ -71,6 +110,28 @@
    "url": "https://www.t-mobile.com/news/business/t-mobile-launches-intentcx-with-openai",
    "raw_sector": "Communication Services",
    "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "T-Mobile US",
+   "use": "IntentCX - intent-driven AI platform for customer experience and decision-making [OpenAI]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.t-mobile.com/news/business/t-mobile-launches-intentcx-with-openai",
+   "raw_sector": "",
+   "date": "Sep 18, 2024",
+   "fresh": "undated"
+  },
+  {
+   "company": "T-Mobile US",
+   "use": "PromoGenius app - AI-powered customer service representative tool [Microsoft Power Apps]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://learn.microsoft.com/en-us/power-platform/guidance/case-studies/tmobile-empowers-customer-service",
+   "raw_sector": "",
+   "date": "Aug 8, 2025",
    "fresh": "undated"
   },
   {

@@ -3,42 +3,60 @@
  "name": "BTG Pactual",
  "cc": "BR",
  "vertical": "Financial Services",
- "deployments": 2,
- "confirmed": 2,
- "with_value_number": 0,
- "proof_rate": 0.0,
+ "deployments": 10,
+ "confirmed": 9,
+ "with_value_number": 2,
+ "proof_rate": 0.2,
  "mktcap": 50816666667.0,
  "revenue": 8266666667.0,
  "employees": 8543.0,
  "silent": false,
- "per_bn_revenue": 0.24,
- "per_10k_emp": 2.34,
+ "per_bn_revenue": 1.21,
+ "per_10k_emp": 11.71,
  "benchmarks": {
   "global_vertical": {
-   "deployments": 62,
+   "deployments": 65,
    "confirmed": 73,
-   "proof_rate": 0,
-   "n": 377
+   "proof_rate": 39,
+   "n": 388
   },
   "country_vertical": {
    "deployments": 50,
    "confirmed": 50,
-   "proof_rate": 0,
+   "proof_rate": 17,
    "n": 7
   }
  },
- "first_seen": null,
- "by_year": [],
- "undated_pct": 100,
- "momentum": "none",
- "maturity": "L3",
+ "first_seen": 2021,
+ "by_year": [
+  {
+   "year": 2021,
+   "n": 1
+  },
+  {
+   "year": 2025,
+   "n": 5
+  },
+  {
+   "year": 2026,
+   "n": 2
+  }
+ ],
+ "undated_pct": 20,
+ "momentum": "early_mover,rising",
+ "maturity": "L4",
  "maturity_evidence": [
+  "multi_horizontal",
   "named_product:Minhas Finanças",
+  "value_number",
+  "multi_year",
   "tier_p"
  ],
- "prospect_score": 60,
- "stack": [],
- "vendor_named": false,
+ "prospect_score": 86,
+ "stack": [
+  "Microsoft"
+ ],
+ "vendor_named": true,
  "deployments_detail": [
   {
    "company": "BTG Pactual",
@@ -61,6 +79,94 @@
    "raw_sector": "Investment bank",
    "date": "missing",
    "fresh": "undated"
+  },
+  {
+   "company": "BTG Pactual",
+   "use": "GenAI-powered WhatsApp virtual assistant that lets retail clients run banking transactions (Pix, bill payment, balance/statement queries, bill-splitting) using text, voice and image/document inputs, including reading handwritten notes and boletos [not disclosed (in-house generative AI)]",
+   "existence": "confirmed",
+   "value": "initial daily transaction limit R$500",
+   "tier": "",
+   "url": "https://itforum.com.br/noticias/btg-pactual-assistente-ia-whatsapp/",
+   "raw_sector": "",
+   "date": "2025-02-17",
+   "fresh": "fresh"
+  },
+  {
+   "company": "BTG Pactual",
+   "use": "'Pierre' internal AI chatbot for employees that streamlines workflows by handling routine queries and giving teams quick access to information [not disclosed]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.euromoney.com/article/2eeghms0rod7fdjm2v75t/awards/private-banking-awards/latin-americas-best-for-digital-solutions-2025-btg-pactual/",
+   "raw_sector": "",
+   "date": "2025-03-28",
+   "fresh": "fresh"
+  },
+  {
+   "company": "BTG Pactual",
+   "use": "Enterprise rollout of Microsoft 365 Copilot to transform IT infrastructure, strengthen security and boost employee productivity [Microsoft 365 Copilot]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://pt.linkedin.com/posts/renataassad_banco-btg-pactual-impulsiona-seguran%C3%A7a-e-activity-7365687179122982913-e7Ot",
+   "raw_sector": "",
+   "date": "2025-09",
+   "fresh": "fresh"
+  },
+  {
+   "company": "BTG Pactual",
+   "use": "GitHub Copilot for AI-assisted software development, run through internal developer hackathons bringing together executives and developers to build with Copilot (culture/adoption initiative, not confirmed as enterprise production rollout) [GitHub Copilot (Microsoft)]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://pt.linkedin.com/posts/fabio-christiano_githubcopilot-ai-hackathon-activity-7470830903678726144-v3ho",
+   "raw_sector": "",
+   "date": "2026",
+   "fresh": "fresh"
+  },
+  {
+   "company": "BTG Pactual",
+   "use": "'Minhas Finanças' AI personal financial-management tool in BTG Banking that analyzes transaction history plus Open Finance data to categorize spending, compare periods and generate forward-looking spending forecasts, with WhatsApp integration [in-house AI layer + Open Finance]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://exame.com/invest/minhas-financas/btg-lanca-assistente-de-ia-que-consolida-despesas-e-gera-previsao-de-gastos/",
+   "raw_sector": "",
+   "date": "2026-05-19",
+   "fresh": "fresh"
+  },
+  {
+   "company": "BTG Pactual",
+   "use": "'CNAB Assistant', an AI-powered virtual tool for corporate clients (BTG Empresas) that automates CNAB bank-file configuration and reconciliation, simplifying complex remittance processes [not disclosed]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.euromoney.com/article/cvvnym4n5e88wgw4ogk88cgc0/brazils-best-transaction-bank-2025-btg-pactual-empresas/",
+   "raw_sector": "",
+   "date": "2025-11-14",
+   "fresh": "fresh"
+  },
+  {
+   "company": "BTG Pactual",
+   "use": "'BTG AI Banker Agent' suite using generative AI and deep-learning models: Daily Banker (personal financial assistant), Foundational Customer Model, Research Assistant, Customer Service Assistant and Investment Advisor to bring private-banking-style advisory to retail clients [in-house generative AI + deep learning]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://gfmag.com/award/award-winners/the-innovators-2025-latin-america/",
+   "raw_sector": "",
+   "date": "2025-06-09",
+   "fresh": "fresh"
+  },
+  {
+   "company": "BTG Pactual",
+   "use": "Real-time AI/ML fraud and financial-crime monitoring across Pix, cards, P2P transactions and account opening for the BTG+ / BTG banking app, using device recognition and facial biometrics [Feedzai (RiskOps platform)]",
+   "existence": "confirmed",
+   "value": "Mastercard Excellence award for fraud prevention 3 consecutive years; low fraud rates at high approval rates",
+   "tier": "",
+   "url": "https://www.feedzai.com/customer-stories/btg-pactual/",
+   "raw_sector": "",
+   "date": "2021-01-19",
+   "fresh": "stale"
   }
  ]
 }

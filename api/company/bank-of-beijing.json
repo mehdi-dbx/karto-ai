@@ -3,28 +3,28 @@
  "name": "Bank of Beijing",
  "cc": "CN",
  "vertical": "Financial Services",
- "deployments": 1,
- "confirmed": 1,
- "with_value_number": 1,
- "proof_rate": 1.0,
+ "deployments": 12,
+ "confirmed": 10,
+ "with_value_number": 7,
+ "proof_rate": 0.583,
  "mktcap": 14947222222.0,
  "revenue": 5965277778.0,
  "employees": 19975.0,
  "silent": false,
- "per_bn_revenue": 0.17,
- "per_10k_emp": 0.5,
+ "per_bn_revenue": 2.01,
+ "per_10k_emp": 6.01,
  "benchmarks": {
   "global_vertical": {
-   "deployments": 0,
-   "confirmed": 17,
-   "proof_rate": 76,
-   "n": 377
+   "deployments": 81,
+   "confirmed": 78,
+   "proof_rate": 87,
+   "n": 388
   },
   "country_vertical": {
-   "deployments": 0,
-   "confirmed": 0,
-   "proof_rate": 44,
-   "n": 26
+   "deployments": 70,
+   "confirmed": 56,
+   "proof_rate": 56,
+   "n": 28
   }
  },
  "first_seen": null,
@@ -33,12 +33,16 @@
  "momentum": "none",
  "maturity": "L3",
  "maturity_evidence": [
+  "multi_horizontal",
   "named_product:Jingzhi",
   "value_number"
  ],
- "prospect_score": 14,
- "stack": [],
- "vendor_named": false,
+ "prospect_score": 77,
+ "stack": [
+  "DeepSeek",
+  "OpenAI"
+ ],
+ "vendor_named": true,
  "deployments_detail": [
   {
    "company": "Bank of Beijing",
@@ -48,6 +52,127 @@
    "tier": "I",
    "url": "https://www.bankofbeijing.com.cn (annual report)",
    "raw_sector": "Financials",
+   "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "Bank of Beijing",
+   "use": "Suite of LLM-based employee/customer productivity tools — 小京搜索 (search), 小京助理 (assistant), 京行小金, and 智能校对 (intelligent proofreading) — rolled out on the unified financial operating system for staff productivity and service. [Bank of Beijing (in-house)]",
+   "existence": "confirmed",
+   "value": "cumulative users 1.4 million (+176%); usage time 30.8 million hours",
+   "tier": "",
+   "url": "https://bank.stockstar.com/IG2024090900009539.shtml",
+   "raw_sector": "",
+   "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "Bank of Beijing",
+   "use": "LLM-based intelligent customer-service patent for precise financial-product recommendation: uses large models, neural networks, NLP, multi-objective optimization and clustering to recommend financial products within the intelligent customer-service flow. [Bank of Beijing (in-house)]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.cebnet.com.cn/20250716/102992200.html",
+   "raw_sector": "",
+   "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "Bank of Beijing",
+   "use": "\"京智大脑\" (Jing Intelligence Brain) enterprise AI mid-platform: unified platform with 108 intelligent application scenarios online, 121 AI services (speech, OCR, intelligent text), and 342 deployed models spanning marketing, risk control and operations across the bank. [Bank of Beijing (in-house), with partners incl. Volcano Engine, Huawei, CAS Institute of Automation]",
+   "existence": "confirmed",
+   "value": "108 application scenarios, 121 AI services, 342 models deployed, 30,000+ knowledge points",
+   "tier": "",
+   "url": "https://cio.zhiding.cn/cio/2024/0327/3156776.shtml",
+   "raw_sector": "",
+   "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "Bank of Beijing",
+   "use": "Localized deployment of DeepSeek large language model for data analysis, delivered through a partnership with Huawei. [DeepSeek, Huawei]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://gfmag.com/technology/deepseek-ai-takes-root-in-chinas-banks/",
+   "raw_sector": "",
+   "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "Bank of Beijing",
+   "use": "Financial Intelligence Innovation Lab with Volcano Engine (ByteDance): joint work on GPT-centric financial large-model system, smart service, smart decisioning, digital employees and intelligent operations; App 8.0 refresh built with Volcano Engine. [Volcano Engine (火山引擎, ByteDance)]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.21jingji.com/article/20230927/herald/7736a1263a0e15952683288d1837477c.html",
+   "raw_sector": "",
+   "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "Bank of Beijing",
+   "use": "\"智算平台\" (intelligent computing platform) launched at the 4th Beijing AI Industry conference: a \"1+3+1\" AI capability system (unified computing base, large/small-model dev platforms, 100+ AI capabilities, 300+ application scenarios) built on heterogeneous domestic compute, to push AI into core scenarios (marketing, product, customer service, risk, credit). [Bank of Beijing (in-house), Mentougou District government]",
+   "existence": "confirmed",
+   "value": "100+ AI capabilities, 300+ application scenarios",
+   "tier": "",
+   "url": "https://m.mpaypass.com.cn/news/202603/09115220.html",
+   "raw_sector": "",
+   "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "Bank of Beijing",
+   "use": "\"京信妙笔\" (Jingxin Miaobi) intelligent report tool: uses GPT/LLM generative writing plus OCR, NLP and document retrieval to automatically generate credit-review reports across pre-loan investigation, loan approval and post-loan reporting, reducing frontline report-writing workload. [Bank of Beijing (in-house); report二期 built with Zhongke Wenge (中科闻歌)]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.infoq.cn/article/WCvegJdzK9UUKapYR0ih",
+   "raw_sector": "",
+   "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "Bank of Beijing",
+   "use": "Huawei iMaster NCE AI-enabled data-center network: digital network map deployed across multiple key regions for multi-cloud network visualization, network path navigation and automated fault diagnosis, targeting L4 autonomous networking. [Huawei]",
+   "existence": "confirmed",
+   "value": "5 regions / 9 vendors / 500+ devices mapped; 90% improvement in fault-localization efficiency",
+   "tier": "",
+   "url": "https://ex.chinadaily.com.cn/exchange/partners/82/rss/channel/cn/columns/sz8srm/stories/WS66b9a558a310054d254ec6c8.html",
+   "raw_sector": "",
+   "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "Bank of Beijing",
+   "use": "\"京骐\" AI Agent (智能体) application platform and \"京翼\" large-model service (MaaS) platform: agent orchestration, plugin development and deployment supporting knowledge Q&A, retrieval, data analysis and task execution; part of the upgraded 京智大脑 enterprise AI platform with a self-developed ~10-billion-parameter \"京智\" model. [Bank of Beijing (in-house)]",
+   "existence": "confirmed",
+   "value": "~10 billion (百亿级) parameter model",
+   "tier": "",
+   "url": "https://finance.sina.com.cn/stock/stockzmt/2024-09-25/doc-incqikzz0899856.shtml",
+   "raw_sector": "",
+   "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "Bank of Beijing",
+   "use": "\"护盾\" intelligent transaction anti-fraud platform: combines risk-control models, device fingerprinting and a trust system with expert rules for precise real-time fraud/risk identification on transactions. [Bank of Beijing (in-house)]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.cebnet.com.cn/20220510/102808488.html",
+   "raw_sector": "",
+   "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "Bank of Beijing",
+   "use": "AI-driven suspicious-account / anti-money-laundering detection on the 京智大脑 platform: a \"one call\" system processes ~40 hours of daily call volume and boosts suspicious-account detection. [Bank of Beijing (in-house)]",
+   "existence": "confirmed",
+   "value": "33% improvement in suspicious-account detection (96% success rate), 580,000+ fraud detections",
+   "tier": "",
+   "url": "https://cio.zhiding.cn/cio/2024/0327/3156776.shtml",
+   "raw_sector": "",
    "date": "missing",
    "fresh": "undated"
   }

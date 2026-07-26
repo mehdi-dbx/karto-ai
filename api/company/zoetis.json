@@ -3,40 +3,54 @@
  "name": "Zoetis",
  "cc": "US",
  "vertical": "Healthcare & Life Sciences",
- "deployments": 1,
- "confirmed": 1,
+ "deployments": 7,
+ "confirmed": 6,
  "with_value_number": 0,
  "proof_rate": 0.0,
  "mktcap": 31020000000.0,
  "revenue": 9530000000.0,
  "employees": 14500.0,
  "silent": false,
- "per_bn_revenue": 0.1,
- "per_10k_emp": 0.69,
+ "per_bn_revenue": 0.73,
+ "per_10k_emp": 4.83,
  "benchmarks": {
   "global_vertical": {
-   "deployments": 0,
-   "confirmed": 13,
+   "deployments": 55,
+   "confirmed": 62,
    "proof_rate": 0,
-   "n": 165
+   "n": 168
   },
   "country_vertical": {
-   "deployments": 0,
-   "confirmed": 7,
+   "deployments": 45,
+   "confirmed": 52,
    "proof_rate": 0,
    "n": 59
   }
  },
- "first_seen": null,
- "by_year": [],
- "undated_pct": 100,
- "momentum": "none",
- "maturity": "L3",
+ "first_seen": 2023,
+ "by_year": [
+  {
+   "year": 2023,
+   "n": 1
+  },
+  {
+   "year": 2024,
+   "n": 1
+  },
+  {
+   "year": 2025,
+   "n": 1
+  }
+ ],
+ "undated_pct": 57,
+ "momentum": "early_mover,cooling",
+ "maturity": "L4",
  "maturity_evidence": [
   "named_product:Vetscan Imagyst",
+  "multi_year",
   "tier_p"
  ],
- "prospect_score": 54,
+ "prospect_score": 84,
  "stack": [],
  "vendor_named": false,
  "deployments_detail": [
@@ -48,6 +62,72 @@
    "tier": "P",
    "url": "https://www.zoetisus.com/products/diagnostics/instruments/vetscan-imagyst/",
    "raw_sector": "Health Care",
+   "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "Zoetis",
+   "use": "AI Masses - AI-powered cytologic capability for Vetscan Imagyst analyzer",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://news.zoetis.com/press-releases/press-release-details/2025/Zoetis-Launches-AI-Masses-the-New-AI-Powered-Cytologic-Capability-for-Vetscan-Imagyst-2025-YhrB1kjmLg/default.aspx",
+   "raw_sector": "",
+   "date": "2025-06-02",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Zoetis",
+   "use": "Digital Cytology services with AI-powered insights and expert reviews",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.facebook.com/Zoetis/posts/were-excited-to-share-that-we-are-expanding-our-digital-cytology-services-global/1009792661269336/",
+   "raw_sector": "",
+   "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "Zoetis",
+   "use": "Vetscan Imagyst - AI and digital microscopy platform for real-time expert medical services",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "http://www.zoetisdiagnostics.com/us/point-of-care/vetscan-imagyst/",
+   "raw_sector": "",
+   "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "Zoetis",
+   "use": "Generative AI for drug discovery and development",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.zoetis.com/news-and-insights/blog/transforming-drug-discovery-and-development-with-generative-ai",
+   "raw_sector": "",
+   "date": "2024-11-21",
+   "fresh": "aging"
+  },
+  {
+   "company": "Zoetis",
+   "use": "AI Dermatology and AI Equine Fecal Egg Count Analysis capabilities for Vetscan Imagyst",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.zoetisus.com/news-and-media/zoetis-expands-diagnostic-expertise-with-additions-of-ai-dermatology-and-ai-equine-fecal-egg-count-analysis-to-vetscan-imagyst/",
+   "raw_sector": "",
+   "date": "2023-03-01",
+   "fresh": "stale"
+  },
+  {
+   "company": "Zoetis",
+   "use": "Virtual Laboratory - AI-driven five-in-one diagnostics platform",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "http://www.zoetisdiagnostics.com/us/virtual-laboratory/artificial-intelligence",
+   "raw_sector": "",
    "date": "missing",
    "fresh": "undated"
   }

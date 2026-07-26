@@ -3,42 +3,55 @@
  "name": "KBC Group",
  "cc": "BE",
  "vertical": "Financial Services",
- "deployments": 2,
- "confirmed": 2,
- "with_value_number": 2,
- "proof_rate": 1.0,
+ "deployments": 11,
+ "confirmed": 10,
+ "with_value_number": 4,
+ "proof_rate": 0.364,
  "mktcap": 52542000000.0,
  "revenue": 13078800000.0,
  "employees": 39803.0,
  "silent": false,
- "per_bn_revenue": 0.15,
- "per_10k_emp": 0.5,
+ "per_bn_revenue": 0.84,
+ "per_10k_emp": 2.76,
  "benchmarks": {
   "global_vertical": {
-   "deployments": 62,
-   "confirmed": 73,
-   "proof_rate": 76,
-   "n": 377
+   "deployments": 72,
+   "confirmed": 78,
+   "proof_rate": 66,
+   "n": 388
   }
  },
- "first_seen": 2024,
+ "first_seen": 2022,
  "by_year": [
   {
+   "year": 2022,
+   "n": 1
+  },
+  {
    "year": 2024,
-   "n": 2
+   "n": 4
+  },
+  {
+   "year": 2025,
+   "n": 6
   }
  ],
  "undated_pct": 0,
- "momentum": "early_mover,gone_quiet",
- "maturity": "L3",
+ "momentum": "early_mover,rising",
+ "maturity": "L4",
  "maturity_evidence": [
+  "multi_horizontal",
   "named_product:Kate",
   "value_number",
+  "multi_year",
   "tier_p"
  ],
- "prospect_score": 20,
- "stack": [],
- "vendor_named": false,
+ "prospect_score": 85,
+ "stack": [
+  "Microsoft",
+  "OpenAI"
+ ],
+ "vendor_named": true,
  "deployments_detail": [
   {
    "company": "KBC Group",
@@ -61,6 +74,105 @@
    "raw_sector": "Banks",
    "date": "2024",
    "fresh": "aging"
+  },
+  {
+   "company": "KBC Group",
+   "use": "Kate — AI-powered personal digital assistant in KBC Mobile that autonomously resolves ~70% of customer queries, sends proactive nudges, and handles banking/insurance service requests across 5 countries. Running entirely on GPT-4.1 LLM since October 2025. [OpenAI GPT-4.1 (LLM)]",
+   "existence": "confirmed",
+   "value": "5.8M digital customers; 70% of queries resolved autonomously; 80M conversations since 2020 launch; operational capacity equivalent to 356+ FTE",
+   "tier": "",
+   "url": "https://newsroom.kbc.com/kate-five-years-and-five-milestones",
+   "raw_sector": "",
+   "date": "2025-11-24",
+   "fresh": "fresh"
+  },
+  {
+   "company": "KBC Group",
+   "use": "Generative AI question clarification & summarization — GenAI parses/summarizes long complex customer questions and parses KBC website data to generate hybrid answers (e.g., ItsMe queries), reducing customer effort within Kate. [KBC (internal/proprietary models)]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://thebankingscene.com/opinions/kbc-generative-ai-for-customer-centric-banking/",
+   "raw_sector": "",
+   "date": "2024-07-01",
+   "fresh": "aging"
+  },
+  {
+   "company": "KBC Group",
+   "use": "DISCAI KYT AML — AI/ML-based anti-money laundering ('Know Your Transaction') solution that detects disguised money-laundering transactions far more effectively than legacy rule-based systems. Developed in-house, tested extensively in production at KBC Belgium, then commercialized via subsidiary DISCAI. [DISCAI (KBC subsidiary); implementation partner KPMG]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://newsroom.kbc.com/kbc-group-launches-its-own-ai-fintech-discai-a-separate-legal-entity",
+   "raw_sector": "",
+   "date": "2022-03-07",
+   "fresh": "stale"
+  },
+  {
+   "company": "KBC Group",
+   "use": "AI governance platform on Collibra — unifies AI model risk management and AI system compliance (EU AI Act assessments) into a single structured source of truth with guided workflows and assessments, replacing fragmented tooling. [Collibra]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.datashift.eu/case-studies/building-practical-ai-governance-at-kbc-with-collibra",
+   "raw_sector": "",
+   "date": "2025-01-01",
+   "fresh": "fresh"
+  },
+  {
+   "company": "KBC Group",
+   "use": "Kate4Commercial Employees — internal AI assistant for relationship managers acting as a personal secretary plus knowledge assistant: automates report creation, reads/reviews documents, and retrieves information to free up time for client relationships. [KBC (internal)]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://newsroom.kbc.com/kate-five-years-and-five-milestones",
+   "raw_sector": "",
+   "date": "2025-11-24",
+   "fresh": "fresh"
+  },
+  {
+   "company": "KBC Group",
+   "use": "MyKate — AI-powered HR/employee assistant platform, extending Kate capabilities to employee-facing knowledge and administrative tasks (introduced when Kate expanded to employees in 2022). [KBC (internal)]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://newsroom.kbc.com/kate-five-years-and-five-milestones",
+   "raw_sector": "",
+   "date": "2025-11-24",
+   "fresh": "fresh"
+  },
+  {
+   "company": "KBC Group",
+   "use": "Microsoft 365 Copilot pilot for employees — generative AI for meeting summarization and document retrieval, rolled out to a few hundred selected employees across KBC Group. [Microsoft (M365 Copilot)]",
+   "existence": "claimed",
+   "value": "a few hundred employees in pilot",
+   "tier": "",
+   "url": "https://thebankingscene.com/opinions/kbc-generative-ai-for-customer-centric-banking/",
+   "raw_sector": "",
+   "date": "2024-07-01",
+   "fresh": "aging"
+  },
+  {
+   "company": "KBC Group",
+   "use": "Kate for corporate customers in the Business Dashboard — extension of the AI assistant to corporate/business banking clients (2024 milestone), delivering personalized proactive solutions. [KBC (internal)]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://newsroom.kbc.com/kate-five-years-and-five-milestones",
+   "raw_sector": "",
+   "date": "2025-11-24",
+   "fresh": "fresh"
+  },
+  {
+   "company": "KBC Group",
+   "use": "AI-driven lead lifecycle management / commercial steering — Kate generates hyper-personalized sales leads ('Kate-leads') and drives digital sales and advice; AI/data analysis provides commercial steering to the workforce. [KBC (internal)]",
+   "existence": "confirmed",
+   "value": "656,000 Kate-leads generated in Q3 2025, 89,000 converted to sales; ~400,000 products/services sold annually via Kate",
+   "tier": "",
+   "url": "https://newsroom.kbc.com/kate-five-years-and-five-milestones",
+   "raw_sector": "",
+   "date": "2025-11-24",
+   "fresh": "fresh"
   }
  ]
 }

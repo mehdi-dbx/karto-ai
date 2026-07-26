@@ -3,27 +3,27 @@
  "name": "Netmarble",
  "cc": "KR",
  "vertical": "Telecom",
- "deployments": 1,
- "confirmed": 1,
+ "deployments": 3,
+ "confirmed": 2,
  "with_value_number": 1,
- "proof_rate": 1.0,
+ "proof_rate": 0.333,
  "mktcap": 2229629630.0,
  "revenue": 2103703704.0,
  "employees": 752.0,
  "silent": false,
- "per_bn_revenue": 0.48,
- "per_10k_emp": 13.3,
+ "per_bn_revenue": 1.43,
+ "per_10k_emp": 39.89,
  "benchmarks": {
   "global_vertical": {
-   "deployments": 0,
-   "confirmed": 16,
-   "proof_rate": 78,
-   "n": 93
+   "deployments": 6,
+   "confirmed": 9,
+   "proof_rate": 48,
+   "n": 94
   },
   "country_vertical": {
-   "deployments": 0,
-   "confirmed": 0,
-   "proof_rate": 56,
+   "deployments": 11,
+   "confirmed": 11,
+   "proof_rate": 44,
    "n": 10
   }
  },
@@ -33,13 +33,16 @@
  "momentum": "none",
  "maturity": "L3",
  "maturity_evidence": [
+  "multi_horizontal",
   "named_product:Tech",
   "value_number",
   "tier_p"
  ],
- "prospect_score": 14,
- "stack": [],
- "vendor_named": false,
+ "prospect_score": 39,
+ "stack": [
+  "Google Cloud"
+ ],
+ "vendor_named": true,
  "deployments_detail": [
   {
    "company": "Netmarble",
@@ -50,6 +53,28 @@
    "url": "https://html.duckduckgo.com/html/?q=넷마블+AI+게임+도입",
    "raw_sector": "Communication Services",
    "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "Netmarble",
+   "use": "Game-focused AI agents and anomaly detection for game development and operations",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://biz.chosun.com/en/en-it/2026/07/03/F7FPHA3TBVH6PFKA7DMR2N55IQ/?outputType=amp",
+   "raw_sector": "",
+   "date": "Jul 3, 2026",
+   "fresh": "undated"
+  },
+  {
+   "company": "Netmarble",
+   "use": "Fraudulent user detection using ML models [Google Cloud AI Platform]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://cloud.google.com/blog/topics/customers/how-google-clouds-ai-has-boosted-netmarbles-team-collaboration-game-development-and-consumer-reach",
+   "raw_sector": "",
+   "date": "Sep 4, 2019",
    "fresh": "undated"
   }
  ]

@@ -3,7 +3,7 @@
  "name": "Holcim (Maroc)",
  "cc": "MA",
  "vertical": "Chemicals & Materials",
- "deployments": 1,
+ "deployments": 6,
  "confirmed": 1,
  "with_value_number": 0,
  "proof_rate": 0.0,
@@ -15,23 +15,34 @@
  "per_10k_emp": null,
  "benchmarks": {
   "global_vertical": {
-   "deployments": 0,
-   "confirmed": 19,
+   "deployments": 65,
+   "confirmed": 8,
    "proof_rate": 0,
-   "n": 105
+   "n": 107
   }
  },
- "first_seen": null,
- "by_year": [],
- "undated_pct": 100,
- "momentum": "none",
+ "first_seen": 2024,
+ "by_year": [
+  {
+   "year": 2024,
+   "n": 2
+  },
+  {
+   "year": 2025,
+   "n": 1
+  }
+ ],
+ "undated_pct": 50,
+ "momentum": "early_mover,cooling",
  "maturity": "L3",
  "maturity_evidence": [
   "named_product:Plant of Tomorrow"
  ],
- "prospect_score": 54,
- "stack": [],
- "vendor_named": false,
+ "prospect_score": 46,
+ "stack": [
+  "C3.ai"
+ ],
+ "vendor_named": true,
  "deployments_detail": [
   {
    "company": "Holcim (Maroc)",
@@ -41,6 +52,61 @@
    "tier": "I",
    "url": "https://article19.ma/accueil/archives/156102",
    "raw_sector": "Industrials / Matériaux de construction",
+   "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "Holcim (Maroc)",
+   "use": "AI deployment across manufacturing plants for efficiency improvement",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.holcim.com/media/media-releases/artificial-intelligence-reinforce-manufacturing",
+   "raw_sector": "",
+   "date": "2024-06-27",
+   "fresh": "aging"
+  },
+  {
+   "company": "Holcim (Maroc)",
+   "use": "Predictive maintenance and equipment troubleshooting across global plant network [C3 AI]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://c3.ai/news/c3-ai-delivers-production-increases-predictive-maintenance-across-holcims-global-network-for-a-net-zero-future",
+   "raw_sector": "",
+   "date": "2024-06-26",
+   "fresh": "aging"
+  },
+  {
+   "company": "Holcim (Maroc)",
+   "use": "AI agents for automated processing of operational documents",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.linkedin.com/pulse/moving-beyond-hype-how-holcim-turning-ai-real-business-impact-iulee",
+   "raw_sector": "",
+   "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "Holcim (Maroc)",
+   "use": "Generative AI-enabled mobile solution for customer cement ordering",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.mckinsey.com/capabilities/growth-marketing-and-sales/our-insights/using-generative-ai-to-transform-customer-experience",
+   "raw_sector": "",
+   "date": "2025-02-06",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Holcim (Maroc)",
+   "use": "AI-Powered Chatbot for customer experience transformation",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.linkedin.com/posts/emeadcholcim_ai-customerexperience-digitalinnovation-activity-7354088048013283331-mv9f",
+   "raw_sector": "",
    "date": "missing",
    "fresh": "undated"
   }

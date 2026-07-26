@@ -3,46 +3,57 @@
  "name": "KakaoBank",
  "cc": "KR",
  "vertical": "Financial Services",
- "deployments": 1,
- "confirmed": 1,
+ "deployments": 6,
+ "confirmed": 5,
  "with_value_number": 0,
  "proof_rate": 0.0,
  "mktcap": 7807407407.0,
  "revenue": 1229629630.0,
  "employees": null,
  "silent": false,
- "per_bn_revenue": 0.81,
+ "per_bn_revenue": 4.88,
  "per_10k_emp": null,
  "benchmarks": {
   "global_vertical": {
-   "deployments": 0,
-   "confirmed": 17,
+   "deployments": 44,
+   "confirmed": 46,
    "proof_rate": 0,
-   "n": 377
+   "n": 388
   },
   "country_vertical": {
-   "deployments": 0,
-   "confirmed": 0,
+   "deployments": 56,
+   "confirmed": 61,
    "proof_rate": 0,
-   "n": 17
+   "n": 19
   }
  },
- "first_seen": 2025,
+ "first_seen": 2024,
  "by_year": [
   {
+   "year": 2024,
+   "n": 1
+  },
+  {
    "year": 2025,
+   "n": 4
+  },
+  {
+   "year": 2026,
    "n": 1
   }
  ],
  "undated_pct": 0,
- "momentum": "rising",
- "maturity": "L3",
+ "momentum": "early_mover,rising",
+ "maturity": "L4",
  "maturity_evidence": [
+  "multi_horizontal",
   "named_product:Azure",
+  "multi_year",
   "tier_p"
  ],
- "prospect_score": 46,
+ "prospect_score": 70,
  "stack": [
+  "Microsoft",
   "Microsoft Azure",
   "OpenAI"
  ],
@@ -57,6 +68,61 @@
    "url": "https://html.duckduckgo.com/html/?q=카카오뱅크+AI+도입",
    "raw_sector": "Financials",
    "date": "2025-05",
+   "fresh": "fresh"
+  },
+  {
+   "company": "KakaoBank",
+   "use": "Conversational AI Search for financial queries [Azure OpenAI]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.microsoft.com/en/customers/story/24967-kakao-bank-azure-openai",
+   "raw_sector": "",
+   "date": "2025-05-26",
+   "fresh": "fresh"
+  },
+  {
+   "company": "KakaoBank",
+   "use": "Personalized content and customized financial advice for mobile banking",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.itnews.asia/news/south-koreas-kakaobank-establishes-ai-lab-for-new-financial-services-604810",
+   "raw_sector": "",
+   "date": "2024-02-07",
+   "fresh": "aging"
+  },
+  {
+   "company": "KakaoBank",
+   "use": "AI Transfer - generative AI for core banking money transfers",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.koreaherald.com/article/10625101",
+   "raw_sector": "",
+   "date": "2025-11-27",
+   "fresh": "fresh"
+  },
+  {
+   "company": "KakaoBank",
+   "use": "Korea's first Azure OpenAI-powered AI Search inside its mobile banking app, answering natural-language customer questions [Microsoft] [Microsoft]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.microsoft.com/en/customers/story/24967-kakao-bank-azure-openai",
+   "raw_sector": "",
+   "date": "2025-12-08",
+   "fresh": "fresh"
+  },
+  {
+   "company": "KakaoBank",
+   "use": "AI-powered smishing detection",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.chosun.com/english/market-money-en/2026/03/16/TYE7DMXIQBEFHKPVES3IH74IYM/",
+   "raw_sector": "",
+   "date": "2026-03-16",
    "fresh": "fresh"
   }
  ]

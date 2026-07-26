@@ -3,43 +3,86 @@
  "name": "Omnicom Group",
  "cc": "US",
  "vertical": "Telecom",
- "deployments": 1,
- "confirmed": 1,
- "with_value_number": 0,
- "proof_rate": 0.0,
+ "deployments": 9,
+ "confirmed": 5,
+ "with_value_number": 1,
+ "proof_rate": 0.111,
  "mktcap": 22470000000.0,
  "revenue": 19820000000.0,
  "employees": 120000.0,
  "silent": false,
- "per_bn_revenue": 0.05,
- "per_10k_emp": 0.08,
+ "per_bn_revenue": 0.45,
+ "per_10k_emp": 0.75,
  "benchmarks": {
   "global_vertical": {
-   "deployments": 0,
-   "confirmed": 16,
-   "proof_rate": 0,
-   "n": 93
+   "deployments": 49,
+   "confirmed": 44,
+   "proof_rate": 18,
+   "n": 94
   },
   "country_vertical": {
-   "deployments": 0,
-   "confirmed": 32,
-   "proof_rate": 0,
+   "deployments": 36,
+   "confirmed": 41,
+   "proof_rate": 32,
    "n": 23
   }
  },
- "first_seen": null,
- "by_year": [],
- "undated_pct": 100,
- "momentum": "none",
+ "first_seen": 2025,
+ "by_year": [
+  {
+   "year": 2025,
+   "n": 1
+  }
+ ],
+ "undated_pct": 89,
+ "momentum": "early_mover,rising",
  "maturity": "L3",
  "maturity_evidence": [
+  "multi_horizontal",
   "named_product:Omni",
+  "value_number",
   "tier_p"
  ],
- "prospect_score": 54,
- "stack": [],
- "vendor_named": false,
+ "prospect_score": 66,
+ "stack": [
+  "Amazon AWS",
+  "Google"
+ ],
+ "vendor_named": true,
  "deployments_detail": [
+  {
+   "company": "Omnicom Group",
+   "use": "Hyper-personalized omnichannel advertising and creative content generation via Amazon Bedrock; real-time campaign analytics on SageMaker AI [AWS] [AWS]",
+   "existence": "confirmed",
+   "value": "90% reduction in compute infrastructure costs; real-time processing of 400 billion daily events; 75 petabytes migrated from 9 data centers",
+   "tier": "",
+   "url": "https://aws.amazon.com/solutions/case-studies/omnicom-case-study/",
+   "raw_sector": "",
+   "date": "2025",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Omnicom Group",
+   "use": "Named as a Amazon Bedrock customer/case study [Amazon Bedrock] [Amazon Bedrock]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://aws.amazon.com/ai/generative-ai/customers/",
+   "raw_sector": "",
+   "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "Omnicom Group",
+   "use": "Named as a Google Gemini / Vertex AI customer/case study [Google Gemini / Vertex AI] [Google Gemini / Vertex AI]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://aws.amazon.com/ai/generative-ai/customers/",
+   "raw_sector": "",
+   "date": "missing",
+   "fresh": "undated"
+  },
   {
    "company": "Omnicom Group",
    "use": "\"Omni\" AI marketing intelligence platform + \"ArtBotAI\" GenAI content-at-scale engine",
@@ -49,6 +92,61 @@
    "url": "https://www.prnewswire.com/news-releases/omnicom-launches-artbotai-offering-clients-the-industrys-most-powerful-creative-engineering-solution-302192549.html",
    "raw_sector": "Communication Services",
    "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "Omnicom Group",
+   "use": "Omni 2.0 - Agentic AI for enterprise marketing workflow",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.klover.ai/omnicom_ai_strategy_analysis_dominance_in_marketing_pr/",
+   "raw_sector": "",
+   "date": "Apr 19, 2026",
+   "fresh": "undated"
+  },
+  {
+   "company": "Omnicom Group",
+   "use": "Omni platform - AI-driven marketing intelligence platform",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.omc.com/",
+   "raw_sector": "",
+   "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "Omnicom Group",
+   "use": "Omni Assist - Generative AI virtual assistant for ad agency employees",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.businessinsider.com/how-ai-can-help-data-driven-marketing-campaigns",
+   "raw_sector": "",
+   "date": "Dec 27, 2023",
+   "fresh": "undated"
+  },
+  {
+   "company": "Omnicom Group",
+   "use": "AWS generative AI collaboration for advertising campaign development [AWS]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.prnewswire.com/news-releases/omnicom-collaborates-with-aws-to-transform-advertising-campaign-development-with-generative-ai-301858070.html",
+   "raw_sector": "",
+   "date": "Jun 22, 2023",
+   "fresh": "undated"
+  },
+  {
+   "company": "Omnicom Group",
+   "use": "AI agents for media buying to bypass ad tech middlemen",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://digiday.com/media-buying/that-is-an-objective-omnicom-tests-ai-agents-to-cut-out-the-ad-tech-middlemen/",
+   "raw_sector": "",
+   "date": "Apr 29, 2026",
    "fresh": "undated"
   }
  ]

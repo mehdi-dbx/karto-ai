@@ -3,27 +3,27 @@
  "name": "NRG Energy",
  "cc": "US",
  "vertical": "Energy & Utilities",
- "deployments": 1,
- "confirmed": 1,
- "with_value_number": 0,
- "proof_rate": 0.0,
+ "deployments": 5,
+ "confirmed": 4,
+ "with_value_number": 1,
+ "proof_rate": 0.2,
  "mktcap": 29390000000.0,
  "revenue": 32380000000.0,
  "employees": 16702.0,
  "silent": false,
- "per_bn_revenue": 0.03,
- "per_10k_emp": 0.6,
+ "per_bn_revenue": 0.15,
+ "per_10k_emp": 2.99,
  "benchmarks": {
   "global_vertical": {
-   "deployments": 0,
-   "confirmed": 20,
-   "proof_rate": 0,
-   "n": 210
+   "deployments": 53,
+   "confirmed": 58,
+   "proof_rate": 50,
+   "n": 213
   },
   "country_vertical": {
-   "deployments": 0,
-   "confirmed": 39,
-   "proof_rate": 0,
+   "deployments": 57,
+   "confirmed": 67,
+   "proof_rate": 78,
    "n": 52
   }
  },
@@ -34,17 +34,31 @@
    "n": 1
   }
  ],
- "undated_pct": 0,
+ "undated_pct": 80,
  "momentum": "early_mover,gone_quiet",
  "maturity": "L3",
  "maturity_evidence": [
+  "multi_horizontal",
   "named_product:Vivint",
   "tier_p"
  ],
- "prospect_score": 54,
- "stack": [],
- "vendor_named": false,
+ "prospect_score": 56,
+ "stack": [
+  "Google Cloud"
+ ],
+ "vendor_named": true,
  "deployments_detail": [
+  {
+   "company": "NRG Energy",
+   "use": "AI Center of Excellence for risk mitigation strategy",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.nrg.com/insights/energy-education/ais-place-in-the-energy-revolution.html",
+   "raw_sector": "",
+   "date": "Oct 24, 2024",
+   "fresh": "undated"
+  },
   {
    "company": "NRG Energy",
    "use": "Vivint Smart Home platform (AI/ML in its OS) for intelligent home energy management (acquired 2023)",
@@ -55,6 +69,39 @@
    "raw_sector": "Utilities",
    "date": "2023",
    "fresh": "stale"
+  },
+  {
+   "company": "NRG Energy",
+   "use": "Virtual Power Plant (VPP) optimization with AI [Google Cloud]",
+   "existence": "claimed",
+   "value": "1 GW by 2035",
+   "tier": "",
+   "url": "https://www.nrg.com/about/yearinreview/future-of-energy.html",
+   "raw_sector": "",
+   "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "NRG Energy",
+   "use": "AI agents for customer service and information processing",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.linkedin.com/posts/nrgenergy_nrgs-smart-ai-agents-are-revolutionizing-activity-7330593162710671362-MLo0",
+   "raw_sector": "",
+   "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "NRG Energy",
+   "use": "Generative AI for customer care and sales",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.cio.com/article/4070991/what-powers-reinvention-at-nrg.html",
+   "raw_sector": "",
+   "date": "Oct 23, 2025",
+   "fresh": "undated"
   }
  ]
 }

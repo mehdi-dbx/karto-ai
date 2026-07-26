@@ -1,0 +1,191 @@
+{
+ "slug": "beazley-gb",
+ "name": "Beazley",
+ "cc": "GB",
+ "vertical": "Insurance",
+ "deployments": 9,
+ "confirmed": 9,
+ "with_value_number": 4,
+ "proof_rate": 0.444,
+ "mktcap": null,
+ "revenue": null,
+ "employees": null,
+ "silent": false,
+ "per_bn_revenue": null,
+ "per_10k_emp": null,
+ "benchmarks": {
+  "global_vertical": {
+   "deployments": 63,
+   "confirmed": 79,
+   "proof_rate": 73,
+   "n": 63
+  }
+ },
+ "first_seen": 2022,
+ "by_year": [
+  {
+   "year": 2022,
+   "n": 1
+  },
+  {
+   "year": 2024,
+   "n": 2
+  },
+  {
+   "year": 2025,
+   "n": 5
+  },
+  {
+   "year": 2026,
+   "n": 1
+  }
+ ],
+ "undated_pct": 0,
+ "momentum": "early_mover,rising",
+ "maturity": "L4",
+ "maturity_evidence": [
+  "multi_horizontal",
+  "named_product:Built",
+  "value_number",
+  "multi_year"
+ ],
+ "prospect_score": 76,
+ "stack": [
+  "Microsoft"
+ ],
+ "vendor_named": true,
+ "deployments_detail": [
+  {
+   "company": "Beazley",
+   "use": "AI appears only as an insured risk/coverage topic (cyber, AI liability); no evidence Beazley deploys AI in its own underwriting/claims",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "-",
+   "url": "https://www.theinsurer.com/cyber-risk/news/beazley-insurers-must-ask-questions-on-ai-governance-to-inform-risk-assessment-2026-04-27/",
+   "raw_sector": "Insurance",
+   "date": "2026",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Beazley",
+   "use": "AI integrated into core business processes",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://faculty.ai/en-gb/lesson-05-beazley",
+   "raw_sector": "",
+   "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "Beazley",
+   "use": "Reusable, modular AI 'utilities' library (email processing, form/data extraction, document parsing) — a living library of technical components tailored across dozens of interconnected AI applications, so investments scale beyond pilots into daily work. [Faculty AI]",
+   "existence": "confirmed",
+   "value": "dozens of interconnected applications built on shared utilities",
+   "tier": "",
+   "url": "https://faculty.ai/en-gb/lesson-05-beazley",
+   "raw_sector": "",
+   "date": "2025",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Beazley",
+   "use": "AI-powered information extraction from broker submission documents, feeding the underwriting pipeline to speed and improve quote generation. Built with Faculty as one of a suite of interconnected AI applications, used by hundreds of employees. [Faculty AI]",
+   "existence": "confirmed",
+   "value": "AI created 'millions of dollars' worth of capacity' (COO Troy Dehmann); hundreds of employees using dozens of applications",
+   "tier": "",
+   "url": "https://faculty.ai/en-gb/lesson-05-beazley",
+   "raw_sector": "",
+   "date": "2025",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Beazley",
+   "use": "GenAI application that helps Claims Managers review and analyse risk in complex/lengthy legal documents, highlighting source locations for AI-generated answers to build user trust and transparency. [Faculty AI]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://faculty.ai/en-gb/lesson-05-beazley",
+   "raw_sector": "",
+   "date": "2025",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Beazley",
+   "use": "Generative-AI underwriting support that helps underwriters quickly understand coverage requirements from myriad unstructured data inputs; COO describes AI and underwriters as 'sparring partners' for reading, summarizing and extracting data for underwriting and claim submissions. [Faculty AI]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.insurancebusinessmag.com/uk/news/technology/how-could-ai-transform-the-insurance-industry-539773.aspx",
+   "raw_sector": "",
+   "date": "2025-06-19",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Beazley",
+   "use": "Cytora digital risk processing platform used by Beazley Digital to digitise, consistently evaluate (using internal + external data) and automatically route/triage incoming risk submissions, targeting straight-through processing and reduced referrals. [Cytora]",
+   "existence": "confirmed",
+   "value": "target of up to 80% straight-through processing for US-based Beazley Digital submissions",
+   "tier": "",
+   "url": "https://www.instech.co/knowledge-centre/cytora-achieving-digital-risk-flows-in-commercial-insurance/",
+   "raw_sector": "",
+   "date": "2022-04-26",
+   "fresh": "stale"
+  },
+  {
+   "company": "Beazley",
+   "use": "Automated real-time filtering and triage/prioritisation of incoming broker submissions, used by the Operations team to route work more efficiently. [Faculty AI]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://faculty.ai/en-gb/lesson-05-beazley",
+   "raw_sector": "",
+   "date": "2025",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Beazley",
+   "use": "Beazley Security MXDR (Managed Extended Detection and Response) uses AI to search across telemetry and threat-intelligence sources, correlate identity/asset/indicator/reputation/activity data, and run continuous AI-driven investigation workflows; every validated finding reviewed by a human analyst. [Beazley Security (in-house)]",
+   "existence": "confirmed",
+   "value": "180+ native integrations; critical-severity threat reports in under 60 minutes; 90+ days raw telemetry retention",
+   "tier": "",
+   "url": "https://beazley.security/solutions/mxdr",
+   "raw_sector": "",
+   "date": "2024-07",
+   "fresh": "aging"
+  },
+  {
+   "company": "Beazley",
+   "use": "Beazley Security threat-detection platform (VERACIS analyst portal) blending human expertise, machine learning and advanced technology to identify and contain threats, with case management, alert timelines and MITRE ATT&CK tracking. [Beazley Security (built with Crema)]",
+   "existence": "confirmed",
+   "value": "2,000+ cyber attacks processed daily; 15-minute average containment time",
+   "tier": "",
+   "url": "https://www.crema.us/case-studies/beazley-security",
+   "raw_sector": "",
+   "date": "2024",
+   "fresh": "aging"
+  },
+  {
+   "company": "Beazley",
+   "use": "Beazley Security Microsoft services: AI-governance offerings including a Microsoft 365 Copilot Security Assessment (sensitive-data exposure, oversharing, Purview/DLP, AI governance), Defender XDR threat detection, Microsoft Sentinel threat hunting, and DSPM/Shadow-AI monitoring for enterprise AI controls. [Microsoft (Copilot, Defender XDR, Sentinel, Purview)]",
+   "existence": "confirmed",
+   "value": "shadow-AI monitoring across 400+ applications",
+   "tier": "",
+   "url": "https://beazley.security/solutions/microsoft-security",
+   "raw_sector": "",
+   "date": "2026",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Beazley",
+   "use": "AI Security Consulting Services",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://beazley.security/solutions/ai-security",
+   "raw_sector": "",
+   "date": "Jul 13, 2026",
+   "fresh": "undated"
+  }
+ ]
+}

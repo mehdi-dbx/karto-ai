@@ -3,8 +3,8 @@
  "name": "Mindray",
  "cc": "CN",
  "vertical": "Healthcare & Life Sciences",
- "deployments": 1,
- "confirmed": 1,
+ "deployments": 4,
+ "confirmed": 2,
  "with_value_number": 0,
  "proof_rate": 0.0,
  "mktcap": null,
@@ -15,30 +15,58 @@
  "per_10k_emp": null,
  "benchmarks": {
   "global_vertical": {
-   "deployments": 0,
-   "confirmed": 13,
+   "deployments": 26,
+   "confirmed": 20,
    "proof_rate": 0,
-   "n": 165
+   "n": 168
   },
   "country_vertical": {
-   "deployments": 0,
-   "confirmed": 25,
+   "deployments": 56,
+   "confirmed": 33,
    "proof_rate": 0,
-   "n": 9
+   "n": 10
   }
  },
- "first_seen": null,
- "by_year": [],
- "undated_pct": 100,
- "momentum": "none",
+ "first_seen": 2025,
+ "by_year": [
+  {
+   "year": 2025,
+   "n": 1
+  }
+ ],
+ "undated_pct": 75,
+ "momentum": "rising",
  "maturity": "L3",
  "maturity_evidence": [
+  "multi_horizontal",
   "named_product:Qiyuan"
  ],
- "prospect_score": 54,
+ "prospect_score": 60,
  "stack": [],
  "vendor_named": false,
  "deployments_detail": [
+  {
+   "company": "Mindray",
+   "use": "Acoustic Intelligence Technology for ultrasound imaging in the Resona A20",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.mindray.com/en/media-center/news/mindray-at-ecr-2025-ultrasound-imaging-new-level",
+   "raw_sector": "",
+   "date": "2025-03-06",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Mindray",
+   "use": "Smart Nerve AI tool for identifying nerve anatomy in real time in TE X Ultrasound System",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.linkedin.com/posts/mindray-north-america_empowering-clinicians-with-confidence-the-activity-7372356617796886529-wSPp",
+   "raw_sector": "",
+   "date": "missing",
+   "fresh": "undated"
+  },
   {
    "company": "Mindray",
    "use": "\"启元/Qiyuan\" critical-care medical LLM (claimed first global critical-care vertical model); Qiyuan ultrasound model; AI blood-cell morphology recognition in IVD; AI in N-series monitors/R-series ultrasound",
@@ -47,6 +75,17 @@
    "tier": "I",
    "url": "https://www.mindray.com (Qiyuan launch, CSUM2025)",
    "raw_sector": "Health Care",
+   "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "Mindray",
+   "use": "ISO/IEC 42001 certification for AI management systems",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.mindray.com/en/solutions/responsible-ai",
+   "raw_sector": "",
    "date": "missing",
    "fresh": "undated"
   }

@@ -3,27 +3,27 @@
  "name": "Dow Inc.",
  "cc": "US",
  "vertical": "Chemicals & Materials",
- "deployments": 1,
- "confirmed": 1,
- "with_value_number": 0,
- "proof_rate": 0.0,
+ "deployments": 9,
+ "confirmed": 7,
+ "with_value_number": 2,
+ "proof_rate": 0.222,
  "mktcap": 22230000000.0,
  "revenue": 41320000000.0,
  "employees": 34600.0,
  "silent": false,
- "per_bn_revenue": 0.02,
- "per_10k_emp": 0.29,
+ "per_bn_revenue": 0.22,
+ "per_10k_emp": 2.6,
  "benchmarks": {
   "global_vertical": {
-   "deployments": 0,
-   "confirmed": 19,
-   "proof_rate": 0,
-   "n": 105
+   "deployments": 82,
+   "confirmed": 80,
+   "proof_rate": 57,
+   "n": 107
   },
   "country_vertical": {
-   "deployments": 0,
-   "confirmed": 32,
-   "proof_rate": 0,
+   "deployments": 96,
+   "confirmed": 92,
+   "proof_rate": 76,
    "n": 26
   }
  },
@@ -33,13 +33,51 @@
  "momentum": "none",
  "maturity": "L3",
  "maturity_evidence": [
+  "multi_horizontal",
   "named_product:Predictive Intelligence",
+  "value_number",
   "tier_p"
  ],
- "prospect_score": 54,
- "stack": [],
- "vendor_named": false,
+ "prospect_score": 73,
+ "stack": [
+  "Microsoft",
+  "Microsoft Azure"
+ ],
+ "vendor_named": true,
  "deployments_detail": [
+  {
+   "company": "Dow Inc.",
+   "use": "Microsoft 365 Copilot rolled out enterprise-wide for employee productivity (drafting, summarizing documents, data analysis, research). Expanded from a few hundred pilot users to roughly 20% of Dow's workforce; Dow is in Microsoft's Early Access and Compass Research programs and has used Copilot since April 2023. [Microsoft 365 Copilot]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.microsoft.com/en/customers/story/19829-dow-microsoft-365-copilot",
+   "raw_sector": "",
+   "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "Dow Inc.",
+   "use": "AI agents built in Microsoft Copilot Studio to automate freight/shipping invoice analysis: an autonomous agent monitors incoming email for PDF invoices and structures the data, and a natural-language 'Freight Agent' lets logistics staff investigate billing anomalies. Proof-of-concept analyzed 43,000 North American land shipments; surfaced surcharge anomalies (e.g., a $30,000 charge vs typical $5,000). [Microsoft Copilot Studio / M365 Copilot]",
+   "existence": "claimed",
+   "value": "Dow anticipates saving millions of dollars in shipping costs in the first year once fully scaled",
+   "tier": "",
+   "url": "https://www.microsoft.com/en-us/worklab/ai-impact-at-dow-copilot-identifies-millions-in-cost-savings",
+   "raw_sector": "",
+   "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "Dow Inc.",
+   "use": "Dow Digital Operations Center: part of a $400M digitalization investment, deploys drones and robots for safer, higher-quality asset inspection work, plus VR for engineering problem-solving and tracking of personnel and equipment, as part of Dow's Industry 4.0 manufacturing program. [none]",
+   "existence": "confirmed",
+   "value": "$400 million digitalization investment (2021)",
+   "tier": "",
+   "url": "https://www.arcweb.com/blog/dow-invests-accelerating-digital-transformation",
+   "raw_sector": "",
+   "date": "missing",
+   "fresh": "undated"
+  },
   {
    "company": "Dow Inc.",
    "use": "AI/ML \"Predictive Intelligence\" in Dow Polyurethanes for product development; AI+IoT ecosystem",
@@ -48,6 +86,61 @@
    "tier": "P",
    "url": "https://www.dow.com/en-us/product-technology/pt-polyurethanes/harnessing-the-power-of-digitalization.html",
    "raw_sector": "Materials",
+   "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "Dow Inc.",
+   "use": "SmartSearch for Dow: an AI-enabled molecule search/retrieval platform built with CAS (SciFinder-n technology) using NLP and neural networks to filter candidate molecules from 200M+ compounds by properties, availability and safety. Deployed across plastics, silicone, polyurethane and industrial-solutions businesses; won a 2023 CIO 100 award. [CAS (SciFinder-n)]",
+   "existence": "confirmed",
+   "value": "Molecule identification cut from weeks to minutes; pilot narrowed millions of candidates to 8-12 safer options",
+   "tier": "",
+   "url": "https://www.cio.com/article/475786/dow-turns-to-ai-to-accelerate-chemical-search.html",
+   "raw_sector": "",
+   "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "Dow Inc.",
+   "use": "Machine learning for custom polyurethane product formulation ('Predictive Intelligence'): the model sorts through millions of possible fitting/formulation combinations and suggests areas for experimentation in seconds rather than months, using Dow's historical materials data. [Microsoft Azure Machine Learning]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://emerj.com/artificial-intelligence-at-dow-chemical/",
+   "raw_sector": "",
+   "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "Dow Inc.",
+   "use": "Partnership with X (Alphabet's Moonshot Factory) to build an AI/ML sorting system and materials database for hard-to-recycle film and flexible plastics: a sensor-fusion system uses trained ML algorithms and spectrometers to identify the molecular composition of plastic packaging in real time (scanning thousands of pieces per minute), running as a pilot at a recycling plant. [Google / Alphabet X (Moonshot Factory)]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://x.company/blog/posts/circularity-dow/",
+   "raw_sector": "",
+   "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "Dow Inc.",
+   "use": "AI-enabled search and retrieval platform developed jointly with CAS to accelerate materials discovery, filtering scientific information across hundreds of millions of options; announced as the initial phase of a multi-phase collaboration. [CAS]",
+   "existence": "confirmed",
+   "value": "Material search reduced from a weeks-long process to a matter of hours",
+   "tier": "",
+   "url": "https://www.cas.org/press-releases/dow-collaboration",
+   "raw_sector": "",
+   "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "Dow Inc.",
+   "use": "Edge computer-vision AI analyzes live plant camera feeds 24/7 to detect potential chemical containment leaks and alert operators via voice, text, email and mobile app. Built on Azure Video Analyzer with Azure IoT Edge/Hub and Azure Machine Learning for model training/retraining; adaptable to PPE detection and entrance-gate monitoring. [Microsoft Azure Video Analyzer / Azure IoT Edge / Azure ML]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.microsoft.com/en/customers/story/1349423518578860629-dow-chemicals-azure-video-analyzer",
+   "raw_sector": "",
    "date": "missing",
    "fresh": "undated"
   }

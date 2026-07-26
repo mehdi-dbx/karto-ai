@@ -3,48 +3,71 @@
  "name": "Telkom Indonesia",
  "cc": "ID",
  "vertical": "Telecom",
- "deployments": 2,
- "confirmed": 2,
- "with_value_number": 0,
- "proof_rate": 0.0,
+ "deployments": 13,
+ "confirmed": 10,
+ "with_value_number": 4,
+ "proof_rate": 0.308,
  "mktcap": 16582278481.0,
  "revenue": 9287341772.0,
  "employees": 18539.0,
  "silent": false,
- "per_bn_revenue": 0.22,
- "per_10k_emp": 1.08,
+ "per_bn_revenue": 1.4,
+ "per_10k_emp": 7.01,
  "benchmarks": {
   "global_vertical": {
-   "deployments": 57,
-   "confirmed": 65,
-   "proof_rate": 0,
-   "n": 93
+   "deployments": 82,
+   "confirmed": 78,
+   "proof_rate": 46,
+   "n": 94
+  },
+  "country_vertical": {
+   "deployments": 100,
+   "confirmed": 100,
+   "proof_rate": 50,
+   "n": 5
   }
  },
- "first_seen": 2024,
+ "first_seen": 2020,
  "by_year": [
   {
-   "year": 2024,
+   "year": 2020,
    "n": 1
   },
   {
+   "year": 2023,
+   "n": 1
+  },
+  {
+   "year": 2024,
+   "n": 3
+  },
+  {
    "year": 2025,
+   "n": 7
+  },
+  {
+   "year": 2026,
    "n": 1
   }
  ],
  "undated_pct": 0,
- "momentum": "early_mover,flat",
+ "momentum": "early_mover,rising",
  "maturity": "L4",
  "maturity_evidence": [
   "multi_horizontal",
   "named_product:Veronika",
+  "value_number",
   "multi_year",
   "tier_p"
  ],
- "prospect_score": 52,
+ "prospect_score": 88,
  "stack": [
+  "Google",
+  "Google Cloud",
+  "IBM",
   "Microsoft",
   "Microsoft Azure",
+  "NVIDIA",
   "OpenAI"
  ],
  "vendor_named": true,
@@ -62,6 +85,28 @@
   },
   {
    "company": "Telkom Indonesia",
+   "use": "Veronika virtual assistant on MyTelkomsel — chat-based customer-service assistant that recommends packages, answers product questions, and handles routine queries using ChatGPT/NLP [Microsoft Azure OpenAI Service (GPT)]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://news.microsoft.com/id-id/2023/09/26/a-customer-service-virtual-assistant-veronika-on-mytelkomsel-is-now-integrated-with-microsoft-azure-openai-service/",
+   "raw_sector": "",
+   "date": "2023-09-26",
+   "fresh": "stale"
+  },
+  {
+   "company": "Telkom Indonesia",
+   "use": "Google Cloud Gemini-based AI/ML to improve search in the MyTelkomsel app and enhance customer experience [Google Cloud (Gemini, Vertex AI)]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://cloud.google.com/customers/telkomsel",
+   "raw_sector": "",
+   "date": "2024-01-01",
+   "fresh": "aging"
+  },
+  {
+   "company": "Telkom Indonesia",
    "use": "AI Center of Excellence and AIcosystem - integrated national AI ecosystem consolidating company-wide AI capabilities; Sovereign AI initiative targeting a local AI model by 2028",
    "existence": "confirmed",
    "value": "none",
@@ -69,6 +114,105 @@
    "url": "https://www.telkom.co.id/sites/berita/id_ID/news/telkom-luncurkan-ai-center-of-excellence-untuk-percepat-adopsi-ai-di-indonesia-3237",
    "raw_sector": "Telecom",
    "date": "2025",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Telkom Indonesia",
+   "use": "Network/service digital twins with AI and big-data analytics to predict network capacity needs and monetize data assets (Open Digital Architecture engine); TM Forum Catalyst award-winning, in production [Telkomsel (TM Forum Catalyst)]",
+   "existence": "confirmed",
+   "value": "40% reduction in time-to-market for new offerings; 27% growth in real-time 5G subscribers",
+   "tier": "",
+   "url": "https://www.telkomsel.com/en/about-us/news/telkomsel-wins-four-international-outstanding-catalyst-awards-2025-tm-forum",
+   "raw_sector": "",
+   "date": "2025-07-03",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Telkom Indonesia",
+   "use": "AI/ML self-adaptive feedback network solution that automatically tunes 4G/LTE parameters (speed, power control) for video/gaming traffic — tested at 90+ sites across Makassar and Kendari covering 300,000 subscribers [ZTE]",
+   "existence": "confirmed",
+   "value": "Video buffering -15%, download speed +11%, page load ~-30%, gaming latency up to -47%, energy consumption -8%",
+   "tier": "",
+   "url": "https://www.lightreading.com/ai-machine-learning/telkomsel-plans-to-optimize-4g-network-in-indonesia-with-zte-s-ai-solution",
+   "raw_sector": "",
+   "date": "2020-01-01",
+   "fresh": "stale"
+  },
+  {
+   "company": "Telkom Indonesia",
+   "use": "Hyper AI autonomous 5G network — AI-driven automated network management, predictive analytics and faster disruption response, expanded across Greater Jakarta (Jabodetabek) [Telkomsel (Hyper AI)]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.thefastmode.com/technology-solutions/38562-telkomsel-expands-hyper-ai-5g-network-in-jabodetabek",
+   "raw_sector": "",
+   "date": "2024-12-11",
+   "fresh": "aging"
+  },
+  {
+   "company": "Telkom Indonesia",
+   "use": "BigBox AI / Agentic AI by BigBox — Telkom's data & AI platform, evolved into an agentic AI platform for autonomous business-process automation, used within TelkomGroup for IT consolidation/cost optimization and offered to B2B customers [Telkom Indonesia (BigBox AI)]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.thefastmode.com/technology-solutions/48316-telkom-indonesia-intros-agentic-ai-by-bigbox-for-autonomous-business-process-automation",
+   "raw_sector": "",
+   "date": "2026-04-23",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Telkom Indonesia",
+   "use": "Sovereign enterprise AI/generative-AI platform built on IBM watsonx — data processed and stored in-country, targeting telco, healthcare, education and financial services for HR/legal/marketing roles [IBM (watsonx)]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.telkom.co.id/sites/news-resources/en_US/news/telkom-to-deliver-ai-powered-sovereign-platform-built-with-ibm-watsonx-to-drive-ai-adoption-for-indonesian-businesses-3049",
+   "raw_sector": "",
+   "date": "2025-06-10",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Telkom Indonesia",
+   "use": "Indonesia Sovereign AI factory / AI Center of Excellence — full-stack NVIDIA (Blackwell GPU) AI infrastructure offered as GPU-as-a-Service and to build local Indonesian AI models [NVIDIA (Blackwell GPUs), Telkom Group]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://blogs.nvidia.com/blog/indonesia-ai-center-of-excellence/",
+   "raw_sector": "",
+   "date": "2025-07-10",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Telkom Indonesia",
+   "use": "AI Marketing Brain — integrates customer, network and billing big data into AI models to make real-time, personalized marketing/offer decisions (TM Forum award-winning, shipped to production) [Telkomsel (with global technology partners)]",
+   "existence": "confirmed",
+   "value": "28% boost in new 5G customer conversions; 35% reduction in operational costs",
+   "tier": "",
+   "url": "https://www.telkomsel.com/en/about-us/news/all-eyes-indonesia-telkomsels-top-global-ai-and-automation-innovation-more-accurate",
+   "raw_sector": "",
+   "date": "2025-12-18",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Telkom Indonesia",
+   "use": "Mobileum Deep Network Analytics (DNA) platform — ML and geo-analytics models applied to Telkomsel network data to produce insight-as-a-service (market share, behavioral analytics, user profiling) for Indonesian enterprises [Mobileum (Deep Network Analytics)]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.mobileum.com/newsroom/press-releases/mobileum-and-telkomsel-partner-to-deliver-scalable-ai-powered-insights-for-indonesian-enterprises",
+   "raw_sector": "",
+   "date": "2025-09-10",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Telkom Indonesia",
+   "use": "Antares Eazy AI-powered IP cameras (AIoT) — computer vision for facial recognition, suspicious-behavior/emergency detection, attendance tracking, crowd-density and infrastructure-damage detection for schools, homes and businesses [Telkom Indonesia (Antares Eazy)]",
+   "existence": "confirmed",
+   "value": "30,000+ active users (per Telkom social channel)",
+   "tier": "",
+   "url": "https://www.telkom.co.id/sites/berita/id_ID/news/antares-eazy-permudah-pemantauan-pemeliharaan-gedung-sekolah-berbasis-ai-3093",
+   "raw_sector": "",
+   "date": "2025-07-03",
    "fresh": "fresh"
   }
  ]

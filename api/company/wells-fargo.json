@@ -3,28 +3,28 @@
  "name": "Wells Fargo",
  "cc": "US",
  "vertical": "Financial Services",
- "deployments": 9,
- "confirmed": 7,
- "with_value_number": 5,
- "proof_rate": 0.556,
+ "deployments": 12,
+ "confirmed": 10,
+ "with_value_number": 6,
+ "proof_rate": 0.5,
  "mktcap": 260940000000.0,
  "revenue": 83030000000.0,
  "employees": 205000.0,
  "silent": false,
- "per_bn_revenue": 0.11,
- "per_10k_emp": 0.44,
+ "per_bn_revenue": 0.14,
+ "per_10k_emp": 0.59,
  "benchmarks": {
   "global_vertical": {
-   "deployments": 92,
-   "confirmed": 92,
-   "proof_rate": 72,
-   "n": 377
+   "deployments": 81,
+   "confirmed": 78,
+   "proof_rate": 78,
+   "n": 388
   },
   "country_vertical": {
-   "deployments": 83,
-   "confirmed": 84,
-   "proof_rate": 75,
-   "n": 76
+   "deployments": 79,
+   "confirmed": 74,
+   "proof_rate": 84,
+   "n": 77
   }
  },
  "first_seen": 2021,
@@ -39,14 +39,14 @@
   },
   {
    "year": 2025,
-   "n": 3
+   "n": 5
   },
   {
    "year": 2026,
-   "n": 2
+   "n": 3
   }
  ],
- "undated_pct": 11,
+ "undated_pct": 8,
  "momentum": "early_mover,rising",
  "maturity": "L4",
  "maturity_evidence": [
@@ -55,12 +55,37 @@
   "value_number",
   "multi_year"
  ],
- "prospect_score": 60,
+ "prospect_score": 80,
  "stack": [
-  "Google"
+  "Google",
+  "Google Cloud",
+  "Microsoft",
+  "NVIDIA"
  ],
  "vendor_named": true,
  "deployments_detail": [
+  {
+   "company": "Wells Fargo",
+   "use": "AI in payments processing",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.americanbanker.com/payments/news/how-wells-fargo-deploys-ai-in-payments",
+   "raw_sector": "",
+   "date": "2026-05-05",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Wells Fargo",
+   "use": "Microsoft Teams AI app for 35,000 bankers across 4,000 branches plus AI virtual assistant for Treasury sales [Microsoft] [Microsoft]",
+   "existence": "confirmed",
+   "value": "75% of searches via app; response times cut from 10 minutes to 30 seconds",
+   "tier": "",
+   "url": "https://www.microsoft.com/en-us/microsoft-cloud/blog/2025/07/24/ai-powered-success-with-1000-stories-of-customer-transformation-and-innovation/",
+   "raw_sector": "",
+   "date": "2025-07-24",
+   "fresh": "fresh"
+  },
   {
    "company": "Wells Fargo",
    "use": "\"Fargo\" GenAI virtual assistant — 1B+ interactions in <3 years (Google Gemini Flash; no PII to LLM)",
@@ -70,6 +95,17 @@
    "url": "https://newsroom.wf.com/news-releases/news-details/2026/Wells-Fargo-Reaches-Major-Digital-Milestones/default.aspx",
    "raw_sector": "Financials",
    "date": "2026",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Wells Fargo",
+   "use": "AI agents for customer experience improvement and task automation [Google Agentspace]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://newsroom.wf.com/news-releases/news-details/2025/Wells-Fargo-announces-expansion-of-strategic-relationship-with-Google-Cloud/default.aspx",
+   "raw_sector": "",
+   "date": "2025-08-05",
    "fresh": "fresh"
   },
   {

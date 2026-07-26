@@ -3,51 +3,79 @@
  "name": "Credit Saison Co., Ltd.",
  "cc": "JP",
  "vertical": "Financial Services",
- "deployments": 1,
- "confirmed": 1,
- "with_value_number": 1,
- "proof_rate": 1.0,
+ "deployments": 5,
+ "confirmed": 5,
+ "with_value_number": 4,
+ "proof_rate": 0.8,
  "mktcap": 4512666667.0,
  "revenue": 3641800000.0,
  "employees": 3446.0,
  "silent": false,
- "per_bn_revenue": 0.27,
- "per_10k_emp": 2.9,
+ "per_bn_revenue": 1.37,
+ "per_10k_emp": 14.51,
  "benchmarks": {
   "global_vertical": {
-   "deployments": 0,
-   "confirmed": 17,
-   "proof_rate": 76,
-   "n": 377
+   "deployments": 31,
+   "confirmed": 46,
+   "proof_rate": 98,
+   "n": 388
   },
   "country_vertical": {
-   "deployments": 0,
-   "confirmed": 0,
-   "proof_rate": 71,
+   "deployments": 29,
+   "confirmed": 43,
+   "proof_rate": 100,
    "n": 15
   }
  },
- "first_seen": 2028,
+ "first_seen": 2025,
  "by_year": [
+  {
+   "year": 2025,
+   "n": 1
+  },
   {
    "year": 2028,
    "n": 1
   }
  ],
- "undated_pct": 0,
- "momentum": "late_entrant,rising",
- "maturity": "L3",
+ "undated_pct": 60,
+ "momentum": "rising",
+ "maturity": "L4",
  "maturity_evidence": [
+  "multi_horizontal",
   "named_product:CSAX",
   "value_number",
+  "multi_year",
   "tier_p"
  ],
- "prospect_score": 6,
+ "prospect_score": 38,
  "stack": [
   "OpenAI"
  ],
  "vendor_named": true,
  "deployments_detail": [
+  {
+   "company": "Credit Saison Co., Ltd.",
+   "use": "CSAX (Credit Saison AI Transformation) - enterprise-wide generative AI deployment and workflow redesign",
+   "existence": "confirmed",
+   "value": "954% ROI",
+   "tier": "",
+   "url": "https://corporate.saisoncard.co.jp/en/business/csdx/pdf/csax_briefing_materials_en-with_script.pdf",
+   "raw_sector": "",
+   "date": "2025-09-19",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Credit Saison Co., Ltd.",
+   "use": "AI-powered automation for credit and engineering workflows",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.linkedin.com/posts/creditsaison-india_techdrivennbsp-creditsaisonindia-creatingopportunities-activity-7413889556695154688-2gXK",
+   "raw_sector": "",
+   "date": "missing",
+   "fresh": "undated"
+  },
   {
    "company": "Credit Saison Co., Ltd.",
    "use": "\"CSAX\" (Credit Saison AI Transformation) + ChatGPT Enterprise company-wide (3,700 employees); AI call center (2028)",
@@ -58,6 +86,28 @@
    "raw_sector": "Other Financial Services",
    "date": "2028",
    "fresh": "fresh"
+  },
+  {
+   "company": "Credit Saison Co., Ltd.",
+   "use": "AI-powered customer profiling and data analytics with Treasure AI [Treasure AI]",
+   "existence": "confirmed",
+   "value": "27 million demographic profiles; 5 trillion card transactions",
+   "tier": "",
+   "url": "https://www.treasure.ai/customers/credit-saison/",
+   "raw_sector": "",
+   "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "Credit Saison Co., Ltd.",
+   "use": "Automated call handling system",
+   "existence": "confirmed",
+   "value": "200,000 automated calls per month",
+   "tier": "",
+   "url": "https://aws.amazon.com/solutions/case-studies/credit-saison/",
+   "raw_sector": "",
+   "date": "missing",
+   "fresh": "undated"
   }
  ]
 }

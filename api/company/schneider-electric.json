@@ -3,52 +3,77 @@
  "name": "Schneider Electric",
  "cc": "FR",
  "vertical": "Industrial / Machinery",
- "deployments": 2,
- "confirmed": 2,
- "with_value_number": 0,
- "proof_rate": 0.0,
+ "deployments": 12,
+ "confirmed": 12,
+ "with_value_number": 4,
+ "proof_rate": 0.333,
  "mktcap": 163242000000.0,
  "revenue": 43362000000.0,
  "employees": 159844.0,
  "silent": false,
- "per_bn_revenue": 0.05,
- "per_10k_emp": 0.13,
+ "per_bn_revenue": 0.28,
+ "per_10k_emp": 0.75,
  "benchmarks": {
   "global_vertical": {
-   "deployments": 82,
-   "confirmed": 82,
-   "proof_rate": 0,
-   "n": 175
+   "deployments": 87,
+   "confirmed": 97,
+   "proof_rate": 82,
+   "n": 176
   },
   "country_vertical": {
-   "deployments": 12,
-   "confirmed": 12,
-   "proof_rate": 0,
+   "deployments": 62,
+   "confirmed": 88,
+   "proof_rate": 75,
    "n": 9
   }
  },
- "first_seen": 2025,
+ "first_seen": 2023,
  "by_year": [
   {
-   "year": 2025,
+   "year": 2023,
    "n": 1
+  },
+  {
+   "year": 2024,
+   "n": 7
+  },
+  {
+   "year": 2025,
+   "n": 3
   }
  ],
- "undated_pct": 50,
- "momentum": "early_mover,rising",
- "maturity": "L3",
+ "undated_pct": 8,
+ "momentum": "early_mover,cooling",
+ "maturity": "L4",
  "maturity_evidence": [
   "multi_horizontal",
-  "named_product:Foresight Operation"
+  "named_product:Foresight Operation",
+  "value_number",
+  "multi_year"
  ],
- "prospect_score": 52,
+ "prospect_score": 87,
  "stack": [
+  "Amazon AWS",
+  "Anthropic",
   "Microsoft",
   "Microsoft Azure",
-  "Palantir"
+  "OpenAI",
+  "Palantir",
+  "Salesforce"
  ],
  "vendor_named": true,
  "deployments_detail": [
+  {
+   "company": "Schneider Electric",
+   "use": "Internal Knowledge Bot that helps customer service representatives locate the information needed to resolve customer inquiries. [Microsoft Azure OpenAI Service]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.microsoft.com/en/customers/story/1745242950134216820-schneider-electric-azure-machine-learning-discrete-manufacturing-en-france",
+   "raw_sector": "",
+   "date": "2024-03-11",
+   "fresh": "aging"
+  },
   {
    "company": "Schneider Electric",
    "use": "Industrial generative-AI copilot built with Microsoft Azure AI Foundry, integrated with its industrial automation (own/Microsoft disclosure, 2025)",
@@ -62,6 +87,28 @@
   },
   {
    "company": "Schneider Electric",
+   "use": "Automated Salesforce customer account hierarchy management — generative AI identifies correct parent-company relationships for new accounts, replacing manual research. [AWS (Amazon Aurora Serverless v2 + pgvector, Amazon Bedrock), Anthropic Claude 3 Sonnet]",
+   "existence": "confirmed",
+   "value": "60% reduction in account hierarchy management cost; research time cut 57% (7 to 3 min); 1.1M accounts in scope",
+   "tier": "",
+   "url": "https://aws.amazon.com/blogs/database/schneider-electric-automates-salesforce-account-hierarchy-management-with-generative-artificial-intelligence-ai-using-amazon-aurora-and-amazon-bedrock/",
+   "raw_sector": "",
+   "date": "2024-07-26",
+   "fresh": "aging"
+  },
+  {
+   "company": "Schneider Electric",
+   "use": "Finance Advisor generative AI tool that supports financial analysts in making better business decisions. [Microsoft Azure OpenAI Service]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.microsoft.com/en/customers/story/1745242950134216820-schneider-electric-azure-machine-learning-discrete-manufacturing-en-france",
+   "raw_sector": "",
+   "date": "2024-03-11",
+   "fresh": "aging"
+  },
+  {
+   "company": "Schneider Electric",
    "use": "AI-powered EcoStruxure (incl. \"Foresight Operation\") unifying energy, power and building systems; AI for smart buildings & data centers (own solutions page)",
    "existence": "confirmed",
    "value": "none",
@@ -70,6 +117,83 @@
    "raw_sector": "Industrials",
    "date": "missing",
    "fresh": "undated"
+  },
+  {
+   "company": "Schneider Electric",
+   "use": "EcoStruxure Resource Advisor Copilot — a conversational AI companion embedded in the energy & sustainability platform that lets business leaders query enterprise energy and sustainability data in natural language. [Microsoft Azure OpenAI Service]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.prnewswire.com/news-releases/building-sustainabilitys-digital-future-with-ecostruxure-resource-advisor-copilot-schneider-electrics-latest-ai-advancement-301913102.html",
+   "raw_sector": "",
+   "date": "2023-08-29",
+   "fresh": "stale"
+  },
+  {
+   "company": "Schneider Electric",
+   "use": "AI/ML predictive maintenance for the mile-long overhead conveyor (1,700 chain links) at the Lexington, Kentucky smart factory — optimal sensor placement plus digital-twin analysis to predict and prevent chain-break failures. [AVEVA (Schneider-owned) software; internal AI/ML]",
+   "existence": "confirmed",
+   "value": "Eliminated chain-break jams; saved hundreds of thousands of dollars in labor plus delivery-performance gains",
+   "tier": "",
+   "url": "https://www.supplychaindive.com/news/schneider-electric-ai-machine-learning-improve-delivery-performance-cut-costs-manifest-vegas-2024/706926/",
+   "raw_sector": "",
+   "date": "2024-02-09",
+   "fresh": "aging"
+  },
+  {
+   "company": "Schneider Electric",
+   "use": "Data center maintenance transformation using AI (Compass Datacenters partnership) to predict issues and optimize field service interventions across data center infrastructure. [Schneider Electric EcoStruxure]",
+   "existence": "confirmed",
+   "value": "20% reduction in OPEX; 40% reduction in on-site interventions",
+   "tier": "",
+   "url": "https://www.compassdatacenters.com/news/compass-and-schneider-electric-utilize-ai-to-transform-data-center-maintenance/",
+   "raw_sector": "",
+   "date": "2025-03-12",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Schneider Electric",
+   "use": "RFP analysis assistant that automatically processes microgrid infrastructure Requests for Proposals to identify high-potential business opportunities, letting subject-matter experts focus on the most relevant content. [AWS (Amazon Bedrock), Anthropic Claude Sonnet]",
+   "existence": "confirmed",
+   "value": "94% accuracy identifying microgrid opportunities",
+   "tier": "",
+   "url": "https://aws.amazon.com/blogs/machine-learning/how-schneider-electric-uses-amazon-bedrock-to-identify-high-potential-business-opportunities/",
+   "raw_sector": "",
+   "date": "2024-10-02",
+   "fresh": "aging"
+  },
+  {
+   "company": "Schneider Electric",
+   "use": "Microsoft Copilot for Sales integrated with Salesforce CRM to automate contact creation, CRM data entry, and email/meeting summaries for global sales teams within Teams/Outlook. [Microsoft (Copilot for Sales, Microsoft 365)]",
+   "existence": "confirmed",
+   "value": "Deployed to 5,000 users across 30+ countries, targeting 10,500 users by end of 2024",
+   "tier": "",
+   "url": "https://www.microsoft.com/en/customers/story/18860-schneider-electric-microsoft-365-copilot-for-sales",
+   "raw_sector": "",
+   "date": "2024-10-15",
+   "fresh": "aging"
+  },
+  {
+   "company": "Schneider Electric",
+   "use": "Industrial generative AI copilot in the EcoStruxure Automation Expert platform for engineers — automated PLC/control code generation and validation, library reuse, real-time diagnostics and recommendations. [Microsoft Azure AI Foundry]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.arcweb.com/blog/schneider-electric-launches-ai-copilot-industrial-automation-collaboration-microsoft",
+   "raw_sector": "",
+   "date": "2025-05-16",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Schneider Electric",
+   "use": "PLC code generation copilot that generates programmable logic controller code for manufacturing robots and IoT devices, providing intelligent code suggestions to reduce programming effort. [Microsoft Azure OpenAI Service (Microsoft Cloud for Manufacturing)]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.microsoft.com/en/customers/story/1745242950134216820-schneider-electric-azure-machine-learning-discrete-manufacturing-en-france",
+   "raw_sector": "",
+   "date": "2024-03-11",
+   "fresh": "aging"
   }
  ]
 }

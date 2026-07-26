@@ -3,27 +3,27 @@
  "name": "Sumitomo Corp.",
  "cc": "JP",
  "vertical": "Logistics & Supply Chain",
- "deployments": 1,
- "confirmed": 1,
- "with_value_number": 1,
- "proof_rate": 1.0,
+ "deployments": 3,
+ "confirmed": 3,
+ "with_value_number": 2,
+ "proof_rate": 0.667,
  "mktcap": 51600000000.0,
  "revenue": 48933333333.0,
  "employees": 74920.0,
  "silent": false,
- "per_bn_revenue": 0.02,
- "per_10k_emp": 0.13,
+ "per_bn_revenue": 0.06,
+ "per_10k_emp": 0.4,
  "benchmarks": {
   "global_vertical": {
-   "deployments": 0,
-   "confirmed": 14,
-   "proof_rate": 65,
-   "n": 66
+   "deployments": 20,
+   "confirmed": 41,
+   "proof_rate": 88,
+   "n": 67
   },
   "country_vertical": {
-   "deployments": 0,
-   "confirmed": 0,
-   "proof_rate": 64,
+   "deployments": 9,
+   "confirmed": 36,
+   "proof_rate": 100,
    "n": 23
   }
  },
@@ -33,16 +33,39 @@
  "momentum": "none",
  "maturity": "L3",
  "maturity_evidence": [
+  "multi_horizontal",
   "named_product:Copilot",
   "value_number",
   "tier_p"
  ],
- "prospect_score": 6,
+ "prospect_score": 31,
  "stack": [
   "Microsoft"
  ],
  "vendor_named": true,
  "deployments_detail": [
+  {
+   "company": "Sumitomo Corp.",
+   "use": "Company-wide generative AI adoption for business operations and DX acceleration",
+   "existence": "confirmed",
+   "value": "1.2 billion yen annually",
+   "tier": "",
+   "url": "https://www.sumitomocorp.com/en/jp/enrich/contents/0095",
+   "raw_sector": "",
+   "date": "Nov 4, 2025",
+   "fresh": "undated"
+  },
+  {
+   "company": "Sumitomo Corp.",
+   "use": "Microsoft 365 Copilot deployment to all 9,000 employees worldwide [Microsoft 365 Copilot]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.microsoft.com/en/customers/story/21914-sumitomo-corporation-microsoft-365-copilot",
+   "raw_sector": "",
+   "date": "Mar 19, 2025",
+   "fresh": "undated"
+  },
   {
    "company": "Sumitomo Corp.",
    "use": "M365 Copilot deployed globally to ~9,000 employees (claimed Japan-first global rollout); AI skill-grading of 5,000 employees",

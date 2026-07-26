@@ -3,22 +3,22 @@
  "name": "A.P. Møller-Mærsk",
  "cc": "DK",
  "vertical": "Logistics & Supply Chain",
- "deployments": 2,
- "confirmed": 1,
- "with_value_number": 0,
- "proof_rate": 0.0,
+ "deployments": 9,
+ "confirmed": 2,
+ "with_value_number": 2,
+ "proof_rate": 0.222,
  "mktcap": 34855072464.0,
  "revenue": 50388405797.0,
  "employees": 100000.0,
  "silent": false,
- "per_bn_revenue": 0.04,
- "per_10k_emp": 0.2,
+ "per_bn_revenue": 0.18,
+ "per_10k_emp": 0.9,
  "benchmarks": {
   "global_vertical": {
-   "deployments": 65,
-   "confirmed": 14,
-   "proof_rate": 0,
-   "n": 66
+   "deployments": 76,
+   "confirmed": 24,
+   "proof_rate": 47,
+   "n": 67
   }
  },
  "first_seen": 2024,
@@ -32,16 +32,19 @@
    "n": 1
   }
  ],
- "undated_pct": 0,
+ "undated_pct": 78,
  "momentum": "early_mover,flat",
  "maturity": "L3",
  "maturity_evidence": [
   "named_product:Generative",
+  "value_number",
   "tier_p"
  ],
- "prospect_score": 54,
- "stack": [],
- "vendor_named": false,
+ "prospect_score": 43,
+ "stack": [
+  "OpenAI"
+ ],
+ "vendor_named": true,
  "deployments_detail": [
   {
    "company": "A.P. Møller-Mærsk",
@@ -56,6 +59,61 @@
   },
   {
    "company": "A.P. Møller-Mærsk",
+   "use": "Vessel route optimization and fleet optimization",
+   "existence": "confirmed",
+   "value": "5%",
+   "tier": "",
+   "url": "https://ports.marinelink.com/ports/port/angoon/news/maersk-deploys-ai-powered-fleet-optimization-across-global-network",
+   "raw_sector": "",
+   "date": "Jan 29, 2026",
+   "fresh": "undated"
+  },
+  {
+   "company": "A.P. Møller-Mærsk",
+   "use": "AI-driven logistics platform for real-time visibility and predictive analytics",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://ports.marinelink.com/ports/port/belfast-city/news/maersk-deploys-ai-powered-logistics-platform-enhanced-supply-chain-visibility",
+   "raw_sector": "",
+   "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "A.P. Møller-Mærsk",
+   "use": "AI for planning, procurement, and decision-making optimization in logistics",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.maersk.com/insights/logistics-trend-map/artificial-intelligence-in-logistics",
+   "raw_sector": "",
+   "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "A.P. Møller-Mærsk",
+   "use": "AI and unified data systems for operational efficiency",
+   "existence": "claimed",
+   "value": "20%",
+   "tier": "",
+   "url": "https://www.puttingdatatowork.com/beyond-case-studies/ai-driven-global-strategy-for-maersk",
+   "raw_sector": "",
+   "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "A.P. Møller-Mærsk",
+   "use": "Generative AI for shipping routes, weather prediction, freight handling, and customs clearance",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://digitaldogme.dk/en/ug/case/ai-flytter-smaa-marginaler-og-store-containere-for-a-p-moeller-maersk/?partnerskab=ai&lang=en-US",
+   "raw_sector": "",
+   "date": "Dec 6, 2023",
+   "fresh": "undated"
+  },
+  {
+   "company": "A.P. Møller-Mærsk",
    "use": "AI to automate customs paperwork verification and tariff-code processing to reduce clearance delays",
    "existence": "claimed",
    "value": "none",
@@ -64,6 +122,28 @@
    "raw_sector": "Shipping",
    "date": "2025",
    "fresh": "fresh"
+  },
+  {
+   "company": "A.P. Møller-Mærsk",
+   "use": "AI for contract negotiation and supplier identification",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.facebook.com/Maersk/posts/we-brought-colleagues-together-to-see-how-ai-is-being-put-to-work-across-the-bus/1439156194914423/",
+   "raw_sector": "",
+   "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "A.P. Møller-Mærsk",
+   "use": "Generative AI for auto-generating FAQs and improving search query accuracy on Maersk.com [ChatGPT]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.linkedin.com/posts/maersk-group_how-chatgpt-is-a-game-changer-activity-7041687192934477824-UuP7",
+   "raw_sector": "",
+   "date": "missing",
+   "fresh": "undated"
   }
  ]
 }

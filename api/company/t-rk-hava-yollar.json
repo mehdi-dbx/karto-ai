@@ -3,34 +3,41 @@
  "name": "Türk Hava Yolları",
  "cc": "TR",
  "vertical": "Travel & Hospitality",
- "deployments": 2,
- "confirmed": 1,
- "with_value_number": 0,
- "proof_rate": 0.0,
+ "deployments": 6,
+ "confirmed": 5,
+ "with_value_number": 1,
+ "proof_rate": 0.167,
  "mktcap": 13842500000.0,
  "revenue": 35000000000.0,
  "employees": 66917.0,
  "silent": false,
- "per_bn_revenue": 0.06,
- "per_10k_emp": 0.3,
+ "per_bn_revenue": 0.17,
+ "per_10k_emp": 0.9,
  "benchmarks": {
   "global_vertical": {
-   "deployments": 71,
-   "confirmed": 29,
-   "proof_rate": 0,
-   "n": 39
+   "deployments": 72,
+   "confirmed": 75,
+   "proof_rate": 48,
+   "n": 41
   }
  },
- "first_seen": null,
- "by_year": [],
- "undated_pct": 100,
- "momentum": "none",
+ "first_seen": 2025,
+ "by_year": [
+  {
+   "year": 2025,
+   "n": 4
+  }
+ ],
+ "undated_pct": 33,
+ "momentum": "early_mover,rising",
  "maturity": "L3",
  "maturity_evidence": [
+  "multi_horizontal",
   "named_product:Personalized",
+  "value_number",
   "tier_p"
  ],
- "prospect_score": 46,
+ "prospect_score": 63,
  "stack": [
   "Google"
  ],
@@ -49,6 +56,28 @@
   },
   {
    "company": "Türk Hava Yolları",
+   "use": "AI model development and deployment platform for aviation operations including dynamic pricing, fraud prevention, customer service, infrastructure management, and operations optimization [Red Hat OpenShift AI]",
+   "existence": "confirmed",
+   "value": "$10M",
+   "tier": "",
+   "url": "https://www.redhat.com/en/resources/turkish-airlines-case-study",
+   "raw_sector": "",
+   "date": "2025-06-03",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Türk Hava Yolları",
+   "use": "60+ live AI models deployed across operations with 40+ additional models in development [Red Hat OpenShift AI]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.nasdaq.com/press-release/turkish-airlines-pioneers-ai-led-innovation-aviation-red-hat-openshift-ai-2025-05-21",
+   "raw_sector": "",
+   "date": "2025-05-21",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Türk Hava Yolları",
    "use": "Personalized advertising using Google Vertex AI (e.g. Black Friday campaigns)",
    "existence": "confirmed",
    "value": "none",
@@ -57,6 +86,28 @@
    "raw_sector": "Airlines",
    "date": "missing",
    "fresh": "undated"
+  },
+  {
+   "company": "Türk Hava Yolları",
+   "use": "Dynamic pricing optimization [Red Hat OpenShift AI]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.redhat.com/en/about/press-releases/turkish-airlines-pioneers-ai-led-innovation-aviation-red-hat-openshift-ai",
+   "raw_sector": "",
+   "date": "2025-05-20",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Türk Hava Yolları",
+   "use": "Fraud prevention systems [Red Hat OpenShift AI]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.redhat.com/en/about/press-releases/turkish-airlines-pioneers-ai-led-innovation-aviation-red-hat-openshift-ai",
+   "raw_sector": "",
+   "date": "2025-05-20",
+   "fresh": "fresh"
   }
  ]
 }

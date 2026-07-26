@@ -3,27 +3,27 @@
  "name": "McKesson Corporation",
  "cc": "US",
  "vertical": "Healthcare & Life Sciences",
- "deployments": 9,
- "confirmed": 9,
+ "deployments": 14,
+ "confirmed": 11,
  "with_value_number": 4,
- "proof_rate": 0.444,
+ "proof_rate": 0.286,
  "mktcap": 95690000000.0,
  "revenue": 403430000000.0,
  "employees": 43000.0,
  "silent": false,
- "per_bn_revenue": 0.02,
- "per_10k_emp": 2.09,
+ "per_bn_revenue": 0.03,
+ "per_10k_emp": 3.26,
  "benchmarks": {
   "global_vertical": {
-   "deployments": 91,
+   "deployments": 93,
    "confirmed": 95,
-   "proof_rate": 73,
-   "n": 165
+   "proof_rate": 63,
+   "n": 168
   },
   "country_vertical": {
-   "deployments": 81,
+   "deployments": 84,
    "confirmed": 88,
-   "proof_rate": 76,
+   "proof_rate": 66,
    "n": 59
   }
  },
@@ -35,7 +35,7 @@
   },
   {
    "year": 2024,
-   "n": 3
+   "n": 4
   },
   {
    "year": 2025,
@@ -46,7 +46,7 @@
    "n": 2
   }
  ],
- "undated_pct": 22,
+ "undated_pct": 43,
  "momentum": "early_mover,cooling",
  "maturity": "L4",
  "maturity_evidence": [
@@ -56,10 +56,38 @@
   "multi_year",
   "tier_p"
  ],
- "prospect_score": 84,
- "stack": [],
- "vendor_named": false,
+ "prospect_score": 89,
+ "stack": [
+  "Databricks",
+  "Microsoft",
+  "Microsoft Azure",
+  "OpenAI",
+  "Palantir"
+ ],
+ "vendor_named": true,
  "deployments_detail": [
+  {
+   "company": "McKesson Corporation",
+   "use": "Machine learning and AI for specialty practice decision support",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.mckesson.com/specialty/technology-solutions-specialty-practices/",
+   "raw_sector": "",
+   "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "McKesson Corporation",
+   "use": "Ontada unstructured oncology data processing with Azure OpenAI [Azure OpenAI Service]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.mckesson.com/about-us/newsroom/press-releases/2024/ontada-collaborates-with-microsoft-to-transform-unstructured-oncology-data-with-azure-openai-technology/",
+   "raw_sector": "",
+   "date": "2024-10-17",
+   "fresh": "aging"
+  },
   {
    "company": "McKesson Corporation",
    "use": "AI + automation across pharma distribution centers + oncology/prescription-tech services (FY26 Impact Report)",
@@ -68,6 +96,39 @@
    "tier": "P",
    "url": "https://www.mckesson.com/stories-insights/transforming-pharmaceutical-distribution-through-automation/",
    "raw_sector": "Health Care",
+   "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "McKesson Corporation",
+   "use": "Administrative task automation and provider efficiency",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.mckesson.com/stories-insights/reducing-administrative-burden-with-ai-tools/",
+   "raw_sector": "",
+   "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "McKesson Corporation",
+   "use": "Supply chain visibility, inventory optimization, and customer service enhancement via IntelogixTM platform",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.mckesson.com/stories-insights/supply-chain-advancements-are-meeting-the-moment-and-beyond/",
+   "raw_sector": "",
+   "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "McKesson Corporation",
+   "use": "Supply chain modernization with MongoDB, Azure OpenAI and cloud native architecture [Azure OpenAI, MongoDB]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.youtube.com/watch?v=Qg0JlPpV8YI",
+   "raw_sector": "",
    "date": "missing",
    "fresh": "undated"
   },

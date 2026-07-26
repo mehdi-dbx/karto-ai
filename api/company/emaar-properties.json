@@ -3,27 +3,27 @@
  "name": "Emaar Properties",
  "cc": "AE",
  "vertical": "Real Estate & Construction",
- "deployments": 1,
- "confirmed": 1,
- "with_value_number": 0,
- "proof_rate": 0.0,
+ "deployments": 4,
+ "confirmed": 4,
+ "with_value_number": 1,
+ "proof_rate": 0.25,
  "mktcap": 26782000000.0,
  "revenue": 14131000000.0,
  "employees": null,
  "silent": false,
- "per_bn_revenue": 0.07,
+ "per_bn_revenue": 0.28,
  "per_10k_emp": null,
  "benchmarks": {
   "global_vertical": {
-   "deployments": 0,
-   "confirmed": 31,
-   "proof_rate": 0,
+   "deployments": 50,
+   "confirmed": 64,
+   "proof_rate": 58,
    "n": 154
   },
   "country_vertical": {
-   "deployments": 0,
-   "confirmed": 50,
-   "proof_rate": 0,
+   "deployments": 50,
+   "confirmed": 75,
+   "proof_rate": 75,
    "n": 5
   }
  },
@@ -34,14 +34,16 @@
    "n": 1
   }
  ],
- "undated_pct": 0,
+ "undated_pct": 75,
  "momentum": "early_mover,gone_quiet",
  "maturity": "L3",
  "maturity_evidence": [
+  "multi_horizontal",
   "named_product:Microsoft",
+  "value_number",
   "tier_p"
  ],
- "prospect_score": 46,
+ "prospect_score": 54,
  "stack": [
   "Microsoft",
   "Microsoft Azure"
@@ -58,6 +60,39 @@
    "raw_sector": "Real Estate",
    "date": "2024",
    "fresh": "aging"
+  },
+  {
+   "company": "Emaar Properties",
+   "use": "Smart home integration and building management [Xiaomi]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.emaar.com/en/press-release-listing/emaar-smart-home",
+   "raw_sector": "",
+   "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "Emaar Properties",
+   "use": "AI-driven asset maintenance and building management [NETIX.AI]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.netix.ai/emaar-case-study",
+   "raw_sector": "",
+   "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "Emaar Properties",
+   "use": "Back-office document processing automation [Tungsten]",
+   "existence": "confirmed",
+   "value": "5000000",
+   "tier": "",
+   "url": "https://www.tungstenautomation.com/learn/case-studies/2023/emaar-transforms-back-office-operations-and-the-customer-journey",
+   "raw_sector": "",
+   "date": "missing",
+   "fresh": "undated"
   }
  ]
 }

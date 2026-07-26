@@ -3,36 +3,60 @@
  "name": "Rentokil Initial",
  "cc": "UK",
  "vertical": "Legal & Professional Services",
- "deployments": 1,
- "confirmed": 1,
- "with_value_number": 0,
- "proof_rate": 0.0,
+ "deployments": 9,
+ "confirmed": 7,
+ "with_value_number": 5,
+ "proof_rate": 0.556,
  "mktcap": 14224000000.0,
  "revenue": 6515100000.0,
  "employees": 63388.0,
  "silent": false,
- "per_bn_revenue": 0.15,
- "per_10k_emp": 0.16,
+ "per_bn_revenue": 1.38,
+ "per_10k_emp": 1.42,
  "benchmarks": {
   "global_vertical": {
-   "deployments": 0,
-   "confirmed": 9,
-   "proof_rate": 0,
+   "deployments": 73,
+   "confirmed": 73,
+   "proof_rate": 82,
    "n": 12
   }
  },
- "first_seen": null,
- "by_year": [],
- "undated_pct": 100,
- "momentum": "none",
- "maturity": "L3",
+ "first_seen": 2020,
+ "by_year": [
+  {
+   "year": 2020,
+   "n": 1
+  },
+  {
+   "year": 2022,
+   "n": 1
+  },
+  {
+   "year": 2023,
+   "n": 1
+  },
+  {
+   "year": 2026,
+   "n": 5
+  }
+ ],
+ "undated_pct": 11,
+ "momentum": "early_mover,rising",
+ "maturity": "L4",
  "maturity_evidence": [
+  "multi_horizontal",
   "named_product:Rhythm",
+  "value_number",
+  "multi_year",
   "tier_p"
  ],
- "prospect_score": 54,
- "stack": [],
- "vendor_named": false,
+ "prospect_score": 60,
+ "stack": [
+  "Google",
+  "Google Cloud",
+  "OpenAI"
+ ],
+ "vendor_named": true,
  "deployments_detail": [
   {
    "company": "Rentokil Initial",
@@ -44,6 +68,94 @@
    "raw_sector": "Support services",
    "date": "missing",
    "fresh": "undated"
+  },
+  {
+   "company": "Rentokil Initial",
+   "use": "PestConnect Optix uses AI/machine-vision to identify individual rodents (rats/mice) from images captured by in-field smart devices, enabling 24/7 remote rodent monitoring and automated activity alerts. Grew from the acquired Eitan Amichai (Israel) AI pest-identification technology and Rentokil's patented rodent-detection ML engine. [In-house (Eitan Amichai acquisition); machine learning image recognition]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.rentokil-initial.com/~/media/Files/R/Rentokil/documents/2025-prelims-transcript.pdf",
+   "raw_sector": "",
+   "date": "2026-03-05",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Rentokil Initial",
+   "use": "'On The Go' Technician Assistant: a generative-AI-powered tool that verbally briefs field technicians as they approach a customer site with site history, last infestation, open recommendations, billing status and on-site health-and-safety requirements. [In-house generative AI (Group AI Team)]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.rentokil-initial.com/~/media/Files/R/Rentokil/documents/2025-prelims-transcript.pdf",
+   "raw_sector": "",
+   "date": "2026-03-05",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Rentokil Initial",
+   "use": "Rhythm AI: in-house AI algorithm that automatically schedules work orders and routes for field technicians globally while preserving dedicated-technician service model; replaces outbound scheduling calls with automated SMS. [In-house (built with PA Consulting, Alibaba); route/schedule optimization]",
+   "existence": "confirmed",
+   "value": "Automates 95% of planning work in Asia; saves technicians ~30 minutes/day; rolled out to 16,000 staff across 81 countries",
+   "tier": "",
+   "url": "https://www.techmonitor.ai/tech-leaders/rentokil-rhythm-ai/",
+   "raw_sector": "",
+   "date": "2020-10-07",
+   "fresh": "stale"
+  },
+  {
+   "company": "Rentokil Initial",
+   "use": "Enterprise rollout of Google Gemini AI to all colleagues as a productivity/generative-AI assistant across the business. [Google Gemini]",
+   "existence": "confirmed",
+   "value": "Launched to 60,000-plus colleagues; over one million uses in the first six months",
+   "tier": "",
+   "url": "https://www.rentokil-initial.com/~/media/Files/R/Rentokil/documents/2025-prelims-transcript.pdf",
+   "raw_sector": "",
+   "date": "2026-03-05",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Rentokil Initial",
+   "use": "'Rat-GPT': in-house AI portal hosting a library of dedicated AI Agents built and deployed internally across the company. [In-house AI platform (Group AI Team)]",
+   "existence": "confirmed",
+   "value": "Over 100 dedicated AI Agents already in use or in development",
+   "tier": "",
+   "url": "https://www.rentokil-initial.com/~/media/Files/R/Rentokil/documents/2025-prelims-transcript.pdf",
+   "raw_sector": "",
+   "date": "2026-03-05",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Rentokil Initial",
+   "use": "Prospect Prioritisation Solution: agentic AI system using multiple AI agents to score inbound sales leads (internet, telephone, field, national account, contract) by conversion likelihood and value, then nudges salespeople to prioritise the best leads. [In-house agentic AI (Group AI Team)]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.rentokil-initial.com/~/media/Files/R/Rentokil/documents/2025-prelims-transcript.pdf",
+   "raw_sector": "",
+   "date": "2026-03-05",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Rentokil Initial",
+   "use": "'Bessie' AI chatbot handling out-of-hours pest control and hygiene queries, quotes and customer-service requests 24/7 with data-capture forms feeding the CRM ticketing system; replaced a costly live-agent out-of-hours system. [EBM (ebm.ai) AI chatbot platform]",
+   "existence": "confirmed",
+   "value": "Average 60% uplift in users completing data-capture forms",
+   "tier": "",
+   "url": "https://ebm.ai/rentokil-initial/",
+   "raw_sector": "",
+   "date": "2023-01-01",
+   "fresh": "stale"
+  },
+  {
+   "company": "Rentokil Initial",
+   "use": "Global digital contact-centre transformation on Genesys Cloud CX with AI chatbots, Intent Capture & Analysis (IC&A, built on Google Cloud Contact Center AI), ID&V and WhatsApp automation across contact-centre operations. [Sabio Group; Genesys Cloud CX; Google Cloud Contact Center AI]",
+   "existence": "confirmed",
+   "value": "~2 million calls handled annually; 18 countries / 500+ agents in scope; 10 markets live and ahead of KPI targets",
+   "tier": "",
+   "url": "https://sabiogroup.com/news/rentokil-initial-embarks-on-global-digital-cx-project-with-sabio-group/",
+   "raw_sector": "",
+   "date": "2022-11-15",
+   "fresh": "stale"
   }
  ]
 }

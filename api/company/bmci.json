@@ -3,10 +3,10 @@
  "name": "BMCI",
  "cc": "MA",
  "vertical": "Financial Services",
- "deployments": 1,
- "confirmed": 0,
- "with_value_number": 0,
- "proof_rate": 0.0,
+ "deployments": 10,
+ "confirmed": 8,
+ "with_value_number": 1,
+ "proof_rate": 0.1,
  "mktcap": 807000000.0,
  "revenue": null,
  "employees": null,
@@ -15,35 +15,65 @@
  "per_10k_emp": null,
  "benchmarks": {
   "global_vertical": {
-   "deployments": 0,
-   "confirmed": 0,
-   "proof_rate": 0,
-   "n": 377
+   "deployments": 65,
+   "confirmed": 67,
+   "proof_rate": 29,
+   "n": 388
   },
   "country_vertical": {
-   "deployments": 0,
-   "confirmed": 0,
-   "proof_rate": 0,
+   "deployments": 90,
+   "confirmed": 90,
+   "proof_rate": 70,
    "n": 11
   }
  },
- "first_seen": 2026,
+ "first_seen": 2020,
  "by_year": [
+  {
+   "year": 2020,
+   "n": 1
+  },
+  {
+   "year": 2022,
+   "n": 1
+  },
+  {
+   "year": 2023,
+   "n": 1
+  },
+  {
+   "year": 2024,
+   "n": 6
+  },
   {
    "year": 2026,
    "n": 1
   }
  ],
  "undated_pct": 0,
- "momentum": "late_entrant,rising",
- "maturity": "L1",
+ "momentum": "early_mover,cooling",
+ "maturity": "L4",
  "maturity_evidence": [
-  "rows_no_confirmed"
+  "multi_horizontal",
+  "named_product:QlickEER",
+  "value_number",
+  "multi_year"
  ],
- "prospect_score": 40,
+ "prospect_score": 84,
  "stack": [],
- "vendor_named": false,
+ "vendor_named": true,
  "deployments_detail": [
+  {
+   "company": "BMCI",
+   "use": "AI customer-service chatbot / virtual assistant for clients and prospects, deployed on Facebook Messenger and the bmci.ma website, handling product/service and banking queries with escalation to a live-chat human agent; supports French, Moroccan Darija and Modern Standard Arabic. [Built with BNP Paribas group LAB/IRB innovation; hosted via a France-based service provider]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.bmci.ma/actualite/la-bmci-lance-un-chatbot-dassistance-pour-ses-clients-et-prospects/",
+   "raw_sector": "",
+   "date": "2020-06-09",
+   "fresh": "stale"
+  },
   {
    "company": "BMCI",
    "use": "Partnership with Ecole Centrale Casablanca to upskill staff in AI/data-science and co-develop banking AI use cases; management states pragmatic AI integration strategy but no production system named",
@@ -54,6 +84,94 @@
    "raw_sector": "Financials / Banques",
    "date": "2026",
    "fresh": "fresh"
+  },
+  {
+   "company": "BMCI",
+   "use": "QlickEER: automated/rapid customer account opening engine built on OCR (optical character recognition), APIs and artificial intelligence, cutting request-processing times. Scope expanded in 2024 by the Acceleration Digitale tribe. [In-house (BMCI, BNP Paribas group) with OCR + AI stack]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.bmci.ma/wp-content/blogs.dir/sites/2/2025/09/DDR-BMCI.pdf",
+   "raw_sector": "",
+   "date": "2024",
+   "fresh": "aging"
+  },
+  {
+   "company": "BMCI",
+   "use": "Robotic Process Automation (RPA) program automating low-value manual tasks; concrete deployment includes an RPA robot automating processing of daily sickness-indemnity (IJM) payments in HR, as a continuous-improvement lever. [BMCI RPA program (BNP Paribas group)]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.bmci.ma/wp-content/blogs.dir/sites/2/2025/09/DDR-BMCI.pdf",
+   "raw_sector": "",
+   "date": "2023-2024",
+   "fresh": "stale"
+  },
+  {
+   "company": "BMCI",
+   "use": "BMCI ON app: 100% remote customer onboarding for residents, Moroccans abroad and resident foreigners, using CNIE (national ID) document scan plus facial recognition to validate identity, delivering the RIB instantly after a video interview. [BMCI (facial recognition / biometric verification)]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.bmci.ma/application-bmci-on/",
+   "raw_sector": "",
+   "date": "2024",
+   "fresh": "aging"
+  },
+  {
+   "company": "BMCI",
+   "use": "Development and coding of risk/decision models used by BMCI: rating (notation), credit granting (octroi), decision trees, plus non-risk models for collections/recovery, fraud and marketing, including backtesting and independent model validation, under an intragroup analytics-services agreement. [BNP Paribas (model development / analytics services)]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.bmci.ma/wp-content/blogs.dir/sites/2/2025/09/DDR-BMCI.pdf",
+   "raw_sector": "",
+   "date": "2024",
+   "fresh": "aging"
+  },
+  {
+   "company": "BMCI",
+   "use": "SUN: automated, centralized screening (criblage) of the client-relationship database against financial-sanctions/watch lists for AML, anti-corruption and counter-terrorist-financing, using a detection algorithm that regularly and automatically screens relationships and generates alerts, delivered as SaaS. [BNP Paribas (SUN tool, SaaS)]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.bmci.ma/wp-content/blogs.dir/sites/2/2025/09/DDR-BMCI.pdf",
+   "raw_sector": "",
+   "date": "2022 (conv. 04/10/2022, active)",
+   "fresh": "stale"
+  },
+  {
+   "company": "BMCI",
+   "use": "DiligenSE expert-system platform used to build rule-based Expert Systems for credit granting, collections/recovery and fraud (rule design, production simulation, generation and certification of expert systems), licensed, hosted and maintained for BMCI. [BNP Paribas Personal Finance (DiligenSE)]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.bmci.ma/wp-content/blogs.dir/sites/2/2025/09/DDR-BMCI.pdf",
+   "raw_sector": "",
+   "date": "2024",
+   "fresh": "aging"
+  },
+  {
+   "company": "BMCI",
+   "use": "Trade and communications surveillance (E-com/Voice) plus internal trading-fraud (Rogue Trading) monitoring for front-office operators, generating and clearing alerts across group tools, under the FRB/DMA Conduct remediation program. [BNP Arbitrage S.N.C. / BNP Paribas London Branch (group surveillance tools)]",
+   "existence": "confirmed",
+   "value": "~35,640 EUR/yr surveillance cost (18 employees x 1,980 EUR)",
+   "tier": "",
+   "url": "https://www.bmci.ma/wp-content/blogs.dir/sites/2/2025/09/DDR-BMCI.pdf",
+   "raw_sector": "",
+   "date": "2024-12-12",
+   "fresh": "aging"
+  },
+  {
+   "company": "BMCI",
+   "use": "Integration of AI into the IT/digital delivery roadmap, with first use cases in software development (coding) as part of building APIs and micro-service architecture around the core banking system. [BMCI IT (first coding use cases)]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.bmci.ma/wp-content/blogs.dir/sites/2/2025/09/DDR-BMCI.pdf",
+   "raw_sector": "",
+   "date": "2024",
+   "fresh": "aging"
   }
  ]
 }

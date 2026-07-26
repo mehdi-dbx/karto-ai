@@ -3,35 +3,42 @@
  "name": "IndiGo",
  "cc": "IN",
  "vertical": "Travel & Hospitality",
- "deployments": 1,
- "confirmed": 1,
+ "deployments": 3,
+ "confirmed": 3,
  "with_value_number": 1,
- "proof_rate": 1.0,
+ "proof_rate": 0.333,
  "mktcap": 23855421687.0,
  "revenue": 10236385542.0,
  "employees": 41049.0,
  "silent": false,
- "per_bn_revenue": 0.1,
- "per_10k_emp": 0.24,
+ "per_bn_revenue": 0.29,
+ "per_10k_emp": 0.73,
  "benchmarks": {
   "global_vertical": {
-   "deployments": 0,
-   "confirmed": 29,
-   "proof_rate": 76,
-   "n": 39
+   "deployments": 28,
+   "confirmed": 45,
+   "proof_rate": 78,
+   "n": 41
   }
  },
- "first_seen": null,
- "by_year": [],
- "undated_pct": 100,
- "momentum": "none",
+ "first_seen": 2025,
+ "by_year": [
+  {
+   "year": 2025,
+   "n": 1
+  }
+ ],
+ "undated_pct": 67,
+ "momentum": "early_mover,rising",
  "maturity": "L3",
  "maturity_evidence": [
+  "multi_horizontal",
   "named_product:Microsoft",
   "value_number"
  ],
- "prospect_score": 6,
+ "prospect_score": 45,
  "stack": [
+  "Google Cloud",
   "Microsoft",
   "OpenAI"
  ],
@@ -47,6 +54,28 @@
    "raw_sector": "Services",
    "date": "missing",
    "fresh": "undated"
+  },
+  {
+   "company": "IndiGo",
+   "use": "Flight booking via conversational AI on WhatsApp (6Eskai) [Google Cloud]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://cloud.google.com/customers/indigo",
+   "raw_sector": "",
+   "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "IndiGo",
+   "use": "Intelligent bundling and personalization of add-ons (seat selection, meals, baggage)",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.microsoft.com/en-in/aifirstmovers/fy26indigo",
+   "raw_sector": "",
+   "date": "2025",
+   "fresh": "fresh"
   }
  ]
 }

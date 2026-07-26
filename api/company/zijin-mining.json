@@ -3,42 +3,58 @@
  "name": "Zijin Mining",
  "cc": "CN",
  "vertical": "Chemicals & Materials",
- "deployments": 2,
- "confirmed": 2,
- "with_value_number": 1,
+ "deployments": 10,
+ "confirmed": 9,
+ "with_value_number": 5,
  "proof_rate": 0.5,
  "mktcap": 125941025641.0,
  "revenue": 53721794872.0,
  "employees": 66708.0,
  "silent": false,
- "per_bn_revenue": 0.04,
- "per_10k_emp": 0.3,
+ "per_bn_revenue": 0.19,
+ "per_10k_emp": 1.5,
  "benchmarks": {
   "global_vertical": {
-   "deployments": 75,
-   "confirmed": 75,
-   "proof_rate": 67,
-   "n": 105
+   "deployments": 86,
+   "confirmed": 90,
+   "proof_rate": 83,
+   "n": 107
   },
   "country_vertical": {
-   "deployments": 75,
-   "confirmed": 75,
+   "deployments": 25,
+   "confirmed": 50,
    "proof_rate": 50,
    "n": 5
   }
  },
- "first_seen": null,
- "by_year": [],
- "undated_pct": 100,
- "momentum": "none",
- "maturity": "L3",
- "maturity_evidence": [
-  "named_product:Zijin",
-  "value_number"
+ "first_seen": 2022,
+ "by_year": [
+  {
+   "year": 2022,
+   "n": 1
+  },
+  {
+   "year": 2024,
+   "n": 3
+  },
+  {
+   "year": 2026,
+   "n": 2
+  }
  ],
- "prospect_score": 32,
+ "undated_pct": 40,
+ "momentum": "early_mover,cooling",
+ "maturity": "L4",
+ "maturity_evidence": [
+  "multi_horizontal",
+  "named_product:Zijin",
+  "value_number",
+  "multi_year"
+ ],
+ "prospect_score": 74,
  "stack": [
-  "DeepSeek"
+  "DeepSeek",
+  "SAP"
  ],
  "vendor_named": true,
  "deployments_detail": [
@@ -66,6 +82,83 @@
   },
   {
    "company": "Zijin Mining",
+   "use": "Underground intelligent autonomous loading/hauling system at Zijinshan Gold-Copper Mine: driverless remote-controlled LHD scoops, autonomous ore trucks, remote crushing, all operated from a surface control center that monitors and coordinates the full underground workflow. [none]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.zjky.cn/sustainable/esg-message-detail-119733.htm",
+   "raw_sector": "",
+   "date": "2022",
+   "fresh": "stale"
+  },
+  {
+   "company": "Zijin Mining",
+   "use": "5G + autonomous-driving mine haul truck system at Julong Copper (Tibet), a national Smart Mine Construction pilot: NTE trucks running in coordinated autonomous clusters in high-altitude, cold, low-oxygen conditions to reduce worker exposure. [none]",
+   "existence": "confirmed",
+   "value": "pilot with 3-6 trucks, target of no fewer than 150 autonomous trucks at full rollout",
+   "tier": "",
+   "url": "https://www.zjky.cn/sustainable/esg-message-detail-119734.htm",
+   "raw_sector": "",
+   "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "Zijin Mining",
+   "use": "AI-powered electric haul-truck fleet and automated battery-swap operation at the Wulagen zinc mine (Xinjiang): 290+ battery trucks handle 80%+ of transport; AI automates 180+ four-minute battery swaps/day, and an AI monitoring system tracks battery levels and driving safety in real time across -40C to 40C. [Fujian Longking (Zijin Longking)]",
+   "existence": "confirmed",
+   "value": "290+ trucks; 80%+ of transport; 75% cut in speeding violations",
+   "tier": "",
+   "url": "https://im-mining.com/2026/06/19/zijin-mining-highlights-290-strong-battery-truck-fleet-at-xinjiang-zinc-mine/",
+   "raw_sector": "",
+   "date": "2026-06-19",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Zijin Mining",
+   "use": "AR real-scene map and centralized control center at Zijinshan Copper-Gold Mine: Hikvision AIoT builds an augmented-reality operational map consolidating live production feeds, vehicle entry/exit, safe-work management, and tailings-dam sensor data into one safety dashboard. [Hikvision]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.ofweek.com/ai/2024-06/ART-201700-8110-30637999.html",
+   "raw_sector": "",
+   "date": "2024-06-18",
+   "fresh": "aging"
+  },
+  {
+   "company": "Zijin Mining",
+   "use": "Group-wide smart-mine (intelligentization) program applying AI and edge computing: intelligent ventilation using microwave radar/sensors for automated airflow control, autonomous roof-bolting robots, unmanned drilling and material handling, and a unified big-data platform linking exploration, mining, processing, smelting and environmental management. [Zijin Zhixin / Zhikong (in-house)]",
+   "existence": "confirmed",
+   "value": "18 billion yuan 5-year investment; personnel reductions 12-87%; productivity from 5,000 to 7,100 tons/worker",
+   "tier": "",
+   "url": "https://www.chinamine-safety.gov.cn/xw/zt/2018zt/mkjqryfyy/spzb/202409/t20240923_502111.shtml",
+   "raw_sector": "",
+   "date": "2024-09-23",
+   "fresh": "aging"
+  },
+  {
+   "company": "Zijin Mining",
+   "use": "AI agent for global junior-exploration-company tracking and mining-investment screening at Sino-Zijin (China-Nonferrous Zijin): automates information acquisition, intelligent processing, consolidation and analysis to support Southeast-European strategic-mineral investment decisions, built on a localized open-source LLM with Dify and OpenClaw. [Dify, OpenClaw, open-source LLM (self-hosted)]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.zijinresources.com/sys-nd/148.html",
+   "raw_sector": "",
+   "date": "2026-06-19",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Zijin Mining",
+   "use": "RPA + AI digital workforce at the Financial Shared Services Center (serving 130+ group companies): 19 software robots automate invoice/tax verification, overdue-document follow-up emails, and exchange-rate extraction from central-bank announcements across 4 countries with AI text comprehension, writing rates into SAP. [Laiye]",
+   "existence": "confirmed",
+   "value": "514% ROI; ~14,000 hours/year projected savings; 700+ hours/month from phase one",
+   "tier": "",
+   "url": "https://laiye.com/en/success-stories/zijin-mining",
+   "raw_sector": "",
+   "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "Zijin Mining",
    "use": "Smart mine platform with autonomous drilling/loading/transport, computer-vision safety monitoring and predictive equipment maintenance using 5G and AI",
    "existence": "confirmed",
    "value": "RMB140M investment in 28 autonomous vehicles/equipment",
@@ -84,6 +177,127 @@
    "url": "https://www.sohu.com/a/916194175_122362510",
    "raw_sector": "Mining",
    "date": "2025",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Zijin Mining",
+   "use": "Video AI detection across the production chain at Zijin Copper: train/wagon number recognition for cargo transport, electrolytic tank temperature warning, equipment inspection, and crane-operation safety monitoring; plus industrial acoustic diagnostics and AR real-scene mapping at the Zijinshan control center, and unmanned weighbridge at high-altitude Julong [Hikvision (海康威视)]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://finance.sina.com.cn/stock/bxjj/2024-06-13/doc-inayqwpx6504501.shtml",
+   "raw_sector": "",
+   "date": "2024-06",
+   "fresh": "aging"
+  },
+  {
+   "company": "Zijin Mining",
+   "use": "Underground autonomous mining system at Zijinshan Gold-Copper Mine: driverless remote-controlled load-haul-dump scoops, self-driving ore trucks, remote-controlled crushing, all coordinated from a surface centralized control center [Zijin (in-house)]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.zjky.cn/sustainable/esg-message-detail-119733.htm",
+   "raw_sector": "",
+   "date": "2022",
+   "fresh": "stale"
+  },
+  {
+   "company": "Zijin Mining",
+   "use": "Mining exploration & investment AI agent (中色紫金): a localized AI compute environment running open-source LLMs integrated with Dify and OpenClaw, providing an information-acquisition → intelligent-processing → data-accumulation → precise-analysis workflow to screen and track global junior exploration companies for investment in Southeast Europe [Open-source LLM + Dify + OpenClaw]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.zijinresources.com/sys-nd/148.html",
+   "raw_sector": "",
+   "date": "2026-06",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Zijin Mining",
+   "use": "5G + autonomous haulage at Julong Copper (high-altitude, 4,000-5,400m): five 100-tonne wide-body autonomous dump trucks operating alongside seven 200-tonne manned trucks on shared haul roads under live production, managed by EACON's ORCASTRA CONDUCTOR mixed-fleet management system; Phase 2 retrofitting 240-tonne trucks and planned 60 battery-electric autonomous trucks [EACON (踏歌智行)]",
+   "existence": "confirmed",
+   "value": "zero safety incidents to date; target no fewer than 150 autonomous trucks at full rollout",
+   "tier": "",
+   "url": "https://im-mining.com/2025/08/05/eacon-drives-autonomy-at-julong-high-altitude-copper-mine/",
+   "raw_sector": "",
+   "date": "2025-08",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Zijin Mining",
+   "use": "Autonomous haulage at Norton Gold Fields (Zijin subsidiary, Australia): six 140-tonne haul trucks retrofitted for driverless operation at the Havana pit, launched with self-driving provider EACON and mining contractor Thiess; second gold miner in Australia to deploy an autonomous fleet [EACON + Thiess]",
+   "existence": "confirmed",
+   "value": "expected to match a fully-staffed conventional fleet's productivity by Q3 2026; conception to operation in ~5 months",
+   "tier": "",
+   "url": "https://www.zijinmining.com/news/news-detail-122757.htm",
+   "raw_sector": "",
+   "date": "2026-05-18",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Zijin Mining",
+   "use": "Video AI safety/quality detection across Zijin Copper production: train-wagon number recognition for inbound goods, electrolytic-cell temperature detection and early warning, automated equipment inspection, and overhead-crane operating-safety monitoring, with real-time analysis and risk alerts. [Hikvision]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.ofweek.com/ai/2024-06/ART-201700-8110-30637999.html",
+   "raw_sector": "",
+   "date": "2024-06-18",
+   "fresh": "aging"
+  },
+  {
+   "company": "Zijin Mining",
+   "use": "RPA + AI software robots (19 digital workers) automating the Financial Shared Services Center: follow-up email management, invoice verification against the National Tax Service site, and AI text/table comprehension to extract central-bank exchange rates and post them into SAP [Laiye (来也科技)]",
+   "existence": "confirmed",
+   "value": "514% ROI; ~14,000 hours saved per year; 700+ hours/month saved across 9 phase-one processes",
+   "tier": "",
+   "url": "https://laiye.com/en/success-stories/zijin-mining",
+   "raw_sector": "",
+   "date": "2023",
+   "fresh": "stale"
+  },
+  {
+   "company": "Zijin Mining",
+   "use": "Procurement anomaly-detection AI agent: when an item's purchase price deviates >15% from its historical average, the system auto-extracts 8 influencing factors and generates diagnostic recommendations for procurement/audit staff (fraud/fairness control). Built by fusing SAP AI capabilities with Zijin business scenarios [SAP]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.cbinews.com/software/ebmlu1",
+   "raw_sector": "",
+   "date": "2026-03",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Zijin Mining",
+   "use": "HR: large language models generating personnel performance-evaluation reports (early-stage AI exploration on the SAP data foundation) [SAP]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.cbinews.com/software/ebmlu1",
+   "raw_sector": "",
+   "date": "2026-03",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Zijin Mining",
+   "use": "'Zijin AI' assistant integrated with the DeepSeek large model, embedded into engineering/construction management (Zijin Construction Group) for production management, engineering planning/optimization, material resource planning and business decision support, alongside BIM 3D visualization for construction-plan review [DeepSeek]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.zjkyjsjt.com/product/Intelligent-Information-technology.htm",
+   "raw_sector": "",
+   "date": "2025",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Zijin Mining",
+   "use": "Safety operations: automated AI summarization of safety-production meeting minutes (early-stage exploration) [SAP]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.cbinews.com/software/ebmlu1",
+   "raw_sector": "",
+   "date": "2026-03",
    "fresh": "fresh"
   }
  ]

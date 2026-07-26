@@ -3,43 +3,82 @@
  "name": "Autodesk",
  "cc": "US",
  "vertical": "Technology",
- "deployments": 1,
- "confirmed": 1,
- "with_value_number": 0,
- "proof_rate": 0.0,
+ "deployments": 15,
+ "confirmed": 13,
+ "with_value_number": 1,
+ "proof_rate": 0.067,
  "mktcap": 42960000000.0,
  "revenue": 7510000000.0,
  "employees": 14300.0,
  "silent": false,
- "per_bn_revenue": 0.13,
- "per_10k_emp": 0.7,
+ "per_bn_revenue": 2.0,
+ "per_10k_emp": 10.49,
  "benchmarks": {
   "global_vertical": {
-   "deployments": 0,
-   "confirmed": 6,
-   "proof_rate": 0,
-   "n": 156
+   "deployments": 92,
+   "confirmed": 94,
+   "proof_rate": 35,
+   "n": 159
   },
   "country_vertical": {
-   "deployments": 0,
-   "confirmed": 4,
-   "proof_rate": 0,
+   "deployments": 92,
+   "confirmed": 96,
+   "proof_rate": 40,
    "n": 74
   }
  },
- "first_seen": null,
- "by_year": [],
- "undated_pct": 100,
- "momentum": "none",
- "maturity": "L3",
+ "first_seen": 2019,
+ "by_year": [
+  {
+   "year": 2019,
+   "n": 1
+  },
+  {
+   "year": 2023,
+   "n": 3
+  },
+  {
+   "year": 2024,
+   "n": 5
+  },
+  {
+   "year": 2025,
+   "n": 3
+  },
+  {
+   "year": 2026,
+   "n": 1
+  }
+ ],
+ "undated_pct": 13,
+ "momentum": "early_mover,cooling",
+ "maturity": "L4",
  "maturity_evidence": [
+  "multi_horizontal",
   "named_product:Autodesk AI",
+  "value_number",
+  "multi_year",
   "tier_p"
  ],
- "prospect_score": 54,
- "stack": [],
- "vendor_named": false,
+ "prospect_score": 97,
+ "stack": [
+  "Databricks",
+  "Microsoft",
+  "Snowflake"
+ ],
+ "vendor_named": true,
  "deployments_detail": [
+  {
+   "company": "Autodesk",
+   "use": "AI-powered customer support: the Autodesk Assistant provides 24/7 AI-guided self-service, AI search summaries, tailored solutions and case creation, escalating to a human agent when needed [Autodesk (in-house)]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.autodesk.com/support/technical/article/caas/sfdcarticles/sfdcarticles/Contacting-a-technical-support-provider.html",
+   "raw_sector": "",
+   "date": "2026-03-25",
+   "fresh": "fresh"
+  },
   {
    "company": "Autodesk",
    "use": "\"Autodesk AI\" + generative design in Fusion 360/Forma — AI-driven design exploration across AEC/manufacturing/media",
@@ -50,6 +89,149 @@
    "raw_sector": "Information Technology",
    "date": "missing",
    "fresh": "undated"
+  },
+  {
+   "company": "Autodesk",
+   "use": "Autodesk Assistant, an agentic AI copilot embedded in AutoCAD, Fusion and Autodesk Construction Cloud that automates repetitive design tasks, provides in-context guidance and interprets drawing intent [Autodesk AI (in-house), backed by enterprise Model Context Protocol (MCP) servers]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://adsknews.autodesk.com/en/news/the-3-biggest-autodesk-ai-takeaways-from-au-2025/",
+   "raw_sector": "",
+   "date": "2025-09-16",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Autodesk",
+   "use": "Construction IQ: machine-learning risk engine in Autodesk Construction Cloud that predicts and prioritizes design, RFI, quality and safety risks on construction projects [Autodesk (in-house ML)]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://construction.autodesk.com/tools/construction-iq/",
+   "raw_sector": "",
+   "date": "2019-02-26",
+   "fresh": "stale"
+  },
+  {
+   "company": "Autodesk",
+   "use": "Autodesk Forma rapid analysis: ML models give architects instant wind, noise and operational-energy predictions during early-stage site/building design (vs. slow physics simulation) [Autodesk (in-house ML)]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://blogs.autodesk.com/forma/2023/07/03/game-changing-rapid-noise-analysis-comes-to-forma-2/",
+   "raw_sector": "",
+   "date": "2023-07-03",
+   "fresh": "stale"
+  },
+  {
+   "company": "Autodesk",
+   "use": "Neural CAD for Buildings, a 3D generative-AI foundation model integrated into Forma to let architects rapidly generate and iterate building designs (first AEC foundation model, available in Forma) [Autodesk Research (in-house neural CAD foundation models)]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://adsknews.autodesk.com/en/news/upcoming-3d-generative-ai-foundation-models/",
+   "raw_sector": "",
+   "date": "2025-09-16",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Autodesk",
+   "use": "Autodesk Fusion generative design and AI-automated drawings/CAM: generates performance-optimized parts and auto-creates 2D documentation and machining toolpaths from 3D models [Autodesk (in-house)]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.autodesk.com/products/fusion-360/blog/drawing-automation-autodesk-fusion/",
+   "raw_sector": "",
+   "date": "2024-01-30",
+   "fresh": "aging"
+  },
+  {
+   "company": "Autodesk",
+   "use": "Flow Generative Scheduling: AI tool for VFX/animation studios that auto-generates and optimizes production schedules across shifting deadlines, budgets and staffing [Autodesk AI (in-house), via Flow Production Tracking (formerly ShotGrid)]",
+   "existence": "confirmed",
+   "value": "produces schedules in minutes for a process that traditionally took days",
+   "tier": "",
+   "url": "https://adsknews.autodesk.com/en/news/siggraph-2024/",
+   "raw_sector": "",
+   "date": "2024-07-30",
+   "fresh": "aging"
+  },
+  {
+   "company": "Autodesk",
+   "use": "Maya ML Deformer: machine-learned approximation of complex character deformation rigs, letting animators work interactively with heavy characters [Autodesk (in-house ML)]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://adsknews.autodesk.com/en/news/siggraph-2024/",
+   "raw_sector": "",
+   "date": "2024-07-30",
+   "fresh": "aging"
+  },
+  {
+   "company": "Autodesk",
+   "use": "Flame ML Timewarp: machine-learning generation of intermediate frames for clip retiming inside the Flame finishing/VFX workstation [Autodesk (in-house ML)]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://adsknews.autodesk.com/en/news/siggraph-2024/",
+   "raw_sector": "",
+   "date": "2024-07-30",
+   "fresh": "aging"
+  },
+  {
+   "company": "Autodesk",
+   "use": "AutoCAD Markup Import / Markup Assist: AI reads handwritten and digital markups and suggests context-aware edits to incorporate changes into drawings [Autodesk AI (in-house)]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://adsknews.autodesk.com/en/pressrelease/introducing-autodesk-ai/",
+   "raw_sector": "",
+   "date": "2023-11-13",
+   "fresh": "stale"
+  },
+  {
+   "company": "Autodesk",
+   "use": "Wonder Dynamics (acquired by Autodesk): AI plug-in that automatically animates, lights and composites 3D characters into live-action scenes [Wonder Dynamics / Autodesk]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://adsknews.autodesk.com/en/news/siggraph-2024/",
+   "raw_sector": "",
+   "date": "2024-07-30",
+   "fresh": "aging"
+  },
+  {
+   "company": "Autodesk",
+   "use": "Named as a Databricks customer/case study [Databricks] [Databricks]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.27global.com/services/enterprise-ai-agents-on-databricks/",
+   "raw_sector": "",
+   "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "Autodesk",
+   "use": "Snowflake-based Customer 360 / data mesh powering Autodesk's internal BI and analytics for 60 domain teams (backbone for downstream ML/AI on customer data) [Snowflake (with Atlan for governance)]",
+   "existence": "confirmed",
+   "value": "60 domain teams activating the data mesh",
+   "tier": "",
+   "url": "https://humansofdata.atlan.com/2023/08/autodesk-data-mesh-snowflake-atlan/",
+   "raw_sector": "",
+   "date": "2023-08-14",
+   "fresh": "stale"
+  },
+  {
+   "company": "Autodesk",
+   "use": "AI-powered sales & CX transformation: analyzing sales calls, generating follow-up emails and improving CRM data for sales teams (internal go-to-market use) [not disclosed]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.youtube.com/watch?v=Fpr6MmQPaJk",
+   "raw_sector": "",
+   "date": "2025",
+   "fresh": "fresh"
   }
  ]
 }

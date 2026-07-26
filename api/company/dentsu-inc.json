@@ -3,48 +3,57 @@
  "name": "Dentsu Inc.",
  "cc": "JP",
  "vertical": "Media / Entertainment / Gaming",
- "deployments": 1,
- "confirmed": 1,
- "with_value_number": 1,
- "proof_rate": 1.0,
+ "deployments": 8,
+ "confirmed": 6,
+ "with_value_number": 3,
+ "proof_rate": 0.375,
  "mktcap": 5818200000.0,
  "revenue": 9666666667.0,
  "employees": 67454.0,
  "silent": false,
- "per_bn_revenue": 0.1,
- "per_10k_emp": 0.15,
+ "per_bn_revenue": 0.83,
+ "per_10k_emp": 1.19,
  "benchmarks": {
   "global_vertical": {
-   "deployments": 0,
-   "confirmed": 18,
-   "proof_rate": 62,
+   "deployments": 71,
+   "confirmed": 62,
+   "proof_rate": 85,
    "n": 35
   },
   "country_vertical": {
-   "deployments": 0,
-   "confirmed": 0,
-   "proof_rate": 0,
+   "deployments": 75,
+   "confirmed": 25,
+   "proof_rate": 100,
    "n": 5
   }
  },
- "first_seen": 2025,
+ "first_seen": 2024,
  "by_year": [
   {
+   "year": 2024,
+   "n": 2
+  },
+  {
    "year": 2025,
-   "n": 1
+   "n": 4
   }
  ],
- "undated_pct": 0,
+ "undated_pct": 25,
  "momentum": "early_mover,rising",
- "maturity": "L3",
+ "maturity": "L4",
  "maturity_evidence": [
+  "multi_horizontal",
   "named_product:AI For Growth 3.0",
   "value_number",
+  "multi_year",
   "tier_p"
  ],
- "prospect_score": 14,
- "stack": [],
- "vendor_named": false,
+ "prospect_score": 61,
+ "stack": [
+  "Microsoft",
+  "Snowflake"
+ ],
+ "vendor_named": true,
  "deployments_detail": [
   {
    "company": "Dentsu Inc.",
@@ -56,6 +65,83 @@
    "raw_sector": "Services",
    "date": "2025-07",
    "fresh": "fresh"
+  },
+  {
+   "company": "Dentsu Inc.",
+   "use": "Generative AI solution combining AI and Business Transformation services",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.group.dentsu.com/en/news/release/001492.html",
+   "raw_sector": "",
+   "date": "2025-06-25",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Dentsu Inc.",
+   "use": "Generative AI for creative workflow acceleration in advertising platform [Microsoft Advertising]",
+   "existence": "confirmed",
+   "value": "6X",
+   "tier": "",
+   "url": "https://about.ads.microsoft.com/en/resources/discover/case-studies/how-dentsu-is-accelerating-creative-workflows-by-6x-with-generative-ai-in-microsoft-advertising-platform",
+   "raw_sector": "",
+   "date": "2025-07-14",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Dentsu Inc.",
+   "use": "Amazon Nova Reel implementation in ∞AI Ads platform [Amazon Nova]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.dentsudigital.co.jp/en/services/data-and-ai/",
+   "raw_sector": "",
+   "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "Dentsu Inc.",
+   "use": "AI for Growth strategic vision and AI technology refinement",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.dentsu.co.jp/en/showcase/ai_for_growth.html",
+   "raw_sector": "",
+   "date": "2024-12-11",
+   "fresh": "aging"
+  },
+  {
+   "company": "Dentsu Inc.",
+   "use": "Cortex Code to automate/fix code pipelines and recover developer time across 145+ markets [Snowflake] [Snowflake]",
+   "existence": "confirmed",
+   "value": "Deployed across 145+ markets; recovered developer time from eliminated broken pipelines",
+   "tier": "",
+   "url": "https://www.snowflake.com/en/customers/all-customers/snapshot/dentsu/",
+   "raw_sector": "",
+   "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "Dentsu Inc.",
+   "use": "Responsible AI governance and compliance framework",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.dentsu.com/news-releases/dentsu-pioneers-responsible-ai-as-first-global-marketing-group-to-join-eu-ai-pact",
+   "raw_sector": "",
+   "date": "2025-04-08",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Dentsu Inc.",
+   "use": "Generative AI guidelines and consulting service implementation",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.dentsu.co.jp/en/showcase/generative_ai.html",
+   "raw_sector": "",
+   "date": "2024-10-17",
+   "fresh": "aging"
   }
  ]
 }

@@ -3,27 +3,27 @@
  "name": "Central Japan Railway Company",
  "cc": "JP",
  "vertical": "Logistics & Supply Chain",
- "deployments": 2,
- "confirmed": 2,
+ "deployments": 7,
+ "confirmed": 5,
  "with_value_number": 1,
- "proof_rate": 0.5,
+ "proof_rate": 0.143,
  "mktcap": 24066666667.0,
  "revenue": 13400000000.0,
  "employees": 29569.0,
  "silent": false,
- "per_bn_revenue": 0.15,
- "per_10k_emp": 0.68,
+ "per_bn_revenue": 0.52,
+ "per_10k_emp": 2.37,
  "benchmarks": {
   "global_vertical": {
-   "deployments": 65,
-   "confirmed": 74,
-   "proof_rate": 52,
-   "n": 66
+   "deployments": 64,
+   "confirmed": 64,
+   "proof_rate": 33,
+   "n": 67
   },
   "country_vertical": {
    "deployments": 64,
-   "confirmed": 68,
-   "proof_rate": 41,
+   "confirmed": 64,
+   "proof_rate": 27,
    "n": 23
   }
  },
@@ -34,7 +34,7 @@
    "n": 1
   }
  ],
- "undated_pct": 50,
+ "undated_pct": 86,
  "momentum": "early_mover,gone_quiet",
  "maturity": "L3",
  "maturity_evidence": [
@@ -43,9 +43,11 @@
   "value_number",
   "tier_p"
  ],
- "prospect_score": 40,
- "stack": [],
- "vendor_named": false,
+ "prospect_score": 64,
+ "stack": [
+  "Amazon AWS"
+ ],
+ "vendor_named": true,
  "deployments_detail": [
   {
    "company": "Central Japan Railway Company",
@@ -60,6 +62,17 @@
   },
   {
    "company": "Central Japan Railway Company",
+   "use": "Track maintenance optimization using AWS generative AI and machine learning [AWS]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://press.aboutamazon.com/2024/9/central-japan-railway-company-selects-aws-for-yamanishi-maglev-line-to-drive-efficient-operations-for-its-next-generation-high-speed-train-service",
+   "raw_sector": "",
+   "date": "Sep 4, 2024",
+   "fresh": "undated"
+  },
+  {
+   "company": "Central Japan Railway Company",
    "use": "\"JR東海AIナビ\" generative-AI LINE passenger info service (Nagoya Station trial, Oct 2024); company-wide gen AI (from Oct 2023)",
    "existence": "confirmed",
    "value": "none quantified",
@@ -68,6 +81,50 @@
    "raw_sector": "Railway/Bus",
    "date": "2024-10",
    "fresh": "aging"
+  },
+  {
+   "company": "Central Japan Railway Company",
+   "use": "Multilingual chatbot for foreign tourists",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://asia.nikkei.com/business/technology/artificial-intelligence/japan-bullet-train-operator-tests-multilingual-chatbot-for-foreign-tourists",
+   "raw_sector": "",
+   "date": "Feb 25, 2026",
+   "fresh": "undated"
+  },
+  {
+   "company": "Central Japan Railway Company",
+   "use": "AI guidance service for foreign visitors with real-time smartphone assistance",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://global.jr-central.co.jp/en/news/_pdf/2025/0012.pdf",
+   "raw_sector": "",
+   "date": "Dec 15, 2025",
+   "fresh": "undated"
+  },
+  {
+   "company": "Central Japan Railway Company",
+   "use": "Security camera footage analysis for passenger behavior estimation",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.facebook.com/japandailydotjp/posts/jr-central-announced-a-trial-using-ai-to-analyze-security-camera-footage-on-the-/1288200276682957/",
+   "raw_sector": "",
+   "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "Central Japan Railway Company",
+   "use": "AI-based detection system at pedestrian rail crossings",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www3.nhk.or.jp/nhkworld/en/shows/2049169/",
+   "raw_sector": "",
+   "date": "missing",
+   "fresh": "undated"
   }
  ]
 }

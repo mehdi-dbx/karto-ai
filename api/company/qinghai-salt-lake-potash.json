@@ -3,41 +3,61 @@
  "name": "Qinghai Salt Lake Potash",
  "cc": "CN",
  "vertical": "Chemicals & Materials",
- "deployments": 1,
- "confirmed": 1,
- "with_value_number": 0,
- "proof_rate": 0.0,
+ "deployments": 11,
+ "confirmed": 8,
+ "with_value_number": 3,
+ "proof_rate": 0.273,
  "mktcap": 19313888889.0,
  "revenue": 2587500000.0,
  "employees": 5864.0,
  "silent": false,
- "per_bn_revenue": 0.39,
- "per_10k_emp": 1.71,
+ "per_bn_revenue": 4.25,
+ "per_10k_emp": 18.76,
  "benchmarks": {
   "global_vertical": {
-   "deployments": 0,
-   "confirmed": 19,
-   "proof_rate": 0,
-   "n": 105
+   "deployments": 89,
+   "confirmed": 86,
+   "proof_rate": 69,
+   "n": 107
   },
   "country_vertical": {
-   "deployments": 0,
-   "confirmed": 0,
-   "proof_rate": 0,
+   "deployments": 50,
+   "confirmed": 25,
+   "proof_rate": 25,
    "n": 5
   }
  },
- "first_seen": null,
- "by_year": [],
- "undated_pct": 100,
- "momentum": "none",
- "maturity": "L3",
- "maturity_evidence": [
-  "named_product:China"
+ "first_seen": 2021,
+ "by_year": [
+  {
+   "year": 2021,
+   "n": 2
+  },
+  {
+   "year": 2023,
+   "n": 1
+  },
+  {
+   "year": 2025,
+   "n": 2
+  },
+  {
+   "year": 2026,
+   "n": 5
+  }
  ],
- "prospect_score": 54,
+ "undated_pct": 9,
+ "momentum": "early_mover,rising",
+ "maturity": "L4",
+ "maturity_evidence": [
+  "multi_horizontal",
+  "named_product:China",
+  "value_number",
+  "multi_year"
+ ],
+ "prospect_score": 77,
  "stack": [],
- "vendor_named": false,
+ "vendor_named": true,
  "deployments_detail": [
   {
    "company": "Qinghai Salt Lake Potash",
@@ -49,6 +69,116 @@
    "raw_sector": "Materials",
    "date": "missing",
    "fresh": "undated"
+  },
+  {
+   "company": "Qinghai Salt Lake Potash",
+   "use": "AI predictive soft-sensor model for the reverse-flotation/cold-crystallization KCl line, predicting centrifuge underflow (下矿量) where physical instruments fail on solid-liquid mixtures; shifted control from 'experience-driven' to 'AI prediction'. First such model at a Chinese potash producer. [Self-developed (Qinghai Salt Lake Potash), on Qinghai green-computing infrastructure]",
+   "existence": "confirmed",
+   "value": "Process-unit stability raised from 78% to 93%; direct economic benefit >20M yuan/year; equipment maintenance cost cut 6M yuan/year; centrifuge underflow error kept <3%",
+   "tier": "",
+   "url": "https://finance.sina.com.cn/roll/2025-12-02/doc-infzmiez2531955.shtml",
+   "raw_sector": "",
+   "date": "2026",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Qinghai Salt Lake Potash",
+   "use": "Flotation-process AI models predicting real-time concentration, foam condition and reagent dosing, and automatically detecting/correcting process deviations, replacing manual adjustments previously needed every 1-2 hours. [Self-developed (Qinghai Salt Lake Potash)]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://chinacma.org.cn/huiyuandongtai/1991.html",
+   "raw_sector": "",
+   "date": "2026",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Qinghai Salt Lake Potash",
+   "use": "Data-driven smart factory: 'Million-tonne reverse-flotation/cold-crystallization KCl production unit data-driven smart factory' recognized as an Advanced-level Smart Factory in China Minmetals' 2026 list; full-chain digital/intelligent transformation of potash manufacturing. [Qinghai Salt Lake Potash (China Minmetals group)]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://finance.sina.com.cn/wm/2026-05-26/doc-inhzfmyq1492088.shtml",
+   "raw_sector": "",
+   "date": "2026-05",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Qinghai Salt Lake Potash",
+   "use": "'5G + Smart Salt Lake' project enabling unmanned/remote-controlled salt-mining vessels: HD cameras stream footage over 5G to the cloud for image-recognition analysis of worker behavior and environment (safety warning), with remote PLC vessel control. [China Mobile Qinghai + ZTE (中兴通讯)]",
+   "existence": "confirmed",
+   "value": "Two trial vessels operational (salt ponds #18/#19)",
+   "tier": "",
+   "url": "https://t.cj.sina.com.cn/articles/view/2090512390/7c9ab00602001jr4i",
+   "raw_sector": "",
+   "date": "2021-05",
+   "fresh": "stale"
+  },
+  {
+   "company": "Qinghai Salt Lake Potash",
+   "use": "Patent 'Autonomous-driving control method and system for salt-lake salt-mining vessels' (CN122363213A): multi-source environmental perception, obstacle detection (salt ridges, embankments, soft mud, other vessels), intelligent path-planning and obstacle-avoidance for industrial-grade unmanned operation. [Qinghai Salt Lake Industry Co. (in-house)]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://finance.sina.com.cn/stock/aigc/zl/2026-07-11/doc-inihktzm5138039.shtml",
+   "raw_sector": "",
+   "date": "2026-07",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Qinghai Salt Lake Potash",
+   "use": "Established a 'Salt Lake Industry AI Innovation Application Joint Lab' and is exploring cooperation with Huawei to apply AI and robotics to intelligent upgrading of salt-lake lithium-extraction processes. [Huawei (exploration)]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://finance.sina.com.cn/stock/relnews/cn/2025-03-12/doc-inepkkxm7828112.shtml",
+   "raw_sector": "",
+   "date": "2025-03",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Qinghai Salt Lake Potash",
+   "use": "Strategic cooperation with Siemens for a digital factory on the new lithium-carbonate project, using Siemens process-modeling/simulation software (COMOS, gPROMS, SIMIT, SiePA) and combined hardware-software digital-factory solutions plus digital-delivery and talent programs. [Siemens]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://w1.siemens.com.cn/press/NewsDetail.aspx?ColumnId=2&ArticleId=17709",
+   "raw_sector": "",
+   "date": "2023-06",
+   "fresh": "stale"
+  },
+  {
+   "company": "Qinghai Salt Lake Potash",
+   "use": "'Process mechanism + AI algorithm' dual-driven models across multiple process units (crystallization, slurry washing, dust-removal auto-cleaning) plus predictive equipment monitoring, tracking 128 critical parameters in real time (the 'intelligent brain' on the million-tonne line). [Self-developed (Qinghai Salt Lake Potash)]",
+   "existence": "confirmed",
+   "value": "128 critical parameters monitored in real time",
+   "tier": "",
+   "url": "https://www.163.com/dy/article/KUFQGE4T05568W0A.html",
+   "raw_sector": "",
+   "date": "2026",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Qinghai Salt Lake Potash",
+   "use": "Potash division 'data-driven salt-lake cloud industry' project selected as a national finalist in the 2025 national 'Data Element x' competition (智能制造 track), applying data-driven analytics to potash production scenarios. [Qinghai Salt Lake Potash branch (钾肥分公司)]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.nda.gov.cn/sjj/zwgk/tzgg/0930/ff808081-96b466bd-0199-9b04d301-1fec.docx",
+   "raw_sector": "",
+   "date": "2025-09",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Qinghai Salt Lake Potash",
+   "use": "Video-analytics safety monitoring of salt-lake worksites: cloud image-recognition of on-site personnel actions and environmental conditions for real-time early warning, monitoring coverage and post-incident evidence collection (part of the 5G smart-lake buildout). [China Mobile Qinghai + ZTE]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://t.cj.sina.com.cn/articles/view/2090512390/7c9ab00602001jr4i",
+   "raw_sector": "",
+   "date": "2021-05",
+   "fresh": "stale"
   }
  ]
 }

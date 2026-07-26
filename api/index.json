@@ -3,10 +3,10 @@
  "license": "CC BY-NC 4.0",
  "generated": "from data/register.csv via cook_aggregates.py + build_api.py",
  "counts": {
-  "companies": 2454,
-  "countries": 37,
+  "companies": 2494,
+  "countries": 38,
   "verticals": 23,
-  "deployments": 4941
+  "deployments": 15241
  },
  "endpoints": {
   "company": "/api/company/{slug}.json",
@@ -11250,6 +11250,206 @@
    "cc": "BR"
   },
   {
+   "slug": "international-holding-company-ihc",
+   "name": "International Holding Company (IHC)",
+   "cc": "AE"
+  },
+  {
+   "slug": "the-travelers-companies-inc",
+   "name": "The Travelers Companies, Inc.",
+   "cc": "US"
+  },
+  {
+   "slug": "china-pacific-insurance-cpic",
+   "name": "China Pacific Insurance (CPIC)",
+   "cc": "CN"
+  },
+  {
+   "slug": "gsk-gb",
+   "name": "GSK",
+   "cc": "GB"
+  },
+  {
+   "slug": "standard-life-gb",
+   "name": "Standard Life",
+   "cc": "GB"
+  },
+  {
+   "slug": "kb-financial-group",
+   "name": "KB Financial Group",
+   "cc": "KR"
+  },
+  {
+   "slug": "meritz-financial-group",
+   "name": "Meritz Financial Group",
+   "cc": "KR"
+  },
+  {
+   "slug": "guotai-junan-securities-guotai-haitong-securities",
+   "name": "Guotai Junan Securities (国泰海通证券 / Guotai Haitong Securities)",
+   "cc": "CN"
+  },
+  {
+   "slug": "assa-assa-atacadista",
+   "name": "Assaí (Assaí Atacadista)",
+   "cc": "BR"
+  },
+  {
+   "slug": "itc-limited",
+   "name": "ITC Limited",
+   "cc": "IN"
+  },
+  {
+   "slug": "legal-general-gb",
+   "name": "Legal & General",
+   "cc": "GB"
+  },
+  {
+   "slug": "seb-skandinaviska-enskilda-banken",
+   "name": "SEB (Skandinaviska Enskilda Banken)",
+   "cc": "SE"
+  },
+  {
+   "slug": "hon-hai-precision-foxconn",
+   "name": "Hon Hai Precision (Foxconn)",
+   "cc": "TW"
+  },
+  {
+   "slug": "coca-cola-hbc-gb",
+   "name": "Coca-Cola HBC",
+   "cc": "GB"
+  },
+  {
+   "slug": "cholamandalam-investment-and-finance-company-incl-cholamandalam-ms-general-insurance",
+   "name": "Cholamandalam Investment and Finance Company (incl. Cholamandalam MS General Insurance)",
+   "cc": "IN"
+  },
+  {
+   "slug": "muji-co-ltd-ryohin-keikaku-co-ltd",
+   "name": "Muji Co., Ltd (Ryohin Keikaku Co., Ltd.)",
+   "cc": "JP"
+  },
+  {
+   "slug": "beazley-gb",
+   "name": "Beazley",
+   "cc": "GB"
+  },
+  {
+   "slug": "t-rk-hava-yollar-turkish-airlines",
+   "name": "Türk Hava Yolları (Turkish Airlines)",
+   "cc": "TR"
+  },
+  {
+   "slug": "taqa-abu-dhabi-national-energy-company",
+   "name": "TAQA (Abu Dhabi National Energy Company)",
+   "cc": "AE"
+  },
+  {
+   "slug": "ltm-ltimindtree-limited",
+   "name": "LTM (LTIMindtree Limited)",
+   "cc": "IN"
+  },
+  {
+   "slug": "lg-h-h-lg-household-health-care",
+   "name": "LG H&H (LG Household & Health Care)",
+   "cc": "KR"
+  },
+  {
+   "slug": "irfc-indian-railway-finance-corporation",
+   "name": "IRFC (Indian Railway Finance Corporation)",
+   "cc": "IN"
+  },
+  {
+   "slug": "sino-biopharmaceutical-sino-biopharm-incl-subsidiary-chia-tai-tianqing-zhengda-tianqing",
+   "name": "Sino Biopharmaceutical (中国生物制药 / Sino Biopharm, incl. subsidiary Chia Tai Tianqing / Zhengda Tianqing 正大天晴)",
+   "cc": "CN"
+  },
+  {
+   "slug": "permanent-tsb-ptsb",
+   "name": "Permanent TSB (PTSB)",
+   "cc": "IE"
+  },
+  {
+   "slug": "indosat-ooredoo-hutchison",
+   "name": "Indosat Ooredoo Hutchison",
+   "cc": "ID"
+  },
+  {
+   "slug": "regional-s-a-b-de-c-v-banregio-hey-banco",
+   "name": "Regional S.A.B. de C.V. (Banregio / Hey Banco)",
+   "cc": "MX"
+  },
+  {
+   "slug": "emcor-group-inc",
+   "name": "EMCOR Group, Inc.",
+   "cc": "US"
+  },
+  {
+   "slug": "arabian-internet-and-communications-services-solutions-by-stc",
+   "name": "Arabian Internet and Communications Services (solutions by stc)",
+   "cc": "SA"
+  },
+  {
+   "slug": "label-vie-groupe-labelvie",
+   "name": "Label'Vie (Groupe LabelVie)",
+   "cc": "MA"
+  },
+  {
+   "slug": "gail-india-limited",
+   "name": "GAIL (India) Limited",
+   "cc": "IN"
+  },
+  {
+   "slug": "sido-muncul-pt-industri-jamu-dan-farmasi-sido-muncul-tbk",
+   "name": "Sido Muncul (PT Industri Jamu Dan Farmasi Sido Muncul Tbk)",
+   "cc": "ID"
+  },
+  {
+   "slug": "adani-ports-sez-apsez",
+   "name": "Adani Ports & SEZ (APSEZ)",
+   "cc": "IN"
+  },
+  {
+   "slug": "vicenne-groupe-vicenne",
+   "name": "Vicenne (Groupe Vicenne)",
+   "cc": "MA"
+  },
+  {
+   "slug": "groupe-adp-a-roports-de-paris",
+   "name": "Groupe ADP (Aéroports de Paris)",
+   "cc": "FR"
+  },
+  {
+   "slug": "mmk-magnitogorsk-iron-and-steel-works",
+   "name": "MMK (Magnitogorsk Iron and Steel Works)",
+   "cc": "RU"
+  },
+  {
+   "slug": "seven-group-holdings-sgh-ltd",
+   "name": "Seven Group Holdings (SGH Ltd)",
+   "cc": "AU"
+  },
+  {
+   "slug": "solar-industries-india-limited",
+   "name": "Solar Industries India Limited",
+   "cc": "IN"
+  },
+  {
+   "slug": "ere-li-demir-elik-erdemir",
+   "name": "Ereğli Demir Çelik (Erdemir)",
+   "cc": "TR"
+  },
+  {
+   "slug": "jindal-steel-jindal-steel-power-jindal-steel-ltd",
+   "name": "Jindal Steel (Jindal Steel & Power / Jindal Steel Ltd.)",
+   "cc": "IN"
+  },
+  {
+   "slug": "pge-polska-grupa-energetyczna",
+   "name": "PGE (Polska Grupa Energetyczna)",
+   "cc": "PL"
+  },
+  {
    "slug": "mbme-group",
    "name": "MBME Group",
    "cc": "AE"
@@ -12339,6 +12539,10 @@
    "name": "France"
   },
   {
+   "cc": "GB",
+   "name": "GB"
+  },
+  {
    "cc": "HK",
    "name": "Hong Kong"
   },
@@ -12436,27 +12640,27 @@
   }
  ],
  "verticals": [
-  "",
   "Financial Services",
+  "",
   "Retail & E-commerce",
-  "Energy & Utilities",
-  "Manufacturing & Robotics",
-  "Industrial / Machinery",
-  "Healthcare & Life Sciences",
-  "Real Estate & Construction",
   "Technology",
-  "Chemicals & Materials",
+  "Energy & Utilities",
+  "Healthcare & Life Sciences",
+  "Industrial / Machinery",
+  "Manufacturing & Robotics",
+  "Real Estate & Construction",
   "Telecom",
+  "Chemicals & Materials",
   "Insurance",
   "Logistics & Supply Chain",
   "Mining & Materials",
   "Automotive",
   "Electric Machinery & Electronics",
-  "Travel & Hospitality",
   "Media / Entertainment / Gaming",
-  "Agriculture",
+  "Travel & Hospitality",
   "Legal & Professional Services",
   "Aerospace & Defence",
+  "Agriculture",
   "Education",
   "Media / Entertainment"
  ]

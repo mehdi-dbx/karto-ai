@@ -3,27 +3,27 @@
  "name": "London Stock Exchange Group",
  "cc": "UK",
  "vertical": "Financial Services",
- "deployments": 1,
- "confirmed": 1,
+ "deployments": 6,
+ "confirmed": 2,
  "with_value_number": 1,
- "proof_rate": 1.0,
+ "proof_rate": 0.167,
  "mktcap": 53682900000.0,
  "revenue": 11874500000.0,
  "employees": 28516.0,
  "silent": false,
- "per_bn_revenue": 0.08,
- "per_10k_emp": 0.35,
+ "per_bn_revenue": 0.51,
+ "per_10k_emp": 2.1,
  "benchmarks": {
   "global_vertical": {
-   "deployments": 0,
+   "deployments": 44,
    "confirmed": 17,
-   "proof_rate": 76,
-   "n": 377
+   "proof_rate": 35,
+   "n": 388
   },
   "country_vertical": {
-   "deployments": 0,
-   "confirmed": 36,
-   "proof_rate": 86,
+   "deployments": 64,
+   "confirmed": 50,
+   "proof_rate": 68,
    "n": 23
   }
  },
@@ -37,9 +37,10 @@
   "value_number",
   "tier_p"
  ],
- "prospect_score": 6,
+ "prospect_score": 45,
  "stack": [
-  "Microsoft"
+  "Microsoft",
+  "OpenAI"
  ],
  "vendor_named": true,
  "deployments_detail": [
@@ -52,6 +53,61 @@
    "url": "https://www.lseg.com/en/microsoft-partnership",
    "raw_sector": "Financial services",
    "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "London Stock Exchange Group",
+   "use": "AI-ready financial data transformation and curation for customer AI deployments",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.lseg.com/en/solutions/ai-finance-solutions",
+   "raw_sector": "",
+   "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "London Stock Exchange Group",
+   "use": "Collaboration with OpenAI for frontier AI model adoption [OpenAI]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.londonstockexchange.com/news-article/LSEG/lseg-announces-new-collaboration-with-openai/17356878",
+   "raw_sector": "",
+   "date": "Dec 3, 2025",
+   "fresh": "undated"
+  },
+  {
+   "company": "London Stock Exchange Group",
+   "use": "Custom AI agents integration into customer workflows via MCP server [Microsoft]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://news.microsoft.com/source/2025/10/12/lseg-and-microsoft-transform-access-to-ai-ready-financial-data-in-customer-workflows/",
+   "raw_sector": "",
+   "date": "Oct 12, 2025",
+   "fresh": "undated"
+  },
+  {
+   "company": "London Stock Exchange Group",
+   "use": "Generative AI features for financial information discovery and fund research in LSEG Workspace",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.lseg.com/en/data-analytics/products/workspace/updates/lseg-workspace-launches-external-pilots-for-new-gen-ai-feature",
+   "raw_sector": "",
+   "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "London Stock Exchange Group",
+   "use": "Generative AI for customer data insights and workflow transformation [Microsoft]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.lseg.com/en/insights/data-analytics/reframing-the-future-of-financial-services-with-ai",
+   "raw_sector": "",
+   "date": "Nov 29, 2023",
    "fresh": "undated"
   }
  ]

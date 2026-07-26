@@ -3,27 +3,27 @@
  "name": "Midea Group",
  "cc": "HK",
  "vertical": "Manufacturing & Robotics",
- "deployments": 2,
- "confirmed": 2,
+ "deployments": 6,
+ "confirmed": 4,
  "with_value_number": 1,
- "proof_rate": 0.5,
+ "proof_rate": 0.167,
  "mktcap": 94793589744.0,
  "revenue": 66992307692.0,
  "employees": 198570.0,
  "silent": false,
- "per_bn_revenue": 0.03,
- "per_10k_emp": 0.1,
+ "per_bn_revenue": 0.09,
+ "per_10k_emp": 0.3,
  "benchmarks": {
   "global_vertical": {
-   "deployments": 64,
-   "confirmed": 78,
-   "proof_rate": 74,
-   "n": 147
+   "deployments": 65,
+   "confirmed": 66,
+   "proof_rate": 58,
+   "n": 150
   },
   "country_vertical": {
-   "deployments": 100,
-   "confirmed": 100,
-   "proof_rate": 71,
+   "deployments": 57,
+   "confirmed": 71,
+   "proof_rate": 57,
    "n": 8
   }
  },
@@ -35,11 +35,15 @@
   },
   {
    "year": 2025,
+   "n": 2
+  },
+  {
+   "year": 2026,
    "n": 1
   }
  ],
- "undated_pct": 0,
- "momentum": "early_mover,flat",
+ "undated_pct": 33,
+ "momentum": "early_mover,rising",
  "maturity": "L4",
  "maturity_evidence": [
   "named_product:Meiyan",
@@ -47,8 +51,10 @@
   "multi_year",
   "tier_p"
  ],
- "prospect_score": 32,
- "stack": [],
+ "prospect_score": 57,
+ "stack": [
+  "Alibaba Cloud"
+ ],
  "vendor_named": true,
  "deployments_detail": [
   {
@@ -64,6 +70,17 @@
   },
   {
    "company": "Midea Group",
+   "use": "'Voice of the Customer to Voice of the Process' (VOC-to-VOP) quality solution powered by an expert knowledge base of 12+ million quality-related cases, enabling complaint traceability to root causes within seconds. [Midea (in-house)]",
+   "existence": "confirmed",
+   "value": "Expert knowledge base of more than 12 million quality-related cases; root-cause traceability within seconds",
+   "tier": "",
+   "url": "https://www.newswire.ca/news-releases/midea-launches-agentic-factory-overseas-expansion-solution-marking-a-new-stage-for-chinese-enterprises-going-global-829919907.html",
+   "raw_sector": "",
+   "date": "2026-06",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Midea Group",
    "use": "Cross-listed (also in CSI300) — own LLM, AI visual inspection in 5G factories, AI middleware",
    "existence": "confirmed",
    "value": "(see row 5)",
@@ -72,6 +89,72 @@
    "raw_sector": "Commerce & Industry (HSI)",
    "date": "missing",
    "fresh": "undated"
+  },
+  {
+   "company": "Midea Group",
+   "use": "Jingzhou washing machine 'AI Agent Factory': a central 'Factory Brain' multi-agent system orchestrating 14 AI agents across 38 core production scenarios (scheduling, logistics, quality checks, equipment maintenance, monitoring). Certified by WRCA as the world's first multi-scenario AI agent factory. [Midea Factory Brain (in-house)]",
+   "existence": "confirmed",
+   "value": "80%+ efficiency gains; 90% faster scheduling response times; WRCA world's-first AI Agent Factory certification (Aug 2025)",
+   "tier": "",
+   "url": "https://kr-asia.com/mideas-ai-agent-factory-signals-a-new-model-for-global-manufacturing",
+   "raw_sector": "",
+   "date": "2025-08",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Midea Group",
+   "use": "MIRO humanoid robot deployed as an 'execution agent' on the factory floor, collaborating with the 14 AI agents across 38 scenarios (e.g., quality inspection and injection-molding tasks); completed staged testing in an injection-molding workshop and connected to factory business systems. [Midea (MIRO), KUKA robotics tech]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.globaltimes.cn/page/202509/1342773.shtml",
+   "raw_sector": "",
+   "date": "2025-09",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Midea Group",
+   "use": "Agentic Factory deployment at Midea's Thailand Refrigeration Plant: 72 AI applications and 13 major AI agents across 25 scenarios covering the end-to-end order-to-production flow. [Midea Cloud, KUKA Robotics]",
+   "existence": "confirmed",
+   "value": "43% reduction in end-to-end order lead time; 32% decrease in customer complaint rate; 50% reduction in finished-product defect rate",
+   "tier": "",
+   "url": "https://manufacturingdigital.com/articles/china-midea-rolls-out-ai-solutions-for-overseas-expansions",
+   "raw_sector": "",
+   "date": "2026-06",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Midea Group",
+   "use": "Strategic partnership with Alibaba to build a whole-home 'household AI brain' and industry-specific models powered by Alibaba's Qwen large language model, plus joint AI computing infrastructure (Alibaba Cloud) across China, Europe and Asia-Pacific. [Alibaba Cloud, Qwen (Tongyi) LLM]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://en.cheaa.org/contents/468/13388.html",
+   "raw_sector": "",
+   "date": "2026-06",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Midea Group",
+   "use": "Cross-border supply chain AI agent that monitors 35 core operational nodes in real time with risk alerts, part of the 'Agentic Factory Overseas Expansion Solution'. [Midea (in-house)]",
+   "existence": "confirmed",
+   "value": "Exception-handling response time cut from 48 hours to within 12 hours; raw-material on-time arrival rate above 96%",
+   "tier": "",
+   "url": "https://www.newswire.ca/news-releases/midea-launches-agentic-factory-overseas-expansion-solution-marking-a-new-stage-for-chinese-enterprises-going-global-829919907.html",
+   "raw_sector": "",
+   "date": "2026-06",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Midea Group",
+   "use": "AIGC + VR multilingual worker training system used to onboard and certify new employees at overseas plants (Thailand). [Midea (in-house AIGC)]",
+   "existence": "confirmed",
+   "value": "New-employee onboarding reduced from 8 days to 3 days; certification/training cycle shortened by 62%",
+   "tier": "",
+   "url": "https://www.newswire.ca/news-releases/midea-launches-agentic-factory-overseas-expansion-solution-marking-a-new-stage-for-chinese-enterprises-going-global-829919907.html",
+   "raw_sector": "",
+   "date": "2026-06",
+   "fresh": "fresh"
   },
   {
    "company": "Midea Group",
@@ -93,6 +176,61 @@
    "url": "https://finance.sina.com.cn/tech/roll/2025-07-30/doc-infifrav3842856.shtml",
    "raw_sector": "Consumer Electronics",
    "date": "2025-07",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Midea Group",
+   "use": "AI-driven energy optimization for home appliances (ECOMASTER)",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.midea.com/me/news/midea-showcases-master-your-home-at-ifa-2025-with-transformative-innovations",
+   "raw_sector": "",
+   "date": "2025-09-05",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Midea Group",
+   "use": "AI-powered solution for Chinese enterprises expanding abroad",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://manufacturingdigital.com/articles/china-midea-rolls-out-ai-solutions-for-overseas-expansions",
+   "raw_sector": "",
+   "date": "2026-06-15",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Midea Group",
+   "use": "AI technology-based home appliances with self-learning capabilities",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.midea.com.cn/en/our-businesses/Smart-Home-Business-Unit",
+   "raw_sector": "",
+   "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "Midea Group",
+   "use": "AI ECOMASTER system for air conditioner optimization",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.midea.com/th-en/news/midea-numen-ai-air-conditioner",
+   "raw_sector": "",
+   "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "Midea Group",
+   "use": "'Xiaomei' AI Home Assistant embedded in the upgraded Midea SmartHome App (powered by a 'Home Agent' proactive-intelligence model): voice control of appliances, generating personalized scenarios, product support, service scheduling, meal planning and fitness routines. Described as first of its kind in the home-appliance industry. [Midea Home Agent model (in-house)]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://mdhome.com.au/midea-unveils-new-whole-home-intelligence-strategy/",
+   "raw_sector": "",
+   "date": "2025-09",
    "fresh": "fresh"
   }
  ]

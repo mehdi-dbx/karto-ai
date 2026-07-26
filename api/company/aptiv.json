@@ -3,7 +3,7 @@
  "name": "Aptiv",
  "cc": "US",
  "vertical": "Retail & E-commerce",
- "deployments": 1,
+ "deployments": 4,
  "confirmed": 1,
  "with_value_number": 0,
  "proof_rate": 0.0,
@@ -11,18 +11,18 @@
  "revenue": 20660000000.0,
  "employees": 140000.0,
  "silent": false,
- "per_bn_revenue": 0.05,
- "per_10k_emp": 0.07,
+ "per_bn_revenue": 0.19,
+ "per_10k_emp": 0.29,
  "benchmarks": {
   "global_vertical": {
-   "deployments": 0,
-   "confirmed": 24,
+   "deployments": 28,
+   "confirmed": 9,
    "proof_rate": 0,
-   "n": 295
+   "n": 301
   },
   "country_vertical": {
-   "deployments": 0,
-   "confirmed": 25,
+   "deployments": 15,
+   "confirmed": 5,
    "proof_rate": 0,
    "n": 80
   }
@@ -34,16 +34,18 @@
    "n": 1
   }
  ],
- "undated_pct": 0,
+ "undated_pct": 75,
  "momentum": "late_entrant,rising",
  "maturity": "L3",
  "maturity_evidence": [
   "named_product:End",
   "tier_p"
  ],
- "prospect_score": 54,
- "stack": [],
- "vendor_named": false,
+ "prospect_score": 46,
+ "stack": [
+  "NVIDIA"
+ ],
+ "vendor_named": true,
  "deployments_detail": [
   {
    "company": "Aptiv",
@@ -55,6 +57,39 @@
    "raw_sector": "Consumer Discretionary",
    "date": "2026",
    "fresh": "fresh"
+  },
+  {
+   "company": "Aptiv",
+   "use": "Production-ready edge AI deployment with long-term lifecycle support [NVIDIA]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.aptiv.com/en/newsroom/article/aptiv-to-deliver-production-ready-edge-ai-with-long-term-support-with-nvidia",
+   "raw_sector": "",
+   "date": "Jun 1, 2026",
+   "fresh": "undated"
+  },
+  {
+   "company": "Aptiv",
+   "use": "AI Adaptor for rapid edge-side deployment of large models and real-time interaction in digital cockpit",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.aptiv.com/en/auto-shanghai-2025",
+   "raw_sector": "",
+   "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "Aptiv",
+   "use": "AI Requirements Analyzer, AI Code Generation, and AI Database tools for software development",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.aptiv.com/en/insights/article/3-Use-Cases-of-Aptiv-s-Generative-AI",
+   "raw_sector": "",
+   "date": "Mar 18, 2025",
+   "fresh": "undated"
   }
  ]
 }

@@ -3,41 +3,52 @@
  "name": "Rohm Co., Ltd.",
  "cc": "JP",
  "vertical": "Electric Machinery & Electronics",
- "deployments": 2,
- "confirmed": 2,
+ "deployments": 7,
+ "confirmed": 7,
  "with_value_number": 1,
- "proof_rate": 0.5,
+ "proof_rate": 0.143,
  "mktcap": 12533333333.0,
  "revenue": 3207666667.0,
  "employees": 21756.0,
  "silent": false,
- "per_bn_revenue": 0.62,
- "per_10k_emp": 0.92,
+ "per_bn_revenue": 2.18,
+ "per_10k_emp": 3.22,
  "benchmarks": {
   "global_vertical": {
-   "deployments": 53,
-   "confirmed": 53,
-   "proof_rate": 62,
+   "deployments": 41,
+   "confirmed": 65,
+   "proof_rate": 41,
    "n": 35
   },
   "country_vertical": {
-   "deployments": 48,
-   "confirmed": 48,
-   "proof_rate": 58,
+   "deployments": 39,
+   "confirmed": 61,
+   "proof_rate": 35,
    "n": 32
   }
  },
- "first_seen": null,
- "by_year": [],
- "undated_pct": 100,
- "momentum": "none",
- "maturity": "L3",
+ "first_seen": 2025,
+ "by_year": [
+  {
+   "year": 2025,
+   "n": 4
+  },
+  {
+   "year": 2026,
+   "n": 1
+  }
+ ],
+ "undated_pct": 29,
+ "momentum": "rising",
+ "maturity": "L4",
  "maturity_evidence": [
+  "multi_horizontal",
   "named_product:ReflexAgent",
   "value_number",
+  "multi_year",
   "tier_p"
  ],
- "prospect_score": 40,
+ "prospect_score": 84,
  "stack": [],
  "vendor_named": false,
  "deployments_detail": [
@@ -62,6 +73,61 @@
    "raw_sector": "Electric Machinery",
    "date": "missing",
    "fresh": "undated"
+  },
+  {
+   "company": "Rohm Co., Ltd.",
+   "use": "AI-equipped microcontrollers with learning and inference capability",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://fscdn.rohm.com/en/financial/integrated-report/rohm_group_integrated_report_2025_en_print.pdf",
+   "raw_sector": "",
+   "date": "2025-03",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Rohm Co., Ltd.",
+   "use": "SiC MOSFET adoption in BBU for AI server power supplies",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.rohm.com/news-detail?news-title=2026-06-03_news_sic-mosfet&defaultGroupId=false",
+   "raw_sector": "",
+   "date": "2026-06-03",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Rohm Co., Ltd.",
+   "use": "Power MOSFET optimization for AI server hot-swap circuits",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.rohm.com/news-detail?news-title=2025-07-01_news_mosfet&defaultGroupId=false",
+   "raw_sector": "",
+   "date": "2025-07-01",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Rohm Co., Ltd.",
+   "use": "Real-time failure prediction for electronic devices using AI-equipped MCUs [Solist-AI]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.rohm.com/media",
+   "raw_sector": "",
+   "date": "2025-03-25",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Rohm Co., Ltd.",
+   "use": "Quantum annealing for semiconductor manufacturing front-end process",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://note.com/tomos_ai_lab/n/n5777950b73a0?hl=en",
+   "raw_sector": "",
+   "date": "2025-06-02",
+   "fresh": "fresh"
   }
  ]
 }

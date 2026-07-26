@@ -3,42 +3,70 @@
  "name": "BlackRock",
  "cc": "US",
  "vertical": "Financial Services",
- "deployments": 1,
- "confirmed": 1,
- "with_value_number": 0,
- "proof_rate": 0.0,
+ "deployments": 17,
+ "confirmed": 10,
+ "with_value_number": 4,
+ "proof_rate": 0.235,
  "mktcap": 169120000000.0,
  "revenue": 27300000000.0,
  "employees": 21100.0,
  "silent": false,
- "per_bn_revenue": 0.04,
- "per_10k_emp": 0.47,
+ "per_bn_revenue": 0.62,
+ "per_10k_emp": 8.06,
  "benchmarks": {
   "global_vertical": {
-   "deployments": 0,
-   "confirmed": 17,
-   "proof_rate": 0,
-   "n": 377
+   "deployments": 97,
+   "confirmed": 78,
+   "proof_rate": 47,
+   "n": 388
   },
   "country_vertical": {
-   "deployments": 0,
-   "confirmed": 19,
-   "proof_rate": 0,
-   "n": 76
+   "deployments": 96,
+   "confirmed": 74,
+   "proof_rate": 54,
+   "n": 77
   }
  },
- "first_seen": null,
- "by_year": [],
- "undated_pct": 100,
- "momentum": "none",
- "maturity": "L3",
+ "first_seen": 2023,
+ "by_year": [
+  {
+   "year": 2023,
+   "n": 1
+  },
+  {
+   "year": 2024,
+   "n": 4
+  },
+  {
+   "year": 2025,
+   "n": 3
+  },
+  {
+   "year": 2026,
+   "n": 1
+  }
+ ],
+ "undated_pct": 47,
+ "momentum": "early_mover,cooling",
+ "maturity": "L4",
  "maturity_evidence": [
+  "multi_horizontal",
   "named_product:Aladdin Copilot",
+  "value_number",
+  "multi_year",
   "tier_p"
  ],
- "prospect_score": 46,
+ "prospect_score": 91,
  "stack": [
-  "Microsoft"
+  "Amazon AWS",
+  "Anthropic",
+  "Cohere",
+  "Databricks",
+  "Google",
+  "Microsoft",
+  "Microsoft Azure",
+  "OpenAI",
+  "Palantir"
  ],
  "vendor_named": true,
  "deployments_detail": [
@@ -52,6 +80,182 @@
    "raw_sector": "Financials",
    "date": "missing",
    "fresh": "undated"
+  },
+  {
+   "company": "BlackRock",
+   "use": "Aladdin Copilot: generative-AI assistant embedded across the Aladdin investment-management platform, giving users natural-language answers, report generation, research summaries and proactive alerts. Uses a plugin registry with ~50-60 engineering teams contributing tools, guardrails (input moderation, PII/toxicity filtering, hallucination detection), and GPT-4 function calling for orchestration. Now available to Aladdin clients. [Microsoft / Azure OpenAI (GPT-4)]",
+   "existence": "confirmed",
+   "value": "Aladdin serves platform tied to ~$11T+ AUM; ~4,000 engineers / ~100 front-end apps in the Aladdin org",
+   "tier": "",
+   "url": "https://www.microsoft.com/en-us/microsoft-cloud/blog/financial-services/2024/09/30/elevating-investment-management-tech-ai-powered-leadership-from-blackrock-and-microsoft/",
+   "raw_sector": "",
+   "date": "2024-09-30",
+   "fresh": "aging"
+  },
+  {
+   "company": "BlackRock",
+   "use": "Aladdin Copilot agentic architecture details: production LLMOps deployment using GPT-4 function calling for orchestration, plugin registry for federated development across ~50-60 teams, access filtering to 20-30 relevant tools, and output validation with hallucination detection. [OpenAI GPT-4 (via Azure)]",
+   "existence": "confirmed",
+   "value": "~11 trillion AUM served; ~100 front-end apps, ~4,000 engineers",
+   "tier": "",
+   "url": "https://www.zenml.io/llmops-database/agentic-ai-architecture-for-investment-management-platform",
+   "raw_sector": "",
+   "date": "2025-06-24",
+   "fresh": "fresh"
+  },
+  {
+   "company": "BlackRock",
+   "use": "eFront Copilot: generative-AI chat assistant integrated into the eFront Insight private-markets platform, allowing users to analyze private-markets investments and surface insights on demand. First rolled out as a private preview to select eFront clients, then made broadly available within eFront Insight. [Microsoft / Azure OpenAI]",
+   "existence": "confirmed",
+   "value": "Private preview launched to ~10 eFront clients",
+   "tier": "",
+   "url": "https://www.pionline.com/money-management/blackrock-rolls-out-its-first-generative-ai-powered-co-pilot-select-efront-clients/",
+   "raw_sector": "",
+   "date": "2023-12-14",
+   "fresh": "stale"
+  },
+  {
+   "company": "BlackRock",
+   "use": "BlackRock Systematic uses machine learning, neural-network portfolio construction, and large language models / generative AI in production to read filings, financial texts and social media for sentiment, and to process alternative data (e.g. ~30M US job postings) to generate investment signals and alpha. [none disclosed (in-house ML/LLM + alternative data)]",
+   "existence": "confirmed",
+   "value": "~$336B AUM; grown from 3 signals (1985) to 1,000+ today; ~90% of funds beat peer median over 5 years",
+   "tier": "",
+   "url": "https://www.wealthmanagement.com/investing-strategies/ai-large-language-models-and-active-management-inside-blackrock-s-approach-to-systematic-investing",
+   "raw_sector": "",
+   "date": "2025-10-27",
+   "fresh": "fresh"
+  },
+  {
+   "company": "BlackRock",
+   "use": "eFront Insight end-to-end private-markets workflow launch featuring automated visual analytics and AI-enhanced tools for LP manager due diligence (evaluating strategy, track record and operations), integrating Preqin pre-investment data with eFront post-investment workflows. [BlackRock Aladdin / eFront / Preqin]",
+   "existence": "claimed",
+   "value": "none (product-level AI figures not disclosed)",
+   "tier": "",
+   "url": "https://www.preqin.com/news/blackrock-aladdin-launches-end-to-end-private-markets-workflow",
+   "raw_sector": "",
+   "date": "2026-02-04",
+   "fresh": "fresh"
+  },
+  {
+   "company": "BlackRock",
+   "use": "Named as a Anthropic Claude customer/case study [Anthropic Claude] [Anthropic Claude]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://sacra.com/c/anthropic/",
+   "raw_sector": "",
+   "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "BlackRock",
+   "use": "Named as a Microsoft Copilot customer/case study [Microsoft Copilot] [Microsoft Copilot]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.appsruntheworld.com/customers-database/products/view/microsoft-365-copilot",
+   "raw_sector": "",
+   "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "BlackRock",
+   "use": "Named as a Amazon Bedrock customer/case study [Amazon Bedrock] [Amazon Bedrock]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.appsruntheworld.com/customers-database/products/view/amazon-bedrock",
+   "raw_sector": "",
+   "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "BlackRock",
+   "use": "Named as a Google Gemini / Vertex AI customer/case study [Google Gemini / Vertex AI] [Google Gemini / Vertex AI]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.appsruntheworld.com/customers-database/products/view/google-cloud-vertex-ai",
+   "raw_sector": "",
+   "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "BlackRock",
+   "use": "Named as a Databricks customer/case study [Databricks] [Databricks]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.appsruntheworld.com/customers-database/products/view/microsoft-azure-databricks-ai",
+   "raw_sector": "",
+   "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "BlackRock",
+   "use": "Named as a Palantir customer/case study [Palantir] [Palantir]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.appsruntheworld.com/customers-database/products/view/palantir-aip-platform",
+   "raw_sector": "",
+   "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "BlackRock",
+   "use": "Named as a Cohere customer/case study [Cohere] [Cohere]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.appsruntheworld.com/customers-database/products/view/cohere-ai",
+   "raw_sector": "",
+   "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "BlackRock",
+   "use": "Microsoft 365 Copilot deployed internally to help employees with first drafts of emails, pitches and documents across job families. [Microsoft]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.microsoft.com/en-us/microsoft-cloud/blog/2024/12/11/how-blackrock-is-finding-new-alpha-as-ai-transformation-becomes-a-critical-business-driver/",
+   "raw_sector": "",
+   "date": "2024-12-11",
+   "fresh": "aging"
+  },
+  {
+   "company": "BlackRock",
+   "use": "GitHub Copilot deployed to BlackRock engineers to assist with writing code. [Microsoft / GitHub]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.microsoft.com/en-us/microsoft-cloud/blog/2024/12/11/how-blackrock-is-finding-new-alpha-as-ai-transformation-becomes-a-critical-business-driver/",
+   "raw_sector": "",
+   "date": "2024-12-11",
+   "fresh": "aging"
+  },
+  {
+   "company": "BlackRock",
+   "use": "Microsoft Copilot Studio used internally to build custom agents and copilots while measuring Azure consumption; Azure Machine Learning deployed to support investment-signal analysis and identify alpha opportunities. [Microsoft Azure (Copilot Studio, Azure Machine Learning)]",
+   "existence": "confirmed",
+   "value": "New rollouts take weeks instead of quarters",
+   "tier": "",
+   "url": "https://www.microsoft.com/en-us/microsoft-cloud/blog/2024/12/11/how-blackrock-is-finding-new-alpha-as-ai-transformation-becomes-a-critical-business-driver/",
+   "raw_sector": "",
+   "date": "2024-12-11",
+   "fresh": "aging"
+  },
+  {
+   "company": "BlackRock",
+   "use": "Aladdin Wealth 'Auto Commentary': generative-AI feature that turns portfolio analytics, CIO outlooks and client-level preferences into concise first-draft narratives/insights for wealth advisors to use with clients. Morgan Stanley Wealth Management is the first client, integrating it into its Portfolio Risk Platform. [none disclosed]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.investmentnews.com/alternatives/blackrock-debuts-ai-powered-commentary-tool-for-advisors-lands-morgan-stanley-as-first-client/262370",
+   "raw_sector": "",
+   "date": "2025-10-02",
+   "fresh": "fresh"
   }
  ]
 }

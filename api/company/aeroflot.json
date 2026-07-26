@@ -3,41 +3,52 @@
  "name": "Aeroflot",
  "cc": "RU",
  "vertical": "Travel & Hospitality",
- "deployments": 1,
- "confirmed": 1,
- "with_value_number": 0,
- "proof_rate": 0.0,
+ "deployments": 12,
+ "confirmed": 4,
+ "with_value_number": 2,
+ "proof_rate": 0.167,
  "mktcap": null,
  "revenue": 6800000000.0,
  "employees": 33500.0,
  "silent": false,
- "per_bn_revenue": 0.15,
- "per_10k_emp": 0.3,
+ "per_bn_revenue": 1.76,
+ "per_10k_emp": 3.58,
  "benchmarks": {
   "global_vertical": {
-   "deployments": 0,
-   "confirmed": 29,
-   "proof_rate": 0,
-   "n": 39
+   "deployments": 90,
+   "confirmed": 62,
+   "proof_rate": 48,
+   "n": 41
   }
  },
- "first_seen": 2026,
+ "first_seen": 2024,
  "by_year": [
   {
+   "year": 2024,
+   "n": 2
+  },
+  {
+   "year": 2025,
+   "n": 6
+  },
+  {
    "year": 2026,
-   "n": 1
+   "n": 4
   }
  ],
  "undated_pct": 0,
- "momentum": "late_entrant,rising",
- "maturity": "L3",
+ "momentum": "early_mover,rising",
+ "maturity": "L4",
  "maturity_evidence": [
+  "multi_horizontal",
   "named_product:Joint",
+  "value_number",
+  "multi_year",
   "tier_p"
  ],
- "prospect_score": 54,
+ "prospect_score": 57,
  "stack": [],
- "vendor_named": false,
+ "vendor_named": true,
  "deployments_detail": [
   {
    "company": "Aeroflot",
@@ -48,6 +59,127 @@
    "url": "https://www.vedomosti.ru/technologies/industries_and_markets/news/2026/06/04/1203135-otrasli",
    "raw_sector": "Aviation",
    "date": "2026-06",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Aeroflot",
+   "use": "AI voice assistant in the Aeroflot contact center handling passenger calls (flight info, booking, online check-in, ticket purchase) in natural dialogue during trial operation, processing up to 600 calls/day (scaling target ~32,000/day, 600 concurrent dialogs). [Vocamate AI (Prof IT) platform on Sber GigaChat LLM + RAG]",
+   "existence": "confirmed",
+   "value": "up to 600 calls/day in pilot; ticket reprocessing cut from ~20 min to ~2 min",
+   "tier": "",
+   "url": "https://www.vocamate.ru/case/Aeroflot_ai_assistent_Vocamate_AI",
+   "raw_sector": "",
+   "date": "2026-05-19",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Aeroflot",
+   "use": "Website customer-service chatbot / digital assistant combining traditional algorithms with generative AI, integrated with Aeroflot's knowledge base to answer FAQs (flight status, check-in, refunds, baggage, Aeroflot Bonus) and escalate complex cases. [none]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://aviation21.ru/cifrovoj-pomoshhnik-aeroflot-uluchshaet-klientskij-servis-s-pomoshhyu-ii/",
+   "raw_sector": "",
+   "date": "2024-10-23",
+   "fresh": "aging"
+  },
+  {
+   "company": "Aeroflot",
+   "use": "Interactive digital avatar 'Vasilisa' on a touchscreen LED kiosk in airports, using an LLM plus RAG to recognize speech/text and generate answers to common passenger questions 24/7, offloading physical information desks. [none]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.aviaport.ru/news/aeroflot-predstavil-na-tsipr-tsifrovogo-avatara-vasilisu/",
+   "raw_sector": "",
+   "date": "2026-05-19",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Aeroflot",
+   "use": "Speech analytics applied to customer service, used to analyze contact-center interactions. [AFLT Systems]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.ato.ru/content/ii-v-aviakompaniyah-ot-eksperimentov-k-prakticheskomu-vnedreniyu",
+   "raw_sector": "",
+   "date": "2025-06-10",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Aeroflot",
+   "use": "Aeroflot and Cloud.ru (AFLT Systems partnership) to build AI-driven passenger services — chatbots, voice assistants, and an operator teleprompter/suggestion tool for the call center — on managed cloud AI to shorten the customer journey and cut routine operator requests. [Cloud.ru / AFLT Systems]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.vedomosti.ru/technologies/trendsrub/news/2026/05/19/1198437-gruppa-aeroflot",
+   "raw_sector": "",
+   "date": "2026-05-19",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Aeroflot",
+   "use": "ASUD, Aeroflot's in-house automated revenue management system built on machine learning / neural networks for demand forecasting (3 days to 1 year horizon), dynamic pricing, and aircraft capacity/load-factor optimization across the route network; built to replace Sabre/Amadeus after 2022. [In-house (Aeroflot / AFLT Systems)]",
+   "existence": "confirmed",
+   "value": "serves 50+ million passengers/year; forecast horizon 3 days–1 year",
+   "tier": "",
+   "url": "https://platforms.su/project/3168",
+   "raw_sector": "",
+   "date": "2024-12-13",
+   "fresh": "aging"
+  },
+  {
+   "company": "Aeroflot",
+   "use": "Machine learning / neural networks on flight telemetry for flight-planning optimization and fuel-efficiency improvements. [AFLT Systems]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.ato.ru/content/ii-v-aviakompaniyah-ot-eksperimentov-k-prakticheskomu-vnedreniyu",
+   "raw_sector": "",
+   "date": "2025-06-10",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Aeroflot",
+   "use": "Neural-network / AI forecasting of demand for specific types of in-flight catering (bortovoe pitanie) to optimize onboard meal provisioning. [none]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.it-world.ru/tech/md0odmbzsjkw00g04wg0w4g0ccskcow.html",
+   "raw_sector": "",
+   "date": "2025-02-03",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Aeroflot",
+   "use": "Generative AI for back-office automation: employee onboarding, internal support, and procurement processes. [AFLT Systems]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.ato.ru/content/ii-v-aviakompaniyah-ot-eksperimentov-k-prakticheskomu-vnedreniyu",
+   "raw_sector": "",
+   "date": "2025-06-10",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Aeroflot",
+   "use": "Computer vision applications for safety/security, structured as an AI direction developed with IT integrator AFLT Systems. [AFLT Systems]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.ato.ru/content/ii-v-aviakompaniyah-ot-eksperimentov-k-prakticheskomu-vnedreniyu",
+   "raw_sector": "",
+   "date": "2025-06-10",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Aeroflot",
+   "use": "Sber–Aeroflot partnership to build a generative-AI 'smart' online travel-planning service on GigaChat that helps passengers select and buy Aeroflot flights and plan trips. [Sber (GigaChat)]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.finam.ru/publications/item/aeroflot-i-sber-sozdadut-ii-servis-dlya-planirovaniya-puteshestviy-20251120-1828/",
+   "raw_sector": "",
+   "date": "2025-11-20",
    "fresh": "fresh"
   }
  ]

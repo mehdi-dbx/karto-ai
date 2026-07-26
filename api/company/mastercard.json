@@ -3,28 +3,28 @@
  "name": "Mastercard",
  "cc": "US",
  "vertical": "Financial Services",
- "deployments": 13,
- "confirmed": 13,
- "with_value_number": 7,
- "proof_rate": 0.538,
+ "deployments": 22,
+ "confirmed": 18,
+ "with_value_number": 8,
+ "proof_rate": 0.364,
  "mktcap": 466180000000.0,
  "revenue": 33940000000.0,
  "employees": 39800.0,
  "silent": false,
- "per_bn_revenue": 0.38,
- "per_10k_emp": 3.27,
+ "per_bn_revenue": 0.65,
+ "per_10k_emp": 5.53,
  "benchmarks": {
   "global_vertical": {
-   "deployments": 98,
+   "deployments": 99,
    "confirmed": 99,
-   "proof_rate": 71,
-   "n": 377
+   "proof_rate": 66,
+   "n": 388
   },
   "country_vertical": {
-   "deployments": 97,
-   "confirmed": 100,
-   "proof_rate": 73,
-   "n": 76
+   "deployments": 100,
+   "confirmed": 99,
+   "proof_rate": 74,
+   "n": 77
   }
  },
  "first_seen": 2016,
@@ -50,7 +50,7 @@
    "n": 2
   }
  ],
- "undated_pct": 8,
+ "undated_pct": 45,
  "momentum": "early_mover,cooling",
  "maturity": "L4",
  "maturity_evidence": [
@@ -59,12 +59,92 @@
   "value_number",
   "multi_year"
  ],
- "prospect_score": 78,
+ "prospect_score": 85,
  "stack": [
-  "Microsoft"
+  "Amazon AWS",
+  "Databricks",
+  "Microsoft",
+  "OpenAI"
  ],
  "vendor_named": true,
  "deployments_detail": [
+  {
+   "company": "Mastercard",
+   "use": "Agentic payments platform for autonomous commerce transactions [Microsoft]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.mastercard.com/us/en/business/artificial-intelligence.html",
+   "raw_sector": "",
+   "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "Mastercard",
+   "use": "Mastercard Agent Suite for enterprise agentic AI deployment",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.digitalcommerce360.com/2026/01/27/mastercard-launches-agent-suite-agentic-ai/amp/",
+   "raw_sector": "",
+   "date": "Jan 27, 2026",
+   "fresh": "undated"
+  },
+  {
+   "company": "Mastercard",
+   "use": "Proprietary generative AI model for cybersecurity, personalization and transaction enhancement",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.mastercard.com/global/en/news-and-trends/stories/2026/mastercard-new-generative-ai-model.html",
+   "raw_sector": "",
+   "date": "Mar 17, 2026",
+   "fresh": "undated"
+  },
+  {
+   "company": "Mastercard",
+   "use": "Agent Pay for Machines for high-frequency, low-latency payment transactions",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.mastercard.com/us/en/news-and-trends/press/2026/june/mastercard-launches-agent-pay-for-machines.html",
+   "raw_sector": "",
+   "date": "Jun 10, 2026",
+   "fresh": "undated"
+  },
+  {
+   "company": "Mastercard",
+   "use": "GenAI customer-support assistant with responsible-AI deployment and human-in-the-loop feedback; automated onboarding [Databricks] [Databricks]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.databricks.com/customers/mastercard",
+   "raw_sector": "",
+   "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "Mastercard",
+   "use": "Named as a Databricks customer/case study [Databricks] [Databricks]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://newsroom.accenture.com/news/2026/accenture-and-databricks-accelerate-enterprise-adoption-of-ai-applications-and-agents-at-scale",
+   "raw_sector": "",
+   "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "Mastercard",
+   "use": "Generative AI intake questionnaire for risk management governance [Credo AI]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.credo.ai/casestudies/mastercard",
+   "raw_sector": "",
+   "date": "missing",
+   "fresh": "undated"
+  },
   {
    "company": "Mastercard",
    "use": "\"Decision Intelligence Pro\" GenAI fraud detection (125B transactions/yr, 50ms) + \"Agent Pay\" agentic payments (Microsoft)",
@@ -73,6 +153,28 @@
    "tier": "S",
    "url": "https://www.mastercard.com/us/en/business/cybersecurity-fraud-prevention/risk-decisioning/decision-intelligence.html",
    "raw_sector": "Financials",
+   "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "Mastercard",
+   "use": "Card fraud detection acceleration using generative AI",
+   "existence": "confirmed",
+   "value": "2x speed improvement",
+   "tier": "",
+   "url": "https://www.mastercard.com/us/en/news-and-trends/press/2024/may/mastercard-accelerates-card-fraud-detection-with-generative-ai-technology.html",
+   "raw_sector": "",
+   "date": "May 22, 2024",
+   "fresh": "undated"
+  },
+  {
+   "company": "Mastercard",
+   "use": "AI payment fraud detection solution with transaction scoring and model retraining",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.mastercard.com/gateway/payment-solutions/secure-payments/fraud-protection/ai-payment-fraud-solution.html",
+   "raw_sector": "",
    "date": "missing",
    "fresh": "undated"
   },

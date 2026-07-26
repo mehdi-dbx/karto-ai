@@ -3,22 +3,22 @@
  "name": "Elia Group",
  "cc": "BE",
  "vertical": "Energy & Utilities",
- "deployments": 2,
- "confirmed": 1,
+ "deployments": 5,
+ "confirmed": 4,
  "with_value_number": 1,
- "proof_rate": 0.5,
+ "proof_rate": 0.2,
  "mktcap": 16480800000.0,
  "revenue": 4795200000.0,
  "employees": 4572.0,
  "silent": false,
- "per_bn_revenue": 0.42,
- "per_10k_emp": 4.37,
+ "per_bn_revenue": 1.04,
+ "per_10k_emp": 10.94,
  "benchmarks": {
   "global_vertical": {
-   "deployments": 72,
-   "confirmed": 20,
-   "proof_rate": 69,
-   "n": 210
+   "deployments": 53,
+   "confirmed": 58,
+   "proof_rate": 50,
+   "n": 213
   }
  },
  "first_seen": 2024,
@@ -32,15 +32,18 @@
    "n": 1
   }
  ],
- "undated_pct": 0,
+ "undated_pct": 60,
  "momentum": "early_mover,flat",
- "maturity": "L2",
+ "maturity": "L3",
  "maturity_evidence": [
+  "named_product:Artificial",
   "tier_p"
  ],
- "prospect_score": 34,
- "stack": [],
- "vendor_named": false,
+ "prospect_score": 56,
+ "stack": [
+  "Google"
+ ],
+ "vendor_named": true,
  "deployments_detail": [
   {
    "company": "Elia Group",
@@ -63,6 +66,39 @@
    "raw_sector": "Utilities",
    "date": "2025",
    "fresh": "fresh"
+  },
+  {
+   "company": "Elia Group",
+   "use": "AI to optimize transmission operations",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.enlit.world/library/how-elia-is-using-ai-to-optimise-its-transmission-operations",
+   "raw_sector": "",
+   "date": "Mar 27, 2024",
+   "fresh": "undated"
+  },
+  {
+   "company": "Elia Group",
+   "use": "Artificial neural network to calculate grid losses for the next day",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://innovation.eliagroup.eu/en/projects/using-artificial-intelligence-to-reduce-the-cost-of-transmission-losses",
+   "raw_sector": "",
+   "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "Elia Group",
+   "use": "Vertex AI to measure and model carbon intensity of the power grid [Vertex AI]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://cloud.google.com/blog/topics/customers/how-elia-group-helps-businesses-cut-carbon-emissions-with-vertex-ai",
+   "raw_sector": "",
+   "date": "Nov 4, 2024",
+   "fresh": "undated"
   }
  ]
 }

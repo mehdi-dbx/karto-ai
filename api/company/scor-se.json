@@ -3,22 +3,22 @@
  "name": "Scor SE",
  "cc": "FR",
  "vertical": "Insurance",
- "deployments": 1,
- "confirmed": 1,
+ "deployments": 6,
+ "confirmed": 2,
  "with_value_number": 1,
- "proof_rate": 1.0,
+ "proof_rate": 0.167,
  "mktcap": 6382800000.0,
  "revenue": 16718400000.0,
  "employees": 3610.0,
  "silent": false,
- "per_bn_revenue": 0.06,
- "per_10k_emp": 2.77,
+ "per_bn_revenue": 0.36,
+ "per_10k_emp": 16.62,
  "benchmarks": {
   "global_vertical": {
-   "deployments": 0,
-   "confirmed": 14,
-   "proof_rate": 75,
-   "n": 60
+   "deployments": 39,
+   "confirmed": 15,
+   "proof_rate": 29,
+   "n": 63
   }
  },
  "first_seen": 2024,
@@ -28,16 +28,19 @@
    "n": 1
   }
  ],
- "undated_pct": 0,
+ "undated_pct": 83,
  "momentum": "early_mover,gone_quiet",
  "maturity": "L3",
  "maturity_evidence": [
+  "multi_horizontal",
   "named_product:Generative",
   "value_number"
  ],
- "prospect_score": 14,
- "stack": [],
- "vendor_named": false,
+ "prospect_score": 45,
+ "stack": [
+  "IBM"
+ ],
+ "vendor_named": true,
  "deployments_detail": [
   {
    "company": "Scor SE",
@@ -49,6 +52,61 @@
    "raw_sector": "Reinsurance",
    "date": "2024-05",
    "fresh": "aging"
+  },
+  {
+   "company": "Scor SE",
+   "use": "AI-powered risk assessment with medical data extraction",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.scordigitalsolutions.com/",
+   "raw_sector": "",
+   "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "Scor SE",
+   "use": "Generative AI for risk assessment",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.linkedin.com/posts/scor_at-scor-were-leveraging-the-power-of-generative-activity-7378444740691902466-Oe2U",
+   "raw_sector": "",
+   "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "Scor SE",
+   "use": "Claims processing automation using rules engine [VClaims]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.scor.com/en/news/latest-deployment-scors-vclaims-marks-major-milestone-australia-and-new-zealand",
+   "raw_sector": "",
+   "date": "Feb 24, 2026",
+   "fresh": "undated"
+  },
+  {
+   "company": "Scor SE",
+   "use": "Predictive insights and decision prioritization from operational data",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.linkedin.com/posts/scor_crafted-by-ai-about-ai-at-scor-ai-isnt-activity-7346161058539053058-gvvu",
+   "raw_sector": "",
+   "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "Scor SE",
+   "use": "AI risk mitigation and user engagement [IBM Watson]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.ibm.com/case-studies/scor-se-ai-watson-cloud",
+   "raw_sector": "",
+   "date": "missing",
+   "fresh": "undated"
   }
  ]
 }

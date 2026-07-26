@@ -3,45 +3,63 @@
  "name": "Sabancı Holding",
  "cc": "TR",
  "vertical": "Manufacturing & Robotics",
- "deployments": 1,
- "confirmed": 1,
- "with_value_number": 0,
- "proof_rate": 0.0,
+ "deployments": 2,
+ "confirmed": 2,
+ "with_value_number": 1,
+ "proof_rate": 0.5,
  "mktcap": 5848125000.0,
  "revenue": 8134375000.0,
  "employees": 60769.0,
  "silent": false,
- "per_bn_revenue": 0.12,
- "per_10k_emp": 0.16,
+ "per_bn_revenue": 0.25,
+ "per_10k_emp": 0.33,
  "benchmarks": {
   "global_vertical": {
-   "deployments": 0,
-   "confirmed": 24,
-   "proof_rate": 0,
-   "n": 147
+   "deployments": 12,
+   "confirmed": 34,
+   "proof_rate": 83,
+   "n": 150
   },
   "country_vertical": {
-   "deployments": 0,
-   "confirmed": 67,
-   "proof_rate": 0,
-   "n": 10
+   "deployments": 20,
+   "confirmed": 60,
+   "proof_rate": 80,
+   "n": 11
   }
  },
- "first_seen": null,
- "by_year": [],
- "undated_pct": 100,
- "momentum": "none",
+ "first_seen": 2025,
+ "by_year": [
+  {
+   "year": 2025,
+   "n": 1
+  }
+ ],
+ "undated_pct": 50,
+ "momentum": "rising",
  "maturity": "L3",
  "maturity_evidence": [
+  "multi_horizontal",
   "named_product:Microsoft",
+  "value_number",
   "tier_p"
  ],
- "prospect_score": 46,
+ "prospect_score": 32,
  "stack": [
   "Microsoft"
  ],
  "vendor_named": true,
  "deployments_detail": [
+  {
+   "company": "Sabancı Holding",
+   "use": "Data unification and decision-making acceleration with AI Co-Executive for board members [Microsoft Fabric, Microsoft 365 Copilot]",
+   "existence": "confirmed",
+   "value": "30%",
+   "tier": "",
+   "url": "https://www.microsoft.com/en/customers/story/24081-sabanci-holding-microsoft-fabric",
+   "raw_sector": "",
+   "date": "2025-05-21",
+   "fresh": "fresh"
+  },
   {
    "company": "Sabancı Holding",
    "use": "SabancıDx (group tech arm) AI-enabled hybrid cloud solution center, developed with Microsoft, delivering AI solutions to enterprises in Turkey and globally",

@@ -3,36 +3,49 @@
  "name": "Telefônica Brasil",
  "cc": "BR",
  "vertical": "Telecom",
- "deployments": 1,
- "confirmed": 1,
+ "deployments": 4,
+ "confirmed": 2,
  "with_value_number": 1,
- "proof_rate": 1.0,
+ "proof_rate": 0.25,
  "mktcap": 20937037037.0,
  "revenue": 11233333333.0,
  "employees": 35010.0,
  "silent": false,
- "per_bn_revenue": 0.09,
- "per_10k_emp": 0.29,
+ "per_bn_revenue": 0.36,
+ "per_10k_emp": 1.14,
  "benchmarks": {
   "global_vertical": {
-   "deployments": 0,
-   "confirmed": 16,
-   "proof_rate": 78,
-   "n": 93
+   "deployments": 14,
+   "confirmed": 9,
+   "proof_rate": 34,
+   "n": 94
   }
  },
- "first_seen": null,
- "by_year": [],
- "undated_pct": 100,
- "momentum": "none",
+ "first_seen": 2024,
+ "by_year": [
+  {
+   "year": 2024,
+   "n": 1
+  },
+  {
+   "year": 2025,
+   "n": 2
+  }
+ ],
+ "undated_pct": 25,
+ "momentum": "early_mover,rising",
  "maturity": "L3",
  "maturity_evidence": [
   "named_product:Ajuda",
   "value_number"
  ],
- "prospect_score": 14,
- "stack": [],
- "vendor_named": false,
+ "prospect_score": 42,
+ "stack": [
+  "Microsoft",
+  "Microsoft Azure",
+  "OpenAI"
+ ],
+ "vendor_named": true,
  "deployments_detail": [
   {
    "company": "Telefônica Brasil",
@@ -44,6 +57,39 @@
    "raw_sector": "Telefonia",
    "date": "missing",
    "fresh": "undated"
+  },
+  {
+   "company": "Telefônica Brasil",
+   "use": "AI-powered call center assistant for customer service [Azure OpenAI Service]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.microsoft.com/en/customers/story/23109-telefonica-brasil-azure-open-ai-service",
+   "raw_sector": "",
+   "date": "2025-02-04",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Telefônica Brasil",
+   "use": "Generative AI for virtual agents handling customer queries",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://tecknexus.com/telefonicas-generative-ai-integration-enhancing-telecom-operations-customer-experience/",
+   "raw_sector": "",
+   "date": "2025-04-05",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Telefônica Brasil",
+   "use": "AI deployment for network operations and security optimization",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.unesco.org/ethics-ai/en/articles/insights-practice-telefonicas-ai-governance-journey",
+   "raw_sector": "",
+   "date": "2024-02-02",
+   "fresh": "aging"
   }
  ]
 }

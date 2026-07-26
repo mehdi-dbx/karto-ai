@@ -3,26 +3,26 @@
  "name": "Xcel Energy",
  "cc": "US",
  "vertical": "Energy & Utilities",
- "deployments": 1,
- "confirmed": 1,
+ "deployments": 4,
+ "confirmed": 4,
  "with_value_number": 0,
  "proof_rate": 0.0,
  "mktcap": 50310000000.0,
  "revenue": 14780000000.0,
  "employees": 11534.0,
  "silent": false,
- "per_bn_revenue": 0.07,
- "per_10k_emp": 0.87,
+ "per_bn_revenue": 0.27,
+ "per_10k_emp": 3.47,
  "benchmarks": {
   "global_vertical": {
-   "deployments": 0,
-   "confirmed": 20,
+   "deployments": 40,
+   "confirmed": 58,
    "proof_rate": 0,
-   "n": 210
+   "n": 213
   },
   "country_vertical": {
-   "deployments": 0,
-   "confirmed": 39,
+   "deployments": 47,
+   "confirmed": 67,
    "proof_rate": 0,
    "n": 52
   }
@@ -33,12 +33,15 @@
  "momentum": "none",
  "maturity": "L3",
  "maturity_evidence": [
+  "multi_horizontal",
   "named_product:Pano",
   "tier_p"
  ],
- "prospect_score": 54,
- "stack": [],
- "vendor_named": false,
+ "prospect_score": 64,
+ "stack": [
+  "Databricks"
+ ],
+ "vendor_named": true,
  "deployments_detail": [
   {
    "company": "Xcel Energy",
@@ -49,6 +52,39 @@
    "url": "https://newsroom.xcelenergy.com/news/releases-20260514",
    "raw_sector": "Utilities",
    "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "Xcel Energy",
+   "use": "RAG-based chatbot for utility operations and customer service including rate case reviews and legal contract analysis [Databricks]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.databricks.com/blog/xcel-energy-rag",
+   "raw_sector": "",
+   "date": "Nov 25, 2024",
+   "fresh": "undated"
+  },
+  {
+   "company": "Xcel Energy",
+   "use": "AI-driven wildfire detection cameras for early fire spotting and first responder notifications [Pano AI]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://newsroom.xcelenergy.com/news/xcel-energy-brings-ai-driven-wildfire-detection-to-minnesota",
+   "raw_sector": "",
+   "date": "Oct 9, 2025",
+   "fresh": "undated"
+  },
+  {
+   "company": "Xcel Energy",
+   "use": "AI-driven wildfire detection in Texas Panhandle [Pano AI]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://investors.xcelenergy.com/news-events/news-releases/news-details/2024/Xcel-Energy-Using-AI-Technology-to-Detect-Wildfires-in-Texas-Panhandle/default.aspx",
+   "raw_sector": "",
+   "date": "Dec 3, 2024",
    "fresh": "undated"
   }
  ]

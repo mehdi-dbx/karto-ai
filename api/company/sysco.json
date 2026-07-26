@@ -3,27 +3,27 @@
  "name": "Sysco",
  "cc": "US",
  "vertical": "Retail & E-commerce",
- "deployments": 10,
- "confirmed": 9,
- "with_value_number": 3,
- "proof_rate": 0.3,
+ "deployments": 15,
+ "confirmed": 12,
+ "with_value_number": 5,
+ "proof_rate": 0.333,
  "mktcap": 38780000000.0,
  "revenue": 83570000000.0,
  "employees": 75000.0,
  "silent": false,
- "per_bn_revenue": 0.12,
- "per_10k_emp": 1.33,
+ "per_bn_revenue": 0.18,
+ "per_10k_emp": 2.0,
  "benchmarks": {
   "global_vertical": {
    "deployments": 93,
-   "confirmed": 94,
-   "proof_rate": 65,
-   "n": 295
+   "confirmed": 91,
+   "proof_rate": 62,
+   "n": 301
   },
   "country_vertical": {
-   "deployments": 84,
-   "confirmed": 85,
-   "proof_rate": 73,
+   "deployments": 82,
+   "confirmed": 81,
+   "proof_rate": 66,
    "n": 80
   }
  },
@@ -50,7 +50,7 @@
    "n": 2
   }
  ],
- "undated_pct": 0,
+ "undated_pct": 33,
  "momentum": "early_mover,rising",
  "maturity": "L4",
  "maturity_evidence": [
@@ -59,10 +59,59 @@
   "value_number",
   "multi_year"
  ],
- "prospect_score": 90,
- "stack": [],
- "vendor_named": false,
+ "prospect_score": 87,
+ "stack": [
+  "Amazon AWS",
+  "Google",
+  "Google Cloud",
+  "Salesforce"
+ ],
+ "vendor_named": true,
  "deployments_detail": [
+  {
+   "company": "Sysco",
+   "use": "AI agent platform for standardizing development, governance and deployment of AI solutions",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://sysco.com/en-us/sysco-wins-newsweeks-2026-ai-impact-award-for-ai-brand-retail-excellence",
+   "raw_sector": "",
+   "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "Sysco",
+   "use": "AI for food safety: supplier monitoring, predictive analytics, and environmental testing",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://sysco.com/en-us/how-ai-is-shaping-the-future-of-food-safety",
+   "raw_sector": "",
+   "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "Sysco",
+   "use": "AI and generative AI for inventory management, warehouse logistics optimization, and delivery route optimization",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://mitsloan.mit.edu/ideas-made-to-matter/incorporating-generative-ai-your-companys-technology-strategy",
+   "raw_sector": "",
+   "date": "Feb 27, 2024",
+   "fresh": "undated"
+  },
+  {
+   "company": "Sysco",
+   "use": "RPA for transaction processing in food distribution [Blue Prism]",
+   "existence": "confirmed",
+   "value": "5.1 million transactions; 200000 hours",
+   "tier": "",
+   "url": "https://www.blueprism.com/resources/case-studies/sysco-maintains-team-excellence-while-rapidly-scaling-a-digital-workforce/",
+   "raw_sector": "",
+   "date": "missing",
+   "fresh": "undated"
+  },
   {
    "company": "Sysco",
    "use": "\"AI360\" sales platform (~90% of sales consultants use it) + \"SAGE\" agentic ecosystem across forecasting/inventory",
@@ -73,6 +122,17 @@
    "raw_sector": "Consumer Staples",
    "date": "2025",
    "fresh": "fresh"
+  },
+  {
+   "company": "Sysco",
+   "use": "AI360 platform for sales consultants to respond to customer questions and identify selling opportunities",
+   "existence": "confirmed",
+   "value": "90%",
+   "tier": "",
+   "url": "https://www.digitalcommerce360.com/2025/10/31/sysco-puts-ai-at-the-center-of-its-sales-rebound-in-q1/",
+   "raw_sector": "",
+   "date": "Oct 31, 2025",
+   "fresh": "undated"
   },
   {
    "company": "Sysco",

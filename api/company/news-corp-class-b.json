@@ -3,26 +3,26 @@
  "name": "News Corp (Class B)",
  "cc": "US",
  "vertical": "Telecom",
- "deployments": 1,
- "confirmed": 0,
+ "deployments": 3,
+ "confirmed": 2,
  "with_value_number": 0,
  "proof_rate": 0.0,
  "mktcap": 15460000000.0,
  "revenue": 8800000000.0,
  "employees": 23900.0,
  "silent": false,
- "per_bn_revenue": 0.11,
- "per_10k_emp": 0.42,
+ "per_bn_revenue": 0.34,
+ "per_10k_emp": 1.26,
  "benchmarks": {
   "global_vertical": {
-   "deployments": 0,
-   "confirmed": 0,
+   "deployments": 6,
+   "confirmed": 9,
    "proof_rate": 0,
-   "n": 93
+   "n": 94
   },
   "country_vertical": {
    "deployments": 0,
-   "confirmed": 0,
+   "confirmed": 9,
    "proof_rate": 0,
    "n": 23
   }
@@ -31,21 +31,48 @@
  "by_year": [
   {
    "year": 2024,
+   "n": 2
+  },
+  {
+   "year": 2026,
    "n": 1
   }
  ],
  "undated_pct": 0,
- "momentum": "early_mover,gone_quiet",
- "maturity": "L1",
+ "momentum": "early_mover,cooling",
+ "maturity": "L3",
  "maturity_evidence": [
-  "rows_no_confirmed"
+  "named_product:Premium",
+  "multi_year"
  ],
- "prospect_score": 40,
+ "prospect_score": 52,
  "stack": [
   "OpenAI"
  ],
  "vendor_named": true,
  "deployments_detail": [
+  {
+   "company": "News Corp (Class B)",
+   "use": "Premium journalism enrichment for generative AI products [OpenAI]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://investors.newscorp.com/news-releases/news-release-details/news-corp-and-openai-sign-landmark-multi-year-global-partnership",
+   "raw_sector": "",
+   "date": "2024-05-22",
+   "fresh": "aging"
+  },
+  {
+   "company": "News Corp (Class B)",
+   "use": "AI-native publishing platform with transcription, archival tagging, and disinformation detection [Symbolic.ai]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://symbolic.ai/news/symbolic.ai-partners-with-news-corp-to-deploy-ai-publishing-platform",
+   "raw_sector": "",
+   "date": "2026-01-15",
+   "fresh": "fresh"
+  },
   {
    "company": "News Corp (Class B)",
    "use": "Same entity as Class A — OpenAI content-licensing partnership",

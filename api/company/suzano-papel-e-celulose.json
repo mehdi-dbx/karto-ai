@@ -3,27 +3,27 @@
  "name": "Suzano Papel e Celulose",
  "cc": "BR",
  "vertical": "Manufacturing & Robotics",
- "deployments": 1,
- "confirmed": 1,
+ "deployments": 8,
+ "confirmed": 4,
  "with_value_number": 1,
- "proof_rate": 1.0,
+ "proof_rate": 0.125,
  "mktcap": 9764814815.0,
  "revenue": 9172222222.0,
  "employees": 35000.0,
  "silent": false,
- "per_bn_revenue": 0.11,
- "per_10k_emp": 0.29,
+ "per_bn_revenue": 0.87,
+ "per_10k_emp": 2.29,
  "benchmarks": {
   "global_vertical": {
-   "deployments": 0,
-   "confirmed": 24,
-   "proof_rate": 85,
-   "n": 147
+   "deployments": 72,
+   "confirmed": 66,
+   "proof_rate": 54,
+   "n": 150
   },
   "country_vertical": {
-   "deployments": 0,
-   "confirmed": 0,
-   "proof_rate": 50,
+   "deployments": 88,
+   "confirmed": 62,
+   "proof_rate": 38,
    "n": 9
   }
  },
@@ -34,18 +34,44 @@
    "n": 1
   }
  ],
- "undated_pct": 0,
+ "undated_pct": 88,
  "momentum": "early_mover,gone_quiet",
  "maturity": "L3",
  "maturity_evidence": [
+  "multi_horizontal",
   "named_product:Ana",
   "value_number",
   "tier_p"
  ],
- "prospect_score": 14,
- "stack": [],
- "vendor_named": false,
+ "prospect_score": 59,
+ "stack": [
+  "Google Cloud",
+  "Microsoft"
+ ],
+ "vendor_named": true,
  "deployments_detail": [
+  {
+   "company": "Suzano Papel e Celulose",
+   "use": "Natural language search over cloud-based data sources using generative AI [Google Cloud Generative AI]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://cloud.google.com/customers/suzano-genai-cortex",
+   "raw_sector": "",
+   "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "Suzano Papel e Celulose",
+   "use": "Tetrys algorithm for scenario evaluation using analytics, big data and AI",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.suzano.com.br/en/innovation/process-innovation",
+   "raw_sector": "",
+   "date": "missing",
+   "fresh": "undated"
+  },
   {
    "company": "Suzano Papel e Celulose",
    "use": "Ana Maria generative AI (Microsoft) integrated into the cellulose cooking process at Três Lagoas to improve operational efficiency",
@@ -56,6 +82,61 @@
    "raw_sector": "Materiais básicos",
    "date": "2024",
    "fresh": "aging"
+  },
+  {
+   "company": "Suzano Papel e Celulose",
+   "use": "Quality control and defect detection in paper production using machine vision [Papertech WebInspector® AI]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://papertech-vision.com/news/newsdetail/suzano-and-papertech-complete-first-webinspectorr-ai-installation-in-south-america",
+   "raw_sector": "",
+   "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "Suzano Papel e Celulose",
+   "use": "AI-powered land use and forest management for climate change mitigation [Marvin]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://globalventuring.com/corporate/industrial/brazilian-paper-maker-suzano-invests-in-ai-land-use-startup-to-stay-ahead-of-climate-change/",
+   "raw_sector": "",
+   "date": "Jan 13, 2025",
+   "fresh": "undated"
+  },
+  {
+   "company": "Suzano Papel e Celulose",
+   "use": "Geospatial AI for paper supply chain sustainability [Marvin]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://sustainabilitymag.com/articles/suzano-how-geospatial-ai-can-support-paper-supply-chains",
+   "raw_sector": "",
+   "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "Suzano Papel e Celulose",
+   "use": "Generative AI solution for industrial efficiency in cellulose production [Microsoft]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://news.microsoft.com/source/latam/features/transformacao-digital-pt-br/microsoft-e-suzano-desenvolvem-solucao-para-impulsionar-eficiencia-industrial-com-ia-generativa/?lang=pt-br",
+   "raw_sector": "",
+   "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "Suzano Papel e Celulose",
+   "use": "AI-powered conservation and nature education partnership [Tencent]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.suzanoasia.com.cn/en/presses_releases/suzano-forms-partnership-with-tencent-and-ecofuturo-institute-at-cop30-for-ai-powered-conservation-and-nature-education/",
+   "raw_sector": "",
+   "date": "missing",
+   "fresh": "undated"
   }
  ]
 }

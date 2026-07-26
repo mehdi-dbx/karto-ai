@@ -3,26 +3,26 @@
  "name": "Woolworths Holdings",
  "cc": "ZA",
  "vertical": "Retail & E-commerce",
- "deployments": 1,
- "confirmed": 1,
+ "deployments": 5,
+ "confirmed": 5,
  "with_value_number": 0,
  "proof_rate": 0.0,
  "mktcap": 2280540541.0,
  "revenue": 4411351351.0,
  "employees": 37714.0,
  "silent": false,
- "per_bn_revenue": 0.23,
- "per_10k_emp": 0.27,
+ "per_bn_revenue": 1.13,
+ "per_10k_emp": 1.33,
  "benchmarks": {
   "global_vertical": {
-   "deployments": 0,
-   "confirmed": 24,
+   "deployments": 39,
+   "confirmed": 53,
    "proof_rate": 0,
-   "n": 295
+   "n": 301
   },
   "country_vertical": {
-   "deployments": 0,
-   "confirmed": 40,
+   "deployments": 60,
+   "confirmed": 60,
    "proof_rate": 0,
    "n": 6
   }
@@ -31,19 +31,50 @@
  "by_year": [
   {
    "year": 2025,
+   "n": 2
+  },
+  {
+   "year": 2026,
    "n": 1
   }
  ],
- "undated_pct": 0,
+ "undated_pct": 40,
  "momentum": "rising",
  "maturity": "L3",
  "maturity_evidence": [
-  "named_product:Woolies"
+  "multi_horizontal",
+  "named_product:Woolies",
+  "multi_year"
  ],
- "prospect_score": 54,
- "stack": [],
- "vendor_named": false,
+ "prospect_score": 70,
+ "stack": [
+  "Google",
+  "Google Cloud"
+ ],
+ "vendor_named": true,
  "deployments_detail": [
+  {
+   "company": "Woolworths Holdings",
+   "use": "Scan&Go Trolley smart shopping device for budget tracking and self-checkout [Hanshow]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.reta-europe.com/best-artificial-intelligence-2025-woolworths-group/",
+   "raw_sector": "",
+   "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "Woolworths Holdings",
+   "use": "Employee education on secure, responsible and ethical AI deployment",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.woolworthsholdings.co.za/wp-content/uploads/2025/09/Integrated_Annual_Report_2025.pdf",
+   "raw_sector": "",
+   "date": "2025-09-29",
+   "fresh": "fresh"
+  },
   {
    "company": "Woolworths Holdings",
    "use": "My Woolies Chef conversational AI shopping assistant in the Woolworths/Woolies Dash app for meal ideas and ingredient shopping",
@@ -54,6 +85,28 @@
    "raw_sector": "Retail",
    "date": "2025",
    "fresh": "fresh"
+  },
+  {
+   "company": "Woolworths Holdings",
+   "use": "Olive digital shopping assistant powered by agentic AI [Google Cloud Gemini]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.computerweekly.com/news/366636923/Woolworths-to-power-Olive-digital-assistant-with-agentic-AI",
+   "raw_sector": "",
+   "date": "2026-01-12",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Woolworths Holdings",
+   "use": "Conversational AI for voice, email, chat and SMS communications [Genesys]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.genesys.com/customer-stories/woolworths",
+   "raw_sector": "",
+   "date": "missing",
+   "fresh": "undated"
   }
  ]
 }

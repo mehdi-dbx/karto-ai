@@ -3,48 +3,128 @@
  "name": "Norfolk Southern",
  "cc": "US",
  "vertical": "Industrial / Machinery",
- "deployments": 1,
- "confirmed": 1,
- "with_value_number": 0,
- "proof_rate": 0.0,
+ "deployments": 11,
+ "confirmed": 9,
+ "with_value_number": 4,
+ "proof_rate": 0.364,
  "mktcap": 78200000000.0,
  "revenue": 12540000000.0,
  "employees": 19300.0,
  "silent": false,
- "per_bn_revenue": 0.08,
- "per_10k_emp": 0.52,
+ "per_bn_revenue": 0.88,
+ "per_10k_emp": 5.7,
  "benchmarks": {
   "global_vertical": {
-   "deployments": 0,
-   "confirmed": 14,
-   "proof_rate": 0,
-   "n": 175
+   "deployments": 82,
+   "confirmed": 84,
+   "proof_rate": 89,
+   "n": 176
   },
   "country_vertical": {
-   "deployments": 0,
-   "confirmed": 19,
-   "proof_rate": 0,
-   "n": 80
+   "deployments": 85,
+   "confirmed": 89,
+   "proof_rate": 96,
+   "n": 81
   }
  },
  "first_seen": 2023,
  "by_year": [
   {
    "year": 2023,
+   "n": 2
+  },
+  {
+   "year": 2025,
+   "n": 8
+  },
+  {
+   "year": 2026,
    "n": 1
   }
  ],
  "undated_pct": 0,
- "momentum": "early_mover,gone_quiet",
- "maturity": "L3",
+ "momentum": "early_mover,rising",
+ "maturity": "L4",
  "maturity_evidence": [
+  "multi_horizontal",
   "named_product:Digital",
+  "value_number",
+  "multi_year",
   "tier_p"
  ],
- "prospect_score": 54,
- "stack": [],
- "vendor_named": false,
+ "prospect_score": 79,
+ "stack": [
+  "Microsoft",
+  "OpenAI"
+ ],
+ "vendor_named": true,
  "deployments_detail": [
+  {
+   "company": "Norfolk Southern",
+   "use": "Digital Train Inspection (DTI) Portals: trackside machine-vision portals with 24MP cameras and stadium lighting capture ~1,000 360-degree images per railcar at up to 70 mph; 75+ in-house deep-learning algorithms autonomously flag mechanical defects (cracked wheels, missing/broken components) and auto-generate work orders. Deployed at multiple locations across the 22-state network. [Norfolk Southern in-house Data Science/AI team; Georgia Tech Research Institute (partner)]",
+   "existence": "confirmed",
+   "value": "25,000+ mechanical defects identified in 2023; 85 Tier 1 critical defects detected; first-ever autonomous cracked-wheel detection in North American rail",
+   "tier": "",
+   "url": "https://www.norfolksouthern.com/en/newsroom/news-archive/2023/norfolk-southern-launches-ai-train-inspection-technology",
+   "raw_sector": "",
+   "date": "2023-10-25",
+   "fresh": "stale"
+  },
+  {
+   "company": "Norfolk Southern",
+   "use": "Automated Track Geometry Measurement System (ATGMS): sensors and lasers mounted under in-service locomotives continuously measure track geometry (alignment, gauge, etc.) under load in real time, with AI/analytics processing the data to identify problem areas for predictive maintenance instead of relying on dedicated geometry cars. [none]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.norfolksouthern.com/en/newsroom/story-yard/reimagining-rail-inspection-with-atgms",
+   "raw_sector": "",
+   "date": "2025-09-23",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Norfolk Southern",
+   "use": "Predictive maintenance of the locomotive fleet: onboard sensors stream 300+ diagnostic readings (oil pressure, water temperature, component health) in real time to back-office ML models that forecast equipment failures before they occur. [none]",
+   "existence": "confirmed",
+   "value": "300+ sensory readings per locomotive",
+   "tier": "",
+   "url": "https://www.innovationleader.com/transportation/how-norfolk-southern-is-using-ai-to-help-move-the-us-economy/",
+   "raw_sector": "",
+   "date": "2025-07-23",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Norfolk Southern",
+   "use": "Predictive track/infrastructure maintenance planning: data-science models aggregate inspection and geometry-car data to forecast track replacement needs up to five years out at specific track-section precision, optimizing the annual capital program. [none]",
+   "existence": "confirmed",
+   "value": "Forecasts 5 years ahead; helps optimize ~$1 billion annual capital spend",
+   "tier": "",
+   "url": "https://thefutureorganization.com/inside-ai-transformation-200-year-old-railroad/",
+   "raw_sector": "",
+   "date": "2025-12-22",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Norfolk Southern",
+   "use": "Digital twin technology: continuously updated virtual replicas of locomotives and track infrastructure integrate IoT sensors, historical data, AI and predictive analytics to simulate freight flows and yard activity, anticipate bottlenecks, and improve scheduling and network fluidity. [none]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.norfolksouthern.com/en/newsroom/story-yard/virtual-railroads--real-impact--how-digital-twins-drive-efficiency",
+   "raw_sector": "",
+   "date": "2026-01-14",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Norfolk Southern",
+   "use": "Locomotive scheduling and planning AI: models help determine train routing, car sequencing, and destinations to improve network fluidity and operational efficiency. [none]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.innovationleader.com/transportation/how-norfolk-southern-is-using-ai-to-help-move-the-us-economy/",
+   "raw_sector": "",
+   "date": "2025-07-23",
+   "fresh": "fresh"
+  },
   {
    "company": "Norfolk Southern",
    "use": "Digital Train Inspection (DTI) portals w/ AI machine vision (Georgia Tech) scanning passing trains for defects",
@@ -55,6 +135,50 @@
    "raw_sector": "Industrials",
    "date": "2023",
    "fresh": "stale"
+  },
+  {
+   "company": "Norfolk Southern",
+   "use": "Microsoft Copilot rolled out to employees as a productivity assistant to augment associate workflows across departments (part of NS's copilot-adoption program under its '3 As' enterprise data framework). [Microsoft (Copilot)]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.innovationleader.com/transportation/how-norfolk-southern-is-using-ai-to-help-move-the-us-economy/",
+   "raw_sector": "",
+   "date": "2025-07-23",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Norfolk Southern",
+   "use": "ChatGPT-like generative-AI productivity tools provided to employees across departments; NS reports hundreds of AI-powered solutions in production and is rolling out AI-assisted tools broadly. [none]",
+   "existence": "confirmed",
+   "value": "hundreds of AI solutions in production (company states ~300-400 across domains)",
+   "tier": "",
+   "url": "https://www.innovationleader.com/transportation/how-norfolk-southern-is-using-ai-to-help-move-the-us-economy/",
+   "raw_sector": "",
+   "date": "2025-07-23",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Norfolk Southern",
+   "use": "Legal department rulebook digitization pilot: generative-AI tool to digitize operating rulebooks and enable quick topic-based search of rules. [none]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.progressiverailroading.com/railPrime/details/Why-is-NS-high-on-AI-To-turn-finders-into-fixers--74107",
+   "raw_sector": "",
+   "date": "2025-03-18",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Norfolk Southern",
+   "use": "AI-assisted code development tools for the technology division to help engineers write and develop software. [none]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.innovationleader.com/transportation/how-norfolk-southern-is-using-ai-to-help-move-the-us-economy/",
+   "raw_sector": "",
+   "date": "2025-07-23",
+   "fresh": "fresh"
   }
  ]
 }

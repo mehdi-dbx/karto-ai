@@ -3,45 +3,78 @@
  "name": "McCormick & Company",
  "cc": "US",
  "vertical": "Retail & E-commerce",
- "deployments": 1,
- "confirmed": 1,
+ "deployments": 3,
+ "confirmed": 3,
  "with_value_number": 0,
  "proof_rate": 0.0,
  "mktcap": 13600000000.0,
  "revenue": 7390000000.0,
  "employees": 14100.0,
  "silent": false,
- "per_bn_revenue": 0.14,
- "per_10k_emp": 0.71,
+ "per_bn_revenue": 0.41,
+ "per_10k_emp": 2.13,
  "benchmarks": {
   "global_vertical": {
-   "deployments": 0,
-   "confirmed": 24,
+   "deployments": 19,
+   "confirmed": 32,
    "proof_rate": 0,
-   "n": 295
+   "n": 301
   },
   "country_vertical": {
-   "deployments": 0,
-   "confirmed": 25,
+   "deployments": 8,
+   "confirmed": 22,
    "proof_rate": 0,
    "n": 80
   }
  },
- "first_seen": null,
- "by_year": [],
- "undated_pct": 100,
- "momentum": "none",
- "maturity": "L3",
+ "first_seen": 2019,
+ "by_year": [
+  {
+   "year": 2019,
+   "n": 1
+  },
+  {
+   "year": 2025,
+   "n": 1
+  }
+ ],
+ "undated_pct": 33,
+ "momentum": "early_mover,rising",
+ "maturity": "L4",
  "maturity_evidence": [
+  "multi_horizontal",
   "named_product:IBM",
+  "multi_year",
   "tier_p"
  ],
- "prospect_score": 46,
+ "prospect_score": 58,
  "stack": [
   "IBM"
  ],
  "vendor_named": true,
  "deployments_detail": [
+  {
+   "company": "McCormick & Company",
+   "use": "AI system (SAGE) for flavor and food product development using machine learning algorithms trained on consumer taste data and product formulations [IBM]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://ir.mccormick.com/news-releases/news-release-details/mccormick-company-and-ibm-announce-collaboration-pioneering-use",
+   "raw_sector": "",
+   "date": "2019-02-04",
+   "fresh": "stale"
+  },
+  {
+   "company": "McCormick & Company",
+   "use": "OMP's AI-driven Unison Planning Platform for supply chain agility and planning [OMP Unison Planning]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.acnnewswire.com/press-release/english/104028/omp's-ai-driven-unison-planning(tm)-platform-enhances-supply-chain-agility-for-mccormick-&-co.",
+   "raw_sector": "",
+   "date": "2025-12-03",
+   "fresh": "fresh"
+  },
   {
    "company": "McCormick & Company",
    "use": "AI/ML for flavor & food product development (IBM collaboration, combining AI with 40+ yrs proprietary sensory data)",

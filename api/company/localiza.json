@@ -3,40 +3,52 @@
  "name": "Localiza",
  "cc": "BR",
  "vertical": "Travel & Hospitality",
- "deployments": 1,
- "confirmed": 1,
+ "deployments": 3,
+ "confirmed": 3,
  "with_value_number": 0,
  "proof_rate": 0.0,
  "mktcap": 7531481481.0,
  "revenue": 8135185185.0,
  "employees": 23558.0,
  "silent": false,
- "per_bn_revenue": 0.12,
- "per_10k_emp": 0.42,
+ "per_bn_revenue": 0.37,
+ "per_10k_emp": 1.27,
  "benchmarks": {
   "global_vertical": {
-   "deployments": 0,
-   "confirmed": 29,
+   "deployments": 28,
+   "confirmed": 45,
    "proof_rate": 0,
-   "n": 39
+   "n": 41
   }
  },
- "first_seen": 2025,
+ "first_seen": 2021,
  "by_year": [
   {
+   "year": 2021,
+   "n": 1
+  },
+  {
    "year": 2025,
+   "n": 1
+  },
+  {
+   "year": 2026,
    "n": 1
   }
  ],
  "undated_pct": 0,
- "momentum": "rising",
+ "momentum": "early_mover,rising",
  "maturity": "L3",
  "maturity_evidence": [
-  "named_product:Liza"
+  "multi_horizontal",
+  "named_product:Liza",
+  "multi_year"
  ],
- "prospect_score": 54,
- "stack": [],
- "vendor_named": false,
+ "prospect_score": 58,
+ "stack": [
+  "OpenAI"
+ ],
+ "vendor_named": true,
  "deployments_detail": [
   {
    "company": "Localiza",
@@ -47,6 +59,28 @@
    "url": "https://tiinside.com.br/en/10/09/2025/Localization-bets-on-artificial-intelligence-to-scale-digital-service-with-its-virtual-assistant-Liza/",
    "raw_sector": "Bens industriais e transporte",
    "date": "2025",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Localiza",
+   "use": "AI-enabled connected vehicle technology for fleet management and car rental operations [CalAmp]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.calamp.com/press-releases/calamp-and-localiza-sign-multi-year-agreement-reimagining-the-car-rental-industry-in-brazil/",
+   "raw_sector": "",
+   "date": "2021-01-21",
+   "fresh": "stale"
+  },
+  {
+   "company": "Localiza",
+   "use": "Real-time tracking and instant updates for package delivery",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://play.google.com/store/apps/details?id=com.frconsultoriaeinovacao.localiza_ai&hl=en_US",
+   "raw_sector": "",
+   "date": "2026-06-16",
    "fresh": "fresh"
   }
  ]

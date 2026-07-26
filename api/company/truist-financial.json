@@ -3,47 +3,50 @@
  "name": "Truist Financial",
  "cc": "US",
  "vertical": "Financial Services",
- "deployments": 1,
- "confirmed": 1,
+ "deployments": 6,
+ "confirmed": 5,
  "with_value_number": 1,
- "proof_rate": 1.0,
+ "proof_rate": 0.167,
  "mktcap": 62190000000.0,
  "revenue": 19030000000.0,
  "employees": 38711.0,
  "silent": false,
- "per_bn_revenue": 0.05,
- "per_10k_emp": 0.26,
+ "per_bn_revenue": 0.32,
+ "per_10k_emp": 1.55,
  "benchmarks": {
   "global_vertical": {
-   "deployments": 0,
-   "confirmed": 17,
-   "proof_rate": 76,
-   "n": 377
+   "deployments": 44,
+   "confirmed": 46,
+   "proof_rate": 35,
+   "n": 388
   },
   "country_vertical": {
-   "deployments": 0,
-   "confirmed": 19,
-   "proof_rate": 81,
-   "n": 76
+   "deployments": 41,
+   "confirmed": 41,
+   "proof_rate": 38,
+   "n": 77
   }
  },
  "first_seen": 2026,
  "by_year": [
   {
    "year": 2026,
-   "n": 1
+   "n": 5
   }
  ],
- "undated_pct": 0,
+ "undated_pct": 17,
  "momentum": "late_entrant,rising",
  "maturity": "L3",
  "maturity_evidence": [
+  "multi_horizontal",
   "named_product:Truist Assist",
   "value_number"
  ],
- "prospect_score": 14,
- "stack": [],
- "vendor_named": false,
+ "prospect_score": 63,
+ "stack": [
+  "IBM"
+ ],
+ "vendor_named": true,
  "deployments_detail": [
   {
    "company": "Truist Financial",
@@ -54,6 +57,61 @@
    "url": "https://media.truist.com/2026-02-03-Truist-launches-AI-enabled-receivables-platform-to-accelerate-cash-application-and-minimize-exceptions",
    "raw_sector": "Financials",
    "date": "2026",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Truist Financial",
+   "use": "AI-enabled receivables platform for cash application, payment matching, and reconciliation automation",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://media.truist.com/2026-02-03-Truist-launches-AI-enabled-receivables-platform-to-accelerate-cash-application-and-minimize-exceptions",
+   "raw_sector": "",
+   "date": "2026-02-03",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Truist Financial",
+   "use": "AI and machine learning integrated across patent development and innovation processes",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://ir.truist.com/2026-06-11-Truist-patent-boom-fueled-by-AI-machine-learning",
+   "raw_sector": "",
+   "date": "2026-06-11",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Truist Financial",
+   "use": "Generative AI internal use cases with IBM watsonx platform [IBM watsonx]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.ibm.com/case-studies/truist-client-quote",
+   "raw_sector": "",
+   "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "Truist Financial",
+   "use": "AI Risk Management Framework implementation based on NIST standards",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.sec.gov/Archives/edgar/data/92230/000119312526107171/d101759dars.pdf",
+   "raw_sector": "",
+   "date": "2026-03-16",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Truist Financial",
+   "use": "Banker-oriented AI tools and digital prospecting capabilities for targeted outreach",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://filecache.investorroom.com/mr5ir_truist/1100/Truist-2025-annual-report-final-digital-ADA.pdf",
+   "raw_sector": "",
+   "date": "2026-03-16",
    "fresh": "fresh"
   }
  ]

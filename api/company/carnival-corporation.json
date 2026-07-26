@@ -3,27 +3,27 @@
  "name": "Carnival Corporation",
  "cc": "US",
  "vertical": "Retail & E-commerce",
- "deployments": 1,
- "confirmed": 1,
+ "deployments": 3,
+ "confirmed": 2,
  "with_value_number": 1,
- "proof_rate": 1.0,
+ "proof_rate": 0.333,
  "mktcap": 34870000000.0,
  "revenue": 27310000000.0,
  "employees": 101000.0,
  "silent": false,
- "per_bn_revenue": 0.04,
- "per_10k_emp": 0.1,
+ "per_bn_revenue": 0.11,
+ "per_10k_emp": 0.3,
  "benchmarks": {
   "global_vertical": {
-   "deployments": 0,
-   "confirmed": 24,
-   "proof_rate": 77,
-   "n": 295
+   "deployments": 19,
+   "confirmed": 22,
+   "proof_rate": 62,
+   "n": 301
   },
   "country_vertical": {
-   "deployments": 0,
-   "confirmed": 25,
-   "proof_rate": 85,
+   "deployments": 8,
+   "confirmed": 13,
+   "proof_rate": 66,
    "n": 80
   }
  },
@@ -34,16 +34,29 @@
    "n": 1
   }
  ],
- "undated_pct": 0,
+ "undated_pct": 67,
  "momentum": "rising",
  "maturity": "L3",
  "maturity_evidence": [
+  "multi_horizontal",
+  "named_product:Travel",
   "value_number"
  ],
- "prospect_score": 14,
+ "prospect_score": 47,
  "stack": [],
  "vendor_named": false,
  "deployments_detail": [
+  {
+   "company": "Carnival Corporation",
+   "use": "Travel agent support tool for vacation planning assistance",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://fortune.com/2025/09/03/with-100-gen-ai-pilot-projects-but-just-six-in-production-carnival-cruise-lines-cio-takes-a-measured-approach-to-artificial-intelligence-journey/",
+   "raw_sector": "",
+   "date": "Sep 3, 2025",
+   "fresh": "undated"
+  },
   {
    "company": "Carnival Corporation",
    "use": "100+ GenAI pilots, 6 in production; predictive analytics for asset utilization/cost + guest mobile app",
@@ -54,6 +67,17 @@
    "raw_sector": "Consumer Discretionary",
    "date": "2025",
    "fresh": "fresh"
+  },
+  {
+   "company": "Carnival Corporation",
+   "use": "Fuel optimization with AI",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://nationalcioreview.com/articles-insights/cio-field-notes/inside-carnivals-tech-upgrade-ai-smart-ships-and-seamless-cruising/",
+   "raw_sector": "",
+   "date": "Mar 27, 2025",
+   "fresh": "undated"
   }
  ]
 }

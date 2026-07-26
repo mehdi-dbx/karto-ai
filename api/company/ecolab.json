@@ -3,42 +3,49 @@
  "name": "Ecolab",
  "cc": "US",
  "vertical": "Chemicals & Materials",
- "deployments": 1,
- "confirmed": 1,
+ "deployments": 5,
+ "confirmed": 4,
  "with_value_number": 0,
  "proof_rate": 0.0,
  "mktcap": 74330000000.0,
  "revenue": 16450000000.0,
  "employees": 48000.0,
  "silent": false,
- "per_bn_revenue": 0.06,
- "per_10k_emp": 0.21,
+ "per_bn_revenue": 0.3,
+ "per_10k_emp": 1.04,
  "benchmarks": {
   "global_vertical": {
-   "deployments": 0,
-   "confirmed": 19,
+   "deployments": 50,
+   "confirmed": 51,
    "proof_rate": 0,
-   "n": 105
+   "n": 107
   },
   "country_vertical": {
-   "deployments": 0,
-   "confirmed": 32,
+   "deployments": 44,
+   "confirmed": 56,
    "proof_rate": 0,
    "n": 26
   }
  },
- "first_seen": null,
- "by_year": [],
- "undated_pct": 100,
- "momentum": "none",
+ "first_seen": 2025,
+ "by_year": [
+  {
+   "year": 2025,
+   "n": 2
+  }
+ ],
+ "undated_pct": 60,
+ "momentum": "rising",
  "maturity": "L3",
  "maturity_evidence": [
   "named_product:ECOLAB3D",
   "tier_p"
  ],
- "prospect_score": 54,
- "stack": [],
- "vendor_named": false,
+ "prospect_score": 64,
+ "stack": [
+  "Microsoft"
+ ],
+ "vendor_named": true,
  "deployments_detail": [
   {
    "company": "Ecolab",
@@ -48,6 +55,50 @@
    "tier": "P",
    "url": "https://www.ecolab.com/media-center/news/ecolab-unleashes-water-intelligence-to-drive-growth-in-the-ai-era",
    "raw_sector": "Materials",
+   "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "Ecolab",
+   "use": "AI-powered restaurant operations optimization and guest satisfaction management",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://investor.ecolab.com/news/news-details/2025/Ecolab-Launches-AI-Powered-Solution-Designed-to-Optimize-Restaurant-Operations-and-Improve-Guest-Satisfaction/default.aspx",
+   "raw_sector": "",
+   "date": "2025-07-23",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Ecolab",
+   "use": "ECOLAB3D intelligence platform for water optimization using predictive analytics and real-time data",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.ecolab.com/media-center/expert-blog/ai-water-and-the-future-of-business",
+   "raw_sector": "",
+   "date": "2025-06-12",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Ecolab",
+   "use": "Water Navigator IQ AI-enabled platform for enterprise-wide water performance visibility and actionable insights",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.ecolab.com/media-center/news/ecolab-unleashes-water-intelligence-to-drive-growth-in-the-ai-era",
+   "raw_sector": "",
+   "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "Ecolab",
+   "use": "Named as a Microsoft Copilot customer/case study [Microsoft Copilot] [Microsoft Copilot]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.microsoft.com/en-us/power-platform/blog/power-apps/power-platform-stories/",
+   "raw_sector": "",
    "date": "missing",
    "fresh": "undated"
   }

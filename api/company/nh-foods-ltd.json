@@ -3,53 +3,83 @@
  "name": "NH Foods Ltd.",
  "cc": "JP",
  "vertical": "Retail & E-commerce",
- "deployments": 2,
- "confirmed": 2,
- "with_value_number": 1,
- "proof_rate": 0.5,
+ "deployments": 11,
+ "confirmed": 10,
+ "with_value_number": 5,
+ "proof_rate": 0.455,
  "mktcap": 3866200000.0,
  "revenue": 9733333333.0,
  "employees": 15790.0,
  "silent": false,
- "per_bn_revenue": 0.21,
- "per_10k_emp": 1.27,
+ "per_bn_revenue": 1.13,
+ "per_10k_emp": 6.97,
  "benchmarks": {
   "global_vertical": {
-   "deployments": 71,
-   "confirmed": 80,
-   "proof_rate": 70,
-   "n": 295
+   "deployments": 80,
+   "confirmed": 86,
+   "proof_rate": 77,
+   "n": 301
   },
   "country_vertical": {
-   "deployments": 62,
-   "confirmed": 71,
-   "proof_rate": 33,
-   "n": 25
+   "deployments": 88,
+   "confirmed": 96,
+   "proof_rate": 76,
+   "n": 26
   }
  },
- "first_seen": 2024,
+ "first_seen": 2018,
  "by_year": [
+  {
+   "year": 2018,
+   "n": 1
+  },
+  {
+   "year": 2022,
+   "n": 1
+  },
   {
    "year": 2024,
    "n": 1
+  },
+  {
+   "year": 2025,
+   "n": 3
+  },
+  {
+   "year": 2026,
+   "n": 2
   }
  ],
- "undated_pct": 50,
- "momentum": "early_mover,gone_quiet",
- "maturity": "L3",
+ "undated_pct": 27,
+ "momentum": "early_mover,rising",
+ "maturity": "L4",
  "maturity_evidence": [
   "multi_horizontal",
   "named_product:PIG LABO Growth Master",
   "value_number",
+  "multi_year",
   "tier_p"
  ],
- "prospect_score": 32,
+ "prospect_score": 82,
  "stack": [
+  "Microsoft",
   "Microsoft Azure",
-  "OpenAI"
+  "OpenAI",
+  "SAP"
  ],
  "vendor_named": true,
  "deployments_detail": [
+  {
+   "company": "NH Foods Ltd.",
+   "use": "Company-wide generative-AI assistant (Smart Generative Chat) for meeting minutes, email/document editing, presentation drafting, FAQ generation, RAG over company data, and workflow automation across sales, manufacturing and admin divisions. [System Support Inc. (Smart Generative Chat)]",
+   "existence": "confirmed",
+   "value": "~4,000 active users in 7 months; 300M+ tokens/month",
+   "tier": "",
+   "url": "https://smart-generative-chat.com/case/%E6%97%A5%E6%9C%AC%E3%83%8F%E3%83%A0%E6%A0%AA%E5%BC%8F%E4%BC%9A%E7%A4%BE%E6%A7%98/",
+   "raw_sector": "",
+   "date": "2025",
+   "fresh": "fresh"
+  },
   {
    "company": "NH Foods Ltd.",
    "use": "\"PIG LABO Growth Master\" 3D camera + AI infers individual pig weights & herd distribution",
@@ -63,6 +93,50 @@
   },
   {
    "company": "NH Foods Ltd.",
+   "use": "AI-driven demand forecasting and inventory allocation for the processed-foods business, built on SAP BTP alongside SAP S/4HANA (the 'Connect Project'). Replaces veteran-intuition manual planning with data-driven forecasts to cut stockouts and optimize perishable stock. [SAP (SAP BTP, SAP S/4HANA)]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://sapinsider.org/blogs/nippon-ham-deploys-sap-btp-for-ai-driven-demand-forecasting-and-supply-chain-optimization/",
+   "raw_sector": "",
+   "date": "2026-04",
+   "fresh": "fresh"
+  },
+  {
+   "company": "NH Foods Ltd.",
+   "use": "PIG LABO smart pig-farming system: AI/IoT sensors collect barn-environment and pig-behavior big data; AI analyzes it to monitor pig health, welfare and enable data-driven herd management (co-developed with NTT Data), aiming to codify veteran-farmer expertise. [NTT Data (PIG LABO)]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.rdc.nipponham.co.jp/dx.html",
+   "raw_sector": "",
+   "date": "2018-12",
+   "fresh": "stale"
+  },
+  {
+   "company": "NH Foods Ltd.",
+   "use": "PIG LABO Breeding Master: Japan-first AI estrus (heat) detection service for sows, launched as a test service under the Smart Pig Farming project, using AI image analysis to detect breeding timing. [NTT Data SBC (PIG LABO Breeding Master)]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.nttdata-sbc.co.jp/news/20221005.html",
+   "raw_sector": "",
+   "date": "2022-10",
+   "fresh": "stale"
+  },
+  {
+   "company": "NH Foods Ltd.",
+   "use": "AI image-recognition inspection equipment on production lines detecting foreign materials (animal hair, hard/soft bone/cartilage fragments) in products and raw materials; retrainable AI improves detection accuracy and reduces inspector workload. In operation. [none]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.nipponham.co.jp/corporate/rd/equipment.html",
+   "raw_sector": "",
+   "date": "none",
+   "fresh": "undated"
+  },
+  {
+   "company": "NH Foods Ltd.",
    "use": "\"GC Analysis\" — generative-AI consumer pseudo-personas answer surveys (Azure OpenAI)",
    "existence": "confirmed",
    "value": "replaces 1,000-person survey tasks",
@@ -70,6 +144,50 @@
    "url": "https://www.microsoft.com/ja-jp/customers/story/22479-nh-foods-azure-app-service",
    "raw_sector": "Foods",
    "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "NH Foods Ltd.",
+   "use": "Generative-AI next-generation ordering platform: sales reps input orders by voice or chat in natural language, and generative AI converts them into structured order data auto-linked to SAP S/4HANA. Currently a proof of concept using SAP Business AI. [SAP (SAP Business AI)]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://japan.zdnet.com/article/35246723/",
+   "raw_sector": "",
+   "date": "2026-04",
+   "fresh": "fresh"
+  },
+  {
+   "company": "NH Foods Ltd.",
+   "use": "Generated-Customer (GC) analysis: Azure OpenAI creates synthetic consumer personas from ~20,000 real consumer profiles to run virtual surveys, accelerating product-development proposals to retail/convenience-store partners. Python UI, GPT-4o mini. [Microsoft (Azure OpenAI Service, GPT-4o mini, Azure App Service)]",
+   "existence": "confirmed",
+   "value": "1,000-person survey in 45 minutes vs 1-2 months traditionally; ~100+ yen per run",
+   "tier": "",
+   "url": "https://www.microsoft.com/ja-jp/customers/story/22479-nh-foods-azure-app-service",
+   "raw_sector": "",
+   "date": "2025-02",
+   "fresh": "fresh"
+  },
+  {
+   "company": "NH Foods Ltd.",
+   "use": "Voice-of-Customer (VOC) analysis via the Flyle generative-AI insight platform in the Customer-Centric Promotion Department: high-precision Japanese context analysis, AI auto-tagging and quantitative VOC dashboards replacing legacy text mining. [Flyle, Inc. (Flyle)]",
+   "existence": "confirmed",
+   "value": "Weekly reporting cut from 15-16 hours (3 people) to 3-4 hours (1 person)",
+   "tier": "",
+   "url": "https://prtimes.jp/main/html/rd/p/000000030.000076399.html",
+   "raw_sector": "",
+   "date": "2025-12",
+   "fresh": "fresh"
+  },
+  {
+   "company": "NH Foods Ltd.",
+   "use": "Generative-AI-created phishing-email variations (HENNGE Tadrill) used to run simulated phishing security-awareness training and measure open rates across ~13,000 employees, feeding a PDCA security-literacy program. [HENNGE (HENNGE One / Tadrill)]",
+   "existence": "confirmed",
+   "value": "13,000 employees targeted",
+   "tier": "",
+   "url": "https://hennge.com/global/service/one/case/nhfoods/",
+   "raw_sector": "",
+   "date": "none",
    "fresh": "undated"
   }
  ]

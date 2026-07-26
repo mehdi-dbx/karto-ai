@@ -3,36 +3,36 @@
  "name": "PKN Orlen",
  "cc": "PL",
  "vertical": "Energy & Utilities",
- "deployments": 11,
- "confirmed": 8,
- "with_value_number": 3,
- "proof_rate": 0.273,
+ "deployments": 14,
+ "confirmed": 11,
+ "with_value_number": 4,
+ "proof_rate": 0.286,
  "mktcap": 44080000000.0,
  "revenue": 67487500000.0,
  "employees": 66563.0,
  "silent": false,
- "per_bn_revenue": 0.16,
- "per_10k_emp": 1.65,
+ "per_bn_revenue": 0.21,
+ "per_10k_emp": 2.1,
  "benchmarks": {
   "global_vertical": {
-   "deployments": 96,
-   "confirmed": 94,
-   "proof_rate": 63,
-   "n": 210
+   "deployments": 94,
+   "confirmed": 93,
+   "proof_rate": 65,
+   "n": 213
   }
  },
  "first_seen": 2025,
  "by_year": [
   {
    "year": 2025,
-   "n": 6
+   "n": 7
   },
   {
    "year": 2026,
    "n": 1
   }
  ],
- "undated_pct": 36,
+ "undated_pct": 43,
  "momentum": "rising",
  "maturity": "L3",
  "maturity_evidence": [
@@ -41,10 +41,13 @@
   "value_number",
   "tier_p"
  ],
- "prospect_score": 77,
+ "prospect_score": 89,
  "stack": [
+  "Amazon AWS",
   "Google Cloud",
-  "Microsoft"
+  "Microsoft",
+  "Microsoft Azure",
+  "NVIDIA"
  ],
  "vendor_named": true,
  "deployments_detail": [
@@ -57,6 +60,17 @@
    "url": "https://www.orlen.pl",
    "raw_sector": "Energy",
    "date": "2025-07",
+   "fresh": "fresh"
+  },
+  {
+   "company": "PKN Orlen",
+   "use": "Enterprise-wide AI transformation across cybersecurity, operations, and workforce efficiency [Microsoft]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.orlen.pl/en/about-the-company/media/press-releases/current/2025/july-2025/orlens-transformation-to-gain-momentum-with-cees-largest-ai-deployment",
+   "raw_sector": "",
+   "date": "2025-07-08",
    "fresh": "fresh"
   },
   {
@@ -165,6 +179,28 @@
    "value": "none",
    "tier": "",
    "url": "https://www.orlen.pl/en/about-the-company/innovations/our-implementations",
+   "raw_sector": "",
+   "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "PKN Orlen",
+   "use": "AI algorithms for converting videos and photos into comic strips for promotion and communication",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.orlen.pl/en/about-the-company/innovations/our-implementations",
+   "raw_sector": "",
+   "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "PKN Orlen",
+   "use": "AI-driven safety protocols and incident reduction [Surveily]",
+   "existence": "confirmed",
+   "value": "75%",
+   "tier": "",
+   "url": "https://surveily.com/case-studies/gas-oil",
    "raw_sector": "",
    "date": "missing",
    "fresh": "undated"

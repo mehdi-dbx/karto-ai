@@ -3,27 +3,27 @@
  "name": "Airbnb",
  "cc": "US",
  "vertical": "Retail & E-commerce",
- "deployments": 1,
- "confirmed": 1,
+ "deployments": 4,
+ "confirmed": 4,
  "with_value_number": 1,
- "proof_rate": 1.0,
+ "proof_rate": 0.25,
  "mktcap": 81270000000.0,
  "revenue": 12650000000.0,
  "employees": 8200.0,
  "silent": false,
- "per_bn_revenue": 0.08,
- "per_10k_emp": 1.22,
+ "per_bn_revenue": 0.32,
+ "per_10k_emp": 4.88,
  "benchmarks": {
   "global_vertical": {
-   "deployments": 0,
-   "confirmed": 24,
-   "proof_rate": 77,
-   "n": 295
+   "deployments": 28,
+   "confirmed": 44,
+   "proof_rate": 50,
+   "n": 301
   },
   "country_vertical": {
-   "deployments": 0,
-   "confirmed": 25,
-   "proof_rate": 85,
+   "deployments": 15,
+   "confirmed": 33,
+   "proof_rate": 52,
    "n": 80
   }
  },
@@ -34,14 +34,15 @@
    "n": 1
   }
  ],
- "undated_pct": 0,
+ "undated_pct": 75,
  "momentum": "late_entrant,rising",
  "maturity": "L3",
  "maturity_evidence": [
+  "multi_horizontal",
   "named_product:Custom",
   "value_number"
  ],
- "prospect_score": 14,
+ "prospect_score": 62,
  "stack": [],
  "vendor_named": false,
  "deployments_detail": [
@@ -55,6 +56,39 @@
    "raw_sector": "Consumer Discretionary",
    "date": "2026-02",
    "fresh": "fresh"
+  },
+  {
+   "company": "Airbnb",
+   "use": "AI assistant with voice capabilities for guest support",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://news.airbnb.com/airbnb-2026-summer-release/",
+   "raw_sector": "",
+   "date": "May 20, 2026",
+   "fresh": "undated"
+  },
+  {
+   "company": "Airbnb",
+   "use": "AI-powered message prioritization and flagging for customer support",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.airbnb.com/help/article/4097",
+   "raw_sector": "",
+   "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "Airbnb",
+   "use": "AI ranking algorithm for property search and discovery",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.rentalscaleup.com/does-airbnb-use-ai/",
+   "raw_sector": "",
+   "date": "May 10, 2024",
+   "fresh": "undated"
   }
  ]
 }

@@ -3,26 +3,26 @@
  "name": "Arab National Bank",
  "cc": "SA",
  "vertical": "Financial Services",
- "deployments": 2,
- "confirmed": 0,
+ "deployments": 5,
+ "confirmed": 3,
  "with_value_number": 0,
  "proof_rate": 0.0,
  "mktcap": 11653333333.0,
  "revenue": 2490666667.0,
  "employees": 4404.0,
  "silent": false,
- "per_bn_revenue": 0.8,
- "per_10k_emp": 4.54,
+ "per_bn_revenue": 2.01,
+ "per_10k_emp": 11.35,
  "benchmarks": {
   "global_vertical": {
-   "deployments": 62,
-   "confirmed": 0,
+   "deployments": 31,
+   "confirmed": 27,
    "proof_rate": 0,
-   "n": 377
+   "n": 388
   },
   "country_vertical": {
-   "deployments": 45,
-   "confirmed": 0,
+   "deployments": 73,
+   "confirmed": 55,
    "proof_rate": 0,
    "n": 12
   }
@@ -31,11 +31,12 @@
  "by_year": [],
  "undated_pct": 100,
  "momentum": "none",
- "maturity": "L1",
+ "maturity": "L3",
  "maturity_evidence": [
-  "rows_no_confirmed"
+  "multi_horizontal",
+  "named_product:Digital"
  ],
- "prospect_score": 40,
+ "prospect_score": 58,
  "stack": [
   "IBM"
  ],
@@ -61,6 +62,39 @@
    "url": "https://www.fintechgate.net/170833",
    "raw_sector": "Banks",
    "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "Arab National Bank",
+   "use": "Digital Transaction Banking for Wholesale Banking [Intellect eMACH.ai]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://ffnews.com/newsarticle/arab-national-bank-leverages-intellects-emach-ai-wholesale-banking-platform-to-accelerate-digital-innovation",
+   "raw_sector": "",
+   "date": "Feb 19, 2026",
+   "fresh": "undated"
+  },
+  {
+   "company": "Arab National Bank",
+   "use": "Corporate and SME Banking Digitization with Cash Management [Intellect]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://ibsintelligence.com/ibsi-news/arab-national-bank-digitises-corporate-banking-with-intellect/",
+   "raw_sector": "",
+   "date": "Feb 20, 2026",
+   "fresh": "undated"
+  },
+  {
+   "company": "Arab National Bank",
+   "use": "AI-powered Fraud Prevention and Real-time Payments Monitoring [IBM Safer Payments]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://mea.newsroom.ibm.com/ibm-anb-collaboration",
+   "raw_sector": "",
+   "date": "Mar 11, 2025",
    "fresh": "undated"
   }
  ]

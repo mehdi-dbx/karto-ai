@@ -3,26 +3,26 @@
  "name": "Saipem",
  "cc": "IT",
  "vertical": "Energy & Utilities",
- "deployments": 10,
- "confirmed": 8,
+ "deployments": 14,
+ "confirmed": 10,
  "with_value_number": 3,
- "proof_rate": 0.3,
+ "proof_rate": 0.214,
  "mktcap": 9201600000.0,
  "revenue": 16750800000.0,
  "employees": 30000.0,
  "silent": false,
- "per_bn_revenue": 0.6,
- "per_10k_emp": 3.33,
+ "per_bn_revenue": 0.84,
+ "per_10k_emp": 4.67,
  "benchmarks": {
   "global_vertical": {
    "deployments": 94,
-   "confirmed": 94,
-   "proof_rate": 64,
-   "n": 210
+   "confirmed": 90,
+   "proof_rate": 57,
+   "n": 213
   },
   "country_vertical": {
    "deployments": 100,
-   "confirmed": 100,
+   "confirmed": 88,
    "proof_rate": 25,
    "n": 9
   }
@@ -35,18 +35,18 @@
   },
   {
    "year": 2024,
-   "n": 3
+   "n": 4
   },
   {
    "year": 2025,
-   "n": 2
+   "n": 3
   },
   {
    "year": 2026,
-   "n": 3
+   "n": 4
   }
  ],
- "undated_pct": 10,
+ "undated_pct": 14,
  "momentum": "early_mover,rising",
  "maturity": "L4",
  "maturity_evidence": [
@@ -56,10 +56,23 @@
   "multi_year",
   "tier_p"
  ],
- "prospect_score": 84,
- "stack": [],
- "vendor_named": false,
+ "prospect_score": 91,
+ "stack": [
+  "Microsoft"
+ ],
+ "vendor_named": true,
  "deployments_detail": [
+  {
+   "company": "Saipem",
+   "use": "Document management with generative AI capabilities [OpenText]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.opentext.com/customers/saipem",
+   "raw_sector": "",
+   "date": "missing",
+   "fresh": "undated"
+  },
   {
    "company": "Saipem",
    "use": "AI-driven autonomous subsea robots/drones interpreting sensor + sonar data for unmanned underwater ops",
@@ -70,6 +83,28 @@
    "raw_sector": "Energy",
    "date": "missing",
    "fresh": "undated"
+  },
+  {
+   "company": "Saipem",
+   "use": "Predictive maintenance system on Saipem 12000 drillship",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.saipem.com/en/media/news/Saipem-introduces-an-AI-based-predictive-maintenance-system-onboard-the-Saipem-12000",
+   "raw_sector": "",
+   "date": "2026-02-23",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Saipem",
+   "use": "Generative and predictive design AI for engineering in EPC projects [AVEVA]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.saipem.com/en/media/press-releases/2024-12-23/saipem-and-aveva-sign-mou-develop-ai-solutions-engineering-energy",
+   "raw_sector": "",
+   "date": "2024-12-23",
+   "fresh": "aging"
   },
   {
    "company": "Saipem",
@@ -168,6 +203,17 @@
    "url": "https://www.saipem.com/en/sustainability/our-health-and-safety-vision",
    "raw_sector": "",
    "date": "2025",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Saipem",
+   "use": "AI-backed safety harness for workers at height",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.oedigital.com/news/532395-saipem-unveils-ai-backed-safety-harness-for-workers-at-height",
+   "raw_sector": "",
+   "date": "2025-11-13",
    "fresh": "fresh"
   }
  ]

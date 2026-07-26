@@ -3,27 +3,27 @@
  "name": "Akbank",
  "cc": "TR",
  "vertical": "Financial Services",
- "deployments": 3,
- "confirmed": 3,
- "with_value_number": 1,
- "proof_rate": 0.333,
+ "deployments": 5,
+ "confirmed": 5,
+ "with_value_number": 2,
+ "proof_rate": 0.4,
  "mktcap": 10814375000.0,
  "revenue": 6551562500.0,
  "employees": 13146.0,
  "silent": false,
- "per_bn_revenue": 0.46,
- "per_10k_emp": 2.28,
+ "per_bn_revenue": 0.76,
+ "per_10k_emp": 3.8,
  "benchmarks": {
   "global_vertical": {
-   "deployments": 86,
-   "confirmed": 89,
-   "proof_rate": 57,
-   "n": 377
+   "deployments": 31,
+   "confirmed": 46,
+   "proof_rate": 68,
+   "n": 388
   },
   "country_vertical": {
-   "deployments": 100,
-   "confirmed": 100,
-   "proof_rate": 50,
+   "deployments": 25,
+   "confirmed": 50,
+   "proof_rate": 75,
    "n": 5
   }
  },
@@ -38,7 +38,7 @@
   "value_number",
   "tier_p"
  ],
- "prospect_score": 45,
+ "prospect_score": 54,
  "stack": [
   "Microsoft Azure",
   "OpenAI"
@@ -69,12 +69,34 @@
   },
   {
    "company": "Akbank",
+   "use": "GenAI assistants for customer engagement",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.linkedin.com/pulse/ai-goes-operational-from-award-winning-consumer-apps-efi-pylarinou-aabqe",
+   "raw_sector": "",
+   "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "Akbank",
    "use": "AI Hub: centralized governance center for developing, scaling and managing AI solutions bank-wide with responsible-AI framework",
    "existence": "confirmed",
    "value": "none",
    "tier": "P",
    "url": "https://www.akbankinvestorrelations.com/en/images/pdf/akbank-yapay-zeka-manifestosu.pdf",
    "raw_sector": "Banks",
+   "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "Akbank",
+   "use": "Marketing content generation and customer engagement optimization [Jasper]",
+   "existence": "confirmed",
+   "value": "70%",
+   "tier": "",
+   "url": "https://www.jasper.ai/case-studies/akbank",
+   "raw_sector": "",
    "date": "missing",
    "fresh": "undated"
   }

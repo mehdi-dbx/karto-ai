@@ -3,27 +3,27 @@
  "name": "Hormel Foods",
  "cc": "US",
  "vertical": "Retail & E-commerce",
- "deployments": 1,
- "confirmed": 1,
- "with_value_number": 1,
- "proof_rate": 1.0,
+ "deployments": 11,
+ "confirmed": 10,
+ "with_value_number": 4,
+ "proof_rate": 0.364,
  "mktcap": 13630000000.0,
  "revenue": 12220000000.0,
  "employees": 20000.0,
  "silent": false,
- "per_bn_revenue": 0.08,
- "per_10k_emp": 0.5,
+ "per_bn_revenue": 0.9,
+ "per_10k_emp": 5.5,
  "benchmarks": {
   "global_vertical": {
-   "deployments": 0,
-   "confirmed": 24,
-   "proof_rate": 77,
-   "n": 295
+   "deployments": 80,
+   "confirmed": 86,
+   "proof_rate": 69,
+   "n": 301
   },
   "country_vertical": {
-   "deployments": 0,
-   "confirmed": 25,
-   "proof_rate": 85,
+   "deployments": 70,
+   "confirmed": 76,
+   "proof_rate": 76,
    "n": 80
   }
  },
@@ -31,19 +31,61 @@
  "by_year": [
   {
    "year": 2025,
-   "n": 1
+   "n": 6
+  },
+  {
+   "year": 2026,
+   "n": 5
   }
  ],
  "undated_pct": 0,
  "momentum": "rising",
- "maturity": "L3",
+ "maturity": "L4",
  "maturity_evidence": [
-  "value_number"
+  "multi_horizontal",
+  "named_product:Enterprise",
+  "value_number",
+  "multi_year"
  ],
- "prospect_score": 14,
- "stack": [],
- "vendor_named": false,
+ "prospect_score": 85,
+ "stack": [
+  "Accenture"
+ ],
+ "vendor_named": true,
  "deployments_detail": [
+  {
+   "company": "Hormel Foods",
+   "use": "Enterprise demand and supply planning platform using AI/ML-driven forecasting, deployed across 70+ dry and refrigerated network sites via five phased go-lives (March-December 2025) to shift from a supply-led to a demand-driven value chain. [o9 Solutions (Digital Brain platform); implemented with Accenture]",
+   "existence": "confirmed",
+   "value": "70+ sites",
+   "tier": "",
+   "url": "https://o9solutions.com/news/o9-goes-live-at-hormel-foods-to-modernize-planning-across-the-companys-global-supply-chain-network",
+   "raw_sector": "",
+   "date": "2026-03-25",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Hormel Foods",
+   "use": "Touchless forecasting: AI/ML models generate demand forecasts that reduce the need for manual overrides and improve inventory accuracy, particularly around seasonal demand. [o9 Solutions]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://consumergoods.com/hormel-strengthens-supply-chain-predictive-analytics-ai-ml-optimization",
+   "raw_sector": "",
+   "date": "2026-03-30",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Hormel Foods",
+   "use": "AI-driven social listening and machine learning analytics to detect emerging food/flavor trends and translate large consumer datasets into actionable product-development insights (e.g., bold spicy flavor innovation). [none named]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://consumergoods.com/hormel-foods-turns-heat-ai-driven-flavor-innovation",
+   "raw_sector": "",
+   "date": "2025-05-28",
+   "fresh": "fresh"
+  },
   {
    "company": "Hormel Foods",
    "use": "o9 AI-powered planning platform for demand forecasting/supply chain (live across 70+ sites, 2025)",
@@ -53,6 +95,83 @@
    "url": "https://o9solutions.com/news/o9-goes-live-at-hormel-foods-to-modernize-planning-across-the-companys-global-supply-chain-network",
    "raw_sector": "Consumer Staples",
    "date": "2025",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Hormel Foods",
+   "use": "Automated truckload/load optimization: supply chain employees receive automated recommendations to optimize truckloads based on weight, volume and stacking requirements, plus system-recommended inventory transfers. [o9 Solutions]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://consumergoods.com/hormel-strengthens-supply-chain-predictive-analytics-ai-ml-optimization",
+   "raw_sector": "",
+   "date": "2026-03-30",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Hormel Foods",
+   "use": "AI-enabled business tools being implemented to streamline business planning and decision-making, including data/analytics applications for pricing optimization, revenue growth management, and assortment decisions. [none named]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.ciodive.com/news/hormel-foods-taps-first-cto/813131/",
+   "raw_sector": "",
+   "date": "2026-02-25",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Hormel Foods",
+   "use": "Active intelligence / insights engine (DeepSights) layered on Hormel's 'The Hive' knowledge base, using agentic AI to synthesize proprietary and external research in seconds with source traceability; rolled out across marketing, sales, category management and R&D. [Market Logic Software (DeepSights)]",
+   "existence": "confirmed",
+   "value": "Moves analysts from ~5% to ~50% toward an answer before commissioning new research",
+   "tier": "",
+   "url": "https://marketlogicsoftware.com/case-studies/creating-an-active-intelligence-engine-at-hormel-foods/",
+   "raw_sector": "",
+   "date": "2025-01-01",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Hormel Foods",
+   "use": "AI-generated synthetic consumer personas (DeepSights Personas) built from Hormel's proprietary research, used for on-demand concept testing and idea validation before commissioning new studies. [Market Logic Software (DeepSights Personas)]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.insightplatforms.com/case-studies/case-study-how-market-logic-used-deepsights-to-help-hormel-foods-create-an-active-intelligence-engine/",
+   "raw_sector": "",
+   "date": "2025-01-01",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Hormel Foods",
+   "use": "Generative AI used to produce marketing content at scale for seasonal campaigns (Skippy brand cited as producing 25 pieces of content daily). [none named]",
+   "existence": "confirmed",
+   "value": "25 pieces of content per day",
+   "tier": "",
+   "url": "https://www.ciodive.com/news/hormel-foods-taps-first-cto/813131/",
+   "raw_sector": "",
+   "date": "2026-02-25",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Hormel Foods",
+   "use": "AI used to optimize paid-search bid management in digital marketing. [none named]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.hormelfoods.com/inspired/story/driving-digital-forward/",
+   "raw_sector": "",
+   "date": "2025-09-30",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Hormel Foods",
+   "use": "AI tools used to help create and refine marketing content, described as a productivity enhancer for a lean digital team. [none named]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.hormelfoods.com/inspired/story/driving-digital-forward/",
+   "raw_sector": "",
+   "date": "2025-09-30",
    "fresh": "fresh"
   }
  ]

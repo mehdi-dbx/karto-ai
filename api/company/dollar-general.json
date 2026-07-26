@@ -3,43 +3,103 @@
  "name": "Dollar General",
  "cc": "US",
  "vertical": "Retail & E-commerce",
- "deployments": 1,
- "confirmed": 1,
- "with_value_number": 1,
- "proof_rate": 1.0,
+ "deployments": 9,
+ "confirmed": 6,
+ "with_value_number": 6,
+ "proof_rate": 0.667,
  "mktcap": 25370000000.0,
  "revenue": 43080000000.0,
  "employees": 194000.0,
  "silent": false,
- "per_bn_revenue": 0.02,
- "per_10k_emp": 0.05,
+ "per_bn_revenue": 0.21,
+ "per_10k_emp": 0.46,
  "benchmarks": {
   "global_vertical": {
-   "deployments": 0,
-   "confirmed": 24,
-   "proof_rate": 77,
-   "n": 295
+   "deployments": 64,
+   "confirmed": 63,
+   "proof_rate": 91,
+   "n": 301
   },
   "country_vertical": {
-   "deployments": 0,
-   "confirmed": 25,
-   "proof_rate": 85,
+   "deployments": 49,
+   "confirmed": 52,
+   "proof_rate": 97,
    "n": 80
   }
  },
- "first_seen": null,
- "by_year": [],
- "undated_pct": 100,
- "momentum": "none",
- "maturity": "L3",
- "maturity_evidence": [
-  "named_product:Shelf",
-  "value_number"
+ "first_seen": 2022,
+ "by_year": [
+  {
+   "year": 2022,
+   "n": 1
+  },
+  {
+   "year": 2023,
+   "n": 1
+  },
+  {
+   "year": 2024,
+   "n": 2
+  },
+  {
+   "year": 2025,
+   "n": 1
+  },
+  {
+   "year": 2026,
+   "n": 3
+  }
  ],
- "prospect_score": 14,
- "stack": [],
- "vendor_named": false,
+ "undated_pct": 11,
+ "momentum": "early_mover,rising",
+ "maturity": "L4",
+ "maturity_evidence": [
+  "multi_horizontal",
+  "named_product:Shelf",
+  "value_number",
+  "multi_year"
+ ],
+ "prospect_score": 49,
+ "stack": [
+  "Google",
+  "Google Cloud",
+  "Microsoft"
+ ],
+ "vendor_named": true,
  "deployments_detail": [
+  {
+   "company": "Dollar General",
+   "use": "AI-powered automated fresh produce ordering: Shelf Engine's probabilistic AI models forecast demand and generate SKU-level orders for highly perishable produce to reduce food waste and stockouts, rolled out nationally to ~3,000 stores by end of FY2023 after a 400+ store pilot. [Shelf Engine]",
+   "existence": "confirmed",
+   "value": "~3,000 stores",
+   "tier": "",
+   "url": "https://progressivegrocer.com/dollar-general-implements-fully-automated-ai-powered-produce-ordering-nationwide",
+   "raw_sector": "",
+   "date": "2024-01-28",
+   "fresh": "aging"
+  },
+  {
+   "company": "Dollar General",
+   "use": "Cashierless / checkout-free store pilot using AiFi's camera-only computer vision to track item pick-up and automatically charge shoppers' linked payment, deployed at a store in Banner Elk, North Carolina (test-and-learn, not chainwide). [AiFi]",
+   "existence": "confirmed",
+   "value": "1 pilot store",
+   "tier": "",
+   "url": "https://progressivegrocer.com/dollar-general-testing-checkout-free-operations-north-carolina",
+   "raw_sector": "",
+   "date": "2023-07-05",
+   "fresh": "stale"
+  },
+  {
+   "company": "Dollar General",
+   "use": "Agentic AI for always-on retail intelligence built with Tredence on Google Cloud (Gemini-powered): multi-agent systems for unified merchandising workflows (item setup to pricing), demand forecasting/reduced stockouts, dynamic markdowns, and autonomous replenishment across the supply chain. [Tredence, Google Cloud]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.linkedin.com/posts/tredence_tredence-x-dollar-general-x-google-cloud-activity-7402319553000878080-DGJA",
+   "raw_sector": "",
+   "date": "2026-04-06",
+   "fresh": "fresh"
+  },
   {
    "company": "Dollar General",
    "use": "Shelf Engine AI/ML for fresh-produce ordering (rollout to 3,000 stores); appointed SVP of AI optimization",
@@ -50,6 +110,61 @@
    "raw_sector": "Consumer Staples",
    "date": "missing",
    "fresh": "undated"
+  },
+  {
+   "company": "Dollar General",
+   "use": "Enterprise AI optimization program led by newly hired SVP of AI Optimization Travis Nixon (ex-Meta/Dropbox/Microsoft), applying AI to business process management across supply chain, store operations, and merchandising to drive operational excellence and cost efficiency. Later elevated to Chief Data and AI Officer role. [none]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.grocerydive.com/news/dollar-general-ai-optimization-executive-role/804881/",
+   "raw_sector": "",
+   "date": "2025-11-05",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Dollar General",
+   "use": "AI-enabled in-store audio media network (DG Media Network) that uses AI to generate voiceovers, curate music, and deliver localized, real-time targeted audio advertisements. Rolling out to ~6,000 stores across 48 states via QSIC, doubling audio reach to ~12,000 stores by Q2 2026. [QSIC]",
+   "existence": "confirmed",
+   "value": "~6,000 stores (expanding to 12,000)",
+   "tier": "",
+   "url": "https://www.businesswire.com/news/home/20260413141741/en/DG-Media-Network-to-Introduce-AI-Enabled-In-Store-Audio-Network-Across-Thousands-of-Dollar-General-Stores",
+   "raw_sector": "",
+   "date": "2026-04-13",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Dollar General",
+   "use": "DG Media Network retail media platform built on LiveRamp for identity resolution, privacy-safe clean-room data collaboration with 50+ brand partners, and closed-loop measurement/attribution across online and in-store shoppers. Operational since 2022 across the store network. [LiveRamp]",
+   "existence": "confirmed",
+   "value": "90M+ unique customer profiles, 1,400 attributes, 2B+ annual transactions, 47 states",
+   "tier": "",
+   "url": "https://liveramp.com/customer-stories/dollar-general",
+   "raw_sector": "",
+   "date": "2022-01-01",
+   "fresh": "stale"
+  },
+  {
+   "company": "Dollar General",
+   "use": "Unified retail media solution connecting DG's onsite inventory with The Trade Desk's offsite channels via Kevel's Retail Media Cloud, using AI-driven predictive segmentation, custom relevancy algorithms, and yield forecasting. Managed-service campaigns begin June 2026, full launch targeted Q3 2026. [Kevel, The Trade Desk]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.kevel.com/blog/kevel-dg-ttd-partnership-announcement",
+   "raw_sector": "",
+   "date": "2026-05-04",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Dollar General",
+   "use": "AI analysis of self-checkout transactions for shrink/theft detection: Dollar General used AI to analyze hundreds of thousands of self-checkout purchases to identify which stores had the highest theft, informing decisions to remove or restrict self-checkout (300 stores full removal, 9,000 converted to staffed, 4,500 limited to 5 items). [none]",
+   "existence": "confirmed",
+   "value": "hundreds of thousands of transactions analyzed; ~13,800 stores affected",
+   "tier": "",
+   "url": "https://finance.yahoo.com/news/dollar-general-rolling-back-self-211354547.html",
+   "raw_sector": "",
+   "date": "2024-03-14",
+   "fresh": "aging"
   }
  ]
 }

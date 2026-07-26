@@ -3,41 +3,50 @@
  "name": "Hera",
  "cc": "IT",
  "vertical": "Energy & Utilities",
- "deployments": 1,
+ "deployments": 4,
  "confirmed": 1,
  "with_value_number": 1,
- "proof_rate": 1.0,
+ "proof_rate": 0.25,
  "mktcap": 6264000000.0,
  "revenue": 13100400000.0,
  "employees": 10456.0,
  "silent": false,
- "per_bn_revenue": 0.08,
- "per_10k_emp": 0.96,
+ "per_bn_revenue": 0.31,
+ "per_10k_emp": 3.83,
  "benchmarks": {
   "global_vertical": {
-   "deployments": 0,
-   "confirmed": 20,
-   "proof_rate": 75,
-   "n": 210
+   "deployments": 40,
+   "confirmed": 7,
+   "proof_rate": 59,
+   "n": 213
   },
   "country_vertical": {
-   "deployments": 0,
+   "deployments": 25,
    "confirmed": 0,
-   "proof_rate": 62,
+   "proof_rate": 38,
    "n": 9
   }
  },
- "first_seen": null,
- "by_year": [],
- "undated_pct": 100,
- "momentum": "none",
+ "first_seen": 2024,
+ "by_year": [
+  {
+   "year": 2024,
+   "n": 2
+  },
+  {
+   "year": 2026,
+   "n": 1
+  }
+ ],
+ "undated_pct": 25,
+ "momentum": "early_mover,cooling",
  "maturity": "L3",
  "maturity_evidence": [
   "named_product:IBM",
   "value_number",
   "tier_p"
  ],
- "prospect_score": 6,
+ "prospect_score": 36,
  "stack": [
   "IBM"
  ],
@@ -53,6 +62,39 @@
    "raw_sector": "Utilities",
    "date": "missing",
    "fresh": "undated"
+  },
+  {
+   "company": "Hera",
+   "use": "Generative AI use cases across business areas (procurement, process setup and management)",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.bain.com/client-results/ai/hera-group/",
+   "raw_sector": "",
+   "date": "2024-11-22",
+   "fresh": "aging"
+  },
+  {
+   "company": "Hera",
+   "use": "Generative AI in procurement and process management",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://eng.gruppohera.it/w/hera-and-innovation-as-a-lever-for-development",
+   "raw_sector": "",
+   "date": "2026-01-21",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Hera",
+   "use": "Generative AI implementation roadmap across three waves",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.bain.com/about/media-center/press-releases/2024/the-hera-group-partners-with-bain--company-to-accelerate-the-use-of-generative-ai-across-the-multi-utility-company/",
+   "raw_sector": "",
+   "date": "2024-11-22",
+   "fresh": "aging"
   }
  ]
 }

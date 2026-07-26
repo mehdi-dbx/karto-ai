@@ -3,22 +3,22 @@
  "name": "Magna International",
  "cc": "CA",
  "vertical": "Manufacturing & Robotics",
- "deployments": 1,
- "confirmed": 1,
- "with_value_number": 1,
- "proof_rate": 1.0,
+ "deployments": 13,
+ "confirmed": 9,
+ "with_value_number": 2,
+ "proof_rate": 0.154,
  "mktcap": 19036764706.0,
  "revenue": 43441176471.0,
  "employees": 156000.0,
  "silent": false,
- "per_bn_revenue": 0.02,
- "per_10k_emp": 0.06,
+ "per_bn_revenue": 0.3,
+ "per_10k_emp": 0.83,
  "benchmarks": {
   "global_vertical": {
-   "deployments": 0,
-   "confirmed": 24,
-   "proof_rate": 85,
-   "n": 147
+   "deployments": 93,
+   "confirmed": 85,
+   "proof_rate": 56,
+   "n": 150
   }
  },
  "first_seen": null,
@@ -27,12 +27,14 @@
  "momentum": "none",
  "maturity": "L3",
  "maturity_evidence": [
+  "multi_horizontal",
   "named_product:ADAS",
   "value_number",
   "tier_p"
  ],
- "prospect_score": 6,
+ "prospect_score": 88,
  "stack": [
+  "Microsoft",
   "NVIDIA"
  ],
  "vendor_named": true,
@@ -45,6 +47,138 @@
    "tier": "P",
    "url": "https://www.magna.com/products/electrical-electronics/adas-automated-driving",
    "raw_sector": "Auto Parts",
+   "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "Magna International",
+   "use": "AI-powered vision inspection for quality control: high-resolution cameras plus machine-learning models detect surface irregularities and defects across stamping, welding, paint, die casting and seating materials. Magna develops and owns key computer-vision models. [Magna proprietary computer-vision models]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.magna.com/stories/blog/2026/ai-at-work--5-ways-magna-is-reimagining-manufacturing",
+   "raw_sector": "",
+   "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "Magna International",
+   "use": "Condition-based / predictive maintenance: ML models analyze equipment vibration, temperature and pressure data to raise early alerts before equipment failures across manufacturing lines. [none]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.magna.com/stories/blog/2026/ai-at-work--5-ways-magna-is-reimagining-manufacturing",
+   "raw_sector": "",
+   "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "Magna International",
+   "use": "Autonomous Mobile Robots (AMRs) deployed on factory floors for material handling/logistics with AI-optimized routing, reducing forklift incidents and improving space utilization. [none]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.magna.com/stories/blog/2025/magna-accelerates-operational-ai-using-a-broad-ecosystem--including-nvidia-omniverse-and-cosmos",
+   "raw_sector": "",
+   "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "Magna International",
+   "use": "AI-enabled factory orchestration: dynamic production scheduling, bottleneck identification and resource optimization, reducing manual reporting and administrative tasks. [none]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.magna.com/stories/blog/2026/ai-at-work--5-ways-magna-is-reimagining-manufacturing",
+   "raw_sector": "",
+   "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "Magna International",
+   "use": "Digital twins and factory simulation to optimize plant layouts and workflows, built on NVIDIA Omniverse simulation APIs/libraries as part of Magna's 'Factory of the Future' strategy. [NVIDIA Omniverse]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.magna.com/stories/blog/2025/magna-accelerates-operational-ai-using-a-broad-ecosystem--including-nvidia-omniverse-and-cosmos",
+   "raw_sector": "",
+   "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "Magna International",
+   "use": "City Delivery autonomous last-mile delivery platform (operating since 2022); Magna is developing with NVIDIA Cosmos Reason (7B reasoning vision-language model) so vehicles adapt faster to new cities and complex environments. [NVIDIA Cosmos Reason]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://nvidianews.nvidia.com/news/nvidia-opens-portals-to-world-of-robotics-with-new-omniverse-libraries-cosmos-physical-ai-models-and-ai-computing-infrastructure",
+   "raw_sector": "",
+   "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "Magna International",
+   "use": "Strategic partnership with Sanctuary AI to develop and pilot general-purpose humanoid robots (Phoenix, controlled by the 'Carbon' AI) for specific tasks in Magna manufacturing facilities; includes an equity investment by Magna. [Sanctuary AI (Phoenix / Carbon)]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.automationmag.com/magna-international-sanctuary-ai-partnership/",
+   "raw_sector": "",
+   "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "Magna International",
+   "use": "Partnership with NVIDIA to develop AI-powered ADAS and autonomous driving (L2+ to L4) plus interior cabin monitoring on the NVIDIA DRIVE AGX / DRIVE Thor SoC (Blackwell, up to 1,000 TOPS), with a working demo platform planned for Q4 2025. [NVIDIA DRIVE AGX / DRIVE Thor / DriveOS]",
+   "existence": "claimed",
+   "value": "up to 1,000 TOPS AI compute (DRIVE Thor)",
+   "tier": "",
+   "url": "https://www.magna.com/stories/news-press-release/2025/magna-and-nvidia-team-up-to-advance-next-gen-automotive-technologies",
+   "raw_sector": "",
+   "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "Magna International",
+   "use": "Camera-based Driver/Occupant Monitoring System (DMS): AI perception software tracks head, eyes and body to detect distraction and drowsiness, classify occupants and enable child-presence detection; market-ready product integrated into interior mirror, won a European OEM contract. [Magna (interior sensing / perception software)]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.autonews.com/manufacturing/anc-magna-brief-occupant-monitoring/",
+   "raw_sector": "",
+   "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "Magna International",
+   "use": "Smart sustainability platform using ML for utility intelligence: forecasting usage and cost-per-part and anomaly detection across energy, water, compressed air and industrial gases. [none]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.magna.com/stories/blog/2026/ai-at-work--5-ways-magna-is-reimagining-manufacturing",
+   "raw_sector": "",
+   "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "Magna International",
+   "use": "Internal employee AI assistants: MAVIS (Magna AI Virtual Information System) and Microsoft M365 Copilot / Copilot Chat listed as Magna's Approved AI Solutions for employees in the corporate Responsible AI Policy. [Microsoft M365 Copilot; MAVIS (Magna internal)]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.magna.com/docs/default-source/2026-compliance-policies/responsible-ai-policy/english---responsible-ai-policy.pdf?sfvrsn=79e0b97f_11",
+   "raw_sector": "",
+   "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "Magna International",
+   "use": "Building and maintaining Microsoft Copilot Studio agents that connect to business systems (conversation flows, topics, actions, connectors) for internal automation, per Magna AI engineering roles. [Microsoft Copilot Studio]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://builtin.com/job/ai-engineering-co-op-student-4-months/10243252",
+   "raw_sector": "",
    "date": "missing",
    "fresh": "undated"
   }

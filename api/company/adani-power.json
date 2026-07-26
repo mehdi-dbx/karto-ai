@@ -3,28 +3,28 @@
  "name": "Adani Power",
  "cc": "IN",
  "vertical": "Energy & Utilities",
- "deployments": 1,
- "confirmed": 1,
- "with_value_number": 1,
- "proof_rate": 1.0,
+ "deployments": 4,
+ "confirmed": 4,
+ "with_value_number": 2,
+ "proof_rate": 0.5,
  "mktcap": 49277108434.0,
  "revenue": 7112409639.0,
  "employees": 3967.0,
  "silent": false,
- "per_bn_revenue": 0.14,
- "per_10k_emp": 2.52,
+ "per_bn_revenue": 0.56,
+ "per_10k_emp": 10.08,
  "benchmarks": {
   "global_vertical": {
-   "deployments": 0,
-   "confirmed": 20,
-   "proof_rate": 75,
-   "n": 210
+   "deployments": 40,
+   "confirmed": 58,
+   "proof_rate": 81,
+   "n": 213
   },
   "country_vertical": {
-   "deployments": 0,
-   "confirmed": 9,
-   "proof_rate": 55,
-   "n": 12
+   "deployments": 42,
+   "confirmed": 58,
+   "proof_rate": 75,
+   "n": 13
   }
  },
  "first_seen": null,
@@ -33,12 +33,18 @@
  "momentum": "none",
  "maturity": "L3",
  "maturity_evidence": [
+  "multi_horizontal",
   "named_product:Black",
   "value_number"
  ],
- "prospect_score": 14,
- "stack": [],
- "vendor_named": false,
+ "prospect_score": 44,
+ "stack": [
+  "Databricks",
+  "Google",
+  "Google Cloud",
+  "Microsoft"
+ ],
+ "vendor_named": true,
  "deployments_detail": [
   {
    "company": "Adani Power",
@@ -48,6 +54,39 @@
    "tier": "I",
    "url": "https://www.bv.com/adani-power-asset360-ai",
    "raw_sector": "Power",
+   "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "Adani Power",
+   "use": "Generative AI development and deployment platform [Google Cloud Vertex AI]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://cloud.google.com/customers/adani",
+   "raw_sector": "",
+   "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "Adani Power",
+   "use": "AI-powered project governance platform for accelerating execution, visibility, and decision-making [Microsoft Power Platform]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.microsoft.com/en/customers/story/26789-adani-green-energy-power-apps",
+   "raw_sector": "",
+   "date": "Jul 8, 2026",
+   "fresh": "undated"
+  },
+  {
+   "company": "Adani Power",
+   "use": "Real-time analytics, AI and business intelligence use cases including automated ingestion [Databricks]",
+   "existence": "confirmed",
+   "value": "15",
+   "tier": "",
+   "url": "https://www.databricks.com/customers/adani-digital",
+   "raw_sector": "",
    "date": "missing",
    "fresh": "undated"
   }

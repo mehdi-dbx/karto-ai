@@ -3,41 +3,52 @@
  "name": "Axon Enterprise",
  "cc": "US",
  "vertical": "Industrial / Machinery",
- "deployments": 1,
- "confirmed": 1,
- "with_value_number": 0,
- "proof_rate": 0.0,
+ "deployments": 7,
+ "confirmed": 7,
+ "with_value_number": 1,
+ "proof_rate": 0.143,
  "mktcap": 39680000000.0,
  "revenue": 2980000000.0,
  "employees": 5100.0,
  "silent": false,
- "per_bn_revenue": 0.34,
- "per_10k_emp": 1.96,
+ "per_bn_revenue": 2.35,
+ "per_10k_emp": 13.73,
  "benchmarks": {
   "global_vertical": {
-   "deployments": 0,
-   "confirmed": 14,
-   "proof_rate": 0,
-   "n": 175
+   "deployments": 61,
+   "confirmed": 78,
+   "proof_rate": 49,
+   "n": 176
   },
   "country_vertical": {
-   "deployments": 0,
-   "confirmed": 19,
-   "proof_rate": 0,
-   "n": 80
+   "deployments": 61,
+   "confirmed": 81,
+   "proof_rate": 58,
+   "n": 81
   }
  },
- "first_seen": null,
- "by_year": [],
- "undated_pct": 100,
- "momentum": "none",
+ "first_seen": 2025,
+ "by_year": [
+  {
+   "year": 2025,
+   "n": 1
+  }
+ ],
+ "undated_pct": 86,
+ "momentum": "early_mover,rising",
  "maturity": "L3",
  "maturity_evidence": [
-  "named_product:Draft One"
+  "multi_horizontal",
+  "named_product:Draft One",
+  "value_number"
  ],
- "prospect_score": 54,
- "stack": [],
- "vendor_named": false,
+ "prospect_score": 76,
+ "stack": [
+  "Microsoft",
+  "Microsoft Azure",
+  "OpenAI"
+ ],
+ "vendor_named": true,
  "deployments_detail": [
   {
    "company": "Axon Enterprise",
@@ -47,6 +58,72 @@
    "tier": "S",
    "url": "https://www.axon.com/products/draft-one",
    "raw_sector": "Industrials",
+   "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "Axon Enterprise",
+   "use": "Automated police report generation from body-worn camera audio",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.axon.com/ai",
+   "raw_sector": "",
+   "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "Axon Enterprise",
+   "use": "Automated redaction of evidence",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.axon.com/ai",
+   "raw_sector": "",
+   "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "Axon Enterprise",
+   "use": "Automatic transcription of evidence",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.axon.com/ai",
+   "raw_sector": "",
+   "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "Axon Enterprise",
+   "use": "Automatic License Plate Recognition (ALPR) for vehicle search",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.axon.com/ai",
+   "raw_sector": "",
+   "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "Axon Enterprise",
+   "use": "'Draft One' police-report drafting tool built on Azure OpenAI Service [Microsoft] [Microsoft]",
+   "existence": "confirmed",
+   "value": "82% reduction in officer report-writing time",
+   "tier": "",
+   "url": "https://www.microsoft.com/en-us/microsoft-cloud/blog/2025/07/24/ai-powered-success-with-1000-stories-of-customer-transformation-and-innovation/",
+   "raw_sector": "",
+   "date": "2025-07-24",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Axon Enterprise",
+   "use": "Unauthorized drone detection [Dedrone]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.axon.com/ai",
+   "raw_sector": "",
    "date": "missing",
    "fresh": "undated"
   }

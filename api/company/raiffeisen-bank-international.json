@@ -3,22 +3,22 @@
  "name": "Raiffeisen Bank International",
  "cc": "AT",
  "vertical": "Financial Services",
- "deployments": 16,
- "confirmed": 15,
- "with_value_number": 8,
- "proof_rate": 0.5,
+ "deployments": 23,
+ "confirmed": 22,
+ "with_value_number": 10,
+ "proof_rate": 0.435,
  "mktcap": 19839600000.0,
  "revenue": 9698400000.0,
  "employees": 42154.0,
  "silent": false,
- "per_bn_revenue": 1.65,
- "per_10k_emp": 3.8,
+ "per_bn_revenue": 2.37,
+ "per_10k_emp": 5.46,
  "benchmarks": {
   "global_vertical": {
    "deployments": 100,
    "confirmed": 100,
-   "proof_rate": 61,
-   "n": 377
+   "proof_rate": 73,
+   "n": 388
   }
  },
  "first_seen": 2017,
@@ -33,14 +33,14 @@
   },
   {
    "year": 2025,
-   "n": 4
+   "n": 5
   },
   {
    "year": 2026,
    "n": 2
   }
  ],
- "undated_pct": 50,
+ "undated_pct": 61,
  "momentum": "early_mover,rising",
  "maturity": "L4",
  "maturity_evidence": [
@@ -50,11 +50,15 @@
   "multi_year",
   "tier_p"
  ],
- "prospect_score": 80,
+ "prospect_score": 83,
  "stack": [
+  "Amazon AWS",
+  "Anthropic",
+  "Google",
   "Microsoft",
   "Microsoft Azure",
-  "OpenAI"
+  "OpenAI",
+  "Palantir"
  ],
  "vendor_named": true,
  "deployments_detail": [
@@ -71,6 +75,39 @@
   },
   {
    "company": "Raiffeisen Bank International",
+   "use": "Omnichannel customer engagement and AI automation [Infobip]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.infobip.com/blog/raiffeisen-bank-international",
+   "raw_sector": "",
+   "date": "Feb 23, 2026",
+   "fresh": "undated"
+  },
+  {
+   "company": "Raiffeisen Bank International",
+   "use": "Internal ChatGPT for document automation and summarization [Microsoft Azure]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.microsoft.com/en/customers/story/21406-raiffeisen-bank-international-azure",
+   "raw_sector": "",
+   "date": "Jan 30, 2025",
+   "fresh": "undated"
+  },
+  {
+   "company": "Raiffeisen Bank International",
+   "use": "AI-powered contract management and compliance [Sirion]",
+   "existence": "confirmed",
+   "value": "60",
+   "tier": "",
+   "url": "https://www.sirion.ai/library/case-study/raiffeisen-bank-international/",
+   "raw_sector": "",
+   "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "Raiffeisen Bank International",
    "use": "RBI Group AI Lab operates over 100 AI use cases across business areas and CEE markets",
    "existence": "confirmed",
    "value": "100+ AI use cases",
@@ -79,6 +116,39 @@
    "raw_sector": "Banks",
    "date": "missing",
    "fresh": "undated"
+  },
+  {
+   "company": "Raiffeisen Bank International",
+   "use": "AI Development and Integration for banking workflows",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.raiffeisen-tech.com/en/our-services/ai-development-integration.html",
+   "raw_sector": "",
+   "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "Raiffeisen Bank International",
+   "use": "AI Center of Excellence for scaling AI solutions",
+   "existence": "confirmed",
+   "value": "1500",
+   "tier": "",
+   "url": "https://www.rbinternational.com/content/dam/rbi/ho/investors/results-reports/annual-reports/rbi/2026-03-02%20RBI%20Annual%20Report%202025.pdf.coredownload.pdf",
+   "raw_sector": "",
+   "date": "Mar 2, 2026",
+   "fresh": "undated"
+  },
+  {
+   "company": "Raiffeisen Bank International",
+   "use": "Built 'RBI ChatGPT' on Azure OpenAI Service and Azure AI Search to automate documentation and summarize legal documents [Microsoft] [Microsoft]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.microsoft.com/en/customers/story/21406-raiffeisen-bank-international-azure",
+   "raw_sector": "",
+   "date": "2025",
+   "fresh": "fresh"
   },
   {
    "company": "Raiffeisen Bank International",
@@ -230,6 +300,17 @@
    "value": "300+ daily users, 10,000+ clients monitored",
    "tier": "",
    "url": "https://www.rbinternational.com/en/raiffeisen/career/topics/ai-at-rbi.html",
+   "raw_sector": "",
+   "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "Raiffeisen Bank International",
+   "use": "Real-time data architecture for customer acquisition [Fivetran]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.fivetran.com/case-studies/raiffeisen-bank-international-uses-real-time-data-to-win-more-customers",
    "raw_sector": "",
    "date": "missing",
    "fresh": "undated"

@@ -3,20 +3,20 @@
  "name": "Strabag",
  "cc": "AT",
  "vertical": "Real Estate & Construction",
- "deployments": 2,
- "confirmed": 1,
+ "deployments": 4,
+ "confirmed": 3,
  "with_value_number": 0,
  "proof_rate": 0.0,
  "mktcap": 10767600000.0,
  "revenue": 20217600000.0,
  "employees": 88556.0,
  "silent": false,
- "per_bn_revenue": 0.1,
- "per_10k_emp": 0.23,
+ "per_bn_revenue": 0.2,
+ "per_10k_emp": 0.45,
  "benchmarks": {
   "global_vertical": {
-   "deployments": 82,
-   "confirmed": 31,
+   "deployments": 50,
+   "confirmed": 55,
    "proof_rate": 0,
    "n": 154
   }
@@ -27,11 +27,13 @@
  "momentum": "none",
  "maturity": "L3",
  "maturity_evidence": [
+  "multi_horizontal",
   "named_product:Company",
   "tier_p"
  ],
- "prospect_score": 46,
+ "prospect_score": 58,
  "stack": [
+  "Microsoft",
   "OpenAI"
  ],
  "vendor_named": true,
@@ -56,6 +58,28 @@
    "url": "https://brutkasten.com/artikel/strabag-nutzt-openai",
    "raw_sector": "Construction",
    "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "Strabag",
+   "use": "AI-based generative design for construction planning and resource optimization",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://work-on-progress.strabag.com/en/digitalisation-processes-and-innovation/artificial-intelligence/generative-design-1",
+   "raw_sector": "",
+   "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "Strabag",
+   "use": "AI algorithms for project risk management and financial risk identification [Microsoft Data Science Hub]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.microsoft.com/en/customers/story/1596825960615628483-strabag-discrete-manufacturing-azure-en-austria",
+   "raw_sector": "",
+   "date": "Feb 9, 2023",
    "fresh": "undated"
   }
  ]

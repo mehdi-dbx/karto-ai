@@ -3,27 +3,27 @@
  "name": "Honda Motor Co., Ltd.",
  "cc": "JP",
  "vertical": "Automotive",
- "deployments": 15,
+ "deployments": 17,
  "confirmed": 11,
  "with_value_number": 2,
- "proof_rate": 0.133,
+ "proof_rate": 0.118,
  "mktcap": 40466666667.0,
  "revenue": 145333333333.0,
  "employees": 195109.0,
  "silent": false,
- "per_bn_revenue": 0.1,
- "per_10k_emp": 0.77,
+ "per_bn_revenue": 0.12,
+ "per_10k_emp": 0.87,
  "benchmarks": {
   "global_vertical": {
-   "deployments": 100,
-   "confirmed": 97,
-   "proof_rate": 54,
+   "deployments": 92,
+   "confirmed": 95,
+   "proof_rate": 26,
    "n": 40
   },
   "country_vertical": {
    "deployments": 100,
    "confirmed": 100,
-   "proof_rate": 44,
+   "proof_rate": 11,
    "n": 10
   }
  },
@@ -43,14 +43,14 @@
   },
   {
    "year": 2025,
-   "n": 7
+   "n": 9
   },
   {
    "year": 2026,
    "n": 3
   }
  ],
- "undated_pct": 13,
+ "undated_pct": 12,
  "momentum": "early_mover,rising",
  "maturity": "L4",
  "maturity_evidence": [
@@ -60,9 +60,16 @@
   "multi_year",
   "tier_p"
  ],
- "prospect_score": 100,
- "stack": [],
- "vendor_named": false,
+ "prospect_score": 95,
+ "stack": [
+  "Amazon AWS",
+  "Google",
+  "IBM",
+  "Microsoft",
+  "Microsoft Azure",
+  "OpenAI"
+ ],
+ "vendor_named": true,
  "deployments_detail": [
   {
    "company": "Honda Motor Co., Ltd.",
@@ -73,6 +80,28 @@
    "url": "https://global.honda/",
    "raw_sector": "Automotive",
    "date": "2026-02",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Honda Motor Co., Ltd.",
+   "use": "Advanced Driver Assistance Systems (ADAS) and autonomous driving development using Helm.ai's perception, prediction, and generative simulation models [Helm.ai]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://helm.ai/post/helm-ai-and-honda-motor-co-agree-to-multi-year-adas-joint-development-for-mass-production-consumer-vehicles",
+   "raw_sector": "",
+   "date": "2025-08-20",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Honda Motor Co., Ltd.",
+   "use": "Next-generation end-to-end autonomous driving and ADAS development [Helm.ai]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://global.honda/en/newsroom/news/2025/c251015aeng.html",
+   "raw_sector": "",
+   "date": "2025-10-15",
    "fresh": "fresh"
   },
   {

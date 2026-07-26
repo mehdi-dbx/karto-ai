@@ -3,27 +3,27 @@
  "name": "Rio Tinto",
  "cc": "UK",
  "vertical": "Mining & Materials",
- "deployments": 1,
- "confirmed": 1,
- "with_value_number": 1,
- "proof_rate": 1.0,
+ "deployments": 7,
+ "confirmed": 7,
+ "with_value_number": 2,
+ "proof_rate": 0.286,
  "mktcap": 149961600000.0,
  "revenue": 54394100000.0,
  "employees": 56890.0,
  "silent": false,
- "per_bn_revenue": 0.02,
- "per_10k_emp": 0.18,
+ "per_bn_revenue": 0.13,
+ "per_10k_emp": 1.23,
  "benchmarks": {
   "global_vertical": {
-   "deployments": 0,
-   "confirmed": 37,
-   "proof_rate": 80,
-   "n": 61
+   "deployments": 75,
+   "confirmed": 84,
+   "proof_rate": 67,
+   "n": 62
   },
   "country_vertical": {
-   "deployments": 0,
-   "confirmed": 60,
-   "proof_rate": 100,
+   "deployments": 80,
+   "confirmed": 80,
+   "proof_rate": 80,
    "n": 6
   }
  },
@@ -34,16 +34,19 @@
    "n": 1
   }
  ],
- "undated_pct": 0,
+ "undated_pct": 86,
  "momentum": "early_mover,gone_quiet",
  "maturity": "L3",
  "maturity_evidence": [
+  "multi_horizontal",
   "named_product:Mine of the Future",
   "value_number"
  ],
- "prospect_score": 14,
- "stack": [],
- "vendor_named": false,
+ "prospect_score": 71,
+ "stack": [
+  "Palantir"
+ ],
+ "vendor_named": true,
  "deployments_detail": [
   {
    "company": "Rio Tinto",
@@ -58,6 +61,72 @@
   },
   {
    "company": "Rio Tinto",
+   "use": "AI and big data for supplier cost negotiation and optimization",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.theaustralian.com.au/business/mining-energy/rio-tinto-mining-big-data-ai-to-bleed-desperate-suppliers/news-story/44250d203a944de637dd718e85a63d8e",
+   "raw_sector": "",
+   "date": "Jan 28, 2020",
+   "fresh": "undated"
+  },
+  {
+   "company": "Rio Tinto",
+   "use": "AI platform for accelerated AI use case deployment and validation [Palantir Technologies]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://im-mining.com/2024/11/14/rio-tinto-to-extend-use-of-palantir-technologies-ai-based-solutions/",
+   "raw_sector": "",
+   "date": "Nov 14, 2024",
+   "fresh": "undated"
+  },
+  {
+   "company": "Rio Tinto",
+   "use": "AI-powered lithium exploration identifying drill targets 100x faster than traditional methods",
+   "existence": "confirmed",
+   "value": "100x",
+   "tier": "",
+   "url": "https://chiefaiofficer.com/rio-tinto-ai-mining-exploration-100x-faster-autonomous-operations/",
+   "raw_sector": "",
+   "date": "Oct 22, 2025",
+   "fresh": "undated"
+  },
+  {
+   "company": "Rio Tinto",
+   "use": "AI scheduling platform for mining operations optimization",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.bcg.com/x/mark-your-moment/how-an-iron-ore-producer-modernized-mining-operations-with-ai",
+   "raw_sector": "",
+   "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "Rio Tinto",
+   "use": "AI and data science for safety and efficiency in mining operations",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.riotinto.com/en/news/stories/using-ai-data-science-for-better-operations",
+   "raw_sector": "",
+   "date": "Jul 25, 2024",
+   "fresh": "undated"
+  },
+  {
+   "company": "Rio Tinto",
+   "use": "AI for automatic orebody modeling, equipment dispatch, and blast prediction/control",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.riotinto.com/en/mn/about/innovation/smart-mining",
+   "raw_sector": "",
+   "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "Rio Tinto",
    "use": "Smart Mining combining automated equipment data with AI, ML and automation; operates AutoHaul autonomous rail and 150+ autonomous haul trucks with ML predictive maintenance",
    "existence": "confirmed",
    "value": "1,700km AutoHaul rail network",
@@ -66,6 +135,61 @@
    "raw_sector": "Mining",
    "date": "2024",
    "fresh": "aging"
+  },
+  {
+   "company": "Rio Tinto",
+   "use": "AI-powered mineral exploration - drill target identification at Rincon lithium project",
+   "existence": "confirmed",
+   "value": "100x faster",
+   "tier": "",
+   "url": "https://chiefaiofficer.com/rio-tinto-ai-mining-exploration-100x-faster-autonomous-operations/",
+   "raw_sector": "",
+   "date": "Oct 22, 2025",
+   "fresh": "undated"
+  },
+  {
+   "company": "Rio Tinto",
+   "use": "AI-based scheduling platform for mining operations",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.bcg.com/x/mark-your-moment/how-an-iron-ore-producer-modernized-mining-operations-with-ai",
+   "raw_sector": "",
+   "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "Rio Tinto",
+   "use": "Palantir AIP for building and validating AI use cases [Palantir Technologies]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://im-mining.com/2024/11/14/rio-tinto-to-extend-use-of-palantir-technologies-ai-based-solutions/",
+   "raw_sector": "",
+   "date": "Nov 14, 2024",
+   "fresh": "undated"
+  },
+  {
+   "company": "Rio Tinto",
+   "use": "AI and data science for operations optimization, safety and efficiency",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.riotinto.com/en/news/stories/using-ai-data-science-for-better-operations",
+   "raw_sector": "",
+   "date": "Jul 25, 2024",
+   "fresh": "undated"
+  },
+  {
+   "company": "Rio Tinto",
+   "use": "Generative AI chatbot with graph-based RAG",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.youtube.com/watch?v=M8EbEnqgoFY",
+   "raw_sector": "",
+   "date": "missing",
+   "fresh": "undated"
   }
  ]
 }

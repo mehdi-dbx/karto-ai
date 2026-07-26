@@ -3,7 +3,7 @@
  "name": "CenterPoint Energy",
  "cc": "US",
  "vertical": "Energy & Utilities",
- "deployments": 1,
+ "deployments": 5,
  "confirmed": 1,
  "with_value_number": 0,
  "proof_rate": 0.0,
@@ -11,18 +11,18 @@
  "revenue": 9410000000.0,
  "employees": 14931.0,
  "silent": false,
- "per_bn_revenue": 0.11,
- "per_10k_emp": 0.67,
+ "per_bn_revenue": 0.53,
+ "per_10k_emp": 3.35,
  "benchmarks": {
   "global_vertical": {
-   "deployments": 0,
-   "confirmed": 20,
+   "deployments": 53,
+   "confirmed": 7,
    "proof_rate": 0,
-   "n": 210
+   "n": 213
   },
   "country_vertical": {
-   "deployments": 0,
-   "confirmed": 39,
+   "deployments": 57,
+   "confirmed": 6,
    "proof_rate": 0,
    "n": 52
   }
@@ -36,9 +36,12 @@
   "named_product:Neara",
   "tier_p"
  ],
- "prospect_score": 54,
- "stack": [],
- "vendor_named": false,
+ "prospect_score": 46,
+ "stack": [
+  "NVIDIA",
+  "Palantir"
+ ],
+ "vendor_named": true,
  "deployments_detail": [
   {
    "company": "CenterPoint Energy",
@@ -49,6 +52,50 @@
    "url": "https://www.centerpointenergy.com/en-us/corporate/about-us/news/1875",
    "raw_sector": "Utilities",
    "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "CenterPoint Energy",
+   "use": "AI tools for grid resiliency and power grid stabilization [NVIDIA, Palantir]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://energycapitalhtx.com/amp/centerpoint-nvidia-palantir-chain-reaction-2674382464",
+   "raw_sector": "",
+   "date": "Dec 15, 2025",
+   "fresh": "undated"
+  },
+  {
+   "company": "CenterPoint Energy",
+   "use": "AI-enabled simulation and analytics platform to reduce customer outages and accelerate restoration [Neara]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.centerpointenergy.com/en-us/corporate/about-us/news/1875",
+   "raw_sector": "",
+   "date": "Oct 2, 2024",
+   "fresh": "undated"
+  },
+  {
+   "company": "CenterPoint Energy",
+   "use": "AI for 3D mapping and real-time weather forecasting to predict outages and restore power",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.houstonpublicmedia.org/articles/technology/2025/03/25/516887/centerpoint-energy-employing-ai-to-help-maintain-houston-area-infrastructure/",
+   "raw_sector": "",
+   "date": "Mar 25, 2025",
+   "fresh": "undated"
+  },
+  {
+   "company": "CenterPoint Energy",
+   "use": "Chain Reaction - AI tools for data center software acceleration [NVIDIA, Palantir]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.reuters.com/technology/palantir-teams-with-nvidia-centerpoint-energy-software-speed-up-ai-data-center-2025-12-04/",
+   "raw_sector": "",
+   "date": "Dec 4, 2025",
    "fresh": "undated"
   }
  ]

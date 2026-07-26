@@ -3,26 +3,26 @@
  "name": "Absa Group",
  "cc": "ZA",
  "vertical": "Financial Services",
- "deployments": 2,
- "confirmed": 1,
- "with_value_number": 0,
- "proof_rate": 0.0,
+ "deployments": 5,
+ "confirmed": 4,
+ "with_value_number": 1,
+ "proof_rate": 0.2,
  "mktcap": 9823783784.0,
  "revenue": 5524324324.0,
  "employees": 37033.0,
  "silent": false,
- "per_bn_revenue": 0.36,
- "per_10k_emp": 0.54,
+ "per_bn_revenue": 0.91,
+ "per_10k_emp": 1.35,
  "benchmarks": {
   "global_vertical": {
-   "deployments": 62,
-   "confirmed": 17,
-   "proof_rate": 0,
-   "n": 377
+   "deployments": 31,
+   "confirmed": 39,
+   "proof_rate": 39,
+   "n": 388
   },
   "country_vertical": {
-   "deployments": 67,
-   "confirmed": 17,
+   "deployments": 50,
+   "confirmed": 50,
    "proof_rate": 0,
    "n": 7
   }
@@ -34,16 +34,21 @@
    "n": 2
   }
  ],
- "undated_pct": 0,
+ "undated_pct": 60,
  "momentum": "late_entrant,rising",
  "maturity": "L3",
  "maturity_evidence": [
+  "multi_horizontal",
   "named_product:Agentic",
+  "value_number",
   "tier_p"
  ],
- "prospect_score": 54,
- "stack": [],
- "vendor_named": false,
+ "prospect_score": 56,
+ "stack": [
+  "Microsoft",
+  "Salesforce"
+ ],
+ "vendor_named": true,
  "deployments_detail": [
   {
    "company": "Absa Group",
@@ -58,6 +63,17 @@
   },
   {
    "company": "Absa Group",
+   "use": "Agentic AI for customer service and fraud resolution [Salesforce Agentforce]",
+   "existence": "confirmed",
+   "value": "88% faster charge resolution, 50% of fraud cases handled",
+   "tier": "",
+   "url": "https://www.linkedin.com/posts/salesforce_absa-group-blazes-new-trails-in-agent-first-activity-7366471352196792320-8XvO",
+   "raw_sector": "",
+   "date": "11 months ago",
+   "fresh": "undated"
+  },
+  {
+   "company": "Absa Group",
    "use": "AI-powered super agents scanning systems for vulnerabilities to shorten patch cycles against frontier AI cyberthreats",
    "existence": "claimed",
    "value": "none",
@@ -66,6 +82,28 @@
    "raw_sector": "Banks",
    "date": "2026",
    "fresh": "fresh"
+  },
+  {
+   "company": "Absa Group",
+   "use": "Financial crime detection and transaction monitoring [SymphonyAI]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.symphonyai.com/resources/case-study/financial-services/absa-transforms-its-financial-crime-capabilities-with-ai",
+   "raw_sector": "",
+   "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "Absa Group",
+   "use": "Code generation and developer productivity [Microsoft Copilot / GitHub Copilot]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.microsoft.com/en/customers/story/1783172439597920946-absa-github-copilot-banking-and-capital-markets-en-south-africa",
+   "raw_sector": "",
+   "date": "Jun 25, 2024",
+   "fresh": "undated"
   }
  ]
 }

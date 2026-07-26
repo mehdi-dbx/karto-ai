@@ -3,8 +3,8 @@
  "name": "CIH Bank",
  "cc": "MA",
  "vertical": "Financial Services",
- "deployments": 1,
- "confirmed": 1,
+ "deployments": 9,
+ "confirmed": 8,
  "with_value_number": 0,
  "proof_rate": 0.0,
  "mktcap": 1249000000.0,
@@ -15,29 +15,50 @@
  "per_10k_emp": null,
  "benchmarks": {
   "global_vertical": {
-   "deployments": 0,
-   "confirmed": 17,
+   "deployments": 58,
+   "confirmed": 67,
    "proof_rate": 0,
-   "n": 377
+   "n": 388
   },
   "country_vertical": {
-   "deployments": 0,
-   "confirmed": 60,
+   "deployments": 60,
+   "confirmed": 90,
    "proof_rate": 0,
    "n": 11
   }
  },
- "first_seen": null,
- "by_year": [],
- "undated_pct": 100,
- "momentum": "none",
+ "first_seen": 2021,
+ "by_year": [
+  {
+   "year": 2021,
+   "n": 1
+  },
+  {
+   "year": 2024,
+   "n": 1
+  },
+  {
+   "year": 2025,
+   "n": 2
+  },
+  {
+   "year": 2026,
+   "n": 3
+  }
+ ],
+ "undated_pct": 22,
+ "momentum": "early_mover,rising",
  "maturity": "L3",
  "maturity_evidence": [
-  "named_product:Intelaw"
+  "multi_horizontal",
+  "named_product:Intelaw",
+  "multi_year"
  ],
- "prospect_score": 54,
- "stack": [],
- "vendor_named": false,
+ "prospect_score": 88,
+ "stack": [
+  "Microsoft"
+ ],
+ "vendor_named": true,
  "deployments_detail": [
   {
    "company": "CIH Bank",
@@ -49,6 +70,94 @@
    "raw_sector": "Financials / Banques",
    "date": "missing",
    "fresh": "undated"
+  },
+  {
+   "company": "CIH Bank",
+   "use": "CIH M3AK: WhatsApp virtual banking assistant ('assistance virtuelle') letting customers retrieve balance, account number, nearest ATM, credit status, transaction history, exchange/JAWAZ balance and bill info via conversational messaging [none named (WhatsApp channel)]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://lematin.ma/express/2021/cih-bank-lance-service-bancaire-cih-m3ak/352967.html",
+   "raw_sector": "",
+   "date": "2021-02",
+   "fresh": "stale"
+  },
+  {
+   "company": "CIH Bank",
+   "use": "Intelaw legal/regulatory information platform for professional and business clients featuring a legal chatbot (billed as the first legal chatbot in Morocco) plus keyword search returning answers backed by legal texts [none named (internal)]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://cihbank.ma/Professionnels/nos-innovations/Intelaw",
+   "raw_sector": "",
+   "date": "none",
+   "fresh": "undated"
+  },
+  {
+   "company": "CIH Bank",
+   "use": "Strategic partnership deploying Microsoft 365 Copilot to internal teams as an AI productivity assistant to simplify daily tasks, boost productivity, and free staff for higher-value work [Microsoft]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.linkedin.com/posts/cihbank_microsoftcopilot-partnership-digitaltransformation-activity-7447721253211299840-cBMt",
+   "raw_sector": "",
+   "date": "2026",
+   "fresh": "fresh"
+  },
+  {
+   "company": "CIH Bank",
+   "use": "Copilot Studio custom generative-AI and 'Agentic' assistants rolled out to employees, driven by an internal IA Adoption Office (change management + acculturation to GenAI); Copilot M365 and Copilot Studio named as the operational stack [Microsoft]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://recrutement.cihbank.ma/1017_offre-emploi-ingenieur-ia-adoption.html",
+   "raw_sector": "",
+   "date": "2026",
+   "fresh": "fresh"
+  },
+  {
+   "company": "CIH Bank",
+   "use": "IA Factory: internal AI unit designing, industrializing and maintaining production AI solutions for prioritized business use cases, spanning ML/Deep Learning and generative AI/LLMs (prompting, RAG, agents) with MLOps/LLMOps pipelines [none named (internal; Python/LLM/RAG/agents stack)]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://recrutement.cihbank.ma/1018_offre-emploi-ingenieur-ia.html",
+   "raw_sector": "",
+   "date": "2026",
+   "fresh": "fresh"
+  },
+  {
+   "company": "CIH Bank",
+   "use": "AI innovation Lab ('Lab d'innovation IA de CIH BANK') where students and startups co-incubate concrete AI/tech projects on the bank's priority themes, established via GITEX Africa 2025 university partnerships [none named (partners UIR, UM6P)]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://fr.le360.ma/economie/gitex-africa-2025-signature-dun-partenariat-institutionnel-entre-luniversite-internationale-de-rabat_BCZFF3M4QRAIPJ5BPJUYGGETLU/",
+   "raw_sector": "",
+   "date": "2025-04",
+   "fresh": "fresh"
+  },
+  {
+   "company": "CIH Bank",
+   "use": "Selection of Backbase 'AI-native' Engagement Banking platform to modernize digital banking (AI-powered personalization, streamlined onboarding for local and diaspora customers); AI feature scope not detailed by CIH [Backbase]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.backbase.com/press/cih-bank-selects-backbase-to-elevate-digital-banking-across-morocco",
+   "raw_sector": "",
+   "date": "2024-10",
+   "fresh": "aging"
+  },
+  {
+   "company": "CIH Bank",
+   "use": "AI Bootcamp: hands-on workshops and masterclasses (with the EBRD) to equip and drive AI adoption among clients in tourism, logistics and e-commerce sectors [none named (partner EBRD)]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://cihbank.ma/bootcamp/",
+   "raw_sector": "",
+   "date": "2025-10",
+   "fresh": "fresh"
   }
  ]
 }

@@ -3,8 +3,8 @@
  "name": "Hightech Payment Systems (HPS)",
  "cc": "MA",
  "vertical": "Technology",
- "deployments": 1,
- "confirmed": 1,
+ "deployments": 5,
+ "confirmed": 2,
  "with_value_number": 0,
  "proof_rate": 0.0,
  "mktcap": 442000000.0,
@@ -15,29 +15,41 @@
  "per_10k_emp": null,
  "benchmarks": {
   "global_vertical": {
-   "deployments": 0,
-   "confirmed": 6,
+   "deployments": 27,
+   "confirmed": 11,
    "proof_rate": 0,
-   "n": 156
+   "n": 159
   },
   "country_vertical": {
-   "deployments": 0,
-   "confirmed": 60,
+   "deployments": 83,
+   "confirmed": 67,
    "proof_rate": 0,
-   "n": 6
+   "n": 7
   }
  },
- "first_seen": null,
- "by_year": [],
- "undated_pct": 100,
- "momentum": "none",
+ "first_seen": 2025,
+ "by_year": [
+  {
+   "year": 2025,
+   "n": 2
+  },
+  {
+   "year": 2026,
+   "n": 1
+  }
+ ],
+ "undated_pct": 40,
+ "momentum": "early_mover,rising",
  "maturity": "L3",
  "maturity_evidence": [
+  "multi_horizontal",
   "named_product:CEO"
  ],
- "prospect_score": 54,
- "stack": [],
- "vendor_named": false,
+ "prospect_score": 52,
+ "stack": [
+  "Amazon AWS"
+ ],
+ "vendor_named": true,
  "deployments_detail": [
   {
    "company": "Hightech Payment Systems (HPS)",
@@ -49,6 +61,50 @@
    "raw_sector": "Technology / Services informatiques",
    "date": "missing",
    "fresh": "undated"
+  },
+  {
+   "company": "Hightech Payment Systems (HPS)",
+   "use": "A digital bank in Southeast Asia runs on HPS PowerCARD to launch card issuing, security, fraud and virtual-card services, described by HPS as 'supported by 350+ APIs, AI-driven processes and mobile-first capabilities such as dynamic CVV and QR payments' — a live client deployment of PowerCARD incorporating AI-driven processes. [HPS PowerCARD]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.hps-worldwide.com/blog/digital-first-design-how-asia-redefining-future-payments",
+   "raw_sector": "",
+   "date": "2026-03-30",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Hightech Payment Systems (HPS)",
+   "use": "HPS Next-Gen Issuer Processing Platform offered as SaaS deployed on AWS, including a 'proven fraud prevention engine' and an authentication control server for 3DS with risk-based authentication for adaptive, transaction-risk-based security. Listed and deployed on AWS Marketplace. [HPS (PowerCARD); AWS (hosting)]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://aws.amazon.com/marketplace/pp/prodview-fkwyvwrmgnq26",
+   "raw_sector": "",
+   "date": "none",
+   "fresh": "undated"
+  },
+  {
+   "company": "Hightech Payment Systems (HPS)",
+   "use": "AI/ML fraud detection integrated into the PowerCARD-Fraud solution via a strategic partnership with US data-science firm Enigma. Enigma's machine-learning models (which 'detect and predict fraudulent activities') are combined with HPS's existing rule-based engine to cover payment issuance, acquiring and authorisation across HPS's global client base. [Enigma (AI/ML models); HPS PowerCARD-Fraud]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.hps-worldwide.com/news-and-media/hps-and-enigma-join-forces-revolutionise-fraud-detection-ai",
+   "raw_sector": "",
+   "date": "2025-03-04",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Hightech Payment Systems (HPS)",
+   "use": "Same HPS-Enigma AI fraud-detection collaboration, independently reported by IBS Intelligence: Enigma's AI models delivered as 'cutting-edge AI fraud detection models to businesses worldwide' across the 95+ countries where PowerCARD operates, using a hybrid AI-plus-rules approach. [Enigma; HPS PowerCARD]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://ibsintelligence.com/ibsi-news/hps-partners-with-enigma-to-enhance-global-payment-security-with-ai/",
+   "raw_sector": "",
+   "date": "2025-03-05",
+   "fresh": "fresh"
   }
  ]
 }

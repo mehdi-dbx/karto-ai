@@ -15,10 +15,10 @@
  "per_10k_emp": 0.22,
  "benchmarks": {
   "global_vertical": {
-   "deployments": 85,
-   "confirmed": 88,
-   "proof_rate": 72,
-   "n": 93
+   "deployments": 54,
+   "confirmed": 63,
+   "proof_rate": 88,
+   "n": 94
   }
  },
  "first_seen": 2023,
@@ -45,9 +45,11 @@
   "value_number",
   "multi_year"
  ],
- "prospect_score": 72,
- "stack": [],
- "vendor_named": false,
+ "prospect_score": 64,
+ "stack": [
+  "Microsoft"
+ ],
+ "vendor_named": true,
  "deployments_detail": [
   {
    "company": "China Mobile",
@@ -62,6 +64,17 @@
   },
   {
    "company": "China Mobile",
+   "use": "China Mobile Hong Kong (CMHK) deployed a Cantonese AI voicebot into its customer-service hotline (12580), letting callers speak naturally to get answers instead of navigating a touch-tone IVR. Built with Fano Labs over ~one year; launched to prepaid customers with expansion planned. [Fano Labs]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.linkedin.com/posts/mileswen_last-week-china-mobile-hong-kong-cmhk-activity-7062608237635776512-BbnB",
+   "raw_sector": "",
+   "date": "2023-05-01",
+   "fresh": "stale"
+  },
+  {
+   "company": "China Mobile",
    "use": "Jiutian (九天) self-developed large-model series (billions to hundreds of billions of parameters) spanning language, vision, speech and multimodal, deployed across 27 domains and 900 applications",
    "existence": "confirmed",
    "value": "450+ AI algorithm capabilities; 900 applications across 27 domains",
@@ -70,6 +83,50 @@
    "raw_sector": "Telecom",
    "date": "2025-07",
    "fresh": "fresh"
+  },
+  {
+   "company": "China Mobile",
+   "use": "IntelligentRAN: AI prediction and decision-making across the radio access network for service assurance, network optimization and energy saving; deployed on over 500,000 sites nationwide (world's largest-scale IntelligentRAN application), raising fault-diagnosis automation from 60% to 90% and cutting site energy 15-30%. [Huawei]",
+   "existence": "confirmed",
+   "value": "500,000+ sites; fault-diagnosis automation 60%->90%; 15-30% energy reduction; ARPU up to +30% in serving packages",
+   "tier": "",
+   "url": "https://www.mobileworldlive.com/china-mobile-partners-with-huawei-for-large-scale-intelligentran-deployment-over-500000-sites-nationwide/",
+   "raw_sector": "",
+   "date": "2025-11-27",
+   "fresh": "fresh"
+  },
+  {
+   "company": "China Mobile",
+   "use": "MoMA (Mobile Model management) AI model-service platform launched at the 2026 Mobile Cloud Conference: unified API access to 300+ mainstream AI models (including China Mobile's own Jiutian model) on domestic computing infrastructure, with a self-developed inference engine, intelligent cost/effect/balanced routing, confidential computing and real-time streaming (per-token) billing. [China Mobile (Jiutian); domestic compute]",
+   "existence": "confirmed",
+   "value": "300+ models; ~30% reduction in per-token cost",
+   "tier": "",
+   "url": "https://news.aibase.com/news/27843",
+   "raw_sector": "",
+   "date": "2026-05-08",
+   "fresh": "fresh"
+  },
+  {
+   "company": "China Mobile",
+   "use": "Ten-Thousand-Station Intelligent RAN Park (China Mobile Anhui, Jianghuai region) using four collaborating AI agents / 'digital engineer' solutions on tens of thousands of 5G-A sites: RAN FMEMate (foundation-model troubleshooting), RAN NOEMate (digital-twin exception monitoring), RAN WattSpirit (power saving) and RAN AssurSpirit, for self-configuration/self-healing/self-optimization. [Huawei]",
+   "existence": "confirmed",
+   "value": "Troubleshooting efficiency +20-30%; service optimization +20%; power consumption -13% additional",
+   "tier": "",
+   "url": "https://www.mobileworldlive.com/china-mobile-collaborates-with-huawei-to-build-ten-thousand-station-intelligent-ran-park/",
+   "raw_sector": "",
+   "date": "2025-09-04",
+   "fresh": "fresh"
+  },
+  {
+   "company": "China Mobile",
+   "use": "Jiutian self-developed multimodal large model (language, vision, speech, structured data; 1B-1T parameters) used as China Mobile's AI foundation for industry applications; used to build a co-construction platform for backbone industries and 20+ industry-specific large-model applications. [China Mobile (self-developed Jiutian)]",
+   "existence": "confirmed",
+   "value": "20+ industry large-model applications; models from 1B to 1T parameters",
+   "tier": "",
+   "url": "http://en.sasac.gov.cn/2024/04/15/c_16963.htm",
+   "raw_sector": "",
+   "date": "2024-04-15",
+   "fresh": "aging"
   },
   {
    "company": "China Mobile",
@@ -168,6 +225,39 @@
    "url": "https://www.mobileworldlive.com/china-mobile-henan-and-zte-ai-anti-fraud-calling-wins-pt-ict2025-top-prize/",
    "raw_sector": "",
    "date": "2025",
+   "fresh": "fresh"
+  },
+  {
+   "company": "China Mobile",
+   "use": "Intelligent Network Change Management Platform (INCMP): uses Huawei's CMOS algorithm to simulate, verify and manage network configuration changes (pre-/in-/post-change), preventing change-caused faults. Covers 1,000+ network devices and change verification for tens of millions of broadband users. Won 'Most Innovative Telco AI Deployment' at Network X 2025. [Huawei]",
+   "existence": "confirmed",
+   "value": "Network migration efficiency +~60%; fault-locating cut from hours to minutes; 1,500+ network changes since 2024; user complaints near zero",
+   "tier": "",
+   "url": "https://www.huawei.com/en/news/2025/10/awards-networkx-chinamobile",
+   "raw_sector": "",
+   "date": "2025-10-22",
+   "fresh": "fresh"
+  },
+  {
+   "company": "China Mobile",
+   "use": "Level 4 Autonomous Network operations in China Mobile's network operation centers using role-based copilots and scenario-based AI agents (10B+ parameter large model plus specialized small models, with NL2SQL/NL2API and RAG) for fault management and customer-complaint resolution across radio, core, IP backhaul and home broadband. In field operation for over a year and being replicated nationwide. [Huawei]",
+   "existence": "confirmed",
+   "value": "5,500 FTE roles replaced; backend ops staff -30%+; MTTR -30% avg (Zhejiang core network -87%); 90% Q&A accuracy; autonomy level raised from 3.2 to 4 (by end-2024)",
+   "tier": "",
+   "url": "https://inform.tmforum.org/research-and-analysis/case-studies/china-mobile-achieves-level-4-an-in-network-operation-center-with-intelligent-agents",
+   "raw_sector": "",
+   "date": "2025-09-03",
+   "fresh": "fresh"
+  },
+  {
+   "company": "China Mobile",
+   "use": "AI-driven green and energy-saving 5G cloudified core network co-developed by China Mobile and ZTE, using intelligent energy-saving technology on a cloud-native core to cut energy consumption while maintaining performance. Deployed across multiple provinces of China; won the Asia Mobile Award 2025 (Best Mobile Innovation for Climate Action in Asia). [ZTE]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.zte.com.cn/global/about/news/china-mobile-and-zte-win-the-asia-mobile-award-2025-with-ai-driven-5g-cloudified-core-network.html",
+   "raw_sector": "",
+   "date": "2025-06-20",
    "fresh": "fresh"
   }
  ]

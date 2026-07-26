@@ -15,15 +15,15 @@
  "per_10k_emp": 2.73,
  "benchmarks": {
   "global_vertical": {
-   "deployments": 83,
-   "confirmed": 84,
-   "proof_rate": 69,
-   "n": 156
+   "deployments": 49,
+   "confirmed": 51,
+   "proof_rate": 80,
+   "n": 159
   },
   "country_vertical": {
-   "deployments": 74,
-   "confirmed": 75,
-   "proof_rate": 82,
+   "deployments": 42,
+   "confirmed": 47,
+   "proof_rate": 81,
    "n": 74
   }
  },
@@ -51,9 +51,13 @@
   "value_number",
   "multi_year"
  ],
- "prospect_score": 66,
- "stack": [],
- "vendor_named": false,
+ "prospect_score": 58,
+ "stack": [
+  "Anthropic",
+  "Google Cloud",
+  "NVIDIA"
+ ],
+ "vendor_named": true,
  "deployments_detail": [
   {
    "company": "Broadcom",

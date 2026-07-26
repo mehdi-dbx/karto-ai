@@ -3,27 +3,27 @@
  "name": "Nucor",
  "cc": "US",
  "vertical": "Chemicals & Materials",
- "deployments": 1,
- "confirmed": 1,
- "with_value_number": 0,
- "proof_rate": 0.0,
+ "deployments": 5,
+ "confirmed": 5,
+ "with_value_number": 1,
+ "proof_rate": 0.2,
  "mktcap": 54930000000.0,
  "revenue": 34160000000.0,
  "employees": 33000.0,
  "silent": false,
- "per_bn_revenue": 0.03,
- "per_10k_emp": 0.3,
+ "per_bn_revenue": 0.15,
+ "per_10k_emp": 1.52,
  "benchmarks": {
   "global_vertical": {
-   "deployments": 0,
-   "confirmed": 19,
-   "proof_rate": 0,
-   "n": 105
+   "deployments": 50,
+   "confirmed": 69,
+   "proof_rate": 46,
+   "n": 107
   },
   "country_vertical": {
-   "deployments": 0,
-   "confirmed": 32,
-   "proof_rate": 0,
+   "deployments": 44,
+   "confirmed": 72,
+   "proof_rate": 60,
    "n": 26
   }
  },
@@ -34,16 +34,19 @@
    "n": 1
   }
  ],
- "undated_pct": 0,
+ "undated_pct": 80,
  "momentum": "rising",
  "maturity": "L3",
  "maturity_evidence": [
+  "multi_horizontal",
   "named_product:Transform",
+  "value_number",
   "tier_p"
  ],
- "prospect_score": 46,
+ "prospect_score": 62,
  "stack": [
-  "C3.ai"
+  "C3.ai",
+  "Microsoft Azure"
  ],
  "vendor_named": true,
  "deployments_detail": [
@@ -57,6 +60,50 @@
    "raw_sector": "Materials",
    "date": "2025",
    "fresh": "fresh"
+  },
+  {
+   "company": "Nucor",
+   "use": "Demand forecasting and supply chain optimization [C3 AI]",
+   "existence": "confirmed",
+   "value": "3-6% forecast accuracy improvement, 10% production ambiguity reduction",
+   "tier": "",
+   "url": "https://www.youtube.com/watch?v=Hk0t7XVmi1o",
+   "raw_sector": "",
+   "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "Nucor",
+   "use": "Predictive modeling to reduce steel scrap waste",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://deltabravo.ai/case-study/nucor",
+   "raw_sector": "",
+   "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "Nucor",
+   "use": "Demand forecasting and generative AI for health and safety [C3 AI]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://c3.ai/c3-ai-announces-second-quarter-fiscal-2024-financial-results/",
+   "raw_sector": "",
+   "date": "Dec 6, 2023",
+   "fresh": "undated"
+  },
+  {
+   "company": "Nucor",
+   "use": "Integrated generative AI deployment for digital transformation [Azure]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.aiusecasehub.com/case/dow-shell-and-nucor-accelerate-digital-transformation-and",
+   "raw_sector": "",
+   "date": "missing",
+   "fresh": "undated"
   }
  ]
 }

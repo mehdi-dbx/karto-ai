@@ -3,45 +3,65 @@
  "name": "Stellantis",
  "cc": "FR",
  "vertical": "Automotive",
- "deployments": 1,
- "confirmed": 1,
- "with_value_number": 0,
- "proof_rate": 0.0,
+ "deployments": 7,
+ "confirmed": 3,
+ "with_value_number": 1,
+ "proof_rate": 0.143,
  "mktcap": 15714000000.0,
  "revenue": 168296400000.0,
  "employees": 258668.0,
  "silent": false,
- "per_bn_revenue": 0.01,
- "per_10k_emp": 0.04,
+ "per_bn_revenue": 0.04,
+ "per_10k_emp": 0.27,
  "benchmarks": {
   "global_vertical": {
-   "deployments": 0,
+   "deployments": 38,
    "confirmed": 10,
-   "proof_rate": 0,
+   "proof_rate": 28,
    "n": 40
   }
  },
- "first_seen": 2025,
+ "first_seen": 2024,
  "by_year": [
   {
-   "year": 2025,
+   "year": 2024,
    "n": 1
+  },
+  {
+   "year": 2025,
+   "n": 4
   }
  ],
- "undated_pct": 0,
- "momentum": "rising",
- "maturity": "L3",
+ "undated_pct": 29,
+ "momentum": "early_mover,rising",
+ "maturity": "L4",
  "maturity_evidence": [
-  "named_product:Strategic"
+  "multi_horizontal",
+  "named_product:Strategic",
+  "value_number",
+  "multi_year"
  ],
- "prospect_score": 46,
+ "prospect_score": 52,
  "stack": [
+  "Accenture",
   "Microsoft",
   "Mistral AI",
-  "NVIDIA"
+  "NVIDIA",
+  "OpenAI"
  ],
  "vendor_named": true,
  "deployments_detail": [
+  {
+   "company": "Stellantis",
+   "use": "AI-enabled manufacturing efficiency and automation for production cost reduction",
+   "existence": "confirmed",
+   "value": "40%",
+   "tier": "",
+   "url": "https://www.stellantis.com/en/news/press-releases/2024/september/stellantis-deploys-ai-enabled-innovations-to-boost-manufacturing-efficiency-sustainability-and-improve-workplace",
+   "raw_sector": "",
+   "date": "2024-09-18",
+   "fresh": "aging"
+  },
   {
    "company": "Stellantis",
    "use": "Strategic partnership with Mistral AI moving from pilots to enterprise-wide genAI deployment across engineering, embedded/in-car experiences and operations; Innovation Lab + Transformation Academy (own press release)",
@@ -52,6 +72,72 @@
    "raw_sector": "Consumer Cyclical",
    "date": "2025",
    "fresh": "fresh"
+  },
+  {
+   "company": "Stellantis",
+   "use": "Enterprise-wide generative AI deployment across multiple business areas [Mistral AI]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.stellantis.com/en/news/press-releases/2025/october/stellantis-and-mistral-ai-expand-their-collaboration-to-accelerate-enterprise-wide-ai-adoption",
+   "raw_sector": "",
+   "date": "2025-10-01",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Stellantis",
+   "use": "AI integration for customer experience, vehicle development, and manufacturing [Mistral AI]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.stellantis.com/en/news/press-releases/2025/february/stellantis-and-mistral-ai-strengthen-strategic-partnership-to-enhance-customer-experience-vehicle-development-and-manufacturing",
+   "raw_sector": "",
+   "date": "2025-02-07",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Stellantis",
+   "use": "AI-powered in-car voice assistant for vehicle control [Mistral AI]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.wardsauto.com/news/archive-auto-stellantis-mistral-ai-launching-vehicle-voice-assistant-chatgpt-generative/739727/",
+   "raw_sector": "",
+   "date": "2025-02-12",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Stellantis",
+   "use": "Bill of Materials Data Intelligence tool [Mistral AI]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://mistral.ai/customers/stellantis/",
+   "raw_sector": "",
+   "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "Stellantis",
+   "use": "AI-driven engineering data analysis for complex datasets [Mistral AI]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.drivecj.com/how-stellantis-the-parent-company-of-chrysler-and-jeep-and-mistral-ai-are-revolutionizing-the-car-industry.htm",
+   "raw_sector": "",
+   "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "Stellantis",
+   "use": "AI for after-sales service with predictive maintenance and faster repairs",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.linkedin.com/posts/stellantistechai_ai-is-revolutionizing-after-sales-service-activity-7378307640617226240-3sWm",
+   "raw_sector": "",
+   "date": "missing",
+   "fresh": "undated"
   },
   {
    "company": "Stellantis",
@@ -72,6 +158,39 @@
    "tier": "I",
    "url": "https://it.motor1.com/news/796179/stellantis-nvidia-fabbriche",
    "raw_sector": "Automobiles and Parts",
+   "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "Stellantis",
+   "use": "Enterprise-wide generative AI deployment across vehicle development, manufacturing, and customer experience [Mistral AI]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.stellantis.com/en/news/press-releases/2025/october/stellantis-and-mistral-ai-expand-their-collaboration-to-accelerate-enterprise-wide-ai-adoption",
+   "raw_sector": "",
+   "date": "2025-10-01",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Stellantis",
+   "use": "AI-powered in-car voice assistant [Mistral AI]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.stellantis.com/en/news/press-releases/2025/february/stellantis-and-mistral-ai-strengthen-strategic-partnership-to-enhance-customer-experience-vehicle-development-and-manufacturing",
+   "raw_sector": "",
+   "date": "2025-02-07",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Stellantis",
+   "use": "Generative AI for automotive hardware and EMC validation testing",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.linkedin.com/posts/stellantistechai_wearestellantis-genai-llm-activity-7236722581788061698-rTbD",
+   "raw_sector": "",
    "date": "missing",
    "fresh": "undated"
   },
@@ -195,6 +314,28 @@
    "raw_sector": "",
    "date": "2026-05",
    "fresh": "fresh"
+  },
+  {
+   "company": "Stellantis",
+   "use": "AI-driven manufacturing innovations and EV production efficiency",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.stellantis.com/en/news/press-releases/2024/september/stellantis-deploys-ai-enabled-innovations-to-boost-manufacturing-efficiency-sustainability-and-improve-workplace",
+   "raw_sector": "",
+   "date": "2024-09-18",
+   "fresh": "aging"
+  },
+  {
+   "company": "Stellantis",
+   "use": "Bill of Materials Data Intelligence tool [Mistral AI]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://mistral.ai/customers/stellantis/",
+   "raw_sector": "",
+   "date": "missing",
+   "fresh": "undated"
   }
  ]
 }

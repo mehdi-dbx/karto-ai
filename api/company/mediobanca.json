@@ -3,27 +3,27 @@
  "name": "Mediobanca",
  "cc": "IT",
  "vertical": "Financial Services",
- "deployments": 1,
- "confirmed": 1,
+ "deployments": 4,
+ "confirmed": 3,
  "with_value_number": 1,
- "proof_rate": 1.0,
+ "proof_rate": 0.25,
  "mktcap": 24073200000.0,
  "revenue": 2808000000.0,
  "employees": 5419.0,
  "silent": false,
- "per_bn_revenue": 0.36,
- "per_10k_emp": 1.85,
+ "per_bn_revenue": 1.42,
+ "per_10k_emp": 7.38,
  "benchmarks": {
   "global_vertical": {
-   "deployments": 0,
-   "confirmed": 17,
-   "proof_rate": 76,
-   "n": 377
+   "deployments": 24,
+   "confirmed": 27,
+   "proof_rate": 47,
+   "n": 388
   },
   "country_vertical": {
    "deployments": 0,
-   "confirmed": 11,
-   "proof_rate": 89,
+   "confirmed": 22,
+   "proof_rate": 22,
    "n": 10
   }
  },
@@ -34,17 +34,19 @@
    "n": 1
   }
  ],
- "undated_pct": 0,
+ "undated_pct": 75,
  "momentum": "late_entrant,rising",
  "maturity": "L3",
  "maturity_evidence": [
+  "multi_horizontal",
   "named_product:Microsoft",
   "value_number",
   "tier_p"
  ],
- "prospect_score": 6,
+ "prospect_score": 48,
  "stack": [
-  "Microsoft"
+  "Microsoft",
+  "NVIDIA"
  ],
  "vendor_named": true,
  "deployments_detail": [
@@ -58,6 +60,39 @@
    "raw_sector": "Banks",
    "date": "2026",
    "fresh": "fresh"
+  },
+  {
+   "company": "Mediobanca",
+   "use": "AI and cloud transformation partnership strengthening [Microsoft]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.mediobanca.com/en/media-relations/press-releases/mediobanca-rafforza-gli-investimenti-in-intelligenza-artificiale-e-cloud-consolidando-la-collaborazione-con-microsoft.html",
+   "raw_sector": "",
+   "date": "Mar 24, 2025",
+   "fresh": "undated"
+  },
+  {
+   "company": "Mediobanca",
+   "use": "Multi-strategy AI investment platform",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.mediobanca.com/en/media-relations/press-releases/mediobanca-and-ram-active-investments-strategic-partnership.html",
+   "raw_sector": "",
+   "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "Mediobanca",
+   "use": "Real-time market analysis on GPUs [NVIDIA]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://blogs.nvidia.com/blog/accelerated-computing-milan-bank/",
+   "raw_sector": "",
+   "date": "Dec 13, 2022",
+   "fresh": "undated"
   }
  ]
 }

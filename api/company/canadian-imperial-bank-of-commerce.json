@@ -3,49 +3,89 @@
  "name": "Canadian Imperial Bank of Commerce",
  "cc": "CA",
  "vertical": "Financial Services",
- "deployments": 1,
- "confirmed": 1,
- "with_value_number": 1,
- "proof_rate": 1.0,
+ "deployments": 11,
+ "confirmed": 10,
+ "with_value_number": 6,
+ "proof_rate": 0.545,
  "mktcap": 111411764706.0,
  "revenue": 21250000000.0,
  "employees": 50648.0,
  "silent": false,
- "per_bn_revenue": 0.05,
- "per_10k_emp": 0.2,
+ "per_bn_revenue": 0.52,
+ "per_10k_emp": 2.17,
  "benchmarks": {
   "global_vertical": {
-   "deployments": 0,
-   "confirmed": 17,
-   "proof_rate": 76,
-   "n": 377
+   "deployments": 72,
+   "confirmed": 78,
+   "proof_rate": 83,
+   "n": 388
   },
   "country_vertical": {
-   "deployments": 0,
-   "confirmed": 14,
-   "proof_rate": 86,
+   "deployments": 43,
+   "confirmed": 43,
+   "proof_rate": 71,
    "n": 8
   }
  },
- "first_seen": 2025,
+ "first_seen": 2020,
  "by_year": [
   {
-   "year": 2025,
+   "year": 2020,
    "n": 1
+  },
+  {
+   "year": 2024,
+   "n": 3
+  },
+  {
+   "year": 2025,
+   "n": 4
+  },
+  {
+   "year": 2026,
+   "n": 3
   }
  ],
  "undated_pct": 0,
- "momentum": "rising",
- "maturity": "L3",
+ "momentum": "early_mover,rising",
+ "maturity": "L4",
  "maturity_evidence": [
+  "multi_horizontal",
   "named_product:CIBC",
   "value_number",
+  "multi_year",
   "tier_p"
  ],
- "prospect_score": 6,
- "stack": [],
+ "prospect_score": 78,
+ "stack": [
+  "Microsoft",
+  "Microsoft Azure",
+  "OpenAI"
+ ],
  "vendor_named": true,
  "deployments_detail": [
+  {
+   "company": "Canadian Imperial Bank of Commerce",
+   "use": "CAI (CIBC AI): custom-built enterprise generative AI platform giving employees access to multiple LLMs to summarize documents, generate meeting materials, draft content and compile research; launched as a pilot July 2024 and rolled out enterprise-wide by 2025. [In-house (built on Microsoft Azure)]",
+   "existence": "confirmed",
+   "value": "200,000+ employee hours saved during pilot phase (per klover.ai analysis)",
+   "tier": "",
+   "url": "https://cibc.mediaroom.com/2024-08-15-CIBC-Launches-Custom-Built-CIBC-AI-Platform-and-Rolls-Out-GitHub-CoPilot",
+   "raw_sector": "",
+   "date": "2024-08-15",
+   "fresh": "aging"
+  },
+  {
+   "company": "Canadian Imperial Bank of Commerce",
+   "use": "Capital Markets / corporate banking workflow automation: an Azure AI application that replaced a highly specialized manual process, cutting processing time from ~10-13 hours to roughly 10 minutes. [Microsoft Azure AI]",
+   "existence": "confirmed",
+   "value": "Process time reduced from 10-13 hours to ~10 minutes",
+   "tier": "",
+   "url": "https://www.microsoft.com/en-us/industry/microsoft-in-business/customer-story/2026/01/07/modern-banking-reinvented-cibcs-blueprint-for-successful-ai-transformation/",
+   "raw_sector": "",
+   "date": "2026-01-07",
+   "fresh": "fresh"
+  },
   {
    "company": "Canadian Imperial Bank of Commerce",
    "use": "CIBC AI (CAI), in-house generative AI platform rolled out enterprise-wide after pilot",
@@ -56,6 +96,94 @@
    "raw_sector": "Banks",
    "date": "2025-05",
    "fresh": "fresh"
+  },
+  {
+   "company": "Canadian Imperial Bank of Commerce",
+   "use": "Mortgage operations document processing: AI reads documents, extracts data and auto-populates adjudication packages, reducing errors and speeding client experiences in mortgage adjudication. [Microsoft Azure AI]",
+   "existence": "confirmed",
+   "value": "Accuracy improved from ~30-45% to ~95% after tuning (Microsoft case study)",
+   "tier": "",
+   "url": "https://www.microsoft.com/en-us/industry/microsoft-in-business/customer-story/2026/01/07/modern-banking-reinvented-cibcs-blueprint-for-successful-ai-transformation/",
+   "raw_sector": "",
+   "date": "2026-01-07",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Canadian Imperial Bank of Commerce",
+   "use": "Data governance and risk management using Microsoft Purview on Azure to govern and classify consumable data, part of moving 50%+ of consumable data to Azure with accuracy raised to ~95%. [Microsoft Purview / Azure]",
+   "existence": "confirmed",
+   "value": "50%+ of consumable data in Azure; accuracy ~95%",
+   "tier": "",
+   "url": "https://www.microsoft.com/en-us/industry/microsoft-in-business/customer-story/2026/01/07/modern-banking-reinvented-cibcs-blueprint-for-successful-ai-transformation/",
+   "raw_sector": "",
+   "date": "2026-01-07",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Canadian Imperial Bank of Commerce",
+   "use": "AI-powered fraud detection: supervised machine-learning models integrating thousands of data points (geolocation, IP, application details) to flag suspicious retail account applications at the approval stage; listed among CIBC's 100+ AI use cases in production in 2025. [none]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://thoughtleadership.cibc.com/article/envisioning-a-client-focused-ai-enabled-bank/",
+   "raw_sector": "",
+   "date": "2025-07-14",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Canadian Imperial Bank of Commerce",
+   "use": "Knowledge Central: GenAI-powered internal information hub with a ChatGPT-like natural-language interface (cognitive search + GenAI) that lets frontline team members quickly retrieve policies and answers to serve clients. [In-house (cognitive search + GenAI)]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://cibc.mediaroom.com/2024-07-16-CIBC-Generative-AI-pilot-enables-frontline-team-members-to-better-serve-clients",
+   "raw_sector": "",
+   "date": "2024-07-16",
+   "fresh": "aging"
+  },
+  {
+   "company": "Canadian Imperial Bank of Commerce",
+   "use": "AI-powered voice assistant in CIBC contact centres that understands natural conversation, resolves straightforward inquiries independently and routes complex issues to the right live agent; serving CIBC's ~14 million clients. Won the 2025 Digital CX Award for Best Use of AI for Customer Experience. [none]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://cibc.mediaroom.com/2025-06-09-CIBCs-AI-powered-voice-assistant-recognized-with-an-award-from-The-Digital-Banker",
+   "raw_sector": "",
+   "date": "2025-06-09",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Canadian Imperial Bank of Commerce",
+   "use": "CIBC Virtual Assistant: 24/7 AI chatbot in CIBC Online Banking and the Mobile Banking App that answers FAQs and executes routine transactions (bill payments, Interac e-Transfers, transfers between accounts, balance checks, card lock/unlock), escalating to a human Chat Specialist when needed. [none]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://cibc.mediaroom.com/2020-12-10-CIBC-launches-AI-based-Virtual-Assistant-to-help-clients-bank-digitally",
+   "raw_sector": "",
+   "date": "2020-12-10",
+   "fresh": "stale"
+  },
+  {
+   "company": "Canadian Imperial Bank of Commerce",
+   "use": "CIBC Insights: machine-learning-driven personalization in digital banking that analyzes client transaction data to provide tailored spending and saving recommendations. [none]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.klover.ai/canadian-imperial-bank-of-commerce-ai-strategy-analysis-of-cibc-dominance-in-banking-financial-services-ai/",
+   "raw_sector": "",
+   "date": "2025-08-04",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Canadian Imperial Bank of Commerce",
+   "use": "GitHub Copilot rolled out broadly to CIBC developers for AI code suggestions and automation of repetitive coding tasks; 1,700+ developers actively using it. [GitHub / Microsoft]",
+   "existence": "confirmed",
+   "value": "10-15% productivity boost among developers in pilot; 1,700+ developers using it",
+   "tier": "",
+   "url": "https://cibc.mediaroom.com/2024-08-15-CIBC-Launches-Custom-Built-CIBC-AI-Platform-and-Rolls-Out-GitHub-CoPilot",
+   "raw_sector": "",
+   "date": "2024-08-15",
+   "fresh": "aging"
   }
  ]
 }

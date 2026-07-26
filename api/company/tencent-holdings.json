@@ -3,32 +3,40 @@
  "name": "Tencent Holdings",
  "cc": "HK",
  "vertical": "Technology",
- "deployments": 2,
- "confirmed": 2,
- "with_value_number": 0,
- "proof_rate": 0.0,
+ "deployments": 12,
+ "confirmed": 12,
+ "with_value_number": 5,
+ "proof_rate": 0.417,
  "mktcap": 512820512821.0,
  "revenue": 111947435897.0,
  "employees": 114848.0,
  "silent": false,
- "per_bn_revenue": 0.02,
- "per_10k_emp": 0.17,
+ "per_bn_revenue": 0.11,
+ "per_10k_emp": 1.04,
  "benchmarks": {
   "global_vertical": {
-   "deployments": 71,
-   "confirmed": 72,
-   "proof_rate": 0,
-   "n": 156
+   "deployments": 75,
+   "confirmed": 89,
+   "proof_rate": 78,
+   "n": 159
   },
   "country_vertical": {
-   "deployments": 17,
-   "confirmed": 17,
-   "proof_rate": 0,
+   "deployments": 33,
+   "confirmed": 33,
+   "proof_rate": 17,
    "n": 7
   }
  },
- "first_seen": 2023,
+ "first_seen": 2019,
  "by_year": [
+  {
+   "year": 2019,
+   "n": 1
+  },
+  {
+   "year": 2020,
+   "n": 1
+  },
   {
    "year": 2023,
    "n": 1
@@ -36,19 +44,29 @@
   {
    "year": 2024,
    "n": 1
+  },
+  {
+   "year": 2025,
+   "n": 6
+  },
+  {
+   "year": 2026,
+   "n": 2
   }
  ],
  "undated_pct": 0,
- "momentum": "early_mover,gone_quiet",
+ "momentum": "early_mover,rising",
  "maturity": "L4",
  "maturity_evidence": [
   "multi_horizontal",
   "named_product:Hunyuan",
+  "value_number",
   "multi_year",
   "tier_p"
  ],
- "prospect_score": 52,
+ "prospect_score": 83,
  "stack": [
+  "DeepSeek",
   "Tencent Cloud"
  ],
  "vendor_named": true,
@@ -66,6 +84,61 @@
   },
   {
    "company": "Tencent Holdings",
+   "use": "Yuanbao AI assistant integrated natively into WeChat, letting the app's 1B+ users chat with the assistant (search, summaries, writing) by adding it as a 'friend'. [Tencent (Hunyuan) + DeepSeek V3]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.scmp.com/tech/big-tech/article/3303934/tencent-adds-ai-chatbot-friend-wechat-keep-users-glued-super-app",
+   "raw_sector": "",
+   "date": "2025-03-26",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Tencent Holdings",
+   "use": "Hunyuan-T1 large reasoning model launched into production (available on Tencent Yuanbao), using large-scale reinforcement learning and hybrid Transformer-Mamba MoE architecture for logic/math/long-document tasks. [Tencent (Hunyuan)]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.reuters.com/technology/artificial-intelligence/tencent-launches-t1-reasoning-model-amid-growing-ai-competition-china-2025-03-22/",
+   "raw_sector": "",
+   "date": "2025-03-21",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Tencent Holdings",
+   "use": "Tencent Miying medical AI: deep-learning auxiliary diagnosis for cervical (electronic colposcopy) cancer screening and other conditions, rolled out to assist gynecologists/doctors, returning results within tens of seconds. [Tencent (AI Lab / Miying)]",
+   "existence": "confirmed",
+   "value": "Broader Miying platform: 270M medical images processed, 1.6M patients served, 210,000 clinical warnings issued",
+   "tier": "",
+   "url": "https://www.tencent.com/en-us/articles/2200912.html",
+   "raw_sector": "",
+   "date": "2019-05-22",
+   "fresh": "stale"
+  },
+  {
+   "company": "Tencent Holdings",
+   "use": "Hunyuan 3D generative engine launched globally to let creators generate commercial-grade 3D assets from text, image, and sketch inputs, automating art production for gaming and other sectors. [Tencent (Hunyuan 3D)]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.tencent.com/en-us/articles/2202235.html",
+   "raw_sector": "",
+   "date": "2025-11-26",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Tencent Holdings",
+   "use": "AI applied in Tencent's games business for game recommendations and in-app purchase / monetization optimization, credited with performance improvements across titles like VALORANT Mobile, Delta Force and Clash Royale. [Tencent (in-house ML/Hunyuan)]",
+   "existence": "confirmed",
+   "value": "International gaming revenue $2.93B in Q3 2025 (+43% YoY)",
+   "tier": "",
+   "url": "https://www.techbuzz.ai/articles/tencent-posts-15-revenue-jump-as-ai-powers-gaming-surge",
+   "raw_sector": "",
+   "date": "2025-11-13",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Tencent Holdings",
    "use": "Hunyuan AI built into Tencent Docs generating first drafts from user topics and materials",
    "existence": "confirmed",
    "value": "none",
@@ -74,6 +147,61 @@
    "raw_sector": "Technology",
    "date": "2024",
    "fresh": "aging"
+  },
+  {
+   "company": "Tencent Holdings",
+   "use": "Tencent Meeting (VooV) AI Assistant: automatic meeting transcription, real-time caption translation, agenda preparation, and concise summaries/action items; deployed for use by Hong Kong government officials. [Tencent (Hunyuan)]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.smartlab.gov.hk/en/ai_solutions/a-0087",
+   "raw_sector": "",
+   "date": "2025-06-19",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Tencent Holdings",
+   "use": "Tencent Cloud Agent Development Platform (ADP) — enterprise platform for building/deploying AI agents (RAG+LLM, workflow orchestration) used for intelligent Q&A, customer service, marketing content generation and business analysis. [Tencent Cloud]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.prnewswire.com/apac/news-releases/tencent-cloud-unveils-a-major-upgrade-to-its-agent-development-platform-launching-an-enterprise-grade-agentops-platform-to-bring-ai-agents-into-production-at-scale-302830352.html",
+   "raw_sector": "",
+   "date": "2026-07-20",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Tencent Holdings",
+   "use": "CodeBuddy, Tencent's in-house AI coding assistant (powered by the Tencent Yuanbao Code Large Model / Hunyuan), is used across the software development workflow for code completion, error diagnosis, test generation and technical Q&A. [Tencent (in-house, Hunyuan / Yuanbao Code model)]",
+   "existence": "confirmed",
+   "value": "Supports more than 95% of Tencent engineers; reduces overall coding time by ~40%",
+   "tier": "",
+   "url": "https://www.tencent.com/tencent-cloud-debuts-productivity-agent-suite-creating-a-new-gateway-to-ai-for-users-and-enterprises/",
+   "raw_sector": "",
+   "date": "2026-06-05",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Tencent Holdings",
+   "use": "AI-powered advertising targeting: machine learning integrated into ad algorithms for hyper-targeted campaigns improving conversion rates, credited with boosting marketing services revenue. [Tencent (in-house ML, Hunyuan)]",
+   "existence": "confirmed",
+   "value": "Contributed to Q3 2025 total revenue of $27.12B (+15% YoY); marketing/ads part of $13.49B segment (+16% YoY)",
+   "tier": "",
+   "url": "https://www.techbuzz.ai/articles/tencent-posts-15-revenue-jump-as-ai-powers-gaming-surge",
+   "raw_sector": "",
+   "date": "2025-11-13",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Tencent Holdings",
+   "use": "Tenpay/WeChat Pay intelligent risk control system: transaction-model and big-data/AI-based fraud detection that perceives and manages transaction risks end-to-end and warns users of risky trades via WeChat Pay. [Tenpay (Tencent)]",
+   "existence": "confirmed",
+   "value": "Cracked down on 2M+ illegal accounts, assisted arresting 7,600+ suspects, involving funds >34.5B yuan (~$5.3B)",
+   "tier": "",
+   "url": "https://www.chinadailyhk.com/hk/article/153143",
+   "raw_sector": "",
+   "date": "2020-12-22",
+   "fresh": "stale"
   }
  ]
 }

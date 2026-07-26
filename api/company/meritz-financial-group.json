@@ -1,0 +1,186 @@
+{
+ "slug": "meritz-financial-group",
+ "name": "Meritz Financial Group",
+ "cc": "KR",
+ "vertical": "Financial Services",
+ "deployments": 11,
+ "confirmed": 3,
+ "with_value_number": 1,
+ "proof_rate": 0.091,
+ "mktcap": null,
+ "revenue": null,
+ "employees": null,
+ "silent": false,
+ "per_bn_revenue": null,
+ "per_10k_emp": null,
+ "benchmarks": {
+  "global_vertical": {
+   "deployments": 72,
+   "confirmed": 27,
+   "proof_rate": 29,
+   "n": 388
+  },
+  "country_vertical": {
+   "deployments": 78,
+   "confirmed": 22,
+   "proof_rate": 39,
+   "n": 19
+  }
+ },
+ "first_seen": 2022,
+ "by_year": [
+  {
+   "year": 2022,
+   "n": 1
+  },
+  {
+   "year": 2025,
+   "n": 5
+  },
+  {
+   "year": 2026,
+   "n": 5
+  }
+ ],
+ "undated_pct": 0,
+ "momentum": "early_mover,rising",
+ "maturity": "L4",
+ "maturity_evidence": [
+  "multi_horizontal",
+  "named_product:NLP",
+  "value_number",
+  "multi_year"
+ ],
+ "prospect_score": 54,
+ "stack": [
+  "Amazon AWS",
+  "Microsoft",
+  "Microsoft Azure",
+  "OpenAI",
+  "Palantir"
+ ],
+ "vendor_named": true,
+ "deployments_detail": [
+  {
+   "company": "Meritz Financial Group",
+   "use": "AI voice bot for customer contact center handling insurance consultations, renewal contract management, premium payments, and account registration/changes [in-house (ML-based NLP)]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://zdnet.co.kr/view/?no=20220811103813",
+   "raw_sector": "",
+   "date": "2022-08-11",
+   "fresh": "stale"
+  },
+  {
+   "company": "Meritz Financial Group",
+   "use": "Joint R&D with KT to build an insurance-specialized AI model (using KT's Mi:dm K 2.0 LLM) plus automated claims/medical-document recognition, trained on Meritz's insurance data, policy terms and business documents [KT (Mi:dm K 2.0)]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.yna.co.kr/amp/view/AKR20251106037800017",
+   "raw_sector": "",
+   "date": "2025-11-06",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Meritz Financial Group",
+   "use": "Agentic AI system for natural-language stock screening and financial Q&A built with the AWS GenAI Innovation Center over an 8-week engagement, using Amazon Bedrock, OpenSearch and Aurora, with built-in compliance guardrails; designed and validated, targeted for launch H1 2026 [AWS (Amazon Bedrock, OpenSearch, Aurora)]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://aws.amazon.com/ko/blogs/tech/meritz-securities-wts-with-gen-ai/",
+   "raw_sector": "",
+   "date": "2026-03-06",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Meritz Financial Group",
+   "use": "Strategic partnership with WNSTN to integrate infrastructure-grade multi-agent AI (with compliance controls) into Meritz Securities' next-generation digital investment platform for real-time client inquiries and investment assistance; launch planned early 2026 [WNSTN]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.prnewswire.com/news-releases/meritz-securities-selects-wnstn-as-strategic-ai-partner-for-next-gen-investing-platform-302653998.html",
+   "raw_sector": "",
+   "date": "2026-01-06",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Meritz Financial Group",
+   "use": "Partnership with US social-investing platform Stocktwits to build an AI-driven next-generation stock investment platform, integrating community and AI-based trend analysis plus AI translation for global (overseas-stock) investors [Stocktwits]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://biz.chosun.com/en/en-finance/2025/08/07/PUZ2R5W5RVHL7NEXMAGQOXAKQQ/?outputType=amp",
+   "raw_sector": "",
+   "date": "2025-08-07",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Meritz Financial Group",
+   "use": "Co-development with global fintech Webull of an AI-based next-generation global investment platform ('Moeum') leveraging Webull's 14-country network and AI technology [Webull]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "http://www.fetimes.co.kr/news/articleViewAmp.html?idxno=124062",
+   "raw_sector": "",
+   "date": "2025-11-13",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Meritz Financial Group",
+   "use": "Company-wide ChatGPT / generative-AI literacy training (prompt engineering, data analysis, coding, project management) for employees, plus a dedicated in-house employee-work-support AI designated an FSC innovative financial service [OpenAI (ChatGPT)]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.news1.kr/amp/finance/insurance-card/5925934",
+   "raw_sector": "",
+   "date": "2025-09-26",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Meritz Financial Group",
+   "use": "AI-based insurance fraud detection via the Special Investigation Unit (SIU), flagging anomalies at claims submission, tip-line reports, and analysis of already-paid claims data (e.g., detecting AI-forged medical records) [none]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://m.fntimes.com/html/view.php?ud=202603171054214508dd55077bc2_18",
+   "raw_sector": "",
+   "date": "2026-03-17",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Meritz Financial Group",
+   "use": "Adoption of Palantir AI for insurance fraud detection (excessive/false claims) and internal management diagnostics; PoC technical verification completed with plans to sign a contract by year-end [Palantir]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://m.sedaily.com/amparticle/20056953",
+   "raw_sector": "",
+   "date": "2026-06-17",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Meritz Financial Group",
+   "use": "Generative-AI insurance counseling assistant that analyzes a customer's insurance data to recommend suitable products and generate consultation scripts for sales agents; approved as an FSC innovative financial service (regulatory sandbox), billed as first among Korean non-life insurers to use generative AI in counseling [Microsoft Azure OpenAI]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.etnews.com/20250908000259",
+   "raw_sector": "",
+   "date": "2025-09-08",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Meritz Financial Group",
+   "use": "Inswave WebSquare AI, an AI-agent-based low-code development platform (with W-Craft auto-conversion) used to build and standardize Meritz Fire's next-generation UI/screens, cutting development effort and cost; Phase 1 delivered, Phase 2 underway [Inswave Systems (WebSquare AI)]",
+   "existence": "confirmed",
+   "value": "KRW 110 billion Phase 2 contract",
+   "tier": "",
+   "url": "https://www.etnews.com/20260303000305",
+   "raw_sector": "",
+   "date": "2026-03-03",
+   "fresh": "fresh"
+  }
+ ]
+}

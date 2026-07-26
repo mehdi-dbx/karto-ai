@@ -3,51 +3,80 @@
  "name": "Walmart de México y Centroamérica",
  "cc": "MX",
  "vertical": "Retail & E-commerce",
- "deployments": 2,
- "confirmed": 0,
- "with_value_number": 0,
- "proof_rate": 0.0,
+ "deployments": 12,
+ "confirmed": 8,
+ "with_value_number": 3,
+ "proof_rate": 0.25,
  "mktcap": 46475000000.0,
  "revenue": 56666666667.0,
  "employees": 235931.0,
  "silent": false,
- "per_bn_revenue": 0.04,
- "per_10k_emp": 0.08,
+ "per_bn_revenue": 0.21,
+ "per_10k_emp": 0.51,
  "benchmarks": {
   "global_vertical": {
-   "deployments": 71,
-   "confirmed": 0,
-   "proof_rate": 0,
-   "n": 295
+   "deployments": 86,
+   "confirmed": 75,
+   "proof_rate": 50,
+   "n": 301
   },
   "country_vertical": {
-   "deployments": 25,
-   "confirmed": 0,
-   "proof_rate": 0,
+   "deployments": 88,
+   "confirmed": 88,
+   "proof_rate": 38,
    "n": 9
   }
  },
- "first_seen": 2025,
+ "first_seen": 2024,
  "by_year": [
   {
-   "year": 2025,
+   "year": 2024,
    "n": 1
   },
   {
+   "year": 2025,
+   "n": 6
+  },
+  {
    "year": 2026,
-   "n": 1
+   "n": 5
   }
  ],
  "undated_pct": 0,
- "momentum": "rising",
- "maturity": "L1",
+ "momentum": "early_mover,rising",
+ "maturity": "L4",
  "maturity_evidence": [
-  "rows_no_confirmed"
+  "multi_horizontal",
+  "named_product:EdgeSense",
+  "value_number",
+  "multi_year"
  ],
- "prospect_score": 40,
+ "prospect_score": 86,
  "stack": [],
  "vendor_named": false,
  "deployments_detail": [
+  {
+   "company": "Walmart de México y Centroamérica",
+   "use": "Walmart Connect México deploys Advertima Audience AI: always-anonymous computer-vision sensors translate in-store shopper presence into real-time addressable audience segments for in-store retail-media measurement and targeting. [Advertima]",
+   "existence": "confirmed",
+   "value": "hundreds of Supercenters, thousands of Audience AI sensors (billed as world's largest in-store audience-intelligence rollout)",
+   "tier": "",
+   "url": "https://advertima.com/press/detail/walmart-connect-advertima-audienceai/",
+   "raw_sector": "",
+   "date": "2026-01-09",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Walmart de México y Centroamérica",
+   "use": "Generative-AI automation of e-commerce product page creation and product information organization, replacing manual processes in the digital commerce division. [none named]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://es-us.noticias.yahoo.com/walmart-usa-inteligencia-artificial-impulsar-211246194.html",
+   "raw_sector": "",
+   "date": "2025-09-03",
+   "fresh": "fresh"
+  },
   {
    "company": "Walmart de México y Centroamérica",
    "use": "Scintilla advanced analytics platform to improve decision-making quality across operations",
@@ -61,6 +90,50 @@
   },
   {
    "company": "Walmart de México y Centroamérica",
+   "use": "EdgeSense connected-store platform (Vusion): combines AI, computer vision, electronic shelf labels and real-time data to automate pricing, inventory accuracy and store operations. Rolling out across Walmart Express stores (full deployment by end 2026), then Supercenters; pilot in Bodega Aurrera. [Vusion (VusionGroup)]",
+   "existence": "confirmed",
+   "value": "1.7 million+ electronic shelf labels; 180,000+ EdgeSense smart rails",
+   "tier": "",
+   "url": "https://www.vusion.com/newsroom/walmart-mexico-expands-strategic-partnership-with-vusion-to-deploy-connected-store-platform-across-express-stores-and-supercenters/",
+   "raw_sector": "",
+   "date": "2026-03-30",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Walmart de México y Centroamérica",
+   "use": "Scintilla (Walmart Data Ventures) AI-powered analytics platform used by Walmart de México to optimize supply chain, manage inventory in real time, understand consumer behavior in high-impact seasons and improve pricing/assortment decisions. [Walmart Data Ventures (Scintilla)]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.elfinanciero.com.mx/opinion/de-jefes/2026/04/22/walmart-lleva-ventaja-con-ia/",
+   "raw_sector": "",
+   "date": "2026-04-22",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Walmart de México y Centroamérica",
+   "use": "AI visual/image recognition to monitor store modular (planogram) configuration and maintenance compliance, reducing the review work from weeks to hours. [none named]",
+   "existence": "confirmed",
+   "value": "task time reduced from weeks to hours",
+   "tier": "",
+   "url": "https://es-us.noticias.yahoo.com/walmart-usa-inteligencia-artificial-impulsar-211246194.html",
+   "raw_sector": "",
+   "date": "2025-09-03",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Walmart de México y Centroamérica",
+   "use": "Helios AI climate-risk pricing/availability forecasting for fresh/perishable produce to manage thousands of fresh SKUs and reduce cost volatility (Walmart Open Call winner adopted for perishables pricing). [Helios AI]",
+   "existence": "claimed",
+   "value": "one-year climate forecasts across thousands of fresh SKUs",
+   "tier": "",
+   "url": "https://americaretail-malls.com/paises/mexico/walmart-integra-inteligencia-artificial-para-optimizar-la-gestion-de-precios-en-productos-perecederos/",
+   "raw_sector": "",
+   "date": "2025-03-14",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Walmart de México y Centroamérica",
    "use": "Using AI to boost operational efficiency and offset costs from Mexico's labor reform (48- to 40-hour work week)",
    "existence": "claimed",
    "value": "none",
@@ -68,6 +141,50 @@
    "url": "https://www.eleconomista.com.mx/empresas/walmart-inteligencia-artificial-impulsar-eficiencia-operativa-adaptarse-reforma-laboral-20250903-775592.html",
    "raw_sector": "Retail",
    "date": "2025-09",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Walmart de México y Centroamérica",
+   "use": "AI-powered robotic warehouse automation (end-to-end robotic case-picking systems) at two greenfield distribution centers near Mexico City, part of a broader agreement to automate Walmex distribution network. [Symbotic]",
+   "existence": "claimed",
+   "value": "largest system Symbotic has deployed as a single-phase project",
+   "tier": "",
+   "url": "https://www.symbotic.com/news/symbotic-announces-agreement-to-implement-multiple-industry-leading-warehouse-automation-systems-for-walmex-and-strategic-international-expansion-in-mexico/",
+   "raw_sector": "",
+   "date": "2024-10-10",
+   "fresh": "aging"
+  },
+  {
+   "company": "Walmart de México y Centroamérica",
+   "use": "Automated e-commerce fulfillment at the Tepotzotlán (Megapark) distribution center using mobile robots that bring products to associates preparing online orders, deployed for Hot Sale peak demand. [none named]",
+   "existence": "confirmed",
+   "value": "50 TTP robots + 11 GTP robots; 99% picking precision; ~70 m less travel per order; quadrupled order-prep productivity",
+   "tier": "",
+   "url": "https://www.cronista.com/mexico/finanzas-economia/secreto-en-tepotzotlan-los-nuevos-robots-de-walmart-en-edomex-para-romper-records-en-este-hot-sale/",
+   "raw_sector": "",
+   "date": "2026-06-02",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Walmart de México y Centroamérica",
+   "use": "AI-based customer service handling customer inquiries at scale without requiring human staff intervention. [none named]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://es-us.noticias.yahoo.com/walmart-usa-inteligencia-artificial-impulsar-211246194.html",
+   "raw_sector": "",
+   "date": "2025-09-03",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Walmart de México y Centroamérica",
+   "use": "AI-driven credit/BNPL underwriting inside the Cashi super-app: Aplazo (integrated as a payment method in Cashi) uses AI + data analytics + human judgment to approve card-free installment credit in under five minutes. [Aplazo (integrated into Walmart de México Cashi)]",
+   "existence": "confirmed",
+   "value": "credit approval in under 5 minutes",
+   "tier": "",
+   "url": "https://www.prnewswire.com/news-releases/walmart-mexico-and-aplazomx-have-joined-forces-in-strategic-partnership-to-offer-bnpl-services-and-promote-financial-inclusion-302604720.html",
+   "raw_sector": "",
+   "date": "2025-11-04",
    "fresh": "fresh"
   }
  ]

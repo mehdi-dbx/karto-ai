@@ -3,27 +3,27 @@
  "name": "Centrica",
  "cc": "UK",
  "vertical": "Energy & Utilities",
- "deployments": 1,
- "confirmed": 1,
- "with_value_number": 1,
- "proof_rate": 1.0,
+ "deployments": 9,
+ "confirmed": 7,
+ "with_value_number": 2,
+ "proof_rate": 0.222,
  "mktcap": 10337800000.0,
  "revenue": 24828500000.0,
  "employees": 20573.0,
  "silent": false,
- "per_bn_revenue": 0.04,
- "per_10k_emp": 0.49,
+ "per_bn_revenue": 0.36,
+ "per_10k_emp": 4.37,
  "benchmarks": {
   "global_vertical": {
-   "deployments": 0,
-   "confirmed": 20,
-   "proof_rate": 75,
-   "n": 210
+   "deployments": 78,
+   "confirmed": 81,
+   "proof_rate": 57,
+   "n": 213
   },
   "country_vertical": {
-   "deployments": 0,
-   "confirmed": 0,
-   "proof_rate": 62,
+   "deployments": 75,
+   "confirmed": 75,
+   "proof_rate": 75,
    "n": 9
   }
  },
@@ -33,12 +33,14 @@
  "momentum": "none",
  "maturity": "L3",
  "maturity_evidence": [
+  "multi_horizontal",
   "named_product:Microsoft",
   "value_number"
  ],
- "prospect_score": 6,
+ "prospect_score": 73,
  "stack": [
-  "Microsoft"
+  "Microsoft",
+  "SAP"
  ],
  "vendor_named": true,
  "deployments_detail": [
@@ -50,6 +52,94 @@
    "tier": "I",
    "url": "https://www.pwc.co.uk/services/technology/generative-artificial-intelligence/centrica.html",
    "raw_sector": "Multiline utilities",
+   "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "Centrica",
+   "use": "Responsible AI Framework and governance",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.pwc.co.uk/services/technology/generative-artificial-intelligence/centrica.html",
+   "raw_sector": "",
+   "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "Centrica",
+   "use": "Microsoft 365 Copilot for employee productivity [Microsoft 365 Copilot]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.qa.com/resources/case-studies/how-centrica-s-champions-took-ai-prompting-skills-to-the-next-level/",
+   "raw_sector": "",
+   "date": "Sep 11, 2025",
+   "fresh": "undated"
+  },
+  {
+   "company": "Centrica",
+   "use": "Power Platform digital transformation with AI capabilities [Microsoft Power Platform]",
+   "existence": "confirmed",
+   "value": "1100",
+   "tier": "",
+   "url": "https://www.microsoft.com/en/customers/story/26768-centrica-microsoft-power-platform",
+   "raw_sector": "",
+   "date": "Jun 19, 2026",
+   "fresh": "undated"
+  },
+  {
+   "company": "Centrica",
+   "use": "RISE with SAP for AI-driven central operations and supply chain optimization [SAP]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://news.sap.com/uk/2026/05/centrica-adopts-rise-with-sap-to-support-ai-driven-transformation/",
+   "raw_sector": "",
+   "date": "May 27, 2026",
+   "fresh": "undated"
+  },
+  {
+   "company": "Centrica",
+   "use": "AI-driven energy asset trading and optimisation",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://centricaenergy.com/insights-cases/why-ai-driven-optimisation-is-critical-to-the-bankability-of-large-scale-bess/",
+   "raw_sector": "",
+   "date": "May 22, 2026",
+   "fresh": "undated"
+  },
+  {
+   "company": "Centrica",
+   "use": "Deep-learning models and LLMs for energy trading",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://centricaenergy.com/insights-cases/beyond-the-hype-the-next-era-of-ai-powered-energy-trading/",
+   "raw_sector": "",
+   "date": "Mar 19, 2026",
+   "fresh": "undated"
+  },
+  {
+   "company": "Centrica",
+   "use": "Generative AI exploration and trading platform optimization [Avanade]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.avanade.com/en/insights/clients/centrica-energy",
+   "raw_sector": "",
+   "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "Centrica",
+   "use": "Named as a Microsoft Copilot customer/case study [Microsoft Copilot] [Microsoft Copilot]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.microsoft.com/en-us/microsoft-cloud/blog/2025/07/24/ai-powered-success-with-1000-stories-of-customer-transformation-and-innovation/",
+   "raw_sector": "",
    "date": "missing",
    "fresh": "undated"
   }

@@ -3,27 +3,27 @@
  "name": "Société Générale",
  "cc": "FR",
  "vertical": "Financial Services",
- "deployments": 2,
- "confirmed": 2,
- "with_value_number": 1,
- "proof_rate": 0.5,
+ "deployments": 5,
+ "confirmed": 5,
+ "with_value_number": 2,
+ "proof_rate": 0.4,
  "mktcap": 61549200000.0,
  "revenue": 27853200000.0,
  "employees": 110000.0,
  "silent": false,
- "per_bn_revenue": 0.07,
- "per_10k_emp": 0.18,
+ "per_bn_revenue": 0.18,
+ "per_10k_emp": 0.45,
  "benchmarks": {
   "global_vertical": {
-   "deployments": 62,
-   "confirmed": 73,
-   "proof_rate": 61,
-   "n": 377
+   "deployments": 31,
+   "confirmed": 46,
+   "proof_rate": 68,
+   "n": 388
   },
   "country_vertical": {
-   "deployments": 57,
-   "confirmed": 57,
-   "proof_rate": 29,
+   "deployments": 0,
+   "confirmed": 43,
+   "proof_rate": 43,
    "n": 8
   }
  },
@@ -33,10 +33,11 @@
  "momentum": "none",
  "maturity": "L3",
  "maturity_evidence": [
+  "multi_horizontal",
   "named_product:SocGen AI",
   "value_number"
  ],
- "prospect_score": 32,
+ "prospect_score": 54,
  "stack": [
   "Microsoft"
  ],
@@ -62,6 +63,39 @@
    "url": "https://www.cio-online.com/actualites/lire-la-societe-generale-integre-l-ia-generative-a-sa-feuille-de-route-data-15297.html",
    "raw_sector": "Financial Services",
    "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "Société Générale",
+   "use": "SocGen AI - Group-level AI industrialization and deployment entity",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.societegenerale.com/en/news-and-documentation/news/all-news/our-approach-using-artificial-intelligence-support-our-clients-and-employees",
+   "raw_sector": "",
+   "date": "Jul 28, 2025",
+   "fresh": "undated"
+  },
+  {
+   "company": "Société Générale",
+   "use": "300 AI use cases in production for customer experience improvement",
+   "existence": "confirmed",
+   "value": "300",
+   "tier": "",
+   "url": "https://www.societegenerale.com/en/news/all-news/societe-generale-shares-its-strategy-integrating-generative-ai-financial-sector",
+   "raw_sector": "",
+   "date": "Oct 10, 2024",
+   "fresh": "undated"
+  },
+  {
+   "company": "Société Générale",
+   "use": "Microsoft Copilot deployment across the organization [Microsoft Copilot]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://emag.directindustry.com/2026/01/16/societe-generale-generative-ai-make-or-buy-microsoft-copilot/",
+   "raw_sector": "",
+   "date": "Jan 16, 2026",
    "fresh": "undated"
   }
  ]

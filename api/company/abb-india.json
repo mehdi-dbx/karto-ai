@@ -3,41 +3,71 @@
  "name": "ABB India",
  "cc": "IN",
  "vertical": "Industrial / Machinery",
- "deployments": 1,
- "confirmed": 1,
- "with_value_number": 0,
- "proof_rate": 0.0,
+ "deployments": 11,
+ "confirmed": 7,
+ "with_value_number": 3,
+ "proof_rate": 0.273,
  "mktcap": 19156626506.0,
  "revenue": 1590722892.0,
  "employees": 3859.0,
  "silent": false,
- "per_bn_revenue": 0.63,
- "per_10k_emp": 2.59,
+ "per_bn_revenue": 6.92,
+ "per_10k_emp": 28.5,
  "benchmarks": {
   "global_vertical": {
-   "deployments": 0,
-   "confirmed": 14,
-   "proof_rate": 0,
-   "n": 175
+   "deployments": 82,
+   "confirmed": 78,
+   "proof_rate": 74,
+   "n": 176
   },
   "country_vertical": {
-   "deployments": 0,
-   "confirmed": 17,
-   "proof_rate": 0,
+   "deployments": 83,
+   "confirmed": 83,
+   "proof_rate": 100,
    "n": 7
   }
  },
- "first_seen": null,
- "by_year": [],
- "undated_pct": 100,
- "momentum": "none",
- "maturity": "L3",
- "maturity_evidence": [
-  "named_product:ABB"
+ "first_seen": 2021,
+ "by_year": [
+  {
+   "year": 2021,
+   "n": 1
+  },
+  {
+   "year": 2022,
+   "n": 1
+  },
+  {
+   "year": 2024,
+   "n": 2
+  },
+  {
+   "year": 2025,
+   "n": 5
+  },
+  {
+   "year": 2026,
+   "n": 1
+  }
  ],
- "prospect_score": 54,
- "stack": [],
- "vendor_named": false,
+ "undated_pct": 9,
+ "momentum": "early_mover,rising",
+ "maturity": "L4",
+ "maturity_evidence": [
+  "multi_horizontal",
+  "named_product:ABB",
+  "value_number",
+  "multi_year"
+ ],
+ "prospect_score": 71,
+ "stack": [
+  "Deloitte",
+  "Microsoft",
+  "Microsoft Azure",
+  "NVIDIA",
+  "OpenAI"
+ ],
+ "vendor_named": true,
  "deployments_detail": [
   {
    "company": "ABB India",
@@ -49,6 +79,116 @@
    "raw_sector": "Capital Goods",
    "date": "missing",
    "fresh": "undated"
+  },
+  {
+   "company": "ABB India",
+   "use": "Strategic alliance between ABB India and Deloitte India to accelerate AI-driven digital transformation of Indian manufacturers, combining ABB industrial automation with AI/ML predictive control and cyber-resilient connected ecosystems [ABB India + Deloitte India]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://new.abb.com/news/detail/131325/abb-india-and-deloitte-india-join-forces-to-accelerate-digital-transformation-for-indian-manufacturing-enterprises",
+   "raw_sector": "",
+   "date": "2025-11-25",
+   "fresh": "fresh"
+  },
+  {
+   "company": "ABB India",
+   "use": "ABB Genix Copilot, a generative-AI industrial assistant built on Microsoft Azure OpenAI (GPT) that turns live industrial data into natural-language insights for operators; part of the Genix Industrial Analytics & AI Suite [ABB + Microsoft Azure OpenAI Service (GPT)]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://new.abb.com/news/detail/122021/helping-industries-do-better-with-generative-ai-abb-launches-genix-copilot-with-microsoft",
+   "raw_sector": "",
+   "date": "2024-12-11",
+   "fresh": "aging"
+  },
+  {
+   "company": "ABB India",
+   "use": "ABB Robotics integrates NVIDIA Omniverse libraries into RobotStudio to deliver industrial-grade physical AI - robotics simulation and synthetic data generation to train and deploy autonomous robots faster on the factory floor [ABB Robotics + NVIDIA (Omniverse)]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://blogs.nvidia.com/blog/abb-robotics-omniverse/",
+   "raw_sector": "",
+   "date": "2026-03-09",
+   "fresh": "fresh"
+  },
+  {
+   "company": "ABB India",
+   "use": "ABB Robotics strategic investment in and integration of LandingAI's generative-AI Large Vision Model / LandingLens platform into robot vision, cutting robot vision AI training and deployment time [ABB Robotics + LandingAI (LandingLens / LVM)]",
+   "existence": "claimed",
+   "value": "up to 80% reduction in robot vision AI training and deployment time",
+   "tier": "",
+   "url": "https://new.abb.com/news/detail/129010/abb-and-landingai-unleash-the-power-of-generative-ai-for-robotic-vision",
+   "raw_sector": "",
+   "date": "2025-09-17",
+   "fresh": "fresh"
+  },
+  {
+   "company": "ABB India",
+   "use": "ABB OmniCore EyeMotion, an AI-enabled, hardware-agnostic robot vision system giving ABB robots real-time perception to see and adapt via drag-and-drop vision programming on the OmniCore controller platform [ABB Robotics (OmniCore EyeMotion)]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://new.abb.com/news/detail/129110/prsrl-abb-robotics-launches-omnicore-eyemotion",
+   "raw_sector": "",
+   "date": "2025-09-23",
+   "fresh": "fresh"
+  },
+  {
+   "company": "ABB India",
+   "use": "ABB Startup Challenge India 2025: ABB India selected startup Cloudworx (from 100+ entrants) for a collaboration with ABB Motion's drives business to advance AI-driven smart drive technology [ABB India + Cloudworx]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://new.abb.com/news/detail/130710/abb-startup-challenge-india-2025-winner-advances-smart-drive-technology-with-ai-innovation",
+   "raw_sector": "",
+   "date": "2025-11-04",
+   "fresh": "fresh"
+  },
+  {
+   "company": "ABB India",
+   "use": "ABB Ability Genix Asset Performance Management (APM) suite - AI/ML-driven predictive and prescriptive analytics for condition monitoring and predictive maintenance of industrial assets (cement, steel, metals), deployable on-prem or Azure [ABB (Genix APM Predict, on Microsoft Azure)]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://new.abb.com/process-automation/genix/genix-apm",
+   "raw_sector": "",
+   "date": "2024-01-01",
+   "fresh": "aging"
+  },
+  {
+   "company": "ABB India",
+   "use": "ABB Ability Smart Sensor / Digital Powertrain: predictive analytics on motors, drives and driven equipment detecting anomalies via current signature analysis to enable predictive maintenance [ABB (Ability Digital Powertrain / Smart Sensor, Machine Guardian)]",
+   "existence": "confirmed",
+   "value": "reduce downtime up to 70%, extend motor lifetime up to 30%",
+   "tier": "",
+   "url": "https://ipfonline.com/news/detail/industrynews/abb-uses-predictive-maintenance-technologies-to-help-industries-amit-gupta/17523",
+   "raw_sector": "",
+   "date": "2025-02-25",
+   "fresh": "fresh"
+  },
+  {
+   "company": "ABB India",
+   "use": "ABB India Smart Power factory at Nelamangala, Bengaluru upgraded to Industry 5.0 with collaborative robots (cobots) connecting robots, motors and drives on the shop floor - one of India's first such facilities [ABB Robotics (cobots)]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://energy.economictimes.indiatimes.com/news/power/abb-india-expands-upgrades-smart-power-factory-in-nelamangala-bengaluru/93851189",
+   "raw_sector": "",
+   "date": "2022-08-29",
+   "fresh": "stale"
+  },
+  {
+   "company": "ABB India",
+   "use": "AI-enabled 'Disha' corporate/business office at Nelamangala, Bengaluru running ABB's Aspect intelligent building management (IBMS) to automatically monitor and optimize lighting, HVAC and energy across the sustainable manufacturing campus [ABB (Aspect IBMS / ABB Ability building management)]",
+   "existence": "confirmed",
+   "value": "up to 30% energy consumption savings",
+   "tier": "",
+   "url": "https://www.oemupdate.com/news/abb-india-unveils-new-ai-enabled-corporate-and-business-office-within-its-own-sustainable-manufacturing-campus/",
+   "raw_sector": "",
+   "date": "2021-10-28",
+   "fresh": "stale"
   }
  ]
 }

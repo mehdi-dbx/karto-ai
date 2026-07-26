@@ -3,8 +3,8 @@
  "name": "Label'Vie",
  "cc": "MA",
  "vertical": "Retail & E-commerce",
- "deployments": 1,
- "confirmed": 1,
+ "deployments": 3,
+ "confirmed": 3,
  "with_value_number": 0,
  "proof_rate": 0.0,
  "mktcap": 1056000000.0,
@@ -15,21 +15,27 @@
  "per_10k_emp": null,
  "benchmarks": {
   "global_vertical": {
-   "deployments": 0,
-   "confirmed": 24,
+   "deployments": 19,
+   "confirmed": 32,
    "proof_rate": 0,
-   "n": 295
+   "n": 301
   }
  },
- "first_seen": null,
- "by_year": [],
- "undated_pct": 100,
- "momentum": "none",
+ "first_seen": 2025,
+ "by_year": [
+  {
+   "year": 2025,
+   "n": 2
+  }
+ ],
+ "undated_pct": 33,
+ "momentum": "rising",
  "maturity": "L3",
  "maturity_evidence": [
+  "multi_horizontal",
   "named_product:Group"
  ],
- "prospect_score": 54,
+ "prospect_score": 66,
  "stack": [],
  "vendor_named": false,
  "deployments_detail": [
@@ -43,6 +49,28 @@
    "raw_sector": "Consumer Services / Grande distribution",
    "date": "missing",
    "fresh": "undated"
+  },
+  {
+   "company": "Label'Vie",
+   "use": "AI-driven supply chain and store operations optimization [SymphonyAI]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.symphonyai.com/news/ai/labelvie-grocery-retail-modernization-symphonyai/",
+   "raw_sector": "",
+   "date": "2025-12-09",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Label'Vie",
+   "use": "AI-powered planogram management [LEAFIO]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.leafio.ai/news/carrefour-labelvie-implements-leafio/",
+   "raw_sector": "",
+   "date": "2025-12-16",
+   "fresh": "fresh"
   }
  ]
 }

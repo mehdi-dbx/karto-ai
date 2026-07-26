@@ -3,52 +3,132 @@
  "name": "Domino's",
  "cc": "US",
  "vertical": "Retail & E-commerce",
- "deployments": 1,
- "confirmed": 1,
- "with_value_number": 0,
- "proof_rate": 0.0,
+ "deployments": 9,
+ "confirmed": 8,
+ "with_value_number": 3,
+ "proof_rate": 0.333,
  "mktcap": 10550000000.0,
  "revenue": 5030000000.0,
  "employees": 10200.0,
  "silent": false,
- "per_bn_revenue": 0.2,
- "per_10k_emp": 0.98,
+ "per_bn_revenue": 1.79,
+ "per_10k_emp": 8.82,
  "benchmarks": {
   "global_vertical": {
-   "deployments": 0,
-   "confirmed": 24,
-   "proof_rate": 0,
-   "n": 295
+   "deployments": 64,
+   "confirmed": 75,
+   "proof_rate": 62,
+   "n": 301
   },
   "country_vertical": {
-   "deployments": 0,
-   "confirmed": 25,
-   "proof_rate": 0,
+   "deployments": 49,
+   "confirmed": 65,
+   "proof_rate": 66,
    "n": 80
   }
  },
- "first_seen": 2023,
+ "first_seen": 2014,
  "by_year": [
   {
+   "year": 2014,
+   "n": 1
+  },
+  {
+   "year": 2019,
+   "n": 1
+  },
+  {
+   "year": 2020,
+   "n": 1
+  },
+  {
+   "year": 2021,
+   "n": 2
+  },
+  {
    "year": 2023,
+   "n": 3
+  },
+  {
+   "year": 2025,
    "n": 1
   }
  ],
  "undated_pct": 0,
- "momentum": "early_mover,gone_quiet",
- "maturity": "L3",
+ "momentum": "early_mover,cooling",
+ "maturity": "L4",
  "maturity_evidence": [
+  "multi_horizontal",
   "named_product:Microsoft",
+  "value_number",
+  "multi_year",
   "tier_p"
  ],
- "prospect_score": 46,
+ "prospect_score": 75,
  "stack": [
+  "Amazon AWS",
   "Microsoft",
   "Microsoft Azure",
+  "NVIDIA",
   "OpenAI"
  ],
  "vendor_named": true,
  "deployments_detail": [
+  {
+   "company": "Domino's",
+   "use": "'Dom' virtual voice ordering assistant embedded in Domino's iPhone and Android apps, allowing customers to place orders by speaking; powered by Nuance's Nina intelligent virtual assistant with speech recognition/NLP. [Nuance (Nina Mobile)]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://ir.dominos.com/news-releases/news-release-details/meet-dom-virtual-voice-ordering-assistant-dominos-pizzar",
+   "raw_sector": "",
+   "date": "2014-10-06",
+   "fresh": "stale"
+  },
+  {
+   "company": "Domino's",
+   "use": "AI voice assistant answers inbound phone orders at stores, taking orders and capturing customer info conversationally; ConverseNow provides the AI order-taker and Rime provides the text-to-speech voice technology. [ConverseNow (voice AI assistant); Rime (text-to-speech)]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.duanemorris.com/alerts/northern_district_california_allows_cipa_claims_against_ai_pizza_ordering_assistant_0825.html",
+   "raw_sector": "",
+   "date": "2025-05-31",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Domino's",
+   "use": "Delivery prediction model that forecasts when an order will be ready (using order complexity, staffing, traffic), plus order-ready/anticipation predictions in-store. Trained on NVIDIA DGX systems and served via NVIDIA Turing T4 GPU inferencing stack (Kubernetes cluster). [NVIDIA (DGX, Turing T4 GPUs)]",
+   "existence": "confirmed",
+   "value": "Prediction accuracy improved from 75% to 95%; model training 72x faster (under one hour); inference latency cut from 50ms to sub-10ms",
+   "tier": "",
+   "url": "https://developer.nvidia.com/blog/dominos-takes-delivery-to-a-whole-new-level-with-nvidia-dgx-1/",
+   "raw_sector": "",
+   "date": "2020-04-06",
+   "fresh": "stale"
+  },
+  {
+   "company": "Domino's",
+   "use": "DOM Pizza Checker: AI camera mounted over the cut bench uses machine learning and sensor tech to verify each pizza's type, topping accuracy and distribution as it leaves the oven, triggering remakes on quality failures. [Dragontail Systems]",
+   "existence": "confirmed",
+   "value": "Deployed across all Domino's stores in Australia and New Zealand (per May 2019 announcement)",
+   "tier": "",
+   "url": "https://www.nrn.com/quick-service/domino-s-using-ai-cameras-to-ensure-pizzas-are-cooked-correctly",
+   "raw_sector": "",
+   "date": "2019-05-30",
+   "fresh": "stale"
+  },
+  {
+   "company": "Domino's",
+   "use": "Predictive ordering solution built on AWS that anticipates likely orders so kitchen staff can proactively prepare pizzas before orders complete; uses Amazon SageMaker to build/train ML models predicting order likelihood, supporting a 10-minutes-or-less delivery goal. [AWS (Amazon SageMaker)]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://pages.awscloud.com/rs/112-TZM-766/images/AWS_CPG_AI%26ML_eBook_Static_Final.pdf",
+   "raw_sector": "",
+   "date": "2021-01-01",
+   "fresh": "stale"
+  },
   {
    "company": "Domino's",
    "use": "GenAI ordering + store ops (Microsoft Azure OpenAI, 2023) + DOM Pizza Checker computer vision (quality inspection)",
@@ -58,6 +138,39 @@
    "url": "https://ir.dominos.com/news-releases",
    "raw_sector": "Consumer Discretionary",
    "date": "2023",
+   "fresh": "stale"
+  },
+  {
+   "company": "Domino's",
+   "use": "Enterprise AI ModelOps/MLOps and governance platform used to operationalize ML models for in-store labor scheduling forecasting, delivery vehicle routing, and new-store site selection, with real-time model monitoring and refresh. [Datatron]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.pizzamarketplace.com/news/dominos-datatron-partnership-amps-up-ai-ml-assisted-forecasting/",
+   "raw_sector": "",
+   "date": "2021-03-22",
+   "fresh": "stale"
+  },
+  {
+   "company": "Domino's",
+   "use": "AI/ML-powered demand forecasting and supply chain planning for Domino's UK & Ireland via Microsoft Dynamics 365 Supply Chain Management with demand planning, replacing manual spreadsheet forecasting; includes what-if scenario analysis across distribution centers. [Microsoft (Dynamics 365 Supply Chain Management, demand planning)]",
+   "existence": "confirmed",
+   "value": "72% improvement in demand forecasting accuracy; plan development cut from days to hours",
+   "tier": "",
+   "url": "https://www.microsoft.com/en/customers/story/1698105041618606470-dominos-microsoft-dynamics-365-united-kingdom",
+   "raw_sector": "",
+   "date": "2023-11-01",
+   "fresh": "stale"
+  },
+  {
+   "company": "Domino's",
+   "use": "Strategic alliance to build a proprietary generative AI assistant for store managers (inventory management, ingredient ordering, staff scheduling, predictive prep/quality) and to personalize/simplify customer ordering; built on Microsoft Cloud and Azure OpenAI Service via a joint Innovation Lab. [Microsoft (Azure OpenAI Service, Microsoft Cloud)]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.prnewswire.com/news-releases/dominos-and-microsoft-cook-up-ai-driven-innovation-alliance-for-smarter-pizza-orders-and-seamless-operations-301945321.html",
+   "raw_sector": "",
+   "date": "2023-10-03",
    "fresh": "stale"
   }
  ]

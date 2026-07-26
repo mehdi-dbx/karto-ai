@@ -3,44 +3,63 @@
  "name": "Cincinnati Financial",
  "cc": "US",
  "vertical": "Financial Services",
- "deployments": 1,
- "confirmed": 0,
- "with_value_number": 0,
- "proof_rate": 0.0,
+ "deployments": 9,
+ "confirmed": 7,
+ "with_value_number": 1,
+ "proof_rate": 0.111,
  "mktcap": 27710000000.0,
  "revenue": 12930000000.0,
  "employees": 5705.0,
  "silent": false,
- "per_bn_revenue": 0.08,
- "per_10k_emp": 1.75,
+ "per_bn_revenue": 0.7,
+ "per_10k_emp": 15.78,
  "benchmarks": {
   "global_vertical": {
-   "deployments": 0,
-   "confirmed": 0,
-   "proof_rate": 0,
-   "n": 377
+   "deployments": 58,
+   "confirmed": 62,
+   "proof_rate": 30,
+   "n": 388
   },
   "country_vertical": {
-   "deployments": 0,
-   "confirmed": 0,
-   "proof_rate": 0,
-   "n": 76
+   "deployments": 55,
+   "confirmed": 55,
+   "proof_rate": 33,
+   "n": 77
   }
  },
- "first_seen": 2026,
+ "first_seen": 2021,
  "by_year": [
   {
-   "year": 2026,
+   "year": 2021,
    "n": 1
+  },
+  {
+   "year": 2022,
+   "n": 2
+  },
+  {
+   "year": 2023,
+   "n": 1
+  },
+  {
+   "year": 2025,
+   "n": 2
+  },
+  {
+   "year": 2026,
+   "n": 3
   }
  ],
  "undated_pct": 0,
- "momentum": "late_entrant,rising",
- "maturity": "L1",
+ "momentum": "early_mover,rising",
+ "maturity": "L4",
  "maturity_evidence": [
-  "rows_no_confirmed"
+  "multi_horizontal",
+  "named_product:Proprietary",
+  "value_number",
+  "multi_year"
  ],
- "prospect_score": 40,
+ "prospect_score": 78,
  "stack": [],
  "vendor_named": true,
  "deployments_detail": [
@@ -54,6 +73,94 @@
    "raw_sector": "Financials",
    "date": "2026",
    "fresh": "fresh"
+  },
+  {
+   "company": "Cincinnati Financial",
+   "use": "Proprietary generative AI chatbot built in-house for commercial lines underwriters, helping them surface reference information and support underwriting decisions faster [In-house (proprietary build)]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://coverager.com/cincinnati-financial-expands-ai-push-amid-competitive-market/",
+   "raw_sector": "",
+   "date": "2026-02-26",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Cincinnati Financial",
+   "use": "AI Center of Excellence and enterprise generative AI program with production projects deployed across every major business unit, under a VP/Director of Generative AI [In-house program]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://coverager.com/cincinnati-financial-expands-ai-push-amid-competitive-market/",
+   "raw_sector": "",
+   "date": "2026-02-26",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Cincinnati Financial",
+   "use": "ZestyAI Z-FIRE AI wildfire risk model deployed across the personal lines property portfolio to assess wildfire risk at the individual-property level (building materials, topography, vegetation from high-res imagery) [ZestyAI (Z-FIRE)]",
+   "existence": "confirmed",
+   "value": "Model trained on more than 1,200 wildfire events across several decades",
+   "tier": "",
+   "url": "https://zesty.ai/resource/the-cincinnati-insurance-company-partners-with-zesty-ai-to-assess-wildfire-risk-at-the-individual-property-level",
+   "raw_sector": "",
+   "date": "2021-03-16",
+   "fresh": "stale"
+  },
+  {
+   "company": "Cincinnati Financial",
+   "use": "NeuralMetrics AI solution (machine learning + large language models) implemented to power underwriting for Lessor's Risk Only (LRO) commercial policies, providing real-time occupancy/tenant risk insights and industry classification with confidence scoring [NeuralMetrics]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.einpresswire.com/article/665441578/cincinnati-insurance-implements-neuralmetrics-ai-solution-to-power-underwriting-for-lessor-s-risk-only-policies",
+   "raw_sector": "",
+   "date": "2023-11-01",
+   "fresh": "stale"
+  },
+  {
+   "company": "Cincinnati Financial",
+   "use": "Deployment of Guidewire ClaimCenter on Guidewire Cloud Platform to transform claims operations, with generative AI and advanced analytics being embedded into claims workflows [Guidewire (ClaimCenter, Guidewire Cloud)]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.guidewire.com/about/press-center/press-releases/20251204/the-cincinnati-insurance-company-deploys-guidewire-claimcenter-to-transform-claims-operations",
+   "raw_sector": "",
+   "date": "2025-12-04",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Cincinnati Financial",
+   "use": "Access to Guidewire Predict (predictive analytics) and Guidewire Compare to monitor, benchmark and embed risk/analytics insights into claims and business performance [Guidewire (Predict, Compare)]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.guidewire.com/about/press-center/press-releases/20220909/guidewire-announces-cincinnati-financial-corporation-as-new-guidewire-cloud",
+   "raw_sector": "",
+   "date": "2022-09-09",
+   "fresh": "stale"
+  },
+  {
+   "company": "Cincinnati Financial",
+   "use": "Guidewire AI assistant (in beta) within the ClaimCenter deployment designed to summarize meetings, organize the day, and turn work activity into tasks and insights for claims staff [Guidewire (Claims/AI Assistant)]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.barchart.com/story/news/36454856/the-cincinnati-insurance-company-deploys-guidewire-claimcenter-to-transform-claims-operations",
+   "raw_sector": "",
+   "date": "2025-12-04",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Cincinnati Financial",
+   "use": "AI-based natural language processing that reads agent emails, extracts intent and data, then launches robotic process automation to complete policy transactions (e.g., adding/removing drivers and vehicles) via straight-through processing [In-house (NLP + RPA)]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.insurancebusinessmag.com/us/news/technology/technology-is-a-vital-puzzle-to-solve-cincinnati-insurances-cio-416512.aspx",
+   "raw_sector": "",
+   "date": "2022-08-11",
+   "fresh": "stale"
   }
  ]
 }

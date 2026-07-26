@@ -3,38 +3,58 @@
  "name": "Alrosa",
  "cc": "RU",
  "vertical": "Mining & Materials",
- "deployments": 3,
- "confirmed": 3,
- "with_value_number": 1,
- "proof_rate": 0.333,
+ "deployments": 15,
+ "confirmed": 10,
+ "with_value_number": 2,
+ "proof_rate": 0.133,
  "mktcap": null,
  "revenue": 2810000000.0,
  "employees": 32475.0,
  "silent": false,
- "per_bn_revenue": 1.07,
- "per_10k_emp": 0.92,
+ "per_bn_revenue": 5.34,
+ "per_10k_emp": 4.62,
  "benchmarks": {
   "global_vertical": {
-   "deployments": 90,
+   "deployments": 98,
    "confirmed": 92,
-   "proof_rate": 73,
-   "n": 61
+   "proof_rate": 52,
+   "n": 62
   }
  },
- "first_seen": null,
- "by_year": [],
- "undated_pct": 100,
- "momentum": "none",
- "maturity": "L3",
+ "first_seen": 2019,
+ "by_year": [
+  {
+   "year": 2019,
+   "n": 1
+  },
+  {
+   "year": 2024,
+   "n": 1
+  },
+  {
+   "year": 2025,
+   "n": 8
+  },
+  {
+   "year": 2026,
+   "n": 2
+  }
+ ],
+ "undated_pct": 20,
+ "momentum": "early_mover,rising",
+ "maturity": "L4",
  "maturity_evidence": [
   "multi_horizontal",
   "named_product:Machine",
   "value_number",
+  "multi_year",
   "tier_p"
  ],
- "prospect_score": 53,
- "stack": [],
- "vendor_named": false,
+ "prospect_score": 95,
+ "stack": [
+  "OpenAI"
+ ],
+ "vendor_named": true,
  "deployments_detail": [
   {
    "company": "Alrosa",
@@ -60,6 +80,28 @@
   },
   {
    "company": "Alrosa",
+   "use": "LLM-based digital assistant (originally GPT-based, migrated to Yandex AI Studio in secured cloud) with RAG knowledge bases for querying geological reports, specifications and technical documentation in natural language [Yandex AI Studio]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.alrosa.ru/press-center/news/2026/alrosa-delaet-stavku-na-ai-i-sobstvennuyu-it-ekspertizu/",
+   "raw_sector": "",
+   "date": "2026-04-21",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Alrosa",
+   "use": "Updated 2025-2027 digital transformation roadmap (100+ initiatives across 13 functions) applying neural networks to exploration, mining, ore enrichment, finance and administration [In-house]",
+   "existence": "claimed",
+   "value": "10.8 billion rubles investment by end of 2027",
+   "tier": "",
+   "url": "https://nedradv.ru/nedradv/ru/page_news?obj=4edbfa77ab1b56ac5ce9a1675f1ffdb0",
+   "raw_sector": "",
+   "date": "2026-03-10",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Alrosa",
    "use": "AI algorithms in geological exploration to select drilling sites (pilot completed)",
    "existence": "confirmed",
    "value": "none",
@@ -68,6 +110,116 @@
    "raw_sector": "Diamonds/Mining",
    "date": "missing",
    "fresh": "undated"
+  },
+  {
+   "company": "Alrosa",
+   "use": "AI system (neural networks trained on 50+ years of digitized proprietary geological data) to locate new diamond deposits with weak indicator properties in geologically complex regions [In-house (Russian development)]",
+   "existence": "claimed",
+   "value": "could save hundreds of millions of rubles per project",
+   "tier": "",
+   "url": "https://rapaport.com/news/alrosa-deploys-advanced-ai-system-to-accelerate-diamond-exploration/",
+   "raw_sector": "",
+   "date": "2025-08-24",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Alrosa",
+   "use": "Machine-learning analysis of geophysical data to identify geomagnetic anomalies and interpret borehole survey results, reducing exploration analysis time [In-house (Digital Lab / Innovation & Technology Center)]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.alrosa.ru/press-center/news/2025/alrosa-vnedryaet-iskusstvennyy-intellekt-dlya-optimizatsii-proizvodstvennykh-protsessov-/",
+   "raw_sector": "",
+   "date": "2025-03-20",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Alrosa",
+   "use": "Machine vision for ore granulometry (grain-size assessment) to maximize enrichment, plus determination of diamond-bearing ore fraction in the total mass [In-house]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.alrosa.ru/press-center/news/2025/alrosa-vnedryaet-iskusstvennyy-intellekt-dlya-optimizatsii-proizvodstvennykh-protsessov-/",
+   "raw_sector": "",
+   "date": "2025-03-20",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Alrosa",
+   "use": "Computer vision for truck loading optimization and for assessing equipment damage to minimize damage to diamonds during processing [In-house]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.alrosa.ru/press-center/news/2025/alrosa-vnedryaet-iskusstvennyy-intellekt-dlya-optimizatsii-proizvodstvennykh-protsessov-/",
+   "raw_sector": "",
+   "date": "2025-03-20",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Alrosa",
+   "use": "AI-controlled hydraulic robot with machine vision (claimed world-first) to crush oversized ore in low-visibility underground conditions at the Udachnaya underground mine (>1 km depth) [In-house]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://mashnews.ru/alrosa-ispolzuet-ii-dlya-upravleniya-ustanovkoj-drobleniya-negabaritnyix-kuskov-rudyi.html",
+   "raw_sector": "",
+   "date": "2024-10-01",
+   "fresh": "aging"
+  },
+  {
+   "company": "Alrosa",
+   "use": "Cooperation agreement with Sber to develop and deploy AI/computer-vision and LLM solutions for tracking transport load at mining sites, monitoring production-instruction compliance, quality control, and office document/report analysis [Sber]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://sber.pro/publication/sber-i-alrosa-dogovorilis-o-sovmestnom-razvitii-ai-reshenii/",
+   "raw_sector": "",
+   "date": "2025-06-20",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Alrosa",
+   "use": "Computer-vision monitoring of worker personal protective equipment (PPE) compliance for safety [In-house]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.alrosa.ru/press-center/news/2025/alrosa-vnedryaet-iskusstvennyy-intellekt-dlya-optimizatsii-proizvodstvennykh-protsessov-/",
+   "raw_sector": "",
+   "date": "2025-03-20",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Alrosa",
+   "use": "Predictive model forecasting which polished diamonds a given rough stone will yield, with market pricing analysis based on size, clarity, shape and public data [In-house]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.alrosa.ru/press-center/news/2025/alrosa-vnedryaet-iskusstvennyy-intellekt-dlya-optimizatsii-proizvodstvennykh-protsessov-/",
+   "raw_sector": "",
+   "date": "2025-03-20",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Alrosa",
+   "use": "Sarine Galaxy inclusion-mapping and DiaExpert planning system to generate 3D scans of rough diamonds and algorithmically evaluate optimal polished size/shape for remote digital tenders [Sarine (Galaxy / DiaExpert)]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.tkwheelerjewelers.com/blog/2019/Nov/26/advanced-mapping-technology-helps-rough-diamond/",
+   "raw_sector": "",
+   "date": "2019-11-26",
+   "fresh": "stale"
+  },
+  {
+   "company": "Alrosa",
+   "use": "NLP for automated support-ticket classification and routing, plus insurance risk document analysis and nomenclature normalization [In-house]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.alrosa.ru/press-center/news/2025/alrosa-vnedryaet-iskusstvennyy-intellekt-dlya-optimizatsii-proizvodstvennykh-protsessov-/",
+   "raw_sector": "",
+   "date": "2025-03-20",
+   "fresh": "fresh"
   }
  ]
 }

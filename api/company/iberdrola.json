@@ -3,27 +3,27 @@
  "name": "Iberdrola",
  "cc": "ES",
  "vertical": "Energy & Utilities",
- "deployments": 1,
- "confirmed": 1,
+ "deployments": 5,
+ "confirmed": 5,
  "with_value_number": 1,
- "proof_rate": 1.0,
+ "proof_rate": 0.2,
  "mktcap": 149104800000.0,
  "revenue": 47606400000.0,
  "employees": 45339.0,
  "silent": false,
- "per_bn_revenue": 0.02,
- "per_10k_emp": 0.22,
+ "per_bn_revenue": 0.11,
+ "per_10k_emp": 1.1,
  "benchmarks": {
   "global_vertical": {
-   "deployments": 0,
-   "confirmed": 20,
-   "proof_rate": 75,
-   "n": 210
+   "deployments": 53,
+   "confirmed": 70,
+   "proof_rate": 50,
+   "n": 213
   },
   "country_vertical": {
-   "deployments": 0,
-   "confirmed": 50,
-   "proof_rate": 67,
+   "deployments": 67,
+   "confirmed": 67,
+   "proof_rate": 33,
    "n": 7
   }
  },
@@ -33,11 +33,15 @@
  "momentum": "none",
  "maturity": "L3",
  "maturity_evidence": [
+  "multi_horizontal",
+  "named_product:Generative",
   "value_number"
  ],
- "prospect_score": 14,
- "stack": [],
- "vendor_named": false,
+ "prospect_score": 62,
+ "stack": [
+  "Amazon AWS"
+ ],
+ "vendor_named": true,
  "deployments_detail": [
   {
    "company": "Iberdrola",
@@ -48,6 +52,50 @@
    "url": "https://www.iberdrola.com/sala-comunicacion/noticias/detalle/iberdrola-integra-inteligencia-artificia-talento-humano-mas-450-proyectos-impulsar-electrificacion",
    "raw_sector": "Energy",
    "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "Iberdrola",
+   "use": "AI Centre of Excellence with eight use cases including information search in reports and quick reference",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.iberdrola.com/about-us/our-innovation-model/our-innovation-centres/centre-excellence-ai",
+   "raw_sector": "",
+   "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "Iberdrola",
+   "use": "AWS generative AI technologies for innovation and sustainability in the energy sector [AWS]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://aws.amazon.com/solutions/case-studies/innovators/iberdrola/",
+   "raw_sector": "",
+   "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "Iberdrola",
+   "use": "GregorIA - certified use case within Iberdrola's responsible artificial intelligence framework",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.atalayar.com/en/articulo/new-technologies-innovation/iberdrola-pioneer-in-the-application-of-artificial-intelligence-and-human-talent-in-its-day-to-day-operations/20260716104315227766.amp.html",
+   "raw_sector": "",
+   "date": "Jul 16, 2026",
+   "fresh": "undated"
+  },
+  {
+   "company": "Iberdrola",
+   "use": "Generative AI-powered voicebots for sales teams to answer customer questions on products and tariffs in real time",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.enlit.world/library/iberdrola-looks-to-generative-ai-to-drive-energy-sector-innovation",
+   "raw_sector": "",
+   "date": "Aug 16, 2024",
    "fresh": "undated"
   }
  ]

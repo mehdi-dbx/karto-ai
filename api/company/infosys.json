@@ -3,28 +3,28 @@
  "name": "Infosys",
  "cc": "IN",
  "vertical": "Technology",
- "deployments": 1,
- "confirmed": 1,
+ "deployments": 11,
+ "confirmed": 4,
  "with_value_number": 0,
  "proof_rate": 0.0,
  "mktcap": 51325301205.0,
  "revenue": 20160000000.0,
  "employees": 328594.0,
  "silent": false,
- "per_bn_revenue": 0.05,
- "per_10k_emp": 0.03,
+ "per_bn_revenue": 0.55,
+ "per_10k_emp": 0.33,
  "benchmarks": {
   "global_vertical": {
-   "deployments": 0,
-   "confirmed": 6,
+   "deployments": 67,
+   "confirmed": 41,
    "proof_rate": 0,
-   "n": 156
+   "n": 159
   },
   "country_vertical": {
-   "deployments": 0,
-   "confirmed": 0,
+   "deployments": 83,
+   "confirmed": 50,
    "proof_rate": 0,
-   "n": 6
+   "n": 7
   }
  },
  "first_seen": null,
@@ -36,10 +36,16 @@
   "named_product:Infosys Topaz",
   "tier_p"
  ],
- "prospect_score": 46,
+ "prospect_score": 64,
  "stack": [
   "Amazon AWS",
-  "Infosys"
+  "Anthropic",
+  "Cohere",
+  "Databricks",
+  "Google",
+  "Infosys",
+  "Microsoft",
+  "Palantir"
  ],
  "vendor_named": true,
  "deployments_detail": [
@@ -51,6 +57,116 @@
    "tier": "P",
    "url": "https://www.infosys.com/services/topaz.html",
    "raw_sector": "Information Technology",
+   "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "Infosys",
+   "use": "Agentic AI Foundry for AI agent development and deployment",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.infosys.com/newsroom/press-releases/2025/launches-agentic-ai-foundry.html",
+   "raw_sector": "",
+   "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "Infosys",
+   "use": "Enterprise generative AI solutions with Anthropic [Anthropic]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.youtube.com/watch?v=MyhYlVdU7Bk",
+   "raw_sector": "",
+   "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "Infosys",
+   "use": "Generative AI on AWS for enterprise solutions [AWS, Amazon Bedrock]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://aws.amazon.com/blogs/apn/how-infosys-is-reimagining-enterprise-solutions-with-generative-ai-on-aws/",
+   "raw_sector": "",
+   "date": "Jan 16, 2024",
+   "fresh": "undated"
+  },
+  {
+   "company": "Infosys",
+   "use": "Named as a Anthropic Claude customer/case study [Anthropic Claude] [Anthropic Claude]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://sacra.com/c/anthropic/",
+   "raw_sector": "",
+   "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "Infosys",
+   "use": "Named as a Microsoft Copilot customer/case study [Microsoft Copilot] [Microsoft Copilot]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://windowsforum.com/threads/infosys-tcs-and-wipro-deploy-microsoft-365-copilot-at-300k-seats-in-india.422337/",
+   "raw_sector": "",
+   "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "Infosys",
+   "use": "Named as a Amazon Bedrock customer/case study [Amazon Bedrock] [Amazon Bedrock]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.appsruntheworld.com/customers-database/products/view/amazon-bedrock",
+   "raw_sector": "",
+   "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "Infosys",
+   "use": "Named as a Google Gemini / Vertex AI customer/case study [Google Gemini / Vertex AI] [Google Gemini / Vertex AI]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.appsruntheworld.com/customers-database/products/view/google-cloud-vertex-ai",
+   "raw_sector": "",
+   "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "Infosys",
+   "use": "Named as a Databricks customer/case study [Databricks] [Databricks]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.appsruntheworld.com/customers-database/products/view/microsoft-azure-databricks-ai",
+   "raw_sector": "",
+   "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "Infosys",
+   "use": "Named as a Palantir customer/case study [Palantir] [Palantir]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.appsruntheworld.com/customers-database/products/view/palantir-aip-platform",
+   "raw_sector": "",
+   "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "Infosys",
+   "use": "Named as a Cohere customer/case study [Cohere] [Cohere]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.appsruntheworld.com/customers-database/products/view/cohere-ai",
+   "raw_sector": "",
    "date": "missing",
    "fresh": "undated"
   }

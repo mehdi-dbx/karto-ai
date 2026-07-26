@@ -3,36 +3,55 @@
  "name": "Qt Group",
  "cc": "FI",
  "vertical": "Technology",
- "deployments": 1,
- "confirmed": 1,
- "with_value_number": 0,
- "proof_rate": 0.0,
+ "deployments": 9,
+ "confirmed": 9,
+ "with_value_number": 3,
+ "proof_rate": 0.333,
  "mktcap": 658692000.0,
  "revenue": 239511600.0,
  "employees": 1120.0,
  "silent": false,
- "per_bn_revenue": 4.18,
- "per_10k_emp": 8.93,
+ "per_bn_revenue": 37.58,
+ "per_10k_emp": 80.36,
  "benchmarks": {
   "global_vertical": {
-   "deployments": 0,
-   "confirmed": 6,
-   "proof_rate": 0,
-   "n": 156
+   "deployments": 49,
+   "confirmed": 65,
+   "proof_rate": 71,
+   "n": 159
   }
  },
- "first_seen": null,
- "by_year": [],
- "undated_pct": 100,
- "momentum": "none",
- "maturity": "L3",
+ "first_seen": 2025,
+ "by_year": [
+  {
+   "year": 2025,
+   "n": 4
+  },
+  {
+   "year": 2026,
+   "n": 4
+  }
+ ],
+ "undated_pct": 11,
+ "momentum": "early_mover,rising",
+ "maturity": "L4",
  "maturity_evidence": [
+  "multi_horizontal",
   "named_product:Squish",
+  "value_number",
+  "multi_year",
   "tier_p"
  ],
- "prospect_score": 54,
- "stack": [],
- "vendor_named": false,
+ "prospect_score": 81,
+ "stack": [
+  "Anthropic",
+  "Google",
+  "Meta",
+  "Microsoft",
+  "Mistral AI",
+  "OpenAI"
+ ],
+ "vendor_named": true,
  "deployments_detail": [
   {
    "company": "Qt Group",
@@ -44,6 +63,94 @@
    "raw_sector": "Software",
    "date": "missing",
    "fresh": "undated"
+  },
+  {
+   "company": "Qt Group",
+   "use": "Qt AI Assistant: AI coding assistant embedded in Qt Creator IDE that auto-completes code, gives coding advice, generates unit tests and documentation for Qt/QML/C++. Connects to multiple LLMs. [OpenAI (GPT-5, GPT-4o, GPT-OSS 20B), Meta CodeLlama (fine-tuned), Ollama (local deployment)]",
+   "existence": "confirmed",
+   "value": "GPT-5 achieves 59% success on QML100 benchmark, +12% over GPT-4o",
+   "tier": "",
+   "url": "https://www.qt.io/blog/openai-users-can-now-enjoy-better-qml-coding-performance",
+   "raw_sector": "",
+   "date": "2025-01-23 (launched); v0.9.6 Oct 2025",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Qt Group",
+   "use": "Qt AI Assistant Code Review Agent: Qt Group's first AI agent, reviews code for syntax, structural and common issues and suggests improvements, inside Qt AI Assistant. [Qt AI Assistant (multi-LLM)]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.qt.io/blog/qt-ai-assistant-0.92-released-introducing-the-code-review-agent",
+   "raw_sector": "",
+   "date": "2025-06-12 (v0.9.2)",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Qt Group",
+   "use": "Qt Design Studio AI Assistant: agentic MCP-based assistant that generates and refactors QML UIs from natural-language prompts, reads project files, and generates QML from Figma designs via Figma Desktop MCP server. [Anthropic (Claude, incl. Opus), Google (Gemini Flash/Pro), OpenAI (GPT-4); Model Context Protocol; Figma Desktop MCP]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.qt.io/blog/ai-assisted-design-in-qt-design-studio",
+   "raw_sector": "",
+   "date": "2026-05-13 (Qt Design Studio 4.8.2; beta in 4.8.1)",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Qt Group",
+   "use": "Squish AI Assistant: IDE extension for the Squish GUI test automation platform that refines test code, analyzes test failures, and troubleshoots Squish Runner/Server logs. [OpenAI (GPT-5/4.1/o4-mini), Mistral AI (Mistral Small 3.2, Magistral, Codestral 2), PrivateGPT (local)]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.qt.io/quality-assurance/blog/introducing-squishs-brand-new-ai-assistant",
+   "raw_sector": "",
+   "date": "2025-08-11 (Squish 9.2, technical preview)",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Qt Group",
+   "use": "Squish Vision: AI-driven GUI testing using purpose-trained computer vision models to detect and interact with UI elements visually, independent of app framework or source code/IDs. [Qt Group (purpose-trained computer vision models)]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.qt.io/quality-assurance/squish/ai-powered-ui-testing",
+   "raw_sector": "",
+   "date": "2026 (product page live Jul 2026)",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Qt Group",
+   "use": "Qt Agentic Development Skills (agent-skills): packaged Qt-expert skills for AI coding agents that run deterministic linting (60+ rules), parallel sub-agents for code review, documentation generation, and QML coding best practices. [Anthropic (Claude Code / Claude marketplace), Microsoft (GitHub Copilot); tested with Claude Sonnet 4.6, GPT-5.4, Gemini 3.1 Pro]",
+   "existence": "confirmed",
+   "value": "Improves QML code quality up to 11% (Claude Sonnet 4.6 from 64% to 75% on benchmark)",
+   "tier": "",
+   "url": "https://www.qt.io/blog/introducing-qt-agentic-development-skills",
+   "raw_sector": "",
+   "date": "2026-04-28",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Qt Group",
+   "use": "CodeLlama-7B-QML: an LLM published by The Qt Company, fine-tuned (LoRA) from CodeLlama-7B on 5500+ human QML snippets for local Fill-In-The-Middle code completion of Qt 6 QML; distributed via Ollama. [Meta CodeLlama-7B (Llama 2) base; Qt Company fine-tune; Ollama distribution]",
+   "existence": "confirmed",
+   "value": "80% accuracy on QML100 FIM benchmark (vs GPT-4o 62%, Claude 3.7 Sonnet 76%)",
+   "tier": "",
+   "url": "https://ollama.com/theqtcompany/codellama-7b-qml",
+   "raw_sector": "",
+   "date": "2025",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Qt Group",
+   "use": "Axivion MCP: connects the Axivion static code analysis suite to AI coding agents/IDEs, letting agents trigger static analysis, explain defects in plain language, and suggest fixes using real project analysis data. [Model Context Protocol; GitHub Copilot Chat, VSCode integrations]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.qt.io/quality-assurance/axivion-mcp",
+   "raw_sector": "",
+   "date": "2026",
+   "fresh": "fresh"
   }
  ]
 }

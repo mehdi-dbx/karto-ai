@@ -3,39 +3,50 @@
  "name": "Carlsberg",
  "cc": "DK",
  "vertical": "Retail & E-commerce",
- "deployments": 2,
- "confirmed": 0,
+ "deployments": 7,
+ "confirmed": 4,
  "with_value_number": 1,
- "proof_rate": 0.5,
+ "proof_rate": 0.143,
  "mktcap": 18953623188.0,
  "revenue": 12913043478.0,
  "employees": 36998.0,
  "silent": false,
- "per_bn_revenue": 0.15,
- "per_10k_emp": 0.54,
+ "per_bn_revenue": 0.54,
+ "per_10k_emp": 1.89,
  "benchmarks": {
   "global_vertical": {
-   "deployments": 71,
-   "confirmed": 0,
-   "proof_rate": 70,
-   "n": 295
+   "deployments": 56,
+   "confirmed": 44,
+   "proof_rate": 39,
+   "n": 301
   }
  },
- "first_seen": 2025,
+ "first_seen": 2024,
  "by_year": [
   {
+   "year": 2024,
+   "n": 1
+  },
+  {
    "year": 2025,
+   "n": 2
+  },
+  {
+   "year": 2026,
    "n": 1
   }
  ],
- "undated_pct": 50,
- "momentum": "rising",
- "maturity": "L1",
+ "undated_pct": 43,
+ "momentum": "early_mover,rising",
+ "maturity": "L3",
  "maturity_evidence": [
-  "rows_no_confirmed"
+  "multi_horizontal",
+  "named_product:Microsoft",
+  "multi_year"
  ],
- "prospect_score": 20,
+ "prospect_score": 58,
  "stack": [
+  "Microsoft",
   "Microsoft Azure",
   "OpenAI"
  ],
@@ -54,6 +65,50 @@
   },
   {
    "company": "Carlsberg",
+   "use": "AI-powered knowledge assistant for employee access to operational knowledge [Microsoft Azure OpenAI Service]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.microsoft.com/en/customers/story/25830-carlsberg-group-azure-openai-in-foundry-models",
+   "raw_sector": "",
+   "date": "2025-12-18",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Carlsberg",
+   "use": "Intelligent document processing for order and delivery processes [ABBYY]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.abbyy.com/hub/vantage/faster-time-to-market-for-carlsberg-breweries/",
+   "raw_sector": "",
+   "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "Carlsberg",
+   "use": "Intelligent Automation platform with Automation Hub integration [UiPath]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.uipath.com/resources/automation-case-studies/carlsberg-leverages-intelligent-automation",
+   "raw_sector": "",
+   "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "Carlsberg",
+   "use": "AI video generation for supply chain training [Synthesia]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.synthesia.io/case-studies/carlsberg",
+   "raw_sector": "",
+   "date": "2026-07-14",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Carlsberg",
    "use": "AI applied to beer development and product-portfolio expansion for brewing innovation",
    "existence": "claimed",
    "value": "none",
@@ -62,6 +117,17 @@
    "raw_sector": "Beverages",
    "date": "missing",
    "fresh": "undated"
+  },
+  {
+   "company": "Carlsberg",
+   "use": "AI-powered sensors to analyze beer samples for product quality and sustainability",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.russellreynolds.com/en/insights/articles/consumer-ai-start-evolve-succeed",
+   "raw_sector": "",
+   "date": "2024-10-11",
+   "fresh": "aging"
   }
  ]
 }

@@ -3,40 +3,50 @@
  "name": "Metso",
  "cc": "FI",
  "vertical": "Manufacturing & Robotics",
- "deployments": 1,
- "confirmed": 1,
+ "deployments": 5,
+ "confirmed": 3,
  "with_value_number": 0,
  "proof_rate": 0.0,
  "mktcap": 14083200000.0,
  "revenue": 5702400000.0,
  "employees": 17572.0,
  "silent": false,
- "per_bn_revenue": 0.18,
- "per_10k_emp": 0.57,
+ "per_bn_revenue": 0.88,
+ "per_10k_emp": 2.85,
  "benchmarks": {
   "global_vertical": {
-   "deployments": 0,
-   "confirmed": 24,
+   "deployments": 58,
+   "confirmed": 50,
    "proof_rate": 0,
-   "n": 147
+   "n": 150
   },
   "country_vertical": {
-   "deployments": 0,
-   "confirmed": 10,
+   "deployments": 40,
+   "confirmed": 20,
    "proof_rate": 0,
    "n": 11
   }
  },
- "first_seen": null,
- "by_year": [],
- "undated_pct": 100,
- "momentum": "none",
+ "first_seen": 2020,
+ "by_year": [
+  {
+   "year": 2020,
+   "n": 1
+  },
+  {
+   "year": 2026,
+   "n": 2
+  }
+ ],
+ "undated_pct": 40,
+ "momentum": "early_mover,rising",
  "maturity": "L3",
  "maturity_evidence": [
+  "multi_horizontal",
   "named_product:Geminex",
   "tier_p"
  ],
- "prospect_score": 54,
+ "prospect_score": 66,
  "stack": [],
  "vendor_named": false,
  "deployments_detail": [
@@ -48,6 +58,50 @@
    "tier": "P",
    "url": "https://www.metso.com/insights/blog/mining-and-metals/artificial-intelligence-for-minerals-processing/",
    "raw_sector": "Industrials",
+   "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "Metso",
+   "use": "Predictive Maintenance for aggregates equipment",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.metso.com/corporate/media/news/2026/3/metso-renews-its-digital-services-to-help-aggregates-customers-improve-uptime-and-optimize-production/",
+   "raw_sector": "",
+   "date": "2026-03-04",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Metso",
+   "use": "AI-driven digital tools for aggregates operations",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.metso.com/insights/blog/mining-and-metals/artificial-intelligence-for-minerals-processing/",
+   "raw_sector": "",
+   "date": "2026-03-27",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Metso",
+   "use": "IIoT-driven predictive maintenance solution for mining",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.rockwellautomation.com/en-us/company/news/case-studies/metso-achieving-the-autonomous-mine-with-iiot.html",
+   "raw_sector": "",
+   "date": "2020-12-02",
+   "fresh": "stale"
+  },
+  {
+   "company": "Metso",
+   "use": "Generative AI for technical support - expert search and data processing",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.knowit.eu/cases/user-centric-generative-ai-solution-enhances-metsos-technical-support/",
+   "raw_sector": "",
    "date": "missing",
    "fresh": "undated"
   }

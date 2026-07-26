@@ -3,48 +3,67 @@
  "name": "Zalando",
  "cc": "DE",
  "vertical": "Retail & E-commerce",
- "deployments": 1,
- "confirmed": 1,
- "with_value_number": 1,
- "proof_rate": 1.0,
+ "deployments": 11,
+ "confirmed": 10,
+ "with_value_number": 8,
+ "proof_rate": 0.727,
  "mktcap": 7344000000.0,
  "revenue": 13953600000.0,
  "employees": 16998.0,
  "silent": false,
- "per_bn_revenue": 0.07,
- "per_10k_emp": 0.59,
+ "per_bn_revenue": 0.79,
+ "per_10k_emp": 6.47,
  "benchmarks": {
   "global_vertical": {
-   "deployments": 0,
-   "confirmed": 24,
-   "proof_rate": 77,
-   "n": 295
+   "deployments": 80,
+   "confirmed": 86,
+   "proof_rate": 95,
+   "n": 301
   },
   "country_vertical": {
-   "deployments": 0,
-   "confirmed": 0,
-   "proof_rate": 60,
+   "deployments": 80,
+   "confirmed": 100,
+   "proof_rate": 100,
    "n": 6
   }
  },
- "first_seen": 2026,
+ "first_seen": 2023,
  "by_year": [
   {
-   "year": 2026,
+   "year": 2023,
    "n": 1
+  },
+  {
+   "year": 2024,
+   "n": 3
+  },
+  {
+   "year": 2025,
+   "n": 4
+  },
+  {
+   "year": 2026,
+   "n": 3
   }
  ],
  "undated_pct": 0,
- "momentum": "late_entrant,rising",
- "maturity": "L3",
+ "momentum": "early_mover,rising",
+ "maturity": "L4",
  "maturity_evidence": [
+  "multi_horizontal",
   "named_product:Generative",
   "value_number",
+  "multi_year",
   "tier_p"
  ],
- "prospect_score": 14,
- "stack": [],
- "vendor_named": false,
+ "prospect_score": 71,
+ "stack": [
+  "Amazon AWS",
+  "Databricks",
+  "NVIDIA",
+  "OpenAI"
+ ],
+ "vendor_named": true,
  "deployments_detail": [
   {
    "company": "Zalando",
@@ -56,6 +75,116 @@
    "raw_sector": "E-Commerce",
    "date": "2026",
    "fresh": "fresh"
+  },
+  {
+   "company": "Zalando",
+   "use": "Zalando Assistant: conversational AI fashion advisor that gives styling/outfit recommendations from natural-language queries, understanding context like location, weather and occasion. Powered by Zalando's own models plus OpenAI GPT-4o mini (upgraded from GPT-3.5). Live for logged-in customers across all 25 markets in local languages. [OpenAI (GPT-4o mini)]",
+   "existence": "confirmed",
+   "value": "12x traffic scaled across 25 markets without significant cost increase; 23% increase in product clicks in recommendation carousels; 41% rise in wishlist adds; 5% reduction in unhelpful recommendations",
+   "tier": "",
+   "url": "https://corporate.zalando.com/en/technology/zalando-brings-its-ai-powered-assistant-all-markets-and-adds-four-new-cities-its-trend",
+   "raw_sector": "",
+   "date": "2024-10-01",
+   "fresh": "aging"
+  },
+  {
+   "company": "Zalando",
+   "use": "Markdown/discount price steering: forecast-then-optimize ML pipeline predicting demand, return rates, fulfillment costs and residual values to optimize discounts for 1M+ products weekly. Uses statistical, tree-based and Transformer-based deep learning models. Run in production by Zalando's forecasting team on Amazon SageMaker. [AWS (Amazon SageMaker)]",
+   "existence": "confirmed",
+   "value": "~10 billion forecast records processed weekly; weekly savings of 3-4 hours per ML model in operations/maintenance; serves ~50M active customers",
+   "tier": "",
+   "url": "https://aws.amazon.com/blogs/machine-learning/how-zalando-optimized-large-scale-inference-and-streamlined-ml-operations-on-amazon-sagemaker/",
+   "raw_sector": "",
+   "date": "2024-11-07",
+   "fresh": "aging"
+  },
+  {
+   "company": "Zalando",
+   "use": "Search quality assurance using LLM-as-a-judge (multimodal): evaluates semantic relevance of catalog search results at scale before new-market launches and for existing-market validation, scoring relevance 0-4. Uses GPT-4o. Production QA framework. [OpenAI (GPT-4o)]",
+   "existence": "confirmed",
+   "value": "~$250 per full evaluation run; 3-5 hours per cycle; tests 1,500 search segments per market with 25 results each; high correlation with human judgement",
+   "tier": "",
+   "url": "https://engineering.zalando.com/posts/2026/03/search-quality-assurance-with-llm-judge.html",
+   "raw_sector": "",
+   "date": "2026-03-17",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Zalando",
+   "use": "High-fidelity 3D digital product twins of footwear via the ALLSIDES NVIDIA-powered platform, integrated into Zalando's ShopAR for interactive 3D views, AR try-on and marketing content. Deployed across the e-commerce platform. [NVIDIA / ALLSIDES]",
+   "existence": "confirmed",
+   "value": "10,000 footwear SKUs in 3D by Dec 2025 (targeting 45,000 by 2026); 7-minute automated scans; 15-20% increase in time on product pages; 3-4% add-to-cart uplift; up to 92.1% reduction in cost per 3D scan",
+   "tier": "",
+   "url": "https://www.nvidia.com/en-us/case-studies/zalando-allsides-3d-digital-twins/",
+   "raw_sector": "",
+   "date": "2025-12-01",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Zalando",
+   "use": "Size & fit recommendations using machine learning and computer vision: analyzes brand measurements, return history and product images to give size flags, plus body-measurement prediction from two smartphone photos (front/side) for personalized size recommendations. Live in the e-commerce platform. [none]",
+   "existence": "confirmed",
+   "value": "Reduces size-related returns by 10% where size advice is provided; one third of Zalando's overall returns are size-related",
+   "tier": "",
+   "url": "https://corporate.zalando.com/en/about-us/what-we-do/how-zalando-leverages-technology-help-customers-find-right-size",
+   "raw_sector": "",
+   "date": "2023-07-01",
+   "fresh": "stale"
+  },
+  {
+   "company": "Zalando",
+   "use": "Generative AI content production for marketing/editorial imagery, plus 'digital twins' (high-fidelity 3D replicas of real models built with ORENDT STUDIOS). AI-generated content is deployed; digital twins in pilot. Used to produce campaign imagery and product videos at scale. [ORENDT STUDIOS (digital twins partner)]",
+   "existence": "confirmed",
+   "value": "~70% of editorial campaign assets AI-generated in Q4 2024; tailored content produced in under 24 hours; per Reuters, imagery production cut from 6-8 weeks to 3-4 days and costs reduced ~90%",
+   "tier": "",
+   "url": "https://corporate.zalando.com/en/technology/zalando-explores-digital-twins-high-fidelity-replicas-real-models",
+   "raw_sector": "",
+   "date": "2025-05-07",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Zalando",
+   "use": "Advertising partnership as a launch partner in OpenAI's ChatGPT advertising pilot, placing Zalando fashion/lifestyle assortment inside ChatGPT conversations, leveraging the Zalando Assistant. Described as early-stage pilot launching in the UK. [OpenAI (ChatGPT)]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.luzern.co/zalando-chatgpt-advertising-partnership/",
+   "raw_sector": "",
+   "date": "2026-06-14",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Zalando",
+   "use": "Dynamic inventory optimisation and probabilistic demand forecasting for the ZEOS marketplace/logistics platform: LightGBM + Nixtla MLForecast demand forecasting across 5M SKUs, Monte Carlo simulation and gradient-free optimisers for replenishment/inventory allocation. Daily batch + real-time interactive partner guidance. In production on AWS SageMaker, Databricks and internal zFlow. [AWS SageMaker, Databricks, Nixtla MLForecast, LightGBM]",
+   "existence": "confirmed",
+   "value": "Demand forecast pipeline processes 3 years of data for 5M SKUs in under 2 hours; feature store 10-20ms per SKU; related paper reports up to 22.1% GMV uplift from replenishment optimisation",
+   "tier": "",
+   "url": "https://engineering.zalando.com/posts/2025/06/inventory-optimisation-system.html",
+   "raw_sector": "",
+   "date": "2025-06-30",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Zalando",
+   "use": "AI-driven warehouse picking robots (Nomagic Shoebox Picker) using AI perception and robot control with intelligent grippers to handle two-piece/unsealed shoeboxes traditionally hard to automate. Deployed in Zalando's Verona, Italy warehouse. [Nomagic]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://nomagic.ai/case-study/zalando/",
+   "raw_sector": "",
+   "date": "2025-01-01",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Zalando",
+   "use": "Product attribute/metadata extraction from unstructured product images using generative AI, developed with the AWS Generative AI Innovation Center on Amazon Bedrock. [AWS (Amazon Bedrock, GenAI Innovation Center)]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://aws.amazon.com/blogs/industries/unlock-new-capabilities-from-product-images-using-generative-ai/",
+   "raw_sector": "",
+   "date": "2024-11-12",
+   "fresh": "aging"
   }
  ]
 }

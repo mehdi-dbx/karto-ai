@@ -3,27 +3,27 @@
  "name": "CDW Corporation",
  "cc": "US",
  "vertical": "Technology",
- "deployments": 1,
- "confirmed": 1,
- "with_value_number": 1,
- "proof_rate": 1.0,
+ "deployments": 4,
+ "confirmed": 2,
+ "with_value_number": 2,
+ "proof_rate": 0.5,
  "mktcap": 16660000000.0,
  "revenue": 22900000000.0,
  "employees": 14800.0,
  "silent": false,
- "per_bn_revenue": 0.04,
- "per_10k_emp": 0.68,
+ "per_bn_revenue": 0.17,
+ "per_10k_emp": 2.7,
  "benchmarks": {
   "global_vertical": {
-   "deployments": 0,
-   "confirmed": 6,
-   "proof_rate": 80,
-   "n": 156
+   "deployments": 15,
+   "confirmed": 11,
+   "proof_rate": 84,
+   "n": 159
   },
   "country_vertical": {
-   "deployments": 0,
-   "confirmed": 4,
-   "proof_rate": 93,
+   "deployments": 14,
+   "confirmed": 7,
+   "proof_rate": 85,
    "n": 74
   }
  },
@@ -33,10 +33,11 @@
  "momentum": "none",
  "maturity": "L3",
  "maturity_evidence": [
+  "multi_horizontal",
   "named_product:Internal",
   "value_number"
  ],
- "prospect_score": 6,
+ "prospect_score": 32,
  "stack": [
   "Microsoft"
  ],
@@ -51,6 +52,39 @@
    "url": "https://www.cdw.com/content/cdw/en/articles/software/cdw-leverages-ai-to-drive-innovation-and-enhance-customer-experience.html",
    "raw_sector": "Information Technology",
    "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "CDW Corporation",
+   "use": "AI-driven customer experience and innovation enhancement",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.cdw.com/content/cdw/en/articles/software/cdw-leverages-ai-to-drive-innovation-and-enhance-customer-experience.html",
+   "raw_sector": "",
+   "date": "Feb 21, 2025",
+   "fresh": "undated"
+  },
+  {
+   "company": "CDW Corporation",
+   "use": "AI infrastructure deployment for running AI workloads",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.cdw.com/content/cdw/en/solutions/ai-and-data/artificial-intelligence-ai.html",
+   "raw_sector": "",
+   "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "CDW Corporation",
+   "use": "Microsoft 365 Copilot deployment for employee productivity [Microsoft 365 Copilot]",
+   "existence": "confirmed",
+   "value": "85%",
+   "tier": "",
+   "url": "https://www.microsoft.com/en/customers/story/19101-cdw-corporation-microsoft-365",
+   "raw_sector": "",
+   "date": "Oct 23, 2024",
    "fresh": "undated"
   }
  ]

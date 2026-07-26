@@ -3,39 +3,43 @@
  "name": "Chiba Bank, Ltd.",
  "cc": "JP",
  "vertical": "Financial Services",
- "deployments": 3,
+ "deployments": 5,
  "confirmed": 2,
  "with_value_number": 2,
- "proof_rate": 0.667,
+ "proof_rate": 0.4,
  "mktcap": 12666666667.0,
  "revenue": 2146200000.0,
  "employees": 4377.0,
  "silent": false,
- "per_bn_revenue": 1.4,
- "per_10k_emp": 6.85,
+ "per_bn_revenue": 2.33,
+ "per_10k_emp": 11.42,
  "benchmarks": {
   "global_vertical": {
-   "deployments": 86,
-   "confirmed": 73,
-   "proof_rate": 73,
-   "n": 377
+   "deployments": 31,
+   "confirmed": 17,
+   "proof_rate": 68,
+   "n": 388
   },
   "country_vertical": {
-   "deployments": 93,
-   "confirmed": 36,
+   "deployments": 29,
+   "confirmed": 0,
    "proof_rate": 64,
    "n": 15
   }
  },
- "first_seen": 2029,
+ "first_seen": 2023,
  "by_year": [
+  {
+   "year": 2023,
+   "n": 1
+  },
   {
    "year": 2029,
    "n": 1
   }
  ],
- "undated_pct": 67,
- "momentum": "late_entrant,rising",
+ "undated_pct": 60,
+ "momentum": "early_mover,flat",
  "maturity": "L3",
  "maturity_evidence": [
   "multi_horizontal",
@@ -43,8 +47,9 @@
   "value_number",
   "tier_p"
  ],
- "prospect_score": 25,
+ "prospect_score": 36,
  "stack": [
+  "Google Cloud",
   "Snowflake"
  ],
  "vendor_named": true,
@@ -59,6 +64,17 @@
    "raw_sector": "Banking",
    "date": "2029",
    "fresh": "fresh"
+  },
+  {
+   "company": "Chiba Bank, Ltd.",
+   "use": "Workforce upskilling in AI and ML [Google Cloud]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://cloud.google.com/customers/chiba-bank",
+   "raw_sector": "",
+   "date": "missing",
+   "fresh": "undated"
   },
   {
    "company": "Chiba Bank, Ltd.",
@@ -81,6 +97,17 @@
    "raw_sector": "Banking",
    "date": "missing",
    "fresh": "undated"
+  },
+  {
+   "company": "Chiba Bank, Ltd.",
+   "use": "AI-based fraud detection for financial crimes and special fraud schemes [LAC AI Zero Fraud]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.lac.co.jp/english/news/2023/11/15_press_01.html",
+   "raw_sector": "",
+   "date": "2023-11-15",
+   "fresh": "stale"
   }
  ]
 }

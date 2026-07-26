@@ -3,26 +3,26 @@
  "name": "Advantest Corp.",
  "cc": "JP",
  "vertical": "Electric Machinery & Electronics",
- "deployments": 1,
- "confirmed": 1,
+ "deployments": 10,
+ "confirmed": 7,
  "with_value_number": 0,
  "proof_rate": 0.0,
  "mktcap": 142800000000.0,
  "revenue": 7533333333.0,
  "employees": 7241.0,
  "silent": false,
- "per_bn_revenue": 0.13,
- "per_10k_emp": 1.38,
+ "per_bn_revenue": 1.33,
+ "per_10k_emp": 13.81,
  "benchmarks": {
   "global_vertical": {
-   "deployments": 0,
-   "confirmed": 9,
+   "deployments": 65,
+   "confirmed": 65,
    "proof_rate": 0,
    "n": 35
   },
   "country_vertical": {
-   "deployments": 0,
-   "confirmed": 6,
+   "deployments": 61,
+   "confirmed": 61,
    "proof_rate": 0,
    "n": 32
   }
@@ -34,15 +34,17 @@
    "n": 1
   }
  ],
- "undated_pct": 0,
- "momentum": "early_mover,rising",
+ "undated_pct": 90,
+ "momentum": "rising",
  "maturity": "L3",
  "maturity_evidence": [
+  "multi_horizontal",
   "named_product:ACS RTDI",
   "tier_p"
  ],
- "prospect_score": 46,
+ "prospect_score": 82,
  "stack": [
+  "Google",
   "NVIDIA"
  ],
  "vendor_named": true,
@@ -57,6 +59,105 @@
    "raw_sector": "Electric Machinery",
    "date": "2025",
    "fresh": "fresh"
+  },
+  {
+   "company": "Advantest Corp.",
+   "use": "ACS RTDI (Real-Time Data Infrastructure) integrated with NVIDIA AI inference and GPU-accelerated ML, selected by NVIDIA for high-volume production to optimize test parameters in real time for Blackwell and next-generation AI chips [NVIDIA]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.advantest.com/en/news/2025/2025100602.html",
+   "raw_sector": "",
+   "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "Advantest Corp.",
+   "use": "Planned incorporation of NVIDIA NeMo and NVIDIA NIM microservices into ACS test analytics to curate heterogeneous production data, evaluate models, and deploy generative AI agents inside test environments [NVIDIA (NeMo, NIM)]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.advantest.com/en/news/2025/2025100602.html",
+   "raw_sector": "",
+   "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "Advantest Corp.",
+   "use": "Advantest Power Optimization Solution (APOS) for V93000 SoC test platform using AI/ML to optimize power management, automatically enable/disable test cards, and provide real-time energy monitoring; launched and installed at multiple customer sites [Advantest (with NVIDIA ML per Oct 2025 release)]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.advantest.com/en/news/2025/20250930.html",
+   "raw_sector": "",
+   "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "Advantest Corp.",
+   "use": "ACS RTDI platform with ACS Edge Server and ACS Nexus performing AI/ML inference and adaptive analytics at the edge (millisecond latency) inside the test cell for real-time defect detection and corrective action during chip production [Advantest ACS]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.electronicsweekly.com/news/products/software-products/advantest-adds-ai-algorithms-and-edge-computing-in-chip-production-2025-10/",
+   "raw_sector": "",
+   "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "Advantest Corp.",
+   "use": "Advantest uses ACS Nexus real-time data streaming integrated with Synopsys SiliconDash analytics deployed in production across its own global manufacturing and test facilities to increase yield via real-time root-cause identification and outlier screening [Synopsys (SiliconDash)]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.synopsys.com/success-stories/advantest-improves-semiconductor-yield-with-test-data-analytics.html",
+   "raw_sector": "",
+   "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "Advantest Corp.",
+   "use": "Strategic collaboration with Emerson (NI) to build an AI-driven test ecosystem pushing complex compute and AI/ML models to the edge for real-time re-binning and adaptive testing across wafer sort, final test, and system-level test [Emerson / NI]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.advantest.com/en/news/2025/20250319.html",
+   "raw_sector": "",
+   "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "Advantest Corp.",
+   "use": "Collaboration with PDF Solutions and proteanTecs harnessing AI/ML for yield, quality and reliability; proteanTecs Edge AI/ML applications deployed on the tester as part of the Advantest ACS Solution Store [PDF Solutions, proteanTecs]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.advantest.com/en/news/2020/20200730.html",
+   "raw_sector": "",
+   "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "Advantest Corp.",
+   "use": "Pilot/prototype using the ACS Gemini digital twin linking real test equipment with a virtual twin to apply adaptive AI/ML test logic in near real-time, reducing test time while maintaining defect coverage [Advantest ACS Gemini]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.cmmmagazine.com/cmm-articles/harnessing-digital-twins-and-aiml-for-smarter-semiconductor-/",
+   "raw_sector": "",
+   "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "Advantest Corp.",
+   "use": "ACS Gemini Digital Twin software solution launched to let developers create, simulate, test, and debug machine-learning applications for the test cell (SDK, reference application development model, containerized environment) [Advantest ACS]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.advantest.com/en/news/2024/20241205.html",
+   "raw_sector": "",
+   "date": "missing",
+   "fresh": "undated"
   }
  ]
 }

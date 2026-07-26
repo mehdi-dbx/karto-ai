@@ -3,43 +3,78 @@
  "name": "Capital One",
  "cc": "US",
  "vertical": "Financial Services",
- "deployments": 1,
- "confirmed": 1,
- "with_value_number": 0,
- "proof_rate": 0.0,
+ "deployments": 11,
+ "confirmed": 10,
+ "with_value_number": 3,
+ "proof_rate": 0.273,
  "mktcap": 121390000000.0,
  "revenue": 48110000000.0,
  "employees": 76300.0,
  "silent": false,
- "per_bn_revenue": 0.02,
- "per_10k_emp": 0.13,
+ "per_bn_revenue": 0.23,
+ "per_10k_emp": 1.44,
  "benchmarks": {
   "global_vertical": {
-   "deployments": 0,
-   "confirmed": 17,
-   "proof_rate": 0,
-   "n": 377
+   "deployments": 72,
+   "confirmed": 78,
+   "proof_rate": 52,
+   "n": 388
   },
   "country_vertical": {
-   "deployments": 0,
-   "confirmed": 19,
-   "proof_rate": 0,
-   "n": 76
+   "deployments": 68,
+   "confirmed": 74,
+   "proof_rate": 62,
+   "n": 77
   }
  },
- "first_seen": null,
- "by_year": [],
- "undated_pct": 100,
- "momentum": "none",
- "maturity": "L3",
+ "first_seen": 2017,
+ "by_year": [
+  {
+   "year": 2017,
+   "n": 1
+  },
+  {
+   "year": 2024,
+   "n": 2
+  },
+  {
+   "year": 2025,
+   "n": 5
+  },
+  {
+   "year": 2026,
+   "n": 2
+  }
+ ],
+ "undated_pct": 9,
+ "momentum": "early_mover,rising",
+ "maturity": "L4",
  "maturity_evidence": [
+  "multi_horizontal",
   "named_product:Chat Concierge",
+  "value_number",
+  "multi_year",
   "tier_p"
  ],
- "prospect_score": 46,
- "stack": [],
+ "prospect_score": 89,
+ "stack": [
+  "Amazon AWS",
+  "Meta",
+  "NVIDIA"
+ ],
  "vendor_named": true,
  "deployments_detail": [
+  {
+   "company": "Capital One",
+   "use": "Chat Concierge: a proprietary multi-agentic conversational AI assistant embedded on car-dealership websites (and Capital One's Navigator platform) that helps buyers compare vehicles, explore inventory, answer personalized questions and schedule test drives, with NLU, action planning, a hallucination/validation layer and policy simulation. Built on Meta's open-source Llama, customized with proprietary data. [Meta Llama (base model), Capital One proprietary multi-agent framework]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.capitalone.com/tech/ai/future-of-ai-car-dealerships-shopping/",
+   "raw_sector": "",
+   "date": "2025-03-04",
+   "fresh": "fresh"
+  },
   {
    "company": "Capital One",
    "use": "\"Chat Concierge\" proprietary multi-agentic conversational AI for auto-buying (on dealer sites) + Eno assistant",
@@ -50,6 +85,105 @@
    "raw_sector": "Financials",
    "date": "missing",
    "fresh": "undated"
+  },
+  {
+   "company": "Capital One",
+   "use": "Generative AI agent-servicing / knowledge-retrieval tool: a RAG-based assistant giving customer-service agents real-time semantic/hybrid search over Capital One data to resolve customer questions faster, reducing hold times. Deployed to roughly 20,000 agents across business units. [AWS SageMaker (LLM inference), AWS OpenSearch (retrieval), NVIDIA A100 GPUs]",
+   "existence": "confirmed",
+   "value": "~20,000 agents; top-5 search success rose from 84% to 93%",
+   "tier": "",
+   "url": "https://www.linkedin.com/pulse/from-theory-practice-how-capital-one-building-future-ai-schwentker-my5jc",
+   "raw_sector": "",
+   "date": "2025",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Capital One",
+   "use": "Eno virtual assistant: an ML-powered natural-language chatbot (the first natural-language SMS chatbot from a US bank) that answers account questions, delivers spending insights, sends real-time suspicious-activity/fraud alerts and generates virtual card numbers for online purchases. [Capital One proprietary (machine learning / NLP)]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.capitalone.com/digital/tools/eno/",
+   "raw_sector": "",
+   "date": "2017-10-24",
+   "fresh": "stale"
+  },
+  {
+   "company": "Capital One",
+   "use": "Proprietary multi-agentic AI framework (MACAW) that assists several hundred bank customer-service agents who specialize in complex fraud cases, breaking down complex requests into tasks handled by specialized agents. [Capital One proprietary multi-agent framework; NVIDIA AI ecosystem]",
+   "existence": "claimed",
+   "value": "several hundred fraud-specialist agents",
+   "tier": "",
+   "url": "https://www.nvidia.com/en-us/on-demand/session/gtc26-ex82362/",
+   "raw_sector": "",
+   "date": "2026",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Capital One",
+   "use": "Machine-learning speech recognition in call-center operations powering an automated agent training and validation (quality assurance) system. [AWS]",
+   "existence": "confirmed",
+   "value": "roughly doubled accuracy over 18 months",
+   "tier": "",
+   "url": "https://aws.amazon.com/machine-learning/customers/innovators/capital_one/",
+   "raw_sector": "",
+   "date": "2024",
+   "fresh": "aging"
+  },
+  {
+   "company": "Capital One",
+   "use": "Real-time machine-learning fraud detection and prevention on card transactions, including interactive customer alerts, automated card lock/replacement and temporary card access, with a focus on dynamically reducing false positives. [TensorFlow on AWS]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://aws.amazon.com/machine-learning/customers/innovators/capital_one/",
+   "raw_sector": "",
+   "date": "2024",
+   "fresh": "aging"
+  },
+  {
+   "company": "Capital One",
+   "use": "VulnHunter: an open-sourced agentic AI code-security tool that applies attacker-perspective 'forward analysis' to source code to identify potentially exploitable vulnerabilities, trace attack paths and propose targeted code repairs, with a self-disproving/falsification step to minimize speculative alerts. [Capital One proprietary (open-sourced agentic AI)]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.capitalone.com/tech/open-source/announcing-vulnhunter/",
+   "raw_sector": "",
+   "date": "2026-07-16",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Capital One",
+   "use": "Capital One Databolt: a tokenization/data-protection product that replaces sensitive data with format-preserving de-identified tokens so teams can safely use data for AI, analytics and customer intelligence; natively integrated with AWS (Redshift, Aurora, RDS) via UDFs/APIs/SDKs. [Capital One Software; AWS (Redshift, Aurora, RDS)]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://capitalonesoftware.com/news/capital-one-databolt-integrates-aws",
+   "raw_sector": "",
+   "date": "2025-12-01",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Capital One",
+   "use": "Generative AI coding tools deployed to Capital One software developers to accelerate the coding experience and improve engineering efficiency (code generation/assist), governed by internal evaluation systems and release controls for approved AI models and coding agents. [none]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.capitalone.com/tech/ai/transforming-financial-services/",
+   "raw_sector": "",
+   "date": "2025-03-26",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Capital One",
+   "use": "Transformer-based real-time personalization system that customizes the digital and mobile customer experience across channels for more than 100 million customers, enabling rapid experimentation and proactive communications. [Capital One proprietary (transformer-based AI)]",
+   "existence": "confirmed",
+   "value": "100M+ customers served",
+   "tier": "",
+   "url": "https://www.capitalone.com/tech/ai/",
+   "raw_sector": "",
+   "date": "2025",
+   "fresh": "fresh"
   }
  ]
 }

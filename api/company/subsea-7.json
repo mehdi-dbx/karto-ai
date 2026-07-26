@@ -3,46 +3,64 @@
  "name": "Subsea 7",
  "cc": "NO",
  "vertical": "Energy & Utilities",
- "deployments": 1,
- "confirmed": 1,
- "with_value_number": 0,
- "proof_rate": 0.0,
+ "deployments": 9,
+ "confirmed": 8,
+ "with_value_number": 2,
+ "proof_rate": 0.222,
  "mktcap": 9288785047.0,
  "revenue": 6686915888.0,
  "employees": 13821.0,
  "silent": false,
- "per_bn_revenue": 0.15,
- "per_10k_emp": 0.72,
+ "per_bn_revenue": 1.35,
+ "per_10k_emp": 6.51,
  "benchmarks": {
   "global_vertical": {
-   "deployments": 0,
-   "confirmed": 20,
-   "proof_rate": 0,
-   "n": 210
+   "deployments": 78,
+   "confirmed": 85,
+   "proof_rate": 57,
+   "n": 213
   },
   "country_vertical": {
-   "deployments": 0,
+   "deployments": 25,
    "confirmed": 25,
-   "proof_rate": 0,
+   "proof_rate": 50,
    "n": 5
   }
  },
- "first_seen": 2019,
+ "first_seen": 2018,
  "by_year": [
   {
+   "year": 2018,
+   "n": 1
+  },
+  {
    "year": 2019,
+   "n": 3
+  },
+  {
+   "year": 2020,
+   "n": 4
+  },
+  {
+   "year": 2025,
    "n": 1
   }
  ],
  "undated_pct": 0,
- "momentum": "early_mover,gone_quiet",
- "maturity": "L3",
+ "momentum": "early_mover,rising",
+ "maturity": "L4",
  "maturity_evidence": [
-  "named_product:Tech"
+  "multi_horizontal",
+  "named_product:Tech",
+  "value_number",
+  "multi_year"
  ],
- "prospect_score": 54,
- "stack": [],
- "vendor_named": false,
+ "prospect_score": 79,
+ "stack": [
+  "Microsoft",
+  "Microsoft Azure"
+ ],
+ "vendor_named": true,
  "deployments_detail": [
   {
    "company": "Subsea 7",
@@ -53,6 +71,94 @@
    "url": "https://www.offshore-technology.com/news/shell-itech7-partner-digitalisation/",
    "raw_sector": "Energy Services",
    "date": "2019",
+   "fresh": "stale"
+  },
+  {
+   "company": "Subsea 7",
+   "use": "Automated AI workflow for subsea pipeline inspection: machine-learning system processes ROV/survey inspection footage and data, cutting processing time and accelerating inspection cadence. Attributed to Subsea7 Digital lead Hugh Ferguson in the Deep 7 Technology Magazine 2020. [Subsea7 (in-house)]",
+   "existence": "confirmed",
+   "value": "Automated AI workflow reduces processing time by over 50%",
+   "tier": "",
+   "url": "https://www.subsea7.com/content/dam/subsea7-corporate2018/Publications/Deep-7-Publication/Deep%207%20Technology%20Magazine%202020_7MB.pdf.downloadasset.pdf",
+   "raw_sector": "",
+   "date": "2020",
+   "fresh": "stale"
+  },
+  {
+   "company": "Subsea 7",
+   "use": "Data-automation for integrity inspections: automating cathodic protection (CP) inspections and using visual-recognition/computer-vision systems to automatically identify features on subsea pipelines and structures from inspection video. [Subsea7 (in-house)]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.subsea7.com/content/dam/subsea7-corporate2018/Publications/Deep-7-Publication/Deep%207%20Magazine.pdf.downloadasset.pdf",
+   "raw_sector": "",
+   "date": "2020",
+   "fresh": "stale"
+  },
+  {
+   "company": "Subsea 7",
+   "use": "Autonomous Inspection Vehicle (AIV) for unmanned inspection of pipelines, umbilicals, risers and subsea structures, using Deep Learning and Machine Vision for autonomous navigation and feature/visual inspection. [Subsea7 (in-house)]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.subsea7.com/content/dam/subsea7-corporate2018/Publications/Deep-7-Publication/Deep%207%20Magazine.pdf.downloadasset.pdf",
+   "raw_sector": "",
+   "date": "2020",
+   "fresh": "stale"
+  },
+  {
+   "company": "Subsea 7",
+   "use": "4insight Marine Operations (DynOps): machine-learning decision-support that fuses live vessel motion/IoT sensor data with weather forecasts (on Microsoft Azure) to predict vessel operability windows, recommend headings and helicopter landing windows, and reduce weather downtime. Deployed on Subsea7 construction vessels. [4Subsea (Subsea7 subsidiary), Microsoft Azure]",
+   "existence": "confirmed",
+   "value": "In 2025 added ~35 days of operation to the vessel Seven Vega, an uplift of over 10%",
+   "tier": "",
+   "url": "https://4subsea.com/casestudies/improving-operational-efficiency-using-4insight-marine-operations/",
+   "raw_sector": "",
+   "date": "2025",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Subsea 7",
+   "use": "4insight Asset Integrity: machine-learning anomaly-detection on live sensor/monitoring data from subsea infrastructure (risers, pipelines, moorings) with digital-twin models to provide data-driven decision support and reduce inspection cost. [4Subsea (Subsea7 subsidiary)]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://4subsea.com/services/sensors-and-monitoring/",
+   "raw_sector": "",
+   "date": "2020",
+   "fresh": "stale"
+  },
+  {
+   "company": "Subsea 7",
+   "use": "Acquisition of digital-services provider 4Subsea to bring advanced algorithms and AI plus digital twins in-house for asset-integrity insights and decision support across Life of Field / field development contracts. [4Subsea (acquired by Subsea7)]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.offshore-technology.com/news/subsea7-acquires-4subsea/",
+   "raw_sector": "",
+   "date": "2019-10-03",
+   "fresh": "stale"
+  },
+  {
+   "company": "Subsea 7",
+   "use": "Five-year digitalisation partnership between i-Tech 7 (Subsea7 division) and Leidos to apply big data, artificial intelligence and automation to ROV/diving intervention, survey, inspection and integrity data acquisition and processing, reducing operating costs. [Leidos (with i-Tech 7 / Subsea7)]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://oceannews.com/news/subsea-and-survey/i-tech-services-and-leidos-partner-to-drive-digitalization-subsea/",
+   "raw_sector": "",
+   "date": "2018-04-26",
+   "fresh": "stale"
+  },
+  {
+   "company": "Subsea 7",
+   "use": "Joint Subsea7 / 4Subsea project to monitor key operational data on Subsea7 vessels using advanced algorithms, AI and digital twins to digitalise and optimise marine operations. [4Subsea (Subsea7 subsidiary)]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.subsea7.com/en/media/company-news/2019/subsea-7-acquires-4subsea.html",
+   "raw_sector": "",
+   "date": "2019-10-03",
    "fresh": "stale"
   }
  ]

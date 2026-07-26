@@ -3,43 +3,80 @@
  "name": "Cadence Design Systems",
  "cc": "US",
  "vertical": "Technology",
- "deployments": 1,
- "confirmed": 1,
- "with_value_number": 1,
- "proof_rate": 1.0,
+ "deployments": 12,
+ "confirmed": 10,
+ "with_value_number": 7,
+ "proof_rate": 0.583,
  "mktcap": 92010000000.0,
  "revenue": 5530000000.0,
  "employees": 13800.0,
  "silent": false,
- "per_bn_revenue": 0.18,
- "per_10k_emp": 0.72,
+ "per_bn_revenue": 2.17,
+ "per_10k_emp": 8.7,
  "benchmarks": {
   "global_vertical": {
-   "deployments": 0,
-   "confirmed": 6,
-   "proof_rate": 80,
-   "n": 156
+   "deployments": 75,
+   "confirmed": 76,
+   "proof_rate": 90,
+   "n": 159
   },
   "country_vertical": {
-   "deployments": 0,
-   "confirmed": 4,
-   "proof_rate": 93,
+   "deployments": 73,
+   "confirmed": 73,
+   "proof_rate": 92,
    "n": 74
   }
  },
- "first_seen": null,
- "by_year": [],
- "undated_pct": 100,
- "momentum": "none",
- "maturity": "L3",
+ "first_seen": 2021,
+ "by_year": [
+  {
+   "year": 2021,
+   "n": 1
+  },
+  {
+   "year": 2022,
+   "n": 2
+  },
+  {
+   "year": 2023,
+   "n": 2
+  },
+  {
+   "year": 2025,
+   "n": 4
+  },
+  {
+   "year": 2026,
+   "n": 2
+  }
+ ],
+ "undated_pct": 8,
+ "momentum": "early_mover,rising",
+ "maturity": "L4",
  "maturity_evidence": [
   "named_product:Cerebrus",
-  "value_number"
+  "value_number",
+  "multi_year"
  ],
- "prospect_score": 14,
- "stack": [],
- "vendor_named": false,
+ "prospect_score": 77,
+ "stack": [
+  "Anthropic",
+  "Microsoft",
+  "NVIDIA"
+ ],
+ "vendor_named": true,
  "deployments_detail": [
+  {
+   "company": "Cadence Design Systems",
+   "use": "Cadence internally deploys and supports AI-assisted software development tools (Claude, Cursor, GitHub Copilot) for its engineering workforce, per a dedicated internal GenAI Tools Support Engineer role owning deployment, configuration and end-user support. [Anthropic Claude, Cursor, GitHub Copilot]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.tealhq.com/job/genai-tools-support-engineer_7ea1abf2dfbb75d5fdc3e0c9e72ecab860143",
+   "raw_sector": "",
+   "date": "2026-04-07",
+   "fresh": "fresh"
+  },
   {
    "company": "Cadence Design Systems",
    "use": "Cerebrus AI chip-design optimizer + JedAI data platform + Cerebrus AI Studio (agentic SoC design); Cadence.AI portfolio",
@@ -50,6 +87,116 @@
    "raw_sector": "Information Technology",
    "date": "missing",
    "fresh": "undated"
+  },
+  {
+   "company": "Cadence Design Systems",
+   "use": "Cadence Cerebrus Intelligent Chip Explorer, a reinforcement-learning AI tool that automates chip design flow optimization, deployed by MediaTek to shrink die area by 5% and reduce power by more than 6% on a floorplan optimization run. [Cadence (Cerebrus), reinforcement learning]",
+   "existence": "confirmed",
+   "value": "5% die area reduction, >6% power reduction",
+   "tier": "",
+   "url": "https://www.cadence.com/en_US/home/company/newsroom/press-releases/pr/2022/cadence-cerebrus-ai-based-solution-delivers-transformative.html",
+   "raw_sector": "",
+   "date": "2022-06-09",
+   "fresh": "stale"
+  },
+  {
+   "company": "Cadence Design Systems",
+   "use": "Renesas adopted Cadence Cerebrus for AI-driven digital flow optimization and floorplan exploration on an advanced-node CPU design, improving design performance by more than 10%. [Cadence (Cerebrus), reinforcement learning]",
+   "existence": "confirmed",
+   "value": ">10% performance improvement",
+   "tier": "",
+   "url": "https://siliconangle.com/2021/07/22/chip-design-giant-cadence-launches-ai-platform-speed-processor-development/",
+   "raw_sector": "",
+   "date": "2021-07-22",
+   "fresh": "stale"
+  },
+  {
+   "company": "Cadence Design Systems",
+   "use": "Samsung Austin Research Center (SARC) used Cadence Cerebrus AI Studio, the agentic AI multi-block SoC implementation tool, achieving 4X productivity in chip design. [Cadence (Cerebrus AI Studio), agentic AI]",
+   "existence": "confirmed",
+   "value": "4X productivity",
+   "tier": "",
+   "url": "https://community.cadence.com/cadence_blogs_8/b/corporate-news/posts/transforming-chip-design-with-agentic-ai-introducing-cadence-cerebrus-ai-studio",
+   "raw_sector": "",
+   "date": "2025-05-07",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Cadence Design Systems",
+   "use": "Cadence Verisium AI-driven verification platform (AI-powered debug, root-cause analysis, coverage optimization) deployed to accelerate debug productivity at Renesas. [Cadence (Verisium), machine learning]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.eejournal.com/industry_news/cadence-verisium-ai-driven-verification-platform-accelerates-debug-productivity-for-renesas/",
+   "raw_sector": "",
+   "date": "2023-03-10",
+   "fresh": "stale"
+  },
+  {
+   "company": "Cadence Design Systems",
+   "use": "Danfoss deployed Cadence Allegro X AI (cloud AI for automated PCB component placement and routing), achieving a 96% reduction in component placement time and a 64% overall reduction in total process time. [Cadence (Allegro X AI)]",
+   "existence": "confirmed",
+   "value": "96% placement time reduction, 64% total process time reduction",
+   "tier": "",
+   "url": "https://www.ema-eda.com/ema-resources/case-study/danfoss-uses-cadence-allegro-x-ai-to-amplify-pcb-design-for-energy-efficiency/",
+   "raw_sector": "",
+   "date": "2025-09-18",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Cadence Design Systems",
+   "use": "Wistron deployed Cadence Optimality Intelligent System Explorer (AI-driven multiphysics electromagnetic optimization) alongside Clarity 3D Solver to accelerate product development. [Cadence (Optimality Explorer)]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.businesswire.com/news/home/20231220212076/en/Cadence-AI-Driven-Multiphysics-System-Analysis-Solution-Enables-Wistron-to-Dramatically-Accelerate-Product-Development",
+   "raw_sector": "",
+   "date": "2023-12-20",
+   "fresh": "stale"
+  },
+  {
+   "company": "Cadence Design Systems",
+   "use": "Cadence ChipStack AI Super Agent, an agentic workflow that autonomously creates and verifies chip designs from specifications, claiming 10X productivity and, at Level-5 autonomy, 40X faster RTL validation. Powered by NVIDIA (NemoClaw open-source stack). [Cadence (ChipStack AI Super Agent) + NVIDIA]",
+   "existence": "confirmed",
+   "value": "10X productivity, 40X faster RTL validation",
+   "tier": "",
+   "url": "https://www.eetimes.com/cadence-unveils-chipstack-ai-agent-for-agentic-chip-design-and-verification/",
+   "raw_sector": "",
+   "date": "2026-02-10",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Cadence Design Systems",
+   "use": "Cadence Millennium M2000 Supercomputer integrating NVIDIA HGX B200 and RTX PRO 6000 Blackwell GPUs for AI-accelerated EDA, CFD digital twins and life-sciences simulation; NVIDIA committed to purchase 10 Millennium systems for its own chip design workflows. [Cadence (Millennium M2000) + NVIDIA Blackwell]",
+   "existence": "confirmed",
+   "value": "up to 80X performance vs prior CPU-based system",
+   "tier": "",
+   "url": "https://blogs.nvidia.com/blog/cadence-millennium-nvidia-blackwell/",
+   "raw_sector": "",
+   "date": "2025-05-07",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Cadence Design Systems",
+   "use": "Cadence Molecular Sciences (OpenEye) integrated NVIDIA BioNeMo NIM microservices into its Orion cloud molecular design platform for AI-driven drug discovery (3D de novo protein structure prediction, small-molecule generative AI, molecular property prediction). [Cadence Molecular Sciences (Orion) + NVIDIA BioNeMo]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.eyesopen.com/news/bionemo-nim-orion",
+   "raw_sector": "",
+   "date": "2025-03-18",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Cadence Design Systems",
+   "use": "Cadence JedAI (Joint Enterprise Data and AI) Platform, the cross-Cadence big-data/generative-AI analytics foundation ('EDA 2.0') that unifies RTL, layout, constraints and verification data so AI models can be trained and reused to accelerate AI-driven chip design. [Cadence (JedAI Platform), generative AI]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.microwavejournal.com/articles/38857-new-cadence-joint-enterprise-data-and-ai-platform-dramatically-accelerates-ai-driven-chip-design-development",
+   "raw_sector": "",
+   "date": "2022-09-14",
+   "fresh": "stale"
   }
  ]
 }

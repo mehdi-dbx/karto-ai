@@ -3,26 +3,26 @@
  "name": "Glencore",
  "cc": "UK",
  "vertical": "Mining & Materials",
- "deployments": 1,
- "confirmed": 0,
+ "deployments": 3,
+ "confirmed": 1,
  "with_value_number": 0,
  "proof_rate": 0.0,
  "mktcap": 80073500000.0,
  "revenue": 233578400000.0,
  "employees": 80423.0,
  "silent": false,
- "per_bn_revenue": 0.0,
- "per_10k_emp": 0.12,
+ "per_bn_revenue": 0.01,
+ "per_10k_emp": 0.37,
  "benchmarks": {
   "global_vertical": {
-   "deployments": 0,
-   "confirmed": 0,
+   "deployments": 21,
+   "confirmed": 16,
    "proof_rate": 0,
-   "n": 61
+   "n": 62
   },
   "country_vertical": {
-   "deployments": 0,
-   "confirmed": 0,
+   "deployments": 40,
+   "confirmed": 40,
    "proof_rate": 0,
    "n": 6
   }
@@ -31,13 +31,15 @@
  "by_year": [],
  "undated_pct": 100,
  "momentum": "none",
- "maturity": "L1",
+ "maturity": "L3",
  "maturity_evidence": [
-  "rows_no_confirmed"
+  "named_product:Sales"
  ],
- "prospect_score": 40,
- "stack": [],
- "vendor_named": false,
+ "prospect_score": 46,
+ "stack": [
+  "Microsoft"
+ ],
+ "vendor_named": true,
  "deployments_detail": [
   {
    "company": "Glencore",
@@ -52,6 +54,17 @@
   },
   {
    "company": "Glencore",
+   "use": "AI-driven mining operations optimization and advisory intelligence [Jeevn AI]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://farmonaut.com/mining/glencore-copper-csa-mine-5-powerful-innovations-for-2025",
+   "raw_sector": "",
+   "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "Glencore",
    "use": "AI and machine learning integrated into drilling/deep mining operations and AI-driven advanced process control for flotation (Jameson Cell)",
    "existence": "claimed",
    "value": "none",
@@ -60,6 +73,39 @@
    "raw_sector": "Mining",
    "date": "2026",
    "fresh": "fresh"
+  },
+  {
+   "company": "Glencore",
+   "use": "AI deployment in mining operations",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.glencore.com/.rest/api/v1/documents/static/d1a49c6b-9771-4bf1-9090-7c136aac8112/GLEN-2025-Preliminary-Results.pdf",
+   "raw_sector": "",
+   "date": "Dec 31, 2025",
+   "fresh": "undated"
+  },
+  {
+   "company": "Glencore",
+   "use": "Sales workflow orchestration and reporting efficiency [Microsoft Dynamics 365 Sales]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.microsoft.com/en/customers/story/1780679560278637758-glencore-technology-dynamics-365-sales-other-en-australia",
+   "raw_sector": "",
+   "date": "Jun 28, 2024",
+   "fresh": "undated"
+  },
+  {
+   "company": "Glencore",
+   "use": "Sales workflow orchestration with Dynamics 365 Sales [Microsoft Dynamics 365 Sales]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.microsoft.com/en/customers/story/1780679560278637758-glencore-technology-dynamics-365-sales-other-en-australia",
+   "raw_sector": "",
+   "date": "Jun 28, 2024",
+   "fresh": "undated"
   }
  ]
 }

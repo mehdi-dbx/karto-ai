@@ -3,27 +3,27 @@
  "name": "Hyundai AutoEver",
  "cc": "KR",
  "vertical": "Technology",
- "deployments": 1,
- "confirmed": 1,
+ "deployments": 8,
+ "confirmed": 6,
  "with_value_number": 1,
- "proof_rate": 1.0,
+ "proof_rate": 0.125,
  "mktcap": 8733333333.0,
  "revenue": 3148148148.0,
  "employees": 5706.0,
  "silent": false,
- "per_bn_revenue": 0.32,
- "per_10k_emp": 1.75,
+ "per_bn_revenue": 2.54,
+ "per_10k_emp": 14.02,
  "benchmarks": {
   "global_vertical": {
-   "deployments": 0,
-   "confirmed": 6,
-   "proof_rate": 80,
-   "n": 156
+   "deployments": 45,
+   "confirmed": 51,
+   "proof_rate": 41,
+   "n": 159
   },
   "country_vertical": {
-   "deployments": 0,
-   "confirmed": 22,
-   "proof_rate": 44,
+   "deployments": 33,
+   "confirmed": 56,
+   "proof_rate": 0,
    "n": 10
   }
  },
@@ -32,23 +32,95 @@
   {
    "year": 2024,
    "n": 1
+  },
+  {
+   "year": 2025,
+   "n": 4
   }
  ],
- "undated_pct": 0,
- "momentum": "early_mover,gone_quiet",
- "maturity": "L3",
+ "undated_pct": 38,
+ "momentum": "early_mover,rising",
+ "maturity": "L4",
  "maturity_evidence": [
+  "multi_horizontal",
   "named_product:Chat",
   "value_number",
+  "multi_year",
   "tier_p"
  ],
- "prospect_score": 6,
+ "prospect_score": 71,
  "stack": [
   "Microsoft Azure",
   "OpenAI"
  ],
  "vendor_named": true,
  "deployments_detail": [
+  {
+   "company": "Hyundai AutoEver",
+   "use": "3D Navigation and Voice Experience [Mapbox, MapGPT]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.prnewswire.com/news-releases/mapbox-and-hyundai-autoever-show-ai-driven-3d-navigation-and-voice-experience-at-ces-2025-302347053.html",
+   "raw_sector": "",
+   "date": "2025-01-09",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Hyundai AutoEver",
+   "use": "Deep Learning Platform for AI Research",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.hyundai-autoever.com/eng/business-area/core-technology/ai/contents.do?cntnSeq=379",
+   "raw_sector": "",
+   "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "Hyundai AutoEver",
+   "use": "Conversational AI Service for Enterprise",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.hyundaimotorgroup.com/en/story/CONT0000000000192886",
+   "raw_sector": "",
+   "date": "2025-11-12",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Hyundai AutoEver",
+   "use": "Autonomous Driving (Atria AI, Gleo AI)",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.hyundai.com/worldwide/en/newsroom/detail/0000001018",
+   "raw_sector": "",
+   "date": "2025-09-18",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Hyundai AutoEver",
+   "use": "Voice Assistant Integration (Alexa) [Amazon Alexa]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://aws.amazon.com/solutions/case-studies/hyundai-erp-case-study/",
+   "raw_sector": "",
+   "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "Hyundai AutoEver",
+   "use": "Operational Efficiency and Enterprise AI",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://metax.kr/en/article/ai-1065593925236730",
+   "raw_sector": "",
+   "date": "2025-02-13",
+   "fresh": "fresh"
+  },
   {
    "company": "Hyundai AutoEver",
    "use": "H Chat AI dev assistant (Azure OpenAI, Nov 2024, unit-test code gen); autonomous-driving AI SW platform; private LLMs; ISO/IEC 42001 certified",
@@ -59,6 +131,17 @@
    "raw_sector": "IT",
    "date": "2024-11",
    "fresh": "aging"
+  },
+  {
+   "company": "Hyundai AutoEver",
+   "use": "Customer Service Automation [Yellow.ai]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://yellow.ai/case-study/hyundai/",
+   "raw_sector": "",
+   "date": "missing",
+   "fresh": "undated"
   }
  ]
 }

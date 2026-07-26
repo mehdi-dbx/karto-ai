@@ -3,27 +3,27 @@
  "name": "Pluxee",
  "cc": "FR",
  "vertical": "Financial Services",
- "deployments": 1,
- "confirmed": 1,
- "with_value_number": 1,
- "proof_rate": 1.0,
+ "deployments": 5,
+ "confirmed": 4,
+ "with_value_number": 2,
+ "proof_rate": 0.4,
  "mktcap": 2041200000.0,
  "revenue": 1414800000.0,
  "employees": 5626.0,
  "silent": false,
- "per_bn_revenue": 0.71,
- "per_10k_emp": 1.78,
+ "per_bn_revenue": 3.53,
+ "per_10k_emp": 8.89,
  "benchmarks": {
   "global_vertical": {
-   "deployments": 0,
-   "confirmed": 17,
-   "proof_rate": 76,
-   "n": 377
+   "deployments": 31,
+   "confirmed": 39,
+   "proof_rate": 68,
+   "n": 388
   },
   "country_vertical": {
    "deployments": 0,
    "confirmed": 14,
-   "proof_rate": 71,
+   "proof_rate": 43,
    "n": 8
   }
  },
@@ -32,19 +32,34 @@
   {
    "year": 2024,
    "n": 1
+  },
+  {
+   "year": 2026,
+   "n": 1
   }
  ],
- "undated_pct": 0,
- "momentum": "early_mover,gone_quiet",
+ "undated_pct": 60,
+ "momentum": "early_mover,flat",
  "maturity": "L3",
  "maturity_evidence": [
   "named_product:Genesys",
   "value_number"
  ],
- "prospect_score": 14,
+ "prospect_score": 56,
  "stack": [],
  "vendor_named": false,
  "deployments_detail": [
+  {
+   "company": "Pluxee",
+   "use": "Employee benefits personalization and optimization using machine learning and predictive analytics",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.pluxee.in/blog/how-ai-is-transforming-employee-benefits-administration-in-india/",
+   "raw_sector": "",
+   "date": "2026-04-22",
+   "fresh": "fresh"
+  },
   {
    "company": "Pluxee",
    "use": "AI supporting sales agents and Genesys Cloud AI across 1500 advisors and 30 contact centers",
@@ -55,6 +70,39 @@
    "raw_sector": "Employee Benefits / Payments",
    "date": "2024",
    "fresh": "aging"
+  },
+  {
+   "company": "Pluxee",
+   "use": "AI-powered customer service chatbot",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.knowit.eu/cases/aI-based-chatbot-for-pluxee-polska/",
+   "raw_sector": "",
+   "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "Pluxee",
+   "use": "CX transformation with AI-powered tools across 30+ countries [Genesys]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.genesys.com/customer-stories/pluxee",
+   "raw_sector": "",
+   "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "Pluxee",
+   "use": "AI-powered customer service platform with 140% productivity uplift [Genesys Cloud]",
+   "existence": "confirmed",
+   "value": "140%",
+   "tier": "",
+   "url": "https://www.genesys.com/customer-stories/pluxee",
+   "raw_sector": "",
+   "date": "missing",
+   "fresh": "undated"
   }
  ]
 }

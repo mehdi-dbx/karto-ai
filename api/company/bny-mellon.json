@@ -3,43 +3,124 @@
  "name": "BNY Mellon",
  "cc": "US",
  "vertical": "Financial Services",
- "deployments": 1,
- "confirmed": 1,
- "with_value_number": 1,
- "proof_rate": 1.0,
+ "deployments": 13,
+ "confirmed": 12,
+ "with_value_number": 6,
+ "proof_rate": 0.462,
  "mktcap": 143850000.0,
  "revenue": 10390000.0,
  "employees": 2600.0,
  "silent": false,
- "per_bn_revenue": 96.25,
- "per_10k_emp": 3.85,
+ "per_bn_revenue": 1251.2,
+ "per_10k_emp": 50.0,
  "benchmarks": {
   "global_vertical": {
-   "deployments": 0,
-   "confirmed": 17,
+   "deployments": 87,
+   "confirmed": 90,
    "proof_rate": 76,
-   "n": 377
+   "n": 388
   },
   "country_vertical": {
-   "deployments": 0,
-   "confirmed": 19,
-   "proof_rate": 81,
-   "n": 76
+   "deployments": 82,
+   "confirmed": 91,
+   "proof_rate": 82,
+   "n": 77
   }
  },
- "first_seen": null,
- "by_year": [],
- "undated_pct": 100,
- "momentum": "none",
- "maturity": "L3",
- "maturity_evidence": [
-  "named_product:Eliza",
-  "value_number"
+ "first_seen": 2021,
+ "by_year": [
+  {
+   "year": 2021,
+   "n": 1
+  },
+  {
+   "year": 2023,
+   "n": 1
+  },
+  {
+   "year": 2024,
+   "n": 2
+  },
+  {
+   "year": 2025,
+   "n": 8
+  }
  ],
- "prospect_score": 14,
- "stack": [],
- "vendor_named": false,
+ "undated_pct": 8,
+ "momentum": "early_mover,rising",
+ "maturity": "L4",
+ "maturity_evidence": [
+  "multi_horizontal",
+  "named_product:Eliza",
+  "value_number",
+  "multi_year"
+ ],
+ "prospect_score": 82,
+ "stack": [
+  "Google",
+  "Google Cloud",
+  "Microsoft",
+  "Microsoft Azure",
+  "NVIDIA",
+  "OpenAI"
+ ],
+ "vendor_named": true,
  "deployments_detail": [
+  {
+   "company": "BNY Mellon",
+   "use": "Eliza — proprietary enterprise, model-agnostic multi-agent AI platform giving nearly all employees a marketplace of AI tools, approved datasets and agent-building; runs 125+ live AI use cases with 20,000+ employees actively building agents. [BNY (in-house); runs on NVIDIA chips, Microsoft Azure and Google Cloud]",
+   "existence": "confirmed",
+   "value": "125+ AI-enabled solutions in production; 20,000+ employees building agents; 96-99% employee adoption in 2025",
+   "tier": "",
+   "url": "https://www.bny.com/corporate/global/en/about-us/technology-innovation/artificial-intelligence.html",
+   "raw_sector": "",
+   "date": "2023-2025",
+   "fresh": "stale"
+  },
+  {
+   "company": "BNY Mellon",
+   "use": "AI Supercomputer powered by NVIDIA DGX SuperPOD with NVIDIA AI Enterprise software to accelerate processing capacity and build/deploy AI applications — first major bank to deploy such a system. [NVIDIA (DGX SuperPOD, AI Enterprise)]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://blogs.nvidia.com/blog/bny-mellon-superpod/",
+   "raw_sector": "",
+   "date": "2024-03-18",
+   "fresh": "aging"
+  },
+  {
+   "company": "BNY Mellon",
+   "use": "Predictive Trade Analytics / settlement-fails prediction — ML model developed with Google Cloud lets clients forecast ~40% of daily settlement failures in Fed-eligible U.S. Treasury securities with ~90% accuracy. [Google Cloud]",
+   "existence": "confirmed",
+   "value": "predicts ~40% of daily settlement failures with ~90% accuracy",
+   "tier": "",
+   "url": "https://www.bny.com/corporate/global/en/about-us/newsroom/company-news/bny-mellon-and-google-cloud-collaborate-to-help-transform-us-treasury-market-settlement-and-clearance-process.html",
+   "raw_sector": "",
+   "date": "2021-02-04",
+   "fresh": "stale"
+  },
+  {
+   "company": "BNY Mellon",
+   "use": "Multiyear OpenAI deal integrating ChatGPT Enterprise and OpenAI API into Eliza, giving employees access to frontier reasoning models for research, client engagement and complex problem-solving. [OpenAI (ChatGPT Enterprise, API)]",
+   "existence": "confirmed",
+   "value": "120+ AI use cases in production across legal, sales, operations, engineering and risk",
+   "tier": "",
+   "url": "https://www.americanbanker.com/news/bny-to-give-employees-advanced-version-of-openais-chatgpt",
+   "raw_sector": "",
+   "date": "2025-02-26",
+   "fresh": "fresh"
+  },
+  {
+   "company": "BNY Mellon",
+   "use": "Integration of Google Cloud's Gemini Enterprise (incl. Gemini 3) into the Eliza platform to expand agentic deep-research, letting employees build agents to process, synthesize and analyze extensive financial reports and market data. [Google Cloud (Gemini Enterprise)]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.googlecloudpresscorner.com/2025-12-08-BNY-Collaborates-with-Google-Cloud-to-Advance-its-Eliza-AI-Platform-with-Gemini-Enterprise",
+   "raw_sector": "",
+   "date": "2025-12-08",
+   "fresh": "fresh"
+  },
   {
    "company": "BNY Mellon",
    "use": "\"Eliza\" enterprise multi-agentic AI platform: 125+ AI solutions in production, 134 \"digital employees,\" 98% of staff trained on GenAI",
@@ -50,6 +131,83 @@
    "raw_sector": "Financials",
    "date": "missing",
    "fresh": "undated"
+  },
+  {
+   "company": "BNY Mellon",
+   "use": "Digital employees / AI agents — 100+ autonomous agents with distinct personas, logins, credentials and human supervisors, working side-by-side with staff on tasks like payment validations and code repairs. [BNY AI Hub / Eliza]",
+   "existence": "confirmed",
+   "value": "100+ digital employees deployed; 75% QoQ growth to 117 AI solutions in production (Q3 2025)",
+   "tier": "",
+   "url": "https://www.pymnts.com/news/artificial-intelligence/2025/bny-accelerates-deployment-of-ai-solutions-and-agents/",
+   "raw_sector": "",
+   "date": "2025-10-16",
+   "fresh": "fresh"
+  },
+  {
+   "company": "BNY Mellon",
+   "use": "AI-driven Contract Review Assistant that benchmarks negotiated agreements against corporate best practices and evolving regulatory requirements. [BNY / Eliza]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.bny.com/corporate/global/en/insights/unlocking-potential-enterprise-ai-platform-bny.html",
+   "raw_sector": "",
+   "date": "2025-10-20",
+   "fresh": "fresh"
+  },
+  {
+   "company": "BNY Mellon",
+   "use": "Digital-employee AI agent persona that identifies and fixes code vulnerabilities — writes patches autonomously and submits them to a human manager for approval; a second persona validates payment instructions. [BNY AI Hub / Eliza]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.hrgrapevine.com/us/content/article/2025-07-17-bny-mellon-gives-ai-staff-logins-human-managers",
+   "raw_sector": "",
+   "date": "2025-07-17",
+   "fresh": "fresh"
+  },
+  {
+   "company": "BNY Mellon",
+   "use": "Risk Insights Agent — uses OpenAI deep research to surface emerging risk signals across portfolios so analysts can act before issues escalate. [OpenAI]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://openai.com/index/bny/",
+   "raw_sector": "",
+   "date": "2025-12-12",
+   "fresh": "fresh"
+  },
+  {
+   "company": "BNY Mellon",
+   "use": "AI agents performing vulnerability management across the bank's systems, monitored by AI supervisors as agent usage scales. [BNY AI Hub / Eliza]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.bankingdive.com/news/ai-supervisor-role-growing-banks-bny-citi/805469/",
+   "raw_sector": "",
+   "date": "2025-11-14",
+   "fresh": "fresh"
+  },
+  {
+   "company": "BNY Mellon",
+   "use": "Fraud Hub — digitizes fraud-prevention capabilities using AI and advanced technologies within the transfer-agency/investor-solutions platform to speed response to fraud attempts. [BNY]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.bny.com/corporate/global/en/solutions/platforms/fund-investor-solutions/investor-solutions-transfer-agency-platform/fraud-hub.html",
+   "raw_sector": "",
+   "date": "2024",
+   "fresh": "aging"
+  },
+  {
+   "company": "BNY Mellon",
+   "use": "GitHub Copilot rolled out to software developers for AI-assisted coding; the bank reports 80% of its developers using GitHub Copilot daily. [Microsoft / GitHub Copilot]",
+   "existence": "confirmed",
+   "value": "80% of software developers using GitHub Copilot daily",
+   "tier": "",
+   "url": "https://cloudwars.com/ai/bny-details-use-cases-and-cultural-transformation-driving-ai-agent-copilot-success/",
+   "raw_sector": "",
+   "date": "2025-01-31",
+   "fresh": "fresh"
   }
  ]
 }

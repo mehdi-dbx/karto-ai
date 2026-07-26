@@ -3,47 +3,112 @@
  "name": "George Weston",
  "cc": "CA",
  "vertical": "Retail & E-commerce",
- "deployments": 1,
- "confirmed": 1,
- "with_value_number": 0,
- "proof_rate": 0.0,
+ "deployments": 11,
+ "confirmed": 9,
+ "with_value_number": 3,
+ "proof_rate": 0.273,
  "mktcap": 28669117647.0,
  "revenue": 47867647059.0,
  "employees": 220000.0,
  "silent": false,
- "per_bn_revenue": 0.02,
- "per_10k_emp": 0.05,
+ "per_bn_revenue": 0.23,
+ "per_10k_emp": 0.5,
  "benchmarks": {
   "global_vertical": {
-   "deployments": 0,
-   "confirmed": 24,
-   "proof_rate": 0,
-   "n": 295
+   "deployments": 80,
+   "confirmed": 81,
+   "proof_rate": 57,
+   "n": 301
   },
   "country_vertical": {
-   "deployments": 0,
-   "confirmed": 57,
-   "proof_rate": 0,
+   "deployments": 86,
+   "confirmed": 86,
+   "proof_rate": 57,
    "n": 8
   }
  },
- "first_seen": 2026,
+ "first_seen": 2019,
  "by_year": [
   {
-   "year": 2026,
+   "year": 2019,
    "n": 1
+  },
+  {
+   "year": 2024,
+   "n": 2
+  },
+  {
+   "year": 2025,
+   "n": 3
+  },
+  {
+   "year": 2026,
+   "n": 5
   }
  ],
  "undated_pct": 0,
- "momentum": "late_entrant,rising",
- "maturity": "L3",
+ "momentum": "early_mover,rising",
+ "maturity": "L4",
  "maturity_evidence": [
-  "named_product:Subsidiary"
+  "multi_horizontal",
+  "named_product:Subsidiary",
+  "value_number",
+  "multi_year"
  ],
- "prospect_score": 54,
- "stack": [],
- "vendor_named": false,
+ "prospect_score": 83,
+ "stack": [
+  "Google",
+  "Google Cloud",
+  "Microsoft",
+  "Microsoft Azure",
+  "OpenAI"
+ ],
+ "vendor_named": true,
  "deployments_detail": [
+  {
+   "company": "George Weston",
+   "use": "Machine-learning demand forecasting / demand planning to improve forecast accuracy and product availability across Loblaw's food and pharmacy supply chain, after a decade of maturing its in-house forecasting. [Blue Yonder]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://blueyonder.com/resources/loblaw-supercharges-forecasting-with-blue-yonder-demand-planning",
+   "raw_sector": "",
+   "date": "2024-01-01",
+   "fresh": "aging"
+  },
+  {
+   "company": "George Weston",
+   "use": "In-house LLM-based customer profiling combining behavioral and transactional data to build rich dietary/lifestyle profiles, plus agentic 'merch agents' that connect customer profiles to SKUs and store inventory for personalized merchandising. Built in-house on composable infrastructure by a ~10-person team. [In-house]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://omnitalk.blog/2025/10/02/loblaws-lauren-steinberg-on-ai-powered-personalization-retail-media-evolution-and-100-years-of-grocery-in-her-blood/",
+   "raw_sector": "",
+   "date": "2025-10-02",
+   "fresh": "fresh"
+  },
+  {
+   "company": "George Weston",
+   "use": "Pharmacy workflow automation and intelligent assistant systems for Shoppers Drug Mart / Loblaw Pharmacy staff, processing healthcare data within Loblaw's controlled infrastructure, running on the Shakudo AI platform. [Shakudo]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.shakudo.io/customers/loblaw-digital",
+   "raw_sector": "",
+   "date": "2026-05-04",
+   "fresh": "fresh"
+  },
+  {
+   "company": "George Weston",
+   "use": "Autonomous middle-mile delivery trucks moving groceries from regional distribution centers to 300+ stores across the Greater Toronto Area; deploying 50 autonomous trucks (20 by end of 2025, 30 by end of 2026) under a five-year agreement, including Canada's first fully driverless commercial runs. [Gatik]",
+   "existence": "confirmed",
+   "value": "50 autonomous trucks; ~$50M CAD contract; 150,000+ autonomous deliveries since Jan 2020 with 100% safety record",
+   "tier": "",
+   "url": "https://www.forbes.com/sites/richardbishop1/2025/09/23/gatik-and-loblaw-announce-largest-commercial-deployment-of-av-trucks/",
+   "raw_sector": "",
+   "date": "2025-09-23",
+   "fresh": "fresh"
+  },
   {
    "company": "George Weston",
    "use": "Subsidiary Loblaw enables AI shopping via PC Express app in ChatGPT and Google Gemini/AI Mode for product discovery",
@@ -53,6 +118,72 @@
    "url": "https://toronto.citynews.ca/2026/02/19/loblaw-partners-with-google-to-allow-customers-to-shop-through-ai-mode-and-gemini/",
    "raw_sector": "Consumer Staples",
    "date": "2026-02",
+   "fresh": "fresh"
+  },
+  {
+   "company": "George Weston",
+   "use": "PC Express grocery shopping app integrated into OpenAI's ChatGPT: shoppers ask ChatGPT for meal/recipe ideas, curate an ingredient list, enter a postal code to find the nearest Loblaw banner, and check out via PC Express. Launched by subsidiary Loblaw Companies. [OpenAI (ChatGPT / Apps)]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://canadiangrocer.com/loblaw-and-openai-partner-integrate-pc-express-chatgpt",
+   "raw_sector": "",
+   "date": "2026-02-12",
+   "fresh": "fresh"
+  },
+  {
+   "company": "George Weston",
+   "use": "AI-driven digital commerce with Google: making Loblaw products purchasable directly through Google Search AI Mode and the Gemini app (first large Canadian retailer to do so), built on Google Cloud Vertex AI to scale across merchandising, supply chain and store operations. [Google (Gemini, AI Mode, Vertex AI)]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.globenewswire.com/news-release/2026/02/19/3240959/0/en/loblaw-accelerates-the-adoption-of-ai-driven-digital-commerce-in-canada-with-google-collaboration.html",
+   "raw_sector": "",
+   "date": "2026-02-19",
+   "fresh": "fresh"
+  },
+  {
+   "company": "George Weston",
+   "use": "PC Optimum loyalty program personalization: Microsoft AI/ML on Azure used to unify siloed, anonymized customer data and match members with customized deals and offers at scale. [Microsoft (Azure AI/ML)]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://news.microsoft.com/en-ca/2019/06/11/loblaw-uses-microsoft-ai-to-break-down-silos-and-unlock-new-insights-in-the-digital-age/",
+   "raw_sector": "",
+   "date": "2019-06-11",
+   "fresh": "stale"
+  },
+  {
+   "company": "George Weston",
+   "use": "Generative-AI marketing content and homepage personalization: used Jasper for marketing copy and DALL-E for images to produce thousands of personalized homepage variations, now run year-round as a personalization engine. [Jasper; OpenAI DALL-E]",
+   "existence": "confirmed",
+   "value": "Shoppers spending '$3 more per order'",
+   "tier": "",
+   "url": "https://thelogic.co/news/all-in-conference-montreal-loblaw-executive/",
+   "raw_sector": "",
+   "date": "2024-09-12",
+   "fresh": "aging"
+  },
+  {
+   "company": "George Weston",
+   "use": "Semantic, conversational AI search on the online grocery storefront to help shoppers find products and add to cart. [In-house]",
+   "existence": "confirmed",
+   "value": "45% of add-to-carts happen through search on online grocery",
+   "tier": "",
+   "url": "https://omnitalk.blog/2025/10/02/loblaws-lauren-steinberg-on-ai-powered-personalization-retail-media-evolution-and-100-years-of-grocery-in-her-blood/",
+   "raw_sector": "",
+   "date": "2025-10-02",
+   "fresh": "fresh"
+  },
+  {
+   "company": "George Weston",
+   "use": "Enterprise AI operating-system platform to standardize, build, deploy and scale AI/ML and data infrastructure across Loblaw's Digital and Technology & Analytics teams, with data kept inside Loblaw's own infrastructure (data sovereignty). [Shakudo]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.theglobeandmail.com/business/article-loblaw-partners-with-shakudo/",
+   "raw_sector": "",
+   "date": "2026-05-04",
    "fresh": "fresh"
   }
  ]

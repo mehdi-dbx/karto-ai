@@ -3,28 +3,28 @@
  "name": "FactSet",
  "cc": "US",
  "vertical": "Financial Services",
- "deployments": 1,
- "confirmed": 1,
+ "deployments": 6,
+ "confirmed": 5,
  "with_value_number": 0,
  "proof_rate": 0.0,
  "mktcap": 8640000000.0,
  "revenue": 2440000000.0,
  "employees": 12800.0,
  "silent": false,
- "per_bn_revenue": 0.41,
- "per_10k_emp": 0.78,
+ "per_bn_revenue": 2.46,
+ "per_10k_emp": 4.69,
  "benchmarks": {
   "global_vertical": {
-   "deployments": 0,
-   "confirmed": 17,
+   "deployments": 44,
+   "confirmed": 46,
    "proof_rate": 0,
-   "n": 377
+   "n": 388
   },
   "country_vertical": {
-   "deployments": 0,
-   "confirmed": 19,
+   "deployments": 41,
+   "confirmed": 41,
    "proof_rate": 0,
-   "n": 76
+   "n": 77
   }
  },
  "first_seen": null,
@@ -33,12 +33,15 @@
  "momentum": "none",
  "maturity": "L3",
  "maturity_evidence": [
+  "multi_horizontal",
   "named_product:FactSet Mercury",
   "tier_p"
  ],
- "prospect_score": 54,
- "stack": [],
- "vendor_named": false,
+ "prospect_score": 70,
+ "stack": [
+  "Google Cloud"
+ ],
+ "vendor_named": true,
  "deployments_detail": [
   {
    "company": "FactSet",
@@ -49,6 +52,61 @@
    "url": "https://www.factset.com/ai",
    "raw_sector": "Financials",
    "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "FactSet",
+   "use": "AI-powered financial data automation and analytics",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.factset.com/ai",
+   "raw_sector": "",
+   "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "FactSet",
+   "use": "Generative AI for data extraction, natural language understanding, search, chat, text generation, and text summarization",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.factset.com/ai-solutions",
+   "raw_sector": "",
+   "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "FactSet",
+   "use": "Generative and agentic AI products for natural language prompt responses",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.factset.com/GenAI-Governance-and-Security",
+   "raw_sector": "",
+   "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "FactSet",
+   "use": "Strategic partnership with Google Cloud for agentic AI capabilities and financial intelligence [Google Cloud]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.googlecloudpresscorner.com/2026-06-30-FactSet-Announces-Strategic-Partnership-with-Google-Cloud-to-Bring-Advanced-AI-to-Financial-Intelligence",
+   "raw_sector": "",
+   "date": "Jun 30, 2026",
+   "fresh": "undated"
+  },
+  {
+   "company": "FactSet",
+   "use": "Advanced AI for financial crime risk management, AML checks, risk detection, and compliance",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://investor.factset.com/news-releases/news-release-details/factset-integrates-advanced-ai-financial-crime-risk-management",
+   "raw_sector": "",
+   "date": "Mar 3, 2026",
    "fresh": "undated"
   }
  ]

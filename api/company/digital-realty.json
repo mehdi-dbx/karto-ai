@@ -3,42 +3,54 @@
  "name": "Digital Realty",
  "cc": "US",
  "vertical": "Real Estate & Construction",
- "deployments": 1,
- "confirmed": 1,
+ "deployments": 4,
+ "confirmed": 4,
  "with_value_number": 0,
  "proof_rate": 0.0,
  "mktcap": 67850000000.0,
  "revenue": 6310000000.0,
  "employees": 4282.0,
  "silent": false,
- "per_bn_revenue": 0.16,
- "per_10k_emp": 2.34,
+ "per_bn_revenue": 0.63,
+ "per_10k_emp": 9.34,
  "benchmarks": {
   "global_vertical": {
-   "deployments": 0,
-   "confirmed": 31,
+   "deployments": 50,
+   "confirmed": 64,
    "proof_rate": 0,
    "n": 154
   },
   "country_vertical": {
-   "deployments": 0,
-   "confirmed": 50,
+   "deployments": 43,
+   "confirmed": 57,
    "proof_rate": 0,
    "n": 31
   }
  },
- "first_seen": null,
- "by_year": [],
- "undated_pct": 100,
- "momentum": "none",
- "maturity": "L3",
+ "first_seen": 2025,
+ "by_year": [
+  {
+   "year": 2025,
+   "n": 2
+  },
+  {
+   "year": 2026,
+   "n": 1
+  }
+ ],
+ "undated_pct": 25,
+ "momentum": "rising",
+ "maturity": "L4",
  "maturity_evidence": [
   "named_product:Innovation",
+  "multi_year",
   "tier_p"
  ],
- "prospect_score": 54,
- "stack": [],
- "vendor_named": false,
+ "prospect_score": 64,
+ "stack": [
+  "NVIDIA"
+ ],
+ "vendor_named": true,
  "deployments_detail": [
   {
    "company": "Digital Realty",
@@ -50,6 +62,39 @@
    "raw_sector": "Real Estate",
    "date": "missing",
    "fresh": "undated"
+  },
+  {
+   "company": "Digital Realty",
+   "use": "NVIDIA AI Factory Research Center and NVIDIA DSX Blueprint support [NVIDIA]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://investor.digitalrealty.com/news-releases/news-release-details/digital-realty-advances-ai-infrastructure-innovation-supporting",
+   "raw_sector": "",
+   "date": "2025-11-03",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Digital Realty",
+   "use": "Innovation Lab for AI and Hybrid Cloud Implementation",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.digitalrealty.com/about/newsroom/press-releases/123343/digital-realty-launches-innovation-lab-to-accelerate-ai-and-hybrid-cloud-implementation",
+   "raw_sector": "",
+   "date": "2025-09-10",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Digital Realty",
+   "use": "ServiceFabric® MCP AI-native programmable control platform",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.digitalrealty.com/about/newsroom/press-releases/30386/digital-realty-launches-servicefabric-mcp-bringing-ai-native-programmable-control-to-800-data-centers",
+   "raw_sector": "",
+   "date": "2026-06-17",
+   "fresh": "fresh"
   }
  ]
 }

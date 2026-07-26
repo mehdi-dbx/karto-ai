@@ -3,35 +3,37 @@
  "name": "Caixa Seguridade",
  "cc": "BR",
  "vertical": "Insurance",
- "deployments": 1,
- "confirmed": 0,
+ "deployments": 2,
+ "confirmed": 1,
  "with_value_number": 0,
  "proof_rate": 0.0,
  "mktcap": 12455555556.0,
  "revenue": 1083333333.0,
  "employees": 141.0,
  "silent": false,
- "per_bn_revenue": 0.92,
- "per_10k_emp": 70.92,
+ "per_bn_revenue": 1.85,
+ "per_10k_emp": 141.84,
  "benchmarks": {
   "global_vertical": {
-   "deployments": 0,
-   "confirmed": 0,
+   "deployments": 3,
+   "confirmed": 2,
    "proof_rate": 0,
-   "n": 60
+   "n": 63
   }
  },
  "first_seen": null,
  "by_year": [],
  "undated_pct": 100,
  "momentum": "none",
- "maturity": "L1",
+ "maturity": "L3",
  "maturity_evidence": [
-  "rows_no_confirmed"
+  "named_product:Employee"
  ],
- "prospect_score": 40,
- "stack": [],
- "vendor_named": false,
+ "prospect_score": 46,
+ "stack": [
+  "Microsoft"
+ ],
+ "vendor_named": true,
  "deployments_detail": [
   {
    "company": "Caixa Seguridade",
@@ -42,6 +44,17 @@
    "url": "https://ativovirtual.com.br",
    "raw_sector": "Insurance",
    "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "Caixa Seguridade",
+   "use": "Employee productivity and assistance using Copilot Chat generative AI integrated into Microsoft Teams [Microsoft Copilot]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://filemanager-cdn.mziq.com/published/fb86b0b8-b4e9-407b-a575-ba3668a566a9/fb30543b-6c86-496d-86c7-0d8011469441_book_caixa_eng.pdf",
+   "raw_sector": "",
+   "date": "Feb 2, 2025",
    "fresh": "undated"
   }
  ]

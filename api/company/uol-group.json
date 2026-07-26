@@ -3,22 +3,22 @@
  "name": "UOL Group",
  "cc": "SG",
  "vertical": "Travel & Hospitality",
- "deployments": 1,
- "confirmed": 0,
- "with_value_number": 0,
- "proof_rate": 0.0,
+ "deployments": 4,
+ "confirmed": 2,
+ "with_value_number": 1,
+ "proof_rate": 0.25,
  "mktcap": 6149253731.0,
  "revenue": 2410447761.0,
  "employees": 1900.0,
  "silent": false,
- "per_bn_revenue": 0.41,
- "per_10k_emp": 5.26,
+ "per_bn_revenue": 1.66,
+ "per_10k_emp": 21.05,
  "benchmarks": {
   "global_vertical": {
-   "deployments": 0,
-   "confirmed": 0,
-   "proof_rate": 0,
-   "n": 39
+   "deployments": 45,
+   "confirmed": 28,
+   "proof_rate": 60,
+   "n": 41
   }
  },
  "first_seen": 2024,
@@ -28,16 +28,30 @@
    "n": 1
   }
  ],
- "undated_pct": 0,
+ "undated_pct": 75,
  "momentum": "early_mover,gone_quiet",
- "maturity": "L1",
+ "maturity": "L3",
  "maturity_evidence": [
-  "rows_no_confirmed"
+  "named_product:Security",
+  "value_number"
  ],
- "prospect_score": 40,
- "stack": [],
- "vendor_named": false,
+ "prospect_score": 42,
+ "stack": [
+  "Amazon AWS"
+ ],
+ "vendor_named": true,
  "deployments_detail": [
+  {
+   "company": "UOL Group",
+   "use": "Agentic AI solutions suite [AWS]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://blog.compass.uol/pt/noticias?titulo=air-company-subsidiary-compass-uol-launches-suite-of-agentic-ai-solutions-in-the-new-aws-marketplace-ai-agents-and-tools-category",
+   "raw_sector": "",
+   "date": "missing",
+   "fresh": "undated"
+  },
   {
    "company": "UOL Group",
    "use": "Myma.ai generative AI concierge chatbot rolled out across Pan Pacific Hotels Group (UOL hotel arm) portfolio of 50+ hotels for guest inquiries and service requests",
@@ -48,6 +62,28 @@
    "raw_sector": "Real Estate",
    "date": "2024",
    "fresh": "aging"
+  },
+  {
+   "company": "UOL Group",
+   "use": "Security and observability with AI for threat detection and incident response [Elastic]",
+   "existence": "confirmed",
+   "value": "80% resolution time reduction, 50% false positive reduction",
+   "tier": "",
+   "url": "https://www.elastic.co/customers/uol",
+   "raw_sector": "",
+   "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "UOL Group",
+   "use": "AI fraud detection [AWS (Apache Flink, Amazon SageMaker)]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://go.compass.uol/ai-fraud-detection-en",
+   "raw_sector": "",
+   "date": "missing",
+   "fresh": "undated"
   }
  ]
 }

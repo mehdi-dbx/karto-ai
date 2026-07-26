@@ -3,26 +3,26 @@
  "name": "M&G",
  "cc": "UK",
  "vertical": "Financial Services",
- "deployments": 1,
- "confirmed": 1,
+ "deployments": 6,
+ "confirmed": 6,
  "with_value_number": 0,
  "proof_rate": 0.0,
  "mktcap": 10706100000.0,
  "revenue": 9321800000.0,
  "employees": 6455.0,
  "silent": false,
- "per_bn_revenue": 0.11,
- "per_10k_emp": 1.55,
+ "per_bn_revenue": 0.64,
+ "per_10k_emp": 9.3,
  "benchmarks": {
   "global_vertical": {
-   "deployments": 0,
-   "confirmed": 17,
+   "deployments": 44,
+   "confirmed": 55,
    "proof_rate": 0,
-   "n": 377
+   "n": 388
   },
   "country_vertical": {
-   "deployments": 0,
-   "confirmed": 36,
+   "deployments": 64,
+   "confirmed": 73,
    "proof_rate": 0,
    "n": 23
   }
@@ -33,13 +33,49 @@
  "momentum": "none",
  "maturity": "L3",
  "maturity_evidence": [
+  "multi_horizontal",
   "named_product:Global",
   "tier_p"
  ],
- "prospect_score": 54,
- "stack": [],
- "vendor_named": false,
+ "prospect_score": 76,
+ "stack": [
+  "Microsoft"
+ ],
+ "vendor_named": true,
  "deployments_detail": [
+  {
+   "company": "M&G",
+   "use": "Employee productivity and cost efficiency through AI-powered workplace tools [Microsoft 365 Copilot]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.microsoft.com/en/customers/story/23651-m-and-g-microsoft-365-copilot",
+   "raw_sector": "",
+   "date": "Jun 19, 2025",
+   "fresh": "undated"
+  },
+  {
+   "company": "M&G",
+   "use": "Operations optimization",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://group.mandg.com/site-services/ai-usage",
+   "raw_sector": "",
+   "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "M&G",
+   "use": "Investment research support",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://group.mandg.com/site-services/ai-usage",
+   "raw_sector": "",
+   "date": "missing",
+   "fresh": "undated"
+  },
   {
    "company": "M&G",
    "use": "Global AI Themes Fund (invests in AI cos); partnership with Level E Research to develop AI investment strategies",
@@ -48,6 +84,28 @@
    "tier": "P",
    "url": "https://www.ftadviser.com/content/a3f41ec0-e8df-5604-a741-bb04f4a3c27f",
    "raw_sector": "Financial services",
+   "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "M&G",
+   "use": "Customer support automation",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://group.mandg.com/site-services/ai-usage",
+   "raw_sector": "",
+   "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "M&G",
+   "use": "Fraud detection",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://group.mandg.com/site-services/ai-usage",
+   "raw_sector": "",
    "date": "missing",
    "fresh": "undated"
   }

@@ -3,27 +3,27 @@
  "name": "Marriott International",
  "cc": "US",
  "vertical": "Retail & E-commerce",
- "deployments": 1,
- "confirmed": 1,
- "with_value_number": 0,
- "proof_rate": 0.0,
+ "deployments": 17,
+ "confirmed": 11,
+ "with_value_number": 2,
+ "proof_rate": 0.118,
  "mktcap": 95640000000.0,
  "revenue": 7180000000.0,
  "employees": 414000.0,
  "silent": false,
- "per_bn_revenue": 0.14,
- "per_10k_emp": 0.02,
+ "per_bn_revenue": 2.37,
+ "per_10k_emp": 0.41,
  "benchmarks": {
   "global_vertical": {
-   "deployments": 0,
-   "confirmed": 24,
-   "proof_rate": 0,
-   "n": 295
+   "deployments": 95,
+   "confirmed": 89,
+   "proof_rate": 38,
+   "n": 301
   },
   "country_vertical": {
-   "deployments": 0,
-   "confirmed": 25,
-   "proof_rate": 0,
+   "deployments": 87,
+   "confirmed": 78,
+   "proof_rate": 32,
    "n": 80
   }
  },
@@ -34,17 +34,49 @@
    "n": 1
   }
  ],
- "undated_pct": 0,
+ "undated_pct": 94,
  "momentum": "early_mover,gone_quiet",
  "maturity": "L3",
  "maturity_evidence": [
+  "multi_horizontal",
   "named_product:RENAI",
+  "value_number",
   "tier_p"
  ],
- "prospect_score": 54,
- "stack": [],
- "vendor_named": false,
+ "prospect_score": 95,
+ "stack": [
+  "Amazon AWS",
+  "Cohere",
+  "Databricks",
+  "Google",
+  "Microsoft",
+  "OpenAI",
+  "Palantir"
+ ],
+ "vendor_named": true,
  "deployments_detail": [
+  {
+   "company": "Marriott International",
+   "use": "RENAI by Renaissance - AI-powered virtual concierge that fuses associate ('Navigator') insights with data from ChatGPT and other sources to give guests personalized local recommendations. Pilot at Renaissance Hotels. [OpenAI ChatGPT]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://news.marriott.com/news/2023/12/06/meet-renai-by-renaissance-the-pilot-program-for-renaissance-hotels-new-ai-powered-virtual-concierge-service",
+   "raw_sector": "",
+   "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "Marriott International",
+   "use": "Generative-AI 'coach' tool for contact-center / customer-service agents to assist and improve guest support interactions. [none]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.ciodive.com/news/marriott-international-AI-strategy-agentic-cloud-cybersecurity/758922/",
+   "raw_sector": "",
+   "date": "missing",
+   "fresh": "undated"
+  },
   {
    "company": "Marriott International",
    "use": "\"RENAI\" AI-powered virtual concierge (Renaissance Hotels) + GenAI search for personalized recommendations",
@@ -55,6 +87,160 @@
    "raw_sector": "Consumer Discretionary",
    "date": "2023",
    "fresh": "stale"
+  },
+  {
+   "company": "Marriott International",
+   "use": "Ask Bonvoy - conversational, natural-language AI search/trip-planning experience for Marriott.com and the Bonvoy mobile app, built on Marriott's proprietary 'horizontal' AI architecture chassis; grounds responses in Marriott-owned verified property data. Launched in beta June 2026 and rolling out to 283M Bonvoy members. [Marriott proprietary AI architecture (model-agnostic chassis)]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://news.marriott.com/news/2026/06/16/marriott-international-introduces-ask-bonvoy-a-new-ai-powered-search-experience-transforming-travel-exploration",
+   "raw_sector": "",
+   "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "Marriott International",
+   "use": "Named as a Microsoft Copilot customer/case study [Microsoft Copilot] [Microsoft Copilot]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.appsruntheworld.com/customers-database/products/view/microsoft-365-copilot",
+   "raw_sector": "",
+   "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "Marriott International",
+   "use": "Named as a Amazon Bedrock customer/case study [Amazon Bedrock] [Amazon Bedrock]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.appsruntheworld.com/customers-database/products/view/amazon-bedrock",
+   "raw_sector": "",
+   "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "Marriott International",
+   "use": "Named as a Google Gemini / Vertex AI customer/case study [Google Gemini / Vertex AI] [Google Gemini / Vertex AI]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.appsruntheworld.com/customers-database/products/view/google-cloud-vertex-ai",
+   "raw_sector": "",
+   "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "Marriott International",
+   "use": "Named as a Databricks customer/case study [Databricks] [Databricks]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.appsruntheworld.com/customers-database/products/view/microsoft-azure-databricks-ai",
+   "raw_sector": "",
+   "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "Marriott International",
+   "use": "Named as a Palantir customer/case study [Palantir] [Palantir]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.appsruntheworld.com/customers-database/products/view/palantir-aip-platform",
+   "raw_sector": "",
+   "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "Marriott International",
+   "use": "Named as a Cohere customer/case study [Cohere] [Cohere]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.appsruntheworld.com/customers-database/products/view/cohere-ai",
+   "raw_sector": "",
+   "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "Marriott International",
+   "use": "In-house AI tool that automates hotel room assignments and elite upgrades at the front desk, weighing arrivals, preferences, occupancy, length of stay and loyalty status in seconds; includes human override. Refined through pilots and being deployed across hotels. [Marriott in-house AI lab]",
+   "existence": "confirmed",
+   "value": "assigns ~1.2 million rooms near-instantly, replacing hours of manual work",
+   "tier": "",
+   "url": "https://skift.com/2025/06/04/marriott-is-deploying-a-front-desk-ai-tool-it-took-time-to-get-it-right/",
+   "raw_sector": "",
+   "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "Marriott International",
+   "use": "Microsoft 365 Copilot for employee productivity (meeting summaries, transcriptions); piloted with ~100 associates and rolling out to thousands. [Microsoft 365 Copilot]",
+   "existence": "confirmed",
+   "value": "piloted with ~100 associates, rolling out to thousands",
+   "tier": "",
+   "url": "https://www.ciodive.com/news/marriott-international-AI-strategy-agentic-cloud-cybersecurity/758922/",
+   "raw_sector": "",
+   "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "Marriott International",
+   "use": "Generative-AI natural-language search for Homes & Villas by Marriott Bonvoy vacation-rental product; travelers describe an ideal trip and are matched across 140,000+ homes. Launched on website then mobile. [Publicis Sapient]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.prnewswire.com/news-releases/homes--villas-by-marriott-bonvoy-makes-finding-a-vacation-home-easy-with-generative-ai-302095510.html",
+   "raw_sector": "",
+   "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "Marriott International",
+   "use": "Generative AI used to create website/SEO content to boost organic search traffic. [none]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.ciodive.com/news/marriott-international-AI-strategy-agentic-cloud-cybersecurity/758922/",
+   "raw_sector": "",
+   "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "Marriott International",
+   "use": "Integration with Google's AI Mode travel product to let travelers search and book Marriott properties directly inside Google's AI interface via natural language; design work began November 2025, in development toward in-AI booking. [Google (AI Mode / Gemini)]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://skift.com/2026/02/11/marriott-google-agentic-travel-booking/",
+   "raw_sector": "",
+   "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "Marriott International",
+   "use": "Participation in OpenAI's ChatGPT advertising pilot (US), surfacing Marriott hotel placements within ChatGPT to drive direct bookings. [OpenAI (ChatGPT)]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://skift.com/2026/06/16/marriott-begins-rollout-of-ai-trip-planner-on-site-and-app/",
+   "raw_sector": "",
+   "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "Marriott International",
+   "use": "'AI-magining Travel with Google Gemini' marketing collaboration inviting content creators (e.g., 20 Indonesian creators) to reimagine travel content using Google Gemini for Marriott Bonvoy campaigns. [Google Gemini]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.linkedin.com/posts/johnctoomey_indonesian-ai-aimaginingtravel-activity-7348998185593262081-R744",
+   "raw_sector": "",
+   "date": "missing",
+   "fresh": "undated"
   }
  ]
 }

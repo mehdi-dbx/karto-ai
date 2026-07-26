@@ -3,43 +3,100 @@
  "name": "Microchip Technology",
  "cc": "US",
  "vertical": "Technology",
- "deployments": 1,
- "confirmed": 1,
- "with_value_number": 0,
- "proof_rate": 0.0,
+ "deployments": 9,
+ "confirmed": 8,
+ "with_value_number": 2,
+ "proof_rate": 0.222,
  "mktcap": 43990000000.0,
  "revenue": 4710000000.0,
  "employees": 17900.0,
  "silent": false,
- "per_bn_revenue": 0.21,
- "per_10k_emp": 0.56,
+ "per_bn_revenue": 1.91,
+ "per_10k_emp": 5.03,
  "benchmarks": {
   "global_vertical": {
-   "deployments": 0,
-   "confirmed": 6,
-   "proof_rate": 0,
-   "n": 156
+   "deployments": 49,
+   "confirmed": 63,
+   "proof_rate": 56,
+   "n": 159
   },
   "country_vertical": {
-   "deployments": 0,
-   "confirmed": 4,
-   "proof_rate": 0,
+   "deployments": 42,
+   "confirmed": 58,
+   "proof_rate": 66,
    "n": 74
   }
  },
- "first_seen": null,
- "by_year": [],
- "undated_pct": 100,
- "momentum": "none",
- "maturity": "L3",
+ "first_seen": 2020,
+ "by_year": [
+  {
+   "year": 2020,
+   "n": 1
+  },
+  {
+   "year": 2021,
+   "n": 1
+  },
+  {
+   "year": 2023,
+   "n": 1
+  },
+  {
+   "year": 2025,
+   "n": 3
+  },
+  {
+   "year": 2026,
+   "n": 2
+  }
+ ],
+ "undated_pct": 11,
+ "momentum": "early_mover,rising",
+ "maturity": "L4",
  "maturity_evidence": [
+  "multi_horizontal",
   "named_product:End",
+  "value_number",
+  "multi_year",
   "tier_p"
  ],
- "prospect_score": 54,
+ "prospect_score": 79,
  "stack": [],
- "vendor_named": false,
+ "vendor_named": true,
  "deployments_detail": [
+  {
+   "company": "Microchip Technology",
+   "use": "Microchip ChatBot on microchipdirect.com storefront/contact pages: an AI chatbot (labeled BETA) that assists customers with Microchip products, orders, part details, and technical inquiries. Live and deployed on the customer-facing site. [none]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.microchipdirect.com/contact",
+   "raw_sector": "",
+   "date": "2025-02-19",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Microchip Technology",
+   "use": "MPLAB AI Coding Assistant: a VS Code extension that generates context-aware embedded C code, does inline error detection/debug, and vectorizes Microchip datasheets for in-IDE retrieval. Built on the open-source Continue extension and preconfigured with Microchip's proprietary LLM, continuously retrained on Microchip docs. Launched Feb 2025, free download with paid advanced tiers; AI agents added Sep 2025. [Continue (open source) + Microchip proprietary LLM]",
+   "existence": "confirmed",
+   "value": "customers report ~40% programming productivity improvement (2025)",
+   "tier": "",
+   "url": "https://www.eetimes.com/microchip-unveils-free-ai-powered-coding-assistant-for-mplab/",
+   "raw_sector": "",
+   "date": "2025-02-19",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Microchip Technology",
+   "use": "Internal use of the MPLAB AI Coding Assistant behind Microchip's firewall by its own engineers and by support engineers helping customers, run for over a year before public launch to validate measurable productivity gains. [Continue + Microchip proprietary LLM]",
+   "existence": "confirmed",
+   "value": "up to 40% productivity improvement (customer-reported 2025)",
+   "tier": "",
+   "url": "https://www.fool.com/earnings/call-transcripts/2025/08/08/microchip-technology-mchp-q1-2026-earnings-call-transcript/",
+   "raw_sector": "",
+   "date": "2025-08-08",
+   "fresh": "fresh"
+  },
   {
    "company": "Microchip Technology",
    "use": "End-to-end edge AI/ML platforms for microcontrollers/MPUs/FPGAs (vision, audio, predictive maintenance)",
@@ -50,6 +107,61 @@
    "raw_sector": "Information Technology",
    "date": "missing",
    "fresh": "undated"
+  },
+  {
+   "company": "Microchip Technology",
+   "use": "MPLAB Machine Learning Development Suite: an AutoML-powered toolkit (MPLAB X plug-in) that automates building small-footprint ML models for embedded deployment on Microchip MCUs/MPUs/dsPIC DSCs, supporting TensorFlow Lite. Offered free to developers. [Microchip AutoML; TensorFlow Lite]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.microchip.com/en-us/about/news-releases/products/microchip-launches-mplab-machine-learning-development-suite",
+   "raw_sector": "",
+   "date": "2023-09-07",
+   "fresh": "stale"
+  },
+  {
+   "company": "Microchip Technology",
+   "use": "VectorBlox Accelerator SDK: software-based CNN/neural-network inference engine for deploying edge-AI vision and sensor models on PolarFire FPGAs and SoCs without FPGA reprogramming; supports sparse networks. Public SDK (v3.1) on GitHub, in production release. [Microchip VectorBlox]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://ir.microchip.com/news-events/press-releases/detail/1404/microchip-advances-neural-network-implementation-with-vectorblox-3-0-accelerator-sdk",
+   "raw_sector": "",
+   "date": "2026-07-14",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Microchip Technology",
+   "use": "Edge Impulse MLOps integration into MPLAB X IDE: a plug-in that lets engineers stream training data from Microchip 8/32-bit MCUs and MPUs to Edge Impulse to build, evaluate and deploy TinyML models on-device. Live integration since 2020, extended to 32-bit MPUs in 2024. [Edge Impulse]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.edgeimpulse.com/blog/microchip-mplab/",
+   "raw_sector": "",
+   "date": "2020-09-21",
+   "fresh": "stale"
+  },
+  {
+   "company": "Microchip Technology",
+   "use": "Production-ready full-stack edge AI application packages: pre-trained, modifiable models for electrical arc-fault detection, predictive maintenance/condition monitoring, biometric facial recognition with liveness detection, and voice keyword spotting, deployable on Microchip MCUs/MPUs. [Microchip + unnamed software partners]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://ir.microchip.com/news-events/press-releases/detail/1368/production-ready-full-stack-edge-ai-solutions-turn-microchips-mcus-and-mpus-into-catalysts-for-intelligent-real-time-decision-making",
+   "raw_sector": "",
+   "date": "2026-02-10",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Microchip Technology",
+   "use": "Smart Factory predictive-maintenance solution: a neural-network / embedded-sensor demonstration app using the MPLAB Machine Learning Development Suite with the dsPIC LVMC motor control board to predict equipment maintenance issues for Industry 4.0 motor condition monitoring. [Microchip MPLAB ML (AutoML)]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.microchip.com/en-us/about/media-center/blog/2021/predictive-maintenance-for-industry-4-0",
+   "raw_sector": "",
+   "date": "2021-03-11",
+   "fresh": "stale"
   }
  ]
 }

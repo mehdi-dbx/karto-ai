@@ -3,51 +3,143 @@
  "name": "Bristol Myers Squibb",
  "cc": "US",
  "vertical": "Healthcare & Life Sciences",
- "deployments": 1,
- "confirmed": 1,
- "with_value_number": 0,
- "proof_rate": 0.0,
+ "deployments": 11,
+ "confirmed": 8,
+ "with_value_number": 3,
+ "proof_rate": 0.273,
  "mktcap": 125870000000.0,
  "revenue": 48480000000.0,
  "employees": 32500.0,
  "silent": false,
- "per_bn_revenue": 0.02,
- "per_10k_emp": 0.31,
+ "per_bn_revenue": 0.23,
+ "per_10k_emp": 3.38,
  "benchmarks": {
   "global_vertical": {
-   "deployments": 0,
-   "confirmed": 13,
-   "proof_rate": 0,
-   "n": 165
+   "deployments": 76,
+   "confirmed": 73,
+   "proof_rate": 62,
+   "n": 168
   },
   "country_vertical": {
-   "deployments": 0,
-   "confirmed": 7,
-   "proof_rate": 0,
+   "deployments": 69,
+   "confirmed": 62,
+   "proof_rate": 62,
    "n": 59
   }
  },
- "first_seen": 2026,
+ "first_seen": 2024,
  "by_year": [
   {
-   "year": 2026,
+   "year": 2024,
    "n": 1
+  },
+  {
+   "year": 2025,
+   "n": 1
+  },
+  {
+   "year": 2026,
+   "n": 8
   }
  ],
- "undated_pct": 0,
- "momentum": "late_entrant,rising",
- "maturity": "L3",
+ "undated_pct": 9,
+ "momentum": "early_mover,rising",
+ "maturity": "L4",
  "maturity_evidence": [
+  "multi_horizontal",
   "named_product:AI factory",
+  "value_number",
+  "multi_year",
   "tier_p"
  ],
- "prospect_score": 46,
+ "prospect_score": 77,
  "stack": [
+  "Accenture",
   "Anthropic",
-  "NVIDIA"
+  "Microsoft",
+  "Microsoft Azure",
+  "NVIDIA",
+  "OpenAI"
  ],
  "vendor_named": true,
  "deployments_detail": [
+  {
+   "company": "Bristol Myers Squibb",
+   "use": "Enterprise-wide deployment of Claude Enterprise and Claude Code as a shared intelligence platform for 30,000+ employees, spanning research, clinical development, manufacturing/quality, commercial & medical affairs, corporate functions and internal software/AI development (agentic capabilities to generate clinical study reports, support regulatory submissions, root-cause investigation and batch-release decisions) [Anthropic (Claude Enterprise, Claude Code)]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://news.bms.com/news/corporate-financial/2026/Bristol-Myers-Squibb-Announces-Strategic-Agreement-with-Anthropic-to-Position-Claude-Enterprise-as-the-Shared-Intelligence-Platform-Across-Its-Global-Operations/default.aspx",
+   "raw_sector": "",
+   "date": "2026-05-20",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Bristol Myers Squibb",
+   "use": "NVIDIA DGX SuperPOD AI infrastructure enabling BMS data science teams to develop proprietary foundational AI models to accelerate oncology research and compress drug-discovery timelines (first SuperPOD in use for R&D; expanding with a second built on DGX Vera Rubin NVL72 systems) [NVIDIA (DGX SuperPOD, DGX Vera Rubin NVL72; managed by Equinix, deployed with Mark III)]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://blogs.nvidia.com/blog/bristol-myers-squibb-building-life-science-industrys-most-advanced-ai-factory-on-nvidia-vera-rubin/",
+   "raw_sector": "",
+   "date": "2026-07",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Bristol Myers Squibb",
+   "use": "AI-driven early detection of lung cancer: embedding FDA-cleared radiology AI algorithms that automatically analyze X-ray and CT images into hospital radiology infrastructure to surface hard-to-detect lung nodules and identify patients at earlier stages [Microsoft]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://news.bms.com/news/corporate-financial/2026/Bristol-Myers-Squibb-Announces-Collaboration-with-Microsoft-to-Advance-AI-Driven-Early-Detection-of-Lung-Cancer/default.aspx",
+   "raw_sector": "",
+   "date": "2026-01-20",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Bristol Myers Squibb",
+   "use": "Deployment of Evinova's AI-native Study Designer platform and Cost Optimizer module to optimize clinical trial design, accelerate timelines and improve cost efficiency through scenario-based, multi-agent AI study design [Evinova (AstraZeneca)]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://evinova.com/press-releases/evinova-bristol-myers-squibb-partnership",
+   "raw_sector": "",
+   "date": "2026-02-09",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Bristol Myers Squibb",
+   "use": "Generative AI 'Workbench' clinical trial accelerator that integrates real-time operational data to speed drug development and clinical trials, with more than 300 clinical trials benefiting from AI-enabled tooling [Accenture]",
+   "existence": "confirmed",
+   "value": "300+ clinical trials benefiting from AI-enabled tooling",
+   "tier": "",
+   "url": "https://emerj.com/artificial-intelligence-at-bristol-myers-squibb-two-use-cases/",
+   "raw_sector": "",
+   "date": "2026-01-26",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Bristol Myers Squibb",
+   "use": "AI-powered adverse event / product complaint intake and processing in pharmacovigilance, using ReporterX and Advanced Intake to automate case intake for close to 400,000 cases per year, achieving over 25% efficiency gains [ArisGlobal (ReporterX, Advanced Intake); Accenture (BPO)]",
+   "existence": "confirmed",
+   "value": "25%+ efficiency gains; ~400,000 cases per year",
+   "tier": "",
+   "url": "https://www.arisglobal.com/resources/modernizing-safety-operations-with-ai-how-bristol-myers-squibb-achieved-25-efficiency-gains-in-pv-case-intake-and-processing/",
+   "raw_sector": "",
+   "date": "2026-07-01",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Bristol Myers Squibb",
+   "use": "AI Center of Excellence on DGX SuperPOD with MONAI for oncology imaging foundation models and drug discovery [NVIDIA] [NVIDIA]",
+   "existence": "confirmed",
+   "value": "55% overall cost savings compared to prior infrastructure",
+   "tier": "",
+   "url": "https://www.nvidia.com/en-us/case-studies/computational-science-accelerates-research-innovation-at-bristol-myers-squibb/",
+   "raw_sector": "",
+   "date": "missing",
+   "fresh": "undated"
+  },
   {
    "company": "Bristol Myers Squibb",
    "use": "Anthropic Claude agentic AI at enterprise scale; NVIDIA DGX SuperPOD \"AI factory\" for drug discovery; AI Proteins $400M miniprotein collab",
@@ -57,6 +149,39 @@
    "url": "https://news.bms.com/news/details/2026/Bristol-Myers-Squibb-Announces-Strategic-Agreement-with-Anthropic",
    "raw_sector": "Health Care",
    "date": "2026",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Bristol Myers Squibb",
+   "use": "Internal 'GenAI Storefront' with a custom, private BMS ChatGPT and other AI assistants trained on internal data, giving employees secure generative-AI tools for day-to-day tasks (HR and other functions) while avoiding exposure of sensitive data to public LLMs [OpenAI (custom BMS ChatGPT); Azure OpenAI]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.bms.com/life-and-science/insights/leveraging-ai-to-enance-innovation-efficiency.html",
+   "raw_sector": "",
+   "date": "2024-11-08",
+   "fresh": "aging"
+  },
+  {
+   "company": "Bristol Myers Squibb",
+   "use": "'Mosaic' end-to-end generative AI-enabled content hub (launched in Mumbai) that identifies physicians' educational needs in real time and rapidly creates patient-centric commercialization content to strengthen HCP engagement and digital content operations [Accenture]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.bms.com/assets/bms/india/documents/press-releases/16122025.pdf",
+   "raw_sector": "",
+   "date": "2025-12-16",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Bristol Myers Squibb",
+   "use": "AI-powered marketing: BMS integrating AI as a core part of how it engages healthcare professionals, including AI agents that interpret HCP engagement signals and craft compliant, personalized follow-ups, and building/deploying AI-powered HCP segmentation and targeting models leveraging real-world data [Adobe (AI-powered marketing platform)]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://business.adobe.com/blog/rewiring-marketing-at-bristol-myers-squibb",
+   "raw_sector": "",
+   "date": "2026-04-20",
    "fresh": "fresh"
   }
  ]

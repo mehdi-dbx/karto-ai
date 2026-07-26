@@ -3,27 +3,27 @@
  "name": "Itochu Corp.",
  "cc": "JP",
  "vertical": "Logistics & Supply Chain",
- "deployments": 1,
- "confirmed": 1,
+ "deployments": 5,
+ "confirmed": 5,
  "with_value_number": 1,
- "proof_rate": 1.0,
+ "proof_rate": 0.2,
  "mktcap": 91866666667.0,
  "revenue": 98800000000.0,
  "employees": 114570.0,
  "silent": false,
- "per_bn_revenue": 0.01,
- "per_10k_emp": 0.09,
+ "per_bn_revenue": 0.05,
+ "per_10k_emp": 0.44,
  "benchmarks": {
   "global_vertical": {
-   "deployments": 0,
-   "confirmed": 14,
-   "proof_rate": 65,
-   "n": 66
+   "deployments": 48,
+   "confirmed": 64,
+   "proof_rate": 41,
+   "n": 67
   },
   "country_vertical": {
-   "deployments": 0,
-   "confirmed": 0,
-   "proof_rate": 64,
+   "deployments": 45,
+   "confirmed": 64,
+   "proof_rate": 41,
    "n": 23
   }
  },
@@ -34,20 +34,56 @@
    "n": 1
   }
  ],
- "undated_pct": 0,
+ "undated_pct": 80,
  "momentum": "early_mover,gone_quiet",
  "maturity": "L3",
  "maturity_evidence": [
+  "multi_horizontal",
   "named_product:Generative AI Lab",
   "value_number",
   "tier_p"
  ],
- "prospect_score": 6,
+ "prospect_score": 62,
  "stack": [
+  "Microsoft",
+  "Microsoft Azure",
   "OpenAI"
  ],
  "vendor_named": true,
  "deployments_detail": [
+  {
+   "company": "Itochu Corp.",
+   "use": "AI agents for business process optimization and corporate transformation",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.itochu.co.jp/en/news/press/2025/251215.html",
+   "raw_sector": "",
+   "date": "Dec 15, 2025",
+   "fresh": "undated"
+  },
+  {
+   "company": "Itochu Corp.",
+   "use": "Data analytics dashboard with AI-powered recommendations using Azure OpenAI [Azure OpenAI Service, Azure AI Studio, Microsoft Fabric]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.microsoft.com/en/customers/story/1784680492304822753-itouch-corporation-microsoft-fabric-professional-services-en-japan",
+   "raw_sector": "",
+   "date": "Jul 26, 2024",
+   "fresh": "undated"
+  },
+  {
+   "company": "Itochu Corp.",
+   "use": "Multi-agent generative AI solution for corporate efficiency [FPT Software IvyChat]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.itochu.co.jp/en/news/ict/2025/index.html",
+   "raw_sector": "",
+   "date": "Nov 14, 2025",
+   "fresh": "undated"
+  },
   {
    "company": "Itochu Corp.",
    "use": "In-house ChatGPT (4,200 users) via \"Generative AI Lab\" (2023); AI supply-chain optimization service; \"AIX\" strategy",
@@ -58,6 +94,17 @@
    "raw_sector": "Trading Companies",
    "date": "2023",
    "fresh": "stale"
+  },
+  {
+   "company": "Itochu Corp.",
+   "use": "Generative AI research laboratory for business transformation and new business development [ChatGPT]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.itochu.co.jp/en/news/press/2023/230512.html",
+   "raw_sector": "",
+   "date": "May 12, 2023",
+   "fresh": "undated"
   }
  ]
 }

@@ -3,27 +3,27 @@
  "name": "Compass Group",
  "cc": "UK",
  "vertical": "Travel & Hospitality",
- "deployments": 1,
- "confirmed": 1,
- "with_value_number": 0,
- "proof_rate": 0.0,
+ "deployments": 4,
+ "confirmed": 2,
+ "with_value_number": 1,
+ "proof_rate": 0.25,
  "mktcap": 49847500000.0,
  "revenue": 36720000000.0,
  "employees": 590000.0,
  "silent": false,
- "per_bn_revenue": 0.03,
- "per_10k_emp": 0.02,
+ "per_bn_revenue": 0.11,
+ "per_10k_emp": 0.07,
  "benchmarks": {
   "global_vertical": {
-   "deployments": 0,
-   "confirmed": 29,
-   "proof_rate": 0,
-   "n": 39
+   "deployments": 45,
+   "confirmed": 28,
+   "proof_rate": 60,
+   "n": 41
   },
   "country_vertical": {
-   "deployments": 0,
-   "confirmed": 25,
-   "proof_rate": 0,
+   "deployments": 25,
+   "confirmed": 0,
+   "proof_rate": 50,
    "n": 5
   }
  },
@@ -33,11 +33,15 @@
  "momentum": "none",
  "maturity": "L3",
  "maturity_evidence": [
-  "named_product:Dedicated"
+  "multi_horizontal",
+  "named_product:Dedicated",
+  "value_number"
  ],
- "prospect_score": 54,
- "stack": [],
- "vendor_named": false,
+ "prospect_score": 42,
+ "stack": [
+  "SAP"
+ ],
+ "vendor_named": true,
  "deployments_detail": [
   {
    "company": "Compass Group",
@@ -47,6 +51,39 @@
    "tier": "I",
    "url": "https://careers.compass-usa.com/compass-data-and-ai",
    "raw_sector": "Support services",
+   "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "Compass Group",
+   "use": "AI and nutrition improvement in elderly care facilities",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.deloitte.com/global/en/what-we-do/case-studies-collection/bringing-ai-to-the-forefront-of-a-tech-driven-food-revolution.html",
+   "raw_sector": "",
+   "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "Compass Group",
+   "use": "Generative AI acceleration with SAP Datasphere [SAP Datasphere]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://lemongrasscloud.com/case-studies/compass-group/",
+   "raw_sector": "",
+   "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "Compass Group",
+   "use": "High-volume hiring with conversational AI [Workday Paradox]",
+   "existence": "confirmed",
+   "value": "160000",
+   "tier": "",
+   "url": "https://www.workday.com/en-us/customer-stories/a-h/compass-high-volume-hiring-with-conversational-ai.html",
+   "raw_sector": "",
    "date": "missing",
    "fresh": "undated"
   }

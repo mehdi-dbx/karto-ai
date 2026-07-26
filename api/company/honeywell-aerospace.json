@@ -3,28 +3,28 @@
  "name": "Honeywell Aerospace",
  "cc": "US",
  "vertical": "Industrial / Machinery",
- "deployments": 12,
- "confirmed": 9,
+ "deployments": 17,
+ "confirmed": 11,
  "with_value_number": 5,
- "proof_rate": 0.417,
+ "proof_rate": 0.294,
  "mktcap": 62760000000.0,
  "revenue": 17680000000.0,
  "employees": 30000.0,
  "silent": false,
- "per_bn_revenue": 0.68,
- "per_10k_emp": 4.0,
+ "per_bn_revenue": 0.96,
+ "per_10k_emp": 5.67,
  "benchmarks": {
   "global_vertical": {
-   "deployments": 98,
-   "confirmed": 97,
-   "proof_rate": 75,
-   "n": 175
+   "deployments": 97,
+   "confirmed": 95,
+   "proof_rate": 78,
+   "n": 176
   },
   "country_vertical": {
-   "deployments": 99,
+   "deployments": 98,
    "confirmed": 99,
-   "proof_rate": 86,
-   "n": 80
+   "proof_rate": 85,
+   "n": 81
   }
  },
  "first_seen": 2021,
@@ -39,18 +39,18 @@
   },
   {
    "year": 2024,
-   "n": 3
+   "n": 4
   },
   {
    "year": 2025,
-   "n": 4
+   "n": 7
   },
   {
    "year": 2026,
    "n": 2
   }
  ],
- "undated_pct": 8,
+ "undated_pct": 12,
  "momentum": "early_mover,rising",
  "maturity": "L4",
  "maturity_evidence": [
@@ -60,9 +60,15 @@
   "multi_year",
   "tier_p"
  ],
- "prospect_score": 85,
- "stack": [],
- "vendor_named": false,
+ "prospect_score": 88,
+ "stack": [
+  "Google",
+  "Google Cloud",
+  "Microsoft",
+  "SAP",
+  "Salesforce"
+ ],
+ "vendor_named": true,
  "deployments_detail": [
   {
    "company": "Honeywell Aerospace",
@@ -72,6 +78,61 @@
    "tier": "P",
    "url": "https://www.honeywellaerospace.com/us/en/pages/honeywell-anthem",
    "raw_sector": "Industrials",
+   "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "Honeywell Aerospace",
+   "use": "AI-enabled digital suite for industrial autonomy and automation",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.honeywell.com/us/en/news/press-releases/2025/06/honeywell-drives-industrial-transition-from-automation-to-autonomy-with-new-ai-enabled-digital-suite",
+   "raw_sector": "",
+   "date": "2025-06-09",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Honeywell Aerospace",
+   "use": "Autonomous operations with AI agents for industrial sector [Google Cloud]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.honeywell.com/us/en/news/press-releases/2024/10/honeywell-and-google-cloud-to-accelerate-autonomous-operations-with-ai-agents-for-the-industrial-sector",
+   "raw_sector": "",
+   "date": "2024-10-20",
+   "fresh": "aging"
+  },
+  {
+   "company": "Honeywell Aerospace",
+   "use": "Honeywell Ensemble AI for predictive engine health maintenance",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.honeywellaerospace.com/us/en/insights/articles/how-honeywell-ensemble-uses-ai-to-predict-engine-health",
+   "raw_sector": "",
+   "date": "2025-05-14",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Honeywell Aerospace",
+   "use": "Trusted autonomy software stack for autonomous aircraft development [Shield AI]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://shield.ai/honeywell-aerospace-shield-ai-collaborate-to-advance-development-of-autonomous-aircraft/",
+   "raw_sector": "",
+   "date": "2025-01-08",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Honeywell Aerospace",
+   "use": "Honeywell Forge AI-enabled applications and services",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.honeywell.com/us/en/honeywell-forge",
+   "raw_sector": "",
    "date": "missing",
    "fresh": "undated"
   },

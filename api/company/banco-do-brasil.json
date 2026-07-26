@@ -3,42 +3,54 @@
  "name": "Banco do Brasil",
  "cc": "BR",
  "vertical": "Financial Services",
- "deployments": 2,
- "confirmed": 2,
+ "deployments": 10,
+ "confirmed": 9,
  "with_value_number": 2,
- "proof_rate": 1.0,
+ "proof_rate": 0.2,
  "mktcap": 22294444444.0,
  "revenue": 12812962963.0,
  "employees": 84619.0,
  "silent": false,
- "per_bn_revenue": 0.16,
- "per_10k_emp": 0.24,
+ "per_bn_revenue": 0.78,
+ "per_10k_emp": 1.18,
  "benchmarks": {
   "global_vertical": {
-   "deployments": 62,
+   "deployments": 65,
    "confirmed": 73,
-   "proof_rate": 76,
-   "n": 377
+   "proof_rate": 39,
+   "n": 388
   },
   "country_vertical": {
    "deployments": 50,
    "confirmed": 50,
-   "proof_rate": 67,
+   "proof_rate": 17,
    "n": 7
   }
  },
- "first_seen": null,
- "by_year": [],
- "undated_pct": 100,
- "momentum": "none",
- "maturity": "L3",
+ "first_seen": 2025,
+ "by_year": [
+  {
+   "year": 2025,
+   "n": 1
+  },
+  {
+   "year": 2026,
+   "n": 2
+  }
+ ],
+ "undated_pct": 70,
+ "momentum": "rising",
+ "maturity": "L4",
  "maturity_evidence": [
+  "multi_horizontal",
   "named_product:ARI",
   "value_number",
+  "multi_year",
   "tier_p"
  ],
- "prospect_score": 12,
+ "prospect_score": 86,
  "stack": [
+  "IBM",
   "Microsoft"
  ],
  "vendor_named": true,
@@ -62,6 +74,94 @@
    "tier": "P",
    "url": "https://www.bb.com.br / https://epocanegocios.globo.com",
    "raw_sector": "Banking",
+   "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "Banco do Brasil",
+   "use": "WhatsApp integration into NiCE CXone platform for centralized customer communication [NICE CXone]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.businesswire.com/news/home/20260714494675/en/Banco-do-Brasil-Embeds-Agentic-AI-into-Core-Workflows-to-Strengthen-Relationship-Banking-and-Customer-Engagement",
+   "raw_sector": "",
+   "date": "2026-07-14",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Banco do Brasil",
+   "use": "NiCE Copilot for real-time customer insights and generative AI summaries across 10,000 employees [NICE Copilot]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.nice.com/resources/banco-do-brasil-uses-nice-cxone-to-connect-10000-employees-across-hundreds-of-offices",
+   "raw_sector": "",
+   "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "Banco do Brasil",
+   "use": "NICE Interaction Analytics for customer service automation and reputational management [NICE Interaction Analytics]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.nice.com/resources/banco-do-brasil-automates-the-rebuilding-of-reputational-excellence-with-nice-interaction-analytics",
+   "raw_sector": "",
+   "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "Banco do Brasil",
+   "use": "NiCE Copilot embedded into banking team workflows for AI-powered guidance and customer insights [NICE Copilot]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.facebook.com/OfficialNICELtd/posts/90-million-customers-one-smarter-way-to-serve-them-banco-do-brasil-is-embedding-n/1640018198131732/",
+   "raw_sector": "",
+   "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "Banco do Brasil",
+   "use": "Hyperautomation and specialized AI agents for operational efficiency",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.redhat.com/en/blog/how-banco-do-brasil-uses-hyperautomation-and-platform-engineering-drive-efficiency",
+   "raw_sector": "",
+   "date": "2026-01-29",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Banco do Brasil",
+   "use": "Generative AI for account insights delivery to customers",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.celent.com/en/insights/banco-do-brasil-using-gen-ai-to-deliver-account-insights",
+   "raw_sector": "",
+   "date": "2025-06-18",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Banco do Brasil",
+   "use": "IBM and EY generative AI integration for compliance-aligned use cases [IBM, EY]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.ibm.com/case-studies/bb-ey",
+   "raw_sector": "",
+   "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "Banco do Brasil",
+   "use": "IBM Watsonx responsible AI governance and scaling [IBM Watsonx]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.linkedin.com/posts/ibm-watsonx_banco-do-brasil-is-redefining-trust-in-ai-activity-7383547074879025152-L87b",
+   "raw_sector": "",
    "date": "missing",
    "fresh": "undated"
   }

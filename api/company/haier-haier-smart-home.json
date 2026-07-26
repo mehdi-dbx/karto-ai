@@ -3,43 +3,83 @@
  "name": "Haier (Haier Smart Home)",
  "cc": "CN",
  "vertical": "Real Estate & Construction",
- "deployments": 1,
- "confirmed": 1,
- "with_value_number": 1,
- "proof_rate": 1.0,
+ "deployments": 10,
+ "confirmed": 10,
+ "with_value_number": 4,
+ "proof_rate": 0.4,
  "mktcap": 28383333333.0,
  "revenue": 43267948718.0,
  "employees": 134995.0,
  "silent": false,
- "per_bn_revenue": 0.02,
- "per_10k_emp": 0.07,
+ "per_bn_revenue": 0.23,
+ "per_10k_emp": 0.74,
  "benchmarks": {
   "global_vertical": {
-   "deployments": 0,
-   "confirmed": 31,
-   "proof_rate": 71,
+   "deployments": 86,
+   "confirmed": 96,
+   "proof_rate": 76,
    "n": 154
   },
   "country_vertical": {
-   "deployments": 0,
-   "confirmed": 7,
-   "proof_rate": 31,
+   "deployments": 97,
+   "confirmed": 100,
+   "proof_rate": 72,
    "n": 30
   }
  },
- "first_seen": null,
- "by_year": [],
- "undated_pct": 100,
- "momentum": "none",
- "maturity": "L3",
- "maturity_evidence": [
-  "named_product:HomeGPT",
-  "value_number"
+ "first_seen": 2023,
+ "by_year": [
+  {
+   "year": 2023,
+   "n": 2
+  },
+  {
+   "year": 2025,
+   "n": 3
+  },
+  {
+   "year": 2026,
+   "n": 4
+  }
  ],
- "prospect_score": 14,
- "stack": [],
- "vendor_named": false,
+ "undated_pct": 10,
+ "momentum": "early_mover,rising",
+ "maturity": "L4",
+ "maturity_evidence": [
+  "multi_horizontal",
+  "named_product:HomeGPT",
+  "value_number",
+  "multi_year"
+ ],
+ "prospect_score": 84,
+ "stack": [
+  "Google",
+  "Google Cloud"
+ ],
+ "vendor_named": true,
  "deployments_detail": [
+  {
+   "company": "Haier (Haier Smart Home)",
+   "use": "SmartHQ Assistant — a conversational generative-AI helper in GE Appliances' SmartHQ consumer app that answers customer questions about their registered connected appliances (e.g., water-filter replacement, cleaning, maintenance) using GE's product documentation, replacing the need to find printed manuals. [Google Cloud (Vertex AI)]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://pressroom.geappliances.com/news/ge-appliances-helps-consumers-create-personalized-recipes-from-the-food-in-their-kitchen-with-google-clouds-generative-ai",
+   "raw_sector": "",
+   "date": "2023-08-29",
+   "fresh": "stale"
+  },
+  {
+   "company": "Haier (Haier Smart Home)",
+   "use": "小优 (Xiaoyou) home-service intelligent agent on the Three-Wing-Bird (三翼鸟) Uhome large model — an AI household 'butler' providing AI voice and AI vision services: helps the fridge log ingredients, watches the range hood for pot boil-over to coordinate stove heat, and has washing machines count/recognize laundry, moving from assisting housework toward 'unmanned housework'. [Haier (Three-Wing-Bird Uhome large model)]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.haier.com/about_haier/xinwen/20250321_257386.shtml",
+   "raw_sector": "",
+   "date": "2025-03-21",
+   "fresh": "fresh"
+  },
   {
    "company": "Haier (Haier Smart Home)",
    "use": "Cross-listed (also in CSI300) — \"HomeGPT\", \"AI Eye\" cooking agent, COSMOPlat",
@@ -50,6 +90,83 @@
    "raw_sector": "Commerce & Industry (HSI)",
    "date": "missing",
    "fresh": "undated"
+  },
+  {
+   "company": "Haier (Haier Smart Home)",
+   "use": "HomeGPT / Smart Home Brain (智家大脑) — Haier's proprietary vertical-domain large language model for the home, described as China's first large-scale model in the smart-home sector. Trained on billions of home-life data points to understand user behavior, device state and environment, powering proactive whole-home scene automation (lighting, temperature, air quality) across Haier's Three-Wing-Bird ecosystem. [Haier proprietary (HomeGPT / UhomeGPT, UhomeOS)]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "http://www.chinatoday.com.cn/ctenglish/2018/commentaries/202503/t20250308_800394764.html",
+   "raw_sector": "",
+   "date": "2025-03-08",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Haier (Haier Smart Home)",
+   "use": "Flavorly AI — a generative-AI recipe feature in the SmartHQ app that creates customized recipes based on the food users have on hand (later adding visual recognition of fridge contents/dishes) plus dietary preferences, to reduce food waste; integrated with Instacart shopping. [Google Cloud (Vertex AI)]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://cloud.google.com/transform/ge-appliances-recipe-for-generative-ai-faster-innovation-manufacturing",
+   "raw_sector": "",
+   "date": "2023-12-13",
+   "fresh": "stale"
+  },
+  {
+   "company": "Haier (Haier Smart Home)",
+   "use": "SmartHQ AI appliance assistants — the AI Laundry Assistant (voice/text stain and fabric-care guidance, auto-optimizing wash settings on GE Profile 955 Series), the AI Coffee Assistant (personalized brewing profiles), and a General Assistant (measurement conversions, ingredient substitutions, cooking temps, maintenance tips). [Google Cloud generative AI]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://pressroom.geappliances.com/news/ge-appliances-transforms-daily-life-with-ai-powered-kitchen-laundry-and-shopping-innovations",
+   "raw_sector": "",
+   "date": "2025-02-25",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Haier (Haier Smart Home)",
+   "use": "COSMOPlat industrial-internet platform with the self-developed COSMOMind / Tianzhi industrial large model — full-stack AI (training/inference platform, large models, agent platforms) offering 57 industrial intelligent agents across 40+ core scenarios in home appliances, energy/chemicals and energy-carbon industries; e.g. 38 petrochemical agents and a dynamometer diagnosis assistant. [Haier COSMOPlat (COSMOMind / Tianzhi 天智 industrial large model)]",
+   "existence": "confirmed",
+   "value": "57 industrial agents across 40+ scenarios; 93% industrial-knowledge retrieval accuracy; petrochemical agents avg +20% efficiency, failure-diagnosis efficiency +50%",
+   "tier": "",
+   "url": "https://www.acnnewswire.com/press-release/english/105063/cosmoplat-introduces-full-stack-ai-to-hong-kong-for-trillion-dollar-industrial-digitalization",
+   "raw_sector": "",
+   "date": "2026-02-06",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Haier (Haier Smart Home)",
+   "use": "COSMOPlat (Kaos) AI energy-optimization deployment at a Hebei steel/industrial plant using the '能源小智' (energy intelligent-control) system plus hardware upgrades and blockchain verification of savings, under a results-based (shared-savings) commercial model. [Haier COSMOPlat (能源小智 energy control system)]",
+   "existence": "confirmed",
+   "value": "31% electricity reduction in first month (vs 25% target); ~7M yuan/yr electricity savings; 26,000+ tons carbon reduction/yr",
+   "tier": "",
+   "url": "https://www.haier.com/press-events/news/20260330_288710.shtml",
+   "raw_sector": "",
+   "date": "2026-03-30",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Haier (Haier Smart Home)",
+   "use": "AI Eye 2.0 / AI Vision — computer-vision AI embedded in Haier's Seeker-series appliances (L4-level certified): refrigerators recognize nearly all ingredients and auto-adjust preservation, washing machines detect clothing state and warn of mixed colors/overflow, range hoods/stoves detect pot contents and auto-adjust heat, and air conditioners use UWB radar positioning for personalized airflow — running on UhomeOS with a home-scenario vertical model. [Haier proprietary (AI Eye 2.0 / AI Vision, UhomeOS, Haimily on-device model)]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://eu.36kr.com/en/p/3720096740211333",
+   "raw_sector": "",
+   "date": "2026-03-12",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Haier (Haier Smart Home)",
+   "use": "GE Appliances (Haier subsidiary) deployed more than 800 AI agents across manufacturing, logistics and supply-chain operations using Google Cloud's Gemini Enterprise — including a Brilliant Factory shift-data analysis agent (hours to minutes), a Supplier Collaboration Agent, and a Quality Insights Assistant. [Google Cloud (Gemini Enterprise, Agent Platform)]",
+   "existence": "confirmed",
+   "value": "800+ AI agents deployed; Supplier Collaboration Agent reduced backorders by 25% across 700+ service-parts suppliers (~27M parts/yr)",
+   "tier": "",
+   "url": "https://pressroom.geappliances.com/news/ge-appliances-reinvents-manufacturing-operations-at-scale-with-google-clouds-gemini-enterprise",
+   "raw_sector": "",
+   "date": "2026-04-22",
+   "fresh": "fresh"
   }
  ]
 }

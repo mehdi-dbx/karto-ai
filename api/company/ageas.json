@@ -3,22 +3,22 @@
  "name": "Ageas",
  "cc": "BE",
  "vertical": "Insurance",
- "deployments": 3,
- "confirmed": 3,
- "with_value_number": 2,
- "proof_rate": 0.667,
+ "deployments": 8,
+ "confirmed": 7,
+ "with_value_number": 3,
+ "proof_rate": 0.375,
  "mktcap": 14839200000.0,
  "revenue": 10184400000.0,
  "employees": 20799.0,
  "silent": false,
- "per_bn_revenue": 0.29,
- "per_10k_emp": 1.44,
+ "per_bn_revenue": 0.79,
+ "per_10k_emp": 3.85,
  "benchmarks": {
   "global_vertical": {
-   "deployments": 86,
-   "confirmed": 93,
-   "proof_rate": 69,
-   "n": 60
+   "deployments": 52,
+   "confirmed": 60,
+   "proof_rate": 65,
+   "n": 63
   }
  },
  "first_seen": 2024,
@@ -26,20 +26,27 @@
   {
    "year": 2024,
    "n": 1
+  },
+  {
+   "year": 2025,
+   "n": 1
   }
  ],
- "undated_pct": 67,
- "momentum": "early_mover,gone_quiet",
- "maturity": "L3",
+ "undated_pct": 75,
+ "momentum": "early_mover,flat",
+ "maturity": "L4",
  "maturity_evidence": [
   "multi_horizontal",
   "named_product:Conversational",
   "value_number",
+  "multi_year",
   "tier_p"
  ],
- "prospect_score": 39,
- "stack": [],
- "vendor_named": false,
+ "prospect_score": 67,
+ "stack": [
+  "Salesforce"
+ ],
+ "vendor_named": true,
  "deployments_detail": [
   {
    "company": "Ageas",
@@ -54,6 +61,28 @@
   },
   {
    "company": "Ageas",
+   "use": "AI sandbox tool for testing and learning deployment initiatives",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.ageas.com/en/newsroom/building-the-future-data-ai-and-transformation-at-the-heart-of-elevate27",
+   "raw_sector": "",
+   "date": "2025",
+   "fresh": "fresh"
+  },
+  {
+   "company": "Ageas",
+   "use": "AI use cases for insurance pricing, underwriting and related functions",
+   "existence": "claimed",
+   "value": "300",
+   "tier": "",
+   "url": "https://www.ageas.com/en/newsroom/horizon-scanning-2024-navigating-trends-strengthening-elevate27",
+   "raw_sector": "",
+   "date": "Feb 20, 2025",
+   "fresh": "undated"
+  },
+  {
+   "company": "Ageas",
    "use": "Conversational AI / voice bot platform (boost.ai) handling service, support and claims intents for straightforward customer queries",
    "existence": "confirmed",
    "value": "over 1,500 pre-built insurance intents",
@@ -65,6 +94,17 @@
   },
   {
    "company": "Ageas",
+   "use": "Conversational AI for insurance processes [Boost.ai]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://boost.ai/case-studies/ageas-conversational-ai-insurance/",
+   "raw_sector": "",
+   "date": "Nov 26, 2024",
+   "fresh": "undated"
+  },
+  {
+   "company": "Ageas",
    "use": "Responsible AI framework governing thoughtful development and deployment of AI across the business",
    "existence": "confirmed",
    "value": "none",
@@ -72,6 +112,28 @@
    "url": "https://www.ageas.co.uk/newsroom/building-trust-with-responsible-ai-ageas-framework/",
    "raw_sector": "Insurance",
    "date": "missing",
+   "fresh": "undated"
+  },
+  {
+   "company": "Ageas",
+   "use": "Generative AI-driven digital training tool for sales workforce",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.microsoft.com/en/customers/story/24608-ageas-azure-openai",
+   "raw_sector": "",
+   "date": "Jun 25, 2025",
+   "fresh": "undated"
+  },
+  {
+   "company": "Ageas",
+   "use": "Generative AI-driven training tool for salesforce with realistic customer interaction simulations",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.ageas.com/en/newsroom/ageas-deploys-unique-gen-ai-driven-training-tool-salesforce-across-europe-asia",
+   "raw_sector": "",
+   "date": "Dec 21, 2023",
    "fresh": "undated"
   }
  ]

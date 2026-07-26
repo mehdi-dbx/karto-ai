@@ -3,41 +3,65 @@
  "name": "TIM Brasil",
  "cc": "BR",
  "vertical": "Telecom",
- "deployments": 1,
- "confirmed": 1,
- "with_value_number": 0,
- "proof_rate": 0.0,
+ "deployments": 10,
+ "confirmed": 9,
+ "with_value_number": 5,
+ "proof_rate": 0.5,
  "mktcap": 9785185185.0,
  "revenue": 5007407407.0,
  "employees": 8873.0,
  "silent": false,
- "per_bn_revenue": 0.2,
- "per_10k_emp": 1.13,
+ "per_bn_revenue": 2.0,
+ "per_10k_emp": 11.27,
  "benchmarks": {
   "global_vertical": {
-   "deployments": 0,
-   "confirmed": 16,
-   "proof_rate": 0,
-   "n": 93
+   "deployments": 54,
+   "confirmed": 74,
+   "proof_rate": 73,
+   "n": 94
   }
  },
- "first_seen": 2026,
+ "first_seen": 2023,
  "by_year": [
   {
-   "year": 2026,
+   "year": 2023,
    "n": 1
+  },
+  {
+   "year": 2024,
+   "n": 1
+  },
+  {
+   "year": 2025,
+   "n": 3
+  },
+  {
+   "year": 2026,
+   "n": 5
   }
  ],
  "undated_pct": 0,
- "momentum": "late_entrant,rising",
- "maturity": "L3",
+ "momentum": "early_mover,rising",
+ "maturity": "L4",
  "maturity_evidence": [
+  "multi_horizontal",
   "named_product:TAIS",
+  "value_number",
+  "multi_year",
   "tier_p"
  ],
- "prospect_score": 54,
- "stack": [],
- "vendor_named": false,
+ "prospect_score": 74,
+ "stack": [
+  "Google",
+  "Google Cloud",
+  "IBM",
+  "Microsoft",
+  "Microsoft Azure",
+  "NVIDIA",
+  "OpenAI",
+  "Oracle"
+ ],
+ "vendor_named": true,
  "deployments_detail": [
   {
    "company": "TIM Brasil",
@@ -49,6 +73,105 @@
    "raw_sector": "Telefonia",
    "date": "2026",
    "fresh": "fresh"
+  },
+  {
+   "company": "TIM Brasil",
+   "use": "TAIS Real Time: generative-AI copilot that listens to and transcribes live customer-agent calls, infers customer intent, and proposes responses to call center agents in real time. Uses multiple fine-tuned LLMs. [Multiple LLMs (fine-tuned); vendor not fully named]",
+   "existence": "confirmed",
+   "value": "Started with 60 agent positions in Rio de Janeiro; assisted ~1.5 million calls (Sept-Feb); double-digit % reduction in average handling time; reduced callbacks",
+   "tier": "",
+   "url": "https://www.mobiletime.com.br/noticias/31/03/2026/tais-real-time-tim/",
+   "raw_sector": "",
+   "date": "2026-03-31",
+   "fresh": "fresh"
+  },
+  {
+   "company": "TIM Brasil",
+   "use": "TAIS virtual assistant with humanized neural voice for customer self-service (phone 1056, app, website, WhatsApp), using synthesized realistic voice with emotion/intonation patterns. [Microsoft Azure (neural text-to-speech) + IBM Watson]",
+   "existence": "confirmed",
+   "value": "Since early 2023, 100% of support interactions use the personalized neural voice; 45 million calls processed in 2022; 400+ voices across 140 languages",
+   "tier": "",
+   "url": "https://teletime.com.br/13/03/2023/tim-utiliza-inteligencia-artificial-da-microsoft-e-ibm-para-humanizar-assistente-virtual/",
+   "raw_sector": "",
+   "date": "2023-03-13",
+   "fresh": "stale"
+  },
+  {
+   "company": "TIM Brasil",
+   "use": "Rebuilt speech analytics platform for customer service, integrating Google transcription and multimodal Gemini models to turn customer call data into insights and drive continuous improvement. [Google Cloud (Gemini multimodal models, Speech-to-Text)]",
+   "existence": "confirmed",
+   "value": "Reduced customer service improvement cycles from weeks to days",
+   "tier": "",
+   "url": "https://www.youtube.com/watch?v=FmZlAXB3ln4",
+   "raw_sector": "",
+   "date": "2025-08-29",
+   "fresh": "fresh"
+  },
+  {
+   "company": "TIM Brasil",
+   "use": "Specialized AI agents across customer journey via Oracle AI Agent Platform, including 'Agente de Contas' (Account Agent) that compares invoices across months and explains variations to customers. Part of a five-year expanded Oracle contract. [Oracle (OCI, Oracle AI Agent Platform, Oracle AI Services)]",
+   "existence": "confirmed",
+   "value": "100+ AI use cases identified, 24 pilots, 7 in production; Account Agent reduced call handling time by 18% in pilot; AI copilot reduces response time up to 30%",
+   "tier": "",
+   "url": "https://www.tim.com.br/sobre-a-tim/sala-de-imprensa/press-releases/institucional/tim-brasil-amplia-colaboracao-com-oracle-para-acelerar-inovacoes-com-ia",
+   "raw_sector": "",
+   "date": "2025-12-11",
+   "fresh": "fresh"
+  },
+  {
+   "company": "TIM Brasil",
+   "use": "AI-powered predictive analysis for access network maintenance: internally developed cognitive engine predicts failures before they occur to enable preventive maintenance. TIM claims to be the first Brazilian operator to use AI in its network for predictive analysis. [Internally developed (TIM); expanding with Google generative AI]",
+   "existence": "confirmed",
+   "value": "85% prediction accuracy; 100% of access network infrastructure covered; 15% reduction in maintenance interventions",
+   "tier": "",
+   "url": "https://teletime.com.br/23/01/2025/tim-registra-85-de-assertividade-em-ia-para-manutencao-de-rede/",
+   "raw_sector": "",
+   "date": "2025-01-23",
+   "fresh": "fresh"
+  },
+  {
+   "company": "TIM Brasil",
+   "use": "Expanded partnership to build an AI-ready 5G network using Nokia AI-RAN solutions integrated with NVIDIA AI-RAN platforms, enabling TIM to offer AI-driven services to Brazilian enterprise customers on shared compute infrastructure. [Nokia (AI-RAN) + NVIDIA (AI-RAN platforms)]",
+   "existence": "claimed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.reuters.com/business/media-telecom/nokia-expands-partnerships-with-tim-brasil-deutsche-telekom-ai-technology-push-2026-03-02/",
+   "raw_sector": "",
+   "date": "2026-03-02",
+   "fresh": "fresh"
+  },
+  {
+   "company": "TIM Brasil",
+   "use": "Modernized cybersecurity/threat-protection operations by unifying fragmented security tools into a single XDR platform with managed detection-and-response expertise (Defender Experts for XDR), consolidating endpoint, identity and behavior signals. [Microsoft (Defender XDR, Defender Experts for XDR)]",
+   "existence": "confirmed",
+   "value": "12,000 endpoints protected; implemented in under 20 days with zero operational impact; reduced alert investigation time and manual correlation",
+   "tier": "",
+   "url": "https://www.microsoft.com/en/customers/story/26688-tim-brasil-microsoft-defender-xdr",
+   "raw_sector": "",
+   "date": "2026-05-06",
+   "fresh": "fresh"
+  },
+  {
+   "company": "TIM Brasil",
+   "use": "Agentic AI applied to billing/collections (cobrança) operations, expanded from earlier use in the fiscal/tax (tributária) area; autonomous agents operating across back-office finance functions. Announced during Q1 2026 earnings. [not named (agentic AI)]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://www.minhaoperadora.com.br/2026/05/tim-adota-ia-na-cobranca-a-clientes-e-ja-colhe-resultados.html",
+   "raw_sector": "",
+   "date": "2026-05-10",
+   "fresh": "fresh"
+  },
+  {
+   "company": "TIM Brasil",
+   "use": "Generative AI applied to internal support functions including the legal/juridical sector, ombudsman office, and sales & marketing areas, alongside network and internal customer service; internal call-center rollout completed. [Google (generative AI)]",
+   "existence": "confirmed",
+   "value": "none",
+   "tier": "",
+   "url": "https://dplnews.com/tim-utiliza-ia-generativa-do-google-em-suas-operacoes/",
+   "raw_sector": "",
+   "date": "2024-07-31",
+   "fresh": "aging"
   }
  ]
 }
