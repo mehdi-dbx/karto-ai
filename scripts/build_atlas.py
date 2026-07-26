@@ -337,16 +337,10 @@ a:hover {{ text-decoration: underline; }}
   background:none; border:none; border-radius:999px; padding:6px 15px; cursor:pointer; transition:background .25s, color .25s; }}
 .terr-toggle button[aria-selected="true"] {{ background:var(--ink); color:var(--surface); }}
 .terr-toggle button:not([aria-selected="true"]):hover {{ color:var(--ink); }}
-/* the matrix: same 138 cells always mounted; only emphasis + heat morph in place */
-.terr-matrix {{ transition:opacity .3s; }}
-.open-fn {{ transition:background .4s ease, border-color .4s ease, color .4s ease, opacity .4s ease; }}
-/* a cell that is OFF the active side (filled cell in Open view, or empty cell in Contested view) recedes */
-.open-fn.is-dim {{ opacity:.16; filter:saturate(.4); }}
-/* Contested heat: warm ramp by deployment density, driven by --heat (0..1) set inline */
-.open-fn.is-heat {{ border-color:color-mix(in srgb,#a0472c calc(var(--heat)*70%),var(--hair));
-  background:color-mix(in srgb,#c0862b calc(var(--heat)*46% + 8%),var(--surface));
-  color:color-mix(in srgb,#7a2f18 calc(var(--heat)*100%),var(--ink-2)); font-weight:calc(440 + var(--heat)*140); }}
-.open-fn .cnt {{ font-variant-numeric:tabular-nums; opacity:.75; margin-left:6px; font-size:11px; }}
+/* the matrix: same 138 cells always mounted, same layout on both sides. Hue stays = the
+   function's bubble colour; ONLY fill intensity animates -> a true in-place morph. */
+.open-fn {{ transition:background .45s ease, border-color .45s ease, color .45s ease, font-weight .45s ease; }}
+.open-fn .cnt {{ font-variant-numeric:tabular-nums; opacity:.7; margin-left:6px; font-size:11px; }}
 .uc-cards {{ display:grid; grid-template-columns:repeat(auto-fill,minmax(280px,1fr)); gap:16px; margin-top:32px; }}
 .uc-card {{ display:block; padding:18px; border:1px solid var(--hair); border-radius:12px; background:var(--surface); text-decoration:none; transition:border-color .18s ease, transform .18s ease; }}
 .uc-card:hover {{ border-color:var(--accent); transform:translateY(-2px); text-decoration:none; }}
@@ -1846,7 +1840,9 @@ function drawOpen() {{
   }}
   applyTerrSide();
 }}
-// the morph: recolour every mounted pill for the active side of the coin. No relayout.
+// the morph: same cells, same layout, same per-function hue on BOTH sides — only the
+// fill intensity animates. Open lights the empty cells; Contested lights the crowded
+// ones by density. Nothing is unmounted or relaid-out, so the transition is seamless.
 function applyTerrSide() {{
   const dens=gridDensity();
   const maxN=Math.max(1,...Object.values(dens));
@@ -1855,23 +1851,25 @@ function applyTerrSide() {{
   document.querySelectorAll('#openGrid .open-card').forEach(card=>{{
     let cardLive=false;
     card.querySelectorAll('.open-fn').forEach(p=>{{
-      const n=+p.dataset.n||0, c=p.dataset.fnc;
+      const n=+p.dataset.n||0, c=p.dataset.fnc;      // c = this function's bubble colour
       const cnt=p.querySelector('[data-role=cnt]');
-      p.classList.remove('is-dim','is-heat'); p.style.cssText='';
-      if(open){{
-        // OPEN side: empty cells are the subject; filled cells recede
-        if(n===0){{ p.style.borderColor=c; p.style.background=`color-mix(in srgb,${{c}} 14%,var(--surface))`; p.style.color=c;
-                    liveCells++; cardLive=true; if(cnt)cnt.textContent=''; }}
-        else {{ p.classList.add('is-dim'); if(cnt)cnt.textContent=''; }}
-      }} else {{
-        // CONTESTED side: filled cells are the subject, heat by density; empty cells recede
-        if(n>0){{ p.classList.add('is-heat'); p.style.setProperty('--heat',(n/maxN).toFixed(3));
-                  liveCells++; cardLive=true; sumN+=n; if(cnt)cnt.textContent=n.toLocaleString(); }}
-        else {{ p.classList.add('is-dim'); if(cnt)cnt.textContent=''; }}
-      }}
+      // fill fraction 0..1: how strongly this cell is "lit" on the active side
+      let lit;
+      if(open) lit = (n===0)?1:0;                    // Open: only empty cells lit
+      else     lit = (n>0)?(0.30+0.70*(n/maxN)):0;   // Contested: lit by density (min 0.30 so any deployment reads)
+      const active = open ? (n===0) : (n>0);
+      // same hue always; intensity = 6% (faint/off) .. 52% (fully lit). Border + weight track it.
+      const fillPct = (6 + lit*46).toFixed(1);
+      const borderPct = (18 + lit*62).toFixed(1);
+      p.style.borderColor = `color-mix(in srgb,${{c}} ${{borderPct}}%,var(--hair))`;
+      p.style.background  = `color-mix(in srgb,${{c}} ${{fillPct}}%,var(--surface))`;
+      p.style.color       = active ? c : 'var(--muted)';
+      p.style.fontWeight  = 440 + Math.round(lit*160);
+      if(active){{ liveCells++; cardLive=true; if(!open) sumN+=n; }}
+      if(cnt) cnt.textContent = (!open && n>0) ? n.toLocaleString() : '';
     }});
     if(cardLive) liveInd++;
-    card.style.opacity = cardLive? '1':'.32';
+    card.style.opacity='1';                          // cards never dim -> layout identical both sides
   }});
   // mirror the title, scope line, lede and footnote to the active side
   const T=document.getElementById('openTitle'), S=document.getElementById('openScope'),
