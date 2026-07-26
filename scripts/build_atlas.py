@@ -264,9 +264,15 @@ a:hover {{ text-decoration: underline; }}
 .metkey {{ font-family:var(--font-ui); font-size:11.5px; color:var(--muted); margin:-6px 0 14px; }}
 /* industries index */
 .ind-grid {{ display:grid; grid-template-columns:repeat(auto-fill,minmax(260px,1fr)); gap:14px; margin-top:24px; }}
-.ind-card {{ border:1px solid var(--hair); border-radius:12px; background:var(--surface); padding:16px 18px; text-decoration:none; color:inherit; transition:border-color .15s, transform .15s; }}
+.ind-card {{ border:1px solid var(--hair); border-radius:12px; background:var(--surface); overflow:hidden; text-decoration:none; color:inherit; transition:border-color .15s, transform .15s; }}
 .ind-card:hover {{ border-color:var(--accent); transform:translateY(-2px); }}
-.ind-card h4 {{ margin:0 0 8px; font-family:var(--font-head); font-weight:560; font-size:15px; color:var(--ink); display:flex; align-items:center; gap:9px; }}
+/* amber title band, echoing the grid column headers, to set the title off from the body */
+.ind-card h4 {{ margin:0; padding:11px 16px; background:color-mix(in srgb,var(--accent) 11%,var(--surface));
+  border-bottom:1px solid color-mix(in srgb,var(--accent) 22%,var(--surface));
+  font-family:var(--font-head); font-weight:560; font-size:15px; color:var(--ink); display:flex; align-items:center; gap:9px; }}
+.ind-card .ind-stats {{ padding:14px 16px 16px; }}
+.ind-card .ind-open {{ padding:0 16px 14px; }}
+.ind-card .ind-stats:has(+ .ind-open) {{ padding-bottom:8px; }}
 .cardic {{ flex:none; width:16px; height:16px; stroke:var(--accent); vertical-align:-.15em; }}
 .uc-name .cardic {{ vertical-align:-.15em; margin-right:8px; }}
 .ind-stats {{ display:flex; flex-wrap:wrap; gap:4px 14px; font-family:var(--font-ui); font-size:12px; color:var(--ink-2); }}
@@ -391,11 +397,14 @@ a:hover {{ text-decoration: underline; }}
 .open-fn {{ transition:background .45s ease, border-color .45s ease, color .45s ease, font-weight .45s ease; }}
 .open-fn .cnt {{ font-variant-numeric:tabular-nums; opacity:.7; margin-left:6px; font-size:11px; }}
 .uc-cards {{ display:grid; grid-template-columns:repeat(auto-fill,minmax(280px,1fr)); gap:16px; margin-top:32px; }}
-.uc-card {{ display:block; padding:18px; border:1px solid var(--hair); border-radius:12px; background:var(--surface); text-decoration:none; transition:border-color .18s ease, transform .18s ease; }}
+.uc-card {{ display:block; overflow:hidden; border:1px solid var(--hair); border-radius:12px; background:var(--surface); text-decoration:none; transition:border-color .18s ease, transform .18s ease; }}
 .uc-card:hover {{ border-color:var(--accent); transform:translateY(-2px); text-decoration:none; }}
-.uc-name {{ font-family:var(--font-head); font-weight:560; font-size:16px; color:var(--ink); }}
-.uc-desc {{ font-size:12.5px; color:var(--muted); margin-top:5px; line-height:1.5; }}
-.uc-stats {{ display:flex; flex-wrap:wrap; gap:6px 14px; margin-top:12px; font-family:var(--font-ui); font-size:12px; color:var(--ink-2); }}
+/* amber title band, matching the industry cards */
+.uc-name {{ margin:0; padding:12px 16px; background:color-mix(in srgb,var(--accent) 11%,var(--surface));
+  border-bottom:1px solid color-mix(in srgb,var(--accent) 22%,var(--surface));
+  font-family:var(--font-head); font-weight:560; font-size:16px; color:var(--ink); display:flex; align-items:center; }}
+.uc-desc {{ font-size:12.5px; color:var(--muted); padding:14px 16px 0; line-height:1.5; }}
+.uc-stats {{ display:flex; flex-wrap:wrap; gap:6px 14px; padding:12px 16px 16px; font-family:var(--font-ui); font-size:12px; color:var(--ink-2); }}
 .uc-stats b {{ color:var(--ink); font-variant-numeric:tabular-nums; }}
 .diffsvg {{ display:block; margin-top:10px; max-width:780px; height:auto; }}
 .uc-diffusion {{ display:flex; flex-wrap:wrap; gap:8px; }}
