@@ -567,7 +567,12 @@ a.vchip:hover {{ border-color:var(--accent); color:var(--accent); text-decoratio
 .backup {{ font-family:var(--font-ui); background:none; border:none; cursor:pointer; padding:0; margin:0 0 10px;
   color:var(--ink-2); font-size:13px; letter-spacing:.02em; display:inline-flex; align-items:center; gap:6px; transition:color .18s ease; }}
 .backup:hover {{ color:var(--accent); }}
-.terr .lede {{ color:var(--ink-2); max-width:60ch; font-size:15px; margin:6px 0 0; }}
+/* both ledes share ONE grid cell -> container height = the taller one at any width,
+   so flipping never changes height and nothing below shifts. Cross-fade on flip. */
+.lede-stack {{ display:grid; max-width:60ch; margin:6px 0 0; }}
+.lede-stack .lede {{ grid-area:1/1; transition:opacity .35s ease; }}
+.lede-stack .lede[data-side]:not(.is-active) {{ opacity:0; visibility:hidden; }}
+.terr .lede {{ color:var(--ink-2); font-size:15px; margin:0; }}
 .terr .controls {{ display:flex; gap:10px; align-items:center; flex:none; }}   /* fixed reference frame: never reflows with lede length */
 /* the grid */
 .gridwrap {{ margin-top:26px; overflow-x:auto; }}
@@ -1021,7 +1026,10 @@ a.colink {{ color:var(--ink); text-decoration:none; }} a.colink:hover {{ color:v
     <div class="head">
       <div>
         <h2 id="openTitle">Open territory — <span class="scope" id="openScope">where the space isn't filled yet</span></h2>
-        <p class="lede" id="openLede"></p>
+        <div class="lede-stack" id="ledeStack">
+          <p class="lede" data-side="open">The study's core question: <b>where is AI not yet deployed?</b> Each lit tile is an industry × business-function pair for which our sourcing found <b>zero</b> deployments across every country. Read it as a <b>coverage floor, not proof of absence</b>. Flip to <b>Contested</b> to see the same map inverted — where the ground is already crowded.</p>
+          <p class="lede" data-side="contested">The mirror of Open: <b>where is AI already densely deployed?</b> Each tile's heat scales with the number of deployments found in that industry × business-function pair — the <b>hottest cells are the most contested</b>, where differentiation is hardest. Flip back to <b>Open</b> for the whitespace.</p>
+        </div>
       </div>
       <div class="controls">
         <div class="terr-toggle" id="terrToggle" role="tablist" aria-label="Territory view">
@@ -1874,18 +1882,19 @@ function applyTerrSide() {{
     if(cardLive) liveInd++;
     card.style.opacity='1';                          // cards never dim -> layout identical both sides
   }});
-  // mirror the title, scope line, lede and footnote to the active side
+  // mirror the title + scope + footnote; the two ledes are stacked in the DOM and
+  // cross-fade (both occupy one grid cell) so height never changes -> no shift below.
   const T=document.getElementById('openTitle'), S=document.getElementById('openScope'),
-        L=document.getElementById('openLede'), C=document.getElementById('openCount');
+        C=document.getElementById('openCount');
+  document.querySelectorAll('#ledeStack .lede').forEach(p=>
+    p.classList.toggle('is-active', p.dataset.side===terrSide));
   if(open){{
     T.childNodes[0].nodeValue='Open territory — ';
     S.textContent="where the space isn't filled yet";
-    L.innerHTML=`The study's core question: <b>where is AI not yet deployed?</b> Each lit tile is an industry × business-function pair for which our sourcing found <b>zero</b> deployments across every country. Read it as a <b>coverage floor, not proof of absence</b>. Flip to <b>Contested</b> to see the same map inverted — where the ground is already crowded.`;
     C.textContent=`${{liveCells}} open industry × function cell${{liveCells===1?'':'s'}} across ${{liveInd}} industr${{liveInd===1?'y':'ies'}} — no deployment found yet (a coverage floor, not proof of absence).`;
   }} else {{
     T.childNodes[0].nodeValue='Contested territory — ';
     S.textContent='where the ground is already crowded';
-    L.innerHTML=`The mirror of Open: <b>where is AI already densely deployed?</b> Each tile's heat scales with the number of deployments found in that industry × business-function pair — the <b>hottest cells are the most contested</b>, where differentiation is hardest. Flip back to <b>Open</b> for the whitespace.`;
     C.textContent=`${{liveCells}} active industry × function cell${{liveCells===1?'':'s'}} across ${{liveInd}} industr${{liveInd===1?'y':'ies'}} — carrying ${{sumN.toLocaleString()}} deployments (hotter = more crowded).`;
   }}
   // keep the shareable view param in sync without reloading the route (mirrors syncCmpUrl)
