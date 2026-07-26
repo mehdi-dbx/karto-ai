@@ -159,6 +159,7 @@ a:hover { text-decoration: underline; }
 .ckpi .l { font-size:12px; color:var(--muted); margin-top:3px; }
 .csub { font-family:var(--font-head); font-weight:400; font-size:19px; margin:34px 0 14px; letter-spacing:-.01em; }
 /* vertical page: per-function breakdown bars */
+.vfnhead { display:flex; align-items:center; justify-content:space-between; gap:16px; flex-wrap:wrap; margin:34px 0 0; }
 .metkey { font-family:var(--font-ui); font-size:11.5px; color:var(--muted); margin:-6px 0 14px; }
 /* industries index */
 .ind-grid { display:grid; grid-template-columns:repeat(auto-fill,minmax(260px,1fr)); gap:14px; margin-top:24px; }
@@ -1923,26 +1924,20 @@ function renderVertical(slug) {
     if(t&&t.n) ccWith.push([cc,t.n]);
   });
   ccWith.sort((a,b)=>b[1]-a[1]);
-  const opts=`<option value="">All countries</option>`+ccWith.map(([cc,n])=>`<option value="${cc}">${esc(ccName[cc]||cc)} (${n})</option>`).join('');
+  const ccOpts=`<option value="">All countries</option>`+ccWith.map(([cc,n])=>`<option value="${cc}">${esc(ccName[cc]||cc)} (${n})</option>`).join('');
   const want=currentParams().get('cc')||'';
+  const cc=ccWith.some(([c])=>c===want)?want:'';
   host.innerHTML=`<a class="backup" href="#/industries">← all industries</a>
-    <div class="head"><div>
-      <h2 style="margin:0">${VERT_ICON[v]||''} ${esc(v)} <span style="font-size:14px;color:var(--muted)">· industry</span></h2>
-    </div><div class="controls">
-      <select id="vertCC" class="filtersel">${opts}</select>
-    </div></div>
+    <h2 style="margin:0">${VERT_ICON[v]||''} ${esc(v)} <span style="font-size:14px;color:var(--muted)">· industry</span></h2>
     <div id="vertScope"></div>`;
-  const sel=document.getElementById('vertCC');
-  if([...sel.options].some(o=>o.value===want)) sel.value=want;
-  sel.onchange=()=>{ drawVertical(v, sel.value); syncVertUrl(slug, sel.value); };
-  drawVertical(v, sel.value);
+  drawVertical(v, cc, slug, ccOpts);
   window.scrollTo({top:0,behavior:'smooth'});
 }
 function syncVertUrl(slug, cc) {
   const h='/vertical/'+slug+(cc?'?cc='+cc:'');
   if(location.hash!=='#'+h) history.replaceState(null,'','#'+h);
 }
-function drawVertical(v, cc) {
+function drawVertical(v, cc, slug, ccOpts) {
   const scope=document.getElementById('vertScope'); if(!scope) return;
   const world=!cc;
   const tot=(world?(ATLAS.vert_totals_global||[]):(ATLAS.vert_totals_by_country[cc]||[])).find(t=>t.v===v)||{n:0,confirmed:0,withnum:0};
@@ -1974,12 +1969,17 @@ function drawVertical(v, cc) {
       <div class="ckpi"><div class="n">${nCos.toLocaleString()}</div><div class="l">companies</div></div>
       <div class="ckpi"><div class="n">${tot.n?Math.round(100*(tot.withnum||0)/tot.n):0}%</div><div class="l">quantified</div></div>
     </div>
-    <h3 class="csub">By business function</h3>
+    <div class="vfnhead">
+      <h3 class="csub" style="margin:0">By business function</h3>
+      <select id="vertCC" class="filtersel">${ccOpts}</select>
+    </div>
     <div class="metkey">each bar: <b>total</b> · <b>quantified</b> (deployments citing a value number)</div>
     <div class="vbars">${fnRows}</div>
     <h3 class="csub">Companies in ${esc(v)} ${world?'':'· '+esc(ccName[cc]||cc)+' '}(${nCos})</h3>
     <div class="uc-runners">${coChips||'<span class="footnote">No companies found in scope.</span>'}</div>
     <p class="footnote">Counts are deployments we sourced — a coverage floor, not a census. Click a function bar to see the companies behind it.</p>`;
+  const sel=document.getElementById('vertCC');
+  if(sel){ sel.value=cc; sel.onchange=()=>{ drawVertical(v, sel.value, slug, ccOpts); syncVertUrl(slug, sel.value); }; }
 }
 
 /* ============ D9 USE-CASE CATALOG + DETAIL ============ */
