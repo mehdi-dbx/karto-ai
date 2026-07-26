@@ -1707,19 +1707,53 @@ function renderVerticals() {{
 
 /* ============ vertical (industry) detail page ============ */
 let VERT_BY_SLUG=null;
+let curVertical=null;
 function renderVertical(slug) {{
   goAltitude('vertical','Industry'); indexCompanies();
   if(!VERT_BY_SLUG){{ VERT_BY_SLUG={{}}; (ATLAS.verticals||[]).forEach(v=>VERT_BY_SLUG[vslug(v)]=v); }}
   const v=VERT_BY_SLUG[slug]; const host=document.getElementById('verticalBody');
-  if(!v){{ host.innerHTML='<h2>Industry not found</h2><p class="lede"><a href="#/open">← opportunities</a></p>'; return; }}
-  crumbs.innerHTML='<span style="cursor:pointer" onclick="goRoute(\\'a0\\')">Orbit</span> <span class="sep">›</span> <span class="here">'+esc(v)+'</span>';
-  const tot=(ATLAS.vert_totals_global||[]).find(t=>t.v===v)||{{n:0,confirmed:0,withnum:0}};
-  const cells={{}}; (ATLAS.grid_global||[]).forEach(c=>{{ if(c.v===v) cells[c.h]=c; }});
-  const cos=ATLAS.companies.filter(c=>!c.silent && c.vertical===v).sort((a,b)=>b.deployments-a.deployments);
+  if(!v){{ host.innerHTML='<h2>Industry not found</h2><p class="lede"><a href="#/industries">← all industries</a></p>'; return; }}
+  curVertical=v;
+  crumbs.innerHTML='<span style="cursor:pointer" onclick="goRoute(\\'a0\\')">Orbit</span> <span class="sep">›</span> <span style="cursor:pointer" onclick="goRoute(\\'industries\\')">Industries</span> <span class="sep">›</span> <span class="here">'+esc(v)+'</span>';
+  // countries that actually have this industry, by deployment count desc
+  const ccName={{}}; ATLAS.countries.forEach(c=>ccName[c.cc]=c.name);
+  const ccWith=[];
+  Object.keys(ATLAS.vert_totals_by_country||{{}}).forEach(cc=>{{
+    const t=(ATLAS.vert_totals_by_country[cc]||[]).find(x=>x.v===v);
+    if(t&&t.n) ccWith.push([cc,t.n]);
+  }});
+  ccWith.sort((a,b)=>b[1]-a[1]);
+  const opts=`<option value="">All countries</option>`+ccWith.map(([cc,n])=>`<option value="${{cc}}">${{esc(ccName[cc]||cc)}} (${{n}})</option>`).join('');
+  const want=currentParams().get('cc')||'';
+  host.innerHTML=`<a class="backup" href="#/industries">← all industries</a>
+    <div class="head"><div>
+      <h2 style="margin:0">${{VERT_ICON[v]||''}} ${{esc(v)}} <span style="font-size:14px;color:var(--muted)">· industry</span></h2>
+    </div><div class="controls">
+      <select id="vertCC" class="filtersel">${{opts}}</select>
+    </div></div>
+    <div id="vertScope"></div>`;
+  const sel=document.getElementById('vertCC');
+  if([...sel.options].some(o=>o.value===want)) sel.value=want;
+  sel.onchange=()=>{{ drawVertical(v, sel.value); syncVertUrl(slug, sel.value); }};
+  drawVertical(v, sel.value);
+  window.scrollTo({{top:0,behavior:'smooth'}});
+}}
+function syncVertUrl(slug, cc) {{
+  const h='/vertical/'+slug+(cc?'?cc='+cc:'');
+  if(location.hash!=='#'+h) history.replaceState(null,'','#'+h);
+}}
+function drawVertical(v, cc) {{
+  const scope=document.getElementById('vertScope'); if(!scope) return;
+  const world=!cc;
+  const tot=(world?(ATLAS.vert_totals_global||[]):(ATLAS.vert_totals_by_country[cc]||[])).find(t=>t.v===v)||{{n:0,confirmed:0,withnum:0}};
+  const grid=world?(ATLAS.grid_global||[]):(ATLAS.grid_by_country[cc]||[]);
+  const cells={{}}; grid.forEach(c=>{{ if(c.v===v) cells[c.h]=c; }});
+  const cos=ATLAS.companies.filter(c=>!c.silent && c.vertical===v && (world||c.cc===cc)).sort((a,b)=>b.deployments-a.deployments);
   const nCos=cos.length;
+  const ccName={{}}; ATLAS.countries.forEach(c=>ccName[c.cc]=c.name);
+  const scopeLabel=world?'worldwide':`in ${{esc(ccName[cc]||cc)}}`;
   const openFns=(ATLAS.horizontals||[]).filter(h=>!cells[h]);
   const maxN=Math.max(1,...(ATLAS.horizontals||[]).map(h=>cells[h]?cells[h].n:0));
-  // function breakdown bars (link each to the grid cell drill-down)
   const fnRows=(ATLAS.horizontals||[]).map(h=>{{
     const c=cells[h]; const n=c?c.n:0; const wn=c?c.withnum:0; const col=FN_COLOR[h]||'var(--muted)';
     const w=(100*n/maxN).toFixed(1);
@@ -1731,22 +1765,21 @@ function renderVertical(slug) {{
   }}).join('');
   const coChips=cos.slice(0,60).map(c=>`<a class="colink" href="#/company/${{c.slug}}">${{esc(c.name)}}</a>`).join(' · ')
     + (nCos>60?` <span class="footnote">… +${{nCos-60}} more</span>`:'');
-  host.innerHTML=`<a class="backup" href="#/industries">← all industries</a>
-    <h2 style="margin:0">${{esc(v)}} <span style="font-size:14px;color:var(--muted)">· industry</span></h2>
-    <p class="lede" style="margin-top:6px">AI deployment across the six business functions for <b>${{esc(v)}}</b>.
-    ${{openFns.length? `<b>${{openFns.length}}</b> function${{openFns.length===1?'':'s'}} still show open territory (${{openFns.map(esc).join(', ')}}).` : 'Every function has at least one found deployment.'}}</p>
+  scope.innerHTML=`
+    <p class="lede" style="margin-top:6px">AI deployment across the six business functions for <b>${{esc(v)}}</b> (${{scopeLabel}}).
+    ${{openFns.length? `<b>${{openFns.length}}</b> function${{openFns.length===1?'':'s'}} show open territory (${{openFns.map(esc).join(', ')}}).` : 'Every function has at least one found deployment.'}}</p>
     <div class="ckpis">
       <div class="ckpi"><div class="n">${{(tot.n||0).toLocaleString()}}</div><div class="l">deployments</div></div>
       <div class="ckpi"><div class="n">${{(tot.confirmed||0).toLocaleString()}}</div><div class="l">confirmed</div></div>
       <div class="ckpi"><div class="n">${{nCos.toLocaleString()}}</div><div class="l">companies</div></div>
-      <div class="ckpi"><div class="n">${{tot.n?Math.round(100*(tot.withnum||0)/tot.n):0}}%</div><div class="l">cite a number</div></div>
+      <div class="ckpi"><div class="n">${{tot.n?Math.round(100*(tot.withnum||0)/tot.n):0}}%</div><div class="l">quantified</div></div>
     </div>
     <h3 class="csub">By business function</h3>
     <div class="metkey">each bar: <b>total</b> · <b>quantified</b> (deployments citing a value number)</div>
     <div class="vbars">${{fnRows}}</div>
-    <h3 class="csub">Companies in ${{esc(v)}} (${{nCos}})</h3><div class="uc-runners">${{coChips||'<span class="footnote">No companies found in scope.</span>'}}</div>
+    <h3 class="csub">Companies in ${{esc(v)}} ${{world?'':'· '+esc(ccName[cc]||cc)+' '}}(${{nCos}})</h3>
+    <div class="uc-runners">${{coChips||'<span class="footnote">No companies found in scope.</span>'}}</div>
     <p class="footnote">Counts are deployments we sourced — a coverage floor, not a census. Click a function bar to see the companies behind it.</p>`;
-  window.scrollTo({{top:0,behavior:'smooth'}});
 }}
 
 /* ============ D9 USE-CASE CATALOG + DETAIL ============ */
