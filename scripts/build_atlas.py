@@ -236,6 +236,16 @@ a:hover {{ text-decoration: underline; }}
 .ckpi .n {{ font-family:var(--font-head); font-size:32px; font-weight:340; letter-spacing:-.02em; }}
 .ckpi .l {{ font-size:12px; color:var(--muted); margin-top:3px; }}
 .csub {{ font-family:var(--font-head); font-weight:400; font-size:19px; margin:34px 0 14px; letter-spacing:-.01em; }}
+/* vertical page: per-function breakdown bars */
+.vbars {{ display:flex; flex-direction:column; gap:10px; max-width:760px; }}
+.vrow {{ display:grid; grid-template-columns:150px 1fr; align-items:center; gap:14px; }}
+.vrow-h {{ font-family:var(--font-ui); font-size:12.5px; text-align:right; }}
+.vbar {{ display:flex; align-items:center; gap:10px; text-decoration:none; min-height:24px; }}
+.vbar-fill {{ display:inline-block; height:18px; border:1px solid; border-radius:5px; min-width:2px; transition:width .4s ease; }}
+.vbar-n {{ font-family:var(--font-ui); font-size:12.5px; color:var(--ink); font-variant-numeric:tabular-nums; }}
+.vbar-wn {{ color:var(--muted); }}
+.vbar:hover .vbar-n {{ color:var(--accent); }}
+.vbar-empty {{ font-family:var(--font-ui); font-size:12.5px; color:var(--muted); font-style:italic; }}
 .benchbox {{ max-width:520px; }}
 .benchrow {{ display:grid; grid-template-columns:110px 1fr 44px; align-items:center; gap:12px; padding:5px 0; font-family:var(--font-ui); font-size:12.5px; color:var(--ink-2); }}
 .benchtrack {{ height:16px; background:var(--surface-2); border-radius:8px; overflow:hidden; }}
@@ -966,6 +976,11 @@ a.colink {{ color:var(--ink); text-decoration:none; }} a.colink:hover {{ color:v
   <div class="terr" id="vendorBody"></div>
 </section>
 
+<!-- vertical (industry) detail -->
+<section class="altitude" id="vertical" data-alt="Industry">
+  <div class="terr" id="verticalBody"></div>
+</section>
+
 <!-- ============ COMPANIES (filterable list — question targets land here) ============ -->
 <section class="altitude" id="companies" data-alt="Companies">
   <div class="terr">
@@ -1185,6 +1200,8 @@ function applyRoute() {{
     document.querySelectorAll('.navlink').forEach(a=>a.classList.toggle('on', a.dataset.route==='usecases'));
     setTimeout(()=>injectNext('usecases'),0); return; }}
   if(h.startsWith('/vendor/')) {{ renderVendor(decodeURIComponent(h.slice('/vendor/'.length).split('?')[0]));
+    document.querySelectorAll('.navlink').forEach(a=>a.classList.remove('on')); return; }}
+  if(h.startsWith('/vertical/')) {{ renderVertical(decodeURIComponent(h.slice('/vertical/'.length).split('?')[0]));
     document.querySelectorAll('.navlink').forEach(a=>a.classList.remove('on')); return; }}
   const base=h.split('?')[0];
   const id=(Object.keys(ROUTES).find(k=>ROUTES[k].hash===base)) || 'a0';
@@ -1608,6 +1625,49 @@ function renderVendor(slug) {{
   host.innerHTML=html; window.scrollTo({{top:0,behavior:'smooth'}});
 }}
 
+/* ============ vertical (industry) detail page ============ */
+const vslug = s => (s||'').toLowerCase().replace(/[^a-z0-9]+/g,'-').replace(/^-|-$/g,'');
+let VERT_BY_SLUG=null;
+function renderVertical(slug) {{
+  goAltitude('vertical','Industry'); indexCompanies();
+  if(!VERT_BY_SLUG){{ VERT_BY_SLUG={{}}; (ATLAS.verticals||[]).forEach(v=>VERT_BY_SLUG[vslug(v)]=v); }}
+  const v=VERT_BY_SLUG[slug]; const host=document.getElementById('verticalBody');
+  if(!v){{ host.innerHTML='<h2>Industry not found</h2><p class="lede"><a href="#/open">← opportunities</a></p>'; return; }}
+  crumbs.innerHTML='<span style="cursor:pointer" onclick="goRoute(\\'a0\\')">Orbit</span> <span class="sep">›</span> <span class="here">'+esc(v)+'</span>';
+  const tot=(ATLAS.vert_totals_global||[]).find(t=>t.v===v)||{{n:0,confirmed:0,withnum:0}};
+  const cells={{}}; (ATLAS.grid_global||[]).forEach(c=>{{ if(c.v===v) cells[c.h]=c; }});
+  const cos=ATLAS.companies.filter(c=>!c.silent && c.vertical===v).sort((a,b)=>b.deployments-a.deployments);
+  const nCos=cos.length;
+  const openFns=(ATLAS.horizontals||[]).filter(h=>!cells[h]);
+  const maxN=Math.max(1,...(ATLAS.horizontals||[]).map(h=>cells[h]?cells[h].n:0));
+  // function breakdown bars (link each to the grid cell drill-down)
+  const fnRows=(ATLAS.horizontals||[]).map(h=>{{
+    const c=cells[h]; const n=c?c.n:0; const wn=c?c.withnum:0; const col=FN_COLOR[h]||'var(--muted)';
+    const w=(100*n/maxN).toFixed(1);
+    const bar=n? `<a class="vbar" href="#/grid" onclick="setTimeout(()=>openCell('${{esc(v)}}','${{esc(h)}}'),60)" title="${{n}} deployments — click for companies">`
+        + `<span class="vbar-fill" style="width:${{w}}%;background:color-mix(in srgb,${{col}} 55%,var(--surface));border-color:${{col}}"></span>`
+        + `<span class="vbar-n">${{n.toLocaleString()}}${{wn?` <span class="vbar-wn">· ${{wn}} with a number</span>`:''}}</span></a>`
+      : `<span class="vbar vbar-empty">— open territory (no deployment found yet)</span>`;
+    return `<div class="vrow"><span class="vrow-h" style="color:${{col}}">${{esc(h)}}</span>${{bar}}</div>`;
+  }}).join('');
+  const coChips=cos.slice(0,60).map(c=>`<a class="colink" href="#/company/${{c.slug}}">${{esc(c.name)}}</a>`).join(' · ')
+    + (nCos>60?` <span class="footnote">… +${{nCos-60}} more</span>`:'');
+  host.innerHTML=`<a class="backup" href="#/open">← opportunities</a>
+    <h2 style="margin:0">${{esc(v)}} <span style="font-size:14px;color:var(--muted)">· industry</span></h2>
+    <p class="lede" style="margin-top:6px">AI deployment across the six business functions for <b>${{esc(v)}}</b>.
+    ${{openFns.length? `<b>${{openFns.length}}</b> function${{openFns.length===1?'':'s'}} still show open territory (${{openFns.map(esc).join(', ')}}).` : 'Every function has at least one found deployment.'}}</p>
+    <div class="ckpis">
+      <div class="ckpi"><div class="n">${{(tot.n||0).toLocaleString()}}</div><div class="l">deployments</div></div>
+      <div class="ckpi"><div class="n">${{(tot.confirmed||0).toLocaleString()}}</div><div class="l">confirmed</div></div>
+      <div class="ckpi"><div class="n">${{nCos.toLocaleString()}}</div><div class="l">companies</div></div>
+      <div class="ckpi"><div class="n">${{tot.n?Math.round(100*(tot.withnum||0)/tot.n):0}}%</div><div class="l">cite a number</div></div>
+    </div>
+    <h3 class="csub">By business function</h3><div class="vbars">${{fnRows}}</div>
+    <h3 class="csub">Companies in ${{esc(v)}} (${{nCos}})</h3><div class="uc-runners">${{coChips||'<span class="footnote">No companies found in scope.</span>'}}</div>
+    <p class="footnote">Counts are deployments we sourced — a coverage floor, not a census. Click a function bar to see the companies behind it.</p>`;
+  window.scrollTo({{top:0,behavior:'smooth'}});
+}}
+
 /* ============ D9 USE-CASE CATALOG + DETAIL ============ */
 let ucWired=false;
 function renderUsecases() {{
@@ -1846,8 +1906,8 @@ function drawOpen() {{
         return `<span class="open-fn" data-n="${{n}}" data-fnc="${{c}}" data-h="${{esc(h)}}">`
              + `<span class="lbl">${{esc(h)}}</span><span class="cnt" data-role="cnt"></span></span>`;
       }}).join('');
-      // vertical heading links to that industry's use-cases view (its de-facto vertical page)
-      return `<div class="open-card" data-v="${{esc(v)}}"><h4><a class="vlink" href="#/usecases?vertical=${{encodeURIComponent(v)}}">${{esc(v)}}</a></h4><div class="open-fns">${{pills}}</div></div>`;
+      // vertical heading links to that industry's dedicated page
+      return `<div class="open-card" data-v="${{esc(v)}}"><h4><a class="vlink" href="#/vertical/${{vslug(v)}}">${{esc(v)}}</a></h4><div class="open-fns">${{pills}}</div></div>`;
     }}).join('');
     // legend (function colours) — only meaningful on the Open side; kept stable
     document.getElementById('openLegend').innerHTML=`<div class="open-legend">`+fns.map(h=>
