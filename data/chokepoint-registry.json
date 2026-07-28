@@ -1,0 +1,61 @@
+{
+  "_meta": {
+    "what": "Hand-curated registry of upstream chokepoint holders in the AI hardware production chain. Per KARTO nation-axis spec v3 (finding F3'): this is a GLOBAL STATIC FACT, authored once and joined onto country records at build time. It is NEVER filled by the per-country extraction pass (a schema-filling LLM would launder the author's prior and, as review 2 proved, miss the two biggest holders — US and China).",
+    "maintenance": "~10 holders worldwide; set changes on a multi-year timescale. Review manually ~annually or on a major export-control / capacity shift.",
+    "authored": "2026-07-28",
+    "node_meaning": "A chokepoint node = the country holds a position in the AI hardware stack that others cannot easily route around. Downstream AI consumers depend on these nodes; the nodes are the leverage points on the geopolitical board.",
+    "sources_are_illustrative": "Each holder lists the canonical public reference for the claim; these are the well-documented, widely-reported chokepoints, not exhaustive."
+  },
+  "layers": [
+    "EDA (chip design software)",
+    "Leading-edge logic fab",
+    "Memory fab (HBM/DRAM)",
+    "Lithography (EUV/DUV)",
+    "Advanced packaging / OSAT",
+    "Critical materials & gases",
+    "GPU / accelerator design",
+    "Fab equipment (deposition/etch/metrology)"
+  ],
+  "holders": {
+    "USA": {
+      "nodes": ["EDA (chip design software)", "GPU / accelerator design", "Fab equipment (deposition/etch/metrology)"],
+      "detail": "EDA duopoly (Synopsys, Cadence); Nvidia/AMD GPU design; fab-equipment majors (Applied Materials, Lam Research, KLA). Also the author of the export-control regime itself.",
+      "source": "https://www.congress.gov/crs-product/R48642"
+    },
+    "China": {
+      "nodes": ["Critical materials & gases"],
+      "detail": "Dominant refiner of gallium, germanium, rare earths; imposed export controls on gallium/germanium (2023) and rare-earth tech (2024-25), actively weaponized. Downstream chokehold on compound semis and magnets.",
+      "source": "https://www.csis.org/analysis/chinas-gallium-and-germanium-controls-what-they-mean-and-what-could-come-next"
+    },
+    "Taiwan": {
+      "nodes": ["Leading-edge logic fab", "Advanced packaging / OSAT"],
+      "detail": "TSMC — the overwhelming majority of leading-edge (<=5nm) logic and CoWoS advanced packaging for AI accelerators.",
+      "source": "https://www.tsmc.com/english/dedicatedFoundry/technology/logic"
+    },
+    "Netherlands": {
+      "nodes": ["Lithography (EUV/DUV)"],
+      "detail": "ASML — sole producer of EUV lithography; no leading-edge chip exists without an ASML machine.",
+      "source": "https://www.asml.com/en/products/euv-lithography-systems"
+    },
+    "South Korea": {
+      "nodes": ["Memory fab (HBM/DRAM)"],
+      "detail": "Samsung + SK hynix — the majority of HBM (high-bandwidth memory) that every AI accelerator requires.",
+      "source": "https://www.skhynix.com/products.do?ct1=71&ct2=74&lang=eng"
+    },
+    "Japan": {
+      "nodes": ["Critical materials & gases", "Fab equipment (deposition/etch/metrology)"],
+      "detail": "Photoresists and specialty materials (JSR, Tokyo Ohka, Shin-Etsu — silicon wafers); equipment (Tokyo Electron). Materials chokepoint demonstrated in the 2019 Japan-Korea dispute.",
+      "source": "https://www.shinetsu.co.jp/en/products/semiconductor/"
+    },
+    "Israel": {
+      "nodes": ["GPU / accelerator design"],
+      "detail": "Major accelerator/chip design centers (Nvidia's largest R&D outside the US via Mellanox; Intel Habana). Design node, not fabrication.",
+      "source": "https://nvidianews.nvidia.com/news/nvidia-mellanox"
+    }
+  },
+  "notes_on_boundary_calls": {
+    "Germany": "Zeiss supplies the optics inside every ASML EUV machine — a real sub-node, but folded under the Netherlands/ASML chokepoint rather than listed as an independent holder. Flag if precision needed.",
+    "Malaysia": "Significant OSAT (assembly/test) capacity but not a chokepoint (substitutable); NOT listed.",
+    "Singapore": "Wafer fabs and equipment presence but downstream/substitutable; NOT a chokepoint. It appears in the country set as a hyperscaler-hosted archetype, not a node holder."
+  }
+}

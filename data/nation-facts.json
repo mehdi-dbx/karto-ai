@@ -1,0 +1,1385 @@
+{
+  "_meta": {
+    "spec": "nation-axis-spec-v3",
+    "generated": "2026-07-28T22:29:07Z",
+    "validated": true,
+    "validation_counts": {
+      "no_source": 9,
+      "banned": 0,
+      "degraded": 7,
+      "soft_date": 7,
+      "thin_premise": 0,
+      "retier": 0,
+      "no_snapshot": 2,
+      "aspiration": 3,
+      "future_date": 0
+    },
+    "reads_generated_post_validation": true
+  },
+  "records": [
+    {
+      "country": "United States",
+      "iso3": "USA",
+      "iso2": "US",
+      "region": "AMER",
+      "strategy_url": "https://www.whitehouse.gov/wp-content/uploads/2025/07/Americas-AI-Action-Plan.pdf",
+      "strategy_extraction": "ok",
+      "facts": {
+        "funding": [
+          {
+            "value": "$1.2 billion",
+            "figure_scope": "national-program",
+            "period": "FY27",
+            "status": "announced",
+            "summary": "The Trump Administration's FY27 budget initiatives include $1.2 billion in AIQ funding, derived from programs established by the Biden Infrastructure Investment and Jobs Act.",
+            "source_url": "https://federalbudgetiq.com/insights/civilian-agency-fy27-trump-budget-initiatives/",
+            "source_date": "2026-04-27",
+            "source_tier": "secondary"
+          }
+        ],
+        "procurement_access": {
+          "value": "open-tender",
+          "summary": "The United States is a party to the WTO Agreement on Government Procurement (GPA), which establishes an agreed framework of rights and obligations for government procurement, indicating an open-tender system.",
+          "source_url": "https://www.wto.org/english/tratop_e/gproc_e/gpa_overview_e.htm",
+          "source_date": "not-stated",
+          "source_tier": "primary",
+          "flag": [
+            "soft-date"
+          ]
+        },
+        "apparatus": {
+          "value": "Chief Artificial Intelligence Officer Council (CAIOC)",
+          "summary": "The Chief Artificial Intelligence Officer Council (CAIOC) is formalized as the primary venue for interagency coordination and collaboration on AI adoption, with various federal agencies like DOD, DOC, and DOE actively involved in implementing AI initiatives.",
+          "source_url": "https://www.whitehouse.gov/wp-content/uploads/2025/07/Americas-AI-Action-Plan.pdf",
+          "source_date": "2025-07-10",
+          "source_tier": "primary",
+          "confirmed_active": true
+        },
+        "compute_band": {
+          "value": "GW-scale",
+          "mw": null,
+          "as_of": "2024",
+          "summary": "Tens of GW; data centers = 4% of US electricity 2024. Largest market on earth.",
+          "source_url": "https://www.iea.org/reports/energy-and-ai/energy-demand-from-ai",
+          "source_tier": "aggregator"
+        },
+        "compute_control": {
+          "value": "mixed",
+          "summary": "The U.S. relies on hyperscalers for general compute access for startups and academics, but also plans to build high-security data centers and classified compute environments for military and intelligence community usage, indicating a mixed control approach.",
+          "source_url": "https://www.whitehouse.gov/wp-content/uploads/2025/07/Americas-AI-Action-Plan.pdf",
+          "source_date": "2025-07-10",
+          "source_tier": "primary",
+          "flag": [
+            "aspiration-not-infra"
+          ]
+        },
+        "chip_regime": {
+          "value": "The U.S. maintains and strengthens export controls on advanced AI compute and semiconductor manufacturing technology, including sub-systems, to deny foreign adversaries access, leveraging tools like the Foreign Direct Product Rule and seeking international alignment.",
+          "effective_date": "not-stated",
+          "summary": "The U.S. actively implements and seeks to strengthen export controls on advanced AI compute and semiconductor manufacturing technology, including sub-systems, to prevent foreign adversaries from acquiring these resources, utilizing mechanisms like the Foreign Direct Product Rule and encouraging allies to adopt similar measures.",
+          "source_url": "https://www.whitehouse.gov/wp-content/uploads/2025/07/Americas-AI-Action-Plan.pdf",
+          "source_date": "2025-07-10",
+          "source_tier": "primary"
+        },
+        "power_posture": {
+          "value": "constrained",
+          "summary": "The U.S. electric grid is described as facing challenges and having stagnated since the 1970s, requiring vast upgrades and expansion to support the energy-intensive demands of AI innovation, indicating a constrained power posture.",
+          "source_url": "https://www.whitehouse.gov/wp-content/uploads/2025/07/Americas-AI-Action-Plan.pdf",
+          "source_date": "2025-07-10",
+          "source_tier": "primary"
+        },
+        "national_champion": null,
+        "military_ai": {
+          "value": "active",
+          "summary": "The Department of Defense (DOD) is actively driving AI adoption within its Armed Forces to maintain global military preeminence, with specific policy actions including talent development programs, establishing an AI & Autonomous Systems Virtual Proving Ground, and prioritizing agreements for computing resources during national emergencies.",
+          "source_url": "https://www.whitehouse.gov/wp-content/uploads/2025/07/Americas-AI-Action-Plan.pdf",
+          "source_date": "2025-07-10",
+          "source_tier": "primary"
+        },
+        "ethics_stance": {
+          "value": "stated-generic",
+          "summary": "The U.S. AI Action Plan emphasizes ensuring AI protects free speech and American values, and that AI systems are free from ideological bias, reflecting a generic ethical stance focused on objective truth and American principles, rather than specific regulatory frameworks from law.",
+          "source_url": "https://www.whitehouse.gov/wp-content/uploads/2025/07/Americas-AI-Action-Plan.pdf",
+          "source_date": "2025-07-10",
+          "source_tier": "primary"
+        },
+        "sectors": [
+          "manufacturing",
+          "healthcare",
+          "energy",
+          "agriculture",
+          "education",
+          "defense",
+          "intelligence",
+          "cybersecurity",
+          "biosecurity"
+        ],
+        "general_idea": "The United States aims for unquestioned global technological dominance in AI, viewing it as a national security imperative and a driver for economic competitiveness and human flourishing. The strategy focuses on accelerating private-sector-led innovation by removing regulatory barriers, building robust AI infrastructure including energy and semiconductor manufacturing, and leading in international AI diplomacy and security by exporting American AI and strengthening export controls against adversaries. Key principles include a worker-first agenda, ensuring AI systems are free from ideological bias, and preventing misuse by malicious actors, with a strong emphasis on military AI adoption and securing critical infrastructure.",
+        "opportunity_read": "Because funding status is announced and procurement_access is open-tender, opportunities exist for contractors to engage with the U.S. AI ecosystem. The U.S. operates at a GW-scale compute_band with mixed compute_control, indicating significant infrastructure and varied access models. Furthermore, the U.S. maintains and strengthens export controls on advanced AI compute and semiconductor manufacturing technology, including sub-systems, to deny foreign adversaries access, leveraging tools like the Foreign Direct Product Rule and seeking international alignment, while military_ai is active across sectors including defense and intelligence."
+      },
+      "chokepoint_node": {
+        "value": [
+          "EDA (chip design software)",
+          "GPU / accelerator design",
+          "Fab equipment (deposition/etch/metrology)"
+        ],
+        "detail": "EDA duopoly (Synopsys, Cadence); Nvidia/AMD GPU design; fab-equipment majors (Applied Materials, Lam Research, KLA). Also the author of the export-control regime itself.",
+        "source_url": "https://www.congress.gov/crs-product/R48642",
+        "source_tier": "industry"
+      },
+      "_joined": {
+        "compute_band_harvested": {
+          "value": "GW-scale",
+          "summary": "Northern Virginia, a major U.S. data center hub, has over 300 facilities with an inventory of 4,039.6 MW, indicating GW-scale compute capacity.",
+          "source_url": "https://brightlio.com/largest-data-centers-in-us/",
+          "source_date": "2026",
+          "source_tier": "secondary"
+        }
+      },
+      "_provenance": {
+        "strategy_snapshot": "http://web.archive.org/web/20260727153705/https://www.whitehouse.gov/wp-content/uploads/2025/07/Americas-AI-Action-Plan.pdf",
+        "harvested_at": "2026-07-28T22:24:23Z",
+        "streams": {
+          "news": 12,
+          "infra": 1,
+          "procurement": 3,
+          "law": 5
+        },
+        "tokens": {
+          "in": 17212,
+          "out": 1529
+        }
+      }
+    },
+    {
+      "country": "China",
+      "iso3": "CHN",
+      "iso2": "CN",
+      "region": "APAC",
+      "strategy_url": "https://digichina.stanford.edu/work/full-translation-chinas-new-generation-artificial-intelligence-development-plan-2017/",
+      "strategy_extraction": "ok",
+      "facts": {
+        "funding": [
+          {
+            "value": "~$15B",
+            "figure_scope": "multi-year-total",
+            "period": "2023",
+            "status": "announced",
+            "summary": "Estimated direct central government investment in AI in 2023, as reported by a secondary source.",
+            "source_url": "https://cset.georgetown.edu/wp-content/uploads/Chinese-Public-AI-RD-Spending-Provisional-Findings-1.pdf",
+            "source_date": "2019",
+            "source_tier": "secondary"
+          },
+          {
+            "value": "~$45B",
+            "figure_scope": "multi-year-total",
+            "period": "2023",
+            "status": "announced",
+            "summary": "Estimated provincial and municipal government investment in AI in 2023, as reported by a secondary source.",
+            "source_url": "https://cset.georgetown.edu/wp-content/uploads/Chinese-Public-AI-RD-Spending-Provisional-Findings-1.pdf",
+            "source_date": "2019",
+            "source_tier": "secondary"
+          },
+          {
+            "value": "~$30B",
+            "figure_scope": "multi-year-total",
+            "period": "2023",
+            "status": "announced",
+            "summary": "Estimated state-owned enterprise investment in AI in 2023, as reported by a secondary source.",
+            "source_url": "https://cset.georgetown.edu/wp-content/uploads/Chinese-Public-AI-RD-Spending-Provisional-Findings-1.pdf",
+            "source_date": "2019",
+            "source_tier": "secondary"
+          }
+        ],
+        "procurement_access": {
+          "value": "offset-localization",
+          "summary": "China has not joined the WTO Government Procurement Agreement (GPA), meaning it has few obligations to allow foreign companies to bid on public procurements, and Chinese companies embrace local content, production, and technology transfer requirements.",
+          "source_url": "https://www.trade.gov/country-commercial-guides/china-selling-public-sector",
+          "source_date": "2025-09-25",
+          "source_tier": "secondary"
+        },
+        "apparatus": {
+          "value": "Ministry of Science and Technology",
+          "summary": "The Ministry of Science and Technology (MOST) is responsible for implementing China's New Generation Artificial Intelligence Development Plan and houses the AI Plan Implementation Office, with overall coordination led by the National Science and Technology Structural Reform and Innovation System Construction Leading Small Group.",
+          "source_url": "https://digichina.stanford.edu/work/full-translation-chinas-new-generation-artificial-intelligence-development-plan-2017/",
+          "source_date": "2017-08-01",
+          "source_tier": "primary",
+          "confirmed_active": true
+        },
+        "compute_band": {
+          "value": "GW-scale",
+          "mw": 32000,
+          "as_of": "2025",
+          "summary": "~32 GW installed end-2025, projected 40 GW end-2026.",
+          "source_url": "https://www.rystadenergy.com/news/chinas-data-center-capacity-doubling-of-power",
+          "source_tier": "aggregator"
+        },
+        "compute_control": {
+          "value": "sovereign",
+          "summary": "China's 2017 AI Development Plan emphasizes building high-performance computing infrastructure, including supercomputing centers, distributed computing, and cloud computing centers, indicating a strategic focus on sovereign control over compute resources.",
+          "source_url": "https://digichina.stanford.edu/work/full-translation-chinas-new-generation-artificial-intelligence-development-plan-2017/",
+          "source_date": "2017-08-01",
+          "source_tier": "primary",
+          "flag": [
+            "aspiration-not-infra"
+          ]
+        },
+        "chip_regime": null,
+        "power_posture": {
+          "value": "unknown",
+          "summary": "The provided bundles do not contain information regarding China's power posture for compute infrastructure.",
+          "source_url": null,
+          "source_date": "not-found",
+          "source_tier": "unknown"
+        },
+        "national_champion": {
+          "value": null,
+          "summary": "While China's 2017 AI Development Plan aims to cultivate a number of the world's leading AI backbone enterprises and accelerate the fostering of AI industry-leading enterprises, no specific companies are named as national champions in the provided bundles.",
+          "source_url": "https://digichina.stanford.edu/work/full-translation-chinas-new-generation-artificial-intelligence-development-plan-2017/",
+          "source_date": "2017-08-01",
+          "source_tier": "primary"
+        },
+        "military_ai": {
+          "value": "active",
+          "summary": "China actively pursues a centrally orchestrated, dual-use AI strategy with a focus on military supremacy, integrating AI into the PLA for surveillance, information manipulation, and advanced military applications like unmanned combat systems and equipment, with the Ministry of National Defense establishing new AI and unmanned systems research organizations.",
+          "source_url": "https://www.mindfoundry.ai/blog/international-ai-strategies-for-defence-and-national-security?hs_amp=true",
+          "source_date": "2025-06-02",
+          "source_tier": "secondary"
+        },
+        "ethics_stance": {
+          "value": "state-control",
+          "summary": "While China's 2017 AI Development Plan mentions establishing ethical norms, the country has implemented specific regulations like the Algorithm Recommendation Regulations (March 2022), Deep Synthesis Regulations (January 2023), and Generative AI Measures (2023), which impose de-facto state control over AI services by requiring compliance with data security, personal information protection, and content moderation laws.",
+          "source_url": "https://www.pertamapartners.com/insights/china-ai-regulations",
+          "source_date": "2026-02-01",
+          "source_tier": "secondary"
+        },
+        "sectors": [
+          "manufacturing",
+          "agriculture",
+          "logistics",
+          "finance",
+          "commerce",
+          "household goods",
+          "education",
+          "medical care",
+          "elder care",
+          "government administration",
+          "judicial management",
+          "urban management",
+          "environmental protection",
+          "transportation",
+          "public safety"
+        ],
+        "general_idea": "China's AI posture is characterized by a comprehensive, top-down national strategy, the 'New Generation Artificial Intelligence Development Plan' (2017), aiming for world leadership in AI by 2030. The strategy emphasizes both civilian and military applications, fostering a high-end intelligent economy, and constructing a safe and convenient intelligent society. While aspiring to global leadership, China acknowledges gaps in foundational research and core technologies. The state plays a dominant role in guiding investment, fostering national champions, and implementing a robust regulatory framework that imposes significant state control over AI development and application, particularly concerning data, algorithms, and content.",
+        "opportunity_read": "Because funding status is announced for multi-year totals of ~$15B, ~$45B, and ~$30B, and procurement_access is offset-localization, there is a clear signal for substantial, localized AI development. The nation's compute_band is GW-scale and compute_control is sovereign, indicating significant domestic infrastructure and control. Furthermore, military_ai is active, and a chokepoint_node exists in critical materials & gases, suggesting strategic priorities and potential areas for focused engagement."
+      },
+      "chokepoint_node": {
+        "value": [
+          "Critical materials & gases"
+        ],
+        "detail": "Dominant refiner of gallium, germanium, rare earths; imposed export controls on gallium/germanium (2023) and rare-earth tech (2024-25), actively weaponized. Downstream chokehold on compound semis and magnets.",
+        "source_url": "https://www.csis.org/analysis/chinas-gallium-and-germanium-controls-what-they-mean-and-what-could-come-next",
+        "source_tier": "industry"
+      },
+      "_joined": {
+        "compute_band_harvested": {
+          "value": "unknown",
+          "summary": "No specific data center capacity figures (in MW or GW) are available in the provided infrastructure bundle.",
+          "source_url": null,
+          "source_date": "not-found",
+          "source_tier": "unknown"
+        }
+      },
+      "_provenance": {
+        "strategy_snapshot": "http://web.archive.org/web/20260722223935/https://digichina.stanford.edu/work/full-translation-chinas-new-generation-artificial-intelligence-development-plan-2017/",
+        "harvested_at": "2026-07-28T22:24:55Z",
+        "streams": {
+          "news": 12,
+          "infra": 0,
+          "procurement": 4,
+          "law": 5
+        },
+        "tokens": {
+          "in": 17859,
+          "out": 1731
+        }
+      }
+    },
+    {
+      "country": "United Arab Emirates",
+      "iso3": "ARE",
+      "iso2": "AE",
+      "region": "MENA",
+      "strategy_url": "https://u.ae/en/about-the-uae/strategies-initiatives-and-awards/strategies-plans-and-visions/innovation-and-future-shaping",
+      "strategy_extraction": "ok",
+      "facts": {
+        "funding": [],
+        "procurement_access": {
+          "value": "offset-localization",
+          "summary": "The UAE's government procurement operates on a two-tier system (federal and emirate levels) with specific provisions, and practices may include 'offsets' that encourage local development.",
+          "source_url": "https://www.trade.gov/country-commercial-guides/united-arab-emirates-selling-public-sector",
+          "source_date": "Aug 26, 2025",
+          "source_tier": "secondary"
+        },
+        "apparatus": {
+          "value": "AI Minister",
+          "summary": "The UAE appointed the world's first Minister for AI, Omar bin Sultan Al Olama, in 2017, indicating a dedicated government apparatus for AI strategy and implementation.",
+          "source_url": "https://www.bakerinstitute.org/sites/default/files/2026-04/20260410_Global%20AI%20Race.pdf",
+          "source_date": "2026-04-10",
+          "source_tier": "secondary",
+          "confirmed_active": true
+        },
+        "compute_band": {
+          "value": "100-1000MW",
+          "mw": 358,
+          "as_of": "2025",
+          "summary": "~358 MW current, set to ~950 MW by 2028 (+165%).",
+          "source_url": "https://www.emiratesnbdresearch.com/-/media/emirates_nbd_research_-_macro_economics_10142025.pdf",
+          "source_tier": "aggregator"
+        },
+        "compute_control": {
+          "value": "unknown",
+          "summary": "The provided bundles do not contain information detailing whether the UAE's compute infrastructure is sovereign, hosted by hyperscalers, or a mixed model.",
+          "source_url": null,
+          "source_date": "not-found",
+          "source_tier": "not-found"
+        },
+        "chip_regime": null,
+        "power_posture": {
+          "value": "unknown",
+          "summary": "The provided bundles do not offer information regarding the UAE's power availability or posture for supporting large-scale compute infrastructure.",
+          "source_url": null,
+          "source_date": "not-found",
+          "source_tier": "not-found"
+        },
+        "national_champion": null,
+        "military_ai": {
+          "value": "active",
+          "summary": "The UAE is actively pursuing military AI, evidenced by its National Defence Strategy 2023 listing AI as a key priority, and a recent agreement with the US to form a bilateral task force for developing AI tools for military purposes.",
+          "source_url": "https://www.thenationalnews.com/future/technology/2026/07/28/uae-and-us-centcom-to-create-bilateral-ai-task-force/",
+          "source_date": "2026-07-28",
+          "source_tier": "secondary"
+        },
+        "ethics_stance": {
+          "value": "stated-generic",
+          "summary": "The UAE has established a comprehensive framework to regulate AI, integrating its federal Personal Data Protection Law (PDPL, Decree-Law 45/2021) with ethical guidelines and policies to ensure responsible AI development, alongside a non-binding UAE Charter for AI (2024).",
+          "source_url": "https://thecompliancedigest.com/ai-and-data-protection-regulation-what-businesses-need-to-know/",
+          "source_date": "not-found",
+          "source_tier": "secondary"
+        },
+        "sectors": [
+          "economy",
+          "defense",
+          "government",
+          "education",
+          "health",
+          "regulatory intelligence",
+          "law"
+        ],
+        "general_idea": "The United Arab Emirates has a highly ambitious and proactive national AI strategy, aiming to be a global leader and diversify its economy by 2031. It was the first nation to appoint an AI minister and is integrating AI across various government functions, including law-making and regulatory intelligence, with a target of 50% AI in government by 2028. The country is also actively pursuing military AI applications, including a bilateral task force with the US. While a comprehensive regulatory framework is being developed, integrating data protection laws and ethical guidelines, specific large-scale AI funding or compute infrastructure details are not explicitly stated in the provided information.",
+        "opportunity_read": null
+      },
+      "chokepoint_node": {
+        "value": "none",
+        "detail": null,
+        "source_url": null,
+        "source_tier": "n/a"
+      },
+      "_joined": {
+        "compute_band_harvested": {
+          "value": "unknown",
+          "summary": "Information regarding the UAE's national compute capacity in terms of power consumption (MW/GW) is not available in the provided bundles.",
+          "source_url": null,
+          "source_date": "not-found",
+          "source_tier": "not-found"
+        }
+      },
+      "_provenance": {
+        "strategy_snapshot": "http://web.archive.org/web/20260421032447/https://u.ae/en/about-the-uae/strategies-initiatives-and-awards/strategies-plans-and-visions/innovation-and-future-shaping",
+        "harvested_at": "2026-07-28T22:25:24Z",
+        "streams": {
+          "news": 12,
+          "infra": 0,
+          "procurement": 6,
+          "law": 2
+        },
+        "tokens": {
+          "in": 3311,
+          "out": 1052
+        }
+      }
+    },
+    {
+      "country": "Saudi Arabia",
+      "iso3": "SAU",
+      "iso2": "SA",
+      "region": "MENA",
+      "strategy_url": "https://sdaia.gov.sa/en/SDAIA/SdaiaStrategies/Pages/NationalStrategyForDataAndAI.aspx",
+      "strategy_extraction": "ok",
+      "facts": {
+        "funding": [
+          {
+            "value": "$40 billion",
+            "figure_scope": "investment-fund",
+            "period": "2024",
+            "status": "announced",
+            "summary": "Saudi Arabia plans to create a $40 billion fund to invest in artificial intelligence, as reported in March 2024.",
+            "source_url": "https://www.nytimes.com/2024/03/19/business/saudi-arabia-investment-artificial-intelligence.html",
+            "source_date": "2024-03-19",
+            "source_tier": "secondary"
+          },
+          {
+            "value": "$1.2 billion",
+            "figure_scope": "single-initiative",
+            "period": "2025",
+            "status": "announced",
+            "summary": "A $1.2 billion funding round was confirmed in 2025 to expand Saudi Arabia's AI infrastructure.",
+            "source_url": "https://vision2030.ai/sectors/technology/ai-strategy/",
+            "source_date": "2026-05-06",
+            "source_tier": "secondary"
+          }
+        ],
+        "procurement_access": {
+          "value": "unknown",
+          "summary": "Information regarding Saudi Arabia's specific procurement access policies for AI-related goods and services is not available in the provided bundles.",
+          "source_url": null,
+          "source_date": "not-found",
+          "source_tier": "unknown"
+        },
+        "apparatus": {
+          "value": "Saudi Data & AI Authority (SDAIA)",
+          "summary": "The Saudi Data & Artificial Intelligence Authority (SDAIA) was established to drive the national agenda for Data & AI, guiding and facilitating the implementation of the National Strategy for Data & AI across government entities.",
+          "source_url": "https://sdaia.gov.sa/en/SDAIA/SdaiaStrategies/Pages/NationalStrategyForDataAndAI.aspx",
+          "source_date": "2020-07-17",
+          "source_tier": "primary",
+          "confirmed_active": true
+        },
+        "compute_band": {
+          "value": "100-1000MW",
+          "mw": 440,
+          "as_of": "2025",
+          "summary": "440 MW operational 2025 (from 68 MW in 2021); 2nd globally in market attractiveness.",
+          "source_url": "https://www.spa.gov.sa/en/N2575816",
+          "source_tier": "aggregator"
+        },
+        "compute_control": {
+          "value": "unknown",
+          "summary": "Information regarding the control model (sovereign, hyperscaler-hosted, or mixed) for Saudi Arabia's AI compute infrastructure is not available in the provided bundles.",
+          "source_url": null,
+          "source_date": "not-found",
+          "source_tier": "unknown"
+        },
+        "chip_regime": null,
+        "power_posture": {
+          "value": "unknown",
+          "summary": "Information regarding Saudi Arabia's power posture (abundant or constrained) for supporting AI compute infrastructure is not available in the provided bundles.",
+          "source_url": null,
+          "source_date": "not-found",
+          "source_tier": "unknown"
+        },
+        "national_champion": null,
+        "military_ai": {
+          "value": "active",
+          "summary": "Saudi Arabia's Ministry of Defense has implemented strategic initiatives to promote AI research and integration into defense platforms, with discussions ongoing about developing 'AI-enhanced' or 'AI-native' defense systems.",
+          "source_url": "https://uk.finance.yahoo.com/news/saudi-arabia-artificial-intelligence-ai-161200114.html",
+          "source_date": "2024-11-18",
+          "source_tier": "secondary"
+        },
+        "ethics_stance": {
+          "value": "stated-generic",
+          "summary": "Saudi Arabia's National Strategy for Data & AI emphasizes the development of 'innovative, sustainable, practical, and ethical Data and AI applications,' while the Personal Data Protection Law (PDPL) provides a framework for data privacy, which became fully enforceable in 2024.",
+          "source_url": "https://sdaia.gov.sa/en/SDAIA/SdaiaStrategies/Pages/NationalStrategyForDataAndAI.aspx",
+          "source_date": "2020-07-17",
+          "source_tier": "primary"
+        },
+        "sectors": [
+          "Education",
+          "Government",
+          "Healthcare",
+          "Energy",
+          "Mobility"
+        ],
+        "general_idea": "Saudi Arabia is aggressively pursuing a leadership position in data and AI, driven by its National Strategy for Data & AI (NSDAI) under Vision 2030. The Saudi Data & Artificial Intelligence Authority (SDAIA) spearheads this national agenda, aiming to attract significant investments and cultivate a robust ecosystem. The country has declared 2026 as the 'Year of Artificial Intelligence' and is actively integrating AI into its defense sector. While emphasizing ethical and responsible AI development, its regulatory framework is primarily anchored by data protection laws, with specific AI regulations still emerging.",
+        "opportunity_read": null
+      },
+      "chokepoint_node": {
+        "value": "none",
+        "detail": null,
+        "source_url": null,
+        "source_tier": "n/a"
+      },
+      "_joined": {
+        "compute_band_harvested": {
+          "value": "unknown",
+          "summary": "Information regarding Saudi Arabia's national compute capacity band for AI infrastructure is not available in the provided bundles.",
+          "source_url": null,
+          "source_date": "not-found",
+          "source_tier": "unknown"
+        }
+      },
+      "_provenance": {
+        "strategy_snapshot": "http://web.archive.org/web/20260720152649/https://sdaia.gov.sa/en/SDAIA/SdaiaStrategies/Pages/NationalStrategyForDataAndAI.aspx",
+        "harvested_at": "2026-07-28T22:25:53Z",
+        "streams": {
+          "news": 12,
+          "infra": 0,
+          "procurement": 4,
+          "law": 5
+        },
+        "tokens": {
+          "in": 4054,
+          "out": 1249
+        }
+      }
+    },
+    {
+      "country": "India",
+      "iso3": "IND",
+      "iso2": "IN",
+      "region": "APAC",
+      "strategy_url": "https://www.niti.gov.in/sites/default/files/2023-03/National-Strategy-for-Artificial-Intelligence.pdf",
+      "strategy_extraction": "ok",
+      "facts": {
+        "funding": [
+          {
+            "value": "₹10,371.92 crore ($1.25 billion)",
+            "figure_scope": "national-program",
+            "period": "five years",
+            "status": "announced",
+            "summary": "The Union Cabinet approved the IndiaAI Mission in March 2024, allocating approximately ₹10,371.92 crore (around $1.25 billion) over five years to build a national-level artificial intelligence initiative.",
+            "source_url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2245233&reg=3&lang=1",
+            "source_date": "2024-03-25",
+            "source_tier": "secondary",
+            "flag": [
+              "degraded-appropriated"
+            ]
+          }
+        ],
+        "procurement_access": {
+          "value": "offset-localization",
+          "summary": "India's government procurement practices include measures to encourage local development, such as domestic content requirements and technology licensing, which are often referred to as offsets.",
+          "source_url": "https://thedocs.worldbank.org/en/doc/6cd8fa0d6760c21355713a24aacd217c-0260012016/original/Cross-Analysis-Offsets-Practices-ECCO.pdf",
+          "source_date": "2016-11-03",
+          "source_tier": "secondary"
+        },
+        "apparatus": {
+          "value": "NITI Aayog",
+          "confirmed_active": true,
+          "summary": "NITI Aayog was mandated by the Finance Minister in 2018-2019 to establish the National Program on AI and is responsible for crafting the national strategy and implementing AI projects.",
+          "source_url": "https://www.niti.gov.in/sites/default/files/2023-03/National-Strategy-for-Artificial-Intelligence.pdf",
+          "source_date": "not-stated",
+          "source_tier": "primary",
+          "flag": [
+            "soft-date"
+          ]
+        },
+        "compute_band": {
+          "value": "GW-scale",
+          "mw": 1500,
+          "as_of": "2025",
+          "summary": "~1.5 GW mid-2025, up from 375-520 MW in 2020 (gov PIB + CBRE).",
+          "source_url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2239616",
+          "source_tier": "aggregator"
+        },
+        "compute_control": {
+          "value": "unknown",
+          "summary": "While India's national AI strategy suggests developing common computing and related infrastructure for AI, the provided bundles do not specify the current control model (sovereign, hyperscaler-hosted, or mixed) for AI compute.",
+          "source_url": "https://www.niti.gov.in/sites/default/files/2023-03/National-Strategy-for-Artificial-Intelligence.pdf",
+          "source_date": "not-stated",
+          "source_tier": "primary"
+        },
+        "chip_regime": null,
+        "power_posture": {
+          "value": "unknown",
+          "summary": "No information regarding India's power availability or posture for AI compute was found in the provided infrastructure bundle.",
+          "source_url": null,
+          "source_date": "not-found",
+          "source_tier": "unknown"
+        },
+        "national_champion": null,
+        "military_ai": {
+          "value": "stated",
+          "summary": "India has a strategic focus on leveraging AI for defense and national security, with official documents outlining the revolutionary potential of AI for the Indian Military and emphasizing technological self-reliance and innovation in this domain.",
+          "source_url": "https://www.impriindia.com/insights/india-ai-security-defence/",
+          "source_date": "2025-06-02",
+          "source_tier": "secondary"
+        },
+        "ethics_stance": {
+          "value": "stated-generic",
+          "summary": "India's national AI strategy discusses ethical considerations based on the FAT framework (Fairness, Accountability, and Transparency) and suggests establishing Ethics Councils at Centres of Research Excellence, but the provided law bundle does not detail specific AI ethics laws or regulations beyond data protection.",
+          "source_url": "https://www.niti.gov.in/sites/default/files/2023-03/National-Strategy-for-Artificial-Intelligence.pdf",
+          "source_date": "not-stated",
+          "source_tier": "primary",
+          "flag": [
+            "soft-date"
+          ]
+        },
+        "sectors": [
+          "Healthcare",
+          "Agriculture",
+          "Education",
+          "Smart Cities and Infrastructure",
+          "Smart Mobility and Transportation"
+        ],
+        "general_idea": "India's AI posture is characterized by a national strategy, 'AI for All,' focused on inclusive growth and leveraging AI to solve unique societal challenges. The country has established the IndiaAI Mission with significant funding to drive innovation and self-reliance. Key sectors for AI intervention include healthcare, agriculture, education, smart cities, and smart mobility. While there is a clear aspiration for developing common AI infrastructure and a stated focus on military AI, specific details on compute capacity and control remain unknown. India's regulatory approach includes a Data Protection Act, but a distinct AI ethics law is not yet evident, with the strategy emphasizing generic principles.",
+        "opportunity_read": "Because funding status is announced for a national-program figure of ₹10,371.92 crore ($1.25 billion) and procurement_access is offset-localization, there is a clear pathway for engagement. The nation's compute_band is GW-scale, indicating significant infrastructure. Furthermore, military_ai is stated, and key sectors like Healthcare, Agriculture, and Smart Cities are targeted, suggesting diverse application areas for AI solutions."
+      },
+      "chokepoint_node": {
+        "value": "none",
+        "detail": null,
+        "source_url": null,
+        "source_tier": "n/a"
+      },
+      "_joined": {
+        "compute_band_harvested": {
+          "value": "unknown",
+          "summary": "No information regarding India's national compute capacity in megawatts (MW) or gigawatts (GW) was found in the provided infrastructure bundle.",
+          "source_url": null,
+          "source_date": "not-found",
+          "source_tier": "unknown"
+        }
+      },
+      "_provenance": {
+        "strategy_snapshot": "http://web.archive.org/web/20260302030419/https://www.niti.gov.in/sites/default/files/2023-03/National-Strategy-for-Artificial-Intelligence.pdf",
+        "harvested_at": "2026-07-28T22:26:21Z",
+        "streams": {
+          "news": 12,
+          "infra": 0,
+          "procurement": 4,
+          "law": 3
+        },
+        "tokens": {
+          "in": 21147,
+          "out": 1268
+        }
+      }
+    },
+    {
+      "country": "South Korea",
+      "iso3": "KOR",
+      "iso2": "KR",
+      "region": "APAC",
+      "strategy_url": "https://www.msit.go.kr/eng/",
+      "strategy_extraction": "ok",
+      "facts": {
+        "funding": [
+          {
+            "value": "10.1 trillion won (USD 7.27 billion)",
+            "figure_scope": "national-program",
+            "period": "2026",
+            "status": "announced",
+            "summary": "South Korea's 2026 national budget allocates 10.1 trillion won (approximately USD 7.27 billion) specifically for artificial intelligence initiatives, aiming to accelerate the country's goal of becoming a top-three AI power.",
+            "source_url": "https://kmoonshot.com/investment/korea-ai-budget-2026/",
+            "source_date": "2025-11-04",
+            "source_tier": "secondary",
+            "flag": [
+              "degraded-appropriated"
+            ]
+          }
+        ],
+        "procurement_access": {
+          "value": "open-tender",
+          "summary": "South Korea is a party to the WTO Agreement on Government Procurement (GPA), which establishes an agreed framework of rights and obligations for government procurement among its members, generally promoting open and non-discriminatory access.",
+          "source_url": "https://www.wto.org/english/tratop_e/gproc_e/gpa_overview_e.htm",
+          "source_date": "not-stated",
+          "source_tier": "primary",
+          "flag": [
+            "soft-date"
+          ]
+        },
+        "apparatus": {
+          "value": "Ministry of Science and ICT (MSIT)",
+          "summary": "The Ministry of Science and ICT (MSIT) serves as the primary government body responsible for developing and implementing South Korea's AI strategy and initiatives, including the 'AI for All Project'.",
+          "source_url": "https://www.msit.go.kr/",
+          "source_date": "not-stated",
+          "source_tier": "primary",
+          "confirmed_active": true,
+          "flag": [
+            "soft-date"
+          ]
+        },
+        "compute_band": {
+          "value": "100-1000MW",
+          "mw": 591,
+          "as_of": "2025",
+          "summary": "~591 MW across ~147 data centers, concentrated Greater Seoul.",
+          "source_url": "https://www.fm.com/insights/the-rise-and-rise-of-south-koreas-data-center-industry",
+          "source_tier": "aggregator"
+        },
+        "compute_control": {
+          "value": "mixed",
+          "summary": "South Korea is actively pursuing the development of a 'Sovereign AI Model' through initiatives like the 'AI for All Project,' indicating a strategic goal for national control over AI infrastructure, despite current lags in cloud infrastructure and AI accelerators.",
+          "source_url": "https://www.msit.go.kr/",
+          "source_date": "2026-07-14",
+          "source_tier": "primary"
+        },
+        "chip_regime": null,
+        "power_posture": {
+          "value": "unknown",
+          "summary": "The provided bundles do not contain information regarding South Korea's power posture in relation to AI compute or data center operations.",
+          "source_url": null,
+          "source_date": null,
+          "source_tier": "unknown"
+        },
+        "national_champion": null,
+        "military_ai": {
+          "value": "active",
+          "summary": "South Korea's military is rapidly moving from debating to deploying AI in practice, with a public-defense AI alliance launched to link public-sector and military AI transformation, and domestic developers like Korea Aerospace Industries (KAI) and Hanwha Defense benefiting from government-funded R&D.",
+          "source_url": "https://www.apln.network/analysis/policy-briefs/south-korean-military-ai-integration-opportunities-and-risks",
+          "source_date": "2026-03-12",
+          "source_tier": "secondary"
+        },
+        "ethics_stance": {
+          "value": "stated-generic",
+          "summary": "South Korea's AI Basic Act, effective in 2026, aims to balance innovation with trust and safety through a risk-based approach, reflecting a generally stated-generic stance on AI ethics.",
+          "source_url": "https://regulations.ai/regulations/RAI-KR-NA-SUMMARY-2026",
+          "source_date": "2026-04-11",
+          "source_tier": "secondary"
+        },
+        "sectors": [
+          "defense",
+          "public sector",
+          "agriculture"
+        ],
+        "general_idea": "South Korea is aggressively pursuing AI leadership, backed by significant national budget allocations specifically for AI initiatives, aiming to become one of the world's top three AI powers. The Ministry of Science and ICT (MSIT) spearheads national AI strategy, including efforts to develop a 'Sovereign AI Model' despite current lags in cloud infrastructure. The military is actively integrating AI, supported by domestic defense developers and a public-defense AI alliance. The country's regulatory framework, guided by the AI Basic Act, seeks to balance innovation with trust and safety through a risk-based approach.",
+        "opportunity_read": "Because funding status is announced for a national-program of 10.1 trillion won (USD 7.27 billion) and procurement_access is open-tender, there is an opportunity for contractors. The compute_band is 100-1000MW with mixed compute_control, indicating significant infrastructure. Furthermore, with military_ai active and defense listed as a key sector, specialized AI solutions are likely in demand."
+      },
+      "chokepoint_node": {
+        "value": [
+          "Memory fab (HBM/DRAM)"
+        ],
+        "detail": "Samsung + SK hynix — the majority of HBM (high-bandwidth memory) that every AI accelerator requires.",
+        "source_url": "https://www.skhynix.com/products.do?ct1=71&ct2=74&lang=eng",
+        "source_tier": "industry"
+      },
+      "_joined": {
+        "compute_band_harvested": {
+          "value": "unknown",
+          "summary": "While South Korea has a lively tech sector and growing interest in data centers, specific figures regarding the total compute capacity in megawatts are not provided in the available information.",
+          "source_url": "https://www.statista.com/topics/13495/data-centers-in-south-korea/?srsltid=AfmBOor-yyAaT6s7JDh3rW1mclmHoBO1k3wqGANS4fZrAcOr7Ts_HNhk",
+          "source_date": "not-stated",
+          "source_tier": "secondary"
+        }
+      },
+      "_provenance": {
+        "strategy_snapshot": "http://web.archive.org/web/20260630104754/https://www.msit.go.kr/eng/",
+        "harvested_at": "2026-07-28T22:26:51Z",
+        "streams": {
+          "news": 11,
+          "infra": 1,
+          "procurement": 5,
+          "law": 2
+        },
+        "tokens": {
+          "in": 3617,
+          "out": 1247
+        }
+      }
+    },
+    {
+      "country": "Japan",
+      "iso3": "JPN",
+      "iso2": "JP",
+      "region": "APAC",
+      "strategy_url": "https://www8.cao.go.jp/cstp/tougosenryaku/togo2025_zentai.pdf",
+      "strategy_extraction": "ok",
+      "facts": {
+        "funding": [
+          {
+            "value": "¥1.5 trillion ($9.9 billion)",
+            "figure_scope": "multi-year-total",
+            "period": "2024",
+            "status": "announced",
+            "summary": "Japan allocated an additional ¥1.5 trillion ($9.9 billion) in an extra budget for 2024 to boost its chip and artificial intelligence initiatives, including moonshot foundry projects.",
+            "source_url": "https://finance.yahoo.com/news/japan-earmarks-extra-9-9-080342643.html",
+            "source_date": "2024-11-29",
+            "source_tier": "secondary"
+          },
+          {
+            "value": "¥252.5 billion ($1.6 billion)",
+            "figure_scope": "single-initiative",
+            "period": "2025",
+            "status": "announced",
+            "summary": "The Japanese government outlined an extra budget of approximately ¥252.5 billion ($1.6 billion) for 2025 to strengthen its push in AI and semiconductor development, approved by the Prime Minister's cabinet.",
+            "source_url": "https://www.tradingview.com/news/invezz:6fca0f328094b:0-japan-strengthens-ai-and-semiconductor-push-with-extra-budget-plan/",
+            "source_date": "2025-11-28",
+            "source_tier": "secondary"
+          }
+        ],
+        "procurement_access": {
+          "value": "open-tender",
+          "summary": "Japan, as a signatory to the WTO Agreement on Government Procurement (GPA), adheres to principles of non-discriminatory treatment for companies from other signatory countries in government procurement, with offsets generally prohibited.",
+          "source_url": "https://www.wto.org/english/tratop_e/gproc_e/gpa_overview_e.htm",
+          "source_date": "not-stated",
+          "source_tier": "primary",
+          "flag": [
+            "soft-date"
+          ]
+        },
+        "apparatus": {
+          "value": "Artificial Intelligence Strategy Headquarters",
+          "summary": "Japan has established an Artificial Intelligence Strategy Headquarters under the AI Promotion Act to oversee AI research, development, and utilization, with Chief AI Officers (CAIOs) in each ministry and the Digital Agency responsible for managing AI risks across the government.",
+          "source_url": "統合イノベーション戦略 2025",
+          "source_date": "2025-06-06",
+          "source_tier": "primary",
+          "confirmed_active": true,
+          "flag": [
+            "no-source"
+          ]
+        },
+        "compute_band": {
+          "value": "GW-scale",
+          "mw": 2300,
+          "as_of": "2025",
+          "summary": "~2.3 GW total capacity 2025 (500MW+ added).",
+          "source_url": "https://finance.yahoo.com/news/japan-data-center-portfolio-database-140600152.html",
+          "source_tier": "aggregator"
+        },
+        "compute_control": {
+          "value": "unknown",
+          "summary": "While the strategy mentions accelerating data center development and promoting shared computing resources, it does not explicitly state whether these are sovereign, hyperscaler-hosted, or a mixed model.",
+          "source_url": "統合イノベーション戦略 2025",
+          "source_date": "2025-06-06",
+          "source_tier": "primary"
+        },
+        "chip_regime": null,
+        "power_posture": {
+          "value": "unknown",
+          "summary": "The strategy mentions accelerating data center development through efficient electricity and communication infrastructure, but does not provide a clear posture on overall power abundance or constraint.",
+          "source_url": "統合イノベーション戦略 2025",
+          "source_date": "2025-06-06",
+          "source_tier": "primary"
+        },
+        "national_champion": null,
+        "military_ai": {
+          "value": "stated",
+          "summary": "Japan's Ministry of Defense announced its basic policy for AI utilization in July 2024, with guidelines aligning AI as an enabler for modernized defense capabilities, focusing on a measured, alliance-oriented approach while discussing strategic implications and operational risk management.",
+          "source_url": "https://rsis.edu.sg/rsis-publication/rsis/artificial-intelligence-for-the-defence-of-japan-cautious-but-steady-progress/",
+          "source_date": "2025-02-17",
+          "source_tier": "secondary"
+        },
+        "ethics_stance": {
+          "value": "stated-generic",
+          "summary": "Japan's AI Promotion Act emphasizes an 'innovation-first' approach while incorporating principles of human-centricity, human rights, and legal compliance, with specific measures for data security and transparent data management in AI systems to comply with privacy regulations.",
+          "source_url": "https://fpf.org/blog/understanding-japans-ai-promotion-act-an-innovation-first-blueprint-for-ai-regulation/",
+          "source_date": "2025-07-05",
+          "source_tier": "secondary"
+        },
+        "sectors": [
+          "healthcare",
+          "robotics",
+          "manufacturing",
+          "infrastructure",
+          "disaster prevention",
+          "security",
+          "government",
+          "agriculture",
+          "forestry",
+          "fisheries",
+          "space",
+          "oceanography",
+          "energy",
+          "materials",
+          "biotechnology"
+        ],
+        "general_idea": "Japan is pursuing a comprehensive national AI strategy, formalized by the AI Promotion Act and overseen by an Artificial Intelligence Strategy Headquarters. The nation is making significant financial commitments, with recent extra budgets allocating billions for AI and semiconductor development. While prioritizing innovation, Japan also emphasizes human-centric principles and responsible AI, with regulations addressing data privacy and security. The country is actively exploring AI's application across a wide array of sectors, including defense, where it adopts a cautious, alliance-oriented approach to leverage AI for modernized capabilities.",
+        "opportunity_read": "Because funding status is announced for ¥1.5 trillion ($9.9 billion) multi-year-total and ¥252.5 billion ($1.6 billion) single-initiative, and procurement_access is open-tender, there is a clear pathway for engagement. With GW-scale compute_band and a stated military_ai posture, opportunities exist across diverse sectors including healthcare, robotics, and manufacturing."
+      },
+      "chokepoint_node": {
+        "value": [
+          "Critical materials & gases",
+          "Fab equipment (deposition/etch/metrology)"
+        ],
+        "detail": "Photoresists and specialty materials (JSR, Tokyo Ohka, Shin-Etsu — silicon wafers); equipment (Tokyo Electron). Materials chokepoint demonstrated in the 2019 Japan-Korea dispute.",
+        "source_url": "https://www.shinetsu.co.jp/en/products/semiconductor/",
+        "source_tier": "industry"
+      },
+      "_joined": {
+        "compute_band_harvested": {
+          "value": "unknown",
+          "summary": "The provided bundles do not contain specific installed data center capacity figures for Japan to determine its compute band.",
+          "source_url": null,
+          "source_date": "unknown",
+          "source_tier": "unknown"
+        }
+      },
+      "_provenance": {
+        "strategy_snapshot": {
+          "status": "no-snapshot"
+        },
+        "harvested_at": "2026-07-28T22:27:22Z",
+        "streams": {
+          "news": 12,
+          "infra": 1,
+          "procurement": 5,
+          "law": 3
+        },
+        "tokens": {
+          "in": 57714,
+          "out": 1425
+        }
+      }
+    },
+    {
+      "country": "France",
+      "iso3": "FRA",
+      "iso2": "FR",
+      "region": "EUW",
+      "strategy_url": "https://www.info.gouv.fr/upload/media/default/0001/13/8fa2d762fb5e16af19bbf7ed74dc77bece5e9fe9.pdf",
+      "strategy_extraction": "ok",
+      "facts": {
+        "funding": [
+          {
+            "value": "3.3 billion euros",
+            "figure_scope": "multi-year-total",
+            "period": "unknown",
+            "status": "announced",
+            "summary": "France 2030 has dedicated 3.3 billion euros to AI across various sectors including health, agriculture, education, and defense, supporting nearly 700 projects.",
+            "source_url": "L’intelligence artificielle au service de nos quotidiens",
+            "source_date": "FÉVRIER 2025",
+            "source_tier": "primary",
+            "flag": [
+              "no-source",
+              "degraded-appropriated"
+            ]
+          },
+          {
+            "value": "420 million euros",
+            "figure_scope": "national-program",
+            "period": "unknown",
+            "status": "announced",
+            "summary": "France 2030 has allocated over 420 million euros for AI training and research across the territory to ensure broad access to AI education.",
+            "source_url": "L’intelligence artificielle au service de nos quotidiens",
+            "source_date": "FÉVRIER 2025",
+            "source_tier": "primary",
+            "flag": [
+              "no-source",
+              "degraded-appropriated"
+            ]
+          },
+          {
+            "value": "360 million euros",
+            "figure_scope": "national-program",
+            "period": "five years",
+            "status": "announced",
+            "summary": "Nine AI-Clusters, designated as poles of excellence in AI research and training, will receive 360 million euros in funding from France 2030 over five years.",
+            "source_url": "L’intelligence artificielle au service de nos quotidiens",
+            "source_date": "FÉVRIER 2025",
+            "source_tier": "primary",
+            "flag": [
+              "no-source",
+              "degraded-appropriated"
+            ]
+          },
+          {
+            "value": "87 million euros",
+            "figure_scope": "national-program",
+            "period": "unknown",
+            "status": "announced",
+            "summary": "14 projects under the 'Skills and Future Professions' call for projects received 87 million euros to scale up AI training nationwide.",
+            "source_url": "L’intelligence artificielle au service de nos quotidiens",
+            "source_date": "FÉVRIER 2025",
+            "source_tier": "primary",
+            "flag": [
+              "no-source",
+              "degraded-appropriated"
+            ]
+          },
+          {
+            "value": "655 million euros",
+            "figure_scope": "national-program",
+            "period": "unknown",
+            "status": "announced",
+            "summary": "French Prime Minister Sébastien Lecornu announced an additional investment of 655 million euros to accelerate AI development under the France 2030 plan.",
+            "source_url": "https://english.news.cn/europe/20260617/14b8e4b9afd041cba7a6b9df86735310/c.html",
+            "source_date": "2026-06-17",
+            "source_tier": "secondary"
+          }
+        ],
+        "procurement_access": {
+          "value": "open-tender",
+          "summary": "France, as an EU member, is a signatory to the WTO Agreement on Government Procurement (GPA), allowing U.S.-based companies to bid on public tenders, with offsets generally prohibited for covered procurements.",
+          "source_url": "https://www.trade.gov/country-commercial-guides/france-selling-public-sector",
+          "source_date": "2026-05-22",
+          "source_tier": "secondary"
+        },
+        "apparatus": {
+          "value": "Secrétariat général pour l’investissement (SGPI)",
+          "summary": "The Secretary General for Investment, overseeing the France 2030 plan, pilots the national AI strategy, with relevant ministries implementing specific initiatives.",
+          "source_url": "L’intelligence artificielle au service de nos quotidiens",
+          "source_date": "FÉVRIER 2025",
+          "source_tier": "primary",
+          "confirmed_active": true,
+          "flag": [
+            "no-source"
+          ]
+        },
+        "compute_band": {
+          "value": "GW-scale",
+          "mw": 1034,
+          "as_of": "2025",
+          "summary": "1,034 MW (France Datacenter); 700MW AI DC project planned.",
+          "source_url": "https://www.ultraedge.com/en/blog/how-many-data-centers-france",
+          "source_tier": "aggregator"
+        },
+        "compute_control": {
+          "value": "sovereign",
+          "summary": "France operates the Jean Zay supercomputer, dedicated in part to AI model training, and supports national champions like Mistral AI to provide sovereign and secure AI alternatives.",
+          "source_url": "L’intelligence artificielle au service de nos quotidiens",
+          "source_date": "FÉVRIER 2025",
+          "source_tier": "primary",
+          "flag": [
+            "no-source"
+          ]
+        },
+        "chip_regime": null,
+        "power_posture": {
+          "value": "unknown",
+          "summary": "The provided bundles highlight France's focus on optimizing renewable energy production and reducing energy consumption, but do not explicitly state whether the national power supply is abundant or constrained.",
+          "source_url": null,
+          "source_date": "not-stated",
+          "source_tier": "not-found"
+        },
+        "national_champion": {
+          "value": "Mistral AI",
+          "summary": "Mistral AI is identified as a key national champion, distinguishing France with its capacity to develop cutting-edge generative AI models and offering a sovereign alternative, supported by France 2030.",
+          "source_url": "L’intelligence artificielle au service de nos quotidiens",
+          "source_date": "FÉVRIER 2025",
+          "source_tier": "primary",
+          "flag": [
+            "no-source"
+          ]
+        },
+        "military_ai": {
+          "value": "active",
+          "summary": "France has an active military AI strategy, initiated in 2019, designating defense AI as a core national security interest with aims to maintain sovereign control over its development and deployment to enhance military capabilities.",
+          "source_url": "https://www.euractiv.com/news/france-designates-defence-ai-a-core-national-security-interest/",
+          "source_date": "2026-06-19",
+          "source_tier": "secondary"
+        },
+        "ethics_stance": {
+          "value": "rights-based",
+          "summary": "France's AI strategy emphasizes an ethical, committed, and responsible approach aligned with European values, reinforced by the EU AI Act (2024) which establishes strict norms for AI usage and citizen protection, alongside national data protection laws.",
+          "source_url": "L’intelligence artificielle au service de nos quotidiens",
+          "source_date": "FÉVRIER 2025",
+          "source_tier": "primary",
+          "flag": [
+            "no-source"
+          ]
+        },
+        "sectors": [
+          "health",
+          "agriculture",
+          "education",
+          "defense",
+          "energy",
+          "culture",
+          "cybersecurity",
+          "transport",
+          "industry",
+          "spatial",
+          "natural risk prevention",
+          "security",
+          "infrastructure resilience",
+          "research"
+        ],
+        "general_idea": "France positions AI as a strategic national priority, aiming for a 'French-style' ethical and responsible application of the technology to serve the common good and national values. The country has invested significantly through its France 2030 plan, dedicating billions to AI research, training, and deployment across diverse sectors including health, agriculture, education, and defense. France emphasizes the development of sovereign AI capabilities, exemplified by its national supercomputer Jean Zay and support for national champions like Mistral AI. The nation actively pursues military AI applications while adhering to a rights-based ethical framework, notably influenced by the EU AI Act, to ensure trustworthy and citizen-centric AI development and deployment.",
+        "opportunity_read": "Because funding status is announced, including a multi-year-total of 3.3 billion euros, and procurement_access is open-tender, there are clear avenues for engagement. The nation's compute_band is GW-scale with sovereign compute_control, indicating significant infrastructure and strategic intent. Furthermore, with an active military_ai posture and a national_champion like Mistral AI, opportunities exist across both civilian and defense sectors."
+      },
+      "chokepoint_node": {
+        "value": "none",
+        "detail": null,
+        "source_url": null,
+        "source_tier": "n/a"
+      },
+      "_joined": {
+        "compute_band_harvested": {
+          "value": "GW-scale",
+          "summary": "France has significant data center capacity under construction, with 283MW currently being built and 1.8GW in early-stage planning, indicating a substantial overall compute infrastructure.",
+          "source_url": "https://www.datacenterdynamics.com/en/analysis/france-ai-data-center-build-out-emmanuel-macron/",
+          "source_date": "2025-09-11",
+          "source_tier": "secondary"
+        }
+      },
+      "_provenance": {
+        "strategy_snapshot": {
+          "status": "no-snapshot"
+        },
+        "harvested_at": "2026-07-28T22:27:54Z",
+        "streams": {
+          "news": 12,
+          "infra": 1,
+          "procurement": 7,
+          "law": 3
+        },
+        "tokens": {
+          "in": 16101,
+          "out": 1911
+        }
+      }
+    },
+    {
+      "country": "Singapore",
+      "iso3": "SGP",
+      "iso2": "SG",
+      "region": "APAC",
+      "strategy_url": "https://www.smartnation.gov.sg/initiatives/national-ai-strategy/",
+      "strategy_extraction": "ok",
+      "facts": {
+        "funding": [
+          {
+            "value": "S$1 billion",
+            "figure_scope": "multi-year-total",
+            "period": "2025-2030",
+            "status": "announced",
+            "summary": "The Singapore government announced an additional investment of over S$1 billion over five years, from 2025 to 2030, to strengthen national AI research and development capabilities.",
+            "source_url": "https://www.mddi.gov.sg/newsroom/singapore-invests-over-s-1-billion-in-national-ai-research-and-development-plan-to-strengthen-ai-research-capabilities-and-our-position-as-global-ai-hub/",
+            "source_date": "2026-01-24",
+            "source_tier": "primary"
+          },
+          {
+            "value": "S$150 million",
+            "figure_scope": "single-initiative",
+            "period": "not-stated",
+            "status": "announced",
+            "summary": "The Enterprise Compute Initiative (ECI) is a S$150 million initiative designed to support companies' AI transformation efforts by facilitating access to cutting-edge AI tools, cloud compute, training, and engineering support.",
+            "source_url": "https://www.smartnation.gov.sg/initiatives/national-ai-strategy/",
+            "source_date": "2026-07-28",
+            "source_tier": "primary"
+          }
+        ],
+        "procurement_access": {
+          "value": "open-tender",
+          "summary": "Singapore is a party to the WTO Agreement on Government Procurement (GPA), which establishes an agreed framework of rights and obligations among its parties regarding national procurement laws and practices, generally promoting open and non-discriminatory tenders.",
+          "source_url": "https://www.wto.org/english/tratop_e/gproc_e/gpa_overview_e.htm",
+          "source_date": "not-stated",
+          "source_tier": "secondary",
+          "flag": [
+            "soft-date"
+          ]
+        },
+        "apparatus": {
+          "value": "National AI Council (NAIC)",
+          "summary": "The National AI Council (NAIC), chaired by Prime Minister Lawrence Wong, was established in February 2026 to provide strategic direction and drive Singapore’s AI agenda, with government agencies actively innovating with AI solutions.",
+          "source_url": "https://www.smartnation.gov.sg/initiatives/national-ai-strategy/",
+          "source_date": "2026-07-28",
+          "source_tier": "primary",
+          "confirmed_active": true
+        },
+        "compute_band": {
+          "value": "100-1000MW",
+          "mw": 500,
+          "as_of": "2025",
+          "summary": "~500+ MW; years-long moratorium, +300MW then +200MW allocation calls lifting it.",
+          "source_url": "https://www.lexology.com/library/detail.aspx?g=d8ce653e-8178-409c-ab59-5eadae4d51cd",
+          "source_tier": "aggregator"
+        },
+        "compute_control": {
+          "value": "mixed",
+          "summary": "Singapore's Enterprise Compute Initiative facilitates access to cloud compute from 'ECI cloud service partners' for companies, suggesting a reliance on hyperscaler-hosted solutions alongside potential sovereign capacity.",
+          "source_url": "https://www.smartnation.gov.sg/initiatives/national-ai-strategy/",
+          "source_date": "2026-07-28",
+          "source_tier": "primary",
+          "flag": [
+            "aspiration-not-infra"
+          ]
+        },
+        "chip_regime": null,
+        "power_posture": {
+          "value": "unknown",
+          "summary": "While Singapore is laying groundwork for data center growth and releasing 300MW of capacity, the bundles do not explicitly state whether its overall power posture is abundant or constrained.",
+          "source_url": null,
+          "source_date": "not-stated",
+          "source_tier": "not-found"
+        },
+        "national_champion": null,
+        "military_ai": {
+          "value": "active",
+          "summary": "Singapore has established guiding principles for responsible, robust, reliable, and safe AI for its defense sector since 2021, and is actively exploring conceptual, organizational, and technological development of AI in its defense and military innovation paths.",
+          "source_url": "https://www.mindef.gov.sg/news-and-events/latest-releases/15feb25_speech2/",
+          "source_date": "2025-02-15",
+          "source_tier": "primary"
+        },
+        "ethics_stance": {
+          "value": "rights-based",
+          "summary": "While Singapore's National AI Strategy promotes responsible AI, its Personal Data Protection Act 2012 (PDPA) and subsequent advisory guidelines establish obligations for the collection and use of personal data in AI systems, providing a legal framework for data protection rights.",
+          "source_url": "https://www.pdpc.gov.sg/-/media/files/pdpc/pdf-files/advisory-guidelines/advisory-guidelines-on-the-use-of-personal-data-in-ai-recommendation-and-decision-systems.pdf",
+          "source_date": "2024-03-01",
+          "source_tier": "primary"
+        },
+        "sectors": [
+          "government",
+          "industry"
+        ],
+        "general_idea": "Singapore maintains a proactive and government-led approach to AI development, guided by its National AI Strategy 2.0 and overseen by the National AI Council. The nation has committed significant funding, including over S$1 billion for national AI R&D through 2030 and S$150 million for compute access, to drive broad-based AI adoption across both government agencies and various industries. Singapore is also developing its compute infrastructure, with plans to release 300MW of data center capacity, and supports a mixed compute control model. In the defense sector, Singapore is actively developing AI capabilities under established guiding principles for responsible use. While there is no dedicated AI law, existing data protection legislation and advisory guidelines inform an ethics stance focused on data privacy and responsible AI implementation.",
+        "opportunity_read": "Because funding status is announced for S$1 billion (multi-year-total) and S$150 million (single-initiative), and procurement_access is open-tender, there are clear avenues for engagement. With compute_band at 100-1000MW and compute_control as mixed, the nation possesses significant and varied AI infrastructure. Furthermore, the military_ai posture is active, indicating a broad application of AI capabilities across sectors including government and industry."
+      },
+      "chokepoint_node": {
+        "value": "none",
+        "detail": null,
+        "source_url": null,
+        "source_tier": "n/a"
+      },
+      "_joined": {
+        "compute_band_harvested": {
+          "value": "100-1000MW",
+          "summary": "Singapore announced in May 2024 that it would release more data center capacity to the tune of 300MW, indicating a substantial capacity within the 100-1000MW range.",
+          "source_url": "https://www.datacenterdynamics.com/en/analysis/singapore-lays-the-groundwork-for-smart-data-center-growth/",
+          "source_date": "2024-06-25",
+          "source_tier": "secondary"
+        }
+      },
+      "_provenance": {
+        "strategy_snapshot": "http://web.archive.org/web/20260429201714/https://www.smartnation.gov.sg/initiatives/national-ai-strategy/",
+        "harvested_at": "2026-07-28T22:28:30Z",
+        "streams": {
+          "news": 12,
+          "infra": 2,
+          "procurement": 4,
+          "law": 3
+        },
+        "tokens": {
+          "in": 4465,
+          "out": 1525
+        }
+      }
+    },
+    {
+      "country": "Israel",
+      "iso3": "ISR",
+      "iso2": "IL",
+      "region": "MENA",
+      "strategy_url": "https://innovationisrael.org.il/wp-content/uploads/2025/05/AI-National-Program-en-14.5.25.pdf",
+      "strategy_extraction": "ok",
+      "facts": {
+        "funding": [
+          {
+            "value": "NIS 1 billion",
+            "figure_scope": "national-program",
+            "period": "2021-2026",
+            "status": "announced",
+            "summary": "The National Program for Artificial Intelligence, a multi-year initiative from 2021-2026, has been allocated approximately NIS 1 billion to date for reinforcing AI infrastructure, research, talent, and public sector implementation.",
+            "source_url": "https://aiisrael.org.il",
+            "source_date": "2025-04",
+            "source_tier": "primary",
+            "flag": [
+              "degraded-appropriated"
+            ]
+          },
+          {
+            "value": "$20-30 billion",
+            "figure_scope": "single-initiative",
+            "period": "not-stated",
+            "status": "approved",
+            "summary": "Israel's cabinet approved a national AI program targeting 100,000 processing units, with an estimated cost of $20-30 billion, to accelerate artificial intelligence development in the country.",
+            "source_url": "https://completeaitraining.com/news/israel-approves-national-ai-plan-with-30-billion-estimated/",
+            "source_date": "2026-06-29",
+            "source_tier": "secondary"
+          }
+        ],
+        "procurement_access": {
+          "value": "offset-localization",
+          "summary": "Foreign suppliers winning government or public tenders in Israel are required to engage in offset procurement within Israel, typically to the extent of 35% of the contract value.",
+          "source_url": "https://www.trade.gov/country-commercial-guides/israel-selling-public-sector",
+          "source_date": "2023-10-06",
+          "source_tier": "secondary"
+        },
+        "apparatus": {
+          "value": "AI and Autonomy Administration within the Defense Ministry; National Program for Artificial Intelligence led by Telem Forum",
+          "summary": "The Israeli Defense Ministry established a new AI and Autonomy Administration to lead research, development, and acquisition of AI, while the broader National Program for Artificial Intelligence is led by a central directorate and the inter-ministerial Telem Forum.",
+          "source_url": "https://jinsa.org/israels-new-ai-initiative-is-set-to-enhance-its-military-edge/",
+          "source_date": "2025-01-06",
+          "source_tier": "secondary",
+          "confirmed_active": true
+        },
+        "compute_band": {
+          "value": "100-1000MW",
+          "mw": 379,
+          "as_of": "2025",
+          "summary": "~378.8 MW installed 2025.",
+          "source_url": "https://www.mordorintelligence.com/industry-reports/israel-data-center-market",
+          "source_tier": "aggregator"
+        },
+        "compute_control": {
+          "value": "mixed",
+          "summary": "Israel aims to secure computational infrastructure sovereignty and is working to establish its own AI-HPC infrastructure, but also plans to transfer most governmental computational infrastructures to cloud platforms (Project Nimbus), indicating a reliance on hyperscalers for some services.",
+          "source_url": "https://aiisrael.org.il",
+          "source_date": "2025-04",
+          "source_tier": "primary"
+        },
+        "chip_regime": null,
+        "power_posture": {
+          "value": "unknown",
+          "summary": "The provided bundles discuss the general increase in energy demand from AI but do not offer specific information on Israel's national power grid capacity or posture.",
+          "source_url": "https://www.iea.org/reports/energy-and-ai/energy-demand-from-ai",
+          "source_date": "not-stated",
+          "source_tier": "secondary"
+        },
+        "national_champion": null,
+        "military_ai": {
+          "value": "active",
+          "summary": "AI is a cornerstone of Israel's national security strategy, with the IDF actively using AI to assist offensive decision-making, such as target identification, and the Defense Ministry has created a new AI and Autonomy Administration to lead military AI R&D and acquisition.",
+          "source_url": "https://jinsa.org/israels-new-ai-initiative-is-set-to-enhance-its-military-edge/",
+          "source_date": "2025-01-06",
+          "source_tier": "secondary"
+        },
+        "ethics_stance": {
+          "value": "stated-generic",
+          "summary": "Israel's regulatory approach to AI focuses on 'Responsible Innovation' and 'Responsible and trustworthy AI', balancing innovation with the protection of public interests and human rights, and aligning with OECD Trustworthy AI Principles, but without specific legal tails beyond general data privacy laws.",
+          "source_url": "https://dig.watch/resource/israels-policy-on-artificial-intelligence-regulation-and-ethics",
+          "source_date": "2023",
+          "source_tier": "primary"
+        },
+        "sectors": [
+          "high-tech",
+          "public sector",
+          "defense",
+          "healthcare",
+          "transportation",
+          "education",
+          "employment",
+          "energy",
+          "agriculture",
+          "finance",
+          "media",
+          "life sciences",
+          "cybersecurity",
+          "robotics"
+        ],
+        "general_idea": "Israel aims for global AI leadership, leveraging its strong R&D, commercialization, and talent base. The National Program for Artificial Intelligence, a multi-year initiative, focuses on reinforcing computational and data infrastructures, expanding the AI talent pipeline, and promoting AI adoption across high-tech and the public sector. The country is actively developing military AI capabilities, with a dedicated Defense Ministry administration. While aspiring to sovereign compute, it also utilizes cloud platforms. Its regulatory approach emphasizes 'Responsible Innovation' and sectoral regulation, balancing technological advancement with ethical considerations and data privacy.",
+        "opportunity_read": "Because funding includes both an announced NIS 1 billion national program and an approved $20-30 billion single initiative, and procurement_access is offset-localization, there are clear avenues for engagement. With compute_band at 100-1000MW and compute_control being mixed, the nation demonstrates significant, yet varied, AI infrastructure. The active military_ai posture, coupled with a chokepoint_node in GPU / accelerator design, indicates strategic priorities and potential areas for specialized collaboration within sectors like defense and high-tech."
+      },
+      "chokepoint_node": {
+        "value": [
+          "GPU / accelerator design"
+        ],
+        "detail": "Major accelerator/chip design centers (Nvidia's largest R&D outside the US via Mellanox; Intel Habana). Design node, not fabrication.",
+        "source_url": "https://nvidianews.nvidia.com/news/nvidia-mellanox",
+        "source_tier": "industry"
+      },
+      "_joined": {
+        "compute_band_harvested": {
+          "value": "unknown",
+          "summary": "While Israel plans to establish AI-optimized high-performance computing (AI-HPC) infrastructure with thousands of modern GPU cards, no current operational capacity in megawatts is stated.",
+          "source_url": "https://aiisrael.org.il",
+          "source_date": "2025-04",
+          "source_tier": "primary"
+        }
+      },
+      "_provenance": {
+        "strategy_snapshot": "http://web.archive.org/web/20260519045734/https://innovationisrael.org.il/wp-content/uploads/2025/05/AI-National-Program-en-14.5.25.pdf",
+        "harvested_at": "2026-07-28T22:29:01Z",
+        "streams": {
+          "news": 12,
+          "infra": 1,
+          "procurement": 5,
+          "law": 3
+        },
+        "tokens": {
+          "in": 21703,
+          "out": 1452
+        }
+      }
+    }
+  ]
+}

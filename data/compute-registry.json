@@ -1,0 +1,21 @@
+{
+  "_meta": {
+    "what": "Hand-curated datacenter-capacity registry for the KARTO nation axis. Per pilot finding P5/F4': per-country installed MW is NOT reliably in search snippets and the harvest returned compute_band=unknown ~10/10 twice. Retrieval was tried and failed; capacity is therefore hand-curated from named industry/energy sources, exactly like data/chokepoint-registry.json, and joined at build time.",
+    "figures_are_installed_it_power": "Values are installed / operational IT power capacity (MW) as most recently reported. Bands: <10MW / 10-100MW / 100-1000MW / GW-scale. Where a country is unambiguously tens of GW (US), band=GW-scale even without a single tidy MW figure.",
+    "no_fabrication": "Every entry carries the source that gave the figure. Countries with no sourced figure are simply absent (harvest keeps 'unknown').",
+    "authored": "2026-07-28",
+    "maintenance": "Capacity moves fast; re-check annually. as_of recorded per entry."
+  },
+  "capacity": {
+    "USA":  {"mw": null, "band": "GW-scale",   "as_of": "2024", "note": "Tens of GW; data centers = 4% of US electricity 2024. Largest market on earth.", "source": "https://www.iea.org/reports/energy-and-ai/energy-demand-from-ai"},
+    "CHN":  {"mw": 32000, "band": "GW-scale",  "as_of": "2025", "note": "~32 GW installed end-2025, projected 40 GW end-2026.", "source": "https://www.rystadenergy.com/news/chinas-data-center-capacity-doubling-of-power"},
+    "JPN":  {"mw": 2300, "band": "GW-scale",   "as_of": "2025", "note": "~2.3 GW total capacity 2025 (500MW+ added).", "source": "https://finance.yahoo.com/news/japan-data-center-portfolio-database-140600152.html"},
+    "IND":  {"mw": 1500, "band": "GW-scale",   "as_of": "2025", "note": "~1.5 GW mid-2025, up from 375-520 MW in 2020 (gov PIB + CBRE).", "source": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2239616"},
+    "FRA":  {"mw": 1034, "band": "GW-scale",   "as_of": "2025", "note": "1,034 MW (France Datacenter); 700MW AI DC project planned.", "source": "https://www.ultraedge.com/en/blog/how-many-data-centers-france"},
+    "KOR":  {"mw": 591,  "band": "100-1000MW", "as_of": "2025", "note": "~591 MW across ~147 data centers, concentrated Greater Seoul.", "source": "https://www.fm.com/insights/the-rise-and-rise-of-south-koreas-data-center-industry"},
+    "SAU":  {"mw": 440,  "band": "100-1000MW", "as_of": "2025", "note": "440 MW operational 2025 (from 68 MW in 2021); 2nd globally in market attractiveness.", "source": "https://www.spa.gov.sa/en/N2575816"},
+    "ISR":  {"mw": 379,  "band": "100-1000MW", "as_of": "2025", "note": "~378.8 MW installed 2025.", "source": "https://www.mordorintelligence.com/industry-reports/israel-data-center-market"},
+    "ARE":  {"mw": 358,  "band": "100-1000MW", "as_of": "2025", "note": "~358 MW current, set to ~950 MW by 2028 (+165%).", "source": "https://www.emiratesnbdresearch.com/-/media/emirates_nbd_research_-_macro_economics_10142025.pdf"},
+    "SGP":  {"mw": 500,  "band": "100-1000MW", "as_of": "2025", "note": "~500+ MW; years-long moratorium, +300MW then +200MW allocation calls lifting it.", "source": "https://www.lexology.com/library/detail.aspx?g=d8ce653e-8178-409c-ab59-5eadae4d51cd"}
+  }
+}
