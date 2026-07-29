@@ -108,6 +108,21 @@ def validate_metric(m, counters, is_funding_entry=False):
     # V1 — value present but no usable source
     if val not in EMPTY and not _url_ok(url):
         _flag(m, "no-source"); counters["no_source"] += 1
+    # V10 — gov/official domain is PRIMARY tier (fixes India PIB mis-tier that
+    # wrongly triggered V3 degradation). A national government's own domain is a
+    # primary source by definition. Runs BEFORE V3 so the tier is correct.
+    if _url_ok(url):
+        dom = _domain(url)
+        if (dom.endswith(".gov") or ".gov." in dom or dom.endswith(".gouv.fr")
+                or "pib.gov" in dom or ".go.kr" in dom or ".go.jp" in dom
+                or ".gov.uk" in dom or dom.endswith(".gob.es") or ".gc.ca" in dom):
+            if m.get("source_tier") != "primary":
+                m["source_tier"] = "primary"; _flag(m, "retier:gov-primary")
+    # V11 — out-of-vocabulary status (Israel had status='statu"'). A funding
+    # status outside the enum is a mis-extraction; normalize to unknown + flag.
+    if is_funding_entry and m.get("status") not in ("announced", "appropriated", "unknown", None):
+        _flag(m, f"bad-status:{str(m.get('status'))[:12]}")
+        m["status"] = "unknown"; counters["bad_status"] += 1
     # V3 — appropriated needs a primary budget instrument (funding entries only)
     if is_funding_entry and m.get("status") == "appropriated":
         u = (url or "").lower()
@@ -198,7 +213,7 @@ def main():
     d = json.load(open(path))
     counters = {"no_source": 0, "banned": 0, "degraded": 0, "soft_date": 0,
                 "thin_premise": 0, "retier": 0, "no_snapshot": 0, "aspiration": 0,
-                "future_date": 0}
+                "future_date": 0, "bad_status": 0}
     for rec in d.get("records", []):
         validate_record(rec, counters)
     d.setdefault("_meta", {})["validated"] = True

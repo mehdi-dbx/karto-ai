@@ -309,7 +309,10 @@ def reads_pass(out_path):
 
 # ---------------- csv roster ----------------
 def load_roster():
-    """iso2 -> {country, iso3, region, url} from docs/nation-sources.csv (+ hard iso2 map)."""
+    """key -> {country, iso3, region, url} from docs/nation-sources.csv.
+    Keyed by BOTH iso3 and (where known) iso2, so --countries accepts either.
+    At 89-scale we key primarily on iso3 (present in every CSV row); the iso2
+    aliases are a convenience for the pilot set."""
     import csv
     iso3_to_iso2 = {"USA":"US","CHN":"CN","ARE":"AE","SAU":"SA","IND":"IN","KOR":"KR",
         "JPN":"JP","FRA":"FR","SGP":"SG","ISR":"IL","DEU":"DE","GBR":"GB","BRA":"BR",
@@ -318,10 +321,14 @@ def load_roster():
     with open(os.path.join(ROOT, "docs", "nation-sources.csv")) as f:
         for row in csv.DictReader(f):
             iso3 = row["iso3"].strip()
+            if not iso3:
+                continue
+            rec = {"country": row["country"].strip(), "iso3": iso3,
+                   "region": row["region"].strip(), "url": row["official_source_url"].strip()}
+            roster[iso3] = rec              # every row keyed by iso3
             iso2 = iso3_to_iso2.get(iso3)
             if iso2:
-                roster[iso2] = {"country": row["country"].strip(), "iso3": iso3,
-                                "region": row["region"].strip(), "url": row["official_source_url"].strip()}
+                roster[iso2] = rec           # pilot convenience alias
     return roster
 
 # ---------------- chokepoint join ----------------
@@ -393,7 +400,9 @@ def harvest_one(iso2, meta):
         "STRATEGY": (strat_text if strat_status == "ok" else f"[STRATEGY {strat_status}: {url}]"),
         "NEWS": news, "INFRA": infra, "PROCUREMENT": procure, "LAW": law,
     }
-    record = {"country": country, "iso3": iso3, "iso2": iso2, "region": meta["region"],
+    # iso2 for display: the pilot alias if the caller passed one, else the iso3
+    iso2_disp = iso2 if len(iso2) == 2 else iso3
+    record = {"country": country, "iso3": iso3, "iso2": iso2_disp, "region": meta["region"],
               "strategy_url": url, "strategy_extraction": strat_status}
     facts, usage = gemini_extract(country, bundles)
     postprocess_facts(facts, url, strat_status)  # B5: PDF-URL inheritance + champion type
@@ -420,6 +429,8 @@ def main():
     ap.add_argument("--limit", type=int, default=0)
     ap.add_argument("--force", action="store_true")
     ap.add_argument("--dry", action="store_true")
+    ap.add_argument("--all", action="store_true",
+                    help="Sweep every distinct country in nation-sources.csv (89-scale).")
     ap.add_argument("--reads", action="store_true",
                     help="POST-VALIDATION pass: (re)generate opportunity_read from the "
                          "already-validated facts in --out. Run AFTER validate_nation.py.")
@@ -434,31 +445,39 @@ def main():
     if args.limit:
         want = want[:args.limit]
 
+    # --all sweeps every distinct country in the CSV (89-scale)
+    if args.all:
+        seen = set()
+        want = []
+        for k, m in roster.items():
+            if m["iso3"] not in seen:
+                seen.add(m["iso3"]); want.append(m["iso3"])
+
     out_path = os.path.join(ROOT, args.out)
-    existing = {}
+    existing = {}  # keyed by canonical iso3
     if os.path.exists(out_path) and not args.force:
         try:
             for rec in json.load(open(out_path)).get("records", []):
-                existing[rec["iso2"]] = rec
+                existing[rec["iso3"]] = rec
         except Exception:
             pass
 
     results = dict(existing)
-    for i, iso2 in enumerate(want):
-        if iso2 in existing and not args.force:
-            print(f"  skip {iso2} (already harvested)"); continue
-        if iso2 not in roster:
-            print(f"  !! {iso2} not in roster/CSV — skipping"); continue
-        meta = roster[iso2]
-        print(f"[{i+1}/{len(want)}] harvesting {meta['country']} ({iso2}) ...")
+    for i, key in enumerate(want):
+        if key not in roster:
+            print(f"  !! {key} not in roster/CSV — skipping"); continue
+        meta = roster[key]
+        iso3 = meta["iso3"]
+        if iso3 in existing and not args.force:
+            print(f"  skip {iso3} (already harvested)"); continue
+        print(f"[{i+1}/{len(want)}] harvesting {meta['country']} ({iso3}) ...")
         if args.dry:
-            st, stt = fetch_strategy_text(meta["iso3"], meta["url"])
-            print(f"    strategy: {stt}, {len(st.split())} words; "
-                  f"news/infra/procure via serper at run time")
+            st, stt = fetch_strategy_text(iso3, meta["url"])
+            print(f"    strategy: {stt}, {len(st.split())} words")
             continue
         try:
-            rec = harvest_one(iso2, meta)
-            results[iso2] = rec
+            rec = harvest_one(key, meta)
+            results[iso3] = rec
             u = rec["_provenance"]["tokens"]
             print(f"    ok — {u['in']} in / {u['out']} out; "
                   f"streams {rec['_provenance']['streams']}; strat={rec['strategy_extraction']}")
